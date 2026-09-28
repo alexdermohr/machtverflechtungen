@@ -1,0 +1,2 @@
+# machtverflechtungen
+Quellengebundene Dokumentation staatlicher, geheimdienstlicher, politischer und wirtschaftlicher Machtverflechtungen
