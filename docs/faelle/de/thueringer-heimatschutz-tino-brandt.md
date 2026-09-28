@@ -90,9 +90,12 @@ case_links: []
 
 ## Gesicherter Ereigniskern
 
-- **`CLM-DE-THS-001` — belegt, Gegenbefund:** Der Thüringer Untersuchungsausschuss fand keine Belege für eine gezielte Gründung rechtsextremer Strukturen durch das TLfV.
 - **`CLM-DE-THS-002` — belegt:** Der Ausschuss sah hinreichende Gründe für eine mittelbare Unterstützung und Begünstigung rechtsextremer Strukturen durch das TLfV.
 - **`CLM-DE-THS-003` — belegt:** Die hohen Zahlungen an V-Mann Tino Brandt ermöglichten ihm, Geld und Sachmittel in Aufbau und Funktionieren des THS sowie in Reisen, Propaganda und Aktionen zu stecken.
+
+## Gegenbefund zur Gründungsthese
+
+- **`CLM-DE-THS-001` — belegt, Gegenbefund:** Der Thüringer Untersuchungsausschuss fand keine Belege für eine gezielte Gründung rechtsextremer Strukturen durch das TLfV.
 
 ## Rekonstruktion
 

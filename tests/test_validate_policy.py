@@ -74,6 +74,26 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
 
+    def _sync_event_core_body(self, body: str, event_claims: list[str]) -> str:
+        lines = body.splitlines()
+        out: list[str] = []
+        in_event_core = False
+        for line in lines:
+            stripped = line.strip()
+            if stripped == "## Gesicherter Ereigniskern":
+                in_event_core = True
+            elif in_event_core and stripped.startswith("## "):
+                in_event_core = False
+            if (
+                in_event_core
+                and stripped.startswith("- ")
+                and "`CLM-" in line
+                and not any(f"`{claim_id}`" in line for claim_id in event_claims)
+            ):
+                continue
+            out.append(line)
+        return "\n".join(out)
+
     def _mutate_first_claim(self, **updates: object) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -126,6 +146,14 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                             break
 
         body = "\n".join(lines[end + 1 :]).lstrip("\n")
+        body = self._sync_event_core_body(
+            body,
+            [
+                item
+                for item in frontmatter.get("event_claims", [])
+                if isinstance(item, str)
+            ],
+        )
         rendered = yaml.safe_dump(
             frontmatter,
             sort_keys=False,
@@ -155,9 +183,24 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         text = path.read_text(encoding="utf-8")
         lines = text.splitlines()
         end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
-        frontmatter = "\n".join(lines[: end + 1])
+        frontmatter = yaml.safe_load("\n".join(lines[1:end]))
+        event_claims = [
+            item
+            for item in frontmatter.get("event_claims", [])
+            if isinstance(item, str)
+        ]
+        if old.startswith("CLM-") and old in event_claims and old != new:
+            event_claims = [item for item in event_claims if item != old]
+            frontmatter["event_claims"] = event_claims
         body = "\n".join(lines[end + 1 :]).replace(old, new)
-        path.write_text(f"{frontmatter}\n{body}\n", encoding="utf-8")
+        body = self._sync_event_core_body(body, event_claims)
+        rendered = yaml.safe_dump(
+            frontmatter,
+            sort_keys=False,
+            allow_unicode=True,
+            width=120,
+        )
+        path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
 
     def _organization_path(self) -> Path:
         return self.root / "docs" / "organisationen" / "atlantik-bruecke.md"
@@ -304,6 +347,35 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         hidden_source = (
             '\n<ul><li style="visibility:\n hidden">'
+            f'<a href="{source_url}">Quelle</a> {source_id}</li></ul>\n'
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_inline_style_never_satisfies_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            "\n<ul><li style=\"display:\\6e one\">"
             f'<a href="{source_url}">Quelle</a> {source_id}</li></ul>\n'
         )
         path.write_text(
@@ -1104,6 +1176,60 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_inline_style_never_satisfies_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f'\n<span style="display:\\6e one">CLM-DE-CELLER-001 {claim_text}</span>\n',
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
+    def test_svg_metadata_does_not_satisfy_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f"\n<svg><desc>CLM-DE-CELLER-001 {claim_text}</desc></svg>\n",
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
     def test_hidden_claim_id_does_not_satisfy_case_body_visibility(self) -> None:
         self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
         path = self._case_path()
@@ -1371,6 +1497,31 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn(
             "event claim CLM-DE-GEHLEN-001 belongs to case CASE-DE-ORG-GEHLEN-1946",
+            output,
+        )
+
+    def test_event_core_section_may_not_include_non_event_claim(self) -> None:
+        self._mutate_case(event_claims=["CLM-DE-CELLER-001"])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "Gesicherter Ereigniskern includes non-event claim CLM-DE-CELLER-002",
+            output,
+        )
+
+    def test_event_core_section_must_include_each_event_claim(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        text = text.replace(
+            "- **`CLM-DE-CELLER-002` — belegt:**",
+            "- **`CLM-DE-CELLER-HIDDEN` — belegt:**",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
             output,
         )
 

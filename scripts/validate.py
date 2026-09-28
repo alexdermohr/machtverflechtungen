@@ -175,7 +175,7 @@ class VisibleListLinkParser(HTMLParser):
             "wbr",
         }
     )
-    ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template"})
+    ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template", "svg"})
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -192,18 +192,14 @@ class VisibleListLinkParser(HTMLParser):
             name.casefold(): value.casefold() if isinstance(value, str) else value
             for name, value in attrs
         }
-        style = lowered.get("style")
-        if isinstance(style, str):
-            style_without_comments = re.sub(r"/\*.*?\*/", "", style, flags=re.DOTALL)
-            style_text = re.sub(r"\s+", "", style_without_comments)
-        else:
-            style_text = ""
+        # Inline style is deliberately fail-closed for visibility evidence.
+        # Reimplementing browser CSS parsing/cascade here would leave bypasses
+        # through escapes, comments, importance, or additional hiding rules.
         return (
             tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
             or "hidden" in lowered
             or lowered.get("aria-hidden") == "true"
-            or "display:none" in style_text
-            or "visibility:hidden" in style_text
+            or "style" in lowered
         )
 
     @staticmethod
@@ -412,12 +408,31 @@ class VisibleTextParser(HTMLParser):
         return " ".join(" ".join(self._text).split())
 
 
-def rendered_visible_text(path: Path) -> str:
-    rendered = render_site_markdown(markdown_body(path))
+def visible_markdown_text(value: str) -> str:
+    rendered = render_site_markdown(value)
     parser = VisibleTextParser()
     parser.feed(rendered)
     parser.close()
     return parser.text()
+
+
+def rendered_visible_text(path: Path) -> str:
+    return visible_markdown_text(markdown_body(path))
+
+
+def rendered_visible_section(path: Path, heading: str) -> str:
+    body = markdown_body(path)
+    marker = re.search(
+        rf"^##\s+{re.escape(heading)}\s*$",
+        body,
+        flags=re.MULTILINE,
+    )
+    if marker is None:
+        return ""
+    tail = body[marker.end() :]
+    next_heading = re.search(r"^##\s+", tail, flags=re.MULTILINE)
+    section = tail[: next_heading.start()] if next_heading is not None else tail
+    return visible_markdown_text(section)
 
 
 def exact_visible_id(text: str, identifier: str) -> bool:
@@ -724,6 +739,27 @@ def main() -> int:
 
         visible_body = rendered_visible_text(path)
         body_lexical = lexical_text(visible_body)
+
+        event_section = rendered_visible_section(path, "Gesicherter Ereigniskern")
+        visible_event_claim_ids = list(
+            dict.fromkeys(
+                re.findall(
+                    r"(?<![\w-])CLM-[A-Z0-9-]+(?![\w-])",
+                    event_section,
+                )
+            )
+        )
+        declared_event_claim_ids = string_list(meta.get("event_claims"))
+        for event_claim_id in declared_event_claim_ids:
+            if event_claim_id not in visible_event_claim_ids:
+                errors.append(
+                    f"{label}: event claim {event_claim_id} must appear in Gesicherter Ereigniskern"
+                )
+        for visible_event_claim_id in visible_event_claim_ids:
+            if visible_event_claim_id not in declared_event_claim_ids:
+                errors.append(
+                    f"{label}: Gesicherter Ereigniskern includes non-event claim {visible_event_claim_id}"
+                )
 
         for claim in mapping_list(meta.get("claims")):
             claim_id = claim.get("id")
