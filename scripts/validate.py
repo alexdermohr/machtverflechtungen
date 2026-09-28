@@ -178,6 +178,7 @@ class VisibleListLinkParser(HTMLParser):
     ALWAYS_HIDDEN_TAGS = frozenset(
         {"head", "iframe", "script", "style", "template", "svg"}
     )
+    FOREIGN_SELF_CLOSING_TAGS = frozenset({"math", "svg"})
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -286,12 +287,12 @@ class VisibleListLinkParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        # In HTML, the self-closing flag is ignored on non-void elements.
-        # Treat them as ordinary start tags so browser-hidden descendants
-        # cannot become visibility evidence in this parser.
+        # HTML ignores self-closing syntax on ordinary non-void elements,
+        # while foreign SVG/MathML roots are actually closed by the parser.
         tag = tag.casefold()
-        if tag not in self.VOID_TAGS:
-            self.handle_starttag(tag, attrs)
+        if tag in self.VOID_TAGS or tag in self.FOREIGN_SELF_CLOSING_TAGS:
+            return
+        self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
         if self._current_hidden():
@@ -402,12 +403,12 @@ class VisibleTextParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        # In HTML, the self-closing flag is ignored on non-void elements.
-        # Treat them as ordinary start tags so browser-hidden descendants
-        # cannot become visibility evidence in this parser.
+        # HTML ignores self-closing syntax on ordinary non-void elements,
+        # while foreign SVG/MathML roots are actually closed by the parser.
         tag = tag.casefold()
-        if tag not in self.VOID_TAGS:
-            self.handle_starttag(tag, attrs)
+        if tag in self.VOID_TAGS or tag in VisibleListLinkParser.FOREIGN_SELF_CLOSING_TAGS:
+            return
+        self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
         if not self._current_hidden():
@@ -443,8 +444,9 @@ class VisibleSectionTextParser(VisibleTextParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        if tag == "h2":
+        if tag in {"h1", "h2"}:
             self._capture = False
+        if tag == "h2":
             self._in_h2 = True
             self._h2_text = []
             self._h2_visible = False

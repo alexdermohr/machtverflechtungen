@@ -390,6 +390,39 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_self_closing_svg_does_not_hide_following_visible_content(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        claim_line = next(
+            line
+            for line in text.splitlines()
+            if "`CLM-DE-CELLER-001` — belegt:" in line
+        )
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if "SRC-DE-NI-MJ-CELLER-2015" in line and f"]({source_url})" in line
+        )
+        text = text.replace(
+            claim_line,
+            claim_line.replace("- **", '- <svg aria-hidden="true" /> **', 1),
+            1,
+        )
+        text = text.replace(
+            source_line,
+            source_line.replace("- [", '- <svg aria-hidden="true" /> [', 1),
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
+
     def test_self_closing_hidden_ancestor_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -1699,6 +1732,29 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn(
             "event claim CLM-DE-CELLER-001 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+
+    def test_event_core_capture_stops_at_following_h1(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        text = text.replace(
+            "- **`CLM-DE-CELLER-002` — belegt:** Die Operation sollte einen RAF-Befreiungsversuch vortäuschen; Öffentlichkeit und Strafverfolgungsbehörden wurden über die Urheber planmäßig getäuscht.\n",
+            "",
+            1,
+        )
+        text = text.replace(
+            "## Rekonstruktion",
+            "# Rekonstruktion\n\nCLM-DE-CELLER-002",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
             output,
         )
 
