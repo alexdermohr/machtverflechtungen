@@ -28,9 +28,17 @@ def frontmatter(path: Path) -> dict[str, Any]:
     return yaml.safe_load("\n".join(lines[1:end])) or {}
 
 
-def year(value: Any) -> int:
-    match = re.match(r"(\d{4})", str(value))
-    return int(match.group(1)) if match else 9999
+def start_sort_key(value: Any) -> tuple[int, int, int, str]:
+    text = str(value).strip()
+    match = re.match(r"^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?", text)
+    if not match:
+        return (9999, 99, 99, text)
+    year = int(match.group(1))
+    month = int(match.group(2)) if match.group(2) else 0
+    day = int(match.group(3)) if match.group(3) else 0
+    if month > 12 or day > 31:
+        return (year, 99, 99, text)
+    return (year, month, day, text)
 
 
 def esc(value: Any) -> str:
@@ -48,7 +56,7 @@ def records() -> list[tuple[dict[str, Any], str]]:
     return sorted(
         out,
         key=lambda item: (
-            year(item[0].get("period", {}).get("start", "")),
+            *start_sort_key(item[0].get("period", {}).get("start", "")),
             item[0].get("title", ""),
         ),
     )

@@ -52,6 +52,38 @@ class GeneratedIndexCheckTests(unittest.TestCase):
             code = build_indexes.main()
         return code, output.getvalue()
 
+    def test_records_sorts_same_year_by_complete_start_date(self) -> None:
+        cases_dir = self.root / "docs" / "faelle" / "sort-test"
+        cases_dir.mkdir(parents=True, exist_ok=True)
+        (cases_dir / "december.md").write_text(
+            "---\n"
+            "id: CASE-TEST-DECEMBER\n"
+            "type: case\n"
+            "title: Alpha December\n"
+            "period:\n"
+            "  start: '2099-12-01'\n"
+            "---\n",
+            encoding="utf-8",
+        )
+        (cases_dir / "january.md").write_text(
+            "---\n"
+            "id: CASE-TEST-JANUARY\n"
+            "type: case\n"
+            "title: Zeta January\n"
+            "period:\n"
+            "  start: '2099-01-15'\n"
+            "---\n",
+            encoding="utf-8",
+        )
+
+        ordered = [
+            meta["id"]
+            for meta, _path in build_indexes.records()
+            if meta.get("id") in {"CASE-TEST-DECEMBER", "CASE-TEST-JANUARY"}
+        ]
+
+        self.assertEqual(["CASE-TEST-JANUARY", "CASE-TEST-DECEMBER"], ordered)
+
     def test_check_accepts_current_generated_pages(self) -> None:
         code, output = self._run_check()
         self.assertEqual(0, code, output)

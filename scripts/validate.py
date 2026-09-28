@@ -205,7 +205,7 @@ def main() -> int:
             )
         elif (
             isinstance(case_evidence, str)
-            and case_evidence in {"strong", "plausible"}
+            and case_evidence in {"strong", "plausible", "contradicted"}
             and case_sources
             and all(source_id in source_tiers for source_id in case_sources)
             and not any(source_tiers[source_id] in {"A", "B", "C", "D"} for source_id in case_sources)
@@ -225,8 +225,8 @@ def main() -> int:
             evidence = claim.get("evidence_level")
             claim_sources = string_list(claim.get("sources"))
             source_optional = (
-                classification == "open_question"
-                or (classification == "hypothesis" and evidence == "speculative")
+                (classification == "open_question" or classification == "hypothesis")
+                and evidence == "speculative"
             )
             if not source_optional and not claim_sources:
                 errors.append(
@@ -244,7 +244,7 @@ def main() -> int:
                     or (
                         classification == "hypothesis"
                         and isinstance(evidence, str)
-                        and evidence in {"established", "strong", "plausible"}
+                        and evidence in {"established", "strong", "plausible", "contradicted"}
                     )
                 )
             )
@@ -345,7 +345,7 @@ def main() -> int:
                 )
             elif (
                 isinstance(organization_evidence, str)
-                and organization_evidence in {"strong", "plausible"}
+                and organization_evidence in {"strong", "plausible", "contradicted"}
                 and organization_sources
                 and all(source_id in source_tiers for source_id in organization_sources)
                 and not any(

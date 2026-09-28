@@ -382,6 +382,56 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("not one of", output)
 
+    def test_established_open_question_requires_a_source(self) -> None:
+        self._mutate_first_claim(
+            classification="open_question",
+            evidence_level="established",
+            sources=[],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("requires at least one source", output)
+
+    def test_speculative_open_question_may_remain_unsourced(self) -> None:
+        self._mutate_first_claim(
+            classification="open_question",
+            evidence_level="speculative",
+            sources=[],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(0, code, output)
+
+    def test_contradicted_hypothesis_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_first_claim(
+            classification="hypothesis",
+            evidence_level="contradicted",
+            sources=[lead],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("may not rely solely on Tier-E leads", output)
+
+    def test_contradicted_case_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_case(evidence_level="contradicted", sources=[lead])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "non-speculative case evidence may not rely solely on Tier-E leads",
+            output,
+        )
+
+    def test_contradicted_organization_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_organization(evidence_level="contradicted", sources=[lead])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "non-speculative organization evidence may not rely solely on Tier-E leads",
+            output,
+        )
+
     def test_speculative_hypothesis_may_remain_an_unsourced_open_lead(self) -> None:
         self._mutate_first_claim(
             classification="hypothesis",
