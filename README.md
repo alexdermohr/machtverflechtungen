@@ -31,7 +31,7 @@ Die erste Version testet das Modell an bewusst unterschiedlichen Gegenständen:
 4. Thüringer Heimatschutz / Tino Brandt
 5. Piazza Fontana / Strategie der Spannung
 
-Zusätzlich zeigt die Atlantik-Brücke exemplarisch, wie ein legales transnationales Kontakt- und Einflussnetzwerk modelliert werden kann, ohne aus Vernetzung automatisch illegitime Steuerung abzuleiten.
+Zusätzlich zeigt die Atlantik-Brücke exemplarisch, wie ein legales transnationales Kontakt- und Austauschnetzwerk modelliert werden kann, ohne aus Vernetzung automatisch illegitime Steuerung abzuleiten.
 
 ## Architektur
 
