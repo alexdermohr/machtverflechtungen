@@ -132,43 +132,96 @@ def markdown_body(path: Path) -> str:
 
 
 class VisibleListLinkParser(HTMLParser):
+    VOID_TAGS = frozenset(
+        {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+    )
+    ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template"})
+
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self._items: list[dict[str, Any]] = []
         self._anchors: list[dict[str, Any]] = []
+        self._elements: list[tuple[str, bool]] = []
         self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
+
+    @staticmethod
+    def _declares_hidden(
+        tag: str, attrs: list[tuple[str, str | None]]
+    ) -> bool:
+        lowered = {
+            name.casefold(): value.casefold() if isinstance(value, str) else value
+            for name, value in attrs
+        }
+        style = lowered.get("style")
+        style_text = style.replace(" ", "") if isinstance(style, str) else ""
+        return (
+            tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
+            or "hidden" in lowered
+            or lowered.get("aria-hidden") == "true"
+            or "display:none" in style_text
+            or "visibility:hidden" in style_text
+        )
+
+    def _current_hidden(self) -> bool:
+        return bool(self._elements and self._elements[-1][1])
+
+    def _close_element(self, tag: str) -> None:
+        for index in range(len(self._elements) - 1, -1, -1):
+            if self._elements[index][0] == tag:
+                del self._elements[index:]
+                return
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
+        tag = tag.casefold()
+        hidden = self._current_hidden() or self._declares_hidden(tag, attrs)
+        if tag not in self.VOID_TAGS:
+            self._elements.append((tag, hidden))
         if tag == "li":
-            self._items.append({"text": [], "links": []})
+            self._items.append({"text": [], "links": [], "hidden": hidden})
             return
         if tag == "a" and self._items:
-            href = next((value for name, value in attrs if name == "href"), None)
+            href = next((value for name, value in attrs if name.casefold() == "href"), None)
             self._anchors.append(
-                {"href": href if isinstance(href, str) else None, "text": []}
+                {
+                    "href": href if isinstance(href, str) else None,
+                    "text": [],
+                    "hidden": hidden,
+                }
             )
 
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        return
+
     def handle_data(self, data: str) -> None:
+        if self._current_hidden():
+            return
         if self._items:
             self._items[-1]["text"].append(data)
         if self._anchors:
             self._anchors[-1]["text"].append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
         if tag == "a" and self._anchors:
             anchor = self._anchors.pop()
             href = anchor.get("href")
             visible_anchor_text = " ".join("".join(anchor["text"]).split())
-            if self._items and isinstance(href, str):
+            if (
+                self._items
+                and anchor.get("hidden") is not True
+                and isinstance(href, str)
+            ):
                 self._items[-1]["links"].append((href, visible_anchor_text))
-            return
-        if tag != "li" or not self._items:
-            return
-        item = self._items.pop()
-        visible_text = " ".join("".join(item["text"]).split())
-        self.visible_items.append((visible_text, list(item["links"])))
+        elif tag == "li" and self._items:
+            item = self._items.pop()
+            if item.get("hidden") is not True:
+                visible_text = " ".join("".join(item["text"]).split())
+                self.visible_items.append((visible_text, list(item["links"])))
+        self._close_element(tag)
 
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
@@ -195,7 +248,7 @@ def direct_source_link_errors(
         if not isinstance(url, str):
             continue
         source_id_pattern = re.compile(
-            rf"(?<![A-Z0-9-]){re.escape(source_id)}(?![A-Z0-9-])"
+            rf"(?<![\w-]){re.escape(source_id)}(?![\w-])"
         )
         if not any(
             source_id_pattern.search(visible_text) is not None
