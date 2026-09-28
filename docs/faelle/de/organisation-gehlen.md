@@ -37,5 +37,5 @@ Personelle und institutionelle Kontinuität ist belegt. Eine direkte operative K
 
 ## Quellen
 
-- **SRC-DE-BPB-BND-2026**
-- **SRC-DE-BND-GESCHICHTE-2011**
+- [April 1956: Gründung des Bundesnachrichtendienstes](https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/) — Bundeszentrale für politische Bildung, 2026-03-31 — `SRC-DE-BPB-BND-2026`
+- [Mitteilungen der Forschungs- und Arbeitsgruppe Geschichte des BND – Sonderausgabe](https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2) — Bundesnachrichtendienst, 2011 — `SRC-DE-BND-GESCHICHTE-2011`

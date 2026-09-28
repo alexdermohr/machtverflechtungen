@@ -39,4 +39,4 @@ Der Fall belegt **nicht**, dass die RAF als Ganzes staatlich gesteuert war. Er b
 
 ## Quelle
 
-- **SRC-DE-NI-MJ-CELLER-2015**
+- [Justizministerin besucht das Celler Loch](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html) — Niedersächsisches Justizministerium, 2015-07-24 — `SRC-DE-NI-MJ-CELLER-2015`

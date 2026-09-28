@@ -35,4 +35,4 @@ Der parlamentarische Bericht spricht ausdrücklich von der Beteiligung eines **G
 
 ## Quelle
 
-- **SRC-DE-BT-04644-1953**
+- [Schriftlicher Bericht über die Geheimorganisation Technischer Dienst des BDJ in Hessen](https://dserver.bundestag.de/btd/01/046/0104644.pdf) — Deutscher Bundestag, 1953-07-01 — `SRC-DE-BT-04644-1953`

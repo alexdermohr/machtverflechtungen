@@ -110,6 +110,25 @@ class GeneratedIndexCheckTests(unittest.TestCase):
 
         self.assertEqual(["CASE-TEST-JANUARY", "CASE-TEST-DECEMBER"], ordered)
 
+    def test_render_sources_links_title_to_external_source(self) -> None:
+        url = "https://example.invalid/source.pdf"
+        rendered = build_indexes.render_sources(
+            [
+                {
+                    "id": "SRC-TEST-LINK",
+                    "title": "Direkt verlinkte Quelle",
+                    "institution": "Testinstitut",
+                    "date": "2026",
+                    "primary": True,
+                    "tier": "A",
+                    "url": url,
+                }
+            ]
+        )
+
+        self.assertIn(f"**[Direkt verlinkte Quelle]({url})**", rendered)
+        self.assertIn(f"[PDF öffnen]({url})", rendered)
+
     def test_render_sources_uses_unknown_for_null_date(self) -> None:
         rendered = build_indexes.render_sources(
             [

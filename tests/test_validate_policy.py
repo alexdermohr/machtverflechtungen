@@ -161,6 +161,41 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         return source_id
 
+    def test_case_source_must_be_directly_linked_in_visible_body(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        self.assertIn(f"]({source_url})", text)
+        path.write_text(text.replace(f"]({source_url})", "](https://example.invalid/not-the-source)", 1), encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must link directly to its registered URL in the page body",
+            output,
+        )
+
+    def test_organization_source_must_be_directly_linked_in_visible_body(self) -> None:
+        path = self._organization_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-ATLANTIKBRUECKE-YL"
+        source_url = "https://www.atlantik-bruecke.org/nachwuchsfoerderung/"
+        self.assertIn(f"]({source_url})", text)
+        path.write_text(text.replace(f"]({source_url})", "](https://example.invalid/not-the-source)", 1), encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must link directly to its registered URL in the page body",
+            output,
+        )
+
     def test_source_accessed_rejects_invalid_calendar_date(self) -> None:
         path = self.root / "data" / "sources.yml"
         payload = yaml.safe_load(path.read_text(encoding="utf-8"))

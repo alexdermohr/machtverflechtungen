@@ -118,6 +118,43 @@ def valid_https_url(value: Any) -> bool:
     return all(host_label.fullmatch(label) for label in labels)
 
 
+def markdown_body(path: Path) -> str:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return ""
+    try:
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+    except StopIteration:
+        return ""
+    return "\n".join(lines[end + 1 :])
+
+
+def direct_source_link_errors(
+    path: Path,
+    source_ids: list[str],
+    source_by_id: dict[str, dict[str, Any]],
+    label: str,
+) -> list[str]:
+    body = markdown_body(path)
+    out: list[str] = []
+    for source_id in source_ids:
+        source = source_by_id.get(source_id)
+        if not isinstance(source, dict):
+            continue
+        url = source.get("url")
+        if not isinstance(url, str):
+            continue
+        if source_id not in body:
+            out.append(
+                f"{label}: source {source_id} must remain visibly identified in the page body"
+            )
+        if f"]({url})" not in body:
+            out.append(
+                f"{label}: source {source_id} must link directly to its registered URL in the page body"
+            )
+    return out
+
+
 def established_supports(
     source_ids: list[str],
     source_by_id: dict[str, dict[str, Any]],
@@ -285,6 +322,9 @@ def main() -> int:
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
+        errors.extend(
+            direct_source_link_errors(path, case_sources, source_by_id, label)
+        )
         case_evidence = meta.get("evidence_level")
         if (
             case_evidence == "established"
@@ -425,6 +465,11 @@ def main() -> int:
             for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
+            errors.extend(
+                direct_source_link_errors(
+                    path, organization_sources, source_by_id, label
+                )
+            )
             organization_evidence = meta.get("evidence_level")
             if (
                 organization_evidence == "established"

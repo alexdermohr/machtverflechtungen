@@ -205,11 +205,11 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
             f'<a id="{source["id"].lower()}"></a>',
             f"## {source['id']}",
             "",
-            f"**{source['title']}**",
+            f"**[{source['title']}]({source['url']})**",
             "",
             f"{source['institution']} · {date_label} · Stufe **{source['tier']}** · {primary}",
             "",
-            f"[Original/Fundstelle]({source['url']})",
+            f"[{('PDF öffnen' if source['url'].lower().split('?', 1)[0].endswith('.pdf') else 'Seite öffnen')}]({source['url']})",
             "",
         ]
         if source.get("locator"):
