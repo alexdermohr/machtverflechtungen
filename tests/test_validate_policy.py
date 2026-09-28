@@ -58,6 +58,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
     def _case_path(self) -> Path:
         return self.root / "docs" / "faelle" / "de" / "celler-loch.md"
 
+    def _mutate_case(self, **updates: object) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        frontmatter = yaml.safe_load("\n".join(lines[1:end]))
+        frontmatter.update(updates)
+        body = "\n".join(lines[end + 1 :]).lstrip("\n")
+        rendered = yaml.safe_dump(
+            frontmatter,
+            sort_keys=False,
+            allow_unicode=True,
+            width=120,
+        )
+        path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
+
     def _mutate_first_claim(self, **updates: object) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -177,6 +193,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         code, output = self._run_validator()
         self.assertEqual(1, code)
         self.assertIn("expected mapping", output)
+
+    def test_invalid_case_sources_type_is_reported_without_crashing(self) -> None:
+        self._mutate_case(sources=None)
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not of type 'array'", output)
+
+    def test_invalid_relation_node_type_is_reported_without_crashing(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["relations"][0]["from"] = {"invalid": "node"}
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not of type 'string'", output)
+
+    def test_invalid_relation_sources_type_is_reported_without_crashing(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["relations"][0]["sources"] = None
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not of type 'array'", output)
 
     def test_speculative_hypothesis_may_remain_an_unsourced_open_lead(self) -> None:
         self._mutate_first_claim(

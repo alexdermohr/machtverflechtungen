@@ -62,6 +62,18 @@ def unique_ids(items: list[dict[str, Any]], label: str, errors: list[str]) -> se
     return seen
 
 
+def string_list(value: Any) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    return [item for item in value if isinstance(item, str)]
+
+
+def mapping_list(value: Any) -> list[dict[str, Any]]:
+    if not isinstance(value, list):
+        return []
+    return [item for item in value if isinstance(item, dict)]
+
+
 def load_catalog(
     filename: str,
     key: str,
@@ -129,23 +141,24 @@ def main() -> int:
                 errors.append(f"global IDs: duplicate id {case_id}")
             case_ids.add(case_id)
 
-        for claim in meta.get("claims", []):
-            if not isinstance(claim, dict):
-                errors.append(f"{label}: claim must be a mapping")
-                continue
-            claim_label = f"{label}:{claim.get('id', '<unknown-claim>')}"
-            errors.extend(schema_errors(claim, "claim.schema.json", claim_label))
-            claim_id = claim.get("id")
-            if isinstance(claim_id, str):
-                if claim_id in claim_ids:
-                    errors.append(f"claims: duplicate id {claim_id}")
-                claim_ids.add(claim_id)
-
+        raw_claims = meta.get("claims", [])
+        if isinstance(raw_claims, list):
+            for claim in raw_claims:
+                if not isinstance(claim, dict):
+                    errors.append(f"{label}: claim must be a mapping")
+                    continue
+                claim_label = f"{label}:{claim.get('id', '<unknown-claim>')}"
+                errors.extend(schema_errors(claim, "claim.schema.json", claim_label))
+                claim_id = claim.get("id")
+                if isinstance(claim_id, str):
+                    if claim_id in claim_ids:
+                        errors.append(f"claims: duplicate id {claim_id}")
+                    claim_ids.add(claim_id)
         cases.append((path, meta))
 
     for path, meta in cases:
         label = str(path.relative_to(ROOT))
-        case_sources = meta.get("sources", [])
+        case_sources = string_list(meta.get("sources"))
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
@@ -158,19 +171,17 @@ def main() -> int:
             errors.append(
                 f"{label}: non-speculative case evidence may not rely solely on Tier-E leads"
             )
-        for actor_id in meta.get("actors", []):
+        for actor_id in string_list(meta.get("actors")):
             if actor_id not in entity_ids:
                 errors.append(f"{label}: unknown actor {actor_id}")
-        for mechanism_id in meta.get("mechanisms", []):
+        for mechanism_id in string_list(meta.get("mechanisms")):
             if mechanism_id not in mechanism_ids:
                 errors.append(f"{label}: unknown mechanism {mechanism_id}")
 
-        for claim in meta.get("claims", []):
-            if not isinstance(claim, dict):
-                continue
+        for claim in mapping_list(meta.get("claims")):
             classification = claim.get("classification")
             evidence = claim.get("evidence_level")
-            claim_sources = claim.get("sources", [])
+            claim_sources = string_list(claim.get("sources"))
             source_optional = (
                 classification == "open_question"
                 or (classification == "hypothesis" and evidence == "speculative")
@@ -207,13 +218,13 @@ def main() -> int:
     node_ids = entity_ids | case_ids
     for relation in relations:
         relation_id = relation.get("id", "<unknown-relation>")
-        if relation.get("from") not in node_ids:
-            errors.append(
-                f"{relation_id}: unknown from-node {relation.get('from')}"
-            )
-        if relation.get("to") not in node_ids:
-            errors.append(f"{relation_id}: unknown to-node {relation.get('to')}")
-        relation_sources = relation.get("sources", [])
+        from_id = relation.get("from")
+        to_id = relation.get("to")
+        if isinstance(from_id, str) and from_id not in node_ids:
+            errors.append(f"{relation_id}: unknown from-node {from_id}")
+        if isinstance(to_id, str) and to_id not in node_ids:
+            errors.append(f"{relation_id}: unknown to-node {to_id}")
+        relation_sources = string_list(relation.get("sources"))
         for source_id in relation_sources:
             if source_id not in source_ids:
                 errors.append(f"{relation_id}: unknown source {source_id}")
@@ -242,9 +253,9 @@ def main() -> int:
                 continue
             errors.extend(schema_errors(meta, "organization.schema.json", label))
             entity_id = meta.get("id")
-            if entity_id not in entity_ids:
+            if isinstance(entity_id, str) and entity_id not in entity_ids:
                 errors.append(f"{label}: unknown organization entity {entity_id}")
-            organization_sources = meta.get("sources", [])
+            organization_sources = string_list(meta.get("sources"))
             for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
