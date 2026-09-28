@@ -78,4 +78,6 @@ Senato della Repubblica · 2006-12-12 · Stufe **A** · Primärquelle
 
 Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle
 
-[Original/Fundstelle](https://www.atlantik-bruecke.org/programme/young_leaders_program/)
+[Original/Fundstelle](https://www.atlantik-bruecke.org/nachwuchsfoerderung/)
+
+Fundstelle: Abschnitt Young Leaders Programm

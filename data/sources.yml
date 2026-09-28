@@ -74,5 +74,7 @@ sources:
   type: organization_self_description
   primary: true
   tier: A
-  url: https://www.atlantik-bruecke.org/programme/young_leaders_program/
+  url: https://www.atlantik-bruecke.org/nachwuchsfoerderung/
   accessed: '2026-09-28'
+  locator: Abschnitt Young Leaders Programm
+  notes: Offizielle Programmübersicht der Atlantik-Brücke; beschreibt das Young Leaders Programm als Austausch- und Netzwerkprogramm für Nachwuchsführungskräfte.
