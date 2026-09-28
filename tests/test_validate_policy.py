@@ -390,6 +390,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_iframe_fallback_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            '\n<iframe src="about:blank"><ul><li>'
+            f'<a href="{source_url}">Quelle</a> {source_id}'
+            "</li></ul></iframe>\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_html_comment_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -1230,6 +1260,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_iframe_fallback_does_not_satisfy_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f'\n<iframe src="about:blank">CLM-DE-CELLER-001 {claim_text}</iframe>\n',
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
     def test_hidden_claim_id_does_not_satisfy_case_body_visibility(self) -> None:
         self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
         path = self._case_path()
@@ -1524,6 +1581,17 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
             output,
         )
+
+    def test_event_core_heading_may_use_attr_list(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8").replace(
+            "## Gesicherter Ereigniskern",
+            "## Gesicherter Ereigniskern {#ereigniskern}",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+        code, output = self._run_validator()
+        self.assertEqual(0, code, output)
 
     def test_event_claim_must_be_fact(self) -> None:
         self._mutate_first_claim(classification="hypothesis")

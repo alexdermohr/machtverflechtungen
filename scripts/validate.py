@@ -175,7 +175,9 @@ class VisibleListLinkParser(HTMLParser):
             "wbr",
         }
     )
-    ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template", "svg"})
+    ALWAYS_HIDDEN_TAGS = frozenset(
+        {"head", "iframe", "script", "style", "template", "svg"}
+    )
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -422,8 +424,9 @@ def rendered_visible_text(path: Path) -> str:
 
 def rendered_visible_section(path: Path, heading: str) -> str:
     body = markdown_body(path)
+    heading_pattern = rf"^##\s+{re.escape(heading)}" + r"(?:\s+\{[^\n{}]*\})?\s*$"
     marker = re.search(
-        rf"^##\s+{re.escape(heading)}\s*$",
+        heading_pattern,
         body,
         flags=re.MULTILINE,
     )
