@@ -30,4 +30,4 @@ Die ersten beiden Fragen dokumentieren Netzwerkstruktur. Erst die dritte kann ge
 
 ## Quelle
 
-- **SRC-DE-ATLANTIKBRUECKE-YL**
+- [Young Leaders Program](https://www.atlantik-bruecke.org/nachwuchsfoerderung/) — Atlantik-Brücke e.V., laufend — `SRC-DE-ATLANTIKBRUECKE-YL`

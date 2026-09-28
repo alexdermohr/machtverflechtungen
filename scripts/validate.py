@@ -4,11 +4,14 @@ from __future__ import annotations
 import json
 import re
 import sys
+import unicodedata
 from datetime import date
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
 
+import markdown
 import yaml
 from jsonschema import Draft202012Validator
 
@@ -116,6 +119,158 @@ def valid_https_url(value: Any) -> bool:
     labels = ascii_host.split(".")
     host_label = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?")
     return all(host_label.fullmatch(label) for label in labels)
+
+
+def markdown_body(path: Path) -> str:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return ""
+    try:
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+    except StopIteration:
+        return ""
+    return "\n".join(lines[end + 1 :])
+
+
+def has_visible_text(value: str) -> bool:
+    return any(
+        unicodedata.category(char)[0] in {"L", "N", "P", "S"}
+        for char in value
+    )
+
+
+class VisibleListLinkParser(HTMLParser):
+    VOID_TAGS = frozenset(
+        {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+    )
+    ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template"})
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self._items: list[dict[str, Any]] = []
+        self._anchors: list[dict[str, Any]] = []
+        self._elements: list[tuple[str, bool]] = []
+        self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
+
+    @staticmethod
+    def _declares_hidden(
+        tag: str, attrs: list[tuple[str, str | None]]
+    ) -> bool:
+        lowered = {
+            name.casefold(): value.casefold() if isinstance(value, str) else value
+            for name, value in attrs
+        }
+        style = lowered.get("style")
+        style_text = style.replace(" ", "") if isinstance(style, str) else ""
+        return (
+            tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
+            or "hidden" in lowered
+            or lowered.get("aria-hidden") == "true"
+            or "display:none" in style_text
+            or "visibility:hidden" in style_text
+        )
+
+    def _current_hidden(self) -> bool:
+        return bool(self._elements and self._elements[-1][1])
+
+    def _close_element(self, tag: str) -> None:
+        for index in range(len(self._elements) - 1, -1, -1):
+            if self._elements[index][0] == tag:
+                del self._elements[index:]
+                return
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        hidden = self._current_hidden() or self._declares_hidden(tag, attrs)
+        if tag not in self.VOID_TAGS:
+            self._elements.append((tag, hidden))
+        if tag == "li":
+            self._items.append({"text": [], "links": [], "hidden": hidden})
+            return
+        if tag == "a" and self._items:
+            href = next((value for name, value in attrs if name.casefold() == "href"), None)
+            self._anchors.append(
+                {
+                    "href": href if isinstance(href, str) else None,
+                    "text": [],
+                    "hidden": hidden,
+                }
+            )
+
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        return
+
+    def handle_data(self, data: str) -> None:
+        if self._current_hidden():
+            return
+        if self._items:
+            self._items[-1]["text"].append(data)
+        if self._anchors:
+            self._anchors[-1]["text"].append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
+        if tag == "a" and self._anchors:
+            anchor = self._anchors.pop()
+            href = anchor.get("href")
+            visible_anchor_text = " ".join("".join(anchor["text"]).split())
+            if (
+                self._items
+                and anchor.get("hidden") is not True
+                and isinstance(href, str)
+            ):
+                self._items[-1]["links"].append((href, visible_anchor_text))
+        elif tag == "li" and self._items:
+            item = self._items.pop()
+            if item.get("hidden") is not True:
+                visible_text = " ".join("".join(item["text"]).split())
+                self.visible_items.append((visible_text, list(item["links"])))
+        self._close_element(tag)
+
+
+def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
+    rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
+    parser = VisibleListLinkParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.visible_items
+
+
+def direct_source_link_errors(
+    path: Path,
+    source_ids: list[str],
+    source_by_id: dict[str, dict[str, Any]],
+    label: str,
+) -> list[str]:
+    items = rendered_list_links(path)
+    out: list[str] = []
+    for source_id in source_ids:
+        source = source_by_id.get(source_id)
+        if not isinstance(source, dict):
+            continue
+        url = source.get("url")
+        if not isinstance(url, str):
+            continue
+        source_id_pattern = re.compile(
+            rf"(?<![\w-]){re.escape(source_id)}(?![\w-])"
+        )
+        if not any(
+            source_id_pattern.search(visible_text) is not None
+            and any(
+                href == url and has_visible_text(anchor_text)
+                for href, anchor_text in links
+            )
+            for visible_text, links in items
+        ):
+            out.append(
+                f"{label}: source {source_id} must be visibly listed with a "
+                "clickable link to its registered URL"
+            )
+    return out
 
 
 def established_supports(
@@ -282,9 +437,23 @@ def main() -> int:
             ):
                 errors.append(f"{label}: period.end precedes period.start")
         case_sources = string_list(meta.get("sources"))
+        claim_source_ids = [
+            source_id
+            for claim in mapping_list(meta.get("claims"))
+            for source_id in string_list(claim.get("sources"))
+        ]
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
+        for source_id in claim_source_ids:
+            if source_id not in case_sources:
+                errors.append(
+                    f"{label}: claim source {source_id} must also appear in case.sources"
+                )
+        public_source_ids = list(dict.fromkeys([*case_sources, *claim_source_ids]))
+        errors.extend(
+            direct_source_link_errors(path, public_source_ids, source_by_id, label)
+        )
         case_evidence = meta.get("evidence_level")
         if (
             case_evidence == "established"
@@ -425,6 +594,11 @@ def main() -> int:
             for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
+            errors.extend(
+                direct_source_link_errors(
+                    path, organization_sources, source_by_id, label
+                )
+            )
             organization_evidence = meta.get("evidence_level")
             if (
                 organization_evidence == "established"

@@ -34,5 +34,5 @@ Diese Fallakte ist bewusst ein Einstieg, keine abgeschlossene Gesamtdarstellung.
 
 ## Quellen
 
-- **SRC-IT-SENATO-STRAGI-2001**
-- **SRC-IT-SENATO-PIAZZA-2006**
+- [Commissione parlamentare d'inchiesta sul terrorismo in Italia – atti e proposte di relazione pubblicati nel 2001](https://www.senato.it/service/PDF/PDFServer/BGT/301445.pdf) — Parlamento italiano, 2001 — `SRC-IT-SENATO-STRAGI-2001`
+- [Sull'anniversario della strage di piazza Fontana](https://www.senato.it/show-doc?id=227361&idoggetto=0&leg=15&part=doc_dc-ressten_rs-gentit_sadsdpf&tipodoc=resaula) — Senato della Repubblica, 2006-12-12 — `SRC-IT-SENATO-PIAZZA-2006`

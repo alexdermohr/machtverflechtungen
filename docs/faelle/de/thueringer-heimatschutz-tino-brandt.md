@@ -45,4 +45,4 @@ Gleichzeitig sah er hinreichende Gründe für **mittelbare Unterstützung und Be
 
 ## Quelle
 
-- **SRC-DE-THLT-NSU-UA-2014**
+- [Bericht des Untersuchungsausschusses Rechtsterrorismus und Behördenhandeln](https://www.thueringer-landtag.de/fileadmin/Redaktion/1-Hauptmenue/1-Landtag/3-Ausschuesse_und_Gremien/3-Untersuchungsausschuesse/1-Untersuchungsausschuss_6-1/Dokumente/mogliches-fehlverhalten-der-thuringer-sicherheits-und-justizbehorden-einschliesslich-der-zustandigen-ministerien-unter-einschluss-der-politischen.pdf) — Thüringer Landtag, 2014 — `SRC-DE-THLT-NSU-UA-2014`
