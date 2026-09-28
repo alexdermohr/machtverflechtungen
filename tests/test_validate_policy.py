@@ -109,6 +109,35 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
 
+    def _add_test_source(
+        self,
+        source_id: str,
+        *,
+        tier: str,
+        institution: str,
+        primary: bool = False,
+    ) -> str:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"].append(
+            {
+                "id": source_id,
+                "title": f"Testquelle {source_id}",
+                "institution": institution,
+                "date": "2026-09-28",
+                "type": "test_source",
+                "primary": primary,
+                "tier": tier,
+                "url": f"https://example.invalid/{source_id.lower()}",
+                "accessed": "2026-09-28",
+            }
+        )
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+        return source_id
+
     def _add_tier_e_source(self) -> str:
         source_id = "SRC-TEST-LEAD"
         path = self.root / "data" / "sources.yml"
@@ -157,6 +186,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         lead = self._add_tier_e_source()
         path = self.root / "data" / "relations.yml"
         payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["relations"][0]["evidence_level"] = "strong"
         payload["relations"][0]["sources"] = [lead]
         path.write_text(
             yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
@@ -174,11 +204,111 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
     def test_organization_may_not_rely_only_on_tier_e_leads(self) -> None:
         lead = self._add_tier_e_source()
-        self._mutate_organization(sources=[lead])
+        self._mutate_organization(evidence_level="strong", sources=[lead])
         code, output = self._run_validator()
         self.assertEqual(1, code)
         self.assertIn(
             "non-speculative organization evidence may not rely solely on Tier-E leads",
+            output,
+        )
+
+    def test_established_case_rejects_single_tier_d_source(self) -> None:
+        source_id = self._add_test_source(
+            "SRC-TEST-TIER-D",
+            tier="D",
+            institution="Testinstitut D",
+        )
+        self._mutate_case(evidence_level="established", sources=[source_id])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "established case evidence requires a Tier-A primary source",
+            output,
+        )
+
+    def test_established_claim_rejects_single_tier_b_source(self) -> None:
+        self._mutate_first_claim(
+            classification="fact",
+            evidence_level="established",
+            sources=["SRC-DE-BPB-BND-2026"],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "with established evidence requires a Tier-A primary source",
+            output,
+        )
+
+    def test_established_claim_accepts_two_independent_high_quality_sources(self) -> None:
+        source_id = self._add_test_source(
+            "SRC-TEST-TIER-C-INDEPENDENT",
+            tier="C",
+            institution="Unabhängiges Testinstitut",
+        )
+        self._mutate_first_claim(
+            classification="fact",
+            evidence_level="established",
+            sources=["SRC-DE-BPB-BND-2026", source_id],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(0, code, output)
+
+    def test_established_claim_rejects_two_high_quality_sources_from_same_institution(self) -> None:
+        source_id = self._add_test_source(
+            "SRC-TEST-TIER-C-SAME-INSTITUTION",
+            tier="C",
+            institution="Bundeszentrale für politische Bildung",
+        )
+        self._mutate_first_claim(
+            classification="fact",
+            evidence_level="established",
+            sources=["SRC-DE-BPB-BND-2026", source_id],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("different institutions", output)
+
+    def test_established_relation_rejects_single_tier_d_source(self) -> None:
+        source_id = self._add_test_source(
+            "SRC-TEST-RELATION-TIER-D",
+            tier="D",
+            institution="Testinstitut Relation",
+        )
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["relations"][0]["evidence_level"] = "established"
+        payload["relations"][0]["sources"] = [source_id]
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "established relation evidence requires a Tier-A primary source",
+            output,
+        )
+
+    def test_established_organization_rejects_single_tier_b_source(self) -> None:
+        self._mutate_organization(
+            evidence_level="established",
+            sources=["SRC-DE-BPB-BND-2026"],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "established organization evidence requires a Tier-A primary source",
+            output,
+        )
+
+    def test_duplicate_organization_profile_id_is_rejected(self) -> None:
+        source = self._organization_path()
+        duplicate = source.with_name("atlantik-bruecke-duplicate.md")
+        duplicate.write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "organization profiles: duplicate id ORG-DE-ATLANTIK-BRUECKE",
             output,
         )
 

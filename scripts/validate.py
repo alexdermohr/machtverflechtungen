@@ -74,6 +74,29 @@ def mapping_list(value: Any) -> list[dict[str, Any]]:
     return [item for item in value if isinstance(item, dict)]
 
 
+def established_supports(
+    source_ids: list[str],
+    source_by_id: dict[str, dict[str, Any]],
+) -> bool:
+    if not source_ids or any(source_id not in source_by_id for source_id in source_ids):
+        return False
+    resolved = [source_by_id[source_id] for source_id in source_ids]
+    if any(
+        source.get("tier") == "A" and source.get("primary") is True
+        for source in resolved
+    ):
+        return True
+    high_quality = [
+        source for source in resolved if source.get("tier") in {"B", "C"}
+    ]
+    institutions = {
+        source["institution"].strip().casefold()
+        for source in high_quality
+        if isinstance(source.get("institution"), str) and source["institution"].strip()
+    }
+    return len(high_quality) >= 2 and len(institutions) >= 2
+
+
 def load_catalog(
     filename: str,
     key: str,
@@ -114,10 +137,14 @@ def main() -> int:
     )
 
     source_ids = unique_ids(sources, "sources", errors)
-    source_tiers = {
-        item["id"]: item.get("tier")
+    source_by_id = {
+        item["id"]: item
         for item in sources
         if isinstance(item.get("id"), str)
+    }
+    source_tiers = {
+        source_id: item.get("tier")
+        for source_id, item in source_by_id.items()
     }
     entity_ids = unique_ids(entities, "entities", errors)
     mechanism_ids = unique_ids(mechanisms, "mechanisms", errors)
@@ -167,8 +194,18 @@ def main() -> int:
                 errors.append(f"{label}: unknown source {source_id}")
         case_evidence = meta.get("evidence_level")
         if (
+            case_evidence == "established"
+            and case_sources
+            and all(source_id in source_by_id for source_id in case_sources)
+            and not established_supports(case_sources, source_by_id)
+        ):
+            errors.append(
+                f"{label}: established case evidence requires a Tier-A primary source "
+                "or at least two Tier-B/C sources from different institutions"
+            )
+        elif (
             isinstance(case_evidence, str)
-            and case_evidence in {"established", "strong", "plausible"}
+            and case_evidence in {"strong", "plausible"}
             and case_sources
             and all(source_id in source_tiers for source_id in case_sources)
             and not any(source_tiers[source_id] in {"A", "B", "C", "D"} for source_id in case_sources)
@@ -212,6 +249,17 @@ def main() -> int:
                 )
             )
             if (
+                evidence == "established"
+                and claim_sources
+                and all(source_id in source_by_id for source_id in claim_sources)
+                and not established_supports(claim_sources, source_by_id)
+            ):
+                errors.append(
+                    f"{label}: claim {claim.get('id')} with established evidence requires "
+                    "a Tier-A primary source or at least two Tier-B/C sources from "
+                    "different institutions"
+                )
+            elif (
                 non_lead_required
                 and claim_sources
                 and all(source_id in source_tiers for source_id in claim_sources)
@@ -237,7 +285,18 @@ def main() -> int:
         for source_id in relation_sources:
             if source_id not in source_ids:
                 errors.append(f"{relation_id}: unknown source {source_id}")
+        relation_evidence = relation.get("evidence_level")
         if (
+            relation_evidence == "established"
+            and relation_sources
+            and all(source_id in source_by_id for source_id in relation_sources)
+            and not established_supports(relation_sources, source_by_id)
+        ):
+            errors.append(
+                f"{relation_id}: established relation evidence requires a Tier-A "
+                "primary source or at least two Tier-B/C sources from different institutions"
+            )
+        elif (
             relation_sources
             and all(source_id in source_tiers for source_id in relation_sources)
             and not any(
@@ -250,6 +309,7 @@ def main() -> int:
             )
 
     organization_dir = DOCS / "organisationen"
+    organization_profile_ids: set[str] = set()
     if organization_dir.exists():
         for path in sorted(organization_dir.glob("*.md")):
             if path.name == "index.md":
@@ -262,16 +322,30 @@ def main() -> int:
                 continue
             errors.extend(schema_errors(meta, "organization.schema.json", label))
             entity_id = meta.get("id")
-            if isinstance(entity_id, str) and entity_id not in entity_ids:
-                errors.append(f"{label}: unknown organization entity {entity_id}")
+            if isinstance(entity_id, str):
+                if entity_id in organization_profile_ids:
+                    errors.append(f"organization profiles: duplicate id {entity_id}")
+                organization_profile_ids.add(entity_id)
+                if entity_id not in entity_ids:
+                    errors.append(f"{label}: unknown organization entity {entity_id}")
             organization_sources = string_list(meta.get("sources"))
             for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
             organization_evidence = meta.get("evidence_level")
             if (
+                organization_evidence == "established"
+                and organization_sources
+                and all(source_id in source_by_id for source_id in organization_sources)
+                and not established_supports(organization_sources, source_by_id)
+            ):
+                errors.append(
+                    f"{label}: established organization evidence requires a Tier-A "
+                    "primary source or at least two Tier-B/C sources from different institutions"
+                )
+            elif (
                 isinstance(organization_evidence, str)
-                and organization_evidence in {"established", "strong", "plausible"}
+                and organization_evidence in {"strong", "plausible"}
                 and organization_sources
                 and all(source_id in source_tiers for source_id in organization_sources)
                 and not any(

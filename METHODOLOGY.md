@@ -26,6 +26,15 @@ Eine Evidenzstufe bewertet immer **eine konkrete Aussage**, nicht pauschal eine 
 
 Gewichtet wird nach Primärnähe, Methodik, Replizierbarkeit, Aktualität und Kontextpassung — nicht nach publizistischer Lautstärke.
 
+### Strukturelle Mindestschwelle für `established`
+
+Der V1-Validator operationalisiert die stärkste Evidenzstufe konservativ: Eine als `established` markierte Aussage braucht mindestens entweder
+
+- eine registrierte Tier-A-Quelle, die zugleich als Primärquelle markiert ist; oder
+- mindestens zwei Tier-B/C-Quellen aus unterschiedlichen Institutionen.
+
+Diese Regel ist eine **strukturelle Mindestschwelle**, kein Beweis semantischer Unabhängigkeit oder direkter Belegkraft. Unterschiedliche Institutionen sind nur eine maschinenprüfbare Näherung. Ob eine Quelle die konkrete Aussage tatsächlich direkt trägt und ob mehrere Quellen voneinander unabhängig sind, bleibt zusätzlich Gegenstand der inhaltlichen Prüfung.
+
 ## Claim-Regeln
 
 Zentrale Aussagen werden nach Möglichkeit als eigenständige Claims mit stabiler ID erfasst. Ein Claim enthält Wortlaut, Klassifikation, Evidenzstufe und Quellen sowie gegebenenfalls Gegenbelege und offene Fragen.
