@@ -176,7 +176,7 @@ class VisibleListLinkParser(HTMLParser):
         }
     )
     ALWAYS_HIDDEN_TAGS = frozenset(
-        {"head", "iframe", "script", "style", "template", "svg"}
+        {"canvas", "head", "iframe", "script", "style", "template", "svg"}
     )
     FOREIGN_SELF_CLOSING_TAGS = frozenset({"math", "svg"})
 
