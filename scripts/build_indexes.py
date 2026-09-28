@@ -48,7 +48,7 @@ def esc(value: Any) -> str:
 def records() -> list[tuple[dict[str, Any], str]]:
     out: list[tuple[dict[str, Any], str]] = []
     for path in sorted(CASES.rglob("*.md")):
-        if path.name == "index.md":
+        if path == CASES / "index.md":
             continue
         meta = frontmatter(path)
         if meta.get("type") == "case":

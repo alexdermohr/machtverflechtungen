@@ -329,6 +329,46 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("docs/organisationen/de/atlantik-bruecke.md: unknown source SRC-UNKNOWN-NESTED", output)
 
+    def test_nested_directory_index_organization_profile_is_validated(self) -> None:
+        source = self._organization_path()
+        nested_dir = source.parent / "de" / "atlantik-bruecke"
+        nested_dir.mkdir(parents=True)
+        nested = nested_dir / "index.md"
+        source.replace(nested)
+
+        text = nested.read_text(encoding="utf-8")
+        nested.write_text(
+            text.replace("SRC-DE-ATLANTIKBRUECKE-YL", "SRC-UNKNOWN-DIRECTORY-INDEX"),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "docs/organisationen/de/atlantik-bruecke/index.md: unknown source SRC-UNKNOWN-DIRECTORY-INDEX",
+            output,
+        )
+
+    def test_nested_directory_index_case_is_validated(self) -> None:
+        source = self._case_path()
+        nested_dir = source.parent / "celler-loch"
+        nested_dir.mkdir()
+        nested = nested_dir / "index.md"
+        source.replace(nested)
+
+        text = nested.read_text(encoding="utf-8")
+        nested.write_text(
+            text.replace("SRC-DE-NI-MJ-CELLER-2015", "SRC-UNKNOWN-DIRECTORY-INDEX"),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "docs/faelle/de/celler-loch/index.md: unknown source SRC-UNKNOWN-DIRECTORY-INDEX",
+            output,
+        )
+
     def test_case_period_rejects_end_year_before_start_year(self) -> None:
         self._mutate_case(period={"start": "2000", "end": "1900"})
         code, output = self._run_validator()

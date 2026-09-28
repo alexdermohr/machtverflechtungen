@@ -52,6 +52,32 @@ class GeneratedIndexCheckTests(unittest.TestCase):
             code = build_indexes.main()
         return code, output.getvalue()
 
+    def test_records_include_nested_directory_index_case(self) -> None:
+        case_dir = self.root / "docs" / "faelle" / "directory-index-case"
+        case_dir.mkdir(parents=True)
+        (case_dir / "index.md").write_text(
+            "---\n"
+            "id: CASE-TEST-DIRECTORY-INDEX\n"
+            "type: case\n"
+            "title: Directory Index Case\n"
+            "period:\n"
+            "  start: '2098'\n"
+            "evidence_level: speculative\n"
+            "---\n",
+            encoding="utf-8",
+        )
+
+        matched = [
+            (meta["id"], path)
+            for meta, path in build_indexes.records()
+            if meta.get("id") == "CASE-TEST-DIRECTORY-INDEX"
+        ]
+
+        self.assertEqual(
+            [("CASE-TEST-DIRECTORY-INDEX", "faelle/directory-index-case/index.md")],
+            matched,
+        )
+
     def test_records_sorts_same_year_by_complete_start_date(self) -> None:
         cases_dir = self.root / "docs" / "faelle" / "sort-test"
         cases_dir.mkdir(parents=True, exist_ok=True)

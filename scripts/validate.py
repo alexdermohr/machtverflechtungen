@@ -176,7 +176,7 @@ def main() -> int:
     cases: list[tuple[Path, dict[str, Any]]] = []
 
     for path in sorted(CASE_DIR.rglob("*.md")):
-        if path.name == "index.md":
+        if path == CASE_DIR / "index.md":
             continue
         label = str(path.relative_to(ROOT))
         try:
@@ -353,7 +353,7 @@ def main() -> int:
     organization_profile_ids: set[str] = set()
     if organization_dir.exists():
         for path in sorted(organization_dir.rglob("*.md")):
-            if path.name == "index.md":
+            if path == organization_dir / "index.md":
                 continue
             label = str(path.relative_to(ROOT))
             try:
