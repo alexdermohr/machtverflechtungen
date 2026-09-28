@@ -27,13 +27,50 @@ claims:
 
 # Organisation Gehlen und Entstehung des BND
 
-Die Organisation Gehlen entstand 1946 unter amerikanischer Ägide. Ihr Leiter Reinhard Gehlen hatte im Zweiten Weltkrieg die Wehrmachtsabteilung „Fremde Heere Ost“ geführt. 1956 wurde die Organisation in den Bundesnachrichtendienst überführt; Gehlen wurde dessen erster Präsident.
+**Forschungsfokus:** Welche personellen, institutionellen und operativen Kontinuitäten führten von der unmittelbaren Nachkriegszeit zur Organisation Gehlen und zum frühen Bundesnachrichtendienst?
 
-Die historische Aufarbeitung beschäftigt sich ausdrücklich mit personellen Kontinuitäten aus SS, SD, Gestapo und anderen NS-Strukturen sowie mit innenpolitischer Nachrichtendiensttätigkeit.
+## Gesicherter Ereigniskern
 
-## Grenze der Aussage
+- **`CLM-DE-GEHLEN-001` — stark gestützt:** Die Organisation Gehlen entstand 1946 unter US-amerikanischer Ägide und wurde 1956 in den BND überführt.
+- **`CLM-DE-GEHLEN-002` — belegt:** In Organisation Gehlen und frühem BND arbeiteten zahlreiche schwer NS-belastete Personen.
 
-Personelle und institutionelle Kontinuität ist belegt. Eine direkte operative Kausalkette von der Organisation Gehlen zu späteren rechtsextremen oder terroristischen Organisationen muss für jeden behaupteten Zusammenhang separat nachgewiesen werden.
+## Rekonstruktion
+
+Die Organisation Gehlen entstand 1946 unter amerikanischer Ägide. Namensgeber und Leiter war Reinhard Gehlen, zuvor Leiter der Wehrmachtsabteilung **Fremde Heere Ost**. 1956 ging die Organisation in den neu gegründeten Bundesnachrichtendienst über; Gehlen wurde dessen erster Präsident.
+
+Die historische Aufarbeitung des BND dokumentiert zugleich erhebliche personelle Kontinuitäten aus nationalsozialistischen Sicherheits- und Repressionsapparaten. Damit verbindet der Fall zwei Forschungsstränge: die institutionelle Entstehung eines westdeutschen Nachrichtendienstes im Kalten Krieg und die Frage, welche personellen Netzwerke in diese neue Struktur übernommen wurden.
+
+## Claim-Prüfung
+
+### `CLM-DE-GEHLEN-001`
+
+**Aussage:** Die Organisation Gehlen entstand 1946 unter US-amerikanischer Ägide und wurde 1956 in den BND überführt.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** stark gestützt
+- **Quelle:** `SRC-DE-BPB-BND-2026`
+
+### `CLM-DE-GEHLEN-002`
+
+**Aussage:** In Organisation Gehlen und frühem BND arbeiteten zahlreiche schwer NS-belastete Personen.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Quellen:** `SRC-DE-BPB-BND-2026`, `SRC-DE-BND-GESCHICHTE-2011`
+
+## Analytische Achsen
+
+- **Institutionelle Kontinuität:** Übergang von der Organisation Gehlen zum BND.
+- **Personelle Kontinuität:** Rekrutierung und Weiterbeschäftigung belasteter Personen.
+- **Nachrichtendienstnetzwerk:** Beziehungen zu US-amerikanischen Stellen und Einbindung in den frühen Kalten Krieg.
+- **Innenpolitische Reichweite:** Welche Aktivitäten und Informationsnetze gingen über klassische Auslandsaufklärung hinaus?
+
+## Offene Prüfpfade
+
+- Welche Personal- und Funktionskontinuitäten lassen sich personengenau rekonstruieren?
+- Welche Netzwerke bestanden zwischen ehemaligen NS-Funktionsträgern, westlichen Diensten, Ministerien und Politik?
+- Welche innenpolitischen Aktivitäten der Organisation Gehlen und des frühen BND sind durch Primärakten konkret nachweisbar?
+- Welche späteren Organisationen oder Fälle besitzen dokumentierte personelle oder operative Verbindungen zu diesen Strukturen?
 
 ## Quellen
 

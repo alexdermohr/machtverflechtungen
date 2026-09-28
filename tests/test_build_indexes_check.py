@@ -110,6 +110,27 @@ class GeneratedIndexCheckTests(unittest.TestCase):
 
         self.assertEqual(["CASE-TEST-JANUARY", "CASE-TEST-DECEMBER"], ordered)
 
+    def test_case_and_timeline_indexes_are_claim_centered(self) -> None:
+        meta = {
+            "title": "Testfall",
+            "period": {"start": "2001", "end": "2002"},
+            "countries": ["DE"],
+            "evidence_level": "established",
+            "mechanisms": ["test-mechanism"],
+            "claims": [{"id": "CLM-1"}, {"id": "CLM-2"}],
+        }
+
+        cases_rendered = build_indexes.render_cases([(meta, "faelle/de/test.md")])
+        timeline_rendered = build_indexes.render_timeline([(meta, "faelle/de/test.md")])
+
+        self.assertIn("| Zeitraum | Fall | Länder | Claims | Mechanismen |", cases_rendered)
+        self.assertIn("| 2 | test-mechanism |", cases_rendered)
+        self.assertNotIn("| established |", cases_rendered)
+
+        self.assertIn("| Beginn | Ende | Fall | Länder | Claims |", timeline_rendered)
+        self.assertIn("| DE | 2 |", timeline_rendered)
+        self.assertNotIn("| established |", timeline_rendered)
+
     def test_render_sources_links_title_to_external_source(self) -> None:
         url = "https://example.invalid/source.pdf"
         rendered = build_indexes.render_sources(

@@ -27,16 +27,51 @@ claims:
 
 # Celler Loch / Aktion Feuerzauber
 
-## Kurzbefund
+**Forschungsfokus:** Wie weit reichte die staatliche Inszenierung, wie wurde sie operativ genutzt und welche Informations- und Entscheidungsketten ermöglichten sie?
 
-Das Celler Loch ist ein amtlich bestätigter deutscher Fall, in dem ein Nachrichtendienst selbst einen Sprengstoffanschlag inszenierte und diesen einem terroristischen Kontext zurechnen ließ.
+## Gesicherter Ereigniskern
 
-Das Niedersächsische Justizministerium beschreibt die Aktion als verdeckte Operation des Verfassungsschutzes. Ziel war, einen Informanten in die RAF einzuschleusen. Öffentlichkeit und Strafverfolgungsbehörden wurden über die tatsächlichen Urheber getäuscht.
+- **`CLM-DE-CELLER-001` — belegt:** Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 die Außenmauer der JVA Celle sprengen.
+- **`CLM-DE-CELLER-002` — belegt:** Die Operation sollte einen RAF-Befreiungsversuch vortäuschen; Öffentlichkeit und Strafverfolgungsbehörden wurden über die Urheber planmäßig getäuscht.
 
-## Grenze der Aussage
+## Rekonstruktion
 
-Der Fall belegt **nicht**, dass die RAF als Ganzes staatlich gesteuert war. Er belegt, dass eine Sicherheitsbehörde zu einer Operation bereit war, die nach außen wie terroristische Gewalt aussehen sollte.
+Am 25. Juli 1978 wurde die Außenmauer der Justizvollzugsanstalt Celle im Rahmen der später als **„Aktion Feuerzauber“** bekannt gewordenen Operation gesprengt. Das Niedersächsische Justizministerium ordnet die Aktion ausdrücklich dem niedersächsischen Verfassungsschutz zu.
 
-## Quelle
+Die Operation war nicht nur eine verdeckte Beobachtungsmaßnahme. Ihr Erscheinungsbild sollte einen terroristischen Befreiungsversuch nahelegen. Damit gehören **Inszenierung, falsche Zuschreibung und Infiltration** gemeinsam in die Untersuchung dieses Falls.
+
+## Claim-Prüfung
+
+### `CLM-DE-CELLER-001`
+
+**Aussage:** Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 die Außenmauer der JVA Celle sprengen.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Quelle:** `SRC-DE-NI-MJ-CELLER-2015`
+
+### `CLM-DE-CELLER-002`
+
+**Aussage:** Die Operation sollte einen RAF-Befreiungsversuch vortäuschen; Öffentlichkeit und Strafverfolgungsbehörden wurden über die Urheber planmäßig getäuscht.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Quelle:** `SRC-DE-NI-MJ-CELLER-2015`
+
+## Analytische Achsen
+
+- **False Attribution:** Ein staatlich erzeugter Vorgang erhielt nach außen einen terroristischen Deutungsrahmen.
+- **Infiltration:** Die Operation war mit dem Ziel verbunden, einen Informanten in das RAF-Umfeld einzuschleusen.
+- **Informationskontrolle:** Für die weitere Forschung ist entscheidend, welche Stellen wann über die tatsächliche Urheberschaft informiert waren.
+
+## Offene Prüfpfade
+
+- Wie verlief die politische und operative Entscheidungskette vor der Sprengung?
+- Welche Behörden und Amtsträger kannten die tatsächliche Urheberschaft zu welchem Zeitpunkt?
+- Welche Ermittlungs- und Gerichtsentscheidungen wurden durch die falsche Zuschreibung beeinflusst?
+- Welche Quellen dokumentieren Planung, Durchführung, Nachbereitung und spätere Aufdeckung im Detail?
+- Welche vergleichbaren Operationen lassen sich anhand derselben Kriterien prüfen?
+
+## Quellen
 
 - [Justizministerin besucht das Celler Loch](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html) — Niedersächsisches Justizministerium, 2015-07-24 — `SRC-DE-NI-MJ-CELLER-2015`
