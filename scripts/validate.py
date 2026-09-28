@@ -135,32 +135,43 @@ class VisibleListLinkParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self._items: list[dict[str, Any]] = []
-        self.visible_items: list[tuple[str, set[str]]] = []
+        self._anchors: list[dict[str, Any]] = []
+        self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         if tag == "li":
-            self._items.append({"text": [], "hrefs": set()})
+            self._items.append({"text": [], "links": []})
             return
         if tag == "a" and self._items:
             href = next((value for name, value in attrs if name == "href"), None)
-            if isinstance(href, str):
-                self._items[-1]["hrefs"].add(href)
+            self._anchors.append(
+                {"href": href if isinstance(href, str) else None, "text": []}
+            )
 
     def handle_data(self, data: str) -> None:
         if self._items:
             self._items[-1]["text"].append(data)
+        if self._anchors:
+            self._anchors[-1]["text"].append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        if tag == "a" and self._anchors:
+            anchor = self._anchors.pop()
+            href = anchor.get("href")
+            visible_anchor_text = " ".join("".join(anchor["text"]).split())
+            if self._items and isinstance(href, str):
+                self._items[-1]["links"].append((href, visible_anchor_text))
+            return
         if tag != "li" or not self._items:
             return
         item = self._items.pop()
         visible_text = " ".join("".join(item["text"]).split())
-        self.visible_items.append((visible_text, set(item["hrefs"])))
+        self.visible_items.append((visible_text, list(item["links"])))
 
 
-def rendered_list_links(path: Path) -> list[tuple[str, set[str]]]:
+def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
     rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
     parser = VisibleListLinkParser()
     parser.feed(rendered)
@@ -184,8 +195,12 @@ def direct_source_link_errors(
         if not isinstance(url, str):
             continue
         if not any(
-            source_id in visible_text and url in hrefs
-            for visible_text, hrefs in items
+            source_id in visible_text
+            and any(
+                href == url and bool(anchor_text.strip())
+                for href, anchor_text in links
+            )
+            for visible_text, links in items
         ):
             out.append(
                 f"{label}: source {source_id} must be visibly listed with a "
