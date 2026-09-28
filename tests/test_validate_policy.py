@@ -234,5 +234,27 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(0, code, output)
 
 
+    def test_schema_invalid_catalog_row_does_not_block_valid_row_semantics(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"].append({"id": "SRC-BROKEN"})
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        lead = self._add_tier_e_source()
+        self._mutate_first_claim(
+            classification="fact",
+            evidence_level="speculative",
+            sources=[lead],
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("is a required property", output)
+        self.assertIn("may not rely solely on Tier-E leads", output)
+
 if __name__ == "__main__":
     unittest.main()

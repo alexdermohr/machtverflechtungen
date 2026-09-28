@@ -22,6 +22,5 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -p 'test_*.py'
-      - run: python scripts/build_indexes.py
-      - run: git diff --exit-code
+      - run: python scripts/build_indexes.py --check
       - run: mkdocs build --strict

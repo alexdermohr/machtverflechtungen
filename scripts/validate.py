@@ -91,9 +91,12 @@ def load_catalog(
         if not isinstance(row, dict):
             errors.append(f"{path.relative_to(ROOT)}[{index}]: expected mapping")
             continue
-        errors.extend(
-            schema_errors(row, schema_file, f"{path.relative_to(ROOT)}[{index}]")
+        row_errors = schema_errors(
+            row, schema_file, f"{path.relative_to(ROOT)}[{index}]"
         )
+        errors.extend(row_errors)
+        if row_errors:
+            continue
         valid_rows.append(row)
     return valid_rows
 
