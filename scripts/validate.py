@@ -97,6 +97,11 @@ def main() -> int:
     )
 
     source_ids = unique_ids(sources, "sources", errors)
+    source_tiers = {
+        item["id"]: item.get("tier")
+        for item in sources
+        if isinstance(item.get("id"), str)
+    }
     entity_ids = unique_ids(entities, "entities", errors)
     mechanism_ids = unique_ids(mechanisms, "mechanisms", errors)
     unique_ids(relations, "relations", errors)
@@ -138,9 +143,19 @@ def main() -> int:
 
     for path, meta in cases:
         label = str(path.relative_to(ROOT))
-        for source_id in meta.get("sources", []):
+        case_sources = meta.get("sources", [])
+        for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
+        if (
+            meta.get("evidence_level") in {"established", "strong", "plausible"}
+            and case_sources
+            and all(source_id in source_tiers for source_id in case_sources)
+            and not any(source_tiers[source_id] in {"A", "B", "C", "D"} for source_id in case_sources)
+        ):
+            errors.append(
+                f"{label}: non-speculative case evidence may not rely solely on Tier-E leads"
+            )
         for actor_id in meta.get("actors", []):
             if actor_id not in entity_ids:
                 errors.append(f"{label}: unknown actor {actor_id}")
@@ -154,11 +169,11 @@ def main() -> int:
             classification = claim.get("classification")
             evidence = claim.get("evidence_level")
             claim_sources = claim.get("sources", [])
-            if (
-                classification not in {"open_question", "hypothesis"}
-                and evidence != "speculative"
-                and not claim_sources
-            ):
+            source_optional = (
+                classification == "open_question"
+                or (classification == "hypothesis" and evidence == "speculative")
+            )
+            if not source_optional and not claim_sources:
                 errors.append(
                     f"{label}: claim {claim.get('id')} requires at least one source"
                 )
@@ -167,6 +182,25 @@ def main() -> int:
                     errors.append(
                         f"{label}: claim {claim.get('id')} references unknown source {source_id}"
                     )
+            non_lead_required = (
+                classification in {"fact", "counterevidence", "interpretation"}
+                or (
+                    classification == "hypothesis"
+                    and evidence in {"established", "strong", "plausible"}
+                )
+            )
+            if (
+                non_lead_required
+                and claim_sources
+                and all(source_id in source_tiers for source_id in claim_sources)
+                and not any(
+                    source_tiers[source_id] in {"A", "B", "C", "D"}
+                    for source_id in claim_sources
+                )
+            ):
+                errors.append(
+                    f"{label}: claim {claim.get('id')} may not rely solely on Tier-E leads"
+                )
 
     node_ids = entity_ids | case_ids
     for relation in relations:
@@ -177,9 +211,21 @@ def main() -> int:
             )
         if relation.get("to") not in node_ids:
             errors.append(f"{relation_id}: unknown to-node {relation.get('to')}")
-        for source_id in relation.get("sources", []):
+        relation_sources = relation.get("sources", [])
+        for source_id in relation_sources:
             if source_id not in source_ids:
                 errors.append(f"{relation_id}: unknown source {source_id}")
+        if (
+            relation_sources
+            and all(source_id in source_tiers for source_id in relation_sources)
+            and not any(
+                source_tiers[source_id] in {"A", "B", "C", "D"}
+                for source_id in relation_sources
+            )
+        ):
+            errors.append(
+                f"{relation_id}: relation may not rely solely on Tier-E leads"
+            )
 
     organization_dir = DOCS / "organisationen"
     if organization_dir.exists():
