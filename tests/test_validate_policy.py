@@ -836,13 +836,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("requires at least one source", output)
 
-    def test_speculative_open_question_may_remain_unsourced(self) -> None:
+    def test_speculative_open_question_requires_a_source(self) -> None:
         self._mutate_first_claim(
             classification="open_question",
             evidence_level="speculative",
             sources=[],
         )
         code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("requires at least one source", output)
+
+    def test_speculative_hypothesis_may_use_a_tier_e_lead(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_first_claim(
+            classification="hypothesis",
+            evidence_level="speculative",
+            sources=[lead],
+        )
+        self._mutate_case(
+            sources=["SRC-DE-NI-MJ-CELLER-2015", lead],
+        )
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        text += (
+            "\n- [Unbestätigter Testhinweis](https://example.invalid/lead) "
+            "— `SRC-TEST-LEAD`\n"
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
         self.assertEqual(0, code, output)
 
     def test_contradicted_hypothesis_may_not_rely_only_on_tier_e_leads(self) -> None:
@@ -898,14 +921,15 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
-    def test_speculative_hypothesis_may_remain_an_unsourced_open_lead(self) -> None:
+    def test_speculative_hypothesis_requires_a_source(self) -> None:
         self._mutate_first_claim(
             classification="hypothesis",
             evidence_level="speculative",
             sources=[],
         )
         code, output = self._run_validator()
-        self.assertEqual(0, code, output)
+        self.assertEqual(1, code)
+        self.assertIn("requires at least one source", output)
 
 
     def test_schema_invalid_catalog_row_does_not_block_valid_row_semantics(self) -> None:

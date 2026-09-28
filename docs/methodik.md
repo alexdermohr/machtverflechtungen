@@ -41,7 +41,7 @@ Zentrale Aussagen werden nach Möglichkeit als eigenständige Claims mit stabile
 
 Die erste Version erzwingt atomare Claims noch nicht für jeden Nebensatz. Schema-Pflege soll Recherche nicht verdrängen. Die Struktur muss aber eine spätere Atomisierung erlauben.
 
-Quellenlos dürfen in V1 nur ausdrücklich als `speculative` markierte Hypothesen oder offene Fragen bleiben. Sobald eine Hypothese oder offene Frage eine stärkere bzw. widersprechende Evidenzstufe trägt, gelten die normalen Quellenanforderungen.
+**Jeder auf der öffentlichen Website veröffentlichte Claim braucht mindestens eine registrierte Quelle.** Das gilt auch für `speculative` Hypothesen und offene Fragen. Bei einer spekulativen Hypothese muss die Quelle nicht die Hypothese beweisen; sie muss mindestens den dokumentierten Befund oder Anlass tragen, aus dem die Hypothese entsteht. Tier-E-Leads bleiben für `speculative` Hypothesen und offene Fragen zulässig. Für stärkere Evidenzstufen sowie für Tatsachenbehauptungen, Gegenbelege und Interpretationen gelten weiterhin die höheren Quellenanforderungen.
 
 Klassifikationen unterscheiden mindestens:
 
