@@ -390,6 +390,35 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_self_closing_hidden_ancestor_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            '\n<div style="display:none" />\n'
+            f'- [Quelle]({source_url}) — `{source_id}`\n'
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_iframe_fallback_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -802,6 +831,25 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             sources=["SRC-DE-BPB-BND-2026"],
         )
         code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "with established evidence requires a Tier-A primary source",
+            output,
+        )
+
+    def test_established_claim_context_only_source_does_not_meet_threshold(self) -> None:
+        self._mutate_first_claim(
+            evidence=[
+                {
+                    "source": "SRC-DE-NI-MJ-CELLER-2015",
+                    "directness": "context",
+                    "note": "Diese Quelle liefert im Test nur Kontext und keine tragende Stütze.",
+                }
+            ]
+        )
+
+        code, output = self._run_validator()
+
         self.assertEqual(1, code)
         self.assertIn(
             "with established evidence requires a Tier-A primary source",
@@ -1260,6 +1308,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_self_closing_hidden_ancestor_does_not_satisfy_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f'\n<div style="display:none" />\nCLM-DE-CELLER-001 {claim_text}\n',
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
     def test_iframe_fallback_does_not_satisfy_claim_visibility(self) -> None:
         claim_text = (
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
@@ -1579,6 +1654,51 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn(
             "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+
+    def test_hidden_event_core_ancestor_does_not_satisfy_visibility(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        start = text.index("## Gesicherter Ereigniskern")
+        end = text.index("\n## Rekonstruktion", start)
+        hidden_event_core = (
+            '<div hidden>\n'
+            '<h2>Gesicherter Ereigniskern</h2>\n'
+            '<p>CLM-DE-CELLER-001 CLM-DE-CELLER-002</p>\n'
+            '</div>\n'
+        )
+        path.write_text(
+            text[:start] + hidden_event_core + text[end:],
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-001 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+        self.assertIn(
+            "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+
+    def test_hidden_heading_fragment_does_not_identify_event_core(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8").replace(
+            "## Gesicherter Ereigniskern",
+            "## Gesicherter <span hidden>Ereigniskern</span>",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-001 must appear in Gesicherter Ereigniskern",
             output,
         )
 

@@ -10,7 +10,7 @@ Die Hypothesenbildung darf weit sein. Die Evidenzklassifikation bleibt eng.
 
 ## Bewertete Einheit: der Claim
 
-Die kleinste bewertete Erkenntniseinheit ist ein **konkreter Claim**. Eine Evidenzstufe bewertet niemals pauschal einen Fall, eine Person, eine Organisation oder eine Gesamterzählung.
+Im Fallmodell ist die kleinste bewertete Erkenntniseinheit ein **konkreter Claim**. Eine Claim-Evidenzstufe bewertet weder den Fall pauschal noch eine daraus abgeleitete Gesamterzählung. Bestehende Organisationsprofile verwenden derzeit noch eine separate profilweite Evidenzstufe; bis zu ihrer eigenen Claim-Migration ist dieses Legacy-Feld auf die Beleglage des Profils beschränkt und kein Ersatz für fallinterne Claim-Bewertungen.
 
 Ein Fall besitzt deshalb keinen globalen Wahrheits- oder Evidenzwert. Sein `status` beschreibt ausschließlich den Forschungsstand:
 
@@ -74,7 +74,7 @@ Der Validator operationalisiert die stärkste Evidenzstufe konservativ. Ein als 
 - eine registrierte Tier-A-Quelle, die zugleich als Primärquelle markiert ist; oder
 - mindestens zwei Tier-B/C-Quellen aus unterschiedlichen Institutionen.
 
-Das ist nur eine maschinenprüfbare Mindestschwelle. Unterschiedliche Institutionen beweisen keine semantische Unabhängigkeit. Ob eine Quelle die konkrete Aussage tatsächlich trägt, wird zusätzlich durch die Claim-spezifische Belegnotiz und die inhaltliche Prüfung bewertet.
+Das ist nur eine maschinenprüfbare Mindestschwelle. Unterschiedliche Institutionen beweisen keine semantische Unabhängigkeit. Ob eine Quelle die konkrete Aussage tatsächlich trägt, wird zusätzlich durch die Claim-spezifische Belegnotiz und die inhaltliche Prüfung bewertet. Für Claims zählt `context` nicht zu dieser Mindestschwelle. Eine einzelne Tier-A-Primärquelle erfüllt sie nur mit `direct`; in der Mehrquellenroute zählen `direct` und `indirect`.
 
 ## Claim-spezifische Quellenbindung
 

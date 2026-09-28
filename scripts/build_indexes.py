@@ -91,8 +91,8 @@ def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
         "",
         "_Automatisch aus den Fall-Metadaten erzeugt._",
         "",
-        "| Zeitraum | Fall | Länder | Claims | Mechanismen |",
-        "|---|---|---|---:|---|",
+        "| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |",
+        "|---|---|---|---|---|",
     ]
     for meta, rel in cases:
         period = str(meta["period"]["start"])
@@ -113,8 +113,8 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
         "",
         "_Automatisch aus denselben Fall-Metadaten erzeugt._",
         "",
-        "| Beginn | Ende | Fall | Länder | Claims |",
-        "|---:|---:|---|---|---:|",
+        "| Beginn | Ende | Fall | Länder | Claim-Evidenz |",
+        "|---:|---:|---|---|---|",
     ]
     for meta, rel in cases:
         start = meta.get("period", {}).get("start", "?")

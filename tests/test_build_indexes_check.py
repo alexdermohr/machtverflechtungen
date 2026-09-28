@@ -125,11 +125,11 @@ class GeneratedIndexCheckTests(unittest.TestCase):
         cases_rendered = build_indexes.render_cases([(meta, "faelle/de/test.md")])
         timeline_rendered = build_indexes.render_timeline([(meta, "faelle/de/test.md")])
 
-        self.assertIn("| Zeitraum | Fall | Länder | Claims | Mechanismen |", cases_rendered)
+        self.assertIn("| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |", cases_rendered)
         self.assertIn("| 1 belegt · 1 stark gestützt | test-mechanism |", cases_rendered)
         self.assertNotIn("| established |", cases_rendered)
 
-        self.assertIn("| Beginn | Ende | Fall | Länder | Claims |", timeline_rendered)
+        self.assertIn("| Beginn | Ende | Fall | Länder | Claim-Evidenz |", timeline_rendered)
         self.assertIn("| DE | 1 belegt · 1 stark gestützt |", timeline_rendered)
         self.assertNotIn("| established |", timeline_rendered)
 

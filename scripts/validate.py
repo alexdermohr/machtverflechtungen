@@ -286,7 +286,12 @@ class VisibleListLinkParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        return
+        # In HTML, the self-closing flag is ignored on non-void elements.
+        # Treat them as ordinary start tags so browser-hidden descendants
+        # cannot become visibility evidence in this parser.
+        tag = tag.casefold()
+        if tag not in self.VOID_TAGS:
+            self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
         if self._current_hidden():
@@ -397,7 +402,12 @@ class VisibleTextParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        return
+        # In HTML, the self-closing flag is ignored on non-void elements.
+        # Treat them as ordinary start tags so browser-hidden descendants
+        # cannot become visibility evidence in this parser.
+        tag = tag.casefold()
+        if tag not in self.VOID_TAGS:
+            self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
         if not self._current_hidden():
@@ -418,24 +428,71 @@ def visible_markdown_text(value: str) -> str:
     return parser.text()
 
 
+class VisibleSectionTextParser(VisibleTextParser):
+    def __init__(self, heading: str) -> None:
+        super().__init__()
+        self._wanted_heading = " ".join(heading.split())
+        self._in_h2 = False
+        self._h2_text: list[str] = []
+        self._h2_visible = False
+        self._target_seen = False
+        self._capture = False
+        self._section_text: list[str] = []
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        if tag == "h2":
+            self._capture = False
+            self._in_h2 = True
+            self._h2_text = []
+            self._h2_visible = False
+        super().handle_starttag(tag, attrs)
+        if tag == "h2":
+            self._h2_visible = not self._current_hidden()
+
+    def handle_data(self, data: str) -> None:
+        if self._in_h2:
+            if not self._current_hidden():
+                self._h2_text.append(data)
+            return
+        if self._capture and not self._current_hidden():
+            self._section_text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
+        if tag == "h2" and self._in_h2:
+            heading_text = " ".join("".join(self._h2_text).split())
+            is_target = (
+                not self._target_seen
+                and heading_text == self._wanted_heading
+            )
+            if is_target:
+                self._target_seen = True
+            capture_after_heading = is_target and self._h2_visible
+            super().handle_endtag(tag)
+            self._in_h2 = False
+            self._h2_text = []
+            self._h2_visible = False
+            self._capture = capture_after_heading
+            return
+        super().handle_endtag(tag)
+
+    def text(self) -> str:
+        return " ".join(" ".join(self._section_text).split())
+
+
 def rendered_visible_text(path: Path) -> str:
     return visible_markdown_text(markdown_body(path))
 
 
 def rendered_visible_section(path: Path, heading: str) -> str:
-    body = markdown_body(path)
-    heading_pattern = rf"^##\s+{re.escape(heading)}" + r"(?:\s+\{[^\n{}]*\})?\s*$"
-    marker = re.search(
-        heading_pattern,
-        body,
-        flags=re.MULTILINE,
-    )
-    if marker is None:
-        return ""
-    tail = body[marker.end() :]
-    next_heading = re.search(r"^##\s+", tail, flags=re.MULTILINE)
-    section = tail[: next_heading.start()] if next_heading is not None else tail
-    return visible_markdown_text(section)
+    rendered = render_site_markdown(markdown_body(path))
+    parser = VisibleSectionTextParser(heading)
+    parser.feed(rendered)
+    parser.close()
+    return parser.text()
 
 
 def exact_visible_id(text: str, identifier: str) -> bool:
@@ -492,6 +549,43 @@ def established_supports(
         source["institution"].strip().casefold()
         for source in high_quality
         if isinstance(source.get("institution"), str) and source["institution"].strip()
+    }
+    return len(high_quality) >= 2 and len(institutions) >= 2
+
+
+def established_claim_supports(
+    value: Any,
+    source_by_id: dict[str, dict[str, Any]],
+) -> bool:
+    resolved: list[tuple[dict[str, Any], str]] = []
+    for record in mapping_list(value):
+        source_id = record.get("source")
+        directness = record.get("directness")
+        if (
+            isinstance(source_id, str)
+            and source_id in source_by_id
+            and directness in {"direct", "indirect"}
+        ):
+            resolved.append((source_by_id[source_id], directness))
+
+    if any(
+        directness == "direct"
+        and source.get("tier") == "A"
+        and source.get("primary") is True
+        for source, directness in resolved
+    ):
+        return True
+
+    high_quality = [
+        source
+        for source, _directness in resolved
+        if source.get("tier") in {"B", "C"}
+    ]
+    institutions = {
+        source["institution"].strip().casefold()
+        for source in high_quality
+        if isinstance(source.get("institution"), str)
+        and source["institution"].strip()
     }
     return len(high_quality) >= 2 and len(institutions) >= 2
 
@@ -831,12 +925,12 @@ def main() -> int:
                 evidence_level == "established"
                 and claim_sources
                 and all(source_id in source_by_id for source_id in claim_sources)
-                and not established_supports(claim_sources, source_by_id)
+                and not established_claim_supports(claim.get("evidence"), source_by_id)
             ):
                 errors.append(
                     f"{label}: claim {claim_id} with established evidence requires "
-                    "a Tier-A primary source or at least two Tier-B/C sources from "
-                    "different institutions"
+                    "a Tier-A primary source marked direct or at least two Tier-B/C "
+                    "sources from different institutions using direct/indirect evidence"
                 )
             elif (
                 non_lead_required
