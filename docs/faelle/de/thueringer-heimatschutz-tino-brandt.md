@@ -32,16 +32,62 @@ claims:
 
 # Thüringer Heimatschutz / Tino Brandt
 
-Der Thüringer NSU-Untersuchungsausschuss beantwortete die Kernfrage differenziert:
+**Forschungsfokus:** Wie wirkten Infiltration, Quellenführung und staatliche Zahlungen auf eine rechtsextreme Struktur – und wie unterscheiden sich dabei Beobachtung, Begünstigung und gezielter Aufbau?
 
-Für eine **gezielte Gründung oder einen gezielten Aufbau** rechtsextremer Strukturen durch den Thüringer Verfassungsschutz fand er keine Belege.
+## Gesicherter Ereigniskern
 
-Gleichzeitig sah er hinreichende Gründe für **mittelbare Unterstützung und Begünstigung**. Die Zahlungen an V-Mann Tino Brandt ermöglichten ihm nach dem Bericht, Geld und Sachmittel in Aufbau und Funktionieren des Thüringer Heimatschutzes, Reisen, Propagandamaterial und Aktionen zu stecken.
+- **`CLM-DE-THS-001` — belegt, Gegenbefund:** Der Thüringer Untersuchungsausschuss fand keine Belege für eine gezielte Gründung rechtsextremer Strukturen durch das TLfV.
+- **`CLM-DE-THS-002` — belegt:** Der Ausschuss sah hinreichende Gründe für eine mittelbare Unterstützung und Begünstigung rechtsextremer Strukturen durch das TLfV.
+- **`CLM-DE-THS-003` — belegt:** Die hohen Zahlungen an V-Mann Tino Brandt ermöglichten ihm, Geld und Sachmittel in Aufbau und Funktionieren des THS sowie in Reisen, Propaganda und Aktionen zu stecken.
 
-## Bedeutung
+## Rekonstruktion
 
-- gezielte geheimdienstliche Gründung: **nicht belegt**
-- materielle Mitstützung durch Quellenführung: **belegt**
+Der Thüringer Untersuchungsausschuss zeichnet kein eindimensionales Bild. Für eine gezielte Gründung oder einen gezielten Aufbau rechtsextremer Strukturen durch das Thüringer Landesamt für Verfassungsschutz fand er keine Belege.
+
+Gleichzeitig sah der Ausschuss hinreichende Gründe für **mittelbare Unterstützung und Begünstigung**. Im Zentrum steht die Quellenführung von Tino Brandt: Die an ihn geleisteten Zahlungen ermöglichten nach dem Bericht Geld- und Sachmitteleinsatz für Aufbau und Funktionieren des Thüringer Heimatschutzes sowie für Reisen, Propaganda und Aktionen.
+
+Gerade diese Kombination macht den Fall analytisch wichtig: Ein belastbarer Gegenbefund zu einer weitreichenden These steht neben belastbaren Befunden zu materieller Wirkung staatlicher Quellenführung.
+
+## Claim-Prüfung
+
+### `CLM-DE-THS-001`
+
+**Aussage:** Der Thüringer Untersuchungsausschuss fand keine Belege für eine gezielte Gründung rechtsextremer Strukturen durch das TLfV.
+
+- **Typ:** Gegenbeleg
+- **Evidenz:** belegt
+- **Quelle:** `SRC-DE-THLT-NSU-UA-2014`
+
+### `CLM-DE-THS-002`
+
+**Aussage:** Der Ausschuss sah hinreichende Gründe für eine mittelbare Unterstützung und Begünstigung rechtsextremer Strukturen durch das TLfV.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Quelle:** `SRC-DE-THLT-NSU-UA-2014`
+
+### `CLM-DE-THS-003`
+
+**Aussage:** Die hohen Zahlungen an V-Mann Tino Brandt ermöglichten ihm, Geld und Sachmittel in Aufbau und Funktionieren des THS sowie in Reisen, Propaganda und Aktionen zu stecken.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Quelle:** `SRC-DE-THLT-NSU-UA-2014`
+
+## Analytische Achsen
+
+- **Infiltration:** Stellung und Funktion einer staatlich geführten Quelle innerhalb des THS.
+- **Materielle Unterstützung:** Wirkung staatlicher Zahlungen auf eine politische Struktur.
+- **Quellenschutz:** mögliche Zielkonflikte zwischen Informationsgewinn, Strafverfolgung und Gefahrenabwehr.
+- **Kausalität:** welche konkreten Entwicklungen ohne die Zahlungen anders verlaufen wären.
+
+## Offene Prüfpfade
+
+- Wie hoch waren Zahlungen und sonstige Leistungen über die gesamte Quellenlaufzeit?
+- Welche konkreten THS-Aktivitäten wurden daraus mittelbar oder unmittelbar finanziert?
+- Welche Behörden wussten wann von der Verwendung der Mittel?
+- Welche Eingriffs- und Sanktionsmöglichkeiten bestanden zu den jeweiligen Zeitpunkten?
+- Welche personellen oder organisatorischen Übergänge vom THS in spätere rechtsextreme Strukturen sind quellengebunden rekonstruierbar?
 
 ## Quelle
 

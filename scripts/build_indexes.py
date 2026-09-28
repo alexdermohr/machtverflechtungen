@@ -68,8 +68,8 @@ def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
         "",
         "_Automatisch aus den Fall-Metadaten erzeugt._",
         "",
-        "| Zeitraum | Fall | Länder | Evidenz | Mechanismen |",
-        "|---|---|---|---|---|",
+        "| Zeitraum | Fall | Länder | Claims | Mechanismen |",
+        "|---|---|---|---:|---|",
     ]
     for meta, rel in cases:
         period = str(meta["period"]["start"])
@@ -78,7 +78,7 @@ def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
         case_rel = Path(rel).relative_to("faelle").as_posix()
         lines.append(
             f"| {esc(period)} | [{esc(meta['title'])}]({case_rel}) | "
-            f"{', '.join(meta.get('countries', []))} | {meta['evidence_level']} | "
+            f"{', '.join(meta.get('countries', []))} | {len(meta.get('claims', []))} | "
             f"{', '.join(meta.get('mechanisms', []))} |"
         )
     return "\n".join(lines) + "\n"
@@ -90,15 +90,15 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
         "",
         "_Automatisch aus denselben Fall-Metadaten erzeugt._",
         "",
-        "| Beginn | Ende | Fall | Länder | Evidenz |",
-        "|---:|---:|---|---|---|",
+        "| Beginn | Ende | Fall | Länder | Claims |",
+        "|---:|---:|---|---|---:|",
     ]
     for meta, rel in cases:
         start = meta.get("period", {}).get("start", "?")
         end = meta.get("period", {}).get("end", "–") or "–"
         lines.append(
             f"| {start} | {end} | [{esc(meta['title'])}](../{rel}) | "
-            f"{', '.join(meta.get('countries', []))} | {meta['evidence_level']} |"
+            f"{', '.join(meta.get('countries', []))} | {len(meta.get('claims', []))} |"
         )
     return "\n".join(lines) + "\n"
 
