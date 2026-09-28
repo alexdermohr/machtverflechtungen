@@ -199,13 +199,15 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
     ]
     for source in sources:
         primary = "Primärquelle" if source.get("primary") else "Sekundär-/Forschungsquelle"
+        source_date = source.get("date")
+        date_label = source_date if source_date is not None else "unbekannt"
         lines += [
             f'<a id="{source["id"].lower()}"></a>',
             f"## {source['id']}",
             "",
             f"**{source['title']}**",
             "",
-            f"{source['institution']} · {source['date']} · Stufe **{source['tier']}** · {primary}",
+            f"{source['institution']} · {date_label} · Stufe **{source['tier']}** · {primary}",
             "",
             f"[Original/Fundstelle]({source['url']})",
             "",

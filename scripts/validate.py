@@ -149,6 +149,14 @@ def main() -> int:
     errors: list[str] = []
 
     sources = load_catalog("sources.yml", "sources", "source.schema.json", errors)
+    for source in sources:
+        accessed = source.get("accessed")
+        if isinstance(accessed, str) and period_bounds(accessed) is None:
+            errors.append(
+                f"sources:{source.get('id', '<unknown-source>')}: "
+                "accessed must use a valid YYYY-MM-DD date"
+            )
+
     entities = load_catalog("entities.yml", "entities", "entity.schema.json", errors)
     mechanisms = load_catalog(
         "mechanisms.yml", "mechanisms", "mechanism.schema.json", errors

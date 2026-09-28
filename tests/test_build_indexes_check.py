@@ -110,6 +110,24 @@ class GeneratedIndexCheckTests(unittest.TestCase):
 
         self.assertEqual(["CASE-TEST-JANUARY", "CASE-TEST-DECEMBER"], ordered)
 
+    def test_render_sources_uses_unknown_for_null_date(self) -> None:
+        rendered = build_indexes.render_sources(
+            [
+                {
+                    "id": "SRC-TEST-NULL-DATE",
+                    "title": "Quelle ohne bekanntes Datum",
+                    "institution": "Testinstitut",
+                    "date": None,
+                    "primary": False,
+                    "tier": "C",
+                    "url": "https://example.invalid/null-date",
+                }
+            ]
+        )
+
+        self.assertIn("Testinstitut · unbekannt · Stufe **C**", rendered)
+        self.assertNotIn(" · None · ", rendered)
+
     def test_check_accepts_current_generated_pages(self) -> None:
         code, output = self._run_check()
         self.assertEqual(0, code, output)

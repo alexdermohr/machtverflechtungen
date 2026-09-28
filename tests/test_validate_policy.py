@@ -161,6 +161,20 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         return source_id
 
+    def test_source_accessed_rejects_invalid_calendar_date(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"][0]["accessed"] = "2026-02-31"
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("accessed must use a valid YYYY-MM-DD date", output)
+
     def test_speculative_fact_still_requires_a_source(self) -> None:
         self._mutate_first_claim(
             classification="fact",
