@@ -21,6 +21,14 @@ CASE_DIR = DOCS / "faelle"
 DATA = ROOT / "data"
 SCHEMAS = ROOT / "schemas"
 
+SITE_MARKDOWN_EXTENSIONS = [
+    "admonition",
+    "attr_list",
+    "tables",
+    "pymdownx.details",
+    "pymdownx.superfences",
+]
+
 
 def load_yaml(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
@@ -144,6 +152,10 @@ def has_visible_text(value: str) -> bool:
     )
 
 
+def render_site_markdown(value: str) -> str:
+    return markdown.markdown(value, extensions=SITE_MARKDOWN_EXTENSIONS)
+
+
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
         {
@@ -169,7 +181,7 @@ class VisibleListLinkParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self._items: list[dict[str, Any]] = []
         self._anchors: list[dict[str, Any]] = []
-        self._elements: list[tuple[str, bool]] = []
+        self._elements: list[dict[str, Any]] = []
         self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
 
     @staticmethod
@@ -190,12 +202,33 @@ class VisibleListLinkParser(HTMLParser):
             or "visibility:hidden" in style_text
         )
 
+    @staticmethod
+    def _has_attribute(
+        attrs: list[tuple[str, str | None]], name: str
+    ) -> bool:
+        wanted = name.casefold()
+        return any(attr_name.casefold() == wanted for attr_name, _value in attrs)
+
+    def _regular_hidden(self) -> bool:
+        return bool(self._elements and self._elements[-1]["hidden"])
+
     def _current_hidden(self) -> bool:
-        return bool(self._elements and self._elements[-1][1])
+        if self._regular_hidden():
+            return True
+        for index, element in enumerate(self._elements):
+            if element.get("tag") != "details" or element.get("closed") is not True:
+                continue
+            descendants = self._elements[index + 1 :]
+            if (
+                not descendants
+                or descendants[0].get("summary_for_closed_details") is not True
+            ):
+                return True
+        return False
 
     def _close_element(self, tag: str) -> None:
         for index in range(len(self._elements) - 1, -1, -1):
-            if self._elements[index][0] == tag:
+            if self._elements[index].get("tag") == tag:
                 del self._elements[index:]
                 return
 
@@ -203,11 +236,37 @@ class VisibleListLinkParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        hidden = self._current_hidden() or self._declares_hidden(tag, attrs)
+        parent = self._elements[-1] if self._elements else None
+        summary_for_closed_details = (
+            tag == "summary"
+            and isinstance(parent, dict)
+            and parent.get("tag") == "details"
+            and parent.get("closed") is True
+            and parent.get("summary_seen") is not True
+        )
+        if summary_for_closed_details:
+            parent["summary_seen"] = True
+
+        hidden = self._regular_hidden() or self._declares_hidden(tag, attrs)
+        closed = tag == "details" and not self._has_attribute(attrs, "open")
+        if tag == "dialog" and not self._has_attribute(attrs, "open"):
+            hidden = True
         if tag not in self.VOID_TAGS:
-            self._elements.append((tag, hidden))
+            self._elements.append(
+                {
+                    "tag": tag,
+                    "hidden": hidden,
+                    "closed": closed,
+                    "summary_seen": False if tag == "details" else None,
+                    "summary_for_closed_details": summary_for_closed_details,
+                }
+            )
+
+        effective_hidden = self._current_hidden()
         if tag == "li":
-            self._items.append({"text": [], "links": [], "hidden": hidden})
+            self._items.append(
+                {"text": [], "links": [], "hidden": effective_hidden}
+            )
             return
         if tag == "a" and self._items:
             href = next(
@@ -218,7 +277,7 @@ class VisibleListLinkParser(HTMLParser):
                 {
                     "href": href if isinstance(href, str) else None,
                     "text": [],
-                    "hidden": hidden,
+                    "hidden": effective_hidden,
                 }
             )
 
@@ -256,7 +315,7 @@ class VisibleListLinkParser(HTMLParser):
 
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
-    rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
+    rendered = render_site_markdown(markdown_body(path))
     parser = VisibleListLinkParser()
     parser.feed(rendered)
     parser.close()
@@ -350,7 +409,7 @@ class VisibleTextParser(HTMLParser):
 
 
 def rendered_visible_text(path: Path) -> str:
-    rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
+    rendered = render_site_markdown(markdown_body(path))
     parser = VisibleTextParser()
     parser.feed(rendered)
     parser.close()
