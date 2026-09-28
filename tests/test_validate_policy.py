@@ -423,6 +423,29 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
+    def test_svg_text_after_self_closing_foreign_child_remains_visible(self) -> None:
+        visible = validate.visible_markdown_text(
+            '<svg><circle hidden /> <text>VISIBLE-SVG-TEXT</text></svg>'
+        )
+        self.assertIn("VISIBLE-SVG-TEXT", visible)
+
+    def test_mathml_text_after_self_closing_foreign_child_remains_visible(self) -> None:
+        visible = validate.visible_markdown_text(
+            '<math><mi hidden /> <mtext>VISIBLE-MATH-TEXT</mtext></math>'
+        )
+        self.assertIn("VISIBLE-MATH-TEXT", visible)
+
+    def test_svg_foreign_object_uses_html_visibility_semantics(self) -> None:
+        visible = validate.visible_markdown_text(
+            '<svg><foreignObject><p>VISIBLE-HTML</p></foreignObject></svg>'
+        )
+        self.assertIn("VISIBLE-HTML", visible)
+
+        hidden = validate.visible_markdown_text(
+            '<svg><foreignObject><div hidden />HIDDEN-HTML</foreignObject></svg>'
+        )
+        self.assertNotIn("HIDDEN-HTML", hidden)
+
     def test_self_closing_hidden_ancestor_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -1744,6 +1767,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn(
             "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+
+    def test_event_core_detects_non_event_claim_in_visible_svg_text(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8").replace(
+            "\n## Rekonstruktion",
+            "\n<svg><circle hidden /><text>CLM-DE-CELLER-NON-EVENT</text></svg>\n\n## Rekonstruktion",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "Gesicherter Ereigniskern includes non-event claim CLM-DE-CELLER-NON-EVENT",
             output,
         )
 

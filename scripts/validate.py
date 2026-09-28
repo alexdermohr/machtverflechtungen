@@ -156,6 +156,39 @@ def render_site_markdown(value: str) -> str:
     return markdown.markdown(value, extensions=SITE_MARKDOWN_EXTENSIONS)
 
 
+FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
+SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
+MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
+SVG_TEXT_TAGS = frozenset({"text", "textpath", "tspan"})
+SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
+
+
+def foreign_context(elements: list[dict[str, Any]]) -> str | None:
+    for element in reversed(elements):
+        tag = element.get("tag")
+        if tag in SVG_HTML_INTEGRATION_TAGS or tag in MATHML_TEXT_INTEGRATION_TAGS:
+            return None
+        if tag == "svg":
+            return "svg"
+        if tag == "math":
+            return "math"
+    return None
+
+
+def foreign_text_visible(elements: list[dict[str, Any]]) -> bool:
+    context = foreign_context(elements)
+    if context is None:
+        return True
+    if context != "svg":
+        return False
+    for element in reversed(elements):
+        tag = element.get("tag")
+        if tag == "svg":
+            break
+        if tag in SVG_TEXT_TAGS:
+            return True
+    return False
+
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
         {
@@ -176,9 +209,8 @@ class VisibleListLinkParser(HTMLParser):
         }
     )
     ALWAYS_HIDDEN_TAGS = frozenset(
-        {"canvas", "head", "iframe", "script", "style", "template", "svg"}
+        {"canvas", "head", "iframe", "script", "style", "template"}
     )
-    FOREIGN_SELF_CLOSING_TAGS = frozenset({"math", "svg"})
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -215,6 +247,9 @@ class VisibleListLinkParser(HTMLParser):
     def _regular_hidden(self) -> bool:
         return bool(self._elements and self._elements[-1]["hidden"])
 
+    def _text_visible(self) -> bool:
+        return not self._current_hidden() and foreign_text_visible(self._elements)
+
     def _current_hidden(self) -> bool:
         if self._regular_hidden():
             return True
@@ -250,7 +285,12 @@ class VisibleListLinkParser(HTMLParser):
         if summary_for_closed_details:
             parent["summary_seen"] = True
 
-        hidden = self._regular_hidden() or self._declares_hidden(tag, attrs)
+        current_foreign_context = foreign_context(self._elements)
+        hidden = (
+            self._regular_hidden()
+            or self._declares_hidden(tag, attrs)
+            or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
+        )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
         if tag == "dialog" and not self._has_attribute(attrs, "open"):
             hidden = True
@@ -265,7 +305,7 @@ class VisibleListLinkParser(HTMLParser):
                 }
             )
 
-        effective_hidden = self._current_hidden()
+        effective_hidden = not self._text_visible()
         if tag == "li":
             self._items.append(
                 {"text": [], "links": [], "hidden": effective_hidden}
@@ -287,15 +327,21 @@ class VisibleListLinkParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        # HTML ignores self-closing syntax on ordinary non-void elements,
-        # while foreign SVG/MathML roots are actually closed by the parser.
+        # HTML ignores self-closing syntax on ordinary non-void elements.
+        # In SVG/MathML foreign content the self-closing flag is real,
+        # including for child elements, so those tags must not leak onto
+        # the HTML visibility stack.
         tag = tag.casefold()
-        if tag in self.VOID_TAGS or tag in self.FOREIGN_SELF_CLOSING_TAGS:
+        if (
+            tag in self.VOID_TAGS
+            or tag in FOREIGN_ROOT_TAGS
+            or foreign_context(self._elements) is not None
+        ):
             return
         self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
-        if self._current_hidden():
+        if not self._text_visible():
             return
         if self._items:
             self._items[-1]["text"].append(data)
@@ -341,6 +387,9 @@ class VisibleTextParser(HTMLParser):
     def _regular_hidden(self) -> bool:
         return bool(self._elements and self._elements[-1]["hidden"])
 
+    def _text_visible(self) -> bool:
+        return not self._current_hidden() and foreign_text_visible(self._elements)
+
     def _current_hidden(self) -> bool:
         if self._regular_hidden():
             return True
@@ -383,8 +432,11 @@ class VisibleTextParser(HTMLParser):
         if summary_for_closed_details:
             parent["summary_seen"] = True
 
-        hidden = self._regular_hidden() or VisibleListLinkParser._declares_hidden(
-            tag, attrs
+        current_foreign_context = foreign_context(self._elements)
+        hidden = (
+            self._regular_hidden()
+            or VisibleListLinkParser._declares_hidden(tag, attrs)
+            or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
         if tag == "dialog" and not self._has_attribute(attrs, "open"):
@@ -403,15 +455,18 @@ class VisibleTextParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
-        # HTML ignores self-closing syntax on ordinary non-void elements,
-        # while foreign SVG/MathML roots are actually closed by the parser.
+        # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
-        if tag in self.VOID_TAGS or tag in VisibleListLinkParser.FOREIGN_SELF_CLOSING_TAGS:
+        if (
+            tag in self.VOID_TAGS
+            or tag in FOREIGN_ROOT_TAGS
+            or foreign_context(self._elements) is not None
+        ):
             return
         self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
-        if not self._current_hidden():
+        if self._text_visible():
             self._text.append(data)
 
     def handle_endtag(self, tag: str) -> None:
@@ -452,14 +507,14 @@ class VisibleSectionTextParser(VisibleTextParser):
             self._h2_visible = False
         super().handle_starttag(tag, attrs)
         if tag == "h2":
-            self._h2_visible = not self._current_hidden()
+            self._h2_visible = self._text_visible()
 
     def handle_data(self, data: str) -> None:
         if self._in_h2:
-            if not self._current_hidden():
+            if self._text_visible():
                 self._h2_text.append(data)
             return
-        if self._capture and not self._current_hidden():
+        if self._capture and self._text_visible():
             self._section_text.append(data)
 
     def handle_endtag(self, tag: str) -> None:
