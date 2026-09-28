@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Machtverflechtungen claim record",
+  "type": "object",
+  "required": ["id", "text", "classification", "evidence_level", "sources"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^CLM-[A-Z0-9-]+$"},
+    "text": {"type": "string", "minLength": 10},
+    "classification": {"enum": ["fact", "counterevidence", "hypothesis", "interpretation", "open_question"]},
+    "evidence_level": {"enum": ["established", "strong", "plausible", "speculative", "contradicted"]},
+    "sources": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": true
+}

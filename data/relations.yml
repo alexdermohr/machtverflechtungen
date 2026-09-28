@@ -1,0 +1,56 @@
+relations:
+  - id: REL-DE-CELLER-001
+    from: ORG-DE-NI-VERFASSUNGSSCHUTZ
+    to: CASE-DE-CELLER-LOCH-1978
+    type: executed_covert_operation
+    label: "führte Aktion Feuerzauber durch"
+    evidence_level: established
+    sources: [SRC-DE-NI-MJ-CELLER-2015]
+
+  - id: REL-DE-GEHLEN-001
+    from: ORG-DE-ORGANISATION-GEHLEN
+    to: ORG-DE-BND
+    type: institutional_predecessor
+    label: "wurde 1956 in den BND überführt"
+    evidence_level: strong
+    sources: [SRC-DE-BPB-BND-2026]
+
+  - id: REL-DE-GEHLEN-002
+    from: PER-DE-REINHARD-GEHLEN
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: led
+    label: "leitete"
+    evidence_level: strong
+    sources: [SRC-DE-BPB-BND-2026]
+
+  - id: REL-DE-GEHLEN-003
+    from: PER-DE-REINHARD-GEHLEN
+    to: ORG-DE-BND
+    type: president
+    label: "erster Präsident"
+    evidence_level: strong
+    sources: [SRC-DE-BPB-BND-2026]
+
+  - id: REL-DE-THS-001
+    from: ORG-DE-TLFV
+    to: PER-DE-TINO-BRANDT
+    type: source_handler_relationship
+    label: "führte und bezahlte als V-Mann"
+    evidence_level: established
+    sources: [SRC-DE-THLT-NSU-UA-2014]
+
+  - id: REL-DE-THS-002
+    from: PER-DE-TINO-BRANDT
+    to: ORG-DE-THS
+    type: material_support
+    label: "setzte Geld und Sachmittel für Aufbau und Funktionieren ein"
+    evidence_level: established
+    sources: [SRC-DE-THLT-NSU-UA-2014]
+
+  - id: REL-DE-AB-001
+    from: ORG-DE-ATLANTIK-BRUECKE
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: operates_program
+    label: "betreibt"
+    evidence_level: established
+    sources: [SRC-DE-ATLANTIKBRUECKE-YL]

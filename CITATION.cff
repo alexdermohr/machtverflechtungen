@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Wenn du Machtverflechtungen verwendest, zitiere bitte Repository und konkrete Fall-/Quellen-ID."
+title: "Machtverflechtungen"
+type: dataset
+authors:
+  - family-names: "Mohr"
+    given-names: "Alexander"
+repository-code: "https://github.com/alexdermohr/machtverflechtungen"
+url: "https://alexdermohr.github.io/machtverflechtungen/"
+date-released: "2026-09-28"

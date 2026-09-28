@@ -1,0 +1,40 @@
+mechanisms:
+  - id: false-attribution
+    label: "Falsche Zuschreibung / Täuschungsoperation"
+    definition: "Ein Vorgang wird gezielt einem anderen Akteur oder Milieu zugerechnet oder soll so erscheinen."
+
+  - id: infiltration
+    label: "Infiltration"
+    definition: "Verdeckter Zugang zu einer Zielstruktur durch Quelle, V-Person oder Mitarbeiter."
+
+  - id: covert-support
+    label: "Verdeckte Unterstützung"
+    definition: "Nicht offen ausgewiesene organisatorische, finanzielle oder logistische Unterstützung."
+
+  - id: paramilitary-network
+    label: "Paramilitärisches Netzwerk"
+    definition: "Organisierte Struktur mit militärischer oder bewaffneter Vorbereitung außerhalb regulärer Streitkräfte."
+
+  - id: institutional-continuity
+    label: "Institutionelle / personelle Kontinuität"
+    definition: "Fortwirken von Personal, Praktiken oder Netzwerken über institutionelle Brüche hinweg."
+
+  - id: intelligence-network
+    label: "Nachrichtendienstliches Netzwerk"
+    definition: "Struktur aus Diensten, Quellen, Agenten, Mittlern oder kooperierenden Stellen."
+
+  - id: source-protection
+    label: "Quellenschutz"
+    definition: "Schutz einer nachrichtendienstlichen Quelle, der mit anderen staatlichen Zielen in Konflikt geraten kann."
+
+  - id: material-support
+    label: "Materielle Unterstützung"
+    definition: "Geld, Sachmittel, Logistik oder andere Ressourcen wirken zugunsten einer Person oder Struktur."
+
+  - id: strategy-of-tension
+    label: "Strategie der Spannung"
+    definition: "Vergleichsrahmen für politische Gewalt, Destabilisierung, Täuschung, Duldung und politische Verwertung; keine automatische Urheberschaftsthese."
+
+  - id: investigative-misdirection
+    label: "Ermittlungsmanipulation / Depistaggio"
+    definition: "Ermittlungen werden durch falsche Spuren, Informationszurückhaltung oder andere Eingriffe behindert oder fehlgeleitet."
