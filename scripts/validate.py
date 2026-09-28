@@ -268,27 +268,56 @@ class VisibleTextParser(HTMLParser):
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
-        self._elements: list[tuple[str, bool]] = []
+        self._elements: list[dict[str, Any]] = []
         self._text: list[str] = []
 
+    def _regular_hidden(self) -> bool:
+        return bool(self._elements and self._elements[-1]["hidden"])
+
     def _current_hidden(self) -> bool:
-        return bool(self._elements and self._elements[-1][1])
+        if self._regular_hidden():
+            return True
+        for index, element in enumerate(self._elements):
+            if element.get("tag") != "details" or element.get("closed") is not True:
+                continue
+            if not any(
+                nested.get("tag") == "summary"
+                for nested in self._elements[index + 1 :]
+            ):
+                return True
+        return False
 
     def _close_element(self, tag: str) -> None:
         for index in range(len(self._elements) - 1, -1, -1):
-            if self._elements[index][0] == tag:
+            if self._elements[index].get("tag") == tag:
                 del self._elements[index:]
                 return
+
+    @staticmethod
+    def _has_attribute(
+        attrs: list[tuple[str, str | None]], name: str
+    ) -> bool:
+        wanted = name.casefold()
+        return any(attr_name.casefold() == wanted for attr_name, _value in attrs)
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        hidden = self._current_hidden() or VisibleListLinkParser._declares_hidden(
+        hidden = self._regular_hidden() or VisibleListLinkParser._declares_hidden(
             tag, attrs
         )
+        closed = tag == "details" and not self._has_attribute(attrs, "open")
+        if tag == "dialog" and not self._has_attribute(attrs, "open"):
+            hidden = True
         if tag not in self.VOID_TAGS:
-            self._elements.append((tag, hidden))
+            self._elements.append(
+                {
+                    "tag": tag,
+                    "hidden": hidden,
+                    "closed": closed,
+                }
+            )
 
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
@@ -602,6 +631,8 @@ def main() -> int:
                 seen_links.add(key)
             if kind == "documented_connection":
                 relation_id = link.get("relation_id")
+                if not isinstance(relation_id, str):
+                    continue
                 relation = relation_by_id.get(relation_id)
                 if relation is None:
                     errors.append(
