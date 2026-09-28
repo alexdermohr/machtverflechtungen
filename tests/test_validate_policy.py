@@ -312,6 +312,46 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_nested_organization_profile_is_validated(self) -> None:
+        source = self._organization_path()
+        nested_dir = source.parent / "de"
+        nested_dir.mkdir()
+        nested = nested_dir / source.name
+        source.replace(nested)
+
+        text = nested.read_text(encoding="utf-8")
+        nested.write_text(
+            text.replace("SRC-DE-ATLANTIKBRUECKE-YL", "SRC-UNKNOWN-NESTED"),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("docs/organisationen/de/atlantik-bruecke.md: unknown source SRC-UNKNOWN-NESTED", output)
+
+    def test_case_period_rejects_end_year_before_start_year(self) -> None:
+        self._mutate_case(period={"start": "2000", "end": "1900"})
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("period.end precedes period.start", output)
+
+    def test_case_period_rejects_end_date_before_start_date(self) -> None:
+        self._mutate_case(period={"start": "2000-12-31", "end": "2000-01-01"})
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("period.end precedes period.start", output)
+
+    def test_case_period_allows_ambiguous_same_year_mixed_precision(self) -> None:
+        self._mutate_case(period={"start": "2000-12-31", "end": "2000"})
+        code, output = self._run_validator()
+        self.assertEqual(0, code, output)
+
+    def test_case_period_rejects_invalid_calendar_date(self) -> None:
+        self._mutate_case(period={"start": "2000-02-31", "end": "2001"})
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("period.start must use a valid YYYY or YYYY-MM-DD value", output)
+
     def test_malformed_catalog_row_is_reported_without_crashing(self) -> None:
         path = self.root / "data" / "sources.yml"
         payload = yaml.safe_load(path.read_text(encoding="utf-8"))

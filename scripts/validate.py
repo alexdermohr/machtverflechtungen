@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -72,6 +74,25 @@ def mapping_list(value: Any) -> list[dict[str, Any]]:
     if not isinstance(value, list):
         return []
     return [item for item in value if isinstance(item, dict)]
+
+
+def period_bounds(value: Any) -> tuple[date, date] | None:
+    if not isinstance(value, str):
+        return None
+    text = value.strip()
+    if re.fullmatch(r"\d{4}", text):
+        year = int(text)
+        if not 1 <= year <= 9999:
+            return None
+        return (date(year, 1, 1), date(year, 12, 31))
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", text)
+    if not match:
+        return None
+    try:
+        exact = date(*(int(part) for part in match.groups()))
+    except ValueError:
+        return None
+    return (exact, exact)
 
 
 def established_supports(
@@ -188,6 +209,26 @@ def main() -> int:
 
     for path, meta in cases:
         label = str(path.relative_to(ROOT))
+        period = meta.get("period")
+        if isinstance(period, dict):
+            start_raw = period.get("start")
+            end_raw = period.get("end")
+            start_bounds = period_bounds(start_raw)
+            end_bounds = period_bounds(end_raw) if end_raw is not None else None
+            if isinstance(start_raw, str) and start_bounds is None:
+                errors.append(
+                    f"{label}: period.start must use a valid YYYY or YYYY-MM-DD value"
+                )
+            if isinstance(end_raw, str) and end_bounds is None:
+                errors.append(
+                    f"{label}: period.end must use a valid YYYY or YYYY-MM-DD value"
+                )
+            if (
+                start_bounds is not None
+                and end_bounds is not None
+                and start_bounds[0] > end_bounds[1]
+            ):
+                errors.append(f"{label}: period.end precedes period.start")
         case_sources = string_list(meta.get("sources"))
         for source_id in case_sources:
             if source_id not in source_ids:
@@ -311,7 +352,7 @@ def main() -> int:
     organization_dir = DOCS / "organisationen"
     organization_profile_ids: set[str] = set()
     if organization_dir.exists():
-        for path in sorted(organization_dir.glob("*.md")):
+        for path in sorted(organization_dir.rglob("*.md")):
             if path.name == "index.md":
                 continue
             label = str(path.relative_to(ROOT))
