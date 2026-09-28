@@ -486,11 +486,7 @@ def main() -> int:
             classification = claim.get("classification")
             evidence = claim.get("evidence_level")
             claim_sources = string_list(claim.get("sources"))
-            source_optional = (
-                (classification == "open_question" or classification == "hypothesis")
-                and evidence == "speculative"
-            )
-            if not source_optional and not claim_sources:
+            if not claim_sources:
                 errors.append(
                     f"{label}: claim {claim.get('id')} requires at least one source"
                 )
