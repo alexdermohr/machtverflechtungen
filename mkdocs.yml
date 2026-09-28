@@ -1,0 +1,62 @@
+site_name: Machtverflechtungen
+site_description: Quellengebundene Dokumentation staatlicher, geheimdienstlicher, politischer und wirtschaftlicher Machtverflechtungen
+site_url: https://alexdermohr.github.io/machtverflechtungen/
+repo_url: https://github.com/alexdermohr/machtverflechtungen
+repo_name: alexdermohr/machtverflechtungen
+copyright: Forschung und Daten CC BY 4.0 · Code MIT
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang:
+        - de
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Start: index.md
+  - Methodik:
+      - Grundsätze: methodik.md
+      - Begriffe: begriffe.md
+  - Fälle:
+      - Überblick: faelle/index.md
+      - Deutschland:
+          - Celler Loch: faelle/de/celler-loch.md
+          - Technischer Dienst des BDJ: faelle/de/technischer-dienst-bdj.md
+          - Organisation Gehlen: faelle/de/organisation-gehlen.md
+          - THS / Tino Brandt: faelle/de/thueringer-heimatschutz-tino-brandt.md
+      - Italien:
+          - Piazza Fontana: faelle/it/piazza-fontana.md
+  - Recherche:
+      - Chronologie: generated/timeline.md
+      - Personen & Organisationen: generated/entities.md
+      - Regionen: generated/regions.md
+      - Netzwerk: generated/network.md
+      - Offene Hypothesen: generated/hypotheses.md
+      - Quellen: quellen/index.md
+  - Mechanismen:
+      - Überblick: mechanismen/index.md
+      - Strategie der Spannung: mechanismen/strategie-der-spannung.md
+  - Machtnetzwerke:
+      - Überblick: organisationen/index.md
+      - Atlantik-Brücke: organisationen/atlantik-bruecke.md

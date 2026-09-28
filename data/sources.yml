@@ -1,0 +1,78 @@
+sources:
+- id: SRC-DE-NI-MJ-CELLER-2015
+  title: Justizministerin besucht das Celler Loch
+  institution: Niedersächsisches Justizministerium
+  date: '2015-07-24'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html
+  accessed: '2026-09-28'
+- id: SRC-DE-BT-04644-1953
+  title: Schriftlicher Bericht über die Geheimorganisation Technischer Dienst des
+    BDJ in Hessen
+  institution: Deutscher Bundestag
+  date: '1953-07-01'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/01/046/0104644.pdf
+  accessed: '2026-09-28'
+  locator: Drucksache Nr. 4644
+- id: SRC-DE-BPB-BND-2026
+  title: 'April 1956: Gründung des Bundesnachrichtendienstes'
+  institution: Bundeszentrale für politische Bildung
+  date: '2026-03-31'
+  type: research_overview
+  primary: false
+  tier: B
+  url: https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/
+  accessed: '2026-09-28'
+- id: SRC-DE-BND-GESCHICHTE-2011
+  title: Mitteilungen der Forschungs- und Arbeitsgruppe Geschichte des BND – Sonderausgabe
+  institution: Bundesnachrichtendienst
+  date: '2011'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2
+  accessed: '2026-09-28'
+- id: SRC-DE-THLT-NSU-UA-2014
+  title: Bericht des Untersuchungsausschusses Rechtsterrorismus und Behördenhandeln
+  institution: Thüringer Landtag
+  date: '2014'
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.thueringer-landtag.de/fileadmin/Redaktion/1-Hauptmenue/1-Landtag/3-Ausschuesse_und_Gremien/3-Untersuchungsausschuesse/1-Untersuchungsausschuss_6-1/Dokumente/mogliches-fehlverhalten-der-thuringer-sicherheits-und-justizbehorden-einschliesslich-der-zustandigen-ministerien-unter-einschluss-der-politischen.pdf
+  accessed: '2026-09-28'
+  locator: insbesondere S. 1579–1581 / Rn. 2042 ff.
+- id: SRC-IT-SENATO-STRAGI-2001
+  title: Commissione parlamentare d'inchiesta sul terrorismo in Italia – atti e proposte di relazione pubblicati nel 2001
+  institution: Parlamento italiano
+  date: '2001'
+  type: parliamentary_inquiry_material
+  primary: true
+  tier: A
+  url: https://www.senato.it/service/PDF/PDFServer/BGT/301445.pdf
+  accessed: '2026-09-28'
+  locator: Doc. XXIII n. 64, volume I, tomo II
+  notes: Die Kommission beschloss die Veröffentlichung der erarbeiteten Materialien; ein gemeinsamer Schlussbericht fand keine breite Zustimmung und wurde nicht als einheitlicher Abschlussbericht verabschiedet.
+- id: SRC-IT-SENATO-PIAZZA-2006
+  title: Sull'anniversario della strage di piazza Fontana
+  institution: Senato della Repubblica
+  date: '2006-12-12'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://www.senato.it/show-doc?id=227361&idoggetto=0&leg=15&part=doc_dc-ressten_rs-gentit_sadsdpf&tipodoc=resaula
+  accessed: '2026-09-28'
+- id: SRC-DE-ATLANTIKBRUECKE-YL
+  title: Young Leaders Program
+  institution: Atlantik-Brücke e.V.
+  date: current
+  type: organization_self_description
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/programme/young_leaders_program/
+  accessed: '2026-09-28'

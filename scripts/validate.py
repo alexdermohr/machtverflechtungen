@@ -1,0 +1,218 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+from typing import Any
+
+import yaml
+from jsonschema import Draft202012Validator
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "docs"
+CASE_DIR = DOCS / "faelle"
+DATA = ROOT / "data"
+SCHEMAS = ROOT / "schemas"
+
+
+def load_yaml(path: Path) -> Any:
+    with path.open("r", encoding="utf-8") as handle:
+        return yaml.safe_load(handle)
+
+
+def load_json(path: Path) -> Any:
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def frontmatter(path: Path) -> dict[str, Any]:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        raise ValueError("missing opening frontmatter delimiter")
+    try:
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+    except StopIteration as exc:
+        raise ValueError("missing closing frontmatter delimiter") from exc
+    payload = yaml.safe_load("\n".join(lines[1:end]))
+    if not isinstance(payload, dict):
+        raise ValueError("frontmatter must be a mapping")
+    return payload
+
+
+def schema_errors(instance: Any, schema_file: str, label: str) -> list[str]:
+    validator = Draft202012Validator(load_json(SCHEMAS / schema_file))
+    out: list[str] = []
+    for error in sorted(validator.iter_errors(instance), key=lambda e: list(e.path)):
+        location = ".".join(str(part) for part in error.path) or "<root>"
+        out.append(f"{label}: {location}: {error.message}")
+    return out
+
+
+def unique_ids(items: list[dict[str, Any]], label: str, errors: list[str]) -> set[str]:
+    seen: set[str] = set()
+    for item in items:
+        item_id = item.get("id")
+        if not isinstance(item_id, str):
+            continue
+        if item_id in seen:
+            errors.append(f"{label}: duplicate id {item_id}")
+        seen.add(item_id)
+    return seen
+
+
+def load_catalog(
+    filename: str,
+    key: str,
+    schema_file: str,
+    errors: list[str],
+) -> list[dict[str, Any]]:
+    path = DATA / filename
+    payload = load_yaml(path)
+    if not isinstance(payload, dict) or not isinstance(payload.get(key), list):
+        errors.append(f"{path.relative_to(ROOT)}: expected top-level list '{key}'")
+        return []
+    rows = payload[key]
+    for index, row in enumerate(rows):
+        if not isinstance(row, dict):
+            errors.append(f"{path.relative_to(ROOT)}[{index}]: expected mapping")
+            continue
+        errors.extend(
+            schema_errors(row, schema_file, f"{path.relative_to(ROOT)}[{index}]")
+        )
+    return rows
+
+
+def main() -> int:
+    errors: list[str] = []
+
+    sources = load_catalog("sources.yml", "sources", "source.schema.json", errors)
+    entities = load_catalog("entities.yml", "entities", "entity.schema.json", errors)
+    mechanisms = load_catalog(
+        "mechanisms.yml", "mechanisms", "mechanism.schema.json", errors
+    )
+    relations = load_catalog(
+        "relations.yml", "relations", "relation.schema.json", errors
+    )
+
+    source_ids = unique_ids(sources, "sources", errors)
+    entity_ids = unique_ids(entities, "entities", errors)
+    mechanism_ids = unique_ids(mechanisms, "mechanisms", errors)
+    unique_ids(relations, "relations", errors)
+
+    case_ids: set[str] = set()
+    claim_ids: set[str] = set()
+    cases: list[tuple[Path, dict[str, Any]]] = []
+
+    for path in sorted(CASE_DIR.rglob("*.md")):
+        if path.name == "index.md":
+            continue
+        label = str(path.relative_to(ROOT))
+        try:
+            meta = frontmatter(path)
+        except Exception as exc:
+            errors.append(f"{label}: {exc}")
+            continue
+
+        errors.extend(schema_errors(meta, "case.schema.json", label))
+        case_id = meta.get("id")
+        if isinstance(case_id, str):
+            if case_id in case_ids or case_id in entity_ids:
+                errors.append(f"global IDs: duplicate id {case_id}")
+            case_ids.add(case_id)
+
+        for claim in meta.get("claims", []):
+            if not isinstance(claim, dict):
+                errors.append(f"{label}: claim must be a mapping")
+                continue
+            claim_label = f"{label}:{claim.get('id', '<unknown-claim>')}"
+            errors.extend(schema_errors(claim, "claim.schema.json", claim_label))
+            claim_id = claim.get("id")
+            if isinstance(claim_id, str):
+                if claim_id in claim_ids:
+                    errors.append(f"claims: duplicate id {claim_id}")
+                claim_ids.add(claim_id)
+
+        cases.append((path, meta))
+
+    for path, meta in cases:
+        label = str(path.relative_to(ROOT))
+        for source_id in meta.get("sources", []):
+            if source_id not in source_ids:
+                errors.append(f"{label}: unknown source {source_id}")
+        for actor_id in meta.get("actors", []):
+            if actor_id not in entity_ids:
+                errors.append(f"{label}: unknown actor {actor_id}")
+        for mechanism_id in meta.get("mechanisms", []):
+            if mechanism_id not in mechanism_ids:
+                errors.append(f"{label}: unknown mechanism {mechanism_id}")
+
+        for claim in meta.get("claims", []):
+            if not isinstance(claim, dict):
+                continue
+            classification = claim.get("classification")
+            evidence = claim.get("evidence_level")
+            claim_sources = claim.get("sources", [])
+            if (
+                classification not in {"open_question", "hypothesis"}
+                and evidence != "speculative"
+                and not claim_sources
+            ):
+                errors.append(
+                    f"{label}: claim {claim.get('id')} requires at least one source"
+                )
+            for source_id in claim_sources:
+                if source_id not in source_ids:
+                    errors.append(
+                        f"{label}: claim {claim.get('id')} references unknown source {source_id}"
+                    )
+
+    node_ids = entity_ids | case_ids
+    for relation in relations:
+        relation_id = relation.get("id", "<unknown-relation>")
+        if relation.get("from") not in node_ids:
+            errors.append(
+                f"{relation_id}: unknown from-node {relation.get('from')}"
+            )
+        if relation.get("to") not in node_ids:
+            errors.append(f"{relation_id}: unknown to-node {relation.get('to')}")
+        for source_id in relation.get("sources", []):
+            if source_id not in source_ids:
+                errors.append(f"{relation_id}: unknown source {source_id}")
+
+    organization_dir = DOCS / "organisationen"
+    if organization_dir.exists():
+        for path in sorted(organization_dir.glob("*.md")):
+            if path.name == "index.md":
+                continue
+            label = str(path.relative_to(ROOT))
+            try:
+                meta = frontmatter(path)
+            except Exception as exc:
+                errors.append(f"{label}: {exc}")
+                continue
+            entity_id = meta.get("id")
+            if entity_id not in entity_ids:
+                errors.append(f"{label}: unknown organization entity {entity_id}")
+            for source_id in meta.get("sources", []):
+                if source_id not in source_ids:
+                    errors.append(f"{label}: unknown source {source_id}")
+
+    if errors:
+        print("VALIDATION FAILED")
+        for error in errors:
+            print(f"- {error}")
+        return 1
+
+    print(
+        "VALIDATION OK: "
+        f"{len(case_ids)} cases, {len(claim_ids)} claims, "
+        f"{len(source_ids)} sources, {len(entity_ids)} entities, "
+        f"{len(mechanism_ids)} mechanisms, {len(relations)} relations"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

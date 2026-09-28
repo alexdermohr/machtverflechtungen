@@ -1,0 +1,55 @@
+entities:
+  - id: ORG-DE-NI-VERFASSUNGSSCHUTZ
+    type: intelligence_service
+    name: "Niedersächsischer Verfassungsschutz"
+    countries: [DE]
+
+  - id: ORG-DE-BDJ
+    type: organization
+    name: "Bund Deutscher Jugend"
+    countries: [DE]
+
+  - id: ORG-DE-ORGANISATION-GEHLEN
+    type: intelligence_organization
+    name: "Organisation Gehlen"
+    countries: [DE, US]
+
+  - id: ORG-DE-BND
+    type: intelligence_service
+    name: "Bundesnachrichtendienst"
+    countries: [DE]
+
+  - id: ORG-US-CIA
+    type: intelligence_service
+    name: "Central Intelligence Agency"
+    countries: [US]
+
+  - id: PER-DE-REINHARD-GEHLEN
+    type: person
+    name: "Reinhard Gehlen"
+    countries: [DE]
+
+  - id: ORG-DE-TLFV
+    type: intelligence_service
+    name: "Thüringer Landesamt für Verfassungsschutz"
+    countries: [DE]
+
+  - id: ORG-DE-THS
+    type: extremist_network
+    name: "Thüringer Heimatschutz"
+    countries: [DE]
+
+  - id: PER-DE-TINO-BRANDT
+    type: person
+    name: "Tino Brandt"
+    countries: [DE]
+
+  - id: ORG-DE-ATLANTIK-BRUECKE
+    type: association
+    name: "Atlantik-Brücke e.V."
+    countries: [DE, US]
+
+  - id: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: program
+    name: "Atlantik-Brücke Young Leaders Program"
+    countries: [DE, US]
