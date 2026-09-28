@@ -74,6 +74,7 @@ def load_catalog(
         errors.append(f"{path.relative_to(ROOT)}: expected top-level list '{key}'")
         return []
     rows = payload[key]
+    valid_rows: list[dict[str, Any]] = []
     for index, row in enumerate(rows):
         if not isinstance(row, dict):
             errors.append(f"{path.relative_to(ROOT)}[{index}]: expected mapping")
@@ -81,7 +82,8 @@ def load_catalog(
         errors.extend(
             schema_errors(row, schema_file, f"{path.relative_to(ROOT)}[{index}]")
         )
-    return rows
+        valid_rows.append(row)
+    return valid_rows
 
 
 def main() -> int:
@@ -238,12 +240,26 @@ def main() -> int:
             except Exception as exc:
                 errors.append(f"{label}: {exc}")
                 continue
+            errors.extend(schema_errors(meta, "organization.schema.json", label))
             entity_id = meta.get("id")
             if entity_id not in entity_ids:
                 errors.append(f"{label}: unknown organization entity {entity_id}")
-            for source_id in meta.get("sources", []):
+            organization_sources = meta.get("sources", [])
+            for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
+            if (
+                meta.get("evidence_level") in {"established", "strong", "plausible"}
+                and organization_sources
+                and all(source_id in source_tiers for source_id in organization_sources)
+                and not any(
+                    source_tiers[source_id] in {"A", "B", "C", "D"}
+                    for source_id in organization_sources
+                )
+            ):
+                errors.append(
+                    f"{label}: non-speculative organization evidence may not rely solely on Tier-E leads"
+                )
 
     if errors:
         print("VALIDATION FAILED")

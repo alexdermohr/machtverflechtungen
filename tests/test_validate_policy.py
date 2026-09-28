@@ -74,6 +74,25 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
 
+    def _organization_path(self) -> Path:
+        return self.root / "docs" / "organisationen" / "atlantik-bruecke.md"
+
+    def _mutate_organization(self, **updates: object) -> None:
+        path = self._organization_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        frontmatter = yaml.safe_load("\n".join(lines[1:end]))
+        frontmatter.update(updates)
+        body = "\n".join(lines[end + 1 :]).lstrip("\n")
+        rendered = yaml.safe_dump(
+            frontmatter,
+            sort_keys=False,
+            allow_unicode=True,
+            width=120,
+        )
+        path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
+
     def _add_tier_e_source(self) -> str:
         source_id = "SRC-TEST-LEAD"
         path = self.root / "data" / "sources.yml"
@@ -130,6 +149,34 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         code, output = self._run_validator()
         self.assertEqual(1, code)
         self.assertIn("relation may not rely solely on Tier-E leads", output)
+
+    def test_established_organization_requires_a_source(self) -> None:
+        self._mutate_organization(sources=[])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("should be non-empty", output)
+
+    def test_organization_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_organization(sources=[lead])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "non-speculative organization evidence may not rely solely on Tier-E leads",
+            output,
+        )
+
+    def test_malformed_catalog_row_is_reported_without_crashing(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"].append("not-a-mapping")
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("expected mapping", output)
 
     def test_speculative_hypothesis_may_remain_an_unsourced_open_lead(self) -> None:
         self._mutate_first_claim(

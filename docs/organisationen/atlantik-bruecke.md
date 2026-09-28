@@ -12,9 +12,9 @@ sources: [SRC-DE-ATLANTIKBRUECKE-YL]
 
 ## Warum im Projekt?
 
-Die Atlantik-Brücke ist ein Beispiel dafür, wie ein **legales und öffentlich auftretendes Einfluss- und Kontaktnetzwerk** modelliert werden kann, ohne aus Vernetzung automatisch illegitime Steuerung abzuleiten.
+Die Atlantik-Brücke ist ein Beispiel dafür, wie ein **legales und öffentlich auftretendes Kontakt- und Austauschnetzwerk** modelliert werden kann, ohne aus Vernetzung automatisch politische Einflusswirkung oder illegitime Steuerung abzuleiten.
 
-Der Verein bringt nach eigener Darstellung Personen aus Politik, Wirtschaft, Militär, Medien und Zivilgesellschaft zusammen.
+Die Nachwuchsprogramme der Atlantik-Brücke dienen nach eigener Darstellung dem interdisziplinären Austausch und dem Aufbau dauerhafter transatlantischer Netzwerke.
 
 ## Young Leaders
 
