@@ -412,6 +412,28 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("may not rely solely on Tier-E leads", output)
 
+    def test_contradicted_open_question_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_first_claim(
+            classification="open_question",
+            evidence_level="contradicted",
+            sources=[lead],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("may not rely solely on Tier-E leads", output)
+
+    def test_strong_open_question_may_not_rely_only_on_tier_e_leads(self) -> None:
+        lead = self._add_tier_e_source()
+        self._mutate_first_claim(
+            classification="open_question",
+            evidence_level="strong",
+            sources=[lead],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("may not rely solely on Tier-E leads", output)
+
     def test_contradicted_case_may_not_rely_only_on_tier_e_leads(self) -> None:
         lead = self._add_tier_e_source()
         self._mutate_case(evidence_level="contradicted", sources=[lead])

@@ -242,7 +242,7 @@ def main() -> int:
                 and (
                     classification in {"fact", "counterevidence", "interpretation"}
                     or (
-                        classification == "hypothesis"
+                        classification in {"hypothesis", "open_question"}
                         and isinstance(evidence, str)
                         and evidence in {"established", "strong", "plausible", "contradicted"}
                     )
