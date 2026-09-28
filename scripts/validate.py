@@ -194,8 +194,11 @@ def direct_source_link_errors(
         url = source.get("url")
         if not isinstance(url, str):
             continue
+        source_id_pattern = re.compile(
+            rf"(?<![A-Z0-9-]){re.escape(source_id)}(?![A-Z0-9-])"
+        )
         if not any(
-            source_id in visible_text
+            source_id_pattern.search(visible_text) is not None
             and any(
                 href == url and bool(anchor_text.strip())
                 for href, anchor_text in links
