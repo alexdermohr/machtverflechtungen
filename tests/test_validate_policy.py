@@ -224,6 +224,34 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("not of type 'array'", output)
 
+    def test_invalid_case_evidence_level_container_is_reported_without_crashing(self) -> None:
+        self._mutate_case(evidence_level=[])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not one of", output)
+
+    def test_invalid_claim_classification_container_is_reported_without_crashing(self) -> None:
+        self._mutate_first_claim(classification=[])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not one of", output)
+
+    def test_invalid_claim_evidence_level_container_is_reported_without_crashing(self) -> None:
+        self._mutate_first_claim(
+            classification="hypothesis",
+            evidence_level=[],
+            sources=[],
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not one of", output)
+
+    def test_invalid_organization_evidence_level_container_is_reported_without_crashing(self) -> None:
+        self._mutate_organization(evidence_level=[])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("not one of", output)
+
     def test_speculative_hypothesis_may_remain_an_unsourced_open_lead(self) -> None:
         self._mutate_first_claim(
             classification="hypothesis",

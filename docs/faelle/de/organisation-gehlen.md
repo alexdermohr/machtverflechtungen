@@ -16,7 +16,7 @@ claims:
   - id: CLM-DE-GEHLEN-001
     text: "Die Organisation Gehlen entstand 1946 unter US-amerikanischer Ägide und wurde 1956 in den BND überführt."
     classification: fact
-    evidence_level: established
+    evidence_level: strong
     sources: [SRC-DE-BPB-BND-2026]
   - id: CLM-DE-GEHLEN-002
     text: "In Organisation Gehlen und frühem BND arbeiteten zahlreiche schwer NS-belastete Personen."

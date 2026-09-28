@@ -12,7 +12,7 @@ relations:
     to: ORG-DE-BND
     type: institutional_predecessor
     label: "wurde 1956 in den BND überführt"
-    evidence_level: established
+    evidence_level: strong
     sources: [SRC-DE-BPB-BND-2026]
 
   - id: REL-DE-GEHLEN-002
@@ -20,7 +20,7 @@ relations:
     to: ORG-DE-ORGANISATION-GEHLEN
     type: led
     label: "leitete"
-    evidence_level: established
+    evidence_level: strong
     sources: [SRC-DE-BPB-BND-2026]
 
   - id: REL-DE-GEHLEN-003
@@ -28,7 +28,7 @@ relations:
     to: ORG-DE-BND
     type: president
     label: "erster Präsident"
-    evidence_level: established
+    evidence_level: strong
     sources: [SRC-DE-BPB-BND-2026]
 
   - id: REL-DE-THS-001

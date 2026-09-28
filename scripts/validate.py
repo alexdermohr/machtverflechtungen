@@ -165,8 +165,10 @@ def main() -> int:
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
+        case_evidence = meta.get("evidence_level")
         if (
-            meta.get("evidence_level") in {"established", "strong", "plausible"}
+            isinstance(case_evidence, str)
+            and case_evidence in {"established", "strong", "plausible"}
             and case_sources
             and all(source_id in source_tiers for source_id in case_sources)
             and not any(source_tiers[source_id] in {"A", "B", "C", "D"} for source_id in case_sources)
@@ -199,10 +201,14 @@ def main() -> int:
                         f"{label}: claim {claim.get('id')} references unknown source {source_id}"
                     )
             non_lead_required = (
-                classification in {"fact", "counterevidence", "interpretation"}
-                or (
-                    classification == "hypothesis"
-                    and evidence in {"established", "strong", "plausible"}
+                isinstance(classification, str)
+                and (
+                    classification in {"fact", "counterevidence", "interpretation"}
+                    or (
+                        classification == "hypothesis"
+                        and isinstance(evidence, str)
+                        and evidence in {"established", "strong", "plausible"}
+                    )
                 )
             )
             if (
@@ -262,8 +268,10 @@ def main() -> int:
             for source_id in organization_sources:
                 if source_id not in source_ids:
                     errors.append(f"{label}: unknown source {source_id}")
+            organization_evidence = meta.get("evidence_level")
             if (
-                meta.get("evidence_level") in {"established", "strong", "plausible"}
+                isinstance(organization_evidence, str)
+                and organization_evidence in {"established", "strong", "plausible"}
                 and organization_sources
                 and all(source_id in source_tiers for source_id in organization_sources)
                 and not any(
