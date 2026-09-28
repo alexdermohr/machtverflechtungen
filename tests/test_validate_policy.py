@@ -176,7 +176,70 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(1, code)
         self.assertIn(
-            f"source {source_id} must link directly to its registered URL in the page body",
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_claim_source_must_also_appear_in_case_sources(self) -> None:
+        self._mutate_first_claim(sources=["SRC-DE-BT-04644-1953"])
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim source SRC-DE-BT-04644-1953 must also appear in case.sources",
+            output,
+        )
+
+    def test_html_comment_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        path.write_text(
+            text.replace(source_line, f"<!-- {source_id} ]({source_url}) -->", 1),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_image_destination_does_not_satisfy_clickable_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        path.write_text(
+            text.replace(source_line, f"- ![{source_id}]({source_url})", 1),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
             output,
         )
 
@@ -192,7 +255,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(1, code)
         self.assertIn(
-            f"source {source_id} must link directly to its registered URL in the page body",
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
             output,
         )
 
@@ -351,11 +414,28 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             tier="C",
             institution="Unabhängiges Testinstitut",
         )
+        claim_sources = ["SRC-DE-BPB-BND-2026", source_id]
         self._mutate_first_claim(
             classification="fact",
             evidence_level="established",
-            sources=["SRC-DE-BPB-BND-2026", source_id],
+            sources=claim_sources,
         )
+        self._mutate_case(
+            sources=["SRC-DE-NI-MJ-CELLER-2015", *claim_sources],
+        )
+
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8").replace("## Quelle\n", "## Quellen\n", 1)
+        text += (
+            "\n- [BND-Hintergrund der bpb]"
+            "(https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/"
+            "april-1956-gruendung-des-bundesnachrichtendienstes/) "
+            "— SRC-DE-BPB-BND-2026\n"
+            f"- [Unabhängige Testquelle](https://example.invalid/{source_id.lower()}) "
+            f"— {source_id}\n"
+        )
+        path.write_text(text, encoding="utf-8")
+
         code, output = self._run_validator()
         self.assertEqual(0, code, output)
 

@@ -5,10 +5,12 @@ import json
 import re
 import sys
 from datetime import date
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
 
+import markdown
 import yaml
 from jsonschema import Draft202012Validator
 
@@ -129,13 +131,50 @@ def markdown_body(path: Path) -> str:
     return "\n".join(lines[end + 1 :])
 
 
+class VisibleListLinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self._items: list[dict[str, Any]] = []
+        self.visible_items: list[tuple[str, set[str]]] = []
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        if tag == "li":
+            self._items.append({"text": [], "hrefs": set()})
+            return
+        if tag == "a" and self._items:
+            href = next((value for name, value in attrs if name == "href"), None)
+            if isinstance(href, str):
+                self._items[-1]["hrefs"].add(href)
+
+    def handle_data(self, data: str) -> None:
+        if self._items:
+            self._items[-1]["text"].append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag != "li" or not self._items:
+            return
+        item = self._items.pop()
+        visible_text = " ".join("".join(item["text"]).split())
+        self.visible_items.append((visible_text, set(item["hrefs"])))
+
+
+def rendered_list_links(path: Path) -> list[tuple[str, set[str]]]:
+    rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
+    parser = VisibleListLinkParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.visible_items
+
+
 def direct_source_link_errors(
     path: Path,
     source_ids: list[str],
     source_by_id: dict[str, dict[str, Any]],
     label: str,
 ) -> list[str]:
-    body = markdown_body(path)
+    items = rendered_list_links(path)
     out: list[str] = []
     for source_id in source_ids:
         source = source_by_id.get(source_id)
@@ -144,13 +183,13 @@ def direct_source_link_errors(
         url = source.get("url")
         if not isinstance(url, str):
             continue
-        if source_id not in body:
+        if not any(
+            source_id in visible_text and url in hrefs
+            for visible_text, hrefs in items
+        ):
             out.append(
-                f"{label}: source {source_id} must remain visibly identified in the page body"
-            )
-        if f"]({url})" not in body:
-            out.append(
-                f"{label}: source {source_id} must link directly to its registered URL in the page body"
+                f"{label}: source {source_id} must be visibly listed with a "
+                "clickable link to its registered URL"
             )
     return out
 
@@ -319,11 +358,22 @@ def main() -> int:
             ):
                 errors.append(f"{label}: period.end precedes period.start")
         case_sources = string_list(meta.get("sources"))
+        claim_source_ids = [
+            source_id
+            for claim in mapping_list(meta.get("claims"))
+            for source_id in string_list(claim.get("sources"))
+        ]
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
+        for source_id in claim_source_ids:
+            if source_id not in case_sources:
+                errors.append(
+                    f"{label}: claim source {source_id} must also appear in case.sources"
+                )
+        public_source_ids = list(dict.fromkeys([*case_sources, *claim_source_ids]))
         errors.extend(
-            direct_source_link_errors(path, case_sources, source_by_id, label)
+            direct_source_link_errors(path, public_source_ids, source_by_id, label)
         )
         case_evidence = meta.get("evidence_level")
         if (

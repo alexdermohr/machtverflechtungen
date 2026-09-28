@@ -2,3 +2,4 @@ mkdocs-material>=9.6,<10
 PyYAML>=6,<7
 jsonschema>=4.23,<5
 pymdown-extensions>=10.8,<11
+Markdown>=3.5,<4
