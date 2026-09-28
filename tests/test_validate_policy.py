@@ -175,6 +175,63 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("accessed must use a valid YYYY-MM-DD date", output)
 
+    def test_source_publication_date_rejects_invalid_calendar_date(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"][0]["date"] = "2026-02-31"
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("date must use a valid YYYY-MM-DD date", output)
+
+    def test_source_publication_date_preserves_supported_non_iso_values(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        for value in ("2011", "current", None):
+            with self.subTest(value=value):
+                payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+                payload["sources"][0]["date"] = value
+                path.write_text(
+                    yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+                    encoding="utf-8",
+                )
+
+                code, output = self._run_validator()
+
+                self.assertEqual(0, code, output)
+
+    def test_source_url_requires_https_host(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"][0]["url"] = "https://"
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("url must be a valid HTTPS URL with a host", output)
+
+    def test_source_archive_url_requires_https_host(self) -> None:
+        path = self.root / "data" / "sources.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["sources"][0]["archive_url"] = "https://"
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("archive_url must be a valid HTTPS URL with a host", output)
+
     def test_speculative_fact_still_requires_a_source(self) -> None:
         self._mutate_first_claim(
             classification="fact",

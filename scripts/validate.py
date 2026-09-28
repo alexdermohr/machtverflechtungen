@@ -7,6 +7,7 @@ import sys
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 import yaml
 from jsonschema import Draft202012Validator
@@ -95,6 +96,28 @@ def period_bounds(value: Any) -> tuple[date, date] | None:
     return (exact, exact)
 
 
+def valid_https_url(value: Any) -> bool:
+    if not isinstance(value, str) or not value or any(char.isspace() for char in value):
+        return False
+    try:
+        parsed = urlsplit(value)
+        hostname = parsed.hostname
+        parsed.port
+    except ValueError:
+        return False
+    if parsed.scheme != "https" or not parsed.netloc or not hostname:
+        return False
+    try:
+        ascii_host = hostname.rstrip(".").encode("idna").decode("ascii")
+    except UnicodeError:
+        return False
+    if not ascii_host or len(ascii_host) > 253:
+        return False
+    labels = ascii_host.split(".")
+    host_label = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?")
+    return all(host_label.fullmatch(label) for label in labels)
+
+
 def established_supports(
     source_ids: list[str],
     source_by_id: dict[str, dict[str, Any]],
@@ -150,11 +173,32 @@ def main() -> int:
 
     sources = load_catalog("sources.yml", "sources", "source.schema.json", errors)
     for source in sources:
+        source_id = source.get("id", "<unknown-source>")
+        publication_date = source.get("date")
+        if (
+            isinstance(publication_date, str)
+            and re.fullmatch(r"\d{4}-\d{2}-\d{2}", publication_date.strip())
+            and period_bounds(publication_date) is None
+        ):
+            errors.append(
+                f"sources:{source_id}: date must use a valid YYYY-MM-DD date"
+            )
+
         accessed = source.get("accessed")
         if isinstance(accessed, str) and period_bounds(accessed) is None:
             errors.append(
-                f"sources:{source.get('id', '<unknown-source>')}: "
-                "accessed must use a valid YYYY-MM-DD date"
+                f"sources:{source_id}: accessed must use a valid YYYY-MM-DD date"
+            )
+
+        url = source.get("url")
+        if isinstance(url, str) and not valid_https_url(url):
+            errors.append(
+                f"sources:{source_id}: url must be a valid HTTPS URL with a host"
+            )
+        archive_url = source.get("archive_url")
+        if isinstance(archive_url, str) and not valid_https_url(archive_url):
+            errors.append(
+                f"sources:{source_id}: archive_url must be a valid HTTPS URL with a host"
             )
 
     entities = load_catalog("entities.yml", "entities", "entity.schema.json", errors)
