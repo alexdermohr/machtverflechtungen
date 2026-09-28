@@ -193,7 +193,11 @@ class VisibleListLinkParser(HTMLParser):
             for name, value in attrs
         }
         style = lowered.get("style")
-        style_text = style.replace(" ", "") if isinstance(style, str) else ""
+        if isinstance(style, str):
+            style_without_comments = re.sub(r"/\*.*?\*/", "", style, flags=re.DOTALL)
+            style_text = re.sub(r"\s+", "", style_without_comments)
+        else:
+            style_text = ""
         return (
             tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
             or "hidden" in lowered
