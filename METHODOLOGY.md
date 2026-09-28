@@ -2,19 +2,60 @@
 
 ## Ziel
 
-Das Projekt macht schwierige, politisch aufgeladene Hypothesen prüfbar. Amtliche Darstellungen werden nicht automatisch übernommen; Verdachtsmomente werden nicht automatisch zu Tatsachen erklärt.
+Machtverflechtungen macht politisch aufgeladene und historisch schwierige Hypothesen prüfbar. Amtliche Darstellungen werden nicht automatisch übernommen; Verdachtsmomente werden nicht automatisch zu Tatsachen erklärt.
 
 Das Erkenntnisziel lautet: **möglichst weitreichende Zusammenhänge finden können, ohne sie bereits vorauszusetzen.**
 
-## Evidenzstufen
+Die Hypothesenbildung darf weit sein. Die Evidenzklassifikation bleibt eng.
+
+## Bewertete Einheit: der Claim
+
+Die kleinste bewertete Erkenntniseinheit ist ein **konkreter Claim**. Eine Evidenzstufe bewertet niemals pauschal einen Fall, eine Person, eine Organisation oder eine Gesamterzählung.
+
+Ein Fall besitzt deshalb keinen globalen Wahrheits- oder Evidenzwert. Sein `status` beschreibt ausschließlich den Forschungsstand:
+
+- `draft` — strukturell angelegt, noch nicht vollständig geprüft;
+- `developing` — substantiell bearbeitet, wichtige Prüfungen bleiben offen;
+- `reviewed` — das verpflichtende Prüfschema wurde für den aktuellen Datenstand durchlaufen.
+
+`reviewed` bedeutet nicht „wahr“ oder „abgeschlossen“. Neue Quellen können Claims verändern.
+
+Auch der sichtbare **gesicherte Ereigniskern** bildet keine freie Faktenschicht neben den Claims. `event_claims` darf ausschließlich auf Claims desselben Falls verweisen, die als `fact` klassifiziert und `established` oder `strong` bewertet sind. Der Falltext darf diesen Ereigniskern nur aus diesen Claims ableiten; der Validator prüft, dass Claim-ID und Claim-Wortlaut im sichtbaren Falltext gespiegelt bleiben.
+
+Auch die fallweiten Synthesen **„Was folgt?“** und **„Was folgt nicht?“** dürfen keine quellenlose Nebenargumentation bilden. Jeder Syntheseeintrag verweist deshalb auf die Claims desselben Falls, aus denen er abgeleitet wird. Die Referenz macht die Ableitung prüfbar; sie beweist nicht automatisch, dass der Synthesetext logisch aus den Claims folgt.
+
+## Evidenzstufen für Claims
 
 - **`established` — belegt:** direkter Primärbeleg oder mehrere voneinander unabhängige hochwertige Belege tragen die konkrete Aussage.
 - **`strong` — stark gestützt:** starke Indizienkette, aber mindestens ein relevantes Glied bleibt indirekt.
-- **`plausible` — plausible Hypothese:** erklärt vorhandene Befunde gut, ernsthafte Alternativerklärungen bleiben möglich.
+- **`plausible` — plausible Hypothese:** erklärt vorhandene Befunde gut; ernsthafte Alternativerklärungen bleiben möglich.
 - **`speculative` — spekulativ/offen:** prüfbarer Verdacht mit noch unzureichender Beleglage.
 - **`contradicted` — widersprochen:** die konkrete Form der Behauptung kollidiert mit höher gewichteter Evidenz.
 
-Eine Evidenzstufe bewertet immer **eine konkrete Aussage**, nicht pauschal eine Person, Organisation oder Gesamterzählung.
+Plausibilität und Beweisstärke sind nicht dasselbe. Eine mechanistisch plausible Hypothese kann schwach belegt sein; ein gut belegter Einzelbefund kann nur eine sehr enge Aussage tragen.
+
+## Claim-Klassifikationen
+
+- **`fact`** — positive Tatsachenbehauptung;
+- **`counterevidence`** — belastbarer Gegenbefund zu einer weitergehenden These;
+- **`hypothesis`** — ausdrücklich zu prüfende Erklärung;
+- **`interpretation`** — quellengebundene Einordnung;
+- **`open_question`** — operationalisierbare offene Prüfungsfrage.
+
+## Verpflichtender Challenge-Layer
+
+Jeder Claim enthält neben seiner Stütze dieselben Prüffelder:
+
+1. **Evidenz dafür** — welche Quelle trägt genau welche Aussage?
+2. **Evidenz dagegen** — welche belastbare Quelle spricht gegen den Claim oder seine Reichweite?
+3. **Alternativerklärungen** — welche andere Erklärung ist mit denselben Beobachtungen vereinbar?
+4. **Beweislücken** — was fehlt für eine stärkere Aussage?
+5. **Aussagegrenze** — was trägt die Evidenz und was ausdrücklich nicht?
+6. **Falsifikation** — welcher Befund würde den Claim materiell schwächen oder widerlegen?
+
+Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine leere Liste bedeutet nur: **im aktuellen Datensatz ist nichts registriert**. Sie beweist weder die Abwesenheit von Gegenbelegen noch die Vollständigkeit der Recherche.
+
+Damit wird Gegenprüfung nicht als nachträgliche Relativierung einer bereits gesetzten Erzählung behandelt, sondern gleichzeitig mit der Behauptung gespeichert.
 
 ## Quellenhierarchie
 
@@ -28,36 +69,29 @@ Gewichtet wird nach Primärnähe, Methodik, Replizierbarkeit, Aktualität und Ko
 
 ### Strukturelle Mindestschwelle für `established`
 
-Der V1-Validator operationalisiert die stärkste Evidenzstufe konservativ: Eine als `established` markierte Aussage braucht mindestens entweder
+Der Validator operationalisiert die stärkste Evidenzstufe konservativ. Ein als `established` markierter Claim braucht mindestens entweder:
 
 - eine registrierte Tier-A-Quelle, die zugleich als Primärquelle markiert ist; oder
 - mindestens zwei Tier-B/C-Quellen aus unterschiedlichen Institutionen.
 
-Diese Regel ist eine **strukturelle Mindestschwelle**, kein Beweis semantischer Unabhängigkeit oder direkter Belegkraft. Unterschiedliche Institutionen sind nur eine maschinenprüfbare Näherung. Ob eine Quelle die konkrete Aussage tatsächlich direkt trägt und ob mehrere Quellen voneinander unabhängig sind, bleibt zusätzlich Gegenstand der inhaltlichen Prüfung.
+Das ist nur eine maschinenprüfbare Mindestschwelle. Unterschiedliche Institutionen beweisen keine semantische Unabhängigkeit. Ob eine Quelle die konkrete Aussage tatsächlich trägt, wird zusätzlich durch die Claim-spezifische Belegnotiz und die inhaltliche Prüfung bewertet.
 
-## Claim-Regeln
+## Claim-spezifische Quellenbindung
 
-Zentrale Aussagen werden nach Möglichkeit als eigenständige Claims mit stabiler ID erfasst. Ein Claim enthält Wortlaut, Klassifikation, Evidenzstufe und Quellen sowie gegebenenfalls Gegenbelege und offene Fragen.
+Eine Quelle wird nicht nur über ihre stabile `SRC-...`-ID genannt. Jeder Claim beschreibt für seine Stütz- und Gegenbelege:
 
-Die erste Version erzwingt atomare Claims noch nicht für jeden Nebensatz. Schema-Pflege soll Recherche nicht verdrängen. Die Struktur muss aber eine spätere Atomisierung erlauben.
+- die Quelle;
+- die Direktheit: `direct`, `indirect` oder `context`;
+- die relevante Fundstelle, soweit vorhanden;
+- eine kurze Notiz, was die Quelle für diesen Claim tatsächlich trägt.
 
-**Jeder auf der öffentlichen Website veröffentlichte Claim braucht mindestens eine registrierte Quelle.** Das gilt auch für `speculative` Hypothesen und offene Fragen. Bei einer spekulativen Hypothese muss die Quelle nicht die Hypothese beweisen; sie muss mindestens den dokumentierten Befund oder Anlass tragen, aus dem die Hypothese entsteht. Tier-E-Leads bleiben für `speculative` Hypothesen und offene Fragen zulässig. Für stärkere Evidenzstufen sowie für Tatsachenbehauptungen, Gegenbelege und Interpretationen gelten weiterhin die höheren Quellenanforderungen.
+Die zentrale Quellenliste bleibt der Katalog der bibliografischen Wahrheit. Die Claim-Ebene dokumentiert ihre konkrete argumentative Verwendung.
 
-Klassifikationen unterscheiden mindestens:
-
-- **fact:** positive Tatsachenbehauptung;
-- **counterevidence:** belastbarer Gegenbefund zu einer weitergehenden These;
-- **hypothesis:** ausdrücklich zu prüfende Erklärung;
-- **interpretation:** quellengebundene Einordnung;
-- **open_question:** noch offene, operationalisierbare Prüfungsfrage.
+Quellenlos dürfen nur `speculative` Hypothesen oder offene Fragen bleiben. Tatsachenbehauptungen, Interpretationen und Gegenbefunde benötigen Quellen. Tier-E-Leads dürfen niemals allein eine nicht-spekulative Aussage tragen.
 
 ## Relationen
 
-Auch eine Kante im Netzwerkgraphen ist eine Behauptung. Eine Relation wie
-
-`Person A -- erhielt Zahlungen von --> Behörde B`
-
-muss Quellen besitzen.
+Auch eine Kante im Netzwerkgraphen ist eine Behauptung und benötigt Quellen.
 
 Zu unterscheiden sind insbesondere:
 
@@ -80,7 +114,23 @@ Bloße Ko-Präsenz in einem Gremium wird nicht als Einfluss- oder Steuerungsverh
 - **Einfluss:** es gibt Evidenz dafür, dass diese Beziehung Entscheidungen oder Verhalten mitprägt.
 - **Steuerung:** ein Akteur gibt Ziele, Mittel oder konkrete Handlungen eines anderen Akteurs maßgeblich vor.
 
-Jede Stufe verlangt zusätzliche Evidenz. Eine Verbindung beweist keinen Einfluss; Einfluss beweist keine Steuerung.
+Jede Stufe verlangt zusätzliche Evidenz. Verbindung beweist keinen Einfluss; Einfluss beweist keine Steuerung.
+
+## Verlinkungen zwischen Fällen
+
+Fallverweise werden in zwei Klassen getrennt:
+
+### Vergleich
+
+`comparison` bedeutet, dass zwei Fälle für eine gemeinsame Fragestellung, einen Mechanismus, einen Akteur oder eine Struktur sinnvoll nebeneinander gelesen werden können.
+
+Ein Vergleich behauptet **keine** operative Verbindung, gemeinsame Urheberschaft oder Kausalität.
+
+### Dokumentierte Verbindung
+
+`documented_connection` behauptet eine konkrete Verbindung zwischen zwei Fällen. Sie darf nur gesetzt werden, wenn eine quellengebundene Relation in `data/relations.yml` beide Fall-IDs direkt verbindet.
+
+Fallverweise werden strukturell im Frontmatter gepflegt. Bei `documented_connection` prüft der Validator die direkte Relation zwischen beiden Fällen; sichtbare Verweise können im redaktionellen Falltext ergänzt werden.
 
 ## Staatliche Kenntnis, Infiltration, Duldung, Unterstützung, Steuerung
 
@@ -104,9 +154,9 @@ Daraus folgt nicht automatisch:
 
 Jeder Übergang ist eine zusätzliche Kausalbehauptung und braucht eigene Evidenz.
 
-## Terrorismus: vier getrennte Untersuchungsebenen
+## Terrorismus und politische Gewalt: getrennte Ebenen
 
-Bei Terrorismus oder politischer Gewalt werden vier qualitativ verschiedene Ebenen unterschieden:
+Bei Terrorismus oder politischer Gewalt werden mindestens vier qualitativ verschiedene Ebenen unterschieden:
 
 1. **Verwertung:** autonom entstandene Gewalt wird politisch für Sicherheitsbefugnisse, Überwachung, Repression oder institutionelle Veränderungen genutzt.
 2. **Penetration / Management:** Dienste infiltrieren Milieus, führen Quellen, bezahlen Informanten oder schützen operative Zugänge.
@@ -117,7 +167,7 @@ Ein Beleg für Ebene 1 oder 2 beweist nicht Ebene 3 oder 4.
 
 ## Prüfmatrix für einschlägige Fälle
 
-Nach Möglichkeit werden getrennt geprüft:
+Nach Relevanz werden getrennt geprüft:
 
 1. Vorwissen;
 2. Infiltration;
@@ -132,6 +182,8 @@ Nach Möglichkeit werden getrennt geprüft:
 11. Gegenbelege;
 12. konkurrierende Erklärungen.
 
+Die Matrix ist ein Suchraster, keine Vorannahme, dass alle Punkte in einem Fall vorkommen.
+
 ## Strategie der Spannung
 
 Der Begriff ist ein Hypothesen- und Vergleichsrahmen, keine universelle Erklärung. Er darf nicht als Abkürzung für die Behauptung dienen, ein bestimmter Staat, Dienst oder ausländischer Akteur habe jeden einzelnen Anschlag angeordnet.
@@ -142,32 +194,31 @@ Konkrete Täterschaft, Mitwisserschaft, Deckung, Depistaggio, Nachrichtendienstb
 
 Widersprüche werden nicht geglättet.
 
-Eine belastbare Fallakte soll möglichst sichtbar machen:
+Parlamentarische, behördliche oder politische Wertungen sind zunächst Aussagen der jeweiligen Institution. Eine Primärquelle belegt sicher, dass die Institution diese Aussage getroffen hat; sie ersetzt nicht automatisch die unabhängige Prüfung jedes historischen Sachverhalts innerhalb dieser Aussage.
 
-- Befunde;
-- Hypothesen;
-- Evidenz dafür;
-- Evidenz dagegen;
-- alternative Erklärungen;
-- Widersprüche zwischen Quellen;
-- fehlende Belege;
-- nächste Prüfung.
-
-Parlamentarische, behördliche oder politische Wertungen sind zunächst **Aussagen der jeweiligen Institution**. Eine Primärquelle belegt sicher, dass die Institution diese Aussage getroffen hat; sie ersetzt nicht automatisch die unabhängige Prüfung jedes historischen Sachverhalts innerhalb dieser Aussage.
-
-## Historische Kontextabhängigkeit
-
-Institutionen, Rechtslagen und Begriffe ändern sich. Ein Dokument belegt zunächst den damaligen Wissens- und Entscheidungsstand. Spätere Aktenfunde oder Forschung können ihn korrigieren oder anders einordnen.
+Historische Quellen belegen zunächst den damaligen Wissens- und Entscheidungsstand. Spätere Aktenfunde oder Forschung können ihn korrigieren.
 
 ## Personen und Organisationen
 
 Mitgliedschaften und Kontakte sind zunächst deskriptive Daten. Für Vorwürfe wie Korruption, Steuerung, illegale Einflussnahme oder Beteiligung an Gewalt gelten dieselben Quellenstandards wie für andere Tatsachenbehauptungen.
 
-Atlantik-Brücke, Trilaterale Kommission, Bilderberg, Stiftungen, Thinktanks und vergleichbare Netzwerke werden deshalb nicht automatisch unter Staatskriminalität eingeordnet. Untersucht werden konkrete Mitgliedschaften, Überschneidungen, Finanzierung, Drehtüren, Lobbykontakte, Interventionen und gegebenenfalls nachweisbare Interessenkonflikte.
+Bei Netzwerken, Vereinen, Thinktanks, Stiftungen und Konferenzen untersucht das Projekt konkrete Mitgliedschaften, Überschneidungen, Finanzierung, Drehtüren, Lobbykontakte, Interventionen und gegebenenfalls nachweisbare Interessenkonflikte.
+
+## Ausführbare Methodik
+
+Die Methodik ist nicht nur ein Styleguide.
+
+- `schemas/` erzwingt die erforderlichen Felder;
+- `scripts/validate.py` prüft Quellenbindung, Claim-Regeln, Fallverweise, Relationstypen sowie die sichtbare Spiegelung von Claim-ID und Claim-Wortlaut im Falltext;
+- `scripts/build_indexes.py` erzeugt die abgeleiteten Indizes aus denselben strukturierten Daten;
+- Tests prüfen auch negative Fälle und Umgehungsversuche;
+- CI blockiert Änderungen, wenn Daten, generierte Seiten oder Website nicht konsistent sind.
+
+Damit kann ein späterer Thread oder Autor die Gegenprüfung nicht versehentlich durch eine andere Seitendramaturgie verdrängen.
 
 ## Reproduzierbarkeit
 
-Git ist in V1 die kanonische Wahrheit.
+Git ist die kanonische Wahrheit.
 
 - Fallakten: Markdown mit maschinenlesbarem Frontmatter;
 - Quellen: `data/sources.yml`;
@@ -176,6 +227,6 @@ Git ist in V1 die kanonische Wahrheit.
 - Relationen: `data/relations.yml`;
 - Schemas: `schemas/`;
 - Validator: `scripts/validate.py`;
-- abgeleitete Übersichten: `scripts/build_indexes.py`.
+- Indexgenerator: `scripts/build_indexes.py`.
 
-Timeline, Netzwerk und weitere Indizes werden aus denselben Daten erzeugt. Dadurch entsteht keine zweite, versteckte Datenwahrheit neben den Fallakten.
+Das Frontmatter ist die kanonische Bewertungsstruktur. Falltexte bleiben redaktionelle Darstellung, müssen aber Claim-IDs und Claim-Aussagen daraus sichtbar spiegeln. Timeline, Netzwerk und weitere Indizes werden aus denselben strukturierten Daten erzeugt.

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import re
 import sys
 from pathlib import Path
@@ -13,6 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 CASES = DOCS / "faelle"
 DATA = ROOT / "data"
+
+EVIDENCE_LABELS = {
+    "established": "belegt",
+    "strong": "stark gestützt",
+    "plausible": "plausibel",
+    "speculative": "spekulativ/offen",
+    "contradicted": "widersprochen",
+}
 
 
 def load_yaml(path: Path) -> Any:
@@ -62,6 +71,20 @@ def records() -> list[tuple[dict[str, Any], str]]:
     )
 
 
+def claim_summary(meta: dict[str, Any]) -> str:
+    counts = Counter(
+        claim.get("evidence_level")
+        for claim in meta.get("claims", [])
+        if isinstance(claim, dict)
+    )
+    parts = [
+        f"{counts[level]} {label}"
+        for level, label in EVIDENCE_LABELS.items()
+        if counts[level]
+    ]
+    return " · ".join(parts) if parts else "keine Claims"
+
+
 def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
     lines = [
         "# Fälle",
@@ -78,7 +101,7 @@ def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
         case_rel = Path(rel).relative_to("faelle").as_posix()
         lines.append(
             f"| {esc(period)} | [{esc(meta['title'])}]({case_rel}) | "
-            f"{', '.join(meta.get('countries', []))} | {len(meta.get('claims', []))} | "
+            f"{', '.join(meta.get('countries', []))} | {esc(claim_summary(meta))} | "
             f"{', '.join(meta.get('mechanisms', []))} |"
         )
     return "\n".join(lines) + "\n"
@@ -98,7 +121,7 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
         end = meta.get("period", {}).get("end", "–") or "–"
         lines.append(
             f"| {start} | {end} | [{esc(meta['title'])}](../{rel}) | "
-            f"{', '.join(meta.get('countries', []))} | {len(meta.get('claims', []))} |"
+            f"{', '.join(meta.get('countries', []))} | {esc(claim_summary(meta))} |"
         )
     return "\n".join(lines) + "\n"
 
@@ -128,14 +151,14 @@ def render_regions(cases: list[tuple[dict[str, Any], str]]) -> str:
     lines = [
         "# Regionen",
         "",
-        "_V1 gruppiert nach ISO-Ländercode. Mehrstufige Regionen und eine Karte folgen später aus denselben Daten._",
+        "_Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein Fall-Gesamturteil._",
         "",
     ]
     for country in sorted(by_country):
         lines += [f"## {country}", ""]
         for meta, rel in by_country[country]:
             lines.append(
-                f"- [{meta['title']}](../{rel}) — {meta['period']['start']} · {meta['evidence_level']}"
+                f"- [{meta['title']}](../{rel}) — {meta['period']['start']} · {claim_summary(meta)}"
             )
         lines.append("")
     return "\n".join(lines) + "\n"

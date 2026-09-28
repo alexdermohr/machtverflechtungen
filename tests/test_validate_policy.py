@@ -80,7 +80,51 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         lines = text.splitlines()
         end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
         frontmatter = yaml.safe_load("\n".join(lines[1:end]))
-        frontmatter["claims"][0].update(updates)
+        claim = frontmatter["claims"][0]
+        claim.update(updates)
+
+        if "sources" in updates and "evidence" not in updates:
+            sources = updates["sources"]
+            if isinstance(sources, list):
+                existing = {
+                    record.get("source"): record
+                    for record in claim.get("evidence", [])
+                    if isinstance(record, dict) and isinstance(record.get("source"), str)
+                }
+                claim["evidence"] = [
+                    existing.get(
+                        source_id,
+                        {
+                            "source": source_id,
+                            "directness": "direct",
+                            "note": f"Testbeleg für {source_id}.",
+                        },
+                    )
+                    for source_id in sources
+                    if isinstance(source_id, str)
+                ]
+
+        if any(key in updates for key in ("classification", "evidence_level")):
+            eligible = (
+                claim.get("classification") == "fact"
+                and claim.get("evidence_level") in {"established", "strong"}
+            )
+            if not eligible:
+                claim_id = claim.get("id")
+                frontmatter["event_claims"] = [
+                    item
+                    for item in frontmatter.get("event_claims", [])
+                    if item != claim_id
+                ]
+                if not frontmatter["event_claims"]:
+                    for candidate in frontmatter["claims"][1:]:
+                        if (
+                            candidate.get("classification") == "fact"
+                            and candidate.get("evidence_level") in {"established", "strong"}
+                        ):
+                            frontmatter["event_claims"] = [candidate["id"]]
+                            break
+
         body = "\n".join(lines[end + 1 :]).lstrip("\n")
         rendered = yaml.safe_dump(
             frontmatter,
@@ -89,6 +133,31 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             width=120,
         )
         path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
+
+    def _delete_first_claim_field(self, field: str) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        frontmatter = yaml.safe_load("\n".join(lines[1:end]))
+        frontmatter["claims"][0].pop(field, None)
+        body = "\n".join(lines[end + 1 :]).lstrip("\n")
+        rendered = yaml.safe_dump(
+            frontmatter,
+            sort_keys=False,
+            allow_unicode=True,
+            width=120,
+        )
+        path.write_text(f"---\n{rendered}---\n\n{body}\n", encoding="utf-8")
+
+    def _replace_case_body_text(self, old: str, new: str) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        frontmatter = "\n".join(lines[: end + 1])
+        body = "\n".join(lines[end + 1 :]).replace(old, new)
+        path.write_text(f"{frontmatter}\n{body}\n", encoding="utf-8")
 
     def _organization_path(self) -> Path:
         return self.root / "docs" / "organisationen" / "atlantik-bruecke.md"
@@ -559,19 +628,12 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
-    def test_established_case_rejects_single_tier_d_source(self) -> None:
-        source_id = self._add_test_source(
-            "SRC-TEST-TIER-D",
-            tier="D",
-            institution="Testinstitut D",
-        )
-        self._mutate_case(evidence_level="established", sources=[source_id])
+    def test_case_level_evidence_verdict_is_rejected(self) -> None:
+        self._mutate_case(evidence_level="established")
         code, output = self._run_validator()
         self.assertEqual(1, code)
-        self.assertIn(
-            "established case evidence requires a Tier-A primary source",
-            output,
-        )
+        self.assertIn("Additional properties are not allowed", output)
+        self.assertIn("evidence_level", output)
 
     def test_established_claim_rejects_single_tier_b_source(self) -> None:
         self._mutate_first_claim(
@@ -798,11 +860,12 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("not of type 'array'", output)
 
-    def test_invalid_case_evidence_level_container_is_reported_without_crashing(self) -> None:
+    def test_case_level_evidence_container_is_rejected_without_crashing(self) -> None:
         self._mutate_case(evidence_level=[])
         code, output = self._run_validator()
         self.assertEqual(1, code)
-        self.assertIn("not one of", output)
+        self.assertIn("Additional properties are not allowed", output)
+        self.assertIn("evidence_level", output)
 
     def test_invalid_claim_classification_container_is_reported_without_crashing(self) -> None:
         self._mutate_first_claim(classification=[])
@@ -836,15 +899,14 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("requires at least one source", output)
 
-    def test_speculative_open_question_requires_a_source(self) -> None:
+    def test_speculative_open_question_may_remain_unsourced(self) -> None:
         self._mutate_first_claim(
             classification="open_question",
             evidence_level="speculative",
             sources=[],
         )
         code, output = self._run_validator()
-        self.assertEqual(1, code)
-        self.assertIn("requires at least one source", output)
+        self.assertEqual(0, code, output)
 
     def test_speculative_hypothesis_may_use_a_tier_e_lead(self) -> None:
         lead = self._add_tier_e_source()
@@ -901,16 +963,6 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertEqual(1, code)
         self.assertIn("may not rely solely on Tier-E leads", output)
 
-    def test_contradicted_case_may_not_rely_only_on_tier_e_leads(self) -> None:
-        lead = self._add_tier_e_source()
-        self._mutate_case(evidence_level="contradicted", sources=[lead])
-        code, output = self._run_validator()
-        self.assertEqual(1, code)
-        self.assertIn(
-            "non-speculative case evidence may not rely solely on Tier-E leads",
-            output,
-        )
-
     def test_contradicted_organization_may_not_rely_only_on_tier_e_leads(self) -> None:
         lead = self._add_tier_e_source()
         self._mutate_organization(evidence_level="contradicted", sources=[lead])
@@ -921,16 +973,179 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
-    def test_speculative_hypothesis_requires_a_source(self) -> None:
+    def test_speculative_hypothesis_may_remain_unsourced(self) -> None:
         self._mutate_first_claim(
             classification="hypothesis",
             evidence_level="speculative",
             sources=[],
         )
         code, output = self._run_validator()
-        self.assertEqual(1, code)
-        self.assertIn("requires at least one source", output)
+        self.assertEqual(0, code, output)
 
+
+    def test_claim_id_must_be_visible_in_case_body(self) -> None:
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+
+    def test_hidden_claim_id_does_not_satisfy_case_body_visibility(self) -> None:
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8") + "\n<!-- CLM-DE-CELLER-001 -->\n",
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+
+    def test_claim_wording_must_be_visible_in_case_body(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich von der kanonischen Claim-Aussage abweichend verändert.",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
+    def test_claim_challenge_fields_are_structurally_required(self) -> None:
+        for field in (
+            "counterevidence",
+            "alternatives",
+            "missing_evidence",
+            "scope",
+            "falsification",
+        ):
+            with self.subTest(field=field):
+                original = self._case_path().read_text(encoding="utf-8")
+                self._delete_first_claim_field(field)
+                code, output = self._run_validator()
+                self.assertEqual(1, code)
+                self.assertIn("is a required property", output)
+                self._case_path().write_text(original, encoding="utf-8")
+
+    def test_claim_sources_must_match_structured_support_evidence(self) -> None:
+        self._mutate_first_claim(evidence=[])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("sources must exactly match evidence source IDs", output)
+
+    def test_unknown_event_claim_is_rejected(self) -> None:
+        self._mutate_case(event_claims=["CLM-UNKNOWN-EVENT"])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("event claim CLM-UNKNOWN-EVENT is unknown", output)
+
+    def test_event_claim_must_belong_to_same_case(self) -> None:
+        self._mutate_case(event_claims=["CLM-DE-GEHLEN-001"])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-GEHLEN-001 belongs to case CASE-DE-ORG-GEHLEN-1946",
+            output,
+        )
+
+    def test_event_claim_must_be_fact(self) -> None:
+        self._mutate_first_claim(classification="hypothesis")
+        self._mutate_case(event_claims=["CLM-DE-CELLER-001"])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-001 must be classification fact",
+            output,
+        )
+
+    def test_event_claim_must_be_strong_or_established(self) -> None:
+        self._mutate_first_claim(evidence_level="plausible")
+        self._mutate_case(event_claims=["CLM-DE-CELLER-001"])
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-001 must be established or strong",
+            output,
+        )
+
+    def test_synthesis_must_reference_known_case_claim(self) -> None:
+        self._mutate_case(
+            what_follows=[
+                {
+                    "text": "Eine testweise Synthese mit absichtlich unbekanntem Claim.",
+                    "claim_ids": ["CLM-UNKNOWN-SYNTHESIS"],
+                }
+            ]
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "what_follows references unknown claim CLM-UNKNOWN-SYNTHESIS",
+            output,
+        )
+
+    def test_legacy_free_event_core_is_rejected(self) -> None:
+        self._mutate_case(
+            event_core=["Freie Faktensätze dürfen nicht neben dem Claimmodell entstehen."]
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("Additional properties are not allowed", output)
+        self.assertIn("event_core", output)
+
+    def test_unknown_comparison_case_is_rejected(self) -> None:
+        self._mutate_case(
+            case_links=[
+                {
+                    "kind": "comparison",
+                    "target": "CASE-UNKNOWN-TARGET",
+                    "basis": "Struktureller Testvergleich ohne Kausalbehauptung.",
+                }
+            ]
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("case link references unknown case CASE-UNKNOWN-TARGET", output)
+
+    def test_case_link_may_not_target_itself(self) -> None:
+        self._mutate_case(
+            case_links=[
+                {
+                    "kind": "comparison",
+                    "target": "CASE-DE-CELLER-LOCH-1978",
+                    "basis": "Ein Selbstvergleich ist methodisch nicht sinnvoll.",
+                }
+            ]
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("case link may not target itself", output)
+
+    def test_documented_connection_requires_direct_relation(self) -> None:
+        self._mutate_case(
+            case_links=[
+                {
+                    "kind": "documented_connection",
+                    "target": "CASE-DE-THS-BRANDT",
+                    "basis": "Test einer behaupteten dokumentierten Fallverbindung.",
+                    "relation_id": "REL-DE-GEHLEN-001",
+                }
+            ]
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn("does not directly connect", output)
 
     def test_schema_invalid_catalog_row_does_not_block_valid_row_semantics(self) -> None:
         path = self.root / "data" / "sources.yml"

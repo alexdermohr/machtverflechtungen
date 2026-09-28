@@ -80,6 +80,11 @@ def mapping_list(value: Any) -> list[dict[str, Any]]:
     return [item for item in value if isinstance(item, dict)]
 
 
+def lexical_text(value: str) -> str:
+    normalized = unicodedata.normalize("NFKC", value).casefold()
+    return " ".join(re.findall(r"\w+", normalized))
+
+
 def period_bounds(value: Any) -> tuple[date, date] | None:
     if not isinstance(value, str):
         return None
@@ -141,7 +146,22 @@ def has_visible_text(value: str) -> bool:
 
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
-        {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+        {
+            "area",
+            "base",
+            "br",
+            "col",
+            "embed",
+            "hr",
+            "img",
+            "input",
+            "link",
+            "meta",
+            "param",
+            "source",
+            "track",
+            "wbr",
+        }
     )
     ALWAYS_HIDDEN_TAGS = frozenset({"head", "script", "style", "template"})
 
@@ -190,7 +210,10 @@ class VisibleListLinkParser(HTMLParser):
             self._items.append({"text": [], "links": [], "hidden": hidden})
             return
         if tag == "a" and self._items:
-            href = next((value for name, value in attrs if name.casefold() == "href"), None)
+            href = next(
+                (value for name, value in attrs if name.casefold() == "href"),
+                None,
+            )
             self._anchors.append(
                 {
                     "href": href if isinstance(href, str) else None,
@@ -240,6 +263,62 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
     return parser.visible_items
 
 
+class VisibleTextParser(HTMLParser):
+    VOID_TAGS = VisibleListLinkParser.VOID_TAGS
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self._elements: list[tuple[str, bool]] = []
+        self._text: list[str] = []
+
+    def _current_hidden(self) -> bool:
+        return bool(self._elements and self._elements[-1][1])
+
+    def _close_element(self, tag: str) -> None:
+        for index in range(len(self._elements) - 1, -1, -1):
+            if self._elements[index][0] == tag:
+                del self._elements[index:]
+                return
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        hidden = self._current_hidden() or VisibleListLinkParser._declares_hidden(
+            tag, attrs
+        )
+        if tag not in self.VOID_TAGS:
+            self._elements.append((tag, hidden))
+
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        return
+
+    def handle_data(self, data: str) -> None:
+        if not self._current_hidden():
+            self._text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        self._close_element(tag.casefold())
+
+    def text(self) -> str:
+        return " ".join(" ".join(self._text).split())
+
+
+def rendered_visible_text(path: Path) -> str:
+    rendered = markdown.markdown(markdown_body(path), extensions=["extra"])
+    parser = VisibleTextParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.text()
+
+
+def exact_visible_id(text: str, identifier: str) -> bool:
+    pattern = rf"(?<![\w-]){re.escape(identifier)}(?![\w-])"
+    return re.search(pattern, text) is not None
+
+
 def direct_source_link_errors(
     path: Path,
     source_ids: list[str],
@@ -255,11 +334,8 @@ def direct_source_link_errors(
         url = source.get("url")
         if not isinstance(url, str):
             continue
-        source_id_pattern = re.compile(
-            rf"(?<![\w-]){re.escape(source_id)}(?![\w-])"
-        )
         if not any(
-            source_id_pattern.search(visible_text) is not None
+            exact_visible_id(visible_text, source_id)
             and any(
                 href == url and has_visible_text(anchor_text)
                 for href, anchor_text in links
@@ -323,6 +399,14 @@ def load_catalog(
     return valid_rows
 
 
+def evidence_sources(value: Any) -> list[str]:
+    return [
+        item["source"]
+        for item in mapping_list(value)
+        if isinstance(item.get("source"), str)
+    ]
+
+
 def main() -> int:
     errors: list[str] = []
 
@@ -377,9 +461,16 @@ def main() -> int:
     entity_ids = unique_ids(entities, "entities", errors)
     mechanism_ids = unique_ids(mechanisms, "mechanisms", errors)
     unique_ids(relations, "relations", errors)
+    relation_by_id = {
+        item["id"]: item
+        for item in relations
+        if isinstance(item.get("id"), str)
+    }
 
     case_ids: set[str] = set()
     claim_ids: set[str] = set()
+    claim_case_by_id: dict[str, str] = {}
+    claim_by_id: dict[str, dict[str, Any]] = {}
     cases: list[tuple[Path, dict[str, Any]]] = []
 
     for path in sorted(CASE_DIR.rglob("*.md")):
@@ -412,10 +503,14 @@ def main() -> int:
                     if claim_id in claim_ids:
                         errors.append(f"claims: duplicate id {claim_id}")
                     claim_ids.add(claim_id)
+                    claim_by_id.setdefault(claim_id, claim)
+                    if isinstance(case_id, str):
+                        claim_case_by_id[claim_id] = case_id
         cases.append((path, meta))
 
     for path, meta in cases:
         label = str(path.relative_to(ROOT))
+        case_id = meta.get("id")
         period = meta.get("period")
         if isinstance(period, dict):
             start_raw = period.get("start")
@@ -436,45 +531,15 @@ def main() -> int:
                 and start_bounds[0] > end_bounds[1]
             ):
                 errors.append(f"{label}: period.end precedes period.start")
+
         case_sources = string_list(meta.get("sources"))
-        claim_source_ids = [
-            source_id
-            for claim in mapping_list(meta.get("claims"))
-            for source_id in string_list(claim.get("sources"))
-        ]
         for source_id in case_sources:
             if source_id not in source_ids:
                 errors.append(f"{label}: unknown source {source_id}")
-        for source_id in claim_source_ids:
-            if source_id not in case_sources:
-                errors.append(
-                    f"{label}: claim source {source_id} must also appear in case.sources"
-                )
-        public_source_ids = list(dict.fromkeys([*case_sources, *claim_source_ids]))
         errors.extend(
-            direct_source_link_errors(path, public_source_ids, source_by_id, label)
+            direct_source_link_errors(path, case_sources, source_by_id, label)
         )
-        case_evidence = meta.get("evidence_level")
-        if (
-            case_evidence == "established"
-            and case_sources
-            and all(source_id in source_by_id for source_id in case_sources)
-            and not established_supports(case_sources, source_by_id)
-        ):
-            errors.append(
-                f"{label}: established case evidence requires a Tier-A primary source "
-                "or at least two Tier-B/C sources from different institutions"
-            )
-        elif (
-            isinstance(case_evidence, str)
-            and case_evidence in {"strong", "plausible", "contradicted"}
-            and case_sources
-            and all(source_id in source_tiers for source_id in case_sources)
-            and not any(source_tiers[source_id] in {"A", "B", "C", "D"} for source_id in case_sources)
-        ):
-            errors.append(
-                f"{label}: non-speculative case evidence may not rely solely on Tier-E leads"
-            )
+
         for actor_id in string_list(meta.get("actors")):
             if actor_id not in entity_ids:
                 errors.append(f"{label}: unknown actor {actor_id}")
@@ -482,38 +547,147 @@ def main() -> int:
             if mechanism_id not in mechanism_ids:
                 errors.append(f"{label}: unknown mechanism {mechanism_id}")
 
-        for claim in mapping_list(meta.get("claims")):
-            classification = claim.get("classification")
-            evidence = claim.get("evidence_level")
-            claim_sources = string_list(claim.get("sources"))
-            if not claim_sources:
+        for event_claim_id in string_list(meta.get("event_claims")):
+            event_claim = claim_by_id.get(event_claim_id)
+            if event_claim is None:
+                errors.append(f"{label}: event claim {event_claim_id} is unknown")
+                continue
+            owner_case = claim_case_by_id.get(event_claim_id)
+            if isinstance(case_id, str) and owner_case != case_id:
                 errors.append(
-                    f"{label}: claim {claim.get('id')} requires at least one source"
+                    f"{label}: event claim {event_claim_id} belongs to case {owner_case}"
                 )
-            for source_id in claim_sources:
+                continue
+            if event_claim.get("classification") != "fact":
+                errors.append(
+                    f"{label}: event claim {event_claim_id} must be classification fact"
+                )
+            event_level = event_claim.get("evidence_level")
+            if not isinstance(event_level, str) or event_level not in {"established", "strong"}:
+                errors.append(
+                    f"{label}: event claim {event_claim_id} must be established or strong"
+                )
+
+        for synthesis_field in ("what_follows", "what_does_not_follow"):
+            for synthesis in mapping_list(meta.get(synthesis_field)):
+                for synthesis_claim_id in string_list(synthesis.get("claim_ids")):
+                    synthesis_claim = claim_by_id.get(synthesis_claim_id)
+                    if synthesis_claim is None:
+                        errors.append(
+                            f"{label}: {synthesis_field} references unknown claim {synthesis_claim_id}"
+                        )
+                        continue
+                    owner_case = claim_case_by_id.get(synthesis_claim_id)
+                    if isinstance(case_id, str) and owner_case != case_id:
+                        errors.append(
+                            f"{label}: {synthesis_field} claim {synthesis_claim_id} "
+                            f"belongs to case {owner_case}"
+                        )
+
+        seen_links: set[tuple[str, str]] = set()
+        for link in mapping_list(meta.get("case_links")):
+            kind = link.get("kind")
+            target = link.get("target")
+            if isinstance(target, str):
+                if target == case_id:
+                    errors.append(f"{label}: case link may not target itself")
+                if target not in case_ids:
+                    errors.append(f"{label}: case link references unknown case {target}")
+            if isinstance(kind, str) and isinstance(target, str):
+                key = (kind, target)
+                if key in seen_links:
+                    errors.append(
+                        f"{label}: duplicate {kind} case link to {target}"
+                    )
+                seen_links.add(key)
+            if kind == "documented_connection":
+                relation_id = link.get("relation_id")
+                relation = relation_by_id.get(relation_id)
+                if relation is None:
+                    errors.append(
+                        f"{label}: documented case link requires known relation {relation_id}"
+                    )
+                elif isinstance(case_id, str) and isinstance(target, str):
+                    if {relation.get("from"), relation.get("to")} != {case_id, target}:
+                        errors.append(
+                            f"{label}: relation {relation_id} does not directly connect "
+                            f"{case_id} and {target}"
+                        )
+
+        visible_body = rendered_visible_text(path)
+        body_lexical = lexical_text(visible_body)
+
+        for claim in mapping_list(meta.get("claims")):
+            claim_id = claim.get("id")
+            claim_text = claim.get("text")
+            classification = claim.get("classification")
+            evidence_level = claim.get("evidence_level")
+
+            if isinstance(claim_id, str):
+                claim_id_pattern = re.compile(
+                    rf"(?<![\w-]){re.escape(claim_id)}(?![\w-])"
+                )
+                if claim_id_pattern.search(visible_body) is None:
+                    errors.append(
+                        f"{label}: claim {claim_id} must be visibly represented by ID in case body"
+                    )
+            if isinstance(claim_id, str) and isinstance(claim_text, str):
+                claim_lexical = lexical_text(claim_text)
+                if claim_lexical and claim_lexical not in body_lexical:
+                    errors.append(
+                        f"{label}: claim {claim_id} wording must be visibly represented in case body"
+                    )
+            claim_sources = string_list(claim.get("sources"))
+            rich_support_sources = evidence_sources(claim.get("evidence"))
+            counter_sources = evidence_sources(claim.get("counterevidence"))
+
+            if set(claim_sources) != set(rich_support_sources):
+                errors.append(
+                    f"{label}: claim {claim_id} sources must exactly match evidence source IDs"
+                )
+
+            source_optional = (
+                isinstance(classification, str)
+                and classification in {"open_question", "hypothesis"}
+                and evidence_level == "speculative"
+            )
+            if not source_optional and not claim_sources:
+                errors.append(f"{label}: claim {claim_id} requires at least one source")
+
+            all_claim_source_ids = list(
+                dict.fromkeys([*claim_sources, *rich_support_sources, *counter_sources])
+            )
+            for source_id in all_claim_source_ids:
                 if source_id not in source_ids:
                     errors.append(
-                        f"{label}: claim {claim.get('id')} references unknown source {source_id}"
+                        f"{label}: claim {claim_id} references unknown source {source_id}"
                     )
+                if source_id not in case_sources:
+                    errors.append(
+                        f"{label}: claim source {source_id} must also appear in case.sources "
+                        f"(claim {claim_id})"
+                    )
+
             non_lead_required = (
                 isinstance(classification, str)
                 and (
                     classification in {"fact", "counterevidence", "interpretation"}
                     or (
                         classification in {"hypothesis", "open_question"}
-                        and isinstance(evidence, str)
-                        and evidence in {"established", "strong", "plausible", "contradicted"}
+                        and isinstance(evidence_level, str)
+                        and evidence_level
+                        in {"established", "strong", "plausible", "contradicted"}
                     )
                 )
             )
             if (
-                evidence == "established"
+                evidence_level == "established"
                 and claim_sources
                 and all(source_id in source_by_id for source_id in claim_sources)
                 and not established_supports(claim_sources, source_by_id)
             ):
                 errors.append(
-                    f"{label}: claim {claim.get('id')} with established evidence requires "
+                    f"{label}: claim {claim_id} with established evidence requires "
                     "a Tier-A primary source or at least two Tier-B/C sources from "
                     "different institutions"
                 )
@@ -527,7 +701,7 @@ def main() -> int:
                 )
             ):
                 errors.append(
-                    f"{label}: claim {claim.get('id')} may not rely solely on Tier-E leads"
+                    f"{label}: claim {claim_id} may not rely solely on Tier-E leads"
                 )
 
     node_ids = entity_ids | case_ids
@@ -539,6 +713,21 @@ def main() -> int:
             errors.append(f"{relation_id}: unknown from-node {from_id}")
         if isinstance(to_id, str) and to_id not in node_ids:
             errors.append(f"{relation_id}: unknown to-node {to_id}")
+        relation_claim_ids = string_list(relation.get("claim_ids"))
+        for claim_id in relation_claim_ids:
+            if claim_id not in claim_ids:
+                errors.append(f"{relation_id}: unknown claim {claim_id}")
+        if from_id in case_ids and to_id in case_ids:
+            if not relation_claim_ids:
+                errors.append(
+                    f"{relation_id}: case-to-case relation requires at least one claim_id"
+                )
+            for claim_id in relation_claim_ids:
+                claim_case = claim_case_by_id.get(claim_id)
+                if claim_case is not None and claim_case not in {from_id, to_id}:
+                    errors.append(
+                        f"{relation_id}: claim {claim_id} belongs to unrelated case {claim_case}"
+                    )
         relation_sources = string_list(relation.get("sources"))
         for source_id in relation_sources:
             if source_id not in source_ids:
@@ -562,9 +751,7 @@ def main() -> int:
                 for source_id in relation_sources
             )
         ):
-            errors.append(
-                f"{relation_id}: relation may not rely solely on Tier-E leads"
-            )
+            errors.append(f"{relation_id}: relation may not rely solely on Tier-E leads")
 
     organization_dir = DOCS / "organisationen"
     organization_profile_ids: set[str] = set()
