@@ -280,9 +280,10 @@ class VisibleTextParser(HTMLParser):
         for index, element in enumerate(self._elements):
             if element.get("tag") != "details" or element.get("closed") is not True:
                 continue
-            if not any(
-                nested.get("tag") == "summary"
-                for nested in self._elements[index + 1 :]
+            descendants = self._elements[index + 1 :]
+            if (
+                not descendants
+                or descendants[0].get("summary_for_closed_details") is not True
             ):
                 return True
         return False
@@ -304,6 +305,17 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        parent = self._elements[-1] if self._elements else None
+        summary_for_closed_details = (
+            tag == "summary"
+            and isinstance(parent, dict)
+            and parent.get("tag") == "details"
+            and parent.get("closed") is True
+            and parent.get("summary_seen") is not True
+        )
+        if summary_for_closed_details:
+            parent["summary_seen"] = True
+
         hidden = self._regular_hidden() or VisibleListLinkParser._declares_hidden(
             tag, attrs
         )
@@ -316,6 +328,8 @@ class VisibleTextParser(HTMLParser):
                     "tag": tag,
                     "hidden": hidden,
                     "closed": closed,
+                    "summary_seen": False if tag == "details" else None,
+                    "summary_for_closed_details": summary_for_closed_details,
                 }
             )
 
