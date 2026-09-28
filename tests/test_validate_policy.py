@@ -365,6 +365,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_format_only_anchor_text_does_not_satisfy_clickable_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        path.write_text(
+            text.replace(
+                source_line,
+                f"- {source_id} [&#8203;]({source_url})",
+                1,
+            ),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_image_destination_does_not_satisfy_clickable_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")

@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import unicodedata
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -131,6 +132,13 @@ def markdown_body(path: Path) -> str:
     return "\n".join(lines[end + 1 :])
 
 
+def has_visible_text(value: str) -> bool:
+    return any(
+        unicodedata.category(char)[0] in {"L", "N", "P", "S"}
+        for char in value
+    )
+
+
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
         {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
@@ -253,7 +261,7 @@ def direct_source_link_errors(
         if not any(
             source_id_pattern.search(visible_text) is not None
             and any(
-                href == url and bool(anchor_text.strip())
+                href == url and has_visible_text(anchor_text)
                 for href, anchor_text in links
             )
             for visible_text, links in items
