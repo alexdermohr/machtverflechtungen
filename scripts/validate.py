@@ -171,8 +171,40 @@ PYMDOWN_DETAILS_CLASSES = frozenset(
 )
 
 
-def has_embedded_stylesheet(rendered: str) -> bool:
-    return re.search(r"<style(?:\s|>)", rendered, flags=re.IGNORECASE) is not None
+class AuthorStylesheetParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.found = False
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        if tag == "style":
+            self.found = True
+            return
+        if tag != "link":
+            return
+        rel = next(
+            (value for name, value in attrs if name.casefold() == "rel"),
+            None,
+        )
+        if isinstance(rel, str) and "stylesheet" in {
+            token.casefold() for token in rel.split()
+        }:
+            self.found = True
+
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        self.handle_starttag(tag, attrs)
+
+
+def has_author_stylesheet(rendered: str) -> bool:
+    parser = AuthorStylesheetParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.found
 
 
 def foreign_context(elements: list[dict[str, Any]]) -> str | None:
@@ -247,9 +279,9 @@ class VisibleListLinkParser(HTMLParser):
         }
     )
 
-    def __init__(self, embedded_stylesheet_present: bool = False) -> None:
+    def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
-        self._embedded_stylesheet_present = embedded_stylesheet_present
+        self._author_stylesheet_present = author_stylesheet_present
         self._items: list[dict[str, Any]] = []
         self._anchors: list[dict[str, Any]] = []
         self._elements: list[dict[str, Any]] = []
@@ -259,7 +291,7 @@ class VisibleListLinkParser(HTMLParser):
     def _declares_hidden(
         tag: str,
         attrs: list[tuple[str, str | None]],
-        embedded_stylesheet_present: bool = False,
+        author_stylesheet_present: bool = False,
     ) -> bool:
         lowered = {
             name.casefold(): value.casefold() if isinstance(value, str) else value
@@ -270,7 +302,7 @@ class VisibleListLinkParser(HTMLParser):
             set(class_value.split()) if isinstance(class_value, str) else set()
         )
         safe_pymdown_details_class = (
-            not embedded_stylesheet_present
+            not author_stylesheet_present
             and tag == "details"
             and bool(class_tokens)
             and class_tokens.issubset(PYMDOWN_DETAILS_CLASSES)
@@ -285,6 +317,7 @@ class VisibleListLinkParser(HTMLParser):
             or "hidden" in lowered
             or lowered.get("aria-hidden") == "true"
             or "style" in lowered
+            or "popover" in lowered
             or ("class" in lowered and not safe_pymdown_details_class)
         )
 
@@ -299,7 +332,11 @@ class VisibleListLinkParser(HTMLParser):
         return bool(self._elements and self._elements[-1]["hidden"])
 
     def _text_visible(self) -> bool:
-        return not self._current_hidden() and foreign_text_visible(self._elements)
+        return (
+            not self._author_stylesheet_present
+            and not self._current_hidden()
+            and foreign_text_visible(self._elements)
+        )
 
     def _current_hidden(self) -> bool:
         if self._regular_hidden():
@@ -340,7 +377,7 @@ class VisibleListLinkParser(HTMLParser):
         hidden = (
             self._regular_hidden()
             or self._declares_hidden(
-                tag, attrs, self._embedded_stylesheet_present
+                tag, attrs, self._author_stylesheet_present
             )
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
@@ -424,7 +461,7 @@ class VisibleListLinkParser(HTMLParser):
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
     rendered = render_site_markdown(markdown_body(path))
-    parser = VisibleListLinkParser(has_embedded_stylesheet(rendered))
+    parser = VisibleListLinkParser(has_author_stylesheet(rendered))
     parser.feed(rendered)
     parser.close()
     return parser.visible_items
@@ -433,9 +470,9 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 class VisibleTextParser(HTMLParser):
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
 
-    def __init__(self, embedded_stylesheet_present: bool = False) -> None:
+    def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
-        self._embedded_stylesheet_present = embedded_stylesheet_present
+        self._author_stylesheet_present = author_stylesheet_present
         self._elements: list[dict[str, Any]] = []
         self._text: list[str] = []
 
@@ -443,7 +480,11 @@ class VisibleTextParser(HTMLParser):
         return bool(self._elements and self._elements[-1]["hidden"])
 
     def _text_visible(self) -> bool:
-        return not self._current_hidden() and foreign_text_visible(self._elements)
+        return (
+            not self._author_stylesheet_present
+            and not self._current_hidden()
+            and foreign_text_visible(self._elements)
+        )
 
     def _current_hidden(self) -> bool:
         if self._regular_hidden():
@@ -491,7 +532,7 @@ class VisibleTextParser(HTMLParser):
         hidden = (
             self._regular_hidden()
             or VisibleListLinkParser._declares_hidden(
-                tag, attrs, self._embedded_stylesheet_present
+                tag, attrs, self._author_stylesheet_present
             )
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
@@ -536,7 +577,7 @@ class VisibleTextParser(HTMLParser):
 
 def visible_markdown_text(value: str) -> str:
     rendered = render_site_markdown(value)
-    parser = VisibleTextParser(has_embedded_stylesheet(rendered))
+    parser = VisibleTextParser(has_author_stylesheet(rendered))
     parser.feed(rendered)
     parser.close()
     return parser.text()
@@ -544,9 +585,9 @@ def visible_markdown_text(value: str) -> str:
 
 class VisibleSectionTextParser(VisibleTextParser):
     def __init__(
-        self, heading: str, embedded_stylesheet_present: bool = False
+        self, heading: str, author_stylesheet_present: bool = False
     ) -> None:
-        super().__init__(embedded_stylesheet_present)
+        super().__init__(author_stylesheet_present)
         self._wanted_heading = " ".join(heading.split())
         self._in_h2 = False
         self._h2_text: list[str] = []
@@ -607,7 +648,7 @@ def rendered_visible_text(path: Path) -> str:
 def rendered_visible_section(path: Path, heading: str) -> str:
     rendered = render_site_markdown(markdown_body(path))
     parser = VisibleSectionTextParser(
-        heading, has_embedded_stylesheet(rendered)
+        heading, has_author_stylesheet(rendered)
     )
     parser.feed(rendered)
     parser.close()
