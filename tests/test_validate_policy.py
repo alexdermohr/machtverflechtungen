@@ -366,6 +366,37 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_source_id_split_by_self_closing_br_does_not_satisfy_visibility(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        split_source = (
+            f'\n- <a href="{source_url}">Quelle</a> '
+            "SRC-DE-NI-MJ-CELLER-<br/>2015\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + split_source,
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_css_newline_hidden_source_link_does_not_satisfy_visibility(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -1979,6 +2010,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
     def test_visible_text_parser_preserves_block_boundary(self) -> None:
         parser = validate.VisibleTextParser()
         parser.feed("<p>Alpha</p><p>Beta</p>")
+        parser.close()
+
+        self.assertEqual("Alpha Beta", parser.text())
+
+    def test_disqualified_named_details_preserves_text_boundary(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            'Alpha<details name="group" open><summary>Hidden</summary>'
+            "Ignored</details>Beta"
+        )
+        parser.close()
+
+        self.assertEqual("Alpha Beta", parser.text())
+
+    def test_self_closing_br_preserves_text_boundary(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("Alpha<br/>Beta")
         parser.close()
 
         self.assertEqual("Alpha Beta", parser.text())

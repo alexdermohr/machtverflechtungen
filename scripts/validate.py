@@ -252,6 +252,53 @@ def foreign_attributes_ineligible(
     )
 
 
+VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
+    {
+        "address",
+        "article",
+        "aside",
+        "blockquote",
+        "br",
+        "dd",
+        "details",
+        "dialog",
+        "div",
+        "dl",
+        "dt",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "header",
+        "hgroup",
+        "hr",
+        "li",
+        "main",
+        "nav",
+        "ol",
+        "p",
+        "pre",
+        "section",
+        "summary",
+        "table",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "tr",
+        "ul",
+    }
+)
+
+
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
         {
@@ -373,10 +420,18 @@ class VisibleListLinkParser(HTMLParser):
                 del self._elements[index:]
                 return
 
+    def _append_text_boundary(self) -> None:
+        if self._items:
+            self._items[-1]["text"].append(" ")
+        if self._anchors:
+            self._anchors[-1]["text"].append(" ")
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():
+            self._append_text_boundary()
         parent = self._elements[-1] if self._elements else None
         summary_for_closed_details = (
             tag == "summary"
@@ -438,9 +493,12 @@ class VisibleListLinkParser(HTMLParser):
         # including for child elements, so those tags must not leak onto
         # the HTML visibility stack.
         tag = tag.casefold()
+        if tag in self.VOID_TAGS:
+            if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():
+                self._append_text_boundary()
+            return
         if (
-            tag in self.VOID_TAGS
-            or tag in FOREIGN_ROOT_TAGS
+            tag in FOREIGN_ROOT_TAGS
             or foreign_context(self._elements) is not None
         ):
             return
@@ -456,6 +514,7 @@ class VisibleListLinkParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        boundary_visible_before = self._text_visible()
         if tag == "a" and self._anchors:
             anchor = self._anchors.pop()
             href = anchor.get("href")
@@ -472,6 +531,10 @@ class VisibleListLinkParser(HTMLParser):
                 visible_text = " ".join("".join(item["text"]).split())
                 self.visible_items.append((visible_text, list(item["links"])))
         self._close_element(tag)
+        if tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
+            boundary_visible_before or self._text_visible()
+        ):
+            self._append_text_boundary()
 
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
@@ -484,51 +547,7 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 
 class VisibleTextParser(HTMLParser):
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
-    TEXT_BOUNDARY_TAGS = frozenset(
-        {
-            "address",
-            "article",
-            "aside",
-            "blockquote",
-            "br",
-            "dd",
-            "details",
-            "dialog",
-            "div",
-            "dl",
-            "dt",
-            "fieldset",
-            "figcaption",
-            "figure",
-            "footer",
-            "form",
-            "h1",
-            "h2",
-            "h3",
-            "h4",
-            "h5",
-            "h6",
-            "header",
-            "hgroup",
-            "hr",
-            "li",
-            "main",
-            "nav",
-            "ol",
-            "p",
-            "pre",
-            "section",
-            "summary",
-            "table",
-            "tbody",
-            "td",
-            "tfoot",
-            "th",
-            "thead",
-            "tr",
-            "ul",
-        }
-    )
+    TEXT_BOUNDARY_TAGS = VISIBLE_TEXT_BOUNDARY_TAGS
 
     def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
@@ -577,6 +596,7 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
         summary_for_closed_details = (
             tag == "summary"
@@ -610,7 +630,9 @@ class VisibleTextParser(HTMLParser):
                     "summary_for_closed_details": summary_for_closed_details,
                 }
             )
-        if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
+        if tag in self.TEXT_BOUNDARY_TAGS and (
+            boundary_visible_before or self._text_visible()
+        ):
             self._append_text(" ")
 
     def handle_startendtag(
@@ -618,9 +640,12 @@ class VisibleTextParser(HTMLParser):
     ) -> None:
         # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
+        if tag in self.VOID_TAGS:
+            if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
+                self._append_text(" ")
+            return
         if (
-            tag in self.VOID_TAGS
-            or tag in FOREIGN_ROOT_TAGS
+            tag in FOREIGN_ROOT_TAGS
             or foreign_context(self._elements) is not None
         ):
             return
@@ -635,9 +660,12 @@ class VisibleTextParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
-        if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
-            self._append_text(" ")
+        boundary_visible_before = self._text_visible()
         self._close_element(tag)
+        if tag in self.TEXT_BOUNDARY_TAGS and (
+            boundary_visible_before or self._text_visible()
+        ):
+            self._append_text(" ")
 
     def text(self) -> str:
         return " ".join("".join(self._text).split())
