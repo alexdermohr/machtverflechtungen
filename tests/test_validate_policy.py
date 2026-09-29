@@ -1227,20 +1227,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
 
     def test_schema_invalid_directness_is_reported_without_crashing(self) -> None:
-        self._mutate_first_claim(
-            evidence=[
-                {
-                    "source": "SRC-DE-NI-MJ-CELLER-2015",
-                    "directness": [],
-                    "note": "Diese absichtlich falsche Form muss als Schemafehler gemeldet werden.",
-                }
-            ]
-        )
+        for invalid_directness in ([], {}):
+            with self.subTest(directness=invalid_directness):
+                self._mutate_first_claim(
+                    evidence=[
+                        {
+                            "source": "SRC-DE-NI-MJ-CELLER-2015",
+                            "directness": invalid_directness,
+                            "note": "Diese absichtlich falsche Form muss als Schemafehler gemeldet werden.",
+                        }
+                    ]
+                )
 
-        code, output = self._run_validator()
+                code, output = self._run_validator()
 
-        self.assertEqual(1, code)
-        self.assertIn("is not one of", output)
+                self.assertEqual(1, code)
+                self.assertIn("is not one of", output)
 
     def test_established_claim_accepts_two_independent_high_quality_sources(self) -> None:
         source_id = self._add_test_source(
