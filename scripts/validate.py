@@ -172,7 +172,7 @@ PYMDOWN_DETAILS_CLASSES = frozenset(
 
 
 def has_embedded_stylesheet(rendered: str) -> bool:
-    return re.search(r"<style(?:\\s|>)", rendered, flags=re.IGNORECASE) is not None
+    return re.search(r"<style(?:\s|>)", rendered, flags=re.IGNORECASE) is not None
 
 
 def foreign_context(elements: list[dict[str, Any]]) -> str | None:
@@ -221,7 +221,7 @@ class VisibleListLinkParser(HTMLParser):
         }
     )
     ALWAYS_HIDDEN_TAGS = frozenset(
-        {"canvas", "head", "iframe", "script", "style", "template"}
+        {"canvas", "head", "iframe", "object", "script", "style", "template"}
     )
 
     def __init__(self, embedded_stylesheet_present: bool = False) -> None:
