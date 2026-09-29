@@ -279,6 +279,8 @@ class VisibleListLinkParser(HTMLParser):
             "head",
             "iframe",
             "meter",
+            "noembed",
+            "noframes",
             "noscript",
             "object",
             "progress",

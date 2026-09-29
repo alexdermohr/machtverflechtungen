@@ -430,6 +430,8 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "meter": "<meter>HIDDEN-FALLBACK</meter><p>VISIBLE</p>",
             "datalist": "<datalist><option>HIDDEN-FALLBACK</option></datalist><p>VISIBLE</p>",
             "rp": "<ruby>漢<rp>HIDDEN-FALLBACK</rp><rt>kan</rt></ruby>",
+            "noembed": "<noembed>HIDDEN-FALLBACK</noembed><p>VISIBLE</p>",
+            "noframes": "<noframes>HIDDEN-FALLBACK</noframes><p>VISIBLE</p>",
         }
         for tag, markup in samples.items():
             with self.subTest(tag=tag):
@@ -643,6 +645,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "\n<noscript><ul><li>"
             f'<a href="{source_url}">Quelle</a> {source_id}'
             "</li></ul></noscript>\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_noembed_fallback_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            "\n<noembed><ul><li>"
+            f'<a href="{source_url}">Quelle</a> {source_id}'
+            "</li></ul></noembed>\n"
         )
         path.write_text(
             text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
