@@ -312,6 +312,7 @@ CLAIM_IMPLICIT_CLOSE_GROUPS = {
     "tr": frozenset({"tr"}),
     "td": frozenset({"td", "th"}),
     "th": frozenset({"td", "th"}),
+    "button": frozenset({"button"}),
 }
 
 
@@ -568,10 +569,54 @@ class VisibleListLinkParser(HTMLParser):
         if self._anchors:
             self._anchors[-1]["text"].append(" ")
 
+    def _current_list_item_open(self) -> bool:
+        for element in reversed(self._elements):
+            tag = element.get("tag")
+            if tag == "li":
+                return True
+            if tag in {"ul", "ol", "menu"}:
+                return False
+        return False
+
+    def _finalize_anchor(self) -> None:
+        if not self._anchors:
+            return
+        anchor = self._anchors.pop()
+        href = anchor.get("href")
+        visible_anchor_text = " ".join("".join(anchor["text"]).split())
+        if (
+            self._items
+            and anchor.get("hidden") is not True
+            and isinstance(href, str)
+        ):
+            self._items[-1]["links"].append((href, visible_anchor_text))
+
+    def _finalize_current_item(self) -> None:
+        if not self._items:
+            return
+        item_depth = len(self._items)
+        while (
+            self._anchors
+            and self._anchors[-1].get("item_depth") == item_depth
+        ):
+            self._finalize_anchor()
+        item = self._items.pop()
+        if item.get("hidden") is not True:
+            visible_text = " ".join("".join(item["text"]).split())
+            self.visible_items.append((visible_text, list(item["links"])))
+
+    def _close_implicit_list_item(self) -> None:
+        if not self._current_list_item_open():
+            return
+        self._finalize_current_item()
+        self._close_element("li")
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        if tag == "li":
+            self._close_implicit_list_item()
         if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():
             self._append_text_boundary()
         parent = self._elements[-1] if self._elements else None
@@ -627,6 +672,7 @@ class VisibleListLinkParser(HTMLParser):
                     "href": href if isinstance(href, str) else None,
                     "text": [],
                     "hidden": effective_hidden,
+                    "item_depth": len(self._items),
                 }
             )
 
@@ -660,21 +706,12 @@ class VisibleListLinkParser(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
+        if tag in {"ul", "ol", "menu"}:
+            self._close_implicit_list_item()
         if tag == "a" and self._anchors:
-            anchor = self._anchors.pop()
-            href = anchor.get("href")
-            visible_anchor_text = " ".join("".join(anchor["text"]).split())
-            if (
-                self._items
-                and anchor.get("hidden") is not True
-                and isinstance(href, str)
-            ):
-                self._items[-1]["links"].append((href, visible_anchor_text))
+            self._finalize_anchor()
         elif tag == "li" and self._items:
-            item = self._items.pop()
-            if item.get("hidden") is not True:
-                visible_text = " ".join("".join(item["text"]).split())
-                self.visible_items.append((visible_text, list(item["links"])))
+            self._finalize_current_item()
         self._close_element(tag)
         if tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or self._text_visible()

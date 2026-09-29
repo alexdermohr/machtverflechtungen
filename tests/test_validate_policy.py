@@ -292,6 +292,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_visible_list_link_parser_honors_implicit_li_end(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a>'
+            '<li>SRC-B <a href="https://example.invalid/b">B</a></ul>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [
+                ("SRC-A A", [("https://example.invalid/a", "A")]),
+                ("SRC-B B", [("https://example.invalid/b", "B")]),
+            ],
+            parser.visible_items,
+        )
+
     def test_claim_source_must_also_appear_in_case_sources(self) -> None:
         self._mutate_first_claim(sources=["SRC-DE-BT-04644-1953"])
 
@@ -2283,6 +2299,20 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         visible = validate.visible_markdown_claim_binding_text(
             f"<p>{claim_id} ohne Wortlaut<p>{claim_text}"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_honors_implicit_button_end(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<button>{claim_id} ohne Wortlaut<button>{claim_text}"
         )
 
         self.assertFalse(
