@@ -288,6 +288,7 @@ class VisibleListLinkParser(HTMLParser):
             "script",
             "style",
             "template",
+            "title",
             "video",
         }
     )

@@ -438,6 +438,13 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 visible = validate.visible_markdown_text(markup)
                 self.assertNotIn("HIDDEN-FALLBACK", visible)
 
+    def test_html_title_metadata_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<title>HIDDEN-TITLE-METADATA</title><p>VISIBLE</p>"
+        )
+        self.assertNotIn("HIDDEN-TITLE-METADATA", visible)
+        self.assertIn("VISIBLE", visible)
+
     def test_linked_stylesheet_is_detected_as_author_stylesheet(self) -> None:
         self.assertTrue(
             validate.has_author_stylesheet(
@@ -2254,6 +2261,24 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         path.write_text(text, encoding="utf-8")
         code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
+            output,
+        )
+
+    def test_event_core_ignores_html_title_metadata(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        text = text.replace(
+            "- **`CLM-DE-CELLER-002` — belegt:** Die Operation sollte einen RAF-Befreiungsversuch vortäuschen; Öffentlichkeit und Strafverfolgungsbehörden wurden über die Urheber planmäßig getäuscht.\n",
+            "<title>CLM-DE-CELLER-002</title>\n",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
         self.assertEqual(1, code)
         self.assertIn(
             "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
