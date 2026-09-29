@@ -183,7 +183,7 @@ SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
 SVG_INELIGIBLE_SUBTREE_TAGS = (
     SVG_METADATA_TAGS
     | SVG_NON_RENDERING_CONTAINER_TAGS
-    | frozenset({"switch"})
+    | frozenset({"foreignobject", "switch"})
 )
 PYMDOWN_DETAILS_CLASSES = frozenset(
     {

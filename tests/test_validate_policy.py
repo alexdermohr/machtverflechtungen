@@ -629,16 +629,44 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         self.assertIn("VISIBLE-MATH-TEXT", visible)
 
-    def test_svg_foreign_object_uses_html_visibility_semantics(self) -> None:
+    def test_svg_foreign_object_is_not_visibility_evidence(self) -> None:
         visible = validate.visible_markdown_text(
-            '<svg><foreignObject><p>VISIBLE-HTML</p></foreignObject></svg>'
+            '<svg><foreignObject><p>HIDDEN-HTML</p></foreignObject></svg>'
         )
-        self.assertIn("VISIBLE-HTML", visible)
 
-        hidden = validate.visible_markdown_text(
-            '<svg><foreignObject><div hidden />HIDDEN-HTML</foreignObject></svg>'
+        self.assertNotIn("HIDDEN-HTML", visible)
+
+    def test_svg_foreign_object_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
         )
-        self.assertNotIn("HIDDEN-HTML", hidden)
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            "\n<svg><foreignObject>"
+            f'<li><a href="{source_url}">Quelle</a> — {source_id}</li>'
+            "</foreignObject></svg>\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code, output)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
 
     def test_self_closing_hidden_ancestor_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
