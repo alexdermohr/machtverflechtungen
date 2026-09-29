@@ -93,6 +93,12 @@ def lexical_text(value: str) -> str:
     return " ".join(re.findall(r"\w+", normalized))
 
 
+def contains_lexical_sequence(haystack: str, needle: str) -> bool:
+    if not needle:
+        return False
+    return f" {needle} " in f" {haystack} "
+
+
 def period_bounds(value: Any) -> tuple[date, date] | None:
     if not isinstance(value, str):
         return None
@@ -269,9 +275,14 @@ class VisibleListLinkParser(HTMLParser):
         {
             "audio",
             "canvas",
+            "datalist",
             "head",
             "iframe",
+            "meter",
+            "noscript",
             "object",
+            "progress",
+            "rp",
             "script",
             "style",
             "template",
@@ -1034,7 +1045,9 @@ def main() -> int:
                     )
             if isinstance(claim_id, str) and isinstance(claim_text, str):
                 claim_lexical = lexical_text(claim_text)
-                if claim_lexical and claim_lexical not in body_lexical:
+                if claim_lexical and not contains_lexical_sequence(
+                    body_lexical, claim_lexical
+                ):
                     errors.append(
                         f"{label}: claim {claim_id} wording must be visibly represented in case body"
                     )

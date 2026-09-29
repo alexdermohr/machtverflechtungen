@@ -423,6 +423,19 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
+    def test_non_rendered_fallback_tags_do_not_satisfy_text_visibility(self) -> None:
+        samples = {
+            "noscript": "<noscript>HIDDEN-FALLBACK</noscript><p>VISIBLE</p>",
+            "progress": "<progress>HIDDEN-FALLBACK</progress><p>VISIBLE</p>",
+            "meter": "<meter>HIDDEN-FALLBACK</meter><p>VISIBLE</p>",
+            "datalist": "<datalist><option>HIDDEN-FALLBACK</option></datalist><p>VISIBLE</p>",
+            "rp": "<ruby>漢<rp>HIDDEN-FALLBACK</rp><rt>kan</rt></ruby>",
+        }
+        for tag, markup in samples.items():
+            with self.subTest(tag=tag):
+                visible = validate.visible_markdown_text(markup)
+                self.assertNotIn("HIDDEN-FALLBACK", visible)
+
     def test_linked_stylesheet_is_detected_as_author_stylesheet(self) -> None:
         self.assertTrue(
             validate.has_author_stylesheet(
@@ -600,6 +613,36 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "\n<canvas><ul><li>"
             f'<a href="{source_url}">Quelle</a> {source_id}'
             "</li></ul></canvas>\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + hidden_source,
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_noscript_fallback_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        hidden_source = (
+            "\n<noscript><ul><li>"
+            f'<a href="{source_url}">Quelle</a> {source_id}'
+            "</li></ul></noscript>\n"
         )
         path.write_text(
             text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
@@ -2067,6 +2110,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "Die sichtbare Fassung wurde absichtlich von der kanonischen Claim-Aussage abweichend verändert.",
         )
         code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
+    def test_claim_wording_requires_lexical_token_boundaries(self) -> None:
+        self._mutate_first_claim(text="Rat war geheim")
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + "\nCLM-DE-CELLER-001 Vorrat war geheim\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
         self.assertEqual(1, code)
         self.assertIn(
             "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
