@@ -359,6 +359,40 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
+    def test_source_id_split_by_select_does_not_satisfy_visibility(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        split_source = (
+            chr(10)
+            + f'<ul><li><a href="{source_url}">Quelle</a> '
+            + 'SRC-DE-NI-MJ-CELLER-<select><option>ignored</option></select>'
+            + '2015</li></ul>'
+            + chr(10)
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + split_source,
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_named_details_group_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -571,6 +605,17 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 )
                 self.assertNotIn("HIDDEN-SVG-RESOURCE", visible)
                 self.assertIn("VISIBLE-SVG-TEXT", visible)
+
+    def test_svg_switch_unselected_branch_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<svg><switch>"
+            "<text>VISIBLE-FIRST-BRANCH</text>"
+            "<text>HIDDEN-SECOND-BRANCH</text>"
+            "</switch><text>VISIBLE-OUTSIDE-SWITCH</text></svg>"
+        )
+
+        self.assertNotIn("HIDDEN-SECOND-BRANCH", visible)
+        self.assertIn("VISIBLE-OUTSIDE-SWITCH", visible)
 
     def test_svg_text_after_self_closing_foreign_child_remains_visible(self) -> None:
         visible = validate.visible_markdown_text(
@@ -2111,6 +2156,52 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertNotIn("HIDDEN-UNSELECTED-OPTION", visible)
         self.assertIn("VISIBLE-OUTSIDE", visible)
 
+    def test_rendered_controls_and_replaced_elements_preserve_text_boundaries(self) -> None:
+        hidden_content_samples = {
+            "audio": "Alpha<audio>Ignored</audio>Beta",
+            "canvas": "Alpha<canvas>Ignored</canvas>Beta",
+            "iframe": "Alpha<iframe>Ignored</iframe>Beta",
+            "meter": "Alpha<meter>Ignored</meter>Beta",
+            "object": "Alpha<object>Ignored</object>Beta",
+            "progress": "Alpha<progress>Ignored</progress>Beta",
+            "video": "Alpha<video>Ignored</video>Beta",
+        }
+        for tag, markup in hidden_content_samples.items():
+            with self.subTest(tag=tag):
+                self.assertEqual("Alpha Beta", validate.visible_markdown_text(markup))
+
+        void_samples = {
+            "embed": "Alpha<embed>Beta",
+            "img": "Alpha<img>Beta",
+            "input": "Alpha<input>Beta",
+        }
+        for tag, markup in void_samples.items():
+            with self.subTest(tag=tag):
+                self.assertEqual("Alpha Beta", validate.visible_markdown_text(markup))
+
+        visible_content_samples = {
+            "button": ("Alpha<button>Control</button>Beta", "Alpha Control Beta"),
+            "textarea": ("Alpha<textarea>Control</textarea>Beta", "Alpha Control Beta"),
+            "svg": (
+                "Alpha<svg><text>Visible</text></svg>Beta",
+                "Alpha Visible Beta",
+            ),
+            "math": (
+                "Alpha<math><mtext>Visible</mtext></math>Beta",
+                "Alpha Visible Beta",
+            ),
+        }
+        for tag, (markup, expected_text) in visible_content_samples.items():
+            with self.subTest(tag=tag):
+                self.assertEqual(expected_text, validate.visible_markdown_text(markup))
+
+    def test_select_preserves_text_boundary(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("Alpha<select><option>Ignored</option></select>Beta")
+        parser.close()
+
+        self.assertEqual("Alpha Beta", parser.text())
+
     def test_named_details_group_does_not_satisfy_claim_visibility(self) -> None:
         claim_text = (
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
@@ -2594,6 +2685,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "event claim CLM-DE-CELLER-001 must appear in Gesicherter Ereigniskern",
             output,
         )
+
+    def test_hidden_following_heading_does_not_end_event_core_capture(self) -> None:
+        path = (
+            self.root
+            / "docs"
+            / "faelle"
+            / "de"
+            / "thueringer-heimatschutz-tino-brandt.md"
+        )
+        original = path.read_text(encoding="utf-8")
+        for heading_tag in ("h1", "h2"):
+            with self.subTest(heading_tag=heading_tag):
+                text = original.replace(
+                    "## Gegenbefund zur Gründungsthese",
+                    f"<{heading_tag} hidden>Versteckte Zwischenüberschrift</{heading_tag}>",
+                    1,
+                )
+                path.write_text(text, encoding="utf-8")
+
+                code, output = self._run_validator()
+
+                self.assertEqual(1, code)
+                self.assertIn(
+                    "Gesicherter Ereigniskern includes non-event claim CLM-DE-THS-001",
+                    output,
+                )
+        path.write_text(original, encoding="utf-8")
 
     def test_event_core_capture_stops_at_following_h1(self) -> None:
         path = self._case_path()

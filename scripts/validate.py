@@ -180,6 +180,11 @@ SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
         "symbol",
     }
 )
+SVG_INELIGIBLE_SUBTREE_TAGS = (
+    SVG_METADATA_TAGS
+    | SVG_NON_RENDERING_CONTAINER_TAGS
+    | frozenset({"switch"})
+)
 PYMDOWN_DETAILS_CLASSES = frozenset(
     {
         "abstract", "attention", "bug", "caution", "check", "cite", "danger",
@@ -270,14 +275,18 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "address",
         "article",
         "aside",
+        "audio",
         "blockquote",
         "br",
+        "button",
+        "canvas",
         "dd",
         "details",
         "dialog",
         "div",
         "dl",
         "dt",
+        "embed",
         "fieldset",
         "figcaption",
         "figure",
@@ -292,22 +301,33 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "header",
         "hgroup",
         "hr",
+        "iframe",
+        "img",
+        "input",
         "li",
         "main",
+        "math",
+        "meter",
         "nav",
+        "object",
         "ol",
         "p",
+        "progress",
         "pre",
         "section",
+        "select",
         "summary",
+        "svg",
         "table",
         "tbody",
         "td",
         "tfoot",
         "th",
         "thead",
+        "textarea",
         "tr",
         "ul",
+        "video",
     }
 )
 
@@ -486,7 +506,7 @@ class VisibleListLinkParser(HTMLParser):
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (
                 current_foreign_context == "svg"
-                and tag in (SVG_METADATA_TAGS | SVG_NON_RENDERING_CONTAINER_TAGS)
+                and tag in SVG_INELIGIBLE_SUBTREE_TAGS
             )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
@@ -654,7 +674,7 @@ class VisibleTextParser(HTMLParser):
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (
                 current_foreign_context == "svg"
-                and tag in (SVG_METADATA_TAGS | SVG_NON_RENDERING_CONTAINER_TAGS)
+                and tag in SVG_INELIGIBLE_SUBTREE_TAGS
             )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
@@ -730,20 +750,23 @@ class VisibleSectionTextParser(VisibleTextParser):
         self._h2_visible = False
         self._target_seen = False
         self._capture = False
+        self._capture_before_h2 = False
         self._section_text: list[str] = []
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        if tag in {"h1", "h2"}:
-            self._capture = False
         if tag == "h2":
+            self._capture_before_h2 = self._capture
             self._in_h2 = True
             self._h2_text = []
             self._h2_visible = False
         super().handle_starttag(tag, attrs)
-        if tag == "h2":
+        if tag == "h1":
+            if self._text_visible():
+                self._capture = False
+        elif tag == "h2":
             self._h2_visible = self._text_visible()
 
     def _append_text(self, data: str) -> None:
@@ -763,11 +786,16 @@ class VisibleSectionTextParser(VisibleTextParser):
             )
             if is_target:
                 self._target_seen = True
-            capture_after_heading = is_target and self._h2_visible
+            capture_after_heading = (
+                is_target
+                if self._h2_visible
+                else self._capture_before_h2
+            )
             super().handle_endtag(tag)
             self._in_h2 = False
             self._h2_text = []
             self._h2_visible = False
+            self._capture_before_h2 = False
             self._capture = capture_after_heading
             return
         super().handle_endtag(tag)

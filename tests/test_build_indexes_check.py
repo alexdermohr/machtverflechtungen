@@ -133,6 +133,12 @@ class GeneratedIndexCheckTests(unittest.TestCase):
         self.assertIn("| DE | 1 belegt · 1 stark gestützt |", timeline_rendered)
         self.assertNotIn("| established |", timeline_rendered)
 
+    def test_hypothesis_empty_state_is_model_version_neutral(self) -> None:
+        rendered = build_indexes.render_hypotheses([])
+
+        self.assertIn("Der strukturierte Claimbestand enthält derzeit", rendered)
+        self.assertNotIn("V1-Claimbestand", rendered)
+
     def test_render_sources_links_title_to_external_source(self) -> None:
         url = "https://example.invalid/source.pdf"
         rendered = build_indexes.render_sources(

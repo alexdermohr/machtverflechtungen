@@ -189,7 +189,7 @@ def render_hypotheses(cases: list[tuple[dict[str, Any], str]]) -> str:
                 ]
     if count == 0:
         lines.append(
-            "Der strukturierte V1-Claimbestand enthält derzeit keine als Hypothese oder offene Frage kodierten Claims. "
+            "Der strukturierte Claimbestand enthält derzeit keine als Hypothese oder offene Frage kodierten Claims. "
             "Das bedeutet nicht, dass die Fälle abgeschlossen sind; ihre offenen Prüfungen stehen in den Fallakten."
         )
         lines.append("")
