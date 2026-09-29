@@ -611,10 +611,19 @@ class VisibleListLinkParser(HTMLParser):
         self._finalize_current_item()
         self._close_element("li")
 
+    def _close_implicit_paragraph(self, tag: str) -> None:
+        if (
+            tag in P_IMPLICIT_END_START_TAGS
+            and self._elements
+            and self._elements[-1].get("tag") == "p"
+        ):
+            self._elements.pop()
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        self._close_implicit_paragraph(tag)
         if tag == "li":
             self._close_implicit_list_item()
         if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():

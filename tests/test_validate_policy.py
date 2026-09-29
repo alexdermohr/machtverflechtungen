@@ -308,6 +308,19 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<p hidden>intro'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_claim_source_must_also_appear_in_case_sources(self) -> None:
         self._mutate_first_claim(sources=["SRC-DE-BT-04644-1953"])
 
