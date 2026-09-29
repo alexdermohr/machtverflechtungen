@@ -2365,6 +2365,90 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
         )
 
+    def test_claim_binding_honors_implicit_li_end_in_same_list_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<ul><li>{claim_id} ohne Wortlaut<li>{claim_text}</ul>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_li_does_not_cross_nested_list_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<ul><li hidden>outer<ul><li>{claim_id} {claim_text}</li></ul></li></ul>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_honors_implicit_dt_end_in_same_dl_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<dl><dt>{claim_id} ohne Wortlaut<dt>{claim_text}</dl>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_dt_does_not_cross_nested_dl_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<dl><dt hidden>outer<dl><dt>{claim_id} {claim_text}</dt></dl></dt></dl>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_honors_implicit_tr_end_in_same_table_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<table><tr><td>{claim_id} ohne Wortlaut<tr><td>{claim_text}</table>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_tr_does_not_cross_nested_table_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<table><tr hidden><td>outer<table><tr><td>{claim_id} {claim_text}</td></tr></table></td></tr></table>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
     def test_claim_heading_binds_wording_within_same_section(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (

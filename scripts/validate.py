@@ -314,6 +314,14 @@ CLAIM_IMPLICIT_CLOSE_GROUPS = {
     "th": frozenset({"td", "th"}),
     "button": frozenset({"button"}),
 }
+CLAIM_IMPLICIT_SCOPE_BOUNDARIES = {
+    "li": frozenset({"ul", "ol", "menu"}),
+    "dt": frozenset({"dl"}),
+    "dd": frozenset({"dl"}),
+    "tr": frozenset({"table"}),
+    "td": frozenset({"table"}),
+    "th": frozenset({"table"}),
+}
 
 
 CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
@@ -799,8 +807,10 @@ class VisibleTextParser(HTMLParser):
             | SVG_HTML_INTEGRATION_TAGS
             | MATHML_TEXT_INTEGRATION_TAGS
         )
+        scope_boundaries = CLAIM_IMPLICIT_SCOPE_BOUNDARIES.get(tag, frozenset())
         for index in range(len(self._elements) - 1, -1, -1):
-            if self._elements[index].get("tag") in integration_boundaries:
+            element_tag = self._elements[index].get("tag")
+            if element_tag in integration_boundaries or element_tag in scope_boundaries:
                 context_floor = index + 1
                 break
         for index in range(len(self._elements) - 1, context_floor - 1, -1):
