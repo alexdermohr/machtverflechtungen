@@ -272,7 +272,8 @@ def foreign_attributes_ineligible(
 
 CLAIM_BINDING_BOUNDARY = "\x00"
 CLAIM_SECTION_BOUNDARY_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
-CLAIM_RECORD_BOUNDARY_TAGS = frozenset({"li", "tr"})
+CLAIM_RECORD_START_BOUNDARY_TAGS = frozenset({"li", "tr"})
+CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset({"li", "tr", "p"})
 
 
 VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
@@ -696,7 +697,7 @@ class VisibleTextParser(HTMLParser):
                 }
             )
         if (
-            tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_BOUNDARY_TAGS
+            tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
             and self._text_visible()
         ):
             self._append_claim_binding_boundary()
@@ -737,15 +738,23 @@ class VisibleTextParser(HTMLParser):
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
         self._close_element(tag)
-        if tag in CLAIM_RECORD_BOUNDARY_TAGS and boundary_visible_before:
+        if tag in CLAIM_RECORD_END_BOUNDARY_TAGS and boundary_visible_before:
             self._append_claim_binding_boundary()
         if tag in self.TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or self._text_visible()
         ):
             self._append_text(" ")
 
-    def text(self) -> str:
+    def _normalized_text(self) -> str:
         return " ".join("".join(self._text).split())
+
+    def text(self) -> str:
+        return " ".join(
+            self._normalized_text().replace(CLAIM_BINDING_BOUNDARY, " ").split()
+        )
+
+    def claim_binding_text(self) -> str:
+        return self._normalized_text()
 
 
 def visible_markdown_text(value: str) -> str:
@@ -754,6 +763,14 @@ def visible_markdown_text(value: str) -> str:
     parser.feed(rendered)
     parser.close()
     return parser.text()
+
+
+def visible_markdown_claim_binding_text(value: str) -> str:
+    rendered = render_site_markdown(value)
+    parser = VisibleTextParser(has_author_stylesheet(rendered))
+    parser.feed(rendered)
+    parser.close()
+    return parser.claim_binding_text()
 
 
 class VisibleSectionTextParser(VisibleTextParser):
@@ -823,6 +840,10 @@ class VisibleSectionTextParser(VisibleTextParser):
 
 def rendered_visible_text(path: Path) -> str:
     return visible_markdown_text(markdown_body(path))
+
+
+def rendered_claim_binding_text(path: Path) -> str:
+    return visible_markdown_claim_binding_text(markdown_body(path))
 
 
 def rendered_visible_section(path: Path, heading: str) -> str:
@@ -1209,6 +1230,7 @@ def main() -> int:
                         )
 
         visible_body = rendered_visible_text(path)
+        claim_binding_body = rendered_claim_binding_text(path)
         body_lexical = lexical_text(visible_body)
 
         event_section = rendered_visible_section(path, "Gesicherter Ereigniskern")
@@ -1262,7 +1284,7 @@ def main() -> int:
                     claim_id_visible
                     and claim_wording_visible
                     and not claim_occurrences_bound_to_wording(
-                        visible_body, claim_id, claim_text
+                        claim_binding_body, claim_id, claim_text
                     )
                 ):
                     errors.append(

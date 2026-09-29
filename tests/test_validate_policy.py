@@ -2205,7 +2205,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
             "die Außenmauer der JVA Celle sprengen."
         )
-        visible = validate.visible_markdown_text(
+        visible = validate.visible_markdown_claim_binding_text(
             f"## Ereigniskern\n{claim_id} ohne Wortlaut\n\n"
             f"## Spätere Analyse\n{claim_text}"
         )
@@ -2220,8 +2220,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
             "die Außenmauer der JVA Celle sprengen."
         )
-        visible = validate.visible_markdown_text(
+        visible = validate.visible_markdown_claim_binding_text(
             f"- {claim_id} ohne Wortlaut\n- {claim_text}"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_stops_at_visible_paragraph_boundary(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"{claim_id} ohne Wortlaut\n\n{claim_text}"
         )
 
         self.assertFalse(
@@ -2234,7 +2248,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
             "die Außenmauer der JVA Celle sprengen."
         )
-        visible = validate.visible_markdown_text(
+        visible = validate.visible_markdown_claim_binding_text(
             f"### `{claim_id}`\n\n**Aussage:** {claim_text}\n\n### Nächster Abschnitt"
         )
 
