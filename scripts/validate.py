@@ -165,7 +165,6 @@ def render_site_markdown(value: str) -> str:
 FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
 SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
 MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
-SVG_TEXT_TAGS = frozenset({"text", "textpath", "tspan"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
 SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
     {
@@ -244,18 +243,9 @@ def foreign_context(elements: list[dict[str, Any]]) -> str | None:
 
 
 def foreign_text_visible(elements: list[dict[str, Any]]) -> bool:
-    context = foreign_context(elements)
-    if context is None:
-        return True
-    if context != "svg":
-        return False
-    for element in reversed(elements):
-        tag = element.get("tag")
-        if tag == "svg":
-            break
-        if tag in SVG_TEXT_TAGS:
-            return True
-    return False
+    # Ordinary SVG text is not reliable visibility evidence without layout
+    # geometry. HTML/MathML integration points leave foreign context above.
+    return foreign_context(elements) is None
 
 def foreign_attributes_ineligible(
     tag: str,
@@ -264,7 +254,7 @@ def foreign_attributes_ineligible(
 ) -> bool:
     # Rendering visibility for arbitrary SVG/MathML attributes is not
     # reproducible here. Treat attributed foreign elements as ineligible
-    # visibility evidence; attribute-free text/integration paths remain usable.
+    # visibility evidence; ordinary SVG text is also fail-closed above.
     return bool(attrs) and (
         tag in FOREIGN_ROOT_TAGS or current_foreign_context is not None
     )
@@ -272,7 +262,6 @@ def foreign_attributes_ineligible(
 
 CLAIM_BINDING_BOUNDARY = "\x00"
 CLAIM_SECTION_BOUNDARY_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
-CLAIM_RECORD_START_BOUNDARY_TAGS = frozenset({"li", "tr"})
 P_IMPLICIT_END_START_TAGS = frozenset(
     {
         "address",
@@ -477,6 +466,7 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "ul",
     }
 )
+CLAIM_RECORD_START_BOUNDARY_TAGS = CLAIM_RECORD_END_BOUNDARY_TAGS
 
 
 VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
@@ -870,6 +860,9 @@ class VisibleTextParser(HTMLParser):
         self._author_stylesheet_present = author_stylesheet_present
         self._elements: list[dict[str, Any]] = []
         self._text: list[str] = []
+        self._claim_heading_tag: str | None = None
+        self._claim_heading_text: list[str] = []
+        self._pending_claim_statement_paragraph = False
 
     def _regular_hidden(self) -> bool:
         return bool(self._elements and self._elements[-1]["hidden"])
@@ -948,6 +941,10 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        joins_claim_heading = (
+            tag == "p" and self._pending_claim_statement_paragraph
+        )
+        self._pending_claim_statement_paragraph = False
         self._close_implicit_record(tag)
         boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
@@ -986,9 +983,13 @@ class VisibleTextParser(HTMLParser):
                     "summary_for_closed_details": summary_for_closed_details,
                 }
             )
+        if tag in CLAIM_SECTION_BOUNDARY_TAGS and self._text_visible():
+            self._claim_heading_tag = tag
+            self._claim_heading_text = []
         if (
             tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
             and self._text_visible()
+            and not joins_claim_heading
         ):
             self._append_claim_binding_boundary()
         if tag in self.TEXT_BOUNDARY_TAGS and (
@@ -1021,12 +1022,23 @@ class VisibleTextParser(HTMLParser):
         self._text.append(CLAIM_BINDING_BOUNDARY)
 
     def handle_data(self, data: str) -> None:
-        if self._text_visible():
-            self._append_text(data)
+        if not self._text_visible():
+            return
+        if self._claim_heading_tag is not None:
+            self._claim_heading_text.append(data)
+        elif self._pending_claim_statement_paragraph and data.strip():
+            self._pending_claim_statement_paragraph = False
+        self._append_text(data)
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
+        closes_claim_heading = tag == self._claim_heading_tag
+        claim_heading_text = (
+            " ".join("".join(self._claim_heading_text).split())
+            if closes_claim_heading
+            else ""
+        )
         self._close_element(tag)
         if tag in CLAIM_RECORD_END_BOUNDARY_TAGS and boundary_visible_before:
             self._append_claim_binding_boundary()
@@ -1034,6 +1046,13 @@ class VisibleTextParser(HTMLParser):
             boundary_visible_before or self._text_visible()
         ):
             self._append_text(" ")
+        if closes_claim_heading:
+            self._claim_heading_tag = None
+            self._claim_heading_text = []
+            self._pending_claim_statement_paragraph = bool(
+                boundary_visible_before
+                and re.fullmatch(r"CLM-[A-Z0-9-]+", claim_heading_text)
+            )
 
     def _normalized_text(self) -> str:
         return " ".join("".join(self._text).split())
@@ -1169,7 +1188,7 @@ def claim_occurrences_bound_to_wording(
 ) -> bool:
     canonical = lexical_text(claim_text)
     if not canonical:
-        return True
+        return False
     segments = [
         segment
         for visible_id, segment in visible_claim_segments(text)
@@ -1560,13 +1579,18 @@ def main() -> int:
                     )
             if isinstance(claim_id, str) and isinstance(claim_text, str):
                 claim_lexical = lexical_text(claim_text)
-                claim_wording_visible = bool(claim_lexical) and contains_lexical_sequence(
-                    body_lexical, claim_lexical
-                )
-                if claim_lexical and not claim_wording_visible:
+                if not claim_lexical:
                     errors.append(
-                        f"{label}: claim {claim_id} wording must be visibly represented in case body"
+                        f"{label}: claim {claim_id} text must contain lexical tokens"
                     )
+                else:
+                    claim_wording_visible = contains_lexical_sequence(
+                        body_lexical, claim_lexical
+                    )
+                    if not claim_wording_visible:
+                        errors.append(
+                            f"{label}: claim {claim_id} wording must be visibly represented in case body"
+                        )
                 if (
                     claim_id_visible
                     and claim_wording_visible

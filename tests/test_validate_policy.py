@@ -620,10 +620,21 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
     def test_svg_presentation_attribute_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
-            '<svg><text display="none">HIDDEN-SVG-TEXT</text><text>VISIBLE-SVG-TEXT</text></svg>'
+            '<svg><text display="none">HIDDEN-SVG-TEXT</text>'
+            '<text>UNPOSITIONED-SVG-TEXT</text></svg><p>VISIBLE</p>'
         )
         self.assertNotIn("HIDDEN-SVG-TEXT", visible)
-        self.assertIn("VISIBLE-SVG-TEXT", visible)
+        self.assertNotIn("UNPOSITIONED-SVG-TEXT", visible)
+        self.assertIn("VISIBLE", visible)
+
+    def test_unpositioned_svg_text_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<svg><text>HIDDEN-UNPOSITIONED-SVG-TEXT</text></svg>"
+            "<p>VISIBLE</p>"
+        )
+
+        self.assertNotIn("HIDDEN-UNPOSITIONED-SVG-TEXT", visible)
+        self.assertIn("VISIBLE", visible)
 
     def test_svg_resource_container_text_does_not_satisfy_text_visibility(self) -> None:
         containers = (
@@ -641,36 +652,43 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             with self.subTest(tag=tag):
                 visible = validate.visible_markdown_text(
                     f"<svg><{tag}><text>HIDDEN-SVG-RESOURCE</text></{tag}>"
-                    "<text>VISIBLE-SVG-TEXT</text></svg>"
+                    "<text>UNPOSITIONED-SVG-TEXT</text></svg><p>VISIBLE</p>"
                 )
                 self.assertNotIn("HIDDEN-SVG-RESOURCE", visible)
-                self.assertIn("VISIBLE-SVG-TEXT", visible)
+                self.assertNotIn("UNPOSITIONED-SVG-TEXT", visible)
+                self.assertIn("VISIBLE", visible)
 
     def test_pathless_svg_textpath_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
             "<svg><text><textPath>HIDDEN-PATHLESS-TEXTPATH</textPath></text>"
-            "<text>VISIBLE-SVG-TEXT</text></svg>"
+            "<text>UNPOSITIONED-SVG-TEXT</text></svg><p>VISIBLE</p>"
         )
 
         self.assertNotIn("HIDDEN-PATHLESS-TEXTPATH", visible)
-        self.assertIn("VISIBLE-SVG-TEXT", visible)
+        self.assertNotIn("UNPOSITIONED-SVG-TEXT", visible)
+        self.assertIn("VISIBLE", visible)
 
     def test_svg_switch_unselected_branch_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
             "<svg><switch>"
-            "<text>VISIBLE-FIRST-BRANCH</text>"
+            "<text>UNPOSITIONED-FIRST-BRANCH</text>"
             "<text>HIDDEN-SECOND-BRANCH</text>"
-            "</switch><text>VISIBLE-OUTSIDE-SWITCH</text></svg>"
+            "</switch><text>UNPOSITIONED-OUTSIDE-SWITCH</text></svg>"
+            "<p>VISIBLE</p>"
         )
 
+        self.assertNotIn("UNPOSITIONED-FIRST-BRANCH", visible)
         self.assertNotIn("HIDDEN-SECOND-BRANCH", visible)
-        self.assertIn("VISIBLE-OUTSIDE-SWITCH", visible)
+        self.assertNotIn("UNPOSITIONED-OUTSIDE-SWITCH", visible)
+        self.assertIn("VISIBLE", visible)
 
-    def test_svg_text_after_self_closing_foreign_child_remains_visible(self) -> None:
+    def test_self_closing_foreign_child_does_not_make_svg_text_visible(self) -> None:
         visible = validate.visible_markdown_text(
-            '<svg><circle hidden /> <text>VISIBLE-SVG-TEXT</text></svg>'
+            '<svg><circle hidden /> <text>UNPOSITIONED-SVG-TEXT</text></svg>'
+            '<p>VISIBLE</p>'
         )
-        self.assertIn("VISIBLE-SVG-TEXT", visible)
+        self.assertNotIn("UNPOSITIONED-SVG-TEXT", visible)
+        self.assertIn("VISIBLE", visible)
 
     def test_mathml_text_after_self_closing_foreign_child_remains_visible(self) -> None:
         visible = validate.visible_markdown_text(
@@ -2254,6 +2272,86 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
         )
 
+    def test_claim_binding_stops_at_visible_block_start_boundary(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<span>{claim_id}</span><div>{claim_text}</div>")
+        parser.close()
+        visible = parser.claim_binding_text()
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_rejects_lexically_empty_wording(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<p>{claim_id}</p>"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                visible, claim_id, "----------"
+            )
+        )
+
+    def test_claim_heading_binds_immediately_following_statement_paragraph(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<h3><code>{claim_id}</code></h3>"
+            f"<p><strong>Aussage:</strong> {claim_text}</p>"
+        )
+        parser.close()
+
+        self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_inline_claim_id_does_not_bind_following_paragraph(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<span>{claim_id}</span><p>{claim_text}</p>")
+        parser.close()
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_claim_heading_exception_does_not_cross_intervening_block(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<h3>{claim_id}</h3><div>Zwischenblock</div><p>{claim_text}</p>"
+        )
+        parser.close()
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
     def test_claim_binding_stops_at_visible_list_record_boundary(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
@@ -2620,6 +2718,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "meter": "Alpha<meter>Ignored</meter>Beta",
             "object": "Alpha<object>Ignored</object>Beta",
             "progress": "Alpha<progress>Ignored</progress>Beta",
+            "svg": "Alpha<svg><text>Ignored</text></svg>Beta",
             "video": "Alpha<video>Ignored</video>Beta",
         }
         for tag, markup in hidden_content_samples.items():
@@ -2638,10 +2737,6 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         visible_content_samples = {
             "button": ("Alpha<button>Control</button>Beta", "Alpha Control Beta"),
             "textarea": ("Alpha<textarea>Control</textarea>Beta", "Alpha Control Beta"),
-            "svg": (
-                "Alpha<svg><text>Visible</text></svg>Beta",
-                "Alpha Visible Beta",
-            ),
             "math": (
                 "Alpha<math><mtext>Visible</mtext></math>Beta",
                 "Alpha Visible Beta",
@@ -2947,6 +3042,17 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_claim_text_requires_lexical_tokens(self) -> None:
+        self._mutate_first_claim(text="----------")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 text must contain lexical tokens",
+            output,
+        )
+
     def test_claim_wording_requires_lexical_token_boundaries(self) -> None:
         self._mutate_first_claim(text="Rat war geheim")
         path = self._case_path()
@@ -3068,7 +3174,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
-    def test_event_core_detects_non_event_claim_in_visible_svg_text(self) -> None:
+    def test_event_core_ignores_unpositioned_svg_text(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8").replace(
             "\n## Rekonstruktion",
@@ -3079,11 +3185,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         code, output = self._run_validator()
 
-        self.assertEqual(1, code)
-        self.assertIn(
-            "Gesicherter Ereigniskern includes non-event claim CLM-DE-CELLER-NON-EVENT",
-            output,
-        )
+        self.assertEqual(0, code, output)
 
     def test_event_core_ignores_svg_text_with_presentation_attributes(self) -> None:
         path = self._case_path()
