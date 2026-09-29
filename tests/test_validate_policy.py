@@ -1701,6 +1701,35 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         path = self._case_path()
         path.write_text(
             path.read_text(encoding="utf-8")
+            + "\n<style>.note { display: none; }</style>\n"
+            + "\n???+ note \"Versteckter offener Claim\"\n"
+            + f"    CLM-DE-CELLER-001 {claim_text}\n",
+            encoding="utf-8",
+        )
+        code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
+    def test_attributed_stylesheet_can_not_hide_open_pymdown_details_evidence(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
             + "\n<style type=\"text/css\">.note { display: none; }</style>\n"
             + "\n???+ note \"Versteckter offener Claim\"\n"
             + f"    CLM-DE-CELLER-001 {claim_text}\n",
