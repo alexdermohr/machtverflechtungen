@@ -270,6 +270,11 @@ def foreign_attributes_ineligible(
     )
 
 
+CLAIM_BINDING_BOUNDARY = "\x00"
+CLAIM_SECTION_BOUNDARY_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
+CLAIM_RECORD_BOUNDARY_TAGS = frozenset({"li", "tr"})
+
+
 VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
     {
         "address",
@@ -690,6 +695,11 @@ class VisibleTextParser(HTMLParser):
                     "summary_for_closed_details": summary_for_closed_details,
                 }
             )
+        if (
+            tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_BOUNDARY_TAGS
+            and self._text_visible()
+        ):
+            self._append_claim_binding_boundary()
         if tag in self.TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or self._text_visible()
         ):
@@ -714,6 +724,11 @@ class VisibleTextParser(HTMLParser):
     def _append_text(self, data: str) -> None:
         self._text.append(data)
 
+    def _append_claim_binding_boundary(self) -> None:
+        # NUL cannot originate as rendered HTML text: browsers replace source
+        # NULs during parsing. Keep it internal so lexical checks ignore it.
+        self._text.append(CLAIM_BINDING_BOUNDARY)
+
     def handle_data(self, data: str) -> None:
         if self._text_visible():
             self._append_text(data)
@@ -722,6 +737,8 @@ class VisibleTextParser(HTMLParser):
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
         self._close_element(tag)
+        if tag in CLAIM_RECORD_BOUNDARY_TAGS and boundary_visible_before:
+            self._append_claim_binding_boundary()
         if tag in self.TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or self._text_visible()
         ):
@@ -827,18 +844,14 @@ def visible_claim_segments(text: str) -> list[tuple[str, str]]:
     matches = list(
         re.finditer(r"(?<![\w-])CLM-[A-Z0-9-]+(?![\w-])", text)
     )
-    return [
-        (
-            match.group(),
-            text[
-                match.end() :
-                matches[index + 1].start()
-                if index + 1 < len(matches)
-                else len(text)
-            ],
-        )
-        for index, match in enumerate(matches)
-    ]
+    segments: list[tuple[str, str]] = []
+    for index, match in enumerate(matches):
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        boundary = text.find(CLAIM_BINDING_BOUNDARY, match.end(), end)
+        if boundary != -1:
+            end = boundary
+        segments.append((match.group(), text[match.end() : end]))
+    return segments
 
 
 def claim_occurrences_bound_to_wording(
