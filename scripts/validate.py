@@ -273,7 +273,47 @@ def foreign_attributes_ineligible(
 CLAIM_BINDING_BOUNDARY = "\x00"
 CLAIM_SECTION_BOUNDARY_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 CLAIM_RECORD_START_BOUNDARY_TAGS = frozenset({"li", "tr"})
-CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset({"li", "tr", "p"})
+CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
+    {
+        "address",
+        "article",
+        "aside",
+        "blockquote",
+        "button",
+        "dd",
+        "details",
+        "dialog",
+        "div",
+        "dl",
+        "dt",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "header",
+        "hgroup",
+        "li",
+        "main",
+        "math",
+        "nav",
+        "ol",
+        "p",
+        "pre",
+        "section",
+        "summary",
+        "svg",
+        "table",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "textarea",
+        "tr",
+        "ul",
+    }
+)
 
 
 VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
