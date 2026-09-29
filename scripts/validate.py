@@ -467,7 +467,9 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "ul",
     }
 )
-CLAIM_RECORD_START_BOUNDARY_TAGS = CLAIM_RECORD_END_BOUNDARY_TAGS
+CLAIM_RECORD_START_BOUNDARY_TAGS = (
+    CLAIM_RECORD_END_BOUNDARY_TAGS | frozenset({"hr"})
+)
 
 
 VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
@@ -728,12 +730,23 @@ class VisibleListLinkParser(HTMLParser):
         self._close_element("li")
 
     def _close_implicit_paragraph(self, tag: str) -> None:
-        if (
-            tag in P_IMPLICIT_END_START_TAGS
-            and self._elements
-            and self._elements[-1].get("tag") == "p"
-        ):
-            self._elements.pop()
+        if tag not in P_IMPLICIT_END_START_TAGS:
+            return
+        integration_boundaries = (
+            FOREIGN_ROOT_TAGS
+            | SVG_HTML_INTEGRATION_TAGS
+            | MATHML_TEXT_INTEGRATION_TAGS
+        )
+        for index in range(len(self._elements) - 1, -1, -1):
+            element_tag = self._elements[index].get("tag")
+            if (
+                element_tag in integration_boundaries
+                or element_tag in HTML_BUTTON_SCOPE_BOUNDARY_TAGS
+            ):
+                return
+            if element_tag == "p":
+                del self._elements[index:]
+                return
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
@@ -1012,6 +1025,8 @@ class VisibleTextParser(HTMLParser):
         # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
         if tag in self.VOID_TAGS:
+            if tag in CLAIM_RECORD_START_BOUNDARY_TAGS and self._text_visible():
+                self._append_claim_binding_boundary()
             if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
                 self._append_text(" ")
             return

@@ -321,6 +321,19 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_visible_list_link_parser_closes_implicit_paragraph_through_phrasing(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<p hidden>intro<span>format'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_visible_list_link_parser_implicit_li_does_not_cross_special_table_scope(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -1012,9 +1025,9 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             if source_id in line and f"]({source_url})" in line
         )
         hidden_source = (
-            '\n<audio src="about:blank"><ul><li>'
+            '\n<div><audio src="about:blank"><ul><li>'
             f'<a href="{source_url}">Quelle</a> {source_id}'
-            "</li></ul></audio>\n"
+            "</li></ul></audio></div>\n"
         )
         path.write_text(
             text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
@@ -2398,6 +2411,25 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertFalse(
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_stops_at_thematic_break(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<span>{claim_id} ohne Wortlaut</span>"
+            f"<hr><span>{claim_text}</span>"
+        )
+        parser.close()
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
         )
 
     def test_claim_binding_stops_at_visible_block_container_boundary(self) -> None:
