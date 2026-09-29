@@ -606,6 +606,15 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 self.assertNotIn("HIDDEN-SVG-RESOURCE", visible)
                 self.assertIn("VISIBLE-SVG-TEXT", visible)
 
+    def test_pathless_svg_textpath_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<svg><text><textPath>HIDDEN-PATHLESS-TEXTPATH</textPath></text>"
+            "<text>VISIBLE-SVG-TEXT</text></svg>"
+        )
+
+        self.assertNotIn("HIDDEN-PATHLESS-TEXTPATH", visible)
+        self.assertIn("VISIBLE-SVG-TEXT", visible)
+
     def test_svg_switch_unselected_branch_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
             "<svg><switch>"
@@ -1838,6 +1847,35 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             encoding="utf-8",
         )
         code, output = self._run_validator()
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
+
+    def test_pathless_svg_textpath_does_not_satisfy_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f"\n<svg><text><textPath>CLM-DE-CELLER-001 {claim_text}</textPath></text></svg>\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
         self.assertEqual(1, code)
         self.assertIn(
             "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
