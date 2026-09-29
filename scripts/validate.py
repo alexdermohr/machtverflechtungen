@@ -823,6 +823,43 @@ def exact_visible_id(text: str, identifier: str) -> bool:
     return re.search(pattern, text) is not None
 
 
+def visible_claim_segments(text: str) -> list[tuple[str, str]]:
+    matches = list(
+        re.finditer(r"(?<![\w-])CLM-[A-Z0-9-]+(?![\w-])", text)
+    )
+    return [
+        (
+            match.group(),
+            text[
+                match.end() :
+                matches[index + 1].start()
+                if index + 1 < len(matches)
+                else len(text)
+            ],
+        )
+        for index, match in enumerate(matches)
+    ]
+
+
+def claim_occurrences_bound_to_wording(
+    text: str,
+    claim_id: str,
+    claim_text: str,
+) -> bool:
+    canonical = lexical_text(claim_text)
+    if not canonical:
+        return True
+    segments = [
+        segment
+        for visible_id, segment in visible_claim_segments(text)
+        if visible_id == claim_id
+    ]
+    return bool(segments) and all(
+        contains_lexical_sequence(lexical_text(segment), canonical)
+        for segment in segments
+    )
+
+
 def direct_source_link_errors(
     path: Path,
     source_ids: list[str],
@@ -1188,21 +1225,35 @@ def main() -> int:
             classification = claim.get("classification")
             evidence_level = claim.get("evidence_level")
 
+            claim_id_visible = False
+            claim_wording_visible = False
             if isinstance(claim_id, str):
                 claim_id_pattern = re.compile(
                     rf"(?<![\w-]){re.escape(claim_id)}(?![\w-])"
                 )
-                if claim_id_pattern.search(visible_body) is None:
+                claim_id_visible = claim_id_pattern.search(visible_body) is not None
+                if not claim_id_visible:
                     errors.append(
                         f"{label}: claim {claim_id} must be visibly represented by ID in case body"
                     )
             if isinstance(claim_id, str) and isinstance(claim_text, str):
                 claim_lexical = lexical_text(claim_text)
-                if claim_lexical and not contains_lexical_sequence(
+                claim_wording_visible = bool(claim_lexical) and contains_lexical_sequence(
                     body_lexical, claim_lexical
-                ):
+                )
+                if claim_lexical and not claim_wording_visible:
                     errors.append(
                         f"{label}: claim {claim_id} wording must be visibly represented in case body"
+                    )
+                if (
+                    claim_id_visible
+                    and claim_wording_visible
+                    and not claim_occurrences_bound_to_wording(
+                        visible_body, claim_id, claim_text
+                    )
+                ):
+                    errors.append(
+                        f"{label}: claim {claim_id} must bind each visible ID occurrence to its own wording"
                     )
             claim_sources = string_list(claim.get("sources"))
             rich_support_sources = evidence_sources(claim.get("evidence"))

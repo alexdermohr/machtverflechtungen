@@ -2096,6 +2096,43 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
+    def test_each_visible_claim_id_is_bound_to_its_own_wording(self) -> None:
+        first = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        second = (
+            "Die Operation sollte einen RAF-Befreiungsversuch vortäuschen; "
+            "Öffentlichkeit und Strafverfolgungsbehörden wurden über die Urheber "
+            "planmäßig getäuscht."
+        )
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        body = chr(10).join(lines[end + 1 :])
+        self.assertGreaterEqual(body.count(first), 2)
+        self.assertGreaterEqual(body.count(second), 2)
+        body = body.replace(first, "__CLAIM_ONE_WORDING__")
+        body = body.replace(second, first)
+        body = body.replace("__CLAIM_ONE_WORDING__", second)
+        path.write_text(
+            chr(10).join(lines[: end + 1]) + chr(10) + body + chr(10),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must bind each visible ID occurrence to its own wording",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-002 must bind each visible ID occurrence to its own wording",
+            output,
+        )
+
     def test_inline_html_preserves_claim_wording_across_markup(self) -> None:
         claim_text = (
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
@@ -2578,10 +2615,11 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             for line in text.splitlines()
             if (chr(96) + "CLM-DE-CELLER-002" + chr(96) + " — belegt:") in line
         )
+        event_wording = event_line.split(":** ", 1)[1]
         text = text.replace(
             event_line,
             "!!! note \"Sichtbarer Ereignisclaim\"\n"
-            "    CLM-DE-CELLER-002",
+            f"    CLM-DE-CELLER-002 {event_wording}",
             1,
         )
         path.write_text(text, encoding="utf-8")
