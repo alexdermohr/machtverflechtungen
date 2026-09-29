@@ -167,6 +167,19 @@ SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
 MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
 SVG_TEXT_TAGS = frozenset({"text", "textpath", "tspan"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
+SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
+    {
+        "clippath",
+        "defs",
+        "filter",
+        "lineargradient",
+        "marker",
+        "mask",
+        "pattern",
+        "radialgradient",
+        "symbol",
+    }
+)
 PYMDOWN_DETAILS_CLASSES = frozenset(
     {
         "abstract", "attention", "bug", "caution", "check", "cite", "danger",
@@ -333,6 +346,7 @@ class VisibleListLinkParser(HTMLParser):
             "progress",
             "rp",
             "script",
+            "select",
             "style",
             "template",
             "title",
@@ -368,11 +382,27 @@ class VisibleListLinkParser(HTMLParser):
             and bool(class_tokens)
             and class_tokens.issubset(PYMDOWN_DETAILS_CLASSES)
         )
+        safe_admonition_class = (
+            not author_stylesheet_present
+            and (
+                (
+                    tag == "div"
+                    and len(class_tokens) == 2
+                    and "admonition" in class_tokens
+                    and bool(class_tokens & PYMDOWN_DETAILS_CLASSES)
+                )
+                or (
+                    tag == "p"
+                    and class_tokens == {"admonition-title"}
+                )
+            )
+        )
         # CSS-affectable evidence is deliberately fail-closed. Reimplementing
         # the browser cascade here would leave bypasses through escapes,
         # stylesheet selectors, importance, inheritance, or theme rules.
-        # The one allowlisted class path is MkDocs/Pymdown's standard details
-        # rendering when the page itself supplies no stylesheet override.
+        # The allowlisted class paths are MkDocs/Pymdown's standard details
+        # and admonition renderings when the page itself supplies no stylesheet
+        # override.
         return (
             tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
             or "hidden" in lowered
@@ -380,7 +410,11 @@ class VisibleListLinkParser(HTMLParser):
             or "style" in lowered
             or "popover" in lowered
             or (tag == "details" and "name" in lowered)
-            or ("class" in lowered and not safe_pymdown_details_class)
+            or (
+                "class" in lowered
+                and not safe_pymdown_details_class
+                and not safe_admonition_class
+            )
         )
 
     @staticmethod
@@ -450,7 +484,10 @@ class VisibleListLinkParser(HTMLParser):
                 tag, attrs, self._author_stylesheet_present
             )
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
-            or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
+            or (
+                current_foreign_context == "svg"
+                and tag in (SVG_METADATA_TAGS | SVG_NON_RENDERING_CONTAINER_TAGS)
+            )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
         if tag == "dialog" and not self._has_attribute(attrs, "open"):
@@ -615,7 +652,10 @@ class VisibleTextParser(HTMLParser):
                 tag, attrs, self._author_stylesheet_present
             )
             or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
-            or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
+            or (
+                current_foreign_context == "svg"
+                and tag in (SVG_METADATA_TAGS | SVG_NON_RENDERING_CONTAINER_TAGS)
+            )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
         if tag == "dialog" and not self._has_attribute(attrs, "open"):

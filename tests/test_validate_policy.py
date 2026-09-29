@@ -332,6 +332,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_standard_admonition_satisfies_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        visible_source = (
+            "\n!!! note \"Sichtbare Quelle\"\n"
+            f"    - [Quelle]({source_url}) — " + chr(96) + source_id + chr(96) + "\n"
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + visible_source,
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
+
     def test_named_details_group_does_not_satisfy_visible_source_link(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -523,6 +550,27 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         self.assertNotIn("HIDDEN-SVG-TEXT", visible)
         self.assertIn("VISIBLE-SVG-TEXT", visible)
+
+    def test_svg_resource_container_text_does_not_satisfy_text_visibility(self) -> None:
+        containers = (
+            "defs",
+            "symbol",
+            "clipPath",
+            "mask",
+            "pattern",
+            "filter",
+            "marker",
+            "linearGradient",
+            "radialGradient",
+        )
+        for tag in containers:
+            with self.subTest(tag=tag):
+                visible = validate.visible_markdown_text(
+                    f"<svg><{tag}><text>HIDDEN-SVG-RESOURCE</text></{tag}>"
+                    "<text>VISIBLE-SVG-TEXT</text></svg>"
+                )
+                self.assertNotIn("HIDDEN-SVG-RESOURCE", visible)
+                self.assertIn("VISIBLE-SVG-TEXT", visible)
 
     def test_svg_text_after_self_closing_foreign_child_remains_visible(self) -> None:
         visible = validate.visible_markdown_text(
@@ -1981,6 +2029,28 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         code, output = self._run_validator()
         self.assertEqual(0, code, output)
 
+    def test_standard_admonition_satisfies_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + "\n!!! note \"Sichtbarer Claim\"\n"
+            + f"    CLM-DE-CELLER-001 {claim_text}\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
+
     def test_inline_html_preserves_claim_wording_across_markup(self) -> None:
         claim_text = (
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
@@ -2030,6 +2100,16 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
 
         self.assertEqual("Alpha Beta", parser.text())
+
+    def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<select><option selected>SELECTED-LABEL</option>"
+            "<option>HIDDEN-UNSELECTED-OPTION</option></select>"
+            "<p>VISIBLE-OUTSIDE</p>"
+        )
+
+        self.assertNotIn("HIDDEN-UNSELECTED-OPTION", visible)
+        self.assertIn("VISIBLE-OUTSIDE", visible)
 
     def test_named_details_group_does_not_satisfy_claim_visibility(self) -> None:
         claim_text = (
@@ -2398,6 +2478,26 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "event claim CLM-DE-CELLER-002 must appear in Gesicherter Ereigniskern",
             output,
         )
+
+    def test_event_core_accepts_event_claim_in_visible_admonition(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        event_line = next(
+            line
+            for line in text.splitlines()
+            if (chr(96) + "CLM-DE-CELLER-002" + chr(96) + " — belegt:") in line
+        )
+        text = text.replace(
+            event_line,
+            "!!! note \"Sichtbarer Ereignisclaim\"\n"
+            "    CLM-DE-CELLER-002",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
 
     def test_event_core_detects_non_event_claim_in_visible_svg_text(self) -> None:
         path = self._case_path()
