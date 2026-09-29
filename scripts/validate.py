@@ -201,6 +201,19 @@ def foreign_text_visible(elements: list[dict[str, Any]]) -> bool:
             return True
     return False
 
+def foreign_attributes_ineligible(
+    tag: str,
+    attrs: list[tuple[str, str | None]],
+    current_foreign_context: str | None,
+) -> bool:
+    # Rendering visibility for arbitrary SVG/MathML attributes is not
+    # reproducible here. Treat attributed foreign elements as ineligible
+    # visibility evidence; attribute-free text/integration paths remain usable.
+    return bool(attrs) and (
+        tag in FOREIGN_ROOT_TAGS or current_foreign_context is not None
+    )
+
+
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
         {
@@ -221,7 +234,17 @@ class VisibleListLinkParser(HTMLParser):
         }
     )
     ALWAYS_HIDDEN_TAGS = frozenset(
-        {"canvas", "head", "iframe", "object", "script", "style", "template"}
+        {
+            "audio",
+            "canvas",
+            "head",
+            "iframe",
+            "object",
+            "script",
+            "style",
+            "template",
+            "video",
+        }
     )
 
     def __init__(self, embedded_stylesheet_present: bool = False) -> None:
@@ -319,6 +342,7 @@ class VisibleListLinkParser(HTMLParser):
             or self._declares_hidden(
                 tag, attrs, self._embedded_stylesheet_present
             )
+            or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
@@ -469,6 +493,7 @@ class VisibleTextParser(HTMLParser):
             or VisibleListLinkParser._declares_hidden(
                 tag, attrs, self._embedded_stylesheet_present
             )
+            or foreign_attributes_ineligible(tag, attrs, current_foreign_context)
             or (current_foreign_context == "svg" and tag in SVG_METADATA_TAGS)
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
