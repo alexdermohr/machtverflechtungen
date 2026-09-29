@@ -321,6 +321,17 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_visible_list_link_parser_implicit_li_does_not_cross_special_table_scope(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li hidden>outer<table><tr><td>'
+            '<li>SRC-A <a href="https://example.invalid/a">A</a></li>'
+            '</td></tr></table></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual([], parser.visible_items)
+
     def test_claim_source_must_also_appear_in_case_sources(self) -> None:
         self._mutate_first_claim(sources=["SRC-DE-BT-04644-1953"])
 
@@ -2445,6 +2456,84 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             f"<table><tr hidden><td>outer<table><tr><td>{claim_id} {claim_text}</td></tr></table></td></tr></table>"
         )
 
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_accepts_wording_across_implicitly_closed_table_cells(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for cell_tag in ("td", "th"):
+            with self.subTest(cell_tag=cell_tag):
+                visible = validate.visible_markdown_claim_binding_text(
+                    f"<table><tr><{cell_tag}>{claim_id}"
+                    f"<{cell_tag}>{claim_text}</tr></table>"
+                )
+                self.assertTrue(
+                    validate.claim_occurrences_bound_to_wording(
+                        visible, claim_id, claim_text
+                    )
+                )
+
+    def test_claim_binding_implicit_button_does_not_cross_scope_boundary(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<button hidden>outer<table><tr><td>"
+            f"<button>{claim_id} {claim_text}</button>"
+            f"</td></tr></table></button>"
+        )
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_paragraph_does_not_cross_button_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<p hidden>outer<button>inside<ul>"
+            f"<li>{claim_id} {claim_text}</li>"
+            f"</ul></button></p>"
+        )
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_li_does_not_cross_special_table_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<ul><li hidden>outer<table><tr><td>"
+            f"<li>{claim_id} {claim_text}</li>"
+            f"</td></tr></table></li></ul>"
+        )
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_implicit_dt_does_not_cross_special_table_scope(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            f"<dl><dt hidden>outer<table><tr><td>"
+            f"<dt>{claim_id} {claim_text}</dt>"
+            f"</td></tr></table></dt></dl>"
+        )
         self.assertFalse(
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
         )

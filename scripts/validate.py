@@ -314,13 +314,127 @@ CLAIM_IMPLICIT_CLOSE_GROUPS = {
     "th": frozenset({"td", "th"}),
     "button": frozenset({"button"}),
 }
+
+# HTML tree-building algorithms use different backward-scan scopes for
+# implicit closes. Keep only the element categories needed by the concrete
+# recovery paths below instead of treating every open ancestor as closable.
+HTML_SCOPE_BOUNDARY_TAGS = frozenset(
+    {
+        "applet",
+        "caption",
+        "html",
+        "marquee",
+        "object",
+        "select",
+        "table",
+        "td",
+        "template",
+        "th",
+    }
+)
+HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"})
+HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
+HTML_SPECIAL_TAGS = frozenset(
+    {
+        "address",
+        "applet",
+        "area",
+        "article",
+        "aside",
+        "base",
+        "basefont",
+        "bgsound",
+        "blockquote",
+        "body",
+        "br",
+        "button",
+        "caption",
+        "center",
+        "col",
+        "colgroup",
+        "dd",
+        "details",
+        "dir",
+        "div",
+        "dl",
+        "dt",
+        "embed",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "frame",
+        "frameset",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "head",
+        "header",
+        "hgroup",
+        "hr",
+        "html",
+        "iframe",
+        "img",
+        "input",
+        "keygen",
+        "li",
+        "link",
+        "listing",
+        "main",
+        "marquee",
+        "menu",
+        "meta",
+        "nav",
+        "noembed",
+        "noframes",
+        "noscript",
+        "object",
+        "ol",
+        "p",
+        "param",
+        "plaintext",
+        "pre",
+        "script",
+        "search",
+        "section",
+        "select",
+        "source",
+        "style",
+        "summary",
+        "table",
+        "tbody",
+        "td",
+        "template",
+        "textarea",
+        "tfoot",
+        "th",
+        "thead",
+        "title",
+        "tr",
+        "track",
+        "ul",
+        "wbr",
+        "xmp",
+    }
+)
+LI_IMPLICIT_SCOPE_BOUNDARIES = HTML_SPECIAL_TAGS - frozenset(
+    {"address", "div", "p", "li"}
+)
+DESCRIPTION_IMPLICIT_SCOPE_BOUNDARIES = HTML_SPECIAL_TAGS - frozenset(
+    {"address", "div", "p", "dt", "dd"}
+)
 CLAIM_IMPLICIT_SCOPE_BOUNDARIES = {
-    "li": frozenset({"ul", "ol", "menu"}),
-    "dt": frozenset({"dl"}),
-    "dd": frozenset({"dl"}),
-    "tr": frozenset({"table"}),
-    "td": frozenset({"table"}),
-    "th": frozenset({"table"}),
+    "li": LI_IMPLICIT_SCOPE_BOUNDARIES,
+    "dt": DESCRIPTION_IMPLICIT_SCOPE_BOUNDARIES,
+    "dd": DESCRIPTION_IMPLICIT_SCOPE_BOUNDARIES,
+    "tr": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "td": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "th": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "button": HTML_SCOPE_BOUNDARY_TAGS,
 }
 
 
@@ -576,11 +690,16 @@ class VisibleListLinkParser(HTMLParser):
             self._anchors[-1]["text"].append(" ")
 
     def _current_list_item_open(self) -> bool:
+        foreign_boundaries = (
+            FOREIGN_ROOT_TAGS
+            | SVG_HTML_INTEGRATION_TAGS
+            | MATHML_TEXT_INTEGRATION_TAGS
+        )
         for element in reversed(self._elements):
             tag = element.get("tag")
             if tag == "li":
                 return True
-            if tag in {"ul", "ol", "menu"}:
+            if tag in LI_IMPLICIT_SCOPE_BOUNDARIES or tag in foreign_boundaries:
                 return False
         return False
 
@@ -789,36 +908,41 @@ class VisibleTextParser(HTMLParser):
         wanted = name.casefold()
         return any(attr_name.casefold() == wanted for attr_name, _value in attrs)
 
-    def _close_implicit_record(self, tag: str) -> None:
-        close_tags: frozenset[str] | None = None
-        if tag in P_IMPLICIT_END_START_TAGS:
-            close_tags = frozenset({"p"})
-        if tag in CLAIM_IMPLICIT_CLOSE_GROUPS:
-            close_tags = (
-                CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
-                if close_tags is None
-                else close_tags | CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
-            )
-        if not close_tags:
-            return
-        context_floor = 0
+    def _close_implicit_group(
+        self,
+        close_tags: frozenset[str],
+        scope_boundaries: frozenset[str],
+    ) -> None:
         integration_boundaries = (
             FOREIGN_ROOT_TAGS
             | SVG_HTML_INTEGRATION_TAGS
             | MATHML_TEXT_INTEGRATION_TAGS
         )
-        scope_boundaries = CLAIM_IMPLICIT_SCOPE_BOUNDARIES.get(tag, frozenset())
         for index in range(len(self._elements) - 1, -1, -1):
             element_tag = self._elements[index].get("tag")
             if element_tag in integration_boundaries or element_tag in scope_boundaries:
-                context_floor = index + 1
-                break
-        for index in range(len(self._elements) - 1, context_floor - 1, -1):
-            if self._elements[index].get("tag") in close_tags:
-                if self._text_visible():
+                return
+            if element_tag in close_tags:
+                if (
+                    element_tag in CLAIM_RECORD_END_BOUNDARY_TAGS
+                    and self._text_visible()
+                ):
                     self._append_claim_binding_boundary()
                 del self._elements[index:]
                 return
+
+    def _close_implicit_record(self, tag: str) -> None:
+        close_tags = CLAIM_IMPLICIT_CLOSE_GROUPS.get(tag)
+        if close_tags:
+            self._close_implicit_group(
+                close_tags,
+                CLAIM_IMPLICIT_SCOPE_BOUNDARIES.get(tag, frozenset()),
+            )
+        if tag in P_IMPLICIT_END_START_TAGS:
+            self._close_implicit_group(
+                frozenset({"p"}),
+                HTML_BUTTON_SCOPE_BOUNDARY_TAGS,
+            )
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
