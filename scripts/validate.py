@@ -782,7 +782,6 @@ class VisibleSectionTextParser(VisibleTextParser):
         self._in_h2 = False
         self._h2_text: list[str] = []
         self._h2_visible = False
-        self._target_seen = False
         self._capture = False
         self._capture_before_h2 = False
         self._section_text: list[str] = []
@@ -814,12 +813,7 @@ class VisibleSectionTextParser(VisibleTextParser):
         tag = tag.casefold()
         if tag == "h2" and self._in_h2:
             heading_text = " ".join("".join(self._h2_text).split())
-            is_target = (
-                not self._target_seen
-                and heading_text == self._wanted_heading
-            )
-            if is_target:
-                self._target_seen = True
+            is_target = heading_text == self._wanted_heading
             capture_after_heading = (
                 is_target
                 if self._h2_visible

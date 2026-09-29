@@ -2730,6 +2730,27 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_event_core_checks_second_visible_matching_section(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        text = text.replace(
+            "\n## Rekonstruktion",
+            "\n## Rekonstruktion\n\nZwischentext.\n\n"
+            "## Gesicherter Ereigniskern\n\n"
+            "- CLM-DE-CELLER-NON-EVENT\n\n"
+            "## Fortsetzung",
+            1,
+        )
+        path.write_text(text, encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "Gesicherter Ereigniskern includes non-event claim CLM-DE-CELLER-NON-EVENT",
+            output,
+        )
+
     def test_event_core_accepts_event_claim_in_visible_admonition(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
