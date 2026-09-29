@@ -2332,6 +2332,39 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
         )
 
+    def test_claim_binding_accepts_wording_across_cells_in_same_table_row(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            "| Claim | Aussage |\n"
+            "| --- | --- |\n"
+            f"| {claim_id} | {claim_text} |"
+        )
+
+        self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
+    def test_claim_binding_stops_between_table_rows(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        visible = validate.visible_markdown_claim_binding_text(
+            "| Claim | Aussage |\n"
+            "| --- | --- |\n"
+            f"| {claim_id} | ohne Wortlaut |\n"
+            f"| anderer Claim | {claim_text} |"
+        )
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
     def test_claim_heading_binds_wording_within_same_section(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
