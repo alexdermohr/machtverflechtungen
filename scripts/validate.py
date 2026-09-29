@@ -273,6 +273,48 @@ def foreign_attributes_ineligible(
 CLAIM_BINDING_BOUNDARY = "\x00"
 CLAIM_SECTION_BOUNDARY_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 CLAIM_RECORD_START_BOUNDARY_TAGS = frozenset({"li", "tr"})
+P_IMPLICIT_END_START_TAGS = frozenset(
+    {
+        "address",
+        "article",
+        "aside",
+        "blockquote",
+        "div",
+        "dl",
+        "fieldset",
+        "footer",
+        "form",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "header",
+        "hgroup",
+        "hr",
+        "main",
+        "menu",
+        "nav",
+        "ol",
+        "p",
+        "pre",
+        "search",
+        "section",
+        "table",
+        "ul",
+    }
+)
+CLAIM_IMPLICIT_CLOSE_GROUPS = {
+    "li": frozenset({"li"}),
+    "dt": frozenset({"dt", "dd"}),
+    "dd": frozenset({"dt", "dd"}),
+    "tr": frozenset({"tr"}),
+    "td": frozenset({"td", "th"}),
+    "th": frozenset({"td", "th"}),
+}
+
+
 CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
     {
         "address",
@@ -695,10 +737,40 @@ class VisibleTextParser(HTMLParser):
         wanted = name.casefold()
         return any(attr_name.casefold() == wanted for attr_name, _value in attrs)
 
+    def _close_implicit_record(self, tag: str) -> None:
+        close_tags: frozenset[str] | None = None
+        if tag in P_IMPLICIT_END_START_TAGS:
+            close_tags = frozenset({"p"})
+        if tag in CLAIM_IMPLICIT_CLOSE_GROUPS:
+            close_tags = (
+                CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
+                if close_tags is None
+                else close_tags | CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
+            )
+        if not close_tags:
+            return
+        context_floor = 0
+        integration_boundaries = (
+            FOREIGN_ROOT_TAGS
+            | SVG_HTML_INTEGRATION_TAGS
+            | MATHML_TEXT_INTEGRATION_TAGS
+        )
+        for index in range(len(self._elements) - 1, -1, -1):
+            if self._elements[index].get("tag") in integration_boundaries:
+                context_floor = index + 1
+                break
+        for index in range(len(self._elements) - 1, context_floor - 1, -1):
+            if self._elements[index].get("tag") in close_tags:
+                if self._text_visible():
+                    self._append_claim_binding_boundary()
+                del self._elements[index:]
+                return
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        self._close_implicit_record(tag)
         boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
         summary_for_closed_details = (
@@ -900,12 +972,15 @@ def visible_claim_segments(text: str) -> list[tuple[str, str]]:
         re.finditer(r"(?<![\w-])CLM-[A-Z0-9-]+(?![\w-])", text)
     )
     segments: list[tuple[str, str]] = []
-    for index, match in enumerate(matches):
-        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-        boundary = text.find(CLAIM_BINDING_BOUNDARY, match.end(), end)
-        if boundary != -1:
-            end = boundary
-        segments.append((match.group(), text[match.end() : end]))
+    for match in matches:
+        start_boundary = text.rfind(
+            CLAIM_BINDING_BOUNDARY, 0, match.start()
+        )
+        start = 0 if start_boundary == -1 else start_boundary + 1
+        end = text.find(CLAIM_BINDING_BOUNDARY, match.end())
+        if end == -1:
+            end = len(text)
+        segments.append((match.group(), text[start:end]))
     return segments
 
 
