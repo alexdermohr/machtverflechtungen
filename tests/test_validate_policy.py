@@ -696,6 +696,26 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         self.assertIn("VISIBLE-MATH-TEXT", visible)
 
+    def test_mathml_mphantom_does_not_satisfy_text_visibility(self) -> None:
+        visible = validate.visible_markdown_text(
+            "<math><mphantom><mtext>HIDDEN-MATH-TEXT</mtext></mphantom>"
+            "<mtext>VISIBLE-MATH-TEXT</mtext></math>"
+        )
+
+        self.assertNotIn("HIDDEN-MATH-TEXT", visible)
+        self.assertIn("VISIBLE-MATH-TEXT", visible)
+
+    def test_mathml_mphantom_does_not_satisfy_visible_source_link(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<math><mphantom><mtext><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a>'
+            '</li></ul></mtext></mphantom></math>'
+        )
+        parser.close()
+
+        self.assertEqual([], parser.visible_items)
+
     def test_svg_foreign_object_is_not_visibility_evidence(self) -> None:
         visible = validate.visible_markdown_text(
             '<svg><foreignObject><p>HIDDEN-HTML</p></foreignObject></svg>'

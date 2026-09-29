@@ -165,6 +165,7 @@ def render_site_markdown(value: str) -> str:
 FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
 SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
 MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
+MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"mphantom"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
 SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
     {
@@ -765,6 +766,10 @@ class VisibleListLinkParser(HTMLParser):
                 current_foreign_context == "svg"
                 and tag in SVG_INELIGIBLE_SUBTREE_TAGS
             )
+            or (
+                current_foreign_context == "math"
+                and tag in MATHML_INELIGIBLE_SUBTREE_TAGS
+            )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
         if tag == "dialog" and not self._has_attribute(attrs, "open"):
@@ -968,6 +973,10 @@ class VisibleTextParser(HTMLParser):
             or (
                 current_foreign_context == "svg"
                 and tag in SVG_INELIGIBLE_SUBTREE_TAGS
+            )
+            or (
+                current_foreign_context == "math"
+                and tag in MATHML_INELIGIBLE_SUBTREE_TAGS
             )
         )
         closed = tag == "details" and not self._has_attribute(attrs, "open")
