@@ -332,6 +332,7 @@ class VisibleListLinkParser(HTMLParser):
             or lowered.get("aria-hidden") == "true"
             or "style" in lowered
             or "popover" in lowered
+            or (tag == "details" and "name" in lowered)
             or ("class" in lowered and not safe_pymdown_details_class)
         )
 
@@ -483,6 +484,51 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 
 class VisibleTextParser(HTMLParser):
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
+    TEXT_BOUNDARY_TAGS = frozenset(
+        {
+            "address",
+            "article",
+            "aside",
+            "blockquote",
+            "br",
+            "dd",
+            "details",
+            "dialog",
+            "div",
+            "dl",
+            "dt",
+            "fieldset",
+            "figcaption",
+            "figure",
+            "footer",
+            "form",
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "header",
+            "hgroup",
+            "hr",
+            "li",
+            "main",
+            "nav",
+            "ol",
+            "p",
+            "pre",
+            "section",
+            "summary",
+            "table",
+            "tbody",
+            "td",
+            "tfoot",
+            "th",
+            "thead",
+            "tr",
+            "ul",
+        }
+    )
 
     def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
@@ -564,6 +610,8 @@ class VisibleTextParser(HTMLParser):
                     "summary_for_closed_details": summary_for_closed_details,
                 }
             )
+        if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
+            self._append_text(" ")
 
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
@@ -578,15 +626,21 @@ class VisibleTextParser(HTMLParser):
             return
         self.handle_starttag(tag, attrs)
 
+    def _append_text(self, data: str) -> None:
+        self._text.append(data)
+
     def handle_data(self, data: str) -> None:
         if self._text_visible():
-            self._text.append(data)
+            self._append_text(data)
 
     def handle_endtag(self, tag: str) -> None:
-        self._close_element(tag.casefold())
+        tag = tag.casefold()
+        if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
+            self._append_text(" ")
+        self._close_element(tag)
 
     def text(self) -> str:
-        return " ".join(" ".join(self._text).split())
+        return " ".join("".join(self._text).split())
 
 
 def visible_markdown_text(value: str) -> str:
@@ -624,12 +678,11 @@ class VisibleSectionTextParser(VisibleTextParser):
         if tag == "h2":
             self._h2_visible = self._text_visible()
 
-    def handle_data(self, data: str) -> None:
+    def _append_text(self, data: str) -> None:
         if self._in_h2:
-            if self._text_visible():
-                self._h2_text.append(data)
+            self._h2_text.append(data)
             return
-        if self._capture and self._text_visible():
+        if self._capture:
             self._section_text.append(data)
 
     def handle_endtag(self, tag: str) -> None:
@@ -652,7 +705,7 @@ class VisibleSectionTextParser(VisibleTextParser):
         super().handle_endtag(tag)
 
     def text(self) -> str:
-        return " ".join(" ".join(self._section_text).split())
+        return " ".join("".join(self._section_text).split())
 
 
 def rendered_visible_text(path: Path) -> str:
@@ -738,6 +791,7 @@ def established_claim_supports(
         if (
             isinstance(source_id, str)
             and source_id in source_by_id
+            and isinstance(directness, str)
             and directness in {"direct", "indirect"}
         ):
             resolved.append((source_by_id[source_id], directness))

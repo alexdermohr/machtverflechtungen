@@ -332,6 +332,40 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_named_details_group_does_not_satisfy_visible_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        grouped_source = (
+            '\n<details name="evidence" open><summary>Erste Quelle</summary><ul><li>'
+            f'<a href="{source_url}">Quelle</a> {source_id}'
+            '</li></ul></details>\n'
+            '<details name="evidence" open><summary>Zweite Quelle</summary>'
+            'Andere sichtbare Gruppe</details>\n'
+        )
+        path.write_text(
+            text.replace(source_line, "- Quelle im sichtbaren Text entfernt", 1)
+            + grouped_source,
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
     def test_css_newline_hidden_source_link_does_not_satisfy_visibility(self) -> None:
         path = self._case_path()
         text = path.read_text(encoding="utf-8")
@@ -1192,6 +1226,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_schema_invalid_directness_is_reported_without_crashing(self) -> None:
+        self._mutate_first_claim(
+            evidence=[
+                {
+                    "source": "SRC-DE-NI-MJ-CELLER-2015",
+                    "directness": [],
+                    "note": "Diese absichtlich falsche Form muss als Schemafehler gemeldet werden.",
+                }
+            ]
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn("is not one of", output)
+
     def test_established_claim_accepts_two_independent_high_quality_sources(self) -> None:
         source_id = self._add_test_source(
             "SRC-TEST-TIER-C-INDEPENDENT",
@@ -1897,6 +1947,71 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         code, output = self._run_validator()
         self.assertEqual(0, code, output)
+
+    def test_inline_html_preserves_claim_wording_across_markup(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        formatted_claim = claim_text.replace(
+            "Verfassungsschutz",
+            "Verfassungs<b>schutz</b>",
+            1,
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + f"\n<p>CLM-DE-CELLER-001 {formatted_claim}</p>\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
+
+    def test_visible_text_parser_preserves_block_boundary(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("<p>Alpha</p><p>Beta</p>")
+        parser.close()
+
+        self.assertEqual("Alpha Beta", parser.text())
+
+    def test_named_details_group_does_not_satisfy_claim_visibility(self) -> None:
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        self._replace_case_body_text("CLM-DE-CELLER-001", "CLM-DE-CELLER-HIDDEN")
+        self._replace_case_body_text(
+            claim_text,
+            "Die sichtbare Fassung wurde absichtlich verändert.",
+        )
+        path = self._case_path()
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + "\n<details name=\"claims\" open><summary>Erster Claim</summary>\n"
+            + f"CLM-DE-CELLER-001 {claim_text}\n</details>\n"
+            + '<details name="claims" open><summary>Zweiter Claim</summary>'
+            + "Andere sichtbare Gruppe</details>\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 must be visibly represented by ID in case body",
+            output,
+        )
+        self.assertIn(
+            "claim CLM-DE-CELLER-001 wording must be visibly represented in case body",
+            output,
+        )
 
     def test_stylesheet_can_not_hide_open_pymdown_details_evidence(self) -> None:
         claim_text = (
