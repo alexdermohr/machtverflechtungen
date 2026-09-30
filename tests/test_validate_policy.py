@@ -345,6 +345,22 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual([], parser.visible_items)
 
+    def test_inert_ancestor_keeps_source_text_but_not_clickable_link(self) -> None:
+        samples = (
+            '<div inert><ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul></div>',
+            '<ul><li>SRC-A <a inert href="https://example.invalid/a">A</a></li></ul>',
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(markup)
+                parser.close()
+
+                self.assertEqual(
+                    [("SRC-A A", [])],
+                    parser.visible_items,
+                )
+
     def test_claim_source_must_also_appear_in_case_sources(self) -> None:
         self._mutate_first_claim(sources=["SRC-DE-BT-04644-1953"])
 
@@ -728,6 +744,31 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
 
         self.assertEqual([], parser.visible_items)
+
+    def test_mathml_annotation_metadata_does_not_satisfy_text_visibility(self) -> None:
+        for tag in ("annotation", "annotation-xml"):
+            with self.subTest(tag=tag):
+                visible = validate.visible_markdown_text(
+                    f"<math><semantics><mrow><mtext>VISIBLE-MATH-TEXT</mtext></mrow>"
+                    f"<{tag}><mtext>HIDDEN-MATH-METADATA</mtext></{tag}>"
+                    "</semantics></math>"
+                )
+
+                self.assertNotIn("HIDDEN-MATH-METADATA", visible)
+                self.assertIn("VISIBLE-MATH-TEXT", visible)
+
+    def test_mathml_annotation_metadata_does_not_satisfy_visible_source_link(self) -> None:
+        for tag in ("annotation", "annotation-xml"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    f"<math><semantics><{tag}><mtext><ul><li>SRC-A "
+                    '<a href="https://example.invalid/a">A</a>'
+                    f"</li></ul></mtext></{tag}></semantics></math>"
+                )
+                parser.close()
+
+                self.assertEqual([], parser.visible_items)
 
     def test_svg_foreign_object_is_not_visibility_evidence(self) -> None:
         visible = validate.visible_markdown_text(
@@ -2448,6 +2489,27 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 self.assertFalse(
                     validate.claim_occurrences_bound_to_wording(
                         visible, claim_id, claim_text
+                    )
+                )
+
+    def test_claim_binding_stops_at_legacy_block_container_boundary(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for tag in ("center", "dir", "search"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<span>{claim_id} ohne Wortlaut </span>"
+                    f"<{tag}>{claim_text}</{tag}>"
+                )
+                parser.close()
+
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
                     )
                 )
 

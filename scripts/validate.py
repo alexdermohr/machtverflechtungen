@@ -165,7 +165,7 @@ def render_site_markdown(value: str) -> str:
 FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
 SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
 MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
-MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"mphantom"})
+MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"annotation", "annotation-xml", "mphantom"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
 SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
     {
@@ -435,9 +435,11 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "aside",
         "blockquote",
         "button",
+        "center",
         "dd",
         "details",
         "dialog",
+        "dir",
         "div",
         "dl",
         "dt",
@@ -455,6 +457,7 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "ol",
         "p",
         "pre",
+        "search",
         "section",
         "summary",
         "svg",
@@ -482,9 +485,11 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "br",
         "button",
         "canvas",
+        "center",
         "dd",
         "details",
         "dialog",
+        "dir",
         "div",
         "dl",
         "dt",
@@ -516,6 +521,7 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "p",
         "progress",
         "pre",
+        "search",
         "section",
         "select",
         "summary",
@@ -649,6 +655,9 @@ class VisibleListLinkParser(HTMLParser):
     def _regular_hidden(self) -> bool:
         return bool(self._elements and self._elements[-1]["hidden"])
 
+    def _current_inert(self) -> bool:
+        return any(element.get("inert") is True for element in self._elements)
+
     def _text_visible(self) -> bool:
         return (
             not self._author_stylesheet_present
@@ -705,6 +714,7 @@ class VisibleListLinkParser(HTMLParser):
         if (
             self._items
             and anchor.get("hidden") is not True
+            and anchor.get("inert") is not True
             and isinstance(href, str)
         ):
             self._items[-1]["links"].append((href, visible_anchor_text))
@@ -792,6 +802,7 @@ class VisibleListLinkParser(HTMLParser):
                 {
                     "tag": tag,
                     "hidden": hidden,
+                    "inert": self._has_attribute(attrs, "inert"),
                     "closed": closed,
                     "summary_seen": False if tag == "details" else None,
                     "summary_for_closed_details": summary_for_closed_details,
@@ -799,6 +810,7 @@ class VisibleListLinkParser(HTMLParser):
             )
 
         effective_hidden = not self._text_visible()
+        effective_inert = self._current_inert()
         if tag == "li":
             self._items.append(
                 {"text": [], "links": [], "hidden": effective_hidden}
@@ -814,6 +826,7 @@ class VisibleListLinkParser(HTMLParser):
                     "href": href if isinstance(href, str) else None,
                     "text": [],
                     "hidden": effective_hidden,
+                    "inert": effective_inert,
                     "item_depth": len(self._items),
                 }
             )
