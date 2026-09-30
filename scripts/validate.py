@@ -311,6 +311,9 @@ CLAIM_IMPLICIT_CLOSE_GROUPS = {
     "tr": frozenset({"tr"}),
     "td": frozenset({"td", "th"}),
     "th": frozenset({"td", "th"}),
+    "tbody": frozenset({"tbody", "thead", "tfoot"}),
+    "thead": frozenset({"tbody", "thead", "tfoot"}),
+    "tfoot": frozenset({"tbody", "thead", "tfoot"}),
     "button": frozenset({"button"}),
 }
 
@@ -433,6 +436,9 @@ CLAIM_IMPLICIT_SCOPE_BOUNDARIES = {
     "tr": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
     "td": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
     "th": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "tbody": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "thead": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
+    "tfoot": HTML_TABLE_SCOPE_BOUNDARY_TAGS,
     "button": HTML_SCOPE_BOUNDARY_TAGS,
 }
 
@@ -691,15 +697,28 @@ class VisibleListLinkParser(HTMLParser):
             tag == "input" and lowered.get("type") == "hidden"
         ):
             return False
-        boundary_attrs = (
-            [
-                (name, value)
-                for name, value in attrs
-                if name.casefold() != "name"
-            ]
-            if tag == "details"
-            else attrs
-        )
+        style_value = lowered.get("style")
+        if isinstance(style_value, str) and "display:none" in re.sub(
+            r"\s+", "", style_value
+        ):
+            return False
+        class_value = lowered.get("class")
+        if (
+            isinstance(class_value, str)
+            and "visually-hidden" in class_value.split()
+        ):
+            return False
+        # CSS-affectable descendants remain ineligible visibility evidence,
+        # but an ambiguous styled/classed element must conservatively keep
+        # rendered records separated rather than silently merging them.
+        ignored_boundary_attrs = {"style", "class"}
+        if tag == "details":
+            ignored_boundary_attrs.add("name")
+        boundary_attrs = [
+            (name, value)
+            for name, value in attrs
+            if name.casefold() not in ignored_boundary_attrs
+        ]
         if VisibleListLinkParser._declares_hidden(
             tag,
             boundary_attrs,
@@ -834,7 +853,7 @@ class VisibleListLinkParser(HTMLParser):
                 return
 
     def _close_implicit_container(self, tag: str) -> None:
-        if tag not in {"button", "dt", "dd", "tr", "td", "th"}:
+        if tag not in {"button", "dt", "dd", "tr", "td", "th", "tbody", "thead", "tfoot"}:
             return
         close_tags = CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
         scope_boundaries = CLAIM_IMPLICIT_SCOPE_BOUNDARIES[tag]

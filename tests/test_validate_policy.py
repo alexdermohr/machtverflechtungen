@@ -422,6 +422,30 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                     parser.visible_items,
                 )
 
+    def test_visible_list_link_parser_honors_implicit_table_section_end(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tbody hidden><tr><td>old</td></tr>'
+            '<tbody><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_implicit_table_section_close_does_not_cross_nested_table_scope(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tbody hidden><tr><td><table><tbody><tr><td>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></tbody></table></td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_implicit_cell_does_not_cross_nested_table_scope(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -2877,6 +2901,24 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser = validate.VisibleTextParser()
         parser.feed(
             f"<h3>{claim_id}</h3><svg/><p>{claim_text}</p>"
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_styled_rendered_separator_stops_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<span>{claim_id} </span><hr style="color:red">'
+            f'<span> {claim_text}</span>'
         )
         parser.close()
         self.assertFalse(
