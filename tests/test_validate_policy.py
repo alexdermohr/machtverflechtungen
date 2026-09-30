@@ -530,6 +530,53 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_explicit_table_end_tag_scope_target_respects_nested_table(self) -> None:
+        positive = {
+            "tr": ["table", "tbody", "tr", "td"],
+            "td": ["table", "tbody", "tr", "td", "span"],
+            "tbody": ["table", "tbody", "tr", "td"],
+        }
+        for tag, tags in positive.items():
+            with self.subTest(tag=tag, mode="in-scope"):
+                elements = [{"tag": item} for item in tags]
+                self.assertEqual(
+                    tag,
+                    validate.explicit_end_tag_scope_target(elements, tag),
+                )
+        for tag, tags in positive.items():
+            with self.subTest(tag=tag, mode="nested-table-blocks"):
+                elements = [{"tag": item} for item in [*tags, "table"]]
+                self.assertIsNone(
+                    validate.explicit_end_tag_scope_target(elements, tag)
+                )
+
+    def test_explicit_tr_end_does_not_cross_nested_table_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr hidden><td><table></tr></table>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_explicit_td_end_does_not_cross_nested_table_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr><td hidden><table></td></table>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_explicit_tbody_end_does_not_cross_nested_table_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tbody hidden><tr><td><table></tbody></table>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_foreign_content_html_breakout_restores_visible_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3145,6 +3192,31 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.feed('<h1 hidden><span></h1><span>VISIBLE</span>')
         parser.close()
         self.assertEqual("VISIBLE", parser.text())
+
+    def test_explicit_tr_end_does_not_cross_nested_table_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><tr hidden><td><table></tr></table><span>VISIBLE</span>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_explicit_td_end_does_not_cross_nested_table_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><tr><td hidden><table></td></table><span>VISIBLE</span>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_explicit_tbody_end_does_not_cross_nested_table_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><tbody hidden><tr><td><table></tbody></table>'
+            '<span>VISIBLE</span>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
 
     def test_styled_rendered_separator_stops_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

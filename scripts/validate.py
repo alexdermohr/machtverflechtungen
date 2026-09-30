@@ -370,6 +370,9 @@ HTML_SCOPE_BOUNDARY_TAGS = frozenset(
 HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"})
 HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"ol", "ul"})
 HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
+HTML_TABLE_SCOPE_EXPLICIT_END_TAGS = frozenset(
+    {"tbody", "td", "tfoot", "th", "thead", "tr"}
+)
 HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS = CLAIM_SECTION_BOUNDARY_TAGS | frozenset(
     {
         "address",
@@ -413,7 +416,10 @@ HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS = CLAIM_SECTION_BOUNDARY_TAGS | frozenset(
 def explicit_end_tag_scope_target(
     elements: list[dict[str, Any]], tag: str
 ) -> str | None:
-    if tag == "li":
+    if tag in HTML_TABLE_SCOPE_EXPLICIT_END_TAGS:
+        scope_boundaries = HTML_TABLE_SCOPE_BOUNDARY_TAGS
+        target_tags = frozenset({tag})
+    elif tag == "li":
         scope_boundaries = HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS
         target_tags = frozenset({"li"})
     elif tag == "p":
