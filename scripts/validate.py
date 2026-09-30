@@ -834,7 +834,7 @@ class VisibleListLinkParser(HTMLParser):
                 return
 
     def _close_implicit_container(self, tag: str) -> None:
-        if tag not in {"dt", "dd", "tr", "td", "th"}:
+        if tag not in {"button", "dt", "dd", "tr", "td", "th"}:
             return
         close_tags = CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
         scope_boundaries = CLAIM_IMPLICIT_SCOPE_BOUNDARIES[tag]
@@ -851,6 +851,12 @@ class VisibleListLinkParser(HTMLParser):
             ):
                 return
             if element_tag in close_tags:
+                removed_list_items = sum(
+                    element.get("tag") == "li"
+                    for element in self._elements[index:]
+                )
+                for _ in range(removed_list_items):
+                    self._finalize_current_item()
                 del self._elements[index:]
                 return
 

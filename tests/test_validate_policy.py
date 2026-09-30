@@ -406,6 +406,11 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 '<dl><dd hidden>old<dd><ul><li>SRC-A '
                 '<a href="https://example.invalid/a">A</a></li></ul></dd></dl>',
             ),
+            (
+                "button",
+                '<button hidden>old<button><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a></li></ul></button>',
+            ),
         )
         for tag, markup in samples:
             with self.subTest(tag=tag):
@@ -436,6 +441,52 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertEqual([], parser.visible_items)
+
+    def test_visible_list_link_parser_implicit_container_finalizes_open_item(self) -> None:
+        samples = (
+            (
+                "tr",
+                '<table><tr><td><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a>'
+                '<tr><td>next</td></tr></table>',
+            ),
+            (
+                "td",
+                '<table><tr><td><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a>'
+                '<td>next</td></tr></table>',
+            ),
+            (
+                "th",
+                '<table><tr><th><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a>'
+                '<th>next</th></tr></table>',
+            ),
+            (
+                "button",
+                '<button><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a>'
+                '<button>next</button>',
+            ),
+        )
+        for tag, markup in samples:
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(markup)
+                parser.close()
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
+    def test_implicit_container_close_does_not_lend_later_anchor_to_source_item(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr><td><ul><li>SRC-A<td>next</td></tr></table>'
+            '<a href="https://example.invalid/a">Outside</a></li>'
+        )
+        parser.close()
+        self.assertEqual([("SRC-A", [])], parser.visible_items)
 
     def test_hidden_or_nonrendered_element_does_not_split_visible_source_id(self) -> None:
         hidden_or_nonrendered = (
