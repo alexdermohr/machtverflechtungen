@@ -577,6 +577,59 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_generic_end_tag_stops_at_html_special_element_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<span hidden><div></span><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_generic_end_tag_closes_through_phrasing_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<span hidden><em></span><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_form_end_preserves_open_hidden_descendant_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<form><div hidden></form><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_form_end_closes_empty_form_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<form hidden></form><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_visible_list_link_parser_finalizes_open_anchor_and_item_at_eof(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>SRC-A <a href="https://example.invalid/a">Quelle'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A Quelle", [("https://example.invalid/a", "Quelle")])],
+            parser.visible_items,
+        )
+
     def test_foreign_content_html_breakout_restores_visible_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3217,6 +3270,30 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertEqual("", parser.text())
+
+    def test_generic_end_tag_stops_at_html_special_element_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<span hidden><div></span><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_generic_end_tag_closes_through_phrasing_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<span hidden><em></span><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_form_end_preserves_open_hidden_descendant_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<form><div hidden></form><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_form_end_closes_empty_form_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<form hidden></form><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
 
     def test_styled_rendered_separator_stops_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

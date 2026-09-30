@@ -393,7 +393,6 @@ HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS = CLAIM_SECTION_BOUNDARY_TAGS | frozenset(
         "figcaption",
         "figure",
         "footer",
-        "form",
         "header",
         "hgroup",
         "listing",
@@ -433,13 +432,29 @@ def explicit_end_tag_scope_target(
             else frozenset({tag})
         )
     else:
-        return tag
+        for element in reversed(elements):
+            element_tag = element.get("tag")
+            if element_tag == tag:
+                return tag
+            if element_tag in HTML_SPECIAL_TAGS:
+                return None
+        return None
 
     for element in reversed(elements):
         element_tag = element.get("tag")
         if element_tag in target_tags:
             return str(element_tag)
         if element_tag in scope_boundaries:
+            return None
+    return None
+
+
+def explicit_form_end_index(elements: list[dict[str, Any]]) -> int | None:
+    for index in range(len(elements) - 1, -1, -1):
+        element_tag = elements[index].get("tag")
+        if element_tag == "form":
+            return index
+        if element_tag in HTML_SCOPE_BOUNDARY_TAGS:
             return None
     return None
 
@@ -736,6 +751,13 @@ class VisibleListLinkParser(HTMLParser):
         self._anchors: list[dict[str, Any]] = []
         self._elements: list[dict[str, Any]] = []
         self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
+
+    def close(self) -> None:
+        super().close()
+        while self._items:
+            self._finalize_current_item()
+        while self._anchors:
+            self._finalize_anchor()
 
     @staticmethod
     def _declares_hidden(
@@ -1167,7 +1189,16 @@ class VisibleListLinkParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
-        close_tag = explicit_end_tag_scope_target(self._elements, tag)
+        form_index = (
+            explicit_form_end_index(self._elements) if tag == "form" else None
+        )
+        if tag == "form" and form_index is None:
+            return
+        close_tag = (
+            "form"
+            if tag == "form"
+            else explicit_end_tag_scope_target(self._elements, tag)
+        )
         if close_tag is None:
             return
         boundary_visible_before = self._text_visible()
@@ -1186,7 +1217,11 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
         elif tag == "li" and self._items:
             self._finalize_current_item()
-        self._close_element(close_tag)
+        if tag == "form":
+            assert form_index is not None
+            del self._elements[form_index]
+        else:
+            self._close_element(close_tag)
         if close_tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or closing_text_boundary_visible
         ):
@@ -1467,7 +1502,16 @@ class VisibleTextParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
-        close_tag = explicit_end_tag_scope_target(self._elements, tag)
+        form_index = (
+            explicit_form_end_index(self._elements) if tag == "form" else None
+        )
+        if tag == "form" and form_index is None:
+            return
+        close_tag = (
+            "form"
+            if tag == "form"
+            else explicit_end_tag_scope_target(self._elements, tag)
+        )
         if close_tag is None:
             return
         boundary_visible_before = self._text_visible()
@@ -1486,7 +1530,11 @@ class VisibleTextParser(HTMLParser):
             if closes_claim_heading
             else ""
         )
-        self._close_element(close_tag)
+        if tag == "form":
+            assert form_index is not None
+            del self._elements[form_index]
+        else:
+            self._close_element(close_tag)
         if close_tag in CLAIM_RECORD_END_BOUNDARY_TAGS and (
             boundary_visible_before or closing_renders_boundary
         ):
