@@ -467,6 +467,69 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_explicit_div_end_does_not_cross_table_cell_scope_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div hidden><table><tr><td></div>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_explicit_div_end_closes_in_scope_through_section_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div hidden><section></div>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_explicit_li_end_does_not_cross_list_item_scope_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<li hidden><ul></li><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_explicit_li_end_closes_in_scope_through_div_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<li hidden><div></li><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_explicit_heading_end_does_not_cross_html_scope_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<h1 hidden><table><tr><td></h1><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_explicit_heading_end_closes_in_scope_through_phrasing_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<h1 hidden><span></h1><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_foreign_content_html_breakout_restores_visible_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3046,6 +3109,42 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_explicit_div_end_does_not_cross_table_cell_scope_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<div hidden><table><tr><td></div><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_explicit_div_end_closes_in_scope_through_section_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<div hidden><section></div><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_explicit_li_end_does_not_cross_list_item_scope_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<li hidden><ul></li><li>VISIBLE</li>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_explicit_li_end_closes_in_scope_through_div_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<li hidden><div></li><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_explicit_heading_end_does_not_cross_html_scope_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<h1 hidden><table><tr><td></h1><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_explicit_heading_end_closes_in_scope_through_phrasing_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<h1 hidden><span></h1><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
 
     def test_styled_rendered_separator_stops_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

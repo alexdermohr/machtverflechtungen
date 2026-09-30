@@ -368,7 +368,76 @@ HTML_SCOPE_BOUNDARY_TAGS = frozenset(
     }
 )
 HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"})
+HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"ol", "ul"})
 HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
+HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS = CLAIM_SECTION_BOUNDARY_TAGS | frozenset(
+    {
+        "address",
+        "applet",
+        "article",
+        "aside",
+        "blockquote",
+        "button",
+        "center",
+        "dd",
+        "details",
+        "dialog",
+        "dir",
+        "div",
+        "dl",
+        "dt",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "header",
+        "hgroup",
+        "listing",
+        "main",
+        "marquee",
+        "menu",
+        "nav",
+        "object",
+        "ol",
+        "pre",
+        "search",
+        "section",
+        "select",
+        "summary",
+        "ul",
+    }
+)
+
+
+def explicit_end_tag_scope_target(
+    elements: list[dict[str, Any]], tag: str
+) -> str | None:
+    if tag == "li":
+        scope_boundaries = HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS
+        target_tags = frozenset({"li"})
+    elif tag == "p":
+        scope_boundaries = HTML_BUTTON_SCOPE_BOUNDARY_TAGS
+        target_tags = frozenset({"p"})
+    elif tag in HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS:
+        scope_boundaries = HTML_SCOPE_BOUNDARY_TAGS
+        target_tags = (
+            CLAIM_SECTION_BOUNDARY_TAGS
+            if tag in CLAIM_SECTION_BOUNDARY_TAGS
+            else frozenset({tag})
+        )
+    else:
+        return tag
+
+    for element in reversed(elements):
+        element_tag = element.get("tag")
+        if element_tag in target_tags:
+            return str(element_tag)
+        if element_tag in scope_boundaries:
+            return None
+    return None
+
+
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
 ) -> dict[str, str | None]:
@@ -1092,11 +1161,14 @@ class VisibleListLinkParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
+        close_tag = explicit_end_tag_scope_target(self._elements, tag)
+        if close_tag is None:
+            return
         boundary_visible_before = self._text_visible()
         closing_renders_boundary = False
         closing_text_boundary_visible = False
         for element in reversed(self._elements):
-            if element.get("tag") == tag:
+            if element.get("tag") == close_tag:
                 closing_renders_boundary = element.get("renders_boundary") is True
                 closing_text_boundary_visible = (
                     element.get("text_boundary_visible") is True
@@ -1108,8 +1180,8 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
         elif tag == "li" and self._items:
             self._finalize_current_item()
-        self._close_element(tag)
-        if tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
+        self._close_element(close_tag)
+        if close_tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or closing_text_boundary_visible
         ):
             self._append_text_boundary()
@@ -1389,28 +1461,31 @@ class VisibleTextParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
+        close_tag = explicit_end_tag_scope_target(self._elements, tag)
+        if close_tag is None:
+            return
         boundary_visible_before = self._text_visible()
         closing_renders_boundary = False
         closing_text_boundary_visible = False
         for element in reversed(self._elements):
-            if element.get("tag") == tag:
+            if element.get("tag") == close_tag:
                 closing_renders_boundary = element.get("renders_boundary") is True
                 closing_text_boundary_visible = (
                     element.get("text_boundary_visible") is True
                 )
                 break
-        closes_claim_heading = tag == self._claim_heading_tag
+        closes_claim_heading = close_tag == self._claim_heading_tag
         claim_heading_text = (
             " ".join("".join(self._claim_heading_text).split())
             if closes_claim_heading
             else ""
         )
-        self._close_element(tag)
-        if tag in CLAIM_RECORD_END_BOUNDARY_TAGS and (
+        self._close_element(close_tag)
+        if close_tag in CLAIM_RECORD_END_BOUNDARY_TAGS and (
             boundary_visible_before or closing_renders_boundary
         ):
             self._append_claim_binding_boundary()
-        if tag in self.TEXT_BOUNDARY_TAGS and (
+        if close_tag in self.TEXT_BOUNDARY_TAGS and (
             boundary_visible_before or closing_text_boundary_visible
         ):
             self._append_text(" ")
