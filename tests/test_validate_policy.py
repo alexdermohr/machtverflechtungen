@@ -1532,6 +1532,26 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_strong_claim_context_only_support_is_rejected(self) -> None:
+        self._mutate_first_claim(
+            evidence_level="strong",
+            evidence=[
+                {
+                    "source": "SRC-DE-NI-MJ-CELLER-2015",
+                    "directness": "context",
+                    "note": "Diese Quelle liefert im Test nur Kontext und keine tragende Stütze.",
+                }
+            ],
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "with strong evidence requires at least one direct or indirect support record",
+            output,
+        )
+
     def test_schema_invalid_directness_is_reported_without_crashing(self) -> None:
         for invalid_directness in ([], {}):
             with self.subTest(directness=invalid_directness):
@@ -2435,7 +2455,11 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
             "die Außenmauer der JVA Celle sprengen."
         )
-        for hidden_html in ('<input type="hidden">', '<meta name="x" content="y">'):
+        for hidden_html in (
+            '<input type="hidden">',
+            '<meta name="x" content="y">',
+            "<wbr>",
+        ):
             with self.subTest(hidden_html=hidden_html):
                 parser = validate.VisibleTextParser()
                 parser.feed(
@@ -2498,6 +2522,59 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_claim_heading_binding_stops_at_rendered_hidden_text_controls(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        rendered_controls = (
+            "<video controls></video>",
+            "<select><option>eins</option></select>",
+            '<meter value="1" max="2"></meter>',
+            '<progress value="1" max="2"></progress>',
+            "<canvas></canvas>",
+            "<iframe></iframe>",
+            '<object data="about:blank"></object>',
+            "<audio controls></audio>",
+        )
+        for control in rendered_controls:
+            with self.subTest(control=control):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<h3>{claim_id}</h3>{control}<p>{claim_text}</p>"
+                )
+                parser.close()
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
+
+    def test_claim_heading_binding_ignores_hidden_or_nonrendered_controls(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        hidden_controls = (
+            "<audio></audio>",
+            "<video controls hidden></video>",
+            "<select hidden><option>eins</option></select>",
+        )
+        for control in hidden_controls:
+            with self.subTest(control=control):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<h3>{claim_id}</h3>{control}<p>{claim_text}</p>"
+                )
+                parser.close()
+                self.assertTrue(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
 
     def test_claim_heading_binding_stops_at_visible_intervening_inline(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

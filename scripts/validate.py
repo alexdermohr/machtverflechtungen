@@ -610,6 +610,8 @@ class VisibleListLinkParser(HTMLParser):
         tag: str,
         attrs: list[tuple[str, str | None]],
         author_stylesheet_present: bool = False,
+        *,
+        include_intrinsic_tag: bool = True,
     ) -> bool:
         lowered = {
             name.casefold(): value.casefold() if isinstance(value, str) else value
@@ -647,7 +649,7 @@ class VisibleListLinkParser(HTMLParser):
         # and admonition renderings when the page itself supplies no stylesheet
         # override.
         return (
-            tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS
+            (include_intrinsic_tag and tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS)
             or "hidden" in lowered
             or lowered.get("aria-hidden") == "true"
             or "style" in lowered
@@ -900,6 +902,9 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 class VisibleTextParser(HTMLParser):
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
     TEXT_BOUNDARY_TAGS = VISIBLE_TEXT_BOUNDARY_TAGS
+    RENDERED_HIDDEN_CONTENT_RECORD_TAGS = frozenset(
+        {"canvas", "iframe", "meter", "object", "progress", "select", "video"}
+    )
 
     def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
@@ -1040,7 +1045,7 @@ class VisibleTextParser(HTMLParser):
             for name, value in attrs
         }
         nonrendered_void = tag in {
-            "area", "base", "col", "link", "meta", "param", "source", "track"
+            "area", "base", "col", "link", "meta", "param", "source", "track", "wbr"
         } or (tag == "input" and lowered_attrs.get("type") == "hidden")
         record_boundary_visible = (
             self._text_visible()
@@ -1052,13 +1057,36 @@ class VisibleTextParser(HTMLParser):
                 )
             )
         )
+        rendered_hidden_content_record_visible = (
+            boundary_visible_before
+            and (
+                tag in self.RENDERED_HIDDEN_CONTENT_RECORD_TAGS
+                or (
+                    tag == "audio"
+                    and self._has_attribute(attrs, "controls")
+                )
+            )
+            and not VisibleListLinkParser._declares_hidden(
+                tag,
+                attrs,
+                self._author_stylesheet_present,
+                include_intrinsic_tag=False,
+            )
+        )
         if (
             self._pending_claim_statement_paragraph
             and not joins_claim_heading
-            and record_boundary_visible
             and (
-                tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
-                or tag in self.VOID_TAGS
+                (
+                    record_boundary_visible
+                    and (
+                        tag
+                        in CLAIM_SECTION_BOUNDARY_TAGS
+                        | CLAIM_RECORD_START_BOUNDARY_TAGS
+                        or tag in self.VOID_TAGS
+                    )
+                )
+                or rendered_hidden_content_record_visible
             )
         ):
             self._pending_claim_statement_paragraph = False
@@ -1728,6 +1756,21 @@ def main() -> int:
                     )
                 )
             )
+            support_directness = {
+                record.get("directness")
+                for record in mapping_list(claim.get("evidence"))
+                if isinstance(record.get("directness"), str)
+            }
+            if (
+                evidence_level == "strong"
+                and claim_sources
+                and not support_directness.intersection({"direct", "indirect"})
+            ):
+                errors.append(
+                    f"{label}: claim {claim_id} with strong evidence requires "
+                    "at least one direct or indirect support record"
+                )
+
             if (
                 evidence_level == "established"
                 and claim_sources

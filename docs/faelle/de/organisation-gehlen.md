@@ -23,7 +23,7 @@ claims:
     sources: [SRC-DE-BPB-BND-2026]
     evidence:
       - source: SRC-DE-BPB-BND-2026
-        directness: context
+        directness: direct
         note: "Die historische Überblicksdarstellung beschreibt Entstehung, amerikanische Einbindung und institutionellen Übergang zum BND."
     counterevidence: []
     alternatives:
