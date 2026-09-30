@@ -1036,9 +1036,15 @@ class VisibleTextParser(HTMLParser):
         if tag in CLAIM_SECTION_BOUNDARY_TAGS and self._text_visible():
             self._claim_heading_tag = tag
             self._claim_heading_text = []
-        record_boundary_visible = self._text_visible()
-        if tag in self.VOID_TAGS and self._has_attribute(attrs, "hidden"):
-            record_boundary_visible = False
+        record_boundary_visible = (
+            self._text_visible()
+            and not (
+                tag in self.VOID_TAGS
+                and VisibleListLinkParser._declares_hidden(
+                    tag, attrs, self._author_stylesheet_present
+                )
+            )
+        )
         if (
             tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
             and record_boundary_visible
@@ -1058,7 +1064,9 @@ class VisibleTextParser(HTMLParser):
         if tag in self.VOID_TAGS:
             record_boundary_visible = (
                 self._text_visible()
-                and not self._has_attribute(attrs, "hidden")
+                and not VisibleListLinkParser._declares_hidden(
+                    tag, attrs, self._author_stylesheet_present
+                )
             )
             if tag in CLAIM_RECORD_START_BOUNDARY_TAGS and record_boundary_visible:
                 self._append_claim_binding_boundary()
