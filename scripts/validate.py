@@ -269,9 +269,15 @@ P_IMPLICIT_END_START_TAGS = frozenset(
         "article",
         "aside",
         "blockquote",
+        "center",
+        "details",
+        "dialog",
+        "dir",
         "div",
         "dl",
         "fieldset",
+        "figcaption",
+        "figure",
         "footer",
         "form",
         "h1",
@@ -283,6 +289,7 @@ P_IMPLICIT_END_START_TAGS = frozenset(
         "header",
         "hgroup",
         "hr",
+        "listing",
         "main",
         "menu",
         "nav",
@@ -291,8 +298,10 @@ P_IMPLICIT_END_START_TAGS = frozenset(
         "pre",
         "search",
         "section",
+        "summary",
         "table",
         "ul",
+        "xmp",
     }
 )
 CLAIM_IMPLICIT_CLOSE_GROUPS = {
@@ -451,8 +460,10 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "header",
         "hgroup",
         "li",
+        "listing",
         "main",
         "math",
+        "menu",
         "nav",
         "ol",
         "p",
@@ -468,6 +479,7 @@ CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
         "textarea",
         "tr",
         "ul",
+        "xmp",
     }
 )
 CLAIM_RECORD_START_BOUNDARY_TAGS = (
@@ -512,8 +524,10 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "img",
         "input",
         "li",
+        "listing",
         "main",
         "math",
+        "menu",
         "meter",
         "nav",
         "object",
@@ -536,6 +550,7 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
         "tr",
         "ul",
         "video",
+        "xmp",
     }
 )
 
@@ -1021,9 +1036,12 @@ class VisibleTextParser(HTMLParser):
         if tag in CLAIM_SECTION_BOUNDARY_TAGS and self._text_visible():
             self._claim_heading_tag = tag
             self._claim_heading_text = []
+        record_boundary_visible = self._text_visible()
+        if tag in self.VOID_TAGS and self._has_attribute(attrs, "hidden"):
+            record_boundary_visible = False
         if (
             tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
-            and self._text_visible()
+            and record_boundary_visible
             and not joins_claim_heading
         ):
             self._append_claim_binding_boundary()
@@ -1038,7 +1056,11 @@ class VisibleTextParser(HTMLParser):
         # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
         if tag in self.VOID_TAGS:
-            if tag in CLAIM_RECORD_START_BOUNDARY_TAGS and self._text_visible():
+            record_boundary_visible = (
+                self._text_visible()
+                and not self._has_attribute(attrs, "hidden")
+            )
+            if tag in CLAIM_RECORD_START_BOUNDARY_TAGS and record_boundary_visible:
                 self._append_claim_binding_boundary()
             if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
                 self._append_text(" ")

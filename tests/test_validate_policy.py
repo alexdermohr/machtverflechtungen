@@ -334,6 +334,19 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_closed_disclosure_after_paragraph_keeps_source_list_hidden(self) -> None:
+        for tag in ("details", "dialog"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    f"<p>intro<{tag}><ul><li>SRC-A "
+                    '<a href="https://example.invalid/a">A</a>'
+                    f"</li></ul></{tag}>"
+                )
+                parser.close()
+
+                self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_implicit_li_does_not_cross_special_table_scope(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -2472,6 +2485,75 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_hidden_thematic_break_does_not_split_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        hidden_breaks = (
+            "<hr hidden>",
+            "<hr hidden/>",
+            '<hr aria-hidden="true">',
+            '<hr style="display:none">',
+            '<hr class="visually-hidden">',
+            "<hr popover>",
+        )
+        for hr in hidden_breaks:
+            with self.subTest(hr=hr):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<span>{claim_id} </span>{hr}<span>{claim_text}</span>"
+                )
+                parser.close()
+
+                self.assertTrue(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
+
+    def test_claim_binding_stops_at_remaining_preformatted_and_menu_blocks(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for tag in ("listing", "menu", "xmp"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<span>{claim_id} ohne Wortlaut </span>"
+                    f"<{tag}>{claim_text}</{tag}>"
+                )
+                parser.close()
+
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
+
+    def test_implicit_paragraph_closes_before_browser_block_starts(self) -> None:
+        samples = {
+            "center": "<p hidden>intro<center>VISIBLE-center</center>",
+            "details": "<p hidden>intro<details open>VISIBLE-details</details>",
+            "dialog": "<p hidden>intro<dialog open>VISIBLE-dialog</dialog>",
+            "dir": "<p hidden>intro<dir>VISIBLE-dir</dir>",
+            "figcaption": "<p hidden>intro<figcaption>VISIBLE-figcaption</figcaption>",
+            "figure": "<p hidden>intro<figure>VISIBLE-figure</figure>",
+            "listing": "<p hidden>intro<listing>VISIBLE-listing</listing>",
+            "summary": "<p hidden>intro<summary>VISIBLE-summary</summary>",
+            "xmp": "<p hidden>intro<xmp>VISIBLE-xmp</xmp>",
+        }
+        for tag, markup in samples.items():
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(markup)
+                parser.close()
+
+                self.assertIn(f"VISIBLE-{tag}", parser.text())
 
     def test_claim_binding_stops_at_visible_block_container_boundary(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
