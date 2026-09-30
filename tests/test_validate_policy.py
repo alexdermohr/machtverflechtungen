@@ -391,6 +391,8 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "<br>",
             '<input type="text">',
             "<video controls></video>",
+            '<image src="gap.png">',
+            '<image src="gap.png"/>',
         )
         for gap in rendered:
             with self.subTest(gap=gap):
@@ -1222,6 +1224,34 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             ),
             encoding="utf-8",
         )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_nested_anchor_does_not_lend_visible_text_to_registered_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        replacement = (
+            f'- {source_id} <a href="{source_url}">'
+            '<a href="https://example.invalid/other"></a>'
+            "Quelle</a>"
+        )
+        path.write_text(text.replace(source_line, replacement, 1), encoding="utf-8")
 
         code, output = self._run_validator()
 
@@ -2437,7 +2467,13 @@ class EvidencePolicyValidationTests(unittest.TestCase):
     def test_rendered_element_splits_visible_claim_id(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         prefix, suffix = claim_id.rsplit("-", 1)
-        for gap in ("<br>", '<input type="text">', "<video controls></video>"):
+        for gap in (
+            "<br>",
+            '<input type="text">',
+            "<video controls></video>",
+            '<image src="gap.png">',
+            '<image src="gap.png"/>',
+        ):
             with self.subTest(gap=gap):
                 parser = validate.VisibleTextParser()
                 parser.feed(f"{prefix}{gap}-{suffix}")
@@ -2629,6 +2665,25 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_claim_heading_binding_stops_at_html_image_alias(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for image in ('<image src="gap.png">', '<image src="gap.png"/>'):
+            with self.subTest(image=image):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<h3>{claim_id}</h3>{image}<p>{claim_text}</p>"
+                )
+                parser.close()
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
 
     def test_claim_heading_binding_ignores_empty_inline_element(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

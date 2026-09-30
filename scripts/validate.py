@@ -837,6 +837,16 @@ class VisibleListLinkParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if tag == "image" and current_foreign_context is None:
+            tag = "img"
+        if (
+            tag == "a"
+            and current_foreign_context is None
+            and any(element.get("tag") == "a" for element in self._elements)
+        ):
+            self._finalize_anchor()
+            self._close_element("a")
         self._close_implicit_paragraph(tag)
         if tag == "li":
             self._close_implicit_list_item()
@@ -934,12 +944,15 @@ class VisibleListLinkParser(HTMLParser):
         # including for child elements, so those tags must not leak onto
         # the HTML visibility stack.
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if tag == "image" and current_foreign_context is None:
+            tag = "img"
         if tag in self.VOID_TAGS:
             self.handle_starttag(tag, attrs)
             return
         if (
             tag in FOREIGN_ROOT_TAGS
-            or foreign_context(self._elements) is not None
+            or current_foreign_context is not None
         ):
             return
         self.handle_starttag(tag, attrs)
@@ -1080,6 +1093,15 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if tag == "image" and current_foreign_context is None:
+            tag = "img"
+        if (
+            tag == "a"
+            and current_foreign_context is None
+            and any(element.get("tag") == "a" for element in self._elements)
+        ):
+            self._close_element("a")
         wants_claim_heading_join = (
             tag == "p" and self._pending_claim_statement_paragraph
         )
@@ -1191,12 +1213,15 @@ class VisibleTextParser(HTMLParser):
     ) -> None:
         # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if tag == "image" and current_foreign_context is None:
+            tag = "img"
         if tag in self.VOID_TAGS:
             self.handle_starttag(tag, attrs)
             return
         if (
             tag in FOREIGN_ROOT_TAGS
-            or foreign_context(self._elements) is not None
+            or current_foreign_context is not None
         ):
             return
         self.handle_starttag(tag, attrs)
