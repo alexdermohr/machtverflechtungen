@@ -554,6 +554,13 @@ VISIBLE_TEXT_BOUNDARY_TAGS = frozenset(
     }
 )
 
+NONRENDERED_VOID_TAGS = frozenset(
+    {"area", "base", "col", "link", "meta", "param", "source", "track", "wbr"}
+)
+RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
+    {"canvas", "iframe", "meter", "object", "progress", "select", "video"}
+)
+
 
 class VisibleListLinkParser(HTMLParser):
     VOID_TAGS = frozenset(
@@ -669,6 +676,48 @@ class VisibleListLinkParser(HTMLParser):
         wanted = name.casefold()
         return any(attr_name.casefold() == wanted for attr_name, _value in attrs)
 
+    @staticmethod
+    def _renders_boundary(
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+        author_stylesheet_present: bool = False,
+        current_foreign_context: str | None = None,
+    ) -> bool:
+        lowered = {
+            name.casefold(): value.casefold() if isinstance(value, str) else value
+            for name, value in attrs
+        }
+        if tag in NONRENDERED_VOID_TAGS or (
+            tag == "input" and lowered.get("type") == "hidden"
+        ):
+            return False
+        if VisibleListLinkParser._declares_hidden(
+            tag,
+            attrs,
+            author_stylesheet_present,
+            include_intrinsic_tag=False,
+        ):
+            return False
+        if foreign_attributes_ineligible(tag, attrs, current_foreign_context):
+            return False
+        if (
+            current_foreign_context == "svg"
+            and tag in SVG_INELIGIBLE_SUBTREE_TAGS
+        ) or (
+            current_foreign_context == "math"
+            and tag in MATHML_INELIGIBLE_SUBTREE_TAGS
+        ):
+            return False
+        if tag == "dialog" and not VisibleListLinkParser._has_attribute(
+            attrs, "open"
+        ):
+            return False
+        if tag == "audio":
+            return VisibleListLinkParser._has_attribute(attrs, "controls")
+        if tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS:
+            return tag in RENDERED_ELEMENT_BOUNDARY_TAGS
+        return True
+
     def _regular_hidden(self) -> bool:
         return bool(self._elements and self._elements[-1]["hidden"])
 
@@ -782,8 +831,7 @@ class VisibleListLinkParser(HTMLParser):
         self._close_implicit_paragraph(tag)
         if tag == "li":
             self._close_implicit_list_item()
-        if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():
-            self._append_text_boundary()
+        boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
         summary_for_closed_details = (
             tag == "summary"
@@ -796,6 +844,25 @@ class VisibleListLinkParser(HTMLParser):
             parent["summary_seen"] = True
 
         current_foreign_context = foreign_context(self._elements)
+        element_renders_boundary = (
+            boundary_visible_before
+            and self._renders_boundary(
+                tag,
+                attrs,
+                self._author_stylesheet_present,
+                current_foreign_context,
+            )
+        )
+        text_boundary_visible = (
+            boundary_visible_before
+            and tag in VISIBLE_TEXT_BOUNDARY_TAGS
+            and (
+                tag not in self.VOID_TAGS
+                or element_renders_boundary
+            )
+        )
+        if text_boundary_visible:
+            self._append_text_boundary()
         hidden = (
             self._regular_hidden()
             or self._declares_hidden(
@@ -823,6 +890,8 @@ class VisibleListLinkParser(HTMLParser):
                     "closed": closed,
                     "summary_seen": False if tag == "details" else None,
                     "summary_for_closed_details": summary_for_closed_details,
+                    "renders_boundary": element_renders_boundary,
+                    "text_boundary_visible": text_boundary_visible,
                 }
             )
 
@@ -857,8 +926,7 @@ class VisibleListLinkParser(HTMLParser):
         # the HTML visibility stack.
         tag = tag.casefold()
         if tag in self.VOID_TAGS:
-            if tag in VISIBLE_TEXT_BOUNDARY_TAGS and self._text_visible():
-                self._append_text_boundary()
+            self.handle_starttag(tag, attrs)
             return
         if (
             tag in FOREIGN_ROOT_TAGS
@@ -878,6 +946,15 @@ class VisibleListLinkParser(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
+        closing_renders_boundary = False
+        closing_text_boundary_visible = False
+        for element in reversed(self._elements):
+            if element.get("tag") == tag:
+                closing_renders_boundary = element.get("renders_boundary") is True
+                closing_text_boundary_visible = (
+                    element.get("text_boundary_visible") is True
+                )
+                break
         if tag in {"ul", "ol", "menu"}:
             self._close_implicit_list_item()
         if tag == "a" and self._anchors:
@@ -886,7 +963,7 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_current_item()
         self._close_element(tag)
         if tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
-            boundary_visible_before or self._text_visible()
+            boundary_visible_before or closing_text_boundary_visible
         ):
             self._append_text_boundary()
 
@@ -902,9 +979,7 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 class VisibleTextParser(HTMLParser):
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
     TEXT_BOUNDARY_TAGS = VISIBLE_TEXT_BOUNDARY_TAGS
-    RENDERED_HIDDEN_CONTENT_RECORD_TAGS = frozenset(
-        {"canvas", "iframe", "meter", "object", "progress", "select", "video"}
-    )
+    RENDERED_HIDDEN_CONTENT_RECORD_TAGS = RENDERED_ELEMENT_BOUNDARY_TAGS
 
     def __init__(self, author_stylesheet_present: bool = False) -> None:
         super().__init__(convert_charrefs=True)
@@ -992,7 +1067,7 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        joins_claim_heading = (
+        wants_claim_heading_join = (
             tag == "p" and self._pending_claim_statement_paragraph
         )
         self._close_implicit_record(tag)
@@ -1009,6 +1084,23 @@ class VisibleTextParser(HTMLParser):
             parent["summary_seen"] = True
 
         current_foreign_context = foreign_context(self._elements)
+        element_renders_boundary = (
+            boundary_visible_before
+            and VisibleListLinkParser._renders_boundary(
+                tag,
+                attrs,
+                self._author_stylesheet_present,
+                current_foreign_context,
+            )
+        )
+        text_boundary_visible = (
+            boundary_visible_before
+            and tag in self.TEXT_BOUNDARY_TAGS
+            and (
+                tag not in self.VOID_TAGS
+                or element_renders_boundary
+            )
+        )
         hidden = (
             self._regular_hidden()
             or VisibleListLinkParser._declares_hidden(
@@ -1035,77 +1127,50 @@ class VisibleTextParser(HTMLParser):
                     "closed": closed,
                     "summary_seen": False if tag == "details" else None,
                     "summary_for_closed_details": summary_for_closed_details,
+                    "renders_boundary": element_renders_boundary,
+                    "text_boundary_visible": text_boundary_visible,
                 }
             )
         if tag in CLAIM_SECTION_BOUNDARY_TAGS and self._text_visible():
             self._claim_heading_tag = tag
             self._claim_heading_text = []
-        lowered_attrs = {
-            name.casefold(): value.casefold() if isinstance(value, str) else value
-            for name, value in attrs
-        }
-        nonrendered_void = tag in {
-            "area", "base", "col", "link", "meta", "param", "source", "track", "wbr"
-        } or (tag == "input" and lowered_attrs.get("type") == "hidden")
-        record_boundary_visible = (
-            self._text_visible()
-            and not nonrendered_void
-            and not (
-                tag in self.VOID_TAGS
-                and VisibleListLinkParser._declares_hidden(
-                    tag, attrs, self._author_stylesheet_present
-                )
-            )
+        joins_claim_heading = (
+            wants_claim_heading_join and element_renders_boundary
         )
-        rendered_hidden_content_record_visible = (
-            boundary_visible_before
+        if joins_claim_heading:
+            self._pending_claim_statement_paragraph = False
+
+        heading_gap_visible = (
+            element_renders_boundary
             and (
-                tag in self.RENDERED_HIDDEN_CONTENT_RECORD_TAGS
+                tag in CLAIM_SECTION_BOUNDARY_TAGS
+                | CLAIM_RECORD_START_BOUNDARY_TAGS
+                or tag in self.VOID_TAGS
+                or tag in self.RENDERED_HIDDEN_CONTENT_RECORD_TAGS
                 or (
                     tag == "audio"
                     and self._has_attribute(attrs, "controls")
                 )
             )
-            and not VisibleListLinkParser._declares_hidden(
-                tag,
-                attrs,
-                self._author_stylesheet_present,
-                include_intrinsic_tag=False,
-            )
         )
+        pending_gap_boundary_added = False
         if (
             self._pending_claim_statement_paragraph
             and not joins_claim_heading
-            and (
-                (
-                    record_boundary_visible
-                    and (
-                        tag
-                        in CLAIM_SECTION_BOUNDARY_TAGS
-                        | CLAIM_RECORD_START_BOUNDARY_TAGS
-                        or tag in self.VOID_TAGS
-                    )
-                )
-                or rendered_hidden_content_record_visible
-            )
+            and heading_gap_visible
         ):
             self._pending_claim_statement_paragraph = False
-        if (
-            tag == "details"
-            and closed
-            and boundary_visible_before
-            and not hidden
-        ):
-            record_boundary_visible = True
+            self._append_claim_binding_boundary()
+            pending_gap_boundary_added = True
+
         if (
             tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
-            and record_boundary_visible
+            and element_renders_boundary
             and not joins_claim_heading
+            and not pending_gap_boundary_added
         ):
             self._append_claim_binding_boundary()
-        if tag in self.TEXT_BOUNDARY_TAGS and (
-            boundary_visible_before or self._text_visible()
-        ):
+        if text_boundary_visible:
             self._append_text(" ")
 
     def handle_startendtag(
@@ -1138,11 +1203,21 @@ class VisibleTextParser(HTMLParser):
             self._claim_heading_text.append(data)
         elif self._pending_claim_statement_paragraph and data.strip():
             self._pending_claim_statement_paragraph = False
+            self._append_claim_binding_boundary()
         self._append_text(data)
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         boundary_visible_before = self._text_visible()
+        closing_renders_boundary = False
+        closing_text_boundary_visible = False
+        for element in reversed(self._elements):
+            if element.get("tag") == tag:
+                closing_renders_boundary = element.get("renders_boundary") is True
+                closing_text_boundary_visible = (
+                    element.get("text_boundary_visible") is True
+                )
+                break
         closes_claim_heading = tag == self._claim_heading_tag
         claim_heading_text = (
             " ".join("".join(self._claim_heading_text).split())
@@ -1150,10 +1225,12 @@ class VisibleTextParser(HTMLParser):
             else ""
         )
         self._close_element(tag)
-        if tag in CLAIM_RECORD_END_BOUNDARY_TAGS and boundary_visible_before:
+        if tag in CLAIM_RECORD_END_BOUNDARY_TAGS and (
+            boundary_visible_before or closing_renders_boundary
+        ):
             self._append_claim_binding_boundary()
         if tag in self.TEXT_BOUNDARY_TAGS and (
-            boundary_visible_before or self._text_visible()
+            boundary_visible_before or closing_text_boundary_visible
         ):
             self._append_text(" ")
         if closes_claim_heading:

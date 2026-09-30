@@ -358,6 +358,56 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual([], parser.visible_items)
 
+    def test_hidden_or_nonrendered_element_does_not_split_visible_source_id(self) -> None:
+        hidden_or_nonrendered = (
+            '<input type="hidden">',
+            "<wbr>",
+            "<br hidden>",
+            "<img hidden>",
+            '<meta name="x" content="y">',
+        )
+        for gap in hidden_or_nonrendered:
+            with self.subTest(gap=gap):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    '<ul><li>SRC-TEST'
+                    + gap
+                    + '-001 <a href="https://example.test/source">Quelle</a></li></ul>'
+                )
+                parser.close()
+                self.assertEqual(1, len(parser.visible_items))
+                visible_text, links = parser.visible_items[0]
+                self.assertTrue(
+                    validate.exact_visible_id(visible_text, "SRC-TEST-001"),
+                    visible_text,
+                )
+                self.assertEqual(
+                    [("https://example.test/source", "Quelle")],
+                    links,
+                )
+
+    def test_rendered_element_splits_visible_source_id(self) -> None:
+        rendered = (
+            "<br>",
+            '<input type="text">',
+            "<video controls></video>",
+        )
+        for gap in rendered:
+            with self.subTest(gap=gap):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    '<ul><li>SRC-TEST'
+                    + gap
+                    + '-001 <a href="https://example.test/source">Quelle</a></li></ul>'
+                )
+                parser.close()
+                self.assertEqual(1, len(parser.visible_items))
+                visible_text, _links = parser.visible_items[0]
+                self.assertFalse(
+                    validate.exact_visible_id(visible_text, "SRC-TEST-001"),
+                    visible_text,
+                )
+
     def test_inert_ancestor_keeps_source_text_but_not_clickable_link(self) -> None:
         samples = (
             '<div inert><ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul></div>',
@@ -2364,6 +2414,39 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_hidden_or_nonrendered_element_does_not_split_visible_claim_id(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        hidden_or_nonrendered = (
+            '<input type="hidden">',
+            "<wbr>",
+            "<br hidden>",
+            "<img hidden>",
+            '<meta name="x" content="y">',
+        )
+        prefix, suffix = claim_id.rsplit("-", 1)
+        for gap in hidden_or_nonrendered:
+            with self.subTest(gap=gap):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"{prefix}{gap}-{suffix}")
+                parser.close()
+                self.assertTrue(
+                    validate.exact_visible_id(parser.text(), claim_id),
+                    parser.text(),
+                )
+
+    def test_rendered_element_splits_visible_claim_id(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        prefix, suffix = claim_id.rsplit("-", 1)
+        for gap in ("<br>", '<input type="text">', "<video controls></video>"):
+            with self.subTest(gap=gap):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"{prefix}{gap}-{suffix}")
+                parser.close()
+                self.assertFalse(
+                    validate.exact_visible_id(parser.text(), claim_id),
+                    parser.text(),
+                )
+
     def test_claim_binding_stops_at_visible_section_boundary(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
@@ -2435,6 +2518,7 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             "<span hidden>ignored</span>",
             '<span aria-hidden="true">ignored</span>',
             '<span style="display: none">ignored</span>',
+            "<p hidden>ignored</p>",
         )
         for hidden_html in hidden_variants:
             with self.subTest(hidden_html=hidden_html):
@@ -2575,6 +2659,45 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                         parser.claim_binding_text(), claim_id, claim_text
                     )
                 )
+
+    def test_claim_heading_rendered_gap_delimits_raw_following_wording(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        rendered_gaps = (
+            '<input type="text">',
+            "<br>",
+            "<video controls></video>",
+            "<span>sichtbar</span>",
+        )
+        for gap in rendered_gaps:
+            with self.subTest(gap=gap):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<h3>{claim_id}</h3>{gap}{claim_text}")
+                parser.close()
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    ),
+                    parser.claim_binding_text(),
+                )
+
+    def test_claim_heading_raw_text_requires_statement_paragraph(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<h3>{claim_id}</h3>{claim_text}")
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
 
     def test_claim_heading_binding_stops_at_visible_intervening_inline(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

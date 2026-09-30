@@ -76,6 +76,8 @@ Der Validator operationalisiert die stärkste Evidenzstufe konservativ. Ein als 
 
 Das ist nur eine maschinenprüfbare Mindestschwelle. Unterschiedliche Institutionen beweisen keine semantische Unabhängigkeit. Ob eine Quelle die konkrete Aussage tatsächlich trägt, wird zusätzlich durch die Claim-spezifische Belegnotiz und die inhaltliche Prüfung bewertet. Für Claims zählt `context` nicht zu dieser Mindestschwelle. Eine einzelne Tier-A-Primärquelle erfüllt sie nur mit `direct`; in der Mehrquellenroute zählen `direct` und `indirect`.
 
+Auch `strong` braucht mindestens einen tragenden Stützbeleg mit `direct` oder `indirect`; reine `context`-Einträge dürfen den Kontext erklären, tragen aber keine `strong`-Evidenzstufe.
+
 ## Claim-spezifische Quellenbindung
 
 Eine Quelle wird nicht nur über ihre stabile `SRC-...`-ID genannt. Jeder Claim beschreibt für seine Stütz- und Gegenbelege:
