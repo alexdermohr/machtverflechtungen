@@ -979,10 +979,12 @@ class VisibleListLinkParser(HTMLParser):
         if tag in self.VOID_TAGS:
             self.handle_starttag(tag, attrs)
             return
-        if (
-            tag in FOREIGN_ROOT_TAGS
-            or current_foreign_context is not None
-        ):
+        if tag in FOREIGN_ROOT_TAGS:
+            if current_foreign_context is None:
+                self.handle_starttag(tag, attrs)
+                self.handle_endtag(tag)
+            return
+        if current_foreign_context is not None:
             return
         self.handle_starttag(tag, attrs)
 
@@ -1248,10 +1250,12 @@ class VisibleTextParser(HTMLParser):
         if tag in self.VOID_TAGS:
             self.handle_starttag(tag, attrs)
             return
-        if (
-            tag in FOREIGN_ROOT_TAGS
-            or current_foreign_context is not None
-        ):
+        if tag in FOREIGN_ROOT_TAGS:
+            if current_foreign_context is None:
+                self.handle_starttag(tag, attrs)
+                self.handle_endtag(tag)
+            return
+        if current_foreign_context is not None:
             return
         self.handle_starttag(tag, attrs)
 

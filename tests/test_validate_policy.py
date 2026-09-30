@@ -813,6 +813,25 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual(0, code, output)
 
+    def test_self_closing_svg_root_splits_visible_source_id(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>SRC-TEST<svg/>-001 '
+            '<a href="https://example.invalid/source">Quelle</a></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual(1, len(parser.visible_items))
+        visible_text, links = parser.visible_items[0]
+        self.assertFalse(
+            validate.exact_visible_id(visible_text, "SRC-TEST-001"),
+            visible_text,
+        )
+        self.assertEqual(
+            [("https://example.invalid/source", "Quelle")],
+            links,
+        )
+
     def test_non_rendered_fallback_tags_do_not_satisfy_text_visibility(self) -> None:
         samples = {
             "noscript": "<noscript>HIDDEN-FALLBACK</noscript><p>VISIBLE</p>",
@@ -2841,6 +2860,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser = validate.VisibleTextParser()
         parser.feed(
             f'<h3>{claim_id}</h3><input type="text"/><p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_claim_heading_binding_stops_at_self_closing_svg_root(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<h3>{claim_id}</h3><svg/><p>{claim_text}</p>"
         )
         parser.close()
         self.assertFalse(
