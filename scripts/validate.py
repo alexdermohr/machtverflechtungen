@@ -1056,6 +1056,10 @@ class VisibleTextParser(HTMLParser):
             self._pending_claim_statement_paragraph
             and not joins_claim_heading
             and record_boundary_visible
+            and (
+                tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
+                or tag in self.VOID_TAGS
+            )
         ):
             self._pending_claim_statement_paragraph = False
         if (
@@ -1082,16 +1086,7 @@ class VisibleTextParser(HTMLParser):
         # Match the browser split between ordinary HTML and foreign content.
         tag = tag.casefold()
         if tag in self.VOID_TAGS:
-            record_boundary_visible = (
-                self._text_visible()
-                and not VisibleListLinkParser._declares_hidden(
-                    tag, attrs, self._author_stylesheet_present
-                )
-            )
-            if tag in CLAIM_RECORD_START_BOUNDARY_TAGS and record_boundary_visible:
-                self._append_claim_binding_boundary()
-            if tag in self.TEXT_BOUNDARY_TAGS and self._text_visible():
-                self._append_text(" ")
+            self.handle_starttag(tag, attrs)
             return
         if (
             tag in FOREIGN_ROOT_TAGS
