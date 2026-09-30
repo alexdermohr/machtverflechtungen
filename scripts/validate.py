@@ -369,6 +369,17 @@ HTML_SCOPE_BOUNDARY_TAGS = frozenset(
 )
 HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"})
 HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
+def first_html_attribute_values(
+    attrs: list[tuple[str, str | None]],
+) -> dict[str, str | None]:
+    values: dict[str, str | None] = {}
+    for name, value in attrs:
+        key = name.casefold()
+        if key not in values:
+            values[key] = value.casefold() if isinstance(value, str) else value
+    return values
+
+
 HTML_SPECIAL_TAGS = frozenset(
     {
         "address",
@@ -659,10 +670,7 @@ class VisibleListLinkParser(HTMLParser):
         *,
         include_intrinsic_tag: bool = True,
     ) -> bool:
-        lowered = {
-            name.casefold(): value.casefold() if isinstance(value, str) else value
-            for name, value in attrs
-        }
+        lowered = first_html_attribute_values(attrs)
         class_value = lowered.get("class")
         class_tokens = (
             set(class_value.split()) if isinstance(class_value, str) else set()
@@ -722,10 +730,7 @@ class VisibleListLinkParser(HTMLParser):
         author_stylesheet_present: bool = False,
         current_foreign_context: str | None = None,
     ) -> bool:
-        lowered = {
-            name.casefold(): value.casefold() if isinstance(value, str) else value
-            for name, value in attrs
-        }
+        lowered = first_html_attribute_values(attrs)
         if tag in NONRENDERED_VOID_TAGS or (
             tag == "input" and lowered.get("type") == "hidden"
         ):

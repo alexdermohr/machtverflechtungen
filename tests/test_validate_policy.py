@@ -458,6 +458,15 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_heading_start_does_not_pop_through_phrasing(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<h1 hidden>intro<span>format<h2><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_foreign_content_html_breakout_restores_visible_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -1148,6 +1157,16 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             f"source {source_id} must be visibly listed with a clickable link to its registered URL",
             output,
         )
+
+    def test_duplicate_class_preserves_first_hidden_source_class(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div class="visually-hidden" class="admonition note">'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+            '</div>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
 
     def test_attributed_stylesheet_hides_open_details_source_evidence(self) -> None:
         path = self._case_path()
@@ -2401,6 +2420,31 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_duplicate_class_preserves_first_hidden_claim_class(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div class="visually-hidden" class="admonition note">'
+            f'{claim_id} {claim_text}</div>'
+        )
+        parser.close()
+        self.assertNotIn(claim_id, parser.text())
+        self.assertNotIn(claim_text, parser.text())
+
+    def test_duplicate_class_preserves_first_visible_claim_class(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div class="admonition note" class="visually-hidden">'
+            f'{claim_id}</div>'
+        )
+        parser.close()
+        self.assertIn(claim_id, parser.text())
+
     def test_object_fallback_does_not_satisfy_claim_visibility(self) -> None:
         claim_text = (
             "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
@@ -2981,6 +3025,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_visible_text_heading_start_does_not_pop_through_phrasing(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<h1 hidden>intro<span>format<h3>{claim_id}</h3><p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertFalse(
             validate.claim_occurrences_bound_to_wording(
                 parser.claim_binding_text(), claim_id, claim_text
             )
