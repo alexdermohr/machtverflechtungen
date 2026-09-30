@@ -2447,6 +2447,63 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                     parser.text(),
                 )
 
+    def test_void_end_tags_follow_browser_recovery_for_visible_claim_id(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        prefix, suffix = claim_id.rsplit("-", 1)
+        for end_tag in ("</input>", "</img>", "</embed>", "</hr>"):
+            with self.subTest(end_tag=end_tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"{prefix}{end_tag}-{suffix}")
+                parser.close()
+                self.assertTrue(
+                    validate.exact_visible_id(parser.text(), claim_id),
+                    parser.text(),
+                )
+
+        parser = validate.VisibleTextParser()
+        parser.feed(f"{prefix}</br>-{suffix}")
+        parser.close()
+        self.assertFalse(
+            validate.exact_visible_id(parser.text(), claim_id),
+            parser.text(),
+        )
+
+    def test_void_end_tags_follow_browser_recovery_for_visible_source_id(self) -> None:
+        source_id = "SRC-TEST-001"
+        prefix, suffix = source_id.rsplit("-", 1)
+        for end_tag in ("</input>", "</img>", "</embed>", "</hr>"):
+            with self.subTest(end_tag=end_tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    '<ul><li>'
+                    + prefix
+                    + end_tag
+                    + '-'
+                    + suffix
+                    + ' <a href="https://example.test/source">Quelle</a></li></ul>'
+                )
+                parser.close()
+                visible_text, _links = parser.visible_items[0]
+                self.assertTrue(
+                    validate.exact_visible_id(visible_text, source_id),
+                    visible_text,
+                )
+
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>'
+            + prefix
+            + '</br>-'
+            + suffix
+            + ' <a href="https://example.test/source">Quelle</a></li></ul>'
+        )
+        parser.close()
+        visible_text, _links = parser.visible_items[0]
+        self.assertFalse(
+            validate.exact_visible_id(visible_text, source_id),
+            visible_text,
+        )
+
     def test_claim_binding_stops_at_visible_section_boundary(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
@@ -2814,6 +2871,45 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             validate.claim_occurrences_bound_to_wording(
                 parser.claim_binding_text(), claim_id, claim_text
             )
+        )
+
+    def test_named_details_splits_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for details in (
+            '<details name="group" open><summary>sichtbar</summary>ignored</details>',
+            '<details name="group"><summary>sichtbar</summary>ignored</details>',
+        ):
+            with self.subTest(details=details):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<span>{claim_id} </span>{details}<span>{claim_text}</span>"
+                )
+                parser.close()
+                self.assertFalse(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    ),
+                    parser.claim_binding_text(),
+                )
+
+    def test_end_br_stops_claim_heading_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<h3>{claim_id}</h3></br><p>{claim_text}</p>")
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            ),
+            parser.claim_binding_text(),
         )
 
     def test_hidden_closed_details_does_not_split_claim_binding(self) -> None:

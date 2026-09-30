@@ -691,9 +691,18 @@ class VisibleListLinkParser(HTMLParser):
             tag == "input" and lowered.get("type") == "hidden"
         ):
             return False
+        boundary_attrs = (
+            [
+                (name, value)
+                for name, value in attrs
+                if name.casefold() != "name"
+            ]
+            if tag == "details"
+            else attrs
+        )
         if VisibleListLinkParser._declares_hidden(
             tag,
-            attrs,
+            boundary_attrs,
             author_stylesheet_present,
             include_intrinsic_tag=False,
         ):
@@ -945,6 +954,10 @@ class VisibleListLinkParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        if tag in self.VOID_TAGS:
+            if tag == "br" and foreign_context(self._elements) is None:
+                self.handle_starttag(tag, [])
+            return
         boundary_visible_before = self._text_visible()
         closing_renders_boundary = False
         closing_text_boundary_visible = False
@@ -1208,6 +1221,10 @@ class VisibleTextParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        if tag in self.VOID_TAGS:
+            if tag == "br" and foreign_context(self._elements) is None:
+                self.handle_starttag(tag, [])
+            return
         boundary_visible_before = self._text_visible()
         closing_renders_boundary = False
         closing_text_boundary_visible = False
