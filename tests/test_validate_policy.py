@@ -384,6 +384,59 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual([], parser.visible_items)
 
+    def test_visible_list_link_parser_honors_implicit_container_ends(self) -> None:
+        samples = (
+            (
+                "td",
+                '<table><tr><td hidden>old<td><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a></li></ul></td></tr></table>',
+            ),
+            (
+                "th",
+                '<table><tr><th hidden>old<th><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a></li></ul></th></tr></table>',
+            ),
+            (
+                "dt",
+                '<dl><dt hidden>old<dt><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a></li></ul></dt></dl>',
+            ),
+            (
+                "dd",
+                '<dl><dd hidden>old<dd><ul><li>SRC-A '
+                '<a href="https://example.invalid/a">A</a></li></ul></dd></dl>',
+            ),
+        )
+        for tag, markup in samples:
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(markup)
+                parser.close()
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
+    def test_visible_list_link_parser_implicit_cell_does_not_cross_nested_table_scope(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr><td hidden>outer<table><tr><td>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></table></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_visible_list_link_parser_implicit_description_does_not_cross_nested_dl_scope(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<dl><dt hidden>outer<dl><dt>'
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+            '</dt></dl></dt></dl>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_hidden_or_nonrendered_element_does_not_split_visible_source_id(self) -> None:
         hidden_or_nonrendered = (
             '<input type="hidden">',
