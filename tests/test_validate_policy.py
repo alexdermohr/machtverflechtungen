@@ -2405,6 +2405,47 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             )
         )
 
+    def test_claim_heading_binding_ignores_hidden_intervening_element(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        hidden_variants = (
+            "<span hidden>ignored</span>",
+            '<span aria-hidden="true">ignored</span>',
+            '<span style="display: none">ignored</span>',
+        )
+        for hidden_html in hidden_variants:
+            with self.subTest(hidden_html=hidden_html):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<h3>{claim_id}</h3>{hidden_html}<p>{claim_text}</p>"
+                )
+                parser.close()
+                self.assertTrue(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
+
+    def test_claim_heading_binding_stops_at_visible_intervening_inline(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<h3>{claim_id}</h3><span>visible</span><p>{claim_text}</p>"
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
     def test_inline_claim_id_does_not_bind_following_paragraph(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
@@ -3385,6 +3426,23 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         self.assertIn(
             "Gesicherter Ereigniskern includes non-event claim CLM-DE-CELLER-NON-EVENT",
             output,
+        )
+
+    def test_event_core_separates_adjacent_matching_sections(self) -> None:
+        parser = validate.VisibleSectionTextParser("Gesicherter Ereigniskern")
+        parser.feed(
+            "<h2>Gesicherter Ereigniskern</h2>canonical"
+            "<h2>Gesicherter Ereigniskern</h2>CLM-DE-CELLER-NON-EVENT"
+        )
+        parser.close()
+        visible = parser.text()
+        self.assertRegex(
+            visible,
+            r"canonical\s+CLM-DE-CELLER-NON-EVENT",
+        )
+        self.assertRegex(
+            visible,
+            r"(?<![\w-])CLM-DE-CELLER-NON-EVENT(?![\w-])",
         )
 
     def test_event_core_accepts_event_claim_in_visible_admonition(self) -> None:

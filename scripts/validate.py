@@ -990,7 +990,6 @@ class VisibleTextParser(HTMLParser):
         joins_claim_heading = (
             tag == "p" and self._pending_claim_statement_paragraph
         )
-        self._pending_claim_statement_paragraph = False
         self._close_implicit_record(tag)
         boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
@@ -1045,6 +1044,12 @@ class VisibleTextParser(HTMLParser):
                 )
             )
         )
+        if (
+            self._pending_claim_statement_paragraph
+            and not joins_claim_heading
+            and record_boundary_visible
+        ):
+            self._pending_claim_statement_paragraph = False
         if (
             tag == "details"
             and closed
@@ -1203,6 +1208,8 @@ class VisibleSectionTextParser(VisibleTextParser):
                 else self._capture_before_h2
             )
             super().handle_endtag(tag)
+            if is_target and self._h2_visible and self._section_text:
+                self._section_text.append(" ")
             self._in_h2 = False
             self._h2_text = []
             self._h2_visible = False
