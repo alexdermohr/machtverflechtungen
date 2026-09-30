@@ -358,6 +358,32 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual([], parser.visible_items)
 
+    def test_visible_list_link_parser_honors_implicit_table_row_end(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr hidden><td>old</td>'
+            '<tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></td></tr></table>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_visible_list_link_parser_implicit_tr_does_not_cross_nested_table_scope(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr hidden><td>outer<table>'
+            '<tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></td></tr>'
+            '</table></td></tr></table>'
+        )
+        parser.close()
+
+        self.assertEqual([], parser.visible_items)
+
     def test_hidden_or_nonrendered_element_does_not_split_visible_source_id(self) -> None:
         hidden_or_nonrendered = (
             '<input type="hidden">',

@@ -833,6 +833,23 @@ class VisibleListLinkParser(HTMLParser):
                 del self._elements[index:]
                 return
 
+    def _close_implicit_table_row(self) -> None:
+        integration_boundaries = (
+            FOREIGN_ROOT_TAGS
+            | SVG_HTML_INTEGRATION_TAGS
+            | MATHML_TEXT_INTEGRATION_TAGS
+        )
+        for index in range(len(self._elements) - 1, -1, -1):
+            element_tag = self._elements[index].get("tag")
+            if (
+                element_tag in integration_boundaries
+                or element_tag in HTML_TABLE_SCOPE_BOUNDARY_TAGS
+            ):
+                return
+            if element_tag == "tr":
+                del self._elements[index:]
+                return
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
@@ -848,6 +865,8 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
             self._close_element("a")
         self._close_implicit_paragraph(tag)
+        if tag == "tr" and current_foreign_context is None:
+            self._close_implicit_table_row()
         if tag == "li":
             self._close_implicit_list_item()
         boundary_visible_before = self._text_visible()
