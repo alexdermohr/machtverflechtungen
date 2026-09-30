@@ -165,6 +165,16 @@ def render_site_markdown(value: str) -> str:
 FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
 SVG_HTML_INTEGRATION_TAGS = frozenset({"desc", "foreignobject", "title"})
 MATHML_TEXT_INTEGRATION_TAGS = frozenset({"mi", "mn", "mo", "ms", "mtext"})
+FOREIGN_HTML_BREAKOUT_START_TAGS = frozenset(
+    {
+        "b", "big", "blockquote", "body", "br", "center", "code", "dd",
+        "div", "dl", "dt", "em", "embed", "h1", "h2", "h3", "h4", "h5",
+        "h6", "head", "hr", "i", "img", "li", "listing", "menu", "meta",
+        "nobr", "ol", "p", "pre", "ruby", "s", "small", "span", "strong",
+        "strike", "sub", "sup", "table", "tt", "u", "ul", "var",
+    }
+)
+FOREIGN_HTML_BREAKOUT_FONT_ATTRS = frozenset({"color", "face", "size"})
 MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"annotation", "annotation-xml", "mphantom"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
 SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
@@ -241,6 +251,29 @@ def foreign_context(elements: list[dict[str, Any]]) -> str | None:
         if tag == "math":
             return "math"
     return None
+
+
+def active_foreign_root_index(elements: list[dict[str, Any]]) -> int | None:
+    for index in range(len(elements) - 1, -1, -1):
+        tag = elements[index].get("tag")
+        if tag in SVG_HTML_INTEGRATION_TAGS or tag in MATHML_TEXT_INTEGRATION_TAGS:
+            return None
+        if tag in FOREIGN_ROOT_TAGS:
+            return index
+    return None
+
+
+def foreign_html_breakout_start_tag(
+    tag: str, attrs: list[tuple[str, str | None]]
+) -> bool:
+    if tag in FOREIGN_HTML_BREAKOUT_START_TAGS:
+        return True
+    if tag != "font":
+        return False
+    return any(
+        name.casefold() in FOREIGN_HTML_BREAKOUT_FONT_ATTRS
+        for name, _value in attrs
+    )
 
 
 def foreign_text_visible(elements: list[dict[str, Any]]) -> bool:
@@ -726,7 +759,10 @@ class VisibleListLinkParser(HTMLParser):
             include_intrinsic_tag=False,
         ):
             return False
-        if foreign_attributes_ineligible(tag, attrs, current_foreign_context):
+        if (
+            current_foreign_context is not None
+            and foreign_attributes_ineligible(tag, attrs, current_foreign_context)
+        ):
             return False
         if (
             current_foreign_context == "svg"
@@ -879,11 +915,38 @@ class VisibleListLinkParser(HTMLParser):
                 del self._elements[index:]
                 return
 
+    def _close_implicit_heading(self, tag: str) -> None:
+        if (
+            tag in CLAIM_SECTION_BOUNDARY_TAGS
+            and self._elements
+            and self._elements[-1].get("tag") in CLAIM_SECTION_BOUNDARY_TAGS
+        ):
+            self.handle_endtag(str(self._elements[-1]["tag"]))
+
+    def _exit_foreign_context_for_html_breakout(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> bool:
+        if not foreign_html_breakout_start_tag(tag, attrs):
+            return False
+        root_index = active_foreign_root_index(self._elements)
+        if root_index is None:
+            return False
+        removed = self._elements[root_index:]
+        for _ in range(sum(element.get("tag") == "a" for element in removed)):
+            self._finalize_anchor()
+        for _ in range(sum(element.get("tag") == "li" for element in removed)):
+            self._finalize_current_item()
+        del self._elements[root_index:]
+        return True
+
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
         current_foreign_context = foreign_context(self._elements)
+        if current_foreign_context is not None:
+            self._exit_foreign_context_for_html_breakout(tag, attrs)
+            current_foreign_context = foreign_context(self._elements)
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         if (
@@ -894,6 +957,7 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
             self._close_element("a")
         self._close_implicit_paragraph(tag)
+        self._close_implicit_heading(tag)
         if current_foreign_context is None:
             self._close_implicit_container(tag)
         if tag == "li":
@@ -1004,6 +1068,8 @@ class VisibleListLinkParser(HTMLParser):
                 self.handle_endtag(tag)
             return
         if current_foreign_context is not None:
+            if foreign_html_breakout_start_tag(tag, attrs):
+                self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
 
@@ -1144,6 +1210,14 @@ class VisibleTextParser(HTMLParser):
     ) -> None:
         tag = tag.casefold()
         current_foreign_context = foreign_context(self._elements)
+        if (
+            current_foreign_context is not None
+            and foreign_html_breakout_start_tag(tag, attrs)
+        ):
+            root_index = active_foreign_root_index(self._elements)
+            if root_index is not None:
+                del self._elements[root_index:]
+            current_foreign_context = foreign_context(self._elements)
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         if (
@@ -1155,6 +1229,12 @@ class VisibleTextParser(HTMLParser):
         wants_claim_heading_join = (
             tag == "p" and self._pending_claim_statement_paragraph
         )
+        if (
+            tag in CLAIM_SECTION_BOUNDARY_TAGS
+            and self._elements
+            and self._elements[-1].get("tag") in CLAIM_SECTION_BOUNDARY_TAGS
+        ):
+            self.handle_endtag(str(self._elements[-1]["tag"]))
         self._close_implicit_record(tag)
         boundary_visible_before = self._text_visible()
         parent = self._elements[-1] if self._elements else None
@@ -1275,6 +1355,8 @@ class VisibleTextParser(HTMLParser):
                 self.handle_endtag(tag)
             return
         if current_foreign_context is not None:
+            if foreign_html_breakout_start_tag(tag, attrs):
+                self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
 

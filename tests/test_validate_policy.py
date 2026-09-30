@@ -446,6 +446,42 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_visible_list_link_parser_closes_open_heading_on_heading_start(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<h1 hidden>intro<h2><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_foreign_content_html_breakout_restores_visible_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<svg><p><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_self_closing_foreign_html_breakout_restores_visible_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<svg><p/><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_visible_list_link_parser_implicit_cell_does_not_cross_nested_table_scope(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -955,6 +991,10 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             '<p>VISIBLE</p>'
         )
         self.assertNotIn("UNPOSITIONED-SVG-TEXT", visible)
+        self.assertIn("VISIBLE", visible)
+
+    def test_foreign_content_html_breakout_restores_visible_text(self) -> None:
+        visible = validate.visible_markdown_text("<svg><div>VISIBLE</div>")
         self.assertIn("VISIBLE", visible)
 
     def test_mathml_text_after_self_closing_foreign_child_remains_visible(self) -> None:
@@ -2904,6 +2944,43 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_attributed_svg_root_stops_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<h3>{claim_id}</h3>'
+            '<svg width="100" height="100">'
+            '<rect width="100" height="100"/></svg>'
+            f'<p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_visible_text_parser_closes_open_heading_on_heading_start(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<h1 hidden>intro<h3>{claim_id}</h3><p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertTrue(
             validate.claim_occurrences_bound_to_wording(
                 parser.claim_binding_text(), claim_id, claim_text
             )
