@@ -2429,6 +2429,42 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                     )
                 )
 
+    def test_claim_heading_binding_ignores_nonrendered_void_elements(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        for hidden_html in ('<input type="hidden">', '<meta name="x" content="y">'):
+            with self.subTest(hidden_html=hidden_html):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"<h3>{claim_id}</h3>{hidden_html}<p>{claim_text}</p>"
+                )
+                parser.close()
+                self.assertTrue(
+                    validate.claim_occurrences_bound_to_wording(
+                        parser.claim_binding_text(), claim_id, claim_text
+                    )
+                )
+
+    def test_claim_heading_binding_stops_at_rendered_void_element(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<h3>{claim_id}</h3><input type="text"><p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
     def test_claim_heading_binding_stops_at_visible_intervening_inline(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (

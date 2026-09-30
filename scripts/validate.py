@@ -1035,8 +1035,16 @@ class VisibleTextParser(HTMLParser):
         if tag in CLAIM_SECTION_BOUNDARY_TAGS and self._text_visible():
             self._claim_heading_tag = tag
             self._claim_heading_text = []
+        lowered_attrs = {
+            name.casefold(): value.casefold() if isinstance(value, str) else value
+            for name, value in attrs
+        }
+        nonrendered_void = tag in {
+            "area", "base", "col", "link", "meta", "param", "source", "track"
+        } or (tag == "input" and lowered_attrs.get("type") == "hidden")
         record_boundary_visible = (
             self._text_visible()
+            and not nonrendered_void
             and not (
                 tag in self.VOID_TAGS
                 and VisibleListLinkParser._declares_hidden(
