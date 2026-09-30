@@ -1046,6 +1046,13 @@ class VisibleTextParser(HTMLParser):
             )
         )
         if (
+            tag == "details"
+            and closed
+            and boundary_visible_before
+            and not hidden
+        ):
+            record_boundary_visible = True
+        if (
             tag in CLAIM_SECTION_BOUNDARY_TAGS | CLAIM_RECORD_START_BOUNDARY_TAGS
             and record_boundary_visible
             and not joins_claim_heading

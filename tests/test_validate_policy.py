@@ -2486,6 +2486,44 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             )
         )
 
+    def test_closed_details_without_summary_splits_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<span>{claim_id} </span><details>collapsed</details>"
+            f"<span>{claim_text}</span>"
+        )
+        parser.close()
+
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_hidden_closed_details_does_not_split_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f"<span>{claim_id} </span><details hidden>collapsed</details>"
+            f"<span>{claim_text}</span>"
+        )
+        parser.close()
+
+        self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
     def test_hidden_thematic_break_does_not_split_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
