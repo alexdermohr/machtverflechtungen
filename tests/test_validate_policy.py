@@ -4829,6 +4829,17 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_event_core_section_recovers_previous_unclosed_heading(self) -> None:
+        parser = validate.VisibleSectionTextParser("Gesicherter Ereigniskern")
+        parser.feed(
+            "<h2>Previous"
+            "<h2>Gesicherter Ereigniskern</h2>"
+            "<p>CLM-X visible claim</p>"
+            "<h2>Next</h2>"
+        )
+        parser.close()
+        self.assertEqual("CLM-X visible claim", parser.text())
+
     def test_event_core_section_recovers_mismatched_heading_end_tags(self) -> None:
         for closing_tag in ("h1", "h3", "h4", "h5", "h6"):
             with self.subTest(closing_tag=closing_tag):

@@ -2023,16 +2023,14 @@ class VisibleSectionTextParser(VisibleTextParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
-        if tag == "h2":
-            self._capture_before_h2 = self._capture
-            self._in_h2 = True
-            self._h2_text = []
-            self._h2_visible = False
         super().handle_starttag(tag, attrs)
         if tag == "h1":
             if self._text_visible():
                 self._capture = False
         elif tag == "h2":
+            self._capture_before_h2 = self._capture
+            self._in_h2 = True
+            self._h2_text = []
             self._h2_visible = self._text_visible()
 
     def _append_text(self, data: str) -> None:
