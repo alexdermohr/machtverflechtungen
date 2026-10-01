@@ -422,6 +422,20 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_noscript_raw_text_comment_closer_exposes_following_source(self) -> None:
+        for start in ("<noscript>", "<noscript/>"):
+            with self.subTest(start=start):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    f'{start}<!-- </noscript> --><ul><li>SRC-A '
+                    '<a href="https://example.invalid/a">A</a></li></ul>'
+                )
+                parser.close()
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
     def test_noscript_raw_text_does_not_trigger_table_recovery_for_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -4744,6 +4758,16 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_noscript_raw_text_comment_closer_exposes_following_text(self) -> None:
+        for start in ("<noscript>", "<noscript/>"):
+            with self.subTest(start=start):
+                parser = validate.VisibleTextParser()
+                parser.feed(
+                    f"{start}<!-- </noscript> --><p>VISIBLE-AFTER-NOSCRIPT</p>"
+                )
+                parser.close()
+                self.assertEqual("--> VISIBLE-AFTER-NOSCRIPT", parser.text())
 
     def test_noscript_raw_text_does_not_trigger_recovery_for_visible_text(self) -> None:
         parser = validate.VisibleTextParser()

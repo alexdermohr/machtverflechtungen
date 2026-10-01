@@ -1060,6 +1060,7 @@ RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
 
 
 class VisibleListLinkParser(HTMLParser):
+    CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS + ("noscript",)
     VOID_TAGS = frozenset(
         {
             "area",
@@ -1651,6 +1652,11 @@ class VisibleListLinkParser(HTMLParser):
                 self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
+        if (
+            tag == "noscript"
+            and active_html_noscript_index(self._elements) is not None
+        ):
+            self.set_cdata_mode("noscript")
 
     def handle_data(self, data: str) -> None:
         visibility_elements = self._elements
@@ -1763,6 +1769,7 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 
 
 class VisibleTextParser(HTMLParser):
+    CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS + ("noscript",)
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
     TEXT_BOUNDARY_TAGS = VISIBLE_TEXT_BOUNDARY_TAGS
     RENDERED_HIDDEN_CONTENT_RECORD_TAGS = RENDERED_ELEMENT_BOUNDARY_TAGS
@@ -2128,6 +2135,11 @@ class VisibleTextParser(HTMLParser):
                 self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
+        if (
+            tag == "noscript"
+            and active_html_noscript_index(self._elements) is not None
+        ):
+            self.set_cdata_mode("noscript")
 
     def _append_text(self, data: str) -> None:
         self._text.append(data)
