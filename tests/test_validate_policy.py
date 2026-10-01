@@ -344,6 +344,38 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual([], parser.visible_items)
 
+    def test_table_mode_start_tags_exit_hidden_select_for_source(self) -> None:
+        source_item = (
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        samples = {
+            "caption": f"<caption>{source_item}</caption>",
+            "col": f"<col>{source_item}",
+            "colgroup": f"<colgroup></colgroup>{source_item}",
+            "table": f"<table>{source_item}</table>",
+            "tbody": f"<tbody><tr><td>{source_item}</td></tr></tbody>",
+            "td": f"<td>{source_item}</td>",
+            "tfoot": f"<tfoot><tr><td>{source_item}</td></tr></tfoot>",
+            "th": f"<th>{source_item}</th>",
+            "thead": f"<thead><tr><td>{source_item}</td></tr></thead>",
+            "tr": f"<tr><td>{source_item}</td></tr>",
+        }
+        for tag, suffix in samples.items():
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(f"<table><select hidden>{suffix}</table>")
+                parser.close()
+
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
+        parser = validate.VisibleListLinkParser()
+        parser.feed(f"<select hidden><tr><td>{source_item}</td></tr>")
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -4563,6 +4595,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
 
+        self.assertEqual("", parser.text())
+
+    def test_table_mode_start_tags_exit_hidden_select_for_visible_text(self) -> None:
+        visible = "<p>VISIBLE-AFTER-TABLE-SELECT</p>"
+        samples = {
+            "caption": f"<caption>{visible}</caption>",
+            "col": f"<col>{visible}",
+            "colgroup": f"<colgroup></colgroup>{visible}",
+            "table": f"<table>{visible}</table>",
+            "tbody": f"<tbody><tr><td>{visible}</td></tr></tbody>",
+            "td": f"<td>{visible}</td>",
+            "tfoot": f"<tfoot><tr><td>{visible}</td></tr></tfoot>",
+            "th": f"<th>{visible}</th>",
+            "thead": f"<thead><tr><td>{visible}</td></tr></thead>",
+            "tr": f"<tr><td>{visible}</td></tr>",
+        }
+        for tag, suffix in samples.items():
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<table><select hidden>{suffix}</table>")
+                parser.close()
+
+                self.assertEqual("VISIBLE-AFTER-TABLE-SELECT", parser.text())
+
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<select hidden><tr><td>{visible}</td></tr>")
+        parser.close()
         self.assertEqual("", parser.text())
 
     def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:

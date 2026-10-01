@@ -634,6 +634,23 @@ def active_html_table_insertion_index(
     return None
 
 
+HTML_TABLE_SELECT_EXIT_START_TAGS = frozenset(
+    {"caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"}
+)
+
+
+def active_html_table_select_index(
+    elements: list[dict[str, Any]],
+) -> int | None:
+    """Return an active HTML select only while the parser is in table context."""
+    select_index = active_html_select_index(elements)
+    if select_index is None:
+        return None
+    if active_html_table_insertion_index(elements[:select_index]) is None:
+        return None
+    return select_index
+
+
 HTML_COLGROUP_IMPLICIT_END_START_TAGS = frozenset({"tbody", "thead", "tfoot", "tr"})
 
 
@@ -1345,6 +1362,13 @@ class VisibleListLinkParser(HTMLParser):
                 self._document_inert or self._has_attribute(attrs, "inert")
             )
             return
+        if (
+            tag in HTML_TABLE_SELECT_EXIT_START_TAGS
+            and namespace == "html"
+        ):
+            select_index = active_html_table_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
@@ -1779,6 +1803,13 @@ class VisibleTextParser(HTMLParser):
                 )
             )
             return
+        if (
+            tag in HTML_TABLE_SELECT_EXIT_START_TAGS
+            and namespace == "html"
+        ):
+            select_index = active_html_table_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
