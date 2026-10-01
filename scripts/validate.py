@@ -596,6 +596,18 @@ def active_html_head_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+def active_html_noscript_index(elements: list[dict[str, Any]]) -> int | None:
+    """Return the active HTML noscript raw-text element, if any."""
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if (
+            element.get("tag") == "noscript"
+            and element_namespace(element) == "html"
+        ):
+            return index
+    return None
+
+
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
 ) -> dict[str, str | None]:
@@ -1438,6 +1450,8 @@ class VisibleListLinkParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        if active_html_noscript_index(self._elements) is not None:
+            return
         current_foreign_context = foreign_context(self._elements)
         if current_foreign_context is not None:
             self._exit_foreign_context_for_html_breakout(tag, attrs)
@@ -1655,6 +1669,12 @@ class VisibleListLinkParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        noscript_index = active_html_noscript_index(self._elements)
+        if noscript_index is not None:
+            if tag != "noscript":
+                return
+            self._pop_elements_from(noscript_index)
+            return
         if tag in self.VOID_TAGS:
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
@@ -1888,6 +1908,8 @@ class VisibleTextParser(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        if active_html_noscript_index(self._elements) is not None:
+            return
         current_foreign_context = foreign_context(self._elements)
         if (
             current_foreign_context is not None
@@ -2134,6 +2156,12 @@ class VisibleTextParser(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        noscript_index = active_html_noscript_index(self._elements)
+        if noscript_index is not None:
+            if tag != "noscript":
+                return
+            self._pop_elements_from(noscript_index)
+            return
         if tag in self.VOID_TAGS:
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])

@@ -422,6 +422,15 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_noscript_raw_text_does_not_trigger_table_recovery_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><noscript><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></noscript>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -4735,6 +4744,15 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_noscript_raw_text_does_not_trigger_recovery_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<select hidden><noscript><input></noscript>'
+            '<p>HIDDEN-AFTER-SELECT</p></select>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
 
     def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
