@@ -2311,11 +2311,15 @@ class VisibleSectionTextParser(VisibleTextParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        heading_ignored_by_select = (
+            tag == "h2"
+            and active_html_select_index(self._elements) is not None
+        )
         super().handle_starttag(tag, attrs)
         if tag == "h1":
             if self._text_visible():
                 self._capture = False
-        elif tag == "h2":
+        elif tag == "h2" and not heading_ignored_by_select:
             self._capture_before_h2 = self._capture
             self._in_h2 = True
             self._h2_text = []
