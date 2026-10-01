@@ -376,6 +376,52 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_nested_table_context_exits_hidden_select_for_source(self) -> None:
+        source_item = (
+            '<ul><li>SRC-A <a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        samples = {
+            "caption": (
+                f"<table><caption hidden><select hidden><tr><td>{source_item}</td></tr>"
+            ),
+            "cell": (
+                f"<table><tr><td hidden><select hidden><tr><td>{source_item}</td></tr>"
+            ),
+        }
+        for context, markup in samples.items():
+            with self.subTest(context=context):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(markup)
+                parser.close()
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
+    def test_body_start_closes_open_head_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<head><body><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_table_row_clears_fostered_hidden_element_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><p hidden><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -4623,6 +4669,72 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.feed(f"<select hidden><tr><td>{visible}</td></tr>")
         parser.close()
         self.assertEqual("", parser.text())
+
+    def test_nested_table_context_exits_hidden_select_for_visible_text(self) -> None:
+        samples = {
+            "caption": (
+                "<table><caption hidden><select hidden><tr><td>"
+                "<p>VISIBLE-CAPTION-SELECT</p></td></tr>"
+            ),
+            "cell": (
+                "<table><tr><td hidden><select hidden><tr><td>"
+                "<p>VISIBLE-CELL-SELECT</p></td></tr>"
+            ),
+        }
+        expected = {
+            "caption": "VISIBLE-CAPTION-SELECT",
+            "cell": "VISIBLE-CELL-SELECT",
+        }
+        for context, markup in samples.items():
+            with self.subTest(context=context):
+                parser = validate.VisibleTextParser()
+                parser.feed(markup)
+                parser.close()
+                self.assertEqual(expected[context], parser.text())
+
+    def test_body_start_closes_open_head_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("<head><body><p>VISIBLE-AFTER-HEAD</p>")
+        parser.close()
+        self.assertEqual("VISIBLE-AFTER-HEAD", parser.text())
+
+    def test_table_row_clears_fostered_hidden_element_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("<table><p hidden><tr><td><p>VISIBLE-ROW</p>")
+        parser.close()
+        self.assertEqual("VISIBLE-ROW", parser.text())
+
+    def test_uppercase_visually_hidden_class_still_delimits_claim_binding(self) -> None:
+        claim_id = "CLM-A"
+        claim_text = "canonical wording"
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<span>{claim_id} </span>'
+            '<hr class="VISUALLY-HIDDEN">'
+            f'<span>{claim_text}</span>'
+        )
+        parser.close()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_lowercase_visually_hidden_class_does_not_delimit_claim_binding(self) -> None:
+        claim_id = "CLM-A"
+        claim_text = "canonical wording"
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<span>{claim_id} </span>'
+            '<hr class="visually-hidden">'
+            f'<span>{claim_text}</span>'
+        )
+        parser.close()
+        self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
 
     def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(

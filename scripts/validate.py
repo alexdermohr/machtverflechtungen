@@ -578,6 +578,23 @@ def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
 
 HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
 
+HTML_HEAD_CONTENT_START_TAGS = frozenset(
+    {"base", "basefont", "bgsound", "link", "meta", "noframes", "noscript", "script", "style", "template", "title"}
+)
+
+
+def active_html_head_index(elements: list[dict[str, Any]]) -> int | None:
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if element_namespace(element) != "html":
+            return None
+        tag = element.get("tag")
+        if tag == "head":
+            return index
+        if tag in {"body", "html", "template"}:
+            return None
+    return None
+
 
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
@@ -587,6 +604,17 @@ def first_html_attribute_values(
         key = name.casefold()
         if key not in values:
             values[key] = value.casefold() if isinstance(value, str) else value
+    return values
+
+
+def first_html_attribute_original_values(
+    attrs: list[tuple[str, str | None]],
+) -> dict[str, str | None]:
+    values: dict[str, str | None] = {}
+    for name, value in attrs:
+        key = name.casefold()
+        if key not in values:
+            values[key] = value
     return values
 
 
@@ -634,6 +662,22 @@ def active_html_table_insertion_index(
     return None
 
 
+def active_html_table_scope_index(
+    elements: list[dict[str, Any]],
+) -> int | None:
+    """Return the nearest HTML table still in table scope."""
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if element_namespace(element) != "html":
+            return None
+        tag = element.get("tag")
+        if tag == "table":
+            return index
+        if tag in {"html", "template"}:
+            return None
+    return None
+
+
 HTML_TABLE_SELECT_EXIT_START_TAGS = frozenset(
     {"caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"}
 )
@@ -642,13 +686,61 @@ HTML_TABLE_SELECT_EXIT_START_TAGS = frozenset(
 def active_html_table_select_index(
     elements: list[dict[str, Any]],
 ) -> int | None:
-    """Return an active HTML select only while the parser is in table context."""
+    """Return an active HTML select only while a table remains in table scope."""
     select_index = active_html_select_index(elements)
     if select_index is None:
         return None
-    if active_html_table_insertion_index(elements[:select_index]) is None:
+    if active_html_table_scope_index(elements[:select_index]) is None:
         return None
     return select_index
+
+
+HTML_TABLE_CONTEXT_RESET_START_TAGS = frozenset(
+    {"caption", "col", "colgroup", "tbody", "td", "tfoot", "th", "thead", "tr"}
+)
+
+
+def html_table_context_cleanup_index(
+    elements: list[dict[str, Any]], tag: str
+) -> int | None:
+    """Return the first stack index to pop before a table-structure start."""
+    if tag not in HTML_TABLE_CONTEXT_RESET_START_TAGS:
+        return None
+    table_index = active_html_table_scope_index(elements)
+    if table_index is None:
+        return None
+
+    keep_index = table_index
+    if tag == "col":
+        for index in range(len(elements) - 1, table_index, -1):
+            element = elements[index]
+            if (
+                element_namespace(element) == "html"
+                and element.get("tag") == "colgroup"
+            ):
+                keep_index = index
+                break
+    elif tag == "tr":
+        for index in range(len(elements) - 1, table_index, -1):
+            element = elements[index]
+            if (
+                element_namespace(element) == "html"
+                and element.get("tag") in {"tbody", "thead", "tfoot"}
+            ):
+                keep_index = index
+                break
+    elif tag in {"td", "th"}:
+        for index in range(len(elements) - 1, table_index, -1):
+            element = elements[index]
+            if (
+                element_namespace(element) == "html"
+                and element.get("tag") == "tr"
+            ):
+                keep_index = index
+                break
+
+    pop_index = keep_index + 1
+    return pop_index if pop_index < len(elements) else None
 
 
 HTML_COLGROUP_IMPLICIT_END_START_TAGS = frozenset({"tbody", "thead", "tfoot", "tr"})
@@ -1030,7 +1122,8 @@ class VisibleListLinkParser(HTMLParser):
         include_intrinsic_tag: bool = True,
     ) -> bool:
         lowered = first_html_attribute_values(attrs)
-        class_value = lowered.get("class")
+        original = first_html_attribute_original_values(attrs)
+        class_value = original.get("class")
         class_tokens = (
             set(class_value.split()) if isinstance(class_value, str) else set()
         )
@@ -1099,7 +1192,8 @@ class VisibleListLinkParser(HTMLParser):
             r"\s+", "", style_value
         ):
             return False
-        class_value = lowered.get("class")
+        original = first_html_attribute_original_values(attrs)
+        class_value = original.get("class")
         if (
             isinstance(class_value, str)
             and "visually-hidden" in class_value.split()
@@ -1351,6 +1445,13 @@ class VisibleListLinkParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if namespace == "html":
+            head_index = active_html_head_index(self._elements)
+            if head_index is not None:
+                if tag == "head":
+                    return
+                if tag not in HTML_HEAD_CONTENT_START_TAGS:
+                    self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
             self._document_hidden = (
                 self._document_hidden
@@ -1369,6 +1470,10 @@ class VisibleListLinkParser(HTMLParser):
             select_index = active_html_table_select_index(self._elements)
             if select_index is not None:
                 self._pop_elements_from(select_index)
+        if namespace == "html":
+            cleanup_index = html_table_context_cleanup_index(self._elements, tag)
+            if cleanup_index is not None:
+                self._pop_elements_from(cleanup_index)
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
@@ -1795,6 +1900,13 @@ class VisibleTextParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if namespace == "html":
+            head_index = active_html_head_index(self._elements)
+            if head_index is not None:
+                if tag == "head":
+                    return
+                if tag not in HTML_HEAD_CONTENT_START_TAGS:
+                    self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
             self._document_hidden = (
                 self._document_hidden
@@ -1810,6 +1922,10 @@ class VisibleTextParser(HTMLParser):
             select_index = active_html_table_select_index(self._elements)
             if select_index is not None:
                 self._pop_elements_from(select_index)
+        if namespace == "html":
+            cleanup_index = html_table_context_cleanup_index(self._elements, tag)
+            if cleanup_index is not None:
+                self._pop_elements_from(cleanup_index)
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
