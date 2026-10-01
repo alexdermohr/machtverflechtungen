@@ -2044,7 +2044,12 @@ class VisibleSectionTextParser(VisibleTextParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
-        if tag == "h2" and self._in_h2:
+        recovered_heading = (
+            explicit_end_tag_scope_target(self._elements, tag)
+            if self._in_h2 and tag in CLAIM_SECTION_BOUNDARY_TAGS
+            else None
+        )
+        if recovered_heading == "h2":
             heading_text = " ".join("".join(self._h2_text).split())
             is_target = heading_text == self._wanted_heading
             capture_after_heading = (
