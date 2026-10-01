@@ -824,6 +824,54 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_document_level_hidden_attributes_persist_for_source(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    f"<{tag} hidden></{tag}><ul><li>SRC-A "
+                    '<a href="https://example.invalid/a">A</a></li></ul>'
+                )
+                parser.close()
+                self.assertEqual([], parser.visible_items)
+
+    def test_document_level_plain_tags_do_not_hide_source(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    f"<{tag}></{tag}><ul><li>SRC-A "
+                    '<a href="https://example.invalid/a">A</a></li></ul>'
+                )
+                parser.close()
+                self.assertEqual(
+                    [("SRC-A A", [("https://example.invalid/a", "A")])],
+                    parser.visible_items,
+                )
+
+    def test_anchor_end_uses_adoption_agency_recovery_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>SRC-A <a href="https://example.invalid/a">'
+            "<div></a>Visible label</div></li></ul>"
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A Visible label", [("https://example.invalid/a", "")])],
+            parser.visible_items,
+        )
+
+    def test_document_level_hidden_attributes_apply_retroactively_for_source(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(
+                    '<ul><li>SRC-A <a href="https://example.invalid/a">'
+                    f"A</a></li></ul><{tag} hidden></{tag}>"
+                )
+                parser.close()
+                self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_finalizes_open_anchor_and_item_at_eof(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3608,6 +3656,30 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.feed('<form hidden><svg><form></form><p>VISIBLE</p></svg></form>')
         parser.close()
         self.assertEqual("", parser.text())
+
+    def test_document_level_hidden_attributes_persist_for_visible_text(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<{tag} hidden></{tag}><p>VISIBLE</p>")
+                parser.close()
+                self.assertEqual("", parser.text())
+
+    def test_document_level_plain_tags_do_not_hide_visible_text(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<{tag}></{tag}><p>VISIBLE</p>")
+                parser.close()
+                self.assertEqual("VISIBLE", parser.text())
+
+    def test_document_level_hidden_attributes_apply_retroactively_for_visible_text(self) -> None:
+        for tag in ("html", "body"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<p>VISIBLE</p><{tag} hidden></{tag}>")
+                parser.close()
+                self.assertEqual("", parser.text())
 
     def test_styled_rendered_separator_stops_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

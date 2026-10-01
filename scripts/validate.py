@@ -553,6 +553,16 @@ def explicit_form_end_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+def explicit_anchor_end_index(elements: list[dict[str, Any]]) -> int | None:
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if element.get("tag") == "a" and element_namespace(element) == "html":
+            return index
+        if element_matches_boundary(element, HTML_SCOPE_BOUNDARY_TAGS):
+            return None
+    return None
+
+
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
 ) -> dict[str, str | None]:
@@ -937,6 +947,8 @@ class VisibleListLinkParser(HTMLParser):
         self._items: list[dict[str, Any]] = []
         self._anchors: list[dict[str, Any]] = []
         self._elements: list[dict[str, Any]] = []
+        self._document_hidden = False
+        self._document_inert = False
         self._form_element_active = False
         self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
 
@@ -946,6 +958,12 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_current_item()
         while self._anchors:
             self._finalize_anchor()
+        if self._document_hidden:
+            self.visible_items.clear()
+        elif self._document_inert:
+            self.visible_items = [
+                (text, []) for text, _links in self.visible_items
+            ]
 
     @staticmethod
     def _declares_hidden(
@@ -1090,7 +1108,9 @@ class VisibleListLinkParser(HTMLParser):
             if elements is None
             else elements
         )
-        return any(element.get("inert") is True for element in active)
+        return self._document_inert or any(
+            element.get("inert") is True for element in active
+        )
 
     def _text_visible(
         self, elements: list[dict[str, Any]] | None = None
@@ -1102,6 +1122,7 @@ class VisibleListLinkParser(HTMLParser):
         )
         return (
             not self._author_stylesheet_present
+            and not self._document_hidden
             and not self._current_hidden(active)
             and foreign_text_visible(active)
         )
@@ -1274,6 +1295,17 @@ class VisibleListLinkParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if tag in {"html", "body"} and namespace == "html":
+            self._document_hidden = (
+                self._document_hidden
+                or self._declares_hidden(
+                    tag, attrs, self._author_stylesheet_present
+                )
+            )
+            self._document_inert = (
+                self._document_inert or self._has_attribute(attrs, "inert")
+            )
+            return
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
@@ -1439,8 +1471,19 @@ class VisibleListLinkParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
+        current_foreign_context = foreign_context(self._elements)
+        if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if tag == "a" and current_foreign_context is None:
+            anchor_index = explicit_anchor_end_index(self._elements)
+            if anchor_index is None:
+                return
+            if self._anchors:
+                self._finalize_anchor()
+            del self._elements[anchor_index]
+            return
         html_form_end = (
-            tag == "form" and foreign_context(self._elements) is None
+            tag == "form" and current_foreign_context is None
         )
         if html_form_end:
             if not self._form_element_active:
@@ -1511,6 +1554,7 @@ class VisibleTextParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self._author_stylesheet_present = author_stylesheet_present
         self._elements: list[dict[str, Any]] = []
+        self._document_hidden = False
         self._form_element_active = False
         self._text: list[str] = []
         self._claim_heading_tag: str | None = None
@@ -1537,6 +1581,7 @@ class VisibleTextParser(HTMLParser):
         )
         return (
             not self._author_stylesheet_present
+            and not self._document_hidden
             and not self._current_hidden(active)
             and foreign_text_visible(active)
         )
@@ -1658,6 +1703,14 @@ class VisibleTextParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if tag in {"html", "body"} and namespace == "html":
+            self._document_hidden = (
+                self._document_hidden
+                or VisibleListLinkParser._declares_hidden(
+                    tag, attrs, self._author_stylesheet_present
+                )
+            )
+            return
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
@@ -1849,8 +1902,17 @@ class VisibleTextParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
+        current_foreign_context = foreign_context(self._elements)
+        if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if tag == "a" and current_foreign_context is None:
+            anchor_index = explicit_anchor_end_index(self._elements)
+            if anchor_index is None:
+                return
+            del self._elements[anchor_index]
+            return
         html_form_end = (
-            tag == "form" and foreign_context(self._elements) is None
+            tag == "form" and current_foreign_context is None
         )
         if html_form_end:
             if not self._form_element_active:
@@ -1915,6 +1977,8 @@ class VisibleTextParser(HTMLParser):
             )
 
     def _normalized_text(self) -> str:
+        if self._document_hidden:
+            return ""
         return " ".join("".join(self._text).split())
 
     def text(self) -> str:
@@ -2000,6 +2064,8 @@ class VisibleSectionTextParser(VisibleTextParser):
         super().handle_endtag(tag)
 
     def text(self) -> str:
+        if self._document_hidden:
+            return ""
         return " ".join("".join(self._section_text).split())
 
 
