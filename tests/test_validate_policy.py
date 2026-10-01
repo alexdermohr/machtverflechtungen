@@ -422,6 +422,70 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                     parser.visible_items,
                 )
 
+    def test_nested_table_start_closes_hidden_outer_table_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table hidden><table><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_nested_table_inside_hidden_cell_stays_hidden_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr><td hidden><table><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></table></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_table_foster_parenting_exposes_non_table_source_content(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table hidden><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_hidden_table_cell_still_hides_source_content(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table hidden><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_in_table_form_start_does_not_hide_source_row(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><form hidden><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_form_inside_table_cell_still_hides_source_content(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><tr><td><form hidden><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></form></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_visible_list_link_parser_honors_implicit_table_section_end(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3350,6 +3414,77 @@ class EvidencePolicyValidationTests(unittest.TestCase):
                 parser.claim_binding_text(), claim_id, claim_text
             )
         )
+
+    def test_nested_table_start_closes_hidden_outer_table_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table hidden><table><tr><td><p>VISIBLE</p></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_nested_table_inside_hidden_cell_stays_hidden_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><tr><td hidden><table><tr><td><p>VISIBLE</p>'
+            '</td></tr></table></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_hidden_table_select_does_not_break_claim_binding(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            f'<h3>{claim_id}</h3><table hidden><select><option>X</option></select>'
+            f'</table><p>{claim_text}</p>'
+        )
+        parser.close()
+        self.assertTrue(
+            validate.claim_occurrences_bound_to_wording(
+                parser.claim_binding_text(), claim_id, claim_text
+            )
+        )
+
+    def test_table_foster_parenting_exposes_non_table_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<table hidden><p>VISIBLE</p></table>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_hidden_table_cell_still_hides_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<table hidden><tr><td><p>VISIBLE</p></td></tr></table>')
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_in_table_rawtext_elements_remain_hidden_for_visible_text(self) -> None:
+        for tag in ("style", "script"):
+            with self.subTest(tag=tag):
+                parser = validate.VisibleTextParser()
+                parser.feed(f"<table><{tag}>HIDDEN_RAWTEXT</{tag}></table>")
+                parser.close()
+                self.assertEqual("", parser.text())
+
+    def test_in_table_form_start_does_not_hide_visible_text_row(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><form hidden><tr><td><p>VISIBLE</p></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_form_inside_table_cell_still_hides_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><tr><td><form hidden><p>VISIBLE</p></form></td></tr></table>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
 
     def test_explicit_div_end_does_not_cross_table_cell_scope_for_visible_text(self) -> None:
         parser = validate.VisibleTextParser()

@@ -464,7 +464,7 @@ HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"
 HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"ol", "ul"})
 HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
 HTML_TABLE_SCOPE_EXPLICIT_END_TAGS = frozenset(
-    {"tbody", "td", "tfoot", "th", "thead", "tr"}
+    {"table", "tbody", "td", "tfoot", "th", "thead", "tr"}
 )
 HTML_NORMAL_SCOPE_EXPLICIT_END_TAGS = CLAIM_SECTION_BOUNDARY_TAGS | frozenset(
     {
@@ -562,6 +562,98 @@ def first_html_attribute_values(
         if key not in values:
             values[key] = value.casefold() if isinstance(value, str) else value
     return values
+
+
+HTML_TABLE_FOSTER_CONTEXT_BLOCKERS = frozenset(
+    {"caption", "script", "select", "style", "td", "th", "template"}
+)
+HTML_TABLE_FOSTER_EXEMPT_START_TAGS = frozenset(
+    {
+        "caption",
+        "col",
+        "colgroup",
+        "form",
+        "script",
+        "select",
+        "style",
+        "table",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "template",
+        "tr",
+    }
+)
+
+
+def active_html_table_insertion_index(
+    elements: list[dict[str, Any]],
+) -> int | None:
+    """Return the active HTML table when tokens use in-table recovery.
+
+    Cells, captions and templates switch to insertion modes where ordinary
+    descendants are not foster-parented out of the table.
+    """
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if element_namespace(element) != "html":
+            return None
+        tag = element.get("tag")
+        if tag in HTML_TABLE_FOSTER_CONTEXT_BLOCKERS:
+            return None
+        if tag == "table":
+            return index
+    return None
+
+
+def foster_parent_context_elements(
+    elements: list[dict[str, Any]], table_index: int
+) -> list[dict[str, Any]]:
+    """Project the effective ancestry of content foster-parented before table."""
+    return [
+        *elements[:table_index],
+        *[
+            element
+            for element in elements[table_index + 1 :]
+            if element.get("foster_parented") is True
+        ],
+    ]
+
+
+def effective_html_visibility_elements(
+    elements: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    table_index = active_html_table_insertion_index(elements)
+    if table_index is None:
+        return elements
+    fostered = [
+        element
+        for element in elements[table_index + 1 :]
+        if element.get("foster_parented") is True
+    ]
+    if not fostered:
+        return elements
+    return [*elements[:table_index], *fostered]
+
+
+def html_start_tag_foster_parent_index(
+    elements: list[dict[str, Any]],
+    tag: str,
+    attrs: list[tuple[str, str | None]],
+) -> int | None:
+    table_index = active_html_table_insertion_index(elements)
+    if table_index is None:
+        return None
+    if tag in HTML_TABLE_FOSTER_EXEMPT_START_TAGS:
+        return None
+    if (
+        tag == "input"
+        and first_html_attribute_values(attrs).get("type") == "hidden"
+    ):
+        return None
+    return table_index
 
 
 HTML_SPECIAL_TAGS = frozenset(
@@ -980,26 +1072,54 @@ class VisibleListLinkParser(HTMLParser):
             return tag in RENDERED_ELEMENT_BOUNDARY_TAGS
         return True
 
-    def _regular_hidden(self) -> bool:
-        return bool(self._elements and self._elements[-1]["hidden"])
+    def _regular_hidden(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
+        return bool(active and active[-1]["hidden"])
 
-    def _current_inert(self) -> bool:
-        return any(element.get("inert") is True for element in self._elements)
+    def _current_inert(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
+        return any(element.get("inert") is True for element in active)
 
-    def _text_visible(self) -> bool:
+    def _text_visible(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
         return (
             not self._author_stylesheet_present
-            and not self._current_hidden()
-            and foreign_text_visible(self._elements)
+            and not self._current_hidden(active)
+            and foreign_text_visible(active)
         )
 
-    def _current_hidden(self) -> bool:
-        if self._regular_hidden():
+    def _current_hidden(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
+        if self._regular_hidden(active):
             return True
-        for index, element in enumerate(self._elements):
+        for index, element in enumerate(active):
             if element.get("tag") != "details" or element.get("closed") is not True:
                 continue
-            descendants = self._elements[index + 1 :]
+            descendants = active[index + 1 :]
             if (
                 not descendants
                 or descendants[0].get("summary_for_closed_details") is not True
@@ -1012,6 +1132,19 @@ class VisibleListLinkParser(HTMLParser):
             if self._elements[index].get("tag") == tag:
                 del self._elements[index:]
                 return
+
+    def _pop_elements_from(self, index: int) -> None:
+        removed = self._elements[index:]
+        for _ in range(sum(element.get("tag") == "a" for element in removed)):
+            self._finalize_anchor()
+        for _ in range(sum(element.get("tag") == "li" for element in removed)):
+            self._finalize_current_item()
+        del self._elements[index:]
+
+    def _close_active_table_for_nested_start(self) -> None:
+        table_index = active_html_table_insertion_index(self._elements)
+        if table_index is not None:
+            self._pop_elements_from(table_index)
 
     def _append_text_boundary(self) -> None:
         if self._items:
@@ -1141,10 +1274,14 @@ class VisibleListLinkParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if tag == "table" and namespace == "html":
+            self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
             if self._form_element_active:
                 return
             self._form_element_active = True
+            if active_html_table_insertion_index(self._elements) is not None:
+                return
         if (
             tag == "a"
             and current_foreign_context is None
@@ -1158,8 +1295,18 @@ class VisibleListLinkParser(HTMLParser):
             self._close_implicit_container(tag)
         if tag == "li":
             self._close_implicit_list_item()
-        boundary_visible_before = self._text_visible()
-        parent = self._elements[-1] if self._elements else None
+        foster_table_index = (
+            html_start_tag_foster_parent_index(self._elements, tag, attrs)
+            if current_foreign_context is None and namespace == "html"
+            else None
+        )
+        visibility_elements = (
+            foster_parent_context_elements(self._elements, foster_table_index)
+            if foster_table_index is not None
+            else self._elements
+        )
+        boundary_visible_before = self._text_visible(visibility_elements)
+        parent = visibility_elements[-1] if visibility_elements else None
         summary_for_closed_details = (
             tag == "summary"
             and isinstance(parent, dict)
@@ -1170,7 +1317,7 @@ class VisibleListLinkParser(HTMLParser):
         if summary_for_closed_details:
             parent["summary_seen"] = True
 
-        current_foreign_context = foreign_context(self._elements)
+        current_foreign_context = foreign_context(visibility_elements)
         element_renders_boundary = (
             boundary_visible_before
             and self._renders_boundary(
@@ -1191,7 +1338,7 @@ class VisibleListLinkParser(HTMLParser):
         if text_boundary_visible:
             self._append_text_boundary()
         hidden = (
-            self._regular_hidden()
+            self._regular_hidden(visibility_elements)
             or self._declares_hidden(
                 tag, attrs, self._author_stylesheet_present
             )
@@ -1213,6 +1360,7 @@ class VisibleListLinkParser(HTMLParser):
                 {
                     "tag": tag,
                     "namespace": namespace,
+                    "foster_parented": foster_table_index is not None,
                     "hidden": hidden,
                     "inert": self._has_attribute(attrs, "inert"),
                     "closed": closed,
@@ -1271,7 +1419,14 @@ class VisibleListLinkParser(HTMLParser):
         self.handle_starttag(tag, attrs)
 
     def handle_data(self, data: str) -> None:
-        if not self._text_visible():
+        visibility_elements = self._elements
+        if data.strip():
+            table_index = active_html_table_insertion_index(self._elements)
+            if table_index is not None:
+                visibility_elements = foster_parent_context_elements(
+                    self._elements, table_index
+                )
+        if not self._text_visible(visibility_elements):
             return
         if self._items:
             self._items[-1]["text"].append(data)
@@ -1319,6 +1474,18 @@ class VisibleListLinkParser(HTMLParser):
         if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
+        elif close_tag == "table":
+            table_index = next(
+                (
+                    index
+                    for index in range(len(self._elements) - 1, -1, -1)
+                    if self._elements[index].get("tag") == "table"
+                    and element_namespace(self._elements[index]) == "html"
+                ),
+                None,
+            )
+            if table_index is not None:
+                self._pop_elements_from(table_index)
         else:
             self._close_element(close_tag)
         if close_tag in VISIBLE_TEXT_BOUNDARY_TAGS and (
@@ -1350,23 +1517,44 @@ class VisibleTextParser(HTMLParser):
         self._claim_heading_text: list[str] = []
         self._pending_claim_statement_paragraph = False
 
-    def _regular_hidden(self) -> bool:
-        return bool(self._elements and self._elements[-1]["hidden"])
+    def _regular_hidden(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
+        return bool(active and active[-1]["hidden"])
 
-    def _text_visible(self) -> bool:
+    def _text_visible(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
         return (
             not self._author_stylesheet_present
-            and not self._current_hidden()
-            and foreign_text_visible(self._elements)
+            and not self._current_hidden(active)
+            and foreign_text_visible(active)
         )
 
-    def _current_hidden(self) -> bool:
-        if self._regular_hidden():
+    def _current_hidden(
+        self, elements: list[dict[str, Any]] | None = None
+    ) -> bool:
+        active = (
+            effective_html_visibility_elements(self._elements)
+            if elements is None
+            else elements
+        )
+        if self._regular_hidden(active):
             return True
-        for index, element in enumerate(self._elements):
+        for index, element in enumerate(active):
             if element.get("tag") != "details" or element.get("closed") is not True:
                 continue
-            descendants = self._elements[index + 1 :]
+            descendants = active[index + 1 :]
             if (
                 not descendants
                 or descendants[0].get("summary_for_closed_details") is not True
@@ -1379,6 +1567,35 @@ class VisibleTextParser(HTMLParser):
             if self._elements[index].get("tag") == tag:
                 del self._elements[index:]
                 return
+
+    def _pop_elements_from(self, index: int) -> None:
+        removed = self._elements[index:]
+        heading_was_removed = (
+            self._claim_heading_tag is not None
+            and any(
+                element.get("tag") == self._claim_heading_tag
+                for element in removed
+            )
+        )
+        heading_was_visible = heading_was_removed and self._text_visible()
+        heading_text = (
+            " ".join("".join(self._claim_heading_text).split())
+            if heading_was_removed
+            else ""
+        )
+        del self._elements[index:]
+        if heading_was_removed:
+            self._claim_heading_tag = None
+            self._claim_heading_text = []
+            self._pending_claim_statement_paragraph = bool(
+                heading_was_visible
+                and re.fullmatch(r"CLM-[A-Z0-9-]+", heading_text)
+            )
+
+    def _close_active_table_for_nested_start(self) -> None:
+        table_index = active_html_table_insertion_index(self._elements)
+        if table_index is not None:
+            self._pop_elements_from(table_index)
 
     @staticmethod
     def _has_attribute(
@@ -1441,10 +1658,14 @@ class VisibleTextParser(HTMLParser):
         if tag == "image" and current_foreign_context is None:
             tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
+        if tag == "table" and namespace == "html":
+            self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
             if self._form_element_active:
                 return
             self._form_element_active = True
+            if active_html_table_insertion_index(self._elements) is not None:
+                return
         if (
             tag == "a"
             and current_foreign_context is None
@@ -1461,8 +1682,18 @@ class VisibleTextParser(HTMLParser):
         ):
             self.handle_endtag(str(self._elements[-1]["tag"]))
         self._close_implicit_record(tag)
-        boundary_visible_before = self._text_visible()
-        parent = self._elements[-1] if self._elements else None
+        foster_table_index = (
+            html_start_tag_foster_parent_index(self._elements, tag, attrs)
+            if current_foreign_context is None and namespace == "html"
+            else None
+        )
+        visibility_elements = (
+            foster_parent_context_elements(self._elements, foster_table_index)
+            if foster_table_index is not None
+            else self._elements
+        )
+        boundary_visible_before = self._text_visible(visibility_elements)
+        parent = visibility_elements[-1] if visibility_elements else None
         summary_for_closed_details = (
             tag == "summary"
             and isinstance(parent, dict)
@@ -1473,7 +1704,7 @@ class VisibleTextParser(HTMLParser):
         if summary_for_closed_details:
             parent["summary_seen"] = True
 
-        current_foreign_context = foreign_context(self._elements)
+        current_foreign_context = foreign_context(visibility_elements)
         element_renders_boundary = (
             boundary_visible_before
             and VisibleListLinkParser._renders_boundary(
@@ -1492,7 +1723,7 @@ class VisibleTextParser(HTMLParser):
             )
         )
         hidden = (
-            self._regular_hidden()
+            self._regular_hidden(visibility_elements)
             or VisibleListLinkParser._declares_hidden(
                 tag, attrs, self._author_stylesheet_present
             )
@@ -1514,6 +1745,7 @@ class VisibleTextParser(HTMLParser):
                 {
                     "tag": tag,
                     "namespace": namespace,
+                    "foster_parented": foster_table_index is not None,
                     "hidden": hidden,
                     "closed": closed,
                     "summary_seen": False if tag == "details" else None,
@@ -1595,7 +1827,14 @@ class VisibleTextParser(HTMLParser):
         self._text.append(CLAIM_BINDING_BOUNDARY)
 
     def handle_data(self, data: str) -> None:
-        if not self._text_visible():
+        visibility_elements = self._elements
+        if data.strip():
+            table_index = active_html_table_insertion_index(self._elements)
+            if table_index is not None:
+                visibility_elements = foster_parent_context_elements(
+                    self._elements, table_index
+                )
+        if not self._text_visible(visibility_elements):
             return
         if self._claim_heading_tag is not None:
             self._claim_heading_text.append(data)
@@ -1645,6 +1884,18 @@ class VisibleTextParser(HTMLParser):
         if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
+        elif close_tag == "table":
+            table_index = next(
+                (
+                    index
+                    for index in range(len(self._elements) - 1, -1, -1)
+                    if self._elements[index].get("tag") == "table"
+                    and element_namespace(self._elements[index]) == "html"
+                ),
+                None,
+            )
+            if table_index is not None:
+                self._pop_elements_from(table_index)
         else:
             self._close_element(close_tag)
         if close_tag in CLAIM_RECORD_END_BOUNDARY_TAGS and (
