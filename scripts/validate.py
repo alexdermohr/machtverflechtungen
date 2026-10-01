@@ -563,6 +563,19 @@ def explicit_anchor_end_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
+    """Return the active HTML select for the concrete in-select recovery path."""
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        namespace = element_namespace(element)
+        tag = element.get("tag")
+        if tag == "select" and namespace == "html":
+            return index
+        if namespace != "html" or tag == "template":
+            return None
+    return None
+
+
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
 ) -> dict[str, str | None]:
@@ -1337,6 +1350,11 @@ class VisibleListLinkParser(HTMLParser):
             self._form_element_active = True
             if active_html_table_insertion_index(self._elements) is not None:
                 return
+        if tag == "select" and namespace == "html":
+            select_index = active_html_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
+                return
         colgroup_index = active_html_colgroup_transition_index(
             self._elements, tag
         )
@@ -1504,6 +1522,15 @@ class VisibleListLinkParser(HTMLParser):
             return
         current_foreign_context = foreign_context(self._elements)
         if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if (
+            tag == "p"
+            and current_foreign_context is None
+            and explicit_end_tag_scope_target(self._elements, "p") is None
+            and active_html_select_index(self._elements) is None
+        ):
+            self.handle_starttag("p", [])
+            self.handle_endtag("p")
             return
         if tag == "a" and current_foreign_context is None:
             anchor_index = explicit_anchor_end_index(self._elements)
@@ -1750,6 +1777,11 @@ class VisibleTextParser(HTMLParser):
             self._form_element_active = True
             if active_html_table_insertion_index(self._elements) is not None:
                 return
+        if tag == "select" and namespace == "html":
+            select_index = active_html_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
+                return
         colgroup_index = active_html_colgroup_transition_index(
             self._elements, tag
         )
@@ -1944,6 +1976,15 @@ class VisibleTextParser(HTMLParser):
             return
         current_foreign_context = foreign_context(self._elements)
         if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if (
+            tag == "p"
+            and current_foreign_context is None
+            and explicit_end_tag_scope_target(self._elements, "p") is None
+            and active_html_select_index(self._elements) is None
+        ):
+            self.handle_starttag("p", [])
+            self.handle_endtag("p")
             return
         if tag == "a" and current_foreign_context is None:
             anchor_index = explicit_anchor_end_index(self._elements)

@@ -308,6 +308,19 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_nested_select_start_exposes_following_source_list(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<select><select></select><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -4383,6 +4396,20 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
         )
 
+    def test_orphan_paragraph_end_inserts_claim_binding_boundary(self) -> None:
+        claim_id = "CLM-DE-CELLER-001"
+        claim_text = (
+            "Der niedersächsische Verfassungsschutz ließ am 25. Juli 1978 "
+            "die Außenmauer der JVA Celle sprengen."
+        )
+        parser = validate.VisibleTextParser()
+        parser.feed(f"<span>{claim_id} </span></p><span>{claim_text}</span>")
+        parser.close()
+        visible = parser.claim_binding_text()
+        self.assertFalse(
+            validate.claim_occurrences_bound_to_wording(visible, claim_id, claim_text)
+        )
+
     def test_claim_binding_implicit_paragraph_does_not_cross_button_scope(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
         claim_text = (
@@ -4491,6 +4518,13 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
 
         self.assertEqual("Alpha Beta", parser.text())
+
+    def test_nested_select_start_exposes_following_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("<select><select></select><p>VISIBLE-AFTER-SELECT</p>")
+        parser.close()
+
+        self.assertEqual("VISIBLE-AFTER-SELECT", parser.text())
 
     def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
