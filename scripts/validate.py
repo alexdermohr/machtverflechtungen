@@ -353,6 +353,19 @@ CLAIM_IMPLICIT_CLOSE_GROUPS = {
 # HTML tree-building algorithms use different backward-scan scopes for
 # implicit closes. Keep only the element categories needed by the concrete
 # recovery paths below instead of treating every open ancestor as closable.
+FOREIGN_HTML_SCOPE_BOUNDARY_TAGS = frozenset(
+    {
+        "mi",
+        "mo",
+        "mn",
+        "ms",
+        "mtext",
+        "annotation-xml",
+        "foreignobject",
+        "desc",
+        "title",
+    }
+)
 HTML_SCOPE_BOUNDARY_TAGS = frozenset(
     {
         "applet",
@@ -366,7 +379,7 @@ HTML_SCOPE_BOUNDARY_TAGS = frozenset(
         "template",
         "th",
     }
-)
+) | FOREIGN_HTML_SCOPE_BOUNDARY_TAGS
 HTML_BUTTON_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"button"})
 HTML_LIST_ITEM_SCOPE_BOUNDARY_TAGS = HTML_SCOPE_BOUNDARY_TAGS | frozenset({"ol", "ul"})
 HTML_TABLE_SCOPE_BOUNDARY_TAGS = frozenset({"html", "table", "template"})
@@ -490,6 +503,7 @@ HTML_SPECIAL_TAGS = frozenset(
         "colgroup",
         "dd",
         "details",
+        "dialog",
         "dir",
         "div",
         "dl",
@@ -556,7 +570,7 @@ HTML_SPECIAL_TAGS = frozenset(
         "wbr",
         "xmp",
     }
-)
+) | FOREIGN_HTML_SCOPE_BOUNDARY_TAGS
 LI_IMPLICIT_SCOPE_BOUNDARIES = HTML_SPECIAL_TAGS - frozenset(
     {"address", "div", "p", "li"}
 )

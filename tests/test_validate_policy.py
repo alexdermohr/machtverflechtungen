@@ -577,6 +577,44 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual([], parser.visible_items)
 
+    def test_foreign_scope_boundaries_block_normal_scope_end_tags(self) -> None:
+        boundaries = (
+            "mi",
+            "mo",
+            "mn",
+            "ms",
+            "mtext",
+            "annotation-xml",
+            "foreignobject",
+            "desc",
+            "title",
+        )
+        for boundary in boundaries:
+            with self.subTest(boundary=boundary):
+                self.assertIsNone(
+                    validate.explicit_end_tag_scope_target(
+                        [{"tag": "div"}, {"tag": boundary}], "div"
+                    )
+                )
+
+    def test_foreignobject_scope_boundary_keeps_source_hidden(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div hidden><svg><foreignObject></div><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
+    def test_dialog_blocks_generic_end_tag_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<span hidden><dialog open></span><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
+
     def test_generic_end_tag_stops_at_html_special_element_for_source(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -3268,6 +3306,20 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             '<table><tbody hidden><tr><td><table></tbody></table>'
             '<span>VISIBLE</span>'
         )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_foreignobject_scope_boundary_keeps_visible_text_hidden(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div hidden><svg><foreignObject></div><span>VISIBLE</span>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_dialog_blocks_generic_end_tag_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<span hidden><dialog open></span><span>VISIBLE</span>')
         parser.close()
         self.assertEqual("", parser.text())
 
