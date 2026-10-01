@@ -576,6 +576,9 @@ def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input", "textarea"})
+
+
 def first_html_attribute_values(
     attrs: list[tuple[str, str | None]],
 ) -> dict[str, str | None]:
@@ -1355,6 +1358,13 @@ class VisibleListLinkParser(HTMLParser):
             if select_index is not None:
                 self._pop_elements_from(select_index)
                 return
+        if (
+            tag in HTML_SELECT_EXIT_REPROCESS_START_TAGS
+            and namespace == "html"
+        ):
+            select_index = active_html_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
         colgroup_index = active_html_colgroup_transition_index(
             self._elements, tag
         )
@@ -1782,6 +1792,13 @@ class VisibleTextParser(HTMLParser):
             if select_index is not None:
                 self._pop_elements_from(select_index)
                 return
+        if (
+            tag in HTML_SELECT_EXIT_REPROCESS_START_TAGS
+            and namespace == "html"
+        ):
+            select_index = active_html_select_index(self._elements)
+            if select_index is not None:
+                self._pop_elements_from(select_index)
         colgroup_index = active_html_colgroup_transition_index(
             self._elements, tag
         )
