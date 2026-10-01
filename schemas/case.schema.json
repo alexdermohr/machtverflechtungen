@@ -117,7 +117,8 @@
         "allOf": [
           {
             "if": {"properties": {"kind": {"const": "documented_connection"}}},
-            "then": {"required": ["relation_id"]}
+            "then": {"required": ["relation_id"]},
+            "else": {"properties": {"relation_id": false}}
           }
         ],
         "additionalProperties": false

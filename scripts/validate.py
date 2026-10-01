@@ -2145,11 +2145,14 @@ class VisibleTextParser(HTMLParser):
         self._text.append(data)
 
     def _append_claim_binding_boundary(self) -> None:
-        # NUL cannot originate as rendered HTML text: browsers replace source
-        # NULs during parsing. Keep it internal so lexical checks ignore it.
+        # NUL is reserved as an internal boundary marker and must never be
+        # accepted from source text.
         self._text.append(CLAIM_BINDING_BOUNDARY)
 
     def handle_data(self, data: str) -> None:
+        # In ordinary HTML body parsing, source NUL is ignored by the browser
+        # tree builder. Strip it before NUL can collide with our boundary marker.
+        data = data.replace(CLAIM_BINDING_BOUNDARY, "")
         visibility_elements = self._elements
         if data.strip():
             table_index = active_html_table_insertion_index(self._elements)
