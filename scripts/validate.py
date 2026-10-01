@@ -618,6 +618,29 @@ def active_html_table_insertion_index(
     return None
 
 
+HTML_COLGROUP_IMPLICIT_END_START_TAGS = frozenset({"tbody", "thead", "tfoot", "tr"})
+
+
+def active_html_colgroup_transition_index(
+    elements: list[dict[str, Any]], tag: str
+) -> int | None:
+    """Return an omitted-end colgroup only in the active HTML table context."""
+    if tag not in HTML_COLGROUP_IMPLICIT_END_START_TAGS:
+        return None
+    table_index = active_html_table_insertion_index(elements)
+    if table_index is None or len(elements) <= table_index + 1:
+        return None
+    colgroup_index = len(elements) - 1
+    colgroup = elements[colgroup_index]
+    if (
+        colgroup_index <= table_index
+        or colgroup.get("tag") != "colgroup"
+        or element_namespace(colgroup) != "html"
+    ):
+        return None
+    return colgroup_index
+
+
 def foster_parent_context_elements(
     elements: list[dict[str, Any]], table_index: int
 ) -> list[dict[str, Any]]:
@@ -1314,13 +1337,20 @@ class VisibleListLinkParser(HTMLParser):
             self._form_element_active = True
             if active_html_table_insertion_index(self._elements) is not None:
                 return
-        if (
-            tag == "a"
-            and current_foreign_context is None
-            and any(element.get("tag") == "a" for element in self._elements)
-        ):
-            self._finalize_anchor()
-            self._close_element("a")
+        colgroup_index = active_html_colgroup_transition_index(
+            self._elements, tag
+        )
+        if colgroup_index is not None:
+            self._pop_elements_from(colgroup_index)
+        if tag == "a" and namespace == "html":
+            if self._anchors and self._anchors[-1].get("namespace") == "html":
+                self._finalize_anchor()
+            if any(
+                element.get("tag") == "a"
+                and element_namespace(element) == "html"
+                for element in self._elements
+            ):
+                self._close_element("a")
         self._close_implicit_paragraph(tag)
         self._close_implicit_heading(tag)
         if current_foreign_context is None:
@@ -1418,6 +1448,7 @@ class VisibleListLinkParser(HTMLParser):
             self._anchors.append(
                 {
                     "href": href if isinstance(href, str) else None,
+                    "namespace": namespace,
                     "text": [],
                     "hidden": effective_hidden,
                     "inert": effective_inert,
@@ -1719,10 +1750,19 @@ class VisibleTextParser(HTMLParser):
             self._form_element_active = True
             if active_html_table_insertion_index(self._elements) is not None:
                 return
+        colgroup_index = active_html_colgroup_transition_index(
+            self._elements, tag
+        )
+        if colgroup_index is not None:
+            self._pop_elements_from(colgroup_index)
         if (
             tag == "a"
-            and current_foreign_context is None
-            and any(element.get("tag") == "a" for element in self._elements)
+            and namespace == "html"
+            and any(
+                element.get("tag") == "a"
+                and element_namespace(element) == "html"
+                for element in self._elements
+            )
         ):
             self._close_element("a")
         wants_claim_heading_join = (

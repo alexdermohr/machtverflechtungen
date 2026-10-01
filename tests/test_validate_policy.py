@@ -500,6 +500,48 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
+    def test_omitted_colgroup_closes_before_visible_source_section(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><colgroup hidden><col>'
+            '<tbody><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_plain_colgroup_does_not_hide_visible_source_section(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><colgroup><col>'
+            '<tbody><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_explicitly_closed_hidden_colgroup_does_not_hide_source_section(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<table><colgroup hidden><col></colgroup>'
+            '<tbody><tr><td><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+            '</td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
     def test_implicit_table_section_close_does_not_cross_nested_table_scope(self) -> None:
         parser = validate.VisibleListLinkParser()
         parser.feed(
@@ -858,6 +900,26 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual(
             [("SRC-A Visible label", [("https://example.invalid/a", "")])],
+            parser.visible_items,
+        )
+
+    def test_new_anchor_finalizes_stale_formatting_anchor_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<ul><li>SRC-A <b><a href="https://registered.invalid"></b>'
+            '<a href="https://other.invalid"></a>Visible label</li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [
+                (
+                    "SRC-A Visible label",
+                    [
+                        ("https://registered.invalid", ""),
+                        ("https://other.invalid", ""),
+                    ],
+                )
+            ],
             parser.visible_items,
         )
 
@@ -1898,6 +1960,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             f'- {source_id} <a href="{source_url}">'
             '<a href="https://example.invalid/other"></a>'
             "Quelle</a>"
+        )
+        path.write_text(text.replace(source_line, replacement, 1), encoding="utf-8")
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"source {source_id} must be visibly listed with a clickable link to its registered URL",
+            output,
+        )
+
+    def test_stale_formatting_anchor_does_not_satisfy_clickable_source_link(self) -> None:
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        source_id = "SRC-DE-NI-MJ-CELLER-2015"
+        source_url = (
+            "https://www.mj.niedersachsen.de/startseite/aktuelles/"
+            "presseinformationen/justizministerin-besucht-das-celler-loch-135720.html"
+        )
+        source_line = next(
+            line
+            for line in text.splitlines()
+            if source_id in line and f"]({source_url})" in line
+        )
+        replacement = (
+            f'- {source_id} <b><a href="{source_url}"></b>'
+            '<a href="https://example.invalid/other"></a>Quelle'
         )
         path.write_text(text.replace(source_line, replacement, 1), encoding="utf-8")
 
@@ -3479,6 +3568,33 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertEqual("", parser.text())
+
+    def test_omitted_colgroup_closes_before_visible_text_section(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><colgroup hidden><col>'
+            '<tbody><tr><td><p>VISIBLE_ROW</p></td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual("VISIBLE_ROW", parser.text())
+
+    def test_plain_colgroup_does_not_hide_visible_text_section(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><colgroup><col>'
+            '<tbody><tr><td><p>VISIBLE_ROW</p></td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual("VISIBLE_ROW", parser.text())
+
+    def test_explicitly_closed_hidden_colgroup_does_not_hide_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<table><colgroup hidden><col></colgroup>'
+            '<tbody><tr><td><p>VISIBLE_ROW</p></td></tr></tbody></table>'
+        )
+        parser.close()
+        self.assertEqual("VISIBLE_ROW", parser.text())
 
     def test_hidden_table_select_does_not_break_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"
