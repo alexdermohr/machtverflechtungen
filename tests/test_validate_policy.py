@@ -579,6 +579,30 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
     def test_foreign_scope_boundaries_block_normal_scope_end_tags(self) -> None:
         boundaries = (
+            ("mi", "math"),
+            ("mo", "math"),
+            ("mn", "math"),
+            ("ms", "math"),
+            ("mtext", "math"),
+            ("annotation-xml", "math"),
+            ("foreignobject", "svg"),
+            ("desc", "svg"),
+            ("title", "svg"),
+        )
+        for boundary, namespace in boundaries:
+            with self.subTest(boundary=boundary):
+                self.assertIsNone(
+                    validate.explicit_end_tag_scope_target(
+                        [
+                            {"tag": "div", "namespace": "html"},
+                            {"tag": boundary, "namespace": namespace},
+                        ],
+                        "div",
+                    )
+                )
+
+    def test_html_custom_foreign_names_do_not_block_normal_scope_end_tags(self) -> None:
+        boundaries = (
             "mi",
             "mo",
             "mn",
@@ -591,11 +615,45 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         for boundary in boundaries:
             with self.subTest(boundary=boundary):
-                self.assertIsNone(
+                self.assertEqual(
+                    "div",
                     validate.explicit_end_tag_scope_target(
-                        [{"tag": "div"}, {"tag": boundary}], "div"
-                    )
+                        [
+                            {"tag": "div", "namespace": "html"},
+                            {"tag": boundary, "namespace": "html"},
+                        ],
+                        "div",
+                    ),
                 )
+
+    def test_html_title_remains_generic_special_element(self) -> None:
+        self.assertIsNone(
+            validate.explicit_end_tag_scope_target(
+                [
+                    {"tag": "span", "namespace": "html"},
+                    {"tag": "title", "namespace": "html"},
+                ],
+                "span",
+            )
+        )
+
+    def test_html_title_remains_implicit_special_boundary(self) -> None:
+        title = {"tag": "title", "namespace": "html"}
+        self.assertTrue(
+            validate.element_matches_boundary(
+                title, validate.LI_IMPLICIT_SCOPE_BOUNDARIES
+            )
+        )
+        self.assertTrue(
+            validate.element_matches_boundary(
+                title, validate.DESCRIPTION_IMPLICIT_SCOPE_BOUNDARIES
+            )
+        )
+        self.assertFalse(
+            validate.element_matches_boundary(
+                title, validate.HTML_SCOPE_BOUNDARY_TAGS
+            )
+        )
 
     def test_foreignobject_scope_boundary_keeps_source_hidden(self) -> None:
         parser = validate.VisibleListLinkParser()
@@ -605,6 +663,30 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         parser.close()
         self.assertEqual([], parser.visible_items)
+
+    def test_html_mi_does_not_block_normal_scope_end_tag_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div hidden><mi></div><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_html_mi_does_not_block_generic_end_tag_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<span hidden><mi></span><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
 
     def test_dialog_blocks_generic_end_tag_for_source(self) -> None:
         parser = validate.VisibleListLinkParser()
@@ -656,6 +738,27 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             [("SRC-A A", [("https://example.invalid/a", "A")])],
             parser.visible_items,
         )
+
+    def test_nested_form_start_is_ignored_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<form hidden><form></form><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_foreign_form_end_does_not_clear_html_form_pointer_for_source(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<form hidden><svg><form></form><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul></svg></form>'
+        )
+        parser.close()
+        self.assertEqual([], parser.visible_items)
 
     def test_visible_list_link_parser_finalizes_open_anchor_and_item_at_eof(self) -> None:
         parser = validate.VisibleListLinkParser()
@@ -3317,6 +3420,18 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.close()
         self.assertEqual("", parser.text())
 
+    def test_html_mi_does_not_block_normal_scope_end_tag_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<div hidden><mi></div><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_html_mi_does_not_block_generic_end_tag_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<span hidden><mi></span><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
     def test_dialog_blocks_generic_end_tag_for_visible_text(self) -> None:
         parser = validate.VisibleTextParser()
         parser.feed('<span hidden><dialog open></span><span>VISIBLE</span>')
@@ -3346,6 +3461,18 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         parser.feed('<form hidden></form><span>VISIBLE</span>')
         parser.close()
         self.assertEqual("VISIBLE", parser.text())
+
+    def test_nested_form_start_is_ignored_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<form hidden><form></form><span>VISIBLE</span>')
+        parser.close()
+        self.assertEqual("VISIBLE", parser.text())
+
+    def test_foreign_form_end_does_not_clear_html_form_pointer_for_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed('<form hidden><svg><form></form><p>VISIBLE</p></svg></form>')
+        parser.close()
+        self.assertEqual("", parser.text())
 
     def test_styled_rendered_separator_stops_claim_binding(self) -> None:
         claim_id = "CLM-DE-CELLER-001"

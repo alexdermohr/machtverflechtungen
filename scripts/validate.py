@@ -241,26 +241,106 @@ def has_author_stylesheet(rendered: str) -> bool:
     return parser.found
 
 
+def element_namespace(element: dict[str, Any]) -> str:
+    namespace = element.get("namespace")
+    return str(namespace) if namespace in {"html", "svg", "math"} else "html"
+
+
+def is_foreign_html_integration_point(element: dict[str, Any]) -> bool:
+    tag = element.get("tag")
+    namespace = element_namespace(element)
+    return (
+        namespace == "svg" and tag in SVG_HTML_INTEGRATION_TAGS
+    ) or (
+        namespace == "math" and tag in MATHML_TEXT_INTEGRATION_TAGS
+    )
+
+
 def foreign_context(elements: list[dict[str, Any]]) -> str | None:
     for element in reversed(elements):
-        tag = element.get("tag")
-        if tag in SVG_HTML_INTEGRATION_TAGS or tag in MATHML_TEXT_INTEGRATION_TAGS:
+        if is_foreign_html_integration_point(element):
             return None
-        if tag == "svg":
-            return "svg"
-        if tag == "math":
-            return "math"
+        namespace = element_namespace(element)
+        if namespace in {"svg", "math"}:
+            return namespace
     return None
+
+
+def namespace_for_start_tag(
+    elements: list[dict[str, Any]], tag: str
+) -> str:
+    current_foreign_context = foreign_context(elements)
+    if current_foreign_context is not None:
+        return current_foreign_context
+    if tag == "svg":
+        return "svg"
+    if tag == "math":
+        return "math"
+    return "html"
 
 
 def active_foreign_root_index(elements: list[dict[str, Any]]) -> int | None:
     for index in range(len(elements) - 1, -1, -1):
-        tag = elements[index].get("tag")
-        if tag in SVG_HTML_INTEGRATION_TAGS or tag in MATHML_TEXT_INTEGRATION_TAGS:
+        element = elements[index]
+        if is_foreign_html_integration_point(element):
             return None
-        if tag in FOREIGN_ROOT_TAGS:
+        tag = element.get("tag")
+        namespace = element_namespace(element)
+        if tag in FOREIGN_ROOT_TAGS and namespace == tag:
             return index
     return None
+
+
+def is_foreign_scope_boundary(element: dict[str, Any]) -> bool:
+    tag = element.get("tag")
+    namespace = element_namespace(element)
+    if namespace == "svg":
+        return tag in SVG_HTML_INTEGRATION_TAGS
+    if namespace == "math":
+        return (
+            tag in MATHML_TEXT_INTEGRATION_TAGS
+            or tag == "annotation-xml"
+        )
+    return False
+
+
+def element_matches_boundary(
+    element: dict[str, Any], boundaries: frozenset[str]
+) -> bool:
+    tag = element.get("tag")
+    if tag not in boundaries:
+        return False
+    namespace = element_namespace(element)
+    if namespace == "html":
+        if tag == "title":
+            return boundaries in (
+                LI_IMPLICIT_SCOPE_BOUNDARIES,
+                DESCRIPTION_IMPLICIT_SCOPE_BOUNDARIES,
+            )
+        return tag not in FOREIGN_HTML_SCOPE_BOUNDARY_TAGS
+    return is_foreign_scope_boundary(element)
+
+
+def element_is_special(element: dict[str, Any]) -> bool:
+    tag = element.get("tag")
+    namespace = element_namespace(element)
+    if namespace == "html":
+        return tag in HTML_SPECIAL_TAGS and (
+            tag not in FOREIGN_HTML_SCOPE_BOUNDARY_TAGS or tag == "title"
+        )
+    return is_foreign_scope_boundary(element)
+
+
+def element_is_foreign_root_or_integration_boundary(
+    element: dict[str, Any],
+) -> bool:
+    tag = element.get("tag")
+    namespace = element_namespace(element)
+    if namespace == "svg":
+        return tag == "svg" or tag in SVG_HTML_INTEGRATION_TAGS
+    if namespace == "math":
+        return tag == "math" or tag in MATHML_TEXT_INTEGRATION_TAGS
+    return False
 
 
 def foreign_html_breakout_start_tag(
@@ -449,7 +529,7 @@ def explicit_end_tag_scope_target(
             element_tag = element.get("tag")
             if element_tag == tag:
                 return tag
-            if element_tag in HTML_SPECIAL_TAGS:
+            if element_is_special(element):
                 return None
         return None
 
@@ -457,17 +537,18 @@ def explicit_end_tag_scope_target(
         element_tag = element.get("tag")
         if element_tag in target_tags:
             return str(element_tag)
-        if element_tag in scope_boundaries:
+        if element_matches_boundary(element, scope_boundaries):
             return None
     return None
 
 
 def explicit_form_end_index(elements: list[dict[str, Any]]) -> int | None:
     for index in range(len(elements) - 1, -1, -1):
-        element_tag = elements[index].get("tag")
-        if element_tag == "form":
+        element = elements[index]
+        element_tag = element.get("tag")
+        if element_tag == "form" and element_namespace(element) == "html":
             return index
-        if element_tag in HTML_SCOPE_BOUNDARY_TAGS:
+        if element_matches_boundary(element, HTML_SCOPE_BOUNDARY_TAGS):
             return None
     return None
 
@@ -764,6 +845,7 @@ class VisibleListLinkParser(HTMLParser):
         self._items: list[dict[str, Any]] = []
         self._anchors: list[dict[str, Any]] = []
         self._elements: list[dict[str, Any]] = []
+        self._form_element_active = False
         self.visible_items: list[tuple[str, list[tuple[str, str]]]] = []
 
     def close(self) -> None:
@@ -938,16 +1020,14 @@ class VisibleListLinkParser(HTMLParser):
             self._anchors[-1]["text"].append(" ")
 
     def _current_list_item_open(self) -> bool:
-        foreign_boundaries = (
-            FOREIGN_ROOT_TAGS
-            | SVG_HTML_INTEGRATION_TAGS
-            | MATHML_TEXT_INTEGRATION_TAGS
-        )
         for element in reversed(self._elements):
             tag = element.get("tag")
-            if tag == "li":
+            if tag == "li" and element_namespace(element) == "html":
                 return True
-            if tag in LI_IMPLICIT_SCOPE_BOUNDARIES or tag in foreign_boundaries:
+            if (
+                element_matches_boundary(element, LI_IMPLICIT_SCOPE_BOUNDARIES)
+                or element_is_foreign_root_or_integration_boundary(element)
+            ):
                 return False
         return False
 
@@ -988,19 +1068,15 @@ class VisibleListLinkParser(HTMLParser):
     def _close_implicit_paragraph(self, tag: str) -> None:
         if tag not in P_IMPLICIT_END_START_TAGS:
             return
-        integration_boundaries = (
-            FOREIGN_ROOT_TAGS
-            | SVG_HTML_INTEGRATION_TAGS
-            | MATHML_TEXT_INTEGRATION_TAGS
-        )
         for index in range(len(self._elements) - 1, -1, -1):
-            element_tag = self._elements[index].get("tag")
+            element = self._elements[index]
+            element_tag = element.get("tag")
             if (
-                element_tag in integration_boundaries
-                or element_tag in HTML_BUTTON_SCOPE_BOUNDARY_TAGS
+                element_matches_boundary(element, HTML_BUTTON_SCOPE_BOUNDARY_TAGS)
+                or element_is_foreign_root_or_integration_boundary(element)
             ):
                 return
-            if element_tag == "p":
+            if element_tag == "p" and element_namespace(element) == "html":
                 del self._elements[index:]
                 return
 
@@ -1009,19 +1085,18 @@ class VisibleListLinkParser(HTMLParser):
             return
         close_tags = CLAIM_IMPLICIT_CLOSE_GROUPS[tag]
         scope_boundaries = CLAIM_IMPLICIT_SCOPE_BOUNDARIES[tag]
-        integration_boundaries = (
-            FOREIGN_ROOT_TAGS
-            | SVG_HTML_INTEGRATION_TAGS
-            | MATHML_TEXT_INTEGRATION_TAGS
-        )
         for index in range(len(self._elements) - 1, -1, -1):
-            element_tag = self._elements[index].get("tag")
+            element = self._elements[index]
+            element_tag = element.get("tag")
             if (
-                element_tag in integration_boundaries
-                or element_tag in scope_boundaries
+                element_matches_boundary(element, scope_boundaries)
+                or element_is_foreign_root_or_integration_boundary(element)
             ):
                 return
-            if element_tag in close_tags:
+            if (
+                element_tag in close_tags
+                and element_namespace(element) == "html"
+            ):
                 removed_list_items = sum(
                     element.get("tag") == "li"
                     for element in self._elements[index:]
@@ -1065,6 +1140,11 @@ class VisibleListLinkParser(HTMLParser):
             current_foreign_context = foreign_context(self._elements)
         if tag == "image" and current_foreign_context is None:
             tag = "img"
+        namespace = namespace_for_start_tag(self._elements, tag)
+        if tag == "form" and namespace == "html":
+            if self._form_element_active:
+                return
+            self._form_element_active = True
         if (
             tag == "a"
             and current_foreign_context is None
@@ -1132,6 +1212,7 @@ class VisibleListLinkParser(HTMLParser):
             self._elements.append(
                 {
                     "tag": tag,
+                    "namespace": namespace,
                     "hidden": hidden,
                     "inert": self._has_attribute(attrs, "inert"),
                     "closed": closed,
@@ -1203,16 +1284,20 @@ class VisibleListLinkParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
-        form_index = (
-            explicit_form_end_index(self._elements) if tag == "form" else None
+        html_form_end = (
+            tag == "form" and foreign_context(self._elements) is None
         )
-        if tag == "form" and form_index is None:
-            return
-        close_tag = (
-            "form"
-            if tag == "form"
-            else explicit_end_tag_scope_target(self._elements, tag)
-        )
+        if html_form_end:
+            if not self._form_element_active:
+                return
+            self._form_element_active = False
+            form_index = explicit_form_end_index(self._elements)
+            if form_index is None:
+                return
+            close_tag = "form"
+        else:
+            form_index = None
+            close_tag = explicit_end_tag_scope_target(self._elements, tag)
         if close_tag is None:
             return
         boundary_visible_before = self._text_visible()
@@ -1231,7 +1316,7 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
         elif tag == "li" and self._items:
             self._finalize_current_item()
-        if tag == "form":
+        if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
         else:
@@ -1259,6 +1344,7 @@ class VisibleTextParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self._author_stylesheet_present = author_stylesheet_present
         self._elements: list[dict[str, Any]] = []
+        self._form_element_active = False
         self._text: list[str] = []
         self._claim_heading_tag: str | None = None
         self._claim_heading_text: list[str] = []
@@ -1306,16 +1392,18 @@ class VisibleTextParser(HTMLParser):
         close_tags: frozenset[str],
         scope_boundaries: frozenset[str],
     ) -> None:
-        integration_boundaries = (
-            FOREIGN_ROOT_TAGS
-            | SVG_HTML_INTEGRATION_TAGS
-            | MATHML_TEXT_INTEGRATION_TAGS
-        )
         for index in range(len(self._elements) - 1, -1, -1):
-            element_tag = self._elements[index].get("tag")
-            if element_tag in integration_boundaries or element_tag in scope_boundaries:
+            element = self._elements[index]
+            element_tag = element.get("tag")
+            if (
+                element_matches_boundary(element, scope_boundaries)
+                or element_is_foreign_root_or_integration_boundary(element)
+            ):
                 return
-            if element_tag in close_tags:
+            if (
+                element_tag in close_tags
+                and element_namespace(element) == "html"
+            ):
                 if (
                     element_tag in CLAIM_RECORD_END_BOUNDARY_TAGS
                     and self._text_visible()
@@ -1352,6 +1440,11 @@ class VisibleTextParser(HTMLParser):
             current_foreign_context = foreign_context(self._elements)
         if tag == "image" and current_foreign_context is None:
             tag = "img"
+        namespace = namespace_for_start_tag(self._elements, tag)
+        if tag == "form" and namespace == "html":
+            if self._form_element_active:
+                return
+            self._form_element_active = True
         if (
             tag == "a"
             and current_foreign_context is None
@@ -1420,6 +1513,7 @@ class VisibleTextParser(HTMLParser):
             self._elements.append(
                 {
                     "tag": tag,
+                    "namespace": namespace,
                     "hidden": hidden,
                     "closed": closed,
                     "summary_seen": False if tag == "details" else None,
@@ -1516,16 +1610,20 @@ class VisibleTextParser(HTMLParser):
             if tag == "br" and foreign_context(self._elements) is None:
                 self.handle_starttag(tag, [])
             return
-        form_index = (
-            explicit_form_end_index(self._elements) if tag == "form" else None
+        html_form_end = (
+            tag == "form" and foreign_context(self._elements) is None
         )
-        if tag == "form" and form_index is None:
-            return
-        close_tag = (
-            "form"
-            if tag == "form"
-            else explicit_end_tag_scope_target(self._elements, tag)
-        )
+        if html_form_end:
+            if not self._form_element_active:
+                return
+            self._form_element_active = False
+            form_index = explicit_form_end_index(self._elements)
+            if form_index is None:
+                return
+            close_tag = "form"
+        else:
+            form_index = None
+            close_tag = explicit_end_tag_scope_target(self._elements, tag)
         if close_tag is None:
             return
         boundary_visible_before = self._text_visible()
@@ -1544,7 +1642,7 @@ class VisibleTextParser(HTMLParser):
             if closes_claim_heading
             else ""
         )
-        if tag == "form":
+        if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
         else:
