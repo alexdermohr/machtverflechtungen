@@ -576,7 +576,7 @@ def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
-HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input", "textarea"})
+HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
 
 
 def first_html_attribute_values(

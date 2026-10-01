@@ -321,20 +321,28 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             parser.visible_items,
         )
 
-    def test_select_exiting_start_tags_expose_following_source_list(self) -> None:
-        for start, end in (("<input>", ""), ("<textarea>", "</textarea>")):
-            with self.subTest(start=start):
-                parser = validate.VisibleListLinkParser()
-                parser.feed(
-                    f'<select>{start}{end}<ul><li>SRC-A '
-                    '<a href="https://example.invalid/a">A</a></li></ul>'
-                )
-                parser.close()
+    def test_select_input_exposes_following_source_list(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<select><input><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
 
-                self.assertEqual(
-                    [("SRC-A A", [("https://example.invalid/a", "A")])],
-                    parser.visible_items,
-                )
+        self.assertEqual(
+            [("SRC-A A", [("https://example.invalid/a", "A")])],
+            parser.visible_items,
+        )
+
+    def test_select_textarea_keeps_following_source_list_hidden(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<select><textarea></textarea><ul><li>SRC-A '
+            '<a href="https://example.invalid/a">A</a></li></ul>'
+        )
+        parser.close()
+
+        self.assertEqual([], parser.visible_items)
 
     def test_visible_list_link_parser_honors_implicit_paragraph_end_before_list(self) -> None:
         parser = validate.VisibleListLinkParser()
@@ -4541,16 +4549,21 @@ class EvidencePolicyValidationTests(unittest.TestCase):
 
         self.assertEqual("VISIBLE-AFTER-SELECT", parser.text())
 
-    def test_select_exiting_start_tags_expose_following_visible_text(self) -> None:
-        for start, end in (("<input>", ""), ("<textarea>", "</textarea>")):
-            with self.subTest(start=start):
-                parser = validate.VisibleTextParser()
-                parser.feed(
-                    f"<select>{start}{end}<p>VISIBLE-AFTER-SELECT</p>"
-                )
-                parser.close()
+    def test_select_input_exposes_following_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed("<select><input><p>VISIBLE-AFTER-SELECT</p>")
+        parser.close()
 
-                self.assertEqual("VISIBLE-AFTER-SELECT", parser.text())
+        self.assertEqual("VISIBLE-AFTER-SELECT", parser.text())
+
+    def test_select_textarea_keeps_following_visible_text_hidden(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            "<select><textarea></textarea><p>HIDDEN-AFTER-TEXTAREA</p>"
+        )
+        parser.close()
+
+        self.assertEqual("", parser.text())
 
     def test_unselected_select_option_does_not_satisfy_text_visibility(self) -> None:
         visible = validate.visible_markdown_text(
