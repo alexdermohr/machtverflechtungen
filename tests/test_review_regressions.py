@@ -787,5 +787,52 @@ class ReviewRegressionTests(unittest.TestCase):
         parser.close()
         self.assertEqual("PRE-SECTION-SLOTTED", parser.text())
 
+
+    def test_inline_style_attribute_disqualifies_static_visibility_evidence(self) -> None:
+        rendered = validate.render_site_markdown(
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X wording</p>'
+            '<div style="position:fixed;inset:0;background:white;'
+            'z-index:2147483647"></div>'
+        )
+        self.assertTrue(validate.has_author_visibility_mutator(rendered))
+
+        links = validate.VisibleListLinkParser(
+            validate.has_author_visibility_mutator(rendered)
+        )
+        links.feed(rendered)
+        links.close()
+        text = validate.VisibleTextParser(
+            validate.has_author_visibility_mutator(rendered)
+        )
+        text.feed(rendered)
+        text.close()
+
+        self.assertEqual([], links.visible_items)
+        self.assertEqual("", text.text())
+
+    def test_meta_refresh_disqualifies_static_visibility_evidence(self) -> None:
+        rendered = validate.render_site_markdown(
+            '<h2>META-SOURCE</h2>'
+            '<ul><li>SRC-R <a href="u">R</a></li></ul>'
+            '<meta http-equiv=" ReFrEsH " content="0;url=/elsewhere">'
+        )
+        self.assertTrue(validate.has_author_executable_content(rendered))
+        self.assertTrue(validate.has_author_visibility_mutator(rendered))
+
+        links = validate.VisibleListLinkParser(
+            validate.has_author_visibility_mutator(rendered)
+        )
+        links.feed(rendered)
+        links.close()
+        text = validate.VisibleTextParser(
+            validate.has_author_visibility_mutator(rendered)
+        )
+        text.feed(rendered)
+        text.close()
+
+        self.assertEqual([], links.visible_items)
+        self.assertEqual("", text.text())
+
 if __name__ == "__main__":
     unittest.main()

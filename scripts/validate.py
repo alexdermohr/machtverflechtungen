@@ -558,6 +558,9 @@ class AuthorStylesheetParser(AuthorMarkupScanner):
         attrs: list[tuple[str, str | None]],
         namespace: str,
     ) -> None:
+        if any(name.casefold() == "style" for name, _value in attrs):
+            self.found = True
+            return
         if tag == "style":
             if namespace in {"html", "svg"}:
                 self.found = True
@@ -591,6 +594,21 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
         if tag == "script" and namespace in {"html", "svg"}:
             self.found = True
             return
+        if tag == "meta" and namespace == "html":
+            http_equiv = next(
+                (
+                    value
+                    for name, value in attrs
+                    if name.casefold() == "http-equiv"
+                ),
+                None,
+            )
+            if (
+                isinstance(http_equiv, str)
+                and http_equiv.strip().casefold() == "refresh"
+            ):
+                self.found = True
+                return
         for name, value in attrs:
             name = name.casefold()
             if name.startswith("on"):
