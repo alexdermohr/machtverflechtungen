@@ -654,5 +654,138 @@ class ReviewRegressionTests(unittest.TestCase):
             pre_named.visible_items,
         )
 
+
+    def test_shadow_preassignment_preserves_each_slot_name(self) -> None:
+        text = validate.VisibleTextParser()
+        text.feed(
+            '<div><span slot="source">MULTI-SOURCE</span>'
+            '<span slot="claim">MULTI-CLAIM</span>'
+            '<template shadowrootmode="open">'
+            '<slot name="source"></slot><slot name="claim"></slot>'
+            '</template></div>'
+        )
+        text.close()
+        self.assertIn("MULTI-SOURCE", text.text())
+        self.assertIn("MULTI-CLAIM", text.text())
+
+        links = validate.VisibleListLinkParser()
+        links.feed(
+            '<div><ul slot="source"><li>SRC-S '
+            '<a href="source">Source</a></li></ul>'
+            '<ul slot="claim"><li>SRC-C '
+            '<a href="claim">Claim</a></li></ul>'
+            '<template shadowrootmode="open">'
+            '<slot name="source"></slot><slot name="claim"></slot>'
+            '</template></div>'
+        )
+        links.close()
+        self.assertEqual(
+            [
+                ("SRC-S Source", [("source", "Source")]),
+                ("SRC-C Claim", [("claim", "Claim")]),
+            ],
+            links.visible_items,
+        )
+
+    def test_duplicate_named_shadow_slots_assign_only_the_first_slot(self) -> None:
+        text = validate.VisibleTextParser()
+        text.feed(
+            '<div><span slot="evidence">DUP-ASSIGNED</span>'
+            '<template shadowrootmode="open">'
+            '<div hidden><slot name="evidence"></slot></div>'
+            '<slot name="evidence"><span>DUP-FALLBACK</span></slot>'
+            '</template></div>'
+        )
+        text.close()
+        self.assertNotIn("DUP-ASSIGNED", text.text())
+        self.assertIn("DUP-FALLBACK", text.text())
+
+        links = validate.VisibleListLinkParser()
+        links.feed(
+            '<div><ul slot="evidence"><li>SRC-A '
+            '<a href="assigned">Assigned</a></li></ul>'
+            '<template shadowrootmode="open">'
+            '<div hidden><slot name="evidence"></slot></div>'
+            '<slot name="evidence"><ul><li>SRC-F '
+            '<a href="fallback">Fallback</a></li></ul></slot>'
+            '</template></div>'
+        )
+        links.close()
+        self.assertEqual(
+            [("SRC-F Fallback", [("fallback", "Fallback")])],
+            links.visible_items,
+        )
+
+    def test_post_template_assigned_text_is_composed_at_slot_position(self) -> None:
+        parser = validate.VisibleSectionTextParser("Gesicherter Ereigniskern")
+        parser.feed(
+            '<div><template shadowrootmode="open">'
+            '<slot></slot><h2>Gesicherter Ereigniskern</h2>'
+            '</template><p>CLM-LIGHT-BEFORE-HEADING</p></div>'
+        )
+        parser.close()
+        self.assertEqual("", parser.text())
+
+    def test_template_end_finalizes_implicitly_closed_shadow_slot(self) -> None:
+        text = validate.VisibleTextParser()
+        text.feed(
+            '<div><template shadowrootmode="open"><slot>'
+            '<span>IMPLICIT-FALLBACK</span></template>'
+            '<span>IMPLICIT-ASSIGNED</span></div>'
+        )
+        text.close()
+        self.assertIn("IMPLICIT-ASSIGNED", text.text())
+        self.assertNotIn("IMPLICIT-FALLBACK", text.text())
+
+        links = validate.VisibleListLinkParser()
+        links.feed(
+            '<div><template shadowrootmode="open"><slot>'
+            '<ul><li>SRC-F <a href="fallback">Fallback</a></li></ul>'
+            '</template><ul><li>SRC-A '
+            '<a href="assigned">Assigned</a></li></ul></div>'
+        )
+        links.close()
+        self.assertEqual(
+            [("SRC-A Assigned", [("assigned", "Assigned")])],
+            links.visible_items,
+        )
+
+
+    def test_implicit_close_preserves_preassigned_light_child(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div><p slot="evidence">PRECLOSE-ASSIGNED'
+            '<div>PRECLOSE-UNSLOTTED-BRIDGE</div>'
+            '<template shadowrootmode="open">'
+            '<slot name="evidence"></slot></template></div>'
+        )
+        parser.close()
+        self.assertIn("PRECLOSE-ASSIGNED", parser.text())
+        self.assertNotIn("PRECLOSE-UNSLOTTED-BRIDGE", parser.text())
+
+    def test_section_parser_uses_composed_slot_position_for_later_light_child(self) -> None:
+        parser = validate.VisibleSectionTextParser("Gesicherter Ereigniskern")
+        parser.feed(
+            '<div><template shadowrootmode="open">'
+            '<h2>Gesicherter Ereigniskern</h2>'
+            '<slot></slot><h2>Andere Sektion</h2>'
+            '</template><p>SECTION-SLOTTED-CLAIM</p></div>'
+        )
+        parser.close()
+        self.assertEqual("SECTION-SLOTTED-CLAIM", parser.text())
+
+
+    def test_section_parser_uses_composed_slot_position_for_preassigned_light_child(self) -> None:
+        parser = validate.VisibleSectionTextParser("Gesicherter Ereigniskern")
+        parser.feed(
+            '<div><span slot="evidence">PRE-SECTION-SLOTTED</span>'
+            '<template shadowrootmode="open">'
+            '<h2>Gesicherter Ereigniskern</h2>'
+            '<slot name="evidence"></slot>'
+            '</template></div>'
+        )
+        parser.close()
+        self.assertEqual("PRE-SECTION-SLOTTED", parser.text())
+
 if __name__ == "__main__":
     unittest.main()

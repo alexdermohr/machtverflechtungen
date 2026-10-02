@@ -1572,6 +1572,53 @@ class VisibleListLinkParser(HTMLParser):
                     anchor["text"].clear()
                     anchor["hidden"] = True
 
+    def _shadow_items_since(
+        self, checkpoint: dict[str, Any]
+    ) -> list[tuple[str, list[tuple[str, str]]]]:
+        visible_items_len = checkpoint.get("visible_items_len")
+        return (
+            list(self.visible_items[visible_items_len:])
+            if isinstance(visible_items_len, int)
+            else []
+        )
+
+    def _finalize_shadow_slot_element(self, element: dict[str, Any]) -> None:
+        if element.get("shadow_slot_finalized") is True:
+            return
+        state = element.get("shadow_slot_state")
+        checkpoint = element.get("shadow_fallback_checkpoint")
+        if isinstance(state, dict) and isinstance(checkpoint, dict):
+            state["fallback_items"] = self._shadow_items_since(checkpoint)
+            self._restore_shadow_output_checkpoint(checkpoint)
+        element["shadow_slot_finalized"] = True
+
+    def _finalize_shadow_routed_element(self, element: dict[str, Any]) -> None:
+        if element.get("shadow_route_finalized") is True:
+            return
+        pre_host = element.get("shadow_preassignment_host")
+        pre_checkpoint = element.get("shadow_preassignment_checkpoint")
+        pre_name = element.get("shadow_preassignment_name")
+        if (
+            isinstance(pre_host, dict)
+            and isinstance(pre_checkpoint, dict)
+            and isinstance(pre_name, str)
+        ):
+            by_name = pre_host.setdefault("shadow_preassigned_items", {})
+            if isinstance(by_name, dict):
+                by_name.setdefault(pre_name, []).extend(
+                    self._shadow_items_since(pre_checkpoint)
+                )
+
+        assignment_state = element.get("shadow_assignment_state")
+        assignment_checkpoint = element.get("shadow_assignment_checkpoint")
+        if isinstance(assignment_state, dict) and isinstance(
+            assignment_checkpoint, dict
+        ):
+            assigned = self._shadow_items_since(assignment_checkpoint)
+            self._restore_shadow_output_checkpoint(assignment_checkpoint)
+            assignment_state.setdefault("assigned_items", []).extend(assigned)
+        element["shadow_route_finalized"] = True
+
     def _resolve_shadow_items(
         self,
         items: list[tuple[str, list[tuple[str, str]]]],
@@ -1586,12 +1633,16 @@ class VisibleListLinkParser(HTMLParser):
                 continue
             if text_value in seen or state.get("visible") is not True:
                 continue
-            selected = (
-                state.get("preassigned_items", [])
-                if state.get("assigned") is True
-                else state.get("fallback_items", [])
-            )
-            if isinstance(selected, list):
+            if state.get("assigned") is True:
+                selected: list[tuple[str, list[tuple[str, str]]]] = []
+                for key in ("preassigned_items", "assigned_items"):
+                    value = state.get(key, [])
+                    if isinstance(value, list):
+                        selected.extend(value)
+            else:
+                fallback = state.get("fallback_items", [])
+                selected = list(fallback) if isinstance(fallback, list) else []
+            if selected:
                 resolved.extend(
                     self._resolve_shadow_items(
                         selected, seen | {text_value}
@@ -1801,6 +1852,11 @@ class VisibleListLinkParser(HTMLParser):
     def _close_element(self, tag: str) -> None:
         for index in range(len(self._elements) - 1, -1, -1):
             if self._elements[index].get("tag") == tag:
+                removed = self._elements[index:]
+                for element in reversed(removed):
+                    if element.get("tag") == "slot":
+                        self._finalize_shadow_slot_element(element)
+                    self._finalize_shadow_routed_element(element)
                 del self._elements[index:]
                 return
 
@@ -1810,6 +1866,10 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
         for _ in range(sum(element.get("tag") == "li" for element in removed)):
             self._finalize_current_item()
+        for element in reversed(removed):
+            if element.get("tag") == "slot":
+                self._finalize_shadow_slot_element(element)
+            self._finalize_shadow_routed_element(element)
         del self._elements[index:]
 
     def _close_active_table_for_nested_start(self) -> None:
@@ -1881,7 +1941,7 @@ class VisibleListLinkParser(HTMLParser):
             ):
                 return
             if element_tag == "p" and element_namespace(element) == "html":
-                del self._elements[index:]
+                self._pop_elements_from(index)
                 return
 
     def _close_implicit_container(self, tag: str) -> None:
@@ -1901,13 +1961,7 @@ class VisibleListLinkParser(HTMLParser):
                 element_tag in close_tags
                 and element_namespace(element) == "html"
             ):
-                removed_list_items = sum(
-                    element.get("tag") == "li"
-                    for element in self._elements[index:]
-                )
-                for _ in range(removed_list_items):
-                    self._finalize_current_item()
-                del self._elements[index:]
+                self._pop_elements_from(index)
                 return
 
     def _close_implicit_heading(self, tag: str) -> None:
@@ -1926,12 +1980,7 @@ class VisibleListLinkParser(HTMLParser):
         root_index = active_foreign_root_index(self._elements)
         if root_index is None:
             return False
-        removed = self._elements[root_index:]
-        for _ in range(sum(element.get("tag") == "a" for element in removed)):
-            self._finalize_anchor()
-        for _ in range(sum(element.get("tag") == "li" for element in removed)):
-            self._finalize_current_item()
-        del self._elements[root_index:]
+        self._pop_elements_from(root_index)
         return True
 
     def handle_starttag(
@@ -2058,18 +2107,6 @@ class VisibleListLinkParser(HTMLParser):
         if shadow_host is not None:
             checkpoint = shadow_host.get("shadow_output_checkpoint")
             if isinstance(checkpoint, dict):
-                visible_items_len = checkpoint.get("visible_items_len")
-                pre_items = (
-                    list(self.visible_items[visible_items_len:])
-                    if isinstance(visible_items_len, int)
-                    else []
-                )
-                pre_names = shadow_preassigned_names(shadow_host)
-                shadow_host["shadow_preassigned_items"] = (
-                    {next(iter(pre_names)): pre_items}
-                    if len(pre_names) == 1
-                    else {}
-                )
                 self._restore_shadow_output_checkpoint(checkpoint)
 
         if (
@@ -2078,9 +2115,27 @@ class VisibleListLinkParser(HTMLParser):
             and declarative_shadow_host_eligible(parent)
             and parent.get("shadow_root_attached") is not True
         ):
-            parent.setdefault("shadow_preassigned_names", set()).add(
-                shadow_slot_attribute_value(attrs, "slot")
+            pre_name = shadow_slot_attribute_value(attrs, "slot")
+            parent.setdefault("shadow_preassigned_names", set()).add(pre_name)
+            element_record["shadow_preassignment_host"] = parent
+            element_record["shadow_preassignment_name"] = pre_name
+            element_record["shadow_preassignment_checkpoint"] = (
+                self._shadow_output_checkpoint()
             )
+
+        light_slot_state: dict[str, Any] | None = None
+        if (
+            not active_shadow_template
+            and isinstance(parent, dict)
+            and parent.get("shadow_root_attached") is True
+        ):
+            light_slot_state = light_child_shadow_slot_state(parent, attrs)
+            if light_slot_state is not None:
+                light_slot_state["assigned"] = True
+                element_record["shadow_assignment_state"] = light_slot_state
+                element_record["shadow_assignment_checkpoint"] = (
+                    self._shadow_output_checkpoint()
+                )
 
         element_renders_boundary = (
             boundary_visible_before
@@ -2123,12 +2178,12 @@ class VisibleListLinkParser(HTMLParser):
             not active_shadow_template
             and isinstance(parent, dict)
             and parent.get("shadow_root_attached") is True
+            and (
+                light_slot_state is None
+                or light_slot_state.get("visible") is not True
+            )
         ):
-            slot_state = light_child_shadow_slot_state(parent, attrs)
-            if slot_state is not None:
-                slot_state["assigned"] = True
-            if slot_state is None or slot_state.get("visible") is not True:
-                hidden = True
+            hidden = True
 
         shadow_tree_host = active_visibility_declarative_shadow_host(
             visibility_elements
@@ -2142,22 +2197,24 @@ class VisibleListLinkParser(HTMLParser):
                     f"{CLAIM_BINDING_BOUNDARY}shadow-list-slot:"
                     f"{self._shadow_slot_counter}{CLAIM_BINDING_BOUNDARY}"
                 )
+                primary_slot = slot_name not in slots
                 pre_names = shadow_preassigned_names(shadow_tree_host)
                 pre_items_by_name = shadow_tree_host.get(
                     "shadow_preassigned_items"
                 )
                 preassigned_items = (
                     list(pre_items_by_name.get(slot_name, []))
-                    if isinstance(pre_items_by_name, dict)
+                    if primary_slot and isinstance(pre_items_by_name, dict)
                     else []
                 )
                 slot_state = {
                     "visible": boundary_visible_before and not hidden,
-                    "assigned": slot_name in pre_names,
+                    "assigned": primary_slot and slot_name in pre_names,
                     "preassigned_items": preassigned_items,
+                    "assigned_items": [],
                     "fallback_items": [],
                 }
-                if slot_name not in slots:
+                if primary_slot:
                     slots[slot_name] = slot_state
                 self._shadow_slot_outputs[marker] = slot_state
                 self.visible_items.append((marker, []))
@@ -2312,16 +2369,7 @@ class VisibleListLinkParser(HTMLParser):
                 None,
             )
             if slot_index is not None:
-                slot_element = self._elements[slot_index]
-                slot_state = slot_element.get("shadow_slot_state")
-                checkpoint = slot_element.get("shadow_fallback_checkpoint")
-                if isinstance(slot_state, dict) and isinstance(checkpoint, dict):
-                    visible_items_len = checkpoint.get("visible_items_len")
-                    if isinstance(visible_items_len, int):
-                        slot_state["fallback_items"] = list(
-                            self.visible_items[visible_items_len:]
-                        )
-                    self._restore_shadow_output_checkpoint(checkpoint)
+                self._finalize_shadow_slot_element(self._elements[slot_index])
         if (
             tag == "p"
             and current_foreign_context is None
@@ -2337,6 +2385,8 @@ class VisibleListLinkParser(HTMLParser):
                 return
             if self._anchors:
                 self._finalize_anchor()
+            anchor_element = self._elements[anchor_index]
+            self._finalize_shadow_routed_element(anchor_element)
             del self._elements[anchor_index]
             return
         html_form_end = (
@@ -2373,6 +2423,14 @@ class VisibleListLinkParser(HTMLParser):
             self._finalize_anchor()
         elif tag == "li" and self._items:
             self._finalize_current_item()
+        closing_element = next(
+            (
+                element
+                for element in reversed(self._elements)
+                if element.get("tag") == close_tag
+            ),
+            None,
+        )
         if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
@@ -2394,6 +2452,8 @@ class VisibleListLinkParser(HTMLParser):
             boundary_visible_before or closing_text_boundary_visible
         ):
             self._append_text_boundary()
+        if isinstance(closing_element, dict):
+            self._finalize_shadow_routed_element(closing_element)
 
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
@@ -2431,6 +2491,7 @@ class VisibleTextParser(HTMLParser):
         self._document_hidden = False
         self._form_element_active = False
         self._text: list[str] = []
+        self._shadow_capture_text: list[str] = []
         self._claim_heading_tag: str | None = None
         self._claim_heading_text: list[str] = []
         self._pending_claim_statement_paragraph = False
@@ -2440,6 +2501,7 @@ class VisibleTextParser(HTMLParser):
     def _shadow_output_checkpoint(self) -> dict[str, Any]:
         return {
             "text_len": len(self._text),
+            "shadow_capture_text_len": len(self._shadow_capture_text),
             "claim_heading_tag": self._claim_heading_tag,
             "claim_heading_text": list(self._claim_heading_text),
             "pending_claim_statement_paragraph": (
@@ -2453,6 +2515,9 @@ class VisibleTextParser(HTMLParser):
         text_len = checkpoint.get("text_len")
         if isinstance(text_len, int):
             del self._text[text_len:]
+        shadow_capture_text_len = checkpoint.get("shadow_capture_text_len")
+        if isinstance(shadow_capture_text_len, int):
+            del self._shadow_capture_text[shadow_capture_text_len:]
         claim_heading_tag = checkpoint.get("claim_heading_tag")
         self._claim_heading_tag = (
             claim_heading_tag if isinstance(claim_heading_tag, str) else None
@@ -2470,12 +2535,49 @@ class VisibleTextParser(HTMLParser):
     def _shadow_output_since(
         self, checkpoint: dict[str, Any]
     ) -> list[str]:
-        text_len = checkpoint.get("text_len")
+        shadow_capture_text_len = checkpoint.get("shadow_capture_text_len")
         return (
-            list(self._text[text_len:])
-            if isinstance(text_len, int)
+            list(self._shadow_capture_text[shadow_capture_text_len:])
+            if isinstance(shadow_capture_text_len, int)
             else []
         )
+
+    def _finalize_shadow_slot_element(self, element: dict[str, Any]) -> None:
+        if element.get("shadow_slot_finalized") is True:
+            return
+        state = element.get("shadow_slot_state")
+        checkpoint = element.get("shadow_fallback_checkpoint")
+        if isinstance(state, dict) and isinstance(checkpoint, dict):
+            state["fallback_chunks"] = self._shadow_output_since(checkpoint)
+            self._restore_shadow_output_checkpoint(checkpoint)
+        element["shadow_slot_finalized"] = True
+
+    def _finalize_shadow_routed_element(self, element: dict[str, Any]) -> None:
+        if element.get("shadow_route_finalized") is True:
+            return
+        pre_host = element.get("shadow_preassignment_host")
+        pre_checkpoint = element.get("shadow_preassignment_checkpoint")
+        pre_name = element.get("shadow_preassignment_name")
+        if (
+            isinstance(pre_host, dict)
+            and isinstance(pre_checkpoint, dict)
+            and isinstance(pre_name, str)
+        ):
+            by_name = pre_host.setdefault("shadow_preassigned_chunks", {})
+            if isinstance(by_name, dict):
+                by_name.setdefault(pre_name, []).extend(
+                    self._shadow_output_since(pre_checkpoint)
+                )
+
+        assignment_state = element.get("shadow_assignment_state")
+        assignment_checkpoint = element.get("shadow_assignment_checkpoint")
+        if isinstance(assignment_state, dict) and isinstance(
+            assignment_checkpoint, dict
+        ):
+            assigned = self._shadow_output_since(assignment_checkpoint)
+            self._restore_shadow_output_checkpoint(assignment_checkpoint)
+            assignment_state.setdefault("assigned_chunks", []).extend(assigned)
+        element["shadow_route_finalized"] = True
 
     def _resolve_shadow_text(
         self, value: str, seen: set[str] | None = None
@@ -2488,13 +2590,17 @@ class VisibleTextParser(HTMLParser):
             if marker in seen or state.get("visible") is not True:
                 replacement = ""
             else:
-                chunks = (
-                    state.get("preassigned_chunks", [])
-                    if state.get("assigned") is True
-                    else state.get("fallback_chunks", [])
-                )
+                if state.get("assigned") is True:
+                    chunks: list[str] = []
+                    for key in ("preassigned_chunks", "assigned_chunks"):
+                        value = state.get(key, [])
+                        if isinstance(value, list):
+                            chunks.extend(value)
+                else:
+                    fallback = state.get("fallback_chunks", [])
+                    chunks = list(fallback) if isinstance(fallback, list) else []
                 replacement = self._resolve_shadow_text(
-                    "".join(chunks) if isinstance(chunks, list) else "",
+                    "".join(chunks),
                     seen | {marker},
                 )
             resolved = resolved.replace(marker, replacement)
@@ -2549,11 +2655,20 @@ class VisibleTextParser(HTMLParser):
     def _close_element(self, tag: str) -> None:
         for index in range(len(self._elements) - 1, -1, -1):
             if self._elements[index].get("tag") == tag:
+                removed = self._elements[index:]
+                for element in reversed(removed):
+                    if element.get("tag") == "slot":
+                        self._finalize_shadow_slot_element(element)
+                    self._finalize_shadow_routed_element(element)
                 del self._elements[index:]
                 return
 
     def _pop_elements_from(self, index: int) -> None:
         removed = self._elements[index:]
+        for element in reversed(removed):
+            if element.get("tag") == "slot":
+                self._finalize_shadow_slot_element(element)
+            self._finalize_shadow_routed_element(element)
         heading_was_removed = (
             self._claim_heading_tag is not None
             and any(
@@ -2610,7 +2725,7 @@ class VisibleTextParser(HTMLParser):
                     and self._text_visible()
                 ):
                     self._append_claim_binding_boundary()
-                del self._elements[index:]
+                self._pop_elements_from(index)
                 return
 
     def _close_implicit_record(self, tag: str) -> None:
@@ -2639,7 +2754,7 @@ class VisibleTextParser(HTMLParser):
         ):
             root_index = active_foreign_root_index(self._elements)
             if root_index is not None:
-                del self._elements[root_index:]
+                self._pop_elements_from(root_index)
             current_foreign_context = foreign_context(self._elements)
         if tag == "image" and current_foreign_context is None:
             tag = "img"
@@ -2757,13 +2872,6 @@ class VisibleTextParser(HTMLParser):
         if shadow_host is not None:
             checkpoint = shadow_host.get("shadow_output_checkpoint")
             if isinstance(checkpoint, dict):
-                pre_chunks = self._shadow_output_since(checkpoint)
-                pre_names = shadow_preassigned_names(shadow_host)
-                shadow_host["shadow_preassigned_chunks"] = (
-                    {next(iter(pre_names)): pre_chunks}
-                    if len(pre_names) == 1
-                    else {}
-                )
                 self._restore_shadow_output_checkpoint(checkpoint)
 
         if (
@@ -2772,9 +2880,27 @@ class VisibleTextParser(HTMLParser):
             and declarative_shadow_host_eligible(parent)
             and parent.get("shadow_root_attached") is not True
         ):
-            parent.setdefault("shadow_preassigned_names", set()).add(
-                shadow_slot_attribute_value(attrs, "slot")
+            pre_name = shadow_slot_attribute_value(attrs, "slot")
+            parent.setdefault("shadow_preassigned_names", set()).add(pre_name)
+            element_record["shadow_preassignment_host"] = parent
+            element_record["shadow_preassignment_name"] = pre_name
+            element_record["shadow_preassignment_checkpoint"] = (
+                self._shadow_output_checkpoint()
             )
+
+        light_slot_state: dict[str, Any] | None = None
+        if (
+            not active_shadow_template
+            and isinstance(parent, dict)
+            and parent.get("shadow_root_attached") is True
+        ):
+            light_slot_state = light_child_shadow_slot_state(parent, attrs)
+            if light_slot_state is not None:
+                light_slot_state["assigned"] = True
+                element_record["shadow_assignment_state"] = light_slot_state
+                element_record["shadow_assignment_checkpoint"] = (
+                    self._shadow_output_checkpoint()
+                )
 
         element_renders_boundary = (
             boundary_visible_before
@@ -2815,12 +2941,12 @@ class VisibleTextParser(HTMLParser):
             not active_shadow_template
             and isinstance(parent, dict)
             and parent.get("shadow_root_attached") is True
+            and (
+                light_slot_state is None
+                or light_slot_state.get("visible") is not True
+            )
         ):
-            slot_state = light_child_shadow_slot_state(parent, attrs)
-            if slot_state is not None:
-                slot_state["assigned"] = True
-            if slot_state is None or slot_state.get("visible") is not True:
-                hidden = True
+            hidden = True
 
         shadow_tree_host = active_visibility_declarative_shadow_host(
             visibility_elements
@@ -2834,22 +2960,24 @@ class VisibleTextParser(HTMLParser):
                     f"{CLAIM_BINDING_BOUNDARY}shadow-text-slot:"
                     f"{self._shadow_slot_counter}{CLAIM_BINDING_BOUNDARY}"
                 )
+                primary_slot = slot_name not in slots
                 pre_names = shadow_preassigned_names(shadow_tree_host)
                 pre_chunks_by_name = shadow_tree_host.get(
                     "shadow_preassigned_chunks"
                 )
                 preassigned_chunks = (
                     list(pre_chunks_by_name.get(slot_name, []))
-                    if isinstance(pre_chunks_by_name, dict)
+                    if primary_slot and isinstance(pre_chunks_by_name, dict)
                     else []
                 )
                 slot_state = {
                     "visible": boundary_visible_before and not hidden,
-                    "assigned": slot_name in pre_names,
+                    "assigned": primary_slot and slot_name in pre_names,
                     "preassigned_chunks": preassigned_chunks,
+                    "assigned_chunks": [],
                     "fallback_chunks": [],
                 }
-                if slot_name not in slots:
+                if primary_slot:
                     slots[slot_name] = slot_state
                 self._shadow_slot_outputs[marker] = slot_state
                 self._append_text(marker)
@@ -2959,11 +3087,13 @@ class VisibleTextParser(HTMLParser):
 
     def _append_text(self, data: str) -> None:
         self._text.append(data)
+        self._shadow_capture_text.append(data)
 
     def _append_claim_binding_boundary(self) -> None:
         # NUL is reserved as an internal boundary marker and must never be
         # accepted from source text.
         self._text.append(CLAIM_BINDING_BOUNDARY)
+        self._shadow_capture_text.append(CLAIM_BINDING_BOUNDARY)
 
     def handle_data(self, data: str) -> None:
         # In ordinary HTML body parsing, source NUL is ignored by the browser
@@ -2983,14 +3113,18 @@ class VisibleTextParser(HTMLParser):
             slot_state = light_text_shadow_slot_state(parent)
             if slot_state is not None:
                 slot_state["assigned"] = True
-            if slot_state is None or slot_state.get("visible") is not True:
-                return
+                if slot_state.get("visible") is True:
+                    slot_state.setdefault("assigned_chunks", []).append(data)
+            return
         elif (
             isinstance(parent, dict)
             and declarative_shadow_host_eligible(parent)
             and parent.get("shadow_root_attached") is not True
         ):
             parent.setdefault("shadow_preassigned_names", set()).add("")
+            parent.setdefault("shadow_preassigned_chunks", {}).setdefault(
+                "", []
+            ).append(data)
         if self._claim_heading_tag is not None:
             self._claim_heading_text.append(data)
         elif self._pending_claim_statement_paragraph and data.strip():
@@ -3030,14 +3164,7 @@ class VisibleTextParser(HTMLParser):
                 None,
             )
             if slot_index is not None:
-                slot_element = self._elements[slot_index]
-                slot_state = slot_element.get("shadow_slot_state")
-                checkpoint = slot_element.get("shadow_fallback_checkpoint")
-                if isinstance(slot_state, dict) and isinstance(checkpoint, dict):
-                    slot_state["fallback_chunks"] = self._shadow_output_since(
-                        checkpoint
-                    )
-                    self._restore_shadow_output_checkpoint(checkpoint)
+                self._finalize_shadow_slot_element(self._elements[slot_index])
         if (
             tag == "p"
             and current_foreign_context is None
@@ -3051,6 +3178,8 @@ class VisibleTextParser(HTMLParser):
             anchor_index = explicit_anchor_end_index(self._elements)
             if anchor_index is None:
                 return
+            anchor_element = self._elements[anchor_index]
+            self._finalize_shadow_routed_element(anchor_element)
             del self._elements[anchor_index]
             return
         html_form_end = (
@@ -3087,6 +3216,14 @@ class VisibleTextParser(HTMLParser):
             if closes_claim_heading
             else ""
         )
+        closing_element = next(
+            (
+                element
+                for element in reversed(self._elements)
+                if element.get("tag") == close_tag
+            ),
+            None,
+        )
         if html_form_end:
             assert form_index is not None
             del self._elements[form_index]
@@ -3119,6 +3256,8 @@ class VisibleTextParser(HTMLParser):
                 boundary_visible_before
                 and re.fullmatch(r"CLM-[A-Z0-9-]+", claim_heading_text)
             )
+        if isinstance(closing_element, dict):
+            self._finalize_shadow_routed_element(closing_element)
 
     def _normalized_text(self) -> str:
         if self._document_hidden:
@@ -3181,12 +3320,7 @@ class VisibleSectionTextParser(VisibleTextParser):
     def _shadow_output_since(
         self, checkpoint: dict[str, Any]
     ) -> list[str]:
-        section_text_len = checkpoint.get("section_text_len")
-        return (
-            list(self._section_text[section_text_len:])
-            if isinstance(section_text_len, int)
-            else []
-        )
+        return super()._shadow_output_since(checkpoint)
 
     def _restore_shadow_output_checkpoint(
         self, checkpoint: dict[str, Any]
@@ -3221,6 +3355,7 @@ class VisibleSectionTextParser(VisibleTextParser):
             self._h2_visible = self._text_visible()
 
     def _append_text(self, data: str) -> None:
+        self._shadow_capture_text.append(data)
         if self._in_h2:
             self._h2_text.append(data)
             return
@@ -3259,7 +3394,9 @@ class VisibleSectionTextParser(VisibleTextParser):
         if self._document_hidden:
             return ""
         resolved = self._resolve_shadow_text("".join(self._section_text))
-        return " ".join(resolved.split())
+        return " ".join(
+            resolved.replace(CLAIM_BINDING_BOUNDARY, " ").split()
+        )
 
 
 def rendered_visible_text(path: Path) -> str:
