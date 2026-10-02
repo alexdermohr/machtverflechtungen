@@ -1504,6 +1504,8 @@ class VisibleListLinkParser(HTMLParser):
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
+            if active_html_template_index(self._elements) is not None:
+                return
             self._document_hidden = (
                 self._document_hidden
                 or self._declares_hidden(
@@ -1531,11 +1533,13 @@ class VisibleListLinkParser(HTMLParser):
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
-            if self._form_element_active:
-                return
-            self._form_element_active = True
-            if active_html_table_insertion_index(self._elements) is not None:
-                return
+            template_form = active_html_template_index(self._elements) is not None
+            if not template_form:
+                if self._form_element_active:
+                    return
+                self._form_element_active = True
+                if active_html_table_insertion_index(self._elements) is not None:
+                    return
         if tag == "select" and namespace == "html":
             select_index = active_html_select_index(self._elements)
             if select_index is not None:
@@ -1762,9 +1766,11 @@ class VisibleListLinkParser(HTMLParser):
             tag == "form" and current_foreign_context is None
         )
         if html_form_end:
-            if not self._form_element_active:
-                return
-            self._form_element_active = False
+            template_form_end = active_html_template_index(self._elements) is not None
+            if not template_form_end:
+                if not self._form_element_active:
+                    return
+                self._form_element_active = False
             form_index = explicit_form_end_index(self._elements)
             if form_index is None:
                 return
@@ -2012,6 +2018,8 @@ class VisibleTextParser(HTMLParser):
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
+            if active_html_template_index(self._elements) is not None:
+                return
             self._document_hidden = (
                 self._document_hidden
                 or VisibleListLinkParser._declares_hidden(
@@ -2036,11 +2044,13 @@ class VisibleTextParser(HTMLParser):
         if tag == "table" and namespace == "html":
             self._close_active_table_for_nested_start()
         if tag == "form" and namespace == "html":
-            if self._form_element_active:
-                return
-            self._form_element_active = True
-            if active_html_table_insertion_index(self._elements) is not None:
-                return
+            template_form = active_html_template_index(self._elements) is not None
+            if not template_form:
+                if self._form_element_active:
+                    return
+                self._form_element_active = True
+                if active_html_table_insertion_index(self._elements) is not None:
+                    return
         if tag == "select" and namespace == "html":
             select_index = active_html_select_index(self._elements)
             if select_index is not None:
@@ -2295,9 +2305,11 @@ class VisibleTextParser(HTMLParser):
             tag == "form" and current_foreign_context is None
         )
         if html_form_end:
-            if not self._form_element_active:
-                return
-            self._form_element_active = False
+            template_form_end = active_html_template_index(self._elements) is not None
+            if not template_form_end:
+                if not self._form_element_active:
+                    return
+                self._form_element_active = False
             form_index = explicit_form_end_index(self._elements)
             if form_index is None:
                 return

@@ -85,5 +85,35 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertEqual("SRC-A A", text.text())
 
 
+    def test_document_tags_are_ignored_while_template_is_in_scope(self) -> None:
+        markup = (
+            "<template><body hidden></body></template>"
+            "<ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertEqual("SRC-A A", text.text())
+
+    def test_template_form_does_not_clear_outer_form_pointer(self) -> None:
+        markup = (
+            "<form><template><form></form></template>"
+            "<form hidden><ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertEqual("SRC-A A", text.text())
+
 if __name__ == "__main__":
     unittest.main()
