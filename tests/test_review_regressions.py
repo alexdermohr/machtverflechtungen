@@ -115,5 +115,36 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
         self.assertEqual("SRC-A A", text.text())
 
+    def test_document_tag_template_detection_crosses_foreign_integration_points(self) -> None:
+        markup = (
+            "<template><svg><foreignObject><body hidden></body></foreignObject></svg></template>"
+            "<ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertIn("SRC-A A", text.text())
+
+    def test_frameset_start_is_ignored_in_body_fragment(self) -> None:
+        markup = (
+            "<p>BEFORE</p>"
+            "<frameset hidden><ul><li>SRC-A <a href=\"u\">A</a></li></ul></frameset>"
+            "<button>AFTER</button>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertIn("SRC-A A", text.text())
+
 if __name__ == "__main__":
     unittest.main()

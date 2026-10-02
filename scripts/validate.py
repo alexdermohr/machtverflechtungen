@@ -590,6 +590,15 @@ def active_html_template_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+def html_template_on_stack(elements: list[dict[str, Any]]) -> bool:
+    """Return whether any HTML template remains on the open-elements stack."""
+    return any(
+        element.get("tag") == "template"
+        and element_namespace(element) == "html"
+        for element in elements
+    )
+
+
 HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
 
 HTML_HEAD_CONTENT_START_TAGS = frozenset(
@@ -1504,7 +1513,7 @@ class VisibleListLinkParser(HTMLParser):
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
-            if active_html_template_index(self._elements) is not None:
+            if html_template_on_stack(self._elements):
                 return
             self._document_hidden = (
                 self._document_hidden
@@ -1515,6 +1524,10 @@ class VisibleListLinkParser(HTMLParser):
             self._document_inert = (
                 self._document_inert or self._has_attribute(attrs, "inert")
             )
+            return
+        if tag == "frameset" and namespace == "html":
+            # Rendered Markdown is embedded in the MkDocs body, where
+            # preceding page content has already cleared the frameset-ok flag.
             return
         if (
             tag in HTML_TABLE_SELECT_EXIT_START_TAGS
@@ -2018,7 +2031,7 @@ class VisibleTextParser(HTMLParser):
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
         if tag in {"html", "body"} and namespace == "html":
-            if active_html_template_index(self._elements) is not None:
+            if html_template_on_stack(self._elements):
                 return
             self._document_hidden = (
                 self._document_hidden
@@ -2026,6 +2039,10 @@ class VisibleTextParser(HTMLParser):
                     tag, attrs, self._author_stylesheet_present
                 )
             )
+            return
+        if tag == "frameset" and namespace == "html":
+            # Rendered Markdown is embedded in the MkDocs body, where
+            # preceding page content has already cleared the frameset-ok flag.
             return
         if (
             tag in HTML_TABLE_SELECT_EXIT_START_TAGS
