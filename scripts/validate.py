@@ -332,9 +332,10 @@ class AuthorStylesheetParser(AuthorMarkupScanner):
         namespace: str,
     ) -> None:
         if tag == "style":
-            self.found = True
+            if namespace in {"html", "svg"}:
+                self.found = True
             return
-        if tag != "link":
+        if tag != "link" or namespace != "html":
             return
         rel = next(
             (value for name, value in attrs if name.casefold() == "rel"),
@@ -425,6 +426,14 @@ def foreign_context(elements: list[dict[str, Any]]) -> str | None:
 def namespace_for_start_tag(
     elements: list[dict[str, Any]], tag: str
 ) -> str:
+    if elements:
+        current = elements[-1]
+        if (
+            element_namespace(current) == "math"
+            and current.get("tag") in MATHML_TEXT_INTEGRATION_TAGS
+            and tag in {"mglyph", "malignmark"}
+        ):
+            return "math"
     current_foreign_context = foreign_context(elements)
     if current_foreign_context is not None:
         return current_foreign_context

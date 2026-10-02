@@ -308,5 +308,52 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+    def test_stylesheet_detection_respects_namespace(self) -> None:
+        self.assertFalse(
+            validate.has_author_stylesheet(
+                '<math><style>#evidence{display:none}</style></math>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_stylesheet(
+                '<svg><style>#evidence{display:none}</style></svg>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_stylesheet(
+                '<style>#evidence{display:none}</style>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_stylesheet(
+                '<math><link rel="stylesheet" href="theme.css"></math>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_stylesheet(
+                '<link rel="stylesheet" href="theme.css">'
+            )
+        )
+
+    def test_mathml_text_integration_exceptions_remain_mathml(self) -> None:
+        for tag in ("mglyph", "malignmark"):
+            with self.subTest(tag=tag):
+                self.assertFalse(
+                    validate.has_author_executable_content(
+                        '<math><mtext><'
+                        + tag
+                        + '><script>document.body.hidden=true</script></'
+                        + tag
+                        + '></mtext></math>'
+                    )
+                )
+
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<math><mtext><div><script>document.body.hidden=true</script>'
+                '</div></mtext></math>'
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()
