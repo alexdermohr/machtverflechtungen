@@ -146,5 +146,35 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
         self.assertIn("SRC-A A", text.text())
 
+    def test_executable_author_content_is_a_visibility_mutator(self) -> None:
+        samples = (
+            "<script>document.body.hidden=true</script>",
+            '<img src="missing" onerror="document.body.hidden=true">',
+            '<iframe srcdoc="<script>parent.document.body.hidden=true</script>"></iframe>',
+            '<a href="javascript:document.body.hidden=true">trigger</a>',
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                rendered = validate.render_site_markdown(markup)
+                self.assertTrue(validate.has_author_visibility_mutator(rendered))
+
+    def test_author_script_disqualifies_static_visibility_evidence(self) -> None:
+        rendered = validate.render_site_markdown(
+            '<ul id="evidence"><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X wording</p>'
+            '<script>document.querySelector("#evidence").hidden=true</script>'
+        )
+        mutator_present = validate.has_author_visibility_mutator(rendered)
+
+        links = validate.VisibleListLinkParser(mutator_present)
+        links.feed(rendered)
+        links.close()
+        visible_text = validate.VisibleTextParser(mutator_present)
+        visible_text.feed(rendered)
+        visible_text.close()
+
+        self.assertEqual([], links.visible_items)
+        self.assertEqual("", visible_text.text())
+
 if __name__ == "__main__":
     unittest.main()

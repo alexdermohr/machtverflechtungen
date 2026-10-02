@@ -241,6 +241,58 @@ def has_author_stylesheet(rendered: str) -> bool:
     return parser.found
 
 
+EXECUTABLE_URL_ATTRIBUTES = frozenset(
+    {"href", "src", "action", "formaction", "xlink:href"}
+)
+
+
+class AuthorExecutableContentParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.found = False
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        if tag == "script":
+            self.found = True
+            return
+        for name, value in attrs:
+            name = name.casefold()
+            if name.startswith("on"):
+                self.found = True
+                return
+            if tag == "iframe" and name == "srcdoc":
+                self.found = True
+                return
+            if (
+                name in EXECUTABLE_URL_ATTRIBUTES
+                and isinstance(value, str)
+                and value.lstrip().casefold().startswith("javascript:")
+            ):
+                self.found = True
+                return
+
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        self.handle_starttag(tag, attrs)
+
+
+def has_author_executable_content(rendered: str) -> bool:
+    parser = AuthorExecutableContentParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.found
+
+
+def has_author_visibility_mutator(rendered: str) -> bool:
+    return has_author_stylesheet(rendered) or has_author_executable_content(
+        rendered
+    )
+
+
 def element_namespace(element: dict[str, Any]) -> str:
     namespace = element.get("namespace")
     return str(namespace) if namespace in {"html", "svg", "math"} else "html"
@@ -1834,7 +1886,7 @@ class VisibleListLinkParser(HTMLParser):
 
 def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
     rendered = render_site_markdown(markdown_body(path))
-    parser = VisibleListLinkParser(has_author_stylesheet(rendered))
+    parser = VisibleListLinkParser(has_author_visibility_mutator(rendered))
     parser.feed(rendered)
     parser.close()
     return parser.visible_items
@@ -2401,7 +2453,7 @@ class VisibleTextParser(HTMLParser):
 
 def visible_markdown_text(value: str) -> str:
     rendered = render_site_markdown(value)
-    parser = VisibleTextParser(has_author_stylesheet(rendered))
+    parser = VisibleTextParser(has_author_visibility_mutator(rendered))
     parser.feed(rendered)
     parser.close()
     return parser.text()
@@ -2409,7 +2461,7 @@ def visible_markdown_text(value: str) -> str:
 
 def visible_markdown_claim_binding_text(value: str) -> str:
     rendered = render_site_markdown(value)
-    parser = VisibleTextParser(has_author_stylesheet(rendered))
+    parser = VisibleTextParser(has_author_visibility_mutator(rendered))
     parser.feed(rendered)
     parser.close()
     return parser.claim_binding_text()
@@ -2496,7 +2548,7 @@ def rendered_claim_binding_text(path: Path) -> str:
 def rendered_visible_section(path: Path, heading: str) -> str:
     rendered = render_site_markdown(markdown_body(path))
     parser = VisibleSectionTextParser(
-        heading, has_author_stylesheet(rendered)
+        heading, has_author_visibility_mutator(rendered)
     )
     parser.feed(rendered)
     parser.close()
