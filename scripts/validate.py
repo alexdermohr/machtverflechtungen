@@ -1060,7 +1060,29 @@ RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
 
 
 class VisibleListLinkParser(HTMLParser):
-    CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS + ("noscript",)
+    CDATA_CONTENT_ELEMENTS = tuple(
+        dict.fromkeys(
+            HTMLParser.CDATA_CONTENT_ELEMENTS
+            + (
+                "noscript",
+                "xmp",
+                "iframe",
+                "noembed",
+                "noframes",
+                "plaintext",
+            )
+        )
+    )
+
+    def parse_endtag(self, i: int) -> int:
+        if self.cdata_elem == "plaintext":
+            end = self.rawdata.find(">", i + 2)
+            if end < 0:
+                return -1
+            self.handle_data(self.rawdata[i : end + 1])
+            return end + 1
+        return super().parse_endtag(i)
+
     VOID_TAGS = frozenset(
         {
             "area",
@@ -1652,11 +1674,19 @@ class VisibleListLinkParser(HTMLParser):
                 self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
-        if (
-            tag == "noscript"
-            and active_html_noscript_index(self._elements) is not None
+        if tag in {
+            "noscript",
+            "xmp",
+            "iframe",
+            "noembed",
+            "noframes",
+            "plaintext",
+        } and any(
+            element.get("tag") == tag
+            and element_namespace(element) == "html"
+            for element in self._elements
         ):
-            self.set_cdata_mode("noscript")
+            self.set_cdata_mode(tag)
 
     def handle_data(self, data: str) -> None:
         visibility_elements = self._elements
@@ -1769,7 +1799,29 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 
 
 class VisibleTextParser(HTMLParser):
-    CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS + ("noscript",)
+    CDATA_CONTENT_ELEMENTS = tuple(
+        dict.fromkeys(
+            HTMLParser.CDATA_CONTENT_ELEMENTS
+            + (
+                "noscript",
+                "xmp",
+                "iframe",
+                "noembed",
+                "noframes",
+                "plaintext",
+            )
+        )
+    )
+
+    def parse_endtag(self, i: int) -> int:
+        if self.cdata_elem == "plaintext":
+            end = self.rawdata.find(">", i + 2)
+            if end < 0:
+                return -1
+            self.handle_data(self.rawdata[i : end + 1])
+            return end + 1
+        return super().parse_endtag(i)
+
     VOID_TAGS = VisibleListLinkParser.VOID_TAGS
     TEXT_BOUNDARY_TAGS = VISIBLE_TEXT_BOUNDARY_TAGS
     RENDERED_HIDDEN_CONTENT_RECORD_TAGS = RENDERED_ELEMENT_BOUNDARY_TAGS
@@ -2135,11 +2187,19 @@ class VisibleTextParser(HTMLParser):
                 self.handle_starttag(tag, attrs)
             return
         self.handle_starttag(tag, attrs)
-        if (
-            tag == "noscript"
-            and active_html_noscript_index(self._elements) is not None
+        if tag in {
+            "noscript",
+            "xmp",
+            "iframe",
+            "noembed",
+            "noframes",
+            "plaintext",
+        } and any(
+            element.get("tag") == tag
+            and element_namespace(element) == "html"
+            for element in self._elements
         ):
-            self.set_cdata_mode("noscript")
+            self.set_cdata_mode(tag)
 
     def _append_text(self, data: str) -> None:
         self._text.append(data)

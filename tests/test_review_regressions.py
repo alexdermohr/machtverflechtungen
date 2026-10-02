@@ -21,6 +21,39 @@ class ReviewRegressionTests(unittest.TestCase):
 
         self.assertEqual("CLM-X wording", parser.text())
 
+    def test_raw_text_containers_do_not_create_source_links(self) -> None:
+        samples = (
+            "<xmp><ul><li>SRC-A <a href=\"u\">A</a></li></ul></xmp>",
+            "<plaintext><ul><li>SRC-A <a href=\"u\">A</a></li></ul>",
+            "<plaintext>raw</plaintext><ul><li>SRC-A <a href=\"u\">A</a></li></ul>",
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                parser = validate.VisibleListLinkParser()
+                parser.feed(markup)
+                parser.close()
+                self.assertEqual([], parser.visible_items)
+
+    def test_xmp_closer_resumes_normal_link_parsing(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            "<xmp><a href=\"ignored\">ignored</a></xmp>"
+            "<ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        parser.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], parser.visible_items)
+
+    def test_plaintext_fake_closer_remains_literal_visible_text(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            "<plaintext>before</plaintext>"
+            "<span>CLM-X wording</span>"
+        )
+        parser.close()
+
+        self.assertIn("</plaintext><span>CLM-X wording</span>", parser.text())
+
 
 if __name__ == "__main__":
     unittest.main()
