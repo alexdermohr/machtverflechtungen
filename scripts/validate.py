@@ -205,15 +205,94 @@ PYMDOWN_DETAILS_CLASSES = frozenset(
 )
 
 
-class AuthorStylesheetParser(HTMLParser):
+BROWSER_RAW_TEXT_COMPAT_TAGS = (
+    "noscript",
+    "xmp",
+    "iframe",
+    "noembed",
+    "noframes",
+    "plaintext",
+)
+EXECUTABLE_URL_ATTRIBUTES = frozenset(
+    {"href", "src", "action", "formaction", "xlink:href"}
+)
+
+
+def normalized_executable_url(value: str) -> str:
+    normalized = value.lstrip()
+    for character in ("\t", "\n", "\r"):
+        normalized = normalized.replace(character, "")
+    return normalized.casefold()
+
+
+class AuthorMarkupScanner(HTMLParser):
+    CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS
+
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.found = False
+        self._elements: list[dict[str, Any]] = []
+
+    def parse_endtag(self, i: int) -> int:
+        if self.cdata_elem == "plaintext":
+            end = self.rawdata.find(">", i + 2)
+            if end < 0:
+                return -1
+            self.handle_data(self.rawdata[i : end + 1])
+            return end + 1
+        return super().parse_endtag(i)
+
+    def inspect_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+        namespace: str,
+    ) -> None:
+        raise NotImplementedError
 
     def handle_starttag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        namespace = namespace_for_start_tag(self._elements, tag)
+        self.inspect_starttag(tag, attrs, namespace)
+        self._elements.append({"tag": tag, "namespace": namespace})
+        if (
+            namespace == "html"
+            and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
+            and not self.found
+        ):
+            self.set_cdata_mode(tag)
+
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        tag = tag.casefold()
+        namespace = namespace_for_start_tag(self._elements, tag)
+        self.inspect_starttag(tag, attrs, namespace)
+        if (
+            namespace == "html"
+            and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
+            and not self.found
+        ):
+            self._elements.append({"tag": tag, "namespace": namespace})
+            self.set_cdata_mode(tag)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
+        for index in range(len(self._elements) - 1, -1, -1):
+            if self._elements[index].get("tag") == tag:
+                del self._elements[index:]
+                return
+
+
+class AuthorStylesheetParser(AuthorMarkupScanner):
+    def inspect_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+        namespace: str,
+    ) -> None:
         if tag == "style":
             self.found = True
             return
@@ -228,11 +307,6 @@ class AuthorStylesheetParser(HTMLParser):
         }:
             self.found = True
 
-    def handle_startendtag(
-        self, tag: str, attrs: list[tuple[str, str | None]]
-    ) -> None:
-        self.handle_starttag(tag, attrs)
-
 
 def has_author_stylesheet(rendered: str) -> bool:
     parser = AuthorStylesheetParser()
@@ -241,43 +315,13 @@ def has_author_stylesheet(rendered: str) -> bool:
     return parser.found
 
 
-EXECUTABLE_URL_ATTRIBUTES = frozenset(
-    {"href", "src", "action", "formaction", "xlink:href"}
-)
-BROWSER_RAW_TEXT_COMPAT_TAGS = (
-    "noscript",
-    "xmp",
-    "iframe",
-    "noembed",
-    "noframes",
-    "plaintext",
-)
-
-
-class AuthorExecutableContentParser(HTMLParser):
-    CDATA_CONTENT_ELEMENTS = tuple(
-        dict.fromkeys(
-            HTMLParser.CDATA_CONTENT_ELEMENTS + BROWSER_RAW_TEXT_COMPAT_TAGS
-        )
-    )
-
-    def parse_endtag(self, i: int) -> int:
-        if self.cdata_elem == "plaintext":
-            end = self.rawdata.find(">", i + 2)
-            if end < 0:
-                return -1
-            self.handle_data(self.rawdata[i : end + 1])
-            return end + 1
-        return super().parse_endtag(i)
-
-    def __init__(self) -> None:
-        super().__init__(convert_charrefs=True)
-        self.found = False
-
-    def handle_starttag(
-        self, tag: str, attrs: list[tuple[str, str | None]]
+class AuthorExecutableContentParser(AuthorMarkupScanner):
+    def inspect_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+        namespace: str,
     ) -> None:
-        tag = tag.casefold()
         if tag == "script":
             self.found = True
             return
@@ -292,18 +336,10 @@ class AuthorExecutableContentParser(HTMLParser):
             if (
                 name in EXECUTABLE_URL_ATTRIBUTES
                 and isinstance(value, str)
-                and value.lstrip().casefold().startswith("javascript:")
+                and normalized_executable_url(value).startswith("javascript:")
             ):
                 self.found = True
                 return
-
-    def handle_startendtag(
-        self, tag: str, attrs: list[tuple[str, str | None]]
-    ) -> None:
-        tag = tag.casefold()
-        self.handle_starttag(tag, attrs)
-        if tag in BROWSER_RAW_TEXT_COMPAT_TAGS and not self.found:
-            self.set_cdata_mode(tag)
 
 
 def has_author_executable_content(rendered: str) -> bool:

@@ -202,5 +202,50 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+
+    def test_stylesheet_scanner_preserves_raw_text_contexts(self) -> None:
+        style = "<style>#evidence{display:none}</style>"
+        samples = (
+            f"<xmp>{style}</xmp>",
+            f"<iframe>{style}</iframe>",
+            f"<noscript>{style}</noscript>",
+            f"<noembed>{style}</noembed>",
+            f"<noframes>{style}</noframes>",
+            f"<plaintext>{style}",
+            f"<textarea>{style}</textarea>",
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                rendered = validate.render_site_markdown(markup)
+                self.assertFalse(validate.has_author_stylesheet(rendered))
+
+        self.assertTrue(validate.has_author_stylesheet(style))
+        self.assertTrue(validate.has_author_stylesheet(f"<xmp>literal</xmp>{style}"))
+        self.assertFalse(
+            validate.has_author_stylesheet(
+                f"<plaintext>literal</plaintext>{style}"
+            )
+        )
+
+    def test_javascript_url_detection_removes_ascii_tab_and_newline(self) -> None:
+        samples = (
+            '<iframe src="java&#10;script:parent.document.body.hidden=true"></iframe>',
+            '<iframe src="java&#13;script:parent.document.body.hidden=true"></iframe>',
+            '<a href="java&#9;script:document.body.hidden=true">x</a>',
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                rendered = validate.render_site_markdown(markup)
+                self.assertTrue(validate.has_author_executable_content(rendered))
+
+    def test_self_closed_foreign_raw_text_tag_does_not_swallow_script(self) -> None:
+        markup = (
+            '<svg><iframe/>'
+            '<script>document.body.hidden=true</script>'
+            '</svg>'
+        )
+        rendered = validate.render_site_markdown(markup)
+        self.assertTrue(validate.has_author_executable_content(rendered))
+
 if __name__ == "__main__":
     unittest.main()
