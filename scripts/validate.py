@@ -213,6 +213,40 @@ BROWSER_RAW_TEXT_COMPAT_TAGS = (
     "noframes",
     "plaintext",
 )
+DECLARATIVE_SHADOW_STANDARD_HOST_TAGS = frozenset(
+    {
+        "article",
+        "aside",
+        "blockquote",
+        "body",
+        "div",
+        "footer",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "header",
+        "main",
+        "nav",
+        "p",
+        "section",
+        "span",
+    }
+)
+CUSTOM_ELEMENT_RESERVED_NAMES = frozenset(
+    {
+        "annotation-xml",
+        "color-profile",
+        "font-face",
+        "font-face-src",
+        "font-face-uri",
+        "font-face-format",
+        "font-face-name",
+        "missing-glyph",
+    }
+)
 EXECUTABLE_URL_ATTRIBUTES = frozenset(
     {"href", "src", "action", "formaction", "xlink:href"}
 )
@@ -226,6 +260,49 @@ def normalized_executable_url(value: str) -> str:
     while start < len(normalized) and ord(normalized[start]) <= 0x20:
         start += 1
     return normalized[start:].casefold()
+
+
+def potential_custom_element_name(tag: str) -> bool:
+    if (
+        not tag
+        or not "a" <= tag[0] <= "z"
+        or "-" not in tag
+        or tag in CUSTOM_ELEMENT_RESERVED_NAMES
+    ):
+        return False
+
+    def valid_character(character: str) -> bool:
+        codepoint = ord(character)
+        return (
+            character in {"-", ".", "_"}
+            or "0" <= character <= "9"
+            or "a" <= character <= "z"
+            or codepoint == 0x00B7
+            or 0x00C0 <= codepoint <= 0x00D6
+            or 0x00D8 <= codepoint <= 0x00F6
+            or 0x00F8 <= codepoint <= 0x037D
+            or 0x037F <= codepoint <= 0x1FFF
+            or 0x200C <= codepoint <= 0x200D
+            or 0x203F <= codepoint <= 0x2040
+            or 0x2070 <= codepoint <= 0x218F
+            or 0x2C00 <= codepoint <= 0x2FEF
+            or 0x3001 <= codepoint <= 0xD7FF
+            or 0xF900 <= codepoint <= 0xFDCF
+            or 0xFDF0 <= codepoint <= 0xFFFD
+            or 0x10000 <= codepoint <= 0xEFFFF
+        )
+
+    return all(valid_character(character) for character in tag[1:])
+
+
+def declarative_shadow_host_eligible(element: dict[str, Any] | None) -> bool:
+    if not isinstance(element, dict) or element.get("namespace") != "html":
+        return False
+    tag = element.get("tag")
+    return isinstance(tag, str) and (
+        tag in DECLARATIVE_SHADOW_STANDARD_HOST_TAGS
+        or potential_custom_element_name(tag)
+    )
 
 
 def parser_element_record(
@@ -272,9 +349,32 @@ class AuthorMarkupScanner(HTMLParser):
         return any(
             element.get("tag") == "template"
             and element.get("namespace") == "html"
-            and element.get("shadowrootmode") not in {"open", "closed"}
+            and element.get("declarative_shadow_root") is not True
             for element in self._elements
         )
+
+    def _element_record(
+        self,
+        tag: str,
+        namespace: str,
+        attrs: list[tuple[str, str | None]],
+    ) -> dict[str, Any]:
+        element = parser_element_record(tag, namespace, attrs)
+        if (
+            namespace != "html"
+            or tag != "template"
+            or element.get("shadowrootmode") not in {"open", "closed"}
+            or self._inside_inert_html_template()
+        ):
+            return element
+        host = self._elements[-1] if self._elements else None
+        if (
+            declarative_shadow_host_eligible(host)
+            and host.get("shadow_root_attached") is not True
+        ):
+            host["shadow_root_attached"] = True
+            element["declarative_shadow_root"] = True
+        return element
 
     def parse_endtag(self, i: int) -> int:
         if self.cdata_elem == "plaintext":
@@ -308,7 +408,7 @@ class AuthorMarkupScanner(HTMLParser):
         namespace = namespace_for_start_tag(self._elements, tag)
         if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
-        self._elements.append(parser_element_record(tag, namespace, attrs))
+        self._elements.append(self._element_record(tag, namespace, attrs))
         if (
             namespace == "html"
             and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
@@ -331,14 +431,14 @@ class AuthorMarkupScanner(HTMLParser):
         if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
         if namespace == "html" and tag == "template":
-            self._elements.append(parser_element_record(tag, namespace, attrs))
+            self._elements.append(self._element_record(tag, namespace, attrs))
             return
         if (
             namespace == "html"
             and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
             and not self.found
         ):
-            self._elements.append(parser_element_record(tag, namespace, attrs))
+            self._elements.append(self._element_record(tag, namespace, attrs))
             self.set_cdata_mode(tag)
 
     def handle_endtag(self, tag: str) -> None:

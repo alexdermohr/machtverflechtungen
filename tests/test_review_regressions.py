@@ -422,6 +422,44 @@ class ReviewRegressionTests(unittest.TestCase):
                 '<script>document.body.hidden=true</script></template></template></div>'
             )
         )
+        rejected_same_host = (
+            '<div><template shadowrootmode="open"><slot></slot></template>'
+            '<template shadowrootmode="open">{payload}</template></div>'
+        )
+        self.assertFalse(
+            validate.has_author_stylesheet(
+                rejected_same_host.format(
+                    payload='<style>body{display:none}</style>'
+                )
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                rejected_same_host.format(
+                    payload='<script>document.body.hidden=true</script>'
+                )
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<a><template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script></template></a>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<x-host><template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script></template></x-host>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<div><template shadowrootmode="open"><span>'
+                '<template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script></template></span>'
+                '</template></div>'
+            )
+        )
 
 if __name__ == "__main__":
     unittest.main()
