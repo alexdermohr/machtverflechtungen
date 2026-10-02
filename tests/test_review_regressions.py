@@ -54,6 +54,36 @@ class ReviewRegressionTests(unittest.TestCase):
 
         self.assertIn("</plaintext><span>CLM-X wording</span>", parser.text())
 
+    def test_table_start_is_ignored_inside_ordinary_select(self) -> None:
+        markup = (
+            "<select><table></select>"
+            "<ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertEqual("SRC-A A", text.text())
+
+    def test_template_end_pops_open_descendants(self) -> None:
+        markup = (
+            "<template><div></template>"
+            "<ul><li>SRC-A <a href=\"u\">A</a></li></ul>"
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+        self.assertEqual("SRC-A A", text.text())
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -576,6 +576,20 @@ def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
+def active_html_template_index(elements: list[dict[str, Any]]) -> int | None:
+    """Return the nearest active HTML template, popping through descendants."""
+    for index in range(len(elements) - 1, -1, -1):
+        element = elements[index]
+        if element_namespace(element) != "html":
+            return None
+        tag = element.get("tag")
+        if tag == "template":
+            return index
+        if tag == "html":
+            return None
+    return None
+
+
 HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
 
 HTML_HEAD_CONTENT_START_TAGS = frozenset(
@@ -1504,9 +1518,12 @@ class VisibleListLinkParser(HTMLParser):
             tag in HTML_TABLE_SELECT_EXIT_START_TAGS
             and namespace == "html"
         ):
-            select_index = active_html_table_select_index(self._elements)
+            select_index = active_html_select_index(self._elements)
             if select_index is not None:
-                self._pop_elements_from(select_index)
+                table_select_index = active_html_table_select_index(self._elements)
+                if table_select_index is None:
+                    return
+                self._pop_elements_from(table_select_index)
         if namespace == "html":
             cleanup_index = html_table_context_cleanup_index(self._elements, tag)
             if cleanup_index is not None:
@@ -1717,6 +1734,12 @@ class VisibleListLinkParser(HTMLParser):
             return
         current_foreign_context = foreign_context(self._elements)
         if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if tag == "template" and current_foreign_context is None:
+            template_index = active_html_template_index(self._elements)
+            if template_index is None:
+                return
+            self._pop_elements_from(template_index)
             return
         if (
             tag == "p"
@@ -2000,9 +2023,12 @@ class VisibleTextParser(HTMLParser):
             tag in HTML_TABLE_SELECT_EXIT_START_TAGS
             and namespace == "html"
         ):
-            select_index = active_html_table_select_index(self._elements)
+            select_index = active_html_select_index(self._elements)
             if select_index is not None:
-                self._pop_elements_from(select_index)
+                table_select_index = active_html_table_select_index(self._elements)
+                if table_select_index is None:
+                    return
+                self._pop_elements_from(table_select_index)
         if namespace == "html":
             cleanup_index = html_table_context_cleanup_index(self._elements, tag)
             if cleanup_index is not None:
@@ -2243,6 +2269,12 @@ class VisibleTextParser(HTMLParser):
             return
         current_foreign_context = foreign_context(self._elements)
         if tag in {"html", "body"} and current_foreign_context is None:
+            return
+        if tag == "template" and current_foreign_context is None:
+            template_index = active_html_template_index(self._elements)
+            if template_index is None:
+                return
+            self._pop_elements_from(template_index)
             return
         if (
             tag == "p"
