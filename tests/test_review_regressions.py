@@ -276,5 +276,37 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+    def test_foreign_breakout_reprocesses_script_as_html(self) -> None:
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<math><p><script>document.body.hidden=true</script></p></math>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<math><script>document.body.hidden=true</script></math>'
+            )
+        )
+
+    def test_annotation_xml_html_encoding_is_integration_point(self) -> None:
+        for encoding in ("text/html", "application/xhtml+xml"):
+            with self.subTest(encoding=encoding):
+                self.assertTrue(
+                    validate.has_author_executable_content(
+                        '<math><annotation-xml encoding="'
+                        + encoding
+                        + '"><script>document.body.hidden=true</script>'
+                        '</annotation-xml></math>'
+                    )
+                )
+
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<math><annotation-xml encoding="application/xml">'
+                '<script>document.body.hidden=true</script>'
+                '</annotation-xml></math>'
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()

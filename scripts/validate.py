@@ -228,6 +228,26 @@ def normalized_executable_url(value: str) -> str:
     return normalized[start:].casefold()
 
 
+def parser_element_record(
+    tag: str,
+    namespace: str,
+    attrs: list[tuple[str, str | None]],
+) -> dict[str, Any]:
+    element: dict[str, Any] = {"tag": tag, "namespace": namespace}
+    if namespace == "math" and tag == "annotation-xml":
+        encoding = next(
+            (
+                value
+                for name, value in attrs
+                if name.casefold() == "encoding" and isinstance(value, str)
+            ),
+            None,
+        )
+        if isinstance(encoding, str):
+            element["encoding"] = encoding.casefold()
+    return element
+
+
 class AuthorMarkupScanner(HTMLParser):
     CDATA_CONTENT_ELEMENTS = HTMLParser.CDATA_CONTENT_ELEMENTS
 
@@ -257,9 +277,17 @@ class AuthorMarkupScanner(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if (
+            current_foreign_context is not None
+            and foreign_html_breakout_start_tag(tag, attrs)
+        ):
+            root_index = active_foreign_root_index(self._elements)
+            if root_index is not None:
+                del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
         self.inspect_starttag(tag, attrs, namespace)
-        self._elements.append({"tag": tag, "namespace": namespace})
+        self._elements.append(parser_element_record(tag, namespace, attrs))
         if (
             namespace == "html"
             and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
@@ -271,6 +299,13 @@ class AuthorMarkupScanner(HTMLParser):
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if (
+            current_foreign_context is not None
+            and foreign_html_breakout_start_tag(tag, attrs)
+        ):
+            self.handle_starttag(tag, attrs)
+            return
         namespace = namespace_for_start_tag(self._elements, tag)
         self.inspect_starttag(tag, attrs, namespace)
         if (
@@ -278,7 +313,7 @@ class AuthorMarkupScanner(HTMLParser):
             and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
             and not self.found
         ):
-            self._elements.append({"tag": tag, "namespace": namespace})
+            self._elements.append(parser_element_record(tag, namespace, attrs))
             self.set_cdata_mode(tag)
 
     def handle_endtag(self, tag: str) -> None:
@@ -370,6 +405,10 @@ def is_foreign_html_integration_point(element: dict[str, Any]) -> bool:
         namespace == "svg" and tag in SVG_HTML_INTEGRATION_TAGS
     ) or (
         namespace == "math" and tag in MATHML_TEXT_INTEGRATION_TAGS
+    ) or (
+        namespace == "math"
+        and tag == "annotation-xml"
+        and element.get("encoding") in {"text/html", "application/xhtml+xml"}
     )
 
 
@@ -1757,8 +1796,7 @@ class VisibleListLinkParser(HTMLParser):
         if tag not in self.VOID_TAGS:
             self._elements.append(
                 {
-                    "tag": tag,
-                    "namespace": namespace,
+                    **parser_element_record(tag, namespace, attrs),
                     "foster_parented": foster_table_index is not None,
                     "hidden": hidden,
                     "inert": self._has_attribute(attrs, "inert"),
@@ -2267,8 +2305,7 @@ class VisibleTextParser(HTMLParser):
         if tag not in self.VOID_TAGS:
             self._elements.append(
                 {
-                    "tag": tag,
-                    "namespace": namespace,
+                    **parser_element_record(tag, namespace, attrs),
                     "foster_parented": foster_table_index is not None,
                     "hidden": hidden,
                     "closed": closed,
