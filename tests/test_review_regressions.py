@@ -566,5 +566,93 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertNotIn("REJECTED-SHADOW", text.text())
         self.assertNotIn("UNSLOTTED-LIGHT", text.text())
 
+
+    def test_visible_text_handles_slot_fallback_and_pre_template_assignments(self) -> None:
+        fallback = validate.VisibleTextParser()
+        fallback.feed(
+            '<div><template shadowrootmode="open">'
+            '<slot><span>FALLBACK-VISIBLE</span></slot>'
+            '</template></div>'
+        )
+        fallback.close()
+        self.assertIn("FALLBACK-VISIBLE", fallback.text())
+
+        assigned = validate.VisibleTextParser()
+        assigned.feed(
+            '<div><template shadowrootmode="open">'
+            '<slot><span>FALLBACK-HIDDEN</span></slot>'
+            '</template><span>ASSIGNED-VISIBLE</span></div>'
+        )
+        assigned.close()
+        self.assertIn("ASSIGNED-VISIBLE", assigned.text())
+        self.assertNotIn("FALLBACK-HIDDEN", assigned.text())
+
+        pre_default = validate.VisibleTextParser()
+        pre_default.feed(
+            '<div><span>PRE-DEFAULT-VISIBLE</span>'
+            '<template shadowrootmode="open"><slot></slot></template></div>'
+        )
+        pre_default.close()
+        self.assertIn("PRE-DEFAULT-VISIBLE", pre_default.text())
+
+        pre_named = validate.VisibleTextParser()
+        pre_named.feed(
+            '<div><span slot="evidence">PRE-NAMED-VISIBLE</span>'
+            '<template shadowrootmode="open">'
+            '<slot name="evidence"></slot></template></div>'
+        )
+        pre_named.close()
+        self.assertIn("PRE-NAMED-VISIBLE", pre_named.text())
+
+    def test_visible_list_links_handle_slot_fallback_and_pre_template_assignments(self) -> None:
+        fallback = validate.VisibleListLinkParser()
+        fallback.feed(
+            '<div><template shadowrootmode="open"><slot>'
+            '<ul><li>SRC-F <a href="fallback">Fallback</a></li></ul>'
+            '</slot></template></div>'
+        )
+        fallback.close()
+        self.assertEqual(
+            [("SRC-F Fallback", [("fallback", "Fallback")])],
+            fallback.visible_items,
+        )
+
+        assigned = validate.VisibleListLinkParser()
+        assigned.feed(
+            '<div><template shadowrootmode="open"><slot>'
+            '<ul><li>SRC-F <a href="fallback">Fallback</a></li></ul>'
+            '</slot></template>'
+            '<ul><li>SRC-A <a href="assigned">Assigned</a></li></ul></div>'
+        )
+        assigned.close()
+        self.assertEqual(
+            [("SRC-A Assigned", [("assigned", "Assigned")])],
+            assigned.visible_items,
+        )
+
+        pre_default = validate.VisibleListLinkParser()
+        pre_default.feed(
+            '<div><ul><li>SRC-D <a href="default">Default</a></li></ul>'
+            '<template shadowrootmode="open"><slot></slot></template></div>'
+        )
+        pre_default.close()
+        self.assertEqual(
+            [("SRC-D Default", [("default", "Default")])],
+            pre_default.visible_items,
+        )
+
+        pre_named = validate.VisibleListLinkParser()
+        pre_named.feed(
+            '<div><ul slot="evidence">'
+            '<li>SRC-N <a href="named">Named</a></li></ul>'
+            '<template shadowrootmode="open">'
+            '<slot name="evidence"></slot></template></div>'
+        )
+        pre_named.close()
+        self.assertEqual(
+            [("SRC-N Named", [("named", "Named")])],
+            pre_named.visible_items,
+        )
+
 if __name__ == "__main__":
     unittest.main()
