@@ -461,5 +461,110 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+
+    def test_declarative_shadow_template_after_html_void_sibling_is_active(self) -> None:
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<div><img><template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script>'
+                '</template></div>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_stylesheet(
+                '<div><input><template shadowrootmode="closed">'
+                '<style>:host{display:none}</style>'
+                '</template></div>'
+            )
+        )
+
+    def test_search_is_not_a_declarative_shadow_host(self) -> None:
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<search><template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script>'
+                '</template></search>'
+            )
+        )
+
+    def test_visible_text_uses_active_declarative_shadow_tree(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div><template shadowrootmode="open">'
+            '<span>SHADOW-ONLY</span></template>'
+            '<span>UNSLOTTED-LIGHT</span></div>'
+        )
+        parser.close()
+
+        self.assertIn("SHADOW-ONLY", parser.text())
+        self.assertNotIn("UNSLOTTED-LIGHT", parser.text())
+
+    def test_visible_text_rolls_back_light_content_preceding_shadow_template(self) -> None:
+        parser = validate.VisibleTextParser()
+        parser.feed(
+            '<div><span>BEFORE-SHADOW</span>'
+            '<template shadowrootmode="open">'
+            '<span>SHADOW-AFTER</span></template></div>'
+        )
+        parser.close()
+
+        self.assertIn("SHADOW-AFTER", parser.text())
+        self.assertNotIn("BEFORE-SHADOW", parser.text())
+
+    def test_visible_text_applies_default_and_named_shadow_slots(self) -> None:
+        default_slot = validate.VisibleTextParser()
+        default_slot.feed(
+            '<div><template shadowrootmode="open">'
+            '<span>SHADOW-CONTENT</span><slot></slot></template>'
+            '<span>DEFAULT-SLOTTED</span>'
+            '<span slot="named">NAMED-WITHOUT-SLOT</span></div>'
+        )
+        default_slot.close()
+        self.assertIn("SHADOW-CONTENT", default_slot.text())
+        self.assertIn("DEFAULT-SLOTTED", default_slot.text())
+        self.assertNotIn("NAMED-WITHOUT-SLOT", default_slot.text())
+
+        named_slot = validate.VisibleTextParser()
+        named_slot.feed(
+            '<div><template shadowrootmode="open">'
+            '<slot name="evidence"></slot></template>'
+            '<span slot="evidence">NAMED-SLOTTED</span>'
+            '<span>DEFAULT-WITHOUT-SLOT</span></div>'
+        )
+        named_slot.close()
+        self.assertIn("NAMED-SLOTTED", named_slot.text())
+        self.assertNotIn("DEFAULT-WITHOUT-SLOT", named_slot.text())
+
+    def test_visible_list_links_use_active_declarative_shadow_tree(self) -> None:
+        parser = validate.VisibleListLinkParser()
+        parser.feed(
+            '<div><template shadowrootmode="open">'
+            '<ul><li>SRC-S <a href="shadow">Shadow</a></li></ul>'
+            '</template>'
+            '<ul><li>SRC-L <a href="light">Light</a></li></ul></div>'
+        )
+        parser.close()
+
+        self.assertEqual(
+            [("SRC-S Shadow", [("shadow", "Shadow")])],
+            parser.visible_items,
+        )
+
+    def test_visibility_parsers_keep_rejected_shadow_templates_inert(self) -> None:
+        markup = (
+            '<div><template shadowrootmode="open">'
+            '<span>FIRST-SHADOW</span></template>'
+            '<template shadowrootmode="open">'
+            '<span>REJECTED-SHADOW</span></template>'
+            '<span>UNSLOTTED-LIGHT</span></div>'
+        )
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertIn("FIRST-SHADOW", text.text())
+        self.assertNotIn("REJECTED-SHADOW", text.text())
+        self.assertNotIn("UNSLOTTED-LIGHT", text.text())
+
 if __name__ == "__main__":
     unittest.main()
