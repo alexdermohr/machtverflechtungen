@@ -176,5 +176,31 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertEqual([], links.visible_items)
         self.assertEqual("", visible_text.text())
 
+    def test_executable_scanner_preserves_raw_text_contexts(self) -> None:
+        script = '<script>document.querySelector("#evidence").hidden=true</script>'
+        samples = (
+            f"<xmp>{script}</xmp>",
+            f"<iframe>{script}</iframe>",
+            f"<noscript>{script}</noscript>",
+            f"<noembed>{script}</noembed>",
+            f"<noframes>{script}</noframes>",
+            f"<plaintext>{script}",
+            f"<textarea>{script}</textarea>",
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                rendered = validate.render_site_markdown(markup)
+                self.assertFalse(validate.has_author_executable_content(rendered))
+
+        self.assertTrue(validate.has_author_executable_content(script))
+        self.assertTrue(
+            validate.has_author_executable_content(f"<xmp>literal</xmp>{script}")
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                f"<plaintext>literal</plaintext>{script}"
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()

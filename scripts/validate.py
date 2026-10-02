@@ -244,9 +244,32 @@ def has_author_stylesheet(rendered: str) -> bool:
 EXECUTABLE_URL_ATTRIBUTES = frozenset(
     {"href", "src", "action", "formaction", "xlink:href"}
 )
+BROWSER_RAW_TEXT_COMPAT_TAGS = (
+    "noscript",
+    "xmp",
+    "iframe",
+    "noembed",
+    "noframes",
+    "plaintext",
+)
 
 
 class AuthorExecutableContentParser(HTMLParser):
+    CDATA_CONTENT_ELEMENTS = tuple(
+        dict.fromkeys(
+            HTMLParser.CDATA_CONTENT_ELEMENTS + BROWSER_RAW_TEXT_COMPAT_TAGS
+        )
+    )
+
+    def parse_endtag(self, i: int) -> int:
+        if self.cdata_elem == "plaintext":
+            end = self.rawdata.find(">", i + 2)
+            if end < 0:
+                return -1
+            self.handle_data(self.rawdata[i : end + 1])
+            return end + 1
+        return super().parse_endtag(i)
+
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.found = False
@@ -277,7 +300,10 @@ class AuthorExecutableContentParser(HTMLParser):
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
     ) -> None:
+        tag = tag.casefold()
         self.handle_starttag(tag, attrs)
+        if tag in BROWSER_RAW_TEXT_COMPAT_TAGS and not self.found:
+            self.set_cdata_mode(tag)
 
 
 def has_author_executable_content(rendered: str) -> bool:
@@ -1137,15 +1163,7 @@ RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
 class VisibleListLinkParser(HTMLParser):
     CDATA_CONTENT_ELEMENTS = tuple(
         dict.fromkeys(
-            HTMLParser.CDATA_CONTENT_ELEMENTS
-            + (
-                "noscript",
-                "xmp",
-                "iframe",
-                "noembed",
-                "noframes",
-                "plaintext",
-            )
+            HTMLParser.CDATA_CONTENT_ELEMENTS + BROWSER_RAW_TEXT_COMPAT_TAGS
         )
     )
 
@@ -1895,15 +1913,7 @@ def rendered_list_links(path: Path) -> list[tuple[str, list[tuple[str, str]]]]:
 class VisibleTextParser(HTMLParser):
     CDATA_CONTENT_ELEMENTS = tuple(
         dict.fromkeys(
-            HTMLParser.CDATA_CONTENT_ELEMENTS
-            + (
-                "noscript",
-                "xmp",
-                "iframe",
-                "noembed",
-                "noframes",
-                "plaintext",
-            )
+            HTMLParser.CDATA_CONTENT_ELEMENTS + BROWSER_RAW_TEXT_COMPAT_TAGS
         )
     )
 
