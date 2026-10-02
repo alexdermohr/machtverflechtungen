@@ -378,5 +378,50 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+    def test_declarative_shadow_template_contents_are_active_mutators(self) -> None:
+        for mode in ("open", "closed"):
+            with self.subTest(mode=mode):
+                self.assertTrue(
+                    validate.has_author_stylesheet(
+                        '<div><template shadowrootmode="'
+                        + mode
+                        + '"><style>:host{display:none}</style><slot></slot>'
+                        '</template><a href="#">A</a></div>'
+                    )
+                )
+                self.assertTrue(
+                    validate.has_author_executable_content(
+                        '<div><template shadowrootmode="'
+                        + mode
+                        + '"><script>document.body.hidden=true</script>'
+                        '</template><a href="#">A</a></div>'
+                    )
+                )
+
+        self.assertFalse(
+            validate.has_author_stylesheet(
+                '<div><template shadowrootmode="bogus">'
+                '<style>:host{display:none}</style></template></div>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<div><template shadowrootmode="bogus">'
+                '<script>document.body.hidden=true</script></template></div>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<template><div><template shadowrootmode="open">'
+                '<script>document.body.hidden=true</script></template></div></template>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<div><template shadowrootmode="open"><template>'
+                '<script>document.body.hidden=true</script></template></template></div>'
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()

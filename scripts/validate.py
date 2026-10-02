@@ -245,6 +245,18 @@ def parser_element_record(
         )
         if isinstance(encoding, str):
             element["encoding"] = encoding.casefold()
+    if namespace == "html" and tag == "template":
+        shadowrootmode = next(
+            (
+                value.casefold()
+                for name, value in attrs
+                if name.casefold() == "shadowrootmode"
+                and isinstance(value, str)
+            ),
+            None,
+        )
+        if shadowrootmode in {"open", "closed"}:
+            element["shadowrootmode"] = shadowrootmode
     return element
 
 
@@ -256,10 +268,11 @@ class AuthorMarkupScanner(HTMLParser):
         self.found = False
         self._elements: list[dict[str, Any]] = []
 
-    def _inside_html_template(self) -> bool:
+    def _inside_inert_html_template(self) -> bool:
         return any(
             element.get("tag") == "template"
             and element.get("namespace") == "html"
+            and element.get("shadowrootmode") not in {"open", "closed"}
             for element in self._elements
         )
 
@@ -293,7 +306,7 @@ class AuthorMarkupScanner(HTMLParser):
             if root_index is not None:
                 del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
-        if not self._inside_html_template():
+        if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
         self._elements.append(parser_element_record(tag, namespace, attrs))
         if (
@@ -315,7 +328,7 @@ class AuthorMarkupScanner(HTMLParser):
             self.handle_starttag(tag, attrs)
             return
         namespace = namespace_for_start_tag(self._elements, tag)
-        if not self._inside_html_template():
+        if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
         if namespace == "html" and tag == "template":
             self._elements.append(parser_element_record(tag, namespace, attrs))
