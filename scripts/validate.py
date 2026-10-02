@@ -256,6 +256,13 @@ class AuthorMarkupScanner(HTMLParser):
         self.found = False
         self._elements: list[dict[str, Any]] = []
 
+    def _inside_html_template(self) -> bool:
+        return any(
+            element.get("tag") == "template"
+            and element.get("namespace") == "html"
+            for element in self._elements
+        )
+
     def parse_endtag(self, i: int) -> int:
         if self.cdata_elem == "plaintext":
             end = self.rawdata.find(">", i + 2)
@@ -286,7 +293,8 @@ class AuthorMarkupScanner(HTMLParser):
             if root_index is not None:
                 del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
-        self.inspect_starttag(tag, attrs, namespace)
+        if not self._inside_html_template():
+            self.inspect_starttag(tag, attrs, namespace)
         self._elements.append(parser_element_record(tag, namespace, attrs))
         if (
             namespace == "html"
@@ -307,7 +315,11 @@ class AuthorMarkupScanner(HTMLParser):
             self.handle_starttag(tag, attrs)
             return
         namespace = namespace_for_start_tag(self._elements, tag)
-        self.inspect_starttag(tag, attrs, namespace)
+        if not self._inside_html_template():
+            self.inspect_starttag(tag, attrs, namespace)
+        if namespace == "html" and tag == "template":
+            self._elements.append(parser_element_record(tag, namespace, attrs))
+            return
         if (
             namespace == "html"
             and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
@@ -319,8 +331,14 @@ class AuthorMarkupScanner(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         for index in range(len(self._elements) - 1, -1, -1):
-            if self._elements[index].get("tag") == tag:
+            element = self._elements[index]
+            if element.get("tag") == tag:
                 del self._elements[index:]
+                return
+            if (
+                element.get("tag") == "template"
+                and element.get("namespace") == "html"
+            ):
                 return
 
 

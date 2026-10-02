@@ -355,5 +355,28 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+    def test_template_contents_are_inert_for_author_mutator_detection(self) -> None:
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<template><script>document.body.hidden=true</script></template>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<template/><script>document.body.hidden=true</script>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<div><template></div><script>document.body.hidden=true</script>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<template><script>document.body.hidden=true</script></template>'
+                '<script>document.body.hidden=true</script>'
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()
