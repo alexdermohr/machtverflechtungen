@@ -219,10 +219,13 @@ EXECUTABLE_URL_ATTRIBUTES = frozenset(
 
 
 def normalized_executable_url(value: str) -> str:
-    normalized = value.lstrip()
+    normalized = value
     for character in ("\t", "\n", "\r"):
         normalized = normalized.replace(character, "")
-    return normalized.casefold()
+    start = 0
+    while start < len(normalized) and ord(normalized[start]) <= 0x20:
+        start += 1
+    return normalized[start:].casefold()
 
 
 class AuthorMarkupScanner(HTMLParser):
@@ -322,7 +325,7 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
         attrs: list[tuple[str, str | None]],
         namespace: str,
     ) -> None:
-        if tag == "script":
+        if tag == "script" and namespace in {"html", "svg"}:
             self.found = True
             return
         for name, value in attrs:

@@ -247,5 +247,34 @@ class ReviewRegressionTests(unittest.TestCase):
         rendered = validate.render_site_markdown(markup)
         self.assertTrue(validate.has_author_executable_content(rendered))
 
+    def test_javascript_url_detection_strips_leading_ascii_c0_and_space(self) -> None:
+        samples = (
+            '<iframe src="\x01javascript:parent.document.body.hidden=true"></iframe>',
+            '<iframe src="\x1fjavascript:parent.document.body.hidden=true"></iframe>',
+            '<iframe src=" javascript:parent.document.body.hidden=true"></iframe>',
+            '<iframe src="\x01java&#10;script:parent.document.body.hidden=true"></iframe>',
+        )
+        for markup in samples:
+            with self.subTest(markup=repr(markup)):
+                rendered = validate.render_site_markdown(markup)
+                self.assertTrue(validate.has_author_executable_content(rendered))
+
+    def test_script_detection_respects_mathml_namespace(self) -> None:
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<math><script>document.body.hidden=true</script></math>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<svg><script>document.body.hidden=true</script></svg>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<script>document.body.hidden=true</script>'
+            )
+        )
+
 if __name__ == "__main__":
     unittest.main()
