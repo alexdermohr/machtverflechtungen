@@ -530,18 +530,11 @@ class AuthorMarkupScanner(HTMLParser):
             self.handle_starttag(tag, attrs)
             return
         namespace = namespace_for_start_tag(self._elements, tag)
+        if namespace == "html" and tag not in HTML_VOID_TAGS:
+            self.handle_starttag(tag, attrs)
+            return
         if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
-        if namespace == "html" and tag == "template":
-            self._elements.append(self._element_record(tag, namespace, attrs))
-            return
-        if (
-            namespace == "html"
-            and tag in BROWSER_RAW_TEXT_COMPAT_TAGS
-            and not self.found
-        ):
-            self._elements.append(self._element_record(tag, namespace, attrs))
-            self.set_cdata_mode(tag)
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()

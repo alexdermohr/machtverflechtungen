@@ -851,5 +851,15 @@ class ReviewRegressionTests(unittest.TestCase):
         )
         self.assertTrue(validate.has_author_stylesheet(markup))
 
+
+    def test_self_closed_html_host_keeps_declarative_shadow_mutators_active(self) -> None:
+        markup = (
+            '<div/><template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
 if __name__ == "__main__":
     unittest.main()
