@@ -500,6 +500,12 @@ class AuthorMarkupScanner(HTMLParser):
             if root_index is not None:
                 del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
+        if namespace == "html" and tag in {"html", "body"}:
+            if html_template_on_stack(self._elements):
+                return
+            if not self._inside_inert_html_template():
+                self.inspect_starttag(tag, attrs, namespace)
+            return
         if not self._inside_inert_html_template():
             self.inspect_starttag(tag, attrs, namespace)
         element = self._element_record(tag, namespace, attrs)

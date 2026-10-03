@@ -834,5 +834,22 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertEqual([], links.visible_items)
         self.assertEqual("", text.text())
 
+
+    def test_author_scanner_ignores_nested_html_node_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><html><template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_styled_div_inside_select_is_not_assumed_ignored_by_current_parser(self) -> None:
+        markup = (
+            '<select><div style="display:none"></select>'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+        )
+        self.assertTrue(validate.has_author_stylesheet(markup))
+
 if __name__ == "__main__":
     unittest.main()
