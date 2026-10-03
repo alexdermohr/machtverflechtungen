@@ -235,6 +235,8 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
             f"[{('PDF öffnen' if source['url'].lower().split('?', 1)[0].endswith('.pdf') else 'Seite öffnen')}]({source['url']})",
             "",
         ]
+        if source.get("archive_url"):
+            lines += [f"[Archiv/Recovery öffnen]({source['archive_url']})", ""]
         if source.get("locator"):
             lines += [f"Fundstelle: {source['locator']}", ""]
     return "\n".join(lines) + "\n"
