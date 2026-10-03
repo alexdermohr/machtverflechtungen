@@ -1226,6 +1226,7 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertTrue(validate.has_author_executable_content(markup))
 
 
+
     def test_author_scanner_respects_end_tag_scope_before_shadow_host_selection(self) -> None:
         markup = (
             '<div><table></div></table>'
@@ -1249,6 +1250,53 @@ class ReviewRegressionTests(unittest.TestCase):
 
         self.assertTrue(validate.has_author_stylesheet(markup))
         self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_srcdoc_detection_is_scoped_to_html_iframes(self) -> None:
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<iframe srcdoc="<p>active</p>"></iframe>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<svg><iframe srcdoc="<p>foreign</p>"></iframe></svg>'
+            )
+        )
+
+    def test_bdo_content_is_ineligible_visibility_evidence(self) -> None:
+        links = validate.VisibleListLinkParser()
+        links.feed(
+            '<ul>'
+            '<li><bdo dir="rtl">SRC-A <a href="a">Reversed</a></bdo></li>'
+            '<li>SRC-B <a href="b">Visible</a></li>'
+            '</ul>'
+        )
+        links.close()
+        self.assertFalse(
+            any("SRC-A" in text for text, _links in links.visible_items)
+        )
+        self.assertFalse(
+            any(
+                href == "a"
+                for _text, item_links in links.visible_items
+                for href, _label in item_links
+            )
+        )
+        self.assertIn(
+            ("SRC-B Visible", [("b", "Visible")]),
+            links.visible_items,
+        )
+
+        text_parser = validate.VisibleTextParser()
+        text_parser.feed(
+            '<p><bdo dir="rtl">CLM-X canonical wording</bdo></p>'
+            '<p>VISIBLE-TEXT</p>'
+        )
+        text_parser.close()
+        self.assertNotIn("CLM-X", text_parser.text())
+        self.assertNotIn("canonical wording", text_parser.text())
+        self.assertIn("VISIBLE-TEXT", text_parser.text())
+
 
     def test_formaction_javascript_requires_submit_control(self) -> None:
         non_submit = (

@@ -844,7 +844,11 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
             ):
                 self.found = True
                 return
-            if tag == "iframe" and name == "srcdoc":
+            if (
+                namespace == "html"
+                and tag == "iframe"
+                and name == "srcdoc"
+            ):
                 self.found = True
                 return
             first_value = first_attribute_values.get(name)
@@ -2099,6 +2103,10 @@ class VisibleListLinkParser(HTMLParser):
         # override.
         return (
             (include_intrinsic_tag and tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS)
+            # <bdo> deliberately overrides visual character ordering. The
+            # evidence contract compares visible sequences, so logical source
+            # order cannot safely stand in for rendered order here.
+            or tag == "bdo"
             or "hidden" in lowered
             or "style" in lowered
             or "popover" in lowered
