@@ -253,11 +253,11 @@ sources:
   date: '2026-06-24'
   type: organization_social_post
   primary: true
-  tier: A
+  tier: E
   url: https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW
   accessed: '2026-10-03'
   locator: Rückblick auf die Mitgliederversammlung vom Vortag; Paneldiskussion zum 250. Geburtstag der USA mit Emily Haber, Tina Hassel, Ben Hodges und Claus Kleber
-  notes: Offizieller Post-Event-Beitrag der Atlantik-Brücke. Er bestätigt Claus Klebers tatsächliche Teilnahme an der Paneldiskussion, bezeichnet ihn dort aber nicht ausdrücklich als Moderator.
+  notes: Offizieller Social-Media-Rückblick der Atlantik-Brücke. Nach der Projektmethodik ist Social Media Tier E und dient hier nur als Lead/Kontext; der Post trägt allein keine nicht-spekulative Relation und wird nicht für den realisierten Spätrelations-Count verwendet.
 
 - id: SRC-US-ACG-YL-LIST-1973-2025
   title: Young Leaders 1973-2025
