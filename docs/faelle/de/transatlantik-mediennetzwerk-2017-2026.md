@@ -229,14 +229,13 @@ claims:
     falsification: "Fällt eine als Grafik-Kante klassifizierte Relation bei Quellen-, Knoten- oder Zeitprüfung weg, muss die Kantenanzahl aus den YAML-Daten neu berechnet werden."
 
   - id: CLM-DE-TMN-003
-    text: "4 zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt."
+    text: "3 realisierte zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt."
     classification: fact
     evidence_level: established
     sources:
       - SRC-DE-AB-FRANKENBERGER-2018
       - SRC-DE-AB-DIEKMANN-2021
       - SRC-DE-AB-THEVESSEN-2024
-      - SRC-DE-AB-KLEBER-MV-RECAP-2026
     evidence:
       - source: SRC-DE-AB-FRANKENBERGER-2018
         directness: direct
@@ -247,17 +246,15 @@ claims:
       - source: SRC-DE-AB-THEVESSEN-2024
         directness: direct
         note: "Die Quelle trägt im Datenstand Elmar Theveßen: documented_member → Atlantik-Brücke e.V.."
-      - source: SRC-DE-AB-KLEBER-MV-RECAP-2026
-        directness: direct
-        note: "Der offizielle Post-Event-Rückblick trägt im Datenstand Claus Kleber: documented_event_presence → Atlantik-Brücke e.V.; die separate Programmseite kündigte eine Moderation an, bestätigt deren tatsächliche Ausführung aber nicht."
     counterevidence: []
     alternatives:
       - "Spätere Beziehungen können erst nach 2017 entstanden oder institutionell verändert worden sein."
-    missing_evidence: []
+    missing_evidence:
+      - "Für Claus Klebers am 23.06.2026 angekündigte Moderation fehlt weiterhin ein nicht-sozialer retrospektiver Beleg, der die tatsächliche Ausführung oder Teilnahme nach der Projektmethodik als Fakt tragen könnte."
     scope:
-      supports: "Der Claim trägt ausschließlich die separat datierten nach-2017-Relationen und die Feststellung, dass sie für keine Person der einzige Beleg sind."
-      does_not_support: "Er erlaubt keine Rückdatierung einer späteren Rolle auf 2017."
-    falsification: "Eine Korrektur einer späteren Quelle oder der Verlust der historischen Relation derselben Person würde die Einordnung verändern."
+      supports: "Der Claim trägt ausschließlich drei realisierte, separat datierte nach-2017-Relationen und die Feststellung, dass sie für keine Person der einzige Beleg sind."
+      does_not_support: "Er erlaubt keine Rückdatierung einer späteren Rolle auf 2017 und zählt eine lediglich angekündigte spätere Rolle nicht als realisierte Beziehung."
+    falsification: "Eine Korrektur einer späteren Quelle, der Verlust der historischen Relation derselben Person oder ein belastbarer retrospektiver Nicht-Social-Beleg für eine weitere realisierte Spätrelation würde die Einordnung und Zählung verändern."
 
   - id: CLM-DE-TMN-004
     text: "Ob eine dokumentierte Netzwerkbeziehung eine konkrete redaktionelle Entscheidung, Themenauswahl, Gewichtung oder Kommentierung beeinflusst oder gesteuert hat, bleibt mit den registrierten Quellen offen."
@@ -378,7 +375,7 @@ Für die **Young-Leader-Relationen** bleibt das Datenmodell bewusst beim separat
 
 - **`CLM-DE-TMN-001` — stark gestützt:** Die 2017 veröffentlichte Grafik dient in diesem Audit als Behauptungs- und Suchindex; sie ist kein Primärbeleg für die Wahrheit ihrer eigenen Kanten.
 - **`CLM-DE-TMN-002` — stark gestützt:** Im aktuellen YAML-Datenstand sind 34 historische Person-zu-Netzwerk-Relationen für alle 30 nummerierten Personen unabhängig bis einschließlich 2017 belegt; im Abgleich mit der 2017-Grafik reproduzieren sie 34 dort dargestellte Kanten. Young-Leader-Relationen werden für diesen Abgleich über das belegte Programmverhältnis zum dargestellten Atlantik-Brücke-Knoten normalisiert; dies behauptet nicht, dass sämtliche Mehrfachkanten der Gesamtgrafik bereits vollständig auditiert sind.
-- **`CLM-DE-TMN-003` — belegt:** 4 zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt.
+- **`CLM-DE-TMN-003` — belegt:** 3 realisierte zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt.
 - **`CLM-DE-TMN-005` — stark gestützt:** 8 weitere historische Relationsdatensätze bis einschließlich 2017 sind unabhängig belegt, werden im Abgleich mit der 2017-Grafik jedoch als andere dokumentierte Kontakte und nicht als zusätzliche dargestellte Grafik-Kanten klassifiziert.
 - **`CLM-DE-TMN-006` — stark gestützt:** Die schwache Atlantik-Brücke-Foto- und Namensspur zu Thomas Ebeling wird nicht als Relation kodiert; die 2017-Grafik zeigt für ihn eine Bilderberg-Kante, deren historische Wahrheit unabhängig durch die archivierte Bilderberg-Teilnehmerliste von 2016 getragen wird.
 
@@ -390,7 +387,8 @@ Für die **Young-Leader-Relationen** bleibt das Datenmodell bewusst beim separat
 | Davon erfasste Personen | **30/30** |
 | Andere historische dokumentierte Kontakte | **8** |
 | Personen mit ausschließlich späterem Beleg | **0** |
-| Spätere Zusatzrelationen | **4** |
+| Realisierte spätere Zusatzrelationen | **3** |
+| Separat dokumentierte geplante spätere Rolle | **1** |
 | Offene Personen ohne reproduzierte historische Grafik-Kante | **0** |
 | Schwache Namens-/Fotospuren ohne Relation | **1** |
 
@@ -432,7 +430,7 @@ Diese Zählung behauptet **nicht**, dass damit jede Mehrfachkante der vollständ
 | 26 | Tina Hassel | Atlantik-Brücke e.V. | discussion_partner → Atlantik-Brücke e.V.; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | – | – | bureau_chief → ARD; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | ja (1) | nein | nein | konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
 | 27 | Thomas Roth | Atlantik-Brücke e.V. | documented_event_presence → Atlantik-Brücke e.V.; 2015-09-11; SRC-DE-AB-JB-2015-2016 (Tier B, Primär) | – | – | – | ja (1) | nein | nein | konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
 | 28 | Georg Mascolo | Atlantik-Brücke e.V. | conference_participant → Atlantik-Brücke e.V.; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | – | – | journalist_role → Rechercheverbund NDR/WDR/Süddeutsche Zeitung; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | ja (1) | nein | nein | Konferenzteilnahme ≠ Mitgliedschaft/Gremienamt |
-| 29 | Claus Kleber | Atlantik-Brücke e.V. | event_speaker → Atlantik-Brücke e.V.; 2007-03-13; SRC-DE-AB-JB-2006-2007 (Tier B, Primär) | – | documented_event_presence → Atlantik-Brücke e.V.; 2026-06-23; SRC-DE-AB-KLEBER-MV-RECAP-2026 (Tier A, Primär) | – | ja (1) | nein | nein | Post-Event-Beleg bestätigt Panelteilnahme, nicht ausdrücklich die angekündigte Moderation; konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
+| 29 | Claus Kleber | Atlantik-Brücke e.V. | event_speaker → Atlantik-Brücke e.V.; 2007-03-13; SRC-DE-AB-JB-2006-2007 (Tier B, Primär) | – | scheduled_event_moderator → Atlantik-Brücke e.V.; 2026-06-23; SRC-DE-AB-KLEBER-2026 (Tier A, Primär) | – | ja (1) | nein | nein | Die offizielle Seite belegt nur die angekündigte Moderation; tatsächliche Ausführung/Teilnahme bleibt ohne ausreichenden Nicht-Social-Rückblick offen und wird nicht als realisierte Spätrelation gezählt. |
 | 30 | Theo Koll | Atlantik-Brücke Young Leaders Program | young_leader_participant → Atlantik-Brücke Young Leaders Program; 1988; SRC-US-ACG-YL-LIST-1973-2025 (Tier A, Primär), SRC-DE-ATLANTIKBRUECKE-YL (Tier A, Primär) | named_contributor → Atlantik-Brücke e.V.; 2003-02-16; SRC-DE-AB-MESSAGE-2003-MIRROR (Tier B, Sekundär/Mirror) | – | – | ja (1) | nein | nein | Programmteilnahme ≠ Vereinsmitgliedschaft; Named Contribution ≠ individuelle Mitgliedschaft/Unterzeichnung |
 
 ## Relationstypen
@@ -441,6 +439,7 @@ Diese Zählung behauptet **nicht**, dass damit jede Mehrfachkante der vollständ
 - `named_contributor` bezeichnet beim 2003-Faksimile ausschließlich die dokumentierte Beitragsnennung im dort beschriebenen Kreis von Mitgliedern und Freunden.
 - `award_recipient` bezeichnet nur die Auszeichnung.
 - `conference_participant`, `event_speaker`, `event_moderator`, `event_introducer`, `discussion_partner`, `working_lunch_participant` und `documented_event_presence` bleiben konkrete Teilnahme-/Kontaktrollen.
+- `scheduled_event_moderator` bezeichnet ausschließlich eine offiziell angekündigte geplante Moderation; der Typ behauptet weder Teilnahme noch tatsächliche Ausführung der Moderation.
 - `documented_member`, `board_member` und `former_steering_committee_member` werden nur in dem Bedeutungs- und Zeitumfang verwendet, den die jeweilige Quelle trägt.
 
 ## 2003-Faksimile
@@ -463,7 +462,7 @@ Die registrierte ACG-Liste trägt konkrete Jahrgänge. Die aktuelle Atlantik-Br�
 
 ### `CLM-DE-TMN-003`
 
-**Aussage:** 4 zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt.
+**Aussage:** 3 realisierte zusätzliche Relationsdatensätze liegen nach 2017; keine der 30 Personen ist ausschließlich durch einen späteren Beleg abgedeckt.
 
 ### `CLM-DE-TMN-004`
 
@@ -495,6 +494,7 @@ Erforderlich wären beispielsweise direkte Kommunikation, Weisungen, Redaktionsp
 - Nicht in der historischen Grafik-Kantenklasse kodierte Mehrfachkanten der Gesamtgrafik sind weiterhin gesondert zu prüfen.
 - Einige historische Dokumente sind nur über Archiv- oder Mirrorpfade reproduzierbar; dieser Status bleibt in `data/sources.yml` sichtbar.
 - Medienrollen sind dort separat modelliert, wo eine Quelle den jeweiligen Zeitraum trägt; sie werden nicht aus der Netzwerkrolle abgeleitet.
+- Für Claus Klebers am 23.06.2026 angekündigte Moderation fehlt ein ausreichender nicht-sozialer retrospektiver Beleg der tatsächlichen Ausführung oder Teilnahme; Social-Media-Rückblicke bleiben Tier-E-Leads.
 - Für Kausal- oder Steuerungsbehauptungen fehlen entscheidungsnahe Primärquellen.
 
 ## Quellen
@@ -515,7 +515,7 @@ Erforderlich wären beispielsweise direkte Kommunikation, Weisungen, Redaktionsp
 - [Personalien BILD-Gruppe – Kai Diekmann übernimmt als Herausgeber die Führung der Chefredakteure](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin) — Axel Springer SE, 2015-11-05, Tier A — `SRC-DE-AXELSPRINGER-DIEKMANN-2015`
 - [Trump would try to finish the wall and deploy the US military](https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/) — Atlantik-Brücke e.V., 2024-10-25, Tier A — `SRC-DE-AB-THEVESSEN-2024`
 - [Mitgliederversammlung und Hoffest 2026](https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/) — Atlantik-Brücke e.V., 2026-06-23, Tier A — `SRC-DE-AB-KLEBER-2026`
-- [MV 2026](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW) — Atlantik-Brücke e.V., 2026-06-24, Tier A — `SRC-DE-AB-KLEBER-MV-RECAP-2026`
+- [MV 2026](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW) — Atlantik-Brücke e.V., 2026-06-24, Tier E — `SRC-DE-AB-KLEBER-MV-RECAP-2026`
 - [Young Leaders 1973-2025](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/) — American Council on Germany, 2025, Tier A — `SRC-US-ACG-YL-LIST-1973-2025`
 - [Young Leaders Program](https://www.atlantik-bruecke.org/nachwuchsfoerderung/) — Atlantik-Brücke e.V., current, Tier A — `SRC-DE-ATLANTIKBRUECKE-YL`
 - [A Message to the People of the United States of America](https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf) — Atlantik-Brücke e.V., 2003-02-16, Tier B — `SRC-DE-AB-MESSAGE-2003-MIRROR`

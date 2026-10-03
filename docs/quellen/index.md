@@ -263,7 +263,7 @@ Fundstelle: Veranstaltungsankündigung für 23.06.2026; angekündigt war eine vo
 
 **[MV 2026](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)**
 
-Atlantik-Brücke e.V. · 2026-06-24 · Stufe **A** · Primärquelle
+Atlantik-Brücke e.V. · 2026-06-24 · Stufe **E** · Primärquelle
 
 [Seite öffnen](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)
 
