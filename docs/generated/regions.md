@@ -7,6 +7,7 @@ _Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein
 - [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) — 1946 · 1 belegt · 1 stark gestützt
 - [Technischer Dienst des Bund Deutscher Jugend](../faelle/de/technischer-dienst-bdj.md) — 1950 · 2 belegt
 - [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) — 1978-07-25 · 2 belegt
+- [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
 - [Thüringer Heimatschutz / Tino Brandt](../faelle/de/thueringer-heimatschutz-tino-brandt.md) — 1990 · 3 belegt
 
 ## IT
@@ -16,3 +17,4 @@ _Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein
 ## US
 
 - [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) — 1946 · 1 belegt · 1 stark gestützt
+- [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
