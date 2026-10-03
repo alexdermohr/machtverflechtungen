@@ -645,6 +645,11 @@ class AuthorMarkupScanner(HTMLParser):
                 and active_html_head_index(self._elements) is None
             ):
                 return
+            option_pop_index = html_option_family_start_pop_index(
+                self._elements, tag
+            )
+            if option_pop_index is not None:
+                del self._elements[option_pop_index:]
             if tag == "select":
                 select_index = active_html_select_index(self._elements)
                 if select_index is not None:
@@ -1239,6 +1244,22 @@ def html_template_on_stack(elements: list[dict[str, Any]]) -> bool:
         and element_namespace(element) == "html"
         for element in elements
     )
+
+
+def html_option_family_start_pop_index(
+    elements: list[dict[str, Any]], tag: str
+) -> int | None:
+    """Return the current HTML option closed by option-family starts."""
+
+    if tag not in {"option", "optgroup"} or not elements:
+        return None
+    current = elements[-1]
+    if (
+        current.get("tag") == "option"
+        and element_namespace(current) == "html"
+    ):
+        return len(elements) - 1
+    return None
 
 
 HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
@@ -2363,6 +2384,11 @@ class VisibleListLinkParser(HTMLParser):
                     self._pop_elements_from(head_index)
             elif tag == "head":
                 return
+            option_pop_index = html_option_family_start_pop_index(
+                self._elements, tag
+            )
+            if option_pop_index is not None:
+                self._pop_elements_from(option_pop_index)
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return
@@ -3128,6 +3154,11 @@ class VisibleTextParser(HTMLParser):
                     self._pop_elements_from(head_index)
             elif tag == "head":
                 return
+            option_pop_index = html_option_family_start_pop_index(
+                self._elements, tag
+            )
+            if option_pop_index is not None:
+                self._pop_elements_from(option_pop_index)
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return

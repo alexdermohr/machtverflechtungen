@@ -1262,5 +1262,48 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertTrue(validate.has_author_executable_content(markup))
 
 
+    def test_option_family_start_recovers_before_shadow_host_selection(self) -> None:
+        prefixes = {
+            "option": '<div><option>one<option>two</option>',
+            "optgroup": '<div><option>one<optgroup></optgroup>',
+        }
+
+        for recovery, prefix in prefixes.items():
+            with self.subTest(recovery=recovery, scanner="author"):
+                markup = (
+                    prefix
+                    + '<template shadowrootmode="open">'
+                    '<style>:host{display:none}</style><slot></slot>'
+                    '</template>'
+                    '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+                    '<p>CLM-X wording</p></div>'
+                )
+                self.assertTrue(validate.has_author_stylesheet(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+            with self.subTest(recovery=recovery, scanner="visibility"):
+                visibility_markup = (
+                    prefix
+                    + '<template shadowrootmode="open">'
+                    '<ul><li>SRC-S <a href="s">Shadow</a></li></ul>'
+                    '<p>SHADOW-TEXT</p></template>'
+                    '<ul><li>SRC-L <a href="l">Light</a></li></ul>'
+                    '<p>LIGHT-TEXT</p></div>'
+                )
+                links = validate.VisibleListLinkParser()
+                links.feed(visibility_markup)
+                links.close()
+                text_parser = validate.VisibleTextParser()
+                text_parser.feed(visibility_markup)
+                text_parser.close()
+
+                self.assertEqual(
+                    [("SRC-S Shadow", [("s", "Shadow")])],
+                    links.visible_items,
+                )
+                self.assertIn("SHADOW-TEXT", text_parser.text())
+                self.assertNotIn("LIGHT-TEXT", text_parser.text())
+
+
 if __name__ == "__main__":
     unittest.main()
