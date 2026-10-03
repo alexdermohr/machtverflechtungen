@@ -704,6 +704,17 @@ class AuthorMarkupScanner(HTMLParser):
             apply_html_generated_implied_end_tags(self._elements)
             del self._elements[form_index]
             return
+        if current_foreign_context is None:
+            if tag == "template":
+                template_index = active_html_template_index(self._elements)
+                if template_index is None:
+                    return
+                del self._elements[template_index:]
+                return
+            close_tag = explicit_end_tag_scope_target(self._elements, tag)
+            if close_tag is None:
+                return
+            tag = close_tag
         for index in range(len(self._elements) - 1, -1, -1):
             element = self._elements[index]
             if element.get("tag") == tag:

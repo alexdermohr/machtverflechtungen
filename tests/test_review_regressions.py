@@ -1191,5 +1191,17 @@ class ReviewRegressionTests(unittest.TestCase):
         )
 
 
+    def test_author_scanner_respects_end_tag_scope_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><table></div></table>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+
 if __name__ == "__main__":
     unittest.main()
