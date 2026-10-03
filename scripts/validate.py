@@ -517,10 +517,12 @@ class AuthorMarkupScanner(HTMLParser):
                     if not self._inside_inert_html_template():
                         self.inspect_starttag(tag, attrs, namespace)
                     return
-        if tag == "a" and namespace == "html":
-            anchor_index = explicit_anchor_end_index(self._elements)
-            if anchor_index is not None:
-                apply_html_anchor_adoption_recovery(self._elements, anchor_index)
+        if tag in {"a", "nobr"} and namespace == "html":
+            formatting_index = explicit_formatting_end_index(self._elements, tag)
+            if formatting_index is not None:
+                apply_html_formatting_adoption_recovery(
+                    self._elements, formatting_index
+                )
         if namespace == "html" and tag in {"html", "body"}:
             if html_template_on_stack(self._elements):
                 return
@@ -560,11 +562,16 @@ class AuthorMarkupScanner(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
         current_foreign_context = foreign_context(self._elements)
-        if tag == "a" and current_foreign_context is None:
-            anchor_index = explicit_anchor_end_index(self._elements)
-            if anchor_index is None:
+        if (
+            tag in HTML_ADOPTION_AGENCY_FORMATTING_TAGS
+            and current_foreign_context is None
+        ):
+            formatting_index = explicit_formatting_end_index(self._elements, tag)
+            if formatting_index is None:
                 return
-            apply_html_anchor_adoption_recovery(self._elements, anchor_index)
+            apply_html_formatting_adoption_recovery(
+                self._elements, formatting_index
+            )
             return
         if tag == "form" and current_foreign_context is None:
             template_form_end = active_html_template_index(self._elements) is not None
@@ -1002,14 +1009,20 @@ def explicit_form_end_index(elements: list[dict[str, Any]]) -> int | None:
     return None
 
 
-def explicit_anchor_end_index(elements: list[dict[str, Any]]) -> int | None:
+def explicit_formatting_end_index(
+    elements: list[dict[str, Any]], tag: str
+) -> int | None:
     for index in range(len(elements) - 1, -1, -1):
         element = elements[index]
-        if element.get("tag") == "a" and element_namespace(element) == "html":
+        if element.get("tag") == tag and element_namespace(element) == "html":
             return index
         if element_matches_boundary(element, HTML_SCOPE_BOUNDARY_TAGS):
             return None
     return None
+
+
+def explicit_anchor_end_index(elements: list[dict[str, Any]]) -> int | None:
+    return explicit_formatting_end_index(elements, "a")
 
 
 def active_html_select_index(elements: list[dict[str, Any]]) -> int | None:
@@ -1301,6 +1314,12 @@ def html_start_tag_foster_parent_index(
 HTML_GENERATED_IMPLIED_END_TAGS = frozenset(
     {"dd", "dt", "li", "optgroup", "option", "p", "rb", "rp", "rt", "rtc"}
 )
+HTML_ADOPTION_AGENCY_FORMATTING_TAGS = frozenset(
+    {
+        "a", "b", "big", "code", "em", "font", "i", "nobr",
+        "s", "small", "strike", "strong", "tt", "u",
+    }
+)
 
 
 def apply_html_generated_implied_end_tags(elements: list[dict[str, Any]]) -> None:
@@ -1316,24 +1335,24 @@ def apply_html_generated_implied_end_tags(elements: list[dict[str, Any]]) -> Non
         del elements[-1]
 
 
-def apply_html_anchor_adoption_recovery(
-    elements: list[dict[str, Any]], anchor_index: int
+def apply_html_formatting_adoption_recovery(
+    elements: list[dict[str, Any]], formatting_index: int
 ) -> None:
-    """Recover anchor formatting while preserving the first special block."""
+    """Recover formatting while preserving the first special block."""
 
     first_special_index = next(
         (
             index
-            for index in range(anchor_index + 1, len(elements))
+            for index in range(formatting_index + 1, len(elements))
             if element_is_special(elements[index])
             or element_namespace(elements[index]) != "html"
         ),
         None,
     )
     if first_special_index is None:
-        del elements[anchor_index:]
+        del elements[formatting_index:]
         return
-    del elements[anchor_index:first_special_index]
+    del elements[formatting_index:first_special_index]
 
 
 HTML_SPECIAL_TAGS = frozenset(

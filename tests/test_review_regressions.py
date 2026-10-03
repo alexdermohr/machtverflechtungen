@@ -1010,5 +1010,17 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
 
 
+    def test_author_scanner_recovers_nested_nobr_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><nobr><nobr></nobr>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+
 if __name__ == "__main__":
     unittest.main()
