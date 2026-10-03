@@ -1100,5 +1100,26 @@ class ReviewRegressionTests(unittest.TestCase):
         )
 
 
+    def test_author_scanner_recovers_nested_select_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><select><select></select>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_marquee_legacy_event_names_are_not_executable_handlers(self) -> None:
+        for name in ("onstart", "onfinish", "onbounce"):
+            with self.subTest(name=name):
+                self.assertFalse(
+                    validate.has_author_executable_content(
+                        f'<marquee {name}="document.body.hidden=true">X</marquee>'
+                    )
+                )
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -590,6 +590,11 @@ class AuthorMarkupScanner(HTMLParser):
                 and not html_template_on_stack(self._elements)
             ):
                 return
+            if tag == "select":
+                select_index = active_html_select_index(self._elements)
+                if select_index is not None:
+                    del self._elements[select_index:]
+                    return
             if tag in HTML_SELECT_EXIT_REPROCESS_START_TAGS:
                 select_index = active_html_select_index(self._elements)
                 if select_index is not None:
