@@ -331,9 +331,8 @@ HTML_BODY_EVENT_HANDLER_ATTRIBUTES = frozenset(
     {
         "onafterprint", "onbeforeprint", "onbeforeunload", "ongamepadconnected",
         "ongamepaddisconnected", "onhashchange", "onlanguagechange", "onmessage",
-        "onmessageerror", "onoffline", "ononline", "onpagehide", "onpagereveal",
-        "onpageshow", "onpageswap", "onpopstate", "onrejectionhandled", "onstorage",
-        "onunhandledrejection",
+        "onmessageerror", "onoffline", "ononline", "onpagehide", "onpageshow",
+        "onpopstate", "onrejectionhandled", "onstorage", "onunhandledrejection",
         "onunload",
     }
 )
@@ -1267,7 +1266,11 @@ def html_option_family_start_pop_index(
             return pop_index
         current_index -= 1
 
-    if tag == "optgroup" and current_index >= 0:
+    if (
+        tag == "optgroup"
+        and current_index >= 0
+        and active_html_select_index(elements) is not None
+    ):
         current = elements[current_index]
         if (
             current.get("tag") == "optgroup"

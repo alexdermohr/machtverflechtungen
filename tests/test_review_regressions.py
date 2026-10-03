@@ -1090,19 +1090,17 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(
             validate.has_author_executable_content('<body ononline="x()"></body>')
         )
+        self.assertTrue(
+            validate.has_author_executable_content('<body onpageshow="x()"></body>')
+        )
         for name in ("onpagereveal", "onpageswap"):
-            with self.subTest(name=name, element="body"):
-                self.assertTrue(
-                    validate.has_author_executable_content(
-                        f'<body {name}="document.body.hidden=true"></body>'
+            for element in ("body", "div"):
+                with self.subTest(name=name, element=element):
+                    self.assertFalse(
+                        validate.has_author_executable_content(
+                            f'<{element} {name}="document.body.hidden=true"></{element}>'
+                        )
                     )
-                )
-            with self.subTest(name=name, element="div"):
-                self.assertFalse(
-                    validate.has_author_executable_content(
-                        f'<div {name}="document.body.hidden=true"></div>'
-                    )
-                )
         self.assertTrue(
             validate.has_author_executable_content('<video onencrypted="x()"></video>')
         )
@@ -1276,49 +1274,70 @@ class ReviewRegressionTests(unittest.TestCase):
 
 
     def test_option_family_start_recovers_before_shadow_host_selection(self) -> None:
-        prefixes = {
-            "option": '<div><option>one<option>two</option>',
-            "optgroup": (
-                '<div><optgroup><option>one'
-                '<optgroup><option>two</option></optgroup>'
+        option_markup = (
+            '<div><option>one<option>two</option>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template>'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X wording</p></div>'
+        )
+        self.assertTrue(validate.has_author_stylesheet(option_markup))
+        self.assertTrue(validate.has_author_visibility_mutator(option_markup))
+
+        option_visibility = (
+            '<div><option>one<option>two</option>'
+            '<template shadowrootmode="open">'
+            '<ul><li>SRC-S <a href="s">Shadow</a></li></ul>'
+            '<p>SHADOW-TEXT</p></template>'
+            '<ul><li>SRC-L <a href="l">Light</a></li></ul>'
+            '<p>LIGHT-TEXT</p></div>'
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(option_visibility)
+        links.close()
+        text_parser = validate.VisibleTextParser()
+        text_parser.feed(option_visibility)
+        text_parser.close()
+        self.assertEqual(
+            [("SRC-S Shadow", [("s", "Shadow")])],
+            links.visible_items,
+        )
+        self.assertIn("SHADOW-TEXT", text_parser.text())
+        self.assertNotIn("LIGHT-TEXT", text_parser.text())
+
+        outside_optgroup = (
+            '<div><optgroup><option>one'
+            '<optgroup><option>two</option></optgroup>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>LIGHT</span></div>'
+        )
+        self.assertFalse(validate.has_author_stylesheet(outside_optgroup))
+        self.assertFalse(validate.has_author_visibility_mutator(outside_optgroup))
+
+        outside_stack = [
+            validate.parser_element_record("div", "html", []),
+            validate.parser_element_record("optgroup", "html", []),
+            validate.parser_element_record("option", "html", []),
+        ]
+        inside_stack = [
+            validate.parser_element_record("select", "html", []),
+            validate.parser_element_record("optgroup", "html", []),
+            validate.parser_element_record("option", "html", []),
+        ]
+        self.assertEqual(
+            2,
+            validate.html_option_family_start_pop_index(
+                outside_stack, "optgroup"
             ),
-        }
-
-        for recovery, prefix in prefixes.items():
-            with self.subTest(recovery=recovery, scanner="author"):
-                markup = (
-                    prefix
-                    + '<template shadowrootmode="open">'
-                    '<style>:host{display:none}</style><slot></slot>'
-                    '</template>'
-                    '<ul><li>SRC-A <a href="u">A</a></li></ul>'
-                    '<p>CLM-X wording</p></div>'
-                )
-                self.assertTrue(validate.has_author_stylesheet(markup))
-                self.assertTrue(validate.has_author_visibility_mutator(markup))
-
-            with self.subTest(recovery=recovery, scanner="visibility"):
-                visibility_markup = (
-                    prefix
-                    + '<template shadowrootmode="open">'
-                    '<ul><li>SRC-S <a href="s">Shadow</a></li></ul>'
-                    '<p>SHADOW-TEXT</p></template>'
-                    '<ul><li>SRC-L <a href="l">Light</a></li></ul>'
-                    '<p>LIGHT-TEXT</p></div>'
-                )
-                links = validate.VisibleListLinkParser()
-                links.feed(visibility_markup)
-                links.close()
-                text_parser = validate.VisibleTextParser()
-                text_parser.feed(visibility_markup)
-                text_parser.close()
-
-                self.assertEqual(
-                    [("SRC-S Shadow", [("s", "Shadow")])],
-                    links.visible_items,
-                )
-                self.assertIn("SHADOW-TEXT", text_parser.text())
-                self.assertNotIn("LIGHT-TEXT", text_parser.text())
+        )
+        self.assertEqual(
+            1,
+            validate.html_option_family_start_pop_index(
+                inside_stack, "optgroup"
+            ),
+        )
 
 
 if __name__ == "__main__":
