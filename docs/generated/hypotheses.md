@@ -2,4 +2,8 @@
 
 Hier erscheinen nur Claims, die im Frontmatter ausdrücklich als Hypothese, offene Frage, plausibel oder spekulativ kodiert sind. Offene Forschungsfragen in den Falltexten werden bei weiterer Atomisierung hierher überführt.
 
-Der strukturierte Claimbestand enthält derzeit keine als Hypothese oder offene Frage kodierten Claims. Das bedeutet nicht, dass die Fälle abgeschlossen sind; ihre offenen Prüfungen stehen in den Fallakten.
+## [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) · CLM-DE-TMN-004
+
+**open_question · speculative**
+
+Ob eine dokumentierte Netzwerkbeziehung eine konkrete redaktionelle Entscheidung, Themenauswahl, Gewichtung oder Kommentierung beeinflusst oder gesteuert hat, bleibt mit den registrierten Quellen offen.

@@ -54,3 +54,552 @@ relations:
     label: "betreibt"
     evidence_level: established
     sources: [SRC-DE-ATLANTIKBRUECKE-YL]
+
+  - id: REL-DE-TMN-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Teilnehmer 2017"
+    period: {start: "2017-06-01", end: "2017-06-04"}
+    evidence_level: established
+    sources: [SRC-INT-BILDERBERG-2017]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-002
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-AXEL-SPRINGER
+    type: chief_executive
+    label: "CEO"
+    period: {start: "2017-06-01", end: "2017-06-04"}
+    evidence_level: established
+    sources: [SRC-INT-BILDERBERG-2017]
+
+  - id: REL-DE-TMN-003
+    from: PER-DE-MATTHIAS-NASS
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_moderator
+    label: "moderierte NATO-Diskussion"
+    period: {start: "2016-07-15"}
+    evidence_level: established
+    sources: [SRC-DE-AB-NASS-NATO-2016]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-004
+    from: PER-DE-MATTHIAS-NASS
+    to: ORG-DE-DIE-ZEIT
+    type: journalist_role
+    label: "Internationaler Korrespondent"
+    period: {start: "2016-07-15"}
+    evidence_level: established
+    sources: [SRC-DE-AB-NASS-NATO-2016]
+
+  - id: REL-DE-TMN-005
+    from: PER-DE-TINA-HASSEL
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: discussion_partner
+    label: "Gesprächspartnerin bei Deutsch-Amerikanischer Konferenz"
+    period: {start: "2017-05-16", end: "2017-05-17"}
+    evidence_level: established
+    sources: [SRC-DE-AB-CONFERENCE-2017]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-006
+    from: PER-DE-TINA-HASSEL
+    to: ORG-DE-ARD
+    type: bureau_chief
+    label: "Chefin des Hauptstadtbüros"
+    period: {start: "2017-05-16", end: "2017-05-17"}
+    evidence_level: established
+    sources: [SRC-DE-AB-CONFERENCE-2017]
+
+  - id: REL-DE-TMN-007
+    from: PER-DE-GEORG-MASCOLO
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: conference_participant
+    label: "Panelteilnehmer Deutsch-Amerikanische Konferenz"
+    period: {start: "2017-05-16", end: "2017-05-17"}
+    evidence_level: established
+    sources: [SRC-DE-AB-CONFERENCE-2017]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-008
+    from: PER-DE-GEORG-MASCOLO
+    to: ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ
+    type: journalist_role
+    label: "Leiter des investigativen Rechercheverbundes"
+    period: {start: "2017-05-16", end: "2017-05-17"}
+    evidence_level: established
+    sources: [SRC-DE-AB-CONFERENCE-2017]
+
+  - id: REL-DE-TMN-009
+    from: PER-DE-TOM-BUHROW
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: documented_event_presence
+    label: "in Emersons Abschiedsrede direkt angesprochen"
+    period: {start: "2017-01-18"}
+    evidence_level: established
+    sources: [SRC-DE-AB-BUHROW-2017]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-010
+    from: PER-DE-GABOR-STEINGART
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_moderator
+    label: "moderierte Gespräch zur US-Präsidentschaftswahl"
+    period: {start: "2016-09-26"}
+    evidence_level: established
+    sources: [SRC-DE-AB-STEINGART-2016]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-011
+    from: PER-DE-GABOR-STEINGART
+    to: ORG-DE-HANDELSBLATT
+    type: management_role
+    label: "Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt"
+    period: {start: "2016-09-26"}
+    evidence_level: established
+    sources: [SRC-DE-AB-STEINGART-2016]
+
+  - id: REL-DE-TMN-012
+    from: PER-DE-SVEN-AFHUEPPE
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: documented_member
+    label: "als Mitglied bezeichnet"
+    period: {start: "2014"}
+    evidence_level: established
+    sources: [SRC-DE-HMG-AFHUEPPE-2014]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-013
+    from: PER-DE-SVEN-AFHUEPPE
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_moderator
+    label: "moderierte Industrie-4.0-Veranstaltung"
+    period: {start: "2016-03-03"}
+    evidence_level: established
+    sources: [SRC-DE-AB-AFHUEPPE-2016]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-014
+    from: PER-DE-SVEN-AFHUEPPE
+    to: ORG-DE-HANDELSBLATT
+    type: editor_in_chief
+    label: "Chefredakteur"
+    period: {start: "2016-03-03"}
+    evidence_level: established
+    sources: [SRC-DE-AB-AFHUEPPE-2016]
+
+  - id: REL-DE-TMN-015
+    from: PER-DE-STEFAN-KORNELIUS
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_speaker
+    label: "Gastredner bei Young Leaders-Konferenz"
+    period: {start: "2016"}
+    evidence_level: established
+    sources: [SRC-DE-AB-KORNELIUS-YL-2016]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-016
+    from: PER-DE-STEFAN-KORNELIUS
+    to: ORG-DE-SUEDDEUTSCHE-ZEITUNG
+    type: desk_head
+    label: "Ressortleiter Außenpolitik"
+    period: {start: "2016"}
+    evidence_level: established
+    sources: [SRC-DE-AB-KORNELIUS-YL-2016]
+
+  - id: REL-DE-TMN-017
+    from: PER-DE-KLAUS-DIETER-FRANKENBERGER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_speaker
+    label: "Redner bei Deutsch-Amerikanischer Konferenz"
+    period: {start: "2018-05-18"}
+    evidence_level: established
+    sources: [SRC-DE-AB-FRANKENBERGER-2018]
+    claim_ids: [CLM-DE-TMN-003]
+
+  - id: REL-DE-TMN-018
+    from: PER-DE-KLAUS-DIETER-FRANKENBERGER
+    to: ORG-DE-FAZ
+    type: editor_role
+    label: "Verantwortlicher Redakteur für Außenpolitik"
+    period: {start: "2018-05-18"}
+    evidence_level: established
+    sources: [SRC-DE-AB-FRANKENBERGER-2018]
+
+  - id: REL-DE-TMN-019
+    from: PER-DE-KAI-DIEKMANN
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: board_member
+    label: "Vorstandsmitglied"
+    period: {start: "2021-07-13"}
+    evidence_level: established
+    sources: [SRC-DE-AB-DIEKMANN-2021]
+    claim_ids: [CLM-DE-TMN-003]
+
+  - id: REL-DE-TMN-020
+    from: PER-DE-KAI-DIEKMANN
+    to: ORG-DE-AXEL-SPRINGER
+    type: editor_in_chief
+    label: "BILD-Chefredakteur und Herausgeber der BILD-Gruppe"
+    period: {start: "2015-11-05"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-DIEKMANN-2015]
+
+  - id: REL-DE-TMN-021
+    from: PER-DE-ELMAR-THEVESSEN
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: documented_member
+    label: "als Mitglied bezeichnet"
+    period: {start: "2024-10-25"}
+    evidence_level: established
+    sources: [SRC-DE-AB-THEVESSEN-2024]
+    claim_ids: [CLM-DE-TMN-003]
+
+  - id: REL-DE-TMN-022
+    from: PER-DE-ELMAR-THEVESSEN
+    to: ORG-DE-ZDF
+    type: bureau_chief
+    label: "Leiter ZDF-Studio Washington"
+    period: {start: "2024-10-25"}
+    evidence_level: established
+    sources: [SRC-DE-AB-THEVESSEN-2024]
+
+  - id: REL-DE-TMN-023
+    from: PER-DE-CLAUS-KLEBER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_moderator
+    label: "moderiert Diskussion bei Mitgliederversammlung"
+    period: {start: "2026-06-23"}
+    evidence_level: established
+    sources: [SRC-DE-AB-KLEBER-2026]
+    claim_ids: [CLM-DE-TMN-003]
+
+  - id: REL-DE-TMN-024
+    from: PER-DE-MATTHIAS-NASS
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 1984"
+    period: {start: "1984"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-025
+    from: PER-DE-THEO-KOLL
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 1988"
+    period: {start: "1988"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-026
+    from: PER-DE-PAUL-BERNHARD-KALLEN
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 1991"
+    period: {start: "1991"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-027
+    from: PER-DE-KAI-DIEKMANN
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 1995"
+    period: {start: "1995"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-028
+    from: PER-DE-JOERG-SCHOENENBORN
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 2000"
+    period: {start: "2000"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-029
+    from: PER-DE-JULIA-JAEKEL
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmerin des Young-Leaders-Jahrgangs 2002"
+    period: {start: "2002"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-030
+    from: PER-DE-ELMAR-THEVESSEN
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: young_leader_participant
+    label: "Teilnehmer des Young-Leaders-Jahrgangs 2003"
+    period: {start: "2003"}
+    evidence_level: established
+    sources: [SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-031
+    from: PER-DE-HUBERT-BURDA
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-032
+    from: PER-DE-JOSEF-JOFFE
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-033
+    from: PER-DE-DIETER-VON-HOLTZBRINCK
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-034
+    from: PER-DE-STEFAN-VON-HOLTZBRINCK
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-035
+    from: PER-DE-FRIEDE-SPRINGER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-036
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-037
+    from: PER-DE-KAI-DIEKMANN
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-038
+    from: PER-DE-JULIA-JAEKEL
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-039
+    from: PER-DE-THEO-KOLL
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: named_contributor
+    label: "im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt"
+    period: {start: "2003-02-16"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-MESSAGE-2003-MIRROR]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-040
+    from: PER-DE-THOMAS-RABE
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: documented_event_presence
+    label: "bei gemeinsamem Atlantik-Brücke/Bertelsmann-Format dokumentiert"
+    period: {start: "2014-06-26"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2014-2015]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-041
+    from: PER-DE-LIZ-MOHN
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: award_recipient
+    label: "erhielt den XIV. Vernon A. Walters Award"
+    period: {start: "2008-06-13"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2008-2009]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-042
+    from: PER-DE-ULRICH-WILHELM
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_speaker
+    label: "Gastredner beim World-Young-Leaders-Treffen"
+    period: {start: "2006-09-29", end: "2006-10-01"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2006-2007]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-043
+    from: PER-DE-PETER-FREY
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_speaker
+    label: "Redner beim Frankfurt Luncheon zum Fernsehen in der digitalen Öffentlichkeit"
+    period: {start: "2015-04-10"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2014-2015]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-044
+    from: PER-DE-JOERG-SCHOENENBORN
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: discussion_partner
+    label: "Gesprächspartner des US-Botschafters Philip D. Murphy"
+    period: {start: "2012-03-06"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2011-2012]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-045
+    from: PER-DE-KLAUS-DIETER-FRANKENBERGER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_introducer
+    label: "gab eine Einführung bei der 79. Sitzung des Arbeitskreises USA"
+    period: {start: "2010-06-10"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2009-2010]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-046
+    from: PER-DE-JOERG-QUOOS
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: discussion_partner
+    label: "Gesprächspartner einer von der Atlantik-Brücke organisierten Journalistenreise"
+    period: {start: "2009"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2009-2010]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-047
+    from: PER-DE-INGO-ZAMPERONI
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: working_lunch_participant
+    label: "Teilnehmer eines Working Lunch mit Admiral James G. Stavridis"
+    period: {start: "2012"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2011-2012]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-048
+    from: PER-DE-THOMAS-ROTH
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: documented_event_presence
+    label: "in der Dokumentation der Deutsch-Amerikanischen Konferenz 2015 aufgeführt"
+    period: {start: "2015-09-11"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2015-2016]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-049
+    from: PER-DE-THEO-SOMMER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: discussion_partner
+    label: "Gesprächspartner einer von der Atlantik-Brücke organisierten Journalistenreise"
+    period: {start: "2009"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2009-2010]
+    claim_ids: [CLM-DE-TMN-005]
+
+  - id: REL-DE-TMN-050
+    from: PER-DE-CLAUS-KLEBER
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: event_speaker
+    label: "hielt die XX. Karl-Heinz-Beckurts-Gedächtnisrede"
+    period: {start: "2007-03-13"}
+    evidence_level: strong
+    sources: [SRC-DE-AB-JB-2006-2007]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-051
+    from: PER-DE-THOMAS-EBELING
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Teilnehmer 2016"
+    period: {start: "2016-06-09", end: "2016-06-12"}
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-2016-ARCHIVE]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-052
+    from: PER-DE-THEO-SOMMER
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: former_steering_committee_member
+    label: "früheres deutsches Steering-Committee-Mitglied; regelmäßige Teilnahme laut Interview von 2007"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-FORMER-STEERING, SRC-DE-MESSAGE-SOMMER-BILDERBERG-2007]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-053
+    from: PER-DE-HUBERT-BURDA
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Teilnehmer der Bilderberg-Konferenz 2007"
+    period: {start: "2007-05-31", end: "2007-06-03"}
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-2007-ARCHIVE]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-054
+    from: PER-DE-JOSEF-JOFFE
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Teilnehmer der Bilderberg-Konferenz 2006"
+    period: {start: "2006-06-08", end: "2006-06-11"}
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-2006-ARCHIVE]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-055
+    from: PER-DE-MATTHIAS-NASS
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Teilnehmer der Bilderberg-Konferenz 2012"
+    period: {start: "2012"}
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-2012-ARCHIVE]
+    claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-TMN-056
+    from: PER-DE-KLAUS-DIETER-FRANKENBERGER
+    to: ORG-INT-TRILATERAL-COMMISSION
+    type: documented_member
+    label: "in der Mitgliederliste der Trilateral Commission geführt"
+    period: {start: "2017"}
+    evidence_level: strong
+    sources: [SRC-INT-TRILATERAL-2017-MIRROR]
+    claim_ids: [CLM-DE-TMN-002]
