@@ -908,5 +908,28 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertNotIn("CLM-X wording", text.text())
 
 
+    def test_author_scanner_ignores_nested_form_start_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<form><div><form>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div></form>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_author_scanner_closes_nested_anchor_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><a><a></a>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+
 if __name__ == "__main__":
     unittest.main()

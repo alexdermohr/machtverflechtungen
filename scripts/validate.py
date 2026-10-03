@@ -438,6 +438,7 @@ class AuthorMarkupScanner(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.found = False
         self._elements: list[dict[str, Any]] = []
+        self._form_element_active = False
 
     def _inside_inert_html_template(self) -> bool:
         return any(
@@ -502,6 +503,18 @@ class AuthorMarkupScanner(HTMLParser):
         namespace = namespace_for_start_tag(self._elements, tag)
         if namespace == "html":
             apply_html_start_tag_implied_end_tags(self._elements, tag)
+        if tag == "form" and namespace == "html":
+            template_form = active_html_template_index(self._elements) is not None
+            if not template_form:
+                if self._form_element_active:
+                    return
+                self._form_element_active = True
+                if active_html_table_insertion_index(self._elements) is not None:
+                    return
+        if tag == "a" and namespace == "html":
+            anchor_index = explicit_anchor_end_index(self._elements)
+            if anchor_index is not None:
+                del self._elements[anchor_index:]
         if namespace == "html" and tag in {"html", "body"}:
             if html_template_on_stack(self._elements):
                 return
@@ -540,6 +553,24 @@ class AuthorMarkupScanner(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         tag = tag.casefold()
+        current_foreign_context = foreign_context(self._elements)
+        if tag == "a" and current_foreign_context is None:
+            anchor_index = explicit_anchor_end_index(self._elements)
+            if anchor_index is None:
+                return
+            del self._elements[anchor_index]
+            return
+        if tag == "form" and current_foreign_context is None:
+            template_form_end = active_html_template_index(self._elements) is not None
+            if not template_form_end:
+                if not self._form_element_active:
+                    return
+                self._form_element_active = False
+            form_index = explicit_form_end_index(self._elements)
+            if form_index is None:
+                return
+            del self._elements[form_index]
+            return
         for index in range(len(self._elements) - 1, -1, -1):
             element = self._elements[index]
             if element.get("tag") == tag:
