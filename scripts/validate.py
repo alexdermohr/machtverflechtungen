@@ -827,6 +827,7 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
             ):
                 self.found = True
                 return
+        first_attribute_values = first_html_attribute_original_values(attrs)
         for name, value in attrs:
             name = name.casefold()
             if (
@@ -846,12 +847,13 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
             if tag == "iframe" and name == "srcdoc":
                 self.found = True
                 return
+            first_value = first_attribute_values.get(name)
             if (
                 executable_url_attribute_supported(
                     tag, name, namespace, attrs
                 )
-                and isinstance(value, str)
-                and normalized_executable_url(value).startswith("javascript:")
+                and isinstance(first_value, str)
+                and normalized_executable_url(first_value).startswith("javascript:")
             ):
                 self.found = True
                 return

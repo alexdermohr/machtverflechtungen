@@ -1202,6 +1202,30 @@ class ReviewRegressionTests(unittest.TestCase):
         )
 
 
+    def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
+        safe_first = (
+            '<a href="https://example.test" href="javascript:window.x=1">A</a>',
+            '<iframe src="https://example.test" src="javascript:parent.window.x=1"></iframe>',
+            '<form action="https://example.test" action="javascript:window.x=1"></form>',
+            '<button formaction="https://example.test" formaction="javascript:window.x=1">B</button>',
+            '<svg><a href="https://example.test" href="javascript:window.x=1"><text>x</text></a></svg>',
+        )
+        executable_first = (
+            '<a href="javascript:window.x=1" href="https://example.test">A</a>',
+            '<iframe src="javascript:parent.window.x=1" src="https://example.test"></iframe>',
+            '<form action="javascript:window.x=1" action="https://example.test"></form>',
+            '<button formaction="javascript:window.x=1" formaction="https://example.test">B</button>',
+            '<svg><a href="javascript:window.x=1" href="https://example.test"><text>x</text></a></svg>',
+        )
+
+        for markup in safe_first:
+            with self.subTest(markup=markup, expected="safe-first"):
+                self.assertFalse(validate.has_author_executable_content(markup))
+        for markup in executable_first:
+            with self.subTest(markup=markup, expected="executable-first"):
+                self.assertTrue(validate.has_author_executable_content(markup))
+
+
     def test_author_scanner_respects_end_tag_scope_before_shadow_host_selection(self) -> None:
         markup = (
             '<div><table></div></table>'
