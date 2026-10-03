@@ -1412,5 +1412,93 @@ class ReviewRegressionTests(unittest.TestCase):
         )
 
 
+    def test_material_page_wrapper_hosts_top_level_declarative_shadow_root(self) -> None:
+        markup = (
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template>'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X canonical wording</p>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_active_declarative_shadow_root_without_styles_is_visibility_mutator(self) -> None:
+        markup = (
+            '<template shadowrootmode="open"><p>SHADOW-ONLY</p></template>'
+            '<p>LIGHT-ONLY</p>'
+        )
+
+        self.assertTrue(validate.has_author_declarative_shadow_root(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+        self.assertEqual("", validate.visible_markdown_text(markup))
+        self.assertFalse(
+            validate.has_author_declarative_shadow_root(
+                '<template><p>INERT</p></template>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_declarative_shadow_root(
+                '<template shadowrootmode="bogus"><p>INERT</p></template>'
+            )
+        )
+
+    def test_author_scanner_exits_table_select_before_nested_table_recovery(self) -> None:
+        markup = (
+            '<div><table><select><table></table>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template>'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X canonical wording</p></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_unicode_bidi_controls_are_ineligible_visibility_evidence(self) -> None:
+        controls = (
+            (chr(0x202E), chr(0x202C)),
+            (chr(0x202D), chr(0x202C)),
+            (chr(0x2067), chr(0x2069)),
+            (chr(0x2066), chr(0x2069)),
+            (chr(0x2068), chr(0x2069)),
+        )
+        for opener, closer in controls:
+            markup = (
+                f'<p>{opener}CLM-X canonical wording{closer}</p>'
+                '<p>VISIBLE-TEXT</p>'
+            )
+            with self.subTest(opener=hex(ord(opener))):
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+                parser = validate.VisibleTextParser(
+                    validate.has_author_visibility_mutator(markup)
+                )
+                parser.feed(markup)
+                parser.close()
+                self.assertNotIn("CLM-X", parser.text())
+                self.assertNotIn("canonical wording", parser.text())
+
+
+    def test_mermaid_fence_comments_are_not_visible_evidence(self) -> None:
+        fence = chr(96) * 3
+        body = (
+            f"{fence}mermaid\n"
+            "flowchart LR\n"
+            "%% CLM-X canonical wording\n"
+            "A --> B\n"
+            f"{fence}"
+        )
+
+        rendered = validate.render_site_markdown(body)
+        self.assertIn('class="mermaid"', rendered)
+        self.assertEqual("", validate.visible_markdown_text(body))
+        self.assertNotIn(
+            "CLM-X",
+            validate.visible_markdown_claim_binding_text(body),
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

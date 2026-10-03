@@ -14,6 +14,7 @@ from urllib.parse import urlsplit
 import markdown
 import yaml
 from jsonschema import Draft202012Validator
+from pymdownx.superfences import fence_code_format
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -28,6 +29,31 @@ SITE_MARKDOWN_EXTENSIONS = [
     "pymdownx.details",
     "pymdownx.superfences",
 ]
+SITE_MARKDOWN_EXTENSION_CONFIGS = {
+    "pymdownx.superfences": {
+        "custom_fences": [
+            {
+                "name": "mermaid",
+                "class": "mermaid",
+                "format": fence_code_format,
+            }
+        ]
+    }
+}
+
+BIDI_VISUAL_CONTROL_CODEPOINTS = frozenset(
+    {
+        0x061C,
+        0x200E,
+        0x200F,
+        *range(0x202A, 0x202F),
+        *range(0x2066, 0x206A),
+    }
+)
+
+
+def has_bidi_visual_control(value: str) -> bool:
+    return any(ord(character) in BIDI_VISUAL_CONTROL_CODEPOINTS for character in value)
 
 
 def load_yaml(path: Path) -> Any:
@@ -159,7 +185,11 @@ def has_visible_text(value: str) -> bool:
 
 
 def render_site_markdown(value: str) -> str:
-    return markdown.markdown(value, extensions=SITE_MARKDOWN_EXTENSIONS)
+    return markdown.markdown(
+        value,
+        extensions=SITE_MARKDOWN_EXTENSIONS,
+        extension_configs=SITE_MARKDOWN_EXTENSION_CONFIGS,
+    )
 
 
 FOREIGN_ROOT_TAGS = frozenset({"math", "svg"})
@@ -572,7 +602,9 @@ class AuthorMarkupScanner(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.found = False
-        self._elements: list[dict[str, Any]] = []
+        self._elements: list[dict[str, Any]] = [
+            parser_element_record("article", "html", [])
+        ]
         self._form_element_active = False
 
     def _inside_inert_html_template(self) -> bool:
@@ -650,6 +682,15 @@ class AuthorMarkupScanner(HTMLParser):
             )
             if option_pop_index is not None:
                 del self._elements[option_pop_index:]
+            if tag in HTML_TABLE_SELECT_EXIT_START_TAGS:
+                select_index = active_html_select_index(self._elements)
+                if select_index is not None:
+                    table_select_index = active_html_table_select_index(
+                        self._elements
+                    )
+                    if table_select_index is None:
+                        return
+                    del self._elements[table_select_index:]
             if tag == "select":
                 select_index = active_html_select_index(self._elements)
                 if select_index is not None:
@@ -769,6 +810,34 @@ class AuthorMarkupScanner(HTMLParser):
                 return
 
 
+class AuthorDeclarativeShadowRootParser(AuthorMarkupScanner):
+    def inspect_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+        namespace: str,
+    ) -> None:
+        return
+
+    def _element_record(
+        self,
+        tag: str,
+        namespace: str,
+        attrs: list[tuple[str, str | None]],
+    ) -> dict[str, Any]:
+        element = super()._element_record(tag, namespace, attrs)
+        if element.get("declarative_shadow_root") is True:
+            self.found = True
+        return element
+
+
+def has_author_declarative_shadow_root(rendered: str) -> bool:
+    parser = AuthorDeclarativeShadowRootParser()
+    parser.feed(rendered)
+    parser.close()
+    return parser.found
+
+
 class AuthorStylesheetParser(AuthorMarkupScanner):
     def inspect_starttag(
         self,
@@ -871,8 +940,11 @@ def has_author_executable_content(rendered: str) -> bool:
 
 
 def has_author_visibility_mutator(rendered: str) -> bool:
-    return has_author_stylesheet(rendered) or has_author_executable_content(
-        rendered
+    return (
+        has_bidi_visual_control(rendered)
+        or has_author_declarative_shadow_root(rendered)
+        or has_author_stylesheet(rendered)
+        or has_author_executable_content(rendered)
     )
 
 
