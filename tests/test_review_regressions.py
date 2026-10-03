@@ -1090,6 +1090,19 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(
             validate.has_author_executable_content('<body ononline="x()"></body>')
         )
+        for name in ("onpagereveal", "onpageswap"):
+            with self.subTest(name=name, element="body"):
+                self.assertTrue(
+                    validate.has_author_executable_content(
+                        f'<body {name}="document.body.hidden=true"></body>'
+                    )
+                )
+            with self.subTest(name=name, element="div"):
+                self.assertFalse(
+                    validate.has_author_executable_content(
+                        f'<div {name}="document.body.hidden=true"></div>'
+                    )
+                )
         self.assertTrue(
             validate.has_author_executable_content('<video onencrypted="x()"></video>')
         )

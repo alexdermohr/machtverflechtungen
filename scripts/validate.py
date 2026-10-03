@@ -331,8 +331,9 @@ HTML_BODY_EVENT_HANDLER_ATTRIBUTES = frozenset(
     {
         "onafterprint", "onbeforeprint", "onbeforeunload", "ongamepadconnected",
         "ongamepaddisconnected", "onhashchange", "onlanguagechange", "onmessage",
-        "onmessageerror", "onoffline", "ononline", "onpagehide", "onpageshow",
-        "onpopstate", "onrejectionhandled", "onstorage", "onunhandledrejection",
+        "onmessageerror", "onoffline", "ononline", "onpagehide", "onpagereveal",
+        "onpageshow", "onpageswap", "onpopstate", "onrejectionhandled", "onstorage",
+        "onunhandledrejection",
         "onunload",
     }
 )
