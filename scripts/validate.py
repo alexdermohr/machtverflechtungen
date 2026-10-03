@@ -685,6 +685,8 @@ class AuthorMarkupScanner(HTMLParser):
             )
             if option_pop_index is not None:
                 del self._elements[option_pop_index:]
+            if html_orphan_in_body_start_tag_ignored(self._elements, tag):
+                return
             if tag in HTML_TABLE_SELECT_EXIT_START_TAGS:
                 select_index = active_html_select_index(self._elements)
                 if select_index is not None:
@@ -1484,6 +1486,33 @@ def active_html_table_scope_index(
         if tag in {"html", "template"}:
             return None
     return None
+
+
+HTML_ORPHAN_IN_BODY_IGNORED_START_TAGS = frozenset(
+    {
+        "caption",
+        "colgroup",
+        "frame",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "tr",
+    }
+)
+
+
+def html_orphan_in_body_start_tag_ignored(
+    elements: list[dict[str, Any]], tag: str
+) -> bool:
+    """Match in-body ignore rules for orphan table structure and frame tokens."""
+    if tag == "frame":
+        return True
+    return (
+        tag in HTML_ORPHAN_IN_BODY_IGNORED_START_TAGS
+        and active_html_table_scope_index(elements) is None
+    )
 
 
 HTML_TABLE_SELECT_EXIT_START_TAGS = frozenset(
@@ -2503,6 +2532,8 @@ class VisibleListLinkParser(HTMLParser):
             )
             if option_pop_index is not None:
                 self._pop_elements_from(option_pop_index)
+            if html_orphan_in_body_start_tag_ignored(self._elements, tag):
+                return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return
@@ -3273,6 +3304,8 @@ class VisibleTextParser(HTMLParser):
             )
             if option_pop_index is not None:
                 self._pop_elements_from(option_pop_index)
+            if html_orphan_in_body_start_tag_ignored(self._elements, tag):
+                return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return

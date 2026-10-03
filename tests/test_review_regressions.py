@@ -1458,6 +1458,48 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertTrue(validate.has_author_declarative_shadow_root(markup))
                 self.assertTrue(validate.has_author_visibility_mutator(markup))
 
+    def test_orphan_in_body_tokens_do_not_shadow_declarative_host(self) -> None:
+        for tag in (
+            "caption",
+            "colgroup",
+            "frame",
+            "tbody",
+            "td",
+            "tfoot",
+            "th",
+            "thead",
+            "tr",
+        ):
+            markup = (
+                f"<div><{tag}>"
+                '<template shadowrootmode="open"><p>SHADOW-ONLY</p></template>'
+                f"</{tag}>"
+                '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+                '<p>CLM-X canonical wording</p></div>'
+            )
+            with self.subTest(tag=tag):
+                self.assertTrue(validate.has_author_declarative_shadow_root(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+                links = validate.VisibleListLinkParser()
+                links.feed(markup)
+                links.close()
+                text = validate.VisibleTextParser()
+                text.feed(markup)
+                text.close()
+
+                self.assertEqual([], links.visible_items)
+                self.assertNotIn("SRC-A", text.text())
+                self.assertNotIn("CLM-X", text.text())
+
+        in_table = (
+            '<div><table><tbody><tr><td>'
+            '<template shadowrootmode="open"><p>SHADOW</p></template>'
+            '</td></tr></tbody></table></div>'
+        )
+        self.assertFalse(validate.has_author_declarative_shadow_root(in_table))
+        self.assertFalse(validate.has_author_visibility_mutator(in_table))
+
     def test_material_wrapper_escape_declarative_shadow_root_fails_closed(self) -> None:
         markup = (
             '</article><template shadowrootmode="open">'
