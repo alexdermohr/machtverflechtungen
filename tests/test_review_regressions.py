@@ -1074,6 +1074,16 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(
             validate.has_author_executable_content('<img onerror="x()">')
         )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<input autofocus onfocusin="x()">'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<input onfocusout="x()">'
+            )
+        )
         self.assertFalse(
             validate.has_author_executable_content('<div ononline="x()"></div>')
         )
