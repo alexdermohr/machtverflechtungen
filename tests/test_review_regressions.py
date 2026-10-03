@@ -931,5 +931,37 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
 
+    def test_author_scanner_inspects_in_table_form_before_stack_drop(self) -> None:
+        markup = (
+            '<table><form style="position:fixed;left:0;top:0;'
+            'width:100vw;height:100vh;background:white"></form></table>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_author_scanner_pops_anchor_formatting_descendants_on_explicit_end(self) -> None:
+        markup = (
+            '<div><a><b></a>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_author_scanner_ignores_in_body_frameset_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><frameset>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+
 if __name__ == "__main__":
     unittest.main()

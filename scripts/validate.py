@@ -503,6 +503,10 @@ class AuthorMarkupScanner(HTMLParser):
         namespace = namespace_for_start_tag(self._elements, tag)
         if namespace == "html":
             apply_html_start_tag_implied_end_tags(self._elements, tag)
+        if tag == "frameset" and namespace == "html":
+            # Rendered Markdown is parsed inside MkDocs' existing body, where
+            # the frameset-ok flag is already false, so this token is ignored.
+            return
         if tag == "form" and namespace == "html":
             template_form = active_html_template_index(self._elements) is not None
             if not template_form:
@@ -510,6 +514,8 @@ class AuthorMarkupScanner(HTMLParser):
                     return
                 self._form_element_active = True
                 if active_html_table_insertion_index(self._elements) is not None:
+                    if not self._inside_inert_html_template():
+                        self.inspect_starttag(tag, attrs, namespace)
                     return
         if tag == "a" and namespace == "html":
             anchor_index = explicit_anchor_end_index(self._elements)
@@ -558,7 +564,15 @@ class AuthorMarkupScanner(HTMLParser):
             anchor_index = explicit_anchor_end_index(self._elements)
             if anchor_index is None:
                 return
-            del self._elements[anchor_index]
+            descendants = self._elements[anchor_index + 1 :]
+            if not any(
+                element_namespace(element) != "html"
+                or element.get("tag") in HTML_SPECIAL_TAGS
+                for element in descendants
+            ):
+                del self._elements[anchor_index:]
+            else:
+                del self._elements[anchor_index]
             return
         if tag == "form" and current_foreign_context is None:
             template_form_end = active_html_template_index(self._elements) is not None
