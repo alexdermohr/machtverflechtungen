@@ -500,6 +500,8 @@ class AuthorMarkupScanner(HTMLParser):
             if root_index is not None:
                 del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
+        if namespace == "html":
+            apply_html_start_tag_implied_end_tags(self._elements, tag)
         if namespace == "html" and tag in {"html", "body"}:
             if html_template_on_stack(self._elements):
                 return
@@ -1366,6 +1368,49 @@ CLAIM_IMPLICIT_SCOPE_BOUNDARIES = {
 }
 
 
+def apply_html_start_tag_implied_end_tags(
+    elements: list[dict[str, Any]], tag: str
+) -> None:
+    """Apply the in-body implied end tags needed before parent selection."""
+
+    def close_group(
+        close_tags: frozenset[str],
+        scope_boundaries: frozenset[str],
+    ) -> None:
+        for index in range(len(elements) - 1, -1, -1):
+            element = elements[index]
+            if (
+                element_matches_boundary(element, scope_boundaries)
+                or element_is_foreign_root_or_integration_boundary(element)
+            ):
+                return
+            if (
+                element.get("tag") in close_tags
+                and element_namespace(element) == "html"
+            ):
+                del elements[index:]
+                return
+
+    if tag in P_IMPLICIT_END_START_TAGS:
+        close_group(
+            frozenset({"p"}),
+            HTML_BUTTON_SCOPE_BOUNDARY_TAGS,
+        )
+    if (
+        tag in CLAIM_SECTION_BOUNDARY_TAGS
+        and elements
+        and elements[-1].get("tag") in CLAIM_SECTION_BOUNDARY_TAGS
+        and element_namespace(elements[-1]) == "html"
+    ):
+        del elements[-1:]
+    close_tags = CLAIM_IMPLICIT_CLOSE_GROUPS.get(tag)
+    if close_tags:
+        close_group(
+            close_tags,
+            CLAIM_IMPLICIT_SCOPE_BOUNDARIES.get(tag, frozenset()),
+        )
+
+
 CLAIM_RECORD_END_BOUNDARY_TAGS = frozenset(
     {
         "address",
@@ -1725,9 +1770,13 @@ class VisibleListLinkParser(HTMLParser):
         return (
             (include_intrinsic_tag and tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS)
             or "hidden" in lowered
-            or lowered.get("aria-hidden") == "true"
             or "style" in lowered
             or "popover" in lowered
+            or (
+                tag == "marquee"
+                and isinstance(original.get("width"), str)
+                and original["width"].strip() == "0"
+            )
             or (tag == "details" and "name" in lowered)
             or (
                 "class" in lowered

@@ -3508,7 +3508,6 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         )
         hidden_variants = (
             "<span hidden>ignored</span>",
-            '<span aria-hidden="true">ignored</span>',
             '<span style="display: none">ignored</span>',
             "<p hidden>ignored</p>",
         )
@@ -4228,7 +4227,6 @@ class EvidencePolicyValidationTests(unittest.TestCase):
         hidden_breaks = (
             "<hr hidden>",
             "<hr hidden/>",
-            '<hr aria-hidden="true">',
             '<hr style="display:none">',
             '<hr class="visually-hidden">',
             "<hr popover>",

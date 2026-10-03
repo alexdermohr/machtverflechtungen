@@ -861,5 +861,52 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_stylesheet(markup))
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
+    def test_aria_hidden_content_remains_visual_evidence(self) -> None:
+        markup = (
+            '<ul><li aria-hidden="true">SRC-A <a href="u">A</a></li></ul>'
+            '<p aria-hidden="true">CLM-X wording</p>'
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual(
+            [("SRC-A A", [("u", "A")])],
+            links.visible_items,
+        )
+        self.assertIn("CLM-X wording", text.text())
+
+    def test_author_scanner_applies_implied_li_end_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><li>one<li>two</li>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><ul><li>SRC-A <a href="u">A</a></li></ul></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_zero_width_marquee_does_not_count_as_visual_evidence(self) -> None:
+        markup = (
+            '<marquee width="0">'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X wording</p>'
+            '</marquee>'
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([], links.visible_items)
+        self.assertNotIn("CLM-X wording", text.text())
+
+
 if __name__ == "__main__":
     unittest.main()
