@@ -1203,5 +1203,64 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
 
+    def test_author_scanner_ignores_head_start_inside_shadow_template(self) -> None:
+        markup = (
+            '<div><template shadowrootmode="open">'
+            '<span><head><template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template></head><em>HIDDEN-SLOTTED</em></span>'
+            '</template></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_formaction_javascript_requires_submit_control(self) -> None:
+        non_submit = (
+            '<input formaction="javascript:window.x=1">',
+            '<input type="text" formaction="javascript:window.x=1">',
+            '<input type="button" formaction="javascript:window.x=1">',
+            '<input type="reset" formaction="javascript:window.x=1">',
+            '<button type="button" formaction="javascript:window.x=1">B</button>',
+            '<button type="reset" formaction="javascript:window.x=1">R</button>',
+        )
+        submit = (
+            '<input type="submit" formaction="javascript:window.x=1">',
+            '<input type="image" formaction="javascript:window.x=1">',
+            '<button formaction="javascript:window.x=1">D</button>',
+            '<button type="submit" formaction="javascript:window.x=1">S</button>',
+            '<button type="not-a-real-type" formaction="javascript:window.x=1">I</button>',
+        )
+
+        for markup in non_submit:
+            with self.subTest(markup=markup, expected="non-submit"):
+                self.assertFalse(validate.has_author_executable_content(markup))
+        for markup in submit:
+            with self.subTest(markup=markup, expected="submit"):
+                self.assertTrue(validate.has_author_executable_content(markup))
+
+    def test_foreign_executable_scanner_rejects_fake_on_prefixes(self) -> None:
+        for markup in (
+            '<svg once="historical"></svg>',
+            '<svg><rect once="historical"></rect></svg>',
+            '<math once="historical"></math>',
+            '<math><mrow once="historical"></mrow></math>',
+            '<svg ononline="x()"></svg>',
+            '<math ononline="x()"></math>',
+        ):
+            with self.subTest(markup=markup):
+                self.assertFalse(validate.has_author_executable_content(markup))
+
+        for markup in (
+            '<svg onclick="x()"></svg>',
+            '<svg><rect onclick="x()"></rect></svg>',
+            '<math onclick="x()"></math>',
+            '<math><mrow onclick="x()"></mrow></math>',
+            '<svg><animate onbegin="x()"></animate></svg>',
+        ):
+            with self.subTest(markup=markup):
+                self.assertTrue(validate.has_author_executable_content(markup))
+
+
 if __name__ == "__main__":
     unittest.main()

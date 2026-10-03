@@ -352,15 +352,53 @@ def html_event_handler_attribute_supported(tag: str, name: str) -> bool:
     return tag == "video" and name in HTML_VIDEO_EVENT_HANDLER_ATTRIBUTES
 
 
-def executable_url_attribute_supported(
+SVG_ANIMATION_EVENT_HANDLER_ATTRIBUTES = frozenset(
+    {"onbegin", "onend", "onrepeat"}
+)
+SVG_ANIMATION_EVENT_HANDLER_TAGS = frozenset(
+    {"animate", "animatemotion", "animatetransform", "set"}
+)
+
+
+def foreign_event_handler_attribute_supported(
     tag: str, name: str, namespace: str
+) -> bool:
+    if namespace not in {"svg", "math"}:
+        return False
+    if name in HTML_GLOBAL_EVENT_HANDLER_ATTRIBUTES:
+        return True
+    return (
+        namespace == "svg"
+        and tag in SVG_ANIMATION_EVENT_HANDLER_TAGS
+        and name in SVG_ANIMATION_EVENT_HANDLER_ATTRIBUTES
+    )
+
+
+def html_formaction_attribute_supported(
+    tag: str, attrs: list[tuple[str, str | None]]
+) -> bool:
+    type_value = first_html_attribute_values(attrs).get("type")
+    control_type = type_value if isinstance(type_value, str) else ""
+    if tag == "button":
+        return control_type not in {"button", "reset"}
+    return tag == "input" and control_type in {"submit", "image"}
+
+
+def executable_url_attribute_supported(
+    tag: str,
+    name: str,
+    namespace: str,
+    attrs: list[tuple[str, str | None]],
 ) -> bool:
     if namespace == "html":
         return (
             (name == "href" and tag in {"a", "area"})
             or (name == "src" and tag == "iframe")
             or (name == "action" and tag == "form")
-            or (name == "formaction" and tag in {"button", "input"})
+            or (
+                name == "formaction"
+                and html_formaction_attribute_supported(tag, attrs)
+            )
         )
     if namespace == "svg":
         return tag == "a" and name in {"href", "xlink:href"}
@@ -605,7 +643,6 @@ class AuthorMarkupScanner(HTMLParser):
             if (
                 tag == "head"
                 and active_html_head_index(self._elements) is None
-                and not html_template_on_stack(self._elements)
             ):
                 return
             if tag == "select":
@@ -792,7 +829,12 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
                     namespace == "html"
                     and html_event_handler_attribute_supported(tag, name)
                 )
-                or (namespace != "html" and name.startswith("on"))
+                or (
+                    namespace != "html"
+                    and foreign_event_handler_attribute_supported(
+                        tag, name, namespace
+                    )
+                )
             ):
                 self.found = True
                 return
@@ -800,7 +842,9 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
                 self.found = True
                 return
             if (
-                executable_url_attribute_supported(tag, name, namespace)
+                executable_url_attribute_supported(
+                    tag, name, namespace, attrs
+                )
                 and isinstance(value, str)
                 and normalized_executable_url(value).startswith("javascript:")
             ):
@@ -2317,7 +2361,7 @@ class VisibleListLinkParser(HTMLParser):
                     return
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
-            elif tag == "head" and not html_template_on_stack(self._elements):
+            elif tag == "head":
                 return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
@@ -3082,7 +3126,7 @@ class VisibleTextParser(HTMLParser):
                     return
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
-            elif tag == "head" and not html_template_on_stack(self._elements):
+            elif tag == "head":
                 return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
