@@ -252,9 +252,10 @@ sources:
   primary: true
   tier: B
   url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf
+  archive_url: https://web.archive.org/web/20140521164159id_/http://www.atlantik-bruecke.org/service/dokumente/jahresbericht-der-atlantik-bruecke-2006-2007.pdf
   accessed: '2026-10-03'
-  locator: World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Redner; XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus Kleber
-  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen. Daher Tier B statt A.
+  locator: PDF S. 23, World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Gastredner; PDF S. 43, XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus-Detlev Kleber als Redner
+  notes: Offizieller historischer Jahresbericht. Die aktuelle Original-URL lieferte am 03.10.2026 404. Der Wayback-Snapshot archiviert eine frühere offizielle Atlantik-Brücke-PDF unter dem damaligen /service/dokumente/-Pfad und lieferte bei der Prüfung HTTP 200 mit application/pdf; beide Fundstellen wurden direkt in diesem PDF reproduziert. Daher Tier B statt A.
 
 - id: SRC-DE-AB-JB-2008-2009
   title: Jahresbericht der Atlantik-Brücke 2008/2009
@@ -315,9 +316,10 @@ sources:
   primary: true
   tier: B
   url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf
+  archive_url: https://web.archive.org/web/20160307112223id_/http://www.atlantik-bruecke.org/w/files/dokumente/jahresbericht-webversion_neu.pdf
   accessed: '2026-10-03'
-  locator: Gemeinsames Atlantik-Brücke/Bertelsmann-Format mit Thomas Rabe am 26.06.2014; Frankfurt Luncheon mit Peter Frey am 10.04.2015
-  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen.
+  locator: PDF S. 14, gemeinsames Atlantik-Brücke/Bertelsmann-Format am 26.06.2014 mit Thomas Rabe; PDF S. 47 und 54, Frankfurt Luncheon am 10.04.2015 mit Dr. Peter Frey, Chefredakteur ZDF
+  notes: Offizieller historischer Jahresbericht. Die aktuelle Original-URL lieferte am 03.10.2026 404. Der Wayback-Snapshot archiviert die damalige offizielle Atlantik-Brücke-PDF unter dem früheren /w/files/dokumente/-Pfad und lieferte bei der Prüfung HTTP 200 mit application/pdf; beide Fundstellen wurden direkt in diesem PDF reproduziert. Daher Tier B statt A.
 
 - id: SRC-DE-AB-JB-2015-2016
   title: Jahresbericht der Atlantik-Brücke 2015/2016
@@ -327,9 +329,10 @@ sources:
   primary: true
   tier: B
   url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf
+  archive_url: https://web.archive.org/web/20200312215823id_/https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf
   accessed: '2026-10-03'
-  locator: Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
-  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen.
+  locator: PDF S. 32 (Jahresbericht S. 60-61), Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
+  notes: Offizieller historischer Jahresbericht. Die aktuelle Original-URL lieferte am 03.10.2026 404. Der Wayback-Snapshot archiviert diese offizielle Atlantik-Brücke-PDF und lieferte bei der Prüfung HTTP 200 mit application/pdf; die Thomas-Roth-Fundstelle wurde direkt in diesem PDF reproduziert. Daher Tier B statt A.
 
 - id: SRC-INT-BILDERBERG-2016-ARCHIVE
   title: Participants 2016

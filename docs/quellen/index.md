@@ -267,7 +267,7 @@ Atlantik-Brücke e.V. · 2007 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf)
 
-Fundstelle: World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Redner; XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus Kleber
+Fundstelle: PDF S. 23, World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Gastredner; PDF S. 43, XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus-Detlev Kleber als Redner
 
 <a id="src-de-ab-jb-2008-2009"></a>
 ## SRC-DE-AB-JB-2008-2009
@@ -322,7 +322,7 @@ Atlantik-Brücke e.V. · 2015 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf)
 
-Fundstelle: Gemeinsames Atlantik-Brücke/Bertelsmann-Format mit Thomas Rabe am 26.06.2014; Frankfurt Luncheon mit Peter Frey am 10.04.2015
+Fundstelle: PDF S. 14, gemeinsames Atlantik-Brücke/Bertelsmann-Format am 26.06.2014 mit Thomas Rabe; PDF S. 47 und 54, Frankfurt Luncheon am 10.04.2015 mit Dr. Peter Frey, Chefredakteur ZDF
 
 <a id="src-de-ab-jb-2015-2016"></a>
 ## SRC-DE-AB-JB-2015-2016
@@ -333,7 +333,7 @@ Atlantik-Brücke e.V. · 2016 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf)
 
-Fundstelle: Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
+Fundstelle: PDF S. 32 (Jahresbericht S. 60-61), Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
 
 <a id="src-int-bilderberg-2016-archive"></a>
 ## SRC-INT-BILDERBERG-2016-ARCHIVE
