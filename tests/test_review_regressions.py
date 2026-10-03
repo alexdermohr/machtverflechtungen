@@ -1444,6 +1444,18 @@ class ReviewRegressionTests(unittest.TestCase):
             )
         )
 
+    def test_material_wrapper_escape_declarative_shadow_root_fails_closed(self) -> None:
+        markup = (
+            '</article><template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template>'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X canonical wording</p>'
+        )
+
+        self.assertTrue(validate.has_author_declarative_shadow_root(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
     def test_author_scanner_exits_table_select_before_nested_table_recovery(self) -> None:
         markup = (
             '<div><table><select><table></table>'

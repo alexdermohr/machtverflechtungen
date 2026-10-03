@@ -828,6 +828,17 @@ class AuthorDeclarativeShadowRootParser(AuthorMarkupScanner):
         element = super()._element_record(tag, namespace, attrs)
         if element.get("declarative_shadow_root") is True:
             self.found = True
+        elif (
+            namespace == "html"
+            and tag == "template"
+            and element.get("shadowrootmode") in {"open", "closed"}
+            and not self._elements
+        ):
+            # Raw page content is parsed inside Material's wrapper hierarchy.
+            # If author markup closes the modeled article, the actual immediate
+            # host is outside this fragment model. Fail closed instead of
+            # treating a valid declarative-shadow template as inert.
+            self.found = True
         return element
 
 
