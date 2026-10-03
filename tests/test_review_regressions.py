@@ -1265,7 +1265,10 @@ class ReviewRegressionTests(unittest.TestCase):
     def test_option_family_start_recovers_before_shadow_host_selection(self) -> None:
         prefixes = {
             "option": '<div><option>one<option>two</option>',
-            "optgroup": '<div><option>one<optgroup></optgroup>',
+            "optgroup": (
+                '<div><optgroup><option>one'
+                '<optgroup><option>two</option></optgroup>'
+            ),
         }
 
         for recovery, prefix in prefixes.items():

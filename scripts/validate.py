@@ -1249,17 +1249,31 @@ def html_template_on_stack(elements: list[dict[str, Any]]) -> bool:
 def html_option_family_start_pop_index(
     elements: list[dict[str, Any]], tag: str
 ) -> int | None:
-    """Return the current HTML option closed by option-family starts."""
+    """Return the stack suffix closed by browser option-family start recovery."""
 
     if tag not in {"option", "optgroup"} or not elements:
         return None
-    current = elements[-1]
+
+    pop_index: int | None = None
+    current_index = len(elements) - 1
+    current = elements[current_index]
     if (
         current.get("tag") == "option"
         and element_namespace(current) == "html"
     ):
-        return len(elements) - 1
-    return None
+        pop_index = current_index
+        if tag == "option":
+            return pop_index
+        current_index -= 1
+
+    if tag == "optgroup" and current_index >= 0:
+        current = elements[current_index]
+        if (
+            current.get("tag") == "optgroup"
+            and element_namespace(current) == "html"
+        ):
+            pop_index = current_index
+    return pop_index
 
 
 HTML_SELECT_EXIT_REPROCESS_START_TAGS = frozenset({"input"})
