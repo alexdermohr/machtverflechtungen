@@ -963,5 +963,52 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
 
+    def test_author_scanner_preserves_special_block_during_nested_anchor_recovery(self) -> None:
+        markup = (
+            '<b><a><div><a></a>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div></b>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_author_scanner_generates_implied_end_tags_before_form_removal(self) -> None:
+        markup = (
+            '<div><form><li></form>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_marquee_legacy_zero_dimensions_match_browser_visibility(self) -> None:
+        hidden_widths = ("00", "000", "0px", "0PX", "0%", "00%", "0foo", "0.0", " 0 ")
+        visible_widths = ("0.5", "+0", "-0", "01", "1", "1px", "1%")
+
+        for width in hidden_widths:
+            with self.subTest(width=width, expected="hidden"):
+                links = validate.VisibleListLinkParser()
+                links.feed(
+                    f'<marquee width="{width}"><ul><li>SRC-A '
+                    '<a href="u">A</a></li></ul></marquee>'
+                )
+                links.close()
+                self.assertEqual([], links.visible_items)
+
+        for width in visible_widths:
+            with self.subTest(width=width, expected="visible"):
+                links = validate.VisibleListLinkParser()
+                links.feed(
+                    f'<marquee width="{width}"><ul><li>SRC-A '
+                    '<a href="u">A</a></li></ul></marquee>'
+                )
+                links.close()
+                self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+
+
 if __name__ == "__main__":
     unittest.main()

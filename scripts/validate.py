@@ -520,7 +520,7 @@ class AuthorMarkupScanner(HTMLParser):
         if tag == "a" and namespace == "html":
             anchor_index = explicit_anchor_end_index(self._elements)
             if anchor_index is not None:
-                del self._elements[anchor_index:]
+                apply_html_anchor_adoption_recovery(self._elements, anchor_index)
         if namespace == "html" and tag in {"html", "body"}:
             if html_template_on_stack(self._elements):
                 return
@@ -564,15 +564,7 @@ class AuthorMarkupScanner(HTMLParser):
             anchor_index = explicit_anchor_end_index(self._elements)
             if anchor_index is None:
                 return
-            descendants = self._elements[anchor_index + 1 :]
-            if not any(
-                element_namespace(element) != "html"
-                or element.get("tag") in HTML_SPECIAL_TAGS
-                for element in descendants
-            ):
-                del self._elements[anchor_index:]
-            else:
-                del self._elements[anchor_index]
+            apply_html_anchor_adoption_recovery(self._elements, anchor_index)
             return
         if tag == "form" and current_foreign_context is None:
             template_form_end = active_html_template_index(self._elements) is not None
@@ -583,6 +575,7 @@ class AuthorMarkupScanner(HTMLParser):
             form_index = explicit_form_end_index(self._elements)
             if form_index is None:
                 return
+            apply_html_generated_implied_end_tags(self._elements)
             del self._elements[form_index]
             return
         for index in range(len(self._elements) - 1, -1, -1):
@@ -1305,6 +1298,44 @@ def html_start_tag_foster_parent_index(
     return table_index
 
 
+HTML_GENERATED_IMPLIED_END_TAGS = frozenset(
+    {"dd", "dt", "li", "optgroup", "option", "p", "rb", "rp", "rt", "rtc"}
+)
+
+
+def apply_html_generated_implied_end_tags(elements: list[dict[str, Any]]) -> None:
+    """Pop current HTML elements covered by generate-implied-end-tags."""
+
+    while elements:
+        current = elements[-1]
+        if (
+            element_namespace(current) != "html"
+            or current.get("tag") not in HTML_GENERATED_IMPLIED_END_TAGS
+        ):
+            return
+        del elements[-1]
+
+
+def apply_html_anchor_adoption_recovery(
+    elements: list[dict[str, Any]], anchor_index: int
+) -> None:
+    """Recover anchor formatting while preserving the first special block."""
+
+    first_special_index = next(
+        (
+            index
+            for index in range(anchor_index + 1, len(elements))
+            if element_is_special(elements[index])
+            or element_namespace(elements[index]) != "html"
+        ),
+        None,
+    )
+    if first_special_index is None:
+        del elements[anchor_index:]
+        return
+    del elements[anchor_index:first_special_index]
+
+
 HTML_SPECIAL_TAGS = frozenset(
     {
         "address",
@@ -1581,6 +1612,20 @@ RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
 )
 
 
+def legacy_dimension_is_zero(value: str) -> bool:
+    """Return whether browser legacy-dimension parsing yields exactly zero."""
+
+    text = value.strip()
+    match = re.match(r"([0-9]+)(?:\.([0-9]+))?", text)
+    if match is None:
+        return False
+    integer = match.group(1)
+    fraction = match.group(2)
+    return set(integer) <= {"0"} and (
+        fraction is None or set(fraction) <= {"0"}
+    )
+
+
 class VisibleListLinkParser(HTMLParser):
     CDATA_CONTENT_ELEMENTS = tuple(
         dict.fromkeys(
@@ -1820,7 +1865,7 @@ class VisibleListLinkParser(HTMLParser):
             or (
                 tag == "marquee"
                 and isinstance(original.get("width"), str)
-                and original["width"].strip() == "0"
+                and legacy_dimension_is_zero(original["width"])
             )
             or (tag == "details" and "name" in lowered)
             or (
