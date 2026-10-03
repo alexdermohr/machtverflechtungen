@@ -76,6 +76,7 @@ sources:
   - SRC-DE-AXELSPRINGER-DIEKMANN-2015
   - SRC-DE-AB-THEVESSEN-2024
   - SRC-DE-AB-KLEBER-2026
+  - SRC-DE-AB-KLEBER-MV-RECAP-2026
   - SRC-US-ACG-YL-LIST-1973-2025
   - SRC-DE-ATLANTIKBRUECKE-YL
   - SRC-DE-AB-MESSAGE-2003-MIRROR
@@ -235,7 +236,7 @@ claims:
       - SRC-DE-AB-FRANKENBERGER-2018
       - SRC-DE-AB-DIEKMANN-2021
       - SRC-DE-AB-THEVESSEN-2024
-      - SRC-DE-AB-KLEBER-2026
+      - SRC-DE-AB-KLEBER-MV-RECAP-2026
     evidence:
       - source: SRC-DE-AB-FRANKENBERGER-2018
         directness: direct
@@ -246,9 +247,9 @@ claims:
       - source: SRC-DE-AB-THEVESSEN-2024
         directness: direct
         note: "Die Quelle trägt im Datenstand Elmar Theveßen: documented_member → Atlantik-Brücke e.V.."
-      - source: SRC-DE-AB-KLEBER-2026
+      - source: SRC-DE-AB-KLEBER-MV-RECAP-2026
         directness: direct
-        note: "Die Quelle trägt im Datenstand Claus Kleber: event_moderator → Atlantik-Brücke e.V.."
+        note: "Der offizielle Post-Event-Rückblick trägt im Datenstand Claus Kleber: documented_event_presence → Atlantik-Brücke e.V.; die separate Programmseite kündigte eine Moderation an, bestätigt deren tatsächliche Ausführung aber nicht."
     counterevidence: []
     alternatives:
       - "Spätere Beziehungen können erst nach 2017 entstanden oder institutionell verändert worden sein."
@@ -431,7 +432,7 @@ Diese Zählung behauptet **nicht**, dass damit jede Mehrfachkante der vollständ
 | 26 | Tina Hassel | Atlantik-Brücke e.V. | discussion_partner → Atlantik-Brücke e.V.; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | – | – | bureau_chief → ARD; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | ja (1) | nein | nein | konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
 | 27 | Thomas Roth | Atlantik-Brücke e.V. | documented_event_presence → Atlantik-Brücke e.V.; 2015-09-11; SRC-DE-AB-JB-2015-2016 (Tier B, Primär) | – | – | – | ja (1) | nein | nein | konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
 | 28 | Georg Mascolo | Atlantik-Brücke e.V. | conference_participant → Atlantik-Brücke e.V.; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | – | – | journalist_role → Rechercheverbund NDR/WDR/Süddeutsche Zeitung; 2017-05-16–2017-05-17; SRC-DE-AB-CONFERENCE-2017 (Tier A, Primär) | ja (1) | nein | nein | Konferenzteilnahme ≠ Mitgliedschaft/Gremienamt |
-| 29 | Claus Kleber | Atlantik-Brücke e.V. | event_speaker → Atlantik-Brücke e.V.; 2007-03-13; SRC-DE-AB-JB-2006-2007 (Tier B, Primär) | – | event_moderator → Atlantik-Brücke e.V.; 2026-06-23; SRC-DE-AB-KLEBER-2026 (Tier A, Primär) | – | ja (1) | nein | nein | konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
+| 29 | Claus Kleber | Atlantik-Brücke e.V. | event_speaker → Atlantik-Brücke e.V.; 2007-03-13; SRC-DE-AB-JB-2006-2007 (Tier B, Primär) | – | documented_event_presence → Atlantik-Brücke e.V.; 2026-06-23; SRC-DE-AB-KLEBER-MV-RECAP-2026 (Tier A, Primär) | – | ja (1) | nein | nein | Post-Event-Beleg bestätigt Panelteilnahme, nicht ausdrücklich die angekündigte Moderation; konkrete Event-/Kontaktrolle ≠ Mitgliedschaft |
 | 30 | Theo Koll | Atlantik-Brücke Young Leaders Program | young_leader_participant → Atlantik-Brücke Young Leaders Program; 1988; SRC-US-ACG-YL-LIST-1973-2025 (Tier A, Primär), SRC-DE-ATLANTIKBRUECKE-YL (Tier A, Primär) | named_contributor → Atlantik-Brücke e.V.; 2003-02-16; SRC-DE-AB-MESSAGE-2003-MIRROR (Tier B, Sekundär/Mirror) | – | – | ja (1) | nein | nein | Programmteilnahme ≠ Vereinsmitgliedschaft; Named Contribution ≠ individuelle Mitgliedschaft/Unterzeichnung |
 
 ## Relationstypen
@@ -514,6 +515,7 @@ Erforderlich wären beispielsweise direkte Kommunikation, Weisungen, Redaktionsp
 - [Personalien BILD-Gruppe – Kai Diekmann übernimmt als Herausgeber die Führung der Chefredakteure](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin) — Axel Springer SE, 2015-11-05, Tier A — `SRC-DE-AXELSPRINGER-DIEKMANN-2015`
 - [Trump would try to finish the wall and deploy the US military](https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/) — Atlantik-Brücke e.V., 2024-10-25, Tier A — `SRC-DE-AB-THEVESSEN-2024`
 - [Mitgliederversammlung und Hoffest 2026](https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/) — Atlantik-Brücke e.V., 2026-06-23, Tier A — `SRC-DE-AB-KLEBER-2026`
+- [MV 2026](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW) — Atlantik-Brücke e.V., 2026-06-24, Tier A — `SRC-DE-AB-KLEBER-MV-RECAP-2026`
 - [Young Leaders 1973-2025](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/) — American Council on Germany, 2025, Tier A — `SRC-US-ACG-YL-LIST-1973-2025`
 - [Young Leaders Program](https://www.atlantik-bruecke.org/nachwuchsfoerderung/) — Atlantik-Brücke e.V., current, Tier A — `SRC-DE-ATLANTIKBRUECKE-YL`
 - [A Message to the People of the United States of America](https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf) — Atlantik-Brücke e.V., 2003-02-16, Tier B — `SRC-DE-AB-MESSAGE-2003-MIRROR`

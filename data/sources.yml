@@ -244,7 +244,20 @@ sources:
   tier: A
   url: https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/
   accessed: '2026-10-03'
-  locator: Claus Kleber moderiert Diskussion im Rahmen der Mitgliederversammlung 2026
+  locator: Veranstaltungsankündigung für 23.06.2026; angekündigt war eine von Claus Kleber moderierte Diskussion
+  notes: Prospektive Programmseite. Sie belegt die geplante Moderation, aber nicht, dass Claus Kleber die Moderation tatsächlich ausgeführt hat.
+
+- id: SRC-DE-AB-KLEBER-MV-RECAP-2026
+  title: MV 2026
+  institution: Atlantik-Brücke e.V.
+  date: '2026-06-24'
+  type: organization_social_post
+  primary: true
+  tier: A
+  url: https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW
+  accessed: '2026-10-03'
+  locator: Rückblick auf die Mitgliederversammlung vom Vortag; Paneldiskussion zum 250. Geburtstag der USA mit Emily Haber, Tina Hassel, Ben Hodges und Claus Kleber
+  notes: Offizieller Post-Event-Beitrag der Atlantik-Brücke. Er bestätigt Claus Klebers tatsächliche Teilnahme an der Paneldiskussion, bezeichnet ihn dort aber nicht ausdrücklich als Moderator.
 
 - id: SRC-US-ACG-YL-LIST-1973-2025
   title: Young Leaders 1973-2025

@@ -268,11 +268,11 @@ relations:
   - id: REL-DE-TMN-023
     from: PER-DE-CLAUS-KLEBER
     to: ORG-DE-ATLANTIK-BRUECKE
-    type: event_moderator
-    label: "moderiert Diskussion bei Mitgliederversammlung"
+    type: documented_event_presence
+    label: "Teilnehmer der Paneldiskussion bei Mitgliederversammlung"
     period: {start: "2026-06-23"}
     evidence_level: established
-    sources: [SRC-DE-AB-KLEBER-2026]
+    sources: [SRC-DE-AB-KLEBER-MV-RECAP-2026]
     claim_ids: [CLM-DE-TMN-003]
 
   - id: REL-DE-TMN-024

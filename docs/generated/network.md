@@ -64,7 +64,7 @@ flowchart LR
     N_ORG_DE_ZDF["ZDF"]
     N_PER_DE_ELMAR_THEVESSEN -->|"Leiter ZDF-Studio Washington"| N_ORG_DE_ZDF
     N_PER_DE_CLAUS_KLEBER["Claus Kleber"]
-    N_PER_DE_CLAUS_KLEBER -->|"moderiert Diskussion bei Mitgliederversammlung"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_PER_DE_CLAUS_KLEBER -->|"Teilnehmer der Paneldiskussion bei Mitgliederversammlung"| N_ORG_DE_ATLANTIK_BRUECKE
     N_PER_DE_MATTHIAS_NASS -->|"Teilnehmer des Young-Leaders-Jahrgangs 1984"| N_PRG_DE_ATLANTIK_BRUECKE_YOUNG_LEADERS
     N_PER_DE_THEO_KOLL["Theo Koll"]
     N_PER_DE_THEO_KOLL -->|"Teilnehmer des Young-Leaders-Jahrgangs 1988"| N_PRG_DE_ATLANTIK_BRUECKE_YOUNG_LEADERS
@@ -152,7 +152,7 @@ flowchart LR
 | REL-DE-TMN-020 | Kai Diekmann | BILD-Chefredakteur und Herausgeber der BILD-Gruppe | Axel Springer SE | established | SRC-DE-AXELSPRINGER-DIEKMANN-2015 |
 | REL-DE-TMN-021 | Elmar Theveßen | als Mitglied bezeichnet | Atlantik-Brücke e.V. | established | SRC-DE-AB-THEVESSEN-2024 |
 | REL-DE-TMN-022 | Elmar Theveßen | Leiter ZDF-Studio Washington | ZDF | established | SRC-DE-AB-THEVESSEN-2024 |
-| REL-DE-TMN-023 | Claus Kleber | moderiert Diskussion bei Mitgliederversammlung | Atlantik-Brücke e.V. | established | SRC-DE-AB-KLEBER-2026 |
+| REL-DE-TMN-023 | Claus Kleber | Teilnehmer der Paneldiskussion bei Mitgliederversammlung | Atlantik-Brücke e.V. | established | SRC-DE-AB-KLEBER-MV-RECAP-2026 |
 | REL-DE-TMN-024 | Matthias Naß | Teilnehmer des Young-Leaders-Jahrgangs 1984 | Atlantik-Brücke Young Leaders Program | established | SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL |
 | REL-DE-TMN-025 | Theo Koll | Teilnehmer des Young-Leaders-Jahrgangs 1988 | Atlantik-Brücke Young Leaders Program | established | SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL |
 | REL-DE-TMN-026 | Paul-Bernhard Kallen | Teilnehmer des Young-Leaders-Jahrgangs 1991 | Atlantik-Brücke Young Leaders Program | established | SRC-US-ACG-YL-LIST-1973-2025, SRC-DE-ATLANTIKBRUECKE-YL |

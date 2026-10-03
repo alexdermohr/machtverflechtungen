@@ -256,7 +256,18 @@ Atlantik-Brücke e.V. · 2026-06-23 · Stufe **A** · Primärquelle
 
 [Seite öffnen](https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/)
 
-Fundstelle: Claus Kleber moderiert Diskussion im Rahmen der Mitgliederversammlung 2026
+Fundstelle: Veranstaltungsankündigung für 23.06.2026; angekündigt war eine von Claus Kleber moderierte Diskussion
+
+<a id="src-de-ab-kleber-mv-recap-2026"></a>
+## SRC-DE-AB-KLEBER-MV-RECAP-2026
+
+**[MV 2026](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)**
+
+Atlantik-Brücke e.V. · 2026-06-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)
+
+Fundstelle: Rückblick auf die Mitgliederversammlung vom Vortag; Paneldiskussion zum 250. Geburtstag der USA mit Emily Haber, Tina Hassel, Ben Hodges und Claus Kleber
 
 <a id="src-us-acg-yl-list-1973-2025"></a>
 ## SRC-US-ACG-YL-LIST-1973-2025
