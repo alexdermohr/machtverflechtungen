@@ -132,8 +132,8 @@ flowchart LR
 | REL-DE-AB-001 | Atlantik-Brücke e.V. | betreibt | Atlantik-Brücke Young Leaders Program | established | SRC-DE-ATLANTIKBRUECKE-YL |
 | REL-DE-TMN-001 | Mathias Döpfner | Teilnehmer 2017 | Bilderberg Meetings | established | SRC-INT-BILDERBERG-2017 |
 | REL-DE-TMN-002 | Mathias Döpfner | CEO | Axel Springer SE | established | SRC-INT-BILDERBERG-2017 |
-| REL-DE-TMN-003 | Matthias Naß | moderierte NATO-Diskussion | Atlantik-Brücke e.V. | established | SRC-DE-AB-NASS-NATO-2016 |
-| REL-DE-TMN-004 | Matthias Naß | Internationaler Korrespondent | DIE ZEIT | established | SRC-DE-AB-NASS-NATO-2016 |
+| REL-DE-TMN-003 | Matthias Naß | moderierte NATO-Diskussion | Atlantik-Brücke e.V. | established | SRC-DE-AB-NASS-NATO-2016, SRC-INT-NATO-WARSAW-SUMMIT-2016 |
+| REL-DE-TMN-004 | Matthias Naß | Internationaler Korrespondent | DIE ZEIT | established | SRC-DE-AB-NASS-NATO-2016, SRC-INT-NATO-WARSAW-SUMMIT-2016 |
 | REL-DE-TMN-005 | Tina Hassel | Gesprächspartnerin bei Deutsch-Amerikanischer Konferenz | Atlantik-Brücke e.V. | established | SRC-DE-AB-CONFERENCE-2017 |
 | REL-DE-TMN-006 | Tina Hassel | Chefin des Hauptstadtbüros | ARD | established | SRC-DE-AB-CONFERENCE-2017 |
 | REL-DE-TMN-007 | Georg Mascolo | Panelteilnehmer Deutsch-Amerikanische Konferenz | Atlantik-Brücke e.V. | established | SRC-DE-AB-CONFERENCE-2017 |
@@ -146,8 +146,8 @@ flowchart LR
 | REL-DE-TMN-014 | Sven Afhüppe | Chefredakteur | Handelsblatt | established | SRC-DE-AB-AFHUEPPE-2016 |
 | REL-DE-TMN-015 | Stefan Kornelius | Gastredner bei Young Leaders-Konferenz | Atlantik-Brücke e.V. | established | SRC-DE-AB-KORNELIUS-YL-2016 |
 | REL-DE-TMN-016 | Stefan Kornelius | Ressortleiter Außenpolitik | Süddeutsche Zeitung | established | SRC-DE-AB-KORNELIUS-YL-2016 |
-| REL-DE-TMN-017 | Klaus-Dieter Frankenberger | Redner bei Deutsch-Amerikanischer Konferenz | Atlantik-Brücke e.V. | established | SRC-DE-AB-FRANKENBERGER-2018 |
-| REL-DE-TMN-018 | Klaus-Dieter Frankenberger | Verantwortlicher Redakteur für Außenpolitik | Frankfurter Allgemeine Zeitung | established | SRC-DE-AB-FRANKENBERGER-2018 |
+| REL-DE-TMN-017 | Klaus-Dieter Frankenberger | Redner bei Deutsch-Amerikanischer Konferenz | Atlantik-Brücke e.V. | established | SRC-DE-AB-FRANKENBERGER-2018, SRC-US-ACG-ANNUAL-2018 |
+| REL-DE-TMN-018 | Klaus-Dieter Frankenberger | Verantwortlicher Redakteur für Außenpolitik | Frankfurter Allgemeine Zeitung | established | SRC-DE-AB-FRANKENBERGER-2018, SRC-US-ACG-ANNUAL-2018 |
 | REL-DE-TMN-019 | Kai Diekmann | Vorstandsmitglied | Atlantik-Brücke e.V. | established | SRC-DE-AB-DIEKMANN-2021 |
 | REL-DE-TMN-020 | Kai Diekmann | BILD-Chefredakteur und Herausgeber der BILD-Gruppe | Axel Springer SE | established | SRC-DE-AXELSPRINGER-DIEKMANN-2015 |
 | REL-DE-TMN-021 | Elmar Theveßen | als Mitglied bezeichnet | Atlantik-Brücke e.V. | established | SRC-DE-AB-THEVESSEN-2024 |

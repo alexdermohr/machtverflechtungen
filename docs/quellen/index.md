@@ -113,7 +113,18 @@ Atlantik-Brücke e.V. · 2016-07-15 · Stufe **A** · Primärquelle
 
 [Seite öffnen](https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/)
 
-Fundstelle: Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+Fundstelle: Bericht vom 15.07.2016; Diskussion zwei Tage nach Ende des Warschauer NATO-Gipfels; Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+
+<a id="src-int-nato-warsaw-summit-2016"></a>
+## SRC-INT-NATO-WARSAW-SUMMIT-2016
+
+**[NATO Secretary General announces dates for 2016 Warsaw Summit](https://www.nato.int/en/news-and-events/events/transcripts/2015/05/22/nato-secretary-general-announces-dates-for-2016-warsaw-summit)**
+
+NATO · 2015-05-22 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.nato.int/en/news-and-events/events/transcripts/2015/05/22/nato-secretary-general-announces-dates-for-2016-warsaw-summit)
+
+Fundstelle: Ankündigung des NATO-Generalsekretärs; Warsaw Summit am 8.–9. Juli 2016
 
 <a id="src-de-ab-conference-2017"></a>
 ## SRC-DE-AB-CONFERENCE-2017
@@ -190,7 +201,18 @@ Atlantik-Brücke e.V. · 2018-05-18 · Stufe **A** · Primärquelle
 
 [Seite öffnen](https://www.atlantik-bruecke.org/the-alliance-in-question/)
 
-Fundstelle: Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner
+Fundstelle: Bericht vom 18.05.2018; Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner der Deutsch-Amerikanischen Konferenz
+
+<a id="src-us-acg-annual-2018"></a>
+## SRC-US-ACG-ANNUAL-2018
+
+**[2018 Annual Report](https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf)**
+
+American Council on Germany · 2018 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf)
+
+Fundstelle: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018
 
 <a id="src-de-ab-diekmann-2021"></a>
 ## SRC-DE-AB-DIEKMANN-2021
