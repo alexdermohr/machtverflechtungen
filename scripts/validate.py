@@ -352,6 +352,21 @@ def html_event_handler_attribute_supported(tag: str, name: str) -> bool:
     return tag == "video" and name in HTML_VIDEO_EVENT_HANDLER_ATTRIBUTES
 
 
+def executable_url_attribute_supported(
+    tag: str, name: str, namespace: str
+) -> bool:
+    if namespace == "html":
+        return (
+            (name == "href" and tag in {"a", "area"})
+            or (name == "src" and tag == "iframe")
+            or (name == "action" and tag == "form")
+            or (name == "formaction" and tag in {"button", "input"})
+        )
+    if namespace == "svg":
+        return tag == "a" and name in {"href", "xlink:href"}
+    return False
+
+
 def normalized_executable_url(value: str) -> str:
     normalized = value
     for character in ("\t", "\n", "\r"):
@@ -582,6 +597,9 @@ class AuthorMarkupScanner(HTMLParser):
             root_index = active_foreign_root_index(self._elements)
             if root_index is not None:
                 del self._elements[root_index:]
+            current_foreign_context = foreign_context(self._elements)
+        if tag == "image" and current_foreign_context is None:
+            tag = "img"
         namespace = namespace_for_start_tag(self._elements, tag)
         if namespace == "html":
             if (
@@ -600,6 +618,10 @@ class AuthorMarkupScanner(HTMLParser):
                 if select_index is not None:
                     del self._elements[select_index:]
             apply_html_start_tag_implied_end_tags(self._elements, tag)
+            if tag == "table":
+                table_index = active_html_table_insertion_index(self._elements)
+                if table_index is not None:
+                    del self._elements[table_index:]
         if tag == "frameset" and namespace == "html":
             # Rendered Markdown is parsed inside MkDocs' existing body, where
             # the frameset-ok flag is already false, so this token is ignored.
@@ -767,7 +789,7 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
                 self.found = True
                 return
             if (
-                name in EXECUTABLE_URL_ATTRIBUTES
+                executable_url_attribute_supported(tag, name, namespace)
                 and isinstance(value, str)
                 and normalized_executable_url(value).startswith("javascript:")
             ):

@@ -1121,5 +1121,75 @@ class ReviewRegressionTests(unittest.TestCase):
                 )
 
 
+    def test_author_scanner_normalizes_image_alias_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><image>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_author_scanner_recovers_nested_table_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><table><table></table>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_javascript_url_detection_is_scoped_to_actionable_attributes(self) -> None:
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<div href="javascript:window.x=1"></div>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<span src="javascript:window.x=1"></span>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<a href="javascript:window.x=1">go</a>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<iframe src="javascript:parent.window.x=1"></iframe>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<form action="javascript:window.x=1"></form>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<form><button formaction="javascript:window.x=1">go</button></form>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<svg><a href="javascript:window.x=1"><text>x</text></a></svg>'
+            )
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<svg><a xlink:href="javascript:window.x=1"><text>x</text></a></svg>'
+            )
+        )
+        self.assertFalse(
+            validate.has_author_executable_content(
+                '<svg><rect href="javascript:window.x=1"></rect></svg>'
+            )
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
