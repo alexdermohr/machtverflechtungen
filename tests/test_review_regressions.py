@@ -1022,5 +1022,73 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
 
+    def test_author_scanner_exits_select_for_input_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><select><input>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_zero_height_marquee_does_not_count_as_visual_evidence(self) -> None:
+        markup = (
+            '<marquee height="0">'
+            '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+            '<p>CLM-X wording</p>'
+            '</marquee>'
+        )
+        links = validate.VisibleListLinkParser()
+        links.feed(markup)
+        links.close()
+        text = validate.VisibleTextParser()
+        text.feed(markup)
+        text.close()
+
+        self.assertEqual([], links.visible_items)
+        self.assertNotIn("CLM-X wording", text.text())
+
+    def test_author_scanner_ignores_in_body_head_before_shadow_host_selection(self) -> None:
+        markup = (
+            '<div><head>'
+            '<template shadowrootmode="open">'
+            '<style>:host{display:none}</style><slot></slot>'
+            '</template></head><span>HIDDEN-SLOTTED</span></div>'
+        )
+
+        self.assertTrue(validate.has_author_stylesheet(markup))
+        self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+    def test_executable_scanner_matches_real_event_handler_attributes(self) -> None:
+        self.assertFalse(
+            validate.has_author_executable_content('<div once="historical"></div>')
+        )
+        self.assertFalse(
+            validate.has_author_executable_content('<div online="historical"></div>')
+        )
+        self.assertTrue(
+            validate.has_author_executable_content('<div onclick="x()"></div>')
+        )
+        self.assertTrue(
+            validate.has_author_executable_content('<img onerror="x()">')
+        )
+        self.assertFalse(
+            validate.has_author_executable_content('<div ononline="x()"></div>')
+        )
+        self.assertTrue(
+            validate.has_author_executable_content('<body ononline="x()"></body>')
+        )
+        self.assertTrue(
+            validate.has_author_executable_content('<video onencrypted="x()"></video>')
+        )
+        self.assertTrue(
+            validate.has_author_executable_content(
+                '<svg><animate onbegin="x()"></animate></svg>'
+            )
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

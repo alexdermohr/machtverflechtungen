@@ -268,6 +268,87 @@ CUSTOM_ELEMENT_RESERVED_NAMES = frozenset(
 EXECUTABLE_URL_ATTRIBUTES = frozenset(
     {"href", "src", "action", "formaction", "xlink:href"}
 )
+EXECUTABLE_EVENT_HANDLER_ATTRIBUTES = frozenset(
+    {
+        "onabort", "onafterprint", "onanimationcancel", "onanimationend",
+        "onanimationiteration", "onanimationstart", "onappinstalled", "onauxclick",
+        "onbeforecopy", "onbeforecut", "onbeforeinput", "onbeforeinstallprompt",
+        "onbeforematch", "onbeforepaste", "onbeforeprint", "onbeforetoggle",
+        "onbeforeunload", "onbeforexrselect", "onblur", "oncancel", "oncanplay",
+        "oncanplaythrough", "onchange", "onclick", "onclose", "oncommand",
+        "oncontentvisibilityautostatechange", "oncontextlost", "oncontextmenu",
+        "oncontextrestored", "oncopy", "oncuechange", "oncut", "ondblclick",
+        "ondevicemotion", "ondeviceorientation", "ondeviceorientationabsolute",
+        "ondrag", "ondragend", "ondragenter", "ondragleave", "ondragover",
+        "ondragstart", "ondrop", "ondurationchange", "onemptied", "onencrypted",
+        "onended", "onenterpictureinpicture", "onerror", "onfocus", "onformdata",
+        "onfreeze", "onfullscreenchange", "onfullscreenerror", "ongamepadconnected",
+        "ongamepaddisconnected", "ongotpointercapture", "onhashchange", "oninput",
+        "oninvalid", "onkeydown", "onkeypress", "onkeyup", "onlanguagechange",
+        "onleavepictureinpicture", "onload", "onloadeddata", "onloadedmetadata",
+        "onloadstart", "onlostpointercapture", "onmessage", "onmessageerror",
+        "onmousedown", "onmouseenter", "onmouseleave", "onmousemove", "onmouseout",
+        "onmouseover", "onmouseup", "onmousewheel", "onoffline", "ononline",
+        "onpagehide", "onpagereveal", "onpageshow", "onpageswap", "onpaste",
+        "onpause", "onplay", "onplaying", "onpointercancel", "onpointerdown",
+        "onpointerenter", "onpointerleave", "onpointerlockchange",
+        "onpointerlockerror", "onpointermove", "onpointerout", "onpointerover",
+        "onpointerrawupdate", "onpointerup", "onpopstate", "onprerenderingchange",
+        "onprogress", "onratechange", "onreadystatechange", "onrejectionhandled",
+        "onreset", "onresize", "onresume", "onscroll", "onscrollend",
+        "onscrollsnapchange", "onscrollsnapchanging", "onsearch",
+        "onsecuritypolicyviolation", "onseeked", "onseeking", "onselect",
+        "onselectionchange", "onselectstart", "onslotchange", "onstalled",
+        "onstorage", "onsubmit", "onsuspend", "ontimeupdate", "ontoggle",
+        "ontransitioncancel", "ontransitionend", "ontransitionrun",
+        "ontransitionstart", "onunhandledrejection", "onunload",
+        "onvisibilitychange", "onvolumechange", "onwaiting", "onwaitingforkey",
+        "onwebkitanimationend", "onwebkitanimationiteration",
+        "onwebkitanimationstart", "onwebkitfullscreenchange",
+        "onwebkitfullscreenerror", "onwebkittransitionend", "onwheel",
+    }
+)
+
+HTML_NON_GLOBAL_EVENT_HANDLER_ATTRIBUTES = frozenset(
+    {
+        "onafterprint", "onappinstalled", "onbeforeinstallprompt", "onbeforeprint",
+        "onbeforeunload", "ondevicemotion", "ondeviceorientation",
+        "ondeviceorientationabsolute", "onencrypted", "onenterpictureinpicture",
+        "onfreeze", "ongamepadconnected", "ongamepaddisconnected", "onhashchange",
+        "onlanguagechange", "onleavepictureinpicture", "onmessage", "onmessageerror",
+        "onoffline", "ononline", "onpagehide", "onpagereveal", "onpageshow",
+        "onpageswap", "onpointerlockchange", "onpointerlockerror", "onpopstate",
+        "onprerenderingchange", "onreadystatechange", "onrejectionhandled",
+        "onresume", "onstorage", "onunhandledrejection", "onunload",
+        "onvisibilitychange", "onwaitingforkey",
+    }
+)
+HTML_GLOBAL_EVENT_HANDLER_ATTRIBUTES = (
+    EXECUTABLE_EVENT_HANDLER_ATTRIBUTES - HTML_NON_GLOBAL_EVENT_HANDLER_ATTRIBUTES
+)
+HTML_BODY_EVENT_HANDLER_ATTRIBUTES = frozenset(
+    {
+        "onafterprint", "onbeforeprint", "onbeforeunload", "ongamepadconnected",
+        "ongamepaddisconnected", "onhashchange", "onlanguagechange", "onmessage",
+        "onmessageerror", "onoffline", "ononline", "onpagehide", "onpageshow",
+        "onpopstate", "onrejectionhandled", "onstorage", "onunhandledrejection",
+        "onunload",
+    }
+)
+HTML_MEDIA_EVENT_HANDLER_ATTRIBUTES = frozenset({"onencrypted", "onwaitingforkey"})
+HTML_VIDEO_EVENT_HANDLER_ATTRIBUTES = frozenset(
+    {"onenterpictureinpicture", "onleavepictureinpicture"}
+)
+
+
+def html_event_handler_attribute_supported(tag: str, name: str) -> bool:
+    if name in HTML_GLOBAL_EVENT_HANDLER_ATTRIBUTES:
+        return True
+    if tag == "body" and name in HTML_BODY_EVENT_HANDLER_ATTRIBUTES:
+        return True
+    if tag in {"audio", "video"} and name in HTML_MEDIA_EVENT_HANDLER_ATTRIBUTES:
+        return True
+    return tag == "video" and name in HTML_VIDEO_EVENT_HANDLER_ATTRIBUTES
 
 
 def normalized_executable_url(value: str) -> str:
@@ -502,6 +583,16 @@ class AuthorMarkupScanner(HTMLParser):
                 del self._elements[root_index:]
         namespace = namespace_for_start_tag(self._elements, tag)
         if namespace == "html":
+            if (
+                tag == "head"
+                and active_html_head_index(self._elements) is None
+                and not html_template_on_stack(self._elements)
+            ):
+                return
+            if tag in HTML_SELECT_EXIT_REPROCESS_START_TAGS:
+                select_index = active_html_select_index(self._elements)
+                if select_index is not None:
+                    del self._elements[select_index:]
             apply_html_start_tag_implied_end_tags(self._elements, tag)
         if tag == "frameset" and namespace == "html":
             # Rendered Markdown is parsed inside MkDocs' existing body, where
@@ -657,7 +748,13 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
                 return
         for name, value in attrs:
             name = name.casefold()
-            if name.startswith("on"):
+            if (
+                (
+                    namespace == "html"
+                    and html_event_handler_attribute_supported(tag, name)
+                )
+                or (namespace != "html" and name.startswith("on"))
+            ):
                 self.found = True
                 return
             if tag == "iframe" and name == "srcdoc":
@@ -1883,8 +1980,11 @@ class VisibleListLinkParser(HTMLParser):
             or "popover" in lowered
             or (
                 tag == "marquee"
-                and isinstance(original.get("width"), str)
-                and legacy_dimension_is_zero(original["width"])
+                and any(
+                    isinstance(original.get(name), str)
+                    and legacy_dimension_is_zero(original[name])
+                    for name in ("width", "height")
+                )
             )
             or (tag == "details" and "name" in lowered)
             or (
@@ -2178,6 +2278,8 @@ class VisibleListLinkParser(HTMLParser):
                     return
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
+            elif tag == "head" and not html_template_on_stack(self._elements):
+                return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return
@@ -2941,6 +3043,8 @@ class VisibleTextParser(HTMLParser):
                     return
                 if tag not in HTML_HEAD_CONTENT_START_TAGS:
                     self._pop_elements_from(head_index)
+            elif tag == "head" and not html_template_on_stack(self._elements):
+                return
         if tag in {"html", "body"} and namespace == "html":
             if html_template_on_stack(self._elements):
                 return
