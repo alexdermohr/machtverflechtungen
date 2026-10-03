@@ -115,21 +115,29 @@ class GeneratedIndexCheckTests(unittest.TestCase):
             "title": "Testfall",
             "period": {"start": "2001", "end": "2002"},
             "countries": ["DE"],
-            "evidence_level": "established",
             "mechanisms": ["test-mechanism"],
-            "claims": [{"id": "CLM-1"}, {"id": "CLM-2"}],
+            "claims": [
+                {"id": "CLM-1", "evidence_level": "established"},
+                {"id": "CLM-2", "evidence_level": "strong"},
+            ],
         }
 
         cases_rendered = build_indexes.render_cases([(meta, "faelle/de/test.md")])
         timeline_rendered = build_indexes.render_timeline([(meta, "faelle/de/test.md")])
 
-        self.assertIn("| Zeitraum | Fall | Länder | Claims | Mechanismen |", cases_rendered)
-        self.assertIn("| 2 | test-mechanism |", cases_rendered)
+        self.assertIn("| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |", cases_rendered)
+        self.assertIn("| 1 belegt · 1 stark gestützt | test-mechanism |", cases_rendered)
         self.assertNotIn("| established |", cases_rendered)
 
-        self.assertIn("| Beginn | Ende | Fall | Länder | Claims |", timeline_rendered)
-        self.assertIn("| DE | 2 |", timeline_rendered)
+        self.assertIn("| Beginn | Ende | Fall | Länder | Claim-Evidenz |", timeline_rendered)
+        self.assertIn("| DE | 1 belegt · 1 stark gestützt |", timeline_rendered)
         self.assertNotIn("| established |", timeline_rendered)
+
+    def test_hypothesis_empty_state_is_model_version_neutral(self) -> None:
+        rendered = build_indexes.render_hypotheses([])
+
+        self.assertIn("Der strukturierte Claimbestand enthält derzeit", rendered)
+        self.assertNotIn("V1-Claimbestand", rendered)
 
     def test_render_sources_links_title_to_external_source(self) -> None:
         url = "https://example.invalid/source.pdf"

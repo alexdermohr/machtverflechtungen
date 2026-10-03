@@ -6,8 +6,11 @@ countries: [DE]
 period:
   start: "1950"
   end: "1953"
-status: documented
-evidence_level: established
+status: reviewed
+research_question: "Was belegt der Bundestagsbericht über Struktur, Gefährdungsbewertung und geheimdienstliche Beteiligung beim Technischen Dienst des BDJ?"
+event_claims:
+  - CLM-DE-BDJ-001
+  - CLM-DE-BDJ-002
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation]
 actors: [ORG-DE-BDJ]
 mechanisms: [covert-support, paramilitary-network]
@@ -18,11 +21,48 @@ claims:
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BT-04644-1953]
+    evidence:
+      - source: SRC-DE-BT-04644-1953
+        directness: direct
+        locator: "Drucksache Nr. 4644"
+        note: "Der Ausschuss formuliert in seinem Beratungsergebnis ausdrücklich eine weitgehende personelle und ideelle Einheit."
+    counterevidence: []
+    alternatives:
+      - "Die Ausschussbewertung kann organisatorische Nähe belegen, ohne zu bedeuten, dass sämtliche Mitglieder beide Strukturen oder deren verdeckte Tätigkeiten kannten."
+    missing_evidence:
+      - "Mitglieder-, Finanz- und Befehlsunterlagen könnten die organisatorische Überlappung unterhalb der parlamentarischen Gesamtbewertung detaillierter ausweisen."
+    scope:
+      supports: "Der Claim trägt die parlamentarische Bewertung einer weitgehenden personellen und ideellen Einheit."
+      does_not_support: "Er trägt nicht, dass jedes einzelne Mitglied über alle Tätigkeiten des Technischen Dienstes informiert war."
+    falsification: "Belastbare Organisationsunterlagen, die die vom Ausschuss angenommene personelle und ideelle Überlappung grundlegend widerlegen, würden den Claim schwächen."
   - id: CLM-DE-BDJ-002
     text: "Der Ausschuss bezeichnete die Entwicklung des BDJ als ernste Gefährdung der demokratischen Staatsordnung und verwies auf die Beteiligung eines Geheimdienstes einer Besatzungsmacht."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BT-04644-1953]
+    evidence:
+      - source: SRC-DE-BT-04644-1953
+        directness: direct
+        locator: "Drucksache Nr. 4644"
+        note: "Der Bericht enthält sowohl die Gefährdungsbewertung als auch den ausdrücklichen Hinweis auf die Beteiligung eines Geheimdienstes einer Besatzungsmacht."
+    counterevidence: []
+    alternatives:
+      - "Die geheimdienstliche Beteiligung kann Unterstützung oder Einfluss verschiedener Reichweite bedeuten; aus dem Bericht allein folgt keine vollständige operative Steuerung."
+    missing_evidence:
+      - "Für Art, Umfang und konkrete Weisungsbeziehungen der geheimdienstlichen Beteiligung wären zusätzliche Primärakten des beteiligten Dienstes erforderlich."
+    scope:
+      supports: "Der Claim trägt die parlamentarische Gefährdungsbewertung und die im Bericht genannte geheimdienstliche Beteiligung."
+      does_not_support: "Er trägt nicht die Behauptung, ein westdeutscher Nachrichtendienst habe den Technischen Dienst gegründet oder vollständig gesteuert."
+    falsification: "Authentische Primärakten, die die im Bericht bezeichnete geheimdienstliche Beteiligung ausschließen oder wesentlich anders einordnen, würden den Claim treffen."
+what_follows:
+  - text: "Der Bundestagsbericht dokumentiert eine problematische Geheimorganisation und benennt eine geheimdienstliche Beteiligung einer Besatzungsmacht."
+    claim_ids: [CLM-DE-BDJ-001, CLM-DE-BDJ-002]
+what_does_not_follow:
+  - text: "Aus dem Bericht folgt nicht, dass ein westdeutscher Nachrichtendienst den Technischen Dienst gegründet oder vollständig gesteuert habe."
+    claim_ids: [CLM-DE-BDJ-002]
+open_questions:
+  - "Welche freigegebenen Akten des beteiligten Besatzungsmacht-Geheimdienstes präzisieren Finanzierung, Weisungsbeziehungen und operative Grenzen?"
+case_links: []
 ---
 
 # Technischer Dienst des Bund Deutscher Jugend

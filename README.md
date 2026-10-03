@@ -12,14 +12,19 @@ https://alexdermohr.github.io/machtverflechtungen/
 
 ## Arbeitsregeln
 
-- Primärquellen zuerst.
-- Tatsache, Interpretation, Gegenbeleg und Hypothese werden getrennt.
+- Die bewertete Einheit ist der konkrete Claim, nicht der Fall als Ganzes.
+- Der gesicherte Ereigniskern verweist nur auf fallinterne `fact`-Claims mit `established` oder `strong`.
+- Fallweite Synthesen („folgt / folgt nicht“) nennen die Claims, aus denen sie abgeleitet werden.
+- Primärquellen zuerst; jede registrierte Quelle bleibt über eine reale Seite oder ein PDF prüfbar.
+- Tatsache, Interpretation, Gegenbeleg, Hypothese und offene Frage werden getrennt.
 - Belegt / stark gestützt / plausibel / spekulativ / widersprochen werden nicht vermischt.
-- Gegenbelege und alternative Erklärungen gehören zur Fallakte.
+- Jeder Claim führt Stütze, Gegenbelege, Alternativerklärungen, Beweislücken, Aussagegrenze und Falsifikationskriterium mit.
+- Leere Gegenprüfungsfelder bedeuten nur „im Datensatz nicht registriert“, nicht „existiert nicht“.
 - Mitgliedschaft, Bekanntschaft oder Netzwerknähe beweisen keine Steuerung, Korruption oder Straftat.
 - Politischer oder institutioneller Nutzen beweist weder Motiv noch Absicht noch Urheberschaft.
-- Jede belastende Netzwerkrelation benötigt mindestens eine Quelle.
-- Die Website ist Darstellung; Markdown/YAML im Repository bleibt die nachvollziehbare Forschungsgrundlage.
+- Eine dokumentierte Fall-zu-Fall-Verbindung braucht eine quellengebundene Relation. Ein Vergleichslink behauptet keine Kausalität.
+- Das Frontmatter ist die kanonische Bewertungsstruktur; der Validator erzwingt, dass Claim-ID und Claim-Wortlaut im sichtbaren Falltext gespiegelt bleiben.
+- Timeline, Netzwerk und weitere Indizes werden aus denselben strukturierten Forschungsdaten erzeugt und von CI auf Drift geprüft.
 
 ## Startbestand
 
@@ -38,21 +43,22 @@ Zusätzlich zeigt die Atlantik-Brücke exemplarisch, wie ein legales transnation
 ```text
 Fallakte (Markdown + Frontmatter)
         │
-        ├── Quellen-IDs ───────> data/sources.yml
-        ├── Akteur-IDs ────────> data/entities.yml
-        ├── Mechanismen ───────> data/mechanisms.yml
-        └── Beziehungen ───────> data/relations.yml
+        ├── Claims ─────────────> Stütze · Gegenbeleg · Alternativen · Grenzen
+        ├── Quellen-IDs ────────> data/sources.yml
+        ├── Akteur-IDs ─────────> data/entities.yml
+        ├── Mechanismen ────────> data/mechanisms.yml
+        └── Beziehungen ────────> data/relations.yml
                                   │
                          scripts/validate.py
                                   │
                          scripts/build_indexes.py
                                   │
-                  Timeline · Netzwerk · Indizes
+               Timeline · Netzwerk · weitere Indizes
                                   │
                              MkDocs Material
 ```
 
-Git bleibt zunächst die kanonische Wahrheit. Die öffentliche Seite, Timeline und das Netzwerk werden aus denselben Forschungsdaten erzeugt. Spätere Karten oder interaktive Graphen sollen ebenfalls daraus entstehen, statt eine zweite Datenwahrheit aufzubauen.
+Git bleibt die kanonische Wahrheit. Das Frontmatter trägt die maschinenlesbare Bewertung; der Falltext bleibt die lesbare Darstellung. Der Validator koppelt beide Ebenen über Claim-ID und normalisierten Claim-Wortlaut. Abgeleitete Übersichten werden aus denselben Daten erzeugt.
 
 ## Evidenz und Quellen
 
@@ -64,7 +70,7 @@ Die ausführliche Methodik steht in [METHODOLOGY.md](METHODOLOGY.md). Kurz:
 - **speculative / offen** — prüfbarer Verdacht mit unzureichender Evidenz;
 - **contradicted / widersprochen** — die konkrete Behauptung kollidiert mit höher gewichteter Evidenz.
 
-Quellen werden von **A (Primärquelle)** bis **E (Lead)** klassifiziert. Stufe E darf Fundstellen liefern, aber niemals allein einen Fakt tragen.
+Quellen werden von **A (Primärquelle)** bis **E (Lead)** klassifiziert. Stufe E darf Fundstellen liefern, aber niemals allein einen nicht-spekulativen Claim tragen.
 
 ## Lokal prüfen
 
@@ -73,6 +79,7 @@ python -m pip install -r requirements.txt
 python scripts/validate.py
 python scripts/build_indexes.py
 python scripts/build_indexes.py --check
+python -m unittest discover -s tests -p 'test_*.py'
 mkdocs build --strict
 ```
 
