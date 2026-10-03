@@ -81,3 +81,344 @@ Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.atlantik-bruecke.org/nachwuchsfoerderung/)
 
 Fundstelle: Abschnitt Young Leaders Programm
+
+<a id="src-de-spr-mediennetz-2017"></a>
+## SRC-DE-SPR-MEDIENNETZ-2017
+
+**[Medien in Deutschland](https://swprs.org/netzwerk-medien-deutschland/)**
+
+Swiss Policy Research · 2017 · Stufe **D** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://swprs.org/netzwerk-medien-deutschland/)
+
+Fundstelle: Infografik und Quellen zur Infografik
+
+<a id="src-int-bilderberg-2017"></a>
+## SRC-INT-BILDERBERG-2017
+
+**[Participants 2017](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017)**
+
+Bilderberg Meetings · 2017 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017)
+
+Fundstelle: Döpfner, Mathias (DEU), CEO, Axel Springer SE
+
+<a id="src-de-ab-nass-nato-2016"></a>
+## SRC-DE-AB-NASS-NATO-2016
+
+**[NATO in a World of Disorder: A Conversation on the Outcomes of the Warsaw Summit 2016](https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/)**
+
+Atlantik-Brücke e.V. · 2016-07-15 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/)
+
+Fundstelle: Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+
+<a id="src-de-ab-conference-2017"></a>
+## SRC-DE-AB-CONFERENCE-2017
+
+**[Konferenz spricht Probleme im Jubiläumsjahr offen an](https://www.atlantik-bruecke.org/konferenz-spricht-probleme-im-jubilaeumsjahr-offen-an/)**
+
+Atlantik-Brücke e.V. · 2017-10-18 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/konferenz-spricht-probleme-im-jubilaeumsjahr-offen-an/)
+
+Fundstelle: Deutsch-Amerikanische Konferenz 16.–17. Mai 2017; Tina Hassel, Georg Mascolo und Matthias Naß
+
+<a id="src-de-ab-buhrow-2017"></a>
+## SRC-DE-AB-BUHROW-2017
+
+**[Serving as the U.S. Ambassador to Germany has been the honor of my life](https://www.atlantik-bruecke.org/en/serving-as-the-u-s-ambassador-to-germany-has-been-the-honor-of-my-life/)**
+
+Atlantik-Brücke e.V. · 2017-10-26 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/en/serving-as-the-u-s-ambassador-to-germany-has-been-the-honor-of-my-life/)
+
+Fundstelle: Farewell dinner for Ambassador John B. Emerson on 18 January 2017; Tom Buhrow addressed in the event record
+
+<a id="src-de-ab-steingart-2016"></a>
+## SRC-DE-AB-STEINGART-2016
+
+**[Frankfurter Sommerfest & Gespräch zur US-Präsidentschaftswahl](https://www.atlantik-bruecke.org/frankfurter-sommerfest-gespraech-zur-us-praesidentschaftswahl/)**
+
+Atlantik-Brücke e.V. · 2016-09-29 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/frankfurter-sommerfest-gespraech-zur-us-praesidentschaftswahl/)
+
+Fundstelle: Veranstaltung 26.09.2016; Moderation Gabor Steingart, Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt
+
+<a id="src-de-ab-afhueppe-2016"></a>
+## SRC-DE-AB-AFHUEPPE-2016
+
+**[Industrie 4.0 im Standortwettbewerb zwischen Deutschland, Europa und den USA](https://www.atlantik-bruecke.org/industrie-4-0-im-standortwettbewerb-zwischen-deutschland-europa-und-den-usa/)**
+
+Atlantik-Brücke e.V. · 2016-09-06 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/industrie-4-0-im-standortwettbewerb-zwischen-deutschland-europa-und-den-usa/)
+
+Fundstelle: Veranstaltung 03.03.2016; Moderation Sven Afhüppe, Chefredakteur Handelsblatt
+
+<a id="src-de-hmg-afhueppe-2014"></a>
+## SRC-DE-HMG-AFHUEPPE-2014
+
+**[Doppelspitze beim Handelsblatt – Sven Afhüppe wird zum Chefredakteur berufen](https://handelsblattgroup.com/Presse/doppelspitze-beim-handelsblatt-sven-afhuppe-wird-zum-chefredakteur-berufen/)**
+
+Handelsblatt Media Group · 2014 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://handelsblattgroup.com/Presse/doppelspitze-beim-handelsblatt-sven-afhuppe-wird-zum-chefredakteur-berufen/)
+
+Fundstelle: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
+
+<a id="src-de-ab-kornelius-yl-2016"></a>
+## SRC-DE-AB-KORNELIUS-YL-2016
+
+**[Deutsch-Amerikanische Young Leaders-Konferenz 2016](https://www.atlantik-bruecke.org/deutsch-amerikanische-young-leaders-konferenz-2016/)**
+
+Atlantik-Brücke e.V. · 2016-08-12 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/deutsch-amerikanische-young-leaders-konferenz-2016/)
+
+Fundstelle: Stefan Kornelius, Ressortleiter Außenpolitik der Süddeutschen Zeitung, als Gastredner
+
+<a id="src-de-ab-frankenberger-2018"></a>
+## SRC-DE-AB-FRANKENBERGER-2018
+
+**[The Alliance in Question?](https://www.atlantik-bruecke.org/the-alliance-in-question/)**
+
+Atlantik-Brücke e.V. · 2018-05-18 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/the-alliance-in-question/)
+
+Fundstelle: Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner
+
+<a id="src-de-ab-diekmann-2021"></a>
+## SRC-DE-AB-DIEKMANN-2021
+
+**[Deutschland und die digitale Transformation – Verlieren wir den Anschluss?](https://www.atlantik-bruecke.org/deutschland-und-die-digitale-transformation-verlieren-wir-den-anschluss/)**
+
+Atlantik-Brücke e.V. · 2021-07-13 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/deutschland-und-die-digitale-transformation-verlieren-wir-den-anschluss/)
+
+Fundstelle: Kai Diekmann als Mitglied des Vorstands der Atlantik-Brücke und Moderator
+
+<a id="src-de-axelspringer-diekmann-2015"></a>
+## SRC-DE-AXELSPRINGER-DIEKMANN-2015
+
+**[Personalien BILD-Gruppe – Kai Diekmann übernimmt als Herausgeber die Führung der Chefredakteure](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin)**
+
+Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin)
+
+Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
+
+<a id="src-de-ab-thevessen-2024"></a>
+## SRC-DE-AB-THEVESSEN-2024
+
+**[Trump would try to finish the wall and deploy the US military](https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/)**
+
+Atlantik-Brücke e.V. · 2024-10-25 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/)
+
+Fundstelle: Autorenhinweis bezeichnet Elmar Theveßen als Leiter des ZDF-Studios Washington und Mitglied der Atlantik-Brücke
+
+<a id="src-de-ab-kleber-2026"></a>
+## SRC-DE-AB-KLEBER-2026
+
+**[Mitgliederversammlung und Hoffest 2026](https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/)**
+
+Atlantik-Brücke e.V. · 2026-06-23 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/)
+
+Fundstelle: Claus Kleber moderiert Diskussion im Rahmen der Mitgliederversammlung 2026
+
+<a id="src-us-acg-yl-list-1973-2025"></a>
+## SRC-US-ACG-YL-LIST-1973-2025
+
+**[Young Leaders 1973-2025](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/)**
+
+American Council on Germany · 2025 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/)
+
+Fundstelle: Matthias Naß 1984; Theo Hans Koll 1988; Paul-Bernhard Kallen 1991; Kai Georg Diekmann 1995; Jörg Schönenborn 2000; Julia Jäckel 2002; Elmar Georg Theveßen 2003
+
+<a id="src-de-ab-message-2003-mirror"></a>
+## SRC-DE-AB-MESSAGE-2003-MIRROR
+
+**[A Message to the People of the United States of America](https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf)**
+
+Atlantik-Brücke e.V. · 2003-02-16 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[PDF öffnen](https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf)
+
+Fundstelle: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mitgliedern und Freunden, die durch ihren Beitrag die Veröffentlichung ermöglichten
+
+<a id="src-de-ab-jb-2006-2007"></a>
+## SRC-DE-AB-JB-2006-2007
+
+**[Jahresbericht der Atlantik-Brücke 2006/2007](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf)**
+
+Atlantik-Brücke e.V. · 2007 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf)
+
+Fundstelle: World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Redner; XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus Kleber
+
+<a id="src-de-ab-jb-2008-2009"></a>
+## SRC-DE-AB-JB-2008-2009
+
+**[Jahresbericht der Atlantik-Brücke 2008/2009](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2008-2009.pdf)**
+
+Atlantik-Brücke e.V. · 2009 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2008-2009.pdf)
+
+Fundstelle: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
+
+<a id="src-de-ab-jb-2009-2010"></a>
+## SRC-DE-AB-JB-2009-2010
+
+**[Jahresbericht der Atlantik-Brücke 2009/2010](https://www.atlantik-bruecke.org/wp-content/uploads/jb-0910-final.pdf)**
+
+Atlantik-Brücke e.V. · 2010 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jb-0910-final.pdf)
+
+Fundstelle: Journalistenreise 19.-29.09.2009 mit Jörg Quoos und Theo Sommer; 79. Sitzung Arbeitskreis USA am 10.06.2010 mit Einführung von Klaus-Dieter Frankenberger
+
+<a id="src-de-ab-jb-2011-2012"></a>
+## SRC-DE-AB-JB-2011-2012
+
+**[Jahresbericht der Atlantik-Brücke 2011/2012](https://www.atlantik-bruecke.org/wp-content/uploads/120628_jahresbericht_2012.pdf)**
+
+Atlantik-Brücke e.V. · 2012 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/120628_jahresbericht_2012.pdf)
+
+Fundstelle: Gespräche mit Jörg Schönenborn am 06.03. und 19.04.2012; Working Lunch mit Admiral Stavridis und Ingo Zamperoni im Januar 2012
+
+<a id="src-de-ab-jb-2013-2014"></a>
+## SRC-DE-AB-JB-2013-2014
+
+**[Jahresbericht der Atlantik-Brücke 2013/2014](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2013_2014_final.pdf)**
+
+Atlantik-Brücke e.V. · 2014 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2013_2014_final.pdf)
+
+Fundstelle: Gastbeitrag „Unvollendet: Die amerikanische Europapolitik“ von Klaus-Dieter Frankenberger
+
+<a id="src-de-ab-jb-2014-2015"></a>
+## SRC-DE-AB-JB-2014-2015
+
+**[Jahresbericht der Atlantik-Brücke 2014/2015](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf)**
+
+Atlantik-Brücke e.V. · 2015 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf)
+
+Fundstelle: Gemeinsames Atlantik-Brücke/Bertelsmann-Format mit Thomas Rabe am 26.06.2014; Frankfurt Luncheon mit Peter Frey am 10.04.2015
+
+<a id="src-de-ab-jb-2015-2016"></a>
+## SRC-DE-AB-JB-2015-2016
+
+**[Jahresbericht der Atlantik-Brücke 2015/2016](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf)**
+
+Atlantik-Brücke e.V. · 2016 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf)
+
+Fundstelle: Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
+
+<a id="src-int-bilderberg-2016-archive"></a>
+## SRC-INT-BILDERBERG-2016-ARCHIVE
+
+**[Participants 2016](https://web.archive.org/web/20191214010753/https://www.bilderbergmeetings.org/meetings/meeting-2016/participants-2016-1.html)**
+
+Bilderberg Meetings · 2016-06-09 · Stufe **B** · Primärquelle
+
+[Seite öffnen](https://web.archive.org/web/20191214010753/https://www.bilderbergmeetings.org/meetings/meeting-2016/participants-2016-1.html)
+
+Fundstelle: Ebeling, Thomas (DEU), CEO, ProSiebenSat.1
+
+<a id="src-int-bilderberg-former-steering"></a>
+## SRC-INT-BILDERBERG-FORMER-STEERING
+
+**[Former Steering Committee Members](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)**
+
+Bilderberg Meetings · current · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)
+
+Fundstelle: Sommer, Theo (DEU)
+
+<a id="src-de-message-sommer-bilderberg-2007"></a>
+## SRC-DE-MESSAGE-SOMMER-BILDERBERG-2007
+
+**[Networking auf sehr hohem Niveau](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)**
+
+message · 2007 · Stufe **B** · Primärquelle
+
+[PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
+
+Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+<a id="src-int-bilderberg-2007-archive"></a>
+## SRC-INT-BILDERBERG-2007-ARCHIVE
+
+**[Official List of Participants for the 2007 Bilderberg Meeting](https://publicintelligence.net/official-list-of-participants-for-the-2007-bilderberg-meeting/)**
+
+Bilderberg Meetings · 2007 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://publicintelligence.net/official-list-of-participants-for-the-2007-bilderberg-meeting/)
+
+Fundstelle: Offizielle Teilnehmerliste Istanbul, 31.05.-03.06.2007; Hubert Burda und Mathias Döpfner
+
+<a id="src-int-bilderberg-2006-archive"></a>
+## SRC-INT-BILDERBERG-2006-ARCHIVE
+
+**[List of Participants for the 2006 Bilderberg Meeting](https://publicintelligence.net/list-of-participants-for-the-2006-bilderberg-meeting/)**
+
+Bilderberg Meetings · 2006 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://publicintelligence.net/list-of-participants-for-the-2006-bilderberg-meeting/)
+
+Fundstelle: Offizielle Teilnehmerliste Ottawa, 08.-11.06.2006; Josef Joffe
+
+<a id="src-int-bilderberg-2012-archive"></a>
+## SRC-INT-BILDERBERG-2012-ARCHIVE
+
+**[2012 Bilderberg Meeting Participant List](https://publicintelligence.net/2012-bilderberg-meeting-participant-list/)**
+
+Bilderberg Meetings · 2012 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://publicintelligence.net/2012-bilderberg-meeting-participant-list/)
+
+Fundstelle: Matthias Nass, Chief International Correspondent, Die Zeit
+
+<a id="src-int-bilderberg-1990-archive"></a>
+## SRC-INT-BILDERBERG-1990-ARCHIVE
+
+**[1990 Bilderberg Participant List](https://publicintelligence.net/1990-bilderberg-participant-list/)**
+
+Bilderberg Meetings · 1990 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://publicintelligence.net/1990-bilderberg-participant-list/)
+
+Fundstelle: Theo Sommer, Editor-in-Chief, Die Zeit
+
+<a id="src-int-trilateral-2017-mirror"></a>
+## SRC-INT-TRILATERAL-2017-MIRROR
+
+**[The Trilateral Commission — January 2017](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)**
+
+The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[PDF öffnen](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)
+
+Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung

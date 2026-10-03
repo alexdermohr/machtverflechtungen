@@ -78,3 +78,352 @@ sources:
   accessed: '2026-09-28'
   locator: Abschnitt Young Leaders Programm
   notes: Offizielle Programmübersicht der Atlantik-Brücke; beschreibt das Young Leaders Programm als Austausch- und Netzwerkprogramm für Nachwuchsführungskräfte.
+- id: SRC-DE-SPR-MEDIENNETZ-2017
+  title: Medien in Deutschland
+  institution: Swiss Policy Research
+  date: '2017'
+  type: research_lead
+  primary: false
+  tier: D
+  url: https://swprs.org/netzwerk-medien-deutschland/
+  accessed: '2026-10-03'
+  locator: Infografik und Quellen zur Infografik
+  notes: Ausgangsindex des Audits; trägt nur Aussagen darüber, was die Grafik behauptet, nicht die Wahrheit einzelner Kanten.
+- id: SRC-INT-BILDERBERG-2017
+  title: Participants 2017
+  institution: Bilderberg Meetings
+  date: '2017'
+  type: participant_list
+  primary: true
+  tier: A
+  url: https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017
+  accessed: '2026-10-03'
+  locator: Döpfner, Mathias (DEU), CEO, Axel Springer SE
+- id: SRC-DE-AB-NASS-NATO-2016
+  title: 'NATO in a World of Disorder: A Conversation on the Outcomes of the Warsaw Summit 2016'
+  institution: Atlantik-Brücke e.V.
+  date: '2016-07-15'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/
+  accessed: '2026-10-03'
+  locator: Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+- id: SRC-DE-AB-CONFERENCE-2017
+  title: Konferenz spricht Probleme im Jubiläumsjahr offen an
+  institution: Atlantik-Brücke e.V.
+  date: '2017-10-18'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/konferenz-spricht-probleme-im-jubilaeumsjahr-offen-an/
+  accessed: '2026-10-03'
+  locator: Deutsch-Amerikanische Konferenz 16.–17. Mai 2017; Tina Hassel, Georg Mascolo und Matthias Naß
+- id: SRC-DE-AB-BUHROW-2017
+  title: Serving as the U.S. Ambassador to Germany has been the honor of my life
+  institution: Atlantik-Brücke e.V.
+  date: '2017-10-26'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/en/serving-as-the-u-s-ambassador-to-germany-has-been-the-honor-of-my-life/
+  accessed: '2026-10-03'
+  locator: Farewell dinner for Ambassador John B. Emerson on 18 January 2017; Tom Buhrow addressed in the event record
+- id: SRC-DE-AB-STEINGART-2016
+  title: Frankfurter Sommerfest & Gespräch zur US-Präsidentschaftswahl
+  institution: Atlantik-Brücke e.V.
+  date: '2016-09-29'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/frankfurter-sommerfest-gespraech-zur-us-praesidentschaftswahl/
+  accessed: '2026-10-03'
+  locator: Veranstaltung 26.09.2016; Moderation Gabor Steingart, Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt
+- id: SRC-DE-AB-AFHUEPPE-2016
+  title: Industrie 4.0 im Standortwettbewerb zwischen Deutschland, Europa und den USA
+  institution: Atlantik-Brücke e.V.
+  date: '2016-09-06'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/industrie-4-0-im-standortwettbewerb-zwischen-deutschland-europa-und-den-usa/
+  accessed: '2026-10-03'
+  locator: Veranstaltung 03.03.2016; Moderation Sven Afhüppe, Chefredakteur Handelsblatt
+- id: SRC-DE-HMG-AFHUEPPE-2014
+  title: Doppelspitze beim Handelsblatt – Sven Afhüppe wird zum Chefredakteur berufen
+  institution: Handelsblatt Media Group
+  date: '2014'
+  type: employer_press_release
+  primary: true
+  tier: A
+  url: https://handelsblattgroup.com/Presse/doppelspitze-beim-handelsblatt-sven-afhuppe-wird-zum-chefredakteur-berufen/
+  accessed: '2026-10-03'
+  locator: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
+- id: SRC-DE-AB-KORNELIUS-YL-2016
+  title: Deutsch-Amerikanische Young Leaders-Konferenz 2016
+  institution: Atlantik-Brücke e.V.
+  date: '2016-08-12'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/deutsch-amerikanische-young-leaders-konferenz-2016/
+  accessed: '2026-10-03'
+  locator: Stefan Kornelius, Ressortleiter Außenpolitik der Süddeutschen Zeitung, als Gastredner
+- id: SRC-DE-AB-FRANKENBERGER-2018
+  title: The Alliance in Question?
+  institution: Atlantik-Brücke e.V.
+  date: '2018-05-18'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/the-alliance-in-question/
+  accessed: '2026-10-03'
+  locator: Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner
+- id: SRC-DE-AB-DIEKMANN-2021
+  title: Deutschland und die digitale Transformation – Verlieren wir den Anschluss?
+  institution: Atlantik-Brücke e.V.
+  date: '2021-07-13'
+  type: organization_event_report
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/deutschland-und-die-digitale-transformation-verlieren-wir-den-anschluss/
+  accessed: '2026-10-03'
+  locator: Kai Diekmann als Mitglied des Vorstands der Atlantik-Brücke und Moderator
+- id: SRC-DE-AXELSPRINGER-DIEKMANN-2015
+  title: Personalien BILD-Gruppe – Kai Diekmann übernimmt als Herausgeber die Führung der Chefredakteure
+  institution: Axel Springer SE
+  date: '2015-11-05'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin
+  accessed: '2026-10-03'
+  locator: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
+- id: SRC-DE-AB-THEVESSEN-2024
+  title: Trump would try to finish the wall and deploy the US military
+  institution: Atlantik-Brücke e.V.
+  date: '2024-10-25'
+  type: organization_profile_article
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/
+  accessed: '2026-10-03'
+  locator: Autorenhinweis bezeichnet Elmar Theveßen als Leiter des ZDF-Studios Washington und Mitglied der Atlantik-Brücke
+- id: SRC-DE-AB-KLEBER-2026
+  title: Mitgliederversammlung und Hoffest 2026
+  institution: Atlantik-Brücke e.V.
+  date: '2026-06-23'
+  type: organization_event_page
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/events/mitgliederversammlung-und-hoffest-2026/
+  accessed: '2026-10-03'
+  locator: Claus Kleber moderiert Diskussion im Rahmen der Mitgliederversammlung 2026
+
+- id: SRC-US-ACG-YL-LIST-1973-2025
+  title: Young Leaders 1973-2025
+  institution: American Council on Germany
+  date: '2025'
+  type: program_participant_list
+  primary: true
+  tier: A
+  url: https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/
+  accessed: '2026-10-03'
+  locator: Matthias Naß 1984; Theo Hans Koll 1988; Paul-Bernhard Kallen 1991; Kai Georg Diekmann 1995; Jörg Schönenborn 2000; Julia Jäckel 2002; Elmar Georg Theveßen 2003
+  notes: Die Liste belegt die jeweilige Teilnahme am American-German Young Leaders-Jahrgang. Sie belegt keine Vereinsmitgliedschaft.
+
+- id: SRC-DE-AB-MESSAGE-2003-MIRROR
+  title: A Message to the People of the United States of America
+  institution: Atlantik-Brücke e.V.
+  date: '2003-02-16'
+  type: archival_facsimile_mirror
+  primary: false
+  tier: B
+  url: https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf
+  accessed: '2026-10-03'
+  locator: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mitgliedern und Freunden, die durch ihren Beitrag die Veröffentlichung ermöglichten
+  notes: Spiegelkopie eines historischen Atlantik-Brücke-Dokuments. Der Wortlaut trägt eine Nennung als Beitragende im Kreis von Mitgliedern und Freunden, aber weder für jede Person eine ausdrückliche Mitgliedschaft noch die Bezeichnung Unterzeichner.
+
+- id: SRC-DE-AB-JB-2006-2007
+  title: Jahresbericht der Atlantik-Brücke 2006/2007
+  institution: Atlantik-Brücke e.V.
+  date: '2007'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf
+  accessed: '2026-10-03'
+  locator: World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Redner; XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus Kleber
+  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen. Daher Tier B statt A.
+
+- id: SRC-DE-AB-JB-2008-2009
+  title: Jahresbericht der Atlantik-Brücke 2008/2009
+  institution: Atlantik-Brücke e.V.
+  date: '2009'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2008-2009.pdf
+  archive_url: https://www.hintergrund.de/wp-content/uploads/2015/09/jahresbericht-2008-2009.pdf
+  accessed: '2026-10-03'
+  locator: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
+  notes: Offizieller historischer Jahresbericht; Original-URL derzeit 404, zusätzlich ist eine Spiegelkopie auffindbar. Die Ebeling-Nennung wird nur als schwache Foto-/Namensspur gewertet.
+
+- id: SRC-DE-AB-JB-2009-2010
+  title: Jahresbericht der Atlantik-Brücke 2009/2010
+  institution: Atlantik-Brücke e.V.
+  date: '2010'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jb-0910-final.pdf
+  archive_url: https://doczz.net/doc/6177564/jahresbericht-der-atlantik-br%C3%BCcke-2009-2010----atlantik
+  accessed: '2026-10-03'
+  locator: Journalistenreise 19.-29.09.2009 mit Jörg Quoos und Theo Sommer; 79. Sitzung Arbeitskreis USA am 10.06.2010 mit Einführung von Klaus-Dieter Frankenberger
+  notes: Offizieller historischer Jahresbericht; der Inhalt der ursprünglichen Atlantik-Brücke-PDF ist im Webindex vollständig erschlossen, zusätzlich ist eine Transkription als Recovery-Kopie verfügbar.
+
+- id: SRC-DE-AB-JB-2011-2012
+  title: Jahresbericht der Atlantik-Brücke 2011/2012
+  institution: Atlantik-Brücke e.V.
+  date: '2012'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/120628_jahresbericht_2012.pdf
+  archive_url: https://doczz.net/doc/5874386/jahresbericht-2011-2012---atlantik
+  accessed: '2026-10-03'
+  locator: Gespräche mit Jörg Schönenborn am 06.03. und 19.04.2012; Working Lunch mit Admiral Stavridis und Ingo Zamperoni im Januar 2012
+  notes: Offizieller historischer Jahresbericht; Original-URL derzeit 404. Eine externe Transkription dient nur als Recovery-Locator.
+
+- id: SRC-DE-AB-JB-2013-2014
+  title: Jahresbericht der Atlantik-Brücke 2013/2014
+  institution: Atlantik-Brücke e.V.
+  date: '2014'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2013_2014_final.pdf
+  accessed: '2026-10-03'
+  locator: "Gastbeitrag „Unvollendet: Die amerikanische Europapolitik“ von Klaus-Dieter Frankenberger"
+  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen.
+
+- id: SRC-DE-AB-JB-2014-2015
+  title: Jahresbericht der Atlantik-Brücke 2014/2015
+  institution: Atlantik-Brücke e.V.
+  date: '2015'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf
+  accessed: '2026-10-03'
+  locator: Gemeinsames Atlantik-Brücke/Bertelsmann-Format mit Thomas Rabe am 26.06.2014; Frankfurt Luncheon mit Peter Frey am 10.04.2015
+  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen.
+
+- id: SRC-DE-AB-JB-2015-2016
+  title: Jahresbericht der Atlantik-Brücke 2015/2016
+  institution: Atlantik-Brücke e.V.
+  date: '2016'
+  type: organization_annual_report
+  primary: true
+  tier: B
+  url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf
+  accessed: '2026-10-03'
+  locator: Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
+  notes: Offizieller historischer Jahresbericht. Der direkte PDF-Abruf lieferte am 03.10.2026 404; der Inhalt war im Suchindex der ursprünglichen Atlantik-Brücke-URL erschlossen.
+
+- id: SRC-INT-BILDERBERG-2016-ARCHIVE
+  title: Participants 2016
+  institution: Bilderberg Meetings
+  date: '2016-06-09'
+  type: archived_participant_list
+  primary: true
+  tier: B
+  url: https://web.archive.org/web/20191214010753/https://www.bilderbergmeetings.org/meetings/meeting-2016/participants-2016-1.html
+  accessed: '2026-10-03'
+  locator: Ebeling, Thomas (DEU), CEO, ProSiebenSat.1
+  notes: Archivierte Fassung der damaligen offiziellen Bilderberg-Teilnehmerliste für das Treffen 9.-12.06.2016 in Dresden.
+
+- id: SRC-INT-BILDERBERG-FORMER-STEERING
+  title: Former Steering Committee Members
+  institution: Bilderberg Meetings
+  date: current
+  type: organization_roster
+  primary: true
+  tier: A
+  url: https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members
+  accessed: '2026-10-03'
+  locator: Sommer, Theo (DEU)
+  notes: Belegt eine frühere Steering-Committee-Rolle, nennt aber keinen exakten Amtszeitraum.
+
+- id: SRC-DE-MESSAGE-SOMMER-BILDERBERG-2007
+  title: Networking auf sehr hohem Niveau
+  author: Uwe Krüger
+  institution: message
+  date: '2007'
+  type: direct_interview
+  primary: true
+  tier: B
+  url: https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf
+  accessed: '2026-10-03'
+  locator: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+  notes: Primär für Sommers eigene Angaben; die Zeitschriftendatei wird mit Genehmigung des ursprünglichen Mediums von LobbyControl gespiegelt.
+
+- id: SRC-INT-BILDERBERG-2007-ARCHIVE
+  title: Official List of Participants for the 2007 Bilderberg Meeting
+  institution: Bilderberg Meetings
+  date: '2007'
+  type: archival_primary_document
+  primary: false
+  tier: B
+  url: https://publicintelligence.net/official-list-of-participants-for-the-2007-bilderberg-meeting/
+  accessed: '2026-10-03'
+  locator: Offizielle Teilnehmerliste Istanbul, 31.05.-03.06.2007; Hubert Burda und Mathias Döpfner
+  notes: Archivkopie einer von der Bilderberg-Geschäftsstelle versandten offiziellen Teilnehmerliste; Drittanbieter-Hosting wird transparent als Archivstatus behandelt.
+
+- id: SRC-INT-BILDERBERG-2006-ARCHIVE
+  title: List of Participants for the 2006 Bilderberg Meeting
+  institution: Bilderberg Meetings
+  date: '2006'
+  type: archival_primary_document
+  primary: false
+  tier: B
+  url: https://publicintelligence.net/list-of-participants-for-the-2006-bilderberg-meeting/
+  accessed: '2026-10-03'
+  locator: Offizielle Teilnehmerliste Ottawa, 08.-11.06.2006; Josef Joffe
+  notes: Archivkopie der historischen Teilnehmerliste; Drittanbieter-Hosting wird als Archivstatus behandelt.
+
+- id: SRC-INT-BILDERBERG-2012-ARCHIVE
+  title: 2012 Bilderberg Meeting Participant List
+  institution: Bilderberg Meetings
+  date: '2012'
+  type: archival_participant_list
+  primary: false
+  tier: B
+  url: https://publicintelligence.net/2012-bilderberg-meeting-participant-list/
+  accessed: '2026-10-03'
+  locator: Matthias Nass, Chief International Correspondent, Die Zeit
+  notes: Archivierte Teilnehmerliste des Treffens 2012; genutzt ausschließlich für die dokumentierte Teilnahme.
+
+- id: SRC-INT-BILDERBERG-1990-ARCHIVE
+  title: 1990 Bilderberg Participant List
+  institution: Bilderberg Meetings
+  date: '1990'
+  type: archival_participant_list
+  primary: false
+  tier: B
+  url: https://publicintelligence.net/1990-bilderberg-participant-list/
+  accessed: '2026-10-03'
+  locator: Theo Sommer, Editor-in-Chief, Die Zeit
+  notes: Archivierte historische Teilnehmerliste; genutzt ausschließlich für die dokumentierte Teilnahme.
+
+- id: SRC-INT-TRILATERAL-2017-MIRROR
+  title: The Trilateral Commission — January 2017
+  institution: The Trilateral Commission
+  date: '2017-01'
+  type: archival_member_list_mirror
+  primary: false
+  tier: B
+  url: https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf
+  accessed: '2026-10-03'
+  locator: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
+  notes: Spiegelkopie einer datierten Mitgliederliste der Trilateral Commission; der Mirror-Status wird nicht als offizielle aktuelle Webverfügbarkeit ausgegeben.
