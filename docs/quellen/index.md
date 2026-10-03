@@ -267,6 +267,8 @@ Atlantik-Brücke e.V. · 2007 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-der-atlantik-bruecke-2006-2007.pdf)
 
+[Archiv/Recovery öffnen](https://web.archive.org/web/20140521164159id_/http://www.atlantik-bruecke.org/service/dokumente/jahresbericht-der-atlantik-bruecke-2006-2007.pdf)
+
 Fundstelle: PDF S. 23, World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Gastredner; PDF S. 43, XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus-Detlev Kleber als Redner
 
 <a id="src-de-ab-jb-2008-2009"></a>
@@ -277,6 +279,8 @@ Fundstelle: PDF S. 23, World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich 
 Atlantik-Brücke e.V. · 2009 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2008-2009.pdf)
+
+[Archiv/Recovery öffnen](https://www.hintergrund.de/wp-content/uploads/2015/09/jahresbericht-2008-2009.pdf)
 
 Fundstelle: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
 
@@ -289,6 +293,8 @@ Atlantik-Brücke e.V. · 2010 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jb-0910-final.pdf)
 
+[Archiv/Recovery öffnen](https://doczz.net/doc/6177564/jahresbericht-der-atlantik-br%C3%BCcke-2009-2010----atlantik)
+
 Fundstelle: Journalistenreise 19.-29.09.2009 mit Jörg Quoos und Theo Sommer; 79. Sitzung Arbeitskreis USA am 10.06.2010 mit Einführung von Klaus-Dieter Frankenberger
 
 <a id="src-de-ab-jb-2011-2012"></a>
@@ -299,6 +305,8 @@ Fundstelle: Journalistenreise 19.-29.09.2009 mit Jörg Quoos und Theo Sommer; 79
 Atlantik-Brücke e.V. · 2012 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/120628_jahresbericht_2012.pdf)
+
+[Archiv/Recovery öffnen](https://doczz.net/doc/5874386/jahresbericht-2011-2012---atlantik)
 
 Fundstelle: Gespräche mit Jörg Schönenborn am 06.03. und 19.04.2012; Working Lunch mit Admiral Stavridis und Ingo Zamperoni im Januar 2012
 
@@ -322,6 +330,8 @@ Atlantik-Brücke e.V. · 2015 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-webversion_neu.pdf)
 
+[Archiv/Recovery öffnen](https://web.archive.org/web/20160307112223id_/http://www.atlantik-bruecke.org/w/files/dokumente/jahresbericht-webversion_neu.pdf)
+
 Fundstelle: PDF S. 14, gemeinsames Atlantik-Brücke/Bertelsmann-Format am 26.06.2014 mit Thomas Rabe; PDF S. 47 und 54, Frankfurt Luncheon am 10.04.2015 mit Dr. Peter Frey, Chefredakteur ZDF
 
 <a id="src-de-ab-jb-2015-2016"></a>
@@ -332,6 +342,8 @@ Fundstelle: PDF S. 14, gemeinsames Atlantik-Brücke/Bertelsmann-Format am 26.06.
 Atlantik-Brücke e.V. · 2016 · Stufe **B** · Primärquelle
 
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf)
+
+[Archiv/Recovery öffnen](https://web.archive.org/web/20200312215823id_/https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht_15_16-1.pdf)
 
 Fundstelle: PDF S. 32 (Jahresbericht S. 60-61), Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
 
