@@ -108,7 +108,20 @@ sources:
   tier: A
   url: https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/
   accessed: '2026-10-03'
-  locator: Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+  locator: Bericht vom 15.07.2016; Diskussion zwei Tage nach Ende des Warschauer NATO-Gipfels; Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+  notes: Das Quelldatum ist das Publikationsdatum. Das Ereignisdatum 11.07.2016 ergibt sich aus der direkten Angabe „zwei Tage nach Ende des Gipfels“ zusammen mit SRC-INT-NATO-WARSAW-SUMMIT-2016 (Gipfel 08.–09.07.2016).
+
+- id: SRC-INT-NATO-WARSAW-SUMMIT-2016
+  title: NATO Secretary General announces dates for 2016 Warsaw Summit
+  institution: NATO
+  date: '2015-05-22'
+  type: official_announcement
+  primary: true
+  tier: A
+  url: https://www.nato.int/en/news-and-events/events/transcripts/2015/05/22/nato-secretary-general-announces-dates-for-2016-warsaw-summit
+  accessed: '2026-10-03'
+  locator: Ankündigung des NATO-Generalsekretärs; Warsaw Summit am 8.–9. Juli 2016
+  notes: Offizielle NATO-Ankündigung; trägt die Gipfeldaten, die zusammen mit SRC-DE-AB-NASS-NATO-2016 das Datum der dort als zwei Tage nach Gipfelende beschriebenen Diskussion auf 11.07.2016 bindet.
 - id: SRC-DE-AB-CONFERENCE-2017
   title: Konferenz spricht Probleme im Jubiläumsjahr offen an
   institution: Atlantik-Brücke e.V.
@@ -178,7 +191,20 @@ sources:
   tier: A
   url: https://www.atlantik-bruecke.org/the-alliance-in-question/
   accessed: '2026-10-03'
-  locator: Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner
+  locator: Bericht vom 18.05.2018; Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner der Deutsch-Amerikanischen Konferenz
+  notes: Das Quelldatum ist das Publikationsdatum. Das Veranstaltungsintervall 06.–07.05.2018 wird durch den offiziellen ACG-Jahresbericht SRC-US-ACG-ANNUAL-2018 getragen.
+
+- id: SRC-US-ACG-ANNUAL-2018
+  title: 2018 Annual Report
+  institution: American Council on Germany
+  date: '2018'
+  type: organization_annual_report
+  primary: true
+  tier: A
+  url: https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf
+  accessed: '2026-10-03'
+  locator: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018
+  notes: Offizieller Jahresbericht des American Council on Germany; trägt das Datum derselben gemeinsam mit der Atlantik-Brücke veranstalteten Konferenz.
 - id: SRC-DE-AB-DIEKMANN-2021
   title: Deutschland und die digitale Transformation – Verlieren wir den Anschluss?
   institution: Atlantik-Brücke e.V.
