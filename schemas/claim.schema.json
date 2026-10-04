@@ -1,19 +1,73 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Machtverflechtungen claim record",
+  "title": "Machtverflechtungen claim record v2",
   "type": "object",
-  "required": ["id", "text", "classification", "evidence_level", "sources"],
+  "$defs": {
+    "evidence_record": {
+      "type": "object",
+      "required": ["source", "directness", "note"],
+      "properties": {
+        "source": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+        "directness": {"enum": ["direct", "indirect", "context"]},
+        "note": {"type": "string", "minLength": 10},
+        "locator": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "text",
+    "classification",
+    "evidence_level",
+    "sources",
+    "evidence",
+    "counterevidence",
+    "alternatives",
+    "missing_evidence",
+    "scope",
+    "falsification"
+  ],
   "properties": {
     "id": {"type": "string", "pattern": "^CLM-[A-Z0-9-]+$"},
     "text": {"type": "string", "minLength": 10},
-    "classification": {"enum": ["fact", "counterevidence", "hypothesis", "interpretation", "open_question"]},
-    "evidence_level": {"enum": ["established", "strong", "plausible", "speculative", "contradicted"]},
+    "classification": {
+      "enum": ["fact", "counterevidence", "hypothesis", "interpretation", "open_question"]
+    },
+    "evidence_level": {
+      "enum": ["established", "strong", "plausible", "speculative", "contradicted"]
+    },
     "sources": {
       "type": "array",
-      "minItems": 1,
       "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
       "uniqueItems": true
-    }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence_record"}
+    },
+    "counterevidence": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence_record"}
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 10}
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 10}
+    },
+    "scope": {
+      "type": "object",
+      "required": ["supports", "does_not_support"],
+      "properties": {
+        "supports": {"type": "string", "minLength": 10},
+        "does_not_support": {"type": "string", "minLength": 10}
+      },
+      "additionalProperties": false
+    },
+    "falsification": {"type": "string", "minLength": 10}
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

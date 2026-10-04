@@ -6,8 +6,11 @@ countries: [IT]
 period:
   start: "1969-12-12"
   end: "2005"
-status: introductory
-evidence_level: strong
+status: developing
+research_question: "Was tragen die registrierten parlamentarischen Materialien zu Piazza Fontana und zur Einordnung in die strategia della tensione, und welche konkreten Kausalbehauptungen bleiben separat zu belegen?"
+event_claims:
+  - CLM-IT-PF-000
+  - CLM-IT-PF-001
 tags: [italien, rechtsterrorismus, strategie-der-spannung, depistaggio]
 actors: []
 mechanisms: [strategy-of-tension, investigative-misdirection]
@@ -18,11 +21,48 @@ claims:
     classification: fact
     evidence_level: established
     sources: [SRC-IT-SENATO-PIAZZA-2006]
+    evidence:
+      - source: SRC-IT-SENATO-PIAZZA-2006
+        directness: direct
+        note: "Das Senatsprotokoll zum Jahrestag benennt den Anschlag auf der Piazza Fontana und den 12. Dezember 1969 als historischen Bezugspunkt."
+    counterevidence: []
+    alternatives: []
+    missing_evidence: []
+    scope:
+      supports: "Der Claim trägt Ereignisart, Datum und Ort des Anschlags als historischen Ereigniskern."
+      does_not_support: "Er trägt keine Aussage über Täterschaft, Motiv, Nachrichtendienstbeziehungen oder staatliche Beteiligung."
+    falsification: "Belastbare Primär- oder Gerichtsquellen, die Datum, Ort oder das Stattfinden des Anschlags widerlegen, würden den Claim materiell treffen."
   - id: CLM-IT-PF-001
     text: "Piazza Fontana ist in der parlamentarischen italienischen Aufarbeitung ein zentraler Bezugspunkt der als 'strategia della tensione' bezeichneten Phase."
     classification: fact
     evidence_level: established
     sources: [SRC-IT-SENATO-STRAGI-2001, SRC-IT-SENATO-PIAZZA-2006]
+    evidence:
+      - source: SRC-IT-SENATO-STRAGI-2001
+        directness: context
+        locator: "Doc. XXIII n. 64, volume I, tomo II"
+        note: "Die veröffentlichten Materialien der parlamentarischen Terrorismuskommission behandeln die Anschlagsphase und ihre politischen sowie institutionellen Zusammenhänge."
+      - source: SRC-IT-SENATO-PIAZZA-2006
+        directness: direct
+        note: "Das Senatsprotokoll zum Jahrestag bezeichnet Piazza Fontana ausdrücklich als Beginn der strategia della tensione."
+    counterevidence: []
+    alternatives:
+      - "Der Sammelbegriff strategia della tensione kann unterschiedliche Täter-, Unterstützungs-, Vertuschungs- und Verwertungsebenen zusammenfassen, ohne einen einheitlichen Befehlskanal zu beweisen."
+    missing_evidence:
+      - "Konkrete Claims zu Täterschaft, Nachrichtendienstbeziehungen, Depistaggio und politischer Zielsetzung benötigen jeweils eigene gerichtliche oder primärquellennahe Belegketten."
+    scope:
+      supports: "Der Claim trägt die parlamentarische Einordnung von Piazza Fontana als zentralen Bezugspunkt der strategia della tensione."
+      does_not_support: "Er trägt nicht die Behauptung, ein bestimmter staatlicher oder ausländischer Akteur habe jeden Anschlag dieser Phase angeordnet."
+    falsification: "Eine belastbare parlamentarische oder historische Quellenlage, die diese Einordnung als randständig oder sachlich unzutreffend ausweist, würde den Claim schwächen."
+what_follows:
+  - text: "Piazza Fontana kann quellengebunden als zentraler parlamentarischer Bezugspunkt für die Untersuchung der strategia della tensione behandelt werden."
+    claim_ids: [CLM-IT-PF-001]
+what_does_not_follow:
+  - text: "Aus dem Oberbegriff strategia della tensione folgt keine automatische Aussage über konkrete Täterschaft, staatliche Steuerung oder einen einheitlichen ausländischen Befehlskanal."
+    claim_ids: [CLM-IT-PF-001]
+open_questions:
+  - "Welche gerichtlichen Entscheidungen und Primärakten tragen getrennt die Claims zu konkreter Täterschaft, Depistaggio, Nachrichtendienstkontakten und politischer Zielsetzung?"
+case_links: []
 ---
 
 # Piazza Fontana

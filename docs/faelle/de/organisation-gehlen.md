@@ -6,8 +6,11 @@ countries: [DE, US]
 period:
   start: "1946"
   end: "1956"
-status: documented
-evidence_level: established
+status: reviewed
+research_question: "Welche institutionellen und personellen Kontinuitäten zwischen Organisation Gehlen und frühem BND sind durch die registrierten Quellen belegt?"
+event_claims:
+  - CLM-DE-GEHLEN-001
+  - CLM-DE-GEHLEN-002
 tags: [deutschland, usa, geheimdienst, bnd, ns-kontinuität, kalter-krieg]
 actors: [ORG-DE-ORGANISATION-GEHLEN, ORG-DE-BND, ORG-US-CIA, PER-DE-REINHARD-GEHLEN]
 mechanisms: [institutional-continuity, intelligence-network]
@@ -18,11 +21,49 @@ claims:
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-BPB-BND-2026]
+    evidence:
+      - source: SRC-DE-BPB-BND-2026
+        directness: direct
+        note: "Die historische Überblicksdarstellung beschreibt Entstehung, amerikanische Einbindung und institutionellen Übergang zum BND."
+    counterevidence: []
+    alternatives:
+      - "Die institutionelle Überführung kann Kontinuität erklären, ohne für sich genommen eine Kontinuität sämtlicher Ziele, Methoden oder Operationen zu beweisen."
+    missing_evidence:
+      - "Zusätzliche zeitgenössische US-amerikanische und deutsche Organisationsakten würden die einzelnen Übergangsschritte primärquellennäher dokumentieren."
+    scope:
+      supports: "Der Claim trägt die institutionelle Entwicklung von Organisation Gehlen zum BND im genannten Zeitraum."
+      does_not_support: "Er trägt keine automatische Kausalkette zu späteren extremistischen, terroristischen oder politischen Vorgängen."
+    falsification: "Belastbare institutionelle Primärakten, die Entstehungsrahmen oder Überführung grundlegend anders dokumentieren, würden den Claim schwächen."
   - id: CLM-DE-GEHLEN-002
     text: "In Organisation Gehlen und frühem BND arbeiteten zahlreiche schwer NS-belastete Personen."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BPB-BND-2026, SRC-DE-BND-GESCHICHTE-2011]
+    evidence:
+      - source: SRC-DE-BND-GESCHICHTE-2011
+        directness: direct
+        note: "Die BND-Sonderausgabe dokumentiert konkrete Biografien von Mitarbeitern mit früheren Tätigkeiten in NS-Organisationen und Sicherheitsapparaten."
+      - source: SRC-DE-BPB-BND-2026
+        directness: context
+        note: "Die Überblicksdarstellung ordnet die personelle NS-Kontinuität in die Gründungs- und Frühgeschichte des BND ein."
+    counterevidence: []
+    alternatives:
+      - "Personelle Kontinuität kann aus Rekrutierungs- und Fachkräfteentscheidungen der Nachkriegszeit entstehen, ohne eine einheitliche Fortsetzung nationalsozialistischer Organisationsziele zu belegen."
+    missing_evidence:
+      - "Für Aussagen über konkrete Wirkungen einzelner belasteter Mitarbeiter wären fallbezogene Personal-, Entscheidungs- und Operationsakten erforderlich."
+    scope:
+      supports: "Der Claim trägt personelle NS-Kontinuitäten in Organisation Gehlen und frühem BND."
+      does_not_support: "Er trägt nicht die Behauptung, der BND als Ganzes habe nationalsozialistische Ziele oder sämtliche früheren Praktiken fortgeführt."
+    falsification: "Eine belastbare Neubewertung der Personalakten, die die dokumentierten Biografien oder ihre Beschäftigung widerlegt, würde den Claim materiell treffen."
+what_follows:
+  - text: "Institutionelle und personelle Kontinuitäten sind als eigenständige historische Befunde prüfbar."
+    claim_ids: [CLM-DE-GEHLEN-001, CLM-DE-GEHLEN-002]
+what_does_not_follow:
+  - text: "Aus diesen Kontinuitäten folgt ohne zusätzliche Evidenz keine direkte operative Kausalkette zu späteren extremistischen oder terroristischen Organisationen."
+    claim_ids: [CLM-DE-GEHLEN-001, CLM-DE-GEHLEN-002]
+open_questions:
+  - "Welche konkreten späteren Entscheidungen oder Operationen lassen sich über Primärakten kausal auf einzelne personelle oder institutionelle Kontinuitäten zurückführen?"
+case_links: []
 ---
 
 # Organisation Gehlen und Entstehung des BND
