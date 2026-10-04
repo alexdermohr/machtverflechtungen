@@ -1223,6 +1223,27 @@ class ReviewRegressionTests(unittest.TestCase):
             with self.subTest(markup=markup, expected="cross-origin-or-empty"):
                 self.assertFalse(validate.has_author_executable_content(markup))
 
+    def test_object_same_origin_documents_are_executable_content(self) -> None:
+        risky = (
+            '<object data="../../assets/hide.html"></object>',
+            '<object data="/machtverflechtungen/assets/hide.html"></object>',
+            '<object data="//alexdermohr.github.io/machtverflechtungen/assets/hide.html"></object>',
+            '<object data="https://alexdermohr.github.io/machtverflechtungen/assets/hide.html"></object>',
+        )
+        safe = (
+            '<object data="https://example.test/embed.html"></object>',
+            '<object data="//example.test/embed.html"></object>',
+            '<object data="about:blank"></object>',
+        )
+
+        for markup in risky:
+            with self.subTest(markup=markup, expected="same-origin-risk"):
+                self.assertTrue(validate.has_author_executable_content(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+        for markup in safe:
+            with self.subTest(markup=markup, expected="cross-origin-or-empty"):
+                self.assertFalse(validate.has_author_executable_content(markup))
+
     def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
         safe_first = (
             '<a href="https://example.test" href="javascript:window.x=1">A</a>',

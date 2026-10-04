@@ -478,7 +478,7 @@ def configured_site_origin() -> tuple[str, str, int] | None:
     return (scheme, hostname, port)
 
 
-def iframe_src_may_execute_parent(value: str) -> bool:
+def embedded_document_may_execute_parent(value: str) -> bool:
     normalized = normalized_executable_url(value)
     if not normalized:
         return False
@@ -1004,10 +1004,9 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
             first_value = first_attribute_values.get(name)
             if (
                 namespace == "html"
-                and tag == "iframe"
-                and name == "src"
+                and (tag, name) in {("iframe", "src"), ("object", "data")}
                 and isinstance(first_value, str)
-                and iframe_src_may_execute_parent(first_value)
+                and embedded_document_may_execute_parent(first_value)
             ):
                 self.found = True
                 return
