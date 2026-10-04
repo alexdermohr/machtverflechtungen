@@ -1257,6 +1257,35 @@ class ReviewRegressionTests(unittest.TestCase):
 
         self.assertFalse(validate.has_author_stylesheet('<p color="red">VISIBLE</p>'))
 
+    def test_embed_same_origin_documents_are_executable_content(self) -> None:
+        risky = (
+            '<embed type="text/html" src="../../assets/hide.html">',
+            '<embed type="text/html" src="/machtverflechtungen/assets/hide.html">',
+            '<embed type="text/html" src="https://alexdermohr.github.io/machtverflechtungen/assets/hide.html">',
+        )
+        safe = (
+            '<embed type="text/html" src="https://example.test/embed.html">',
+            '<embed type="text/html" src="about:blank">',
+        )
+        for markup in risky:
+            with self.subTest(markup=markup, expected="same-origin-risk"):
+                self.assertTrue(validate.has_author_executable_content(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+        for markup in safe:
+            with self.subTest(markup=markup, expected="cross-origin-or-empty"):
+                self.assertFalse(validate.has_author_executable_content(markup))
+
+    def test_mathml_maction_subtree_is_ineligible_visibility_evidence(self) -> None:
+        markup = (
+            '<math><maction><mtext>decoy</mtext>'
+            '<mtext>CLM-X canonical wording</mtext></maction></math>'
+        )
+        self.assertEqual("", validate.visible_markdown_text(markup))
+        self.assertEqual(
+            "VISIBLE",
+            validate.visible_markdown_text('<math><mtext>VISIBLE</mtext></math>'),
+        )
+
     def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
         safe_first = (
             '<a href="https://example.test" href="javascript:window.x=1">A</a>',

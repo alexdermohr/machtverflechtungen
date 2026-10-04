@@ -211,7 +211,7 @@ FOREIGN_HTML_BREAKOUT_START_TAGS = frozenset(
     }
 )
 FOREIGN_HTML_BREAKOUT_FONT_ATTRS = frozenset({"color", "face", "size"})
-MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"annotation", "annotation-xml", "mphantom"})
+MATHML_INELIGIBLE_SUBTREE_TAGS = frozenset({"annotation", "annotation-xml", "maction", "mphantom"})
 SVG_METADATA_TAGS = frozenset({"desc", "metadata", "title"})
 SVG_NON_RENDERING_CONTAINER_TAGS = frozenset(
     {
@@ -1012,7 +1012,7 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
             first_value = first_attribute_values.get(name)
             if (
                 namespace == "html"
-                and (tag, name) in {("iframe", "src"), ("object", "data")}
+                and (tag, name) in {("embed", "src"), ("iframe", "src"), ("object", "data")}
                 and isinstance(first_value, str)
                 and embedded_document_may_execute_parent(first_value)
             ):
