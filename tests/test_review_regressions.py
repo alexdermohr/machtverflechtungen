@@ -1572,6 +1572,16 @@ class ReviewRegressionTests(unittest.TestCase):
             validate.has_bidi_visual_control("<p>&amp;#x202E; literal</p>")
         )
 
+    def test_nonrendered_bidi_controls_do_not_fail_closed(self) -> None:
+        samples = (
+            '<!-- &#x202E; archival metadata --><p>VISIBLE</p>',
+            '<template>&#x202E; inert &#x202C;</template><p>VISIBLE</p>',
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                self.assertFalse(validate.has_bidi_visual_control(markup))
+                self.assertFalse(validate.has_author_visibility_mutator(markup))
+
     def test_current_select_semantics_do_not_promote_shadow_template(self) -> None:
         prefixes = (
             "<select><td>",
