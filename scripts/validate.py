@@ -4563,6 +4563,27 @@ def main() -> int:
     node_ids = entity_ids | case_ids
     for relation in relations:
         relation_id = relation.get("id", "<unknown-relation>")
+        period = relation.get("period")
+        if isinstance(period, dict):
+            start_raw = period.get("start")
+            end_raw = period.get("end")
+            start_bounds = period_bounds(start_raw)
+            end_bounds = period_bounds(end_raw) if end_raw is not None else None
+            if isinstance(start_raw, str) and start_bounds is None:
+                errors.append(
+                    f"{relation_id}: period.start must use a valid YYYY or YYYY-MM-DD value"
+                )
+            if isinstance(end_raw, str) and end_bounds is None:
+                errors.append(
+                    f"{relation_id}: period.end must use a valid YYYY or YYYY-MM-DD value"
+                )
+            if (
+                start_bounds is not None
+                and end_bounds is not None
+                and start_bounds[0] > end_bounds[1]
+            ):
+                errors.append(f"{relation_id}: period.end precedes period.start")
+
         from_id = relation.get("from")
         to_id = relation.get("to")
         if isinstance(from_id, str) and from_id not in node_ids:

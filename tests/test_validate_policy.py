@@ -2713,6 +2713,82 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_relation_period_rejects_invalid_calendar_date(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        relation_id = payload["relations"][0]["id"]
+        payload["relations"][0]["period"] = {
+            "start": "2024-02-31",
+            "end": "2024",
+        }
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"{relation_id}: period.start must use a valid YYYY or YYYY-MM-DD value",
+            output,
+        )
+
+    def test_relation_period_rejects_invalid_end_calendar_date(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        relation_id = payload["relations"][0]["id"]
+        payload["relations"][0]["period"] = {
+            "start": "2024",
+            "end": "2024-02-31",
+        }
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            f"{relation_id}: period.end must use a valid YYYY or YYYY-MM-DD value",
+            output,
+        )
+
+    def test_relation_period_allows_ambiguous_same_year_mixed_precision(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        payload["relations"][0]["period"] = {
+            "start": "2000-12-31",
+            "end": "2000",
+        }
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(0, code, output)
+
+    def test_relation_period_rejects_end_before_start(self) -> None:
+        path = self.root / "data" / "relations.yml"
+        payload = yaml.safe_load(path.read_text(encoding="utf-8"))
+        relation_id = payload["relations"][0]["id"]
+        payload["relations"][0]["period"] = {
+            "start": "2024",
+            "end": "2023",
+        }
+        path.write_text(
+            yaml.safe_dump(payload, sort_keys=False, allow_unicode=True, width=120),
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(f"{relation_id}: period.end precedes period.start", output)
+
     def test_case_period_rejects_end_year_before_start_year(self) -> None:
         self._mutate_case(period={"start": "2000", "end": "1900"})
         code, output = self._run_validator()
