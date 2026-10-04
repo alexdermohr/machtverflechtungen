@@ -10,3 +10,4 @@ _Automatisch aus denselben Fall-Metadaten erzeugt._
 | 1978-07-25 | 1986 | [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) | DE | 2 belegt |
 | 1984 | 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |
 | 1990 | 2001 | [Thüringer Heimatschutz / Tino Brandt](../faelle/de/thueringer-heimatschutz-tino-brandt.md) | DE | 3 belegt |
+| 2019-06-12 | 2027-01-01 | [Deutsche Medien: Machtkonzentration und externe Einflusskanäle](../faelle/de/medien-eigentum-governance-baseline.md) | DE, US, CA, BE, NL, LU | 6 belegt · 2 spekulativ/offen |

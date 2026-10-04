@@ -258,3 +258,118 @@ entities:
     type: person
     name: "Theo Koll"
     countries: [DE]
+
+  - id: ORG-US-KKR
+    type: alternative_asset_manager
+    name: "KKR"
+    countries: [US]
+
+  - id: ORG-CA-CPP-INVESTMENTS
+    type: pension_investment_manager
+    name: "CPP Investments"
+    countries: [CA]
+
+  - id: ORG-NL-TRAVIATA-BV
+    type: investment_holding
+    name: "Traviata B.V."
+    countries: [NL]
+
+  - id: ORG-LU-TRAVIATA-I-SARL
+    type: investment_holding
+    name: "Traviata I S.à r.l."
+    countries: [LU]
+
+  - id: ORG-LU-TRAVIATA-II-SARL
+    type: investment_holding
+    name: "Traviata II S.à r.l."
+    countries: [LU]
+
+  - id: ORG-BE-GBL
+    type: investment_holding
+    name: "Groupe Bruxelles Lambert (GBL)"
+    countries: [BE]
+
+  - id: PER-DE-JOHANNES-HUTH
+    type: person
+    name: "Johannes P. Huth"
+    countries: [DE]
+
+  - id: ORG-DE-BERTELSMANN
+    type: media_group
+    name: "Bertelsmann SE & Co. KGaA"
+    countries: [DE]
+
+  - id: ORG-DE-BERTELSMANN-MANAGEMENT-SE
+    type: management_company
+    name: "Bertelsmann Management SE"
+    countries: [DE]
+
+  - id: ORG-DE-BERTELSMANN-CAPITAL-HOLDING
+    type: investment_holding
+    name: "Bertelsmann Capital Holding GmbH"
+    countries: [DE]
+
+  - id: ORG-DE-BERTELSMANN-STIFTUNG
+    type: foundation
+    name: "Bertelsmann Stiftung"
+    countries: [DE]
+
+  - id: ORG-DE-REINHARD-MOHN-STIFTUNG
+    type: foundation
+    name: "Reinhard Mohn Stiftung"
+    countries: [DE]
+
+  - id: ORG-DE-BVG-FAMILIENSTIFTUNG
+    type: foundation
+    name: "BVG-Familienstiftung"
+    countries: [DE]
+
+  - id: ORG-DE-BVG-STIFTUNG
+    type: foundation
+    name: "BVG-Stiftung"
+    countries: [DE]
+
+  - id: ORG-DE-BERTELSMANN-VERWALTUNGSGESELLSCHAFT
+    type: voting_control_vehicle
+    name: "Bertelsmann Verwaltungsgesellschaft (BVG)"
+    countries: [DE]
+
+  - id: ORG-DE-MOHN-FAMILY
+    type: family_shareholder_group
+    name: "Familie Mohn"
+    countries: [DE]
+
+  - id: ORG-LU-RTL-GROUP
+    type: media_group
+    name: "RTL Group S.A."
+    countries: [LU, DE]
+
+  - id: ORG-DE-RTL-DEUTSCHLAND
+    type: media_company
+    name: "RTL Deutschland"
+    countries: [DE]
+
+  - id: ORG-DE-GRUNER-JAHR-DEUTSCHLAND
+    type: media_company
+    name: "Gruner + Jahr Deutschland GmbH"
+    countries: [DE]
+
+  - id: ORG-DE-HOLTZBRINCK-PUBLISHING-GROUP
+    type: media_group
+    name: "Georg von Holtzbrinck GmbH & Co. KG"
+    countries: [DE]
+
+  - id: ORG-DE-ZEITVERLAG
+    type: media_company
+    name: "Zeitverlag Gerd Bucerius GmbH & Co. KG"
+    countries: [DE]
+
+  - id: ORG-DE-DVH-MEDIEN
+    type: media_holding
+    name: "DvH Medien GmbH"
+    countries: [DE]
+
+  - id: ORG-DE-HANDELSBLATT-MEDIA-GROUP
+    type: media_group
+    name: "Handelsblatt Media Group GmbH & Co. KG"
+    countries: [DE]

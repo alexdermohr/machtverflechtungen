@@ -117,6 +117,62 @@ flowchart LR
     N_PER_DE_MATTHIAS_NASS -->|"Teilnehmer der Bilderberg-Konferenz 2012"| N_ORG_INT_BILDERBERG_MEETINGS
     N_ORG_INT_TRILATERAL_COMMISSION["The Trilateral Commission"]
     N_PER_DE_KLAUS_DIETER_FRANKENBERGER -->|"in der Mitgliederliste der Trilateral Commission geführt"| N_ORG_INT_TRILATERAL_COMMISSION
+    N_PER_DE_FRIEDE_SPRINGER -->|"hält mit Mathias Döpfner zusammen 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_MATHIAS_DOEPFNER -->|"hält mit Friede Springer zusammen 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_MATHIAS_DOEPFNER -->|"Chief Executive Officer"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_FRIEDE_SPRINGER -->|"stellvertretende Vorsitzende des Aufsichtsrats"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_JOHANNES_HUTH["Johannes P. Huth"]
+    N_PER_DE_JOHANNES_HUTH -->|"Mitglied des Aufsichtsrats"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_BE_GBL["Groupe Bruxelles Lambert (GBL)"]
+    N_PER_DE_JOHANNES_HUTH -->|"Administrateur-Délégué"| N_ORG_BE_GBL
+    N_ORG_US_KKR["KKR"]
+    N_PER_DE_JOHANNES_HUTH -->|"Senior Advisory Partner"| N_ORG_US_KKR
+    N_ORG_LU_TRAVIATA_II_SARL["Traviata II S.à r.l."]
+    N_ORG_LU_TRAVIATA_II_SARL -->|"Holdinggesellschaft als Vertragspartei der Investorenvereinbarung"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_NL_TRAVIATA_BV["Traviata B.V."]
+    N_ORG_NL_TRAVIATA_BV -->|"rund 48,5 Prozent der Anteile am Stichtag"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_US_KKR -->|"Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden"| N_ORG_NL_TRAVIATA_BV
+    N_ORG_CA_CPP_INVESTMENTS["CPP Investments"]
+    N_ORG_LU_TRAVIATA_I_SARL["Traviata I S.à r.l."]
+    N_ORG_CA_CPP_INVESTMENTS -->|"rund 25 Prozent Co-Investment an Traviata I S.à r.l."| N_ORG_LU_TRAVIATA_I_SARL
+    N_ORG_LU_TRAVIATA_I_SARL -->|"Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_US_KKR -->|"Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten"| N_ORG_LU_TRAVIATA_II_SARL
+    N_PER_DE_FRIEDE_SPRINGER -->|"hält mit Mathias Döpfner rund 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_MATHIAS_DOEPFNER -->|"hält mit Friede Springer rund 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_DE_BERTELSMANN_STIFTUNG["Bertelsmann Stiftung"]
+    N_ORG_DE_BERTELSMANN["Bertelsmann SE & Co. KGaA"]
+    N_ORG_DE_BERTELSMANN_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_REINHARD_MOHN_STIFTUNG["Reinhard Mohn Stiftung"]
+    N_ORG_DE_REINHARD_MOHN_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_BVG_FAMILIENSTIFTUNG["BVG-Familienstiftung"]
+    N_ORG_DE_BVG_FAMILIENSTIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_BVG_STIFTUNG["BVG-Stiftung"]
+    N_ORG_DE_BVG_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_MOHN_FAMILY["Familie Mohn"]
+    N_ORG_DE_MOHN_FAMILY -->|"hält mittelbar 19,1 Prozent der Kapitalanteile"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT["Bertelsmann Verwaltungsgesellschaft (BVG)"]
+    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT -->|"kontrolliert sämtliche Stimmrechte"| N_ORG_DE_BERTELSMANN
+    N_ORG_DE_BERTELSMANN_MANAGEMENT_SE["Bertelsmann Management SE"]
+    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT -->|"kontrolliert sämtliche Stimmrechte"| N_ORG_DE_BERTELSMANN_MANAGEMENT_SE
+    N_ORG_DE_BERTELSMANN_CAPITAL_HOLDING["Bertelsmann Capital Holding GmbH"]
+    N_ORG_LU_RTL_GROUP["RTL Group S.A."]
+    N_ORG_DE_BERTELSMANN_CAPITAL_HOLDING -->|"hielt 75,0 Prozent der Anteile"| N_ORG_LU_RTL_GROUP
+    N_ORG_DE_BERTELSMANN -->|"im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen"| N_ORG_LU_RTL_GROUP
+    N_ORG_DE_RTL_DEUTSCHLAND["RTL Deutschland"]
+    N_ORG_LU_RTL_GROUP -->|"im Konzernschema als 100-Prozent-Einheit und größte Geschäftseinheit der RTL Group ausgewiesen"| N_ORG_DE_RTL_DEUTSCHLAND
+    N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND["Gruner + Jahr Deutschland GmbH"]
+    N_ORG_DE_RTL_DEUTSCHLAND -->|"Gruner + Jahr gehört vollständig zu RTL Deutschland"| N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND
+    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP["Georg von Holtzbrinck GmbH & Co. KG"]
+    N_ORG_DE_ZEITVERLAG["Zeitverlag Gerd Bucerius GmbH & Co. KG"]
+    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP -->|"hält 50 Prozent"| N_ORG_DE_ZEITVERLAG
+    N_ORG_DE_DVH_MEDIEN["DvH Medien GmbH"]
+    N_ORG_DE_DVH_MEDIEN -->|"hält 50 Prozent"| N_ORG_DE_ZEITVERLAG
+    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP -->|"als Alleineigentümerin nach angekündigter Anteilsübertragung vorgesehen"| N_ORG_DE_ZEITVERLAG
+    N_ORG_DE_DVH_MEDIEN -->|"soll den 50-Prozent-Anteil an Holtzbrinck übertragen"| N_ORG_DE_ZEITVERLAG
+    N_ORG_DE_HANDELSBLATT_MEDIA_GROUP["Handelsblatt Media Group GmbH & Co. KG"]
+    N_ORG_DE_DVH_MEDIEN -->|"hält 100 Prozent"| N_ORG_DE_HANDELSBLATT_MEDIA_GROUP
+    N_ORG_DE_HANDELSBLATT_MEDIA_GROUP -->|"Konzern- und Verlagszuordnung des Handelsblatt"| N_ORG_DE_HANDELSBLATT
+    N_ORG_US_KKR -->|"Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor"| N_ORG_DE_AXEL_SPRINGER
 ```
 
 ## Relationen
@@ -186,3 +242,36 @@ flowchart LR
 | REL-DE-TMN-054 | Josef Joffe | Teilnehmer der Bilderberg-Konferenz 2006 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2006-ARCHIVE |
 | REL-DE-TMN-055 | Matthias Naß | Teilnehmer der Bilderberg-Konferenz 2012 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2012-ARCHIVE |
 | REL-DE-TMN-056 | Klaus-Dieter Frankenberger | in der Mitgliederliste der Trilateral Commission geführt | The Trilateral Commission | strong | SRC-INT-TRILATERAL-2017-MIRROR |
+| REL-DE-MOG-001 | Friede Springer | hält mit Mathias Döpfner zusammen 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-STRUCTURE-2025 |
+| REL-DE-MOG-002 | Mathias Döpfner | hält mit Friede Springer zusammen 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-STRUCTURE-2025 |
+| REL-DE-MOG-005 | Mathias Döpfner | Chief Executive Officer | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026 |
+| REL-DE-MOG-009 | Friede Springer | stellvertretende Vorsitzende des Aufsichtsrats | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026 |
+| REL-DE-MOG-010 | Johannes P. Huth | Mitglied des Aufsichtsrats | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026, SRC-US-KKR-HUTH-2026 |
+| REL-DE-MOG-011 | Johannes P. Huth | Administrateur-Délégué | Groupe Bruxelles Lambert (GBL) | established | SRC-BE-GBL-HUTH-2026 |
+| REL-DE-MOG-012 | Johannes P. Huth | Senior Advisory Partner | KKR | established | SRC-US-KKR-HUTH-2026 |
+| REL-DE-MOG-013 | Traviata II S.à r.l. | Holdinggesellschaft als Vertragspartei der Investorenvereinbarung | Axel Springer SE | established | SRC-DE-AS-KKR-ADHOC-2019 |
+| REL-DE-MOG-014 | Traviata B.V. | rund 48,5 Prozent der Anteile am Stichtag | Axel Springer SE | established | SRC-DE-AS-SQUEEZEOUT-2021 |
+| REL-DE-MOG-015 | KKR | Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden | Traviata B.V. | established | SRC-DE-AS-SQUEEZEOUT-2021 |
+| REL-DE-MOG-016 | CPP Investments | rund 25 Prozent Co-Investment an Traviata I S.à r.l. | Traviata I S.à r.l. | established | SRC-DE-AS-CPP-BOARD-2021 |
+| REL-DE-MOG-017 | Traviata I S.à r.l. | Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt | Axel Springer SE | established | SRC-DE-AS-CPP-BOARD-2021 |
+| REL-DE-MOG-018 | KKR | Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten | Traviata II S.à r.l. | established | SRC-DE-AS-KKR-ADHOC-2019 |
+| REL-DE-MOG-019 | Friede Springer | hält mit Mathias Döpfner rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
+| REL-DE-MOG-020 | Mathias Döpfner | hält mit Friede Springer rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
+| REL-DE-MOG-022 | Bertelsmann Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-023 | Reinhard Mohn Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-024 | BVG-Familienstiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-025 | BVG-Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-026 | Familie Mohn | hält mittelbar 19,1 Prozent der Kapitalanteile | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-027 | Bertelsmann Verwaltungsgesellschaft (BVG) | kontrolliert sämtliche Stimmrechte | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-031 | Bertelsmann Verwaltungsgesellschaft (BVG) | kontrolliert sämtliche Stimmrechte | Bertelsmann Management SE | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
+| REL-DE-MOG-033 | Bertelsmann Capital Holding GmbH | hielt 75,0 Prozent der Anteile | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
+| REL-DE-MOG-034 | Bertelsmann SE & Co. KGaA | im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
+| REL-DE-MOG-035 | RTL Group S.A. | im Konzernschema als 100-Prozent-Einheit und größte Geschäftseinheit der RTL Group ausgewiesen | RTL Deutschland | established | SRC-LU-RTL-AR-2025 |
+| REL-DE-MOG-036 | RTL Deutschland | Gruner + Jahr gehört vollständig zu RTL Deutschland | Gruner + Jahr Deutschland GmbH | established | SRC-DE-RTL-GJ-2026 |
+| REL-DE-MOG-050 | Georg von Holtzbrinck GmbH & Co. KG | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |
+| REL-DE-MOG-051 | DvH Medien GmbH | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |
+| REL-DE-MOG-053 | Georg von Holtzbrinck GmbH & Co. KG | als Alleineigentümerin nach angekündigter Anteilsübertragung vorgesehen | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-TRANSFER-2026 |
+| REL-DE-MOG-054 | DvH Medien GmbH | soll den 50-Prozent-Anteil an Holtzbrinck übertragen | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-TRANSFER-2026 |
+| REL-DE-MOG-055 | DvH Medien GmbH | hält 100 Prozent | Handelsblatt Media Group GmbH & Co. KG | established | SRC-DE-HMG-OWNERS-2026 |
+| REL-DE-MOG-056 | Handelsblatt Media Group GmbH & Co. KG | Konzern- und Verlagszuordnung des Handelsblatt | Handelsblatt | established | SRC-DE-HMG-OWNERS-2026 |
+| REL-DE-MOG-077 | KKR | Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor | Axel Springer SE | established | SRC-DE-AS-KKR-AGREEMENT-2019 |
