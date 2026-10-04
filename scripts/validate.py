@@ -926,9 +926,17 @@ class AuthorStylesheetParser(AuthorMarkupScanner):
         attrs: list[tuple[str, str | None]],
         namespace: str,
     ) -> None:
-        if any(name.casefold() == "style" for name, _value in attrs):
+        attribute_names = {name.casefold() for name, _value in attrs}
+        if "style" in attribute_names:
             self.found = True
             return
+        if namespace == "html":
+            if tag == "font" and "color" in attribute_names:
+                self.found = True
+                return
+            if tag in {"body", "table", "tr", "td", "th"} and "bgcolor" in attribute_names:
+                self.found = True
+                return
         if tag == "style":
             if namespace in {"html", "svg"}:
                 self.found = True

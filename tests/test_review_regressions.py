@@ -1244,6 +1244,19 @@ class ReviewRegressionTests(unittest.TestCase):
             with self.subTest(markup=markup, expected="cross-origin-or-empty"):
                 self.assertFalse(validate.has_author_executable_content(markup))
 
+    def test_legacy_color_attributes_are_visibility_mutators(self) -> None:
+        risky = (
+            '<td bgcolor="#fff"><font color="#fff">CLM-X canonical wording</font></td>',
+            '<table bgcolor="white"><tr><td>VISIBLE</td></tr></table>',
+            '<font color="red">VISIBLE</font>',
+        )
+        for markup in risky:
+            with self.subTest(markup=markup):
+                self.assertTrue(validate.has_author_stylesheet(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+
+        self.assertFalse(validate.has_author_stylesheet('<p color="red">VISIBLE</p>'))
+
     def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
         safe_first = (
             '<a href="https://example.test" href="javascript:window.x=1">A</a>',
