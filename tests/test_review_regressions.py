@@ -1600,6 +1600,26 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
                 self.assertIn("CLM-X canonical wording", text.text())
 
+    def test_orphan_col_attributes_are_ignored_by_author_scanners(self) -> None:
+        samples = (
+            '<article><col style="display:none"><p>VISIBLE</p></article>',
+            '<article><col style="display:none"/><p>VISIBLE</p></article>',
+            '<article><col onclick="x()"><p>VISIBLE</p></article>',
+            '<article><col onclick="x()"/><p>VISIBLE</p></article>',
+        )
+        for markup in samples:
+            with self.subTest(markup=markup):
+                self.assertFalse(validate.has_author_stylesheet(markup))
+                self.assertFalse(validate.has_author_executable_content(markup))
+                self.assertFalse(validate.has_author_visibility_mutator(markup))
+
+        valid_table_col = (
+            '<table><colgroup><col style="display:none">'
+            '</colgroup><tbody><tr><td>VISIBLE</td></tr></tbody></table>'
+        )
+        self.assertTrue(validate.has_author_stylesheet(valid_table_col))
+        self.assertTrue(validate.has_author_visibility_mutator(valid_table_col))
+
     def test_mermaid_fence_comments_are_not_visible_evidence(self) -> None:
         fence = chr(96) * 3
         body = (

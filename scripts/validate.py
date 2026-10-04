@@ -765,6 +765,11 @@ class AuthorMarkupScanner(HTMLParser):
             self.handle_starttag(tag, attrs)
             return
         namespace = namespace_for_start_tag(self._elements, tag)
+        if (
+            namespace == "html"
+            and html_orphan_in_body_start_tag_ignored(self._elements, tag)
+        ):
+            return
         if namespace == "html" and tag not in HTML_VOID_TAGS:
             self.handle_starttag(tag, attrs)
             return
@@ -1496,6 +1501,7 @@ def active_html_table_scope_index(
 HTML_ORPHAN_IN_BODY_IGNORED_START_TAGS = frozenset(
     {
         "caption",
+        "col",
         "colgroup",
         "frame",
         "tbody",
