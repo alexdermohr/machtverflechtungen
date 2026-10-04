@@ -4062,6 +4062,24 @@ def established_supports(
     return len(high_quality) >= 2 and len(institutions) >= 2
 
 
+def strong_claim_has_carrying_support(
+    value: Any,
+    source_by_id: dict[str, dict[str, Any]],
+) -> bool:
+    for record in mapping_list(value):
+        source_id = record.get("source")
+        directness = record.get("directness")
+        if (
+            isinstance(source_id, str)
+            and source_id in source_by_id
+            and isinstance(directness, str)
+            and directness in {"direct", "indirect"}
+            and source_by_id[source_id].get("tier") in {"A", "B", "C", "D"}
+        ):
+            return True
+    return False
+
+
 def established_claim_supports(
     value: Any,
     source_by_id: dict[str, dict[str, Any]],
@@ -4453,19 +4471,16 @@ def main() -> int:
                     )
                 )
             )
-            support_directness = {
-                record.get("directness")
-                for record in mapping_list(claim.get("evidence"))
-                if isinstance(record.get("directness"), str)
-            }
             if (
                 evidence_level == "strong"
                 and claim_sources
-                and not support_directness.intersection({"direct", "indirect"})
+                and not strong_claim_has_carrying_support(
+                    claim.get("evidence"), source_by_id
+                )
             ):
                 errors.append(
                     f"{label}: claim {claim_id} with strong evidence requires "
-                    "at least one direct or indirect support record"
+                    "at least one direct or indirect support record from a Tier-A-D source"
                 )
 
             if (

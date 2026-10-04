@@ -2506,6 +2506,48 @@ class EvidencePolicyValidationTests(unittest.TestCase):
             output,
         )
 
+    def test_strong_claim_rejects_tier_e_carrying_support_with_non_lead_context(self) -> None:
+        lead = self._add_tier_e_source()
+        context_source = "SRC-DE-NI-MJ-CELLER-2015"
+
+        path = self._case_path()
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        end = next(i for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
+        frontmatter = yaml.safe_load("\n".join(lines[1:end]))
+        case_sources = list(frontmatter.get("sources", []))
+        case_sources.append(lead)
+        self._mutate_case(sources=case_sources)
+        self._mutate_first_claim(
+            evidence_level="strong",
+            sources=[lead, context_source],
+            evidence=[
+                {
+                    "source": lead,
+                    "directness": "direct",
+                    "note": "Der Tier-E-Hinweis ist im Test der einzige tragende Beleg.",
+                },
+                {
+                    "source": context_source,
+                    "directness": "context",
+                    "note": "Die Tier-A-Quelle liefert im Test nur Kontext.",
+                },
+            ],
+        )
+        path.write_text(
+            path.read_text(encoding="utf-8")
+            + "\n- SRC-TEST-LEAD [Lead](https://example.invalid/lead)\n",
+            encoding="utf-8",
+        )
+
+        code, output = self._run_validator()
+
+        self.assertEqual(1, code)
+        self.assertIn(
+            "with strong evidence requires at least one direct or indirect support record from a Tier-A-D source",
+            output,
+        )
+
     def test_schema_invalid_directness_is_reported_without_crashing(self) -> None:
         for invalid_directness in ([], {}):
             with self.subTest(directness=invalid_directness):
