@@ -2053,20 +2053,6 @@ RENDERED_ELEMENT_BOUNDARY_TAGS = frozenset(
 )
 
 
-def legacy_dimension_is_zero(value: str) -> bool:
-    """Return whether browser legacy-dimension parsing yields exactly zero."""
-
-    text = value.strip()
-    match = re.match(r"([0-9]+)(?:\.([0-9]+))?", text)
-    if match is None:
-        return False
-    integer = match.group(1)
-    fraction = match.group(2)
-    return set(integer) <= {"0"} and (
-        fraction is None or set(fraction) <= {"0"}
-    )
-
-
 class VisibleListLinkParser(HTMLParser):
     CDATA_CONTENT_ELEMENTS = tuple(
         dict.fromkeys(
@@ -2300,20 +2286,16 @@ class VisibleListLinkParser(HTMLParser):
         # override.
         return (
             (include_intrinsic_tag and tag in VisibleListLinkParser.ALWAYS_HIDDEN_TAGS)
-            # <bdo> deliberately overrides visual character ordering. The
-            # evidence contract compares visible sequences, so logical source
-            # order cannot safely stand in for rendered order here.
-            or tag == "bdo"
+            # Directional markup can make visual order diverge from logical
+            # source order, which cannot safely satisfy evidence matching.
+            or tag in {"bdi", "bdo"}
+            or lowered.get("dir") in {"rtl", "auto"}
             or "hidden" in lowered
             or "style" in lowered
             or "popover" in lowered
             or (
                 tag == "marquee"
-                and any(
-                    isinstance(original.get(name), str)
-                    and legacy_dimension_is_zero(original[name])
-                    for name in ("width", "height")
-                )
+                and any(name in lowered for name in ("width", "height"))
             )
             or (tag == "details" and "name" in lowered)
             or (

@@ -985,12 +985,11 @@ class ReviewRegressionTests(unittest.TestCase):
         self.assertTrue(validate.has_author_stylesheet(markup))
         self.assertTrue(validate.has_author_visibility_mutator(markup))
 
-    def test_marquee_legacy_zero_dimensions_match_browser_visibility(self) -> None:
-        hidden_widths = ("00", "000", "0px", "0PX", "0%", "00%", "0foo", "0.0", " 0 ")
-        visible_widths = ("0.5", "+0", "-0", "01", "1", "1px", "1%")
+    def test_marquee_dimensions_are_fail_closed_for_evidence(self) -> None:
+        widths = ("00", "000", "0px", "0PX", "0%", "00%", "0foo", "0.0", " 0 ", "0.5", "+0", "-0", "01", "1", "1px", "1%")
 
-        for width in hidden_widths:
-            with self.subTest(width=width, expected="hidden"):
+        for width in widths:
+            with self.subTest(width=width):
                 links = validate.VisibleListLinkParser()
                 links.feed(
                     f'<marquee width="{width}"><ul><li>SRC-A '
@@ -998,17 +997,6 @@ class ReviewRegressionTests(unittest.TestCase):
                 )
                 links.close()
                 self.assertEqual([], links.visible_items)
-
-        for width in visible_widths:
-            with self.subTest(width=width, expected="visible"):
-                links = validate.VisibleListLinkParser()
-                links.feed(
-                    f'<marquee width="{width}"><ul><li>SRC-A '
-                    '<a href="u">A</a></li></ul></marquee>'
-                )
-                links.close()
-                self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
-
 
     def test_author_scanner_recovers_nested_nobr_before_shadow_host_selection(self) -> None:
         markup = (
@@ -1285,6 +1273,24 @@ class ReviewRegressionTests(unittest.TestCase):
             "VISIBLE",
             validate.visible_markdown_text('<math><mtext>VISIBLE</mtext></math>'),
         )
+
+    def test_directional_isolates_are_ineligible_visibility_evidence(self) -> None:
+        risky = (
+            '<p dir="rtl"><bdi>CLM-X</bdi> <bdi>canonical</bdi> <bdi>wording</bdi></p>',
+            '<p><bdi>CLM-X canonical wording</bdi></p>',
+        )
+        for markup in risky:
+            with self.subTest(markup=markup):
+                self.assertEqual("", validate.visible_markdown_text(markup))
+        self.assertEqual("VISIBLE", validate.visible_markdown_text("<p>VISIBLE</p>"))
+        self.assertEqual("VISIBLE", validate.visible_markdown_text('<p dir="ltr">VISIBLE</p>'))
+
+    def test_marquee_dimensions_are_ineligible_visibility_evidence(self) -> None:
+        for attribute in ('width="1"', 'height="1"'):
+            markup = f"<marquee {attribute}>CLM-X canonical wording</marquee>"
+            with self.subTest(markup=markup):
+                self.assertEqual("", validate.visible_markdown_text(markup))
+        self.assertEqual("VISIBLE", validate.visible_markdown_text("<marquee>VISIBLE</marquee>"))
 
     def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
         safe_first = (
