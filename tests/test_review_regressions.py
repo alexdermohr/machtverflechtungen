@@ -1202,6 +1202,27 @@ class ReviewRegressionTests(unittest.TestCase):
         )
 
 
+    def test_iframe_same_origin_documents_are_executable_content(self) -> None:
+        risky = (
+            '<iframe src="../../assets/hide.html"></iframe>',
+            '<iframe src="/machtverflechtungen/assets/hide.html"></iframe>',
+            '<iframe src="//alexdermohr.github.io/machtverflechtungen/assets/hide.html"></iframe>',
+            '<iframe src="https://alexdermohr.github.io/machtverflechtungen/assets/hide.html"></iframe>',
+        )
+        safe = (
+            '<iframe src="https://example.test/embed.html"></iframe>',
+            '<iframe src="//example.test/embed.html"></iframe>',
+            '<iframe src="about:blank"></iframe>',
+        )
+
+        for markup in risky:
+            with self.subTest(markup=markup, expected="same-origin-risk"):
+                self.assertTrue(validate.has_author_executable_content(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+        for markup in safe:
+            with self.subTest(markup=markup, expected="cross-origin-or-empty"):
+                self.assertFalse(validate.has_author_executable_content(markup))
+
     def test_executable_url_detection_uses_first_duplicate_attribute(self) -> None:
         safe_first = (
             '<a href="https://example.test" href="javascript:window.x=1">A</a>',

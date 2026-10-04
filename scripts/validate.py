@@ -454,6 +454,60 @@ def normalized_executable_url(value: str) -> str:
     return normalized[start:].casefold()
 
 
+def configured_site_origin() -> tuple[str, str, int] | None:
+    config_path = Path(__file__).resolve().parents[1] / "mkdocs.yml"
+    try:
+        config = yaml.load(
+            config_path.read_text(encoding="utf-8"), Loader=yaml.BaseLoader
+        )
+    except (OSError, UnicodeError, yaml.YAMLError):
+        return None
+    if not isinstance(config, dict) or not isinstance(config.get("site_url"), str):
+        return None
+    try:
+        parsed = urlsplit(config["site_url"])
+        port = parsed.port
+    except ValueError:
+        return None
+    scheme = parsed.scheme.casefold()
+    hostname = parsed.hostname.casefold() if isinstance(parsed.hostname, str) else ""
+    if scheme not in {"http", "https"} or not hostname:
+        return None
+    if port is None:
+        port = 443 if scheme == "https" else 80
+    return (scheme, hostname, port)
+
+
+def iframe_src_may_execute_parent(value: str) -> bool:
+    normalized = normalized_executable_url(value)
+    if not normalized:
+        return False
+    if normalized.startswith("javascript:"):
+        return True
+    if normalized == "about:blank":
+        return False
+    try:
+        parsed = urlsplit(normalized)
+        port = parsed.port
+    except ValueError:
+        return True
+    if not parsed.scheme and not parsed.netloc:
+        return True
+    raw_scheme = parsed.scheme.casefold()
+    if raw_scheme and raw_scheme not in {"http", "https"}:
+        return False
+    site_origin = configured_site_origin()
+    if site_origin is None:
+        return True
+    scheme = raw_scheme or site_origin[0]
+    hostname = parsed.hostname.casefold() if isinstance(parsed.hostname, str) else ""
+    if not hostname:
+        return True
+    if port is None:
+        port = 443 if scheme == "https" else 80
+    return (scheme, hostname, port) == site_origin
+
+
 def potential_custom_element_name(tag: str) -> bool:
     if (
         not tag
@@ -948,6 +1002,15 @@ class AuthorExecutableContentParser(AuthorMarkupScanner):
                 self.found = True
                 return
             first_value = first_attribute_values.get(name)
+            if (
+                namespace == "html"
+                and tag == "iframe"
+                and name == "src"
+                and isinstance(first_value, str)
+                and iframe_src_may_execute_parent(first_value)
+            ):
+                self.found = True
+                return
             if (
                 executable_url_attribute_supported(
                     tag, name, namespace, attrs
