@@ -53,3 +53,208 @@ entities:
     type: program
     name: "Atlantik-Brücke Young Leaders Program"
     countries: [DE, US]
+
+  - id: ORG-INT-TRILATERAL-COMMISSION
+    type: policy_network
+    name: "The Trilateral Commission"
+    countries: [US, DE]
+
+  - id: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_network
+    name: "Bilderberg Meetings"
+    countries: [US, DE]
+
+  - id: ORG-DE-AXEL-SPRINGER
+    type: media_company
+    name: "Axel Springer SE"
+    countries: [DE]
+
+  - id: ORG-DE-DIE-ZEIT
+    type: media_outlet
+    name: "DIE ZEIT"
+    countries: [DE]
+
+  - id: ORG-DE-ARD
+    type: public_broadcaster
+    name: "ARD"
+    countries: [DE]
+
+  - id: ORG-DE-WDR
+    type: public_broadcaster
+    name: "Westdeutscher Rundfunk"
+    countries: [DE]
+
+  - id: ORG-DE-ZDF
+    type: public_broadcaster
+    name: "ZDF"
+    countries: [DE]
+
+  - id: ORG-DE-HANDELSBLATT
+    type: media_outlet
+    name: "Handelsblatt"
+    countries: [DE]
+
+  - id: ORG-DE-SUEDDEUTSCHE-ZEITUNG
+    type: media_outlet
+    name: "Süddeutsche Zeitung"
+    countries: [DE]
+
+  - id: ORG-DE-FAZ
+    type: media_outlet
+    name: "Frankfurter Allgemeine Zeitung"
+    countries: [DE]
+
+  - id: ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ
+    type: media_network
+    name: "Rechercheverbund NDR/WDR/Süddeutsche Zeitung"
+    countries: [DE]
+
+  - id: PER-DE-MATHIAS-DOEPFNER
+    type: person
+    name: "Mathias Döpfner"
+    countries: [DE]
+
+  - id: PER-DE-MATTHIAS-NASS
+    type: person
+    name: "Matthias Naß"
+    countries: [DE]
+
+  - id: PER-DE-TINA-HASSEL
+    type: person
+    name: "Tina Hassel"
+    countries: [DE]
+
+  - id: PER-DE-GEORG-MASCOLO
+    type: person
+    name: "Georg Mascolo"
+    countries: [DE]
+
+  - id: PER-DE-TOM-BUHROW
+    type: person
+    name: "Tom Buhrow"
+    countries: [DE]
+
+  - id: PER-DE-GABOR-STEINGART
+    type: person
+    name: "Gabor Steingart"
+    countries: [DE]
+
+  - id: PER-DE-SVEN-AFHUEPPE
+    type: person
+    name: "Sven Afhüppe"
+    countries: [DE]
+
+  - id: PER-DE-STEFAN-KORNELIUS
+    type: person
+    name: "Stefan Kornelius"
+    countries: [DE]
+
+  - id: PER-DE-KLAUS-DIETER-FRANKENBERGER
+    type: person
+    name: "Klaus-Dieter Frankenberger"
+    countries: [DE]
+
+  - id: PER-DE-KAI-DIEKMANN
+    type: person
+    name: "Kai Diekmann"
+    countries: [DE]
+
+  - id: PER-DE-ELMAR-THEVESSEN
+    type: person
+    name: "Elmar Theveßen"
+    countries: [DE]
+
+  - id: PER-DE-CLAUS-KLEBER
+    type: person
+    name: "Claus Kleber"
+    countries: [DE]
+
+  - id: PER-DE-THOMAS-EBELING
+    type: person
+    name: "Thomas Ebeling"
+    countries: [DE]
+
+  - id: PER-DE-HUBERT-BURDA
+    type: person
+    name: "Hubert Burda"
+    countries: [DE]
+
+  - id: PER-DE-PAUL-BERNHARD-KALLEN
+    type: person
+    name: "Paul-Bernhard Kallen"
+    countries: [DE]
+
+  - id: PER-DE-FRIEDE-SPRINGER
+    type: person
+    name: "Friede Springer"
+    countries: [DE]
+
+  - id: PER-DE-THOMAS-RABE
+    type: person
+    name: "Thomas Rabe"
+    countries: [DE]
+
+  - id: PER-DE-LIZ-MOHN
+    type: person
+    name: "Liz Mohn"
+    countries: [DE]
+
+  - id: PER-DE-JULIA-JAEKEL
+    type: person
+    name: "Julia Jäkel"
+    countries: [DE]
+
+  - id: PER-DE-THEO-SOMMER
+    type: person
+    name: "Theo Sommer"
+    countries: [DE]
+
+  - id: PER-DE-JOSEF-JOFFE
+    type: person
+    name: "Josef Joffe"
+    countries: [DE]
+
+  - id: PER-DE-JOERG-SCHOENENBORN
+    type: person
+    name: "Jörg Schönenborn"
+    countries: [DE]
+
+  - id: PER-DE-ULRICH-WILHELM
+    type: person
+    name: "Ulrich Wilhelm"
+    countries: [DE]
+
+  - id: PER-DE-PETER-FREY
+    type: person
+    name: "Peter Frey"
+    countries: [DE]
+
+  - id: PER-DE-DIETER-VON-HOLTZBRINCK
+    type: person
+    name: "Dieter von Holtzbrinck"
+    countries: [DE]
+
+  - id: PER-DE-STEFAN-VON-HOLTZBRINCK
+    type: person
+    name: "Stefan von Holtzbrinck"
+    countries: [DE]
+
+  - id: PER-DE-JOERG-QUOOS
+    type: person
+    name: "Jörg Quoos"
+    countries: [DE]
+
+  - id: PER-DE-INGO-ZAMPERONI
+    type: person
+    name: "Ingo Zamperoni"
+    countries: [DE]
+
+  - id: PER-DE-THOMAS-ROTH
+    type: person
+    name: "Thomas Roth"
+    countries: [DE]
+
+  - id: PER-DE-THEO-KOLL
+    type: person
+    name: "Theo Koll"
+    countries: [DE]

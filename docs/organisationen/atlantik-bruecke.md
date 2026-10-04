@@ -28,6 +28,10 @@ Nach eigener Darstellung vernetzt das Young Leaders Program deutsche und amerika
 
 Die ersten beiden Fragen dokumentieren Netzwerkstruktur. Erst die dritte kann gegebenenfalls Aussagen über konkrete politische Einflussnahme tragen.
 
+## Laufender Evidenz-Audit
+
+Der Fall [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) trennt historische Primärbelege, spätere Verbindungen und offene Kanten. Veranstaltungsteilnahme, Mitgliedschaft, Gremienrolle und Einfluss werden ausdrücklich nicht gleichgesetzt.
+
 ## Quelle
 
 - [Young Leaders Program](https://www.atlantik-bruecke.org/nachwuchsfoerderung/) — Atlantik-Brücke e.V., laufend — `SRC-DE-ATLANTIKBRUECKE-YL`
