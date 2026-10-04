@@ -6,6 +6,7 @@ import re
 import sys
 import unicodedata
 from datetime import date
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -53,7 +54,11 @@ BIDI_VISUAL_CONTROL_CODEPOINTS = frozenset(
 
 
 def has_bidi_visual_control(value: str) -> bool:
-    return any(ord(character) in BIDI_VISUAL_CONTROL_CODEPOINTS for character in value)
+    decoded = unescape(value)
+    return any(
+        ord(character) in BIDI_VISUAL_CONTROL_CODEPOINTS
+        for character in decoded
+    )
 
 
 def load_yaml(path: Path) -> Any:

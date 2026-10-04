@@ -1549,6 +1549,57 @@ class ReviewRegressionTests(unittest.TestCase):
                 self.assertNotIn("canonical wording", parser.text())
 
 
+    def test_html_entity_bidi_controls_are_ineligible_visibility_evidence(self) -> None:
+        samples = (
+            "&#x202E;CLM-X canonical wording&#x202C;",
+            "&#8238;CLM-X canonical wording&#8236;",
+            "&rlm;CLM-X canonical wording",
+        )
+        for body in samples:
+            markup = f"<p>{body}</p><p>VISIBLE-TEXT</p>"
+            with self.subTest(body=body):
+                self.assertTrue(validate.has_bidi_visual_control(markup))
+                self.assertTrue(validate.has_author_visibility_mutator(markup))
+                parser = validate.VisibleTextParser(
+                    validate.has_author_visibility_mutator(markup)
+                )
+                parser.feed(markup)
+                parser.close()
+                self.assertNotIn("CLM-X", parser.text())
+                self.assertNotIn("canonical wording", parser.text())
+
+        self.assertFalse(
+            validate.has_bidi_visual_control("<p>&amp;#x202E; literal</p>")
+        )
+
+    def test_current_select_semantics_do_not_promote_shadow_template(self) -> None:
+        prefixes = (
+            "<select><td>",
+            "<select><textarea></textarea>",
+        )
+        for prefix in prefixes:
+            markup = (
+                "<article>"
+                + prefix
+                + '<template shadowrootmode="open">'
+                '<slot name="unused"></slot></template></select>'
+                '<ul><li>SRC-A <a href="u">A</a></li></ul>'
+                '<p>CLM-X canonical wording</p></article>'
+            )
+            with self.subTest(prefix=prefix):
+                self.assertFalse(validate.has_author_declarative_shadow_root(markup))
+                self.assertFalse(validate.has_author_visibility_mutator(markup))
+
+                links = validate.VisibleListLinkParser()
+                links.feed(markup)
+                links.close()
+                text = validate.VisibleTextParser()
+                text.feed(markup)
+                text.close()
+
+                self.assertEqual([("SRC-A A", [("u", "A")])], links.visible_items)
+                self.assertIn("CLM-X canonical wording", text.text())
+
     def test_mermaid_fence_comments_are_not_visible_evidence(self) -> None:
         fence = chr(96) * 3
         body = (
