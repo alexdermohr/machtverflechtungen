@@ -173,6 +173,29 @@ flowchart LR
     N_ORG_DE_DVH_MEDIEN -->|"hält 100 Prozent"| N_ORG_DE_HANDELSBLATT_MEDIA_GROUP
     N_ORG_DE_HANDELSBLATT_MEDIA_GROUP -->|"Konzern- und Verlagszuordnung des Handelsblatt"| N_ORG_DE_HANDELSBLATT
     N_ORG_US_KKR -->|"Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_ERICH_SCHMIDT_EENBOOM["Erich Schmidt-Eenboom"]
+    N_ORG_DE_BND -->|"wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
+    N_ORG_DE_BND -->|"führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
+    N_ORG_DE_BND -->|"überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
+    N_PER_DE_VOLKER_FOERTSCH["Volker Foertsch"]
+    N_PER_DE_VOLKER_FOERTSCH -->|"leitete die Abteilung Sicherheit und unterhielt operative Journalistenkontakte"| N_ORG_DE_BND
+    N_ORG_DE_BND -->|"Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können"| N_PER_DE_GEORG_MASCOLO
+    N_ORG_US_CIA["Central Intelligence Agency"]
+    N_ORG_INT_CONGRESS_CULTURAL_FREEDOM["Congress for Cultural Freedom"]
+    N_ORG_US_CIA -->|"CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation"| N_ORG_INT_CONGRESS_CULTURAL_FREEDOM
+    N_ORG_US_FORD_FOUNDATION["Ford Foundation"]
+    N_ORG_DE_DER_MONAT["Der Monat"]
+    N_ORG_US_FORD_FOUNDATION -->|"bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status"| N_ORG_DE_DER_MONAT
+    N_ORG_INT_CONGRESS_CULTURAL_FREEDOM -->|"nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"| N_ORG_DE_DER_MONAT
+    N_PER_US_JOHN_MCCLOY["John J. McCloy"]
+    N_PER_US_JOHN_MCCLOY -->|"arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung"| N_ORG_DE_DER_MONAT
+    N_ORG_US_CHASE_MANHATTAN["Chase Manhattan Bank"]
+    N_PER_US_JOHN_MCCLOY -->|"Chairman 1953 bis 1960"| N_ORG_US_CHASE_MANHATTAN
+    N_ORG_US_COUNCIL_FOREIGN_RELATIONS["Council on Foreign Relations"]
+    N_PER_US_JOHN_MCCLOY -->|"Chairman 1953 bis 1970"| N_ORG_US_COUNCIL_FOREIGN_RELATIONS
+    N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER["Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken"]
+    N_ORG_DE_BND -->|"Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
+    N_PER_US_JOHN_MCCLOY -->|"1954 als Mitglied des Finance Committee ausgewiesen"| N_ORG_US_FORD_FOUNDATION
 ```
 
 ## Relationen
@@ -275,3 +298,16 @@ flowchart LR
 | REL-DE-MOG-055 | DvH Medien GmbH | hält 100 Prozent | Handelsblatt Media Group GmbH & Co. KG | established | SRC-DE-HMG-OWNERS-2026 |
 | REL-DE-MOG-056 | Handelsblatt Media Group GmbH & Co. KG | Konzern- und Verlagszuordnung des Handelsblatt | Handelsblatt | established | SRC-DE-HMG-OWNERS-2026 |
 | REL-DE-MOG-077 | KKR | Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor | Axel Springer SE | established | SRC-DE-AS-KKR-AGREEMENT-2019 |
+| REL-DE-MNI-001 | Bundesnachrichtendienst | wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-002 | Bundesnachrichtendienst | führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-003 | Bundesnachrichtendienst | überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-004 | Volker Foertsch | leitete die Abteilung Sicherheit und unterhielt operative Journalistenkontakte | Bundesnachrichtendienst | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-005 | Bundesnachrichtendienst | Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können | Georg Mascolo | strong | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-006 | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | strong | SRC-US-CIA-CCF-HISTORY-1995 |
+| REL-DE-MNI-007 | Ford Foundation | bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status | Der Monat | established | SRC-US-FORD-DER-MONAT-1954 |
+| REL-DE-MNI-008 | Congress for Cultural Freedom | nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
+| REL-DE-MNI-009 | John J. McCloy | arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
+| REL-DE-MNI-010 | John J. McCloy | Chairman 1953 bis 1960 | Chase Manhattan Bank | established | SRC-US-CFR-MCCLOY-ROLES-2026 |
+| REL-DE-MNI-011 | John J. McCloy | Chairman 1953 bis 1970 | Council on Foreign Relations | established | SRC-US-CFR-CHAIRS-2026 |
+| REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-013 | John J. McCloy | 1954 als Mitglied des Finance Committee ausgewiesen | Ford Foundation | established | SRC-US-FORD-DER-MONAT-1954 |

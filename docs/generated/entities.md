@@ -20,12 +20,18 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-BND` | intelligence_service | Bundesnachrichtendienst | DE |
 | `ORG-CA-CPP-INVESTMENTS` | pension_investment_manager | CPP Investments | CA |
 | `ORG-US-CIA` | intelligence_service | Central Intelligence Agency | US |
+| `ORG-US-CHASE-MANHATTAN` | bank | Chase Manhattan Bank | US |
 | `PER-DE-CLAUS-KLEBER` | person | Claus Kleber | DE |
+| `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | cultural_network | Congress for Cultural Freedom | US, FR, DE |
+| `ORG-US-COUNCIL-FOREIGN-RELATIONS` | policy_network | Council on Foreign Relations | US |
 | `ORG-DE-DIE-ZEIT` | media_outlet | DIE ZEIT | DE |
+| `ORG-DE-DER-MONAT` | media_outlet | Der Monat | DE |
 | `PER-DE-DIETER-VON-HOLTZBRINCK` | person | Dieter von Holtzbrinck | DE |
 | `ORG-DE-DVH-MEDIEN` | media_holding | DvH Medien GmbH | DE |
 | `PER-DE-ELMAR-THEVESSEN` | person | Elmar Theveßen | DE |
+| `PER-DE-ERICH-SCHMIDT-EENBOOM` | person | Erich Schmidt-Eenboom | DE |
 | `ORG-DE-MOHN-FAMILY` | family_shareholder_group | Familie Mohn | DE |
+| `ORG-US-FORD-FOUNDATION` | foundation | Ford Foundation | US |
 | `ORG-DE-FAZ` | media_outlet | Frankfurter Allgemeine Zeitung | DE |
 | `PER-DE-FRIEDE-SPRINGER` | person | Friede Springer | DE |
 | `PER-DE-GABOR-STEINGART` | person | Gabor Steingart | DE |
@@ -38,6 +44,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-HUBERT-BURDA` | person | Hubert Burda | DE |
 | `PER-DE-INGO-ZAMPERONI` | person | Ingo Zamperoni | DE |
 | `PER-DE-JOHANNES-HUTH` | person | Johannes P. Huth | DE |
+| `PER-US-JOHN-MCCLOY` | person | John J. McCloy | US |
 | `PER-DE-JOSEF-JOFFE` | person | Josef Joffe | DE |
 | `PER-DE-JULIA-JAEKEL` | person | Julia Jäkel | DE |
 | `PER-DE-JOERG-QUOOS` | person | Jörg Quoos | DE |
@@ -76,6 +83,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-LU-TRAVIATA-I-SARL` | investment_holding | Traviata I S.à r.l. | LU |
 | `ORG-LU-TRAVIATA-II-SARL` | investment_holding | Traviata II S.à r.l. | LU |
 | `PER-DE-ULRICH-WILHELM` | person | Ulrich Wilhelm | DE |
+| `PER-DE-VOLKER-FOERTSCH` | person | Volker Foertsch | DE |
 | `ORG-DE-WDR` | public_broadcaster | Westdeutscher Rundfunk | DE |
 | `ORG-DE-ZDF` | public_broadcaster | ZDF | DE |
 | `ORG-DE-ZEITVERLAG` | media_company | Zeitverlag Gerd Bucerius GmbH & Co. KG | DE |

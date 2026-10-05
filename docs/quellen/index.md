@@ -632,3 +632,80 @@ Handelsblatt · current · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.handelsblatt.com/impressum/)
 
 Fundstelle: Handelsblatt Media Group gehört 100 Prozent zur DvH Medien GmbH; Handelsblatt GmbH ist Unternehmen der Handelsblatt Media Group
+
+<a id="src-de-bt-ua-bnd-journalisten-2009"></a>
+## SRC-DE-BT-UA-BND-JOURNALISTEN-2009
+
+**[Bericht des 1. Untersuchungsausschusses der 16. Wahlperiode](https://dserver.bundestag.de/btd/16/134/1613400.pdf)**
+
+Deutscher Bundestag · 2009-06-18 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/16/134/1613400.pdf)
+
+Fundstelle: Drucksache 16/13400; Teil B, S. 337–340 zu Schmidt-Eenboom; Teil C H, S. 414–415 zur Ausschussbewertung der Journalistenkontakte und Medienbeeinflussung; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+
+<a id="src-us-cia-ccf-history-1995"></a>
+## SRC-US-CIA-CCF-HISTORY-1995
+
+**[Origins of the Congress for Cultural Freedom, 1949-1950](https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-38-no-5/origins-of-the-congress-for-cultural-freedom-1949-1950/)**
+
+Central Intelligence Agency, Center for the Study of Intelligence · 1995 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-38-no-5/origins-of-the-congress-for-cultural-freedom-1949-1950/)
+
+Fundstelle: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
+
+<a id="src-us-ford-der-monat-1954"></a>
+## SRC-US-FORD-DER-MONAT-1954
+
+**[Ford Foundation Annual Report 1954](https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf)**
+
+Ford Foundation · 1954 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf)
+
+Fundstelle: S. 39; 175.000 US-Dollar für Der Monat über drei Jahre; US-Regierungsförderung endet 1954; Ziel der Ford-Mittel war der Übergang zu einer unabhängigen Zeitschrift. S. 69 führt John J. McCloy als Mitglied des Finance Committee.
+
+<a id="src-us-uchicago-der-monat-archive-2026"></a>
+## SRC-US-UCHICAGO-DER-MONAT-ARCHIVE-2026
+
+**[Guide to the Der Monat Records 1948-1971](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT)**
+
+University of Chicago Library, Special Collections Research Center · current · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT)
+
+Fundstelle: Historische Einleitung; Ford-Zuschuss ermöglichte Übergang in privaten Status; später enge Verbindung zur International Association for Cultural Freedom
+
+<a id="src-int-scott-smith-der-monat-2000"></a>
+## SRC-INT-SCOTT-SMITH-DER-MONAT-2000
+
+**[A Radical Democratic Political Offensive: Melvin J. Lasky, Der Monat, and the Congress for Cultural Freedom](https://journals.sagepub.com/doi/10.1177/002200940003500207)**
+
+Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
+
+Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
+
+<a id="src-us-cfr-mccloy-roles-2026"></a>
+## SRC-US-CFR-MCCLOY-ROLES-2026
+
+**[CFR at 100 - A Changing Membership](https://www.cfr.org/celebrating-a-century/changing-membership)**
+
+Council on Foreign Relations · current · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.cfr.org/celebrating-a-century/changing-membership)
+
+Fundstelle: John J. McCloy; CFR-Mitglied seit 1939; U.S. High Commissioner for Germany 1949-1952; Chairman Chase Manhattan Bank 1953-1960
+
+<a id="src-us-cfr-chairs-2026"></a>
+## SRC-US-CFR-CHAIRS-2026
+
+**[Board of Directors](https://www.cfr.org/board-directors)**
+
+Council on Foreign Relations · current · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.cfr.org/board-directors)
+
+Fundstelle: Historische Board Chairs; John J. McCloy 1953-1970
