@@ -680,7 +680,7 @@ relations:
     label: "Holdinggesellschaft als Vertragspartei der Investorenvereinbarung"
     period: {start: "2019-06-12", end: "2019-06-12"}
     evidence_level: established
-    sources: [SRC-DE-AS-KKR-ADHOC-2019]
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
     claim_ids: [CLM-DE-MOG-002]
 
   - id: REL-DE-MOG-014
@@ -729,7 +729,7 @@ relations:
     label: "Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten"
     period: {start: "2019-06-12", end: "2019-06-12"}
     evidence_level: established
-    sources: [SRC-DE-AS-KKR-ADHOC-2019]
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
     claim_ids: [CLM-DE-MOG-002]
 
   - id: REL-DE-MOG-019
@@ -846,10 +846,10 @@ relations:
     from: ORG-LU-RTL-GROUP
     to: ORG-DE-RTL-DEUTSCHLAND
     type: sole_owned_business_unit
-    label: "im Konzernschema als 100-Prozent-Einheit und größte Geschäftseinheit der RTL Group ausgewiesen"
+    label: "im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen"
     period: {start: "2025-12-31", end: "2025-12-31"}
     evidence_level: established
-    sources: [SRC-LU-RTL-AR-2025]
+    sources: [SRC-LU-RTL-FY-2025]
     claim_ids: [CLM-DE-MOG-008]
 
   - id: REL-DE-MOG-036

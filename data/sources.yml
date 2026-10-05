@@ -479,8 +479,8 @@ sources:
   tier: A
   url: https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie
   accessed: '2026-10-04'
-  locator: Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; KKR strebt angemessene Aufsichtsratsvertretung an; journalistische Unabhängigkeit soll erhalten bleiben
-  notes: Belegt die institutionelle Investorenvereinbarung mit KKR und die darin öffentlich beschriebene Unabhängigkeitsvorgabe; diese Vorgabe beweist nicht ihre tatsächliche Einhaltung in jeder redaktionellen Entscheidung.
+  locator: Traviata II S.à r.l. als Investor/Holdinggesellschaft; Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; angemessene Investor-Vertretung im Aufsichtsrat; journalistische Unabhängigkeit soll erhalten bleiben
+  notes: Benennt Traviata II als Holdinggesellschaft der Investorenvereinbarung und dokumentiert die öffentlich beschriebenen Governance-Eckpunkte; die Unabhängigkeitsvorgabe beweist nicht ihre tatsächliche Einhaltung in jeder redaktionellen Entscheidung.
 
 - id: SRC-DE-AS-CPP-BOARD-2021
   title: Axel Springer SE — Geplante Veränderungen im Aufsichtsrat
@@ -562,8 +562,8 @@ sources:
   tier: A
   url: https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an
   accessed: '2026-10-04'
-  locator: Traviata II S.à r.l. als Holdinggesellschaft; gehalten durch von KKR beratene Fonds; Investorenvereinbarung vom 12.06.2019
-  notes: Präzisiert die Vertrags- und Beteiligungsebene der 2019 angekündigten Transaktion; KKR wird nicht anstelle des Holdingvehikels als unmittelbare Vertragspartei modelliert.
+  locator: Unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; Investorenvereinbarung und Übernahmeangebot vom 12.06.2019
+  notes: Belegt die KKR-beratene Fondsstruktur und eine Holdinggesellschaft als Vertrags-/Bieterebene, nennt diese Holdinggesellschaft aber nicht Traviata II; die Fahrzeugidentität wird separat durch SRC-DE-AS-KKR-AGREEMENT-2019 getragen.
 
 - id: SRC-DE-AS-OWNERSHIP-2026
   title: "Axel Springer wird 80: Werte, Wandel und Lust auf Zukunft"
@@ -600,6 +600,18 @@ sources:
   accessed: '2026-10-04'
   locator: Directors' report S. 3 und 9 sowie Notes S. 14; RTL Deutschland als größte Geschäftseinheit, Bertelsmann Capital Holding GmbH mit 75,0 Prozent und Bertelsmann SE & Co. KGaA als oberste Muttergesellschaft
   notes: Primärquelle für die RTL-Group-Aktionärsstruktur und Konzernzuordnung am Bilanzstichtag; direkte Holdingposition, oberste Muttergesellschaft und Geschäftseinheit bleiben getrennte Relationstypen.
+
+- id: SRC-LU-RTL-FY-2025
+  title: RTL Group Full-year results 2025
+  institution: RTL Group S.A.
+  date: '2026-03-12'
+  type: financial_results_report
+  primary: true
+  tier: A
+  url: https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf
+  accessed: '2026-10-05'
+  locator: Corporate structure (simplified) as at 31 December 2025; RTL Deutschland mit 100 Prozent
+  notes: Offizieller Ergebnisbericht; trägt die 100-Prozent-Zuordnung von RTL Deutschland zum Bilanzstichtag getrennt von den statutarischen Aktionärsangaben.
 
 - id: SRC-DE-RTL-GJ-2026
   title: Gruner + Jahr Deutschland GmbH
