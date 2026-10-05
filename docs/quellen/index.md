@@ -468,182 +468,6 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
 
-<a id="src-de-as-kkr-agreement-2019"></a>
-## SRC-DE-AS-KKR-AGREEMENT-2019
-
-**[Axel Springer schließt Investorenvereinbarung mit KKR zur Unterstützung der langfristigen Wachstumsstrategie](https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie)**
-
-Axel Springer SE · 2019-06-12 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie)
-
-Fundstelle: Traviata II S.à r.l. als Investor/Holdinggesellschaft; Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; angemessene Investor-Vertretung im Aufsichtsrat; journalistische Unabhängigkeit soll erhalten bleiben
-
-<a id="src-de-as-cpp-board-2021"></a>
-## SRC-DE-AS-CPP-BOARD-2021
-
-**[Axel Springer SE — Geplante Veränderungen im Aufsichtsrat](https://www.axelspringer.com/de/ax-press-release/axel-springer-se-geplante-veraenderungen-im-aufsichtsrat)**
-
-Axel Springer SE · 2021-02-12 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-se-geplante-veraenderungen-im-aufsichtsrat)
-
-Fundstelle: CPP Investments als Co-Investor mit rund 25 Prozent an Traviata I S.à r.l.; Traviata I hält die Axel-Springer-Beteiligung von KKR
-
-<a id="src-de-as-squeezeout-2021"></a>
-## SRC-DE-AS-SQUEEZEOUT-2021
-
-**[Axel Springer SE — Squeeze-Out vollzogen](https://www.axelspringer.com/de/ax-press-release/axel-springer-se-squeeze-out-vollzogen)**
-
-Axel Springer SE · 2021-02-23 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-se-squeeze-out-vollzogen)
-
-Fundstelle: Traviata B.V. als Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; künftig rund 48,5 Prozent, Friede Springer und Mathias Döpfner jeweils rund 22 Prozent
-
-<a id="src-de-as-structure-2025"></a>
-## SRC-DE-AS-STRUCTURE-2025
-
-**[Axel Springer setzt neue Unternehmensstruktur um](https://www.axelspringer.com/de/ax-press-release/axel-springer-setzt-neue-unternehmensstruktur-um)**
-
-Axel Springer SE · 2025-04-29 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-setzt-neue-unternehmensstruktur-um)
-
-Fundstelle: Closing am 29.04.2025; KKR und CPP Investments geben ihre Axel-Springer-Anteile ab; Friede Springer und Mathias Döpfner halten zusammen 95 Prozent; restliche Anteile bei Axel Sven Springer und Friede-Springer-Stiftung
-
-<a id="src-de-as-boards-2026"></a>
-## SRC-DE-AS-BOARDS-2026
-
-**[Boards](https://www.axelspringer.com/en/who-we-are/management-boards)**
-
-Axel Springer SE · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/en/who-we-are/management-boards)
-
-Fundstelle: Current Executive Board and Supervisory Board roster
-
-<a id="src-us-kkr-huth-2026"></a>
-## SRC-US-KKR-HUTH-2026
-
-**[Johannes Huth](https://www.kkr.com/about/our-people/johannes-huth)**
-
-KKR · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.kkr.com/about/our-people/johannes-huth)
-
-Fundstelle: Senior Advisory Partner; Board member of Axel Springer SE; joined KKR in 1999; former Chairman of KKR EMEA
-
-<a id="src-be-gbl-huth-2026"></a>
-## SRC-BE-GBL-HUTH-2026
-
-**[Conseil d'Administration](https://www.gbl.com/fr/governance/conseil-dadministration)**
-
-Groupe Bruxelles Lambert · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.gbl.com/fr/governance/conseil-dadministration)
-
-Fundstelle: Johannes Huth — Administrateur-Délégué
-
-<a id="src-de-as-kkr-adhoc-2019"></a>
-## SRC-DE-AS-KKR-ADHOC-2019
-
-**[DGAP-Ad-hoc: Axel Springer SE: KKR kündigt freiwilliges Übernahmeangebot auf Basis einer mit Axel Springer SE abgeschlossenen Investorenvereinbarung an](https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an)**
-
-Axel Springer SE · 2019-06-12 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an)
-
-Fundstelle: Unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; Investorenvereinbarung und Übernahmeangebot vom 12.06.2019
-
-<a id="src-de-as-ownership-2026"></a>
-## SRC-DE-AS-OWNERSHIP-2026
-
-**[Axel Springer wird 80: Werte, Wandel und Lust auf Zukunft](https://www.axelspringer.com/de/ax-press-release/axel-springer-wird-80-werte-wandel-und-lust-auf-zukunft)**
-
-Axel Springer SE · 2026-07-03 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-wird-80-werte-wandel-und-lust-auf-zukunft)
-
-Fundstelle: Abschnitt "Heute ein familiengeführtes Medienunternehmen"; Friede Springer und Mathias Döpfner rund 95 Prozent; Axel Sven Springer als dritter Eigentümer
-
-<a id="src-de-bertelsmann-owners-2026"></a>
-## SRC-DE-BERTELSMANN-OWNERS-2026
-
-**[Aktionärsstruktur](https://www.bertelsmann.com/de/investor-relations/bertelsmann-im-ueberblick/aktionaere/)**
-
-Bertelsmann SE & Co. KGaA · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.bertelsmann.com/de/investor-relations/bertelsmann-im-ueberblick/aktionaere/)
-
-Fundstelle: 80,9 Prozent Kapitalanteile bei vier Stiftungen; 19,1 Prozent mittelbar bei Familie Mohn; sämtliche Stimmrechte durch Bertelsmann Verwaltungsgesellschaft kontrolliert
-
-<a id="src-lu-rtl-ar-2025"></a>
-## SRC-LU-RTL-AR-2025
-
-**[RTL Group S.A. Annual accounts for the year ended 31 December 2025](https://company.rtl.com/export/sites/rtlunited/.galleries/downloads/general_meeting/agm-2026/convening-notice-and-preparatory-documents/3.-AGM-2026-RTL-Group-Statutory-Accounts-2025.pdf)**
-
-RTL Group S.A. · 2026-03-11 · Stufe **A** · Primärquelle
-
-[PDF öffnen](https://company.rtl.com/export/sites/rtlunited/.galleries/downloads/general_meeting/agm-2026/convening-notice-and-preparatory-documents/3.-AGM-2026-RTL-Group-Statutory-Accounts-2025.pdf)
-
-Fundstelle: Directors' report S. 3 und 9 sowie Notes S. 14; RTL Deutschland als größte Geschäftseinheit, Bertelsmann Capital Holding GmbH mit 75,0 Prozent und Bertelsmann SE & Co. KGaA als oberste Muttergesellschaft
-
-<a id="src-lu-rtl-fy-2025"></a>
-## SRC-LU-RTL-FY-2025
-
-**[RTL Group Full-year results 2025](https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf)**
-
-RTL Group S.A. · 2026-03-12 · Stufe **A** · Primärquelle
-
-[PDF öffnen](https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf)
-
-Fundstelle: Corporate structure (simplified) as at 31 December 2025; RTL Deutschland mit 100 Prozent
-
-<a id="src-de-rtl-gj-2026"></a>
-## SRC-DE-RTL-GJ-2026
-
-**[Gruner + Jahr Deutschland GmbH](https://company.rtl.com/de/business-units/overview/rtl-deutschland/unternehmen/gruner-jahr-deutschland-gmbh/)**
-
-RTL Group · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://company.rtl.com/de/business-units/overview/rtl-deutschland/unternehmen/gruner-jahr-deutschland-gmbh/)
-
-Fundstelle: Gruner + Jahr gehört seit 2022 vollständig zur RTL Deutschland GmbH
-
-<a id="src-de-zeit-imprint-2026"></a>
-## SRC-DE-ZEIT-IMPRINT-2026
-
-**[Impressum](https://www.zeit-verlagsgruppe.de/impressum/)**
-
-ZEIT Verlagsgruppe · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.zeit-verlagsgruppe.de/impressum/)
-
-Fundstelle: Seit Juni 2009 je 50 Prozent Holtzbrinck und DvH Medien; Geschäftsführung mit Nils von der Kall als Vorsitzendem
-
-<a id="src-de-zeit-transfer-2026"></a>
-## SRC-DE-ZEIT-TRANSFER-2026
-
-**[Neuordnung der Holtzbrinck Beteiligungsverhältnisse bei der ZEIT im Zeichen von Kontinuität](https://www.zeit-verlagsgruppe.de/pressemitteilung/neuordnung-der-holtzbrinck-beteiligungsverhaeltnisse-bei-der-zeit-im-zeichen-von-kontinuitaet/)**
-
-ZEIT Verlagsgruppe · 2026-06-03 · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.zeit-verlagsgruppe.de/pressemitteilung/neuordnung-der-holtzbrinck-beteiligungsverhaeltnisse-bei-der-zeit-im-zeichen-von-kontinuitaet/)
-
-Fundstelle: DvH Medien überträgt zum 1. Januar 2027 ihren 50-Prozent-Anteil an Holtzbrinck; Holtzbrinck soll dann Alleineigentümerin werden
-
-<a id="src-de-hmg-owners-2026"></a>
-## SRC-DE-HMG-OWNERS-2026
-
-**[Impressum](https://www.handelsblatt.com/impressum/)**
-
-Handelsblatt · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.handelsblatt.com/impressum/)
-
-Fundstelle: Handelsblatt Media Group gehört 100 Prozent zur DvH Medien GmbH; Handelsblatt GmbH ist Unternehmen der Handelsblatt Media Group
-
 <a id="src-de-bt-ua-bnd-journalisten-2009"></a>
 ## SRC-DE-BT-UA-BND-JOURNALISTEN-2009
 
@@ -653,7 +477,7 @@ Deutscher Bundestag · 2009-06-18 · Stufe **A** · Primärquelle
 
 [PDF öffnen](https://dserver.bundestag.de/btd/16/134/1613400.pdf)
 
-Fundstelle: Drucksache 16/13400; Teil B, S. 337–340 zu Schmidt-Eenboom; Teil C H, S. 414–415 zur Ausschussbewertung der Journalistenkontakte und Medienbeeinflussung; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+Fundstelle: Drucksache 16/13400; Teil B, S. 344–345 zur festgestellten Foertsch-Einflussnahme; Teil C H, S. 414–418 zur Mehrheitsbewertung der Journalistenobservationen; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
 
 <a id="src-us-cia-ccf-history-1995"></a>
 ## SRC-US-CIA-CCF-HISTORY-1995
@@ -666,28 +490,6 @@ Central Intelligence Agency, Center for the Study of Intelligence · 1995 · Stu
 
 Fundstelle: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
 
-<a id="src-us-ford-der-monat-1954"></a>
-## SRC-US-FORD-DER-MONAT-1954
-
-**[Ford Foundation Annual Report 1954](https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf)**
-
-Ford Foundation · 1954 · Stufe **A** · Primärquelle
-
-[PDF öffnen](https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf)
-
-Fundstelle: S. 39; 175.000 US-Dollar für Der Monat über drei Jahre; US-Regierungsförderung endet 1954; Ziel der Ford-Mittel war der Übergang zu einer unabhängigen Zeitschrift. S. 69 führt John J. McCloy als Mitglied des Finance Committee.
-
-<a id="src-us-uchicago-der-monat-archive-2026"></a>
-## SRC-US-UCHICAGO-DER-MONAT-ARCHIVE-2026
-
-**[Guide to the Der Monat Records 1948-1971](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT)**
-
-University of Chicago Library, Special Collections Research Center · current · Stufe **B** · Sekundär-/Forschungsquelle
-
-[Seite öffnen](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT)
-
-Fundstelle: Historische Einleitung; Ford-Zuschuss ermöglichte Übergang in privaten Status; später enge Verbindung zur International Association for Cultural Freedom
-
 <a id="src-int-scott-smith-der-monat-2000"></a>
 ## SRC-INT-SCOTT-SMITH-DER-MONAT-2000
 
@@ -697,37 +499,4 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 
 [Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
 
-Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
-
-<a id="src-us-fraser-mccloy-chase-national-1954"></a>
-## SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
-
-**[The Northwestern Banker — September 1954](https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext)**
-
-The Northwestern Banker / FRASER, Federal Reserve Bank of St. Louis · 1954-09 · Stufe **B** · Sekundär-/Forschungsquelle
-
-[Seite öffnen](https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext)
-
-Fundstelle: Zeitgenössisches Profil bezeichnet John J. McCloy als "Chairman of the Board, Chase National Bank, New York".
-
-<a id="src-us-jpmc-chase-merger-2026"></a>
-## SRC-US-JPMC-CHASE-MERGER-2026
-
-**[History](https://www.jpmorganchase.com/about/our-history)**
-
-JPMorganChase · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.jpmorganchase.com/about/our-history)
-
-Fundstelle: Historien-Timeline; 1955 fusionierten Bank of the Manhattan Company und Chase National Bank zur Chase Manhattan Bank.
-
-<a id="src-us-cfr-chairs-2026"></a>
-## SRC-US-CFR-CHAIRS-2026
-
-**[Board of Directors](https://www.cfr.org/board-directors)**
-
-Council on Foreign Relations · current · Stufe **A** · Primärquelle
-
-[Seite öffnen](https://www.cfr.org/board-directors)
-
-Fundstelle: Historische Board Chairs; John J. McCloy 1953-1970
+Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
