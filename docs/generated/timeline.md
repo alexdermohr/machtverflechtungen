@@ -5,7 +5,7 @@ _Automatisch aus denselben Fall-Metadaten erzeugt._
 | Beginn | Ende | Fall | Länder | Claim-Evidenz |
 |---:|---:|---|---|---|
 | 1946 | 1956 | [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) | DE, US | 1 belegt · 1 stark gestützt |
-| 1950 | 2005 | [Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung](../faelle/de/medien-nachrichtendienst-crosslayer.md) | DE, US, FR | 2 belegt · 2 stark gestützt |
+| 1950 | 1998 | [Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung](../faelle/de/medien-nachrichtendienst-crosslayer.md) | DE, US, FR | 2 belegt · 2 stark gestützt |
 | 1950 | 1953 | [Technischer Dienst des Bund Deutscher Jugend](../faelle/de/technischer-dienst-bdj.md) | DE | 2 belegt |
 | 1969-12-12 | 2005 | [Piazza Fontana](../faelle/it/piazza-fontana.md) | IT | 2 belegt |
 | 1978-07-25 | 1986 | [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) | DE | 2 belegt |

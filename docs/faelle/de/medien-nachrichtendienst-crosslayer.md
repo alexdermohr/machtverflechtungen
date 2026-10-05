@@ -5,7 +5,7 @@ title: "Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzie
 countries: [DE, US, FR]
 period:
   start: "1950"
-  end: "2005"
+  end: "1998"
 status: developing
 research_question: "Wo sind bei deutschen Medien konkrete verdeckte oder unzulässige nachrichtendienstliche Eingriffe in Pressearbeit oder Medienfinanzierung dokumentiert?"
 event_claims:
@@ -29,14 +29,14 @@ sources:
   - SRC-INT-SCOTT-SMITH-DER-MONAT-2000
 claims:
   - id: CLM-DE-MNI-001
-    text: "Der Bundestags-Untersuchungsausschuss dokumentierte gegenüber dem Journalisten Erich Schmidt-Eenboom mehrere BND-Machtmechanismen: Observationen in mehreren Phasen 1993 bis 1996, operative Gespräche 1997 bis 2005 mit dem Ziel, unter anderem seine BND-Informanten zu ermitteln, sowie 2003/2004 verdeckt unter Tarnnamen veranlasste Zahlungen von insgesamt 982 Euro auf das Konto seines Instituts."
+    text: "Die Ausschussmehrheit stellte fest, dass die BND-Observationsmaßnahmen gegen Erich Schmidt-Eenboom in den Jahren 1993 bis 1996 den Rahmen der Verhältnismäßigkeit mehrfach überschritten; wegen ihrer Dauer und Intensität trat Rechtswidrigkeit ein."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
     evidence:
       - source: SRC-DE-BT-UA-BND-JOURNALISTEN-2009
         directness: direct
-        note: "Der Ausschussbericht beschreibt Observationsphasen, operative Gespräche, die BND-Motivlage und die als Spenden ausgewiesenen Überweisungen."
+        note: "Die Mehrheitsbewertung hält fest, dass die Observationen zur Aufklärung unautorisierter Informationsabflüsse dienten, den Rahmen der Verhältnismäßigkeit aber mehrfach überschritten und wegen Dauer und Intensität rechtswidrig waren."
     counterevidence:
       - source: SRC-DE-BT-UA-BND-JOURNALISTEN-2009
         directness: direct
@@ -117,7 +117,7 @@ claims:
     falsification: "Primär- oder hochrangige Archivquellen, die den rekonstruierten Finanzierungsweg widerlegen, würden den Claim korrigieren."
 
 what_follows:
-  - text: "Der BND setzte gegenüber Journalisten nachweislich Observation, operative Ausforschung und verdeckte Zahlungen ein; der Untersuchungsausschuss bewertete die Nutzung und Bezahlung von Journalisten zur Ausforschung anderer Journalisten als unzulässig und rechtswidrigen Angriff auf die Pressefreiheit."
+  - text: "Die Ausschussmehrheit bewertete die BND-Observationen gegen Schmidt-Eenboom wegen ihrer Dauer und Intensität als unverhältnismäßig und rechtswidrig."
     claim_ids: [CLM-DE-MNI-001]
   - text: "Der Untersuchungsausschuss stellte konkrete Einflussnahme auf Medienberichterstattung durch den damaligen Sicherheitsabteilungsleiter fest."
     claim_ids: [CLM-DE-MNI-002]
@@ -144,24 +144,22 @@ case_links:
 
 ## Auswahlregel
 
-Dieser Fall enthält nur Vorgänge mit einem konkreten problematischen Machtmechanismus: Überwachung, operative Ausforschung journalistischer Quellen, verdeckte Zahlung, dokumentierte Beeinflussung von Berichterstattung oder verdeckte Geheimdienstfinanzierung eines Mediums. Bloße Mitgliedschaften, Konferenzteilnahmen, Eigentumsverhältnisse, normale Berufsrollen und personelle Mehrfachrollen gehören nicht in diesen Fall.
+Dieser Fall enthält nur Vorgänge mit einem konkreten problematischen Machtmechanismus: rechtswidrige Überwachung von Journalisten, dokumentierte Beeinflussung von Berichterstattung oder verdeckte Geheimdienstfinanzierung eines Mediums. Bloße Mitgliedschaften, Konferenzteilnahmen, Eigentumsverhältnisse, normale Berufsrollen und personelle Mehrfachrollen gehören nicht in diesen Fall.
 
 ## Gesicherter Ereigniskern
 
-- **`CLM-DE-MNI-001` — belegt:** Der Bundestags-Untersuchungsausschuss dokumentierte gegenüber dem Journalisten Erich Schmidt-Eenboom mehrere BND-Machtmechanismen: Observationen in mehreren Phasen 1993 bis 1996, operative Gespräche 1997 bis 2005 mit dem Ziel, unter anderem seine BND-Informanten zu ermitteln, sowie 2003/2004 verdeckt unter Tarnnamen veranlasste Zahlungen von insgesamt 982 Euro auf das Konto seines Instituts.
+- **`CLM-DE-MNI-001` — belegt:** Die Ausschussmehrheit stellte fest, dass die BND-Observationsmaßnahmen gegen Erich Schmidt-Eenboom in den Jahren 1993 bis 1996 den Rahmen der Verhältnismäßigkeit mehrfach überschritten; wegen ihrer Dauer und Intensität trat Rechtswidrigkeit ein.
 - **`CLM-DE-MNI-002` — belegt:** Der Untersuchungsausschuss stellte fest, dass der von Februar 1994 bis August 1998 amtierende BND-Sicherheitsabteilungsleiter Volker Foertsch Einfluss auf Medienberichterstattung nahm, offensichtlich ohne Kenntnis und Billigung der Hausleitung.
 - **`CLM-DE-MNI-003` — stark gestützt:** Ein Sondervotumsabschnitt der Bundestagsdrucksache zitiert unter Bezug auf den Schäfer-Bericht Foertschs Aussage, er habe unter anderem Kontakt zu SPIEGEL-Journalist Georg Mascolo gehalten, um BND-schädliche Veröffentlichungen verhindern zu können; teilweise sei dies gelungen.
 - **`CLM-DE-MNI-004` — stark gestützt:** Für die späten 1950er Jahre ist ein verdeckter Medienfinanzierungskanal CIA → Congress for Cultural Freedom → Der Monat stark gestützt: Die CIA-Hausgeschichte beschreibt den Congress als verdeckte CIA-Operation bis zur Trennung 1966; die Forschung rekonstruiert Zuschüsse aus CIA-Mitteln über den Congress an Der Monat.
 
 ## BND: Überwachung, Ausforschung und Medienbeeinflussung
 
-Der Bundestags-Untersuchungsausschuss dokumentierte bei Erich Schmidt-Eenboom Observationen, operative Gespräche zur Aufklärung journalistischer Quellen im BND sowie verdeckt unter Tarnnamen veranlasste Zahlungen. In seiner Bewertung ging der Ausschuss deutlich weiter als eine bloße Feststellung ungewöhnlicher Kontakte: Die Nutzung und Bezahlung von Journalisten, um Erkenntnisse über andere Journalisten und Redaktionen zu gewinnen, sei unzulässig, untergrabe die Unabhängigkeit der Presse und stelle einen rechtswidrigen Angriff auf die Pressefreiheit dar.
+Die Ausschussmehrheit stellte fest, dass die BND-Observationen gegen Erich Schmidt-Eenboom der Aufklärung unautorisierter Informationsabflüsse dienten, den Rahmen der Verhältnismäßigkeit aber in den Jahren 1993 bis 1996 mehrfach überschritten. Rechtswidrig war nach dieser Bewertung nicht der Eigensicherungszweck als solcher, sondern die Maßnahme wegen ihrer Dauer und Intensität.
 
-Die Grenze bleibt wichtig: Schmidt-Eenboom bestritt eine vereinbarte Gegenleistung. Deshalb wird aus dem Vorgang weder ein willentlicher Agentenstatus noch ein gekaufter Artikel abgeleitet.
+Separat stellte der Ausschuss fest, dass Volker Foertsch Einfluss auf Medienberichterstattung nahm. Zugleich fand die Ausschussmehrheit keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge. Der belastbare Skandalbefund ist damit rechtswidrige Observation und konkrete Einflussnahme, nicht eine behauptete flächendeckende Mediensteuerung.
 
-Separat stellte der Ausschuss fest, dass Volker Foertsch Einfluss auf Medienberichterstattung nahm. Zugleich fand die Ausschussmehrheit keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge. Der belastbare Skandalbefund ist damit konkrete Einflussnahme und unzulässige Ausforschung, nicht eine behauptete flächendeckende Mediensteuerung.
-
-### Mascolo: konkrete, aber schwächer belegte Unterdrückungsspur
+### Mascolo: attribuierter Einflussversuch
 
 Ein Sondervotumsabschnitt zitiert unter Bezug auf den Schäfer-Bericht Foertschs Aussage, er habe unter anderem Kontakt zu Georg Mascolo gehalten, um BND-schädliche Veröffentlichungen verhindern zu können; teilweise sei dies gelungen. Weil diese namentliche Passage nicht denselben Evidenzstatus wie der Mehrheitsbefund hat, bleibt sie `strong` statt `established`.
 

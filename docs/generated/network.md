@@ -118,9 +118,7 @@ flowchart LR
     N_ORG_INT_TRILATERAL_COMMISSION["The Trilateral Commission"]
     N_PER_DE_KLAUS_DIETER_FRANKENBERGER -->|"in der Mitgliederliste der Trilateral Commission geführt"| N_ORG_INT_TRILATERAL_COMMISSION
     N_PER_DE_ERICH_SCHMIDT_EENBOOM["Erich Schmidt-Eenboom"]
-    N_ORG_DE_BND -->|"wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
-    N_ORG_DE_BND -->|"führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
-    N_ORG_DE_BND -->|"überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
+    N_ORG_DE_BND -->|"Ausschussmehrheit bewertete die Observationen 1993 bis 1996 wegen Dauer und Intensität als unverhältnismäßig und rechtswidrig"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
     N_PER_DE_VOLKER_FOERTSCH["Volker Foertsch"]
     N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER["Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung"]
     N_PER_DE_VOLKER_FOERTSCH -->|"Ausschuss stellte fest, dass er Einfluss auf Medienberichterstattung nahm; offenbar ohne Kenntnis und Billigung der BND-Hausleitung"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
@@ -200,9 +198,7 @@ flowchart LR
 | REL-DE-TMN-054 | Josef Joffe | Teilnehmer der Bilderberg-Konferenz 2006 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2006-ARCHIVE |
 | REL-DE-TMN-055 | Matthias Naß | Teilnehmer der Bilderberg-Konferenz 2012 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2012-ARCHIVE |
 | REL-DE-TMN-056 | Klaus-Dieter Frankenberger | in der Mitgliederliste der Trilateral Commission geführt | The Trilateral Commission | strong | SRC-INT-TRILATERAL-2017-MIRROR |
-| REL-DE-MNI-001 | Bundesnachrichtendienst | wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
-| REL-DE-MNI-002 | Bundesnachrichtendienst | führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
-| REL-DE-MNI-003 | Bundesnachrichtendienst | überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-001 | Bundesnachrichtendienst | Ausschussmehrheit bewertete die Observationen 1993 bis 1996 wegen Dauer und Intensität als unverhältnismäßig und rechtswidrig | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-004 | Volker Foertsch | Ausschuss stellte fest, dass er Einfluss auf Medienberichterstattung nahm; offenbar ohne Kenntnis und Billigung der BND-Hausleitung | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-005 | Bundesnachrichtendienst | Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können | Georg Mascolo | strong | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-006 | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | strong | SRC-US-CIA-CCF-HISTORY-1995 |

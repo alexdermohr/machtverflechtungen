@@ -607,28 +607,8 @@ relations:
     from: ORG-DE-BND
     to: PER-DE-ERICH-SCHMIDT-EENBOOM
     type: journalist_surveillance_target
-    label: "wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst"
+    label: "Ausschussmehrheit bewertete die Observationen 1993 bis 1996 wegen Dauer und Intensität als unverhältnismäßig und rechtswidrig"
     period: {start: "1993", end: "1996"}
-    evidence_level: established
-    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
-    claim_ids: [CLM-DE-MNI-001]
-
-  - id: REL-DE-MNI-002
-    from: ORG-DE-BND
-    to: PER-DE-ERICH-SCHMIDT-EENBOOM
-    type: operational_journalist_contact
-    label: "führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln"
-    period: {start: "1997", end: "2005"}
-    evidence_level: established
-    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
-    claim_ids: [CLM-DE-MNI-001]
-
-  - id: REL-DE-MNI-003
-    from: ORG-DE-BND
-    to: PER-DE-ERICH-SCHMIDT-EENBOOM
-    type: covert_payment
-    label: "überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen"
-    period: {start: "2003", end: "2004"}
     evidence_level: established
     sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
     claim_ids: [CLM-DE-MNI-001]

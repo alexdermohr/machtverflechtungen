@@ -477,7 +477,7 @@ Deutscher Bundestag · 2009-06-18 · Stufe **A** · Primärquelle
 
 [PDF öffnen](https://dserver.bundestag.de/btd/16/134/1613400.pdf)
 
-Fundstelle: Drucksache 16/13400; Teil B, S. 337–340 zu Schmidt-Eenboom; Teil C H, S. 414–415 zur Ausschussbewertung der Journalistenkontakte und Medienbeeinflussung; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+Fundstelle: Drucksache 16/13400; Teil B, S. 344–345 zur festgestellten Foertsch-Einflussnahme; Teil C H, S. 414–418 zur Mehrheitsbewertung der Journalistenobservationen; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
 
 <a id="src-us-cia-ccf-history-1995"></a>
 ## SRC-US-CIA-CCF-HISTORY-1995
@@ -499,4 +499,4 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 
 [Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
 
-Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
+Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet

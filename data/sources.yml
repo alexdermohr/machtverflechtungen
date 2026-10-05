@@ -479,8 +479,8 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/16/134/1613400.pdf
   accessed: '2026-10-04'
-  locator: Drucksache 16/13400; Teil B, S. 337–340 zu Schmidt-Eenboom; Teil C H, S. 414–415 zur Ausschussbewertung der Journalistenkontakte und Medienbeeinflussung; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
-  notes: Belegt BND-Observationen und operative Journalistenkontakte sowie den Mehrheitsbefund zu Einflussversuchen auf Medienberichterstattung und zugleich fehlenden Anhaltspunkten für vom BND lancierte Zeitungsbeiträge. Die namentliche Mascolo-Aussage wird nur als Sondervotums-/Schäfer-Bericht-Attribution verwendet.
+  locator: Drucksache 16/13400; Teil B, S. 344–345 zur festgestellten Foertsch-Einflussnahme; Teil C H, S. 414–418 zur Mehrheitsbewertung der Journalistenobservationen; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+  notes: Die Ausschussmehrheit bewertet die Observationen gegen Schmidt-Eenboom wegen Dauer und Intensität als rechtswidrig und stellt Foertschs Einflussnahme auf Medienberichterstattung fest; zugleich fand sie keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge. Die namentliche Mascolo-Aussage wird nur als Sondervotums-/Schäfer-Bericht-Attribution verwendet.
 
 - id: SRC-US-CIA-CCF-HISTORY-1995
   title: Origins of the Congress for Cultural Freedom, 1949-1950
@@ -503,5 +503,5 @@ sources:
   tier: B
   url: https://journals.sagepub.com/doi/10.1177/002200940003500207
   accessed: '2026-10-04'
-  locator: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
-  notes: Sekundärforschung; trägt die verdeckte Finanzierungskette in den späten 1950er Jahren und McCloys Vermittlungsrolle, nicht eine CIA-Gründung von Der Monat.
+  locator: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
+  notes: Sekundärforschung; trägt die verdeckte CIA-CCF-Finanzierungskette zu Der Monat, nicht artikelgenaue redaktionelle Weisungen.
