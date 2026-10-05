@@ -117,85 +117,20 @@ flowchart LR
     N_PER_DE_MATTHIAS_NASS -->|"Teilnehmer der Bilderberg-Konferenz 2012"| N_ORG_INT_BILDERBERG_MEETINGS
     N_ORG_INT_TRILATERAL_COMMISSION["The Trilateral Commission"]
     N_PER_DE_KLAUS_DIETER_FRANKENBERGER -->|"in der Mitgliederliste der Trilateral Commission geführt"| N_ORG_INT_TRILATERAL_COMMISSION
-    N_PER_DE_FRIEDE_SPRINGER -->|"hält mit Mathias Döpfner zusammen 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
-    N_PER_DE_MATHIAS_DOEPFNER -->|"hält mit Friede Springer zusammen 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
-    N_PER_DE_MATHIAS_DOEPFNER -->|"Chief Executive Officer"| N_ORG_DE_AXEL_SPRINGER
-    N_PER_DE_FRIEDE_SPRINGER -->|"stellvertretende Vorsitzende des Aufsichtsrats"| N_ORG_DE_AXEL_SPRINGER
-    N_PER_DE_JOHANNES_HUTH["Johannes P. Huth"]
-    N_PER_DE_JOHANNES_HUTH -->|"Mitglied des Aufsichtsrats"| N_ORG_DE_AXEL_SPRINGER
-    N_ORG_BE_GBL["Groupe Bruxelles Lambert (GBL)"]
-    N_PER_DE_JOHANNES_HUTH -->|"Administrateur-Délégué"| N_ORG_BE_GBL
-    N_ORG_US_KKR["KKR"]
-    N_PER_DE_JOHANNES_HUTH -->|"Senior Advisory Partner"| N_ORG_US_KKR
-    N_ORG_LU_TRAVIATA_II_SARL["Traviata II S.à r.l."]
-    N_ORG_LU_TRAVIATA_II_SARL -->|"Holdinggesellschaft als Vertragspartei der Investorenvereinbarung"| N_ORG_DE_AXEL_SPRINGER
-    N_ORG_NL_TRAVIATA_BV["Traviata B.V."]
-    N_ORG_NL_TRAVIATA_BV -->|"rund 48,5 Prozent der Anteile am Stichtag"| N_ORG_DE_AXEL_SPRINGER
-    N_ORG_US_KKR -->|"Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden"| N_ORG_NL_TRAVIATA_BV
-    N_ORG_CA_CPP_INVESTMENTS["CPP Investments"]
-    N_ORG_LU_TRAVIATA_I_SARL["Traviata I S.à r.l."]
-    N_ORG_CA_CPP_INVESTMENTS -->|"rund 25 Prozent Co-Investment an Traviata I S.à r.l."| N_ORG_LU_TRAVIATA_I_SARL
-    N_ORG_LU_TRAVIATA_I_SARL -->|"Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt"| N_ORG_DE_AXEL_SPRINGER
-    N_ORG_US_KKR -->|"Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten"| N_ORG_LU_TRAVIATA_II_SARL
-    N_PER_DE_FRIEDE_SPRINGER -->|"hält mit Mathias Döpfner rund 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
-    N_PER_DE_MATHIAS_DOEPFNER -->|"hält mit Friede Springer rund 95 Prozent der Anteile"| N_ORG_DE_AXEL_SPRINGER
-    N_ORG_DE_BERTELSMANN_STIFTUNG["Bertelsmann Stiftung"]
-    N_ORG_DE_BERTELSMANN["Bertelsmann SE & Co. KGaA"]
-    N_ORG_DE_BERTELSMANN_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_REINHARD_MOHN_STIFTUNG["Reinhard Mohn Stiftung"]
-    N_ORG_DE_REINHARD_MOHN_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_BVG_FAMILIENSTIFTUNG["BVG-Familienstiftung"]
-    N_ORG_DE_BVG_FAMILIENSTIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_BVG_STIFTUNG["BVG-Stiftung"]
-    N_ORG_DE_BVG_STIFTUNG -->|"eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_MOHN_FAMILY["Familie Mohn"]
-    N_ORG_DE_MOHN_FAMILY -->|"hält mittelbar 19,1 Prozent der Kapitalanteile"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT["Bertelsmann Verwaltungsgesellschaft (BVG)"]
-    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT -->|"kontrolliert sämtliche Stimmrechte"| N_ORG_DE_BERTELSMANN
-    N_ORG_DE_BERTELSMANN_MANAGEMENT_SE["Bertelsmann Management SE"]
-    N_ORG_DE_BERTELSMANN_VERWALTUNGSGESELLSCHAFT -->|"kontrolliert sämtliche Stimmrechte"| N_ORG_DE_BERTELSMANN_MANAGEMENT_SE
-    N_ORG_DE_BERTELSMANN_CAPITAL_HOLDING["Bertelsmann Capital Holding GmbH"]
-    N_ORG_LU_RTL_GROUP["RTL Group S.A."]
-    N_ORG_DE_BERTELSMANN_CAPITAL_HOLDING -->|"hielt 75,0 Prozent der Anteile"| N_ORG_LU_RTL_GROUP
-    N_ORG_DE_BERTELSMANN -->|"im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen"| N_ORG_LU_RTL_GROUP
-    N_ORG_DE_RTL_DEUTSCHLAND["RTL Deutschland"]
-    N_ORG_LU_RTL_GROUP -->|"im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen"| N_ORG_DE_RTL_DEUTSCHLAND
-    N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND["Gruner + Jahr Deutschland GmbH"]
-    N_ORG_DE_RTL_DEUTSCHLAND -->|"Gruner + Jahr gehört vollständig zu RTL Deutschland"| N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND
-    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP["Georg von Holtzbrinck GmbH & Co. KG"]
-    N_ORG_DE_ZEITVERLAG["Zeitverlag Gerd Bucerius GmbH & Co. KG"]
-    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP -->|"hält 50 Prozent"| N_ORG_DE_ZEITVERLAG
-    N_ORG_DE_DVH_MEDIEN["DvH Medien GmbH"]
-    N_ORG_DE_DVH_MEDIEN -->|"hält 50 Prozent"| N_ORG_DE_ZEITVERLAG
-    N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP -->|"als Alleineigentümerin nach angekündigter Anteilsübertragung vorgesehen"| N_ORG_DE_ZEITVERLAG
-    N_ORG_DE_DVH_MEDIEN -->|"soll den 50-Prozent-Anteil an Holtzbrinck übertragen"| N_ORG_DE_ZEITVERLAG
-    N_ORG_DE_HANDELSBLATT_MEDIA_GROUP["Handelsblatt Media Group GmbH & Co. KG"]
-    N_ORG_DE_DVH_MEDIEN -->|"hält 100 Prozent"| N_ORG_DE_HANDELSBLATT_MEDIA_GROUP
-    N_ORG_DE_HANDELSBLATT_MEDIA_GROUP -->|"Konzern- und Verlagszuordnung des Handelsblatt"| N_ORG_DE_HANDELSBLATT
-    N_ORG_US_KKR -->|"Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor"| N_ORG_DE_AXEL_SPRINGER
     N_PER_DE_ERICH_SCHMIDT_EENBOOM["Erich Schmidt-Eenboom"]
     N_ORG_DE_BND -->|"wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
     N_ORG_DE_BND -->|"führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
     N_ORG_DE_BND -->|"überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen"| N_PER_DE_ERICH_SCHMIDT_EENBOOM
     N_PER_DE_VOLKER_FOERTSCH["Volker Foertsch"]
-    N_PER_DE_VOLKER_FOERTSCH -->|"leitete die Abteilung Sicherheit und unterhielt operative Journalistenkontakte"| N_ORG_DE_BND
+    N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER["Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung"]
+    N_PER_DE_VOLKER_FOERTSCH -->|"Ausschuss stellte fest, dass er Einfluss auf Medienberichterstattung nahm; offenbar ohne Kenntnis und Billigung der BND-Hausleitung"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
     N_ORG_DE_BND -->|"Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können"| N_PER_DE_GEORG_MASCOLO
     N_ORG_US_CIA["Central Intelligence Agency"]
     N_ORG_INT_CONGRESS_CULTURAL_FREEDOM["Congress for Cultural Freedom"]
     N_ORG_US_CIA -->|"CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation"| N_ORG_INT_CONGRESS_CULTURAL_FREEDOM
-    N_ORG_US_FORD_FOUNDATION["Ford Foundation"]
     N_ORG_DE_DER_MONAT["Der Monat"]
-    N_ORG_US_FORD_FOUNDATION -->|"bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status"| N_ORG_DE_DER_MONAT
-    N_ORG_INT_CONGRESS_CULTURAL_FREEDOM -->|"nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"| N_ORG_DE_DER_MONAT
-    N_PER_US_JOHN_MCCLOY["John J. McCloy"]
-    N_PER_US_JOHN_MCCLOY -->|"arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung"| N_ORG_DE_DER_MONAT
-    N_ORG_US_CHASE_NATIONAL_BANK["Chase National Bank"]
-    N_PER_US_JOHN_MCCLOY -->|"1954 als Chairman of the Board ausgewiesen"| N_ORG_US_CHASE_NATIONAL_BANK
-    N_ORG_US_COUNCIL_FOREIGN_RELATIONS["Council on Foreign Relations"]
-    N_PER_US_JOHN_MCCLOY -->|"Chairman 1953 bis 1970"| N_ORG_US_COUNCIL_FOREIGN_RELATIONS
-    N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER["Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken"]
-    N_ORG_DE_BND -->|"Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
-    N_PER_US_JOHN_MCCLOY -->|"1954 als Mitglied des Finance Committee ausgewiesen"| N_ORG_US_FORD_FOUNDATION
+    N_ORG_INT_CONGRESS_CULTURAL_FREEDOM -->|"laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"| N_ORG_DE_DER_MONAT
+    N_ORG_DE_BND -->|"Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
 ```
 
 ## Relationen
@@ -265,49 +200,11 @@ flowchart LR
 | REL-DE-TMN-054 | Josef Joffe | Teilnehmer der Bilderberg-Konferenz 2006 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2006-ARCHIVE |
 | REL-DE-TMN-055 | Matthias Naß | Teilnehmer der Bilderberg-Konferenz 2012 | Bilderberg Meetings | strong | SRC-INT-BILDERBERG-2012-ARCHIVE |
 | REL-DE-TMN-056 | Klaus-Dieter Frankenberger | in der Mitgliederliste der Trilateral Commission geführt | The Trilateral Commission | strong | SRC-INT-TRILATERAL-2017-MIRROR |
-| REL-DE-MOG-001 | Friede Springer | hält mit Mathias Döpfner zusammen 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-STRUCTURE-2025 |
-| REL-DE-MOG-002 | Mathias Döpfner | hält mit Friede Springer zusammen 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-STRUCTURE-2025 |
-| REL-DE-MOG-005 | Mathias Döpfner | Chief Executive Officer | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026 |
-| REL-DE-MOG-009 | Friede Springer | stellvertretende Vorsitzende des Aufsichtsrats | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026 |
-| REL-DE-MOG-010 | Johannes P. Huth | Mitglied des Aufsichtsrats | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026, SRC-US-KKR-HUTH-2026 |
-| REL-DE-MOG-011 | Johannes P. Huth | Administrateur-Délégué | Groupe Bruxelles Lambert (GBL) | established | SRC-BE-GBL-HUTH-2026 |
-| REL-DE-MOG-012 | Johannes P. Huth | Senior Advisory Partner | KKR | established | SRC-US-KKR-HUTH-2026 |
-| REL-DE-MOG-013 | Traviata II S.à r.l. | Holdinggesellschaft als Vertragspartei der Investorenvereinbarung | Axel Springer SE | established | SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019 |
-| REL-DE-MOG-014 | Traviata B.V. | rund 48,5 Prozent der Anteile am Stichtag | Axel Springer SE | established | SRC-DE-AS-SQUEEZEOUT-2021 |
-| REL-DE-MOG-015 | KKR | Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden | Traviata B.V. | established | SRC-DE-AS-SQUEEZEOUT-2021 |
-| REL-DE-MOG-016 | CPP Investments | rund 25 Prozent Co-Investment an Traviata I S.à r.l. | Traviata I S.à r.l. | established | SRC-DE-AS-CPP-BOARD-2021 |
-| REL-DE-MOG-017 | Traviata I S.à r.l. | Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt | Axel Springer SE | established | SRC-DE-AS-CPP-BOARD-2021 |
-| REL-DE-MOG-018 | KKR | Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten | Traviata II S.à r.l. | established | SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019 |
-| REL-DE-MOG-019 | Friede Springer | hält mit Mathias Döpfner rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
-| REL-DE-MOG-020 | Mathias Döpfner | hält mit Friede Springer rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
-| REL-DE-MOG-022 | Bertelsmann Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-023 | Reinhard Mohn Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-024 | BVG-Familienstiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-025 | BVG-Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-026 | Familie Mohn | hält mittelbar 19,1 Prozent der Kapitalanteile | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-027 | Bertelsmann Verwaltungsgesellschaft (BVG) | kontrolliert sämtliche Stimmrechte | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-031 | Bertelsmann Verwaltungsgesellschaft (BVG) | kontrolliert sämtliche Stimmrechte | Bertelsmann Management SE | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
-| REL-DE-MOG-033 | Bertelsmann Capital Holding GmbH | hielt 75,0 Prozent der Anteile | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
-| REL-DE-MOG-034 | Bertelsmann SE & Co. KGaA | im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
-| REL-DE-MOG-035 | RTL Group S.A. | im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen | RTL Deutschland | established | SRC-LU-RTL-FY-2025 |
-| REL-DE-MOG-036 | RTL Deutschland | Gruner + Jahr gehört vollständig zu RTL Deutschland | Gruner + Jahr Deutschland GmbH | established | SRC-DE-RTL-GJ-2026 |
-| REL-DE-MOG-050 | Georg von Holtzbrinck GmbH & Co. KG | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |
-| REL-DE-MOG-051 | DvH Medien GmbH | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |
-| REL-DE-MOG-053 | Georg von Holtzbrinck GmbH & Co. KG | als Alleineigentümerin nach angekündigter Anteilsübertragung vorgesehen | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-TRANSFER-2026 |
-| REL-DE-MOG-054 | DvH Medien GmbH | soll den 50-Prozent-Anteil an Holtzbrinck übertragen | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-TRANSFER-2026 |
-| REL-DE-MOG-055 | DvH Medien GmbH | hält 100 Prozent | Handelsblatt Media Group GmbH & Co. KG | established | SRC-DE-HMG-OWNERS-2026 |
-| REL-DE-MOG-056 | Handelsblatt Media Group GmbH & Co. KG | Konzern- und Verlagszuordnung des Handelsblatt | Handelsblatt | established | SRC-DE-HMG-OWNERS-2026 |
-| REL-DE-MOG-077 | KKR | Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor | Axel Springer SE | established | SRC-DE-AS-KKR-AGREEMENT-2019 |
 | REL-DE-MNI-001 | Bundesnachrichtendienst | wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-002 | Bundesnachrichtendienst | führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-003 | Bundesnachrichtendienst | überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen | Erich Schmidt-Eenboom | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
-| REL-DE-MNI-004 | Volker Foertsch | leitete die Abteilung Sicherheit und unterhielt operative Journalistenkontakte | Bundesnachrichtendienst | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-MNI-004 | Volker Foertsch | Ausschuss stellte fest, dass er Einfluss auf Medienberichterstattung nahm; offenbar ohne Kenntnis und Billigung der BND-Hausleitung | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-005 | Bundesnachrichtendienst | Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können | Georg Mascolo | strong | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-006 | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | strong | SRC-US-CIA-CCF-HISTORY-1995 |
-| REL-DE-MNI-007 | Ford Foundation | bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status | Der Monat | established | SRC-US-FORD-DER-MONAT-1954 |
-| REL-DE-MNI-008 | Congress for Cultural Freedom | nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
-| REL-DE-MNI-009 | John J. McCloy | arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
-| REL-DE-MNI-010 | John J. McCloy | 1954 als Chairman of the Board ausgewiesen | Chase National Bank | strong | SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954 |
-| REL-DE-MNI-011 | John J. McCloy | Chairman 1953 bis 1970 | Council on Foreign Relations | established | SRC-US-CFR-CHAIRS-2026 |
-| REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
-| REL-DE-MNI-013 | John J. McCloy | 1954 als Mitglied des Finance Committee ausgewiesen | Ford Foundation | established | SRC-US-FORD-DER-MONAT-1954 |
+| REL-DE-MNI-008 | Congress for Cultural Freedom | laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
+| REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
