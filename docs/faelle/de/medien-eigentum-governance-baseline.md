@@ -96,10 +96,10 @@ claims:
     evidence:
       - source: SRC-DE-AS-KKR-ADHOC-2019
         directness: direct
-        note: "Die Quelle dokumentiert Traviata II und die durch KKR beratene Fondsstruktur."
+        note: "Die Ad-hoc-Mitteilung dokumentiert eine unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; sie trägt nicht den Namen Traviata II."
       - source: SRC-DE-AS-KKR-AGREEMENT-2019
         directness: direct
-        note: "Die Investorenvereinbarung dokumentiert die angestrebte angemessene KKR-Vertretung im Aufsichtsrat."
+        note: "Die zeitgleiche offizielle Investorenmitteilung benennt Traviata II S.à r.l. als Investor/Holdinggesellschaft und dokumentiert die angestrebte angemessene Investor-Vertretung im Aufsichtsrat."
       - source: SRC-DE-AS-CPP-BOARD-2021
         directness: direct
         note: "Die Quelle dokumentiert CPP Investments als Co-Investor an Traviata I und dessen Beteiligungsfunktion."

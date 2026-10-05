@@ -477,7 +477,7 @@ Axel Springer SE · 2019-06-12 · Stufe **A** · Primärquelle
 
 [Seite öffnen](https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie)
 
-Fundstelle: Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; KKR strebt angemessene Aufsichtsratsvertretung an; journalistische Unabhängigkeit soll erhalten bleiben
+Fundstelle: Traviata II S.à r.l. als Investor/Holdinggesellschaft; Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; angemessene Investor-Vertretung im Aufsichtsrat; journalistische Unabhängigkeit soll erhalten bleiben
 
 <a id="src-de-as-cpp-board-2021"></a>
 ## SRC-DE-AS-CPP-BOARD-2021
@@ -554,7 +554,7 @@ Axel Springer SE · 2019-06-12 · Stufe **A** · Primärquelle
 
 [Seite öffnen](https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an)
 
-Fundstelle: Traviata II S.à r.l. als Holdinggesellschaft; gehalten durch von KKR beratene Fonds; Investorenvereinbarung vom 12.06.2019
+Fundstelle: Unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; Investorenvereinbarung und Übernahmeangebot vom 12.06.2019
 
 <a id="src-de-as-ownership-2026"></a>
 ## SRC-DE-AS-OWNERSHIP-2026

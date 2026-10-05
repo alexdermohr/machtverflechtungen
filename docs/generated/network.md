@@ -249,12 +249,12 @@ flowchart LR
 | REL-DE-MOG-010 | Johannes P. Huth | Mitglied des Aufsichtsrats | Axel Springer SE | established | SRC-DE-AS-BOARDS-2026, SRC-US-KKR-HUTH-2026 |
 | REL-DE-MOG-011 | Johannes P. Huth | Administrateur-Délégué | Groupe Bruxelles Lambert (GBL) | established | SRC-BE-GBL-HUTH-2026 |
 | REL-DE-MOG-012 | Johannes P. Huth | Senior Advisory Partner | KKR | established | SRC-US-KKR-HUTH-2026 |
-| REL-DE-MOG-013 | Traviata II S.à r.l. | Holdinggesellschaft als Vertragspartei der Investorenvereinbarung | Axel Springer SE | established | SRC-DE-AS-KKR-ADHOC-2019 |
+| REL-DE-MOG-013 | Traviata II S.à r.l. | Holdinggesellschaft als Vertragspartei der Investorenvereinbarung | Axel Springer SE | established | SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019 |
 | REL-DE-MOG-014 | Traviata B.V. | rund 48,5 Prozent der Anteile am Stichtag | Axel Springer SE | established | SRC-DE-AS-SQUEEZEOUT-2021 |
 | REL-DE-MOG-015 | KKR | Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden | Traviata B.V. | established | SRC-DE-AS-SQUEEZEOUT-2021 |
 | REL-DE-MOG-016 | CPP Investments | rund 25 Prozent Co-Investment an Traviata I S.à r.l. | Traviata I S.à r.l. | established | SRC-DE-AS-CPP-BOARD-2021 |
 | REL-DE-MOG-017 | Traviata I S.à r.l. | Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt | Axel Springer SE | established | SRC-DE-AS-CPP-BOARD-2021 |
-| REL-DE-MOG-018 | KKR | Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten | Traviata II S.à r.l. | established | SRC-DE-AS-KKR-ADHOC-2019 |
+| REL-DE-MOG-018 | KKR | Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten | Traviata II S.à r.l. | established | SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019 |
 | REL-DE-MOG-019 | Friede Springer | hält mit Mathias Döpfner rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
 | REL-DE-MOG-020 | Mathias Döpfner | hält mit Friede Springer rund 95 Prozent der Anteile | Axel Springer SE | established | SRC-DE-AS-OWNERSHIP-2026 |
 | REL-DE-MOG-022 | Bertelsmann Stiftung | eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten | Bertelsmann SE & Co. KGaA | established | SRC-DE-BERTELSMANN-OWNERS-2026 |

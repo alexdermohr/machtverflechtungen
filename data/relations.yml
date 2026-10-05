@@ -680,7 +680,7 @@ relations:
     label: "Holdinggesellschaft als Vertragspartei der Investorenvereinbarung"
     period: {start: "2019-06-12", end: "2019-06-12"}
     evidence_level: established
-    sources: [SRC-DE-AS-KKR-ADHOC-2019]
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
     claim_ids: [CLM-DE-MOG-002]
 
   - id: REL-DE-MOG-014
@@ -729,7 +729,7 @@ relations:
     label: "Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten"
     period: {start: "2019-06-12", end: "2019-06-12"}
     evidence_level: established
-    sources: [SRC-DE-AS-KKR-ADHOC-2019]
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
     claim_ids: [CLM-DE-MOG-002]
 
   - id: REL-DE-MOG-019

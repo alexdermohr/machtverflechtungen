@@ -479,8 +479,8 @@ sources:
   tier: A
   url: https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie
   accessed: '2026-10-04'
-  locator: Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; KKR strebt angemessene Aufsichtsratsvertretung an; journalistische Unabhängigkeit soll erhalten bleiben
-  notes: Belegt die institutionelle Investorenvereinbarung mit KKR und die darin öffentlich beschriebene Unabhängigkeitsvorgabe; diese Vorgabe beweist nicht ihre tatsächliche Einhaltung in jeder redaktionellen Entscheidung.
+  locator: Traviata II S.à r.l. als Investor/Holdinggesellschaft; Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; angemessene Investor-Vertretung im Aufsichtsrat; journalistische Unabhängigkeit soll erhalten bleiben
+  notes: Benennt Traviata II als Holdinggesellschaft der Investorenvereinbarung und dokumentiert die öffentlich beschriebenen Governance-Eckpunkte; die Unabhängigkeitsvorgabe beweist nicht ihre tatsächliche Einhaltung in jeder redaktionellen Entscheidung.
 
 - id: SRC-DE-AS-CPP-BOARD-2021
   title: Axel Springer SE — Geplante Veränderungen im Aufsichtsrat
@@ -562,8 +562,8 @@ sources:
   tier: A
   url: https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an
   accessed: '2026-10-04'
-  locator: Traviata II S.à r.l. als Holdinggesellschaft; gehalten durch von KKR beratene Fonds; Investorenvereinbarung vom 12.06.2019
-  notes: Präzisiert die Vertrags- und Beteiligungsebene der 2019 angekündigten Transaktion; KKR wird nicht anstelle des Holdingvehikels als unmittelbare Vertragspartei modelliert.
+  locator: Unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; Investorenvereinbarung und Übernahmeangebot vom 12.06.2019
+  notes: Belegt die KKR-beratene Fondsstruktur und eine Holdinggesellschaft als Vertrags-/Bieterebene, nennt diese Holdinggesellschaft aber nicht Traviata II; die Fahrzeugidentität wird separat durch SRC-DE-AS-KKR-AGREEMENT-2019 getragen.
 
 - id: SRC-DE-AS-OWNERSHIP-2026
   title: "Axel Springer wird 80: Werte, Wandel und Lust auf Zukunft"
