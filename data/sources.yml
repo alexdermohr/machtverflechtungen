@@ -709,17 +709,29 @@ sources:
   locator: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
   notes: Sekundärforschung; trägt die verdeckte Finanzierungskette in den späten 1950er Jahren und McCloys Vermittlungsrolle, nicht eine CIA-Gründung von Der Monat.
 
-- id: SRC-US-CFR-MCCLOY-ROLES-2026
-  title: CFR at 100 - A Changing Membership
-  institution: Council on Foreign Relations
+- id: SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
+  title: The Northwestern Banker — September 1954
+  institution: The Northwestern Banker / FRASER, Federal Reserve Bank of St. Louis
+  date: '1954-09'
+  type: contemporary_banking_periodical_archive
+  primary: false
+  tier: B
+  url: https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext
+  accessed: '2026-10-05'
+  locator: Zeitgenössisches Profil bezeichnet John J. McCloy als "Chairman of the Board, Chase National Bank, New York".
+  notes: Zeitgenössische Bankenpublikation im FRASER-Archiv; trägt die konkrete Bankbezeichnung für McCloys 1954 zeitgleiche Finanzrolle.
+
+- id: SRC-US-JPMC-CHASE-MERGER-2026
+  title: History
+  institution: JPMorganChase
   date: current
-  type: organization_history
+  type: official_corporate_history
   primary: true
   tier: A
-  url: https://www.cfr.org/celebrating-a-century/changing-membership
-  accessed: '2026-10-04'
-  locator: John J. McCloy; CFR-Mitglied seit 1939; U.S. High Commissioner for Germany 1949-1952; Chairman Chase Manhattan Bank 1953-1960
-  notes: Offizielle CFR-Historienseite für McCloys Finanz- und Politikrollen.
+  url: https://www.jpmorganchase.com/about/our-history
+  accessed: '2026-10-05'
+  locator: Historien-Timeline; 1955 fusionierten Bank of the Manhattan Company und Chase National Bank zur Chase Manhattan Bank.
+  notes: Offizielle Unternehmenshistorie zur Namens- und Fusionszäsur; verhindert die anachronistische Rückdatierung des Namens Chase Manhattan auf 1953/1954.
 
 - id: SRC-US-CFR-CHAIRS-2026
   title: Board of Directors

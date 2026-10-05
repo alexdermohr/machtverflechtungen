@@ -26,7 +26,7 @@ actors:
   - ORG-DE-DER-MONAT
   - ORG-US-FORD-FOUNDATION
   - PER-US-JOHN-MCCLOY
-  - ORG-US-CHASE-MANHATTAN
+  - ORG-US-CHASE-NATIONAL-BANK
   - ORG-US-COUNCIL-FOREIGN-RELATIONS
 mechanisms: []
 sources:
@@ -36,7 +36,8 @@ sources:
   - SRC-US-FORD-DER-MONAT-1954
   - SRC-US-UCHICAGO-DER-MONAT-ARCHIVE-2026
   - SRC-INT-SCOTT-SMITH-DER-MONAT-2000
-  - SRC-US-CFR-MCCLOY-ROLES-2026
+  - SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
+  - SRC-US-JPMC-CHASE-MERGER-2026
   - SRC-US-CFR-CHAIRS-2026
 claims:
   - id: CLM-DE-MNI-001
@@ -165,14 +166,17 @@ claims:
     falsification: "Zeitgenössische Primärakten mit belastbarer direkter CIA-Finanzierung bei Gründung oder im Ford-Zuschuss würden die Grenze neu bewerten."
 
   - id: CLM-DE-MNI-006
-    text: "John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; der Council on Foreign Relations führt ihn als Chairman von Chase Manhattan 1953 bis 1960 und als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben."
+    text: "John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; eine zeitgenössische Bankenpublikation führt ihn 1954 als Chairman des Board der Chase National Bank; JPMorganChase datiert die Bildung der Chase Manhattan Bank erst auf 1955; der Council on Foreign Relations führt McCloy als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben."
     classification: fact
     evidence_level: strong
-    sources: [SRC-INT-SCOTT-SMITH-DER-MONAT-2000, SRC-US-FORD-DER-MONAT-1954, SRC-US-CFR-MCCLOY-ROLES-2026, SRC-US-CFR-CHAIRS-2026]
+    sources: [SRC-INT-SCOTT-SMITH-DER-MONAT-2000, SRC-US-FORD-DER-MONAT-1954, SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954, SRC-US-JPMC-CHASE-MERGER-2026, SRC-US-CFR-CHAIRS-2026]
     evidence:
-      - source: SRC-US-CFR-MCCLOY-ROLES-2026
+      - source: SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
         directness: direct
-        note: "Die CFR-Historienseite nennt McCloy als Chairman von Chase Manhattan 1953 bis 1960."
+        note: "Die zeitgenössische Bankenpublikation führt McCloy 1954 als Chairman des Board der Chase National Bank."
+      - source: SRC-US-JPMC-CHASE-MERGER-2026
+        directness: context
+        note: "Die offizielle JPMorganChase-Historie datiert die Fusion von Chase National und Bank of the Manhattan Company zur Chase Manhattan Bank auf 1955."
       - source: SRC-US-CFR-CHAIRS-2026
         directness: direct
         note: "Der CFR nennt McCloy als eigenen Chairman 1953 bis 1970."
@@ -184,12 +188,12 @@ claims:
         note: "Der Ford-Jahresbericht bestätigt Höhe und Zweck des 1954 bewilligten Zuschusses und führt McCloy im selben Jahr als Mitglied des Finance Committee."
     counterevidence: []
     alternatives:
-      - "Mehrfachrollen derselben Person beweisen nicht, dass Chase Manhattan oder der Council on Foreign Relations institutionell über Der Monat entschieden."
+      - "Mehrfachrollen derselben Person beweisen nicht, dass Chase National oder der Council on Foreign Relations institutionell über Der Monat entschieden."
     missing_evidence:
-      - "Es fehlt eine direkte Quelle dafür, dass McCloy beim Der-Monat-Zuschuss im Auftrag von Chase oder CFR handelte."
+      - "Es fehlt eine direkte Quelle dafür, dass McCloy beim Der-Monat-Zuschuss im Auftrag von Chase National oder CFR handelte."
     scope:
-      supports: "Der Claim trägt eine personelle Brücke von Hochfinanz und außenpolitischem Elitennetzwerk zu einer konkreten Medienfinanzierungsentscheidung."
-      does_not_support: "Er macht aus Chase oder CFR weder einen Geheimdienst noch einen nachgewiesenen redaktionellen Steuerer."
+      supports: "Der Claim trägt eine personelle Brücke von Banken-/Finanzmacht und außenpolitischem Policy-Netzwerk zu einer konkreten Medienfinanzierungsentscheidung."
+      does_not_support: "Er macht aus Chase National oder CFR weder einen Geheimdienst noch einen nachgewiesenen redaktionellen Steuerer."
     falsification: "Primär- oder hochwertige Forschungsquellen mit anderer Rollen- oder Vermittlungslage würden den Claim korrigieren."
 
   - id: CLM-DE-MNI-007
@@ -215,7 +219,7 @@ what_follows:
     claim_ids: [CLM-DE-MNI-003]
   - text: "Mit Der Monat ist ein historischer verdeckter CIA-Medienfinanzierungskanal über den Congress for Cultural Freedom stark gestützt; die offene Ford-Finanzierung von 1954 bleibt davon als eigene Phase getrennt."
     claim_ids: [CLM-DE-MNI-004, CLM-DE-MNI-005]
-  - text: "McCloy verbindet im selben Zeitraum eine konkrete Medienfinanzierungsentscheidung mit Spitzenrollen bei Chase Manhattan und dem Council on Foreign Relations."
+  - text: "McCloy verbindet 1954 eine konkrete Medienfinanzierungsentscheidung mit zeitgleichen Rollen im Ford Finance Committee, als Chairman der Chase National Bank und als Chairman des Council on Foreign Relations."
     claim_ids: [CLM-DE-MNI-006]
 what_does_not_follow:
   - text: "Aus den BND-Fällen folgt keine flächendeckende oder zentral gelenkte Kontrolle deutscher Medien."
@@ -224,7 +228,7 @@ what_does_not_follow:
     claim_ids: [CLM-DE-MNI-003]
   - text: "Der spätere CIA-Kanal über den Congress wird nicht auf die Gründung von Der Monat oder pauschal auf den Ford-Zuschuss von 1954 zurückprojiziert."
     claim_ids: [CLM-DE-MNI-004, CLM-DE-MNI-005]
-  - text: "McCloys Mehrfachrollen belegen eine Machtbrücke, aber keinen institutionellen Auftrag von Chase oder CFR zur redaktionellen Steuerung."
+  - text: "McCloys Mehrfachrollen belegen eine Machtbrücke, aber keinen institutionellen Auftrag von Chase National oder CFR zur redaktionellen Steuerung."
     claim_ids: [CLM-DE-MNI-006]
 open_questions:
   - "Welche in den BND-Unterlagen anonymisierten Journalisten lassen sich mit Primärquellen rechtssicher identifizieren, ohne aus Kontakt automatisch Quellenführung abzuleiten?"
@@ -254,7 +258,7 @@ Dieser Fall sammelt keine bloßen Geheimdienstkontakte und keine Kontaktschuld. 
 - **`CLM-DE-MNI-002` — belegt:** Der Untersuchungsausschuss stellte fest, dass der von Februar 1994 bis August 1998 amtierende BND-Sicherheitsabteilungsleiter Volker Foertsch Einfluss auf Medienberichterstattung nahm, offensichtlich ohne Kenntnis und Billigung der Hausleitung.
 - **`CLM-DE-MNI-003` — stark gestützt:** Ein Sondervotumsabschnitt der Bundestagsdrucksache zitiert unter Bezug auf den Schäfer-Bericht Foertschs Aussage, er habe unter anderem Kontakt zu SPIEGEL-Journalist Georg Mascolo gehalten, um BND-schädliche Veröffentlichungen verhindern zu können; teilweise sei dies gelungen. Mascolo ist 2017 separat als Teilnehmer einer Atlantik-Brücke-Konferenz belegt.
 - **`CLM-DE-MNI-004` — stark gestützt:** Für die späten 1950er Jahre ist ein verdeckter Medienfinanzierungskanal CIA → Congress for Cultural Freedom → Der Monat stark gestützt: Die CIA-Hausgeschichte beschreibt den Congress als verdeckte CIA-Operation bis zur Trennung 1966; die Forschung rekonstruiert nach Auslaufen des Ford-Zuschusses Zuschüsse aus CIA-Mitteln über den Congress an Der Monat.
-- **`CLM-DE-MNI-006` — stark gestützt:** John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; der Council on Foreign Relations führt ihn als Chairman von Chase Manhattan 1953 bis 1960 und als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben.
+- **`CLM-DE-MNI-006` — stark gestützt:** John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; eine zeitgenössische Bankenpublikation führt ihn 1954 als Chairman des Board der Chase National Bank; JPMorganChase datiert die Bildung der Chase Manhattan Bank erst auf 1955; der Council on Foreign Relations führt McCloy als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben.
 
 ## BND: Überwachung, operative Kontakte und Medienbeeinflussung
 
@@ -278,11 +282,11 @@ Der Ford-Foundation-Jahresbericht 1954 dokumentiert offen 175.000 US-Dollar für
 
 Damit ist der **spätere verdeckte Finanzierungskanal** stark gestützt; die Aussage „CIA gründete Der Monat“ ist mit dieser Evidenz gerade nicht gedeckt.
 
-## McCloy: Hochfinanz, Elitennetzwerk und Medienfinanzierung
+## McCloy: Hochfinanz, Policy-Netzwerk und Medienfinanzierung
 
-John J. McCloy ist für diese Untersuchung interessanter als eine bloße Mitgliederliste: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; der Council on Foreign Relations dokumentiert ihn als Chairman von Chase Manhattan 1953 bis 1960 und als eigenen Chairman 1953 bis 1970. Die Fachliteratur schreibt ihm zugleich zu, 1954 die dreijährige Ford-Finanzierung für Der Monat arrangiert zu haben.
+John J. McCloy ist für diese Untersuchung interessanter als eine bloße Mitgliederliste: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee, eine zeitgenössische Bankenpublikation zugleich als Chairman des Board der Chase National Bank. Die offizielle JPMorganChase-Historie datiert die Bildung der Chase Manhattan Bank erst auf 1955. Der Council on Foreign Relations führt McCloy als eigenen Chairman 1953 bis 1970. Die Fachliteratur schreibt ihm zugleich zu, 1954 die dreijährige Ford-Finanzierung für Der Monat arrangiert zu haben.
 
-Das ist eine konkrete personelle Brücke **Hochfinanz ↔ außenpolitisches Policy-Netzwerk ↔ Medienfinanzierung**. Nicht belegt ist dagegen, dass McCloy dabei im Auftrag von Chase oder CFR handelte oder dass diese Institutionen redaktionelle Entscheidungen von Der Monat steuerten.
+Das ist eine konkrete personelle Brücke **Hochfinanz ↔ außenpolitisches Policy-Netzwerk ↔ Medienfinanzierung**. Nicht belegt ist dagegen, dass McCloy dabei im Auftrag von Chase National oder CFR handelte oder dass diese Institutionen redaktionelle Entscheidungen von Der Monat steuerten.
 
 ## Claim-Prüfung
 
@@ -308,7 +312,7 @@ Das ist eine konkrete personelle Brücke **Hochfinanz ↔ außenpolitisches Poli
 
 ### `CLM-DE-MNI-006`
 
-**Aussage:** John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; der Council on Foreign Relations führt ihn als Chairman von Chase Manhattan 1953 bis 1960 und als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben.
+**Aussage:** John J. McCloy bildet 1954 eine dokumentierte Finanz-/Policy-Netzwerk-/Medienfinanzierungs-Brücke: Der Ford-Jahresbericht führt ihn 1954 im Finance Committee; eine zeitgenössische Bankenpublikation führt ihn 1954 als Chairman des Board der Chase National Bank; JPMorganChase datiert die Bildung der Chase Manhattan Bank erst auf 1955; der Council on Foreign Relations führt McCloy als eigenen Chairman 1953 bis 1970; die Forschung schreibt ihm zu, die Ford-Finanzierung für Der Monat 1954 arrangiert zu haben.
 
 ### `CLM-DE-MNI-007`
 
@@ -328,5 +332,6 @@ Ebenso werden Elitennetzwerke nicht allein wegen Mitgliedschaft oder Teilnahme a
 - [Ford Foundation Annual Report 1954](https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf) — `SRC-US-FORD-DER-MONAT-1954`
 - [University of Chicago: Guide to the Der Monat Records](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT) — `SRC-US-UCHICAGO-DER-MONAT-ARCHIVE-2026`
 - [Scott-Smith: Melvin J. Lasky, Der Monat, and the Congress for Cultural Freedom](https://journals.sagepub.com/doi/10.1177/002200940003500207) — `SRC-INT-SCOTT-SMITH-DER-MONAT-2000`
-- [CFR: A Changing Membership](https://www.cfr.org/celebrating-a-century/changing-membership) — `SRC-US-CFR-MCCLOY-ROLES-2026`
+- [The Northwestern Banker — September 1954 (FRASER)](https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext) — `SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954`
+- [JPMorganChase — History](https://www.jpmorganchase.com/about/our-history) — `SRC-US-JPMC-CHASE-MERGER-2026`
 - [CFR: Board of Directors](https://www.cfr.org/board-directors) — `SRC-US-CFR-CHAIRS-2026`

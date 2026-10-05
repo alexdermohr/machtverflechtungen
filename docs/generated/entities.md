@@ -20,7 +20,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-BND` | intelligence_service | Bundesnachrichtendienst | DE |
 | `ORG-CA-CPP-INVESTMENTS` | pension_investment_manager | CPP Investments | CA |
 | `ORG-US-CIA` | intelligence_service | Central Intelligence Agency | US |
-| `ORG-US-CHASE-MANHATTAN` | bank | Chase Manhattan Bank | US |
+| `ORG-US-CHASE-NATIONAL-BANK` | bank | Chase National Bank | US |
 | `PER-DE-CLAUS-KLEBER` | person | Claus Kleber | DE |
 | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | cultural_network | Congress for Cultural Freedom | US, FR, DE |
 | `ORG-US-COUNCIL-FOREIGN-RELATIONS` | policy_network | Council on Foreign Relations | US |

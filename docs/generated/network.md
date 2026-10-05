@@ -189,8 +189,8 @@ flowchart LR
     N_ORG_INT_CONGRESS_CULTURAL_FREEDOM -->|"nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"| N_ORG_DE_DER_MONAT
     N_PER_US_JOHN_MCCLOY["John J. McCloy"]
     N_PER_US_JOHN_MCCLOY -->|"arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung"| N_ORG_DE_DER_MONAT
-    N_ORG_US_CHASE_MANHATTAN["Chase Manhattan Bank"]
-    N_PER_US_JOHN_MCCLOY -->|"Chairman 1953 bis 1960"| N_ORG_US_CHASE_MANHATTAN
+    N_ORG_US_CHASE_NATIONAL_BANK["Chase National Bank"]
+    N_PER_US_JOHN_MCCLOY -->|"1954 als Chairman of the Board ausgewiesen"| N_ORG_US_CHASE_NATIONAL_BANK
     N_ORG_US_COUNCIL_FOREIGN_RELATIONS["Council on Foreign Relations"]
     N_PER_US_JOHN_MCCLOY -->|"Chairman 1953 bis 1970"| N_ORG_US_COUNCIL_FOREIGN_RELATIONS
     N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER["Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken"]
@@ -307,7 +307,7 @@ flowchart LR
 | REL-DE-MNI-007 | Ford Foundation | bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status | Der Monat | established | SRC-US-FORD-DER-MONAT-1954 |
 | REL-DE-MNI-008 | Congress for Cultural Freedom | nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
 | REL-DE-MNI-009 | John J. McCloy | arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
-| REL-DE-MNI-010 | John J. McCloy | Chairman 1953 bis 1960 | Chase Manhattan Bank | established | SRC-US-CFR-MCCLOY-ROLES-2026 |
+| REL-DE-MNI-010 | John J. McCloy | 1954 als Chairman of the Board ausgewiesen | Chase National Bank | strong | SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954 |
 | REL-DE-MNI-011 | John J. McCloy | Chairman 1953 bis 1970 | Council on Foreign Relations | established | SRC-US-CFR-CHAIRS-2026 |
 | REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-MNI-013 | John J. McCloy | 1954 als Mitglied des Finance Committee ausgewiesen | Ford Foundation | established | SRC-US-FORD-DER-MONAT-1954 |

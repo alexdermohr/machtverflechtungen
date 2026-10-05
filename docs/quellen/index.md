@@ -688,16 +688,27 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
 
-<a id="src-us-cfr-mccloy-roles-2026"></a>
-## SRC-US-CFR-MCCLOY-ROLES-2026
+<a id="src-us-fraser-mccloy-chase-national-1954"></a>
+## SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
 
-**[CFR at 100 - A Changing Membership](https://www.cfr.org/celebrating-a-century/changing-membership)**
+**[The Northwestern Banker — September 1954](https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext)**
 
-Council on Foreign Relations · current · Stufe **A** · Primärquelle
+The Northwestern Banker / FRASER, Federal Reserve Bank of St. Louis · 1954-09 · Stufe **B** · Sekundär-/Forschungsquelle
 
-[Seite öffnen](https://www.cfr.org/celebrating-a-century/changing-membership)
+[Seite öffnen](https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext)
 
-Fundstelle: John J. McCloy; CFR-Mitglied seit 1939; U.S. High Commissioner for Germany 1949-1952; Chairman Chase Manhattan Bank 1953-1960
+Fundstelle: Zeitgenössisches Profil bezeichnet John J. McCloy als "Chairman of the Board, Chase National Bank, New York".
+
+<a id="src-us-jpmc-chase-merger-2026"></a>
+## SRC-US-JPMC-CHASE-MERGER-2026
+
+**[History](https://www.jpmorganchase.com/about/our-history)**
+
+JPMorganChase · current · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.jpmorganchase.com/about/our-history)
+
+Fundstelle: Historien-Timeline; 1955 fusionierten Bank of the Manhattan Company und Chase National Bank zur Chase Manhattan Bank.
 
 <a id="src-us-cfr-chairs-2026"></a>
 ## SRC-US-CFR-CHAIRS-2026

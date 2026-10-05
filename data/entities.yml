@@ -404,9 +404,9 @@ entities:
     name: "John J. McCloy"
     countries: [US]
 
-  - id: ORG-US-CHASE-MANHATTAN
+  - id: ORG-US-CHASE-NATIONAL-BANK
     type: bank
-    name: "Chase Manhattan Bank"
+    name: "Chase National Bank"
     countries: [US]
 
   - id: ORG-US-COUNCIL-FOREIGN-RELATIONS
