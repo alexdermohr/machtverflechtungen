@@ -469,3 +469,194 @@ sources:
   accessed: '2026-10-03'
   locator: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
   notes: Spiegelkopie einer datierten Mitgliederliste der Trilateral Commission; der Mirror-Status wird nicht als offizielle aktuelle Webverfügbarkeit ausgegeben.
+
+- id: SRC-DE-AS-KKR-AGREEMENT-2019
+  title: Axel Springer schließt Investorenvereinbarung mit KKR zur Unterstützung der langfristigen Wachstumsstrategie
+  institution: Axel Springer SE
+  date: '2019-06-12'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/axel-springer-schliesst-investorenvereinbarung-mit-kkr-zur-unterstuetzung-der-langfristigen-wachstumsstrategie
+  accessed: '2026-10-04'
+  locator: Traviata II S.à r.l. als Investor/Holdinggesellschaft; Investorenvereinbarung; Friede Springer kontrolliert 42,6 Prozent, Mathias Döpfner hält 2,8 Prozent; angemessene Investor-Vertretung im Aufsichtsrat; journalistische Unabhängigkeit soll erhalten bleiben
+  notes: Benennt Traviata II als Holdinggesellschaft der Investorenvereinbarung und dokumentiert die öffentlich beschriebenen Governance-Eckpunkte; die Unabhängigkeitsvorgabe beweist nicht ihre tatsächliche Einhaltung in jeder redaktionellen Entscheidung.
+
+- id: SRC-DE-AS-CPP-BOARD-2021
+  title: Axel Springer SE — Geplante Veränderungen im Aufsichtsrat
+  institution: Axel Springer SE
+  date: '2021-02-12'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/axel-springer-se-geplante-veraenderungen-im-aufsichtsrat
+  accessed: '2026-10-04'
+  locator: CPP Investments als Co-Investor mit rund 25 Prozent an Traviata I S.à r.l.; Traviata I hält die Axel-Springer-Beteiligung von KKR
+  notes: Trennt den Co-Investor CPP Investments vom Beteiligungsvehikel Traviata I S.à r.l. und von KKR als Finanzorganisation.
+
+- id: SRC-DE-AS-SQUEEZEOUT-2021
+  title: Axel Springer SE — Squeeze-Out vollzogen
+  institution: Axel Springer SE
+  date: '2021-02-23'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/axel-springer-se-squeeze-out-vollzogen
+  accessed: '2026-10-04'
+  locator: Traviata B.V. als Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; künftig rund 48,5 Prozent, Friede Springer und Mathias Döpfner jeweils rund 22 Prozent
+  notes: Die Quelle belegt für den Stichtag die Holding- und Fondsstruktur. Sie wird nicht als Beleg dafür verwendet, dass KKR selbst die Aktien unmittelbar hielt.
+
+- id: SRC-DE-AS-STRUCTURE-2025
+  title: Axel Springer setzt neue Unternehmensstruktur um
+  institution: Axel Springer SE
+  date: '2025-04-29'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/axel-springer-setzt-neue-unternehmensstruktur-um
+  accessed: '2026-10-04'
+  locator: Closing am 29.04.2025; KKR und CPP Investments geben ihre Axel-Springer-Anteile ab; Friede Springer und Mathias Döpfner halten zusammen 95 Prozent; restliche Anteile bei Axel Sven Springer und Friede-Springer-Stiftung
+  notes: Primärquelle für die aktuelle Eigentumszäsur. Die Quelle nennt keinen individuellen Prozentanteil innerhalb des 95-Prozent-Paars oder der verbleibenden fünf Prozent.
+
+- id: SRC-DE-AS-BOARDS-2026
+  title: Boards
+  institution: Axel Springer SE
+  date: current
+  type: official_governance_page
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/en/who-we-are/management-boards
+  accessed: '2026-10-04'
+  locator: Current Executive Board and Supervisory Board roster
+  notes: Stichtagsquelle zum Abrufdatum; sie trägt keine rückwirkende Amtsdauer vor dem beobachteten Datum.
+
+- id: SRC-US-KKR-HUTH-2026
+  title: Johannes Huth
+  institution: KKR
+  date: current
+  type: official_person_profile
+  primary: true
+  tier: A
+  url: https://www.kkr.com/about/our-people/johannes-huth
+  accessed: '2026-10-04'
+  locator: Senior Advisory Partner; Board member of Axel Springer SE; joined KKR in 1999; former Chairman of KKR EMEA
+  notes: Belegt Huths aktuelle KKR-Rolle und die von KKR selbst ausgewiesene Axel-Springer-Gremienrolle.
+
+- id: SRC-BE-GBL-HUTH-2026
+  title: Conseil d'Administration
+  institution: Groupe Bruxelles Lambert
+  date: current
+  type: official_governance_page
+  primary: true
+  tier: A
+  url: https://www.gbl.com/fr/governance/conseil-dadministration
+  accessed: '2026-10-04'
+  locator: Johannes Huth — Administrateur-Délégué
+  notes: Stichtagsquelle zum Abrufdatum für Huths GBL-Gremienrolle.
+- id: SRC-DE-AS-KKR-ADHOC-2019
+  title: "DGAP-Ad-hoc: Axel Springer SE: KKR kündigt freiwilliges Übernahmeangebot auf Basis einer mit Axel Springer SE abgeschlossenen Investorenvereinbarung an"
+  institution: Axel Springer SE
+  date: '2019-06-12'
+  type: ad_hoc_disclosure
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/adhoc/dgap-ad-hoc-axel-springer-se-kkr-kuendigt-freiwilliges-uebernahmeangebot-auf-basis-einer-mit-axel-springer-se-abgeschlossenen-investorenvereinbarung-an
+  accessed: '2026-10-04'
+  locator: Unbenannte Holdinggesellschaft im Besitz von durch KKR beratenen Fonds; Investorenvereinbarung und Übernahmeangebot vom 12.06.2019
+  notes: Belegt die KKR-beratene Fondsstruktur und eine Holdinggesellschaft als Vertrags-/Bieterebene, nennt diese Holdinggesellschaft aber nicht Traviata II; die Fahrzeugidentität wird separat durch SRC-DE-AS-KKR-AGREEMENT-2019 getragen.
+
+- id: SRC-DE-AS-OWNERSHIP-2026
+  title: "Axel Springer wird 80: Werte, Wandel und Lust auf Zukunft"
+  institution: Axel Springer SE
+  date: '2026-07-03'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/de/ax-press-release/axel-springer-wird-80-werte-wandel-und-lust-auf-zukunft
+  accessed: '2026-10-04'
+  locator: Abschnitt "Heute ein familiengeführtes Medienunternehmen"; Friede Springer und Mathias Döpfner rund 95 Prozent; Axel Sven Springer als dritter Eigentümer
+  notes: Aktuellere offizielle Eigentumsdarstellung als die Closing-Mitteilung 2025. Die Friede-Springer-Stiftung wird in dieser Darstellung nicht erwähnt; daraus wird kein Ausscheiden der Stiftung abgeleitet.
+
+- id: SRC-DE-BERTELSMANN-OWNERS-2026
+  title: Aktionärsstruktur
+  institution: Bertelsmann SE & Co. KGaA
+  date: current
+  type: official_shareholder_page
+  primary: true
+  tier: A
+  url: https://www.bertelsmann.com/de/investor-relations/bertelsmann-im-ueberblick/aktionaere/
+  accessed: '2026-10-04'
+  locator: 80,9 Prozent Kapitalanteile bei vier Stiftungen; 19,1 Prozent mittelbar bei Familie Mohn; sämtliche Stimmrechte durch Bertelsmann Verwaltungsgesellschaft kontrolliert
+  notes: Die Quelle trennt Kapitalanteile von Stimmrechtskontrolle und weist keine Einzelquoten innerhalb der vier Stiftungen aus.
+
+- id: SRC-LU-RTL-AR-2025
+  title: RTL Group S.A. Annual accounts for the year ended 31 December 2025
+  institution: RTL Group S.A.
+  date: '2026-03-11'
+  type: statutory_annual_accounts
+  primary: true
+  tier: A
+  url: https://company.rtl.com/export/sites/rtlunited/.galleries/downloads/general_meeting/agm-2026/convening-notice-and-preparatory-documents/3.-AGM-2026-RTL-Group-Statutory-Accounts-2025.pdf
+  accessed: '2026-10-04'
+  locator: Directors' report S. 3 und 9 sowie Notes S. 14; RTL Deutschland als größte Geschäftseinheit, Bertelsmann Capital Holding GmbH mit 75,0 Prozent und Bertelsmann SE & Co. KGaA als oberste Muttergesellschaft
+  notes: Primärquelle für die RTL-Group-Aktionärsstruktur und Konzernzuordnung am Bilanzstichtag; direkte Holdingposition, oberste Muttergesellschaft und Geschäftseinheit bleiben getrennte Relationstypen.
+
+- id: SRC-LU-RTL-FY-2025
+  title: RTL Group Full-year results 2025
+  institution: RTL Group S.A.
+  date: '2026-03-12'
+  type: financial_results_report
+  primary: true
+  tier: A
+  url: https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf
+  accessed: '2026-10-05'
+  locator: Corporate structure (simplified) as at 31 December 2025; RTL Deutschland mit 100 Prozent
+  notes: Offizieller Ergebnisbericht; trägt die 100-Prozent-Zuordnung von RTL Deutschland zum Bilanzstichtag getrennt von den statutarischen Aktionärsangaben.
+
+- id: SRC-DE-RTL-GJ-2026
+  title: Gruner + Jahr Deutschland GmbH
+  institution: RTL Group
+  date: current
+  type: official_company_page
+  primary: true
+  tier: A
+  url: https://company.rtl.com/de/business-units/overview/rtl-deutschland/unternehmen/gruner-jahr-deutschland-gmbh/
+  accessed: '2026-10-04'
+  locator: Gruner + Jahr gehört seit 2022 vollständig zur RTL Deutschland GmbH
+  notes: Aktuelle Konzernseite; trennt die fortbestehende Gesellschaft von der historischen eigenständigen G+J-Konzernrolle.
+
+- id: SRC-DE-ZEIT-IMPRINT-2026
+  title: Impressum
+  institution: ZEIT Verlagsgruppe
+  date: current
+  type: official_imprint
+  primary: true
+  tier: A
+  url: https://www.zeit-verlagsgruppe.de/impressum/
+  accessed: '2026-10-04'
+  locator: Seit Juni 2009 je 50 Prozent Holtzbrinck und DvH Medien; Geschäftsführung mit Nils von der Kall als Vorsitzendem
+  notes: Aktueller Stichtag; die angekündigte Änderung ab 2027 wird separat erfasst.
+
+- id: SRC-DE-ZEIT-TRANSFER-2026
+  title: Neuordnung der Holtzbrinck Beteiligungsverhältnisse bei der ZEIT im Zeichen von Kontinuität
+  institution: ZEIT Verlagsgruppe
+  date: '2026-06-03'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.zeit-verlagsgruppe.de/pressemitteilung/neuordnung-der-holtzbrinck-beteiligungsverhaeltnisse-bei-der-zeit-im-zeichen-von-kontinuitaet/
+  accessed: '2026-10-04'
+  locator: DvH Medien überträgt zum 1. Januar 2027 ihren 50-Prozent-Anteil an Holtzbrinck; Holtzbrinck soll dann Alleineigentümerin werden
+  notes: Belegt eine vereinbarte zukünftige Übertragung, nicht deren bereits erfolgten Vollzug.
+
+- id: SRC-DE-HMG-OWNERS-2026
+  title: Impressum
+  institution: Handelsblatt
+  date: current
+  type: official_imprint
+  primary: true
+  tier: A
+  url: https://www.handelsblatt.com/impressum/
+  accessed: '2026-10-04'
+  locator: Handelsblatt Media Group gehört 100 Prozent zur DvH Medien GmbH; Handelsblatt GmbH ist Unternehmen der Handelsblatt Media Group
+  notes: Aktuelle Eigentums- und Konzernangabe aus dem Impressum.

@@ -602,3 +602,333 @@ relations:
     evidence_level: strong
     sources: [SRC-INT-TRILATERAL-2017-MIRROR]
     claim_ids: [CLM-DE-TMN-002]
+
+  - id: REL-DE-MOG-001
+    from: PER-DE-FRIEDE-SPRINGER
+    to: ORG-DE-AXEL-SPRINGER
+    type: joint_majority_shareholder
+    label: "hält mit Mathias Döpfner zusammen 95 Prozent der Anteile"
+    period: {start: "2025-04-29", end: "2025-04-29"}
+    evidence_level: established
+    sources: [SRC-DE-AS-STRUCTURE-2025]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-002
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-AXEL-SPRINGER
+    type: joint_majority_shareholder
+    label: "hält mit Friede Springer zusammen 95 Prozent der Anteile"
+    period: {start: "2025-04-29", end: "2025-04-29"}
+    evidence_level: established
+    sources: [SRC-DE-AS-STRUCTURE-2025]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-005
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-AXEL-SPRINGER
+    type: chief_executive
+    label: "Chief Executive Officer"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-AS-BOARDS-2026]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-009
+    from: PER-DE-FRIEDE-SPRINGER
+    to: ORG-DE-AXEL-SPRINGER
+    type: supervisory_board_vice_chair
+    label: "stellvertretende Vorsitzende des Aufsichtsrats"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-AS-BOARDS-2026]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-010
+    from: PER-DE-JOHANNES-HUTH
+    to: ORG-DE-AXEL-SPRINGER
+    type: supervisory_board_member
+    label: "Mitglied des Aufsichtsrats"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-AS-BOARDS-2026, SRC-US-KKR-HUTH-2026]
+    claim_ids: [CLM-DE-MOG-004]
+
+  - id: REL-DE-MOG-011
+    from: PER-DE-JOHANNES-HUTH
+    to: ORG-BE-GBL
+    type: managing_director
+    label: "Administrateur-Délégué"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-BE-GBL-HUTH-2026]
+    claim_ids: [CLM-DE-MOG-004]
+
+  - id: REL-DE-MOG-012
+    from: PER-DE-JOHANNES-HUTH
+    to: ORG-US-KKR
+    type: senior_advisory_partner
+    label: "Senior Advisory Partner"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-US-KKR-HUTH-2026]
+    claim_ids: [CLM-DE-MOG-004]
+
+  - id: REL-DE-MOG-013
+    from: ORG-LU-TRAVIATA-II-SARL
+    to: ORG-DE-AXEL-SPRINGER
+    type: strategic_investor_agreement
+    label: "Holdinggesellschaft als Vertragspartei der Investorenvereinbarung"
+    period: {start: "2019-06-12", end: "2019-06-12"}
+    evidence_level: established
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
+    claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MOG-014
+    from: ORG-NL-TRAVIATA-BV
+    to: ORG-DE-AXEL-SPRINGER
+    type: major_shareholder
+    label: "rund 48,5 Prozent der Anteile am Stichtag"
+    period: {start: "2021-02-23", end: "2021-02-23"}
+    evidence_level: established
+    sources: [SRC-DE-AS-SQUEEZEOUT-2021]
+    claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MOG-015
+    from: ORG-US-KKR
+    to: ORG-NL-TRAVIATA-BV
+    type: fund_advisor_relation
+    label: "Traviata B.V. war im Besitz von Fonds, die durch KKR beraten wurden"
+    period: {start: "2021-02-23", end: "2021-02-23"}
+    evidence_level: established
+    sources: [SRC-DE-AS-SQUEEZEOUT-2021]
+    claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MOG-016
+    from: ORG-CA-CPP-INVESTMENTS
+    to: ORG-LU-TRAVIATA-I-SARL
+    type: co_investor
+    label: "rund 25 Prozent Co-Investment an Traviata I S.à r.l."
+    period: {start: "2021-02-12", end: "2021-02-12"}
+    evidence_level: established
+    sources: [SRC-DE-AS-CPP-BOARD-2021]
+    claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MOG-017
+    from: ORG-LU-TRAVIATA-I-SARL
+    to: ORG-DE-AXEL-SPRINGER
+    type: stake_holding_vehicle
+    label: "Gesellschaft, die die Axel-Springer-Beteiligung von KKR hielt"
+    period: {start: "2021-02-12", end: "2021-02-12"}
+    evidence_level: established
+    sources: [SRC-DE-AS-CPP-BOARD-2021]
+    claim_ids: [CLM-DE-MOG-002]
+  - id: REL-DE-MOG-018
+    from: ORG-US-KKR
+    to: ORG-LU-TRAVIATA-II-SARL
+    type: fund_advisor_relation
+    label: "Holdinggesellschaft wurde durch von KKR beratene Fonds gehalten"
+    period: {start: "2019-06-12", end: "2019-06-12"}
+    evidence_level: established
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019, SRC-DE-AS-KKR-ADHOC-2019]
+    claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MOG-019
+    from: PER-DE-FRIEDE-SPRINGER
+    to: ORG-DE-AXEL-SPRINGER
+    type: joint_majority_shareholder
+    label: "hält mit Mathias Döpfner rund 95 Prozent der Anteile"
+    period: {start: "2026-07-03", end: "2026-07-03"}
+    evidence_level: established
+    sources: [SRC-DE-AS-OWNERSHIP-2026]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-020
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-AXEL-SPRINGER
+    type: joint_majority_shareholder
+    label: "hält mit Friede Springer rund 95 Prozent der Anteile"
+    period: {start: "2026-07-03", end: "2026-07-03"}
+    evidence_level: established
+    sources: [SRC-DE-AS-OWNERSHIP-2026]
+    claim_ids: [CLM-DE-MOG-018]
+
+  - id: REL-DE-MOG-022
+    from: ORG-DE-BERTELSMANN-STIFTUNG
+    to: ORG-DE-BERTELSMANN
+    type: collective_capital_shareholder
+    label: "eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-023
+    from: ORG-DE-REINHARD-MOHN-STIFTUNG
+    to: ORG-DE-BERTELSMANN
+    type: collective_capital_shareholder
+    label: "eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-024
+    from: ORG-DE-BVG-FAMILIENSTIFTUNG
+    to: ORG-DE-BERTELSMANN
+    type: collective_capital_shareholder
+    label: "eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-025
+    from: ORG-DE-BVG-STIFTUNG
+    to: ORG-DE-BERTELSMANN
+    type: collective_capital_shareholder
+    label: "eine von vier Stiftungen, die zusammen 80,9 Prozent der Kapitalanteile halten"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-026
+    from: ORG-DE-MOHN-FAMILY
+    to: ORG-DE-BERTELSMANN
+    type: indirect_shareholder
+    label: "hält mittelbar 19,1 Prozent der Kapitalanteile"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-027
+    from: ORG-DE-BERTELSMANN-VERWALTUNGSGESELLSCHAFT
+    to: ORG-DE-BERTELSMANN
+    type: voting_control
+    label: "kontrolliert sämtliche Stimmrechte"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-031
+    from: ORG-DE-BERTELSMANN-VERWALTUNGSGESELLSCHAFT
+    to: ORG-DE-BERTELSMANN-MANAGEMENT-SE
+    type: voting_control
+    label: "kontrolliert sämtliche Stimmrechte"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-033
+    from: ORG-DE-BERTELSMANN-CAPITAL-HOLDING
+    to: ORG-LU-RTL-GROUP
+    type: major_shareholder
+    label: "hielt 75,0 Prozent der Anteile"
+    period: {start: "2025-12-31", end: "2025-12-31"}
+    evidence_level: established
+    sources: [SRC-LU-RTL-AR-2025]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-034
+    from: ORG-DE-BERTELSMANN
+    to: ORG-LU-RTL-GROUP
+    type: ultimate_parent_company
+    label: "im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen"
+    period: {start: "2025-12-31", end: "2025-12-31"}
+    evidence_level: established
+    sources: [SRC-LU-RTL-AR-2025]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-035
+    from: ORG-LU-RTL-GROUP
+    to: ORG-DE-RTL-DEUTSCHLAND
+    type: sole_owned_business_unit
+    label: "im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen"
+    period: {start: "2025-12-31", end: "2025-12-31"}
+    evidence_level: established
+    sources: [SRC-LU-RTL-FY-2025]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-036
+    from: ORG-DE-RTL-DEUTSCHLAND
+    to: ORG-DE-GRUNER-JAHR-DEUTSCHLAND
+    type: sole_shareholder
+    label: "Gruner + Jahr gehört vollständig zu RTL Deutschland"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-RTL-GJ-2026]
+    claim_ids: [CLM-DE-MOG-008]
+
+  - id: REL-DE-MOG-050
+    from: ORG-DE-HOLTZBRINCK-PUBLISHING-GROUP
+    to: ORG-DE-ZEITVERLAG
+    type: shareholder
+    label: "hält 50 Prozent"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-ZEIT-IMPRINT-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+  - id: REL-DE-MOG-051
+    from: ORG-DE-DVH-MEDIEN
+    to: ORG-DE-ZEITVERLAG
+    type: shareholder
+    label: "hält 50 Prozent"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-ZEIT-IMPRINT-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+  - id: REL-DE-MOG-053
+    from: ORG-DE-HOLTZBRINCK-PUBLISHING-GROUP
+    to: ORG-DE-ZEITVERLAG
+    type: scheduled_sole_owner
+    label: "als Alleineigentümerin nach angekündigter Anteilsübertragung vorgesehen"
+    period: {start: "2027-01-01", end: "2027-01-01"}
+    evidence_level: established
+    sources: [SRC-DE-ZEIT-TRANSFER-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+  - id: REL-DE-MOG-054
+    from: ORG-DE-DVH-MEDIEN
+    to: ORG-DE-ZEITVERLAG
+    type: scheduled_ownership_exit
+    label: "soll den 50-Prozent-Anteil an Holtzbrinck übertragen"
+    period: {start: "2027-01-01", end: "2027-01-01"}
+    evidence_level: established
+    sources: [SRC-DE-ZEIT-TRANSFER-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+  - id: REL-DE-MOG-055
+    from: ORG-DE-DVH-MEDIEN
+    to: ORG-DE-HANDELSBLATT-MEDIA-GROUP
+    type: sole_shareholder
+    label: "hält 100 Prozent"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-HMG-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+  - id: REL-DE-MOG-056
+    from: ORG-DE-HANDELSBLATT-MEDIA-GROUP
+    to: ORG-DE-HANDELSBLATT
+    type: operates_media_outlet
+    label: "Konzern- und Verlagszuordnung des Handelsblatt"
+    period: {start: "2026-10-04", end: "2026-10-04"}
+    evidence_level: established
+    sources: [SRC-DE-HMG-OWNERS-2026]
+    claim_ids: [CLM-DE-MOG-012]
+
+
+  - id: REL-DE-MOG-077
+    from: ORG-US-KKR
+    to: ORG-DE-AXEL-SPRINGER
+    type: investor_governance_representation
+    label: "Investorenvereinbarung sah eine angemessene KKR-Vertretung im Aufsichtsrat vor"
+    period: {start: "2019-06-12", end: "2019-06-12"}
+    evidence_level: established
+    sources: [SRC-DE-AS-KKR-AGREEMENT-2019]
+    claim_ids: [CLM-DE-MOG-002]
