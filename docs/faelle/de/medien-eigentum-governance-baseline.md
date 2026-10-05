@@ -56,6 +56,7 @@ sources:
   - SRC-BE-GBL-HUTH-2026
   - SRC-DE-BERTELSMANN-OWNERS-2026
   - SRC-LU-RTL-AR-2025
+  - SRC-LU-RTL-FY-2025
   - SRC-DE-RTL-GJ-2026
   - SRC-DE-ZEIT-IMPRINT-2026
   - SRC-DE-ZEIT-TRANSFER-2026
@@ -166,14 +167,17 @@ claims:
     text: "Bei Bertelsmann waren Kapital und Stimmrechtsmacht stark getrennt: Vier Stiftungen hielten zusammen 80,9 Prozent der Kapitalanteile und die Familie Mohn mittelbar 19,1 Prozent, während die Bertelsmann Verwaltungsgesellschaft sämtliche Stimmrechte in Bertelsmann SE & Co. KGaA und Bertelsmann Management SE kontrollierte. Unter dieser Mutterstruktur hielt die Bertelsmann Capital Holding zum 31. Dezember 2025 75 Prozent der RTL Group; RTL Deutschland war eine 100-Prozent-Einheit der RTL Group, und Gruner + Jahr gehörte am 4. Oktober 2026 vollständig zu RTL Deutschland."
     classification: fact
     evidence_level: established
-    sources: [SRC-DE-BERTELSMANN-OWNERS-2026, SRC-LU-RTL-AR-2025, SRC-DE-RTL-GJ-2026]
+    sources: [SRC-DE-BERTELSMANN-OWNERS-2026, SRC-LU-RTL-AR-2025, SRC-LU-RTL-FY-2025, SRC-DE-RTL-GJ-2026]
     evidence:
       - source: SRC-DE-BERTELSMANN-OWNERS-2026
         directness: direct
         note: "Die offizielle Aktionärsseite trennt Kapitalanteile ausdrücklich von vollständiger Stimmrechtskontrolle durch die BVG."
       - source: SRC-LU-RTL-AR-2025
         directness: direct
-        note: "Der RTL-Abschluss dokumentiert Bertelsmann als oberste Muttergesellschaft, die 75-Prozent-Position der Bertelsmann Capital Holding und RTL Deutschland als 100-Prozent-Einheit."
+        note: "Der statutarische RTL-Abschluss dokumentiert Bertelsmann als oberste Muttergesellschaft und die 75-Prozent-Position der Bertelsmann Capital Holding."
+      - source: SRC-LU-RTL-FY-2025
+        directness: direct
+        note: "Der offizielle Full-year-results-Bericht 2025 weist RTL Deutschland in der vereinfachten Konzernstruktur zum 31. Dezember 2025 als 100-Prozent-Einheit aus."
       - source: SRC-DE-RTL-GJ-2026
         directness: direct
         note: "RTL dokumentiert Gruner + Jahr als vollständig zu RTL Deutschland gehörend."
@@ -375,6 +379,7 @@ Die stärkste noch offene Erkenntnisstufe ist konkrete Fremdbestimmung: Dafür w
 - [Conseil d'Administration](https://www.gbl.com/fr/governance/conseil-dadministration) — `SRC-BE-GBL-HUTH-2026`
 - [Bertelsmann — Aktionärsstruktur](https://www.bertelsmann.com/de/investor-relations/bertelsmann-im-ueberblick/aktionaere/) — `SRC-DE-BERTELSMANN-OWNERS-2026`
 - [RTL Group S.A. Annual accounts 2025](https://company.rtl.com/export/sites/rtlunited/.galleries/downloads/general_meeting/agm-2026/convening-notice-and-preparatory-documents/3.-AGM-2026-RTL-Group-Statutory-Accounts-2025.pdf) — `SRC-LU-RTL-AR-2025`
+- [RTL Group Full-year results 2025](https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf) — `SRC-LU-RTL-FY-2025`
 - [Gruner + Jahr Deutschland GmbH](https://company.rtl.com/de/business-units/overview/rtl-deutschland/unternehmen/gruner-jahr-deutschland-gmbh/) — `SRC-DE-RTL-GJ-2026`
 - [ZEIT Verlagsgruppe — Impressum](https://www.zeit-verlagsgruppe.de/impressum/) — `SRC-DE-ZEIT-IMPRINT-2026`
 - [Neuordnung der Holtzbrinck Beteiligungsverhältnisse bei der ZEIT](https://www.zeit-verlagsgruppe.de/pressemitteilung/neuordnung-der-holtzbrinck-beteiligungsverhaeltnisse-bei-der-zeit-im-zeichen-von-kontinuitaet/) — `SRC-DE-ZEIT-TRANSFER-2026`

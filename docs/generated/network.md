@@ -159,7 +159,7 @@ flowchart LR
     N_ORG_DE_BERTELSMANN_CAPITAL_HOLDING -->|"hielt 75,0 Prozent der Anteile"| N_ORG_LU_RTL_GROUP
     N_ORG_DE_BERTELSMANN -->|"im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen"| N_ORG_LU_RTL_GROUP
     N_ORG_DE_RTL_DEUTSCHLAND["RTL Deutschland"]
-    N_ORG_LU_RTL_GROUP -->|"im Konzernschema als 100-Prozent-Einheit und größte Geschäftseinheit der RTL Group ausgewiesen"| N_ORG_DE_RTL_DEUTSCHLAND
+    N_ORG_LU_RTL_GROUP -->|"im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen"| N_ORG_DE_RTL_DEUTSCHLAND
     N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND["Gruner + Jahr Deutschland GmbH"]
     N_ORG_DE_RTL_DEUTSCHLAND -->|"Gruner + Jahr gehört vollständig zu RTL Deutschland"| N_ORG_DE_GRUNER_JAHR_DEUTSCHLAND
     N_ORG_DE_HOLTZBRINCK_PUBLISHING_GROUP["Georg von Holtzbrinck GmbH & Co. KG"]
@@ -266,7 +266,7 @@ flowchart LR
 | REL-DE-MOG-031 | Bertelsmann Verwaltungsgesellschaft (BVG) | kontrolliert sämtliche Stimmrechte | Bertelsmann Management SE | established | SRC-DE-BERTELSMANN-OWNERS-2026 |
 | REL-DE-MOG-033 | Bertelsmann Capital Holding GmbH | hielt 75,0 Prozent der Anteile | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
 | REL-DE-MOG-034 | Bertelsmann SE & Co. KGaA | im RTL-Abschluss als oberste Muttergesellschaft ausgewiesen | RTL Group S.A. | established | SRC-LU-RTL-AR-2025 |
-| REL-DE-MOG-035 | RTL Group S.A. | im Konzernschema als 100-Prozent-Einheit und größte Geschäftseinheit der RTL Group ausgewiesen | RTL Deutschland | established | SRC-LU-RTL-AR-2025 |
+| REL-DE-MOG-035 | RTL Group S.A. | im Konzernschema als 100-Prozent-Einheit der RTL Group ausgewiesen | RTL Deutschland | established | SRC-LU-RTL-FY-2025 |
 | REL-DE-MOG-036 | RTL Deutschland | Gruner + Jahr gehört vollständig zu RTL Deutschland | Gruner + Jahr Deutschland GmbH | established | SRC-DE-RTL-GJ-2026 |
 | REL-DE-MOG-050 | Georg von Holtzbrinck GmbH & Co. KG | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |
 | REL-DE-MOG-051 | DvH Medien GmbH | hält 50 Prozent | Zeitverlag Gerd Bucerius GmbH & Co. KG | established | SRC-DE-ZEIT-IMPRINT-2026 |

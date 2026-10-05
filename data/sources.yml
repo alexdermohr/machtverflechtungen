@@ -601,6 +601,18 @@ sources:
   locator: Directors' report S. 3 und 9 sowie Notes S. 14; RTL Deutschland als größte Geschäftseinheit, Bertelsmann Capital Holding GmbH mit 75,0 Prozent und Bertelsmann SE & Co. KGaA als oberste Muttergesellschaft
   notes: Primärquelle für die RTL-Group-Aktionärsstruktur und Konzernzuordnung am Bilanzstichtag; direkte Holdingposition, oberste Muttergesellschaft und Geschäftseinheit bleiben getrennte Relationstypen.
 
+- id: SRC-LU-RTL-FY-2025
+  title: RTL Group Full-year results 2025
+  institution: RTL Group S.A.
+  date: '2026-03-12'
+  type: financial_results_report
+  primary: true
+  tier: A
+  url: https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf
+  accessed: '2026-10-05'
+  locator: Corporate structure (simplified) as at 31 December 2025; RTL Deutschland mit 100 Prozent
+  notes: Offizieller Ergebnisbericht; trägt die 100-Prozent-Zuordnung von RTL Deutschland zum Bilanzstichtag getrennt von den statutarischen Aktionärsangaben.
+
 - id: SRC-DE-RTL-GJ-2026
   title: Gruner + Jahr Deutschland GmbH
   institution: RTL Group

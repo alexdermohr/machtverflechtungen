@@ -589,6 +589,17 @@ RTL Group S.A. · 2026-03-11 · Stufe **A** · Primärquelle
 
 Fundstelle: Directors' report S. 3 und 9 sowie Notes S. 14; RTL Deutschland als größte Geschäftseinheit, Bertelsmann Capital Holding GmbH mit 75,0 Prozent und Bertelsmann SE & Co. KGaA als oberste Muttergesellschaft
 
+<a id="src-lu-rtl-fy-2025"></a>
+## SRC-LU-RTL-FY-2025
+
+**[RTL Group Full-year results 2025](https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf)**
+
+RTL Group S.A. · 2026-03-12 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://company.rtl.com/.galleries/downloads/financial-results/fy-2025/RTL-Group-Full-year-results-2025-report.pdf)
+
+Fundstelle: Corporate structure (simplified) as at 31 December 2025; RTL Deutschland mit 100 Prozent
+
 <a id="src-de-rtl-gj-2026"></a>
 ## SRC-DE-RTL-GJ-2026
 
