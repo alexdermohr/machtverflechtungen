@@ -660,3 +660,99 @@ sources:
   accessed: '2026-10-04'
   locator: Handelsblatt Media Group gehört 100 Prozent zur DvH Medien GmbH; Handelsblatt GmbH ist Unternehmen der Handelsblatt Media Group
   notes: Aktuelle Eigentums- und Konzernangabe aus dem Impressum.
+
+- id: SRC-DE-BT-UA-BND-JOURNALISTEN-2009
+  title: Bericht des 1. Untersuchungsausschusses der 16. Wahlperiode
+  institution: Deutscher Bundestag
+  date: '2009-06-18'
+  type: parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/16/134/1613400.pdf
+  accessed: '2026-10-04'
+  locator: Drucksache 16/13400; Teil B, S. 337–340 zu Schmidt-Eenboom; Teil C H, S. 414–415 zur Ausschussbewertung der Journalistenkontakte und Medienbeeinflussung; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+  notes: Belegt BND-Observationen und operative Journalistenkontakte sowie den Mehrheitsbefund zu Einflussversuchen auf Medienberichterstattung und zugleich fehlenden Anhaltspunkten für vom BND lancierte Zeitungsbeiträge. Die namentliche Mascolo-Aussage wird nur als Sondervotums-/Schäfer-Bericht-Attribution verwendet.
+
+- id: SRC-US-CIA-CCF-HISTORY-1995
+  title: Origins of the Congress for Cultural Freedom, 1949-1950
+  institution: Central Intelligence Agency, Center for the Study of Intelligence
+  date: '1995'
+  type: official_intelligence_history
+  primary: false
+  tier: B
+  url: https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-38-no-5/origins-of-the-congress-for-cultural-freedom-1949-1950/
+  accessed: '2026-10-04'
+  locator: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
+  notes: Offizielle retrospektive Darstellung, keine zeitgenössische Primärakte. Sie trägt den CIA-CCF-Zusammenhang, nicht die Behauptung, die CIA habe Der Monat 1948 gegründet.
+
+- id: SRC-US-FORD-DER-MONAT-1954
+  title: Ford Foundation Annual Report 1954
+  institution: Ford Foundation
+  date: '1954'
+  type: foundation_annual_report
+  primary: true
+  tier: A
+  url: https://www.fordfoundation.org/wp-content/uploads/2015/05/1954-annual-report.pdf
+  accessed: '2026-10-04'
+  locator: S. 39; 175.000 US-Dollar für Der Monat über drei Jahre; US-Regierungsförderung endet 1954; Ziel der Ford-Mittel war der Übergang zu einer unabhängigen Zeitschrift. S. 69 führt John J. McCloy als Mitglied des Finance Committee.
+  notes: Primärquelle für den Ford-Zuschuss, McCloys Finance-Committee-Rolle 1954 und wichtige Gegen-Evidenz gegen eine pauschale Gleichsetzung des Ford-Zuschusses mit geheimer CIA-Finanzierung.
+
+- id: SRC-US-UCHICAGO-DER-MONAT-ARCHIVE-2026
+  title: Guide to the Der Monat Records 1948-1971
+  institution: University of Chicago Library, Special Collections Research Center
+  date: current
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.DERMONAT
+  accessed: '2026-10-04'
+  locator: Historische Einleitung; Ford-Zuschuss ermöglichte Übergang in privaten Status; später enge Verbindung zur International Association for Cultural Freedom
+  notes: Institutioneller Archivführer, keine zeitgenössische Primärquelle.
+
+- id: SRC-INT-SCOTT-SMITH-DER-MONAT-2000
+  title: 'A Radical Democratic Political Offensive: Melvin J. Lasky, Der Monat, and the Congress for Cultural Freedom'
+  institution: Journal of Contemporary History
+  date: '2000-04-01'
+  type: peer_reviewed_research
+  primary: false
+  tier: B
+  url: https://journals.sagepub.com/doi/10.1177/002200940003500207
+  accessed: '2026-10-04'
+  locator: Studie zur Entstehung und Finanzierung von Der Monat; nach Auslaufen des Ford-Zuschusses wurden laut Studie jährliche Zuschüsse über den Congress aus CIA-Mitteln geleitet; McCloy arrangierte 1954 die Ford-Finanzierung
+  notes: Sekundärforschung; trägt die verdeckte Finanzierungskette in den späten 1950er Jahren und McCloys Vermittlungsrolle, nicht eine CIA-Gründung von Der Monat.
+
+- id: SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954
+  title: The Northwestern Banker — September 1954
+  institution: The Northwestern Banker / FRASER, Federal Reserve Bank of St. Louis
+  date: '1954-09'
+  type: contemporary_banking_periodical_archive
+  primary: false
+  tier: B
+  url: https://fraser.stlouisfed.org/title/northwestern-banker-6477/september-1954-612743/fulltext
+  accessed: '2026-10-05'
+  locator: Zeitgenössisches Profil bezeichnet John J. McCloy als "Chairman of the Board, Chase National Bank, New York".
+  notes: Zeitgenössische Bankenpublikation im FRASER-Archiv; trägt die konkrete Bankbezeichnung für McCloys 1954 zeitgleiche Finanzrolle.
+
+- id: SRC-US-JPMC-CHASE-MERGER-2026
+  title: History
+  institution: JPMorganChase
+  date: current
+  type: official_corporate_history
+  primary: true
+  tier: A
+  url: https://www.jpmorganchase.com/about/our-history
+  accessed: '2026-10-05'
+  locator: Historien-Timeline; 1955 fusionierten Bank of the Manhattan Company und Chase National Bank zur Chase Manhattan Bank.
+  notes: Offizielle Unternehmenshistorie zur Namens- und Fusionszäsur; verhindert die anachronistische Rückdatierung des Namens Chase Manhattan auf 1953/1954.
+
+- id: SRC-US-CFR-CHAIRS-2026
+  title: Board of Directors
+  institution: Council on Foreign Relations
+  date: current
+  type: organization_governance_history
+  primary: true
+  tier: A
+  url: https://www.cfr.org/board-directors
+  accessed: '2026-10-04'
+  locator: Historische Board Chairs; John J. McCloy 1953-1970
+  notes: Belegt McCloys CFR-Vorsitz; keine Aussage über Einfluss des CFR auf Der Monat.

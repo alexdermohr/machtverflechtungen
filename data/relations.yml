@@ -120,7 +120,7 @@ relations:
     period: {start: "2017-05-16", end: "2017-05-17"}
     evidence_level: established
     sources: [SRC-DE-AB-CONFERENCE-2017]
-    claim_ids: [CLM-DE-TMN-002]
+    claim_ids: [CLM-DE-TMN-002, CLM-DE-MNI-003]
 
   - id: REL-DE-TMN-008
     from: PER-DE-GEORG-MASCOLO
@@ -932,3 +932,130 @@ relations:
     evidence_level: established
     sources: [SRC-DE-AS-KKR-AGREEMENT-2019]
     claim_ids: [CLM-DE-MOG-002]
+
+  - id: REL-DE-MNI-001
+    from: ORG-DE-BND
+    to: PER-DE-ERICH-SCHMIDT-EENBOOM
+    type: journalist_surveillance_target
+    label: "wurde in mehreren Phasen observiert; dabei wurden auch Besucher und journalistische Kontakte erfasst"
+    period: {start: "1993", end: "1996"}
+    evidence_level: established
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-001]
+
+  - id: REL-DE-MNI-002
+    from: ORG-DE-BND
+    to: PER-DE-ERICH-SCHMIDT-EENBOOM
+    type: operational_journalist_contact
+    label: "führte 1997 bis 2005 operative Gespräche, um unter anderem BND-Informanten des Journalisten zu ermitteln"
+    period: {start: "1997", end: "2005"}
+    evidence_level: established
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-001]
+
+  - id: REL-DE-MNI-003
+    from: ORG-DE-BND
+    to: PER-DE-ERICH-SCHMIDT-EENBOOM
+    type: covert_payment
+    label: "überwies 2003/2004 insgesamt 982 Euro als 'Spenden' auf das Konto seines Instituts, zunächst unter Tarnnamen"
+    period: {start: "2003", end: "2004"}
+    evidence_level: established
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-001]
+
+  - id: REL-DE-MNI-004
+    from: PER-DE-VOLKER-FOERTSCH
+    to: ORG-DE-BND
+    type: security_department_head
+    label: "leitete die Abteilung Sicherheit und unterhielt operative Journalistenkontakte"
+    period: {start: "1994", end: "1998"}
+    evidence_level: established
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-002, CLM-DE-MNI-003]
+
+  - id: REL-DE-MNI-005
+    from: ORG-DE-BND
+    to: PER-DE-GEORG-MASCOLO
+    type: attributed_media_influence_contact
+    label: "Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können"
+    evidence_level: strong
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-003]
+
+  - id: REL-DE-MNI-006
+    from: ORG-US-CIA
+    to: ORG-INT-CONGRESS-CULTURAL-FREEDOM
+    type: covert_sponsorship
+    label: "CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation"
+    period: {start: "1950", end: "1966"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-CCF-HISTORY-1995]
+    claim_ids: [CLM-DE-MNI-004]
+
+  - id: REL-DE-MNI-007
+    from: ORG-US-FORD-FOUNDATION
+    to: ORG-DE-DER-MONAT
+    type: foundation_grant
+    label: "bewilligte 1954 175.000 US-Dollar für einen dreijährigen Übergang zu privatem Status"
+    period: {start: "1954", end: "1954"}
+    evidence_level: established
+    sources: [SRC-US-FORD-DER-MONAT-1954]
+    claim_ids: [CLM-DE-MNI-004, CLM-DE-MNI-005]
+
+  - id: REL-DE-MNI-008
+    from: ORG-INT-CONGRESS-CULTURAL-FREEDOM
+    to: ORG-DE-DER-MONAT
+    type: covert_funding_conduit
+    label: "nach Auslaufen der Ford-Finanzierung wurden laut Forschung Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"
+    evidence_level: strong
+    sources: [SRC-INT-SCOTT-SMITH-DER-MONAT-2000]
+    claim_ids: [CLM-DE-MNI-004]
+
+  - id: REL-DE-MNI-009
+    from: PER-US-JOHN-MCCLOY
+    to: ORG-DE-DER-MONAT
+    type: funding_broker
+    label: "arrangierte laut Forschung 1954 die dreijährige Ford-Finanzierung"
+    period: {start: "1954", end: "1954"}
+    evidence_level: strong
+    sources: [SRC-INT-SCOTT-SMITH-DER-MONAT-2000]
+    claim_ids: [CLM-DE-MNI-006]
+
+  - id: REL-DE-MNI-010
+    from: PER-US-JOHN-MCCLOY
+    to: ORG-US-CHASE-NATIONAL-BANK
+    type: board_chair
+    label: "1954 als Chairman of the Board ausgewiesen"
+    period: {start: "1954", end: "1954"}
+    evidence_level: strong
+    sources: [SRC-US-FRASER-MCCLOY-CHASE-NATIONAL-1954]
+    claim_ids: [CLM-DE-MNI-006]
+
+  - id: REL-DE-MNI-011
+    from: PER-US-JOHN-MCCLOY
+    to: ORG-US-COUNCIL-FOREIGN-RELATIONS
+    type: board_chair
+    label: "Chairman 1953 bis 1970"
+    period: {start: "1953", end: "1970"}
+    evidence_level: established
+    sources: [SRC-US-CFR-CHAIRS-2026]
+    claim_ids: [CLM-DE-MNI-006]
+
+  - id: REL-DE-MNI-012
+    from: ORG-DE-BND
+    to: CASE-DE-MEDIEN-NACHRICHTENDIENST-CROSSLAYER
+    type: publication_suppression_attempt
+    label: "Ausschuss stellte in Einzelfällen Versuche fest, Journalisten aus Quellenschutzgründen von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge"
+    evidence_level: established
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+    claim_ids: [CLM-DE-MNI-002]
+
+  - id: REL-DE-MNI-013
+    from: PER-US-JOHN-MCCLOY
+    to: ORG-US-FORD-FOUNDATION
+    type: finance_committee_member
+    label: "1954 als Mitglied des Finance Committee ausgewiesen"
+    period: {start: "1954", end: "1954"}
+    evidence_level: established
+    sources: [SRC-US-FORD-DER-MONAT-1954]
+    claim_ids: [CLM-DE-MNI-006]

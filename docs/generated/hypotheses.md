@@ -2,6 +2,12 @@
 
 Hier erscheinen nur Claims, die im Frontmatter ausdrücklich als Hypothese, offene Frage, plausibel oder spekulativ kodiert sind. Offene Forschungsfragen in den Falltexten werden bei weiterer Atomisierung hierher überführt.
 
+## [Deutsche Medien: Nachrichtendienste und Cross-Layer-Machtbrücken](../faelle/de/medien-nachrichtendienst-crosslayer.md) · CLM-DE-MNI-007
+
+**open_question · speculative**
+
+Ob es weitere zeitgleiche Dreifach- oder Vierfachbrücken Medien ↔ Nachrichtendienst ↔ Hochfinanz ↔ Elitennetzwerk mit entscheidungsnaher Evidenz gibt, ist noch offen.
+
 ## [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) · CLM-DE-TMN-004
 
 **open_question · speculative**

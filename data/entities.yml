@@ -373,3 +373,43 @@ entities:
     type: media_group
     name: "Handelsblatt Media Group GmbH & Co. KG"
     countries: [DE]
+
+  - id: PER-DE-ERICH-SCHMIDT-EENBOOM
+    type: person
+    name: "Erich Schmidt-Eenboom"
+    countries: [DE]
+
+  - id: PER-DE-VOLKER-FOERTSCH
+    type: person
+    name: "Volker Foertsch"
+    countries: [DE]
+
+  - id: ORG-DE-DER-MONAT
+    type: media_outlet
+    name: "Der Monat"
+    countries: [DE]
+
+  - id: ORG-INT-CONGRESS-CULTURAL-FREEDOM
+    type: cultural_network
+    name: "Congress for Cultural Freedom"
+    countries: [US, FR, DE]
+
+  - id: ORG-US-FORD-FOUNDATION
+    type: foundation
+    name: "Ford Foundation"
+    countries: [US]
+
+  - id: PER-US-JOHN-MCCLOY
+    type: person
+    name: "John J. McCloy"
+    countries: [US]
+
+  - id: ORG-US-CHASE-NATIONAL-BANK
+    type: bank
+    name: "Chase National Bank"
+    countries: [US]
+
+  - id: ORG-US-COUNCIL-FOREIGN-RELATIONS
+    type: policy_network
+    name: "Council on Foreign Relations"
+    countries: [US]
