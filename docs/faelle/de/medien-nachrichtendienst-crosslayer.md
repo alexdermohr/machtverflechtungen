@@ -40,15 +40,15 @@ claims:
     counterevidence:
       - source: SRC-DE-BT-UA-BND-JOURNALISTEN-2009
         directness: direct
-        note: "Schmidt-Eenboom bestritt eine konkrete Gegenleistung und beschrieb den Informationsaustausch als journalistisch normale Praxis."
+        note: "Der Ausschuss erkannte den Eigensicherungszweck zur Aufklärung unautorisierter Informationsabflüsse als solchen an; rechtswidrig wurden die Observationen wegen ihrer Dauer und Intensität."
     alternatives:
-      - "Nicht jeder Kontakt eines Journalisten mit einem Nachrichtendienst ist Quellenführung oder freiwillige Agententätigkeit."
+      - "Der Befund richtet sich gegen die konkrete Durchführung der Observation, nicht gegen jeden nachrichtendienstlichen Eigensicherungszweck."
     missing_evidence:
-      - "Die Quelle belegt keine vereinbarte journalistische Gegenleistung und keinen gekauften Artikel."
+      - "Der Claim trifft keine Aussage über eine vereinbarte journalistische Gegenleistung, Agententätigkeit oder gekaufte Berichterstattung."
     scope:
-      supports: "Der Claim trägt eine dokumentierte Kombination aus Überwachung, operativer Ausforschung und verdeckter Zahlung im Verhältnis BND–Journalist."
-      does_not_support: "Er bezeichnet Schmidt-Eenboom nicht als willentlichen BND-Agenten und behauptet keinen gekauften Artikel."
-    falsification: "Primärunterlagen, die die Observations-, Kontakt- oder Zahlungsbefunde widerlegen, würden den Claim korrigieren."
+      supports: "Der Claim trägt die von der Ausschussmehrheit festgestellte Unverhältnismäßigkeit und Rechtswidrigkeit der BND-Observationen gegen Schmidt-Eenboom."
+      does_not_support: "Er erklärt weder sämtliche BND-Eigensicherungsmaßnahmen für rechtswidrig noch belegt er Agententätigkeit oder gekaufte Berichterstattung."
+    falsification: "Eine tragfähige Neubewertung der Primärunterlagen, die die Mehrheitsfeststellung zur Unverhältnismäßigkeit oder Rechtswidrigkeit widerlegt, würde den Claim ändern."
 
   - id: CLM-DE-MNI-002
     text: "Der Untersuchungsausschuss stellte fest, dass der von Februar 1994 bis August 1998 amtierende BND-Sicherheitsabteilungsleiter Volker Foertsch Einfluss auf Medienberichterstattung nahm, offensichtlich ohne Kenntnis und Billigung der Hausleitung."
