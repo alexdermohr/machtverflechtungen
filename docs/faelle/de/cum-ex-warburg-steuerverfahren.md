@@ -208,28 +208,28 @@ Der Fall verbindet eine gerichtlich beurteilte steuerliche Missbrauchsgestaltung
 
 ## Gesicherter Ereigniskern
 
-- **\`CLM-DE-CUMEX-001\` — belegt:** Der Bundesgerichtshof entschied am 28. Juli 2021 (1 StR 519/20), dass die Geltendmachung tatsächlich nicht einbehaltener Kapitalertragsteuer auf Grundlage der dort abgeurteilten Cum-Ex-Leerverkaufsgeschäfte unrichtige steuerliche Angaben und bei positiver Bescheidung ungerechtfertigte Steuervorteile begründet.
-- **\`CLM-DE-CUMEX-002\` — belegt:** Der 2017 vorgelegte Abschlussbericht des Bundestags-Cum-Ex-Untersuchungsausschusses dokumentiert gegensätzliche Bewertungen: Die Ausschussmehrheit entlastete die zuständigen Bundesbehörden, während die Sondervoten von Linken und Grünen schwerwiegende behördliche Versäumnisse kritisierten.
-- **\`CLM-DE-CUMEX-003\` — belegt:** Die Bundesregierung erklärte 2025 unter Berufung auf den Hamburger Untersuchungsausschuss, dass eine Warburg-Steuerrückforderung 2016 zunächst unterblieb, weil die Hamburger Finanzverwaltung die damalige Beweislage für unzureichend und das Prozessrisiko für zu hoch hielt.
-- **\`CLM-DE-CUMEX-004\` — belegt:** Nach Darstellung der Bundesregierung von Januar 2025 forderte das Hamburger Finanzamt die Cum-Ex-Steuererstattungen der Warburg-Bank im April 2020 vollständig zurück; die Warburg-Gruppe habe sämtliche entsprechenden Gelder zurückgezahlt.
-- **\`CLM-DE-CUMEX-005\` — belegt:** Der Hamburger Senat bestätigte 2020 ein Treffen des damaligen Ersten Bürgermeisters Olaf Scholz mit Christian Olearius am 10. November 2017; der Gesprächsinhalt sei im Einzelnen nicht dokumentiert.
+- **`CLM-DE-CUMEX-001` — belegt:** Der Bundesgerichtshof entschied am 28. Juli 2021 (1 StR 519/20), dass die Geltendmachung tatsächlich nicht einbehaltener Kapitalertragsteuer auf Grundlage der dort abgeurteilten Cum-Ex-Leerverkaufsgeschäfte unrichtige steuerliche Angaben und bei positiver Bescheidung ungerechtfertigte Steuervorteile begründet.
+- **`CLM-DE-CUMEX-002` — belegt:** Der 2017 vorgelegte Abschlussbericht des Bundestags-Cum-Ex-Untersuchungsausschusses dokumentiert gegensätzliche Bewertungen: Die Ausschussmehrheit entlastete die zuständigen Bundesbehörden, während die Sondervoten von Linken und Grünen schwerwiegende behördliche Versäumnisse kritisierten.
+- **`CLM-DE-CUMEX-003` — belegt:** Die Bundesregierung erklärte 2025 unter Berufung auf den Hamburger Untersuchungsausschuss, dass eine Warburg-Steuerrückforderung 2016 zunächst unterblieb, weil die Hamburger Finanzverwaltung die damalige Beweislage für unzureichend und das Prozessrisiko für zu hoch hielt.
+- **`CLM-DE-CUMEX-004` — belegt:** Nach Darstellung der Bundesregierung von Januar 2025 forderte das Hamburger Finanzamt die Cum-Ex-Steuererstattungen der Warburg-Bank im April 2020 vollständig zurück; die Warburg-Gruppe habe sämtliche entsprechenden Gelder zurückgezahlt.
+- **`CLM-DE-CUMEX-005` — belegt:** Der Hamburger Senat bestätigte 2020 ein Treffen des damaligen Ersten Bürgermeisters Olaf Scholz mit Christian Olearius am 10. November 2017; der Gesprächsinhalt sei im Einzelnen nicht dokumentiert.
 
 ## Widersprechender Untersuchungsbefund
 
-- **\`CLM-DE-CUMEX-006\` — belegt als Ausschussbewertung:** Die Mehrheitsbewertung des Hamburger Cum-Ex-Untersuchungsausschusses hielt 2024 fest, dass sich eine politische Einflussnahme auf Entscheidungen der Steuerverwaltung nach Aktenauswertung und Zeugenbefragungen nicht bestätigt habe.
+- **`CLM-DE-CUMEX-006` — belegt als Ausschussbewertung:** Die Mehrheitsbewertung des Hamburger Cum-Ex-Untersuchungsausschusses hielt 2024 fest, dass sich eine politische Einflussnahme auf Entscheidungen der Steuerverwaltung nach Aktenauswertung und Zeugenbefragungen nicht bestätigt habe.
 
 Der Befund ist als Gegenbeleg zu positiven Einflussbehauptungen zu behandeln. Er ist nicht mit einem Beweis gleichzusetzen, dass kein Einfluss jemals möglich gewesen wäre. Ebenso wenig kann die gegensätzliche Bewertung einer parlamentarischen Minderheit allein eine konkrete Weisung beweisen.
 
 ## Offene Kausalfrage
 
-- **\`CLM-DE-CUMEX-007\` — offen:** Ob ein politischer Kontakt im Warburg-Steuerverfahren eine konkrete Verwaltungsentscheidung kausal beeinflusste, bleibt mit den hier registrierten Quellen ungeklärt.
+- **`CLM-DE-CUMEX-007` — offen:** Ob ein politischer Kontakt im Warburg-Steuerverfahren eine konkrete Verwaltungsentscheidung kausal beeinflusste, bleibt mit den hier registrierten Quellen ungeklärt.
 
 Für eine stärkere Behauptung sind insbesondere unmittelbare Entscheidungsvermerke, Kommunikation und nachweisbare Kausalbrücken erforderlich. Das alleinige zeitliche Nebeneinander ist nicht ausreichend. **Zeitliche Grenze:** Das hier konkret dokumentierte Treffen vom 10. November 2017 fand nach dem zunächst unterbliebenen Rückforderungsschritt von 2016 statt und kann daher diesen früheren Entschluss nicht verursacht haben. Für eine Untersuchung des Entscheidungsprozesses von 2016 müssen etwaige Kontakte **vor** dieser Entscheidung und die zugehörigen Akten eigenständig recherchiert und belegt werden.
 
 ## Dokumente
 
-- [BGH, Urteil vom 28.07.2021, 1 StR 519/20](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362) — \`SRC-DE-BGH-CUMEX-2021\`
-- [Bundestag, Cum-Ex-Untersuchungsausschuss, Drucksache 18/12700](https://dserver.bundestag.de/btd/18/127/1812700.pdf) — \`SRC-DE-BT-CUMEX-PUA-2017\`
-- [Hamburger Senat, Drucksache 21/20198](https://www.buergerschaft-hh.de/parldok/dokument/69971/cum_ex_skandal_verzichtete_die_finanzbehoerde_auf_47_millionen_euro.pdf) — \`SRC-DE-HH-WARBURG-SENAT-2020\`
-- [Hamburger Cum-Ex-PUA, Zwischenbericht, Drucksache 22/14500](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf) — \`SRC-DE-HH-CUMEX-PUA-2024\`
-- [Bundesregierung, Antwort auf Große Anfrage, Drucksache 20/14669](https://dserver.bundestag.de/btd/20/146/2014669.pdf) — \`SRC-DE-BT-WARBURG-ANTWORT-2025\`
+- [BGH, Urteil vom 28.07.2021, 1 StR 519/20](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362) — `SRC-DE-BGH-CUMEX-2021`
+- [Bundestag, Cum-Ex-Untersuchungsausschuss, Drucksache 18/12700](https://dserver.bundestag.de/btd/18/127/1812700.pdf) — `SRC-DE-BT-CUMEX-PUA-2017`
+- [Hamburger Senat, Drucksache 21/20198](https://www.buergerschaft-hh.de/parldok/dokument/69971/cum_ex_skandal_verzichtete_die_finanzbehoerde_auf_47_millionen_euro.pdf) — `SRC-DE-HH-WARBURG-SENAT-2020`
+- [Hamburger Cum-Ex-PUA, Zwischenbericht, Drucksache 22/14500](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf) — `SRC-DE-HH-CUMEX-PUA-2024`
+- [Bundesregierung, Antwort auf Große Anfrage, Drucksache 20/14669](https://dserver.bundestag.de/btd/20/146/2014669.pdf) — `SRC-DE-BT-WARBURG-ANTWORT-2025`
