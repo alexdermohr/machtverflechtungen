@@ -685,7 +685,6 @@ relations:
     to: PER-DE-PETER-URBACH
     type: informant_handler_relationship
     label: "führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972"
-    period: {start: "1967", end: "1971"}
     evidence_level: strong
     sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022]
     claim_ids: [CLM-DE-URB-001]
