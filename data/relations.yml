@@ -687,25 +687,5 @@ relations:
     label: "führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972"
     period: {start: "1967", end: "1971"}
     evidence_level: strong
-    sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022, SRC-DE-RIGOLL-INNERER-KREIS-2017]
+    sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022]
     claim_ids: [CLM-DE-URB-001]
-
-  - id: REL-DE-URB-002
-    from: PER-DE-PETER-URBACH
-    to: PER-DE-HORST-MAHLER
-    type: reported_weapon_handover
-    label: "Baumann protokollierte 1973, Baader habe ihm eine Waffenübergabe Urbachs an Mahler 1970 geschildert"
-    period: {start: "1970"}
-    evidence_level: strong
-    sources: [SRC-DE-BARCH-BAUMANN-URBACH-1973]
-    claim_ids: [CLM-DE-URB-004]
-
-  - id: REL-DE-URB-003
-    from: PER-DE-PETER-URBACH
-    to: ORG-DE-TUPAMAROS-WEST-BERLIN
-    type: historically_attributed_explosive_supply
-    label: "Historiker führen den beim gescheiterten Anschlagsversuch am 09.11.1969 verwendeten Sprengsatz auf Urbach zurück"
-    period: {start: "1969-11-09", end: "1969-11-09"}
-    evidence_level: strong
-    sources: [SRC-DE-RIGOLL-INNERER-KREIS-2017, SRC-DE-WOLFF-URBACH-NOLLAU-2022]
-    claim_ids: [CLM-DE-URB-005]

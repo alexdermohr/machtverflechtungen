@@ -10,10 +10,8 @@ status: developing
 research_question: "Was ist über Urbachs Arbeit als V-Mann, konkrete Waffenlieferungen, ihre Verwendungszusammenhänge und das mögliche Wissen seiner Führungsoffiziere tatsächlich belegt?"
 event_claims:
   - CLM-DE-URB-001
-  - CLM-DE-URB-002
   - CLM-DE-URB-003
   - CLM-DE-URB-004
-  - CLM-DE-URB-005
 tags: [deutschland, west-berlin, verfassungsschutz, v-mann, raf, linksterrorismus, waffenbeschaffung, antisemitismus, quellenfuehrung]
 actors:
   - PER-DE-PETER-URBACH
@@ -21,7 +19,7 @@ actors:
   - PER-DE-HORST-MAHLER
   - PER-DE-MICHAEL-BAUMANN
   - ORG-DE-TUPAMAROS-WEST-BERLIN
-mechanisms: [infiltration, material-support]
+mechanisms: [infiltration]
 sources:
   - SRC-DE-WOLFF-URBACH-NOLLAU-2022
   - SRC-DE-BPB-FARIN-SCHEINREVOLUTION-2010
@@ -31,6 +29,8 @@ sources:
   - SRC-DE-RIGOLL-INNERER-KREIS-2017
   - SRC-DE-BPB-ANTISEMITISMUS-2021
   - SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+  - SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005
+  - SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010
 claims:
   - id: CLM-DE-URB-001
     text: "Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen."
@@ -54,8 +54,8 @@ claims:
 
   - id: CLM-DE-URB-002
     text: "Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann Peter Urbach 1968 Molotowcocktails an militante Demonstranten verteilte und Anfang 1969 Sprengsätze für Personen aus der West-Berliner militanten Szene bereitstellte."
-    classification: fact
-    evidence_level: strong
+    classification: interpretation
+    evidence_level: plausible
     sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022, SRC-DE-BPB-FARIN-SCHEINREVOLUTION-2010, SRC-DE-ZZO-RAF-CHRONIK]
     evidence:
       - source: SRC-DE-WOLFF-URBACH-NOLLAU-2022
@@ -67,7 +67,7 @@ claims:
         locator: "Abschnitt zur staatlichen Mitwirkung"
         note: "Verweist auf die historische Literatur über wiederholte Waffenangebote, Molotowcocktails und Bomben."
       - source: SRC-DE-ZZO-RAF-CHRONIK
-        directness: direct
+        directness: indirect
         locator: "Chronologie Februar 1969"
         note: "Weist die Herkunft eines von Baumann beschriebenen Sprengsatzes als dessen Aussage Urbach zu, nicht als forensisch unabhängigen Herkunftsnachweis."
     counterevidence:
@@ -80,7 +80,7 @@ claims:
     missing_evidence:
       - "Beschaffungswege, konkrete Mengen und lückenlose Befehls-, Finanzierungs- und Verteilungsnachweise."
     scope:
-      supports: "Konkrete materielle Unterstützung militanter Akteure durch einen nachrichtendienstlich geführten Informanten ist historisch stark gestützt."
+      supports: "Die Zuschreibung von Waffen- und Brandflaschenlieferungen und die widersprechende Senatsposition von 1981 sind dokumentiert; die einzelnen Übergaben bleiben strittig."
       does_not_support: "Die historischen Berichte beweisen keine behördliche Anordnung jedes Sprengsatzes und keine fremdgesteuerte Entstehung des Linksterrorismus."
     falsification: "Zeitgenössische Lieferbelege, Aussagen oder Akten, die die zentralen zugeschriebenen Lieferungen entkräften, müssten zu einer Revision führen."
 
@@ -130,12 +130,16 @@ claims:
 
   - id: CLM-DE-URB-005
     text: "Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu."
-    classification: fact
-    evidence_level: strong
-    sources: [SRC-DE-RIGOLL-INNERER-KREIS-2017, SRC-DE-WOLFF-URBACH-NOLLAU-2022, SRC-DE-BPB-ANTISEMITISMUS-2021]
+    classification: interpretation
+    evidence_level: plausible
+    sources: [SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005, SRC-DE-RIGOLL-INNERER-KREIS-2017, SRC-DE-WOLFF-URBACH-NOLLAU-2022, SRC-DE-BPB-ANTISEMITISMUS-2021]
     evidence:
-      - source: SRC-DE-RIGOLL-INNERER-KREIS-2017
+      - source: SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005
         directness: direct
+        locator: "Monographie 2005, dokumentierte historische Bombenherkunft und Fichter-Interview"
+        note: "Originäre historische Untersuchung, nicht im vollen Buchtext oder durch originalen forensischen Bericht unabhängig geprüft. Belegt wissenschaftliche Zuschreibung, keinen gerichtsfesten konkreten Waffenweg."
+      - source: SRC-DE-RIGOLL-INNERER-KREIS-2017
+        directness: indirect
         locator: "Abschnitt zu Peter Urbach, Fußnote mit Kraushaar 2005, S. 175"
         note: "Die historische Einordnung verweist für die Bombenherkunft ausdrücklich auf Kraushaars Untersuchung; damit ist dies eine indirekte historische Rekonstruktion."
       - source: SRC-DE-WOLFF-URBACH-NOLLAU-2022
@@ -156,7 +160,7 @@ claims:
     missing_evidence:
       - "Original der polizeilichen Sprengstoffuntersuchung, Zeugenaussage des Bombenlegers, genaue Übergabekette, Einsatz- und Führungsakten des Berliner LfV."
     scope:
-      supports: "Die historisch zugeschriebene Urbach-Bombenherkunft beim konkreten antisemitischen Anschlagsversuch ist stark gestützt."
+      supports: "Die historische Zuschreibung einer Herkunft des Sprengsatzes aus Urbachs Umfeld ist dokumentiert; ursprüngliche Übergabekette und dienstliche Weisung sind nicht unabhängig bewiesen."
       does_not_support: "Keine direkte Anordnung des Anschlags durch den Verfassungsschutz und keine institutionelle Täterschaftsübertragung von den Tupamaros an die RAF."
     falsification: "Neue forensische oder archivalische Primärbelege, die eine andere Herkunft des konkreten Sprengsatzes beweisen, würden die Zuschreibung entkräften."
 
@@ -226,13 +230,56 @@ claims:
       does_not_support: "Sie entscheidet nicht unabhängig, ob alle Lieferungen stattfanden, ob die Vorgesetzten sie kannten oder wer den Jüdisches-Gemeindehaus-Sprengsatz herstellte."
     falsification: "Eine verifizierte Originalfassung mit anderem Wortlaut oder authentische Behördenunterlagen, die die zugeschriebenen Positionen wesentlich korrigieren, würden die Bewertung ändern."
 
+  - id: CLM-DE-URB-009
+    text: "Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine eigenhändig erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010]
+    evidence:
+      - source: SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010
+        directness: direct
+        locator: "Telepolis 13.06.2010, Zitat aus laut Autorin im Archiv eingesehener 1974er Handschrift"
+        note: "Die journalistische Wiedergabe enthält eine als eigene Wahrnehmung Baumanns beschriebene Übergabe. Weder Archivsignatur noch Originalscan der Handschrift liegen in diesem Korpus vor."
+    counterevidence:
+      - source: SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+        directness: context
+        note: "Die 1981er Behördendarstellung bestreitet die Verteilung von am 26.02.1969 transportierten Gegenständen, aber nicht zwingend eine eigenständige Januar-Übergabe."
+    alternatives:
+      - "Erinnerungsfehler, zeitliche Vermischung und journalistische Selektivität sind ohne Originaleinblick nicht auszuschließen."
+    missing_evidence:
+      - "Archivsignatur, vollständige Baumann-Handschrift von 1974 und unabhängige Rekonstruktion des konkret behaupteten Übergabewegs."
+    scope:
+      supports: "Der veröffentlichte Bericht enthält eine bestimmte, als unmittelbar erlebte Bombenübergabe referierte Aussage."
+      does_not_support: "Er beweist weder die Übergabe als Ereignis noch das Wissen von Urbachs Führungsoffizieren."
+    falsification: "Der Originalbericht kann die paraphrasierte Datierung, Autorschaft oder Aussage korrigieren."
+
+  - id: CLM-DE-URB-010
+    text: "Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; die Polizei habe wegen Enttarnungsgefahr nicht eingegriffen."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR]
+    evidence:
+      - source: SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+        directness: direct
+        locator: "Reproduzierter Brief vom 16.01.1981, Ziffer b"
+        note: "Die damalige Berliner Senatsposition nennt eine umgekehrte Waffenrichtung und einen eigenen Zeitpunkt; ihre tatsächliche Richtigkeit ist nicht unabhängig bestätigt."
+    counterevidence: []
+    alternatives:
+      - "Die 1973 protokollierte Baader-Erzählung über eine Übergabe von Urbach an Mahler im Frühjahr 1970 kann ein ganz anderes Ereignis betreffen."
+    missing_evidence:
+      - "Senatsoriginal, Vorgangsakte vom 10.02.1969, Waffennummer und unabhängige Zeugen-/Gerichtsakten."
+    scope:
+      supports: "Eine konkrete und datierte, dem Senat zugeschriebene Behördendarstellung eines Waffenwegs ist vorhanden."
+      does_not_support: "Es ist weder dieselbe Pistole wie im 1973er Bericht identifiziert noch eine behördlich angeordnete Weitergabe an die RAF bewiesen."
+    falsification: "Eine verifizierte Originalakte mit widersprechender Datierung oder Übergaberichtung würde die Behördendarstellung korrigieren."
+
 what_follows:
   - text: "Zur Rekonstruktion der Lieferungen liegt auch eine konkrete, allerdings nur privat reproduzierte behördliche Gegenposition von 1981 vor, die gegen historische Zeugenaussagen und Forschung zu prüfen ist."
     claim_ids: [CLM-DE-URB-002, CLM-DE-URB-005, CLM-DE-URB-008]
   - text: "Der Verfassungsschutz hatte im Umfeld der späteren RAF-Führungsfiguren einen nachweisbaren Informationszugang über Urbach."
     claim_ids: [CLM-DE-URB-001, CLM-DE-URB-003]
-  - text: "Konkrete Lieferungen von Waffen und Sprengsätzen durch Urbach werden in der historischen Forschung dokumentiert; Aussagen über einzelne Übergaben sind nach Direktheit zu trennen."
-    claim_ids: [CLM-DE-URB-002, CLM-DE-URB-004]
+  - text: "Historische Forschungen und Aussagen schreiben Urbach konkrete Lieferungen zu; ihre verschiedenen Beweisschichten und der Senatsgegenbericht müssen auseinandergehalten werden."
+    claim_ids: [CLM-DE-URB-002, CLM-DE-URB-004, CLM-DE-URB-009, CLM-DE-URB-010]
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
@@ -247,6 +294,8 @@ what_does_not_follow:
 open_questions:
   - "Wie lassen sich die dokumentierten Verneinungen des Berliner Senats von 1981 gegen zeitgenössische Gerichtsakten, Zeugenaussagen und die spätere Forschung prüfen?"
   - "Welche erhaltenen Führungs- und Einsatzakten belegen das Wissen oder die Aufträge des Berliner Verfassungsschutzes bei einzelnen Lieferungen?"
+  - "Welche Archivsignatur hat die von Regine Igel zitierte Baumann-Handschrift von 1974?"
+  - "Welche Akten belegen oder entkräften die 1969er Pistolenübergabe in umgekehrter Richtung?"
   - "Welche Übergaben sind durch mehr als spätere Erinnerungen oder eine zweistufige Protokollaussage belegt?"
   - "Welche amtlichen Akten zum antisemitischen Anschlagsversuch von November 1969 erlauben eine forensische Prüfung der Sprengsatzherkunft?"
 case_links: []
@@ -257,10 +306,15 @@ case_links: []
 ## Gesicherter Ereigniskern
 
 - **`CLM-DE-URB-001` — stark gestützt:** Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen.
-- **`CLM-DE-URB-002` — stark gestützt:** Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann Peter Urbach 1968 Molotowcocktails an militante Demonstranten verteilte und Anfang 1969 Sprengsätze für Personen aus der West-Berliner militanten Szene bereitstellte.
 - **`CLM-DE-URB-003` — stark gestützt:** Der zeitgenössische STERN-Bericht von 1971 schilderte Peter Urbach als durch den Berliner Verfassungsschutz gestellten Zeugen im damaligen Prozess gegen Horst Mahler; die historische Forschung datiert die Offenlegung seiner V-Mann-Rolle ebenfalls auf diesen Prozess.
 - **`CLM-DE-URB-004` — belegt:** In einem MfS-Vernehmungsprotokoll vom 28. November 1973 sagte Michael Baumann, Andreas Baader habe ihm erzählt, Peter Urbach habe im Frühjahr 1970 eine französische Pistole des Typs Unique und weitere Waffen an Horst Mahler übergeben.
-- **`CLM-DE-URB-005` — stark gestützt:** Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu.
+
+## Historische Zuschreibungen statt gesicherter Lieferungen
+
+- **`CLM-DE-URB-002` — plausibel/umstritten:** Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann Peter Urbach 1968 Molotowcocktails an militante Demonstranten verteilte und Anfang 1969 Sprengsätze für Personen aus der West-Berliner militanten Szene bereitstellte.
+- **`CLM-DE-URB-005` — plausibel/umstritten:** Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu.
+
+Die spätere Forschung beruht teils auf denselben frühen Zeugen und verweist bei der Gemeindehausbombe wesentlich auf Kraushaars Untersuchung von 2005. Diese Studien sind nicht als voneinander unabhängige forensische Bestätigungen zu zählen. Der 1981er Senatsbrief enthält ausdrückliche Gegenbehauptungen. Eine tatsächliche Übergabekette wird daher nicht als gesichertes Netzwerkereignis dargestellt.
 
 ## Prüfstand: Quellenbeobachtung ≠ materieller Vorgang
 
@@ -270,11 +324,23 @@ Das Original des MfS-Vernehmungsprotokolls dokumentiert eine Aussage Baumanns au
 
 Die Tupamaros West-Berlin legten einen Sprengsatz im Jüdischen Gemeindehaus ab; er explodierte nicht. Historiker ordnen dessen Beschaffung Urbach zu. Die Tat ist **nicht** als reguläre RAF-Operation zu behandeln. Weder die historische Zuschreibung der Bombenherkunft noch Urbachs Informantenstatus beweist eine behördliche Anordnung des Anschlags.
 
+## Neuer Archivhinweis: Baumanns Handschrift von 1974
+
+- **`CLM-DE-URB-009` — stark gestützt als veröffentlichter Bericht:** Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine eigenhändig erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte.
+
+Hierbei geht es um eine behauptete eigene Wahrnehmung Baumanns, während das digitalisierte Originalprotokoll von 1973 eine von Baader erhaltene Erzählung über einen anderen Waffentransfer wiedergibt. Der 1974er Bericht ist nur journalistisch auszugsweise überliefert; eine eigene Einsicht in das Original fehlt.
+
 ## Behördliche Gegendarstellung und Quellenkonflikt
 
 - **`CLM-DE-URB-008` — stark gestützter Gegenbefund:** Ein auf einer privaten Archivseite reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 weist mehrere Vorwürfe gegen Urbach zurück, bestätigt seine Tätigkeit für das LfV und schließt einen zeitweiligen Besitz des 1969 im Jüdischen Gemeindehaus gefundenen Gegenstands nicht aus.
 
 Das Schreiben verneint insbesondere, dass Urbach 1968 Molotowcocktails verteilt habe. Den Transport bombenähnlicher Gegenstände im Februar 1969 räumt es ein, bestreitet aber eine Verteilung durch Urbach und beschreibt ihn eher als Boten. Es beruft sich auf frühere parlamentarische und strafprozessuale Prüfungen und behauptet eine Geldstrafe wegen einer Jagdgewehrweitergabe ohne Wissen des LfV. **Das sind Aussagen der damaligen Behörde**, nicht automatisch die historisch letzte Wahrheit. Die private Reproduktion ist noch nicht durch das amtliche Original und die damaligen Ausschussakten gegengeprüft.
+
+## Die umgekehrte Pistolenrichtung im Senatsbrief
+
+- **`CLM-DE-URB-010` — stark gestützt als Senatsdarstellung:** Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; die Polizei habe wegen Enttarnungsgefahr nicht eingegriffen.
+
+Die 1973 protokollierte Äußerung betrifft dagegen eine angebliche Übergabe **Urbach an Mahler** im Frühjahr 1970. Es gibt keine Grundlage, beide Zeitpunkte oder beide Waffen ohne zusätzlichen Beleg gleichzusetzen.
 
 ## Ungeklärte staatliche Weisung und Kenntnis
 
@@ -292,4 +358,6 @@ Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien b
 - [Historische RAF-Chronik, zeitgeschichte|online](https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik) — `SRC-DE-ZZO-RAF-CHRONIK`
 - [STERN 23/1971, Archiv-Reproduktion](https://www.isioma.net/sds120504.html) — `SRC-DE-STERN-URBACH-1971-REPRINT`
 - [bpb: Antisemitismus in Deutschland nach 1945](https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/) — `SRC-DE-BPB-ANTISEMITISMUS-2021`
+- [Wolfgang Kraushaar: Die Bombe im Jüdischen Gemeindehaus (2005)](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/) — `SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005`
+- [Regine Igel: Einblicke in die Urbach-Stasi-Akte (2010)](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all) — `SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010`
 - [Reproduktion: Peter Ulrich an Andreas Gerl, 16.01.1981](https://isioma.net/sds120502.html) — `SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR`

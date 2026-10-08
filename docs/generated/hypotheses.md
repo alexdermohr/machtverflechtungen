@@ -2,6 +2,18 @@
 
 Hier erscheinen nur Claims, die im Frontmatter ausdrücklich als Hypothese, offene Frage, plausibel oder spekulativ kodiert sind. Offene Forschungsfragen in den Falltexten werden bei weiterer Atomisierung hierher überführt.
 
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-002
+
+**interpretation · plausible**
+
+Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann Peter Urbach 1968 Molotowcocktails an militante Demonstranten verteilte und Anfang 1969 Sprengsätze für Personen aus der West-Berliner militanten Szene bereitstellte.
+
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-005
+
+**interpretation · plausible**
+
+Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu.
+
 ## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-007
 
 **open_question · speculative**

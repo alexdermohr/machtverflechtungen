@@ -643,3 +643,25 @@ Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-0
 [Seite öffnen](https://isioma.net/sds120502.html)
 
 Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
+
+<a id="src-de-kraushaar-bombe-gemeindehaus-2005"></a>
+## SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005
+
+**[Die Bombe im Jüdischen Gemeindehaus](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/)**
+
+Wolfgang Kraushaar / Hamburger Edition · 2005-06 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/)
+
+Fundstelle: ISBN 978-3-936096-53-8; besonders Abschnitte über Peter Urbach, Albert Fichter und Originalquellen
+
+<a id="src-de-igel-urbach-baumann-handschrift-2010"></a>
+## SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010
+
+**[Eine kleine Recherche in der Stasi-Unterlagen-Behörde](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all)**
+
+Regine Igel / Telepolis · 2010-06-13 · Stufe **C** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all)
+
+Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974
