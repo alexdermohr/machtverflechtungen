@@ -315,7 +315,7 @@ claims:
     scope:
       supports: "Eine originalsenderarchivierte zeitgenössische Fernsehberichterstattung zu Urbachs Quelle- und Waffenmilieu existiert und ist konkret datierbar."
       does_not_support: "Die TV-Archivbeschreibung allein belegt keine individuelle Waffenübergabe, keine konkrete Rechtswidrigkeit, keine Dienstanweisung und keine unmittelbare Täterschaft im Anschlag von 1969."
-    falsification: "Ein geprüftes ursprüngliches Sendungsprotokoll oder vollständiger Filminhalt, der der heutigen Archivangabe widerspricht, würde die Einordnung korrigieren."
+    falsification: "Ein authentischer NDR-Bestandsnachweis oder eine dokumentierte Korrektur des NDR, wonach am 24.05.1971 kein derartiger zehnminütiger Beitrag existierte oder die angegebene Kurzbeschreibung nicht vom NDR stammt, würde die behauptete Archividentität beziehungsweise Zuschreibung widerlegen."
 
   - id: CLM-DE-URB-013
     text: "Ein privat reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 nennt die Befassung des Abgeordnetenhauses vom 27. Mai 1971 und einen vertraulichen Bericht Kurt Neubauers im Sicherheitsausschuss am 14. Juni 1971; es bietet Andreas Gerl Einsicht in den Teil zum 'Bombenkomplex' an."

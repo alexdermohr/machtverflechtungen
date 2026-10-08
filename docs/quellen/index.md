@@ -671,7 +671,7 @@ Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handsch
 
 **[Die Bomben des Senators](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)**
 
-DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **B** · Sekundär-/Forschungsquelle
+DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **C** · Sekundär-/Forschungsquelle
 
 [Seite öffnen](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)
 
