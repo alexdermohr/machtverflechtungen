@@ -1,10 +1,10 @@
 ---
-id: CASE-DE-URBACH-VERFASSUNGSSCHUTZ-1967
+id: CASE-DE-URBACH-VERFASSUNGSSCHUTZ
 type: case
 title: "Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz"
 countries: [DE]
 period:
-  start: "1967"
+  start: "1968"
   end: "1981"
 status: developing
 research_question: "Was ist über Urbachs Arbeit als V-Mann, konkrete Waffenlieferungen, ihre Verwendungszusammenhänge und das mögliche Wissen seiner Führungsoffiziere tatsächlich belegt?"
@@ -294,6 +294,7 @@ what_does_not_follow:
 open_questions:
   - "Wie lassen sich die dokumentierten Verneinungen des Berliner Senats von 1981 gegen zeitgenössische Gerichtsakten, Zeugenaussagen und die spätere Forschung prüfen?"
   - "Welche erhaltenen Führungs- und Einsatzakten belegen das Wissen oder die Aufträge des Berliner Verfassungsschutzes bei einzelnen Lieferungen?"
+  - "Ab welchem belegbaren Datum wurde Urbach offiziell vom West-Berliner Verfassungsschutz als Quelle geführt? Die Forschung zu seiner Szenepräsenz darf nicht als Anwerbedatum verwendet werden."
   - "Welche Archivsignatur hat die von Regine Igel zitierte Baumann-Handschrift von 1974?"
   - "Welche Akten belegen oder entkräften die 1969er Pistolenübergabe in umgekehrter Richtung?"
   - "Welche Übergaben sind durch mehr als spätere Erinnerungen oder eine zweistufige Protokollaussage belegt?"
@@ -302,6 +303,10 @@ case_links: []
 ---
 
 # Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz
+
+## Untersuchungszeitraum und Beweisgrenze
+
+Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung beschriebenen, vom Berliner Senat 1981 ausdrücklich bestrittenen Vorgängen um Molotowcocktails 1968. Es bezeichnet den Zeitraum der untersuchten **Behauptungen und Dokumente**, **nicht** ein bewiesenes Anwerbe- oder Führungsdatum Urbachs. Der tatsächliche Beginn der Informantenbeziehung bleibt mangels hinreichend genauer Quelle offen. Der späte Rand 1981 verweist auf die datierte Senatsstellungnahme und nicht auf das Ende einer nachgewiesenen Führungstätigkeit.
 
 ## Gesicherter Ereigniskern
 
