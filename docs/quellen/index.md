@@ -665,3 +665,25 @@ Regine Igel / Telepolis · 2010-06-13 · Stufe **C** · Sekundär-/Forschungsque
 [Seite öffnen](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all)
 
 Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974
+
+<a id="src-de-zeit-schueler-urbach-1971"></a>
+## SRC-DE-ZEIT-SCHUELER-URBACH-1971
+
+**[Die Bomben des Senators](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)**
+
+DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **C** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)
+
+Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung der Aussagegenehmigung durch Richter Geuß und zum von Urbach eingeräumten Waffenvergraben
+
+<a id="src-de-ndr-panorama-urbach-1971"></a>
+## SRC-DE-NDR-PANORAMA-URBACH-1971
+
+**[Panorama: V-Mann als Zeuge](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html)**
+
+NDR / Das Erste / Panorama-Archiv · 1971-05-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html)
+
+Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung

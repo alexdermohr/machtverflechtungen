@@ -673,3 +673,26 @@ sources:
   accessed: '2026-10-08'
   locator: "Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974"
   notes: "Journalistin gibt an, einen 1974 von Baumann handschriftlich gefertigten 1,5-Seiten-Bericht eingesehen zu haben; keine vollständige Archivsignatur oder öffentlich reproduzierte Originalseiten im Artikel. Eigene Erlebnisaussage Baumanns zu Januar 1969 wird nur vermittelt als journalistisch zitierte Behauptung eingeordnet."
+
+- id: SRC-DE-ZEIT-SCHUELER-URBACH-1971
+  title: "Die Bomben des Senators"
+  institution: "DIE ZEIT / Hans Schueler"
+  date: '1971-05-21'
+  type: contemporary_court_reporting
+  primary: false
+  tier: C
+  url: https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3
+  accessed: '2026-10-08'
+  locator: "ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung der Aussagegenehmigung durch Richter Geuß und zum von Urbach eingeräumten Waffenvergraben"
+  notes: "Zeitgenössischer Gerichtsbericht, nicht Gerichtsprotokoll. Er berichtet, Urbach habe nach erweiterter Aussagegenehmigung einräumen dürfen, mit einem Komplizen Waffen vergraben zu haben; über die Existenz, Verfügbarkeit, spätere Verwendung oder behördliche Herkunft dieser Waffen trifft die Passage keinen unabhängigen Materialnachweis. Originalseite kann beim Webabruf eine Bezahlschranke anzeigen."
+- id: SRC-DE-NDR-PANORAMA-URBACH-1971
+  title: "Panorama: V-Mann als Zeuge"
+  institution: "NDR / Das Erste / Panorama-Archiv"
+  date: '1971-05-24'
+  type: archival_broadcast_metadata
+  primary: true
+  tier: A
+  url: https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html
+  accessed: '2026-10-08'
+  locator: "Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung"
+  notes: "Originalsender-Archiv belegt Ausstrahlung, Titel und aktuelle Inhaltsbeschreibung des zeitgenössischen Fernsehbeitrags. Die Archivbeschreibung erwähnt Verfassungsschutz-Informantenstatus sowie Drogen- und Waffenhandel, ist aber nicht mit einer vollständigen Transkription oder forensischen Beweisen zu verwechseln; Video in diesem Forschungsdurchgang nicht vollständig transkribiert."
