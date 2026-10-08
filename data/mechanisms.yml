@@ -38,3 +38,7 @@ mechanisms:
   - id: investigative-misdirection
     label: "Ermittlungsmanipulation / Depistaggio"
     definition: "Ermittlungen werden durch falsche Spuren, Informationszurückhaltung oder andere Eingriffe behindert oder fehlgeleitet."
+
+  - id: unjustified-tax-refund
+    label: "Ungerechtfertigte Steueranrechnung / Steuererstattung"
+    definition: "Durch falsche oder nicht tragfähige steuerliche Angaben werden nicht zustehende Steueranrechnungen oder -erstattungen beantragt oder erlangt; der konkrete Nachweis erfolgt fallbezogen."

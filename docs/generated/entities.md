@@ -10,8 +10,10 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-AXEL-SPRINGER` | media_company | Axel Springer SE | DE |
 | `ORG-INT-BILDERBERG-MEETINGS` | conference_network | Bilderberg Meetings | US, DE |
 | `ORG-DE-BDJ` | organization | Bund Deutscher Jugend | DE |
+| `ORG-DE-BMF` | government_ministry | Bundesministerium der Finanzen | DE |
 | `ORG-DE-BND` | intelligence_service | Bundesnachrichtendienst | DE |
 | `ORG-US-CIA` | intelligence_service | Central Intelligence Agency | US |
+| `PER-DE-CHRISTIAN-OLEARIUS` | person | Christian Olearius | DE |
 | `PER-DE-CLAUS-KLEBER` | person | Claus Kleber | DE |
 | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | cultural_network | Congress for Cultural Freedom | US, FR, DE |
 | `ORG-DE-DIE-ZEIT` | media_outlet | DIE ZEIT | DE |
@@ -23,6 +25,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-FRIEDE-SPRINGER` | person | Friede Springer | DE |
 | `PER-DE-GABOR-STEINGART` | person | Gabor Steingart | DE |
 | `PER-DE-GEORG-MASCOLO` | person | Georg Mascolo | DE |
+| `ORG-DE-HH-FINANZVERWALTUNG` | tax_administration | Hamburger Finanzverwaltung | DE |
 | `ORG-DE-HANDELSBLATT` | media_outlet | Handelsblatt | DE |
 | `PER-DE-HUBERT-BURDA` | person | Hubert Burda | DE |
 | `PER-DE-INGO-ZAMPERONI` | person | Ingo Zamperoni | DE |
@@ -33,9 +36,11 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-KAI-DIEKMANN` | person | Kai Diekmann | DE |
 | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | person | Klaus-Dieter Frankenberger | DE |
 | `PER-DE-LIZ-MOHN` | person | Liz Mohn | DE |
+| `ORG-DE-MM-WARBURG` | bank | M. M. Warburg & CO | DE |
 | `PER-DE-MATHIAS-DOEPFNER` | person | Mathias Döpfner | DE |
 | `PER-DE-MATTHIAS-NASS` | person | Matthias Naß | DE |
 | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | intelligence_service | Niedersächsischer Verfassungsschutz | DE |
+| `PER-DE-OLAF-SCHOLZ` | person | Olaf Scholz | DE |
 | `ORG-DE-ORGANISATION-GEHLEN` | intelligence_organization | Organisation Gehlen | DE, US |
 | `PER-DE-PAUL-BERNHARD-KALLEN` | person | Paul-Bernhard Kallen | DE |
 | `PER-DE-PETER-FREY` | person | Peter Frey | DE |

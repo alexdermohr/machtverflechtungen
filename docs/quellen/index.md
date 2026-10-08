@@ -500,3 +500,58 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 [Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
+
+<a id="src-de-bgh-cumex-2021"></a>
+## SRC-DE-BGH-CUMEX-2021
+
+**[BGH, Urteil vom 28. Juli 2021 – 1 StR 519/20](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362)**
+
+Bundesgerichtshof · 2021-07-28 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362)
+
+Fundstelle: Amtliche Leitsätze, insbesondere Leitsatz 1; ECLI:DE:BGH:2021:280721U1STR519.20.0
+
+<a id="src-de-bt-cumex-pua-2017"></a>
+## SRC-DE-BT-CUMEX-PUA-2017
+
+**[Abschlussbericht des 4. Untersuchungsausschusses (Cum/Ex)](https://dserver.bundestag.de/btd/18/127/1812700.pdf)**
+
+Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/127/1812700.pdf)
+
+Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
+
+<a id="src-de-hh-warburg-senat-2020"></a>
+## SRC-DE-HH-WARBURG-SENAT-2020
+
+**[Cum-Ex-Skandal: Verzichtete die Finanzbehörde auf 47 Millionen Euro?](https://www.buergerschaft-hh.de/parldok/dokument/69971/cum_ex_skandal_verzichtete_die_finanzbehoerde_auf_47_millionen_euro.pdf)**
+
+Senat der Freien und Hansestadt Hamburg · 2020 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/69971/cum_ex_skandal_verzichtete_die_finanzbehoerde_auf_47_millionen_euro.pdf)
+
+Fundstelle: Drucksache 21/20198, Frage 4 a
+
+<a id="src-de-hh-cumex-pua-2024"></a>
+## SRC-DE-HH-CUMEX-PUA-2024
+
+**[Zwischenbericht des Parlamentarischen Untersuchungsausschusses Cum-Ex-Steuergeldaffäre](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)**
+
+Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
+
+Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+<a id="src-de-bt-warburg-antwort-2025"></a>
+## SRC-DE-BT-WARBURG-ANTWORT-2025
+
+**[Antwort der Bundesregierung auf die Große Anfrage zur Warburg-Steuerrückforderung](https://dserver.bundestag.de/btd/20/146/2014669.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/20/146/2014669.pdf)
+
+Fundstelle: Drucksache 20/14669, insbesondere S. 1–5

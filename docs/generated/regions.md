@@ -10,6 +10,7 @@ _Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein
 - [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) — 1978-07-25 · 2 belegt
 - [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
 - [Thüringer Heimatschutz / Tino Brandt](../faelle/de/thueringer-heimatschutz-tino-brandt.md) — 1990 · 3 belegt
+- [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) — 2007 · 6 belegt · 1 spekulativ/offen
 
 ## FR
 

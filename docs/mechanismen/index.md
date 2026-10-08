@@ -38,6 +38,10 @@ Mechanismen sind Vergleichskategorien, keine automatische Erklärung eines Einze
 
 `strategy-of-tension` — Vergleichsrahmen für politische Gewalt, Destabilisierung, Täuschung, Duldung und politische Verwertung; keine automatische Urheberschaftsthese.
 
+## Ungerechtfertigte Steueranrechnung / Steuererstattung
+
+`unjustified-tax-refund` — Durch falsche oder nicht tragfähige steuerliche Angaben werden nicht zustehende Steueranrechnungen oder -erstattungen beantragt oder erlangt; der konkrete Nachweis erfolgt fallbezogen.
+
 ## Verdeckte Unterstützung
 
 `covert-support` — Nicht offen ausgewiesene organisatorische, finanzielle oder logistische Unterstützung.
