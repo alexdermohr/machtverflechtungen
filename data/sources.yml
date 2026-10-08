@@ -560,3 +560,93 @@ sources:
   accessed: '2026-10-08'
   locator: "Drucksache 20/14669, insbesondere S. 1–5"
   notes: "Enthält eine vorangestellte oppositionspolitische Fragestellerposition und eine inhaltlich abweichende Vorbemerkung der Bundesregierung; Aussagen nicht vermischen."
+
+- id: SRC-DE-WOLFF-URBACH-NOLLAU-2022
+  title: "Die Mai-Offensive der RAF im Jahr 1972 – Reaktionen des Verfassungsschutzes"
+  institution: "Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online"
+  date: '2022-05-30'
+  type: historical_research
+  primary: false
+  tier: B
+  url: https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972
+  accessed: '2026-10-08'
+  locator: "Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff"
+  notes: "Wissenschaftliche Auswertung eines privat archivierten Nollau-Briefs; Original im Beitrag nur auszugsweise zitiert, daher keine als direkt zugänglich markierte Primärquelle für die Briefpassage."
+- id: SRC-DE-BARCH-BAUMANN-URBACH-1973
+  title: "Vernehmung Michael 'Bommi' Baumann, Blatt 90"
+  institution: "Bundesarchiv / Stasi-Unterlagen-Archiv"
+  date: '1973-11-28'
+  type: original_interrogation_record
+  primary: true
+  tier: A
+  url: https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/
+  accessed: '2026-10-08'
+  locator: "BArch, MfS, HA VI, Nr. 1432, Bl. 90, Absatz französische Pistole Unique / Urbach / Mahler"
+  notes: "Authentisches Protokoll von Baumanns Aussage, die ihrerseits Baaders angebliche Mitteilung wiedergibt. Beweist weder die materielle Waffenübergabe noch den Behördenauftrag."
+- id: SRC-DE-RIGOLL-INNERER-KREIS-2017
+  title: "125.000 Desiderate – Zur Dokumentation Im inneren Kreis"
+  institution: "Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online"
+  date: '2017-10-13'
+  type: historical_research
+  primary: false
+  tier: B
+  url: https://zeitgeschichte-online.de/kommentar/im-inneren-kreis
+  accessed: '2026-10-08'
+  locator: "Dominik Rigoll, Absatz Peter Urbach, Fußnote 2: Wolfgang Kraushaar, Die Bombe im Jüdischen Gemeindehaus, Hamburg 2005, S. 175"
+  notes: "Sekundärforschung; verweist für die Bombenherkunft auf Kraushaar. Nicht unabhängig als forensisches Gutachten oder Original-Übergabeprotokoll zu behandeln."
+- id: SRC-DE-BPB-FARIN-SCHEINREVOLUTION-2010
+  title: "Scheinrevolution"
+  institution: "Bundeszentrale für politische Bildung"
+  date: '2010-02-25'
+  type: research_overview
+  primary: false
+  tier: C
+  url: https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/
+  accessed: '2026-10-08'
+  locator: "Klaus Farin, Absatz zu Urbach und Lindner 1996, S. 213"
+  notes: "Sekundärdarstellung; referiert Forschung, kein eigenständiges Ermittlungs- oder Führungsprotokoll."
+- id: SRC-DE-ZZO-RAF-CHRONIK
+  title: "Zur Geschichte der Roten Armee Fraktion und ihrer Kontexte – Eine Chronik"
+  institution: "zeitgeschichte|online"
+  date: '2007'
+  type: historical_chronology
+  primary: false
+  tier: B
+  url: https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik
+  accessed: '2026-10-08'
+  locator: "Februar 1969: misslungener Sprengsatz-Anschlag zur Nixon-Reise; laut Aussage Baumanns von Urbach übergeben"
+  notes: "Die Chronik attribuiert die Herkunft Baumanns Aussage, nicht unabhängiger forensischer Identifizierung."
+- id: SRC-DE-STERN-URBACH-1971-REPRINT
+  title: "Spitzel des Senators"
+  institution: "STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma"
+  date: '1971'
+  type: contemporary_press_reprint
+  primary: false
+  tier: D
+  url: https://www.isioma.net/sds120504.html
+  accessed: '2026-10-08'
+  locator: "STERN Nr. 23/1971, S. 32–36, reproduzierter Bericht von Serke, Seufert und Unger"
+  notes: "Zeitgenössische Untersuchung nur über privaten Reprint zugänglich; Authentizität/Vollständigkeit des Originals nicht unabhängig abgeglichen und strittige Kommentare sind journalistische Attribution."
+- id: SRC-DE-BPB-ANTISEMITISMUS-2021
+  title: "Antisemitismus in Deutschland nach 1945"
+  institution: "Bundeszentrale für politische Bildung"
+  date: '2021'
+  type: historical_research_overview
+  primary: false
+  tier: B
+  url: https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/
+  accessed: '2026-10-08'
+  locator: "Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin vom 9. November 1969"
+  notes: "Belegt Ziel, Gruppe und antisemitischen Charakter des Anschlagsversuchs, nicht Urbachs materielle Bombenlieferung."
+
+- id: SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+  title: "Schreiben des Berliner Innensenators Peter Ulrich an Andreas Gerl vom 16. Januar 1981"
+  institution: "Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma"
+  date: '1981-01-16'
+  type: official_correspondence_private_mirror
+  primary: false
+  tier: D
+  url: https://isioma.net/sds120502.html
+  accessed: '2026-10-08'
+  locator: "Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe"
+  notes: "Auf privater Seite reproduzierte Abschrift samt als Faksimile verlinkten Abbildungen; Provenienz/Vollständigkeit der Originalakte nicht am Berliner Landesarchiv verifiziert. Die 1981er Behördenposition bestreitet mehrere Beschaffungs-/Verteilvorwürfe und schließt einen zeitweiligen Besitz des 1969er Sprengsatzes nicht aus; sie beweist nicht selbst die historische Richtigkeit der Verneinungen."

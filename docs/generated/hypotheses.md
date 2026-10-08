@@ -2,6 +2,12 @@
 
 Hier erscheinen nur Claims, die im Frontmatter ausdrücklich als Hypothese, offene Frage, plausibel oder spekulativ kodiert sind. Offene Forschungsfragen in den Falltexten werden bei weiterer Atomisierung hierher überführt.
 
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-007
+
+**open_question · speculative**
+
+Ob und in welchen einzelnen Fällen Urbachs Führungsoffiziere seine Waffen- oder Sprengstofflieferungen anwiesen, genehmigten oder wissentlich duldeten, bleibt mit den hier registrierten Quellen ungeklärt.
+
 ## [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) · CLM-DE-TMN-004
 
 **open_question · speculative**

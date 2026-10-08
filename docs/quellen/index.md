@@ -555,3 +555,91 @@ Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/20/146/2014669.pdf)
 
 Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
+
+<a id="src-de-wolff-urbach-nollau-2022"></a>
+## SRC-DE-WOLFF-URBACH-NOLLAU-2022
+
+**[Die Mai-Offensive der RAF im Jahr 1972 – Reaktionen des Verfassungsschutzes](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)**
+
+Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-05-30 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
+
+Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+<a id="src-de-barch-baumann-urbach-1973"></a>
+## SRC-DE-BARCH-BAUMANN-URBACH-1973
+
+**[Vernehmung Michael 'Bommi' Baumann, Blatt 90](https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/)**
+
+Bundesarchiv / Stasi-Unterlagen-Archiv · 1973-11-28 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/)
+
+Fundstelle: BArch, MfS, HA VI, Nr. 1432, Bl. 90, Absatz französische Pistole Unique / Urbach / Mahler
+
+<a id="src-de-rigoll-innerer-kreis-2017"></a>
+## SRC-DE-RIGOLL-INNERER-KREIS-2017
+
+**[125.000 Desiderate – Zur Dokumentation Im inneren Kreis](https://zeitgeschichte-online.de/kommentar/im-inneren-kreis)**
+
+Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2017-10-13 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://zeitgeschichte-online.de/kommentar/im-inneren-kreis)
+
+Fundstelle: Dominik Rigoll, Absatz Peter Urbach, Fußnote 2: Wolfgang Kraushaar, Die Bombe im Jüdischen Gemeindehaus, Hamburg 2005, S. 175
+
+<a id="src-de-bpb-farin-scheinrevolution-2010"></a>
+## SRC-DE-BPB-FARIN-SCHEINREVOLUTION-2010
+
+**[Scheinrevolution](https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/)**
+
+Bundeszentrale für politische Bildung · 2010-02-25 · Stufe **C** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/)
+
+Fundstelle: Klaus Farin, Absatz zu Urbach und Lindner 1996, S. 213
+
+<a id="src-de-zzo-raf-chronik"></a>
+## SRC-DE-ZZO-RAF-CHRONIK
+
+**[Zur Geschichte der Roten Armee Fraktion und ihrer Kontexte – Eine Chronik](https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik)**
+
+zeitgeschichte|online · 2007 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik)
+
+Fundstelle: Februar 1969: misslungener Sprengsatz-Anschlag zur Nixon-Reise; laut Aussage Baumanns von Urbach übergeben
+
+<a id="src-de-stern-urbach-1971-reprint"></a>
+## SRC-DE-STERN-URBACH-1971-REPRINT
+
+**[Spitzel des Senators](https://www.isioma.net/sds120504.html)**
+
+STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma · 1971 · Stufe **D** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.isioma.net/sds120504.html)
+
+Fundstelle: STERN Nr. 23/1971, S. 32–36, reproduzierter Bericht von Serke, Seufert und Unger
+
+<a id="src-de-bpb-antisemitismus-2021"></a>
+## SRC-DE-BPB-ANTISEMITISMUS-2021
+
+**[Antisemitismus in Deutschland nach 1945](https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/)**
+
+Bundeszentrale für politische Bildung · 2021 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/)
+
+Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin vom 9. November 1969
+
+<a id="src-de-berlin-ulrich-urbach-1981-mirror"></a>
+## SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+
+**[Schreiben des Berliner Innensenators Peter Ulrich an Andreas Gerl vom 16. Januar 1981](https://isioma.net/sds120502.html)**
+
+Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-01-16 · Stufe **D** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://isioma.net/sds120502.html)
+
+Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
