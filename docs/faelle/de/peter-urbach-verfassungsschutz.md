@@ -12,6 +12,8 @@ event_claims:
   - CLM-DE-URB-001
   - CLM-DE-URB-003
   - CLM-DE-URB-004
+  - CLM-DE-URB-011
+  - CLM-DE-URB-012
 tags: [deutschland, west-berlin, verfassungsschutz, v-mann, raf, linksterrorismus, waffenbeschaffung, antisemitismus, quellenfuehrung]
 actors:
   - PER-DE-PETER-URBACH
@@ -31,6 +33,8 @@ sources:
   - SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
   - SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005
   - SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010
+  - SRC-DE-ZEIT-SCHUELER-URBACH-1971
+  - SRC-DE-NDR-PANORAMA-URBACH-1971
 claims:
   - id: CLM-DE-URB-001
     text: "Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen."
@@ -273,7 +277,71 @@ claims:
       does_not_support: "Es ist weder dieselbe Pistole wie im 1973er Bericht identifiziert noch eine behördlich angeordnete Weitergabe an die RAF bewiesen."
     falsification: "Eine verifizierte Originalakte mit widersprechender Datierung oder Übergaberichtung würde die Behördendarstellung korrigieren."
 
+  - id: CLM-DE-URB-011
+    text: "Ein zeitgenössischer ZEIT-Bericht vom 21. Mai 1971 schildert, dass der Vorsitzende Richter im Mahler-Prozess eine teilweise Erweiterung von Urbachs eingeschränkter Aussagegenehmigung erreichte und Urbach danach erklären durfte, zusammen mit einem Komplizen Waffen vergraben zu haben."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-ZEIT-SCHUELER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-ZEIT-SCHUELER-URBACH-1971
+        directness: direct
+        locator: "ZEIT 21/1971, Seite 3/3, Beginn"
+        note: "Hans Schueler berichtet unmittelbar zeitgenössisch über das teilweise erweiterte Aussageerlaubnis- und Waffenvergraben-Thema, nicht anhand einer heute überprüften Tonaufnahme oder eines amtlichen Verhandlungsprotokolls."
+    counterevidence: []
+    alternatives:
+      - "Die Zeitung kann den zulässigen Aussageumfang und tatsächlich ausgesprochene Aussagen verdichten; ohne Gerichtsprotokoll ist das exakte Wortlautverhältnis offen."
+    missing_evidence:
+      - "Protokoll des Mahler-Verfahrens 1971, die ursprüngliche und die erweiterte Aussagegenehmigung, konkrete Waffen-/Fundakten."
+    scope:
+      supports: "Das Thema angeblich vergrabener Waffen und das Verfahren um eine beschränkte Aussagegenehmigung waren schon 1971 Gegenstand namentlich zuordenbarer Gerichtsberichterstattung."
+      does_not_support: "Der Bericht beweist weder, dass Waffen tatsächlich gefunden oder an die RAF geliefert wurden, noch ihren Eigentümer, Herkunft, Dienstauftrag oder eine gezielte Anschlagssteuerung."
+    falsification: "Eine überprüfbare zeitgenössische gerichtliche Niederschrift, die den berichteten Aussageumfang oder Vorgang widerlegt, korrigiert diese journalistisch attribuierte Darstellung."
+
+  - id: CLM-DE-URB-012
+    text: "Das NDR-Sendungsarchiv dokumentiert für den 24. Mai 1971 den zehnminütigen Panorama-Beitrag 'V-Mann als Zeuge' über Peter Urbach; die heutige redaktionelle Kurzbeschreibung bezeichnet ihn als V-Mann und schreibt ihm Handel mit Drogen und Waffen zu."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-NDR-PANORAMA-URBACH-1971]
+    evidence:
+      - source: SRC-DE-NDR-PANORAMA-URBACH-1971
+        directness: direct
+        locator: "NDR Panorama-Archiv, 24.05.1971, 10-Minuten-Beitrag 'V-Mann als Zeuge'"
+        note: "Die Originalsender-Mediathek belegt die historische Sendungsidentität und ihren heutigen Kurzbeschreibungstext; das Bild- und Audiomaterial wurde hier nicht vollständig transkribiert."
+    counterevidence: []
+    alternatives:
+      - "Der aktuelle kurze Archivtext könnte redaktionell nachträglich formuliert oder verdichtet worden sein; sein Wortlaut muss nicht mit dem 1971 gesprochenen Beitrag übereinstimmen."
+    missing_evidence:
+      - "Vollständige Originalbild-/Ton-Sichtung, Transkript, Produktionsunterlagen und damalige Ermittlungs-/Gerichtsakten zu den genannten Handelsvorwürfen."
+    scope:
+      supports: "Eine originalsenderarchivierte zeitgenössische Fernsehberichterstattung zu Urbachs Quelle- und Waffenmilieu existiert und ist konkret datierbar."
+      does_not_support: "Die TV-Archivbeschreibung allein belegt keine individuelle Waffenübergabe, keine konkrete Rechtswidrigkeit, keine Dienstanweisung und keine unmittelbare Täterschaft im Anschlag von 1969."
+    falsification: "Ein geprüftes ursprüngliches Sendungsprotokoll oder vollständiger Filminhalt, der der heutigen Archivangabe widerspricht, würde die Einordnung korrigieren."
+
+  - id: CLM-DE-URB-013
+    text: "Ein privat reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 nennt die Befassung des Abgeordnetenhauses vom 27. Mai 1971 und einen vertraulichen Bericht Kurt Neubauers im Sicherheitsausschuss am 14. Juni 1971; es bietet Andreas Gerl Einsicht in den Teil zum 'Bombenkomplex' an."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR]
+    evidence:
+      - source: SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+        directness: direct
+        locator: "Brieftext 16.01.1981, erster Absatz und Schlusspassage zu Bombenkomplex"
+        note: "Die private Reproduktion enthält die Angaben zur Abgeordnetenhaussitzung, zum von Ulrich datierten vertraulichen Ausschussbericht und das Angebot zur teilweisen Einsicht; Originalbrief und Ausschussakten wurden noch nicht amtlich abgeglichen."
+    counterevidence: []
+    alternatives:
+      - "Der Termin oder Umfang einer vertraulichen Berichterstattung kann von anderen historischen Darstellungen abweichen; der Brief beschreibt nicht die vollständige Beweislage des Ausschusses."
+    missing_evidence:
+      - "Amtlich archiviertes Brieforiginal vom 16.01.1981, Plenarprotokoll der 7. Sitzung am 27.05.1971, Ausschussprotokoll vom 14.06.1971, Einsichtsvermerke/Gerls Antwort und mögliche Anlagen."
+    scope:
+      supports: "Eine präzise, archivisch überprüfbare Dokumentenkette und ein konkret benannter Ausschnitt des damaligen Behördenberichts sind in der überlieferten Senatskorrespondenz ausgewiesen."
+      does_not_support: "Die Angabe besagt weder, dass diese Akten heute öffentlich sind, noch dass Gerl tatsächlich Einsicht nahm oder die Behörden einen Anschlagsauftrag einräumten."
+    falsification: "Originalprotokolle oder ein Originalbrief mit abweichenden Terminen, Einsichtszusagen oder Inhalt würden diese nur privat reproduzierte Quellenaussage ändern."
+
 what_follows:
+  - text: "Schon die 1971er Gerichts- und Fernsehberichte zeigen eine öffentlich dokumentierte Quellenrolle und zeitgenössische Auseinandersetzung mit Waffenbehauptungen, ohne einen amtlich nachgewiesenen Waffenlieferauftrag zu ersetzen."
+    claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
+  - text: "Der privat reproduzierte Senatsbrief von 1981 benennt die 1971er Parlamentssitzung und einen vertraulichen Aktenabschnitt zum Bombenkomplex als gezielte Originalquellen-Spuren."
+    claim_ids: [CLM-DE-URB-013]
   - text: "Zur Rekonstruktion der Lieferungen liegt auch eine konkrete, allerdings nur privat reproduzierte behördliche Gegenposition von 1981 vor, die gegen historische Zeugenaussagen und Forschung zu prüfen ist."
     claim_ids: [CLM-DE-URB-002, CLM-DE-URB-005, CLM-DE-URB-008]
   - text: "Der Verfassungsschutz hatte im Umfeld der späteren RAF-Führungsfiguren einen nachweisbaren Informationszugang über Urbach."
@@ -283,6 +351,10 @@ what_follows:
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
+  - text: "Der Gerichtspressebericht und die vom NDR heutige Kurzbeschreibung einer historischen Sendung beweisen nicht den konkreten Waffenhandel oder eine Anleitung durch die Führungsoffiziere."
+    claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
+  - text: "Die 1981 angebotene Akteneinsicht beweist nicht, dass Gerl sie wahrnahm oder die vertrauliche Akte heute vorliegt."
+    claim_ids: [CLM-DE-URB-013]
   - text: "Die amtliche Bestreitung von 1981 beweist ebenso wenig eigenständig das Nichtstattfinden der Lieferungen wie die spätere Forschung allein eine behördliche Anweisung beweist."
     claim_ids: [CLM-DE-URB-002, CLM-DE-URB-005, CLM-DE-URB-008]
   - text: "Die dokumentierte Verfassungsschutzquelle beweist weder eine Gründung noch eine zentrale Steuerung der RAF durch staatliche Stellen."
@@ -299,6 +371,9 @@ open_questions:
   - "Welche Akten belegen oder entkräften die 1969er Pistolenübergabe in umgekehrter Richtung?"
   - "Welche Übergaben sind durch mehr als spätere Erinnerungen oder eine zweistufige Protokollaussage belegt?"
   - "Welche amtlichen Akten zum antisemitischen Anschlagsversuch von November 1969 erlauben eine forensische Prüfung der Sprengsatzherkunft?"
+  - "Was steht tatsächlich im vollständigen Mahler-Prozessprotokoll und in Urbachs später teilweise erweiterter Aussagegenehmigung von Mai 1971?"
+  - "Ist die 7. Plenarsitzung vom 27. Mai 1971 in PARDOK mit einem konkreten Digitalisat auffindbar, und ist das als vertraulich beschriebene Ausschussprotokoll vom 14. Juni 1971 freigegeben?"
+  - "Gibt es eine schriftlich dokumentierte Einsicht Gerls 1981 in den Bombenkomplex und einen Archivbestandsnachweis der entsprechenden Unterlagen?"
 case_links: []
 ---
 
@@ -313,6 +388,15 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 - **`CLM-DE-URB-001` — stark gestützt:** Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen.
 - **`CLM-DE-URB-003` — stark gestützt:** Der zeitgenössische STERN-Bericht von 1971 schilderte Peter Urbach als durch den Berliner Verfassungsschutz gestellten Zeugen im damaligen Prozess gegen Horst Mahler; die historische Forschung datiert die Offenlegung seiner V-Mann-Rolle ebenfalls auf diesen Prozess.
 - **`CLM-DE-URB-004` — belegt:** In einem MfS-Vernehmungsprotokoll vom 28. November 1973 sagte Michael Baumann, Andreas Baader habe ihm erzählt, Peter Urbach habe im Frühjahr 1970 eine französische Pistole des Typs Unique und weitere Waffen an Horst Mahler übergeben.
+
+- **`CLM-DE-URB-011` — stark gestützt (zeitgenössischer Bericht):** Ein zeitgenössischer ZEIT-Bericht vom 21. Mai 1971 schildert, dass der Vorsitzende Richter im Mahler-Prozess eine teilweise Erweiterung von Urbachs eingeschränkter Aussagegenehmigung erreichte und Urbach danach erklären durfte, zusammen mit einem Komplizen Waffen vergraben zu haben.
+- **`CLM-DE-URB-012` — stark gestützt (Archivbeleg):** Das NDR-Sendungsarchiv dokumentiert für den 24. Mai 1971 den zehnminütigen Panorama-Beitrag 'V-Mann als Zeuge' über Peter Urbach; die heutige redaktionelle Kurzbeschreibung bezeichnet ihn als V-Mann und schreibt ihm Handel mit Drogen und Waffen zu.
+
+## Aktenzugang 1971/1981: eine konkrete Forschungsspur
+
+- **`CLM-DE-URB-013` — stark gestützt (privater Briefabdruck):** Ein privat reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 nennt die Befassung des Abgeordnetenhauses vom 27. Mai 1971 und einen vertraulichen Bericht Kurt Neubauers im Sicherheitsausschuss am 14. Juni 1971; es bietet Andreas Gerl Einsicht in den Teil zum 'Bombenkomplex' an.
+
+Der am 16. Januar 1981 überlieferte Senatsbrief nennt zwei genau datierte parlamentarische Vorgänge. Er bietet dem Abgeordneten Gerl die Einsicht in einen Teil des damaligen vertraulichen Berichts zum Bombenkomplex an. Damit ist ein **präziser Archivsuchauftrag** formulierbar; daraus folgt noch kein Beweis dafür, dass die Akte öffentlich vorliegt oder ihr Inhalt die spätere Senatsverteidigung widerlegt. Seit September 2026 sind öffentlich zugängliche Berliner Parlamentsmaterialien der früheren Wahlperioden grundsätzlich über [PARDOK](https://pardok.parlament-berlin.de/portala/browse.tt.html) recherchierbar. Ein konkretes Plenar- oder vertrauliches Ausschussdigitalisat wurde hier noch nicht unabhängig identifiziert.
 
 ## Historische Zuschreibungen statt gesicherter Lieferungen
 
@@ -362,6 +446,8 @@ Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien b
 - [Klaus Farin: Scheinrevolution (2010)](https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/) — `SRC-DE-BPB-FARIN-SCHEINREVOLUTION-2010`
 - [Historische RAF-Chronik, zeitgeschichte|online](https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik) — `SRC-DE-ZZO-RAF-CHRONIK`
 - [STERN 23/1971, Archiv-Reproduktion](https://www.isioma.net/sds120504.html) — `SRC-DE-STERN-URBACH-1971-REPRINT`
+- [Hans Schueler, DIE ZEIT 21/1971, S. 3: Die Bomben des Senators](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3) — `SRC-DE-ZEIT-SCHUELER-URBACH-1971`
+- [NDR Panorama, 24.05.1971: V-Mann als Zeuge](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html) — `SRC-DE-NDR-PANORAMA-URBACH-1971`
 - [bpb: Antisemitismus in Deutschland nach 1945](https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/) — `SRC-DE-BPB-ANTISEMITISMUS-2021`
 - [Wolfgang Kraushaar: Die Bombe im Jüdischen Gemeindehaus (2005)](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/) — `SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005`
 - [Regine Igel: Einblicke in die Urbach-Stasi-Akte (2010)](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all) — `SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010`
