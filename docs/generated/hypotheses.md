@@ -12,7 +12,7 @@ Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann
 
 **interpretation · plausible**
 
-Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu.
+Wolfgang Kraushaar ordnet den beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatz einem Agenten des Verfassungsschutzes zu; Rigoll und Wolff referieren diese historische Zuschreibung im Zusammenhang mit Peter Urbach.
 
 ## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-007
 

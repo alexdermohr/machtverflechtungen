@@ -129,7 +129,7 @@ claims:
     falsification: "Eine überprüfbare Korrektur des Originaltranskripts oder ein Nachweis, dass die dokumentierte Aussage nicht von Baumann stammt, würde den Claim widerlegen."
 
   - id: CLM-DE-URB-005
-    text: "Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu."
+    text: "Wolfgang Kraushaar ordnet den beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatz einem Agenten des Verfassungsschutzes zu; Rigoll und Wolff referieren diese historische Zuschreibung im Zusammenhang mit Peter Urbach."
     classification: interpretation
     evidence_level: plausible
     sources: [SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005, SRC-DE-RIGOLL-INNERER-KREIS-2017, SRC-DE-WOLFF-URBACH-NOLLAU-2022, SRC-DE-BPB-ANTISEMITISMUS-2021]
@@ -231,7 +231,7 @@ claims:
     falsification: "Eine verifizierte Originalfassung mit anderem Wortlaut oder authentische Behördenunterlagen, die die zugeschriebenen Positionen wesentlich korrigieren, würden die Bewertung ändern."
 
   - id: CLM-DE-URB-009
-    text: "Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine eigenhändig erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte."
+    text: "Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine nach eigener Darstellung selbst erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte."
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010]
@@ -254,7 +254,7 @@ claims:
     falsification: "Der Originalbericht kann die paraphrasierte Datierung, Autorschaft oder Aussage korrigieren."
 
   - id: CLM-DE-URB-010
-    text: "Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; die Polizei habe wegen Enttarnungsgefahr nicht eingegriffen."
+    text: "Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; Exekutivmaßnahmen seien wegen Enttarnungsgefahr unterblieben."
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR]
@@ -312,7 +312,7 @@ case_links: []
 ## Historische Zuschreibungen statt gesicherter Lieferungen
 
 - **`CLM-DE-URB-002` — plausibel/umstritten:** Die historische Forschung beschreibt, dass der Berliner Verfassungsschutz-V-Mann Peter Urbach 1968 Molotowcocktails an militante Demonstranten verteilte und Anfang 1969 Sprengsätze für Personen aus der West-Berliner militanten Szene bereitstellte.
-- **`CLM-DE-URB-005` — plausibel/umstritten:** Dominik Rigoll und Robert Wolff schreiben in ihren historischen Beiträgen die Herkunft des beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatzes dem Verfassungsschutz-V-Mann Peter Urbach zu.
+- **`CLM-DE-URB-005` — plausibel/umstritten:** Wolfgang Kraushaar ordnet den beim antisemitischen Anschlagsversuch auf das Jüdische Gemeindehaus in West-Berlin am 9. November 1969 verwendeten Sprengsatz einem Agenten des Verfassungsschutzes zu; Rigoll und Wolff referieren diese historische Zuschreibung im Zusammenhang mit Peter Urbach.
 
 Die spätere Forschung beruht teils auf denselben frühen Zeugen und verweist bei der Gemeindehausbombe wesentlich auf Kraushaars Untersuchung von 2005. Diese Studien sind nicht als voneinander unabhängige forensische Bestätigungen zu zählen. Der 1981er Senatsbrief enthält ausdrückliche Gegenbehauptungen. Eine tatsächliche Übergabekette wird daher nicht als gesichertes Netzwerkereignis dargestellt.
 
@@ -326,7 +326,7 @@ Die Tupamaros West-Berlin legten einen Sprengsatz im Jüdischen Gemeindehaus ab;
 
 ## Neuer Archivhinweis: Baumanns Handschrift von 1974
 
-- **`CLM-DE-URB-009` — stark gestützt als veröffentlichter Bericht:** Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine eigenhändig erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte.
+- **`CLM-DE-URB-009` — stark gestützt als veröffentlichter Bericht:** Regine Igel berichtete 2010, einen 1974 von Michael Baumann handschriftlich verfassten Stasi-Bericht eingesehen zu haben, in dem Baumann eine nach eigener Darstellung selbst erlebte Übergabe einer Zeitzünderbombe durch Urbach an ihn und Georg von Rauch Ende Januar 1969 schilderte.
 
 Hierbei geht es um eine behauptete eigene Wahrnehmung Baumanns, während das digitalisierte Originalprotokoll von 1973 eine von Baader erhaltene Erzählung über einen anderen Waffentransfer wiedergibt. Der 1974er Bericht ist nur journalistisch auszugsweise überliefert; eine eigene Einsicht in das Original fehlt.
 
@@ -338,7 +338,7 @@ Das Schreiben verneint insbesondere, dass Urbach 1968 Molotowcocktails verteilt 
 
 ## Die umgekehrte Pistolenrichtung im Senatsbrief
 
-- **`CLM-DE-URB-010` — stark gestützt als Senatsdarstellung:** Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; die Polizei habe wegen Enttarnungsgefahr nicht eingegriffen.
+- **`CLM-DE-URB-010` — stark gestützt als Senatsdarstellung:** Der nur privat reproduzierte Senatsbrief von Januar 1981 schildert eine Übergabe einer Pistole Kaliber 7,65 am 10. Februar 1969 von Horst Mahler an Peter Urbach und deren Rückgabe nach zwei Tagen; Exekutivmaßnahmen seien wegen Enttarnungsgefahr unterblieben.
 
 Die 1973 protokollierte Äußerung betrifft dagegen eine angebliche Übergabe **Urbach an Mahler** im Frühjahr 1970. Es gibt keine Grundlage, beide Zeitpunkte oder beide Waffen ohne zusätzlichen Beleg gleichzusetzen.
 
