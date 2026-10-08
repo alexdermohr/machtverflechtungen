@@ -224,7 +224,7 @@ Der Befund ist als Gegenbeleg zu positiven Einflussbehauptungen zu behandeln. Er
 
 - **\`CLM-DE-CUMEX-007\` — offen:** Ob ein politischer Kontakt im Warburg-Steuerverfahren eine konkrete Verwaltungsentscheidung kausal beeinflusste, bleibt mit den hier registrierten Quellen ungeklärt.
 
-Für eine stärkere Behauptung sind insbesondere unmittelbare Entscheidungsvermerke, Kommunikation und nachweisbare Kausalbrücken erforderlich. Das alleinige zeitliche Nebeneinander ist nicht ausreichend.
+Für eine stärkere Behauptung sind insbesondere unmittelbare Entscheidungsvermerke, Kommunikation und nachweisbare Kausalbrücken erforderlich. Das alleinige zeitliche Nebeneinander ist nicht ausreichend. **Zeitliche Grenze:** Das hier konkret dokumentierte Treffen vom 10. November 2017 fand nach dem zunächst unterbliebenen Rückforderungsschritt von 2016 statt und kann daher diesen früheren Entschluss nicht verursacht haben. Für eine Untersuchung des Entscheidungsprozesses von 2016 müssen etwaige Kontakte **vor** dieser Entscheidung und die zugehörigen Akten eigenständig recherchiert und belegt werden.
 
 ## Dokumente
 
