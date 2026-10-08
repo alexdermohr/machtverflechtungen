@@ -129,6 +129,12 @@ flowchart LR
     N_ORG_DE_DER_MONAT["Der Monat"]
     N_ORG_INT_CONGRESS_CULTURAL_FREEDOM -->|"laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet"| N_ORG_DE_DER_MONAT
     N_ORG_DE_BND -->|"Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge"| N_CASE_DE_MEDIEN_NACHRICHTENDIENST_CROSSLAYER
+    N_ORG_DE_HH_FINANZVERWALTUNG["Hamburger Finanzverwaltung"]
+    N_ORG_DE_MM_WARBURG["M. M. Warburg & CO"]
+    N_ORG_DE_HH_FINANZVERWALTUNG -->|"forderte Cum-Ex-Steuererstattungen 2020 vollständig zurück"| N_ORG_DE_MM_WARBURG
+    N_PER_DE_OLAF_SCHOLZ["Olaf Scholz"]
+    N_PER_DE_CHRISTIAN_OLEARIUS["Christian Olearius"]
+    N_PER_DE_OLAF_SCHOLZ -->|"Treffen am 10. November 2017 (Inhalt nicht dokumentiert)"| N_PER_DE_CHRISTIAN_OLEARIUS
 ```
 
 ## Relationen
@@ -204,3 +210,5 @@ flowchart LR
 | REL-DE-MNI-006 | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | strong | SRC-US-CIA-CCF-HISTORY-1995 |
 | REL-DE-MNI-008 | Congress for Cultural Freedom | laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | strong | SRC-INT-SCOTT-SMITH-DER-MONAT-2000 |
 | REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
+| REL-DE-CUMEX-001 | Hamburger Finanzverwaltung | forderte Cum-Ex-Steuererstattungen 2020 vollständig zurück | M. M. Warburg & CO | established | SRC-DE-BT-WARBURG-ANTWORT-2025 |
+| REL-DE-CUMEX-002 | Olaf Scholz | Treffen am 10. November 2017 (Inhalt nicht dokumentiert) | Christian Olearius | established | SRC-DE-HH-WARBURG-SENAT-2020 |

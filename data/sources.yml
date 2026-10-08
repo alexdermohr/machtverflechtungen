@@ -505,3 +505,58 @@ sources:
   accessed: '2026-10-04'
   locator: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
   notes: Sekundärforschung; trägt die verdeckte CIA-CCF-Finanzierungskette zu Der Monat, nicht artikelgenaue redaktionelle Weisungen.
+
+- id: SRC-DE-BGH-CUMEX-2021
+  title: "BGH, Urteil vom 28. Juli 2021 – 1 StR 519/20"
+  institution: Bundesgerichtshof
+  date: '2021-07-28'
+  type: court_ruling
+  primary: true
+  tier: A
+  url: https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362
+  accessed: '2026-10-08'
+  locator: "Amtliche Leitsätze, insbesondere Leitsatz 1; ECLI:DE:BGH:2021:280721U1STR519.20.0"
+  notes: "BGH-Originaldokument; automatisierter Zugriff auf die Justiz-Domain kann gesperrt sein. Alternativer öffentlich lesbarer Abdruck: https://www.hrr-strafrecht.de/hrr/1/20/1-519-20-1.php"
+- id: SRC-DE-BT-CUMEX-PUA-2017
+  title: "Abschlussbericht des 4. Untersuchungsausschusses (Cum/Ex)"
+  institution: Deutscher Bundestag
+  date: '2017-06-20'
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/127/1812700.pdf
+  accessed: '2026-10-08'
+  locator: "Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt"
+- id: SRC-DE-HH-WARBURG-SENAT-2020
+  title: "Cum-Ex-Skandal: Verzichtete die Finanzbehörde auf 47 Millionen Euro?"
+  institution: Senat der Freien und Hansestadt Hamburg
+  date: '2020'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/69971/cum_ex_skandal_verzichtete_die_finanzbehoerde_auf_47_millionen_euro.pdf
+  accessed: '2026-10-08'
+  locator: "Drucksache 21/20198, Frage 4 a"
+  notes: "Der Senat bestätigt ein Treffen am 10.11.2017, bezeichnet dessen Inhalt aber als nicht im Einzelnen dokumentiert."
+- id: SRC-DE-HH-CUMEX-PUA-2024
+  title: "Zwischenbericht des Parlamentarischen Untersuchungsausschusses Cum-Ex-Steuergeldaffäre"
+  institution: Hamburgische Bürgerschaft
+  date: '2024-02-28'
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf
+  accessed: '2026-10-08'
+  locator: "Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen"
+  notes: "Zwischenbericht; 2025 wurde ein Schlussbericht Drs. 22/18000 vorgelegt, dessen vollständige Auswertung für spätere Forschung offen bleibt."
+- id: SRC-DE-BT-WARBURG-ANTWORT-2025
+  title: "Antwort der Bundesregierung auf die Große Anfrage zur Warburg-Steuerrückforderung"
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2025-01-24'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/20/146/2014669.pdf
+  accessed: '2026-10-08'
+  locator: "Drucksache 20/14669, insbesondere S. 1–5"
+  notes: "Enthält eine vorangestellte oppositionspolitische Fragestellerposition und eine inhaltlich abweichende Vorbemerkung der Bundesregierung; Aussagen nicht vermischen."

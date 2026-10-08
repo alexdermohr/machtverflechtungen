@@ -278,3 +278,28 @@ entities:
     type: cultural_network
     name: "Congress for Cultural Freedom"
     countries: [US, FR, DE]
+
+  - id: ORG-DE-MM-WARBURG
+    type: bank
+    name: "M. M. Warburg & CO"
+    countries: [DE]
+
+  - id: ORG-DE-HH-FINANZVERWALTUNG
+    type: tax_administration
+    name: "Hamburger Finanzverwaltung"
+    countries: [DE]
+
+  - id: ORG-DE-BMF
+    type: government_ministry
+    name: "Bundesministerium der Finanzen"
+    countries: [DE]
+
+  - id: PER-DE-OLAF-SCHOLZ
+    type: person
+    name: "Olaf Scholz"
+    countries: [DE]
+
+  - id: PER-DE-CHRISTIAN-OLEARIUS
+    type: person
+    name: "Christian Olearius"
+    countries: [DE]

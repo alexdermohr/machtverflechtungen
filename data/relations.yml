@@ -659,3 +659,23 @@ relations:
     evidence_level: established
     sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
     claim_ids: [CLM-DE-MNI-002]
+
+  - id: REL-DE-CUMEX-001
+    from: ORG-DE-HH-FINANZVERWALTUNG
+    to: ORG-DE-MM-WARBURG
+    type: tax_recovery
+    label: "forderte Cum-Ex-Steuererstattungen 2020 vollständig zurück"
+    period: {start: "2020"}
+    evidence_level: established
+    sources: [SRC-DE-BT-WARBURG-ANTWORT-2025]
+    claim_ids: [CLM-DE-CUMEX-004]
+
+  - id: REL-DE-CUMEX-002
+    from: PER-DE-OLAF-SCHOLZ
+    to: PER-DE-CHRISTIAN-OLEARIUS
+    type: documented_meeting
+    label: "Treffen am 10. November 2017 (Inhalt nicht dokumentiert)"
+    period: {start: "2017-11-10", end: "2017-11-10"}
+    evidence_level: established
+    sources: [SRC-DE-HH-WARBURG-SENAT-2020]
+    claim_ids: [CLM-DE-CUMEX-005]

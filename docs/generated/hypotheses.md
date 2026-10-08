@@ -7,3 +7,9 @@ Hier erscheinen nur Claims, die im Frontmatter ausdrücklich als Hypothese, offe
 **open_question · speculative**
 
 Ob eine dokumentierte Netzwerkbeziehung eine konkrete redaktionelle Entscheidung, Themenauswahl, Gewichtung oder Kommentierung beeinflusst oder gesteuert hat, bleibt mit den registrierten Quellen offen.
+
+## [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) · CLM-DE-CUMEX-007
+
+**open_question · speculative**
+
+Ob ein politischer Kontakt im Warburg-Steuerverfahren eine konkrete Verwaltungsentscheidung kausal beeinflusste, bleibt mit den hier registrierten Quellen ungeklärt.
