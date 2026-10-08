@@ -679,3 +679,12 @@ relations:
     evidence_level: established
     sources: [SRC-DE-HH-WARBURG-SENAT-2020]
     claim_ids: [CLM-DE-CUMEX-005]
+
+  - id: REL-DE-URB-001
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: PER-DE-PETER-URBACH
+    type: informant_handler_relationship
+    label: "führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972"
+    evidence_level: strong
+    sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022]
+    claim_ids: [CLM-DE-URB-001]

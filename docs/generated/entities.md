@@ -27,6 +27,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-GEORG-MASCOLO` | person | Georg Mascolo | DE |
 | `ORG-DE-HH-FINANZVERWALTUNG` | tax_administration | Hamburger Finanzverwaltung | DE |
 | `ORG-DE-HANDELSBLATT` | media_outlet | Handelsblatt | DE |
+| `PER-DE-HORST-MAHLER` | person | Horst Mahler | DE |
 | `PER-DE-HUBERT-BURDA` | person | Hubert Burda | DE |
 | `PER-DE-INGO-ZAMPERONI` | person | Ingo Zamperoni | DE |
 | `PER-DE-JOSEF-JOFFE` | person | Josef Joffe | DE |
@@ -39,11 +40,13 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-MM-WARBURG` | bank | M. M. Warburg & CO | DE |
 | `PER-DE-MATHIAS-DOEPFNER` | person | Mathias Döpfner | DE |
 | `PER-DE-MATTHIAS-NASS` | person | Matthias Naß | DE |
+| `PER-DE-MICHAEL-BAUMANN` | person | Michael 'Bommi' Baumann | DE |
 | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | intelligence_service | Niedersächsischer Verfassungsschutz | DE |
 | `PER-DE-OLAF-SCHOLZ` | person | Olaf Scholz | DE |
 | `ORG-DE-ORGANISATION-GEHLEN` | intelligence_organization | Organisation Gehlen | DE, US |
 | `PER-DE-PAUL-BERNHARD-KALLEN` | person | Paul-Bernhard Kallen | DE |
 | `PER-DE-PETER-FREY` | person | Peter Frey | DE |
+| `PER-DE-PETER-URBACH` | person | Peter Urbach | DE |
 | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | media_network | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | DE |
 | `PER-DE-REINHARD-GEHLEN` | person | Reinhard Gehlen | DE |
 | `PER-DE-STEFAN-KORNELIUS` | person | Stefan Kornelius | DE |
@@ -61,7 +64,9 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-TINA-HASSEL` | person | Tina Hassel | DE |
 | `PER-DE-TINO-BRANDT` | person | Tino Brandt | DE |
 | `PER-DE-TOM-BUHROW` | person | Tom Buhrow | DE |
+| `ORG-DE-TUPAMAROS-WEST-BERLIN` | extremist_network | Tupamaros West-Berlin | DE |
 | `PER-DE-ULRICH-WILHELM` | person | Ulrich Wilhelm | DE |
 | `PER-DE-VOLKER-FOERTSCH` | person | Volker Foertsch | DE |
+| `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | intelligence_service | West-Berliner Landesamt für Verfassungsschutz | DE |
 | `ORG-DE-WDR` | public_broadcaster | Westdeutscher Rundfunk | DE |
 | `ORG-DE-ZDF` | public_broadcaster | ZDF | DE |

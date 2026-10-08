@@ -135,6 +135,9 @@ flowchart LR
     N_PER_DE_OLAF_SCHOLZ["Olaf Scholz"]
     N_PER_DE_CHRISTIAN_OLEARIUS["Christian Olearius"]
     N_PER_DE_OLAF_SCHOLZ -->|"Treffen am 10. November 2017 (Inhalt nicht dokumentiert)"| N_PER_DE_CHRISTIAN_OLEARIUS
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ["West-Berliner Landesamt für Verfassungsschutz"]
+    N_PER_DE_PETER_URBACH["Peter Urbach"]
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972"| N_PER_DE_PETER_URBACH
 ```
 
 ## Relationen
@@ -212,3 +215,4 @@ flowchart LR
 | REL-DE-MNI-012 | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | established | SRC-DE-BT-UA-BND-JOURNALISTEN-2009 |
 | REL-DE-CUMEX-001 | Hamburger Finanzverwaltung | forderte Cum-Ex-Steuererstattungen 2020 vollständig zurück | M. M. Warburg & CO | established | SRC-DE-BT-WARBURG-ANTWORT-2025 |
 | REL-DE-CUMEX-002 | Olaf Scholz | Treffen am 10. November 2017 (Inhalt nicht dokumentiert) | Christian Olearius | established | SRC-DE-HH-WARBURG-SENAT-2020 |
+| REL-DE-URB-001 | West-Berliner Landesamt für Verfassungsschutz | führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972 | Peter Urbach | strong | SRC-DE-WOLFF-URBACH-NOLLAU-2022 |

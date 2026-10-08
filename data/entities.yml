@@ -303,3 +303,28 @@ entities:
     type: person
     name: "Christian Olearius"
     countries: [DE]
+
+  - id: PER-DE-PETER-URBACH
+    type: person
+    name: "Peter Urbach"
+    countries: [DE]
+
+  - id: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: intelligence_service
+    name: "West-Berliner Landesamt für Verfassungsschutz"
+    countries: [DE]
+
+  - id: PER-DE-HORST-MAHLER
+    type: person
+    name: "Horst Mahler"
+    countries: [DE]
+
+  - id: PER-DE-MICHAEL-BAUMANN
+    type: person
+    name: "Michael 'Bommi' Baumann"
+    countries: [DE]
+
+  - id: ORG-DE-TUPAMAROS-WEST-BERLIN
+    type: extremist_network
+    name: "Tupamaros West-Berlin"
+    countries: [DE]
