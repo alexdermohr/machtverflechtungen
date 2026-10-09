@@ -687,3 +687,58 @@ NDR / Das Erste / Panorama-Archiv · 1971-05-24 · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html)
 
 Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung
+
+<a id="src-de-bgh-la-belle-2004"></a>
+## SRC-DE-BGH-LA-BELLE-2004
+
+**[BGH, Urteil vom 24. Juni 2004 – 5 StR 306/03 (La Belle)](https://www.anwalt24.de/urteile/bgh/2004-06-24/5-str-306_03)**
+
+Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24 · 2004-06-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.anwalt24.de/urteile/bgh/2004-06-24/5-str-306_03)
+
+Fundstelle: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
+
+<a id="src-de-mfs-la-belle-information-1986"></a>
+## SRC-DE-MFS-LA-BELLE-INFORMATION-1986
+
+**[MfS: Information über Hintergründe des Sprengstoffanschlags auf La Belle](https://www.stasi-mediathek.de/fileadmin/pdf/dok1526.pdf)**
+
+Bundesarchiv / Stasi-Unterlagen-Archiv · 1986-04-15 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.stasi-mediathek.de/fileadmin/pdf/dok1526.pdf)
+
+Fundstelle: BArch, MfS, HA XX, AKG Nr. 154, Bl. 558; Originalfaksimile im PDF Seite 2 von 2
+
+<a id="src-de-mfs-la-belle-thesen-1988"></a>
+## SRC-DE-MFS-LA-BELLE-THESEN-1988
+
+**[MfS-Thesenzuarbeit für Erich Mielke zu Antiterrorismuskonsultationen mit den USA](https://www.stasi-mediathek.de/medien/thesenzuarbeit-fuer-erich-mielke-in-vorbereitung-der-antiterrorismuskonsultationen-der-ddr-mit-den-usa/blatt/163/)**
+
+Bundesarchiv / Stasi-Unterlagen-Archiv · 1988-01-27 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.stasi-mediathek.de/medien/thesenzuarbeit-fuer-erich-mielke-in-vorbereitung-der-antiterrorismuskonsultationen-der-ddr-mit-den-usa/blatt/163/)
+
+Fundstelle: BArch, MfS, HA XXII, Nr. 18138, Bd. 1, Bl. 158–171, besonders Bl. 163 und Passage La Belle
+
+<a id="src-de-barch-la-belle-dossier"></a>
+## SRC-DE-BARCH-LA-BELLE-DOSSIER
+
+**[Tödlicher Anschlag in West-Berlin](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/toedlicher-anschlag-in-west-berlin/)**
+
+Bundesarchiv / Stasi-Unterlagen-Archiv · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/toedlicher-anschlag-in-west-berlin/)
+
+Fundstelle: Abschnitte 'Die Staatssicherheit als Insider', 'Irreführung der USA'; 22:30-Uhr-Anruf vor dem Anschlag
+
+<a id="src-de-aa-aapd-la-belle-warnung-1986"></a>
+## SRC-DE-AA-AAPD-LA-BELLE-WARNUNG-1986
+
+**[AAPD 1986, Dok. 140: Aufzeichnung Eickhoff zu La Belle und der Vorwarnung](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)**
+
+Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-05-16 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
+
+Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
