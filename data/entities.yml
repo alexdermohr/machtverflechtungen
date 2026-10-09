@@ -328,3 +328,12 @@ entities:
     type: extremist_network
     name: "Tupamaros West-Berlin"
     countries: [DE]
+
+  - id: ORG-DE-MFS
+    type: intelligence_service
+    name: "Ministerium für Staatssicherheit (MfS)"
+    countries: [DE]
+  - id: ORG-LY-VOLKSBUREAU-OSTBERLIN
+    type: diplomatic_mission
+    name: "Libysches Volksbüro (Ost-Berlin)"
+    countries: [DE, LY]

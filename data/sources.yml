@@ -729,3 +729,70 @@ sources:
   accessed: '2026-10-08'
   locator: "Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung"
   notes: "Originalsender-Archiv belegt Ausstrahlung, Titel und aktuelle Inhaltsbeschreibung des zeitgenössischen Fernsehbeitrags. Die Archivbeschreibung erwähnt Verfassungsschutz-Informantenstatus sowie Drogen- und Waffenhandel, ist aber nicht mit einer vollständigen Transkription oder forensischen Beweisen zu verwechseln; Video in diesem Forschungsdurchgang nicht vollständig transkribiert."
+
+- id: SRC-DE-BGH-LA-BELLE-2004
+  title: BGH, Urteil vom 24. Juni 2004 – 5 StR 306/03 (La Belle)
+  institution: Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24
+  date: '2004-06-24'
+  type: judicial_decision
+  primary: true
+  tier: A
+  url: https://www.anwalt24.de/urteile/bgh/2004-06-24/5-str-306_03
+  accessed: '2026-10-09'
+  locator: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
+  notes: Authentischer Entscheidungstext in juristischer Volltextedition; die wiedergegebenen tatsächlichen Feststellungen
+    stammen aus dem landgerichtlichen Urteil, das der BGH revisionsrechtlich bestätigte. Die Entscheidungsgründe
+    weisen ausdrücklich nicht geklärte Details, Motive und Tatbeiträge aus.
+- id: SRC-DE-MFS-LA-BELLE-INFORMATION-1986
+  title: 'MfS: Information über Hintergründe des Sprengstoffanschlags auf La Belle'
+  institution: Bundesarchiv / Stasi-Unterlagen-Archiv
+  date: '1986-04-15'
+  type: original_intelligence_report
+  primary: true
+  tier: A
+  url: https://www.stasi-mediathek.de/fileadmin/pdf/dok1526.pdf
+  accessed: '2026-10-09'
+  locator: BArch, MfS, HA XX, AKG Nr. 154, Bl. 558; Originalfaksimile im PDF Seite 2 von 2
+  notes: Originales MfS-Blatt mit Vermerken über Gespräche vom 14.04.1986 mit Mitarbeitern der irakischen Botschaft.
+    Das PDF enthält auf Seite 1 redaktionellen Bundesarchiv-Kontext und auf Seite 2 das zeitgenössische Aktenfaksimile;
+    die Fremdangaben beweisen nicht unabhängig die behauptete libysche Urheberschaft.
+- id: SRC-DE-MFS-LA-BELLE-THESEN-1988
+  title: MfS-Thesenzuarbeit für Erich Mielke zu Antiterrorismuskonsultationen mit den USA
+  institution: Bundesarchiv / Stasi-Unterlagen-Archiv
+  date: '1988-01-27'
+  type: original_intelligence_briefing
+  primary: true
+  tier: A
+  url: https://www.stasi-mediathek.de/medien/thesenzuarbeit-fuer-erich-mielke-in-vorbereitung-der-antiterrorismuskonsultationen-der-ddr-mit-den-usa/blatt/163/
+  accessed: '2026-10-09'
+  locator: BArch, MfS, HA XXII, Nr. 18138, Bd. 1, Bl. 158–171, besonders Bl. 163 und Passage La Belle
+  notes: Originales internes Arbeitspapier für die bevorstehenden Konsultationen; belegt die vorbereitete Abwehrformel
+    zur Rolle des libyschen Volksbüros, nicht schon ihre tatsächliche Äußerung durch Delegationsmitglieder oder
+    einen DDR-Auftrag für den Anschlag.
+- id: SRC-DE-BARCH-LA-BELLE-DOSSIER
+  title: Tödlicher Anschlag in West-Berlin
+  institution: Bundesarchiv / Stasi-Unterlagen-Archiv
+  date: null
+  type: archival_historical_reconstruction
+  primary: false
+  tier: B
+  url: https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/toedlicher-anschlag-in-west-berlin/
+  accessed: '2026-10-09'
+  locator: Abschnitte 'Die Staatssicherheit als Insider', 'Irreführung der USA'; 22:30-Uhr-Anruf vor dem Anschlag
+  notes: Amtliche retrospektive Archivdarstellung, keine publizierte Original-Telefonverbindung oder beweiskräftige
+    Dienstzeitliste. Der dort rekonstruierte nicht durchgekommene Anruf bleibt vom landgerichtlich festgestellten
+    Wissen über mögliche Ziele zu unterscheiden.
+- id: SRC-DE-AA-AAPD-LA-BELLE-WARNUNG-1986
+  title: 'AAPD 1986, Dok. 140: Aufzeichnung Eickhoff zu La Belle und der Vorwarnung'
+  institution: Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte
+  date: '1986-05-16'
+  type: official_record_critical_edition
+  primary: true
+  tier: A
+  url: https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content
+  accessed: '2026-10-09'
+  locator: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729
+    (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+  notes: 2017 kritisch edierte Wiedergabe einer zeitgenössischen AA-Aufzeichnung vom 16.05. zur Ausschusssitzung
+    vom 14.05. Sie dokumentiert die Darstellungen der Staatssekretäre und BND-Leitung; ursprüngliche BKA-/LKA-Warnmeldungen,
+    Funkquellen und Zustellungsquittungen sind nicht abgedruckt.
