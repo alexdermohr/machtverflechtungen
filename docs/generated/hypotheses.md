@@ -20,6 +20,18 @@ Wolfgang Kraushaar ordnet den beim antisemitischen Anschlagsversuch auf das Jüd
 
 Ob und in welchen einzelnen Fällen Urbachs Führungsoffiziere seine Waffen- oder Sprengstofflieferungen anwiesen, genehmigten oder wissentlich duldeten, bleibt mit den hier registrierten Quellen ungeklärt.
 
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-014
+
+**fact · plausible**
+
+Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung.
+
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-017
+
+**fact · plausible**
+
+Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
+
 ## [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) · CLM-DE-TMN-004
 
 **open_question · speculative**

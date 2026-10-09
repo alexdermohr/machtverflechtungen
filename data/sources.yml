@@ -695,4 +695,27 @@ sources:
   url: https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html
   accessed: '2026-10-08'
   locator: "Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung"
-  notes: "Originalsender-Archiv belegt Ausstrahlung, Titel und aktuelle Inhaltsbeschreibung des zeitgenössischen Fernsehbeitrags. Die Archivbeschreibung erwähnt Verfassungsschutz-Informantenstatus sowie Drogen- und Waffenhandel, ist aber nicht mit einer vollständigen Transkription oder forensischen Beweisen zu verwechseln; Video in diesem Forschungsdurchgang nicht vollständig transkribiert."
+  notes: "Originalsender-Archiv belegt Ausstrahlung, Titel und heutige redaktionelle Inhaltsbeschreibung, nicht die einzelnen O-Ton-Aussagen. Der originale ARD-Mediathek-Film wird separat als audiovisuelle Quelle geführt; lokal liegt eine maschinelle, nicht manuell korrigierte ASR-Arbeitsfassung vor."
+
+- id: SRC-DE-NRW-POSSER-REGIERUNG-1970
+  title: "Landtag Nordrhein-Westfalen, Plenarprotokoll 07/2, 28. Juli 1970"
+  institution: "Landtag Nordrhein-Westfalen"
+  date: '1970-07-28'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf
+  accessed: '2026-10-09'
+  locator: "S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten"
+  notes: "Amtliches Faksimile mit namentlicher Ernennung. Dient nur der unabhängigen Plausibilisierung einer Personenzuordnung im NDR-ASR-Entwurf, nicht als Beleg für den historischen Interviewwortlaut."
+- id: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+  title: "Panorama: V-Mann als Zeuge, audiovisuelle Originalüberlieferung"
+  institution: "ARD Mediathek / NDR"
+  date: '1971-05-24'
+  type: archival_audiovisual_document
+  primary: true
+  tier: A
+  url: https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU
+  accessed: '2026-10-09'
+  locator: "Zeitmarken 01:24–01:41; 03:51–04:15; 05:31–06:05; 06:25–08:38; 08:38–10:14; exakte Tonlänge lokal 624,363 s"
+  notes: "Originaler zeitgenössischer Fernsehbeitrag. Die archivierte Audiofassung ist lokal hashgebunden; vorhandener Text nur maschinell mit faster-whisper large-v3 verschriftlicht und nicht vollständig gegengehört. Primärquelle für geäußerte zeitgenössische Behauptungen, nicht für die Richtigkeit dieser Behauptungen oder behauptete Lieferungen. Vollständiger Fremdtranskripttext und Audiokopie bleiben privat."

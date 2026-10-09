@@ -687,3 +687,25 @@ NDR / Das Erste / Panorama-Archiv · 1971-05-24 · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html)
 
 Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung
+
+<a id="src-de-nrw-posser-regierung-1970"></a>
+## SRC-DE-NRW-POSSER-REGIERUNG-1970
+
+**[Landtag Nordrhein-Westfalen, Plenarprotokoll 07/2, 28. Juli 1970](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)**
+
+Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
+
+Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+<a id="src-de-ard-panorama-urbach-1971-video"></a>
+## SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+
+**[Panorama: V-Mann als Zeuge, audiovisuelle Originalüberlieferung](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU)**
+
+ARD Mediathek / NDR · 1971-05-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU)
+
+Fundstelle: Zeitmarken 01:24–01:41; 03:51–04:15; 05:31–06:05; 06:25–08:38; 08:38–10:14; exakte Tonlänge lokal 624,363 s
