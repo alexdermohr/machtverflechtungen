@@ -40,6 +40,7 @@ sources:
   - SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
   - SRC-DE-NRW-POSSER-REGIERUNG-1970
   - SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+  - SRC-DE-BERLIN-PLENUM-URBACH-1971
 claims:
   - id: CLM-DE-URB-001
     text: "Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen."
@@ -336,7 +337,7 @@ claims:
     alternatives:
       - "Der Termin oder Umfang einer vertraulichen Berichterstattung kann von anderen historischen Darstellungen abweichen; der Brief beschreibt nicht die vollständige Beweislage des Ausschusses."
     missing_evidence:
-      - "Amtlich archiviertes Brieforiginal vom 16.01.1981, Plenarprotokoll der 7. Sitzung am 27.05.1971, Ausschussprotokoll vom 14.06.1971, Einsichtsvermerke/Gerls Antwort und mögliche Anlagen."
+      - "Amtlich archiviertes Brieforiginal vom 16.01.1981, vertrauliches Ausschussprotokoll vom 14.06.1971, Einsichtsvermerke/Gerls Antwort und mögliche Anlagen. Das Plenarprotokoll vom 27.05.1971 liegt inzwischen als Originalfaksimile vor (CLM-DE-URB-020–023)."
     scope:
       supports: "Eine präzise, archivisch überprüfbare Dokumentenkette und ein konkret benannter Ausschnitt des damaligen Behördenberichts sind in der überlieferten Senatskorrespondenz ausgewiesen."
       does_not_support: "Die Angabe besagt weder, dass diese Akten heute öffentlich sind, noch dass Gerl tatsächlich Einsicht nahm oder die Behörden einen Anschlagsauftrag einräumten."
@@ -477,7 +478,93 @@ claims:
       supports: "Zeitgenössisch veröffentlichte, archivisch prüfbare Angaben zum Zeugenverfahren und ein präziser Hinweis auf Blatt 47a der Ermittlungsakten."
       does_not_support: "Keine Feststellung, dass die Akten heute zugänglich sind, dass sämtliche angegebenen Termine amtlich verifiziert wurden oder dass aus der Genehmigung ein Recht zur Waffenbeschaffung folgt."
     falsification: "Eine authentische Originalfassung des SPIEGEL-Interviews ohne diese zugeschriebenen Aussagen oder mit anderem Wortlaut würde den Publikations-Claim widerlegen; abweichende Gerichts- und Behördenakten beträfen dagegen die materielle Richtigkeit der berichteten Verfahrensdaten."
+  - id: CLM-DE-URB-020
+    text: "Das amtliche Berliner Plenarprotokoll vom 27. Mai 1971 dokumentiert die öffentliche Erklärung Innensenators Kurt Neubauer, Peter Urbach sei ein Vertrauensmann des Landesamts für Verfassungsschutz gewesen, der zur Informationsgewinnung in linksradikalen Gruppen eingesetzt worden sei."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-PLENUM-URBACH-1971]
+    evidence:
+      - source: SRC-DE-BERLIN-PLENUM-URBACH-1971
+        directness: direct
+        locator: "Plenarprotokoll 6/7, 27.05.1971, Druck-S. 92–93, Viewer 112–113, Antwort Neubauer auf Fröhners Frage 1"
+        note: "Originale Parlamentsniederschrift einer öffentlichen ministeriellen Aussage; belegt den amtlichen zeitgenössischen Umgang mit Urbach als Quelle, nicht das Datum der ursprünglichen Anwerbung oder einzelne Führungsaufträge."
+    counterevidence: []
+    alternatives:
+      - "Die öffentlich verwendete Einordnung als Vertrauensmann muss weder den vollständigen vertraglichen Status noch die ursprünglichen Einsatz- und Anwerbevorgänge offenlegen."
+    missing_evidence:
+      - "Authentische Anwerbe-, Führungs- und Zahlungsunterlagen; Beginn und Ende der Quellenbeziehung."
+    scope:
+      supports: "1971 bestätigte Neubauer die Verfassungsschutz-Informantenrolle Urbachs und den erklärten Informationszweck öffentlich im Parlament."
+      does_not_support: "Kein konkretes Anwerbedatum, keine überprüfte Vergütung, keine Weisung zur Waffenbeschaffung oder zum Anschlag."
+    falsification: "Ein authentisches Plenaroriginal ohne Neubauers zugeschriebene Quellenbestätigung oder mit anderer Personenattribution würde den behaupteten Wortlaut-Claim ändern; dienstliche Akten könnten seine materielle Aussage präzisieren."
+
+  - id: CLM-DE-URB-021
+    text: "Neubauer wies in der Berliner Plenarsitzung vom 27. Mai 1971 die Anschuldigungen zurück, die 1969 im Jüdischen Gemeindehaus gefundene Bombe stamme aus Beständen des Verfassungsschutzes und Sprengstoff sei auf dessen Veranlassung in APO-Wohnungen hinterlegt worden."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-PLENUM-URBACH-1971]
+    evidence:
+      - source: SRC-DE-BERLIN-PLENUM-URBACH-1971
+        directness: direct
+        locator: "Plenarprotokoll 6/7, Druck-S. 92 (Fröhners Anfrage 11, Frage 2a/b) und S. 93 (Neubauers Antwort zu 2), Viewer 112–113"
+        note: "Das amtliche Protokoll enthält die zwei konkreten parlamentarischen Vorwürfe und deren ausdrückliche ministerielle Bestreitung. Die Antwort ist keine unabhängig ermittelte Explosivstoffherkunft."
+    counterevidence: []
+    alternatives:
+      - "Die amtliche Bestreitung könnte korrekt, unvollständig oder interessengeleitet sein; die Tatwaffen- und Sprengstoffspur muss forensisch und anhand von Führungsakten beurteilt werden."
+      - "Eine mögliche eigenständige Beschaffung Urbachs wäre mit der Verneinung eines dienstlichen Auftrags vereinbar."
+    missing_evidence:
+      - "Kriminaltechnische Unterlagen der Bombe vom 09.11.1969, Originalzeugenaussagen, Materialherkunft und konkrete Auftrags-/Mitwissensnachweise."
+    scope:
+      supports: "Zeitgenössische öffentliche Gegenposition der zuständigen Berliner Exekutive zu zwei identifizierten Vorwürfen."
+      does_not_support: "Weder unabhängige Widerlegung der Tatbehauptungen noch Beweis für eine andere staatliche Finanzierung oder einen Anschlagsauftrag."
+    falsification: "Ein authentischer Protokollwortlaut, der diese beiden Bestreitungen nicht enthält, würde den Aussagen-Claim widerlegen; sachliche Tatakten könnten hingegen die Richtigkeit der Ministerantwort ändern."
+
+  - id: CLM-DE-URB-022
+    text: "Innensenator Neubauer begründete am 27. Mai 1971 Urbachs begrenzte gerichtliche Aussagegenehmigung mit Schutz nachrichtendienstlicher Methoden und weiterer operativer Interessen und erklärte ausdrücklich, die Aussage sei deshalb zusätzlich in sachlicher Hinsicht eingeschränkt worden."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-PLENUM-URBACH-1971]
+    evidence:
+      - source: SRC-DE-BERLIN-PLENUM-URBACH-1971
+        directness: direct
+        locator: "Plenarprotokoll 6/7, Druck-S. 93, Viewer 113, Neubauers Antwort auf Fröhners Frage 3; Hinweis auf Sicherheitsausschuss"
+        note: "Der offizielle Originaltext enthält ausdrücklich eine über den Methodenschutz hinausgehende sachliche Beschränkung wegen anderer operativer Interessen. Neubauer bietet weitere Auskünfte vor dem Sicherheitsausschuss an, gibt im Plenum aber keine konkreten geschützten Sachverhalte preis."
+    counterevidence: []
+    alternatives:
+      - "Die inhaltliche Beschränkung könnte dem Schutz weiterer Quellen oder laufender Ermittlungen gedient haben, ohne konkrete Urbach-Handlungen zu verdecken."
+      - "Die Maßnahme könnte die strafprozessuale Glaubwürdigkeitsprüfung beeinträchtigt haben; ihre konkreten Wirkungen verlangen Prozessakten."
+    missing_evidence:
+      - "Originale Aussagegenehmigung und Ergänzung, gerichtliche Frage-/Antwortprotokolle, geschützte operative Sachverhalte, Ausschussprotokoll vom 14.06.1971 und Entscheidungsträger."
+    scope:
+      supports: "Öffentlich dokumentierte ministerielle Entscheidungserklärung über eine inhaltliche Einschränkung des möglichen Zeugenstoffs."
+      does_not_support: "Keine identifizierte geschützte Waffenhandlung, kein Beleg für rechtswidrige Beweisvereitelung, keine bewiesene staatliche Anschlagssteuerung."
+    falsification: "Ein authentischer Parlamentswortlaut ohne die von Neubauer erläuterte sachliche Beschränkung würde den Aussagen-Claim ändern; Prozessakten würden die tatsächliche Reichweite und rechtliche Bewertung der Einschränkung bestimmen."
+
+  - id: CLM-DE-URB-023
+    text: "Berlins Justizsenator Korber erklärte am 27. Mai 1971 im Plenum, ein Kriminalpolizei-Vermerk vom 10. August 1970 über ein Treffen am 3./4. März 1970, die Vernehmung des Verfassers am 8. März 1971 und die spätere Identifizierung des ursprünglichen Informanten hätten zur Einführung des V-Manns in den Mahler-Prozess am 3. Mai 1971 geführt."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-BERLIN-PLENUM-URBACH-1971]
+    evidence:
+      - source: SRC-DE-BERLIN-PLENUM-URBACH-1971
+        directness: direct
+        locator: "Plenarprotokoll 6/7, Druck-S. 93, Viewer 113, Antwort Justizsenator Korber auf Mündliche Anfrage Nr. 12"
+        note: "Korber referiert die behauptete Strafakten- und Zeugenidentifikationskette und bestreitet einen politischen Eingriff. Der zitierte Polizeivermerk, die gerichtliche Zeugenvernehmung und die staatsanwaltschaftliche Schriftfolge wurden selbst nicht eingesehen."
+    counterevidence: []
+    alternatives:
+      - "Die ministerielle Rekonstruktion könnte einzelne administrative Schritte verkürzen oder interessengeleitet darstellen; Ursprung und tatsächliche Verwertung der Informationen sind anhand der Originalakten zu prüfen."
+    missing_evidence:
+      - "Kriminalpolizeivermerk vom 10.08.1970, tatsächlicher Beweisinformationsweg, Gerichtsprotokoll vom 08.03.1971, Staatsanwaltschafts-Ersuchen, Zeugenbenennung und Sitzung vom 03.05.1971."
+    scope:
+      supports: "Eine präzise, öffentlich protokollierte ministerielle Darstellung der möglichen Akten- und Verfahrenskette, die originär recherchierbar ist."
+      does_not_support: "Keine selbst bestätigte Originalakte, keine unabhängige Bestätigung sämtlicher Datierungen und kein Beweis für Manipulation des Strafverfahrens."
+    falsification: "Ein authentischer Originalwortlaut ohne Korbers zugeschriebene Chronologie widerlegte den Publikations-Claim; abweichende Polizeivermerke und Gerichtsakten könnten dagegen seine tatsächliche Darstellung korrigieren."
+
 what_follows:
+  - text: "Das Originalplenarprotokoll von Mai 1971 bestätigt Urbachs damaligen Informantenstatus als öffentliche ministerielle Erklärung und dokumentiert Neubauers ausdrücklich inhaltlich beschränkte Aussagegenehmigung."
+    claim_ids: [CLM-DE-URB-020, CLM-DE-URB-022]
+  - text: "Neubauers Bestreitung der konkreten Bomben- und Sprengstoffvorwürfe und Korbers Darstellung der Zeugenidentifikationskette waren schon 1971 amtlich protokolliert; die zugrunde liegenden Akten sind gesondert zu prüfen."
+    claim_ids: [CLM-DE-URB-021, CLM-DE-URB-023]
   - text: "Das SPIEGEL-Interview von 1971 dokumentiert Neubauers ausdrückliche Bestätigung der Waffenvergrabung durch Urbach in Buckow als seine damalige Einschätzung. Eine behördliche Veranlassung und Waffenherkunft aus dem Landesamt verneinte er. Der tatsächliche Waffenvorgang ist dadurch nicht unabhängig bewiesen."
     claim_ids: [CLM-DE-URB-018]
   - text: "Die 1971er Interviewfragen liefern datierte und anhand von Originalakten überprüfbare Verfahrenshinweise einschließlich Blatt 47a."
@@ -499,6 +586,10 @@ what_follows:
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
+  - text: "Die amtlich protokollierte Verneinung der Waffenherkunft und die Begründung einer inhaltlichen Aussagebeschränkung beweisen weder das Nichtstattfinden der bestrittenen Vorgänge noch gezielte Vertuschung oder staatliche Steuerung."
+    claim_ids: [CLM-DE-URB-021, CLM-DE-URB-022]
+  - text: "Korbers Bericht über einen Polizeivermerk und den Gerichtsablauf belegt nicht die Originalniederschriften oder eine amtliche Verfahrensmanipulation."
+    claim_ids: [CLM-DE-URB-023]
   - text: "Aus Neubauers veröffentlichter Bestätigung als Minister folgt weder ein unabhängig nachgewiesener Waffenfund noch ein staatlicher Auftrag; aus seiner Bestreitung einer behördlichen Veranlassung folgt ebenso wenig ein unabhängiger Gegenbeweis."
     claim_ids: [CLM-DE-URB-018]
   - text: "Die im SPIEGEL genannten Daten und die begrenzte Zeugenaussage sind kein Beleg einer staatlichen Genehmigung zum Umgang mit Waffen."
@@ -530,7 +621,7 @@ open_questions:
   - "Was steht tatsächlich im vollständigen Mahler-Prozessprotokoll und in Urbachs später teilweise erweiterter Aussagegenehmigung von Mai 1971?"
   - "Bestätigt eine unabhängige Ton- und Bildprüfung die maschinell erfassten Sprecherwechsel und Schilys konkrete Fragenliste im Panorama-Beitrag von 1971?"
   - "Sind die vollständigen Nollau-Briefe vom 21.05.1972 und 10.01.1973 archivisch zugänglich; welche unabhängigen Akten belegen ministerielle Zustimmung oder tatsächliche operative Umsetzung?"
-  - "Ist die 7. Plenarsitzung vom 27. Mai 1971 in PARDOK mit einem konkreten Digitalisat auffindbar, und ist das als vertraulich beschriebene Ausschussprotokoll vom 14. Juni 1971 freigegeben?"
+  - "Wie lautet die genaue Akten-/Freigabesituation des Sicherheitsausschusses vom 14.06.1971? Das Plenarprotokoll der 7. Sitzung vom 27.05.1971 ist inzwischen als ZLB-Original verfügbar."
   - "Gibt es eine schriftlich dokumentierte Einsicht Gerls 1981 in den Bombenkomplex und einen Archivbestandsnachweis der entsprechenden Unterlagen?"
   - "Wie lautet der vollständige Wortlaut von Blatt 47a der im SPIEGEL 1971 erwähnten Ermittlungsakten und der ursprünglichen Aussagegenehmigung?"
   - "Welche originalen Fund-, Verwahr- und Weisungsakten belegen oder widerlegen die im SPIEGEL referierte Waffenvergrabung bei Buckow?"
@@ -555,6 +646,17 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 - **`CLM-DE-URB-018` — stark gestützt (veröffentlichte Aussage):** In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer ausdrücklich als eigene Einschätzung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe, bestritt er jedoch.
 - **`CLM-DE-URB-019` — stark gestützt (publizierte Gerichtsaktenhinweise):** Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks.
 
+
+## Amtliches Plenarprotokoll vom 27. Mai 1971: Urbach und Aussagebeschränkung
+
+Die [Originalniederschrift des Berliner Abgeordnetenhauses, 6. Wahlperiode, 7. Sitzung](https://digital.zlb.de/viewer/image/15975513_1971/112/) dokumentiert auf den gedruckten Seiten **92–94** ([S. 92](https://digital.zlb.de/viewer/image/15975513_1971/112/), [S. 93](https://digital.zlb.de/viewer/image/15975513_1971/113/), [S. 94](https://digital.zlb.de/viewer/image/15975513_1971/114/)) die parlamentarische Befassung. Die ursprüngliche ZLB-Fundstelle Bild 65 verweist auf Sitzung 5, nicht Sitzung 7. Das Digitalisat ist Primärquelle für den protokollierten Wortlaut, nicht automatisch für die materielle Wahrheit der Ministeraussagen.
+
+- **`CLM-DE-URB-020` — amtlich überlieferte Äußerung:** Das amtliche Berliner Plenarprotokoll vom 27. Mai 1971 dokumentiert die öffentliche Erklärung Innensenators Kurt Neubauer, Peter Urbach sei ein Vertrauensmann des Landesamts für Verfassungsschutz gewesen, der zur Informationsgewinnung in linksradikalen Gruppen eingesetzt worden sei.
+- **`CLM-DE-URB-021` — amtlich überlieferte Äußerung:** Neubauer wies in der Berliner Plenarsitzung vom 27. Mai 1971 die Anschuldigungen zurück, die 1969 im Jüdischen Gemeindehaus gefundene Bombe stamme aus Beständen des Verfassungsschutzes und Sprengstoff sei auf dessen Veranlassung in APO-Wohnungen hinterlegt worden.
+- **`CLM-DE-URB-022` — amtlich überlieferte Äußerung:** Innensenator Neubauer begründete am 27. Mai 1971 Urbachs begrenzte gerichtliche Aussagegenehmigung mit Schutz nachrichtendienstlicher Methoden und weiterer operativer Interessen und erklärte ausdrücklich, die Aussage sei deshalb zusätzlich in sachlicher Hinsicht eingeschränkt worden.
+- **`CLM-DE-URB-023` — amtlich überlieferte Äußerung:** Berlins Justizsenator Korber erklärte am 27. Mai 1971 im Plenum, ein Kriminalpolizei-Vermerk vom 10. August 1970 über ein Treffen am 3./4. März 1970, die Vernehmung des Verfassers am 8. März 1971 und die spätere Identifizierung des ursprünglichen Informanten hätten zur Einführung des V-Manns in den Mahler-Prozess am 3. Mai 1971 geführt.
+
+Die stärkste Gegenhypothese lautet: Geheimhaltung und inhaltliche Aussagebeschränkung könnten den Schutz anderer laufender Quellen und Operationen bezweckt haben. Für die These bewusster Beweisvereitelung oder operativer Anschlagssteuerung fehlen das tatsächliche Frage-/Antwortprotokoll, der konkrete Schutzgegenstand und zeitnahe Führungsakten.
 
 ## Das SPIEGEL-Interview mit Innensenator Neubauer (Juni 1971)
 
@@ -609,7 +711,7 @@ Die folgenden Messwerte und SHA-256-Abgleiche stammen ausschließlich aus einer 
 
 - **`CLM-DE-URB-013` — stark gestützt (privater Briefabdruck):** Ein privat reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 nennt die Befassung des Abgeordnetenhauses vom 27. Mai 1971 und einen vertraulichen Bericht Kurt Neubauers im Sicherheitsausschuss am 14. Juni 1971; es bietet Andreas Gerl Einsicht in den Teil zum 'Bombenkomplex' an.
 
-Der am 16. Januar 1981 überlieferte Senatsbrief nennt zwei genau datierte parlamentarische Vorgänge. Er bietet dem Abgeordneten Gerl die Einsicht in einen Teil des damaligen vertraulichen Berichts zum Bombenkomplex an. Damit ist ein **präziser Archivsuchauftrag** formulierbar; daraus folgt noch kein Beweis dafür, dass die Akte öffentlich vorliegt oder ihr Inhalt die spätere Senatsverteidigung widerlegt. Seit September 2026 sind öffentlich zugängliche Berliner Parlamentsmaterialien der früheren Wahlperioden grundsätzlich über [PARDOK](https://pardok.parlament-berlin.de/portala/browse.tt.html) recherchierbar. Ein konkretes Plenar- oder vertrauliches Ausschussdigitalisat wurde hier noch nicht unabhängig im Volltext identifiziert. Das [Abgeordnetenhaus Berlin berichtete am 10.09.2026 über die Retrodigitalisierung](https://www.parlament-berlin.de/Meldungen/retrodigitalisierung-historische-parlamentsdokumente-digital-verfugbar); die [ZLB hat den Jahrgang 1971 der Plenarprotokolle indexiert](https://digital.zlb.de/viewer/image/15975513_1971/141/). Für die 7. Sitzung vom 27.05.1971 sind Sitzungsnummer, Digitalisat, konkret zitierbare Seiten und Neubauers Redebeitrag noch selbst am Faksimile zu prüfen. Öffentliche Verfügbarkeit vertraulicher Berichte folgt daraus nicht.
+Der am 16. Januar 1981 überlieferte Senatsbrief nennt zwei genau datierte parlamentarische Vorgänge. Er bietet dem Abgeordneten Gerl die Einsicht in einen Teil des damaligen vertraulichen Berichts zum Bombenkomplex an. Damit ist ein **präziser Archivsuchauftrag** formulierbar; daraus folgt noch kein Beweis dafür, dass die Akte öffentlich vorliegt oder ihr Inhalt die spätere Senatsverteidigung widerlegt. Seit September 2026 sind öffentlich zugängliche Berliner Parlamentsmaterialien der früheren Wahlperioden grundsätzlich über [PARDOK](https://pardok.parlament-berlin.de/portala/browse.tt.html) recherchierbar. Das Plenarprotokoll vom 27.05.1971 (Druck-S. 92–94) wurde inzwischen direkt im ZLB-Digitalisat geprüft. Das vertrauliche Ausschussdokument wurde hier noch nicht unabhängig im Volltext identifiziert. Das [Abgeordnetenhaus Berlin berichtete am 10.09.2026 über die Retrodigitalisierung](https://www.parlament-berlin.de/Meldungen/retrodigitalisierung-historische-parlamentsdokumente-digital-verfugbar); die [ZLB hat den Jahrgang 1971 der Plenarprotokolle indexiert](https://digital.zlb.de/viewer/image/15975513_1971/112/). Die 7. Sitzung vom 27.05.1971 ist jetzt als [ZLB-Faksimile S. 92–94](https://digital.zlb.de/viewer/image/15975513_1971/112/) mit zugehörigem archivseitigem OCR identifiziert; die genaue Prüfung sämtlicher Seitenbilder und das nicht öffentliche Ausschussprotokoll bleiben offen. Öffentliche Verfügbarkeit vertraulicher Berichte folgt daraus nicht.
 
 ## Historische Zuschreibungen statt gesicherter Lieferungen
 
@@ -652,6 +754,8 @@ Die 1973 protokollierte Äußerung betrifft dagegen eine angebliche Übergabe **
 Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien bilden eine vollständige Führungs- oder Befehlsakte des West-Berliner Verfassungsschutzes. Die Trennung lautet: belegter Informant → rekonstruierte Einzelhandlungen → offenes Wissen der Vorgesetzten → unbelegte übergreifende Steuerungsthese.
 
 ## Quellen
+
+- [Abgeordnetenhaus Berlin: Plenarprotokoll 6/7 vom 27. Mai 1971, Druck-S. 92–94 (ZLB-Original)](https://digital.zlb.de/viewer/image/15975513_1971/112/) — `SRC-DE-BERLIN-PLENUM-URBACH-1971`
 
 - [DER SPIEGEL 24/1971: „Gewiß, die Waffen waren da“ – Interview mit Kurt Neubauer](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) — `SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971`
 

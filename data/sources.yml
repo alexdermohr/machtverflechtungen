@@ -796,3 +796,14 @@ sources:
   notes: 2017 kritisch edierte Wiedergabe einer zeitgenössischen AA-Aufzeichnung vom 16.05. zur Ausschusssitzung
     vom 14.05. Sie dokumentiert die Darstellungen der Staatssekretäre und BND-Leitung; ursprüngliche BKA-/LKA-Warnmeldungen,
     Funkquellen und Zustellungsquittungen sind nicht abgedruckt.
+- id: SRC-DE-BERLIN-PLENUM-URBACH-1971
+  title: "Abgeordnetenhaus Berlin, 6. Wahlperiode, Plenarprotokoll Nr. 7 vom 27. Mai 1971"
+  institution: "Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek Berlin"
+  date: '1971-05-27'
+  type: parliamentary_plenary_protocol
+  primary: true
+  tier: A
+  url: https://digital.zlb.de/viewer/image/15975513_1971/112/
+  accessed: '2026-10-09'
+  locator: "7. Sitzung vom 27.05.1971, gedruckte S. 92–94 (ZLB Band I, Viewer-Bilder 112–114; Scans Abge_Berl_1971_VI_07.pdf, Bildseiten 10–12)"
+  notes: "Amtliches zeitgenössisches Plenarprotokoll als ZLB-Faksimile und Goobi-OCR unter /viewer/api/v1/records/15975513_1971/pages/112–114/text?granularity=block. Auf den Seiten sind Fröhners Mündliche Anfrage Nr. 11, Neubauers Antworten sowie Korbers Antwort auf Anfrage Nr. 12 dokumentiert; ein Ausschnitt von S. 93 wurde am Scan gegengeprüft. Archivbeleg A für den öffentlich protokollierten Wortlaut der Äußerungen, nicht für die materielle Richtigkeit der bestrittenen/behaupteten Tatvorgänge oder den Inhalt des vertraulichen Sicherheitsausschusses vom 14.06.1971. Früherer Viewer-Link /65/ zeigt Sitzung Nr. 5 und ist kein Beleg für diese Passage."
