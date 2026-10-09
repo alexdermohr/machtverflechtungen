@@ -238,6 +238,78 @@ claims:
       oder absichtlichem Unterlassen.
   falsification: Originale Warntelegramme und Quittungen mit anderen Zeiten, Adressaten oder Nachrichtengehalten würden
     die referierte Chronologie korrigieren.
+- id: CLM-DE-LABELLE-009
+  text: Die Kombination von MfS-Quellenberichten, einer vor dem Anschlag kopierten Zielliste und einer später vorbereiteten
+    Dementi-Formel könnte auf institutionelles Vorfeldwissen und selektive Informationskontrolle im Fall La Belle hindeuten.
+  classification: interpretation
+  evidence_level: speculative
+  sources:
+  - SRC-DE-BGH-LA-BELLE-2004
+  - SRC-DE-MFS-LA-BELLE-THESEN-1988
+  - SRC-DE-BARCH-LA-BELLE-DOSSIER
+  evidence:
+  - source: SRC-DE-BGH-LA-BELLE-2004
+    directness: indirect
+    locator: BGH 5 StR 306/03, Sachverhalt Rn. 5, 8, 10
+    note: Das Urteil dokumentiert konkrete MfS-Vorfeldzugänge zu möglichen Anschlagszielen, nicht die wissensabhängige Entscheidung
+      der Behörden nach Eingang.
+  - source: SRC-DE-MFS-LA-BELLE-THESEN-1988
+    directness: indirect
+    locator: BArch MfS HA XXII Nr. 18138, Bl. 163, 27.01.1988
+    note: Die spätere interne Gesprächsvorbereitung enthält eine politische Dementi-Linie, aber keinen Beweis für Weiterleitungsentscheidungen
+      im April 1986.
+  - source: SRC-DE-BARCH-LA-BELLE-DOSSIER
+    directness: indirect
+    locator: Bundesarchiv, Abschnitte über MfS-Warnversuch und spätere Informationszurückhaltung
+    note: Die rückblickende Darstellung bildet einen Forschungsanlass, ohne Original-Eingangsvermerke und individuelle Weisungen
+      abschließend offenzulegen.
+  counterevidence:
+  - source: SRC-DE-BARCH-LA-BELLE-DOSSIER
+    directness: indirect
+    locator: Darstellung des möglicherweise nicht zugestellten 22:30-Uhr-Warnversuchs
+    note: Der möglicherweise erfolglose Kontakt zum Führungsoffizier begrenzt die These eines durchgehend vorhandenen, konkreten
+      operativen Behördenwissens.
+  alternatives:
+  - MfS-Stellen können unterschiedliche, zeitlich auseinanderfallende Informationen lediglich gesammelt haben; ausgebliebene
+    Weitergabe könnte auf nicht erreichbare Empfänger, Quellenschutz oder Diplomatie statt bewusste Anschlagsbegünstigung
+    zurückgehen.
+  missing_evidence:
+  - Erhaltene zeitnahe MfS-Eingangs- und Verteilvermerke, Dienstanweisungen, Führungsberichte und Empfängerquittungen; Vergleich
+    mit westlichen BKA-/LKA-Originalnachrichten.
+  scope:
+    supports: Die Dokumente begründen eine falsifizierbare Hypothese über die mögliche Verbindung von Vorfeldwissen und
+      späterer Informationspolitik.
+    does_not_support: Keine erwiesene behördenweit konkrete Kenntnis des La-Belle-Termins, keine Auftragserteilung, keine
+      belegte vorsätzliche Nichtwarnung und keine staatliche Mittäterschaft.
+  falsification: Zeitnahe Originalvorgänge, die eine fehlende Weiterleitung mangels Kenntnis, Zuständigkeit oder Empfang
+    dokumentieren, würden die selektive Informationskontrollthese schwächen; gegenteilige ausdrückliche Geheimhaltungsweisungen
+    würden sie stärken.
+- id: CLM-DE-LABELLE-010
+  text: Der BGH gibt die tatrichterliche Vermutung wieder, dass der zunächst in Ost-Berlin geplante Angriff auf einen US-Soldatenbus
+    möglicherweise wegen vom MfS veranlasster Überwachungsmaßnahmen aufgegeben wurde.
+  classification: fact
+  evidence_level: established
+  sources:
+  - SRC-DE-BGH-LA-BELLE-2004
+  evidence:
+  - source: SRC-DE-BGH-LA-BELLE-2004
+    directness: direct
+    locator: BGH 24.06.2004, 5 StR 306/03, Sachverhalt Rn. 5
+    note: Die Formulierung im Entscheidungsbericht kennzeichnet die Kausalität mit 'vermutlich'; sicher ist hier die dokumentierte
+      gerichtliche Vermutung, nicht die tatsächliche Ursache der Planaufgabe.
+  counterevidence: []
+  alternatives:
+  - Andere Hindernisse, Planänderungen oder die autonome Entscheidung der libyschen Tatplaner könnten das Aufgeben dieses
+    früheren Anschlagsplans erklärt haben.
+  missing_evidence:
+  - Originale MfS-Überwachungsberichte, operative Maßnahmen, Reaktionen der libyschen Vertretung und tatrichterliche Beweisaufnahme
+    zur Aufgabe des Ost-Berliner Busziels.
+  scope:
+    supports: Der BGH berichtet die gerichtliche Hypothese einer möglicherweise präventiven Folge von MfS-Überwachungsmaßnahmen.
+    does_not_support: Keine gesicherte Kausalität, keine vollständig nachgewiesene Anschlagsverhinderung und keine Entlastung
+      der Behörden von späterem Wissen über La Belle.
+  falsification: Authentische Verfahrens- oder Überwachungsakten, die einen anderen Grund für die Aufgabe des Busziels nachweisen,
+    würden die gerichtliche Vermutung, nicht ihre dokumentierte Erwähnung, widerlegen.
 what_follows:
 - text: Die libysche diplomatische Vertretung erhielt nach gerichtlicher Feststellung einen Anschlagsauftrag und stellte
     Sprengstoff bereit.
@@ -334,9 +406,9 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 
 ## Gegenhypothese und Entscheidungslücke
 
-**These:** MfS-Quellen, kontrollierte Grenzübergänge und diplomatische Informationsverwaltung ermöglichten bedeutendes Vorfeldwissen und anschließende Informationskontrolle.
+**These (`CLM-DE-LABELLE-009`):** Die Kombination von MfS-Quellenberichten, einer vor dem Anschlag kopierten Zielliste und einer später vorbereiteten Dementi-Formel könnte auf institutionelles Vorfeldwissen und selektive Informationskontrolle im Fall La Belle hindeuten.
 
-**Gegenhypothese:** Teilweise Überwachung libyscher und palästinensischer Akteure, unterbrochene Warnwege, Quellenschutz sowie diplomatische Rücksichtnahmen erklären die einzelnen Beobachtungen, ohne dass ein DDR-Anschlagsauftrag existierte. Das Tatgericht hielt sogar für möglich, dass MfS-Maßnahmen zunächst einen anderen, in Ost-Berlin geplanten Anschlag zum Scheitern brachten.
+**Gegenhypothese:** Teilweise Überwachung libyscher und palästinensischer Akteure, unterbrochene Warnwege, Quellenschutz sowie diplomatische Rücksichtnahmen erklären die einzelnen Beobachtungen, ohne dass ein DDR-Anschlagsauftrag existierte. Der BGH gibt die tatrichterliche Vermutung wieder, dass der zunächst in Ost-Berlin geplante Angriff auf einen US-Soldatenbus möglicherweise wegen vom MfS veranlasster Überwachungsmaßnahmen aufgegeben wurde. (`CLM-DE-LABELLE-010`)
 
 **Entscheidungskriterium:** Echte Eingangs-, Weiterleitungs- und Quittungsvermerke sowie konkrete Weisungen zur Nichtweitergabe oder zur Unterstützung der Tat wären entscheidend. Parallele zeitliche Vorgänge ersetzen diesen Beleg nicht.
 
@@ -422,6 +494,26 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Aussagegrenze:** Kein unabhängiger Zustellungsnachweis jeder Warnung und kein Beleg einer Koordination mit dem MfS oder absichtlichem Unterlassen.
 - **Offener Gegenbeweis:** Originale Warntelegramme und Quittungen mit anderen Zeiten, Adressaten oder Nachrichtengehalten würden die referierte Chronologie korrigieren.
 
+
+### `CLM-DE-LABELLE-009`
+
+**Aussage:** Die Kombination von MfS-Quellenberichten, einer vor dem Anschlag kopierten Zielliste und einer später vorbereiteten Dementi-Formel könnte auf institutionelles Vorfeldwissen und selektive Informationskontrolle im Fall La Belle hindeuten.
+
+- **Typ:** Interpretation
+- **Evidenz:** spekulativ/offen
+- **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
+- **Aussagegrenze:** Keine erwiesene behördenweit konkrete Kenntnis des La-Belle-Termins, keine Auftragserteilung, keine belegte vorsätzliche Nichtwarnung und keine staatliche Mittäterschaft.
+- **Offener Gegenbeweis:** Zeitnahe Originalvorgänge, die eine fehlende Weiterleitung mangels Kenntnis, Zuständigkeit oder Empfang dokumentieren, würden die selektive Informationskontrollthese schwächen; gegenteilige ausdrückliche Geheimhaltungsweisungen würden sie stärken.
+
+### `CLM-DE-LABELLE-010`
+
+**Aussage:** Der BGH gibt die tatrichterliche Vermutung wieder, dass der zunächst in Ost-Berlin geplante Angriff auf einen US-Soldatenbus möglicherweise wegen vom MfS veranlasster Überwachungsmaßnahmen aufgegeben wurde.
+
+- **Typ:** Tatsachenbehauptung
+- **Evidenz:** belegt
+- **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
+- **Aussagegrenze:** Keine gesicherte Kausalität, keine vollständig nachgewiesene Anschlagsverhinderung und keine Entlastung der Behörden von späterem Wissen über La Belle.
+- **Offener Gegenbeweis:** Authentische Verfahrens- oder Überwachungsakten, die einen anderen Grund für die Aufgabe des Busziels nachweisen, würden die gerichtliche Vermutung, nicht ihre dokumentierte Erwähnung, widerlegen.
 
 ## Noch zu beschaffende Originalakten
 
