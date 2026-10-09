@@ -308,8 +308,8 @@ claims:
     supports: Der BGH berichtet die gerichtliche Hypothese einer möglicherweise präventiven Folge von MfS-Überwachungsmaßnahmen.
     does_not_support: Keine gesicherte Kausalität, keine vollständig nachgewiesene Anschlagsverhinderung und keine Entlastung
       der Behörden von späterem Wissen über La Belle.
-  falsification: Authentische Verfahrens- oder Überwachungsakten, die einen anderen Grund für die Aufgabe des Busziels nachweisen,
-    würden die gerichtliche Vermutung, nicht ihre dokumentierte Erwähnung, widerlegen.
+  falsification: Eine authentifizierte Fassung des BGH-Urteils ohne die zugeschriebene Passage oder mit anderer Zuschreibung
+    würde den Claim über die gerichtliche Wiedergabe widerlegen; abweichende operative Befunde beträfen nur die Kausalvermutung.
 what_follows:
 - text: Die libysche diplomatische Vertretung erhielt nach gerichtlicher Feststellung einen Anschlagsauftrag und stellte
     Sprengstoff bereit.
@@ -513,7 +513,7 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
 - **Aussagegrenze:** Keine gesicherte Kausalität, keine vollständig nachgewiesene Anschlagsverhinderung und keine Entlastung der Behörden von späterem Wissen über La Belle.
-- **Offener Gegenbeweis:** Authentische Verfahrens- oder Überwachungsakten, die einen anderen Grund für die Aufgabe des Busziels nachweisen, würden die gerichtliche Vermutung, nicht ihre dokumentierte Erwähnung, widerlegen.
+- **Offener Gegenbeweis:** Eine authentifizierte Fassung des BGH-Urteils ohne die zugeschriebene Passage oder mit anderer Zuschreibung würde den Claim über die gerichtliche Wiedergabe widerlegen; abweichende operative Befunde beträfen nur die Kausalvermutung.
 
 ## Noch zu beschaffende Originalakten
 
