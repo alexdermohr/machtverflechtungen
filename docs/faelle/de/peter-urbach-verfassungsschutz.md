@@ -14,6 +14,8 @@ event_claims:
   - CLM-DE-URB-004
   - CLM-DE-URB-011
   - CLM-DE-URB-012
+  - CLM-DE-URB-018
+  - CLM-DE-URB-019
 tags: [deutschland, west-berlin, verfassungsschutz, v-mann, raf, linksterrorismus, waffenbeschaffung, antisemitismus, quellenfuehrung]
 actors:
   - PER-DE-PETER-URBACH
@@ -37,6 +39,7 @@ sources:
   - SRC-DE-NDR-PANORAMA-URBACH-1971
   - SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
   - SRC-DE-NRW-POSSER-REGIERUNG-1970
+  - SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
 claims:
   - id: CLM-DE-URB-001
     text: "Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen."
@@ -434,7 +437,51 @@ claims:
       does_not_support: "Keine persönliche Tatbeobachtung durch Posser, keine behördliche Prüfung Urbachs durch die NRW-Landesregierung und kein Beweis staatlicher Waffenlieferung."
     falsification: "Ein Bild-/Tonabgleich, der einen anderen Interviewgast oder eine andere Amtsbezeichnung zeigt, würde die Personenattribution widerlegen."
 
+  - id: CLM-DE-URB-018
+    text: "In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer als eigene Darstellung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben, bestritt aber, dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+        directness: direct
+        locator: "SPIEGEL 24/1971: Fragen 'Beugt Ihr Landesamt dadurch vor ...?' bis 'Vom Landesamt?'; Interviewantworten zu Buckow, Urbach und Waffenherkunft"
+        note: "Unmittelbar veröffentlichte Antworten des politisch Verantwortlichen: Das Vergraben durch Urbach wird in seinen Antworten nicht bestritten; Neubauer verneint aber Dienstauftrag und Herkunft aus dem Landesamt. Dies ist kein unabhängig verifiziertes Gerichtsprotokoll oder Waffenfund."
+    counterevidence: []
+    alternatives:
+      - "Neubauer kann seinen damaligen Kenntnisstand unvollständig oder interessengeleitet dargestellt haben; redaktionelle Kürzungen sind ohne Interviewaufzeichnung nicht ausgeschlossen."
+      - "Ein eigenmächtiges Verhalten Urbachs könnte mit der von Neubauer behaupteten fehlenden behördlichen Anordnung vereinbar sein."
+    missing_evidence:
+      - "Originalvernehmung Urbachs vor Gericht, Beleg der Waffen und ihrer Herkunft, Quelleführungsakten sowie eine authentifizierte Interviewaufzeichnung bzw. der Originaldruck."
+    scope:
+      supports: "Neubauer äußerte 1971 eine konkrete öffentliche Anerkennung der Waffenvergrabung durch Urbach bei gleichzeitiger Bestreitung staatlicher Veranlassung."
+      does_not_support: "Keine unabhängige Verifizierung einer konkreten Waffenmenge, Übergabe an die RAF, Duldung oder Anordnung durch Führungsbeamte; keine Bewilligung der Waffenhandlung durch die erteilte Aussagegenehmigung."
+    falsification: "Eine authentifizierte Originalfassung des Interviews, in der Neubauer die zugeschriebene Buckow-Äußerung nicht tätigte oder wesentlich anders formulierte, würde den Aussagen-Claim ändern; Tatakten könnten die Sachlage anders beurteilen."
+
+  - id: CLM-DE-URB-019
+    text: "Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+        directness: direct
+        locator: "SPIEGEL 24/1971, Interview: Fragen zu Zeugeneinführung und Antrag; Neubauerantwort 'Ereignissen am 2. bis 4. April 1970'; SPIEGEL-Fragen 'Antrag datiert vom 8. März' und 'Ermittlungsakten auf Blatt 47a'"
+        note: "Trennt ministerielle Darstellung der sachlichen Begrenzung von konkret durch das Nachrichtenmagazin genannten Terminen und Blattverweis. Die zugrunde liegenden Gerichtsakten sind nicht selbst eingesehen."
+    counterevidence: []
+    alternatives:
+      - "Die journalistisch genannten Antrags- und Unterschriftsdaten können den administrativen Prozess unvollständig wiedergeben; die zeitlich später berichtete Erweiterung ist gesondert zu rekonstruieren."
+    missing_evidence:
+      - "Verfahrensakten des Mahler-Prozesses, ursprüngliche und erweiterte Aussagegenehmigung, förmlicher Staatsanwaltschaftsantrag, Blatt 47a einschließlich Aktenzuordnung und gerichtliche Vernehmungsniederschrift."
+    scope:
+      supports: "Zeitgenössisch veröffentlichte, archivisch prüfbare Angaben zum Zeugenverfahren und ein präziser Hinweis auf Blatt 47a der Ermittlungsakten."
+      does_not_support: "Keine Feststellung, dass die Akten heute zugänglich sind, dass sämtliche angegebenen Termine amtlich verifiziert wurden oder dass aus der Genehmigung ein Recht zur Waffenbeschaffung folgt."
+    falsification: "Eine authentische Originalfassung des SPIEGEL-Interviews ohne diese zugeschriebenen Aussagen oder mit anderem Wortlaut würde den Publikations-Claim widerlegen; abweichende Gerichts- und Behördenakten beträfen dagegen die materielle Richtigkeit der berichteten Verfahrensdaten."
 what_follows:
+  - text: "Das SPIEGEL-Originalinterview von 1971 dokumentiert Neubauers Zugeständnis zum Waffenvergraben in Buckow bei ausdrücklicher Bestreitung eines Landesamtsauftrags; die Aussage des Senators ist von der historischen Wahrheit des Vorfalls zu unterscheiden."
+    claim_ids: [CLM-DE-URB-018]
+  - text: "Die 1971er Interviewfragen liefern datierte und anhand von Originalakten überprüfbare Verfahrenshinweise einschließlich Blatt 47a."
+    claim_ids: [CLM-DE-URB-019]
   - text: "Schon die 1971er Gerichts- und Fernsehberichte zeigen eine öffentlich dokumentierte Quellenrolle und zeitgenössische Auseinandersetzung mit Waffenbehauptungen, ohne einen amtlich nachgewiesenen Waffenlieferauftrag zu ersetzen."
     claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
   - text: "Die zeitmarkierten Panorama-Interviews erweitern die konkreten Suchspuren für Waffenangebote und die wegen behördlich eingeschränkter Aussagegenehmigung unbeantworteten Gerichtsfragen; ihr Inhalt muss von tatsächlichen Tatnachweisen unterschieden werden."
@@ -452,6 +499,10 @@ what_follows:
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
+  - text: "Aus Neubauers Eingeständnis, Urbach habe Waffen vergraben, folgt kein belegter Auftrag des Berliner Verfassungsschutzes, und aus dessen behördlicher Verneinung folgt kein sicherer Gegenbeweis."
+    claim_ids: [CLM-DE-URB-018]
+  - text: "Die im SPIEGEL genannten Daten und die begrenzte Zeugenaussage sind kein Beleg einer staatlichen Genehmigung zum Umgang mit Waffen."
+    claim_ids: [CLM-DE-URB-019]
   - text: "Weder das unkontrollierte ASR-Ergebnis noch Schilys offene Fragen beweisen, dass Urbach die darin genannten Straftaten beging."
     claim_ids: [CLM-DE-URB-014, CLM-DE-URB-015]
   - text: "Ein Vorschlag Nollaus oder die juristische Erläuterung Possers belegt keine real eingerichtete terroristische Scheinorganisation und keine von ihm beobachtete Urbach-Operation."
@@ -481,6 +532,8 @@ open_questions:
   - "Sind die vollständigen Nollau-Briefe vom 21.05.1972 und 10.01.1973 archivisch zugänglich; welche unabhängigen Akten belegen ministerielle Zustimmung oder tatsächliche operative Umsetzung?"
   - "Ist die 7. Plenarsitzung vom 27. Mai 1971 in PARDOK mit einem konkreten Digitalisat auffindbar, und ist das als vertraulich beschriebene Ausschussprotokoll vom 14. Juni 1971 freigegeben?"
   - "Gibt es eine schriftlich dokumentierte Einsicht Gerls 1981 in den Bombenkomplex und einen Archivbestandsnachweis der entsprechenden Unterlagen?"
+  - "Wie lautet der vollständige Wortlaut von Blatt 47a der im SPIEGEL 1971 erwähnten Ermittlungsakten und der ursprünglichen Aussagegenehmigung?"
+  - "Welche originalen Fund-, Verwahr- und Weisungsakten belegen oder widerlegen die im SPIEGEL referierte Waffenvergrabung bei Buckow?"
 case_links: []
 ---
 
@@ -499,8 +552,20 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 - **`CLM-DE-URB-011` — stark gestützt (zeitgenössischer Bericht):** Ein zeitgenössischer ZEIT-Bericht vom 21. Mai 1971 schildert, dass der Vorsitzende Richter im Mahler-Prozess eine teilweise Erweiterung von Urbachs eingeschränkter Aussagegenehmigung erreichte und Urbach danach erklären durfte, zusammen mit einem Komplizen Waffen vergraben zu haben.
 - **`CLM-DE-URB-012` — stark gestützt (Archivbeleg):** Das NDR-Sendungsarchiv dokumentiert für den 24. Mai 1971 den zehnminütigen Panorama-Beitrag 'V-Mann als Zeuge' über Peter Urbach; die heutige redaktionelle Kurzbeschreibung bezeichnet ihn als V-Mann und schreibt ihm Handel mit Drogen und Waffen zu.
 
+- **`CLM-DE-URB-018` — stark gestützt (veröffentlichte Aussage):** In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer als eigene Darstellung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben, bestritt aber, dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe.
+- **`CLM-DE-URB-019` — stark gestützt (publizierte Gerichtsaktenhinweise):** Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks.
+
+
+## Das SPIEGEL-Interview mit Innensenator Neubauer (Juni 1971)
+
+- **Ministerposition zur Waffenvergrabung:** In [SPIEGEL 24/1971](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) bestätigte Kurt Neubauer als Interviewaussage, dass Urbach Waffen auf einem Friedhof in Buckow vergraben habe; eine Veranlassung und Herkunft der Waffen durch das Landesamt für Verfassungsschutz bestritt er. Die veröffentlichte Position ist nicht mit einem unabhängigen Waffenfund- oder Befehlsnachweis gleichzusetzen.
+- **Präziser Aktenweg:** Neubauer schilderte den zunächst auf Ereignisse vom 2. bis 4. April 1970 eingeschränkten Aussageumfang. Das Magazin nannte den 8. März 1971 (Antrag), 2. Mai 1971 (Unterzeichnung) und ausdrücklich **Blatt 47a der Ermittlungsakten** als Referenz zu einem Treffen der Gruppe. Die Originalakten sind noch nicht abgeglichen.
+
+Damit ist der zeitgenössische Vorwurf gegenüber einer **damals bereits öffentlich formulierten Antwort des zuständigen Innensenators** prüfbar. Die stärkste Gegenhypothese bleibt: Urbach könnte das Waffenvergraben eigenmächtig vorgenommen haben und die staatliche Führung weder Beschaffung noch Verwendung veranlasst haben. Die bislang dokumentierte eigene Äußerung des Senators entscheidet diese Frage nicht.
 
 ## Panorama 24. Mai 1971: quellenkritische Sichtung des Originaltons
+
+Ergänzende Zeitfenster- und Sprecher-Matrix: [Quellenkritische Panorama-Filmanalyse](../../quellen/panorama-1971-filmanalyse.md). Die automatische Ersttranskription ist nicht redaktionell freigegeben.
 
 **Arbeitsgrundlage:** der in der [ARD-Mediathek](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU) dokumentierte [NDR-Beitrag](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html), privat als Tondatei archiviert. Die ASR-Auswertung beschreibt **eine maschinelle Arbeitsfassung**, keine redaktionell oder gerichtlich beglaubigte Transkription. Das vollständige Video, Audio und die vom Original abgeleiteten vollständigen Untertitel bleiben außerhalb dieses öffentlichen Repositories. Ein eigenständiges Anhören und Zuordnen aller kritischen Passagen ist **noch offen**.
 
@@ -587,6 +652,8 @@ Die 1973 protokollierte Äußerung betrifft dagegen eine angebliche Übergabe **
 Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien bilden eine vollständige Führungs- oder Befehlsakte des West-Berliner Verfassungsschutzes. Die Trennung lautet: belegter Informant → rekonstruierte Einzelhandlungen → offenes Wissen der Vorgesetzten → unbelegte übergreifende Steuerungsthese.
 
 ## Quellen
+
+- [DER SPIEGEL 24/1971: „Gewiß, die Waffen waren da“ – Interview mit Kurt Neubauer](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) — `SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971`
 
 - [Robert Wolff: Die Mai-Offensive der RAF 1972 – Reaktionen des Verfassungsschutzes (2022)](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972) — `SRC-DE-WOLFF-URBACH-NOLLAU-2022`
 - [Originalprotokoll Michael Baumann, 28.11.1973, Blatt 90](https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/) — `SRC-DE-BARCH-BAUMANN-URBACH-1973`
