@@ -365,7 +365,7 @@ claims:
     falsification: "Originaltonabgleich, der die fraglichen Angebote, die Interviewattribution oder die Zeitfenster nicht bestätigt, würde diesen auf ASR beruhenden Claim korrigieren."
 
   - id: CLM-DE-URB-015
-    text: "Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Aussagebeschränkung unabhängig."
+    text: "Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner behördlich beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Beschränkung und die vom Gericht erwirkte teilweise Erweiterung."
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO, SRC-DE-ZEIT-SCHUELER-URBACH-1971]
@@ -377,7 +377,7 @@ claims:
       - source: SRC-DE-ZEIT-SCHUELER-URBACH-1971
         directness: direct
         locator: "DIE ZEIT Nr. 21/1971, S. 3, Bericht über Richter Geuß und teilweise erweiterte Aussagegenehmigung"
-        note: "Eigenständiger zeitgenössischer journalistischer Bericht über die gerichtliche Einschränkung und partielle Erweiterung der Erlaubnis; kein Wortlaut des Gerichtsprotokolls."
+        note: "Eigenständiger zeitgenössischer journalistischer Bericht über die ursprünglich behördlich eingeschränkte Aussagegenehmigung und ihre vom Gericht erwirkte partielle Erweiterung; kein Wortlaut des Gerichtsprotokolls."
     counterevidence: []
     alternatives:
       - "Die TV-Auswahl gibt Schilys Position verkürzt wieder und kann einzelne Fragen aus dem gerichtlichen Wortlaut paraphrasieren."
@@ -385,7 +385,7 @@ claims:
     missing_evidence:
       - "Vollständiges Mahler-Prozessprotokoll, originale Frage-Antwort-Folge, Wortlaut beider Aussagegenehmigungen und unmittelbar erfolgte richterliche Entscheidungen."
     scope:
-      supports: "Die beschränkte gerichtliche Befragbarkeit und öffentlich diskutierte Fragen nach Urbachs Waffenrolle sind durch zwei zeitgenössische Medienquellen gestützt."
+      supports: "Die gerichtlich wirksame Begrenzung aufgrund der zunächst behördlich eingeschränkten Aussagegenehmigung und öffentlich diskutierte Fragen nach Urbachs Waffenrolle sind durch zwei zeitgenössische Medienquellen gestützt. Das Gericht setzte diese Begrenzung nicht selbst fest, sondern erwirkte eine partielle Erweiterung."
       does_not_support: "Kein Nachweis, dass die behaupteten Bombenbeschaffungen stattfanden, Verfassungsschutz-Bomben stammten oder der Staat einen Anschlag beauftragte."
     falsification: "Authentische Gerichts- oder Filmaufzeichnungen, die das Vorliegen der berichteten Aussagebeschränkung oder Schilys entsprechende öffentliche Schilderung widerlegen, müssten den Claim ändern."
 
@@ -437,7 +437,7 @@ claims:
 what_follows:
   - text: "Schon die 1971er Gerichts- und Fernsehberichte zeigen eine öffentlich dokumentierte Quellenrolle und zeitgenössische Auseinandersetzung mit Waffenbehauptungen, ohne einen amtlich nachgewiesenen Waffenlieferauftrag zu ersetzen."
     claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
-  - text: "Die zeitmarkierten Panorama-Interviews erweitern die konkreten Suchspuren für Waffenangebote und die gerichtlichen Frageverbote; ihr Inhalt muss von tatsächlichen Tatnachweisen unterschieden werden."
+  - text: "Die zeitmarkierten Panorama-Interviews erweitern die konkreten Suchspuren für Waffenangebote und die wegen behördlich eingeschränkter Aussagegenehmigung unbeantworteten Gerichtsfragen; ihr Inhalt muss von tatsächlichen Tatnachweisen unterschieden werden."
     claim_ids: [CLM-DE-URB-014, CLM-DE-URB-015, CLM-DE-URB-017]
   - text: "Wolffs Auswertung der Nollau-Briefe weist auf behördeninterne Überlegungen zur Infiltration nach Urbachs Ausscheiden als Quelle hin."
     claim_ids: [CLM-DE-URB-016]
@@ -530,7 +530,7 @@ Die folgenden Messwerte und SHA-256-Abgleiche stammen ausschließlich aus einer 
 **Strukturierte Claims aus der Ton-Arbeitsfassung:**
 
 - **`CLM-DE-URB-014` — quellengebunden, Tonkorrektur offen:** Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung.
-- **`CLM-DE-URB-015` — quellengebunden, Tonkorrektur offen:** Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Aussagebeschränkung unabhängig.
+- **`CLM-DE-URB-015` — quellengebunden, Tonkorrektur offen:** Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner behördlich beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Beschränkung und die vom Gericht erwirkte teilweise Erweiterung.
 - **`CLM-DE-URB-017` — quellengebunden, Tonkorrektur offen:** Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
 
 **Unabhängige Gegenprüfung:** Der [privat reproduzierte Senatsbrief von 1981](https://isioma.net/sds120502.html) widerspricht mehreren Zuschreibungen über Molotowcocktails und Sprengsätze. Diese behördliche Gegenposition widerlegt weder pauschal jedes Interview noch macht sie den Vorwurf wahr. Die im Panorama-Interview verlesenen *Fragen* zum jüdischen Gemeindehaus dürfen nicht mit den späteren historischen Beweisführungen zu diesem anderen Anschlagskomplex gleichgesetzt werden. Ohne die originale Verfahrensakte bleiben gerade Waffenweg, Quellensachbearbeiter, Auftrag, Kenntnis, Vorsatz und mögliche Ermittlungshindernisse offen.
