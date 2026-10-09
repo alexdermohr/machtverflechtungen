@@ -439,7 +439,7 @@ what_follows:
     claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
   - text: "Die zeitmarkierten Panorama-Interviews erweitern die konkreten Suchspuren für Waffenangebote und die wegen behördlich eingeschränkter Aussagegenehmigung unbeantworteten Gerichtsfragen; ihr Inhalt muss von tatsächlichen Tatnachweisen unterschieden werden."
     claim_ids: [CLM-DE-URB-014, CLM-DE-URB-015, CLM-DE-URB-017]
-  - text: "Wolffs Auswertung der Nollau-Briefe weist auf behördeninterne Überlegungen zur Infiltration nach Urbachs Ausscheiden als Quelle hin."
+  - text: "Wolffs Auswertung der Nollau-Briefe weist auf behördeninterne Überlegungen zur Infiltration nach Urbachs öffentlicher Enttarnung hin; ob und wann seine Quellenbeziehung formell endete, bleibt offen."
     claim_ids: [CLM-DE-URB-016]
   - text: "Der privat reproduzierte Senatsbrief von 1981 benennt die 1971er Parlamentssitzung und einen vertraulichen Aktenabschnitt zum Bombenkomplex als gezielte Originalquellen-Spuren."
     claim_ids: [CLM-DE-URB-013]
