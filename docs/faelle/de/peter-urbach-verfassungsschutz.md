@@ -504,7 +504,9 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 
 **Arbeitsgrundlage:** der in der [ARD-Mediathek](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU) dokumentierte [NDR-Beitrag](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html), privat als Tondatei archiviert. Die ASR-Auswertung beschreibt **eine maschinelle Arbeitsfassung**, keine redaktionell oder gerichtlich beglaubigte Transkription. Das vollständige Video, Audio und die vom Original abgeleiteten vollständigen Untertitel bleiben außerhalb dieses öffentlichen Repositories. Ein eigenständiges Anhören und Zuordnen aller kritischen Passagen ist **noch offen**.
 
-**Reproduzierbare technische Kontrolle (9. Oktober 2026):**
+**Private lokale Integritätsprüfung (9. Oktober 2026; öffentlich nicht vollständig reproduzierbar):**
+
+Die folgenden Messwerte und SHA-256-Abgleiche stammen ausschließlich aus einer **privat vorhandenen Originaltondatei und einem privat gespeicherten Transkriptionsbundle**. Diese Dateien, das vollständige ASR-Transkript und der genaue ursprüngliche ASR-Laufbeleg werden hier nicht veröffentlicht. Die angegebenen Hashes fixieren die lokalen Prüfobjekte, ermöglichen ohne deren Zugang aber **keine unabhängige Wiederholung oder Bestätigung dieser konkreten Bundle-Prüfung**. Die öffentlich verlinkte ARD-Aufnahme erlaubt eine eigenständige neue Sichtung; sie belegt nicht von sich aus die Genauigkeit der privaten maschinellen Verschriftlichung.
 
 - Originalton: AAC/M4A, 12.605.259 Byte, SHA-256 `796f51b984cb1eba8eae1e2328d7d1a1521c3a0aca319377b409c788c66c98f3`; die unveränderte Quelle im Bundle hat denselben Hash. Die Länge laut `ffprobe` beträgt **624,363 Sekunden** (10:24,363).
 - Privates Bundle: `digitalisierer.transcription-bundle.v1`, lokaler `faster-whisper`-Lauf (`large-v3`, Backend 1.2.1, ohne Cloud). Alle vier im Manifest angegebenen Ausgabehashes sind validiert; `transcript.json`: SHA-256 `36d3960fa824ad7439b09d325d5fb71d9fc712c2467a7d139fba3fbf7315691d`.
