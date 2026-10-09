@@ -26,6 +26,12 @@ Ob und in welchen einzelnen Fällen Urbachs Führungsoffiziere seine Waffen- ode
 
 Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung.
 
+## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-015
+
+**fact · plausible**
+
+Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 24. Mai 1971 ordnet Otto Schily eine Schilderung unbeantworteter Fragen an Peter Urbach zu Waffen und Sprengsätzen zu; ein unabhängiger zeitgenössischer ZEIT-Gerichtsbericht behandelt nur Urbachs behördlich eingeschränkte und nach richterlicher Intervention teilweise erweiterte Aussagegenehmigung, nicht diese Fernsehpassage.
+
 ## [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) · CLM-DE-URB-017
 
 **fact · plausible**

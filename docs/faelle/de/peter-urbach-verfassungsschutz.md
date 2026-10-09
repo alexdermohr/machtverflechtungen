@@ -365,27 +365,27 @@ claims:
     falsification: "Originaltonabgleich, der die fraglichen Angebote, die Interviewattribution oder die Zeitfenster nicht bestätigt, würde diesen auf ASR beruhenden Claim korrigieren."
 
   - id: CLM-DE-URB-015
-    text: "Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner behördlich beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Beschränkung und die vom Gericht erwirkte teilweise Erweiterung."
+    text: "Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 24. Mai 1971 ordnet Otto Schily eine Schilderung unbeantworteter Fragen an Peter Urbach zu Waffen und Sprengsätzen zu; ein unabhängiger zeitgenössischer ZEIT-Gerichtsbericht behandelt nur Urbachs behördlich eingeschränkte und nach richterlicher Intervention teilweise erweiterte Aussagegenehmigung, nicht diese Fernsehpassage."
     classification: fact
-    evidence_level: strong
+    evidence_level: plausible
     sources: [SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO, SRC-DE-ZEIT-SCHUELER-URBACH-1971]
     evidence:
       - source: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
         directness: indirect
         locator: "Arbeitsverschriftlichung 08:38–10:14; Fragenliste ca. 09:06–09:55; nur über ASR erschlossen"
-        note: "Die Sprecheranmoderation bezeichnet Schily als Verteidiger Mahlers. Die einzelnen Fragen sind nach ASR noch nicht als wörtliche Gerichtsfragen zertifiziert; insbesondere Fragen zu Brandbomben und Jüdischem Gemeindehaus sind ausdrücklich keine Tatgeständnisse."
+        note: "Die maschinell erkannte Anmoderation ordnet die Passage Schily zu; mangels manuellem Ton- und Bildabgleich sind Name, Sprecherwechsel und Wortlaut der Fragen nicht bestätigt. Insbesondere Fragen zu Brandbomben und Jüdischem Gemeindehaus sind keine Tatgeständnisse."
       - source: SRC-DE-ZEIT-SCHUELER-URBACH-1971
         directness: direct
         locator: "DIE ZEIT Nr. 21/1971, S. 3, Bericht über Richter Geuß und teilweise erweiterte Aussagegenehmigung"
-        note: "Eigenständiger zeitgenössischer journalistischer Bericht über die ursprünglich behördlich eingeschränkte Aussagegenehmigung und ihre vom Gericht erwirkte partielle Erweiterung; kein Wortlaut des Gerichtsprotokolls."
+        note: "Eigenständiger zeitgenössischer journalistischer Bericht nur zur behördlichen Aussagebeschränkung und gerichtlich erreichten Teilerweiterung. Er enthält keine unabhängige Bestätigung der Schily-Anmoderation, Fragenliste oder konkreten Panorama-Interviewpassage."
     counterevidence: []
     alternatives:
-      - "Die TV-Auswahl gibt Schilys Position verkürzt wieder und kann einzelne Fragen aus dem gerichtlichen Wortlaut paraphrasieren."
+      - "Sprecherzuordnung und Wortlaut des ASR-Entwurfs können fehlerhaft sein; die TV-Auswahl kann gerichtliche Fragen zusätzlich verkürzt wiedergeben."
       - "Eingeschränkte Aussageberechtigung kann Quellenschutz bezwecken, ohne die Richtigkeit der in Fragen formulierten Vorwürfe zu belegen."
     missing_evidence:
-      - "Vollständiges Mahler-Prozessprotokoll, originale Frage-Antwort-Folge, Wortlaut beider Aussagegenehmigungen und unmittelbar erfolgte richterliche Entscheidungen."
+      - "Manueller Ton- und Bildabgleich mit dem historischen Panorama-Original zur Schily-Attribution und Fragenliste; vollständiges Mahler-Prozessprotokoll, originale Frage-Antwort-Folge und die Aussagegenehmigungen."
     scope:
-      supports: "Die gerichtlich wirksame Begrenzung aufgrund der zunächst behördlich eingeschränkten Aussagegenehmigung und öffentlich diskutierte Fragen nach Urbachs Waffenrolle sind durch zwei zeitgenössische Medienquellen gestützt. Das Gericht setzte diese Begrenzung nicht selbst fest, sondern erwirkte eine partielle Erweiterung."
+      supports: "Die ZEIT bestätigt als zeitgenössische Pressequelle die behördliche Beschränkung und eine gerichtlich erwirkte partielle Erweiterung der Aussagegenehmigung. Die Schily-Anmoderation und konkrete Fragenliste sind dagegen bislang nur aus einer ungeprüften maschinellen Arbeitsfassung bekannt."
       does_not_support: "Kein Nachweis, dass die behaupteten Bombenbeschaffungen stattfanden, Verfassungsschutz-Bomben stammten oder der Staat einen Anschlag beauftragte."
     falsification: "Authentische Gerichts- oder Filmaufzeichnungen, die das Vorliegen der berichteten Aussagebeschränkung oder Schilys entsprechende öffentliche Schilderung widerlegen, müssten den Claim ändern."
 
@@ -530,7 +530,7 @@ Die folgenden Messwerte und SHA-256-Abgleiche stammen ausschließlich aus einer 
 **Strukturierte Claims aus der Ton-Arbeitsfassung:**
 
 - **`CLM-DE-URB-014` — quellengebunden, Tonkorrektur offen:** Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung.
-- **`CLM-DE-URB-015` — quellengebunden, Tonkorrektur offen:** Eine im NDR-Panorama-Beitrag vom 24. Mai 1971 als Otto Schily eingeführte Interviewpassage berichtet über unbeantwortete Fragen an den Zeugen Urbach zu Waffen und Sprengsätzen wegen seiner behördlich beschränkten Aussagegenehmigung; ein zeitgenössischer ZEIT-Gerichtsbericht behandelt diese Beschränkung und die vom Gericht erwirkte teilweise Erweiterung.
+- **`CLM-DE-URB-015` — plausibel (ASR-Zuschreibung, Tonkorrektur offen):** Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 24. Mai 1971 ordnet Otto Schily eine Schilderung unbeantworteter Fragen an Peter Urbach zu Waffen und Sprengsätzen zu; ein unabhängiger zeitgenössischer ZEIT-Gerichtsbericht behandelt nur Urbachs behördlich eingeschränkte und nach richterlicher Intervention teilweise erweiterte Aussagegenehmigung, nicht diese Fernsehpassage.
 - **`CLM-DE-URB-017` — quellengebunden, Tonkorrektur offen:** Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
 
 **Unabhängige Gegenprüfung:** Der [privat reproduzierte Senatsbrief von 1981](https://isioma.net/sds120502.html) widerspricht mehreren Zuschreibungen über Molotowcocktails und Sprengsätze. Diese behördliche Gegenposition widerlegt weder pauschal jedes Interview noch macht sie den Vorwurf wahr. Die im Panorama-Interview verlesenen *Fragen* zum jüdischen Gemeindehaus dürfen nicht mit den späteren historischen Beweisführungen zu diesem anderen Anschlagskomplex gleichgesetzt werden. Ohne die originale Verfahrensakte bleiben gerade Waffenweg, Quellensachbearbeiter, Auftrag, Kenntnis, Vorsatz und mögliche Ermittlungshindernisse offen.
