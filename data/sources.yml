@@ -616,6 +616,39 @@ sources:
   accessed: '2026-10-08'
   locator: "Februar 1969: misslungener Sprengsatz-Anschlag zur Nixon-Reise; laut Aussage Baumanns von Urbach übergeben"
   notes: "Die Chronik attribuiert die Herkunft Baumanns Aussage, nicht unabhängiger forensischer Identifizierung."
+- id: SRC-DE-NRW-POSSER-REGIERUNG-1970
+  title: "Landtag Nordrhein-Westfalen, Plenarprotokoll 07/2, 28. Juli 1970"
+  institution: "Landtag Nordrhein-Westfalen"
+  date: '1970-07-28'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf
+  accessed: '2026-10-09'
+  locator: "S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten"
+  notes: "Amtliches Faksimile mit namentlicher Ernennung. Dient nur der unabhängigen Plausibilisierung einer Personenzuordnung im NDR-ASR-Entwurf, nicht als Beleg für den historischen Interviewwortlaut."
+- id: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+  title: "Panorama: V-Mann als Zeuge, audiovisuelle Originalüberlieferung"
+  institution: "ARD Mediathek / NDR"
+  date: '1971-05-24'
+  type: archival_audiovisual_document
+  primary: true
+  tier: A
+  url: https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU
+  accessed: '2026-10-09'
+  locator: "Zeitmarken 01:24–01:41; 03:51–04:15; 05:31–06:05; 06:25–08:38; 08:38–10:14; exakte Tonlänge lokal 624,363 s"
+  notes: "Originaler zeitgenössischer Fernsehbeitrag. Die archivierte Audiofassung ist lokal hashgebunden; vorhandener Text nur maschinell mit faster-whisper large-v3 verschriftlicht und nicht vollständig gegengehört. Primärquelle für geäußerte zeitgenössische Behauptungen, nicht für die Richtigkeit dieser Behauptungen oder behauptete Lieferungen. Vollständiger Fremdtranskripttext und Audiokopie bleiben privat."
+- id: SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+  title: "Gewiß, die Waffen waren da – Interview mit Kurt Neubauer"
+  institution: "DER SPIEGEL, Nr. 24/1971"
+  date: '1971-06-06'
+  type: contemporary_interview
+  primary: false
+  tier: C
+  url: https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585
+  accessed: '2026-10-09'
+  locator: "Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4.04.1970, Antrag 08.03./Unterschrift 02.05.; Vermerk Ermittlungsakten Bl. 47a"
+  notes: "Originale SPIEGEL-Archivveröffentlichung mit Neubauer-Antworten und journalistischen Gegenfragen. Tier C als zeitgenössische journalistische Edition; direkter Beleg für veröffentlichte Ministeräußerungen, nicht unabhängiger materieller Beweis für Waffennachweis, dienstliche Weisung, Behördenkenntnis oder Ermittlungsakte. Originaldruck, Interviewaufzeichnung und Gerichtsakten noch nicht abgeglichen."
 - id: SRC-DE-STERN-URBACH-1971-REPRINT
   title: "Spitzel des Senators"
   institution: "STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma"

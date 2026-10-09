@@ -611,6 +611,39 @@ zeitgeschichte|online · 2007 · Stufe **B** · Sekundär-/Forschungsquelle
 
 Fundstelle: Februar 1969: misslungener Sprengsatz-Anschlag zur Nixon-Reise; laut Aussage Baumanns von Urbach übergeben
 
+<a id="src-de-nrw-posser-regierung-1970"></a>
+## SRC-DE-NRW-POSSER-REGIERUNG-1970
+
+**[Landtag Nordrhein-Westfalen, Plenarprotokoll 07/2, 28. Juli 1970](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)**
+
+Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
+
+Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+<a id="src-de-ard-panorama-urbach-1971-video"></a>
+## SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+
+**[Panorama: V-Mann als Zeuge, audiovisuelle Originalüberlieferung](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU)**
+
+ARD Mediathek / NDR · 1971-05-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU)
+
+Fundstelle: Zeitmarken 01:24–01:41; 03:51–04:15; 05:31–06:05; 06:25–08:38; 08:38–10:14; exakte Tonlänge lokal 624,363 s
+
+<a id="src-de-spiegel-neubauer-urbach-1971"></a>
+## SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+
+**[Gewiß, die Waffen waren da – Interview mit Kurt Neubauer](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585)**
+
+DER SPIEGEL, Nr. 24/1971 · 1971-06-06 · Stufe **C** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585)
+
+Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4.04.1970, Antrag 08.03./Unterschrift 02.05.; Vermerk Ermittlungsakten Bl. 47a
+
 <a id="src-de-stern-urbach-1971-reprint"></a>
 ## SRC-DE-STERN-URBACH-1971-REPRINT
 

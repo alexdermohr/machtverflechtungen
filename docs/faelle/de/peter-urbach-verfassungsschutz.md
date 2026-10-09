@@ -14,6 +14,8 @@ event_claims:
   - CLM-DE-URB-004
   - CLM-DE-URB-011
   - CLM-DE-URB-012
+  - CLM-DE-URB-018
+  - CLM-DE-URB-019
 tags: [deutschland, west-berlin, verfassungsschutz, v-mann, raf, linksterrorismus, waffenbeschaffung, antisemitismus, quellenfuehrung]
 actors:
   - PER-DE-PETER-URBACH
@@ -35,6 +37,9 @@ sources:
   - SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010
   - SRC-DE-ZEIT-SCHUELER-URBACH-1971
   - SRC-DE-NDR-PANORAMA-URBACH-1971
+  - SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+  - SRC-DE-NRW-POSSER-REGIERUNG-1970
+  - SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
 claims:
   - id: CLM-DE-URB-001
     text: "Robert Wolff zitiert aus einem Brief des damaligen BfV-Präsidenten Günther Nollau vom 21. Mai 1972 die Angabe, Urbach sei eine Quelle des Verfassungsschutzes im Umfeld der Mahler-Baader-Meinhof-Gruppe gewesen und habe zur Festnahme Baaders und Mahlers beigetragen."
@@ -306,12 +311,12 @@ claims:
       - source: SRC-DE-NDR-PANORAMA-URBACH-1971
         directness: direct
         locator: "NDR Panorama-Archiv, 24.05.1971, 10-Minuten-Beitrag 'V-Mann als Zeuge'"
-        note: "Die Originalsender-Mediathek belegt die historische Sendungsidentität und ihren heutigen Kurzbeschreibungstext; das Bild- und Audiomaterial wurde hier nicht vollständig transkribiert."
+        note: "Der Originalsender belegt Sendungsidentität und heutige redaktionelle Kurzbeschreibung. Mittlerweile existiert ein vollständiger lokaler, jedoch nicht manuell gegengehörter ASR-Entwurf der Originaltonspur, getrennt von diesem Beschreibungstext."
     counterevidence: []
     alternatives:
       - "Der aktuelle kurze Archivtext könnte redaktionell nachträglich formuliert oder verdichtet worden sein; sein Wortlaut muss nicht mit dem 1971 gesprochenen Beitrag übereinstimmen."
     missing_evidence:
-      - "Vollständige Originalbild-/Ton-Sichtung, Transkript, Produktionsunterlagen und damalige Ermittlungs-/Gerichtsakten zu den genannten Handelsvorwürfen."
+      - "Manuelle Originalbild-/Ton-Sichtung und Korrektur des vorhandenen ASR-Transkripts, Produktionsunterlagen sowie damalige Ermittlungs-/Gerichtsakten zu den Handelsvorwürfen."
     scope:
       supports: "Eine originalsenderarchivierte zeitgenössische Fernsehberichterstattung zu Urbachs Quelle- und Waffenmilieu existiert und ist konkret datierbar."
       does_not_support: "Die TV-Archivbeschreibung allein belegt keine individuelle Waffenübergabe, keine konkrete Rechtswidrigkeit, keine Dienstanweisung und keine unmittelbare Täterschaft im Anschlag von 1969."
@@ -337,9 +342,152 @@ claims:
       does_not_support: "Die Angabe besagt weder, dass diese Akten heute öffentlich sind, noch dass Gerl tatsächlich Einsicht nahm oder die Behörden einen Anschlagsauftrag einräumten."
     falsification: "Originalprotokolle oder ein Originalbrief mit abweichenden Terminen, Einsichtszusagen oder Inhalt würden diese nur privat reproduzierte Quellenaussage ändern."
 
+  - id: CLM-DE-URB-014
+    text: "Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung."
+    classification: fact
+    evidence_level: plausible
+    sources: [SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO]
+    evidence:
+      - source: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+        directness: indirect
+        locator: "Originalton 01:24–01:41, 03:51–04:15 und 05:31–06:05; lokale automatische Segmentverschriftlichung"
+        note: "Die Segmente sind durch ASR maschinell abgeleitet; Sprecherfelder sind null und eine eigenständige manuelle Originaltonprüfung der belastenden Worte fehlt noch. Die NDR-Aufnahme ist der Primärbeleg für die jeweilige Äußerung, nicht für den vorgeworfenen realen Waffentransfer."
+    counterevidence:
+      - source: SRC-DE-BERLIN-ULRICH-URBACH-1981-MIRROR
+        directness: indirect
+        locator: "Senatsbrief 16.01.1981, differenzierte Bestreitungen zu Lieferungsereignissen"
+        note: "Die 1981 reproduzierte amtliche Darstellung bestreitet bestimmte Urbach zugeschriebene Waffen- und Bombenbeschaffungen; sie beantwortet nicht jedes im Film berichtete Angebot und ersetzt keine Audio- oder Verfahrensprüfung."
+    alternatives:
+      - "Angebot, Prahlerei, Selbstbericht, eigenes Erleben der Übergabe und tatsächlich erfolgte Lieferung sind getrennte Sachverhalte."
+      - "Fehlgehörte ASR-Wörter und journalistische Auswahl können die überlieferte Aussage verändern."
+    missing_evidence:
+      - "Manuelle Tonprüfung der Wortlaute und Sprecherzuordnung; damalige Polizeiberichte, Objekte, Gerichtsprotokolle und Dienstakten."
+    scope:
+      supports: "Der originale NDR-Beitrag bietet konkret zeitmarkierte zeitgenössische Interviewspuren zu behaupteten Waffenangeboten; die aktuelle Verschriftlichung bleibt überprüfungsbedürftig."
+      does_not_support: "Keine festgestellte Waffenübergabe, kein belegter belgischer Beschaffungsweg, keine LfV-Anordnung oder staatliche Terrorsteuerung."
+    falsification: "Originaltonabgleich, der die fraglichen Angebote, die Interviewattribution oder die Zeitfenster nicht bestätigt, würde diesen auf ASR beruhenden Claim korrigieren."
+
+  - id: CLM-DE-URB-015
+    text: "Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 24. Mai 1971 ordnet Otto Schily eine Schilderung unbeantworteter Fragen an Peter Urbach zu Waffen und Sprengsätzen zu; ein unabhängiger zeitgenössischer ZEIT-Gerichtsbericht behandelt nur Urbachs behördlich eingeschränkte und nach richterlicher Intervention teilweise erweiterte Aussagegenehmigung, nicht diese Fernsehpassage."
+    classification: fact
+    evidence_level: plausible
+    sources: [SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO, SRC-DE-ZEIT-SCHUELER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+        directness: indirect
+        locator: "Arbeitsverschriftlichung 08:38–10:14; Fragenliste ca. 09:06–09:55; nur über ASR erschlossen"
+        note: "Die maschinell erkannte Anmoderation ordnet die Passage Schily zu; mangels manuellem Ton- und Bildabgleich sind Name, Sprecherwechsel und Wortlaut der Fragen nicht bestätigt. Insbesondere Fragen zu Brandbomben und Jüdischem Gemeindehaus sind keine Tatgeständnisse."
+      - source: SRC-DE-ZEIT-SCHUELER-URBACH-1971
+        directness: direct
+        locator: "DIE ZEIT Nr. 21/1971, S. 3, Bericht über Richter Geuß und teilweise erweiterte Aussagegenehmigung"
+        note: "Eigenständiger zeitgenössischer journalistischer Bericht nur zur behördlichen Aussagebeschränkung und gerichtlich erreichten Teilerweiterung. Er enthält keine unabhängige Bestätigung der Schily-Anmoderation, Fragenliste oder konkreten Panorama-Interviewpassage."
+    counterevidence: []
+    alternatives:
+      - "Sprecherzuordnung und Wortlaut des ASR-Entwurfs können fehlerhaft sein; die TV-Auswahl kann gerichtliche Fragen zusätzlich verkürzt wiedergeben."
+      - "Eingeschränkte Aussageberechtigung kann Quellenschutz bezwecken, ohne die Richtigkeit der in Fragen formulierten Vorwürfe zu belegen."
+    missing_evidence:
+      - "Manueller Ton- und Bildabgleich mit dem historischen Panorama-Original zur Schily-Attribution und Fragenliste; vollständiges Mahler-Prozessprotokoll, originale Frage-Antwort-Folge und die Aussagegenehmigungen."
+    scope:
+      supports: "Die ZEIT bestätigt als zeitgenössische Pressequelle die behördliche Beschränkung und eine gerichtlich erwirkte partielle Erweiterung der Aussagegenehmigung. Die Schily-Anmoderation und konkrete Fragenliste sind dagegen bislang nur aus einer ungeprüften maschinellen Arbeitsfassung bekannt."
+      does_not_support: "Kein Nachweis, dass die behaupteten Bombenbeschaffungen stattfanden, Verfassungsschutz-Bomben stammten oder der Staat einen Anschlag beauftragte."
+    falsification: "Authentische Gerichts- oder Filmaufzeichnungen, die das Vorliegen der berichteten Aussagebeschränkung oder Schilys entsprechende öffentliche Schilderung widerlegen, müssten den Claim ändern."
+
+  - id: CLM-DE-URB-016
+    text: "Robert Wolff zitiert aus privat archivierten Schreiben des BfV-Präsidenten Günther Nollau an Hans-Dietrich Genscher vom 21. Mai 1972 und 10. Januar 1973 Überlegungen zu einer künstlichen anarchistischen Kontaktgruppe und einem einzuschleusenden 'Sonder-V-Mann' zur Informationsgewinnung im terroristischen Umfeld."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022]
+    evidence:
+      - source: SRC-DE-WOLFF-URBACH-NOLLAU-2022
+        directness: direct
+        locator: "Abschnitte 'Neue, unkonventionelle Wege' und 'Sonder-V-Mann'; Anmerkungen 1 und 6, Wolff 2022"
+        note: "Wolff gibt kurze Briefpassagen mit Daten und Provenienz Privatarchiv Robert Wolff wieder; der vollständige Wortlaut beider Originale ist hier nicht unabhängig geprüft. Der zweite Brief erläutert die beabsichtigte Einschleusung, nicht einen dokumentierten konkreten Einsatz."
+    counterevidence: []
+    alternatives:
+      - "Es kann sich um diskutierte, aber nie genehmigte oder verwirklichte Optionen gehandelt haben."
+      - "Eine später eingerichtete V-Mann-Maßnahme muss nicht dem 1972 vorgeschlagenen Modell entsprechen."
+    missing_evidence:
+      - "Scans und vollständige Kontexte der Schreiben von 1972 und 1973, ministerielle Antworten, Bewilligungsvorgänge, Einsatz- und Finanzakten sowie Belege für konkrete Umsetzung."
+    scope:
+      supports: "Ein Fachhistoriker dokumentiert spezifische damalige Vorschläge innerhalb der Sicherheitsbehörden, ihre Informationszugänge nach Urbachs Enttarnung aktiv zu rekonstruieren."
+      does_not_support: "Keine gesicherte Gründung einer Fake-Gruppe, keine anschlagsbezogene Weisung und keine bewiesene Fortführung von Urbachs einzelnen Waffenhandlungen."
+    falsification: "Authentische vollständige Brieforiginale ohne die zitierten Vorschlagsinhalte oder mit gegenteiliger Bedeutungsbestimmung würden diesen auf Wolffs Auswertung bezogenen Claim korrigieren."
+
+  - id: CLM-DE-URB-017
+    text: "Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser."
+    classification: fact
+    evidence_level: plausible
+    sources: [SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO, SRC-DE-NRW-POSSER-REGIERUNG-1970]
+    evidence:
+      - source: SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO
+        directness: indirect
+        locator: "ASR-Entwurf ca. 06:25–06:47, Vorstellung als Strafverteidiger und NRW-Minister"
+        note: "Der Eigenname wird maschinell fehlerhaft als 'Possa' wiedergegeben; die persönliche Zuordnung ist eine kontextuelle Identifikation und benötigt Bild-/Tonabgleich."
+      - source: SRC-DE-NRW-POSSER-REGIERUNG-1970
+        directness: direct
+        locator: "Landtag NRW, Plenarprotokoll 07/2, 28.07.1970, S. 10 B, Regierungsvorstellung"
+        note: "Amtliches Faksimile benennt Dr. Diether Posser als Minister für Bundesangelegenheiten; es enthält keine Aussagen über das Panorama-Interview."
+    counterevidence: []
+    alternatives:
+      - "ASR kann die Einleitung oder den Namen falsch gehört haben; die Person ist vor Bestätigung am Filmbild nicht endgültig identifiziert."
+    missing_evidence:
+      - "Gezielter Film-Bild- und Tonabgleich im Interviewfenster."
+    scope:
+      supports: "Eine institutionell geprüfte Identifikationsspur für einen im Film mutmaßlich eingeblendeten Juristen; der Interviewtext behandelt die Grenze zwischen Informationsquelle und Anstiftung als allgemeines rechtliches Problem."
+      does_not_support: "Keine persönliche Tatbeobachtung durch Posser, keine behördliche Prüfung Urbachs durch die NRW-Landesregierung und kein Beweis staatlicher Waffenlieferung."
+    falsification: "Ein Bild-/Tonabgleich, der einen anderen Interviewgast oder eine andere Amtsbezeichnung zeigt, würde die Personenattribution widerlegen."
+
+  - id: CLM-DE-URB-018
+    text: "In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer ausdrücklich als eigene Einschätzung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe, bestritt er jedoch."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+        directness: direct
+        locator: "SPIEGEL 24/1971, S. 79–81: Neubauers Antworten 'Gewiß, die Waffen waren da', 'offensichtlich ... von Urbach dort vergraben' und 'Ja' auf die Senatoren-Rückfrage; anschließend Fragen zu Veranlassung und Herkunft"
+        note: "Im veröffentlichten Interview bezeichnet Neubauer die Waffen als offensichtlich von Urbach vergraben und bejaht die Frage nach seiner Position als Senator; zugleich bestreitet er Dienstauftrag und Waffenherkunft aus dem Landesamt. Die ministerielle Aussage ist kein unabhängiger Fund-, Tat- oder Weisungsnachweis."
+    counterevidence: []
+    alternatives:
+      - "Neubauer kann seinen damaligen Kenntnisstand unvollständig oder interessengeleitet dargestellt haben; redaktionelle Kürzungen sind ohne Interviewaufzeichnung nicht ausgeschlossen."
+      - "Ein eigenmächtiges Verhalten Urbachs könnte mit der von Neubauer behaupteten fehlenden behördlichen Anordnung vereinbar sein."
+    missing_evidence:
+      - "Originalvernehmung Urbachs vor Gericht, Beleg der Waffen und ihrer Herkunft, Quelleführungsakten sowie eine authentifizierte Interviewaufzeichnung bzw. der Originaldruck."
+    scope:
+      supports: "Im zeitgenössischen Interview bestätigte Neubauer die Waffenvergrabung durch Urbach ausdrücklich als eigene Einschätzung, verneinte aber deren Veranlassung durch das Landesamt und die Herkunft der Waffen aus der Behörde."
+      does_not_support: "Keine unabhängige Verifizierung einer konkreten Waffenmenge, Übergabe an die RAF, Duldung oder Anordnung durch Führungsbeamte; keine Bewilligung der Waffenhandlung durch die erteilte Aussagegenehmigung."
+    falsification: "Eine authentische Originalfassung ohne die Neubauer zugeschriebenen bestätigenden Antworten oder mit abweichender Behördenzuordnung würde diesen Publikations-Claim ändern. Abweichende Tatakten beträfen hingegen die materielle Wahrheit seiner Aussage, nicht deren Veröffentlichung."
+
+  - id: CLM-DE-URB-019
+    text: "Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks."
+    classification: fact
+    evidence_level: strong
+    sources: [SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971]
+    evidence:
+      - source: SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971
+        directness: direct
+        locator: "SPIEGEL 24/1971, Interview: Fragen zu Zeugeneinführung und Antrag; Neubauerantwort 'Ereignissen am 2. bis 4. April 1970'; SPIEGEL-Fragen 'Antrag datiert vom 8. März' und 'Ermittlungsakten auf Blatt 47a'"
+        note: "Trennt ministerielle Darstellung der sachlichen Begrenzung von konkret durch das Nachrichtenmagazin genannten Terminen und Blattverweis. Die zugrunde liegenden Gerichtsakten sind nicht selbst eingesehen."
+    counterevidence: []
+    alternatives:
+      - "Die journalistisch genannten Antrags- und Unterschriftsdaten können den administrativen Prozess unvollständig wiedergeben; die zeitlich später berichtete Erweiterung ist gesondert zu rekonstruieren."
+    missing_evidence:
+      - "Verfahrensakten des Mahler-Prozesses, ursprüngliche und erweiterte Aussagegenehmigung, förmlicher Staatsanwaltschaftsantrag, Blatt 47a einschließlich Aktenzuordnung und gerichtliche Vernehmungsniederschrift."
+    scope:
+      supports: "Zeitgenössisch veröffentlichte, archivisch prüfbare Angaben zum Zeugenverfahren und ein präziser Hinweis auf Blatt 47a der Ermittlungsakten."
+      does_not_support: "Keine Feststellung, dass die Akten heute zugänglich sind, dass sämtliche angegebenen Termine amtlich verifiziert wurden oder dass aus der Genehmigung ein Recht zur Waffenbeschaffung folgt."
+    falsification: "Eine authentische Originalfassung des SPIEGEL-Interviews ohne diese zugeschriebenen Aussagen oder mit anderem Wortlaut würde den Publikations-Claim widerlegen; abweichende Gerichts- und Behördenakten beträfen dagegen die materielle Richtigkeit der berichteten Verfahrensdaten."
 what_follows:
+  - text: "Das SPIEGEL-Interview von 1971 dokumentiert Neubauers ausdrückliche Bestätigung der Waffenvergrabung durch Urbach in Buckow als seine damalige Einschätzung. Eine behördliche Veranlassung und Waffenherkunft aus dem Landesamt verneinte er. Der tatsächliche Waffenvorgang ist dadurch nicht unabhängig bewiesen."
+    claim_ids: [CLM-DE-URB-018]
+  - text: "Die 1971er Interviewfragen liefern datierte und anhand von Originalakten überprüfbare Verfahrenshinweise einschließlich Blatt 47a."
+    claim_ids: [CLM-DE-URB-019]
   - text: "Schon die 1971er Gerichts- und Fernsehberichte zeigen eine öffentlich dokumentierte Quellenrolle und zeitgenössische Auseinandersetzung mit Waffenbehauptungen, ohne einen amtlich nachgewiesenen Waffenlieferauftrag zu ersetzen."
     claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
+  - text: "Die zeitmarkierten Panorama-Interviews erweitern die konkreten Suchspuren für Waffenangebote und die wegen behördlich eingeschränkter Aussagegenehmigung unbeantworteten Gerichtsfragen; ihr Inhalt muss von tatsächlichen Tatnachweisen unterschieden werden."
+    claim_ids: [CLM-DE-URB-014, CLM-DE-URB-015, CLM-DE-URB-017]
+  - text: "Wolffs Auswertung der Nollau-Briefe weist auf behördeninterne Überlegungen zur Infiltration nach Urbachs öffentlicher Enttarnung hin; ob und wann seine Quellenbeziehung formell endete, bleibt offen."
+    claim_ids: [CLM-DE-URB-016]
   - text: "Der privat reproduzierte Senatsbrief von 1981 benennt die 1971er Parlamentssitzung und einen vertraulichen Aktenabschnitt zum Bombenkomplex als gezielte Originalquellen-Spuren."
     claim_ids: [CLM-DE-URB-013]
   - text: "Zur Rekonstruktion der Lieferungen liegt auch eine konkrete, allerdings nur privat reproduzierte behördliche Gegenposition von 1981 vor, die gegen historische Zeugenaussagen und Forschung zu prüfen ist."
@@ -351,6 +499,14 @@ what_follows:
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
+  - text: "Aus Neubauers veröffentlichter Bestätigung als Minister folgt weder ein unabhängig nachgewiesener Waffenfund noch ein staatlicher Auftrag; aus seiner Bestreitung einer behördlichen Veranlassung folgt ebenso wenig ein unabhängiger Gegenbeweis."
+    claim_ids: [CLM-DE-URB-018]
+  - text: "Die im SPIEGEL genannten Daten und die begrenzte Zeugenaussage sind kein Beleg einer staatlichen Genehmigung zum Umgang mit Waffen."
+    claim_ids: [CLM-DE-URB-019]
+  - text: "Weder das unkontrollierte ASR-Ergebnis noch Schilys offene Fragen beweisen, dass Urbach die darin genannten Straftaten beging."
+    claim_ids: [CLM-DE-URB-014, CLM-DE-URB-015]
+  - text: "Ein Vorschlag Nollaus oder die juristische Erläuterung Possers belegt keine real eingerichtete terroristische Scheinorganisation und keine von ihm beobachtete Urbach-Operation."
+    claim_ids: [CLM-DE-URB-016, CLM-DE-URB-017]
   - text: "Der Gerichtspressebericht und die vom NDR heutige Kurzbeschreibung einer historischen Sendung beweisen nicht den konkreten Waffenhandel oder eine Anleitung durch die Führungsoffiziere."
     claim_ids: [CLM-DE-URB-011, CLM-DE-URB-012]
   - text: "Die 1981 angebotene Akteneinsicht beweist nicht, dass Gerl sie wahrnahm oder die vertrauliche Akte heute vorliegt."
@@ -372,8 +528,12 @@ open_questions:
   - "Welche Übergaben sind durch mehr als spätere Erinnerungen oder eine zweistufige Protokollaussage belegt?"
   - "Welche amtlichen Akten zum antisemitischen Anschlagsversuch von November 1969 erlauben eine forensische Prüfung der Sprengsatzherkunft?"
   - "Was steht tatsächlich im vollständigen Mahler-Prozessprotokoll und in Urbachs später teilweise erweiterter Aussagegenehmigung von Mai 1971?"
+  - "Bestätigt eine unabhängige Ton- und Bildprüfung die maschinell erfassten Sprecherwechsel und Schilys konkrete Fragenliste im Panorama-Beitrag von 1971?"
+  - "Sind die vollständigen Nollau-Briefe vom 21.05.1972 und 10.01.1973 archivisch zugänglich; welche unabhängigen Akten belegen ministerielle Zustimmung oder tatsächliche operative Umsetzung?"
   - "Ist die 7. Plenarsitzung vom 27. Mai 1971 in PARDOK mit einem konkreten Digitalisat auffindbar, und ist das als vertraulich beschriebene Ausschussprotokoll vom 14. Juni 1971 freigegeben?"
   - "Gibt es eine schriftlich dokumentierte Einsicht Gerls 1981 in den Bombenkomplex und einen Archivbestandsnachweis der entsprechenden Unterlagen?"
+  - "Wie lautet der vollständige Wortlaut von Blatt 47a der im SPIEGEL 1971 erwähnten Ermittlungsakten und der ursprünglichen Aussagegenehmigung?"
+  - "Welche originalen Fund-, Verwahr- und Weisungsakten belegen oder widerlegen die im SPIEGEL referierte Waffenvergrabung bei Buckow?"
 case_links: []
 ---
 
@@ -392,11 +552,64 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 - **`CLM-DE-URB-011` — stark gestützt (zeitgenössischer Bericht):** Ein zeitgenössischer ZEIT-Bericht vom 21. Mai 1971 schildert, dass der Vorsitzende Richter im Mahler-Prozess eine teilweise Erweiterung von Urbachs eingeschränkter Aussagegenehmigung erreichte und Urbach danach erklären durfte, zusammen mit einem Komplizen Waffen vergraben zu haben.
 - **`CLM-DE-URB-012` — stark gestützt (Archivbeleg):** Das NDR-Sendungsarchiv dokumentiert für den 24. Mai 1971 den zehnminütigen Panorama-Beitrag 'V-Mann als Zeuge' über Peter Urbach; die heutige redaktionelle Kurzbeschreibung bezeichnet ihn als V-Mann und schreibt ihm Handel mit Drogen und Waffen zu.
 
+- **`CLM-DE-URB-018` — stark gestützt (veröffentlichte Aussage):** In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer ausdrücklich als eigene Einschätzung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe, bestritt er jedoch.
+- **`CLM-DE-URB-019` — stark gestützt (publizierte Gerichtsaktenhinweise):** Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks.
+
+
+## Das SPIEGEL-Interview mit Innensenator Neubauer (Juni 1971)
+
+- **Ministerposition zur Waffenvergrabung:** In [SPIEGEL 24/1971](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) bestätigte Kurt Neubauer ausdrücklich als eigene Einschätzung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; eine behördliche Veranlassung und die Herkunft der Waffen aus dem Landesamt für Verfassungsschutz bestritt er. Die veröffentlichte Position ist nicht mit einem unabhängigen Waffenfund- oder Befehlsnachweis gleichzusetzen.
+- **Präziser Aktenweg:** Neubauer schilderte den zunächst auf Ereignisse vom 2. bis 4. April 1970 eingeschränkten Aussageumfang. Das Magazin nannte den 8. März 1971 (Antrag), 2. Mai 1971 (Unterzeichnung) und ausdrücklich **Blatt 47a der Ermittlungsakten** als Referenz zu einem Treffen der Gruppe. Die Originalakten sind noch nicht abgeglichen.
+
+Damit ist der zeitgenössische Vorwurf gegenüber einer **damals bereits öffentlich formulierten Antwort des zuständigen Innensenators** prüfbar. Die stärkste Gegenhypothese bleibt: Urbach könnte das Waffenvergraben eigenmächtig vorgenommen haben und die staatliche Führung weder Beschaffung noch Verwendung veranlasst haben. Die bislang dokumentierte eigene Äußerung des Senators entscheidet diese Frage nicht.
+
+## Panorama 24. Mai 1971: quellenkritische Sichtung des Originaltons
+
+Ergänzende Zeitfenster- und Sprecher-Matrix: [Quellenkritische Panorama-Filmanalyse](../../quellen/panorama-1971-filmanalyse.md). Die automatische Ersttranskription ist nicht redaktionell freigegeben.
+
+**Arbeitsgrundlage:** der in der [ARD-Mediathek](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU) dokumentierte [NDR-Beitrag](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html), privat als Tondatei archiviert. Die ASR-Auswertung beschreibt **eine maschinelle Arbeitsfassung**, keine redaktionell oder gerichtlich beglaubigte Transkription. Das vollständige Video, Audio und die vom Original abgeleiteten vollständigen Untertitel bleiben außerhalb dieses öffentlichen Repositories. Ein eigenständiges Anhören und Zuordnen aller kritischen Passagen ist **noch offen**.
+
+**Private lokale Integritätsprüfung (9. Oktober 2026; öffentlich nicht vollständig reproduzierbar):**
+
+Die folgenden Messwerte und SHA-256-Abgleiche stammen ausschließlich aus einer **privat vorhandenen Originaltondatei und einem privat gespeicherten Transkriptionsbundle**. Diese Dateien, das vollständige ASR-Transkript und der genaue ursprüngliche ASR-Laufbeleg werden hier nicht veröffentlicht. Die angegebenen Hashes fixieren die lokalen Prüfobjekte, ermöglichen ohne deren Zugang aber **keine unabhängige Wiederholung oder Bestätigung dieser konkreten Bundle-Prüfung**. Die öffentlich verlinkte ARD-Aufnahme erlaubt eine eigenständige neue Sichtung; sie belegt nicht von sich aus die Genauigkeit der privaten maschinellen Verschriftlichung.
+
+- Originalton: AAC/M4A, 12.605.259 Byte, SHA-256 `796f51b984cb1eba8eae1e2328d7d1a1521c3a0aca319377b409c788c66c98f3`; die unveränderte Quelle im Bundle hat denselben Hash. Die Länge laut `ffprobe` beträgt **624,363 Sekunden** (10:24,363).
+- Privates Bundle: `digitalisierer.transcription-bundle.v1`, lokaler `faster-whisper`-Lauf (`large-v3`, Backend 1.2.1, ohne Cloud). Alle vier im Manifest angegebenen Ausgabehashes sind validiert; `transcript.json`: SHA-256 `36d3960fa824ad7439b09d325d5fb71d9fc712c2467a7d139fba3fbf7315691d`.
+- 131 Segmentdatensätze mit monotonen Startzeiten; kein Segment hat Endzeit vor Startzeit und kein Paar überschneidet sich. **Drei** Segmente überschreiten die Mediendauer; das letzte endet erst bei **638,16 Sekunden**, also **13,797 Sekunden nach dem Tonende**.
+- Der Schluss ab Segment 124 bei ca. **10:14,16** weist sinnlose, auffällig repetitive Wortfolgen auf und ist für Zitate und Tatsachenfolgerungen gesperrt. `ffmpeg silencedetect` erkennt bei einem Schwellenwert von **−35 dB** ab ungefähr **10:14,99** bis zum Ende etwa **9,37 Sekunden Stille**. Das ist ein starker Hinweis auf Endsegment-Halluzination; schwächere Tonsignale unterhalb der Schwelle sind technisch nicht ausgeschlossen.
+- Der ursprünglich separat gescheiterte Grabowski-ASR-Task `77ef1d57cd8447668de77b73` bleibt technisch **failed** (Exitcode 1; Outcome-Receipt `9ff82f0dd05d0c90000c6c4529e2a56cb314c462ac4eaf473a5f7137e9ec308e`). Seine Operator-Attention wurde am 9. Oktober 2026 gesondert als **decision_closed** dokumentiert (Entscheidungsreceipt `2a4b3fffaecedd900aeea799163aa68e80c10997ccd447bb9a563e7ecbfaf3e9`); dies ändert weder den Fehlerzustand noch beweist es die Entstehung des später vorgefundenen Bundles.
+- Die ASR-Segmente enthalten **keine Sprecherkennzeichnung** (`speaker: null`) und keinen auswertbaren Konfidenzwert. Nachfolgende Rollenzuordnungen beruhen daher zunächst auf der erkannten An- und Abmoderation, nicht auf einer geprüften Sprecherdiarisierung.
+
+| Tonzeit, ungefähr | In der ASR-Arbeitsfassung erkennbare Quelle | Inhalt und Evidenzgrenze |
+| --- | --- | --- |
+| 00:54–01:41 | Moderator und früherer Kommune-I-Angehöriger; Name in der Anmoderation noch gegenzuhören | Rückblick auf Urbachs Präsenz in der Kommune I; ein Interviewter berichtet, Urbach habe ihm Rauschmittel angeboten und von Waffenhandel beziehungsweise Belgien erzählt. **Bericht über ein Angebot/Selbstbericht**, kein unabhängig beobachteter Waffenimport. |
+| 01:41–03:11 | Als frühere Kollegin aus der S-Bahn-Zeit eingeführte Zeitzeugin | Aussagen über Urbachs Initiative und Beschaffungsmöglichkeiten, einschließlich mutmaßlicher Sprengstoffmaterialien. **Erinnerung und Zuschreibung**, kein Liefer- oder Behördenauftrag. |
+| 03:11–04:15 | Vom Interviewer als politischer Sekretär des Republikanischen Clubs vorgestellter Mann (im ASR-Text „Herr Böhme“) | Schildert Aktivitäten Urbachs, ein angebliches persönliches Pistolenangebot sowie einen Schuss in Räumen des Clubs. **Zeitzeugenbehauptung**, kein forensischer oder gerichtlicher Tatnachweis. |
+| 04:15–05:31 | Derselbe Interviewte, Sprechergrenze noch audiovisuell zu prüfen | Erzählt von Paketen in linken Wohnungen, nachfolgenden Polizeidurchsuchungen und Bombenfunden. Der Belegstatus wechselt zwischen behaupteter eigener Beobachtung, späterem Wissen und Zuschreibung an Urbach. Die genaue Gegenstandskette ist offen. |
+| 05:31–06:05 | Weiterer Interviewabschnitt; Sprecheridentität offen | Behauptete weitere Waffenangebote bis zu großen Stückzahlen. **Keine Bestätigung tatsächlicher Lieferung**. |
+| 06:05–06:22 | Fernsehkommentar | Wertung eines aktiven Anstifters bzw. „agent provocateur“. **Journalistische Interpretation**, nicht Urteil oder Behördenfeststellung. |
+| 06:25–08:38 | Als Jurist und NRW-Minister für Bundesangelegenheiten eingeführter Gesprächspartner, wahrscheinlich **Dr. Diether Posser** | Allgemeine rechtliche Unterscheidung zwischen V-Mann und strafbarer Anstiftung sowie Schranken beschränkter Zeugenaussagen. Amt und Name durch [NRW-Plenarprotokoll 07/2, S. 10](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf) unabhängig plausibilisiert; Filmidentität noch bildlich zu verifizieren. **Kein eigenes Tatzeugenwissen**. |
+| 08:38–10:14 | Als Mahlers Verteidiger Otto Schily eingeführter Interviewter und Kommentar | Fragen nach Waffen, Sprengsätzen, möglichen Ablagen und dem Jüdischen Gemeindehaus; Schily beschreibt aus seiner Sicht verweigerte Antworten wegen eingeschränkter Aussagegenehmigung. **Fragen sind keine bejahenden Aussagen**. [ZEIT 21/1971, S. 3](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3) berichtet unabhängig über die partielle gerichtliche Erweiterung der Erlaubnis. |
+| Ab ca. 10:14 | Unverständliche ASR-Endsegmente; ab ca. 10:15 technische Stille | Nicht zitat- oder beweisfähig. Insbesondere keine aus dem Schlussteil künstlich ergänzten Regierungs-, Prozess- oder Bombenaussagen übernehmen. |
+
+**Strukturierte Claims aus der Ton-Arbeitsfassung:**
+
+- **`CLM-DE-URB-014` — quellengebunden, Tonkorrektur offen:** Die maschinelle Arbeitsverschriftlichung des NDR-Panorama-Beitrags vom 24. Mai 1971 enthält mehreren Interviewten zugeschriebene Aussagen über angebliche Waffenangebote Peter Urbachs; sie dokumentiert derzeit einen überprüfbaren zeitgenössischen Vorwurf, nicht die materielle Übergabe oder behördliche Anordnung.
+- **`CLM-DE-URB-015` — plausibel (ASR-Zuschreibung, Tonkorrektur offen):** Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 24. Mai 1971 ordnet Otto Schily eine Schilderung unbeantworteter Fragen an Peter Urbach zu Waffen und Sprengsätzen zu; ein unabhängiger zeitgenössischer ZEIT-Gerichtsbericht behandelt nur Urbachs behördlich eingeschränkte und nach richterlicher Intervention teilweise erweiterte Aussagegenehmigung, nicht diese Fernsehpassage.
+- **`CLM-DE-URB-017` — quellengebunden, Tonkorrektur offen:** Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
+
+**Unabhängige Gegenprüfung:** Der [privat reproduzierte Senatsbrief von 1981](https://isioma.net/sds120502.html) widerspricht mehreren Zuschreibungen über Molotowcocktails und Sprengsätze. Diese behördliche Gegenposition widerlegt weder pauschal jedes Interview noch macht sie den Vorwurf wahr. Die im Panorama-Interview verlesenen *Fragen* zum jüdischen Gemeindehaus dürfen nicht mit den späteren historischen Beweisführungen zu diesem anderen Anschlagskomplex gleichgesetzt werden. Ohne die originale Verfahrensakte bleiben gerade Waffenweg, Quellensachbearbeiter, Auftrag, Kenntnis, Vorsatz und mögliche Ermittlungshindernisse offen.
+
+## BfV-Vorschläge nach Urbach: Infiltration statt nachgewiesener Anschlagssteuerung
+
+- **`CLM-DE-URB-016` — stark gestützt als historischer Quellenbericht:** Robert Wolff zitiert aus privat archivierten Schreiben des BfV-Präsidenten Günther Nollau an Hans-Dietrich Genscher vom 21. Mai 1972 und 10. Januar 1973 Überlegungen zu einer künstlichen anarchistischen Kontaktgruppe und einem einzuschleusenden 'Sonder-V-Mann' zur Informationsgewinnung im terroristischen Umfeld.
+- **Beweisgrenze:** Die Schriftstücke sind in der [wissenschaftlichen Veröffentlichung von Wolff (2022)](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972) mit kurzen Auszügen und Nachweisen zu seinem Privatarchiv referiert. Vollständige Originale, Genehmigungsantworten, Einsatzabrechnungen und ein konkreter Umsetzungsvorgang wurden hier nicht selbst überprüft. Vorgeschlagene oder erwogene **Infiltration ist keine bewiesene Realisierung**, und selbst diese wäre nicht mit staatlichem Befehl zur terroristischen Gewalttat identisch.
+
 ## Aktenzugang 1971/1981: eine konkrete Forschungsspur
 
 - **`CLM-DE-URB-013` — stark gestützt (privater Briefabdruck):** Ein privat reproduziertes Schreiben des Berliner Innensenators Peter Ulrich vom 16. Januar 1981 nennt die Befassung des Abgeordnetenhauses vom 27. Mai 1971 und einen vertraulichen Bericht Kurt Neubauers im Sicherheitsausschuss am 14. Juni 1971; es bietet Andreas Gerl Einsicht in den Teil zum 'Bombenkomplex' an.
 
-Der am 16. Januar 1981 überlieferte Senatsbrief nennt zwei genau datierte parlamentarische Vorgänge. Er bietet dem Abgeordneten Gerl die Einsicht in einen Teil des damaligen vertraulichen Berichts zum Bombenkomplex an. Damit ist ein **präziser Archivsuchauftrag** formulierbar; daraus folgt noch kein Beweis dafür, dass die Akte öffentlich vorliegt oder ihr Inhalt die spätere Senatsverteidigung widerlegt. Seit September 2026 sind öffentlich zugängliche Berliner Parlamentsmaterialien der früheren Wahlperioden grundsätzlich über [PARDOK](https://pardok.parlament-berlin.de/portala/browse.tt.html) recherchierbar. Ein konkretes Plenar- oder vertrauliches Ausschussdigitalisat wurde hier noch nicht unabhängig identifiziert.
+Der am 16. Januar 1981 überlieferte Senatsbrief nennt zwei genau datierte parlamentarische Vorgänge. Er bietet dem Abgeordneten Gerl die Einsicht in einen Teil des damaligen vertraulichen Berichts zum Bombenkomplex an. Damit ist ein **präziser Archivsuchauftrag** formulierbar; daraus folgt noch kein Beweis dafür, dass die Akte öffentlich vorliegt oder ihr Inhalt die spätere Senatsverteidigung widerlegt. Seit September 2026 sind öffentlich zugängliche Berliner Parlamentsmaterialien der früheren Wahlperioden grundsätzlich über [PARDOK](https://pardok.parlament-berlin.de/portala/browse.tt.html) recherchierbar. Ein konkretes Plenar- oder vertrauliches Ausschussdigitalisat wurde hier noch nicht unabhängig im Volltext identifiziert. Das [Abgeordnetenhaus Berlin berichtete am 10.09.2026 über die Retrodigitalisierung](https://www.parlament-berlin.de/Meldungen/retrodigitalisierung-historische-parlamentsdokumente-digital-verfugbar); die [ZLB hat den Jahrgang 1971 der Plenarprotokolle indexiert](https://digital.zlb.de/viewer/image/15975513_1971/141/). Für die 7. Sitzung vom 27.05.1971 sind Sitzungsnummer, Digitalisat, konkret zitierbare Seiten und Neubauers Redebeitrag noch selbst am Faksimile zu prüfen. Öffentliche Verfügbarkeit vertraulicher Berichte folgt daraus nicht.
 
 ## Historische Zuschreibungen statt gesicherter Lieferungen
 
@@ -440,6 +653,8 @@ Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien b
 
 ## Quellen
 
+- [DER SPIEGEL 24/1971: „Gewiß, die Waffen waren da“ – Interview mit Kurt Neubauer](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) — `SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971`
+
 - [Robert Wolff: Die Mai-Offensive der RAF 1972 – Reaktionen des Verfassungsschutzes (2022)](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972) — `SRC-DE-WOLFF-URBACH-NOLLAU-2022`
 - [Originalprotokoll Michael Baumann, 28.11.1973, Blatt 90](https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/) — `SRC-DE-BARCH-BAUMANN-URBACH-1973`
 - [Dominik Rigoll: 125.000 Desiderate (2017)](https://zeitgeschichte-online.de/kommentar/im-inneren-kreis) — `SRC-DE-RIGOLL-INNERER-KREIS-2017`
@@ -448,6 +663,8 @@ Weder das ursprüngliche MfS-Protokoll noch die zitierten historischen Studien b
 - [STERN 23/1971, Archiv-Reproduktion](https://www.isioma.net/sds120504.html) — `SRC-DE-STERN-URBACH-1971-REPRINT`
 - [Hans Schueler, DIE ZEIT 21/1971, S. 3: Die Bomben des Senators](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3) — `SRC-DE-ZEIT-SCHUELER-URBACH-1971`
 - [NDR Panorama, 24.05.1971: V-Mann als Zeuge](https://www.ndr.de/fernsehen/sendungen/panorama/archiv/1971/-,panorama16728.html) — `SRC-DE-NDR-PANORAMA-URBACH-1971`
+- [ARD-Mediathek, 24.05.1971: V-Mann als Zeuge (audiovisueller Originalbeitrag)](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU) — `SRC-DE-ARD-PANORAMA-URBACH-1971-VIDEO`
+- [Landtag NRW, Plenarprotokoll 07/2, 28.07.1970, S. 10: Diether Posser](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf) — `SRC-DE-NRW-POSSER-REGIERUNG-1970`
 - [bpb: Antisemitismus in Deutschland nach 1945](https://www.bpb.de/shop/zeitschriften/izpb/juedisches-leben-348/juedisches-leben-348/341628/antisemitismus-in-deutschland-nach-1945/) — `SRC-DE-BPB-ANTISEMITISMUS-2021`
 - [Wolfgang Kraushaar: Die Bombe im Jüdischen Gemeindehaus (2005)](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/) — `SRC-DE-KRAUSHAAR-BOMBE-GEMEINDEHAUS-2005`
 - [Regine Igel: Einblicke in die Urbach-Stasi-Akte (2010)](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all) — `SRC-DE-IGEL-URBACH-BAUMANN-HANDSCHRIFT-2010`
