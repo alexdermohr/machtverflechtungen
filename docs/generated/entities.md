@@ -36,11 +36,13 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-JOERG-SCHOENENBORN` | person | Jörg Schönenborn | DE |
 | `PER-DE-KAI-DIEKMANN` | person | Kai Diekmann | DE |
 | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | person | Klaus-Dieter Frankenberger | DE |
+| `ORG-LY-VOLKSBUREAU-OSTBERLIN` | diplomatic_mission | Libysches Volksbüro (Ost-Berlin) | DE, LY |
 | `PER-DE-LIZ-MOHN` | person | Liz Mohn | DE |
 | `ORG-DE-MM-WARBURG` | bank | M. M. Warburg & CO | DE |
 | `PER-DE-MATHIAS-DOEPFNER` | person | Mathias Döpfner | DE |
 | `PER-DE-MATTHIAS-NASS` | person | Matthias Naß | DE |
 | `PER-DE-MICHAEL-BAUMANN` | person | Michael 'Bommi' Baumann | DE |
+| `ORG-DE-MFS` | intelligence_service | Ministerium für Staatssicherheit (MfS) | DE |
 | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | intelligence_service | Niedersächsischer Verfassungsschutz | DE |
 | `PER-DE-OLAF-SCHOLZ` | person | Olaf Scholz | DE |
 | `ORG-DE-ORGANISATION-GEHLEN` | intelligence_organization | Organisation Gehlen | DE, US |

@@ -26,6 +26,18 @@ Ob und in welchen einzelnen Fällen Urbachs Führungsoffiziere seine Waffen- ode
 
 Ob eine dokumentierte Netzwerkbeziehung eine konkrete redaktionelle Entscheidung, Themenauswahl, Gewichtung oder Kommentierung beeinflusst oder gesteuert hat, bleibt mit den registrierten Quellen offen.
 
+## [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) · CLM-DE-LABELLE-007
+
+**fact · plausible**
+
+Das Bundesarchiv rekonstruiert einen Warnversuch eines MfS-Informanten am 4. April 1986 gegen 22:30 Uhr, bei dem dessen Führungsoffizier vermutlich nicht rechtzeitig erreicht wurde.
+
+## [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) · CLM-DE-LABELLE-009
+
+**interpretation · speculative**
+
+Die Kombination von MfS-Quellenberichten, einer vor dem Anschlag kopierten Zielliste und einer später vorbereiteten Dementi-Formel könnte auf institutionelles Vorfeldwissen und selektive Informationskontrolle im Fall La Belle hindeuten.
+
 ## [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) · CLM-DE-CUMEX-007
 
 **open_question · speculative**
