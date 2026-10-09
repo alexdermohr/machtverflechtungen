@@ -786,3 +786,102 @@ Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek B
 [Seite öffnen](https://digital.zlb.de/viewer/image/15975513_1971/112/)
 
 Fundstelle: 7. Sitzung vom 27.05.1971, gedruckte S. 92–94 (ZLB Band I, Viewer-Bilder 112–114; Scans Abge_Berl_1971_VI_07.pdf, Bildseiten 10–12)
+
+<a id="src-de-barch-oktoberfest-2025"></a>
+## SRC-DE-BARCH-OKTOBERFEST-2025
+
+**[Terror auf der Wiesn: Das Oktoberfestattentat 1980 in den Beständen des Bundesarchivs](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)**
+
+Bundesarchiv · 2025 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
+
+Fundstelle: Abschnitte Das Attentat; Kontakte zur Wehrsportgruppe Hoffmann; (K)ein rechtsextremes Attentat?; Wiederaufnahme
+
+<a id="src-de-barch-mfs-wandervogel-1980"></a>
+## SRC-DE-BARCH-MFS-WANDERVOGEL-1980
+
+**[MfS-Bericht über Ermittlungen des Verfassungsschutzes im Vorfeld des Oktoberfestattentats 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-ermittlungen-des-verfassungsschutzes-im-vorfeld-des-oktoberfestattentats-1980/blatt/23/)**
+
+Bundesarchiv / Stasi-Unterlagen-Archiv · 1980-09 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.stasi-mediathek.de/medien/bericht-ueber-ermittlungen-des-verfassungsschutzes-im-vorfeld-des-oktoberfestattentats-1980/blatt/23/)
+
+Fundstelle: BArch, MfS, HA XXII, Nr. 5749, Bd. 4, Bl. 23 ff.; Transkript Aktion Wandervogel, 25./26.09.1980
+
+<a id="src-de-bt-okt-motiv-2020"></a>
+## SRC-DE-BT-OKT-MOTIV-2020
+
+**[Ermittlungen zum Oktoberfest-Attentat (hib 941/2020, Regierungsantwort zu BT-Drs. 19/22142)](https://www.bundestag.de/webarchiv/presse/hib/2020_09/792454-792454)**
+
+Deutscher Bundestag / Bundesregierung · 2020-09-14 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_09/792454-792454)
+
+Fundstelle: Absatz 1-3; Einstellungsverfügung GBA vom 06.07.2020 und Bewertung rechtsextremistisch
+
+<a id="src-de-bt-okt-weitere-2020"></a>
+## SRC-DE-BT-OKT-WEITERE-2020
+
+**[Ende der Ermittlungen zum Oktoberfestattentat (hib 1003/2020, Regierungsantwort zu BT-Drs. 19/22430)](https://www.bundestag.de/webarchiv/presse/hib/2020_09/794448-794448)**
+
+Deutscher Bundestag / Bundesregierung · 2020-09-24 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_09/794448-794448)
+
+Fundstelle: Absatz 1-3; Stand und Grenzen der Ermittlungen zur Beteiligung weiterer Personen
+
+<a id="src-de-bt-bfv-referat-2014"></a>
+## SRC-DE-BT-BFV-REFERAT-2014
+
+**[BfV-Referat Rechtsterrorismus (hib 481/2014, Regierungsantwort zu BT-Drs. 18/2544)](https://www.bundestag.de/webarchiv/presse/hib/2014_09/332648-332648)**
+
+Deutscher Bundestag / Bundesregierung · 2014-09-30 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2014_09/332648-332648)
+
+Fundstelle: Erster Absatz: Gründung Referat Rechtsterrorismus im BfV 1981
+
+<a id="src-de-bt-nsu-bilanz-2017"></a>
+## SRC-DE-BT-NSU-BILANZ-2017
+
+**[NSU-II-Untersuchungsausschuss: Aufklärung bleibt Daueraufgabe](https://www.bundestag.de/webarchiv/textarchiv/2017/kw32-nsu-bilanz-515208)**
+
+Deutscher Bundestag · 2017 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2017/kw32-nsu-bilanz-515208)
+
+Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstützerstrukturen liegen noch im Dunkeln
+
+<a id="src-de-bt-nsu-lingen-2017"></a>
+## SRC-DE-BT-NSU-LINGEN-2017
+
+**[Heinz Fromm: Keine Informationen (hib 102/2017)](https://www.bundestag.de/webarchiv/presse/hib/2017_02/493792-493792)**
+
+Deutscher Bundestag · 2017-02-16 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_02/493792-493792)
+
+Fundstelle: Absätze zur Aktion Konfetti; Aussage Lingens von 2014; Aussagen Fromms vom 16.02.2017
+
+<a id="src-de-bt-nsu-rennsteig-2012"></a>
+## SRC-DE-BT-NSU-RENNSTEIG-2012
+
+**[Schnelle Aufklärung der Aktenvernichtung gefordert](https://www.bundestag.de/webarchiv/textarchiv/2012/39720930_kw27_nsu_di-208982)**
+
+Deutscher Bundestag · 2012-07-04 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/39720930_kw27_nsu_di-208982)
+
+Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
+
+<a id="src-de-bt-nsu-yozgat-2016"></a>
+## SRC-DE-BT-NSU-YOZGAT-2016
+
+**[Ungereimtheiten bei Ermittlungen zum Mord an Halit Yozgat](https://www.bundestag.de/webarchiv/textarchiv/2016/kw50-pa-3ua-nsu-484280)**
+
+Deutscher Bundestag · 2016-12-16 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2016/kw50-pa-3ua-nsu-484280)
+
+Fundstelle: Öffentliche Anhörung des 3. UA vom 15.12.2016; Abschnitte Temme, Zeugengenehmigung, E-Mail Pilling vom 24.03.2006

@@ -138,6 +138,17 @@ flowchart LR
     N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ["West-Berliner Landesamt für Verfassungsschutz"]
     N_PER_DE_PETER_URBACH["Peter Urbach"]
     N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972"| N_PER_DE_PETER_URBACH
+    N_PER_DE_GUNDOLF_KOEHLER["Gundolf Köhler"]
+    N_ORG_DE_WSG_HOFFMANN["Wehrsportgruppe Hoffmann"]
+    N_PER_DE_GUNDOLF_KOEHLER -->|"Briefkontakt und Teilnahme an zwei Übungen, laut Bundesarchiv"| N_ORG_DE_WSG_HOFFMANN
+    N_ORG_DE_BFV["Bundesamt für Verfassungsschutz"]
+    N_CASE_DE_NSU_AKTEN_2011["NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011"]
+    N_ORG_DE_BFV -->|"vernichtete nach der NSU-Aufdeckung mehrere V-Mann-Akten"| N_CASE_DE_NSU_AKTEN_2011
+    N_PER_DE_ANDREAS_TEMME["Andreas Temme"]
+    N_ORG_DE_LFV_HESSEN["Landesamt für Verfassungsschutz Hessen"]
+    N_PER_DE_ANDREAS_TEMME -->|"war Mitarbeiter und V-Mann-Führer"| N_ORG_DE_LFV_HESSEN
+    N_CASE_DE_NSU_YOZGAT_2006["NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen"]
+    N_ORG_DE_LFV_HESSEN -->|"verweigerte Aussagegenehmigungen für V-Personen bei Mordermittlungen"| N_CASE_DE_NSU_YOZGAT_2006
 ```
 
 ## Relationen
@@ -216,3 +227,7 @@ flowchart LR
 | REL-DE-CUMEX-001 | Hamburger Finanzverwaltung | forderte Cum-Ex-Steuererstattungen 2020 vollständig zurück | M. M. Warburg & CO | established | SRC-DE-BT-WARBURG-ANTWORT-2025 |
 | REL-DE-CUMEX-002 | Olaf Scholz | Treffen am 10. November 2017 (Inhalt nicht dokumentiert) | Christian Olearius | established | SRC-DE-HH-WARBURG-SENAT-2020 |
 | REL-DE-URB-001 | West-Berliner Landesamt für Verfassungsschutz | führte Urbach als Quelle im Umfeld der frühen Mahler-Baader-Meinhof-Gruppe; Nollau beschrieb den Informationswert 1972 | Peter Urbach | strong | SRC-DE-WOLFF-URBACH-NOLLAU-2022 |
+| REL-DE-OKT-001 | Gundolf Köhler | Briefkontakt und Teilnahme an zwei Übungen, laut Bundesarchiv | Wehrsportgruppe Hoffmann | strong | SRC-DE-BARCH-OKTOBERFEST-2025 |
+| REL-DE-NSU-AKT-001 | Bundesamt für Verfassungsschutz | vernichtete nach der NSU-Aufdeckung mehrere V-Mann-Akten | NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011 | established | SRC-DE-BT-NSU-LINGEN-2017 |
+| REL-DE-NSU-YOZ-001 | Andreas Temme | war Mitarbeiter und V-Mann-Führer | Landesamt für Verfassungsschutz Hessen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
+| REL-DE-NSU-YOZ-002 | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen bei Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
