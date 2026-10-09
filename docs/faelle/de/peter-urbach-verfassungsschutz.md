@@ -438,7 +438,7 @@ claims:
     falsification: "Ein Bild-/Tonabgleich, der einen anderen Interviewgast oder eine andere Amtsbezeichnung zeigt, würde die Personenattribution widerlegen."
 
   - id: CLM-DE-URB-018
-    text: "In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer als eigene Darstellung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben, bestritt aber, dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe."
+    text: "In einem 1971 veröffentlichten SPIEGEL-Interview widersprach Berlins Innensenator Kurt Neubauer der Frageprämisse nicht, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe, bestritt er jedoch ausdrücklich."
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-SPIEGEL-NEUBAUER-URBACH-1971]
@@ -454,9 +454,9 @@ claims:
     missing_evidence:
       - "Originalvernehmung Urbachs vor Gericht, Beleg der Waffen und ihrer Herkunft, Quelleführungsakten sowie eine authentifizierte Interviewaufzeichnung bzw. der Originaldruck."
     scope:
-      supports: "Neubauer äußerte 1971 eine konkrete öffentliche Anerkennung der Waffenvergrabung durch Urbach bei gleichzeitiger Bestreitung staatlicher Veranlassung."
+      supports: "Das veröffentlichte Interview zeigt, dass Neubauer die Frageprämisse zur Waffenvergrabung durch Urbach nicht zurückwies, eine Veranlassung durch das Landesamt und die Waffenherkunft aus der Behörde jedoch verneinte."
       does_not_support: "Keine unabhängige Verifizierung einer konkreten Waffenmenge, Übergabe an die RAF, Duldung oder Anordnung durch Führungsbeamte; keine Bewilligung der Waffenhandlung durch die erteilte Aussagegenehmigung."
-    falsification: "Eine authentifizierte Originalfassung des Interviews, in der Neubauer die zugeschriebene Buckow-Äußerung nicht tätigte oder wesentlich anders formulierte, würde den Aussagen-Claim ändern; Tatakten könnten die Sachlage anders beurteilen."
+    falsification: "Eine authentifizierte Interviewfassung, in der Neubauer die Frageprämisse ausdrücklich zurückweist oder die behördliche Veranlassung nicht bestreitet, würde diesen Publikations-Claim korrigieren; Tatakten könnten die tatsächliche Waffenherkunft gesondert klären."
 
   - id: CLM-DE-URB-019
     text: "Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks."
@@ -478,7 +478,7 @@ claims:
       does_not_support: "Keine Feststellung, dass die Akten heute zugänglich sind, dass sämtliche angegebenen Termine amtlich verifiziert wurden oder dass aus der Genehmigung ein Recht zur Waffenbeschaffung folgt."
     falsification: "Eine authentische Originalfassung des SPIEGEL-Interviews ohne diese zugeschriebenen Aussagen oder mit anderem Wortlaut würde den Publikations-Claim widerlegen; abweichende Gerichts- und Behördenakten beträfen dagegen die materielle Richtigkeit der berichteten Verfahrensdaten."
 what_follows:
-  - text: "Das SPIEGEL-Originalinterview von 1971 dokumentiert Neubauers Zugeständnis zum Waffenvergraben in Buckow bei ausdrücklicher Bestreitung eines Landesamtsauftrags; die Aussage des Senators ist von der historischen Wahrheit des Vorfalls zu unterscheiden."
+  - text: "Das SPIEGEL-Interview von 1971 dokumentiert, dass Neubauer der Frageprämisse einer Waffenvergrabung in Buckow nicht widersprach, aber eine behördliche Veranlassung und Waffenherkunft aus dem Landesamt ausdrücklich verneinte. Ein ausdrückliches ministerielles Geständnis der Waffenvergrabung ist damit nicht belegt."
     claim_ids: [CLM-DE-URB-018]
   - text: "Die 1971er Interviewfragen liefern datierte und anhand von Originalakten überprüfbare Verfahrenshinweise einschließlich Blatt 47a."
     claim_ids: [CLM-DE-URB-019]
@@ -499,7 +499,7 @@ what_follows:
   - text: "Die von Historikern zugeschriebene Sprengsatzherkunft beim antisemitischen Anschlagsversuch von 1969 ist eine eigenständige, über die allgemeine RAF-Frage hinausgehende Untersuchungsspur."
     claim_ids: [CLM-DE-URB-005]
 what_does_not_follow:
-  - text: "Aus Neubauers Eingeständnis, Urbach habe Waffen vergraben, folgt kein belegter Auftrag des Berliner Verfassungsschutzes, und aus dessen behördlicher Verneinung folgt kein sicherer Gegenbeweis."
+  - text: "Aus Neubauers Nichtbestreiten der journalistischen Frageprämisse folgt weder ein bewiesener Waffenfund noch ein staatlicher Auftrag; aus seiner behördlichen Bestreitung folgt ebenso wenig ein unabhängiger Gegenbeweis."
     claim_ids: [CLM-DE-URB-018]
   - text: "Die im SPIEGEL genannten Daten und die begrenzte Zeugenaussage sind kein Beleg einer staatlichen Genehmigung zum Umgang mit Waffen."
     claim_ids: [CLM-DE-URB-019]
@@ -552,13 +552,13 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 - **`CLM-DE-URB-011` — stark gestützt (zeitgenössischer Bericht):** Ein zeitgenössischer ZEIT-Bericht vom 21. Mai 1971 schildert, dass der Vorsitzende Richter im Mahler-Prozess eine teilweise Erweiterung von Urbachs eingeschränkter Aussagegenehmigung erreichte und Urbach danach erklären durfte, zusammen mit einem Komplizen Waffen vergraben zu haben.
 - **`CLM-DE-URB-012` — stark gestützt (Archivbeleg):** Das NDR-Sendungsarchiv dokumentiert für den 24. Mai 1971 den zehnminütigen Panorama-Beitrag 'V-Mann als Zeuge' über Peter Urbach; die heutige redaktionelle Kurzbeschreibung bezeichnet ihn als V-Mann und schreibt ihm Handel mit Drogen und Waffen zu.
 
-- **`CLM-DE-URB-018` — stark gestützt (veröffentlichte Aussage):** In einem 1971 veröffentlichten SPIEGEL-Interview bestätigte Berlins Innensenator Kurt Neubauer als eigene Darstellung, Urbach habe Waffen auf einem Friedhof in Buckow vergraben, bestritt aber, dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe.
+- **`CLM-DE-URB-018` — stark gestützt (veröffentlichte Aussage):** In einem 1971 veröffentlichten SPIEGEL-Interview widersprach Berlins Innensenator Kurt Neubauer der Frageprämisse nicht, Urbach habe Waffen auf einem Friedhof in Buckow vergraben; dass das Landesamt die Vergrabung veranlasst oder die Waffen geliefert habe, bestritt er jedoch ausdrücklich.
 - **`CLM-DE-URB-019` — stark gestützt (publizierte Gerichtsaktenhinweise):** Im SPIEGEL-Interview 24/1971 beschrieb Neubauer die Aussagegenehmigung Urbachs als auf Ereignisse vom 2. bis 4. April 1970 begrenzt; der Interviewer nannte den 8. März 1971 als Antragstag, den 2. Mai 1971 als Unterschriftstag und Blatt 47a der damaligen Ermittlungsakten als konkrete Fundstelle eines Vermerks.
 
 
 ## Das SPIEGEL-Interview mit Innensenator Neubauer (Juni 1971)
 
-- **Ministerposition zur Waffenvergrabung:** In [SPIEGEL 24/1971](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) bestätigte Kurt Neubauer als Interviewaussage, dass Urbach Waffen auf einem Friedhof in Buckow vergraben habe; eine Veranlassung und Herkunft der Waffen durch das Landesamt für Verfassungsschutz bestritt er. Die veröffentlichte Position ist nicht mit einem unabhängigen Waffenfund- oder Befehlsnachweis gleichzusetzen.
+- **Ministerposition zur Waffenvergrabung:** In [SPIEGEL 24/1971](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585) widersprach Kurt Neubauer der Frageprämisse, Urbach habe Waffen auf einem Friedhof in Buckow vergraben, nicht; eine Veranlassung der Vergrabung und die Herkunft der Waffen aus dem Landesamt für Verfassungsschutz bestritt er. Die veröffentlichte Position ist nicht mit einem unabhängigen Waffenfund- oder Befehlsnachweis gleichzusetzen.
 - **Präziser Aktenweg:** Neubauer schilderte den zunächst auf Ereignisse vom 2. bis 4. April 1970 eingeschränkten Aussageumfang. Das Magazin nannte den 8. März 1971 (Antrag), 2. Mai 1971 (Unterzeichnung) und ausdrücklich **Blatt 47a der Ermittlungsakten** als Referenz zu einem Treffen der Gruppe. Die Originalakten sind noch nicht abgeglichen.
 
 Damit ist der zeitgenössische Vorwurf gegenüber einer **damals bereits öffentlich formulierten Antwort des zuständigen Innensenators** prüfbar. Die stärkste Gegenhypothese bleibt: Urbach könnte das Waffenvergraben eigenmächtig vorgenommen haben und die staatliche Führung weder Beschaffung noch Verwendung veranlasst haben. Die bislang dokumentierte eigene Äußerung des Senators entscheidet diese Frage nicht.
