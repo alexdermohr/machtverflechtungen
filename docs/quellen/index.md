@@ -775,3 +775,14 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+<a id="src-de-berlin-plenum-urbach-1971"></a>
+## SRC-DE-BERLIN-PLENUM-URBACH-1971
+
+**[Abgeordnetenhaus Berlin, 6. Wahlperiode, Plenarprotokoll Nr. 7 vom 27. Mai 1971](https://digital.zlb.de/viewer/image/15975513_1971/112/)**
+
+Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek Berlin · 1971-05-27 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://digital.zlb.de/viewer/image/15975513_1971/112/)
+
+Fundstelle: 7. Sitzung vom 27.05.1971, gedruckte S. 92–94 (ZLB Band I, Viewer-Bilder 112–114; Scans Abge_Berl_1971_VI_07.pdf, Bildseiten 10–12)
