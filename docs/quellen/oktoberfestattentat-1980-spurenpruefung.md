@@ -78,6 +78,31 @@ Diese ergänzende Ebene untersucht **Überlieferungs- und Auskunftsentscheidunge
 
 **Offener Beschaffungs- und Falsifikationspfad:** [Issue #23 – BayLfV-Aktenstand 2011, Archivierung 2012/2014 und 29 Spurenakten](https://github.com/alexdermohr/machtverflechtungen/issues/23).
 
+### F. Aktenbeiziehung und Geheimdienst-Registraturen (2014–2021)
+
+Diese Matrix macht die **Ermittlung nach dem Anschlag** und den **Aktenverkehr nach der Wiederaufnahme** prüfbar. Sie ist ausdrücklich kein Verzeichnis verifizierter Originaltäterakten.
+
+| Spur / Archivbefund | Was die Originalantwort belegt | Offene Identität und Gegenprobe |
+| --- | --- | --- |
+| **F1 – BayLfV-/BfV-/BND-Beiziehung 2014–2020** | [BT-Drs. 20/358, Antwort 1, S. 1–2] zählt das **BayLfV**, andere Landesämter, **BfV**, **BND**, BLKA, BayHStA, Bundesarchiv, Innenministerium und zahlreiche weitere Stellen als Quellen tatsächlich beigezogener Akten/Unterlagen des wiederaufgenommenen Verfahrens auf. [Q13] | Das ist **nicht dieselbe Behauptung** wie die negative Auskunft des BayLfV zu Daten von 1980 gegenüber dem GBA im Jahr 2011 [Q2]. Die 2021er Antwort nennt **keine** gelieferten BayLfV-Einzelakten, Zugangszeiten, Seitenzahlen und kein Inventar der **29 BLKA-Spurenakten**. |
+| **F2 – Aktenrückgabe nach Einstellung 2020** | Ende **2021** waren bestimmte Beiziehungen (u. a. StA Memmingen und Marburg, Archiv Baden-Württemberg) und **Teile** der BArch-/BLKA-/Innenministerium-Unterlagen zurückgegeben. Übrige Unterlagen lagen nach amtlicher Auskunft weiterhin bei der Bundesanwaltschaft; Rückgabe/Schriftgutprüfung dauerte an und war nicht zeitlich prognostizierbar. [Q13, Antworten 2–3, S. 2–3] | Die Begriffe **Original**, **Kopie**, **digitale Übersendung** und **Vor-Ort-Sichtung** unterscheiden; weder auf rechtswidrige Zurückhaltung schließen noch 2021er Bestand als Status für **2026** ausgeben. Benötigt wird ein datiertes Rückgabe- und Beiakteninventar. |
+| **F3 – Öffentlich identifizierte BND-Akte** | 2015 bestätigte Bundesregierung **eine BND-Akte** zum Oktoberfestkomplex. Der seit **Februar 2014** freigegebene Teil ist ausdrücklich **BArch B 206/3009**; der als Verschlusssache geführte Rest befand sich im BND-Archiv. Zuständig: 1980 Abt. 5/Referat **51D** „Aufklärung Internationaler Terrorismus“, ab 1982 Referat **11D**; Aktenführung nach damals vorhandenen Dokumenten bis 1983. [Q3, S. 4] | **B 206/3009** ist eine konkrete Beschaffungssignatur – nicht bereits eine ausgewertete Akte. Bestand/Bearbeiter/Datierungen/Schwärzungen mit öffentlich verfügbarem Archivoriginal prüfen. 2015er VS-Rest ≠ heutiger Freigabestand. Kein Nachweis operativer BND-Beteiligung. |
+| **F4 – Intakte benannte BfV-Sachakte** | In der Antwort von 2015 wird die Sachakte **„Sprengstoffanschlag (Oktoberfestattentat) am 26. September 1980“** als **nicht vernichtet** bezeichnet. Die Hauptakte wurde erst beim Referat **IIA3**, ab April 1981 bei **IIA6** geführt und war laut Behörde chronologisch statt thematisch gegliedert. [Q3, S. 3–4] | Gegenbefund zu der pauschalen Behauptung einer vollständigen BfV-Sachaktenvernichtung. Einzelne nicht zur Hauptakte gehörige Dateien, Akten anderer Ämter oder rechtmäßige Datenlöschungen werden **nicht** ausgeschlossen. |
+| **F5 – Keine konkrete Aufschlüsselung der 29 BLKA-Akten** | BayLT 02.10.2014 [Q12] meldete 29 beim BLKA gesondert gefundene Spurenakten; BT-Drs. 20/358 [Q13] nennt die Beiziehung von Unterlagen sowohl vom **BayHStA** als auch vom **BLKA** im Verfahren 2014–2020. | **Keine identifizierende Konkordanz** in den vorhandenen Quellen: 29 Originalsignaturen, ursprüngliche GBA-Kassen-/Sachaktennummer, Soko-Spurennummer, Beiziehungsdatum, vollständige Wiedereinsicht sowie späteres Rückgabedatum bleiben offen. Es wäre unzulässig, aus bloßer Nennung der Institutionen zu folgern, alle 29 Akten seien geprüft worden. |
+
+**Zeitlich entkoppelte amtliche Bestandsaussagen:**
+
+1. **Februar 2011:** BayLfV erklärte dem GBA, keine Daten zum Anschlag mehr zu haben [Q2]; Inhalt und Prüfgrundlage der Antwort fehlen.
+2. **Juni 2012:** Landesregierung meldete fehlende BayLfV-Unterlagen im Hauptstaatsarchiv; die Antwort wurde **2014 gerichtlich beanstandet** [Q11].
+3. **Oktober 2014:** 29 zusätzliche BLKA-Spurenakten ins Hauptstaatsarchiv übergeben [Q12].
+4. **2014–2020:** Nach Regierungsantwort 2021 Unterlagen aus den genannten Archiven und Diensten beigezogen [Q13]. Die Reihenfolge und Art pro Stelle sind **nicht aufgeschlüsselt**.
+5. **Dezember 2021:** Ein Teil der Originalakten zurück, andere Beiakten noch bei GBA; Abschlussprognose unmöglich [Q13].
+6. **2026:** **Kein neuer amtlicher Gesamtstatus** aus diesen Quellen ableitbar.
+
+**Konkrete nächste Beschaffung:** zuerst Bestands-/Übergabeliste **BArch B 206/3009**, dann Soko-„26. September“-Aktenbeiziehungsjournal und bayrische Archivsignaturen der 29 Spurenakten, zuletzt Restbestandsliste der GBA-Beiakten per Dezember 2021 und nachfolgende Rückgaben. Inhaltliche Vorwissenshypothesen erst danach an überprüfbare *vor* dem 26. September 1980 datierte Dokumente binden.
+
+**Nachvollziehbarer Forschungsauftrag:** [Issue #23](https://github.com/alexdermohr/machtverflechtungen/issues/23). Die dortigen aktualisierten Prüfziele sind nicht als Akteneinsicht zu verstehen.
+
 ## Stärkste offene Hypothesen und Gegenhypothesen
 
 **H1 – Mittäter oder tatbezogene Helfer:** Zeitgenössische Zeugenaussagen, die eingeschränkt rekonstruktionsfähige Beweisführung und GBA-Zitate machen eine Tatbeteiligung weiterer Personen *prüfwürdig*. Stärkste Gegenhypothese: unzuverlässige Wahrnehmungen nach einer chaotischen Explosion, falsche Zuordnung und Köhlers dokumentierte eigene Vorbereitung. Falsifikation/Bestätigung: eine forensisch oder zeitgenössisch dokumentierte Beteiligungshandlung mit konkreter Person.
@@ -112,5 +137,6 @@ Diese ergänzende Ebene untersucht **Überlieferungs- und Auskunftsentscheidunge
 - **Q10:** [BT-Drs. 16/13527, 22.06.2009](https://dserver.bundestag.de/btd/16/135/1613527.pdf) – früher Behördenstand zu Bologna-Anruferin, italienischen Festnahmen und Tatmittelspuren.
 - **Q11:** [BayVerfGH, Entscheidung Vf. 72-IVa-12, 20.03.2014, Rn. 132–135 und 143–145](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf) – Primärentscheidung zu parlamentarischer Auskunft und Aktenarchivierung, kein Vernichtungsnachweis.
 - **Q12:** [Bayerischer Landtag, Bericht zum Oktoberfestattentat, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/) – amtlicher Bericht über 29 BLKA-Spurenakten und differenzierte Aktenzugänge.
+- **Q13:** [BT-Drs. 20/358, 30.12.2021](https://dserver.bundestag.de/btd/20/003/2000358.pdf) – amtliche Liste beigezogener Unterlagen verschiedener Dienste und Archive; Rückgabe-/Verwahrungsstatus Ende 2021, nicht aktueller Bestand.
 
 **Wichtig:** Der Aktenfund, dass eine Behörde bestimmte Informationen besaß oder eine Behauptung aufstellte, belegt zunächst diesen Akteninhalt. Ob Meldungen zutrafen und kausal an einem Anschlag beteiligt waren, bleibt eigenständiger Forschungsgegenstand.
