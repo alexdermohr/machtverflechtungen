@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -739,12 +739,16 @@ claims:
     text: "Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann."
     classification: "fact"
     evidence_level: "established"
-    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980"]
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980"]
     evidence:
       - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
         directness: "direct"
         locator: "BArch MfS HA III Nr. 7729, Mediathek-Blattseite 150, Abschnitt 1.2, Uhrzeiten 14:10 und 18:00"
         note: "Das archivierte Berichtstranskript nennt die Verfahrensübernahme um 14:10 Uhr und die vom GBA bundeseinheitlich festgesetzte Durchsuchung ab 18:00 Uhr am Folgetag des Anschlags."
+      - source: "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980"
+        directness: "direct"
+        locator: "BArch B 141/68772, Image 0643, Soko-Zwischenbericht Seite 1, Ermittlungsführung"
+        note: "Das im Bundesarchiv publizierte zeitgenössische Original des westdeutschen Soko-Zwischenberichts nennt unabhängig vom MfS-Archivierungsweg die GBA-Übernahme am 27.09.1980 um 14.10 Uhr. Inhaltliche Abhängigkeit der MfS-Abschrift von diesem oder einer verwandten Berichtsvorlage bleibt möglich."
     counterevidence: []
     alternatives: ["Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus."]
     missing_evidence: ["GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie."]
@@ -786,7 +790,34 @@ claims:
       supports: "Einen dokumentierten negativen Zwischenstand zur konkret gesuchten WSG-Mittäterschaft und eine wichtige Gegenprobe zum schnellen Schluss aus den beschlagnahmten Gegenständen."
       does_not_support: "Keine endgültige Widerlegung einer Tatbeteiligung aller WSG-Mitglieder oder anderer Personen und keine Beurteilung nach Abschluss späterer Ermittlungen."
     falsification: "Ein archivisches BKA-Original mit abweichender Aussage oder später authentisch nachgewiesene Tatbeteiligung würde die Bedeutung dieses Zwischenstands verändern."
+  - id: "CLM-DE-OKT-045"
+    text: "Der im Bundesarchiv abgebildete zeitgenössische Zwischenbericht der Soko Theresienwiese nennt für die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 14:10 Uhr, übereinstimmend mit der in MfS HA III Nr. 7729 überlieferten Uhrzeit; eine spätere amtliche Chronologie der Bayerischen Polizei nennt dagegen 11 Uhr."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"]
+    evidence:
+      - source: "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980"
+        directness: "direct"
+        locator: "BArch B 141/68772, Image 0643, Faksimile Zwischenbericht Soko Theresienwiese Seite 1, Ermittlungsführung"
+        note: "Der fotografierte westdeutsche Soko-Zwischenbericht berichtet, dass die zuvor bei der Staatsanwaltschaft München I anhängige Sache am 27.09.1980 um 14.10 Uhr durch den GBA übernommen wurde. Original des Zwischendokuments angesehen, nicht die ursprüngliche unterschriebene GBA-Verfügung."
+      - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
+        directness: "context"
+        locator: "MfS HA III Nr. 7729, Stasi-Mediathek digitale Blattseite 150, Abschnitt 1.2"
+        note: "Der im MfS-Archiv wiedergegebene westdeutsche Bericht nennt ebenfalls die Ermittlungsübernahme um 14:10 Uhr und die erneuerte Durchsuchungsanordnung. Die Urschriften können dieselbe Informationskette wiedergeben; keine unabhängige Doppelbestätigung für den Rechtsakt behaupten."
+      - source: "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"
+        directness: "direct"
+        locator: "Bayerische Polizei, geschichtlicher Rückblick Oktoberfestattentat, Absatz Ermittlungen"
+        note: "Spätere amtliche Internetdarstellung nennt für die GBA-Verfahrensübernahme am 27.09.1980 11 Uhr und steht somit jedenfalls im Wortlaut im Widerspruch zu den beiden archivierten 14:10-Angaben."
+    counterevidence: []
+    alternatives: ["11 Uhr könnte den Entschluss oder die erste Zuständigkeitszusage und 14:10 Uhr die formale Akten- und Verfahrensübernahme bezeichnen; ebenso möglich sind ein Versehen der retrospektiven Darstellung oder ein Fehler in einem zeitgenössischen Protokoll. Das Historische Lexikon Bayerns nennt ebenfalls 11 Uhr, doch seine unabhängige Entstehung ist ungeklärt."]
+    missing_evidence: ["Originale unterschriebene GBA-Übernahmeverfügung vom 27.09.1980 mit Registratur- und Eingangsstempeln, Abgabevermerk der StA München I, chronologische BLKA-/BKA-Einsatzvermerke sowie die vollständige Soko-Originalakte B 141/68772 um Image 0643."]
+    scope:
+      supports: "Eine zeitgenössisch und sekundäramtlich dokumentierte konkrete Divergenz zum Zeitpunkt der GBA-Verfahrensübernahme und eine nachvollziehbare Originalakten-Konkordanz."
+      does_not_support: "Keinen Nachweis bewusster Zeitmanipulation, einer Beeinflussung der Strafverfolgung, geheimdienstlicher Vorabkenntnis oder einer gesicherten Ursache der abweichenden 11-Uhr-Darstellung."
+    falsification: "Der datierte originale GBA-Übernahmevermerk und die zeitgleiche StA-Abgabe-/Soko-Aktenchronologie könnten 11 Uhr und 14:10 Uhr unterschiedlichen behördlichen Handlungen zuordnen oder eine der publizierten Zeiten als fehlerhaft erweisen."
 what_follows:
+  - text: "Der originale Soko-Zwischenbericht im Bundesarchiv und die MfS-Abschrift nennen den GBA-Übernahmezeitpunkt 14:10 Uhr, während eine spätere offizielle Polizeichronologie 11 Uhr angibt."
+    claim_ids: ["CLM-DE-OKT-042", "CLM-DE-OKT-045"]
   - text: "Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung."
     claim_ids: ["CLM-DE-OKT-041", "CLM-DE-OKT-042", "CLM-DE-OKT-043", "CLM-DE-OKT-044"]
   - text: "Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven."
@@ -806,6 +837,8 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen."
+    claim_ids: ["CLM-DE-OKT-045"]
   - text: "Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat."
     claim_ids: ["CLM-DE-OKT-041", "CLM-DE-OKT-043"]
   - text: "Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten."
@@ -931,6 +964,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
+- Der originale Soko-Zwischenbericht im Bundesarchiv und die MfS-Abschrift nennen den GBA-Übernahmezeitpunkt 14:10 Uhr, während eine spätere offizielle Polizeichronologie 11 Uhr angibt.
 - Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung.
 - Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven.
 - Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv.
@@ -943,6 +977,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt nicht?
 
+- Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen.
 - Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat.
 - Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
 - Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980.
@@ -1380,8 +1415,9 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 
 **Aussage:** Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann.
 
-**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Mediathek-Blattseite 150, Abschnitt 1.2, Uhrzeiten 14:10 und 18:00](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/).
+**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Blattseite 150, Uhrzeiten 14:10 und 18:00](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/) und [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – BArch B 141/68772, Image 0643, Soko-Zwischenbericht Seite 1, 14:10 Uhr](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/).
 
+- **Originalkonkordanz:** [SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/) ist das abgebildete westdeutsche Original des Soko-Zwischenberichts (BArch B 141/68772, Image 0643) und nennt ebenfalls 14:10 Uhr. Die MfS-Überlieferung kann davon abhängig sein.
 - **Archivbefund:** Das archivierte Berichtstranskript nennt die Verfahrensübernahme um 14:10 Uhr und die vom GBA bundeseinheitlich festgesetzte Durchsuchung ab 18:00 Uhr am Folgetag des Anschlags.
 - **Alternative/Gegenprobe:** Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus.
 - **Zu beschaffen:** GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie.
@@ -1415,6 +1451,19 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Aussagegrenze:** Keine endgültige Widerlegung einer Tatbeteiligung aller WSG-Mitglieder oder anderer Personen und keine Beurteilung nach Abschluss späterer Ermittlungen.
 - **Falsifikationskriterium:** Ein archivisches BKA-Original mit abweichender Aussage oder später authentisch nachgewiesene Tatbeteiligung würde die Bedeutung dieses Zwischenstands verändern.
 
+### `CLM-DE-OKT-045`
+
+**Aussage:** Der im Bundesarchiv abgebildete zeitgenössische Zwischenbericht der Soko Theresienwiese nennt für die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 14:10 Uhr, übereinstimmend mit der in MfS HA III Nr. 7729 überlieferten Uhrzeit; eine spätere amtliche Chronologie der Bayerischen Polizei nennt dagegen 11 Uhr.
+
+**Evidenz:** belegt; [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – BArch B 141/68772, Image 0643](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/), [`SRC-DE-BARCH-MFS-HAIII7729-1980` – Blatt 150](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/) und [`SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025` – spätere Polizeichronologie](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html).
+
+- **Archivbefund:** Der fotografierte westdeutsche Soko-Bericht und die MfS-Abschrift nennen beide die Übernahme um 14:10 Uhr; die spätere Polizeidarstellung nennt 11 Uhr.
+- **Alternative:** Es kann sich um unterschiedliche Rechts-/Kommunikationsschritte, einen retrospektiven Fehler oder eine fehlerhafte zeitgenössische Angabe handeln. Die beiden 14:10-Texte sind nicht als unabhängige Urschriften bewiesen.
+- **Zu beschaffen:** Ursprüngliche GBA-Übernahmeverfügung und Eingangsstempel, Abgabevermerk StA München I, Soko-Geschäftsbuch und vollständiger Zwischenbericht B 141/68772.
+- **Tragweite:** Dokumentierter chronologischer Widerspruch, der an konkreten Akten falsifiziert werden kann.
+- **Aussagegrenze:** Weder manipulierte Ermittlungen noch geheimdienstliches Vorwissen oder staatliche Tatbeteiligung sind aus der Uhrzeitdifferenz nachgewiesen.
+- **Falsifikationskriterium:** Eine originale Zuständigkeitsverfügung oder eine minutengenaue Behördenchronologie kann belegen, dass 11 Uhr und 14:10 Uhr unterschiedliche Schritte meinen oder eine Darstellung irrt.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1430,3 +1479,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BT-OKT-200358-2021` – BT-Drs. 20/358, Aktenanforderungen und Aktenrückgaben, 30.12.2021](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
 - [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
 - [`SRC-DE-BARCH-MFS-HAIII7729-1980` – MfS HA III 7729: abgeschriebene LKA-/BKA-Ermittlungsberichte, 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
+- [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – Soko-Zwischenbericht September 1980, BArch B 141/68772, Image 0643](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
+## Amtliche Sekundär- und Gegenquellen
+
+- [`SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025` – Bayerische Polizei, retrospektive GBA-Verfahrensübernahme um 11 Uhr](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
