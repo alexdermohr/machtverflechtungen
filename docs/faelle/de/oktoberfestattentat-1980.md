@@ -859,11 +859,20 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
-- Die Ermittlungsbewertung des politischen Motivs änderte sich 2020 grundlegend gegenüber dem älteren Abschluss; die staatliche Quellenlage zum Attentat kann mit zeitgenössischen Akten verglichen werden.
+- Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven.
+- Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv.
+- Die 2015er Oktoberfest-Wiederaufnahme führte zu zwei amtlich datierten Beiziehungen von Ermittlungsunterlagen aus dem getrennten Erlanger Doppelmordkomplex.
+- Die Bundesregierung dokumentierte eine weitere BND-Aktenübergabe unter B 206/3009 im Juni 2016 mit Bezügen zur WSG Hoffmann im Libanon.
+- Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung.
+- Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten.
+- Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch.
 - Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag.
 
 ## Was folgt nicht?
 
+- Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
+- Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980.
+- Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung.
 - Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung.
 
 ## Offene Akten- und Prüfpfade
