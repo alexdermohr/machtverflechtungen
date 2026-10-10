@@ -15,17 +15,21 @@ mechanisms: ["paramilitary-network", "intelligence-network"]
 sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009"]
 claims:
   - id: "CLM-DE-OKT-001"
-    text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte 221 weitere Menschen."
+    text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
     classification: "fact"
     evidence_level: "strong"
-    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025"]
+    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BVERFG-OKT-2017"]
     evidence:
       - source: "SRC-DE-BARCH-OKTOBERFEST-2025"
-        directness: "direct"
-        note: "Das Bundesarchiv rekonstruiert Datum, Todesopferzahl und Zahl der Verletzten aus den dort erschlossenen Ermittlungsbeständen."
+        directness: "context"
+        note: "Das Bundesarchiv nennt im Einstieg 13 Tote, die Detailpassage lässt aber sprachlich 13 Besucher plus Attentäter vermuten; 2025 nennt es 221 Verletzte. Der Befund zur Gesamtzahl Tote wird deshalb mit dem gerichtlichen Wortlaut abgesichert."
         locator: "Das Attentat"
+      - source: "SRC-DE-BVERFG-OKT-2017"
+        directness: "direct"
+        locator: "Rn. 2"
+        note: "Das Bundesverfassungsgericht beschreibt 12 Todesopfer neben Attentäter Köhler, mithin 13 Tote insgesamt, und nennt für die Verletzten 211. Beide amtlichen Zählungen belegen mehr als 200 Verletzte."
     counterevidence: []
-    alternatives: ["Die Opferzahlen wurden historisch teils abweichend geführt; diese Zahl folgt der jüngeren Bundesarchiv-Rekonstruktion."]
+    alternatives: ["Der Bundesarchiv-Artikel ist bei der Todesopferzahl in seiner Detailformulierung missverständlich; das Bundesverfassungsgericht nennt dagegen ausdrücklich 12 Getötete neben Köhler. Die Verletztenzahlen differieren (Bundesarchiv 221, Gericht 211)."]
     missing_evidence: ["Zahlengenaue Feststellung anhand des originalen Soko-Schlussberichtes und gegebenenfalls späterer Opferstatistiken."]
     scope:
       supports: "Das amtlich rekonstruierte Ausmaß des Attentats."
@@ -479,7 +483,7 @@ Das Oktoberfestattentat ist ein dokumentierter Fall rechtsterroristischer Gewalt
 
 ## Gesicherter Ereigniskern
 
-- **`CLM-DE-OKT-001` — stark gestützt:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte 221 weitere Menschen.
+- **`CLM-DE-OKT-001` — stark gestützt:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen.
 - **`CLM-DE-OKT-002` — stark gestützt:** Das Bundesarchiv dokumentiert, dass Gundolf Köhler in den 1970er Jahren Kontakte zur Wehrsportgruppe Hoffmann unterhielt und an zwei ihrer Übungen teilnahm.
 - **`CLM-DE-OKT-003` — belegt:** Die Bundesregierung berichtete 2020, der Generalbundesanwalt habe das Oktoberfestattentat in seiner Einstellungsverfügung vom 6. Juli 2020 als rechtsextremistische Tat bewertet.
 - **`CLM-DE-OKT-005` — belegt:** Ein MfS-Bericht von September 1980 schildert die Verfassungsschutz-Observation der Wehrsportgruppe Hoffmann in der Nacht zum 26. September unter dem Namen „Aktion Wandervogel“ und vermutet Vorwissen über geplante WSG-Handlungen.
@@ -499,12 +503,13 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ### `CLM-DE-OKT-001`
 
-**Aussage:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte 221 weitere Menschen.
+**Aussage:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen.
 
 **Typ:** fact · **Evidenz:** stark gestützt
 
-- **Stütze `SRC-DE-BARCH-OKTOBERFEST-2025` (direct):** Das Bundesarchiv rekonstruiert Datum, Todesopferzahl und Zahl der Verletzten aus den dort erschlossenen Ermittlungsbeständen. Fundstelle: Das Attentat.
-- **Alternative:** Die Opferzahlen wurden historisch teils abweichend geführt; diese Zahl folgt der jüngeren Bundesarchiv-Rekonstruktion.
+- **Stütze `SRC-DE-BVERFG-OKT-2017` (direct):** Das Gericht nennt 12 Getötete neben Köhler; zusammen 13 Todesopfer. Fundstelle: Rn. 2.
+- **Kontext `SRC-DE-BARCH-OKTOBERFEST-2025`:** Die Übersichtsseite nennt 13 Todesopfer, ist in ihrer Detailpassage missverständlich; die Zahl der Verletzten weicht zwischen Gericht (211) und Bundesarchiv (221) ab.
+- **Alternative:** Die amtlichen Quellen differieren bei der Zahl der Verletzten und in der sprachlichen Darstellung der Todesopfer. Deshalb wird nur die gemeinsame, gesicherte Spanne „mehr als 200“ behauptet.
 - **Beweislücke:** Zahlengenaue Feststellung anhand des originalen Soko-Schlussberichtes und gegebenenfalls späterer Opferstatistiken.
 - **Tragweite:** Das amtlich rekonstruierte Ausmaß des Attentats.
 - **Grenze:** Keine Schlussfolgerung zu Mittätern, Auftraggebern oder Diensten.

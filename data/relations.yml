@@ -720,10 +720,7 @@ relations:
     from: "ORG-DE-LFV-HESSEN"
     to: "CASE-DE-NSU-YOZGAT-2006"
     type: "withheld_witness_authorization"
-    label: "verweigerte Aussagegenehmigungen für V-Personen bei Mordermittlungen"
-    period:
-      start: "2006"
-      end: "2007"
+    label: "verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen"
     evidence_level: "established"
     sources: ["SRC-DE-BT-NSU-YOZGAT-2016"]
     claim_ids: ["CLM-DE-YOZ-002"]

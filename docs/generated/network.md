@@ -148,7 +148,7 @@ flowchart LR
     N_ORG_DE_LFV_HESSEN["Landesamt für Verfassungsschutz Hessen"]
     N_PER_DE_ANDREAS_TEMME -->|"war Mitarbeiter und V-Mann-Führer"| N_ORG_DE_LFV_HESSEN
     N_CASE_DE_NSU_YOZGAT_2006["NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen"]
-    N_ORG_DE_LFV_HESSEN -->|"verweigerte Aussagegenehmigungen für V-Personen bei Mordermittlungen"| N_CASE_DE_NSU_YOZGAT_2006
+    N_ORG_DE_LFV_HESSEN -->|"verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen"| N_CASE_DE_NSU_YOZGAT_2006
 ```
 
 ## Relationen
@@ -230,4 +230,4 @@ flowchart LR
 | REL-DE-OKT-001 | Gundolf Köhler | Briefkontakt ab 1976 und zwei Übungen; kein bis 1980 reichender Kontakt belegt | Wehrsportgruppe Hoffmann | strong | SRC-DE-BARCH-OKTOBERFEST-2025, SRC-DE-BT-OKT-183259-2014 |
 | REL-DE-NSU-AKT-001 | Bundesamt für Verfassungsschutz | vernichtete nach der NSU-Aufdeckung mehrere V-Mann-Akten | NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011 | established | SRC-DE-BT-NSU-LINGEN-2017 |
 | REL-DE-NSU-YOZ-001 | Andreas Temme | war Mitarbeiter und V-Mann-Führer | Landesamt für Verfassungsschutz Hessen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
-| REL-DE-NSU-YOZ-002 | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen bei Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
+| REL-DE-NSU-YOZ-002 | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
