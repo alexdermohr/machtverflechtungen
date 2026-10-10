@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -815,7 +815,133 @@ claims:
       supports: "Eine zeitgenössisch und sekundäramtlich dokumentierte konkrete Divergenz zum Zeitpunkt der GBA-Verfahrensübernahme und eine nachvollziehbare Originalakten-Konkordanz."
       does_not_support: "Keinen Nachweis bewusster Zeitmanipulation, einer Beeinflussung der Strafverfolgung, geheimdienstlicher Vorabkenntnis oder einer gesicherten Ursache der abweichenden 11-Uhr-Darstellung."
     falsification: "Der datierte originale GBA-Übernahmevermerk und die zeitgleiche StA-Abgabe-/Soko-Aktenchronologie könnten 11 Uhr und 14:10 Uhr unterschiedlichen behördlichen Handlungen zuordnen oder eine der publizierten Zeiten als fehlerhaft erweisen."
+  - id: "CLM-DE-OKT-046"
+    text: "Die bayerische Staatsregierung zitierte 2023 ein BayLfV-Schreiben vom 26. Februar 1981 an das Bundesamt für Verfassungsschutz mit einer C/3-Information über beobachtete Metallrohrarbeiten im Schloss Ermreuth am 13. Dezember 1980; der Zeitpunkt der ursprünglichen Kenntniserlangung beim BayLfV und der ursprüngliche Quellenbericht sind nach Regierungsangaben nicht mehr rekonstruierbar."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023","SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 3–4, Fragen 1a–1c, 2a: wörtlicher C/3-Auszug 26.02.1981 und explizit unbekannter Ersteingang"
+        note: "Die Ministerialantwort gibt einen ursprünglichen Informationsauszug wieder: bei Hoffmann habe die Quelle am 13.12.1980 Arbeiten an Rohren unter Beteiligung von Birkmann und Behrendt beobachtet. Das erstmalige BayLfV-Eingangsdatum ist nicht rekonstruierbar."
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Fragen 1.1–1.2: noch vorhandenes BayLfV→BfV-Schreiben 26.02.1981"
+        note: "Zweite amtliche Antwort bestätigt 26.02.1981 als datierte Weitergabe des Berichtsinhalts, verneint aber Rekonstruierbarkeit der ursprünglichen Quellenübermittlung."
+    counterevidence: []
+    alternatives: ["Die Quelle kann erst nach dem Erlanger Doppelmord informiert haben, oder ihr berichteter Vorgang kann vorher mit ungesichertem Eingang erhoben worden sein. Eine 1981 datierte Auswertung ist kein Beleg für eine Vorabwarnung."]
+    missing_evidence: ["Original des undatierten Quellenberichts, BayLfV-Eingangsbuch und erste Sachakte zur C/3-Meldung, volles Schreiben 26.02.1981 samt Bearbeiter-/Verteiler-/Quellenschutzvermerken, StA-/Gerichtsurteil und Presseanlage."]
+    scope:
+      supports: "Die amtliche Wiedergabe eines konkreten C/3-Nachrichteninhalts und die dokumentierte BfV-Weitergabe des BayLfV im Februar 1981."
+      does_not_support: "Keine authentische Urschrift des erstmaligen Quellenberichts, keinen belegten Eingang vor dem Mord am 19.12.1980, keine gesicherte Herstellung des Tat-Schalldämpfers oder spezifisches Vorwissen über den Oktoberfestanschlag."
+    falsification: "Datierte Eingangs- und Originalquellenvermerke des BayLfV sowie Gerichtsakten können den Anfang der Informationskette und die materielle Übereinstimmung der Rohre anders datieren oder einordnen."
+  - id: "CLM-DE-OKT-047"
+    text: "Nach bayerischen Regierungsantworten ging die Information aus dem BayLfV-Quellenbericht mit Schreiben vom 12. März 1981 an die Polizeidirektion Erlangen/BLKA-Soko; auf Bitte der Soko wurde die Quelle am 31. März 1981 erneut befragt, und das BayLfV übermittelte das Befragungsergebnis am 22. April 1981 an das BLKA."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023","SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 4–6, Antworten 1a–1c und 4a–4c: Schreiben 12.03.1981, erneute Quellenbefragung 31.03., Ergebnis 22.04.1981"
+        note: "Amtliche Chronologie mit behördlichem Empfänger Polizei/Erlangen und BLKA-Soko; die Nachbefragung geschah auf Bitte der BLKA-Sonderkommission."
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Fragen 1.1/1.2: 12.03.1981 und 22.04.1981"
+        note: "Bestätigt die nachträgliche polizeiliche Aktenübermittlung und bezeichnet Ursprungsdatum der Quelleneingabe als nicht rekonstruierbar."
+    counterevidence: []
+    alternatives: ["Eine Übermittlung erst 1981 kann normale nachträgliche Ermittlung nach dem am 19.12.1980 begangenen Doppelmord sein, wenn die Quelle selbst erst später meldete; ohne ursprünglichen Eingangsstempel sind eine verzögerte Weiterleitung und eine zeitgerechte Weitergabe gleichermaßen offen."]
+    missing_evidence: ["BayLfV-Abgang 12.03.1981, Eingangsstempel Erlangen/BLKA, Bitte der Soko zur Nachbefragung, Niederschrift 31.03.1981, BayLfV-Schreiben 22.04.1981 und vollständige Soko-Auswertung."]
+    scope:
+      supports: "Drei zeitlich und institutionell getrennte staatliche Bearbeitungsschritte im Frühjahr 1981 nach dem Erlanger Doppelmord."
+      does_not_support: "Keinen Nachweis über eine zeitnahe oder unterlassene Warnung VOR dem 19.12.1980, eine bewusst verspätete Übermittlung oder operative Verbindung zum Oktoberfestanschlag vom 26.09.1980."
+    falsification: "Originale Dienstpost- und Soko-Eingangsvermerke können die genannten Bearbeitungstage, Inhalte oder den Umfang einer vorangegangenen Mitteilung präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-048"
+    text: "Die bayerische Staatsregierung teilte 2023 als forensischen und gerichtlichen Gegenbefund mit, dass die erneut befragte BayLfV-Quelle eine vorgezeigte Spraydose nicht mit ihrem am 13. Dezember 1980 gesehenen Behälter gleichsetzte und das Gericht im Verfahren gegen Karl-Heinz Hoffmann die Beobachtungen der Quelle nicht mit den kriminaltechnischen Erkenntnissen zum beim Erlanger Doppelmord verwendeten Schalldämpfer in Einklang bringen konnte."
+    classification: "counterevidence"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, Urteil 340 Js 40387/81"
+        note: "Der Regierung zufolge wurden am Tatort Reste eines aus einer Spraydose hergestellten Schalldämpfers gesehen, die Quelle verneinte Vergleichbarkeit bei der Nachbefragung, das Gericht würdigte den Bericht und sah keine technische Übereinstimmung."
+    counterevidence: []
+    alternatives: ["Die Quelle könnte einen anderen Gegenstand, einen anderen Prototyp oder einen unvollständigen Teil gesehen haben. Der negative Vergleich widerlegt nicht jeden möglichen Zusammenhang zwischen denselben Personen, ist aber ein wesentlicher Gegenbeleg für die Behauptung, das gezeigte Rohr sei das beim Mord benutzte Bauteil."]
+    missing_evidence: ["Original BLKA-Sachstandsbericht 18.03.1981, StA-Bericht 31.03.1981, Vernehmung 31.03.1981, kriminaltechnische Gutachten, vollständiges Urteil LG Nürnberg-Fürth und Protokoll der mündlichen Beweiswürdigung."]
+    scope:
+      supports: "Die amtlich dokumentierte negative Vergleichsaussage und die mitgeteilte gerichtliche Würdigung der Differenz zwischen Quellenbeobachtung und Tatmittel."
+      does_not_support: "Keinen direkten Einblick in das 1986er Urteil oder die Sachverständigengutachten und weder vollständige Entlastung der Beteiligten noch einen positiven Tatmaterialvergleich."
+    falsification: "Originäre Sachverständigenberichte oder ein vollständig geprüftes Urteil mit anderer forensischer Aussage könnten den behördlich mitgeteilten Negativbefund verändern."
+  - id: "CLM-DE-OKT-049"
+    text: "Nach Angaben der bayerischen Staatsregierung übergab das BayLfV 2020/2021 sämtliche damals noch vorhandenen WSG-Hoffmann-Altakten aus den späten 1970er- und frühen 1980er-Jahren an das Verschlusssachenarchiv im Bayerischen Hauptstaatsarchiv; ob davor seit den 1970er-Jahren als entbehrlich eingeordnetes Schriftgut vernichtet wurde, lasse sich nicht rekonstruieren."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023","SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023","SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 3, ministerielle Vorbemerkung: Übergabe aller noch vorhandenen WSG-Altakten 2020/2021"
+        note: "Die Staatsregierung beschränkt die Vollständigkeitsbeschreibung ausdrücklich auf bei Abgabe noch vorhandene Altakten und nennt die Vorketten der Aktenvernichtung nicht mehr rekonstruierbar."
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Vorbemerkung, BayStMI 13.10.2023"
+        note: "Wiederholt Altakten-Übergabe 2020/2021 an BayHStA-VS-Archiv und das Nichtwissen über frühere Aussonderung/Vernichtung."
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"
+        directness: "direct"
+        locator: "Gedruckte S. 4, Fragen 2.1–5, Antwort BayStMI 29.07.2025"
+        note: "2025er Antwort bestätigt, dass sämtliche damals noch vorhandenen WSG-Altakten bereits in den Jahren 2020/2021 an das BayHStA abgegeben wurden."
+    counterevidence: []
+    alternatives: ["Aktenvernichtung vor 2020 kann gesetzmäßige routinemäßige Aktenaussonderung, Löschung oder ein nicht dokumentiertes Ereignis betreffen; der Wissensmangel allein trägt weder die Behauptung gezielter Tataktenvernichtung noch die Unschuldsvermutung für jeden Einzelvorgang."]
+    missing_evidence: ["BayLfV-Aussonderungs-, VS-Archiv- und Benutzungsregister, BayHStA-Übernahmeprotokolle 2020/2021, aktuelle Findbücher einschließlich Schutzfristen, frühere Anforderungs- und Vernichtungsvorschriften."]
+    scope:
+      supports: "Eine amtlich bestätigte Transfer- und Archivverwahrungskette und eine explizite Lücke bei der früheren Aktenvollständigkeit."
+      does_not_support: "Nicht die Vollständigkeit aller jemals geführten BayLfV-WSG-Akten und keinen konkreten nachgewiesenen vorsätzlichen Vernichtungsakt zum Oktoberfest oder Erlanger Mord."
+    falsification: "Die Übernahmeprotokolle, Archivzugangsregister und frühere Vernichtungsnachweise können die Anzahl, Schicksale und materiellen Leerstellen konkretisieren."
+  - id: "CLM-DE-OKT-050"
+    text: "Die bayerische Staatsregierung erklärte 2025, die damalige BayLfV-Dienstvorschrift zur Auswertung vom 20. September 1978 sei als VS-Vertraulich eingestuft und enthalte keine Frist, binnen derer menschliche Quellen ihre Erkenntnisse an das BayLfV übermitteln müssen."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023","SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 2–3, Frage 1.3: BayLfV-Dienstvorschrift für die Auswertung 20.09.1978"
+        note: "Die ältere Antwort benennt das Regelwerk und dessen allgemeine Prüfung und Weitergabepflichten sowie Quellenschutzvorgaben, ohne die hier konkret angefragte Frist festzustellen."
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"
+        directness: "direct"
+        locator: "Gedruckte S. 3, Frage 1 und ministerielle Antwort vom 29.07.2025"
+        note: "Die 2025er Antwort bezeichnet den Verschlusssachengrad VS-Vertraulich und sagt ausdrücklich, dem Regelwerk sei eine Frist für die Übermittlung von Erkenntnissen durch Quellen an das BayLfV nicht zu entnehmen."
+    counterevidence: []
+    alternatives: ["Fehlende starre Frist Quelle→BayLfV bedeutet nicht, dass Bearbeitungspflichten BayLfV→Strafverfolger entfielen; ein anderes Dienstregelwerk könnte andere Eingangs- oder Bearbeitungsfristen enthalten."]
+    missing_evidence: ["Authentischer Wortlaut der VS-Vertraulich-Dienstvorschrift von 1978, damalige Richtlinien zur Nachrichtengewinnung und behördenübergreifenden Zusammenarbeit sowie dokumentierte Eingangsklassifizierung des Lippert-Vorgangs."]
+    scope:
+      supports: "Eine präzise begrenzte amtliche Negativauskunft zu einer Frist der Meldung von menschlichen Quellen an das BayLfV."
+      does_not_support: "Keine Aussage, ob Lippert tatsächlich zügig berichtete, ob das BayLfV rechtzeitig reagierte oder ob für die BayLfV-Weitergabe an Polizei/BfV andere Fristen galten."
+    falsification: "Der authentische damalige Vorschriftentext oder ergänzende verbindliche Erlasse mit konkreter Quelle-zu-Amt-Meldefrist würden die amtliche Antwort präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-051"
+    text: "Die bayerische Staatsregierung beschrieb 2023 für die Erlanger Doppelmord-Ermittlungsakten eine Archivkette vom BLKA zum Bayerischen Hauptstaatsarchiv 2010, die Beiziehung durch die Oktoberfest-Soko 2015 unter GBA-Sachleitung und die Rückgabe der Originalakten über GBA und BLKA an das Bayerische Hauptstaatsarchiv 2021; die Akten seien dort grundsätzlich nach Art. 10 BayArchivG einsehbar."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"]
+    evidence:
+      - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023"
+        directness: "direct"
+        locator: "Gedruckte S. 3–4, Fragen 2.1–3.2: BLKA→BayHStA 2010, Soko/GBA-Beiziehung 2015, GBA→BLKA→BayHStA 2021, Archivbenutzung Art. 10"
+        note: "Die Antwort nennt die ursprüngliche BLKA-Aktenführung, Archivübernahme 2010, Beiziehung 2015, verwahrungsrechtliche Kette und Rückführung 2021 sowie grundsätzliche Einsicht unter bayerischem Archivrecht."
+    counterevidence: []
+    alternatives: ["Die staatliche Aussage über Rückführung und grundsätzliche Einsicht sagt nichts über heutige Einzelblattvollständigkeit, Verfügbarkeit von VS-Teilen oder ob der GBA dauerhafte Kopien und Beiakten verwahrt."]
+    missing_evidence: ["BayHStA-Aktenbestands-/Signaturenverzeichnis Erlanger Mordkomplex, Aktenausgabe 2015, GBA-Rückgabeprotokoll 2021, Archivzugangsbescheid und etwaige Schutzfristen/VS-Sperren."]
+    scope:
+      supports: "Eine amtlich datierte Archiv- und Aktenbeiziehungskette sowie einen realistisch benennbaren Aktenbenutzungsweg."
+      does_not_support: "Weder die Vollständigkeit und uneingeschränkte Offenheit aller historischen Akten noch ein belegter gemeinsamer Tatkomplex mit dem Oktoberfestanschlag."
+    falsification: "Originale Übergabeprotokolle, Archivsignaturen und Benutzungsauskunft können die Datierung, heutigen Ort und etwaige Einschränkungen konkretisieren."
 what_follows:
+  - text: "Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar."
+    claim_ids: ["CLM-DE-OKT-046", "CLM-DE-OKT-047", "CLM-DE-OKT-050"]
+  - text: "Überlebende WSG-Akten wurden 2020/2021 im BayHStA-VS-Archiv verwahrt, die Erlanger Original-Ermittlungsakten gingen nach der Oktoberfest-Wiederaufnahme 2021 an das BayHStA zurück; die frühere Vollständigkeit bleibt offen."
+    claim_ids: ["CLM-DE-OKT-049", "CLM-DE-OKT-051"]
   - text: "Der originale Soko-Zwischenbericht im Bundesarchiv und die MfS-Abschrift nennen den GBA-Übernahmezeitpunkt 14:10 Uhr, während eine spätere offizielle Polizeichronologie 11 Uhr angibt."
     claim_ids: ["CLM-DE-OKT-042", "CLM-DE-OKT-045"]
   - text: "Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung."
@@ -837,6 +963,10 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung."
+    claim_ids: ["CLM-DE-OKT-046", "CLM-DE-OKT-048"]
+  - text: "Die aus dem BayLfV nicht rekonstruierbare Erstmeldung und mögliche Voraktenverluste beweisen keine bewusst unterlassene Warnung, keinen konkreten Aktenvernichtungsakt und keine gemeinsame Planung der Erlanger Morde und des Oktoberfestattentats."
+    claim_ids: ["CLM-DE-OKT-046", "CLM-DE-OKT-047", "CLM-DE-OKT-049", "CLM-DE-OKT-051"]
   - text: "Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen."
     claim_ids: ["CLM-DE-OKT-045"]
   - text: "Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat."
@@ -964,6 +1094,8 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
+- Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar.
+- Überlebende WSG-Akten wurden 2020/2021 im BayHStA-VS-Archiv verwahrt, die Erlanger Original-Ermittlungsakten gingen nach der Oktoberfest-Wiederaufnahme 2021 an das BayHStA zurück; die frühere Vollständigkeit bleibt offen.
 - Der originale Soko-Zwischenbericht im Bundesarchiv und die MfS-Abschrift nennen den GBA-Übernahmezeitpunkt 14:10 Uhr, während eine spätere offizielle Polizeichronologie 11 Uhr angibt.
 - Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung.
 - Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven.
@@ -977,6 +1109,8 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt nicht?
 
+- Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung.
+- Die aus dem BayLfV nicht rekonstruierbare Erstmeldung und mögliche Voraktenverluste beweisen keine bewusst unterlassene Warnung, keinen konkreten Aktenvernichtungsakt und keine gemeinsame Planung der Erlanger Morde und des Oktoberfestattentats.
 - Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen.
 - Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat.
 - Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
@@ -1464,6 +1598,84 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Aussagegrenze:** Weder manipulierte Ermittlungen noch geheimdienstliches Vorwissen oder staatliche Tatbeteiligung sind aus der Uhrzeitdifferenz nachgewiesen.
 - **Falsifikationskriterium:** Eine originale Zuständigkeitsverfügung oder eine minutengenaue Behördenchronologie kann belegen, dass 11 Uhr und 14:10 Uhr unterschiedliche Schritte meinen oder eine Darstellung irrt.
 
+### `CLM-DE-OKT-046`
+
+**Aussage:** Die bayerische Staatsregierung zitierte 2023 ein BayLfV-Schreiben vom 26. Februar 1981 an das Bundesamt für Verfassungsschutz mit einer C/3-Information über beobachtete Metallrohrarbeiten im Schloss Ermreuth am 13. Dezember 1980; der Zeitpunkt der ursprünglichen Kenntniserlangung beim BayLfV und der ursprüngliche Quellenbericht sind nach Regierungsangaben nicht mehr rekonstruierbar.
+
+**Typ:** fact · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 3–4, Fragen 1a–1c, 2a: wörtlicher C/3-Auszug 26.02.1981 und explizit unbekannter Ersteingang](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf); [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Gedruckte S. 2, Fragen 1.1–1.2: noch vorhandenes BayLfV→BfV-Schreiben 26.02.1981](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf).
+
+- **Amtlicher Aktenbefund:** Die Ministerialantwort gibt einen ursprünglichen Informationsauszug wieder: bei Hoffmann habe die Quelle am 13.12.1980 Arbeiten an Rohren unter Beteiligung von Birkmann und Behrendt beobachtet. Das erstmalige BayLfV-Eingangsdatum ist nicht rekonstruierbar. Zweite amtliche Antwort bestätigt 26.02.1981 als datierte Weitergabe des Berichtsinhalts, verneint aber Rekonstruierbarkeit der ursprünglichen Quellenübermittlung.
+- **Alternative/Gegenprobe:** Die Quelle kann erst nach dem Erlanger Doppelmord informiert haben, oder ihr berichteter Vorgang kann vorher mit ungesichertem Eingang erhoben worden sein. Eine 1981 datierte Auswertung ist kein Beleg für eine Vorabwarnung.
+- **Zu beschaffen:** Original des undatierten Quellenberichts, BayLfV-Eingangsbuch und erste Sachakte zur C/3-Meldung, volles Schreiben 26.02.1981 samt Bearbeiter-/Verteiler-/Quellenschutzvermerken, StA-/Gerichtsurteil und Presseanlage.
+- **Tragweite:** Die amtliche Wiedergabe eines konkreten C/3-Nachrichteninhalts und die dokumentierte BfV-Weitergabe des BayLfV im Februar 1981.
+- **Aussagegrenze:** Keine authentische Urschrift des erstmaligen Quellenberichts, keinen belegten Eingang vor dem Mord am 19.12.1980, keine gesicherte Herstellung des Tat-Schalldämpfers oder spezifisches Vorwissen über den Oktoberfestanschlag.
+- **Falsifikationskriterium:** Datierte Eingangs- und Originalquellenvermerke des BayLfV sowie Gerichtsakten können den Anfang der Informationskette und die materielle Übereinstimmung der Rohre anders datieren oder einordnen.
+
+### `CLM-DE-OKT-047`
+
+**Aussage:** Nach bayerischen Regierungsantworten ging die Information aus dem BayLfV-Quellenbericht mit Schreiben vom 12. März 1981 an die Polizeidirektion Erlangen/BLKA-Soko; auf Bitte der Soko wurde die Quelle am 31. März 1981 erneut befragt, und das BayLfV übermittelte das Befragungsergebnis am 22. April 1981 an das BLKA.
+
+**Typ:** fact · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 4–6, Antworten 1a–1c und 4a–4c: Schreiben 12.03.1981, erneute Quellenbefragung 31.03., Ergebnis 22.04.1981](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf); [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Gedruckte S. 2, Fragen 1.1/1.2: 12.03.1981 und 22.04.1981](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf).
+
+- **Amtlicher Aktenbefund:** Amtliche Chronologie mit behördlichem Empfänger Polizei/Erlangen und BLKA-Soko; die Nachbefragung geschah auf Bitte der BLKA-Sonderkommission. Bestätigt die nachträgliche polizeiliche Aktenübermittlung und bezeichnet Ursprungsdatum der Quelleneingabe als nicht rekonstruierbar.
+- **Alternative/Gegenprobe:** Eine Übermittlung erst 1981 kann normale nachträgliche Ermittlung nach dem am 19.12.1980 begangenen Doppelmord sein, wenn die Quelle selbst erst später meldete; ohne ursprünglichen Eingangsstempel sind eine verzögerte Weiterleitung und eine zeitgerechte Weitergabe gleichermaßen offen.
+- **Zu beschaffen:** BayLfV-Abgang 12.03.1981, Eingangsstempel Erlangen/BLKA, Bitte der Soko zur Nachbefragung, Niederschrift 31.03.1981, BayLfV-Schreiben 22.04.1981 und vollständige Soko-Auswertung.
+- **Tragweite:** Drei zeitlich und institutionell getrennte staatliche Bearbeitungsschritte im Frühjahr 1981 nach dem Erlanger Doppelmord.
+- **Aussagegrenze:** Keinen Nachweis über eine zeitnahe oder unterlassene Warnung VOR dem 19.12.1980, eine bewusst verspätete Übermittlung oder operative Verbindung zum Oktoberfestanschlag vom 26.09.1980.
+- **Falsifikationskriterium:** Originale Dienstpost- und Soko-Eingangsvermerke können die genannten Bearbeitungstage, Inhalte oder den Umfang einer vorangegangenen Mitteilung präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-048`
+
+**Aussage:** Die bayerische Staatsregierung teilte 2023 als forensischen und gerichtlichen Gegenbefund mit, dass die erneut befragte BayLfV-Quelle eine vorgezeigte Spraydose nicht mit ihrem am 13. Dezember 1980 gesehenen Behälter gleichsetzte und das Gericht im Verfahren gegen Karl-Heinz Hoffmann die Beobachtungen der Quelle nicht mit den kriminaltechnischen Erkenntnissen zum beim Erlanger Doppelmord verwendeten Schalldämpfer in Einklang bringen konnte.
+
+**Typ:** counterevidence · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, Urteil 340 Js 40387/81](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf).
+
+- **Amtlicher Aktenbefund:** Der Regierung zufolge wurden am Tatort Reste eines aus einer Spraydose hergestellten Schalldämpfers gesehen, die Quelle verneinte Vergleichbarkeit bei der Nachbefragung, das Gericht würdigte den Bericht und sah keine technische Übereinstimmung.
+- **Alternative/Gegenprobe:** Die Quelle könnte einen anderen Gegenstand, einen anderen Prototyp oder einen unvollständigen Teil gesehen haben. Der negative Vergleich widerlegt nicht jeden möglichen Zusammenhang zwischen denselben Personen, ist aber ein wesentlicher Gegenbeleg für die Behauptung, das gezeigte Rohr sei das beim Mord benutzte Bauteil.
+- **Zu beschaffen:** Original BLKA-Sachstandsbericht 18.03.1981, StA-Bericht 31.03.1981, Vernehmung 31.03.1981, kriminaltechnische Gutachten, vollständiges Urteil LG Nürnberg-Fürth und Protokoll der mündlichen Beweiswürdigung.
+- **Tragweite:** Die amtlich dokumentierte negative Vergleichsaussage und die mitgeteilte gerichtliche Würdigung der Differenz zwischen Quellenbeobachtung und Tatmittel.
+- **Aussagegrenze:** Keinen direkten Einblick in das 1986er Urteil oder die Sachverständigengutachten und weder vollständige Entlastung der Beteiligten noch einen positiven Tatmaterialvergleich.
+- **Falsifikationskriterium:** Originäre Sachverständigenberichte oder ein vollständig geprüftes Urteil mit anderer forensischer Aussage könnten den behördlich mitgeteilten Negativbefund verändern.
+
+### `CLM-DE-OKT-049`
+
+**Aussage:** Nach Angaben der bayerischen Staatsregierung übergab das BayLfV 2020/2021 sämtliche damals noch vorhandenen WSG-Hoffmann-Altakten aus den späten 1970er- und frühen 1980er-Jahren an das Verschlusssachenarchiv im Bayerischen Hauptstaatsarchiv; ob davor seit den 1970er-Jahren als entbehrlich eingeordnetes Schriftgut vernichtet wurde, lasse sich nicht rekonstruieren.
+
+**Typ:** fact · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 3, ministerielle Vorbemerkung: Übergabe aller noch vorhandenen WSG-Altakten 2020/2021](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf); [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Gedruckte S. 2, Vorbemerkung, BayStMI 13.10.2023](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf); [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025` – Gedruckte S. 4, Fragen 2.1–5, Antwort BayStMI 29.07.2025](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf).
+
+- **Amtlicher Aktenbefund:** Die Staatsregierung beschränkt die Vollständigkeitsbeschreibung ausdrücklich auf bei Abgabe noch vorhandene Altakten und nennt die Vorketten der Aktenvernichtung nicht mehr rekonstruierbar. Wiederholt Altakten-Übergabe 2020/2021 an BayHStA-VS-Archiv und das Nichtwissen über frühere Aussonderung/Vernichtung. 2025er Antwort bestätigt, dass sämtliche damals noch vorhandenen WSG-Altakten bereits in den Jahren 2020/2021 an das BayHStA abgegeben wurden.
+- **Alternative/Gegenprobe:** Aktenvernichtung vor 2020 kann gesetzmäßige routinemäßige Aktenaussonderung, Löschung oder ein nicht dokumentiertes Ereignis betreffen; der Wissensmangel allein trägt weder die Behauptung gezielter Tataktenvernichtung noch die Unschuldsvermutung für jeden Einzelvorgang.
+- **Zu beschaffen:** BayLfV-Aussonderungs-, VS-Archiv- und Benutzungsregister, BayHStA-Übernahmeprotokolle 2020/2021, aktuelle Findbücher einschließlich Schutzfristen, frühere Anforderungs- und Vernichtungsvorschriften.
+- **Tragweite:** Eine amtlich bestätigte Transfer- und Archivverwahrungskette und eine explizite Lücke bei der früheren Aktenvollständigkeit.
+- **Aussagegrenze:** Nicht die Vollständigkeit aller jemals geführten BayLfV-WSG-Akten und keinen konkreten nachgewiesenen vorsätzlichen Vernichtungsakt zum Oktoberfest oder Erlanger Mord.
+- **Falsifikationskriterium:** Die Übernahmeprotokolle, Archivzugangsregister und frühere Vernichtungsnachweise können die Anzahl, Schicksale und materiellen Leerstellen konkretisieren.
+
+### `CLM-DE-OKT-050`
+
+**Aussage:** Die bayerische Staatsregierung erklärte 2025, die damalige BayLfV-Dienstvorschrift zur Auswertung vom 20. September 1978 sei als VS-Vertraulich eingestuft und enthalte keine Frist, binnen derer menschliche Quellen ihre Erkenntnisse an das BayLfV übermitteln müssen.
+
+**Typ:** fact · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Gedruckte S. 2–3, Frage 1.3: BayLfV-Dienstvorschrift für die Auswertung 20.09.1978](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf); [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025` – Gedruckte S. 3, Frage 1 und ministerielle Antwort vom 29.07.2025](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf).
+
+- **Amtlicher Aktenbefund:** Die ältere Antwort benennt das Regelwerk und dessen allgemeine Prüfung und Weitergabepflichten sowie Quellenschutzvorgaben, ohne die hier konkret angefragte Frist festzustellen. Die 2025er Antwort bezeichnet den Verschlusssachengrad VS-Vertraulich und sagt ausdrücklich, dem Regelwerk sei eine Frist für die Übermittlung von Erkenntnissen durch Quellen an das BayLfV nicht zu entnehmen.
+- **Alternative/Gegenprobe:** Fehlende starre Frist Quelle→BayLfV bedeutet nicht, dass Bearbeitungspflichten BayLfV→Strafverfolger entfielen; ein anderes Dienstregelwerk könnte andere Eingangs- oder Bearbeitungsfristen enthalten.
+- **Zu beschaffen:** Authentischer Wortlaut der VS-Vertraulich-Dienstvorschrift von 1978, damalige Richtlinien zur Nachrichtengewinnung und behördenübergreifenden Zusammenarbeit sowie dokumentierte Eingangsklassifizierung des Lippert-Vorgangs.
+- **Tragweite:** Eine präzise begrenzte amtliche Negativauskunft zu einer Frist der Meldung von menschlichen Quellen an das BayLfV.
+- **Aussagegrenze:** Keine Aussage, ob Lippert tatsächlich zügig berichtete, ob das BayLfV rechtzeitig reagierte oder ob für die BayLfV-Weitergabe an Polizei/BfV andere Fristen galten.
+- **Falsifikationskriterium:** Der authentische damalige Vorschriftentext oder ergänzende verbindliche Erlasse mit konkreter Quelle-zu-Amt-Meldefrist würden die amtliche Antwort präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-051`
+
+**Aussage:** Die bayerische Staatsregierung beschrieb 2023 für die Erlanger Doppelmord-Ermittlungsakten eine Archivkette vom BLKA zum Bayerischen Hauptstaatsarchiv 2010, die Beiziehung durch die Oktoberfest-Soko 2015 unter GBA-Sachleitung und die Rückgabe der Originalakten über GBA und BLKA an das Bayerische Hauptstaatsarchiv 2021; die Akten seien dort grundsätzlich nach Art. 10 BayArchivG einsehbar.
+
+**Typ:** fact · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Gedruckte S. 3–4, Fragen 2.1–3.2: BLKA→BayHStA 2010, Soko/GBA-Beiziehung 2015, GBA→BLKA→BayHStA 2021, Archivbenutzung Art. 10](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf).
+
+- **Amtlicher Aktenbefund:** Die Antwort nennt die ursprüngliche BLKA-Aktenführung, Archivübernahme 2010, Beiziehung 2015, verwahrungsrechtliche Kette und Rückführung 2021 sowie grundsätzliche Einsicht unter bayerischem Archivrecht.
+- **Alternative/Gegenprobe:** Die staatliche Aussage über Rückführung und grundsätzliche Einsicht sagt nichts über heutige Einzelblattvollständigkeit, Verfügbarkeit von VS-Teilen oder ob der GBA dauerhafte Kopien und Beiakten verwahrt.
+- **Zu beschaffen:** BayHStA-Aktenbestands-/Signaturenverzeichnis Erlanger Mordkomplex, Aktenausgabe 2015, GBA-Rückgabeprotokoll 2021, Archivzugangsbescheid und etwaige Schutzfristen/VS-Sperren.
+- **Tragweite:** Eine amtlich datierte Archiv- und Aktenbeiziehungskette sowie einen realistisch benennbaren Aktenbenutzungsweg.
+- **Aussagegrenze:** Weder die Vollständigkeit und uneingeschränkte Offenheit aller historischen Akten noch ein belegter gemeinsamer Tatkomplex mit dem Oktoberfestanschlag.
+- **Falsifikationskriterium:** Originale Übergabeprotokolle, Archivsignaturen und Benutzungsauskunft können die Datierung, heutigen Ort und etwaige Einschränkungen konkretisieren.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1480,6 +1692,10 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
 - [`SRC-DE-BARCH-MFS-HAIII7729-1980` – MfS HA III 7729: abgeschriebene LKA-/BKA-Ermittlungsberichte, 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
 - [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – Soko-Zwischenbericht September 1980, BArch B 141/68772, Image 0643](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
+- [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Bayerischer Landtag 18/30588: Lippert C/3-Information, BfV-/BLKA-Akten, Spraydosen-Gegenbefund](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf)
+- [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Bayerischer Landtag 18/30649: Quellenweitergabe, WSG-Archivabgabe, Erlanger Aktenrückgabe 2021](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf)
+- [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025` – Bayerischer Landtag 19/7784: 1978er Auswertungsdienstvorschrift und Zuständigkeitsgrenzen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)
+
 ## Amtliche Sekundär- und Gegenquellen
 
 - [`SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025` – Bayerische Polizei, retrospektive GBA-Verfahrensübernahme um 11 Uhr](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)

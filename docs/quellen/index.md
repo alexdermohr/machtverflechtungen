@@ -1050,3 +1050,36 @@ Bayerische Polizei / Bayerisches Landeskriminalamt · 2025 · Stufe **B** · Sek
 [Seite öffnen](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
 
 Fundstelle: Abschnitt 'Die Ermittlungen': 'Am 27. September um 11 Uhr übernahm Generalbundesanwalt Kurt Rebmann das Verfahren als Ermittlungsführer'
+
+<a id="src-de-baylt-erlangen-lippert-30588-2023"></a>
+## SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023
+
+**[Bayerischer Landtag, Drs. 18/30588: Ermordung Shlomo Lewin und Frieda Poeschke in Erlangen](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf)**
+
+Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Justiz · 2023-11-17 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf)
+
+Fundstelle: Gedruckte S. 3–7/8, Antworten 1a–1c, 2a–2c, 3b–4c, 5a–5b und 6a–7b; Antwort BayStMI 19.09.2023, darin Auszug BayLfV C/3-Schreiben 26.02.1981 und polizeiliche Gegenbefunde vom März 1981
+
+<a id="src-de-baylt-erlangen-lippert-30649-2023"></a>
+## SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023
+
+**[Bayerischer Landtag, Drs. 18/30649: Quellenbericht zur Ermordung von Shlomo Lewin und Frida Poeschke](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf)**
+
+Bayerischer Landtag / Staatsministerium des Innern · 2023-12-21 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf)
+
+Fundstelle: Gedruckte S. 2–4/13, Antworten 1.1–1.3 und 2.1–3.2; Antwort BayStMI 13.10.2023, BayLfV 26.02.1981, Erlangen-Soko 12.03.1981, Nachbefragung 22.04.1981; 2020/2021 BayHStA-Abgabe und 2021 Rückgabe
+
+<a id="src-de-baylt-erlangen-lippert-7784-2025"></a>
+## SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025
+
+**[Bayerischer Landtag, Drs. 19/7784: Quellenbericht zur Ermordung von Shlomo Lewin und Frida Poeschke II](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)**
+
+Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Justiz · 2025-09-01 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)
+
+Fundstelle: Gedruckte S. 3–4/5, Antworten 1 und 2.1–5; Regierungsantwort 29.07.2025 zu VS-Vertraulich-Auswertungsdienstvorschrift 20.09.1978 und fehlender Frist für Übermittlung durch menschliche Quellen an BayLfV
