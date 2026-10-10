@@ -739,7 +739,7 @@ claims:
     text: "Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann."
     classification: "fact"
     evidence_level: "established"
-    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980"]
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"]
     evidence:
       - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
         directness: "direct"
@@ -749,11 +749,11 @@ claims:
         directness: "direct"
         locator: "BArch B 141/68772, Image 0643, Soko-Zwischenbericht Seite 1, Ermittlungsführung"
         note: "Das im Bundesarchiv publizierte zeitgenössische Original des westdeutschen Soko-Zwischenberichts nennt unabhängig vom MfS-Archivierungsweg die GBA-Übernahme am 27.09.1980 um 14.10 Uhr. Inhaltliche Abhängigkeit der MfS-Abschrift von diesem oder einer verwandten Berichtsvorlage bleibt möglich."
-    counterevidence:
       - source: "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025"
-        directness: "direct"
-        locator: "Amtliche historische Darstellung der Bayerischen Polizei, Abschnitt Ermittlungen: GBA-Übernahme 27.09.1980 um 11 Uhr"
-        note: "Die spätere bayerische Polizeichronologie verwendet die abweichende 11-Uhr-Angabe. Diese widerlegt nicht, dass die MfS-Abschrift und die Soko-Urschrift 14.10 Uhr nennen, zeigt aber Klärungsbedarf zum tatsächlichen juristischen Zeitablauf."
+        directness: "context"
+        locator: "Bayerische Polizei, spätere historische Darstellung zum Oktoberfestattentat, Abschnitt Ermittlungen"
+        note: "Amtliche retrospektive Gegenchronologie benennt 11 Uhr für die GBA-Übernahme; sie belegt den dokumentierten Wortlaut und die bestehende Quellenabweichung, nicht die Richtigkeit dieser Uhrzeit."
+    counterevidence: []
     alternatives: ["Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus."]
     missing_evidence: ["GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie."]
     scope:
@@ -1485,4 +1485,8 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
 - [`SRC-DE-BARCH-MFS-HAIII7729-1980` – MfS HA III 7729: abgeschriebene LKA-/BKA-Ermittlungsberichte, 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
 - [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – Soko-Zwischenbericht September 1980, BArch B 141/68772, Image 0643](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
+## Sekundär- und Gegenquellen der vertieften Prüfung
+
+## Amtliche Sekundär- und Gegenquellen
+
 - [`SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025` – Bayerische Polizei, retrospektive GBA-Verfahrensübernahme um 11 Uhr](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
