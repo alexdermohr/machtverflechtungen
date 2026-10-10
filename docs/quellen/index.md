@@ -995,3 +995,25 @@ Bayerischer Landtag · 2014-10-02 · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
 
 Fundstelle: Abschnitt „Viele Akten können nun eingesehen werden“; Bericht Landespolizeipräsident Schmidbauer zu 29 BLKA-Spurenakten und Abgabe an das Hauptstaatsarchiv
+
+<a id="src-de-bt-okt-200358-2021"></a>
+## SRC-DE-BT-OKT-200358-2021
+
+**[Aktenanforderungen und Aktenrückgaben durch die Bundesanwaltschaft im Rahmen der Ermittlungen zum Oktoberfestattentat – Bundestagsdrucksache 20/358](https://dserver.bundestag.de/btd/20/003/2000358.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2021-12-30 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
+
+Fundstelle: Gedruckte S. 1–3, Antworten auf Fragen 1–3: Behörden-/Archivliste, Arten der Aktenbeiziehung, partielle Aktenrückgabe per 30.12.2021
+
+<a id="src-de-bt-okt-1811602-2017"></a>
+## SRC-DE-BT-OKT-1811602-2017
+
+**[Erkenntnisse zum Erlanger Doppelmord an Shlomo Lewin und Frida Poeschke – Bundestagsdrucksache 18/11602](https://dserver.bundestag.de/btd/18/116/1811602.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2017-03-22 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
+
+Fundstelle: Gedruckte S. 2, Antworten 1–4: BayHStA→BLKA 26.03.2015, BKA→GBA 14.01.2015 (Erlanger Akten); BND-Abgaben Februar 2014/Juni 2016 unter BArch B 206/3009

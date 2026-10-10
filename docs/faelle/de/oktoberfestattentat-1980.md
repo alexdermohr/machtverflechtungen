@@ -5,14 +5,14 @@ title: "Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wan
 countries: ["DE"]
 period:
   start: "1980-09-26"
-  end: "2020"
+  end: "2021"
 status: "developing"
 research_question: "Welche Verbindungen zum rechtsextremen Milieu, welche Ermittlungs- und Bewertungswechsel und welche nachrichtendienstlichen Beobachtungen sind belegt?"
 event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT-005", "CLM-DE-OKT-006"]
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -591,7 +591,142 @@ claims:
       supports: "Amtlich dokumentierter Umfang und im Oktober 2014 berichteter Überlieferungsweg separater BLKA-Spurenakten."
       does_not_support: "Keine positive Feststellung absichtlicher Spurenunterdrückung, keiner nachweislich unterbliebenen Prüfung 2014–2020 und keine Identifikation eines Mittäters."
     falsification: "Authentische BLKA- und Staatsarchiv-Übergabelisten oder ursprüngliche GBA-Sachakten mit begründet abweichender Zuordnung und Anzahl würden diese amtliche Zusammenfassung präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-034"
+    text: "Die Bundesregierung erklärte am 30. Dezember 2021, dass im wiederaufgenommenen Oktoberfest-Ermittlungsverfahren 2014 bis 2020 Akten oder Unterlagen unter anderem des Bayerischen Landesamts für Verfassungsschutz, des Bundesamts für Verfassungsschutz, des Bundesnachrichtendiensts, des Bayerischen Hauptstaatsarchivs und des Bayerischen Landeskriminalamts beigezogen worden waren."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-183259-2014"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-200358-2021"
+        directness: "direct"
+        locator: "Gedruckte S. 1–2, Antwort auf Frage 1; Liste der Behörden/Archive"
+        note: "Die Bundesregierung nennt das BayLfV, BfV, BND, BayHStA und BLKA ausdrücklich als Stellen, von denen die Bundesanwaltschaft direkt oder vermittelt durch das BLKA Unterlagen beigezogen hatte; Art und Umfang der Übernahmen unterscheiden sich und werden nicht pro Dienst aufgeschlüsselt."
+      - source: "SRC-DE-BT-OKT-183259-2014"
+        directness: "context"
+        locator: "Gedruckte S. 4, Antwort auf Frage 1c/1d; GBA-Auskunftsersuchen Februar 2011"
+        note: "Anderer Zeitpunkt und anderer Fragerahmen: BayLfV hatte dem GBA 2011 mitgeteilt, nicht mehr über Daten zum Oktoberfestattentat zu verfügen. Daraus ergibt sich keine Gewissheit, dass später beigezogene Unterlagen denselben Bestand oder denselben Entstehungszeitraum betreffen."
+    counterevidence: []
+    alternatives: ["Eine Beiziehung von BayLfV-Unterlagen kann sich auf andere Rechtsextremismuskomplexe, spätere Lageberichte, Kopien oder anderswo archivierte Unterlagen bezogen haben, ohne dass der 2011 erfragte originäre Tatbestand noch vorhanden war."]
+    missing_evidence: ["Das vollständige 2014–2020er Aktenbeiziehungsregister (Anforderungsdatum, Inhalt, Signatur, Lieferbehörde, Kopie/Original/On-Site-Sichtung), insbesondere alle BayLfV-Einträge und Beziehung zu den 29 BLKA-Spurenakten."]
+    scope:
+      supports: "Einen original belegten Behörden- und Archivquellenkreis der Wiederaufnahme und eine zeitlich bestimmte Gegenprobe zur pauschalen Interpretation des BayLfV-Aktenstands 2011."
+      does_not_support: "Keine Aussage, dass BayLfV noch originale 1980er Tatakten besaß, die 2011 verborgen wurden; weder Anzahl noch Inhalt von BayLfV-Meldungen, ein Vorwissen der Dienste oder eine Zugehörigkeit der 29 BLKA-Spurenakten ist damit nachgewiesen."
+    falsification: "Ein authentisches Beiziehungsverzeichnis, das die Regierungsantwort falsch zuordnet oder ausdrücklich nur anderweitige Unterlagen betrifft, würde die Reichweite dieses Befunds ändern."
+  - id: "CLM-DE-OKT-035"
+    text: "Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 ein Teil der beigezogenen Unterlagen und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-200358-2021"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-200358-2021"
+        directness: "direct"
+        locator: "Gedruckte S. 2–3, Antworten auf Fragen 2 und 3"
+        note: "Die Antworten nennen u.a. Rückgaben an StA Marburg/Memmingen, das Landesarchiv Baden-Württemberg und von Teilbeständen von Bundesarchiv, BLKA und Bayerischem Innenministerium. Übrige Unterlagen verblieben Ende 2021 bei der Bundesanwaltschaft; für deren Aussonderung/Rückgabe bestand keine verlässliche Zeitprognose."
+    counterevidence: []
+    alternatives: ["Zur Bundesanwaltschaft verbliebene Schriftstücke können rechtmäßig als Beiakten aufbewahrt werden oder lediglich Kopien bzw. elektronische Fassungen sein; anhaltende Prüfung impliziert weder nachweislich rechtswidrige Zurückhaltung noch Unterdrückung."]
+    missing_evidence: ["Aktenaussonderungs- und Rückgabeprotokolle seit Ende 2021, getrennte Verzeichnisse zu Originalen/Kopien und zuständige Standorte, insbesondere BLKA/Hauptstaatsarchiv und BayLfV."]
+    scope:
+      supports: "Den offiziellen konkreten Rückgabe- und Verwahrungszwischenstand nach Einstellung des Ermittlungsverfahrens zum 30. Dezember 2021."
+      does_not_support: "Keine Aussage über den endgültigen Verbleib einzelner Stücke 2026; kein Beleg für vorsätzliche Unterschlagung, Vernichtung oder fehlenden öffentlichen Archivzugang zu sämtlichen Beständen."
+    falsification: "Spätere signierte Aussonderungs- oder Übergabeprotokolle können die nur auf 2021 bezogene Bestandsauskunft sachlich überholen, ohne den damaligen Stand zu widerlegen."
+  - id: "CLM-DE-OKT-036"
+    text: "Die Bundesregierung bestätigte 2015, dass der im Februar 2014 ans Bundesarchiv abgegebene offengelegte Teil einer BND-Akte zum Oktoberfestattentat unter der Archivsignatur B 206/3009 öffentlich einsehbar war, während ein nicht offengelegter Verschlusssachenteil weiterhin im BND-Archiv lag."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-183985-2015"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-183985-2015"
+        directness: "direct"
+        locator: "Gedruckte S. 4, Antworten auf Fragen 10–11; Bundesarchivsignatur B 206/3009"
+        note: "Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Innerhalb der damaligen Abteilung 5 wurde das zuständige Referat 51D zum 1. Mai 1980 neu eingerichtet; die Aktenführung endete nach den vorhandenen Dokumenten 1983."
+    counterevidence: []
+    alternatives: ["Die Geheimhaltung kann aus allgemeinem Quellenschutz, personenbezogenen Angaben und nachrichtendienstlichen Methoden folgen, ohne dass sie eine konkrete Tatbeteiligung oder deren Vertuschung belegt."]
+    missing_evidence: ["Bestandsbeschreibung und tatsächlicher Akteninhalt von BArch B 206/3009 einsehen; Übernahmeliste Februar 2014 sowie Provenienz der verbliebenen BND-Verschlusssachen gegen spätere Freigabe-/Aussonderungsentscheidungen überprüfen."]
+    scope:
+      supports: "Eine genaue öffentlich zugängliche BND-Akten-Signatur, eine dokumentierte Klassifikationsgrenze und eine konkrete zeitgenössische Dienstzuständigkeit."
+      does_not_support: "Weder die tatsächliche Einsicht in den vollständigen Inhalt der BND-Akte noch ein Nachweis von BND-Vorwissen oder Tatsteuerung; der Verschlusssachenteil ist nach der Auskunft von 2015 nicht als dauerhaft 2026 erhalten gesichert."
+    falsification: "Ein BArch-Bestands-/Übernahmebeleg mit anderer Signatur oder ein authentischer späterer Offenlegungsbescheid könnte die damalige Aufteilung aktualisieren."
+  - id: "CLM-DE-OKT-037"
+    text: "Die Bundesregierung erklärte in Bundestagsdrucksache 18/3985 vom Februar 2015, die beim Bundesamt für Verfassungsschutz unter dem Titel „Sprengstoffanschlag (Oktoberfestattentat) am 26. September 1980“ geführte Sachakte sei nicht vernichtet worden."
+    classification: "counterevidence"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-183985-2015"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-183985-2015"
+        directness: "direct"
+        locator: "Gedruckte S. 3–4, Antworten auf Fragen 1–2, 3–7 sowie 8–9"
+        note: "Die Bundesantwort benennt ein Sachaktenregime mit zunächst Referat IIA3 und ab April 1981 Referat IIA6; Chronologie statt thematischer Gliederung; auf die Frage nach Vernichtungen wird die ausdrücklich benannte Sachakte als nicht vernichtet bezeichnet."
+    counterevidence: []
+    alternatives: ["Die amtlich erklärte Nichtvernichtung der benannten Sachakte schließt rechtmäßige Löschungen einzelner personenbezogener Datensätze, separat geführter Akten oder Aussonderungen anderer Institutionen nicht aus; zur physischen Vollständigkeit liegt kein Nachweis vor."]
+    missing_evidence: ["Erhaltungs-, Registratur- und Aktenabgabeverzeichnis des BfV für die Sachakte bis 2015 sowie mögliche spätere Akteneinsicht und Blatt-/Ordnerzahlen; getrennte Bewertung von Quellensammlung und Hauptsachakte."]
+    scope:
+      supports: "Einen direkt belegten amtlichen negativen Kenntnis-/Auskunftsstand gegen pauschale Behauptungen, die gesamte Oktoberfest-Sachakte des BfV sei bereits vor 2015 vernichtet worden."
+      does_not_support: "Keine Aussage, dass niemals einzelne BfV-Daten gelöscht oder alle damaligen Meldungen erhalten wurden; keine durchgeführte externe physische Vollständigkeitsprüfung der einzelnen Aktenbände."
+    falsification: "Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen."
+  - id: "CLM-DE-OKT-038"
+    text: "Die Bundesregierung erklärte 2017, dass der BND nicht eingestufte Unterlagen zum Oktoberfestattentat mit Bezügen zur Wehrsportgruppe Hoffmann und ihren Aktivitäten im Libanon in zwei Tranchen im Februar 2014 und im Juni 2016 an das Bundesarchiv abgab; beide sind unter der Archivsignatur B 206/3009 einsehbar."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BT-OKT-183985-2015"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 4"
+        note: "Die 2017er Bundesantwort nennt ausdrücklich zwei Abgaben nicht eingestufter BND-Unterlagen zum Oktoberfestkomplex mit WSG-Hoffmann-/Libanon-Bezügen, im Februar 2014 und im Juni 2016; beide unter B 206/3009 einsehbar."
+      - source: "SRC-DE-BT-OKT-183985-2015"
+        directness: "context"
+        locator: "Gedruckte S. 4, Antwort auf Frage 10"
+        note: "Die frühere Antwort belegt nur die bis 2015 bekannte Abgabe vom Februar 2014 und einen damals im BND-Archiv verbliebenen Verschlusssachenteil; sie bestätigt nicht selbst die spätere Juni-2016-Tranche."
+    counterevidence: []
+    alternatives: ["Die archivierten BND-Unterlagen können Berichte anderer Stellen, fremde Meldungen oder Material aus der Zeit nach dem Anschlag enthalten; ihre Abgabe beweist weder eigene BND-Beobachtung vor der Tat noch eine Weitergabe konkreter Tatpläne. Die Juni-2016-Tranche muss nicht mit dem 2015 beschriebenen VS-Rest identisch sein."]
+    missing_evidence: ["Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands."]
+    scope:
+      supports: "Einen amtlich dokumentierten zweiten BND-Archivübergang im Juni 2016 und den konkreten thematischen Bezug zu WSG Hoffmann im Libanon."
+      does_not_support: "Keinen Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests."
+    falsification: "Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-039"
+    text: "Nach Angaben der Bundesregierung übergab das Bundeskriminalamt am 14. Januar 2015 Aktenbestandteile zum Mord an Shlomo Lewin und Frida Poeschke im Rahmen der wiederaufgenommenen Oktoberfest-Ermittlungen an den Generalbundesanwalt."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 2"
+        note: "Die Bundesregierung nennt das konkrete Datum 14.01.2015 und die Übermittlung der beim BKA geführten Aktenbestandteile zu Lewin/Poeschke an den GBA im wiederaufgenommenen Oktoberfestverfahren; kein abschließendes Einzelinventar."
+    counterevidence: []
+    alternatives: ["Die Akten wurden im Rahmen einer weit gefassten Relevanzprüfung beigezogen; die Aktenübermittlung kann der Abklärung einer bloßen Milieuparallele gedient haben und begründet keine tatsächliche gemeinsame Täterschaft oder Materialverbindung."]
+    missing_evidence: ["Originales BKA-Abgabeverzeichnis vom 14.01.2015, GBA-Eingangsvermerk, Soko-Auswertungsverzeichnis, Prüfungsergebnis sowie die eigenständigen Erlanger GBA-Akten unter BArch B 362/6510–6520."]
+    scope:
+      supports: "Einen konkret datierten, amtlich bestätigten BKA-zu-GBA-Aktenfluss 2015 zwischen zwei getrennten rechtsterroristischen Ermittlungsgegenständen."
+      does_not_support: "Weder eine Aktenvollständigkeit noch eine identische Tätergruppe, einen nachgewiesenen Oktoberfest-Tatbeitrag durch Behrendt oder eine Nachrichtendienststeuerung."
+    falsification: "Originale BKA-/GBA-Übermittlungs- und Eingangsprotokolle mit anderem Datum, Empfänger oder Aktengegenstand würden diese behördliche Zusammenfassung präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-040"
+    text: "Das Bayerische Hauptstaatsarchiv übergab am 26. März 2015 auf Anforderung des Generalbundesanwalts polizeiliche Ermittlungs- und Spurenakten sowie Unterlagen zur Wiederaufnahmeprüfung im Erlanger Mordfall Lewin/Poeschke an das Bayerische Landeskriminalamt zur Prüfung auf Relevanz für das wiederaufgenommene Oktoberfest-Ermittlungsverfahren."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 1"
+        note: "Behördliche Darstellung des Aktenverkehrs vom BayHStA zum BLKA am 26.03.2015 auf Veranlassung des GBA, ausdrücklich zur Prüfung der Ermittlungsrelevanz. Die Aussage belegt noch keine erfolgte vollständige Auswertung."
+    counterevidence: []
+    alternatives: ["Die breit angelegte Aktenanforderung kann vorsorglich erfolgt sein, ohne dass sich ein personeller, materieller oder organisatorischer Zusammenhang zwischen Erlangen und dem Oktoberfestattentat bestätigte."]
+    missing_evidence: ["BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung."]
+    scope:
+      supports: "Eine separat datierte und adressierte Aktenbeiziehung im Wiederaufnahmeverfahren 2014–2020 und einen klar bestimmbaren Recherchepfad."
+      does_not_support: "Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten."
+    falsification: "Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren."
 what_follows:
+  - text: "Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven."
+    claim_ids: ["CLM-DE-OKT-034"]
+  - text: "Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv."
+    claim_ids: ["CLM-DE-OKT-036"]
+  - text: "Die 2015er Oktoberfest-Wiederaufnahme führte zu zwei amtlich datierten Beiziehungen von Ermittlungsunterlagen aus dem getrennten Erlanger Doppelmordkomplex."
+    claim_ids: ["CLM-DE-OKT-039", "CLM-DE-OKT-040"]
+  - text: "Die Bundesregierung dokumentierte eine weitere BND-Aktenübergabe unter B 206/3009 im Juni 2016 mit Bezügen zur WSG Hoffmann im Libanon."
+    claim_ids: ["CLM-DE-OKT-038"]
   - text: "Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung."
     claim_ids: ["CLM-DE-OKT-032"]
   - text: "Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten."
@@ -601,6 +736,10 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten."
+    claim_ids: ["CLM-DE-OKT-039", "CLM-DE-OKT-040"]
+  - text: "Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980."
+    claim_ids: ["CLM-DE-OKT-034", "CLM-DE-OKT-036"]
   - text: "Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung."
     claim_ids: ["CLM-DE-OKT-032", "CLM-DE-OKT-033"]
   - text: "Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung."
@@ -720,11 +859,20 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
-- Die Ermittlungsbewertung des politischen Motivs änderte sich 2020 grundlegend gegenüber dem älteren Abschluss; die staatliche Quellenlage zum Attentat kann mit zeitgenössischen Akten verglichen werden.
+- Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven.
+- Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv.
+- Die 2015er Oktoberfest-Wiederaufnahme führte zu zwei amtlich datierten Beiziehungen von Ermittlungsunterlagen aus dem getrennten Erlanger Doppelmordkomplex.
+- Die Bundesregierung dokumentierte eine weitere BND-Aktenübergabe unter B 206/3009 im Juni 2016 mit Bezügen zur WSG Hoffmann im Libanon.
+- Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung.
+- Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten.
+- Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch.
 - Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag.
 
 ## Was folgt nicht?
 
+- Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
+- Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980.
+- Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung.
 - Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung.
 
 ## Offene Akten- und Prüfpfade
@@ -1051,6 +1199,97 @@ Die institutionelle Aktenüberlieferung ist von der **Frage nach Täterschaft un
 
 **Forschungsauftrag:** [Issue #23 – BayLfV-Aktenstand, BLKA-Spurenakten und ursprüngliche Archivübergaben](https://github.com/alexdermohr/machtverflechtungen/issues/23). Der Landtagsbericht von 2014 erwähnt außerdem einen einzelnen Aktenordner; dessen Verwahrungsort und Zusammenhang mit BayLfV-Beständen lassen sich daraus nicht eindeutig identifizieren. Eine gesonderte Akteninventur ist erforderlich.
 
+
+## Nachtrag: Geheimdienstakten und Aktenrückgaben (2014–2021)
+
+Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskontext** als die 2011er BayLfV-Auskunft und der VerfGH-Befund von 2014: Sie behandeln die Aktenbeiziehung der späteren Wiederaufnahme sowie den Stand der Rückgabe nach Abschluss. Eine behördliche Aktenlieferung bedeutet nicht, dass identische Unterlagen im früheren Bestand vorhanden waren.
+
+### `CLM-DE-OKT-034`
+
+**Aussage:** Die Bundesregierung erklärte am 30. Dezember 2021, dass im wiederaufgenommenen Oktoberfest-Ermittlungsverfahren 2014 bis 2020 Akten oder Unterlagen unter anderem des Bayerischen Landesamts für Verfassungsschutz, des Bundesamts für Verfassungsschutz, des Bundesnachrichtendiensts, des Bayerischen Hauptstaatsarchivs und des Bayerischen Landeskriminalamts beigezogen worden waren.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-200358-2021` – Gedruckte S. 1–2, Antwort auf Frage 1; Liste der Behörden/Archive](https://dserver.bundestag.de/btd/20/003/2000358.pdf).
+
+- **Amtlicher Befund:** Die Bundesregierung nennt das BayLfV, BfV, BND, BayHStA und BLKA ausdrücklich als Stellen, von denen die Bundesanwaltschaft direkt oder vermittelt durch das BLKA Unterlagen beigezogen hatte; Art und Umfang der Übernahmen unterscheiden sich und werden nicht pro Dienst aufgeschlüsselt.
+- **Alternative:** Eine Beiziehung von BayLfV-Unterlagen kann sich auf andere Rechtsextremismuskomplexe, spätere Lageberichte, Kopien oder anderswo archivierte Unterlagen bezogen haben, ohne dass der 2011 erfragte originäre Tatbestand noch vorhanden war.
+- **Zu beschaffen:** Das vollständige 2014–2020er Aktenbeiziehungsregister (Anforderungsdatum, Inhalt, Signatur, Lieferbehörde, Kopie/Original/On-Site-Sichtung), insbesondere alle BayLfV-Einträge und Beziehung zu den 29 BLKA-Spurenakten.
+- **Aussagegrenze:** Keine Aussage, dass BayLfV noch originale 1980er Tatakten besaß, die 2011 verborgen wurden; weder Anzahl noch Inhalt von BayLfV-Meldungen, ein Vorwissen der Dienste oder eine Zugehörigkeit der 29 BLKA-Spurenakten ist damit nachgewiesen.
+- **Falsifikationskriterium:** Ein authentisches Beiziehungsverzeichnis, das die Regierungsantwort falsch zuordnet oder ausdrücklich nur anderweitige Unterlagen betrifft, würde die Reichweite dieses Befunds ändern.
+
+### `CLM-DE-OKT-035`
+
+**Aussage:** Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 ein Teil der beigezogenen Unterlagen und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-200358-2021` – Gedruckte S. 2–3, Antworten auf Fragen 2 und 3](https://dserver.bundestag.de/btd/20/003/2000358.pdf).
+
+- **Amtlicher Befund:** Die Antworten nennen u.a. Rückgaben an StA Marburg/Memmingen, das Landesarchiv Baden-Württemberg und von Teilbeständen von Bundesarchiv, BLKA und Bayerischem Innenministerium. Übrige Unterlagen verblieben Ende 2021 bei der Bundesanwaltschaft; für deren Aussonderung/Rückgabe bestand keine verlässliche Zeitprognose.
+- **Alternative:** Zur Bundesanwaltschaft verbliebene Schriftstücke können rechtmäßig als Beiakten aufbewahrt werden oder lediglich Kopien bzw. elektronische Fassungen sein; anhaltende Prüfung impliziert weder nachweislich rechtswidrige Zurückhaltung noch Unterdrückung.
+- **Zu beschaffen:** Aktenaussonderungs- und Rückgabeprotokolle seit Ende 2021, getrennte Verzeichnisse zu Originalen/Kopien und zuständige Standorte, insbesondere BLKA/Hauptstaatsarchiv und BayLfV.
+- **Aussagegrenze:** Keine Aussage über den endgültigen Verbleib einzelner Stücke 2026; kein Beleg für vorsätzliche Unterschlagung, Vernichtung oder fehlenden öffentlichen Archivzugang zu sämtlichen Beständen.
+- **Falsifikationskriterium:** Spätere signierte Aussonderungs- oder Übergabeprotokolle können die nur auf 2021 bezogene Bestandsauskunft sachlich überholen, ohne den damaligen Stand zu widerlegen.
+
+### `CLM-DE-OKT-036`
+
+**Aussage:** Die Bundesregierung bestätigte 2015, dass der im Februar 2014 ans Bundesarchiv abgegebene offengelegte Teil einer BND-Akte zum Oktoberfestattentat unter der Archivsignatur B 206/3009 öffentlich einsehbar war, während ein nicht offengelegter Verschlusssachenteil weiterhin im BND-Archiv lag.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-183985-2015` – Gedruckte S. 4, Antworten auf Fragen 10–11; Bundesarchivsignatur B 206/3009](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
+
+- **Amtlicher Befund:** Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Innerhalb der damaligen Abteilung 5 wurde das zuständige Referat 51D zum 1. Mai 1980 neu eingerichtet; die Aktenführung endete nach den vorhandenen Dokumenten 1983.
+- **Alternative:** Die Geheimhaltung kann aus allgemeinem Quellenschutz, personenbezogenen Angaben und nachrichtendienstlichen Methoden folgen, ohne dass sie eine konkrete Tatbeteiligung oder deren Vertuschung belegt.
+- **Zu beschaffen:** Bestandsbeschreibung und tatsächlicher Akteninhalt von BArch B 206/3009 einsehen; Übernahmeliste Februar 2014 sowie Provenienz der verbliebenen BND-Verschlusssachen gegen spätere Freigabe-/Aussonderungsentscheidungen überprüfen.
+- **Aussagegrenze:** Weder die tatsächliche Einsicht in den vollständigen Inhalt der BND-Akte noch ein Nachweis von BND-Vorwissen oder Tatsteuerung; der Verschlusssachenteil ist nach der Auskunft von 2015 nicht als dauerhaft 2026 erhalten gesichert.
+- **Falsifikationskriterium:** Ein BArch-Bestands-/Übernahmebeleg mit anderer Signatur oder ein authentischer späterer Offenlegungsbescheid könnte die damalige Aufteilung aktualisieren.
+
+### `CLM-DE-OKT-037`
+
+**Aussage:** Die Bundesregierung erklärte in Bundestagsdrucksache 18/3985 vom Februar 2015, die beim Bundesamt für Verfassungsschutz unter dem Titel „Sprengstoffanschlag (Oktoberfestattentat) am 26. September 1980“ geführte Sachakte sei nicht vernichtet worden.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-183985-2015` – Gedruckte S. 3–4, Antworten auf Fragen 1–2, 3–7 sowie 8–9](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
+
+- **Amtlicher Befund:** Die Bundesantwort benennt ein Sachaktenregime mit zunächst Referat IIA3 und ab April 1981 Referat IIA6; Chronologie statt thematischer Gliederung; auf die Frage nach Vernichtungen wird die ausdrücklich benannte Sachakte als nicht vernichtet bezeichnet.
+- **Alternative:** Die amtlich erklärte Nichtvernichtung der benannten Sachakte schließt rechtmäßige Löschungen einzelner personenbezogener Datensätze, separat geführter Akten oder Aussonderungen anderer Institutionen nicht aus; zur physischen Vollständigkeit liegt kein Nachweis vor.
+- **Zu beschaffen:** Erhaltungs-, Registratur- und Aktenabgabeverzeichnis des BfV für die Sachakte bis 2015 sowie mögliche spätere Akteneinsicht und Blatt-/Ordnerzahlen; getrennte Bewertung von Quellensammlung und Hauptsachakte.
+- **Aussagegrenze:** Keine Aussage, dass niemals einzelne BfV-Daten gelöscht oder alle damaligen Meldungen erhalten wurden; keine durchgeführte externe physische Vollständigkeitsprüfung der einzelnen Aktenbände.
+- **Falsifikationskriterium:** Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen.
+
+
+### `CLM-DE-OKT-038`
+
+**Aussage:** Die Bundesregierung erklärte 2017, dass der BND nicht eingestufte Unterlagen zum Oktoberfestattentat mit Bezügen zur Wehrsportgruppe Hoffmann und ihren Aktivitäten im Libanon in zwei Tranchen im Februar 2014 und im Juni 2016 an das Bundesarchiv abgab; beide sind unter der Archivsignatur B 206/3009 einsehbar.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 4](https://dserver.bundestag.de/btd/18/116/1811602.pdf). Kontext: [`SRC-DE-BT-OKT-183985-2015` – S. 4, Frage 10](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
+
+- **Amtlicher Befund:** Die 2017er Bundesantwort nennt ausdrücklich zwei Abgaben nicht eingestufter BND-Unterlagen zum Oktoberfestkomplex mit WSG-Hoffmann-/Libanon-Bezügen, im Februar 2014 und im Juni 2016; beide unter B 206/3009 einsehbar.
+- **Gegenkontext:** Die Antwort von 2015 kannte nur die erste Abgabe und berichtete damals einen gesonderten Verschlusssachenteil beim BND; sie beweist nicht, dass dieser Teil 2016 freigegeben wurde.
+- **Alternative:** Die archivierten BND-Unterlagen können Berichte anderer Stellen, fremde Meldungen oder Material aus der Zeit nach dem Anschlag enthalten; ihre Abgabe beweist weder eigene BND-Beobachtung vor der Tat noch eine Weitergabe konkreter Tatpläne. Die Juni-2016-Tranche muss nicht mit dem 2015 beschriebenen VS-Rest identisch sein.
+- **Zu beschaffen:** Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands.
+- **Aussagegrenze:** Kein Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests.
+- **Falsifikationskriterium:** Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-039`
+
+**Aussage:** Nach Angaben der Bundesregierung übergab das Bundeskriminalamt am 14. Januar 2015 Aktenbestandteile zum Mord an Shlomo Lewin und Frida Poeschke im Rahmen der wiederaufgenommenen Oktoberfest-Ermittlungen an den Generalbundesanwalt.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf).
+
+- **Amtlicher Befund:** Die Bundesregierung nennt das konkrete Datum 14.01.2015 und die Übermittlung der beim BKA geführten Aktenbestandteile zu Lewin/Poeschke an den GBA im wiederaufgenommenen Oktoberfestverfahren; kein abschließendes Einzelinventar.
+- **Alternative:** Die Akten wurden im Rahmen einer weit gefassten Relevanzprüfung beigezogen; die Aktenübermittlung kann der Abklärung einer bloßen Milieuparallele gedient haben und begründet keine tatsächliche gemeinsame Täterschaft oder Materialverbindung.
+- **Zu beschaffen:** Originales BKA-Abgabeverzeichnis vom 14.01.2015, GBA-Eingangsvermerk, Soko-Auswertungsverzeichnis, Prüfungsergebnis sowie die eigenständigen Erlanger GBA-Akten unter BArch B 362/6510–6520.
+- **Aussagegrenze:** Weder eine Aktenvollständigkeit noch eine identische Tätergruppe, einen nachgewiesenen Oktoberfest-Tatbeitrag durch Behrendt oder eine Nachrichtendienststeuerung.
+- **Falsifikationskriterium:** Originale BKA-/GBA-Übermittlungs- und Eingangsprotokolle mit anderem Datum, Empfänger oder Aktengegenstand würden diese behördliche Zusammenfassung präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-040`
+
+**Aussage:** Das Bayerische Hauptstaatsarchiv übergab am 26. März 2015 auf Anforderung des Generalbundesanwalts polizeiliche Ermittlungs- und Spurenakten sowie Unterlagen zur Wiederaufnahmeprüfung im Erlanger Mordfall Lewin/Poeschke an das Bayerische Landeskriminalamt zur Prüfung auf Relevanz für das wiederaufgenommene Oktoberfest-Ermittlungsverfahren.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 1](https://dserver.bundestag.de/btd/18/116/1811602.pdf).
+
+- **Amtlicher Befund:** Behördliche Darstellung des Aktenverkehrs vom BayHStA zum BLKA am 26.03.2015 auf Veranlassung des GBA, ausdrücklich zur Prüfung der Ermittlungsrelevanz. Die Aussage belegt noch keine erfolgte vollständige Auswertung.
+- **Alternative:** Die breit angelegte Aktenanforderung kann vorsorglich erfolgt sein, ohne dass sich ein personeller, materieller oder organisatorischer Zusammenhang zwischen Erlangen und dem Oktoberfestattentat bestätigte.
+- **Zu beschaffen:** BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung.
+- **Aussagegrenze:** Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten.
+- **Falsifikationskriterium:** Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1063,3 +1302,5 @@ Die institutionelle Aktenüberlieferung ist von der **Frage nach Täterschaft un
 - [`SRC-DE-BT-OKT-1613527-2009` — Antwort der Bundesregierung: Oktoberfest-Attentat – Stasi-Notizen, WSG Hoffmann und Gladio, BT-Drs. 16/13527](https://dserver.bundestag.de/btd/16/135/1613527.pdf)
 - [`SRC-DE-BAYVFGH-OKT-2014` – BayVerfGH, Entscheidung Vf. 72-IVa-12, 20.03.2014](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 - [`SRC-DE-BAYLT-OKT-SPUREN-2014` – Bayerischer Landtag, Verfassungsausschuss, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
+- [`SRC-DE-BT-OKT-200358-2021` – BT-Drs. 20/358, Aktenanforderungen und Aktenrückgaben, 30.12.2021](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
+- [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
