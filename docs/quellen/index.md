@@ -1083,3 +1083,14 @@ Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Jus
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)
 
 Fundstelle: Gedruckte S. 3–4/5, Antworten 1 und 2.1–5; Regierungsantwort 29.07.2025 zu VS-Vertraulich-Auswertungsdienstvorschrift 20.09.1978 und fehlender Frist für Übermittlung durch menschliche Quellen an BayLfV
+
+<a id="src-de-bt-gladio-18701-2014"></a>
+## SRC-DE-BT-GLADIO-18701-2014
+
+**[Bundestag Drs. 18/701: Weitere Erkenntnisse über die Geheimorganisation Gladio – BND-Angaben zu WSG Hoffmann im Libanon](https://dserver.bundestag.de/btd/18/007/1800701.pdf)**
+
+Deutscher Bundestag / Bundesregierung, Bundeskanzleramt · 2014-03-03 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
+
+Fundstelle: Gedruckte S. 5, Antwort auf Frage 9: BND-Unterlagen 1980/81 zu Beirut/Fatah-Zeltlager, Vermerk 29.09.1980 zu AQURA/italienischen Rechtsextremisten, keine feststellbare Ordine-Nuovo-Zuordnung und Bundesarchiv-Übergabe 17.02.2014; S. 2, Vorbemerkung Nr. 2 ohne bestätigte BND-Stay-behind-Terrorverbindung

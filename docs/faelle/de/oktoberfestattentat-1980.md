@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025", "SRC-DE-BT-GLADIO-18701-2014"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -937,7 +937,43 @@ claims:
       supports: "Eine amtlich datierte Archiv- und Aktenbeiziehungskette sowie einen realistisch benennbaren Aktenbenutzungsweg."
       does_not_support: "Weder die Vollständigkeit und uneingeschränkte Offenheit aller historischen Akten noch ein belegter gemeinsamer Tatkomplex mit dem Oktoberfestanschlag."
     falsification: "Originale Übergabeprotokolle, Archivsignaturen und Benutzungsauskunft können die Datierung, heutigen Ort und etwaige Einschränkungen konkretisieren."
+  - id: "CLM-DE-OKT-052"
+    text: "Die Bundesregierung erklärte 2014, BND-Unterlagen von 1980 und 1981 enthielten Hinweise, Karl-Heinz Hoffmann habe sich im August 1980 mit vier nicht namentlich genannten Männern in Beirut und zuvor in einem Zeltlager der Fatah aufgehalten."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-GLADIO-18701-2014"]
+    evidence:
+      - source: "SRC-DE-BT-GLADIO-18701-2014"
+        directness: "direct"
+        locator: "BT-Drs. 18/701, gedruckte S. 5, Antwort 9, Absatz zu BND-Unterlagen 1980/81 und Beirut/Fatah"
+        note: "Der amtliche Text gibt einen mit unsicheren Modalformen berichteten BND-Akteninhalt wieder; die zeitgenössischen Beobachtungs- und Quellenakten sind nicht im Original eingesehen."
+    counterevidence: []
+    alternatives: ["Der BND kann unbestätigte Drittquellen- oder Propagandameldungen übernommen haben; ein Reise- oder Lageraufenthalt kann in Zeitpunkt, Personenzahl oder Organisation fehlzugeordnet sein."]
+    missing_evidence: ["BND-Originalberichte aus August bis September 1980 mit Quellen-/Verteilervermerken, Aufenthalts- und Reisekontext, Teilnehmeridentitäten, gegebenenfalls archivisch korrespondierende BArch B 206/3009-Übernahmeverzeichnisse."]
+    scope:
+      supports: "Eine datierbare amtliche Auskunft, dass der BND Aktenhinweise auf einen behaupteten Aufenthalt von Hoffmann und vier Unbenannten im libanesischen Fatah-/Beirut-Kontext führte."
+      does_not_support: "Keinen durch Primärakte bestätigten tatsächlichen Lageraufenthalt, keine konkreten vier Teilnehmeridentitäten und keinen kausalen Bezug zum Oktoberfestattentat vom 26.09.1980."
+    falsification: "Authentische BND-Urschrift, Quellenvermerk, Reise- oder Teilnehmerbelege, die Umfang, Zeitpunkt oder Ort anders ausweisen, würden die materielle Aussage der 2014er Regierungswiedergabe einschränken."
+  - id: "CLM-DE-OKT-053"
+    text: "Nach einer Regierungsantwort von 2014 soll ein BND-Vermerk vom 29. September 1980 behauptet haben, Hoffmann und etwa 13 bis 15 weitere nicht namentlich genannte Personen hätten sich im libanesischen Lager AQURA aufgehalten; gleichzeitig sollen sich dort italienische Rechtsextremisten befunden haben, deren Zugehörigkeit zur Organisation Ordine Nuovo aus den BND-Unterlagen nicht hervorging."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-GLADIO-18701-2014"]
+    evidence:
+      - source: "SRC-DE-BT-GLADIO-18701-2014"
+        directness: "direct"
+        locator: "BT-Drs. 18/701, gedruckte S. 5, Antwort 9, BND-Vermerk vom 29.09.1980 zu AQURA und ausdrücklicher Nichtzuordnung zu Ordine Nuovo"
+        note: "Der Berichtstag 29.09.1980 ist das ausdrücklich datierte Datum des Vermerks, nicht automatisch der tatsächliche Tag eines gemeinsamen Aufenthalts. Die Antwort enthält keine Namen italienischer Personen und verneint eine aus den Unterlagen erkennbare Zuordnung zu Ordine Nuovo."
+    counterevidence: []
+    alternatives: ["Die Meldung könnte aus nicht bestätigten palästinensischen, sonstigen fremden oder politisch interessierten Informationsquellen stammen und eine falsche Orts-, Organisations- oder Teilnehmerzuordnung enthalten; Ob eine spätere amtliche Korrektur der Meldung existiert, ist ohne Aktennachweis offen."]
+    missing_evidence: ["Vollständiger BND-Vermerk 29.09.1980 mit Quellenherkunft, geheimdienstlicher Qualitätswertung und Anlagen, etwaige erst noch aktenkundig nachzuweisende spätere Korrekturen oder Qualitätsbewertungen, präzise Ereigniszeit und AQURA-Geografie, Teilnehmerlisten und Identitätsbelege einschließlich gegebenenfalls italienischer Ermittlungsakten, BArch B 206/3009-Blatt- und Transferkonkordanz."]
+    scope:
+      supports: "Die konkrete amtliche Wiedergabe einer datierten BND-Meldung zu behaupteter deutscher und italienischer rechtsextremer Präsenz am selben libanesischen Lagerstandort, mit ausdrücklich fehlender Ordine-Nuovo-Identifikation."
+      does_not_support: "Keinen nachgewiesenen gemeinsamen Trainingseinsatz, keine gesicherte italienische Mitgliedschaft in Ordine Nuovo und keine organisatorische Verknüpfung zum Anschlag von Bologna, zum Oktoberfestattentat oder zum BND-Stay-behind-Apparat."
+    falsification: "Der authentische BND-Vermerk vom 29.09.1980, gegebenenfalls belegbare spätere Korrekturunterlagen und italienische Originalakten können die Identität, Herkunft, örtliche Übereinstimmung und Glaubhaftigkeit der damaligen Meldung bestätigen, korrigieren oder widerlegen."
 what_follows:
+  - text: "Die Bundesregierung referierte 2014 BND-Aktenhinweise zu Hoffmanns mutmaßlichen Aufenthalten im Libanon und einer behaupteten gleichzeitigen Präsenz nicht identifizierter italienischer Rechtsextremisten in AQURA."
+    claim_ids: ["CLM-DE-OKT-052", "CLM-DE-OKT-053"]
   - text: "Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar."
     claim_ids: ["CLM-DE-OKT-046", "CLM-DE-OKT-047", "CLM-DE-OKT-050"]
   - text: "Überlebende WSG-Akten wurden 2020/2021 im BayHStA-VS-Archiv verwahrt, die Erlanger Original-Ermittlungsakten gingen nach der Oktoberfest-Wiederaufnahme 2021 an das BayHStA zurück; die frühere Vollständigkeit bleibt offen."
@@ -963,6 +999,8 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die BND-Meldung benennt keine italienischen Personen oder Ordine-Nuovo-Mitgliedschaften; sie belegt weder eine tatsächliche gemeinsame Ausbildung noch ein gemeinsames Tatnetz oder eine Beteiligung an Anschlägen in München oder Bologna."
+    claim_ids: ["CLM-DE-OKT-052", "CLM-DE-OKT-053"]
   - text: "Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung."
     claim_ids: ["CLM-DE-OKT-046", "CLM-DE-OKT-048"]
   - text: "Die aus dem BayLfV nicht rekonstruierbare Erstmeldung und mögliche Voraktenverluste beweisen keine bewusst unterlassene Warnung, keinen konkreten Aktenvernichtungsakt und keine gemeinsame Planung der Erlanger Morde und des Oktoberfestattentats."
@@ -1094,6 +1132,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
+- Die Bundesregierung referierte 2014 BND-Aktenhinweise zu Hoffmanns mutmaßlichen Aufenthalten im Libanon und einer behaupteten gleichzeitigen Präsenz nicht identifizierter italienischer Rechtsextremisten in AQURA.
 - Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar.
 - Überlebende WSG-Akten wurden 2020/2021 im BayHStA-VS-Archiv verwahrt, die Erlanger Original-Ermittlungsakten gingen nach der Oktoberfest-Wiederaufnahme 2021 an das BayHStA zurück; die frühere Vollständigkeit bleibt offen.
 - Der originale Soko-Zwischenbericht im Bundesarchiv und die MfS-Abschrift nennen den GBA-Übernahmezeitpunkt 14:10 Uhr, während eine spätere offizielle Polizeichronologie 11 Uhr angibt.
@@ -1109,6 +1148,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt nicht?
 
+- Die BND-Meldung benennt keine italienischen Personen oder Ordine-Nuovo-Mitgliedschaften; sie belegt weder eine tatsächliche gemeinsame Ausbildung noch ein gemeinsames Tatnetz oder eine Beteiligung an Anschlägen in München oder Bologna.
 - Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung.
 - Die aus dem BayLfV nicht rekonstruierbare Erstmeldung und mögliche Voraktenverluste beweisen keine bewusst unterlassene Warnung, keinen konkreten Aktenvernichtungsakt und keine gemeinsame Planung der Erlanger Morde und des Oktoberfestattentats.
 - Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen.
@@ -1676,6 +1716,32 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Aussagegrenze:** Weder die Vollständigkeit und uneingeschränkte Offenheit aller historischen Akten noch ein belegter gemeinsamer Tatkomplex mit dem Oktoberfestanschlag.
 - **Falsifikationskriterium:** Originale Übergabeprotokolle, Archivsignaturen und Benutzungsauskunft können die Datierung, heutigen Ort und etwaige Einschränkungen konkretisieren.
 
+### `CLM-DE-OKT-052`
+
+**Aussage:** Die Bundesregierung erklärte 2014, BND-Unterlagen von 1980 und 1981 enthielten Hinweise, Karl-Heinz Hoffmann habe sich im August 1980 mit vier nicht namentlich genannten Männern in Beirut und zuvor in einem Zeltlager der Fatah aufgehalten.
+
+**Evidenz:** belegt (als amtlich berichteter BND-Akteninhalt, nicht als bestätigter Aufenthalts- oder Tatnachweis); [`SRC-DE-BT-GLADIO-18701-2014` – BT-Drs. 18/701, gedruckte S. 5, Antwort 9, Absatz zu BND-Unterlagen 1980/81 und Beirut/Fatah](https://dserver.bundestag.de/btd/18/007/1800701.pdf).
+
+- **Amtlicher Aktenbefund:** Der amtliche Text gibt einen mit unsicheren Modalformen berichteten BND-Akteninhalt wieder; die zeitgenössischen Beobachtungs- und Quellenakten sind nicht im Original eingesehen.
+- **Alternative/Gegenprobe:** Der BND kann unbestätigte Drittquellen- oder Propagandameldungen übernommen haben; ein Reise- oder Lageraufenthalt kann in Zeitpunkt, Personenzahl oder Organisation fehlzugeordnet sein.
+- **Zu beschaffen:** BND-Originalberichte aus August bis September 1980 mit Quellen-/Verteilervermerken, Aufenthalts- und Reisekontext, Teilnehmeridentitäten, gegebenenfalls archivisch korrespondierende BArch B 206/3009-Übernahmeverzeichnisse.
+- **Tragweite:** Eine datierbare amtliche Auskunft, dass der BND Aktenhinweise auf einen behaupteten Aufenthalt von Hoffmann und vier Unbenannten im libanesischen Fatah-/Beirut-Kontext führte.
+- **Aussagegrenze:** Keinen durch Primärakte bestätigten tatsächlichen Lageraufenthalt, keine konkreten vier Teilnehmeridentitäten und keinen kausalen Bezug zum Oktoberfestattentat vom 26.09.1980.
+- **Falsifikationskriterium:** Authentische BND-Urschrift, Quellenvermerk, Reise- oder Teilnehmerbelege, die Umfang, Zeitpunkt oder Ort anders ausweisen, würden die materielle Aussage der 2014er Regierungswiedergabe einschränken.
+
+### `CLM-DE-OKT-053`
+
+**Aussage:** Nach einer Regierungsantwort von 2014 soll ein BND-Vermerk vom 29. September 1980 behauptet haben, Hoffmann und etwa 13 bis 15 weitere nicht namentlich genannte Personen hätten sich im libanesischen Lager AQURA aufgehalten; gleichzeitig sollen sich dort italienische Rechtsextremisten befunden haben, deren Zugehörigkeit zur Organisation Ordine Nuovo aus den BND-Unterlagen nicht hervorging.
+
+**Evidenz:** belegt (als amtlich berichteter BND-Akteninhalt, nicht als bestätigter Aufenthalts- oder Tatnachweis); [`SRC-DE-BT-GLADIO-18701-2014` – BT-Drs. 18/701, gedruckte S. 5, Antwort 9, BND-Vermerk vom 29.09.1980 zu AQURA und ausdrücklicher Nichtzuordnung zu Ordine Nuovo](https://dserver.bundestag.de/btd/18/007/1800701.pdf).
+
+- **Amtlicher Aktenbefund:** Der Berichtstag 29.09.1980 ist das ausdrücklich datierte Datum des Vermerks, nicht automatisch der tatsächliche Tag eines gemeinsamen Aufenthalts. Die Antwort enthält keine Namen italienischer Personen und verneint eine aus den Unterlagen erkennbare Zuordnung zu Ordine Nuovo.
+- **Alternative/Gegenprobe:** Die Meldung könnte aus nicht bestätigten palästinensischen, sonstigen fremden oder politisch interessierten Informationsquellen stammen und eine falsche Orts-, Organisations- oder Teilnehmerzuordnung enthalten; Ob eine spätere amtliche Korrektur der Meldung existiert, ist ohne Aktennachweis offen.
+- **Zu beschaffen:** Vollständiger BND-Vermerk 29.09.1980 mit Quellenherkunft, geheimdienstlicher Qualitätswertung und Anlagen, etwaige erst noch aktenkundig nachzuweisende spätere Korrekturen oder Qualitätsbewertungen, präzise Ereigniszeit und AQURA-Geografie, Teilnehmerlisten und Identitätsbelege einschließlich gegebenenfalls italienischer Ermittlungsakten, BArch B 206/3009-Blatt- und Transferkonkordanz.
+- **Tragweite:** Die konkrete amtliche Wiedergabe einer datierten BND-Meldung zu behaupteter deutscher und italienischer rechtsextremer Präsenz am selben libanesischen Lagerstandort, mit ausdrücklich fehlender Ordine-Nuovo-Identifikation.
+- **Aussagegrenze:** Keinen nachgewiesenen gemeinsamen Trainingseinsatz, keine gesicherte italienische Mitgliedschaft in Ordine Nuovo und keine organisatorische Verknüpfung zum Anschlag von Bologna, zum Oktoberfestattentat oder zum BND-Stay-behind-Apparat.
+- **Falsifikationskriterium:** Der authentische BND-Vermerk vom 29.09.1980, gegebenenfalls belegbare spätere Korrekturunterlagen und italienische Originalakten können die Identität, Herkunft, örtliche Übereinstimmung und Glaubhaftigkeit der damaligen Meldung bestätigen, korrigieren oder widerlegen.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1695,6 +1761,8 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Bayerischer Landtag 18/30588: Lippert C/3-Information, BfV-/BLKA-Akten, Spraydosen-Gegenbefund](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf)
 - [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023` – Bayerischer Landtag 18/30649: Quellenweitergabe, WSG-Archivabgabe, Erlanger Aktenrückgabe 2021](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf)
 - [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025` – Bayerischer Landtag 19/7784: 1978er Auswertungsdienstvorschrift und Zuständigkeitsgrenzen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)
+
+- [`SRC-DE-BT-GLADIO-18701-2014` – Bundestag 18/701, Bundesregierung 2014 zur BND-Meldung Hoffmann/Libanon/AQURA/italienische Rechtsextremisten](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
 
 ## Amtliche Sekundär- und Gegenquellen
 
