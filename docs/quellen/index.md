@@ -1071,7 +1071,7 @@ Bayerischer Landtag / Staatsministerium des Innern · 2023-12-21 · Stufe **A** 
 
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030649.pdf)
 
-Fundstelle: Gedruckte S. 2–4/13, Antworten 1.1–1.3 und 2.1–3.2; Antwort BayStMI 13.10.2023, BayLfV 26.02.1981, Erlangen-Soko 12.03.1981, Nachbefragung 22.04.1981; 2020/2021 BayHStA-Abgabe und 2021 Rückgabe
+Fundstelle: Gedruckte S. 2–4/13, Antworten 1.1–1.3 und 2.1–3.2; Antwort BayStMI 13.10.2023, BayLfV 26.02.1981, Erlangen-Soko 12.03.1981, Nachbefragung 31.03.1981, Weitergabe des Befragungsergebnisses 22.04.1981; 2020/2021 BayHStA-Abgabe und 2021 Rückgabe
 
 <a id="src-de-baylt-erlangen-lippert-7784-2025"></a>
 ## SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025

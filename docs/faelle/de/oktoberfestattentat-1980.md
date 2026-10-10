@@ -865,7 +865,7 @@ claims:
     evidence:
       - source: "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023"
         directness: "direct"
-        locator: "Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, Urteil 340 Js 40387/81"
+        locator: "Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, StA-Aktenzeichen 340 Js 40387/81 (Urteils-Aktenzeichen nicht belegt)"
         note: "Der Regierung zufolge wurden am Tatort Reste eines aus einer Spraydose hergestellten Schalldämpfers gesehen, die Quelle verneinte Vergleichbarkeit bei der Nachbefragung, das Gericht würdigte den Bericht und sah keine technische Übereinstimmung."
     counterevidence: []
     alternatives: ["Die Quelle könnte einen anderen Gegenstand, einen anderen Prototyp oder einen unvollständigen Teil gesehen haben. Der negative Vergleich widerlegt nicht jeden möglichen Zusammenhang zwischen denselben Personen, ist aber ein wesentlicher Gegenbeleg für die Behauptung, das gezeigte Rohr sei das beim Mord benutzte Bauteil."]
@@ -1628,7 +1628,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 
 **Aussage:** Die bayerische Staatsregierung teilte 2023 als forensischen und gerichtlichen Gegenbefund mit, dass die erneut befragte BayLfV-Quelle eine vorgezeigte Spraydose nicht mit ihrem am 13. Dezember 1980 gesehenen Behälter gleichsetzte und das Gericht im Verfahren gegen Karl-Heinz Hoffmann die Beobachtungen der Quelle nicht mit den kriminaltechnischen Erkenntnissen zum beim Erlanger Doppelmord verwendeten Schalldämpfer in Einklang bringen konnte.
 
-**Typ:** counterevidence · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, Urteil 340 Js 40387/81](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf).
+**Typ:** counterevidence · **Evidenz:** belegt; [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023` – Gedruckte S. 5–6, Antworten 4a–4c: Nachbefragung 31.03.1981, Spraydose, StA-Aktenzeichen 340 Js 40387/81 (Urteils-Aktenzeichen nicht belegt)](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf).
 
 - **Amtlicher Aktenbefund:** Der Regierung zufolge wurden am Tatort Reste eines aus einer Spraydose hergestellten Schalldämpfers gesehen, die Quelle verneinte Vergleichbarkeit bei der Nachbefragung, das Gericht würdigte den Bericht und sah keine technische Übereinstimmung.
 - **Alternative/Gegenprobe:** Die Quelle könnte einen anderen Gegenstand, einen anderen Prototyp oder einen unvollständigen Teil gesehen haben. Der negative Vergleich widerlegt nicht jeden möglichen Zusammenhang zwischen denselben Personen, ist aber ein wesentlicher Gegenbeleg für die Behauptung, das gezeigte Rohr sei das beim Mord benutzte Bauteil.
