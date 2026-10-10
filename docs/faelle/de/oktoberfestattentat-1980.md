@@ -515,17 +515,13 @@ claims:
       - source: "SRC-DE-BT-OKT-183259-2014"
         directness: "direct"
         locator: "Gedruckte S. 7–8, Antworten 1l und 1m"
-        note: "Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie das aus den unbestimmten Bombensprengstoffresten nicht ableitbare geeignete Vergleichsmaterial für einen Abgleich mit Lembkes Depotbeständen. Die Quelle belegt damit keine Vernichtung oder Nichtverfügbarkeit von Proben aus Lembkes Depots."
-    counterevidence:
-      - source: "SRC-DE-BT-OKT-183259-2014"
-        directness: "context"
-        locator: "Gedruckte S. 7–8, Antworten 1l und 1m"
-        note: "Dass geeignete Vergleichsproben fehlten, beweist weder eine Herkunft aus Lembkes Beständen noch einen staatlichen Materialweg; andere Hinweise aus Köhlers Wohn- und Arbeitsumfeld bleiben unberührt."
+        note: "Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten und führt darauf zurück, dass für einen Stoffvergleich mit Lembkes verstecktem Sprengstoff kein belastbares Vergleichsmaterial vorlag. Das Spurenbild spricht dennoch für gewerblichen Sprengstoff, wahrscheinlich TNT."
+    counterevidence: []
     alternatives: ["Ein anderer unaufgeklärter Tatmittelbezug, eine eigenständige Beschaffung durch Köhler oder Unterstützungsleistungen durch unbekannte Dritte sind mit der begrenzten chemischen Analyse logisch vereinbar."]
     missing_evidence: ["Originale Laborberichte, damalige Vergleichsprobenlisten und Beschaffungs- oder Besitzketten vor Vernichtung der Asservate überprüfen."]
     scope:
       supports: "Die konkret dokumentierte damalige Identifizierungs- und Vergleichsgrenze für die verwendete Sprengstoffart und mögliche Materialherkunft."
-      does_not_support: "Kein Nachweis, Lembke, ein Nachrichtendienst oder eine andere Person habe die Oktoberfestbombe mit Sprengstoff versorgt."
+      does_not_support: "Die Aktenauskunft belegt weder, dass Depotproben Lembkes fehlten oder vernichtet wurden, noch, dass Lembke, ein Nachrichtendienst oder eine andere Person die Oktoberfestbombe mit Sprengstoff versorgte."
     falsification: "Ein belastbarer ursprünglicher chemischer Identitäts- oder Chargenvergleich mit authentischen Proben könnte die amtlich beschriebene Erkenntnisgrenze verändern."
   - id: "CLM-DE-OKT-030"
     text: "Die Bundesregierung bestätigte 2014 eine Beteiligung des Bundesnachrichtendienstes an einer Lagebesprechung der Oktoberfest-Ermittler am 14. Oktober 1980, bei der mögliche Beziehungen Köhlers zu rechtsextremistischen Gruppierungen behandelt wurden."
@@ -537,16 +533,12 @@ claims:
         directness: "direct"
         locator: "Gedruckte S. 7, Antwort 1k"
         note: "Nach den damals vorliegenden GBA-Vermerken waren am 8. und 14. Oktober auch Ermittler des Bundes und mehrerer Länder beteiligt; am 14. Oktober ausdrücklich der BND, nicht das BfV. Beide Besprechungen befassten sich nach Regierungsangaben mit möglichen Kontakten Köhlers ins rechtsextreme Milieu."
-    counterevidence:
-      - source: "SRC-DE-BT-OKT-183259-2014"
-        directness: "context"
-        locator: "Gedruckte S. 7, Antwort 1k"
-        note: "Die Teilnahme eines Dienstes an der Informationsauswertung nach einer Tat ist ein normaler Ermittlungs- bzw. Informationsaustausch und belegt keinen Dienstauftrag zur Tatbegehung."
+    counterevidence: []
     alternatives: ["Der BND konnte Hinweise über internationale oder rechtsextremistische Kontakte beisteuern, ohne vor der Tat beteiligt gewesen zu sein."]
     missing_evidence: ["Originale Teilnehmerlisten, Protokolle der Lagebesprechungen am 8. und 14. Oktober sowie konkret an den BND gerichtete Informationsersuchen und Antworten prüfen."]
     scope:
       supports: "Die direkt bestätigte nachträgliche organisatorische Einbindung des Bundesnachrichtendienstes in mindestens eine Ermittlerbesprechung."
-      does_not_support: "Weder Vorwissen über den Anschlag noch dessen operative Planung, Steuerung oder Unterstützung durch den BND."
+      does_not_support: "Eine nachträgliche Ermittlerbesprechung beweist weder BND-Vorwissen über den Anschlag noch dessen Planung, Steuerung oder Unterstützung durch den Nachrichtendienst."
     falsification: "Authentische vollständige Sitzungsunterlagen, die den angegebenen BND-Teilnehmer oder Besprechungsgegenstand widerlegen, könnten die amtliche Rekonstruktion ändern."
   - id: "CLM-DE-OKT-031"
     text: "Das Bundesarchiv berichtet, dass bereits am 27. September 1980 ein leitender Beamter des Bayerischen Staatsministeriums des Innern interne Informationen über Köhlers Identität und seine rechtsextremen Kontakte an Journalisten der Zeitschrift Quick weitergegeben habe."
@@ -558,16 +550,12 @@ claims:
         directness: "direct"
         locator: "Abschnitt „(K)ein rechtsextremes Attentat?“; Bericht über die Weitergabe am Tag nach dem Anschlag"
         note: "Die historische Archivdarstellung schildert die behördlich nicht gewünschte frühe Veröffentlichung und die nachfolgende Presseerklärung des Generalbundesanwalts am 28. September 1980."
-    counterevidence:
-      - source: "SRC-DE-BARCH-OKTOBERFEST-2025"
-        directness: "context"
-        locator: "Abschnitt „(K)ein rechtsextremes Attentat?“; Bericht über die Weitergabe am Tag nach dem Anschlag"
-        note: "Weder die Archivdarstellung noch die hier verzeichneten Regierungsantworten liefern einen unabhängigen Nachweis einer gezielten Warnung an etwaige Mittäter oder eines kausal dadurch vereitelten Ermittlungsschritts."
+    counterevidence: []
     alternatives: ["Eine politisch oder medial motivierte Indiskretion ohne Terroristenkontakt ist ebenfalls möglich."]
     missing_evidence: ["Originale Weitergabe- und Pressenotizen, dienstliche Untersuchungen sowie datierte interne Folgevermerke zu etwaigen Ermittlungsgefährdungen prüfen."]
     scope:
       supports: "Die beim Bundesarchiv dokumentierte frühe Informationsweitergabe aus dem Ministeriumsbereich an Medien."
-      does_not_support: "Kein Nachweis einer bewussten Warnung an Mittäter, einer Strafvereitelung oder einer staatlichen Mitplanung des Anschlags."
+      does_not_support: "Die archivische Darstellung ist kein eigenständiger Nachweis einer bewussten Warnung an Mittäter, einer konkret vereitelten Ermittlungshandlung oder einer staatlichen Mitplanung des Anschlags."
     falsification: "Ein belastbarer originaler Amtsvermerk oder eine zeitgenössische Korrespondenz, die Urheber, Zeitpunkt und Inhalt der Weitergabe anders belegt, würde die Archivrekonstruktion korrigieren."
 what_follows:
   - text: "Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch."
@@ -959,12 +947,11 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 
 **Beleg:** [`SRC-DE-BT-OKT-183259-2014` – Gedruckte S. 7–8, Antworten 1l und 1m](https://dserver.bundestag.de/btd/18/032/1803259.pdf). **Evidenz:** belegt.
 
-- **Quellenbefund:** Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie das aus den unbestimmten Bombensprengstoffresten nicht ableitbare geeignete Vergleichsmaterial für einen Abgleich mit Lembkes Depotbeständen. Die Quelle belegt damit keine Vernichtung oder Nichtverfügbarkeit von Proben aus Lembkes Depots.
-- **Gegenbefund:** Dass geeignete Vergleichsproben fehlten, beweist weder eine Herkunft aus Lembkes Beständen noch einen staatlichen Materialweg; andere Hinweise aus Köhlers Wohn- und Arbeitsumfeld bleiben unberührt.
+- **Quellenbefund:** Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten und führt darauf zurück, dass für einen Stoffvergleich mit Lembkes verstecktem Sprengstoff kein belastbares Vergleichsmaterial vorlag. Das Spurenbild spricht dennoch für gewerblichen Sprengstoff, wahrscheinlich TNT.
 - **Alternative:** Ein anderer unaufgeklärter Tatmittelbezug, eine eigenständige Beschaffung durch Köhler oder Unterstützungsleistungen durch unbekannte Dritte sind mit der begrenzten chemischen Analyse logisch vereinbar.
 - **Beweislücke:** Originale Laborberichte, damalige Vergleichsprobenlisten und Beschaffungs- oder Besitzketten vor Vernichtung der Asservate überprüfen.
 - **Tragweite:** Die konkret dokumentierte damalige Identifizierungs- und Vergleichsgrenze für die verwendete Sprengstoffart und mögliche Materialherkunft.
-- **Grenze:** Kein Nachweis, Lembke, ein Nachrichtendienst oder eine andere Person habe die Oktoberfestbombe mit Sprengstoff versorgt.
+- **Grenze:** Kein Beleg, dass Proben aus Lembkes Depots fehlten oder vernichtet worden seien; kein Nachweis einer Sprengstofflieferung durch Lembke, andere Personen oder Nachrichtendienste.
 - **Falsifikation:** Ein belastbarer ursprünglicher chemischer Identitäts- oder Chargenvergleich mit authentischen Proben könnte die amtlich beschriebene Erkenntnisgrenze verändern.
 
 ### `CLM-DE-OKT-030`
@@ -974,11 +961,10 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 **Beleg:** [`SRC-DE-BT-OKT-183259-2014` – Gedruckte S. 7, Antwort 1k](https://dserver.bundestag.de/btd/18/032/1803259.pdf). **Evidenz:** belegt.
 
 - **Quellenbefund:** Nach den damals vorliegenden GBA-Vermerken waren am 8. und 14. Oktober auch Ermittler des Bundes und mehrerer Länder beteiligt; am 14. Oktober ausdrücklich der BND, nicht das BfV. Beide Besprechungen befassten sich nach Regierungsangaben mit möglichen Kontakten Köhlers ins rechtsextreme Milieu.
-- **Gegenbefund:** Die Teilnahme eines Dienstes an der Informationsauswertung nach einer Tat ist ein normaler Ermittlungs- bzw. Informationsaustausch und belegt keinen Dienstauftrag zur Tatbegehung.
 - **Alternative:** Der BND konnte Hinweise über internationale oder rechtsextremistische Kontakte beisteuern, ohne vor der Tat beteiligt gewesen zu sein.
 - **Beweislücke:** Originale Teilnehmerlisten, Protokolle der Lagebesprechungen am 8. und 14. Oktober sowie konkret an den BND gerichtete Informationsersuchen und Antworten prüfen.
 - **Tragweite:** Die direkt bestätigte nachträgliche organisatorische Einbindung des Bundesnachrichtendienstes in mindestens eine Ermittlerbesprechung.
-- **Grenze:** Weder Vorwissen über den Anschlag noch dessen operative Planung, Steuerung oder Unterstützung durch den BND.
+- **Grenze:** Eine Besprechung zwei Wochen nach dem Anschlag ist kein Beleg für BND-Vorwissen oder operative Planung, Steuerung beziehungsweise Unterstützung der Tat.
 - **Falsifikation:** Authentische vollständige Sitzungsunterlagen, die den angegebenen BND-Teilnehmer oder Besprechungsgegenstand widerlegen, könnten die amtliche Rekonstruktion ändern.
 
 ### `CLM-DE-OKT-031`
@@ -988,11 +974,10 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 **Beleg:** [`SRC-DE-BARCH-OKTOBERFEST-2025` – Abschnitt „(K)ein rechtsextremes Attentat?“; Bericht über die Weitergabe am Tag nach dem Anschlag](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/). **Evidenz:** stark gestützt.
 
 - **Quellenbefund:** Die historische Archivdarstellung schildert die behördlich nicht gewünschte frühe Veröffentlichung und die nachfolgende Presseerklärung des Generalbundesanwalts am 28. September 1980.
-- **Gegenbefund:** Weder die Archivdarstellung noch die hier verzeichneten Regierungsantworten liefern einen unabhängigen Nachweis einer gezielten Warnung an etwaige Mittäter oder eines kausal dadurch vereitelten Ermittlungsschritts.
 - **Alternative:** Eine politisch oder medial motivierte Indiskretion ohne Terroristenkontakt ist ebenfalls möglich.
 - **Beweislücke:** Originale Weitergabe- und Pressenotizen, dienstliche Untersuchungen sowie datierte interne Folgevermerke zu etwaigen Ermittlungsgefährdungen prüfen.
 - **Tragweite:** Die beim Bundesarchiv dokumentierte frühe Informationsweitergabe aus dem Ministeriumsbereich an Medien.
-- **Grenze:** Kein Nachweis einer bewussten Warnung an Mittäter, einer Strafvereitelung oder einer staatlichen Mitplanung des Anschlags.
+- **Grenze:** Die archivische Darstellung belegt weder eine bewusste Warnung an mögliche Mittäter noch eine konkret vereitelte Ermittlungshandlung oder staatliche Mitplanung.
 - **Falsifikation:** Ein belastbarer originaler Amtsvermerk oder eine zeitgenössische Korrespondenz, die Urheber, Zeitpunkt und Inhalt der Weitergabe anders belegt, würde die Archivrekonstruktion korrigieren.
 
 ## Originalquellen der vertieften Prüfung
