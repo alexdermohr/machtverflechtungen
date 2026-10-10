@@ -638,7 +638,7 @@ claims:
       - source: "SRC-DE-BT-OKT-183985-2015"
         directness: "direct"
         locator: "Gedruckte S. 4, Antworten auf Fragen 10–11; Bundesarchivsignatur B 206/3009"
-        note: "Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Die zuständige Abteilung 5/Referat 51D wurde am 1. Mai 1980 gebildet, Aktenführung nach den vorhandenen Dokumenten bis 1983."
+        note: "Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Innerhalb der damaligen Abteilung 5 wurde das zuständige Referat 51D zum 1. Mai 1980 neu eingerichtet; die Aktenführung endete nach den vorhandenen Dokumenten 1983."
     counterevidence: []
     alternatives: ["Die Geheimhaltung kann aus allgemeinem Quellenschutz, personenbezogenen Angaben und nachrichtendienstlichen Methoden folgen, ohne dass sie eine konkrete Tatbeteiligung oder deren Vertuschung belegt."]
     missing_evidence: ["Bestandsbeschreibung und tatsächlicher Akteninhalt von BArch B 206/3009 einsehen; Übernahmeliste Februar 2014 sowie Provenienz der verbliebenen BND-Verschlusssachen gegen spätere Freigabe-/Aussonderungsentscheidungen überprüfen."]
@@ -1164,7 +1164,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 
 **Evidenz:** belegt; [`SRC-DE-BT-OKT-183985-2015` – Gedruckte S. 4, Antworten auf Fragen 10–11; Bundesarchivsignatur B 206/3009](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
 
-- **Amtlicher Befund:** Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Die zuständige Abteilung 5/Referat 51D wurde am 1. Mai 1980 gebildet, Aktenführung nach den vorhandenen Dokumenten bis 1983.
+- **Amtlicher Befund:** Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Innerhalb der damaligen Abteilung 5 wurde das zuständige Referat 51D zum 1. Mai 1980 neu eingerichtet; die Aktenführung endete nach den vorhandenen Dokumenten 1983.
 - **Alternative:** Die Geheimhaltung kann aus allgemeinem Quellenschutz, personenbezogenen Angaben und nachrichtendienstlichen Methoden folgen, ohne dass sie eine konkrete Tatbeteiligung oder deren Vertuschung belegt.
 - **Zu beschaffen:** Bestandsbeschreibung und tatsächlicher Akteninhalt von BArch B 206/3009 einsehen; Übernahmeliste Februar 2014 sowie Provenienz der verbliebenen BND-Verschlusssachen gegen spätere Freigabe-/Aussonderungsentscheidungen überprüfen.
 - **Aussagegrenze:** Weder die tatsächliche Einsicht in den vollständigen Inhalt der BND-Akte noch ein Nachweis von BND-Vorwissen oder Tatsteuerung; der Verschlusssachenteil ist nach der Auskunft von 2015 nicht als dauerhaft 2026 erhalten gesichert.
