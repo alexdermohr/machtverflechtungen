@@ -507,7 +507,7 @@ claims:
       does_not_support: "Keine nachgewiesene Identität zweier Mittäter, keine bestätigte Tatvorbereitung und kein staatliches Vorwissen."
     falsification: "Originale Erstvernehmungen oder die Gesamtdokumentation, die die von der Bundesregierung wiedergegebenen Angaben oder deren angebliche Prüfung wesentlich widerlegen, würden die Aussage entkräften."
   - id: "CLM-DE-OKT-029"
-    text: "Die Bundesregierung erklärte 2014, dass sich der im Oktoberfestattentat verwendete Sprengstoff kriminaltechnisch nicht sicher bestimmen ließ, die damaligen Befunde aber auf gewerblichen Sprengstoff, wahrscheinlich TNT, hindeuteten; geeignetes Vergleichsmaterial aus Lembkes Depots lag nicht vor."
+    text: "Die Bundesregierung erklärte 2014, dass sich der im Oktoberfestattentat verwendete Sprengstoff kriminaltechnisch nicht sicher bestimmen ließ, die damaligen Befunde aber auf gewerblichen Sprengstoff, wahrscheinlich TNT, hindeuteten; ein belastbarer Stoffvergleich mit Sprengstoff aus Lembkes Depots war auf dieser Untersuchungsgrundlage nicht möglich."
     classification: "fact"
     evidence_level: "established"
     sources: ["SRC-DE-BT-OKT-183259-2014"]
@@ -515,7 +515,7 @@ claims:
       - source: "SRC-DE-BT-OKT-183259-2014"
         directness: "direct"
         locator: "Gedruckte S. 7–8, Antworten 1l und 1m"
-        note: "Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie fehlendes Vergleichsmaterial aus Lembkes Depots. Die Wahrscheinlichkeit einer gewerblichen Sprengstoffart wird vom fehlenden sicheren chemischen Stoffnachweis unterschieden."
+        note: "Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie das aus den unbestimmten Bombensprengstoffresten nicht ableitbare geeignete Vergleichsmaterial für einen Abgleich mit Lembkes Depotbeständen. Die Quelle belegt damit keine Vernichtung oder Nichtverfügbarkeit von Proben aus Lembkes Depots."
     counterevidence:
       - source: "SRC-DE-BT-OKT-183259-2014"
         directness: "context"
@@ -955,11 +955,11 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 
 ### `CLM-DE-OKT-029`
 
-**Aussage:** Die Bundesregierung erklärte 2014, dass sich der im Oktoberfestattentat verwendete Sprengstoff kriminaltechnisch nicht sicher bestimmen ließ, die damaligen Befunde aber auf gewerblichen Sprengstoff, wahrscheinlich TNT, hindeuteten; geeignetes Vergleichsmaterial aus Lembkes Depots lag nicht vor.
+**Aussage:** Die Bundesregierung erklärte 2014, dass sich der im Oktoberfestattentat verwendete Sprengstoff kriminaltechnisch nicht sicher bestimmen ließ, die damaligen Befunde aber auf gewerblichen Sprengstoff, wahrscheinlich TNT, hindeuteten; ein belastbarer Stoffvergleich mit Sprengstoff aus Lembkes Depots war auf dieser Untersuchungsgrundlage nicht möglich.
 
 **Beleg:** [`SRC-DE-BT-OKT-183259-2014` – Gedruckte S. 7–8, Antworten 1l und 1m](https://dserver.bundestag.de/btd/18/032/1803259.pdf). **Evidenz:** belegt.
 
-- **Quellenbefund:** Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie fehlendes Vergleichsmaterial aus Lembkes Depots. Die Wahrscheinlichkeit einer gewerblichen Sprengstoffart wird vom fehlenden sicheren chemischen Stoffnachweis unterschieden.
+- **Quellenbefund:** Die Regierungsantwort nennt ergebnislose gaschromatografische und massenspektrometrische Untersuchungen an Tatmittelresten sowie das aus den unbestimmten Bombensprengstoffresten nicht ableitbare geeignete Vergleichsmaterial für einen Abgleich mit Lembkes Depotbeständen. Die Quelle belegt damit keine Vernichtung oder Nichtverfügbarkeit von Proben aus Lembkes Depots.
 - **Gegenbefund:** Dass geeignete Vergleichsproben fehlten, beweist weder eine Herkunft aus Lembkes Beständen noch einen staatlichen Materialweg; andere Hinweise aus Köhlers Wohn- und Arbeitsumfeld bleiben unberührt.
 - **Alternative:** Ein anderer unaufgeklärter Tatmittelbezug, eine eigenständige Beschaffung durch Köhler oder Unterstützungsleistungen durch unbekannte Dritte sind mit der begrenzten chemischen Analyse logisch vereinbar.
 - **Beweislücke:** Originale Laborberichte, damalige Vergleichsprobenlisten und Beschaffungs- oder Besitzketten vor Vernichtung der Asservate überprüfen.
