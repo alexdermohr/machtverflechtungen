@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025", "SRC-DE-BT-GLADIO-18701-2014", "SRC-IT-COURT-BOLOGNA-AQURA-1988", "SRC-IT-PARL-AQURA-POR-XXIII64-2001"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025", "SRC-DE-BT-GLADIO-18701-2014", "SRC-IT-COURT-BOLOGNA-AQURA-1988", "SRC-IT-PARL-AQURA-POR-XXIII64-2001", "SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976", "SRC-DE-BAYLT-WSG-FINANZ-5905-1977", "SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981", "SRC-DE-BT-WSG-WEINMANN-124605-1993"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -1044,7 +1044,100 @@ claims:
       does_not_support: "Weder eine erwiesene Steuerung des Abu-Iyad-Interviews, absichtliche Erzeugung einer Falschmeldung noch ein kausaler Kanal Porena zu den deutschen BND-Meldungen."
     falsification: "Vollständige Originalvernehmungen, Zahlungsbelege oder richterliche Feststellungen können die berichtete Rollen- und Zahlungschronologie bestätigen, korrigieren oder widerlegen."
 
+  - id: "CLM-DE-OKT-058"
+    text: "Das aus einer privaten Sammlung digitalisierte Einladungsschreiben des WSG-Hoffmann-Freundeskreises zu einer Veranstaltung am 29. Oktober 1976 benennt einen Franz Lippert als Finanzverwalter, P. Weinmann als Ansprechpartner der Informationsstelle Bonn und ein Postscheck-Spendenkonto in Nürnberg."
+    classification: "fact"
+    evidence_level: "plausible"
+    sources: ["SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976"]
+    evidence:
+      - source: "SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976"
+        directness: "direct"
+        locator: "Gesamtes Faksimile, Veranstaltung Freitag 29.10.1976 und Impressum; Commons-Upload aus privatem Archiv (2021)."
+        note: "Bild und Impressum direkt geprüft; Ausstellungsdatum ungeklärt, der Upload nennt 01.10.1976 nur als private Metadatenangabe."
+    counterevidence: []
+    alternatives: ["Privater Scan könnte unecht oder später reproduziert sein; der Namensgleichheit mit dem 2023 parlamentarisch genannten V-Mann Franz Lippert und der Initialen P. Weinmann/P. W. folgt keine nachgewiesene Personenidentität."]
+    missing_evidence: ["Originalpapier samt Provenienz, Freundeskreis-Satzung/Registern, Quellenschutz- und Identitätsakten des BayLfV/BfV, Spenden- und Bankunterlagen."]
+    scope:
+      supports: "Sichtbar überlieferte Funktions- und Namensangaben in einem zeitgenössisch behaupteten Privatbrief."
+      does_not_support: "Keine bestätigte Identität mit einer nachrichtendienstlichen Quelle, keine bewiesenen staatlichen Geldflüsse, keine geprüften Spendenhöhen."
+    falsification: "Originalbrief, historisches Register oder zeitgleiche Schriftstücke könnten Echtheit, Personenzuordnung oder Datum bestätigen oder widerlegen."
+  - id: "CLM-DE-OKT-059"
+    text: "Das bayerische Innenministerium erklärte im Juli 1977, die Wehrsportgruppe Hoffmann finanziere sich aus Spenden und einem Freundeskreis, habe ungefähr 50 Menschen ausgebildet und verfüge über Fahrzeuge und Waffen; es beschrieb laufende Ermittlungen, Beobachtung und eine seinerzeit als unzureichend beurteilte vereinsrechtliche Verbotsgrundlage."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-WSG-FINANZ-5905-1977"]
+    evidence:
+      - source: "SRC-DE-BAYLT-WSG-FINANZ-5905-1977"
+        directness: "direct"
+        locator: "Bayerischer Landtag Drs. 8/5905, S. 1–2, Antworten auf Fragen 1–5 von Innenminister Dr. Seidl am 12.07.1977."
+        note: "Direkter Beleg für die damalige amtliche Auskunft, nicht für selbst gesichtete WSG-Buchhaltung und nicht für die sachliche Richtigkeit der Gefahreneinschätzung."
+    counterevidence: []
+    alternatives: ["Ministerium könnte Schätzungen und Eigenangaben der WSG ungeprüft übernommen und das Vereinsrecht beziehungsweise die Gefahrenlage falsch bewertet haben."]
+    missing_evidence: ["Originaler VS-Bericht Bayern 1976, WSG-Kassenbücher und Förderkreismitglieder, Kauf-/Zulassungs-/Bankbelege, BayStMI/BMI-Verbotsakten und Einsatzjournale."]
+    scope:
+      supports: "Amtlich dokumentierte Spenden-/Freundeskreis-Finanzierung und frühzeitiger staatlicher Kenntnisstand zu WSG-Fahrzeugen, Bewaffnung und Beobachtung."
+      does_not_support: "Keine Namen der Spender, keine behördlichen Subventionen, kein Nachweis lückenloser Observation oder konkreten Tatvorwissens 1980."
+    falsification: "Zeitgenössische Originalkonten und Verfassungsschutzakten können die Regierungsangaben korrigieren, bestätigen oder zeitlich eingrenzen."
+  - id: "CLM-DE-OKT-060"
+    text: "Die Bundesregierung erklärte am 23. Dezember 1980, den Sicherheitsbehörden lägen keine Informationen über fortlaufende Spenden an die verbotene WSG Hoffmann vor, Aktivitäten des Freundeskreises seien seit Jahren nicht mehr festgestellt worden und das in damaligen Presseberichten erwähnte Nürnberger Postscheckkonto sei Hoffmanns Privatkonto."
+    classification: "counterevidence"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981"]
+    evidence:
+      - source: "SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981"
+        directness: "direct"
+        locator: "Bundestag Drs. 9/81 vom 02.01.1981, gedruckte S. 7, Frage 14, Antwort Staatssekretär Dr. Fröhlich vom 23.12.1980."
+        note: "Negativer damaliger Behördenkenntnisstand; keine authentifizierte Bankkontenidentität und kein vollständiger Negativbeweis über alle damaligen Zahlungen."
+    counterevidence: []
+    alternatives: ["Unbekannte Finanzierungswege könnten weiter bestanden haben; das 1980er Pressekonto muss nicht mit dem in der 1976er Privatkopie genannten Konto identisch sein."]
+    missing_evidence: ["Zeitgenössischer Presseartikel, unterscheidbare Postscheckkonten und Kontoauszüge, Spendenregister und interne BfV/BMI-Auskunftsgrundlagen."]
+    scope:
+      supports: "Zeitgenössische Regierungsauskunft als Gegenbeleg zu pauschaler Behauptung ununterbrochenen Freundeskreisbetriebs nach dem WSG-Verbot."
+      does_not_support: "Kein Beweis, dass nie mehr Geld floss, und keine festgestellte Identität der zwei getrennt berichteten Nürnberger Konten."
+    falsification: "Bank- und Vereinsakten oder behördliche Eingangsmeldungen könnten die amtliche Wissenslücke oder Kontoeinordnung widerlegen."
+  - id: "CLM-DE-OKT-061"
+    text: "Eine Bundestagsfrage von 2009 erhob unter Verweis auf angebliche Stasi-Unterlagen die Behauptung, eine als P. W. bezeichnete ehemalige V-Person habe einen VW-Bus der Wehrsportgruppe Hoffmann aus BfV-Geldern beschafft; die Bundesregierung bestätigte den behaupteten Geldfluss nicht, sondern verwies auf ihre allgemeine Vorbemerkung."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1613527-2009"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1613527-2009"
+        directness: "direct"
+        locator: "Bundestag Drs. 16/13527, gedruckte S. 16, Frage 27 a–d samt Antwortverweis auf Vorbemerkung 2f."
+        note: "Amtlicher Primärbeleg für den parlamentarischen Frage-/Antwortinhalt, kein überprüfter BfV-Finanzbeleg und keine in den Bundestagsunterlagen aufgelöste Identität von P. W."
+    counterevidence: []
+    alternatives: ["Frage könnte ungesicherte Sekundärliteratur und nicht authentifizierte MfS-Notizen zitieren; eine mögliche Beschaffung könnte aus privaten Quellen oder durch eine andere Person erfolgt sein."]
+    missing_evidence: ["Echte BStU/MfS-Akte, BfV-Quellen- und Ausgabejournal, VW-Bus-Kauf-/Zulassungs-/Bankbelege und eindeutige Identitätsverknüpfung P. W. zu P. Weinmann des 1976er Briefes."]
+    scope:
+      supports: "Offiziell dokumentierte, testbare Fragestellerhypothese mit fehlender positiver Bestätigung der Bundesexekutive."
+      does_not_support: "Weder belegt sie einen BfV-finanzierten VW-Bus noch einen Auftrag zur WSG-Finanzierung, noch identifiziert sie P. W. mit einer konkret benannten Person."
+    falsification: "Authentische Zahlungsanweisung, Fahrzeugvertrag, V-Mann-Personalakte oder gegenteilige nachweisbare Bankbelege könnten die Behauptung klären."
+  - id: "CLM-DE-OKT-062"
+    text: "Eine Bundestagsantwort von 1993 dokumentiert, dass eine parlamentarische Anfrage unter Berufung auf einen damaligen Zeitungsbericht Peter Weinmann als angeblichen Kontakt einer Bonner Informationsstelle auf einem WSG-Freundeskreis-Flugblatt von 1975 benannte und nach BfV-Einsätzen im WSG-Umfeld fragte; die Bundesregierung bestätigte oder dementierte diese geheimdienstlichen Einzelsachverhalte ausdrücklich nicht."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-WSG-WEINMANN-124605-1993"]
+    evidence:
+      - source: "SRC-DE-BT-WSG-WEINMANN-124605-1993"
+        directness: "direct"
+        locator: "Bundestag Drs. 12/4605 (22.03.1993), S. 1–3, Zitat aus General-Anzeiger und Fragen 1/10; S. 4, Antwort Bundesregierung 17.03.1993 ohne Bestätigung unabhängig vom behaupteten Sachverhalt."
+        note: "Primärquelle für Bundestagsfrage und Regierungsantwort, nicht für die Richtigkeit der zitierten Presse oder den ungesehenen Freundeskreis-Flyer 1975."
+    counterevidence: []
+    alternatives: ["Die 1993 von Abgeordneten zitierte Presseberichterstattung kann falsch oder unvollständig sein; amtliche Auskunftsverweigerung ist kein Beweis für eine tatsächliche Quellenführung oder einen WSG-Auftrag."]
+    missing_evidence: ["Originalflugblatt 1975, General-Anzeiger vom 22.02.1993, authentische BfV/MfS-Personal- und Auftragsakten sowie Namenskonkordanz zum privat überlieferten Brief 1976."]
+    scope:
+      supports: "Eine amtlich lokalisierte parlamentarische Frage zur personellen Bonner Freundeskreis-Spur, verbunden mit einer ausdrücklichen Nichtauskunft über mögliche Nachrichtendiensteinsätze."
+      does_not_support: "Weder bestätigte Mitarbeit Weinmanns als BfV-Quelle im WSG-Freundeskreis noch ein tatsächlicher staatlicher Spendenauftrag noch eindeutige Identität der initialisierten P. Weinmann und P. W."
+    falsification: "Originalflugblatt, unabhängige Register und zeitgenössische Quellenführerakten könnten die pressevermittelte Zuordnung oder behauptete operative Aufgaben bestätigen beziehungsweise widerlegen."
 what_follows:
+  - text: "Die amtliche Antwort von 1993 dokumentiert eine konkrete parlamentarische Peter-Weinmann-Freundeskreis-Spur aus einer Zeitung über 1975, ohne die geheimdienstliche Tätigkeit in diesem Umfeld zu bestätigen."
+    claim_ids: ["CLM-DE-OKT-062"]
+  - text: "Eine bayerische Regierungsantwort 1977 dokumentiert Spenden und einen Freundeskreis als Finanzierungswege der WSG; eine nur privat überlieferte Einladung von 1976 nennt dabei Franz Lippert und P. Weinmann in Funktionen."
+    claim_ids: ["CLM-DE-OKT-058","CLM-DE-OKT-059"]
+  - text: "Die Bundesregierung verzeichnete Ende 1980 keine neuen behördlichen Informationen über fortdauernde Freundeskreis-Spenden und behandelte ein in Presseberichten erwähntes Nürnberger Konto als Hoffmanns Privatkonto."
+    claim_ids: ["CLM-DE-OKT-060"]
+  - text: "Eine Bundestagsfrage von 2009 machte eine ungeprüfte Hypothese über BfV-Finanzmittel und eine mit P. W. bezeichnete Person ausdrücklich aktenfähig."
+    claim_ids: ["CLM-DE-OKT-061"]
   - text: "Das 1988er Bologna-Gerichtsurteil dokumentiert eine AQURA-/Hoffmann-Interviewbehauptung vom 19.09.1980 und spätere italienische amtliche Gegenbewertungen; die zehn Tage später datierte BND-Meldung ist damit nicht automatisch eine unabhängige Bestätigung."
     claim_ids: ["CLM-DE-OKT-054", "CLM-DE-OKT-055", "CLM-DE-OKT-056"]
   - text: "Eine italienische Parlamentsveröffentlichung von 2001 benennt konkrete, bislang nur mittelbar geprüfte gerichtliche Zeugenaussagen über Rita Porenas mögliche SISMI-Kontakte und Zahlungen."
@@ -1076,6 +1169,14 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die Antwortverweigerung von 1993 über Peter Weinmann erlaubt keinen Schluss auf staatliche WSG-Finanzierung und identifiziert keine 1976/2009 nur initialisierte Person sicher."
+    claim_ids: ["CLM-DE-OKT-062"]
+  - text: "Die 1976er private Einladung und eine spätere parlamentarische Frage belegen weder die Identität ihres Finanzverwalters Franz Lippert mit einem BayLfV-V-Mann noch staatliche WSG-Spendengelder."
+    claim_ids: ["CLM-DE-OKT-058","CLM-DE-OKT-059"]
+  - text: "Der negative Regierungskenntnisstand von 1980 schließt verdeckte Zahlungen nicht aus und beweist nicht, dass 1976 und 1980 dasselbe Postscheckkonto beschrieben wurde."
+    claim_ids: ["CLM-DE-OKT-058","CLM-DE-OKT-060"]
+  - text: "Weder die behauptete VW-Bus-Beschaffung durch BfV-Gelder noch die Gleichsetzung des initialisierten P. W. mit P. Weinmann ist durch die Regierungsantwort von 2009 belegt."
+    claim_ids: ["CLM-DE-OKT-058","CLM-DE-OKT-061"]
   - text: "Weder die Wiederholung der Abu-Iyad-Erzählung in Gericht und Parlament noch Giovannones Propagandavermutung beweist einen gemeinsamen Ausbildungseinsatz, eine gezielte Falschmeldung des BND oder ihre tatsächliche Herkunft."
     claim_ids: ["CLM-DE-OKT-054", "CLM-DE-OKT-055", "CLM-DE-OKT-056"]
   - text: "Die parlamentarisch referierten Kontakte und Zahlungen an Porena belegen keine Steuerung ihres 1980er Interviews und erst recht keine Beteiligung an einem Anschlag."
@@ -1213,6 +1314,12 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
+- Die amtliche Antwort von 1993 dokumentiert eine konkrete parlamentarische Peter-Weinmann-Freundeskreis-Spur aus einer Zeitung über 1975, ohne die geheimdienstliche Tätigkeit in diesem Umfeld zu bestätigen.
+
+- Eine bayerische Regierungsantwort 1977 dokumentiert Spenden und einen Freundeskreis als Finanzierungswege der WSG; eine nur privat überlieferte Einladung von 1976 nennt dabei Franz Lippert und P. Weinmann in Funktionen.
+- Die Bundesregierung verzeichnete Ende 1980 keine neuen behördlichen Informationen über fortdauernde Freundeskreis-Spenden und behandelte ein in Presseberichten erwähntes Nürnberger Konto als Hoffmanns Privatkonto.
+- Eine Bundestagsfrage von 2009 machte eine ungeprüfte Hypothese über BfV-Finanzmittel und eine mit P. W. bezeichnete Person ausdrücklich aktenfähig.
+
 - Die Bundesregierung referierte 2014 BND-Aktenhinweise zu Hoffmanns mutmaßlichen Aufenthalten im Libanon und einer behaupteten gleichzeitigen Präsenz nicht identifizierter italienischer Rechtsextremisten in AQURA.
 - Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar.
 - Überlebende WSG-Akten wurden 2020/2021 im BayHStA-VS-Archiv verwahrt, die Erlanger Original-Ermittlungsakten gingen nach der Oktoberfest-Wiederaufnahme 2021 an das BayHStA zurück; die frühere Vollständigkeit bleibt offen.
@@ -1228,6 +1335,12 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag.
 
 ## Was folgt nicht?
+
+- Die Antwortverweigerung von 1993 über Peter Weinmann erlaubt keinen Schluss auf staatliche WSG-Finanzierung und identifiziert keine 1976/2009 nur initialisierte Person sicher.
+
+- Die 1976er private Einladung und eine spätere parlamentarische Frage belegen weder die Identität ihres Finanzverwalters Franz Lippert mit einem BayLfV-V-Mann noch staatliche WSG-Spendengelder.
+- Der negative Regierungskenntnisstand von 1980 schließt verdeckte Zahlungen nicht aus und beweist nicht, dass 1976 und 1980 dasselbe Postscheckkonto beschrieben wurde.
+- Weder die behauptete VW-Bus-Beschaffung durch BfV-Gelder noch die Gleichsetzung des initialisierten P. W. mit P. Weinmann ist durch die Regierungsantwort von 2009 belegt.
 
 - Die BND-Meldung benennt keine italienischen Personen oder Ordine-Nuovo-Mitgliedschaften; sie belegt weder eine tatsächliche gemeinsame Ausbildung noch ein gemeinsames Tatnetz oder eine Beteiligung an Anschlägen in München oder Bologna.
 - Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung.
@@ -1873,6 +1986,70 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Falsifikationskriterium:** Originalzeugnisse oder Finanzakten mit abweichenden Zahlen, Rollen und Zeitfenstern.
 
 
+### `CLM-DE-OKT-058`
+
+**Aussage:** Das aus einer privaten Sammlung digitalisierte Einladungsschreiben des WSG-Hoffmann-Freundeskreises zu einer Veranstaltung am 29. Oktober 1976 benennt einen Franz Lippert als Finanzverwalter, P. Weinmann als Ansprechpartner der Informationsstelle Bonn und ein Postscheck-Spendenkonto in Nürnberg.
+
+**Evidenz:** privat überlieferter, originalbildlich geprüfter, aber nicht unabhängig authentifizierter Briefscan; [`SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976` – Gesamtes Faksimile, Veranstaltung Freitag 29.10.1976 und Impressum; Commons-Upload aus privatem Archiv (2021).](https://commons.wikimedia.org/wiki/File:Brief_1976_Freundeskreis_zur_F%C3%B6rderung_der_Wehrsportgruppe_Hoffmann.jpg).
+
+- **Gegenprobe:** Privater Scan könnte unecht oder später reproduziert sein; der Namensgleichheit mit dem 2023 parlamentarisch genannten V-Mann Franz Lippert und der Initialen P. Weinmann/P. W. folgt keine nachgewiesene Personenidentität.
+- **Zu beschaffen:** Originalpapier samt Provenienz, Freundeskreis-Satzung/Registern, Quellenschutz- und Identitätsakten des BayLfV/BfV, Spenden- und Bankunterlagen.
+- **Tragweite:** Sichtbar überlieferte Funktions- und Namensangaben in einem zeitgenössisch behaupteten Privatbrief.
+- **Aussagegrenze:** Keine bestätigte Identität mit einer nachrichtendienstlichen Quelle, keine bewiesenen staatlichen Geldflüsse, keine geprüften Spendenhöhen.
+- **Falsifikationskriterium:** Originalbrief, historisches Register oder zeitgleiche Schriftstücke könnten Echtheit, Personenzuordnung oder Datum bestätigen oder widerlegen.
+
+
+### `CLM-DE-OKT-059`
+
+**Aussage:** Das bayerische Innenministerium erklärte im Juli 1977, die Wehrsportgruppe Hoffmann finanziere sich aus Spenden und einem Freundeskreis, habe ungefähr 50 Menschen ausgebildet und verfüge über Fahrzeuge und Waffen; es beschrieb laufende Ermittlungen, Beobachtung und eine seinerzeit als unzureichend beurteilte vereinsrechtliche Verbotsgrundlage.
+
+**Evidenz:** belegt als konkrete amtliche Aussage beziehungsweise als parlamentarischer Frage-/Antwortinhalt; [`SRC-DE-BAYLT-WSG-FINANZ-5905-1977` – Bayerischer Landtag Drs. 8/5905, S. 1–2, Antworten auf Fragen 1–5 von Innenminister Dr. Seidl am 12.07.1977.](https://www.bayern.landtag.de/www/ElanTextAblage_WP08/Drucksachen/0000005500/08-05905.pdf).
+
+- **Gegenprobe:** Ministerium könnte Schätzungen und Eigenangaben der WSG ungeprüft übernommen und das Vereinsrecht beziehungsweise die Gefahrenlage falsch bewertet haben.
+- **Zu beschaffen:** Originaler VS-Bericht Bayern 1976, WSG-Kassenbücher und Förderkreismitglieder, Kauf-/Zulassungs-/Bankbelege, BayStMI/BMI-Verbotsakten und Einsatzjournale.
+- **Tragweite:** Amtlich dokumentierte Spenden-/Freundeskreis-Finanzierung und frühzeitiger staatlicher Kenntnisstand zu WSG-Fahrzeugen, Bewaffnung und Beobachtung.
+- **Aussagegrenze:** Keine Namen der Spender, keine behördlichen Subventionen, kein Nachweis lückenloser Observation oder konkreten Tatvorwissens 1980.
+- **Falsifikationskriterium:** Zeitgenössische Originalkonten und Verfassungsschutzakten können die Regierungsangaben korrigieren, bestätigen oder zeitlich eingrenzen.
+
+
+### `CLM-DE-OKT-060`
+
+**Aussage:** Die Bundesregierung erklärte am 23. Dezember 1980, den Sicherheitsbehörden lägen keine Informationen über fortlaufende Spenden an die verbotene WSG Hoffmann vor, Aktivitäten des Freundeskreises seien seit Jahren nicht mehr festgestellt worden und das in damaligen Presseberichten erwähnte Nürnberger Postscheckkonto sei Hoffmanns Privatkonto.
+
+**Evidenz:** belegt als konkrete amtliche Aussage beziehungsweise als parlamentarischer Frage-/Antwortinhalt; [`SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981` – Bundestag Drs. 9/81 vom 02.01.1981, gedruckte S. 7, Frage 14, Antwort Staatssekretär Dr. Fröhlich vom 23.12.1980.](https://dserver.bundestag.de/btd/09/000/0900081.pdf).
+
+- **Gegenprobe:** Unbekannte Finanzierungswege könnten weiter bestanden haben; das 1980er Pressekonto muss nicht mit dem in der 1976er Privatkopie genannten Konto identisch sein.
+- **Zu beschaffen:** Zeitgenössischer Presseartikel, unterscheidbare Postscheckkonten und Kontoauszüge, Spendenregister und interne BfV/BMI-Auskunftsgrundlagen.
+- **Tragweite:** Zeitgenössische Regierungsauskunft als Gegenbeleg zu pauschaler Behauptung ununterbrochenen Freundeskreisbetriebs nach dem WSG-Verbot.
+- **Aussagegrenze:** Kein Beweis, dass nie mehr Geld floss, und keine festgestellte Identität der zwei getrennt berichteten Nürnberger Konten.
+- **Falsifikationskriterium:** Bank- und Vereinsakten oder behördliche Eingangsmeldungen könnten die amtliche Wissenslücke oder Kontoeinordnung widerlegen.
+
+
+### `CLM-DE-OKT-061`
+
+**Aussage:** Eine Bundestagsfrage von 2009 erhob unter Verweis auf angebliche Stasi-Unterlagen die Behauptung, eine als P. W. bezeichnete ehemalige V-Person habe einen VW-Bus der Wehrsportgruppe Hoffmann aus BfV-Geldern beschafft; die Bundesregierung bestätigte den behaupteten Geldfluss nicht, sondern verwies auf ihre allgemeine Vorbemerkung.
+
+**Evidenz:** belegt als konkrete amtliche Aussage beziehungsweise als parlamentarischer Frage-/Antwortinhalt; [`SRC-DE-BT-OKT-1613527-2009` – Bundestag Drs. 16/13527, gedruckte S. 16, Frage 27 a–d samt Antwortverweis auf Vorbemerkung 2f.](https://dserver.bundestag.de/btd/16/135/1613527.pdf).
+
+- **Gegenprobe:** Frage könnte ungesicherte Sekundärliteratur und nicht authentifizierte MfS-Notizen zitieren; eine mögliche Beschaffung könnte aus privaten Quellen oder durch eine andere Person erfolgt sein.
+- **Zu beschaffen:** Echte BStU/MfS-Akte, BfV-Quellen- und Ausgabejournal, VW-Bus-Kauf-/Zulassungs-/Bankbelege und eindeutige Identitätsverknüpfung P. W. zu P. Weinmann des 1976er Briefes.
+- **Tragweite:** Offiziell dokumentierte, testbare Fragestellerhypothese mit fehlender positiver Bestätigung der Bundesexekutive.
+- **Aussagegrenze:** Weder belegt sie einen BfV-finanzierten VW-Bus noch einen Auftrag zur WSG-Finanzierung, noch identifiziert sie P. W. mit einer konkret benannten Person.
+- **Falsifikationskriterium:** Authentische Zahlungsanweisung, Fahrzeugvertrag, V-Mann-Personalakte oder gegenteilige nachweisbare Bankbelege könnten die Behauptung klären.
+
+
+### `CLM-DE-OKT-062`
+
+**Aussage:** Eine Bundestagsantwort von 1993 dokumentiert, dass eine parlamentarische Anfrage unter Berufung auf einen damaligen Zeitungsbericht Peter Weinmann als angeblichen Kontakt einer Bonner Informationsstelle auf einem WSG-Freundeskreis-Flugblatt von 1975 benannte und nach BfV-Einsätzen im WSG-Umfeld fragte; die Bundesregierung bestätigte oder dementierte diese geheimdienstlichen Einzelsachverhalte ausdrücklich nicht.
+
+**Evidenz:** als parlamentarischer Frage-/Antwortinhalt belegt; [`SRC-DE-BT-WSG-WEINMANN-124605-1993` – Bundestag Drs. 12/4605 (22.03.1993), S. 1–3, Zitat aus General-Anzeiger und Fragen 1/10; S. 4, Antwort Bundesregierung 17.03.1993 ohne Bestätigung unabhängig vom behaupteten Sachverhalt.](https://dserver.bundestag.de/btd/12/046/1204605.pdf).
+
+- **Gegenprobe:** Die 1993 von Abgeordneten zitierte Presseberichterstattung kann falsch oder unvollständig sein; amtliche Auskunftsverweigerung ist kein Beweis für eine tatsächliche Quellenführung oder einen WSG-Auftrag.
+- **Zu beschaffen:** Originalflugblatt 1975, General-Anzeiger vom 22.02.1993, authentische BfV/MfS-Personal- und Auftragsakten sowie Namenskonkordanz zum privat überlieferten Brief 1976.
+- **Tragweite:** Eine amtlich lokalisierte parlamentarische Frage zur personellen Bonner Freundeskreis-Spur, verbunden mit einer ausdrücklichen Nichtauskunft über mögliche Nachrichtendiensteinsätze.
+- **Aussagegrenze:** Weder bestätigte Mitarbeit Weinmanns als BfV-Quelle im WSG-Freundeskreis noch ein tatsächlicher staatlicher Spendenauftrag noch eindeutige Identität der initialisierten P. Weinmann und P. W.
+- **Falsifikationskriterium:** Originalflugblatt, unabhängige Register und zeitgenössische Quellenführerakten könnten die pressevermittelte Zuordnung oder behauptete operative Aufgaben bestätigen beziehungsweise widerlegen.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1896,6 +2073,10 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BT-GLADIO-18701-2014` – Bundestag 18/701, Bundesregierung 2014 zur BND-Meldung Hoffmann/Libanon/AQURA/italienische Rechtsextremisten](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
 - [`SRC-IT-COURT-BOLOGNA-AQURA-1988` — Bologna-Ersturteil vom 11.07.1988, Faksimile mit Interview und CESIS-Unterlagen](https://www.stragi.it/archivio/doc/638.pdf)
 - [`SRC-IT-PARL-AQURA-POR-XXIII64-2001` — Italienischer parlamentarischer Mantica/Fragala-Beitrag, 2001 amtlich publiziert, nicht abgestimmt](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
+- [`SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976` — privatarchivierte WSG-Freundeskreis-Einladung 1976, Echtheit ungeklärt](https://commons.wikimedia.org/wiki/File:Brief_1976_Freundeskreis_zur_F%C3%B6rderung_der_Wehrsportgruppe_Hoffmann.jpg)
+- [`SRC-DE-BAYLT-WSG-FINANZ-5905-1977` — Bayerischer Landtag 8/5905, WSG-Spenden/Freundeskreis 1977](https://www.bayern.landtag.de/www/ElanTextAblage_WP08/Drucksachen/0000005500/08-05905.pdf)
+- [`SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981` — Bundestag 9/81, Frage 14, Negativauskunft 23.12.1980](https://dserver.bundestag.de/btd/09/000/0900081.pdf)
+- [`SRC-DE-BT-WSG-WEINMANN-124605-1993` — Bundestag 12/4605 (1993), Weinmann-Fragen mit amtlicher Nichtauskunft zu Nachrichtendiensten](https://dserver.bundestag.de/btd/12/046/1204605.pdf)
 
 ## Amtliche Sekundär- und Gegenquellen
 
