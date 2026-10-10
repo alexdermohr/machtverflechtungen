@@ -96,7 +96,7 @@ Diese Matrix macht die **Ermittlung nach dem Anschlag** und den **Aktenverkehr n
 2. **Juni 2012:** Landesregierung meldete fehlende BayLfV-Unterlagen im Hauptstaatsarchiv; die Antwort wurde **2014 gerichtlich beanstandet** [Q11].
 3. **Oktober 2014:** 29 zusätzliche BLKA-Spurenakten ins Hauptstaatsarchiv übergeben [Q12].
 4. **2014–2020:** Nach Regierungsantwort 2021 Unterlagen aus den genannten Archiven und Diensten beigezogen [Q13]. Die Reihenfolge und Art pro Stelle sind **nicht aufgeschlüsselt**.
-5. **Dezember 2021:** Ein Teil der Originalakten zurück, andere Beiakten noch bei GBA; Abschlussprognose unmöglich [Q13].
+5. **Dezember 2021:** Ein Teil der beigezogenen Unterlagen/Beiakten zurückgegeben, andere noch beim GBA; ob Original, Kopie oder andere Übermittlungsform, ist für die einzelnen Teilbestände nicht aufgeschlüsselt; Abschlussprognose unmöglich [Q13].
 6. **2026:** **Kein neuer amtlicher Gesamtstatus** aus diesen Quellen ableitbar.
 
 **Konkrete nächste Beschaffung:** zuerst Bestands-/Übergabeliste **BArch B 206/3009**, dann Soko-„26. September“-Aktenbeiziehungsjournal und bayrische Archivsignaturen der 29 Spurenakten, zuletzt Restbestandsliste der GBA-Beiakten per Dezember 2021 und nachfolgende Rückgaben. Inhaltliche Vorwissenshypothesen erst danach an überprüfbare *vor* dem 26. September 1980 datierte Dokumente binden.

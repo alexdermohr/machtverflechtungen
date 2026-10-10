@@ -613,7 +613,7 @@ claims:
       does_not_support: "Keine Aussage, dass BayLfV noch originale 1980er Tatakten besaß, die 2011 verborgen wurden; weder Anzahl noch Inhalt von BayLfV-Meldungen, ein Vorwissen der Dienste oder eine Zugehörigkeit der 29 BLKA-Spurenakten ist damit nachgewiesen."
     falsification: "Ein authentisches Beiziehungsverzeichnis, das die Regierungsantwort falsch zuordnet oder ausdrücklich nur anderweitige Unterlagen betrifft, würde die Reichweite dieses Befunds ändern."
   - id: "CLM-DE-OKT-035"
-    text: "Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 nur ein Teil der beigezogenen Original- und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte."
+    text: "Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 ein Teil der beigezogenen Unterlagen und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte."
     classification: "fact"
     evidence_level: "established"
     sources: ["SRC-DE-BT-OKT-200358-2021"]
@@ -1148,7 +1148,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 
 ### `CLM-DE-OKT-035`
 
-**Aussage:** Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 nur ein Teil der beigezogenen Original- und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte.
+**Aussage:** Nach Regierungsangaben vom 30. Dezember 2021 war nach dem Ermittlungsabschluss 2020 ein Teil der beigezogenen Unterlagen und Beiakten an die überlassenden Stellen zurückgegeben; weitere Unterlagen verblieben bei der Bundesanwaltschaft, die keine abschließende Prognose zum Rückgabezeitpunkt abgeben konnte.
 
 **Evidenz:** belegt; [`SRC-DE-BT-OKT-200358-2021` – Gedruckte S. 2–3, Antworten auf Fragen 2 und 3](https://dserver.bundestag.de/btd/20/003/2000358.pdf).
 
