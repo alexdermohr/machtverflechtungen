@@ -1016,4 +1016,4 @@ Deutscher Bundestag / Bundesregierung · 2017-03-22 · Stufe **A** · Primärque
 
 [PDF öffnen](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
 
-Fundstelle: Gedruckte S. 2, Antwort 4: nicht eingestufte BND-Unterlagen zu Oktoberfestattentat und WSG Hoffmann im Libanon, Abgaben Februar 2014 und Juni 2016, BArch B 206/3009
+Fundstelle: Gedruckte S. 2, Antworten 1–4: BayHStA→BLKA 26.03.2015, BKA→GBA 14.01.2015 (Erlanger Akten); BND-Abgaben Februar 2014/Juni 2016 unter BArch B 206/3009

@@ -684,11 +684,47 @@ claims:
       supports: "Einen amtlich dokumentierten zweiten BND-Archivübergang im Juni 2016 und den konkreten thematischen Bezug zu WSG Hoffmann im Libanon."
       does_not_support: "Keinen Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests."
     falsification: "Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-039"
+    text: "Nach Angaben der Bundesregierung übergab das Bundeskriminalamt am 14. Januar 2015 Aktenbestandteile zum Mord an Shlomo Lewin und Frida Poeschke im Rahmen der wiederaufgenommenen Oktoberfest-Ermittlungen an den Generalbundesanwalt."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 2"
+        note: "Die Bundesregierung nennt das konkrete Datum 14.01.2015 und die Übermittlung der beim BKA geführten Aktenbestandteile zu Lewin/Poeschke an den GBA im wiederaufgenommenen Oktoberfestverfahren; kein abschließendes Einzelinventar."
+    counterevidence: []
+    alternatives: ["Die Akten wurden im Rahmen einer weit gefassten Relevanzprüfung beigezogen; die Aktenübermittlung kann der Abklärung einer bloßen Milieuparallele gedient haben und begründet keine tatsächliche gemeinsame Täterschaft oder Materialverbindung."]
+    missing_evidence: ["Originales BKA-Abgabeverzeichnis vom 14.01.2015, GBA-Eingangsvermerk, Soko-Auswertungsverzeichnis, Prüfungsergebnis sowie die eigenständigen Erlanger GBA-Akten unter BArch B 362/6510–6520."]
+    scope:
+      supports: "Einen konkret datierten, amtlich bestätigten BKA-zu-GBA-Aktenfluss 2015 zwischen zwei getrennten rechtsterroristischen Ermittlungsgegenständen."
+      does_not_support: "Weder eine Aktenvollständigkeit noch eine identische Tätergruppe, einen nachgewiesenen Oktoberfest-Tatbeitrag durch Behrendt oder eine Nachrichtendienststeuerung."
+    falsification: "Originale BKA-/GBA-Übermittlungs- und Eingangsprotokolle mit anderem Datum, Empfänger oder Aktengegenstand würden diese behördliche Zusammenfassung präzisieren oder widerlegen."
+  - id: "CLM-DE-OKT-040"
+    text: "Das Bayerische Hauptstaatsarchiv übergab am 26. März 2015 auf Anforderung des Generalbundesanwalts polizeiliche Ermittlungs- und Spurenakten sowie Unterlagen zur Wiederaufnahmeprüfung im Erlanger Mordfall Lewin/Poeschke an das Bayerische Landeskriminalamt zur Prüfung auf Relevanz für das wiederaufgenommene Oktoberfest-Ermittlungsverfahren."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 1"
+        note: "Behördliche Darstellung des Aktenverkehrs vom BayHStA zum BLKA am 26.03.2015 auf Veranlassung des GBA, ausdrücklich zur Prüfung der Ermittlungsrelevanz. Die Aussage belegt noch keine erfolgte vollständige Auswertung."
+    counterevidence: []
+    alternatives: ["Die breit angelegte Aktenanforderung kann vorsorglich erfolgt sein, ohne dass sich ein personeller, materieller oder organisatorischer Zusammenhang zwischen Erlangen und dem Oktoberfestattentat bestätigte."]
+    missing_evidence: ["BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung."]
+    scope:
+      supports: "Eine separat datierte und adressierte Aktenbeiziehung im Wiederaufnahmeverfahren 2014–2020 und einen klar bestimmbaren Recherchepfad."
+      does_not_support: "Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten."
+    falsification: "Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren."
 what_follows:
   - text: "Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven."
     claim_ids: ["CLM-DE-OKT-034"]
   - text: "Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv."
     claim_ids: ["CLM-DE-OKT-036"]
+  - text: "Die 2015er Oktoberfest-Wiederaufnahme führte zu zwei amtlich datierten Beiziehungen von Ermittlungsunterlagen aus dem getrennten Erlanger Doppelmordkomplex."
+    claim_ids: ["CLM-DE-OKT-039", "CLM-DE-OKT-040"]
   - text: "Die Bundesregierung dokumentierte eine weitere BND-Aktenübergabe unter B 206/3009 im Juni 2016 mit Bezügen zur WSG Hoffmann im Libanon."
     claim_ids: ["CLM-DE-OKT-038"]
   - text: "Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung."
@@ -700,6 +736,8 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten."
+    claim_ids: ["CLM-DE-OKT-039", "CLM-DE-OKT-040"]
   - text: "Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980."
     claim_ids: ["CLM-DE-OKT-034", "CLM-DE-OKT-036"]
   - text: "Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung."
@@ -1218,6 +1256,30 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Zu beschaffen:** Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands.
 - **Aussagegrenze:** Kein Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests.
 - **Falsifikationskriterium:** Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-039`
+
+**Aussage:** Nach Angaben der Bundesregierung übergab das Bundeskriminalamt am 14. Januar 2015 Aktenbestandteile zum Mord an Shlomo Lewin und Frida Poeschke im Rahmen der wiederaufgenommenen Oktoberfest-Ermittlungen an den Generalbundesanwalt.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf).
+
+- **Amtlicher Befund:** Die Bundesregierung nennt das konkrete Datum 14.01.2015 und die Übermittlung der beim BKA geführten Aktenbestandteile zu Lewin/Poeschke an den GBA im wiederaufgenommenen Oktoberfestverfahren; kein abschließendes Einzelinventar.
+- **Alternative:** Die Akten wurden im Rahmen einer weit gefassten Relevanzprüfung beigezogen; die Aktenübermittlung kann der Abklärung einer bloßen Milieuparallele gedient haben und begründet keine tatsächliche gemeinsame Täterschaft oder Materialverbindung.
+- **Zu beschaffen:** Originales BKA-Abgabeverzeichnis vom 14.01.2015, GBA-Eingangsvermerk, Soko-Auswertungsverzeichnis, Prüfungsergebnis sowie die eigenständigen Erlanger GBA-Akten unter BArch B 362/6510–6520.
+- **Aussagegrenze:** Weder eine Aktenvollständigkeit noch eine identische Tätergruppe, einen nachgewiesenen Oktoberfest-Tatbeitrag durch Behrendt oder eine Nachrichtendienststeuerung.
+- **Falsifikationskriterium:** Originale BKA-/GBA-Übermittlungs- und Eingangsprotokolle mit anderem Datum, Empfänger oder Aktengegenstand würden diese behördliche Zusammenfassung präzisieren oder widerlegen.
+
+### `CLM-DE-OKT-040`
+
+**Aussage:** Das Bayerische Hauptstaatsarchiv übergab am 26. März 2015 auf Anforderung des Generalbundesanwalts polizeiliche Ermittlungs- und Spurenakten sowie Unterlagen zur Wiederaufnahmeprüfung im Erlanger Mordfall Lewin/Poeschke an das Bayerische Landeskriminalamt zur Prüfung auf Relevanz für das wiederaufgenommene Oktoberfest-Ermittlungsverfahren.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 1](https://dserver.bundestag.de/btd/18/116/1811602.pdf).
+
+- **Amtlicher Befund:** Behördliche Darstellung des Aktenverkehrs vom BayHStA zum BLKA am 26.03.2015 auf Veranlassung des GBA, ausdrücklich zur Prüfung der Ermittlungsrelevanz. Die Aussage belegt noch keine erfolgte vollständige Auswertung.
+- **Alternative:** Die breit angelegte Aktenanforderung kann vorsorglich erfolgt sein, ohne dass sich ein personeller, materieller oder organisatorischer Zusammenhang zwischen Erlangen und dem Oktoberfestattentat bestätigte.
+- **Zu beschaffen:** BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung.
+- **Aussagegrenze:** Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten.
+- **Falsifikationskriterium:** Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren.
 
 ## Originalquellen der vertieften Prüfung
 
