@@ -64,6 +64,20 @@ Eine `Smoking Gun` ist in dieser Sammlung **kein universeller Beweis für ein Ne
 | **D6 – Tatmittelspuren aus Köhlers Elternhaus** | Bundesregierung 2009 nennt forensische Farbanhaftungen und Metallspuren, die Tatmittelbestandteile mit Gegenständen im Elternhaus verbinden. [Q10, S. 6] | Das ist ein relevanter Gegenbefund gegen ausschließlich externe Herstellung, beweist jedoch keine Alleintäterschaft; Originalgutachten prüfen. |
 | **D7 – Italienische Festnahmen 1980** | Bundesregierung 2009: keine Hinweise, dass etwa zwanzig Rechtsextreme wegen einer **Münchner** Mittäterschaft festgenommen wurden; die bekannte italienische Festnahmewelle betraf den **Anschlag in Bologna** vom 2. August. [Q10, S. 4] | Verwechslung der Anschläge korrigieren; unmittelbare Verbindung wäre gesondert nachzuweisen. |
 
+### E. Aktenüberlieferung 2012–2014 (Nachtrag zu A–D)
+
+Diese ergänzende Ebene untersucht **Überlieferungs- und Auskunftsentscheidungen**, nicht behauptete Täterbeiträge. Die ursprünglichen 33 Spuren in A–D bleiben unverändert nummeriert.
+
+| Aktenfund | Gesicherter Gegenstand | Gegenprobe / ausschlaggebendes Archivstück |
+| --- | --- | --- |
+| **E1 – Gerichtliche Beanstandung BayLfV-Archivakten** | Der Bayerische Verfassungsgerichtshof entschied am **20.03.2014** (Vf. **72-IVa-12**, Rn. **143–145**), die Staatsregierung habe die parlamentarische Frage nach fehlenden BayLfV-Unterlagen zum Oktoberfestattentat unzureichend beantwortet. Aus der Antwort war eine hinreichende Nachforschung nicht ersichtlich. [Q11, S. 59] | Originalantwort LT-Drs. **16/12950**, Nachforschungsvermerke sowie Anbietungs-/Löschungsprotokolle prüfen. Das Urteil stellt weder rechtswidrige Vernichtung konkreter Oktoberfestakten noch staatliche Tatbeteiligung fest. |
+| **E2 – 29 separat überlieferte BLKA-Spurenakten** | Im Ausschussbericht vom **02.10.2014** wird der damalige Landespolizeipräsident mit der Feststellung wiedergegeben, im BLKA-Archiv seien **29 Spurenakten** gefunden worden, die nicht Teil der früheren GBA-Sachakten geworden waren; sie seien teilweise geschwärzt ans Hauptstaatsarchiv abgegeben worden. [Q12] | Alle 29 Archivsignaturen, ursprüngliche Auswahlkriterien, Übernahmenachweise und Soko-Auswertung 2014–2020 einzeln rekonstruieren. BLKA-Spurenakten sind **nicht** identisch mit fehlenden BayLfV-Geheimdienstakten; Separatführung ist nicht automatisch eine Vertuschung. |
+| **E3 – Allgemeine Archivierungsvereinbarung** | Der Verfassungsgerichtshof beanstandete im selben Urteil unzureichend erläuterte allgemeine Regeln einer als Verschlusssache klassifizierten Archivierungsvereinbarung zwischen BayLfV und Hauptstaatsarchiv vom **01.02.2003**. [Q11, Rn. 132–135] | Originalvereinbarung und tatsächliche Anbietungsverzeichnisse suchen. Ein allgemeines Geheimhaltungsproblem ist **kein** Beleg für eine Oktoberfest-spezifische Löschungsweisung. |
+
+**Besonderes Rechercheproblem:** Der Ausschussbericht erwähnt einen zusätzlichen Aktenordner und unterschiedene Zugangsmöglichkeiten für BayLfV-, Innenministeriums- und WSG-Hoffmann-Unterlagen; **dessen Verwahrungsort ist aus dem Bericht allein nicht eindeutig identifizierbar**. Vor einem behaupteten Widerspruch zum 2012 gemeldeten BayLfV-Bestand zuerst amtliche Inventare und Primärprotokolle beschaffen.
+
+**Offener Beschaffungs- und Falsifikationspfad:** [Issue #23 – BayLfV-Aktenstand 2011, Archivierung 2012/2014 und 29 Spurenakten](https://github.com/alexdermohr/machtverflechtungen/issues/23).
+
 ## Stärkste offene Hypothesen und Gegenhypothesen
 
 **H1 – Mittäter oder tatbezogene Helfer:** Zeitgenössische Zeugenaussagen, die eingeschränkt rekonstruktionsfähige Beweisführung und GBA-Zitate machen eine Tatbeteiligung weiterer Personen *prüfwürdig*. Stärkste Gegenhypothese: unzuverlässige Wahrnehmungen nach einer chaotischen Explosion, falsche Zuordnung und Köhlers dokumentierte eigene Vorbereitung. Falsifikation/Bestätigung: eine forensisch oder zeitgenössisch dokumentierte Beteiligungshandlung mit konkreter Person.
@@ -96,5 +110,7 @@ Eine `Smoking Gun` ist in dieser Sammlung **kein universeller Beweis für ein Ne
 - **Q8:** [Bundesarchiv: „Terror auf der Wiesn“ und Faksimiles aus B 141/68772](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/) – amtliche historische Archivdarstellung; nicht automatisch das gesamte Originalverfahren.
 - **Q9:** [Stasi-Unterlagen-Archiv: Bericht über VS-Ermittlungen „Aktion Wandervogel“](https://www.stasi-mediathek.de/medien/bericht-ueber-ermittlungen-des-verfassungsschutzes-im-vorfeld-des-oktoberfestattentats-1980/blatt/22/) – zeitgenössische MfS-Überlieferung, Behauptungsstatus beachten.
 - **Q10:** [BT-Drs. 16/13527, 22.06.2009](https://dserver.bundestag.de/btd/16/135/1613527.pdf) – früher Behördenstand zu Bologna-Anruferin, italienischen Festnahmen und Tatmittelspuren.
+- **Q11:** [BayVerfGH, Entscheidung Vf. 72-IVa-12, 20.03.2014, Rn. 132–135 und 143–145](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf) – Primärentscheidung zu parlamentarischer Auskunft und Aktenarchivierung, kein Vernichtungsnachweis.
+- **Q12:** [Bayerischer Landtag, Bericht zum Oktoberfestattentat, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/) – amtlicher Bericht über 29 BLKA-Spurenakten und differenzierte Aktenzugänge.
 
 **Wichtig:** Der Aktenfund, dass eine Behörde bestimmte Informationen besaß oder eine Behauptung aufstellte, belegt zunächst diesen Akteninhalt. Ob Meldungen zutrafen und kausal an einem Anschlag beteiligt waren, bleibt eigenständiger Forschungsgegenstand.

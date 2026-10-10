@@ -973,3 +973,25 @@ Deutscher Bundestag / Bundesregierung · 2009-06-22 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/16/135/1613527.pdf)
 
 Fundstelle: S. 4–6, Fragen 4, 6 und 8; anonyme Bologna-Anruferin, italienische Festnahmen und kriminaltechnische Spuren im Köhler-Elternhaus
+
+<a id="src-de-bayvfgh-okt-2014"></a>
+## SRC-DE-BAYVFGH-OKT-2014
+
+**[Bayerischer Verfassungsgerichtshof, Entscheidung Vf. 72-IVa-12 vom 20.03.2014](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)**
+
+Bayerischer Verfassungsgerichtshof · 2014-03-20 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
+
+Fundstelle: Rn. 143–145, gedruckte S. 59 (Auskunftsdefizit); Antwort von 2012 auf S. 17; Gesamtentscheidung S. 3
+
+<a id="src-de-baylt-okt-spuren-2014"></a>
+## SRC-DE-BAYLT-OKT-SPUREN-2014
+
+**[Bericht der Staatsregierung zum Oktoberfestattentat im Verfassungsausschuss am 2. Oktober 2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)**
+
+Bayerischer Landtag · 2014-10-02 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
+
+Fundstelle: Abschnitt „Viele Akten können nun eingesehen werden“; Bericht Landespolizeipräsident Schmidbauer zu 29 BLKA-Spurenakten und Abgabe an das Hauptstaatsarchiv
