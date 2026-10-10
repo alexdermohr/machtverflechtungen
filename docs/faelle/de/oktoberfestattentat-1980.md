@@ -460,9 +460,30 @@ claims:
       supports: "Die dem Bundestag mitgeteilten forensischen Anhaltspunkte für Köhlers eigenen Beitrag zur Tatmittelvorbereitung."
       does_not_support: "Keinen Ausschluss fremder Tatbeteiligung und keine detailgenaue Rekonstruktion der gesamten Herstellung."
     falsification: "Neue authentische Laborberichte, die die beschriebenen Spurenvergleiche nicht bestätigen oder auf Kontamination zurückführen, würden den Befund schwächen."
+  - id: "CLM-DE-OKT-027"
+    text: "Das Bundesarchiv dokumentiert, dass BLKA und Generalbundesanwalt in ihren Abschlüssen von 1981 beziehungsweise 1982 von Köhler als Alleintäter ausgingen und damals keine politische Tatmotivation feststellten."
+    classification: "fact"
+    evidence_level: "strong"
+    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025"]
+    evidence:
+      - source: "SRC-DE-BARCH-OKTOBERFEST-2025"
+        directness: "direct"
+        locator: "Abschnitt „(K)ein rechtsextremes Attentat?“; Faksimiles des Kanzleramtsschreibens vom 11.08.1981 und der GBA-Einstellung vom 23.11.1982"
+        note: "Der Archivbeitrag referiert ausdrücklich die damalige Einzeltäter- und unpolitische Motivdeutung beider Ermittlungsabschlüsse und benennt ein zeitgenössisches Kanzleramtsschreiben vom August 1981."
+    counterevidence:
+      - source: "SRC-DE-BT-OKT-MOTIV-2020"
+        directness: "direct"
+        locator: "hib 941/2020, Bewertung des GBA vom 06.07.2020"
+        note: "Die spätere Bewertung als rechtsextremistisch widerspricht der sachlichen Tragfähigkeit der früheren unpolitischen Motivdeutung, aber nicht der Tatsache, dass diese früher vertreten wurde."
+    alternatives: ["Die frühere unpolitische Motivdeutung kann aus einer Fehleinschätzung der Beweislage entstanden sein; aus ihrem späteren Widerruf folgt keine absichtliche Täuschung."]
+    missing_evidence: ["Die vollständige Einstellungsverfügung 1982 und der BLKA-Schlussvermerk 1981 einschließlich aller Motivausführungen im Original miteinander und mit 2020 vergleichen."]
+    scope:
+      supports: "Dokumentiert die damalige amtliche Bewertung aus der nachvollziehbar benannten Archivrekonstruktion als Voraussetzung des Vergleichs mit 2020."
+      does_not_support: "Keine Feststellung, dass Köhlers Tat historisch unpolitisch gewesen sei oder dass die damaligen Ermittler bewusst ein politisches Motiv unterdrückt hätten."
+    falsification: "Authentische vollständige damalige Schlussvermerke, die bereits ausdrücklich eine rechtsextremistische Motivation als tragende Schlussbewertung feststellten, würden diese Zusammenfassung in Frage stellen."
 what_follows:
-  - text: "Die Ermittlungsbewertung des politischen Motivs änderte sich 2020 grundlegend gegenüber dem älteren Abschluss; die staatliche Quellenlage zum Attentat kann mit zeitgenössischen Akten verglichen werden."
-    claim_ids: ["CLM-DE-OKT-003", "CLM-DE-OKT-004"]
+  - text: "Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch."
+    claim_ids: ["CLM-DE-OKT-027", "CLM-DE-OKT-003"]
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
@@ -809,6 +830,20 @@ Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archiviert
 - **Gegenprobe:** Eine nachgewiesene Tatmittelbearbeitung durch Köhler kann parallel zu Hilfen anderer Personen stattgefunden haben; Spuren am Wohnort beweisen keine ausschließliche Alleinherstellung.
 - **Offen:** Originale BKA-/BLKA-Laborberichte, Materialvergleich und vollständige Fotodokumentation samt Kette der sichergestellten Gegenstände.
 - **Aussagegrenze:** Keinen Ausschluss fremder Tatbeteiligung und keine detailgenaue Rekonstruktion der gesamten Herstellung.
+
+### `CLM-DE-OKT-027`
+
+**Aussage:** Das Bundesarchiv dokumentiert, dass BLKA und Generalbundesanwalt in ihren Abschlüssen von 1981 beziehungsweise 1982 von Köhler als Alleintäter ausgingen und damals keine politische Tatmotivation feststellten.
+
+**Typ:** Tatsachenbehauptung · **Evidenz:** stark gestützt
+
+- **Stütze [`SRC-DE-BARCH-OKTOBERFEST-2025`](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/):** Archivrekonstruktion, Abschnitt „(K)ein rechtsextremes Attentat?“ mit Verweisen auf Kanzleramtsvermerk vom 11. August 1981 und GBA-Einstellung vom 23. November 1982.
+- **Gegenbefund:** Die erneute [GBA-Bewertung von 2020](https://www.bundestag.de/webarchiv/presse/hib/2020_09/792454-792454) wertete die Tat als rechtsextremistisch.
+- **Alternative:** Die frühere Einschätzung kann eine sachliche Fehlbewertung darstellen, ohne dass die beteiligten Ermittler das Motiv absichtlich verborgen haben müssen.
+- **Beweislücke:** Den Originalwortlaut beider Abschlüsse und die Beweiswürdigung 2020 direkt vergleichen.
+- **Tragweite:** Nachvollziehbare frühere Behördenbewertung im dokumentierten Archivbefund.
+- **Grenze:** Die Archivrekonstruktion beweist weder tatsächliche Unpolitischkeit noch bewusste Vertuschung.
+
 
 ## Originalquellen der vertieften Prüfung
 
