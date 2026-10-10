@@ -1028,3 +1028,25 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1980-10-29 · Stufe **A** · Primärqu
 [Seite öffnen](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
 
 Fundstelle: BArch, MfS, HA III, Nr. 7729; Stasi-Mediathek, facsimilierte Berichtsstrecke zu LKA/BKA/Soko, digitale Blattseiten 149–152 (VS-NfD-Bericht, 27.09. Durchsuchungen, 28./29.09. Lageberichte); getrennt von MfS HA XXII 5749 Bd. 4
+
+<a id="src-de-barch-soko-zwischenbericht-1980"></a>
+## SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980
+
+**[Sonderkommission Theresienwiese: zeitgenössischer Zwischenbericht zur Ermittlungsführung](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)**
+
+Bundesarchiv / Soko Theresienwiese (BLKA/BKA) · 1980-09 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
+
+Fundstelle: BArch B 141/68772, Image 0643; Faksimile 'Zwischenbericht der Soko Theresienwiese', Seite 1, Abschnitt 'Ermittlungsführung': Übernahme durch GBA 27.09.1980, 14.10 Uhr; auf der amtlichen Bundesarchiv-Ausstellungsseite in der 31-seitigen Dokumentengruppe
+
+<a id="src-de-polizei-by-okt-chronologie-2025"></a>
+## SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025
+
+**[Bayerische Polizei: 26. September 1980 – Das Oktoberfestattentat](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)**
+
+Bayerische Polizei / Bayerisches Landeskriminalamt · 2025 · Stufe **B** · Sekundär-/Forschungsquelle
+
+[Seite öffnen](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
+
+Fundstelle: Abschnitt 'Die Ermittlungen': 'Am 27. September um 11 Uhr übernahm Generalbundesanwalt Kurt Rebmann das Verfahren als Ermittlungsführer'
