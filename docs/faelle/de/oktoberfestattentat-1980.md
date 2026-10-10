@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -663,11 +663,34 @@ claims:
       supports: "Einen direkt belegten amtlichen negativen Kenntnis-/Auskunftsstand gegen pauschale Behauptungen, die gesamte Oktoberfest-Sachakte des BfV sei bereits vor 2015 vernichtet worden."
       does_not_support: "Keine Aussage, dass niemals einzelne BfV-Daten gelöscht oder alle damaligen Meldungen erhalten wurden; keine durchgeführte externe physische Vollständigkeitsprüfung der einzelnen Aktenbände."
     falsification: "Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen."
+  - id: "CLM-DE-OKT-038"
+    text: "Die Bundesregierung erklärte 2017, dass der BND nicht eingestufte Unterlagen zum Oktoberfestattentat mit Bezügen zur Wehrsportgruppe Hoffmann und ihren Aktivitäten im Libanon in zwei Tranchen im Februar 2014 und im Juni 2016 an das Bundesarchiv abgab; beide sind unter der Archivsignatur B 206/3009 einsehbar."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BT-OKT-183985-2015"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1811602-2017"
+        directness: "direct"
+        locator: "Gedruckte S. 2, Antwort auf Frage 4"
+        note: "Die 2017er Bundesantwort nennt ausdrücklich zwei Abgaben nicht eingestufter BND-Unterlagen zum Oktoberfestkomplex mit WSG-Hoffmann-/Libanon-Bezügen, im Februar 2014 und im Juni 2016; beide unter B 206/3009 einsehbar."
+      - source: "SRC-DE-BT-OKT-183985-2015"
+        directness: "context"
+        locator: "Gedruckte S. 4, Antwort auf Frage 10"
+        note: "Die frühere Antwort belegt nur die bis 2015 bekannte Abgabe vom Februar 2014 und einen damals im BND-Archiv verbliebenen Verschlusssachenteil; sie bestätigt nicht selbst die spätere Juni-2016-Tranche."
+    counterevidence: []
+    alternatives: ["Die archivierten BND-Unterlagen können Berichte anderer Stellen, fremde Meldungen oder Material aus der Zeit nach dem Anschlag enthalten; ihre Abgabe beweist weder eigene BND-Beobachtung vor der Tat noch eine Weitergabe konkreter Tatpläne. Die Juni-2016-Tranche muss nicht mit dem 2015 beschriebenen VS-Rest identisch sein."]
+    missing_evidence: ["Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands."]
+    scope:
+      supports: "Einen amtlich dokumentierten zweiten BND-Archivübergang im Juni 2016 und den konkreten thematischen Bezug zu WSG Hoffmann im Libanon."
+      does_not_support: "Keinen Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests."
+    falsification: "Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen."
 what_follows:
   - text: "Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven."
     claim_ids: ["CLM-DE-OKT-034"]
   - text: "Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv."
     claim_ids: ["CLM-DE-OKT-036"]
+  - text: "Die Bundesregierung dokumentierte eine weitere BND-Aktenübergabe unter B 206/3009 im Juni 2016 mit Bezügen zur WSG Hoffmann im Libanon."
+    claim_ids: ["CLM-DE-OKT-038"]
   - text: "Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung."
     claim_ids: ["CLM-DE-OKT-032"]
   - text: "Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten."
@@ -1183,6 +1206,19 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Falsifikationskriterium:** Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen.
 
 
+### `CLM-DE-OKT-038`
+
+**Aussage:** Die Bundesregierung erklärte 2017, dass der BND nicht eingestufte Unterlagen zum Oktoberfestattentat mit Bezügen zur Wehrsportgruppe Hoffmann und ihren Aktivitäten im Libanon in zwei Tranchen im Februar 2014 und im Juni 2016 an das Bundesarchiv abgab; beide sind unter der Archivsignatur B 206/3009 einsehbar.
+
+**Evidenz:** belegt; [`SRC-DE-BT-OKT-1811602-2017` – Gedruckte S. 2, Antwort auf Frage 4](https://dserver.bundestag.de/btd/18/116/1811602.pdf). Kontext: [`SRC-DE-BT-OKT-183985-2015` – S. 4, Frage 10](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
+
+- **Amtlicher Befund:** Die 2017er Bundesantwort nennt ausdrücklich zwei Abgaben nicht eingestufter BND-Unterlagen zum Oktoberfestkomplex mit WSG-Hoffmann-/Libanon-Bezügen, im Februar 2014 und im Juni 2016; beide unter B 206/3009 einsehbar.
+- **Gegenkontext:** Die Antwort von 2015 kannte nur die erste Abgabe und berichtete damals einen gesonderten Verschlusssachenteil beim BND; sie beweist nicht, dass dieser Teil 2016 freigegeben wurde.
+- **Alternative:** Die archivierten BND-Unterlagen können Berichte anderer Stellen, fremde Meldungen oder Material aus der Zeit nach dem Anschlag enthalten; ihre Abgabe beweist weder eigene BND-Beobachtung vor der Tat noch eine Weitergabe konkreter Tatpläne. Die Juni-2016-Tranche muss nicht mit dem 2015 beschriebenen VS-Rest identisch sein.
+- **Zu beschaffen:** Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands.
+- **Aussagegrenze:** Kein Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests.
+- **Falsifikationskriterium:** Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1196,3 +1232,4 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BAYVFGH-OKT-2014` – BayVerfGH, Entscheidung Vf. 72-IVa-12, 20.03.2014](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 - [`SRC-DE-BAYLT-OKT-SPUREN-2014` – Bayerischer Landtag, Verfassungsausschuss, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
 - [`SRC-DE-BT-OKT-200358-2021` – BT-Drs. 20/358, Aktenanforderungen und Aktenrückgaben, 30.12.2021](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
+- [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)

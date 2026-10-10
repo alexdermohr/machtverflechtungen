@@ -1006,3 +1006,14 @@ Deutscher Bundestag / Bundesregierung · 2021-12-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
 
 Fundstelle: Gedruckte S. 1–3, Antworten auf Fragen 1–3: Behörden-/Archivliste, Arten der Aktenbeiziehung, partielle Aktenrückgabe per 30.12.2021
+
+<a id="src-de-bt-okt-1811602-2017"></a>
+## SRC-DE-BT-OKT-1811602-2017
+
+**[Erkenntnisse zum Erlanger Doppelmord an Shlomo Lewin und Frida Poeschke – Bundestagsdrucksache 18/11602](https://dserver.bundestag.de/btd/18/116/1811602.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2017-03-22 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
+
+Fundstelle: Gedruckte S. 2, Antwort 4: nicht eingestufte BND-Unterlagen zu Oktoberfestattentat und WSG Hoffmann im Libanon, Abgaben Februar 2014 und Juni 2016, BArch B 206/3009
