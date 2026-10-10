@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte 221 weitere Menschen."
@@ -422,6 +422,40 @@ claims:
       supports: "Der verbindliche amtlich kommunizierte negative Stand der Wiederaufnahme hinsichtlich dieser konkreten Verdachtskomplexe."
       does_not_support: "Keine positive Aussage, dass es historisch niemals weitere Beteiligte gegeben haben kann."
     falsification: "Neue gerichtsfeste Personen-, Finanz-, Einsatz- oder Tatmittelbelege für eine konkrete Beteiligung würden die damalige Beweisbilanz ändern."
+  - id: "CLM-DE-OKT-025"
+    text: "Die Bundesregierung bestätigte 2009, dass einer anonymen telefonischen Bekennung nach dem Oktoberfestattentat mit Bezug auf die „Rechten von Bologna“ polizeilich nachgegangen wurde, die Anruferin aber nicht identifiziert werden konnte."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1613527-2009"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1613527-2009"
+        directness: "direct"
+        locator: "S. 4–5, Antwort 6"
+        note: "Die amtliche Antwort bestätigt ausdrücklich den Hinweis und die Ermittlungsbemühung, nicht seine Echtheit oder Wahrhaftigkeit."
+    counterevidence: []
+    alternatives: ["Unbekannte Personen können Bekennungen aus Desinformation, Selbstdarstellung oder Irreführung abgeben, ohne Täter oder Mitwisser zu sein."]
+    missing_evidence: ["Zeitgenössische polizeiliche Gesprächsnotizen, Zeitungseingänge und ermittelte Stimm- oder Telefonmerkmale der Anrufe."]
+    scope:
+      supports: "Dokumentierter, polizeilich bearbeiteter Hinweis auf ein behauptetes rechtsextremes Bekennungsnarrativ mit Bologna-Bezug."
+      does_not_support: "Keine erwiesene Täterschaft der Anruferin, keine Identität und keine erwiesene operative Verbindung zur rechtsterroristischen Bombe von Bologna."
+    falsification: "Nachweis, dass die Bundesregierung einen nicht existierenden Anruf als bearbeitet meldete, oder authentische neue Identitäts- und Beweisakten würden die Feststellung materiell ändern."
+  - id: "CLM-DE-OKT-026"
+    text: "Nach der Regierungsantwort von 2009 ergaben kriminaltechnische Untersuchungen Farbanhaftungen und Metallspuren, die Gegenstände in Köhlers Elternhaus mit Teilen des verwendeten Sprengsatzes verbanden."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-1613527-2009"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-1613527-2009"
+        directness: "direct"
+        locator: "S. 6, Antwort 8"
+        note: "Die Bundesregierung beschreibt Übereinstimmungen an Farbanhaftungen sowie Untersuchungen von Metall- und Eindruckspuren im Elternhaus."
+    counterevidence: []
+    alternatives: ["Eine nachgewiesene Tatmittelbearbeitung durch Köhler kann parallel zu Hilfen anderer Personen stattgefunden haben; Spuren am Wohnort beweisen keine ausschließliche Alleinherstellung."]
+    missing_evidence: ["Originale BKA-/BLKA-Laborberichte, Materialvergleich und vollständige Fotodokumentation samt Kette der sichergestellten Gegenstände."]
+    scope:
+      supports: "Die dem Bundestag mitgeteilten forensischen Anhaltspunkte für Köhlers eigenen Beitrag zur Tatmittelvorbereitung."
+      does_not_support: "Keinen Ausschluss fremder Tatbeteiligung und keine detailgenaue Rekonstruktion der gesamten Herstellung."
+    falsification: "Neue authentische Laborberichte, die die beschriebenen Spurenvergleiche nicht bestätigen oder auf Kontamination zurückführen, würden den Befund schwächen."
 what_follows:
   - text: "Die Ermittlungsbewertung des politischen Motivs änderte sich 2020 grundlegend gegenüber dem älteren Abschluss; die staatliche Quellenlage zum Attentat kann mit zeitgenössischen Akten verglichen werden."
     claim_ids: ["CLM-DE-OKT-003", "CLM-DE-OKT-004"]
@@ -751,6 +785,26 @@ Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archiviert
 - **Aussagegrenze:** Keine positive Aussage, dass es historisch niemals weitere Beteiligte gegeben haben kann.
 
 **Prüfgrenze:** Die revidierte Ermittlungsbilanz 2020 ist ein negativer Tatbeteiligungsbefund, nicht der Beweis, dass keine weitere Person beteiligt war. Umgekehrt begründen diese neuen dokumentierten Hinweise allein keinen staatlichen Anschlagsauftrag.
+### `CLM-DE-OKT-025`
+
+**Aussage:** Die Bundesregierung bestätigte 2009, dass einer anonymen telefonischen Bekennung nach dem Oktoberfestattentat mit Bezug auf die „Rechten von Bologna“ polizeilich nachgegangen wurde, die Anruferin aber nicht identifiziert werden konnte.
+
+**Evidenz:** belegt; [Bundestags-Originaldrucksache](https://dserver.bundestag.de/btd/16/135/1613527.pdf), S. 4–5, Antwort 6.
+
+- **Gegenprobe:** Unbekannte Personen können Bekennungen aus Desinformation, Selbstdarstellung oder Irreführung abgeben, ohne Täter oder Mitwisser zu sein.
+- **Offen:** Zeitgenössische polizeiliche Gesprächsnotizen, Zeitungseingänge und ermittelte Stimm- oder Telefonmerkmale der Anrufe.
+- **Aussagegrenze:** Keine erwiesene Täterschaft der Anruferin, keine Identität und keine erwiesene operative Verbindung zur rechtsterroristischen Bombe von Bologna.
+
+### `CLM-DE-OKT-026`
+
+**Aussage:** Nach der Regierungsantwort von 2009 ergaben kriminaltechnische Untersuchungen Farbanhaftungen und Metallspuren, die Gegenstände in Köhlers Elternhaus mit Teilen des verwendeten Sprengsatzes verbanden.
+
+**Evidenz:** belegt; [Bundestags-Originaldrucksache](https://dserver.bundestag.de/btd/16/135/1613527.pdf), S. 6, Antwort 8.
+
+- **Gegenprobe:** Eine nachgewiesene Tatmittelbearbeitung durch Köhler kann parallel zu Hilfen anderer Personen stattgefunden haben; Spuren am Wohnort beweisen keine ausschließliche Alleinherstellung.
+- **Offen:** Originale BKA-/BLKA-Laborberichte, Materialvergleich und vollständige Fotodokumentation samt Kette der sichergestellten Gegenstände.
+- **Aussagegrenze:** Keinen Ausschluss fremder Tatbeteiligung und keine detailgenaue Rekonstruktion der gesamten Herstellung.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -760,3 +814,4 @@ Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archiviert
 - [`SRC-DE-BT-OKT-1813317-2017` — Bundestag, Drs. 18/13317 (2017)](https://dserver.bundestag.de/btd/18/133/1813317.pdf)
 - [`SRC-DE-BT-OKT-1922142-2020` — Bundestag, Drs. 19/22142 (2020)](https://dserver.bundestag.de/btd/19/221/1922142.pdf)
 - [`SRC-DE-BT-OKT-1922430-2020` — Bundestag, Drs. 19/22430 (2020)](https://dserver.bundestag.de/btd/19/224/1922430.pdf)
+- [`SRC-DE-BT-OKT-1613527-2009` — Antwort der Bundesregierung: Oktoberfest-Attentat – Stasi-Notizen, WSG Hoffmann und Gladio, BT-Drs. 16/13527](https://dserver.bundestag.de/btd/16/135/1613527.pdf)

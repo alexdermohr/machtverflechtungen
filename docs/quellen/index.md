@@ -962,3 +962,14 @@ Deutscher Bundestag / Bundesregierung · 2020-09-15 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/19/224/1922430.pdf)
 
 Fundstelle: gedruckte S. 2–7, insbesondere Antworten 3–5 (Hand und Geldschein), 18–21 (Geheimdienst- und Stay-behind-Komplex)
+
+<a id="src-de-bt-okt-1613527-2009"></a>
+## SRC-DE-BT-OKT-1613527-2009
+
+**[Antwort der Bundesregierung: Oktoberfest-Attentat – Stasi-Notizen, WSG Hoffmann und Gladio, BT-Drs. 16/13527](https://dserver.bundestag.de/btd/16/135/1613527.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2009-06-22 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/16/135/1613527.pdf)
+
+Fundstelle: S. 4–6, Fragen 4, 6 und 8; anonyme Bologna-Anruferin, italienische Festnahmen und kriminaltechnische Spuren im Köhler-Elternhaus
