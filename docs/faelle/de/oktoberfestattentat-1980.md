@@ -657,7 +657,7 @@ claims:
         locator: "Gedruckte S. 3–4, Antworten auf Fragen 1–2, 3–7 sowie 8–9"
         note: "Die Bundesantwort benennt ein Sachaktenregime mit zunächst Referat IIA3 und ab April 1981 Referat IIA6; Chronologie statt thematischer Gliederung; auf die Frage nach Vernichtungen wird die ausdrücklich benannte Sachakte als nicht vernichtet bezeichnet."
     counterevidence: []
-    alternatives: ["Die Unversehrtheit einer benannten Sachakte schließt eine rechtmäßige Löschung einzelner personenbezogener Datensätze, anderer separat geführter Akten oder die Aussonderung anderer Institutionen logisch nicht aus."]
+    alternatives: ["Die amtlich erklärte Nichtvernichtung der benannten Sachakte schließt rechtmäßige Löschungen einzelner personenbezogener Datensätze, separat geführter Akten oder Aussonderungen anderer Institutionen nicht aus; zur physischen Vollständigkeit liegt kein Nachweis vor."]
     missing_evidence: ["Erhaltungs-, Registratur- und Aktenabgabeverzeichnis des BfV für die Sachakte bis 2015 sowie mögliche spätere Akteneinsicht und Blatt-/Ordnerzahlen; getrennte Bewertung von Quellensammlung und Hauptsachakte."]
     scope:
       supports: "Einen direkt belegten amtlichen negativen Kenntnis-/Auskunftsstand gegen pauschale Behauptungen, die gesamte Oktoberfest-Sachakte des BfV sei bereits vor 2015 vernichtet worden."
@@ -1177,7 +1177,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 **Evidenz:** belegt; [`SRC-DE-BT-OKT-183985-2015` – Gedruckte S. 3–4, Antworten auf Fragen 1–2, 3–7 sowie 8–9](https://dserver.bundestag.de/btd/18/039/1803985.pdf).
 
 - **Amtlicher Befund:** Die Bundesantwort benennt ein Sachaktenregime mit zunächst Referat IIA3 und ab April 1981 Referat IIA6; Chronologie statt thematischer Gliederung; auf die Frage nach Vernichtungen wird die ausdrücklich benannte Sachakte als nicht vernichtet bezeichnet.
-- **Alternative:** Die Unversehrtheit einer benannten Sachakte schließt eine rechtmäßige Löschung einzelner personenbezogener Datensätze, anderer separat geführter Akten oder die Aussonderung anderer Institutionen logisch nicht aus.
+- **Alternative:** Die amtlich erklärte Nichtvernichtung der benannten Sachakte schließt rechtmäßige Löschungen einzelner personenbezogener Datensätze, separat geführter Akten oder Aussonderungen anderer Institutionen nicht aus; zur physischen Vollständigkeit liegt kein Nachweis vor.
 - **Zu beschaffen:** Erhaltungs-, Registratur- und Aktenabgabeverzeichnis des BfV für die Sachakte bis 2015 sowie mögliche spätere Akteneinsicht und Blatt-/Ordnerzahlen; getrennte Bewertung von Quellensammlung und Hauptsachakte.
 - **Aussagegrenze:** Keine Aussage, dass niemals einzelne BfV-Daten gelöscht oder alle damaligen Meldungen erhalten wurden; keine durchgeführte externe physische Vollständigkeitsprüfung der einzelnen Aktenbände.
 - **Falsifikationskriterium:** Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen.
