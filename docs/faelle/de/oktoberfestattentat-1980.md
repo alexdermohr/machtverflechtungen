@@ -1415,7 +1415,7 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 
 **Aussage:** Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann.
 
-**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Mediathek-Blattseite 150, Abschnitt 1.2, Uhrzeiten 14:10 und 18:00](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/).
+**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Blattseite 150, Uhrzeiten 14:10 und 18:00](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/) und [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – BArch B 141/68772, Image 0643, Soko-Zwischenbericht Seite 1, 14:10 Uhr](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/).
 
 - **Originalkonkordanz:** [SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/) ist das abgebildete westdeutsche Original des Soko-Zwischenberichts (BArch B 141/68772, Image 0643) und nennt ebenfalls 14:10 Uhr. Die MfS-Überlieferung kann davon abhängig sein.
 - **Archivbefund:** Das archivierte Berichtstranskript nennt die Verfahrensübernahme um 14:10 Uhr und die vom GBA bundeseinheitlich festgesetzte Durchsuchung ab 18:00 Uhr am Folgetag des Anschlags.
@@ -1480,8 +1480,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
 - [`SRC-DE-BARCH-MFS-HAIII7729-1980` – MfS HA III 7729: abgeschriebene LKA-/BKA-Ermittlungsberichte, 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
 - [`SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980` – Soko-Zwischenbericht September 1980, BArch B 141/68772, Image 0643](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
-## Sekundär- und Gegenquellen der vertieften Prüfung
-
 ## Amtliche Sekundär- und Gegenquellen
 
 - [`SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025` – Bayerische Polizei, retrospektive GBA-Verfahrensübernahme um 11 Uhr](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
