@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -557,12 +557,52 @@ claims:
       supports: "Die beim Bundesarchiv dokumentierte frühe Informationsweitergabe aus dem Ministeriumsbereich an Medien."
       does_not_support: "Die archivische Darstellung ist kein eigenständiger Nachweis einer bewussten Warnung an Mittäter, einer konkret vereitelten Ermittlungshandlung oder einer staatlichen Mitplanung des Anschlags."
     falsification: "Ein belastbarer originaler Amtsvermerk oder eine zeitgenössische Korrespondenz, die Urheber, Zeitpunkt und Inhalt der Weitergabe anders belegt, würde die Archivrekonstruktion korrigieren."
+  - id: "CLM-DE-OKT-032"
+    text: "Der Bayerische Verfassungsgerichtshof entschied am 20. März 2014, dass die Staatsregierung eine Landtagsfrage zu fehlenden BayLfV-Unterlagen über das Oktoberfestattentat nicht hinreichend beantwortet und damit das parlamentarische Fragerecht verletzt hatte."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYVFGH-OKT-2014"]
+    evidence:
+      - source: "SRC-DE-BAYVFGH-OKT-2014"
+        directness: "direct"
+        locator: "Entscheidung Vf. 72-IVa-12, Rn. 143–145, gedruckte S. 59; zitierte Antwort von 2012 auf S. 17"
+        note: "Das Gericht beanstandete, dass die Regierung nur das Nichtvorhandensein und die fehlende Abgabe einschlägiger BayLfV-Unterlagen darstellte, ohne nachvollziehbare zumutbare Nachforschungen zur fehlenden Archivabgabe auszuweisen. Die Rechtsverletzung betrifft die Antwortpflicht."
+    counterevidence: []
+    alternatives: ["Fehlende eigene Unterlagen können durch gesetzmäßige Aussonderung, andere Verwahrung oder unvollständige Bestandsrecherche erklärt werden; keine dieser Möglichkeiten ist damit abschließend nachgewiesen."]
+    missing_evidence: ["Die ursprüngliche Landtagsantwort LT-Drs. 16/12950, Nachforschungen 2012–2014, BayLfV-Akten-/Löschprotokolle und Übergabelisten an das Bayerische Hauptstaatsarchiv vergleichen."]
+    scope:
+      supports: "Gerichtlich festgestellte unzureichende parlamentarische Auskunft und die amtlich wiedergegebene Unklarheit über eventuelle frühere BayLfV-Unterlagen."
+      does_not_support: "Keine gerichtliche Feststellung gezielter, rechtswidriger Vernichtung von Oktoberfestakten, staatlicher Anschlagsbeteiligung oder eines bekannten geheimen Bestands."
+    falsification: "Eine berichtigende oder aufhebende authentische Gerichtsentscheidung oder ein abweichender Originaltenor würde den gerichtlichen Befund ändern."
+  - id: "CLM-DE-OKT-033"
+    text: "Laut dem Bericht des Bayerischen Landtags vom 2. Oktober 2014 wurden im Archiv des Bayerischen Landeskriminalamts 29 Spurenakten zum Oktoberfestattentat gefunden, die nicht Bestandteil der damaligen GBA-Sachakten geworden waren und anschließend an das Bayerische Hauptstaatsarchiv übergeben wurden."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BAYLT-OKT-SPUREN-2014"]
+    evidence:
+      - source: "SRC-DE-BAYLT-OKT-SPUREN-2014"
+        directness: "direct"
+        locator: "Abschnitt „Viele Akten können nun eingesehen werden“, Bericht über die Ausführungen von Landespolizeipräsident Wilhelm Schmidbauer am 02.10.2014"
+        note: "Die amtliche Ausschussberichterstattung dokumentiert die Aussage über 29 separat erhaltene BLKA-Spurenakten, die Nichtaufnahme in die damaligen GBA-Sachakten sowie die spätere Abgabe ans Hauptstaatsarchiv; einzelne Dokumente waren aus Datenschutzgründen geschwärzt."
+    counterevidence: []
+    alternatives: ["Eine administrative Trennung von Sach- und Spurenakten oder damalige Entscheidung über Tatbezug ist mit dem Aktenbefund vereinbar, ohne dass eine Vertuschungsanweisung belegt wäre."]
+    missing_evidence: ["Archivsignaturen, Inhaltsverzeichnis und Übergabeprotokoll aller 29 Spurenakten; Vergleich mit Spur 253 und den Unterlagen, die die erneute Soko 2014–2020 tatsächlich auswertete."]
+    scope:
+      supports: "Amtlich dokumentierter Umfang und im Oktober 2014 berichteter Überlieferungsweg separater BLKA-Spurenakten."
+      does_not_support: "Keine positive Feststellung absichtlicher Spurenunterdrückung, keiner nachweislich unterbliebenen Prüfung 2014–2020 und keine Identifikation eines Mittäters."
+    falsification: "Authentische BLKA- und Staatsarchiv-Übergabelisten oder ursprüngliche GBA-Sachakten mit begründet abweichender Zuordnung und Anzahl würden diese amtliche Zusammenfassung präzisieren oder widerlegen."
 what_follows:
+  - text: "Der Bayerische Verfassungsgerichtshof beanstandete 2014 eine nicht hinreichend belegte Regierungsantwort zur BayLfV-Aktenüberlieferung."
+    claim_ids: ["CLM-DE-OKT-032"]
+  - text: "Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten."
+    claim_ids: ["CLM-DE-OKT-033"]
   - text: "Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch."
     claim_ids: ["CLM-DE-OKT-027", "CLM-DE-OKT-003"]
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung."
+    claim_ids: ["CLM-DE-OKT-032", "CLM-DE-OKT-033"]
   - text: "Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung."
     claim_ids: ["CLM-DE-OKT-002", "CLM-DE-OKT-004", "CLM-DE-OKT-005"]
 open_questions: ["Welche westdeutschen Einsatzakten belegen Zeitpunkt, Zweck und Ergebnis der angeblichen Aktion Wandervogel, und von wem stammte die MfS-Information?", "Was lässt die vollständige Einstellungsverfügung 2020 über verworfene Mittäterspuren und Beweisgrenzen erkennen?", "Welche der vom Bundesarchiv genannten Akten B 141/68772, B 106 und B 362 sind online vollständig zugänglich und wie verändern sie die damalige Motivbewertung?"]
@@ -980,6 +1020,37 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 - **Grenze:** Die archivische Darstellung belegt weder eine bewusste Warnung an mögliche Mittäter noch eine konkret vereitelte Ermittlungshandlung oder staatliche Mitplanung.
 - **Falsifikation:** Ein belastbarer originaler Amtsvermerk oder eine zeitgenössische Korrespondenz, die Urheber, Zeitpunkt und Inhalt der Weitergabe anders belegt, würde die Archivrekonstruktion korrigieren.
 
+
+## Nachtrag: Verfassungsschutzakten und 29 Spurenakten (2012–2014)
+
+Die institutionelle Aktenüberlieferung ist von der **Frage nach Täterschaft und Mittätern** getrennt zu bewerten. Das Bayerische Landesamt für Verfassungsschutz, das Bayerische Landeskriminalamt, das Bundesamt für Verfassungsschutz und die Bundesanwaltschaft verfügten über unterschiedliche Aktenbestände. Eine nicht auffindbare BayLfV-Akte ist nicht mit einer vom BLKA separat geführten Spurenakte gleichzusetzen.
+
+### `CLM-DE-OKT-032`
+
+**Aussage:** Der Bayerische Verfassungsgerichtshof entschied am 20. März 2014, dass die Staatsregierung eine Landtagsfrage zu fehlenden BayLfV-Unterlagen über das Oktoberfestattentat nicht hinreichend beantwortet und damit das parlamentarische Fragerecht verletzt hatte.
+
+**Quelle:** [`SRC-DE-BAYVFGH-OKT-2014` – Entscheidung Vf. 72-IVa-12, Rn. 143–145, gedruckte S. 59; zitierte Antwort von 2012 auf S. 17](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf). **Evidenz:** belegt.
+
+- **Amtlicher Befund:** Das Gericht beanstandete, dass die Regierung nur das Nichtvorhandensein und die fehlende Abgabe einschlägiger BayLfV-Unterlagen darstellte, ohne nachvollziehbare zumutbare Nachforschungen zur fehlenden Archivabgabe auszuweisen. Die Rechtsverletzung betrifft die Antwortpflicht.
+- **Alternativerklärungen:** Fehlende eigene Unterlagen können durch gesetzmäßige Aussonderung, andere Verwahrung oder unvollständige Bestandsrecherche erklärt werden; keine dieser Möglichkeiten ist damit abschließend nachgewiesen.
+- **Fehlende Beweise:** Die ursprüngliche Landtagsantwort LT-Drs. 16/12950, Nachforschungen 2012–2014, BayLfV-Akten-/Löschprotokolle und Übergabelisten an das Bayerische Hauptstaatsarchiv vergleichen.
+- **Aussagegrenze:** Keine gerichtliche Feststellung gezielter, rechtswidriger Vernichtung von Oktoberfestakten, staatlicher Anschlagsbeteiligung oder eines bekannten geheimen Bestands.
+- **Falsifikationskriterium:** Eine berichtigende oder aufhebende authentische Gerichtsentscheidung oder ein abweichender Originaltenor würde den gerichtlichen Befund ändern.
+
+### `CLM-DE-OKT-033`
+
+**Aussage:** Laut dem Bericht des Bayerischen Landtags vom 2. Oktober 2014 wurden im Archiv des Bayerischen Landeskriminalamts 29 Spurenakten zum Oktoberfestattentat gefunden, die nicht Bestandteil der damaligen GBA-Sachakten geworden waren und anschließend an das Bayerische Hauptstaatsarchiv übergeben wurden.
+
+**Quelle:** [`SRC-DE-BAYLT-OKT-SPUREN-2014` – Abschnitt „Viele Akten können nun eingesehen werden“, Bericht über die Ausführungen von Landespolizeipräsident Wilhelm Schmidbauer am 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/). **Evidenz:** belegt.
+
+- **Amtlicher Befund:** Die amtliche Ausschussberichterstattung dokumentiert die Aussage über 29 separat erhaltene BLKA-Spurenakten, die Nichtaufnahme in die damaligen GBA-Sachakten sowie die spätere Abgabe ans Hauptstaatsarchiv; einzelne Dokumente waren aus Datenschutzgründen geschwärzt.
+- **Alternativerklärungen:** Eine administrative Trennung von Sach- und Spurenakten oder damalige Entscheidung über Tatbezug ist mit dem Aktenbefund vereinbar, ohne dass eine Vertuschungsanweisung belegt wäre.
+- **Fehlende Beweise:** Archivsignaturen, Inhaltsverzeichnis und Übergabeprotokoll aller 29 Spurenakten; Vergleich mit Spur 253 und den Unterlagen, die die erneute Soko 2014–2020 tatsächlich auswertete.
+- **Aussagegrenze:** Keine positive Feststellung absichtlicher Spurenunterdrückung, keiner nachweislich unterbliebenen Prüfung 2014–2020 und keine Identifikation eines Mittäters.
+- **Falsifikationskriterium:** Authentische BLKA- und Staatsarchiv-Übergabelisten oder ursprüngliche GBA-Sachakten mit begründet abweichender Zuordnung und Anzahl würden diese amtliche Zusammenfassung präzisieren oder widerlegen.
+
+**Forschungsauftrag:** [Issue #23 – BayLfV-Aktenstand, BLKA-Spurenakten und ursprüngliche Archivübergaben](https://github.com/alexdermohr/machtverflechtungen/issues/23). Der Landtagsbericht von 2014 erwähnt außerdem einen einzelnen Aktenordner; dessen Verwahrungsort und Zusammenhang mit BayLfV-Beständen lassen sich daraus nicht eindeutig identifizieren. Eine gesonderte Akteninventur ist erforderlich.
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -990,3 +1061,5 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 - [`SRC-DE-BT-OKT-1922142-2020` — Bundestag, Drs. 19/22142 (2020)](https://dserver.bundestag.de/btd/19/221/1922142.pdf)
 - [`SRC-DE-BT-OKT-1922430-2020` — Bundestag, Drs. 19/22430 (2020)](https://dserver.bundestag.de/btd/19/224/1922430.pdf)
 - [`SRC-DE-BT-OKT-1613527-2009` — Antwort der Bundesregierung: Oktoberfest-Attentat – Stasi-Notizen, WSG Hoffmann und Gladio, BT-Drs. 16/13527](https://dserver.bundestag.de/btd/16/135/1613527.pdf)
+- [`SRC-DE-BAYVFGH-OKT-2014` – BayVerfGH, Entscheidung Vf. 72-IVa-12, 20.03.2014](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
+- [`SRC-DE-BAYLT-OKT-SPUREN-2014` – Bayerischer Landtag, Verfassungsausschuss, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
