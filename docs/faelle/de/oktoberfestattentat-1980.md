@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -718,7 +718,77 @@ claims:
       supports: "Eine separat datierte und adressierte Aktenbeiziehung im Wiederaufnahmeverfahren 2014–2020 und einen klar bestimmbaren Recherchepfad."
       does_not_support: "Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten."
     falsification: "Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren."
+  - id: "CLM-DE-OKT-041"
+    text: "Das Stasi-Unterlagen-Archiv überliefert in MfS HA III Nr. 7729 einen als „Verschlußsache - Nur für den Dienstgebrauch“ bezeichneten westdeutschen Ermittlungsbericht zum Oktoberfestattentat mitsamt dienstlichem Verteiler; der Beschaffungsweg und das tatsächliche Eingangsdatum beim MfS sind nicht ermittelt."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980"]
+    evidence:
+      - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
+        directness: "direct"
+        locator: "BArch MfS HA III Nr. 7729, Transkript der Mediathek, digitale Blattseite 149, VS-NfD-Bericht und Behördenverteiler"
+        note: "Die digitalisierte MfS-Überlieferung zitiert einen intern klassifizierten westdeutschen Soko-Bericht und benennt unter anderem GBA, Bundeswehr-Sicherheitsamt, Grenzschutzdirektion und GSG 9 als Empfänger."
+    counterevidence: []
+    alternatives: ["Der Bericht kann durch nachträgliche Aktenabschöpfung, eine Kopie aus einem größeren Verteiler oder eine Drittquelle in MfS-Unterlagen gelangt sein; ein direkter Insider in der Soko ist nicht identifiziert."]
+    missing_evidence: ["Zeitgenössische BKA-/BLKA-Urschrift, Verteiler- und Versandlisten sowie MfS-HA-III-Eingangsnachweis und Quellenführungsvermerk zur Nummer 7729."]
+    scope:
+      supports: "Einen original dokumentierten MfS-Aktenbesitz von Angaben aus einem als VS-NfD bezeichneten westdeutschen Ermittlungsbericht."
+      does_not_support: "Weder die Authentizität eines vollständigen westdeutschen Originals noch einen bestimmten Übermittler, ein Eingangsdatum vor dem 29. September 1980, MfS-Vorwissen oder operative Mitwirkung."
+    falsification: "Vergleich von westdeutscher Urschrift, Kopienverteilern und Eingangsbüchern des MfS könnte Herkunft, Datierung und Vollständigkeit der MfS-Wiedergabe verändern."
+  - id: "CLM-DE-OKT-042"
+    text: "Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980"]
+    evidence:
+      - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
+        directness: "direct"
+        locator: "BArch MfS HA III Nr. 7729, Mediathek-Blattseite 150, Abschnitt 1.2, Uhrzeiten 14:10 und 18:00"
+        note: "Das archivierte Berichtstranskript nennt die Verfahrensübernahme um 14:10 Uhr und die vom GBA bundeseinheitlich festgesetzte Durchsuchung ab 18:00 Uhr am Folgetag des Anschlags."
+    counterevidence: []
+    alternatives: ["Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus."]
+    missing_evidence: ["GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie."]
+    scope:
+      supports: "Einen konkret datierten, in der MfS-Überlieferung wiedergegebenen westdeutschen frühen Ermittlungsablauf."
+      does_not_support: "Weder die tatsächliche minutengenaue Vollziehung jeder Durchsuchung noch eine Verbindung zu der anderen, nur in HA XXII 5749 behaupteten „Aktion Wandervogel“ in der Nacht vor dem Anschlag."
+    falsification: "Original-GBA-Anordnung und tatsächlich gestempelte Einsatzjournale mit anderen Uhrzeiten oder Anlässen würden die überlieferte Chronologie korrigieren."
+  - id: "CLM-DE-OKT-043"
+    text: "Nach dem in MfS HA III Nr. 7729 abgeschriebenen Ermittlungsbericht wurden bei Durchsuchungen nach dem Oktoberfestattentat am WSG-Sitz Schloss Ermreuth zehn Zündkapseln sowie bei einem mutmaßlichen WSG-Angehörigen Sprengstoff und elektronische Bauteile gefunden und zur kriminaltechnischen Prüfung beim Bayerischen Landeskriminalamt vorgesehen."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980"]
+    evidence:
+      - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
+        directness: "direct"
+        locator: "BArch MfS HA III Nr. 7729, Mediathek-Blattseite 151, Abschnitt 1.2, Sicherstellungen und BLKA-Asservatenprüfung"
+        note: "Die MfS-Abschrift berichtet zehn Zündkapseln in Schloss Ermreuth; eine andere Durchsuchung mit Sprengstoff, Granaten, elektronischen Bauteilen und Kabel; die Gegenstände sollten zum BLKA."
+    counterevidence: []
+    alternatives: ["Der Besitz gefährlicher WSG-Gegenstände kann unabhängig vom konkreten Tatmittel des Oktoberfestattentats bestanden haben; der im Dokument angekündigte Laborvergleich kann negativ ausgefallen sein."]
+    missing_evidence: ["Original-Sicherstellungslisten, Asservaten-IDs, Materialvergleich der Zündmittel und Kabel mit den am Tatort geborgenen Fragmenten sowie BLKA-Prüfberichte."]
+    scope:
+      supports: "Die in einer erhaltenen MfS-Kopie dokumentierte frühe Ermittlungs- und Asservatenspur gegen Personen aus dem WSG-Umfeld."
+      does_not_support: "Keinen durch vergleichende Forensik nachgewiesenen Ursprung der Oktoberfestbombe, keinen Tatbeitrag der WSG und keine Feststellung über die tatsächliche kriminaltechnische Übereinstimmung."
+    falsification: "Originäre Beschlagnahmeprotokolle oder BLKA-Gutachten, welche die Funde nicht bestätigen oder eine Verbindung zum Tatmittel ausschließen, würden die Spur einordnen."
+  - id: "CLM-DE-OKT-044"
+    text: "In MfS HA III Nr. 7729 wird eine BKA-Lagemeldung vom 29. September 1980, 15:35 Uhr, wiedergegeben, wonach die damaligen Untersuchungen gegen Mitglieder der Wehrsportgruppe Hoffmann keine sie der konkreten Tatbeteiligung überführenden Hinweise erbracht hatten."
+    classification: "counterevidence"
+    evidence_level: "established"
+    sources: ["SRC-DE-BARCH-MFS-HAIII7729-1980"]
+    evidence:
+      - source: "SRC-DE-BARCH-MFS-HAIII7729-1980"
+        directness: "direct"
+        locator: "BArch MfS HA III Nr. 7729, Mediathek-Blattseite 152, BKA-Lageeintrag 29.09.1980, 15:35 Uhr"
+        note: "Der überlieferte BKA-Tagesstand verneinte zum angegebenen Ermittlungszeitpunkt hinreichende direkte Hinweise gegen die vernommenen WSG-Mitglieder; fünf von sechs Festgenommenen seien am Vorabend entlassen worden."
+    counterevidence: []
+    alternatives: ["Die negative frühe Lageeinschätzung kann auf damals fehlenden Vergleichen oder unvollständig bewerteten Spuren beruhen; sie ist weder spätere endgültige Entlastung noch Beleg absichtlicher Ermittlungsunterdrückung."]
+    missing_evidence: ["Originäre BKA-Lagemeldung 29.09.1980 samt Nachtragsmeldungen, Gründe der Freilassungen und kriminaltechnische Negativ-/Positivbefunde aus den WSG-Durchsuchungen."]
+    scope:
+      supports: "Einen dokumentierten negativen Zwischenstand zur konkret gesuchten WSG-Mittäterschaft und eine wichtige Gegenprobe zum schnellen Schluss aus den beschlagnahmten Gegenständen."
+      does_not_support: "Keine endgültige Widerlegung einer Tatbeteiligung aller WSG-Mitglieder oder anderer Personen und keine Beurteilung nach Abschluss späterer Ermittlungen."
+    falsification: "Ein archivisches BKA-Original mit abweichender Aussage oder später authentisch nachgewiesene Tatbeteiligung würde die Bedeutung dieses Zwischenstands verändern."
 what_follows:
+  - text: "Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung."
+    claim_ids: ["CLM-DE-OKT-041", "CLM-DE-OKT-042", "CLM-DE-OKT-043", "CLM-DE-OKT-044"]
   - text: "Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven."
     claim_ids: ["CLM-DE-OKT-034"]
   - text: "Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv."
@@ -736,6 +806,8 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat."
+    claim_ids: ["CLM-DE-OKT-041", "CLM-DE-OKT-043"]
   - text: "Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten."
     claim_ids: ["CLM-DE-OKT-039", "CLM-DE-OKT-040"]
   - text: "Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980."
@@ -859,6 +931,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt?
 
+- Die MfS-Akte HA III 7729 überliefert detaillierte Aussagen über frühe westdeutsche Soko-Ermittlungen und WSG-Durchsuchungen sowie einen negativen BKA-Zwischenstand zur konkreten WSG-Tatbeteiligung.
 - Die Wiederaufnahme 2014–2020 umfasste ausweislich der Regierungsantwort von 2021 Unterlagen aus Landes- und Bundesnachrichtendiensten sowie staatlichen Archiven.
 - Eine BND-Teilakte ist unter BArch B 206/3009 verortet; eine amtlich bestätigte Aktenpartition blieb 2015 im BND-Archiv.
 - Die 2015er Oktoberfest-Wiederaufnahme führte zu zwei amtlich datierten Beiziehungen von Ermittlungsunterlagen aus dem getrennten Erlanger Doppelmordkomplex.
@@ -870,6 +943,7 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Was folgt nicht?
 
+- Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat.
 - Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
 - Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980.
 - Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung.
@@ -1289,6 +1363,57 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Zu beschaffen:** BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung.
 - **Aussagegrenze:** Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten.
 - **Falsifikationskriterium:** Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren.
+### `CLM-DE-OKT-041`
+
+**Aussage:** Das Stasi-Unterlagen-Archiv überliefert in MfS HA III Nr. 7729 einen als „Verschlußsache - Nur für den Dienstgebrauch“ bezeichneten westdeutschen Ermittlungsbericht zum Oktoberfestattentat mitsamt dienstlichem Verteiler; der Beschaffungsweg und das tatsächliche Eingangsdatum beim MfS sind nicht ermittelt.
+
+**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Transkript der Mediathek, digitale Blattseite 149, VS-NfD-Bericht und Behördenverteiler](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/).
+
+- **Archivbefund:** Die digitalisierte MfS-Überlieferung zitiert einen intern klassifizierten westdeutschen Soko-Bericht und benennt unter anderem GBA, Bundeswehr-Sicherheitsamt, Grenzschutzdirektion und GSG 9 als Empfänger.
+- **Alternative/Gegenprobe:** Der Bericht kann durch nachträgliche Aktenabschöpfung, eine Kopie aus einem größeren Verteiler oder eine Drittquelle in MfS-Unterlagen gelangt sein; ein direkter Insider in der Soko ist nicht identifiziert.
+- **Zu beschaffen:** Zeitgenössische BKA-/BLKA-Urschrift, Verteiler- und Versandlisten sowie MfS-HA-III-Eingangsnachweis und Quellenführungsvermerk zur Nummer 7729.
+- **Tragweite:** Einen original dokumentierten MfS-Aktenbesitz von Angaben aus einem als VS-NfD bezeichneten westdeutschen Ermittlungsbericht.
+- **Aussagegrenze:** Weder die Authentizität eines vollständigen westdeutschen Originals noch einen bestimmten Übermittler, ein Eingangsdatum vor dem 29. September 1980, MfS-Vorwissen oder operative Mitwirkung.
+- **Falsifikationskriterium:** Vergleich von westdeutscher Urschrift, Kopienverteilern und Eingangsbüchern des MfS könnte Herkunft, Datierung und Vollständigkeit der MfS-Wiedergabe verändern.
+
+### `CLM-DE-OKT-042`
+
+**Aussage:** Der in MfS HA III Nr. 7729 wiedergegebene Ermittlungsbericht verzeichnet die Übernahme des Verfahrens durch den Generalbundesanwalt am 27. September 1980 um 14:10 Uhr und die auf 18:00 Uhr festgesetzten, länderübergreifenden Durchsuchungsmaßnahmen gegen die Wehrsportgruppe Hoffmann.
+
+**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Mediathek-Blattseite 150, Abschnitt 1.2, Uhrzeiten 14:10 und 18:00](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/150/).
+
+- **Archivbefund:** Das archivierte Berichtstranskript nennt die Verfahrensübernahme um 14:10 Uhr und die vom GBA bundeseinheitlich festgesetzte Durchsuchung ab 18:00 Uhr am Folgetag des Anschlags.
+- **Alternative/Gegenprobe:** Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus.
+- **Zu beschaffen:** GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie.
+- **Tragweite:** Einen konkret datierten, in der MfS-Überlieferung wiedergegebenen westdeutschen frühen Ermittlungsablauf.
+- **Aussagegrenze:** Weder die tatsächliche minutengenaue Vollziehung jeder Durchsuchung noch eine Verbindung zu der anderen, nur in HA XXII 5749 behaupteten „Aktion Wandervogel“ in der Nacht vor dem Anschlag.
+- **Falsifikationskriterium:** Original-GBA-Anordnung und tatsächlich gestempelte Einsatzjournale mit anderen Uhrzeiten oder Anlässen würden die überlieferte Chronologie korrigieren.
+
+### `CLM-DE-OKT-043`
+
+**Aussage:** Nach dem in MfS HA III Nr. 7729 abgeschriebenen Ermittlungsbericht wurden bei Durchsuchungen nach dem Oktoberfestattentat am WSG-Sitz Schloss Ermreuth zehn Zündkapseln sowie bei einem mutmaßlichen WSG-Angehörigen Sprengstoff und elektronische Bauteile gefunden und zur kriminaltechnischen Prüfung beim Bayerischen Landeskriminalamt vorgesehen.
+
+**Evidenz:** belegt; [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Mediathek-Blattseite 151, Abschnitt 1.2, Sicherstellungen und BLKA-Asservatenprüfung](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/151/).
+
+- **Archivbefund:** Die MfS-Abschrift berichtet zehn Zündkapseln in Schloss Ermreuth; eine andere Durchsuchung mit Sprengstoff, Granaten, elektronischen Bauteilen und Kabel; die Gegenstände sollten zum BLKA.
+- **Alternative/Gegenprobe:** Der Besitz gefährlicher WSG-Gegenstände kann unabhängig vom konkreten Tatmittel des Oktoberfestattentats bestanden haben; der im Dokument angekündigte Laborvergleich kann negativ ausgefallen sein.
+- **Zu beschaffen:** Original-Sicherstellungslisten, Asservaten-IDs, Materialvergleich der Zündmittel und Kabel mit den am Tatort geborgenen Fragmenten sowie BLKA-Prüfberichte.
+- **Tragweite:** Die in einer erhaltenen MfS-Kopie dokumentierte frühe Ermittlungs- und Asservatenspur gegen Personen aus dem WSG-Umfeld.
+- **Aussagegrenze:** Keinen durch vergleichende Forensik nachgewiesenen Ursprung der Oktoberfestbombe, keinen Tatbeitrag der WSG und keine Feststellung über die tatsächliche kriminaltechnische Übereinstimmung.
+- **Falsifikationskriterium:** Originäre Beschlagnahmeprotokolle oder BLKA-Gutachten, welche die Funde nicht bestätigen oder eine Verbindung zum Tatmittel ausschließen, würden die Spur einordnen.
+
+### `CLM-DE-OKT-044`
+
+**Aussage:** In MfS HA III Nr. 7729 wird eine BKA-Lagemeldung vom 29. September 1980, 15:35 Uhr, wiedergegeben, wonach die damaligen Untersuchungen gegen Mitglieder der Wehrsportgruppe Hoffmann keine sie der konkreten Tatbeteiligung überführenden Hinweise erbracht hatten.
+
+**Evidenz:** belegt (Gegenbefund); [`SRC-DE-BARCH-MFS-HAIII7729-1980` – BArch MfS HA III Nr. 7729, Mediathek-Blattseite 152, BKA-Lageeintrag 29.09.1980, 15:35 Uhr](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/152/).
+
+- **Archivbefund:** Der überlieferte BKA-Tagesstand verneinte zum angegebenen Ermittlungszeitpunkt hinreichende direkte Hinweise gegen die vernommenen WSG-Mitglieder; fünf von sechs Festgenommenen seien am Vorabend entlassen worden.
+- **Alternative/Gegenprobe:** Die negative frühe Lageeinschätzung kann auf damals fehlenden Vergleichen oder unvollständig bewerteten Spuren beruhen; sie ist weder spätere endgültige Entlastung noch Beleg absichtlicher Ermittlungsunterdrückung.
+- **Zu beschaffen:** Originäre BKA-Lagemeldung 29.09.1980 samt Nachtragsmeldungen, Gründe der Freilassungen und kriminaltechnische Negativ-/Positivbefunde aus den WSG-Durchsuchungen.
+- **Tragweite:** Einen dokumentierten negativen Zwischenstand zur konkret gesuchten WSG-Mittäterschaft und eine wichtige Gegenprobe zum schnellen Schluss aus den beschlagnahmten Gegenständen.
+- **Aussagegrenze:** Keine endgültige Widerlegung einer Tatbeteiligung aller WSG-Mitglieder oder anderer Personen und keine Beurteilung nach Abschluss späterer Ermittlungen.
+- **Falsifikationskriterium:** Ein archivisches BKA-Original mit abweichender Aussage oder später authentisch nachgewiesene Tatbeteiligung würde die Bedeutung dieses Zwischenstands verändern.
 
 ## Originalquellen der vertieften Prüfung
 
@@ -1304,3 +1429,4 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BAYLT-OKT-SPUREN-2014` – Bayerischer Landtag, Verfassungsausschuss, 02.10.2014](https://www.bayern.landtag.de/aktuelles/aus-den-ausschuessen/verfassungsausschuss-bericht-zu-oktoberfestattentat/)
 - [`SRC-DE-BT-OKT-200358-2021` – BT-Drs. 20/358, Aktenanforderungen und Aktenrückgaben, 30.12.2021](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
 - [`SRC-DE-BT-OKT-1811602-2017` – BT-Drs. 18/11602, BND-Abgaben 2014/2016, S. 2](https://dserver.bundestag.de/btd/18/116/1811602.pdf)
+- [`SRC-DE-BARCH-MFS-HAIII7729-1980` – MfS HA III 7729: abgeschriebene LKA-/BKA-Ermittlungsberichte, 1980](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
