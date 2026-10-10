@@ -36,21 +36,25 @@ claims:
       does_not_support: "Keine Schlussfolgerung zu Mittätern, Auftraggebern oder Diensten."
     falsification: "Eine korrigierte amtliche Opferliste mit begründet abweichenden Zahlen würde die Zahlenangabe ändern."
   - id: "CLM-DE-OKT-002"
-    text: "Das Bundesarchiv dokumentiert, dass Gundolf Köhler in den 1970er Jahren Kontakte zur Wehrsportgruppe Hoffmann unterhielt und an zwei ihrer Übungen teilnahm."
+    text: "Das Bundesarchiv dokumentiert Kontakte Köhlers zur Wehrsportgruppe Hoffmann und zwei Übungsteilnahmen; eine 1979 entstandene Notiz nannte den 19. Mai 1977 als letzten damals erfassten Kontakt."
     classification: "fact"
     evidence_level: "strong"
-    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025"]
+    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BT-OKT-183259-2014"]
     evidence:
       - source: "SRC-DE-BARCH-OKTOBERFEST-2025"
         directness: "direct"
-        note: "Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und die Teilnahme an zwei Übungen."
+        note: "Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und zwei Übungsteilnahmen."
         locator: "Kontakte zur Wehrsportgruppe Hoffmann"
+      - source: "SRC-DE-BT-OKT-183259-2014"
+        directness: "direct"
+        locator: "Gedruckte S. 6, Antwort 1i; WSG-Notiz aus 1979 im Asservatenbestand zu Odfried Hepp"
+        note: "Die Bundesregierung referiert eine aus dem WSG-Umfeld stammende Notiz von 1979, nach der der letzte damals erfasste Kontakt am 19. Mai 1977 stattfand; diese Datierung ist keine unabhängige vollständige Kontaktchronik."
     counterevidence: []
-    alternatives: ["Persönliche und ideologische Kontakte belegen nicht, dass die WSG-Führung den Anschlag plante oder anordnete."]
-    missing_evidence: ["Originale NADIS-Nachweise, Briefe und Anwesenheitsbelege getrennt nach Datierung und Authentizität prüfen."]
+    alternatives: ["Eine 1979 erstellte Notiz kann spätere, dort nicht erfasste Kontakte übersehen; Kontakte in den 1970er Jahren belegen weder einen Kontakt 1980 noch eine Tatplanung oder Anordnung durch die WSG."]
+    missing_evidence: ["Die originale 1979er WSG-Notiz aus dem Hepp-Asservatenbestand, NADIS-Nachweise, Briefe und Übungsteilnahmen nach genauer Datierung und Authentizität überprüfen."]
     scope:
       supports: "Kontakte und Teilnahme an Übungen laut Archivrekonstruktion."
-      does_not_support: "Keine bewiesene Mittäterschaft der WSG oder nachrichtendienstliche Steuerung."
+      does_not_support: "Keine nachgewiesene Fortsetzung von Kontakten bis zum Anschlag 1980 und weder WSG-Mittäterschaft noch nachrichtendienstliche Steuerung."
     falsification: "Authentische Korrespondenz- und Teilnehmerlisten, die die genannten Kontakte oder Übungsteilnahmen ausschließen, würden den Claim schwächen."
   - id: "CLM-DE-OKT-003"
     text: "Die Bundesregierung berichtete 2020, der Generalbundesanwalt habe das Oktoberfestattentat in seiner Einstellungsverfügung vom 6. Juli 2020 als rechtsextremistische Tat bewertet."
@@ -437,11 +441,11 @@ claims:
         locator: "S. 4–5, Antwort 6"
         note: "Die amtliche Antwort bestätigt ausdrücklich den Hinweis und die Ermittlungsbemühung, nicht seine Echtheit oder Wahrhaftigkeit."
     counterevidence: []
-    alternatives: ["Unbekannte Personen können Bekennungen aus Desinformation, Selbstdarstellung oder Irreführung abgeben, ohne Täter oder Mitwisser zu sein."]
+    alternatives: ["Unbekannte Personen können Bekennungen als Irreführung abgeben, ohne Täter oder Mitwisser zu sein.", "Die 2009 ebenfalls diskutierten Festnahmen von über 20 Rechtsextremisten in Italien betrafen laut Regierungsantwort das Attentat in Bologna vom 2. August 1980 und belegten keine Festnahmen von Mittätern des Münchner Oktoberfestanschlags."]
     missing_evidence: ["Zeitgenössische polizeiliche Gesprächsnotizen, Zeitungseingänge und ermittelte Stimm- oder Telefonmerkmale der Anrufe."]
     scope:
       supports: "Dokumentierter, polizeilich bearbeiteter Hinweis auf ein behauptetes rechtsextremes Bekennungsnarrativ mit Bologna-Bezug."
-      does_not_support: "Keine erwiesene Täterschaft der Anruferin, keine Identität und keine erwiesene operative Verbindung zur rechtsterroristischen Bombe von Bologna."
+      does_not_support: "Keine erwiesene Täterschaft oder Identität der Anruferin und kein operativer Zusammenhang München–Bologna; die berichteten italienischen Festnahmen bezogen sich laut Bundesregierung auf Bologna selbst."
     falsification: "Nachweis, dass die Bundesregierung einen nicht existierenden Anruf als bearbeitet meldete, oder authentische neue Identitäts- und Beweisakten würden die Feststellung materiell ändern."
   - id: "CLM-DE-OKT-026"
     text: "Nach der Regierungsantwort von 2009 ergaben kriminaltechnische Untersuchungen Farbanhaftungen und Metallspuren, die Gegenstände in Köhlers Elternhaus mit Teilen des verwendeten Sprengsatzes verbanden."
@@ -481,6 +485,27 @@ claims:
       supports: "Dokumentiert die damalige amtliche Bewertung aus der nachvollziehbar benannten Archivrekonstruktion als Voraussetzung des Vergleichs mit 2020."
       does_not_support: "Keine Feststellung, dass Köhlers Tat historisch unpolitisch gewesen sei oder dass die damaligen Ermittler bewusst ein politisches Motiv unterdrückt hätten."
     falsification: "Authentische vollständige damalige Schlussvermerke, die bereits ausdrücklich eine rechtsextremistische Motivation als tragende Schlussbewertung feststellten, würden diese Zusammenfassung in Frage stellen."
+  - id: "CLM-DE-OKT-028"
+    text: "Die Bundesregierung berichtete 2014, dass die Angaben eines Zeugen über zwei Gesprächspartner Köhlers kurz vor dem Anschlag als glaubhaft beurteilt und mehrfach untersucht worden seien; die Männer blieben unidentifiziert, während die Mehrheit der Zeugen Köhler allein gesehen haben wollte."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-OKT-183259-2014"]
+    evidence:
+      - source: "SRC-DE-BT-OKT-183259-2014"
+        directness: "direct"
+        locator: "Gedruckte S. 3, Antwort 1b; Aussagen des Zeugen Frank L. und abweichende Zeugenaussagen"
+        note: "Die Regierungsantwort nennt das damalige Glaubhaftigkeitsurteil, wiederholte Vernehmungen und Öffentlichkeitsfahndung ohne Identifizierung. Sie berichtet gleichzeitig die abweichende Mehrheit von Zeugen, die Köhler ohne Begleitung sahen."
+    counterevidence:
+      - source: "SRC-DE-BT-OKT-183259-2014"
+        directness: "direct"
+        locator: "Gedruckte S. 3, Antwort 1b, letzter Absatz"
+        note: "Die amtliche Darstellung hält zahlreiche divergierende Zeugenaussagen fest; die überwiegende Zahl nahm Köhler ohne Begleitung wahr und andere Angaben wichen bei Geschlecht und Anzahl der möglichen Kontaktpersonen voneinander ab."
+    alternatives: ["Die beobachteten Männer könnten harmlose Gesprächspartner gewesen oder im chaotischen Umfeld des Festes falsch zugeordnet worden sein; ein Gespräch beweist keinen Tatbeitrag."]
+    missing_evidence: ["Früheste wörtliche Vernehmungen, genaue Beobachtungsposition, Uhrzeiten und Bewegungsbild von Frank L. gegen weitere Zeugen und Tatortspuren prüfen."]
+    scope:
+      supports: "Die dokumentierte amtliche Zeugenaussagen-Bewertung einschließlich erfolgloser Identifizierung und ausdrücklicher divergierender Gegenwahrnehmungen."
+      does_not_support: "Keine nachgewiesene Identität zweier Mittäter, keine bestätigte Tatvorbereitung und kein staatliches Vorwissen."
+    falsification: "Originale Erstvernehmungen oder die Gesamtdokumentation, die die von der Bundesregierung wiedergegebenen Angaben oder deren angebliche Prüfung wesentlich widerlegen, würden die Aussage entkräften."
 what_follows:
   - text: "Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch."
     claim_ids: ["CLM-DE-OKT-027", "CLM-DE-OKT-003"]
@@ -505,7 +530,7 @@ Das Oktoberfestattentat ist ein dokumentierter Fall rechtsterroristischer Gewalt
 ## Gesicherter Ereigniskern
 
 - **`CLM-DE-OKT-001` — stark gestützt:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen.
-- **`CLM-DE-OKT-002` — stark gestützt:** Das Bundesarchiv dokumentiert, dass Gundolf Köhler in den 1970er Jahren Kontakte zur Wehrsportgruppe Hoffmann unterhielt und an zwei ihrer Übungen teilnahm.
+- **`CLM-DE-OKT-002` — stark gestützt:** Das Bundesarchiv dokumentiert Kontakte Köhlers zur Wehrsportgruppe Hoffmann und zwei Übungsteilnahmen; eine 1979 entstandene Notiz nannte den 19. Mai 1977 als letzten damals erfassten Kontakt.
 - **`CLM-DE-OKT-003` — belegt:** Die Bundesregierung berichtete 2020, der Generalbundesanwalt habe das Oktoberfestattentat in seiner Einstellungsverfügung vom 6. Juli 2020 als rechtsextremistische Tat bewertet.
 - **`CLM-DE-OKT-005` — belegt:** Ein MfS-Bericht von September 1980 schildert die Verfassungsschutz-Observation der Wehrsportgruppe Hoffmann in der Nacht zum 26. September unter dem Namen „Aktion Wandervogel“ und vermutet Vorwissen über geplante WSG-Handlungen.
 - **`CLM-DE-OKT-006` — belegt:** Laut einer Regierungsantwort richtete das Bundesamt für Verfassungsschutz 1981 erstmals ein eigenes Referat zur Beobachtung rechtsextremistischen Terrorismus ein.
@@ -538,15 +563,16 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ### `CLM-DE-OKT-002`
 
-**Aussage:** Das Bundesarchiv dokumentiert, dass Gundolf Köhler in den 1970er Jahren Kontakte zur Wehrsportgruppe Hoffmann unterhielt und an zwei ihrer Übungen teilnahm.
+**Aussage:** Das Bundesarchiv dokumentiert Kontakte Köhlers zur Wehrsportgruppe Hoffmann und zwei Übungsteilnahmen; eine 1979 entstandene Notiz nannte den 19. Mai 1977 als letzten damals erfassten Kontakt.
 
 **Typ:** fact · **Evidenz:** stark gestützt
 
-- **Stütze `SRC-DE-BARCH-OKTOBERFEST-2025` (direct):** Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und die Teilnahme an zwei Übungen. Fundstelle: Kontakte zur Wehrsportgruppe Hoffmann.
-- **Alternative:** Persönliche und ideologische Kontakte belegen nicht, dass die WSG-Führung den Anschlag plante oder anordnete.
-- **Beweislücke:** Originale NADIS-Nachweise, Briefe und Anwesenheitsbelege getrennt nach Datierung und Authentizität prüfen.
+- **Stütze `SRC-DE-BARCH-OKTOBERFEST-2025` (direct):** Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und zwei Übungsteilnahmen. Fundstelle: Kontakte zur Wehrsportgruppe Hoffmann.
+- **Zeitliche Gegenprobe [`SRC-DE-BT-OKT-183259-2014`](https://dserver.bundestag.de/btd/18/032/1803259.pdf), gedruckte S. 6, Antwort 1i:** In einer 1979er WSG-Notiz war der letzte damals bekannte Kontakt auf **19. Mai 1977** datiert. Dies ist kein Nachweis, dass es danach definitiv keinen Kontakt gab.
+- **Alternative:** Die 1979er Notiz könnte spätere Kontakte übersehen; dennoch ist ein fortdauernder Kontakt bis September 1980 damit nicht belegt.
+- **Beweislücke:** Die Originalnotiz im Asservatenbestand Hepp, NADIS-Nachweise, Briefe und Anwesenheit bei den zwei Übungen nach Datierung und Authentizität prüfen.
 - **Tragweite:** Kontakte und Teilnahme an Übungen laut Archivrekonstruktion.
-- **Grenze:** Keine bewiesene Mittäterschaft der WSG oder nachrichtendienstliche Steuerung.
+- **Grenze:** Kein bis zur Tat 1980 reichender Kontakt belegt; weder WSG-Mittäterschaft noch geheimdienstliche Steuerung nachgewiesen.
 - **Falsifikation:** Authentische Korrespondenz- und Teilnehmerlisten, die die genannten Kontakte oder Übungsteilnahmen ausschließen, würden den Claim schwächen.
 
 ### `CLM-DE-OKT-003`
@@ -628,7 +654,9 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Vertiefte Originalaktenprüfung – 10. Oktober 2026
 
-Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archivierte Auskünfte**; sie beweisen nicht die materielle Wahrheit jeder darin wiedergegebenen Darstellung. Besonders auffällige Hinweise und konkurrierende Erklärungen sind ausführlich in der [Spurenprüfung](../../quellen/oktoberfestattentat-1980-spurenpruefung.md) verglichen.
+Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archivierte Auskünfte**; sie beweisen nicht die materielle Wahrheit jeder darin wiedergegebenen Darstellung.
+
+Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneinander unabhängigen Tatbehauptungen. Einige Spuren sind Gegenbelege, alternative Erklärungen oder überschneiden sich mit mehreren Claims; die Matrix bleibt eigenständig nachprüfbar. Besonders auffällige Hinweise und konkurrierende Erklärungen sind ausführlich in der [Spurenprüfung](../../quellen/oktoberfestattentat-1980-spurenpruefung.md) verglichen.
 
 ### `CLM-DE-OKT-007`
 
@@ -817,9 +845,9 @@ Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archiviert
 
 **Evidenz:** belegt; [Bundestags-Originaldrucksache](https://dserver.bundestag.de/btd/16/135/1613527.pdf), S. 4–5, Antwort 6.
 
-- **Gegenprobe:** Unbekannte Personen können Bekennungen aus Desinformation, Selbstdarstellung oder Irreführung abgeben, ohne Täter oder Mitwisser zu sein.
+- **Gegenprobe:** Anonyme Bekennungen können Irreführungen sein. Die in der Frage nach italienischen Festnahmen genannten mehr als 20 Rechtsextremisten betrafen nach der Regierungsantwort [16/13527, gedruckte S. 4, Antwort 4](https://dserver.bundestag.de/btd/16/135/1613527.pdf) den **Anschlag in Bologna** und keine nachgewiesenen Münchner Mittäter.
 - **Offen:** Zeitgenössische polizeiliche Gesprächsnotizen, Zeitungseingänge und ermittelte Stimm- oder Telefonmerkmale der Anrufe.
-- **Aussagegrenze:** Keine erwiesene Täterschaft der Anruferin, keine Identität und keine erwiesene operative Verbindung zur rechtsterroristischen Bombe von Bologna.
+- **Aussagegrenze:** Keine erwiesene Täterschaft oder Identität der Anruferin und keine dokumentierte operative Verbindung der Münchner Tat zum Anschlag in Bologna.
 
 ### `CLM-DE-OKT-026`
 
@@ -844,6 +872,18 @@ Die folgenden Aussagen dokumentieren **Originalantworten, Urteile und archiviert
 - **Tragweite:** Nachvollziehbare frühere Behördenbewertung im dokumentierten Archivbefund.
 - **Grenze:** Die Archivrekonstruktion beweist weder tatsächliche Unpolitischkeit noch bewusste Vertuschung.
 
+
+### `CLM-DE-OKT-028`
+
+**Aussage:** Die Bundesregierung berichtete 2014, dass die Angaben eines Zeugen über zwei Gesprächspartner Köhlers kurz vor dem Anschlag als glaubhaft beurteilt und mehrfach untersucht worden seien; die Männer blieben unidentifiziert, während die Mehrheit der Zeugen Köhler allein gesehen haben wollte.
+
+**Typ:** Tatsachenbehauptung · **Evidenz:** belegt
+
+- **Stütze [`SRC-DE-BT-OKT-183259-2014`](https://dserver.bundestag.de/btd/18/032/1803259.pdf), gedruckte S. 3, Antwort 1b:** Mehrfache Vernehmungen, amtlich als glaubhaft bewertete Wahrnehmungen und die ergebnislose Suche nach den beiden beschriebenen Männern.
+- **Gegenbefund derselben Quelle:** Die überwiegende Mehrzahl weiterer Zeugen sah Köhler allein; mögliche Kontakte wurden unterschiedlich beschrieben.
+- **Alternative:** Bloßes Gespräch ohne Beteiligung, abweichende Zuordnung oder Irrtum bei der Wahrnehmung.
+- **Beweislücke:** Erstvernehmungsprotokolle mit zeitgleichem Bewegungsbild abgleichen.
+- **Aussagegrenze:** Aus dieser unbestätigten Personenbeobachtung folgt weder eine konkrete Mittäterschaft noch Geheimdienstvorwissen.
 
 ## Originalquellen der vertieften Prüfung
 
