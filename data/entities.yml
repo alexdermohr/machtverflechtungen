@@ -337,3 +337,27 @@ entities:
     type: diplomatic_mission
     name: "Libysches Volksbüro (Ost-Berlin)"
     countries: [DE, LY]
+  - id: "ORG-DE-BFV"
+    type: "intelligence_service"
+    name: "Bundesamt für Verfassungsschutz"
+    countries: ["DE"]
+  - id: "ORG-DE-NSU"
+    type: "extremist_network"
+    name: "Nationalsozialistischer Untergrund (NSU)"
+    countries: ["DE"]
+  - id: "ORG-DE-LFV-HESSEN"
+    type: "intelligence_service"
+    name: "Landesamt für Verfassungsschutz Hessen"
+    countries: ["DE"]
+  - id: "ORG-DE-WSG-HOFFMANN"
+    type: "paramilitary_extremist_network"
+    name: "Wehrsportgruppe Hoffmann"
+    countries: ["DE"]
+  - id: "PER-DE-GUNDOLF-KOEHLER"
+    type: "person"
+    name: "Gundolf Köhler"
+    countries: ["DE"]
+  - id: "PER-DE-ANDREAS-TEMME"
+    type: "person"
+    name: "Andreas Temme"
+    countries: ["DE"]

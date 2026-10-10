@@ -688,3 +688,39 @@ relations:
     evidence_level: strong
     sources: [SRC-DE-WOLFF-URBACH-NOLLAU-2022]
     claim_ids: [CLM-DE-URB-001]
+  - id: "REL-DE-OKT-001"
+    from: "PER-DE-GUNDOLF-KOEHLER"
+    to: "ORG-DE-WSG-HOFFMANN"
+    type: "documented_contact"
+    label: "Briefkontakt ab 1976 und zwei Übungen; kein bis 1980 reichender Kontakt belegt"
+    evidence_level: "strong"
+    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BT-OKT-183259-2014"]
+    claim_ids: ["CLM-DE-OKT-002"]
+  - id: "REL-DE-NSU-AKT-001"
+    from: "ORG-DE-BFV"
+    to: "CASE-DE-NSU-AKTEN-2011"
+    type: "destroyed_informant_files"
+    label: "vernichtete nach der NSU-Aufdeckung mehrere V-Mann-Akten"
+    period:
+      start: "2011"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-NSU-LINGEN-2017"]
+    claim_ids: ["CLM-DE-NSU-AKT-001"]
+  - id: "REL-DE-NSU-YOZ-001"
+    from: "PER-DE-ANDREAS-TEMME"
+    to: "ORG-DE-LFV-HESSEN"
+    type: "employed_by"
+    label: "war Mitarbeiter und V-Mann-Führer"
+    period:
+      start: "2006"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-NSU-YOZGAT-2016"]
+    claim_ids: ["CLM-DE-YOZ-001"]
+  - id: "REL-DE-NSU-YOZ-002"
+    from: "ORG-DE-LFV-HESSEN"
+    to: "CASE-DE-NSU-YOZGAT-2006"
+    type: "withheld_witness_authorization"
+    label: "verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen"
+    evidence_level: "established"
+    sources: ["SRC-DE-BT-NSU-YOZGAT-2016"]
+    claim_ids: ["CLM-DE-YOZ-002"]

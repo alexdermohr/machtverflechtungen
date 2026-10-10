@@ -10,7 +10,10 @@ _Automatisch aus den Fall-Metadaten erzeugt._
 | 1968 – 1981 | [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](de/peter-urbach-verfassungsschutz.md) | DE | 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen | infiltration |
 | 1969-12-12 – 2005 | [Piazza Fontana](it/piazza-fontana.md) | IT | 2 belegt | strategy-of-tension, investigative-misdirection |
 | 1978-07-25 – 1986 | [Celler Loch / Aktion Feuerzauber](de/celler-loch.md) | DE | 2 belegt | false-attribution, infiltration |
+| 1980-09-26 – 2020 | [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](de/oktoberfestattentat-1980.md) | DE | 26 belegt · 5 stark gestützt | paramilitary-network, intelligence-network |
 | 1984 – 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |  |
 | 1986 – 1988 | [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](de/la-belle-1986.md) | DE, LY, US | 8 belegt · 1 plausibel · 1 spekulativ/offen | intelligence-network |
 | 1990 – 2001 | [Thüringer Heimatschutz / Tino Brandt](de/thueringer-heimatschutz-tino-brandt.md) | DE | 3 belegt | infiltration, source-protection, material-support |
+| 1996 – 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt | infiltration, source-protection |
+| 2006-03-24 – 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](de/nsu-yozgat-temme.md) | DE | 4 belegt | source-protection, infiltration |
 | 2007 – 2025 | [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](de/cum-ex-warburg-steuerverfahren.md) | DE | 6 belegt · 1 spekulativ/offen | unjustified-tax-refund |

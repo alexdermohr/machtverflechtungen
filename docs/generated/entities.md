@@ -5,11 +5,13 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | ID | Typ | Name | Länder |
 |---|---|---|---|
 | `ORG-DE-ARD` | public_broadcaster | ARD | DE |
+| `PER-DE-ANDREAS-TEMME` | person | Andreas Temme | DE |
 | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | program | Atlantik-Brücke Young Leaders Program | DE, US |
 | `ORG-DE-ATLANTIK-BRUECKE` | association | Atlantik-Brücke e.V. | DE, US |
 | `ORG-DE-AXEL-SPRINGER` | media_company | Axel Springer SE | DE |
 | `ORG-INT-BILDERBERG-MEETINGS` | conference_network | Bilderberg Meetings | US, DE |
 | `ORG-DE-BDJ` | organization | Bund Deutscher Jugend | DE |
+| `ORG-DE-BFV` | intelligence_service | Bundesamt für Verfassungsschutz | DE |
 | `ORG-DE-BMF` | government_ministry | Bundesministerium der Finanzen | DE |
 | `ORG-DE-BND` | intelligence_service | Bundesnachrichtendienst | DE |
 | `ORG-US-CIA` | intelligence_service | Central Intelligence Agency | US |
@@ -25,6 +27,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-FRIEDE-SPRINGER` | person | Friede Springer | DE |
 | `PER-DE-GABOR-STEINGART` | person | Gabor Steingart | DE |
 | `PER-DE-GEORG-MASCOLO` | person | Georg Mascolo | DE |
+| `PER-DE-GUNDOLF-KOEHLER` | person | Gundolf Köhler | DE |
 | `ORG-DE-HH-FINANZVERWALTUNG` | tax_administration | Hamburger Finanzverwaltung | DE |
 | `ORG-DE-HANDELSBLATT` | media_outlet | Handelsblatt | DE |
 | `PER-DE-HORST-MAHLER` | person | Horst Mahler | DE |
@@ -36,6 +39,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-JOERG-SCHOENENBORN` | person | Jörg Schönenborn | DE |
 | `PER-DE-KAI-DIEKMANN` | person | Kai Diekmann | DE |
 | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | person | Klaus-Dieter Frankenberger | DE |
+| `ORG-DE-LFV-HESSEN` | intelligence_service | Landesamt für Verfassungsschutz Hessen | DE |
 | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | diplomatic_mission | Libysches Volksbüro (Ost-Berlin) | DE, LY |
 | `PER-DE-LIZ-MOHN` | person | Liz Mohn | DE |
 | `ORG-DE-MM-WARBURG` | bank | M. M. Warburg & CO | DE |
@@ -43,6 +47,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-MATTHIAS-NASS` | person | Matthias Naß | DE |
 | `PER-DE-MICHAEL-BAUMANN` | person | Michael 'Bommi' Baumann | DE |
 | `ORG-DE-MFS` | intelligence_service | Ministerium für Staatssicherheit (MfS) | DE |
+| `ORG-DE-NSU` | extremist_network | Nationalsozialistischer Untergrund (NSU) | DE |
 | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | intelligence_service | Niedersächsischer Verfassungsschutz | DE |
 | `PER-DE-OLAF-SCHOLZ` | person | Olaf Scholz | DE |
 | `ORG-DE-ORGANISATION-GEHLEN` | intelligence_organization | Organisation Gehlen | DE, US |
@@ -69,6 +74,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-TUPAMAROS-WEST-BERLIN` | extremist_network | Tupamaros West-Berlin | DE |
 | `PER-DE-ULRICH-WILHELM` | person | Ulrich Wilhelm | DE |
 | `PER-DE-VOLKER-FOERTSCH` | person | Volker Foertsch | DE |
+| `ORG-DE-WSG-HOFFMANN` | paramilitary_extremist_network | Wehrsportgruppe Hoffmann | DE |
 | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | intelligence_service | West-Berliner Landesamt für Verfassungsschutz | DE |
 | `ORG-DE-WDR` | public_broadcaster | Westdeutscher Rundfunk | DE |
 | `ORG-DE-ZDF` | public_broadcaster | ZDF | DE |
