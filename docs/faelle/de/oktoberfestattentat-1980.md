@@ -678,7 +678,7 @@ what_follows:
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
   - text: "Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980."
-    claim_ids: ["CLM-DE-OKT-034", "CLM-DE-OKT-036", "CLM-DE-OKT-037"]
+    claim_ids: ["CLM-DE-OKT-034", "CLM-DE-OKT-036"]
   - text: "Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung."
     claim_ids: ["CLM-DE-OKT-032", "CLM-DE-OKT-033"]
   - text: "Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung."
