@@ -692,12 +692,9 @@ relations:
     from: "PER-DE-GUNDOLF-KOEHLER"
     to: "ORG-DE-WSG-HOFFMANN"
     type: "documented_contact"
-    label: "Briefkontakt und Teilnahme an zwei Übungen, laut Bundesarchiv"
-    period:
-      start: "1976"
-      end: "1980"
+    label: "Briefkontakt ab 1976 und zwei Übungen; kein bis 1980 reichender Kontakt belegt"
     evidence_level: "strong"
-    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025"]
+    sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BT-OKT-183259-2014"]
     claim_ids: ["CLM-DE-OKT-002"]
   - id: "REL-DE-NSU-AKT-001"
     from: "ORG-DE-BFV"

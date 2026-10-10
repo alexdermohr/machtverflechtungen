@@ -885,3 +885,80 @@ Deutscher Bundestag · 2016-12-16 · Stufe **A** · Primärquelle
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2016/kw50-pa-3ua-nsu-484280)
 
 Fundstelle: Öffentliche Anhörung des 3. UA vom 15.12.2016; Abschnitte Temme, Zeugengenehmigung, E-Mail Pilling vom 24.03.2006
+
+<a id="src-de-bverfg-okt-2017"></a>
+## SRC-DE-BVERFG-OKT-2017
+
+**[Beschluss vom 13. Juni 2017 – 2 BvE 1/15 – parlamentarische Auskünfte zum Oktoberfestattentat](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)**
+
+Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle
+
+[Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
+
+Fundstelle: Rn. 1–6, 131 ff. und Tenor
+
+<a id="src-de-bt-okt-183259-2014"></a>
+## SRC-DE-BT-OKT-183259-2014
+
+**[Antwort der Bundesregierung: Oktoberfest-Attentat – Wiederaufnahme der Ermittlungen zu Nazi-Hintermännern, BT-Drs. 18/3259](https://dserver.bundestag.de/btd/18/032/1803259.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2014-11-24 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/032/1803259.pdf)
+
+Fundstelle: gedruckte S. 3–11, insbesondere S. 4–7 (Spur 253, Lembke, Asservate), S. 9–10 (Gerichtsverwertbarkeit, Munitionsherkunft)
+
+<a id="src-de-bt-okt-183985-2015"></a>
+## SRC-DE-BT-OKT-183985-2015
+
+**[Antwort der Bundesregierung: mutmaßliche Aktenvernichtungen und Geheimdienstbestände, BT-Drs. 18/3985](https://dserver.bundestag.de/btd/18/039/1803985.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2015-02-09 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/039/1803985.pdf)
+
+Fundstelle: Antworten 14–16, 19–23 und Geheimdienstaktenlage; spätere Ergänzung in BT-Drs. 18/13318 beachten
+
+<a id="src-de-bt-okt-1813318-2017"></a>
+## SRC-DE-BT-OKT-1813318-2017
+
+**[Ergänzende Antwort der Bundesregierung nach BVerfG – Geheimdienstmeldungen zum Oktoberfestattentat und zur WSG Hoffmann, BT-Drs. 18/13318](https://dserver.bundestag.de/btd/18/133/1813318.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/133/1813318.pdf)
+
+Fundstelle: gedruckte S. 1–3; Fragen 14–16 (Oktoberfest), 19–21 (WSG), 22–23 (BfV-V-Personen), 28–31 (Landesämter)
+
+<a id="src-de-bt-okt-1813317-2017"></a>
+## SRC-DE-BT-OKT-1813317-2017
+
+**[Ergänzende Antwort der Bundesregierung nach BVerfG – Heinz Lembke und V-Personen-Tätigkeit, BT-Drs. 18/13317](https://dserver.bundestag.de/btd/18/133/1813317.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/133/1813317.pdf)
+
+Fundstelle: S. 1, Antwort 2a
+
+<a id="src-de-bt-okt-1922142-2020"></a>
+## SRC-DE-BT-OKT-1922142-2020
+
+**[Antwort der Bundesregierung: Ergebnisse der Wiederaufnahme Oktoberfestattentat, BT-Drs. 19/22142](https://dserver.bundestag.de/btd/19/221/1922142.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2020-09-07 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/221/1922142.pdf)
+
+Fundstelle: gedruckte S. 2–5, insbesondere Antworten 1, 2 und 3 (Motiv und Mitwisserschaft) sowie 4 (Zeugenbewertung)
+
+<a id="src-de-bt-okt-1922430-2020"></a>
+## SRC-DE-BT-OKT-1922430-2020
+
+**[Antwort der Bundesregierung: offene Fragen nach Verfahrensabschluss Oktoberfestattentat, BT-Drs. 19/22430](https://dserver.bundestag.de/btd/19/224/1922430.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2020-09-15 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/224/1922430.pdf)
+
+Fundstelle: gedruckte S. 2–7, insbesondere Antworten 3–5 (Hand und Geldschein), 18–21 (Geheimdienst- und Stay-behind-Komplex)
