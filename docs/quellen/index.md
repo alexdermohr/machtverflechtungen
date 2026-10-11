@@ -1116,3 +1116,47 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 [PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
+
+<a id="src-de-wsg-freundeskreis-einladung-1976"></a>
+## SRC-DE-WSG-FREUNDESKREIS-EINLADUNG-1976
+
+**[Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann: persönliche Einladung zur Veranstaltung 29.10.1976 (digitalisierter Brief aus privater Sammlung)](https://commons.wikimedia.org/wiki/File:Brief_1976_Freundeskreis_zur_F%C3%B6rderung_der_Wehrsportgruppe_Hoffmann.jpg)**
+
+Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht unabhängig authentifizierter privater Sammlung · 1976-10-01 · Stufe **B** · Primärquelle
+
+[Seite öffnen](https://commons.wikimedia.org/wiki/File:Brief_1976_Freundeskreis_zur_F%C3%B6rderung_der_Wehrsportgruppe_Hoffmann.jpg)
+
+Fundstelle: Vollständiges Einladungsblatt, Veranstaltung 29.10.1976 in Nürnberg; unten links Impressum mit Finanzverwalter 'Franz Lippert', Bonner Informationsstelle '(P. Weinmann)' und Spendenkonto beim Postscheckamt Nürnberg. Commons-Beschreibung gibt 01.10.1976 als Datum an (Uploader-Angabe, NICHT Urschriftdatierung). Datei 2480×3507 px, SHA-256 a8e36b8b3259c42414ca36128f2827984aae064545ca8ffe4e1bf295f4120438.
+
+<a id="src-de-baylt-wsg-finanz-5905-1977"></a>
+## SRC-DE-BAYLT-WSG-FINANZ-5905-1977
+
+**[Bayerischer Landtag, Drs. 8/5905: Rechtsextremistische Gruppen in Bayern – WSG Hoffmann, Finanzierung, Bewaffnung und Verbotsbewertung](https://www.bayern.landtag.de/www/ElanTextAblage_WP08/Drucksachen/0000005500/08-05905.pdf)**
+
+Bayerischer Landtag / Bayerisches Staatsministerium des Innern · 1977-07-12 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP08/Drucksachen/0000005500/08-05905.pdf)
+
+Fundstelle: Zweiseitige Originaldrucksache: S. 1 Antwort 1/2, Verfassungsschutzbericht Bayern 1976 und WSG-Fahrzeug-/Waffenbestand; S. 2 Antwort 1/2, etwa 50 Ausgebildete, Spenden und Freundeskreis; S. 2 Antworten 3–5, Ermittlungen, Verbotszuständigkeit BMI, besondere Beobachtung und damalige Gefahrenbewertung (Schreiben StM Seidl 12.07.1977).
+
+<a id="src-de-bt-wsg-freundeskreis-9081-1981"></a>
+## SRC-DE-BT-WSG-FREUNDESKREIS-9081-1981
+
+**[Bundestag, Drs. 9/81: Schriftliche Frage Spranger Nr. 14, weitere WSG-Hoffmann-Spenden und Freundeskreis nach dem Verbot](https://dserver.bundestag.de/btd/09/000/0900081.pdf)**
+
+Deutscher Bundestag / Bundesregierung, Staatssekretär Dr. Fröhlich · 1981-01-02 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/09/000/0900081.pdf)
+
+Fundstelle: Gedruckte S. 7, Frage und Antwort Nr. 14, Antwort des Staatssekretärs Dr. Fröhlich vom 23.12.1980: nach damaligem Kenntnisstand keine fortdauernden Spendeninformationen, jüngste Freundeskreisaktivität nicht festgestellt und das in Presse erwähnte Nürnberger Postscheckkonto sei ein Privatkonto Hoffmanns.
+
+<a id="src-de-bt-wsg-weinmann-124605-1993"></a>
+## SRC-DE-BT-WSG-WEINMANN-124605-1993
+
+**[Bundestag Drs. 12/4605: Behauptungen über neofaschistische und geheimdienstliche Tätigkeiten des P. W. – Weinmann, WSG-Freundeskreis und Verfassungsschutz](https://dserver.bundestag.de/btd/12/046/1204605.pdf)**
+
+Deutscher Bundestag / Bundesregierung, Bundesministerium des Innern · 1993-03-22 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/046/1204605.pdf)
+
+Fundstelle: Gedruckte S. 1–3: Fragestellerzitierung aus General-Anzeiger (22.02.1993), wonach ein Flugblatt des WSG-Freundeskreises von 1975 Peter Weinmann als 'Informationsstelle Bonn' genannt habe; Fragen 1 und 10 zur BfV-Tätigkeit/WSG-Freundeskreis. Gedruckte S. 4 (PDF S. 4), Einleitende Bundesantwort 17.03.1993: keine öffentliche Stellungnahme über nachrichtendienstliche Einzelheiten, unabhängig vom Wahrheitsgehalt der Behauptungen.

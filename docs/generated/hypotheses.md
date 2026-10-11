@@ -38,6 +38,12 @@ Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 2
 
 Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
 
+## [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](../faelle/de/oktoberfestattentat-1980.md) · CLM-DE-OKT-058
+
+**fact · plausible**
+
+Das aus einer privaten Sammlung digitalisierte Einladungsschreiben des WSG-Hoffmann-Freundeskreises zu einer Veranstaltung am 29. Oktober 1976 benennt einen Franz Lippert als Finanzverwalter, P. Weinmann als Ansprechpartner der Informationsstelle Bonn und ein Postscheck-Spendenkonto in Nürnberg.
+
 ## [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) · CLM-DE-TMN-004
 
 **open_question · speculative**
