@@ -30,6 +30,9 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         self.assertIn("1979 und 1980", funding["text"])
         self.assertEqual(funding["sources"], ["SRC-DE-BT-09066-1981"])
         self.assertIn("1994", material["text"])
+        vehicle_people = claims["CLM-DE-DA-007"]["text"]
+        for marker in ("Vissing", "Manfred Roeder", "eine weitere Person", "Vissings Elektriker"):
+            self.assertIn(marker, vehicle_people)
         self.assertEqual(material["sources"], ["SRC-DE-BT-1311005-1998"])
         self.assertIn("keine Bundeswehrfinanzierung von Anschlägen des Jahres 1980", material["scope"]["does_not_support"])
 

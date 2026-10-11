@@ -146,7 +146,7 @@ claims:
       does_not_support: "Sie belegt keine Bundeswehrfinanzierung von Anschlägen des Jahres 1980 und noch keine endgültige Verwendung aller Fahrzeuge."
     falsification: "Authentische ursprüngliche Abgabebelege mit anderem Empfänger, anderer Stückzahl oder abweichender Entscheidung würden den Claim korrigieren."
   - id: CLM-DE-DA-007
-    text: "Der Untersuchungsausschuss rekonstruierte für den 2. Januar 1995 die Abholung dreier ausgesonderter Bundeswehrfahrzeuge durch Manfred Roeder und einen Begleiter sowie deren anschließende Unterstellung auf dem Gelände der Führungsakademie in Hamburg."
+    text: "Der Untersuchungsausschuss rekonstruierte für den 2. Januar 1995 die Anlieferung dreier ausgesonderter Bundeswehrfahrzeuge an die Hamburger Führungsakademie durch Vissing, Manfred Roeder, eine weitere Person und Vissings Elektriker."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BT-1311005-1998]
@@ -154,7 +154,7 @@ claims:
       - source: SRC-DE-BT-1311005-1998
         directness: direct
         locator: "gedruckte S. 55 sowie 464–465, Übernahme und Abstellen der Fahrzeuge"
-        note: "Der Bericht nennt Roeder als Empfangsberechtigten, einen VW 181, einen VW Iltis und einen Daimler-Benz-Lkw."
+        note: "Der Bericht nennt Roeder als Empfangsberechtigten, die vier beteiligten Fahrer sowie einen VW 181, einen VW Iltis und einen Daimler-Benz-Lkw."
     counterevidence: []
     alternatives:
       - "Der erlaubte Abstellort beruhte nach Zeugenaussagen auf dienstlicher Kommunikation ohne schriftliche Einzelgenehmigung."
@@ -163,7 +163,7 @@ claims:
     scope:
       supports: "Dokumentierte persönliche Rolle Roeders beim Empfang staatlicher Sachmittel und Zugang zu einem Bundeswehrstandort."
       does_not_support: "Der Vorgang betrifft das Deutsch-Russische Gemeinschaftswerk der 1990er Jahre und keine zeitliche Kontinuität einer terroristischen Vereinigung von 1980."
-    falsification: "Verifizierte Übergabeprotokolle, die Roeders Empfang oder das Unterstellen am Standort widerlegen, würden den Claim treffen."
+    falsification: "Verifizierte Übergabeprotokolle, die Roeders Mitwirkung an der Anlieferung oder das Unterstellen am Standort widerlegen, würden den Claim treffen."
   - id: CLM-DE-DA-008
     text: "Der Bundestags-Untersuchungsausschuss rekonstruierte, dass Manfred Roeder am 24. Januar 1995 an der Führungsakademie der Bundeswehr vor etwa 25 bis 30 Angehörigen des Akademiestabs vortrug."
     classification: fact
@@ -288,7 +288,7 @@ case_links:
 - **`CLM-DE-DA-003` — belegt:** Parlamentarischer Staatssekretär Andreas von Schoeler berichtete im Bundestag am 25. November 1981, auf den Konten der neonazistischen Deutschen Bürgerinitiative um Manfred Roeder seien 1979 und 1980 insgesamt 84.000 DM aus dem In- und Ausland eingegangen.
 - **`CLM-DE-DA-004` — belegt:** Die Bundesregierung nannte am 25. November 1981 für Heinz Lembke mehrere rechtsextremistische Organisationsmitgliedschaften und ausdrücklich Kontakte zur Deutschen Bürgerinitiative Manfred Roeders sowie zu Odfried Hepp.
 - **`CLM-DE-DA-006` — belegt:** Der Bundestags-Untersuchungsausschuss dokumentierte 1998, dass das Auswärtige Amt 1994 der kostenlosen Überlassung ausgesonderter Bundeswehrfahrzeuge und Werkzeuge an das Deutsch-Russische Gemeinschaftswerk zustimmte und das Verteidigungsministerium am 15. Juni 1994 drei Fahrzeuge und Werkzeugsätze freigab.
-- **`CLM-DE-DA-007` — belegt:** Der Untersuchungsausschuss rekonstruierte für den 2. Januar 1995 die Abholung dreier ausgesonderter Bundeswehrfahrzeuge durch Manfred Roeder und einen Begleiter sowie deren anschließende Unterstellung auf dem Gelände der Führungsakademie in Hamburg.
+- **`CLM-DE-DA-007` — belegt:** Der Untersuchungsausschuss rekonstruierte für den 2. Januar 1995 die Anlieferung dreier ausgesonderter Bundeswehrfahrzeuge an die Hamburger Führungsakademie durch Vissing, Manfred Roeder, eine weitere Person und Vissings Elektriker.
 - **`CLM-DE-DA-008` — belegt:** Der Bundestags-Untersuchungsausschuss rekonstruierte, dass Manfred Roeder am 24. Januar 1995 an der Führungsakademie der Bundeswehr vor etwa 25 bis 30 Angehörigen des Akademiestabs vortrug.
 - **`CLM-DE-DA-009` — stark gestützt:** Der Untersuchungsausschuss berichtete 1998, dass ein ursprünglich für das Deutsch-Russische Gemeinschaftswerk überlassener Bundeswehr-Lkw im Oktober 1995 auf Manfred Roeder zugelassen und 1996 an eine sächsische Gemeinde verkauft worden war; die Verwendung weiterer Fahrzeuge blieb in der damaligen Aufarbeitung teilweise ungeklärt.
 - **`CLM-DE-DA-011` — belegt:** Der hessische Verfassungsschutzbericht 1982 berichtete für die Deutsche Bürgerinitiative nach Roeders Inhaftierung über Mitgliederverluste und rückläufige Spendeneingänge.
@@ -309,7 +309,7 @@ Im selben [Plenarprotokoll 9/66, gedruckte S. 3842](https://dserver.bundestag.de
 
 Nach [Bundestagsdrucksache 13/11005](https://dserver.bundestag.de/btd/13/110/1311005.pdf), gedruckte S. 55–57 und 66, billigte das Auswärtige Amt am **1. Juni 1994** die unentgeltliche Überlassung ausgesonderten Materials für das **Deutsch-Russische Gemeinschaftswerk (DRGW)**. Das Bundesverteidigungsministerium bestätigte die Abgabe von **drei Fahrzeugen und Werkzeugsätzen am 15. Juni 1994**. **Roeder** war laut Bericht zweiter Vereinsvorsitzender.
 
-Am **2. Januar 1995** nahmen Roeder und ein Begleiter einen **VW 181, einen VW Iltis und einen Daimler-Benz-Lkw** in Empfang und stellten sie auf dem Gelände der Hamburger Führungsakademie der Bundeswehr ab. Roeder hielt am **24. Januar 1995** vor etwa **25 bis 30 Stabsangehörigen** einen Vortrag über Russlanddeutsche. Die Untersuchung nennt Übernachtung und dienstliche Fahrten, aber keine Honorarauszahlung für den Vortrag; ein Zeuge verneinte eine tatsächliche Spendensammlung bei der Veranstaltung.
+Am **2. Januar 1995** lieferten **Vissing, Roeder, eine weitere Person und Vissings Elektriker** einen **VW 181, einen VW Iltis und einen Daimler-Benz-Lkw** an der Hamburger Führungsakademie der Bundeswehr an und stellten sie dort ab. Die vier Beteiligten werden im Untersuchungsausschussbericht, gedruckte **S. 465**, als Fahrer benannt. Roeder hielt am **24. Januar 1995** vor etwa **25 bis 30 Stabsangehörigen** einen Vortrag über Russlanddeutsche. Die Untersuchung nennt Übernachtung und dienstliche Fahrten, aber keine Honorarauszahlung für den Vortrag; ein Zeuge verneinte eine tatsächliche Spendensammlung bei der Veranstaltung.
 
 Für den Lkw fand der Ausschuss Zulassungsunterlagen auf Roeder und einen Verkauf im Jahr **1996** an eine sächsische Gemeinde. Die Verwendung weiterer Fahrzeuge konnte nach damaligem Aktenstand nicht vollständig nachvollzogen werden. Ende **1997** wurde wegen mutmaßlich zweckwidriger Verwendung Strafanzeige erstattet; der später erreichte strafrechtliche Abschluss gehört zum nächsten Archivauftrag.
 
