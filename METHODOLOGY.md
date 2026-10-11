@@ -53,7 +53,7 @@ Jeder Claim enthält neben seiner Stütze dieselben Prüffelder:
 5. **Aussagegrenze** — was trägt die Evidenz und was ausdrücklich nicht?
 6. **Falsifikation** — welcher Befund würde den Claim materiell schwächen oder widerlegen?
 
-Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine leere Liste kennzeichnet fehlende Einträge im aktuellen Forschungsstand.
+Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine leere Liste kennzeichnet fehlende Einträge im aktuellen Forschungsstand; sie sagt nichts über tatsächlich vorhandene, bislang nicht registrierte Gegenbelege aus.
 
 Damit wird Gegenprüfung nicht als nachträgliche Relativierung einer bereits gesetzten Erzählung behandelt, sondern gleichzeitig mit der Behauptung gespeichert.
 
@@ -128,7 +128,7 @@ Bloße Ko-Präsenz in einem Gremium wird nicht als Einfluss- oder Steuerungsverh
 - **Einfluss:** es gibt Evidenz dafür, dass diese Beziehung Entscheidungen oder Verhalten mitprägt.
 - **Steuerung:** ein Akteur gibt Ziele, Mittel oder konkrete Handlungen eines anderen Akteurs maßgeblich vor.
 
-Für Einfluss werden konkrete Entscheidungs- und Verhaltenswirkungen untersucht; für Steuerung zusätzlich Anweisungen, Umsetzung und Kontrollmöglichkeiten.
+Eine dokumentierte Verbindung beweist keinen Einfluss; Einfluss beweist keine Steuerung. Für Einfluss werden konkrete Entscheidungs- und Verhaltenswirkungen untersucht, für Steuerung zusätzlich Anweisungen und deren Umsetzung.
 
 ## Verlinkungen zwischen Fällen
 
@@ -162,11 +162,11 @@ Vorwissen ist keine Tatbeteiligung. Infiltration ist keine Steuerung. Materielle
 
 Ein Ereignis kann Folgen haben, von denen Institutionen oder politische Akteure profitieren.
 
-Die Kausalkette lautet:
+Politischer Nutzen nach einem Ereignis begründet für sich weder Absicht noch Urheberschaft. Die mögliche Abfolge
 
 `Nutzen → Motiv → Absicht → Urheberschaft`
 
-Jeder Übergang wird gesondert anhand von Entscheidungsvermerken, Kommunikation und dokumentierten Handlungen geprüft.
+besteht aus **eigenständigen Kausalbehauptungen**. Für jeden Übergang werden gesondert Entscheidungsvermerke, Kommunikation und dokumentierte Handlungen benötigt.
 
 ## Terrorismus und politische Gewalt: getrennte Ebenen
 
@@ -177,7 +177,7 @@ Bei Terrorismus oder politischer Gewalt werden mindestens vier qualitativ versch
 3. **Provokation / Inszenierung:** staatliche Stellen erzeugen, provozieren oder imitieren einen Vorgang.
 4. **Steuerung:** terroristische Akteure oder konkrete Anschläge werden aktiv dirigiert.
 
-Zwischen den Ebenen entscheiden gesonderte Belege über Auftrag, Führung, Vorbereitung und Vollzug.
+Ein Befund auf Ebene 1 oder 2 trägt noch keinen Schluss auf Ebene 3 oder 4. Für Provokation und Steuerung sind gesonderte Belege über Auftrag, Führung, Vorbereitung und Vollzug entscheidend.
 
 ## Prüfmatrix für einschlägige Fälle
 

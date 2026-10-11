@@ -410,7 +410,7 @@ Die [Thesenzuarbeit vom 27. Januar 1988](https://www.stasi-mediathek.de/medien/t
 
 Das Bundesarchiv rekonstruiert einen **Warnversuch gegen 22:30 Uhr am 4. April** aus dem Umfeld der MfS-Quellenführung, bei dem der Führungsoffizier vermutlich nicht erreicht wurde. Ohne Original-Telefonprotokolle bleibt diese Empfangslage unsicher.
 
-Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](https://open.ifz-muenchen.de/entities/reihenband/2c735693-239d-4c49-8eca-ec4f8ab1ebe0) enthaltene westliche Quelle referiert die Angaben des BMI-Staatssekretärs Neusel über US-Hinweise (18:00 Uhr), BKA-Eingang (23:00 Uhr) und LKA-Weiterleitung (01:30 Uhr). Die **Zeitangaben sind hier regierungsamtlich überliefert, nicht durch Original-Eingangsbücher kontrolliert**. Die ursprünglichen Eingangs- und Weiterleitungsbücher sind für die Zuordnung der beiden Warnketten maßgeblich.
+Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](https://open.ifz-muenchen.de/entities/reihenband/2c735693-239d-4c49-8eca-ec4f8ab1ebe0) enthaltene westliche Quelle referiert die Angaben des BMI-Staatssekretärs Neusel über US-Hinweise (18:00 Uhr), BKA-Eingang (23:00 Uhr) und LKA-Weiterleitung (01:30 Uhr). Die **Zeitangaben sind hier regierungsamtlich überliefert, nicht durch Original-Eingangsbücher kontrolliert**. Eine gemeinsame Informationsquelle der beiden Warnketten ist bislang nicht dokumentiert. Die ursprünglichen Eingangs- und Weiterleitungsbücher sind für ihre Zuordnung maßgeblich.
 
 ## Gegenhypothese und Entscheidungslücke
 

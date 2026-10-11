@@ -68,7 +68,11 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertIn("## Internationale Anschläge", catalog)
         self.assertIn("## Politik, Wirtschaft & Medien", catalog)
         network = (DOCS / "generated" / "network.md").read_text(encoding="utf-8")
-        self.assertIn('??? info "Netzwerkgrafik anzeigen"', network)
+        self.assertIn("[Netzwerkdiagramm öffnen](network-graph.md)", network)
+        graph = (DOCS / "generated" / "network-graph.md").read_text(encoding="utf-8")
+        self.assertIn("```mermaid", graph)
+        self.assertIn("flowchart LR", graph)
+        self.assertNotIn("??? info", graph)
         self.assertIn("../quellen/index.md#src-", network)
 
     def test_responsive_website_features_are_present(self) -> None:

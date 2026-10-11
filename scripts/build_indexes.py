@@ -353,35 +353,13 @@ def render_network(
             return entity_map[node]["name"]
         return case_titles.get(node, node)
 
-    def mid(node: str) -> str:
-        return "N_" + re.sub(r"[^A-Za-z0-9_]", "_", node)
-
     lines = [
         "# Beziehungsnetzwerk",
         "",
         f"**{len(relations)} quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. "
-        "Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert. "
-        "Die gesamte interaktive Grafik kann bei Bedarf aufgeklappt werden.",
+        "Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.",
         "",
-        "??? info \"Netzwerkgrafik anzeigen\"",
-        "",
-        "    ```mermaid",
-        "    flowchart LR",
-    ]
-    seen: set[str] = set()
-    for relation in relations:
-        source, target = relation["from"], relation["to"]
-        for node in (source, target):
-            if node not in seen:
-                lines.append(
-                    f'        {mid(node)}["{label(node).replace(chr(34), chr(39))}"]'
-                )
-                seen.add(node)
-        edge = relation.get("label", relation["type"]).replace('"', "'")
-        lines.append(f'        {mid(source)} -->|"{edge}"| {mid(target)}')
-
-    lines += [
-        "    ```",
+        "[Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.",
         "",
         "## Dokumentierte Relationen",
         "",
@@ -406,6 +384,46 @@ def render_network(
     return "\n".join(lines) + "\n"
 
 
+def render_network_graph(
+    cases: list[tuple[dict[str, Any], str]],
+    entities: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+) -> str:
+    """Render Mermaid on its own visible page, never in a collapsed details element."""
+    entity_map = {item["id"]: item for item in entities}
+    case_titles = {meta["id"]: meta["title"] for meta, _ in cases}
+
+    def label(node: str) -> str:
+        if node in entity_map:
+            return entity_map[node]["name"]
+        return case_titles.get(node, node)
+
+    def mid(node: str) -> str:
+        return "N_" + re.sub(r"[^A-Za-z0-9_]", "_", node)
+
+    lines = [
+        "# Netzwerkdiagramm",
+        "",
+        f"**{len(relations)} Beziehungen** als interaktive Übersicht. "
+        "Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.",
+        "",
+        "```mermaid",
+        "flowchart LR",
+    ]
+    seen: set[str] = set()
+    for relation in relations:
+        source, target = relation["from"], relation["to"]
+        for node in (source, target):
+            if node not in seen:
+                lines.append(
+                    f'    {mid(node)}["{label(node).replace(chr(34), chr(39))}"]'
+                )
+                seen.add(node)
+        edge = relation.get("label", relation["type"]).replace('"', "'")
+        lines.append(f'    {mid(source)} -->|"{edge}"| {mid(target)}')
+    lines += ["```", "", "[Zur Relationstabelle](network.md)", ""]
+    return "\n".join(lines) + "\n"
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -427,6 +445,7 @@ def main() -> int:
         ),
         DOCS / "generated" / "timeline.md": render_timeline(cases),
         DOCS / "generated" / "network.md": render_network(cases, entities, relations),
+        DOCS / "generated" / "network-graph.md": render_network_graph(cases, entities, relations),
         DOCS / "generated" / "entities.md": render_entities(entities),
         DOCS / "generated" / "regions.md": render_regions(cases),
         DOCS / "generated" / "hypotheses.md": render_hypotheses(cases),

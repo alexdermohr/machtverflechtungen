@@ -80,6 +80,7 @@ nav:
           - Nachrichtendienste und Medien: faelle/de/medien-nachrichtendienst-crosslayer.md
   - Beziehungen & Daten:
       - Netzwerk: generated/network.md
+      - Netzwerkdiagramm: generated/network-graph.md
       - Chronologie: generated/timeline.md
       - Personen & Organisationen: generated/entities.md
       - Regionen: generated/regions.md

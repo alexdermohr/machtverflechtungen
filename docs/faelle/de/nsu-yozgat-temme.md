@@ -109,7 +109,7 @@ case_links:
 
 **Forschungsfrage:** Welche überprüfbaren Folgen hatte die Anwesenheit eines hessischen V-Mann-Führers am Tatort für die Ermittlungen, und was blieb ungeklärt?
 
-Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der späteren Ermittlungen verbunden. Der damalige V-Mann-Führer Andreas Temme war im Internetcafé; das Ermittlungsverfahren gegen ihn wurde im Januar 2007 eingestellt. Vernehmungsgenehmigungen, widersprüchliche Aussagen und die damaligen Informationswege waren Gegenstand parlamentarischer Aufklärung.
+Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der späteren Ermittlungen verbunden. Der damalige V-Mann-Führer Andreas Temme war im Internetcafé; das Ermittlungsverfahren gegen ihn wurde im Januar 2007 ohne Nachweis seiner Tatbeteiligung eingestellt. Vernehmungsgenehmigungen, widersprüchliche Aussagen und die damaligen Informationswege waren Gegenstand parlamentarischer Aufklärung.
 
 ## Gesicherter Ereigniskern
 
@@ -125,7 +125,7 @@ Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der sp
 
 Die Bundestagsberichterstattung aus der Anhörung vom 15. Dezember 2016 dokumentiert sowohl die Kritik der Abgeordneten als auch entlastende und relativierende Vernehmungsaspekte. Aussagen über eine möglicherweise empfangene E-Mail zu einer **früheren Mordserie** sind nicht gleichzusetzen mit Wissen über den konkreten Mord am 6. April 2006.
 
-Für die Prüfung der Ermittlungsbeeinträchtigung sind die konkreten Genehmigungsentscheidungen, verzögerten Vernehmungen und dienstlichen Zuständigkeiten entscheidend.
+Die verweigerten Aussagegenehmigungen beeinträchtigten Ermittlungen. Eine absichtliche Strafvereitelung folgt daraus bislang nicht; hierzu sind die konkreten Bescheide, verzögerten Vernehmungen und dienstlichen Zuständigkeiten entscheidend.
 
 ## Einzelclaim-Prüfung
 
