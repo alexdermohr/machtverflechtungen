@@ -1170,7 +1170,7 @@ Bayerischer Landtag, Untersuchungsausschuss Langemann (Mehrheitsbericht) · 1982
 
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf)
 
-Fundstelle: Faksimile gedruckte S. 11: Ziff. 2c zur Aktenweitergabe Oktoberfest; S. 13: Abschnitt 5, Ziffer 1 mit 8.000 DM an 'Prof. Dr. Johann Kinsky' 1976 und Tätigkeit mit staatlich geförderten Informationsmitteln.
+Fundstelle: Faksimile gedruckte S. 11: Ziff. 2c zur Aktenweitergabe Oktoberfest; S. 13, Abschnitt 5, Ziffer 1: 8.000 DM an 'Prof. Dr. Johann Kinsky' (1976); Ziffer 4: Arbeitskreis-Förderung; Ziffer 5: von Stauffenbergs berichtete Zahlungen an Langemann.
 
 <a id="src-de-baylt-langemann-minderheit-13012-1982"></a>
 ## SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982

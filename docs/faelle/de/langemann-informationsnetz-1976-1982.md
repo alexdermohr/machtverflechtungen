@@ -216,7 +216,7 @@ claims:
     Privatprojekten angehört haben; das Konzept könnte vor Umsetzung beendet worden sein.
   missing_evidence:
   - Zeitgleiche Verteil- und Entscheidungsvermerke, Originalkonten, Auftrags-/Leistungsnachweise, redaktionelle Absprachen
-    und Korrespondenz zwischen Beteiligten aus 1976–1982.
+    und Korrespondenz zwischen Beteiligten aus 1975–1982.
   scope:
     supports: Ein gezieltes, diskriminierbares Forschungsprogramm für die mögliche organisatorische Verbindung der beschriebenen
       Informations- und Finanzierungswege.
@@ -237,20 +237,15 @@ claims:
   - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
     directness: direct
     locator: Gedruckte S. 26, Zeugenaussage von Stauffenbergs; S. 25–26 zur Finanzierungsstruktur
-    note: Direkt eingesehener Minderheitenbericht gibt Zahlungszweck, Gesamthöhe, berichteten Zeitraum und das Zeugnis
-      des Empfängerkreises wieder, nicht einzelne private Bankbelege. Die zitierte Zeugenaussage attribuiert die
+    note: Direkt eingesehener Minderheitenbericht gibt Zahlungszweck, Gesamthöhe, berichteten Zeitraum und die Zeugenaussage
+      des Zahlenden von Stauffenberg wieder, nicht einzelne private Bankbelege. Die zitierte Zeugenaussage attribuiert die
       Zahlungen von Stauffenberg persönlich; erst die anschließende Minderheitsbewertung ordnet sie seinem Informationsdienst zu.
   - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
     directness: direct
-    locator: Gedruckte S. 13, Ziffer 5, Unterpunkt 5
+    locator: Gedruckte S. 13, Abschnitt 5, Ziffer 5
     note: Mehrheitsbericht nennt einen abweichenden Zeitraum 1976–1979, monatliche Beträge 5.000 bis 6.000 DM und eine
       Schätzung über 300.000 DM desselben Zeugen; nicht als zweite unabhängige Zeugenaussage zählen.
-  counterevidence:
-  - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
-    directness: direct
-    locator: Gedruckte S. 13, Ziffer 5, Unterpunkt 5
-    note: Abweichender im Mehrheitsbericht genannter Zeitraum und monatlicher Betrag müssen gegenüber dem Minderheitenbericht
-      anhand der ursprünglichen Zeugenaussage aufgelöst werden.
+  counterevidence: []
   alternatives:
   - Die Zeiträume könnten unterschiedliche Abrechnungs- oder Erinnerungsabschnitte derselben Zahlungen beschreiben,
     ohne dass zusätzliche Geldflüsse anzunehmen sind.
@@ -282,7 +277,7 @@ claims:
       Beträge.
   - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
     directness: context
-    locator: Gedruckte S. 13, Ziffer 5, Unterpunkt 4
+    locator: Gedruckte S. 13, Abschnitt 5, Ziffer 4
     note: Mehrheitsbericht dokumentiert die finanzielle Förderung des Arbeitskreises 1979–1981 aus dem Innenministerium
       und die Aussage über einen von Stauffenberg betriebenen Informationsdienst.
   counterevidence: []
