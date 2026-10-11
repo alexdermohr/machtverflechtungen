@@ -832,20 +832,20 @@ relations:
     claim_ids: [CLM-DE-DA-008]
 
   - id: REL-DE-DA-008
-    from: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
-    to: PER-DE-NGUYEN-NGOC-CHAU
+    from: PER-DE-NGUYEN-NGOC-CHAU
+    to: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
     type: victim_of_violent_attack
-    label: "Opfer des Brandanschlags 22.08.1980 in Hamburg-Billbrook"
+    label: "wurde am 22.08.1980 Opfer des Brandanschlags der Deutschen Aktionsgruppen in Hamburg-Billbrook"
     period: {start: "1980-08-22"}
     evidence_level: strong
     sources: [SRC-DE-ARCHIVPORTAL-DA-2026]
     claim_ids: [CLM-DE-DA-001]
 
   - id: REL-DE-DA-009
-    from: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
-    to: PER-DE-DO-ANH-LAN
+    from: PER-DE-DO-ANH-LAN
+    to: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
     type: victim_of_violent_attack
-    label: "Opfer desselben Hamburger Brandanschlags; starb neun Tage später"
+    label: "wurde Opfer des Brandanschlags am 22.08.1980; starb neun Tage später"
     period: {start: "1980-08-22"}
     evidence_level: strong
     sources: [SRC-DE-ARCHIVPORTAL-DA-2026]

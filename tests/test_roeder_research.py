@@ -67,6 +67,14 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         self.assertEqual(relations["REL-DE-DA-005"]["period"]["start"], "1993-02-20")
         self.assertEqual(relations["REL-DE-DA-005"]["to"], "ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK")
         self.assertNotEqual(relations["REL-DE-DA-002"]["to"], relations["REL-DE-DA-006"]["to"])
+        for rid, person in (
+            ("REL-DE-DA-008", "PER-DE-NGUYEN-NGOC-CHAU"),
+            ("REL-DE-DA-009", "PER-DE-DO-ANH-LAN"),
+        ):
+            with self.subTest(relation=rid):
+                self.assertEqual(relations[rid]["from"], person)
+                self.assertEqual(relations[rid]["to"], "ORG-DE-DEUTSCHE-AKTIONSGRUPPEN")
+                self.assertEqual(relations[rid]["type"], "victim_of_violent_attack")
 
     def test_public_case_includes_source_discovery_paths(self) -> None:
         text = CASE.read_text(encoding="utf-8")
