@@ -1160,3 +1160,25 @@ Deutscher Bundestag / Bundesregierung, Bundesministerium des Innern · 1993-03-2
 [PDF öffnen](https://dserver.bundestag.de/btd/12/046/1204605.pdf)
 
 Fundstelle: Gedruckte S. 1–3: Fragestellerzitierung aus General-Anzeiger (22.02.1993), wonach ein Flugblatt des WSG-Freundeskreises von 1975 Peter Weinmann als 'Informationsstelle Bonn' genannt habe; Fragen 1 und 10 zur BfV-Tätigkeit/WSG-Freundeskreis. Gedruckte S. 4 (PDF S. 4), Einleitende Bundesantwort 17.03.1993: keine öffentliche Stellungnahme über nachrichtendienstliche Einzelheiten, unabhängig vom Wahrheitsgehalt der Behauptungen.
+
+<a id="src-de-baylt-langemann-mehrheit-12951-1982"></a>
+## SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+
+**[Bayerischer Landtag, Drs. 9/12951: Mehrheitsbericht des Untersuchungsausschusses zu Hans Langemann](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf)**
+
+Bayerischer Landtag, Untersuchungsausschuss Langemann (Mehrheitsbericht) · 1982-07-16 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf)
+
+Fundstelle: Faksimile gedruckte S. 11: Ziff. 2c zur Aktenweitergabe Oktoberfest; S. 13: Ziff. 5 mit 8.000 DM an 'Prof. Dr. Johann Kinsky' 1976 und Tätigkeit mit staatlich geförderten Informationsmitteln.
+
+<a id="src-de-baylt-langemann-minderheit-13012-1982"></a>
+## SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+
+**[Bayerischer Landtag, Drs. 9/13012: Minderheitenbericht zum Untersuchungsausschuss Hans Langemann](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf)**
+
+Bayerischer Landtag, SPD-/FDP-Minderheit des Langemann-Untersuchungsausschusses · 1982-09-10 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf)
+
+Fundstelle: Faksimile gedruckte S. 15 zur Publikation VS-Vertraulich/G-10 1980; S. 17 Vermerk 21.02.1980 zur Medienbeeinflussung; S. 17–18 Vormerkung 'Victory for Strauß' November 1979 mit Medien-/Finanzierungsprogramm; S. 25 Deckname Kinsky und Kontoangaben.

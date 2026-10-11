@@ -1,0 +1,302 @@
+---
+id: CASE-DE-LANGEMANN-1976-1982
+type: case
+title: 'Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“'
+countries:
+- DE
+period:
+  start: '1976'
+  end: '1982'
+status: developing
+research_question: Welche belegten Informations- und Finanzierungswege verbanden Hans Langemann, bayerischen Staatsschutz,
+  Medienmittler und politische Einflusskonzepte?
+event_claims:
+- CLM-DE-LANG-001
+- CLM-DE-LANG-002
+- CLM-DE-LANG-003
+- CLM-DE-LANG-004
+- CLM-DE-LANG-005
+tags:
+- bayern
+- langemann
+- politische-einflussnahme
+- geheimdienste
+- medien
+- informationsfinanzierung
+- oktoberfest
+- quellenkritik
+actors:
+- PER-DE-HANS-LANGEMANN
+- ORG-DE-BAYSTMI
+- ORG-DE-AG-STAAT-GESELLSCHAFT
+mechanisms:
+- intelligence-network
+- material-support
+sources:
+- SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+- SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+claims:
+- id: CLM-DE-LANG-001
+  text: Der Mehrheitsbericht des bayerischen Langemann-Untersuchungsausschusses hielt 1982 fest, dass Rechtsanwalt
+    Hans Joachim Gaub im März 1982 im Auftrag von Frank Peter Heigl Kopien von Innenministeriumsunterlagen zum Oktoberfestattentat
+    an das BayLfV übergab; laut Heigl stammten die Kopien aus einer Übergabe Hans Langemanns etwa zehn Tage nach dem
+    Anschlag.
+  classification: fact
+  evidence_level: established
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+    directness: direct
+    locator: Gedruckte S. 11, Abschnitt 2c
+    note: Direkt geprüfte Mehrheitsdarstellung des dokumentierten Rückgabevorgangs und der davon getrennten Herkunftsaussage
+      des Zeugen Heigl.
+  counterevidence: []
+  alternatives:
+  - Die Heigl zugeschriebene ursprüngliche Übergabe könnte einen anderen Entstehungs- oder Weitergabeweg gehabt haben;
+    der spätere Gaub-BayLfV-Vorgang ist davon zu trennen.
+  missing_evidence:
+  - Originale Übergabe- und Eingangsvermerke Oktober 1980 und März 1982, Kopienliste, Geheimhaltungskennzeichen und
+    aussagebezogene Vernehmungsprotokolle Heigl/Langemann.
+  scope:
+    supports: Amtlich berichteter Umgang mit Kopien der Oktoberfestakten und konkret attribuierte, datierbare Herkunftsaussage.
+    does_not_support: Die tatsächliche Urheberschaft der frühen Übergabe an Heigl ist erst durch Urschrift, Verteiler
+      und Vernehmung nachprüfbar.
+  falsification: Originale Empfangs- und Sicherstellungsvermerke oder zeitgenössische Zeugenaussagen mit abweichender
+    Herkunft könnten die angegebene Aktenkette korrigieren.
+- id: CLM-DE-LANG-002
+  text: Der Mehrheitsbericht von 1982 verzeichnet eine Überweisung von 8.000 DM im Jahr 1976 durch die mit Bundes-
+    und bayerischen Fördermitteln unterstützte Arbeitsgemeinschaft Staat und Gesellschaft an einen als Professor Dr.
+    Johann Kinsky bezeichneten Empfänger für Extremismusaufklärung.
+  classification: fact
+  evidence_level: established
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+    directness: direct
+    locator: Gedruckte S. 13, Abschnitt 5, Ziffer 1
+    note: Mehrheitsbericht beschreibt Zahlung, Empfängername, Fördermittelkontext und einen vorgelegten Verwendungsnachweis;
+      die Urschriften sind noch ein eigener Prüfschritt.
+  counterevidence: []
+  alternatives:
+  - Die angegebene Verwendung für eine wissenschaftliche Ausarbeitung kann von den tatsächlichen Empfänger- und Weiterleitungswegen
+    abweichen; andere im Ausschuss erwähnte Zahlungen bleiben getrennt.
+  missing_evidence:
+  - Originalkontoauszug der Arbeitsgemeinschaft 1976, Auszahlungsanordnung über 8.000 DM, Fördermittelbescheid und
+    vollständiger Verwendungsnachweis samt Empfängeridentität.
+  scope:
+    supports: Berichtete, betragsgenaue staatlich geförderte Finanzierung eines namentlich dokumentierten Empfängers.
+    does_not_support: Die 8.000-DM-Zahlung ist nicht mit weiteren berichteten 5.000-DM-Kontobewegungen oder WSG-Spenden
+      gleichzusetzen.
+  falsification: Originale Zuwendungs- und Kontobelege mit anderer Höhe, Datum oder Empfänger könnten die parlamentarische
+    Zahlungsdarstellung korrigieren.
+- id: CLM-DE-LANG-003
+  text: Der Minderheitenbericht zum Untersuchungsausschuss berichtete 1982, Hans Langemann habe im Disziplinarverfahren
+    gegenüber dem Innenministerium selbst eingeräumt, unter dem Namen Johann Kinsky aufgetreten zu sein.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: Gedruckte S. 25, Absatz zu 5.000 DM auf dem Konto Johann Kinsky
+    note: Minderheitsbericht gibt eine angebliche Einräumung Langemanns im Disziplinarverfahren wieder; Originalprotokoll
+      nicht Teil der vorliegenden Drucksache.
+  - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+    directness: context
+    locator: Gedruckte S. 13, Abschnitt 5, Ziffer 1
+    note: Mehrheitsbericht berichtet unabhängig vom nachgelagerten Disziplinarprotokoll einen Unterschriftenvergleich
+      mit entsprechendem Identitätsverdacht; beide Berichte beruhen auf derselben Ausschussuntersuchung.
+  counterevidence: []
+  alternatives:
+  - Der Wortlaut, Gegenstand und Umfang der im Minderheitenbericht wiedergegebenen Einräumung können durch das originale
+    Disziplinarprotokoll enger ausfallen.
+  missing_evidence:
+  - Originale Disziplinarvernehmung mit Unterschrift, vollständige Kontoeröffnungsunterlagen und die vom Ausschuss
+    verglichenen Unterschriften.
+  scope:
+    supports: Namentliche Decknamenszuordnung als aktenkundige Aussage im Minderheitenbericht, gestützt durch eine
+      separate Unterschriftenbeobachtung des Mehrheitsberichts.
+    does_not_support: Die tatsächliche Verwendung jedes unter Kinsky geführten Geldbetrags und ein privater politischer
+      Auftrag sind damit nicht abschließend bestimmt.
+  falsification: Ein authentisches Disziplinarprotokoll, das die behauptete Aussage nicht enthält oder eine andere
+    Personenidentität zeigt, würde die Zuordnung neu bewerten.
+- id: CLM-DE-LANG-004
+  text: Der Langemann-Minderheitenbericht beschrieb eine sichergestellte Vormerkung aus November 1979 mit dem Arbeitstitel
+    „Victory for Strauß“, in der ein ehemaliger CIA-Mitarbeiter als Londoner Publizist ein internationales politisches
+    Einflusskonzept mit Presse- und Fernsehbeiträgen, öffentlichen Aktionen und verdeckten Finanztransaktionen sowie
+    einem veranschlagten Jahresbedarf von anfangs 750.000 bis höchstens 5 Millionen US-Dollar vorstellte.
+  classification: fact
+  evidence_level: established
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: Gedruckte S. 17–18, Abschnitt 9, Absätze zur November-1979-Vormerkung
+    note: Amtlich publizierter Wortlaut der Minderheitenbeschreibung eines sichergestellten Vermerks, dessen Urschrift,
+      Verfasser-/Verteilerangaben und Finanzierungsstand gesondert zu prüfen sind.
+  counterevidence: []
+  alternatives:
+  - Der Bericht kann ein nicht genehmigtes, politisch nicht umgesetztes Werbekonzept eines privaten Mittlers wiedergeben.
+  missing_evidence:
+  - Original der mehrseitigen Vormerkung November 1979, Anhänge, Eingangsstempel, Empfänger, Beauftragung, Rechnungen
+    und dokumentierte Reaktionen der genannten Organisationen.
+  scope:
+    supports: Zeitgenössisch überliefertes Angebot beziehungsweise Planung transnationaler politischer Einflussmethoden
+      mit Finanzierungs- und Medienkomponente.
+    does_not_support: Einzelne Medieninterventionen, Geldtransfers oder die tatsächliche Durchführung des beschriebenen
+      Konzepts werden erst durch Entscheidungs- und Vollzugsakten belegt.
+  falsification: Eine Originalvormerkung mit anderslautender Fassung, eine ausdrückliche Ablehnung oder überprüfbare
+    Vollzugs- beziehungsweise Nichtvollzugsakten könnten die historische Bewertung präzisieren.
+- id: CLM-DE-LANG-005
+  text: Der Minderheitenbericht beschrieb einen sichergestellten Vermerk Hans Langemanns vom 21. Februar 1980 zu einer
+    Presseveröffentlichung vom 11. Februar 1980, die im Text des Vermerks auf Einflussnahmen in Zusammenarbeit mit
+    dem Büro des Freiherrn von Stauffenberg zurückgeführt wurde; der Bericht nennt eine Paraphe Innenminister Gerold
+    Tandlers.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: Gedruckte S. 17, Absatz zur Vormerkung vom 21.02.1980
+    note: Minderheitsbericht zitiert und interpretiert einen konkreten Ministeriumsvermerk mit Verweis auf Zeitungsartikel
+      und ministerielle Paraphe.
+  counterevidence: []
+  alternatives:
+  - Der Vermerk könnte die eigene Wirkung auf einen unabhängig entstandenen Zeitungsartikel überschätzen; mögliche
+    redaktionelle Unabhängigkeit ist gegen Kommunikations- und Veröffentlichungsakten zu prüfen.
+  missing_evidence:
+  - Originalvermerk 21.02.1980 mit Anlagen und Tandler-Paraphe, publizierter Artikel 11.02.1980, Kontakte zum Stauffenberg-Büro
+    und Redaktionskorrespondenz.
+  scope:
+    supports: Präzise datierbarer dokumentierter Anspruch auf Einflussnahme auf eine Presseveröffentlichung aus dem
+      staatlichen Sicherheitsressort heraus.
+    does_not_support: Die konkrete redaktionelle Kausalität ist durch den Minderheitenbericht allein noch nicht rekonstruiert.
+  falsification: Veröffentlichungsarchiv oder Urschrift mit anderslautender Zuordnung beziehungsweise Belege für vorbestehende
+    unabhängige Redaktion können den behaupteten Einflussmechanismus widerlegen.
+- id: CLM-DE-LANG-006
+  text: Die dokumentierten Aktenabflüsse, staatlich geförderten Informationszahlungen und Vermerke zu Medienkampagnen
+    rechtfertigen als Forschungsansatz die Hypothese eines informellen politisch-nachrichtendienstlichen Einflussnetzes
+    um Hans Langemann, das staatliche Ressourcenzugänge mit privaten Medien- und Finanzkontakten verknüpfen konnte.
+  classification: hypothesis
+  evidence_level: plausible
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+    directness: indirect
+    locator: Gedruckte S. 11 und 13
+    note: Aktenkopien und geförderte Zahlungen sind parlamentarisch dokumentiert, jedoch nicht als derselbe operative
+      Zweck oder Auftrag identifiziert.
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: indirect
+    locator: Gedruckte S. 17–18 und 25
+    note: Minderheitsbericht beschreibt einschlägige Informations- und Einflussentwürfe sowie den Kinsky-Komplex;
+      die Berichte stammen aus derselben Untersuchung und sind keine zwei unabhängigen Tatzeugen.
+  counterevidence: []
+  alternatives:
+  - Die einzelnen Kontakte und Zahlungen könnten verschiedenen, sachlich unabhängigen Verwaltungs-, Publikations-
+    und Privatprojekten angehört haben; das Konzept könnte vor Umsetzung beendet worden sein.
+  missing_evidence:
+  - Zeitgleiche Verteil- und Entscheidungsvermerke, Originalkonten, Auftrags-/Leistungsnachweise, redaktionelle Absprachen
+    und Korrespondenz zwischen Beteiligten aus 1976–1982.
+  scope:
+    supports: Ein gezieltes, diskriminierbares Forschungsprogramm für die mögliche organisatorische Verbindung der
+      beschriebenen Informations- und Finanzierungswege.
+    does_not_support: Eine gemeinsame zentrale Steuerung, vollständig erfolgte Kampagnen oder konkret finanzierte
+      Wahlbeeinflussung sind erst durch operative Verknüpfungsbelege als Tatsachen zu formulieren.
+  falsification: Getrennte Verwendungsnachweise, ausdrückliche Ablehnungsakten und eine nachweislich fehlende gemeinsame
+    Kommunikations- oder Zahlungskette würden die Netzwerkhypothese abschwächen.
+what_follows:
+- text: Der Untersuchungsausschuss dokumentierte einen konkreten Weg, auf dem Kopien von Oktoberfestakten aus Journalistenhand
+    wieder bei Sicherheitsbehörden auftauchten.
+  claim_ids:
+  - CLM-DE-LANG-001
+- text: Für 1976 ist im Mehrheitsbericht ein exakt bezifferter, öffentlich geförderter Informationsgeldfluss an den
+    Namen Kinsky verzeichnet; dessen Identitätsfrage wurde 1982 gesondert aufgegriffen.
+  claim_ids:
+  - CLM-DE-LANG-002
+  - CLM-DE-LANG-003
+- text: Die Minderheit beschrieb eine 1979 aktenkundige Kombination aus geplanter politischer Medienbeeinflussung,
+    internationaler Kampagne und Finanzierung sowie einen datierten weiteren Pressebeeinflussungsvermerk von Februar
+    1980.
+  claim_ids:
+  - CLM-DE-LANG-004
+  - CLM-DE-LANG-005
+- text: Die gemeinsame operative Organisation dieser Vorgänge ist eine überprüfbare Netzwerkhypothese mit konkreten
+    Dokumententests.
+  claim_ids:
+  - CLM-DE-LANG-006
+what_does_not_follow: []
+open_questions:
+- Welche Originalkopien übergab Gaub im März 1982, und lässt sich die von Heigl auf etwa Anfang Oktober 1980 datierte
+  ursprüngliche Übergabe anhand von Dienst- und Empfangsjournalen zuordnen?
+- Sind die 1976 im Mehrheitsbericht genannten 8.000 DM und die im Minderheitenbericht erwähnten anderen Kinsky-Kontobewegungen
+  getrennte Zahlungsvorgänge, und welche Endempfänger zeigen die Originalbelege?
+- Welche originale November-1979-Vormerkung, welchen genehmigenden oder ablehnenden Verwaltungsvermerk und welche
+  konkrete Finanzierungs- oder Umsetzungshandlung gab es zu „Victory for Strauß“?
+- Welche Zeitung veröffentlichte am 11. Februar 1980 welchen Beitrag, und was zeigen Originalakten beziehungsweise
+  Redaktionskorrespondenz zur von Langemann im Vermerk vom 21. Februar 1980 behaupteten Einflussnahme?
+case_links:
+- kind: comparison
+  target: CASE-DE-OKTOBERFEST-1980
+  basis: Der Mehrheitsbericht dokumentiert einen konkreten Überlieferungsweg von Unterlagen zum Oktoberfestattentat
+    über Heigl und Gaub; der eigenständige Anschlagsfall bleibt separat.
+- kind: comparison
+  target: CASE-DE-MEDIEN-NACHRICHTENDIENST-CROSSLAYER
+  basis: Die aus dem Ausschussbericht erschließbaren Presse- und Sicherheitsbehördenkontakte ergänzen die im Medienfall
+    für andere Zeiträume dokumentierten Einflussmechanismen.
+---
+
+# Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“
+
+## Gesicherter Ereigniskern
+
+Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf) (Mehrheitsbericht, 16.07.1982) und [9/13012](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf) (Minderheitenbericht, 10.09.1982) sind amtliche Originalveröffentlichungen **derselben Untersuchung**. Aussagen über die darin zitierten geheimen Vermerke und Zahlungen bleiben an die jeweilige Ausschussdarstellung gebunden.
+
+- **`CLM-DE-LANG-001` — belegt als Ausschussbefund:** Der Mehrheitsbericht des bayerischen Langemann-Untersuchungsausschusses hielt 1982 fest, dass Rechtsanwalt Hans Joachim Gaub im März 1982 im Auftrag von Frank Peter Heigl Kopien von Innenministeriumsunterlagen zum Oktoberfestattentat an das BayLfV übergab; laut Heigl stammten die Kopien aus einer Übergabe Hans Langemanns etwa zehn Tage nach dem Anschlag.
+
+- **`CLM-DE-LANG-002` — belegt als Ausschussbefund:** Der Mehrheitsbericht von 1982 verzeichnet eine Überweisung von 8.000 DM im Jahr 1976 durch die mit Bundes- und bayerischen Fördermitteln unterstützte Arbeitsgemeinschaft Staat und Gesellschaft an einen als Professor Dr. Johann Kinsky bezeichneten Empfänger für Extremismusaufklärung.
+
+- **`CLM-DE-LANG-003` — stark gestützte Berichtsaussage:** Der Minderheitenbericht zum Untersuchungsausschuss berichtete 1982, Hans Langemann habe im Disziplinarverfahren gegenüber dem Innenministerium selbst eingeräumt, unter dem Namen Johann Kinsky aufgetreten zu sein.
+
+- **`CLM-DE-LANG-004` — belegt als Ausschussbefund:** Der Langemann-Minderheitenbericht beschrieb eine sichergestellte Vormerkung aus November 1979 mit dem Arbeitstitel „Victory for Strauß“, in der ein ehemaliger CIA-Mitarbeiter als Londoner Publizist ein internationales politisches Einflusskonzept mit Presse- und Fernsehbeiträgen, öffentlichen Aktionen und verdeckten Finanztransaktionen sowie einem veranschlagten Jahresbedarf von anfangs 750.000 bis höchstens 5 Millionen US-Dollar vorstellte.
+
+- **`CLM-DE-LANG-005` — stark gestützte Berichtsaussage:** Der Minderheitenbericht beschrieb einen sichergestellten Vermerk Hans Langemanns vom 21. Februar 1980 zu einer Presseveröffentlichung vom 11. Februar 1980, die im Text des Vermerks auf Einflussnahmen in Zusammenarbeit mit dem Büro des Freiherrn von Stauffenberg zurückgeführt wurde; der Bericht nennt eine Paraphe Innenminister Gerold Tandlers.
+
+## Staatliche Informations- und Geldwege
+
+Der **Mehrheitsbericht, S. 11, Ziffer 2c**, identifiziert für den Oktoberfestkomplex einen datierten Rückweg von Kopien: *Heigl → Rechtsanwalt Gaub → BayLfV, März 1982*. Die früher behauptete Weitergabe Langemanns an Heigl etwa zehn Tage nach dem Attentat ist ausdrücklich **Heigls Aussage**. Entscheidend sind Kopienlisten, Eingangsstempel und die ursprünglichen Verteiler.
+
+Der **Mehrheitsbericht, S. 13, Ziffer 5**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, beschreibt daneben eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Ohne Buchungsbelege werden diese zwei Beträge weder zusammengezählt noch als dieselbe Transaktion behandelt.
+
+## Politische Medien- und Finanzierungsentwürfe
+
+Laut **Minderheitenbericht, S. 17–18**, lag dem Ausschuss eine mehrseitige November-1979-Vormerkung mit dem Arbeitstitel **„Victory for Strauß“** vor. Sie beschrieb einen ehemaligen CIA-Mitarbeiter, damals als Publizist in London, als Mittler zu einem geplanten internationalen Einflussprojekt. Genannt wurden Artikel bestimmter Journalisten, Zugang zum Fernsehen, öffentliche Veranstaltungen, politische Diskreditierungskampagnen und **verdeckte Finanztransaktionen**. Für die Finanzierung war anfänglich von **750.000 US-Dollar jährlich**, höchstens von **5 Millionen US-Dollar**, die Rede. Der Bericht enthält damit einen konkreten Vorschlags- und Planungsbeleg, der sich durch Urschrift, Empfängerverteiler und tatsächliche Zahlungen testen lässt.
+
+Zusätzlich nennt **S. 17** einen Vermerk Langemanns vom **21.02.1980** zu einer Veröffentlichung vom **11.02.1980** und zu angeblichen Einflussnahmen zusammen mit dem Büro des Freiherrn von Stauffenberg. Der Bericht beschreibt die ministerielle Kenntnisnahme über eine Paraphe. Originalvermerk und veröffentlichter Artikel bilden den engsten nächsten Beweistest für eine tatsächlich wirksame Einflussnahme.
+
+## Forschungshypothese
+
+- **`CLM-DE-LANG-006` — plausibel, offen:** Die dokumentierten Aktenabflüsse, staatlich geförderten Informationszahlungen und Vermerke zu Medienkampagnen rechtfertigen als Forschungsansatz die Hypothese eines informellen politisch-nachrichtendienstlichen Einflussnetzes um Hans Langemann, das staatliche Ressourcenzugänge mit privaten Medien- und Finanzkontakten verknüpfen konnte.
+
+Die entscheidende Unterscheidung betrifft **registrierte Mittelbewegungen**, **behauptete redaktionelle Eingriffe**, **politische Pläne** und **belegte Vollzugshandlungen**. Das Original der Vormerkung von November 1979, die Zahlungskonten, behördliche Verteiler und die Redaktionserzeugnisse können diese Vorgänge kausal miteinander verbinden oder voneinander trennen.
+
+## Nächste diskriminierende Originalakten
+
+- Vollständige Gaub-/Heigl-Übergabeinventare März 1982 und zugehörige Langemann-Vernehmungen samt Originalakten.
+- Zahlungsanweisungen und Verwendungsnachweise der *Arbeitsgemeinschaft Staat und Gesellschaft* 1976, separate Kontoauszüge für die berichteten Kinsky-Beträge.
+- Mehrseitige, ungekürzte November-1979-Vormerkung „Victory for Strauß“, Anlagen, Empfänger und etwaige Freigabe-, Rückfrage- oder Ablehnungsvermerke.
+- Originalvermerk 21.02.1980 mit Tandler-Paraphe und Primärveröffentlichung vom 11.02.1980 sowie zugrundeliegende Redaktionskorrespondenz.
+
+## Quellen
+
+- [Bayerischer Landtag, Drs. 9/12951, Mehrheitsbericht vom 16.07.1982](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf) — `SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982`, gedruckte S. 11 und 13.
+- [Bayerischer Landtag, Drs. 9/13012, Minderheitenbericht vom 10.09.1982](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf) — `SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982`, gedruckte S. 17–18 und 25.
