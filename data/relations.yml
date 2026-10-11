@@ -724,3 +724,41 @@ relations:
     evidence_level: "established"
     sources: ["SRC-DE-BT-NSU-YOZGAT-2016"]
     claim_ids: ["CLM-DE-YOZ-002"]
+
+  - id: REL-DE-LANG-001
+    from: PER-DE-HANS-LANGEMANN
+    to: PER-DE-WALTER-H-JONAS
+    type: reported_account_transfers
+    label: "veranlasste laut Minderheitenbericht 1977 drei Überweisungen über zusammen 17.000 DM an Jonas"
+    period: {start: "1977", end: "1977"}
+    evidence_level: strong
+    sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
+    claim_ids: [CLM-DE-LANG-012]
+
+  - id: REL-DE-LANG-002
+    from: PER-DE-HANS-LANGEMANN
+    to: PER-DE-ARISTIDE-BRUNELLO
+    type: reported_account_transfers
+    label: "überwies laut Minderheitenbericht 1978/1979 in drei Zuwendungen insgesamt 14.500 DM auf das Brunello-Konto"
+    period: {start: "1978", end: "1979"}
+    evidence_level: strong
+    sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
+    claim_ids: [CLM-DE-LANG-014]
+
+  - id: REL-DE-LANG-003
+    from: PER-DE-HANS-C-STAUFFENBERG
+    to: PER-DE-ARISTIDE-BRUNELLO
+    type: reported_shared_account_authorization
+    label: "waren laut Minderheitenbericht beide für das Brunello-Konto verfügungsberechtigt"
+    evidence_level: strong
+    sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
+    claim_ids: [CLM-DE-LANG-014]
+
+  - id: REL-DE-LANG-004
+    from: PER-DE-HANS-C-STAUFFENBERG
+    to: PER-DE-WALTER-H-JONAS
+    type: reported_later_account_authorization
+    label: "war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt"
+    evidence_level: strong
+    sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
+    claim_ids: [CLM-DE-LANG-012]

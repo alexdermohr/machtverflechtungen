@@ -149,6 +149,14 @@ flowchart LR
     N_PER_DE_ANDREAS_TEMME -->|"war Mitarbeiter und V-Mann-Führer"| N_ORG_DE_LFV_HESSEN
     N_CASE_DE_NSU_YOZGAT_2006["NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen"]
     N_ORG_DE_LFV_HESSEN -->|"verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen"| N_CASE_DE_NSU_YOZGAT_2006
+    N_PER_DE_HANS_LANGEMANN["Hans Langemann"]
+    N_PER_DE_WALTER_H_JONAS["Walter H. Jonas"]
+    N_PER_DE_HANS_LANGEMANN -->|"veranlasste laut Minderheitenbericht 1977 drei Überweisungen über zusammen 17.000 DM an Jonas"| N_PER_DE_WALTER_H_JONAS
+    N_PER_DE_ARISTIDE_BRUNELLO["Aristide Brunello"]
+    N_PER_DE_HANS_LANGEMANN -->|"überwies laut Minderheitenbericht 1978/1979 in drei Zuwendungen insgesamt 14.500 DM auf das Brunello-Konto"| N_PER_DE_ARISTIDE_BRUNELLO
+    N_PER_DE_HANS_C_STAUFFENBERG["Hans C. Freiherr von Stauffenberg"]
+    N_PER_DE_HANS_C_STAUFFENBERG -->|"waren laut Minderheitenbericht beide für das Brunello-Konto verfügungsberechtigt"| N_PER_DE_ARISTIDE_BRUNELLO
+    N_PER_DE_HANS_C_STAUFFENBERG -->|"war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt"| N_PER_DE_WALTER_H_JONAS
 ```
 
 ## Relationen
@@ -231,3 +239,7 @@ flowchart LR
 | REL-DE-NSU-AKT-001 | Bundesamt für Verfassungsschutz | vernichtete nach der NSU-Aufdeckung mehrere V-Mann-Akten | NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011 | established | SRC-DE-BT-NSU-LINGEN-2017 |
 | REL-DE-NSU-YOZ-001 | Andreas Temme | war Mitarbeiter und V-Mann-Führer | Landesamt für Verfassungsschutz Hessen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
 | REL-DE-NSU-YOZ-002 | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | established | SRC-DE-BT-NSU-YOZGAT-2016 |
+| REL-DE-LANG-001 | Hans Langemann | veranlasste laut Minderheitenbericht 1977 drei Überweisungen über zusammen 17.000 DM an Jonas | Walter H. Jonas | strong | SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982 |
+| REL-DE-LANG-002 | Hans Langemann | überwies laut Minderheitenbericht 1978/1979 in drei Zuwendungen insgesamt 14.500 DM auf das Brunello-Konto | Aristide Brunello | strong | SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982 |
+| REL-DE-LANG-003 | Hans C. Freiherr von Stauffenberg | waren laut Minderheitenbericht beide für das Brunello-Konto verfügungsberechtigt | Aristide Brunello | strong | SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982 |
+| REL-DE-LANG-004 | Hans C. Freiherr von Stauffenberg | war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt | Walter H. Jonas | strong | SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982 |
