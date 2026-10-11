@@ -12,7 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 REDUNDANT_BOUNDARY_BULLET = re.compile(
-    r"(?m)^-\s+\*\*(?:Aussagegrenze|Grenze):\*\*"
+    r"(?m)^[ \t]*[-*+][ \t]+\*\*(?:Aussagegrenze|Grenze):\*\*"
 )
 
 
@@ -45,6 +45,20 @@ class EditorialStyleTest(unittest.TestCase):
         self.assertIsNone(REDUNDANT_BOUNDARY_BULLET.search(substantive))
         self.assertIsNotNone(
             REDUNDANT_BOUNDARY_BULLET.search("- **Aussagegrenze:** routinemäßig wiederholt")
+        )
+        for example in (
+            "  - **Aussagegrenze:** wiederholt",
+            "    * **Grenze:** wiederholt",
+            "+ **Aussagegrenze:** wiederholt",
+            "\t-\t**Grenze:** wiederholt",
+            " -\t**Grenze:** wiederholt",
+        ):
+            with self.subTest(bullet=example):
+                self.assertIsNotNone(REDUNDANT_BOUNDARY_BULLET.search(example))
+        self.assertIsNone(
+            REDUNDANT_BOUNDARY_BULLET.search(
+                "- Der Schalldämpfer-Vergleich ergab einen konkreten Gegenbefund."
+            )
         )
 
     def test_structured_counterevidence_remains_required(self) -> None:
