@@ -19,6 +19,12 @@ event_claims:
 - CLM-DE-LANG-007
 - CLM-DE-LANG-008
 - CLM-DE-LANG-009
+- CLM-DE-LANG-010
+- CLM-DE-LANG-011
+- CLM-DE-LANG-012
+- CLM-DE-LANG-013
+- CLM-DE-LANG-014
+- CLM-DE-LANG-015
 tags:
 - bayern
 - langemann
@@ -34,6 +40,8 @@ actors:
 - ORG-DE-AG-STAAT-GESELLSCHAFT
 - PER-DE-HANS-C-STAUFFENBERG
 - ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN
+- PER-DE-WALTER-H-JONAS
+- PER-DE-ARISTIDE-BRUNELLO
 mechanisms:
 - intelligence-network
 - material-support
@@ -323,6 +331,191 @@ claims:
       keiner Vorgabe durch Langemann zugeordnet.
   falsification: Originale Bezugskartei, Auslieferungslisten und zeitgenössische Korrespondenz könnten die Namen, den
     Bezugszeitraum und die Art der Beziehung korrigieren.
+- id: CLM-DE-LANG-010
+  text: >-
+    Der Langemann-Minderheitenbericht beziffert die von Hans Langemann verwalteten Mittel für den sogenannten
+    positiven Verfassungsschutz in den Anfangsjahren auf jährlich etwa 100.000 DM und bis 1982 auf 140.000 DM;
+    daraus seien Personen und Organisationen finanziert worden.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, linke Spalte, Die Finanzgeschäfte des Dr. Langemanns"
+    note: >-
+      Bericht über Mittelansatz und Langemanns Verfügungsmacht, nicht die originale Haushaltsrechnung.
+  counterevidence: []
+  alternatives:
+  - >-
+    Der Ansatz könnte reguläre Forschung, Aufklärung und Öffentlichkeitsarbeit finanziert haben.
+  missing_evidence:
+  - >-
+    Originalhaushalte, Kassenjournale, Bewilligungen und Auszahlungslisten 1975–1982.
+  scope:
+    supports: >-
+      Bezifferte Mittelverwaltung und berichtete institutionelle sowie private Empfängerkategorien.
+    does_not_support: >-
+      Einzelne Endverwendungen lassen sich aus dem Budgetansatz nicht ablesen.
+  falsification: >-
+    Originale Haushaltsrechnung oder Verfügungsakten mit abweichenden Ansätzen, Zeiträumen oder Zuständigkeiten.
+- id: CLM-DE-LANG-011
+  text: >-
+    Der Langemann-Minderheitenbericht nennt für 1979 eine Überweisung von 8.500 DM auf ein Münchner Konto unter dem
+    Namen Dr. R. von Corneli; Hans Langemann und von Corneli seien verfügungsberechtigt gewesen, Langemann habe den
+    Namen gegenüber dem Innenministerium als Tarnnamen bezeichnet.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, linke Spalte, Überweisung 8.500 DM und von-Corneli-Konto"
+    note: >-
+      Lückenhaft ausgefüllter Verwendungsnachweis; die wirkliche Person hinter dem berichteten Tarnnamen wurde laut
+      Ausschuss nicht ermittelt.
+  counterevidence: []
+  alternatives:
+  - >-
+    Ein Treuhand- oder Alias-Konto könnte für eine formal bewilligte Informations- oder Forschungstätigkeit genutzt
+    worden sein.
+  missing_evidence:
+  - >-
+    Auszahlungsanweisung 1979, Kontovertrag, Zeichnungsrechte, vollständiger Verwendungsnachweis und
+    Disziplinarprotokoll.
+  scope:
+    supports: >-
+      Konkrete Geldbewegung mit benannten Kontovollmachten und berichteter Tarnnamensfunktion.
+    does_not_support: >-
+      Die wahre Identität von Corneli und die Endverwendung bleiben unbelegt.
+  falsification: >-
+    Authentische Bank- oder Verwaltungsbelege mit abweichender Kontoinhaberschaft oder Zahlungshöhe.
+- id: CLM-DE-LANG-012
+  text: >-
+    Der Langemann-Minderheitenbericht beschreibt für 1977 drei von Langemann veranlasste Überweisungen über
+    insgesamt 17.000 DM für Walter H. Jonas; ein Teilbetrag von 4.000 DM sei trotz Bewilligung für Jonas auf das
+    von-Corneli-Konto gezahlt worden. Als Verfügungsberechtigte des Jonas-Kontos nennt er Jonas und zunächst
+    Langemann, später von Stauffenberg.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, untere linke und obere rechte Spalte, Jonas-Konto"
+    note: >-
+      4.000 DM sind laut Bericht ein Teilbetrag der 17.000 DM, keine zusätzlich zu summierende Buchung. Der Wechsel
+      zum späteren Kontoberechtigten ist nicht taggenau datiert.
+  counterevidence: []
+  alternatives:
+  - >-
+    Ein abweichendes Auszahlungskonto könnte auf autorisierter Weiterleitung durch den Förderempfänger beruhen.
+  missing_evidence:
+  - >-
+    Drei Banküberweisungen, Jonas-Bewilligung, von-Corneli-Kontoauszug und datierte Vollmachtswechsel.
+  scope:
+    supports: >-
+      Überweisungssumme, abweichendes Empfängerkonto und berichtete aufeinanderfolgende Zugriffsberechtigungen.
+    does_not_support: >-
+      Die Abfolge beweist keine zeitgleiche gemeinsame Verfügung von Langemann und Stauffenberg.
+  falsification: >-
+    Originalkontoakten könnten den Teilbetrag, die Empfängerstellung oder die zeitliche Reihenfolge berichtigen.
+- id: CLM-DE-LANG-013
+  text: >-
+    Nach dem Langemann-Minderheitenbericht wurden 1978 für ein Forschungsprojekt des Medienträgers Jonas 4.000 DM
+    zugunsten des Rechtsanwalts Dr. Kollmar bewilligt, jedoch auf das von-Corneli-Konto überwiesen;
+    Verwendungsnachweise seien nicht vorhanden gewesen.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, rechte Spalte, Bewilligungsbescheid für Dr. Kollmar"
+    note: >-
+      Ein von der Jonas-Zahlungsreihe 1977 getrennter Vorgang mit eigener 4.000-DM-Bewilligung 1978.
+  counterevidence: []
+  alternatives:
+  - >-
+    Ein bewilligtes Abwicklungskonto oder eine wirksame Abtretung könnten die Auszahlung erklären.
+  missing_evidence:
+  - >-
+    Kollmar-Bescheid, Jonas-Projektunterlagen, Kontoauszug und fehlende Verwendungsnachweise.
+  scope:
+    supports: >-
+      Berichtete Differenz zwischen nominell Begünstigtem und tatsächlichem Überweisungskonto.
+    does_not_support: >-
+      Ein Schluss auf zweckwidrige Endverwendung bedarf der Konto- und Auftragsoriginale.
+  falsification: >-
+    Zeitgenössische Bewilligung einer Kontoabtretung oder abweichende Zahlungsurkunde.
+- id: CLM-DE-LANG-014
+  text: >-
+    Der Langemann-Minderheitenbericht berichtet von drei durch Langemann veranlassten Zuwendungen 1978 und 1979 über
+    zusammen 14.500 DM auf ein Münchner Konto des Monsignore Dr. Aristide Brunello; verfügungsberechtigt seien
+    Brunello und Hans C. von Stauffenberg gewesen und die angegebene Adresse habe mit jener des
+    Stauffenberg-Informationsdienstes übereingestimmt.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, rechte Spalte, Brunello-Konto"
+    note: >-
+      Im Bericht fehlen Verwendungsnachweise; Kontovollmacht und Anschrift sind gesonderte Beobachtungen.
+  counterevidence: []
+  alternatives:
+  - >-
+    Die gemeinsame Adresse und Kontovollmacht könnten eine ordnungsgemäße organisatorische Abwicklung widerspiegeln.
+  - >-
+    Von Stauffenberg sagte laut demselben Minderheitenbericht (gedruckte S. 26), die Zusammenarbeit mit Brunello sei
+    bereits seit etwa acht Jahren beendet gewesen. Eine formell fortbestehende Kontovollmacht wäre davon zu trennen.
+  missing_evidence:
+  - >-
+    Drei Bankbelege 1978/1979, Zeichnungsrechtsurkunden, Kontoadresse und Verwendungsnachweise.
+  scope:
+    supports: >-
+      Datiert bezifferte Kontenverbindung mit Stauffenbergs berichteter Verfügungsvollmacht.
+    does_not_support: >-
+      Identische Anschrift und Vollmacht zeigen noch keinen konkreten politischen Verwendungsauftrag.
+  falsification: >-
+    Kontoeröffnung und zeitgenössische Vollmachten mit abweichenden Berechtigten oder Anschriften.
+- id: CLM-DE-LANG-015
+  text: >-
+    Der Langemann-Minderheitenbericht verzeichnet für den Arbeitskreis für das Studium internationaler Fragen eine
+    Zuwendung von 3.500 DM im Jahr 1976 und berichtet, dass dem Untersuchungsausschuss Verwendungsnachweise für 1976
+    und 1981 nicht vorgelegen hätten.
+  classification: fact
+  evidence_level: strong
+  sources:
+  - SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  evidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: "Gedruckte S. 25, rechte Spalte, Arbeitskreis und Verwendungsnachweise"
+    note: >-
+      Die 3.500 DM aus 1976 ergänzen die in CLM-DE-LANG-008 genannten Jahre 1979–1981. Nachweise 1979/1980 seien
+      nach Prüfung zurückgegeben und erneut angefordert worden.
+  counterevidence: []
+  alternatives:
+  - >-
+    Die Nachweise können archiviert, zurückgegeben oder beim Empfänger aufbewahrt worden sein.
+  missing_evidence:
+  - >-
+    Förderbescheid 1976, Verwendungsnachweise 1976 und 1981, Rückgaberegister und Aktenanforderungen 1982.
+  scope:
+    supports: >-
+      Zusätzliche konkrete Arbeitskreiszahlung und überprüfbare Archivlücke.
+    does_not_support: >-
+      Ein fehlender Aktennachweis beweist für sich keinen Missbrauch.
+  falsification: >-
+    In anderer Registratur aufbewahrte und geprüfte Originalnachweise können den Umfang der dokumentierten
+    Aktenlücke ändern.
 what_follows:
 - text: Der Untersuchungsausschuss dokumentierte einen konkreten Weg, auf dem Kopien von Oktoberfestakten aus Journalistenhand
     wieder bei Sicherheitsbehörden auftauchten.
@@ -358,6 +551,16 @@ what_follows:
     die Darstellung beruht auf Ausschussermittlungen und einer dort referierten Zeugenaussage.
   claim_ids:
   - CLM-DE-LANG-009
+- text: Der Minderheitenbericht beschreibt jährliche Verfügungsmittel, konkret bezifferte Kontoüberweisungen und wechselnde Kontovollmachten.
+  claim_ids:
+  - CLM-DE-LANG-010
+  - CLM-DE-LANG-011
+  - CLM-DE-LANG-012
+  - CLM-DE-LANG-013
+  - CLM-DE-LANG-014
+- text: Die Arbeitskreisförderung reicht im Bericht bis 1976 zurück, mit genau bezeichneten Nachweisfragen.
+  claim_ids:
+  - CLM-DE-LANG-015
 what_does_not_follow: []
 open_questions:
 - Welche Originalkopien übergab Gaub im März 1982, und lässt sich die von Heigl auf etwa Anfang Oktober 1980 datierte
@@ -374,6 +577,10 @@ open_questions:
   Informationsdienst?
 - Welche Originalsendungen und Ausgaben des Informationsdienstes empfingen Strauß, Tandler und Seidl laut nachprüfbaren
   Versand- und Bezugskarteien?
+- Welche Kontoeröffnungen und Zeichnungsrechtsunterlagen rekonstruieren die Zahlungswege von Corneli, Jonas und Brunello
+  einschließlich der für Jonas bewilligten, aber abweichend ausgezahlten 4.000 DM?
+- Welcher Förderbescheid und welcher Verwendungsnachweis gehören zu den 3.500 DM für den Arbeitskreis 1976,
+  und welche Dokumente lagen zum Zeitpunkt der Ausschussprüfung 1982 tatsächlich vor?
 case_links:
 - kind: comparison
   target: CASE-DE-OKTOBERFEST-1980
@@ -405,6 +612,18 @@ Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAbla
 - **`CLM-DE-LANG-008` — stark gestützte Berichtsaussage:** Der Minderheitenbericht nennt als Förderbeträge des bayerischen Innenministeriums an den Arbeitskreis für das Studium internationaler Fragen 27.000 DM für 1979, 30.000 DM für 1980 und 35.000 DM für 1981; von Stauffenberg sagte laut Minderheitenbericht, er persönlich erhalte gelegentlich Gelder des Arbeitskreises. Der Mehrheitsbericht gibt seine Aussage wieder, auch sein privater Informationsdienst werde vom Arbeitskreis finanziell unterstützt.
 - **`CLM-DE-LANG-009` — stark gestützte Berichtsaussage:** Nach dem Langemann-Minderheitenbericht gehörten Franz Josef Strauß, Innenminister Gerold Tandler und der frühere Innenminister Alfred Seidl zu den Empfängern des von Hans C. Freiherr von Stauffenberg betriebenen privaten Nachrichteninformationsdienstes; die Darstellung beruht auf Ausschussermittlungen und einer dort referierten Zeugenaussage.
 
+- **`CLM-DE-LANG-010` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht beziffert die von Hans Langemann verwalteten Mittel für den sogenannten positiven Verfassungsschutz in den Anfangsjahren auf jährlich etwa 100.000 DM und bis 1982 auf 140.000 DM; daraus seien Personen und Organisationen finanziert worden.
+
+- **`CLM-DE-LANG-011` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht nennt für 1979 eine Überweisung von 8.500 DM auf ein Münchner Konto unter dem Namen Dr. R. von Corneli; Hans Langemann und von Corneli seien verfügungsberechtigt gewesen, Langemann habe den Namen gegenüber dem Innenministerium als Tarnnamen bezeichnet.
+
+- **`CLM-DE-LANG-012` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht beschreibt für 1977 drei von Langemann veranlasste Überweisungen über insgesamt 17.000 DM für Walter H. Jonas; ein Teilbetrag von 4.000 DM sei trotz Bewilligung für Jonas auf das von-Corneli-Konto gezahlt worden. Als Verfügungsberechtigte des Jonas-Kontos nennt er Jonas und zunächst Langemann, später von Stauffenberg.
+
+- **`CLM-DE-LANG-013` — stark gestützte Berichtsaussage:** Nach dem Langemann-Minderheitenbericht wurden 1978 für ein Forschungsprojekt des Medienträgers Jonas 4.000 DM zugunsten des Rechtsanwalts Dr. Kollmar bewilligt, jedoch auf das von-Corneli-Konto überwiesen; Verwendungsnachweise seien nicht vorhanden gewesen.
+
+- **`CLM-DE-LANG-014` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht berichtet von drei durch Langemann veranlassten Zuwendungen 1978 und 1979 über zusammen 14.500 DM auf ein Münchner Konto des Monsignore Dr. Aristide Brunello; verfügungsberechtigt seien Brunello und Hans C. von Stauffenberg gewesen und die angegebene Adresse habe mit jener des Stauffenberg-Informationsdienstes übereingestimmt.
+
+- **`CLM-DE-LANG-015` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht verzeichnet für den Arbeitskreis für das Studium internationaler Fragen eine Zuwendung von 3.500 DM im Jahr 1976 und berichtet, dass dem Untersuchungsausschuss Verwendungsnachweise für 1976 und 1981 nicht vorgelegen hätten.
+
 ## Staatliche Informations- und Geldwege
 
 Der **Mehrheitsbericht, S. 11, Ziffer 2c**, identifiziert für den Oktoberfestkomplex einen datierten Rückweg von Kopien: *Heigl → Rechtsanwalt Gaub → BayLfV, März 1982*. Die früher behauptete Weitergabe Langemanns an Heigl etwa zehn Tage nach dem Attentat ist ausdrücklich **Heigls Aussage**. Entscheidend sind Kopienlisten, Eingangsstempel und die ursprünglichen Verteiler.
@@ -414,6 +633,9 @@ Der **Mehrheitsbericht, S. 13, Abschnitt 5, Ziffer 1**, beziffert eine Zahlung d
 Die Landtagsmehrheit und -minderheit dokumentieren auch den privaten Informationsdienst von **Hans C. Freiherr von Stauffenberg**. Der Minderheitenbericht beziffert nach der eigenen Aussage von Stauffenbergs persönlich veranlasste Zahlungen von **300.000 bis 350.000 DM** an Langemann für den Zeitraum **1977–1982**. Der Mehrheitsbericht nennt für **1976–1979** monatliche Beträge von **5.000–6.000 DM** sowie eine Schätzung über **300.000 DM**. Die Minderheit schreibt diese Mittel in ihrer anschließenden politischen Schlussfolgerung dem Stauffenberg-Informationsdienst zu. Originalkontoauszüge und das vollständige Vernehmungsprotokoll sollen deshalb sowohl den Zahlungsträger als auch die zeitliche Zuordnung klären.
 
 Der **Arbeitskreis für das Studium internationaler Fragen e.V.** erhielt laut Minderheitenbericht aus dem bayerischen Innenministerium **27.000 DM (1979)**, **30.000 DM (1980)** und **35.000 DM (1981)**. Der Minderheitenbericht gibt von Stauffenbergs Aussage wieder, er persönlich erhalte gelegentlich Gelder vom Arbeitskreis; die Schlussfolgerung zur Finanzierung seines Informationsdienstes zieht die Minderheit separat. Der Mehrheitsbericht, S. 13, Abschnitt 5, Ziffer 4, referiert ausdrücklich von Stauffenbergs Aussage, sein Informationsdienst werde vom Arbeitskreis unterstützt. Der **Minderheitenbericht, S. 26**, nennt **Franz Josef Strauß, Gerold Tandler und Alfred Seidl** als Empfänger des privaten Dienstes. Förderbescheide, Originalkonten, Belegexemplare und Versandlisten sind hier die unmittelbar entscheidenden Akten.
+
+
+Der **Minderheitenbericht, S. 25**, dokumentiert außerdem einzelne Überweisungen auf Konten mit wechselnden Verfügungsberechtigungen. Die **4.000 DM**, die 1977 für Jonas bewilligt, aber auf das von-Corneli-Konto gezahlt wurden, sind ein **Teilbetrag der 17.000 DM**, keine zusätzlich zu verbuchende Summe. Die Kollmar-Bewilligung über **4.000 DM im Jahr 1978** ist ein eigener Vorgang. Kontoakten und Förderverwendungsnachweise bilden die nächste überprüfbare Beweiskette.
 
 ## Politische Medien- und Finanzierungsentwürfe
 
@@ -433,6 +655,8 @@ Die entscheidende Unterscheidung betrifft **registrierte Mittelbewegungen**, **b
 - Zahlungsanweisungen und Verwendungsnachweise der *Arbeitsgemeinschaft Staat und Gesellschaft* 1975/1976, separate Kontoauszüge für die berichteten Kinsky-Beträge.
 - Mehrseitige, ungekürzte November-1979-Vormerkung „Victory for Strauß“, Anlagen, Empfänger und etwaige Freigabe-, Rückfrage- oder Ablehnungsvermerke.
 - Originalvermerk 21.02.1980 mit Tandler-Paraphe und Primärveröffentlichung vom 11.02.1980 sowie zugrundeliegende Redaktionskorrespondenz.
+
+- Originalkontoauszüge und Vollmachten für von Corneli, Jonas und Brunello sowie Kollmar-Bewilligung, Arbeitskreis-Zuwendung 1976 und Nachweisregister.
 
 ## Quellen
 

@@ -388,3 +388,12 @@ entities:
     name: Arbeitskreis für das Studium internationaler Fragen e.V.
     countries:
     - DE
+  - id: PER-DE-WALTER-H-JONAS
+    type: person
+    name: Walter H. Jonas
+    countries: [DE]
+
+  - id: PER-DE-ARISTIDE-BRUNELLO
+    type: person
+    name: Aristide Brunello
+    countries: [DE]

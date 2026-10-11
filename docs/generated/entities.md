@@ -8,6 +8,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-ANDREAS-TEMME` | person | Andreas Temme | DE |
 | `ORG-DE-AG-STAAT-GESELLSCHAFT` | organization | Arbeitsgemeinschaft Staat und Gesellschaft | DE |
 | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | organization | Arbeitskreis für das Studium internationaler Fragen e.V. | DE |
+| `PER-DE-ARISTIDE-BRUNELLO` | person | Aristide Brunello | DE |
 | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | program | Atlantik-Brücke Young Leaders Program | DE, US |
 | `ORG-DE-ATLANTIK-BRUECKE` | association | Atlantik-Brücke e.V. | DE, US |
 | `ORG-DE-AXEL-SPRINGER` | media_company | Axel Springer SE | DE |
@@ -79,6 +80,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-TUPAMAROS-WEST-BERLIN` | extremist_network | Tupamaros West-Berlin | DE |
 | `PER-DE-ULRICH-WILHELM` | person | Ulrich Wilhelm | DE |
 | `PER-DE-VOLKER-FOERTSCH` | person | Volker Foertsch | DE |
+| `PER-DE-WALTER-H-JONAS` | person | Walter H. Jonas | DE |
 | `ORG-DE-WSG-HOFFMANN` | paramilitary_extremist_network | Wehrsportgruppe Hoffmann | DE |
 | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | intelligence_service | West-Berliner Landesamt für Verfassungsschutz | DE |
 | `ORG-DE-WDR` | public_broadcaster | Westdeutscher Rundfunk | DE |
