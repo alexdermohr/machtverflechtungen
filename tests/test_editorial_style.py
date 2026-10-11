@@ -12,7 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 REDUNDANT_BOUNDARY_BULLET = re.compile(
-    r"(?m)^[ \t]*[-*+][ \t]+\*\*(?:Aussagegrenze|Grenze):\*\*"
+    r"(?m)^[ \t]*[-*+][ \t]+\*\*(?:Aussagegrenze|Grenze)(?::\*\*|\*\*:)"
 )
 
 
@@ -52,6 +52,8 @@ class EditorialStyleTest(unittest.TestCase):
             "+ **Aussagegrenze:** wiederholt",
             "\t-\t**Grenze:** wiederholt",
             " -\t**Grenze:** wiederholt",
+            "- **Aussagegrenze**: wiederholt",
+            "  * **Grenze**: wiederholt",
         ):
             with self.subTest(bullet=example):
                 self.assertIsNotNone(REDUNDANT_BOUNDARY_BULLET.search(example))
