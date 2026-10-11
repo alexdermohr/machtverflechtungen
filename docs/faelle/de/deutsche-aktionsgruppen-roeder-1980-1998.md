@@ -25,7 +25,7 @@ mechanisms: [paramilitary-network, material-support]
 sources: [SRC-DE-BT-09066-1981, SRC-DE-BT-1311005-1998, SRC-DE-ARCHIVPORTAL-DA-2026, SRC-DE-HE-VSBER-1982]
 claims:
   - id: CLM-DE-DA-001
-    text: "Das Archivportal-D dokumentiert für die von Manfred Roeder angeleiteten Deutschen Aktionsgruppen sieben antisemitische und rassistische Anschläge von Februar bis August 1980 sowie den tödlichen Hamburger Brandanschlag vom 22. August auf Nguyễn Ngọc Châu und Đỗ Anh Lân."
+    text: "Das Archivportal-D dokumentiert für die von Manfred Roeder angeleiteten Deutschen Aktionsgruppen sieben antisemitische und rassistische Anschläge von Februar bis August 1980, darunter den tödlichen Hamburger Brandanschlag vom 22. August auf Nguyễn Ngọc Châu und Đỗ Anh Lân."
     classification: fact
     evidence_level: strong
     sources: [SRC-DE-ARCHIVPORTAL-DA-2026]
@@ -270,7 +270,7 @@ claims:
     falsification: "Authentischer Gründungs- oder Registerbeleg mit abweichender Vorstandswahl würde die Ausschussdarstellung korrigieren."
 what_follows:
   - text: "Die Bundesregierung nannte für Roeders Deutsche Bürgerinitiative konkret 84.000 DM Konteneingänge 1979/80; der Untersuchungsausschuss rekonstruierte später unentgeltliche Bundeswehr-Materialabgaben an ein anderes, von Roeder mitgeführtes Werk."
-    claim_ids: [CLM-DE-DA-003, CLM-DE-DA-006, CLM-DE-DA-007]
+    claim_ids: [CLM-DE-DA-003, CLM-DE-DA-006, CLM-DE-DA-007, CLM-DE-DA-012]
   - text: "Die 1993 belegte Vorstandswahl Roeders ist ein eigenständiger organisatorischer Verbindungsbeleg zum DRGW."
     claim_ids: [CLM-DE-DA-012]
   - text: "Lembkes berichtete Kontakte zu Hepp und Roeders Initiative bilden eine gezielte historische Netzwerksuchspur."
@@ -305,7 +305,7 @@ case_links:
 
 ## Gesicherter Ereigniskern
 
-- **`CLM-DE-DA-001` — stark gestützt:** Das Archivportal-D dokumentiert für die von Manfred Roeder angeleiteten Deutschen Aktionsgruppen sieben antisemitische und rassistische Anschläge von Februar bis August 1980 sowie den tödlichen Hamburger Brandanschlag vom 22. August auf Nguyễn Ngọc Châu und Đỗ Anh Lân.
+- **`CLM-DE-DA-001` — stark gestützt:** Das Archivportal-D dokumentiert für die von Manfred Roeder angeleiteten Deutschen Aktionsgruppen sieben antisemitische und rassistische Anschläge von Februar bis August 1980, darunter den tödlichen Hamburger Brandanschlag vom 22. August auf Nguyễn Ngọc Châu und Đỗ Anh Lân.
 - **`CLM-DE-DA-002` — belegt:** Der Bundestags-Untersuchungsausschuss hielt 1998 fest, dass Manfred Roeder 1982 wegen Rädelsführerschaft in einer terroristischen Vereinigung zu 13 Jahren Freiheitsstrafe verurteilt worden war.
 - **`CLM-DE-DA-003` — belegt:** Parlamentarischer Staatssekretär Andreas von Schoeler berichtete im Bundestag am 25. November 1981, auf den Konten der neonazistischen Deutschen Bürgerinitiative um Manfred Roeder seien 1979 und 1980 insgesamt 84.000 DM aus dem In- und Ausland eingegangen.
 - **`CLM-DE-DA-004` — belegt:** Die Bundesregierung nannte am 25. November 1981 für Heinz Lembke mehrere rechtsextremistische Organisationsmitgliedschaften und ausdrücklich Kontakte zur Deutschen Bürgerinitiative Manfred Roeders sowie zu Odfried Hepp.

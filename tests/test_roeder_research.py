@@ -41,6 +41,10 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         claims = {claim["id"]: claim for claim in meta["claims"]}
         self.assertEqual(claims["CLM-DE-DA-005"]["classification"], "counterevidence")
         self.assertEqual(claims["CLM-DE-DA-010"]["classification"], "hypothesis")
+        self.assertIn("darunter den tödlichen Hamburger Brandanschlag", claims["CLM-DE-DA-001"]["text"])
+        self.assertNotIn("sowie den tödlichen Hamburger Brandanschlag", claims["CLM-DE-DA-001"]["text"])
+        synthesis = next(rec for rec in meta["what_follows"] if "84.000 DM" in rec["text"])
+        self.assertIn("CLM-DE-DA-012", synthesis["claim_ids"])
         self.assertTrue(claims["CLM-DE-DA-010"]["counterevidence"])
         prose = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
         self.assertIn("24. Juni 1982", prose)
@@ -61,6 +65,7 @@ class RoederSourceBoundaryTests(unittest.TestCase):
             rel["id"]: rel for rel in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]
         }
         self.assertEqual(relations["REL-DE-DA-002"]["to"], "ORG-DE-DEUTSCHE-BUERGERINITIATIVE")
+        self.assertEqual(relations["REL-DE-DA-002"]["type"], "documented_association")
         self.assertEqual(relations["REL-DE-DA-006"]["to"], "ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK")
         self.assertEqual(relations["REL-DE-DA-006"]["period"]["start"], "1994-06-15")
         self.assertEqual(relations["REL-DE-DA-005"]["claim_ids"], ["CLM-DE-DA-012"])

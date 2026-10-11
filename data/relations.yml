@@ -776,7 +776,7 @@ relations:
   - id: REL-DE-DA-002
     from: PER-DE-MANFRED-ROEDER
     to: ORG-DE-DEUTSCHE-BUERGERINITIATIVE
-    type: organizational_leadership
+    type: documented_association
     label: "als Akteur der Deutschen Bürgerinitiative und ihrer berichteten Konteneingänge 1979/80 genannt"
     period: {start: "1979", end: "1980"}
     evidence_level: established
