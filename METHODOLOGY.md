@@ -57,6 +57,18 @@ Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine l
 
 Damit wird Gegenprüfung nicht als nachträgliche Relativierung einer bereits gesetzten Erzählung behandelt, sondern gleichzeitig mit der Behauptung gespeichert.
 
+## Redaktionelle Verdichtung: Erkenntnisse vor wiederholten Verneinungen
+
+Die öffentliche Falldarstellung führt zuerst den **konkreten positiven Aktenbefund**, die belastbare Beziehung bzw. den Mechanismus und den **nächsten unterscheidenden Originalakten-Test** an. Plausible Hypothesen dürfen klar formuliert werden, ihre Evidenzstufe bleibt erkennbar.
+
+**Beleggrenzen nur einmal und nur entscheidungsrelevant nennen.** Eine Einschränkung gehört in den laufenden Text, wenn ohne sie eine naheliegende, materiell andere Behauptung entstünde (etwa Verwechslung von Personennamen, Zuschreibung eines Dienstauftrags oder Gleichsetzung abhängiger Quellen). Ein amtlicher Gegenbefund oder eine dokumentierte Widerlegung ist dagegen ein eigenständiger positiver Forschungsbefund und bleibt sichtbar.
+
+Die vollständige quellenkritische Buchführung verbleibt **unverändert** im strukturierten Frontmatter: `evidence`, `counterevidence`, `alternatives`, `missing_evidence`, `scope.supports`, `scope.does_not_support`, `falsification`, `what_follows` und `what_does_not_follow`. Sie darf nicht aus Gründen der Kürze gelöscht oder gefälscht werden. Claim-ID, exakter Claim-Wortlaut und überprüfbare Quellenfundstelle müssen sichtbar bleiben.
+
+**Redaktionell unerwünscht:** zu jedem Claim eine weitere, oft identische Aufzählung „Aussagegrenze“/„Grenze“, ein pauschaler Abschnitt „Was folgt nicht?“ als Wiederholung der Claims oder ritualisierte Formeln „dies beweist keine X/Y/Z“-Kataloge ohne konkrete Relevanz. Bereits vorhandene Prüfgrenzen werden bei der nächsten Überarbeitung inhaltlich entdoppelt statt mechanisch neu ausgespielt.
+
+**Abnahmefrage:** Würde die Streichung der Negativformulierung einen unzutreffenden historischen Schluss nahelegen oder einen dokumentierten Gegenbefund verbergen? Falls ja: präzise behalten. Falls nein: streichen. Gegenhypothesen und entscheidende Falsifikationsakten nicht streichen.
+
 ## Quellenhierarchie
 
 1. **A — Primärquellen:** Urteile, parlamentarische Untersuchungsausschüsse, amtliche Akten, deklassifizierte Dokumente, Kabinettsprotokolle, diplomatische Dokumente, zeitgenössische Originalunterlagen.

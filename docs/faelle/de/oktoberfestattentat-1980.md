@@ -1243,7 +1243,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Die amtlichen Quellen differieren bei der Zahl der Verletzten und in der sprachlichen Darstellung der Todesopfer. Deshalb wird nur die gemeinsame, gesicherte Spanne „mehr als 200“ behauptet.
 - **Beweislücke:** Zahlengenaue Feststellung anhand des originalen Soko-Schlussberichtes und gegebenenfalls späterer Opferstatistiken.
 - **Tragweite:** Das amtlich rekonstruierte Ausmaß des Attentats.
-- **Grenze:** Keine Schlussfolgerung zu Mittätern, Auftraggebern oder Diensten.
 - **Falsifikation:** Eine korrigierte amtliche Opferliste mit begründet abweichenden Zahlen würde die Zahlenangabe ändern.
 
 ### `CLM-DE-OKT-002`
@@ -1257,7 +1256,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Die 1979er Notiz könnte spätere Kontakte übersehen; dennoch ist ein fortdauernder Kontakt bis September 1980 damit nicht belegt.
 - **Beweislücke:** Die Originalnotiz im Asservatenbestand Hepp, NADIS-Nachweise, Briefe und Anwesenheit bei den zwei Übungen nach Datierung und Authentizität prüfen.
 - **Tragweite:** Kontakte und Teilnahme an Übungen laut Archivrekonstruktion.
-- **Grenze:** Kein bis zur Tat 1980 reichender Kontakt belegt; weder WSG-Mittäterschaft noch geheimdienstliche Steuerung nachgewiesen.
 - **Falsifikation:** Authentische Korrespondenz- und Teilnehmerlisten, die die genannten Kontakte oder Übungsteilnahmen ausschließen, würden den Claim schwächen.
 
 ### `CLM-DE-OKT-003`
@@ -1270,7 +1268,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Diese nachträgliche politische Einordnung besagt für sich genommen nichts über die Beteiligung weiterer Täter.
 - **Beweislücke:** Die gesamte Einstellungsverfügung einschließlich Beweiswürdigung gegen die Aktenlage von 1982 vergleichen.
 - **Tragweite:** Die behördliche Neubewertung der politischen Motivation 2020.
-- **Grenze:** Keinen Beweis staatlicher Vorabkenntnis, Beteiligung oder terroristischer Netzwerke.
 - **Falsifikation:** Eine authentische Korrektur der Bundesregierung oder der Einstellungsverfügung, die diese Zuschreibung zurücknimmt, würde den Claim treffen.
 
 ### `CLM-DE-OKT-004`
@@ -1283,7 +1280,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Das Fehlen zureichender Anhaltspunkte ist weder logischer noch juristischer Beweis der Nichtbeteiligung einer weiteren Person.
 - **Beweislücke:** Einstellungsverfügung und nichtöffentliche Ermittlungsakten auf den Untersuchungsumfang und verworfene Spuren kontrollieren.
 - **Tragweite:** Das von der Bundesregierung mitgeteilte negative Ergebnis der erneuten Ermittlungen bezüglich weiterer Beteiligter.
-- **Grenze:** Keine positive Feststellung, dass definitiv niemand außer Köhler beteiligt war.
 - **Falsifikation:** Neue belastbare Tatspuren oder Zeugenbelege für eine konkrete zweite Person würden die damalige negative Bilanz materiell überholen.
 
 ### `CLM-DE-OKT-005`
@@ -1296,7 +1292,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Reguläre Observation einer bekannten verbotenen Gruppe aufgrund anderer Hinweise als zu dem Oktoberfestanschlag; unvollständige oder irrige MfS-Zuträgerinformationen.
 - **Beweislücke:** Zeitgleiche Einsatzbefehle und Observationsberichte der westdeutschen Landesämter, Ursprung der MfS-Information und Daten zum tatsächlichen Observationsziel.
 - **Tragweite:** Wortlaut, Datierung und Annahmen des MfS-Dokuments zu angeblichen Beobachtungsmaßnahmen.
-- **Grenze:** Weder die materielle Richtigkeit aller MfS-Angaben noch behördliches Vorwissen zum konkreten Oktoberfestattentat oder eine staatliche Beteiligung.
 - **Falsifikation:** Authentische Einsatzakten, die Operation, Datierung oder angeblich beobachtete Maßnahmen widerlegen, würden den behaupteten Wirklichkeitsgehalt des MfS-Berichts schwächen; eine nichtauthentische Dokumentprovenienz sogar seine Existenz als zeitgenössischen Beleg.
 
 ### `CLM-DE-OKT-006`
@@ -1309,7 +1304,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - **Alternative:** Die Einrichtung kann eine institutionelle Reaktion auf mehrere rechtsterroristische Taten des Jahres 1980 sein; sie indiziert kein konkretes Vorwissen vor dem Oktoberfestattentat.
 - **Beweislücke:** Zeitnahe Geschäftsverteilungspläne, Gründungsentscheidung und Akten zur damaligen Gefahrenbewertung prüfen.
 - **Tragweite:** Die amtlich erklärte organisatorische Einrichtung ab 1981.
-- **Grenze:** Keine Zuordnung dieser Reaktion zu geheimdienstlicher Mitwirkung an den Anschlägen.
 - **Falsifikation:** Zeitgenössische Organisationspläne, die ein solches Referat vor 1981 oder dessen Nichtexistenz 1981 belegen, würden die zeitliche Aussage korrigieren.
 
 ## Was folgt?
@@ -1333,24 +1327,6 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 - Der Bayerische Landtag dokumentierte 2014 den gesonderten Fund und die Archivabgabe von 29 BLKA-Spurenakten.
 - Das Bundesarchiv dokumentiert für die Abschlüsse 1981 und 1982 eine Einzeltäterbewertung ohne Feststellung eines politischen Motivs; der GBA bewertete das Motiv 2020 demgegenüber ausdrücklich als rechtsextremistisch.
 - Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag.
-
-## Was folgt nicht?
-
-- Die Antwortverweigerung von 1993 über Peter Weinmann erlaubt keinen Schluss auf staatliche WSG-Finanzierung und identifiziert keine 1976/2009 nur initialisierte Person sicher.
-
-- Die 1976er private Einladung und eine spätere parlamentarische Frage belegen weder die Identität ihres Finanzverwalters Franz Lippert mit einem BayLfV-V-Mann noch staatliche WSG-Spendengelder.
-- Der negative Regierungskenntnisstand von 1980 schließt verdeckte Zahlungen nicht aus und beweist nicht, dass 1976 und 1980 dasselbe Postscheckkonto beschrieben wurde.
-- Weder die behauptete VW-Bus-Beschaffung durch BfV-Gelder noch die Gleichsetzung des initialisierten P. W. mit P. Weinmann ist durch die Regierungsantwort von 2009 belegt.
-
-- Die BND-Meldung benennt keine italienischen Personen oder Ordine-Nuovo-Mitgliedschaften; sie belegt weder eine tatsächliche gemeinsame Ausbildung noch ein gemeinsames Tatnetz oder eine Beteiligung an Anschlägen in München oder Bologna.
-- Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung.
-- Die aus dem BayLfV nicht rekonstruierbare Erstmeldung und mögliche Voraktenverluste beweisen keine bewusst unterlassene Warnung, keinen konkreten Aktenvernichtungsakt und keine gemeinsame Planung der Erlanger Morde und des Oktoberfestattentats.
-- Die konkurrierenden Uhrzeiten belegen für sich weder absichtliche Aktenmanipulation noch eine staatliche Beteiligung am Anschlag; unterschiedliche Verfahrensschritte sind als Erklärung noch offen.
-- Die MfS-Überlieferung eines als VS-NfD bezeichneten Berichts und die dort verzeichneten WSG-Asservate beweisen weder einen MfS-Insider in der Soko noch eine technische Verbindung zur Oktoberfestbombe oder ein Vorwissen vor der Tat.
-- Die Erlanger Aktenbewegungen von 2015 belegen lediglich eine amtliche Relevanzprüfung, weder eine operative Verbindung beider Anschläge noch die Identität der 29 separaten BLKA-Oktoberfest-Spurenakten.
-- Weder aus der Beiziehung von BayLfV-Dokumenten nach 2014 noch aus der BND-Verschlusssache folgt konkretes Vorwissen oder bewusstes Aktenvorenthalten zum Anschlag 1980.
-- Die gerichtlich beanstandete Auskunftslage und separat überlieferte BLKA-Spurenakten beweisen weder absichtliche BayLfV-Aktenvernichtung noch staatliche Tatsteuerung.
-- Aus WSG-Kontakten und einem MfS-Bericht über Observationen folgt weder Mittäterschaft der WSG noch Vorwissen über den Oktoberfestanschlag oder staatliche Anschlagssteuerung.
 
 ## Offene Akten- und Prüfpfade
 
@@ -1382,7 +1358,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Beweiserkenntnisse zugunsten weiterer Beteiligter können Zeugenaussagen mit geringer Bestätigung oder andere nicht belastbare Verdachtsmomente gewesen sein.
 - **Offen:** Vollständige Einstellungsverfügung 1 BJs 201/80-2 und tragende Spuren in Originalreihenfolge prüfen.
-- **Aussagegrenze:** Keine nachgewiesenen Mittäter oder organisierte Steuerung.
 
 ### `CLM-DE-OKT-008`
 
@@ -1392,7 +1367,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Fehlwahrnehmung unter Stress, unzutreffende spätere Zuordnung oder ein unbeteiligter Mensch in Panik sind mit den Aussagen vereinbar.
 - **Offen:** Vollständige Erstvernehmungsprotokolle, Lageplan und weitere Zeugenbeobachtungen zeitlich synchronisieren.
-- **Aussagegrenze:** Kein erwiesener zweiter Bombenleger, keine Identität des berichteten Mannes.
 
 ### `CLM-DE-OKT-009`
 
@@ -1402,7 +1376,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Die Angaben enthielten keinen konkreten Bezug zu Köhler; ein großräumig verborgenes Depotnetz konnte mit der damaligen Suche übersehen werden.
 - **Offen:** Originale Fernschreiben vom 28.09.1980, Suchplan und spätere Depot-Koordinaten geometrisch vergleichen.
-- **Aussagegrenze:** Keine bewiesene Verbindung zwischen Lembke und Köhler oder der Oktoberfestbombe.
 
 ### `CLM-DE-OKT-010`
 
@@ -1412,7 +1385,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Die erwartete Belastung anderer Personen kann sich auf Waffendelikte beziehen und muss mit dem Oktoberfestanschlag nichts zu tun haben.
 - **Offen:** Das Originalvernehmungsprotokoll vom 30.10.1981, Kartenskizzen und Suchakten zum fehlenden Depot sichern.
-- **Aussagegrenze:** Keine Erkenntnis über Inhalt oder Existenzbeweis über seine Erklärung hinaus sowie keine Mittäterschaft am Oktoberfestattentat.
 
 ### `CLM-DE-OKT-011`
 
@@ -1422,7 +1394,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Verzicht auf Übernahme einer als irrelevant eingestuften Spur kann ein damaliges Aktenführungsurteil und muss keine gezielte Vertuschung gewesen sein.
 - **Offen:** Spurenakte 253 und Vorgaben zur Sachaktenübernahme mit Begründung aus damaliger Zeit prüfen.
-- **Aussagegrenze:** Keine automatische absichtliche Spurenunterdrückung und kein Nachweis, dass Lembke an der Tat beteiligt war.
 
 ### `CLM-DE-OKT-012`
 
@@ -1432,7 +1403,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Routine-Aussonderung nach damaligen Aufbewahrungspraktiken oder fehlende damalige Vorstellung späterer DNA- und Materialverfahren.
 - **Offen:** Asservatenbücher, Vernichtungsanordnung, eventuell zuvor angelegte Fotos und Laborbefunde prüfen.
-- **Aussagegrenze:** Kein Beweis, dass die vernichteten Spuren Dritte belastet hätten oder gerade deswegen beseitigt wurden.
 
 ### `CLM-DE-OKT-013`
 
@@ -1442,7 +1412,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Ein unvollständig dokumentierter Übergang nach der Fingerabdruckzuordnung ist mit einem rechtsmedizinischen Routineablauf vereinbar.
 - **Offen:** Tatortnummer, Fingerabdruck-Gutachten, Übergabewege, Krematoriumunterlagen und nicht aufgefundene Laborakten getrennt nachverfolgen.
-- **Aussagegrenze:** Kein Nachweis für ein zweites am Tatort verstorbenes Opfer, für ein anderes Körperfragment oder für Diebstahl.
 
 ### `CLM-DE-OKT-014`
 
@@ -1452,7 +1421,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Die anfängliche Geheimhaltung kann auf generelle Quellenschutzpraxis und eine zu weitreichende Abwägung statt auf eine konkrete staatliche Tatbeteiligung zurückgehen.
 - **Offen:** Den vollständigen Tenor nach betroffenen Fragen und die 2017 nachgereichten Antworten als Vergleichsmatrix prüfen.
-- **Aussagegrenze:** Kein Nachweis für verdeckte Tatbeteiligung oder tatsächlich eingesetzte V-Leute bestimmter Personen.
 
 ### `CLM-DE-OKT-015`
 
@@ -1462,7 +1430,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Eine Meldung kann aus allgemein zugänglichen Milieugesprächen stammen und erst nach der Tat generiert worden sein.
 - **Offen:** Metadaten, Eingangsstempel, inhaltliche Auszüge und tatsächliche Erfassungs-/Weiterleitungsläufe aller fünf Meldungen überprüfen.
-- **Aussagegrenze:** Weder fünf verschiedene Informanten noch ein Hinweis vor dem Anschlag oder Tatsteuerung.
 
 ### `CLM-DE-OKT-016`
 
@@ -1472,7 +1439,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Meldungen konnten nach dem Anschlag entstehen und können Bekanntes oder Mehrfachmeldungen wiedergeben.
 - **Offen:** Alle 35 Meldungen nach Datum, Quelle, Eingang, Bedeutung und eventueller Weitergabe an Ermittler klassifizieren.
-- **Aussagegrenze:** Keine Aussage über konkretes Wissen vor dem 26. September oder einen V-Mann im späteren Täterkreis.
 
 ### `CLM-DE-OKT-017`
 
@@ -1482,7 +1448,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Beschränkung auf vorhandene BfV-Akten und auf ehemalige Mitglieder schließt andere Informanten im Umfeld oder Quellen fremder Behörden nicht logisch aus.
 - **Offen:** Konkrete erhaltene Quellenführerakten aller Behörden mit definierten Mitgliedschaftslisten vergleichen.
-- **Aussagegrenze:** Keine pauschale Negation jeder nachrichtendienstlichen Beobachtung oder jeglicher Landesamt-Quellen.
 
 ### `CLM-DE-OKT-018`
 
@@ -1492,7 +1457,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Nicht erhaltene oder unbekannte Akten können theoretisch zu einer anderen Bilanz führen; ein Verdacht allein genügt nicht.
 - **Offen:** Aussage auf der Grundlage sämtlicher vorhandener Länder- und Bundesakten nachhalten und zusätzliche Primärbelege nur bei Fund ergänzen.
-- **Aussagegrenze:** Kein historischer Absolutbeweis einer niemals bestehenden verdeckten Beziehung.
 
 ### `CLM-DE-OKT-019`
 
@@ -1502,7 +1466,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Staatsanwaltliche Rechtshilfe bei Behörden anderer Staaten und Zeugenerhebungen ersetzen keine Anforderung fremder Nachrichtendienstakten.
 - **Offen:** Akten der US-amerikanischen, italienischen, britischen und anderen ausländischen Dienste sowie etwaige Geheimhaltungsbeschränkungen auf direkte relevante Vorgänge prüfen.
-- **Aussagegrenze:** Keine Folgerung, ausländische Dienste seien beteiligt gewesen oder hätten etwas verheimlicht.
 
 ### `CLM-DE-OKT-020`
 
@@ -1512,7 +1475,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Prahlen oder abstraktes Durchspielen eines Anschlagsplans konnte von den beiden Freunden nicht als konkrete Vorbereitung verstanden worden sein.
 - **Offen:** Erste Vernehmungen, spätere Korrekturen und genaue Formulierung der Gesprächsinhalte vergleichen.
-- **Aussagegrenze:** Kein Nachweis, dass diese Freunde konkrete Ausführungshilfe leisteten oder der Polizei rechtzeitig ein belastbares Tatvorwissen bekannt war.
 
 ### `CLM-DE-OKT-021`
 
@@ -1522,7 +1484,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Diebstahl oder ungesicherte Entsorgung ist mit Herkunft aus Militärbeständen vereinbar, ohne dass dies eine offizielle Lieferung durch einen Geheimdienst wäre.
 - **Offen:** Beschaffungs-, Abgabe- und Zugangsprotokolle von Bundeswehr und Dragahn gegen Depot-Inventare abgleichen.
-- **Aussagegrenze:** Weder ein bewiesener BND- oder NATO-Auftrag noch Herkunft des Oktoberfest-Sprengstoffs.
 
 ### `CLM-DE-OKT-022`
 
@@ -1532,7 +1493,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Erste Hypothesen können aus noch unvollständiger Tatortforensik entstehen und bei neuen Erkenntnissen korrigiert werden.
 - **Offen:** Originalpresseerklärung, Zündungs-Gutachten und spätere Neubewertung im Wortlaut vergleichen.
-- **Aussagegrenze:** Keinen tatsächlichen Nachweis einer Fernzündung oder einer zweiten Person.
 
 ### `CLM-DE-OKT-023`
 
@@ -1542,7 +1502,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Polizeilicher Schutz vertraulicher Informationen kann ohne jeden V-Mann-Status der erwähnten Zielperson erforderlich sein.
 - **Offen:** Originalfern schreiben und gegebenenfalls tatsächlich erteilte Sperrerklärungen sowie damalige Aktenverwendung prüfen.
-- **Aussagegrenze:** Kein positiver Beweis einer Beschäftigung Lembkes als Informant.
 
 ### `CLM-DE-OKT-024`
 
@@ -1552,7 +1511,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Fehlende strafprozessuale Beweisbarkeit kann aus Vernichtung von Asservaten, widersprüchlichen Zeugen und zeitlichem Abstand resultieren.
 - **Offen:** Vollständige Einstellungsverfügung 2020, einzelne Beweisverwertungsentscheidungen und ausländische Aktenlage erneut prüfen.
-- **Aussagegrenze:** Keine positive Aussage, dass es historisch niemals weitere Beteiligte gegeben haben kann.
 
 **Prüfgrenze:** Die revidierte Ermittlungsbilanz 2020 ist ein negativer Tatbeteiligungsbefund, nicht der Beweis, dass keine weitere Person beteiligt war. Umgekehrt begründen diese neuen dokumentierten Hinweise allein keinen staatlichen Anschlagsauftrag.
 ### `CLM-DE-OKT-025`
@@ -1563,7 +1521,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Anonyme Bekennungen können Irreführungen sein. Die in der Frage nach italienischen Festnahmen genannten mehr als 20 Rechtsextremisten betrafen nach der Regierungsantwort [16/13527, gedruckte S. 4, Antwort 4](https://dserver.bundestag.de/btd/16/135/1613527.pdf) den **Anschlag in Bologna** und keine nachgewiesenen Münchner Mittäter.
 - **Offen:** Zeitgenössische polizeiliche Gesprächsnotizen, Zeitungseingänge und ermittelte Stimm- oder Telefonmerkmale der Anrufe.
-- **Aussagegrenze:** Keine erwiesene Täterschaft oder Identität der Anruferin und keine dokumentierte operative Verbindung der Münchner Tat zum Anschlag in Bologna.
 
 ### `CLM-DE-OKT-026`
 
@@ -1573,7 +1530,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 
 - **Gegenprobe:** Eine nachgewiesene Tatmittelbearbeitung durch Köhler kann parallel zu Hilfen anderer Personen stattgefunden haben; Spuren am Wohnort beweisen keine ausschließliche Alleinherstellung.
 - **Offen:** Originale BKA-/BLKA-Laborberichte, Materialvergleich und vollständige Fotodokumentation samt Kette der sichergestellten Gegenstände.
-- **Aussagegrenze:** Keinen Ausschluss fremder Tatbeteiligung und keine detailgenaue Rekonstruktion der gesamten Herstellung.
 
 ### `CLM-DE-OKT-027`
 
@@ -1586,7 +1542,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 - **Alternative:** Die frühere Einschätzung kann eine sachliche Fehlbewertung darstellen, ohne dass die beteiligten Ermittler das Motiv absichtlich verborgen haben müssen.
 - **Beweislücke:** Den Originalwortlaut beider Abschlüsse und die Beweiswürdigung 2020 direkt vergleichen.
 - **Tragweite:** Nachvollziehbare frühere Behördenbewertung im dokumentierten Archivbefund.
-- **Grenze:** Die Archivrekonstruktion beweist weder tatsächliche Unpolitischkeit noch bewusste Vertuschung.
 
 
 ### `CLM-DE-OKT-028`
@@ -1599,7 +1554,6 @@ Die 33 untersuchten Spuren sind ein Forschungsraster, keine Liste von 33 voneina
 - **Gegenbefund derselben Quelle:** Die überwiegende Mehrzahl weiterer Zeugen sah Köhler allein; mögliche Kontakte wurden unterschiedlich beschrieben.
 - **Alternative:** Bloßes Gespräch ohne Beteiligung, abweichende Zuordnung oder Irrtum bei der Wahrnehmung.
 - **Beweislücke:** Erstvernehmungsprotokolle mit zeitgleichem Bewegungsbild abgleichen.
-- **Aussagegrenze:** Aus dieser unbestätigten Personenbeobachtung folgt weder eine konkrete Mittäterschaft noch Geheimdienstvorwissen.
 
 
 ## Drei ergänzte Spuren aus der Originalaktenmatrix
@@ -1616,7 +1570,6 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 - **Alternative:** Ein anderer unaufgeklärter Tatmittelbezug, eine eigenständige Beschaffung durch Köhler oder Unterstützungsleistungen durch unbekannte Dritte sind mit der begrenzten chemischen Analyse logisch vereinbar.
 - **Beweislücke:** Originale Laborberichte, damalige Vergleichsprobenlisten und Beschaffungs- oder Besitzketten vor Vernichtung der Asservate überprüfen.
 - **Tragweite:** Die konkret dokumentierte damalige Identifizierungs- und Vergleichsgrenze für die verwendete Sprengstoffart und mögliche Materialherkunft.
-- **Grenze:** Kein Beleg, dass Proben aus Lembkes Depots fehlten oder vernichtet worden seien; kein Nachweis einer Sprengstofflieferung durch Lembke, andere Personen oder Nachrichtendienste.
 - **Falsifikation:** Ein belastbarer ursprünglicher chemischer Identitäts- oder Chargenvergleich mit authentischen Proben könnte die amtlich beschriebene Erkenntnisgrenze verändern.
 
 ### `CLM-DE-OKT-030`
@@ -1629,7 +1582,6 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 - **Alternative:** Der BND konnte Hinweise über internationale oder rechtsextremistische Kontakte beisteuern, ohne vor der Tat beteiligt gewesen zu sein.
 - **Beweislücke:** Originale Teilnehmerlisten, Protokolle der Lagebesprechungen am 8. und 14. Oktober sowie konkret an den BND gerichtete Informationsersuchen und Antworten prüfen.
 - **Tragweite:** Die direkt bestätigte nachträgliche organisatorische Einbindung des Bundesnachrichtendienstes in mindestens eine Ermittlerbesprechung.
-- **Grenze:** Eine Besprechung zwei Wochen nach dem Anschlag ist kein Beleg für BND-Vorwissen oder operative Planung, Steuerung beziehungsweise Unterstützung der Tat.
 - **Falsifikation:** Authentische vollständige Sitzungsunterlagen, die den angegebenen BND-Teilnehmer oder Besprechungsgegenstand widerlegen, könnten die amtliche Rekonstruktion ändern.
 
 ### `CLM-DE-OKT-031`
@@ -1642,7 +1594,6 @@ Diese Befunde waren bereits in der [Spurenprüfung](../../quellen/oktoberfestatt
 - **Alternative:** Eine politisch oder medial motivierte Indiskretion ohne Terroristenkontakt ist ebenfalls möglich.
 - **Beweislücke:** Originale Weitergabe- und Pressenotizen, dienstliche Untersuchungen sowie datierte interne Folgevermerke zu etwaigen Ermittlungsgefährdungen prüfen.
 - **Tragweite:** Die beim Bundesarchiv dokumentierte frühe Informationsweitergabe aus dem Ministeriumsbereich an Medien.
-- **Grenze:** Die archivische Darstellung belegt weder eine bewusste Warnung an mögliche Mittäter noch eine konkret vereitelte Ermittlungshandlung oder staatliche Mitplanung.
 - **Falsifikation:** Ein belastbarer originaler Amtsvermerk oder eine zeitgenössische Korrespondenz, die Urheber, Zeitpunkt und Inhalt der Weitergabe anders belegt, würde die Archivrekonstruktion korrigieren.
 
 
@@ -1659,7 +1610,6 @@ Die institutionelle Aktenüberlieferung ist von der **Frage nach Täterschaft un
 - **Amtlicher Befund:** Das Gericht beanstandete, dass die Regierung nur das Nichtvorhandensein und die fehlende Abgabe einschlägiger BayLfV-Unterlagen darstellte, ohne nachvollziehbare zumutbare Nachforschungen zur fehlenden Archivabgabe auszuweisen. Die Rechtsverletzung betrifft die Antwortpflicht.
 - **Alternativerklärungen:** Fehlende eigene Unterlagen können durch gesetzmäßige Aussonderung, andere Verwahrung oder unvollständige Bestandsrecherche erklärt werden; keine dieser Möglichkeiten ist damit abschließend nachgewiesen.
 - **Fehlende Beweise:** Die ursprüngliche Landtagsantwort LT-Drs. 16/12950, Nachforschungen 2012–2014, BayLfV-Akten-/Löschprotokolle und Übergabelisten an das Bayerische Hauptstaatsarchiv vergleichen.
-- **Aussagegrenze:** Keine gerichtliche Feststellung gezielter, rechtswidriger Vernichtung von Oktoberfestakten, staatlicher Anschlagsbeteiligung oder eines bekannten geheimen Bestands.
 - **Falsifikationskriterium:** Eine berichtigende oder aufhebende authentische Gerichtsentscheidung oder ein abweichender Originaltenor würde den gerichtlichen Befund ändern.
 
 ### `CLM-DE-OKT-033`
@@ -1671,7 +1621,6 @@ Die institutionelle Aktenüberlieferung ist von der **Frage nach Täterschaft un
 - **Amtlicher Befund:** Die amtliche Ausschussberichterstattung dokumentiert die Aussage über 29 separat erhaltene BLKA-Spurenakten, die Nichtaufnahme in die damaligen GBA-Sachakten sowie die spätere Abgabe ans Hauptstaatsarchiv; einzelne Dokumente waren aus Datenschutzgründen geschwärzt.
 - **Alternativerklärungen:** Eine administrative Trennung von Sach- und Spurenakten oder damalige Entscheidung über Tatbezug ist mit dem Aktenbefund vereinbar, ohne dass eine Vertuschungsanweisung belegt wäre.
 - **Fehlende Beweise:** Archivsignaturen, Inhaltsverzeichnis und Übergabeprotokoll aller 29 Spurenakten; Vergleich mit Spur 253 und den Unterlagen, die die erneute Soko 2014–2020 tatsächlich auswertete.
-- **Aussagegrenze:** Keine positive Feststellung absichtlicher Spurenunterdrückung, keiner nachweislich unterbliebenen Prüfung 2014–2020 und keine Identifikation eines Mittäters.
 - **Falsifikationskriterium:** Authentische BLKA- und Staatsarchiv-Übergabelisten oder ursprüngliche GBA-Sachakten mit begründet abweichender Zuordnung und Anzahl würden diese amtliche Zusammenfassung präzisieren oder widerlegen.
 
 **Forschungsauftrag:** [Issue #23 – BayLfV-Aktenstand, BLKA-Spurenakten und ursprüngliche Archivübergaben](https://github.com/alexdermohr/machtverflechtungen/issues/23). Der Landtagsbericht von 2014 erwähnt außerdem einen einzelnen Aktenordner; dessen Verwahrungsort und Zusammenhang mit BayLfV-Beständen lassen sich daraus nicht eindeutig identifizieren. Eine gesonderte Akteninventur ist erforderlich.
@@ -1690,7 +1639,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Die Bundesregierung nennt das BayLfV, BfV, BND, BayHStA und BLKA ausdrücklich als Stellen, von denen die Bundesanwaltschaft direkt oder vermittelt durch das BLKA Unterlagen beigezogen hatte; Art und Umfang der Übernahmen unterscheiden sich und werden nicht pro Dienst aufgeschlüsselt.
 - **Alternative:** Eine Beiziehung von BayLfV-Unterlagen kann sich auf andere Rechtsextremismuskomplexe, spätere Lageberichte, Kopien oder anderswo archivierte Unterlagen bezogen haben, ohne dass der 2011 erfragte originäre Tatbestand noch vorhanden war.
 - **Zu beschaffen:** Das vollständige 2014–2020er Aktenbeiziehungsregister (Anforderungsdatum, Inhalt, Signatur, Lieferbehörde, Kopie/Original/On-Site-Sichtung), insbesondere alle BayLfV-Einträge und Beziehung zu den 29 BLKA-Spurenakten.
-- **Aussagegrenze:** Keine Aussage, dass BayLfV noch originale 1980er Tatakten besaß, die 2011 verborgen wurden; weder Anzahl noch Inhalt von BayLfV-Meldungen, ein Vorwissen der Dienste oder eine Zugehörigkeit der 29 BLKA-Spurenakten ist damit nachgewiesen.
 - **Falsifikationskriterium:** Ein authentisches Beiziehungsverzeichnis, das die Regierungsantwort falsch zuordnet oder ausdrücklich nur anderweitige Unterlagen betrifft, würde die Reichweite dieses Befunds ändern.
 
 ### `CLM-DE-OKT-035`
@@ -1702,7 +1650,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Die Antworten nennen u.a. Rückgaben an StA Marburg/Memmingen, das Landesarchiv Baden-Württemberg und von Teilbeständen von Bundesarchiv, BLKA und Bayerischem Innenministerium. Übrige Unterlagen verblieben Ende 2021 bei der Bundesanwaltschaft; für deren Aussonderung/Rückgabe bestand keine verlässliche Zeitprognose.
 - **Alternative:** Zur Bundesanwaltschaft verbliebene Schriftstücke können rechtmäßig als Beiakten aufbewahrt werden oder lediglich Kopien bzw. elektronische Fassungen sein; anhaltende Prüfung impliziert weder nachweislich rechtswidrige Zurückhaltung noch Unterdrückung.
 - **Zu beschaffen:** Aktenaussonderungs- und Rückgabeprotokolle seit Ende 2021, getrennte Verzeichnisse zu Originalen/Kopien und zuständige Standorte, insbesondere BLKA/Hauptstaatsarchiv und BayLfV.
-- **Aussagegrenze:** Keine Aussage über den endgültigen Verbleib einzelner Stücke 2026; kein Beleg für vorsätzliche Unterschlagung, Vernichtung oder fehlenden öffentlichen Archivzugang zu sämtlichen Beständen.
 - **Falsifikationskriterium:** Spätere signierte Aussonderungs- oder Übergabeprotokolle können die nur auf 2021 bezogene Bestandsauskunft sachlich überholen, ohne den damaligen Stand zu widerlegen.
 
 ### `CLM-DE-OKT-036`
@@ -1714,7 +1661,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Die amtliche Antwort differenziert ausdrücklich die 2014 öffentlich übergebene Teilakte im Bundesarchiv und den im BND verbliebenen geheimhaltungsbedürftigen Teil. Innerhalb der damaligen Abteilung 5 wurde das zuständige Referat 51D zum 1. Mai 1980 neu eingerichtet; die Aktenführung endete nach den vorhandenen Dokumenten 1983.
 - **Alternative:** Die Geheimhaltung kann aus allgemeinem Quellenschutz, personenbezogenen Angaben und nachrichtendienstlichen Methoden folgen, ohne dass sie eine konkrete Tatbeteiligung oder deren Vertuschung belegt.
 - **Zu beschaffen:** Bestandsbeschreibung und tatsächlicher Akteninhalt von BArch B 206/3009 einsehen; Übernahmeliste Februar 2014 sowie Provenienz der verbliebenen BND-Verschlusssachen gegen spätere Freigabe-/Aussonderungsentscheidungen überprüfen.
-- **Aussagegrenze:** Weder die tatsächliche Einsicht in den vollständigen Inhalt der BND-Akte noch ein Nachweis von BND-Vorwissen oder Tatsteuerung; der Verschlusssachenteil ist nach der Auskunft von 2015 nicht als dauerhaft 2026 erhalten gesichert.
 - **Falsifikationskriterium:** Ein BArch-Bestands-/Übernahmebeleg mit anderer Signatur oder ein authentischer späterer Offenlegungsbescheid könnte die damalige Aufteilung aktualisieren.
 
 ### `CLM-DE-OKT-037`
@@ -1726,7 +1672,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Die Bundesantwort benennt ein Sachaktenregime mit zunächst Referat IIA3 und ab April 1981 Referat IIA6; Chronologie statt thematischer Gliederung; auf die Frage nach Vernichtungen wird die ausdrücklich benannte Sachakte als nicht vernichtet bezeichnet.
 - **Alternative:** Die amtlich erklärte Nichtvernichtung der benannten Sachakte schließt rechtmäßige Löschungen einzelner personenbezogener Datensätze, separat geführter Akten oder Aussonderungen anderer Institutionen nicht aus; zur physischen Vollständigkeit liegt kein Nachweis vor.
 - **Zu beschaffen:** Erhaltungs-, Registratur- und Aktenabgabeverzeichnis des BfV für die Sachakte bis 2015 sowie mögliche spätere Akteneinsicht und Blatt-/Ordnerzahlen; getrennte Bewertung von Quellensammlung und Hauptsachakte.
-- **Aussagegrenze:** Keine Aussage, dass niemals einzelne BfV-Daten gelöscht oder alle damaligen Meldungen erhalten wurden; keine durchgeführte externe physische Vollständigkeitsprüfung der einzelnen Aktenbände.
 - **Falsifikationskriterium:** Authentische Aktenvernichtungsprotokolle, die ausdrücklich genau die so bezeichnete BfV-Sachakte betreffen, würden die Regierungsantwort materiell in Frage stellen.
 
 
@@ -1740,7 +1685,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenkontext:** Die Antwort von 2015 kannte nur die erste Abgabe und berichtete damals einen gesonderten Verschlusssachenteil beim BND; sie beweist nicht, dass dieser Teil 2016 freigegeben wurde.
 - **Alternative:** Die archivierten BND-Unterlagen können Berichte anderer Stellen, fremde Meldungen oder Material aus der Zeit nach dem Anschlag enthalten; ihre Abgabe beweist weder eigene BND-Beobachtung vor der Tat noch eine Weitergabe konkreter Tatpläne. Die Juni-2016-Tranche muss nicht mit dem 2015 beschriebenen VS-Rest identisch sein.
 - **Zu beschaffen:** Inhalts- und Übernahmeverzeichnis von BArch B 206/3009 mit getrennten Eingängen Februar 2014 und Juni 2016, Datierung und Provenienz jedes Dokuments sowie Status und möglicher Abgabeweg des 2015 noch eingestuften BND-Restbestands.
-- **Aussagegrenze:** Kein Nachweis über einzelne Dokumentinhalte, ein Vorwissen des BND vor dem 26. September 1980, eine Nachrichtendienststeuerung des Anschlags oder die vollständige Freigabe des 2015 eingestuften BND-Rests.
 - **Falsifikationskriterium:** Authentische BND-/Bundesarchiv-Übernahmeprotokolle mit abweichendem Übergabedatum, anderem Bestand oder belegter Fehlzuordnung von B 206/3009 würden die amtliche Zusammenfassung materiell präzisieren oder widerlegen.
 
 ### `CLM-DE-OKT-039`
@@ -1752,7 +1696,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Die Bundesregierung nennt das konkrete Datum 14.01.2015 und die Übermittlung der beim BKA geführten Aktenbestandteile zu Lewin/Poeschke an den GBA im wiederaufgenommenen Oktoberfestverfahren; kein abschließendes Einzelinventar.
 - **Alternative:** Die Akten wurden im Rahmen einer weit gefassten Relevanzprüfung beigezogen; die Aktenübermittlung kann der Abklärung einer bloßen Milieuparallele gedient haben und begründet keine tatsächliche gemeinsame Täterschaft oder Materialverbindung.
 - **Zu beschaffen:** Originales BKA-Abgabeverzeichnis vom 14.01.2015, GBA-Eingangsvermerk, Soko-Auswertungsverzeichnis, Prüfungsergebnis sowie die eigenständigen Erlanger GBA-Akten unter BArch B 362/6510–6520.
-- **Aussagegrenze:** Weder eine Aktenvollständigkeit noch eine identische Tätergruppe, einen nachgewiesenen Oktoberfest-Tatbeitrag durch Behrendt oder eine Nachrichtendienststeuerung.
 - **Falsifikationskriterium:** Originale BKA-/GBA-Übermittlungs- und Eingangsprotokolle mit anderem Datum, Empfänger oder Aktengegenstand würden diese behördliche Zusammenfassung präzisieren oder widerlegen.
 
 ### `CLM-DE-OKT-040`
@@ -1764,7 +1707,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Amtlicher Befund:** Behördliche Darstellung des Aktenverkehrs vom BayHStA zum BLKA am 26.03.2015 auf Veranlassung des GBA, ausdrücklich zur Prüfung der Ermittlungsrelevanz. Die Aussage belegt noch keine erfolgte vollständige Auswertung.
 - **Alternative:** Die breit angelegte Aktenanforderung kann vorsorglich erfolgt sein, ohne dass sich ein personeller, materieller oder organisatorischer Zusammenhang zwischen Erlangen und dem Oktoberfestattentat bestätigte.
 - **Zu beschaffen:** BayHStA-Abgabeverzeichnis vom 26.03.2015, GBA-Anforderung und ursprüngliches Erlanger Spurenverzeichnis, BLKA/Soko-Relevanzentscheidung sowie Dokumentation späterer Rückgabe und Verwahrung.
-- **Aussagegrenze:** Keine Aussage, dass die übergebenen Akten konkrete Mittäter des Oktoberfestanschlags oder eine nachrichtendienstliche Verbindung belegten; BayHStA-/BLKA-Erlanger Akten sind nicht automatisch die 29 separaten Oktoberfest-Spurenakten.
 - **Falsifikationskriterium:** Originale Hauptstaatsarchiv-/BLKA-Übergabeprotokolle, die Datum, Aktenart, Empfänger oder Anlass anders ausweisen, würden die Regierungsantwort korrigieren.
 ### `CLM-DE-OKT-041`
 
@@ -1776,7 +1718,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Der Bericht kann durch nachträgliche Aktenabschöpfung, eine Kopie aus einem größeren Verteiler oder eine Drittquelle in MfS-Unterlagen gelangt sein; ein direkter Insider in der Soko ist nicht identifiziert.
 - **Zu beschaffen:** Zeitgenössische BKA-/BLKA-Urschrift, Verteiler- und Versandlisten sowie MfS-HA-III-Eingangsnachweis und Quellenführungsvermerk zur Nummer 7729.
 - **Tragweite:** Einen original dokumentierten MfS-Aktenbesitz von Angaben aus einem als VS-NfD bezeichneten westdeutschen Ermittlungsbericht.
-- **Aussagegrenze:** Weder die Authentizität eines vollständigen westdeutschen Originals noch einen bestimmten Übermittler, ein Eingangsdatum vor dem 29. September 1980, MfS-Vorwissen oder operative Mitwirkung.
 - **Falsifikationskriterium:** Vergleich von westdeutscher Urschrift, Kopienverteilern und Eingangsbüchern des MfS könnte Herkunft, Datierung und Vollständigkeit der MfS-Wiedergabe verändern.
 
 ### `CLM-DE-OKT-042`
@@ -1790,7 +1731,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die rasche Durchsuchung kann eine normale Reaktion auf die bekannt gewordenen WSG-Kontakte Köhlers sein und setzt kein Behördenwissen vor dem Anschlag voraus.
 - **Zu beschaffen:** GBA-Übernahmeverfügung und Originalsuchanordnung vom 27.09.1980, Landeskriminalamt-Einsatzberichte sowie zeitgleiche BKA-Lagechronologie.
 - **Tragweite:** Einen konkret datierten, in der MfS-Überlieferung wiedergegebenen westdeutschen frühen Ermittlungsablauf.
-- **Aussagegrenze:** Weder die tatsächliche minutengenaue Vollziehung jeder Durchsuchung noch eine Verbindung zu der anderen, nur in HA XXII 5749 behaupteten „Aktion Wandervogel“ in der Nacht vor dem Anschlag.
 - **Falsifikationskriterium:** Original-GBA-Anordnung und tatsächlich gestempelte Einsatzjournale mit anderen Uhrzeiten oder Anlässen würden die überlieferte Chronologie korrigieren.
 
 ### `CLM-DE-OKT-043`
@@ -1803,7 +1743,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Der Besitz gefährlicher WSG-Gegenstände kann unabhängig vom konkreten Tatmittel des Oktoberfestattentats bestanden haben; der im Dokument angekündigte Laborvergleich kann negativ ausgefallen sein.
 - **Zu beschaffen:** Original-Sicherstellungslisten, Asservaten-IDs, Materialvergleich der Zündmittel und Kabel mit den am Tatort geborgenen Fragmenten sowie BLKA-Prüfberichte.
 - **Tragweite:** Die in einer erhaltenen MfS-Kopie dokumentierte frühe Ermittlungs- und Asservatenspur gegen Personen aus dem WSG-Umfeld.
-- **Aussagegrenze:** Keinen durch vergleichende Forensik nachgewiesenen Ursprung der Oktoberfestbombe, keinen Tatbeitrag der WSG und keine Feststellung über die tatsächliche kriminaltechnische Übereinstimmung.
 - **Falsifikationskriterium:** Originäre Beschlagnahmeprotokolle oder BLKA-Gutachten, welche die Funde nicht bestätigen oder eine Verbindung zum Tatmittel ausschließen, würden die Spur einordnen.
 
 ### `CLM-DE-OKT-044`
@@ -1816,7 +1755,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die negative frühe Lageeinschätzung kann auf damals fehlenden Vergleichen oder unvollständig bewerteten Spuren beruhen; sie ist weder spätere endgültige Entlastung noch Beleg absichtlicher Ermittlungsunterdrückung.
 - **Zu beschaffen:** Originäre BKA-Lagemeldung 29.09.1980 samt Nachtragsmeldungen, Gründe der Freilassungen und kriminaltechnische Negativ-/Positivbefunde aus den WSG-Durchsuchungen.
 - **Tragweite:** Einen dokumentierten negativen Zwischenstand zur konkret gesuchten WSG-Mittäterschaft und eine wichtige Gegenprobe zum schnellen Schluss aus den beschlagnahmten Gegenständen.
-- **Aussagegrenze:** Keine endgültige Widerlegung einer Tatbeteiligung aller WSG-Mitglieder oder anderer Personen und keine Beurteilung nach Abschluss späterer Ermittlungen.
 - **Falsifikationskriterium:** Ein archivisches BKA-Original mit abweichender Aussage oder später authentisch nachgewiesene Tatbeteiligung würde die Bedeutung dieses Zwischenstands verändern.
 
 ### `CLM-DE-OKT-045`
@@ -1829,7 +1767,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative:** Es kann sich um unterschiedliche Rechts-/Kommunikationsschritte, einen retrospektiven Fehler oder eine fehlerhafte zeitgenössische Angabe handeln. Die beiden 14:10-Texte sind nicht als unabhängige Urschriften bewiesen.
 - **Zu beschaffen:** Ursprüngliche GBA-Übernahmeverfügung und Eingangsstempel, Abgabevermerk StA München I, Soko-Geschäftsbuch und vollständiger Zwischenbericht B 141/68772.
 - **Tragweite:** Dokumentierter chronologischer Widerspruch, der an konkreten Akten falsifiziert werden kann.
-- **Aussagegrenze:** Weder manipulierte Ermittlungen noch geheimdienstliches Vorwissen oder staatliche Tatbeteiligung sind aus der Uhrzeitdifferenz nachgewiesen.
 - **Falsifikationskriterium:** Eine originale Zuständigkeitsverfügung oder eine minutengenaue Behördenchronologie kann belegen, dass 11 Uhr und 14:10 Uhr unterschiedliche Schritte meinen oder eine Darstellung irrt.
 
 ### `CLM-DE-OKT-046`
@@ -1842,7 +1779,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die Quelle kann erst nach dem Erlanger Doppelmord informiert haben, oder ihr berichteter Vorgang kann vorher mit ungesichertem Eingang erhoben worden sein. Eine 1981 datierte Auswertung ist kein Beleg für eine Vorabwarnung.
 - **Zu beschaffen:** Original des undatierten Quellenberichts, BayLfV-Eingangsbuch und erste Sachakte zur C/3-Meldung, volles Schreiben 26.02.1981 samt Bearbeiter-/Verteiler-/Quellenschutzvermerken, StA-/Gerichtsurteil und Presseanlage.
 - **Tragweite:** Die amtliche Wiedergabe eines konkreten C/3-Nachrichteninhalts und die dokumentierte BfV-Weitergabe des BayLfV im Februar 1981.
-- **Aussagegrenze:** Keine authentische Urschrift des erstmaligen Quellenberichts, keinen belegten Eingang vor dem Mord am 19.12.1980, keine gesicherte Herstellung des Tat-Schalldämpfers oder spezifisches Vorwissen über den Oktoberfestanschlag.
 - **Falsifikationskriterium:** Datierte Eingangs- und Originalquellenvermerke des BayLfV sowie Gerichtsakten können den Anfang der Informationskette und die materielle Übereinstimmung der Rohre anders datieren oder einordnen.
 
 ### `CLM-DE-OKT-047`
@@ -1855,7 +1791,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Eine Übermittlung erst 1981 kann normale nachträgliche Ermittlung nach dem am 19.12.1980 begangenen Doppelmord sein, wenn die Quelle selbst erst später meldete; ohne ursprünglichen Eingangsstempel sind eine verzögerte Weiterleitung und eine zeitgerechte Weitergabe gleichermaßen offen.
 - **Zu beschaffen:** BayLfV-Abgang 12.03.1981, Eingangsstempel Erlangen/BLKA, Bitte der Soko zur Nachbefragung, Niederschrift 31.03.1981, BayLfV-Schreiben 22.04.1981 und vollständige Soko-Auswertung.
 - **Tragweite:** Drei zeitlich und institutionell getrennte staatliche Bearbeitungsschritte im Frühjahr 1981 nach dem Erlanger Doppelmord.
-- **Aussagegrenze:** Keinen Nachweis über eine zeitnahe oder unterlassene Warnung VOR dem 19.12.1980, eine bewusst verspätete Übermittlung oder operative Verbindung zum Oktoberfestanschlag vom 26.09.1980.
 - **Falsifikationskriterium:** Originale Dienstpost- und Soko-Eingangsvermerke können die genannten Bearbeitungstage, Inhalte oder den Umfang einer vorangegangenen Mitteilung präzisieren oder widerlegen.
 
 ### `CLM-DE-OKT-048`
@@ -1868,7 +1803,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die Quelle könnte einen anderen Gegenstand, einen anderen Prototyp oder einen unvollständigen Teil gesehen haben. Der negative Vergleich widerlegt nicht jeden möglichen Zusammenhang zwischen denselben Personen, ist aber ein wesentlicher Gegenbeleg für die Behauptung, das gezeigte Rohr sei das beim Mord benutzte Bauteil.
 - **Zu beschaffen:** Original BLKA-Sachstandsbericht 18.03.1981, StA-Bericht 31.03.1981, Vernehmung 31.03.1981, kriminaltechnische Gutachten, vollständiges Urteil LG Nürnberg-Fürth und Protokoll der mündlichen Beweiswürdigung.
 - **Tragweite:** Die amtlich dokumentierte negative Vergleichsaussage und die mitgeteilte gerichtliche Würdigung der Differenz zwischen Quellenbeobachtung und Tatmittel.
-- **Aussagegrenze:** Keinen direkten Einblick in das 1986er Urteil oder die Sachverständigengutachten und weder vollständige Entlastung der Beteiligten noch einen positiven Tatmaterialvergleich.
 - **Falsifikationskriterium:** Originäre Sachverständigenberichte oder ein vollständig geprüftes Urteil mit anderer forensischer Aussage könnten den behördlich mitgeteilten Negativbefund verändern.
 
 ### `CLM-DE-OKT-049`
@@ -1881,7 +1815,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Aktenvernichtung vor 2020 kann gesetzmäßige routinemäßige Aktenaussonderung, Löschung oder ein nicht dokumentiertes Ereignis betreffen; der Wissensmangel allein trägt weder die Behauptung gezielter Tataktenvernichtung noch die Unschuldsvermutung für jeden Einzelvorgang.
 - **Zu beschaffen:** BayLfV-Aussonderungs-, VS-Archiv- und Benutzungsregister, BayHStA-Übernahmeprotokolle 2020/2021, aktuelle Findbücher einschließlich Schutzfristen, frühere Anforderungs- und Vernichtungsvorschriften.
 - **Tragweite:** Eine amtlich bestätigte Transfer- und Archivverwahrungskette und eine explizite Lücke bei der früheren Aktenvollständigkeit.
-- **Aussagegrenze:** Nicht die Vollständigkeit aller jemals geführten BayLfV-WSG-Akten und keinen konkreten nachgewiesenen vorsätzlichen Vernichtungsakt zum Oktoberfest oder Erlanger Mord.
 - **Falsifikationskriterium:** Die Übernahmeprotokolle, Archivzugangsregister und frühere Vernichtungsnachweise können die Anzahl, Schicksale und materiellen Leerstellen konkretisieren.
 
 ### `CLM-DE-OKT-050`
@@ -1894,7 +1827,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Fehlende starre Frist Quelle→BayLfV bedeutet nicht, dass Bearbeitungspflichten BayLfV→Strafverfolger entfielen; ein anderes Dienstregelwerk könnte andere Eingangs- oder Bearbeitungsfristen enthalten.
 - **Zu beschaffen:** Authentischer Wortlaut der VS-Vertraulich-Dienstvorschrift von 1978, damalige Richtlinien zur Nachrichtengewinnung und behördenübergreifenden Zusammenarbeit sowie dokumentierte Eingangsklassifizierung des Lippert-Vorgangs.
 - **Tragweite:** Eine präzise begrenzte amtliche Negativauskunft zu einer Frist der Meldung von menschlichen Quellen an das BayLfV.
-- **Aussagegrenze:** Keine Aussage, ob Lippert tatsächlich zügig berichtete, ob das BayLfV rechtzeitig reagierte oder ob für die BayLfV-Weitergabe an Polizei/BfV andere Fristen galten.
 - **Falsifikationskriterium:** Der authentische damalige Vorschriftentext oder ergänzende verbindliche Erlasse mit konkreter Quelle-zu-Amt-Meldefrist würden die amtliche Antwort präzisieren oder widerlegen.
 
 ### `CLM-DE-OKT-051`
@@ -1907,7 +1839,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die staatliche Aussage über Rückführung und grundsätzliche Einsicht sagt nichts über heutige Einzelblattvollständigkeit, Verfügbarkeit von VS-Teilen oder ob der GBA dauerhafte Kopien und Beiakten verwahrt.
 - **Zu beschaffen:** BayHStA-Aktenbestands-/Signaturenverzeichnis Erlanger Mordkomplex, Aktenausgabe 2015, GBA-Rückgabeprotokoll 2021, Archivzugangsbescheid und etwaige Schutzfristen/VS-Sperren.
 - **Tragweite:** Eine amtlich datierte Archiv- und Aktenbeiziehungskette sowie einen realistisch benennbaren Aktenbenutzungsweg.
-- **Aussagegrenze:** Weder die Vollständigkeit und uneingeschränkte Offenheit aller historischen Akten noch ein belegter gemeinsamer Tatkomplex mit dem Oktoberfestanschlag.
 - **Falsifikationskriterium:** Originale Übergabeprotokolle, Archivsignaturen und Benutzungsauskunft können die Datierung, heutigen Ort und etwaige Einschränkungen konkretisieren.
 
 ### `CLM-DE-OKT-052`
@@ -1920,7 +1851,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Der BND kann unbestätigte Drittquellen- oder Propagandameldungen übernommen haben; ein Reise- oder Lageraufenthalt kann in Zeitpunkt, Personenzahl oder Organisation fehlzugeordnet sein.
 - **Zu beschaffen:** BND-Originalberichte aus August bis September 1980 mit Quellen-/Verteilervermerken, Aufenthalts- und Reisekontext, Teilnehmeridentitäten, gegebenenfalls archivisch korrespondierende BArch B 206/3009-Übernahmeverzeichnisse.
 - **Tragweite:** Eine datierbare amtliche Auskunft, dass der BND Aktenhinweise auf einen behaupteten Aufenthalt von Hoffmann und vier Unbenannten im libanesischen Fatah-/Beirut-Kontext führte.
-- **Aussagegrenze:** Keinen durch Primärakte bestätigten tatsächlichen Lageraufenthalt, keine konkreten vier Teilnehmeridentitäten und keinen kausalen Bezug zum Oktoberfestattentat vom 26.09.1980.
 - **Falsifikationskriterium:** Authentische BND-Urschrift, Quellenvermerk, Reise- oder Teilnehmerbelege, die Umfang, Zeitpunkt oder Ort anders ausweisen, würden die materielle Aussage der 2014er Regierungswiedergabe einschränken.
 
 ### `CLM-DE-OKT-053`
@@ -1933,7 +1863,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die Meldung könnte aus nicht bestätigten palästinensischen, sonstigen fremden oder politisch interessierten Informationsquellen stammen und eine falsche Orts-, Organisations- oder Teilnehmerzuordnung enthalten; Ob eine spätere amtliche Korrektur der Meldung existiert, ist ohne Aktennachweis offen.
 - **Zu beschaffen:** Vollständiger BND-Vermerk 29.09.1980 mit Quellenherkunft, geheimdienstlicher Qualitätswertung und Anlagen, etwaige erst noch aktenkundig nachzuweisende spätere Korrekturen oder Qualitätsbewertungen, präzise Ereigniszeit und AQURA-Geografie, Teilnehmerlisten und Identitätsbelege einschließlich gegebenenfalls italienischer Ermittlungsakten, BArch B 206/3009-Blatt- und Transferkonkordanz.
 - **Tragweite:** Die konkrete amtliche Wiedergabe einer datierten BND-Meldung zu behaupteter deutscher und italienischer rechtsextremer Präsenz am selben libanesischen Lagerstandort, mit ausdrücklich fehlender Ordine-Nuovo-Identifikation.
-- **Aussagegrenze:** Keinen nachgewiesenen gemeinsamen Trainingseinsatz, keine gesicherte italienische Mitgliedschaft in Ordine Nuovo und keine organisatorische Verknüpfung zum Anschlag von Bologna, zum Oktoberfestattentat oder zum BND-Stay-behind-Apparat.
 - **Falsifikationskriterium:** Der authentische BND-Vermerk vom 29.09.1980, gegebenenfalls belegbare spätere Korrekturunterlagen und italienische Originalakten können die Identität, Herkunft, örtliche Übereinstimmung und Glaubhaftigkeit der damaligen Meldung bestätigen, korrigieren oder widerlegen.
 
 
@@ -1946,7 +1875,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Eine politisch interessierte Falschinformation oder vermischte Orte und Zeiträume. Das Originalinterview selbst liegt noch nicht vor.
 - **Zu beschaffen:** *Corriere del Ticino* 19.09.1980, beteiligte deutsche Informanten, vollständiger BND-Vermerk 29.09.1980 samt Quellen- und Ereignisdatierung.
 - **Tragweite:** Nachweis, dass die konkrete AQURA-Erzählung **vor dem BND-Vermerkdatum** öffentlich dokumentiert wurde.
-- **Aussagegrenze:** Keine erwiesene Lagergemeinschaft, Anschlagsplanung, Ordine-Nuovo-Mitglieder oder BND-Übernahme des Interviews.
 - **Falsifikationskriterium:** Authentischer ursprünglicher Interviewtext mit abweichender Datierung oder Aussage.
 
 ### `CLM-DE-OKT-055`
@@ -1958,7 +1886,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Die CESIS-Gegendarstellung kann selbst unvollständig oder falsch gewesen sein; Korrektur einer Übersetzung ist keine Widerlegung sämtlicher AQURA-Behauptungen.
 - **Zu beschaffen:** CESIS 31.10.1980, **RD V1 C5 Bl. 17**, ursprüngliche arabische Äußerung und Übersetzung, Reuters 20.09., ANSA 22.09. und *Corriere del Ticino* 23.09.1980.
 - **Tragweite:** Eine zeitgenössisch gerichtlich dokumentierte amtliche Gegenposition zur behaupteten Vorwarnkette.
-- **Aussagegrenze:** Keine bestätigte BND-Informationsherkunft und kein Beweis gezielter Aktenmanipulation.
 - **Falsifikationskriterium:** Authentische CESIS-Urschrift oder Ausgangsübersetzungen mit materiellem Gegensatz zum Urteilstext.
 
 ### `CLM-DE-OKT-056`
@@ -1970,7 +1897,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Retrospektive Selbstentlastung, selektive Aktenlage oder teilweise richtige und teilweise falsche Meldung.
 - **Zu beschaffen:** Vollständige Giovannone-Vernehmung 1985 und SISMI-Dienstkorrespondenz samt Verteiler; BND-Original 29.09.1980.
 - **Tragweite:** Dokumentierte zeitgenössische Informationskontroverse als überprüfbare Erklärungshypothese.
-- **Aussagegrenze:** Nicht als bewiesene Desinformation oder bewiesenen Geheimdienstauftrag deklarieren.
 - **Falsifikationskriterium:** Frühe unabhängige SISMI-Aufzeichnungen, die andere Bewertung oder Weitergabe dokumentieren.
 
 ### `CLM-DE-OKT-057`
@@ -1982,7 +1908,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Alternative/Gegenprobe:** Journalistische Vermittlung, Botschaftstätigkeit und nachrichtendienstliche Kontakte können zeitlich und in ihrer Funktion unterschiedlich gewesen sein. Die Verfasser könnten relevante Gegenbelege ausgelassen haben.
 - **Zu beschaffen:** Gerichtliche Verfügung **Mastelloni 20.06.1989**, Urvernehmungen, SISMI-Quellenführungs-/Zahlungsakten sowie Nachweise zu Porenas Rolle 1980.
 - **Tragweite:** Quellengebunden untersuchbare Personal-, Finanzierungs- und Kommunikationshypothesen im Beirut-Kontext.
-- **Aussagegrenze:** Kein Beweis einer beauftragten Falschmeldung, Weiterleitung an den BND oder staatlich organisierter Anschlagssteuerung.
 - **Falsifikationskriterium:** Originalzeugnisse oder Finanzakten mit abweichenden Zahlen, Rollen und Zeitfenstern.
 
 
@@ -1995,7 +1920,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenprobe:** Privater Scan könnte unecht oder später reproduziert sein; der Namensgleichheit mit dem 2023 parlamentarisch genannten V-Mann Franz Lippert und der Initialen P. Weinmann/P. W. folgt keine nachgewiesene Personenidentität.
 - **Zu beschaffen:** Originalpapier samt Provenienz, Freundeskreis-Satzung/Registern, Quellenschutz- und Identitätsakten des BayLfV/BfV, Spenden- und Bankunterlagen.
 - **Tragweite:** Sichtbar überlieferte Funktions- und Namensangaben in einem zeitgenössisch behaupteten Privatbrief.
-- **Aussagegrenze:** Keine bestätigte Identität mit einer nachrichtendienstlichen Quelle, keine bewiesenen staatlichen Geldflüsse, keine geprüften Spendenhöhen.
 - **Falsifikationskriterium:** Originalbrief, historisches Register oder zeitgleiche Schriftstücke könnten Echtheit, Personenzuordnung oder Datum bestätigen oder widerlegen.
 
 
@@ -2008,7 +1932,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenprobe:** Ministerium könnte Schätzungen und Eigenangaben der WSG ungeprüft übernommen und das Vereinsrecht beziehungsweise die Gefahrenlage falsch bewertet haben.
 - **Zu beschaffen:** Originaler VS-Bericht Bayern 1976, WSG-Kassenbücher und Förderkreismitglieder, Kauf-/Zulassungs-/Bankbelege, BayStMI/BMI-Verbotsakten und Einsatzjournale.
 - **Tragweite:** Amtlich dokumentierte Spenden-/Freundeskreis-Finanzierung und frühzeitiger staatlicher Kenntnisstand zu WSG-Fahrzeugen, Bewaffnung und Beobachtung.
-- **Aussagegrenze:** Keine Namen der Spender, keine behördlichen Subventionen, kein Nachweis lückenloser Observation oder konkreten Tatvorwissens 1980.
 - **Falsifikationskriterium:** Zeitgenössische Originalkonten und Verfassungsschutzakten können die Regierungsangaben korrigieren, bestätigen oder zeitlich eingrenzen.
 
 
@@ -2021,7 +1944,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenprobe:** Unbekannte Finanzierungswege könnten weiter bestanden haben; das 1980er Pressekonto muss nicht mit dem in der 1976er Privatkopie genannten Konto identisch sein.
 - **Zu beschaffen:** Zeitgenössischer Presseartikel, unterscheidbare Postscheckkonten und Kontoauszüge, Spendenregister und interne BfV/BMI-Auskunftsgrundlagen.
 - **Tragweite:** Zeitgenössische Regierungsauskunft als Gegenbeleg zu pauschaler Behauptung ununterbrochenen Freundeskreisbetriebs nach dem WSG-Verbot.
-- **Aussagegrenze:** Kein Beweis, dass nie mehr Geld floss, und keine festgestellte Identität der zwei getrennt berichteten Nürnberger Konten.
 - **Falsifikationskriterium:** Bank- und Vereinsakten oder behördliche Eingangsmeldungen könnten die amtliche Wissenslücke oder Kontoeinordnung widerlegen.
 
 
@@ -2034,7 +1956,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenprobe:** Frage könnte ungesicherte Sekundärliteratur und nicht authentifizierte MfS-Notizen zitieren; eine mögliche Beschaffung könnte aus privaten Quellen oder durch eine andere Person erfolgt sein.
 - **Zu beschaffen:** Echte BStU/MfS-Akte, BfV-Quellen- und Ausgabejournal, VW-Bus-Kauf-/Zulassungs-/Bankbelege und eindeutige Identitätsverknüpfung P. W. zu P. Weinmann des 1976er Briefes.
 - **Tragweite:** Offiziell dokumentierte, testbare Fragestellerhypothese mit fehlender positiver Bestätigung der Bundesexekutive.
-- **Aussagegrenze:** Weder belegt sie einen BfV-finanzierten VW-Bus noch einen Auftrag zur WSG-Finanzierung, noch identifiziert sie P. W. mit einer konkret benannten Person.
 - **Falsifikationskriterium:** Authentische Zahlungsanweisung, Fahrzeugvertrag, V-Mann-Personalakte oder gegenteilige nachweisbare Bankbelege könnten die Behauptung klären.
 
 
@@ -2047,7 +1968,6 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Gegenprobe:** Die 1993 von Abgeordneten zitierte Presseberichterstattung kann falsch oder unvollständig sein; amtliche Auskunftsverweigerung ist kein Beweis für eine tatsächliche Quellenführung oder einen WSG-Auftrag.
 - **Zu beschaffen:** Originalflugblatt 1975, General-Anzeiger vom 22.02.1993, authentische BfV/MfS-Personal- und Auftragsakten sowie Namenskonkordanz zum privat überlieferten Brief 1976.
 - **Tragweite:** Eine amtlich lokalisierte parlamentarische Frage zur personellen Bonner Freundeskreis-Spur, verbunden mit einer ausdrücklichen Nichtauskunft über mögliche Nachrichtendiensteinsätze.
-- **Aussagegrenze:** Weder bestätigte Mitarbeit Weinmanns als BfV-Quelle im WSG-Freundeskreis noch ein tatsächlicher staatlicher Spendenauftrag noch eindeutige Identität der initialisierten P. Weinmann und P. W.
 - **Falsifikationskriterium:** Originalflugblatt, unabhängige Register und zeitgenössische Quellenführerakten könnten die pressevermittelte Zuordnung oder behauptete operative Aufgaben bestätigen beziehungsweise widerlegen.
 
 ## Originalquellen der vertieften Prüfung
