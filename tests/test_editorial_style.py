@@ -15,6 +15,7 @@ REDUNDANT_BOUNDARY_BULLET = re.compile(
     r"(?m)^-\s+\*\*(?:Aussagegrenze|Grenze):\*\*"
 )
 REDUNDANT_NEGATIVE_SYNTHESIS = re.compile(r"(?m)^## Was folgt nicht\?\s*$")
+REDUNDANT_BOUNDARY_HEADING = re.compile(r"(?m)^## Aussagegrenzen(?: und Gegenhypothesen)?\s*$")
 
 
 def split_frontmatter(markdown: str) -> tuple[str, str]:
@@ -35,6 +36,7 @@ class EditorialStyleTest(unittest.TestCase):
             with self.subTest(case=str(path.relative_to(ROOT))):
                 self.assertIsNone(REDUNDANT_BOUNDARY_BULLET.search(prose))
                 self.assertIsNone(REDUNDANT_NEGATIVE_SYNTHESIS.search(prose))
+                self.assertIsNone(REDUNDANT_BOUNDARY_HEADING.search(prose))
 
     def test_structured_counterevidence_remains_required(self) -> None:
         files = sorted((DOCS / "faelle").rglob("*.md"))

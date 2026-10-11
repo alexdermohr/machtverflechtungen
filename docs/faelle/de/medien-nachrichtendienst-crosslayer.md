@@ -167,11 +167,7 @@ Ein Sondervotumsabschnitt zitiert unter Bezug auf den Schäfer-Bericht Foertschs
 
 Die CIA-eigene historische Rückschau bezeichnet den Congress for Cultural Freedom als verdeckte CIA-Operation. Die Fachforschung rekonstruiert für Der Monat einen Finanzierungskanal, über den CIA-Mittel via Congress an das deutsche politische Magazin gelangten.
 
-Das ist als verdeckte Finanzierung eines Mediums fallwürdig. Nicht belegt ist damit eine artikelgenaue Weisung oder die Kenntnis sämtlicher Redaktionsmitglieder.
-
-## Aussagegrenzen
-
-Der Fall dokumentiert konkrete Eingriffe und verdeckte Finanzierung. Er rechtfertigt keine Generalisierung auf „die deutschen Medien“ und keine Behauptung einer einheitlichen, zentral gesteuerten Medienkontrolle.
+Der dokumentierte Finanzierungskanal ist ein konkretes Beispiel verdeckter nachrichtendienstlicher Einflussinfrastruktur im Medienbereich.
 
 ## Quellen
 

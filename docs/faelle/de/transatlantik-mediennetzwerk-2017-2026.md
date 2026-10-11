@@ -476,17 +476,9 @@ Die registrierte ACG-Liste trägt konkrete Jahrgänge. Die aktuelle Atlantik-Br�
 
 **Aussage:** Die schwache Atlantik-Brücke-Foto- und Namensspur zu Thomas Ebeling wird nicht als Relation kodiert; die 2017-Grafik zeigt für ihn eine Bilderberg-Kante, deren historische Wahrheit unabhängig durch die archivierte Bilderberg-Teilnehmerliste von 2016 getragen wird.
 
-## Aussagegrenzen und Gegenhypothesen
+## Einflussprüfung und konkurrierende Erklärungen
 
-Netzwerkbeziehungen können Informationszugang, wiederholte Begegnungen oder institutionelle Nähe dokumentieren. Daraus folgt ohne fallbezogene Entscheidungsbelege keine redaktionelle Weisung oder politische Steuerung.
-
-Plausible Alternativerklärungen für ähnliche Positionen bleiben unter anderem Nachrichtenlage, professionelle Sozialisation, redaktionelle Routinen, Eigentümerinteressen, individuelle Überzeugungen und voneinander unabhängige Urteile.
-
-## Zentrale offene Kausalfrage
-
-Ob eine dokumentierte Netzwerkbeziehung eine konkrete redaktionelle Entscheidung, Themenauswahl, Gewichtung oder Kommentierung beeinflusst oder gesteuert hat, bleibt mit den registrierten Quellen offen.
-
-Erforderlich wären beispielsweise direkte Kommunikation, Weisungen, Redaktionsprotokolle, dokumentierte Einflussnahme oder belastbare fallbezogene Vorher-Nachher-Ketten.
+Ähnliche redaktionelle Positionen können ebenso durch Nachrichtenlage, professionelle Sozialisation, redaktionelle Routinen, Eigentümerinteressen oder individuelle Überzeugungen entstehen. Unterscheidende Belege wären direkte Kommunikation, Redaktionsprotokolle, konkrete Interventionen oder belastbare fallbezogene Vorher-Nachher-Ketten.
 
 ## Missing Evidence
 
