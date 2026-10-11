@@ -12,7 +12,7 @@ event_claims: ["CLM-DE-OKT-001", "CLM-DE-OKT-002", "CLM-DE-OKT-003", "CLM-DE-OKT
 tags: ["rechtsterrorismus", "oktoberfest", "muenchen", "wehrsportgruppe-hoffmann", "verfassungsschutz", "mfs", "quellenkritik"]
 actors: ["PER-DE-GUNDOLF-KOEHLER", "ORG-DE-WSG-HOFFMANN", "ORG-DE-BFV", "ORG-DE-MFS"]
 mechanisms: ["paramilitary-network", "intelligence-network"]
-sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025", "SRC-DE-BT-GLADIO-18701-2014"]
+sources: ["SRC-DE-BARCH-OKTOBERFEST-2025", "SRC-DE-BARCH-MFS-WANDERVOGEL-1980", "SRC-DE-BT-OKT-MOTIV-2020", "SRC-DE-BT-OKT-WEITERE-2020", "SRC-DE-BT-BFV-REFERAT-2014", "SRC-DE-BVERFG-OKT-2017", "SRC-DE-BT-OKT-183259-2014", "SRC-DE-BT-OKT-183985-2015", "SRC-DE-BT-OKT-1813318-2017", "SRC-DE-BT-OKT-1813317-2017", "SRC-DE-BT-OKT-1922142-2020", "SRC-DE-BT-OKT-1922430-2020", "SRC-DE-BT-OKT-1613527-2009", "SRC-DE-BAYVFGH-OKT-2014", "SRC-DE-BAYLT-OKT-SPUREN-2014", "SRC-DE-BT-OKT-200358-2021", "SRC-DE-BT-OKT-1811602-2017", "SRC-DE-BARCH-MFS-HAIII7729-1980", "SRC-DE-BARCH-SOKO-ZWISCHENBERICHT-1980", "SRC-DE-POLIZEI-BY-OKT-CHRONOLOGIE-2025", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30588-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-30649-2023", "SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025", "SRC-DE-BT-GLADIO-18701-2014", "SRC-IT-COURT-BOLOGNA-AQURA-1988", "SRC-IT-PARL-AQURA-POR-XXIII64-2001"]
 claims:
   - id: "CLM-DE-OKT-001"
     text: "Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen."
@@ -971,7 +971,84 @@ claims:
       supports: "Die konkrete amtliche Wiedergabe einer datierten BND-Meldung zu behaupteter deutscher und italienischer rechtsextremer Präsenz am selben libanesischen Lagerstandort, mit ausdrücklich fehlender Ordine-Nuovo-Identifikation."
       does_not_support: "Keinen nachgewiesenen gemeinsamen Trainingseinsatz, keine gesicherte italienische Mitgliedschaft in Ordine Nuovo und keine organisatorische Verknüpfung zum Anschlag von Bologna, zum Oktoberfestattentat oder zum BND-Stay-behind-Apparat."
     falsification: "Der authentische BND-Vermerk vom 29.09.1980, gegebenenfalls belegbare spätere Korrekturunterlagen und italienische Originalakten können die Identität, Herkunft, örtliche Übereinstimmung und Glaubhaftigkeit der damaligen Meldung bestätigen, korrigieren oder widerlegen."
+  - id: "CLM-DE-OKT-054"
+    text: "Das Bologna-Ersturteil vom 11. Juli 1988 überliefert ein am 19. September 1980 im Corriere del Ticino erschienenes Interview Rita Porenas mit Abu Iyad, in dem dieser behauptete, bei AQURA seien deutsche und italienische Rechtsextremisten ausgebildet worden, Hoffmann sei als Leiter der Deutschen genannt worden und die besprochenen deutschen-italienischen Kontakte lägen etwa elf Monate zurück."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-IT-COURT-BOLOGNA-AQURA-1988", "SRC-IT-PARL-AQURA-POR-XXIII64-2001"]
+    evidence:
+      - source: "SRC-IT-COURT-BOLOGNA-AQURA-1988"
+        directness: "direct"
+        locator: "Faksimile PDF S. 153–155, Urteil gedruckte S. 59–61, Interview 19.09.1980, angebliches Lager AQURA und ca. 11 Monate zurückliegende Kontakte"
+        note: "Eingesehene Gerichtsentscheidung referiert die bereits veröffentlichte Interviewbehauptung; der Zeitungstext von 1980 und angebliche zwei interviewte Deutsche wurden nicht unabhängig geprüft."
+      - source: "SRC-IT-PARL-AQURA-POR-XXIII64-2001"
+        directness: "context"
+        locator: "Mantica/Fragala, gedruckte S. 239–240 (PDF S. 279–280), Sektion d, Wiederaufnahme derselben Abu-Iyad-Aussage"
+        note: "Amtliche Publikation einer nicht verabschiedeten Autorenfassung; sie reproduziert denselben Interviewinhalt und ist kein unabhängiger Augenzeugenbeleg."
+    counterevidence: []
+    alternatives: ["Abu Iyad gab eine unzutreffende oder politisch interessierte Drittinformation weiter; zeitlich oder örtlich verschiedene WSG-Aufenthalte und Lagertypen wurden verschmolzen; der Interviewtext kann bereits auf übersetzten oder redaktionell bearbeiteten Aussagen beruhen."]
+    missing_evidence: ["Original Corriere del Ticino 19.09.1980 samt Editions- und Übersetzungskontext, angebliche deutschsprachige Informanten und Vernehmungen, BND-Vermerk 29.09.1980 inklusive Quellenherkunft und Zeitbezug."]
+    scope:
+      supports: "Eine auf den 19.09.1980 datierte, später gerichtlich dokumentierte öffentliche AQURA-/Hoffmann-Erzählung, die dem BND-Vermerkdatum 29.09.1980 um zehn Tage vorausgeht."
+      does_not_support: "Keinen tatsächlich bewiesenen gemeinsamen Lageraufenthalt, keine italienischen Teilnehmeridentitäten, kein früh erkanntes Attentatsprojekt und keine bewiesene Übernahme dieser Presseaussage durch den BND."
+    falsification: "Originalausgabe des Corriere del Ticino oder frühere Urschriften mit anderem Interviewdatum, abweichendem Wortlaut oder einer anderen ausdrücklich datierten Ereignischronologie würden den materiellen Inhalt der späteren Wiedergabe verändern."
+  - id: "CLM-DE-OKT-055"
+    text: "Das Bologna-Ersturteil von 1988 gibt eine an die Ermittler gerichtete CESIS-Auskunft vom 31. Oktober 1980 wieder, wonach die angebliche vorzeitige Benachrichtigung italienischer Behörden durch Abu Iyad auf einem Übersetzungsfehler beruht habe; die Auskunft verwies auf verschiedene bereits erschienene Presseberichte und eine nachträgliche Äußerung Abu Iyads."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-IT-COURT-BOLOGNA-AQURA-1988"]
+    evidence:
+      - source: "SRC-IT-COURT-BOLOGNA-AQURA-1988"
+        directness: "direct"
+        locator: "PDF S. 174–175, gedruckte S. 80–81, CESIS-Notiz 31.10.1980 und Verweis RD V1 C5 Bl. 17; Reuters 20.09., ANSA 22.09., Corriere del Ticino 23.09.1980"
+        note: "Primärbeleg für die gerichtliche Wiedergabe einer CESIS-Gegendarstellung; die CESIS-Urschrift, arabischen und italienischen Ausgangsfassungen und Presseausschnitte wurden nicht selbst eingesehen."
+    counterevidence: []
+    alternatives: ["Die Gegendarstellung kann selbst interessengeleitet oder sachlich fehlerhaft sein; eine korrigierte Übersetzung erklärt nicht notwendigerweise den Ursprung sämtlicher weiterer Meldungen über AQURA."]
+    missing_evidence: ["Authentischer CESIS-Vermerk 31.10.1980 (RD V1 C5 Bl. 17), Text/Übersetzung der Abu-Iyad-Äußerungen, Reuters 20.09., ANSA 22.09. und Corriere del Ticino 23.09.1980."]
+    scope:
+      supports: "Dass den italienischen Ermittlern spätestens am 31.10.1980 eine dokumentierte amtliche Einwendung gegen die behauptete Vorabbenachrichtigung vorlag."
+      does_not_support: "Keinen Beweis, dass die ursprüngliche Lager- und Hoffmann-Darstellung falsch war, und keinen Beweis über die Herkunft oder Bewertung des BND-Vermerks."
+    falsification: "Die CESIS-Urschrift oder authentische Übersetzungen könnten die gerichtlich wiedergegebenen Einwendungen präzisieren oder deren materielle Richtigkeit widerlegen."
+  - id: "CLM-DE-OKT-056"
+    text: "Im Bologna-Ersturteil 1988 wird eine 1985 protokollierte Aussage des früheren SISMI-Offiziers Stefano Giovannone wiedergegeben, nach der er Abu-Iyads AQURA-Erzählung als mögliche palästinensische Propagandaaktion bewertet habe; nach eigener Darstellung sei seine Einschätzung nicht in die damaligen Ermittlungsakten des Dienstes übernommen worden."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-IT-COURT-BOLOGNA-AQURA-1988"]
+    evidence:
+      - source: "SRC-IT-COURT-BOLOGNA-AQURA-1988"
+        directness: "direct"
+        locator: "PDF S. 1307–1308, gedruckte S. 1213–1214, gerichtlich wiedergegebene Giovannone-Vernehmung und ausdrücklicher Propaganda-/Aktenvermerk"
+        note: "Die Existenz dieser gerichtlichen Wiedergabe ist kontrolliert, der tatsächliche Zeitpunkt seiner damaligen Einschätzung sowie Originalprotokolle und Dienstakten bleiben ungeprüft."
+    counterevidence: []
+    alternatives: ["Die Einlassung kann durch spätere Rechtfertigungsinteressen geprägt sein, einzelne tatsächliche Aufenthalte und falsche Lagerzuordnungen können parallel vorliegen; gerichtliche Wiedergabe einer Eigenaussage ist keine unabhängige Gegenforensik."]
+    missing_evidence: ["Originale Giovannone-Vernehmungsprotokolle 1985, damalige SISMI-/SISDE-Aktennotizen samt Eingangs-/Verteilervermerken, entsprechende Aussagen anderer Offiziere und BND-Urschrift 29.09.1980."]
+    scope:
+      supports: "Eine aktenbezogene italienische Gegenhypothese zur Zuverlässigkeit der AQURA-Nachrichten in einer geprüften gerichtlichen Überlieferung."
+      does_not_support: "Weder eine definitiv bewiesene Propagandaoperation noch eine staatliche Steuerung der behaupteten Ausbildung, die Identität eines italienischen oder deutschen Zuträgers oder eine gezielte BND-Desinformation."
+    falsification: "Zeitgenössische SISMI-Dokumente oder originale Zeugenprotokolle können zeigen, ob Giovannones spätere Darstellung dokumentiert, widersprochen oder nachträglich verändert wurde."
+  - id: "CLM-DE-OKT-057"
+    text: "Eine 2001 amtlich publizierte, aber nicht als gemeinsamer Ausschussbericht verabschiedete Ausarbeitung von Mantica und Fragalà referiert eine richterliche Verfügung von 1989 und Zeugenaussagen zu Kontakten der Journalistin Rita Porena mit italienischen Diensten einschließlich behaupteter Zahlungen und einer Vermittlerrolle zum palästinensischen Umfeld."
+    classification: "fact"
+    evidence_level: "established"
+    sources: ["SRC-IT-PARL-AQURA-POR-XXIII64-2001"]
+    evidence:
+      - source: "SRC-IT-PARL-AQURA-POR-XXIII64-2001"
+        directness: "direct"
+        locator: "Publikationsentscheidung PDF S. 9, Mantica/Fragala gedruckte S. 243–245 (PDF S. 283–285), zitierte Mastelloni-Verfügung 20.06.1989 sowie Aussagen Giovannone, Di Blasi, Sportelli und D'Andrea"
+        note: "Direkte amtliche Veröffentlichung des Behauptungs- und Zitatinhalts zweier Autoren, NICHT originale Einsicht in Zahlungsanweisungen, Verträge, Gerichtsausfertigung 1989 oder die vollständigen Vernehmungen. Aussagen widersprechen einander teilweise."
+    counterevidence: []
+    alternatives: ["Journalistische Kontaktvermittlung, zeitweilige Bezahlung als Botschaftsmitarbeiterin und nachrichtendienstliche Quellenführung können verschiedene Zeiträume oder Zwecke betroffen haben; die Autoren können Aussagen selektiv ausgewählt haben."]
+    missing_evidence: ["Richterliche Urschrift Mastelloni 20.06.1989, Vernehmungsprotokolle 1984/1986, SISMI-Quellenführungs- und Zahlungsbelege einschließlich Dokumentation der Rolle Porenas zum Interview 19.09.1980."]
+    scope:
+      supports: "Dass veröffentlichte italienische Parlamentsmaterialien konkrete zu prüfende Zeugenaussagen, Zeitfenster und Geldfluss-/Vermittlungsbehauptungen benennen."
+      does_not_support: "Weder eine erwiesene Steuerung des Abu-Iyad-Interviews, absichtliche Erzeugung einer Falschmeldung noch ein kausaler Kanal Porena zu den deutschen BND-Meldungen."
+    falsification: "Vollständige Originalvernehmungen, Zahlungsbelege oder richterliche Feststellungen können die berichtete Rollen- und Zahlungschronologie bestätigen, korrigieren oder widerlegen."
+
 what_follows:
+  - text: "Das 1988er Bologna-Gerichtsurteil dokumentiert eine AQURA-/Hoffmann-Interviewbehauptung vom 19.09.1980 und spätere italienische amtliche Gegenbewertungen; die zehn Tage später datierte BND-Meldung ist damit nicht automatisch eine unabhängige Bestätigung."
+    claim_ids: ["CLM-DE-OKT-054", "CLM-DE-OKT-055", "CLM-DE-OKT-056"]
+  - text: "Eine italienische Parlamentsveröffentlichung von 2001 benennt konkrete, bislang nur mittelbar geprüfte gerichtliche Zeugenaussagen über Rita Porenas mögliche SISMI-Kontakte und Zahlungen."
+    claim_ids: ["CLM-DE-OKT-057"]
   - text: "Die Bundesregierung referierte 2014 BND-Aktenhinweise zu Hoffmanns mutmaßlichen Aufenthalten im Libanon und einer behaupteten gleichzeitigen Präsenz nicht identifizierter italienischer Rechtsextremisten in AQURA."
     claim_ids: ["CLM-DE-OKT-052", "CLM-DE-OKT-053"]
   - text: "Die bayerischen Antworten von 2023 und 2025 belegen BayLfV-Quelleninformation über den 13. Dezember 1980 und konkrete Weiterleitungen im Februar–April 1981; der Eingang der Meldung vor dem Erlanger Doppelmord ist nicht feststellbar."
@@ -999,6 +1076,10 @@ what_follows:
   - text: "Ein zeitgenössischer MfS-Bericht enthält eine überprüfbare Spur zu westdeutschen WSG-Observationen unmittelbar vor dem Anschlag."
     claim_ids: ["CLM-DE-OKT-005"]
 what_does_not_follow:
+  - text: "Weder die Wiederholung der Abu-Iyad-Erzählung in Gericht und Parlament noch Giovannones Propagandavermutung beweist einen gemeinsamen Ausbildungseinsatz, eine gezielte Falschmeldung des BND oder ihre tatsächliche Herkunft."
+    claim_ids: ["CLM-DE-OKT-054", "CLM-DE-OKT-055", "CLM-DE-OKT-056"]
+  - text: "Die parlamentarisch referierten Kontakte und Zahlungen an Porena belegen keine Steuerung ihres 1980er Interviews und erst recht keine Beteiligung an einem Anschlag."
+    claim_ids: ["CLM-DE-OKT-057"]
   - text: "Die BND-Meldung benennt keine italienischen Personen oder Ordine-Nuovo-Mitgliedschaften; sie belegt weder eine tatsächliche gemeinsame Ausbildung noch ein gemeinsames Tatnetz oder eine Beteiligung an Anschlägen in München oder Bologna."
     claim_ids: ["CLM-DE-OKT-052", "CLM-DE-OKT-053"]
   - text: "Die im C/3-Auszug genannten Metallrohre sind nicht als der beim Erlanger Mord eingesetzte Schalldämpfer identifiziert; eine behördlich berichtete negative Spraydosen-Gegenprobe und Gerichtswürdigung widersprechen dieser Gleichsetzung."
@@ -1742,6 +1823,56 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - **Aussagegrenze:** Keinen nachgewiesenen gemeinsamen Trainingseinsatz, keine gesicherte italienische Mitgliedschaft in Ordine Nuovo und keine organisatorische Verknüpfung zum Anschlag von Bologna, zum Oktoberfestattentat oder zum BND-Stay-behind-Apparat.
 - **Falsifikationskriterium:** Der authentische BND-Vermerk vom 29.09.1980, gegebenenfalls belegbare spätere Korrekturunterlagen und italienische Originalakten können die Identität, Herkunft, örtliche Übereinstimmung und Glaubhaftigkeit der damaligen Meldung bestätigen, korrigieren oder widerlegen.
 
+
+### `CLM-DE-OKT-054`
+
+**Aussage:** Das Bologna-Ersturteil vom 11. Juli 1988 überliefert ein am 19. September 1980 im Corriere del Ticino erschienenes Interview Rita Porenas mit Abu Iyad, in dem dieser behauptete, bei AQURA seien deutsche und italienische Rechtsextremisten ausgebildet worden, Hoffmann sei als Leiter der Deutschen genannt worden und die besprochenen deutschen-italienischen Kontakte lägen etwa elf Monate zurück.
+
+**Evidenz:** belegt **nur als Gerichtsüberlieferung dieser Interviewbehauptung**; [`SRC-IT-COURT-BOLOGNA-AQURA-1988`, Faksimile PDF S. 153–155](https://www.stragi.it/archivio/doc/638.pdf#page=153); [`SRC-IT-PARL-AQURA-POR-XXIII64-2001`, gedruckte S. 239–240](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf#page=279). Zweiter Text ist von derselben Interviewquelle abhängig, **kein unabhängiger Tatbeleg**.
+
+- **Alternative/Gegenprobe:** Eine politisch interessierte Falschinformation oder vermischte Orte und Zeiträume. Das Originalinterview selbst liegt noch nicht vor.
+- **Zu beschaffen:** *Corriere del Ticino* 19.09.1980, beteiligte deutsche Informanten, vollständiger BND-Vermerk 29.09.1980 samt Quellen- und Ereignisdatierung.
+- **Tragweite:** Nachweis, dass die konkrete AQURA-Erzählung **vor dem BND-Vermerkdatum** öffentlich dokumentiert wurde.
+- **Aussagegrenze:** Keine erwiesene Lagergemeinschaft, Anschlagsplanung, Ordine-Nuovo-Mitglieder oder BND-Übernahme des Interviews.
+- **Falsifikationskriterium:** Authentischer ursprünglicher Interviewtext mit abweichender Datierung oder Aussage.
+
+### `CLM-DE-OKT-055`
+
+**Aussage:** Das Bologna-Ersturteil von 1988 gibt eine an die Ermittler gerichtete CESIS-Auskunft vom 31. Oktober 1980 wieder, wonach die angebliche vorzeitige Benachrichtigung italienischer Behörden durch Abu Iyad auf einem Übersetzungsfehler beruht habe; die Auskunft verwies auf verschiedene bereits erschienene Presseberichte und eine nachträgliche Äußerung Abu Iyads.
+
+**Evidenz:** belegt **als gerichtliche Wiedergabe der CESIS-Gegendarstellung**; [`SRC-IT-COURT-BOLOGNA-AQURA-1988`, Faksimile PDF S. 174–175, gedruckte S. 80–81](https://www.stragi.it/archivio/doc/638.pdf#page=174).
+
+- **Alternative/Gegenprobe:** Die CESIS-Gegendarstellung kann selbst unvollständig oder falsch gewesen sein; Korrektur einer Übersetzung ist keine Widerlegung sämtlicher AQURA-Behauptungen.
+- **Zu beschaffen:** CESIS 31.10.1980, **RD V1 C5 Bl. 17**, ursprüngliche arabische Äußerung und Übersetzung, Reuters 20.09., ANSA 22.09. und *Corriere del Ticino* 23.09.1980.
+- **Tragweite:** Eine zeitgenössisch gerichtlich dokumentierte amtliche Gegenposition zur behaupteten Vorwarnkette.
+- **Aussagegrenze:** Keine bestätigte BND-Informationsherkunft und kein Beweis gezielter Aktenmanipulation.
+- **Falsifikationskriterium:** Authentische CESIS-Urschrift oder Ausgangsübersetzungen mit materiellem Gegensatz zum Urteilstext.
+
+### `CLM-DE-OKT-056`
+
+**Aussage:** Im Bologna-Ersturteil 1988 wird eine 1985 protokollierte Aussage des früheren SISMI-Offiziers Stefano Giovannone wiedergegeben, nach der er Abu-Iyads AQURA-Erzählung als mögliche palästinensische Propagandaaktion bewertet habe; nach eigener Darstellung sei seine Einschätzung nicht in die damaligen Ermittlungsakten des Dienstes übernommen worden.
+
+**Evidenz:** belegt als Zeugenaussage **im gerichtlichen Wortlaut**, nicht als gesicherter Ablauf; [`SRC-IT-COURT-BOLOGNA-AQURA-1988`, PDF S. 1307–1308, gedruckte S. 1213–1214](https://www.stragi.it/archivio/doc/638.pdf#page=1307).
+
+- **Alternative/Gegenprobe:** Retrospektive Selbstentlastung, selektive Aktenlage oder teilweise richtige und teilweise falsche Meldung.
+- **Zu beschaffen:** Vollständige Giovannone-Vernehmung 1985 und SISMI-Dienstkorrespondenz samt Verteiler; BND-Original 29.09.1980.
+- **Tragweite:** Dokumentierte zeitgenössische Informationskontroverse als überprüfbare Erklärungshypothese.
+- **Aussagegrenze:** Nicht als bewiesene Desinformation oder bewiesenen Geheimdienstauftrag deklarieren.
+- **Falsifikationskriterium:** Frühe unabhängige SISMI-Aufzeichnungen, die andere Bewertung oder Weitergabe dokumentieren.
+
+### `CLM-DE-OKT-057`
+
+**Aussage:** Eine 2001 amtlich publizierte, aber nicht als gemeinsamer Ausschussbericht verabschiedete Ausarbeitung von Mantica und Fragalà referiert eine richterliche Verfügung von 1989 und Zeugenaussagen zu Kontakten der Journalistin Rita Porena mit italienischen Diensten einschließlich behaupteter Zahlungen und einer Vermittlerrolle zum palästinensischen Umfeld.
+
+**Evidenz:** belegt **als Aussage einer amtlich veröffentlichten parlamentarischen Autorenarbeit**; [`SRC-IT-PARL-AQURA-POR-XXIII64-2001`, gedruckte S. 243–245, PDF S. 283–285](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf#page=283); parlamentarischer Publikationsbeschluss ohne gemeinsame inhaltliche Billigung auf PDF S. 9.
+
+- **Alternative/Gegenprobe:** Journalistische Vermittlung, Botschaftstätigkeit und nachrichtendienstliche Kontakte können zeitlich und in ihrer Funktion unterschiedlich gewesen sein. Die Verfasser könnten relevante Gegenbelege ausgelassen haben.
+- **Zu beschaffen:** Gerichtliche Verfügung **Mastelloni 20.06.1989**, Urvernehmungen, SISMI-Quellenführungs-/Zahlungsakten sowie Nachweise zu Porenas Rolle 1980.
+- **Tragweite:** Quellengebunden untersuchbare Personal-, Finanzierungs- und Kommunikationshypothesen im Beirut-Kontext.
+- **Aussagegrenze:** Kein Beweis einer beauftragten Falschmeldung, Weiterleitung an den BND oder staatlich organisierter Anschlagssteuerung.
+- **Falsifikationskriterium:** Originalzeugnisse oder Finanzakten mit abweichenden Zahlen, Rollen und Zeitfenstern.
+
+
 ## Originalquellen der vertieften Prüfung
 
 - [`SRC-DE-BVERFG-OKT-2017` — Bundesverfassungsgericht, 2 BvE 1/15 (2017)](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
@@ -1763,6 +1894,8 @@ Die folgenden Regierungsantworten stehen in einem **anderen Zeit- und Beweiskont
 - [`SRC-DE-BAYLT-ERLANGEN-LIPPERT-7784-2025` – Bayerischer Landtag 19/7784: 1978er Auswertungsdienstvorschrift und Zuständigkeitsgrenzen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0007784.pdf)
 
 - [`SRC-DE-BT-GLADIO-18701-2014` – Bundestag 18/701, Bundesregierung 2014 zur BND-Meldung Hoffmann/Libanon/AQURA/italienische Rechtsextremisten](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
+- [`SRC-IT-COURT-BOLOGNA-AQURA-1988` — Bologna-Ersturteil vom 11.07.1988, Faksimile mit Interview und CESIS-Unterlagen](https://www.stragi.it/archivio/doc/638.pdf)
+- [`SRC-IT-PARL-AQURA-POR-XXIII64-2001` — Italienischer parlamentarischer Mantica/Fragala-Beitrag, 2001 amtlich publiziert, nicht abgestimmt](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 ## Amtliche Sekundär- und Gegenquellen
 

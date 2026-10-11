@@ -1094,3 +1094,25 @@ Deutscher Bundestag / Bundesregierung, Bundeskanzleramt · 2014-03-03 · Stufe *
 [PDF öffnen](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
 
 Fundstelle: Gedruckte S. 5, Antwort auf Frage 9: BND-Unterlagen 1980/81 zu Beirut/Fatah-Zeltlager, Vermerk 29.09.1980 zu AQURA/italienischen Rechtsextremisten, keine feststellbare Ordine-Nuovo-Zuordnung und Bundesarchiv-Übergabe 17.02.2014; S. 2, Vorbemerkung Nr. 2 ohne bestätigte BND-Stay-behind-Terrorverbindung
+
+<a id="src-it-court-bologna-aqura-1988"></a>
+## SRC-IT-COURT-BOLOGNA-AQURA-1988
+
+**[Zweite Corte d'Assise Bologna: Erstinstanzliches Urteil zum Anschlag 02.08.1980, 11.07.1988 – Abu-Iyad-Interview und CESIS/Palästina-Spur](https://www.stragi.it/archivio/doc/638.pdf)**
+
+Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (stragi.it) · 1988-07-11 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://www.stragi.it/archivio/doc/638.pdf)
+
+Fundstelle: Digitalisiertes Urteil, 1937 PDF-Seiten: PDF S. 153–155 (gedruckte S. 59–61, Interview Porena/Abu Iyad 19.09.1980); PDF S. 174–177 (gedruckte S. 80–83, SISDE 09.10.1980, CESIS 31.10.1980/30.01.1981); PDF S. 1307–1308 (gedruckte S. 1213–1214, Giovannone-/Propagandabewertung). SHA-256 Faksimile d2ac7f6d986a664d0da10790381eb453d7286af24eeb48006185c37f36d67cb9
+
+<a id="src-it-parl-aqura-por-xxiii64-2001"></a>
+## SRC-IT-PARL-AQURA-POR-XXIII64-2001
+
+**[Italienisches Parlament, Doc. XXIII Nr. 64, Band I/Tomo V/Parte II: La dimensione sovranazionale del fenomeno eversivo in Italia (Mantica/Fragala)](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)**
+
+Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 · Stufe **A** · Primärquelle
+
+[PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
+
+Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
