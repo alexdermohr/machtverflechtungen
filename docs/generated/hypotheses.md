@@ -38,7 +38,7 @@ Der noch nicht manuell gegengehörte ASR-Entwurf des NDR-Panorama-Beitrags vom 2
 
 Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen Interviewgast als nordrhein-westfälischen Minister für Bundesangelegenheiten; ein amtliches Plenarprotokoll vom 28. Juli 1970 identifiziert den damaligen Amtsinhaber als Dr. Diether Posser.
 
-## [Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](../faelle/de/langemann-informationsnetz-1976-1982.md) · CLM-DE-LANG-006
+## [Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](../faelle/de/langemann-informationsnetz-1976-1982.md) · CLM-DE-LANG-006
 
 **hypothesis · plausible**
 

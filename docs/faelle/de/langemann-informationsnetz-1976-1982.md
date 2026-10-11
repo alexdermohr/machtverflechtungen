@@ -1,11 +1,11 @@
 ---
 id: CASE-DE-LANGEMANN-1976-1982
 type: case
-title: 'Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“'
+title: 'Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“'
 countries:
 - DE
 period:
-  start: '1976'
+  start: '1975'
   end: '1982'
 status: developing
 research_question: Welche belegten Informations- und Finanzierungswege verbanden Hans Langemann, bayerischen Staatsschutz,
@@ -389,7 +389,7 @@ case_links:
     für andere Zeiträume dokumentierten Einflussmechanismen.
 ---
 
-# Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“
+# Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“
 
 ## Gesicherter Ereigniskern
 
@@ -413,7 +413,7 @@ Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAbla
 
 Der **Mehrheitsbericht, S. 11, Ziffer 2c**, identifiziert für den Oktoberfestkomplex einen datierten Rückweg von Kopien: *Heigl → Rechtsanwalt Gaub → BayLfV, März 1982*. Die früher behauptete Weitergabe Langemanns an Heigl etwa zehn Tage nach dem Attentat ist ausdrücklich **Heigls Aussage**. Entscheidend sind Kopienlisten, Eingangsstempel und die ursprünglichen Verteiler.
 
-Der **Mehrheitsbericht, S. 13, Ziffer 5**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, datiert eine entsprechende **8.000-DM**-Zahlung an Kinsky hingegen auf **1975** und beschreibt separat eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Der Widerspruch **1975/1976** zur 8.000-DM-Zahlung ist über ursprüngliche Zahlungsbelege aufzulösen; die zusätzlich genannten 5.000 DM sind gesondert zu verbuchen.
+Der **Mehrheitsbericht, S. 13, Abschnitt 5, Ziffer 1**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, datiert eine entsprechende **8.000-DM**-Zahlung an Kinsky hingegen auf **1975** und beschreibt separat eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Der Widerspruch **1975/1976** zur 8.000-DM-Zahlung ist über ursprüngliche Zahlungsbelege aufzulösen; die zusätzlich genannten 5.000 DM sind gesondert zu verbuchen.
 
 Die Landtagsmehrheit und -minderheit dokumentieren auch den privaten Informationsdienst von **Hans C. Freiherr von Stauffenberg**. Der Minderheitenbericht beziffert in einer von Stauffenberg zugeschriebenen Zeugenaussage Zahlungen von **300.000 bis 350.000 DM** an Langemann für den Zeitraum **1977–1982**. Der Mehrheitsbericht nennt für **1976–1979** monatliche Beträge von **5.000–6.000 DM** sowie eine Schätzung über **300.000 DM**. Die Datierungsdifferenz ist anhand des Originalvernehmungsprotokolls und der Abrechnungen zu klären.
 
@@ -434,7 +434,7 @@ Die entscheidende Unterscheidung betrifft **registrierte Mittelbewegungen**, **b
 ## Nächste diskriminierende Originalakten
 
 - Vollständige Gaub-/Heigl-Übergabeinventare März 1982 und zugehörige Langemann-Vernehmungen samt Originalakten.
-- Zahlungsanweisungen und Verwendungsnachweise der *Arbeitsgemeinschaft Staat und Gesellschaft* 1976, separate Kontoauszüge für die berichteten Kinsky-Beträge.
+- Zahlungsanweisungen und Verwendungsnachweise der *Arbeitsgemeinschaft Staat und Gesellschaft* 1975/1976, separate Kontoauszüge für die berichteten Kinsky-Beträge.
 - Mehrseitige, ungekürzte November-1979-Vormerkung „Victory for Strauß“, Anlagen, Empfänger und etwaige Freigabe-, Rückfrage- oder Ablehnungsvermerke.
 - Originalvermerk 21.02.1980 mit Tandler-Paraphe und Primärveröffentlichung vom 11.02.1980 sowie zugrundeliegende Redaktionskorrespondenz.
 
