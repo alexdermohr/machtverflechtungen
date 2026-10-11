@@ -63,6 +63,9 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         self.assertEqual(relations["REL-DE-DA-002"]["to"], "ORG-DE-DEUTSCHE-BUERGERINITIATIVE")
         self.assertEqual(relations["REL-DE-DA-006"]["to"], "ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK")
         self.assertEqual(relations["REL-DE-DA-006"]["period"]["start"], "1994-06-15")
+        self.assertEqual(relations["REL-DE-DA-005"]["claim_ids"], ["CLM-DE-DA-012"])
+        self.assertEqual(relations["REL-DE-DA-005"]["period"]["start"], "1993-02-20")
+        self.assertEqual(relations["REL-DE-DA-005"]["to"], "ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK")
         self.assertNotEqual(relations["REL-DE-DA-002"]["to"], relations["REL-DE-DA-006"]["to"])
 
     def test_public_case_includes_source_discovery_paths(self) -> None:

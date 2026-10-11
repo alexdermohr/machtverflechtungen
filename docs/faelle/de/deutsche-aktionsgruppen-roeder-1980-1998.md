@@ -18,6 +18,7 @@ event_claims:
   - CLM-DE-DA-008
   - CLM-DE-DA-009
   - CLM-DE-DA-011
+  - CLM-DE-DA-012
 tags: [deutschland, rechtsterrorismus, deutsche-aktionsgruppen, roeder, geldfluesse, bundeswehr]
 actors: [PER-DE-MANFRED-ROEDER, PER-DE-HEINZ-LEMBKE, PER-DE-ODFRIED-HEPP, PER-DE-NGUYEN-NGOC-CHAU, PER-DE-DO-ANH-LAN, PER-DE-SIBYLLE-VORDERBRUEGGE, PER-DE-RAYMUND-HOERNLE, ORG-DE-DEUTSCHE-AKTIONSGRUPPEN, ORG-DE-DEUTSCHE-BUERGERINITIATIVE, ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK, ORG-DE-BUNDESWEHR]
 mechanisms: [paramilitary-network, material-support]
@@ -248,9 +249,30 @@ claims:
       supports: "Zeitgenössische staatliche Beobachtung des finanziellen und organisatorischen Rückgangs der Deutschen Bürgerinitiative."
       does_not_support: "Keine exakte Betragssumme des Spendeneinbruchs und kein historischer Gesamtvergleich mit anderen Rechtsextremisten."
     falsification: "Vollständige DBI-Konten und Mitgliedslisten mit gegenläufigen Trends oder eine amtliche Korrektur könnten den damaligen Befund widerlegen."
+  - id: CLM-DE-DA-012
+    text: "Der Bundestags-Untersuchungsausschuss berichtete 1998, dass das Deutsch-Russische Gemeinschaftswerk am 20. Februar 1993 gegründet und Manfred Roeder zu seinem zweiten Vorsitzenden gewählt worden war."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-BT-1311005-1998]
+    evidence:
+      - source: SRC-DE-BT-1311005-1998
+        directness: direct
+        locator: "gedruckte S. 460, Abschnitt IV.1 Rechtsform des Deutsch-Russischen Gemeinschaftswerks (PDF-Seite 460)"
+        note: "Der Bericht nennt Kassel als Gründungsort, den 20. Februar 1993 und ausdrücklich Manfred Roeder als gewählten zweiten Vorsitzenden."
+    counterevidence: []
+    alternatives:
+      - "Der Ausschuss gibt die registrierte Vereinsstruktur wieder; die tatsächliche laufende Vorstandspraxis könnte weitere Vereinsunterlagen präzisieren."
+    missing_evidence:
+      - "Ursprüngliche Vereinssatzung, Gründungsniederschrift und Eintrag im Vereinsregister Schwalmstadt vom 23. April 1993 abgleichen."
+    scope:
+      supports: "Quellengebundene Vorstandsfunktion Roeders im eigenständigen DRGW ab seiner Gründung 1993."
+      does_not_support: "Eine Leitungsfunktion bei DRGW 1993 begründet keine Mitgliedschaft desselben Vereins in den Deutschen Aktionsgruppen 1980."
+    falsification: "Authentischer Gründungs- oder Registerbeleg mit abweichender Vorstandswahl würde die Ausschussdarstellung korrigieren."
 what_follows:
   - text: "Die Bundesregierung nannte für Roeders Deutsche Bürgerinitiative konkret 84.000 DM Konteneingänge 1979/80; der Untersuchungsausschuss rekonstruierte später unentgeltliche Bundeswehr-Materialabgaben an ein anderes, von Roeder mitgeführtes Werk."
     claim_ids: [CLM-DE-DA-003, CLM-DE-DA-006, CLM-DE-DA-007]
+  - text: "Die 1993 belegte Vorstandswahl Roeders ist ein eigenständiger organisatorischer Verbindungsbeleg zum DRGW."
+    claim_ids: [CLM-DE-DA-012]
   - text: "Lembkes berichtete Kontakte zu Hepp und Roeders Initiative bilden eine gezielte historische Netzwerksuchspur."
     claim_ids: [CLM-DE-DA-004]
 what_does_not_follow:
@@ -292,6 +314,7 @@ case_links:
 - **`CLM-DE-DA-008` — belegt:** Der Bundestags-Untersuchungsausschuss rekonstruierte, dass Manfred Roeder am 24. Januar 1995 an der Führungsakademie der Bundeswehr vor etwa 25 bis 30 Angehörigen des Akademiestabs vortrug.
 - **`CLM-DE-DA-009` — stark gestützt:** Der Untersuchungsausschuss berichtete 1998, dass ein ursprünglich für das Deutsch-Russische Gemeinschaftswerk überlassener Bundeswehr-Lkw im Oktober 1995 auf Manfred Roeder zugelassen und 1996 an eine sächsische Gemeinde verkauft worden war; die Verwendung weiterer Fahrzeuge blieb in der damaligen Aufarbeitung teilweise ungeklärt.
 - **`CLM-DE-DA-011` — belegt:** Der hessische Verfassungsschutzbericht 1982 berichtete für die Deutsche Bürgerinitiative nach Roeders Inhaftierung über Mitgliederverluste und rückläufige Spendeneingänge.
+- **`CLM-DE-DA-012` — belegt:** Der Bundestags-Untersuchungsausschuss berichtete 1998, dass das Deutsch-Russische Gemeinschaftswerk am 20. Februar 1993 gegründet und Manfred Roeder zu seinem zweiten Vorsitzenden gewählt worden war.
 
 ## Anschläge und strafrechtliche Aufarbeitung
 
@@ -307,7 +330,7 @@ Im selben [Plenarprotokoll 9/66, gedruckte S. 3842](https://dserver.bundestag.de
 
 ## Bundeswehr-Material und Vortragszugang 1994–1998
 
-Nach [Bundestagsdrucksache 13/11005](https://dserver.bundestag.de/btd/13/110/1311005.pdf), gedruckte S. 55–57 und 66, billigte das Auswärtige Amt am **1. Juni 1994** die unentgeltliche Überlassung ausgesonderten Materials für das **Deutsch-Russische Gemeinschaftswerk (DRGW)**. Das Bundesverteidigungsministerium bestätigte die Abgabe von **drei Fahrzeugen und Werkzeugsätzen am 15. Juni 1994**. **Roeder** war laut Bericht zweiter Vereinsvorsitzender.
+Nach [Bundestagsdrucksache 13/11005](https://dserver.bundestag.de/btd/13/110/1311005.pdf), gedruckte S. 55–57 und 66, billigte das Auswärtige Amt am **1. Juni 1994** die unentgeltliche Überlassung ausgesonderten Materials für das **Deutsch-Russische Gemeinschaftswerk (DRGW)**. Das Bundesverteidigungsministerium bestätigte die Abgabe von **drei Fahrzeugen und Werkzeugsätzen am 15. Juni 1994**. **Roeder war laut Bericht seit der Gründung am 20. Februar 1993 zweiter Vereinsvorsitzender** ([Drs. 13/11005, gedruckte S. 460](https://dserver.bundestag.de/btd/13/110/1311005.pdf#page=460)).
 
 Am **2. Januar 1995** lieferten **Vissing, Roeder, eine weitere Person und Vissings Elektriker** einen **VW 181, einen VW Iltis und einen Daimler-Benz-Lkw** an der Hamburger Führungsakademie der Bundeswehr an und stellten sie dort ab. Die vier Beteiligten werden im Untersuchungsausschussbericht, gedruckte **S. 465**, als Fahrer benannt. Roeder hielt am **24. Januar 1995** vor etwa **25 bis 30 Stabsangehörigen** einen Vortrag über Russlanddeutsche. Die Untersuchung nennt Übernachtung und dienstliche Fahrten, aber keine Honorarauszahlung für den Vortrag; ein Zeuge verneinte eine tatsächliche Spendensammlung bei der Veranstaltung.
 

@@ -167,7 +167,7 @@ flowchart LR
     N_PER_DE_ODFRIED_HEPP["Odfried Hepp"]
     N_PER_DE_HEINZ_LEMBKE -->|"Kontakt laut Bundestagsauskunft vom 25.11.1981"| N_PER_DE_ODFRIED_HEPP
     N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK["Deutsch-Russisches Gemeinschaftswerk"]
-    N_PER_DE_MANFRED_ROEDER -->|"zweiter Vorsitzender laut Untersuchungsausschuss im Kontext der 1995er Materialübernahme"| N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK
+    N_PER_DE_MANFRED_ROEDER -->|"bei Gründung am 20.02.1993 laut Untersuchungsausschuss zum zweiten Vorsitzenden gewählt"| N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK
     N_ORG_DE_BUNDESWEHR["Bundeswehr"]
     N_ORG_DE_BUNDESWEHR -->|"überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich"| N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK
     N_PER_DE_MANFRED_ROEDER -->|"hielt laut Untersuchungsausschuss am 24.01.1995 Vortrag an der Führungsakademie"| N_ORG_DE_BUNDESWEHR
