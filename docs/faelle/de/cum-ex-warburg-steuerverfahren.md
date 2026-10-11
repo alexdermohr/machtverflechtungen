@@ -202,6 +202,14 @@ case_links: []
 
 # Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Cum-Ex-Steuererstattungen, Entscheidungen der Finanzverwaltung und dokumentierte politische Kontakte im Fall Warburg.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 ## Auswahlregel
 
 Der Fall verbindet eine gerichtlich beurteilte steuerliche Missbrauchsgestaltung mit konkreten Entscheidungen der Finanzverwaltung und belegten Kontakten zu politischen Amtsträgern. **Die drei Ebenen werden nicht zu einer behaupteten politischen Steuerung zusammengezogen.** Das ursprüngliche Cum-Ex-Modell, die Warburg-Verwaltungsvorgänge und die persönliche Verantwortung einzelner Beteiligter müssen getrennt bleiben.

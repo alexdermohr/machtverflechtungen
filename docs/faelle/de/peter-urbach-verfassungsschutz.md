@@ -630,6 +630,14 @@ case_links: []
 
 # Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Peter Urbachs Quellentätigkeit im West-Berliner Milieu, Waffenbeschaffung und das Verhalten von Sicherheitsbehörden.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 ## Untersuchungszeitraum und Beweisgrenze
 
 Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung beschriebenen, vom Berliner Senat 1981 ausdrücklich bestrittenen Vorgängen um Molotowcocktails 1968. Es bezeichnet den Zeitraum der untersuchten **Behauptungen und Dokumente**, **nicht** ein bewiesenes Anwerbe- oder Führungsdatum Urbachs. Der tatsächliche Beginn der Informantenbeziehung bleibt mangels hinreichend genauer Quelle offen. Der späte Rand 1981 verweist auf die datierte Senatsstellungnahme und nicht auf das Ende einer nachgewiesenen Führungstätigkeit.
@@ -649,7 +657,7 @@ Das Fallfenster **1968–1981** beginnt mit den in der historischen Forschung be
 
 ## Amtliches Plenarprotokoll vom 27. Mai 1971: Urbach und Aussagebeschränkung
 
-Die [Originalniederschrift des Berliner Abgeordnetenhauses, 6. Wahlperiode, 7. Sitzung](https://digital.zlb.de/viewer/image/15975513_1971/112/) dokumentiert auf den gedruckten Seiten **92–94** ([S. 92](https://digital.zlb.de/viewer/image/15975513_1971/112/), [S. 93](https://digital.zlb.de/viewer/image/15975513_1971/113/), [S. 94](https://digital.zlb.de/viewer/image/15975513_1971/114/)) die parlamentarische Befassung. Die ursprüngliche ZLB-Fundstelle Bild 65 verweist auf Sitzung 5, nicht Sitzung 7. Das Digitalisat ist Primärquelle für den protokollierten Wortlaut, nicht automatisch für die materielle Wahrheit der Ministeraussagen.
+Die [Originalniederschrift des Berliner Abgeordnetenhauses, 6. Wahlperiode, 7. Sitzung](https://digital.zlb.de/viewer/image/15975513_1971/112/) dokumentiert auf den gedruckten Seiten **92–94** ([S. 92](https://digital.zlb.de/viewer/image/15975513_1971/112/), [S. 93](https://digital.zlb.de/viewer/image/15975513_1971/113/), [S. 94](https://digital.zlb.de/viewer/image/15975513_1971/114/)) die parlamentarische Befassung. Die ursprüngliche ZLB-Fundstelle Bild 65 verweist auf Sitzung 5, nicht Sitzung 7. Das Digitalisat dokumentiert den protokollierten Wortlaut der Ministeraussagen und ermöglicht den Abgleich mit zeitgenössischen Ermittlungsakten.
 
 - **`CLM-DE-URB-020` — amtlich überlieferte Äußerung:** Das amtliche Berliner Plenarprotokoll vom 27. Mai 1971 dokumentiert die öffentliche Erklärung Innensenators Kurt Neubauer, Peter Urbach sei ein Vertrauensmann des Landesamts für Verfassungsschutz gewesen, der zur Informationsgewinnung in linksradikalen Gruppen eingesetzt worden sei.
 - **`CLM-DE-URB-021` — amtlich überlieferte Äußerung:** Neubauer wies in der Berliner Plenarsitzung vom 27. Mai 1971 die Anschuldigungen zurück, die 1969 im Jüdischen Gemeindehaus gefundene Bombe stamme aus Beständen des Verfassungsschutzes und Sprengstoff sei auf dessen Veranlassung in APO-Wohnungen hinterlegt worden.
@@ -722,7 +730,7 @@ Die spätere Forschung beruht teils auf denselben frühen Zeugen und verweist be
 
 ## Prüfstand: Quellenbeobachtung ≠ materieller Vorgang
 
-Das Original des MfS-Vernehmungsprotokolls dokumentiert eine Aussage Baumanns aus dem Jahr 1973. Er berichtete ausdrücklich, Baader habe ihm von einer Waffenlieferung Urbachs an Mahler erzählt. Eine Vernehmungsniederschrift belegt die *Aussage*, nicht automatisch die Übergabe. Die Forschung zu Urbachs anderen Waffen- und Sprengsatzlieferungen hat einen eigenständigen, aber ebenfalls quellenbegrenzten Status.
+Das Original des MfS-Vernehmungsprotokolls dokumentiert eine Aussage Baumanns aus dem Jahr 1973. Er berichtete ausdrücklich, Baader habe ihm von einer Waffenlieferung Urbachs an Mahler erzählt. Die Aussage zur Waffenübergabe ist anhand der zeitgenössischen Akten und weiterer unabhängiger Zeugen zu prüfen. Die Forschung zu Urbachs anderen Waffen- und Sprengsatzlieferungen hat einen eigenständigen, aber ebenfalls quellenbegrenzten Status.
 
 ## Der antisemitische Anschlagsversuch vom 9. November 1969
 

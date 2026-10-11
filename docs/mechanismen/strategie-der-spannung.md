@@ -17,6 +17,6 @@
 | Verwertung | Welche Gesetze, Befugnisse oder politischen Verschiebungen folgten? |
 | Gegenbelege | Welche Befunde sprechen gegen bewusste Steuerung? |
 
-Ein politischer Nutzen nach einem Anschlag beweist nicht, dass der Nutznießer den Anschlag verursacht hat.
+Politischer Nutzen nach einem Anschlag ist für sich kein Nachweis der Urheberschaft des Nutznießers. Die Prüfung verfolgt deshalb nacheinander politische Verwertung, konkrete Kontakte, Vorwissen, materielle Unterstützung und operative Entscheidungen.
 
 Umgekehrt ist dokumentierte staatliche Täuschung nicht als bloßes „Behördenversagen“ zu beschreiben. Das [Celler Loch](../faelle/de/celler-loch.md) ist dafür ein deutscher Referenzfall.

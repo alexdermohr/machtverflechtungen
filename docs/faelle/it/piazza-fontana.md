@@ -67,6 +67,14 @@ case_links: []
 
 # Piazza Fontana
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Der Anschlag von 1969, rechtsterroristische Netzwerke und die italienische Aufarbeitung von Ermittlungsumlenkungen.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfokus:** Welche gesicherten Befunde tragen die Einordnung von Piazza Fontana in die italienische *strategia della tensione*, und welche konkreten Täter-, Unterstützungs-, Vertuschungs- und Nachrichtendienstbeziehungen lassen sich darüber hinaus belegen?
 
 ## Gesicherter Ereigniskern

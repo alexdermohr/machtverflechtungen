@@ -68,6 +68,14 @@ case_links:
 
 # Celler Loch / Aktion Feuerzauber
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Eine verdeckte niedersächsische Verfassungsschutzoperation von 1978 und ihre politische und juristische Aufarbeitung.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfokus:** Wie weit reichte die staatliche Inszenierung, wie wurde sie operativ genutzt und welche Informations- und Entscheidungsketten ermöglichten sie?
 
 ## Gesicherter Ereigniskern

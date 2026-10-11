@@ -85,25 +85,89 @@ def claim_summary(meta: dict[str, Any]) -> str:
     return " · ".join(parts) if parts else "keine Claims"
 
 
-def render_cases(cases: list[tuple[dict[str, Any], str]]) -> str:
-    lines = [
-        "# Fälle",
-        "",
-        "_Automatisch aus den Fall-Metadaten erzeugt._",
-        "",
-        "| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |",
-        "|---|---|---|---|---|",
-    ]
+# Curated presentation groups; stable source URLs and case IDs remain unchanged.
+# Newly registered cases appear under "Weitere Fälle" until categorized.
+CASE_TOPICS = {
+    "faelle/de/organisation-gehlen.md": "Nachrichtendienste & Informanten",
+    "faelle/de/langemann-informationsnetz-1976-1982.md": "Nachrichtendienste & Informanten",
+    "faelle/de/peter-urbach-verfassungsschutz.md": "Nachrichtendienste & Informanten",
+    "faelle/de/celler-loch.md": "Nachrichtendienste & Informanten",
+    "faelle/de/technischer-dienst-bdj.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/oktoberfestattentat-1980.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/thueringer-heimatschutz-tino-brandt.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/nsu-v-leute-aktenvernichtung.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/nsu-yozgat-temme.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/la-belle-1986.md": "Internationale Anschläge",
+    "faelle/it/piazza-fontana.md": "Internationale Anschläge",
+    "faelle/de/cum-ex-warburg-steuerverfahren.md": "Politik, Wirtschaft & Medien",
+    "faelle/de/medien-nachrichtendienst-crosslayer.md": "Politik, Wirtschaft & Medien",
+    "faelle/de/transatlantik-mediennetzwerk-2017-2026.md": "Politik, Wirtschaft & Medien",
+}
+TOPIC_SECTIONS = (
+    ("Nachrichtendienste & Informanten",
+     "Geheime Informationswege, V-Personen, Behördenkontakte und staatliche Mittel."),
+    ("Rechtsterrorismus & Ermittlungen",
+     "Militante Netzwerke, Tatkomplexe, Quellenschutz und behördliche Aufklärung."),
+    ("Internationale Anschläge",
+     "Transnationale Zusammenhänge, Nachrichtendienstkontakte und Tatuntersuchungen."),
+    ("Politik, Wirtschaft & Medien",
+     "Finanzierungswege, politische Kontakte und dokumentierte Medienbeeinflussung."),
+)
+
+
+def render_cases(
+    cases: list[tuple[dict[str, Any], str]],
+    mechanism_names: dict[str, str] | None = None,
+) -> str:
+    mechanism_names = mechanism_names or {}
+    by_topic: dict[str, list[tuple[dict[str, Any], str]]] = {}
     for meta, rel in cases:
-        period = str(meta["period"]["start"])
-        if meta["period"].get("end"):
-            period += f" – {meta['period']['end']}"
-        case_rel = Path(rel).relative_to("faelle").as_posix()
-        lines.append(
-            f"| {esc(period)} | [{esc(meta['title'])}]({case_rel}) | "
-            f"{', '.join(meta.get('countries', []))} | {esc(claim_summary(meta))} | "
-            f"{', '.join(meta.get('mechanisms', []))} |"
-        )
+        by_topic.setdefault(CASE_TOPICS.get(rel, "Weitere Fälle"), []).append((meta, rel))
+
+    lines = [
+        "# Fallakten",
+        "",
+        f"**{len(cases)} Fallakten** · Thematisch geordnet; innerhalb eines Bereichs chronologisch sortiert. "
+        "Jeder Eintrag führt zum dokumentierten Ereigniskern und zu den Quellen.",
+        "",
+    ]
+    sections = list(TOPIC_SECTIONS)
+    if "Weitere Fälle" in by_topic:
+        sections.append(("Weitere Fälle", "Neu hinzugefügte Fallakten."))
+    for name, description in sections:
+        items = by_topic.get(name, [])
+        if not items:
+            continue
+        lines += [
+            f"## {name}",
+            "",
+            description,
+            "",
+            "| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |",
+            "|---|---|---|---|---|",
+        ]
+        for meta, rel in items:
+            period = str(meta["period"]["start"])
+            if meta["period"].get("end"):
+                period += f" – {meta['period']['end']}"
+            case_rel = Path(rel).relative_to("faelle").as_posix()
+            mechanisms = ", ".join(
+                mechanism_names.get(key, key) for key in meta.get("mechanisms", [])
+            )
+            lines.append(
+                f"| {esc(period)} | [{esc(meta['title'])}]({case_rel}) | "
+                f"{', '.join(meta.get('countries', []))} | {esc(claim_summary(meta))} | "
+                f"{esc(mechanisms)} |"
+            )
+        lines.append("")
+    lines += [
+        "## Weitere Zugänge",
+        "",
+        "- [Chronologie](../generated/timeline.md) — alle Fälle nach Beginn.",
+        "- [Personen und Organisationen](../generated/entities.md) — Akteursregister.",
+        "- [Quellenkatalog](../quellen/index.md) — Originaldokumente und Fundstellen.",
+        "",
+    ]
     return "\n".join(lines) + "\n"
 
 
@@ -127,19 +191,35 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
 
 
 def render_entities(entities: list[dict[str, Any]]) -> str:
+    groups = [
+        ("Personen", [item for item in entities if item["type"] == "person"]),
+        ("Organisationen & Institutionen", [
+            item for item in entities if item["type"] not in {"person", "program"}
+        ]),
+        ("Programme", [item for item in entities if item["type"] == "program"]),
+    ]
     lines = [
         "# Personen & Organisationen",
         "",
-        "Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Einfluss. Er dokumentiert zunächst nur die im Datenmodell verwendeten Akteure.",
+        f"**{len(entities)} Einträge** · Alphabetisch innerhalb der Kategorien geordnet. "
+        "Dokumentierte Beziehungen stehen im [Netzwerk](network.md).",
         "",
-        "| ID | Typ | Name | Länder |",
-        "|---|---|---|---|",
     ]
-    for entity in sorted(entities, key=lambda x: x["name"]):
-        lines.append(
-            f"| `{entity['id']}` | {entity['type']} | {esc(entity['name'])} | "
-            f"{', '.join(entity.get('countries', []))} |"
-        )
+    for heading, items in groups:
+        if not items:
+            continue
+        lines += [
+            f"## {heading}",
+            "",
+            "| Name | Typ | ID | Länder |",
+            "|---|---|---|---|",
+        ]
+        for entity in sorted(items, key=lambda item: item["name"].casefold()):
+            lines.append(
+                f"| {esc(entity['name'])} | {esc(entity['type'])} | "
+                f"`{entity['id']}` | {', '.join(entity.get('countries', []))} |"
+            )
+        lines.append("")
     return "\n".join(lines) + "\n"
 
 
@@ -151,7 +231,7 @@ def render_regions(cases: list[tuple[dict[str, Any], str]]) -> str:
     lines = [
         "# Regionen",
         "",
-        "_Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein Fall-Gesamturteil._",
+        "Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten Claims.",
         "",
     ]
     for country in sorted(by_country):
@@ -190,7 +270,7 @@ def render_hypotheses(cases: list[tuple[dict[str, Any], str]]) -> str:
     if count == 0:
         lines.append(
             "Der strukturierte Claimbestand enthält derzeit keine als Hypothese oder offene Frage kodierten Claims. "
-            "Das bedeutet nicht, dass die Fälle abgeschlossen sind; ihre offenen Prüfungen stehen in den Fallakten."
+            "Weitere Archivfragen finden sich in den Fallakten."
         )
         lines.append("")
     return "\n".join(lines) + "\n"
@@ -200,7 +280,7 @@ def render_mechanisms(mechanisms: list[dict[str, Any]]) -> str:
     lines = [
         "# Mechanismen",
         "",
-        "Mechanismen sind Vergleichskategorien, keine automatische Erklärung eines Einzelfalls und keine Schuldzuweisung.",
+        "Wiederkehrende Abläufe und institutionelle Mechanismen als Vergleichsrahmen für die Fallakten.",
         "",
     ]
     for item in sorted(mechanisms, key=lambda x: x["label"]):
@@ -215,30 +295,48 @@ def render_mechanisms(mechanisms: list[dict[str, Any]]) -> str:
 
 def render_sources(sources: list[dict[str, Any]]) -> str:
     lines = [
-        "# Quellen",
+        "# Quellenkatalog",
         "",
-        "Quellen werden zentral registriert und über stabile IDs aus Claims, Fällen und Relationen referenziert. Die Stufe bewertet die Quellenart; eine Primärquelle kann trotzdem unvollständig, interessengeleitet oder fehlerhaft sein.",
+        f"**{len(sources)} registrierte Quellen** · Originaldokumente und Forschung "
+        "mit stabiler Kennung, direktem Link und genauer Fundstelle.",
         "",
     ]
-    for source in sources:
-        primary = "Primärquelle" if source.get("primary") else "Sekundär-/Forschungsquelle"
-        source_date = source.get("date")
-        date_label = source_date if source_date is not None else "unbekannt"
-        lines += [
-            f'<a id="{source["id"].lower()}"></a>',
-            f"## {source['id']}",
-            "",
-            f"**[{source['title']}]({source['url']})**",
-            "",
-            f"{source['institution']} · {date_label} · Stufe **{source['tier']}** · {primary}",
-            "",
-            f"[{('PDF öffnen' if source['url'].lower().split('?', 1)[0].endswith('.pdf') else 'Seite öffnen')}]({source['url']})",
-            "",
-        ]
-        if source.get("archive_url"):
-            lines += [f"[Archiv/Recovery öffnen]({source['archive_url']})", ""]
-        if source.get("locator"):
-            lines += [f"Fundstelle: {source['locator']}", ""]
+    for heading, selected in [
+        ("Originaldokumente & amtliche Quellen", [
+            item for item in sources if item.get("primary")
+        ]),
+        ("Forschung & Dokumentation", [
+            item for item in sources if not item.get("primary")
+        ]),
+    ]:
+        if not selected:
+            continue
+        lines += [f"## {heading}", ""]
+        for source in sorted(
+            selected, key=lambda item: (
+                str(item.get("institution") or "").casefold(),
+                str(item.get("date") or ""),
+                str(item.get("title") or "").casefold(),
+            )
+        ):
+            primary = "Primärquelle" if source.get("primary") else "Sekundär-/Forschungsquelle"
+            source_date = source.get("date")
+            date_label = source_date if source_date is not None else "unbekannt"
+            lines += [
+                f'<a id="{source["id"].lower()}"></a>',
+                f"### {source['institution']}",
+                "",
+                f"**[{source['title']}]({source['url']})**",
+                "",
+                f"{source['institution']} · {date_label} · Stufe **{source['tier']}** · {primary} · `{source['id']}`",
+                "",
+                f"[{('PDF öffnen' if source['url'].lower().split('?', 1)[0].endswith('.pdf') else 'Seite öffnen')}]({source['url']})",
+                "",
+            ]
+            if source.get("archive_url"):
+                lines += [f"[Archiv/Recovery öffnen]({source['archive_url']})", ""]
+            if source.get("locator"):
+                lines += [f"Fundstelle: {source['locator']}", ""]
     return "\n".join(lines) + "\n"
 
 
@@ -247,7 +345,52 @@ def render_network(
     entities: list[dict[str, Any]],
     relations: list[dict[str, Any]],
 ) -> str:
-    entity_map = {x["id"]: x for x in entities}
+    entity_map = {item["id"]: item for item in entities}
+    case_titles = {meta["id"]: meta["title"] for meta, _ in cases}
+
+    def label(node: str) -> str:
+        if node in entity_map:
+            return entity_map[node]["name"]
+        return case_titles.get(node, node)
+
+    lines = [
+        "# Beziehungsnetzwerk",
+        "",
+        f"**{len(relations)} quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. "
+        "Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.",
+        "",
+        "[Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.",
+        "",
+        "## Dokumentierte Relationen",
+        "",
+        "| ID | Von | Beziehung | Zu | Evidenz | Quellen |",
+        "|---|---|---|---|---|---|",
+    ]
+    for relation in sorted(
+        relations, key=lambda item: (
+            label(item["from"]).casefold(), label(item["to"]).casefold(), item["id"]
+        )
+    ):
+        source_links = ", ".join(
+            f"[{key}](../quellen/index.md#{key.lower()})"
+            for key in relation["sources"]
+        )
+        lines.append(
+            f"| `{relation['id']}` | {esc(label(relation['from']))} | "
+            f"{esc(relation.get('label', relation['type']))} | {esc(label(relation['to']))} | "
+            f"{EVIDENCE_LABELS.get(relation['evidence_level'], relation['evidence_level'])} | "
+            f"{source_links} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
+def render_network_graph(
+    cases: list[tuple[dict[str, Any], str]],
+    entities: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+) -> str:
+    """Render Mermaid on its own visible page, never in a collapsed details element."""
+    entity_map = {item["id"]: item for item in entities}
     case_titles = {meta["id"]: meta["title"] for meta, _ in cases}
 
     def label(node: str) -> str:
@@ -259,9 +402,10 @@ def render_network(
         return "N_" + re.sub(r"[^A-Za-z0-9_]", "_", node)
 
     lines = [
-        "# Netzwerk",
+        "# Netzwerkdiagramm",
         "",
-        "_Automatisch aus data/relations.yml erzeugt. Jede Kante besitzt mindestens eine Quelle._",
+        f"**{len(relations)} Beziehungen** als interaktive Übersicht. "
+        "Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.",
         "",
         "```mermaid",
         "flowchart LR",
@@ -277,23 +421,8 @@ def render_network(
                 seen.add(node)
         edge = relation.get("label", relation["type"]).replace('"', "'")
         lines.append(f'    {mid(source)} -->|"{edge}"| {mid(target)}')
-
-    lines += [
-        "```",
-        "",
-        "## Relationen",
-        "",
-        "| ID | Von | Beziehung | Zu | Evidenz | Quellen |",
-        "|---|---|---|---|---|---|",
-    ]
-    for relation in relations:
-        lines.append(
-            f"| {relation['id']} | {esc(label(relation['from']))} | "
-            f"{esc(relation.get('label', relation['type']))} | {esc(label(relation['to']))} | "
-            f"{relation['evidence_level']} | {', '.join(relation['sources'])} |"
-        )
+    lines += ["```", "", "[Zur Relationstabelle](network.md)", ""]
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -311,9 +440,12 @@ def main() -> int:
     relations = load_yaml(DATA / "relations.yml").get("relations", [])
 
     outputs = {
-        DOCS / "faelle" / "index.md": render_cases(cases),
+        DOCS / "faelle" / "index.md": render_cases(
+            cases, {item["id"]: item["label"] for item in mechanisms}
+        ),
         DOCS / "generated" / "timeline.md": render_timeline(cases),
         DOCS / "generated" / "network.md": render_network(cases, entities, relations),
+        DOCS / "generated" / "network-graph.md": render_network_graph(cases, entities, relations),
         DOCS / "generated" / "entities.md": render_entities(entities),
         DOCS / "generated" / "regions.md": render_regions(cases),
         DOCS / "generated" / "hypotheses.md": render_hypotheses(cases),

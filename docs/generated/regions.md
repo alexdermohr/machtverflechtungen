@@ -1,6 +1,6 @@
 # Regionen
 
-_Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein Fall-Gesamturteil._
+Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten Claims.
 
 ## DE
 

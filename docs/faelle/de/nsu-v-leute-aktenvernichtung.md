@@ -116,6 +116,14 @@ case_links:
 
 # NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** V-Leute, Operation Rennsteig, institutioneller Quellenschutz und die Aktenvernichtung nach Bekanntwerden des NSU.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfrage:** Welche nachrichtendienstliche Quellenführung und welche Aktenvernichtung sind amtlich dokumentiert, und welche Schlüsse zu Vorwissen und Steuerung sind zulässig?
 
 Die Aufklärung der NSU-Verbrechen führte zu nachweisbaren Aktenverlusten und einer Neubewertung des V-Leute-Systems. Die dokumentierten Vorgänge belegen staatliche Penetration der rechtsextremen Szene, Defizite und institutionelle Konflikte; sie sind nicht mit staatlicher Planung oder Führung der NSU-Taten gleichzusetzen.
@@ -141,65 +149,67 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 
 ## Einzelclaim-Prüfung
 
-### `CLM-DE-NSU-AKT-001`
+??? info "5 Claims, Quellen und Gegenproben anzeigen"
 
-**Aussage:** Kurz nach der NSU-Aufdeckung im November 2011 wurden im Bundesamt für Verfassungsschutz mehrere V-Mann-Akten aus dem rechtsextremen Umfeld vernichtet.
+    ### `CLM-DE-NSU-AKT-001`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Kurz nach der NSU-Aufdeckung im November 2011 wurden im Bundesamt für Verfassungsschutz mehrere V-Mann-Akten aus dem rechtsextremen Umfeld vernichtet.
 
-- **Stütze `SRC-DE-BT-NSU-LINGEN-2017` (direct):** Die offizielle Ausschussberichterstattung bestätigt den Vorgang der als Aktion Konfetti bekannten Vernichtung. Fundstelle: hib 102/2017; Absätze 1-2.
-- **Alternative:** Die Frage nach individueller Motivation und Weisungskette ist von der Tatsache der Aktenvernichtung zu trennen.
-- **Beweislücke:** Vernichtungsprotokolle, Aktenverzeichnisse und Rekonstruktionsstand nach Aktenkomplex getrennt prüfen.
-- **Tragweite:** Die dokumentierte Vernichtung mehrerer konkreter BfV-Quellenakten nach der Enttarnung.
-- **Falsifikation:** Revisionssichere Aktennachweise, die zeigen, dass die konkret als vernichtet bezeichneten Bestände unversehrt blieben, würden den Claim treffen.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-NSU-AKT-002`
+    - **Stütze `SRC-DE-BT-NSU-LINGEN-2017` (direct):** Die offizielle Ausschussberichterstattung bestätigt den Vorgang der als Aktion Konfetti bekannten Vernichtung. Fundstelle: hib 102/2017; Absätze 1-2.
+    - **Alternative:** Die Frage nach individueller Motivation und Weisungskette ist von der Tatsache der Aktenvernichtung zu trennen.
+    - **Beweislücke:** Vernichtungsprotokolle, Aktenverzeichnisse und Rekonstruktionsstand nach Aktenkomplex getrennt prüfen.
+    - **Tragweite:** Die dokumentierte Vernichtung mehrerer konkreter BfV-Quellenakten nach der Enttarnung.
+    - **Falsifikation:** Revisionssichere Aktennachweise, die zeigen, dass die konkret als vernichtet bezeichneten Bestände unversehrt blieben, würden den Claim treffen.
 
-**Aussage:** Der Bundestag berichtete 2017, ein für die Aktenvernichtung verantwortlicher BfV-Mitarbeiter habe 2014 eingeräumt, die Brisanz der Unterlagen erkannt und sie zur Abwendung von Schaden für seine Behörde vernichtet zu haben.
+    ### `CLM-DE-NSU-AKT-002`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Der Bundestag berichtete 2017, ein für die Aktenvernichtung verantwortlicher BfV-Mitarbeiter habe 2014 eingeräumt, die Brisanz der Unterlagen erkannt und sie zur Abwendung von Schaden für seine Behörde vernichtet zu haben.
 
-- **Stütze `SRC-DE-BT-NSU-LINGEN-2017` (direct):** Die Parlamentsnachrichten referieren eine Aussage Lingens gegenüber BKA und Generalbundesanwalt im Oktober 2014. Fundstelle: hib 102/2017; Absatz 8-11.
-- **Alternative:** Die Aussage kann eine eigenmächtige Handlung im Interesse des institutionellen Ansehens beschreiben, ohne dienstliche Anweisung oder Mitwissen höherer Ebenen.
-- **Beweislücke:** Vollständiges BKA/GBA-Vernehmungsprotokoll von Oktober 2014; dienstliche Kommunikation und konkrete Vernichtungsanordnungen.
-- **Tragweite:** Das dokumentierte spätere Eingeständnis des Mitarbeiters, nicht die unabhängige Prüfung sämtlicher angegebenen Motive.
-- **Falsifikation:** Authentisches vollständiges Vernehmungsprotokoll, das die zugeschriebene Erklärung wesentlich anders wiedergibt, würde die Aussage verändern.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-NSU-AKT-003`
+    - **Stütze `SRC-DE-BT-NSU-LINGEN-2017` (direct):** Die Parlamentsnachrichten referieren eine Aussage Lingens gegenüber BKA und Generalbundesanwalt im Oktober 2014. Fundstelle: hib 102/2017; Absatz 8-11.
+    - **Alternative:** Die Aussage kann eine eigenmächtige Handlung im Interesse des institutionellen Ansehens beschreiben, ohne dienstliche Anweisung oder Mitwissen höherer Ebenen.
+    - **Beweislücke:** Vollständiges BKA/GBA-Vernehmungsprotokoll von Oktober 2014; dienstliche Kommunikation und konkrete Vernichtungsanordnungen.
+    - **Tragweite:** Das dokumentierte spätere Eingeständnis des Mitarbeiters, nicht die unabhängige Prüfung sämtlicher angegebenen Motive.
+    - **Falsifikation:** Authentisches vollständiges Vernehmungsprotokoll, das die zugeschriebene Erklärung wesentlich anders wiedergibt, würde die Aussage verändern.
 
-**Aussage:** Nach der offiziellen Bilanz des zweiten NSU-Bundestagsuntersuchungsausschusses fand dieser keine Hinweise, dass der Inlandsgeheimdienst vor November 2011 die Terrorgruppe, ihre Taten und ihre Aufenthaltsorte kannte.
+    ### `CLM-DE-NSU-AKT-003`
 
-**Typ:** counterevidence · **Evidenz:** belegt
+    **Aussage:** Nach der offiziellen Bilanz des zweiten NSU-Bundestagsuntersuchungsausschusses fand dieser keine Hinweise, dass der Inlandsgeheimdienst vor November 2011 die Terrorgruppe, ihre Taten und ihre Aufenthaltsorte kannte.
 
-- **Stütze `SRC-DE-BT-NSU-BILANZ-2017` (direct):** Der Rückblick des Bundestages benennt den ausdrücklich negativen Ausschussbefund und trennt ihn von Vermutungen über Wissen einzelner V-Leute. Fundstelle: Abschnitt V-Leute wussten sehr wahrscheinlich vom NSU.
-- **Alternative:** Mangelnde Aktenlage und mögliche Nichtweitergabe durch einzelne Quellen können fehlende Hinweise erklären, ohne die Abwesenheit jeden Vorwissens zu beweisen.
-- **Beweislücke:** Dienstliche Originalmeldeketten und erhaltene Treffberichte einzelner V-Personen systematisch nach Tathinweisen prüfen.
-- **Tragweite:** Das negative Ergebnis der vom Bundestag dargestellten damaligen Ausschussrecherche.
-- **Falsifikation:** Authentische, vor November 2011 eingegangene Dienstmeldungen mit konkreten Angaben zu NSU-Taten und Aufenthalten würden den negativen Befund materiell ändern.
+    **Typ:** counterevidence · **Evidenz:** belegt
 
-### `CLM-DE-NSU-AKT-004`
+    - **Stütze `SRC-DE-BT-NSU-BILANZ-2017` (direct):** Der Rückblick des Bundestages benennt den ausdrücklich negativen Ausschussbefund und trennt ihn von Vermutungen über Wissen einzelner V-Leute. Fundstelle: Abschnitt V-Leute wussten sehr wahrscheinlich vom NSU.
+    - **Alternative:** Mangelnde Aktenlage und mögliche Nichtweitergabe durch einzelne Quellen können fehlende Hinweise erklären, ohne die Abwesenheit jeden Vorwissens zu beweisen.
+    - **Beweislücke:** Dienstliche Originalmeldeketten und erhaltene Treffberichte einzelner V-Personen systematisch nach Tathinweisen prüfen.
+    - **Tragweite:** Das negative Ergebnis der vom Bundestag dargestellten damaligen Ausschussrecherche.
+    - **Falsifikation:** Authentische, vor November 2011 eingegangene Dienstmeldungen mit konkreten Angaben zu NSU-Taten und Aufenthalten würden den negativen Befund materiell ändern.
 
-**Aussage:** Der zweite NSU-Bundestagsuntersuchungsausschuss stellte Defizite bei Anwerbung und Führung von V-Personen im Umfeld des NSU fest.
+    ### `CLM-DE-NSU-AKT-004`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Der zweite NSU-Bundestagsuntersuchungsausschuss stellte Defizite bei Anwerbung und Führung von V-Personen im Umfeld des NSU fest.
 
-- **Stütze `SRC-DE-BT-NSU-BILANZ-2017` (direct):** Der amtliche Bericht zum Ausschussabschluss beschreibt diesen Befund für Corelli und weitere V-Personen. Fundstelle: Abschnitt V-Leute wussten sehr wahrscheinlich vom NSU; vorausgehender Absatz.
-- **Alternative:** Fehlerhafte Quellenführung kann auf fachliche und organisatorische Fehlleistung statt einheitliche politische Absicht zurückgehen.
-- **Beweislücke:** Widersprüchliche Auskünfte der Quellenführer durch Originaltreffberichte und Verwaltungsvorgänge prüfen.
-- **Tragweite:** Festgestellte Defizite in der Quellenpraxis nach amtlicher Ausschussdarstellung.
-- **Falsifikation:** Eine vollständigere authentische Dokumentation, die die konkret kritisierten Führungsdefizite widerlegt, würde die Bewertung verändern.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-NSU-AKT-005`
+    - **Stütze `SRC-DE-BT-NSU-BILANZ-2017` (direct):** Der amtliche Bericht zum Ausschussabschluss beschreibt diesen Befund für Corelli und weitere V-Personen. Fundstelle: Abschnitt V-Leute wussten sehr wahrscheinlich vom NSU; vorausgehender Absatz.
+    - **Alternative:** Fehlerhafte Quellenführung kann auf fachliche und organisatorische Fehlleistung statt einheitliche politische Absicht zurückgehen.
+    - **Beweislücke:** Widersprüchliche Auskünfte der Quellenführer durch Originaltreffberichte und Verwaltungsvorgänge prüfen.
+    - **Tragweite:** Festgestellte Defizite in der Quellenpraxis nach amtlicher Ausschussdarstellung.
+    - **Falsifikation:** Eine vollständigere authentische Dokumentation, die die konkret kritisierten Führungsdefizite widerlegt, würde die Bewertung verändern.
 
-**Aussage:** Der Bundestag berichtete 2012 über die Zusammenarbeit von BfV, Thüringer Verfassungsschutz und MAD bei der Quellengewinnung im Umfeld des Thüringer Heimatschutzes zwischen 1996 und 2003.
+    ### `CLM-DE-NSU-AKT-005`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Der Bundestag berichtete 2012 über die Zusammenarbeit von BfV, Thüringer Verfassungsschutz und MAD bei der Quellengewinnung im Umfeld des Thüringer Heimatschutzes zwischen 1996 und 2003.
 
-- **Stütze `SRC-DE-BT-NSU-RENNSTEIG-2012` (direct):** Die Bundestagsdarstellung zur Operation Rennsteig benennt drei beteiligte Dienste, Zeitraum und Umfeld. Fundstelle: Abschnitt über Operation Rennsteig, 04.07.2012.
-- **Alternative:** Gemeinsame Quellengewinnung bezeichnet nachrichtendienstliche Penetration und nicht zwangsläufig ein gemeinsames Steuerungszentrum für die beobachtete Szene.
-- **Beweislücke:** Operations- und Kompetenzakten mit konkreter Quellenführung und Auftragsteilung der drei Dienste.
-- **Tragweite:** Die institutionelle Beteiligung der drei genannten Dienste an einer nachrichtendienstlichen Maßnahme im THS-Umfeld.
-- **Falsifikation:** Erhaltene Einsatzakten, die eine Beteiligung der genannten Dienste oder den Zeitraum ausschließen, würden die parlamentarische Rekonstruktion schwächen.
+    **Typ:** fact · **Evidenz:** belegt
+
+    - **Stütze `SRC-DE-BT-NSU-RENNSTEIG-2012` (direct):** Die Bundestagsdarstellung zur Operation Rennsteig benennt drei beteiligte Dienste, Zeitraum und Umfeld. Fundstelle: Abschnitt über Operation Rennsteig, 04.07.2012.
+    - **Alternative:** Gemeinsame Quellengewinnung bezeichnet nachrichtendienstliche Penetration und nicht zwangsläufig ein gemeinsames Steuerungszentrum für die beobachtete Szene.
+    - **Beweislücke:** Operations- und Kompetenzakten mit konkreter Quellenführung und Auftragsteilung der drei Dienste.
+    - **Tragweite:** Die institutionelle Beteiligung der drei genannten Dienste an einer nachrichtendienstlichen Maßnahme im THS-Umfeld.
+    - **Falsifikation:** Erhaltene Einsatzakten, die eine Beteiligung der genannten Dienste oder den Zeitraum ausschließen, würden die parlamentarische Rekonstruktion schwächen.
 
 ## Was folgt?
 

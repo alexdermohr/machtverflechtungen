@@ -594,6 +594,14 @@ case_links:
 
 # Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Aktenweitergabe, private Informationsdienste, staatliche Fördergelder, Kontovollmachten und politische Medienentwürfe um Hans Langemann.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 ## Gesicherter Ereigniskern
 
 Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf) (Mehrheitsbericht, 16.07.1982) und [9/13012](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf) (Minderheitenbericht, 10.09.1982) sind amtliche Originalveröffentlichungen **derselben Untersuchung**. Aussagen über die darin zitierten geheimen Vermerke und Zahlungen bleiben an die jeweilige Ausschussdarstellung gebunden.

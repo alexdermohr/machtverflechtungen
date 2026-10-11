@@ -68,6 +68,14 @@ case_links: []
 
 # Organisation Gehlen und Entstehung des BND
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Aufbau eines westdeutschen Nachrichtendienstes aus der Organisation Gehlen, seine frühen institutionellen Verbindungen und personellen Kontinuitäten.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfokus:** Welche personellen, institutionellen und operativen Kontinuitäten führten von der unmittelbaren Nachkriegszeit zur Organisation Gehlen und zum frühen Bundesnachrichtendienst?
 
 ## Gesicherter Ereigniskern

@@ -142,6 +142,14 @@ case_links:
 
 # Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** BND-Überwachung von Journalisten, dokumentierte Eingriffe in Berichterstattung und ein verdeckter CIA-Finanzierungsweg für ein Medium.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 ## Auswahlregel
 
 Dieser Fall enthält nur Vorgänge mit einem konkreten problematischen Machtmechanismus: rechtswidrige Überwachung von Journalisten, dokumentierte Beeinflussung von Berichterstattung oder verdeckte Geheimdienstfinanzierung eines Mediums. Bloße Mitgliedschaften, Konferenzteilnahmen, Eigentumsverhältnisse, normale Berufsrollen und personelle Mehrfachrollen gehören nicht in diesen Fall.

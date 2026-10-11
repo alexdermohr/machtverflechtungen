@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Machtverflechtungen macht politisch aufgeladene und historisch schwierige Hypothesen prüfbar. Amtliche Darstellungen werden nicht automatisch übernommen; Verdachtsmomente werden nicht automatisch zu Tatsachen erklärt.
+Machtverflechtungen prüft historisch schwierige Hypothesen anhand konkreter Aktenbefunde. Dokumentierte Vorgänge, weiterführende Erklärungen und gezielte Originalaktenprüfungen werden getrennt ausgewiesen.
 
 Das Erkenntnisziel lautet: **möglichst weitreichende Zusammenhänge finden können, ohne sie bereits vorauszusetzen.**
 
@@ -18,11 +18,11 @@ Ein Fall besitzt deshalb keinen globalen Wahrheits- oder Evidenzwert. Sein `stat
 - `developing` — substantiell bearbeitet, wichtige Prüfungen bleiben offen;
 - `reviewed` — das verpflichtende Prüfschema wurde für den aktuellen Datenstand durchlaufen.
 
-`reviewed` bedeutet nicht „wahr“ oder „abgeschlossen“. Neue Quellen können Claims verändern.
+`reviewed` bezeichnet die durchlaufene Prüfung des jeweiligen Datenstands. Neue Quellen können Claims verändern und eine erneute Prüfung auslösen.
 
 Auch der sichtbare **gesicherte Ereigniskern** bildet keine freie Faktenschicht neben den Claims. `event_claims` darf ausschließlich auf Claims desselben Falls verweisen, die als `fact` klassifiziert und `established` oder `strong` bewertet sind. Der Falltext darf diesen Ereigniskern nur aus diesen Claims ableiten; der Validator prüft, dass Claim-ID und Claim-Wortlaut im sichtbaren Falltext gespiegelt bleiben.
 
-Auch die fallweiten Synthesen **„Was folgt?“** und **„Was folgt nicht?“** dürfen keine quellenlose Nebenargumentation bilden. Jeder Syntheseeintrag verweist deshalb auf die Claims desselben Falls, aus denen er abgeleitet wird. Die Referenz macht die Ableitung prüfbar; sie beweist nicht automatisch, dass der Synthesetext logisch aus den Claims folgt.
+Auch fallweite Synthesen werden aus konkreten Claim-IDs hergeleitet. Die Aussage muss sich anhand dieser Claims nachvollziehen und gegen die dort dokumentierten Gegenbelege prüfen lassen.
 
 ## Evidenzstufen für Claims
 
@@ -32,7 +32,7 @@ Auch die fallweiten Synthesen **„Was folgt?“** und **„Was folgt nicht?“*
 - **`speculative` — spekulativ/offen:** prüfbarer Verdacht mit noch unzureichender Beleglage.
 - **`contradicted` — widersprochen:** die konkrete Form der Behauptung kollidiert mit höher gewichteter Evidenz.
 
-Plausibilität und Beweisstärke sind nicht dasselbe. Eine mechanistisch plausible Hypothese kann schwach belegt sein; ein gut belegter Einzelbefund kann nur eine sehr enge Aussage tragen.
+Plausibilität beschreibt die Erklärungskraft einer Hypothese; Beweisstärke beschreibt ihre Quellenstütze. Beide werden unabhängig ausgewiesen.
 
 ## Claim-Klassifikationen
 
@@ -53,7 +53,7 @@ Jeder Claim enthält neben seiner Stütze dieselben Prüffelder:
 5. **Aussagegrenze** — was trägt die Evidenz und was ausdrücklich nicht?
 6. **Falsifikation** — welcher Befund würde den Claim materiell schwächen oder widerlegen?
 
-Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine leere Liste bedeutet nur: **im aktuellen Datensatz ist nichts registriert**. Sie beweist weder die Abwesenheit von Gegenbelegen noch die Vollständigkeit der Recherche.
+Diese Felder dürfen inhaltlich leer sein, aber nicht strukturell fehlen. Eine leere Liste kennzeichnet fehlende Einträge im aktuellen Forschungsstand; sie sagt nichts über tatsächlich vorhandene, bislang nicht registrierte Gegenbelege aus.
 
 Damit wird Gegenprüfung nicht als nachträgliche Relativierung einer bereits gesetzten Erzählung behandelt, sondern gleichzeitig mit der Behauptung gespeichert.
 
@@ -128,7 +128,7 @@ Bloße Ko-Präsenz in einem Gremium wird nicht als Einfluss- oder Steuerungsverh
 - **Einfluss:** es gibt Evidenz dafür, dass diese Beziehung Entscheidungen oder Verhalten mitprägt.
 - **Steuerung:** ein Akteur gibt Ziele, Mittel oder konkrete Handlungen eines anderen Akteurs maßgeblich vor.
 
-Jede Stufe verlangt zusätzliche Evidenz. Verbindung beweist keinen Einfluss; Einfluss beweist keine Steuerung.
+Eine dokumentierte Verbindung beweist keinen Einfluss; Einfluss beweist keine Steuerung. Für Einfluss werden konkrete Entscheidungs- und Verhaltenswirkungen untersucht, für Steuerung zusätzlich Anweisungen und deren Umsetzung.
 
 ## Verlinkungen zwischen Fällen
 
@@ -162,11 +162,11 @@ Vorwissen ist keine Tatbeteiligung. Infiltration ist keine Steuerung. Materielle
 
 Ein Ereignis kann Folgen haben, von denen Institutionen oder politische Akteure profitieren.
 
-Daraus folgt nicht automatisch:
+Politischer Nutzen nach einem Ereignis begründet für sich weder Absicht noch Urheberschaft. Die mögliche Abfolge
 
 `Nutzen → Motiv → Absicht → Urheberschaft`
 
-Jeder Übergang ist eine zusätzliche Kausalbehauptung und braucht eigene Evidenz.
+besteht aus **eigenständigen Kausalbehauptungen**. Für jeden Übergang werden gesondert Entscheidungsvermerke, Kommunikation und dokumentierte Handlungen benötigt.
 
 ## Terrorismus und politische Gewalt: getrennte Ebenen
 
@@ -177,7 +177,7 @@ Bei Terrorismus oder politischer Gewalt werden mindestens vier qualitativ versch
 3. **Provokation / Inszenierung:** staatliche Stellen erzeugen, provozieren oder imitieren einen Vorgang.
 4. **Steuerung:** terroristische Akteure oder konkrete Anschläge werden aktiv dirigiert.
 
-Ein Beleg für Ebene 1 oder 2 beweist nicht Ebene 3 oder 4.
+Ein Befund auf Ebene 1 oder 2 trägt noch keinen Schluss auf Ebene 3 oder 4. Für Provokation und Steuerung sind gesonderte Belege über Auftrag, Führung, Vorbereitung und Vollzug entscheidend.
 
 ## Prüfmatrix für einschlägige Fälle
 
@@ -208,7 +208,7 @@ Konkrete Täterschaft, Mitwisserschaft, Deckung, Depistaggio, Nachrichtendienstb
 
 Widersprüche werden nicht geglättet.
 
-Parlamentarische, behördliche oder politische Wertungen sind zunächst Aussagen der jeweiligen Institution. Eine Primärquelle belegt sicher, dass die Institution diese Aussage getroffen hat; sie ersetzt nicht automatisch die unabhängige Prüfung jedes historischen Sachverhalts innerhalb dieser Aussage.
+Parlamentarische, behördliche oder politische Wertungen werden der jeweiligen Institution zugeschrieben. Die Primärquelle dokumentiert ihren Wortlaut; für historische Tatsachen werden Urschriften, Gegenakten und unabhängige Quellen gesondert geprüft.
 
 Historische Quellen belegen zunächst den damaligen Wissens- und Entscheidungsstand. Spätere Aktenfunde oder Forschung können ihn korrigieren.
 
