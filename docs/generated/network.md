@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**80 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**89 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -14,10 +14,13 @@
 | `REL-DE-MNI-012` | Bundesnachrichtendienst | Ausschuss stellte in Einzelfällen Versuche fest, Journalisten von Veröffentlichungen abzuhalten; keine Anhaltspunkte für vom BND lancierte Zeitungsbeiträge | Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung | belegt | [SRC-DE-BT-UA-BND-JOURNALISTEN-2009](../quellen/index.md#src-de-bt-ua-bnd-journalisten-2009) |
 | `REL-DE-MNI-001` | Bundesnachrichtendienst | Ausschussmehrheit bewertete die Observationen 1993 bis 1996 wegen Dauer und Intensität als unverhältnismäßig und rechtswidrig | Erich Schmidt-Eenboom | belegt | [SRC-DE-BT-UA-BND-JOURNALISTEN-2009](../quellen/index.md#src-de-bt-ua-bnd-journalisten-2009) |
 | `REL-DE-MNI-005` | Bundesnachrichtendienst | Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können | Georg Mascolo | stark gestützt | [SRC-DE-BT-UA-BND-JOURNALISTEN-2009](../quellen/index.md#src-de-bt-ua-bnd-journalisten-2009) |
+| `REL-DE-DA-006` | Bundeswehr | überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich | Deutsch-Russisches Gemeinschaftswerk | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |
 | `REL-DE-MNI-006` | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | stark gestützt | [SRC-US-CIA-CCF-HISTORY-1995](../quellen/index.md#src-us-cia-ccf-history-1995) |
 | `REL-DE-TMN-023` | Claus Kleber | als Moderator der Diskussion angekündigt | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-KLEBER-2026](../quellen/index.md#src-de-ab-kleber-2026) |
 | `REL-DE-TMN-050` | Claus Kleber | hielt die XX. Karl-Heinz-Beckurts-Gedächtnisrede | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2006-2007](../quellen/index.md#src-de-ab-jb-2006-2007) |
 | `REL-DE-MNI-008` | Congress for Cultural Freedom | laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | stark gestützt | [SRC-INT-SCOTT-SMITH-DER-MONAT-2000](../quellen/index.md#src-int-scott-smith-der-monat-2000) |
+| `REL-DE-DA-008` | Deutsche Aktionsgruppen | Opfer des Brandanschlags 22.08.1980 in Hamburg-Billbrook | Nguyễn Ngọc Châu | stark gestützt | [SRC-DE-ARCHIVPORTAL-DA-2026](../quellen/index.md#src-de-archivportal-da-2026) |
+| `REL-DE-DA-009` | Deutsche Aktionsgruppen | Opfer desselben Hamburger Brandanschlags; starb neun Tage später | Đỗ Anh Lân | stark gestützt | [SRC-DE-ARCHIVPORTAL-DA-2026](../quellen/index.md#src-de-archivportal-da-2026) |
 | `REL-DE-TMN-033` | Dieter von Holtzbrinck | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-021` | Elmar Theveßen | als Mitglied bezeichnet | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-THEVESSEN-2024](../quellen/index.md#src-de-ab-thevessen-2024) |
 | `REL-DE-TMN-030` | Elmar Theveßen | Teilnehmer des Young-Leaders-Jahrgangs 2003 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
@@ -33,6 +36,8 @@
 | `REL-DE-LANG-004` | Hans C. Freiherr von Stauffenberg | war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt | Walter H. Jonas | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
 | `REL-DE-LANG-002` | Hans Langemann | überwies laut Minderheitenbericht 1978/1979 in drei Zuwendungen insgesamt 14.500 DM auf das Brunello-Konto | Aristide Brunello | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
 | `REL-DE-LANG-001` | Hans Langemann | veranlasste laut Minderheitenbericht 1977 drei Überweisungen über 17.000 DM für Jonas, davon 4.000 DM auf das von-Corneli-Konto | Walter H. Jonas | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
+| `REL-DE-DA-003` | Heinz Lembke | Kontakt zur Deutschen Bürgerinitiative laut Bundesregierung 1981 | Deutsche Bürgerinitiative | belegt | [SRC-DE-BT-09066-1981](../quellen/index.md#src-de-bt-09066-1981) |
+| `REL-DE-DA-004` | Heinz Lembke | Kontakt laut Bundestagsauskunft vom 25.11.1981 | Odfried Hepp | belegt | [SRC-DE-BT-09066-1981](../quellen/index.md#src-de-bt-09066-1981) |
 | `REL-DE-TMN-031` | Hubert Burda | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-053` | Hubert Burda | Teilnehmer der Bilderberg-Konferenz 2007 | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-2007-ARCHIVE](../quellen/index.md#src-int-bilderberg-2007-archive) |
 | `REL-DE-TMN-047` | Ingo Zamperoni | Teilnehmer eines Working Lunch mit Admiral James G. Stavridis | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2011-2012](../quellen/index.md#src-de-ab-jb-2011-2012) |
@@ -53,6 +58,10 @@
 | `REL-DE-TMN-056` | Klaus-Dieter Frankenberger | in der Mitgliederliste der Trilateral Commission geführt | The Trilateral Commission | stark gestützt | [SRC-INT-TRILATERAL-2017-MIRROR](../quellen/index.md#src-int-trilateral-2017-mirror) |
 | `REL-DE-NSU-YOZ-002` | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | belegt | [SRC-DE-BT-NSU-YOZGAT-2016](../quellen/index.md#src-de-bt-nsu-yozgat-2016) |
 | `REL-DE-TMN-041` | Liz Mohn | erhielt den XIV. Vernon A. Walters Award | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2008-2009](../quellen/index.md#src-de-ab-jb-2008-2009) |
+| `REL-DE-DA-007` | Manfred Roeder | hielt laut Untersuchungsausschuss am 24.01.1995 Vortrag an der Führungsakademie | Bundeswehr | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |
+| `REL-DE-DA-005` | Manfred Roeder | zweiter Vorsitzender laut Untersuchungsausschuss im Kontext der 1995er Materialübernahme | Deutsch-Russisches Gemeinschaftswerk | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |
+| `REL-DE-DA-001` | Manfred Roeder | leitete laut archivalischer Rekonstruktion die Anschlagsgruppe 1980 | Deutsche Aktionsgruppen | stark gestützt | [SRC-DE-ARCHIVPORTAL-DA-2026](../quellen/index.md#src-de-archivportal-da-2026) |
+| `REL-DE-DA-002` | Manfred Roeder | als Akteur der Deutschen Bürgerinitiative und ihrer berichteten Konteneingänge 1979/80 genannt | Deutsche Bürgerinitiative | belegt | [SRC-DE-BT-09066-1981](../quellen/index.md#src-de-bt-09066-1981) |
 | `REL-DE-TMN-036` | Mathias Döpfner | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-002` | Mathias Döpfner | CEO | Axel Springer SE | belegt | [SRC-INT-BILDERBERG-2017](../quellen/index.md#src-int-bilderberg-2017) |
 | `REL-DE-TMN-001` | Mathias Döpfner | Teilnehmer 2017 | Bilderberg Meetings | belegt | [SRC-INT-BILDERBERG-2017](../quellen/index.md#src-int-bilderberg-2017) |

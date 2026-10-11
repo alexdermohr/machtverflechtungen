@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**80 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**89 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -157,6 +157,24 @@ flowchart LR
     N_PER_DE_HANS_C_STAUFFENBERG["Hans C. Freiherr von Stauffenberg"]
     N_PER_DE_HANS_C_STAUFFENBERG -->|"waren laut Minderheitenbericht beide für das Brunello-Konto verfügungsberechtigt"| N_PER_DE_ARISTIDE_BRUNELLO
     N_PER_DE_HANS_C_STAUFFENBERG -->|"war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt"| N_PER_DE_WALTER_H_JONAS
+    N_PER_DE_MANFRED_ROEDER["Manfred Roeder"]
+    N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN["Deutsche Aktionsgruppen"]
+    N_PER_DE_MANFRED_ROEDER -->|"leitete laut archivalischer Rekonstruktion die Anschlagsgruppe 1980"| N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN
+    N_ORG_DE_DEUTSCHE_BUERGERINITIATIVE["Deutsche Bürgerinitiative"]
+    N_PER_DE_MANFRED_ROEDER -->|"als Akteur der Deutschen Bürgerinitiative und ihrer berichteten Konteneingänge 1979/80 genannt"| N_ORG_DE_DEUTSCHE_BUERGERINITIATIVE
+    N_PER_DE_HEINZ_LEMBKE["Heinz Lembke"]
+    N_PER_DE_HEINZ_LEMBKE -->|"Kontakt zur Deutschen Bürgerinitiative laut Bundesregierung 1981"| N_ORG_DE_DEUTSCHE_BUERGERINITIATIVE
+    N_PER_DE_ODFRIED_HEPP["Odfried Hepp"]
+    N_PER_DE_HEINZ_LEMBKE -->|"Kontakt laut Bundestagsauskunft vom 25.11.1981"| N_PER_DE_ODFRIED_HEPP
+    N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK["Deutsch-Russisches Gemeinschaftswerk"]
+    N_PER_DE_MANFRED_ROEDER -->|"zweiter Vorsitzender laut Untersuchungsausschuss im Kontext der 1995er Materialübernahme"| N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK
+    N_ORG_DE_BUNDESWEHR["Bundeswehr"]
+    N_ORG_DE_BUNDESWEHR -->|"überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich"| N_ORG_DE_DEUTSCH_RUSS_GEMEINSCHAFTSWERK
+    N_PER_DE_MANFRED_ROEDER -->|"hielt laut Untersuchungsausschuss am 24.01.1995 Vortrag an der Führungsakademie"| N_ORG_DE_BUNDESWEHR
+    N_PER_DE_NGUYEN_NGOC_CHAU["Nguyễn Ngọc Châu"]
+    N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN -->|"Opfer des Brandanschlags 22.08.1980 in Hamburg-Billbrook"| N_PER_DE_NGUYEN_NGOC_CHAU
+    N_PER_DE_DO_ANH_LAN["Đỗ Anh Lân"]
+    N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN -->|"Opfer desselben Hamburger Brandanschlags; starb neun Tage später"| N_PER_DE_DO_ANH_LAN
 ```
 
 [Zur Relationstabelle](network.md)

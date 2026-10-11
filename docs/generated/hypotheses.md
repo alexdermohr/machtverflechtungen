@@ -44,6 +44,12 @@ Die Arbeitsverschriftlichung des Panorama-Beitrags bezeichnet einen juristischen
 
 Die dokumentierten Aktenabflüsse, staatlich geförderten Informationszahlungen und Vermerke zu Medienkampagnen rechtfertigen als Forschungsansatz die Hypothese eines informellen politisch-nachrichtendienstlichen Einflussnetzes um Hans Langemann, das staatliche Ressourcenzugänge mit privaten Medien- und Finanzkontakten verknüpfen konnte.
 
+## [Deutsche Aktionsgruppen, Roeder und Finanzierungswege 1979–1998](../faelle/de/deutsche-aktionsgruppen-roeder-1980-1998.md) · CLM-DE-DA-010
+
+**hypothesis · plausible**
+
+Die dokumentierten Roeder-Kontakte, privaten Konteneingänge 1979/1980 und staatlichen Sachmittelzugänge 1994/1995 begründen die prüfbare Hypothese, dass Roeder über unterschiedliche Organisationen und Jahrzehnte hinweg personelle Netzwerke zur Ressourcenbeschaffung nutzte.
+
 ## [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](../faelle/de/oktoberfestattentat-1980.md) · CLM-DE-OKT-058
 
 **fact · plausible**

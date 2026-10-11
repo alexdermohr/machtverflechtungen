@@ -93,6 +93,7 @@ CASE_TOPICS = {
     "faelle/de/peter-urbach-verfassungsschutz.md": "Nachrichtendienste & Informanten",
     "faelle/de/celler-loch.md": "Nachrichtendienste & Informanten",
     "faelle/de/technischer-dienst-bdj.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/deutsche-aktionsgruppen-roeder-1980-1998.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/oktoberfestattentat-1980.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/thueringer-heimatschutz-tino-brandt.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/nsu-v-leute-aktenvernichtung.md": "Rechtsterrorismus & Ermittlungen",

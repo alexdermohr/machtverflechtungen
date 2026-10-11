@@ -1214,3 +1214,47 @@ sources:
     zitierten internen Vormerkungen und Kontoauszüge wurden nicht als separate Urschriften geprüft. Keine zusätzliche
     unabhängige Zeugenbasis gegenüber Drucksache 9/12951 behaupten. Pläne, Zuschreibungen und tatsächlich ausgeführte
     Handlungen getrennt halten.
+- id: SRC-DE-BT-09066-1981
+  title: "Stenographischer Bericht Bundestag 9/66, Fragestunde zu Lembke, Roeder und rechtsextremistischen Geldquellen"
+  institution: "Deutscher Bundestag"
+  date: "1981-11-25"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/09/09066.pdf"
+  accessed: "2026-10-11"
+  locator: "gedruckte S. 3842–3843, Zusatzfrage Gnädinger sowie Frage 16 Fischer (Osthofen)"
+  notes: "Zeitgenössischer Wortlaut der Regierungsauskünfte. Kontakte, Gruppenzugehörigkeiten und 84.000-DM-Konteneingänge werden berichtet; Ausgangsbuchungen sind gesondert zu prüfen."
+- id: SRC-DE-BT-1311005-1998
+  title: "Bericht des Verteidigungsausschusses als Untersuchungsausschuss zu rechtsextremistischen Vorkommnissen und Manfred Roeder"
+  institution: "Deutscher Bundestag"
+  date: "1998"
+  type: "parliamentary_inquiry_report"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btd/13/110/1311005.pdf"
+  accessed: "2026-10-11"
+  locator: "gedruckte S. 55–57, 66, 74–76, 161–166 und 464–465; Roeder, DRGW, Bundeswehr-Fahrzeuge, Vortrag, Verbleib"
+  notes: "Parlamentarischer Untersuchungsbericht mit Zeugenaussagen, amtlichen Vorgängen und Dokumentenreferenzen. Abgabe 1994, Transport 1995 und spätere Fahrzeugverwendung sind chronologisch getrennt."
+- id: SRC-DE-ARCHIVPORTAL-DA-2026
+  title: "Archivportal-D Themenportal Rechte Gewalt: Rassistischer Anschlag der Deutschen Aktionsgruppen"
+  institution: "Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg"
+  date: "2026-08-14"
+  type: "archival_research_dossier"
+  primary: false
+  tier: "B"
+  url: "https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen"
+  accessed: "2026-10-11"
+  locator: "Einleitung; Ablauf des Ereignisses; Ermittlungen; Bestandsübersicht"
+  notes: "Redaktionelles Archivdossier mit direkter Benennung OLG Stuttgart 5 – 1 StE 3/81, S. 194–198, und Bundesarchiv-/Landesarchivsignaturen; das Urteil selbst wurde hier noch nicht im Volltext eingesehen."
+- id: SRC-DE-HE-VSBER-1982
+  title: "Verfassungsschutz in Hessen – Bericht 1982"
+  institution: "Hessische Landesregierung / Verfassungsschutz Hessen"
+  date: "1982"
+  type: "official_security_report"
+  primary: true
+  tier: A
+  url: "https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf"
+  accessed: "2026-10-11"
+  locator: "gedruckte S. 15, Abschnitt Manfred Roeder/Deutsche Bürgerinitiative; PDF-Seite 16"
+  notes: "Zeitgenössischer amtlicher Bericht: OLG-Urteil am 28. Juni 1982, 13 Jahre Haft; Rückgang der DBI-Mitglieder und Spendeneinnahmen. Die Drucksache 13/11005 von 1998 nennt hingegen den 24. Juni."
