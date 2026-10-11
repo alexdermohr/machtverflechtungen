@@ -83,12 +83,18 @@ claims:
     locator: Gedruckte S. 13, Abschnitt 5, Ziffer 1
     note: Mehrheitsbericht beschreibt Zahlung, Empfängername, Fördermittelkontext und einen vorgelegten Verwendungsnachweis;
       die Urschriften sind noch ein eigener Prüfschritt.
-  counterevidence: []
+  counterevidence:
+  - source: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+    directness: direct
+    locator: Gedruckte S. 25, rechte Spalte, Förderung der Arbeitsgemeinschaft und 8.000 DM an Kinsky
+    note: Der Minderheitenbericht datiert eine 8.000-DM-Zahlung aus der Arbeitsgemeinschaft an Johann Kinsky auf 1975;
+      der Mehrheitsbericht nennt 1976. Identität und Buchungsdatum sind anhand der Auszahlung zu prüfen.
   alternatives:
   - Die angegebene Verwendung für eine wissenschaftliche Ausarbeitung kann von den tatsächlichen Empfänger- und Weiterleitungswegen
     abweichen; andere im Ausschuss erwähnte Zahlungen bleiben getrennt.
+  - Beide Drucksachen können dieselbe 8.000-DM-Zahlung mit abweichender Jahreszuordnung wiedergeben; getrennte Buchungen sind erst durch Primärbelege zu unterscheiden.
   missing_evidence:
-  - Originalkontoauszug der Arbeitsgemeinschaft 1976, Auszahlungsanordnung über 8.000 DM, Fördermittelbescheid und vollständiger
+  - Originalkontoauszüge der Arbeitsgemeinschaft 1975/1976, Auszahlungsanordnung über 8.000 DM, Fördermittelbescheid und vollständiger
     Verwendungsnachweis samt Empfängeridentität.
   scope:
     supports: Berichtete, betragsgenaue staatlich geförderte Finanzierung eines namentlich dokumentierten Empfängers.
@@ -326,8 +332,8 @@ what_follows:
     wieder bei Sicherheitsbehörden auftauchten.
   claim_ids:
   - CLM-DE-LANG-001
-- text: Für 1976 ist im Mehrheitsbericht ein exakt bezifferter, öffentlich geförderter Informationsgeldfluss an den
-    Namen Kinsky verzeichnet; dessen Identitätsfrage wurde 1982 gesondert aufgegriffen.
+- text: Die Mehrheit datiert 8.000 DM an Kinsky auf 1976, die Minderheit auf 1975; die Decknamensidentität wird
+    in der Untersuchung gesondert behandelt.
   claim_ids:
   - CLM-DE-LANG-002
   - CLM-DE-LANG-003
@@ -360,8 +366,8 @@ what_does_not_follow: []
 open_questions:
 - Welche Originalkopien übergab Gaub im März 1982, und lässt sich die von Heigl auf etwa Anfang Oktober 1980 datierte
   ursprüngliche Übergabe anhand von Dienst- und Empfangsjournalen zuordnen?
-- Sind die 1976 im Mehrheitsbericht genannten 8.000 DM und die im Minderheitenbericht erwähnten anderen Kinsky-Kontobewegungen
-  getrennte Zahlungsvorgänge, und welche Endempfänger zeigen die Originalbelege?
+- Der Mehrheitsbericht datiert 8.000 DM an Kinsky auf 1976, der Minderheitenbericht auf 1975. Welches Originalbuchungsdatum gilt,
+  und wie ist die getrennt berichtete 5.000-DM-Überweisung von 1976 zuzuordnen?
 - Welche originale November-1979-Vormerkung, welchen genehmigenden oder ablehnenden Verwaltungsvermerk und welche konkrete
   Finanzierungs- oder Umsetzungshandlung gab es zu „Victory for Strauß“?
 - Welche Zeitung veröffentlichte am 11. Februar 1980 welchen Beitrag, und was zeigen Originalakten beziehungsweise Redaktionskorrespondenz
@@ -407,11 +413,11 @@ Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAbla
 
 Der **Mehrheitsbericht, S. 11, Ziffer 2c**, identifiziert für den Oktoberfestkomplex einen datierten Rückweg von Kopien: *Heigl → Rechtsanwalt Gaub → BayLfV, März 1982*. Die früher behauptete Weitergabe Langemanns an Heigl etwa zehn Tage nach dem Attentat ist ausdrücklich **Heigls Aussage**. Entscheidend sind Kopienlisten, Eingangsstempel und die ursprünglichen Verteiler.
 
-Der **Mehrheitsbericht, S. 13, Ziffer 5**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, beschreibt daneben eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Ohne Buchungsbelege werden diese zwei Beträge weder zusammengezählt noch als dieselbe Transaktion behandelt.
+Der **Mehrheitsbericht, S. 13, Ziffer 5**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, datiert eine entsprechende **8.000-DM**-Zahlung an Kinsky hingegen auf **1975** und beschreibt separat eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Der Widerspruch **1975/1976** zur 8.000-DM-Zahlung ist über ursprüngliche Zahlungsbelege aufzulösen; die zusätzlich genannten 5.000 DM sind gesondert zu verbuchen.
 
 Die Landtagsmehrheit und -minderheit dokumentieren auch den privaten Informationsdienst von **Hans C. Freiherr von Stauffenberg**. Der Minderheitenbericht beziffert in einer von Stauffenberg zugeschriebenen Zeugenaussage Zahlungen von **300.000 bis 350.000 DM** an Langemann für den Zeitraum **1977–1982**. Der Mehrheitsbericht nennt für **1976–1979** monatliche Beträge von **5.000–6.000 DM** sowie eine Schätzung über **300.000 DM**. Die Datierungsdifferenz ist anhand des Originalvernehmungsprotokolls und der Abrechnungen zu klären.
 
-Der **Arbeitskreis für das Studium internationaler Fragen e.V.** erhielt laut Minderheitenbericht aus dem bayerischen Innenministerium **27.000 DM (1979)**, **30.000 DM (1980)** und **35.000 DM (1981)**. Stauffenberg sagte demnach, aus diesem Arbeitskreis gelegentlich Mittel für seinen Informationsdienst erhalten zu haben . Der Bericht nennt **Franz Josef Strauß, Gerold Tandler und Alfred Seidl** als Empfänger des privaten Dienstes . Förderbescheide, Originalkonten, Belegexemplare und Versandlisten sind hier die unmittelbar entscheidenden Akten.
+Der **Arbeitskreis für das Studium internationaler Fragen e.V.** erhielt laut Minderheitenbericht aus dem bayerischen Innenministerium **27.000 DM (1979)**, **30.000 DM (1980)** und **35.000 DM (1981)**. Stauffenberg sagte demnach, aus diesem Arbeitskreis gelegentlich Mittel für seinen Informationsdienst erhalten zu haben. Der Bericht nennt **Franz Josef Strauß, Gerold Tandler und Alfred Seidl** als Empfänger des privaten Dienstes. Förderbescheide, Originalkonten, Belegexemplare und Versandlisten sind hier die unmittelbar entscheidenden Akten.
 
 ## Politische Medien- und Finanzierungsentwürfe
 
@@ -435,4 +441,4 @@ Die entscheidende Unterscheidung betrifft **registrierte Mittelbewegungen**, **b
 ## Quellen
 
 - [Bayerischer Landtag, Drs. 9/12951, Mehrheitsbericht vom 16.07.1982](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf) — `SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982`, gedruckte S. 11 und 13.
-- [Bayerischer Landtag, Drs. 9/13012, Minderheitenbericht vom 10.09.1982](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf) — `SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982`, gedruckte S. 17–18 und 25.
+- [Bayerischer Landtag, Drs. 9/13012, Minderheitenbericht vom 10.09.1982](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf) — `SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982`, gedruckte S. 17–18 und 25–26.
