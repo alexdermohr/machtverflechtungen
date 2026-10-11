@@ -151,7 +151,6 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 - **Alternative:** Die Frage nach individueller Motivation und Weisungskette ist von der Tatsache der Aktenvernichtung zu trennen.
 - **Beweislücke:** Vernichtungsprotokolle, Aktenverzeichnisse und Rekonstruktionsstand nach Aktenkomplex getrennt prüfen.
 - **Tragweite:** Die dokumentierte Vernichtung mehrerer konkreter BfV-Quellenakten nach der Enttarnung.
-- **Grenze:** Keine pauschale staatliche Beteiligung an NSU-Verbrechen oder ein bekanntes Tatvorwissen.
 - **Falsifikation:** Revisionssichere Aktennachweise, die zeigen, dass die konkret als vernichtet bezeichneten Bestände unversehrt blieben, würden den Claim treffen.
 
 ### `CLM-DE-NSU-AKT-002`
@@ -164,7 +163,6 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 - **Alternative:** Die Aussage kann eine eigenmächtige Handlung im Interesse des institutionellen Ansehens beschreiben, ohne dienstliche Anweisung oder Mitwissen höherer Ebenen.
 - **Beweislücke:** Vollständiges BKA/GBA-Vernehmungsprotokoll von Oktober 2014; dienstliche Kommunikation und konkrete Vernichtungsanordnungen.
 - **Tragweite:** Das dokumentierte spätere Eingeständnis des Mitarbeiters, nicht die unabhängige Prüfung sämtlicher angegebenen Motive.
-- **Grenze:** Keine gesicherte Mitwisserschaft seiner Vorgesetzten und keine Vertuschung einer staatlichen Beteiligung an Mordtaten.
 - **Falsifikation:** Authentisches vollständiges Vernehmungsprotokoll, das die zugeschriebene Erklärung wesentlich anders wiedergibt, würde die Aussage verändern.
 
 ### `CLM-DE-NSU-AKT-003`
@@ -177,7 +175,6 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 - **Alternative:** Mangelnde Aktenlage und mögliche Nichtweitergabe durch einzelne Quellen können fehlende Hinweise erklären, ohne die Abwesenheit jeden Vorwissens zu beweisen.
 - **Beweislücke:** Dienstliche Originalmeldeketten und erhaltene Treffberichte einzelner V-Personen systematisch nach Tathinweisen prüfen.
 - **Tragweite:** Das negative Ergebnis der vom Bundestag dargestellten damaligen Ausschussrecherche.
-- **Grenze:** Keine endgültige Entlastung aller Behörden, Quellen oder Mitarbeiter und kein Ausschluss künftig auffindbarer Hinweise.
 - **Falsifikation:** Authentische, vor November 2011 eingegangene Dienstmeldungen mit konkreten Angaben zu NSU-Taten und Aufenthalten würden den negativen Befund materiell ändern.
 
 ### `CLM-DE-NSU-AKT-004`
@@ -190,7 +187,6 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 - **Alternative:** Fehlerhafte Quellenführung kann auf fachliche und organisatorische Fehlleistung statt einheitliche politische Absicht zurückgehen.
 - **Beweislücke:** Widersprüchliche Auskünfte der Quellenführer durch Originaltreffberichte und Verwaltungsvorgänge prüfen.
 - **Tragweite:** Festgestellte Defizite in der Quellenpraxis nach amtlicher Ausschussdarstellung.
-- **Grenze:** Keine generelle Gleichsetzung jeder Quellenführung mit Terrorförderung oder Anschlagslenkung.
 - **Falsifikation:** Eine vollständigere authentische Dokumentation, die die konkret kritisierten Führungsdefizite widerlegt, würde die Bewertung verändern.
 
 ### `CLM-DE-NSU-AKT-005`
@@ -203,17 +199,12 @@ Der bestehende Fall [Thüringer Heimatschutz / Tino Brandt](thueringer-heimatsch
 - **Alternative:** Gemeinsame Quellengewinnung bezeichnet nachrichtendienstliche Penetration und nicht zwangsläufig ein gemeinsames Steuerungszentrum für die beobachtete Szene.
 - **Beweislücke:** Operations- und Kompetenzakten mit konkreter Quellenführung und Auftragsteilung der drei Dienste.
 - **Tragweite:** Die institutionelle Beteiligung der drei genannten Dienste an einer nachrichtendienstlichen Maßnahme im THS-Umfeld.
-- **Grenze:** Weder die Gründung des NSU noch dessen operative Kontrolle oder Beteiligung an Gewalttaten durch die Dienste.
 - **Falsifikation:** Erhaltene Einsatzakten, die eine Beteiligung der genannten Dienste oder den Zeitraum ausschließen, würden die parlamentarische Rekonstruktion schwächen.
 
 ## Was folgt?
 
 - Nachrichtendienstliche Quellengewinnung im THS-Umfeld und nachträgliche Vernichtung von V-Mann-Akten sind voneinander unterscheidbare dokumentierte Vorgänge.
 - Die parlamentarische Rückschau berichtet Mängel der Quellenführung und ein späteres Eingeständnis eines Mitarbeiters zur Motivation der Vernichtung.
-
-## Was folgt nicht?
-
-- Die beschriebenen Defizite und Aktenvernichtungen belegen für sich keine vorherige Kenntnis des Dienstes über die NSU-Taten oder dessen operative Steuerung.
 
 ## Offene Akten- und Prüfpfade
 

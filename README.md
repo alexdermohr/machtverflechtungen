@@ -26,6 +26,10 @@ https://alexdermohr.github.io/machtverflechtungen/
 - Das Frontmatter ist die kanonische Bewertungsstruktur; der Validator erzwingt, dass Claim-ID und Claim-Wortlaut im sichtbaren Falltext gespiegelt bleiben.
 - Timeline, Netzwerk und weitere Indizes werden aus denselben strukturierten Forschungsdaten erzeugt und von CI auf Drift geprüft.
 
+## Darstellung der Forschungsergebnisse
+
+**Erkenntnisse zuerst, Beleggrenzen gezielt.** Die Falltexte berichten konkrete Vorgänge, Akteursbeziehungen, Einflussmechanismen und offene Originalaktenprüfungen. Gegenbefunde und wichtige Quellenkonflikte stehen an der betreffenden Schlussfolgerung. Wiederholte standardisierte Negativlisten gehören nicht in die Lesefassung; ihre vollständige, prüfbare Evidenzklassifikation bleibt im strukturierten Frontmatter erhalten. Die [Redaktionsregeln](CONTRIBUTING.md) und ein Regressionstest sichern diese Trennung.
+
 ## Startbestand
 
 Die erste Version testet das Modell an bewusst unterschiedlichen Gegenständen:

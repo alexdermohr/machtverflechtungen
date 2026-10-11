@@ -131,7 +131,6 @@ Die verweigerten Genehmigungen sind für die Frage nach Ermittlungsbeeinträchti
 - **Alternative:** Zufälliger privater Cafébesuch ist mit der bloßen Anwesenheit vereinbar; aus zeitlicher und örtlicher Nähe folgt keine Tatbeteiligung.
 - **Beweislücke:** Tatortrekonstruktion, vollständige Zeitachse von Ankunft und Verlassen sowie gerichtlich gewürdigte digitale Spuren.
 - **Tragweite:** Die Anwesenheit des damaligen V-Mann-Führers im Lokal im zeitlichen Umfeld der Tat.
-- **Grenze:** Weder Täterschaft, Vorwissen noch Kenntnis des Tatvorgangs.
 - **Falsifikation:** Überprüfbare Originalaufnahmen, Zeitstempel oder sonstige Primärspuren, die die Anwesenheit zum relevanten Zeitraum widerlegen, würden den Claim treffen.
 
 ### `CLM-DE-YOZ-002`
@@ -144,7 +143,6 @@ Die verweigerten Genehmigungen sind für die Frage nach Ermittlungsbeeinträchti
 - **Alternative:** Quellenschutz und Geheimhaltungsregeln können die Verweigerung motiviert haben; daraus folgt nicht automatisch eine Absicht, einen Täter zu decken.
 - **Beweislücke:** Schriftliche Ersuchen der Staatsanwaltschaft, Verweigerungsbescheide sowie entsprechende Begründungen und verwaltungsgerichtliche Überprüfungen.
 - **Tragweite:** Den aktenkundig von Bundestagsabgeordneten diskutierten Eingriff in die Vernehmungsmöglichkeiten der Ermittler.
-- **Grenze:** Keine bewiesene bewusste Deckung eines NSU-Täters oder konkrete Anweisung zur Strafvereitelung.
 - **Falsifikation:** Vollständige amtliche Erlaubnisakten, die die angeblich verweigerten Vernehmungen durchgehend genehmigen, würden die konkrete Behauptung widerlegen.
 
 ### `CLM-DE-YOZ-003`
@@ -157,7 +155,6 @@ Die verweigerten Genehmigungen sind für die Frage nach Ermittlungsbeeinträchti
 - **Alternative:** Eine Verfahrenseinstellung ist kein historischer Freispruch von jedem denkbaren Wissen; zugleich können Zweifel an Aussagen ohne Tatbeteiligung bestehen.
 - **Beweislücke:** Originale staatsanwaltschaftliche Einstellungsverfügung und die schriftliche Beweiswürdigung der Münchner Strafkammer.
 - **Tragweite:** Das dokumentierte Verfahrensende und die fehlende Bestätigung einer Beteiligung im damaligen Ermittlungsstand.
-- **Grenze:** Keine Aussage, dass alle Fragen seines Wissens oder alle Widersprüche endgültig aufgeklärt wurden.
 - **Falsifikation:** Neue authentische gerichtliche oder strafprozessuale Entscheidungen, die eine Tatbeteiligung doch belegen, würden die damalige Beweisbilanz verändern.
 
 ### `CLM-DE-YOZ-004`
@@ -170,17 +167,12 @@ Die verweigerten Genehmigungen sind für die Frage nach Ermittlungsbeeinträchti
 - **Alternative:** Dienstliche Verteilerzugehörigkeit bedeutet nicht belegte individuelle Kenntnisnahme; auch gelesene allgemeine Informationen belegen kein konkretes Vorwissen zum späteren Kasseler Mord.
 - **Beweislücke:** Originale E-Mail-Header, Verteilerliste, Empfangs- und Lesebestätigungen, damalige Postfach- und Aktenvermerke.
 - **Tragweite:** Die auf der Anhörung artikulierte Unsicherheit zur tatsächlichen Kenntnisnahme einer allgemeinen BKA-Information vor der Tat.
-- **Grenze:** Keinen bewiesenen Tatplanhinweis an Temme und keine festgestellte Falschaussage bezüglich des konkreten Mordes.
 - **Falsifikation:** Verifizierbare Empfangs-, Lese- oder Gegenprotokolle würden die Reichweite der behaupteten Ungewissheit einschränken.
 
 ## Was folgt?
 
 - Die Anwesenheit eines hessischen Quellenführers am Tatort und die verweigerten Aussagegenehmigungen gehören zu dokumentierten Untersuchungspunkten.
 - Die parlamentarische Zeugenbefragung dokumentiert eine offene Frage zum tatsächlichen Kenntnisstand des Mitarbeiters vor dem Mord.
-
-## Was folgt nicht?
-
-- Aus Tatortanwesenheit, nicht durchgeführten Vernehmungen und einer ungesicherten E-Mail-Kenntnis folgen weder Tatbeteiligung noch gezieltes Vorwissen des Mitarbeiters.
 
 ## Offene Akten- und Prüfpfade
 

@@ -20,6 +20,15 @@ Beiträge sind willkommen, wenn sie die Nachprüfbarkeit erhöhen. Eine starke B
 - Stabile IDs nicht ohne dokumentierte Migration ändern.
 - Stufe-E-Leads dürfen Fundstellen liefern, aber niemals allein einen nicht-spekulativen Claim tragen.
 
+## Redaktioneller Standard
+
+- **Befund zuerst:** Im lesbaren Text positive Ereignisse, Handlungen, Beziehungen und nächste prüfbare Akten benennen.
+- Einschränkungen nur anführen, wenn sie einen naheliegenden Fehlschluss oder eine wichtige Personen-, Zeit- oder Quellenverwechslung verhindern.
+- Zu einem Claim **keine** standardisierte zusätzliche Liste „Aussagegrenze“ oder „Grenze“ abdrucken. Strukturierte `scope.does_not_support`-Angaben bleiben vollständig erhalten.
+- **Keine** gesonderten pauschalen Listen „Was folgt nicht?“ im sichtbaren Falltext, wenn sie lediglich vorhandene Claim-Grenzen wiederholen. Tatsächliche Gegenbeweise, abweichende Urteile und Quellenwidersprüche im sachlichen Zusammenhang deutlich darstellen.
+- Claim-IDs, wortgleiche Claim-Aussagen, direkte Quellenfundstellen und materiell entscheidende Alternativen weiterhin sichtbar machen.
+- Nach der Redaktion `python -m unittest discover -s tests -p 'test_*.py'` auf die Stilregression sowie den unveränderten Datenvalidator prüfen.
+
 ## Neuer Fall
 
 1. Fallakte unter `docs/faelle/<land>/` anlegen.

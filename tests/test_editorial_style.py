@@ -1,0 +1,99 @@
+"""Protect concise presentation without weakening the structured evidence model."""
+
+from __future__ import annotations
+
+from pathlib import Path
+import re
+import unittest
+
+import yaml
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "docs"
+REDUNDANT_BOUNDARY_BULLET = re.compile(
+    r"(?m)^[ \t]*(?:[-*+]|[0-9]{1,9}[.)])[ \t]+\*\*(?:Aussagegrenze|Grenze)(?::\*\*|\*\*:)"
+)
+
+
+def split_frontmatter(markdown: str) -> tuple[str, str]:
+    if markdown.startswith("---\n"):
+        _opening, sep, tail = markdown.partition("---\n")
+        frontmatter, sep, body = tail.partition("\n---\n")
+        if sep:
+            return frontmatter, body
+    return "", markdown
+
+
+class EditorialStyleTest(unittest.TestCase):
+    def test_case_prose_avoids_repeated_negative_templates(self) -> None:
+        files = sorted((DOCS / "faelle").rglob("*.md"))
+        self.assertTrue(files)
+        for path in files:
+            _, prose = split_frontmatter(path.read_text(encoding="utf-8"))
+            with self.subTest(case=str(path.relative_to(ROOT))):
+                self.assertIsNone(REDUNDANT_BOUNDARY_BULLET.search(prose))
+
+    def test_substantive_negative_synthesis_is_allowed(self) -> None:
+        # A genuine counterfinding may need its own visible section.
+        substantive = (
+            "## Was folgt nicht?\n\n"
+            "- Der negative forensische Vergleich widerspricht einer konkreten Tatmittelgleichsetzung.\n\n"
+            "## Aussagegrenzen\n\n"
+            "Originalakten mit gegenteiligen Ergebnissen bleiben sichtbar.\n"
+        )
+        self.assertIsNone(REDUNDANT_BOUNDARY_BULLET.search(substantive))
+        self.assertIsNotNone(
+            REDUNDANT_BOUNDARY_BULLET.search("- **Aussagegrenze:** routinemäßig wiederholt")
+        )
+        for example in (
+            "  - **Aussagegrenze:** wiederholt",
+            "    * **Grenze:** wiederholt",
+            "+ **Aussagegrenze:** wiederholt",
+            "\t-\t**Grenze:** wiederholt",
+            " -\t**Grenze:** wiederholt",
+            "- **Aussagegrenze**: wiederholt",
+            "  * **Grenze**: wiederholt",
+            "1. **Aussagegrenze:** wiederholt",
+            "  2) **Grenze:** wiederholt",
+            "11. **Grenze**: wiederholt",
+            " 3) **Aussagegrenze**: wiederholt",
+        ):
+            with self.subTest(bullet=example):
+                self.assertIsNotNone(REDUNDANT_BOUNDARY_BULLET.search(example))
+        self.assertIsNone(
+            REDUNDANT_BOUNDARY_BULLET.search(
+                "- Der Schalldämpfer-Vergleich ergab einen konkreten Gegenbefund."
+            )
+        )
+
+    def test_structured_counterevidence_remains_required(self) -> None:
+        files = sorted((DOCS / "faelle").rglob("*.md"))
+        cases = 0
+        for path in files:
+            frontmatter, _ = split_frontmatter(path.read_text(encoding="utf-8"))
+            if not frontmatter:
+                continue
+            meta = yaml.safe_load(frontmatter) or {}
+            if meta.get("type") != "case":
+                continue
+            cases += 1
+            for claim in meta.get("claims", []):
+                with self.subTest(claim=claim.get("id")):
+                    self.assertIn("counterevidence", claim)
+                    self.assertIn("alternatives", claim)
+                    self.assertIn("missing_evidence", claim)
+                    self.assertIn("falsification", claim)
+                    self.assertIn("does_not_support", claim.get("scope", {}))
+            self.assertIn("what_does_not_follow", meta)
+        self.assertGreater(cases, 0)
+
+    def test_published_methodology_mirrors_canonical_version(self) -> None:
+        self.assertEqual(
+            (ROOT / "METHODOLOGY.md").read_text(encoding="utf-8"),
+            (DOCS / "methodik.md").read_text(encoding="utf-8"),
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()

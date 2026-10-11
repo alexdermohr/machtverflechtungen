@@ -421,7 +421,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Kein DDR- oder MfS-Auftrag zur Ausführung konkreter Anschläge.
 - **Offener Gegenbeweis:** Ein authentisches abweichendes Urteil oder entscheidungserhebliche Revisions-/Wiederaufnahmeakten könnten die gerichtlich referierte Feststellung korrigieren.
 
 ### `CLM-DE-LABELLE-002`
@@ -431,7 +430,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Keine konkrete staatliche Beauftragung von Mord oder Kenntnis aller Handlungen durch Führungsoffiziere.
 - **Offener Gegenbeweis:** Vorlage authentischer IM- und Prozessakten, die den im Urteil festgestellten Status einer der beiden Personen entscheidend widerlegen.
 
 ### `CLM-DE-LABELLE-003`
@@ -441,7 +439,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Keine bewiesene Kenntnis des konkret beschlossenen La-Belle-Anschlags, seines Datums oder bewusste Beihilfe durch MfS-Führung.
 - **Offener Gegenbeweis:** Authentische Übermittlungsakten oder gerichtliche Neubewertungen, die Inhalt, Empfänger oder Datierung der Meldungen ändern.
 
 ### `CLM-DE-LABELLE-004`
@@ -451,7 +448,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Keine direkte Beteiligung von MfS oder DDR an Sprengstoffbereitstellung oder Bombenbau.
 - **Offener Gegenbeweis:** Authentische Gerichts- und Materialspuren, die der festgestellten Herkunft widersprechen.
 
 ### `CLM-DE-LABELLE-005`
@@ -461,7 +457,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-MFS-LA-BELLE-INFORMATION-1986`
-- **Aussagegrenze:** Keine unabhängige Bestätigung des gesamten berichteten Täterwegs und kein Beleg für MfS-Vorwissen allein aus diesem Dokument.
 - **Offener Gegenbeweis:** Authentischer vollständiger Aktenkontext, der die Zuschreibung oder die Gesprächsdatierung nachweislich abweichend wiedergibt.
 
 ### `CLM-DE-LABELLE-006`
@@ -471,7 +466,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-MFS-LA-BELLE-THESEN-1988`
-- **Aussagegrenze:** Weder die spätere tatsächliche Äußerung dieser Formel noch eine DDR-Tatanweisung oder ein wider besseres Wissen handelnder einzelner Delegierter.
 - **Offener Gegenbeweis:** Originale Konsultationsakten oder ein anderslautendes vollständiges Papier können die Einordnung von Text, Zweck und Verwendung verändern.
 
 ### `CLM-DE-LABELLE-007`
@@ -481,7 +475,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** plausibel
 - **Primärbezug:** `SRC-DE-BARCH-LA-BELLE-DOSSIER`
-- **Aussagegrenze:** Kein bereits bewiesener wirksamer Warnungseingang beim MfS oder absichtlich unterlassene Gefahrenwarnung.
 - **Offener Gegenbeweis:** Ursprüngliche Kommunikationsunterlagen, die Kontaktversuch, Uhrzeit, Adressat oder Empfang positiv anders belegen.
 
 ### `CLM-DE-LABELLE-008`
@@ -491,7 +484,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-AA-AAPD-LA-BELLE-WARNUNG-1986`
-- **Aussagegrenze:** Kein unabhängiger Zustellungsnachweis jeder Warnung und kein Beleg einer Koordination mit dem MfS oder absichtlichem Unterlassen.
 - **Offener Gegenbeweis:** Originale Warntelegramme und Quittungen mit anderen Zeiten, Adressaten oder Nachrichtengehalten würden die referierte Chronologie korrigieren.
 
 
@@ -502,7 +494,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Interpretation
 - **Evidenz:** spekulativ/offen
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Keine erwiesene behördenweit konkrete Kenntnis des La-Belle-Termins, keine Auftragserteilung, keine belegte vorsätzliche Nichtwarnung und keine staatliche Mittäterschaft.
 - **Offener Gegenbeweis:** Zeitnahe Originalvorgänge, die eine fehlende Weiterleitung mangels Kenntnis, Zuständigkeit oder Empfang dokumentieren, würden die selektive Informationskontrollthese schwächen; gegenteilige ausdrückliche Geheimhaltungsweisungen würden sie stärken.
 
 ### `CLM-DE-LABELLE-010`
@@ -512,7 +503,6 @@ Eine andere, in einer amtlichen [Aktenedition 1986, Dok. 140, S. 728–729](http
 - **Typ:** Tatsachenbehauptung
 - **Evidenz:** belegt
 - **Primärbezug:** `SRC-DE-BGH-LA-BELLE-2004`
-- **Aussagegrenze:** Keine gesicherte Kausalität, keine vollständig nachgewiesene Anschlagsverhinderung und keine Entlastung der Behörden von späterem Wissen über La Belle.
 - **Offener Gegenbeweis:** Eine authentifizierte Fassung des BGH-Urteils ohne die zugeschriebene Passage oder mit anderer Zuschreibung würde den Claim über die gerichtliche Wiedergabe widerlegen; abweichende operative Befunde beträfen nur die Kausalvermutung.
 
 ## Noch zu beschaffende Originalakten
