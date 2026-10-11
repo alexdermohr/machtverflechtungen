@@ -67,6 +67,14 @@ case_links: []
 
 # Technischer Dienst des Bund Deutscher Jugend
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Der Technische Dienst des Bund Deutscher Jugend, seine paramilitärische Organisation und die parlamentarisch aufgearbeiteten staatlichen Verbindungen.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfokus:** Wie verbanden sich antikommunistische Organisierung, paramilitärische Strukturen, staatliche Reaktionen und die Beteiligung eines ausländischen Geheimdienstes?
 
 ## Gesicherter Ereigniskern

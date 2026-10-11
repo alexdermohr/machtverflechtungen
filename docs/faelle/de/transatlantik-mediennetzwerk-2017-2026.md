@@ -363,9 +363,17 @@ case_links: []
 
 # Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Systematische Prüfung einer 2017 veröffentlichten Netzwerkgrafik anhand dokumentierter Personen- und Organisationsbeziehungen.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 ## Forschungsfrage und Methode
 
-Die 2017 publizierte Grafik wird als **Suchindex und Hypothesengenerator**, nicht als Beleg ihrer eigenen Kanten behandelt. Jede Relation wird unabhängig an einer registrierten Quelle geprüft. Gleichartige Linien im Schaubild werden nicht automatisch als gleichartige Institutionenbeziehungen interpretiert.
+Die 2017 publizierte Grafik dient als **Suchindex für konkrete Beziehungen**. Jede dargestellte Kante wird anhand registrierter Quellen als Mitgliedschaft, Funktion, Zusammenarbeit oder Finanzierung einzeln eingeordnet.
 
 Die zentrale Zähleinheit ist die **Person-zu-Netzwerk-Kante**. Mehrere reproduzierte Kanten derselben Person erhöhen deshalb die Kantenzahl, nicht die Zahl der Personen. Andere historische Kontakte und spätere Beziehungen bleiben eigene Klassen.
 

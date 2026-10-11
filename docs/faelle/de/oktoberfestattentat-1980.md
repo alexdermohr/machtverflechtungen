@@ -1208,6 +1208,14 @@ case_links:
 
 # Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Der Anschlag vom 26. September 1980, WSG-Kontakte, Geheimdienstmeldungen, Aktenwege und die erneuten Ermittlungen.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfrage:** Welche Verbindungen zum rechtsextremen Milieu, welche Ermittlungs- und Bewertungswechsel und welche nachrichtendienstlichen Beobachtungen sind belegt?
 
 Das Oktoberfestattentat ist ein dokumentierter Fall rechtsterroristischer Gewalt und jahrzehntelanger Kontroverse über seine politische Motivation. Der Quellenvergleich trennt die Tat, die dokumentierten Kontakte des Attentäters, staatliche Ermittlungsentscheidungen und eine ausdrücklich nur als MfS-Beobachtung überlieferte Spur.
@@ -1232,79 +1240,81 @@ Die amtliche Neubewertung des Motivs 2020 und das negative Ergebnis der erneuten
 
 ## Einzelclaim-Prüfung
 
-### `CLM-DE-OKT-001`
+??? info "6 Claims, Quellen und Gegenproben anzeigen"
 
-**Aussage:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen.
+    ### `CLM-DE-OKT-001`
 
-**Typ:** fact · **Evidenz:** stark gestützt
+    **Aussage:** Am 26. September 1980 tötete die Bombe am Münchner Oktoberfest 13 Menschen einschließlich des Attentäters Gundolf Köhler und verletzte mehr als 200 weitere Menschen.
 
-- **Stütze `SRC-DE-BVERFG-OKT-2017` (direct):** Das Gericht nennt 12 Getötete neben Köhler; zusammen 13 Todesopfer. Fundstelle: Rn. 2.
-- **Kontext `SRC-DE-BARCH-OKTOBERFEST-2025`:** Die Übersichtsseite nennt 13 Todesopfer, ist in ihrer Detailpassage missverständlich; die Zahl der Verletzten weicht zwischen Gericht (211) und Bundesarchiv (221) ab.
-- **Alternative:** Die amtlichen Quellen differieren bei der Zahl der Verletzten und in der sprachlichen Darstellung der Todesopfer. Deshalb wird nur die gemeinsame, gesicherte Spanne „mehr als 200“ behauptet.
-- **Beweislücke:** Zahlengenaue Feststellung anhand des originalen Soko-Schlussberichtes und gegebenenfalls späterer Opferstatistiken.
-- **Tragweite:** Das amtlich rekonstruierte Ausmaß des Attentats.
-- **Falsifikation:** Eine korrigierte amtliche Opferliste mit begründet abweichenden Zahlen würde die Zahlenangabe ändern.
+    **Typ:** fact · **Evidenz:** stark gestützt
 
-### `CLM-DE-OKT-002`
+    - **Stütze `SRC-DE-BVERFG-OKT-2017` (direct):** Das Gericht nennt 12 Getötete neben Köhler; zusammen 13 Todesopfer. Fundstelle: Rn. 2.
+    - **Kontext `SRC-DE-BARCH-OKTOBERFEST-2025`:** Die Übersichtsseite nennt 13 Todesopfer, ist in ihrer Detailpassage missverständlich; die Zahl der Verletzten weicht zwischen Gericht (211) und Bundesarchiv (221) ab.
+    - **Alternative:** Die amtlichen Quellen differieren bei der Zahl der Verletzten und in der sprachlichen Darstellung der Todesopfer. Deshalb wird nur die gemeinsame, gesicherte Spanne „mehr als 200“ behauptet.
+    - **Beweislücke:** Zahlengenaue Feststellung anhand des originalen Soko-Schlussberichtes und gegebenenfalls späterer Opferstatistiken.
+    - **Tragweite:** Das amtlich rekonstruierte Ausmaß des Attentats.
+    - **Falsifikation:** Eine korrigierte amtliche Opferliste mit begründet abweichenden Zahlen würde die Zahlenangabe ändern.
 
-**Aussage:** Das Bundesarchiv dokumentiert Kontakte Köhlers zur Wehrsportgruppe Hoffmann und zwei Übungsteilnahmen; eine 1979 entstandene Notiz nannte den 19. Mai 1977 als letzten damals erfassten Kontakt.
+    ### `CLM-DE-OKT-002`
 
-**Typ:** fact · **Evidenz:** stark gestützt
+    **Aussage:** Das Bundesarchiv dokumentiert Kontakte Köhlers zur Wehrsportgruppe Hoffmann und zwei Übungsteilnahmen; eine 1979 entstandene Notiz nannte den 19. Mai 1977 als letzten damals erfassten Kontakt.
 
-- **Stütze `SRC-DE-BARCH-OKTOBERFEST-2025` (direct):** Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und zwei Übungsteilnahmen. Fundstelle: Kontakte zur Wehrsportgruppe Hoffmann.
-- **Zeitliche Gegenprobe [`SRC-DE-BT-OKT-183259-2014`](https://dserver.bundestag.de/btd/18/032/1803259.pdf), gedruckte S. 6, Antwort 1i:** In einer 1979er WSG-Notiz war der letzte damals bekannte Kontakt auf **19. Mai 1977** datiert. Dies ist kein Nachweis, dass es danach definitiv keinen Kontakt gab.
-- **Alternative:** Die 1979er Notiz könnte spätere Kontakte übersehen; dennoch ist ein fortdauernder Kontakt bis September 1980 damit nicht belegt.
-- **Beweislücke:** Die Originalnotiz im Asservatenbestand Hepp, NADIS-Nachweise, Briefe und Anwesenheit bei den zwei Übungen nach Datierung und Authentizität prüfen.
-- **Tragweite:** Kontakte und Teilnahme an Übungen laut Archivrekonstruktion.
-- **Falsifikation:** Authentische Korrespondenz- und Teilnehmerlisten, die die genannten Kontakte oder Übungsteilnahmen ausschließen, würden den Claim schwächen.
+    **Typ:** fact · **Evidenz:** stark gestützt
 
-### `CLM-DE-OKT-003`
+    - **Stütze `SRC-DE-BARCH-OKTOBERFEST-2025` (direct):** Die Archivdarstellung berichtet NADIS-Treffer, Briefwechsel ab 1976 und zwei Übungsteilnahmen. Fundstelle: Kontakte zur Wehrsportgruppe Hoffmann.
+    - **Zeitliche Gegenprobe [`SRC-DE-BT-OKT-183259-2014`](https://dserver.bundestag.de/btd/18/032/1803259.pdf), gedruckte S. 6, Antwort 1i:** In einer 1979er WSG-Notiz war der letzte damals bekannte Kontakt auf **19. Mai 1977** datiert. Dies ist kein Nachweis, dass es danach definitiv keinen Kontakt gab.
+    - **Alternative:** Die 1979er Notiz könnte spätere Kontakte übersehen; dennoch ist ein fortdauernder Kontakt bis September 1980 damit nicht belegt.
+    - **Beweislücke:** Die Originalnotiz im Asservatenbestand Hepp, NADIS-Nachweise, Briefe und Anwesenheit bei den zwei Übungen nach Datierung und Authentizität prüfen.
+    - **Tragweite:** Kontakte und Teilnahme an Übungen laut Archivrekonstruktion.
+    - **Falsifikation:** Authentische Korrespondenz- und Teilnehmerlisten, die die genannten Kontakte oder Übungsteilnahmen ausschließen, würden den Claim schwächen.
 
-**Aussage:** Die Bundesregierung berichtete 2020, der Generalbundesanwalt habe das Oktoberfestattentat in seiner Einstellungsverfügung vom 6. Juli 2020 als rechtsextremistische Tat bewertet.
+    ### `CLM-DE-OKT-003`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Die Bundesregierung berichtete 2020, der Generalbundesanwalt habe das Oktoberfestattentat in seiner Einstellungsverfügung vom 6. Juli 2020 als rechtsextremistische Tat bewertet.
 
-- **Stütze `SRC-DE-BT-OKT-MOTIV-2020` (direct):** Die amtliche Mitteilung benennt den Sinneswandel in der Einstellungsverfügung ausdrücklich. Fundstelle: hib 941/2020; Absatz 3.
-- **Alternative:** Diese nachträgliche politische Einordnung besagt für sich genommen nichts über die Beteiligung weiterer Täter.
-- **Beweislücke:** Die gesamte Einstellungsverfügung einschließlich Beweiswürdigung gegen die Aktenlage von 1982 vergleichen.
-- **Tragweite:** Die behördliche Neubewertung der politischen Motivation 2020.
-- **Falsifikation:** Eine authentische Korrektur der Bundesregierung oder der Einstellungsverfügung, die diese Zuschreibung zurücknimmt, würde den Claim treffen.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-OKT-004`
+    - **Stütze `SRC-DE-BT-OKT-MOTIV-2020` (direct):** Die amtliche Mitteilung benennt den Sinneswandel in der Einstellungsverfügung ausdrücklich. Fundstelle: hib 941/2020; Absatz 3.
+    - **Alternative:** Diese nachträgliche politische Einordnung besagt für sich genommen nichts über die Beteiligung weiterer Täter.
+    - **Beweislücke:** Die gesamte Einstellungsverfügung einschließlich Beweiswürdigung gegen die Aktenlage von 1982 vergleichen.
+    - **Tragweite:** Die behördliche Neubewertung der politischen Motivation 2020.
+    - **Falsifikation:** Eine authentische Korrektur der Bundesregierung oder der Einstellungsverfügung, die diese Zuschreibung zurücknimmt, würde den Claim treffen.
 
-**Aussage:** Die Bundesregierung erklärte 2020, die wiederaufgenommenen Ermittlungen hätten keine zureichenden tatsächlichen Anhaltspunkte für die Beteiligung weiterer Personen erbracht.
+    ### `CLM-DE-OKT-004`
 
-**Typ:** counterevidence · **Evidenz:** belegt
+    **Aussage:** Die Bundesregierung erklärte 2020, die wiederaufgenommenen Ermittlungen hätten keine zureichenden tatsächlichen Anhaltspunkte für die Beteiligung weiterer Personen erbracht.
 
-- **Stütze `SRC-DE-BT-OKT-WEITERE-2020` (direct):** Die amtliche Antwort referiert das Ergebnis der am 6. Juli 2020 eingestellten Ermittlungen ausdrücklich. Fundstelle: hib 1003/2020; Absatz 1-2.
-- **Alternative:** Das Fehlen zureichender Anhaltspunkte ist weder logischer noch juristischer Beweis der Nichtbeteiligung einer weiteren Person.
-- **Beweislücke:** Einstellungsverfügung und nichtöffentliche Ermittlungsakten auf den Untersuchungsumfang und verworfene Spuren kontrollieren.
-- **Tragweite:** Das von der Bundesregierung mitgeteilte negative Ergebnis der erneuten Ermittlungen bezüglich weiterer Beteiligter.
-- **Falsifikation:** Neue belastbare Tatspuren oder Zeugenbelege für eine konkrete zweite Person würden die damalige negative Bilanz materiell überholen.
+    **Typ:** counterevidence · **Evidenz:** belegt
 
-### `CLM-DE-OKT-005`
+    - **Stütze `SRC-DE-BT-OKT-WEITERE-2020` (direct):** Die amtliche Antwort referiert das Ergebnis der am 6. Juli 2020 eingestellten Ermittlungen ausdrücklich. Fundstelle: hib 1003/2020; Absatz 1-2.
+    - **Alternative:** Das Fehlen zureichender Anhaltspunkte ist weder logischer noch juristischer Beweis der Nichtbeteiligung einer weiteren Person.
+    - **Beweislücke:** Einstellungsverfügung und nichtöffentliche Ermittlungsakten auf den Untersuchungsumfang und verworfene Spuren kontrollieren.
+    - **Tragweite:** Das von der Bundesregierung mitgeteilte negative Ergebnis der erneuten Ermittlungen bezüglich weiterer Beteiligter.
+    - **Falsifikation:** Neue belastbare Tatspuren oder Zeugenbelege für eine konkrete zweite Person würden die damalige negative Bilanz materiell überholen.
 
-**Aussage:** Ein MfS-Bericht von September 1980 schildert die Verfassungsschutz-Observation der Wehrsportgruppe Hoffmann in der Nacht zum 26. September unter dem Namen „Aktion Wandervogel“ und vermutet Vorwissen über geplante WSG-Handlungen.
+    ### `CLM-DE-OKT-005`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Ein MfS-Bericht von September 1980 schildert die Verfassungsschutz-Observation der Wehrsportgruppe Hoffmann in der Nacht zum 26. September unter dem Namen „Aktion Wandervogel“ und vermutet Vorwissen über geplante WSG-Handlungen.
 
-- **Stütze `SRC-DE-BARCH-MFS-WANDERVOGEL-1980` (direct):** Der zeitgenössische Bericht beschreibt nachrichtendienstlich erlangte Angaben zur länderübergreifenden Beobachtung; der Schluss auf mögliches Vorwissen ist eine Vermutung des MfS. Fundstelle: BArch MfS HA XXII 5749 Bd. 4 Bl. 23 ff.; Transkript: Aktion Wandervogel.
-- **Alternative:** Reguläre Observation einer bekannten verbotenen Gruppe aufgrund anderer Hinweise als zu dem Oktoberfestanschlag; unvollständige oder irrige MfS-Zuträgerinformationen.
-- **Beweislücke:** Zeitgleiche Einsatzbefehle und Observationsberichte der westdeutschen Landesämter, Ursprung der MfS-Information und Daten zum tatsächlichen Observationsziel.
-- **Tragweite:** Wortlaut, Datierung und Annahmen des MfS-Dokuments zu angeblichen Beobachtungsmaßnahmen.
-- **Falsifikation:** Authentische Einsatzakten, die Operation, Datierung oder angeblich beobachtete Maßnahmen widerlegen, würden den behaupteten Wirklichkeitsgehalt des MfS-Berichts schwächen; eine nichtauthentische Dokumentprovenienz sogar seine Existenz als zeitgenössischen Beleg.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-OKT-006`
+    - **Stütze `SRC-DE-BARCH-MFS-WANDERVOGEL-1980` (direct):** Der zeitgenössische Bericht beschreibt nachrichtendienstlich erlangte Angaben zur länderübergreifenden Beobachtung; der Schluss auf mögliches Vorwissen ist eine Vermutung des MfS. Fundstelle: BArch MfS HA XXII 5749 Bd. 4 Bl. 23 ff.; Transkript: Aktion Wandervogel.
+    - **Alternative:** Reguläre Observation einer bekannten verbotenen Gruppe aufgrund anderer Hinweise als zu dem Oktoberfestanschlag; unvollständige oder irrige MfS-Zuträgerinformationen.
+    - **Beweislücke:** Zeitgleiche Einsatzbefehle und Observationsberichte der westdeutschen Landesämter, Ursprung der MfS-Information und Daten zum tatsächlichen Observationsziel.
+    - **Tragweite:** Wortlaut, Datierung und Annahmen des MfS-Dokuments zu angeblichen Beobachtungsmaßnahmen.
+    - **Falsifikation:** Authentische Einsatzakten, die Operation, Datierung oder angeblich beobachtete Maßnahmen widerlegen, würden den behaupteten Wirklichkeitsgehalt des MfS-Berichts schwächen; eine nichtauthentische Dokumentprovenienz sogar seine Existenz als zeitgenössischen Beleg.
 
-**Aussage:** Laut einer Regierungsantwort richtete das Bundesamt für Verfassungsschutz 1981 erstmals ein eigenes Referat zur Beobachtung rechtsextremistischen Terrorismus ein.
+    ### `CLM-DE-OKT-006`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Laut einer Regierungsantwort richtete das Bundesamt für Verfassungsschutz 1981 erstmals ein eigenes Referat zur Beobachtung rechtsextremistischen Terrorismus ein.
 
-- **Stütze `SRC-DE-BT-BFV-REFERAT-2014` (direct):** Der Bundestag veröffentlicht die entsprechende Antwort der Bundesregierung zur organisatorischen Zuständigkeit ab 1981. Fundstelle: hib 481/2014; Absatz 1.
-- **Alternative:** Die Einrichtung kann eine institutionelle Reaktion auf mehrere rechtsterroristische Taten des Jahres 1980 sein; sie indiziert kein konkretes Vorwissen vor dem Oktoberfestattentat.
-- **Beweislücke:** Zeitnahe Geschäftsverteilungspläne, Gründungsentscheidung und Akten zur damaligen Gefahrenbewertung prüfen.
-- **Tragweite:** Die amtlich erklärte organisatorische Einrichtung ab 1981.
-- **Falsifikation:** Zeitgenössische Organisationspläne, die ein solches Referat vor 1981 oder dessen Nichtexistenz 1981 belegen, würden die zeitliche Aussage korrigieren.
+    **Typ:** fact · **Evidenz:** belegt
+
+    - **Stütze `SRC-DE-BT-BFV-REFERAT-2014` (direct):** Der Bundestag veröffentlicht die entsprechende Antwort der Bundesregierung zur organisatorischen Zuständigkeit ab 1981. Fundstelle: hib 481/2014; Absatz 1.
+    - **Alternative:** Die Einrichtung kann eine institutionelle Reaktion auf mehrere rechtsterroristische Taten des Jahres 1980 sein; sie indiziert kein konkretes Vorwissen vor dem Oktoberfestattentat.
+    - **Beweislücke:** Zeitnahe Geschäftsverteilungspläne, Gründungsentscheidung und Akten zur damaligen Gefahrenbewertung prüfen.
+    - **Tragweite:** Die amtlich erklärte organisatorische Einrichtung ab 1981.
+    - **Falsifikation:** Zeitgenössische Organisationspläne, die ein solches Referat vor 1981 oder dessen Nichtexistenz 1981 belegen, würden die zeitliche Aussage korrigieren.
 
 ## Was folgt?
 

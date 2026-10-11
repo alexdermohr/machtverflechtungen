@@ -1,87 +1,99 @@
 # Personen & Organisationen
 
-Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Einfluss. Er dokumentiert zunächst nur die im Datenmodell verwendeten Akteure.
+**81 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
-| ID | Typ | Name | Länder |
+## Personen
+
+| Name | Typ | ID | Länder |
 |---|---|---|---|
-| `ORG-DE-ARD` | public_broadcaster | ARD | DE |
-| `PER-DE-ANDREAS-TEMME` | person | Andreas Temme | DE |
-| `ORG-DE-AG-STAAT-GESELLSCHAFT` | organization | Arbeitsgemeinschaft Staat und Gesellschaft | DE |
-| `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | organization | Arbeitskreis für das Studium internationaler Fragen e.V. | DE |
-| `PER-DE-ARISTIDE-BRUNELLO` | person | Aristide Brunello | DE |
-| `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | program | Atlantik-Brücke Young Leaders Program | DE, US |
-| `ORG-DE-ATLANTIK-BRUECKE` | association | Atlantik-Brücke e.V. | DE, US |
-| `ORG-DE-AXEL-SPRINGER` | media_company | Axel Springer SE | DE |
-| `ORG-DE-BAYSTMI` | organization | Bayerisches Staatsministerium des Innern | DE |
-| `ORG-INT-BILDERBERG-MEETINGS` | conference_network | Bilderberg Meetings | US, DE |
-| `ORG-DE-BDJ` | organization | Bund Deutscher Jugend | DE |
-| `ORG-DE-BFV` | intelligence_service | Bundesamt für Verfassungsschutz | DE |
-| `ORG-DE-BMF` | government_ministry | Bundesministerium der Finanzen | DE |
-| `ORG-DE-BND` | intelligence_service | Bundesnachrichtendienst | DE |
-| `ORG-US-CIA` | intelligence_service | Central Intelligence Agency | US |
-| `PER-DE-CHRISTIAN-OLEARIUS` | person | Christian Olearius | DE |
-| `PER-DE-CLAUS-KLEBER` | person | Claus Kleber | DE |
-| `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | cultural_network | Congress for Cultural Freedom | US, FR, DE |
-| `ORG-DE-DIE-ZEIT` | media_outlet | DIE ZEIT | DE |
-| `ORG-DE-DER-MONAT` | media_outlet | Der Monat | DE |
-| `PER-DE-DIETER-VON-HOLTZBRINCK` | person | Dieter von Holtzbrinck | DE |
-| `PER-DE-ELMAR-THEVESSEN` | person | Elmar Theveßen | DE |
-| `PER-DE-ERICH-SCHMIDT-EENBOOM` | person | Erich Schmidt-Eenboom | DE |
-| `ORG-DE-FAZ` | media_outlet | Frankfurter Allgemeine Zeitung | DE |
-| `PER-DE-FRIEDE-SPRINGER` | person | Friede Springer | DE |
-| `PER-DE-GABOR-STEINGART` | person | Gabor Steingart | DE |
-| `PER-DE-GEORG-MASCOLO` | person | Georg Mascolo | DE |
-| `PER-DE-GUNDOLF-KOEHLER` | person | Gundolf Köhler | DE |
-| `ORG-DE-HH-FINANZVERWALTUNG` | tax_administration | Hamburger Finanzverwaltung | DE |
-| `ORG-DE-HANDELSBLATT` | media_outlet | Handelsblatt | DE |
-| `PER-DE-HANS-C-STAUFFENBERG` | person | Hans C. Freiherr von Stauffenberg | DE |
-| `PER-DE-HANS-LANGEMANN` | person | Hans Langemann | DE |
-| `PER-DE-HORST-MAHLER` | person | Horst Mahler | DE |
-| `PER-DE-HUBERT-BURDA` | person | Hubert Burda | DE |
-| `PER-DE-INGO-ZAMPERONI` | person | Ingo Zamperoni | DE |
-| `PER-DE-JOSEF-JOFFE` | person | Josef Joffe | DE |
-| `PER-DE-JULIA-JAEKEL` | person | Julia Jäkel | DE |
-| `PER-DE-JOERG-QUOOS` | person | Jörg Quoos | DE |
-| `PER-DE-JOERG-SCHOENENBORN` | person | Jörg Schönenborn | DE |
-| `PER-DE-KAI-DIEKMANN` | person | Kai Diekmann | DE |
-| `PER-DE-KLAUS-DIETER-FRANKENBERGER` | person | Klaus-Dieter Frankenberger | DE |
-| `ORG-DE-LFV-HESSEN` | intelligence_service | Landesamt für Verfassungsschutz Hessen | DE |
-| `ORG-LY-VOLKSBUREAU-OSTBERLIN` | diplomatic_mission | Libysches Volksbüro (Ost-Berlin) | DE, LY |
-| `PER-DE-LIZ-MOHN` | person | Liz Mohn | DE |
-| `ORG-DE-MM-WARBURG` | bank | M. M. Warburg & CO | DE |
-| `PER-DE-MATHIAS-DOEPFNER` | person | Mathias Döpfner | DE |
-| `PER-DE-MATTHIAS-NASS` | person | Matthias Naß | DE |
-| `PER-DE-MICHAEL-BAUMANN` | person | Michael 'Bommi' Baumann | DE |
-| `ORG-DE-MFS` | intelligence_service | Ministerium für Staatssicherheit (MfS) | DE |
-| `ORG-DE-NSU` | extremist_network | Nationalsozialistischer Untergrund (NSU) | DE |
-| `ORG-DE-NI-VERFASSUNGSSCHUTZ` | intelligence_service | Niedersächsischer Verfassungsschutz | DE |
-| `PER-DE-OLAF-SCHOLZ` | person | Olaf Scholz | DE |
-| `ORG-DE-ORGANISATION-GEHLEN` | intelligence_organization | Organisation Gehlen | DE, US |
-| `PER-DE-PAUL-BERNHARD-KALLEN` | person | Paul-Bernhard Kallen | DE |
-| `PER-DE-PETER-FREY` | person | Peter Frey | DE |
-| `PER-DE-PETER-URBACH` | person | Peter Urbach | DE |
-| `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | media_network | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | DE |
-| `PER-DE-REINHARD-GEHLEN` | person | Reinhard Gehlen | DE |
-| `PER-DE-STEFAN-KORNELIUS` | person | Stefan Kornelius | DE |
-| `PER-DE-STEFAN-VON-HOLTZBRINCK` | person | Stefan von Holtzbrinck | DE |
-| `PER-DE-SVEN-AFHUEPPE` | person | Sven Afhüppe | DE |
-| `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | media_outlet | Süddeutsche Zeitung | DE |
-| `ORG-INT-TRILATERAL-COMMISSION` | policy_network | The Trilateral Commission | US, DE |
-| `PER-DE-THEO-KOLL` | person | Theo Koll | DE |
-| `PER-DE-THEO-SOMMER` | person | Theo Sommer | DE |
-| `PER-DE-THOMAS-EBELING` | person | Thomas Ebeling | DE |
-| `PER-DE-THOMAS-RABE` | person | Thomas Rabe | DE |
-| `PER-DE-THOMAS-ROTH` | person | Thomas Roth | DE |
-| `ORG-DE-THS` | extremist_network | Thüringer Heimatschutz | DE |
-| `ORG-DE-TLFV` | intelligence_service | Thüringer Landesamt für Verfassungsschutz | DE |
-| `PER-DE-TINA-HASSEL` | person | Tina Hassel | DE |
-| `PER-DE-TINO-BRANDT` | person | Tino Brandt | DE |
-| `PER-DE-TOM-BUHROW` | person | Tom Buhrow | DE |
-| `ORG-DE-TUPAMAROS-WEST-BERLIN` | extremist_network | Tupamaros West-Berlin | DE |
-| `PER-DE-ULRICH-WILHELM` | person | Ulrich Wilhelm | DE |
-| `PER-DE-VOLKER-FOERTSCH` | person | Volker Foertsch | DE |
-| `PER-DE-WALTER-H-JONAS` | person | Walter H. Jonas | DE |
-| `ORG-DE-WSG-HOFFMANN` | paramilitary_extremist_network | Wehrsportgruppe Hoffmann | DE |
-| `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | intelligence_service | West-Berliner Landesamt für Verfassungsschutz | DE |
-| `ORG-DE-WDR` | public_broadcaster | Westdeutscher Rundfunk | DE |
-| `ORG-DE-ZDF` | public_broadcaster | ZDF | DE |
+| Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE |
+| Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE |
+| Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE |
+| Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE |
+| Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE |
+| Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE |
+| Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE |
+| Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE |
+| Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE |
+| Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE |
+| Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE |
+| Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE |
+| Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE |
+| Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE |
+| Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE |
+| Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE |
+| Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE |
+| Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE |
+| Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE |
+| Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE |
+| Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE |
+| Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE |
+| Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE |
+| Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE |
+| Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE |
+| Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE |
+| Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE |
+| Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE |
+| Peter Frey | person | `PER-DE-PETER-FREY` | DE |
+| Peter Urbach | person | `PER-DE-PETER-URBACH` | DE |
+| Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE |
+| Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE |
+| Stefan von Holtzbrinck | person | `PER-DE-STEFAN-VON-HOLTZBRINCK` | DE |
+| Sven Afhüppe | person | `PER-DE-SVEN-AFHUEPPE` | DE |
+| Theo Koll | person | `PER-DE-THEO-KOLL` | DE |
+| Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE |
+| Thomas Ebeling | person | `PER-DE-THOMAS-EBELING` | DE |
+| Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE |
+| Thomas Roth | person | `PER-DE-THOMAS-ROTH` | DE |
+| Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE |
+| Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE |
+| Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE |
+| Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE |
+| Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE |
+| Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE |
+
+## Organisationen & Institutionen
+
+| Name | Typ | ID | Länder |
+|---|---|---|---|
+| Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE |
+| Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE |
+| ARD | public_broadcaster | `ORG-DE-ARD` | DE |
+| Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US |
+| Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE |
+| Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
+| Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE |
+| Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE |
+| Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE |
+| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US |
+| Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE |
+| Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE |
+| DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE |
+| Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE |
+| Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
+| Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
+| Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE |
+| Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY |
+| M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE |
+| Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE |
+| Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE |
+| Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |
+| Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US |
+| Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE |
+| Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
+| The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE |
+| Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE |
+| Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE |
+| Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE |
+| West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE |
+| Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE |
+| ZDF | public_broadcaster | `ORG-DE-ZDF` | DE |
+
+## Programme
+
+| Name | Typ | ID | Länder |
+|---|---|---|---|
+| Atlantik-Brücke Young Leaders Program | program | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | DE, US |

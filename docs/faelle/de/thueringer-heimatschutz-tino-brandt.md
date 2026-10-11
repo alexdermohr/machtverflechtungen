@@ -86,6 +86,14 @@ case_links: []
 
 # Thüringer Heimatschutz / Tino Brandt
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Der Thüringer Heimatschutz, die Verfassungsschutzquelle Tino Brandt und die Finanzierung und Führung extremistischer Netzwerke.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfokus:** Wie wirkten Infiltration, Quellenführung und staatliche Zahlungen auf eine rechtsextreme Struktur – und wie unterscheiden sich dabei Beobachtung, Begünstigung und gezielter Aufbau?
 
 ## Gesicherter Ereigniskern

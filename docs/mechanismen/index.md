@@ -1,6 +1,6 @@
 # Mechanismen
 
-Mechanismen sind Vergleichskategorien, keine automatische Erklärung eines Einzelfalls und keine Schuldzuweisung.
+Wiederkehrende Abläufe und institutionelle Mechanismen als Vergleichsrahmen für die Fallakten.
 
 ## Ermittlungsmanipulation / Depistaggio
 

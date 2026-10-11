@@ -8,4 +8,4 @@ Organisationseinträge dokumentieren zunächst:
 - Finanzierungs- und institutionelle Beziehungen,
 - konkrete Einflussvorgänge, sofern nachweisbar.
 
-Ein Netzwerk wird nicht allein aufgrund prominenter Mitglieder als „Mauschelei“ klassifiziert.
+Im Mittelpunkt stehen dokumentierte Finanzierungen, konkrete Interventionen und nachvollziehbare Entscheidungswege.

@@ -1,0 +1,42 @@
+/* Lesbarkeit und Orientierung für MkDocs Material. */
+.md-typeset { line-height: 1.7; }
+.md-typeset h1 { font-weight: 750; letter-spacing: -.025em; line-height: 1.2; }
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: .26em;
+  margin-top: 1.8em;
+}
+.md-typeset h3 { margin-top: 1.4em; }
+.md-typeset > p:first-of-type { max-width: 74ch; }
+.md-typeset .grid.cards > ul > li {
+  border-radius: .65rem;
+  padding: 1rem 1.1rem;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 3px 12px rgb(0 0 0 / 8%);
+}
+.md-typeset .grid.cards > ul > li > p:last-child { margin-bottom: 0; }
+.md-typeset .mv-case-intro {
+  border-left: .2rem solid var(--md-primary-fg-color);
+  border-radius: 0 .45rem .45rem 0;
+  background: var(--md-code-bg-color);
+  padding: .8rem 1rem;
+  margin: 1.2rem 0 1.5rem;
+}
+.md-typeset .mv-case-intro p { margin: .25rem 0; }
+.md-typeset .mv-case-return { font-size: .8rem; margin-bottom: .4rem; }
+.md-typeset table:not([class]) {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.md-typeset details { border-radius: .4rem; }
+.md-typeset details summary { font-weight: 650; }
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .grid.cards > ul { grid-template-columns: 1fr; }
+  .md-typeset h1 { font-size: 1.8em; }
+  .md-typeset .mv-case-intro { padding: .65rem .8rem; }
+}

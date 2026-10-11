@@ -99,9 +99,17 @@ case_links:
 
 # NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen
 
+<div class="mv-case-intro" markdown>
+
+**Auf einen Blick:** Der Mord an Halit Yozgat, die Anwesenheit des V-Mann-Führers Andreas Temme am Tatort und parlamentarisch untersuchte Ermittlungswege.
+
+[Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
+
 **Forschungsfrage:** Welche überprüfbaren Folgen hatte die Anwesenheit eines hessischen V-Mann-Führers am Tatort für die Ermittlungen, und was blieb ungeklärt?
 
-Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der späteren Ermittlungen verbunden. Der damalige V-Mann-Führer Andreas Temme war im Internetcafé; seine Tatbeteiligung wurde nicht nachgewiesen und das Verfahren gegen ihn eingestellt. Ein Streit über Vernehmungsgenehmigungen und unterschiedliche Aussagen zur damaligen Informationslage blieb Gegenstand parlamentarischer Aufklärung.
+Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der späteren Ermittlungen verbunden. Der damalige V-Mann-Führer Andreas Temme war im Internetcafé; das Ermittlungsverfahren gegen ihn wurde im Januar 2007 eingestellt. Vernehmungsgenehmigungen, widersprüchliche Aussagen und die damaligen Informationswege waren Gegenstand parlamentarischer Aufklärung.
 
 ## Gesicherter Ereigniskern
 
@@ -117,57 +125,59 @@ Der Mord an Halit Yozgat am 6. April 2006 ist mit nachweisbaren Problemen der sp
 
 Die Bundestagsberichterstattung aus der Anhörung vom 15. Dezember 2016 dokumentiert sowohl die Kritik der Abgeordneten als auch entlastende und relativierende Vernehmungsaspekte. Aussagen über eine möglicherweise empfangene E-Mail zu einer **früheren Mordserie** sind nicht gleichzusetzen mit Wissen über den konkreten Mord am 6. April 2006.
 
-Die verweigerten Genehmigungen sind für die Frage nach Ermittlungsbeeinträchtigung relevant, aber noch kein Beleg einer absichtlichen Strafvereitelung.
+Für die Prüfung der Ermittlungsbeeinträchtigung sind die konkreten Genehmigungsentscheidungen, verzögerten Vernehmungen und dienstlichen Zuständigkeiten entscheidend.
 
 ## Einzelclaim-Prüfung
 
-### `CLM-DE-YOZ-001`
+??? info "4 Claims, Quellen und Gegenproben anzeigen"
 
-**Aussage:** Der hessische Verfassungsschutzmitarbeiter und V-Mann-Führer Andreas Temme war am 6. April 2006 in dem Kasseler Internetcafé anwesend, in dem Halit Yozgat ermordet wurde.
+    ### `CLM-DE-YOZ-001`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Der hessische Verfassungsschutzmitarbeiter und V-Mann-Führer Andreas Temme war am 6. April 2006 in dem Kasseler Internetcafé anwesend, in dem Halit Yozgat ermordet wurde.
 
-- **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die amtliche Ausschussberichterstattung hält die durch Computerermittlungen bekannt gewordene Anwesenheit Temmes fest. Fundstelle: Abschnitte Einleitung und Erhebliche Zweifel an Aussagen Temmes.
-- **Alternative:** Zufälliger privater Cafébesuch ist mit der bloßen Anwesenheit vereinbar; aus zeitlicher und örtlicher Nähe folgt keine Tatbeteiligung.
-- **Beweislücke:** Tatortrekonstruktion, vollständige Zeitachse von Ankunft und Verlassen sowie gerichtlich gewürdigte digitale Spuren.
-- **Tragweite:** Die Anwesenheit des damaligen V-Mann-Führers im Lokal im zeitlichen Umfeld der Tat.
-- **Falsifikation:** Überprüfbare Originalaufnahmen, Zeitstempel oder sonstige Primärspuren, die die Anwesenheit zum relevanten Zeitraum widerlegen, würden den Claim treffen.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-YOZ-002`
+    - **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die amtliche Ausschussberichterstattung hält die durch Computerermittlungen bekannt gewordene Anwesenheit Temmes fest. Fundstelle: Abschnitte Einleitung und Erhebliche Zweifel an Aussagen Temmes.
+    - **Alternative:** Zufälliger privater Cafébesuch ist mit der bloßen Anwesenheit vereinbar; aus zeitlicher und örtlicher Nähe folgt keine Tatbeteiligung.
+    - **Beweislücke:** Tatortrekonstruktion, vollständige Zeitachse von Ankunft und Verlassen sowie gerichtlich gewürdigte digitale Spuren.
+    - **Tragweite:** Die Anwesenheit des damaligen V-Mann-Führers im Lokal im zeitlichen Umfeld der Tat.
+    - **Falsifikation:** Überprüfbare Originalaufnahmen, Zeitstempel oder sonstige Primärspuren, die die Anwesenheit zum relevanten Zeitraum widerlegen, würden den Claim treffen.
 
-**Aussage:** Das hessische Landesamt für Verfassungsschutz verweigerte nach dem Mord an Halit Yozgat Aussagegenehmigungen für von Andreas Temme geführte Quellen.
+    ### `CLM-DE-YOZ-002`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Das hessische Landesamt für Verfassungsschutz verweigerte nach dem Mord an Halit Yozgat Aussagegenehmigungen für von Andreas Temme geführte Quellen.
 
-- **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die Bundestagsdarstellung benennt die Verweigerung erforderlicher Genehmigungen bei den Kasseler Mordermittlungen ausdrücklich. Fundstelle: Abschnitt Rechtsextreme Szene von Kassel.
-- **Alternative:** Quellenschutz und Geheimhaltungsregeln können die Verweigerung motiviert haben; daraus folgt nicht automatisch eine Absicht, einen Täter zu decken.
-- **Beweislücke:** Schriftliche Ersuchen der Staatsanwaltschaft, Verweigerungsbescheide sowie entsprechende Begründungen und verwaltungsgerichtliche Überprüfungen.
-- **Tragweite:** Den aktenkundig von Bundestagsabgeordneten diskutierten Eingriff in die Vernehmungsmöglichkeiten der Ermittler.
-- **Falsifikation:** Vollständige amtliche Erlaubnisakten, die die angeblich verweigerten Vernehmungen durchgehend genehmigen, würden die konkrete Behauptung widerlegen.
+    **Typ:** fact · **Evidenz:** belegt
 
-### `CLM-DE-YOZ-003`
+    - **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die Bundestagsdarstellung benennt die Verweigerung erforderlicher Genehmigungen bei den Kasseler Mordermittlungen ausdrücklich. Fundstelle: Abschnitt Rechtsextreme Szene von Kassel.
+    - **Alternative:** Quellenschutz und Geheimhaltungsregeln können die Verweigerung motiviert haben; daraus folgt nicht automatisch eine Absicht, einen Täter zu decken.
+    - **Beweislücke:** Schriftliche Ersuchen der Staatsanwaltschaft, Verweigerungsbescheide sowie entsprechende Begründungen und verwaltungsgerichtliche Überprüfungen.
+    - **Tragweite:** Den aktenkundig von Bundestagsabgeordneten diskutierten Eingriff in die Vernehmungsmöglichkeiten der Ermittler.
+    - **Falsifikation:** Vollständige amtliche Erlaubnisakten, die die angeblich verweigerten Vernehmungen durchgehend genehmigen, würden die konkrete Behauptung widerlegen.
 
-**Aussage:** Das Ermittlungsverfahren gegen Andreas Temme wegen des Kasseler Mordes wurde im Januar 2007 eingestellt; der Bundestagsbericht beschreibt keinen Nachweis seiner Tatbeteiligung.
+    ### `CLM-DE-YOZ-003`
 
-**Typ:** counterevidence · **Evidenz:** belegt
+    **Aussage:** Das Ermittlungsverfahren gegen Andreas Temme wegen des Kasseler Mordes wurde im Januar 2007 eingestellt; der Bundestagsbericht beschreibt keinen Nachweis seiner Tatbeteiligung.
 
-- **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Der Bericht beschreibt ausdrücklich die Einstellung und die Zweifel an den Aussagen; aus den Zweifel folgt kein Tatnachweis. Fundstelle: Abschnitt Erhebliche Zweifel an Aussagen Temmes.
-- **Alternative:** Eine Verfahrenseinstellung ist kein historischer Freispruch von jedem denkbaren Wissen; zugleich können Zweifel an Aussagen ohne Tatbeteiligung bestehen.
-- **Beweislücke:** Originale staatsanwaltschaftliche Einstellungsverfügung und die schriftliche Beweiswürdigung der Münchner Strafkammer.
-- **Tragweite:** Das dokumentierte Verfahrensende und die fehlende Bestätigung einer Beteiligung im damaligen Ermittlungsstand.
-- **Falsifikation:** Neue authentische gerichtliche oder strafprozessuale Entscheidungen, die eine Tatbeteiligung doch belegen, würden die damalige Beweisbilanz verändern.
+    **Typ:** counterevidence · **Evidenz:** belegt
 
-### `CLM-DE-YOZ-004`
+    - **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Der Bericht beschreibt ausdrücklich die Einstellung und die Zweifel an den Aussagen; aus den Zweifel folgt kein Tatnachweis. Fundstelle: Abschnitt Erhebliche Zweifel an Aussagen Temmes.
+    - **Alternative:** Eine Verfahrenseinstellung ist kein historischer Freispruch von jedem denkbaren Wissen; zugleich können Zweifel an Aussagen ohne Tatbeteiligung bestehen.
+    - **Beweislücke:** Originale staatsanwaltschaftliche Einstellungsverfügung und die schriftliche Beweiswürdigung der Münchner Strafkammer.
+    - **Tragweite:** Das dokumentierte Verfahrensende und die fehlende Bestätigung einer Beteiligung im damaligen Ermittlungsstand.
+    - **Falsifikation:** Neue authentische gerichtliche oder strafprozessuale Entscheidungen, die eine Tatbeteiligung doch belegen, würden die damalige Beweisbilanz verändern.
 
-**Aussage:** Bei der Anhörung 2016 blieb offen, ob Andreas Temme eine am 24. März 2006 intern versandte E-Mail zu den Česká-Morden tatsächlich erhalten und gelesen hatte.
+    ### `CLM-DE-YOZ-004`
 
-**Typ:** fact · **Evidenz:** belegt
+    **Aussage:** Bei der Anhörung 2016 blieb offen, ob Andreas Temme eine am 24. März 2006 intern versandte E-Mail zu den Česká-Morden tatsächlich erhalten und gelesen hatte.
 
-- **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die Zeugin Iris Pilling berichtete laut Bundestag über die interne E-Mail und erklärte, deren Erhalt beziehungsweise Kenntnisnahme durch Temme nicht sicher zu wissen. Fundstelle: Abschnitte E-Mail an die Mitarbeiter und Unstimmigkeiten in Temmes Aussagen.
-- **Alternative:** Dienstliche Verteilerzugehörigkeit bedeutet nicht belegte individuelle Kenntnisnahme; auch gelesene allgemeine Informationen belegen kein konkretes Vorwissen zum späteren Kasseler Mord.
-- **Beweislücke:** Originale E-Mail-Header, Verteilerliste, Empfangs- und Lesebestätigungen, damalige Postfach- und Aktenvermerke.
-- **Tragweite:** Die auf der Anhörung artikulierte Unsicherheit zur tatsächlichen Kenntnisnahme einer allgemeinen BKA-Information vor der Tat.
-- **Falsifikation:** Verifizierbare Empfangs-, Lese- oder Gegenprotokolle würden die Reichweite der behaupteten Ungewissheit einschränken.
+    **Typ:** fact · **Evidenz:** belegt
+
+    - **Stütze `SRC-DE-BT-NSU-YOZGAT-2016` (direct):** Die Zeugin Iris Pilling berichtete laut Bundestag über die interne E-Mail und erklärte, deren Erhalt beziehungsweise Kenntnisnahme durch Temme nicht sicher zu wissen. Fundstelle: Abschnitte E-Mail an die Mitarbeiter und Unstimmigkeiten in Temmes Aussagen.
+    - **Alternative:** Dienstliche Verteilerzugehörigkeit bedeutet nicht belegte individuelle Kenntnisnahme; auch gelesene allgemeine Informationen belegen kein konkretes Vorwissen zum späteren Kasseler Mord.
+    - **Beweislücke:** Originale E-Mail-Header, Verteilerliste, Empfangs- und Lesebestätigungen, damalige Postfach- und Aktenvermerke.
+    - **Tragweite:** Die auf der Anhörung artikulierte Unsicherheit zur tatsächlichen Kenntnisnahme einer allgemeinen BKA-Information vor der Tat.
+    - **Falsifikation:** Verifizierbare Empfangs-, Lese- oder Gegenprotokolle würden die Reichweite der behaupteten Ungewissheit einschränken.
 
 ## Was folgt?
 

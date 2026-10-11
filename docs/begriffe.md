@@ -2,15 +2,15 @@
 
 ## Staatskriminalität
 
-Straftaten oder rechtswidrige Handlungen, die staatlichen Akteuren zugerechnet werden können. Der Begriff sagt noch nichts darüber aus, ob eine Handlung zentral angeordnet, lokal entschieden oder institutionell gedeckt wurde.
+Straftaten oder rechtswidrige Handlungen, die staatlichen Akteuren zugerechnet werden können. Untersucht werden Anordnung, Entscheidungsebene, Durchführung und institutionelle Deckung.
 
 ## Staatsterrorismus
 
-Politisch und wissenschaftlich umstrittener Begriff. Im Projekt wird die jeweils zugrunde gelegte Definition explizit angegeben. Staatliche Gewalt, verdeckte Operationen und Terrorismus werden nicht automatisch gleichgesetzt.
+Politisch und wissenschaftlich umstrittener Begriff. Im Projekt wird die jeweils zugrunde gelegte Definition explizit angegeben. Staatliche Gewalt, verdeckte Operationen und terroristische Methoden werden begrifflich getrennt untersucht.
 
 ## Strategie der Spannung
 
-Historischer und analytischer Begriff für Strategien, in denen politische Gewalt, Angst, Polarisierung, Täuschung oder deren politische Verwertung zur Veränderung gesellschaftlicher Kräfteverhältnisse beitragen. Der Begriff ist kein Beweis, dass ein konkreter Anschlag staatlich gesteuert wurde.
+Historischer und analytischer Begriff für Strategien, in denen politische Gewalt, Angst, Polarisierung, Täuschung oder deren politische Verwertung zur Veränderung gesellschaftlicher Kräfteverhältnisse beitragen. Im Einzelfall werden Planung, Urheberschaft, Unterstützungswege und politische Verwertung gesondert rekonstruiert.
 
 ## Depistaggio
 
@@ -22,4 +22,4 @@ Verdeckte menschliche Quelle eines Nachrichtendienstes oder einer Sicherheitsbeh
 
 ## Einflussnetzwerk
 
-Formelle oder informelle Struktur, die Personen aus verschiedenen gesellschaftlichen Bereichen verbindet. Existenz und Vernetzung sind zunächst neutral; unzulässiger Einfluss muss separat belegt werden.
+Formelle oder informelle Struktur, die Personen aus verschiedenen gesellschaftlichen Bereichen verbindet. Die Analyse richtet sich auf konkret dokumentierte Finanzierungen, Interessen, Interventionen und Entscheidungswege.
