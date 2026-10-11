@@ -225,9 +225,8 @@ claims:
   falsification: Getrennte Verwendungsnachweise, ausdrückliche Ablehnungsakten und eine nachweislich fehlende gemeinsame
     Kommunikations- oder Zahlungskette würden die Netzwerkhypothese abschwächen.
 - id: CLM-DE-LANG-007
-  text: Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, sein privater
-    Informationsdienst habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000
-    und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000
+  text: Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, er selbst
+    habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000 und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000
     bis 6.000 DM und einen geschätzten Gesamtbetrag über 300.000 DM.
   classification: fact
   evidence_level: strong
@@ -239,7 +238,8 @@ claims:
     directness: direct
     locator: Gedruckte S. 26, Zeugenaussage von Stauffenbergs; S. 25–26 zur Finanzierungsstruktur
     note: Direkt eingesehener Minderheitenbericht gibt Zahlungszweck, Gesamthöhe, berichteten Zeitraum und das Zeugnis
-      des Empfängerkreises wieder, nicht einzelne private Bankbelege.
+      des Empfängerkreises wieder, nicht einzelne private Bankbelege. Die zitierte Zeugenaussage attribuiert die
+      Zahlungen von Stauffenberg persönlich; erst die anschließende Minderheitsbewertung ordnet sie seinem Informationsdienst zu.
   - source: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
     directness: direct
     locator: Gedruckte S. 13, Ziffer 5, Unterpunkt 5
@@ -346,9 +346,8 @@ what_follows:
     Dokumententests.
   claim_ids:
   - CLM-DE-LANG-006
-- text: Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, sein privater
-    Informationsdienst habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000
-    und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000
+- text: Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, er selbst
+    habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000 und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000
     bis 6.000 DM und einen geschätzten Gesamtbetrag über 300.000 DM.
   claim_ids:
   - CLM-DE-LANG-007
@@ -405,7 +404,7 @@ Die Landtagsdrucksachen [9/12951](https://www.bayern.landtag.de/www/ElanTextAbla
 
 - **`CLM-DE-LANG-005` — stark gestützte Berichtsaussage:** Der Minderheitenbericht beschrieb einen sichergestellten Vermerk Hans Langemanns vom 21. Februar 1980 zu einer Presseveröffentlichung vom 11. Februar 1980, die im Text des Vermerks auf Einflussnahmen in Zusammenarbeit mit dem Büro des Freiherrn von Stauffenberg zurückgeführt wurde; der Bericht nennt eine Paraphe Innenminister Gerold Tandlers.
 
-- **`CLM-DE-LANG-007` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, sein privater Informationsdienst habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000 und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000 bis 6.000 DM und einen geschätzten Gesamtbetrag über 300.000 DM.
+- **`CLM-DE-LANG-007` — stark gestützte Berichtsaussage:** Der Langemann-Minderheitenbericht gibt die Zeugenaussage Hans C. Freiherr von Stauffenbergs wieder, er selbst habe 1977 bis 1982 für Auslagen und Informationsbeschaffung durch Dritte insgesamt zwischen 300.000 und 350.000 DM an Hans Langemann gezahlt; der Mehrheitsbericht nennt demgegenüber für 1976 bis 1979 monatlich 5.000 bis 6.000 DM und einen geschätzten Gesamtbetrag über 300.000 DM.
 - **`CLM-DE-LANG-008` — stark gestützte Berichtsaussage:** Der Minderheitenbericht nennt als Förderbeträge des bayerischen Innenministeriums an den Arbeitskreis für das Studium internationaler Fragen 27.000 DM für 1979, 30.000 DM für 1980 und 35.000 DM für 1981; nach Angaben des Zeugen von Stauffenberg erhielt sein privater Informationsdienst aus dem Arbeitskreis gelegentlich Gelder.
 - **`CLM-DE-LANG-009` — stark gestützte Berichtsaussage:** Nach dem Langemann-Minderheitenbericht gehörten Franz Josef Strauß, Innenminister Gerold Tandler und der frühere Innenminister Alfred Seidl zu den Empfängern des von Hans C. Freiherr von Stauffenberg betriebenen privaten Nachrichteninformationsdienstes; die Darstellung beruht auf Ausschussermittlungen und einer dort referierten Zeugenaussage.
 
@@ -415,7 +414,7 @@ Der **Mehrheitsbericht, S. 11, Ziffer 2c**, identifiziert für den Oktoberfestko
 
 Der **Mehrheitsbericht, S. 13, Abschnitt 5, Ziffer 1**, beziffert eine Zahlung der durch Bund und Bayern finanziell unterstützten *Arbeitsgemeinschaft Staat und Gesellschaft* im Jahr 1976 auf **8.000 DM** an einen als Johann Kinsky bezeichneten Empfänger. Der **Minderheitenbericht, S. 25**, datiert eine entsprechende **8.000-DM**-Zahlung an Kinsky hingegen auf **1975** und beschreibt separat eine **5.000-DM**-Überweisung aus Verfügungsmitteln im Jahr 1976 und die vom Innenministerium erfahrene Decknamenszuordnung Langemann/Kinsky. Der Widerspruch **1975/1976** zur 8.000-DM-Zahlung ist über ursprüngliche Zahlungsbelege aufzulösen; die zusätzlich genannten 5.000 DM sind gesondert zu verbuchen.
 
-Die Landtagsmehrheit und -minderheit dokumentieren auch den privaten Informationsdienst von **Hans C. Freiherr von Stauffenberg**. Der Minderheitenbericht beziffert in einer von Stauffenberg zugeschriebenen Zeugenaussage Zahlungen von **300.000 bis 350.000 DM** an Langemann für den Zeitraum **1977–1982**. Der Mehrheitsbericht nennt für **1976–1979** monatliche Beträge von **5.000–6.000 DM** sowie eine Schätzung über **300.000 DM**. Die Datierungsdifferenz ist anhand des Originalvernehmungsprotokolls und der Abrechnungen zu klären.
+Die Landtagsmehrheit und -minderheit dokumentieren auch den privaten Informationsdienst von **Hans C. Freiherr von Stauffenberg**. Der Minderheitenbericht beziffert nach der eigenen Aussage von Stauffenbergs persönlich veranlasste Zahlungen von **300.000 bis 350.000 DM** an Langemann für den Zeitraum **1977–1982**. Der Mehrheitsbericht nennt für **1976–1979** monatliche Beträge von **5.000–6.000 DM** sowie eine Schätzung über **300.000 DM**. Die Minderheit schreibt diese Mittel in ihrer anschließenden politischen Schlussfolgerung dem Stauffenberg-Informationsdienst zu. Originalkontoauszüge und das vollständige Vernehmungsprotokoll sollen deshalb sowohl den Zahlungsträger als auch die zeitliche Zuordnung klären.
 
 Der **Arbeitskreis für das Studium internationaler Fragen e.V.** erhielt laut Minderheitenbericht aus dem bayerischen Innenministerium **27.000 DM (1979)**, **30.000 DM (1980)** und **35.000 DM (1981)**. Stauffenberg sagte demnach, aus diesem Arbeitskreis gelegentlich Mittel für seinen Informationsdienst erhalten zu haben. Der Bericht nennt **Franz Josef Strauß, Gerold Tandler und Alfred Seidl** als Empfänger des privaten Dienstes. Förderbescheide, Originalkonten, Belegexemplare und Versandlisten sind hier die unmittelbar entscheidenden Akten.
 
