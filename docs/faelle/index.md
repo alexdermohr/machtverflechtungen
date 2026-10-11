@@ -9,7 +9,7 @@ _Automatisch aus den Fall-Metadaten erzeugt._
 | 1950 – 1953 | [Technischer Dienst des Bund Deutscher Jugend](de/technischer-dienst-bdj.md) | DE | 2 belegt | covert-support, paramilitary-network |
 | 1968 – 1981 | [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](de/peter-urbach-verfassungsschutz.md) | DE | 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen | infiltration |
 | 1969-12-12 – 2005 | [Piazza Fontana](it/piazza-fontana.md) | IT | 2 belegt | strategy-of-tension, investigative-misdirection |
-| 1976 – 1982 | [Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](de/langemann-informationsnetz-1976-1982.md) | DE | 3 belegt · 2 stark gestützt · 1 plausibel | intelligence-network, material-support |
+| 1976 – 1982 | [Langemann 1976–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](de/langemann-informationsnetz-1976-1982.md) | DE | 3 belegt · 5 stark gestützt · 1 plausibel | intelligence-network, material-support |
 | 1978-07-25 – 1986 | [Celler Loch / Aktion Feuerzauber](de/celler-loch.md) | DE | 2 belegt | false-attribution, infiltration |
 | 1980-09-26 – 2021 | [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](de/oktoberfestattentat-1980.md) | DE | 56 belegt · 5 stark gestützt · 1 plausibel | paramilitary-network, intelligence-network |
 | 1984 – 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |  |

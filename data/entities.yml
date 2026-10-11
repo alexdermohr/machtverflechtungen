@@ -377,3 +377,14 @@ entities:
     name: Arbeitsgemeinschaft Staat und Gesellschaft
     countries:
     - DE
+
+  - id: PER-DE-HANS-C-STAUFFENBERG
+    type: person
+    name: Hans C. Freiherr von Stauffenberg
+    countries:
+    - DE
+  - id: ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN
+    type: organization
+    name: Arbeitskreis für das Studium internationaler Fragen e.V.
+    countries:
+    - DE

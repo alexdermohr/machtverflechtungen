@@ -1181,4 +1181,4 @@ Bayerischer Landtag, SPD-/FDP-Minderheit des Langemann-Untersuchungsausschusses 
 
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf)
 
-Fundstelle: Faksimile gedruckte S. 15 zur Publikation VS-Vertraulich/G-10 1980; S. 17 Vermerk 21.02.1980 zur Medienbeeinflussung; S. 17–18 Vormerkung 'Victory for Strauß' November 1979 mit Medien-/Finanzierungsprogramm; S. 25 Deckname Kinsky und Kontoangaben.
+Fundstelle: Faksimile gedruckte S. 15 zur Publikation VS-Vertraulich/G-10 1980; S. 17 Vermerk 21.02.1980 zur Medienbeeinflussung; S. 17–18 Vormerkung 'Victory for Strauß' November 1979 mit Medien-/Finanzierungsprogramm; S. 25–26 Deckname Kinsky, Förderzahlungen an den Arbeitskreis, Stauffenbergs private Informationsdienst-Zahlungen und Bezieherkreis.

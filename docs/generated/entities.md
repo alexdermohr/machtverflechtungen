@@ -7,6 +7,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `ORG-DE-ARD` | public_broadcaster | ARD | DE |
 | `PER-DE-ANDREAS-TEMME` | person | Andreas Temme | DE |
 | `ORG-DE-AG-STAAT-GESELLSCHAFT` | organization | Arbeitsgemeinschaft Staat und Gesellschaft | DE |
+| `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | organization | Arbeitskreis für das Studium internationaler Fragen e.V. | DE |
 | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | program | Atlantik-Brücke Young Leaders Program | DE, US |
 | `ORG-DE-ATLANTIK-BRUECKE` | association | Atlantik-Brücke e.V. | DE, US |
 | `ORG-DE-AXEL-SPRINGER` | media_company | Axel Springer SE | DE |
@@ -32,6 +33,7 @@ Die Aufnahme in diesen Katalog bedeutet weder Fehlverhalten noch politischen Ein
 | `PER-DE-GUNDOLF-KOEHLER` | person | Gundolf Köhler | DE |
 | `ORG-DE-HH-FINANZVERWALTUNG` | tax_administration | Hamburger Finanzverwaltung | DE |
 | `ORG-DE-HANDELSBLATT` | media_outlet | Handelsblatt | DE |
+| `PER-DE-HANS-C-STAUFFENBERG` | person | Hans C. Freiherr von Stauffenberg | DE |
 | `PER-DE-HANS-LANGEMANN` | person | Hans Langemann | DE |
 | `PER-DE-HORST-MAHLER` | person | Horst Mahler | DE |
 | `PER-DE-HUBERT-BURDA` | person | Hubert Burda | DE |
