@@ -728,8 +728,8 @@ relations:
   - id: REL-DE-LANG-001
     from: PER-DE-HANS-LANGEMANN
     to: PER-DE-WALTER-H-JONAS
-    type: reported_account_transfers
-    label: "veranlasste laut Minderheitenbericht 1977 drei Überweisungen über zusammen 17.000 DM an Jonas"
+    type: reported_funding_for_beneficiary
+    label: "veranlasste 1977 drei Überweisungen über 17.000 DM für Jonas, davon 4.000 DM auf das von-Corneli-Konto"
     period: {start: "1977", end: "1977"}
     evidence_level: strong
     sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
