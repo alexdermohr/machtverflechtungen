@@ -1181,3 +1181,36 @@ sources:
   accessed: "2026-10-10"
   locator: "Gedruckte S. 1–3: Fragestellerzitierung aus General-Anzeiger (22.02.1993), wonach ein Flugblatt des WSG-Freundeskreises von 1975 Peter Weinmann als 'Informationsstelle Bonn' genannt habe; Fragen 1 und 10 zur BfV-Tätigkeit/WSG-Freundeskreis. Gedruckte S. 4 (PDF S. 4), Einleitende Bundesantwort 17.03.1993: keine öffentliche Stellungnahme über nachrichtendienstliche Einzelheiten, unabhängig vom Wahrheitsgehalt der Behauptungen."
   notes: "Die Regierungsantwort ist Primärquelle für ihren tatsächlichen Auskunfts-/Verweigerungswortlaut, nicht für die Richtigkeit der in der Anfrage wiedergegebenen 1993er Zeitungstexte und angeblichen 1975er Freundeskreis-Flugblätter. Die in einem 1976 privat überlieferten Brief stehende Initiale 'P. Weinmann' passt als prüfbarer Indizienhinweis, liefert aber keine behördlich bestätigte identifizierende Aussage. Die Bundesregierung verweigerte nicht nur im konkret wahren Fall, sondern ausdrücklich ohne Anerkennung oder Verneinung des zugrunde gelegten Sachverhalts. Keine beweisbare west- oder ostdeutsche Doppelagenten-/staatliche Geldspur ohne Originalakten."
+
+- id: SRC-DE-BAYLT-LANGEMANN-MEHRHEIT-12951-1982
+  title: 'Bayerischer Landtag, Drs. 9/12951: Mehrheitsbericht des Untersuchungsausschusses zu Hans Langemann'
+  institution: Bayerischer Landtag, Untersuchungsausschuss Langemann (Mehrheitsbericht)
+  date: '1982-07-16'
+  type: parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000012500/09-12951.pdf
+  accessed: '2026-10-11'
+  locator: 'Faksimile gedruckte S. 11: Ziff. 2c zur Aktenweitergabe Oktoberfest; S. 13, Abschnitt 5,
+    Ziffer 1: 8.000 DM an ''Prof. Dr. Johann Kinsky'' (1976); Ziffer 4: Arbeitskreis-Förderung; Ziffer 5:
+    von Stauffenbergs berichtete Zahlungen an Langemann.'
+  notes: Amtlicher Mehrheitsbericht ist Primärquelle für Ausschussarbeit und Mehrheitsbewertung, nicht die
+    Urschrift der Übergabe- oder Zahlungsbelege. Heigls Herkunftsaussage ausdrücklich als Zeugenaussage führen.
+    Der Minderheitenbericht 9/13012 beruht auf derselben Untersuchung, nicht auf einem unabhängigen zweiten
+    Vorgang.
+- id: SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982
+  title: 'Bayerischer Landtag, Drs. 9/13012: Minderheitenbericht zum Untersuchungsausschuss Hans Langemann'
+  institution: Bayerischer Landtag, SPD-/FDP-Minderheit des Langemann-Untersuchungsausschusses
+  date: '1982-09-10'
+  type: parliamentary_minority_report
+  primary: true
+  tier: A
+  url: https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf
+  accessed: '2026-10-11'
+  locator: Faksimile gedruckte S. 15 zur Publikation VS-Vertraulich/G-10 1980; S. 17 Vermerk 21.02.1980 zur
+    Medienbeeinflussung; S. 17–18 Vormerkung 'Victory for Strauß' November 1979 mit Medien-/Finanzierungsprogramm;
+    S. 25–26 Deckname Kinsky, Förderzahlungen an den Arbeitskreis, Stauffenbergs private Informationsdienst-Zahlungen und Bezieherkreis.
+  notes: Primärquelle für das veröffentlichte Minderheitenvotum und dessen Zitate aus gesicherten Akten; die
+    zitierten internen Vormerkungen und Kontoauszüge wurden nicht als separate Urschriften geprüft. Keine zusätzliche
+    unabhängige Zeugenbasis gegenüber Drucksache 9/12951 behaupten. Pläne, Zuschreibungen und tatsächlich ausgeführte
+    Handlungen getrennt halten.

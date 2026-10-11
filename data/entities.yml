@@ -361,3 +361,30 @@ entities:
     type: "person"
     name: "Andreas Temme"
     countries: ["DE"]
+
+  - id: PER-DE-HANS-LANGEMANN
+    type: person
+    name: Hans Langemann
+    countries:
+    - DE
+  - id: ORG-DE-BAYSTMI
+    type: organization
+    name: Bayerisches Staatsministerium des Innern
+    countries:
+    - DE
+  - id: ORG-DE-AG-STAAT-GESELLSCHAFT
+    type: organization
+    name: Arbeitsgemeinschaft Staat und Gesellschaft
+    countries:
+    - DE
+
+  - id: PER-DE-HANS-C-STAUFFENBERG
+    type: person
+    name: Hans C. Freiherr von Stauffenberg
+    countries:
+    - DE
+  - id: ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN
+    type: organization
+    name: Arbeitskreis für das Studium internationaler Fragen e.V.
+    countries:
+    - DE

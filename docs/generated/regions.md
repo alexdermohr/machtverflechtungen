@@ -8,6 +8,7 @@ _Gruppiert nach ISO-Ländercode. Die Kurzangabe zeigt die Claim-Verteilung, kein
 - [Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung](../faelle/de/medien-nachrichtendienst-crosslayer.md) — 1950 · 2 belegt · 2 stark gestützt
 - [Technischer Dienst des Bund Deutscher Jugend](../faelle/de/technischer-dienst-bdj.md) — 1950 · 2 belegt
 - [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) — 1968 · 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen
+- [Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](../faelle/de/langemann-informationsnetz-1976-1982.md) — 1975 · 3 belegt · 5 stark gestützt · 1 plausibel
 - [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) — 1978-07-25 · 2 belegt
 - [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](../faelle/de/oktoberfestattentat-1980.md) — 1980-09-26 · 56 belegt · 5 stark gestützt · 1 plausibel
 - [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
