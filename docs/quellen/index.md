@@ -551,7 +551,7 @@ Deutscher Bundestag · 1998 · Stufe **A** · Primärquelle · `SRC-DE-BT-131100
 
 [PDF öffnen](https://dserver.bundestag.de/btd/13/110/1311005.pdf)
 
-Fundstelle: gedruckte S. 55–57, 66–76, 161–166, 460 und 464–465; Roeder, DRGW-Vorstandswahl, Bundeswehr-Fahrzeuge, Vortrag, Verbleib
+Fundstelle: gedruckte S. 55–57 (Vortrag), 72–74 (AA/BMVg-Bewilligung und Materialbereitstellung), 460 (Vorstandswahl) und 464–465 (Fahrzeugverbleib); Roeder und DRGW
 
 <a id="src-de-bt-ua-bnd-journalisten-2009"></a>
 ### Deutscher Bundestag

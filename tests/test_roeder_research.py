@@ -66,7 +66,9 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         self.assertTrue(sources["SRC-DE-BT-1311005-1998"]["primary"])
         original_locator = sources["SRC-DE-BT-1311005-1998"]["locator"]
         self.assertIn("460", original_locator)
-        self.assertIn("66–76", original_locator)
+        self.assertIn("72–74", original_locator)
+        self.assertNotIn("66–76", original_locator)
+        self.assertNotIn("161–166", original_locator)
         self.assertTrue(sources["SRC-DE-HE-VSBER-1982"]["primary"])
         self.assertIn("gedruckte S. 15", sources["SRC-DE-HE-VSBER-1982"]["locator"])
         self.assertFalse(sources["SRC-DE-ARCHIVPORTAL-DA-2026"]["primary"])
@@ -90,6 +92,22 @@ class RoederSourceBoundaryTests(unittest.TestCase):
                 self.assertEqual(relations[rid]["from"], person)
                 self.assertEqual(relations[rid]["to"], "ORG-DE-DEUTSCHE-AKTIONSGRUPPEN")
                 self.assertEqual(relations[rid]["type"], "victim_of_violent_attack")
+
+    def test_material_decision_citations_and_attack_summary_remain_precise(self) -> None:
+        meta = case_metadata()
+        claims = {claim["id"]: claim for claim in meta["claims"]}
+        evidence_locator = claims["CLM-DE-DA-006"]["evidence"][0]["locator"]
+        self.assertIn("gedruckte S. 72–74", evidence_locator)
+        self.assertIn("01.06.1994", evidence_locator)
+        self.assertIn("15.06.1994", evidence_locator)
+        self.assertNotIn("66–76", evidence_locator)
+
+        body = CASE.read_text(encoding="utf-8")
+        self.assertIn("gedruckte S. 72–74", body)
+        self.assertNotIn("S. 55–57 und 66–76", body)
+        self.assertIn("unter anderem", body.split("## Anschläge und strafrechtliche Aufarbeitung", 1)[1].split("## Private Geldzuflüsse", 1)[0])
+        self.assertNotIn("sieben Tatorte", claims["CLM-DE-DA-001"]["evidence"][0]["note"])
+        self.assertNotIn("161–166", body.split("## Quellen", 1)[-1])
 
     def test_public_case_includes_source_discovery_paths(self) -> None:
         text = CASE.read_text(encoding="utf-8")
