@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**115 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**120 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -586,6 +586,28 @@ Deutscher Bundestag · 1953-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Drucksache Nr. 4644
 
+<a id="src-de-bt-09066-1981"></a>
+### Deutscher Bundestag
+
+**[Stenographischer Bericht Bundestag 9/66, Fragestunde zu Lembke, Roeder und rechtsextremistischen Geldquellen](https://dserver.bundestag.de/btp/09/09066.pdf)**
+
+Deutscher Bundestag · 1981-11-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-09066-1981`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/09/09066.pdf)
+
+Fundstelle: gedruckte S. 3842–3843, Zusatzfrage Gnädinger sowie Frage 16 Fischer (Osthofen)
+
+<a id="src-de-bt-1311005-1998"></a>
+### Deutscher Bundestag
+
+**[Bericht des Verteidigungsausschusses als Untersuchungsausschuss zu rechtsextremistischen Vorkommnissen und Manfred Roeder](https://dserver.bundestag.de/btd/13/110/1311005.pdf)**
+
+Deutscher Bundestag · 1998 · Stufe **A** · Primärquelle · `SRC-DE-BT-1311005-1998`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/110/1311005.pdf)
+
+Fundstelle: gedruckte S. 55–57 (Vortrag), 72–74 (AA/BMVg-Bewilligung und Materialbereitstellung), 460 (Vorstandswahl) und 464–465 (Fahrzeugverbleib); Roeder und DRGW
+
 <a id="src-de-bt-ua-bnd-journalisten-2009"></a>
 ### Deutscher Bundestag
 
@@ -872,6 +894,17 @@ Handelsblatt Media Group · 2014 · Stufe **A** · Primärquelle · `SRC-DE-HMG-
 
 Fundstelle: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
 
+<a id="src-de-he-vsber-1982"></a>
+### Hessische Landesregierung / Verfassungsschutz Hessen
+
+**[Verfassungsschutz in Hessen – Bericht 1982](https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf)**
+
+Hessische Landesregierung / Verfassungsschutz Hessen · 1982 · Stufe **A** · Primärquelle · `SRC-DE-HE-VSBER-1982`
+
+[PDF öffnen](https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf)
+
+Fundstelle: gedruckte S. 15, Abschnitt Manfred Roeder/Deutsche Bürgerinitiative; PDF-Seite 16
+
 <a id="src-de-helt-bdj-186904-2013"></a>
 ### Hessischer Landtag / Hessische Landesregierung
 
@@ -1001,6 +1034,17 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
 ## Forschung & Dokumentation
+
+<a id="src-de-archivportal-da-2026"></a>
+### Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg
+
+**[Archivportal-D Themenportal Rechte Gewalt: Rassistischer Anschlag der Deutschen Aktionsgruppen](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen)**
+
+Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg · 2026-08-14 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ARCHIVPORTAL-DA-2026`
+
+[Seite öffnen](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen)
+
+Fundstelle: Einleitung; Ablauf des Ereignisses; Ermittlungen; Bestandsübersicht
 
 <a id="src-de-ab-message-2003-mirror"></a>
 ### Atlantik-Brücke e.V.
@@ -1219,6 +1263,17 @@ Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-0
 [Seite öffnen](https://isioma.net/sds120502.html)
 
 Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
+
+<a id="src-de-erlangen-lewin-2026"></a>
+### Stadt Erlangen
+
+**[Gedenken: Shlomo Lewin und Frida Poeschke](https://erlangen.de/aktuelles/lewin-poeschke)**
+
+Stadt Erlangen · 2026-01-26 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ERLANGEN-LEWIN-2026`
+
+[Seite öffnen](https://erlangen.de/aktuelles/lewin-poeschke)
+
+Fundstelle: Abschnitt Gedenken: Tatdatum 19.12.1980, Opfer Shlomo Lewin und Frida Poeschke, Tatort Erlangen
 
 <a id="src-de-stern-urbach-1971-reprint"></a>
 ### STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma

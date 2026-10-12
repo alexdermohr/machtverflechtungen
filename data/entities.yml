@@ -398,6 +398,72 @@ entities:
     name: Aristide Brunello
     countries: [DE]
 
+  - id: PER-DE-MANFRED-ROEDER
+    type: person
+    name: "Manfred Roeder"
+    countries: [DE]
+    notes: "historische Person; Deutsche Bürgerinitiative 1981 und Deutsch-Russisches Gemeinschaftswerk 1995"
+
+  - id: PER-DE-HEINZ-LEMBKE
+    type: person
+    name: "Heinz Lembke"
+    countries: [DE]
+    notes: "Bundestagsauskunft 1981 zu Mitgliedschaften, Waffenfunden und Kontakten"
+
+  - id: PER-DE-ODFRIED-HEPP
+    type: person
+    name: "Odfried Hepp"
+    countries: [DE]
+    notes: "Bundestagsauskunft 1981 nennt Kontakt zu Lembke, WSG-Bezug und Kampfgruppe Schwarzwald"
+
+  - id: PER-DE-NGUYEN-NGOC-CHAU
+    type: person
+    name: "Nguyễn Ngọc Châu"
+    countries: [DE]
+    notes: "Opfer des Hamburger Brandanschlags der Deutschen Aktionsgruppen vom 22.08.1980"
+
+  - id: PER-DE-DO-ANH-LAN
+    type: person
+    name: "Đỗ Anh Lân"
+    countries: [DE]
+    notes: "Opfer des Hamburger Brandanschlags der Deutschen Aktionsgruppen vom 22.08.1980"
+
+  - id: PER-DE-SIBYLLE-VORDERBRUEGGE
+    type: person
+    name: "Sibylle Vorderbrügge"
+    countries: [DE]
+    notes: "Anschlagsbeteiligte laut Archivportal-D und dort referiertem OLG-Stuttgart-Urteil"
+
+  - id: PER-DE-RAYMUND-HOERNLE
+    type: person
+    name: "Raymund Hörnle"
+    countries: [DE]
+    notes: "Anschlagsbeteiligter laut Archivportal-D und dort referiertem OLG-Stuttgart-Urteil"
+
+  - id: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
+    type: extremist_network
+    name: "Deutsche Aktionsgruppen"
+    countries: [DE]
+    notes: "1980 rechtsterroristische Anschlagsgruppe, von Manfred Roeder angeleitet"
+
+  - id: ORG-DE-DEUTSCHE-BUERGERINITIATIVE
+    type: organization
+    name: "Deutsche Bürgerinitiative"
+    countries: [DE]
+    notes: "Eigenständige neonazistische Organisation im Roeder-Umfeld; dokumentierte Konteneingänge 1979/80"
+
+  - id: ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK
+    type: organization
+    name: "Deutsch-Russisches Gemeinschaftswerk"
+    countries: [DE]
+    notes: "1993 gegründeter Förderverein mit Bundeswehr-Materialüberlassung 1994/95; nicht dieselbe Organisation wie DA 1980"
+
+  - id: ORG-DE-BUNDESWEHR
+    type: military_organization
+    name: "Bundeswehr"
+    countries: [DE]
+    notes: "Deutsche Streitkräfte; im Ausschussbericht 13/11005 dokumentierter Materialgeber 1994"
+
   - id: ORG-DE-BDJ-TD
     type: paramilitary_network
     name: "Technischer Dienst des Bundes Deutscher Jugend"

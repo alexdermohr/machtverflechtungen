@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**95 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**106 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -20,6 +20,7 @@
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE |
+| Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE |
@@ -30,15 +31,20 @@
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE |
+| Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE |
 | Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE |
+| Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE |
+| Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE |
 | Peter Urbach | person | `PER-DE-PETER-URBACH` | DE |
+| Raymund Hörnle | person | `PER-DE-RAYMUND-HOERNLE` | DE |
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE |
+| Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE |
 | Stefan von Holtzbrinck | person | `PER-DE-STEFAN-VON-HOLTZBRINCK` | DE |
 | Sven Afhüppe | person | `PER-DE-SVEN-AFHUEPPE` | DE |
@@ -54,6 +60,7 @@
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE |
+| Đỗ Anh Lân | person | `PER-DE-DO-ANH-LAN` | DE |
 
 ## Organisationen & Institutionen
 
@@ -74,9 +81,13 @@
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE |
+| Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE |
+| Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE |
+| Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE |
+| Deutsche Bürgerinitiative | organization | `ORG-DE-DEUTSCHE-BUERGERINITIATIVE` | DE |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE |
