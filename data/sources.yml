@@ -1357,3 +1357,14 @@ sources:
   accessed: "2026-10-12"
   locator: "gedruckte S. 1: Regierungsantwort Frage 1 (Staatskanzlei und deutsch-amerikanischer Kommissionsaktenband); S. 2–3: Archivbestände, Rechts- und Forschungszugang in 2013"
   notes: "Regierungsantwort ab dem Absatz nach der parlamentarischen Vorbemerkung ist die amtliche Evidenzbasis. Die Vorbemerkung des Fragestellers enthält eigenständige, teils Wikipedia-basierte Angaben. Schutzfristen beschreiben den Stand von 2013, nicht die konkrete Freigabe einer Akte im Jahr 2026."
+- id: "SRC-DE-HHSTAW-502-17886"
+  title: "Arcinsys-Verzeichnung: Aktivitäten des BDJ und seines Technischen Dienstes, Band 1"
+  institution: "Hessisches Hauptstaatsarchiv Wiesbaden"
+  date: null
+  type: "archival_finding_aid"
+  primary: true
+  tier: "A"
+  url: "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555"
+  accessed: "2026-10-12"
+  locator: "HHStAW, 502, 17886; Bd. 1; Laufzeit [1951] 1952–1953; 'Enthält'-Vermerk zur Deutsch-Amerikanischen Untersuchungskommission"
+  notes: "Primärer Archivkatalognachweis für Signatur und Inhaltsverzeichnis, nicht digitalisierte Originalakte. Ein Publikationsdatum des Findbucheintrags ist nicht angegeben; der Abruf erfolgte am 12.10.2026. Frühere Behördenkennzeichnung 'Nr. 18 I (26) Geheim', Registraturzeichen 03a-34-01. Der 'Enthält'-Vermerk nennt Tätigkeit der Kommission (1952), Korrespondenz mit Bundesregierung/Bundesinnenminister sowie Bundesanwaltschaftsverfahren gegen Paul Lüth und gegen Otto Rietdorf, Erhard Peters und weitere Personen. Das Findbuch belegt keine inhaltlichen Ermittlungsergebnisse oder Zugänglichkeit der Originalblätter."
