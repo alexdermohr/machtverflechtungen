@@ -762,3 +762,142 @@ relations:
     evidence_level: strong
     sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
     claim_ids: [CLM-DE-LANG-012]
+
+  - id: REL-DE-BDJ-001
+    from: ORG-DE-BDJ
+    to: ORG-DE-BDJ-TD
+    type: parliamentary_assessed_personnel_overlap
+    label: "Bundestagsausschuss bewertete 1953 die personelle und ideelle Überschneidung als weitgehend"
+    evidence_level: established
+    sources: [SRC-DE-BT-04644-1953]
+    claim_ids: [CLM-DE-BDJ-001]
+
+  - id: REL-DE-BDJ-002
+    from: ORG-DE-BMG
+    to: ORG-DE-BDJ
+    type: reported_federal_grant
+    label: "10.000 DM Bundeszuwendung für das BDJ-Pfingsttreffen 1952"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023]
+    claim_ids: [CLM-DE-BDJ-004]
+
+  - id: REL-DE-BDJ-003
+    from: ORG-DE-BMI
+    to: ORG-DE-BDJ
+    type: reported_federal_grant
+    label: "6.000 DM aus BMI-Mitteln für den BDJ, laut Egidi 21.10.1952"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-FRAK-BDJ-19521021]
+    claim_ids: [CLM-DE-BDJ-004]
+
+  - id: REL-DE-BDJ-004
+    from: ORG-DE-BFV
+    to: ORG-DE-BDJ-TD
+    type: reported_prior_knowledge
+    label: "BfV hatte laut Egidi seit September 1951 Berichte über TD-Übungen bei Wald-Michelbach"
+    period: {start: "1951"}
+    evidence_level: established
+    sources: [SRC-DE-FRAK-BDJ-19521021]
+    claim_ids: [CLM-DE-BDJ-003]
+
+  - id: REL-DE-BDJ-005
+    from: ORG-US-US-ARMY-GERMANY
+    to: ORG-DE-BDJ-TD
+    type: reported_military_training_support
+    label: "Hoegner berichtete Ausbildung und Unterstützung des TD durch US-Armeestellen, nicht durch die US-Zivilverwaltung"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-BYLT-TD-19521029]
+    claim_ids: [CLM-DE-BDJ-008, CLM-DE-BDJ-014]
+
+  - id: REL-DE-BDJ-006
+    from: ORG-DE-STOSSTRUPP-BZ
+    to: ORG-DE-DHS
+    type: reported_organizational_subunit
+    label: "Hoegner bezeichnete den Deutschen Heimatschutz am 29.10.1952 als Unterorganisation des eigenständigen Stoßtrupps"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-BYLT-TD-19521029]
+    claim_ids: [CLM-DE-BDJ-011]
+
+  - id: REL-DE-BDJ-007
+    from: ORG-DE-STOSSTRUPP-BZ
+    to: ORG-DE-BDJ
+    type: reported_leadership_overlap
+    label: "Laut Hoegner waren führende Funktionäre des Stoßtrupps zugleich Funktionäre des BDJ"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-BYLT-TD-19521029]
+    claim_ids: [CLM-DE-BDJ-011]
+
+  - id: REL-DE-BDJ-008
+    from: ORG-DE-DHS
+    to: ORG-US-CIC
+    type: reported_reference_phone_contact
+    label: "Bayerische Ermittler ordneten 1952 eine bei DHS-Werbung genannte Referenznummer einer CIC-Dienststelle zu"
+    period: {start: "1952"}
+    evidence_level: established
+    sources: [SRC-DE-BYLT-TD-19521029]
+    claim_ids: [CLM-DE-BDJ-011]
+
+  - id: REL-DE-BDJ-009
+    from: ORG-DE-HE-LANDESREGIERUNG
+    to: ORG-DE-BDJ
+    type: hessian_territorial_prohibition
+    label: "Verbot des BDJ im hessischen Landesgebiet am 8. Januar 1953"
+    period: {start: "1953-01-08"}
+    evidence_level: strong
+    sources: [SRC-DE-HE-LAGIS-BDJ-19530108]
+    claim_ids: [CLM-DE-BDJ-016]
+
+  - id: REL-DE-BDJ-010
+    from: ORG-DE-BY-MINISTERRAT
+    to: ORG-DE-STOSSTRUPP-BZ
+    type: cabinet_ban_decision
+    label: "Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Stoßtrupp; Vollzug gesondert nachprüfen"
+    period: {start: "1953-01-13"}
+    evidence_level: established
+    sources: [SRC-DE-BYMR-TD-19530113]
+    claim_ids: [CLM-DE-BDJ-012]
+
+  - id: REL-DE-BDJ-011
+    from: ORG-DE-BY-MINISTERRAT
+    to: ORG-DE-DHS
+    type: cabinet_ban_decision
+    label: "Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Deutschen Heimatschutz"
+    period: {start: "1953-01-13"}
+    evidence_level: established
+    sources: [SRC-DE-BYMR-TD-19530113]
+    claim_ids: [CLM-DE-BDJ-012]
+
+  - id: REL-DE-BDJ-012
+    from: ORG-DE-BY-MINISTERRAT
+    to: ORG-DE-BDJ-TD
+    type: cabinet_ban_decision
+    label: "Bayerischer Ministerrat erklärte am 20.01.1953 den TD zur verfassungswidrigen Organisation, BDJ-Entscheidung vertagt"
+    period: {start: "1953-01-20"}
+    evidence_level: established
+    sources: [SRC-DE-BYMR-TD-19530120]
+    claim_ids: [CLM-DE-BDJ-013]
+
+  - id: REL-DE-BDJ-013
+    from: ORG-DE-BUNDESANWALTSCHAFT
+    to: CASE-DE-BDJ-TD-1950S
+    type: reported_dismissal_considered
+    label: "Laut bayerischem Ministerratsprotokoll 20.01.1953 erwog der Bundesanwalt eine Verfahrenseinstellung"
+    period: {start: "1953-01-15"}
+    evidence_level: established
+    sources: [SRC-DE-BYMR-TD-19530120]
+    claim_ids: [CLM-DE-BDJ-015]
+
+  - id: REL-DE-BDJ-014
+    from: ORG-DE-FRANKFURT-GSTA
+    to: CASE-DE-BDJ-TD-1950S
+    type: reported_preliminary_investigation_requested
+    label: "Laut bayerischem Ministerratsprotokoll beantragte die Generalstaatsanwaltschaft Frankfurt eine Voruntersuchung"
+    period: {start: "1953-01-15"}
+    evidence_level: established
+    sources: [SRC-DE-BYMR-TD-19530120]
+    claim_ids: [CLM-DE-BDJ-015]

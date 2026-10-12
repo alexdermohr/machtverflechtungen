@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**107 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**115 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -280,6 +280,39 @@ Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle · `SRC-DE-AXELSP
 
 Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
 
+<a id="src-de-bymr-td-19530113"></a>
+### Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat
+
+**[Bayerischer Ministerrat, Sitzung Nr. 136 vom 13. Januar 1953, TOP IX](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf)**
+
+Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat · 1953-01-13 · Stufe **A** · Primärquelle · `SRC-DE-BYMR-TD-19530113`
+
+[Seite öffnen](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf)
+
+Fundstelle: Nr. 136, TOP IX, gedruckte S. 8: Verbot Stoßtrupp/DHS und Verschiebung einer bayerischen BDJ-Entscheidung bis zur BMI-Besprechung am 15. Januar
+
+<a id="src-de-bymr-td-19530120"></a>
+### Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat
+
+**[Bayerischer Ministerrat, Sitzung Nr. 138 vom 20. Januar 1953, TOP V](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf)**
+
+Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat · 1953-01-20 · Stufe **A** · Primärquelle · `SRC-DE-BYMR-TD-19530120`
+
+[Seite öffnen](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf)
+
+Fundstelle: Nr. 138, TOP V, gedruckte S. 8–9: Bundesanwalt gegen Frankfurter GStA; BDJ/TD-Trennung, Beschluss gegen TD; 23 in Bayern festgestellte US-Ausgebildete, Wald-Michelbach/Grafenwöhr
+
+<a id="src-de-bylt-td-19521029"></a>
+### Bayerischer Landtag
+
+**[Bayerischer Landtag, 115. Plenarsitzung vom 29. Oktober 1952 – Hoegner zu Partisanengruppen](https://www.bayern.landtag.de/www/ElanTextAblage_WP02/Protokolle/02%20Wahlperiode%20Kopie/02%20WP%20Plenum%20LT%20Kopie/115%20PL%20291052%20ges%20endg%20Kopie.pdf)**
+
+Bayerischer Landtag · 1952-10-29 · Stufe **A** · Primärquelle · `SRC-DE-BYLT-TD-19521029`
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP02/Protokolle/02%20Wahlperiode%20Kopie/02%20WP%20Plenum%20LT%20Kopie/115%20PL%20291052%20ges%20endg%20Kopie.pdf)
+
+Fundstelle: gedruckte S. 311: 70.000 DM Zufluss/30.000 DM Bargeld, Listen, US-Schulung; S. 312: Stoßtrupp, DHS, CIC-Telefonreferenz; S. 313: Regierungserklärung
+
 <a id="src-de-baylt-okt-spuren-2014"></a>
 ### Bayerischer Landtag
 
@@ -467,6 +500,17 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1988-01-27 · Stufe **A** · Primärqu
 
 Fundstelle: BArch, MfS, HA XXII, Nr. 18138, Bd. 1, Bl. 158–171, besonders Bl. 163 und Passage La Belle
 
+<a id="src-de-barch-kab-bdj-19521010"></a>
+### Bundesarchiv, Editionsreihe Die Kabinettsprotokolle der Bundesregierung
+
+**[252. Kabinettssitzung vom 10. Oktober 1952 – BDJ und Kabinettsdiskussion](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf)**
+
+Bundesarchiv, Editionsreihe Die Kabinettsprotokolle der Bundesregierung · 1952-10-10 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-KAB-BDJ-19521010`
+
+[PDF öffnen](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf)
+
+Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-Schreiben 16.10.1952, 10.000 DM); ergänzend B 106/15584 (BMI)
+
 <a id="src-de-bgh-cumex-2021"></a>
 ### Bundesgerichtshof
 
@@ -519,6 +563,17 @@ Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (
 [PDF öffnen](https://www.stragi.it/archivio/doc/638.pdf)
 
 Fundstelle: Digitalisiertes Urteil, 1937 PDF-Seiten: PDF S. 153–155 (gedruckte S. 59–61, Interview Porena/Abu Iyad 19.09.1980); PDF S. 174–177 (gedruckte S. 80–83, SISDE 09.10.1980, CESIS 31.10.1980/30.01.1981); PDF S. 1307–1308 (gedruckte S. 1213–1214, Giovannone-/Propagandabewertung). SHA-256 Faksimile d2ac7f6d986a664d0da10790381eb453d7286af24eeb48006185c37f36d67cb9
+
+<a id="src-de-bt-bdj-19521023"></a>
+### Deutscher Bundestag
+
+**[Deutscher Bundestag, Plenarprotokoll 1/235 vom 23. Oktober 1952](https://dserver.bundestag.de/btp/01/01235.pdf)**
+
+Deutscher Bundestag · 1952-10-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-BDJ-19521023`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/01/01235.pdf)
+
+Fundstelle: gedruckte S. 10804–10813, besonders S. 10805: Lehr zu BDJ/TD, 10.000-DM-BMG-Zuschuss, BMI-Abwehrmittel, Kommission 02./08.10.; S. 10812: Zinn zu Ermittlungen
 
 <a id="src-de-bt-04644-1953"></a>
 ### Deutscher Bundestag
@@ -773,6 +828,17 @@ Deutscher Bundestag / Bundesregierung, Staatssekretär Dr. Fröhlich · 1981-01-
 
 Fundstelle: Gedruckte S. 7, Frage und Antwort Nr. 14, Antwort des Staatssekretärs Dr. Fröhlich vom 23.12.1980: nach damaligem Kenntnisstand keine fortdauernden Spendeninformationen, jüngste Freundeskreisaktivität nicht festgestellt und das in Presse erwähnte Nürnberger Postscheckkonto sei ein Privatkonto Hoffmanns.
 
+<a id="src-de-frak-bdj-19521021"></a>
+### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
+
+**[CDU/CSU-Fraktionssitzung 21. Oktober 1952 – Egidi über BDJ und Technischen Dienst](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html)**
+
+Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899) · 1952-10-21 · Stufe **A** · Primärquelle · `SRC-DE-FRAK-BDJ-19521021`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html)
+
+Fundstelle: 21.10.1952, Tagesordnungspunkt Hans Egidi/BDJ; BfV-Waffenlager 1950, Übungen 1951, BDJ Bundesmittel 10.000/6.000 DM; Editionsanmerkung 4 zum Gesamtdeutschen Ausschuss 29.03.1951
+
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
 ### Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht unabhängig authentifizierter privater Sammlung
 
@@ -805,6 +871,17 @@ Handelsblatt Media Group · 2014 · Stufe **A** · Primärquelle · `SRC-DE-HMG-
 [Seite öffnen](https://handelsblattgroup.com/Presse/doppelspitze-beim-handelsblatt-sven-afhuppe-wird-zum-chefredakteur-berufen/)
 
 Fundstelle: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
+
+<a id="src-de-helt-bdj-186904-2013"></a>
+### Hessischer Landtag / Hessische Landesregierung
+
+**[Hessischer Landtag, Drucksache 18/6904: Akten und Schutzfristen zu BDJ/Technischem Dienst](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf)**
+
+Hessischer Landtag / Hessische Landesregierung · 2013-03-19 · Stufe **A** · Primärquelle · `SRC-DE-HELT-BDJ-186904-2013`
+
+[PDF öffnen](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf)
+
+Fundstelle: gedruckte S. 1: Regierungsantwort Frage 1 (Staatskanzlei und deutsch-amerikanischer Kommissionsaktenband); S. 2–3: Archivbestände, Rechts- und Forschungszugang in 2013
 
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen
@@ -1087,6 +1164,17 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 [Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
+
+<a id="src-de-he-lagis-bdj-19530108"></a>
+### Landesgeschichtliches Informationssystem Hessen (LAGIS)
+
+**[Hessen-Chronik: Verbot des Bundes Deutscher Jugend am 8. Januar 1953](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb)**
+
+Landesgeschichtliches Informationssystem Hessen (LAGIS) · 1953-01-08 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-HE-LAGIS-BDJ-19530108`
+
+[Seite öffnen](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb)
+
+Fundstelle: Hessen-Chronik Eintrag vom 08.01.1953; Nachfolgeeintrag 09.01.1953 Räumung der Frankfurter BDJ-Geschäftsstelle
 
 <a id="src-de-rigoll-innerer-kreis-2017"></a>
 ### Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online

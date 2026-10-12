@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**81 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**95 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -18,6 +18,7 @@
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE |
+| Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE |
@@ -37,6 +38,7 @@
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE |
 | Peter Urbach | person | `PER-DE-PETER-URBACH` | DE |
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE |
+| Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE |
 | Stefan von Holtzbrinck | person | `PER-DE-STEFAN-VON-HOLTZBRINCK` | DE |
 | Sven Afhüppe | person | `PER-DE-SVEN-AFHUEPPE` | DE |
@@ -51,6 +53,7 @@
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE |
+| Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE |
 
 ## Organisationen & Institutionen
 
@@ -61,19 +64,26 @@
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE |
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE |
+| Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE |
+| Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE |
+| Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE |
+| Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE |
+| Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE |
+| Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
+| Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE |
@@ -82,11 +92,15 @@
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE |
+| Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
+| Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE |
+| U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US |
+| US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE |

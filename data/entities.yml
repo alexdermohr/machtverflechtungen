@@ -397,3 +397,73 @@ entities:
     type: person
     name: Aristide Brunello
     countries: [DE]
+
+  - id: ORG-DE-BDJ-TD
+    type: paramilitary_network
+    name: "Technischer Dienst des Bundes Deutscher Jugend"
+    countries: [DE]
+
+  - id: ORG-DE-STOSSTRUPP-BZ
+    type: paramilitary_network
+    name: "Stoßtrupp gegen bolschewistische Zersetzung"
+    countries: [DE]
+
+  - id: ORG-DE-DHS
+    type: paramilitary_network
+    name: "Deutscher Heimatschutz (Erlangen, 1951–1953)"
+    countries: [DE]
+
+  - id: ORG-US-CIC
+    type: intelligence_service
+    name: "U.S. Counter Intelligence Corps (CIC)"
+    countries: [US]
+
+  - id: ORG-US-US-ARMY-GERMANY
+    type: military_service
+    name: "US-amerikanische Armeestellen in Deutschland (1952)"
+    countries: [US, DE]
+
+  - id: ORG-DE-BMG
+    type: government_ministry
+    name: "Bundesministerium für gesamtdeutsche Fragen (1952)"
+    countries: [DE]
+
+  - id: ORG-DE-BMI
+    type: government_ministry
+    name: "Bundesministerium des Innern (1952)"
+    countries: [DE]
+
+  - id: ORG-DE-HE-LANDESREGIERUNG
+    type: state_government
+    name: "Hessische Landesregierung"
+    countries: [DE]
+
+  - id: ORG-DE-BY-MINISTERRAT
+    type: state_government
+    name: "Bayerischer Ministerrat"
+    countries: [DE]
+
+  - id: ORG-DE-BUNDESANWALTSCHAFT
+    type: prosecution_authority
+    name: "Bundesanwaltschaft (1952–1953)"
+    countries: [DE]
+
+  - id: ORG-DE-FRANKFURT-GSTA
+    type: prosecution_authority
+    name: "Generalstaatsanwaltschaft Frankfurt am Main (1952–1953)"
+    countries: [DE]
+
+  - id: PER-DE-HANS-EGIDI
+    type: person
+    name: "Hans Egidi"
+    countries: [DE]
+
+  - id: PER-DE-WILHELM-HOEGNER
+    type: person
+    name: "Wilhelm Hoegner"
+    countries: [DE]
+
+  - id: PER-DE-ROBERT-LEHR
+    type: person
+    name: "Robert Lehr"
+    countries: [DE]

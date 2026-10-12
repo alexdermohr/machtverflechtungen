@@ -19,7 +19,7 @@ Militante Netzwerke, Tatkomplexe, Quellenschutz und behördliche Aufklärung.
 
 | Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |
 |---|---|---|---|---|
-| 1950 – 1953 | [Technischer Dienst des Bund Deutscher Jugend](de/technischer-dienst-bdj.md) | DE | 2 belegt | Verdeckte Unterstützung, Paramilitärisches Netzwerk |
+| 1950 – 1953 | [Technischer Dienst des Bundes Deutscher Jugend](de/technischer-dienst-bdj.md) | DE | 17 belegt · 1 stark gestützt | Verdeckte Unterstützung, Paramilitärisches Netzwerk |
 | 1980-09-26 – 2021 | [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](de/oktoberfestattentat-1980.md) | DE | 56 belegt · 5 stark gestützt · 1 plausibel | Paramilitärisches Netzwerk, Nachrichtendienstliches Netzwerk |
 | 1990 – 2001 | [Thüringer Heimatschutz / Tino Brandt](de/thueringer-heimatschutz-tino-brandt.md) | DE | 3 belegt | Infiltration, Quellenschutz, Materielle Unterstützung |
 | 1996 – 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt | Infiltration, Quellenschutz |

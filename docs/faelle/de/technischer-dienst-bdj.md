@@ -1,7 +1,7 @@
 ---
 id: CASE-DE-BDJ-TD-1950S
 type: case
-title: Technischer Dienst des Bund Deutscher Jugend
+title: Technischer Dienst des Bundes Deutscher Jugend
 countries: [DE]
 period:
   start: "1950"
@@ -26,7 +26,7 @@ event_claims:
   - CLM-DE-BDJ-017
   - CLM-DE-BDJ-018
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
-actors: [ORG-DE-BDJ]
+actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
 mechanisms: [covert-support, paramilitary-network]
 sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013]
 claims:
@@ -225,7 +225,7 @@ claims:
       does_not_support: "Sie widerlegt keine separat durch Originalbelege feststellbare Gewaltvorbereitung."
     falsification: "Eine authentische TD-Weisung zur Funktion der Register würde die Deutungen differenzieren oder entscheiden."
   - id: CLM-DE-BDJ-011
-    text: "Hoegner beschrieb 1952 den Stoßtrupp gegen bolschewistische Zersetzung und den Deutschen Heimatschutz als eigenständige, teilweise personell mit dem BDJ verbundene Organisationen; eine als Kontakt angegebene US-Telefonnummer sei von bayerischen Ermittlern einer CIC-Dienststelle zugeordnet worden."
+    text: "Hoegner bezeichnete 1952 den Stoßtrupp gegen bolschewistische Zersetzung als selbständige, personell teilweise mit dem BDJ verflochtene Organisation und den Deutschen Heimatschutz als dessen Unterorganisation; eine bei der DHS-Werbung als Referenz genannte Telefonnummer wurde laut ihm einer US-CIC-Dienststelle zugeordnet."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BYLT-TD-19521029]
@@ -282,7 +282,7 @@ claims:
       does_not_support: "Keine zusätzliche unbesehene Gleichsetzung mit anderen US-Paramilitärprogrammen oder aufgelöstem BDJ."
     falsification: "Amerikanische Organisationspläne oder Originalverbotsverfügungen können die Reichweite des Begriffs Ausgliederung klären."
   - id: CLM-DE-BDJ-014
-    text: "Hoegner berichtete dem Bayerischen Ministerrat am 20. Januar 1953, Ermittler hätten 23 durch amerikanische Stellen ausgebildete Personen festgestellt; er nannte Wald-Michelbach und Grafenwöhr als Ausbildungsorte."
+    text: "Hoegner berichtete dem Bayerischen Ministerrat am 20. Januar 1953, in Bayern seien 23 durch amerikanische Stellen ausgebildete Personen festgestellt worden; er nannte Wald-Michelbach und Grafenwöhr als Ausbildungsorte."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-BYMR-TD-19530120]
@@ -347,7 +347,7 @@ claims:
       does_not_support: "Kein Verbot des BDJ in ganz Deutschland am selben Datum und keine Gleichsetzung von BDJ, TD und DHS im Rechtsstatus."
     falsification: "Authentische hessische oder bayerische Verbotsverfügungen mit anderem Geltungsbereich beziehungsweise Datum würden die Chronologie korrigieren."
   - id: CLM-DE-BDJ-017
-    text: "Die hessische Landesregierung bestätigte 2013 in Landtagsdrucksache 18/6904 BDJ-/TD-Akten in allen drei hessischen Staatsarchiven, besonders im Hauptstaatsarchiv; dort existiere auch ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission."
+    text: "Die hessische Landesregierung bestätigte 2013 Unterlagen mit BDJ-/TD-Bezügen in den hessischen Staatsarchiven; die umfangreiche Sachüberlieferung liege vor allem im Hauptstaatsarchiv, einschließlich eines eigenen Aktenbands der deutsch-amerikanischen Untersuchungskommission."
     classification: fact
     evidence_level: established
     sources: [SRC-DE-HELT-BDJ-186904-2013]
@@ -408,11 +408,11 @@ open_questions:
 case_links: []
 ---
 
-# Technischer Dienst des Bund Deutscher Jugend
+# Technischer Dienst des Bundes Deutscher Jugend
 
 <div class="mv-case-intro" markdown>
 
-**Auf einen Blick:** Der Technische Dienst des Bund Deutscher Jugend, seine paramilitärische Organisation und die parlamentarisch aufgearbeiteten staatlichen Verbindungen.
+**Auf einen Blick:** Der Technische Dienst des Bundes Deutscher Jugend, seine paramilitärische Organisation und die parlamentarisch aufgearbeiteten staatlichen Verbindungen.
 
 [Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
 
@@ -430,13 +430,13 @@ case_links: []
 - **`CLM-DE-BDJ-007` — belegt:** Bayerns Innenminister Wilhelm Hoegner berichtete im Landtag am 29. Oktober 1952 über rund 70.000 DM aus amerikanischen Quellen für einen TD-Funktionär und über 30.000 DM verstecktes Bargeld, das Ermittler in dessen Wohnung gefunden hätten.
 - **`CLM-DE-BDJ-008` — belegt:** Hoegner erklärte am 29. Oktober 1952, amerikanische militärische Stellen hätten den Technischen Dienst ausgebildet und unterstützt; er unterschied die amerikanische Armee ausdrücklich von der amerikanischen Zivilverwaltung.
 - **`CLM-DE-BDJ-009` — belegt:** Hoegner unterschied 1952 eine politisch gerichtete Proskriptionsliste des Technischen Dienstes und eine davon gesonderte ausführliche Personenkartei über Sozialdemokraten.
-- **`CLM-DE-BDJ-011` — belegt:** Hoegner beschrieb 1952 den Stoßtrupp gegen bolschewistische Zersetzung und den Deutschen Heimatschutz als eigenständige, teilweise personell mit dem BDJ verbundene Organisationen; eine als Kontakt angegebene US-Telefonnummer sei von bayerischen Ermittlern einer CIC-Dienststelle zugeordnet worden.
+- **`CLM-DE-BDJ-011` — belegt:** Hoegner bezeichnete 1952 den Stoßtrupp gegen bolschewistische Zersetzung als selbständige, personell teilweise mit dem BDJ verflochtene Organisation und den Deutschen Heimatschutz als dessen Unterorganisation; eine bei der DHS-Werbung als Referenz genannte Telefonnummer wurde laut ihm einer US-CIC-Dienststelle zugeordnet.
 - **`CLM-DE-BDJ-012` — belegt:** Der Bayerische Ministerrat beschloss am 13. Januar 1953 das Verbot des Stoßtrupps und des Deutschen Heimatschutzes, vertagte aber ausdrücklich ein BDJ-Verbot bis nach einer für den 15. Januar geplanten Besprechung im Bundesinnenministerium.
 - **`CLM-DE-BDJ-013` — belegt:** Der Bayerische Ministerrat beschloss am 20. Januar 1953 Maßnahmen gegen den Technischen Dienst, vertagte aber weiterhin ein BDJ-Verbot; nach Nerreters Bericht war in Bonn der TD als von US-Stellen organisatorisch aus dem BDJ herausgehobener Apparat dargestellt worden.
-- **`CLM-DE-BDJ-014` — belegt:** Hoegner berichtete dem Bayerischen Ministerrat am 20. Januar 1953, Ermittler hätten 23 durch amerikanische Stellen ausgebildete Personen festgestellt; er nannte Wald-Michelbach und Grafenwöhr als Ausbildungsorte.
+- **`CLM-DE-BDJ-014` — belegt:** Hoegner berichtete dem Bayerischen Ministerrat am 20. Januar 1953, in Bayern seien 23 durch amerikanische Stellen ausgebildete Personen festgestellt worden; er nannte Wald-Michelbach und Grafenwöhr als Ausbildungsorte.
 - **`CLM-DE-BDJ-015` — belegt:** Staatssekretär Nerreter berichtete dem Bayerischen Ministerrat am 20. Januar 1953, die Bundesanwaltschaft habe bei Verfahren gegen führende BDJ-Leute eine Einstellung erwogen, während die Frankfurter Generalstaatsanwaltschaft eine Voruntersuchung beantragt habe.
 - **`CLM-DE-BDJ-016` — belegt:** Die hessische Landesregierung verbot den Bund Deutscher Jugend in Hessen bereits am 8. Januar 1953; die bayerischen Ministerratsprotokolle vom 13. und 20. Januar betreffen davon getrennte Entscheidungen im Gebiet Bayerns.
-- **`CLM-DE-BDJ-017` — belegt:** Die hessische Landesregierung bestätigte 2013 in Landtagsdrucksache 18/6904 BDJ-/TD-Akten in allen drei hessischen Staatsarchiven, besonders im Hauptstaatsarchiv; dort existiere auch ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission.
+- **`CLM-DE-BDJ-017` — belegt:** Die hessische Landesregierung bestätigte 2013 Unterlagen mit BDJ-/TD-Bezügen in den hessischen Staatsarchiven; die umfangreiche Sachüberlieferung liege vor allem im Hauptstaatsarchiv, einschließlich eines eigenen Aktenbands der deutsch-amerikanischen Untersuchungskommission.
 - **`CLM-DE-BDJ-018` — belegt:** Die hessische Landesregierung erklärte 2013, BDJ-/TD-Archivakten unterlägen teils allgemeinen Schutzfristen von 30 Jahren und für Verschlusssachen in der Regel 60 Jahren; eine verkürzte Einsicht für Forschung könne schriftlich beantragt werden.
 
 ## Rekonstruktion
@@ -445,29 +445,11 @@ Der Deutsche Bundestag untersuchte Anfang der 1950er Jahre die Geheimorganisatio
 
 Der Bericht bewertet die Entwicklung des BDJ als ernste Gefährdung der demokratischen Staatsordnung und nennt ausdrücklich die Beteiligung eines **Geheimdienstes einer Besatzungsmacht**. Damit ist der Fall ein früher deutscher Untersuchungsgegenstand für das Zusammenspiel von verdeckter Unterstützung, paramilitärischer Organisierung und behördlicher Reaktion.
 
-## Claim-Prüfung
-
-### `CLM-DE-BDJ-001`
-
-**Aussage:** Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit.
-
-- **Typ:** Tatsachenbehauptung
-- **Evidenz:** belegt
-- **Quelle:** `SRC-DE-BT-04644-1953`
-
-### `CLM-DE-BDJ-002`
-
-**Aussage:** Der Ausschuss bezeichnete die Entwicklung des BDJ als ernste Gefährdung der demokratischen Staatsordnung und verwies auf die Beteiligung eines Geheimdienstes einer Besatzungsmacht.
-
-- **Typ:** Tatsachenbehauptung
-- **Evidenz:** belegt
-- **Quelle:** `SRC-DE-BT-04644-1953`
-
 ## Bundeshilfen und frühe Behördenkenntnis
 
 Die [zeitgenössische Fraktionsedition vom 21. Oktober 1952](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html) referiert **Egidis Angaben**, nach denen das Bundesamt für Verfassungsschutz **im Sommer 1950 Waffenlager** kannte und seit **September 1951 TD-Übungsberichte** aus Wald-Michelbach erhielt. Egidi nannte **10.000 DM** aus dem Bundesministerium für gesamtdeutsche Fragen und **6.000 DM** aus dem Bundesinnenministerium als Zuwendungen für den **BDJ**, auch begründet mit BDJ-Erkenntnissen zu Aktivitäten der KPD. Die [Bundesarchiv-Kabinettsedition](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf) verweist für die 10.000 DM auf **BArch B 106/15585**.
 
-Bundesinnenminister **Lehr** verneinte in der [Bundestagssitzung vom 23. Oktober 1952, S.10805](https://dserver.bundestag.de/btp/01/01235.pdf) eine unmittelbare oder mittelbare Bundesfinanzierung des **Technischen Dienstes**, obwohl er die BDJ-Beihilfe bestätigte. Die entscheidende Originalaktenprobe sind BDJ-/TD-Buchungen, Überweisungsanweisungen und Quittungen, nicht die bloße Zahlähnlichkeit von Geldbeträgen.
+**`CLM-DE-BDJ-006` — amtlicher Gegenbefund:** Bundesinnenminister Robert Lehr erklärte am 23. Oktober 1952 im Bundestag, die Förderung für den BDJ habe sich auf das Pfingsttreffen bezogen; dem Technischen Dienst seien dagegen weder unmittelbar noch mittelbar Bundesmittel zugeflossen. ([Plenarprotokoll, S. 10805](https://dserver.bundestag.de/btp/01/01235.pdf)) Der Geldfluss lässt sich durch Buchungen, Anweisungen und Quittungen kontrollieren.
 
 ## US-Finanzierung und Ausbildung
 
@@ -477,11 +459,11 @@ Vor dem [Ministerrat am 20. Januar 1953, S.9](https://www.bayerischer-ministerra
 
 ## Proskriptionsliste und SPD-Kartei
 
-Hoegner unterschied eine **Proskriptionsliste** von einer separaten detaillierten **SPD-Personenkartei**. Egidis früherer Fraktionsbericht schilderte dagegen eine KPD-/SRP-bezogene Liste neben einer SPD-Informationskartei, die auch positive Einträge enthalten habe. Der Streit ist anhand der tatsächlichen **beschlagnahmten Listen und der zugrunde liegenden TD-Weisungen** überprüfbar.
+Hoegner unterschied eine **Proskriptionsliste** von einer separaten detaillierten **SPD-Personenkartei**. **`CLM-DE-BDJ-010` — amtlicher Gegenbefund:** Der Egidi-Fraktionsbericht vom 21. Oktober 1952 unterschied eine KPD-/SRP-bezogene Liste von einer SPD-Informationskartei mit teils günstigen Personeneinträgen; Egidi wies die Darstellung einer einheitlichen Liquidationsliste zurück. Der Streit ist anhand der tatsächlichen **beschlagnahmten Listen und der zugrunde liegenden TD-Weisungen** überprüfbar.
 
 ## Deutscher Heimatschutz und CIC-Verbindung
 
-Hoegner nannte den **Stoßtrupp gegen bolschewistische Zersetzung** und den **Deutschen Heimatschutz** als vom TD unterscheidbare Strukturen mit personellen BDJ-Überschneidungen. Die von den Beteiligten angegebene amerikanische Kontaktnummer ordnete die bayerische Polizei nach Hoegners Aussage einer **Dienststelle des US-CIC** zu. Die CIC-Verbindung ist damit eine konkrete Aktenrecherche zu *DHS/Stoßtrupp*, nicht automatisch eine Identität aller TD-Geldgeber.
+Hoegner beschrieb den **Stoßtrupp gegen bolschewistische Zersetzung** als selbständige Gruppe mit BDJ-Funktionsüberschneidungen und den **Deutschen Heimatschutz (DHS)** als deren militärisch organisierte Untergliederung. Eine bei der DHS-Mitgliederwerbung als Referenz angegebene Nummer ordnete die bayerische Polizei nach Hoegners Aussage einer **Dienststelle des US-CIC** zu. Die CIC-Verbindung ist damit eine konkrete Aktenrecherche zu *DHS/Stoßtrupp*, nicht automatisch eine Identität aller TD-Geldgeber.
 
 ## Gestufte Verbote und konkurrierende Strafverfolgung
 
@@ -489,7 +471,7 @@ Bereits am **8. Januar 1953** hatte **Hessen den BDJ im eigenen Landesgebiet ver
 
 ## Neuer Archivzugang: hessischer Landtag 18/6904
 
-Die [Landesregierung bestätigte im März 2013, gedruckte S. 1–3](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf), dass in drei hessischen Staatsarchiven BDJ-/TD-Material vorhanden sei. Die umfangreichsten Akten liegen nach ihrer Auskunft in den **Staatskanzlei-Beständen des Hessischen Hauptstaatsarchivs**. Genannt werden zusätzlich **Innenministerium, Landesamt für Verfassungsschutz, Regierungspräsidium Wiesbaden, Landratsamt Hanau und Amtsgericht Frankfurt am Main**.
+Die [Landesregierung bestätigte im März 2013, gedruckte S. 1–3](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf), dass in drei hessischen Staatsarchiven Unterlagen mit BDJ-Bezug existierten, wobei Marburg 2013 nur ergänzende Sammlungen beziehungsweise Personenakten, nicht den zentralen TD-Vorgang verwahrte. Die umfangreichsten Akten liegen nach ihrer Auskunft in den **Staatskanzlei-Beständen des Hessischen Hauptstaatsarchivs**. Genannt werden zusätzlich **Innenministerium, Landesamt für Verfassungsschutz, Regierungspräsidium Wiesbaden, Landratsamt Hanau und Amtsgericht Frankfurt am Main**.
 
 Besonders gezielt zu bestellen ist **ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission**, der in diesem Bestand ausdrücklich genannt wird. Diese Spur könnte Organisationsstruktur, Finanzierung, amerikanische Verbindung, Behördenreaktionen und die behauptete Trennung von TD und BDJ anhand von Originaldokumenten unmittelbar nebeneinander zeigen.
 
@@ -517,10 +499,6 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - Welche Geld-, Waffen- und Logistikflüsse lassen sich rekonstruieren?
 - Welche Personen verbanden BDJ, Technischen Dienst, Sicherheitsbehörden und ausländische Stellen?
 - Welche Folgen hatte die Aufdeckung für spätere Stay-behind- oder Nachrichtendienststrukturen?
-
-## Präzision der Quelle
-
-Der Bundestagsbericht selbst verwendet die Formulierung **„Geheimdienst einer Besatzungsmacht“**. Eine präzisere Dienstzuordnung wird erst dann als Claim aufgenommen, wenn sie durch zusätzliche Quellen gebunden ist.
 
 ## Quelle
 
