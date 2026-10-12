@@ -64,6 +64,9 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         }
         self.assertTrue(sources["SRC-DE-BT-09066-1981"]["primary"])
         self.assertTrue(sources["SRC-DE-BT-1311005-1998"]["primary"])
+        original_locator = sources["SRC-DE-BT-1311005-1998"]["locator"]
+        self.assertIn("460", original_locator)
+        self.assertIn("66–76", original_locator)
         self.assertTrue(sources["SRC-DE-HE-VSBER-1982"]["primary"])
         self.assertIn("gedruckte S. 15", sources["SRC-DE-HE-VSBER-1982"]["locator"])
         self.assertFalse(sources["SRC-DE-ARCHIVPORTAL-DA-2026"]["primary"])

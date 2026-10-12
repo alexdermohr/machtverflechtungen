@@ -139,7 +139,7 @@ claims:
     evidence:
       - source: SRC-DE-BT-1311005-1998
         directness: direct
-        locator: "gedruckte S. 66 und 73–76; AA-Erklärung vom 01.06.1994 und BMVg-Schreiben vom 15.06.1994"
+        locator: "gedruckte S. 66–76; AA-Erklärung vom 01.06.1994 und BMVg-Schreiben vom 15.06.1994"
         note: "Die berichteten Verwaltungsunterlagen nennen Datum, Empfänger, drei Fahrzeuge und den erklärten humanitären Zweck."
     counterevidence: []
     alternatives:
@@ -334,7 +334,7 @@ Im selben [Plenarprotokoll 9/66, gedruckte S. 3842](https://dserver.bundestag.de
 
 ## Bundeswehr-Material und Vortragszugang 1994–1998
 
-Nach [Bundestagsdrucksache 13/11005](https://dserver.bundestag.de/btd/13/110/1311005.pdf), gedruckte S. 55–57 und 66, billigte das Auswärtige Amt am **1. Juni 1994** die unentgeltliche Überlassung ausgesonderten Materials für das **Deutsch-Russische Gemeinschaftswerk (DRGW)**. Das Bundesverteidigungsministerium bestätigte die Abgabe von **drei Fahrzeugen und Werkzeugsätzen am 15. Juni 1994**. **Roeder war laut Bericht seit der Gründung am 20. Februar 1993 zweiter Vereinsvorsitzender** ([Drs. 13/11005, gedruckte S. 460](https://dserver.bundestag.de/btd/13/110/1311005.pdf#page=460)).
+Nach [Bundestagsdrucksache 13/11005](https://dserver.bundestag.de/btd/13/110/1311005.pdf), gedruckte S. 55–57 und 66–76, billigte das Auswärtige Amt am **1. Juni 1994** die unentgeltliche Überlassung ausgesonderten Materials für das **Deutsch-Russische Gemeinschaftswerk (DRGW)**. Das Bundesverteidigungsministerium bestätigte die Abgabe von **drei Fahrzeugen und Werkzeugsätzen am 15. Juni 1994**. **Roeder war laut Bericht seit der Gründung am 20. Februar 1993 zweiter Vereinsvorsitzender** ([Drs. 13/11005, gedruckte S. 460](https://dserver.bundestag.de/btd/13/110/1311005.pdf#page=460)).
 
 Am **2. Januar 1995** lieferten **Vissing, Roeder, eine weitere Person und Vissings Elektriker** einen **VW 181, einen VW Iltis und einen Daimler-Benz-Lkw** an der Hamburger Führungsakademie der Bundeswehr an und stellten sie dort ab. Die vier Beteiligten werden im Untersuchungsausschussbericht, gedruckte **S. 465**, als Fahrer benannt. Roeder hielt am **24. Januar 1995** vor etwa **25 bis 30 Stabsangehörigen** einen Vortrag über Russlanddeutsche. Die Untersuchung nennt Übernachtung und dienstliche Fahrten, aber keine Honorarauszahlung für den Vortrag; ein Zeuge verneinte eine tatsächliche Spendensammlung bei der Veranstaltung.
 
@@ -359,7 +359,7 @@ Untersucht wird eine **personelle Kontinuität von Zugängen zu unterschiedliche
 ## Quellen
 
 - [Bundestag, Plenarprotokoll 9/66 vom 25.11.1981](https://dserver.bundestag.de/btp/09/09066.pdf) — `SRC-DE-BT-09066-1981`, gedruckte S. 3842–3843.
-- [Bundestag, Drs. 13/11005, Untersuchungsausschuss 1998](https://dserver.bundestag.de/btd/13/110/1311005.pdf) — `SRC-DE-BT-1311005-1998`, gedruckte S. 55–57, 66, 74–76, 464–465.
+- [Bundestag, Drs. 13/11005, Untersuchungsausschuss 1998](https://dserver.bundestag.de/btd/13/110/1311005.pdf) — `SRC-DE-BT-1311005-1998`, gedruckte S. 55–57, 66–76, 460, 464–465.
 - [Archivportal-D, „Rassistischer Anschlag der Deutschen Aktionsgruppen“, aktualisiert 2026](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen) — `SRC-DE-ARCHIVPORTAL-DA-2026`, Ereignisrekonstruktion und Archivsignaturen.
 - [Hessische Landesregierung, „Verfassungsschutz in Hessen – Bericht 1982“](https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf) — `SRC-DE-HE-VSBER-1982`, gedruckte S. 15; Urteilsdatum und Entwicklung der Deutschen Bürgerinitiative.
 - [Stadt Erlangen, Gedenken an Shlomo Lewin und Frida Poeschke](https://erlangen.de/aktuelles/lewin-poeschke) — `SRC-DE-ERLANGEN-LEWIN-2026`, Opferidentität und Tatort zur ungenauen Bundestagsfrage 1981.
