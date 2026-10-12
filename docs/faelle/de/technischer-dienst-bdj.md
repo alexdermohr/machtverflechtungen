@@ -23,10 +23,12 @@ event_claims:
   - CLM-DE-BDJ-014
   - CLM-DE-BDJ-015
   - CLM-DE-BDJ-016
+  - CLM-DE-BDJ-017
+  - CLM-DE-BDJ-018
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
 actors: [ORG-DE-BDJ]
 mechanisms: [covert-support, paramilitary-network]
-sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108]
+sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013]
 claims:
   - id: CLM-DE-BDJ-001
     text: "Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit."
@@ -344,6 +346,44 @@ claims:
       supports: "Hessisches BDJ-Verbot am 8. Januar, bayerische getrennte Beschlüsse am 13. und 20. Januar 1953."
       does_not_support: "Kein Verbot des BDJ in ganz Deutschland am selben Datum und keine Gleichsetzung von BDJ, TD und DHS im Rechtsstatus."
     falsification: "Authentische hessische oder bayerische Verbotsverfügungen mit anderem Geltungsbereich beziehungsweise Datum würden die Chronologie korrigieren."
+  - id: CLM-DE-BDJ-017
+    text: "Die hessische Landesregierung bestätigte 2013 in Landtagsdrucksache 18/6904 BDJ-/TD-Akten in allen drei hessischen Staatsarchiven, besonders im Hauptstaatsarchiv; dort existiere auch ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-HELT-BDJ-186904-2013]
+    evidence:
+      - source: SRC-DE-HELT-BDJ-186904-2013
+        directness: direct
+        locator: "gedruckte S. 1–2, Antwort zu Frage 1"
+        note: "Regierungsantwort nennt Staatskanzlei, Innenministerium, LfV, Regierungspräsidium Wiesbaden, Landratsamt Hanau, Amtsgericht Frankfurt und eine deutsch-amerikanische Untersuchungskommissionsakte."
+    counterevidence: []
+    alternatives:
+      - "Die Regierung nennt 2013 erschlossene Bestände, nicht die Vollständigkeit aller nach 1952 entstandenen Akten oder deren digitale Verfügbarkeit."
+    missing_evidence:
+      - "Arcinsys-Findbuchidentität der deutsch-amerikanischen Kommissionsakte und Signaturen sämtlicher genannten Aktenbildner verifizieren."
+    scope:
+      supports: "Amtlich dokumentierte konkrete Archiv-Orte für originale BDJ/TD-Ermittlungs- und Regierungsvorgänge."
+      does_not_support: "Die bloße Archivierung besagt nichts über den konkreten Inhalt jeder einzelnen Akte oder heutige Zugänglichkeit."
+    falsification: "Aktuelle Bestands-/Abgabeverzeichnisse mit anderen Archivzuständigkeiten oder amtliche Korrekturen würden die Registraturzuordnung ändern."
+  - id: CLM-DE-BDJ-018
+    text: "Die hessische Landesregierung erklärte 2013, BDJ-/TD-Archivakten unterlägen teils allgemeinen Schutzfristen von 30 Jahren und für Verschlusssachen in der Regel 60 Jahren; eine verkürzte Einsicht für Forschung könne schriftlich beantragt werden."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-HELT-BDJ-186904-2013]
+    evidence:
+      - source: SRC-DE-HELT-BDJ-186904-2013
+        directness: direct
+        locator: "gedruckte S. 2–3, Antworten Fragen 2–4, 6, 8 und 9"
+        note: "Die Regierung erklärt damalige Schutzfristen, Quellenschutz bei LfV-Abgaben und konkrete Forschungs-Ausnahmemöglichkeiten."
+    counterevidence: []
+    alternatives:
+      - "Die Aussage bildet den Rechts- und Verwaltungsstand März 2013 ab; zwischenzeitliche Archivgesetz- und VS-Änderungen sind im aktuellen Antragsverfahren nachzuprüfen."
+    missing_evidence:
+      - "Aktueller Schutzfristenstatus 2026 für Staatskanzlei-/LfV-BDJ/TD-Akten im Arcinsys und zuständige archivische Genehmigungsstelle."
+    scope:
+      supports: "Offiziell beschriebene rechtliche Wege zu Originalakten einschließlich Verkürzungsantrag für Forschung im Jahr 2013."
+      does_not_support: "Kein Beleg für eine heute noch geltende konkrete Sperre oder für eine vollständige Aktenfreigabe."
+    falsification: "Aktuelle archivrechtliche Normtexte und Freigabebescheide können Zugangsmodalitäten materiell verändern."
 what_follows:
   - text: "Der Bundestagsbericht dokumentiert eine problematische Geheimorganisation und benennt eine geheimdienstliche Beteiligung einer Besatzungsmacht."
     claim_ids: [CLM-DE-BDJ-001, CLM-DE-BDJ-002]
@@ -351,6 +391,8 @@ what_follows:
     claim_ids: [CLM-DE-BDJ-004, CLM-DE-BDJ-007, CLM-DE-BDJ-008]
   - text: "Hessen verbot den BDJ landesrechtlich am 8. Januar; Bayern unterschied später innerhalb seines Gebiets BDJ, TD und Stoßtrupp/Deutschen Heimatschutz."
     claim_ids: [CLM-DE-BDJ-011, CLM-DE-BDJ-012, CLM-DE-BDJ-013, CLM-DE-BDJ-016]
+  - text: "Hessen bestätigte 2013 eine konkrete deutsch-amerikanische Untersuchungskommissionsakte und erschlossene BDJ-Bestände, die für Originalakten-Überprüfung bestimmbar sind."
+    claim_ids: [CLM-DE-BDJ-017, CLM-DE-BDJ-018]
 what_does_not_follow:
   - text: "Aus dem Bericht folgt nicht, dass ein westdeutscher Nachrichtendienst den Technischen Dienst gegründet oder vollständig gesteuert habe."
     claim_ids: [CLM-DE-BDJ-002]
@@ -394,6 +436,8 @@ case_links: []
 - **`CLM-DE-BDJ-014` — belegt:** Hoegner berichtete dem Bayerischen Ministerrat am 20. Januar 1953, Ermittler hätten 23 durch amerikanische Stellen ausgebildete Personen festgestellt; er nannte Wald-Michelbach und Grafenwöhr als Ausbildungsorte.
 - **`CLM-DE-BDJ-015` — belegt:** Staatssekretär Nerreter berichtete dem Bayerischen Ministerrat am 20. Januar 1953, die Bundesanwaltschaft habe bei Verfahren gegen führende BDJ-Leute eine Einstellung erwogen, während die Frankfurter Generalstaatsanwaltschaft eine Voruntersuchung beantragt habe.
 - **`CLM-DE-BDJ-016` — belegt:** Die hessische Landesregierung verbot den Bund Deutscher Jugend in Hessen bereits am 8. Januar 1953; die bayerischen Ministerratsprotokolle vom 13. und 20. Januar betreffen davon getrennte Entscheidungen im Gebiet Bayerns.
+- **`CLM-DE-BDJ-017` — belegt:** Die hessische Landesregierung bestätigte 2013 in Landtagsdrucksache 18/6904 BDJ-/TD-Akten in allen drei hessischen Staatsarchiven, besonders im Hauptstaatsarchiv; dort existiere auch ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission.
+- **`CLM-DE-BDJ-018` — belegt:** Die hessische Landesregierung erklärte 2013, BDJ-/TD-Archivakten unterlägen teils allgemeinen Schutzfristen von 30 Jahren und für Verschlusssachen in der Regel 60 Jahren; eine verkürzte Einsicht für Forschung könne schriftlich beantragt werden.
 
 ## Rekonstruktion
 
@@ -443,8 +487,17 @@ Hoegner nannte den **Stoßtrupp gegen bolschewistische Zersetzung** und den **De
 
 Bereits am **8. Januar 1953** hatte **Hessen den BDJ im eigenen Landesgebiet verboten**; laut der [LAGIS-Landesgeschichtschronik](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb) räumte die Polizei am 9. Januar die Frankfurter Geschäftsstelle. Davon getrennt entschied Bayern über seinen eigenen Rechtsraum. Der [Bayerische Ministerrat vom 13. Januar 1953, TOP IX, S.8](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf#page=8) beschloss das Verbot von **Stoßtrupp/DHS**, vertagte aber eine Entscheidung über den **BDJ** bis zur Konferenz im BMI am 15. Januar. Der [Ministerrat vom 20. Januar 1953, TOP V, S.8–9](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf#page=9) beschloss Maßnahmen gegen den **Technischen Dienst**, ohne den BDJ zugleich zu verbieten. Dort wurde auch die Differenz zwischen **Bundesanwaltschaft** (erwogene Einstellung) und **Frankfurter Generalstaatsanwaltschaft** (Antrag auf Voruntersuchung) protokolliert.
 
+## Neuer Archivzugang: hessischer Landtag 18/6904
+
+Die [Landesregierung bestätigte im März 2013, gedruckte S. 1–3](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf), dass in drei hessischen Staatsarchiven BDJ-/TD-Material vorhanden sei. Die umfangreichsten Akten liegen nach ihrer Auskunft in den **Staatskanzlei-Beständen des Hessischen Hauptstaatsarchivs**. Genannt werden zusätzlich **Innenministerium, Landesamt für Verfassungsschutz, Regierungspräsidium Wiesbaden, Landratsamt Hanau und Amtsgericht Frankfurt am Main**.
+
+Besonders gezielt zu bestellen ist **ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission**, der in diesem Bestand ausdrücklich genannt wird. Diese Spur könnte Organisationsstruktur, Finanzierung, amerikanische Verbindung, Behördenreaktionen und die behauptete Trennung von TD und BDJ anhand von Originaldokumenten unmittelbar nebeneinander zeigen.
+
+Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten regulär **60 Jahre** und eine **schriftliche Einzelfallverkürzung für Forschung**. Der tatsächlich geltende Zugang ist 2026 anhand der aktuellen Vorschriften und der einzelnen Arcinsys-Verzeichnung zu prüfen.
+
 ## Originalakten-Anforderungen
 
+- **Hessisches Hauptstaatsarchiv / Arcinsys:** zuerst Staatskanzlei-Akte **deutsch-amerikanische Untersuchungskommission**, anschließend StMI-/LfV-Bestände und die Abgaberegistratur 1952/53; aktueller Schutzfristen-/Forschungsantrag nach Aktenblatt.
 - **BArch B 106/15584–15588, B 136/4430, B 145/1899:** Ressortzahlungen, Empfängerquittungen, frühe BfV-Kenntnis und Egidi-Vermerke.
 - **Bayerische Staatsarchive, StMI-Verfahren 1952/53:** Durchsuchungs- und Bargeldprotokolle; politische Listen/Karteien; getrennte Verbotsverfügungen **21./24. Januar 1953**.
 - **Frankfurter Generalstaatsanwaltschaft / Bundesanwaltschaft:** Verfügungs-, Übernahme-, Vernehmungs- und Voruntersuchungsunterlagen.
@@ -480,3 +533,4 @@ Der Bundestagsbericht selbst verwendet die Formulierung **„Geheimdienst einer 
 - [Bayerischer Ministerrat, Sitzung 13.01.1953](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf) — `SRC-DE-BYMR-TD-19530113`.
 - [Bayerischer Ministerrat, Sitzung 20.01.1953](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf) — `SRC-DE-BYMR-TD-19530120`.
 - [Landesgeschichtliches Informationssystem Hessen, BDJ-Verbot am 08.01.1953](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb) — `SRC-DE-HE-LAGIS-BDJ-19530108` (Landesgeschichtschronik, mit historischen Pressequellen).
+- [Hessischer Landtag, Drs. 18/6904 vom 19.03.2013](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf) — `SRC-DE-HELT-BDJ-186904-2013`, gedruckte S. 1–3: konkrete BDJ/TD-Archivbestände und Nutzung.
