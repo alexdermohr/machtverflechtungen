@@ -30,6 +30,26 @@ class LCPROWLDocumentStudyTests(unittest.TestCase):
         self.assertNotIn("Phase 4 wurde am 9. August sofort umgesetzt", document)
         self.assertNotIn("7.000 ausgebildete Angehörige", document)
 
+
+    def test_phase_four_board_approval_and_1950_funding_are_explicit(self):
+        document = DOCUMENT.read_text(encoding="utf-8")
+        for expected in (
+            "handschriftliche",
+            "29. August 1950",
+            "ohne Budget",
+            "21. Dezember 1950",
+            "LCPROWL VOL. 1_0044",
+            "LCPROWL VOL. 1_0049",
+            "QKFENCE",
+            "private und industrielle",
+            "Auszahlungsbelege",
+        ):
+            with self.subTest(expected=expected):
+                self.assertIn(expected, document)
+        self.assertIn("20250220053750id_", document)
+        self.assertIn("20250220053805id_", document)
+        self.assertIn("20250220053831id_", document)
+
     def test_study_link_is_in_existing_sources_section(self):
         nav = NAVIGATION.read_text(encoding="utf-8")
         entry = "quellen/lcprowl-1950-opc-planung.md"
