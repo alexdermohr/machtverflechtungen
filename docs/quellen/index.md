@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**123 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**124 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -574,6 +574,17 @@ Central Intelligence Agency / Office of Policy Coordination (OPC) · 1951-06-11 
 [PDF öffnen](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf)
 
 Fundstelle: PDF-S. 2–3: OPC Form 404a; S. 4: Outline Clearance Sheet, EE-3, 11.06.1951; S. 5: Project Amendment No. 2, Ziff. 2–3; S. 6–7: Ziff. 4a–4d; S. 8: Ziff. 4e–6
+
+<a id="src-us-cia-lcprowl-v2-0023"></a>
+### Central Intelligence Agency, EE/PP/Germany
+
+**[LCPROWL VOL. 2_0023: CIA-internes Memorandum zur Analyse des SPD-Weißbuchs über BDJ/TD](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf)**
+
+Central Intelligence Agency, EE/PP/Germany · 1953-04-15 · Stufe **A** · Primärquelle · `SRC-US-CIA-LCPROWL-V2-0023`
+
+[PDF öffnen](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf)
+
+Fundstelle: PDF-S. 1: Übersendung des SPD-Weißbuchs; S. 2: Memorandum 15.04.1953, Einleitung und Ziff. 1–3; S. 3: Ziff. 3–8, besonders Ziff. 7 zum Defizit von 40.000 DM, personeller Reduktion und angekündigtem Finanzierungsende; S. 4: Ziff. 8–10 und Gesamtwertung
 
 <a id="src-it-court-bologna-aqura-1988"></a>
 ### Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (stragi.it)
