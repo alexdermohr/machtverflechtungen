@@ -48,6 +48,26 @@ class BDJResearchRegressions(unittest.TestCase):
         self.assertTrue(sources["SRC-DE-HELT-BDJ-186904-2013"]["primary"])
         self.assertFalse(sources["SRC-DE-HE-LAGIS-BDJ-19530108"]["primary"])
 
+    def test_egidi_lehr_conflicting_bfv_chronologies_visible(self):
+        claims = {c["id"]: c for c in bdj_metadata()["claims"]}
+        claim = claims["CLM-DE-BDJ-003"]
+        self.assertIn("September 1951", claim["text"])
+        self.assertIn("SRC-DE-BT-BDJ-19521023", bdj_metadata()["sources"])
+        rivals = [entry for entry in claim["counterevidence"]
+                  if entry["source"] == "SRC-DE-BT-BDJ-19521023"]
+        self.assertEqual(len(rivals), 1)
+        self.assertEqual(rivals[0]["directness"], "direct")
+        self.assertIn("10805", rivals[0]["locator"])
+        self.assertIn("10806", rivals[0]["locator"])
+        self.assertIn("Februar 1951", rivals[0]["note"])
+        self.assertIn("September 1952", rivals[0]["note"])
+        article = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+        self.assertIn("**`CLM-DE-BDJ-003`", article)
+        self.assertIn("Februar 1951", article)
+        self.assertIn("September 1952", article)
+        self.assertIn("Lehr", article)
+        self.assertIn("Egidi", article)
+
     def test_distinct_federal_grants_us_inflow_and_seized_cash(self):
         claims = {item["id"]: item for item in bdj_metadata()["claims"]}
         self.assertIn("10.000 DM", claims["CLM-DE-BDJ-004"]["text"])

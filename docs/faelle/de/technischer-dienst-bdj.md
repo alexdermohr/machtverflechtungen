@@ -78,14 +78,18 @@ claims:
         directness: direct
         locator: "Fraktionsbericht 21.10.1952, Egidi-Aussagen zu Waffenlager und Übungen"
         note: "Zeitgenössische parlamentarische Überlieferung der Ressortangaben zu eingegangenen BfV-Informationen."
-    counterevidence: []
+    counterevidence:
+      - source: SRC-DE-BT-BDJ-19521023
+        directness: direct
+        locator: "Deutscher Bundestag 1/235, 23.10.1952, gedruckte S. 10805–10806"
+        note: "Lehr erklärte, das hessische LfV habe nach Februar 1951 keine weiteren Berichte an das BfV geliefert und der Bund habe von konkreten TD-Lehrgängen erst Mitte September 1952 erfahren. Allgemeinere Hinweise auf US-Vorbereitungen 1951 behandelte Lehr als anderen Sachverhalt; dies widerspricht Egidis konkret behauptetem TD-Übungsbericht seit 1951."
     alternatives:
-      - "Ein Vortrag referiert den behördlichen Wissensstand, nicht den Inhalt aller ursprünglichen BfV-Eingangsbücher."
+      - "Egidi könnte von einem anderen Meldungskanal oder einem anderen Empfängerkreis gesprochen haben als Lehr; ohne originale Meldungen kann die Abweichung nicht allein durch Rangfolge der Aussagen geklärt werden."
     missing_evidence:
-      - "BfV-Originalmeldungen von 1950–1951, Verteiler- und Wiedervorlageregister."
+      - "Hessische LfV-Ausgänge Februar 1951 bis September 1952, BfV-Eingangsbücher und Meldungen zu Wald-Michelbach, BMI-Verteiler und Wiedervorlagen."
     scope:
-      supports: "Frühe behördliche Kenntnis von BDJ/TD-Vorbereitungen wurde 1952 ausdrücklich behauptet."
-      does_not_support: "Keine individuelle frühere Unterrichtung aller Minister und keine Bestätigung jedes einzelnen Details durch Meldungsurschriften."
+      supports: "Egidis frühe behördliche Kenntnisbehauptung vom 21.10.1952 ist nachgewiesen; Lehrs zeitgenössisch widersprechende Datierung wird daneben quellengebunden erfasst."
+      does_not_support: "Das BfV-Eingangsdatum des konkreten TD-Übungsberichts ist zwischen den offiziellen Aussagen streitig; der Claim bestätigt es nicht durch eine Eingangsurschrift."
     falsification: "BfV-Eingangsunterlagen mit nachweislich späterer Kenntnis würden den Vortrag korrigieren."
   - id: CLM-DE-BDJ-004
     text: "Laut Egidis Erklärung vor der CDU/CSU-Fraktion am 21. Oktober 1952 zahlte das Bundesministerium für gesamtdeutsche Fragen 10.000 DM und das Bundesinnenministerium 6.000 DM für den BDJ; die 10.000-DM-Beihilfe ist zusätzlich in der Bundesarchiv-Kabinettsedition dokumentiert."
@@ -447,7 +451,9 @@ Der Bericht bewertet die Entwicklung des BDJ als ernste Gefährdung der demokrat
 
 ## Bundeshilfen und frühe Behördenkenntnis
 
-Die [zeitgenössische Fraktionsedition vom 21. Oktober 1952](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html) referiert **Egidis Angaben**, nach denen das Bundesamt für Verfassungsschutz **im Sommer 1950 Waffenlager** kannte und seit **September 1951 TD-Übungsberichte** aus Wald-Michelbach erhielt. Egidi nannte **10.000 DM** aus dem Bundesministerium für gesamtdeutsche Fragen und **6.000 DM** aus dem Bundesinnenministerium als Zuwendungen für den **BDJ**, auch begründet mit BDJ-Erkenntnissen zu Aktivitäten der KPD. Die [Bundesarchiv-Kabinettsedition](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf) verweist für die 10.000 DM auf **BArch B 106/15585**.
+Die [zeitgenössische Fraktionsedition vom 21. Oktober 1952](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html) referiert **Egidis Angaben**, nach denen das Bundesamt für Verfassungsschutz **im Sommer 1950 Waffenlager** kannte und seit **September 1951 TD-Übungsberichte** aus Wald-Michelbach erhielt.
+
+**Gegenüberstellung amtlicher Zeitangaben:** Bundesinnenminister **Robert Lehr** erklärte im [Bundestag am 23. Oktober 1952, gedruckte S. 10805–10806](https://dserver.bundestag.de/btp/01/01235.pdf), aus dem hessischen Verfassungsschutz seien nach **Februar 1951** keine weiteren Berichte an das BfV eingegangen; von den konkreten TD-Lehrgängen bei Wald-Michelbach hätten Bundesbehörden erst **Mitte September 1952** Kenntnis erhalten. Lehr erwähnte zugleich allgemeinere Hinweise auf amerikanische Partisanenvorbereitungen aus 1951. Damit stehen **Egidis Datierung September 1951** und **Lehrs konkrete Kenntnisdatierung September 1952** als zwei amtliche Angaben nebeneinander. Die Herkunft der Meldungen und der jeweilige Empfängerkreis sind über Eingangsregister zu rekonstruieren. Egidi nannte **10.000 DM** aus dem Bundesministerium für gesamtdeutsche Fragen und **6.000 DM** aus dem Bundesinnenministerium als Zuwendungen für den **BDJ**, auch begründet mit BDJ-Erkenntnissen zu Aktivitäten der KPD. Die [Bundesarchiv-Kabinettsedition](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf) verweist für die 10.000 DM auf **BArch B 106/15585**.
 
 **`CLM-DE-BDJ-006` — amtlicher Gegenbefund:** Bundesinnenminister Robert Lehr erklärte am 23. Oktober 1952 im Bundestag, die Förderung für den BDJ habe sich auf das Pfingsttreffen bezogen; dem Technischen Dienst seien dagegen weder unmittelbar noch mittelbar Bundesmittel zugeflossen. ([Plenarprotokoll, S. 10805](https://dserver.bundestag.de/btp/01/01235.pdf)) Der Geldfluss lässt sich durch Buchungen, Anweisungen und Quittungen kontrollieren.
 
