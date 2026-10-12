@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**103 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**104 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -80,6 +80,7 @@
 | `REL-DE-TMN-004` | Matthias Naß | Internationaler Korrespondent | DIE ZEIT | belegt | [SRC-DE-AB-NASS-NATO-2016](../quellen/index.md#src-de-ab-nass-nato-2016), [SRC-INT-NATO-WARSAW-SUMMIT-2016](../quellen/index.md#src-int-nato-warsaw-summit-2016) |
 | `REL-DE-DA-008` | Nguyễn Ngọc Châu | wurde am 22.08.1980 Opfer des Brandanschlags der Deutschen Aktionsgruppen in Hamburg-Billbrook | Deutsche Aktionsgruppen | stark gestützt | [SRC-DE-ARCHIVPORTAL-DA-2026](../quellen/index.md#src-de-archivportal-da-2026) |
 | `REL-DE-CELLER-001` | Niedersächsischer Verfassungsschutz | führte Aktion Feuerzauber durch | Celler Loch / Aktion Feuerzauber | belegt | [SRC-DE-NI-MJ-CELLER-2015](../quellen/index.md#src-de-ni-mj-celler-2015) |
+| `REL-DE-BDJ-015` | Office of Policy Coordination (OPC) | CIA-Projektbericht vom 24.01.1951 beschreibt OPC-Subvention des BDJ, nach außen als private und industrielle Geldgeberbeiträge dargestellt | Bund Deutscher Jugend | belegt | [SRC-US-CIA-LCPROWL-V1-0044](../quellen/index.md#src-us-cia-lcprowl-v1-0044) |
 | `REL-DE-CUMEX-002` | Olaf Scholz | Treffen am 10. November 2017 (Inhalt nicht dokumentiert) | Christian Olearius | belegt | [SRC-DE-HH-WARBURG-SENAT-2020](../quellen/index.md#src-de-hh-warburg-senat-2020) |
 | `REL-DE-GEHLEN-001` | Organisation Gehlen | wurde 1956 in den BND überführt | Bundesnachrichtendienst | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
 | `REL-DE-TMN-026` | Paul-Bernhard Kallen | Teilnehmer des Young-Leaders-Jahrgangs 1991 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |

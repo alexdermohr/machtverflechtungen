@@ -26,9 +26,9 @@ event_claims:
   - CLM-DE-BDJ-017
   - CLM-DE-BDJ-018
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
-actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
+actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-OPC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
 mechanisms: [covert-support, paramilitary-network]
-sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886]
+sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886, SRC-US-CIA-LCPROWL-V1-0037, SRC-US-CIA-LCPROWL-V1-0044]
 claims:
   - id: CLM-DE-BDJ-001
     text: "Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit."
@@ -407,7 +407,85 @@ claims:
       supports: "Amtlich dokumentierte Einzelstücksignatur, Laufzeit, historische Aktenzeichen und benannte Aktengruppen."
       does_not_support: "Der Katalognachweis selbst beweist weder einzelne Finanzzahlungen und Weisungen noch ein bestimmtes Ergebnis der Ermittlungsverfahren."
     falsification: "Korrigierte amtliche Stückverzeichnung oder eine Blatt-für-Blatt-Inventur mit wesentlich anderer Aktenzuordnung würde die bibliographische Zuschreibung treffen."
+  - id: CLM-DE-BDJ-020
+    text: "Der CIA-Bericht vom 24. Januar 1951 bezeichnete den BDJ als durch OPC subventionierte Organisation; als äußerer Anschein der Geldherkunft wurden Beiträge von privaten und industriellen antikommunistischen Unterstützern sowie Mitgliedsbeiträge genannt."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0044]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0044
+        directness: direct
+        locator: "LCPROWL VOL. 1_0044, PDF-S. 2, Abschn. A; PDF-S. 3, Abschn. C (Cover) und D (Operational Security)"
+        note: "Der interne Bericht benennt die OPC-Subvention, die nominell private Geldherkunft und finanzielle Abhängigkeit als Steuerungsmechanismus."
+    counterevidence: []
+    alternatives:
+      - "Neben OPC-Mitteln könnten eigenständige private Beiträge existiert haben; die tatsächliche Zusammensetzung folgt nicht aus der Tarnbeschreibung."
+    missing_evidence:
+      - "OPC-Kassenunterlagen, BDJ-Bankkontoauszüge, Empfängerquittungen, tatsächliche Firmen- und Spenderbelege."
+    scope:
+      supports: "Zeitgenössische interne Aussage über OPC-Unterstützung und verdeckte Darstellung ihrer Herkunft."
+      does_not_support: "Keine bestimmte Auszahlungsgröße oder finanzielle Beteiligung einer namentlich genannten Firma."
+    falsification: "Originale Konten- und Firmenunterlagen können reale Quellen und Auszahlungswege neu zuordnen."
+  - id: CLM-DE-BDJ-021
+    text: "Die OPC-Arbeitseinheit EE-3 beantragte in Project Amendment No. 2 im Juni 1951 die dauerhafte Finanzierung der paramilitärischen Phase 4 für 13 Monate ab dem 1. Juni 1951; die Vorlage berichtet über zuvor zugeteilte und ausgegebene OPC-Mittel zur Beschaffung von Ausbildungsausrüstung und zur Vorbereitung eines festen Schulungsorts."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 4, Outline Clearance Sheet EE-3 vom 11.06.1951; PDF-S. 5, Ziff. 2–3"
+        note: "Die Vorlage trennt Antrag über 13 Monate, frühere Projektfreigaben und interne Ausgabenangaben; Zahlenfelder sind zum Teil verdeckt."
+    counterevidence: []
+    alternatives:
+      - "Der im Faksimile schlecht lesbare abschließende Genehmigungsvermerk lässt den genauen Umfang der endgültigen Freigabe offen."
+    missing_evidence:
+      - "Vollständige Board-Bewilligung für Amendment No. 2, Rechnungen, Zahlstellen- und Materialabrechnungen."
+    scope:
+      supports: "Geplanter 13-Monats-Haushalt und intern berichtete Ausgaben für Vorbereitungen."
+      does_not_support: "Kein Nachweis einer vollständigen Bewilligung aller beantragten Ausgaben oder ihres konkreten Zahlungswegs."
+    falsification: "Endgültige Projektgenehmigung und Zahlungsbelege können Antrag und reale Ausgabehöhe getrennt bestätigen."
+  - id: CLM-DE-BDJ-022
+    text: "Project Amendment No. 2 plante einen Apparat von 7.000 BDJ-Angehörigen, darunter 3.000 für Verzögerungsoperationen und 4.000 für weitere Widerstandsaufgaben, 530 westdeutsche und 178 ostdeutsche Kreiseinheiten sowie eine besondere Sabotagegruppe mit ungefähr 50 Personen."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 6–7, Ziff. 4a–4b (Mission, Organization)"
+        note: "Die Organisation war mit neun westdeutschen und fünf ostdeutschen Landesleitungen als Projekt-Sollstruktur beschrieben."
+    counterevidence: []
+    alternatives:
+      - "Die Zahlen geben keine erfassten Ist-Bestände wieder, sondern organisatorische und personelle Planungsgrößen."
+    missing_evidence:
+      - "OPC- und BDJ-Personallisten, Kreisleiterlisten, Teilnehmerverzeichnisse und deutsche Ermittlungszählungen."
+    scope:
+      supports: "Dokumentiertes amerikanisches Sollmodell für Personal und territoriale Gliederung."
+      does_not_support: "Keine tatsächliche Rekrutierung von 7.000 Personen oder aktive Besetzung von 708 Kreisstellen."
+    falsification: "Durchführungsberichte, die deutlich andere Ist-Stärken ausweisen, verändern die Einordnung der Planung."
+  - id: CLM-DE-BDJ-023
+    text: "Project Amendment No. 2 sah zur Tarnung führender Apparat-Angehöriger ein Unternehmen zur Herstellung neuartiger flexibler Schallplatten und weitere kommerzielle Tarnfirmen vor; ein OPC-geführtes Ausbildungsprogramm für Führungspersonal war ebenfalls geplant."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 7, Ziff. 4c–4d (Training, Cover); PDF-S. 8, Ziff. 4e (Budget)"
+        note: "Die US-Vorlage beschreibt eine wirtschaftlich plausibel erscheinende Firma und Ausgaben für den Aufbau kommerzieller Deckung."
+    counterevidence: []
+    alternatives:
+      - "Das wirtschaftliche Tarnkonzept könnte geändert oder niemals gesellschaftsrechtlich umgesetzt worden sein."
+    missing_evidence:
+      - "Handelsregister, Gesellschaftsverträge, Geschäftskonten, Steuerunterlagen, Auszahlungsbelege und Berufsunterlagen der Apparat-Leitung."
+    scope:
+      supports: "Konkret beschriebener Plan einer Schallplatten-Tarnfirma und zusätzlicher Geschäftstarnungen."
+      does_not_support: "Kein Beleg für erfolgte Gründung, reale Umsätze oder die Identität privater Unterstützer."
+    falsification: "Originale Firmenakten oder Projektfortschrittsberichte können die Umsetzung bestätigen oder widerlegen."
 what_follows:
+  - text: "Die CIA-Originaldokumente beschreiben OPC-Subvention und nominell private Geldherkunft sowie einen beantragten paramilitärischen Ausbau mit wirtschaftlichen Tarnstrukturen."
+    claim_ids: [CLM-DE-BDJ-020, CLM-DE-BDJ-021, CLM-DE-BDJ-022, CLM-DE-BDJ-023]
   - text: "Der Bundestagsbericht dokumentiert eine problematische Geheimorganisation und benennt eine geheimdienstliche Beteiligung einer Besatzungsmacht."
     claim_ids: [CLM-DE-BDJ-001, CLM-DE-BDJ-002]
   - text: "Zeitgenössische Ministeriumsberichte nennen 10.000 und 6.000 DM BDJ-Bundesförderung; Hoegner berichtete getrennt hiervon amerikanische TD-Zuflüsse und Ausbildung."
@@ -442,6 +520,19 @@ case_links: []
 </div>
 
 **Forschungsfokus:** Wie verbanden sich antikommunistische Organisierung, paramilitärische Strukturen, staatliche Reaktionen und die Beteiligung eines ausländischen Geheimdienstes?
+
+## CIA-Originalakten: OPC-Finanzierung und Ausbauplanung 1951
+
+Die neu ausgewerteten CIA-Faksimiles verbinden die amerikanische Finanzierung des BDJ mit einer gezielten privaten und industriellen Tarnung der Geldherkunft. Die spätere Projektänderung dokumentiert den beantragten Ausbau des paramilitärischen Apparats und dessen wirtschaftliche Tarnstrukturen.
+
+- **`CLM-DE-BDJ-020` — belegt:** Der CIA-Bericht vom 24. Januar 1951 bezeichnete den BDJ als durch OPC subventionierte Organisation; als äußerer Anschein der Geldherkunft wurden Beiträge von privaten und industriellen antikommunistischen Unterstützern sowie Mitgliedsbeiträge genannt.
+- **`CLM-DE-BDJ-021` — belegt:** Die OPC-Arbeitseinheit EE-3 beantragte in Project Amendment No. 2 im Juni 1951 die dauerhafte Finanzierung der paramilitärischen Phase 4 für 13 Monate ab dem 1. Juni 1951; die Vorlage berichtet über zuvor zugeteilte und ausgegebene OPC-Mittel zur Beschaffung von Ausbildungsausrüstung und zur Vorbereitung eines festen Schulungsorts.
+- **`CLM-DE-BDJ-022` — belegt:** Project Amendment No. 2 plante einen Apparat von 7.000 BDJ-Angehörigen, darunter 3.000 für Verzögerungsoperationen und 4.000 für weitere Widerstandsaufgaben, 530 westdeutsche und 178 ostdeutsche Kreiseinheiten sowie eine besondere Sabotagegruppe mit ungefähr 50 Personen.
+- **`CLM-DE-BDJ-023` — belegt:** Project Amendment No. 2 sah zur Tarnung führender Apparat-Angehöriger ein Unternehmen zur Herstellung neuartiger flexibler Schallplatten und weitere kommerzielle Tarnfirmen vor; ein OPC-geführtes Ausbildungsprogramm für Führungspersonal war ebenfalls geplant.
+
+**Einordnung der Finanzierungsnachweise:** Der Bericht belegt die amerikanische OPC-Subvention und die vorgesehene Außendarstellung. Tatsächliche private Spender lassen sich daraus erst durch Kontounterlagen unterscheiden. Der Entwurf *Project Amendment No. 2* dokumentiert Planstärken und Anträge; bestätigte Auszahlungssummen, Teilnehmerzahlen und gegründete Tarnfirmen erfordern eigenständige Unterlagen.
+
+[US-Projektgenehmigungen 1950](../../quellen/lcprowl-1950-opc-planung.md) · [NARA, CIA RG 263, Entry ZZ-19, Box 0042](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html)
 
 ## Gesicherter Ereigniskern
 
@@ -543,3 +634,6 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - [Hessischer Landtag, Drs. 18/6904 vom 19.03.2013](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf) — `SRC-DE-HELT-BDJ-186904-2013`, gedruckte S. 1–3: konkrete BDJ/TD-Archivbestände und Nutzung.
 
 - [Hessisches Hauptstaatsarchiv, Arcinsys: HHStAW, 502, 17886, Band 1](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555) — `SRC-DE-HHSTAW-502-17886`, amtliche Bestands- und Inhaltsverzeichnung (abgerufen am 12.10.2026).
+
+- [CIA/OPC, LCPROWL VOL. 1_0037 – Project Amendment No. 2 (Juni 1951)](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf) — `SRC-US-CIA-LCPROWL-V1-0037`, PDF-S. 4–8; SHA-256: `d46f15e7afc334c4496c579cf8be1401dc4412d446edba6a370cb4bc19027c17`.
+- [CIA/OPC, LCPROWL VOL. 1_0044 – Projektbericht vom 24.01.1951](https://web.archive.org/web/20250220053805id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0044.pdf) — `SRC-US-CIA-LCPROWL-V1-0044`, PDF-S. 2–3; SHA-256: `136f7683bd367e92a141f7a0a0d5fb6298c25cc804f17692ad2f8db80ef3b93f`.

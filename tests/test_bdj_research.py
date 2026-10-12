@@ -19,6 +19,8 @@ SOURCE_IDS = (
     "SRC-DE-HE-LAGIS-BDJ-19530108",
     "SRC-DE-HELT-BDJ-186904-2013",
     "SRC-DE-HHSTAW-502-17886",
+    "SRC-US-CIA-LCPROWL-V1-0037",
+    "SRC-US-CIA-LCPROWL-V1-0044",
 )
 
 
@@ -35,10 +37,10 @@ def bdj_metadata() -> dict:
 
 
 class BDJResearchRegressions(unittest.TestCase):
-    def test_19_prepared_claims_and_9_registered_source_ids(self):
+    def test_23_prepared_claims_and_11_registered_source_ids(self):
         case = bdj_metadata()
         claims = {item["id"]: item for item in case["claims"]}
-        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 20)})
+        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 24)})
         sources = records("sources.yml", "sources")
         for sid in SOURCE_IDS:
             with self.subTest(source=sid):
@@ -170,6 +172,58 @@ class BDJResearchRegressions(unittest.TestCase):
             with self.subTest(anchor=anchor):
                 self.assertIn(anchor, visible)
         self.assertNotIn("Kommission bewies", visible)
+
+
+    def test_cia_amendment2_primary_facsimile_claims_are_bounded(self):
+        case = bdj_metadata()
+        claims = {c["id"]: c for c in case["claims"]}
+        src = records("sources.yml", "sources")["SRC-US-CIA-LCPROWL-V1-0037"]
+        self.assertTrue(src["primary"])
+        self.assertEqual(src["tier"], "A")
+        self.assertEqual(src["sha256"],
+                         "d46f15e7afc334c4496c579cf8be1401dc4412d446edba6a370cb4bc19027c17")
+        self.assertIn("VOL.%201_0037.pdf", src["url"])
+        self.assertIn("PDF-S.", src["locator"])
+        self.assertIn("0037", src["title"])
+        for num in (20, 21, 22, 23):
+            cid = f"CLM-DE-BDJ-{num:03d}"
+            with self.subTest(claim=cid):
+                self.assertEqual(claims[cid]["sources"],
+                                 ["SRC-US-CIA-LCPROWL-V1-0044"] if num == 20
+                                 else ["SRC-US-CIA-LCPROWL-V1-0037"])
+                self.assertEqual(claims[cid]["classification"], "fact")
+                self.assertEqual(claims[cid]["evidence_level"], "established")
+                self.assertIn("PDF-S.", claims[cid]["evidence"][0]["locator"])
+                self.assertNotIn(cid, case["event_claims"])
+
+        self.assertIn("OPC", claims["CLM-DE-BDJ-020"]["text"])
+        self.assertIn("privaten", claims["CLM-DE-BDJ-020"]["text"])
+        self.assertIn("13 Monate", claims["CLM-DE-BDJ-021"]["text"])
+        self.assertIn("beantragte", claims["CLM-DE-BDJ-021"]["text"])
+        self.assertIn("7.000", claims["CLM-DE-BDJ-022"]["text"])
+        self.assertIn("3.000", claims["CLM-DE-BDJ-022"]["text"])
+        self.assertIn("4.000", claims["CLM-DE-BDJ-022"]["text"])
+        self.assertIn("530", claims["CLM-DE-BDJ-022"]["text"])
+        self.assertIn("178", claims["CLM-DE-BDJ-022"]["text"])
+        self.assertIn("Schallplatten", claims["CLM-DE-BDJ-023"]["text"])
+        original = records("sources.yml", "sources")["SRC-US-CIA-LCPROWL-V1-0044"]
+        self.assertEqual(original["sha256"],
+                         "136f7683bd367e92a141f7a0a0d5fb6298c25cc804f17692ad2f8db80ef3b93f")
+        self.assertIn("ORG-US-OPC", case["actors"])
+        self.assertIn("ORG-US-OPC", records("entities.yml", "entities"))
+        relation = records("relations.yml", "relations")["REL-DE-BDJ-015"]
+        self.assertEqual((relation["from"], relation["to"]),
+                         ("ORG-US-OPC", "ORG-DE-BDJ"))
+        self.assertEqual(relation["sources"], ["SRC-US-CIA-LCPROWL-V1-0044"])
+        self.assertEqual(relation["claim_ids"], ["CLM-DE-BDJ-020"])
+        self.assertNotIn("70.000", relation["label"])
+        self.assertIn("Tarn", claims["CLM-DE-BDJ-023"]["text"])
+        article = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+        for content in ("LCPROWL VOL. 1_0037", "7.000", "530", "178",
+                        "13 Monate", "Schallplatten", "beantragte"):
+            self.assertIn(content, article)
+        self.assertIn("geplant", article)
+        self.assertNotIn("7.000 ausgebildete", article)
 
 
 if __name__ == "__main__":
