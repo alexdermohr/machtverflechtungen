@@ -10,6 +10,7 @@ Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten 
 - [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) — 1968 · 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen
 - [Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](../faelle/de/langemann-informationsnetz-1976-1982.md) — 1975 · 3 belegt · 11 stark gestützt · 1 plausibel
 - [Celler Loch / Aktion Feuerzauber](../faelle/de/celler-loch.md) — 1978-07-25 · 2 belegt
+- [Deutsche Aktionsgruppen, Roeder und Finanzierungswege 1979–1998](../faelle/de/deutsche-aktionsgruppen-roeder-1980-1998.md) — 1979 · 9 belegt · 2 stark gestützt · 1 plausibel
 - [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](../faelle/de/oktoberfestattentat-1980.md) — 1980-09-26 · 56 belegt · 5 stark gestützt · 1 plausibel
 - [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
 - [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) — 1986 · 8 belegt · 1 plausibel · 1 spekulativ/offen

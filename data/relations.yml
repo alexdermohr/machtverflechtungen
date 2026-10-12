@@ -762,3 +762,91 @@ relations:
     evidence_level: strong
     sources: [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982]
     claim_ids: [CLM-DE-LANG-012]
+
+  - id: REL-DE-DA-001
+    from: PER-DE-MANFRED-ROEDER
+    to: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
+    type: directed_extremist_group
+    label: "leitete laut archivalischer Rekonstruktion die Anschlagsgruppe 1980"
+    period: {start: "1980"}
+    evidence_level: strong
+    sources: [SRC-DE-ARCHIVPORTAL-DA-2026]
+    claim_ids: [CLM-DE-DA-001]
+
+  - id: REL-DE-DA-002
+    from: PER-DE-MANFRED-ROEDER
+    to: ORG-DE-DEUTSCHE-BUERGERINITIATIVE
+    type: documented_association
+    label: "als Akteur der Deutschen Bürgerinitiative und ihrer berichteten Konteneingänge 1979/80 genannt"
+    period: {start: "1979", end: "1980"}
+    evidence_level: established
+    sources: [SRC-DE-BT-09066-1981]
+    claim_ids: [CLM-DE-DA-003]
+
+  - id: REL-DE-DA-003
+    from: PER-DE-HEINZ-LEMBKE
+    to: ORG-DE-DEUTSCHE-BUERGERINITIATIVE
+    type: documented_contact
+    label: "Kontakt zur Deutschen Bürgerinitiative laut Bundesregierung 1981"
+    evidence_level: established
+    sources: [SRC-DE-BT-09066-1981]
+    claim_ids: [CLM-DE-DA-004]
+
+  - id: REL-DE-DA-004
+    from: PER-DE-HEINZ-LEMBKE
+    to: PER-DE-ODFRIED-HEPP
+    type: documented_contact
+    label: "Kontakt laut Bundestagsauskunft vom 25.11.1981"
+    evidence_level: established
+    sources: [SRC-DE-BT-09066-1981]
+    claim_ids: [CLM-DE-DA-004]
+
+  - id: REL-DE-DA-005
+    from: PER-DE-MANFRED-ROEDER
+    to: ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK
+    type: association_leadership
+    label: "bei Gründung am 20.02.1993 laut Untersuchungsausschuss zum zweiten Vorsitzenden gewählt"
+    period: {start: "1993-02-20"}
+    evidence_level: established
+    sources: [SRC-DE-BT-1311005-1998]
+    claim_ids: [CLM-DE-DA-012]
+
+  - id: REL-DE-DA-006
+    from: ORG-DE-BUNDESWEHR
+    to: ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK
+    type: material_support
+    label: "überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich"
+    period: {start: "1994-06-15"}
+    evidence_level: established
+    sources: [SRC-DE-BT-1311005-1998]
+    claim_ids: [CLM-DE-DA-006]
+
+  - id: REL-DE-DA-007
+    from: PER-DE-MANFRED-ROEDER
+    to: ORG-DE-BUNDESWEHR
+    type: documented_speaking_event
+    label: "hielt laut Untersuchungsausschuss am 24.01.1995 Vortrag an der Führungsakademie"
+    period: {start: "1995-01-24"}
+    evidence_level: established
+    sources: [SRC-DE-BT-1311005-1998]
+    claim_ids: [CLM-DE-DA-008]
+
+  - id: REL-DE-DA-008
+    from: PER-DE-NGUYEN-NGOC-CHAU
+    to: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
+    type: victim_of_violent_attack
+    label: "wurde am 22.08.1980 Opfer des Brandanschlags der Deutschen Aktionsgruppen in Hamburg-Billbrook"
+    period: {start: "1980-08-22"}
+    evidence_level: strong
+    sources: [SRC-DE-ARCHIVPORTAL-DA-2026]
+    claim_ids: [CLM-DE-DA-001]
+
+  - id: REL-DE-DA-009
+    from: PER-DE-DO-ANH-LAN
+    to: ORG-DE-DEUTSCHE-AKTIONSGRUPPEN
+    type: victim_of_violent_attack
+    label: "wurde Opfer des Brandanschlags am 22.08.1980; starb neun Tage später"
+    period: {start: "1980-08-22"}
+    evidence_level: strong
+    sources: [SRC-DE-ARCHIVPORTAL-DA-2026]
+    claim_ids: [CLM-DE-DA-001]
