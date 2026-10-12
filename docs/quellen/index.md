@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**111 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**112 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1175,6 +1175,17 @@ Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-0
 [Seite öffnen](https://isioma.net/sds120502.html)
 
 Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
+
+<a id="src-de-erlangen-lewin-2026"></a>
+### Stadt Erlangen
+
+**[Gedenken: Shlomo Lewin und Frida Poeschke](https://erlangen.de/aktuelles/lewin-poeschke)**
+
+Stadt Erlangen · 2026-01-26 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ERLANGEN-LEWIN-2026`
+
+[Seite öffnen](https://erlangen.de/aktuelles/lewin-poeschke)
+
+Fundstelle: Abschnitt Gedenken: Tatdatum 19.12.1980, Opfer Shlomo Lewin und Frida Poeschke, Tatort Erlangen
 
 <a id="src-de-stern-urbach-1971-reprint"></a>
 ### STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma

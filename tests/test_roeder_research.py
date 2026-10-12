@@ -40,6 +40,12 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         meta = case_metadata()
         claims = {claim["id"]: claim for claim in meta["claims"]}
         self.assertEqual(claims["CLM-DE-DA-005"]["classification"], "counterevidence")
+        denial = claims["CLM-DE-DA-005"]
+        for marker in ("Oktoberfestattentat", "Shlomo Lewin", "Frida Poeschke"):
+            self.assertIn(marker, denial["text"])
+        self.assertNotIn("damals angesprochenen rechtsterroristischen Taten", denial["text"])
+        self.assertIn("Deutschen Aktionsgruppen", denial["scope"]["does_not_support"])
+        self.assertIn("SRC-DE-ERLANGEN-LEWIN-2026", denial["sources"])
         self.assertEqual(claims["CLM-DE-DA-010"]["classification"], "hypothesis")
         self.assertIn("darunter den tödlichen Hamburger Brandanschlag", claims["CLM-DE-DA-001"]["text"])
         self.assertNotIn("sowie den tödlichen Hamburger Brandanschlag", claims["CLM-DE-DA-001"]["text"])
@@ -61,6 +67,7 @@ class RoederSourceBoundaryTests(unittest.TestCase):
         self.assertTrue(sources["SRC-DE-HE-VSBER-1982"]["primary"])
         self.assertIn("gedruckte S. 15", sources["SRC-DE-HE-VSBER-1982"]["locator"])
         self.assertFalse(sources["SRC-DE-ARCHIVPORTAL-DA-2026"]["primary"])
+        self.assertEqual(sources["SRC-DE-ERLANGEN-LEWIN-2026"]["institution"], "Stadt Erlangen")
         relations = {
             rel["id"]: rel for rel in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]
         }

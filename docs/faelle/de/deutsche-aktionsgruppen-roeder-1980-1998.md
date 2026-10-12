@@ -22,7 +22,7 @@ event_claims:
 tags: [deutschland, rechtsterrorismus, deutsche-aktionsgruppen, roeder, geldfluesse, bundeswehr]
 actors: [PER-DE-MANFRED-ROEDER, PER-DE-HEINZ-LEMBKE, PER-DE-ODFRIED-HEPP, PER-DE-NGUYEN-NGOC-CHAU, PER-DE-DO-ANH-LAN, PER-DE-SIBYLLE-VORDERBRUEGGE, PER-DE-RAYMUND-HOERNLE, ORG-DE-DEUTSCHE-AKTIONSGRUPPEN, ORG-DE-DEUTSCHE-BUERGERINITIATIVE, ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK, ORG-DE-BUNDESWEHR]
 mechanisms: [paramilitary-network, material-support]
-sources: [SRC-DE-BT-09066-1981, SRC-DE-BT-1311005-1998, SRC-DE-ARCHIVPORTAL-DA-2026, SRC-DE-HE-VSBER-1982]
+sources: [SRC-DE-BT-09066-1981, SRC-DE-BT-1311005-1998, SRC-DE-ARCHIVPORTAL-DA-2026, SRC-DE-HE-VSBER-1982, SRC-DE-ERLANGEN-LEWIN-2026]
 claims:
   - id: CLM-DE-DA-001
     text: "Das Archivportal-D dokumentiert für die von Manfred Roeder angeleiteten Deutschen Aktionsgruppen sieben antisemitische und rassistische Anschläge von Februar bis August 1980, darunter den tödlichen Hamburger Brandanschlag vom 22. August auf Nguyễn Ngọc Châu und Đỗ Anh Lân."
@@ -109,23 +109,27 @@ claims:
       does_not_support: "Ein benannter Kontakt ist noch kein gemeinsamer Anschlagsauftrag oder identische Mitgliedschaft in drei Gruppen."
     falsification: "Eine korrigierte Originalauskunft oder authentische Personenakten, die die Kontakte widerlegen, würden die Rekonstruktion verändern."
   - id: CLM-DE-DA-005
-    text: "Die Bundesregierung erklärte in derselben Sitzung 1981, für die damals angesprochenen rechtsterroristischen Taten lägen ihr keine Erkenntnisse über gemeinsame Ausführung, denselben Täterkreis oder gemeinsame Planung vor; sie unterschied dies von bestehenden personellen Kontakten."
+    text: "Die Bundesregierung erklärte am 25. November 1981, zwischen dem Oktoberfestattentat und den Morden an Shlomo Lewin und Frida Poeschke sei kein gemeinsamer Täterkreis, keine gemeinsame Tatbegehung und keine gemeinsame Planung erkennbar; davon unterschied sie Kontakte einzelner Rechtsextremisten."
     classification: counterevidence
     evidence_level: established
-    sources: [SRC-DE-BT-09066-1981]
+    sources: [SRC-DE-BT-09066-1981, SRC-DE-ERLANGEN-LEWIN-2026]
     evidence:
       - source: SRC-DE-BT-09066-1981
         directness: direct
-        locator: "gedruckte S. 3842, Antwort von Schoeler auf Däubler-Gmelin zu Oktoberfestattentat und Mord an der Familie Lewin"
-        note: "Die amtliche zeitgenössische Negativauskunft trennt verschiedene Tatkomplexe von den erfassten personellen Berührungspunkten."
+        locator: "gedruckte S. 3842, Antwort Schoelers auf Däubler-Gmelin zu Oktoberfestattentat und den Morden an Lewin/Poeschke"
+        note: "Die Regierungsantwort bezieht sich nur auf diese beiden Taten; die parlamentarische Frage hatte Opfer und Tatort ungenau bezeichnet."
+      - source: SRC-DE-ERLANGEN-LEWIN-2026
+        directness: context
+        locator: "Gedenktext, Opferidentität und Tatort Erlangen vom 19.12.1980"
+        note: "Amtliche Orts- und Namensidentifikation der von der Bundestagsabgeordneten ungenau bezeichneten zwei Mordopfer."
     counterevidence: []
     alternatives:
-      - "Die Antwort ist auf den damals ermittelten Kenntnisstand beschränkt und kann durch spätere Dokumentfunde präzisiert werden."
+      - "Die Bundestagsauskunft beschreibt nur den Kenntnisstand zu zwei konkreten Taten; spätere Originalakten können ihn präzisieren."
     missing_evidence:
-      - "Originalvernehmungen, kriminaltechnische Beweise und Koordinationsunterlagen aus den betroffenen Verfahren vergleichen."
+      - "Originalvernehmungen, kriminaltechnische Beweise und Koordinationsunterlagen zu Oktoberfest und Lewin/Poeschke vergleichen."
     scope:
-      supports: "Zeitgenössischer amtlicher Gegenbefund gegen eine pauschale Gleichsetzung gemeinsamer Kontakte mit gemeinsamer Tatplanung."
-      does_not_support: "Sie enthält keine abschließende gerichtliche Feststellung über jede denkbare Verbindung später entdeckter Personen."
+      supports: "Zeitgenössische amtliche Abgrenzung gemeinsamer Tatplanung beim Oktoberfestattentat und den Morden an Lewin/Poeschke von bloßen Personenkontakten."
+      does_not_support: "Keine Aussage zur Tatplanung bei den Deutschen Aktionsgruppen und keine gerichtliche Gesamtfeststellung zu anderen Fällen."
     falsification: "Eine authentische zeitgenössische Koordinationsakte zu denselben Taten würde die Auskunft materiell überholen."
   - id: CLM-DE-DA-006
     text: "Der Bundestags-Untersuchungsausschuss dokumentierte 1998, dass das Auswärtige Amt 1994 der kostenlosen Überlassung ausgesonderter Bundeswehrfahrzeuge und Werkzeuge an das Deutsch-Russische Gemeinschaftswerk zustimmte und das Verteidigungsministerium am 15. Juni 1994 drei Fahrzeuge und Werkzeugsätze freigab."
@@ -220,8 +224,8 @@ claims:
     counterevidence:
       - source: SRC-DE-BT-09066-1981
         directness: direct
-        locator: "gedruckte S. 3842; Negativauskunft zu gemeinsamer Tatplanung"
-        note: "Die Bundesregierung unterschied 1981 personelle Berührungspunkte von gemeinsam geplanten Taten."
+        locator: "gedruckte S. 3842; Gegenbefund nur Oktoberfest und Lewin/Poeschke"
+        note: "Die Bundesregierung verneinte für diese beiden erfragten Taten eine gemeinsame Planung und unterschied davon Kontakte Einzelner."
     alternatives:
       - "Die Konten der Deutschen Bürgerinitiative und die Sachleistungen für das Deutsch-Russische Gemeinschaftswerk sind getrennte Organisations- und Zeiträume."
     missing_evidence:
@@ -276,7 +280,7 @@ what_follows:
   - text: "Lembkes berichtete Kontakte zu Hepp und Roeders Initiative bilden eine gezielte historische Netzwerksuchspur."
     claim_ids: [CLM-DE-DA-004]
 what_does_not_follow:
-  - text: "Aus den beschriebenen Gruppenkontakten ergibt sich keine damals festgestellte gemeinsame Planung der angesprochenen Anschläge."
+  - text: "Die Bundestagsauskunft verneinte 1981 eine gemeinsame Planung nur für Oktoberfestattentat und die Morde an Lewin/Poeschke; sie beurteilte damit nicht die Anschläge der Deutschen Aktionsgruppen."
     claim_ids: [CLM-DE-DA-004, CLM-DE-DA-005]
 open_questions:
   - "Welche originalen Kontoauszüge, Unterkonten und Zahlungsanweisungen erklären die 84.000 DM Zuflüsse der Deutschen Bürgerinitiative 1979 und 1980?"
@@ -326,7 +330,7 @@ Beim Urteilsdatum steht der Bundestagsbericht 1998 (**24. Juni 1982**) gegen zwe
 
 Parlamentarischer Staatssekretär **Andreas von Schoeler** berichtete am **25. November 1981** über **84.000 DM** Konteneingänge 1979–1980 aus dem In- und Ausland bei der **Deutschen Bürgerinitiative** Manfred Roeders. Als allgemeine Finanzierungswege neonazistischer Gruppen nannte er Spenden, Mitgliedsbeiträge, Erlöse eigener Publikationen und in anderen Gruppen Banküberfälle. Die **84.000 DM sind die für die Bürgerinitiative berichteten Eingänge**, keine ausgewiesenen Auszahlungen an Täter der Deutschen Aktionsgruppen. Der hessische Verfassungsschutzbericht **1982, S. 15**, beschrieb anschließend einen Rückgang der Mitglieder und der DBI-Spendeneingänge nach Roeders Inhaftierung.
 
-Im selben [Plenarprotokoll 9/66, gedruckte S. 3842](https://dserver.bundestag.de/btp/09/09066.pdf) nannte die Bundesregierung für **Heinz Lembke** unter anderem Mitgliedschaften in rechtsextremistischen Organisationen und Kontakte zu **Roeders Deutscher Bürgerinitiative** und **Odfried Hepp**. Der damalige Sprecher unterschied ausdrücklich einzelne extremistische Kontakte von einer gemeinsamen Planung und Durchführung verschiedener Gewalttaten.
+Im selben [Plenarprotokoll 9/66, gedruckte S. 3842](https://dserver.bundestag.de/btp/09/09066.pdf) nannte die Bundesregierung für **Heinz Lembke** unter anderem Mitgliedschaften in rechtsextremistischen Organisationen und Kontakte zu **Roeders Deutscher Bürgerinitiative** und **Odfried Hepp**. Die Nachfrage betraf ausschließlich das Oktoberfestattentat und die Morde an **Shlomo Lewin und Frida Poeschke in Erlangen**. Von Schoeler verneinte 1981 für diese beiden Taten eine gemeinsame Begehung oder Planung und unterschied hiervon allgemeine extremistische Kontakte. Opfer und Tatort waren in der Bundestagsfrage ungenau angegeben; die korrekte Identität dokumentiert die [Stadt Erlangen](https://erlangen.de/aktuelles/lewin-poeschke).
 
 ## Bundeswehr-Material und Vortragszugang 1994–1998
 
@@ -338,7 +342,7 @@ Für den Lkw fand der Ausschuss Zulassungsunterlagen auf Roeder und einen Verkau
 
 ## Hypothese und konkreter Gegenbefund
 
-- **`CLM-DE-DA-005` — amtlicher Gegenbefund:** Die Bundesregierung erklärte in derselben Sitzung 1981, für die damals angesprochenen rechtsterroristischen Taten lägen ihr keine Erkenntnisse über gemeinsame Ausführung, denselben Täterkreis oder gemeinsame Planung vor; sie unterschied dies von bestehenden personellen Kontakten.
+- **`CLM-DE-DA-005` — amtlicher Gegenbefund:** Die Bundesregierung erklärte am 25. November 1981, zwischen dem Oktoberfestattentat und den Morden an Shlomo Lewin und Frida Poeschke sei kein gemeinsamer Täterkreis, keine gemeinsame Tatbegehung und keine gemeinsame Planung erkennbar; davon unterschied sie Kontakte einzelner Rechtsextremisten.
 - **`CLM-DE-DA-010` — plausible Forschungshypothese:** Die dokumentierten Roeder-Kontakte, privaten Konteneingänge 1979/1980 und staatlichen Sachmittelzugänge 1994/1995 begründen die prüfbare Hypothese, dass Roeder über unterschiedliche Organisationen und Jahrzehnte hinweg personelle Netzwerke zur Ressourcenbeschaffung nutzte.
 
 Untersucht wird eine **personelle Kontinuität von Zugängen zu unterschiedlichen Organisations- und Finanzierungskanälen**; die private Bürgerinitiative 1979/80, die terroristischen Aktionsgruppen 1980 und das 1993 gegründete Deutsch-Russische Gemeinschaftswerk sind als **eigene Organisationen** zu erfassen. Erst Konto-, Vereins- und Verfügungsbelege könnten Verwendungswege materiell verknüpfen.
@@ -358,3 +362,4 @@ Untersucht wird eine **personelle Kontinuität von Zugängen zu unterschiedliche
 - [Bundestag, Drs. 13/11005, Untersuchungsausschuss 1998](https://dserver.bundestag.de/btd/13/110/1311005.pdf) — `SRC-DE-BT-1311005-1998`, gedruckte S. 55–57, 66, 74–76, 464–465.
 - [Archivportal-D, „Rassistischer Anschlag der Deutschen Aktionsgruppen“, aktualisiert 2026](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen) — `SRC-DE-ARCHIVPORTAL-DA-2026`, Ereignisrekonstruktion und Archivsignaturen.
 - [Hessische Landesregierung, „Verfassungsschutz in Hessen – Bericht 1982“](https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf) — `SRC-DE-HE-VSBER-1982`, gedruckte S. 15; Urteilsdatum und Entwicklung der Deutschen Bürgerinitiative.
+- [Stadt Erlangen, Gedenken an Shlomo Lewin und Frida Poeschke](https://erlangen.de/aktuelles/lewin-poeschke) — `SRC-DE-ERLANGEN-LEWIN-2026`, Opferidentität und Tatort zur ungenauen Bundestagsfrage 1981.
