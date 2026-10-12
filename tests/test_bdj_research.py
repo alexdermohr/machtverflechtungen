@@ -119,6 +119,19 @@ class BDJResearchRegressions(unittest.TestCase):
         self.assertEqual(relations["REL-DE-BDJ-013"]["type"], "reported_dismissal_considered")
         self.assertEqual(relations["REL-DE-BDJ-014"]["type"], "reported_preliminary_investigation_requested")
 
+    def test_visible_event_evidence_labels_match_claim_levels(self):
+        case = bdj_metadata()
+        claims = {entry["id"]: entry for entry in case["claims"]}
+        article = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+        names = {"established": "belegt", "strong": "stark gestützt"}
+        for cid in case["event_claims"]:
+            claim = claims[cid]
+            with self.subTest(claim=cid):
+                self.assertIn(
+                    f"- **`{cid}` — {names[claim['evidence_level']]}:** {claim['text']}",
+                    article,
+                )
+
     def test_archival_commission_record_does_not_pretend_to_be_read(self):
         claim = next(c for c in bdj_metadata()["claims"] if c["id"] == "CLM-DE-BDJ-017")
         self.assertIn("Untersuchungskommission", claim["text"])
