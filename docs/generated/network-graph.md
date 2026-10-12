@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**89 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**103 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -175,6 +175,33 @@ flowchart LR
     N_PER_DE_NGUYEN_NGOC_CHAU -->|"wurde am 22.08.1980 Opfer des Brandanschlags der Deutschen Aktionsgruppen in Hamburg-Billbrook"| N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN
     N_PER_DE_DO_ANH_LAN["Đỗ Anh Lân"]
     N_PER_DE_DO_ANH_LAN -->|"wurde Opfer des Brandanschlags am 22.08.1980; starb neun Tage später"| N_ORG_DE_DEUTSCHE_AKTIONSGRUPPEN
+    N_ORG_DE_BDJ["Bund Deutscher Jugend"]
+    N_ORG_DE_BDJ_TD["Technischer Dienst des Bundes Deutscher Jugend"]
+    N_ORG_DE_BDJ -->|"Bundestagsausschuss bewertete 1953 die personelle und ideelle Überschneidung als weitgehend"| N_ORG_DE_BDJ_TD
+    N_ORG_DE_BMG["Bundesministerium für gesamtdeutsche Fragen (1952)"]
+    N_ORG_DE_BMG -->|"10.000 DM Bundeszuwendung für das BDJ-Pfingsttreffen 1952"| N_ORG_DE_BDJ
+    N_ORG_DE_BMI["Bundesministerium des Innern (1952)"]
+    N_ORG_DE_BMI -->|"6.000 DM aus BMI-Mitteln für den BDJ, laut Egidi 21.10.1952"| N_ORG_DE_BDJ
+    N_ORG_DE_BFV -->|"BfV hatte laut Egidi seit September 1951 Berichte über TD-Übungen bei Wald-Michelbach"| N_ORG_DE_BDJ_TD
+    N_ORG_US_US_ARMY_GERMANY["US-amerikanische Armeestellen in Deutschland (1952)"]
+    N_ORG_US_US_ARMY_GERMANY -->|"Hoegner berichtete Ausbildung und Unterstützung des TD durch US-Armeestellen, nicht durch die US-Zivilverwaltung"| N_ORG_DE_BDJ_TD
+    N_ORG_DE_STOSSTRUPP_BZ["Stoßtrupp gegen bolschewistische Zersetzung"]
+    N_ORG_DE_DHS["Deutscher Heimatschutz (Erlangen, 1951–1953)"]
+    N_ORG_DE_STOSSTRUPP_BZ -->|"Hoegner bezeichnete den Deutschen Heimatschutz am 29.10.1952 als Unterorganisation des eigenständigen Stoßtrupps"| N_ORG_DE_DHS
+    N_ORG_DE_STOSSTRUPP_BZ -->|"Laut Hoegner waren führende Funktionäre des Stoßtrupps zugleich Funktionäre des BDJ"| N_ORG_DE_BDJ
+    N_ORG_US_CIC["U.S. Counter Intelligence Corps (CIC)"]
+    N_ORG_DE_DHS -->|"Bayerische Ermittler ordneten 1952 eine bei DHS-Werbung genannte Referenznummer einer CIC-Dienststelle zu"| N_ORG_US_CIC
+    N_ORG_DE_HE_LANDESREGIERUNG["Hessische Landesregierung"]
+    N_ORG_DE_HE_LANDESREGIERUNG -->|"Verbot des BDJ im hessischen Landesgebiet am 8. Januar 1953"| N_ORG_DE_BDJ
+    N_ORG_DE_BY_MINISTERRAT["Bayerischer Ministerrat"]
+    N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Stoßtrupp; Vollzug gesondert nachprüfen"| N_ORG_DE_STOSSTRUPP_BZ
+    N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Deutschen Heimatschutz"| N_ORG_DE_DHS
+    N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerrat erklärte am 20.01.1953 den TD zur verfassungswidrigen Organisation, BDJ-Entscheidung vertagt"| N_ORG_DE_BDJ_TD
+    N_ORG_DE_BUNDESANWALTSCHAFT["Bundesanwaltschaft (1952–1953)"]
+    N_CASE_DE_BDJ_TD_1950S["Technischer Dienst des Bundes Deutscher Jugend"]
+    N_ORG_DE_BUNDESANWALTSCHAFT -->|"Laut bayerischem Ministerratsprotokoll 20.01.1953 erwog der Bundesanwalt eine Verfahrenseinstellung"| N_CASE_DE_BDJ_TD_1950S
+    N_ORG_DE_FRANKFURT_GSTA["Generalstaatsanwaltschaft Frankfurt am Main (1952–1953)"]
+    N_ORG_DE_FRANKFURT_GSTA -->|"Laut bayerischem Ministerratsprotokoll beantragte die Generalstaatsanwaltschaft Frankfurt eine Voruntersuchung"| N_CASE_DE_BDJ_TD_1950S
 ```
 
 [Zur Relationstabelle](network.md)
