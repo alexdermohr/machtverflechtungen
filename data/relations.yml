@@ -989,3 +989,13 @@ relations:
     evidence_level: established
     sources: [SRC-DE-BYMR-TD-19530120]
     claim_ids: [CLM-DE-BDJ-015]
+
+  - id: REL-DE-BDJ-015
+    from: ORG-US-OPC
+    to: ORG-DE-BDJ
+    type: documented_opc_subsidy
+    label: "CIA-Projektbericht vom 24.01.1951 beschreibt OPC-Subvention des BDJ, nach außen als private und industrielle Geldgeberbeiträge dargestellt"
+    period: {start: "1950"}
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0044]
+    claim_ids: [CLM-DE-BDJ-020]
