@@ -28,7 +28,7 @@ event_claims:
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
 actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
 mechanisms: [covert-support, paramilitary-network]
-sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013]
+sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886]
 claims:
   - id: CLM-DE-BDJ-001
     text: "Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit."
@@ -364,7 +364,7 @@ claims:
     alternatives:
       - "Die Regierung nennt 2013 erschlossene Bestände, nicht die Vollständigkeit aller nach 1952 entstandenen Akten oder deren digitale Verfügbarkeit."
     missing_evidence:
-      - "Arcinsys-Findbuchidentität der deutsch-amerikanischen Kommissionsakte und Signaturen sämtlicher genannten Aktenbildner verifizieren."
+      - "Originalaktenblätter von HHStAW, 502, 17886 einsehen und die Signaturen der übrigen 2013 benannten Aktenbildner klären."
     scope:
       supports: "Amtlich dokumentierte konkrete Archiv-Orte für originale BDJ/TD-Ermittlungs- und Regierungsvorgänge."
       does_not_support: "Die bloße Archivierung besagt nichts über den konkreten Inhalt jeder einzelnen Akte oder heutige Zugänglichkeit."
@@ -388,6 +388,25 @@ claims:
       supports: "Offiziell beschriebene rechtliche Wege zu Originalakten einschließlich Verkürzungsantrag für Forschung im Jahr 2013."
       does_not_support: "Kein Beleg für eine heute noch geltende konkrete Sperre oder für eine vollständige Aktenfreigabe."
     falsification: "Aktuelle archivrechtliche Normtexte und Freigabebescheide können Zugangsmodalitäten materiell verändern."
+  - id: CLM-DE-BDJ-019
+    text: "Das Hessische Hauptstaatsarchiv verzeichnet unter HHStAW, 502, 17886 (Band 1, [1951] 1952–1953) die Tätigkeit der Deutsch-Amerikanischen Untersuchungskommission 1952, Korrespondenz mit Bundesregierung und Bundesinnenminister sowie zwei Komplexe von Ermittlungsverfahren der Bundesanwaltschaft, unter anderem gegen Paul Lüth beziehungsweise Otto Rietdorf und Erhard Peters."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-HHSTAW-502-17886]
+    evidence:
+      - source: SRC-DE-HHSTAW-502-17886
+        directness: direct
+        locator: "HHStAW, 502, 17886, Band 1, [1951] 1952–1953; Arcinsys-Felder Bezeichnung, Titel, Laufzeit und Enthält"
+        note: "Amtliche archivische Erschließung der Akte mit einzeln benannten Kommissions-, Bundesregierungs- und Bundesanwaltschaftsvorgängen."
+    counterevidence: []
+    alternatives:
+      - "Der Enthält-Vermerk fasst die Aktenüberlieferung katalogisierend zusammen; Aussagen einzelner Kommissionsmitglieder und Verfahrensverfügungen sind erst am Archivale selbst zu prüfen."
+    missing_evidence:
+      - "Originalaktenblätter, Kommissionsprotokolle, US-Beteiligtenverzeichnis, Anlagen und Ermittlungsverfügungen des HHStAW-Bandes zur inhaltlichen Auswertung beschaffen."
+    scope:
+      supports: "Amtlich dokumentierte Einzelstücksignatur, Laufzeit, historische Aktenzeichen und benannte Aktengruppen."
+      does_not_support: "Der Katalognachweis selbst beweist weder einzelne Finanzzahlungen und Weisungen noch ein bestimmtes Ergebnis der Ermittlungsverfahren."
+    falsification: "Korrigierte amtliche Stückverzeichnung oder eine Blatt-für-Blatt-Inventur mit wesentlich anderer Aktenzuordnung würde die bibliographische Zuschreibung treffen."
 what_follows:
   - text: "Der Bundestagsbericht dokumentiert eine problematische Geheimorganisation und benennt eine geheimdienstliche Beteiligung einer Besatzungsmacht."
     claim_ids: [CLM-DE-BDJ-001, CLM-DE-BDJ-002]
@@ -475,17 +494,21 @@ Hoegner beschrieb den **Stoßtrupp gegen bolschewistische Zersetzung** als selbs
 
 Bereits am **8. Januar 1953** hatte **Hessen den BDJ im eigenen Landesgebiet verboten**; laut der [LAGIS-Landesgeschichtschronik](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb) räumte die Polizei am 9. Januar die Frankfurter Geschäftsstelle. Davon getrennt entschied Bayern über seinen eigenen Rechtsraum. Der [Bayerische Ministerrat vom 13. Januar 1953, TOP IX, S.8](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf#page=8) beschloss das Verbot von **Stoßtrupp/DHS**, vertagte aber eine Entscheidung über den **BDJ** bis zur Konferenz im BMI am 15. Januar. Der [Ministerrat vom 20. Januar 1953, TOP V, S.8–9](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf#page=9) beschloss Maßnahmen gegen den **Technischen Dienst**, ohne den BDJ zugleich zu verbieten. Dort wurde auch die Differenz zwischen **Bundesanwaltschaft** (erwogene Einstellung) und **Frankfurter Generalstaatsanwaltschaft** (Antrag auf Voruntersuchung) protokolliert.
 
-## Neuer Archivzugang: hessischer Landtag 18/6904
+## Originalaktenfund: HHStAW, 502, 17886
 
 Die [Landesregierung bestätigte im März 2013, gedruckte S. 1–3](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf), dass in drei hessischen Staatsarchiven Unterlagen mit BDJ-Bezug existierten, wobei Marburg 2013 nur ergänzende Sammlungen beziehungsweise Personenakten, nicht den zentralen TD-Vorgang verwahrte. Die umfangreichsten Akten liegen nach ihrer Auskunft in den **Staatskanzlei-Beständen des Hessischen Hauptstaatsarchivs**. Genannt werden zusätzlich **Innenministerium, Landesamt für Verfassungsschutz, Regierungspräsidium Wiesbaden, Landratsamt Hanau und Amtsgericht Frankfurt am Main**.
 
-Besonders gezielt zu bestellen ist **ein eigener Aktenband der deutsch-amerikanischen Untersuchungskommission**, der in diesem Bestand ausdrücklich genannt wird. Diese Spur könnte Organisationsstruktur, Finanzierung, amerikanische Verbindung, Behördenreaktionen und die behauptete Trennung von TD und BDJ anhand von Originaldokumenten unmittelbar nebeneinander zeigen.
+- **`CLM-DE-BDJ-019` — belegt:** Das Hessische Hauptstaatsarchiv verzeichnet unter HHStAW, 502, 17886 (Band 1, [1951] 1952–1953) die Tätigkeit der Deutsch-Amerikanischen Untersuchungskommission 1952, Korrespondenz mit Bundesregierung und Bundesinnenminister sowie zwei Komplexe von Ermittlungsverfahren der Bundesanwaltschaft, unter anderem gegen Paul Lüth beziehungsweise Otto Rietdorf und Erhard Peters.
+
+**Fundstelle:** [Arcinsys, **HHStAW, 502, 17886**, Band 1](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555), Aktenserie *Aktivitäten des Bundes Deutscher Jugend (BDJ) und seines Technischen Dienstes (TD)*. Das Registraturzeichen lautet **03a-34-01**, die frühere Behördenkennzeichnung **Nr. 18 I (26) Geheim**. Die katalogisierten Vorgänge sind im Feld *Enthält* einzeln bezeichnet.
+
+**Aktenprobe:** Band 1 unter dieser Stücksignatur bestellen; Inhaltsverzeichnis, Kommissionsberichte, Vernehmungsprotokolle, Zahlungsanlagen, Weiterleitungen und Verfahrensverfügungen blattgenau erfassen. Dabei die Kommissionsunterlagen und die beiden Strafverfahrenskomplexe getrennt auswerten; das Archivfindbuch liefert zunächst die präzise Überlieferungs- und Bestellidentität.
 
 Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten regulär **60 Jahre** und eine **schriftliche Einzelfallverkürzung für Forschung**. Der tatsächlich geltende Zugang ist 2026 anhand der aktuellen Vorschriften und der einzelnen Arcinsys-Verzeichnung zu prüfen.
 
 ## Originalakten-Anforderungen
 
-- **Hessisches Hauptstaatsarchiv / Arcinsys:** zuerst Staatskanzlei-Akte **deutsch-amerikanische Untersuchungskommission**, anschließend StMI-/LfV-Bestände und die Abgaberegistratur 1952/53; aktueller Schutzfristen-/Forschungsantrag nach Aktenblatt.
+- **Hessisches Hauptstaatsarchiv / Arcinsys:** **HHStAW, 502, 17886, Band 1** (Kommission, Bundes- und Bundesanwaltschaftskorrespondenz), Akteninhaltsverzeichnis und Blattdigitalisate anfragen; danach Innenministerium-/LfV-Bestände und Abgaberegistratur 1952/53 separat prüfen; geltende Benutzungsbedingungen erfragen.
 - **BArch B 106/15584–15588, B 136/4430, B 145/1899:** Ressortzahlungen, Empfängerquittungen, frühe BfV-Kenntnis und Egidi-Vermerke.
 - **Bayerische Staatsarchive, StMI-Verfahren 1952/53:** Durchsuchungs- und Bargeldprotokolle; politische Listen/Karteien; getrennte Verbotsverfügungen **21./24. Januar 1953**.
 - **Frankfurter Generalstaatsanwaltschaft / Bundesanwaltschaft:** Verfügungs-, Übernahme-, Vernehmungs- und Voruntersuchungsunterlagen.
@@ -518,3 +541,5 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - [Bayerischer Ministerrat, Sitzung 20.01.1953](https://www.bayerischer-ministerrat.de/api/id/ehr33p138/pdf) — `SRC-DE-BYMR-TD-19530120`.
 - [Landesgeschichtliches Informationssystem Hessen, BDJ-Verbot am 08.01.1953](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb) — `SRC-DE-HE-LAGIS-BDJ-19530108` (Landesgeschichtschronik, mit historischen Pressequellen).
 - [Hessischer Landtag, Drs. 18/6904 vom 19.03.2013](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf) — `SRC-DE-HELT-BDJ-186904-2013`, gedruckte S. 1–3: konkrete BDJ/TD-Archivbestände und Nutzung.
+
+- [Hessisches Hauptstaatsarchiv, Arcinsys: HHStAW, 502, 17886, Band 1](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555) — `SRC-DE-HHSTAW-502-17886`, amtliche Bestands- und Inhaltsverzeichnung (abgerufen am 12.10.2026).

@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**120 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**121 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -915,6 +915,17 @@ Hessischer Landtag / Hessische Landesregierung · 2013-03-19 · Stufe **A** · P
 [PDF öffnen](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf)
 
 Fundstelle: gedruckte S. 1: Regierungsantwort Frage 1 (Staatskanzlei und deutsch-amerikanischer Kommissionsaktenband); S. 2–3: Archivbestände, Rechts- und Forschungszugang in 2013
+
+<a id="src-de-hhstaw-502-17886"></a>
+### Hessisches Hauptstaatsarchiv Wiesbaden
+
+**[Arcinsys-Verzeichnung: Aktivitäten des BDJ und seines Technischen Dienstes, Band 1](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555)**
+
+Hessisches Hauptstaatsarchiv Wiesbaden · unbekannt · Stufe **A** · Primärquelle · `SRC-DE-HHSTAW-502-17886`
+
+[Seite öffnen](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555)
+
+Fundstelle: HHStAW, 502, 17886; Bd. 1; Laufzeit [1951] 1952–1953; 'Enthält'-Vermerk zur Deutsch-Amerikanischen Untersuchungskommission
 
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen

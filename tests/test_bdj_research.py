@@ -18,6 +18,7 @@ SOURCE_IDS = (
     "SRC-DE-BYMR-TD-19530120",
     "SRC-DE-HE-LAGIS-BDJ-19530108",
     "SRC-DE-HELT-BDJ-186904-2013",
+    "SRC-DE-HHSTAW-502-17886",
 )
 
 
@@ -34,10 +35,10 @@ def bdj_metadata() -> dict:
 
 
 class BDJResearchRegressions(unittest.TestCase):
-    def test_18_prepared_claims_and_8_registered_original_source_ids(self):
+    def test_19_prepared_claims_and_9_registered_source_ids(self):
         case = bdj_metadata()
         claims = {item["id"]: item for item in case["claims"]}
-        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 19)})
+        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 20)})
         sources = records("sources.yml", "sources")
         for sid in SOURCE_IDS:
             with self.subTest(source=sid):
@@ -138,6 +139,37 @@ class BDJResearchRegressions(unittest.TestCase):
         self.assertIn("SRC-DE-HELT-BDJ-186904-2013", claim["sources"])
         self.assertIn("Signatur", " ".join(claim["missing_evidence"]).lower().replace("signatur", "Signatur"))
         self.assertNotIn("Kommissionsbericht beweist", CASE.read_text(encoding="utf-8"))
+
+
+    def test_hhstaw_502_17886_archival_catalog_record_scoped_to_finding_aid(self):
+        case = bdj_metadata()
+        claims = {c["id"]: c for c in case["claims"]}
+        source = records("sources.yml", "sources")["SRC-DE-HHSTAW-502-17886"]
+        claim = claims["CLM-DE-BDJ-019"]
+
+        self.assertIn("SRC-DE-HHSTAW-502-17886", case["sources"])
+        self.assertTrue(source["primary"])
+        self.assertIsNone(source["date"], "Katalog-Publikationsdatum darf nicht durch Abrufdatum ersetzt werden")
+        self.assertEqual(source["accessed"], "2026-10-12")
+        self.assertEqual(source["url"],
+                         "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555")
+        self.assertIn("HHStAW, 502, 17886", source["locator"])
+        self.assertEqual(claim["evidence_level"], "established")
+        self.assertEqual(claim["classification"], "fact")
+        self.assertEqual(claim["sources"], ["SRC-DE-HHSTAW-502-17886"])
+        self.assertIn("HHStAW, 502, 17886", claim["evidence"][0]["locator"])
+        self.assertIn("1952", claim["text"])
+        self.assertIn("Ermittlungsverfahren", claim["text"])
+        self.assertIn("Originalaktenblätter", " ".join(claim["missing_evidence"]))
+        self.assertNotIn("CLM-DE-BDJ-019", case["event_claims"])
+
+        visible = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+        for anchor in ("HHStAW, 502, 17886", "Deutsch-Amerikanischen Untersuchungskommission",
+                       "Paul Lüth", "Otto Rietdorf", "Erhard Peters",
+                       "03a-34-01", "Nr. 18 I (26) Geheim"):
+            with self.subTest(anchor=anchor):
+                self.assertIn(anchor, visible)
+        self.assertNotIn("Kommission bewies", visible)
 
 
 if __name__ == "__main__":
