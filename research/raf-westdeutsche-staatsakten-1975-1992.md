@@ -75,5 +75,6 @@ Ein zusätzlicher Primärbefund: Die Antwort beschreibt den Verlauf der mehrstü
 - **Q7 / SRC-DE-STAMMHEIM-161-1976:** [Stammheim-Protokoll, 161. Verhandlungstag, 16.11.1976](https://www.stammheim-prozess.de/161-verhandlungstag/), S. 12347–12353, nachgelieferte und gesperrte Aktenblätter.
 - **Q8 / SRC-DE-STAMMHEIM-163-1976:** [Stammheim-Protokoll, 163. Verhandlungstag, 24.11.1976](https://www.stammheim-prozess.de/163-verhandlungstag/), S. 12507–12513 und 12581–12645, Zeugin Fisch und Beamtenvernehmungen.
 
-- **Q9 / SRC-DE-STAMMHEIM-166-1976:** [Stammheim-Protokoll, 166. Verhandlungstag, 07.12.1976](https://www.stammheim-prozess.de/166-verhandlungstag/), Beschluss S. 12850–12852 zur Ablehnung der Vernehmung von Eimecke, Liepe, Becher und Gehlen.\n
+- **Q9 / SRC-DE-STAMMHEIM-166-1976:** [Stammheim-Protokoll, 166. Verhandlungstag, 07.12.1976](https://www.stammheim-prozess.de/166-verhandlungstag/), Beschluss S. 12850–12852 zur Ablehnung der Vernehmung von Eimecke, Liepe, Becher und Gehlen.
+
 **Quellenregel:** Die primären Protokolle belegen zunächst, welche Behauptungen, Entscheidungen und Dokumentenübergaben im Verfahren registriert wurden. Eine gegen einen Beschuldigten gerichtete Behauptung, ein Geheimhaltungsvermerk oder ein späterer Widerruf genügt für sich nicht, um eine strafbare Behördenanweisung, inszenierten Terror oder eine zentrale Steuerung nachzuweisen.
