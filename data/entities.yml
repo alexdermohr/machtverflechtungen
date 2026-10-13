@@ -24,6 +24,12 @@ entities:
     name: "Central Intelligence Agency"
     countries: [US]
 
+  - id: ORG-US-OPC
+    type: intelligence_organization
+    name: "Office of Policy Coordination (OPC)"
+    countries: [US]
+    notes: "US-Stelle für verdeckte Operationen; die CIA-Projektakte LCPROWL vom 24.01.1951 bezeichnet OPC als Subventionsgeber des BDJ. Von CIA-Gesamtorganisation, CIC und US-Armee getrennt modelliert."
+
   - id: PER-DE-REINHARD-GEHLEN
     type: person
     name: "Reinhard Gehlen"

@@ -26,9 +26,9 @@ event_claims:
   - CLM-DE-BDJ-017
   - CLM-DE-BDJ-018
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
-actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
+actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-OPC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
 mechanisms: [covert-support, paramilitary-network]
-sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886]
+sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886, SRC-US-CIA-LCPROWL-V1-0037, SRC-US-CIA-LCPROWL-V1-0044, SRC-US-CIA-LCPROWL-V2-0023]
 claims:
   - id: CLM-DE-BDJ-001
     text: "Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit."
@@ -407,7 +407,182 @@ claims:
       supports: "Amtlich dokumentierte Einzelstücksignatur, Laufzeit, historische Aktenzeichen und benannte Aktengruppen."
       does_not_support: "Der Katalognachweis selbst beweist weder einzelne Finanzzahlungen und Weisungen noch ein bestimmtes Ergebnis der Ermittlungsverfahren."
     falsification: "Korrigierte amtliche Stückverzeichnung oder eine Blatt-für-Blatt-Inventur mit wesentlich anderer Aktenzuordnung würde die bibliographische Zuschreibung treffen."
+  - id: CLM-DE-BDJ-020
+    text: "Der CIA-Bericht vom 24. Januar 1951 bezeichnete den BDJ als durch OPC subventionierte Organisation; als äußerer Anschein der Geldherkunft wurden Beiträge von privaten und industriellen antikommunistischen Unterstützern sowie Mitgliedsbeiträge genannt."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0044]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0044
+        directness: direct
+        locator: "LCPROWL VOL. 1_0044, PDF-S. 2, Abschn. A; PDF-S. 3, Abschn. C (Cover) und D (Operational Security)"
+        note: "Der interne Bericht benennt die OPC-Subvention, die nominell private Geldherkunft und finanzielle Abhängigkeit als Steuerungsmechanismus."
+    counterevidence: []
+    alternatives:
+      - "Neben OPC-Mitteln könnten eigenständige private Beiträge existiert haben; die tatsächliche Zusammensetzung folgt nicht aus der Tarnbeschreibung."
+    missing_evidence:
+      - "OPC-Kassenunterlagen, BDJ-Bankkontoauszüge, Empfängerquittungen, tatsächliche Firmen- und Spenderbelege."
+    scope:
+      supports: "Zeitgenössische interne Aussage über OPC-Unterstützung und verdeckte Darstellung ihrer Herkunft."
+      does_not_support: "Keine bestimmte Auszahlungsgröße oder finanzielle Beteiligung einer namentlich genannten Firma."
+    falsification: "Originale Konten- und Firmenunterlagen können reale Quellen und Auszahlungswege neu zuordnen."
+  - id: CLM-DE-BDJ-021
+    text: "Die OPC-Arbeitseinheit EE-3 beantragte in Project Amendment No. 2 im Juni 1951 die dauerhafte Finanzierung der paramilitärischen Phase 4 für 13 Monate ab dem 1. Juni 1951; die Vorlage berichtet über zuvor zugeteilte und ausgegebene OPC-Mittel zur Beschaffung von Ausbildungsausrüstung und zur Vorbereitung eines festen Schulungsorts."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 4, Outline Clearance Sheet EE-3 vom 11.06.1951; PDF-S. 5, Ziff. 2–3"
+        note: "Die Vorlage trennt Antrag über 13 Monate, frühere Projektfreigaben und interne Ausgabenangaben; Zahlenfelder sind zum Teil verdeckt."
+    counterevidence: []
+    alternatives:
+      - "Der im Faksimile schlecht lesbare abschließende Genehmigungsvermerk lässt den genauen Umfang der endgültigen Freigabe offen."
+    missing_evidence:
+      - "Vollständige Board-Bewilligung für Amendment No. 2, Rechnungen, Zahlstellen- und Materialabrechnungen."
+    scope:
+      supports: "Geplanter 13-Monats-Haushalt und intern berichtete Ausgaben für Vorbereitungen."
+      does_not_support: "Kein Nachweis einer vollständigen Bewilligung aller beantragten Ausgaben oder ihres konkreten Zahlungswegs."
+    falsification: "Endgültige Projektgenehmigung und Zahlungsbelege können Antrag und reale Ausgabehöhe getrennt bestätigen."
+  - id: CLM-DE-BDJ-022
+    text: "Project Amendment No. 2 plante einen Apparat von 7.000 BDJ-Angehörigen, darunter 3.000 für Verzögerungsoperationen und 4.000 für weitere Widerstandsaufgaben, 530 westdeutsche und 178 ostdeutsche Kreiseinheiten sowie eine besondere Sabotagegruppe mit ungefähr 50 Personen."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 6–7, Ziff. 4a–4b (Mission, Organization)"
+        note: "Die Organisation war mit neun westdeutschen und fünf ostdeutschen Landesleitungen als Projekt-Sollstruktur beschrieben."
+    counterevidence: []
+    alternatives:
+      - "Die Zahlen geben keine erfassten Ist-Bestände wieder, sondern organisatorische und personelle Planungsgrößen."
+    missing_evidence:
+      - "OPC- und BDJ-Personallisten, Kreisleiterlisten, Teilnehmerverzeichnisse und deutsche Ermittlungszählungen."
+    scope:
+      supports: "Dokumentiertes amerikanisches Sollmodell für Personal und territoriale Gliederung."
+      does_not_support: "Keine tatsächliche Rekrutierung von 7.000 Personen oder aktive Besetzung von 708 Kreisstellen."
+    falsification: "Durchführungsberichte, die deutlich andere Ist-Stärken ausweisen, verändern die Einordnung der Planung."
+  - id: CLM-DE-BDJ-023
+    text: "Project Amendment No. 2 sah zur Tarnung führender Apparat-Angehöriger ein Unternehmen zur Herstellung neuartiger flexibler Schallplatten und weitere kommerzielle Tarnfirmen vor; ein OPC-geführtes Ausbildungsprogramm für Führungspersonal war ebenfalls geplant."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V1-0037]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V1-0037
+        directness: direct
+        locator: "LCPROWL VOL. 1_0037, PDF-S. 7, Ziff. 4c–4d (Training, Cover); PDF-S. 8, Ziff. 4e (Budget)"
+        note: "Die US-Vorlage beschreibt eine wirtschaftlich plausibel erscheinende Firma und Ausgaben für den Aufbau kommerzieller Deckung."
+    counterevidence: []
+    alternatives:
+      - "Das wirtschaftliche Tarnkonzept könnte geändert oder niemals gesellschaftsrechtlich umgesetzt worden sein."
+    missing_evidence:
+      - "Handelsregister, Gesellschaftsverträge, Geschäftskonten, Steuerunterlagen, Auszahlungsbelege und Berufsunterlagen der Apparat-Leitung."
+    scope:
+      supports: "Konkret beschriebener Plan einer Schallplatten-Tarnfirma und zusätzlicher Geschäftstarnungen."
+      does_not_support: "Kein Beleg für erfolgte Gründung, reale Umsätze oder die Identität privater Unterstützer."
+    falsification: "Originale Firmenakten oder Projektfortschrittsberichte können die Umsetzung bestätigen oder widerlegen."
+  - id: CLM-DE-BDJ-024
+    text: "Der CIA-Bearbeiter bezeichnete in seinem Memorandum vom 15. April 1953 das SPD-Weißbuch über den BDJ als parteiisch, erklärte jedoch ausdrücklich, zahlreiche dortige Angaben seien durch LCPROWL-Berichte und Nachbesprechungen des amerikanischen Home Office bestätigt."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V2-0023]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V2-0023
+        directness: direct
+        locator: "LCPROWL VOL. 2_0023, PDF-S. 2, Memorandum vom 15.04.1953, Summary"
+        note: "Der Bericht enthält sowohl ablehnende Bewertungen als auch einen ausdrücklichen Verweis auf interne Bestätigungsquellen."
+    counterevidence: []
+    alternatives:
+      - "Die Pauschalformulierung des CIA-Bearbeiters lässt offen, welche einzelnen Angaben er als bestätigt betrachtete."
+    missing_evidence:
+      - "Die vom Autor angesprochenen LCPROWL-Einzelberichte und Home-Office-Debriefings mit Zuordnung zu konkreten Weißbuchbehauptungen."
+    scope:
+      supports: "Belegt die CIA-interne Einschätzung, dass zumindest ein nicht bezifferter Teil der SPD-Angaben mit eigenen Informationen übereinstimmte."
+      does_not_support: "Keine pauschale Bestätigung sämtlicher Weißbuchvorwürfe oder der wertenden Polemik des CIA-Autors."
+    falsification: "Gegenüberstellung mit den genannten internen Berichten kann die konkret bestätigten Aussagen eingrenzen."
+  - id: CLM-DE-BDJ-025
+    text: "Das CIA-Memorandum referierte die Behauptung des SPD-Weißbuchs, vier private Unternehmen, Bundesinnenminister Robert Lehr, das von Jakob Kaiser geleitete Bundesministerium für gesamtdeutsche Fragen und amerikanische Quellen hätten den BDJ finanziell unterstützt."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V2-0023]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V2-0023
+        directness: direct
+        locator: "LCPROWL VOL. 2_0023, PDF-S. 2–3, Memorandum vom 15.04.1953, Ziff. 1 und 3"
+        note: "Der CIA-Text gibt eine Weißbuchbehauptung wieder; die vier Unternehmen werden im vorliegenden Ausschnitt nicht mit Konten und Einzelbeträgen belegt."
+    counterevidence: []
+    alternatives:
+      - "Ein Teil der als privat bezeichneten Finanzierung könnte Tarnung amerikanischer OPC-Mittel gewesen sein; daneben sind eigenständige deutsche Spenden offen."
+    missing_evidence:
+      - "SPD-Weißbuch im Original, identifizierte Firmen, Kassenbücher, Zahlungsbelege, Bank- und Ministeriumsunterlagen zur gesonderten Zuordnung."
+    scope:
+      supports: "Amtlich überlieferte zeitgenössische Wiedergabe einer SPD-Anschuldigung zu gemischten privaten, bundesstaatlichen und US-Finanzierungsquellen."
+      does_not_support: "Keine durch die CIA unabhängige Feststellung, dass eines dieser vier Unternehmen tatsächlich zahlte oder amerikanische Beträge durchleitete."
+    falsification: "Originale Weißbuchstellen und Zahlungsbelege können Namen, Summen, Geldwege und den Grad unabhängiger Bestätigung nachweisen."
+  - id: CLM-DE-BDJ-026
+    text: "Der CIA-Bearbeiter bezeichnete die Darstellung des SPD-Weißbuchs als zutreffend, wonach eine im veröffentlichten Faksimile geschwärzte Person Erhard Peters zeitweilig aufgefordert habe, einen Fehlbetrag von 40.000 DM zu decken."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V2-0023]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V2-0023
+        directness: direct
+        locator: "LCPROWL VOL. 2_0023, PDF-S. 3, Memorandum vom 15.04.1953, Ziff. 7"
+        note: "Die Wendung 'correctly states' bezieht sich auf die Weißbuchangabe zum Fehlbetrag und der Aufforderung an Peters; die Identität des Auffordernden ist redigiert."
+    counterevidence: []
+    alternatives:
+      - "Der Fehlbetrag kann ein internes Finanzloch der Organisation oder einzelner TD-Strukturen betreffen; Zahlungsgrund und tatsächliche Begleichung sind nicht dargestellt."
+    missing_evidence:
+      - "Wirtschaftsprüfungsunterlagen, Kassenbücher, Erhard-Peters-Vernehmungen und Auszahlungs- bzw. Fehlbetragsbelege."
+    scope:
+      supports: "Explizite CIA-seitige Bestätigung der zeitgenössischen Aussage über einen Defizitdeckungsversuch über 40.000 DM."
+      does_not_support: "Kein Nachweis, dass Peters den Fehlbetrag tatsächlich deckte oder dass die Summe zusätzlich zu anderen überlieferten Zahlungsbeträgen zu addieren ist."
+    falsification: "Zeitgenössische Buchungen, Peters-Unterlagen oder vollständige US-Budgetakten können Fehlbetrag, Urheber und Zahlungsweg aufklären."
+  - id: CLM-DE-BDJ-027
+    text: "Der CIA-Bericht referierte aus dem SPD-Weißbuch, ein amerikanischer Nachfolger Garwoods habe eine Verkleinerung des Technischen Dienstes auf 300 Personen und eine Trennung vom BDJ angestrebt; am 19. Mai 1952 sei die Beendigung amerikanischer Finanzhilfe bis September 1952 angekündigt worden."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V2-0023]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V2-0023
+        directness: direct
+        locator: "LCPROWL VOL. 2_0023, PDF-S. 3, Memorandum vom 15.04.1953, Ziff. 7"
+        note: "CIA-Bearbeiter paraphrasiert hier die Weißbuchdarstellung einer amerikanischen Reduktions- und Ausstiegsabsicht; redigierte Decknamen in einer beigefügten Klammer."
+    counterevidence: []
+    alternatives:
+      - "Die beabsichtigte Reduktion und die angekündigte Finanzierungsbeendigung könnten durch spätere Weisungen revidiert oder durch andere Geldgeberwege ersetzt worden sein."
+    missing_evidence:
+      - "Originale Schreiben vom 19.05.1952, OPC-/CIA-Budgetentscheidungen und monatliche Zahlstellenunterlagen bis über September 1952 hinaus."
+    scope:
+      supports: "CIA-intern festgehaltene zeitgenössische SPD-Darstellung eines amerikanischen organisatorischen Rückbau- und Finanzierungsstopps."
+      does_not_support: "Keine Feststellung, dass die TD-Stärke tatsächlich 300 erreichte oder die Finanzierung im September 1952 tatsächlich endete."
+    falsification: "Nachweisbarer späterer Geldfluss oder Fortsetzungsbefehl würde den Zeitpunkt und Umfang der behaupteten Beendigung anders einordnen."
+  - id: CLM-DE-BDJ-028
+    text: "Der CIA-Bearbeiter erklärte, bestimmte im SPD-Weißbuch als BDJ-Unterstützer aufgeführte Namen seien operative Decknamen gewesen; die im CIA-Faksimile dazugehörigen Personenzuordnungen sind geschwärzt."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-US-CIA-LCPROWL-V2-0023]
+    evidence:
+      - source: SRC-US-CIA-LCPROWL-V2-0023
+        directness: direct
+        locator: "LCPROWL VOL. 2_0023, PDF-S. 2, Memorandum vom 15.04.1953, Ziff. 3"
+        note: "CIA-Bearbeiter beschreibt einen Geheimdienst-Cover-Namensmechanismus, die konkrete Personalzuordnung im sichtbaren Faksimile bleibt redigiert."
+    counterevidence: []
+    alternatives:
+      - "Einzelne Alias-Nennungen im Weißbuch könnten Personen und Behördenkontakte vermengen, was erst mit einem verifizierten Alias-Verzeichnis geklärt wird."
+    missing_evidence:
+      - "Unredigiertes Memorandum, Decknamenregister, Personal- und Station-Akten des OPC sowie das vollständige SPD-Weißbuch."
+    scope:
+      supports: "Konkrete interne Aussage, dass einige im Weißbuch auftauchende Namen operative Aliase waren."
+      does_not_support: "Keine Identifikation von Decknameninhabern oder daraus abgeleitete eigenständige Person-zu-Firma-Finanzierungsrelation."
+    falsification: "Entsperrte Originalakten könnten Alias-Inhaber und ihre tatsächlichen Funktionen bestimmen."
 what_follows:
+  - text: "Das CIA-Memorandum von April 1953 stellt SPD-Finanzierungsvorwürfe, einen bestätigten Fehlbetrag und amerikanische Abbauankündigungen unterschiedlich belastbar dar."
+    claim_ids: [CLM-DE-BDJ-024, CLM-DE-BDJ-025, CLM-DE-BDJ-026, CLM-DE-BDJ-027, CLM-DE-BDJ-028]
+  - text: "Die CIA-Originaldokumente beschreiben OPC-Subvention und nominell private Geldherkunft sowie einen beantragten paramilitärischen Ausbau mit wirtschaftlichen Tarnstrukturen."
+    claim_ids: [CLM-DE-BDJ-020, CLM-DE-BDJ-021, CLM-DE-BDJ-022, CLM-DE-BDJ-023]
   - text: "Der Bundestagsbericht dokumentiert eine problematische Geheimorganisation und benennt eine geheimdienstliche Beteiligung einer Besatzungsmacht."
     claim_ids: [CLM-DE-BDJ-001, CLM-DE-BDJ-002]
   - text: "Zeitgenössische Ministeriumsberichte nennen 10.000 und 6.000 DM BDJ-Bundesförderung; Hoegner berichtete getrennt hiervon amerikanische TD-Zuflüsse und Ausbildung."
@@ -442,6 +617,33 @@ case_links: []
 </div>
 
 **Forschungsfokus:** Wie verbanden sich antikommunistische Organisierung, paramilitärische Strukturen, staatliche Reaktionen und die Beteiligung eines ausländischen Geheimdienstes?
+
+## CIA-Originalakten: OPC-Finanzierung und Ausbauplanung 1951
+
+Die neu ausgewerteten CIA-Faksimiles verbinden die amerikanische Finanzierung des BDJ mit einer gezielten privaten und industriellen Tarnung der Geldherkunft. Die spätere Projektänderung dokumentiert den beantragten Ausbau des paramilitärischen Apparats und dessen wirtschaftliche Tarnstrukturen.
+
+- **`CLM-DE-BDJ-020` — belegt:** Der CIA-Bericht vom 24. Januar 1951 bezeichnete den BDJ als durch OPC subventionierte Organisation; als äußerer Anschein der Geldherkunft wurden Beiträge von privaten und industriellen antikommunistischen Unterstützern sowie Mitgliedsbeiträge genannt.
+- **`CLM-DE-BDJ-021` — belegt:** Die OPC-Arbeitseinheit EE-3 beantragte in Project Amendment No. 2 im Juni 1951 die dauerhafte Finanzierung der paramilitärischen Phase 4 für 13 Monate ab dem 1. Juni 1951; die Vorlage berichtet über zuvor zugeteilte und ausgegebene OPC-Mittel zur Beschaffung von Ausbildungsausrüstung und zur Vorbereitung eines festen Schulungsorts.
+- **`CLM-DE-BDJ-022` — belegt:** Project Amendment No. 2 plante einen Apparat von 7.000 BDJ-Angehörigen, darunter 3.000 für Verzögerungsoperationen und 4.000 für weitere Widerstandsaufgaben, 530 westdeutsche und 178 ostdeutsche Kreiseinheiten sowie eine besondere Sabotagegruppe mit ungefähr 50 Personen.
+- **`CLM-DE-BDJ-023` — belegt:** Project Amendment No. 2 sah zur Tarnung führender Apparat-Angehöriger ein Unternehmen zur Herstellung neuartiger flexibler Schallplatten und weitere kommerzielle Tarnfirmen vor; ein OPC-geführtes Ausbildungsprogramm für Führungspersonal war ebenfalls geplant.
+
+**Einordnung der Finanzierungsnachweise:** Der Bericht belegt die amerikanische OPC-Subvention und die vorgesehene Außendarstellung. Tatsächliche private Spender lassen sich daraus erst durch Kontounterlagen unterscheiden. Der Entwurf *Project Amendment No. 2* dokumentiert Planstärken und Anträge; bestätigte Auszahlungssummen, Teilnehmerzahlen und gegründete Tarnfirmen erfordern eigenständige Unterlagen.
+
+[US-Projektgenehmigungen 1950](../../quellen/lcprowl-1950-opc-planung.md) · [NARA, CIA RG 263, Entry ZZ-19, Box 0042](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html)
+
+## CIA-Memorandum April 1953: SPD-Weißbuch, Fehlbetrag und Decknamen
+
+Der CIA-interne Bericht vom **15. April 1953** zur SPD-Dokumentation unterscheidet eigene Anerkennung einzelner Weißbuchangaben, übernommene Anschuldigungen und polemische Bewertungen. Die entscheidenden Aktenstellen liegen in [LCPROWL VOL. 2_0023, PDF-S. 2–3](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf).
+
+- **`CLM-DE-BDJ-024` — belegt:** Der CIA-Bearbeiter bezeichnete in seinem Memorandum vom 15. April 1953 das SPD-Weißbuch über den BDJ als parteiisch, erklärte jedoch ausdrücklich, zahlreiche dortige Angaben seien durch LCPROWL-Berichte und Nachbesprechungen des amerikanischen Home Office bestätigt.
+- **`CLM-DE-BDJ-025` — belegt:** Das CIA-Memorandum referierte die Behauptung des SPD-Weißbuchs, vier private Unternehmen, Bundesinnenminister Robert Lehr, das von Jakob Kaiser geleitete Bundesministerium für gesamtdeutsche Fragen und amerikanische Quellen hätten den BDJ finanziell unterstützt.
+- **`CLM-DE-BDJ-026` — belegt:** Der CIA-Bearbeiter bezeichnete die Darstellung des SPD-Weißbuchs als zutreffend, wonach eine im veröffentlichten Faksimile geschwärzte Person Erhard Peters zeitweilig aufgefordert habe, einen Fehlbetrag von 40.000 DM zu decken.
+- **`CLM-DE-BDJ-027` — belegt:** Der CIA-Bericht referierte aus dem SPD-Weißbuch, ein amerikanischer Nachfolger Garwoods habe eine Verkleinerung des Technischen Dienstes auf 300 Personen und eine Trennung vom BDJ angestrebt; am 19. Mai 1952 sei die Beendigung amerikanischer Finanzhilfe bis September 1952 angekündigt worden.
+- **`CLM-DE-BDJ-028` — belegt:** Der CIA-Bearbeiter erklärte, bestimmte im SPD-Weißbuch als BDJ-Unterstützer aufgeführte Namen seien operative Decknamen gewesen; die im CIA-Faksimile dazugehörigen Personenzuordnungen sind geschwärzt.
+
+**Finanzieller Vergleich:** Der intern als korrekt bezeichnete **40.000-DM-Fehlbetrag** ist eine andere Kategorie als tatsächlich bewilligte Projektmittel, tatsächliche Zahlungseingänge oder beschlagnahmte Bargeldbestände. Die im SPD-Weißbuch genannten vier Firmen sind in diesem CIA-Memorandum nur referierte Anschuldigungen. Für die am **19. Mai 1952** angekündigte Beendigung amerikanischer Zuschüsse sind der entsprechende Befehl, die Folgemonate und die Kassenbelege zu ermitteln.
+
+**Nächste Originalaktenprobe:** Im ungekürzten SPD-Weißbuch und in amerikanischen OPC- sowie deutschen Ermittlungsakten die unbekannten Firmen und Decknamen, die Defizitbuchung, den angekündigten Rückbau auf 300 Personen und den tatsächlich eingetretenen Förderungsstopp blattgenau abgleichen.
 
 ## Gesicherter Ereigniskern
 
@@ -543,3 +745,8 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - [Hessischer Landtag, Drs. 18/6904 vom 19.03.2013](https://starweb.hessen.de/cache/DRS/18/4/06904.pdf) — `SRC-DE-HELT-BDJ-186904-2013`, gedruckte S. 1–3: konkrete BDJ/TD-Archivbestände und Nutzung.
 
 - [Hessisches Hauptstaatsarchiv, Arcinsys: HHStAW, 502, 17886, Band 1](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555) — `SRC-DE-HHSTAW-502-17886`, amtliche Bestands- und Inhaltsverzeichnung (abgerufen am 12.10.2026).
+
+- [CIA/OPC, LCPROWL VOL. 1_0037 – Project Amendment No. 2 (Juni 1951)](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf) — `SRC-US-CIA-LCPROWL-V1-0037`, PDF-S. 4–8; SHA-256: `d46f15e7afc334c4496c579cf8be1401dc4412d446edba6a370cb4bc19027c17`.
+- [CIA/OPC, LCPROWL VOL. 1_0044 – Projektbericht vom 24.01.1951](https://web.archive.org/web/20250220053805id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0044.pdf) — `SRC-US-CIA-LCPROWL-V1-0044`, PDF-S. 2–3; SHA-256: `136f7683bd367e92a141f7a0a0d5fb6298c25cc804f17692ad2f8db80ef3b93f`.
+
+- [CIA, LCPROWL VOL. 2_0023: Analyse des SPD-Weißbuchs vom 15.04.1953](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf) — `SRC-US-CIA-LCPROWL-V2-0023`, PDF-S. 2–4; SHA-256: `ae20eeb19b43dddbb83ed3a213231104c315583f8af490274dcd8db014ace532`.

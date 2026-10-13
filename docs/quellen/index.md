@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**121 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**124 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -552,6 +552,39 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
+
+<a id="src-us-cia-lcprowl-v1-0044"></a>
+### Central Intelligence Agency / Office of Policy Coordination (OPC)
+
+**[LCPROWL VOL. 1_0044: Bericht vom 24. Januar 1951 und OPC-Project-Board-Auszüge](https://web.archive.org/web/20250220053805id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0044.pdf)**
+
+Central Intelligence Agency / Office of Policy Coordination (OPC) · 1951-01-24 · Stufe **A** · Primärquelle · `SRC-US-CIA-LCPROWL-V1-0044`
+
+[PDF öffnen](https://web.archive.org/web/20250220053805id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0044.pdf)
+
+Fundstelle: PDF-S. 2: Bericht 24.01.1951, Abschn. A; S. 3: Abschn. C (Cover), D (Operational Security), G (Finances); S. 6: Board-Protokoll 21.12.1950
+
+<a id="src-us-cia-lcprowl-v1-0037"></a>
+### Central Intelligence Agency / Office of Policy Coordination (OPC)
+
+**[LCPROWL VOL. 1_0037: Project Amendment No. 2 und Finanzplanung](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf)**
+
+Central Intelligence Agency / Office of Policy Coordination (OPC) · 1951-06-11 · Stufe **A** · Primärquelle · `SRC-US-CIA-LCPROWL-V1-0037`
+
+[PDF öffnen](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf)
+
+Fundstelle: PDF-S. 2–3: OPC Form 404a; S. 4: Outline Clearance Sheet, EE-3, 11.06.1951; S. 5: Project Amendment No. 2, Ziff. 2–3; S. 6–7: Ziff. 4a–4d; S. 8: Ziff. 4e–6
+
+<a id="src-us-cia-lcprowl-v2-0023"></a>
+### Central Intelligence Agency, EE/PP/Germany
+
+**[LCPROWL VOL. 2_0023: CIA-internes Memorandum zur Analyse des SPD-Weißbuchs über BDJ/TD](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf)**
+
+Central Intelligence Agency, EE/PP/Germany · 1953-04-15 · Stufe **A** · Primärquelle · `SRC-US-CIA-LCPROWL-V2-0023`
+
+[PDF öffnen](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf)
+
+Fundstelle: PDF-S. 1: Übersendung des SPD-Weißbuchs; S. 2: Memorandum 15.04.1953, Einleitung und Ziff. 1–3; S. 3: Ziff. 3–8, besonders Ziff. 7 zum Defizit von 40.000 DM, personeller Reduktion und angekündigtem Finanzierungsende; S. 4: Ziff. 8–10 und Gesamtwertung
 
 <a id="src-it-court-bologna-aqura-1988"></a>
 ### Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (stragi.it)

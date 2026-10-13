@@ -63,6 +63,12 @@ hide:
 
     [Zur Fallakte](faelle/de/peter-urbach-verfassungsschutz.md)
 
+-   **BDJ / Technischer Dienst 1951–1952**
+
+    US-Subventionen, ministerielles BDJ-Vorwissen im März 1951 und die geheime Bundestagsbefassung im Oktober 1952.
+
+    [Zur Fallakte](faelle/de/technischer-dienst-bdj.md) · [Zu den Originalprotokollen](quellen/bdj-gesamtdeutscher-ausschuss-1951-1952.md)
+
 -   **NSU: Quellenführung und Aktenvernichtung**
 
     Operation Rennsteig, V-Leute, Behördenentscheidungen und parlamentarische Aufklärung.
