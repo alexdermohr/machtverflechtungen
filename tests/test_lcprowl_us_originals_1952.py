@@ -101,6 +101,24 @@ class LcprowlUSOriginals1952(unittest.TestCase):
                 self.assertIn(marker, article)
         self.assertNotIn("Saxer überwies nachweislich", article)
 
+    def test_hicog_apartment_cache_source_reconciliation(self):
+        """Preserve the apartment location and separately sourced CIA employment."""
+        article = ARTICLE.read_text(encoding="utf-8")
+        row = next(
+            line for line in article.splitlines()
+            if line.startswith("| 25. September 1952 |")
+        )
+        for marker in (
+            "fünf Kisten Waffen und Munition im Keller einer HICOG-Wohnung",
+            "Schwester eines amerikanischen Stabsmitarbeiters",
+            "CIA-Angestellte in Deutschland",
+            "`VOL. 4_0039`",
+            "`VOL. 4_0030`",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, row)
+        self.assertNotIn("in einem Gebäude einer", row)
+
     def test_justice_ministry_negotiations_and_confidential_draft_1953(self):
         article = ARTICLE.read_text(encoding="utf-8")
         for marker in (

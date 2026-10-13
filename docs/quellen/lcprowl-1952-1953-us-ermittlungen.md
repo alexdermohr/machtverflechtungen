@@ -60,7 +60,7 @@ Der ungefähre Investitionsgesamtwert von 126.000 DM kann die einzelnen Position
 | 20. Juni 1952 | CIA-interner Liquidierungsbeschluss für den geheimen Apparat. | `VOL. 4_0030`, PDF-S. 1–2, `FRAN 4050` |
 | **18. September 1952** | Home Office befahl die **vollständige Einstellung aller LCPROWL-Phasen**, ausdrücklich auch des offenen BDJ. | `VOL. 4_0030`, PDF-S. 3–4; `VOL. 4_0039`, PDF-S. 2 |
 | 22. September 1952 | Die Deutschlandstation meldete den Apparat als **zum 1. September eingestellt**; der offene BDJ war weiter umstritten. | `VOL. 4_0039`, PDF-S. 2 |
-| 25. September 1952 | Die CIA-Sicherheitsabteilung fand **fünf Kisten Waffen und Munition** in einem Gebäude einer mit einem amerikanischen Mitarbeiter verwandten CIA-Angestellten. | `VOL. 4_0030`, PDF-S. 3, Ziff. 8–9 |
+| 25. September 1952 | Die CIA-Sicherheitsabteilung fand **fünf Kisten Waffen und Munition im Keller einer HICOG-Wohnung**. Die Wohnung bewohnte die **Schwester eines amerikanischen Stabsmitarbeiters**, die laut CIA-Bericht selbst **CIA-Angestellte in Deutschland** war. | `VOL. 4_0039`, Chronologie zum 25.09.1952; `VOL. 4_0030`, PDF-S. 3, Ziff. 9 |
 
 Der Bericht beschreibt außerdem die unautorisierte Entnahme von Informationen über etwa zwölf bis fünfzehn Versteckstandorte aus einem CIA-Safe. Die vom Feld berichtete rückwirkende Einstellung zum 1. September ist **nicht** dasselbe wie eine unabhängig geprüfte Einstellung aller Zahlungen oder die tatsächliche vollständige Abwicklung. Die einzelnen `FRAN`- und `DIR`-Nachrichten sind hierzu die nächste Primärquelle.
 
