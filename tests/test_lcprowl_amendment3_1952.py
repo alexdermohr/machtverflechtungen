@@ -18,6 +18,8 @@ class LCPROWLAmendment3Studies(unittest.TestCase):
         for marker in (
             "LCPROWL VOL. 1_0036",
             "20250220053745id_",
+            "https://archive.org/download/LCPROWLVOL1-0036/",
+            "0acd31c03e5b6a4469be2369bdf7528c",
             "cf3f5edb13d77afa6559d392959f1e78bf6cb4213bf6271c913b0dbcc890a736",
             "Record Group 263",
             "Entry ZZ-19",
