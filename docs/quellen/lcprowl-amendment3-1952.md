@@ -25,9 +25,11 @@ Die drei Zahlen bilden unterschiedliche Haushaltsvorgänge. Die für Amendment N
 | Amendment-2-Strukturplanung | **7.000** geplante Angehörige, davon **3.000** Organisation A für Behinderungsoperationen und **4.000** Organisation B für längerfristige Stay-behind-Aufgaben | **PDF-S. 5**, Abschnitt 4.b.3.a |
 | Westdeutschland | **mehr als 3.000** Personen ausfindig gemacht („spotted“), nach geplanter Sicherheitspolitik **nicht rekrutiert**, bevor Feindseligkeiten ausbrechen | **PDF-S. 6**, Abschnitt 4.c.3 |
 | Westdeutschland, Sicherheitsprüfung | **125 Sicherheitsanfragen** an die Zentrale und **100 Freigaben** | **PDF-S. 6**, Abschnitt 4.c.3; erneute Einordnung auf PDF-S. 8 |
-| Ostdeutschland | **mehr als 1.700** sondierte Personen, darunter **50 Führungskräfte und 400 weitere Personen** als damaliger konkreter Bestand | **PDF-S. 7**, Abschnitt 4.c.4 |
+| Ostdeutschland | **mehr als 1.700** für künftige Rekrutierung sondierte Personen sowie **50 Führungskräfte und 400 weitere Personen** als gemeldete konkrete Kräfte; eine zahlenmäßige Überschneidung wird hier nicht eindeutig ausgewiesen | **PDF-S. 7**, Abschnitt 4.c.4 |
 
 Der Bericht unterscheidet Rekrutierungsplanung, sondierte Kandidaten, freigegebene Agenten und bereits vorhandene operative Kräfte. Deshalb entsteht aus den vier Kategorien keine neue Ist-Gesamtstärke.
+
+**Gegenüberstellung der CIA-Berichte:** Die [interne Rückschau vom 23. Dezember 1952](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf), **PDF-S. 15**, zitiert einen **Budgeterhöhungsantrag vom 26. Mai 1952**: Für Ostdeutschland seien ungefähr **450 Personen kontaktiert und organisiert** und **zusätzliche 1.700 Personen** für spätere Rekrutierung sondiert worden. Die spätere CIA-Auswertung kritisiert ausdrücklich die widersprüchlichen und ungeprüften Stärkemeldungen der Feldstation. Damit ist die Teilmengenformulierung aus Amendment No. 3 nicht gesichert; auch eine rechnerische Summe aus den berichteten Kategorien wäre keine verifizierte operative Ist-Stärke.
 
 **Operative Gliederung:** Die früher beabsichtigten Kreis-, Landes- und Bundesleitungen sowie Organisationen A und B sind auf **PDF-S. 5** beschrieben. Die neue Planung betont die Abschottung in drei regionalen Netzen für Nord-, Mittel- und Süddeutschland mit unterschiedlichen Aufgaben (**PDF-S. 4**). Für Ostdeutschland werden Kontakte, Grenzübergänge, Kuriere, Kommunikationskanäle und Vorbereitung von Materialdepots genannt (**PDF-S. 6–7**).
 
