@@ -99,7 +99,8 @@ class SPDPressedienstBDJ1953Test(unittest.TestCase):
         self.assertNotIn("finanzierte den BDJ nachweislich", self.case_text)
 
     def test_july_interview_not_confused_with_official_committee_report(self) -> None:
-        self.assertIn("vier Wochen", self.metadata["claims"][-1]["text"])
+        claims = {claim["id"]: claim for claim in self.metadata["claims"]}
+        self.assertIn("vier Wochen", claims["CLM-DE-BDJ-032"]["text"])
         self.assertIn("BT-Drs. 1/4644", self.case_text)
         self.assertIn("im Plenum", self.case_text)
         self.assertIn("nicht mehr behandelt", self.case_text)

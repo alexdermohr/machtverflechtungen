@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**127 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**130 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1065,6 +1065,39 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 [PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
+
+<a id="src-de-fes-spdpd-bdj-19521009"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[Entlarvter BDJ – Zu den Enthüllungen über den BDJ](https://library.fes.de/spdpd/1952/521009.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1952-10-09 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19521009`
+
+[PDF öffnen](https://library.fes.de/spdpd/1952/521009.pdf)
+
+Fundstelle: Heft P/VIII/234, gedruckte S. 1–2, PDF-Bildseiten 1–2; FES-TIFF 400 dpi: /tiff400/015/00000244.tif und 00000245.tif
+
+<a id="src-de-fes-spdpd-bdj-19521010"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[Im Nachtrag – Stellungnahmen Fritz Heines und der Jungsozialisten zur BDJ-Affäre](https://library.fes.de/spdpd/1952/521010.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1952-10-10 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19521010`
+
+[PDF öffnen](https://library.fes.de/spdpd/1952/521010.pdf)
+
+Fundstelle: Heft P/VIII/235, gedruckte S. 6–7, PDF-Bildseiten 6–7; FES-TIFF 400 dpi: /tiff400/015/00000254.tif und 00000255.tif
+
+<a id="src-de-fes-spdpd-bdj-19521027"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[Technischer Dienst und BDJ – eine Organisation](https://library.fes.de/spdpd/1952/521027.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1952-10-27 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19521027`
+
+[PDF öffnen](https://library.fes.de/spdpd/1952/521027.pdf)
+
+Fundstelle: Heft P/VIII/249, gedruckte S. 6–7, PDF-Bildseiten 6–7; FES-TIFF 400 dpi: /tiff400/015/00000338.tif und 00000339.tif
 
 <a id="src-de-fes-spdpd-bdj-19530124"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
