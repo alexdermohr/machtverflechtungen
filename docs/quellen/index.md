@@ -991,7 +991,7 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 [Seite öffnen](https://www.stammheim-prozess.de/158-verhandlungstag/)
 
-Fundstelle: S. 12262–12269 und spätere Antragsbehandlung
+Fundstelle: Protokoll S. 12262–12269 (Teilfreigabe), 12277–12283 (Unterbrechungsantrag, Ablehnung und Senatsbeschluss)
 
 <a id="src-de-stammheim-159-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
@@ -1024,7 +1024,7 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 [Seite öffnen](https://www.stammheim-prozess.de/163-verhandlungstag/)
 
-Fundstelle: Protokoll S. 12507–12513, 12581–12645; Aussagen Fisch, Wolf, Zimniak
+Fundstelle: Protokoll S. 12507–12513, 12522–12523 (Sicherungsgruppe und Werner Freund), 12581–12645; Aussagen Fisch, Wolf, Zimniak
 
 <a id="src-de-stammheim-166-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
