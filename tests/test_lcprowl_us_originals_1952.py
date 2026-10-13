@@ -50,6 +50,41 @@ ORIGINALS = (
 
 
 class LcprowlUSOriginals1952(unittest.TestCase):
+    def test_archival_manifest_binds_exactly_twelve_unique_sources_and_checksums(self):
+        """Each archival PDF must have exactly one correctly paired checksum row."""
+        article = ARTICLE.read_text(encoding="utf-8")
+        section = article.split("## Archivfaksimiles und Prüfsummen", 1)[1]
+        section = section.split("**Amtliche Bestandszuordnung:**", 1)[0]
+        rows = [
+            line for line in section.splitlines()
+            if line.startswith("| [LCPROWL VOL.")
+        ]
+        self.assertEqual(len(ORIGINALS), 12)
+        self.assertEqual(len(rows), len(ORIGINALS))
+        self.assertEqual(len({item[0] for item in ORIGINALS}), 12)
+        self.assertEqual(len({item[3] for item in ORIGINALS}), 12)
+        self.assertEqual(len({item[4] for item in ORIGINALS}), 12)
+        for label, archive_id, file_part, sha, md5 in ORIGINALS:
+            with self.subTest(document=label):
+                matching = [
+                    row for row in rows
+                    if row.startswith(f"| [LCPROWL {label}](")
+                ]
+                self.assertEqual(len(matching), 1)
+                row = matching[0]
+                self.assertIn(f"https://archive.org/download/{archive_id}/", row)
+                self.assertIn(file_part, row)
+                self.assertRegex(sha, r"^[0-9a-f]{64}$")
+                self.assertRegex(md5, r"^[0-9a-f]{32}$")
+                self.assertEqual(row.count(sha), 1)
+                self.assertEqual(row.count(md5), 1)
+                cells = [cell.strip() for cell in row.strip("|").split("|")]
+                self.assertEqual(len(cells), 4)
+                self.assertTrue(cells[1].isdigit())
+                self.assertGreater(int(cells[1]), 0)
+                self.assertEqual(cells[2], f"`{sha}`")
+                self.assertEqual(cells[3], f"`{md5}`")
+
     def test_each_cia_archival_original_has_immutable_locator(self):
         article = ARTICLE.read_text(encoding="utf-8")
         for label, item, file_part, sha, md5 in ORIGINALS:
