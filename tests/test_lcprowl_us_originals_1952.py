@@ -131,6 +131,20 @@ class LcprowlUSOriginals1952(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, article)
 
+    def test_separate_justice_ministry_and_security_cables(self):
+        """Only BONN 0507 proves ministry negotiations; FRAN 1488 does not."""
+        article = ARTICLE.read_text(encoding="utf-8")
+        self.assertIn("Das überprüfte CIA-Originaltelegramm **`BONN 0507`", article)
+        self.assertIn("gesonderte Sicherheitsfrage", article)
+        self.assertIn("`FRAN 1488`** ergänzt die Chronologie als eigenständige Sicherheitsmeldung", article)
+        self.assertNotIn("Zwei weitere überprüfte CIA-Originaltelegramme dokumentieren", article)
+
+    def test_spd_whitebook_chain_only_uses_relevant_originals(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        self.assertIn("zwei CIA-Originale `FRAN 1551` und `FRAN 1552`", article)
+        self.assertIn("`FRAN 1555`** dokumentiert separat", article)
+        self.assertNotIn("Die drei CIA-Originale dokumentieren den amerikanischen Kenntnisstand", article)
+
     def test_spd_whitebook_first_unpublished_copy_and_company_claim_attribution(self):
         article = ARTICLE.read_text(encoding="utf-8")
         for marker in (
