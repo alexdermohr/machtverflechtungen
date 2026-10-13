@@ -35,6 +35,15 @@ ORIGINALS = (
     ("VOL. 2_0049", "LCPROWLVOL2-0049", "VOL.%202_0049.pdf",
      "26e62a748bc0e3a454ce8e245058037121ed1dff64a1b6c4cd2dab43c12065f6",
      "3d8651f4861c886a2dc112e2e11ba95b"),
+    ("VOL. 2_0046", "LCPROWLVOL2-0046", "VOL.%202_0046.pdf",
+     "4f616e786c47556accfbc057984519f7be5235eea8514e23d8487c107f2c4c9d",
+     "28e55576f0161da4953bec5ffba09a7d"),
+    ("VOL. 2_0047", "LCPROWLVOL2-0047", "VOL.%202_0047.pdf",
+     "3765f020b273d66106abe08eaa6c34cea292ca2187dc12d9b9b4c4dcd798e5d0",
+     "333316d3bd00b48c1abd766b682ba942"),
+    ("VOL. 2_0048", "LCPROWLVOL2-0048", "VOL.%202_0048.pdf",
+     "64a74527c67fd42894abeea059044150aa1c4aeec82e0888e70fde951f2ad75e",
+     "3782d5e9e9cf896aa2952b7ede30e185"),
 )
 
 
@@ -101,6 +110,21 @@ class LcprowlUSOriginals1952(unittest.TestCase):
         ):
             with self.subTest(marker=marker):
                 self.assertIn(marker, article)
+
+    def test_spd_whitebook_first_unpublished_copy_and_company_claim_attribution(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        for marker in (
+            "12. Februar 1953", "FRAN 1551", "FRAN 1552", "FRAN 1555",
+            "noch unveröffentlichten SPD-Weißbuchs", "60 Seiten",
+            "Sopade-Denkschriften Nr. 50", "Z 3015/50",
+            "Coca-Cola", "Bosch Licht", "vermutlich Reemtsma",
+            "500.000 DM", "keine Belege tatsächlicher Überweisungen",
+            "Schlussfolgerungen des SPD-Manuskripts",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, article)
+        self.assertNotIn("Coca-Cola überwies", article)
+        self.assertNotIn("Bosch Licht überwies", article)
 
     def test_existing_public_1950_entry_point_links_new_originals(self):
         self.assertIn(

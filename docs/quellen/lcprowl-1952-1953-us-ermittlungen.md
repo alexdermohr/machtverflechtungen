@@ -1,6 +1,6 @@
 # LCPROWL 1952–1953: US-Eingriffe, Tarnunternehmen und Ermittlungsverfahren
 
-**Neun ausgewertete CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden, zeitgenössische Presseübersetzungen und Kabel aus **1951 bis Januar 1953**, insbesondere zur Aufdeckung und Liquidierung 1952.
+**Zwölf ausgewertete CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden, zeitgenössische Presseübersetzungen und Kabel aus **1951 bis Januar 1953**, insbesondere zur Aufdeckung und Liquidierung 1952.
 
 [OPC-Projektgenehmigung 1950/51](lcprowl-1950-opc-planung.md) · [Fallakte BDJ/Technischer Dienst](../faelle/de/technischer-dienst-bdj.md) · [Forschungsauftrag mit weiteren Akten](https://github.com/alexdermohr/machtverflechtungen/issues/37)
 
@@ -15,6 +15,7 @@
 | **US-Untersuchungsstrategie:** Amerikanische Ermittler sollten Unterstützung einräumen, die Untersuchung aber begrenzen und weder US-Personal noch US-Akten zugänglich machen. | `VOL. 4_0039`, PDF-S. 9, Chronologie 11.10.1952 |
 | **Bundestagserklärung:** Die CIA-Chronologie berichtet, Robert Lehr habe Änderungsvorschläge eines US-Vertreters für seine Erklärung vom **23. Oktober 1952** vollständig angenommen. | `VOL. 4_0039`, PDF-S. 13 |
 | **Druckmittel gegen Zinn:** Ein amerikanischer Auftrag sah am **23. Oktober 1952** vor, beim **CIC** Informationen zu Ministerpräsident Zinn zu suchen, die sich gegebenenfalls für Druck verwenden ließen. | `VOL. 4_0039`, PDF-S. 13 |
+| **SPD-Weißbuch-Vorabexemplar:** Bereits am **12. Februar 1953** meldete die CIA den Erhalt einer noch unveröffentlichten 60-seitigen SPD-Schrift und referierte deren Finanzierungsvorwürfe gegen benannte Unternehmen. | `VOL. 2_0046`, **PDF-S. 1–2**, `FRAN 1551`; Übersetzung der Schlussfolgerungen `VOL. 2_0047` |
 | **Verfahrenseinfluss:** CIA-Kabel vom **29. Januar 1953** dokumentiert Vorschläge, die Angeklagten sollten BDJ und TD als getrennte Organisationen darstellen und sich auf alliierten Geheimschutz berufen. | `VOL. 3_0009`, PDF-S. 1–2, `FRAN 0989` |
 | **Ausbilderkontakt:** Die CIA-Personalakte enthält eine abgefangene Korrespondenz Paul Lüths mit General **Franz Halder vom 15. Januar 1951** über die Suche nach Ausbildern für Schulungen außerhalb Deutschlands. | `VOL. 4_0040`, PDF-S. 3, Ziff. 3 |
 
@@ -99,6 +100,18 @@ Der Vertreter des Bundesjustizministeriums verlangte für eine rechtliche Verwen
 
 Die beiden Kabel bilden mit dem CIA-Vermerk vom **29. Januar 1953** (`VOL. 3_0009`), der internen Liquidierungschronologie von Oktober 1952 (`VOL. 4_0039`) und der Bundesarchiv-Überlieferung zur hessischen Untersuchung eine **datierte Verfahrens- und Informationskette**. Die entscheidenden nächsten Urkunden sind die Fassungen der amerikanischen Erklärung, die Justizgesprächsvermerke vom 10.–12. Februar, die Stellungnahme Truscotts vom 20. Februar 1953 sowie der Aktenlauf der Oberbundesanwaltschaft.
 
+## 12. Februar 1953: CIA liest das noch unveröffentlichte SPD-Weißbuch
+
+In einem nun vollständig gesicherten CIA-Kabel **[LCPROWL VOL. 2_0046](https://archive.org/download/LCPROWLVOL2-0046/LCPROWL%20%20%20%20VOL.%202_0046.pdf)**, **`FRAN 1551`, 12. Februar 1953, PDF-S. 1–2**, teilt die Frankfurter CIA-Stelle Washington mit, sie habe die **erste Kopie des noch unveröffentlichten SPD-Weißbuchs** über den Bund Deutscher Jugend und seinen Technischen Dienst erhalten. Der Bericht nennt einen **Umfang von 60 Seiten**; ein Erscheinungstermin sei der Dienststelle noch nicht bekannt gewesen. Das ergänzt den Nachweis des gesuchten SPD-Originals **`Der Bund Deutscher Jugend und sein „Technischer Dienst“`, Sopade-Denkschriften Nr. 50, FES Z 3015/50**. Die Schätzung „ca. 1952“ im Bibliothekskatalog ist deshalb für die tatsächliche Auslieferung gesondert zu prüfen.
+
+**Namentlich genannte private Geldgeber – als referierte Anschuldigungen:** Die CIA-Station beschreibt in **`FRAN 1551`, PDF-S. 1** den Manuskriptinhalt: Neben nicht bezifferten US-Zahlungen an den BDJ behaupte die SPD erhebliche private Zuwendungen, darunter **Einzelspenden bis 500.000 DM**, durch **Coca-Cola**, eine in der maschinellen Textschicht beschädigte **Zigarettenfirma (vermutlich Reemtsma)**, **„Bosch Licht“** und weitere Unternehmen. Der CIA-Bericht liefert damit eine präzise damalige **Namens- und Recherchequelle**, aber keine Belege tatsächlicher Überweisungen dieser Unternehmen. Die Unternehmensbezeichnungen, das fehlende vierte Unternehmen und die genannten Beträge sind mit dem SPD-Druckoriginal sowie Firmenbuchungen abzugleichen, bevor eine Finanzierungsrelation angelegt wird.
+
+**[LCPROWL VOL. 2_0047](https://archive.org/download/LCPROWLVOL2-0047/LCPROWL%20%20%20%20VOL.%202_0047.pdf), `FRAN 1552`, PDF-S. 1–3, ebenfalls 12. Februar 1953:** Die CIA sandte Washington eine englische **Übersetzung der Schlussfolgerungen des SPD-Manuskripts**. Darin wird unter anderem die Gefahr innenpolitischer Verwendung eines geheimen Partisanenapparats angesprochen; außerdem stellt die SPD Verbindungen zu Bonner Behörden, Besatzungsstellen, ehemaligen NS-Akteuren und publizistischen Netzwerken in den Raum. Die Schrift formuliert parteipolitische Vorwürfe; der CIA-Weiterleitung kommt nicht die Bedeutung einer Bestätigung dieser Vorwürfe zu. Damit ist aber erstmals ein Teil des damals noch unveröffentlichten SPD-Originaltexts **mittelbar in einer CIA-Akte überliefert**.
+
+**[LCPROWL VOL. 2_0048](https://archive.org/download/LCPROWLVOL2-0048/LCPROWL%20%20%20%20VOL.%202_0048.pdf), `FRAN 1555`, PDF-S. 1, 12. Februar 1953:** Ein weiteres Frankfurter Telegramm meldet eine Gesprächsvereinbarung, **keine weiteren Gelder an einen stark redigierten Empfänger oder dessen angebliche Vertreter** auszuzahlen; für ausreisewillige ehemalige Mitarbeiter könnten lediglich begrenzte Empfehlungsschreiben in Betracht kommen. Die Identität des Empfängers ist aus dem vorliegenden Text nicht ausreichend sicher ablesbar. Diesen Vorgang daher nicht ohne zusätzliche Akte mit einem bestimmten BDJ-/TD-Geldempfänger gleichsetzen.
+
+**Forschungsanschluss:** Die drei CIA-Originale dokumentieren den amerikanischen Kenntnisstand **vor Veröffentlichung des SPD-Weißbuchs**, die Formulierung der Vorwürfe gegen Unternehmen und dessen politische Bewertung. Mit dem früheren Februar-Kabel **`BONN 0507`** über die amerikanische Justizstellungnahme und dem CIA-Memorandum vom April 1953 entsteht eine **zeitlich geschlossene Prüfroute vom vertraulichen SPD-Manuskript zu US-/Bundesstellenreaktionen**. Für die vollständige Identifizierung aller Firmen und Einzelzahlungen bleibt das 60-Blatt-Original **FES Z 3015/50** das wichtigste nächste Dokument.
+
 ## Paul Lüth, General Franz Halder und frühe Ausbilderrekrutierung
 
 `LCPROWL VOL. 4_0040`, **PDF-S. 3, Abschnitt 3**, gibt einen in der US-Postzensur erfassten **Brief Lüths an den ehemaligen Wehrmachtsgeneral Franz Halder vom 15. Januar 1951** wieder. Lüth schrieb nach der CIA-Abschrift, er solle geeignete **Ausbilder für bestimmte Projekte** vorschlagen, deren Teilnehmer **außerhalb Deutschlands** geschult würden. Halder möge geeignete Kandidaten direkt an die BDJ-Bundesführung verweisen. Das Original-Faksimile wurde hierzu bildseitig geprüft. Ein tatsächlich benannter Kandidat oder erteilte Ausbildung folgt daraus nicht.
@@ -119,7 +132,7 @@ Die Parallelkopie **`LCPROWL VOL. 3_0017`** enthält ebenfalls die Spiegel-Anlag
 
 ## Archivfaksimiles und Prüfsummen
 
-Die neun archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
+Die zwölf archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
 
 | Originaldokument | PDF-Seiten | SHA-256 | MD5 |
 | --- | ---: | --- | --- |
@@ -132,6 +145,9 @@ Die neun archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD
 | [LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf) | 25 | `da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49` | `98f26bd8f4b965c3483dc5aba3719202` |
 | [LCPROWL VOL. 2_0050](https://archive.org/download/LCPROWLVOL2-0050/LCPROWL%20%20%20%20VOL.%202_0050.pdf) | 4 | `d60c92a2b1df34fbe0055d622abe65db1b8d422a57d4b0de8fcab5c22b993c8e` | `96475f631cd53e9233f83b02f0a8bdea` |
 | [LCPROWL VOL. 2_0049](https://archive.org/download/LCPROWLVOL2-0049/LCPROWL%20%20%20%20VOL.%202_0049.pdf) | 1 | `26e62a748bc0e3a454ce8e245058037121ed1dff64a1b6c4cd2dab43c12065f6` | `3d8651f4861c886a2dc112e2e11ba95b` |
+| [LCPROWL VOL. 2_0046](https://archive.org/download/LCPROWLVOL2-0046/LCPROWL%20%20%20%20VOL.%202_0046.pdf) | 2 | `4f616e786c47556accfbc057984519f7be5235eea8514e23d8487c107f2c4c9d` | `28e55576f0161da4953bec5ffba09a7d` |
+| [LCPROWL VOL. 2_0047](https://archive.org/download/LCPROWLVOL2-0047/LCPROWL%20%20%20%20VOL.%202_0047.pdf) | 3 | `3765f020b273d66106abe08eaa6c34cea292ca2187dc12d9b9b4c4dcd798e5d0` | `333316d3bd00b48c1abd766b682ba942` |
+| [LCPROWL VOL. 2_0048](https://archive.org/download/LCPROWLVOL2-0048/LCPROWL%20%20%20%20VOL.%202_0048.pdf) | 1 | `64a74527c67fd42894abeea059044150aa1c4aeec82e0888e70fde951f2ad75e` | `3782d5e9e9cf896aa2952b7ede30e185` |
 
 **Amtliche Bestandszuordnung:** [US National Archives, Record Group 263, Entry ZZ-19](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html) (**NARA**): LCPROWL **Vol. 1–2 in Box 0042**, Vol. **3–4 in Box 0043**. Die Archive.org-Kopien sind verfügbare originalgetreue historische PDF-Dateien, nicht die aktuelle CIA-Webbereitstellung.
 
