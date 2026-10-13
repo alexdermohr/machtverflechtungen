@@ -77,7 +77,7 @@ Eine frühere V-Mann-Verbindung bleibt damit eine in Publikationen diskutierte, 
 
 | Arbeitsfrage | Entscheidendes Dokument und Test |
 | --- | --- |
-| Welche Personen wussten 1968–1970 von Urbachs Waffenweitergaben? | Urbachs Führungsakten, das vollständig zugängliche Nollau-Schreiben vom 21. Mai 1972 und die Originalvermerke des Berliner Innensenats von 1971/1981 vergleichen. |
+| Welche Personen wussten 1968–1970 von Urbachs Waffenweitergaben? | Urbachs Führungsakten, die bei Robert Wolff publizierten Auszüge aus dem Nollau-Schreiben vom 21. Mai 1972 und die Originalvermerke des Berliner Innensenats von 1971/1981 vergleichen; das vollständige Nollau-Schreiben aus dem Privatarchiv beschaffen. |
 | Warum blieb im Fall Schmücker die Pistole bis 1989 beim Verfassungsschutz? | Drs. 11/1224 auf Protokolle vom 22. Mai 1990, Anweisungen zur Asservatenbehandlung, interne Amtsleiter-Tagung 1975 und Zuständigkeitsvermerke auswerten. |
 | Handelte Christian Hain in beiden Fällen für dieselbe Dienstkette? | Originalaussagen im Berliner Schmücker- und niedersächsischen Celler-Loch-Untersuchungsausschuss auf Identität, Zeit, Auftrag, Kontakte und Finanzflüsse abgleichen. |
 | Wie wurden Steinmetz' Legendierung und Schutz finanziert und kontrolliert? | Die in Drs. 13/4812 genannten Vereinbarungen vom **20. Dezember 1993** zwischen GBA, BKA, BfV und LfV Rheinland-Pfalz; außerdem Haushalt, Abrechnungs- und Schutzmaßnahmenakten. |
