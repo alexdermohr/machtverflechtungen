@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**133 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**134 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1133,6 +1133,17 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+<a id="src-de-rotehilfe-ruhland-1975"></a>
+### Rote Hilfe / Hans-Litten-Archiv (Digitalisat)
+
+**[Rote Hilfe, 3. Jg., Nr. 9: Ruhlands Geldgeber](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)**
+
+Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Primärquelle · `SRC-DE-ROTEHILFE-RUHLAND-1975`
+
+[PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
+
+Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
 
 <a id="src-de-hh-warburg-senat-2020"></a>
 ### Senat der Freien und Hansestadt Hamburg
