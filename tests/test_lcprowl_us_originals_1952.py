@@ -6,6 +6,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLE = ROOT / "docs/quellen/lcprowl-1952-1953-us-ermittlungen.md"
 PREVIOUS = ROOT / "docs/quellen/lcprowl-1950-opc-planung.md"
+NAVIGATION = ROOT / "mkdocs.yml"
 
 ORIGINALS = (
     ("VOL. 4_0030", "LCPROWLVOL4-0030", "VOL.%204_0030.pdf",
@@ -125,6 +126,13 @@ class LcprowlUSOriginals1952(unittest.TestCase):
                 self.assertIn(marker, article)
         self.assertNotIn("Coca-Cola überwies", article)
         self.assertNotIn("Bosch Licht überwies", article)
+
+    def test_cia_originals_are_listed_exactly_once_in_site_navigation(self):
+        self.assertEqual(
+            NAVIGATION.read_text(encoding="utf-8").count(
+                "quellen/lcprowl-1952-1953-us-ermittlungen.md"
+            ), 1,
+        )
 
     def test_existing_public_1950_entry_point_links_new_originals(self):
         self.assertIn(
