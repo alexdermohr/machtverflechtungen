@@ -6,6 +6,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLE = ROOT / "docs/quellen/lcprowl-1952-1953-us-ermittlungen.md"
 PREVIOUS = ROOT / "docs/quellen/lcprowl-1950-opc-planung.md"
+BDJ_CASE = ROOT / "docs/faelle/de/technischer-dienst-bdj.md"
 NAVIGATION = ROOT / "mkdocs.yml"
 
 ORIGINALS = (
@@ -133,6 +134,16 @@ class LcprowlUSOriginals1952(unittest.TestCase):
                 "quellen/lcprowl-1952-1953-us-ermittlungen.md"
             ), 1,
         )
+
+    def test_february_scope_april_cia_memo_and_bdj_case_status_agree(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        case = BDJ_CASE.read_text(encoding="utf-8")
+        self.assertIn("1951 bis Februar 1953", article)
+        self.assertIn("15. April 1953, LCPROWL VOL. 2_0023", article)
+        self.assertIn("VOL.%202_0023.pdf", article)
+        self.assertIn("CIA-Originalaktenstudie 1952–1953", case)
+        self.assertIn("lcprowl-1952-1953-us-ermittlungen.md", case)
+        self.assertNotIn("bisher zugängliche Indextexte", case)
 
     def test_existing_public_1950_entry_point_links_new_originals(self):
         self.assertIn(
