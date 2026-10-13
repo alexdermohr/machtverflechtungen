@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**140 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**142 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -860,6 +860,28 @@ Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/20/146/2014669.pdf)
 
 Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
+
+<a id="src-de-bt-khk-s-19910627"></a>
+### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+
+**[Bundestag Drs. 12/868: KHK S., BKA-Sicherungsgruppe und MfS-Agententätigkeitsverfahren](https://dserver.bundestag.de/btd/12/008/1200868.pdf)**
+
+Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1991-06-27 · Stufe **A** · Primärquelle · `SRC-DE-BT-KHK-S-19910627`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/008/1200868.pdf)
+
+Fundstelle: Gedruckte S. 1, Frage 1: Abordnung 12.02.–18.05.1971; S. 2, Frage 3: Zeugenrolle Heimerzheim; S. 3, Antworten zu Fragen 5/6, 8/9: Anklage 08.04.1991, Erkenntnisstand und weitere Ermittlungsverfahren
+
+<a id="src-de-bt-mfs-kontakte-19930721"></a>
+### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+
+**[Bundestag Drs. 12/5479: Fragen zu Kontakten mit MfS-Mitarbeitern und Walter Sch.](https://dserver.bundestag.de/btd/12/054/1205479.pdf)**
+
+Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1993-07-21 · Stufe **A** · Primärquelle · `SRC-DE-BT-MFS-KONTAKTE-19930721`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/054/1205479.pdf)
+
+Fundstelle: Gedruckte S. 2: Namensabkürzung Walter Sch., Kriminalhauptkommissar Duisburg, einst Sicherungsgruppe Bonn, Querverweis Drs. 12/868; S. 3: Fragen nach Geld, Leistungen und Aussagebereitschaft sowie Regierungsantworten
 
 <a id="src-de-bt-gladio-18701-2014"></a>
 ### Deutscher Bundestag / Bundesregierung, Bundeskanzleramt
