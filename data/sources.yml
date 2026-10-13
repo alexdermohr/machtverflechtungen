@@ -1394,3 +1394,16 @@ sources:
   locator: "PDF-S. 2: Bericht 24.01.1951, Abschn. A; S. 3: Abschn. C (Cover), D (Operational Security), G (Finances); S. 6: Board-Protokoll 21.12.1950"
   sha256: "136f7683bd367e92a141f7a0a0d5fb6298c25cc804f17692ad2f8db80ef3b93f"
   notes: "Sechsseitiges historisch archiviertes CIA-Original-PDF, am 12.10.2026 aus unverändertem Lokalbestand erneut per SHA-256/Text geprüft. Der zeitgenössische Bericht bezeichnet ausdrücklich eine OPC-Subvention an den BDJ und die äußere Darstellung der Gelder als Beiträge privater/industrieller antikommunistischer Geldgeber und Mitgliedsbeiträge. Das Faksimile enthält keine belastbare Zahlungsverknüpfung mit einem konkret benannten deutschen Unternehmen; Finanzierungsbeträge sind teils geschwärzt."
+
+- id: "SRC-US-CIA-LCPROWL-V2-0023"
+  title: "LCPROWL VOL. 2_0023: CIA-internes Memorandum zur Analyse des SPD-Weißbuchs über BDJ/TD"
+  institution: "Central Intelligence Agency, EE/PP/Germany"
+  date: "1953-04-15"
+  type: "declassified_intelligence_analysis"
+  primary: true
+  tier: "A"
+  url: "https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf"
+  accessed: "2026-10-12"
+  locator: "PDF-S. 1: Übersendung des SPD-Weißbuchs; S. 2: Memorandum 15.04.1953, Einleitung und Ziff. 1–3; S. 3: Ziff. 3–8, besonders Ziff. 7 zum Defizit von 40.000 DM, personeller Reduktion und angekündigtem Finanzierungsende; S. 4: Ziff. 8–10 und Gesamtwertung"
+  sha256: "ae20eeb19b43dddbb83ed3a213231104c315583f8af490274dcd8db014ace532"
+  notes: "Vierseitiges zeitgenössisches CIA-Faksimile der Analyse eines parteilich kommentierten SPD-Weißbuchs über den BDJ. Verifizierte lokale PDF-Kopie per SHA-256, Text und Seitenzählung. Die Quelle wechselt zwischen Wiedergabe von SPD-Behauptungen, ausdrücklicher CIA-Bestätigung einzelner Angaben, namentlich geschwärzten Alias-Zuordnungen und polemischen CIA-Einschätzungen. Vier Firmen werden aus dem Weißbuch referiert, nicht als CIA-eigener Zahlungsnachweis bestätigt. Die genannte Beendigung amerikanischer Finanzierung im September 1952 ist eine laut Weißbuch angekündigte Maßnahme; die tatsächliche Durchführung bedarf getrennter Auszahlungsakten. NARA RG 263, Entry ZZ-19, LCPROWL Vol. 2, Box 0042."

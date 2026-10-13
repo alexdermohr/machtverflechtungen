@@ -21,6 +21,7 @@ SOURCE_IDS = (
     "SRC-DE-HHSTAW-502-17886",
     "SRC-US-CIA-LCPROWL-V1-0037",
     "SRC-US-CIA-LCPROWL-V1-0044",
+    "SRC-US-CIA-LCPROWL-V2-0023",
 )
 
 
@@ -37,10 +38,10 @@ def bdj_metadata() -> dict:
 
 
 class BDJResearchRegressions(unittest.TestCase):
-    def test_23_prepared_claims_and_11_registered_source_ids(self):
+    def test_28_prepared_claims_and_12_registered_source_ids(self):
         case = bdj_metadata()
         claims = {item["id"]: item for item in case["claims"]}
-        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 24)})
+        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 29)})
         sources = records("sources.yml", "sources")
         for sid in SOURCE_IDS:
             with self.subTest(source=sid):
@@ -224,6 +225,53 @@ class BDJResearchRegressions(unittest.TestCase):
             self.assertIn(content, article)
         self.assertIn("geplant", article)
         self.assertNotIn("7.000 ausgebildete", article)
+
+
+    def test_april1953_cia_whitebook_attributions_and_internal_assessment(self):
+        sources = records("sources.yml", "sources")
+        source = sources["SRC-US-CIA-LCPROWL-V2-0023"]
+        case = bdj_metadata()
+        claims = {entry["id"]: entry for entry in case["claims"]}
+        self.assertEqual(source["date"], "1953-04-15")
+        self.assertTrue(source["primary"])
+        self.assertEqual(source["tier"], "A")
+        self.assertIn("VOL.%202_0023.pdf", source["url"])
+        self.assertEqual(source["sha256"],
+                         "ae20eeb19b43dddbb83ed3a213231104c315583f8af490274dcd8db014ace532")
+        self.assertIn("SRC-US-CIA-LCPROWL-V2-0023", case["sources"])
+
+        article = CASE.read_text(encoding="utf-8").split("\n---\n", 1)[1]
+        for number in range(24, 29):
+            cid = f"CLM-DE-BDJ-{number:03d}"
+            with self.subTest(claim=cid):
+                claim = claims[cid]
+                self.assertEqual(claim["classification"], "fact")
+                self.assertEqual(claim["evidence_level"], "established")
+                self.assertEqual(claim["sources"], ["SRC-US-CIA-LCPROWL-V2-0023"])
+                self.assertIn("PDF-S.", claim["evidence"][0]["locator"])
+                self.assertNotIn(cid, case["event_claims"])
+                self.assertIn(f"- **`{cid}` — belegt:** {claim['text']}", article)
+
+        self.assertIn("Home Office", claims["CLM-DE-BDJ-024"]["text"])
+        self.assertIn("vier", claims["CLM-DE-BDJ-025"]["text"])
+        self.assertIn("SPD-Weißbuch", claims["CLM-DE-BDJ-025"]["text"])
+        self.assertIn("40.000 DM", claims["CLM-DE-BDJ-026"]["text"])
+        self.assertIn("Peters", claims["CLM-DE-BDJ-026"]["text"])
+        self.assertIn("300", claims["CLM-DE-BDJ-027"]["text"])
+        self.assertIn("19. Mai 1952", claims["CLM-DE-BDJ-027"]["text"])
+        self.assertIn("Decknamen", claims["CLM-DE-BDJ-028"]["text"])
+        self.assertIn("geschwärzt", claims["CLM-DE-BDJ-028"]["text"])
+        self.assertIn("0023", article)
+        self.assertIn("SRC-US-CIA-LCPROWL-V2-0023", article)
+        self.assertIn("Weißbuch", article)
+
+        relations = records("relations.yml", "relations")
+        self.assertFalse(any(
+            source["id"] in relation.get("sources", [])
+            and relation["type"] in {"documented_opc_subsidy", "reported_federal_grant"}
+            for relation in relations.values()
+        ), "Aus dem CIA-Kommentar von 1953 dürfen keine Unternehmens-Zahlungen konstruiert werden")
+
 
 
 if __name__ == "__main__":
