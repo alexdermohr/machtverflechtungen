@@ -1467,3 +1467,45 @@ sources:
   accessed: '2026-10-13'
   notes: Zeitgenössische oder amtliche Regierungsantwort; Fragen und bestätigte Regierungsbefunde
     getrennt halten.
+- id: SRC-DE-OLG-STUTTGART-RAF-1977
+  title: OLG Stuttgart, Urteil im Stammheim-Verfahren vom 28. April 1977 (2 StE 1/74)
+  institution: Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition
+  date: '1977-04-28'
+  type: court_judgment_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf
+  accessed: '2026-10-13'
+  locator: PDF-S. 114–116, Abschnitt [251]–[257]; Gerichtsbefunde zu 3 ARP 74/75 und
+    1 BJs 7/76
+  notes: Wiedergabe des historischen Gerichtsurteils in einer modernen wissenschaftlichen
+    Edition. Primärquelle für gerichtliche Tatsachenfeststellungen und Beweiswürdigung,
+    nicht für unabhängig verifizierte Geheimdienstfinanzierung.
+- id: SRC-DE-STAMMHEIM-161-1976
+  title: Stammheim-Prozess, 161. Verhandlungstag – Nachlieferungen und Sperrvermerk
+    3 ARP 74/75 I
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-11-16'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/161-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Protokoll S. 12347–12353; zwölf weiterhin gesperrte Fundstellen, zehn nicht
+    kopierte Formalblätter
+  notes: Originalprotokoll der Aussagen von Vorsitz und Bundesanwalt Wunder. Deren
+    Angabe, Formalblätter enthielten keine materiellen Müller-Informationen, ist eine
+    behördliche Aussage.
+- id: SRC-DE-STAMMHEIM-163-1976
+  title: Stammheim-Prozess, 163. Verhandlungstag – Ruhland-Zahlungen und Zeugenbetreuung
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-11-24'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/163-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Protokoll S. 12507–12513, 12581–12645; Aussagen Fisch, Wolf, Zimniak
+  notes: Historisches Sitzungsprotokoll als Primärbeleg dafür, was ausgesagt und bestritten
+    wurde. Es bestätigt keine Herkunft der Gelder aus Nachrichtendienstfonds, keine
+    Gehlen-Beziehung und keine Tatsteuerung.

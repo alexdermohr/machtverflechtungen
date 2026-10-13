@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**129 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**132 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1004,6 +1004,28 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12306
 
+<a id="src-de-stammheim-161-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 161. Verhandlungstag – Nachlieferungen und Sperrvermerk 3 ARP 74/75 I](https://www.stammheim-prozess.de/161-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-16 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-161-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/161-verhandlungstag/)
+
+Fundstelle: Protokoll S. 12347–12353; zwölf weiterhin gesperrte Fundstellen, zehn nicht kopierte Formalblätter
+
+<a id="src-de-stammheim-163-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 163. Verhandlungstag – Ruhland-Zahlungen und Zeugenbetreuung](https://www.stammheim-prozess.de/163-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-24 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-163-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/163-verhandlungstag/)
+
+Fundstelle: Protokoll S. 12507–12513, 12581–12645; Aussagen Fisch, Wolf, Zimniak
+
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
 
@@ -1067,6 +1089,17 @@ Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minu
 Niedersächsisches Justizministerium · 2015-07-24 · Stufe **A** · Primärquelle · `SRC-DE-NI-MJ-CELLER-2015`
 
 [Seite öffnen](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html)
+
+<a id="src-de-olg-stuttgart-raf-1977"></a>
+### Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition
+
+**[OLG Stuttgart, Urteil im Stammheim-Verfahren vom 28. April 1977 (2 StE 1/74)](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)**
+
+Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 · Stufe **A** · Primärquelle · `SRC-DE-OLG-STUTTGART-RAF-1977`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
+
+Fundstelle: PDF-S. 114–116, Abschnitt [251]–[257]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76
 
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
