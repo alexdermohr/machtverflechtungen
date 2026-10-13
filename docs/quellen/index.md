@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**124 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**127 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1065,6 +1065,39 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 [PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
+
+<a id="src-de-fes-spdpd-bdj-19530124"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[BDJ wollte Rückgrat der neuen Truppe werden – BDJ-Plan Prinz Eugen](https://library.fes.de/spdpd/1953/530124.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1953-01-24 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19530124`
+
+[PDF öffnen](https://library.fes.de/spdpd/1953/530124.pdf)
+
+Fundstelle: Heft P/VIII/20, gedruckte S. 1–2, PDF-Bildseiten 1–2; Original-TIFF 400 dpi: /tiff400/016/00000164.tif und 00000165.tif
+
+<a id="src-de-fes-spdpd-bdj-19530312"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[Vertane Millionen – Zur Selbstauflösung des Bundes Deutscher Jugend](https://library.fes.de/spdpd/1953/530312.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1953-03-12 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19530312`
+
+[PDF öffnen](https://library.fes.de/spdpd/1953/530312.pdf)
+
+Fundstelle: Heft P/VIII/60, gedruckte S. 4–5, PDF-Bildseiten 4–5; TIFF 400 dpi: /tiff400/016/00000432.tif und 00000433.tif
+
+<a id="src-de-fes-spdpd-bdj-19530717"></a>
+### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
+
+**[Schlusswort zum BDJ – Interview mit Ludwig Bergstraesser](https://library.fes.de/spdpd/1953/530717.pdf)**
+
+Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 1953-07-17 · Stufe **A** · Primärquelle · `SRC-DE-FES-SPDPD-BDJ-19530717`
+
+[PDF öffnen](https://library.fes.de/spdpd/1953/530717.pdf)
+
+Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 dpi: /tiff400/017/00000455.tif und 00000456.tif
 
 <a id="src-de-thlt-nsu-ua-2014"></a>
 ### Thüringer Landtag
