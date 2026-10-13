@@ -991,7 +991,7 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 [Seite öffnen](https://www.stammheim-prozess.de/158-verhandlungstag/)
 
-Fundstelle: Protokoll S. 12262–12269 (Teilfreigabe), 12277–12283 (Unterbrechungsantrag, Ablehnung und Senatsbeschluss)
+Fundstelle: Protokoll S. 12262–12270 (Teilfreigabe und Unterbrechungsantrag), 12277–12283 (Antragsbehandlung, Ablehnung und Senatsbeschluss)
 
 <a id="src-de-stammheim-159-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
