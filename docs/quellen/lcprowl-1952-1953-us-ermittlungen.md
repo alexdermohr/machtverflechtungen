@@ -1,6 +1,6 @@
 # LCPROWL 1952–1953: US-Eingriffe, Tarnunternehmen und Ermittlungsverfahren
 
-**Vier neu erschlossene CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden und Kabel aus **September/Oktober 1952 und Januar 1953**.
+**Sieben ausgewertete CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden und Kabel aus **September/Oktober 1952 und Januar 1953**.
 
 [OPC-Projektgenehmigung 1950/51](lcprowl-1950-opc-planung.md) · [Fallakte BDJ/Technischer Dienst](../faelle/de/technischer-dienst-bdj.md) · [Forschungsauftrag mit weiteren Akten](https://github.com/alexdermohr/machtverflechtungen/issues/37)
 
@@ -23,6 +23,30 @@ In `LCPROWL VOL. 4_0030`, PDF-S. 2–3 (Ziff. 6c–6d), referiert die CIA die **
 Damit liegen eine konkret benannte Firmen- und Asservatenspur sowie eine amerikanische interne Bestätigung des **Deckzwecks** vor. Ein geprüfter Kaufvertrag, Handelsregistereintrag, eine tatsächliche Konto-Auszahlung oder die genaue Identität der in der Vernehmung bezeichneten US-Stelle ist der Akte jedoch nicht beigefügt. „Saxer“ darf nicht mit der im Juni-1951-Amendment **geplanten Schallplattenfirma** als dasselbe Unternehmen gleichgesetzt werden.
 
 In `VOL. 4_0030`, PDF-S. 3, Ziff. 10, werden darüber hinaus CIA-interne Untersuchungen **finanzieller und buchhalterischer Unregelmäßigkeiten** geschildert. Diese sind eine weitere konkrete, von tatsächlichen Ein- und Auszahlungsbelegen zu überprüfende Aktenprobe.
+
+## CIA-Selbstprüfung: Saxer-Verträge und Kontrollverluste
+
+Die nachträgliche CIA-Analyse **[LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf)** nennt erstmals **Vertragsparteien, Vertragsdaten und konkrete Geldbeträge** zur Tarnfirma und untersucht ihre tatsächliche Funktion. Die interne CIA-Auswertung referiert die Verträge; die Vertragsurkunden und Buchungen selbst bleiben gesondert zu beschaffen.
+
+**Gesellschaftsvertrag vom 20. Juli 1951:** Laut **PDF-S. 21, Abschnitt VI.2**, unterzeichneten **Erhard(t) Peters**, der örtliche **Bankier Otto Schill** und **Johann Saxer** einen Gesellschaftsvertrag. Die dort berichtete Bareinlage betrug **20.000 DM**, davon **18.000 DM durch Peters** und je **1.000 DM durch Schill und Saxer**. **Emil Peters**, Vater des Apparatführers, sei Geschäftsführer geworden.
+
+**Zwei Vereinbarungen vom 11. August 1951:** Die Gesellschaft vereinbarte mit **Johann Saxer in Worms** die Übernahme von etwa **35 m³ Sperrholz im Wert von 20.000 DM** sowie ein **40.000-DM-Darlehen an Saxer** für Sperrholzmaschinen in Worms (**PDF-S. 21–22**). Die Maschinen sollten die Darlehensforderung besichern; die CIA bewertete die Konditionen als einseitig vorteilhaft für Saxer. Damit ist die behauptete **private Gesellschafts- und Kreditbeziehung** erstmals in einer konkreten internen CIA-Akte mit Namen und Tagen rekonstruierbar.
+
+| Betrag | Aussage in der CIA-Überlieferung | Fundstelle |
+| --- | --- | --- |
+| **4.450 DM** | Früher geplanter Tarnfirmen-Einsatz für 12 Agenten gemäß **1087-CFRFG vom 20.07.1951** | **PDF-S. 11** |
+| **rund 126.000 DM** | Nach CIA-Feldprüfung **QA 1328 vom 25.09.1952** ungefähr tatsächlich investiert | **PDF-S. 11** |
+| **20.000 DM** (18.000 / 1.000 / 1.000) | Gesellschaftskapital laut Bericht über Vertrag vom **20.07.1951** | **PDF-S. 21** |
+| **20.000 DM Warenwert** und **40.000 DM Darlehen** | Zwei Saxer-Vereinbarungen vom **11.08.1951** | **PDF-S. 21–22** |
+| Geschäftsvorgänge **bis 91.000 DM** | Berichtet im Kontext fragwürdiger bzw. fingierter Buchungseinträge | **PDF-S. 11** |
+
+Der ungefähre Investitionsgesamtwert von 126.000 DM kann die einzelnen Positionen bereits enthalten. **Der 40.000-DM-Darlehensvertrag** ist überdies ein anderer Vorgang als der später im CIA-Bericht zum SPD-Weißbuch referierte **40.000-DM-Fehlbetrag**.
+
+**Steuerungsbefund:** Die spätere CIA-Nachprüfung bezeichnete die Sperrholzfirma als **unwirksame Tarnung**. Agenten erhielten Geld nach dem Bericht **direkt aus operativen Mitteln über Peters**, nicht aus regulären Firmengehältern; Belege und Geschäftseinträge seien teilweise fingiert worden. Der US-Falloffizier habe Geldpauschalen aus der Finanzstelle weitergeleitet und Quittungen entgegengenommen, ohne die Verwendung hinreichend zu kontrollieren (**PDF-S. 11–12, 20–22**).
+
+**Gegenprobe zur Projektplanung:** Laut **PDF-S. 22** wurde der in Amendment No. 3 beantragte **zweite Tarnbetrieb nicht genehmigt**. Und **Abschnitt IV, PDF-S. 16–17** bewertet die ursprünglich behauptete vollständige Trennung des offenen BDJ vom geheimen Apparat als grundlegenden Fehlschlag mit überlappenden Personen, Tarnungen und Verbindungen. Frühere Plangenehmigungen und tatsächliche Kontrolle sind deshalb historisch verschiedene Sachverhalte.
+
+**Nächster Aktenzugriff:** Gesellschaftsvertrag vom **20.07.1951**, die beiden Vereinbarungen vom **11.08.1951**, Feldprüfung **QA 1328**, die originale Projektakte **1087-CFRFG**, Unternehmensregister, Maschinen-/Darlehensbelege und Bankunterlagen der Beteiligten.
 
 ## Liquidierungsentscheidungen 1951–1952
 
@@ -81,7 +105,7 @@ Die Parallelkopie **`LCPROWL VOL. 3_0017`** enthält ebenfalls die Spiegel-Anlag
 
 ## Archivfaksimiles und Prüfsummen
 
-Die sechs archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
+Die sieben archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
 
 | Originaldokument | PDF-Seiten | SHA-256 | MD5 |
 | --- | ---: | --- | --- |
@@ -91,6 +115,7 @@ Die sechs archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **M
 | [LCPROWL VOL. 4_0040](https://archive.org/download/LCPROWLVOL4-0040/LCPROWL%20%20%20%20VOL.%204_0040.pdf) | 4 | `79c540aab4ca4093b4767899e9b6a45f8a03f1204242ed3952d03e518ced6204` | `02fbcf3199e1ff4c9987c81fff2c36ce` |
 | [LCPROWL VOL. 1_0033](https://archive.org/download/LCPROWLVOL1-0033/LCPROWL%20%20%20%20VOL.%201_0033.pdf) | 21 | `c04a0f51e7cbf5037d115b3f5efd6df007ad2b5e828dc8cd477f5708848c6747` | `ae250501906762bd3772c921d0b96a6a` |
 | [LCPROWL VOL. 3_0017](https://archive.org/download/LCPROWLVOL3-0017/LCPROWL%20%20%20%20VOL.%203_0017.pdf) | 21 | `2a0c1acb3d13ab90c5c0f7f1b14f6ae16a354811d32190f40e3bd0bbd6a263a0` | `2c28d8c402cc2c31f61f85a1e1622438` |
+| [LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf) | 25 | `da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49` | `98f26bd8f4b965c3483dc5aba3719202` |
 
 **Amtliche Bestandszuordnung:** [US National Archives, Record Group 263, Entry ZZ-19](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html) (**NARA**): LCPROWL **Vol. 1–2 in Box 0042**, Vol. **3–4 in Box 0043**. Die Archive.org-Kopien sind verfügbare originalgetreue historische PDF-Dateien, nicht die aktuelle CIA-Webbereitstellung.
 

@@ -26,6 +26,9 @@ ORIGINALS = (
     ("VOL. 3_0017", "LCPROWLVOL3-0017", "VOL.%203_0017.pdf",
      "2a0c1acb3d13ab90c5c0f7f1b14f6ae16a354811d32190f40e3bd0bbd6a263a0",
      "2c28d8c402cc2c31f61f85a1e1622438"),
+    ("VOL. 4_0054", "LCPROWLVOL4-0054", "VOL.%204_0054.pdf",
+     "da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49",
+     "98f26bd8f4b965c3483dc5aba3719202"),
 )
 
 
@@ -63,6 +66,19 @@ class LcprowlUSOriginals1952(unittest.TestCase):
             "Emil Peters", "Erwin Peters", "50.000 DM",
             "500–1.000 DM", "1. September 1952", "Worms",
             "Presseübersetzung", "unterschiedlichen Dateihashes",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, article)
+        self.assertNotIn("Saxer überwies nachweislich", article)
+
+    def test_private_cover_contracts_and_later_cia_self_assessment(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        for marker in (
+            "20. Juli 1951", "11. August 1951", "Otto Schill",
+            "Johann Saxer", "Emil Peters", "20.000 DM", "18.000 DM",
+            "40.000-DM-Darlehen", "35 m³", "126.000 DM", "4.450 DM",
+            "91.000 DM", "QA 1328", "nicht genehmigt",
+            "PDF-S. 16–17", "PDF-S. 21–22", "unwirksame Tarnung",
         ):
             with self.subTest(marker=marker):
                 self.assertIn(marker, article)
