@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**130 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**140 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -707,6 +707,17 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
 
+<a id="src-de-bt-nonne-3123-1992"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fahndung nach der RAF und Kronzeugenfall Nonne – Drs. 12/3123](https://dserver.bundestag.de/btd/12/031/1203123.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-NONNE-3123-1992`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
+
+Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
 <a id="src-de-bt-okt-1613527-2009"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -960,6 +971,83 @@ Hessisches Hauptstaatsarchiv Wiesbaden · unbekannt · Stufe **A** · Primärque
 
 Fundstelle: HHStAW, 502, 17886; Bd. 1; Laufzeit [1951] 1952–1953; 'Enthält'-Vermerk zur Deutsch-Amerikanischen Untersuchungskommission
 
+<a id="src-de-stammheim-128-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 128. Verhandlungstag: Müller und Beweisanträge](https://www.stammheim-prozess.de/128-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-07-20 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-128-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/128-verhandlungstag/)
+
+Fundstelle: S. 10633–10659; Anlagen 4–19
+
+<a id="src-de-stammheim-158-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 158. Verhandlungstag: Teilfreigabe 3 ARP 74/75 I](https://www.stammheim-prozess.de/158-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-05 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-158-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/158-verhandlungstag/)
+
+Fundstelle: Protokoll S. 12262–12270 (Teilfreigabe und Unterbrechungsantrag), 12277–12283 (Antragsbehandlung, Ablehnung und Senatsbeschluss)
+
+<a id="src-de-stammheim-159-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 159. Verhandlungstag: Sperrvermerk](https://www.stammheim-prozess.de/159-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-09 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-159-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/159-verhandlungstag/)
+
+Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12288–12292 und 12306
+
+<a id="src-de-stammheim-161-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 161. Verhandlungstag – Nachlieferungen und Sperrvermerk 3 ARP 74/75 I](https://www.stammheim-prozess.de/161-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-16 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-161-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/161-verhandlungstag/)
+
+Fundstelle: Protokoll S. 12347–12353; zwölf weiterhin gesperrte Fundstellen, zehn nicht kopierte Formalblätter
+
+<a id="src-de-stammheim-163-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 163. Verhandlungstag – Ruhland-Zahlungen und Zeugenbetreuung](https://www.stammheim-prozess.de/163-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-24 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-163-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/163-verhandlungstag/)
+
+Fundstelle: Protokoll S. 12507–12513, 12522–12523 (Sicherungsgruppe und Werner Freund), 12581–12645; Aussagen Fisch, Wolf, Zimniak
+
+<a id="src-de-stammheim-166-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 166. Verhandlungstag – Beschluss über beantragte Zeugen zum Fall Ruhland](https://www.stammheim-prozess.de/166-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-12-07 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-166-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/166-verhandlungstag/)
+
+Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
+
+<a id="src-de-bwlt-stammheim-2007"></a>
+### Landtag Baden-Württemberg / Justizministerium
+
+**[Abhörmaßnahmen bei RAF-Gefangenen in Stuttgart-Stammheim – Drs. 14/1721](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)**
+
+Landtag Baden-Württemberg / Justizministerium · 2007-10-08 · Stufe **A** · Primärquelle · `SRC-DE-BWLT-STAMMHEIM-2007`
+
+[PDF öffnen](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)
+
+Fundstelle: Antwort zu Fragen 1–6, gedruckte S. 3–6
+
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen
 
@@ -1013,6 +1101,17 @@ Niedersächsisches Justizministerium · 2015-07-24 · Stufe **A** · Primärquel
 
 [Seite öffnen](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html)
 
+<a id="src-de-olg-stuttgart-raf-1977"></a>
+### Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition
+
+**[OLG Stuttgart, Urteil im Stammheim-Verfahren vom 28. April 1977 (2 StE 1/74)](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)**
+
+Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 · Stufe **A** · Primärquelle · `SRC-DE-OLG-STUTTGART-RAF-1977`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
+
+Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
 
@@ -1034,6 +1133,17 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+<a id="src-de-rotehilfe-ruhland-1975"></a>
+### Rote Hilfe / Hans-Litten-Archiv (Digitalisat)
+
+**[Rote Hilfe, 3. Jg., Nr. 9: Ruhlands Geldgeber](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)**
+
+Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Primärquelle · `SRC-DE-ROTEHILFE-RUHLAND-1975`
+
+[PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
+
+Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
 
 <a id="src-de-hh-warburg-senat-2020"></a>
 ### Senat der Freien und Hansestadt Hamburg

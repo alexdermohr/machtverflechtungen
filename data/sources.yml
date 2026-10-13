@@ -1481,3 +1481,130 @@ sources:
   locator: "Heft P/VIII/249, gedruckte S. 6–7, PDF-Bildseiten 6–7; FES-TIFF 400 dpi: /tiff400/015/00000338.tif und 00000339.tif"
   sha256: "12e0da64ad637156d45cc2ae2f99fcff76cb964dd3ad9c9347b4b45f03ffc3e1"
   notes: "Zeitgenössischer Artikel (sp), der aus einer angeblich mehrfach als streng vertraulich gekennzeichneten Ergänzungsdenkschrift zu Paul Lüths Bürger und Partisan (1951) zitiert. Die wiedergegebenen Passagen stellen öffentliches BDJ-Auftreten und geheime technische Vorbereitung als zwei zusammenhängende Teile dar und nennen Technischer Dienst ausdrücklich. Das Faksimile ist die zeitgenössische Presseveröffentlichung dieser Passagen, noch keine geprüfte Originalausfertigung der BDJ-Denkschrift."
+- id: SRC-DE-STAMMHEIM-128-1976
+  title: 'Stammheim-Prozess, 128. Verhandlungstag: Müller und Beweisanträge'
+  date: '1976-07-20'
+  url: https://www.stammheim-prozess.de/128-verhandlungstag/
+  locator: S. 10633–10659; Anlagen 4–19
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  accessed: '2026-10-13'
+  notes: 'Edition historischer Prozessprotokolle: dokumentierte Verfahrenshandlungen,
+    nicht automatische Wahrheitsfeststellung über strittige Vorwürfe.'
+- id: SRC-DE-STAMMHEIM-158-1976
+  title: 'Stammheim-Prozess, 158. Verhandlungstag: Teilfreigabe 3 ARP 74/75 I'
+  date: '1976-11-05'
+  url: https://www.stammheim-prozess.de/158-verhandlungstag/
+  locator: Protokoll S. 12262–12270 (Teilfreigabe und Unterbrechungsantrag), 12277–12283 (Antragsbehandlung, Ablehnung und Senatsbeschluss)
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  accessed: '2026-10-13'
+  notes: 'Edition historischer Prozessprotokolle: dokumentierte Verfahrenshandlungen,
+    nicht automatische Wahrheitsfeststellung über strittige Vorwürfe.'
+- id: SRC-DE-STAMMHEIM-159-1976
+  title: 'Stammheim-Prozess, 159. Verhandlungstag: Sperrvermerk'
+  date: '1976-11-09'
+  url: https://www.stammheim-prozess.de/159-verhandlungstag/
+  locator: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12288–12292 und 12306
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  accessed: '2026-10-13'
+  notes: 'Edition historischer Prozessprotokolle: dokumentierte Verfahrenshandlungen,
+    nicht automatische Wahrheitsfeststellung über strittige Vorwürfe.'
+- id: SRC-DE-BWLT-STAMMHEIM-2007
+  title: Abhörmaßnahmen bei RAF-Gefangenen in Stuttgart-Stammheim – Drs. 14/1721
+  date: '2007-10-08'
+  url: https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf
+  locator: Antwort zu Fragen 1–6, gedruckte S. 3–6
+  institution: Landtag Baden-Württemberg / Justizministerium
+  type: parliamentary_response
+  primary: true
+  tier: A
+  accessed: '2026-10-13'
+  notes: Zeitgenössische oder amtliche Regierungsantwort; Fragen und bestätigte Regierungsbefunde
+    getrennt halten.
+- id: SRC-DE-BT-NONNE-3123-1992
+  title: Fahndung nach der RAF und Kronzeugenfall Nonne – Drs. 12/3123
+  date: '1992-07-30'
+  url: https://dserver.bundestag.de/btd/12/031/1203123.pdf
+  locator: Fragen 4–6, gedruckte S. 3–5
+  institution: Deutscher Bundestag / Bundesregierung
+  type: parliamentary_response
+  primary: true
+  tier: A
+  accessed: '2026-10-13'
+  notes: Zeitgenössische oder amtliche Regierungsantwort; Fragen und bestätigte Regierungsbefunde
+    getrennt halten.
+- id: SRC-DE-OLG-STUTTGART-RAF-1977
+  title: OLG Stuttgart, Urteil im Stammheim-Verfahren vom 28. April 1977 (2 StE 1/74)
+  institution: Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition
+  date: '1977-04-28'
+  type: court_judgment_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf
+  accessed: '2026-10-13'
+  locator: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und
+    1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+  notes: Wiedergabe des historischen Gerichtsurteils in einer modernen wissenschaftlichen
+    Edition. Primärquelle für gerichtliche Tatsachenfeststellungen und Beweiswürdigung,
+    nicht für unabhängig verifizierte Geheimdienstfinanzierung.
+- id: SRC-DE-STAMMHEIM-161-1976
+  title: Stammheim-Prozess, 161. Verhandlungstag – Nachlieferungen und Sperrvermerk
+    3 ARP 74/75 I
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-11-16'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/161-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Protokoll S. 12347–12353; zwölf weiterhin gesperrte Fundstellen, zehn nicht
+    kopierte Formalblätter
+  notes: Originalprotokoll der Aussagen von Vorsitz und Bundesanwalt Wunder. Deren
+    Angabe, Formalblätter enthielten keine materiellen Müller-Informationen, ist eine
+    behördliche Aussage.
+- id: SRC-DE-STAMMHEIM-163-1976
+  title: Stammheim-Prozess, 163. Verhandlungstag – Ruhland-Zahlungen und Zeugenbetreuung
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-11-24'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/163-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Protokoll S. 12507–12513, 12522–12523 (Sicherungsgruppe und Werner Freund), 12581–12645; Aussagen Fisch, Wolf, Zimniak
+  notes: Historisches Sitzungsprotokoll als Primärbeleg dafür, was ausgesagt und bestritten
+    wurde. Es bestätigt keine Herkunft der Gelder aus Nachrichtendienstfonds, keine
+    Gehlen-Beziehung und keine Tatsteuerung.
+- id: SRC-DE-STAMMHEIM-166-1976
+  title: Stammheim-Prozess, 166. Verhandlungstag – Beschluss über beantragte Zeugen
+    zum Fall Ruhland
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-12-07'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/166-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe,
+    Becher, Gehlen
+  notes: Belegt die prozessuale Ablehnung weiterer Zeugen als für Müller unerheblich.
+    Der Beschluss entscheidet nicht über reale Geldflüsse an Ruhland.
+- id: SRC-DE-ROTEHILFE-RUHLAND-1975
+  title: 'Rote Hilfe, 3. Jg., Nr. 9: Ruhlands Geldgeber'
+  institution: Rote Hilfe / Hans-Litten-Archiv (Digitalisat)
+  date: '1975-11'
+  type: contemporary_periodical
+  primary: true
+  tier: A
+  url: https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf
+  accessed: '2026-10-13'
+  locator: '3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber'
+  notes: 'Zeitgenössische parteiliche Presse als Primärbeleg für die öffentliche Verbreitung von Angaben zu 700–800 DM pro Monat, Rechtsanwalt Becher und angeblicher Vermittlung durch die Bonner Sicherungsgruppe. Der Text belegt keine tatsächliche Auszahlung durch eine Behörde oder die Herkunft von Drittmitteln.'
