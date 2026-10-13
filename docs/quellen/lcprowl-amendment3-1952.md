@@ -12,7 +12,7 @@ Das Dokument enthält eine besonders wichtige **Steuerungsvorstellung**: OPC erw
 | --- | --- | --- |
 | Amendment No. 1, paramilitärischer Apparat | **4.000 US-Dollar** Grundzuweisung; später weitere **27.656 US-Dollar** | **PDF-S. 5**, Abschnitt 4.b.2: Die zusätzlichen 27.656 Dollar seien für Ausbildungsausrüstung und einen festen Ausbildungsort **zugeteilt und verausgabt** worden. |
 | Amendment No. 2, genehmigt am **3. Juli 1951** | **125.000 US-Dollar** für **13 Monate**, beginnend am **1. Juni 1951** | **PDF-S. 5**, Abschnitt 4.b.3: Rückblickende CIA-Angabe einer *bewilligten* Projektfinanzierung; keine erneute Amendment-3-Zahlung. |
-| Amendment No. 3 für den Rest des Fiskaljahrs 1952 | **32.000 US-Dollar zusätzlich beantragt** | **PDF-S. 4**, Abschnitt 4.a.3: Antrag zur Fortführung bzw. Ausweitung des verdeckten Apparats. Ein späterer Bewilligungs- oder Auszahlungsbeleg ist gesondert zu prüfen. |
+| Amendment No. 3 für den Rest des Fiskaljahrs 1952 | **32.000 US-Dollar zusätzlich beantragt** | **PDF-S. 4**, Abschnitt 4.a.3: Antrag. Die spätere [CIA-interne Nachprüfung](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf), PDF-S. 22, sagt ausdrücklich, **Amendment No. 3 wurde nicht genehmigt**. Die tatsächlich geflossenen Mittel sind gesondert zu bilanzieren. |
 
 Die drei Zahlen bilden unterschiedliche Haushaltsvorgänge. Die für Amendment No. 2 genannten 125.000 US-Dollar sind bereits in [der veröffentlichten Amendment-2-Studie](../faelle/de/technischer-dienst-bdj.md) im Kontext dokumentiert. Die zusätzlichen 32.000 US-Dollar begründen hier einen neuen Antrag, nicht automatisch eine genehmigte Auszahlung.
 
@@ -31,11 +31,11 @@ Der Bericht unterscheidet Rekrutierungsplanung, sondierte Kandidaten, freigegebe
 
 **Operative Gliederung:** Die früher beabsichtigten Kreis-, Landes- und Bundesleitungen sowie Organisationen A und B sind auf **PDF-S. 5** beschrieben. Die neue Planung betont die Abschottung in drei regionalen Netzen für Nord-, Mittel- und Süddeutschland mit unterschiedlichen Aufgaben (**PDF-S. 4**). Für Ostdeutschland werden Kontakte, Grenzübergänge, Kuriere, Kommunikationskanäle und Vorbereitung von Materialdepots genannt (**PDF-S. 6–7**).
 
-## Die Sperrholzfirma als bereits genutzte Tarnung
+## Sperrholzunternehmen: beantragte Tarnung und spätere CIA-Nachprüfung
 
-Die Akte dokumentiert einen konkreten wirtschaftlichen Deckungsmechanismus. In Westdeutschland nutzten hauptamtliche Angehörige des Apparats bereits die Tarnung eines **Sperrholzunternehmens**; der Betrieb könne höchstens **15 Mitarbeiter** glaubwürdig abdecken. Deshalb wird der **Erwerb eines zweiten Unternehmens** für notwendig erklärt (**PDF-S. 2 sowie 8**, Abschnitte 3.b.2.b und 5.c.1).
+**Amendment No. 3** berichtet, ein erworbenes **Sperrholzunternehmen** werde als Tarnung für hauptamtliche Angehörige des Apparats genutzt; nach damaliger Feldannahme könne es höchstens **15 Mitarbeiter** glaubwürdig abdecken. Deshalb wurde der **Erwerb eines zweiten Unternehmens** beantragt (**PDF-S. 2 und 8**, Abschnitte 3.b.2.b und 5.c.1). Die spätere [CIA-interne Selbstprüfung](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf) bewertete den Betrieb hingegen als **unwirksame Tarnung**: Die Feldstation hatte nicht einmal geprüft, ob die Gesellschaft ihren Deckzweck erfüllte (**VOL. 4_0054, PDF-S. 10–12 und 21–22**).
 
-Das gesonderte Amendment No. 2 erwähnt außerdem die **Schallplattenfirma** als geplante kommerzielle Tarnung. Die beiden Dokumente sind im zeitlichen Verlauf zu vergleichen: Eine bereits genutzte Sperrholzfirma und eine beantragte zweite Tarnfirma sind unterschiedliche Sachverhalte. Gesellschaftsregister, tatsächliche Erwerbsbelege, Deckungsvereinbarungen und Mittelabflüsse wären die geeigneten Anschlussurkunden.
+Das ältere Amendment No. 2 erwähnte eine **Schallplattenfirma** als geplante kommerzielle Tarnung. Laut der späteren CIA-Selbstprüfung (**VOL. 4_0054, PDF-S. 11, 22**) wurde stattdessen das Sperrholzunternehmen **Saxer ohne ordnungsgemäße Autorisierung** erworben; der zusätzlich beantragte zweite Tarnbetrieb wurde **nicht genehmigt**. Gesellschaftsvertrag, Registereintrag, Finanzierung und Unternehmensabrechnungen sind als nächste Originalbelege zu prüfen.
 
 **Nachrichtendienstliche Steuerung:** Nach dem Bericht sollte der amerikanische Falloffizier über **vier voneinander abgeschottete deutsche Hauptagenten** arbeiten; Kuriere und Mittelsmänner dienten der Kontaktbeschränkung (**PDF-S. 8**, Abschnitt 5.c.3). Gleichzeitig beschreibt die Akte Waffen-, Sprengstoff- und Propagandamaterial als besonders verdeckt zu haltende Versorgung (**PDF-S. 8**, Abschnitt 5.c.2).
 
@@ -60,7 +60,7 @@ Der wichtigste neue Befund für eine deutsch-amerikanische Kenntnis- und Steueru
 
 Der Bericht bildet damit eine **datierbare amerikanische Absicht zur teilweisen Verlagerung organisatorischer Zuständigkeit** ab. Die Prüfung der tatsächlichen Umsetzung führt zu den späteren Entscheidungen über Rückbau, Übergabe und Liquidierung 1952. Dafür sind die Ministerial- und HICOG-Vermerke, das Schreiben Zinn an Adenauer vom 7. Oktober 1952 (**BArch B 136/4430**) und die CIA-LCPROWL-Bände 2–4 heranzuziehen.
 
-Der Text beschreibt außerdem die **Entflechtung der verdeckten Apparate vom offenen BDJ seit August 1950** (**PDF-S. 5**, Abschnitt 4.b.4). Politische BDJ-Förderung und Finanzierung des geheimen Apparats sind deshalb getrennte Rechnungskreise.
+**Amendment No. 3 behauptete** eine seit August 1950 vollzogene Abschottung des verdeckten Apparats gegenüber dem offenen BDJ (**PDF-S. 5**, Abschnitt 4.b.4). Die nachträgliche [CIA-Rückschau](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf), Abschnitt IV (**PDF-S. 16–17**), bezeichnet diese Trennung dagegen als **grundlegend gescheitert**: Personelle Leitungs- und Tarnverbindungen blieben bestehen. Die Projektbudgets sind daher nach ihrer jeweiligen Zweckbestimmung zu erfassen, nicht allein aufgrund der behaupteten organisatorischen Trennung als tatsächlich isolierte Rechnungskreise.
 
 ## Auffällige Datumsabweichung zwischen zwei CIA-Berichten
 
@@ -72,7 +72,7 @@ Die bereits veröffentlichte [OPC-Antragsstudie vom August 1950](lcprowl-1950-op
 
 | Frage | Bestell- bzw. Prüfspur |
 | --- | --- |
-| Sind die 32.000 US-Dollar aus Amendment No. 3 tatsächlich genehmigt und ausgezahlt worden? | Nachfolgefreigabe, OPC-Projektkonto und Monatsabrechnungen; **NARA RG 263 / LCPROWL Bände 1–2, Box 42** |
+| Welcher formelle Beschluss untersagte Amendment No. 3 und welche operativen Zahlungen liefen danach tatsächlich? | CIA-Rückschau **VOL. 4_0054, PDF-S. 22**; Originalentscheidung, OPC-Projektkonto und Monatsabrechnungen; **NARA RG 263 / LCPROWL Bände 1–2, Box 42** |
 | Welche Firmen waren die Tarnbetriebe? | Ankauf, Handelsregister, Belegschaft und Buchhaltung der Sperrholzfirma und der vorgesehenen Schallplattenfirma; deutsche Register und CIA-Anlagen |
 | Welche westdeutsche Behörde sollte das Personal übernehmen? | US-OPC- und HICOG-Briefwechsel über die Europäische Verteidigungsgemeinschaft; **BArch B 136/4430**, Kabinetts- und BMI-Akten |
 | Wann und wie wurde ein Rückbau tatsächlich angeordnet? | **LCPROWL VOL. 4_0030**, ergänzende FRAN-Meldungen und Übergabeprotokolle 1952 |
@@ -82,4 +82,5 @@ Die bereits veröffentlichte [OPC-Antragsstudie vom August 1950](lcprowl-1950-op
 
 - **CIA, LCPROWL VOL. 1_0036:** [*Project LCPROWL – Amendment No. 3* (CIA-Originalscan)](https://archive.org/download/LCPROWLVOL1-0036/LCPROWL%20%20%20%20VOL.%201_0036.pdf), 11 Seiten; **MD5 `0acd31c03e5b6a4469be2369bdf7528c`** (übereinstimmend mit den Internet-Archive-Dateimetadaten); **SHA-256 `cf3f5edb13d77afa6559d392959f1e78bf6cb4213bf6271c913b0dbcc890a736`** des vollständig gespeicherten PDF-Faksimiles; Textstellen PDF-S. 2–8, Budgettabellen PDF-S. 10–11. Archivordnung: **Record Group 263, Entry ZZ-19, Box 42**, nach vorliegendem Projektregister.
 - **CIA, LCPROWL VOL. 1_0037:** *Project Amendment No. 2*, Rückblick auf **21. Dezember 1950** sowie auf die spätere Projektplanung; bereits separat verifizierter SHA-256 **`d46f15e7afc334c4496c579cf8be1401dc4412d446edba6a370cb4bc19027c17`**.
+- **CIA, LCPROWL VOL. 4_0054:** [vollständiges 25-seitiges retrospektives CIA-Faksimile](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf), SHA-256 **`da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49`** und archivbestätigter MD5 **`98f26bd8f4b965c3483dc5aba3719202`**, besonders **PDF-S. 10–12** (Tarnfirma), **S. 16–17** (BDJ-Abschottung) und **S. 21–22** (Finanzierung/Nichtgenehmigung).
 - Forschungsabgleich: [BDJ-/TD-Fallakte](../faelle/de/technischer-dienst-bdj.md), [Bundestagsprotokolle und VFF 1951–1952](https://alexdermohr.github.io/machtverflechtungen/quellen/bdj-gesamtdeutscher-ausschuss-1951-1952/), [zentraler Forschungsauftrag und Originalquellenfundstellen](https://github.com/alexdermohr/machtverflechtungen/issues/37).
