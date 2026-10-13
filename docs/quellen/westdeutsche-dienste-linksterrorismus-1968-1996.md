@@ -1,0 +1,87 @@
+# Westdeutsche Sicherheitsdienste und westdeutscher Linksterrorismus (1968–1996)
+
+**Quellenstudie · Stand: 13. Oktober 2026.** Gegenstand sind westdeutsche Verfassungsschutzbehörden, Polizei und Justiz im unmittelbaren Umfeld westdeutscher militanter und terroristischer Gruppen. Der Schwerpunkt liegt auf **konkreten staatlichen Handlungen**: Waffen- und Sprengstoffbeschaffung durch Quellen, V-Leute-Führung, inszenierte Gewaltakte, unterlassener Beweistransfer und behördliche Schutzmaßnahmen für Beschuldigte.
+
+Die [Fallakte Peter Urbach](../faelle/de/peter-urbach-verfassungsschutz.md) und die [Fallakte Celler Loch](../faelle/de/celler-loch.md) werden nicht ersetzt. Diese Studie verbindet ihre Befunde mit neu erschlossenen Parlaments- und Gerichtsquellen zu Ulrich Schmücker, Klaus Steinmetz und Verena Becker.
+
+## Aktenbefunde
+
+| Zeitraum und Komplex | Konkreter Vorgang | Nachprüfbare Fundstelle |
+| --- | --- | --- |
+| **1968–1971: Peter Urbach, West-Berlin** | Der Berliner Verfassungsschutz führte Urbach als Quelle im Umfeld militanter Gruppen. Historische Forschung rekonstruiert die Bereitstellung von Molotowcocktails, Waffen und Sprengsätzen und zugleich die Weitergabe von Informationen, die zu Festnahmen beitrugen. | Robert Wolff, [*Die Mai-Offensive der RAF im Jahr 1972*](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972), Abschnitt über Urbach; zu Originalzeugnissen die [Urbach-Fallakte](../faelle/de/peter-urbach-verfassungsschutz.md). |
+| **1972–1973: Nollau-Briefe / BfV** | Zwei von Robert Wolff ausgewertete Briefe des BfV-Präsidenten an den Bundesinnenminister dokumentieren die Idee einer künstlich geschaffenen anarchistischen Gruppe sowie das Konzept gezielt eingeschleuster Sonder-V-Leute. | Robert Wolff, [Originalbrief-Auswertung 2022](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972), Fußnoten 1 und 6; vollständige Originalscans bisher nicht öffentlich eingesehen. |
+| **1974–1991: Ulrich Schmücker, West-Berlin** | Nach der Tötung des Verfassungsschutz-V-Mannes gelangte eine vom Dienst als mutmaßliche Tatwaffe behandelte Pistole in den Besitz des Berliner Verfassungsschutzes. Sie blieb dort vom 6. Juni 1974 bis April 1989, ehe sie dem Strafgericht übergeben wurde. Das Mordverfahren wurde 1991 wegen schwerer, nicht mehr heilbarer Verfahrensdefizite eingestellt. | Abgeordnetenhaus von Berlin, [Drs. 11/1224, Zwischenbericht des 2. Untersuchungsausschusses](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf), Abschnitte zur Pistole und den Zeugenaussagen; [zeitgenössische Prozessdokumentation 1991](https://www.cilip.de/1991/09/26/schmuecker-verfahren-endgueltig-eingestellt-kein-schlusswort/). |
+| **1978–1989: „Aktion Feuerzauber“, Celle** | Verfassungsschützer und staatliche Sicherheitskräfte ließen eine Sprengung an der JVA Celle wie einen terroristischen Befreiungsversuch erscheinen, um im RAF-Umfeld verdeckt operieren zu können. Die Hintergründe wurden später parlamentarisch untersucht. | Niedersächsischer Landtag, [Drs. 11/4380, Bericht des 11. Parlamentarischen Untersuchungsausschusses vom 9. Oktober 1989](https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf); [zeitgenössische Auswertung](https://www.cilip.de/1989/12/15/das-lockspitzelsystem-vom-celler-loch-bis-zur-methode-mauss-der-abschlussbericht-des-11-parlamentarischen-untersuchungsausschusses-des-niedersaechsischen-parlaments/). |
+| **1993–1996: Klaus Steinmetz / Weiterstadt** | Der rheinland-pfälzische Verfassungsschutz führte Steinmetz als V-Mann im RAF-Umfeld. Die Bundesanwaltschaft ermittelte später selbst gegen ihn und ließ 1995 einen Haftbefehl erwirken. Das BfV hatte zuvor seine neue Identität beschafft; der GBA verfügte 1996 nach eigener Auskunft nicht über diese Identität. | Deutscher Bundestag, [Drs. 12/7790](https://dserver.bundestag.de/btd/12/077/1207790.pdf) und [Drs. 13/4812](https://dserver.bundestag.de/btd/13/048/1304812.pdf), besonders S. 2, 4–8. |
+| **1977/1981–2012: Verena Becker** | Kontakte der ehemaligen RAF-Angehörigen zum Bundesamt für Verfassungsschutz ab 1981 sind dokumentiert. Das OLG Stuttgart stellte 2012 fest, dass der Verfassungsschutz 1977 keinen Zugang zur Tätergruppe hatte; staatliche Verstrickung in den Buback-Anschlag oder manipulative Ermittlungen wurden im Verfahren nicht festgestellt. | [OLG Stuttgart, Pressemitteilung zum Urteil vom 6. Juli 2012, Az. 6-2 StE 2/10](https://oberlandesgericht-stuttgart.justiz-bw.de/pb/,Lde/8975336/?LISTPAGE=8975148). |
+
+## 1. Peter Urbach: Beschaffung und Beobachtung zugleich
+
+Historiker Robert Wolff wertet einen Brief des BfV-Präsidenten Günther Nollau vom **21. Mai 1972** an Bundesinnenminister Hans-Dietrich Genscher aus. Wolff beschreibt Urbach als wichtige Quelle des West-Berliner Verfassungsschutzes, die zur Bewaffnung militanter Gruppen beigetragen und zugleich Informationen an Ermittlungsbehörden geliefert habe.
+
+**Untersuchungsmechanismus:** Ein vom Dienst geführter Informant kann die Gewaltfähigkeit der überwachten Szene materiell verändern. Die Frage nach Wissen, Billigung oder Anweisung durch Führungspersonen muss an Einsatzaufträgen, Waffenherkunft und Berichtswegen geprüft werden. Zur widersprechenden Berliner Senatsposition von 1981 und den konkreten Originalzeugnissen siehe die bereits vorhandene [Urbach-Fallakte](../faelle/de/peter-urbach-verfassungsschutz.md).
+
+### BfV-Vorschläge zur künstlichen Gruppenbildung (1972/1973)
+
+Die von Robert Wolff aus seinem Privatarchiv ausgewerteten Schreiben Nollaus an Genscher erweitern den Befund von der Führung bereits vorhandener Quellen zur **Planung selbst geschaffener Tarnstrukturen**:
+
+- **21. Mai 1972:** Nollau erklärte, im BfV sei besprochen worden, eine kleine anarchistische Gruppe zu gründen, um Personen an den Kern der Baader-Meinhof-Gruppe heranzuführen; er erbat dafür politische Deckung. Der Brief belegt eine konkrete behördeninterne Planung und eine Anfrage an den Minister, nicht schon deren praktische Umsetzung.
+- **10. Januar 1973:** Nollau legte das Konzept eines besonderen V-Mannes dar, der anders als gewöhnliche Quellen gezielt von außen in die Zielkreise eingeschleust werden solle und währenddessen als freier Mitarbeiter geführt werden könne.
+
+**Fundstelle:** Robert Wolff, [*Die Mai-Offensive der RAF im Jahr 1972*](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972), Abschnitte „Neue, unkonventionelle Wege“ und „Sonder-V-Mann“, Fußnoten 1 und 6; Briefe vom 21. Mai 1972 und 10. Januar 1973, Privatarchiv Robert Wolff. Die vollständigen Faksimiles, die ministerielle Antwort und konkrete spätere Umsetzungsakten müssen beschafft werden. Erst damit lässt sich die Brücke von **vorgeschlagener Gruppenbildung** zu einer **tatsächlichen verdeckten Operation** schlagen.
+
+
+**Weitere Überlieferung zur tatsächlichen Durchführung:** Erich Schmidt-Eenboom, [*Geheimdienste in Demokratien* (2006), S. 23–24](https://d-nb.info/1217484590/34), berichtet, Genscher habe Nollau im **April 1973** weitere Aktivitäten untersagt, nachdem entsprechende Maßnahmen rund einen Monat zuvor begonnen hätten; Anlass seien rechtliche und politische Bedenken und die Forderung nach einer juristischen Prüfung gewesen. Dies ist ein **sekundärer Hinweis auf angelaufene Maßnahmen**, keine Identifikation der begonnenen Maßnahmen mit der im Mai 1972 erwogenen künstlichen Gruppe. Der ministerielle Stopp, die ersten Aufträge von März 1973 und die juristische Prüfung sind als Originalakten zu beschaffen.
+
+## 2. Ulrich Schmücker: Beweise unter Nachrichtendienstkontrolle
+
+Der [Zwischenbericht des Berliner Untersuchungsausschusses, Drs. 11/1224](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf), rekonstruiert die Weitergabe und Zurückhaltung einer Pistole im Zusammenhang mit der Tötung Ulrich Schmückers. Nach den dort referierten Vorgängen befand sie sich **vom 6. Juni 1974 bis April 1989** beim Berliner Verfassungsschutz. Entscheidend ist nicht die abschließende ballistische Zuordnung der Pistole, sondern die belegte langjährige Vorenthaltung eines potenziell zentralen Asservats gegenüber der Strafjustiz.
+
+Nach vier Durchgängen und insgesamt 591 Verhandlungstagen wurde das Verfahren am **28. Januar 1991** eingestellt. Das Gericht sah ein faires Verfahren nach dem Verlauf der Beweiserhebung und der Einflussnahme nicht mehr als möglich an; die [zeitgenössische Untersuchung](https://www.cilip.de/1991/09/26/schmuecker-verfahren-endgueltig-eingestellt-kein-schlusswort/) referiert diese Entscheidung und weitere aktenbezogene Vorgänge.
+
+**Weiterführende Spur:** Derselbe zeitgenössische Bericht verweist auf Bespitzelung eines Verteidigers durch einen V-Mann und auf hohe Zahlungen für Quellenschutzmaßnahmen. Die Einzelbeträge und Empfänger sind erst nach Gegenprüfung an den parlamentarischen Originalakten als eigenständige Finanzierungs-Claims zu übernehmen.
+
+**Gezielte Primärakten-Nachsuche:** Der Katalog [Archiv Schwarzer Stern, Sachgruppe „Schmücker-Prozesse“](https://www.archiv-schwarzer-stern.de/ErgebnisSucheSachgruppe_mit.php?eintraege_pro_seite=10&sachgruppe=06.01.08.00&seite=1) verzeichnet eine 228-seitige zeitgenössische Sammlung *Materialien zum Schmücker-Prozeß* (1991): unter anderem Verwaltungsgerichts-Beschlüsse vom Oktober und November 1989, ein Schreiben der Berliner Senatsverwaltung für Inneres vom **30. Oktober 1989** zur V-Tätigkeit **Christian Hains**, eine fünfseitige Darstellung zum V-Mann „Flach“ und Schriftsätze des Verteidigers Philipp Heinisch. Der Katalog belegt die Existenz dieser bezeichneten Sammlung, nicht den Inhalt jedes Dokuments. Diese Schriftstücke wären direkt mit den Seiten **12, 51, 77 ff. und 352** des niedersächsischen Untersuchungsberichts 11/4380 zur Debus-Befreiungsplanung abzugleichen.
+
+## 3. Celler Loch: staatliche Inszenierung eines Anschlags
+
+Der Sprengstoffanschlag auf die JVA Celle vom **25. Juli 1978** war eine verdeckte staatliche Operation („Aktion Feuerzauber“). Das Land Niedersachsen und eingesetzte Sicherheitskräfte schufen eine vermeintlich terroristische Tatlage, die der Einschleusung beziehungsweise Glaubwürdigkeitssteigerung verdeckter Kräfte dienen sollte.
+
+Der [Untersuchungsbericht Drs. 11/4380](https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf) ist die maßgebliche parlamentarische Primärquelle. Eine [Auswertung aus dem Jahr 1989](https://www.cilip.de/1989/12/15/das-lockspitzelsystem-vom-celler-loch-bis-zur-methode-mauss-der-abschlussbericht-des-11-parlamentarischen-untersuchungsausschusses-des-niedersaechsischen-parlaments/) schildert die Ermittlungen zu den verdeckten Akteuren Loudil, Berger und Zeljko Susak sowie weitere Lockspitzeloperationen.
+
+**Querverbindung zur Schmücker-Affäre – Prüfauftrag:** Eine [zeitgenössische Untersuchung](https://www.cilip.de/1989/12/15/schmuecker-strafverfahren-und-kein-ende/) beschreibt den V-Mann „Christian Hain“ sowohl im Umfeld der Ausspähung eines Schmücker-Verteidigers als auch in Verbindung mit Planungen zur Befreiung von Sigurd Debus. Zur Feststellung einer identischen operativen Personenkette sind die Zeugenaussagen und die jeweiligen personenbezogenen Passagen der Berliner Drs. 11/1224 und niedersächsischen Drs. 11/4380 miteinander abzugleichen; bloß gleichzeitige Erwähnungen reichen nicht.
+
+## 4. Steinmetz: Sprengstoffspuren, neue Identität und Haftbefehl
+
+Die [Antwort der Bundesregierung vom 5. Juni 1996, Drs. 13/4812](https://dserver.bundestag.de/btd/13/048/1304812.pdf), dokumentiert eine außergewöhnliche zeitliche Abfolge:
+
+1. **20. Juli 1993:** Ermittlungen gegen Steinmetz wegen Verdachts der Mitgliedschaft in einer terroristischen Vereinigung und Nichtanzeige geplanter Straftaten; Ausgangspunkt war unter anderem seine später widerrufene Angabe, zuvor vom Anschlag in Weiterstadt erfahren zu haben (S. 6).
+2. **28. Januar 1994:** Einstellung des Ermittlungsverfahrens wegen des Vorwurfs der mitgliedschaftlichen Beteiligung an beziehungsweise Unterstützung einer terroristischen Vereinigung, weil weder objektive Tatbeiträge noch die subjektive Tatseite hinreichend nachweisbar waren. Eine unmittelbare Beteiligung am Sprengstoffanschlag wurde Steinmetz nach Angaben der Bundesregierung dabei nicht vorgeworfen; geprüft wurde auch die Nichtanzeige der geplanten Straftat (Drs. 13/4812, S. 6–7). Das BfV übernahm **nach diesem Datum** für das rheinland-pfälzische LfV die Schaffung einer neuen Identität; auch das BKA gewährte Schutz (S. 2 und 6).
+3. **25. Oktober 1995:** Wiederaufnahme von Ermittlungen insbesondere aufgrund von Sprengstoffspuren, die laut Bundesregierung sowohl am Tatort Weiterstadt als auch an beiden Fahrzeugen von Steinmetz und Gegenständen aus dem Umfeld einer früheren Freundin nachgewiesen worden waren (S. 7–8). Eine Spur an einem zugänglichen Fahrzeug identifiziert dessen tatsächlichen Nutzer oder Sprengstofftransporteur nicht automatisch.
+4. **28. Dezember 1995:** Erlass eines nationalen Haftbefehls (S. 8).
+5. **1996:** Dem **BfV war die neue Identität bekannt, dem GBA nicht**. Die Bundesregierung erklärte, der GBA habe wegen der Gefährdung von Steinmetz zunächst davon abgesehen, vom Verfassungsschutz die Offenlegung seiner neuen Identität zu erbitten (S. 4–6). Die Bundesregierung bestätigte zugleich, dass das BfV das hessische LfV über die V-Person nicht informiert hatte (S. 2).
+
+Die Bundesregierung widersprach 1996 der Behauptung, ein Alibi sei bereits nachweislich widerlegt; sie stellte auch fest, dass ihr keine ausreichenden Beweise für den ursprünglichen Beteiligungsvorwurf vorgelegen hatten (S. 6–7). Der spätere endgültige Ausgang des ab 1995 geführten Verfahrens ist gesondert anhand von Justizakten zu klären.
+
+**Amtlich dokumentierte Finanzierung:** Die Bundesregierung bestätigte ausdrücklich, dass die vierseitige Behördenvereinbarung vom **20. Dezember 1993** zwischen GBA, BKA, BfV und LfV Rheinland-Pfalz **auch Kostenregelungen** enthielt ([Drs. 13/4812, S. 2–3](https://dserver.bundestag.de/btd/13/048/1304812.pdf)). Sie erklärte zudem, die Kosten verteilten sich entsprechend den Aufgaben auf die beteiligten Dienststellen; Einzelbeträge und konkrete Leistungen wollte sie aus Gründen des Maßnahmeschutzes nicht mitteilen. Das ist eine dokumentierte interinstitutionelle Finanzierung von V-Mann- und Schutzmaßnahmen und eine konkrete Grundlage für spätere Haushalts- und Aktenanträge, aber kein Beleg für privatwirtschaftliche Finanzierung.
+
+Die ältere [Bundestagsdrucksache 12/7790 vom 6. Juni 1994](https://dserver.bundestag.de/btd/12/077/1207790.pdf) enthält zusätzliche Angaben zu Ermittlungs- und Nachrichtendienstmaßnahmen im Zusammenhang mit dem Zugriff in Bad Kleinen.
+
+## 5. Verena Becker: gerichtliche Gegenprobe
+
+Der [6. Strafsenat des OLG Stuttgart](https://oberlandesgericht-stuttgart.justiz-bw.de/pb/,Lde/8975336/?LISTPAGE=8975148) bestätigte 2012 die RAF-Mitgliedschaft Beckers und verurteilte sie wegen Beihilfe zum Mord beim Buback-Attentat. Das Gericht erkannte einen Kontakt zum Verfassungsschutz erst ab 1981 und fand im Verfahren keine tragfähigen Anhaltspunkte für eine vorangehende staatliche Mitwirkung an der Tat 1977.
+
+Eine frühere V-Mann-Verbindung bleibt damit eine in Publikationen diskutierte, aber durch diese gerichtliche Beweisaufnahme nicht gestützte These. Den tatsächlich dokumentierten späteren Kontakt von 1981 kann eine weitere Originalaktenstudie auf Inhalt, Gegenleistungen und Berichtsketten untersuchen.
+
+## Nächste Originalaktenprüfungen
+
+| Arbeitsfrage | Entscheidendes Dokument und Test |
+| --- | --- |
+| Welche Personen wussten 1968–1970 von Urbachs Waffenweitergaben? | Urbachs Führungsakten, die bei Robert Wolff publizierten Auszüge aus dem Nollau-Schreiben vom 21. Mai 1972 und die Originalvermerke des Berliner Innensenats von 1971/1981 vergleichen; das vollständige Nollau-Schreiben aus dem Privatarchiv beschaffen. |
+| Warum blieb im Fall Schmücker die Pistole bis 1989 beim Verfassungsschutz? | Drs. 11/1224 auf Protokolle vom 22. Mai 1990, Anweisungen zur Asservatenbehandlung, interne Amtsleiter-Tagung 1975 und Zuständigkeitsvermerke auswerten. |
+| Handelte Christian Hain in beiden Fällen für dieselbe Dienstkette? | Originalaussagen im Berliner Schmücker- und niedersächsischen Celler-Loch-Untersuchungsausschuss auf Identität, Zeit, Auftrag, Kontakte und Finanzflüsse abgleichen. |
+| Wie wurden Steinmetz' Legendierung und Schutz finanziert und kontrolliert? | Die in Drs. 13/4812 genannten Vereinbarungen vom **20. Dezember 1993** zwischen GBA, BKA, BfV und LfV Rheinland-Pfalz; außerdem Haushalt, Abrechnungs- und Schutzmaßnahmenakten. |
+| Was ergaben die Ermittlungen gegen Steinmetz nach März 1996? | Einstellungsverfügung, Anklage oder sonstiger Abschlussvermerk des Generalbundesanwalts sowie Beschlüsse zum Haftbefehl anfordern. |
+| Gibt es institutionelle Finanzierungsverbindungen jenseits der dokumentierten Dienst- und Quellenschutzbudgets? | Nur über tatsächliche Rechnungsprüfungs-, Haushalts-, Bank- oder Zahlungsakten als eigenständige Geldflussbeziehung erschließen. |
+
+**Forschungsregel:** Dokumentierte staatliche Handlungen, gerichtliche Bewertungen und explizite Hypothesen werden als getrennte Aussagen behandelt. Ein konkreter Aktenfund erhält Vorrang vor einer umfassenderen Erklärung, für die er nur ein mögliches Teilstück darstellt.
