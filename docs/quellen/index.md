@@ -1002,7 +1002,7 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 [Seite öffnen](https://www.stammheim-prozess.de/159-verhandlungstag/)
 
-Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12306
+Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12288–12292 und 12306
 
 <a id="src-de-stammheim-161-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
@@ -1110,7 +1110,7 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
 
-Fundstelle: PDF-S. 114–116, Abschnitt [251]–[257]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76
+Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
 
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
