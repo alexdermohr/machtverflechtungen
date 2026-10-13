@@ -118,6 +118,8 @@ class LcprowlUSOriginals1952(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, row)
         self.assertNotIn("in einem Gebäude einer", row)
+        self.assertIn("CIA-Chronologie (`VOL. 4_0039`)", row)
+        self.assertIn("CIA-Sicherheitsmemorandum (`VOL. 4_0030`, PDF-S. 3, Ziff. 9)", row)
 
     def test_justice_ministry_negotiations_and_confidential_draft_1953(self):
         article = ARTICLE.read_text(encoding="utf-8")
@@ -173,6 +175,8 @@ class LcprowlUSOriginals1952(unittest.TestCase):
         self.assertIn("1951 bis Februar 1953", article)
         self.assertIn("15. April 1953, LCPROWL VOL. 2_0023", article)
         self.assertIn("VOL.%202_0023.pdf", article)
+        self.assertIn("Anschlussakte außerhalb des hier ausgewerteten Zwölf-Faksimile-Korpus", article)
+        self.assertNotIn("zeitlich geschlossene Prüfroute", article)
         self.assertIn("CIA-Originalaktenstudie 1952–1953", case)
         self.assertIn("lcprowl-1952-1953-us-ermittlungen.md", case)
         self.assertNotIn("bisher zugängliche Indextexte", case)
@@ -180,6 +184,10 @@ class LcprowlUSOriginals1952(unittest.TestCase):
     def test_existing_public_1950_entry_point_links_new_originals(self):
         self.assertIn(
             "(lcprowl-1952-1953-us-ermittlungen.md)",
+            PREVIOUS.read_text(encoding="utf-8"),
+        )
+        self.assertIn(
+            "zwölf überprüfte CIA-Originalfaksimiles",
             PREVIOUS.read_text(encoding="utf-8"),
         )
 

@@ -4,7 +4,7 @@
 
 Die zwei Dokumentseiten zeigen mehr als eine allgemeine amerikanische Unterstützung: Eine zuständige OPC-Arbeitseinheit plante Auswahl, Tarnung, Ausbildung und gegebenenfalls den Einsatz deutscher Personen für Guerilla- und Sabotageaufgaben. Die Vorlage enthält ausdrücklich die Absicht, jede erkennbare Verbindung zur US-Regierung zu vermeiden.
 
-**Weiterführende CIA-Originalakten 1952–1953:** [Abwicklungsbefehle, Deckfirma „Saxer“, amerikanische Untersuchungspolitik und Einflussnahme auf deutsche Gerichtsverfahren](lcprowl-1952-1953-us-ermittlungen.md). Die Studie beruht auf den Faksimiles LCPROWL Vol. 3_0009 und Vol. 4_0030, 0039 und 0040.
+**Weiterführende CIA-Originalakten 1952–1953:** [Abwicklungsbefehle, Deckfirma „Saxer“, amerikanische Untersuchungspolitik und Einflussnahme auf deutsche Gerichtsverfahren](lcprowl-1952-1953-us-ermittlungen.md). Die Studie erschließt **zwölf überprüfte CIA-Originalfaksimiles**. Die vollständige Dokumentliste mit Fundstellen, Archivlinks und Prüfsummen steht auf der verlinkten Quellenseite.
 
 ## Die fünf entscheidenden Aktenbefunde
 
