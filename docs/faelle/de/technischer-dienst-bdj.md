@@ -714,7 +714,7 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - **BArch B 106/15584–15588, B 136/4430, B 145/1899:** Ressortzahlungen, Empfängerquittungen, frühe BfV-Kenntnis und Egidi-Vermerke.
 - **Bayerische Staatsarchive, StMI-Verfahren 1952/53:** Durchsuchungs- und Bargeldprotokolle; politische Listen/Karteien; getrennte Verbotsverfügungen **21./24. Januar 1953**.
 - **Frankfurter Generalstaatsanwaltschaft / Bundesanwaltschaft:** Verfügungs-, Übernahme-, Vernehmungs- und Voruntersuchungsunterlagen.
-- **CIA LCPROWL Vol.3/0009, Vol.4/0030 und 0039:** Bild-Faksimiles samt Originalseiten vor weitergehenden Einzelbehauptungen zu internen US-Aufträgen beschaffen; bisher zugängliche Indextexte dienen als Suchspuren.
+- **CIA LCPROWL VOL. 3_0009, VOL. 4_0030 und VOL. 4_0039:** Die vollständigen Bildfaksimiles sind jetzt in der [CIA-Originalaktenstudie 1952–1953](../../quellen/lcprowl-1952-1953-us-ermittlungen.md) mit überprüften Archivdateien, PDF-Seitenlocatoren sowie SHA-256- und MD5-Prüfsummen dokumentiert. Für weitere Details der US-Befehlsketten sind die dort referenzierten Einzelkabel **FRAN 3038**, **FRAN 4050** und andere Unterlagen getrennt zu prüfen.
 - **Gesamtdeutscher Ausschuss vom 29.03.1951:** Verifizierte Sitzungsurschrift zur in der Fraktionsedition referierten Behauptung über Coca-Cola, Borgward und Henkel beschaffen, dazu zeitgenössische Firmen- und Bankbelege.
 
 ## Analytische Achsen
