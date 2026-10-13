@@ -22,6 +22,9 @@ SOURCE_IDS = (
     "SRC-US-CIA-LCPROWL-V1-0037",
     "SRC-US-CIA-LCPROWL-V1-0044",
     "SRC-US-CIA-LCPROWL-V2-0023",
+    "SRC-DE-FES-SPDPD-BDJ-19530124",
+    "SRC-DE-FES-SPDPD-BDJ-19530312",
+    "SRC-DE-FES-SPDPD-BDJ-19530717",
 )
 
 
@@ -38,10 +41,10 @@ def bdj_metadata() -> dict:
 
 
 class BDJResearchRegressions(unittest.TestCase):
-    def test_28_prepared_claims_and_12_registered_source_ids(self):
+    def test_32_prepared_claims_and_15_registered_source_ids(self):
         case = bdj_metadata()
         claims = {item["id"]: item for item in case["claims"]}
-        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 29)})
+        self.assertEqual(set(claims), {f"CLM-DE-BDJ-{n:03d}" for n in range(1, 33)})
         sources = records("sources.yml", "sources")
         for sid in SOURCE_IDS:
             with self.subTest(source=sid):
