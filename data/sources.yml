@@ -1509,3 +1509,17 @@ sources:
   notes: Historisches Sitzungsprotokoll als Primärbeleg dafür, was ausgesagt und bestritten
     wurde. Es bestätigt keine Herkunft der Gelder aus Nachrichtendienstfonds, keine
     Gehlen-Beziehung und keine Tatsteuerung.
+- id: SRC-DE-STAMMHEIM-166-1976
+  title: Stammheim-Prozess, 166. Verhandlungstag – Beschluss über beantragte Zeugen
+    zum Fall Ruhland
+  institution: Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+  date: '1976-12-07'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/166-verhandlungstag/
+  accessed: '2026-10-13'
+  locator: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe,
+    Becher, Gehlen
+  notes: Belegt die prozessuale Ablehnung weiterer Zeugen als für Müller unerheblich.
+    Der Beschluss entscheidet nicht über reale Geldflüsse an Ruhland.

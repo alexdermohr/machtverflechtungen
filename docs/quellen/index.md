@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**132 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**133 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1025,6 +1025,17 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 [Seite öffnen](https://www.stammheim-prozess.de/163-verhandlungstag/)
 
 Fundstelle: Protokoll S. 12507–12513, 12581–12645; Aussagen Fisch, Wolf, Zimniak
+
+<a id="src-de-stammheim-166-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 166. Verhandlungstag – Beschluss über beantragte Zeugen zum Fall Ruhland](https://www.stammheim-prozess.de/166-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-12-07 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-166-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/166-verhandlungstag/)
+
+Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
 
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
