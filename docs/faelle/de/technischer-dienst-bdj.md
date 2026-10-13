@@ -28,7 +28,7 @@ event_claims:
 tags: [deutschland, kalter-krieg, antikommunismus, geheimorganisation, rechtsterrorismus, bundesfinanzierung]
 actors: [ORG-DE-BDJ, ORG-DE-BDJ-TD, ORG-DE-STOSSTRUPP-BZ, ORG-DE-DHS, ORG-US-CIC, ORG-US-OPC, ORG-US-US-ARMY-GERMANY, ORG-DE-BMG, ORG-DE-BMI, ORG-DE-BFV, ORG-DE-HE-LANDESREGIERUNG, ORG-DE-BY-MINISTERRAT, ORG-DE-BUNDESANWALTSCHAFT, ORG-DE-FRANKFURT-GSTA, PER-DE-HANS-EGIDI, PER-DE-WILHELM-HOEGNER, PER-DE-ROBERT-LEHR]
 mechanisms: [covert-support, paramilitary-network]
-sources: [SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886, SRC-US-CIA-LCPROWL-V1-0037, SRC-US-CIA-LCPROWL-V1-0044, SRC-US-CIA-LCPROWL-V2-0023]
+sources: [SRC-DE-FES-SPDPD-BDJ-19521009, SRC-DE-FES-SPDPD-BDJ-19521010, SRC-DE-FES-SPDPD-BDJ-19521027, SRC-DE-FES-SPDPD-BDJ-19530124, SRC-DE-FES-SPDPD-BDJ-19530312, SRC-DE-FES-SPDPD-BDJ-19530717, SRC-DE-BT-04644-1953, SRC-DE-FRAK-BDJ-19521021, SRC-DE-BARCH-KAB-BDJ-19521010, SRC-DE-BT-BDJ-19521023, SRC-DE-BYLT-TD-19521029, SRC-DE-BYMR-TD-19530113, SRC-DE-BYMR-TD-19530120, SRC-DE-HE-LAGIS-BDJ-19530108, SRC-DE-HELT-BDJ-186904-2013, SRC-DE-HHSTAW-502-17886, SRC-US-CIA-LCPROWL-V1-0037, SRC-US-CIA-LCPROWL-V1-0044, SRC-US-CIA-LCPROWL-V2-0023]
 claims:
   - id: CLM-DE-BDJ-001
     text: "Der Bundestagsausschuss bewertete BDJ und Technischen Dienst personell und ideell weitgehend als Einheit."
@@ -578,7 +578,167 @@ claims:
       supports: "Konkrete interne Aussage, dass einige im Weißbuch auftauchende Namen operative Aliase waren."
       does_not_support: "Keine Identifikation von Decknameninhabern oder daraus abgeleitete eigenständige Person-zu-Firma-Finanzierungsrelation."
     falsification: "Entsperrte Originalakten könnten Alias-Inhaber und ihre tatsächlichen Funktionen bestimmen."
+  - id: CLM-DE-BDJ-029
+    text: "Der Sozialdemokratische Pressedienst zitierte am 24. Januar 1953 aus dem BDJ-Arbeitsplan Teil VIII (Aktion Prinz Eugen), wonach BDJ-Mitglieder in einer künftigen deutschen Truppe als politischer Kern wirken sollten, und berichtete einen darin behaupteten Bezug zu polizeilichem Unterricht mit der Broschüre Bürger und Partisanen."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19530124]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19530124
+        directness: direct
+        locator: "Heft 20, gedruckte S. 1–2; PDF-Bildseiten 1–2; Plan-Auszüge auf S. 2"
+        note: "SPD-Presseartikel L.W. gibt konkrete Wortlautstellen des behaupteten BDJ-Planes wieder und verlangt, die dort erwähnte Verwendung in Polizeidienststellen zu untersuchen."
+    counterevidence: []
+    alternatives:
+      - "Der Artikel könnte einen internen Plan verkürzt referieren; die behauptete Schulung einzelner Polizeidienststellen bleibt unabhängig überprüfbar."
+    missing_evidence:
+      - "Original BDJ-Arbeitsplan Teil VIII Prinz Eugen, Broschüre Bürger und Partisanen, Polizeischulungspläne und Dienststellenvermerke 1950–1953."
+    scope:
+      supports: "Dokumentiert eine im Januar 1953 veröffentlichte zeitgenössische Schilderung und wörtliche BDJ-Plan-Auszüge zur beabsichtigten politischen Funktion."
+      does_not_support: "Keine eigenständige Bestätigung, dass Polizeidienststellen tatsächlich nach dem BDJ-Leitfaden unterrichteten."
+    falsification: "Originalplanausgaben und damalige Polizeilehrpläne erlauben den Wortlaut- und Verwendungstest."
+  - id: CLM-DE-BDJ-030
+    text: "Der SPD-Pressedienst bezeichnete am 12. März 1953 Salamander-Schuhfabrik, Coca-Cola-GmbH, Bosch-Auto-Licht und Reemtsma als in einer SPD-Denkschrift genannte private BDJ-Geldgeber; er berichtete darin außerdem 1,7 Mio. DM Vereinsvermögen bei Eintragung, Einzelspenden bis 500.000 DM sowie 30.000 DM Bundesmittel."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19530312]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19530312
+        directness: direct
+        locator: "Heft 60, gedruckte S. 4, Abschnitt Vertane Millionen, PDF-Bildseite 4"
+        note: "Zeitgenössischer Bericht W.P. unter ausdrücklicher Berufung auf die damals gerade veröffentlichte SPD-Denkschrift; alle vier Firmennamen sind im 400-dpi-TIFF lesbar."
+    counterevidence: []
+    alternatives:
+      - "Echte Spenden, auf Wunsch von US-Stellen geleistete Zuwendungen und lediglich nach außen als privat deklarierte CIA-Mittel sind verschiedene mögliche Geldwege."
+    missing_evidence:
+      - "SPD-Denkschrift Sopade Nr. 50, FES Z 3015/50; Frankfurter Vereinsregister; BDJ-Kassenbuch; Konten und Spendenkorrespondenz der vier genannten Unternehmen."
+    scope:
+      supports: "Belegt die öffentliche Nennung der Unternehmen und Beträge durch die SPD am 12.03.1953."
+      does_not_support: "Die konkrete Zahlung eines Unternehmens oder eine neue, zusätzlich zu amtlich belegten Bundesbeträgen addierbare Überweisung ist damit nicht verbucht."
+    falsification: "Die originale SPD-Denkschrift, Eintragungsunterlagen und Zahlungsbücher können Firmennamen, Zahlen und reale Transfers prüfen."
+  - id: CLM-DE-BDJ-031
+    text: "Der SPD-Pressedienst berichtete am 12. März 1953 über monatlich 2.000 DM, die Paul Lüth zur Versorgung eigener Angehöriger verwendet haben soll, sowie über nach Organisationsauflösung privat gehaltene Fahrzeuge und Immobilien Erhard Peters."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19530312]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19530312
+        directness: direct
+        locator: "Heft 60, gedruckte S. 5, PDF-Bildseite 5"
+        note: "Der Artikel nennt Zahlungen, das persönliche Schulungsheim Lüths in Laufach sowie Fahrzeuge, ein Großhandelsgeschäft in Coburg und eine Immobilie in Wald-Michelbach im Zusammenhang mit Peters."
+    counterevidence: []
+    alternatives:
+      - "Berichtete persönliche Vermögensgegenstände können rechtsmäßig privat erworben oder aus BDJ-/TD-Finanzierung finanziert worden sein; Eigentumstitel und Konten sind entscheidend."
+    missing_evidence:
+      - "Kontoauszüge, Kaufverträge, Grundbuch Wald-Michelbach, Handelsregister Coburg, Fahrzeugeigentum, Vernehmungen und Unterlagen der SPD-Denkschrift."
+    scope:
+      supports: "Belegt die zeitgenössisch erhobenen Vorwürfe zu individueller Mittelverwendung und Vermögensübernahme."
+      does_not_support: "Keine selbstständige Prüfung der tatsächlichen Vermögensherkunft oder strafrechtliche Feststellung einer Veruntreuung."
+    falsification: "Transaktionen, Eigentumsnachweise und deutsche Ermittlungsakten erlauben einen persönlichen Mittelabfluss nachzuweisen oder zu widerlegen."
+  - id: CLM-DE-BDJ-032
+    text: "Am 17. Juli 1953 gab der SPD-Pressedienst Aussagen Ludwig Bergstraessers wieder, wonach führende BDJ-Leute einige hunderttausend DM für eigene Zwecke verwendeten und das Bundesinnenministerium eine Ausschuss-Anforderung nach zusätzlichem Länder-Material erst nach vier Wochen und Mahnung beantwortete."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19530717]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19530717
+        directness: direct
+        locator: "Heft 164, gedruckte S. 6; PDF-Bildseite 6, Interview mit Professor Bergstraesser"
+        note: "Der Pressedienst zitiert den Berichterstatter mit Verweis auf den von Euler (FDP) initiierten Materialanforderungsantrag und die ministeriell erwogene Kompetenzabgrenzung."
+    counterevidence: []
+    alternatives:
+      - "Die vom Interview beschriebenen vier Wochen können die behördliche Behandlung eines bestimmten Folgeersuchens statt die gesamte Untersuchung betreffen."
+    missing_evidence:
+      - "Unterhausschussprotokolle, Anforderung Euler, Mahnschreiben und Eingangs-/Ausgangsregister des BMI; Kassen- und Strafverfolgungsakten zu persönlichen Entnahmen."
+    scope:
+      supports: "Belegt zwei konkret datierbare Aussagen Bergstraessers über Größenordnung persönlicher Gelder und verzögerte ministerielle Aktenzulieferung."
+      does_not_support: "Keine gesonderte Rekonstruktion der betroffenen Einzelzahlungen, namentlicher Zahlungsempfänger oder Absicht der Ministerialbeamten."
+    falsification: "Ausschussakten und BMI-Postlauf mit Eingangsdaten können die geschilderte Bearbeitungsdauer und den Grund überprüfen."
+  - id: CLM-DE-BDJ-033
+    text: "Der Sozialdemokratische Pressedienst forderte am 9. Oktober 1952 nach Zinns BDJ-Enthüllung von der Bundesregierung eine Offenlegung möglicher Gelder aus Bundeskanzleramt, Gesamtdeutschem Ministerium und weiteren Regierungsfonds nach Betrag und Zweck und erhob zugleich Vorwürfe industrieller Förderung des BDJ."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19521009]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19521009
+        directness: direct
+        locator: "Sozialdemokratischer Pressedienst P/VIII/234, 09.10.1952, gedruckte S. 1–2, PDF-Bildseiten 1–2"
+        note: "Der zeitgenössische Leitartikel Entlarvter BDJ behandelt Zinns Erklärung vom Vortag, verweist auf Industrie-Geldgeber und fordert ausdrücklich Auskunft zu Kanzleramt/BMG/anderen Regierungsfonds."
+    counterevidence: []
+    alternatives:
+      - "Die damals noch offene Zahlensituation kann bereits erfolgte Bundeshilfen, Förderzusagen und bloß behauptete Fondsbeiträge vermengt haben."
+    missing_evidence:
+      - "Bundeskanzleramt- und BMG-Kassenanweisungen, BDJ-Verwendungsnachweise, Bundestagsfrage und Lehr-Erklärung 23.10.1952."
+    scope:
+      supports: "Belegt eine konkret an Bundesregierung und Industrie gerichtete Finanzierungsfrage unmittelbar nach der Aufdeckung im Oktober 1952."
+      does_not_support: "Die Zeitung druckt keine Kontoauszüge oder neuen Auszahlungsbelege ab."
+    falsification: "Nachträgliche Kenntnis der damaligen Kassenunterlagen präzisiert, welche angefragten Mittel tatsächlich gezahlt wurden."
+  - id: CLM-DE-BDJ-034
+    text: "Die im Sozialdemokratischen Pressedienst vom 10. Oktober 1952 wiedergegebene Jungsozialisten-Erklärung zitierte ein angebliches Schreiben des Bundesministeriums für gesamtdeutsche Fragen, das den BDJ als förderungswürdig bezeichnet habe, und einen BDJ-Rundbrief, der auf gute Beziehungen zum Bundesinnenministerium verwiesen habe."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19521010]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19521010
+        directness: direct
+        locator: "Heft P/VIII/235, 10.10.1952, gedruckte S. 7, Erklärung Zentralsekretariat der Jungsozialisten"
+        note: "Die Erklärungswiedergabe enthält einen konkreten, einem Ministerium zugeschriebenen positiven BDJ-Satz sowie Verweis auf den BDJ-Rundbrief; die Originalschreiben sind getrennt zu beschaffen."
+    counterevidence: []
+    alternatives:
+      - "Die zitierte ministerielle Bewertung könnte sich auf offene BDJ-Jugendarbeit und nicht auf den geheimen TD bezogen haben."
+    missing_evidence:
+      - "BMG-Originalschreiben mit Datum, Aktenzeichen, Adressat und Verfügungsweg; BDJ-Rundbrief mit Verteilung und einschlägige BMI-Eingangsakte."
+    scope:
+      supports: "Belegt die konkrete öffentliche Behauptung zweier Schriftstücke zu deutschen Behördenbeziehungen bereits am 10. Oktober 1952."
+      does_not_support: "Die Zeitung ist weder eine beglaubigte Abschrift des BMG-Schreibens noch ein Zahlungsbeleg."
+    falsification: "Ministerialakten und BDJ-Rundschreiben können die Zitate, Kontexte und tatsächlichen Behördenkontakte überprüfen."
+  - id: CLM-DE-BDJ-035
+    text: "Die Jungsozialisten erklärten am 10. Oktober 1952 unter Verweis auf das Pfälzische Industrie- und Handelsblatt vom 1. Februar 1952, der Deutsche Industrie- und Handelstag habe eine Förderung des BDJ befürwortet, und verwiesen auf BDJ-Auftritte von Euler und Kiesinger beim Pfingsttreffen 1952."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19521010]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19521010
+        directness: direct
+        locator: "Heft P/VIII/235, 10.10.1952, gedruckte S. 7, Jungsozialisten-Erklärung zur IHK-Meldung"
+        note: "Die Erklärung nennt das Pfälzische Industrie- und Handelsblatt vom 01.02.1952 und den Deutschen Industrie- und Handelstag ausdrücklich; die DIHT-Originalerklärung ist bislang nicht eingesehen."
+    counterevidence: []
+    alternatives:
+      - "Eine verbandliche Befürwortung oder öffentliche Veranstaltungsteilnahme kann ohne finanziellen Transfer erfolgt sein."
+    missing_evidence:
+      - "Pfälzisches Industrie- und Handelsblatt, 27. Jahrgang (1952), Ausgabe vom 01.02.1952; DIHT-Präsidiums-/Pressestellenakten; Pfingsttreffen-Protokolle 1952."
+    scope:
+      supports: "Belegt einen datierten zeitgenössischen Hinweis auf industriepolitische Unterstützung und prominente politische BDJ-Auftritte."
+      does_not_support: "Die Zeitung überliefert weder die DIHT-Originalausgabe noch eine konkrete Zahlung des Verbandes."
+    falsification: "Der Originalartikel vom 01.02.1952 und DIHT-Akten können Wortlaut und Art einer möglichen Förderung bestimmen."
+  - id: CLM-DE-BDJ-036
+    text: "Der Sozialdemokratische Pressedienst veröffentlichte am 27. Oktober 1952 Auszüge aus einer als streng vertraulich bezeichneten BDJ-Denkschrift, die öffentliche politische Arbeit und einen der Öffentlichkeit entzogenen Technischen Dienst als zusammenhängende Seiten der BDJ-Tätigkeit beschreibt, und widersprach damit Lehrs Trennungsdarstellung."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-FES-SPDPD-BDJ-19521027]
+    evidence:
+      - source: SRC-DE-FES-SPDPD-BDJ-19521027
+        directness: direct
+        locator: "Heft P/VIII/249, 27.10.1952, gedruckte S. 6–7, FES-PDF-Bildseiten 6–7"
+        note: "Die SPD veröffentlichte zwei Auszüge einer angeblich mehrfach vertraulich gekennzeichneten Ergänzung zu Paul Lüths Bürger und Partisan; sie erläutern das Verhältnis der öffentlichen und geheimen Arbeit und enthalten die Bezeichnung Technischer Dienst."
+    counterevidence:
+      - source: SRC-DE-BT-BDJ-19521023
+        directness: direct
+        locator: "Bundestag, 23.10.1952, Plenarprotokoll 1/235, Erklärung Robert Lehr zur gesonderten Förderung des offenen BDJ"
+        note: "Zeitgenössische amtliche politische Trennungsbehauptung, gegen die sich der SPD-Artikel richtet."
+    alternatives:
+      - "Ein gemeinsamer programmatischer Ursprung muss nicht identische rechtliche oder finanzielle Untergliederung im gesamten Betriebszeitraum bedeuten."
+    missing_evidence:
+      - "Vertrauliche BDJ-Denkschrift im Original mit Blatt- und Ausfertigungsnummer, Polizeibeschlagnahme 1952, Lüth-Autorenzuschreibung und korrespondierende Weisungen des TD."
+    scope:
+      supports: "Belegt die am 27.10.1952 publizierte interne Selbstdarstellungs-Passage, die einen funktionalen Zusammenhang zwischen BDJ und TD beschreibt."
+      does_not_support: "Die im SPD-Artikel zitierten Stellen sind keine vollständig geprüfte Originalfassung und tragen allein keine Kontobuchungen."
+    falsification: "Originalmanuskript und authentische zeitgenössische BDJ-Organisationsakten könnten Zuschreibung, Vollständigkeit und Funktion präzisieren."
 what_follows:
+  - text: "Die SPD-Originalhefte vom Oktober 1952 bieten datierte Prüfspuren zu früher Bundesförderkritik, BMG-/BMI-Beziehungen, DIHT-Befürwortung und der im Druck überlieferten geheimen BDJ-/TD-Selbstbeschreibung."
+    claim_ids: [CLM-DE-BDJ-033, CLM-DE-BDJ-034, CLM-DE-BDJ-035, CLM-DE-BDJ-036]
+  - text: "Die FES-Faksimiles konkretisieren für Januar bis Juli 1953 interne BDJ-Planbehauptungen, vier namentlich genannte angebliche private Spender und die von Bergstraesser berichtete ministerielle Verzögerung."
+    claim_ids: [CLM-DE-BDJ-029, CLM-DE-BDJ-030, CLM-DE-BDJ-031, CLM-DE-BDJ-032]
   - text: "Das CIA-Memorandum von April 1953 stellt SPD-Finanzierungsvorwürfe, einen bestätigten Fehlbetrag und amerikanische Abbauankündigungen unterschiedlich belastbar dar."
     claim_ids: [CLM-DE-BDJ-024, CLM-DE-BDJ-025, CLM-DE-BDJ-026, CLM-DE-BDJ-027, CLM-DE-BDJ-028]
   - text: "Die CIA-Originaldokumente beschreiben OPC-Subvention und nominell private Geldherkunft sowie einen beantragten paramilitärischen Ausbau mit wirtschaftlichen Tarnstrukturen."
@@ -597,6 +757,11 @@ what_does_not_follow:
   - text: "Die 30.000 DM beschlagnahmtes Bargeld sind keine neben den berichteten 70.000 DM zu addierende Zuwendung; Bundesmittel an BDJ und private US-Zahlungen sind gesondert."
     claim_ids: [CLM-DE-BDJ-004, CLM-DE-BDJ-006, CLM-DE-BDJ-007]
 open_questions:
+  - "Welche Originalausgabe des Pfälzischen Industrie- und Handelsblatts vom 01.02.1952 belegt die angebliche DIHT-Befürwortung des BDJ, und welche Schriftstücke bestätigen die BMG-/BMI-Kontakte?"
+  - "Welche Ausfertigung der 1952 von der SPD zitierten streng vertraulichen BDJ-Denkschrift verbindet öffentliche Verbandsarbeit mit dem TD?"
+  - "Was zeigt der originale BDJ-Arbeitsplan Teil VIII Prinz Eugen über Polizeidienststellen und militärische politische Ausbildung?"
+  - "Welche tatsächlichen Zahlungen von Salamander, Coca-Cola, Bosch-Auto-Licht und Reemtsma dokumentieren Firma- und BDJ-Kassenbücher?"
+  - "Welches BMI-Schreiben und welche Ausschuss-Mahnung erklären die von Bergstraesser berichteten vier Wochen Verzögerung?"
   - "Welche freigegebenen Akten des beteiligten Besatzungsmacht-Geheimdienstes präzisieren Finanzierung, Weisungsbeziehungen und operative Grenzen?"
   - "Welche Original-Budgetfreigaben in BArch B 106/15584–15585 tragen die 10.000 und 6.000 DM für den BDJ?"
   - "Wo liegen Kassen- und Sicherstellungsakten für die 70.000 DM amerikanische Zuflüsse und 30.000 DM Bargeld?"
@@ -644,6 +809,49 @@ Der CIA-interne Bericht vom **15. April 1953** zur SPD-Dokumentation unterscheid
 **Finanzieller Vergleich:** Der intern als korrekt bezeichnete **40.000-DM-Fehlbetrag** ist eine andere Kategorie als tatsächlich bewilligte Projektmittel, tatsächliche Zahlungseingänge oder beschlagnahmte Bargeldbestände. Die im SPD-Weißbuch genannten vier Firmen sind in diesem CIA-Memorandum nur referierte Anschuldigungen. Für die am **19. Mai 1952** angekündigte Beendigung amerikanischer Zuschüsse sind der entsprechende Befehl, die Folgemonate und die Kassenbelege zu ermitteln.
 
 **Nächste Originalaktenprobe:** Im ungekürzten SPD-Weißbuch und in amerikanischen OPC- sowie deutschen Ermittlungsakten die unbekannten Firmen und Decknamen, die Defizitbuchung, den angekündigten Rückbau auf 300 Personen und den tatsächlich eingetretenen Förderungsstopp blattgenau abgleichen.
+
+## SPD-Originalausgaben Oktober 1952: BDJ, Behörden und verdeckter TD
+
+Die Bibliothek der Friedrich-Ebert-Stiftung hat drei zuvor nicht im Quellenmodell erfasste zeitgenössische BDJ-Artikel aus dem **Sozialdemokratischen Pressedienst vom 9., 10. und 27. Oktober 1952** digitalisiert. Die folgenden Angaben wurden an den originalen **400-dpi-Scans** der bezeichneten Bildseiten geprüft.
+
+| Datum | FES-Originalstelle | Datierter Untersuchungsansatz |
+| --- | --- | --- |
+| **09.10.1952** | [Heft 234, S. 1–2 – „Entlarvter BDJ“](https://library.fes.de/spdpd/1952/521009.pdf) | Reaktion auf die hessische BDJ-/TD-Aufdeckung; die SPD verlangt eine Aufschlüsselung etwaiger Gelder aus **Bundeskanzleramt, BMG und sonstigen Bundesfonds** und beschuldigt industrielle Geldgeber. |
+| **10.10.1952** | [Heft 235, S. 6–7 – „Im Nachtrag“](https://library.fes.de/spdpd/1952/521010.pdf) | Fritz Heine und Jungsozialisten erklären die SPD-Abgrenzung seit **20.01.1951**; sie zitieren ein angebliches **BMG-Förderwürdigkeitsurteil**, einen BDJ-Rundbrief über BMI-Kontakte und nennen eine **DIHT-Meldung vom 01.02.1952**. |
+| **27.10.1952** | [Heft 249, S. 6–7 – „Technischer Dienst und BDJ – eine Organisation“](https://library.fes.de/spdpd/1952/521027.pdf) | Veröffentlicht Passagen einer mehrfach **„streng vertraulich“** genannten BDJ-Denkschrift über zwei zusammengehörige Seiten: die offene politische Arbeit und die verborgen gehaltenen technischen Vorbereitungen unter der Bezeichnung **Technischer Dienst**. |
+
+**Vermittlung staatlicher und wirtschaftlicher Förderkontakte:** Die Jungsozialisten-Erklärung vom 10. Oktober enthält zwei konkret identifizierbare schriftliche Originalziele: ein **BMG-Schreiben an den BDJ** zur behaupteten Förderwürdigkeit und einen **BDJ-Rundbrief** über Kontakte zum Bundesinnenministerium. Dieselbe Erklärung verweist auf eine Meldung des **Pfälzischen Industrie- und Handelsblatts vom 1. Februar 1952**, wonach der **Deutsche Industrie- und Handelstag** Förderung des BDJ befürwortet habe. Die angegebene Veröffentlichung ist über den Jahrgang **27 (1952)** in der [Rheinland-Pfälzischen Bibliographie](https://rpb.lbz-rlp.de/107t01022831) bibliografisch verfolgbar. Eine Empfehlung des Industrieverbandes ist noch keine Kontobuchung.
+
+**Frühe Organisationsgegenprobe:** Der Pressedienst vom **27.10.1952** gibt als vertraulich bezeichnete Textpassagen wieder, welche den *Technischen Dienst* als die geheime technische Seite einer auch offen auftretenden BDJ-Bewegung erläutern. Die gedruckte Darstellung folgte **vier Tage** auf Lehrs [Bundestagserklärung vom 23.10.1952](https://dserver.bundestag.de/btp/01/01235.pdf) und ist mit dem späteren [Ausschussbericht BT-Drs. 1/4644](https://dserver.bundestag.de/btd/01/046/0104644.pdf) abzugleichen. Sie zitiert eine angebliche Ergänzung zu Lüths **„Bürger und Partisan“** (Singular). Der [SPD-Pressedienst vom 24.01.1953](https://library.fes.de/spdpd/1953/530124.pdf) verwendet hingegen die Form „Bürger und Partisanen“. Für diese Varianten sind Originaltitel, interne Ergänzung und Ausfertigungsblätter gesondert zu vergleichen.
+
+- **`CLM-DE-BDJ-033` — belegt:** Der Sozialdemokratische Pressedienst forderte am 9. Oktober 1952 nach Zinns BDJ-Enthüllung von der Bundesregierung eine Offenlegung möglicher Gelder aus Bundeskanzleramt, Gesamtdeutschem Ministerium und weiteren Regierungsfonds nach Betrag und Zweck und erhob zugleich Vorwürfe industrieller Förderung des BDJ.
+- **`CLM-DE-BDJ-034` — belegt:** Die im Sozialdemokratischen Pressedienst vom 10. Oktober 1952 wiedergegebene Jungsozialisten-Erklärung zitierte ein angebliches Schreiben des Bundesministeriums für gesamtdeutsche Fragen, das den BDJ als förderungswürdig bezeichnet habe, und einen BDJ-Rundbrief, der auf gute Beziehungen zum Bundesinnenministerium verwiesen habe.
+- **`CLM-DE-BDJ-035` — belegt:** Die Jungsozialisten erklärten am 10. Oktober 1952 unter Verweis auf das Pfälzische Industrie- und Handelsblatt vom 1. Februar 1952, der Deutsche Industrie- und Handelstag habe eine Förderung des BDJ befürwortet, und verwiesen auf BDJ-Auftritte von Euler und Kiesinger beim Pfingsttreffen 1952.
+- **`CLM-DE-BDJ-036` — belegt:** Der Sozialdemokratische Pressedienst veröffentlichte am 27. Oktober 1952 Auszüge aus einer als streng vertraulich bezeichneten BDJ-Denkschrift, die öffentliche politische Arbeit und einen der Öffentlichkeit entzogenen Technischen Dienst als zusammenhängende Seiten der BDJ-Tätigkeit beschreibt, und widersprach damit Lehrs Trennungsdarstellung.
+
+**Nächste Originalakten:** Die vertrauliche Ergänzungsdenkschrift des BDJ (mit Datierung, Ausfertigungsnummer und Lüth-Zuschreibung), der Regierungs- und BDJ-Schriftwechsel zur Förderwürdigkeit, der konkrete DIHT-Beitrag **01.02.1952**, Sitzungs- und Zahlungsakten 1952 sowie Polizei-Asservate und die beiden parlamentarischen Originalberichte.
+
+## SPD-Originalausgaben 1953: „Prinz Eugen“, Unternehmensgelder und BMI-Aktenzugang
+
+Die Bibliothek der Friedrich-Ebert-Stiftung überliefert drei zeitgenössische Ausgaben des **Sozialdemokratischen Pressedienstes** als bildbasierte Original-PDFs. Die Einzelseiten wurden über die vom Archiv bereitgestellten **400-dpi-TIFFs** gelesen; die SHA-256-Dateiprüfsummen sind im Quellenkatalog hinterlegt.
+
+| Datum | Originalstelle | Konkreter Befund |
+| --- | --- | --- |
+| **24.01.1953** | [Heft 20, S. 1–2](https://library.fes.de/spdpd/1953/530124.pdf) | Der Artikel zitiert aus Teil VIII des BDJ-Arbeitsplans („Prinz Eugen“) zur politischen Rolle von BDJ-Angehörigen in einer künftigen deutschen Truppe. Einen darin beschriebenen Bezug der Schrift *Bürger und Partisanen* zu Polizeischulungen bezeichnet der Pressedienst als von Innenministern zu überprüfende Angabe. |
+| **12.03.1953** | [Heft 60, S. 4](https://library.fes.de/spdpd/1953/530312.pdf) | Der Artikel *Vertane Millionen* nennt unter Berufung auf die SPD-Denkschrift ausdrücklich **Salamander-Schuhfabrik, Coca-Cola-GmbH, Bosch-Auto-Licht und Reemtsma**. Berichtet werden **1,7 Mio. DM bei der Vereinseintragung**, **Einzelspenden bis 500.000 DM** und **30.000 DM Bundesmittel**; die Beträge haben unterschiedliche Bezugsgrößen. |
+| **12.03.1953** | [Heft 60, S. 5](https://library.fes.de/spdpd/1953/530312.pdf) | Der Pressedienst beschreibt **2.000 DM monatliche Versorgung eigener Angehöriger Lüths**, Fahrzeuge, ein Geschäft in Coburg und ein Objekt in **Wald-Michelbach** im Eigentum bzw. Besitz der Beteiligten. Diese Angaben eröffnen konkrete Konto-, Register- und Grundbuchproben. |
+| **17.07.1953** | [Heft 164, S. 5–6](https://library.fes.de/spdpd/1953/530717.pdf) | Das Gespräch mit **Ludwig Bergstraesser** verzeichnet seine Schätzung von **einigen hunderttausend DM** für persönliche Zwecke und eine **vierwöchige, erst nach Mahnung beantwortete BMI-Materialanforderung** des Unterausschusses. |
+
+- **`CLM-DE-BDJ-029` — belegt:** Der Sozialdemokratische Pressedienst zitierte am 24. Januar 1953 aus dem BDJ-Arbeitsplan Teil VIII (Aktion Prinz Eugen), wonach BDJ-Mitglieder in einer künftigen deutschen Truppe als politischer Kern wirken sollten, und berichtete einen darin behaupteten Bezug zu polizeilichem Unterricht mit der Broschüre Bürger und Partisanen.
+- **`CLM-DE-BDJ-030` — belegt:** Der SPD-Pressedienst bezeichnete am 12. März 1953 Salamander-Schuhfabrik, Coca-Cola-GmbH, Bosch-Auto-Licht und Reemtsma als in einer SPD-Denkschrift genannte private BDJ-Geldgeber; er berichtete darin außerdem 1,7 Mio. DM Vereinsvermögen bei Eintragung, Einzelspenden bis 500.000 DM sowie 30.000 DM Bundesmittel.
+- **`CLM-DE-BDJ-031` — belegt:** Der SPD-Pressedienst berichtete am 12. März 1953 über monatlich 2.000 DM, die Paul Lüth zur Versorgung eigener Angehöriger verwendet haben soll, sowie über nach Organisationsauflösung privat gehaltene Fahrzeuge und Immobilien Erhard Peters.
+- **`CLM-DE-BDJ-032` — belegt:** Am 17. Juli 1953 gab der SPD-Pressedienst Aussagen Ludwig Bergstraessers wieder, wonach führende BDJ-Leute einige hunderttausend DM für eigene Zwecke verwendeten und das Bundesinnenministerium eine Ausschuss-Anforderung nach zusätzlichem Länder-Material erst nach vier Wochen und Mahnung beantwortete.
+
+**Vergleich mit US-Unterlagen:** Das CIA-Kabel **FRAN 1551 vom 12.02.1953** referiert ein noch unveröffentlichtes SPD-Weißbuch und dessen Angaben über private und staatliche Finanzierung. Der SPD-Pressedienst vom **12.03.1953** belegt dessen öffentliche Diskussion unter Nennung aller vier Firmen. Beide Schriftstücke sind Zeugnisse der damaligen Aussagen; die vier Firmennamen sind **noch keine bestätigten Geldflussrelationen**. Der CIA-Bericht vom **15.04.1953** behandelte separat die Angaben aus dem Weißbuch und bestätigte andere konkrete Vorgänge. [CIA-Originalauswertung](../../quellen/lcprowl-1952-1953-us-ermittlungen.md).
+
+**Parlamentarische Gegenprobe:** Die sechs Ausschusspunkte, die der Pressedienst am 17.07. wiedergibt, stehen im [amtlichen Bericht BT-Drs. 1/4644 vom 01.07.1953](https://dserver.bundestag.de/btd/01/046/0104644.pdf). Dessen Fußnote vermerkt ausdrücklich, dass der Antrag im Plenum **nicht mehr behandelt** wurde. Die interviewten Angaben zu **vier Wochen BMI-Verzögerung** und zur **privaten Betragsgröße** sind davon getrennte Aussagen Bergstraessers, die anhand der Ausschuss- und BMI-Akten zu überprüfen sind.
+
+**Nächste Akten:** SPD-Denkschrift *Der Bund Deutscher Jugend und sein „Technischer Dienst“*, **Sopade-Denkschriften Nr. 50, FES Z 3015/50**; Original **„Prinz Eugen“**; Frankfurter Vereinsregister; Gesellschafts- und Firmenkonten, Grundbücher, BMI-Versandprotokolle und die vollständigen Unterausschussakten 1953.
 
 ## Gesicherter Ereigniskern
 
@@ -714,7 +922,7 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - **BArch B 106/15584–15588, B 136/4430, B 145/1899:** Ressortzahlungen, Empfängerquittungen, frühe BfV-Kenntnis und Egidi-Vermerke.
 - **Bayerische Staatsarchive, StMI-Verfahren 1952/53:** Durchsuchungs- und Bargeldprotokolle; politische Listen/Karteien; getrennte Verbotsverfügungen **21./24. Januar 1953**.
 - **Frankfurter Generalstaatsanwaltschaft / Bundesanwaltschaft:** Verfügungs-, Übernahme-, Vernehmungs- und Voruntersuchungsunterlagen.
-- **CIA LCPROWL Vol.3/0009, Vol.4/0030 und 0039:** Bild-Faksimiles samt Originalseiten vor weitergehenden Einzelbehauptungen zu internen US-Aufträgen beschaffen; bisher zugängliche Indextexte dienen als Suchspuren.
+- **CIA LCPROWL VOL. 3_0009, VOL. 4_0030 und VOL. 4_0039:** Die vollständigen Bildfaksimiles sind jetzt in der [CIA-Originalaktenstudie 1952–1953](../../quellen/lcprowl-1952-1953-us-ermittlungen.md) mit überprüften Archivdateien, PDF-Seitenlocatoren sowie SHA-256- und MD5-Prüfsummen dokumentiert. Für weitere Details der US-Befehlsketten sind die dort referenzierten Einzelkabel **FRAN 3038**, **FRAN 4050** und andere Unterlagen getrennt zu prüfen.
 - **Gesamtdeutscher Ausschuss vom 29.03.1951:** Verifizierte Sitzungsurschrift zur in der Fraktionsedition referierten Behauptung über Coca-Cola, Borgward und Henkel beschaffen, dazu zeitgenössische Firmen- und Bankbelege.
 
 ## Analytische Achsen
@@ -750,3 +958,11 @@ Die Antwort nennt für 2013 allgemeine Schutzfristen **30 Jahre**, bei VS-Akten 
 - [CIA/OPC, LCPROWL VOL. 1_0044 – Projektbericht vom 24.01.1951](https://web.archive.org/web/20250220053805id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0044.pdf) — `SRC-US-CIA-LCPROWL-V1-0044`, PDF-S. 2–3; SHA-256: `136f7683bd367e92a141f7a0a0d5fb6298c25cc804f17692ad2f8db80ef3b93f`.
 
 - [CIA, LCPROWL VOL. 2_0023: Analyse des SPD-Weißbuchs vom 15.04.1953](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf) — `SRC-US-CIA-LCPROWL-V2-0023`, PDF-S. 2–4; SHA-256: `ae20eeb19b43dddbb83ed3a213231104c315583f8af490274dcd8db014ace532`.
+
+- [Sozialdemokratischer Pressedienst, Heft 20, 24.01.1953, S. 1–2](https://library.fes.de/spdpd/1953/530124.pdf) — `SRC-DE-FES-SPDPD-BDJ-19530124`; SHA-256: `6d598917e6e56f264c844df9fd4b116d07eb54ebe4b077982007250c12ffe19c`.
+- [Sozialdemokratischer Pressedienst, Heft 60, 12.03.1953, S. 4–5](https://library.fes.de/spdpd/1953/530312.pdf) — `SRC-DE-FES-SPDPD-BDJ-19530312`; SHA-256: `873422812dcb9e6709a0b516aee19ab699086725b4e831c5efa97a37f28ec025`.
+- [Sozialdemokratischer Pressedienst, Heft 164, 17.07.1953, S. 5–6](https://library.fes.de/spdpd/1953/530717.pdf) — `SRC-DE-FES-SPDPD-BDJ-19530717`; SHA-256: `50eb71a849476e72d2ba390b1afb390b0ec59581761a1f638cef6d9ff4b58a06`.
+
+- [Sozialdemokratischer Pressedienst, Heft 234, 09.10.1952, S. 1–2](https://library.fes.de/spdpd/1952/521009.pdf) — `SRC-DE-FES-SPDPD-BDJ-19521009`; SHA-256: `8bd2ad84ce155b30dd463a100e8b4d61ad05908d73f4e896d2038a715ab32b17`.
+- [Sozialdemokratischer Pressedienst, Heft 235, 10.10.1952, S. 6–7](https://library.fes.de/spdpd/1952/521010.pdf) — `SRC-DE-FES-SPDPD-BDJ-19521010`; SHA-256: `05e1ec3061b0c2e35565afc0f4eedc6f27847c513f849b260fa78e4c382674f6`.
+- [Sozialdemokratischer Pressedienst, Heft 249, 27.10.1952, S. 6–7](https://library.fes.de/spdpd/1952/521027.pdf) — `SRC-DE-FES-SPDPD-BDJ-19521027`; SHA-256: `12e0da64ad637156d45cc2ae2f99fcff76cb964dd3ad9c9347b4b45f03ffc3e1`.
