@@ -1,6 +1,6 @@
 # LCPROWL 1952–1953: US-Eingriffe, Tarnunternehmen und Ermittlungsverfahren
 
-**Sieben ausgewertete CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden und Kabel aus **September/Oktober 1952 und Januar 1953**.
+**Neun ausgewertete CIA-Originalfaksimiles** dokumentieren amerikanische Entscheidungen zum paramilitärischen *Technischen Dienst* (TD) des Bundes Deutscher Jugend, ein konkret benanntes wirtschaftliches Tarnunternehmen sowie amerikanische Strategien gegenüber der deutsch-amerikanischen Untersuchungskommission und deutschen Strafverfahren. Erhalten sind interne US-Memoranden, zeitgenössische Presseübersetzungen und Kabel aus **1951 bis Januar 1953**, insbesondere zur Aufdeckung und Liquidierung 1952.
 
 [OPC-Projektgenehmigung 1950/51](lcprowl-1950-opc-planung.md) · [Fallakte BDJ/Technischer Dienst](../faelle/de/technischer-dienst-bdj.md) · [Forschungsauftrag mit weiteren Akten](https://github.com/alexdermohr/machtverflechtungen/issues/37)
 
@@ -9,6 +9,8 @@
 | Ereignis | Fundstelle |
 | --- | --- |
 | **Tarnfirma „Saxer“:** Ein CIA-Dokument bezeichnet eine gekaufte Sperrholzfirma als Deckung für hauptamtliche Apparat-Angehörige; die deutschen Ermittler beschlagnahmten Firmenunterlagen. | `VOL. 4_0030`, PDF-S. 2–3, Ziff. 6c–d |
+| **Private Saxer-Verträge:** Die CIA-Rückschau vom 23.12.1952 beschreibt einen Gesellschaftsvertrag mit **Erhard Peters, Bankier Otto Schill und Johann Saxer** sowie ein **40.000-DM-Darlehen** an Saxer. | `VOL. 4_0054`, **PDF-S. 21–22**, Abschnitt VI.2 |
+| **US-Justizkoordination:** Ein CIA-Bonn-Telegramm vom **10. Februar 1953** beschreibt Verhandlungen mit einem Bundesjustizministeriumsvertreter über Zeitpunkt, Inhalt und Vertraulichkeit einer amerikanischen BDJ-Erklärung. | `VOL. 2_0050`, **PDF-S. 1–4**, `BONN 0507` |
 | **US-Einstellung:** Die CIA-Zentrale ordnete am **18. September 1952** die Beendigung sämtlicher Phasen von LCPROWL an, nachdem die deutschen Polizeiermittlungen bekannt wurden. | `VOL. 4_0030`, PDF-S. 3–4, Ziff. 11–13 |
 | **US-Untersuchungsstrategie:** Amerikanische Ermittler sollten Unterstützung einräumen, die Untersuchung aber begrenzen und weder US-Personal noch US-Akten zugänglich machen. | `VOL. 4_0039`, PDF-S. 9, Chronologie 11.10.1952 |
 | **Bundestagserklärung:** Die CIA-Chronologie berichtet, Robert Lehr habe Änderungsvorschläge eines US-Vertreters für seine Erklärung vom **23. Oktober 1952** vollständig angenommen. | `VOL. 4_0039`, PDF-S. 13 |
@@ -26,7 +28,7 @@ In `VOL. 4_0030`, PDF-S. 3, Ziff. 10, werden darüber hinaus CIA-interne Untersu
 
 ## CIA-Selbstprüfung: Saxer-Verträge und Kontrollverluste
 
-Die nachträgliche CIA-Analyse **[LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf)** nennt erstmals **Vertragsparteien, Vertragsdaten und konkrete Geldbeträge** zur Tarnfirma und untersucht ihre tatsächliche Funktion. Die interne CIA-Auswertung referiert die Verträge; die Vertragsurkunden und Buchungen selbst bleiben gesondert zu beschaffen.
+Die auf den **23. Dezember 1952** datierte CIA-Analyse **[LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf)** nennt erstmals **Vertragsparteien, Vertragsdaten und konkrete Geldbeträge** zur Tarnfirma und untersucht ihre tatsächliche Funktion. Die interne CIA-Auswertung referiert die Verträge; die Vertragsurkunden und Buchungen selbst bleiben gesondert zu beschaffen.
 
 **Gesellschaftsvertrag vom 20. Juli 1951:** Laut **PDF-S. 21, Abschnitt VI.2**, unterzeichneten **Erhard(t) Peters**, der örtliche **Bankier Otto Schill** und **Johann Saxer** einen Gesellschaftsvertrag. Die dort berichtete Bareinlage betrug **20.000 DM**, davon **18.000 DM durch Peters** und je **1.000 DM durch Schill und Saxer**. **Emil Peters**, Vater des Apparatführers, sei Geschäftsführer geworden.
 
@@ -85,6 +87,18 @@ Auf **PDF-S. 2, Abschnitte 1 D und 2**, werden entsprechende amerikanische Handl
 
 Der [Bundestagsuntersuchungsbericht 1/4644 aus 1953](https://dserver.bundestag.de/btd/01/046/0104644.pdf) bewertete BDJ und TD hingegen **personell und ideell weitgehend als Einheit**. Die US- und BMI-Berichtslinie und das spätere Ausschussergebnis sind über die **tatsächlichen Vernehmungsprotokolle und Verfügungen** zu vergleichen.
 
+## Februar 1953: Amerikanischer Erklärungsentwurf und Bundesjustizministerium
+
+Zwei weitere überprüfte CIA-Originaltelegramme dokumentieren, wie amerikanische Stellen Anfang Februar 1953 mit Vertretern des **Bundesjustizministeriums** über den Ablauf des deutschen Strafverfahrens und eine beabsichtigte amerikanische Erklärung zur BDJ-/TD-Affäre verhandelten.
+
+**10. Februar 1953 – CIA `LCPROWL VOL. 2_0050`, Telegramm `BONN 0507`, PDF-S. 1–4:** In dem vierseitigen Kabel beschreibt ein amerikanischer Verfasser Gespräche mit einem hochrangigen Ministerialvertreter, im CIA-Text **„Kantor“** genannt. Der Amerikaner bestand laut seinem Bericht darauf, dass die **amerikanische Stellungnahme erst nach einer Rücknahme des Verfahrens durch die zuständigen Bundesstellen** ausgegeben werde. Der deutsche Gesprächspartner wollte den noch nicht unterzeichneten Entwurf geheim halten und ohne amerikanische Genehmigung gegenüber **Ministerpräsident Georg August Zinn und der SPD** nicht einmal erwähnen, dass eine solche Stellungnahme in Vorbereitung sei (**PDF-S. 1–2**).
+
+Der Vertreter des Bundesjustizministeriums verlangte für eine rechtliche Verwendung eine **unterzeichnete Ausfertigung**. Der Wortlaut wurde besonders hinsichtlich der Frage diskutiert, **ob Erhard Peters bis 1952 dem offenen BDJ angehörte**. Eine weniger kategorische Formulierung wurde verhandelt, um den Feststellungen des Bundesanwalts nicht vorzugreifen (**PDF-S. 2–3**). Das CIA-Kabel bezeichnet ein weiteres Gespräch mit **Zinn für den 12. Februar** als vorgesehen (**PDF-S. 4**). Es dokumentiert den amerikanischen Verhandlungsversuch und die berichteten Zusagen, nicht schon den späteren Verfahrensvollzug.
+
+**11. Februar 1953 – CIA `LCPROWL VOL. 2_0049`, `FRAN 1488`, PDF-S. 1:** Die Frankfurter Dienststelle verweist auf eine Untersuchung `EGQA 8969` vom **28. Januar 1953**. Es wird die Möglichkeit einer künftig angedrohten **Erpressung** erörtert; die amerikanische Stelle rät laut dem Telegramm davon ab, vorbeugend selbst entsprechende Maßnahmen einzuleiten. Dieser Vorgang gehört zu den Sicherheits- und Aufklärungsfolgen der Liquidierung, ist aber **kein bereits nachgewiesener Erpressungsfall**.
+
+Die beiden Kabel bilden mit dem CIA-Vermerk vom **29. Januar 1953** (`VOL. 3_0009`), der internen Liquidierungschronologie von Oktober 1952 (`VOL. 4_0039`) und der Bundesarchiv-Überlieferung zur hessischen Untersuchung eine **datierte Verfahrens- und Informationskette**. Die entscheidenden nächsten Urkunden sind die Fassungen der amerikanischen Erklärung, die Justizgesprächsvermerke vom 10.–12. Februar, die Stellungnahme Truscotts vom 20. Februar 1953 sowie der Aktenlauf der Oberbundesanwaltschaft.
+
 ## Paul Lüth, General Franz Halder und frühe Ausbilderrekrutierung
 
 `LCPROWL VOL. 4_0040`, **PDF-S. 3, Abschnitt 3**, gibt einen in der US-Postzensur erfassten **Brief Lüths an den ehemaligen Wehrmachtsgeneral Franz Halder vom 15. Januar 1951** wieder. Lüth schrieb nach der CIA-Abschrift, er solle geeignete **Ausbilder für bestimmte Projekte** vorschlagen, deren Teilnehmer **außerhalb Deutschlands** geschult würden. Halder möge geeignete Kandidaten direkt an die BDJ-Bundesführung verweisen. Das Original-Faksimile wurde hierzu bildseitig geprüft. Ein tatsächlich benannter Kandidat oder erteilte Ausbildung folgt daraus nicht.
@@ -105,7 +119,7 @@ Die Parallelkopie **`LCPROWL VOL. 3_0017`** enthält ebenfalls die Spiegel-Anlag
 
 ## Archivfaksimiles und Prüfsummen
 
-Die sieben archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
+Die neun archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
 
 | Originaldokument | PDF-Seiten | SHA-256 | MD5 |
 | --- | ---: | --- | --- |
@@ -116,6 +130,8 @@ Die sieben archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **
 | [LCPROWL VOL. 1_0033](https://archive.org/download/LCPROWLVOL1-0033/LCPROWL%20%20%20%20VOL.%201_0033.pdf) | 21 | `c04a0f51e7cbf5037d115b3f5efd6df007ad2b5e828dc8cd477f5708848c6747` | `ae250501906762bd3772c921d0b96a6a` |
 | [LCPROWL VOL. 3_0017](https://archive.org/download/LCPROWLVOL3-0017/LCPROWL%20%20%20%20VOL.%203_0017.pdf) | 21 | `2a0c1acb3d13ab90c5c0f7f1b14f6ae16a354811d32190f40e3bd0bbd6a263a0` | `2c28d8c402cc2c31f61f85a1e1622438` |
 | [LCPROWL VOL. 4_0054](https://archive.org/download/LCPROWLVOL4-0054/LCPROWL%20%20%20%20VOL.%204_0054.pdf) | 25 | `da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49` | `98f26bd8f4b965c3483dc5aba3719202` |
+| [LCPROWL VOL. 2_0050](https://archive.org/download/LCPROWLVOL2-0050/LCPROWL%20%20%20%20VOL.%202_0050.pdf) | 4 | `d60c92a2b1df34fbe0055d622abe65db1b8d422a57d4b0de8fcab5c22b993c8e` | `96475f631cd53e9233f83b02f0a8bdea` |
+| [LCPROWL VOL. 2_0049](https://archive.org/download/LCPROWLVOL2-0049/LCPROWL%20%20%20%20VOL.%202_0049.pdf) | 1 | `26e62a748bc0e3a454ce8e245058037121ed1dff64a1b6c4cd2dab43c12065f6` | `3d8651f4861c886a2dc112e2e11ba95b` |
 
 **Amtliche Bestandszuordnung:** [US National Archives, Record Group 263, Entry ZZ-19](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html) (**NARA**): LCPROWL **Vol. 1–2 in Box 0042**, Vol. **3–4 in Box 0043**. Die Archive.org-Kopien sind verfügbare originalgetreue historische PDF-Dateien, nicht die aktuelle CIA-Webbereitstellung.
 

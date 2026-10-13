@@ -29,6 +29,12 @@ ORIGINALS = (
     ("VOL. 4_0054", "LCPROWLVOL4-0054", "VOL.%204_0054.pdf",
      "da76e303a7ce59ad477749d381c6436fae284840115ca6d299009031ec2c8c49",
      "98f26bd8f4b965c3483dc5aba3719202"),
+    ("VOL. 2_0050", "LCPROWLVOL2-0050", "VOL.%202_0050.pdf",
+     "d60c92a2b1df34fbe0055d622abe65db1b8d422a57d4b0de8fcab5c22b993c8e",
+     "96475f631cd53e9233f83b02f0a8bdea"),
+    ("VOL. 2_0049", "LCPROWLVOL2-0049", "VOL.%202_0049.pdf",
+     "26e62a748bc0e3a454ce8e245058037121ed1dff64a1b6c4cd2dab43c12065f6",
+     "3d8651f4861c886a2dc112e2e11ba95b"),
 )
 
 
@@ -74,7 +80,7 @@ class LcprowlUSOriginals1952(unittest.TestCase):
     def test_private_cover_contracts_and_later_cia_self_assessment(self):
         article = ARTICLE.read_text(encoding="utf-8")
         for marker in (
-            "20. Juli 1951", "11. August 1951", "Otto Schill",
+            "23. Dezember 1952", "20. Juli 1951", "11. August 1951", "Otto Schill",
             "Johann Saxer", "Emil Peters", "20.000 DM", "18.000 DM",
             "40.000-DM-Darlehen", "35 m³", "126.000 DM", "4.450 DM",
             "91.000 DM", "QA 1328", "nicht genehmigt",
@@ -83,6 +89,18 @@ class LcprowlUSOriginals1952(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, article)
         self.assertNotIn("Saxer überwies nachweislich", article)
+
+    def test_justice_ministry_negotiations_and_confidential_draft_1953(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        for marker in (
+            "10. Februar 1953", "11. Februar 1953", "12. Februar",
+            "BONN 0507", "FRAN 1488", "EGQA 8969",
+            "Bundesjustizministerium", "Kantor", "Zinn",
+            "unterzeichnete Ausfertigung", "Erhard Peters",
+            "Rücknahme des Verfahrens", "Erpressung",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, article)
 
     def test_existing_public_1950_entry_point_links_new_originals(self):
         self.assertIn(
