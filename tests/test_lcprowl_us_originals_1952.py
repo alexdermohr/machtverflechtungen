@@ -20,6 +20,12 @@ ORIGINALS = (
     ("VOL. 4_0040", "LCPROWLVOL4-0040", "VOL.%204_0040.pdf",
      "79c540aab4ca4093b4767899e9b6a45f8a03f1204242ed3952d03e518ced6204",
      "02fbcf3199e1ff4c9987c81fff2c36ce"),
+    ("VOL. 1_0033", "LCPROWLVOL1-0033", "VOL.%201_0033.pdf",
+     "c04a0f51e7cbf5037d115b3f5efd6df007ad2b5e828dc8cd477f5708848c6747",
+     "ae250501906762bd3772c921d0b96a6a"),
+    ("VOL. 3_0017", "LCPROWLVOL3-0017", "VOL.%203_0017.pdf",
+     "2a0c1acb3d13ab90c5c0f7f1b14f6ae16a354811d32190f40e3bd0bbd6a263a0",
+     "2c28d8c402cc2c31f61f85a1e1622438"),
 )
 
 
@@ -47,6 +53,19 @@ class LcprowlUSOriginals1952(unittest.TestCase):
         self.assertIn("Bericht", article)
         self.assertIn("Sponsoring", article)
         self.assertIn("Auszahlung", article)
+        self.assertNotIn("Saxer überwies nachweislich", article)
+
+    def test_saxer_press_translation_is_attributed_and_names_conflict(self):
+        article = ARTICLE.read_text(encoding="utf-8")
+        for marker in (
+            "Der Spiegel", "15. Oktober 1952",
+            "PDF-S. 15", "PDF-S. 17",
+            "Emil Peters", "Erwin Peters", "50.000 DM",
+            "500–1.000 DM", "1. September 1952", "Worms",
+            "Presseübersetzung", "unterschiedlichen Dateihashes",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, article)
         self.assertNotIn("Saxer überwies nachweislich", article)
 
     def test_existing_public_1950_entry_point_links_new_originals(self):

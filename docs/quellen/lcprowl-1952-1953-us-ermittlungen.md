@@ -67,9 +67,21 @@ Der [Bundestagsuntersuchungsbericht 1/4644 aus 1953](https://dserver.bundestag.d
 
 Ein weiterer CIA-Auszug, **PDF-S. 3, Abschnitt 4**, referiert einen US-Air-Force-OSI-Bericht zur Frankfurter Durchsuchung vom **9. März 1951**: Einer öffentlich behaupteten BDJ-Mitgliederzahl von mehr als 20.000 seien **700 registrierte Mitglieder** gegenübergestanden; außerdem wurden beträchtliche Gelder ungeklärter Herkunft und hohe Funktionärsgehälter erwähnt. Dieselbe **700er-Angabe** erscheint in von Dellingshausens Bericht an den Gesamtdeutschen Ausschuss vom **29. März 1951** (Biefang-Edition, gedruckte S. 173). Diese Ermittlung aus März 1951 ist von der späteren US-Sollplanung für einen **7.000 Personen** starken Apparat zu trennen.
 
+## Parallelüberlieferung: „Saxer GmbH“ und Monatsbeträge in der Presse 1952
+
+Zwei weitere vollständig überprüfte CIA-Faksimiles enthalten als **`Attachment (2)` eine englische Presseübersetzung** aus *Der Spiegel*, Ausgabe vom **15. Oktober 1952** („Partisanen: Alles für Deutschland“). Das ist eine zeitgenössische Berichterstattung **innerhalb der CIA-Akte**, keine eigenständige CIA-Bestätigung aller Aussagen.
+
+**CIA `LCPROWL VOL. 1_0033`, PDF-S. 17 / übersetzter Pressebericht S. 4:** Das Neu-Isenburger Holzgroßhandelsbüro wird als Filiale der **„Saxer GmbH“ in Lorsch bei Bensheim** beschrieben. Es soll eine Vertriebsbeziehung zu einer Sperrholzfirma in **Worms** bestanden haben. Der tatsächliche Zweck des Büros wird in der Pressefassung als **Tarnung und verdeckte Kurier-/Postverkehrsstelle des Technischen Dienstes** beschrieben, einschließlich eines behaupteten gemeinsamen Postwegs mit dem offenen BDJ in der Frankfurter Liebigstraße.
+
+**Sichtbare Beträge, PDF-S. 17:** Die damalige Presse berichtete von amerikanischen Geheimmitteln von **bis zu 50.000 DM monatlich** und von Personallöhnen von **500–1.000 DM**, die noch am **1. September 1952** ausgezahlt worden seien. Diese Beträge sind **zeitgenössische journalistische Zuschreibungen**, nicht die in `VOL. 4_0030` geprüften Kassenbücher. Für die Finanzierungsrekonstruktion sind deshalb monatliche OPC-Abrechnungen, Firmenbücher und Gehaltsquittungen heranzuziehen, bevor daraus ein tatsächlicher Geldfluss beziffert wird.
+
+**Bemerkenswerte quelleninterne Namensabweichung:** Dieselbe Presseübersetzung bezeichnet den Vater Erhard Peters' auf **PDF-S. 15** als **„Emil Peters“** (Lorsch, Mieter der Waldmichelbacher Villa), auf **PDF-S. 17** aber als **„Erwin Peters“** (angeblicher Saxer-Geschäftspartner). Die CIA-eigene Wiedergabe der Polizeiinformationen in `VOL. 4_0030` verwendet „Emil Peters“. Der Widerspruch innerhalb einer einzigen Übersetzung ist ein konkreter Grund, zunächst **Register-, Miet- und Vernehmungsurkunden** zu beschaffen und keine zwei verschiedenen Peters-Personen oder Namensgleichheit zu behaupten.
+
+Die Parallelkopie **`LCPROWL VOL. 3_0017`** enthält ebenfalls die Spiegel-Anlage (PDF-S. 14–18), hat jedoch eine schlechter extrahierbare Textschicht. Beide Dateien sind als vollständige Faksimiles mit unterschiedlichen Dateihashes erhalten.
+
 ## Archivfaksimiles und Prüfsummen
 
-Die vier archivierten CIA-Dateien wurden tatsächlich heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
+Die sechs archivierten CIA-Dateien wurden vollständig heruntergeladen. Ihre **MD5-Werte stimmen exakt mit den originalen Dateimetadaten des Internet Archive (Upload 2015)** überein; zusätzlich wurden die SHA-256-Prüfsummen unabhängig berechnet.
 
 | Originaldokument | PDF-Seiten | SHA-256 | MD5 |
 | --- | ---: | --- | --- |
@@ -77,7 +89,9 @@ Die vier archivierten CIA-Dateien wurden tatsächlich heruntergeladen. Ihre **MD
 | [LCPROWL VOL. 4_0039](https://archive.org/download/LCPROWLVOL4-0039/LCPROWL%20%20%20%20VOL.%204_0039.pdf) | 14 | `29bf5550072efd35871891ad057a232a32ee2cdc951f30520f7bc56fc78f5490` | `07cb866066bdf9d5ce5d17b3d5a0ac95` |
 | [LCPROWL VOL. 3_0009](https://archive.org/download/LCPROWLVOL3-0009/LCPROWL%20%20%20%20VOL.%203_0009.pdf) | 2 | `29e740de9fb7b567a208dc5c72ed32ac5c91df8b92c4f741a793aa10b881929b` | `f90afea98cfc61da449af8a19b511d91` |
 | [LCPROWL VOL. 4_0040](https://archive.org/download/LCPROWLVOL4-0040/LCPROWL%20%20%20%20VOL.%204_0040.pdf) | 4 | `79c540aab4ca4093b4767899e9b6a45f8a03f1204242ed3952d03e518ced6204` | `02fbcf3199e1ff4c9987c81fff2c36ce` |
+| [LCPROWL VOL. 1_0033](https://archive.org/download/LCPROWLVOL1-0033/LCPROWL%20%20%20%20VOL.%201_0033.pdf) | 21 | `c04a0f51e7cbf5037d115b3f5efd6df007ad2b5e828dc8cd477f5708848c6747` | `ae250501906762bd3772c921d0b96a6a` |
+| [LCPROWL VOL. 3_0017](https://archive.org/download/LCPROWLVOL3-0017/LCPROWL%20%20%20%20VOL.%203_0017.pdf) | 21 | `2a0c1acb3d13ab90c5c0f7f1b14f6ae16a354811d32190f40e3bd0bbd6a263a0` | `2c28d8c402cc2c31f61f85a1e1622438` |
 
-**Amtliche Bestandszuordnung:** [US National Archives, Record Group 263, Entry ZZ-19, LCPROWL Vol. 3–4 in Box 0043](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html) (**NARA**). Die Archive.org-Kopien sind verfügbare originalgetreue historische PDF-Dateien, nicht die aktuelle CIA-Webbereitstellung.
+**Amtliche Bestandszuordnung:** [US National Archives, Record Group 263, Entry ZZ-19](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release-subject-files.html) (**NARA**): LCPROWL **Vol. 1–2 in Box 0042**, Vol. **3–4 in Box 0043**. Die Archive.org-Kopien sind verfügbare originalgetreue historische PDF-Dateien, nicht die aktuelle CIA-Webbereitstellung.
 
 **Weitere Akten:** Firmen-/Handelsregister **„Saxer“**, Emil-Peters-Vernehmung, CIA **`FRAN 3038`, `FRAN 4050`, `FRAN 6878`, `DIR 19946`**, ursprüngliche Lehr-Erklärungsentwürfe, BArch **B 136/4430**, **B 106/15584–15588**, hessische Kommissionsakte **HHStAW, 502, 17886** und die Gerichtsprotokolle Januar/Februar 1953. Die Untersuchung soll über konkrete Zahlungen, Briefe, Weisungen, Aktenzugänge und Aussagen fortgesetzt werden.
