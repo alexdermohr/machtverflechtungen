@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**124 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**129 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -707,6 +707,17 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
 
+<a id="src-de-bt-nonne-3123-1992"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fahndung nach der RAF und Kronzeugenfall Nonne – Drs. 12/3123](https://dserver.bundestag.de/btd/12/031/1203123.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-NONNE-3123-1992`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
+
+Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
 <a id="src-de-bt-okt-1613527-2009"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -959,6 +970,50 @@ Hessisches Hauptstaatsarchiv Wiesbaden · unbekannt · Stufe **A** · Primärque
 [Seite öffnen](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555)
 
 Fundstelle: HHStAW, 502, 17886; Bd. 1; Laufzeit [1951] 1952–1953; 'Enthält'-Vermerk zur Deutsch-Amerikanischen Untersuchungskommission
+
+<a id="src-de-stammheim-128-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 128. Verhandlungstag: Müller und Beweisanträge](https://www.stammheim-prozess.de/128-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-07-20 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-128-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/128-verhandlungstag/)
+
+Fundstelle: S. 10633–10659; Anlagen 4–19
+
+<a id="src-de-stammheim-158-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 158. Verhandlungstag: Teilfreigabe 3 ARP 74/75 I](https://www.stammheim-prozess.de/158-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-05 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-158-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/158-verhandlungstag/)
+
+Fundstelle: S. 12262–12269 und spätere Antragsbehandlung
+
+<a id="src-de-stammheim-159-1976"></a>
+### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
+
+**[Stammheim-Prozess, 159. Verhandlungstag: Sperrvermerk](https://www.stammheim-prozess.de/159-verhandlungstag/)**
+
+Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-11-09 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-159-1976`
+
+[Seite öffnen](https://www.stammheim-prozess.de/159-verhandlungstag/)
+
+Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12306
+
+<a id="src-de-bwlt-stammheim-2007"></a>
+### Landtag Baden-Württemberg / Justizministerium
+
+**[Abhörmaßnahmen bei RAF-Gefangenen in Stuttgart-Stammheim – Drs. 14/1721](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)**
+
+Landtag Baden-Württemberg / Justizministerium · 2007-10-08 · Stufe **A** · Primärquelle · `SRC-DE-BWLT-STAMMHEIM-2007`
+
+[PDF öffnen](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)
+
+Fundstelle: Antwort zu Fragen 1–6, gedruckte S. 3–6
 
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen
