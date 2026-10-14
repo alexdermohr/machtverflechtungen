@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**148 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**151 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -434,6 +434,28 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 
 Fundstelle: Sommer, Theo (DEU)
 
+<a id="src-de-barch-b136-1679-paris-1955-1956"></a>
+### Bundesarchiv / Bundeskanzleramt
+
+**[Bundesarchiv B 136/1679: außerplanmäßige Mittel für Öffentlichkeitsarbeit zu den Pariser Verträgen](https://www.deutsche-digitale-bibliothek.de/item/J7BTZBIDBNQWECFZFM2WM7TNJ6D5I64Z)**
+
+Bundesarchiv / Bundeskanzleramt · 2026-04-24 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-B136-1679-PARIS-1955-1956`
+
+[Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/J7BTZBIDBNQWECFZFM2WM7TNJ6D5I64Z)
+
+Fundstelle: BArch B 136/1679; Laufzeit 1955–1956; Haushalts-, Kassen- und Rechnungswesen; Haushaltsangelegenheiten des BPA
+
+<a id="src-de-barch-b145-810-adk-1954-1956"></a>
+### Bundesarchiv / Presse- und Informationsamt der Bundesregierung
+
+**[Bundesarchiv B 145/810: Zuwendungen an die Arbeitsgemeinschaft Demokratischer Kreise im Kontext der Pariser Verträge](https://www.deutsche-digitale-bibliothek.de/item/AQL6AGNH45NL2PMAXODEOHLWFOQ7DC67)**
+
+Bundesarchiv / Presse- und Informationsamt der Bundesregierung · 2026-04-24 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-B145-810-ADK-1954-1956`
+
+[Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/AQL6AGNH45NL2PMAXODEOHLWFOQ7DC67)
+
+Fundstelle: BArch B 145/810; Laufzeit 1954–1956; 65 Vorgänge; BPA, Öffentlichkeitsarbeit in Verteidigungsfragen
+
 <a id="src-de-barch-soko-zwischenbericht-1980"></a>
 ### Bundesarchiv / Soko Theresienwiese (BLKA/BKA)
 
@@ -640,6 +662,17 @@ Deutscher Bundestag · 1953-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/01/046/0104644.pdf)
 
 Fundstelle: Drucksache Nr. 4644
+
+<a id="src-de-bt-plenar-02225-epl04-t309-19570706"></a>
+### Deutscher Bundestag
+
+**[Bundestag 225. Sitzung: Öffentlichkeitsarbeit, Etat Titel 309 und beispielhaft ADK als Empfänger](https://dserver.bundestag.de/btp/02/02225.pdf#page=22)**
+
+Deutscher Bundestag · 1957-07-06 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-02225-EPL04-T309-19570706`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/02/02225.pdf#page=22)
+
+Fundstelle: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
 
 <a id="src-de-bt-09066-1981"></a>
 ### Deutscher Bundestag
