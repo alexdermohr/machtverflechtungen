@@ -40,6 +40,8 @@ class French1RPArchiveTests(unittest.TestCase):
                 self.assertIn(signature, study)
         self.assertIn("1RP 16/5", study)
         self.assertIn("nicht selbst eingesehen", study)
+        self.assertIn("eigenständige Beobachtungen oder übernommene deutsche Berichte", study)
+        self.assertNotIn("unabhängige französische Beobachtung", study)
         for page in (17, 18, 23, 53, 85, 267, 343):
             self.assertIn(f"{PDF}#page={page}", study)
 
