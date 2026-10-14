@@ -70,6 +70,10 @@ class BkaSicherungsgruppeParliamentaryOriginals(unittest.TestCase):
         self.assertIn("BKA-Bestand ist **B 131**", self.study)
         self.assertIn("Werner Freund", self.study)
         self.assertIn("Die zwölf hier ausgewerteten Originalquellen", self.study)
+        self.assertIn("gemeinsamen Regierungsantwort auf Fragen 5 und 6, S. 3", self.study)
+        self.assertIn("Fragetext auf S. 1", self.study)
+        self.assertIn("5. Februar 1971", self.study)
+        self.assertIn("vor Beginn", self.study)
 
     def test_archival_leads_stay_separate_from_verified_federal_records(self):
         for shelf in ("B 362/6202", "B 362/6234", "B 362/6224", "B 362/6222"):
