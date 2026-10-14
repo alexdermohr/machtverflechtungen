@@ -132,6 +132,8 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         self.assertIn("Hans Edgar Jahn", self.study)
         self.assertNotIn("Werner Jahn", self.study)
         self.assertIn("ACDP-Bestand 01-753", self.study)
+        self.assertIn("ACDP-Archivfindbuch der Konrad-Adenauer-Stiftung", self.study)
+        self.assertNotIn("Das amtliche [DDB-/ACDP-Findbuch", self.study)
         self.assertIn("ACDP 01-226-010", self.study)
         self.assertIn("BArch B 145", self.study)
         self.assertIn("Studiengesellschaft Public Relations e.V.", self.study)
