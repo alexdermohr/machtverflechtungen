@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**140 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**141 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1069,6 +1069,17 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+<a id="src-fr-mae-1rp-findbuch-2023"></a>
+### Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplomatiques de La Courneuve
+
+**[FRMAE 1RP und 2RP: Findbuch der französischen Provinzialdelegation Rheinland-Pfalz 1945–1955](https://archivesdiplomatiques.diplomatie.gouv.fr/media/894739ac-3d8f-4abb-bd77-171965ecbeab.pdf)**
+
+Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplomatiques de La Courneuve · 2023 · Stufe **A** · Primärquelle · `SRC-FR-MAE-1RP-FINDBUCH-2023`
+
+[PDF öffnen](https://archivesdiplomatiques.diplomatie.gouv.fr/media/894739ac-3d8f-4abb-bd77-171965ecbeab.pdf)
+
+Fundstelle: 373 PDF-Seiten: S. 17 (1RP 11/6 VFF), S. 18 (1RP 16/5 Verfassungschutz), S. 23 (1RP 34/2 BDJ), S. 53 (1RP 233/4 BDJ und 233/7 VFF), S. 85 (1RP 438/3 BDJ), S. 267 (1RP 2262/1 BDJ), S. 343 (1RP 2950/3 BDJ)
 
 <a id="src-int-nato-warsaw-summit-2016"></a>
 ### NATO
