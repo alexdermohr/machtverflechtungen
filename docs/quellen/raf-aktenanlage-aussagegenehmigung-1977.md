@@ -6,12 +6,12 @@
 
 | Datum der Urkunde | Urheber / Dokument | Überlieferung | Quellenkennung |
 | --- | --- | --- | --- |
-| 14.01.1977 | Otto Schily, Beweisantrag zur Vernehmung Horst Herolds | 174. Verhandlungstag, 20.01.1977, Anlage 5, S. **13272–13273** | `SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114` |
+| 14.01.1977 | Otto Schily, Beweisantrag zur Vernehmung Horst Herolds | 174. Verhandlungstag, 20.01.1977, Anlage 5 (**Ablichtung**), S. **13272–13273** | `SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114` |
 | 11.02.1977 | Horst Herold, Schreiben an den Senatsvorsitzenden | 179. Verhandlungstag, 17.02.1977, Anlage 1 (**Ablichtung**), S. **13425** | `SRC-DE-STAMMHEIM-HEROLD-SCHREIBEN-19770211` |
 | 15.02.1977 | Generalbundesanwalt Siegfried Buback samt beglaubigtem Verfügungs-Auszug | 179. Verhandlungstag, Anlage 2 (Schreiben und **auszugsweise beglaubigte Abschrift**), S. **13428–13429** | `SRC-DE-STAMMHEIM-BUBACK-VERFUEGUNG-19770215` |
-| 03.03.1977 | Bundesminister des Innern, begrenzte Aussagegenehmigung für Herold | 184. Verhandlungstag, 15.03.1977, Anlage 3, S. **13619–13620** | `SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303` |
+| 03.03.1977 | Bundesminister des Innern, begrenzte Aussagegenehmigung für Herold | 184. Verhandlungstag, 15.03.1977, Anlage 3 (**Fotokopie**), S. **13619–13620** | `SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303` |
 
-Die Datumsangaben in der ersten Spalte stammen jeweils **aus der datierten Urkunde**, die Prozessdaten aus der aufgedruckten Anlagenzuordnung. Die Dateien sind **Scans der in einer wissenschaftlich bereitgestellten Prozessedition überlieferten Anlagen**. Herolds Schreiben ist dort als **Ablichtung** beigelegt, Bubacks beigefügter Verfügungs-Auszug als **auszugsweise beglaubigte Abschrift** ausgewiesen. Diese Kopien sind **nicht als eigenhändige Urschriften** zu behandeln. Das Digitalisat ersetzt weder die Urschriften noch die Einsicht in gesonderte interne Verwaltungsakten.
+Die Datumsangaben in der ersten Spalte stammen jeweils **aus der datierten Urkunde**, die Prozessdaten aus der aufgedruckten Anlagenzuordnung. Die Dateien sind **Scans der in einer wissenschaftlich bereitgestellten Prozessedition überlieferten Anlagen**. Im [Protokoll des 174. Verhandlungstags](https://www.stammheim-prozess.de/174-verhandlungstag/) wird Schilys Antrag (Anlage 5) ausdrücklich als **in Ablichtung** beigefügt bezeichnet; im [Protokoll des 184. Verhandlungstags](https://www.stammheim-prozess.de/184-verhandlungstag/) die BMI-Aussagegenehmigung (Anlage 3) als **Fotokopie**. Herolds Schreiben ist dort als **Ablichtung** beigelegt, Bubacks beigefügter Verfügungs-Auszug als **auszugsweise beglaubigte Abschrift** ausgewiesen. Diese Kopien sind **nicht als eigenhändige Urschriften** zu behandeln. Das Digitalisat ersetzt weder die Urschriften noch die Einsicht in gesonderte interne Verwaltungsakten.
 
 ## 1. Schilys Beweisantrag: Aktenauswahl, Presse und behaupteter Beratervertrag
 

@@ -82,6 +82,18 @@ class RafStammheim1977Originals(unittest.TestCase):
                 self.assertIn("Scan", by_id[source_id]["notes"])
                 self.assertNotIn("Originalfaksimile", by_id[source_id]["notes"])
 
+    def test_schily_bmi_day_records_prove_additional_copy_status(self):
+        # 174. Verhandlungstag: Anlage 5 in Ablichtung; 184.: Anlage 3 als Fotokopie.
+        by_id = {source["id"]: source for source in self.sources}
+        self.assertIn("Ablichtung", by_id["SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114"]["notes"])
+        self.assertIn("Fotokopie", by_id["SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303"]["notes"])
+        self.assertIn("Ablichtung", by_id["SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114"]["locator"])
+        self.assertIn("Fotokopie", by_id["SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303"]["locator"])
+        self.assertIn("Anlage 5 (**Ablichtung**)", self.study)
+        self.assertIn("Anlage 3 (**Fotokopie**)", self.study)
+        self.assertIn("174-verhandlungstag/", self.study)
+        self.assertIn("184-verhandlungstag/", self.study)
+
     def test_claimed_media_contract_is_not_pretended_documented_payment(self):
         self.assertIn("Beweisbehauptung der Verteidigung", self.study)
         self.assertIn("Eduard Zimmermann", self.study)

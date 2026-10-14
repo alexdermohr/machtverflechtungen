@@ -553,7 +553,7 @@ Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess · 1977-03
 
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf)
 
-Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3, Protokollseiten 13619–13620
+Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3 (Fotokopie), Protokollseiten 13619–13620
 
 <a id="src-de-bnd-geschichte-2011"></a>
 ### Bundesnachrichtendienst
@@ -1198,7 +1198,7 @@ Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess · 1977-01-14 · Stufe *
 
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-5-20.1.1977-S.-13272-13273-Antrag-des-Rechtsanwalts-Schily-auf-Vernehmung-des-Praesidenten-des-BKA-Herold-als-Zeugen.pdf)
 
-Fundstelle: 174. Verhandlungstag, 20.01.1977, Anlage 5, Protokollseiten 13272–13273
+Fundstelle: 174. Verhandlungstag, 20.01.1977, Anlage 5 (laut Protokoll in Ablichtung beigefügt), Protokollseiten 13272–13273
 
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
