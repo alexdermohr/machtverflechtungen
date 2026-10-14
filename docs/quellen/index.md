@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**145 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**148 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -883,6 +883,28 @@ Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärque
 
 Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
 
+<a id="src-de-bt-khk-s-19910627"></a>
+### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+
+**[Bundestag Drs. 12/868: KHK S., BKA-Sicherungsgruppe und MfS-Agententätigkeitsverfahren](https://dserver.bundestag.de/btd/12/008/1200868.pdf)**
+
+Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1991-06-27 · Stufe **A** · Primärquelle · `SRC-DE-BT-KHK-S-19910627`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/008/1200868.pdf)
+
+Fundstelle: Gedruckte S. 1, Frage 1: Abordnung 12.02.–18.05.1971; S. 2, Frage 3: Zeugenrolle Heimerzheim; S. 3, Antworten zu Fragen 5/6, 8/9: Anklage 08.04.1991, Erkenntnisstand und weitere Ermittlungsverfahren
+
+<a id="src-de-bt-mfs-kontakte-19930721"></a>
+### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+
+**[Bundestag Drs. 12/5479: Fragen zu Kontakten mit MfS-Mitarbeitern und Walter Sch.](https://dserver.bundestag.de/btd/12/054/1205479.pdf)**
+
+Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1993-07-21 · Stufe **A** · Primärquelle · `SRC-DE-BT-MFS-KONTAKTE-19930721`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/054/1205479.pdf)
+
+Fundstelle: Gedruckte S. 2: Namensabkürzung Walter Sch., Kriminalhauptkommissar Duisburg, einst Sicherungsgruppe Bonn, Querverweis Drs. 12/868; S. 3: Fragen nach Geld, Leistungen und Aussagebereitschaft sowie Regierungsantworten
+
 <a id="src-de-bt-gladio-18701-2014"></a>
 ### Deutscher Bundestag / Bundesregierung, Bundeskanzleramt
 
@@ -1102,6 +1124,17 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+<a id="src-fr-mae-1rp-findbuch-2023"></a>
+### Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplomatiques de La Courneuve
+
+**[FRMAE 1RP und 2RP: Findbuch der französischen Provinzialdelegation Rheinland-Pfalz 1945–1955](https://archivesdiplomatiques.diplomatie.gouv.fr/media/894739ac-3d8f-4abb-bd77-171965ecbeab.pdf)**
+
+Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplomatiques de La Courneuve · 2023 · Stufe **A** · Primärquelle · `SRC-FR-MAE-1RP-FINDBUCH-2023`
+
+[PDF öffnen](https://archivesdiplomatiques.diplomatie.gouv.fr/media/894739ac-3d8f-4abb-bd77-171965ecbeab.pdf)
+
+Fundstelle: 373 PDF-Seiten: S. 17 (1RP 11/6 VFF), S. 18 (1RP 16/5 Verfassungschutz), S. 23 (1RP 34/2 BDJ), S. 53 (1RP 233/4 BDJ und 233/7 VFF), S. 85 (1RP 438/3 BDJ), S. 267 (1RP 2262/1 BDJ), S. 343 (1RP 2950/3 BDJ)
 
 <a id="src-int-nato-warsaw-summit-2016"></a>
 ### NATO
