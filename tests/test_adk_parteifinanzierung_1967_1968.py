@@ -35,8 +35,8 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         ):
             with self.subTest(amount=amount):
                 self.assertIn(amount, self.study)
-        self.assertIn("keine belegte Zweckumbuchung", self.study)
-        self.assertIn("kein** ADK-Empfängerbetrag", self.study)
+        self.assertIn("Weder der Vollzug der Verlagerung noch der endgültige Ausschluss", self.study)
+        self.assertIn("kein ADK-Empfängerbetrag", self.study)
         self.assertIn("hypothetisches Kabinettsbeispiel", self.study)
 
     def test_no_documented_staff_transfer_or_continued_payment_is_invented(self):
@@ -88,6 +88,44 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         self.assertIn("www.bpb.de/shop/zeitschriften/apuz/archiv/527544/", self.study)
         self.assertIn("zeitgenössisch abgedruckt in *APuZ* 32/1966", self.study)
         self.assertNotIn("SharedDocs/Entscheidungen/EN/1966", self.study)
+
+    def test_committee_proposal_is_in_report_zu_v2731_not_just_equal_numbers(self):
+        self.assertIn("0502731zu.pdf#page=6", self.study)
+        self.assertIn("V/2704", self.study)
+        self.assertIn("von Titel 300 nach Titel 314 zu verlagern", self.study)
+        self.assertIn("bewusste Verknüpfung beider Titeländerungen", self.study)
+        self.assertIn("ADK-Förderkonflikt als Ausschussvorschlag", self.study)
+        self.assertIn("Weder der Vollzug der Verlagerung", self.study)
+        self.assertIn("keinen fortgesetzten öffentlichen Zahlungsstrom an die ADK", self.study)
+        self.assertNotIn("Verlagerung von 1 Mio. DM wurde 1968 ausgeführt", self.study)
+
+    def test_editorial_sperrvermerk_explained_by_second_original_but_not_final_verification(self):
+        self.assertIn("editorische Fußnote 20", self.study)
+        self.assertIn("fünf Druckseiten den Ausschluss", self.study)
+        self.assertIn("zusätzlichen Originalbericht *zu V/2731*", self.study)
+        self.assertIn("V/2704-Quellennachweis", self.study)
+        self.assertIn("rechtliche Verbindlichkeit", self.study)
+        self.assertNotIn("V/2704 belegt einen ADK-Sperrvermerk", self.study)
+        self.assertNotIn("sicher endgültig gestrichen", self.study)
+
+    def test_evidence_table_separates_grant_plan_and_editorial_material(self):
+        self.assertIn("regulären ADK-Jahreszuwendung 1967 (Plan)", self.study)
+        self.assertIn("KGParl 26.03.1968, editorische Fußnote 7", self.study)
+        self.assertIn("editorische Fußnote 20", self.study)
+        self.assertNotIn("¾ eines Jahresansatzes 1967", self.study)
+        self.assertNotIn("KGParl-Fußnote 26.03.1968 |", self.study)
+
+    def test_section_headings_do_not_infer_illegal_party_payments(self):
+        self.assertIn("Fraktionen verhandeln die ADK-Förderung", self.study)
+        self.assertNotIn("Fraktionen benennen ihren Finanzierungsmechanismus", self.study)
+        self.assertNotIn("institutionelle **historische Rückschau**", self.study)
+        self.assertNotIn("nach institutioneller Rückschau", self.study)
+
+    def test_1968_edition_citation_identifies_original_and_secondary_footnote(self):
+        self.assertIn("08-001-1016/1", self.study)
+        self.assertIn("10.82988/b995-sj37", self.study)
+        self.assertIn("TOP 3 Bundeshaushalt 1968", self.study)
+        self.assertIn("www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02", self.study)
 
     def test_1967_quarter_fraction_is_only_proposed_financing(self):
         self.assertIn("6/12", self.study)
