@@ -93,7 +93,18 @@ Althammer gibt die Auffassung des Präsidenten des Bundesrechnungshofes wieder, 
 
 **Juristische Grenze:** Aus dem Belegkomplex folgt keine verifizierte strafrechtliche Korruptionshandlung oder Feststellung einer rechtswidrigen Einzelzahlung. Der Fall macht jedoch eine **politisch erhebliche Überlagerung von Regierungsöffentlichkeitsarbeit, haushaltsrechtlicher Steuerung und parteiischem Organisationsinteresse** dokumentierbar. Besonders aufschlussreich sind die direkte Einordnung durch den Bundeskanzler und die Vorschläge, den öffentlichen Geldfluss trotz Koalitionswiderstands organisatorisch weiterzuführen.
 
-## 5. Nachzuziehende Originalakten und Prüfaufträge
+## 5. Neue institutionelle Anschlusskette bis 2003: Studiengesellschaft und KAS-Fonds SPR
+
+Ein bislang separat zu prüfender späterer Vermögens- und Trägeranschluss ergibt sich aus zwei **institutionellen Eigenveröffentlichungen**, die unterschiedlich weit tragen:
+
+1. **Rückblick der Stiftung Bundeskanzler-Adenauer-Haus:** Der [Historiker Torsten Oppelland](https://www.konrad-adenauer.de/seite/arbeitsgemeinschaft-demokratischer-kreise/) schreibt, die ADK sei auf SPD-Drängen in der Großen Koalition bis **1969 sukzessive aufgelöst** worden. Als **Nachfolgeorganisation** nennt er die bereits **1956 gegründete Studiengesellschaft für Public Relations e.V. (SPR)**, die sich nach dieser Darstellung **2001** auflöste. Das ist eine institutionelle **historische Rückschau**, kein unmittelbares Gründungs- oder Liquidationsprotokoll.
+2. **Konrad-Adenauer-Stiftung (KAS), eigene aktuelle Fondsbeschreibung:** Auf ihrer [Spenden- und Fondsseite, Abschnitt „Fonds SPR unterstützen!“](https://www.kas.de/de/unterstuetzen-sie-uns) erklärt die **KAS selbst**, sie habe **2003 entsprechend dem Liquidationsbeschluss der Studiengesellschaft für Public Relations e.V., Bonn, den Fonds SPR eingerichtet**. Daraus würden **Maßnahmen der Wissenschaftlichen Dienste der KAS** finanziert. Diese Erklärung ist ein **institutioneller Primärnachweis der behaupteten Fondsgründung und Zweckbestimmung**; sie ersetzt nicht die Einsicht in den **Liquidationsbeschluss, die Vermögensaufstellung, Übertragungsvereinbarung, Kapitalzuführungen oder späteren Fondsabschlüsse**.
+
+Die damit zunächst dokumentierte **Organisations- und Fondsfolge** lautet: staatlich unterstützte **ADK** (1951–1969) → nach institutioneller Rückschau **SPR e.V.** (1956–2001) → durch die KAS selbst genannter **Fonds SPR** (2003). **Keiner der beiden Belege weist die Höhe oder Herkunft des übergegangenen Vermögens aus.** Insbesondere darf **nicht** unterstellt werden, dass im Jahr 2003 noch öffentliche ADK- oder BPA-Mittel der 1950er und 1960er Jahre im Fondsvermögen enthalten gewesen seien.
+
+**Neuer präziser Prüfauftrag:** Vereinsregister/Abwicklungsakten der SPR aus **2001–2003**, Liquidationsbilanz, Beschlussprotokoll und eventuelle Vereinbarungen mit der KAS sowie **frühe Fonds-SPR-Berichte** verlangen; bei ADK/SPR-Verträgen und Personalakten der Jahre **1967–1970** auf Leistungs-, Mitarbeiter- und Zahlungskontinuität prüfen. Die **materielle Finanzspur über mehrere Jahrzehnte** ist damit eine **prüfbare Hypothese**, während der **institutionelle Fondsanschluss 2003** aufgrund der KAS-Eigendarstellung als solcher dokumentiert ist.
+
+## 6. Nachzuziehende Originalakten und Prüfaufträge
 
 1. **BPA: BArch B 145**, vor allem Förderungsempfänger, Einzelbewilligungen, Verwendungsnachweise, Sach- und Personalkosten und Zahlungsläufe **1966–1969** zu **Kapitel 04 03 / Titel 300**, **Titel 314**, ADK, BPA-*Information Inland* und zu den nachgeordneten Dienstleistern. Nicht den Gesamtansatz mit einer Empfängerzahlung gleichsetzen.
 2. **BPA-Grundvertrag / Kündigungsvermerk** (Conrad Ahlers, mögliche Kündigung 30.06.1968 zum 31.12.1968). Im editorischen Apparat genannte **ACDP 01-226-010** mit Koalitionsunterlagen vergleichen; derzeit **nur über Edition und Findhinweise, nicht als eingesehenes Original**.

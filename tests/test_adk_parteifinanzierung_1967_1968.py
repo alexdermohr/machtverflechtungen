@@ -68,6 +68,17 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, self.study)
 
+    def test_kas_spr_liquidation_is_not_a_federal_money_trace(self):
+        self.assertIn("www.kas.de/de/unterstuetzen-sie-uns", self.study)
+        self.assertIn("Liquidationsbeschluss", self.study)
+        self.assertIn("2003", self.study)
+        self.assertIn("2001", self.study)
+        self.assertIn("Fonds SPR", self.study)
+        self.assertIn("1956", self.study)
+        self.assertIn("Herkunft des übergegangenen Vermögens", self.study)
+        self.assertIn("2003 noch öffentliche ADK- oder BPA-Mittel", self.study)
+        self.assertIn("Vereinsregister/Abwicklungsakten", self.study)
+
     def test_adk_person_identity_and_archive_followup(self):
         self.assertIn("Hans Edgar Jahn", self.study)
         self.assertNotIn("Werner Jahn", self.study)
