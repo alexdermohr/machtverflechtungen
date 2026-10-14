@@ -94,6 +94,21 @@ class RafStammheim1977Originals(unittest.TestCase):
         self.assertIn("174-verhandlungstag/", self.study)
         self.assertIn("184-verhandlungstag/", self.study)
 
+    def test_bmi_theme_six_includes_prosecutor_appeal_deadline(self):
+        # Amtliche BMI-Anlage 3, S. 13620, Nr. 6: keine allgemeine Zeitabsprache.
+        self.assertIn("Revisionsfrist für die Staatsanwaltschaft", self.study)
+        self.assertIn("im Verfahren gegen Gerhard Müller", self.study)
+        self.assertNotIn("(6) Absprachen zum Zeitpunkt der Protokollierung", self.study)
+
+    def test_bmi_froehlich_signed_as_ministers_representative(self):
+        # Originalbild S. 13620: 'In Vertretung' unmittelbar über '(Dr. Fröhlich)'.
+        bmi = next(s for s in self.sources if
+                   s["id"] == "SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303")
+        self.assertIn("von Dr. Fröhlich in Vertretung des Bundesministers", bmi["notes"])
+        self.assertIn("von **Dr. Fröhlich** in Vertretung des Bundesministers", self.study)
+        self.assertNotIn("in Vertretung von Dr. Fröhlich", self.study)
+        self.assertNotIn("in Vertretung von Dr. Fröhlich", bmi["notes"])
+
     def test_claimed_media_contract_is_not_pretended_documented_payment(self):
         self.assertIn("Beweisbehauptung der Verteidigung", self.study)
         self.assertIn("Eduard Zimmermann", self.study)
