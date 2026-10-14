@@ -59,6 +59,13 @@ class RafStammheim1977Originals(unittest.TestCase):
         self.assertIn("Prozessanlagen", self.study)
         self.assertIn("wissenschaftlich bereitgestellten Prozessedition", self.study)
 
+    def test_trial_scans_preserve_document_copy_status(self):
+        self.assertIn("als **Ablichtung**", self.study)
+        self.assertIn("**auszugsweise beglaubigte Abschrift**", self.study)
+        self.assertIn("nicht als eigenhändige Urschriften", self.study)
+        self.assertNotIn("Originalfaksimiles innerhalb", self.study)
+        self.assertNotIn("anhand der beiden originalen Faksimileseiten", self.study)
+
     def test_claimed_media_contract_is_not_pretended_documented_payment(self):
         self.assertIn("Beweisbehauptung der Verteidigung", self.study)
         self.assertIn("Eduard Zimmermann", self.study)
