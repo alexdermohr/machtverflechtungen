@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**140 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**145 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -533,6 +533,28 @@ Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24 · 2004-06-24
 
 Fundstelle: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
 
+<a id="src-de-stammheim-herold-schreiben-19770211"></a>
+### Bundeskriminalamt / Horst Herold / OLG Stuttgart / Edition Stammheim-Prozess
+
+**[BKA-Präsident Herold: Schreiben an den Vorsitzenden des OLG-Stuttgart-Senats](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-1-17.2.1977-S.-13425-Schreiben-des-Praesidenten-des-BKA-Dr.-Herold-vom-11.2.1977.pdf)**
+
+Bundeskriminalamt / Horst Herold / OLG Stuttgart / Edition Stammheim-Prozess · 1977-02-11 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-HEROLD-SCHREIBEN-19770211`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-1-17.2.1977-S.-13425-Schreiben-des-Praesidenten-des-BKA-Dr.-Herold-vom-11.2.1977.pdf)
+
+Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 1, Protokollseite 13425
+
+<a id="src-de-bmi-herold-aussagegenehmigung-19770303"></a>
+### Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess
+
+**[BMI-Aussagegenehmigung für BKA-Präsident Horst Herold vom 3. März 1977](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf)**
+
+Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess · 1977-03-03 · Stufe **A** · Primärquelle · `SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf)
+
+Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3, Protokollseiten 13619–13620
+
 <a id="src-de-bnd-geschichte-2011"></a>
 ### Bundesnachrichtendienst
 
@@ -916,6 +938,17 @@ Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht
 
 Fundstelle: Vollständiges Einladungsblatt, Veranstaltung 29.10.1976 in Nürnberg; unten links Impressum mit Finanzverwalter 'Franz Lippert', Bonner Informationsstelle '(P. Weinmann)' und Spendenkonto beim Postscheckamt Nürnberg. Commons-Beschreibung gibt 01.10.1976 als Datum an (Uploader-Angabe, NICHT Urschriftdatierung). Datei 2480×3507 px, SHA-256 a8e36b8b3259c42414ca36128f2827984aae064545ca8ffe4e1bf295f4120438.
 
+<a id="src-de-stammheim-buback-verfuegung-19770215"></a>
+### Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-Prozess
+
+**[Generalbundesanwalt Buback: Aktenregistrierung 3 ARP 74/75 I und Verfügung 1 BJs 7/76](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf)**
+
+Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-Prozess · 1977-02-15 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-BUBACK-VERFUEGUNG-19770215`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf)
+
+Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)
+
 <a id="src-de-hh-cumex-pua-2024"></a>
 ### Hamburgische Bürgerschaft
 
@@ -1111,6 +1144,28 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
 
 Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+
+<a id="src-de-stammheim-herold-184-19770315"></a>
+### OLG Stuttgart / Edition Stammheim-Prozess
+
+**[Stammheim-Prozess, 184. Verhandlungstag: Herold-Vernehmung und Aussagegenehmigung](https://www.stammheim-prozess.de/184-verhandlungstag/)**
+
+OLG Stuttgart / Edition Stammheim-Prozess · 1977-03-15 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-HEROLD-184-19770315`
+
+[Seite öffnen](https://www.stammheim-prozess.de/184-verhandlungstag/)
+
+Fundstelle: Protokollseiten 13617 ff., 13643–13652, 13664–13667
+
+<a id="src-de-stammheim-schily-herold-19770114"></a>
+### Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess
+
+**[Otto Schily: Beweisantrag auf Vernehmung des BKA-Präsidenten Herold](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-5-20.1.1977-S.-13272-13273-Antrag-des-Rechtsanwalts-Schily-auf-Vernehmung-des-Praesidenten-des-BKA-Herold-als-Zeugen.pdf)**
+
+Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess · 1977-01-14 · Stufe **A** · Primärquelle · `SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114`
+
+[PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-5-20.1.1977-S.-13272-13273-Antrag-des-Rechtsanwalts-Schily-auf-Vernehmung-des-Praesidenten-des-BKA-Herold-als-Zeugen.pdf)
+
+Fundstelle: 174. Verhandlungstag, 20.01.1977, Anlage 5, Protokollseiten 13272–13273
 
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
