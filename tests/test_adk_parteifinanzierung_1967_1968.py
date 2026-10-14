@@ -57,6 +57,17 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, self.study)
 
+    def test_constitutional_court_1966_distinguishes_titles_and_legal_entities(self):
+        for marker in (
+            "19. Juli 1966", "2 BvF 1/65", "BVerfGE 20, 56",
+            "38 Mio. DM", "Einzelplan 06 / Kapitel 02 / Titel 612",
+            "Erstattung notwendiger angemessener Wahlkampfkosten",
+            "06 02/612 statt 04 03/300",
+            "Zweck-, Leistungs- und Empfängerprüfung",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, self.study)
+
     def test_adk_person_identity_and_archive_followup(self):
         self.assertIn("Hans Edgar Jahn", self.study)
         self.assertNotIn("Werner Jahn", self.study)
