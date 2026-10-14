@@ -65,7 +65,9 @@ class BkaSicherungsgruppeParliamentaryOriginals(unittest.TestCase):
         self.assertIn("parlamentarischen Fragetext", self.study)
         self.assertIn("500–700 DM monatlich", self.study)
         self.assertIn("kein in der Drucksache bestätigter Zahlungsvorgang", self.study)
-        self.assertIn("noch nicht im Original eingesehene BKA-Akten", self.study)
+        self.assertIn("BKA-Vernehmungsunterlagen im Bundesarchivbestand B 362", self.study)
+        self.assertIn("Generalbundesanwalt beim Bundesgerichtshof", self.study)
+        self.assertIn("BKA-Bestand ist **B 131**", self.study)
         self.assertIn("Werner Freund", self.study)
         self.assertIn("Die zwölf hier ausgewerteten Originalquellen", self.study)
 
