@@ -1703,3 +1703,39 @@ sources:
     separat verzeichnete Verfassungsschutzakte. Die historischen Akten
     wurden nicht eingesehen. Findbucheinträge belegen keine Zahlungen,
     personellen Verbindungen oder operative Weisungen.
+- id: SRC-DE-BARCH-B145-810-ADK-1954-1956
+  title: 'Bundesarchiv B 145/810: Zuwendungen an die Arbeitsgemeinschaft Demokratischer Kreise im Kontext der Pariser Verträge'
+  institution: Bundesarchiv / Presse- und Informationsamt der Bundesregierung
+  date: '2026-04-24'
+  type: archival_finding_aid
+  primary: true
+  tier: A
+  url: https://www.deutsche-digitale-bibliothek.de/item/AQL6AGNH45NL2PMAXODEOHLWFOQ7DC67
+  accessed: '2026-10-14'
+  locator: BArch B 145/810; Laufzeit 1954–1956; 65 Vorgänge; BPA, Öffentlichkeitsarbeit in Verteidigungsfragen
+  notes: Amtlicher Archivkatalog verzeichnet Akten zu Zuwendungen an die ADK und andere Empfänger. Historische Einzelakte, Bewilligungen, konkrete Zahlungen
+    und Verwendungsnachweise nicht eingesehen; der Katalog liefert keinen ADK-Auszahlungsbetrag.
+- id: SRC-DE-BARCH-B136-1679-PARIS-1955-1956
+  title: 'Bundesarchiv B 136/1679: außerplanmäßige Mittel für Öffentlichkeitsarbeit zu den Pariser Verträgen'
+  institution: Bundesarchiv / Bundeskanzleramt
+  date: '2026-04-24'
+  type: archival_finding_aid
+  primary: true
+  tier: A
+  url: https://www.deutsche-digitale-bibliothek.de/item/J7BTZBIDBNQWECFZFM2WM7TNJ6D5I64Z
+  accessed: '2026-10-14'
+  locator: BArch B 136/1679; Laufzeit 1955–1956; Haushalts-, Kassen- und Rechnungswesen; Haushaltsangelegenheiten des BPA
+  notes: Amtlicher Archivkatalog benennt außerplanmäßige Mittel im Pariser-Verträge-Kontext. ADK nicht im Aktenbetreff genannt; historische Einzelakte,
+    Entscheidungs- und Zahlungsbelege nicht eingesehen. Mögliche, noch nicht geprüfte Haushaltsgegenüberlieferung zu B 145/810.
+- id: SRC-DE-BT-PLENAR-02225-EPL04-T309-19570706
+  title: 'Bundestag 225. Sitzung: Öffentlichkeitsarbeit, Etat Titel 309 und beispielhaft ADK als Empfänger'
+  institution: Deutscher Bundestag
+  date: '1957-07-06'
+  type: parliamentary_debate
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/02/02225.pdf#page=22
+  accessed: '2026-10-14'
+  locator: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
+  notes: Rede nennt 7.349.300 DM als Gesamtansatz Einzelplan 04 Kapitel 04 03 Titel 309, nennt ADK Bad Godesberg als einen von mehreren Beispielen in einer
+    laut Redner aus amtlicher Haushaltsausschuss-Auskunft stammenden Empfängerliste. Kein ADK-Einzelzahlungsbetrag; Titel 309 nicht mit Titel 300 gleichsetzen.
