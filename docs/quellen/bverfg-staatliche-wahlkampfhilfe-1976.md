@@ -4,7 +4,7 @@
 
 ## 1. Gerichtlicher Befund und Zahlen
 
-[**BVerfGE 44, 125 – „Öffentlichkeitsarbeit“**, Urteilstenor und Gründe, Ziff. 2–9, 86–111](https://www.servat.unibe.ch/dfr/bv044125.html) ([Original-Entscheidungsseite beim BVerfG](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/EN/1977/03/es19770302_2bve000176en.html)).
+[**BVerfGE 44, 125 – „Öffentlichkeitsarbeit“**, Entscheidungsformel, Tatbestand Rn. 2–9, Gründe Rn. 86–111 und 164–167](https://www.servat.unibe.ch/dfr/bv044125.html) ([Original-Entscheidungsseite beim BVerfG](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/EN/1977/03/es19770302_2bve000176en.html)).
 
 | Vorgang | Im Urteil belegter Befund | Grenzen des Zahlenwerts |
 | --- | --- | --- |

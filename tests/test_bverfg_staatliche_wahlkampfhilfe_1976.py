@@ -46,6 +46,12 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.doc)
 
+    def test_court_locator_covers_ruling_and_all_referenced_reasons(self):
+        source = next(x for x in self.entries if x["id"] == "SRC-DE-BVERFG-2BVE1-76-19770302")
+        self.assertEqual(source["locator"], "Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–111 und 164–167")
+        self.assertIn("Entscheidungsformel, Tatbestand Rn. 2–9, Gründe Rn. 86–111 und 164–167", self.doc)
+        self.assertIn("Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–111 und 164–167", self.index)
+
     def test_1971_1979_claim_boundaries(self):
         self.assertIn("06135.pdf#page=53", self.doc)
         self.assertIn("08164.pdf#page=76", self.doc)
