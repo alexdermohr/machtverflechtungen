@@ -35,10 +35,59 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         ):
             with self.subTest(amount=amount):
                 self.assertIn(amount, self.study)
-        self.assertIn("kein", self.study.lower())
         self.assertIn("keine belegte Zweckumbuchung", self.study)
         self.assertIn("kein** ADK-Empfängerbetrag", self.study)
         self.assertIn("hypothetisches Kabinettsbeispiel", self.study)
+
+    def test_no_documented_staff_transfer_or_continued_payment_is_invented(self):
+        # Editorial note 7 reports a proposal to examine a staff transfer, not its execution.
+        self.assertIn("nur editorisch überlieferte Hinweis auf eine geplante Prüfung", self.study)
+        self.assertIn("Weder eine tatsächlich erfolgte Personalübernahme", self.study)
+        self.assertIn("Fortsetzung eines konkreten öffentlichen Zahlungsstroms", self.study)
+        for unsupported in (
+            "Vorschläge, den öffentlichen Geldfluss trotz Koalitionswiderstands organisatorisch weiterzuführen",
+            "belegt die Fortsetzung öffentlicher ADK-Zahlungen",
+            "vollzogene Übernahme von ADK-Personal",
+        ):
+            with self.subTest(unsupported=unsupported):
+                self.assertNotIn(unsupported, self.study)
+
+    def test_kiesinger_adk_is_question_context_not_name_quote(self):
+        self.assertIn("Burgemeister nennt die ADK in seiner Frage ausdrücklich", self.study)
+        self.assertIn("Kiesinger nennt die ADK in seiner eigenen Antwort nicht erneut ausdrücklich", self.study)
+        self.assertIn("mehrere frühere Wahlkampfunterstützer", self.study)
+        for overstatement in (
+            "die direkte Einordnung durch den Bundeskanzler",
+            "Kiesinger nennt die ADK ausdrücklich",
+            "Kiesinger bezeichnet die ADK ausdrücklich",
+        ):
+            self.assertNotIn(overstatement, self.study)
+
+    def test_adk_budget_years_and_stages_are_explicitly_separated(self):
+        for marker in (
+            "am **06.06.1967**",
+            "7 Mio. DM",
+            "für 1967 von 13 Mio. auf 8 Mio. DM",
+            "anderes Haushaltsjahr (1968)",
+            "8 Mio. DM im Regierungsentwurf sowie 7 Mio. DM in der Ausschussfassung",
+            "bleibt ohne weitere Haushalts- und Beratungsakten **ungeklärt**",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, self.study)
+        self.assertNotIn("7 Mio. DM als tatsächlich an die ADK gezahlt", self.study)
+
+    def test_secondary_opelland_is_not_mislabeled_as_kas_primary_source(self):
+        self.assertIn("historischen Sekundärdarstellung", self.study)
+        self.assertIn("institutionellen Eigenauskunft der KAS", self.study)
+        self.assertIn("historische Sekundärdarstellung von Torsten Oppelland", self.study)
+        self.assertIn("keine KAS-Eigenauskunft", self.study)
+        self.assertNotIn("institutionelle KAS-Darstellung zur ADK", self.study)
+        self.assertNotIn("zwei **institutionellen Eigenveröffentlichungen**", self.study)
+
+    def test_constitutional_original_uses_registered_bpb_print(self):
+        self.assertIn("www.bpb.de/shop/zeitschriften/apuz/archiv/527544/", self.study)
+        self.assertIn("zeitgenössisch abgedruckt in *APuZ* 32/1966", self.study)
+        self.assertNotIn("SharedDocs/Entscheidungen/EN/1966", self.study)
 
     def test_1967_quarter_fraction_is_only_proposed_financing(self):
         self.assertIn("6/12", self.study)
