@@ -1608,3 +1608,25 @@ sources:
   accessed: '2026-10-13'
   locator: '3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber'
   notes: 'Zeitgenössische parteiliche Presse als Primärbeleg für die öffentliche Verbreitung von Angaben zu 700–800 DM pro Monat, Rechtsanwalt Becher und angeblicher Vermittlung durch die Bonner Sicherungsgruppe. Der Text belegt keine tatsächliche Auszahlung durch eine Behörde oder die Herkunft von Drittmitteln.'
+- id: SRC-DE-BT-KHK-S-19910627
+  title: 'Bundestag Drs. 12/868: KHK S., BKA-Sicherungsgruppe und MfS-Agententätigkeitsverfahren'
+  institution: Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+  date: '1991-06-27'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/12/008/1200868.pdf
+  accessed: '2026-10-13'
+  locator: 'Gedruckte S. 1, Frage 1: Abordnung 12.02.–18.05.1971; S. 2, Frage 3: Zeugenrolle Heimerzheim; S. 3, Antworten zu Fragen 5/6, 8/9: Anklage 08.04.1991, Erkenntnisstand und weitere Ermittlungsverfahren'
+  notes: 'Amtliche Regierungsantwort, Schreiben BMI vom 25.06.1991. Bestätigt eine Abordnung des KHK S. zur BKA-Sicherungsgruppe und Tätigkeit im Komplex Baader-Meinhof vom 12.02. bis 18.05.1971; die im Fragetext genannte konkrete Mitwirkung an Ruhland-Vernehmungen wird nicht eigens bestätigt. Anklage nach § 99 StGB ist keine rechtskräftige Verurteilung; 500–700 DM/Monat sind nur im Fragetext referierte Presseberichte. Die Bundesregierung berichtet 1991 keine Erkenntnisse über eine umfassende MfS-Steuerung der Kriminalpolizei.'
+- id: SRC-DE-BT-MFS-KONTAKTE-19930721
+  title: 'Bundestag Drs. 12/5479: Fragen zu Kontakten mit MfS-Mitarbeitern und Walter Sch.'
+  institution: Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
+  date: '1993-07-21'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/12/054/1205479.pdf
+  accessed: '2026-10-13'
+  locator: 'Gedruckte S. 2: Namensabkürzung Walter Sch., Kriminalhauptkommissar Duisburg, einst Sicherungsgruppe Bonn, Querverweis Drs. 12/868; S. 3: Fragen nach Geld, Leistungen und Aussagebereitschaft sowie Regierungsantworten'
+  notes: 'Parlamentarische Kleine Anfrage mit Antwort der Bundesregierung (BMI-Schreiben vom 20.07.1993). Walter Sch. wird im Frageteil genannt und ausdrücklich auf Drs. 12/868 bezogen; die Antwort bestätigt keinen vollständigen Namen und keine Kontaktzahlungen. Bundesregierung ergänzt frühere Auskünfte nicht und verweist für Details nachrichtendienstlicher Tätigkeit und Strafverfolgung auf Nichtöffentlichkeit; die Fragen nach Geld, Arbeitsplätzen, Strafvorteilen und Dokumenten sind keine Beweise solcher Leistungen.'
