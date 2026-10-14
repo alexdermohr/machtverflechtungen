@@ -1739,3 +1739,36 @@ sources:
   locator: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
   notes: Rede nennt 7.349.300 DM als Gesamtansatz Einzelplan 04 Kapitel 04 03 Titel 309, nennt ADK Bad Godesberg als einen von mehreren Beispielen in einer
     laut Redner aus amtlicher Haushaltsausschuss-Auskunft stammenden Empfängerliste. Kein ADK-Einzelzahlungsbetrag; Titel 309 nicht mit Titel 300 gleichsetzen.
+- id: SRC-DE-BVERFG-2BVE1-76-19770302
+  title: BVerfGE 44, 125 – Öffentlichkeitsarbeit, Urteil 2 BvE 1/76
+  institution: Bundesverfassungsgericht (Zweiter Senat)
+  date: '1977-03-02'
+  type: court_judgment
+  primary: true
+  tier: A
+  url: https://www.servat.unibe.ch/dfr/bv044125.html
+  accessed: '2026-10-14'
+  locator: Entscheidungsformel; Tatbestand Ziff. 2–9; Gründe Ziff. 86–111
+  notes: Vollständiger digitaler deutscher Text des Urteils (Universität Bern/DFR als Textspiegel), Gerichtsentscheidung ist Primärquelle. Die 10 Mio. DM sind eine vom Gericht verwendete Größenordnung für Inserate; 59,5 % und 0,26 % bezeichnen Druckstückanteile, keine Haushaltsquoten.
+- id: SRC-DE-BT-PLENAR-06135-BPA-19710923
+  title: Bundespresseamt – Anzeigenserie, Haushalts-Titel 531 03 und erwartete Kosten von rund 160.000 DM
+  institution: Deutscher Bundestag
+  date: '1971-09-23'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/06/06135.pdf#page=53
+  accessed: '2026-10-14'
+  locator: 6. Wahlperiode, 135. Sitzung, gedruckte S. 7912–7913, Ahlers' Antwort auf Leicht
+  notes: Originaldruckseite bildseitig kontrolliert; der Betrag ist die zeitgenössische Kostenprognose des BPA-Chefs, keine bestätigte Ist-Ausgabe.
+- id: SRC-DE-BT-PLENAR-08164-MOBIL-19790628
+  title: Bundestag – Wischnewskis Aussagen über ADK und Mobil-Werbung sowie BPA-Mittel
+  institution: Deutscher Bundestag
+  date: '1979-06-28'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/08/08164.pdf#page=76
+  accessed: '2026-10-14'
+  locator: 8. Wahlperiode, 164. Sitzung, gedruckte S. 13158, linke Spalte
+  notes: Originaldruckseite bildseitig kontrolliert. Die Behauptung, über Mobil-Werbung seien BPA-Gelder in die CDU/CSU-Parteikasse geflossen, ist ministerielle Anschuldigung und ohne Buchungsbelege keine nachgewiesene Zahlung.

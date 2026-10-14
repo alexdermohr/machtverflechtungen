@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**151 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**154 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -597,6 +597,17 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
 
+<a id="src-de-bverfg-2bve1-76-19770302"></a>
+### Bundesverfassungsgericht (Zweiter Senat)
+
+**[BVerfGE 44, 125 – Öffentlichkeitsarbeit, Urteil 2 BvE 1/76](https://www.servat.unibe.ch/dfr/bv044125.html)**
+
+Bundesverfassungsgericht (Zweiter Senat) · 1977-03-02 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-2BVE1-76-19770302`
+
+[Seite öffnen](https://www.servat.unibe.ch/dfr/bv044125.html)
+
+Fundstelle: Entscheidungsformel; Tatbestand Ziff. 2–9; Gründe Ziff. 86–111
+
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
 
@@ -673,6 +684,28 @@ Deutscher Bundestag · 1957-07-06 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/02/02225.pdf#page=22)
 
 Fundstelle: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
+
+<a id="src-de-bt-plenar-06135-bpa-19710923"></a>
+### Deutscher Bundestag
+
+**[Bundespresseamt – Anzeigenserie, Haushalts-Titel 531 03 und erwartete Kosten von rund 160.000 DM](https://dserver.bundestag.de/btp/06/06135.pdf#page=53)**
+
+Deutscher Bundestag · 1971-09-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-06135-BPA-19710923`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/06/06135.pdf#page=53)
+
+Fundstelle: 6. Wahlperiode, 135. Sitzung, gedruckte S. 7912–7913, Ahlers' Antwort auf Leicht
+
+<a id="src-de-bt-plenar-08164-mobil-19790628"></a>
+### Deutscher Bundestag
+
+**[Bundestag – Wischnewskis Aussagen über ADK und Mobil-Werbung sowie BPA-Mittel](https://dserver.bundestag.de/btp/08/08164.pdf#page=76)**
+
+Deutscher Bundestag · 1979-06-28 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-08164-MOBIL-19790628`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/08/08164.pdf#page=76)
+
+Fundstelle: 8. Wahlperiode, 164. Sitzung, gedruckte S. 13158, linke Spalte
 
 <a id="src-de-bt-09066-1981"></a>
 ### Deutscher Bundestag
