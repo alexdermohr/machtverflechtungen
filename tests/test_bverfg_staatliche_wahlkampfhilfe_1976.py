@@ -48,9 +48,9 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
 
     def test_court_locator_covers_ruling_and_all_referenced_reasons(self):
         source = next(x for x in self.entries if x["id"] == "SRC-DE-BVERFG-2BVE1-76-19770302")
-        self.assertEqual(source["locator"], "Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–111 und 164–167")
-        self.assertIn("Entscheidungsformel, Tatbestand Rn. 2–9, Gründe Rn. 86–111 und 164–167", self.doc)
-        self.assertIn("Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–111 und 164–167", self.index)
+        self.assertEqual(source["locator"], "Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)")
+        self.assertIn("Entscheidungsformel, Tatbestand Rn. 2–9, Gründe Rn. 86–138 (Anzeigen) und 139–167 (Druckschriften)", self.doc)
+        self.assertIn("Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)", self.index)
 
     def test_1971_1979_claim_boundaries(self):
         self.assertIn("06135.pdf#page=53", self.doc)
@@ -66,6 +66,13 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
         self.assertIn("Regierungsparteien sind **nicht** als Zwischenhändler", self.doc)
         self.assertIn("Weiterverwendung durch Regierungsparteien als zusätzliches Wahlkampfmaterial", self.doc)
         self.assertNotIn("Anzeigen bzw. gedruckte Regierungsinformationen → Empfängerkreis", self.doc)
+
+    def test_adjudicated_ad_period_excludes_later_family_law_ads(self):
+        self.assertIn("Anzeigenwerbung Mai–Juli 1976", self.doc)
+        self.assertNotIn("Anzeigenwerbung Mai–September 1976", self.doc)
+        self.assertIn("Eherechts-Informationsanzeigen vom 4. August bis 10. September 1976", self.doc)
+        self.assertIn("nicht ungeprüft zugerechnet", self.doc)
+        self.assertIn("Rn. 88–138", self.doc)
 
     def test_navigation_to_new_research(self):
         self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)

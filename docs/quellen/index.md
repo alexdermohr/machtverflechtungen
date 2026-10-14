@@ -606,7 +606,7 @@ Bundesverfassungsgericht (Zweiter Senat) · 1977-03-02 · Stufe **A** · Primär
 
 [Seite öffnen](https://www.servat.unibe.ch/dfr/bv044125.html)
 
-Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–111 und 164–167
+Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)
 
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
