@@ -66,6 +66,22 @@ class RafStammheim1977Originals(unittest.TestCase):
         self.assertNotIn("Originalfaksimiles innerhalb", self.study)
         self.assertNotIn("anhand der beiden originalen Faksimileseiten", self.study)
 
+    def test_source_metadata_preserves_trial_copy_provenance(self):
+        by_id = {source["id"]: source for source in self.sources}
+        herold = by_id["SRC-DE-STAMMHEIM-HEROLD-SCHREIBEN-19770211"]
+        self.assertIn("Ablichtung", herold["notes"])
+        self.assertNotIn("Originalfaksimile", herold["notes"])
+        buback = by_id["SRC-DE-STAMMHEIM-BUBACK-VERFUEGUNG-19770215"]
+        self.assertIn("Ablichtung", buback["notes"])
+        self.assertIn("beglaubigte", buback["notes"])
+        for source_id in (
+            "SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114",
+            "SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303",
+        ):
+            with self.subTest(source_id=source_id):
+                self.assertIn("Scan", by_id[source_id]["notes"])
+                self.assertNotIn("Originalfaksimile", by_id[source_id]["notes"])
+
     def test_claimed_media_contract_is_not_pretended_documented_payment(self):
         self.assertIn("Beweisbehauptung der Verteidigung", self.study)
         self.assertIn("Eduard Zimmermann", self.study)
