@@ -1608,6 +1608,62 @@ sources:
   accessed: '2026-10-13'
   locator: '3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber'
   notes: 'Zeitgenössische parteiliche Presse als Primärbeleg für die öffentliche Verbreitung von Angaben zu 700–800 DM pro Monat, Rechtsanwalt Becher und angeblicher Vermittlung durch die Bonner Sicherungsgruppe. Der Text belegt keine tatsächliche Auszahlung durch eine Behörde oder die Herkunft von Drittmitteln.'
+
+- id: SRC-DE-STAMMHEIM-SCHILY-HEROLD-19770114
+  title: 'Otto Schily: Beweisantrag auf Vernehmung des BKA-Präsidenten Herold'
+  institution: 'Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess'
+  date: '1977-01-14'
+  type: trial_attachment_facsimile
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-5-20.1.1977-S.-13272-13273-Antrag-des-Rechtsanwalts-Schily-auf-Vernehmung-des-Praesidenten-des-BKA-Herold-als-Zeugen.pdf
+  accessed: '2026-10-14'
+  locator: '174. Verhandlungstag, 20.01.1977, Anlage 5 (laut Protokoll in Ablichtung beigefügt), Protokollseiten 13272–13273'
+  notes: 'Scan der am 174. Verhandlungstag als Ablichtung beigefügten Prozessanlage 5 mit unterschriebenem Beweisantrag. Belegt die vorgebrachten Behauptungen zu Aktenzurückhaltung, behauptetem Vertrag Herold–Eduard Zimmermann 1972 und vertraulichen Ermittlungsunterlagen; kein eigenständiger Vertrags- oder Zahlungsnachweis.'
+- id: SRC-DE-STAMMHEIM-HEROLD-SCHREIBEN-19770211
+  title: 'BKA-Präsident Herold: Schreiben an den Vorsitzenden des OLG-Stuttgart-Senats'
+  institution: 'Bundeskriminalamt / Horst Herold / OLG Stuttgart / Edition Stammheim-Prozess'
+  date: '1977-02-11'
+  type: trial_attachment_facsimile
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-1-17.2.1977-S.-13425-Schreiben-des-Praesidenten-des-BKA-Dr.-Herold-vom-11.2.1977.pdf
+  accessed: '2026-10-14'
+  locator: '179. Verhandlungstag, 17.02.1977, Anlage 1, Protokollseite 13425'
+  notes: 'Als Ablichtung in Anlage 1 der 179. Verhandlung überliefertes BKA-Schreiben Herolds zu Sachwissen, Ermittlungs-/Aktenführung und BMI-Aussagegenehmigung; Scan der Prozesskopie, keine Einsicht in die behördliche Urschrift.'
+- id: SRC-DE-STAMMHEIM-BUBACK-VERFUEGUNG-19770215
+  title: 'Generalbundesanwalt Buback: Aktenregistrierung 3 ARP 74/75 I und Verfügung 1 BJs 7/76'
+  institution: 'Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-Prozess'
+  date: '1977-02-15'
+  type: trial_attachment_facsimile
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf
+  accessed: '2026-10-14'
+  locator: '179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)'
+  notes: 'Scan der als Ablichtung zum 179. Verhandlungstag beigelegten Anlage 2: Bubacks Angaben zur mündlichen Aktenregistrierung 3 ARP 74/75 I ohne schriftlichen Vermerk sowie eine auszugsweise beglaubigte Abschrift der Verfügung zu 1 BJs 7/76; keine vollständige Behördenurschrift.'
+- id: SRC-DE-BMI-HEROLD-AUSSAGEGENEHMIGUNG-19770303
+  title: 'BMI-Aussagegenehmigung für BKA-Präsident Horst Herold vom 3. März 1977'
+  institution: 'Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess'
+  date: '1977-03-03'
+  type: trial_attachment_facsimile
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf
+  accessed: '2026-10-14'
+  locator: 'BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3 (Fotokopie), Protokollseiten 13619–13620'
+  notes: 'Scan der von Dr. Fröhlich in Vertretung des Bundesministers des Innern unterzeichneten BMI-Genehmigung, laut 184. Verhandlungstag als Fotokopie der Anlage 3 beigefügt. Acht ausdrücklich zugelassene Beweisthemen, darunter ein mögliches Zurückhalten der Aussageprotokollierung bis zum Ablauf der Revisionsfrist der Staatsanwaltschaft im gegen Müller gerichteten Verfahren; Ausschluss der nach § 96 StPO betroffenen Akte 3 ARP 74/75 I, Bundeswohl, interne BKA-Planungen und Zusammenarbeit anderer Dienststellen; keine Einsicht in die behördliche Urschrift.'
+- id: SRC-DE-STAMMHEIM-HEROLD-184-19770315
+  title: 'Stammheim-Prozess, 184. Verhandlungstag: Herold-Vernehmung und Aussagegenehmigung'
+  institution: 'OLG Stuttgart / Edition Stammheim-Prozess'
+  date: '1977-03-15'
+  type: trial_transcript_edition
+  primary: true
+  tier: A
+  url: https://www.stammheim-prozess.de/184-verhandlungstag/
+  accessed: '2026-10-14'
+  locator: 'Protokollseiten 13617 ff., 13643–13652, 13664–13667'
+  notes: 'Wissenschaftliche Edition des historischen Prozessprotokolls. Dokumentiert gerichtliche Fragen und Entscheidungen zur Herold-Vernehmung; Aussagen und Anträge sind nicht mit gesonderten behördlichen Urkunden gleichzusetzen.'
 - id: SRC-DE-BT-KHK-S-19910627
   title: 'Bundestag Drs. 12/868: KHK S., BKA-Sicherungsgruppe und MfS-Agententätigkeitsverfahren'
   institution: Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
