@@ -93,8 +93,10 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         self.assertIn("0502731zu.pdf#page=6", self.study)
         self.assertIn("V/2704", self.study)
         self.assertIn("von Titel 300 nach Titel 314 zu verlagern", self.study)
-        self.assertIn("bewusste Verknüpfung beider Titeländerungen", self.study)
-        self.assertIn("ADK-Förderkonflikt als Ausschussvorschlag", self.study)
+        self.assertIn("im selben Berichtsabschnitt unmittelbar nacheinander vorgeschlagen", self.study)
+        self.assertIn("Welcher der beiden zuvor genannten Titel", self.study)
+        self.assertNotIn("bewusste Verknüpfung beider Titeländerungen", self.study)
+        self.assertIn("explizite ADK-bezogene Ausschussabsicht", self.study)
         self.assertIn("Weder der Vollzug der Verlagerung", self.study)
         self.assertIn("keinen fortgesetzten öffentlichen Zahlungsstrom an die ADK", self.study)
         self.assertNotIn("Verlagerung von 1 Mio. DM wurde 1968 ausgeführt", self.study)
@@ -102,9 +104,10 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
     def test_editorial_sperrvermerk_explained_by_second_original_but_not_final_verification(self):
         self.assertIn("editorische Fußnote 20", self.study)
         self.assertIn("fünf Druckseiten den Ausschluss", self.study)
-        self.assertIn("zusätzlichen Originalbericht *zu V/2731*", self.study)
-        self.assertIn("V/2704-Quellennachweis", self.study)
-        self.assertIn("rechtliche Verbindlichkeit", self.study)
+        self.assertIn("schriftlichen Bericht zur Gesamtvorlage zu V/2731", self.study)
+        self.assertIn("alleinigen V/2704-Verweis", self.study)
+        self.assertIn("schriftliche Berichterstattung zu V/2731", self.study)
+        self.assertIn("förmlich verbindlicher", self.study)
         self.assertNotIn("V/2704 belegt einen ADK-Sperrvermerk", self.study)
         self.assertNotIn("sicher endgültig gestrichen", self.study)
 
@@ -127,6 +130,23 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         self.assertIn("TOP 3 Bundeshaushalt 1968", self.study)
         self.assertIn("www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02", self.study)
 
+    def test_abstract_cannot_claim_named_restricted_title_or_finished_transfer(self):
+        for marker in (
+            "Drucksachenbeziehung:",
+            "V/2704",
+            "V/2731",
+            "mündliche Bericht zum Haushaltsgesetz 1968",
+            "schriftliche Ausschussbericht",
+            "nicht** als unmittelbare schriftliche Begründung allein zu V/2704",
+            "Titel 300 oder 314",
+            "nicht mit Rafferts gesonderter Angabe",
+            "keine voneinander unabhängigen Bestätigungen",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, self.study)
+        self.assertNotIn("aus dem betreffenden Titel auszuschließen", self.study)
+        self.assertNotIn("im endgültigen Haushalt umgewidmet", self.study)
+
     def test_1967_quarter_fraction_is_only_proposed_financing(self):
         self.assertIn("6/12", self.study)
         self.assertIn("6/24", self.study)
@@ -138,7 +158,7 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         for marker in (
             "PDF-Bildseiten", "nicht eigenständig eingesehen",
             "editorische Fußnote 7", "nur eine editorische Sekundärangabe",
-            "Antrag des Ausschusses an den Bundestag",
+            "mündliche Bericht und Ausschussantrag zu Einzelplan 04",
             "keine hier nachgewiesene verfassungsgerichtliche Entscheidung",
         ):
             with self.subTest(marker=marker):
