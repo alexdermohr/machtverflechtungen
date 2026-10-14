@@ -54,6 +54,13 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.doc)
 
+    def test_advertising_and_party_leaflet_routes_remain_separate(self):
+        self.assertIn("1976 – Anzeigenweg", self.doc)
+        self.assertIn("1976 – Druckschriftenweg", self.doc)
+        self.assertIn("Regierungsparteien sind **nicht** als Zwischenhändler", self.doc)
+        self.assertIn("Weiterverwendung durch Regierungsparteien als zusätzliches Wahlkampfmaterial", self.doc)
+        self.assertNotIn("Anzeigen bzw. gedruckte Regierungsinformationen → Empfängerkreis", self.doc)
+
     def test_navigation_to_new_research(self):
         self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)
         self.assertIn("https://www.servat.unibe.ch/dfr/bv044125.html", self.doc)

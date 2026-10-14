@@ -30,7 +30,11 @@ Im [**164. Bundestagsplenum vom 28. Juni 1979**, gedruckte S. 13158, PDF-Blatt 7
 
 ## 4. Nachprüfbares Einflussdiagramm ohne spekulative Geldsprünge
 
-**1976 gerichtsfest:** Bundeshaushalt → Bundesregierung/BPA und Bundesministerien → Anzeigen bzw. gedruckte Regierungsinformationen → Empfängerkreis SPD/FDP → wahlwerbliche Weiterverwendung. Der letzte Schritt beruht auf der Entscheidungsformel; die **Sanktion ist die verfassungsrechtliche Feststellung**, nicht der Nachweis persönlicher Bereicherung.
+**1976 – Anzeigenweg, gerichtlich belegt (Rn. 88):** Bundeshaushalt → Bundesregierung und zuständige Ressorts → **bezahlte Anzeigenschaltungen unmittelbar in Tageszeitungen und Zeitschriften** → Leserinnen und Leser. Die **Größenordnung von 10 Mio. DM** bezieht sich auf diesen Anzeigenweg; die Regierungsparteien sind **nicht** als Zwischenhändler der Anzeigen nachgewiesen.
+
+**1976 – Druckschriftenweg, gerichtlich belegt (Rn. 164–167 und Entscheidungsformel):** Bundeshaushalt → Bundespresseamt/Bundesministerien → **amtliche Druckschriften** → Empfängerkreis **SPD/FDP und deren Gliederungen** (unter den 22 untersuchten BPA-Druckschriften 59,5 % der Exemplare) → **Weiterverwendung durch Regierungsparteien als zusätzliches Wahlkampfmaterial**. Der gerichtliche Vorwurf umfasst auch die **unterlassenen Sicherungsmaßnahmen** der Bundesregierung; die **Sanktion ist die verfassungsrechtliche Feststellung**, nicht der Nachweis persönlicher Bereicherung.
+
+Die beiden Kanäle haben eine gemeinsame Haushalts-/Regierungsquelle, aber **verschiedene operative Empfänger und Werbewege**. Ihre Kosten und Druckstückzahlen sind **nicht zu addieren oder gleichzusetzen**.
 
 **1971 amtlich protokolliert, nicht abschließend abgerechnet:** BPA-Titel **531 03** → Anzeigenserie in fünf Wochenblättern → **rund 160.000 DM angekündigte Kosten**. Kassenrechnung und Auftragsempfänger sind offen.
 
