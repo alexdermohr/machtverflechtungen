@@ -74,6 +74,35 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
         self.assertIn("nicht ungeprüft zugerechnet", self.doc)
         self.assertIn("Rn. 88–138", self.doc)
 
+    def test_adk_and_bverfg_sources_survive_main_convergence(self):
+        # Both studies modify data/sources.yml, the generated index and MkDocs navigation.
+        # Their independently registered evidence must survive a PR-base convergence.
+        by_id = {item["id"]: item for item in self.entries}
+        preserved_adk_ids = (
+            "SRC-DE-BT-ADK-HAUSHALT-19680315",
+            "SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968",
+            "SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968",
+            "SRC-DE-ACDP-JAHN-NACHLASS-01753",
+            "SRC-DE-KAS-FONDS-SPR-2003",
+        )
+        all_ids = [item["id"] for item in self.entries]
+        for source_id in (*preserved_adk_ids, *sorted(IDS)):
+            with self.subTest(source_id=source_id):
+                self.assertEqual(all_ids.count(source_id), 1)
+                self.assertEqual(
+                    self.index.count('<a id="' + source_id.lower() + '"></a>'),
+                    1,
+                )
+        for source_id in preserved_adk_ids[-2:]:
+            with self.subTest(secondary_source_id=source_id):
+                self.assertFalse(by_id[source_id]["primary"])
+                self.assertEqual(by_id[source_id]["tier"], "B")
+        self.assertIn(
+            "quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md",
+            self.nav,
+        )
+        self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)
+
     def test_navigation_to_new_research(self):
         self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)
         self.assertIn("https://www.servat.unibe.ch/dfr/bv044125.html", self.doc)
