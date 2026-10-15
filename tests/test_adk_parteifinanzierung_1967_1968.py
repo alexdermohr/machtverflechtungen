@@ -13,6 +13,7 @@ SOURCES = {
     "SRC-DE-KGPARL-CDU-ADK-19671205": "cdu-csu-05_1967-12-05-t1507_WZ.html",
     "SRC-DE-KGPARL-CDU-ADK-19671212": "cdu-csu-05_1967-12-12-t1507_WZ.html",
     "SRC-DE-BT-ADK-HAUSHALT-19680315": "dserver.bundestag.de/btd/05/027/0502704.pdf#page=4",
+    "SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968": "dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6",
     "SRC-DE-KGPARL-CDU-ADK-19680326": "cdu-csu-05_1968-03-26-t1832_WZ.html",
     "SRC-DE-KGPARL-CDU-ADK-19680402": "cdu-csu-05_1968-04-02-t0805_WZ.html",
 }
@@ -91,6 +92,7 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
 
     def test_committee_proposal_is_in_report_zu_v2731_not_just_equal_numbers(self):
         self.assertIn("0502731zu.pdf#page=6", self.study)
+        self.assertIn("SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968", self.study)
         self.assertIn("V/2704", self.study)
         self.assertIn("von Titel 300 nach Titel 314 zu verlagern", self.study)
         self.assertIn("im selben Berichtsabschnitt unmittelbar nacheinander vorgeschlagen", self.study)

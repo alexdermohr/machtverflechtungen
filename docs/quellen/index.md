@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**163 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**164 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1004,6 +1004,17 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primär
 
 Fundstelle: Gedruckte S. 4, Titel 300: 8 vs. 7 Mio. DM; S. 5 Titel 314: 6 vs. 7 Mio. DM
 
+<a id="src-de-bt-adk-bericht-zu-v2731-1968"></a>
+### Deutscher Bundestag / Haushaltsausschuss
+
+**[Bundestag zu V/2731: Ausschussvorschlag zur Titelverlagerung und ADK-Förderung](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)**
+
+Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primärquelle · `SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)
+
+Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
+
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
 
@@ -1223,28 +1234,6 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)
 
 Fundstelle: ACDP 08-001-1016/1, TOP 3, DOI 10.82988/b995-sj37, editorische Fn. 20
-
-<a id="src-de-kas-fonds-spr-2003"></a>
-### Konrad-Adenauer-Stiftung
-
-**[KAS: 2003 Fonds SPR nach Liquidationsbeschluss der Studiengesellschaft für Public Relations](https://www.kas.de/de/unterstuetzen-sie-uns)**
-
-Konrad-Adenauer-Stiftung · undated · Stufe **A** · Primärquelle · `SRC-DE-KAS-FONDS-SPR-2003`
-
-[Seite öffnen](https://www.kas.de/de/unterstuetzen-sie-uns)
-
-Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 2003 und Zweck Wissenschaftliche Dienste
-
-<a id="src-de-acdp-jahn-nachlass-01753"></a>
-### Konrad-Adenauer-Stiftung Archiv für Christlich-Demokratische Politik / Deutsche Digitale Bibliothek
-
-**[ACDP-Nachlass Hans Edgar Jahn 01-753 (1956–1997) / ADK und SPR](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)**
-
-Konrad-Adenauer-Stiftung Archiv für Christlich-Demokratische Politik / Deutsche Digitale Bibliothek · 2025-11-05 · Stufe **A** · Primärquelle · `SRC-DE-ACDP-JAHN-NACHLASS-01753`
-
-[Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)
-
-Fundstelle: ACDP 01-753; letzte Aktualisierung des Katalogs 05.11.2025; Bestandslaufzeit 1956–1997
 
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
@@ -1670,6 +1659,28 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 [Seite öffnen](https://journals.sagepub.com/doi/10.1177/002200940003500207)
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
+
+<a id="src-de-kas-fonds-spr-2003"></a>
+### Konrad-Adenauer-Stiftung
+
+**[KAS: 2003 Fonds SPR nach Liquidationsbeschluss der Studiengesellschaft für Public Relations](https://www.kas.de/de/unterstuetzen-sie-uns)**
+
+Konrad-Adenauer-Stiftung · undated · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KAS-FONDS-SPR-2003`
+
+[Seite öffnen](https://www.kas.de/de/unterstuetzen-sie-uns)
+
+Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 2003 und Zweck Wissenschaftliche Dienste
+
+<a id="src-de-acdp-jahn-nachlass-01753"></a>
+### Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); DDB als Nachweisportal
+
+**[ACDP-Nachlass Hans Edgar Jahn 01-753 (1956–1997) / ADK und SPR](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)**
+
+Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); DDB als Nachweisportal · 2025-11-05 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ACDP-JAHN-NACHLASS-01753`
+
+[Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)
+
+Fundstelle: ACDP 01-753; letzte Aktualisierung des Katalogs 05.11.2025; Bestandslaufzeit 1956–1997
 
 <a id="src-de-he-lagis-bdj-19530108"></a>
 ### Landesgeschichtliches Informationssystem Hessen (LAGIS)
