@@ -105,6 +105,17 @@ class AdkPrimary1967To1968Tests(unittest.TestCase):
         self.assertIn("keinen fortgesetzten öffentlichen Zahlungsstrom an die ADK", self.study)
         self.assertNotIn("Verlagerung von 1 Mio. DM wurde 1968 ausgeführt", self.study)
 
+    def test_dated_committee_sources_and_graded_lead(self):
+        # General budget prints do not individually prove ADK payments or partisan purpose.
+        self.assertIn("V/2704 und V/2731", self.study)
+        self.assertIn("unterschiedliche Aspekte", self.study)
+        self.assertIn("keine ADK-Einzelposition", self.study)
+        self.assertIn("keine Parteikasseneinzahlung", self.study)
+        self.assertLess(self.study.index("### 15. März"), self.study.index("### 26. März"))
+        self.assertLess(self.study.index("### 26. März"), self.study.index("### 27. März"))
+        self.assertLess(self.study.index("### 27. März"), self.study.index("### 2. April"))
+        self.assertIn("27.03.1968", self.study)
+
     def test_editorial_sperrvermerk_explained_by_second_original_but_not_final_verification(self):
         self.assertIn("editorische Fußnote 20", self.study)
         self.assertIn("fünf Druckseiten den Ausschluss", self.study)

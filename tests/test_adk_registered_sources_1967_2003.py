@@ -88,6 +88,17 @@ class AdkRegisteredSourcesTest(unittest.TestCase):
         self.assertIn("Titel 300", original["locator"])
         self.assertIn("Titel 314", original["locator"])
         self.assertIn("KAS-FONDS-SPR-2003", self.index.upper())
+        by_id = {source["id"]: source for source in self.sources}
+        self.assertEqual(
+            by_id["SRC-DE-BT-ADK-HAUSHALT-19680315"]["type"],
+            "parliamentary_budget_committee_report",
+        )
+        spd = by_id["SRC-DE-KGPARL-SPD-ADK-19670606"]
+        self.assertEqual(
+            spd["institution"],
+            "Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion",
+        )
+        self.assertIn("AdsD-Originalsignatur nicht eigenständig eingesehen", spd["locator"])
         self.assertIn("2003 noch öffentliche ADK- oder BPA-Mittel", self.study)
 
     def test_new_committee_report_distinct_from_budget_table(self):

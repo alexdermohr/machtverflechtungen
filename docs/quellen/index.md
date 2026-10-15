@@ -1180,17 +1180,6 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
 
-<a id="src-de-kgparl-spd-adk-19670606"></a>
-### KGParl / SPD-Fraktion
-
-**[SPD-Fraktion 06.06.1967: ADK-Jahreszuschüsse 6/12 und 6/24](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)**
-
-KGParl / SPD-Fraktion · 1967-06-06 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-SPD-ADK-19670606`
-
-[Seite öffnen](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)
-
-Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, Fußnote 32 (Sekundärkontext)
-
 <a id="src-de-kgparl-cdu-adk-19670606"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
@@ -1245,6 +1234,17 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)
 
 Fundstelle: ACDP 08-001-1016/1, TOP 3, DOI 10.82988/b995-sj37, editorische Fn. 20
+
+<a id="src-de-kgparl-spd-adk-19670606"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion
+
+**[SPD-Fraktion 06.06.1967: ADK-Jahreszuschüsse 6/12 und 6/24](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion · 1967-06-06 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-SPD-ADK-19670606`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)
+
+Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische Fußnote 32; historische AdsD-Originalsignatur nicht eigenständig eingesehen
 
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
