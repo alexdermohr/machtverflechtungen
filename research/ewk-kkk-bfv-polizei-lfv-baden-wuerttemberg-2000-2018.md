@@ -1,0 +1,82 @@
+# Baden-Württemberg 2000–2018: KKK, Polizei, BfV-Quelle und Geheimnisverratsverdacht
+
+**Forschungsnotiz vom 15. Oktober 2026.** Thema: dokumentierte Überschneidungen zwischen dem rechtsextremen „European White Knights of the Ku Klux Klan“ (EWK KKK), Polizeibeschäftigten, dem Bundesamt und dem Landesamt für Verfassungsschutz in Baden-Württemberg. Primärbasis sind zeitgenössische **offizielle Erklärungen des Landtags von 2016 und 2018 sowie des Innenministeriums von 2012**, ergänzt um eine amtliche Bundestagsberichterstattung zu „Corelli“. Die Landtagsabschlussberichte **Drs. 15/8000 (2016)** und **16/5250 (2018)** sind als weiter auszuwertende Originalfaksimiles verzeichnet; die umfangreichen PDFs wurden für diese Notiz **nicht vollständig seitenweise geprüft**.
+
+**Untersuchungsfrage:** Wann ging behördliche Tätigkeit über passive Beobachtung hinaus, welche Duldung, Abschirmung oder organisatorische Beteiligung ist belegbar, und welche späteren Strafverfolgungs- oder Parlamentsermittlungen wurden nachweislich beeinträchtigt? Die dokumentierte Nähe einzelner Polizisten oder nachrichtendienstlicher Quellen zu einer rassistischen Gruppe belegt ohne zusätzliche Tatnachweise **keine Beteiligung am NSU-Mord in Heilbronn**.
+
+## A. Sieben getrennte Befundgruppen
+
+### EWK-01 — Zwei Polizeibeamte waren Mitglied einer KKK-Gruppierung (amtlich bestätigt)
+
+Die Landtagsmitteilung zum **ersten NSU-Untersuchungsausschuss vom 15.01.2016** [Q1, Absatz „Zum Thema Mitgliedschaft“] nennt **zwei baden-württembergische Polizeibeamte als Mitglieder des EWK KKK**. Die amtliche Mitteilung zur Einsetzung des **zweiten Untersuchungsausschusses vom 21.07.2016** [Q4] bezeichnet einen der beiden als den späteren **Gruppenführer** der 2007 in Heilbronn getöteten Polizeibeamtin Michèle Kiesewetter. Die zeitliche Einordnung ist entscheidend: eine **frühere Mitgliedschaft** in derselben KKK-Gruppe ist nicht gleichbedeutend mit Mitgliedschaft zur Tatzeit oder Anwesenheit am Tatort.
+
+**Beweisschnitt:** Polizeiakten mit konkreten Beitritts-/Austrittsdaten, dienstlichen Funktionen, polizeilicher Kenntnis und Vorgängen der Klan-Gruppierung abgleichen; ohne gesonderten Tatbeleg **kein** Zurechnungszusammenhang zum Mord vom 25.04.2007.
+
+### EWK-02 — Behördliche Disziplinaraufarbeitung und Suche nach weiteren Mitgliedern (Ausschussbewertung)
+
+Laut dem **einvernehmlich beschlossenen Abschlussbericht des ersten Untersuchungsausschusses**, öffentlich erläutert am **15.01.2016**, kritisierten die Abgeordneten den Umgang der Polizeiführung mit den beiden Klanmitgliedern. Der Ausschuss hielt im Fall **Jörg W.** eine stärkere disziplinarrechtliche Maßnahme für geboten; im Fall **Timo H.** hätte nach seiner Bewertung auch die **Entfernung aus dem Dienst** geprüft werden müssen [Q1]. Er beanstandete ausdrücklich, dass die Polizeiführung **von 2002 bis 2005 nicht einmal versuchte**, weitere KKK-Sympathisanten innerhalb der Polizei zu ermitteln.
+
+**Trennlinie:** Der Ausschuss *forderte* eine strengere Reaktion; daraus folgt **nicht**, dass beide Beamte für Straftaten des Klans verurteilt wurden oder dass andere Polizeibeamte mit Sicherheit Mitglieder waren. Die Frage, weshalb trotz erkannter Mitgliedschaft keine weitere systematische Umfeldüberprüfung stattfand, ist an internen Verfügungen, personalrechtlichen Schranken und der damaligen Organisationskenntnis zu prüfen.
+
+### EWK-03 — Bundesamt informierte sich über Quellen, Landesamt unterschätzte nach Ausschussansicht das Umfeld
+
+Der Landtag berichtete am **15.01.2016** [Q1], der Untersuchungsausschuss habe **nicht nachvollziehen können**, weshalb das baden-württembergische LfV ab Mitte der 1990er Jahre den KKK im Land nicht für ausreichend bedeutsam hielt, obwohl das **Bundesamt für Verfassungsschutz zur selben Zeit im EWK KKK nachrichtendienstliche Mittel eingesetzt** habe.
+
+**Wichtige Präzisierung:** Die zwei Aussagen betreffen **unterschiedliche Behörden** und teilweise unterschiedliche Jahre. Aus BfV-Quellenpräsenz ergibt sich nicht automatisch, dass das LfV Kenntnis aller BfV-Quellenberichte hatte, die Quelle den Klan gegründet hatte oder ein Auftrag zur Eskalation bestand. Der operative Informationsaustausch ist eine eigene zu prüfende Aktenkette.
+
+### EWK-04 — V-Mann „Corelli“ bewegte sich in einer KKK-Gruppe (bundesamtlich/parlamentarisch berichtet)
+
+Die Berichterstattung des **Deutschen Bundestages vom 20.10.2016** zur Vernehmung einer Ermittlungsbeamtin im NSU-II-Ausschuss erwähnt, dass der BfV-V-Mann **Thomas Richter („Corelli“) zeitweise einem Klan angehörte** [Q5]. Ein Landtagsbericht vom **2018** benennt die Bedeutung der Berichte über Corellis Verhältnis zum früheren Schwäbisch Haller KKK-Chef A. S. [Q6]. Die Ausschusslage ist damit **über den abstrakten Tatbestand einer Beobachtung hinaus** relevant: Eine geführte Quelle war selbst zeitweise Gruppenmitglied.
+
+**Offene stärkere Behauptung:** In der amtlichen Landtagsdrucksache **15/8000** wird, soweit der öffentlich indexierte Originalauszug erkennen lässt, auch die **Anwerbung weiterer Mitglieder durch eine BfV-Quelle** kritisch bewertet [F1]. Der vollständige Text und die zugehörigen Zeugenaussagen wurden **noch nicht faksimilegebunden ausgewertet**. Ob und in welchem Umfang Richter selbst neue Mitglieder auf Weisung anwarb oder Gelder in die Gruppe leitete, bleibt bis zum Originalabgleich eine **explizite Recherchehypothese**, nicht ein hier gesicherter Claim.
+
+### EWK-05 — Ministerium bestätigt bereits 2012 den Verdacht auf eine Weitergabe von Dienstgeheimnissen an KKK-Führung
+
+Das **Innenministerium Baden-Württemberg** teilte am **25.10.2012** mit [Q2], ein früherer LfV-Mitarbeiter stehe im Verdacht, **2002 Dienstgeheimnisse an den damaligen Leiter des EWK KKK verraten** zu haben. Das Ministerium bestätigte eine interne Prüfung in den Jahren **2002/2003**, die damalige **Abordnung** des Beschäftigten in eine andere Behörde und ein 2012 eingeleitetes internes Disziplinarverfahren mit dem Ziel einer Entfernung aus dem Dienst. Als problematisch beschrieb das Ministerium unter anderem **anonyme elektronische Kontakte** des Verdächtigten zum KKK-Leiter. Die Beweggründe seien ungeklärt gewesen.
+
+**Ebenso ausdrücklich genanntes Gegengewicht:** Der damalige Innenminister **Reinhold Gall** erklärte 2012, der Vorgang habe keine negativen Folgen und stehe **offensichtlich nicht im Zusammenhang mit den NSU-Morden**; anders als die zwei Polizisten habe der LfV-Beschäftigte dem Klan nicht angehört [Q2, Absätze 1–8]. Das ist eine **Regierungserklärung**, nicht die Wiedergabe einer rechtskräftigen strafgerichtlichen Feststellung. Ob diese Folgenaussage vollständig war, erfordert die tatsächliche Kenntnis der weitergegebenen Informationen, der polizeilichen Ermittlungen und späteren Disziplinarakten.
+
+### EWK-06 — 2018 blieben Tat- und Organisationsverbindungen zwischen KKK und NSU unbestätigt
+
+Der **zweite baden-württembergische NSU-Untersuchungsausschuss** erklärte am **03.12.2018** [Q3], er habe **keine wesentlichen neuen Erkenntnisse** zum KKK-Komplex über die Ergebnisse seines Vorgängers hinaus gewinnen können. Die eingeschränkte Kooperationsbereitschaft des früheren KKK-Funktionärs A. S. und die erfolglose Ladung aus den USA begrenzten die Aufklärung. Auch das bestärkte aus Sicht des Ausschusses den Eindruck, dass der Klan in Deutschland organisatorisch nicht dauerhaft Fuß fassen konnte.
+
+Zum Mordanschlag auf die Polizisten in Heilbronn hielt das Gremium – unter Berücksichtigung des OLG-München-Urteils – an der Zuordnung der unmittelbaren Täterschaft zu **Uwe Mundlos und Uwe Böhnhardt** fest [Q3]. Eine KKK-Mitgliedschaft einer früheren Führungsperson des Mordopfers ist **kein Gegenbeweis zur Tatzuordnung**, und aus offenen Gruppenverbindungen folgt nicht automatisch ein weiterer Täter. Abweichende Hypothesen müssen durch konkrete Tatort-/Kommunikations-/Waffenbelege geprüft werden.
+
+### EWK-07 — Verzögerte parlamentarische Aktenübermittlung als eigener institutioneller Vorgang
+
+Die Landtagsberichterstattung aus **2018** [Q3, Q6] kritisierte die **erhebliche Verzögerung bei der Übersendung** des durch **Jerzy Montag** erstellten Sachverständigenberichts über die BfV-Quelle Corelli durch den Deutschen Bundestag. Bereits frühere Landtagsmeldungen schildern die Fragen der Einwilligung beteiligter Behörden bei verschiedenen Geheimhaltungsstufen [Q6]. Dieser Vorgang ist als **institutionelle Aufklärungsverzögerung** dokumentiert; seine **bewusste Absicht zum Schutz einzelner Straftäter** ist dadurch nicht bewiesen.
+
+## B. Verflechtungs- und Ursachenprüfung
+
+| Prüfebene | Was die angegebenen Originalquellen tragen | Was für die weitergehende Hypothese fehlen würde |
+| --- | --- | --- |
+| Direkte staatliche Organisationspräsenz | BfV-Quelle „Corelli“ als zeitweiliges KKK-Mitglied [Q5]. | Exakte V-Mann-Aufträge, Anwerbehandlungen, Beiträge zu Organisation und Geldfluss [F1]. |
+| Mitglieder im staatlichen Gewaltapparat | Zwei Polizeibeamte mit zeitweiser EWK-KKK-Mitgliedschaft [Q1/Q4]. | Tat- und Kommunikationskette zu einer konkreten Gewalthandlung, nicht nur Bekanntschaft oder frühere Einheit. |
+| Interner Schutz trotz konkreter Kenntnis | Amtlich dokumentierte Disziplinar-/Versetzungspraxis, keine weitere Suche 2002–2005 [Q1/Q2]. | Akten über tatsächliche Rechtslage, Leitungsebene, Weisungen, Einspruch und Begründungen. |
+| Möglicher Geheimnisabfluss | Verdacht aus amtlichem Prüfbericht: anonymer Kontakt mit KKK-Chef, Dienstgeheimnisse [Q2]. | Original-E-Mail, klassifizierter Inhalt, mögliche Empfänger und bestätigte Folgen, Disziplinarurteil. |
+| Parlamentarische Informationshürden | Verzögerte Übermittlung des Corelli-Sachverständigenberichts [Q3/Q6]. | Aktenchronologie der Freigabe, konkrete Sperrgründe, Kenntnis von Tatbeweisen. |
+| Übergreifende „Strategie der Spannung“ | Mehrere institutionelle Einfluss- und Schutzeffekte sind prüfbar. | Koordinierte Weisungen, Finanzierung militanter Aktionen, politische Wirkungsabsicht, Tatplanung und zwingende Kausalität. |
+
+**Stärkste Gegenhypothese:** Die Bundesbehörde führte eine Quelle zur Aufklärung, Landesbehörden stuften das Klanmilieu unterschiedlich ein, einzelne Polizisten waren privat Mitglieder und ein einzelner LfV-Beamter handelte möglicherweise eigenmächtig. Unzureichende Dienstaufsicht und Geheimschutz führten zu mangelhafter Aufklärung, **ohne** dass zentrale Stellen rechtsradikale Gewalt angeordnet hätten. Diese Alternative erklärt viele bekannte Indizien, ohne die dokumentierten strukturellen Risiken oder mögliche individuelle Rechtsverstöße zu leugnen. Sie wird dort angreifbar, wo interne Anordnungen, wissentlich blockierte Ermittlungen oder eine belegte Finanzierung der Gruppe sichtbar werden.
+
+## C. Priorisierte konkrete Originalakten
+
+1. **BfV-Führung Corelli / EWK KKK 2000–2002:** Quellenaufträge, Anwerbung von Gruppenmitgliedern, Einzelberichtsnummern, Honorare und Erstattungen, Meldungen zu den beiden Polizeibeamten und Verteiler an LfV/LKA.
+2. **Polizeipersonalkomplex 2002–2005:** disziplinarrechtliche Einleitungs- und Abschlussverfügungen zu den beiden Beamten; Gründe für den ausdrücklichen Verzicht auf eine weitergehende polizeiliche KKK-Umfeldsuche [Q1].
+3. **LfV-Beamter / anonyme Korrespondenz 2002:** Dienstgeräte-/E-Mail-Sicherungen, interne Untersuchung 2002/03, Personalabordnung, erneute Bewertung 2011/2012 und bestandskräftige Ergebnisse des Disziplinarverfahrens [Q2]. Nur öffentlich zulässig dokumentieren; keine privaten Identifikatoren oder unpublizierten Kommunikationsdaten verbreiten.
+4. **Staatliche Mittel und Klan-Struktur:** Umfang und Empfänger der BfV-Quellenhonorare, eventuelle Mitgliedsbeiträge/Veranstaltungsreisen und Auslagen sowie **konkrete Verwendung**, statt jede Behördenzahlung einem organisierten Milieu zuzurechnen.
+5. **Parlamentarische Beweisführung:** Originalfaksimiles der Landtagsdrucksachen **15/8000** und **16/5250**, Sitzungsprotokolle des 1. und 2. Ausschusses, Sachverständigenberichte **Jerzy Montag 2015/2016**, Chronologie von Herausgabeanträgen und Freigaben [F1/F2, Q6].
+6. **Tatabhängiger Abgleich zum Heilbronner Mord:** nur dann eine KKK→NSU-Tatkante in die Netzwerkgrafik aufnehmen, wenn belastbare Tatort-, Kommunikations-, Waffen- oder Planungsdokumente eine konkrete Verbindung zeigen [Q3].
+
+## D. Quellenverzeichnis und genaue Aussagefunktion
+
+- **[Q1] Landtag Baden-Württemberg, Pressemitteilung Nr. 1/2016, 15.01.2016:** Vorstellung des einheitlichen Abschlussberichts des ersten NSU-Untersuchungsausschusses; Absätze zu KKK-Mitgliedschaft zweier Beamter, Disziplinarentscheidungen, fehlender Suche und differenzierter BfV-/LfV-Tätigkeit. [Landtag-Originalmitteilung](https://www.landtag-bw.de/de/aktuelles/pressemitteilungen/untersuchungsausschuss-rechtsterrorismus-nsu-bw-legt-gemeinsamen-abschlussbericht-vor-416530).
+- **[Q2] Innenministerium Baden-Württemberg, 25.10.2012:** *Bericht bestätigt Sicherheitsproblem 2002 im Landesamt für Verfassungsschutz*, Absätze 1–11; Ministeriumsbestätigung von Verdacht, interner Untersuchung, Abordnung und Disziplinarverfahren sowie erklärter Gegenposition. [Originalmitteilung](https://im.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/bericht-bestaetigt-sicherheitsproblem-2002-im-landesamt-fuer-verfassungsschutz-1).
+- **[Q3] Landtag Baden-Württemberg, Pressemitteilung Nr. 130/2018, 03.12.2018:** Abschluss des zweiten NSU-Untersuchungsausschusses, Ergebnis zu KKK/NSU, Corelli-Sachverständigenbericht, Ermittlungsstand Heilbronn. [Landtag-Originalmitteilung](https://www.landtag-bw.de/de/aktuelles/pressemitteilungen/nsu-untersuchungsausschuss-gibt-ergebnisse-seiner-arbeit-bekannt-417370).
+- **[Q4] Landtag Baden-Württemberg, Pressemitteilung Nr. 48/2016, 21.07.2016:** Erneute Untersuchung zum KKK-Funktionär und zwei Polizeibeamten einschließlich früherem Vorgesetzten von Michèle Kiesewetter. [Originalmitteilung](https://www.landtag-bw.de/de/aktuelles/pressemitteilungen/untersuchungsausschuss-rechtsterrorismus-nsu-bw-ii-hat-sich-konstituiert-416624).
+- **[Q5] Deutscher Bundestag, Webarchiv 2016, Ausschussbericht über Beweisaufnahme zur Ermittlungsgruppe „Umfeld“:** Zeitweilige Klan-Mitgliedschaft des BfV-V-Manns „Corelli“ und dortige Aussage, EG Umfeld habe keine Klan→NSU-Verbindung ermittelt. [Originalparlamentsbericht](https://www.bundestag.de/webarchiv/textarchiv/2016/kw42-pa-3ua-nsu-475118). Bitte Aussagen der Zeugin von feststehenden Ermittlungsresultaten unterscheiden.
+- **[Q6] Landtag Baden-Württemberg, 2018:** *Vorsitzender: Berichte zu V-Mann „Corelli“ sind für Ausschuss von erheblicher Bedeutung*; geplante Überlassung und Geheimschutz-/Zustimmungskonflikte. [Originalparlamentsmitteilung](https://www.landtag-bw.de/de/aktuelles/pressemitteilungen/vorsitzender-berichte-zu-v-mann-corelli-sind-fuer-ausschuss-von-erheblicher-bedeutung--417294).
+- **[F1, Faksimile noch auszuwerten]** Landtag Baden-Württemberg, **Drs. 15/8000**, 2016, 1. Abschlussbericht NSU BW, Original-PDF [Landtagsdokument](https://www.landtag-bw.de/resource/blob/73116/e0c2698a6060ac68a6176ba885bfabda/15_8000_D.pdf). Der Eintrag macht die Quelle nachprüfbar, beansprucht aber noch **keinen** vollständigen seitenbezogenen Originalvergleich.
+- **[F2, Faksimile noch auszuwerten]** Landtag Baden-Württemberg, **Drs. 16/5250**, 2018, 2. Abschlussbericht NSU BW II, Original-PDF [Landtagsdokument](https://www.landtag-bw.de/resource/blob/243416/ceb6b6b5da4b7824f95b5effb8254b01/16_5250_D.pdf).
+
+**Quellen- und Verlinkungsgrenzen:** Die bereits bestehenden Fallakten im Repo ([NSU-Quellenführung und Aktenvernichtung](../docs/faelle/de/nsu-v-leute-aktenvernichtung.md), [NSU Yozgat](../docs/faelle/de/nsu-yozgat-temme.md)) sind **Vergleichsbeispiele, kein Beleg für einen gemeinsamen Führungsauftrag**. Weitere Verbindungen erst nach Originalprüfung in `data/relations.yml` erfassen.
