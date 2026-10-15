@@ -1,6 +1,6 @@
 # Piatto/Carsten Szczepanski: Verfassungsschutz, Strafvollzug, NPD und NSU-Fahndung (1994–2000)
 
-**Arbeitsnotiz, 15. Oktober 2026.** Forschungskomplex: staatliche Mitwirkung an rechtsextremen Organisationsstrukturen und ihre Folgen für Strafverfolgung und politische Gewalt. **Status:** Primärquellenstudie, noch keine in `data/sources.yml` registrierte Fallakte; die Pull Requests #54 und #55 sind inzwischen in `main` integriert; eine zusätzliche Quellenregistrierung für diese eigenständige Forschungsnotiz steht weiterhin aus. Die vorhandenen Fallakten zum Thüringer Heimatschutz und zur NSU-Aktenvernichtung werden nicht dupliziert.
+**Arbeitsnotiz, 15. Oktober 2026.** Forschungskomplex: staatliche Mitwirkung an rechtsextremen Organisationsstrukturen und ihre Folgen für Strafverfolgung und politische Gewalt. **Status:** Primärquellenstudie, noch keine in `data/sources.yml` registrierte Fallakte; die Pull Requests #54 und #55 sind inzwischen in `main` integriert; die noch ausstehende Quellenregistrierung und Portalveröffentlichung sind als [konkreter Folgeauftrag #66](https://github.com/alexdermohr/machtverflechtungen/issues/66) nachverfolgbar. Die vorhandenen Fallakten zum Thüringer Heimatschutz und zur NSU-Aktenvernichtung werden nicht dupliziert.
 
 **Leitfrage:** Wann ging die Tätigkeit des brandenburgischen Verfassungsschutzes über Erkenntnisgewinnung hinaus, indem sie einem wegen versuchten Mordes verurteilten Neonazi Geld, Bewegungsfreiheit, organisatorische Positionen und Kommunikationswege verschaffte? Welche Informationen über eine geplante Bewaffnung des späteren NSU gingen dabei der Strafverfolgung verloren? Zur Prüfung einer möglichen *Strategie der Spannung* muss zwischen dokumentierten Eingriffen, zurechenbaren materiellen Wirkungen, organisationspolitischen Aufträgen, nachträglichen Rechtfertigungen und **nicht nachgewiesener zentraler Steuerung terroristischer Gewalt** unterschieden werden.
 
@@ -52,7 +52,7 @@ Bereits am **10.08.2000** antwortete die Bundesregierung auf die Kleine Anfrage 
 |---|---|---|
 | Materielle Mitwirkung | 50.000 DM staatliche Quellengelder an gewaltbereiten Neonazi [Q1] | Einzelfallbasierte Mittelverwendung für Szeneaktivitäten; keine automatische direkte NSU-Finanzierung |
 | Schutz vor Intervention | Verfassungsschutz beeinflusst Postkontrolle und Entlassungsvorgang [Q1] | War die Fortsetzung der Quellenarbeit der Primärzweck? Alternative Motive und konkrete Entscheidungen anhand der Justiz- und Quellenakten prüfen |
-| Organisatorischer Eingriff | Vom Auftrag erfasste NPD-Vorstandsrolle [Q1, Q4] | Welche Handlungen setzte die Quelle als Funktionär durch bzw. was wurde unterlassen? |
+| Organisatorischer Eingriff | Vom Auftrag erfasste NPD-Vorstandsrolle als Landesorganisationsleiter 2000 [Q1]; allgemeine Einschleusung in die NPD auch [Q4] | Welche Handlungen setzte die Quelle als Funktionär durch bzw. was wurde unterlassen? |
 | Informationskontrolle | Piatto-Hinweise wurden polizeilich nicht verwertet [Q1, Q3] | Dokumentierte Quellenschutzbegründung vs. wissentliches Unterlassen notwendiger Gefahrenabwehr [Q2] |
 | Politisch-juristische Darstellung | Regierungsantwort von 2000 begrenzt öffentliche Auskünfte [Q5] | Legitimer Geheimhaltungsbereich oder gezielte Verschleierung? Ohne Aktenvergleich nicht entscheidbar |
 
