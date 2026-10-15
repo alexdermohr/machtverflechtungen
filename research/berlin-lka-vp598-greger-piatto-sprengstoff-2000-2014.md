@@ -1,0 +1,86 @@
+# Berliner LKA-Quelle VP 598, „Piatto“ und die Ermittlungen zu militanter rechter Gewalt (2000–2014)
+
+**Forschungsnotiz vom 15. Oktober 2026.** Unmittelbare Primärquellen: drei **öffentliche Wortprotokolle des Berliner Innenausschusses**, 17. Wahlperiode, Nr. **17/38 vom 27.01.2014** [Q1], **17/39 vom 30.01.2014** [Q2] und **17/41 vom 17.02.2014** [Q3]. Gedruckte S. 4 [Q1], S. 2–4, 23–29, 34 [Q2] sowie S. 8, 11, 13–14, 19–22, 30, 39 [Q3] anhand der öffentlichen PDF-Faksimiles und des Originalwortlauts abgeglichen. **Status: Forschungsnotiz außerhalb des veröffentlichten Quellenkatalogs**, weil `data/sources.yml` und andere Registerdateien parallel anderweitig belegt sind.
+
+**Untersuchungsfrage:** Welche amtlich dokumentierten Kontakte bestanden zwischen dem Berliner LKA-Informanten/der Vertrauensperson **Nick Greger (VP 598)** und dem brandenburgischen Verfassungsschutzinformanten **Carsten Szczepanski („Piatto“)** in einem Ermittlungsverfahren um einen geplanten Anschlag auf Fahrzeuge der „linken Szene“ im Jahr 2000? Welche Stellungnahmen zur nachfolgenden V-Personen-Führung, Strafverfolgung, zur mutmaßlichen Bewaffnung und zur Unterrichtung von Untersuchungsausschüssen sind im Original nachvollziehbar? Vorwürfe aus Parlamentsfragen sind **keine gerichtlichen Tatsachenfeststellungen**.
+
+## A. Sieben getrennte Beweis- und Prüfkomplexe
+
+### BER-01 — Greger und Piatto waren 2000 Gegenstand desselben Ermittlungsverfahrens
+
+Der Berliner Polizeipräsident **Klaus Kandt** berichtete vor dem Innenausschuss am **17.02.2014** als Ergebnis der behördlichen Aktenauswertung [Q3, **gedruckte S. 21**, Fragen 42/43]: **Nick Greger** habe gegenüber dem LKA Berlin **im Juni und Juli 2000** in einem Ermittlungsverfahren der Staatsanwaltschaft Berlin Angaben zu einem geplanten Anschlag auf **Fahrzeuge der „linken Szene“**, zu Tatmotiv und Beteiligten gemacht. Dazu zählte nach dieser Antwort **Carsten Szczepanski**, der später als V-Mann „Piatto“ öffentlich bekannt wurde. **Szczepanski** seinerseits habe zum Vorgang unter dem Aktenzeichen **81 Js 2056/00** Angaben über Greger gemacht. Greger erklärte in einer Beschuldigtenvernehmung im Juni 2000, er kenne Szczepanski aus der **NPD**.
+
+**Evidenzgrenze:** Kandt referiert Ermittlungsakten und wechselseitige Äußerungen; das ursprüngliche Vernehmungsprotokoll und ein Urteil im Verfahren **81 Js 2056/00** liegen dieser Notiz noch nicht vor. Die Quelle belegt amtlich rekonstruierte **Vernehmungen und ein geplantes Gewaltgeschehen**, nicht eine gerichtlich festgestellte gemeinsame Sprengstoffherstellung, einen durchgeführten Anschlag, die Schuld sämtlicher genannten Personen oder einen V-Mann-Auftrag zur Gewalttat. Entscheidend ist außerdem die **Chronologie**: Das berichtete Vorhaben datiert **vor** Gregers späterer Anwerbung durch das **Berliner LKA**.
+
+### BER-02 — Geprüft wurde eine Unterrichtung des Generalbundesanwalts wegen § 129a StGB
+
+Laut Kandts Antwort [Q3, **gedruckte S. 22**, unmittelbar nach Fragen 42/43] fanden sich **außerhalb der VP-Akte** Unterlagen, wonach der Polizeiliche Staatsschutz **im Juni 2000 beabsichtigte**, nach Abstimmung mit der Staatsanwaltschaft Berlin den **Generalbundesanwalt** zu informieren und **gegebenenfalls ein Verfahren nach § 129a StGB** (Verdacht einer terroristischen Vereinigung) anzuregen. Im Bestand befand sich demnach ein damit zusammenhängendes **Schreiben des Generalbundesanwalts**. Kandt erklärte ausdrücklich, den Gesamtsachverhalt anhand der damals vorliegenden Akten **nicht abschließend beurteilen** zu können.
+
+**Prüfbarer Unterschied:** Die beabsichtigte Prüfung eines Terrorismusverdachts ist **kein** Beleg, dass ein §-129a-Verfahren tatsächlich eingeleitet oder die Tatplanung nachgewiesen wurde. Das Schreiben des Generalbundesanwalts, der Polizeivermerk vom Juni 2000, die Verfahrensverfügungen und die zuständige Akte **81 Js 2056/00** sind deshalb die prioritären Original-Asservate.
+
+### BER-03 — Berliner Vertrauensperson wurde erst 2001 angeworben
+
+Kandt erklärte [Q3, **gedruckte S. 8 und 10–11**], die spätere VP 598 sei am **09.03.2001** als Insasse der **JVA Tegel** der V-Personen-Führung vorgestellt worden und habe **selbst ihre Bereitschaft zur Polizeizusammenarbeit erklärt**. Sie wurde nach Aktenlage zunächst als Informant zur **Erkenntnisgewinnung über die rechte Szene** befragt; es sei **kein gezielter verdeckter Einsatz in der JVA** erfolgt. Eine erste formale Erfassung als Informant erfolgte nach der früheren Ausschusssitzung am **17.04.2001** [Q2, **gedruckte S. 23**]. Während der Zusammenarbeit gab die Staatsanwaltschaft Berlin am **20.12.2001** eine Vertraulichkeitszusage zu einem Komplex der **Vorbereitung eines Sprengstoffanschlags** [Q3, **S. 11**].
+
+**Stichtagskritik:** Greger war im Sommer **2000** laut Kandt Beschuldigter/Auskunftsperson in einem Strafverfahren; die spätere Berliner Quellenführung begann **2001**. Aus diesen Unterlagen folgt daher **nicht**, dass das Berliner LKA den angeblich für 2000 geplanten Anschlag durch seine Quellenführung zuvor beauftragte oder finanzierte.
+
+### BER-04 — Die VP-Akte enthält nach Behördenauskunft keine Piatto-Meldung während der späteren Quellenführung
+
+Kandt bestätigte [Q3, **S. 21**, Fragen 42/43], Greger habe während seiner **Informanten-/VP-Tätigkeit** im Berliner LKA **nach dem damaligen Stand der VP-Akte keine Angaben über Szczepanski** gemacht. Seine Aussagen aus **Juni/Juli 2000** lagen **außerhalb der VP-Akte** beim Staatsschutz bzw. in Ermittlungsunterlagen. Es sind daher **zwei Aktenkreise** zu trennen: das frühere strafprozessuale Verfahren mit wechselseitigen Beschuldigten-/Zeugenangaben und die erst 2001 begonnene VP-Führung.
+
+Ein weiterer Befund [Q3, S. **21–22**]: Kandt hielt fest, dass aus den zugänglichen VP-Akten **keine direkte Verbindung** zwischen VP 598 und der früheren VP **562 (Thomas S.)** rekonstruierbar sei. Am Ende des fraglichen Fragenblocks warnte er ausdrücklich, **nicht jede Person auf der 129er-Liste** des Generalbundesanwalts sei automatisch ein NSU-Unterstützer. Die Behauptung, Piatto stehe auf einer Liste, stammt dort zunächst aus der **Parlamentsfrage**; die Liste selbst liegt hier nicht vor und darf nicht in eine gerichtliche Unterstützerfeststellung umgedeutet werden.
+
+### BER-05 — Quelle und Geheimhaltung 2001–2003, spätere Enttarnung 2014
+
+Nach dem Protokoll [Q2, **S. 23**; Q3, **S. 14**] lief die Informanten-/VP-Beziehung **2001 bis März 2003**. Das LKA gab am **13.03.2003** nach einem internen Vermerk die Quelle auf, weil Greger sich **wiederholt bei verschiedenen deutschen Nachrichtendiensten** zur Zusammenarbeit angeboten habe, nach behördlicher Darstellung mit dem Ziel **finanzieller Vorteile**. Die Polizei erklärte zugleich, **keine Prämie bzw. kein Honorar** für die Quellenführung gezahlt zu haben [Q3, **S. 13**]. Solche Aussagen sind als **Erklärung der Behörde aufgrund ihres Aktenbestands** dokumentiert, nicht unabhängig testierte vollständige Finanzabrechnungen.
+
+Die 2001 durch die Staatsanwaltschaft erklärte Vertraulichkeit wurde am **29.01.2014** **durch die Staatsanwaltschaft Berlin aufgehoben**, nachdem zuvor ein öffentliches Interview und parlamentarische Nachfragen den Fall bekannt gemacht hatten [Q3, **S. 21**, Frage 40]. Ein **Wechsel von strafprozessualem Quellen-/Beschuldigtenstatus** und eine zeitweilige Vertraulichkeit sind auch hier weder Tatnachweis noch Beweis einer späteren Zeugenmanipulation.
+
+### BER-06 — Nachgespräch Oktober 2013: Tatsächlicher Kontakt, kontroverse Deutung
+
+Im **Januar 2014** referierten Oppositionsabgeordnete den **Vorwurf Gregers**, Berliner LKA-Beamte hätten ihn bei einem Treffen **am 31.10.2013** davon abhalten wollen, über seine Beziehungen zu „Piatto“ auszusagen, und eine interessengeleitete Schwärzung von Akten in Aussicht gestellt [Q1, **S. 4**; Q2, **S. 2–4**]. Dies ist der Inhalt einer **wiedergegebenen Selbstbehauptung**, nicht ein vom Untersuchungsausschuss bestätigter Auftrag zur Behinderung parlamentarischer Aufklärung.
+
+Das LKA erklärte hingegen, es habe sich um ein **„Sensibilisierungsgespräch“ zum Schutz ehemaliger Vertrauenspersonen** gehandelt [Q2, S. **26–29**]. In der Februarsitzung wurden die verwaltungsinternen Informationsschritte konkret datiert: Grundsatzvorgang vom Oktober 2013, Information der LKA-Führung, Schreiben vom **05.11.2013**, Benachrichtigung des Innensenators am **06.11.2013** [Q3, **S. 19**]. Die Verwaltung erklärte ferner, die Gesprächsunterlagen seien den Abgeordneten **separat und teilweise geschwärzt** zugänglich gemacht worden; sie gehörten gerade **nicht** zur zuvor überlassenen historischen VP-Akte [Q3, **S. 8 und 19**].
+
+**Entscheidende Falsifikationsprobe:** Gesprächsprotokoll vom **31.10.2013**, seine Versionen und Vorlagevermerke mit den Aussagen der beteiligten Beamten und Gregers tatsächlicher wörtlicher Schilderung vergleichen. Schon die Existenz des Gesprächs und die Geheimschutzbegründung sind belegte Vorgänge; ob tatsächlich eine **unerlaubte Einflussnahme auf mögliche Zeugenaussagen** stattfand, bleibt damit offen.
+
+### BER-07 — Unterschiedliche NSU-Begriffe, enger Behördenmaßstab und parlamentarischer Widerspruch
+
+Innensenator **Frank Henkel** und Polizeipräsident **Kandt** verneinten 2014 einen konkreten **NSU-Bezug der VP 598**, weil in der Quellenakte keine entsprechenden Meldungen zum Trio enthalten und Greger nach ihrer Darstellung **nicht** auf den NSU-Listen geführt sei [Q3, **S. 4–5**]. Die Position wird durch einen von der Innenverwaltung beauftragten Prüfer referiert, wonach die Berliner LKA-Quellen nach Aktenlage keine nachgewiesene unmittelbare Unterstützung oder Beteiligung an NSU-Taten erbracht hätten. Dieses Negativergebnis darf **nicht** mit „keine Kontakte zu Personen der rechtsextremen Szene“ gleichgesetzt werden.
+
+Oppositionsabgeordnete hielten dem entgegen, das Nebeneinander von Piatto-Kontakt, Sprengstoffermittlung und Berliner VP-Führung erfordere eine **beziehungs- und aktenübergreifende Prüfung**; eine Abgeordnete behauptete am **30.01.2014** sogar, Greger habe 2000 zusammen mit Piatto **Waffen gebaut** [Q2, **S. 34**]. Diese letztere Formulierung ist **eine politische Tatsachenbehauptung in einer Wortmeldung** und in den hier ausgewerteten Regierungsauskünften **nicht als gerichtliche Feststellung bestätigt**.
+
+**Stärkstes Gegenargument:** Der Berliner Senat hatte nach eigener Darstellung keinen NSU-Ermittlungsauftrag und konnte aus bloßer Nähe zu Personen der weit gefassten 129er-Liste nicht auf Unterstützung des Mordtrios schließen. Zudem hatte Greger seine Aussagen zum 2000er Verfahren **vor** Beginn seiner Berliner Quellenführung abgegeben und während der Quellenzeit angeblich keine Piatto-Meldung geliefert [Q3, S. 4–5, 21–22]. Dieser Stand widerlegt nicht die **dokumentierte frühere Gewalt-/Ermittlungsbeziehung**, begrenzt aber den Schluss auf eine staatlich koordinierte Anschlagplanung.
+
+## B. Prüfmatrix für eine mögliche „Strategie der Spannung“
+
+| Präziser Mechanismus | Durch öffentliche Originalaussage getragen | Trennende Originalprüfung |
+|---|---|---|
+| **Militante Kontakte vor Quellenführung** | Gegenseitige Aussagen Greger/Piatto zu einem **geplanten Anschlag auf Fahrzeuge linker Gruppen**, Ermittlungsakte 81 Js 2056/00 [Q3, S. 21] | Vollständige Strafakte und Vernehmungsprotokolle, Gutachten zu etwaigen Tatmitteln, Urteil/Einstellung |
+| **Behördliche Terrorismus-Verdachtsbewertung** | 2000er Absicht einer Abstimmung mit GBA wegen möglichem **§ 129a StGB** [Q3, S. 22] | Schreiben des GBA, Verfügung der StA, Einleitung/Ablehnung tatsächlichen 129a-Verfahrens |
+| **Nachrichtendienstlich-polizeiliche Parallelität** | Piatto: brandenburgische Verfassungsschutzquelle; Greger: später Berliner LKA-VP [Q1, Q3] | Zeitversetzte Führungsakten, Zahlungs- und Aufgabenbelege; keine Gleichzeitigkeit behaupten |
+| **Quellenschutz vs. Strafverfolgung** | Vertraulichkeitszusage am 20.12.2001 durch StA Berlin; Aufhebung 29.01.2014 [Q3, S. 11, 21] | Genaue ursprüngliche Begründung, Verfahrenskontext und gerichtliche Verwertbarkeit |
+| **Möglicher Diskurseingriff 2013** | „Sensibilisierungsgespräch“ und behördlich bestrittene Schilderungen zur Unterbindung von Aussagen [Q1–Q3] | Original-Wortprotokoll 31.10.2013, Schwärzungsvermerke, Weisungslage, Zeugenaussagen |
+| **Übergreifende Leitung rechter Gewalt** | **Nicht belegt** durch die drei öffentlichen Protokolle. | Authentische Weisungen, Zahlungsflüsse, Tatmaterial, geplante politische Verwertung, nachweisbare koordinierende Stelle |
+
+Eine **Strategie der Spannung** wäre zu erhärten, wenn vor dem Anschlag staatlich angewiesene Bewaffnung, konkrete Kenntnis und ein absichtliches Ermöglichen militanter Angriffe **sowie** eine koordinierte politische Verwertung nachgewiesen werden. Die hier dokumentierten Vorgänge rechtfertigen weitere Ermittlungsfragen, **keine** Vorverurteilung der beteiligten Behörden oder Personen.
+
+## C. Nächste Originalakten und konkrete Prüfaufträge
+
+1. **Staatsanwaltschaft Berlin, 81 Js 2056/00:** vollständige ursprüngliche Ermittlungsakte, Greger-/Szczepanski-Vernehmungen Juni/Juli 2000, Verfahrensabschluss und strafrechtliche Würdigung der geplanten Angriffe auf Fahrzeuge der linken Szene [Q3, S. 21].
+2. **Polizeilicher Staatsschutz Berlin Juni 2000:** Vorhaben zur Information des Generalbundesanwalts, Korrespondenz mit der Berliner Staatsanwaltschaft, zugehöriges Schreiben des GBA, eventuelle §-129a-Verfügung [Q3, S. 22].
+3. **LKA VP 598, 2001–2003:** Berichte mit Empfangs-/Weiterleitungszeiten, Quellenführer, Vertraulichkeitszusage **20.12.2001**, Auszahlungs-/Negativbelege, Abmeldung **13.03.2003**. Privatdaten minimieren [Q3, S. 11–14].
+4. **Weitere Quelle VP 562 (Thomas S.) und Waffenhinweis 2001:** Die Parlamentsfragen zum Angebot von Waffen durch „Jan W.“ [Q3, **S. 22**, Frage 44] mit originaler Meldung und Landes-/Bundesverteilern prüfen. Die im öffentlichen Protokoll nicht belegte Greger-562-Verbindung **nicht** als vorhandene Netzwerkkante kodieren.
+5. **LKA-Besuch Thüringen 31.10.2013:** vollständiges Gesprächsprotokoll, Grundsatzvorgang, Begleitschreiben **14.10., 05.11. und 06.11.2013**, Schwärzungs-/Freigabeverfügungen und tatsächliche Aussagen/Instruktionen [Q1–Q3].
+6. **Kontrollbeweis gegen voreilige NSU-Zurechnung:** Inhaltliche Abgleichmatrix 41er-/129er-Listen nur bei rechtmäßig verfügbarer Grundlage; Vorwürfe einzelner Abgeordneter, mögliche Kontakte und aktive NSU-Tatunterstützung getrennt bewerten.
+7. **Berlin ↔ Brandenburg ↔ Bundesbehörden:** Die im Protokoll angekündigten Aktenübermittlungen und Freigabeanfragen nach genauer Datierung/Empfängerbehörde auswerten [Q3, S. 14, 22]. Institutionelle Zuständigkeiten und Zeitachsen strikt trennen.
+
+## D. Amtliche Primärquellen
+
+- **[Q1] Abgeordnetenhaus von Berlin, 17. WP, InnSichO 17/38, Wortprotokoll zu TOP 5 vom 27.01.2014**, besonders **gedruckte S. 3–5**: parlamentarische Nachfragen zu VP 598, Piatto-Kontakten und behaupteter Zeugenbeeinflussung bei einer LKA-Kontaktaufnahme. [Amtliches Wortprotokoll-PDF](https://www.parlament-berlin.de/ados/17/InnSichO/protokoll/iso17-038-wp2.pdf).
+- **[Q2] Abgeordnetenhaus von Berlin, 17. WP, InnSichO 17/39, öffentliches Wortprotokoll vom 30.01.2014**, besonders **S. 2–4** (Aufklärungsverlangen), **S. 23** (Anwerbung/Quellenchronologie), **S. 26–29** (Polizeidarstellung zum Kontakt 2013 und Schwärzung), **S. 34** (Wortmeldung zu Greger/Piatto/Waffen als **nicht selbst bewiesene Behauptung**). [Amtliches Wortprotokoll-PDF](https://www.parlament-berlin.de/ados/17/InnSichO/protokoll/iso17-039-wp.pdf).
+- **[Q3] Abgeordnetenhaus von Berlin, 17. WP, InnSichO 17/41, öffentliches Wortprotokoll vom 17.02.2014**, insbesondere **S. 4–5** (behördliche Gegenposition), **S. 8, 11, 13–14** (VP-Chronologie, Vertraulichkeit und Abschaltung), **S. 19–22** (Nachgespräch, Regierungsinformationen und beidseitige Greger/Piatto-Angaben, GBA-Anhörungsabsicht), **S. 30** (Rechtfertigung der Nachsorge). [Amtliches Wortprotokoll-PDF](https://www.parlament-berlin.de/ados/17/InnSichO/protokoll/iso17-041-wp.pdf).
+
+**Quellenstatus:** Öffentliche Wortprotokolle belegen in erster Linie, **wer wann welche Aussagen machte**, und die Existenz einer amtlichen Aktenauswertung, nicht die Authentizität jeder darin referierten zugrunde liegenden Vernehmung oder den Erfolg jeder denkbaren strafrechtlichen Hypothese. Keines der hier benutzten Dokumente ist ein gerichtliches Urteil über eine durch Behörden angeordnete Sprengstofftat. Der tatsächlich neue Forschungsansatz ist die **akten- und zeitlich präzise Verknüpfung** früher Gewaltverdachtsakten, der späteren Berliner Quellenführung, dienstlicher Nachsorge und konkurrierender Parlamentserklärungen.
+
+**Vergleichsfälle, keine behauptete gemeinsame Führung:** [Piatto/Brandenburg-Forschungs-PR #56](https://github.com/alexdermohr/machtverflechtungen/pull/56), [Berlin-Brandenburg/Nationale Bewegung PR #57](https://github.com/alexdermohr/machtverflechtungen/pull/57), [NPD-Quellenführung PR #58](https://github.com/alexdermohr/machtverflechtungen/pull/58). Eine Relation „staatliche Anweisung zum rechten Anschlag“ ist aus diesen Quellen **nicht** ableitbar.
