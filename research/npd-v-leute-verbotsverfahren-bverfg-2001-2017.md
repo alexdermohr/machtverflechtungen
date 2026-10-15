@@ -47,7 +47,7 @@ Diese alternative Würdigung erklärt dasselbe Tatsachenmaterial, ohne eine orch
 Der Zweite Senat stellte im **Urteil vom 17.01.2017, 2 BvB 1/13** [Q3, Leitsätze **2a–b**, Rn. **406–429**] klar:
 
 - V-Leute und verdeckte Ermittler in Parteiführungsgremien **während** eines Verbotsverfahrens sind mit der erforderlichen **Staatsfreiheit** unvereinbar.
-- Beweismittel zu Parteizielen müssen auf **unbeeinflusste Willensbildung** zurückgehen; staatlich provozierte Aussagen oder Vorgänge können nicht ohne Quellenzuordnung der Partei zugerechnet werden.
+- Beweismittel zu Parteizielen müssen auf **unbeeinflusste Willensbildung** zurückgehen. Vom Staat beeinflusst entstandene Beweismittel sind für den Verbotsnachweis unverwertbar [Q3, Rn. 410–414].
 - Zulässige präventive Beobachtung kann **unterhalb** der Parteiführung im Rahmen geltender Gesetze fortgesetzt werden; strikte Trennung ist möglich.
 
 Der Bundesrat als alleiniger Antragsteller des zweiten Verfahrens legte anhand von Angaben zuständiger Stellen dar, dass V-Leute auf NPD-Führungsebenen **spätestens bei Bekanntgabe des erneuten Verbotsvorhabens abgeschaltet**, informationsgewinnende Nachsorge unterlassen und hinreichende Schutzvorkehrungen gegen Ausspähung der Prozessstrategie getroffen worden waren. Das BVerfG hielt die dargelegten Voraussetzungen für erwiesen [Q3; Q4].
@@ -66,7 +66,7 @@ Ein bloßes Narrativ „der Staat ließ die NPD in beiden Fällen wegen seiner A
 
 | Prüffrage | Durch Originalentscheidung belegt | Zusätzlich benötigter Beweis |
 |---|---|---|
-| **Drang staatlicher Stellen in Führungsgremien** | Ja, V-Leute im NPD-Bundes- und in Landesvorständen bis über 2001 hinaus [Q1]. | Einzelnamen, Agenturzuordnung, Aufgabenstellung und Auszahlungsbelege |
+| **Nachrichtendienstliche Kontakte zu Führungspersonen** | Belegt sind V-Leute unter Mitgliedern von NPD-Bundes- und Landesvorständen auch nach Antragstellung 2001 [Q1]; eine staatlich angeordnete Übernahme dieser Ämter ist nicht belegt. | Anwerbungszeitpunkte, konkrete Führungsaufträge, Zuständigkeit und Zahlungen |
 | **Einfluss auf politische Entscheidung oder Außendarstellung** | Als **rechtliche Strukturwirkung** von drei Richtern erörtert [Q1]; vier Richter hielten vollumfängliche Fremdsteuerung nicht für nachgewiesen. | Konkrete Reden, Beschlüsse, Abstimmungen, V-Mann-Aufträge, Gegenentwürfe und Effektanalysen |
 | **Gerichtliche Prüfbehinderung 2003** | Verfahren **tatsächlich eingestellt** infolge Quorums [Q1/Q2]. | Ob Behörden das Prozessrisiko schon vor 2001 kannten und **gezielt** in Kauf nahmen oder verstärkten |
 | **Staatlich beeinflusstes Beweismaterial** | In 2003er **Minderheitsbegründung** konkret thematisiert [Q1]. | Vorlagefassung der Verbotsanträge mit individueller Kennzeichnung von V-Person-Äußerungen und deren Herkunft |
@@ -95,4 +95,4 @@ Ein bloßes Narrativ „der Staat ließ die NPD in beiden Fällen wegen seiner A
 
 **Quellenkritischer Status:** Die amtlichen Entscheidungs- und Presseseiten wurden im aktuellen Suchindex direkt anhand ihrer Abschnitte verifiziert; beim Abruf des vollständigen Original-HTMLs trat ein HTTP-403-Fehler auf. Deshalb sind die konkreten Absatz- und Randziffern vor einer späteren formalen Quellenregistereintragung nochmals am vollständigen Original oder einem gerichtlichen PDF nachzuprüfen. Die dokumentierten Kernaussagen sind bereits durch die gerichtlichen Pressetexte gegenseitig nachvollziehbar.
 
-**Verwandte Forschungsnotiz:** [Brandenburg/Piatto 1994–2000](piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md), [Thüringer Heimatschutz/Tino Brandt](../docs/faelle/de/thueringer-heimatschutz-tino-brandt.md), [Strategie der Spannung: Prüfmatrix](../docs/mechanismen/strategie-der-spannung.md).
+**Verwandte Forschungsnotiz:** [Brandenburg/Piatto 1994–2000 (PR #56)](https://github.com/alexdermohr/machtverflechtungen/pull/56), [Thüringer Heimatschutz/Tino Brandt](../docs/faelle/de/thueringer-heimatschutz-tino-brandt.md), [Strategie der Spannung: Prüfmatrix](../docs/mechanismen/strategie-der-spannung.md).
