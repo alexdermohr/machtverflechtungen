@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**164 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**165 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1004,6 +1004,17 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primär
 
 Fundstelle: Gedruckte S. 4, Titel 300: 8 vs. 7 Mio. DM; S. 5 Titel 314: 6 vs. 7 Mio. DM
 
+<a id="src-de-bt-haushaltsgesetz-v2731-1968"></a>
+### Deutscher Bundestag / Haushaltsausschuss
+
+**[Bundestag V/2731: mündlicher Haushaltsausschussbericht und Antrag zum Haushaltsgesetz 1968](https://dserver.bundestag.de/btd/05/027/0502731.pdf#page=1)**
+
+Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731.pdf#page=1)
+
+Fundstelle: Drucksache V/2731, Titelseite/PDF-Bildseite 1: Ausschussantrag und Datum Bonn 15.03.1968; anschließend Zusammenstellung der Haushaltsgesetzfassungen
+
 <a id="src-de-bt-adk-bericht-zu-v2731-1968"></a>
 ### Deutscher Bundestag / Haushaltsausschuss
 
@@ -1216,7 +1227,7 @@ Fundstelle: ACDP 08-001-1015/2, Teil A Barzel, DOI 10.82988/bprm-rn16
 <a id="src-de-kgparl-cdu-adk-19680326"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
-**[CDU-Fraktion 26.03.1968: ADK-Grundvertrag und mögliche BPA-Personalkontinuität](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-03-26-t1832_WZ.html)**
+**[CDU-Fraktion 26.03.1968: Barzel zu ADK, Erhard-Büro und Außenministerfonds](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-03-26-t1832_WZ.html)**
 
 Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1968-03-26 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19680326`
 
@@ -1227,7 +1238,7 @@ Fundstelle: ACDP 08-001-1016/1, Teil A, DOI 10.82988/jmdx-7e83, editorische Fn. 
 <a id="src-de-kgparl-cdu-adk-19680402"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
-**[CDU-Fraktion 02.04.1968: gescheitertes ADK-Gesamtpaket und Ausschussvermerk](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)**
+**[CDU-Fraktion 02.04.1968: Barzel und Althammer zum gescheiterten ADK-Gesamtpaket](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)**
 
 Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1968-04-02 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19680402`
 

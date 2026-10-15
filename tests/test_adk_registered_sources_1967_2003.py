@@ -19,6 +19,7 @@ ORIGINAL_IDS = (
     "SRC-DE-KGPARL-CDU-ADK-19671212",
     "SRC-DE-BT-ADK-HAUSHALT-19680315",
     "SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968",
+    "SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968",
     "SRC-DE-KGPARL-CDU-ADK-19680326",
     "SRC-DE-KGPARL-CDU-ADK-19680402",
     "SRC-DE-BVERFG-PARTEIENFINANZIERUNG-19660719",
@@ -45,7 +46,7 @@ class AdkRegisteredSourcesTest(unittest.TestCase):
             with self.subTest(source_id=source_id):
                 self.assertEqual(sum(s["id"] == source_id for s in self.sources), 1)
 
-    def test_all_thirteen_sources_are_unique_and_catalogued(self):
+    def test_all_fourteen_sources_are_unique_and_catalogued(self):
         ids = [s["id"] for s in self.sources]
         self.assertEqual(len(ids), len(set(ids)))
         for source_id in ALL_IDS:
@@ -104,11 +105,26 @@ class AdkRegisteredSourcesTest(unittest.TestCase):
             self.assertIn(text, report["notes"])
         self.assertIn("SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968", self.study)
         self.assertNotEqual(report["url"], by_id["SRC-DE-BT-ADK-HAUSHALT-19680315"]["url"])
+        oral_report = by_id["SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968"]
+        self.assertEqual(oral_report["date"], "1968-03-15")
+        self.assertEqual(oral_report["tier"], "A")
+        self.assertTrue(oral_report["primary"])
+        self.assertIn("0502731.pdf#page=1", oral_report["url"])
+        self.assertIn("keine Einzelzahlung", oral_report["notes"])
+        self.assertIn("SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968", self.study)
+        self.assertNotEqual(oral_report["url"], report["url"])
+        self.assertNotEqual(oral_report["url"], by_id["SRC-DE-BT-ADK-HAUSHALT-19680315"]["url"])
+        self.assertEqual(len({by_id["SRC-DE-BT-ADK-HAUSHALT-19680315"]["url"], oral_report["url"], report["url"]}), 3)
+        self.assertIn("Zehn zeitgenössische", self.study)
+        self.assertIn("Vier historische Bundestagsoriginaldrucke", self.study)
+        self.assertNotIn("Personalkontinuität", by_id["SRC-DE-KGPARL-CDU-ADK-19680326"]["title"])
+        self.assertNotIn("Ausschussvermerk", by_id["SRC-DE-KGPARL-CDU-ADK-19680402"]["title"])
 
     def test_site_navigation_links_both_periods(self):
         nav = (ROOT / "mkdocs.yml").read_text(encoding="utf-8")
         self.assertIn("quellen/adk-bundesfinanzierung-1954-1957.md", nav)
         self.assertIn("quellen/adk-parteifinanzierung-bundeskasse-1967-1968.md", nav)
+        self.assertIn("ADK / Bundesmittel, Wahlkampfhilfe und Haushaltsverhandlungen 1967–1968", nav)
 
 
 if __name__ == "__main__":
