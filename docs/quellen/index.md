@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**154 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**168 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -608,6 +608,17 @@ Bundesverfassungsgericht (Zweiter Senat) · 1977-03-02 · Stufe **A** · Primär
 
 Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)
 
+<a id="src-de-bverfg-parteienfinanzierung-19660719"></a>
+### Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politische Bildung
+
+**[BVerfG 19.07.1966: 2 BvF 1/65, BVerfGE 20, 56 – Bundes-Parteienfinanzierung](https://www.bpb.de/shop/zeitschriften/apuz/archiv/527544/das-bundesverfassungsgericht-zur-parteienfinanzierung/)**
+
+Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politische Bildung · 1966-07-19 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-PARTEIENFINANZIERUNG-19660719`
+
+[Seite öffnen](https://www.bpb.de/shop/zeitschriften/apuz/archiv/527544/das-bundesverfassungsgericht-zur-parteienfinanzierung/)
+
+Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Titel 612 (1965)
+
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
 
@@ -684,6 +695,17 @@ Deutscher Bundestag · 1957-07-06 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/02/02225.pdf#page=22)
 
 Fundstelle: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
+
+<a id="src-de-bt-adk-plenum-19670607"></a>
+### Deutscher Bundestag
+
+**[Bundestag 111. Sitzung 07.06.1967: Raffert über ADK und BPA-Haushalt](https://dserver.bundestag.de/btp/05/05111.pdf#page=35)**
+
+Deutscher Bundestag · 1967-06-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-ADK-PLENUM-19670607`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/05/05111.pdf#page=35)
+
+Fundstelle: 5/111 gedruckte S. 5279, PDF-Bild 35; Gegenrede Haase S. 5280
 
 <a id="src-de-bt-plenar-06135-bpa-19710923"></a>
 ### Deutscher Bundestag
@@ -1004,6 +1026,39 @@ Deutscher Bundestag / Bundesregierung, Staatssekretär Dr. Fröhlich · 1981-01-
 
 Fundstelle: Gedruckte S. 7, Frage und Antwort Nr. 14, Antwort des Staatssekretärs Dr. Fröhlich vom 23.12.1980: nach damaligem Kenntnisstand keine fortdauernden Spendeninformationen, jüngste Freundeskreisaktivität nicht festgestellt und das in Presse erwähnte Nürnberger Postscheckkonto sei ein Privatkonto Hoffmanns.
 
+<a id="src-de-bt-adk-haushalt-19680315"></a>
+### Deutscher Bundestag / Haushaltsausschuss
+
+**[Bundestag V/2704: BPA-Haushaltsausschuss Titel 300 -1 Mio. und Titel 314 +1 Mio.](https://dserver.bundestag.de/btd/05/027/0502704.pdf#page=4)**
+
+Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-ADK-HAUSHALT-19680315`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502704.pdf#page=4)
+
+Fundstelle: Gedruckte S. 4, Titel 300: 8 vs. 7 Mio. DM; S. 5 Titel 314: 6 vs. 7 Mio. DM
+
+<a id="src-de-bt-haushaltsgesetz-v2731-1968"></a>
+### Deutscher Bundestag / Haushaltsausschuss
+
+**[Bundestag V/2731: mündlicher Haushaltsausschussbericht und Antrag zum Haushaltsgesetz 1968](https://dserver.bundestag.de/btd/05/027/0502731.pdf#page=1)**
+
+Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731.pdf#page=1)
+
+Fundstelle: Drucksache V/2731, Titelseite/PDF-Bildseite 1: Ausschussantrag und Datum Bonn 15.03.1968; anschließend Zusammenstellung der Haushaltsgesetzfassungen
+
+<a id="src-de-bt-adk-bericht-zu-v2731-1968"></a>
+### Deutscher Bundestag / Haushaltsausschuss
+
+**[Bundestag zu V/2731: Ausschussvorschlag zur Titelverlagerung und ADK-Förderung](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)**
+
+Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primärquelle · `SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)
+
+Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
+
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
 
@@ -1157,6 +1212,72 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 [Seite öffnen](https://www.stammheim-prozess.de/166-verhandlungstag/)
 
 Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
+
+<a id="src-de-kgparl-cdu-adk-19670606"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
+
+**[CDU/CSU-Fraktion 06.06.1967: Burger, Niederalt, Barzel, ADK und BPA-Fonds](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-06-06-t1505_WZ.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1967-06-06 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19670606`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-06-06-t1505_WZ.html)
+
+Fundstelle: ACDP 08-001-1014/1; Wortprotokoll; Burger und Niederalt, DOI 10.82988/fddm-ew62
+
+<a id="src-de-kgparl-cdu-adk-19671205"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
+
+**[CDU-Fraktion 05.12.1967: Kiesinger über Bundeskasse und Wahlkampfverbände](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-12-05-t1507_WZ.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1967-12-05 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19671205`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-12-05-t1507_WZ.html)
+
+Fundstelle: ACDP 08-001-1015/2, TOP 5, DOI 10.82988/n09r-wv67
+
+<a id="src-de-kgparl-cdu-adk-19671212"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
+
+**[CDU-Fraktion 12.12.1967: Barzel zu ADK, Kanzler- und Außenministerfonds](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-12-12-t1507_WZ.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1967-12-12 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19671212`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-12-12-t1507_WZ.html)
+
+Fundstelle: ACDP 08-001-1015/2, Teil A Barzel, DOI 10.82988/bprm-rn16
+
+<a id="src-de-kgparl-cdu-adk-19680326"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
+
+**[CDU-Fraktion 26.03.1968: Barzel zu ADK, Erhard-Büro und Außenministerfonds](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-03-26-t1832_WZ.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1968-03-26 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19680326`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-03-26-t1832_WZ.html)
+
+Fundstelle: ACDP 08-001-1016/1, Teil A, DOI 10.82988/jmdx-7e83, editorische Fn. 7
+
+<a id="src-de-kgparl-cdu-adk-19680402"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
+
+**[CDU-Fraktion 02.04.1968: Barzel und Althammer zum gescheiterten ADK-Gesamtpaket](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion · 1968-04-02 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-CDU-ADK-19680402`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)
+
+Fundstelle: ACDP 08-001-1016/1, TOP 3, DOI 10.82988/b995-sj37, editorische Fn. 20
+
+<a id="src-de-kgparl-spd-adk-19670606"></a>
+### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion
+
+**[SPD-Fraktion 06.06.1967: ADK-Jahreszuschüsse 6/12 und 6/24](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)**
+
+Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion · 1967-06-06 · Stufe **A** · Primärquelle · `SRC-DE-KGPARL-SPD-ADK-19670606`
+
+[Seite öffnen](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)
+
+Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische Fußnote 32; historische AdsD-Originalsignatur nicht eigenständig eingesehen
 
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
@@ -1583,6 +1704,28 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
 
+<a id="src-de-kas-fonds-spr-2003"></a>
+### Konrad-Adenauer-Stiftung
+
+**[KAS: 2003 Fonds SPR nach Liquidationsbeschluss der Studiengesellschaft für Public Relations](https://www.kas.de/de/unterstuetzen-sie-uns)**
+
+Konrad-Adenauer-Stiftung · undated · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KAS-FONDS-SPR-2003`
+
+[Seite öffnen](https://www.kas.de/de/unterstuetzen-sie-uns)
+
+Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 2003 und Zweck Wissenschaftliche Dienste
+
+<a id="src-de-acdp-jahn-nachlass-01753"></a>
+### Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); DDB als Nachweisportal
+
+**[ACDP-Nachlass Hans Edgar Jahn 01-753 (1956–1997) / ADK und SPR](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)**
+
+Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); DDB als Nachweisportal · 2025-11-05 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ACDP-JAHN-NACHLASS-01753`
+
+[Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/QOGR554PFIRMOMWFY2VPGK24GZ6SUU2G)
+
+Fundstelle: ACDP 01-753; letzte Aktualisierung des Katalogs 05.11.2025; Bestandslaufzeit 1956–1997
+
 <a id="src-de-he-lagis-bdj-19530108"></a>
 ### Landesgeschichtliches Informationssystem Hessen (LAGIS)
 
@@ -1659,6 +1802,17 @@ STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma · 1971 · Stufe **D** · S
 [Seite öffnen](https://www.isioma.net/sds120504.html)
 
 Fundstelle: STERN Nr. 23/1971, S. 32–36, reproduzierter Bericht von Serke, Seufert und Unger
+
+<a id="src-de-adenauerhaus-adk-spr-nachfolge"></a>
+### Stiftung Bundeskanzler-Adenauer-Haus
+
+**[Torsten Oppelland: ADK-Gründung, BPA-Förderung und SPR-Nachfolge](https://www.konrad-adenauer.de/seite/arbeitsgemeinschaft-demokratischer-kreise/)**
+
+Stiftung Bundeskanzler-Adenauer-Haus · undated · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ADENAUERHAUS-ADK-SPR-NACHFOLGE`
+
+[Seite öffnen](https://www.konrad-adenauer.de/seite/arbeitsgemeinschaft-demokratischer-kreise/)
+
+Fundstelle: Abschnitte Gründung / Schwerpunkte / Auflösung ADK bis 1969, SPR als Nachfolge und Auflösung 2001
 
 <a id="src-de-spr-mediennetz-2017"></a>
 ### Swiss Policy Research
