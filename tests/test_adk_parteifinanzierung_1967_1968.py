@@ -5,7 +5,7 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-STUDY = ROOT / "docs/quellen/adk-parteifinanzierung-bundeskasse-1967-1968.md"
+STUDY = ROOT / "docs/quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md"
 SOURCES = {
     "SRC-DE-KGPARL-CDU-ADK-19670606": "cdu-csu-05_1967-06-06-t1505_WZ.html",
     "SRC-DE-KGPARL-SPD-ADK-19670606": "spd-05_1967-06-06-t1705_EP.html",

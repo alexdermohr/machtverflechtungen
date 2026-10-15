@@ -1,4 +1,4 @@
-"""Source registry and site-index consistency for ADK state-funded party-communication 1966–2003."""
+"""Source registry and site-index consistency for ADK federal funding and budget negotiations 1966–2003."""
 
 from pathlib import Path
 import unittest
@@ -7,7 +7,7 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
-STUDY = ROOT / "docs/quellen/adk-parteifinanzierung-bundeskasse-1967-1968.md"
+STUDY = ROOT / "docs/quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md"
 INDEX = ROOT / "docs/quellen/index.md"
 SOURCES_PATH = ROOT / "data/sources.yml"
 
@@ -123,7 +123,7 @@ class AdkRegisteredSourcesTest(unittest.TestCase):
     def test_site_navigation_links_both_periods(self):
         nav = (ROOT / "mkdocs.yml").read_text(encoding="utf-8")
         self.assertIn("quellen/adk-bundesfinanzierung-1954-1957.md", nav)
-        self.assertIn("quellen/adk-parteifinanzierung-bundeskasse-1967-1968.md", nav)
+        self.assertIn("quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md", nav)
         self.assertIn("ADK / Bundesmittel, Wahlkampfhilfe und Haushaltsverhandlungen 1967–1968", nav)
 
 
