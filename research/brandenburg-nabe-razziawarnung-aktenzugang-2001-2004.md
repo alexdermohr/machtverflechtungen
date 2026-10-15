@@ -39,7 +39,7 @@ Das **Verfassungsgericht des Landes Brandenburg** entschied am **09.12.2004 – 
 - Das Landesverfassungsgericht stellte **ausdrücklich eine Verletzung von Art. 56 Abs. 3 Satz 2 LV** fest: Die Landesregierung hatte die Akteneinsicht der ersten Antragstellerin verfassungswidrig verweigert. Die Entscheidung erging **nicht pauschal für beide Antragsteller**; der weitere Antrag wurde zurückgewiesen.
 - Das Gericht verwarf eine generelle Ersetzung individueller parlamentarischer Kontrollrechte durch die Parlamentarische Kontrollkommission. Es ließ zugleich im Grundsatz **konkrete, im Einzelfall zwingende Geheimhaltungsinteressen** als mögliche Versagungsgründe zu, hielt die gegebene Ablehnungsbegründung aber für unzureichend.
 
-**Grenze:** Das Verfassungsgericht entschied den **Anspruch auf Akteneinsicht**, **nicht** die materielle Strafbarkeit von Toni S., die Echtheit einzelner NaBe-Bekenntnisse oder eine Behinderung des konkreten Durchsuchungsvorgangs vom Februar 2001. Die personelle Trennung zwischen **Christian K.** und **Toni S.** darf nicht aufgehoben werden.
+**Grenze:** Das Verfassungsgericht entschied über die **verfassungswidrige Behandlung des Akteneinsichtsbegehrens**, ordnete jedoch keine automatische Aktenherausgabe an. Eine neue, auf konkrete Geheimhaltungsinteressen gestützte Einzelfallentscheidung blieb möglich. Es entschied **nicht** die materielle Strafbarkeit von Toni S., die Echtheit einzelner NaBe-Bekenntnisse oder eine Behinderung des konkreten Durchsuchungsvorgangs vom Februar 2001. Die personelle Trennung zwischen **Christian K.** und **Toni S.** darf nicht aufgehoben werden.
 
 ### NAB-06 — Rechtspolitisch relevante Aussage über nachrichtendienstliche Behördenzeugnisse (als Zeugenaussage referiert)
 
@@ -66,7 +66,7 @@ Im Sondervotum [Q2, S. **197–199**] wird aus der Befragung des ehemaligen Verf
 2. **TKÜ-Mitschnitt, -Transkript und Verbindungsnachweis vom 06.02.2001 15:54 Uhr**, mit Herkunft, Bearbeitungszeitpunkt, gesicherter Gesprächsteilnahme und Aktenlauf (Verfahren Sven Sch. vs. Geheimnisverratsverfahren).
 3. **Besprechungsunterlagen 06.02.2001**, Quellenführeraufträge Wegesin → Giebler → Sandmann und an Christian K. mit Versionen, Datum und (besonders) Streit zur Nennung des Durchsuchungstermins.
 4. **LKA-Vermerk vom 05.03.2001**, Eingangsverfügung Axel Lüdders, Unterrichtungen der GBA und Staatsanwaltschaft Potsdam, mögliche Sperr- und Zuständigkeitsverfügungen von 2001 bis 2003; dienst- und strafrechtliche Ermittlungsentscheidungen.
-5. **VerfGBbg 6/04 – Nachgeschichte**: Antrag/Urteil samt Umsetzung, wann die nach 2004 zustehende Akteneinsicht in die Toni-S.-Akte tatsächlich ermöglicht wurde und welche inhaltlichen Erkenntnisse daraus folgten.
+5. **VerfGBbg 6/04 – Nachgeschichte**: Antrag/Urteil samt Umsetzung, ob die Landesregierung nach dem Urteil eine neue Einzelfallabwägung vornahm, ob eine Akteneinsicht in die Toni-S.-Akte daraufhin tatsächlich gewährt wurde und welche Erkenntnisse gegebenenfalls folgten.
 6. **Landtag Brandenburg Drs. 6/11485 (2019)**: Aussagen des **Ausschuss-Mehrheitsberichts**, Sondervoten (insbesondere [Q2]) und justizielle Originaldokumente systematisch gegeneinander abgleichen; derzeit ist der Gesamtbericht erst als Archivspur identifiziert.
 7. **NaBe-Anschläge und Bekenntnisse:** Tatakten zu Anschlägen auf jüdische Einrichtungen und anderer Gewalt, originale Bekenntnisschreiben und Einsatzberichte; Urheberbehauptungen, historische Motivdeutungen und staatliche Einflussnahme nicht aus bloßer zeitlicher Koinzidenz ableiten.
 
