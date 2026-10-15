@@ -56,7 +56,9 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
         self.assertIn("06135.pdf#page=53", self.doc)
         self.assertIn("08164.pdf#page=76", self.doc)
         for phrase in ("Titel 531 03", "160.000 DM", "kein testierter Ist-Abfluss",
-                       "Mobil-Werbung", "noch nicht belegt", "nicht im Original eingesehen"):
+                       "enthält keinen Hinweis auf eine Zahlung an die ADK",
+                       "Mobil-Werbung", "noch nicht belegt", "nicht im Original eingesehen",
+                       "ungeprüfte Forschungsansätze", "nicht im Original eingesehen oder hier amtlich bestätigt"):
             with self.subTest(phrase=phrase):
                 self.assertIn(phrase, self.doc)
 
@@ -72,36 +74,60 @@ class Bundeswahlkampfhilfe1976(unittest.TestCase):
         self.assertNotIn("Anzeigenwerbung Mai–September 1976", self.doc)
         self.assertIn("Eherechts-Informationsanzeigen vom 4. August bis 10. September 1976", self.doc)
         self.assertIn("nicht ungeprüft zugerechnet", self.doc)
-        self.assertIn("Rn. 88–138", self.doc)
+        self.assertIn("Rn. 86–138", self.doc)
+        self.assertNotIn("Rn. 88–138**", self.doc)
+        self.assertNotIn("Original-Entscheidungsseite beim BVerfG", self.doc)
+        self.assertNotIn("/SharedDocs/Entscheidungen/EN/1977/", self.doc)
+        self.assertIn("(Rn. 88)", self.doc)
+        self.assertIn("(Rn. 8–9)", self.doc)
+        self.assertNotIn("(Ziff.", self.doc)
 
     def test_adk_and_bverfg_sources_survive_main_convergence(self):
         # Both studies modify data/sources.yml, the generated index and MkDocs navigation.
         # Their independently registered evidence must survive a PR-base convergence.
         by_id = {item["id"]: item for item in self.entries}
         preserved_adk_ids = (
-            "SRC-DE-BT-ADK-HAUSHALT-19680315",
+            "SRC-DE-BT-ADK-HAUSHALT-19680315",  # Bundestag V/2704
             "SRC-DE-BT-HAUSHALTSGESETZ-V2731-1968",
             "SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968",
+        )
+        secondary_ids = (
             "SRC-DE-ACDP-JAHN-NACHLASS-01753",
             "SRC-DE-KAS-FONDS-SPR-2003",
         )
         all_ids = [item["id"] for item in self.entries]
-        for source_id in (*preserved_adk_ids, *sorted(IDS)):
+        for source_id in (*preserved_adk_ids, *secondary_ids, *sorted(IDS)):
             with self.subTest(source_id=source_id):
                 self.assertEqual(all_ids.count(source_id), 1)
                 self.assertEqual(
                     self.index.count('<a id="' + source_id.lower() + '"></a>'),
                     1,
                 )
-        for source_id in preserved_adk_ids[-2:]:
+        for source_id in secondary_ids:
             with self.subTest(secondary_source_id=source_id):
                 self.assertFalse(by_id[source_id]["primary"])
                 self.assertEqual(by_id[source_id]["tier"], "B")
-        self.assertIn(
-            "quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md",
+        self.assertIn(f"**{len(self.entries)} registrierte Quellen**", self.index)
+        adk_study = ROOT / "docs/quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md"
+        adk_early = ROOT / "docs/quellen/adk-bundesfinanzierung-1954-1957.md"
+        self.assertTrue(adk_study.is_file())
+        self.assertTrue(adk_early.is_file())
+        self.assertRegex(
             self.nav,
+            r"(?m)^\s*-\s+ADK /.*: quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968\.md\s*$",
         )
-        self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)
+        self.assertRegex(
+            self.nav,
+            r"(?m)^\s*-\s+ADK /.*: quellen/adk-bundesfinanzierung-1954-1957\.md\s*$",
+        )
+        self.assertRegex(
+            self.nav,
+            r"(?m)^\s*-\s+Regierungsöffentlichkeitsarbeit /.*: quellen/bverfg-staatliche-wahlkampfhilfe-1976\.md\s*$",
+        )
+        adk_text = adk_study.read_text(encoding="utf-8")
+        self.assertIn("SRC-DE-BT-ADK-BERICHT-ZU-V2731-1968", adk_text)
+        self.assertIn("0502704.pdf#page=4", adk_text)
+        self.assertIn("0502731zu.pdf#page=6", adk_text)
 
     def test_navigation_to_new_research(self):
         self.assertIn("quellen/bverfg-staatliche-wahlkampfhilfe-1976.md", self.nav)
