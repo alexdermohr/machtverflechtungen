@@ -1934,9 +1934,9 @@ sources:
   primary: true
   tier: "A"
   url: "https://dserver.bundestag.de/btd/17/146/1714600.pdf"
-  accessed: "2026-10-15"
-  locator: "BT-Drs. 17/14600, gedruckte S. 857–858 (Ausschussfeststellungen Piatto); Druck- und PDF-Bildseiten getrennt kontrollieren"
-  notes: "Amtlicher Ausschussbericht als Original für die dokumentierte parlamentarische Bewertung, nicht als unmittelbarer Zahlungsbeleg oder Führungsauftrag. 50.000 DM V-Mann-Vergütung und 50.000 DM Opfer-Schmerzensgeld sind getrennte Beträge und keine identische Zahlung. Für Detailkontrollen des großen PDFs Bildseiten erneut verifizieren."
+  accessed: "2026-10-16"
+  locator: "BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bisher nur amtlich indexierter Text)"
+  notes: "Amtlicher Ausschussbericht, nicht ursprüngliche Straf-, Zahlungs- oder Führungsakte. S. 858 referiert Szczepanskis Verwahrung einer Pistole und eines Gewehrs Anfang 2000 und eine Waffengesetz-Geldstrafe im Dezember 2002; das Strafurteil bleibt uneingesehen. S. 218 und 858 referieren ein BKA-Positionspapier vom 03.02.1997, Vorläufer 1996 und berichtete Übermittlung an das BfV; Urschrift, Eingangsvermerke, Verteiler und Konsequenzen sind ungeprüft. 50.000 DM V-Mann-Vergütung und 50.000 DM Opfer-Schmerzensgeld sind verschiedene Beträge, keine identische Zahlung."
 - id: "SRC-DE-BT-NSU-UA-PROT70-EGERTON-20130513"
   title: "NSU-UA 70. Sitzung: BfV-Zeuge Sebastian Egerton zu Piatto-Hinweisen, Verifikation und Quellenschutz"
   institution: "Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)"
