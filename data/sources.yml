@@ -1954,7 +1954,7 @@ sources:
   date: "2013-04-15"
   type: "official_parliamentary_news_summary"
   primary: false
-  tier: "B"
+  tier: "D"
   url: "https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136"
   accessed: "2026-10-15"
   locator: "hib 200/2013; Bericht zur öffentlichen Aussage von Gordian Meyer-Plath und zur JVA-Postkontrolle; Originalvernehmung in UA-Protokoll Nr. 64a separat"
@@ -1965,7 +1965,7 @@ sources:
   date: "2017-01-20"
   type: "official_parliamentary_news_summary"
   primary: false
-  tier: "B"
+  tier: "D"
   url: "https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366"
   accessed: "2026-10-15"
   locator: "hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998"

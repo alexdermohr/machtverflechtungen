@@ -1720,7 +1720,7 @@ Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4
 
 **[Bundestags-hib 200/2013: Brandenburgs Verfassungsschutz und Piatto vor dem NSU-Ausschuss](https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136)**
 
-Deutscher Bundestag, Parlamentsnachrichten (hib) · 2013-04-15 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20130415`
+Deutscher Bundestag, Parlamentsnachrichten (hib) · 2013-04-15 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20130415`
 
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136)
 
@@ -1731,7 +1731,7 @@ Fundstelle: hib 200/2013; Bericht zur öffentlichen Aussage von Gordian Meyer-Pl
 
 **[Bundestags-hib 33/2017: Piatto, Jörg Milbradt, NPD-Funktion und Waffen-SMS](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)**
 
-Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20170120`
+Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20170120`
 
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)
 
