@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**165 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**173 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -597,6 +597,17 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
 
+<a id="src-de-bverfg-2bve1-76-19770302"></a>
+### Bundesverfassungsgericht (Zweiter Senat)
+
+**[BVerfGE 44, 125 – Öffentlichkeitsarbeit, Urteil 2 BvE 1/76](https://www.servat.unibe.ch/dfr/bv044125.html)**
+
+Bundesverfassungsgericht (Zweiter Senat) · 1977-03-02 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-2BVE1-76-19770302`
+
+[Seite öffnen](https://www.servat.unibe.ch/dfr/bv044125.html)
+
+Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)
+
 <a id="src-de-bverfg-parteienfinanzierung-19660719"></a>
 ### Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politische Bildung
 
@@ -696,6 +707,28 @@ Deutscher Bundestag · 1967-06-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: 5/111 gedruckte S. 5279, PDF-Bild 35; Gegenrede Haase S. 5280
 
+<a id="src-de-bt-plenar-06135-bpa-19710923"></a>
+### Deutscher Bundestag
+
+**[Bundespresseamt – Anzeigenserie, Haushalts-Titel 531 03 und erwartete Kosten von rund 160.000 DM](https://dserver.bundestag.de/btp/06/06135.pdf#page=53)**
+
+Deutscher Bundestag · 1971-09-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-06135-BPA-19710923`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/06/06135.pdf#page=53)
+
+Fundstelle: 6. Wahlperiode, 135. Sitzung, gedruckte S. 7912–7913, Ahlers' Antwort auf Leicht
+
+<a id="src-de-bt-plenar-08164-mobil-19790628"></a>
+### Deutscher Bundestag
+
+**[Bundestag – Wischnewskis Aussagen über ADK und Mobil-Werbung sowie BPA-Mittel](https://dserver.bundestag.de/btp/08/08164.pdf#page=76)**
+
+Deutscher Bundestag · 1979-06-28 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-08164-MOBIL-19790628`
+
+[Seite öffnen](https://dserver.bundestag.de/btp/08/08164.pdf#page=76)
+
+Fundstelle: 8. Wahlperiode, 164. Sitzung, gedruckte S. 13158, linke Spalte
+
 <a id="src-de-bt-09066-1981"></a>
 ### Deutscher Bundestag
 
@@ -794,6 +827,17 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+<a id="src-de-bt-piatto-br-1403979-20000810"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Bundesregierung 2000: Zusammenarbeit von BKA und BfV mit rechtsextremem V-Mann](https://dserver.bundestag.de/btd/14/039/1403979.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2000-08-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-PIATTO-BR-1403979-20000810`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/14/039/1403979.pdf)
+
+Fundstelle: BT-Drs. 14/3979, gedruckte S. 2–4; Regierungsantwort und Fragen der Abgeordneten getrennt
 
 <a id="src-de-bt-okt-1613527-2009"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1025,6 +1069,28 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primär
 [Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)
 
 Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
+
+<a id="src-de-bt-nsu-ua-prot70-egerton-20130513"></a>
+### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
+
+**[NSU-UA 70. Sitzung: BfV-Zeuge Sebastian Egerton zu Piatto-Hinweisen, Verifikation und Quellenschutz](https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2070a.pdf)**
+
+Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-05-13 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-UA-PROT70-EGERTON-20130513`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2070a.pdf)
+
+Fundstelle: Endgültige Fassung, Protokoll Nr. 70a, gedruckte S. 22, 57, 59, 61
+
+<a id="src-de-bt-piatto-nsu-ua-1714600-2013"></a>
+### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
+
+**[Bundestags-NSU-Untersuchungsausschuss 2013: Piatto, Vergütung, Strafvollzug, NPD und Fahndung](https://dserver.bundestag.de/btd/17/146/1714600.pdf)**
+
+Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-PIATTO-NSU-UA-1714600-2013`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
+
+Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (Ausschussfeststellungen Piatto); Druck- und PDF-Bildseiten getrennt kontrollieren
 
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
@@ -1648,6 +1714,28 @@ DER SPIEGEL, Nr. 24/1971 · 1971-06-06 · Stufe **C** · Sekundär-/Forschungsqu
 [Seite öffnen](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585)
 
 Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4.04.1970, Antrag 08.03./Unterschrift 02.05.; Vermerk Ermittlungsakten Bl. 47a
+
+<a id="src-de-bt-hib-piatto-20130415"></a>
+### Deutscher Bundestag, Parlamentsnachrichten (hib)
+
+**[Bundestags-hib 200/2013: Brandenburgs Verfassungsschutz und Piatto vor dem NSU-Ausschuss](https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136)**
+
+Deutscher Bundestag, Parlamentsnachrichten (hib) · 2013-04-15 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20130415`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136)
+
+Fundstelle: hib 200/2013; Bericht zur öffentlichen Aussage von Gordian Meyer-Plath und zur JVA-Postkontrolle; Originalvernehmung in UA-Protokoll Nr. 64a separat
+
+<a id="src-de-bt-hib-piatto-20170120"></a>
+### Deutscher Bundestag, Parlamentsnachrichten (hib)
+
+**[Bundestags-hib 33/2017: Piatto, Jörg Milbradt, NPD-Funktion und Waffen-SMS](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)**
+
+Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-BT-HIB-PIATTO-20170120`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)
+
+Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998
 
 <a id="src-de-zeit-schueler-urbach-1971"></a>
 ### DIE ZEIT / Hans Schueler
