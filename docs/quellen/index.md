@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**173 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**174 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -850,6 +850,17 @@ Deutscher Bundestag / Bundesregierung · 2009-06-22 · Stufe **A** · Primärque
 
 Fundstelle: S. 4–6, Fragen 4, 6 und 8; anonyme Bologna-Anruferin, italienische Festnahmen und kriminaltechnische Spuren im Köhler-Elternhaus
 
+<a id="src-de-bt-bfvbka-1711490-20121115"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Bundesregierung 2012: BfV-Gegenposition zu den zehn BKA-Thesen von 1997](https://dserver.bundestag.de/btd/17/114/1711490.pdf#page=22)**
+
+Deutscher Bundestag / Bundesregierung · 2012-11-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-BFVBKA-1711490-20121115`
+
+[Seite öffnen](https://dserver.bundestag.de/btd/17/114/1711490.pdf#page=22)
+
+Fundstelle: BT-Drs. 17/11490, gedruckte S. 14 (PDF-Bildseite 22); Antwort von Klaus-Dieter Fritsche vom 15.11.2012 auf Frage von Hans-Christian Ströbele S. 13
+
 <a id="src-de-bt-bfv-referat-2014"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1090,7 +1101,7 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 �
 
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
-Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bisher nur amtlich indexierter Text)
+Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bislang nur amtlich indexierter Text), S. 219 (PDF-Bildseite 267; am 17.10.2026 direkt am Originalbild geprüft)
 
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
