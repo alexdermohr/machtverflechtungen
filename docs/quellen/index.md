@@ -1101,7 +1101,7 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 �
 
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
-Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218–219 (PDF-Bildseiten 266–267; bisher nur amtlich indexierter Text)
+Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bislang nur amtlich indexierter Text), S. 219 (PDF-Bildseite 267; am 17.10.2026 direkt am Originalbild geprüft)
 
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
