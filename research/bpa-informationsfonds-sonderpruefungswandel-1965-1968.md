@@ -22,7 +22,7 @@
 
 ## 2. Haushalt 1968: Titelverlagerung, ADK-Ausschluss und Quellenstatus
 
-**A – Änderungsvorschlag des Haushaltsausschusses, kein Kassen-Ist:** Die [BT-Drs. V/2704 vom 15.03.1968, gedruckte S. 4 / Bildseite 4](https://dserver.bundestag.de/btd/05/027/0502704.pdf#page=4) stellt **Regierungsentwurf** und **Beschlüsse des 13. Ausschusses** gegenüber:
+**A – Änderungsvorschlag des Haushaltsausschusses, kein Kassen-Ist:** Die [BT-Drs. V/2704 vom 15.03.1968, gedruckte S. 4 / Bildseite 4 (Titel 300)](https://dserver.bundestag.de/btd/05/027/0502704.pdf#page=4) und [gedruckte S. 5 / Bildseite 5 (Titel 314)](https://dserver.bundestag.de/btd/05/027/0502704.pdf#page=5) stellen **Regierungsentwurf** und **Beschlüsse des 13. Ausschusses** gegenüber:
 
 | BPA-Kapitel 04 03 | Entwurf 1968 | Ausschussposition | Änderung der Ansätze |
 | --- | ---: | ---: | ---: |
