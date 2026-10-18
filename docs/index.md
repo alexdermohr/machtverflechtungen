@@ -87,6 +87,7 @@ hide:
 | [Chronologie](generated/timeline.md) | Historische Einordnung der untersuchten Vorgänge |
 | [Personen & Organisationen](generated/entities.md) | Akteursverzeichnis mit stabilen Kennungen |
 | [Quellenkatalog](quellen/index.md) | Originaldokumente, Fundstellen und Archivzugänge |
+| [Forschungsstudien](research/index.md) | Vollständige versionierte Primärquellenstudien mit GitHub-Originalen |
 | [Offene Hypothesen](generated/hypotheses.md) | Weiterführende Erklärungen und konkrete Forschungsfragen |
 
 ## Wie die Fallakten aufgebaut sind

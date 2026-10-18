@@ -56,6 +56,9 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+hooks:
+  - scripts/mkdocs_research_hook.py
+
 nav:
   - Start: index.md
   - Fallakten:
@@ -102,6 +105,7 @@ nav:
       - ADK / Bundesmittel, Wahlkampfhilfe und Haushaltsverhandlungen 1967–1968: quellen/adk-bundesmittel-haushaltsverhandlungen-1967-1968.md
       - Regierungsöffentlichkeitsarbeit / Wahlkampf 1976 (BVerfG): quellen/bverfg-staatliche-wahlkampfhilfe-1976.md
       - LCPROWL / Amendment No. 3 (1952): quellen/lcprowl-amendment3-1952.md
+  - Forschungsstudien: research/index.md
   - Hintergrund:
       - Mechanismen:
           - Überblick: mechanismen/index.md

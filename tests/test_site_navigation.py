@@ -40,7 +40,16 @@ class WebsiteNavigationTests(unittest.TestCase):
         paths = nav_paths(config["nav"])
         files = [path.relative_to(DOCS).as_posix() for path in DOCS.rglob("*.md")]
         self.assertEqual(len(paths), len(set(paths)), "navigation must not duplicate pages")
-        self.assertEqual(set(files), set(paths), "all published Markdown pages need a navigation entry")
+        # The research landing page is generated at build time from main, not copied to docs/.
+        virtual = (
+            {"research/index.md"}
+            if "scripts/mkdocs_research_hook.py" in config.get("hooks", [])
+            else set()
+        )
+        self.assertEqual(
+            set(files) | virtual, set(paths),
+            "every curated docs page and generated research landing page needs a navigation entry",
+        )
 
     def test_all_cases_have_a_short_reader_intro_and_source_navigation(self) -> None:
         cases = build_indexes.records()
