@@ -47,7 +47,7 @@ Der gemeinsame empirisch rekonstruierbare Ablauf lautet:
 | Stufe | Beleg | Erkenntnisgrenze |
 |---|---|---|
 | Staatlich eingerichtetes ERP-Transatlantikprogramm | Auswärtiges Amt [Q4], Gesetz/Haushalt [Q5] | Gesamtprogramm, nicht ACG-Bescheid |
-| Namentlich benannter ACG-Projektträger und ERP-Unterstützung 2019 | ACG-Projektberichte [Q1, Q2] | Veranstalter-Eigenangabe, Betrag und Auszahlungsweg unbekannt |
+| ACG als Organisator und Verwalter eines namentlich benannten, laut ACG ERP-unterstützten Austauschprojekts 2019 | ACG-Projektberichte [Q1, Q2] | Die formale Projektträger- und Zuwendungsempfängerrolle, Einzelbeträge und Auszahlungswege bleiben ohne Bewilligungs- und Kassenakten unbekannt |
 | Tatsächliche Treffen mit BMWi/BDI und Bundestagsvertretung 2019 | ACG-Gegenbesuchsbericht [Q2] | Zugang und Themen, keine nachgewiesene Einflussnahme auf konkrete Entscheidung |
 | ERP-Finanzierung einer benannten Reihe aus zehn Vortragsreisen 2018 | ACG-Jahresbericht [Q3, S. 9] | Redner-/Kostenallokation und Zahlungsbelege offen |
 | Jahreskategorie ERP als institutioneller Großunterstützer 2018 | ACG-Jahresbericht [Q3, S. 19] | Keine sichere einzelne Geldtransaktion oder Projektzuordnung |
