@@ -59,6 +59,7 @@ def research_sources() -> list[ResearchSource]:
             name.startswith(".")
             or any(character in name for character in "/\\\r\n\t()[]")
             or any(ord(character) < 32 or ord(character) == 127 for character in name)
+            or quote(name, safe="-._~") != name
         ):
             raise ValueError(f"Unsafe committed research filename: {name!r}")
         markdown = _git_output("cat-file", "blob", object_id.decode("ascii")).decode(
@@ -80,6 +81,8 @@ def on_files(files: Files, config, **kwargs) -> Files:
     sources = research_sources()
     if not sources:
         raise ValueError("No versioned research studies found")
+    if any(source.name == "index.md" for source in sources):
+        raise ValueError("Committed research/index.md conflicts with generated index")
 
     known = {file.src_uri for file in files}
     generated = {"research/index.md", *(f"research/{source.name}" for source in sources)}

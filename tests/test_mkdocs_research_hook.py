@@ -125,6 +125,39 @@ class ResearchPagesTests(unittest.TestCase):
                 self.assertNotIn(excluded, index.content_string)
             self.assertNotIn("Locally modified body", study.content_string)
 
+    def test_unsafe_committed_study_filename_fails_closed(self):
+        # Non-ASCII and whitespace would be URL-escaped in Markdown links
+        # without matching the raw MkDocs generated page source URI.
+        for unsafe_name in ("überblick.md", "draft name.md", "rate%25.md"):
+            with self.subTest(name=unsafe_name), tempfile.TemporaryDirectory() as tmp:
+                repo = Path(tmp)
+                research = repo / "research"
+                research.mkdir()
+                (research / "valid.md").write_text("# Valid\n", encoding="utf-8")
+                (research / unsafe_name).write_text("# Unsafe slug\n", encoding="utf-8")
+                git(repo, "init", "-q")
+                git(repo, "add", "research")
+                git(repo, "-c", "user.name=Test", "-c", "user.email=test@example.invalid",
+                    "commit", "-qm", "Committed research")
+                with patch.object(hook, "ROOT", repo):
+                    with self.assertRaisesRegex(ValueError, "Unsafe committed research filename"):
+                        self.generated()
+
+    def test_committed_index_filename_cannot_replace_generated_catalog(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            research = repo / "research"
+            research.mkdir()
+            (research / "valid.md").write_text("# Valid\n", encoding="utf-8")
+            (research / "index.md").write_text("# Colliding source\n", encoding="utf-8")
+            git(repo, "init", "-q")
+            git(repo, "add", "research")
+            git(repo, "-c", "user.name=Test", "-c", "user.email=test@example.invalid",
+                "commit", "-qm", "Committed research")
+            with patch.object(hook, "ROOT", repo):
+                with self.assertRaisesRegex(ValueError, "research/index.md conflicts"):
+                    self.generated()
+
     def test_no_git_revision_fails_closed_instead_of_publishing_local_drafts(self):
         with tempfile.TemporaryDirectory() as tmp:
             repo = Path(tmp)
