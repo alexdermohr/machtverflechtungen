@@ -10,18 +10,17 @@ from pathlib import Path
 import subprocess
 from urllib.parse import quote
 
-from mkdocs.structure.files import File, Files
+from mkdocs.structure.files import File, Files, InclusionLevel
 
 ROOT = Path(__file__).resolve().parents[1]
-GITHUB_RESEARCH = (
-    "https://github.com/alexdermohr/machtverflechtungen/blob/main/research/"
-)
+GITHUB_ROOT = "https://github.com/alexdermohr/machtverflechtungen/"
 
 
 @dataclass(frozen=True)
 class ResearchSource:
     name: str
     content: str
+    revision: str
 
 
 def _git_output(*args: str) -> bytes:
@@ -65,7 +64,7 @@ def research_sources() -> list[ResearchSource]:
         markdown = _git_output("cat-file", "blob", object_id.decode("ascii")).decode(
             "utf-8"
         )
-        sources.append(ResearchSource(name=name, content=markdown))
+        sources.append(ResearchSource(name=name, content=markdown, revision=revision))
     return sorted(sources, key=lambda item: item.name)
 
 
@@ -92,6 +91,8 @@ def on_files(files: Files, config, **kwargs) -> Files:
         "",
         f"**{len(sources)} versionierte Studien** aus dem Forschungsordner dieses Site-Builds.",
         "",
+        f"**Git-Revision:** `{sources[0].revision}`",
+        "",
         "Jeder Volltext enthält datierte Originalquellen, Beweisgrenzen und offene "
         "Forschungsfragen. Nicht integrierte Pull Requests erscheinen hier nicht. "
         "Die GitHub-Originaldateien bleiben die maßgebliche Fassung.",
@@ -102,12 +103,14 @@ def on_files(files: Files, config, **kwargs) -> Files:
         # Content comes from the Git object database; abs_src_path would instead
         # read uncommitted edits and defeat revision-bound publication.
         study = File.generated(config, src_uri, content=source.content)
-        study.edit_uri = src_uri
-        files.append(study)
+        study.inclusion = InclusionLevel.NOT_IN_NAV
         escaped_name = quote(source.name, safe="-._~")
+        # A pinned blob URL resolves to the exact Markdown used for this build.
+        study.edit_uri = f"blob/{source.revision}/research/{escaped_name}"
+        files.append(study)
         lines.append(
             f"- [{study_title(source)}]({escaped_name})"
-            f" · [Originaldatei auf GitHub]({GITHUB_RESEARCH}{escaped_name})"
+            f" · [Originaldatei auf GitHub]({GITHUB_ROOT}{study.edit_uri})"
         )
 
     files.append(File.generated(config, "research/index.md", content="\n".join(lines) + "\n"))
@@ -122,10 +125,13 @@ def on_page_markdown(markdown: str, page, **kwargs) -> str | None:
 
     # Research lives beside docs/ in Git; its virtual MkDocs location lives
     # inside docs/. Resolve references accordingly at render time only.
+    original_path = page.file.edit_uri
+    if not isinstance(original_path, str) or not original_path.startswith("blob/"):
+        raise ValueError(f"Missing pinned research original for {uri}")
     rendered = markdown.replace("](../METHODOLOGY.md", "](../methodik.md")
     rendered = rendered.replace("](../docs/", "](../")
     return (
         rendered
         + "\n\n---\n\n"
-        + f"[Originaldatei dieser Studie auf GitHub]({GITHUB_RESEARCH}{quote(Path(uri).name, safe='-._~')})\n"
+        + f"[Originaldatei dieser Studie auf GitHub]({GITHUB_ROOT}{original_path})\n"
     )

@@ -11,7 +11,7 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from mkdocs.config import load_config
-from mkdocs.structure.files import Files
+from mkdocs.structure.files import Files, InclusionLevel
 
 from scripts import mkdocs_research_hook as hook
 
@@ -63,12 +63,14 @@ class ResearchPagesTests(unittest.TestCase):
             set(uris),
             {"research/index.md", *(f"research/{name}" for name in expected)},
         )
+        revision = git(ROOT, "rev-parse", "HEAD").decode().strip()
         for name in expected:
             file = next(item for item in files if item.src_uri == f"research/{name}")
             # Confirm independently that the site reads Git's blob bytes, not
             # a path which could contain staged or uncommitted changes.
             self.assertEqual(file.content_string, git(ROOT, "show", f"HEAD:research/{name}").decode())
-            self.assertEqual(file.edit_uri, f"research/{name}")
+            self.assertEqual(file.edit_uri, f"blob/{revision}/research/{name}")
+            self.assertEqual(file.inclusion, InclusionLevel.NOT_IN_NAV)
         self.assertFalse((ROOT / "docs" / "research").exists())
 
     def test_dynamic_index_contains_every_committed_original(self):
@@ -77,9 +79,11 @@ class ResearchPagesTests(unittest.TestCase):
         ).content_string
         expected = committed_study_names()
         self.assertIn(f"**{len(expected)} versionierte Studien**", index)
+        revision = git(ROOT, "rev-parse", "HEAD").decode().strip()
+        self.assertIn(f"**Git-Revision:** `{revision}`", index)
         for name in expected:
             self.assertIn(f"]({name})", index)
-            self.assertIn(hook.GITHUB_RESEARCH + name, index)
+            self.assertIn(hook.GITHUB_ROOT + f"blob/{revision}/research/{name}", index)
 
     def test_untracked_staged_dirty_nested_and_symlink_studies_are_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -113,6 +117,8 @@ class ResearchPagesTests(unittest.TestCase):
             study = next(file for file in files if file.src_uri == "research/tracked.md")
             index = next(file for file in files if file.src_uri == "research/index.md")
             self.assertEqual(study.content_string, "# Committed title\n\nCommitted body\n")
+            self.assertEqual(study.inclusion, InclusionLevel.NOT_IN_NAV)
+            self.assertEqual(study.edit_uri, f"blob/{git(repo, 'rev-parse', 'HEAD').decode().strip()}/research/tracked.md")
             self.assertIn("**1 versionierte Studien**", index.content_string)
             self.assertIn("Committed title", index.content_string)
             for excluded in ("draft", "staged", "symlink", "not-top-level", "Dirty"):
@@ -138,7 +144,7 @@ class ResearchPagesTests(unittest.TestCase):
                 content = hook.on_page_markdown(
                     file.content_string, SimpleNamespace(file=file)
                 )
-                self.assertIn(hook.GITHUB_RESEARCH + Path(file.src_uri).name, content)
+                self.assertIn(hook.GITHUB_ROOT + file.edit_uri, content)
 
             for url in re.findall(r"\]\(([^)]+)\)", content):
                 url = url.split("#", 1)[0].split("?", 1)[0]
