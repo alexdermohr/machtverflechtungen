@@ -1,0 +1,80 @@
+# CIA, National Security Council und Berlin-Krise 1959: laufende Diskreditierung, geplante Täuschung und Warnung vor Gewalteskalation
+
+**Quellenkritische Forschungsstudie, 19. Oktober 2026.** Grundlage sind zwei **am Bildfaksimile eingesehene US-Originaldokumente** des 1. April und 15. Mai 1959 sowie ein amtlich ediertes außenpolitisches Memorandum vom 29. Januar 1959. Das Material belegt Beratungen zwischen Nachrichtendienst, Regierungsspitze und Präsident über psychologische Kriegführung; ein Sitzungsbericht schreibt der CIA zudem eine **bereits fortgeführte Diskreditierung ostdeutscher Funktionsträger** zu. Dagegen ist der **Vollzug der neu besprochenen gezielten Informationslecks, vorgetäuschten Partisanenvorbereitungen oder Gewalttaten** aus diesen drei Belegen **nicht nachgewiesen**. Die Primärtexte sind Aussagen und zeitgenössische Bewertungen beteiligter Stellen; nicht jede darin formulierte Absicht ist eine tatsächlich durchgeführte Operation.
+
+## 1. Chronologie und Befundmatrix
+
+| Zeitpunkt | Akteure und Unterlage | Direkt ablesbare Aussage bzw. Planung | Evidenzstatus und Reichweite |
+| --- | --- | --- | --- |
+| 29.01.1959 | US-Außenministerium / Weißes Haus, Schlussfolgerungsmemorandum von Außenminister John Foster Dulles [Q3] | Vorschlag, ruhige Vorbereitungs- und Vorsorgemaßnahmen in Westdeutschland und Berlin durchzuführen, die **sowjetische Aufklärung bemerken**, die aber keine öffentliche Beunruhigung auslösen sollen | Amtlich edierter Dokumenttext, als Schlussfolgerungspapier überliefert; Umsetzung einzelner Maßnahmen offen |
+| 01.04.1959 | CIA Board of National Estimates, Sherman Kent an CIA-Direktor [Q1] | Kritik an einer Bonner Kabelvorlage über psychologische Kriegsführung und politische Aktionen zur Berlin-Krise: mögliche Anstachelung zu Widerstand und Unruhen sowie größere sowjetische Unnachgiebigkeit statt Entspannung | Direkt bildgeprüftes zweitseitiges CIA-Memorandum; **interne Warnung**, nicht Nachweis einer eingetretenen Gewalteskalation |
+| 15.05.1959 | Präsident Dwight D. Eisenhower, CIA-Direktor Allen Dulles, Robert Murphy, Gordon Gray und weitere US-Regierungsvertreter [Q2] | Dulles berichtet nach dem Sitzungsprotokoll von einem **bereits vorangegangenen Programm zur Diskreditierung von Personal des ostdeutschen Regimes**; daneben beraten die Teilnehmer das Durchsickernlassen angeblicher Vorbereitungen irregulärer Aktivitäten | Direkt bildgeprüftes Sitzungsprotokoll; CIA-/NSC-Aussage über bereits laufende Teilmaßnahme, **kein separater Operations- oder Publikationsnachweis** |
+| 15.05.1959 | Dieselbe Konferenz [Q2] | Gray erklärt, derzeit werde **keine Aktion ausgeführt**, sondern man plane zunächst, eine Idee durchsickern zu lassen. Dulles nennt mögliche Verlagerung unkonventioneller Güter und gezielte Lecks; Präsident verlangt Beobachtung sowjetischer Reaktionen | **Vorgeschlagen bzw. im Gespräch**; keine belegte Ausführung der neuen Inszenierung, kein Zahlungs- oder Waffentransportbeleg |
+
+Die letzte Matrixzeile ist keine Negation der vorhergehenden: Die Akte unterscheidet eine nach Dulles bereits weiterbetriebene Diskreditierung von einer **weiteren** besprochenen Signalisierungs-/Täuschungsoperation. Ob die in der Sitzung diskutierte Leckstrategie danach begonnen wurde, kann das Sitzungsprotokoll allein nicht entscheiden.
+
+## 2. Erstes Original: CIA-interne Warnung vom 1. April 1959 [Q1]
+
+Das Dokument **„PP Activities in Connection with the Berlin Crisis“**, 1. April 1959, trägt die Kennung **CIA-RDP79R00904A000500010101-6**; es stammt vom Board of National Estimates und ist mit **Sherman Kent, Assistant Director, National Estimates**, gezeichnet. Die beiden Bildseiten des deklassifizierten Scans sind vollständig zugänglich.
+
+- **Bildseite 1, Ziff. 1(a):** Das Board nimmt für die Analyse an, die CIA verfüge über die erforderlichen Kapazitäten für psychologische Kriegsführung und politische Maßnahmen, grenzt sich aber ausdrücklich von einer technischen Durchführbarkeitsprüfung ab. Die Bezugsvorlage ist als **IN 38209** genannt und liegt **nicht** bei. Ein vollständiger Operationsplan darf daher nicht aus dem Reaktionsschreiben rekonstruiert werden.
+- **Bildseiten 1–2, Ziff. 1(b):** Das Board bezweifelt, dass man Moskau mit der angeblichen Bereitschaft zur Wiederaufnahme von Befreiungsoperationen beeindrucken könne, **ohne zugleich Hoffnung auf Widerstand und möglicherweise Gewalt und Unruhen in Osteuropa auszulösen**. Die ausdrücklich erwähnten Bevölkerungen sind die der DDR, Ungarns und Polens. Dieser Befund belegt, dass **ein US-Nachrichtendienstgremium mögliche Gewaltfolgen der eigenen Einflussplanung voraussah**; er belegt nicht, dass solche Gewalt geplant, ausgelöst oder gebilligt wurde.
+- **Bildseite 2, Ziff. 1(c):** Das Board hält eine Verstärkung psychologischer und politischer Operationen eher für geeignet, die **sowjetische Unnachgiebigkeit in der West-Berlin-Frage zu erhöhen**, statt größere Kompromissbereitschaft vor den Viermächteverhandlungen zu bewirken. Das ist ein quelleninterner **Gegenbefund gegen die behauptete deeskalierende Wirkung**.
+
+**Primärbeleg:** [CIA-BNE-Memorandum, 01.04.1959, PDF-Bildseiten 1–2](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590401-CIA-memo-BNE-re-PP-activity-Berlin-CIA-RDP79R00904A000500010101-6.pdf#page=1), insbesondere [warnende Schlussseite](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590401-CIA-memo-BNE-re-PP-activity-Berlin-CIA-RDP79R00904A000500010101-6.pdf#page=2).
+
+## 3. Zweites Original: Präsidentenkonferenz vom 15. Mai 1959 [Q2]
+
+Das **„Memorandum of Conference with the President“**, datiert 15. Mai 1959, liegt als **vierseitiger** freigegebener Bildscan mit archivischer Dokumentkennung **C05664953** vor. Für den Berliner Besprechungsabschnitt maßgeblich sind **PDF-Bildseiten 1–2**; die dritte Seite behandelt auch andere geopolitische Angelegenheiten, die vierte ist unter anderem ein Archiv-Entnahmeblatt. Der Scan enthält erkennbare Textschwärzungen. Keine dort verborgene Aussage wird ergänzt.
+
+### 3.1 Dulles berichtet eine bereits fortgeführte Diskreditierungsmaßnahme
+
+**PDF-Bildseite 1, letzter Teil:** CIA-Direktor Allen Dulles sagt nach der zeitgenössischen Mitschrift, er habe mit seinem Bruder John Foster Dulles bereits im Januar über verdeckte Einflussmöglichkeiten auf die Verhandlungen gesprochen. Als Teil des Ansatzes habe man ein **Programm zur Herabsetzung/Diskreditierung von Führungspersonal des ostdeutschen Regimes beschlossen** und dies sei **bereits vorangetrieben worden** (im Dokument sinngemäß *„this has gone forward“*).
+
+**Evidenzstatus:** Direkt belegbar ist, **dass Allen Dulles dies im protokollierten Präsidentengespräch behauptete**. Ein benanntes Medium, eine konkrete Veröffentlichung, eine einzelne Zielperson, ein Geldfluss oder eine Weisung an deutsche Regierungs- bzw. Justizstellen lässt sich daraus noch **nicht** zuordnen. Die durch andere CIA-Originale belegte Finanzierung von KgU, Cramer-Büro und weiteren Propagandaunternehmen schafft eine überprüfbare **Vergleichshypothese**, beweist aber noch nicht, dass eines dieser Projekte die konkret im Mai 1959 behauptete Maßnahme ausführte.
+
+### 3.2 Separater Vorschlag: gezielte Informationslecks und nur vorgespiegelte Aufstandsvorbereitung
+
+**PDF-Bildseite 1, oberer und mittlerer Teil:** Gordon Gray eröffnet die Besprechung als Diskussion eines Vorschlags des **Murphy Committee** zu verdeckten Maßnahmen in der Berlin-Krise. Robert Murphy hält ein Durchsickernlassen entsprechenden Materials für potenziell nützlich bei den Gesprächen in Genf. Eisenhower bezweifelt insbesondere, ob das Signal glaubwürdig und auf einen möglichen Verhandlungsabbruch begrenzbar wäre. Er warnt, große Truppenbewegungen wirkten provozierend und wie ein Bluff.
+
+**PDF-Bildseite 2, oberer bis mittlerer Teil:** Eisenhower bestätigt, den Plan als Signal zu verstehen, die USA bauten angeblich Dissidenz und Fähigkeiten zur Auslösung von Unruhen für einen möglichen Verhandlungsabbruch auf. **Gray sagt ausdrücklich, dass jetzt noch keine Aktion geplant sei und zunächst nur die Idee weitergegeben werden solle.** Dulles erwägt, eventuell unkonventionelles Material vorzuschieben, und beschreibt gezielte Informationswege zu ausgewählten hochrangigen Adressaten. Eisenhower geht davon aus, dass Allen Dulles hierfür zuständig sein werde, und bittet um genaue Beobachtung sowjetischer Reaktionen.
+
+Diese Aussagen zeigen einen **auf höchster politischer Ebene behandelten Mechanismus gezielter Wahrnehmungslenkung und möglicher Eskalationssignale**; die gegensätzlichen Einschränkungen im selben Protokoll verbieten jedoch die Verkürzung auf eine schon ausgeführte Aufstands- oder Waffenoperation. Das Dokument allein enthält **keine** eigenständige abschließende Weisung, kein Budget, keine Lieferliste, keine Liste der Empfänger von Lecks und keinen Vollzugsbericht.
+
+**Primärbeleg:** [NSC/Weißes Haus, „Memorandum of Conference with the President“, 15.05.1959, PDF-Bildseite 1](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590515-NSC-memo-Mtg-w-Prez-re-Berlin-intel.pdf#page=1), [PDF-Bildseite 2](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590515-NSC-memo-Mtg-w-Prez-re-Berlin-intel.pdf#page=2). Die [redaktionelle Einordnung des National Security Archive](https://nsarchive.gwu.edu/document/28081-document-10-nsc-memo-memorandum-conference-president-may-15-1959) ist davon als **Sekundärinterpretation** zu trennen.
+
+## 4. Unabhängiger Regierungskontext: sichtbare militärische Signale [Q3]
+
+Ein anderes, vom US-Außenministerium erstelltes **Schlussfolgerungsmemorandum John Foster Dulles’ vom 29. Januar 1959** hält als diplomatisch-militärische Linie fest, dass Westberlin-Vorsorgemaßnahmen ruhig anlaufen und zugleich **für die sowjetische Aufklärung erkennbar**, für die Öffentlichkeit aber möglichst nicht beunruhigend sein sollten. Der amtliche Fundort ist **Foreign Relations of the United States (FRUS), 1958–1960, Bd. VIII, Dok. 150**. Diese erkennbare Gestaltung gegnerischer Wahrnehmung betrifft **andere, militärisch-diplomatische Vorsorgemaßnahmen** und ist **nicht ohne weiteres dasselbe Vorhaben** wie Dulles’ Mai-Diskussion über diskrete Lecks und mögliche irreguläre Aktivitäten.
+
+Die FRUS-Fußnote weist auf Entwurfs- bzw. Abgleichüberlieferung hin; aus dem Memorandum folgt keine vollständige Liste tatsächlich umgesetzter Militärmaßnahmen.
+
+**Amtlicher Beleg:** [Office of the Historian, FRUS Bd. VIII, Dok. 150, 29.01.1959, Ziff. 2](https://history.state.gov/historicaldocuments/frus1958-60v08/d150); zu den Beratungen [Dok. 149](https://history.state.gov/historicaldocuments/frus1958-60v08/d149).
+
+## 5. Rekonstruierbares Netzwerk und Grenzen
+
+**Dokumentierte Entscheidungskette:** CIA-Station Bonn (Referenz **IN 38209**, im vorliegenden Befund noch unbeschafft) → CIA Board of National Estimates / Sherman Kent (**interne Ablehnung einer angenommenen Wirkungslogik**) → Murphy-Komitee / Robert Murphy (**Vorschlag und politische Beratung**) → Weißes Haus / Eisenhower, Allen Dulles, Gordon Gray und weitere Regierungsvertreter (**protokollierte Beratung und Kontrollfragen**).
+
+Dies ist eine **institutionelle Beziehungsrekonstruktion aus zwei Akten**, keine behauptete vollständig ausgeführte Befehlslinie. Aus diesen Akten allein fehlen insbesondere: Namen privater Mittler, Banken oder Medienunternehmen, Empfänger konkreter CIA-Mittel, tatsächlich eingeweihte deutsche Ministerien und einzelne angeordnete Veröffentlichungen. Die **bereits behauptete Diskreditierungsmaßnahme** darf nicht mit **neu diskutierten Lecks und vorgetäuschten Guerillavorbereitungen** gleichgesetzt werden.
+
+Die [Edition des National Security Archive vom 11. Mai 2022](https://nsarchive.gwu.edu/briefing-book/openness-russia-and-eastern-europe-intelligence/2022-05-11/secret-war-germany-cias) ordnet die neue psychologische Initiative als schließlich vom Präsidenten **zurückgewiesen** ein. Das ist vorerst eine **historische Redaktionseinordnung**, **nicht** der unmittelbar aus dem 15.-Mai-Protokoll allein nachgewiesene Endentscheid; zur endgültigen Entscheidung und zum Umfang etwaiger Vorarbeiten sind weitere zeitgenössische Weisungs-, Haushalts-, Versand- und Einsatzakten nötig.
+
+### Falsifizierbare Prüfaufträge
+
+| Frage | Erforderliches Original | Trennung gegen Überbehauptung |
+| --- | --- | --- |
+| Was enthielt das vom BNE kritisierte Bonner Kabel **IN 38209**? | Vollständiger CIA-/Bonn-Station-Kabeltext und Anlagen | konkreter Plan vs. BNE-Auslegung eines Plans |
+| Welche 1959er Diskreditierungen ostdeutscher Funktionäre wurden umgesetzt? | CIA-Produktions-/Distributionsberichte, Publikationen, Einzelfallakten | Behauptung Dulles’ vs. benennbarer operativer Vollzug |
+| Wurden Lecks verbreitet oder Güter verschoben? | Dulles-/Gray-/Murphy-Folgeanweisungen, Transport- und Empfängerbelege | Gesprächsoption vs. erfolgte Täuschungsmaßnahme |
+| Wann und mit welcher Reichweite wurde der Neuansatz zurückgewiesen? | Beschlussvermerke nach 15.05.1959, Murphy-Komitee-Unterlagen, Präsidialakten | redaktionelle Rekonstruktion vs. genaue Entscheidung |
+| Gab es eine operative Verbindung zu KgU/DTLINEN oder LCCASSOCK? | Projektaufträge und Mittel-/Personal-/Produktzuordnungen, 1959 | zeitliche/inhaltliche Nähe vs. verifizierte konkrete Schnittstelle |
+| Führte eine 1959er Maßnahme zu Gewalt oder Aufständen? | unabhängige Ereignis-, Teilnehmer-, Straf- und Operationsakten mit Zeit- und Kausalabgleich | vom BNE vorhergesagte Gefahr vs. tatsächlich kausal belegte Folgen |
+
+## 6. Quellenapparat und Verifikation
+
+- **[Q1] CIA Board of National Estimates / Sherman Kent, 01.04.1959, „PP Activities in Connection with the Berlin Crisis“, Kennung CIA-RDP79R00904A000500010101-6.** [Originalfaksimile (2 PDF-Bildseiten)](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590401-CIA-memo-BNE-re-PP-activity-Berlin-CIA-RDP79R00904A000500010101-6.pdf). **Bildgeprüft am 19.10.2026:** beide Seiten, Ziff. 1(a)–(c) und Signatur; der zugrunde liegende Kabeltext **IN 38209** wurde **nicht** eingesehen.
+- **[Q2] Weißes Haus/NSC, 15.05.1959, „Memorandum of Conference with the President“, Archivkennung C05664953.** [Originalfaksimile (4 PDF-Bildseiten)](https://nsarchive.gwu.edu/sites/default/files/documents/rc6nud-d0soa/19590515-NSC-memo-Mtg-w-Prez-re-Berlin-intel.pdf). **Bildgeprüft am 19.10.2026:** für die hier ausgewerteten Berliner Aussagen Bildseiten **1–2**; Bildseiten 3–4 nicht als Beweis zusätzlicher Ausführungsschritte benutzt. Offenkundige Schwärzungen im Scan bleiben ungelöst.
+- **[Q3] US-Außenministerium, John Foster Dulles, „Conclusions of White House Conference re Berlin“, 29.01.1959**, in [FRUS 1958–1960, Bd. VIII, Nr. 150, Ziff. 2 und editorische Fußnote](https://history.state.gov/historicaldocuments/frus1958-60v08/d150); amtlich edierter **Transkriptions-/Editionsbeleg**, hier **nicht** als eigens geprüfter Urschriftenbildscan ausgegeben.
+- **[Q4] National Security Archive / John Prados (Hg.), 11.05.2022**, [historische Quellenedition und Einordnung, Dokumente 9–10](https://nsarchive.gwu.edu/briefing-book/openness-russia-and-eastern-europe-intelligence/2022-05-11/secret-war-germany-cias). **Sekundäre Interpretation** zur Entscheidungslage, kein zusätzlicher zeitgenössischer Regierungsbeschluss.
+
+**Forschungsfazit:** Die Faksimiles erlauben zwei klar unterschiedene Befunde: **(1)** Das Weiße Haus erörterte mit dem CIA-Direktor politische Wahrnehmungssteuerung, darunter die Vortäuschung von Vorbereitungen zur Auslösung von Unruhen; die CIA-Analytiker hatten die mögliche Erzeugung realer Gewalt und politischer Verhärtung ausdrücklich als Gefahr beschrieben. **(2)** Dulles stellte eine spezifische Diskreditierung ostdeutscher Funktionäre als bereits vorangetrieben dar. Die konkret **neue** Leck- und Partisanensignalstrategie, Zahlungen an private Durchführende und ein tatsächlicher Gewaltvollzug sind mit diesen Unterlagen **nicht nachgewiesen**.
