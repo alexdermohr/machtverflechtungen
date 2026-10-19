@@ -68,7 +68,7 @@ Der Regierungsbericht [Q4, gedr. S. 63–64] hält fest, dass eine Untersuchung 
 | Kante | Direkt dokumentierte Beziehung | Offen / Falsifikationskriterium |
 | --- | --- | --- |
 | ERP-Sondervermögen → presserelevante Kredite | Programm und Bewilligungsaggregate [Q1, Q2, Q4] | Namentliche KfW-/ERP-Kredit- und Hausbankverträge, Zusage- und Valuta-Auszüge |
-| KfW-Eigenmittel → private Presseunternehmen | Gesonderte Zusagen 1974–1977 [Q4] | Darlehens-/Konditionenlisten, wirtschaftliche Eigentümer, eventuelle Überschneidung mit ERP-Förderung |
+| KfW-Eigenmittel → kleine und mittlere Tageszeitungsverlage | Gesonderte Kreditzusagen für Tageszeitungen 1974–1977 [Q4, gedr. S. 65–66] | Darlehens-/Konditionenlisten, wirtschaftliche Eigentümer, eventuelle Überschneidung mit ERP-Förderung |
 | Bundeshaushalt → Zinsentlastung der Förderdarlehen | Amtlich gemeldete tatsächliche Zahlungssumme bis 1977 [Q4] | Zahlstellenanordnungen, Empfängerbank, Kreditnummern, Rückforderungen |
 | Deutsche Bundespost → Verlage / Nachrichtenagenturen | Postzeitungsdienst-Unterdeckung und Tarifvergünstigungen [Q3, Q4] | Tarif-/Leistungseinheiten, Einzelabrechnungen, Kostenbasis, effektiver wirtschaftlicher Vorteil |
 | Hauptleihinstitut ↔ ERP-Verteilungskonten | BRH-geprüfte befristete Liquiditätsnutzung [Q5] | Konkrete Sondervereinbarung, Bankname, Valuta-Journal, Rückleitung und Zweckbezug; **keine nachgewiesene Presseempfängerkante** |
