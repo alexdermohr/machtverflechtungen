@@ -40,3 +40,7 @@
   .md-typeset h1 { font-size: 1.8em; }
   .md-typeset .mv-case-intro { padding: .65rem .8rem; }
 }
+/* Der Material-Standardwert .7 unterschreitet bei blau-grauer Tab-Leiste WCAG AA. */
+.md-tabs__link { opacity: .9; }
+/* Vorhandene Theme-Farbe statt zu schwachem --lighter für Lizenzhinweise. */
+.md-copyright { color: var(--md-footer-fg-color--light); }
