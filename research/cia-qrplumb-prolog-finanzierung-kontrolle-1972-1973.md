@@ -90,8 +90,10 @@ Die [Originaltitelblätter Q2](https://diasporiana.org.ua/wp-content/uploads/boo
 | --- | --- | --- |
 | Dezember 1967, 1968 und 1969, Rückblick 1972 | CIA schreibt dem **303 Committee** frühere Projektautorisierungen zu | Nur CIA-Vermerk, Originalprotokolle fehlen |
 | September 1971, Rückblick 1972 | CIA erklärt eine erneute **40-Committee-Billigung** | Noch kein unabhängig geprüfter Beschluss |
-| September 1971 (Q2) | Zeitgenössische Suchasnist-Ausgabe mit bildgeprüftem Verlagsimpressum und Titelblatt | Öffentliche Selbstauskunft, keine CIA-Finanzbestätigung |\n| 25.01.1972 | CIA-Propaganda Services Group bewertet *Suchasnist*-Ausgaben 1971 | Unmittelbarer Bericht und Empfehlungen, **kein Vollzugsnachweis** |
-| April 1972 (Q3) | Zweite Suchasnist-Originalausgabe: dieselbe Herausgeber-, Redaktions-, Druckerei- und Geschäftsführungsangabe | Öffentliche Gegenprobe nach der CIA-Rezension, keine Wirkungskette |\n| 27.06.1972 | FI-Staff nennt geringen nachrichtendienstlichen Output und einige verwendete Meldungen | Behördlicher Eigenbericht |
+| September 1971 (Q2) | Zeitgenössische Suchasnist-Ausgabe mit bildgeprüftem Verlagsimpressum und Titelblatt | Öffentliche Selbstauskunft, keine CIA-Finanzbestätigung |
+| 25.01.1972 | CIA-Propaganda Services Group bewertet *Suchasnist*-Ausgaben 1971 | Unmittelbarer Bericht und Empfehlungen, **kein Vollzugsnachweis** |
+| April 1972 (Q3) | Zweite Suchasnist-Originalausgabe: dieselbe Herausgeber-, Redaktions-, Druckerei- und Geschäftsführungsangabe | Öffentliche Gegenprobe nach der CIA-Rezension, keine Wirkungskette |
+| 27.06.1972 | FI-Staff nennt geringen nachrichtendienstlichen Output und einige verwendete Meldungen | Behördlicher Eigenbericht |
 | 29.06.1972 | CA/PEG-Projektdatenblatt bezeichnet Prolog als CIA proprietary und nennt nominelle Deckauftraggeber | Direkt bildgeprüfter CIA-Text, externe Rechtsträgerbeweise offen |
 | CA/PEG-Projektprüfung für FY1973 | CIA bewertet Kostenstruktur, schlägt Kontrolle/Managementberatung für München vor | Interne Bewertung und künftige Maßnahmen |
 | 11.07.1972 | C/MPS/BG empfiehlt unter Mittelkonditionen die FY1973-Verlängerung | Antrags-/Beteiligungsakte, keine Auszahlung |
