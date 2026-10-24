@@ -83,6 +83,20 @@ Der Text auf S. 7 erwähnt ferner die **Society for the Study of Asian Problems 
 
 **Grenze:** Zwei authentische Inhaltsübereinstimmungen belegen, dass die CIA-interne Inhaltsübersicht reale Ausgabenbeiträge wiedergibt. Sie beweisen weder, dass der FBIS-Kontraktor persönlich las, noch dass Vorschläge der CIA vom Januar 1972 die Stückauswahl oder das satirische Werk verursachten. *Regit* behandelt nach der CIA-Zusammenfassung auch Generationen- und Familienbeziehungen; seine Publikation ist **nicht schon ein Beweis für angeordnete politische Satire**. Eine belastbare Kausalprüfung verlangt weitere Originalhefte, Redaktionskorrespondenz und nachgewiesene Weitergabe von CIA-Material.
 
+
+### 3.2 Shifrin, *Четвертий вимір* (1973): Titelplanung und externe Erscheinensbelege
+
+**Q1k – CIA-interner Buchtitelplan:** [Q1, Annex 4, PDF-Bildseite 24](https://web.archive.org/web/20250220072615id_/https://www.cia.gov/readingroom/docs/QRPLUMB%20%20%20VOL.%202%20%20%28DEVELOPMENT%20AND%20PLANS%2C%201970-78%29_0018.pdf#page=24) führt für FY1974 **Abram Shifrin, *Chetvertyy Vymir / Fourth Dimension*** unter den geplanten Prolog-Büchern. Das ist ein behördeninterner Titelnachweis, keine Druck- oder Zahlungsquittung.
+
+**Q3 – zeitgenössische, organisationsfremde Pressegegenprobe:** Die ukrainisch-amerikanische Tageszeitung [*Svoboda*, Nr. 161, 31. August 1973, PDF-Bildseite 1](https://archive.svoboda-news.com/wp-content/uploads/Svoboda-1973-161.pdf#page=1) meldet unter „Видано книжку тюремних спогадів Авраама Шифріна «Четвертий вимір»“, das Buch sei im Münchner Verlag *Suchasnist* erschienen. Sie nennt zugleich einen Bestellweg an **875 West End Avenue, New York**, sowie unterschiedliche Preise für Paperback und Hardcover. Datum, Titel und Druckbild der Zeitungsseite wurden am Faksimile gegengeprüft. Der Bericht ist eine **externe zeitgenössische Veröffentlichungsmeldung**, jedoch keine nachgewiesene unabhängige Prüfung des Buchinhalts; eine mögliche Übernahme von Verlagsangaben bleibt offen.
+
+**Q4 – Verlagsanzeige:** [*Suchasnist*, September 1973, Heft 9 (153), PDF-Bildseite 132](https://diasporiana.org.ua/wp-content/uploads/books/2965/file.pdf#page=132) bewirbt „Авраам Шифрін – Четвертий вимір“ als soeben erschienenen Titel mit Bestellangaben. Es handelt sich um eine **öffentliche Verlags-Selbstauskunft**, nicht um eine weitere unabhängige Pressebestätigung. Die vollständige Heftkopie wurde zuvor als **132 PDF-Bildseiten, SHA-256 55d8206ece5f17e73943d70f51ab638c41ba822a9aba29fc52f8344c01c2f507** dokumentiert.
+
+**Q5 – späterer bibliografischer Bestandskatalog:** Die [Wernadskyj-Nationalbibliothek der Ukraine, Katalogeintrag ВА619539 (Treffer 9)](https://irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?C21COM=S&I21DBN=EC&P21DBN=EC&S21CNR=20&S21COLORTERMS=0&S21FMT=JwU_B&S21P01=0&S21P02=0&S21P03=U%3D&S21REF=10&S21STN=1&S21STR=%D0%A23%282%2963-49&Z21ID=) verzeichnet: **А. Шифрін, *Четвертий вимір*, München: Сучасність, 1973, 431 Seiten**. Das ist ein unabhängiger *bibliografischer Nachweis*, aber kein hier direkt fotografiertes und kollationiertes Exemplar; sein Katalogisierungsdatum ist nicht das Erscheinungsdatum.
+
+**Vergleichsbefund:** Q1k belegt die CIA-interne Aufnahme in eine FY1974-Titelplanung; Q3 und Q4 belegen, dass das Erscheinen spätestens Ende August beziehungsweise im September **öffentlich berichtet und beworben** wurde; Q5 bestätigt die bibliografische Identität einer 1973er Ausgabe. Der zeitliche Übergang vom CIA-Plan zur öffentlichen Publikation ist damit konkret nachvollziehbar, **nicht** aber eine CIA-Einzelweisung, ein Finanztransfer, ein Produktionsvertrag, eine verifizierte Auflage, tatsächliche Verkäufe oder politische Wirkung. Das FY1974-Etikett bezeichnet die CIA-Planperiode und widerspricht nicht der Meldung vom August 1973. Weitere Prüfung: physisches Buchexemplar mit Impressum und Druckvermerk sowie Prolog-/Suchasnist-Rechnungen und gegebenenfalls die redaktionelle Korrespondenz.
+
+
 ## 4. CIA-interner Streit über Projektnutzen – zwei nicht unabhängige, aber gegenläufige Zeugnisse
 
 Das [Memorandum des Deputy Chief, Special Activities Staff, 10. April 1973, S. 53–54](https://web.archive.org/web/20250220072615id_/https://www.cia.gov/readingroom/docs/QRPLUMB%20%20%20VOL.%202%20%20%28DEVELOPMENT%20AND%20PLANS%2C%201970-78%29_0018.pdf#page=53) empfiehlt zwar eine Fortsetzung, stellt aber ausdrücklich infrage, **ob die Projektführung tatsächlich so viel Kommunikation mit der Ukraine erreiche, wie sie selbst annimmt**, und ob die CIA von einer einzigen alternden Emigrantengruppe zu abhängig sei. Binnen sechs Monaten solle eine vertiefte Prüfung erfolgen; der Verfasser möchte das zunächst **als interne Staff-Angelegenheit, nicht als formalen DDO-Akt** behandeln. Q1 belegt eine geäußerte Kontrollabsicht, nicht die nachfolgende Durchführung oder deren Ergebnis.
@@ -102,6 +116,8 @@ Ein anderer interner Kommentar, [8. Mai 1973, S. 51–52](https://web.archive.or
 | 1973, FY1974 Renewal | CIA beschreibt getrennte New-York-/München-Bankwege und angeblich erneute Planprüfung | Antragsdarstellung, keine bankseitige oder planmäßige Gegenquittung |
 | 1973, Annex 2 | 64.800 USD Münchner Partnergruppe und 47.500 USD Research & Contact für FY1974 | Gedruckte Plankategorien, keine Istbeträge |
 | 30.05.1973, Deckblatt | Datierter Genehmigungs-/Mitzeichnungsbereich eines FY1974-Renewal-Formulars | Geschwärzte Summe und einzelne undeutliche Felder; kein Bankvollzug |
+| 31.08.1973 | *Svoboda* berichtet extern von Shifrins *Четвертий вимір* als erschienener Suchasnist-Ausgabe (Q3) | Pressebericht; Quelle der redaktionellen Nachricht ungeklärt, kein CIA-Zahlungsbeleg |
+| September 1973 | *Suchasnist* bewirbt Shifrin-Ausgabe (Q4); Bibliothekskatalog datiert Ausgabe auf 1973 (Q5) | Verlags-Selbstauskunft plus späterer Katalog, kein unmittelbar eingesehenes Buchexemplar |
 
 ## 6. Falsifizierbare Hypothesen und stärkste Gegenhypothesen
 
