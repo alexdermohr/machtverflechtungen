@@ -15,7 +15,7 @@ Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten 
 - [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) — 1984 · 1 belegt · 4 stark gestützt · 1 spekulativ/offen
 - [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) — 1986 · 8 belegt · 1 plausibel · 1 spekulativ/offen
 - [Thüringer Heimatschutz / Tino Brandt](../faelle/de/thueringer-heimatschutz-tino-brandt.md) — 1990 · 3 belegt
-- [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) — 1993 · 6 belegt · 6 stark gestützt · 1 spekulativ/offen
+- [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) — 1993 · 7 belegt · 6 stark gestützt · 1 spekulativ/offen
 - [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](../faelle/de/nsu-v-leute-aktenvernichtung.md) — 1996 · 5 belegt
 - [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](../faelle/de/nsu-yozgat-temme.md) — 2006-03-24 · 4 belegt
 - [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) — 2007 · 6 belegt · 1 spekulativ/offen
@@ -26,7 +26,7 @@ Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten 
 
 ## GB
 
-- [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) — 1993 · 6 belegt · 6 stark gestützt · 1 spekulativ/offen
+- [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) — 1993 · 7 belegt · 6 stark gestützt · 1 spekulativ/offen
 
 ## IT
 

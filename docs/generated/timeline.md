@@ -16,7 +16,7 @@ _Automatisch aus denselben Fall-Metadaten erzeugt._
 | 1984 | 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |
 | 1986 | 1988 | [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) | DE, LY, US | 8 belegt · 1 plausibel · 1 spekulativ/offen |
 | 1990 | 2001 | [Thüringer Heimatschutz / Tino Brandt](../faelle/de/thueringer-heimatschutz-tino-brandt.md) | DE | 3 belegt |
-| 1993 | 2020 | [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) | DE, GB | 6 belegt · 6 stark gestützt · 1 spekulativ/offen |
+| 1993 | 2020 | [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) | DE, GB | 7 belegt · 6 stark gestützt · 1 spekulativ/offen |
 | 1996 | 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](../faelle/de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt |
 | 2006-03-24 | 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](../faelle/de/nsu-yozgat-temme.md) | DE | 4 belegt |
 | 2007 | 2025 | [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) | DE | 6 belegt · 1 spekulativ/offen |

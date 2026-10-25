@@ -628,7 +628,7 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
-Fundstelle: Rn. 5 (streitiger Parteivortrag zu UK-Gebühren), Rn. 20 (Browning-Kontakte)
+Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
 
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)

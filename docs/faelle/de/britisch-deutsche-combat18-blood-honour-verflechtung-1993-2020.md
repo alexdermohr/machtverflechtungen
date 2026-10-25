@@ -6,7 +6,7 @@ countries: [DE, GB]
 period: {start: "1993", end: "2020"}
 status: developing
 research_question: "Welche konkreten Kontakte, behördlichen Eingriffe und Geldplanungen verbanden britische C18/NSM-Strukturen mit deutschen staatlich geführten Quellen?"
-event_claims: [CLM-DE-UKC18-001, CLM-DE-UKC18-002, CLM-DE-UKC18-003, CLM-DE-UKC18-004, CLM-DE-UKC18-005, CLM-DE-UKC18-006, CLM-DE-UKC18-007, CLM-DE-UKC18-008, CLM-DE-UKC18-009, CLM-DE-UKC18-010, CLM-DE-UKC18-011]
+event_claims: [CLM-DE-UKC18-001, CLM-DE-UKC18-002, CLM-DE-UKC18-003, CLM-DE-UKC18-004, CLM-DE-UKC18-005, CLM-DE-UKC18-006, CLM-DE-UKC18-007, CLM-DE-UKC18-008, CLM-DE-UKC18-009, CLM-DE-UKC18-010, CLM-DE-UKC18-011, CLM-DE-UKC18-014]
 tags: [deutschland, grossbritannien, blood-and-honour, combat-18, nsu, v-personen, justiz, finanzierung]
 actors: [ORG-DE-LFV-BRANDENBURG, ORG-DE-BFV, ORG-GB-NSM-1990S, ORG-GB-COMBAT18-1990S, ORG-DE-COMBAT18-2013, ORG-INT-BLOOD-HONOUR, PER-DE-CARSTEN-SZCZEPANSKI, PER-GB-WILLIAM-BROWNING, PER-DE-MARCEL-DEGNER]
 mechanisms: [infiltration, source-protection, material-support]
@@ -259,17 +259,39 @@ claims:
       supports: "Eine prüfbare offene Hypothese mit bislang fehlender zwingender Handlungskette."
       does_not_support: "Keine positive Feststellung oder pauschale Widerlegung verdeckter britischer Dienstkontakte."
     falsification: "Authentische britische und deutsche Weisungs-/Ausführungsbelege würden die negative aktuelle Evidenzlage ändern."
+  - id: CLM-DE-UKC18-014
+    text: "Das Bundesverwaltungsgericht beschrieb 2020 nach summarischer Prüfung, dass Erlöse aus CD- und Konzertkartenverkäufen von Combat 18 Deutschland dem Vorsitzenden häufig per Einschreiben zugeleitet und anteilig ins Vereinsvermögen überführt wurden."
+    classification: fact
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-C18-6VR120-2020]
+    evidence:
+      - source: SRC-DE-BVERWG-C18-6VR120-2020
+        directness: direct
+        locator: "BVerwG 6 VR 1.20, Rn. 30–32, insbesondere Rn. 32; Verwaltungsvorgänge VV Bl. 290, 913 f., 1091"
+        note: "Das Gericht wertet die Vereins- und Konzerterlöse als intern an Vorsitzenden bzw. Verein geleitete Mittel. Der Beschluss ist Original; die zitierten Verwaltungsakten sind nicht separat eingesehen."
+    counterevidence: []
+    alternatives:
+      - "Die richterliche Würdigung erfolgte summarisch im Eilverfahren; einzelne Überweisungs- und Einschreibebelege sowie die exakten Beträge sind noch unabhängig zu kontrollieren."
+    missing_evidence:
+      - "Original-Verwaltungsvorgänge VV Bl. 290, 913 f., 1091, Einschreibenbelege, Abrechnungen, Einzelbeträge und vollständiges Kassenbuch."
+    scope:
+      supports: "Das Gericht beschreibt einen konkreten inländischen Erlöspfad mit Zufluss zum Vorsitzenden und teilweise zum Vereinsvermögen."
+      does_not_support: "Keinen belegten Geldabfluss nach Großbritannien, keine identifizierte Zahlung an Browning und keine Verbindung zu einer NSU-Gewalttat."
+    falsification: "Eine spätere gerichtliche Hauptsacheentscheidung oder überprüfte Originalkassenakten widerlegen das im Eilbeschluss dargestellte interne Erlösmodell."
 what_follows:
   - text: "Brandenburgische Quellenführung stellte nach parlamentarischer Aktenwiedergabe eine NSM-Kontaktinfrastruktur bereit und griff in nachweisbare Szene- und Justizvorgänge ein."
     claim_ids: [CLM-DE-UKC18-001, CLM-DE-UKC18-002, CLM-DE-UKC18-003, CLM-DE-UKC18-004]
   - text: "Britisch-deutsche Kontakte und 2015 erhaltene Bundesaktenbestände sind getrennte nachgewiesene Vorgänge, keine einheitliche Geheimdienstkommandokette."
     claim_ids: [CLM-DE-UKC18-006, CLM-DE-UKC18-007, CLM-DE-UKC18-008]
+  - text: "Das Gericht beschrieb einen inländischen Musik- und Konzerterlöspfad; ein durch Kontounterlagen bestätigter Auslandsfluss folgt daraus nicht."
+    claim_ids: [CLM-DE-UKC18-014, CLM-DE-UKC18-009]
 what_does_not_follow:
   - text: "Aus den dokumentierten Behörden- und Szenekontakten folgt weder eine erwiesene MI5-Führung des deutschen Neonaziterrorismus noch ein belegter vollzogener UK- oder Slowakei-Geldtransfer."
     claim_ids: [CLM-DE-UKC18-009, CLM-DE-UKC18-010, CLM-DE-UKC18-013]
   - text: "Die abgesagte Polizeioperation lässt sich ohne Ursprungsbetreff nicht kausal als bewusste NSM-Ermittlungsblockade zuordnen."
     claim_ids: [CLM-DE-UKC18-012]
 open_questions:
+  - "Welche ursprünglichen Einschreiben-, Kassen- und Buchungsbelege bestätigen die in BVerwG 6 VR 1.20 Rn. 32 dargestellte vereinsinterne Erlösüberführung?"
   - "Wo sind der originale Postfachvertrag PSF 2224, die britischen Szenemagazine und der Antwortbrief auf Piattos Anfrage vom 10.09.1997?"
   - "Welcher konkrete Ermittlungsauftrag war von der Abbruchnotiz Einsatz entfällt tatsächlich betroffen?"
   - "Welche Originalkonten und Weisungen belegen oder widerlegen britische Lizenzzahlungen und die geplante Rückgabe von 1.970 EUR?"
@@ -308,10 +330,18 @@ case_links:
 - **`CLM-DE-UKC18-010` — stark gestützt:** Ein im Brandenburger Sondervotum reproduzierter Treffvermerk vom 23. Mai 2002 beschreibt einen später revidierten Plan zur Weitergabe von 1.970 Euro über die Quelle Toni Stadler an einen Blood-&-Honour-Kontakt in der Slowakei.
 - **`CLM-DE-UKC18-011` — stark gestützt:** Das Brandenburger Sondervotum dokumentiert Aussagen ehemaliger Verfassungsschutzverantwortlicher über finanzielle Unterstützung des Szeneladens Thule in Königs Wusterhausen.
 
+- **`CLM-DE-UKC18-014` — belegt:** Das Bundesverwaltungsgericht beschrieb 2020 nach summarischer Prüfung, dass Erlöse aus CD- und Konzertkartenverkäufen von Combat 18 Deutschland dem Vorsitzenden häufig per Einschreiben zugeleitet und anteilig ins Vereinsvermögen überführt wurden.
+
 ## Gegenprobe und offene Hypothese
 
 - **`CLM-DE-UKC18-012` — belegt als Gegenbefund:** Das Sondervotum konnte nicht klären, ob ein 2000 als entfallend vermerkter verdeckter Polizeieinsatz mit dem NSM-Strafverfahren gegen Szczepanski und dessen Quellenführer zusammenhing.
 - **`CLM-DE-UKC18-013` — spekulativ/offen:** Eine koordinierte Weisungs- oder Finanzierungskette von MI5 oder MI6 über britische Combat-18-Akteure zu deutschen NSU-Taten ist mit den hier zugänglichen Primärquellen nicht belegt.
+
+## Gerichtlicher Finanzierungsbefund: Inländischer Erlösweg
+
+**`CLM-DE-UKC18-014` — gerichtlich dokumentierte Würdigung:** Das Bundesverwaltungsgericht beschrieb 2020 nach summarischer Prüfung, dass Erlöse aus CD- und Konzertkartenverkäufen von Combat 18 Deutschland dem Vorsitzenden häufig per Einschreiben zugeleitet und anteilig ins Vereinsvermögen überführt wurden.
+
+Das Gericht verweist auf **VV Bl. 290, 913 f. und 1091** und berücksichtigt in Rn. 30 zudem polizeiliche Zeugnisse und TKÜ-Informationen über Herstellung, kalkulierte Verkaufspreise und Vertrieb. Die zugehörigen Originalbelege liegen in dieser Fallakte nur vermittelt durch den öffentlich zugänglichen Beschluss vor. **Der Befund ist deutlich konkreter als der unbelegte UK-Lizenzzahlungs-Vortrag in Rn. 5, darf aber nicht mit einem UK-Geldtransfer gleichgesetzt werden.**
 
 ## Synthese
 
@@ -325,4 +355,4 @@ Der Fall trennt **A: beobachtende Quellenführung mit Fehlentscheidungen**, **B:
 - [Bundestagsbericht 17/14600, Piatto-Kapitel](https://dserver.bundestag.de/btd/17/146/1714600.pdf) — `SRC-DE-BT-PIATTO-NSU-UA-1714600-2013`
 - [Bundesregierung 14/9182, S. 3](https://dserver.bundestag.de/btd/14/091/1409182.pdf) — `SRC-DE-BT-BH-NACHVERBOT-1409182-2002`
 - [Bundestags-Plenarprotokoll 18/96, S. 9133–9134](https://dserver.bundestag.de/btp/18/18096.pdf) — `SRC-DE-BT-PLENAR-VM2100-18096-2015`
-- [BVerwG 6 VR 1.20, Rn. 5, 20](https://www.bverwg.de/210920B6VR1.20.0) — `SRC-DE-BVERWG-C18-6VR120-2020`
+- [BVerwG 6 VR 1.20, Rn. 5, 20, 30–32](https://www.bverwg.de/210920B6VR1.20.0) — `SRC-DE-BVERWG-C18-6VR120-2020`
