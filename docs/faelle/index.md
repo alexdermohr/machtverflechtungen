@@ -1,6 +1,6 @@
 # Fallakten
 
-**15 Fallakten** · Thematisch geordnet; innerhalb eines Bereichs chronologisch sortiert. Jeder Eintrag führt zum dokumentierten Ereigniskern und zu den Quellen.
+**16 Fallakten** · Thematisch geordnet; innerhalb eines Bereichs chronologisch sortiert. Jeder Eintrag führt zum dokumentierten Ereigniskern und zu den Quellen.
 
 ## Nachrichtendienste & Informanten
 
@@ -23,6 +23,7 @@ Militante Netzwerke, Tatkomplexe, Quellenschutz und behördliche Aufklärung.
 | 1979 – 1998 | [Deutsche Aktionsgruppen, Roeder und Finanzierungswege 1979–1998](de/deutsche-aktionsgruppen-roeder-1980-1998.md) | DE | 9 belegt · 2 stark gestützt · 1 plausibel | Paramilitärisches Netzwerk, Materielle Unterstützung |
 | 1980-09-26 – 2021 | [Oktoberfestattentat 1980: WSG-Kontakte, Ermittlungswandel und Aktion Wandervogel](de/oktoberfestattentat-1980.md) | DE | 56 belegt · 5 stark gestützt · 1 plausibel | Paramilitärisches Netzwerk, Nachrichtendienstliches Netzwerk |
 | 1990 – 2001 | [Thüringer Heimatschutz / Tino Brandt](de/thueringer-heimatschutz-tino-brandt.md) | DE | 3 belegt | Infiltration, Quellenschutz, Materielle Unterstützung |
+| 1993 – 2020 | [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) | DE, GB | 6 belegt · 6 stark gestützt · 1 spekulativ/offen | Infiltration, Quellenschutz, Materielle Unterstützung |
 | 1996 – 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt | Infiltration, Quellenschutz |
 | 2006-03-24 – 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](de/nsu-yozgat-temme.md) | DE | 4 belegt | Quellenschutz, Infiltration |
 

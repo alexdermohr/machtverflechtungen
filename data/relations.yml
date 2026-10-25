@@ -999,3 +999,32 @@ relations:
     evidence_level: established
     sources: [SRC-US-CIA-LCPROWL-V1-0044]
     claim_ids: [CLM-DE-BDJ-020]
+
+  - id: REL-DE-UKC18-001
+    from: ORG-DE-LFV-BRANDENBURG
+    to: PER-DE-CARSTEN-SZCZEPANSKI
+    type: source_management
+    label: "Führte Piatto 1994–2000 als Informanten; sein formalrechtlicher V-Mann-Verpflichtungsstatus ist davon getrennt"
+    period: {start: "1994", end: "2000"}
+    evidence_level: established
+    sources: [SRC-DE-BT-PIATTO-NSU-UA-1714600-2013, SRC-DE-BB-NSU-SONDERVOTUM-2019]
+
+  - id: REL-DE-UKC18-002
+    from: PER-DE-CARSTEN-SZCZEPANSKI
+    to: ORG-GB-NSM-1990S
+    type: advertised_contact_channel
+    label: "PSF 2224 der staatlich geführten Quelle wurde laut Parlament als deutsche Kontaktstelle des britischen NSM beworben; keine MI5-Kante"
+    period: {start: "1997", end: "1999"}
+    evidence_level: strong
+    sources: [SRC-DE-BB-NSU-SONDERVOTUM-2019]
+    claim_ids: [CLM-DE-UKC18-001, CLM-DE-UKC18-002]
+
+  - id: REL-DE-UKC18-003
+    from: ORG-DE-COMBAT18-2013
+    to: PER-GB-WILLIAM-BROWNING
+    type: documented_contact
+    label: "BVerwG berücksichtigte 2020 regelmäßige Kontakte zu William Browning, keine britische Dienstanweisung"
+    period: {start: "2020"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-C18-6VR120-2020]
+    claim_ids: [CLM-DE-UKC18-008]

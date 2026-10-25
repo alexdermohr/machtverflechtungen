@@ -539,3 +539,51 @@ entities:
     type: person
     name: "Robert Lehr"
     countries: [DE]
+
+  - id: ORG-DE-LFV-BRANDENBURG
+    type: intelligence_service
+    name: "Landesamt für Verfassungsschutz Brandenburg"
+    countries: [DE]
+    notes: "Institution der Quellenführung Szczepanski 1994–2000"
+
+  - id: ORG-GB-COMBAT18-1990S
+    type: extremist_network
+    name: "Combat 18 (Großbritannien, 1990er Jahre)"
+    countries: [GB]
+    notes: "Britisches historisches C18-Milieu; keine ungeprüfte Identität mit deutschem Verein ab 2013"
+
+  - id: ORG-DE-COMBAT18-2013
+    type: extremist_network
+    name: "Combat 18 Deutschland (Vereinsstruktur ab 2013)"
+    countries: [DE]
+    notes: "Gegenstand des BVerwG-Beschlusses 6 VR 1.20 von 2020"
+
+  - id: ORG-INT-BLOOD-HONOUR
+    type: extremist_network
+    name: "Blood & Honour (internationales Rechtsrocknetz)"
+    countries: [GB, DE]
+    notes: "Historisch transnational, regionale Divisionen getrennt nachweisen"
+
+  - id: ORG-GB-NSM-1990S
+    type: extremist_network
+    name: "National Socialist Movement (britische C18-Abspaltung)"
+    countries: [GB]
+    notes: "Laut Brandenburger Sondervotum als Kontaktadresse PSF 2224 beworben"
+
+  - id: PER-DE-CARSTEN-SZCZEPANSKI
+    type: person
+    name: "Carsten Szczepanski (Piatto)"
+    countries: [DE]
+    notes: "LfV-Brandenburg-Informant 1994–2000; formeller V-Mann-Verpflichtungsstatus umstritten"
+
+  - id: PER-GB-WILLIAM-BROWNING
+    type: person
+    name: "William Wilf Browning"
+    countries: [GB]
+    notes: "Britischer C18-Akteur; der spätere Kontakt zu Combat 18 Deutschland ist gerichtlich dokumentiert"
+
+  - id: PER-DE-MARCEL-DEGNER
+    type: person
+    name: "Marcel Degner (VM 2100/Hagel)"
+    countries: [DE]
+    notes: "Thüringer LfV-Quelle und B&H-Kassenwart in parlamentarischer Überlieferung"

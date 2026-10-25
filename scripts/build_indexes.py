@@ -97,6 +97,7 @@ CASE_TOPICS = {
     "faelle/de/oktoberfestattentat-1980.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/thueringer-heimatschutz-tino-brandt.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/nsu-v-leute-aktenvernichtung.md": "Rechtsterrorismus & Ermittlungen",
+    "faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/nsu-yozgat-temme.md": "Rechtsterrorismus & Ermittlungen",
     "faelle/de/la-belle-1986.md": "Internationale Anschläge",
     "faelle/it/piazza-fontana.md": "Internationale Anschläge",
