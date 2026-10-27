@@ -50,9 +50,15 @@ Unter dem Kapitel **„II. I rapporti internazionali“**, **gedruckte Seite 129
 
 **Fundstelle zum Wiederfinden:** derselbe [Parlamentsbericht](https://legislature.camera.it/_dati/leg09/lavori/stampati/pdf/p2/09%20Leg%20Doc%20XXIII%20n%202-1%20relatore%20ANSELMI-ocr.pdf), **gedruckte S. 129–130 / PDF-Index 136–137**. Der zugehörige Anlagenband der Kommission enthält laut [amtlichem Archivindex](https://storia.camera.it/img-repo/ods-lod/commissioni/volumi/P2/IX/INDICI.pdf) Mitgliedschaftsformular und Korrespondenz (Serie II, Vol. III, Tomo VII-bis). Der Index allein ist noch kein Ersatz für eine vollständige Prüfung dieser Anlage.
 
-### 2.3 Ein weiterer nachgewiesener Auslandszweig
+#**Direkte Faksimile-Nachprüfung (27.10.2026):** Die [184-seitige Originaldruckfassung des Anselmi-Berichts](https://upload.wikimedia.org/wikipedia/commons/7/78/Relazione_della_Commissione_parlamentare_di_inchiesta_sulla_Loggia_P2.pdf#page=137) wurde nun zusätzlich bildseitig an den **gedruckten S. 129–131 (PDF-Bildseiten 137–139)** kontrolliert. Auf S. 129 steht das Zitat zur „forza di governo universale“, auf S. 130 die ausdrückliche Ungewissheit über die Größe der Einrichtung und auf S. 131 Grassinis von der Kommission wiedergegebene Aussage. Die Bildprüfung bestätigt den **Wortlaut des parlamentarischen Berichts**, nicht die Richtigkeit jeder dort mitgeteilten Zeugenaussage und auch nicht die Durchführung des behaupteten Programms. Der zunächst verlinkte Parlamentsserver verweigerte bei dieser Nachprüfung automatisierte PDF-Zugriffe; das gesondert geprüfte Faksimile stammt aus der Wikimedia-Reproduktion derselben Druckfassung.
+
+**Originalakten präziser lokalisiert:** Im [Index der publizierten P2-Kommissionsanlagen](https://www.archivioantimafia.org/p2/commissione_parlamentare/119.%20Indici.pdf) ist der Band **Doc. XXIII, n. 2-quater/3/VII-bis** benannt, auch im [Senatskatalog](https://www.senato.it/legislature/9/leggi-e-documenti/attivita-non-legislative/documenti-non-legislativi?documentoId=30507) geführt. Der Index listet einen **SISDE-Vermerk vom 29.04.1982 (Druck-S. 7)**, einen **Brief auf Briefkopf des Komitees von E. Giunchiglia (S. 15)**, eine **Beitrittskarte (S. 19)**, einen **ausdrücklich nur als mutmaßlich bezeichneten Beitrittsantrag von Luigi Oliva (S. 25)**, Schreiben vom **30.04.1979 (S. 35)** und **14.07.1980 (S. 39)** sowie auszugsweise Anhörungen vom **09.06.1982 (S. 63)** und **06.07.1982 (S. 68)**. Ein [öffentlich auffindbares Scan-Konvolut](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/046.%20volume_03_tomo_07_parte2.pdf) verweist auf die entsprechenden Anlagen; dessen vollständige Bildseiten konnten wegen des Dateiumfangs noch nicht unabhängig kontrolliert werden. **Diese Fundstellen sind ein präziser Archivlocator, noch keine verifizierten Identitäten, Unterschriften oder Vollzugsnachweise.**
+
+## 2.3 Ein weiterer nachgewiesener Auslandszweig
 
 Auf **gedruckter Seite 130** behandelt derselbe Bericht die transnationale Initiative **ONPAM**, besonders auf Lateinamerika bezogen. Die Kommission verfügte nach eigener Darstellung über einen **Mitgliedsausweis für Roberto Calvi aus dem Jahr 1975**, den **Licio Gelli als Sekretär unterschrieb**. Die Organisation sei aktenmäßig nachgewiesen, ihre politische Reichweite aber ausdrücklich schwieriger zu beurteilen. Auch hier gilt: belegte organisatorische Existenz ≠ belegte umfassende politische Steuerung.
+
+**Namensabweichung für die nächste Quellenprüfung:** Im Anselmi-Bericht steht **ONPAM**, der Anlagenindex führt Material zur **OMPAM (WOMTA)**, insbesondere einen Mitgliedsausweis Roberto Calvis (**S. 85**) und eine Satzung (**S. 89**). Schreibweise und institutionelle Identität werden bis zur Prüfung dieser Anlagen nicht stillschweigend als geklärt behandelt.
 
 ## 3. Fund B – Italien/Argentinien: eine konkrete geheime Kontaktvermittlung zwischen Nachrichtendiensten
 
@@ -109,6 +115,8 @@ Ein auf **7. April 1978** datierter **CIA-Informationsbericht** meldet, Vertrete
 Daher ist die Meldung ein *Archivhinweis auf eine zu prüfende Möglichkeit*, **kein Beweis für eine tatsächlich gegründete europäische „Operation Condor“**.
 
 [CIA Intelligence Information Cable, 7.4.1978, mit OCR und Faksimile](https://nsarchive.gwu.edu/document/18429-national-security-archive-doc-13-cia).
+
+**Bildseitenkontrolle (27.10.2026):** Die [CIA-Originalreproduktion, PDF-Bildseiten 1–3](https://nsarchive.gwu.edu/sites/default/files/documents/5817674/National-Security-Archive-Doc-13-CIA.pdf#page=1), wurde direkt geprüft. Das Deckblatt nennt den **07.04.1978** und weist den Text als **noch nicht abschließend evaluierte Nachrichtendienstinformation** aus. Die Meldung zu einem Besuch im **September 1977** steht auf Bildseite 2. Der Kommentar auf Bildseite 3 sagt ausdrücklich, dass die angebliche französische Teilnahme und eine französische Absicht, ein solches Netzwerk aufzubauen, **nicht bestätigt** waren. Das ist ein Hinweis auf die damalige Informationslage, keine unabhängige Bestätigung der Reise oder einer europäischen Operation.
 
 ## 5. Fund D – Der politisch-okkulte Anschlag auf Papst Urban VIII. (1635)
 
