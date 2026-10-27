@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**107 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**115 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -8,6 +8,7 @@
 |---|---|---|---|
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE |
+| Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE |
@@ -32,6 +33,7 @@
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE |
+| Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE |
 | Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE |
@@ -60,6 +62,7 @@
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE |
+| William Wilf Browning | person | `PER-GB-WILLIAM-BROWNING` | GB |
 | Đỗ Anh Lân | person | `PER-DE-DO-ANH-LAN` | DE |
 
 ## Organisationen & Institutionen
@@ -74,6 +77,7 @@
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE |
+| Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE |
@@ -83,6 +87,8 @@
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US |
+| Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB |
+| Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE |
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE |
@@ -95,10 +101,12 @@
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
+| Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE |
+| National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US |

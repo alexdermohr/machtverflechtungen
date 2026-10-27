@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**104 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**107 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -204,6 +204,14 @@ flowchart LR
     N_ORG_DE_FRANKFURT_GSTA -->|"Laut bayerischem Ministerratsprotokoll beantragte die Generalstaatsanwaltschaft Frankfurt eine Voruntersuchung"| N_CASE_DE_BDJ_TD_1950S
     N_ORG_US_OPC["Office of Policy Coordination (OPC)"]
     N_ORG_US_OPC -->|"CIA-Projektbericht vom 24.01.1951 beschreibt OPC-Subvention des BDJ, nach außen als private und industrielle Geldgeberbeiträge dargestellt"| N_ORG_DE_BDJ
+    N_ORG_DE_LFV_BRANDENBURG["Landesamt für Verfassungsschutz Brandenburg"]
+    N_PER_DE_CARSTEN_SZCZEPANSKI["Carsten Szczepanski (Piatto)"]
+    N_ORG_DE_LFV_BRANDENBURG -->|"Führte Piatto 1994–2000 als Informanten; sein formalrechtlicher V-Mann-Verpflichtungsstatus ist davon getrennt"| N_PER_DE_CARSTEN_SZCZEPANSKI
+    N_ORG_GB_NSM_1990S["National Socialist Movement (britische C18-Abspaltung)"]
+    N_PER_DE_CARSTEN_SZCZEPANSKI -->|"PSF 2224 der staatlich geführten Quelle wurde laut Parlament als deutsche Kontaktstelle des britischen NSM beworben; keine MI5-Kante"| N_ORG_GB_NSM_1990S
+    N_ORG_DE_COMBAT18_2013["Combat 18 Deutschland (Vereinsstruktur ab 2013)"]
+    N_PER_GB_WILLIAM_BROWNING["William Wilf Browning"]
+    N_ORG_DE_COMBAT18_2013 -->|"BVerwG berücksichtigte 2020 regelmäßige Kontakte zu William Browning, keine britische Dienstanweisung"| N_PER_GB_WILLIAM_BROWNING
 ```
 
 [Zur Relationstabelle](network.md)
