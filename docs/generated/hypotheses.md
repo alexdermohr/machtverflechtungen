@@ -74,6 +74,12 @@ Das Bundesarchiv rekonstruiert einen Warnversuch eines MfS-Informanten am 4. Apr
 
 Die Kombination von MfS-Quellenberichten, einer vor dem Anschlag kopierten Zielliste und einer später vorbereiteten Dementi-Formel könnte auf institutionelles Vorfeldwissen und selektive Informationskontrolle im Fall La Belle hindeuten.
 
+## [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](../faelle/de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) · CLM-DE-UKC18-013
+
+**hypothesis · speculative**
+
+Eine koordinierte Weisungs- oder Finanzierungskette von MI5 oder MI6 über britische Combat-18-Akteure zu deutschen NSU-Taten ist mit den hier zugänglichen Primärquellen nicht belegt.
+
 ## [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) · CLM-DE-CUMEX-007
 
 **open_question · speculative**

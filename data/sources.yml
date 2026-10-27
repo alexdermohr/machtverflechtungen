@@ -1992,3 +1992,47 @@ sources:
   accessed: "2026-10-16"
   locator: "BT-Drs. 17/11490, gedruckte S. 14 (PDF-Bildseite 22); Antwort von Klaus-Dieter Fritsche vom 15.11.2012 auf Frage von Hans-Christian Ströbele S. 13"
   notes: "Direkt bildseitig geprüfte amtliche Regierungsdarstellung: BKA formulierte zehn Thesen, BfV widersprach laut Regierung in eigenem Papier, Positionen wurden diskutiert. Weder die Wahrheit der gegenläufigen Behauptungen noch der Versand des spezifischen BfV-Entwurfs vom April 1997 folgt daraus. Der Ausschussbericht BT-Drs. 17/14600, gedruckte S. 219 (PDF-Bildseite 267, am 17.10.2026 direkt am Originalbild geprüft), referiert die BMI-Auswertung vom 14.12.2012 ohne Nachweis des Versands des konkreten BfV-Entwurfs; S. 218 (PDF-Bildseite 266) wurde bislang nur anhand der amtlich indexierten Textlage abgeglichen. BKA-, BfV- und BMI-Urschriften wurden nicht eingesehen."
+- id: SRC-DE-BB-NSU-SONDERVOTUM-2019
+  title: "Sondervotum Bündnis 90/Die Grünen zum Brandenburger NSU-Untersuchungsausschuss"
+  institution: "Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen"
+  date: "2019"
+  type: parliamentary_minority_report
+  primary: true
+  tier: A
+  url: https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf
+  accessed: "2026-10-25"
+  locator: "Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jeweils eins niedriger"
+  notes: "Als Originalbericht direkt bildseitig kontrolliert; Wiedergaben früherer Post-, Verfahrens- und Treffakten bleiben parlamentarisch reproduzierte Belege und die Bewertungen ein Minderheitsvotum."
+- id: SRC-DE-BT-BH-NACHVERBOT-1409182-2002
+  title: "Die Neonazi-Organisation Blood & Honour nach dem Verbot (2. Nachfrage)"
+  institution: "Deutscher Bundestag / Bundesregierung"
+  date: "2002-05-30"
+  type: government_answer_parliamentary
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/14/091/1409182.pdf
+  accessed: "2026-10-25"
+  locator: "BT-Drs. 14/9182, gedruckte S. 3, PDF-Bildindex 2"
+  notes: "Originalbild belegt die Regierungsantwort Razor’s Edge 23.09.2000 Kaarßen-Laave; kein Beweis einer Geheimdienstoperation."
+- id: SRC-DE-BT-PLENAR-VM2100-18096-2015
+  title: "Plenarprotokoll 18/96 zur Quelle VM 2100 und 69 Deckblattmeldungen"
+  institution: "Deutscher Bundestag"
+  date: "2015-03-25"
+  type: parliamentary_stenographic_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/18/18096.pdf
+  accessed: "2026-10-25"
+  locator: "Gedruckte S. 9133–9134; PDF-Bildindex 36–37"
+  notes: "Originalbild bestätigt 69 identifizierte BfV-Meldungen 1997–2001, Übermittlung an Thüringer NSU-Ausschuss, noch keine Übermittlung ans OLG München."
+- id: SRC-DE-BVERWG-C18-6VR120-2020
+  title: "BVerwG 6 VR 1.20, Beschluss zum Verbot von Combat 18 Deutschland"
+  institution: "Bundesverwaltungsgericht"
+  date: "2020-09-21"
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/210920B6VR1.20.0
+  accessed: "2026-10-25"
+  locator: "Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)"
+  notes: "Eilverfahren mit summarischer Würdigung. Rn. 32 beschreibt aktenbasiert interne Erlösweiterleitung an den Vorsitzenden, zum Teil ins Vereinsvermögen; zugrunde liegende Einschreiben/Kassenunterlagen nicht getrennt eingesehen. Rn. 5 bleibt lediglich Parteivortrag zu UK-Lizenzbeiträgen ohne bestätigte Ausführung, genaue Summen oder Identität des Zahlungsempfängers."

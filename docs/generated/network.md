@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**104 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**107 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -23,9 +23,11 @@
 | `REL-DE-MNI-001` | Bundesnachrichtendienst | Ausschussmehrheit bewertete die Observationen 1993 bis 1996 wegen Dauer und Intensität als unverhältnismäßig und rechtswidrig | Erich Schmidt-Eenboom | belegt | [SRC-DE-BT-UA-BND-JOURNALISTEN-2009](../quellen/index.md#src-de-bt-ua-bnd-journalisten-2009) |
 | `REL-DE-MNI-005` | Bundesnachrichtendienst | Sondervotum zitiert Foertsch/Schäfer zu Kontakt mit Mascolo, um BND-schädliche Veröffentlichungen verhindern zu können | Georg Mascolo | stark gestützt | [SRC-DE-BT-UA-BND-JOURNALISTEN-2009](../quellen/index.md#src-de-bt-ua-bnd-journalisten-2009) |
 | `REL-DE-DA-006` | Bundeswehr | überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich | Deutsch-Russisches Gemeinschaftswerk | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |
+| `REL-DE-UKC18-002` | Carsten Szczepanski (Piatto) | PSF 2224 der staatlich geführten Quelle wurde laut Parlament als deutsche Kontaktstelle des britischen NSM beworben; keine MI5-Kante | National Socialist Movement (britische C18-Abspaltung) | stark gestützt | [SRC-DE-BB-NSU-SONDERVOTUM-2019](../quellen/index.md#src-de-bb-nsu-sondervotum-2019) |
 | `REL-DE-MNI-006` | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | stark gestützt | [SRC-US-CIA-CCF-HISTORY-1995](../quellen/index.md#src-us-cia-ccf-history-1995) |
 | `REL-DE-TMN-023` | Claus Kleber | als Moderator der Diskussion angekündigt | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-KLEBER-2026](../quellen/index.md#src-de-ab-kleber-2026) |
 | `REL-DE-TMN-050` | Claus Kleber | hielt die XX. Karl-Heinz-Beckurts-Gedächtnisrede | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2006-2007](../quellen/index.md#src-de-ab-jb-2006-2007) |
+| `REL-DE-UKC18-003` | Combat 18 Deutschland (Vereinsstruktur ab 2013) | BVerwG berücksichtigte 2020 regelmäßige Kontakte zu William Browning, keine britische Dienstanweisung | William Wilf Browning | belegt | [SRC-DE-BVERWG-C18-6VR120-2020](../quellen/index.md#src-de-bverwg-c18-6vr120-2020) |
 | `REL-DE-MNI-008` | Congress for Cultural Freedom | laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | stark gestützt | [SRC-INT-SCOTT-SMITH-DER-MONAT-2000](../quellen/index.md#src-int-scott-smith-der-monat-2000) |
 | `REL-DE-BDJ-008` | Deutscher Heimatschutz (Erlangen, 1951–1953) | Bayerische Ermittler ordneten 1952 eine bei DHS-Werbung genannte Referenznummer einer CIC-Dienststelle zu | U.S. Counter Intelligence Corps (CIC) | belegt | [SRC-DE-BYLT-TD-19521029](../quellen/index.md#src-de-bylt-td-19521029) |
 | `REL-DE-TMN-033` | Dieter von Holtzbrinck | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
@@ -65,6 +67,7 @@
 | `REL-DE-TMN-045` | Klaus-Dieter Frankenberger | gab eine Einführung bei der 79. Sitzung des Arbeitskreises USA | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2009-2010](../quellen/index.md#src-de-ab-jb-2009-2010) |
 | `REL-DE-TMN-018` | Klaus-Dieter Frankenberger | Verantwortlicher Redakteur für Außenpolitik | Frankfurter Allgemeine Zeitung | belegt | [SRC-DE-AB-FRANKENBERGER-2018](../quellen/index.md#src-de-ab-frankenberger-2018), [SRC-US-ACG-ANNUAL-2018](../quellen/index.md#src-us-acg-annual-2018) |
 | `REL-DE-TMN-056` | Klaus-Dieter Frankenberger | in der Mitgliederliste der Trilateral Commission geführt | The Trilateral Commission | stark gestützt | [SRC-INT-TRILATERAL-2017-MIRROR](../quellen/index.md#src-int-trilateral-2017-mirror) |
+| `REL-DE-UKC18-001` | Landesamt für Verfassungsschutz Brandenburg | Führte Piatto 1994–2000 als Informanten; sein formalrechtlicher V-Mann-Verpflichtungsstatus ist davon getrennt | Carsten Szczepanski (Piatto) | belegt | [SRC-DE-BT-PIATTO-NSU-UA-1714600-2013](../quellen/index.md#src-de-bt-piatto-nsu-ua-1714600-2013), [SRC-DE-BB-NSU-SONDERVOTUM-2019](../quellen/index.md#src-de-bb-nsu-sondervotum-2019) |
 | `REL-DE-NSU-YOZ-002` | Landesamt für Verfassungsschutz Hessen | verweigerte Aussagegenehmigungen für V-Personen im Zuge der Kasseler Mordermittlungen | NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen | belegt | [SRC-DE-BT-NSU-YOZGAT-2016](../quellen/index.md#src-de-bt-nsu-yozgat-2016) |
 | `REL-DE-TMN-041` | Liz Mohn | erhielt den XIV. Vernon A. Walters Award | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2008-2009](../quellen/index.md#src-de-ab-jb-2008-2009) |
 | `REL-DE-DA-007` | Manfred Roeder | hielt laut Untersuchungsausschuss am 24.01.1995 Vortrag an der Führungsakademie | Bundeswehr | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |

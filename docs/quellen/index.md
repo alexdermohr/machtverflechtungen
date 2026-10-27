@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**174 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**178 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -619,6 +619,17 @@ Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politis
 
 Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Titel 612 (1965)
 
+<a id="src-de-bverwg-c18-6vr120-2020"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 6 VR 1.20, Beschluss zum Verbot von Combat 18 Deutschland](https://www.bverwg.de/210920B6VR1.20.0)**
+
+Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-C18-6VR120-2020`
+
+[Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
+
+Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
 
@@ -773,6 +784,17 @@ Deutscher Bundestag · 2012-07-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
 
+<a id="src-de-bt-plenar-vm2100-18096-2015"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 18/96 zur Quelle VM 2100 und 69 Deckblattmeldungen](https://dserver.bundestag.de/btp/18/18096.pdf)**
+
+Deutscher Bundestag · 2015-03-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-PLENAR-VM2100-18096-2015`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/18/18096.pdf)
+
+Fundstelle: Gedruckte S. 9133–9134; PDF-Bildindex 36–37
+
 <a id="src-de-bt-nsu-yozgat-2016"></a>
 ### Deutscher Bundestag
 
@@ -838,6 +860,17 @@ Deutscher Bundestag / Bundesregierung · 2000-08-10 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/14/039/1403979.pdf)
 
 Fundstelle: BT-Drs. 14/3979, gedruckte S. 2–4; Regierungsantwort und Fragen der Abgeordneten getrennt
+
+<a id="src-de-bt-bh-nachverbot-1409182-2002"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Die Neonazi-Organisation Blood & Honour nach dem Verbot (2. Nachfrage)](https://dserver.bundestag.de/btd/14/091/1409182.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2002-05-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-BH-NACHVERBOT-1409182-2002`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/14/091/1409182.pdf)
+
+Fundstelle: BT-Drs. 14/9182, gedruckte S. 3, PDF-Bildindex 2
 
 <a id="src-de-bt-okt-1613527-2009"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1333,6 +1366,17 @@ Landtag Baden-Württemberg / Justizministerium · 2007-10-08 · Stufe **A** · P
 [PDF öffnen](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)
 
 Fundstelle: Antwort zu Fragen 1–6, gedruckte S. 3–6
+
+<a id="src-de-bb-nsu-sondervotum-2019"></a>
+### Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen
+
+**[Sondervotum Bündnis 90/Die Grünen zum Brandenburger NSU-Untersuchungsausschuss](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)**
+
+Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen · 2019 · Stufe **A** · Primärquelle · `SRC-DE-BB-NSU-SONDERVOTUM-2019`
+
+[PDF öffnen](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)
+
+Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jeweils eins niedriger
 
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen
