@@ -1,0 +1,64 @@
+# Organisation Gehlen und „Unternehmen Versicherungen“: Führungsbefehle, Kontakte und belegte Zahlungen 1951–1953
+
+**Quellenkritische Ergänzungsakte · 28. Oktober 2026.** Das besonders belastbare Ergebnis einer erneuten Durchsicht der UHK/BND-Historikerstudie von **Agilolf Keßelring (2014)** ist die Unterscheidung zwischen **direkter operativer Einbindung und kleinen tatsächlichen Zahlungen** einerseits und **beantragter, nicht nachgewiesener amerikanischer Gesamtfinanzierung** andererseits. Diese Studie ergänzt die [Gehlen-Fallakte](../docs/faelle/de/organisation-gehlen.md) und die Untersuchung zu [Schnez / „Unternehmen Versicherungen“](https://alexdermohr.github.io/machtverflechtungen/research/gehlen-schnez-unternehmen-versicherungen-1949-1953/).
+
+## 1. Besprechung am 24. Juli 1951: dokumentierte Entscheidung Gehlens
+
+In der 2014 von der Unabhängigen Historikerkommission veröffentlichten Aktenauswertung führt Keßelring eine **Besprechungsnotiz vom 26. Juli 1951** über das Treffen vom **24. Juli 1951** zwischen **Reinhard Gehlen**, **Horst von Mellenthin** (Leiter der Organisation-Gehlen-Dienststelle **35**) und **Albert Schnez** an: **BND-Archiv, Band 1438**, Anmerkung **76**, gedruckte **S. 35–36**.
+
+Dem von Keßelring wiedergegebenen Aktenvermerk zufolge sagte Gehlen dem Schnez-Projekt vier Formen der Unterstützung zu:
+
+1. **Finanzierung:** Versuch, finanzielle Hilfe für das militärische Kaderprojekt zu beschaffen; weder konkrete Auszahlung noch Finanzierungsquelle folgt allein aus dieser Zusage.
+2. **Politische und alliierte Unterrichtung:** Information **Konrad Adenauers über Hans Globke** sowie der amerikanischen Ansprechpartner; die Anweisung beweist nicht schon den späteren Eingang jedes Berichts beim Kanzler.
+3. **Operative Kopplung:** Einbindung in das **E-System** der Organisation Gehlen für Warnung und Voralarm bei einer angenommenen militärischen Krise.
+4. **Personalprüfung:** wechselseitige Prüfung der Beteiligten; die weitere Führung wurde der **Dienststelle 35** zugeordnet, unmittelbar über **Oldwig von Natzmer**.
+
+Der Anschluss an ein nachrichtendienstliches Alarmierungssystem und die Zuweisung eines Führungs-/Kontaktwegs gehen erkennbar über bloße passive Beobachtung hinaus. **Das ist ein quellengestützter Befund aktiver institutioneller Koordination, nicht bereits der Beweis einer illegalen Gewaltoperation.**
+
+**Quellenverweise:** [Keßelring, *Die Organisation Gehlen und die Verteidigung Westdeutschlands*, UHK/BND-Studien Nr. 3 (2014), gedruckte S. 34–36, Fußnoten 71–79](https://www.researchgate.net/publication/309175205_Die_Organisation_Gehlen_und_die_Verteidigung_Westdeutschlands_Alte_Elitedivisionen_und_neue_Militarstrukturen_1949-1953); besonders **BND-Archiv 1438, Mellenthin-Aktennotiz vom 26.07.1951**, und **„Für J-1867, betr. Aufträge“, 02.08.1951**.
+
+## 2. Personal- und Verbindungswege: keine bloße Gleichsetzung von Kontakten mit Befehlsgewalt
+
+Nach Keßelrings Auswertung fungierte **Natzmer** ab August 1951 als Verbindungsmann. Das Ziel der Organisationsprüfung war neben der Feststellung von tatsächlichen Kadern und Vorarbeiten ausdrücklich auch die Abwehr möglicher kommunistischer Infiltration. **Walter Freiherr von Weitershausen** betreute die Sonderverbindung Schnez später über Natzmer, wodurch direkte Kontakte zu weiteren Beschäftigten der Dienststelle 35 begrenzt waren. Die Tarnnamen lauteten **„Schnepfe“** (Schnez) und **„Unternehmen Versicherungen“** (Kaderorganisation).
+
+Ein eigenständiger struktureller Forschungsansatz ergibt sich aus der **U.S.-Army-Historical-Division**: Keßelring verortet Natzmer und **Hellmuth Reinhardt** im Umfeld der amerikanischen Kriegsgeschichtsschreibung unter **Franz Halder** und beschreibt Reinhardt schon für 1950 als Verbindung zu ehemaligen Soldaten der 25. Division. Hier existiert eine **personelle und institutionelle Brücke** zwischen US-Militärinfrastruktur, Wehrmachtveteranen und Organisation Gehlen. Nicht nachgewiesen ist damit, dass Halder die Schnez-Gruppe finanzierte oder militärisch kommandierte.
+
+**Quellenverweise:** Keßelring (2014), gedruckte **S. 33–37**, Fußnoten **71–81** mit weiteren Forschungsbelegen und **BND-Archiv 1438, Vermerk „Betr. Unternehmen Versicherungen“, 30.08.1951**.
+
+## 3. Finanzierungsbilanz: beantragte 9.000 DM versus belegte 200 DM im Monat
+
+| Datum / Zeitraum | Dokument / Quelle | Präziser Befund | Evidenzgrenze |
+| --- | --- | --- | --- |
+| September 1951 | Organisation Gehlen / Mellenthin an CIA-Ansprechpartner **Henry Pleasants**, Keßelring S. 54–55, Fn. 142 | **9.000 DM pro Monat** als Bedarf für Büro, Reisebudget und **15** fest angestellte Kräfte; Pleasants soll Mittel beschaffen | Ein **Antrag**, keine nachgewiesene Zahlung von 9.000 DM durch CIA |
+| Dezember 1951 bis März 1952 | Schnez bei **Josef Rust** im Kanzleramt; Gehlen an **James Critchfield** (19.02.1952); **Weitershausen an Natzmer** (24.03.1952); **BND-Archiv 1438** | Erneute Finanzierungssuche; März 1952 weiterhin keine gesicherte Gesamtfinanzierung | Weder tatsächlich erfolgte CIA-Zahlung noch ein formal bewilligter Etat belegt |
+| **12. November 1953** | **Horst von Mellenthin an Albert Schnez**, **BND-Archiv 1438**; Keßelring S. 63–64, Fn. **176** | Schriftliche Mitteilung, die **finanzielle Beteiligung** der Organisation Gehlen an „Versicherungen“ werde eingestellt; nur weitere ideelle Hilfe zugesagt | Der Brief belegt eine bislang bestehende Beteiligung und ihr angekündigtes Ende; **keine vollständige Buchführung** |
+| **13. November 1953** | **Mellenthin an Gehlens Adjutanten, Nachricht an Stabschef**, **BND-Archiv 1438**; Keßelring S. **64**, Fn. **177** | Keßelring berichtet **tatsächliche regelmäßige Zahlungen von 200 DM monatlich an Schnez** durch die Organisation Gehlen | Konkreter kleiner Zahlbetrag; Zahlbeginn und Gesamtvolumen aus dieser Passage nicht bestimmbar, unmittelbarer CIA-Mittelursprung nicht belegt |
+
+Die **200 DM monatlich** sind gegenüber der bisherigen Forschungslücke ein **materiell wichtiger positiver Zahlungsbefund**: Er widerlegt die pauschale Behauptung, keinerlei tatsächliche Unterstützung sei nachweisbar. Er trägt **nicht** die viel stärkere Behauptung, CIA oder Bundesregierung hätten eine 40.000 Mann starke einsatzbereite Geheimarmee mit 9.000 DM monatlich finanziert.
+
+**Offene Finanzprüfung:** Originale der genannten Vermerke und Korrespondenz in **BND-Archiv 1438** anhand der Zahlungsperiode und des Geldeingangs identifizieren; korrespondierende Ausgabenbücher der Dienststelle 35, die Deckungsherkunft sowie amerikanische Abrechnungen des CIA-Kontakts Pleasants prüfen. Eine amerikanische Finanzierung der Organisation Gehlen als solcher kann nicht ohne Überweisungsbeleg mit der Zweckfinanzierung dieses Projekts gleichgesetzt werden.
+
+## 4. Kontakte zum US-Militärapparat und ungeklärte Übernahme durch SHAPE
+
+Nach Keßelring (2014), **S. 57–63**, trafen **Schnez**, **Natzmer** und der US-Nachrichtenoffizier **Henry P. Schardt** am **28. Januar 1953** zusammen; am **14. Juni 1953** folgte ein Treffen in Stuttgart, an dem unter anderem **Anton Grasser** und **Hans Wagner** beteiligt waren. Die Beteiligten diskutierten eine mögliche Anbindung an amerikanische Militärstellen oder **SHAPE**.
+
+Der historische Kern ist die **nachrichtendienstlich vermittelte Kontaktaufnahme und Erörterung einer späteren Unterstellung**. Keßelring hält ausdrücklich fest, dass **aus den untersuchten Gehlen-Akten nicht hervorgeht, ob SHAPE die Organisation tatsächlich übernahm**. Auch die Einbeziehung französischer oder britischer Stellen darf nicht aus der US-amerikanischen Gesprächsführung gefolgert werden.
+
+**Quellenverweise:** Keßelring, gedruckte **S. 58–64**, besonders **BND-Archiv 1438**, Besprechungs-/Aktennotizen **29.01.1953**, **20.06.1953** (Fn. **174–175**), **12.11.1953** (Fn. **176**) und **13.11.1953** (Fn. **177**).
+
+## 5. Politische Bedeutung und Widerlegung konkurrierender Deutungen
+
+**Gut gestützte Hypothese:** Die Organisation Gehlen war im Jahr 1951 **nicht nur Informationssammler**, sondern in die **Steuerung einer verdeckten paramilitärischen Rückfallstruktur** eingebunden, konnte deren Anbindung an das eigene Alarmierungssystem zusagen und leistete später begrenzte finanzielle Unterstützung. Der dokumentierte Weg über Globke und die amerikanische Seite zeigt eine politische Einbindung, die hinsichtlich demokratischer Kontrolle und rechtlicher Befugnisse gesondert zu untersuchen ist.
+
+**Noch nicht gestützt:** Eine **voll einsatzfähige 40.000-Mann-Truppe**, eine **nachgewiesene CIA-Komplettfinanzierung**, der **Auftrag zu Gewalt gegen die westdeutsche Opposition**, eine **durchgehende Kommandokette zum BDJ/Technischen Dienst, zu NATO-Gladio oder dem NSU** und eine **nachgewiesene SHAPE-Übernahme**. Diese voneinander unabhängigen Kausalbehauptungen erfordern für jede Verbindung eigene Urkunden.
+
+**Quellenhierarchie:** Alle hier genannten BND-Aktensignaturen sind **durch den Historiker Keßelring zitiert und ausgewertet**, nicht von uns als Urschriften eingesehen. Der 2014 erschienene **UHK-Volltext** ist in der vom Autor veröffentlichten, nach Originalseiten gegliederten [ResearchGate-Darstellung](https://www.researchgate.net/publication/309175205_Die_Organisation_Gehlen_und_die_Verteidigung_Westdeutschlands_Alte_Elitedivisionen_und_neue_Militarstrukturen_1949-1953) lesbar; ein unabhängig bildgeprüftes PDF-Faksimile lag bei dieser zweiten Prüfung nicht vor. Für die Geschichte des Projekts als solchem bestätigt die Bundesregierung die Existenz des Aktenbands **1949–1953** und seine Deklassifizierung in der [Bundestagsdrucksache 18/1942 vom 30.06.2014, S. 2–4](https://dserver.bundestag.de/btd/18/019/1801942.pdf). **Keßelrings Interpretation ist eine belegte historische Forschungsaussage, nicht die eigene Prüfung der authentischen BND-Urschrift.**
+
+## Quellen und gezielte Originalanfragen
+
+- [Agilolf Keßelring (2014), *Die Organisation Gehlen und die Verteidigung Westdeutschlands*, UHK/BND, Studien Nr. 3](https://www.researchgate.net/publication/309175205_Die_Organisation_Gehlen_und_die_Verteidigung_Westdeutschlands_Alte_Elitedivisionen_und_neue_Militarstrukturen_1949-1953), Originalseiten **33–37, 54–65**, Fn. **71–81**, **142**, **174–177**: führende Auswertung; alle konkret datierten BND-Signaturen darüber identifizieren.
+- [Deutscher Bundestag, Drucksache 18/1942, 30.06.2014](https://dserver.bundestag.de/btd/18/019/1801942.pdf), S. 2–4: Amtlicher Bestätigungsrahmen des Archivbandes, kein direktes Finanzbuch.
+- **BND-Archiv 1438:** Vermerk zum Treffen **24.07.1951** (Niederschrift **26.07.1951**); Dienststelle-35-Auftrag **02.08.1951**; Organisationsvermerk **30.08.1951**; Finanzierungsbrief Gehlen–Critchfield **19.02.1952**; Besprechungsakten **29.01.1953** und **20.06.1953**; **Mellenthin–Schnez-Brief 12.11.1953** sowie **interner Mellenthin-Vermerk 13.11.1953**. Dies sind **Einsichtsersuchen**, keine Behauptung einer eigenen Einsicht.
+- **US-Originalarchive:** Akten von CIA/USAREUR/EUCOM/SHAPE zu **Pleasants**, **Critchfield**, **Schardt**, zur deutschen Mobilisierungs-Kaderstruktur und zu etwaigen 1953er Übernahmeentscheidungen; die US-Korrespondenz auf exakt dieselben Daten und Personen abgleichen.
+
+**Stand:** 28.10.2026. Die öffentlich zugängliche UHK-Studienwiedergabe und der amtliche parlamentarische Rahmen wurden ausgewertet; der Primäraktenzugang und ein nachweisbarer Zahlungsbuchungsbeleg sind weitere Prüfaufträge.
