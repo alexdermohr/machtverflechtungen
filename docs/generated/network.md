@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**107 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**112 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -25,6 +25,8 @@
 | `REL-DE-DA-006` | Bundeswehr | überließ laut Ausschussbericht 1994 drei ausgesonderte Fahrzeuge und Werkzeuge unentgeltlich | Deutsch-Russisches Gemeinschaftswerk | belegt | [SRC-DE-BT-1311005-1998](../quellen/index.md#src-de-bt-1311005-1998) |
 | `REL-DE-UKC18-002` | Carsten Szczepanski (Piatto) | PSF 2224 der staatlich geführten Quelle wurde laut Parlament als deutsche Kontaktstelle des britischen NSM beworben; keine MI5-Kante | National Socialist Movement (britische C18-Abspaltung) | stark gestützt | [SRC-DE-BB-NSU-SONDERVOTUM-2019](../quellen/index.md#src-de-bb-nsu-sondervotum-2019) |
 | `REL-DE-MNI-006` | Central Intelligence Agency | CIA-Hausgeschichte beschreibt den Congress for Cultural Freedom als verdeckte CIA-Operation | Congress for Cultural Freedom | stark gestützt | [SRC-US-CIA-CCF-HISTORY-1995](../quellen/index.md#src-us-cia-ccf-history-1995) |
+| `REL-DE-GEHLEN-004` | Central Intelligence Agency | übernahm 1949 die amerikanische Aufsicht und Unterstützung | Organisation Gehlen | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026), [SRC-US-NSA-GEHLEN-2005](../quellen/index.md#src-us-nsa-gehlen-2005) |
+| `REL-DE-GEHLEN-008` | Central Intelligence Group (CIG) | bezeichnete Operation Rusty 1947 als potenzielle Widerstandsgruppe und empfahl Auflösung | Organisation Gehlen | belegt | [SRC-US-CIG-RUSTY-DOC45-19470606](../quellen/index.md#src-us-cig-rusty-doc45-19470606) |
 | `REL-DE-TMN-023` | Claus Kleber | als Moderator der Diskussion angekündigt | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-KLEBER-2026](../quellen/index.md#src-de-ab-kleber-2026) |
 | `REL-DE-TMN-050` | Claus Kleber | hielt die XX. Karl-Heinz-Beckurts-Gedächtnisrede | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2006-2007](../quellen/index.md#src-de-ab-jb-2006-2007) |
 | `REL-DE-UKC18-003` | Combat 18 Deutschland (Vereinsstruktur ab 2013) | BVerwG berücksichtigte 2020 regelmäßige Kontakte zu William Browning, keine britische Dienstanweisung | William Wilf Browning | belegt | [SRC-DE-BVERWG-C18-6VR120-2020](../quellen/index.md#src-de-bverwg-c18-6vr120-2020) |
@@ -34,6 +36,7 @@
 | `REL-DE-TMN-021` | Elmar Theveßen | als Mitglied bezeichnet | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-THEVESSEN-2024](../quellen/index.md#src-de-ab-thevessen-2024) |
 | `REL-DE-TMN-030` | Elmar Theveßen | Teilnehmer des Young-Leaders-Jahrgangs 2003 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-022` | Elmar Theveßen | Leiter ZDF-Studio Washington | ZDF | belegt | [SRC-DE-AB-THEVESSEN-2024](../quellen/index.md#src-de-ab-thevessen-2024) |
+| `REL-DE-GEHLEN-005` | Emil Augsburg | war nach seiner SS-/RSHA-Tätigkeit im Gehlen-Netz beschäftigt | Organisation Gehlen | stark gestützt | [SRC-US-NARA-IWG-GEHLEN-2001](../quellen/index.md#src-us-nara-iwg-gehlen-2001) |
 | `REL-DE-TMN-035` | Friede Springer | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-010` | Gabor Steingart | moderierte Gespräch zur US-Präsidentschaftswahl | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
 | `REL-DE-TMN-011` | Gabor Steingart | Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt | Handelsblatt | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
@@ -46,6 +49,7 @@
 | `REL-DE-LANG-004` | Hans C. Freiherr von Stauffenberg | war laut Minderheitenbericht später anstelle Langemanns neben Jonas für dessen Konto verfügungsberechtigt | Walter H. Jonas | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
 | `REL-DE-LANG-002` | Hans Langemann | überwies laut Minderheitenbericht 1978/1979 in drei Zuwendungen insgesamt 14.500 DM auf das Brunello-Konto | Aristide Brunello | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
 | `REL-DE-LANG-001` | Hans Langemann | veranlasste laut Minderheitenbericht 1977 drei Überweisungen über 17.000 DM für Jonas, davon 4.000 DM auf das von-Corneli-Konto | Walter H. Jonas | stark gestützt | [SRC-DE-BAYLT-LANGEMANN-MINDERHEIT-13012-1982](../quellen/index.md#src-de-baylt-langemann-minderheit-13012-1982) |
+| `REL-DE-GEHLEN-006` | Heinz Felfe | arbeitete im Dienst und zugleich als sowjetischer Doppelagent | Bundesnachrichtendienst | stark gestützt | [SRC-DE-BARCH-FELFE-REGISTER](../quellen/index.md#src-de-barch-felfe-register) |
 | `REL-DE-DA-003` | Heinz Lembke | Kontakt zur Deutschen Bürgerinitiative laut Bundesregierung 1981 | Deutsche Bürgerinitiative | belegt | [SRC-DE-BT-09066-1981](../quellen/index.md#src-de-bt-09066-1981) |
 | `REL-DE-DA-004` | Heinz Lembke | Kontakt laut Bundestagsauskunft vom 25.11.1981 | Odfried Hepp | belegt | [SRC-DE-BT-09066-1981](../quellen/index.md#src-de-bt-09066-1981) |
 | `REL-DE-BDJ-009` | Hessische Landesregierung | Verbot des BDJ im hessischen Landesgebiet am 8. Januar 1953 | Bund Deutscher Jugend | stark gestützt | [SRC-DE-HE-LAGIS-BDJ-19530108](../quellen/index.md#src-de-he-lagis-bdj-19530108) |
@@ -86,6 +90,7 @@
 | `REL-DE-BDJ-015` | Office of Policy Coordination (OPC) | CIA-Projektbericht vom 24.01.1951 beschreibt OPC-Subvention des BDJ, nach außen als private und industrielle Geldgeberbeiträge dargestellt | Bund Deutscher Jugend | belegt | [SRC-US-CIA-LCPROWL-V1-0044](../quellen/index.md#src-us-cia-lcprowl-v1-0044) |
 | `REL-DE-CUMEX-002` | Olaf Scholz | Treffen am 10. November 2017 (Inhalt nicht dokumentiert) | Christian Olearius | belegt | [SRC-DE-HH-WARBURG-SENAT-2020](../quellen/index.md#src-de-hh-warburg-senat-2020) |
 | `REL-DE-GEHLEN-001` | Organisation Gehlen | wurde 1956 in den BND überführt | Bundesnachrichtendienst | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
+| `REL-DE-GEHLEN-007` | Organisation Gehlen | spähte nach archivgestützter Forschung die politische Opposition aus | Sozialdemokratische Partei Deutschlands (SPD) | stark gestützt | [SRC-DE-BPB-HENKE-INLAND-2014](../quellen/index.md#src-de-bpb-henke-inland-2014), [SRC-DE-BPB-HENKE-GEHEIME-2019](../quellen/index.md#src-de-bpb-henke-geheime-2019) |
 | `REL-DE-TMN-026` | Paul-Bernhard Kallen | Teilnehmer des Young-Leaders-Jahrgangs 1991 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-043` | Peter Frey | Redner beim Frankfurt Luncheon zum Fernsehen in der digitalen Öffentlichkeit | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2014-2015](../quellen/index.md#src-de-ab-jb-2014-2015) |
 | `REL-DE-GEHLEN-003` | Reinhard Gehlen | erster Präsident | Bundesnachrichtendienst | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
