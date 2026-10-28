@@ -2036,3 +2036,124 @@ sources:
   accessed: "2026-10-25"
   locator: "Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)"
   notes: "Eilverfahren mit summarischer Würdigung. Rn. 32 beschreibt aktenbasiert interne Erlösweiterleitung an den Vorsitzenden, zum Teil ins Vereinsvermögen; zugrunde liegende Einschreiben/Kassenunterlagen nicht getrennt eingesehen. Rn. 5 bleibt lediglich Parteivortrag zu UK-Lizenzbeiträgen ohne bestätigte Ausführung, genaue Summen oder Identität des Zahlungsempfängers."
+- id: SRC-US-CIG-RUSTY-DOC21-1946
+  title: "CIG-Memorandum zu Operation Rusty, Dokument 21"
+  institution: "US Central Intelligence Group, Original bei National Security Archive"
+  date: "1946-10-16"
+  type: declassified_intelligence_memorandum
+  primary: true
+  tier: A
+  url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc21.pdf
+  accessed: "2026-10-28"
+  locator: "PDF-Bildseiten 1–2, interne Kosten-/Sicherheitsbewertung"
+  notes: "Jährlicher Schätzwert circa 2,5 Mio. USD ist keine belegte Auszahlung."
+- id: SRC-US-CIG-RUSTY-DOC22-1946
+  title: "CIG-Memorandum zu Operation Rusty, Dokument 22"
+  institution: "US Central Intelligence Group, Original bei National Security Archive"
+  date: "1946-10-17"
+  type: declassified_intelligence_memorandum
+  primary: true
+  tier: A
+  url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc22.pdf
+  accessed: "2026-10-28"
+  locator: "PDF-Bildseiten 1–2, interne Kritik und Kontrollprobleme"
+  notes: "Primärbeleg für US-interne Warnungen, nicht für jede darin angenommene Tatsache."
+- id: SRC-US-CIA-HELMS-RUSTY-19480319
+  title: "Richard Helms, CIA-Memorandum zu Operation Rusty"
+  institution: "Central Intelligence Agency, Original bei National Security Archive"
+  date: "1948-03-19"
+  type: declassified_intelligence_memorandum
+  primary: true
+  tier: A
+  url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf
+  accessed: "2026-10-28"
+  locator: "Document 59, PDF-Bildseite 1"
+  notes: "Warnung vor Infiltration, kein eigenständiger Beweis eingetretener Unterwanderung."
+- id: SRC-US-NARA-IWG-GEHLEN-2001
+  title: "CIA Records and Nazi War Criminals, archive records analysis"
+  institution: "US National Archives, Interagency Working Group"
+  date: "2001"
+  type: official_archival_report
+  primary: false
+  tier: B
+  url: https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/rg-263-report.html
+  accessed: "2026-10-28"
+  locator: "Gehlen Organization und Emil Augsburg"
+  notes: "Amtliche Archivauswertung, nicht vollständiges Personalregister."
+- id: SRC-DE-BPB-HENKE-INLAND-2014
+  title: "Zur innenpolitischen Rolle des Auslandsnachrichtendienstes in der Ära Adenauer"
+  author: "Klaus-Dietmar Henke"
+  institution: "Bundeszentrale für politische Bildung"
+  date: "2014"
+  type: archival_research_article
+  primary: false
+  tier: B
+  url: https://www.bpb.de/shop/zeitschriften/apuz/183094/zur-innenpolitischen-rolle-des-auslandsnachrichtendienstes-in-der-aera-adenauer/
+  accessed: "2026-10-28"
+  locator: "Inlandsspionage und Regierungsadressaten"
+- id: SRC-DE-BPB-HENKE-GEHEIME-2019
+  title: "Geheime Dienste. Politische Inlandsspionage der Organisation Gehlen 1946–1953"
+  author: "Klaus-Dietmar Henke"
+  institution: "Bundeszentrale für politische Bildung"
+  date: "2019"
+  type: research_monograph_bibliography
+  primary: false
+  tier: B
+  url: https://www.bpb.de/shop/buecher/schriftenreihe/295408/geheime-dienste/
+  accessed: "2026-10-28"
+  locator: "Bibliografischer Nachweis und Themenbeschreibung; kein vollständig geprüfter Buchtext"
+- id: SRC-DE-BARCH-VOLKSAUFSTAND-DIENSTE
+  title: "Die Sicht westlicher Geheimdienste auf den Volksaufstand am 17. Juni 1953"
+  institution: "Bundesarchiv"
+  date: "undatiert"
+  type: official_archival_research
+  primary: false
+  tier: B
+  url: https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/volksaufstand/die-sicht-westlicher-geheimdienste/
+  accessed: "2026-10-28"
+  locator: "Rolle der Gehlen-Organisation beim 17. Juni 1953"
+  notes: "Gegenprobe zur Behauptung aktiver Steuerung des Volksaufstands."
+- id: SRC-DE-BARCH-FELFE-REGISTER
+  title: "Heinz Felfe im Personenregister der Kabinettsprotokolle"
+  institution: "Bundesarchiv"
+  date: "undatiert"
+  type: official_person_register
+  primary: false
+  tier: B
+  url: https://www.kabinettsprotokolle.bundesarchiv.de/register/person/ef252cb5-4cbf-4862-b636-329666188c9d
+  accessed: "2026-10-28"
+  locator: "Registereintrag Heinz Felfe"
+- id: SRC-US-NSA-GEHLEN-2005
+  title: "The CIA and the Gehlen Organization, declassified document collection"
+  institution: "National Security Archive, George Washington University"
+  date: "2005"
+  type: documentary_edition
+  primary: false
+  tier: B
+  url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/
+  accessed: "2026-10-28"
+  locator: "Edition mit Dokumenten 21, 22 und 59"
+- id: SRC-US-CIG-RUSTY-DOC45-19470606
+  title: "Memorandum on Operation RUSTY, 6 June 1947, Document 45"
+  institution: "US Central Intelligence Group; Edition National Security Archive, George Washington University"
+  date: "1947-06-06"
+  type: declassified_intelligence_memorandum
+  primary: true
+  tier: A
+  url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc45.pdf
+  accessed: "2026-10-28"
+  locator: "PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3"
+  notes: "US-internes Papier charakterisiert Operation Rusty als potenzielle Widerstandsgruppe mit US-Unterstützung und empfiehlt deren Auflösung; kein Nachweis einer tatsächlich durchgeführten Gewalttat."
+- id: SRC-DE-BARCH-FRICKE-AKTENEINSICHT-1997
+  title: "Karl Wilhelm Fricke: Akten-Einsicht – Rekonstruktion einer politischen Verfolgung, 4. Auflage"
+  author: "Karl Wilhelm Fricke"
+  institution: "Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe"
+  date: "1997"
+  type: archived_primary_documents_with_commentary
+  primary: true
+  tier: A
+  url: https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf
+  accessed: "2026-10-28"
+  language: de
+  locator: "Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955"
+  notes: "Doppelte Provenienz: Eigenbericht Frickes bestätigt Sesslers Pressekontakte und Anwerbeversuche; MfS-Anklage behauptet Gehlen-Zuordnung und frühere BDJ-Mitgliedschaft, jedoch keine unabhängige Bestätigung. Als politische Verfolgungsakte besonders quellenvorsichtig verwenden."

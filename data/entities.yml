@@ -587,3 +587,22 @@ entities:
     name: "Marcel Degner (VM 2100/Hagel)"
     countries: [DE]
     notes: "Thüringer LfV-Quelle und B&H-Kassenwart in parlamentarischer Überlieferung"
+  - id: PER-DE-EMIL-AUGSBURG
+    type: person
+    name: "Emil Augsburg"
+    countries: [DE]
+    notes: "Früherer SS-/RSHA-Angehöriger; nach US-Archivauswertung in Gehlen-Organisation und BND."
+  - id: PER-DE-HEINZ-FELFE
+    type: person
+    name: "Heinz Felfe"
+    countries: [DE]
+    notes: "Früherer SD-/RSHA-Angehöriger; westdeutscher Nachrichtendienst und sowjetischer Doppelagent."
+  - id: ORG-DE-SPD
+    type: political_party
+    name: "Sozialdemokratische Partei Deutschlands (SPD)"
+    countries: [DE]
+  - id: ORG-US-CIG
+    type: intelligence_organization
+    name: "Central Intelligence Group (CIG)"
+    countries: [US]
+    notes: "US-Nachrichtendienststelle, Vorläufer der CIA; untersuchte Operation Rusty 1946–1947."

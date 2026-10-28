@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**107 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**112 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -212,6 +212,15 @@ flowchart LR
     N_ORG_DE_COMBAT18_2013["Combat 18 Deutschland (Vereinsstruktur ab 2013)"]
     N_PER_GB_WILLIAM_BROWNING["William Wilf Browning"]
     N_ORG_DE_COMBAT18_2013 -->|"BVerwG berücksichtigte 2020 regelmäßige Kontakte zu William Browning, keine britische Dienstanweisung"| N_PER_GB_WILLIAM_BROWNING
+    N_ORG_US_CIA -->|"übernahm 1949 die amerikanische Aufsicht und Unterstützung"| N_ORG_DE_ORGANISATION_GEHLEN
+    N_PER_DE_EMIL_AUGSBURG["Emil Augsburg"]
+    N_PER_DE_EMIL_AUGSBURG -->|"war nach seiner SS-/RSHA-Tätigkeit im Gehlen-Netz beschäftigt"| N_ORG_DE_ORGANISATION_GEHLEN
+    N_PER_DE_HEINZ_FELFE["Heinz Felfe"]
+    N_PER_DE_HEINZ_FELFE -->|"arbeitete im Dienst und zugleich als sowjetischer Doppelagent"| N_ORG_DE_BND
+    N_ORG_DE_SPD["Sozialdemokratische Partei Deutschlands (SPD)"]
+    N_ORG_DE_ORGANISATION_GEHLEN -->|"spähte nach archivgestützter Forschung die politische Opposition aus"| N_ORG_DE_SPD
+    N_ORG_US_CIG["Central Intelligence Group (CIG)"]
+    N_ORG_US_CIG -->|"bezeichnete Operation Rusty 1947 als potenzielle Widerstandsgruppe und empfahl Auflösung"| N_ORG_DE_ORGANISATION_GEHLEN
 ```
 
 [Zur Relationstabelle](network.md)

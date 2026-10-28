@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**178 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**189 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -434,6 +434,17 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 
 Fundstelle: Sommer, Theo (DEU)
 
+<a id="src-de-barch-fricke-akteneinsicht-1997"></a>
+### Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe
+
+**[Karl Wilhelm Fricke: Akten-Einsicht – Rekonstruktion einer politischen Verfolgung, 4. Auflage](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf)**
+
+Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe · 1997 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-FRICKE-AKTENEINSICHT-1997`
+
+[PDF öffnen](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf)
+
+Fundstelle: Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955
+
 <a id="src-de-barch-b136-1679-paris-1955-1956"></a>
 ### Bundesarchiv / Bundeskanzleramt
 
@@ -662,6 +673,17 @@ Central Intelligence Agency, EE/PP/Germany · 1953-04-15 · Stufe **A** · Prim�
 [PDF öffnen](https://web.archive.org/web/20250220054013id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%202_0023.pdf)
 
 Fundstelle: PDF-S. 1: Übersendung des SPD-Weißbuchs; S. 2: Memorandum 15.04.1953, Einleitung und Ziff. 1–3; S. 3: Ziff. 3–8, besonders Ziff. 7 zum Defizit von 40.000 DM, personeller Reduktion und angekündigtem Finanzierungsende; S. 4: Ziff. 8–10 und Gesamtwertung
+
+<a id="src-us-cia-helms-rusty-19480319"></a>
+### Central Intelligence Agency, Original bei National Security Archive
+
+**[Richard Helms, CIA-Memorandum zu Operation Rusty](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)**
+
+Central Intelligence Agency, Original bei National Security Archive · 1948-03-19 · Stufe **A** · Primärquelle · `SRC-US-CIA-HELMS-RUSTY-19480319`
+
+[PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)
+
+Fundstelle: Document 59, PDF-Bildseite 1
 
 <a id="src-it-court-bologna-aqura-1988"></a>
 ### Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (stragi.it)
@@ -1616,6 +1638,39 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
+<a id="src-us-cig-rusty-doc21-1946"></a>
+### US Central Intelligence Group, Original bei National Security Archive
+
+**[CIG-Memorandum zu Operation Rusty, Dokument 21](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc21.pdf)**
+
+US Central Intelligence Group, Original bei National Security Archive · 1946-10-16 · Stufe **A** · Primärquelle · `SRC-US-CIG-RUSTY-DOC21-1946`
+
+[PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc21.pdf)
+
+Fundstelle: PDF-Bildseiten 1–2, interne Kosten-/Sicherheitsbewertung
+
+<a id="src-us-cig-rusty-doc22-1946"></a>
+### US Central Intelligence Group, Original bei National Security Archive
+
+**[CIG-Memorandum zu Operation Rusty, Dokument 22](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc22.pdf)**
+
+US Central Intelligence Group, Original bei National Security Archive · 1946-10-17 · Stufe **A** · Primärquelle · `SRC-US-CIG-RUSTY-DOC22-1946`
+
+[PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc22.pdf)
+
+Fundstelle: PDF-Bildseiten 1–2, interne Kritik und Kontrollprobleme
+
+<a id="src-us-cig-rusty-doc45-19470606"></a>
+### US Central Intelligence Group; Edition National Security Archive, George Washington University
+
+**[Memorandum on Operation RUSTY, 6 June 1947, Document 45](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc45.pdf)**
+
+US Central Intelligence Group; Edition National Security Archive, George Washington University · 1947-06-06 · Stufe **A** · Primärquelle · `SRC-US-CIG-RUSTY-DOC45-19470606`
+
+[PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc45.pdf)
+
+Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3
+
 ## Forschung & Dokumentation
 
 <a id="src-de-archivportal-da-2026"></a>
@@ -1706,6 +1761,28 @@ Bundesarchiv · 2025 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BA
 
 Fundstelle: Abschnitte Das Attentat; Kontakte zur Wehrsportgruppe Hoffmann; (K)ein rechtsextremes Attentat?; Wiederaufnahme
 
+<a id="src-de-barch-volksaufstand-dienste"></a>
+### Bundesarchiv
+
+**[Die Sicht westlicher Geheimdienste auf den Volksaufstand am 17. Juni 1953](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/volksaufstand/die-sicht-westlicher-geheimdienste/)**
+
+Bundesarchiv · undatiert · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARCH-VOLKSAUFSTAND-DIENSTE`
+
+[Seite öffnen](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/volksaufstand/die-sicht-westlicher-geheimdienste/)
+
+Fundstelle: Rolle der Gehlen-Organisation beim 17. Juni 1953
+
+<a id="src-de-barch-felfe-register"></a>
+### Bundesarchiv
+
+**[Heinz Felfe im Personenregister der Kabinettsprotokolle](https://www.kabinettsprotokolle.bundesarchiv.de/register/person/ef252cb5-4cbf-4862-b636-329666188c9d)**
+
+Bundesarchiv · undatiert · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARCH-FELFE-REGISTER`
+
+[Seite öffnen](https://www.kabinettsprotokolle.bundesarchiv.de/register/person/ef252cb5-4cbf-4862-b636-329666188c9d)
+
+Fundstelle: Registereintrag Heinz Felfe
+
 <a id="src-de-barch-la-belle-dossier"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
 
@@ -1727,6 +1804,28 @@ Bundeszentrale für politische Bildung · 2010-02-25 · Stufe **C** · Sekundär
 [Seite öffnen](https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/)
 
 Fundstelle: Klaus Farin, Absatz zu Urbach und Lindner 1996, S. 213
+
+<a id="src-de-bpb-henke-inland-2014"></a>
+### Bundeszentrale für politische Bildung
+
+**[Zur innenpolitischen Rolle des Auslandsnachrichtendienstes in der Ära Adenauer](https://www.bpb.de/shop/zeitschriften/apuz/183094/zur-innenpolitischen-rolle-des-auslandsnachrichtendienstes-in-der-aera-adenauer/)**
+
+Bundeszentrale für politische Bildung · 2014 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-HENKE-INLAND-2014`
+
+[Seite öffnen](https://www.bpb.de/shop/zeitschriften/apuz/183094/zur-innenpolitischen-rolle-des-auslandsnachrichtendienstes-in-der-aera-adenauer/)
+
+Fundstelle: Inlandsspionage und Regierungsadressaten
+
+<a id="src-de-bpb-henke-geheime-2019"></a>
+### Bundeszentrale für politische Bildung
+
+**[Geheime Dienste. Politische Inlandsspionage der Organisation Gehlen 1946–1953](https://www.bpb.de/shop/buecher/schriftenreihe/295408/geheime-dienste/)**
+
+Bundeszentrale für politische Bildung · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-HENKE-GEHEIME-2019`
+
+[Seite öffnen](https://www.bpb.de/shop/buecher/schriftenreihe/295408/geheime-dienste/)
+
+Fundstelle: Bibliografischer Nachweis und Themenbeschreibung; kein vollständig geprüfter Buchtext
 
 <a id="src-de-bpb-antisemitismus-2021"></a>
 ### Bundeszentrale für politische Bildung
@@ -1869,6 +1968,17 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
 
+<a id="src-us-nsa-gehlen-2005"></a>
+### National Security Archive, George Washington University
+
+**[The CIA and the Gehlen Organization, declassified document collection](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/)**
+
+National Security Archive, George Washington University · 2005 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-NSA-GEHLEN-2005`
+
+[Seite öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/)
+
+Fundstelle: Edition mit Dokumenten 21, 22 und 59
+
 <a id="src-de-igel-urbach-baumann-handschrift-2010"></a>
 ### Regine Igel / Telepolis
 
@@ -1945,6 +2055,17 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 [PDF öffnen](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
+
+<a id="src-us-nara-iwg-gehlen-2001"></a>
+### US National Archives, Interagency Working Group
+
+**[CIA Records and Nazi War Criminals, archive records analysis](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/rg-263-report.html)**
+
+US National Archives, Interagency Working Group · 2001 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-NARA-IWG-GEHLEN-2001`
+
+[Seite öffnen](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/rg-263-report.html)
+
+Fundstelle: Gehlen Organization und Emil Augsburg
 
 <a id="src-de-kraushaar-bombe-gemeindehaus-2005"></a>
 ### Wolfgang Kraushaar / Hamburger Edition

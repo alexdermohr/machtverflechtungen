@@ -8,7 +8,7 @@ Geheime Informationswege, V-Personen, Behördenkontakte und staatliche Mittel.
 
 | Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |
 |---|---|---|---|---|
-| 1946 – 1956 | [Organisation Gehlen und Entstehung des BND](de/organisation-gehlen.md) | DE, US | 1 belegt · 1 stark gestützt | Institutionelle / personelle Kontinuität, Nachrichtendienstliches Netzwerk |
+| 1946 – 1968 | [Organisation Gehlen und Entstehung des BND](de/organisation-gehlen.md) | DE, US | 5 belegt · 5 stark gestützt | Institutionelle / personelle Kontinuität, Nachrichtendienstliches Netzwerk |
 | 1968 – 1981 | [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](de/peter-urbach-verfassungsschutz.md) | DE | 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen | Infiltration |
 | 1975 – 1982 | [Langemann 1975–1982: Aktenabflüsse, Informationsgelder und „Victory for Strauß“](de/langemann-informationsnetz-1976-1982.md) | DE | 3 belegt · 11 stark gestützt · 1 plausibel | Nachrichtendienstliches Netzwerk, Materielle Unterstützung |
 | 1978-07-25 – 1986 | [Celler Loch / Aktion Feuerzauber](de/celler-loch.md) | DE | 2 belegt | Falsche Zuschreibung / Täuschungsoperation, Infiltration |
