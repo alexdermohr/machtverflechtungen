@@ -28,7 +28,7 @@ Das [Bundestags-Lobbyregister R002357](https://www.lobbyregister.bundestag.de/su
 
 ## Young Leaders
 
-Nach eigener Darstellung vernetzt das [Young Leaders Program](https://www.atlantik-bruecke.org/nachwuchsfoerderung/) deutsche und amerikanische Nachwuchsführungskräfte. Teilnehmer werden anschließend Teil eines Alumni-Netzwerks. Entscheidend für die Forschung ist, **welche Rolle eine Person zu welchem Zeitpunkt innehatte** und ob ein konkreter späterer Einflussvorgang unabhängig dokumentiert ist.
+Nach eigener Darstellung vernetzt das Young Leaders Program deutsche und amerikanische Nachwuchsführungskräfte. Teilnehmer werden anschließend Teil eines Alumni-Netzwerks. Entscheidend für die Forschung ist, **welche Rolle eine Person zu welchem Zeitpunkt innehatte** und ob ein konkreter späterer Einflussvorgang unabhängig dokumentiert ist.
 
 ## Laufende Evidenz-Audits
 
@@ -39,7 +39,7 @@ Nach eigener Darstellung vernetzt das [Young Leaders Program](https://www.atlant
 ## Forschungsfragen
 
 - Welche einzelfallbezogenen Korrespondenzen und Stellungnahmen führten von vertraulichen Netzwerktreffen tatsächlich in Regierungs- oder Parlamentsakten?
-- Wie legen Amtsträger Gesprächspartner, Förderverbindungen und potenzielle Interessenkonflikte?
+- Wie legen Amtsträger Gesprächspartner, Förderverbindungen und potenzielle Interessenkonflikte offen?
 - Wie werden die von der Geschäftsführung angebotenen „Reformimpulse“ dokumentiert, angenommen oder verworfen?
 - Gibt es unabhängige Belege für behauptete redaktionelle Weisungen oder andere konkrete unzulässige Einflussnahmen?
 
