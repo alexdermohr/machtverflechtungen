@@ -2,7 +2,7 @@
 
 **Forschungsnotiz · 28. Oktober 2026.** Ergänzende Primärquellen und Quellenkritik zu [politischen Einflusskanälen der Atlantik-Brücke](atlantik-bruecke-cfr-einflusskanaele-1939-2026.md), den [öffentlich ausgewiesenen Förderern 2021–2026](https://github.com/alexdermohr/machtverflechtungen/pull/123) sowie zur [historischen und demokratischen Kritik](https://github.com/alexdermohr/machtverflechtungen/pull/122). Drei Ebenen werden hier bewusst getrennt: **(1) institutionelle Vereinsmitgliedschaft**, **(2) Einzelzahlungen und Sponsoring** und **(3) konkrete politische Interventionen einzelner Personen in ihrer jeweils belegbaren Rolle**.
 
-**Kernbefund.** Deutsche Bank AG und ING-DiBa AG führen die Atlantik-Brücke **in ihren eigenen aktuellen Bundestags-Lobbyregistereinträgen als Mitgliedschaft**. Das ist eine stärkere, institutionell zurechenbare Unternehmensverbindung als eine bloße Vorstands-Personenüberschneidung. Das Register liefert jedoch **keine individuelle Beitragshöhe der beiden Banken an den Verein**. Für denselben früheren Politiker und heutigen Atlantik-Brücke-Vorsitzenden **Sigmar Gabriel** nennt eine **amtliche Bundesregierungstabelle 2020** zugleich einen Kontakt im Rahmen eines Atlantik-Brücke-Roundtables und einen gesonderten direkten Kontakt mit Kanzlerin **Angela Merkel zur EU-Bankenabgabe**. Unabhängige IFG-Recherchen von **abgeordnetenwatch.de und ZEIT ONLINE** publizierten später die Existenz und Ausschnitte einer datierten Mail Gabriels, mit der er am 9. April 2020 der Kanzlerin einen Vorschlag der Deutschen Bank zuleitete. **Diese Intervention im Interesse der Bank ist dokumentiert; ein Auftrag der Atlantik-Brücke, die tatsächliche Annahme des Vorschlags, eine verbotene Gegenleistung oder koordinierte Steuerung der beiden Einrichtungen folgen daraus nicht.**
+**Kernbefund.** Deutsche Bank AG und ING-DiBa AG führen die Atlantik-Brücke **in ihren eigenen aktuellen Bundestags-Lobbyregistereinträgen als Mitgliedschaft**. Sieben weitere Unternehmen – Allianz, Commerzbank, Siemens, Deutsche Telekom, DHL, Bosch und Bayer – melden die Mitgliedschaft ebenfalls selbst [Q14–Q20]. Das sind stärkere, institutionell zurechenbare Verbindungen als bloße Vorstands-Personenüberschneidungen. Das Register liefert jedoch **keine individuelle Beitragshöhe der beiden Banken an den Verein**. Für denselben früheren Politiker und heutigen Atlantik-Brücke-Vorsitzenden **Sigmar Gabriel** nennt eine **amtliche Bundesregierungstabelle 2020** zugleich einen Kontakt im Rahmen eines Atlantik-Brücke-Roundtables und einen gesonderten direkten Kontakt mit Kanzlerin **Angela Merkel zur EU-Bankenabgabe**. Unabhängige IFG-Recherchen von **abgeordnetenwatch.de und ZEIT ONLINE** publizierten später die Existenz und Ausschnitte einer datierten Mail Gabriels, mit der er am 9. April 2020 der Kanzlerin einen Vorschlag der Deutschen Bank zuleitete. **Diese Intervention im Interesse der Bank ist dokumentiert; ein Auftrag der Atlantik-Brücke, die tatsächliche Annahme des Vorschlags, eine verbotene Gegenleistung oder koordinierte Steuerung der beiden Einrichtungen folgen daraus nicht.**
 
 ## 1. Bankmitgliedschaften als amtliche Primärbelege
 
@@ -13,6 +13,22 @@ Das **Bundestags-Lobbyregister R001998**, Eintrag **vom 27.10.2026**, führt unt
 ### AB-BANK-02 — ING-DiBa AG: ausdrücklich angegebene Mitgliedschaft (2025–2026)
 
 Der **Bundestags-Lobbyregistereintrag R002164** nennt die **Atlantik-Brücke** als Nr. **3** der **23 angegebenen Mitgliedschaften** der ING-DiBa AG [Q2]. Ein datierter älterer Originalregisterauszug vom **20.01.2025**, gedruckte **S. 3/PDF-Bildseite 3**, nennt ebenfalls **Atlantik-Brücke e.V.** als drittes Mitgliedschaftsverhältnis unter damals **32 Mitgliedschaften** [Q3]. Die Verbindung ist damit über mehr als einen historischen Datenstand dokumentiert. **Keine dieser Mitgliedschaftslisten nennt einen speziellen Vereinsbeitrag der ING-DiBa.**
+
+### AB-BANK-02B — Sieben weitere ausdrücklich benannte Unternehmensmitglieder (Registerstand Oktober 2026)
+
+Die jeweils **vom Unternehmen selbst gemeldeten aktuellen Bundestags-Lobbyregistereinträge** weisen außerdem die folgende konkrete organisatorische Mitgliedschaft aus. Die „Nr.“ bezieht sich **ausschließlich auf die Position in der Unternehmens-MITGLIEDSCHAFTSLISTE**, nicht auf die Stärke seiner finanziellen Beteiligung oder eine Rangfolge. Zusammen mit Deutscher Bank und ING-DiBa sind damit **neun namentlich einzeln belegte große Unternehmensmitglieder** identifiziert (nicht die vollständigen 179 juristischen Mitgliedschaften des Vereins):
+
+| Unternehmen | Register | „Atlantik-Brücke“ in Mitgliedschaften | Quelle |
+| --- | --- | --- | --- |
+| **Allianz SE** (Versicherung/Finanzdienstleistung) | **R001562** | Nr. **4** von 23 Mitgliedschaften | [Q14] |
+| **Commerzbank AG** (Bank) | **R001772** | Nr. **7** von 45 | [Q15] |
+| **Siemens AG** (Industrie/Technologie) | **R001875** | Nr. **5** von 39 | [Q16] |
+| **Deutsche Telekom AG** (Telekommunikation) | **R002346** | Nr. **5** von 51 | [Q17] |
+| **DHL AG** (Logistik) | **R001114** | Nr. **5** von 41, Schreibweise „Atlantik Brücke e.V.“ | [Q18] |
+| **Robert Bosch GmbH** (Industrie/Technologie) | **R000999** | Nr. **4** von 31 | [Q19] |
+| **Bayer AG** (Pharma/Agrarindustrie) | **R002249** | Nr. **7** von 26 | [Q20] |
+
+**Tragweite:** Das Nebeneinander von **Banken, Versicherungen, Industrie, Chemie, Logistik und Telekommunikation** in einem ausgewählten transatlantischen Verein ist als **institutionelle Zusammensetzung** durch unabhängig je Unternehmen abgegebene Registermeldungen belegt. Es widerlegt den Fehlschluss, beim Verein handele es sich ausschließlich um ein privates Freundschaftsnetzwerk einzelner Politiker. Es ist **kein Beleg einer einheitlichen Weisungsstruktur** oder einer individuellen Unternehmensüberweisung an den Verein. **Die individuellen Beiträge, Sponsoring- oder Sachleistungen dieser neun Mitglieder sind in den zitierten Mitgliedschaftslisten nicht aufgeschlüsselt**. Auch die in jedem Unternehmensregister genannten eigenen „Aufwendungen im Bereich der Interessenvertretung“ sind *gesamte Unternehmenslobbyaufwendungen*, **keine** Zahlungen an die Atlantik-Brücke.
 
 ### AB-BANK-03 — Die 45.000-Euro-Zahl in einer Finanzlobby-Grafik bezeichnet **keinen Bankbeitrag**
 
@@ -93,5 +109,13 @@ Das **Single Resolution Board (SRB)** berichtet in seiner eigenen Aufstellung de
 - **[Q11] Single Resolution Board (SRB), „2020 SRF Levies (ex-ante contributions)“**, 2020, Entscheidung 2020/SRB/ES/24 vom **15.04.2020**, Datenstand **27.05.2020**, **9,195 Mrd. EUR** Beiträge von 3.066 erfassten Einrichtungen für Juni 2020. https://www.srb.europa.eu/en/content/2020-srf-levies-ex-ante-contributions
 - **[Q12] Single Resolution Board, „Ex-ante contributions“**, Originalübersicht der **bis 30.06.2020 eingezogenen Jahresbeiträge**, einschließlich 2020; kein separater Beitrag der Deutschen Bank beziffert. https://www.srb.europa.eu/en/content/ex-ante-contributions
 - **[Q13] Single Resolution Board, „COVID-19 and the banking landscape: a perspective from the Banking Union“**, Rede der damaligen SRB-Vorsitzenden Elke König über 2020: keine rechtliche Möglichkeit einer Beitragsaussetzung zum SRF, anders als verschobene Berichtspflichten. https://www.srb.europa.eu/en/content/covid-19-and-banking-landscape-perspective-banking-union
+
+- **[Q14] Deutscher Bundestag, Lobbyregister R001562 „Allianz SE“**, Mitgliedschaften **23**, Atlantik-Brücke e.V. **Nr. 4**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R001562
+- **[Q15] Deutscher Bundestag, Lobbyregister R001772 „Commerzbank AG“**, Mitgliedschaften **45**, Atlantik-Brücke e.V. **Nr. 7**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R001772
+- **[Q16] Deutscher Bundestag, Lobbyregister R001875 „Siemens AG“**, Mitgliedschaften **39**, Atlantik-Brücke e.V. **Nr. 5**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R001875
+- **[Q17] Deutscher Bundestag, Lobbyregister R002346 „Deutsche Telekom AG“**, Mitgliedschaften **51**, Atlantik-Brücke e.V. **Nr. 5**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R002346
+- **[Q18] Deutscher Bundestag, Lobbyregister R001114 „DHL AG“**, Mitgliedschaften **41**, „Atlantik Brücke e.V.“ **Nr. 5**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R001114
+- **[Q19] Deutscher Bundestag, Lobbyregister R000999 „Robert Bosch GmbH“**, Mitgliedschaften **31**, „Atlantik-Brücke“ **Nr. 4**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R000999
+- **[Q20] Deutscher Bundestag, Lobbyregister R002249 „Bayer AG“**, Mitgliedschaften **26**, Atlantik-Brücke e.V. **Nr. 7**, Abruf 28.10.2026. https://www.lobbyregister.bundestag.de/suche/R002249
 
 **Schlussfolgerungsgrenze:** Die amtlich belegte Finanzmitgliedschaft zweier Banken und die individuell belegte reale Lobbymail Gabriels sind **zwei eigenständige, kombiniert aussagekräftige Verbindungen**. Sie begründen **keine bankfinanzierte Parlamentsumgehung durch die Atlantik-Brücke**, solange Auftrag, Zahlung und Handlungswirkung nicht durch eine konkrete Entscheidungsakte miteinander verknüpft sind.
