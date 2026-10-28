@@ -2144,3 +2144,16 @@ sources:
   accessed: "2026-10-28"
   locator: "PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3"
   notes: "US-internes Papier charakterisiert Operation Rusty als potenzielle Widerstandsgruppe mit US-Unterstützung und empfiehlt deren Auflösung; kein Nachweis einer tatsächlich durchgeführten Gewalttat."
+- id: SRC-DE-BARCH-FRICKE-AKTENEINSICHT-1997
+  title: "Karl Wilhelm Fricke: Akten-Einsicht – Rekonstruktion einer politischen Verfolgung, 4. Auflage"
+  author: "Karl Wilhelm Fricke"
+  institution: "Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe"
+  date: "1997"
+  type: archived_primary_documents_with_commentary
+  primary: true
+  tier: A
+  url: https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf
+  accessed: "2026-10-28"
+  language: de
+  locator: "Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955"
+  notes: "Doppelte Provenienz: Eigenbericht Frickes bestätigt Sesslers Pressekontakte und Anwerbeversuche; MfS-Anklage behauptet Gehlen-Zuordnung und frühere BDJ-Mitgliedschaft, jedoch keine unabhängige Bestätigung. Als politische Verfolgungsakte besonders quellenvorsichtig verwenden."

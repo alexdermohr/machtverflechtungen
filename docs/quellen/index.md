@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**188 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**189 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -433,6 +433,17 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 [Seite öffnen](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)
 
 Fundstelle: Sommer, Theo (DEU)
+
+<a id="src-de-barch-fricke-akteneinsicht-1997"></a>
+### Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe
+
+**[Karl Wilhelm Fricke: Akten-Einsicht – Rekonstruktion einer politischen Verfolgung, 4. Auflage](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf)**
+
+Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe · 1997 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-FRICKE-AKTENEINSICHT-1997`
+
+[PDF öffnen](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf)
+
+Fundstelle: Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955
 
 <a id="src-de-barch-b136-1679-paris-1955-1956"></a>
 ### Bundesarchiv / Bundeskanzleramt
