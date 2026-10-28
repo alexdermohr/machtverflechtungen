@@ -69,7 +69,9 @@ Der Vergleich mit [BDJ/Technischem Dienst](../docs/faelle/de/technischer-dienst-
 - **BND-Archiv, „Unternehmen Versicherungen“ 1949–1953:** Auf Antrag zugänglichen deklassifizierten Aktenband einsehen, Aktenzeichen, Protokolle, tatsächliche Kosten und Inventare, Vermerke zu Gehlen- und Amt-Blank-Kontakten seitenweise sichern; die Archivfreigabe ist von der tatsächlichen Einsicht zu unterscheiden.
 - **Bundesarchiv BArch Pers 2/25972:** Personalakte **Albert Schnez** mit Dienststellen 1950–1953, BND-Kontakten und späterem Bundeswehr-Lauf abgleichen.
 - **Bundesarchiv BArch MSG 2/13934:** Eberbach-Brief vom 1. Juni 1947, spätere Korrespondenz und mögliche Befehlswege zwischen Tübinger Selbstschutz und Gehlen-Dienst prüfen.
-- **Nachlass Speidel, BArch N 626/189, N 1251 (Wildermuth):** politische Auftraggeber und tatsächlich vorhandene Mittel, Gutachten, Kontaktvermerke und Verteiler rekonstruieren.
+- **Bundesarchiv BArch N 626/189:** Korrespondenz aus dem Sekretariat des Sachverständigenausschusses im Nachlass **Adolf Graf Kielmanseggs** (nicht Hans Speidels), siehe Keßelring/Loch (2015), **S. 63, Anm. 18**. Politische Auftraggeber, Verteiler und Weisungen prüfen.
+- **Nachlass Hans Speidel (privat verwahrt; in Keßelring/Loch als „NL Speidel“ zitiert):** Einsichtsmöglichkeiten gesondert klären; **nicht** als BArch N 626/189 katalogisieren, siehe Keßelring/Loch (2015), **S. 61, Anm. 3**.
+- **Bundesarchiv BArch N 1251 (Nachlass Eberhard Wildermuth):** weitere Regierungsaufträge, Gutachten, Kontakte und Mittelverwendung anhand eigenständiger Bestandsangaben prüfen, siehe Keßelring/Loch (2015), **S. 61, Anm. 4**.
 - **Gladio-/Stay-behind-Abgleich:** Nur belegte identische Personen und Daten zwischen Evakuierungsarmee und späteren NATO-Strukturen modellieren; Unterschiede in Auftrag, Raum, Finanzierung und Rechtsstatus sichtbar halten.
 - **Bundesfinanz- und Waffenwege:** Nicht beantwortete Regierungsfragen 6–8 gezielt durch Haushalts-, Bereitschaftspolizei- und Lagerunterlagen prüfen, um bloß beabsichtigte Depots von angelegten Depots zu unterscheiden.
 
