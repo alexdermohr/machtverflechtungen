@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**115 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**119 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -13,6 +13,7 @@
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE |
+| Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE |
@@ -21,6 +22,7 @@
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE |
+| Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE |
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE |
@@ -87,6 +89,7 @@
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US |
+| Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE |
@@ -112,6 +115,7 @@
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE |
+| Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |

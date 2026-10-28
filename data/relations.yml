@@ -1028,3 +1028,46 @@ relations:
     evidence_level: established
     sources: [SRC-DE-BVERWG-C18-6VR120-2020]
     claim_ids: [CLM-DE-UKC18-008]
+  - id: REL-DE-GEHLEN-004
+    from: ORG-US-CIA
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: oversight_and_sponsorship
+    label: "übernahm 1949 die amerikanische Aufsicht und Unterstützung"
+    period: {start: "1949", end: "1955"}
+    evidence_level: strong
+    sources: [SRC-DE-BPB-BND-2026, SRC-US-NSA-GEHLEN-2005]
+    claim_ids: [CLM-DE-GEHLEN-005]
+  - id: REL-DE-GEHLEN-005
+    from: PER-DE-EMIL-AUGSBURG
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: employed_by
+    label: "war nach seiner SS-/RSHA-Tätigkeit im Gehlen-Netz beschäftigt"
+    evidence_level: strong
+    sources: [SRC-US-NARA-IWG-GEHLEN-2001]
+    claim_ids: [CLM-DE-GEHLEN-006]
+  - id: REL-DE-GEHLEN-006
+    from: PER-DE-HEINZ-FELFE
+    to: ORG-DE-BND
+    type: employed_by
+    label: "arbeitete im Dienst und zugleich als sowjetischer Doppelagent"
+    period: {start: "1956", end: "1961"}
+    evidence_level: strong
+    sources: [SRC-DE-BARCH-FELFE-REGISTER]
+  - id: REL-DE-GEHLEN-007
+    from: ORG-DE-ORGANISATION-GEHLEN
+    to: ORG-DE-SPD
+    type: political_surveillance
+    label: "spähte nach archivgestützter Forschung die politische Opposition aus"
+    period: {start: "1946", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-DE-BPB-HENKE-INLAND-2014, SRC-DE-BPB-HENKE-GEHEIME-2019]
+    claim_ids: [CLM-DE-GEHLEN-007]
+  - id: REL-DE-GEHLEN-008
+    from: ORG-US-CIG
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: critical_assessment
+    label: "bezeichnete Operation Rusty 1947 als potenzielle Widerstandsgruppe und empfahl Auflösung"
+    period: {start: "1947-06-06"}
+    evidence_level: established
+    sources: [SRC-US-CIG-RUSTY-DOC45-19470606]
+    claim_ids: [CLM-DE-GEHLEN-010]

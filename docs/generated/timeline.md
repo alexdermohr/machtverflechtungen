@@ -4,7 +4,7 @@ _Automatisch aus denselben Fall-Metadaten erzeugt._
 
 | Beginn | Ende | Fall | Länder | Claim-Evidenz |
 |---:|---:|---|---|---|
-| 1946 | 1956 | [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) | DE, US | 1 belegt · 1 stark gestützt |
+| 1946 | 1968 | [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) | DE, US | 5 belegt · 5 stark gestützt |
 | 1950 | 1998 | [Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung](../faelle/de/medien-nachrichtendienst-crosslayer.md) | DE, US, FR | 2 belegt · 2 stark gestützt |
 | 1950 | 1953 | [Technischer Dienst des Bundes Deutscher Jugend](../faelle/de/technischer-dienst-bdj.md) | DE | 35 belegt · 1 stark gestützt |
 | 1968 | 1981 | [Peter Urbach: Verfassungsschutzquelle, Waffenbeschaffung und West-Berliner Militanz](../faelle/de/peter-urbach-verfassungsschutz.md) | DE | 1 belegt · 16 stark gestützt · 5 plausibel · 1 spekulativ/offen |
