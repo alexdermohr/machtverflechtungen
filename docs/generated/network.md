@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**112 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**116 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -9,6 +9,7 @@
 | ID | Von | Beziehung | Zu | Evidenz | Quellen |
 |---|---|---|---|---|---|
 | `REL-DE-NSU-YOZ-001` | Andreas Temme | war Mitarbeiter und V-Mann-Führer | Landesamt für Verfassungsschutz Hessen | belegt | [SRC-DE-BT-NSU-YOZGAT-2016](../quellen/index.md#src-de-bt-nsu-yozgat-2016) |
+| `REL-DE-AB-NEW-BRIDGE-001` | Atlantik-Brücke e.V. | betreibt New Bridge Program (New Bridge to Germany seit 2021) | Atlantik-Brücke New Bridge Program | belegt | [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026](../quellen/index.md#src-de-ab-newbridge-program-2026) |
 | `REL-DE-AB-001` | Atlantik-Brücke e.V. | betreibt | Atlantik-Brücke Young Leaders Program | belegt | [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-BDJ-011` | Bayerischer Ministerrat | Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Deutschen Heimatschutz | Deutscher Heimatschutz (Erlangen, 1951–1953) | belegt | [SRC-DE-BYMR-TD-19530113](../quellen/index.md#src-de-bymr-td-19530113) |
 | `REL-DE-BDJ-010` | Bayerischer Ministerrat | Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Stoßtrupp; Vollzug gesondert nachprüfen | Stoßtrupp gegen bolschewistische Zersetzung | belegt | [SRC-DE-BYMR-TD-19530113](../quellen/index.md#src-de-bymr-td-19530113) |
@@ -56,6 +57,7 @@
 | `REL-DE-TMN-031` | Hubert Burda | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-053` | Hubert Burda | Teilnehmer der Bilderberg-Konferenz 2007 | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-2007-ARCHIVE](../quellen/index.md#src-int-bilderberg-2007-archive) |
 | `REL-DE-TMN-047` | Ingo Zamperoni | Teilnehmer eines Working Lunch mit Admiral James G. Stavridis | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2011-2012](../quellen/index.md#src-de-ab-jb-2011-2012) |
+| `REL-DE-JHS-AB-NEWBRIDGE-2026` | Joachim Herz Stiftung | fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen | Atlantik-Brücke New Bridge Program | belegt | [SRC-DE-JHS-NEWBRIDGE-2026](../quellen/index.md#src-de-jhs-newbridge-2026), [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026](../quellen/index.md#src-de-ab-newbridge-program-2026) |
 | `REL-DE-TMN-032` | Josef Joffe | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-054` | Josef Joffe | Teilnehmer der Bilderberg-Konferenz 2006 | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-2006-ARCHIVE](../quellen/index.md#src-int-bilderberg-2006-archive) |
 | `REL-DE-TMN-038` | Julia Jäkel | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
@@ -103,6 +105,8 @@
 | `REL-DE-TMN-012` | Sven Afhüppe | als Mitglied bezeichnet | Atlantik-Brücke e.V. | belegt | [SRC-DE-HMG-AFHUEPPE-2014](../quellen/index.md#src-de-hmg-afhueppe-2014) |
 | `REL-DE-TMN-013` | Sven Afhüppe | moderierte Industrie-4.0-Veranstaltung | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-AFHUEPPE-2016](../quellen/index.md#src-de-ab-afhueppe-2016) |
 | `REL-DE-TMN-014` | Sven Afhüppe | Chefredakteur | Handelsblatt | belegt | [SRC-DE-AB-AFHUEPPE-2016](../quellen/index.md#src-de-ab-afhueppe-2016) |
+| `REL-US-HALLE-AB-GRANT-2022` | The Halle Foundation | bewilligte 47.525 USD für New Bridge 2022; keine ausgezahlte Summe nachgewiesen | Atlantik-Brücke e.V. | belegt | [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023](../quellen/index.md#src-us-halle-ab-newbridge-grants-2022-2023) |
+| `REL-US-HALLE-AB-GRANT-2023` | The Halle Foundation | bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen | Atlantik-Brücke e.V. | belegt | [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023](../quellen/index.md#src-us-halle-ab-newbridge-grants-2022-2023) |
 | `REL-DE-TMN-039` | Theo Koll | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-025` | Theo Koll | Teilnehmer des Young-Leaders-Jahrgangs 1988 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-049` | Theo Sommer | Gesprächspartner einer von der Atlantik-Brücke organisierten Journalistenreise | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2009-2010](../quellen/index.md#src-de-ab-jb-2009-2010) |
