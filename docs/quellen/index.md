@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**195 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**201 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -36,6 +36,39 @@ American Council on Germany · 2025 · Stufe **A** · Primärquelle · `SRC-US-A
 [Seite öffnen](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/)
 
 Fundstelle: Matthias Naß 1984; Theo Hans Koll 1988; Paul-Bernhard Kallen 1991; Kai Georg Diekmann 1995; Jörg Schönenborn 2000; Julia Jäckel 2002; Elmar Georg Theveßen 2003
+
+<a id="src-us-afb-irs-2008"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2008, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2008.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2008 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2008`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2008.pdf)
+
+Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
+
+<a id="src-us-afb-irs-2009"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2009, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2009.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2009 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2009`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2009.pdf)
+
+Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
+
+<a id="src-us-afb-irs-2010"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2010, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2010.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2010 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2010`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2010.pdf)
+
+Fundstelle: PDF-Bildseite 18 (Nullindex 17), Schedule B Part I, Donald Graham 25.000 USD
 
 <a id="src-de-ard-panorama-urbach-1971-video"></a>
 ### ARD Mediathek / NDR
@@ -433,6 +466,17 @@ Bilderberg Meetings · 2017 · Stufe **A** · Primärquelle · `SRC-INT-BILDERBE
 [Seite öffnen](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017)
 
 Fundstelle: Döpfner, Mathias (DEU), CEO, Axel Springer SE
+
+<a id="src-int-bilderberg-steering-2026"></a>
+### Bilderberg Meetings
+
+**[Bilderberg Meetings – offizielles Steering Committee (Abruf 2026)](https://bilderbergmeetings.org/background/steering-committee/steering-committee)**
+
+Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDERBERG-STEERING-2026`
+
+[Seite öffnen](https://bilderbergmeetings.org/background/steering-committee/steering-committee)
+
+Fundstelle: John Micklethwait – Bloomberg; Steuerungsausschuss mit Teilnehmer- und Agendazuständigkeit
 
 <a id="src-int-bilderberg-former-steering"></a>
 ### Bilderberg Meetings
@@ -1704,6 +1748,17 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
+<a id="src-us-wapo-sec-10k-2010"></a>
+### U.S. Securities and Exchange Commission
+
+**[The Washington Post Company – Form 10-K 2010](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)**
+
+U.S. Securities and Exchange Commission · 2010-03-02 · Stufe **A** · Primärquelle · `SRC-US-WAPO-SEC-10K-2010`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)
+
+Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer
+
 <a id="src-us-cig-rusty-doc21-1946"></a>
 ### US Central Intelligence Group, Original bei National Security Archive
 
@@ -1736,6 +1791,17 @@ US Central Intelligence Group; Edition National Security Archive, George Washing
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc45.pdf)
 
 Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3
+
+<a id="src-us-afb-nccs-990-2025"></a>
+### US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS
+
+**[American Friends of Bilderberg Inc. – Form 990-PF 2025 und Schedule B, NCCS XML](https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml)**
+
+US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS · 2025 · Stufe **A** · Primärquelle · `SRC-US-AFB-NCCS-990-2025`
+
+[Seite öffnen](https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml)
+
+Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors
 
 ## Forschung & Dokumentation
 
