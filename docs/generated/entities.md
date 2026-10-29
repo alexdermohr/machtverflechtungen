@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**122 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**132 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -42,6 +42,7 @@
 | Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE |
 | Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE |
+| Otto Lenz | person | `PER-DE-OTTO-LENZ` | DE |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE |
 | Peter Urbach | person | `PER-DE-PETER-URBACH` | DE |
@@ -63,6 +64,7 @@
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE |
+| Wilhelm Classen | person | `PER-DE-WILHELM-CLASSEN` | DE |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE |
 | William Wilf Browning | person | `PER-GB-WILLIAM-BROWNING` | GB |
 | Đỗ Anh Lân | person | `PER-DE-DO-ANH-LAN` | DE |
@@ -97,10 +99,13 @@
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE |
 | Deutsche Bürgerinitiative | organization | `ORG-DE-DEUTSCHE-BUERGERINITIATIVE` | DE |
+| Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE |
+| Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE |
+| Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
@@ -115,8 +120,10 @@
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US |
+| Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE |
+| Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |
@@ -128,6 +135,7 @@
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE |
+| Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE |
@@ -138,3 +146,5 @@
 |---|---|---|---|
 | Atlantik-Brücke New Bridge Program | program | `PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE` | DE, US |
 | Atlantik-Brücke Young Leaders Program | program | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | DE, US |
+| CIA-Teilprojekt QKSNITCH | program | `PRG-US-CIA-QKSNITCH` | US, DE |
+| CIA/OPC-Projekt KMMANLY | program | `PRG-US-CIA-KMMANLY` | US, DE |
