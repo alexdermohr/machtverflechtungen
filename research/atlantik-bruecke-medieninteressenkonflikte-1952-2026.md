@@ -105,6 +105,19 @@ Diese vier Befunde sind ein **Pilot mit Dokumentationskategorien**. Ein belastba
 
 **Falsifikation:** Eine vollständige dokumentierte Offenlegung bei der jeweiligen Berichterstattung würde einen behaupteten fehlenden Hinweis widerlegen; Originalarchive mit zahlreichen frühen Artikeln widerlegen eine generelle Unterdrückung. Das Fehlen von Presseberichten **allein** reicht nicht, um eine zentrale Medienabsprache zu behaupten.
 
+## ME-06: Zwei zeitgenössische Pressebeiträge zur Bilderberg-Konferenz 2026 [A/B]
+
+**Präzise Gegenprobe zur These eines vollständigen medialen Schweigens:** Unmittelbar nach dem Treffen vom **9.–12.04.2026** erschienen mindestens zwei identifizierbare, datierte Artikel in etablierten Medien:
+
+| Originalbeitrag | Überprüfbarer Berichterstattungsgegenstand | Evidenz und Grenze |
+| --- | --- | --- |
+| **Berliner Zeitung**, Franz Becchi, **13.04.2026**, [*Geheimtreffen: Die Liste der Bilderberg-Teilnehmer*](https://www.berliner-zeitung.de/article/bilderberg-2026-liste-deutsche-teilnehmer-10030133) [Q15] | Kurz nach Konferenzende: Teilnehmer, hochrangige politische und Wirtschaftsrollen, Hinweis auf fehlende journalistische Begleitung. | **A** für Existenz, Datum, Autor und offen sichtbare Einleitung; Volltext hinter Bezahlschranke für diese Prüfung nicht vollständig verfügbar. Keine verlässliche Aussage über den vollständigen redaktionellen Tiefgang. |
+| **The Guardian**, Charlie Skelton, **14.04.2026**, [*Secretive Bilderberg group just met – but who knows what global elite said?*](https://www.theguardian.com/us-news/2026/apr/14/politicians-bilderberg-meeting) [Q16] | Als **Analysis** gekennzeichneter Beitrag zu Teilnehmerzusammensetzung, politischen Konfliktfeldern und fehlendem öffentlichen Einblick in die Beratungen. | **A** für Existenz, Datum, Kennzeichnung und im Original überprüfbaren Inhalt; die weitergehenden historischen Ursprungs- und Motivzuschreibungen des Autors werden **nicht** ungeprüft als amtliche Fakten übernommen. |
+
+Die pauschale Tatsachenbehauptung, **es habe überhaupt keine Medienberichterstattung über Bilderberg 2026 gegeben**, ist damit durch zwei datierte Originalartikel **widerlegt (E)**. Eine andere und weiterhin offene Frage lautet, ob die **Teilnehmenden-Medien** selbst hinreichend über die Konferenz informierten, ob eigene organisatorische Rollen sichtbar wurden und welche Vergleichsereignisse in derselben Woche stärker berichtet wurden. Das vorliegende Zwei-Artikel-Sample erlaubt **kein** quantitatives Urteil über die Gesamtabdeckung, und **keinen** Schluss auf eine abgesprochene Nachrichtensperre.
+
+**Für den eigenständigen Medien-Governance-Test:** Von dieser unabhängigen Berichterstattung zu trennen ist die [aktive Lenkungsausschuss-Rolle von Medienführungskräften](https://bilderbergmeetings.org/background/steering-committee/steering-committee) [Q9]. Eine journalistisch relevante Rollenoffenlegung ist nur an konkret datierten Veröffentlichungen und ihrer Fassung zu bewerten, nicht anhand bloßer Abwesenheit in einer Suchmaschine. Relevante Zeitfenster sind zunächst **09.–16. April 2026** und anschließend der gesamte April 2026; paywall- und archivbedingte Erfassungslücken separat führen.
+
 ## Quellen
 
 - **[Q1, A]** Atlantik-Brücke e.V., *Vorstand*, 2026, https://www.atlantik-bruecke.org/vorstand/
@@ -122,3 +135,6 @@ Diese vier Befunde sind ein **Pilot mit Dokumentationskategorien**. Ein belastba
 - **[Q12, A]** Deutscher Presserat, *Praxis-Leitsätze zur Ziffer 6*, 19.03.2025, https://www.presserat.de/leitsaetze-zur-ziffer-6.html
 - **[Q13, A]** ARD, *Gemeinsame journalistische Grundsätze*, 06.02.2024, https://www.ard.de/die-ard/aufgaben-der-ard/gemeinsame-journalistische-grundsaetze-der-ard-100.html
 - **[Q14, A]** ZDF, *Unabhängigkeit, Integrität und Glaubwürdigkeit*, 15.08.2024, https://www.zdf.de/unternehmen/organisation/compliance-norbert-himmler-100.html
+
+- **[Q15, A]** Berliner Zeitung, Franz Becchi, *Geheimtreffen: Die Liste der Bilderberg-Teilnehmer*, 13.04.2026 (nur öffentlich zugängliche Einleitung geprüft), https://www.berliner-zeitung.de/article/bilderberg-2026-liste-deutsche-teilnehmer-10030133
+- **[Q16, A]** The Guardian, Charlie Skelton, *Secretive Bilderberg group just met*, Analysis, 14.04.2026, https://www.theguardian.com/us-news/2026/apr/14/politicians-bilderberg-meeting
