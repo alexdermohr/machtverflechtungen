@@ -121,6 +121,10 @@ Der vorhandene Quellenbestand dieses Projekts trägt damit zunächst zwei Ebenen
 - Welche Teile der weitergehenden Deutungen sind stark gestützt, plausibel oder weiterhin spekulativ?
 - Welche dokumentierten Verbindungen bestehen zu anderen Fällen der italienischen Anschlagsserie?
 
+## Vertiefende Originalquellenstudie: SID-Quellenschutz und Ermittlungsbehinderung
+
+Die [Forschungsakte zu SID-Begünstigung, der Maletti-Anhörung 1997, dem gesonderten Aktenbestand des Innenministeriums und dem Kassationsurteil von 2005](../../research/piazza-fontana-sid-depistaggi-1969-2005.md) trennt richterliche Befunde, Zeugenaussagen und offene Weisungsfragen. Die beiden hier registrierten Basisklaims bleiben unverändert.
+
 ## Nächste Evidenzstufe
 
 Der Mechanismus-Tag `investigative-misdirection` markiert derzeit einen Prüfpfad. Konkrete Aussagen zu Ermittlungsmanipulation, Täterschaft, Deckung oder staatlicher Beteiligung werden erst dann als eigene Claims aufgenommen, wenn die entsprechende Quellenkette registriert ist.
