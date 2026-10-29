@@ -606,3 +606,22 @@ entities:
     name: "Central Intelligence Group (CIG)"
     countries: [US]
     notes: "US-Nachrichtendienststelle, Vorläufer der CIA; untersuchte Operation Rusty 1946–1947."
+
+
+  - id: ORG-US-HALLE-FOUNDATION
+    type: foundation
+    name: "The Halle Foundation"
+    countries: [US]
+    notes: "US-amerikanische Stiftung mit in eigener Grant History bezifferten Zusagen an die Atlantik-Brücke für das New Bridge Program 2022 und 2023; Auszahlungen nicht unabhängig belegt."
+
+  - id: ORG-DE-JOACHIM-HERZ-STIFTUNG
+    type: foundation
+    name: "Joachim Herz Stiftung"
+    countries: [DE]
+    notes: "Gemeinnützige private Stiftung; öffentlich als Förderin von New Bridge genannt. Stiftungsvermögen ist kein Vereinsbudget."
+
+  - id: PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE
+    type: program
+    name: "Atlantik-Brücke New Bridge Program"
+    countries: [DE, US]
+    notes: "Eigenständiges vollfinanziertes Fellowship-/Austauschprogramm für bisher unterrepräsentierte Perspektiven, seit 2021 New Bridge to Germany und seit 2023 New Bridge to the U.S.; nicht mit dem Young Leaders Program gleichsetzen."
