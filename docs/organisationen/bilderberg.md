@@ -33,11 +33,6 @@ Die verbreitete angebliche Dankesrede David Rockefellers von 1991 an Medienverle
 - [Vergleich mit der Atlantik-Brücke: Zugang, Geld, Agenda und Rechenschaft](../research/atlantik-bruecke-bilderberg-vergleich-2026.md)
 - [Amtliche Transparenzinstrumente und ihre Dokumentationslücken](../research/lobbykontakte-exekutiver-fussabdruck-transparenz-2026.md)
 
-## Registrierte Quellen
-
-- [Participants 2017](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017) – `SRC-INT-BILDERBERG-2017`.
-- [Former Steering Committee Members](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members) – `SRC-INT-BILDERBERG-FORMER-STEERING`.
-
 
 ## Registrierte Bestandsquellen
 
