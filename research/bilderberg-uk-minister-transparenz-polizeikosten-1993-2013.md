@@ -71,6 +71,16 @@ Die Summe ist eine **ausgewiesene tatsächliche Charity-Aufwendung**, nicht nur 
 
 **Originalbildstatus:** PDF-Seite 12 (Nullindex 12, Note 1) wurde im extrahierten Dokumenttext samt Bilanzvergleich geprüft; die zusätzliche bildliche Gegenprüfung über den Archivabruf scheiterte am 29.10.2026 wiederholt an einem Timeout. Diese visuelle Gegenprüfung bleibt ausdrücklich offen; sie wird **nicht** als erfolgt ausgegeben.
 
+## BB-UK-07 – Home-Office-Sonderfinanzierung: £527.762 für Operation Discuss beantragt, Entscheidung offen [A]
+
+**Bildgeprüfter neuer amtlicher Finanzierungsbeleg:** Die britische Regierung veröffentlichte im Rahmen der **FOI-Freigaben 29027 und 29091** eine vierseitige Tabelle *Home Office emergency funding provided to police forces from 2008 to 2013*, deren Aktualisierung auf **6. März 2014** datiert [Q14]. **PDF-Index 3, Zeile „2013/2014 Hertfordshire“** nennt unter **„Amount of bid“ £527,762** und unter **„Reason for Grant Application“ „Op Discuss, Bilderberg Conference“**. Im Feld **„Application successful? (money paid out)“** steht ausdrücklich **„Decision Pending“**. Die Spaltenüberschriften auf **PDF-Index 0** wurden ebenso bildseitig gegengeprüft.
+
+Damit ist erstmals in dieser Studie eine **konkret bezifferte und an den Bilderberg-Polizeieinsatz gebundene Antragsspur für zusätzliche Home-Office-Mittel** aus einer amtlichen Finanzierungsaufstellung erschlossen. Der Betrag **£527.762 ist der Förderantrag, keine festgestellte Zahlung**; der bei Veröffentlichung dokumentierte Bearbeitungsstatus war offen. Die Akte sagt nicht, ob und gegebenenfalls wann die britische Regierung diese Mittel später bewilligte oder auszahlte.
+
+**Abgrenzung zur übrigen Bilanz:** Dieser staatliche `Amount of bid` ist weder die **2013er £1,3-Mio.-Polizeikostenschätzung** [Q7], noch das **£500.000-Angebot privater Konferenzsponsoren** [Q7], noch die im Charity-Jahresabschluss ausgewiesene **£320.000-Security-Aufwendung** [Q11]. Ohne Schlussabrechnung darf keine dieser Größen als Gegenbuchung einer anderen behandelt werden. Die tatsächliche endgültige Nettokostentragung für Hertfordshire und das Home Office bleibt unbekannt.
+
+**Gerichtete Folgefragen:** (1) **Home-Office-Entscheidungsakte und Zahlungsfreigabe** zu FOI-29091, Zeile 2013/14 „Op Discuss“; (2) PCC-Forderungs- und Zahlungskonten zum öffentlichen Polizeieinsatz; (3) Sponsorenerstattungen einschließlich Zahlungstag, Zahlendem und Empfänger; (4) Kostenüberleitungsrechnung zwischen privater Sicherheitsfirma und polizeilicher Operation. Eine später veröffentlichte Entscheidung für oder gegen den Zuschuss würde diese offene Claim-Klasse unmittelbar auflösen.
+
 ## Kontroll- und Falsifikationsmatrix
 
 | Konkrete Behauptung | Belegstatus | Fehlende Dokumente |
@@ -83,6 +93,7 @@ Die Summe ist eine **ausgewiesene tatsächliche Charity-Aufwendung**, nicht nur 
 | Britische Association beabsichtigt später politisch nutzbare Beziehungen | **A** – expliziter Rechenschaftszweck [Q6] | einzelne nachfolgende Kontakte und staatliche Anschlussakte |
 | £1,3 Mio. Polizeikosten / £0,5 Mio. Sponsorenbeitrag | **A** – Schätzung + Angebot; **keine Zahlung bestätigt** [Q7] | endgültige Police-Force-Kostenschlussrechnung und Buchungsbeleg |
 | £459.839 Charity-Ausgabe 2013/14 (Security £320.000; Organisation £139.839) | **A** – geprüfte Vorjahresvergleichsspalte 2015 [Q11] | Rechnungsempfänger, Police/PCC-Zahlungen, Home-Office-Ausgleich; PDF-Bildabgleich |
+| Sonderförderantrag £527.762 Hertfordshire/Op Discuss 2013/14 | **A – direkt bildgeprüft**: amtliche FOI-Tabelle [Q14], zunächst `Decision Pending` | endgültiger Home-Office-Bescheid, Auszahlungsbuchung, PCC-Kontennachweis |
 | Konkrete kriminelle politische Absprache oder redaktionelle Weisung | **offen, keine hier vorliegende Kausalkette** | Gesprächsinhalte, nachgelagerte Dokumente, unabhängige Gegenbelege |
 | Charity 272706 2026 fortbestehend | **widerlegt** – Register Löschdatum 2021 [Q9] | für neue UK-Gesellschaft gesonderte Rechtsträgerakten [Q10] |
 
@@ -106,3 +117,5 @@ Die Summe ist eine **ausgewiesene tatsächliche Charity-Aufwendung**, nicht nur 
 - **[Q11, A – Dokumenttext; Bildabgleich offen]** *The Bilderberg Association, Annual Report and Financial Statements 31 March 2015*, Charity 272706, Buzzacott LLP: Committee Report S. 3, Statement of Financial Activities S. 8, **Note 1 „Charitable activities“ S. 11 (PDF-Index 12)**: 2014-Vergleichsspalte £320.000 Security, £139.839 Consultancy and organisation, £459.839 Summe, https://info.publicintelligence.net/BilderbergAssociation-2015.pdf
 - **[Q12, A]** HM Treasury / Prime Minister's Office, *David Cameron and George Osborne speech & Q&A at Skanska*, **22.04.2014**, Frage zu Hertfordshire-Bilderberg-Kosten und Antworten ohne Endabrechnung, https://www.gov.uk/government/speeches/speech-by-david-cameron-and-george-osborne-at-skanska
 - **[Q13, B]** Police Professional, *Herts facing huge bill for Bilderberg summit*, **06.06.2013**, zeitgenössische Wiedergabe polizeilicher Pressestellenauskunft: private Veranstalter-Sicherheitsfirma getrennt vom beabsichtigten Beitrag zu öffentlichen Polizeikosten, https://policeprofessional.com/news/herts-facing-huge-bill-for-bilderberg-summit/
+
+- **[Q14, A – Originalbild geprüft]** UK Home Office, *Home Office emergency funding provided to police forces from 2008 to 2013*, FOI **29091**, Annex A, **PDF-Index 3**, Zeile **2013/2014 Hertfordshire: £527,762 / Op Discuss, Bilderberg Conference / Decision Pending**; Spaltenüberschriften PDF-Index 0. Regierungs-Veröffentlichung aktualisiert **06.03.2014**, ursprüngliche FOI-Freigabe **21.11.2013**. https://www.gov.uk/government/publications/home-office-emergency-funding-provided-to-police-forces – Original-PDF: https://assets.publishing.service.gov.uk/media/5a74e7a5e5274a59fa715e02/29091-Annex_A_-_information_for_release.pdf
