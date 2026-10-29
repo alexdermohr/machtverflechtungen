@@ -1,17 +1,19 @@
 # Personen & Organisationen
 
-**132 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**139 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
 | Name | Typ | ID | Länder |
 |---|---|---|---|
+| Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE |
+| Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE |
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE |
@@ -27,6 +29,7 @@
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE |
+| John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE |
@@ -45,6 +48,7 @@
 | Otto Lenz | person | `PER-DE-OTTO-LENZ` | DE |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE |
+| Peter Thiel | person | `PER-US-PETER-THIEL` | US |
 | Peter Urbach | person | `PER-DE-PETER-URBACH` | DE |
 | Raymund Hörnle | person | `PER-DE-RAYMUND-HOERNLE` | DE |
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE |
@@ -73,6 +77,7 @@
 
 | Name | Typ | ID | Länder |
 |---|---|---|---|
+| American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE |
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE |
@@ -82,6 +87,7 @@
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE |
+| Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE |
@@ -129,6 +135,7 @@
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |
 | The Halle Foundation | foundation | `ORG-US-HALLE-FOUNDATION` | US |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE |
+| The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE |
