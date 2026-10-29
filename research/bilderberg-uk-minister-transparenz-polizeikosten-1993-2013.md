@@ -51,6 +51,26 @@ Auf eine **schriftliche Frage von Paul Flynn** antwortete Innenstaatssekretär *
 
 Das **offizielle britische Charity-Register** verzeichnet **The Bilderberg Association, Charity Nr. 272706**, Registrierung am **24.01.1977** und **Löschung/Beendigung am 21.05.2021** [Q9]. Daher ist sie **2026 keine fortbestehende Charity unter genau dieser Nummer**. Das britische **Companies House** führt darüber hinaus eine Gesellschaft **„THE BILDERBERG ASSOCIATION UK LIMITED“, Company No. 12988319**, mit späteren Publikationen einschließlich **Jahresabschlüssen 2025/2026** [Q10]. Gleiche/ähnliche Namen sind **kein Nachweis identischer juristischer Person, einer Rechtsnachfolge, einer Vermögensübertragung oder Kontinuität der einzelnen Trustee-Funktionen**. Dafür fehlen Übertragungsurkunden, Jahresabschlüsse und Handelsregisterkette.
 
+## BB-UK-06 – 2013er Konferenzausgaben: £459.839 in geprüfter britischer Charity-Rechnung [A]
+
+**Neuer Originalaktenbefund (Jahresbericht zum 31.03.2015 mit Vergleichsjahr 2014):** Der von Buzzacott LLP geprüfte Bericht der britischen **The Bilderberg Association, Charity 272706**, bezeichnet für das am **31. März 2014** beendete Geschäftsjahr **£459.839 als bereits erfassten Beitrag zur Ausrichtung der britischen Jahreskonferenz im Juni 2013** [Q11, PDF-Index 4, Druckseite 3; Index 9, Druckseite 8; Index 12, Druckseite 11, Note 1]. Die Position `Charitable activities — June 2013 UK Conference` ist in der **2014er Vergleichsspalte** wie folgt aufgeschlüsselt:
+
+| Buchungskategorie im Original | Geschäftsjahr bis 31.03.2014 | Geschäftsjahr bis 31.03.2015 |
+| --- | ---: | ---: |
+| **Security** | **£320.000** | £0 |
+| **Consultancy and organisation** | **£139.839** | £0 |
+| **Konferenzsumme** | **£459.839** | **£0** |
+
+Die Summe ist eine **ausgewiesene tatsächliche Charity-Aufwendung**, nicht nur ein Sponsorenangebot. Sie ergibt sich ausdrücklich aus der **Vorjahresspalte** des 2015er Berichts und ist nicht dem Geschäftsjahr 2015 zuzuschreiben. Auch darf sie nicht zu einer zusätzlichen, separat angenommenen Summe der 2014er Konten aufaddiert werden: beide beziehen sich auf die gleiche Vorjahresausgabe. Der Bericht hält außerdem fest, dass die britische Association Konferenzen bei Durchführung in Großbritannien unterstützt, teilweise Reisen britischer Teilnehmer fördert und britische Teilnehmer und Agendapunkte mit auswählt [Q11, PDF-Indices 3–4].
+
+**Empfängergrenze und Kostenabgleich:** Der Originaltext nennt **keinen Empfänger der £320.000-Security-Position** und keine Unterrechnung. Insbesondere ist damit **weder eine Zahlung an Hertfordshire Constabulary noch eine Identität** mit dem am 17.06.2013 im Unterhaus genannten **£500.000-Angebot von Veranstaltungssponsoren** bewiesen [Q7, Q11]. Bereits die polizeiliche Pressestelle unterschied 2013 zwischen einer von den Veranstaltern **bezahlten privaten Sicherheitsfirma** und Beiträgen zu **öffentlichen Polizeikosten** [Q13]. Die Bilanzposition könnte private Sicherheitsleistungen, einzelne öffentliche Sicherheitskosten oder verschiedene Rechnungen umfassen; die Originalnote trennt dies **nicht** auf. Auch die Größenordnungen £320.000, £500.000 und £1,3 Mio. sind keine widerspruchsfrei verrechenbaren Buchungspositionen ohne Empfänger- und Periodenbeleg.
+
+**Weiterer amtlicher Prüfpunkt (22.04.2014):** Auf die öffentliche Frage, ob Hertfordshire mehr als £500.000 der Bilderberg-Polizeikosten zu tragen habe, antworteten Osborne und Cameron mit allgemeinen Hinweisen auf die Polizeiaufgabe sowie mögliche **Home-Office-Hilfe bei außergewöhnlichen Kosten**, aber **ohne konkrete Endabrechnung oder Zahlungsbestätigung** [Q12]. Die Frage ist keine unabhängige Feststellung der schlussendlichen Steuerzahlerbelastung.
+
+**Status/Falsifikation:** *Established* ist die Konferenzausgabe der Charity und ihre Aufteilung; *established* ist die staatliche Kostenschätzung und das Sponsorenangebot; *open* bleiben tatsächlicher Zahlungsempfänger der £320.000, etwaiger Zahlungseingang der £500.000, staatlicher Kostenausgleich und endgültige öffentliche Nettobelastung. Der entscheidende Test besteht aus **Hertfordshire-Police/PCC-Forderungskonto, Leistungs- und Empfangsbelegen, Home-Office-Special-Grant-Bescheiden sowie Charity-Rechnungen/Banktransaktionen** für 2013/14. Ein Kontoaggregat über das gesamte Polizeijahr reicht hierfür nicht.
+
+**Originalbildstatus:** PDF-Seite 12 (Nullindex 12, Note 1) wurde im extrahierten Dokumenttext samt Bilanzvergleich geprüft; die zusätzliche bildliche Gegenprüfung über den Archivabruf scheiterte am 29.10.2026 wiederholt an einem Timeout. Diese visuelle Gegenprüfung bleibt ausdrücklich offen; sie wird **nicht** als erfolgt ausgegeben.
+
 ## Kontroll- und Falsifikationsmatrix
 
 | Konkrete Behauptung | Belegstatus | Fehlende Dokumente |
@@ -62,6 +82,7 @@ Das **offizielle britische Charity-Register** verzeichnet **The Bilderberg Assoc
 | UK-Komitee wählt Gäste und Agenda mit | **A** – 2013er statutäre Charity-Eigenaussage [Q6] | interne Auswahlkorrespondenz, Abstimmungs- und Konfliktregeln |
 | Britische Association beabsichtigt später politisch nutzbare Beziehungen | **A** – expliziter Rechenschaftszweck [Q6] | einzelne nachfolgende Kontakte und staatliche Anschlussakte |
 | £1,3 Mio. Polizeikosten / £0,5 Mio. Sponsorenbeitrag | **A** – Schätzung + Angebot; **keine Zahlung bestätigt** [Q7] | endgültige Police-Force-Kostenschlussrechnung und Buchungsbeleg |
+| £459.839 Charity-Ausgabe 2013/14 (Security £320.000; Organisation £139.839) | **A** – geprüfte Vorjahresvergleichsspalte 2015 [Q11] | Rechnungsempfänger, Police/PCC-Zahlungen, Home-Office-Ausgleich; PDF-Bildabgleich |
 | Konkrete kriminelle politische Absprache oder redaktionelle Weisung | **offen, keine hier vorliegende Kausalkette** | Gesprächsinhalte, nachgelagerte Dokumente, unabhängige Gegenbelege |
 | Charity 272706 2026 fortbestehend | **widerlegt** – Register Löschdatum 2021 [Q9] | für neue UK-Gesellschaft gesonderte Rechtsträgerakten [Q10] |
 
@@ -81,3 +102,7 @@ Das **offizielle britische Charity-Register** verzeichnet **The Bilderberg Assoc
 - **[Q8, B]** Police Professional, *Hertfordshire Constabulary's Bilderberg policing praised*, **Juni 2013**, Berichterstattung zu polizeilichen Aufgaben/zugesagtem Veranstalterbeitrag; kein endgültiger Buchungsnachweis, https://policeprofessional.com/news/hertfordshire-constabulary%C2%92s-bilderberg-policing-praised/
 - **[Q9, A]** UK Charity Commission, *The Bilderberg Association, Charity number 272706*, offizielle Registerübersicht, **removed 21.05.2021**, https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/272706/full-print
 - **[Q10, A]** UK Companies House, *THE BILDERBERG ASSOCIATION UK LIMITED, 12988319*, aktuelle eigenständige Gesellschaftsfilings, https://find-and-update.company-information.service.gov.uk/company/12988319/filing-history
+
+- **[Q11, A – Dokumenttext; Bildabgleich offen]** *The Bilderberg Association, Annual Report and Financial Statements 31 March 2015*, Charity 272706, Buzzacott LLP: Committee Report S. 3, Statement of Financial Activities S. 8, **Note 1 „Charitable activities“ S. 11 (PDF-Index 12)**: 2014-Vergleichsspalte £320.000 Security, £139.839 Consultancy and organisation, £459.839 Summe, https://info.publicintelligence.net/BilderbergAssociation-2015.pdf
+- **[Q12, A]** HM Treasury / Prime Minister's Office, *David Cameron and George Osborne speech & Q&A at Skanska*, **22.04.2014**, Frage zu Hertfordshire-Bilderberg-Kosten und Antworten ohne Endabrechnung, https://www.gov.uk/government/speeches/speech-by-david-cameron-and-george-osborne-at-skanska
+- **[Q13, B]** Police Professional, *Herts facing huge bill for Bilderberg summit*, **06.06.2013**, zeitgenössische Wiedergabe polizeilicher Pressestellenauskunft: private Veranstalter-Sicherheitsfirma getrennt vom beabsichtigten Beitrag zu öffentlichen Polizeikosten, https://policeprofessional.com/news/herts-facing-huge-bill-for-bilderberg-summit/
