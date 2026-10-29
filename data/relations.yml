@@ -1207,7 +1207,7 @@ relations:
     evidence_level: strong
     sources: [SRC-DE-GSP-BPA-VERTRAG-1953]
 
-- id: REL-US-BBF-001
+  - id: REL-US-BBF-001
     from: ORG-US-WASHINGTON-POST-COMPANY
     to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
     type: documented_donation
