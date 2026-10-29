@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**127 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**137 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -8,6 +8,7 @@
 
 | ID | Von | Beziehung | Zu | Evidenz | Quellen |
 |---|---|---|---|---|---|
+| `REL-US-BBF-006` | Alexander Karp | NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 500.000 USD | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-NCCS-990-2025](../quellen/index.md#src-us-afb-nccs-990-2025) |
 | `REL-DE-NSU-YOZ-001` | Andreas Temme | war Mitarbeiter und V-Mann-Führer | Landesamt für Verfassungsschutz Hessen | belegt | [SRC-DE-BT-NSU-YOZGAT-2016](../quellen/index.md#src-de-bt-nsu-yozgat-2016) |
 | `REL-DE-AB-NEW-BRIDGE-001` | Atlantik-Brücke e.V. | betreibt New Bridge Program (New Bridge to Germany seit 2021) | Atlantik-Brücke New Bridge Program | belegt | [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026](../quellen/index.md#src-de-ab-newbridge-program-2026) |
 | `REL-DE-AB-001` | Atlantik-Brücke e.V. | betreibt | Atlantik-Brücke Young Leaders Program | belegt | [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
@@ -39,6 +40,8 @@
 | `REL-DE-MNI-008` | Congress for Cultural Freedom | laut Forschung wurden Zuschüsse aus CIA-Mitteln über den Congress an Der Monat geleitet | Der Monat | stark gestützt | [SRC-INT-SCOTT-SMITH-DER-MONAT-2000](../quellen/index.md#src-int-scott-smith-der-monat-2000) |
 | `REL-DE-BDJ-008` | Deutscher Heimatschutz (Erlangen, 1951–1953) | Bayerische Ermittler ordneten 1952 eine bei DHS-Werbung genannte Referenznummer einer CIC-Dienststelle zu | U.S. Counter Intelligence Corps (CIC) | belegt | [SRC-DE-BYLT-TD-19521029](../quellen/index.md#src-de-bylt-td-19521029) |
 | `REL-DE-TMN-033` | Dieter von Holtzbrinck | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
+| `REL-US-BBF-003` | Donald E. Graham | 2010er Steuererklärung nennt Donald Graham als individuellen Geldgeber von 25.000 USD; Namensidentität mit SEC-CEO nicht eindeutig codiert | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-IRS-2010](../quellen/index.md#src-us-afb-irs-2010), [SRC-US-WAPO-SEC-10K-2010](../quellen/index.md#src-us-wapo-sec-10k-2010) |
+| `REL-US-BBF-004` | Donald E. Graham | Chairman und CEO laut SEC Form 10-K 2010 | The Washington Post Company (historischer Rechtsträger) | belegt | [SRC-US-WAPO-SEC-10K-2010](../quellen/index.md#src-us-wapo-sec-10k-2010) |
 | `REL-DE-TMN-021` | Elmar Theveßen | als Mitglied bezeichnet | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-THEVESSEN-2024](../quellen/index.md#src-de-ab-thevessen-2024) |
 | `REL-DE-TMN-030` | Elmar Theveßen | Teilnehmer des Young-Leaders-Jahrgangs 2003 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-022` | Elmar Theveßen | Leiter ZDF-Studio Washington | ZDF | belegt | [SRC-DE-AB-THEVESSEN-2024](../quellen/index.md#src-de-ab-thevessen-2024) |
@@ -63,6 +66,9 @@
 | `REL-DE-TMN-053` | Hubert Burda | Teilnehmer der Bilderberg-Konferenz 2007 | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-2007-ARCHIVE](../quellen/index.md#src-int-bilderberg-2007-archive) |
 | `REL-DE-TMN-047` | Ingo Zamperoni | Teilnehmer eines Working Lunch mit Admiral James G. Stavridis | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2011-2012](../quellen/index.md#src-de-ab-jb-2011-2012) |
 | `REL-DE-JHS-AB-NEWBRIDGE-2026` | Joachim Herz Stiftung | fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen | Atlantik-Brücke New Bridge Program | belegt | [SRC-DE-JHS-NEWBRIDGE-2026](../quellen/index.md#src-de-jhs-newbridge-2026), [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026](../quellen/index.md#src-de-ab-newbridge-program-2026) |
+| `REL-US-BBF-007` | John Micklethwait | Director in der US-Form-990-PF-Organliste 2025; keine eigene Geldzuwendung daraus abgeleitet | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-NCCS-990-2025](../quellen/index.md#src-us-afb-nccs-990-2025) |
+| `REL-US-BBF-008` | John Micklethwait | Auf offizieller Bilderberg-Steering-Committee-Seite am 29.10.2026 genannt; konkrete Berufungsdaten offen | Bilderberg Meetings | belegt | [SRC-INT-BILDERBERG-STEERING-2026](../quellen/index.md#src-int-bilderberg-steering-2026) |
+| `REL-US-BBF-009` | John Micklethwait | Editor-in-Chief von Bloomberg, laut offizieller Bilderberg-Gremienliste am 29.10.2026 | Bloomberg L.P. | stark gestützt | [SRC-INT-BILDERBERG-STEERING-2026](../quellen/index.md#src-int-bilderberg-steering-2026) |
 | `REL-DE-TMN-032` | Josef Joffe | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-054` | Josef Joffe | Teilnehmer der Bilderberg-Konferenz 2006 | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-2006-ARCHIVE](../quellen/index.md#src-int-bilderberg-2006-archive) |
 | `REL-DE-TMN-038` | Julia Jäkel | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
@@ -102,6 +108,8 @@
 | `REL-DE-KMM-010` | Otto Lenz | CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen | Deutsche Soldaten-Zeitung (1952/53) | stark gestützt | [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953](../quellen/index.md#src-us-cia-kmmanly-monthly-1952-1953) |
 | `REL-DE-TMN-026` | Paul-Bernhard Kallen | Teilnehmer des Young-Leaders-Jahrgangs 1991 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-043` | Peter Frey | Redner beim Frankfurt Luncheon zum Fernsehen in der digitalen Öffentlichkeit | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2014-2015](../quellen/index.md#src-de-ab-jb-2014-2015) |
+| `REL-US-BBF-005` | Peter Thiel | NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 1.000.000 USD | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-NCCS-990-2025](../quellen/index.md#src-us-afb-nccs-990-2025) |
+| `REL-US-BBF-010` | Peter Thiel | Originalbild Form 990-PF 2010, Schedule B Part I Position 5: namentlich Peter Thiel, 50.000 USD; keine individuelle Ausweisnummer | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-IRS-2010](../quellen/index.md#src-us-afb-irs-2010) |
 | `REL-DE-KMM-011` | Presse- und Informationsamt der Bundesregierung (1953) | heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft | Gesellschaft für Wehrkunde (historischer Verein) | stark gestützt | [SRC-DE-GSP-BPA-VERTRAG-1953](../quellen/index.md#src-de-gsp-bpa-vertrag-1953) |
 | `REL-DE-GEHLEN-003` | Reinhard Gehlen | erster Präsident | Bundesnachrichtendienst | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
 | `REL-DE-GEHLEN-002` | Reinhard Gehlen | leitete | Organisation Gehlen | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
@@ -116,6 +124,8 @@
 | `REL-DE-TMN-014` | Sven Afhüppe | Chefredakteur | Handelsblatt | belegt | [SRC-DE-AB-AFHUEPPE-2016](../quellen/index.md#src-de-ab-afhueppe-2016) |
 | `REL-US-HALLE-AB-GRANT-2022` | The Halle Foundation | bewilligte 47.525 USD für New Bridge 2022; keine ausgezahlte Summe nachgewiesen | Atlantik-Brücke e.V. | belegt | [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023](../quellen/index.md#src-us-halle-ab-newbridge-grants-2022-2023) |
 | `REL-US-HALLE-AB-GRANT-2023` | The Halle Foundation | bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen | Atlantik-Brücke e.V. | belegt | [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023](../quellen/index.md#src-us-halle-ab-newbridge-grants-2022-2023) |
+| `REL-US-BBF-001` | The Washington Post Company (historischer Rechtsträger) | Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2008; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-IRS-2008](../quellen/index.md#src-us-afb-irs-2008) |
+| `REL-US-BBF-002` | The Washington Post Company (historischer Rechtsträger) | Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2009; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt | American Friends of Bilderberg Inc. | stark gestützt | [SRC-US-AFB-IRS-2009](../quellen/index.md#src-us-afb-irs-2009) |
 | `REL-DE-TMN-039` | Theo Koll | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | `REL-DE-TMN-025` | Theo Koll | Teilnehmer des Young-Leaders-Jahrgangs 1988 | Atlantik-Brücke Young Leaders Program | belegt | [SRC-US-ACG-YL-LIST-1973-2025](../quellen/index.md#src-us-acg-yl-list-1973-2025), [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
 | `REL-DE-TMN-049` | Theo Sommer | Gesprächspartner einer von der Atlantik-Brücke organisierten Journalistenreise | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-JB-2009-2010](../quellen/index.md#src-de-ab-jb-2009-2010) |
