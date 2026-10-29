@@ -625,3 +625,63 @@ entities:
     name: "Atlantik-Brücke New Bridge Program"
     countries: [DE, US]
     notes: "Eigenständiges vollfinanziertes Fellowship-/Austauschprogramm für bisher unterrepräsentierte Perspektiven, seit 2021 New Bridge to Germany und seit 2023 New Bridge to the U.S.; nicht mit dem Young Leaders Program gleichsetzen."
+
+  - id: PRG-US-CIA-KMMANLY
+    type: program
+    name: "CIA/OPC-Projekt KMMANLY"
+    countries: [US, DE]
+    notes: "Übergeordnetes CIA/OPC-Projekt für verdeckte politische und publizistische Einflussnahme 1951–1953; nicht mit QKSNITCH gleichsetzen."
+
+  - id: PRG-US-CIA-QKSNITCH
+    type: program
+    name: "CIA-Teilprojekt QKSNITCH"
+    countries: [US, DE]
+    notes: "Teilprojekt KMMANLY zur Gesellschaft für Wehrkunde. 240.858 DM werden im CIA-Abschlussbericht berichtet, Anlage D und Bankbelege noch ungesichert."
+
+  - id: ORG-DE-GFW-1952
+    type: association
+    name: "Gesellschaft für Wehrkunde (historischer Verein)"
+    countries: [DE]
+    notes: "Empfängerin laut CIA-OPC-Berichten; heutige GSP und deren finanzielle Nachfolge sind gesondert zu prüfen."
+
+  - id: ORG-DE-STIFTERVERBAND-1952
+    type: association
+    name: "Stifterverband für die Deutsche Wissenschaft (1952/53)"
+    countries: [DE]
+    notes: "Im CIA-QKSNITCH-Abschlussbericht als Tarn- beziehungsweise Durchleitungsstelle beschrieben; keine unabhängig nachgewiesene Einzelbankbuchung."
+
+  - id: ORG-DE-DSZ-1952
+    type: media_outlet
+    name: "Deutsche Soldaten-Zeitung (1952/53)"
+    countries: [DE]
+    notes: "Laut KMMANLY-Monatsberichten verdeckt unterstützte Publikation; einzelne Ausgaben und redaktionelle Anweisungen weiter abzugleichen."
+
+  - id: ORG-DE-EWK-1952
+    type: media_outlet
+    name: "Europäische Wehr-Korrespondenz (1952)"
+    countries: [DE]
+    notes: "CIA-Monatsbericht nennt drei Ausgaben zu je 5.000 Exemplaren und acht Nachdrucke in nicht namentlich bezeichneten Zeitungen; einzelne Nachdrucke nicht unabhängig identifiziert."
+
+  - id: ORG-DE-WWR-1952
+    type: media_outlet
+    name: "Wehrwissenschaftliche Rundschau (1952)"
+    countries: [DE]
+    notes: "CIA-Bericht führt die Verbreitung eines zwölfseitigen Nachdrucks mit 2.500 Exemplaren auf."
+
+  - id: ORG-DE-BUNDESPRESSEAMT-1953
+    type: government_agency
+    name: "Presse- und Informationsamt der Bundesregierung (1953)"
+    countries: [DE]
+    notes: "CIA-Monatsbericht führt 300 Nachdruckexemplare als an das Bundespresseamt verteilte Menge auf; keine daraus abgeleitete Redaktionsweisung."
+
+  - id: PER-DE-WILHELM-CLASSEN
+    type: person
+    name: "Wilhelm Classen"
+    countries: [DE]
+    notes: "CIA-QKSNITCH-Kontaktperson; historisches NS-Personalprofil und Finanzierungsrolle quellenkritisch getrennt untersuchen."
+
+  - id: PER-DE-OTTO-LENZ
+    type: person
+    name: "Otto Lenz"
+    countries: [DE]
+    notes: "Nach CIA-Monatsberichten mit Förderzusagen zur Deutschen Soldaten-Zeitung befasst; konkrete Auszahlung offen."
