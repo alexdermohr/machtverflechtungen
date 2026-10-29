@@ -1286,3 +1286,12 @@ relations:
     evidence_level: strong
     sources: [SRC-INT-BILDERBERG-STEERING-2026]
 
+  - id: REL-US-BBF-010
+    from: PER-US-PETER-THIEL
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Originalbild Form 990-PF 2010, Schedule B Part I Position 5: namentlich Peter Thiel, 50.000 USD; keine individuelle Ausweisnummer"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2010]
+

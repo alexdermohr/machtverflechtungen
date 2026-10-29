@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**127 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**137 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -249,6 +249,23 @@ flowchart LR
     N_PER_DE_OTTO_LENZ["Otto Lenz"]
     N_PER_DE_OTTO_LENZ -->|"CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"| N_ORG_DE_DSZ_1952
     N_ORG_DE_BUNDESPRESSEAMT_1953 -->|"heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft"| N_ORG_DE_GFW_1952
+    N_ORG_US_WASHINGTON_POST_COMPANY["The Washington Post Company (historischer Rechtsträger)"]
+    N_ORG_US_AMERICAN_FRIENDS_BILDERBERG["American Friends of Bilderberg Inc."]
+    N_ORG_US_WASHINGTON_POST_COMPANY -->|"Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2008; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_ORG_US_WASHINGTON_POST_COMPANY -->|"Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2009; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_DONALD_E_GRAHAM["Donald E. Graham"]
+    N_PER_US_DONALD_E_GRAHAM -->|"2010er Steuererklärung nennt Donald Graham als individuellen Geldgeber von 25.000 USD; Namensidentität mit SEC-CEO nicht eindeutig codiert"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_DONALD_E_GRAHAM -->|"Chairman und CEO laut SEC Form 10-K 2010"| N_ORG_US_WASHINGTON_POST_COMPANY
+    N_PER_US_PETER_THIEL["Peter Thiel"]
+    N_PER_US_PETER_THIEL -->|"NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 1.000.000 USD"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_ALEXANDER_KARP["Alexander Karp"]
+    N_PER_US_ALEXANDER_KARP -->|"NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 500.000 USD"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_GB_JOHN_MICKLETHWAIT["John Micklethwait"]
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Director in der US-Form-990-PF-Organliste 2025; keine eigene Geldzuwendung daraus abgeleitet"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Auf offizieller Bilderberg-Steering-Committee-Seite am 29.10.2026 genannt; konkrete Berufungsdaten offen"| N_ORG_INT_BILDERBERG_MEETINGS
+    N_ORG_US_BLOOMBERG_LP["Bloomberg L.P."]
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Editor-in-Chief von Bloomberg, laut offizieller Bilderberg-Gremienliste am 29.10.2026"| N_ORG_US_BLOOMBERG_LP
+    N_PER_US_PETER_THIEL -->|"Originalbild Form 990-PF 2010, Schedule B Part I Position 5: namentlich Peter Thiel, 50.000 USD; keine individuelle Ausweisnummer"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
 ```
 
 [Zur Relationstabelle](network.md)
