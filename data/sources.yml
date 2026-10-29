@@ -2392,3 +2392,15 @@ sources:
   accessed: "2026-10-29"
   locator: "Newbridge Advisory £5,669.57, Bilderberg Association estimated £536.58, trip 2–5 June 2022"
   notes: "Sponsorennamen ohne eindeutige Company Number; Abweichung zwischen Organisation und Rechtsträger nicht verschleiern."
+
+- id: SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026
+  title: "THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Persons with significant control"
+  institution: "UK Companies House"
+  date: current
+  type: official_company_register
+  primary: true
+  tier: A
+  url: https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control
+  accessed: "2026-10-29"
+  locator: "Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors"
+  notes: "Amtliche Registerangabe über Kontrolle/Stimmbefugnisse einer company limited by guarantee ohne Stammkapital; nicht mit Eigentum an Aktien, alleiniger Weisungshoheit oder redaktioneller Steuerung gleichsetzen."

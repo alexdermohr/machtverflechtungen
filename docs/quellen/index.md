@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**209 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**210 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -1813,6 +1813,17 @@ UK Companies House · 2020-11-02 · Stufe **A** · Primärquelle · `SRC-GB-COMP
 [Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/12988319/officers)
 
 Fundstelle: Sir Robert John Sawers und Susan Jean Minton Beddoes seit 2 November 2020 Directors
+
+<a id="src-gb-companies-house-bilderberg-psc-2026"></a>
+### UK Companies House
+
+**[THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Persons with significant control](https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control)**
+
+UK Companies House · current · Stufe **A** · Primärquelle · `SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026`
+
+[Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control)
+
+Fundstelle: Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors
 
 <a id="src-gb-home-office-foi29091-2014"></a>
 ### UK Home Office

@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**148 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**150 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.
 
@@ -120,6 +120,7 @@
 | `REL-DE-GEHLEN-002` | Reinhard Gehlen | leitete | Organisation Gehlen | stark gestützt | [SRC-DE-BPB-BND-2026](../quellen/index.md#src-de-bpb-bnd-2026) |
 | `REL-GB-BB-UK-003` | Sir John Sawers | Director seit Unternehmensgründung am 28.02.2019, Companies House | Newbridge Advisory Limited (11853148) | belegt | [SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148](../quellen/index.md#src-gb-companies-house-newbridge-11853148), [SRC-GB-BP-AGM-SAWERS-2023](../quellen/index.md#src-gb-bp-agm-sawers-2023) |
 | `REL-GB-BB-UK-004` | Sir John Sawers | Director seit 02.11.2020; 2023 ebenfalls durch BP-AGM-Governancebericht bestätigt | The Bilderberg Association UK Limited (12988319) | belegt | [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319](../quellen/index.md#src-gb-companies-house-bilderberg-12988319), [SRC-GB-BP-AGM-SAWERS-2023](../quellen/index.md#src-gb-bp-agm-sawers-2023) |
+| `REL-GB-BB-UK-012` | Sir John Sawers | Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors | The Bilderberg Association UK Limited (12988319) | belegt | [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026](../quellen/index.md#src-gb-companies-house-bilderberg-psc-2026) |
 | `REL-DE-TMN-015` | Stefan Kornelius | Gastredner bei Young Leaders-Konferenz | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-KORNELIUS-YL-2016](../quellen/index.md#src-de-ab-kornelius-yl-2016) |
 | `REL-DE-TMN-016` | Stefan Kornelius | Ressortleiter Außenpolitik | Süddeutsche Zeitung | belegt | [SRC-DE-AB-KORNELIUS-YL-2016](../quellen/index.md#src-de-ab-kornelius-yl-2016) |
 | `REL-DE-TMN-034` | Stefan von Holtzbrinck | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
@@ -128,6 +129,7 @@
 | `REL-DE-BDJ-006` | Stoßtrupp gegen bolschewistische Zersetzung | Hoegner bezeichnete den Deutschen Heimatschutz am 29.10.1952 als Unterorganisation des eigenständigen Stoßtrupps | Deutscher Heimatschutz (Erlangen, 1951–1953) | belegt | [SRC-DE-BYLT-TD-19521029](../quellen/index.md#src-de-bylt-td-19521029) |
 | `REL-GB-BB-UK-007` | Susan Jean Minton Beddoes (Zanny Minton Beddoes) | Als Zanny Minton Beddoes in aktueller offizieller Steering-Liste; Startdatum und exakte amtliche Identitätskennung offen | Bilderberg Meetings | stark gestützt | [SRC-INT-BILDERBERG-STEERING-2026](../quellen/index.md#src-int-bilderberg-steering-2026), [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319](../quellen/index.md#src-gb-companies-house-bilderberg-12988319) |
 | `REL-GB-BB-UK-005` | Susan Jean Minton Beddoes (Zanny Minton Beddoes) | Susan Jean Minton Beddoes: Director seit 02.11.2020 laut Companies House | The Bilderberg Association UK Limited (12988319) | belegt | [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319](../quellen/index.md#src-gb-companies-house-bilderberg-12988319) |
+| `REL-GB-BB-UK-013` | Susan Jean Minton Beddoes (Zanny Minton Beddoes) | Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors | The Bilderberg Association UK Limited (12988319) | belegt | [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026](../quellen/index.md#src-gb-companies-house-bilderberg-psc-2026) |
 | `REL-GB-BB-UK-006` | Susan Jean Minton Beddoes (Zanny Minton Beddoes) | Zanny Minton Beddoes als Economist-Chefredakteurin; Zuordnung zur Register-Namensform Susan Jean stark gestützt | The Economist | stark gestützt | [SRC-INT-BILDERBERG-STEERING-2026](../quellen/index.md#src-int-bilderberg-steering-2026), [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319](../quellen/index.md#src-gb-companies-house-bilderberg-12988319) |
 | `REL-DE-TMN-012` | Sven Afhüppe | als Mitglied bezeichnet | Atlantik-Brücke e.V. | belegt | [SRC-DE-HMG-AFHUEPPE-2014](../quellen/index.md#src-de-hmg-afhueppe-2014) |
 | `REL-DE-TMN-013` | Sven Afhüppe | moderierte Industrie-4.0-Veranstaltung | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-AFHUEPPE-2016](../quellen/index.md#src-de-ab-afhueppe-2016) |

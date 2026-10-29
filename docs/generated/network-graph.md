@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**148 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**150 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -289,6 +289,8 @@ flowchart LR
     N_PER_GB_DAVID_LAMMY -->|"Bilderberg-Konferenz Washington, 02.–05.06.2022, im House-of-Commons-Register erklärt"| N_ORG_INT_BILDERBERG_MEETINGS
     N_ORG_GB_COMMONS_STANDARDS_COMMISSIONER["Parliamentary Commissioner for Standards (House of Commons)"]
     N_ORG_GB_COMMONS_STANDARDS_COMMISSIONER -->|"2022: verspätete Bilderberg-Reiseangabe verletzt Paragraph 14 Commons Code; unbeabsichtigt, geringes Gewicht, per Rectification erledigt"| N_PER_GB_DAVID_LAMMY
+    N_PER_GB_JOHN_SAWERS -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
 ```
 
 [Zur Relationstabelle](network.md)

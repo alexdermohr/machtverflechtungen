@@ -735,7 +735,7 @@ entities:
     type: organization
     name: "The Bilderberg Association UK Limited (12988319)"
     countries: [GB]
-    notes: "Am 02.11.2020 gegründete company limited by guarantee; gleichzeitiges Bestehen mit alter Charity belegt keine automatische Rechtsnachfolge."
+    notes: "Am 02.11.2020 gegründete company limited by guarantee; Persons with Significant Control: Sawers und Susan Jean Minton Beddoes mit je über 25 bis maximal 50 Prozent Stimmrechten sowie Befugnis zur Direktorbestellung/-abberufung. Keine automatische Rechtsnachfolge zur alten Charity belegt."
 
   - id: ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148
     type: organization

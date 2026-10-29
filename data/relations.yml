@@ -1391,3 +1391,21 @@ relations:
     period: {start: "2022-08-11"}
     evidence_level: established
     sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022]
+
+  - id: REL-GB-BB-UK-012
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
+
+  - id: REL-GB-BB-UK-013
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
