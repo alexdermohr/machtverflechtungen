@@ -1206,3 +1206,83 @@ relations:
     period: {start: "1953"}
     evidence_level: strong
     sources: [SRC-DE-GSP-BPA-VERTRAG-1953]
+
+- id: REL-US-BBF-001
+    from: ORG-US-WASHINGTON-POST-COMPANY
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2008; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"
+    period: {start: "2008-01-01", end: "2008-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2008]
+
+  - id: REL-US-BBF-002
+    from: ORG-US-WASHINGTON-POST-COMPANY
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2009; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"
+    period: {start: "2009-01-01", end: "2009-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2009]
+
+  - id: REL-US-BBF-003
+    from: PER-US-DONALD-E-GRAHAM
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "2010er Steuererklärung nennt Donald Graham als individuellen Geldgeber von 25.000 USD; Namensidentität mit SEC-CEO nicht eindeutig codiert"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2010, SRC-US-WAPO-SEC-10K-2010]
+
+  - id: REL-US-BBF-004
+    from: PER-US-DONALD-E-GRAHAM
+    to: ORG-US-WASHINGTON-POST-COMPANY
+    type: chief_executive
+    label: "Chairman und CEO laut SEC Form 10-K 2010"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: established
+    sources: [SRC-US-WAPO-SEC-10K-2010]
+
+  - id: REL-US-BBF-005
+    from: PER-US-PETER-THIEL
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 1.000.000 USD"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-006
+    from: PER-US-ALEXANDER-KARP
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 500.000 USD"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-007
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: director
+    label: "Director in der US-Form-990-PF-Organliste 2025; keine eigene Geldzuwendung daraus abgeleitet"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-008
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: steering_committee_member
+    label: "Auf offizieller Bilderberg-Steering-Committee-Seite am 29.10.2026 genannt; konkrete Berufungsdaten offen"
+    evidence_level: established
+    sources: [SRC-INT-BILDERBERG-STEERING-2026]
+
+  - id: REL-US-BBF-009
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-US-BLOOMBERG-LP
+    type: editor_in_chief
+    label: "Editor-in-Chief von Bloomberg, laut offizieller Bilderberg-Gremienliste am 29.10.2026"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026]
+
