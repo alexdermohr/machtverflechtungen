@@ -156,6 +156,22 @@ Nach [IRS, Public disclosure: requirements for private foundations](https://www.
 
 Das erlaubt einen präzisen, rechtmäßigen Aktenweg: Für **EIN 51-0163715** jeweils die **vollständige öffentliche Form 990-PF einschließlich Schedule B** abfordern bzw. aus IRS-Veröffentlichungen beziehen und gegen die Finanzjahre und Spender-Zuordnungen abgleichen. **Private Wohnadressen und Kontaktinformationen werden für die Netzwerkanalyse nicht benötigt und sollen im Forschungsportal nicht reproduziert werden.** Öffentliches Steuerrecht schafft dennoch keinen pauschalen Anspruch auf vertrauliche Bilderberg-Gesprächsnotizen.
 
+## BB-IRS-06 – Britischer Abgeordneter Nick Boles 2012: konkrete, getrennte Reiseförderung durch American Friends und Bilderberg Meetings [A]
+
+Eine in den bisherigen US-IRS-Finanzierungsdaten nicht als Einzelfall nachgewiesene transatlantische **Förderbeziehung zu einem namentlich bestimmten Mandatsträger** ergibt sich aus dem öffentlichen britischen Parlamentsregister vom **19. November 2012** [Q23]. In der fortlaufenden Rubrik des Abgeordneten **Nick Boles (Grantham and Stamford)** steht die Auslandsreise zur Bilderberg-Konferenz in **Chantilly, Virginia, USA, vom 31. Mai bis 2. Juni 2012**. Der Original-PDF-Faksimileabgleich wurde auf **PDF-Index 27 (Name Nick Boles), Index 28 (getrennte Reise- und Sponsorbeträge), Index 29 (Reisedaten/Registrierungsdatum und unmittelbar folgender neuer Abgeordneter Peter Bone)** durchgeführt [Q23]. Die seitenübergreifende Abgrenzung verhindert, dass die Reise irrtümlich dem nachfolgenden Peter Bone zugeordnet wird.
+
+| Im parlamentarischen Register angegebener Förderer | Deklarierte Leistung und Wert | Organadresse laut Register |
+| --- | --- | --- |
+| **Bilderberg Meetings** | **Rückflüge: 1.173,39 GBP** | PO Box 75984, 1070 AZ Amsterdam, Niederlande |
+| **American Friends of Bilderberg** | **Hotel für zwei Nächte: 500,52 GBP** | 625 Park Avenue, New York, NY 10065, USA |
+| **Summe der zwei einzeln zugeordneten Leistungen** | **1.673,91 GBP** | Nicht ein einziger Rechtsträger |
+
+Das Register erfasst die Leistungen ausdrücklich in der allgemeinen Kategorie **„Amount of donation (or estimate of the probable value)“**. Ein ausgewiesener Kostenwert ist damit **kein Beleg einer Bargeldüberweisung an Boles**. Der Vorgang wurde laut Register **am 27. Juni 2012 angemeldet**; das Register selbst beschreibt hier **keinen Verstoß gegen eine Offenlegungspflicht**.
+
+**Beweisbedeutung:** Die US-amerikanische **American-Friends-Organisation** ist in den vorangehenden IRS-Schedule-B-Akten als finanzierter eigener Rechtsträger nachgewiesen. Mit dem britischen Originalregister liegt jetzt eine konkrete, datierte **Hotel-/Gastfreundschaftsförderung** dieses Namens an einen britischen Abgeordneten vor, die sich von der separaten **Flugkostenübernahme durch Bilderberg Meetings** unterscheiden lässt. Dies belegt einen praktisch genutzten Finanzierungs- und Zugangskanal. Die im britischen Register genannte New Yorker Adresse und der Organisationsname stützen die Verbindung zur US-American-Friends-Struktur, **ersetzen aber keine vollständige steuerrechtliche Identitätsbindung der einzelnen 2012er Rechnung zur EIN 51-0163715**. Auch sind Konferenzteilnahme, Sachleistung und möglicher späterer politischer Einfluss **drei verschiedene Claims**.
+
+**Konkrete Falsifikations-/Anschlusstests:** 2012er American-Friends-Steuererklärung (konferenzbezogene Sachleistungen und Kostenzuordnung), tatsächliche Hotelrechnung/Zahlungsauftrag und Empfangskonto, Boles' damalige Amts-/Ausschussfunktionen, sowie konkret datierte Folgekontakte und Entscheidungen. Keine Bestechung, Medienweisung oder bestimmte Regierungsentscheidung ohne gesonderte Belege behaupten.
+
 ## Beweiskette und Falsifikationsmatrix
 
 | Zu prüfende Teilbehauptung | Gegenwärtige Belegstufe | Fehlender Ursprung / mögliche Gegenbelege |
@@ -201,3 +217,5 @@ Das erlaubt einen präzisen, rechtmäßigen Aktenweg: Für **EIN 51-0163715** je
 - **[Q20, A-Originaltext/B-Bildprüfung ausstehend]** American Friends of Bilderberg Inc., **Form 990-PF 2009**, Schedule B Part I, **Nr. 4 „THE WASHINGTON POST COMPANY“**, 25.000 USD; PDF-Seite 15/Nullindex 14, Einkünfte Part I S. 1: 130.000 USD Zuwendungen insgesamt. Bildgegenprobe nach PDF-Server-Timeout noch offen: https://info.publicintelligence.net/AmericanBilderberg-2009.pdf
 - **[Q21, B]** Rick Cohen, *Powerbrokers and Power Funders behind the Secretive Bilderberg Meeting*, **Nonprofit Quarterly**, 2012, vergleichende Spendentabelle 2008–2011, von den IRS-Filings abgeleitete Jahresbeträge. **Keine unabhängige amtliche Zweiturkunde**: https://nonprofitquarterly.org/powerbrokers-and-power-funders-behind-the-secretive-bilderberg-meeting/
 - **[Q22, C]** *Bilderbergers Excite Conspiracists*, **CBS News**, 2009, Bezug auf noch nicht neu gesicherte IRS-Akte zu angeblicher 2005er Zahlung der Washington Post; historische journalistische Behauptung, nicht bereits direkte Originalprüfung: https://www.cbsnews.com/news/bilderbergers-excite-conspiracists/
+
+- **[Q23, A – Originalbild geprüft]** UK House of Commons, *Register of Members' Financial Interests*, **19.11.2012**, 313-seitiger Parlaments-PDF-Snapshot, **Nick Boles (Grantham and Stamford), Kategorie 6 Overseas visits**, **PDF-Indices 27–29 / Druckseiten 28–30**: Bilderberg Meetings Rückflüge £1,173.39; American Friends of Bilderberg zwei Hotelnächte £500.52; Chantilly, 31.05.–02.06.2012, registriert 27.06.2012. Die drei genannten PDF-Seiten wurden bildseitig zur Personen- und Leistungszuordnung kontrolliert. https://publications.parliament.uk/pa/cm/cmregmem/121119/121119.pdf
