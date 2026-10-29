@@ -1,3 +1,13 @@
+---
+id: ORG-INT-BILDERBERG-MEETINGS
+type: organization
+title: Bilderberg Meetings
+countries: [US, DE]
+status: active
+evidence_level: established
+sources: [SRC-INT-BILDERBERG-2017, SRC-INT-BILDERBERG-FORMER-STEERING]
+---
+
 # Bilderberg Meetings: historische Presse-Diskretion und öffentlicher Kontrollzugang
 
 **Forschungsstand 29. Oktober 2026.** Bilderberg ist eine regelmäßig veranstaltete internationale Einladungskonferenz; ein organisatorischer Unterbau oder formeller Weisungsverbund mit der deutschen Atlantik-Brücke ist damit **nicht** behauptet.
