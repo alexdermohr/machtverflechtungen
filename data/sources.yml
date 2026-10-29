@@ -2191,3 +2191,37 @@ sources:
   accessed: '2026-10-28'
   locator: Förderangebote für junge Menschen, New Bridge Program
   notes: Stiftungseigene Bestätigung ihrer Programmunterstützung; keine Atlantik-Brücke-Einzelauszahlung beziffert.
+
+- id: SRC-US-CIA-KMMANLY-MONTHLY-1952-1953
+  title: "KMMANLY – CIA/OPC-Projektakte mit Monatsberichten 1952–1953"
+  institution: "Central Intelligence Agency / Office of Policy Coordination"
+  date: "1952-1953"
+  type: declassified_intelligence_records
+  primary: true
+  tier: A
+  url: https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf
+  accessed: "2026-10-29"
+  locator: "55 PDF-Blätter, insbesondere Bl. 28–29, 41, 44 und 53–55"
+  notes: "Zeitgenössische CIA-interne Meldungen. Der Bericht belegt zunächst, was die CIA über redaktionelle Vorgaben, Verteilungen und Förderzusagen festhielt; unabhängige Zeitungs- und Buchungsbelege fehlen teilweise."
+- id: SRC-US-CIA-QKSNITCH-FINAL-1953
+  title: "QKSNITCH Final Report, EGZA-946, 14. April 1953"
+  institution: "Central Intelligence Agency"
+  date: "1953-04-14"
+  type: declassified_intelligence_report
+  primary: true
+  tier: B
+  url: https://www.cia.gov/readingroom/docs/CLASSEN%2C%20WILHELM_0042.pdf
+  accessed: "2026-10-29"
+  locator: "Indexierter OCR-Auszug; Anlage D noch nicht unabhängig im Faksimile geprüft"
+  notes: "Die Angabe 240.858 DM und der behauptete Durchleitungsweg sind vorerst nur dem CIA-Abschlussbericht zugeordnet, keine unabhängig verifizierten Banktransaktionen. CIA Reading Room war beim erneuten Abruf am 29.10.2026 in Wartung."
+- id: SRC-DE-GSP-BPA-VERTRAG-1953
+  title: "Gesellschaft für Sicherheitspolitik – historische Darstellung zur Bundesförderung ab Januar 1953"
+  institution: "Gesellschaft für Sicherheitspolitik e.V."
+  date: current
+  type: organization_self_description
+  primary: true
+  tier: B
+  url: https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1
+  accessed: "2026-10-29"
+  locator: "Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde"
+  notes: "Retrospektive Eigendarstellung zur Finanzierung durch das Bundespresseamt; die 1953er Vertragsurschrift und Kassenbelege bleiben offen."
