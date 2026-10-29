@@ -686,7 +686,7 @@ entities:
     countries: [DE]
     notes: "Nach CIA-Monatsberichten mit Förderzusagen zur Deutschen Soldaten-Zeitung befasst; konkrete Auszahlung offen."
 
-- id: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+  - id: ORG-US-AMERICAN-FRIENDS-BILDERBERG
     type: association
     name: "American Friends of Bilderberg Inc."
     countries: [US]
