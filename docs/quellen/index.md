@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**192 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**195 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -652,6 +652,28 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
 
+<a id="src-us-cia-qksnitch-final-1953"></a>
+### Central Intelligence Agency
+
+**[QKSNITCH Final Report, EGZA-946, 14. April 1953](https://www.cia.gov/readingroom/docs/CLASSEN%2C%20WILHELM_0042.pdf)**
+
+Central Intelligence Agency · 1953-04-14 · Stufe **B** · Primärquelle · `SRC-US-CIA-QKSNITCH-FINAL-1953`
+
+[PDF öffnen](https://www.cia.gov/readingroom/docs/CLASSEN%2C%20WILHELM_0042.pdf)
+
+Fundstelle: Indexierter OCR-Auszug; Anlage D noch nicht unabhängig im Faksimile geprüft
+
+<a id="src-us-cia-kmmanly-monthly-1952-1953"></a>
+### Central Intelligence Agency / Office of Policy Coordination
+
+**[KMMANLY – CIA/OPC-Projektakte mit Monatsberichten 1952–1953](https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf)**
+
+Central Intelligence Agency / Office of Policy Coordination · 1952-1953 · Stufe **A** · Primärquelle · `SRC-US-CIA-KMMANLY-MONTHLY-1952-1953`
+
+[PDF öffnen](https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf)
+
+Fundstelle: 55 PDF-Blätter, insbesondere Bl. 28–29, 41, 44 und 53–55
+
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
 
@@ -1201,6 +1223,17 @@ Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-P
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf)
 
 Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)
+
+<a id="src-de-gsp-bpa-vertrag-1953"></a>
+### Gesellschaft für Sicherheitspolitik e.V.
+
+**[Gesellschaft für Sicherheitspolitik – historische Darstellung zur Bundesförderung ab Januar 1953](https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1)**
+
+Gesellschaft für Sicherheitspolitik e.V. · current · Stufe **B** · Primärquelle · `SRC-DE-GSP-BPA-VERTRAG-1953`
+
+[Seite öffnen](https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1)
+
+Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
 
 <a id="src-de-hh-cumex-pua-2024"></a>
 ### Hamburgische Bürgerschaft

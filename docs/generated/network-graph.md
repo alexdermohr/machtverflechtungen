@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**116 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**127 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -228,6 +228,27 @@ flowchart LR
     N_ORG_US_HALLE_FOUNDATION -->|"bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_JOACHIM_HERZ_STIFTUNG["Joachim Herz Stiftung"]
     N_ORG_DE_JOACHIM_HERZ_STIFTUNG -->|"fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen"| N_PRG_DE_ATLANTIK_BRUECKE_NEW_BRIDGE
+    N_PRG_US_CIA_KMMANLY["CIA/OPC-Projekt KMMANLY"]
+    N_ORG_US_OPC -->|"führte laut CIA-Akten das übergeordnete verdeckte Einflussprojekt"| N_PRG_US_CIA_KMMANLY
+    N_PRG_US_CIA_QKSNITCH["CIA-Teilprojekt QKSNITCH"]
+    N_PRG_US_CIA_KMMANLY -->|"umfasste das GfW-Teilprojekt QKSNITCH"| N_PRG_US_CIA_QKSNITCH
+    N_ORG_DE_GFW_1952["Gesellschaft für Wehrkunde (historischer Verein)"]
+    N_PRG_US_CIA_QKSNITCH -->|"CIA-Abschlussbericht beziffert die projektbezogene Förderung auf insgesamt 240.858 DM; Einzelbuchungen und Anlage D offen"| N_ORG_DE_GFW_1952
+    N_ORG_DE_DSZ_1952["Deutsche Soldaten-Zeitung (1952/53)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsberichte schildern verdeckte Unterstützung und redaktionelle Leitlinien"| N_ORG_DE_DSZ_1952
+    N_ORG_DE_EWK_1952["Europäische Wehr-Korrespondenz (1952)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsbericht dokumentiert drei Auflagen zu je 5.000 und behauptet acht Zeitungsnachdrucke; Redaktionen unbekannt"| N_ORG_DE_EWK_1952
+    N_ORG_DE_WWR_1952["Wehrwissenschaftliche Rundschau (1952)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsbericht beschreibt die finanzierte Publikation und Weiterverteilung"| N_ORG_DE_WWR_1952
+    N_PER_DE_WILHELM_CLASSEN["Wilhelm Classen"]
+    N_ORG_DE_STIFTERVERBAND_1952["Stifterverband für die Deutsche Wissenschaft (1952/53)"]
+    N_PER_DE_WILHELM_CLASSEN -->|"laut CIA-QKSNITCH-Abschlussbericht Mittelsmann einer verdeckten Weiterleitung, nicht unabhängig bankgeprüft"| N_ORG_DE_STIFTERVERBAND_1952
+    N_ORG_DE_STIFTERVERBAND_1952 -->|"CIA berichtet eine verdeckte Geldweiterleitung an das Münchner GfW-Konto; originale Kontoauszüge offen"| N_ORG_DE_GFW_1952
+    N_ORG_DE_BUNDESPRESSEAMT_1953["Presse- und Informationsamt der Bundesregierung (1953)"]
+    N_ORG_DE_WWR_1952 -->|"laut CIA-Monatsbericht 300 Exemplare des zwölfseitigen Nachdrucks an das Bundespresseamt verteilt"| N_ORG_DE_BUNDESPRESSEAMT_1953
+    N_PER_DE_OTTO_LENZ["Otto Lenz"]
+    N_PER_DE_OTTO_LENZ -->|"CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"| N_ORG_DE_DSZ_1952
+    N_ORG_DE_BUNDESPRESSEAMT_1953 -->|"heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft"| N_ORG_DE_GFW_1952
 ```
 
 [Zur Relationstabelle](network.md)
