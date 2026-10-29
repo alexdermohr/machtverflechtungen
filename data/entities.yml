@@ -685,3 +685,43 @@ entities:
     name: "Otto Lenz"
     countries: [DE]
     notes: "Nach CIA-Monatsberichten mit Förderzusagen zur Deutschen Soldaten-Zeitung befasst; konkrete Auszahlung offen."
+
+- id: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: association
+    name: "American Friends of Bilderberg Inc."
+    countries: [US]
+    notes: "Eigenständiger US-Steuerrechtsträger, EIN 51-0163715; nicht identisch mit den internationalen oder britischen Bilderberg-Rechtsträgern."
+
+  - id: ORG-US-WASHINGTON-POST-COMPANY
+    type: media_company
+    name: "The Washington Post Company (historischer Rechtsträger)"
+    countries: [US]
+    notes: "Als Unternehmen für die 2008/2009er Schedule-B-Zuwendungen genannt; persönliche Graham-Zuwendung 2010 wird gesondert modelliert."
+
+  - id: PER-US-DONALD-E-GRAHAM
+    type: person
+    name: "Donald E. Graham"
+    countries: [US]
+    notes: "Namenszuordnung zwischen 2010er IRS-Spenderzeile 'Donald Graham' und SEC-CEO historisch plausibel; Steuererklärung enthält keine eindeutige Personenkennung."
+
+  - id: PER-US-PETER-THIEL
+    type: person
+    name: "Peter Thiel"
+    countries: [US]
+
+  - id: PER-US-ALEXANDER-KARP
+    type: person
+    name: "Alexander Karp"
+    countries: [US]
+
+  - id: PER-GB-JOHN-MICKLETHWAIT
+    type: person
+    name: "John Micklethwait"
+    countries: [GB]
+
+  - id: ORG-US-BLOOMBERG-LP
+    type: media_company
+    name: "Bloomberg L.P."
+    countries: [US]
+    notes: "Von Bloomberg Tradebook Europe Ltd und Bloomberg Philanthropies rechtlich getrennt; Medienfunktion Micklethwait."
+
