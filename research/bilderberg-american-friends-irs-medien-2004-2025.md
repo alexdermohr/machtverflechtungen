@@ -127,6 +127,16 @@ Die Reproduktion der 2025er **Form-990-PF-Aufstellung direkter gemeinnütziger T
 
 
 
+### BB-IRS-02b – Big Hen Group LLC: erneute Namensspur 2008 → 2025 [B, Rechtsträgeridentität offen]
+
+**Neuer Rückwärtsfund in bereits erschlossener Steuerurkunde:** Das US-Formular *American Friends of Bilderberg, Form 990-PF 2008*, **Schedule B Part I, Spendernummer 10**, führt **„BIG HEN GRKOUP LLC“** (offenbar fehlerhaft erfasster/gedruckter Firmenname; bei der maschinenlesbaren Vorlage als „BIG HEN GRKOUP LLC“; die veröffentlichte Forschungsliteratur gibt „Big Hen Group LLC“ wieder) mit einer **Zuwendung von 75.000 USD** auf [Q19, Q21]. Im selben Schedule B 2008 steht **Peter Thiel, ebenfalls 75.000 USD (Nr. 8)**. Die Transkription der Schedule-B-Zeilen ist im indizierten PDF-Text zu sehen; der selbst durchgeführte Bildabgleich dieser konkreten 2008er Stelle ist wegen wiederholter Archivtimeouts **offen**. Die **bereits vor 2025** publizierte vergleichende Steuerakten-Auswertung in *Nonprofit Quarterly* [Q21] nennt **Big Hen Group LLC / 75.000 USD / 2008** und **Peter Thiel / 75.000 USD / 2008**, unabhängig von der späteren 2025er eFile-Quelle. Das ist eine nachvollziehbare, aber noch nicht bildseitig endgültig verifizierte Jahresspur.
+
+**Querjahres-Vergleich:** Die vollständige NCCS-Reproduktion des Steuerjahrs 2025 [Q13] führt exakt den String **„Big Hen Group LLC“** mit **500.000 USD**. Daraus folgt eine **auffällige wiederholte Namensnennung desselben LLC-Namens innerhalb derselben US-Bilderberg-Finanzorganisation in zwei Steuerjahren 17 Jahre auseinander**. Ein kontinuierlicher Geldfluss in den Jahren dazwischen oder eine gleiche wirtschaftlich berechtigte natürliche Person ist **nicht belegt**. Die Formulare 2008 und 2025 enthalten keine einheitliche, öffentlich angegebene LLC-EIN, die die Rechtsträgeridentität sicher verknüpfen würde.
+
+**Explizite Abgrenzung zur Eric-Schmidt-Spur:** Die in SEC-Unterlagen benannte **„Big Hen Group I, LLC“** ist rechtlich **nicht ohne weitere Unternehmensakten identisch** mit dem steuerlich als **„Big Hen Group LLC“** genannten Spender. Auch ein zeitgleicher Spender **Peter Thiel** im Jahr 2008 beweist **keine Zahlung durch ihn im Auftrag der Big-Hen-LLC**. Ein nachweisbarer Bezug zu Eric Schmidt, dem Schmidt Family Living Trust oder einer individuellen inhaltlichen Agenda erfordert mindestens datierte Eintragungs-/Vertretungsurkunden oder einen Beleg der wirtschaftlichen Mittelherkunft. Eine journalistische Zuschreibung von Spenden an Schmidt stellt hierfür keine unabhängige Buchung dar.
+
+**Falsifikation:** (1) 2008er Original-Schedule-B **Scanbild** der Zeilen Nr. 8 und 10 mit exakter Firmen-Schreibweise, Betrag und Postanschrift prüfen; (2) Corporation-/Delaware-Gründungs- und Änderungsdaten beider LL-C-Namen und historische Firmenanschriften abgleichen; (3) 2025er Empfänger-/Beitragsbestätigung und 2008er Charity-Filing auf steuerliche Identifikatoren prüfen; (4) Zwischenjahresformulare auf tatsächliche Folgezuwendungen kontrollieren. Bis dahin: **starke Namens- und Finanzierungsindikation, keine festgestellte Schmidt-Steuerung und kein Nachweis einer politischen Gegenleistung**.
+
 ## BB-IRS-03 – Journalistische Organisationsrolle in einem finanzierenden Rechtsträger [A/B]
 
 **Beide institutionellen Funktionen sauber getrennt:**
@@ -162,6 +172,7 @@ Das erlaubt einen präzisen, rechtmäßigen Aktenweg: Für **EIN 51-0163715** je
 | --- | --- | --- |
 | Namentliche 2004er Beiträge und Organrollen bei American Friends | **A-Originaldokument, B-Transkription** [Q1] | Bildansicht / unabhängige PDF-Gegenlesung, Prüfung auf nachträgliche Berichtigung |
 | 2025er Zuwendungssumme 2.625.000 USD und sechs Spenderpositionen | **A – direkt aus vollständiger NCCS-Version der IRS-Schedule-B-XML ausgelesen; B – keine unabhängige IRS-Urschrift** [Q13, Q14] | Abgleich mit unverändertem IRS-Server-Original, mögliche berichtigte Einreichung |
+| Big Hen Group LLC 2008 und 2025 | **B/A – 2008er IRS Schedule-B-Text und ältere Sekundärauswertung [Q19, Q21]; 2025er NCCS-Originalstring [Q13]** | 2008er Bildfaksimile, LLC-EIN und datierte Nachweise identischen Rechtsträgers, Eigentümer-/Managerrolle |
 | John Micklethwait: Bloomberg-Chefredakteur und Bilderberg-Steering 2026 | **A – Konferenz-Selbstauskunft** [Q5] | Datierung des Amtsantritts für mehrjährige historische Aussagen |
 | Micklethwait: Director bei American Friends für 2025 | **B – US-Steuerdatenreproduktion** [Q3, Q4] | Originale Part-VII-Organliste mit Unterschrift und Berichtigungen |
 | Thiel und Karp als Zuwendende **2025** | **A/B – sechs Positionen der NCCS-IRS-XML-Reproduktion** [Q13, Q14] | Unverändertes IRS-XML bzw. korrigierte Steuerakte abgleichen |
