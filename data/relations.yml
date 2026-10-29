@@ -1070,3 +1070,40 @@ relations:
     period: {start: "1947-06-06"}
     evidence_level: established
     sources: [SRC-US-CIG-RUSTY-DOC45-19470606]
+
+
+  - id: REL-DE-AB-NEW-BRIDGE-001
+    from: ORG-DE-ATLANTIK-BRUECKE
+    to: PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE
+    type: operates_program
+    label: "betreibt New Bridge Program (New Bridge to Germany seit 2021)"
+    period: {start: "2021"}
+    evidence_level: established
+    sources: [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026]
+
+  - id: REL-US-HALLE-AB-GRANT-2022
+    from: ORG-US-HALLE-FOUNDATION
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: grant_awarded
+    label: "bewilligte 47.525 USD für New Bridge 2022; keine ausgezahlte Summe nachgewiesen"
+    period: {start: "2022"}
+    evidence_level: established
+    sources: [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023]
+
+  - id: REL-US-HALLE-AB-GRANT-2023
+    from: ORG-US-HALLE-FOUNDATION
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: grant_awarded
+    label: "bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen"
+    period: {start: "2023"}
+    evidence_level: established
+    sources: [SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023]
+
+  - id: REL-DE-JHS-AB-NEWBRIDGE-2026
+    from: ORG-DE-JOACHIM-HERZ-STIFTUNG
+    to: PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE
+    type: program_funding
+    label: "fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen"
+    period: {start: "2026"}
+    evidence_level: established
+    sources: [SRC-DE-JHS-NEWBRIDGE-2026, SRC-DE-AB-NEWBRIDGE-PROGRAM-2026]
