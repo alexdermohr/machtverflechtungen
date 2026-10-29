@@ -2157,3 +2157,37 @@ sources:
   language: de
   locator: "Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955"
   notes: "Doppelte Provenienz: Eigenbericht Frickes bestätigt Sesslers Pressekontakte und Anwerbeversuche; MfS-Anklage behauptet Gehlen-Zuordnung und frühere BDJ-Mitgliedschaft, jedoch keine unabhängige Bestätigung. Als politische Verfolgungsakte besonders quellenvorsichtig verwenden."
+
+- id: SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023
+  title: The Halle Foundation Grants History – Atlantik-Bruecke 2022 und Atlantic-Brücke e.V. 2023
+  institution: The Halle Foundation
+  date: current
+  type: foundation_grant_history
+  primary: true
+  tier: A
+  url: https://thehallefoundation.org/grants-history/
+  accessed: '2026-10-28'
+  locator: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.V. 40,000 USD
+  notes: Originalgrantliste des Geldgebers mit Fonds-Zusagen ('Funds Awarded') für New Bridge; einzelne Auszahlungen/Banktransfers sind nicht belegt.
+- id: SRC-DE-AB-NEWBRIDGE-PROGRAM-2026
+  title: New Bridge Program – Beschreibung, Beginn und Förderung
+  institution: Atlantik-Brücke e.V.
+  date: current
+  type: organization_self_description
+  primary: true
+  tier: A
+  url: https://www.atlantik-bruecke.org/programme/new-bridge-program/
+  accessed: '2026-10-28'
+  locator: New Bridge to Germany seit 2021, New Bridge to the U.S. seit 2023 und Kosten und Förderung mit Joachim Herz Stiftung/ERP
+  notes: Vereinsseitige Programmdarstellung; belegt Betrieb und genanntes Projektfunding, nicht einzelne Zahlungsbeträge.
+- id: SRC-DE-JHS-NEWBRIDGE-2026
+  title: Transatlantischer Dialog – New Bridge Program
+  institution: Joachim Herz Stiftung
+  date: current
+  type: foundation_self_description
+  primary: true
+  tier: A
+  url: https://www.joachim-herz-stiftung.de/foerdern/transatlantischer-dialog
+  accessed: '2026-10-28'
+  locator: Förderangebote für junge Menschen, New Bridge Program
+  notes: Stiftungseigene Bestätigung ihrer Programmunterstützung; keine Atlantik-Brücke-Einzelauszahlung beziffert.

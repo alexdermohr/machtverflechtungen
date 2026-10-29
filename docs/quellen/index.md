@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**189 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**192 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -257,6 +257,17 @@ Atlantik-Brücke e.V. · 2026-06-24 · Stufe **E** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)
 
 Fundstelle: Rückblick auf die Mitgliederversammlung vom Vortag; Paneldiskussion zum 250. Geburtstag der USA mit Emily Haber, Tina Hassel, Ben Hodges und Claus Kleber
+
+<a id="src-de-ab-newbridge-program-2026"></a>
+### Atlantik-Brücke e.V.
+
+**[New Bridge Program – Beschreibung, Beginn und Förderung](https://www.atlantik-bruecke.org/programme/new-bridge-program/)**
+
+Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle · `SRC-DE-AB-NEWBRIDGE-PROGRAM-2026`
+
+[Seite öffnen](https://www.atlantik-bruecke.org/programme/new-bridge-program/)
+
+Fundstelle: New Bridge to Germany seit 2021, New Bridge to the U.S. seit 2023 und Kosten und Förderung mit Joachim Herz Stiftung/ERP
 
 <a id="src-de-atlantikbruecke-yl"></a>
 ### Atlantik-Brücke e.V.
@@ -1312,6 +1323,17 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
 
+<a id="src-de-jhs-newbridge-2026"></a>
+### Joachim Herz Stiftung
+
+**[Transatlantischer Dialog – New Bridge Program](https://www.joachim-herz-stiftung.de/foerdern/transatlantischer-dialog)**
+
+Joachim Herz Stiftung · current · Stufe **A** · Primärquelle · `SRC-DE-JHS-NEWBRIDGE-2026`
+
+[Seite öffnen](https://www.joachim-herz-stiftung.de/foerdern/transatlantischer-dialog)
+
+Fundstelle: Förderangebote für junge Menschen, New Bridge Program
+
 <a id="src-de-kgparl-cdu-adk-19670606"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
@@ -1626,6 +1648,17 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 [PDF öffnen](https://library.fes.de/spdpd/1953/530717.pdf)
 
 Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 dpi: /tiff400/017/00000455.tif und 00000456.tif
+
+<a id="src-us-halle-ab-newbridge-grants-2022-2023"></a>
+### The Halle Foundation
+
+**[The Halle Foundation Grants History – Atlantik-Bruecke 2022 und Atlantic-Brücke e.V. 2023](https://thehallefoundation.org/grants-history/)**
+
+The Halle Foundation · current · Stufe **A** · Primärquelle · `SRC-US-HALLE-AB-NEWBRIDGE-GRANTS-2022-2023`
+
+[Seite öffnen](https://thehallefoundation.org/grants-history/)
+
+Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.V. 40,000 USD
 
 <a id="src-de-thlt-nsu-ua-2014"></a>
 ### Thüringer Landtag

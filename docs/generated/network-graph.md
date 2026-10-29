@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**112 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**116 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -221,6 +221,13 @@ flowchart LR
     N_ORG_DE_ORGANISATION_GEHLEN -->|"spähte nach archivgestützter Forschung die politische Opposition aus"| N_ORG_DE_SPD
     N_ORG_US_CIG["Central Intelligence Group (CIG)"]
     N_ORG_US_CIG -->|"bezeichnete Operation Rusty 1947 als potenzielle Widerstandsgruppe und empfahl Auflösung"| N_ORG_DE_ORGANISATION_GEHLEN
+    N_PRG_DE_ATLANTIK_BRUECKE_NEW_BRIDGE["Atlantik-Brücke New Bridge Program"]
+    N_ORG_DE_ATLANTIK_BRUECKE -->|"betreibt New Bridge Program (New Bridge to Germany seit 2021)"| N_PRG_DE_ATLANTIK_BRUECKE_NEW_BRIDGE
+    N_ORG_US_HALLE_FOUNDATION["The Halle Foundation"]
+    N_ORG_US_HALLE_FOUNDATION -->|"bewilligte 47.525 USD für New Bridge 2022; keine ausgezahlte Summe nachgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_US_HALLE_FOUNDATION -->|"bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_JOACHIM_HERZ_STIFTUNG["Joachim Herz Stiftung"]
+    N_ORG_DE_JOACHIM_HERZ_STIFTUNG -->|"fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen"| N_PRG_DE_ATLANTIK_BRUECKE_NEW_BRIDGE
 ```
 
 [Zur Relationstabelle](network.md)

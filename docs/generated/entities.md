@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**119 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**122 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -104,6 +104,7 @@
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
+| Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY |
@@ -119,6 +120,7 @@
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |
+| The Halle Foundation | foundation | `ORG-US-HALLE-FOUNDATION` | US |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE |
@@ -134,4 +136,5 @@
 
 | Name | Typ | ID | Länder |
 |---|---|---|---|
+| Atlantik-Brücke New Bridge Program | program | `PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE` | DE, US |
 | Atlantik-Brücke Young Leaders Program | program | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | DE, US |
