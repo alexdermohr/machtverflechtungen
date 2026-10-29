@@ -2225,3 +2225,75 @@ sources:
   accessed: "2026-10-29"
   locator: "Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde"
   notes: "Retrospektive Eigendarstellung zur Finanzierung durch das Bundespresseamt; die 1953er Vertragsurschrift und Kassenbelege bleiben offen."
+- id: SRC-US-AFB-IRS-2008
+  title: "American Friends of Bilderberg Inc. – US Form 990-PF 2008, Schedule B"
+  institution: "American Friends of Bilderberg Inc. / US Internal Revenue Service"
+  date: "2008"
+  type: tax_return
+  primary: true
+  tier: A
+  url: https://info.publicintelligence.net/AmericanBilderberg-2008.pdf
+  accessed: "2026-10-29"
+  locator: "Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD"
+  notes: "Historische Original-Steuererklärung im Drittanbieterarchiv; Textbefund geprüft, Bildseitenabgleich der konkreten Zeile infolge Archiv-Timeout noch offen. Verifizierte Aussagegrenze entsprechend nur strong."
+
+- id: SRC-US-AFB-IRS-2009
+  title: "American Friends of Bilderberg Inc. – US Form 990-PF 2009, Schedule B"
+  institution: "American Friends of Bilderberg Inc. / US Internal Revenue Service"
+  date: "2009"
+  type: tax_return
+  primary: true
+  tier: A
+  url: https://info.publicintelligence.net/AmericanBilderberg-2009.pdf
+  accessed: "2026-10-29"
+  locator: "Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD"
+  notes: "Historische Original-Steuererklärung im Drittanbieterarchiv; Textbefund geprüft, Bildseitenabgleich der konkreten Zeile infolge Archiv-Timeout noch offen. Verifizierte Aussagegrenze entsprechend nur strong."
+
+- id: SRC-US-AFB-IRS-2010
+  title: "American Friends of Bilderberg Inc. – US Form 990-PF 2010, Schedule B"
+  institution: "American Friends of Bilderberg Inc. / US Internal Revenue Service"
+  date: "2010"
+  type: tax_return
+  primary: true
+  tier: A
+  url: https://info.publicintelligence.net/AmericanBilderberg-2010.pdf
+  accessed: "2026-10-29"
+  locator: "PDF-Bildseite 18 (Nullindex 17), Schedule B Part I, Donald Graham 25.000 USD"
+  notes: "Bildlich geprüfte Namenszeile; die Identität mit Donald E. Graham als SEC-CEO ist stark gestützt, aber Steuerformular enthält keine eindeutige Personenkennung."
+
+- id: SRC-US-WAPO-SEC-10K-2010
+  title: "The Washington Post Company – Form 10-K 2010"
+  institution: "U.S. Securities and Exchange Commission"
+  date: "2010-03-02"
+  type: securities_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm
+  accessed: "2026-10-29"
+  locator: "Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer"
+  notes: "Börsenrechtliche Unternehmensrolle unabhängig vom persönlich benannten Steuerbeleg 2010."
+
+- id: SRC-US-AFB-NCCS-990-2025
+  title: "American Friends of Bilderberg Inc. – Form 990-PF 2025 und Schedule B, NCCS XML"
+  institution: "US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS"
+  date: "2025"
+  type: tax_return_reproduction
+  primary: true
+  tier: A
+  url: https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml
+  accessed: "2026-10-29"
+  locator: "EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors"
+  notes: "23.945 Bytes, SHA-256 3a070eebf5f283a95b93860fbbcbd737ff3b8db3c9415e873725501d7ca725b2; NCCS-Reproduktion xml2/v2_3_patch, nicht als byteidentisches IRS-Server-Original nachgewiesen; keine unabhängige zweite Spenderquelle."
+
+- id: SRC-INT-BILDERBERG-STEERING-2026
+  title: "Bilderberg Meetings – offizielles Steering Committee (Abruf 2026)"
+  institution: "Bilderberg Meetings"
+  date: current
+  type: organization_governance
+  primary: true
+  tier: A
+  url: https://bilderbergmeetings.org/background/steering-committee/steering-committee
+  accessed: "2026-10-29"
+  locator: "John Micklethwait – Bloomberg; Steuerungsausschuss mit Teilnehmer- und Agendazuständigkeit"
+  notes: "Aktuelle Organliste des Veranstalters; Beginn/Ende der persönlichen Funktion und konkrete redaktionelle Einflussentscheidung nicht aus dieser Liste ableitbar."
+
