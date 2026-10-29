@@ -1107,3 +1107,102 @@ relations:
     period: {start: "2026"}
     evidence_level: established
     sources: [SRC-DE-JHS-NEWBRIDGE-2026, SRC-DE-AB-NEWBRIDGE-PROGRAM-2026]
+
+  - id: REL-DE-KMM-001
+    from: ORG-US-OPC
+    to: PRG-US-CIA-KMMANLY
+    type: project_responsibility
+    label: "führte laut CIA-Akten das übergeordnete verdeckte Einflussprojekt"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-002
+    from: PRG-US-CIA-KMMANLY
+    to: PRG-US-CIA-QKSNITCH
+    type: subproject
+    label: "umfasste das GfW-Teilprojekt QKSNITCH"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953, SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-003
+    from: PRG-US-CIA-QKSNITCH
+    to: ORG-DE-GFW-1952
+    type: reported_covert_financing
+    label: "CIA-Abschlussbericht beziffert die projektbezogene Förderung auf insgesamt 240.858 DM; Einzelbuchungen und Anlage D offen"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-004
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-DSZ-1952
+    type: reported_editorial_and_financial_support
+    label: "CIA-Monatsberichte schildern verdeckte Unterstützung und redaktionelle Leitlinien"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-005
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-EWK-1952
+    type: reported_publication_support
+    label: "CIA-Monatsbericht dokumentiert drei Auflagen zu je 5.000 und behauptet acht Zeitungsnachdrucke; Redaktionen unbekannt"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-006
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-WWR-1952
+    type: reported_publication_support
+    label: "CIA-Monatsbericht beschreibt die finanzierte Publikation und Weiterverteilung"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-007
+    from: PER-DE-WILHELM-CLASSEN
+    to: ORG-DE-STIFTERVERBAND-1952
+    type: reported_funding_intermediary
+    label: "laut CIA-QKSNITCH-Abschlussbericht Mittelsmann einer verdeckten Weiterleitung, nicht unabhängig bankgeprüft"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-008
+    from: ORG-DE-STIFTERVERBAND-1952
+    to: ORG-DE-GFW-1952
+    type: reported_conduit_payment
+    label: "CIA berichtet eine verdeckte Geldweiterleitung an das Münchner GfW-Konto; originale Kontoauszüge offen"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-009
+    from: ORG-DE-WWR-1952
+    to: ORG-DE-BUNDESPRESSEAMT-1953
+    type: reported_material_distribution
+    label: "laut CIA-Monatsbericht 300 Exemplare des zwölfseitigen Nachdrucks an das Bundespresseamt verteilt"
+    period: {start: "1952"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-010
+    from: PER-DE-OTTO-LENZ
+    to: ORG-DE-DSZ-1952
+    type: reported_funding_pledge
+    label: "CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"
+    period: {start: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-011
+    from: ORG-DE-BUNDESPRESSEAMT-1953
+    to: ORG-DE-GFW-1952
+    type: retrospectively_reported_funding_contract
+    label: "heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft"
+    period: {start: "1953"}
+    evidence_level: strong
+    sources: [SRC-DE-GSP-BPA-VERTRAG-1953]
