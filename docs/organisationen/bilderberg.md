@@ -22,10 +22,6 @@ Die [Veranstalter-FAQ](https://bilderbergmeetings.org/frequently-asked-questions
 
 Die [Governance-Selbstauskunft der Bilderberg Meetings](https://bilderbergmeetings.org/background/governance-and-funding) legt die Vorbereitung von **Programm und Teilnehmerauswahl** in die Hände von Vorsitz und **Steering Committee**. In der [offiziellen Mitgliederliste](https://bilderbergmeetings.org/background/steering-committee/steering-committee) finden sich unter anderem **John Micklethwait (Chefredakteur Bloomberg), Zanny Minton Beddoes (Chefredakteurin The Economist), Mathias Döpfner (Axel Springer), Thomas Leysen (Mediahuis) und Fareed Zakaria (Fernsehmoderator)**. Das sind organisatorisch maßgebliche Medienrollen und keine bloßen Konferenzgäste. Ob diese Beziehungen in **konkreten** Artikeln oder Sendungen offengelegt wurden, ist im [Medienaudit](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md) als eigene, noch offene Prüfung ausgewiesen.
 
-## Medien in Auswahl- und Programmorganen
-
-Die [aktuelle Bilderberg-Gremienliste](https://bilderbergmeetings.org/background/steering-committee/steering-committee) verzeichnet unter anderem **Mathias Döpfner (Axel Springer), John Micklethwait (Bloomberg) und Zanny Minton Beddoes (The Economist)**. Nach der [offiziellen Governance](https://bilderbergmeetings.org/background/governance-and-funding) bereitet das Steering Committee gemeinsam mit dem Vorsitz **Programm und Teilnehmerauswahl** vor. Medienführungskräfte nehmen damit eine nachweisbare **institutionelle Mitgestaltungsrolle** ein, nicht nur eine Gästerolle. Daraus folgt jedoch keine nachgewiesene Steuerung einzelner Redaktionen oder Artikel. Das ist Gegenstand des [Medienaudits zur unabhängigen öffentlichen Kontrollfunktion](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md).
-
 ## Offene, ausdrücklich getrennte Fragen
 
 Die verbreitete angebliche Dankesrede David Rockefellers von 1991 an Medienverleger für jahrzehntelange Diskretion bleibt **ohne authentisch nachgewiesenes Redeoriginal**. Schon die 1974er Organisationsanweisung liefert einen belastbaren Originalbeleg für die Vertraulichkeit der Konferenzberatungen. Ein nachweislicher gemeinsamer Beschluss der Teilnehmer zur Steuerung einer konkreten staatlichen Entscheidung kann daraus nicht abgeleitet werden.
@@ -36,3 +32,14 @@ Die verbreitete angebliche Dankesrede David Rockefellers von 1991 an Medienverle
 - [Medienrollen, Interessenkonfliktprüfung und Berichterstattungs-Audit](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md)
 - [Vergleich mit der Atlantik-Brücke: Zugang, Geld, Agenda und Rechenschaft](../research/atlantik-bruecke-bilderberg-vergleich-2026.md)
 - [Amtliche Transparenzinstrumente und ihre Dokumentationslücken](../research/lobbykontakte-exekutiver-fussabdruck-transparenz-2026.md)
+
+## Registrierte Quellen
+
+- [Participants 2017](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017) – `SRC-INT-BILDERBERG-2017`.
+- [Former Steering Committee Members](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members) – `SRC-INT-BILDERBERG-FORMER-STEERING`.
+
+
+## Registrierte Bestandsquellen
+
+- [Bilderberg Meetings, Teilnehmerliste 2017](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017) – `SRC-INT-BILDERBERG-2017`; historische Teilnahme, keine Aussage über ein 2026er Amt.
+- [Bilderberg Meetings, Former Steering Committee Members](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members) – `SRC-INT-BILDERBERG-FORMER-STEERING`; historische Gremienmitgliedschaften, deren genaue Amtszeiten gesondert zu prüfen sind.
