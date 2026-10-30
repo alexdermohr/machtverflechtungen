@@ -33,7 +33,7 @@ Die [DGAP-Schrift *65 Jahre Geschichte* (2020), PDF-Blatt 3](https://dgap.org/si
 | --- | --- |
 | Hermann J. Abs | Deutsche Bank, in der DGAP-Vorgeschichte ausdrücklich als Gesprächspartner benannt |
 | Fritz Berg | Präsident des Bundesverbandes der Deutschen Industrie (BDI) |
-| Heinrich von Brentano | Politiker (CDU), 1955–1963 Außenminister |
+| Heinrich von Brentano | Politiker (CDU), **Bundesaußenminister 1955–1961** ([Auswärtiges Amt, Ministergalerie](https://www.auswaertiges-amt.de/de/aamt/geschichte-des-auswaertigen-amts/aussenminister-node)); die DGAP-Rückschau von 2005 nennt hier **fälschlich 1963** als Endjahr |
 | Thomas Dehler | FDP-Bundesvorsitzender 1954–1957 |
 | **Ernst Friedlaender** | DGAP-Rückschau nennt ihn „Chefredakteur DIE ZEIT“, **für 1955 anachronistisch**: 1946–Sommer 1950 **stellvertretender Chefredakteur**; außerdem 1952 Gründungsvorstand der Atlantik-Brücke, siehe § 6 |
 | Hans Goudefroy | Vorstandsvorsitzender Allianz AG 1948–1961 |
