@@ -825,3 +825,46 @@ entities:
     name: "Banco Central del Uruguay (BCU)"
     countries: [UY]
     notes: "Zentralbank und Vertrags-/Forderungsankaufsgegenseite in veröffentlichten 1983/84er NMB-BAFISUD-Zitaten; Staatsanleihe-/Portfolioübernahmen systemweiter Bankenkrisenmechanismus, dessen individuelle Rückflüsse und ökonomische Endbegünstigte gesondert zu prüfen sind."
+
+
+  - id: ORG-FR-CREDIT-COMMERCIAL-DE-FRANCE-SA
+    type: commercial_bank
+    name: "Crédit Commercial de France S.A. (Paris)"
+    countries: [FR]
+    notes: "1979 als eigenständiges Mitglied der Inter-Alpha-Bankenkooperation beworben. Nicht mit der Schweizer Tochter Crédit Commercial de France (Suisse) S.A. oder dem CIA-finanzierten Congress for Cultural Freedom (gleichfalls CCF) verwechseln."
+
+  - id: ORG-CH-CREDIT-COMMERCIAL-DE-FRANCE-SUISSE-SA
+    type: commercial_bank
+    name: "Crédit Commercial de France (Suisse) S.A. (Genf)"
+    countries: [CH]
+    notes: "Im Originalbrief vom 01.04.1981 als nominelle Empfängerin von 4,4 Mio. Credito-Varesino-Aktien bezeichnet, die zuvor auf BAFISUD Corporation Panama liefen. Schweizer Rechtsträger, von Banca d'Italia als Tochter der französischen CCF beschrieben; selbst keine 1979er Inter-Alpha-Mitgliedschaft nachgewiesen."
+
+  - id: ORG-PA-BAFISUD-CORPORATION-SA
+    type: finance_company
+    name: "BAFISUD Corporation S.A. (Panama)"
+    countries: [PA]
+    notes: "In den Banca-d'Italia-Inspektionsakten nominelle Erwerberin von 4,5 Mio. Credito-Varesino-Aktien 1978, davon 4,4 Mio. 1981 auf CCF Suisse umgeschrieben; wirtschaftlich Berechtigter und reale Finanzierung ungeklärt. Rechtlich NICHT der Banco Financiero Sudamericano in Montevideo und nicht ZUS Corporation Panama."
+
+  - id: ORG-IT-CREDITO-VARESINO-SPA
+    type: commercial_bank
+    name: "Credito Varesino S.p.A. (Varese)"
+    countries: [IT]
+    notes: "Italienische Emittentin der 1978/81 umgeschriebenen Aktien; Banca-d'Italia-Inspektion 27.10.1982 bis 07.04.1983 dokumentiert formal registrierte Auslandsinhaber und 1980er Interbankeinlagen bei BAFISUD Montevideo."
+
+  - id: ORG-IT-LA-CENTRALE-FINANZIARIA-SPA
+    type: finance_company
+    name: "La Centrale Finanziaria S.p.A. (Mailand)"
+    countries: [IT]
+    notes: "Finanzgesellschaft im Banco-Ambrosiano-Umfeld; verkaufte 1978 ein 4,5-Mio.-Aktienpaket des Credito Varesino (12,5 Prozent) für 26,6 Mrd. Lire an BAFISUD Corporation Panama; nicht mit dem Banco Ambrosiano oder dessen Nassau-Tochter rechtsidentisch."
+
+  - id: ORG-BS-BANCO-AMBROSIANO-OVERSEAS
+    type: commercial_bank
+    name: "Banco Ambrosiano Overseas (Nassau; vormals Cisalpine Overseas Bank)"
+    countries: [BS]
+    notes: "Banca d'Italia nennt Banco Ambrosiano Overseas in Nassau als vormals Cisalpine und von luxemburgischer Ambrosiano-Holding kontrolliert; 1978/1980 mit 5,5 Prozent Minderheitsanteil an BAFISUD Montevideo. Nicht identisch mit der panamaischen BAFISUD Corporation."
+
+  - id: ORG-LU-BANCO-AMBROSIANO-HOLDING-SA
+    type: finance_company
+    name: "Banco Ambrosiano Holding S.A. (Luxemburg)"
+    countries: [LU]
+    notes: "1979 in Banco-Ambrosiano-Inserat unter Controllate genannt; Banca d'Italia 1982/83 berichtet Kontrolle von Banco Ambrosiano Overseas Nassau über die luxemburgische Holding, ohne hier ein vollständiges Aktienregister oder zusätzliche Weisungsbelege zu liefern."

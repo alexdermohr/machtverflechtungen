@@ -2507,3 +2507,16 @@ sources:
   locator: "Gedruckte Seite 134, PDF-Seite 136, 30. April 1980: BAFISUD Rang 8, 938.685 Tausend N$ bzw. 4,75 Prozent"
   sha256: 58f1b51d6123d0126ac11a7154e7b2250e1acdfd958277edeaeb9c5883203f15
   notes: "Übernahme einer Tabelle der Asociación de Bancos del Uruguay, statistische Urschrift noch ausstehend; Größe Pasivo exigible y patrimonial nicht mit Eigenkapital/Einlagen gleichzusetzen."
+
+- id: SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983
+  title: "Banca d'Italia – Documentazione relativa ai rapporti tra il BAFISUD ed il Credito Varesino (mit zeitgenössischer Aktienkorrespondenz)"
+  institution: "Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI"
+  date: "1983"
+  type: central_bank_inspection_with_bank_originals
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf
+  accessed: "2026-10-30"
+  locator: "IX Legislatur, Doc. XXIII 2-quater/3/VI, Druck-S. 423/PDF 431: BAFISUD Montevideo 5,5% Banco Ambrosiano Overseas Nassau; 426/PDF 434: CCF Suisse als schweizerische Tochter der französischen CCF; 427/PDF 435: Einlagen 1980; 430/PDF 438: La Centrale 4,5 Mio. Credito-Varesino-Aktien 1978 an BAFISUD Corporation Panama; 436/PDF 444: effektiver Finanzierer unbekannt; 440/PDF 448: Banco-Ambrosiano-Brief vom 13.02.1979; 448-449/PDF 456-457: CCF-Suisse-Brief 01.04.1981 und Zertifikatübertragung 31.03.1981."
+  sha256: 73f799c088f40974ade37565c1db9293ad0df904c6339bee977303b160c64723
+  notes: "53.268.656 Byte, SHA-256 erneut geprüft; Originalbriefseiten PDF 448, 456 und 457 im Bild kontrolliert; Inspektionsseiten PDF 431, 434, 435, 438, 440 und 444 in der Textlage überprüft. Primär für Bankaufsichtsbefunde, zeitgenössische Originalbriefe und nominelle Aktienbewegungen; KEIN unabhängig festgestellter effektiver Kapitalfinanzierer, keine Inter-Alpha-Anweisung, kein Sudam-/PSI-Endtransfer."

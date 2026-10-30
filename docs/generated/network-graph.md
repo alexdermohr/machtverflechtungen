@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**154 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**166 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -300,6 +300,25 @@ flowchart LR
     N_ORG_NL_NEDERLANDSCHE_MIDDENSTANDSBANK -->|"NMB-Mehrheitserwerb im März 1983; Carrió zitiert 78,79 Prozent Aktien und N$ 1 nominellen Anteilspreis, Bank 1984 beansprucht inzwischen 100 Prozent"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
     N_ORG_UY_BANCO_CENTRAL_URUGUAY["Banco Central del Uruguay (BCU)"]
     N_ORG_UY_BANCO_CENTRAL_URUGUAY -->|"BCU-Kauf von Problemforderungen: Carrió nennt Vertrag 09.01.1984 über rund 93,7 Mio. USD nach seiner Umrechnung; Vaz/Banda nennen rund 106 Mio. USD Nominalforderungen 1982/83; Beträge nicht als identisch bewiesen"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
+    N_ORG_FR_CREDIT_COMMERCIAL_DE_FRANCE_SA["Crédit Commercial de France S.A. (Paris)"]
+    N_ORG_FR_CREDIT_COMMERCIAL_DE_FRANCE_SA -->|"Crédit Commercial de France S.A. Paris als selbständige Mitgliedsbank im Banco-Ambrosiano-Inserat 1979 benannt; nicht die spätere Schweizer Aktiehalterin"| N_ORG_INT_INTERALPHA_BANKENKOOPERATION
+    N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA["Crédit Commercial de France (Suisse) S.A. (Genf)"]
+    N_ORG_FR_CREDIT_COMMERCIAL_DE_FRANCE_SA -->|"Banca d'Italia bezeichnet den Genfer Rechtsträger Crédit Commercial de France (Suisse) S.A. ausdrücklich als schweizerische Tochter der französischen Bank; direkte Stimmrechtsquote nicht veröffentlicht"| N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA
+    N_ORG_LU_BANCO_AMBROSIANO_HOLDING_SA["Banco Ambrosiano Holding S.A. (Luxemburg)"]
+    N_ORG_IT_BANCO_AMBROSIANO_SPA_1979 -->|"Banco-Ambrosiano-Eigeninserat 1979 listet die Luxemburger Holding in gesonderter Rubrik Controllate; nicht als Inter-Alpha-Mitglied"| N_ORG_LU_BANCO_AMBROSIANO_HOLDING_SA
+    N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS["Banco Ambrosiano Overseas (Nassau; vormals Cisalpine Overseas Bank)"]
+    N_ORG_LU_BANCO_AMBROSIANO_HOLDING_SA -->|"Banca-d'Italia-Inspektionsmaterial bezeichnet den Banco Ambrosiano Overseas Nassau (früher Cisalpine Overseas) als von der Luxemburger Ambrosiano-Holding kontrolliert; Eigentumsregister nicht separat eingesehen"| N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS
+    N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS -->|"Banca d'Italia: Cisalpine/Banco Ambrosiano Overseas Nassau hielt etwa 1978 und noch im geschilderten Interbankenkontext Juni 1980 5,5 Prozent am Kapital von BAFISUD Montevideo; Minderheit ist keine belegte Mehrheitskontrolle"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
+    N_ORG_PA_BAFISUD_CORPORATION_SA["BAFISUD Corporation S.A. (Panama)"]
+    N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO -->|"Die Bankaufsicht nennt BAFISUD Corporation Panama eine mit BAFISUD Montevideo verbundene Finanzgesellschaft; Eigentumsquote, Treuhandgeber und effektiver Finanzierer blieben ungeklärt"| N_ORG_PA_BAFISUD_CORPORATION_SA
+    N_ORG_IT_LA_CENTRALE_FINANZIARIA_SPA["La Centrale Finanziaria S.p.A. (Mailand)"]
+    N_ORG_IT_BANCO_AMBROSIANO_SPA_1979 -->|"Banca d'Italia nennt La Centrale als Finanzgesellschaft des Ambrosiano-Umfelds; kein hier separat ermittelter direkter 100-Prozent-Beteiligungsvertrag"| N_ORG_IT_LA_CENTRALE_FINANZIARIA_SPA
+    N_ORG_IT_LA_CENTRALE_FINANZIARIA_SPA -->|"September/Oktober 1978: La Centrale verkauft 4,5 Mio. Credito-Varesino-Aktien (12,5 Prozent des Varesino-Kapitals) für laut Banca d'Italia 26,6 Mrd. Lire; der tatsächliche Geldgeber hinter der Panama-Gesellschaft ist unbekannt"| N_ORG_PA_BAFISUD_CORPORATION_SA
+    N_ORG_IT_CREDITO_VARESINO_SPA["Credito Varesino S.p.A. (Varese)"]
+    N_ORG_PA_BAFISUD_CORPORATION_SA -->|"4,5 Mio. Aktien entsprechend 12,5 Prozent des Credito-Varesino-Kapitals auf BAFISUD Corporation Panama 1978 indossiert; Banca d'Italia hält treuhänderische Namenshaltung für möglich"| N_ORG_IT_CREDITO_VARESINO_SPA
+    N_ORG_PA_BAFISUD_CORPORATION_SA -->|"31.03.1981: 44 Zertifikate Nr. 00204-00247 zu je 100.000 Credito-Varesino-Aktien (4,4 Mio.) auf Schweizer CCF umgeschrieben; deren Brief vom 01.04. behauptet fehlendes Finanzgeschäft, nicht unabhängig geprüft"| N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA
+    N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA -->|"Schweizer CCF ab 31.03.1981 eingetragene Halterin von 4,4 Mio. Credito-Varesino-Aktien; im Laufe 1981/82 teilweise veräußert; wirtschaftlicher Auftraggeber nicht identifiziert"| N_ORG_IT_CREDITO_VARESINO_SPA
+    N_ORG_IT_CREDITO_VARESINO_SPA -->|"Zwei unterschiedliche Credito-Varesino-Interbankeinlagen bei BAFISUD: 200.000 USD ab 20.06.1980 (3 Monate) und 300.000 USD ab 25.09.1980 bis 29.12.1980; keine zeitgleiche 500.000-USD-Position ableitbar"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
 ```
 
 [Zur Relationstabelle](network.md)
