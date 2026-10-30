@@ -725,3 +725,72 @@ entities:
     countries: [US]
     notes: "Von Bloomberg Tradebook Europe Ltd und Bloomberg Philanthropies rechtlich getrennt; Medienfunktion Micklethwait."
 
+  - id: ORG-GB-BILDERBERG-CHARITY-272706
+    type: association
+    name: "The Bilderberg Association (Charity 272706, historisch)"
+    countries: [GB]
+    notes: "Britische Charity mit eigenen Konferenzkonten; Löschung 21.05.2021. Von UK Limited 12988319 und American Friends of Bilderberg juristisch zu unterscheiden."
+
+  - id: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: organization
+    name: "The Bilderberg Association UK Limited (12988319)"
+    countries: [GB]
+    notes: "Am 02.11.2020 gegründete company limited by guarantee; Persons with Significant Control: Sawers und Susan Jean Minton Beddoes mit je über 25 bis maximal 50 Prozent Stimmrechten sowie Befugnis zur Direktorbestellung/-abberufung. Keine automatische Rechtsnachfolge zur alten Charity belegt."
+
+  - id: ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148
+    type: organization
+    name: "Newbridge Advisory Limited (11853148)"
+    countries: [GB]
+    notes: "Seit 28.02.2019 registrierte Gesellschaft mit John Sawers als Director; 2022er Parlamentssponsor 'Newbridge Advisory' nennt keine Company Number."
+
+  - id: ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN
+    type: organization
+    name: "Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022)"
+    countries: [GB]
+    notes: "2022er Parlamentsregister nennt den Sponsor ohne Ltd und Firmennummer. Zuordnung zu Newbridge Advisory Limited stark indiziert, aber ohne Rechnung/Company Number nicht rechtsidentisch belegt."
+
+  - id: ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN
+    type: organization
+    name: "Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022)"
+    countries: [GB, US]
+    notes: "Nur als 2022er Sponsorenbezeichnung ohne Rechtsträgernummer identifiziert. Identität mit britischer Charity, UK Limited oder internationalem Veranstalter nicht belegt."
+
+  - id: ORG-GB-HERTFORDSHIRE-POLICE
+    type: government_agency
+    name: "Hertfordshire Constabulary"
+    countries: [GB]
+    notes: "Polizeiträger mit 2013/14 in einer Home-Office-FOI-Tabelle aufgeführtem Sonderzuschuss-Antrag zu Bilderberg/Operation Discuss."
+
+  - id: ORG-GB-HOME-OFFICE
+    type: government_agency
+    name: "UK Home Office"
+    countries: [GB]
+
+  - id: ORG-GB-THE-ECONOMIST
+    type: media_outlet
+    name: "The Economist"
+    countries: [GB]
+
+  - id: PER-GB-JOHN-SAWERS
+    type: person
+    name: "Sir John Sawers"
+    countries: [GB]
+    notes: "Ehemaliger MI6-Direktor 2009–2014, seit 2019 Newbridge-Advisory-Director und seit 2020 Bilderberg-UK-Limited-Director; Rollen nicht mit einem Geheimdienstauftrag gleichsetzen."
+
+  - id: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    type: person
+    name: "Susan Jean Minton Beddoes (Zanny Minton Beddoes)"
+    countries: [GB]
+    notes: "Companies House nennt Susan Jean als Bilderberg-UK-Director; Veranstalter nennt Zanny als Economist-Chefredakteurin und Steering-Mitglied. Identitätszusammenführung stark gestützt, keine einheitliche Personenkennungsnummer."
+
+  - id: PER-GB-DAVID-LAMMY
+    type: person
+    name: "David Lammy"
+    countries: [GB]
+    notes: "Parlamentarische Bilderberg-Reise 2022; amtlich festgestellte verspätete Interessenregistrierung ohne nachgewiesenen Täuschungsvorsatz."
+
+  - id: ORG-GB-COMMONS-STANDARDS-COMMISSIONER
+    type: government_agency
+    name: "Parliamentary Commissioner for Standards (House of Commons)"
+    countries: [GB]
+    notes: "Prüfstelle der amtlichen 2022er Rectification zu David Lammys verspäteter Bilderberg-Reiseangabe; kein Strafgericht."
