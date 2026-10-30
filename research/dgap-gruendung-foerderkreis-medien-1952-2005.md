@@ -19,7 +19,7 @@ Dies belegt institutionelle Interessen-, Finanzierungs- und Personalverflechtung
 | **1952** | Cornides und Steltzer bereisen die USA, nehmen u. a. Kontakt zum **Council on Foreign Relations (CFR)** auf. | [DGAP-Chronik, Eintrag 1952](https://dgap.org/de/ueber-uns/die-geschichte-der-dgap); dokumentiert Kontakt, **keine** Übertragung einer Gründungsträgerschaft. |
 | **1953** | Vorbereitungsgespräche mit **Chatham House** und deutschen Wirtschafts- und Politikvertretern; genannt u. a. Arnold Toynbee, Hermann J. Abs, Günter Henle, Walter Hallstein, Wilhelm Beutler, Erich Ollenhauer. | [DGAP-Chronik, Eintrag 1953](https://dgap.org/de/ueber-uns/die-geschichte-der-dgap), institutionelle Rückschau. |
 | **12. März 1955** | Öffentlicher Gründungsaufruf mit **21** namentlich genannten Unterzeichnern. | [DGAP, *50 Jahre*, gedruckte S. 27, PDF-Blatt 29](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29). Namenliste **aus einer 2005 publizierten Chronik**, nicht eingesehener Urschrift. |
-| **29. März 1955** | Gründung an der Universität Bonn; Günter Henle erster Präsident, Theodor Steltzer geschäftsführender Vizepräsident; zugleich Fördererkreis mit **53 Unternehmen**. | [DGAP-*50 Jahre*, PDF-Blatt 29](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29) und [DGAP-Chronik](https://dgap.org/de/ueber-uns/die-geschichte-der-dgap). Die Chronik nennt **nicht alle 53 mit Einzelbeiträgen**. |
+| **29. März 1955** | Gründung an der Universität Bonn; Günter Henle erster Präsident, **Fritz Berg und Gerhart Lütkens** Vizepräsidenten; zugleich Fördererkreis mit **53 Unternehmen**. | [DGAP-*50 Jahre*, PDF-Blatt 29](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29) und [DGAP-Chronik](https://dgap.org/de/ueber-uns/die-geschichte-der-dgap). Die Chronik nennt **nicht alle 53 mit Einzelbeiträgen**. |
 
 Die [DGAP-Schrift *65 Jahre Geschichte* (2020), PDF-Blatt 3](https://dgap.org/sites/default/files/dgap_65_jahre_geschichte_der_dgap_einzelseiten.pdf#page=3) nennt **Theodor Steltzer und 20 weitere Persönlichkeiten aus Politik und Wirtschaft** sowie **Chatham House als Vorbild**. Der Fördererkreis von 53 Unternehmen sollte die Tätigkeit finanziell absichern. Der Hinweis auf ein ausländisches institutionelles Vorbild ist mit deutschen Gründungsakteuren vollständig vereinbar.
 
@@ -35,7 +35,7 @@ Die [DGAP-Schrift *65 Jahre Geschichte* (2020), PDF-Blatt 3](https://dgap.org/si
 | Fritz Berg | Präsident des Bundesverbandes der Deutschen Industrie (BDI) |
 | Heinrich von Brentano | Politiker (CDU), 1955–1963 Außenminister |
 | Thomas Dehler | FDP-Bundesvorsitzender 1954–1957 |
-| **Ernst Friedlaender** | **Chefredakteur DIE ZEIT**; außerdem 1952 Gründungsvorstand der Atlantik-Brücke, siehe § 6 |
+| **Ernst Friedlaender** | DGAP-Rückschau nennt ihn „Chefredakteur DIE ZEIT“, **für 1955 anachronistisch**: 1946–Sommer 1950 **stellvertretender Chefredakteur**; außerdem 1952 Gründungsvorstand der Atlantik-Brücke, siehe § 6 |
 | Hans Goudefroy | Vorstandsvorsitzender Allianz AG 1948–1961 |
 | Wilhelm Grewe | Jurist/Diplomat, in der DGAP-Chronik als Leiter der Politischen Abteilung des Auswärtigen Amtes ausgewiesen |
 | Walter Hallstein | Staatssekretär |
@@ -45,11 +45,11 @@ Die [DGAP-Schrift *65 Jahre Geschichte* (2020), PDF-Blatt 3](https://dgap.org/si
 | Ernst Lemmer | CDU-Mitgründer in Ostdeutschland; Abgeordneter |
 | Hans-Karl von Mangoldt-Reiboldt | Präsident des Direktoriums der Europäischen Zahlungsunion |
 | Hans J. von Merkatz | Fraktionsvorsitzender Deutsche Partei 1953–1955 im Bundestag |
-| **Richard Merton** | **Vorstandsvorsitzender Metallgesellschaft AG**, Stifterverbandsvorsitzender, siehe § 6 |
+| **Richard Merton** | **Aufsichtsratsvorsitzender Metallgesellschaft AG** (DGAP-Rückschau 2005), Stifterverbandsvorsitzender, siehe § 6 |
 | Erich Ollenhauer | SPD-Vorsitzender 1952–1963 |
 | August Oswalt | Mitinhaber Bankhaus Georg Hauck & Sohn |
 | Robert Pferdmenges | Präsident Bundesverband deutscher Banken |
-| Theodor Steltzer | DGAP-Initiator, geschäftsführender Vizepräsident bei Gründung |
+| Theodor Steltzer | DGAP-Initiator; die Chronik benennt bei der Gründung als Vizepräsidenten **Fritz Berg und Gerhart Lütkens** |
 | Hermann Weinkauff | Präsident des Bundesgerichtshofs |
 | Heinrich Weitz | Präsident des Deutschen Roten Kreuzes |
 
@@ -93,7 +93,7 @@ Die Liste nennt **Mitgliedschaft im Fördererkreis und dankt für Unterstützung
 
 ## 5. Medien und nachweisbare publizistische Zusammenarbeit
 
-Die **1955er Verbindung Friedlaender–DIE ZEIT** sowie mehrere **2005er Verlagsmitgliedschaften** machen journalistische Unabhängigkeit und die Offenlegung möglicher Interessenkonflikte zu einem konkreten Forschungsgegenstand. Das ist ein belegtes **gemeinsames institutionelles Umfeld**, jedoch noch keine Nachrichtensperre, abgestimmte Berichterstattung oder Presselenkung.
+Die **frühere ZEIT-Leitungsfunktion Friedlaenders (1946–1950) in Verbindung mit seiner DGAP-Unterzeichnung 1955** sowie mehrere **2005er Verlagsmitgliedschaften** machen journalistische Unabhängigkeit und die Offenlegung möglicher Interessenkonflikte zu einem konkreten Forschungsgegenstand. Das ist ein belegtes **gemeinsames institutionelles Umfeld**, jedoch noch keine Nachrichtensperre, abgestimmte Berichterstattung oder Presselenkung.
 
 **Eigenständige publizistische Kooperation 1981:** [DGAP, *65 Jahre Geschichte*, PDF-Blatt 6](https://dgap.org/sites/default/files/dgap_65_jahre_geschichte_der_dgap_einzelseiten.pdf#page=6) berichtet, dass **DGAP, britisches Chatham House, französisches ifri und US-amerikanischer CFR gemeinsam die Denkschrift *Die Sicherheit des Westens* publizierten**. Das ist ein von 1955er Gründung und Förderkreismitgliedschaft unterschiedlicher, **konkreter publizistischer Kooperationsnachweis**. Ohne originale Manuskriptfassungen, Redaktionsprotokolle oder Finanzierung bleibt offen, wie Inhalte ausgehandelt und finanziert wurden.
 
@@ -101,9 +101,9 @@ Für eine Mediensteuerungsbehauptung wären etwa **redaktionelle Vorgaben, nachw
 
 ## 6. Zwei personelle Kreuzverbindungen – und die CIA-QKSNITCH-Grenze
 
-**Ernst Friedlaender:** Die [Atlantik-Brücke führt ihn in ihrem Gründungsvorstand von 1952](https://www.atlantik-bruecke.org/vorstand/). Die DGAP nennt ihn als [Unterzeichner 1955 mit Funktion als Chefredakteur der ZEIT](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29). Daraus folgt eine **zeitlich konkret belegte Personenschnittstelle**:
+**Ernst Friedlaender:** Die [Atlantik-Brücke führt ihn in ihrem Gründungsvorstand von 1952](https://www.atlantik-bruecke.org/vorstand/). Die [DGAP-Rückschau 2005 nennt ihn als Unterzeichner 1955 und bezeichnet ihn als „Chefredakteur DIE ZEIT“](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29). **Für das Jahr 1955 ist diese Funktionsbezeichnung anachronistisch:** [DIE ZEIT dokumentiert selbst, dass er bereits im Sommer 1950 aus der Redaktion ausschied](https://www.zeit.de/2021/19/marion-graefin-doenhoff-die-zeit-nuernberger-prozesse-journalismus-nachkriegszeit/seite-2), damals als **stellvertretender Chefredakteur**. Somit ist seine Verbindung zur Medienführung **historisch**, nicht 1955 gleichzeitig ausgeübt. Daraus folgt eine **zeitlich gestaffelte Personenschnittstelle**:
 
-`Atlantik-Brücke (Gründungsvorstand 1952) ← Friedlaender → DGAP (Gründungsaufruf 1955)`; zusätzlich `Friedlaender → DIE ZEIT (Chefredaktion 1955)`.
+`Atlantik-Brücke (Gründungsvorstand 1952) ← Friedlaender → DGAP (Gründungsaufruf 1955)`; zusätzlich `Friedlaender → DIE ZEIT (stellvertretende Chefredaktion 1946–1950)`. **Kein ZEIT-Leitungsamt 1955 nachgewiesen.**
 
 **Richard Merton:** Die [eigene Stifterverbands-Chronik über die 1950er-Jahre](https://www.stifterverband2020.de/geschichte/1950er) dokumentiert **seine Mitwirkung an der Neugründung 1949 und die Übernahme des Vorstandsvorsitzes**. Sie schildert die wirtschaftspolitische Absicht eines eigenständigen Einflusses der Wirtschaft auf die Wissenschaftsförderung und charakterisiert **„Registrieren und Schleusen“** von Spenden als damalige Verbandspraxis. Der [DGAP-Gründungsaufruf 1955](https://dgap.org/sites/default/files/50_jahre_dgap.pdf#page=29) nennt Merton zugleich unter den Unterzeichnern. Daher ist folgende Verbindung belegt:
 
@@ -121,7 +121,7 @@ Für eine Mediensteuerungsbehauptung wären etwa **redaktionelle Vorgaben, nachw
 | 53 Unternehmen → DGAP-Fördererkreis 1955 | DGAP-Eigenchronik | Aggregierte ursprüngliche Unternehmensmitgliedschaft |
 | Elf Förderer → DGAP, laut Dank 2005 seit 50 Jahren | DGAP-Jubiläumsband 2005 | Retrospektive Langzeitförderbehauptung, ohne Einzelbuchung |
 | Fünf Medienunternehmen + Stifterverband → Fördererkreis 2005 | Originaldruck DGAP 2005 | Datierte Fördererkreis-Mitgliedschaft |
-| Friedlaender → Atlantik-Brücke / DGAP / ZEIT | Zwei institutionelle Quellen | Datierte persönliche Funktionsüberschneidung |
+| Friedlaender → Atlantik-Brücke / DGAP / ZEIT | DGAP, Atlantik-Brücke und DIE ZEIT | Zeitlich **nacheinander** belegte Funktionen: ZEIT bis 1950, Atlantik-Brücke 1952, DGAP-Aufruf 1955 |
 | Merton → Stifterverband / DGAP | Zwei institutionelle Quellen | Vorsitz und Aufrufunterzeichnung |
 | DGAP + CFR + Chatham House + ifri → *Die Sicherheit des Westens* 1981 | DGAP-Jubiläumschronik 2020 | Gemeinsam publizierte Denkschrift |
 | **CIA → DGAP; DGAP → verdeckte ZEIT-Redaktionsweisung; CFR/Chatham House → rechtsförmliche DGAP-Gründung** | **Kein entsprechender Originalbeleg in dieser Prüfung** | **Nicht als gesicherte Graphkante erfassen** |
