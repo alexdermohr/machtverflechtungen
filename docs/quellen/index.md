@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**218 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**219 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -323,6 +323,17 @@ Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle · `SRC-DE-AXELSP
 [Seite öffnen](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin)
 
 Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
+
+<a id="src-it-banca-italia-bafisud-varesino-1983"></a>
+### Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI
+
+**[Banca d'Italia – Documentazione relativa ai rapporti tra il BAFISUD ed il Credito Varesino (mit zeitgenössischer Aktienkorrespondenz)](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf)**
+
+Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI · 1983 · Stufe **A** · Primärquelle · `SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf)
+
+Fundstelle: IX Legislatur, Doc. XXIII 2-quater/3/VI, Druck-S. 423/PDF 431: BAFISUD Montevideo 5,5% Banco Ambrosiano Overseas Nassau; 426/PDF 434: CCF Suisse als schweizerische Tochter der französischen CCF; 427/PDF 435: Einlagen 1980; 430/PDF 438: La Centrale 4,5 Mio. Credito-Varesino-Aktien 1978 an BAFISUD Corporation Panama; 436/PDF 444: effektiver Finanzierer unbekannt; 440/PDF 448: Banco-Ambrosiano-Brief vom 13.02.1979; 448-449/PDF 456-457: CCF-Suisse-Brief 01.04.1981 und Zertifikatübertragung 31.03.1981.
 
 <a id="src-it-ambrosiano-interalpha-angps-1979"></a>
 ### Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS
