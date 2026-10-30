@@ -1515,7 +1515,7 @@ relations:
     to: ORG-PA-BAFISUD-CORPORATION-SA
     type: transfer_of_share_package
     label: "September/Oktober 1978: La Centrale verkauft 4,5 Mio. Credito-Varesino-Aktien (12,5 Prozent des Varesino-Kapitals) für laut Banca d'Italia 26,6 Mrd. Lire; der tatsächliche Geldgeber hinter der Panama-Gesellschaft ist unbekannt"
-    period: {start: "1978-09"}
+    period: {start: "1978"}
     evidence_level: established
     sources: [SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983]
 
@@ -1524,7 +1524,7 @@ relations:
     to: ORG-IT-CREDITO-VARESINO-SPA
     type: nominal_registered_shareholding
     label: "4,5 Mio. Aktien entsprechend 12,5 Prozent des Credito-Varesino-Kapitals auf BAFISUD Corporation Panama 1978 indossiert; Banca d'Italia hält treuhänderische Namenshaltung für möglich"
-    period: {start: "1978-09", end: "1981-03-31"}
+    period: {start: "1978", end: "1981-03-31"}
     evidence_level: established
     sources: [SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983]
 
