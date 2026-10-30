@@ -1409,3 +1409,40 @@ relations:
     period: {start: "2020-11-02"}
     evidence_level: established
     sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
+
+
+  - id: REL-INT-INTERALPHA-1979-001
+    from: ORG-IT-BANCO-AMBROSIANO-SPA-1979
+    to: ORG-INT-INTERALPHA-BANKENKOOPERATION
+    type: banking_cooperation_membership
+    label: "Februar/März 1979 als Mitglied des Inter-Alpha-Bankenverbunds im eigenen historischen Werbeinserat benannt; unabhängiger Rechtsstatus der Banken"
+    period: {start: "1979"}
+    evidence_level: established
+    sources: [SRC-IT-AMBROSIANO-INTERALPHA-ANGPS-1979, SRC-IT-INTESA-AMBROSIANO-INTERALPHA-HISTORY]
+
+  - id: REL-INT-INTERALPHA-1979-002
+    from: ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK
+    to: ORG-INT-INTERALPHA-BANKENKOOPERATION
+    type: banking_cooperation_membership
+    label: "NMB Amsterdam im Banco-Ambrosiano-Inserat 1979 ausdrücklich als selbständiges Inter-Alpha-Mitglied aufgeführt"
+    period: {start: "1979"}
+    evidence_level: established
+    sources: [SRC-IT-AMBROSIANO-INTERALPHA-ANGPS-1979, SRC-IT-INTESA-AMBROSIANO-INTERALPHA-HISTORY]
+
+  - id: REL-UY-BAFISUD-NMB-1983-001
+    from: ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK
+    to: ORG-UY-BANCO-FINANCIERO-SUDAMERICANO
+    type: majority_shareholding_acquisition
+    label: "NMB-Mehrheitserwerb im März 1983; Carrió zitiert 78,79 Prozent Aktien und N$ 1 nominellen Anteilspreis, Bank 1984 beansprucht inzwischen 100 Prozent"
+    period: {start: "1983-03-03"}
+    evidence_level: strong
+    sources: [SRC-UY-CARRIO-PAIS-VACIADO-1987-BAFISUD, SRC-UY-CONVICCION-BAFISUD-REPLY-1984]
+
+  - id: REL-UY-BAFISUD-BCU-1984-001
+    from: ORG-UY-BANCO-CENTRAL-URUGUAY
+    to: ORG-UY-BANCO-FINANCIERO-SUDAMERICANO
+    type: purchased_nonperforming_bank_loans
+    label: "BCU-Kauf von Problemforderungen: Carrió nennt Vertrag 09.01.1984 über rund 93,7 Mio. USD nach seiner Umrechnung; Vaz/Banda nennen rund 106 Mio. USD Nominalforderungen 1982/83; Beträge nicht als identisch bewiesen"
+    period: {start: "1984-01-09"}
+    evidence_level: strong
+    sources: [SRC-UY-CARRIO-PAIS-VACIADO-1987-BAFISUD, SRC-UY-BCU-VAZ-NPL-1999-TAB38, SRC-UY-COPAB-BANKCRISIS-REPORT-2025]

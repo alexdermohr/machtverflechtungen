@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**150 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**154 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -291,6 +291,15 @@ flowchart LR
     N_ORG_GB_COMMONS_STANDARDS_COMMISSIONER -->|"2022: verspätete Bilderberg-Reiseangabe verletzt Paragraph 14 Commons Code; unbeabsichtigt, geringes Gewicht, per Rectification erledigt"| N_PER_GB_DAVID_LAMMY
     N_PER_GB_JOHN_SAWERS -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
     N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
+    N_ORG_IT_BANCO_AMBROSIANO_SPA_1979["Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft)"]
+    N_ORG_INT_INTERALPHA_BANKENKOOPERATION["Inter-Alpha Group (Gruppo di Banche Inter-Alpha)"]
+    N_ORG_IT_BANCO_AMBROSIANO_SPA_1979 -->|"Februar/März 1979 als Mitglied des Inter-Alpha-Bankenverbunds im eigenen historischen Werbeinserat benannt; unabhängiger Rechtsstatus der Banken"| N_ORG_INT_INTERALPHA_BANKENKOOPERATION
+    N_ORG_NL_NEDERLANDSCHE_MIDDENSTANDSBANK["Nederlandsche Middenstandsbank N.V. (NMB)"]
+    N_ORG_NL_NEDERLANDSCHE_MIDDENSTANDSBANK -->|"NMB Amsterdam im Banco-Ambrosiano-Inserat 1979 ausdrücklich als selbständiges Inter-Alpha-Mitglied aufgeführt"| N_ORG_INT_INTERALPHA_BANKENKOOPERATION
+    N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO["Banco Financiero Sudamericano (BAFISUD)"]
+    N_ORG_NL_NEDERLANDSCHE_MIDDENSTANDSBANK -->|"NMB-Mehrheitserwerb im März 1983; Carrió zitiert 78,79 Prozent Aktien und N$ 1 nominellen Anteilspreis, Bank 1984 beansprucht inzwischen 100 Prozent"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
+    N_ORG_UY_BANCO_CENTRAL_URUGUAY["Banco Central del Uruguay (BCU)"]
+    N_ORG_UY_BANCO_CENTRAL_URUGUAY -->|"BCU-Kauf von Problemforderungen: Carrió nennt Vertrag 09.01.1984 über rund 93,7 Mio. USD nach seiner Umrechnung; Vaz/Banda nennen rund 106 Mio. USD Nominalforderungen 1982/83; Beträge nicht als identisch bewiesen"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
 ```
 
 [Zur Relationstabelle](network.md)

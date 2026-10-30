@@ -794,3 +794,34 @@ entities:
     name: "Parliamentary Commissioner for Standards (House of Commons)"
     countries: [GB]
     notes: "Prüfstelle der amtlichen 2022er Rectification zu David Lammys verspäteter Bilderberg-Reiseangabe; kein Strafgericht."
+
+
+  - id: ORG-INT-INTERALPHA-BANKENKOOPERATION
+    type: banking_cooperation_network
+    name: "Inter-Alpha Group (Gruppo di Banche Inter-Alpha)"
+    countries: [IT, NL, DE, FR, BE, GB, DK]
+    notes: "1972 laut Intesa-Bankarchiv gegründete Kooperation selbständiger Institute; im Banco-Ambrosiano-Inserat Februar/März 1979 namentlich beworben. Keine gemeinsame Holding oder gemeinsame wirtschaftliche Verfügungsgewalt durch Mitgliedschaft bewiesen."
+
+  - id: ORG-IT-BANCO-AMBROSIANO-SPA-1979
+    type: commercial_bank
+    name: "Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft)"
+    countries: [IT]
+    notes: "Originalinserat Februar/März 1979 benennt Inter-Alpha-Mitgliedschaft und gesondert eigene Tochtergesellschaften. Nicht mit Banco Ambrosiano Veneto (ab 1989) oder selbständigen Inter-Alpha-Mitgliedern gleichsetzen."
+
+  - id: ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK
+    type: commercial_bank
+    name: "Nederlandsche Middenstandsbank N.V. (NMB)"
+    countries: [NL]
+    notes: "Im Banco-Ambrosiano-Inserat 1979 als Inter-Alpha-Mitglied genannt; im März 1983 nach zeitgenössischer Gegendarstellung und später zitierten Vertragsstücken Käuferin der Mehrheit am uruguayischen BAFISUD."
+
+  - id: ORG-UY-BANCO-FINANCIERO-SUDAMERICANO
+    type: commercial_bank
+    name: "Banco Financiero Sudamericano (BAFISUD)"
+    countries: [UY]
+    notes: "1980 Rang 8 von 21 Privatbanken nach bestimmtem Bilanzaggregat (4,75 Prozent), nicht pauschal zweitgrößte Bank. 1983 NMB-Mehrheitsübernahme, 1982/84 problematische Kreditportfolios staatlich erworben; 106 Mio. US-Dollar nomineller Anteil in Vaz/Banda-Statistik, weder Nettoverlust noch Gewaltfinanzierung bewiesen."
+
+  - id: ORG-UY-BANCO-CENTRAL-URUGUAY
+    type: central_bank
+    name: "Banco Central del Uruguay (BCU)"
+    countries: [UY]
+    notes: "Zentralbank und Vertrags-/Forderungsankaufsgegenseite in veröffentlichten 1983/84er NMB-BAFISUD-Zitaten; Staatsanleihe-/Portfolioübernahmen systemweiter Bankenkrisenmechanismus, dessen individuelle Rückflüsse und ökonomische Endbegünstigte gesondert zu prüfen sind."

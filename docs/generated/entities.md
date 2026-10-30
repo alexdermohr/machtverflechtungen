@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**151 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**156 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -86,6 +86,9 @@
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE |
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE |
+| Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT |
+| Banco Central del Uruguay (BCU) | central_bank | `ORG-UY-BANCO-CENTRAL-URUGUAY` | UY |
+| Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US |
@@ -120,6 +123,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
+| Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE |
@@ -128,6 +132,7 @@
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE |
+| Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL |
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |

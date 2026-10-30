@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**210 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**218 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -323,6 +323,17 @@ Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle · `SRC-DE-AXELSP
 [Seite öffnen](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin)
 
 Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
+
+<a id="src-it-ambrosiano-interalpha-angps-1979"></a>
+### Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS
+
+**[Banco Ambrosiano S.p.A. – Inserat mit Mitgliederliste Gruppo di Banche Inter-Alpha](https://www.anpsbrescia.it/wp/wp-content/uploads/2018/02/1979-2-Feb-Mar-ROB.pdf)**
+
+Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS · 1979-02 · Stufe **A** · Primärquelle · `SRC-IT-AMBROSIANO-INTERALPHA-ANGPS-1979`
+
+[PDF öffnen](https://www.anpsbrescia.it/wp/wp-content/uploads/2018/02/1979-2-Feb-Mar-ROB.pdf)
+
+Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banco Ambrosiano und NMB als Inter-Alpha-Mitglieder
 
 <a id="src-de-bymr-td-19530113"></a>
 ### Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat
@@ -1629,6 +1640,28 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
 
+<a id="src-uy-impo-ley15322-1982-original"></a>
+### República Oriental del Uruguay, IMPO
+
+**[Decreto-Ley 15.322 – Intermediación financiera, Originalfassung vom 17. September 1982](https://www.impo.com.uy/bases/decretos-leyes-originales/15322-1982)**
+
+República Oriental del Uruguay, IMPO · 1982-09-17 · Stufe **A** · Primärquelle · `SRC-UY-IMPO-LEY15322-1982-ORIGINAL`
+
+[Seite öffnen](https://www.impo.com.uy/bases/decretos-leyes-originales/15322-1982)
+
+Fundstelle: Decreto-Ley 15322, Originalfassung 1982, nicht nachträglich konsolidierter Rechtstext
+
+<a id="src-uy-conviccion-bafisud-reply-1984"></a>
+### Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay
+
+**[CONVICCIÓN Nr. 10 – BAFISUD-Gegendarstellung und redaktionelle Erwiderung zur NMB-Übernahme](https://bibliotecadigital.bibna.gub.uy/jspui/bitstream/123456789/148461/1/Conviccion_N10.pdf)**
+
+Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay · 1984-02-16 · Stufe **A** · Primärquelle · `SRC-UY-CONVICCION-BAFISUD-REPLY-1984`
+
+[PDF öffnen](https://bibliotecadigital.bibna.gub.uy/jspui/bitstream/123456789/148461/1/Conviccion_N10.pdf)
+
+Fundstelle: PDF-Seite 7, Bankbrief: NMB im ersten Quartal 1983 mehrheitlich beteiligt und beanspruchte 100% 1984; Redaktion zu Mario Ortolani
+
 <a id="src-de-rotehilfe-ruhland-1975"></a>
 ### Rote Hilfe / Hans-Litten-Archiv (Digitalisat)
 
@@ -1904,6 +1937,17 @@ Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/Contributor
 
 ## Forschung & Dokumentation
 
+<a id="src-it-intesa-ambrosiano-interalpha-history"></a>
+### Archivio storico Intesa Sanpaolo
+
+**[Archivio storico Intesa Sanpaolo – Banco Ambrosiano Veneto: Internationale Beziehungen und Inter-Alpha ab 1972](https://internationalhistory.intesasanpaolo.com/world-map/banks/detail/IT-ISP-MAPPAESTERA-0000288/banco-ambrosiano-veneto-bav)**
+
+Archivio storico Intesa Sanpaolo · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-IT-INTESA-AMBROSIANO-INTERALPHA-HISTORY`
+
+[Seite öffnen](https://internationalhistory.intesasanpaolo.com/world-map/banks/detail/IT-ISP-MAPPAESTERA-0000288/banco-ambrosiano-veneto-bav)
+
+Fundstelle: Abschnitt ab 1972: Gründerbanken BA, BHF, CCF, KB, NMB, Williams & Glyn's; strukturelle Unabhängigkeit; Inter-Alpha-Auslandsbüros
+
 <a id="src-de-archivportal-da-2026"></a>
 ### Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg
 
@@ -1925,6 +1969,17 @@ Atlantik-Brücke e.V. · 2003-02-16 · Stufe **B** · Sekundär-/Forschungsquell
 [PDF öffnen](https://swprs.org/wp-content/uploads/2018/02/a-message-to-the-people-of-the-united-states-of-america.pdf)
 
 Fundstelle: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mitgliedern und Freunden, die durch ihren Beitrag die Veröffentlichung ermöglichten
+
+<a id="src-uy-bcu-vaz-npl-1999-tab38"></a>
+### Banco Central del Uruguay, Revista de Economía
+
+**[Daniel Enrique Vaz – Four Banking Crises: Their Causes and Consequences, Tabelle 3.8](https://bvrie.bcu.gub.uy/local/File/REVECO/1999/Vaz.pdf)**
+
+Banco Central del Uruguay, Revista de Economía · 1999 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-UY-BCU-VAZ-NPL-1999-TAB38`
+
+[PDF öffnen](https://bvrie.bcu.gub.uy/local/File/REVECO/1999/Vaz.pdf)
+
+Fundstelle: Druckseite 130 / PDF-Seite 102, Tabelle 3.8, BAFISUD US$106 Mio. Forderungsnennwert; 5 Banken 413,2 Mio.; Quelle Banda [1990]
 
 <a id="src-de-polizei-by-okt-chronologie-2025"></a>
 ### Bayerische Polizei / Bayerisches Landeskriminalamt
@@ -2089,6 +2144,17 @@ Central Intelligence Agency, Center for the Study of Intelligence · 1995 · Stu
 
 Fundstelle: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
 
+<a id="src-uy-copab-bankcrisis-report-2025"></a>
+### Corporación de Protección del Ahorro Bancario (COPAB), Uruguay
+
+**[COPAB – Informe final investigación crisis bancarias: historische Bankkrisen und Forderungsrückflüsse](https://www.copab.org.uy/innovaportal/file/1374/1/copab-informe-final-investigacion-crisis-bancarias-nov-2025.pdf)**
+
+Corporación de Protección del Ahorro Bancario (COPAB), Uruguay · 2025-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-UY-COPAB-BANKCRISIS-REPORT-2025`
+
+[PDF öffnen](https://www.copab.org.uy/innovaportal/file/1374/1/copab-informe-final-investigacion-crisis-bancarias-nov-2025.pdf)
+
+Fundstelle: PDF-Seiten 35 (25% Finanzsystemkredite, 10% aggregierte Rückgewinnung), 39 (wirtschaftliche Gesamtkosten), 96–98 (BCU-Kreditportfolio-Tabellen)
+
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
 ### DER SPIEGEL, Nr. 24/1971
 
@@ -2199,6 +2265,17 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
 
+<a id="src-uy-carrio-pais-vaciado-1987-bafisud"></a>
+### Monte Sexto, Montevideo; Archiv Sitios de Memoria
+
+**[Miguel Carrió – País vaciado: dictadura y negociados (1973–1985), NMB/BAFISUD/BCU-Verträge](https://sitiosdememoria.uy/sites/default/files/2025-11/13/miguel-carrio-1987-pais-vaciado.pdf)**
+
+Monte Sexto, Montevideo; Archiv Sitios de Memoria · 1987 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-UY-CARRIO-PAIS-VACIADO-1987-BAFISUD`
+
+[PDF öffnen](https://sitiosdememoria.uy/sites/default/files/2025-11/13/miguel-carrio-1987-pais-vaciado.pdf)
+
+Fundstelle: Gedruckte Seiten 35–38, PDF-Seiten 37–40: 03./04./07.03.1983 und 05./09.01.1984; Aktienanteile 78,79%, N$ 1 und BCU-Problemforderungen
+
 <a id="src-us-nsa-gehlen-2005"></a>
 ### National Security Archive, George Washington University
 
@@ -2286,6 +2363,17 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 [PDF öffnen](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
+
+<a id="src-uy-manzi-bankrank-1981"></a>
+### Uruguay: dictadura y realidad nacional; Sitios de Memoria
+
+**[Ricardo Manzi – El sistema bancario privado y la política económica en 1955–1979, Cuadro 21](https://sitiosdememoria.uy/sites/default/files/2024-02/uruguay-dictadura-y-realidad-nacional_f1981.pdf)**
+
+Uruguay: dictadura y realidad nacional; Sitios de Memoria · 1981 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-UY-MANZI-BANKRANK-1981`
+
+[PDF öffnen](https://sitiosdememoria.uy/sites/default/files/2024-02/uruguay-dictadura-y-realidad-nacional_f1981.pdf)
+
+Fundstelle: Gedruckte Seite 134, PDF-Seite 136, 30. April 1980: BAFISUD Rang 8, 938.685 Tausend N$ bzw. 4,75 Prozent
 
 <a id="src-us-nara-iwg-gehlen-2001"></a>
 ### US National Archives, Interagency Working Group
