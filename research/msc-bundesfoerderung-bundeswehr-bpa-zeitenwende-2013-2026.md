@@ -64,6 +64,17 @@ Die Quellen belegen **Finanzierung, Personal, operative Kooperation und rechtlic
 
 **Forschungsurteil:** Für **staatlich finanzierte politische Öffentlichkeitsarbeit**, eine **MSC-eigene, durch aktives Bundespersonal unterstützte Kampagnengesellschaft**, eine **ausdrücklich gemeinsam mit der Bundesregierung aufgelegte Veranstaltungsreihe** und eine **mit staatlichen Zuwendungen geförderte, gemeinsam mit einer politischen Fachzeitschrift publizierte Ausgabe** liegen **vier unabhängig nachprüfbare Primärbelege** vor. **Nicht nachgewiesen** sind eine verdeckte Zahlungsverwendung, eine bezahlte Weisung an die Redaktion, eine unzulässige ministerielle Textfreigabe oder eine konkrete politisch durch die Kampagne verursachte Entscheidung. Auch die **offene Kennzeichnung der Kooperation im IP-Heft** spricht gegen die pauschale Beschreibung als verheimlichte Koproduktion.
 
+### 2a. Atlantik-Brücke → DGAP → MSC und BPA-geförderte Medienproduktion: zwei frühere Vorsitzende
+
+Zwei namentlich identifizierte Akteure verbinden **historisch die Vereinsführung der Atlantik-Brücke mit der Präsidentschaft der Deutschen Gesellschaft für Auswärtige Politik (DGAP)**. Das ist für die 2023er Medienkooperation der MSC aufschlussreich, ohne dass aus früheren Ämtern Weisungen folgen.
+
+| Person und Zeitpunkt | Originalbelegte Doppel-/Folgerolle | Relevanz |
+|---|---|---|
+| **Arend Oetker** | Laut **Atlantik-Brücke-Vereinschronik Vorsitzender 2000–2005** [Q15]; laut **DGAP-Pressemitteilung Juni 2019** zuvor **14 Jahre DGAP-Präsident**, 2019 von Enders abgelöst [Q16]. Zusätzlich **2003 als INSM-Botschafter** bei gemeinsam mit FOCUS durchgeführtem Wettbewerb durch zeitgenössische Berichterstattung dokumentiert (historischer, nicht primär belegter Befund; siehe [Querschnittsstudie](msc-aspen-wef-insm-trilaterale-cfr-netzwerke-2026.md), NET-31). | Historische Kante **INSM/Atlantik-Brücke → DGAP**; **keine** belegte personelle Rolle Oetkers im 2023er IP-Heft. |
+| **Thomas Enders** | Laut **Atlantik-Brücke-Chronik 2005–2009 AB-Vorsitzender** [Q15]. Die **DGAP selbst** nennt **MSC Advisory Council 2006–2019** und **DGAP-Präsident ab Juni 2019**, in direkter Nachfolge Oetkers [Q16, Q17]. Er leitete historisch **EADS/Airbus**. | Im **IP-Special 3/2023-Impressum, S. 60**, ist Enders als **DGAP-Präsident** genannt; die DGAP ist der **Herausgeber der gemeinsam mit MSC und mit BPA-Mitteln publizierten Ausgabe** [Q10]. |
+
+**Beweisgrenze:** Die **Amtsübergabe der Atlantik-Brücke 2005** und die **personelle DGAP-Nachfolge 2019** sind durch Organisationsoriginale belegt, die MSC-Beraterrolle Enders' durch die DGAP selbst [Q15–Q17]. Die zeitliche Kontinuität und Gremienverflechtung zeigen einen **realen Personal-/Institutionenkanal**, nicht eine nachgewiesene Abstimmung von **Redaktion, Ministerium, INSM und wirtschaftlichen Förderern**. Insbesondere hat Enders' früherer MSC-Beiratsposten **2019 geendet** und ist **nicht** als zusätzliches aktuelles Amt während der IP-Ausgabe 2023 darzustellen.
+
 ## 3. Direkt zugewiesene staatliche Mitarbeiter in Führungs- und Kampagnenfunktionen
 
 **BT-Drs. 20/8509 vom 27.09.2023, gedruckte S. 4–5 (beide bildseitig geprüft), Fragen 10–13** [Q2]:
@@ -151,5 +162,9 @@ Die Quellen belegen **Finanzierung, Personal, operative Kooperation und rechtlic
 - [Q12] **Alfred Landecker Foundation**, Projekt-Originalseite *Zeitenwende on tour*: eigene spätere **Unterstützung der zweiten Förderphase**, Projektabschluss **Ende 2025**; **kein Förderbetrag und keine Identität mit BPA-Fördermitteln belegt**: https://www.alfredlandecker.org/de/projects/zeitenwende-on-tour
 - [Q13] **Christoph Heusgen (MSC-Vorsitz)**, *Die Zeitenwende in den Köpfen*, **Internationale Politik**, **26.06.2023**, originaler Autorenbeitrag im IP Special 3/2023: https://internationalepolitik.de/de/die-zeitenwende-den-koepfen
 - [Q14] **Benedikt Franke (MSC-Geschäftsführung)**, *Zeitenwende(n) ohne Ende*, **Internationale Politik**, **26.06.2023**, originaler Autorenbeitrag über Kampagne und bewusstes sicherheitspolitisches Narrativ: https://internationalepolitik.de/de/zeitenwenden-ohne-ende
+
+- [Q15] **Atlantik-Brücke e.V.**, eigener *Jahresbericht 2010/2011*, **gedruckte S. 72–73**: historische Vorsitzendenliste **Oetker 2000–2005, Enders 2005–2009**. Original-PDF-Text geprüft, **Bildseitenabruf HTTP 404** und deshalb nicht als bildgeprüft bezeichnet: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2010_2011-final.pdf
+- [Q16] **DGAP**, *DGAP wählt neuen Präsidenten*, **Juni 2019**: Enders folgt Oetker nach 14 DGAP-Jahren; nennt **Enders' Atlantik-Brücke-Vorsitz 2005–2009**, **MSC-Advisory-Rolle 2006–2019** und Airbus/EADS-Vorgeschichte: https://dgap.org/en/node/32429
+- [Q17] **DGAP**, Personenprofil *Dr. Thomas Enders*: **DGAP-Präsident seit Juni 2019**, früherer CEO von EADS/Airbus. Online-Stand 2026, nicht als rückwirkender Beleg einer 2023er redaktionellen Einzelentscheidung interpretieren: https://dgap.org/de/user/1588/dr-thomas-enders
 
 **Evidenzurteil:** **Öffentliche Geldströme, staatlich gestellte Arbeitskräfte, politisch-kommunikative Kooperation und punktuelle administrative Ausnahmen sind amtlich dokumentiert.** Weder daraus noch aus parallelen Mitgliedschaften ergibt sich ohne weitere Abrechnungs-, Auftrags- oder Weisungsakten eine nachgewiesene kriminelle Absprache oder eine zentrale Steuerung aller transatlantischen Einrichtungen.
