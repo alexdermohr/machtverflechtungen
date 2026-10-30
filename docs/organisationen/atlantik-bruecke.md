@@ -30,6 +30,8 @@ Das [Bundestags-Lobbyregister R002357](https://www.lobbyregister.bundestag.de/su
 
 **Privater Geldgeber:** Für das transatlantische **New Bridge Program** ist neben staatlicher ERP-Förderung auch die **Joachim Herz Stiftung** als tatsächlicher Förderer auf den Webseiten beider Organisationen dokumentiert; die individuelle Auszahlungssumme ist nicht genannt. Die Arten der [Finanzierungsquellen und Programm-Unterstützungen](../research/atlantik-bruecke-agenda-finanzierer-2021-2026.md) werden getrennt ausgewiesen.
 
+**Aktenbasierte Vertiefung zu Anne Zetsche:** [Historische Förderbeträge, finanzierte Journalistenreisen 1961, Programmauswahl der Ford Foundation, amtliche Publikationseinwirkung und dokumentierte Gegenbelege 1950–1974](../research/anne-zetsche-atlantik-bruecke-archivbelege-1950-1974.md). Die genannten Archivsignaturen stammen aus Zetsches Dissertation und müssen für eine unabhängige Primärquellenabnahme zusätzlich eingesehen werden.
+
 **Vertiefende, beleggebundene Kritik:** [Atlantik-Brücke: demokratische Kontrolle, selektiver Zugang und dokumentierte Kritik 1952–2026](../research/atlantik-bruecke-demokratische-kontrolle-kritik-1952-2026.md). Dort werden die historischen Erkenntnisse Zetsches, der Austrittsbericht Claudia Roths, die Gegenposition Katrin Göring-Eckardts, das Bundestagspapier von 2021 und das BGH-Verfahren zur Medienkritik von 2017 getrennt ausgewertet.
 
 ## Young Leaders
