@@ -28,6 +28,8 @@ Die sieben genannten Organisationen bilden **kein nachgewiesen einheitlich gefü
 
 | NET-14 | **INSM ↔ IW/Hüther ↔ WEF (historische Diskursplattform)** | Das **WEF** führt **Michael Hüther** (IW-Direktor und Atlantik-Brücke-Vizevorsitzender [Q11]) ausdrücklich als **„Agenda Contributor“**. Ein von ihm verfasster WEF-Beitrag zur Industriepolitik ist auf **13.02.2015** datiert [Q27]. Die INSM gehört zur IW-Medien-Struktur [Q10, Q12]. | **Indirekter Person-/Publikationsweg zum WEF**, keine INSM-WEF-Mitgliedschaft, keine WEF-Organfunktion Hüthers und keine WEF-Übernahme seiner Ansichten; der Beitrag ist ein mit Project Syndicate kooperativ publizierter Gasttext. |
 
+| NET-15 | **Aspen Germany ↔ Bundesregierung / BPA / AA / KfW / US-Botschaft (Förderströme 2025)** | Der **amtliche Bundestags-Lobbyregistereintrag R002572** führt für 2025 konkret **490.001–500.000 EUR institutionelle Förderung durch das Bundespresseamt**, fünf AA-Projektzuwendungen, zwei KfW-Förderungen, eine Zahlung der **US-Botschaft** und Fördermittel der **Aspen Institute's International Partners** auf [Q32]. | **Tatsächliche, getrennt ausgewiesene öffentliche und institutionelle Finanzierung**; weder die Zahl der Einzelzuweisungen noch deren Summe belegt einen Auftrag zur verdeckten Beeinflussung oder die Finanzierung einer bestimmten MSC-Runde. |
+
 ## 2. Besonders aussagekräftige Mehrfachrollen
 
 **Jane Harman – Verknüpfung von fünf Arenen.** Die Trilaterale Kommission listet sie als Mitglied [Q7]. Das Aspen Institute nennt sie Trustee und Mitglied der Aspen Strategy Group, außerdem Mitglied einer **CFR Task Force zur Weltraumpolitik** [Q8]. Das WEF-Personenprofil nennt ihre **MSC-Advisory-Council-Rolle**, ihre Aspen- und Trilateral-Funktionen sowie CFR-Arbeit [Q13]. Hier sind Mitgliedschaft/Advisory- und Projektrollen belegt; ein WEF-Personenprofil belegt für sich genommen **keine Organfunktion im WEF**.
@@ -105,6 +107,31 @@ Dieser Vorgang ist **erheblich beweisstärker als eine bloße personelle Übersc
 
 **Evidenzurteil und Relevanz für die Netzwerkfrage:** Für **bezahlte politische Botschaften in einem Unterhaltungsformat unter Vermeidung der Werbekennzeichnung** liegt hier mit **Original-Ratsspruch, INSM-Eingeständnis, Geldbetrag, Vertragskette und Bavaria-Prüfbericht** ein dokumentierter historischer Manipulationsfall vor. Er zeigt einen tatsächlich praktizierten Mechanismus von **Wirtschaftsinteressen → Agentur → Produzent → Massenmedium**. **Nicht belegt** ist eine Beteiligung von CFR, WEF, Aspen, MSC, Trilateral oder Atlantik-Brücke an dieser Transaktion. Eine pauschale Übertragung des historischen Regelverstoßes auf die heutigen Beziehungen wäre sachlich unzulässig.
 
+### G. Amtlich bezifferte Förderung von Aspen Institute Deutschland (Geschäftsjahr 2025)
+
+**Neue Primärquelle:** Der **Bundestags-Lobbyregistereintrag R002572** für den **Aspen Institute Deutschland e.V.**, letzte Änderung **30.06.2026**, liefert einzelne **2025** gemeldete Finanzierungskanäle einschließlich Institution, Förderzweck und Geldband. Der Registereintrag unterscheidet **Zuwendungen/Zuschüsse**, **Schenkungen**, **Mitgliedsbeiträge** und **Aufwendungen für registrierte Interessenvertretung** – diese Kategorien dürfen nicht als gleichartige Formen von Lobbybudget oder politischem Auftrag bezeichnet werden. [Q32]
+
+| 2025 gemeldeter Zuwendungsgeber | Betrag in EUR (Registerspanne) | Deklarierter Förderzweck | Evidenz |
+|---|---:|---|---|
+| **Presse- und Informationsamt der Bundesregierung (Bundespresseamt)** | **490.001–500.000** | **Institutionelle Förderung (Fehlbedarfsfinanzierung)** | [Q32] |
+| **Kreditanstalt für Wiederaufbau (KfW)** | **220.001–230.000** | Austauschprojekt | [Q32] |
+| **KfW** | **180.001–190.000** | Transatlantisches Landwirtschaftsprojekt | [Q32] |
+| **Auswärtiges Amt** | **190.001–200.000** | Digital-Projekt | [Q32] |
+| **Auswärtiges Amt** | **180.001–190.000** | Europa-Projekt | [Q32] |
+| **Auswärtiges Amt** | **40.001–50.000** | Transatlantik-Projekt | [Q32] |
+| **Auswärtiges Amt** | **30.001–40.000** | Austauschprojekt | [Q32] |
+| **Auswärtiges Amt** | **20.001–30.000** | Austauschprojekt | [Q32] |
+| Stiftung Deutsche Klassenlotterie Berlin | 120.001–130.000 | Internationales Städteprojekt | [Q32] |
+| **The Aspen Institute's International Partners (USA)** | **70.001–80.000** | Europa-Programm Global Fund | [Q32] |
+| **American Embassy Berlin** | **50.001–60.000** | Transatlantisches Austauschprojekt | [Q32] |
+| Public Private Strategies Institute (Washington) | 10.001–20.000 | Leadership-Projekt | [Q32] |
+
+Allein die **acht getrennt ausgewiesenen Förderpositionen von BPA, Auswärtigem Amt und KfW** liegen rechnerisch in der **Spannweite von 1.350.008 bis 1.430.000 EUR** (vereinfachte Addition der Registerintervalle; dies ist **kein amtlich als Gesamtbudget ausgewiesener Wert**, sondern die Summe dieser aufgeführten Einzelbänder). Besonders auffällig ist die direkte **institutionelle Bundespressamtsförderung von knapp einer halben Million EUR** – ein harter, amtlicher Nachweis statt einer bloßen Vermutung staatlicher Einbindung. Die **gesondert genannten US-Beiträge** zeigen zusätzlich transatlantische Finanzierungswege, ohne dass daraus ein Weisungsrecht der US-Stellen folgt.
+
+**Weitere im Register angegebene Finanzbezüge:** Die **Shepard-Stone-Stiftung** gab **40.001–50.000 EUR** für die Programmarbeit; die **Mercedes-Benz Group AG** **20.001–30.000 EUR**; der Verein der Freunde des Aspen Instituts bis 10.000 EUR. Die als Schenkungen ausgewiesene **Gesamtspanne 80.001–90.000 EUR** darf deshalb **nicht mit den Zuwendungen/Zuschüssen verwechselt** und nicht doppelt zu Einzelspenden addiert werden. Die öffentlich deklarierte jährliche **Aufwendung für registrierte Interessenvertretung beträgt nur 1–10.000 EUR**, die **zugewiesenen Vollzeitäquivalente 0,00**. Zugleich erklärt der Eintrag, es gebe **keine konkreten Regelungsvorhaben, keine Auftraggeber und keine Stellungsnahmen/Gutachten**; diese Negativangaben sind relevant. [Q32]
+
+**Einordnung:** Die Zahlen belegen einen **staatlich und transatlantisch finanzierten Dialog-/Programmbetrieb**, dessen Umfang nicht aus der niedrigen Lobbyaufwendungszahl abgelesen werden kann. Ein digitales Förderprojekt im Register von 190.001–200.000 EUR könnte thematisch zu Aspens Programmen passen; **ohne Bewilligungsakten darf es nicht mit #InfluencersAgainstDisinfo gleichgesetzt werden**. Dass das AA Aspen-Influencerprogramme finanziert, geht unabhängig aus Aspen selbst hervor [Q20, Q21]. Ob das Bundespresseamt Mittel bestimmten Politik- oder Medienrunden zugewiesen und welche konkreten Leistungen damit finanziert wurden, lässt sich aus den hier vorliegenden Registerdaten **nicht** erschließen.
+
 ## 5. Was daraus abgeleitet werden kann
 
 1. **Politischer Zugang und Informationsaustausch sind systematisch organisiert:** geschlossene oder vertrauliche Runden, gemeinsame Programme, Gremienpositionen und wiederkehrende institutionelle Zusammenarbeit. [Q1–Q9]
@@ -158,10 +185,12 @@ Dieser Vorgang ist **erheblich beweisstärker als eine bloße personelle Übersc
 - [Q30] **OLG München, Urteil vom 20.01.2005**, **Az. 6 U 3236/04**, als publizierter **Urteilsvolltext**; teilweise stattgebendes LG-Urteil vom 04.05.2004 aufgehoben, Klage vollständig abgewiesen: https://www.aufrecht.de/urteile/wettbewerbsrecht/urteile-2005/kein-wettbewerbsverstoss-bei-verdeckte-journalistischer-recherchearbeit-ueber-schleichwerbung-im-fernsehen-olg-muenchen-urteil-vom-20-januar-2005-az-6-u-323604
 - [Q31] Die im Medienverfahren tätige **Kanzlei Prof. Schweizer**, *Die Schleichwerbung im ARD-„Marienhof“. Der investigative Journalismus hat auch juristisch gesiegt*, **03.06.2005**; **Az. 6 U 3236/04**: https://www.schweizer.eu/aktuelles/das-neueste/1532-die-schleichwerbung-im-ard-marienhof-der-investigative-journalismus-hat-auch-juristisch-gesiegt
 
+- [Q32] **Deutscher Bundestag, Lobbyregister R002572**, *Aspen Institute Deutschland e.V.*, letzte Änderung **30.06.2026**, Geschäfts- und Finanzierungseinträge **2025**, einschließlich 12 einzeln deklarierter Zuwendungen: https://www.lobbyregister.bundestag.de/suche/R002572
+
 **Sekundärquellen für historische, noch primär nachzuprüfende Rollen**
 
 - [S1] Lobbypedia, *Atlantik-Brücke*, historischer Stand: https://lobbypedia.de/wiki/Atlantik-br%C3%BCcke
 - [S2] Lobbypedia, *Initiative Neue Soziale Marktwirtschaft*, historischer Stand: https://lobbypedia.de/wiki/Initiative_Neue_Soziale_Marktwirtschaft
 - [S3] **LobbyControl**, *INSM und Marienhof – Eine kritische Bewertung*, **September 2005**; quellennaher Sekundärtext mit Auszügen aus **epd medien-Schnittprotokollen** und datierten Folgen, Original-PDF-Seite 1 geprüft: https://www.lobbycontrol.de/wp-content/uploads/insm-marienhof-bewertung.pdf
 
-**Evidenzwertung:** NET-01–NET-14 sind entsprechend den differenzierten Aussagen durch öffentliche Originalquellen gedeckt. Für Eigentum, Steuerung, illegale Einflussnahme, geheime Vereinbarungen oder konkrete politische Folgeentscheidungen liegen in diesem Quellenbündel **keine hinreichenden Einzelbelege** vor.
+**Evidenzwertung:** NET-01–NET-15 sind entsprechend den differenzierten Aussagen durch öffentliche Originalquellen gedeckt. Für Eigentum, Steuerung, illegale Einflussnahme, geheime Vereinbarungen oder konkrete politische Folgeentscheidungen liegen in diesem Quellenbündel **keine hinreichenden Einzelbelege** vor.
