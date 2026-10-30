@@ -22,7 +22,7 @@ Erik Blumenfeld, Marion Gräfin Dönhoff und das Büro des Hamburger Bürgermeis
 
 ### Z-02 – 1964: Organisationsvorsitz nennt politische Entscheidungseinwirkung als Ziel [B]
 
-Zetsche dokumentiert, dass der damalige Atlantik-Brücke-Vorsitzende Gotthard von Falkenhausen auf einer Mitgliederversammlung direkte und über Veröffentlichungen vermittelte **Einwirkung auf US-Entscheidungen als Vereinsziel** beschrieb. Das ist ein zeitgenössisches internes Zielzeugnis und mehr als die externe Interpretation als Austauschforum. Es besagt nicht, dass eine konkrete US-Regierungsentscheidung deswegen anders ausfiel.
+Zetsche dokumentiert, dass das langjährige Vorstandsmitglied Gotthard von Falkenhausen (Vereinsvorsitzender erst 1967–1972) auf einer Mitgliederversammlung direkte und über Veröffentlichungen vermittelte **Einwirkung auf US-Entscheidungen als Vereinsziel** beschrieb. Das ist ein zeitgenössisches internes Zielzeugnis und mehr als die externe Interpretation als Austauschforum. Es besagt nicht, dass eine konkrete US-Regierungsentscheidung deswegen anders ausfiel.
 
 - **Fundstelle:** Zetsche, S. 111–112, Fußnote 64.
 - **Originalakten-Lead:** Zusammenfassung der Atlantik-Brücke-Mitgliederversammlung vom **20.02.1964**, Amtsgericht Berlin-Charlottenburg, Vereinsregisterakte **VR 20196**.
@@ -88,7 +88,7 @@ Für die historische These, transatlantische Netzwerke hätten die westdeutsche 
 
 ### Z-10 – Organisatorische Zugangsauswahl und gesellschaftliche Repräsentation [B]
 
-Die Atlantik-Brücke öffnete sich nach Zetsche 1964/65 ausdrücklich für politische Mandatsträger aus CDU, SPD und FDP; Vertreter des Deutschen Gewerkschaftsbundes wurden dagegen **erst in den späten 1970er-Jahren** aufgenommen. Historisch ist damit eine **selektive Zusammensetzung** rekonstruierbar, keine demokratisch gewählte Repräsentation. Private Vereinigung und Interessenvertretung sind nicht per se rechtswidrig. Die offene Frage lautet, ob die Kombination aus Steuermitteln, privilegiertem Zugang und überproportionaler Wirtschaftspräsenz konkrete amtliche Entscheidungen verzerrte.
+Nach Zetsche gab die Atlantik-Brücke die bisherige Distanz zu aktiven Parlamentariern nach der Bundestagswahl 1961 auf; 1964/65 rückten Mandatsträger aus CDU, SPD und FDP in den Vorstand; Vertreter des Deutschen Gewerkschaftsbundes wurden dagegen **erst in den späten 1970er-Jahren** aufgenommen. Historisch ist damit eine **selektive Zusammensetzung** rekonstruierbar, keine demokratisch gewählte Repräsentation. Private Vereinigung und Interessenvertretung sind nicht per se rechtswidrig. Die offene Frage lautet, ob die Kombination aus Steuermitteln, privilegiertem Zugang und überproportionaler Wirtschaftspräsenz konkrete amtliche Entscheidungen verzerrte.
 
 - **Fundstelle:** Zetsche, S. 107–112, insbesondere Tabelle 7 und Fußnote 67.
 - **Originalakten-Lead:** Vereinsregister **VR 20196**; Namen und Perioden anhand der Originalmitgliederlisten verifizieren.
