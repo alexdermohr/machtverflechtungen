@@ -133,7 +133,7 @@ Die **von dieser Originalrede unabhängige Entstehungskette** rekonstruiert Zets
 
 **Ernsthafte Quellenkontroverse:** [Thomas W. Gijswijt, *Informal Alliance* (Routledge 2019), Kapitel 1, Drucks. 20–21](https://api.pageplace.de/preview/DT0400.9781351181037_A34966350/preview-9781351181037_A34966350.pdf) akzeptiert amerikanische Förderungen, darunter Regierungsleistungen, kritisiert aber den von Aldrich gezogenen Schluss über die **CIA als Herkunft des größten Teils der Gelder**. Die für Aldrich entscheidende ältere Rebattet-Dissertation benenne nach Gijswijts Lesart ausdrücklich das **US-Außenministerium (State Department)** als verdeckten Träger des European-Youth-Campaign-Kanals; den jeweiligen exakten Dienstanteil ließen die überlieferten Unterlagen nicht eindeutig erkennen. Aldrich verweist seinerseits neben Archivbeständen auf spätere Aussagen des CIA-Mitarbeiters **Thomas Braden**. Eine belastbare Auflösung erfordert Zahlungs- und Weisungsakten, nicht bloß Personenidentität.
 
-**Weitere Verbindung aus Zetsches Dissertation:** Das Atlantik-Brücke-Gründungs-/Vorstandsmitglied **Ernst Friedlaender** war in der Europäischen Bewegung tätig (Zetsche, S. 103; Fn. 42–43 mit Verweis auf Aldrich). Zusätzlich belegen der Original-Redetext von Adenauer vom **16.04.1953** und Zetsches Emmet-Briefe die **tatsächliche Zusammenarbeit von Atlantik-Brücke-/ACG-Personen bei einem ACUE-Regierungstermin**. Gerade dieses **kurze, datierte institutionelle Scharnier** ist tragfähiger als eine aus bloßen Personenlisten konstruierte Daueridentität.
+**Weitere Verbindung aus Zetsches Dissertation:** Der erste dokumentierte Vorsitzende der Atlantik-Brücke **Ernst Friedlaender (1954–1959)** war zugleich in der Europäischen Bewegung tätig (Zetsche, S. 103; Fn. 42–43 mit Verweis auf Aldrich). Zusätzlich belegen der Original-Redetext von Adenauer vom **16.04.1953** und Zetsches Emmet-Briefe die **tatsächliche Zusammenarbeit von Atlantik-Brücke-/ACG-Personen bei einem ACUE-Regierungstermin**. Gerade dieses **kurze, datierte institutionelle Scharnier** ist tragfähiger als eine aus bloßen Personenlisten konstruierte Daueridentität.
 
 - **Archivischer Originalzugang für ACUE:** [Georgetown University, *American Committee on United Europe Collection*, Korrespondenz 1949–1960](https://findingaids.library.georgetown.edu/repositories/15/archival_objects/1288677), mit Aktenkorrespondenz, Protokollen und gedruckten Reden. Der Eintrag ist ein **Findbuch**, keine hier gelesene Volltextakte.
 - **Trennlinie:** Ein historischer US-Regierungs-/Nachrichtendienstkontext des **ACUE** bedeutet **keinen belegten CIA-Zuschuss an die Atlantik-Brücke**, **keine CIA-Weisung an den ACG** und **keine nachgewiesene Weisung an Adenauer**. Genau diese direkten Geld-, Auftraggeber- und Anordnungsglieder fehlen in der bisher zugänglichen Quellenkette.
@@ -159,6 +159,59 @@ Nach Zetsches Rekonstruktion hatten **Walter Stahl** (Atlantik-Brücke-Geschäft
 - **Quellenkritischer Unterschied:** Die Adenauer-Notiz ist in Zetsches Dissertation **wörtlich aus dem Archiv zitiert**. **Das Originalbild wurde nicht unabhängig von uns eingesehen.** Eine erfolgreiche Umsetzung der gewünschten CDU-Teilnehmerzusammensetzung verlangt die exakte Konferenzliste und gegebenenfalls Schriftverkehr mit der Geschäftsführung; die Notiz allein belegt zunächst den **Interventionswunsch**.
 - **Historische personelle Kontinuität:** [Haus der Geschichte, LeMO-Biografie Hans Globke](https://www.hdg.de/lemo/biografie/hans-globke), und [Konrad-Adenauer-Stiftung, Globke-Biogramm](https://www.kas.de/de/web/geschichte-der-cdu/personen/biogramm-detail/-/content/hans-globke) bestätigen, dass der Kanzleramts-Staatssekretär zuvor im NS-Reichsinnenministerium an antisemitischer Rassengesetzgebung und deren Kommentierung beteiligt war. Das ist ein **eigenständiger historischer Biografiebefund**; weder eine NS-Agenda der Atlantik-Brücke noch ein persönliches Vereinsmandat Globkes folgt allein aus seiner Amtsausübung im Jahr 1959.
 - **Gegenprobe:** Für die geplante Konferenz von **1962** versprach Adenauer zunächst persönlich teilzunehmen und ein Mahl auszurichten; er war nach Zetsches Fn. 106 verhindert, und **Bundeswirtschaftsminister Ludwig Erhard** übernahm die Veranstaltung. Die tatsächliche Beteiligung ist von zugesagten Terminen zu trennen (BArch **B 136/6355**, AA-an-Kanzleramt-Vermerk **26.11.1962**).
+
+### Z-18 – Quantitative Elitenzusammensetzung und Führung als Schnittstellen zum Medien-, Wissenschafts- und Bankenmilieu [B]
+
+Die Tabelle 4 aus Zetsches historischer Mitgliederdaten-Auswertung ermöglicht eine **quantitative Gegenprobe** zur These der bloßen neutralen Austauscharbeit. Wirtschaft und Industrie dominierten nach ihrer Klassifikation die damalige Atlantik-Brücke-Mitgliedschaft deutlich:
+
+| Jahr | Wirtschaft/Industrie | Gesamtmitglieder | Anteil |
+| --- | ---: | ---: | ---: |
+| 1954 | 13 | 17 | 76,5 % |
+| 1960 | 31 | 39 | 79,5 % |
+| 1965 | 41 | 55 | 74,5 % |
+| 1969 | 48 | 63 | 76,2 % |
+| 1974 | 46 | 65 | 70,8 % |
+
+Die Gruppe war über zwei Jahrzehnte **wirtschaftlich geprägt**; mitgliederarme Anfangsjahre und die historische Klassifikation begrenzen eine Extrapolation auf spätere Jahrzehnte. **Doppelfunktionen** sind im Original ausgewiesen: Ein Politiker konnte zugleich als Geschäftsmann gezählt werden; einzelne Prozentkategorien dürfen nicht einfach auf 100 % summiert werden.
+
+**Tabelle 6 der Dissertation (S. 104) dokumentiert eine interessante Rollensukzession der Vorsitzenden:**
+
+| Periode | Vorsitzender | Weitere belegte Funktion zur Amtsperiode |
+| --- | --- | --- |
+| 1954–1959 | **Ernst Friedlaender** | Journalist und Aktivist der Europäischen Bewegung; damit Verbindung zur in Z-15 dargestellten ACUE-Finanzierung dieser Bewegung |
+| 1959–1962 | **Arnold Bergstraesser** | Politikwissenschaftler, zuvor **1955–1959 Leiter der Deutschen Gesellschaft für Auswärtige Politik (DGAP)** |
+| 1962–1972 | **Gotthard von Falkenhausen** | Persönlich haftender Gesellschafter von **Burkhardt & Co., Essen**, Präsident des **europäischen Bankenverbands** und des Verbands deutscher Privatbanken |
+| 1972–1978 | **Casimir Prinz Wittgenstein** | Vorstandsvorsitzender der **Metallgesellschaft AG** |
+
+Dieses Muster zeigt **direkte organisatorische personelle Kanten** von der Vereinsspitze zu Medien, Europaorganisationen, außenpolitischer Expertise, Bankverbänden und Industrie. Diese sind stärker als zufällige Konferenzteilnahmen, aber ohne belegten Vorgang noch keine staatliche Weisungsgewalt. Die **Organisationsidentität von Europäischer Bewegung, ACUE, DGAP und Atlantik-Brücke bleibt getrennt**.
+
+- **Quelle:** [Zetsche, Dissertation, **S. 100, Tabelle 4**, sowie **S. 103–105, Tabelle 6**](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf).
+- **Originalakten-Leads:** Atlantik-Brücke-Satzung und frühe Mitglieds-/Vorstandstabellen, **Amtsgericht Berlin-Charlottenburg, VR 20196** (Zetsche, S. 97, Fn. 28 und S. 100, Fn. 36); archivierte Mitgliederübersichten im **Staatsarchiv Hamburg / Staats- und Universitätsbibliothek Hamburg**, laut Zetsches Fußnoten und Anhang.
+- **Zusätzliche gegenläufige Detailbeobachtung:** Die frühen Vorsitzenden Friedlaender und Bergstraesser waren persönlich nicht mit einer einheitlichen industriepolitischen Linie gleichzusetzen; Zetsche schildert ausdrücklich Streit zwischen Atlantik-Brücke- und ACG-Personen über die Ostpolitik und Westintegration.
+
+### Z-19 – Konkrete transatlantische Unternehmenszahlungen: Phoenix 80.000 DM, Chemiekonzerne 3.000 USD, McCloy-Spendenkampagne 1972 [B]
+
+Die Finanzierungsrolle deutscher Industriekreise für **beide** Vereine ist nicht nur durch allgemeine Vereinsbeiträge beschrieben, sondern durch konkrete Zahlungsspuren:
+
+- **1962–1963:** **Otto A. Friedrich**, Vorstand der **Phoenix Gummiwerke**, vermittelte nach Zetsche **80.000 DM** aus einem zweckgebundenen Fonds an den **ACG** in zwei Jahren. Der tatsächliche Wortlaut der fondsbezogenen Korrespondenz ist bei Zetsche auszugsweise reproduziert. **Originalakten-Leads:** Otto A. Friedrich an **Alexander Menne (Hoechst) am 20.07.1962**, **Eric Warburg an Otto A. Friedrich am 24.07.1962**, beide in Zetsches mit „SWA“ bezeichnetem Archivbestand. **Der Fondsursprung und die jeweilige Zahlungsbuchung müssen separat überprüft werden**; keine automatische Zuschreibung des Gesamtbetrags an das Betriebsvermögen von Phoenix.
+- **1962:** **Hapag** zahlte laut Zetsche neben seiner Atlantik-Brücke-Mitgliedsgebühr von **3.000 DM** eine **ACG-Spende über 2.500 USD** (Warburg an **Helmuth Wohlthat 19.09.1962** und **Ruth B. Muhlen an Eric Warburg 18.06.1964**, SWA). Geldsorten und Beitragszwecke getrennt lassen.
+- **1971:** **Hoechst, BASF und Bayer** leisteten gemeinsam einen Beitrag von **3.000 USD**, den die **Atlantik-Brücke an den ACG weiterleitete**, um die siebte deutsch-amerikanische Konferenz zu unterstützen. Dies ist eine ausdrücklich beschriebene **grenzüberschreitende Zahlungs- und Organisationskette**, kein bloßer personenbezogener Zusammenhang. **Originalakten-Lead:** Christopher Emmet an Walter Stahl, **28.07.1971**, **Kurt-Birrenbach-Papers**, Aktenreihe **I-433-166/2** (Zetsche S. 145, Fn. 45). Der Betrag gehört zum **Gemeinschaftsbeitrag der drei Firmen**, nicht pro Firma.
+- **1972:** Nach seiner Aufnahme in das **ACG-Board** initiierte **John J. McCloy** eine persönlich unterzeichnete Spendenkampagne an **mehr als 100 US-Unternehmen mit Deutschlandgeschäft**. Nach dem ACG-Aktivitätsbericht 1971/72 kamen **25.100 USD von 20 amerikanischen Konzernen** mit Einzelbeiträgen von **100 bis 3.000 USD** zusammen. Zetsches Tabelle 13 nennt als ausgewählte Spender etwa **Lehman Brothers, Chase Manhattan Bank, Morgan Guaranty Trust, General Electric, Mobil Oil, Ford Motor Company, ITT, Olin** und weitere; sie belegt **eine historische Unternehmensspenderliste**, nicht automatisch die individuelle Spendenhöhe der genannten Firmen. Dazu kamen **3.250 USD von 13 Privatpersonen**.
+- **Originalakten-Leads für 1972:** **„1972 Corporate Contributors to ACG“, 04.10.1972**, Institut für Zeitgeschichte, **Marcia-Kahn-Papers** (Zetsche S. 144, Fn. 43); **„American Council on Germany – Report on Activities 1971/72“, 06.10.1972, S. 4**, Kurt-Birrenbach-Papers **I-433-166/2** (Zetsche S. 145, Fn. 47–49).
+
+**Aussagewert:** Die **Finanzierungs-, Vermittlungs- und Personalpolitik** der ACG/Atlantik-Brücke war nach Zetsches Dokumentenauswertung in einem grenzüberschreitenden Netzwerk von Chemie-, Transport-, Automobil-, Finanz- und Energieunternehmen verankert. Eine namentlich dokumentierte Spende belegt aber weder ein gekauftes Abstimmungsverhalten noch die Annahme einer bestimmten Regierungsforderung. Keinen dieser historischen Firmenbeträge mit heutiger Mitgliedsfinanzierung oder Ford-Foundation-Konferenzzuschüssen zusammenwerfen, ohne Mittelzweck und Zeitraum abzugleichen.
+
+- **Quelle:** [Zetsche, Dissertation, **S. 138–145, Tabellen 12/13 und Fußnoten 24–29, 43–49**](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf).
+
+### Z-20 – 1963: ACG lehnt bedingtes 100.000-USD-Angebot einer Kulturvereinigung ab [B]
+
+Die **National Carl Schurz Association** unterbreitete dem ACG **1963** nach Zetsches Auswertung einen Zusammenschlussvorschlag. Die Nachfahren des Textilunternehmers **Ferdinand Thun** boten dabei **50.000 USD sofort und weitere 10.000 USD jährlich für fünf Jahre**, also **100.000 USD nominal**, **nur für den Fall** einer formalen Fusion. Der ACG prüfte den Vorschlag und **lehnte ihn ab**, weil Emmet und Vorstandsmitglieder eine Beeinträchtigung der außenpolitischen Zielsetzung des kleineren, auf Entscheidungsträger orientierten Vereins befürchteten. Zetsche kontrastiert dessen Ressourcenprobleme mit der damals größeren Carl-Schurz-Vereinigung von etwa **500 Mitgliedern**.
+
+Daraus folgt keine behauptete ausgeschlagene tatsächlich geflossene Spende: **Die 100.000 USD waren ein an Bedingungen geknüpftes Angebot, keine Einnahme.** Der dokumentierte Verzicht trotz Finanznot spricht aber gegen die Erklärung, dass der Verein vorrangig auf Masse und allgemeine Deutsch-Amerikanische Kulturarbeit zielte, und stützt die funktionale Einordnung als **politisch fokussiertes Eliteforum**. Der abgelehnte Partner kann nicht als Tochter- oder Finanzierorganisation des ACG geführt werden.
+
+- **Quelle:** [Zetsche, Dissertation, **S. 141–142, Fn. 33–35**](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf).
+- **Originalakten-Leads:** **Christopher Emmet, Memorandum zur „Proposal For an Affiliation or Possible Merger Between The American Council on Germany and The Carl Schurz Association“, 30.05.1963**, „SWA, ACG-Emmet“; **Hans-Werner Deeken, zweites Memorandum 20.03.1963**, **Christopher Emmet an Deeken 31.05.1963**, gleicher Aktenbestand.
+- **Originalprüfung ausstehend:** exakte rechtliche Bedingungen des Stiftungsangebots, tatsächliche Ablehnungsentscheidung, Mitglieder- und Vermögensverhältnisse nach Aktenlage.
 
 ## Mechanismen, konkurrierende Erklärungen und Grenzen
 
