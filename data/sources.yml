@@ -2297,3 +2297,110 @@ sources:
   locator: "John Micklethwait – Bloomberg; Steuerungsausschuss mit Teilnehmer- und Agendazuständigkeit"
   notes: "Aktuelle Organliste des Veranstalters; Beginn/Ende der persönlichen Funktion und konkrete redaktionelle Einflussentscheidung nicht aus dieser Liste ableitbar."
 
+- id: SRC-GB-BILDERBERG-CHARITY-ACCOUNTS-2015
+  title: "The Bilderberg Association – Annual Report and Financial Statements, 31 March 2015"
+  institution: "The Bilderberg Association (Charity 272706), Audit Buzzacott LLP"
+  date: "2015"
+  type: audited_annual_accounts
+  primary: true
+  tier: A
+  url: https://info.publicintelligence.net/BilderbergAssociation-2015.pdf
+  accessed: "2026-10-29"
+  locator: "Note 1, PDF-Index 12: FY2014-Vergleichsausgaben £320,000 Security und £139,839 Organisation"
+  notes: "Historische auditierte Charity-Urkunde bei Drittanbieter archiviert; Dokumenttext geprüft, Seitenbild der Detailnote wegen Archivtimeout nicht zusätzlich gesichert. Genannter Empfänger der Security-Ausgabe offen."
+
+- id: SRC-GB-HOME-OFFICE-FOI29091-2014
+  title: "Home Office emergency funding provided to police forces from 2008 to 2013, FOI 29091 Annex A"
+  institution: "UK Home Office"
+  date: "2014-03-06"
+  type: official_foi_finance_disclosure
+  primary: true
+  tier: A
+  url: https://assets.publishing.service.gov.uk/media/5a74e7a5e5274a59fa715e02/29091-Annex_A_-_information_for_release.pdf
+  accessed: "2026-10-29"
+  locator: "PDF-Index 3: Hertfordshire 2013/14, Op Discuss Bilderberg, £527,762 Amount of bid, Decision Pending; Spalten PDF-Index 0"
+  notes: "Original-PDF bildgeprüft; dokumentiert beantragten Zuschuss und offene Entscheidung, keine bewilligte Home-Office-Zahlung."
+
+- id: SRC-GB-CHARITY-COMMISSION-BILDERBERG-272706
+  title: "The Bilderberg Association, charity number 272706 – Register history"
+  institution: "UK Charity Commission"
+  date: "2021-05-21"
+  type: official_register
+  primary: true
+  tier: A
+  url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/272706/full-print
+  accessed: "2026-10-29"
+  locator: "Former charity 272706, removed 21 May 2021"
+  notes: "Historischer Charity-Rechtsträger nicht mit 2020 gegründeter UK Limited gleichsetzen."
+
+- id: SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148
+  title: "NEWBRIDGE ADVISORY LIMITED (11853148) – Officers"
+  institution: "UK Companies House"
+  date: "2019-02-28"
+  type: official_company_register
+  primary: true
+  tier: A
+  url: https://find-and-update.company-information.service.gov.uk/company/11853148/officers
+  accessed: "2026-10-29"
+  locator: "Sir Robert John Sawers, appointed director 28 February 2019"
+  notes: "Sponsor 2022 im Parlamentsregister ohne Ltd-Firmennummer genannt; Identität der juristischen Zahlstelle nicht allein aus ähnlichem Namen bewiesen."
+
+- id: SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319
+  title: "THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Officers"
+  institution: "UK Companies House"
+  date: "2020-11-02"
+  type: official_company_register
+  primary: true
+  tier: A
+  url: https://find-and-update.company-information.service.gov.uk/company/12988319/officers
+  accessed: "2026-10-29"
+  locator: "Sir Robert John Sawers und Susan Jean Minton Beddoes seit 2 November 2020 Directors"
+  notes: "Separate company limited by guarantee; juristische Nachfolge der historischen Charity nicht aus Namensähnlichkeit bewiesen."
+
+- id: SRC-GB-BP-AGM-SAWERS-2023
+  title: "BP p.l.c. Notice of Annual General Meeting 2023 – Sir John Sawers interests"
+  institution: "BP p.l.c., UK FCA National Storage Mechanism"
+  date: "2023"
+  type: official_company_governance_filing
+  primary: true
+  tier: A
+  url: https://data.fca.org.uk/artefacts/NSM/Portal/NI-000069997/NI-000069997.pdf
+  accessed: "2026-10-29"
+  locator: "Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Association UK und Executive Chair Newbridge Advisory Ltd"
+  notes: "Originalbild unabhängig vom Companies-House-Register geprüft; Nachweis der Doppelfunktion, nicht einer konkreten Reisekostenzahlung."
+
+- id: SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022
+  title: "Parliamentary Commissioner for Standards: Rt Hon David Lammy MP – Rectification"
+  institution: "UK House of Commons, Parliamentary Commissioner for Standards"
+  date: "2022-08-11"
+  type: parliamentary_standards_decision
+  primary: true
+  tier: A
+  url: https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf
+  accessed: "2026-10-29"
+  locator: "PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification"
+  notes: "Amtlich festgestellte verspätete Registereintragung ohne nachgewiesenen Täuschungsvorsatz. £536.58 ist geschätzte Sachleistung, kein Bargeldtransfer."
+
+- id: SRC-GB-COMMONS-LAMMY-REGISTER-2023
+  title: "Register of Members' Financial Interests – David Lammy, 9 January 2023"
+  institution: "UK House of Commons"
+  date: "2023-01-09"
+  type: parliamentary_register
+  primary: true
+  tier: A
+  url: https://publications.parliament.uk/pa/cm/cmregmem/230109/lammy_david.htm
+  accessed: "2026-10-29"
+  locator: "Newbridge Advisory £5,669.57, Bilderberg Association estimated £536.58, trip 2–5 June 2022"
+  notes: "Sponsorennamen ohne eindeutige Company Number; Abweichung zwischen Organisation und Rechtsträger nicht verschleiern."
+
+- id: SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026
+  title: "THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Persons with significant control"
+  institution: "UK Companies House"
+  date: current
+  type: official_company_register
+  primary: true
+  tier: A
+  url: https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control
+  accessed: "2026-10-29"
+  locator: "Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors"
+  notes: "Amtliche Registerangabe über Kontrolle/Stimmbefugnisse einer company limited by guarantee ohne Stammkapital; nicht mit Eigentum an Aktien, alleiniger Weisungshoheit oder redaktioneller Steuerung gleichsetzen."

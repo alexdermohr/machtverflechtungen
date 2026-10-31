@@ -1295,3 +1295,117 @@ relations:
     evidence_level: strong
     sources: [SRC-US-AFB-IRS-2010]
 
+  - id: REL-GB-BB-UK-001
+    from: ORG-GB-BILDERBERG-CHARITY-272706
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: accounted_conference_expenditure
+    label: "Bilanz 2013er UK-Konferenz: £459.839 Aufwendungen, davon £320.000 Security und £139.839 Organisation; konkrete Empfänger offen"
+    period: {start: "2013-06-06", end: "2014-03-31"}
+    evidence_level: strong
+    sources: [SRC-GB-BILDERBERG-CHARITY-ACCOUNTS-2015]
+
+  - id: REL-GB-BB-UK-002
+    from: ORG-GB-HERTFORDSHIRE-POLICE
+    to: ORG-GB-HOME-OFFICE
+    type: documented_grant_application
+    label: "FOI 29091: £527.762 Sonderförderung für Op Discuss/Bilderberg 2013/14 beantragt; Decision Pending, keine Auszahlung nachgewiesen"
+    period: {start: "2013", end: "2014"}
+    evidence_level: established
+    sources: [SRC-GB-HOME-OFFICE-FOI29091-2014]
+
+  - id: REL-GB-BB-UK-003
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148
+    type: director
+    label: "Director seit Unternehmensgründung am 28.02.2019, Companies House"
+    period: {start: "2019-02-28"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148, SRC-GB-BP-AGM-SAWERS-2023]
+
+  - id: REL-GB-BB-UK-004
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: director
+    label: "Director seit 02.11.2020; 2023 ebenfalls durch BP-AGM-Governancebericht bestätigt"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319, SRC-GB-BP-AGM-SAWERS-2023]
+
+  - id: REL-GB-BB-UK-005
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: director
+    label: "Susan Jean Minton Beddoes: Director seit 02.11.2020 laut Companies House"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-006
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-THE-ECONOMIST
+    type: editor_in_chief
+    label: "Zanny Minton Beddoes als Economist-Chefredakteurin; Zuordnung zur Register-Namensform Susan Jean stark gestützt"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026, SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-007
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: steering_committee_member
+    label: "Als Zanny Minton Beddoes in aktueller offizieller Steering-Liste; Startdatum und exakte amtliche Identitätskennung offen"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026, SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-008
+    from: ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN
+    to: PER-GB-DAVID-LAMMY
+    type: registered_travel_reimbursement
+    label: "Parlamentsakte: 'Newbridge Advisory' erstattet am 08.06.2022 £5.669,57 für Bilderberg-Flug und Unterkunft; konkrete Ltd-Firmennummer im Sponsoreneintrag fehlt"
+    period: {start: "2022-06-02", end: "2022-06-08"}
+    evidence_level: strong
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022, SRC-GB-COMMONS-LAMMY-REGISTER-2023, SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148]
+
+  - id: REL-GB-BB-UK-009
+    from: ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN
+    to: PER-GB-DAVID-LAMMY
+    type: registered_in_kind_benefit_estimate
+    label: "2022er 'Bilderberg Association': geschätzte £536,58 für Transfers und Mahlzeiten, kein Geldtransfer; juristischer Sponsor unbestimmt"
+    period: {start: "2022-06-02", end: "2022-06-05"}
+    evidence_level: strong
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022, SRC-GB-COMMONS-LAMMY-REGISTER-2023]
+
+  - id: REL-GB-BB-UK-010
+    from: PER-GB-DAVID-LAMMY
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Bilderberg-Konferenz Washington, 02.–05.06.2022, im House-of-Commons-Register erklärt"
+    period: {start: "2022-06-02", end: "2022-06-05"}
+    evidence_level: established
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022]
+
+  - id: REL-GB-BB-UK-011
+    from: ORG-GB-COMMONS-STANDARDS-COMMISSIONER
+    to: PER-GB-DAVID-LAMMY
+    type: official_registration_breach_finding
+    label: "2022: verspätete Bilderberg-Reiseangabe verletzt Paragraph 14 Commons Code; unbeabsichtigt, geringes Gewicht, per Rectification erledigt"
+    period: {start: "2022-08-11"}
+    evidence_level: established
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022]
+
+  - id: REL-GB-BB-UK-012
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
+
+  - id: REL-GB-BB-UK-013
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]

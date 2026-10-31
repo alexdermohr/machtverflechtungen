@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**139 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
+**151 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Dokumentierte Beziehungen stehen im [Netzwerk](network.md).
 
 ## Personen
 
@@ -12,6 +12,7 @@
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE |
+| David Lammy | person | `PER-GB-DAVID-LAMMY` | GB |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE |
 | Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE |
@@ -54,8 +55,10 @@
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE |
+| Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE |
 | Stefan von Holtzbrinck | person | `PER-DE-STEFAN-VON-HOLTZBRINCK` | DE |
+| Susan Jean Minton Beddoes (Zanny Minton Beddoes) | person | `PER-GB-SUSAN-JEAN-MINTON-BEDDOES` | GB |
 | Sven Afhüppe | person | `PER-DE-SVEN-AFHUEPPE` | DE |
 | Theo Koll | person | `PER-DE-THEO-KOLL` | DE |
 | Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE |
@@ -85,6 +88,7 @@
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE |
+| Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US |
@@ -114,6 +118,7 @@
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE |
+| Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE |
@@ -123,9 +128,12 @@
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE |
+| Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB |
+| Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US |
+| Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE |
@@ -133,6 +141,9 @@
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE |
+| The Bilderberg Association (Charity 272706, historisch) | association | `ORG-GB-BILDERBERG-CHARITY-272706` | GB |
+| The Bilderberg Association UK Limited (12988319) | organization | `ORG-GB-BILDERBERG-UK-LTD-12988319` | GB |
+| The Economist | media_outlet | `ORG-GB-THE-ECONOMIST` | GB |
 | The Halle Foundation | foundation | `ORG-US-HALLE-FOUNDATION` | US |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE |
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US |
@@ -140,6 +151,7 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US |
+| UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE |
