@@ -264,7 +264,7 @@ Daraus folgt keine behauptete ausgeschlagene tatsächlich geflossene Spende: **D
 **Präzise Aktenbeschaffungsfolge:** 
 1. **Marcia-Kahn-Papers, Institut für Zeitgeschichte**, ACG-Memorandum **„On Acheson’s Reply to Kennan“, 06.01.1958**, Briefe **Emmet an Klaus Dohrn, 04. und 12.01.1958**, **Emmet an Dönhoff, 17.12.1957**; 
 2. **Hoover Institution Archives, Christopher Emmet Papers**, **Box 84**, **Emmet an Heinz Krekeler, 08.01.1958** (gezielte Information des westdeutschen Botschafters für Kanzler und Außenminister), sowie **Boxen 81/82**, Emmet-Briefe **30.01. und 06.02.1958** (Selbstdarstellung und Medienkampagnen-Nachwirkung);
-3. **Truman Presidential Library, Acheson Papers, Box 139** (Verteilungsbeleg **11.01.1958**) und **Yale MS 1087**, Emmet–Acheson-Schriftwechsel;
+3. **Truman Presidential Library, Acheson Papers, Box 139** (Verteilungsbeleg **11.01.1958**) und **Yale MS 1087**, Emmet–Acheson-Schriftwechsel **Box 9, Folder 123 (1957–1959, Microfilm HM 258/Reel 6U)** sowie **Box 10, Folder 124 (1957–1970, HM 258/Reel 7U)**; die [Yale-Fundstelle **gedruckte S. 31/PDF-Bildseite 31**](https://ead-pdfs.library.yale.edu/4481.pdf#page=31) ist als Originalfindbuch direkt überprüft und verlangt ausdrücklich Mikrofilmnutzung statt Originalvorlage;
 4. **Harvard University Archives, Carl Joachim Friedrich Papers HUGFP 17.12, Box 11**, Entwurf **„Should Germany Be Neutralized?“**, gegen den **Ostpreußenblatt-Druck vom 01.02.1958** und die Originalpublikationen anderer Medien abgleichen.
 
 - **Sekundärquelle, mit PDF-Bildseiten selbst überprüft:** [Anne Zetsche, Dissertation (2016), gedruckte **S. 193–199**, besonders Fn. 61–82](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf#page=198). 
