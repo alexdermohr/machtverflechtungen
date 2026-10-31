@@ -172,7 +172,7 @@ Die Tabelle 4 aus Zetsches historischer Mitgliederdaten-Auswertung ermöglicht e
 | 1969 | 48 | 63 | 76,2 % |
 | 1974 | 46 | 65 | 70,8 % |
 
-Die Gruppe war über zwei Jahrzehnte **wirtschaftlich geprägt**; mitgliederarme Anfangsjahre und die historische Klassifikation begrenzen eine Extrapolation auf spätere Jahrzehnte. **Doppelfunktionen** sind im Original ausgewiesen: Ein Politiker konnte zugleich als Geschäftsmann gezählt werden; einzelne Prozentkategorien dürfen nicht einfach auf 100 % summiert werden.
+Die Gruppe war über zwei Jahrzehnte **wirtschaftlich geprägt**; mitgliederarme Anfangsjahre und die historische Klassifikation begrenzen eine Extrapolation auf spätere Jahrzehnte. **Offene quelleninterne Zähldifferenz:** Zetsche nennt in ihrer [eigenen Kurzdarstellung von 2018](https://www.transatlanticperspectives.org/entries/atlantik-brucke-and-the-acg/) **12 Mitglieder für 1954**, während die hier zugrunde liegende **Tabelle 4 ihrer Dissertation (S. 100) ausdrücklich 17 Personen** zählt. Beide Zahlen dürfen nicht ohne Erklärung gleichgesetzt werden; eine unterschiedliche Stichtags- oder Beitragsmitgliederdefinition ist möglich, aber erst anhand der **Mitgliederregister/Anhangslisten** verifizierbar. Die angegebenen **76,5 % für 1954** beziehen sich daher allein auf die eindeutig ausgewiesene Stichprobe **13 von 17**, nicht auf die andere Zahl 12. **Doppelfunktionen** sind im Original ausgewiesen: Ein Politiker konnte zugleich als Geschäftsmann gezählt werden; einzelne Prozentkategorien dürfen nicht einfach auf 100 % summiert werden.
 
 **Tabelle 6 der Dissertation (S. 104) dokumentiert eine interessante Rollensukzession der Vorsitzenden:**
 
