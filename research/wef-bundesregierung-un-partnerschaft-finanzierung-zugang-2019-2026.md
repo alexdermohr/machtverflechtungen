@@ -1,6 +1,6 @@
 # Weltwirtschaftsforum (WEF) und Bundesregierung 2019–2026: Vertragsfragen, UN-Partnerschaft, Staatsreisen und personeller Zugang
 
-**Quellenkritische Forschungsnotiz, 31. Oktober 2026.** Eigener Vertiefungsstrang zur [Netzwerkstudie MSC/Aspen/WEF/INSM/Trilaterale Kommission/Atlantik-Brücke/CFR](msc-aspen-wef-insm-trilaterale-cfr-netzwerke-2026.md). Basis: fünf Bundestagsoriginale mit bildseitig überprüften Fundstellen, amtliche Regierungsmitteilungen, Originalseiten des World Economic Forum (WEF) und offizielle UN-Quellen. **Staatliche Konferenzteilnahme, Ausgaben öffentlicher Reisemittel, institutionelle Förderung des Veranstalters, Vertragsbeziehungen und Mitgliedschaften sind verschiedene Kategorien.** Datierte Regierungsaussagen gelten zunächst nur für ihren jeweiligen Auskunftsstichtag.
+**Quellenkritische Forschungsnotiz, 31. Oktober 2026.** Eigener Vertiefungsstrang zur [Netzwerkstudie MSC/Aspen/WEF/INSM/Trilaterale Kommission/Atlantik-Brücke/CFR](msc-aspen-wef-insm-trilaterale-cfr-netzwerke-2026.md). Basis: sechs Bundestagsoriginale mit bildseitig überprüften Fundstellen, amtliche Regierungsmitteilungen, Originalseiten des World Economic Forum (WEF) und offizielle UN-Quellen. **Staatliche Konferenzteilnahme, Ausgaben öffentlicher Reisemittel, institutionelle Förderung des Veranstalters, Vertragsbeziehungen und Mitgliedschaften sind verschiedene Kategorien.** Datierte Regierungsaussagen gelten zunächst nur für ihren jeweiligen Auskunftsstichtag.
 
 ## Kurzbefund
 
