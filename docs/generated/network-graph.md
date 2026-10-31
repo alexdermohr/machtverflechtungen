@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**116 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**150 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
@@ -228,6 +228,69 @@ flowchart LR
     N_ORG_US_HALLE_FOUNDATION -->|"bewilligte 40.000 USD für New Bridge 2023; keine ausgezahlte Summe nachgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_JOACHIM_HERZ_STIFTUNG["Joachim Herz Stiftung"]
     N_ORG_DE_JOACHIM_HERZ_STIFTUNG -->|"fördert New Bridge to the U.S. und gemeinsam mit ERP New Bridge to Germany; Einzelbetrag offen"| N_PRG_DE_ATLANTIK_BRUECKE_NEW_BRIDGE
+    N_PRG_US_CIA_KMMANLY["CIA/OPC-Projekt KMMANLY"]
+    N_ORG_US_OPC -->|"führte laut CIA-Akten das übergeordnete verdeckte Einflussprojekt"| N_PRG_US_CIA_KMMANLY
+    N_PRG_US_CIA_QKSNITCH["CIA-Teilprojekt QKSNITCH"]
+    N_PRG_US_CIA_KMMANLY -->|"umfasste das GfW-Teilprojekt QKSNITCH"| N_PRG_US_CIA_QKSNITCH
+    N_ORG_DE_GFW_1952["Gesellschaft für Wehrkunde (historischer Verein)"]
+    N_PRG_US_CIA_QKSNITCH -->|"CIA-Abschlussbericht beziffert die projektbezogene Förderung auf insgesamt 240.858 DM; Einzelbuchungen und Anlage D offen"| N_ORG_DE_GFW_1952
+    N_ORG_DE_DSZ_1952["Deutsche Soldaten-Zeitung (1952/53)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsberichte schildern verdeckte Unterstützung und redaktionelle Leitlinien"| N_ORG_DE_DSZ_1952
+    N_ORG_DE_EWK_1952["Europäische Wehr-Korrespondenz (1952)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsbericht dokumentiert drei Auflagen zu je 5.000 und behauptet acht Zeitungsnachdrucke; Redaktionen unbekannt"| N_ORG_DE_EWK_1952
+    N_ORG_DE_WWR_1952["Wehrwissenschaftliche Rundschau (1952)"]
+    N_PRG_US_CIA_KMMANLY -->|"CIA-Monatsbericht beschreibt die finanzierte Publikation und Weiterverteilung"| N_ORG_DE_WWR_1952
+    N_PER_DE_WILHELM_CLASSEN["Wilhelm Classen"]
+    N_ORG_DE_STIFTERVERBAND_1952["Stifterverband für die Deutsche Wissenschaft (1952/53)"]
+    N_PER_DE_WILHELM_CLASSEN -->|"laut CIA-QKSNITCH-Abschlussbericht Mittelsmann einer verdeckten Weiterleitung, nicht unabhängig bankgeprüft"| N_ORG_DE_STIFTERVERBAND_1952
+    N_ORG_DE_STIFTERVERBAND_1952 -->|"CIA berichtet eine verdeckte Geldweiterleitung an das Münchner GfW-Konto; originale Kontoauszüge offen"| N_ORG_DE_GFW_1952
+    N_ORG_DE_BUNDESPRESSEAMT_1953["Presse- und Informationsamt der Bundesregierung (1953)"]
+    N_ORG_DE_WWR_1952 -->|"laut CIA-Monatsbericht 300 Exemplare des zwölfseitigen Nachdrucks an das Bundespresseamt verteilt"| N_ORG_DE_BUNDESPRESSEAMT_1953
+    N_PER_DE_OTTO_LENZ["Otto Lenz"]
+    N_PER_DE_OTTO_LENZ -->|"CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"| N_ORG_DE_DSZ_1952
+    N_ORG_DE_BUNDESPRESSEAMT_1953 -->|"heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft"| N_ORG_DE_GFW_1952
+    N_ORG_US_WASHINGTON_POST_COMPANY["The Washington Post Company (historischer Rechtsträger)"]
+    N_ORG_US_AMERICAN_FRIENDS_BILDERBERG["American Friends of Bilderberg Inc."]
+    N_ORG_US_WASHINGTON_POST_COMPANY -->|"Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2008; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_ORG_US_WASHINGTON_POST_COMPANY -->|"Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2009; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_DONALD_E_GRAHAM["Donald E. Graham"]
+    N_PER_US_DONALD_E_GRAHAM -->|"2010er Steuererklärung nennt Donald Graham als individuellen Geldgeber von 25.000 USD; Namensidentität mit SEC-CEO nicht eindeutig codiert"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_DONALD_E_GRAHAM -->|"Chairman und CEO laut SEC Form 10-K 2010"| N_ORG_US_WASHINGTON_POST_COMPANY
+    N_PER_US_PETER_THIEL["Peter Thiel"]
+    N_PER_US_PETER_THIEL -->|"NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 1.000.000 USD"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_US_ALEXANDER_KARP["Alexander Karp"]
+    N_PER_US_ALEXANDER_KARP -->|"NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 500.000 USD"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_GB_JOHN_MICKLETHWAIT["John Micklethwait"]
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Director in der US-Form-990-PF-Organliste 2025; keine eigene Geldzuwendung daraus abgeleitet"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Auf offizieller Bilderberg-Steering-Committee-Seite am 29.10.2026 genannt; konkrete Berufungsdaten offen"| N_ORG_INT_BILDERBERG_MEETINGS
+    N_ORG_US_BLOOMBERG_LP["Bloomberg L.P."]
+    N_PER_GB_JOHN_MICKLETHWAIT -->|"Editor-in-Chief von Bloomberg, laut offizieller Bilderberg-Gremienliste am 29.10.2026"| N_ORG_US_BLOOMBERG_LP
+    N_PER_US_PETER_THIEL -->|"Originalbild Form 990-PF 2010, Schedule B Part I Position 5: namentlich Peter Thiel, 50.000 USD; keine individuelle Ausweisnummer"| N_ORG_US_AMERICAN_FRIENDS_BILDERBERG
+    N_ORG_GB_BILDERBERG_CHARITY_272706["The Bilderberg Association (Charity 272706, historisch)"]
+    N_ORG_GB_BILDERBERG_CHARITY_272706 -->|"Bilanz 2013er UK-Konferenz: £459.839 Aufwendungen, davon £320.000 Security und £139.839 Organisation; konkrete Empfänger offen"| N_ORG_INT_BILDERBERG_MEETINGS
+    N_ORG_GB_HERTFORDSHIRE_POLICE["Hertfordshire Constabulary"]
+    N_ORG_GB_HOME_OFFICE["UK Home Office"]
+    N_ORG_GB_HERTFORDSHIRE_POLICE -->|"FOI 29091: £527.762 Sonderförderung für Op Discuss/Bilderberg 2013/14 beantragt; Decision Pending, keine Auszahlung nachgewiesen"| N_ORG_GB_HOME_OFFICE
+    N_PER_GB_JOHN_SAWERS["Sir John Sawers"]
+    N_ORG_GB_NEWBRIDGE_ADVISORY_LTD_11853148["Newbridge Advisory Limited (11853148)"]
+    N_PER_GB_JOHN_SAWERS -->|"Director seit Unternehmensgründung am 28.02.2019, Companies House"| N_ORG_GB_NEWBRIDGE_ADVISORY_LTD_11853148
+    N_ORG_GB_BILDERBERG_UK_LTD_12988319["The Bilderberg Association UK Limited (12988319)"]
+    N_PER_GB_JOHN_SAWERS -->|"Director seit 02.11.2020; 2023 ebenfalls durch BP-AGM-Governancebericht bestätigt"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES["Susan Jean Minton Beddoes (Zanny Minton Beddoes)"]
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Susan Jean Minton Beddoes: Director seit 02.11.2020 laut Companies House"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
+    N_ORG_GB_THE_ECONOMIST["The Economist"]
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Zanny Minton Beddoes als Economist-Chefredakteurin; Zuordnung zur Register-Namensform Susan Jean stark gestützt"| N_ORG_GB_THE_ECONOMIST
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Als Zanny Minton Beddoes in aktueller offizieller Steering-Liste; Startdatum und exakte amtliche Identitätskennung offen"| N_ORG_INT_BILDERBERG_MEETINGS
+    N_ORG_GB_NEWBRIDGE_2022_SPONSOR_UNKNOWN["Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022)"]
+    N_PER_GB_DAVID_LAMMY["David Lammy"]
+    N_ORG_GB_NEWBRIDGE_2022_SPONSOR_UNKNOWN -->|"Parlamentsakte: 'Newbridge Advisory' erstattet am 08.06.2022 £5.669,57 für Bilderberg-Flug und Unterkunft; konkrete Ltd-Firmennummer im Sponsoreneintrag fehlt"| N_PER_GB_DAVID_LAMMY
+    N_ORG_GB_BILDERBERG_2022_SPONSOR_UNKNOWN["Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022)"]
+    N_ORG_GB_BILDERBERG_2022_SPONSOR_UNKNOWN -->|"2022er 'Bilderberg Association': geschätzte £536,58 für Transfers und Mahlzeiten, kein Geldtransfer; juristischer Sponsor unbestimmt"| N_PER_GB_DAVID_LAMMY
+    N_PER_GB_DAVID_LAMMY -->|"Bilderberg-Konferenz Washington, 02.–05.06.2022, im House-of-Commons-Register erklärt"| N_ORG_INT_BILDERBERG_MEETINGS
+    N_ORG_GB_COMMONS_STANDARDS_COMMISSIONER["Parliamentary Commissioner for Standards (House of Commons)"]
+    N_ORG_GB_COMMONS_STANDARDS_COMMISSIONER -->|"2022: verspätete Bilderberg-Reiseangabe verletzt Paragraph 14 Commons Code; unbeabsichtigt, geringes Gewicht, per Rectification erledigt"| N_PER_GB_DAVID_LAMMY
+    N_PER_GB_JOHN_SAWERS -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
+    N_PER_GB_SUSAN_JEAN_MINTON_BEDDOES -->|"Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"| N_ORG_GB_BILDERBERG_UK_LTD_12988319
 ```
 
 [Zur Relationstabelle](network.md)

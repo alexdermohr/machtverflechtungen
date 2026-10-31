@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**192 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**210 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 ## Originaldokumente & amtliche Quellen
 
@@ -36,6 +36,39 @@ American Council on Germany · 2025 · Stufe **A** · Primärquelle · `SRC-US-A
 [Seite öffnen](https://www.acgusa.org/young-leaders/complete-list-of-young-leaders/)
 
 Fundstelle: Matthias Naß 1984; Theo Hans Koll 1988; Paul-Bernhard Kallen 1991; Kai Georg Diekmann 1995; Jörg Schönenborn 2000; Julia Jäckel 2002; Elmar Georg Theveßen 2003
+
+<a id="src-us-afb-irs-2008"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2008, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2008.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2008 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2008`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2008.pdf)
+
+Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
+
+<a id="src-us-afb-irs-2009"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2009, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2009.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2009 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2009`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2009.pdf)
+
+Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
+
+<a id="src-us-afb-irs-2010"></a>
+### American Friends of Bilderberg Inc. / US Internal Revenue Service
+
+**[American Friends of Bilderberg Inc. – US Form 990-PF 2010, Schedule B](https://info.publicintelligence.net/AmericanBilderberg-2010.pdf)**
+
+American Friends of Bilderberg Inc. / US Internal Revenue Service · 2010 · Stufe **A** · Primärquelle · `SRC-US-AFB-IRS-2010`
+
+[PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2010.pdf)
+
+Fundstelle: PDF-Bildseite 18 (Nullindex 17), Schedule B Part I, Donald Graham 25.000 USD
 
 <a id="src-de-ard-panorama-urbach-1971-video"></a>
 ### ARD Mediathek / NDR
@@ -434,6 +467,17 @@ Bilderberg Meetings · 2017 · Stufe **A** · Primärquelle · `SRC-INT-BILDERBE
 
 Fundstelle: Döpfner, Mathias (DEU), CEO, Axel Springer SE
 
+<a id="src-int-bilderberg-steering-2026"></a>
+### Bilderberg Meetings
+
+**[Bilderberg Meetings – offizielles Steering Committee (Abruf 2026)](https://bilderbergmeetings.org/background/steering-committee/steering-committee)**
+
+Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDERBERG-STEERING-2026`
+
+[Seite öffnen](https://bilderbergmeetings.org/background/steering-committee/steering-committee)
+
+Fundstelle: John Micklethwait – Bloomberg; Steuerungsausschuss mit Teilnehmer- und Agendazuständigkeit
+
 <a id="src-int-bilderberg-former-steering"></a>
 ### Bilderberg Meetings
 
@@ -444,6 +488,17 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 [Seite öffnen](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)
 
 Fundstelle: Sommer, Theo (DEU)
+
+<a id="src-gb-bp-agm-sawers-2023"></a>
+### BP p.l.c., UK FCA National Storage Mechanism
+
+**[BP p.l.c. Notice of Annual General Meeting 2023 – Sir John Sawers interests](https://data.fca.org.uk/artefacts/NSM/Portal/NI-000069997/NI-000069997.pdf)**
+
+BP p.l.c., UK FCA National Storage Mechanism · 2023 · Stufe **A** · Primärquelle · `SRC-GB-BP-AGM-SAWERS-2023`
+
+[PDF öffnen](https://data.fca.org.uk/artefacts/NSM/Portal/NI-000069997/NI-000069997.pdf)
+
+Fundstelle: Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Association UK und Executive Chair Newbridge Advisory Ltd
 
 <a id="src-de-barch-fricke-akteneinsicht-1997"></a>
 ### Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe
@@ -651,6 +706,28 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+<a id="src-us-cia-qksnitch-final-1953"></a>
+### Central Intelligence Agency
+
+**[QKSNITCH Final Report, EGZA-946, 14. April 1953](https://www.cia.gov/readingroom/docs/CLASSEN%2C%20WILHELM_0042.pdf)**
+
+Central Intelligence Agency · 1953-04-14 · Stufe **B** · Primärquelle · `SRC-US-CIA-QKSNITCH-FINAL-1953`
+
+[PDF öffnen](https://www.cia.gov/readingroom/docs/CLASSEN%2C%20WILHELM_0042.pdf)
+
+Fundstelle: Indexierter OCR-Auszug; Anlage D noch nicht unabhängig im Faksimile geprüft
+
+<a id="src-us-cia-kmmanly-monthly-1952-1953"></a>
+### Central Intelligence Agency / Office of Policy Coordination
+
+**[KMMANLY – CIA/OPC-Projektakte mit Monatsberichten 1952–1953](https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf)**
+
+Central Intelligence Agency / Office of Policy Coordination · 1952-1953 · Stufe **A** · Primärquelle · `SRC-US-CIA-KMMANLY-MONTHLY-1952-1953`
+
+[PDF öffnen](https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf)
+
+Fundstelle: 55 PDF-Blätter, insbesondere Bl. 28–29, 41, 44 und 53–55
 
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
@@ -1202,6 +1279,17 @@ Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-P
 
 Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)
 
+<a id="src-de-gsp-bpa-vertrag-1953"></a>
+### Gesellschaft für Sicherheitspolitik e.V.
+
+**[Gesellschaft für Sicherheitspolitik – historische Darstellung zur Bundesförderung ab Januar 1953](https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1)**
+
+Gesellschaft für Sicherheitspolitik e.V. · current · Stufe **B** · Primärquelle · `SRC-DE-GSP-BPA-VERTRAG-1953`
+
+[Seite öffnen](https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1)
+
+Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
+
 <a id="src-de-hh-cumex-pua-2024"></a>
 ### Hamburgische Bürgerschaft
 
@@ -1649,6 +1737,17 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 
 Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 dpi: /tiff400/017/00000455.tif und 00000456.tif
 
+<a id="src-gb-bilderberg-charity-accounts-2015"></a>
+### The Bilderberg Association (Charity 272706), Audit Buzzacott LLP
+
+**[The Bilderberg Association – Annual Report and Financial Statements, 31 March 2015](https://info.publicintelligence.net/BilderbergAssociation-2015.pdf)**
+
+The Bilderberg Association (Charity 272706), Audit Buzzacott LLP · 2015 · Stufe **A** · Primärquelle · `SRC-GB-BILDERBERG-CHARITY-ACCOUNTS-2015`
+
+[PDF öffnen](https://info.publicintelligence.net/BilderbergAssociation-2015.pdf)
+
+Fundstelle: Note 1, PDF-Index 12: FY2014-Vergleichsausgaben £320,000 Security und £139,839 Organisation
+
 <a id="src-us-halle-ab-newbridge-grants-2022-2023"></a>
 ### The Halle Foundation
 
@@ -1670,6 +1769,94 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 [PDF öffnen](https://www.thueringer-landtag.de/fileadmin/Redaktion/1-Hauptmenue/1-Landtag/3-Ausschuesse_und_Gremien/3-Untersuchungsausschuesse/1-Untersuchungsausschuss_6-1/Dokumente/mogliches-fehlverhalten-der-thuringer-sicherheits-und-justizbehorden-einschliesslich-der-zustandigen-ministerien-unter-einschluss-der-politischen.pdf)
 
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
+
+<a id="src-us-wapo-sec-10k-2010"></a>
+### U.S. Securities and Exchange Commission
+
+**[The Washington Post Company – Form 10-K 2010](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)**
+
+U.S. Securities and Exchange Commission · 2010-03-02 · Stufe **A** · Primärquelle · `SRC-US-WAPO-SEC-10K-2010`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)
+
+Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer
+
+<a id="src-gb-charity-commission-bilderberg-272706"></a>
+### UK Charity Commission
+
+**[The Bilderberg Association, charity number 272706 – Register history](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/272706/full-print)**
+
+UK Charity Commission · 2021-05-21 · Stufe **A** · Primärquelle · `SRC-GB-CHARITY-COMMISSION-BILDERBERG-272706`
+
+[Seite öffnen](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/272706/full-print)
+
+Fundstelle: Former charity 272706, removed 21 May 2021
+
+<a id="src-gb-companies-house-newbridge-11853148"></a>
+### UK Companies House
+
+**[NEWBRIDGE ADVISORY LIMITED (11853148) – Officers](https://find-and-update.company-information.service.gov.uk/company/11853148/officers)**
+
+UK Companies House · 2019-02-28 · Stufe **A** · Primärquelle · `SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148`
+
+[Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/11853148/officers)
+
+Fundstelle: Sir Robert John Sawers, appointed director 28 February 2019
+
+<a id="src-gb-companies-house-bilderberg-12988319"></a>
+### UK Companies House
+
+**[THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Officers](https://find-and-update.company-information.service.gov.uk/company/12988319/officers)**
+
+UK Companies House · 2020-11-02 · Stufe **A** · Primärquelle · `SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319`
+
+[Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/12988319/officers)
+
+Fundstelle: Sir Robert John Sawers und Susan Jean Minton Beddoes seit 2 November 2020 Directors
+
+<a id="src-gb-companies-house-bilderberg-psc-2026"></a>
+### UK Companies House
+
+**[THE BILDERBERG ASSOCIATION UK LIMITED (12988319) – Persons with significant control](https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control)**
+
+UK Companies House · current · Stufe **A** · Primärquelle · `SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026`
+
+[Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/12988319/persons-with-significant-control)
+
+Fundstelle: Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors
+
+<a id="src-gb-home-office-foi29091-2014"></a>
+### UK Home Office
+
+**[Home Office emergency funding provided to police forces from 2008 to 2013, FOI 29091 Annex A](https://assets.publishing.service.gov.uk/media/5a74e7a5e5274a59fa715e02/29091-Annex_A_-_information_for_release.pdf)**
+
+UK Home Office · 2014-03-06 · Stufe **A** · Primärquelle · `SRC-GB-HOME-OFFICE-FOI29091-2014`
+
+[PDF öffnen](https://assets.publishing.service.gov.uk/media/5a74e7a5e5274a59fa715e02/29091-Annex_A_-_information_for_release.pdf)
+
+Fundstelle: PDF-Index 3: Hertfordshire 2013/14, Op Discuss Bilderberg, £527,762 Amount of bid, Decision Pending; Spalten PDF-Index 0
+
+<a id="src-gb-commons-lammy-register-2023"></a>
+### UK House of Commons
+
+**[Register of Members' Financial Interests – David Lammy, 9 January 2023](https://publications.parliament.uk/pa/cm/cmregmem/230109/lammy_david.htm)**
+
+UK House of Commons · 2023-01-09 · Stufe **A** · Primärquelle · `SRC-GB-COMMONS-LAMMY-REGISTER-2023`
+
+[Seite öffnen](https://publications.parliament.uk/pa/cm/cmregmem/230109/lammy_david.htm)
+
+Fundstelle: Newbridge Advisory £5,669.57, Bilderberg Association estimated £536.58, trip 2–5 June 2022
+
+<a id="src-gb-commons-lammy-rectification-2022"></a>
+### UK House of Commons, Parliamentary Commissioner for Standards
+
+**[Parliamentary Commissioner for Standards: Rt Hon David Lammy MP – Rectification](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)**
+
+UK House of Commons, Parliamentary Commissioner for Standards · 2022-08-11 · Stufe **A** · Primärquelle · `SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022`
+
+[PDF öffnen](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)
+
+Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification
 
 <a id="src-us-cig-rusty-doc21-1946"></a>
 ### US Central Intelligence Group, Original bei National Security Archive
@@ -1703,6 +1890,17 @@ US Central Intelligence Group; Edition National Security Archive, George Washing
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc45.pdf)
 
 Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3
+
+<a id="src-us-afb-nccs-990-2025"></a>
+### US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS
+
+**[American Friends of Bilderberg Inc. – Form 990-PF 2025 und Schedule B, NCCS XML](https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml)**
+
+US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS · 2025 · Stufe **A** · Primärquelle · `SRC-US-AFB-NCCS-990-2025`
+
+[Seite öffnen](https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml)
+
+Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors
 
 ## Forschung & Dokumentation
 

@@ -1107,3 +1107,305 @@ relations:
     period: {start: "2026"}
     evidence_level: established
     sources: [SRC-DE-JHS-NEWBRIDGE-2026, SRC-DE-AB-NEWBRIDGE-PROGRAM-2026]
+
+  - id: REL-DE-KMM-001
+    from: ORG-US-OPC
+    to: PRG-US-CIA-KMMANLY
+    type: project_responsibility
+    label: "führte laut CIA-Akten das übergeordnete verdeckte Einflussprojekt"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-002
+    from: PRG-US-CIA-KMMANLY
+    to: PRG-US-CIA-QKSNITCH
+    type: subproject
+    label: "umfasste das GfW-Teilprojekt QKSNITCH"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953, SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-003
+    from: PRG-US-CIA-QKSNITCH
+    to: ORG-DE-GFW-1952
+    type: reported_covert_financing
+    label: "CIA-Abschlussbericht beziffert die projektbezogene Förderung auf insgesamt 240.858 DM; Einzelbuchungen und Anlage D offen"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-004
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-DSZ-1952
+    type: reported_editorial_and_financial_support
+    label: "CIA-Monatsberichte schildern verdeckte Unterstützung und redaktionelle Leitlinien"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-005
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-EWK-1952
+    type: reported_publication_support
+    label: "CIA-Monatsbericht dokumentiert drei Auflagen zu je 5.000 und behauptet acht Zeitungsnachdrucke; Redaktionen unbekannt"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-006
+    from: PRG-US-CIA-KMMANLY
+    to: ORG-DE-WWR-1952
+    type: reported_publication_support
+    label: "CIA-Monatsbericht beschreibt die finanzierte Publikation und Weiterverteilung"
+    period: {start: "1952", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-007
+    from: PER-DE-WILHELM-CLASSEN
+    to: ORG-DE-STIFTERVERBAND-1952
+    type: reported_funding_intermediary
+    label: "laut CIA-QKSNITCH-Abschlussbericht Mittelsmann einer verdeckten Weiterleitung, nicht unabhängig bankgeprüft"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-008
+    from: ORG-DE-STIFTERVERBAND-1952
+    to: ORG-DE-GFW-1952
+    type: reported_conduit_payment
+    label: "CIA berichtet eine verdeckte Geldweiterleitung an das Münchner GfW-Konto; originale Kontoauszüge offen"
+    period: {start: "1951", end: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-QKSNITCH-FINAL-1953]
+
+  - id: REL-DE-KMM-009
+    from: ORG-DE-WWR-1952
+    to: ORG-DE-BUNDESPRESSEAMT-1953
+    type: reported_material_distribution
+    label: "laut CIA-Monatsbericht 300 Exemplare des zwölfseitigen Nachdrucks an das Bundespresseamt verteilt"
+    period: {start: "1952"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-010
+    from: PER-DE-OTTO-LENZ
+    to: ORG-DE-DSZ-1952
+    type: reported_funding_pledge
+    label: "CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"
+    period: {start: "1953"}
+    evidence_level: strong
+    sources: [SRC-US-CIA-KMMANLY-MONTHLY-1952-1953]
+
+  - id: REL-DE-KMM-011
+    from: ORG-DE-BUNDESPRESSEAMT-1953
+    to: ORG-DE-GFW-1952
+    type: retrospectively_reported_funding_contract
+    label: "heutige GSP beschreibt einen Finanzierungsvertrag von Januar 1953; Originalvertrag und Auszahlungen noch ungeprüft"
+    period: {start: "1953"}
+    evidence_level: strong
+    sources: [SRC-DE-GSP-BPA-VERTRAG-1953]
+
+  - id: REL-US-BBF-001
+    from: ORG-US-WASHINGTON-POST-COMPANY
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2008; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"
+    period: {start: "2008-01-01", end: "2008-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2008]
+
+  - id: REL-US-BBF-002
+    from: ORG-US-WASHINGTON-POST-COMPANY
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Form 990-PF Schedule B: Unternehmenszahlung 25.000 USD im Steuerjahr 2009; PDF-Spenderzeile bildseitig noch nicht unabhängig bestätigt"
+    period: {start: "2009-01-01", end: "2009-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2009]
+
+  - id: REL-US-BBF-003
+    from: PER-US-DONALD-E-GRAHAM
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "2010er Steuererklärung nennt Donald Graham als individuellen Geldgeber von 25.000 USD; Namensidentität mit SEC-CEO nicht eindeutig codiert"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2010, SRC-US-WAPO-SEC-10K-2010]
+
+  - id: REL-US-BBF-004
+    from: PER-US-DONALD-E-GRAHAM
+    to: ORG-US-WASHINGTON-POST-COMPANY
+    type: chief_executive
+    label: "Chairman und CEO laut SEC Form 10-K 2010"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: established
+    sources: [SRC-US-WAPO-SEC-10K-2010]
+
+  - id: REL-US-BBF-005
+    from: PER-US-PETER-THIEL
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 1.000.000 USD"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-006
+    from: PER-US-ALEXANDER-KARP
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "NCCS-Version des IRS Schedule B 2025: namentliche Zuwendung 500.000 USD"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-007
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: director
+    label: "Director in der US-Form-990-PF-Organliste 2025; keine eigene Geldzuwendung daraus abgeleitet"
+    period: {start: "2025-01-01", end: "2025-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-NCCS-990-2025]
+
+  - id: REL-US-BBF-008
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: steering_committee_member
+    label: "Auf offizieller Bilderberg-Steering-Committee-Seite am 29.10.2026 genannt; konkrete Berufungsdaten offen"
+    evidence_level: established
+    sources: [SRC-INT-BILDERBERG-STEERING-2026]
+
+  - id: REL-US-BBF-009
+    from: PER-GB-JOHN-MICKLETHWAIT
+    to: ORG-US-BLOOMBERG-LP
+    type: editor_in_chief
+    label: "Editor-in-Chief von Bloomberg, laut offizieller Bilderberg-Gremienliste am 29.10.2026"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026]
+
+  - id: REL-US-BBF-010
+    from: PER-US-PETER-THIEL
+    to: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: documented_donation
+    label: "Originalbild Form 990-PF 2010, Schedule B Part I Position 5: namentlich Peter Thiel, 50.000 USD; keine individuelle Ausweisnummer"
+    period: {start: "2010-01-01", end: "2010-12-31"}
+    evidence_level: strong
+    sources: [SRC-US-AFB-IRS-2010]
+
+  - id: REL-GB-BB-UK-001
+    from: ORG-GB-BILDERBERG-CHARITY-272706
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: accounted_conference_expenditure
+    label: "Bilanz 2013er UK-Konferenz: £459.839 Aufwendungen, davon £320.000 Security und £139.839 Organisation; konkrete Empfänger offen"
+    period: {start: "2013-06-06", end: "2014-03-31"}
+    evidence_level: strong
+    sources: [SRC-GB-BILDERBERG-CHARITY-ACCOUNTS-2015]
+
+  - id: REL-GB-BB-UK-002
+    from: ORG-GB-HERTFORDSHIRE-POLICE
+    to: ORG-GB-HOME-OFFICE
+    type: documented_grant_application
+    label: "FOI 29091: £527.762 Sonderförderung für Op Discuss/Bilderberg 2013/14 beantragt; Decision Pending, keine Auszahlung nachgewiesen"
+    period: {start: "2013", end: "2014"}
+    evidence_level: established
+    sources: [SRC-GB-HOME-OFFICE-FOI29091-2014]
+
+  - id: REL-GB-BB-UK-003
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148
+    type: director
+    label: "Director seit Unternehmensgründung am 28.02.2019, Companies House"
+    period: {start: "2019-02-28"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148, SRC-GB-BP-AGM-SAWERS-2023]
+
+  - id: REL-GB-BB-UK-004
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: director
+    label: "Director seit 02.11.2020; 2023 ebenfalls durch BP-AGM-Governancebericht bestätigt"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319, SRC-GB-BP-AGM-SAWERS-2023]
+
+  - id: REL-GB-BB-UK-005
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: director
+    label: "Susan Jean Minton Beddoes: Director seit 02.11.2020 laut Companies House"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-006
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-THE-ECONOMIST
+    type: editor_in_chief
+    label: "Zanny Minton Beddoes als Economist-Chefredakteurin; Zuordnung zur Register-Namensform Susan Jean stark gestützt"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026, SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-007
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: steering_committee_member
+    label: "Als Zanny Minton Beddoes in aktueller offizieller Steering-Liste; Startdatum und exakte amtliche Identitätskennung offen"
+    evidence_level: strong
+    sources: [SRC-INT-BILDERBERG-STEERING-2026, SRC-GB-COMPANIES-HOUSE-BILDERBERG-12988319]
+
+  - id: REL-GB-BB-UK-008
+    from: ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN
+    to: PER-GB-DAVID-LAMMY
+    type: registered_travel_reimbursement
+    label: "Parlamentsakte: 'Newbridge Advisory' erstattet am 08.06.2022 £5.669,57 für Bilderberg-Flug und Unterkunft; konkrete Ltd-Firmennummer im Sponsoreneintrag fehlt"
+    period: {start: "2022-06-02", end: "2022-06-08"}
+    evidence_level: strong
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022, SRC-GB-COMMONS-LAMMY-REGISTER-2023, SRC-GB-COMPANIES-HOUSE-NEWBRIDGE-11853148]
+
+  - id: REL-GB-BB-UK-009
+    from: ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN
+    to: PER-GB-DAVID-LAMMY
+    type: registered_in_kind_benefit_estimate
+    label: "2022er 'Bilderberg Association': geschätzte £536,58 für Transfers und Mahlzeiten, kein Geldtransfer; juristischer Sponsor unbestimmt"
+    period: {start: "2022-06-02", end: "2022-06-05"}
+    evidence_level: strong
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022, SRC-GB-COMMONS-LAMMY-REGISTER-2023]
+
+  - id: REL-GB-BB-UK-010
+    from: PER-GB-DAVID-LAMMY
+    to: ORG-INT-BILDERBERG-MEETINGS
+    type: conference_participant
+    label: "Bilderberg-Konferenz Washington, 02.–05.06.2022, im House-of-Commons-Register erklärt"
+    period: {start: "2022-06-02", end: "2022-06-05"}
+    evidence_level: established
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022]
+
+  - id: REL-GB-BB-UK-011
+    from: ORG-GB-COMMONS-STANDARDS-COMMISSIONER
+    to: PER-GB-DAVID-LAMMY
+    type: official_registration_breach_finding
+    label: "2022: verspätete Bilderberg-Reiseangabe verletzt Paragraph 14 Commons Code; unbeabsichtigt, geringes Gewicht, per Rectification erledigt"
+    period: {start: "2022-08-11"}
+    evidence_level: established
+    sources: [SRC-GB-COMMONS-LAMMY-RECTIFICATION-2022]
+
+  - id: REL-GB-BB-UK-012
+    from: PER-GB-JOHN-SAWERS
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
+
+  - id: REL-GB-BB-UK-013
+    from: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    to: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: registered_significant_control
+    label: "Companies House PSC: seit 02.11.2020 mehr als 25 bis höchstens 50 Prozent Stimmrechte sowie Recht auf Bestellung und Abberufung von Directors"
+    period: {start: "2020-11-02"}
+    evidence_level: established
+    sources: [SRC-GB-COMPANIES-HOUSE-BILDERBERG-PSC-2026]
