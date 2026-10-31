@@ -2404,3 +2404,119 @@ sources:
   accessed: "2026-10-29"
   locator: "Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors"
   notes: "Amtliche Registerangabe über Kontrolle/Stimmbefugnisse einer company limited by guarantee ohne Stammkapital; nicht mit Eigentum an Aktien, alleiniger Weisungshoheit oder redaktioneller Steuerung gleichsetzen."
+
+
+- id: SRC-IT-AMBROSIANO-INTERALPHA-ANGPS-1979
+  title: "Banco Ambrosiano S.p.A. – Inserat mit Mitgliederliste Gruppo di Banche Inter-Alpha"
+  institution: "Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS"
+  date: "1979-02"
+  type: contemporary_bank_advertisement
+  primary: true
+  tier: A
+  url: https://www.anpsbrescia.it/wp/wp-content/uploads/2018/02/1979-2-Feb-Mar-ROB.pdf
+  accessed: "2026-10-30"
+  locator: "Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banco Ambrosiano und NMB als Inter-Alpha-Mitglieder"
+  sha256: 7573b4d6f09a40d5d211d0e5f1a4031aafa68772f4fc0e4da4c800eca892768f
+  notes: "Originalanzeige und Bildfaksimile geprüft. Mitgliederliste von getrenntem Abschnitt 'Controllate' unterscheiden. Belegt beworbene Kooperation, keine gemeinsamen Konten, Verfügungsrechte oder Zahlungsvorgänge."
+
+- id: SRC-IT-INTESA-AMBROSIANO-INTERALPHA-HISTORY
+  title: "Archivio storico Intesa Sanpaolo – Banco Ambrosiano Veneto: Internationale Beziehungen und Inter-Alpha ab 1972"
+  institution: "Archivio storico Intesa Sanpaolo"
+  date: null
+  type: institutional_historical_archive
+  primary: false
+  tier: B
+  url: https://internationalhistory.intesasanpaolo.com/world-map/banks/detail/IT-ISP-MAPPAESTERA-0000288/banco-ambrosiano-veneto-bav
+  accessed: "2026-10-30"
+  locator: "Abschnitt ab 1972: Gründerbanken BA, BHF, CCF, KB, NMB, Williams & Glyn's; strukturelle Unabhängigkeit; Inter-Alpha-Auslandsbüros"
+  notes: "Spätere Darstellung der Bankengruppe; Gründungsakte 1972 nicht separat eingesehen. Historische Nachfolge BAV 1989 nicht mit BA 1979 rechtsidentisch setzen."
+
+- id: SRC-UY-CARRIO-PAIS-VACIADO-1987-BAFISUD
+  title: "Miguel Carrió – País vaciado: dictadura y negociados (1973–1985), NMB/BAFISUD/BCU-Verträge"
+  institution: "Monte Sexto, Montevideo; Archiv Sitios de Memoria"
+  date: "1987"
+  type: historical_investigative_contract_excerpt
+  primary: false
+  tier: B
+  url: https://sitiosdememoria.uy/sites/default/files/2025-11/13/miguel-carrio-1987-pais-vaciado.pdf
+  accessed: "2026-10-30"
+  locator: "Gedruckte Seiten 35–38, PDF-Seiten 37–40: 03./04./07.03.1983 und 05./09.01.1984; Aktienanteile 78,79%, N$ 1 und BCU-Problemforderungen"
+  sha256: 0d8a29fcefb2418792002eb8cd7c0f5e0f37b7af62bec0f67c8d123c90f93ca8
+  notes: "Buchfaksimile mit Auszügen, noch keine authentifizierten Handelsregister- oder BCU-Originalurkunden. BCU-Forderungskauf nicht als Aktienkauf oder Nettoverlust ausgeben."
+
+- id: SRC-UY-CONVICCION-BAFISUD-REPLY-1984
+  title: "CONVICCIÓN Nr. 10 – BAFISUD-Gegendarstellung und redaktionelle Erwiderung zur NMB-Übernahme"
+  institution: "Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay"
+  date: "1984-02-16"
+  type: contemporary_press_right_of_reply
+  primary: true
+  tier: A
+  url: https://bibliotecadigital.bibna.gub.uy/jspui/bitstream/123456789/148461/1/Conviccion_N10.pdf
+  accessed: "2026-10-30"
+  locator: "PDF-Seite 7, Bankbrief: NMB im ersten Quartal 1983 mehrheitlich beteiligt und beanspruchte 100% 1984; Redaktion zu Mario Ortolani"
+  sha256: 30dda6bd5bd4881934081803642cc9fb11e933e788a9686140934d6f8fb90b46
+  notes: "Zeitgenössische, interessengeleitete Bank-Aussage und abweichende Redaktionsaussage; unmittelbarer Beleg für Veröffentlichung, nicht beglaubigtes Aktienbuch."
+
+- id: SRC-UY-BCU-VAZ-NPL-1999-TAB38
+  title: "Daniel Enrique Vaz – Four Banking Crises: Their Causes and Consequences, Tabelle 3.8"
+  institution: "Banco Central del Uruguay, Revista de Economía"
+  date: "1999"
+  type: academic_historical_finance_table
+  primary: false
+  tier: B
+  url: https://bvrie.bcu.gub.uy/local/File/REVECO/1999/Vaz.pdf
+  accessed: "2026-10-30"
+  locator: "Druckseite 130 / PDF-Seite 102, Tabelle 3.8, BAFISUD US$106 Mio. Forderungsnennwert; 5 Banken 413,2 Mio.; Quelle Banda [1990]"
+  sha256: 7b88167790c8fb37cc527a7e3d866fa7fa888a946a6d8731433c6f30d65f94d2
+  notes: "BCU-hosted späterer akademischer Abdruck, Originalberechnung Banda 1990 noch zu beschaffen; Nennwert nicht gleich Nettoverlust."
+
+- id: SRC-UY-COPAB-BANKCRISIS-REPORT-2025
+  title: "COPAB – Informe final investigación crisis bancarias: historische Bankkrisen und Forderungsrückflüsse"
+  institution: "Corporación de Protección del Ahorro Bancario (COPAB), Uruguay"
+  date: "2025-11"
+  type: public_agency_historical_economic_report
+  primary: false
+  tier: B
+  url: https://www.copab.org.uy/innovaportal/file/1374/1/copab-informe-final-investigacion-crisis-bancarias-nov-2025.pdf
+  accessed: "2026-10-30"
+  locator: "PDF-Seiten 35 (25% Finanzsystemkredite, 10% aggregierte Rückgewinnung), 39 (wirtschaftliche Gesamtkosten), 96–98 (BCU-Kreditportfolio-Tabellen)"
+  sha256: e20bf50aea38d4f0002fadf6fee09f6952505780d6b2e40977118ec5976efe6c
+  notes: "Staatlich veröffentlichte historische Synthese mit Sekundärquellen; Prozentwerte gelten der gesamten Krisenintervention, nicht speziell BAFISUD."
+
+- id: SRC-UY-IMPO-LEY15322-1982-ORIGINAL
+  title: "Decreto-Ley 15.322 – Intermediación financiera, Originalfassung vom 17. September 1982"
+  institution: "República Oriental del Uruguay, IMPO"
+  date: "1982-09-17"
+  type: original_statutory_text
+  primary: true
+  tier: A
+  url: https://www.impo.com.uy/bases/decretos-leyes-originales/15322-1982
+  accessed: "2026-10-30"
+  locator: "Decreto-Ley 15322, Originalfassung 1982, nicht nachträglich konsolidierter Rechtstext"
+  notes: "Regulatorische Rahmenquelle, belegt nicht die Rechtmäßigkeit einzelner BAFISUD-Portfolioentscheidungen."
+
+- id: SRC-UY-MANZI-BANKRANK-1981
+  title: "Ricardo Manzi – El sistema bancario privado y la política económica en 1955–1979, Cuadro 21"
+  institution: "Uruguay: dictadura y realidad nacional; Sitios de Memoria"
+  date: "1981"
+  type: contemporary_economic_statistics_analysis
+  primary: false
+  tier: B
+  url: https://sitiosdememoria.uy/sites/default/files/2024-02/uruguay-dictadura-y-realidad-nacional_f1981.pdf
+  accessed: "2026-10-30"
+  locator: "Gedruckte Seite 134, PDF-Seite 136, 30. April 1980: BAFISUD Rang 8, 938.685 Tausend N$ bzw. 4,75 Prozent"
+  sha256: 58f1b51d6123d0126ac11a7154e7b2250e1acdfd958277edeaeb9c5883203f15
+  notes: "Übernahme einer Tabelle der Asociación de Bancos del Uruguay, statistische Urschrift noch ausstehend; Größe Pasivo exigible y patrimonial nicht mit Eigenkapital/Einlagen gleichzusetzen."
+
+- id: SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983
+  title: "Banca d'Italia – Documentazione relativa ai rapporti tra il BAFISUD ed il Credito Varesino (mit zeitgenössischer Aktienkorrespondenz)"
+  institution: "Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI"
+  date: "1983"
+  type: central_bank_inspection_with_bank_originals
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf
+  accessed: "2026-10-30"
+  locator: "IX Legislatur, Doc. XXIII 2-quater/3/VI, Druck-S. 423/PDF 431: BAFISUD Montevideo 5,5% Banco Ambrosiano Overseas Nassau; 426/PDF 434: CCF Suisse als schweizerische Tochter der französischen CCF; 427/PDF 435: Einlagen 1980; 430/PDF 438: La Centrale 4,5 Mio. Credito-Varesino-Aktien 1978 an BAFISUD Corporation Panama; 436/PDF 444: effektiver Finanzierer unbekannt; 440/PDF 448: Banco-Ambrosiano-Brief vom 13.02.1979; 448-449/PDF 456-457: CCF-Suisse-Brief 01.04.1981 und Zertifikatübertragung 31.03.1981."
+  sha256: 73f799c088f40974ade37565c1db9293ad0df904c6339bee977303b160c64723
+  notes: "53.268.656 Byte, SHA-256 erneut geprüft; Originalbriefseiten PDF 448, 456 und 457 im Bild kontrolliert; Inspektionsseiten PDF 431, 434, 435, 438, 440 und 444 in der Textlage überprüft. Primär für Bankaufsichtsbefunde, zeitgenössische Originalbriefe und nominelle Aktienbewegungen; KEIN unabhängig festgestellter effektiver Kapitalfinanzierer, keine Inter-Alpha-Anweisung, kein Sudam-/PSI-Endtransfer."
