@@ -606,3 +606,191 @@ entities:
     name: "Central Intelligence Group (CIG)"
     countries: [US]
     notes: "US-Nachrichtendienststelle, Vorläufer der CIA; untersuchte Operation Rusty 1946–1947."
+
+
+  - id: ORG-US-HALLE-FOUNDATION
+    type: foundation
+    name: "The Halle Foundation"
+    countries: [US]
+    notes: "US-amerikanische Stiftung mit in eigener Grant History bezifferten Zusagen an die Atlantik-Brücke für das New Bridge Program 2022 und 2023; Auszahlungen nicht unabhängig belegt."
+
+  - id: ORG-DE-JOACHIM-HERZ-STIFTUNG
+    type: foundation
+    name: "Joachim Herz Stiftung"
+    countries: [DE]
+    notes: "Gemeinnützige private Stiftung; öffentlich als Förderin von New Bridge genannt. Stiftungsvermögen ist kein Vereinsbudget."
+
+  - id: PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE
+    type: program
+    name: "Atlantik-Brücke New Bridge Program"
+    countries: [DE, US]
+    notes: "Eigenständiges vollfinanziertes Fellowship-/Austauschprogramm für bisher unterrepräsentierte Perspektiven, seit 2021 New Bridge to Germany und seit 2023 New Bridge to the U.S.; nicht mit dem Young Leaders Program gleichsetzen."
+
+  - id: PRG-US-CIA-KMMANLY
+    type: program
+    name: "CIA/OPC-Projekt KMMANLY"
+    countries: [US, DE]
+    notes: "Übergeordnetes CIA/OPC-Projekt für verdeckte politische und publizistische Einflussnahme 1951–1953; nicht mit QKSNITCH gleichsetzen."
+
+  - id: PRG-US-CIA-QKSNITCH
+    type: program
+    name: "CIA-Teilprojekt QKSNITCH"
+    countries: [US, DE]
+    notes: "Teilprojekt KMMANLY zur Gesellschaft für Wehrkunde. 240.858 DM werden im CIA-Abschlussbericht berichtet, Anlage D und Bankbelege noch ungesichert."
+
+  - id: ORG-DE-GFW-1952
+    type: association
+    name: "Gesellschaft für Wehrkunde (historischer Verein)"
+    countries: [DE]
+    notes: "Empfängerin laut CIA-OPC-Berichten; heutige GSP und deren finanzielle Nachfolge sind gesondert zu prüfen."
+
+  - id: ORG-DE-STIFTERVERBAND-1952
+    type: association
+    name: "Stifterverband für die Deutsche Wissenschaft (1952/53)"
+    countries: [DE]
+    notes: "Im CIA-QKSNITCH-Abschlussbericht als Tarn- beziehungsweise Durchleitungsstelle beschrieben; keine unabhängig nachgewiesene Einzelbankbuchung."
+
+  - id: ORG-DE-DSZ-1952
+    type: media_outlet
+    name: "Deutsche Soldaten-Zeitung (1952/53)"
+    countries: [DE]
+    notes: "Laut KMMANLY-Monatsberichten verdeckt unterstützte Publikation; einzelne Ausgaben und redaktionelle Anweisungen weiter abzugleichen."
+
+  - id: ORG-DE-EWK-1952
+    type: media_outlet
+    name: "Europäische Wehr-Korrespondenz (1952)"
+    countries: [DE]
+    notes: "CIA-Monatsbericht nennt drei Ausgaben zu je 5.000 Exemplaren und acht Nachdrucke in nicht namentlich bezeichneten Zeitungen; einzelne Nachdrucke nicht unabhängig identifiziert."
+
+  - id: ORG-DE-WWR-1952
+    type: media_outlet
+    name: "Wehrwissenschaftliche Rundschau (1952)"
+    countries: [DE]
+    notes: "CIA-Bericht führt die Verbreitung eines zwölfseitigen Nachdrucks mit 2.500 Exemplaren auf."
+
+  - id: ORG-DE-BUNDESPRESSEAMT-1953
+    type: government_agency
+    name: "Presse- und Informationsamt der Bundesregierung (1953)"
+    countries: [DE]
+    notes: "CIA-Monatsbericht führt 300 Nachdruckexemplare als an das Bundespresseamt verteilte Menge auf; keine daraus abgeleitete Redaktionsweisung."
+
+  - id: PER-DE-WILHELM-CLASSEN
+    type: person
+    name: "Wilhelm Classen"
+    countries: [DE]
+    notes: "CIA-QKSNITCH-Kontaktperson; historisches NS-Personalprofil und Finanzierungsrolle quellenkritisch getrennt untersuchen."
+
+  - id: PER-DE-OTTO-LENZ
+    type: person
+    name: "Otto Lenz"
+    countries: [DE]
+    notes: "Nach CIA-Monatsberichten mit Förderzusagen zur Deutschen Soldaten-Zeitung befasst; konkrete Auszahlung offen."
+
+  - id: ORG-US-AMERICAN-FRIENDS-BILDERBERG
+    type: association
+    name: "American Friends of Bilderberg Inc."
+    countries: [US]
+    notes: "Eigenständiger US-Steuerrechtsträger, EIN 51-0163715; nicht identisch mit den internationalen oder britischen Bilderberg-Rechtsträgern."
+
+  - id: ORG-US-WASHINGTON-POST-COMPANY
+    type: media_company
+    name: "The Washington Post Company (historischer Rechtsträger)"
+    countries: [US]
+    notes: "Als Unternehmen für die 2008/2009er Schedule-B-Zuwendungen genannt; persönliche Graham-Zuwendung 2010 wird gesondert modelliert."
+
+  - id: PER-US-DONALD-E-GRAHAM
+    type: person
+    name: "Donald E. Graham"
+    countries: [US]
+    notes: "Namenszuordnung zwischen 2010er IRS-Spenderzeile 'Donald Graham' und SEC-CEO historisch plausibel; Steuererklärung enthält keine eindeutige Personenkennung."
+
+  - id: PER-US-PETER-THIEL
+    type: person
+    name: "Peter Thiel"
+    countries: [US]
+
+  - id: PER-US-ALEXANDER-KARP
+    type: person
+    name: "Alexander Karp"
+    countries: [US]
+
+  - id: PER-GB-JOHN-MICKLETHWAIT
+    type: person
+    name: "John Micklethwait"
+    countries: [GB]
+
+  - id: ORG-US-BLOOMBERG-LP
+    type: media_company
+    name: "Bloomberg L.P."
+    countries: [US]
+    notes: "Von Bloomberg Tradebook Europe Ltd und Bloomberg Philanthropies rechtlich getrennt; Medienfunktion Micklethwait."
+
+  - id: ORG-GB-BILDERBERG-CHARITY-272706
+    type: association
+    name: "The Bilderberg Association (Charity 272706, historisch)"
+    countries: [GB]
+    notes: "Britische Charity mit eigenen Konferenzkonten; Löschung 21.05.2021. Von UK Limited 12988319 und American Friends of Bilderberg juristisch zu unterscheiden."
+
+  - id: ORG-GB-BILDERBERG-UK-LTD-12988319
+    type: organization
+    name: "The Bilderberg Association UK Limited (12988319)"
+    countries: [GB]
+    notes: "Am 02.11.2020 gegründete company limited by guarantee; Persons with Significant Control: Sawers und Susan Jean Minton Beddoes mit je über 25 bis maximal 50 Prozent Stimmrechten sowie Befugnis zur Direktorbestellung/-abberufung. Keine automatische Rechtsnachfolge zur alten Charity belegt."
+
+  - id: ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148
+    type: organization
+    name: "Newbridge Advisory Limited (11853148)"
+    countries: [GB]
+    notes: "Seit 28.02.2019 registrierte Gesellschaft mit John Sawers als Director; 2022er Parlamentssponsor 'Newbridge Advisory' nennt keine Company Number."
+
+  - id: ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN
+    type: organization
+    name: "Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022)"
+    countries: [GB]
+    notes: "2022er Parlamentsregister nennt den Sponsor ohne Ltd und Firmennummer. Zuordnung zu Newbridge Advisory Limited stark indiziert, aber ohne Rechnung/Company Number nicht rechtsidentisch belegt."
+
+  - id: ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN
+    type: organization
+    name: "Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022)"
+    countries: [GB, US]
+    notes: "Nur als 2022er Sponsorenbezeichnung ohne Rechtsträgernummer identifiziert. Identität mit britischer Charity, UK Limited oder internationalem Veranstalter nicht belegt."
+
+  - id: ORG-GB-HERTFORDSHIRE-POLICE
+    type: government_agency
+    name: "Hertfordshire Constabulary"
+    countries: [GB]
+    notes: "Polizeiträger mit 2013/14 in einer Home-Office-FOI-Tabelle aufgeführtem Sonderzuschuss-Antrag zu Bilderberg/Operation Discuss."
+
+  - id: ORG-GB-HOME-OFFICE
+    type: government_agency
+    name: "UK Home Office"
+    countries: [GB]
+
+  - id: ORG-GB-THE-ECONOMIST
+    type: media_outlet
+    name: "The Economist"
+    countries: [GB]
+
+  - id: PER-GB-JOHN-SAWERS
+    type: person
+    name: "Sir John Sawers"
+    countries: [GB]
+    notes: "Ehemaliger MI6-Direktor 2009–2014, seit 2019 Newbridge-Advisory-Director und seit 2020 Bilderberg-UK-Limited-Director; Rollen nicht mit einem Geheimdienstauftrag gleichsetzen."
+
+  - id: PER-GB-SUSAN-JEAN-MINTON-BEDDOES
+    type: person
+    name: "Susan Jean Minton Beddoes (Zanny Minton Beddoes)"
+    countries: [GB]
+    notes: "Companies House nennt Susan Jean als Bilderberg-UK-Director; Veranstalter nennt Zanny als Economist-Chefredakteurin und Steering-Mitglied. Identitätszusammenführung stark gestützt, keine einheitliche Personenkennungsnummer."
+
+  - id: PER-GB-DAVID-LAMMY
+    type: person
+    name: "David Lammy"
+    countries: [GB]
+    notes: "Parlamentarische Bilderberg-Reise 2022; amtlich festgestellte verspätete Interessenregistrierung ohne nachgewiesenen Täuschungsvorsatz."
+
+  - id: ORG-GB-COMMONS-STANDARDS-COMMISSIONER
+    type: government_agency
+    name: "Parliamentary Commissioner for Standards (House of Commons)"
+    countries: [GB]
+    notes: "Prüfstelle der amtlichen 2022er Rectification zu David Lammys verspäteter Bilderberg-Reiseangabe; kein Strafgericht."

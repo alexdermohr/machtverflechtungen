@@ -24,6 +24,12 @@ Die Atlantik-Brücke äußert selbst politischen Gestaltungswillen: Im [Jahresbe
 
 Das [Bundestags-Lobbyregister R002357](https://www.lobbyregister.bundestag.de/suche/R002357) meldet für 2025 rund **2,24 Mio. Euro Mitgliedsbeiträge** und **100.001–110.000 Euro Bundesförderung**, dagegen **10.001–20.000 Euro Aufwendungen im Bereich der registrierten Interessenvertretung**. Dieser letzte Wert erfasst **nicht sämtliche Netzwerk-, Konferenz- oder Nachwuchsaktivitäten**. Der Registerstand nennt **keine konkreten Regelungsvorhaben**.
 
+**Direkt dokumentierte Verflechtungen:** Die [Bundeskanzleramtsakte zur EU-Bankenabgabe 2020](../research/atlantik-bruecke-bankmitglieder-gabriel-2020-2026.md) belegt eine persönliche Lobby-E-Mail Sigmar Gabriels zugunsten eines Deutsche-Bank-Vorschlags, eine **bedingte positive amtliche Bewertung** und die **spätere Nichtumsetzung**. Das Kanzleramt bezeichnet Gabriel dabei als **Deutsche-Bank-Aufsichtsrat, nicht als Beauftragten der Atlantik-Brücke**. Die amtlichen Firmenmitgliedschaften und 2025 vom Verein genannten ING-nahen Kassenprüfer werden separat nachgewiesen.
+
+**Steuerrechtlicher Vergleichsfall:** [Attacs Verfassungsbeschwerde zur Gemeinnützigkeit](../research/atlantik-bruecke-attac-gemeinnuetzigkeit-2014-2026.md) nennt die Atlantik-Brücke als Vergleichsverein. Eine öffentlich nachprüfbare **BMF-Einzelweisung vom 09.05.2017** veranlasste Hessen tatsächlich zur Beschwerde gegen ein Attac begünstigendes Finanzgerichtsurteil. **Weder aus dieser Weisung noch aus dem weiterhin gemeinnützigen Status der Atlantik-Brücke folgt ein belegter amtlicher Auftrag zur Bevorzugung der Atlantik-Brücke.**
+
+**Privater Geldgeber:** Für das transatlantische **New Bridge Program** ist neben staatlicher ERP-Förderung auch die **Joachim Herz Stiftung** als tatsächlicher Förderer auf den Webseiten beider Organisationen dokumentiert; die individuelle Auszahlungssumme ist nicht genannt. Die Arten der [Finanzierungsquellen und Programm-Unterstützungen](../research/atlantik-bruecke-agenda-finanzierer-2021-2026.md) werden getrennt ausgewiesen.
+
 **Vertiefende, beleggebundene Kritik:** [Atlantik-Brücke: demokratische Kontrolle, selektiver Zugang und dokumentierte Kritik 1952–2026](../research/atlantik-bruecke-demokratische-kontrolle-kritik-1952-2026.md). Dort werden die historischen Erkenntnisse Zetsches, der Austrittsbericht Claudia Roths, die Gegenposition Katrin Göring-Eckardts, das Bundestagspapier von 2021 und das BGH-Verfahren zur Medienkritik von 2017 getrennt ausgewertet.
 
 ## Young Leaders
@@ -32,9 +38,31 @@ Nach eigener Darstellung vernetzt das Young Leaders Program deutsche und amerika
 
 ## Laufende Evidenz-Audits
 
+- [Bankenmitgliedschaften, Gabriel–Merkel-Mail und behördliche Entscheidung 2020](../research/atlantik-bruecke-bankmitglieder-gabriel-2020-2026.md) – direkt geprüfte Kanzleramtsakten, Lobbykontakt und SRB-Gegenprobe.
+- [Attac, BMF-Einzelweisung 2017 und Gemeinnützigkeitsvergleich](../research/atlantik-bruecke-attac-gemeinnuetzigkeit-2014-2026.md) – Bundesweisung gegen Hessens Einschätzung belegt; steuerliche Bevorzugung der Atlantik-Brücke bleibt ungeklärt.
+- [Agenda-Vorprägung und Förderer 2021–2026](../research/atlantik-bruecke-agenda-finanzierer-2021-2026.md) – namentliche Unternehmenssponsoren, ERP-Förderungen und Joachim Herz Stiftung als private Programmförderin.
 - [Atlantik-Brücke und CFR: Finanzmittel und Einflusskanäle 1939–2026](../research/atlantik-bruecke-cfr-einflusskanaele-1939-2026.md) – Mitgliederfinanzierung, politische Personen- und Entscheidungskontakte, vertrauliche Militärgespräche und Grenzen von Gesetzgebungseinfluss.
 - [ACG/Atlantik-Brücke: Konferenz- und Finanznetz 2019](../research/acg-atlantik-bruecke-cfr-finanznetz-2019.md) – konkrete Förderer, staatliche Vertreter und Abgrenzung zu ungeprüften Zahlungswegen.
 - [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](../faelle/de/transatlantik-mediennetzwerk-2017-2026.md) – Veranstaltungsteilnahme, Mitgliedschaft, Gremienrolle, Alumni und Einfluss werden nicht gleichgesetzt.
+
+
+## Medien als Teilnehmer und öffentliche Kontrollinstanz
+
+Die [offizielle Vereinsvorstandsliste](https://www.atlantik-bruecke.org/vorstand/) nennt **Tina Hassel (ARD)** und **Cecilie Rohwedder (Wall Street Journal)** mit journalistischen Funktionen; ihre Organrollen und redaktionellen Aufgaben sind **unterschiedliche** Tatsachen. Der [Deutsche Presserat, Richtlinie 6.1](https://www.presserat.de/pressekodex.html) formuliert Maßstäbe für mögliche Interessenkonflikte bei der Berichterstattung in Print- und Onlinemedien; die [ARD-Grundsätze](https://www.ard.de/die-ard/aufgaben-der-ard/gemeinsame-journalistische-grundsaetze-der-ard-100.html) verpflichten die ARD nach eigener Veröffentlichung zu unabhängiger Recherche und Transparenz. Deshalb sollte im einzelnen Beitrag geprüft werden, ob **Eigenbeteiligung, redaktionelle Zuständigkeit und etwaige Offenlegung** zusammenfallen. Dies ist in der [neuen Medienakte](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md) ausführlicher dokumentiert.
+
+## Neuer Primärquellen-Audit: demokratische Rechenschaft und Medienrollen (29. Oktober 2026)
+
+Die [Bundesregierung bestätigte am 31.08.2026](https://www.bundestag.de/presse/hib/kurzmeldungen-1209376) zur Drucksache 21/7744, dass keine vollständige Pflicht zur Dokumentation sämtlicher Lobbykontakte besteht und keine generelle Offenlegung aller entsprechenden Treffen eingeführt werden soll. Der [EU-Rechtsstaatlichkeitsbericht 2026, Deutschland](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:52026SC0905) problematisiert zudem den unvollständigen exekutiven und parlamentarischen Fußabdruck. Die **gesetzlich zulässige Lücke bei der Erfassung** ist ein eigenständig belegter Kontrollbefund; weder beweist sie ein bestimmtes verborgenes Treffen noch eine korrupte Entscheidung.
+
+Die neu erstellten Studien überprüfen **unterschiedliche Glieder der Entscheidungskette**, nicht bloß weitere Mitgliedschaften:
+
+- [Atlantik-Brücke: demokratische Rechenschaft und nachweisbare Dokumentationsgrenzen](../research/atlantik-bruecke-demokratische-rechenschaft-2026.md) – strukturierter Vergleich von Vorhaben, Kontakt, Finanzierung und Entscheidung.
+- [Medienrollen und konkrete Voraussetzungen journalistischer Interessenkonflikte](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md) – Vorstandsfunktionen und Presseethik 2025, ohne aus Überschneidungen eine redaktionelle Weisung abzuleiten.
+- [Bilderberg: originale Vertraulichkeitsregeln 1974 und Rockefeller-Quellenprüfung](../research/bilderberg-medien-diskretion-originalakten-1954-2026.md) – Originalscan mit Ausschluss der Presse von den Sitzungen, aber ausdrücklicher Pressefreigabe einer Teilnehmerliste.
+- [Vergleich der beiden Organisationstypen und ihrer Einflusskapazität](../research/atlantik-bruecke-bilderberg-vergleich-2026.md) – Stufen der Agenda-Vorprägung und mögliche unabhängige Gegenprüfungen.
+- [Lobbyregister, Kontaktprotokolle und exekutiver Fußabdruck 2026](../research/lobbykontakte-exekutiver-fussabdruck-transparenz-2026.md) – amtliche Erfassungsgrenzen und konkrete zu beschaffende Akten.
+
+Die bereits publizierten Einzelfallstudien zur [Gabriel-/Deutsche-Bank-Intervention 2020](../research/atlantik-bruecke-bankmitglieder-gabriel-2020-2026.md) und zum [BMF-/Attac-Verfahren 2017](../research/atlantik-bruecke-attac-gemeinnuetzigkeit-2014-2026.md) bleiben davon getrennt. Für einen direkten Übernahmepfad von einer Atlantik-Brücke-Veranstaltung zu einer einzelnen Regierungsentscheidung sind gesonderte Anschlussakten erforderlich.
 
 ## Forschungsfragen
 

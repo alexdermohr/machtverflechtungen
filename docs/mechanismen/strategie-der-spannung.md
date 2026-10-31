@@ -20,3 +20,7 @@
 Politischer Nutzen nach einem Anschlag ist für sich kein Nachweis der Urheberschaft des Nutznießers. Die Prüfung verfolgt deshalb nacheinander politische Verwertung, konkrete Kontakte, Vorwissen, materielle Unterstützung und operative Entscheidungen.
 
 Umgekehrt ist dokumentierte staatliche Täuschung nicht als bloßes „Behördenversagen“ zu beschreiben. Das [Celler Loch](../faelle/de/celler-loch.md) ist dafür ein deutscher Referenzfall.
+
+## Originalquellen und vergleichende Forschung
+
+Die [neue Primärquellenstudie zu Brescia, Bologna, Gladio und der deutschen Stay-behind-Organisation](../research/strategie-der-spannung-brescia-bologna-gladio-1969-2026.md) untersucht gerichtlich festgestellte Täterrollen, Geldflüsse, Informantenbeziehungen, amtlich dokumentierte Geheimnetze und die Grenzen ihrer kausalen Verknüpfung. Sie enthält konkrete Fundstellen, alternative Erklärungen und falsifizierbare Hypothesen. Die bestehende [Piazza-Fontana-Studie](../research/piazza-fontana-sid-depistaggi-1969-2005.md) vertieft den dokumentierten SID-Quellenschutz und die Ermittlungsbehinderung.
