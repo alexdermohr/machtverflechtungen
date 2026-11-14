@@ -1,0 +1,111 @@
+# Manuel Schadwald, Zandvoort und die Yacht „Apollo“: Aktenlage und offene Beweisketten (1993–2026)
+
+**Forschungsstand: 14. November 2026.** Ausgangspunkt ist eine viral verbreitete Erzählung, nach der der seit 1993 vermisste Berliner Schüler Manuel Schadwald auf der niederländischen Yacht „Apollo“ getötet, die Tat gefilmt und wegen prominenter Beteiligter vertuscht worden sei. Die Untersuchung trennt nachgewiesene Ereignisse, beobachtete Ermittlungsprobleme, Aussagen von Informanten, amtliche Gegenbefunde und offene Originalaktenfragen. Es werden **keine Missbrauchsabbildungen** reproduziert oder verlinkt.
+
+## Kurzbefund
+
+**Gesichert ist Manuels Verschwinden am 24. Juli 1993.** Die Berliner Polizei dokumentiert Hinweise auf eine mögliche Verbindung zu sexualisierter Ausbeutung von Kindern in den Niederlanden oder Belgien, betont aber ausdrücklich, dass sie diese nicht verifizieren konnte [Q1]. Der niederländische Fall Zandvoort war ebenfalls real: Nach dem Tod Gerrit Ulrichs 1998 wurden Dateien aus seinem Umfeld untersucht; Staatsanwalt und Polizei berichteten 1999 von einer Sammlung mit rund **60.000 Bildern**, darunter **710 als kinderpornografisch eingestuften Darstellungen**, und von **31 überprüften Abnehmern** [Q3, Q4].
+
+**Die behauptete Ermordung Manuels auf der Yacht, eine Tatfilmaufnahme und eine Vertuschung durch hochrangige Beteiligte bleiben unbewiesen.** Die *Welt am Sonntag* und das *Algemeen Dagblad* veröffentlichten 2015 neue Zeugenaussagen und beriefen sich auf Informanten mit angeblichem Zugang zu niederländischen Geheimdienstinformationen [Q6, Q7]. Ein authentifizierter Geheimdienstvermerk, ein als Manuel identifizierter Film, ein Tatortbefund oder eine verifizierbare forensische Beweiskette sind in den hier zugänglichen Quellen nicht enthalten.
+
+**Besonders wichtig: Ein 1999 öffentlich berichteter Ermittlungsbefund widerspricht zentralen Teilen der Erzählung.** Nach Angaben der niederländischen Justiz erwies sich ein angeblich als Manuel identifizierter Junge als ein anderer; Beweise für Missbrauch auf dem Schiff „Apollo“ wurden nicht gefunden [Q4]. Diese negative Ermittlungsauskunft beweist nicht die Unmöglichkeit der Yacht-These, muss aber in jeder redlichen Rekonstruktion berücksichtigt werden.
+
+**Eigenständiger Verdachtskomplex:** Die 1998 und 2000 berichteten Unregelmäßigkeiten und offenen Fragen zur Behandlung von Hinweisen durch niederländische Ermittler sowie dokumentierte Drohungen gegen Gina Pardaens verdienen Untersuchung, ohne dass damit der behauptete Mordkomplex bewiesen wäre [Q2, Q5, Q8].
+
+## Chronologie und Einordnung
+
+| Datum | Nachvollziehbarer Befund | Beweisgrenze |
+| --- | --- | --- |
+| **24.07.1993** | Manuel Schadwald (12) verlässt seine Wohnung in Berlin-Tempelhof auf dem Weg zum FEZ Wuhlheide und verschwindet [Q1]. | Keine gesicherte Rekonstruktion seines weiteren Wegs. |
+| **1993–1994** | Das spätere Archiv der niederländischen Sendung *Netwerk* schildert Hinweise an Rotterdamer Polizeistellen und die Arbeit eines HIK-Teams gegen organisierte Ausbeutung Minderjähriger [Q2]. | Die Archivbeschreibung fasst Aussagen einer TV-Recherche zusammen; originale Observationsprotokolle wurden hier nicht eingesehen. |
+| **20./21.04.1998** | *Netwerk* thematisiert den Vorwurf, Rotterdamer Observanten hätten Manuel bei Lothar G. gesehen und nicht eingeschritten. Der Polizeisprecher bestreitet, dass die Identifizierung sicher war; ein deutscher Polizeisprecher beanstandet fehlende Rückmeldung [Q2]. | Widerspruch zwischen dargestellten Zeugen-/Polizeidokumenten und späterer Behördeneinordnung; **keine nachgewiesene sichere Sichtung**. |
+| **Juni/Juli 1998** | Nach dem Tod Gerrit Ulrichs in Italien werden in Zandvoort Datenträger untersucht; ein internationaler Ermittlungszusammenhang wird öffentlich erörtert [Q3, Q10]. | Ermittlung und Fund sind nicht gleichbedeutend mit der behaupteten Identifizierung Manuels. |
+| **November 1998** | Gina Pardaens-Bernaer kommt bei einem Autounfall in Belgien ums Leben. Später referiert ANP eine polizeilich dokumentierte vorausgegangene Morddrohung [Q8, Q9]. | Die genaue Unfallnacht wird in Sekundärdarstellungen abweichend datiert; Unfallfolgen und Drohungen belegen **keinen Mord**. |
+| **26./27.04.1999** | Haarlem berichtet nach umfangreicher Untersuchung von 710 einschlägigen Bildern aus Ulrichs Bestand, 184 Zeugen, 31 kontrollierten Abnehmern, einem *Look-alike* Manuels und fehlendem Nachweis für Missbrauch auf der Yacht [Q4]. | Amtliche Bilanz, journalistisch übermittelt; Original-Ermittlungsbericht fehlt hier. |
+| **17.04.2000** | ANP-Bericht über den Abschluss der Untersuchung zu Gina Pardaens' Tod; darin wird ein Polizeiprotokoll über Drohungen vom November 1998 ausdrücklich erwähnt [Q8]. | Offene Fragen bleiben; Behauptungen, es habe **überhaupt keine** Untersuchung gegeben, sind damit nicht haltbar. |
+| **24.07.2003** | Die *taz* berichtet unter Berufung auf Polizeivertreter, der Fall liege inzwischen bei der Mordkommission. Behörden schildern zahlreiche überprüfte, nicht bestätigte Hinweise [Q5]. | „1998 eingestellt“ darf nicht als Beleg ausgegeben werden, dass danach nie mehr ermittelt wurde. |
+| **11./12.07.2015** | *Welt am Sonntag* und *Algemeen Dagblad* veröffentlichen Zeugenaussagen zur Yacht und angeblichen Geheimdienstkenntnissen [Q6, Q7]. | Die entscheidenden Originalakten und der behauptete Film werden nicht öffentlich vorgelegt oder unabhängig authentifiziert. |
+
+## Claim-Matrix
+
+**Bewertung:** **A** = amtliche/archivische Primärmitteilung für *genau den betreffenden Sachverhalt*; **B** = gut identifizierbare zeitnahe Presse mit konkreter Behördenerklärung oder direkter Befragung; **C** = journalistisch vermittelte oder nicht unabhängig bestätigte Aussage; **D** = Behauptung ohne hier ermittelten tragfähigen Nachweis. A für das Verschwinden ist **nicht** A für eine Entführung oder Ermordung.
+
+| Behauptung aus der Erzählung | Status | Beleg und Gegenprüfung |
+| --- | --- | --- |
+| Manuel verschwand am 24.07.1993 in Berlin. | **A – belegt** | Polizeiseite [Q1]. |
+| Seine Spur führte nach Rotterdam/Amsterdam und in ein Missbrauchsmilieu. | **B/C – untersuchte Hinweise; Aufenthalt nicht bewiesen** | Archivierte TV-Recherche dokumentiert ernsthafte Vorwürfe gegen die Behandlung einer möglichen Sichtung [Q2]; Polizei Berlin und Ermittler widersprachen der gesicherten Identifizierung [Q1, Q5]. |
+| Zandvoort 1998: Sammlung einschlägiger Missbrauchsdarstellungen und Ermittlungen gegen Abnehmer. | **B – stark gestützt** | Zeitgenössische NRC-Berichte mit Angaben der Ermittler und Staatsanwaltschaft [Q3, Q4]. 60.000 Bilder sind **nicht** gleich 60.000 polizeilich als Kinderpornografie identifizierte Bilder. |
+| Manuel tauchte auf den Zandvoort-Datenträgern zweifelsfrei auf. | **Widersprochen** | Niederländische Ermittler berichteten 1999 von einem anderen, ähnlich aussehenden Jungen [Q4]; Berliner Polizei schilderte 2003 nicht passende oder zeitlich ältere Aufnahmen [Q5]. |
+| Das Segelschiff „Apollo“ ist als mit Ulrichs Umfeld verbundenes Schiff benannt. | **B – historisch berichtete Zuordnung** | NRC 1999 nennt das Schiff und dessen Zuordnung zu Leo van Gasselt; 2015 berichtete die *Welt* über Schiffspapiere [Q4, Q6]. Die Papiere selbst liegen hier nicht vor. |
+| Manuel wurde an Bord dieses Schiffes getötet, seine Leiche versenkt. | **C – schwerwiegender, ungeklärter Verdacht** | 2015 Interviewaussage eines als Geheimdienstmitarbeiter beschriebenen Informanten [Q6]; kein zugänglicher Originalvermerk, kein forensischer Nachweis. Bereits 1999 hatte die Justiz keine Belege für Missbrauch auf dem Schiff gemeldet [Q4]. |
+| Ein authentifizierter Film zeigt Manuels Tod und befand sich auf Zandvoort-CD-ROMs. | **D – nicht nachgewiesen** | 2015 werden behauptete Filmaufnahmen und eine von Pardaens behauptete Videokopie beschrieben; deren Verbleib und Authentizität sind ungeklärt [Q6]. Die Identifizierung Manuels auf sichergestellten Bildern wurde 1999 gerade nicht bestätigt [Q4]. |
+| Die Yacht wurde zur Spurenbeseitigung in einem Marinehafen gereinigt. | **C – unbestätigte Zeugendarstellung** | 2015 nur konditional anhand der Informanten geschildert [Q6]. Keine Schiffs-, Hafen- oder Reinigungsakte liegt vor. |
+| Die Vertuschung sei wegen anwesender hochrangiger Personen beschlossen worden. | **C/D – unbewiesene Verdeckungsbehauptung** | Zugeschriebene Informanten- und Aktenkenntnis von 2015 [Q6, Q7]. Keine unabhängige Akte, Weisung, Teilnehmerliste oder verifizierte Aussage eines unmittelbaren Tatzeugen. |
+| Gina Pardaens erhielt Drohungen und starb 1998 bei einem Autounfall. | **B – gut dokumentiert** | ANP referiert 2000 ein ihm vorliegendes Gendarmerie-Protokoll über eine konkret angedrohte Verkehrsunfall- oder Schussgewalt [Q8]; *De Morgen*-Text in sekundärem Archivabdruck beschreibt ihre Sorgen und den Unfall [Q9]. |
+| Gina Pardaens wurde nachweislich ermordet, und die Polizei untersuchte den Tod nicht. | **Nicht belegt; zweite Teilbehauptung widersprochen** | ANP berichtet ausdrücklich über ein untersuchtes, nicht aufgeklärtes Geschehen, dessen Verfahren nach Auskunft der Staatsanwaltschaft bei neuen Beweisen wieder aufgenommen werden könnte [Q8]. |
+| Gina verschickte eine bestätigte Aufnahme von Manuels Tod an Interpol. | **D – diese konkrete Behauptung unbelegt** | Berichtet ist stattdessen eine Sendung an ein schweizerisches Kinderrechtskomitee. Nach dessen Angaben kam eine CD-ROM an, nicht aber ein angekündigtes Video; das beschriebene Video betraf angeblich ein **Mädchen**, nicht nachweislich Manuel [Q8]. |
+| Der Fall ist als Tatkomplex direkt mit Marc Dutroux verbunden. | **C/D – Ermittlungshypothese, nicht nachgewiesene Fallrelation** | Gemeinsamkeiten und mutmaßliche Kontakte werden 2015 journalistisch erörtert [Q6]. Daraus folgt keine belegte gleiche Tätergruppe, Finanzierung oder Steuerung. |
+| Die Behörden haben die Verbindungen niemals untersucht. | **Widersprochen in dieser Pauschalität** | Ermittlungen und Zeugenbefragungen sind dokumentiert [Q2–Q5]. **Ob spezifische Hinweise unzureichend geprüft wurden**, ist eine davon getrennte Frage. |
+
+### Besonderheit: „Apollo“ bezeichnete auch eine elektronische Plattform
+
+NRC berichtete bereits am **17. Juli 1998** über Ulrichs elektronisches *Bulletin Board System* namens **Apollo**, über das Dateien verbreitet wurden [Q3]. 1999 nennt NRC außerdem ein Segelschiff gleichen Namens aus dem Umfeld Ulrichs [Q4]. Die Gleichheit des Namens darf **nicht** dazu führen, Dateifunde von der elektronischen Plattform ohne eigene Beweiskette als Bordaufnahmen des Schiffes zu klassifizieren.
+
+### Hinweise auf mögliche Ermittlungsversäumnisse: eigenständige Prüfspur
+
+Das niederländische Rundfunkarchiv datiert eine *Netwerk*-Sendung zum Schadwald-Komplex auf **21. April 1998**. In der ausführlichen Inhaltserschließung wird beschrieben, es gebe schriftliche Polizeiaussagen, die für eine Sichtung Manuels im Umfeld von Lothar G. sprächen, während ein Rotterdamer Sprecher die Identifizierung relativiere. Außerdem nennt die Beschreibung angeblich vernichtete HIK-Polizeijournale und eine Forderung der Justizministerin Sorgdrager nach Untersuchung des Vorgehens [Q2]. Hier liegt **eine nachweisbar zeitgenössisch öffentlich erhobene, konkret prüfbare Behördenkritik** vor. Ob die verlorenen Journale existierten, welchen Inhalt sie hatten und ob eine bewusste Nichtintervention stattfand, lässt sich nur anhand der ursprünglichen Ermittlungs- und Aufsichtsakten entscheiden.
+
+Die Rotterdamer Ermittlungsspur ist **nicht** mit dem späteren Zandvoort-Fund gleichzusetzen: Das HIK-Thema behandelt vor allem Ermittlungen im Rotterdamer Milieu Mitte der 1990er-Jahre, während die Zandvoort-Datenträger 1998 untersucht wurden. Gemeinsame Namen oder gegenseitige Verweise sind nachzuweisen, nicht vorauszusetzen.
+
+### Gina Pardaens-Bernaer: Drohungen belegt, Tötungshypothese offen
+
+Ein Bericht vom **17. April 2000**, der sich auf Informationen der belgischen Staatsanwaltschaft und einen der Nachrichtenagentur **ANP** vorliegenden Gendarmeriebericht bezieht, dokumentiert eine bereits vor dem Unfall gemeldete Drohung. Eine Person hatte Pardaens demnach einen Verkehrsunfall oder Schusswaffengewalt angedroht [Q8]. Ein rückblickender Abdruck eines *De Morgen*-Artikels vom **1. Dezember 1998** berichtet von zuvor gestellten Anzeigen, Sorgen über Überwachung, der Gefährdung ihres Sohnes sowie einem Einbruch beim Anwalt [Q9]. Diese zeitnahe Evidenz rechtfertigt sorgfältige Nachprüfung des Unfallgeschehens und der Ermittlungsqualität.
+
+Die Behauptung einer tatsächlich durchgeführten Tötung ist damit jedoch nicht bewiesen. Ein fehlender Bremsweg allein liefert keinen Beleg für manipulierte Bremsen; dafür wären technische Untersuchung, Tatortbefund und Originalakten erforderlich. Das häufig verbreitete Zitat über eine drohende „Explosion Belgiens“ ist in den hier gefundenen Quellen vor allem durch Beteiligte der Werkgroep Morkhoven vermittelt, nicht unabhängig durch eine Tonaufnahme oder ein gesichertes Protokoll [Q9].
+
+**Nicht verwechseln:** Die 2015 von Journalisten wiedergegebene Äußerung Pardaens', sie habe ein Video mit Manuel, ist eine Aussage **über behaupteten Besitz**, keine Identifizierung eines geprüften Filminhalts [Q6]. Das 2000 beschriebene angeblich fehlende Video einer Sendung in die Schweiz wurde dagegen als Gewaltdarstellung mit einem weiblichen Opfer beschrieben [Q8]. Es gibt hier keine gesicherte Provenienz, die diese Erzählungen zu ein und demselben Beweisstück macht.
+
+## Bewertung der Vertuschungsthese
+
+Drei prüfbare Hypothesen bleiben getrennt:
+
+1. **Ermittlungsversäumnisse:** Hinweise wurden wegen Fehlern, unzureichender grenzüberschreitender Kooperation, falsch bewerteter Sichtungen oder ungeeigneter Verfahren nicht konsequent verfolgt. Dafür existieren zeitgenössische Vorwürfe und Hinweise auf institutionelle Defizite [Q2, Q5]. Umfang und Ursache sind anhand der Akten zu rekonstruieren.
+2. **Bewusste Nichtintervention oder Abschirmung einzelner Täter:** Diese Möglichkeit ist angesichts der 1998 erhobenen Vorwürfe ein legitimer Prüfgegenstand. Sie erfordert beweisbare Weisungen, Observationsentscheidungen, dokumentierte Unterlassungen oder identifizierte Interessenkonflikte. Das TV-Archiv allein belegt die **Berichterstattung über den Vorwurf**, nicht dessen endgültige Richtigkeit.
+3. **Koordinierte hochrangige Vertuschung eines Mordes auf der Yacht:** Hier sind die entscheidenden Glieder – Identifikation Manuels, Todesnachweis, Original-Geheimdienstvermerk, Teilnehmer, Tatfilm und Vertuschungsentscheidung – bislang nicht öffentlich belastbar dokumentiert [Q4, Q6]. Deshalb **spekulativ** trotz erheblicher Bedeutung des Verdachts.
+
+Die 1999 berichtete Einordnung der Zandvoort-Ermittler als überwiegend individuelle Distribution ist kein Beweis, dass es europaweit **nirgends** organisierte Tätergruppen gegeben habe. Umgekehrt beweist die Existenz einer weit verbreiteten Sammlung keine zentrale Organisation, keine konkrete Verbindung zu Dutroux und keinen Mord an Manuel.
+
+## Priorisierte Originalakten und Falsifikationskriterien
+
+| Prüfobjekt | Konkreter Rechercheweg | Mögliche entscheidende Gegenprobe |
+| --- | --- | --- |
+| **Rotterdam/HIK 1993–1998** | Vollständige Observationsprotokolle, dienstliche Vermerke zu Lothar G., HIK-Abschlussbericht, Lösch-/Vernichtungsvermerke, niederländische ministerielle Überprüfung nach *Netwerk* [Q2]. | Zeitnahes eindeutiges Identifizierungsprotokoll mit Datum, Foto-/Merkmalsabgleich und dokumentierter Reaktion **oder** Nachweis einer Verwechslung. |
+| **Zandvoort 1998/99** | Abschlussbericht der Staatsanwaltschaft Haarlem, Bilderabgleich, Fallakte zu 184 Zeugenaussagen, Dokumentation zu 710 Bildern und Herkunft der Morkhoven-Datenträger [Q4]. | Authentische Identifikationsunterlagen zur angeblichen Manuel-Abbildung gegenüber dem als Look-alike identifizierten Jungen. |
+| **Yacht „Apollo“** | Schiffseinträge, Eigentums- und Charterunterlagen, Hafenlogbücher, konkrete belegbare Bordbesatzung und überprüfbare Tatzeitangaben [Q4, Q6]. | Belastbarer Zeit-/Ort-Abgleich und unabhängiger Tatortbeleg; oder klarer Nachweis, dass das betreffende Schiff zur behaupteten Zeit anderswo war. |
+| **Geheimdienstvermerk** | Originaldokument/Registraturnummer, Datierung, Herkunft, Klassifizierung und Freigabe- oder Auskunftsweg bei BVD/AIVD [Q6, Q7]. | Verifizierte Akte mit primärer Erkenntnisquelle; oder Nachweis der falschen Zuschreibung an einen Dienst. |
+| **Angeblicher Tatfilm** | Nur legale polizeiliche Archivprüfung von Asservatennummer, Datierung, forensischer Originaldatei-Provenienz und Identifizierung; keine Suche/Weitergabe von Missbrauchsdarstellungen. | Behördlich nachvollziehbare Identifikation oder widerlegte Zuordnung; Behauptungen ohne Originalkette bleiben unbestätigt. |
+| **Tod Gina Pardaens** | Belgische Unfall- und Obduktionsakte, Drohungsanzeige vom November 1998, Gendarmerievermerk vom 17.11.1998, technische Fahrzeuganalyse und Verfahrensabschluss [Q8, Q9]. | Rekonstruierbarer Unfallablauf und Ermittlung der Drohungsurheber; bloße Koinzidenz ist nicht ausreichend. |
+| **Schweizer Sendung** | Eingangsbelege des Komitees, Schreiben an die Schweizer Polizei vom 19.11.1998, Inventar und zuständige Asservatenregistratur [Q8]. | Bestätigung, welche Medien tatsächlich eingingen und ob Material zu Manuel jemals vorhanden war. |
+| **Verbindung zu Dutroux** | Aktenbezogene Abgleiche: identifizierbare Personen, konkrete Kontakte, gemeinsame Finanz-/Kommunikationswege oder direkte Aussagen zu denselben Taten. | Eine belegte Fallrelation statt thematischer Ähnlichkeit oder gegenseitig zirkulierender Gerüchte. |
+
+## Quellenapparat
+
+- **[Q1] A – Berliner Polizei:** „Manuel Schadwald verschwand 1993“, öffentliche Vermisstenmeldung: https://www.berlin.de/polizei/polizeimeldungen/pressemitteilung.82998.php — Primärquelle für Verschwinden und behördliche Aussagegrenze, **nicht** für das behauptete Verbrechen.
+- **[Q2] A für Sendeexistenz / B für die dort zusammengefassten Vorwürfe – Nederlands Instituut voor Beeld & Geluid:** Archivbeschreibung von *Netwerk*, 21.04.1998: https://schatkamer.beeldengeluid.nl/serie/2101608030021618031/netwerk/aflevering/2101608040032528331 — Inhalt einer historischen TV-Recherche, **kein** Originalpolizeiprotokoll.
+- **[Q3] B – NRC Handelsblad, 17.07.1998:** „Zandvoort spil in web kinderporno“: https://retro.nrc.nl/W2/Lab/Kinderporno/170798.html — unmittelbare Berichterstattung über Funde, Ermittlungsreaktion und Apollo-Bulletin-Board.
+- **[Q4] B mit Behördenangaben – NRC Handelsblad, 27.04.1999:** „Kinderporno in Zandvoort was eenmansactie“: https://retro.nrc.nl/W2/Lab/Kinderporno/990427.html — berichtete vorläufige Staatsanwaltschaftsbilanz, Zahlen, Look-alike, fehlende Bootsbeweise; **keine vollständige Original-Ermittlungsakte**.
+- **[Q5] B – taz, 24.07.2003:** Kirsten Küppers, „Verzweifelt gesucht: Manuel“: https://taz.de/Verzweifelt-gesucht-Manuel/!737037/ — Interviews mit Berliner Ermittlern; Darstellung überprüfter Hinweise und Mordkommission.
+- **[Q6] B für durchgeführte Interviews / C für ihren nicht unabhängig bestätigten Inhalt – Welt am Sonntag, 12.07.2015:** Dirk Banse/Michael Behrendt, „Auf den Spuren der verlorenen Kinder“: https://www.welt.de/vermischtes/article143879658/Wurde-Manuel-Schadwald-von-moeglichem-Dutroux-Netzwerk-verschleppt.html — Yacht- und Filmbehauptungen, Gina-Pardaens-Interview, angebliche Geheimdienstinformation.
+- **[Q7] B/C – Welt am Sonntag, 11./12.07.2015:** „Neue Spur im Fall Manuel Schadwald“: https://www.welt.de/vermischtes/article143841397/Vermisster-Junge-Neue-Spur-im-Fall-Manuel-Schadwald.html — Kurzfassung derselben Recherche; **keine unabhängige zweite Bestätigung**.
+- **[Q8] B mit Bezug auf behördliche Auskunft und eingesehenes Protokoll – Reformatorisch Dagblad/ANP, 17.04.2000:** „Dood journaliste blijft met raadselen omgeven“: https://www.rd.nl/oud/bui/000417bui04.html — Drohungen, Unfallermittlung, Schweizer Sendung. Angaben über Filme stammen teilweise von Dritten; sie sind **keine Sichtung der Filme**.
+- **[Q9] C für Edition / B für als solches referiertes Zeitzeugnis – *De Morgen*, 01.12.1998, im Morkhoven-Archiv erneut veröffentlicht:** https://morkhovenarchives.wordpress.com/2013/04/30/gina-bernard-ontving-doodsbedreigingen-en-werd-vermoord/ — der Abdruck ist **nicht mit dem Originalzeitungsarchiv abgeglichen**; Wortlaut und Datierung entsprechend vorsichtig behandeln.
+- **[Q10] B – taz/dpa/reuters, 22.07.1998:** „Beweismaterial im Kinderporno-Skandal ausgehändigt“: https://taz.de/Beweismaterial-im-Kinderporno-Skandal-ausgehaendigt/!1333894/ — zeitnahe Übergabe und Ursprung der öffentlichen Ermittlungen.
+- **[Q11] B – taz, 23.04.1998:** „Ermittlungsfehler der Staatsanwaltschaft?“: https://taz.de/Ermittlungsfehler-der-Staatsanwaltschaft/!1348080/ — niederländische Staatsanwaltschaft dementierte damals wesentliche Sichtungs-/Fahndungsvorwürfe.
+
+## Forschungsentscheidung
+
+**Nicht als Fakt übernehmen:** Manuel wurde auf der Yacht ermordet; sein Tod sei auf den Zandvoort-CD-ROMs festgehalten; eine konkrete hochrangige Tätergruppe habe eine dokumentierte Vertuschung angeordnet.
+
+**Als überprüfbares Forschungsproblem übernehmen:** verschwundener Junge; zeitgenössisch erhobene konkrete Vorwürfe zur grenzüberschreitenden Polizeiarbeit; Zandvoort-Funde samt negativem Identifikationsbefund; 2015 erneut erhobene Yacht-/Geheimdienstbehauptung; dokumentierte Todesdrohungen im Fall Gina Pardaens. Die dokumentarisch vorrangigen nächsten Schritte sind die HIK-Akten und der niederländische Abschlussbericht sowie die belgischen Unfall-/Drohungsakten. Die Abwesenheit frei verfügbarer Originalakten ist **keine** Feststellung, dass diese Akten nicht existieren.
+
+**Zeitpräzisierung:** Am 14. November 2026 liegt Manuels Verschwinden **33 Jahre** zurück; die im Umlauf befindliche Formulierung „32 Jahre“ bezieht sich auf einen älteren Stand.
