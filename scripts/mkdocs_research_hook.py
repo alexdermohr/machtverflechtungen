@@ -15,6 +15,32 @@ from mkdocs.structure.files import File, Files, InclusionLevel
 ROOT = Path(__file__).resolve().parents[1]
 GITHUB_ROOT = "https://github.com/alexdermohr/machtverflechtungen/"
 
+# Curated *prefix* groups, not a second catalogue of research files: new studies
+# automatically appear here or in "Weitere Studien". Individual source URLs stay stable.
+STUDY_GROUPS = (
+    ("Nachrichtendienste & verdeckte Operationen", "nachrichtendienste",
+     ("cia-", "bnd-", "bdj-", "kgu-", "gehlen-", "organisation-gehlen-",
+      "psb-", "suchasnist-", "weltforum-", "wirsing-", "searle-",
+      "friedrich-wilhelm-", "aktion-blitz-", "ewk-bpa-")),
+    ("Politische Gewalt & Ermittlungen", "gewalt-und-ermittlungen",
+     ("strategie-der-spannung-", "piazza-fontana-", "peteano-",
+      "raf-", "npd-", "nsu-", "bfv-", "corelli-", "piatto-",
+      "brandenburg-", "berlin-lka-", "britische-neonazinetzwerke-",
+      "ewk-kkk-", "aginter-")),
+    ("Wirtschaft, Finanzen & öffentliche Mittel", "finanzen",
+     ("p2-", "bologna-", "bpa-", "adk-", "erp-", "insm-",
+      "verkehrsaufklaerung-")),
+    ("Transatlantische & internationale Netzwerke", "internationale-netzwerke",
+     ("acg-", "atlantik-bruecke-", "bilderberg-", "wef-", "msc-",
+      "aspen-", "ecfr-", "dgap-", "lobbykontakte-",
+      "anne-zetsche-")),
+    ("Quellenkritik & historische Einordnung", "quellenkritik",
+     ("rockefeller-", "monica-crowley-", "epstein-", "cromwell-",
+      "okkultismus-", "wilhelm-classen-")),
+)
+OTHER_STUDIES = ("Weitere Studien", "weitere-studien")
+
+
 
 @dataclass(frozen=True)
 class ResearchSource:
@@ -76,6 +102,14 @@ def study_title(source: ResearchSource) -> str:
     raise ValueError(f"Research study is missing a title: {source.name}")
 
 
+def study_group(name: str) -> str:
+    """Return a durable topic anchor, with a discoverable fallback for new files."""
+    for _label, anchor, prefixes in STUDY_GROUPS:
+        if name.startswith(prefixes):
+            return anchor
+    return OTHER_STUDIES[1]
+
+
 def on_files(files: Files, config, **kwargs) -> Files:
     """Register the committed studies and their dynamically generated index."""
     sources = research_sources()
@@ -94,13 +128,26 @@ def on_files(files: Files, config, **kwargs) -> Files:
         "",
         f"**{len(sources)} versionierte Studien** aus dem Forschungsordner dieses Site-Builds.",
         "",
-        f"**Git-Revision:** `{sources[0].revision}`",
+        "Die Studien sind nach Themen erschlossen; innerhalb eines Themas alphabetisch "
+        "nach Titel sortiert. Der vollständige Volltext und die Originaldatei "
+        "sind direkt verlinkt. Nicht integrierte Pull Requests erscheinen nicht.",
         "",
-        "Jeder Volltext enthält datierte Originalquellen, Beweisgrenzen und offene "
-        "Forschungsfragen. Nicht integrierte Pull Requests erscheinen hier nicht. "
-        "Die GitHub-Originaldateien bleiben die maßgebliche Fassung.",
+        "## Themenübersicht",
         "",
     ]
+    by_group: dict[str, list[ResearchSource]] = {}
+    for source in sources:
+        by_group.setdefault(study_group(source.name), []).append(source)
+    groups = [
+        (label, anchor)
+        for label, anchor, _prefixes in STUDY_GROUPS
+        if by_group.get(anchor)
+    ]
+    if by_group.get(OTHER_STUDIES[1]):
+        groups.append(OTHER_STUDIES)
+    for label, anchor in groups:
+        lines.append(f"- [{label}](#{anchor}) ({len(by_group[anchor])})")
+    lines += ["", f"**Git-Revision:** `{sources[0].revision}`", ""]
     for source in sources:
         src_uri = f"research/{source.name}"
         # Content comes from the Git object database; abs_src_path would instead
@@ -111,11 +158,27 @@ def on_files(files: Files, config, **kwargs) -> Files:
         # A pinned blob URL resolves to the exact Markdown used for this build.
         study.edit_uri = f"blob/{source.revision}/research/{escaped_name}"
         files.append(study)
-        lines.append(
-            f"- [{study_title(source)}]({escaped_name})"
-            f" · [Originaldatei auf GitHub]({GITHUB_ROOT}{study.edit_uri})"
-        )
 
+    for label, anchor in groups:
+        lines += [f"## {label} {{ #{anchor} }}", ""]
+        for source in sorted(by_group[anchor], key=lambda item: study_title(item).casefold()):
+            escaped_name = quote(source.name, safe="-._~")
+            original_url = f"{GITHUB_ROOT}blob/{source.revision}/research/{escaped_name}"
+            lines.append(
+                f"- [{study_title(source)}]({escaped_name})"
+                f" · [Originaldatei auf GitHub]({original_url})"
+            )
+        lines.append("")
+
+    lines += [
+        "## Weitere Recherchewege",
+        "",
+        "- [Fallakten nach Themen](../faelle/index.md) — zusammengefasste Befunde.",
+        "- [Quellenkatalog](../quellen/index.md) — Originalakten und Fundstellen.",
+        "- [Akteure und Beziehungen](../generated/entities.md) — Namen und Netzwerke.",
+        "- [Methodik](../methodik.md) — Evidenzstufen und Gegenprüfung.",
+        "",
+    ]
     files.append(File.generated(config, "research/index.md", content="\n".join(lines) + "\n"))
     return files
 
@@ -136,5 +199,7 @@ def on_page_markdown(markdown: str, page, **kwargs) -> str | None:
     return (
         rendered
         + "\n\n---\n\n"
+        + "[Zur Studienübersicht](index.md) · [Fallakten](../faelle/index.md)"
+        + " · [Methodik](../methodik.md)\n\n"
         + f"[Originaldatei dieser Studie auf GitHub]({GITHUB_ROOT}{original_path})\n"
     )

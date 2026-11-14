@@ -85,6 +85,37 @@ class ResearchPagesTests(unittest.TestCase):
             self.assertIn(f"]({name})", index)
             self.assertIn(hook.GITHUB_ROOT + f"blob/{revision}/research/{name}", index)
 
+    def test_topic_groups_are_linkable_and_cover_every_study(self):
+        index = next(
+            file for file in self.generated() if file.src_uri == "research/index.md"
+        ).content_string
+        names = committed_study_names()
+        for name in names:
+            with self.subTest(study=name):
+                self.assertEqual(index.count(f"]({name})"), 1)
+        self.assertIn("## Themenübersicht", index)
+        for label, anchor, _prefixes in hook.STUDY_GROUPS:
+            if any(hook.study_group(name) == anchor for name in names):
+                self.assertIn(f"[{label}](#{anchor})", index)
+                self.assertIn(f"## {label} {{ #{anchor} }}", index)
+        self.assertEqual(
+            sum(len([name for name in names if hook.study_group(name) == anchor])
+                for _label, anchor, _prefixes in hook.STUDY_GROUPS)
+            + sum(hook.study_group(name) == hook.OTHER_STUDIES[1] for name in names),
+            len(names),
+        )
+        self.assertIn("[Fallakten nach Themen](../faelle/index.md)", index)
+        self.assertEqual(hook.study_group("ein-neues-thema-2099.md"), hook.OTHER_STUDIES[1])
+
+    def test_study_footer_leads_back_to_research_and_methodology(self):
+        files = self.generated()
+        study = next(file for file in files if file.src_uri != "research/index.md")
+        rendered = hook.on_page_markdown(
+            study.content_string, SimpleNamespace(file=study)
+        )
+        self.assertIn("[Zur Studienübersicht](index.md)", rendered)
+        self.assertIn("[Methodik](../methodik.md)", rendered)
+
     def test_untracked_staged_dirty_nested_and_symlink_studies_are_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
             repo = Path(tmp)

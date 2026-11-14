@@ -84,6 +84,53 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertNotIn("??? info", graph)
         self.assertIn("../quellen/index.md#src-", network)
 
+    def test_source_a_to_z_navigation_preserves_original_anchors(self) -> None:
+        def source(source_id, institution, primary):
+            return {
+                "id": source_id,
+                "institution": institution,
+                "primary": primary,
+                "date": "2020",
+                "tier": "A",
+                "title": "Originaldokument",
+                "url": "https://example.org/original.pdf",
+            }
+
+        catalog = build_indexes.render_sources([
+            source("SRC-TEST-Z", "Zentrum", True),
+            source("SRC-TEST-A", "Archiv", True),
+            source("SRC-TEST-B", "Bibliothek", False),
+        ])
+        self.assertIn("[A](#src-test-a)", catalog)
+        self.assertIn("[Z](#src-test-z)", catalog)
+        self.assertIn("[B](#src-test-b)", catalog)
+        for identifier in ("src-test-a", "src-test-b", "src-test-z"):
+            self.assertEqual(catalog.count(f'<a id="{identifier}"></a>'), 1)
+        self.assertIn("## Originaldokumente & amtliche Quellen { #originalquellen }", catalog)
+        self.assertIn("## Forschung & Dokumentation { #forschungsliteratur }", catalog)
+
+    def test_actors_link_to_source_bound_relation_rows(self) -> None:
+        entities = [
+            {"id": "ORG-TEST-A", "name": "Archiv", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-TEST-B", "name": "Bibliothek", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-TEST-C", "name": "Keine Relation", "type": "organization", "countries": ["DE"]},
+        ]
+        relation = {
+            "id": "REL-TEST-001",
+            "from": "ORG-TEST-A",
+            "to": "ORG-TEST-B",
+            "label": "kooperiert",
+            "type": "cooperation",
+            "evidence_level": "established",
+            "sources": ["SRC-TEST-A"],
+        }
+        actors = build_indexes.render_entities(entities, [relation])
+        network = build_indexes.render_network([], entities, [relation])
+        self.assertEqual(actors.count("[1](network.md#rel-test-001)"), 2)
+        self.assertIn('<a id="rel-test-001"></a>', network)
+        self.assertIn("[SRC-TEST-A](../quellen/index.md#src-test-a)", network)
+        self.assertIn("Keine Relation", actors)
+
     def test_responsive_website_features_are_present(self) -> None:
         config = load_mkdocs_config()
         self.assertIn("assets/stylesheets/extra.css", config["extra_css"])

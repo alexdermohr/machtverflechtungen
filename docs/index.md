@@ -6,92 +6,55 @@ hide:
 
 # Machtverflechtungen
 
-**Wer finanziert, informiert oder beeinflusst wen?** Das Forschungsprojekt rekonstruiert staatliche, politische, nachrichtendienstliche und wirtschaftliche Verbindungen anhand historischer Akten, parlamentarischer Untersuchungen und überprüfbarer Quellen.
+**Wer finanziert, informiert oder beeinflusst wen?** Hier lassen sich politische, staatliche, nachrichtendienstliche und wirtschaftliche Verbindungen anhand von Fallakten, Forschungsstudien und überprüfbaren Originalquellen nachvollziehen.
 
 [Fallakten entdecken](faelle/index.md){ .md-button .md-button--primary }
-[Beziehungsnetzwerk öffnen](generated/network.md){ .md-button }
+[Forschungsstudien durchsuchen](research/index.md){ .md-button }
+
+## Wo möchten Sie beginnen?
+
+<div class="grid cards" markdown>
+
+-   **Fälle verstehen**
+
+    Was ist belegt, was bleibt offen und welche Gegenbefunde gibt es?
+
+    [Fallakten nach Thema und Zeit](faelle/index.md)
+
+-   **Verbindungen prüfen**
+
+    Welche Personen, Organisationen und Vorgänge sind nachweislich verknüpft?
+
+    [Akteursregister](generated/entities.md) · [Beziehungstabelle](generated/network.md)
+
+-   **Originalbelege finden**
+
+    Wo stehen die Akten, Urteile und Studien, auf denen eine Aussage beruht?
+
+    [Quellenkatalog](quellen/index.md) · [Methodik](methodik.md)
+
+</div>
 
 ## Themen entdecken
 
-<div class="grid cards" markdown>
+- **Nachrichtendienste & Informanten:** [Organisation Gehlen](faelle/de/organisation-gehlen.md) · [Langemann](faelle/de/langemann-informationsnetz-1976-1982.md)
+- **Rechtsterrorismus & Ermittlungen:** [Oktoberfestattentat 1980](faelle/de/oktoberfestattentat-1980.md) · [NSU und Aktenvernichtung](faelle/de/nsu-v-leute-aktenvernichtung.md)
+- **Politik, Wirtschaft & Medien:** [Cum-Ex / Warburg](faelle/de/cum-ex-warburg-steuerverfahren.md) · [Medien und Nachrichtendienste](faelle/de/medien-nachrichtendienst-crosslayer.md)
+- **Internationale Verflechtungen:** [Piazza Fontana](faelle/it/piazza-fontana.md) · [Bilderberg Meetings](organisationen/bilderberg.md)
 
--   **Nachrichtendienste & Informanten**
+[Alle Fallakten](faelle/index.md) · [Alle Forschungsstudien nach Themen](research/index.md)
 
-    V-Personen, Informationsdienste, staatliche Beobachtung und geheime Aktenwege.
+## Weitere Recherchewege
 
-    [Langemann untersuchen →](faelle/de/langemann-informationsnetz-1976-1982.md)
-
--   **Rechtsterrorismus & Ermittlungen**
-
-    Tatkomplexe, Quellenführung, Behördenwissen und nachträgliche Aufklärung.
-
-    [Oktoberfestattentat 1980 →](faelle/de/oktoberfestattentat-1980.md)
-
--   **Politik, Wirtschaft & Medien**
-
-    Öffentliche Mittel, private Organisationen, Lobbykontakte und Medienbeeinflussung.
-
-    [Finanz- und Einflusswege →](faelle/de/cum-ex-warburg-steuerverfahren.md)
-
--   **Internationale Verflechtungen**
-
-    Grenzüberschreitende Dienste, Anschläge und institutionelle Kooperation.
-
-    [Piazza Fontana →](faelle/it/piazza-fontana.md)
-
-</div>
-
-## Im Mittelpunkt
-
-<div class="grid cards" markdown>
-
--   **Langemann: Geld- und Informationswege 1975–1982**
-
-    Verfügungsmittel, von-Corneli-Konto, Zahlungen an Jonas und Brunello, Stauffenbergs Informationsdienst und politische Medienentwürfe.
-
-    [Zur Fallakte](faelle/de/langemann-informationsnetz-1976-1982.md)
-
--   **Oktoberfestattentat 1980**
-
-    WSG-Kontakte, Aktion Wandervogel, Ermittlungsakten, Quellenmeldungen und internationale Hinweise.
-
-    [Zur Fallakte](faelle/de/oktoberfestattentat-1980.md)
-
--   **Peter Urbach und der West-Berliner Verfassungsschutz**
-
-    Quellenführung, Waffenbeschaffung und dokumentierte Eingriffe im militanten Milieu.
-
-    [Zur Fallakte](faelle/de/peter-urbach-verfassungsschutz.md)
-
--   **BDJ / Technischer Dienst 1951–1952**
-
-    US-Subventionen, ministerielles BDJ-Vorwissen im März 1951 und die geheime Bundestagsbefassung im Oktober 1952.
-
-    [Zur Fallakte](faelle/de/technischer-dienst-bdj.md) · [Zu den Originalprotokollen](quellen/bdj-gesamtdeutscher-ausschuss-1951-1952.md)
-
--   **NSU: Quellenführung und Aktenvernichtung**
-
-    Operation Rennsteig, V-Leute, Behördenentscheidungen und parlamentarische Aufklärung.
-
-    [Zur Fallakte](faelle/de/nsu-v-leute-aktenvernichtung.md)
-
-</div>
-
-[Alle Fallakten nach Themen und Zeiträumen ansehen →](faelle/index.md)
-
-## Recherchieren und Zusammenhänge prüfen
-
-| Einstieg | Inhalt |
+| Einstieg | Wozu? |
 |---|---|
-| [Netzwerk](generated/network.md) | Quellengebundene Beziehungen zwischen Personen, Organisationen und Fällen |
-| [Chronologie](generated/timeline.md) | Historische Einordnung der untersuchten Vorgänge |
-| [Personen & Organisationen](generated/entities.md) | Akteursverzeichnis mit stabilen Kennungen |
-| [Quellenkatalog](quellen/index.md) | Originaldokumente, Fundstellen und Archivzugänge |
-| [Forschungsstudien](research/index.md) | Vollständige versionierte Primärquellenstudien mit GitHub-Originalen |
-| [Offene Hypothesen](generated/hypotheses.md) | Weiterführende Erklärungen und konkrete Forschungsfragen |
+| [Chronologie](generated/timeline.md) | Ereignisse historisch einordnen |
+| [Regionen](generated/regions.md) | Fälle nach Ländern betrachten |
+| [Netzwerkdiagramm](generated/network-graph.md) | Beziehungen grafisch erkunden; Fundstellen stehen in der [Relationstabelle](generated/network.md) |
+| [Offene Hypothesen](generated/hypotheses.md) | Noch nicht geklärte Behauptungen gezielt prüfen |
 
-## Wie die Fallakten aufgebaut sind
+## Wie belastbar sind die Ergebnisse?
 
-Die Falltexte beginnen mit einem **Kurzüberblick und den zentralen Befunden**. Anschließend folgen Zusammenhänge, Quellen und nächste Archivziele. Jeder dokumentierte Claim hat eine Kennung, Evidenzstufe und Fundstelle. Der vollständige Prüfrahmen mit Gegenbelegen, Alternativerklärungen und Falsifikationskriterien gehört zum strukturierten Forschungsdatensatz.
+Jede Fallakte beginnt mit einem Kurzüberblick und einem **gesicherten Ereigniskern**. Einzelne Aussagen führen Kennungen, Evidenzstufen und Quellen. Eine dokumentierte Beziehung ist nicht automatisch eine nachgewiesene Steuerung oder Beteiligung an einer Straftat; Gegenbelege und offene Fragen werden getrennt ausgewiesen.
 
 [Methodik und Quellenbewertung](methodik.md){ .md-button }

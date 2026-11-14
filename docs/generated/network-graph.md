@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**166 Beziehungen** als interaktive Übersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**166 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ```mermaid
 flowchart LR
