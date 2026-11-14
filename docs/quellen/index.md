@@ -2,7 +2,11 @@
 
 **219 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
-## Originaldokumente & amtliche Quellen
+Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Forschung & Dokumentation](#forschungsliteratur). Die Buchstabenlinks in den Abschnitten springen zur ersten Quelle der jeweiligen Institution. Mit der Seitensuche können weitere Begriffe gefunden werden; Links mit Quellen-IDs bleiben dauerhaft gültig.
+
+## Originaldokumente & amtliche Quellen { #originalquellen }
+
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-wapo-sec-10k-2010)
 
 <a id="src-de-berlin-plenum-urbach-1971"></a>
 ### Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek Berlin
@@ -1946,7 +1950,9 @@ US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS · 2025 · Stu
 
 Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors
 
-## Forschung & Dokumentation
+## Forschung & Dokumentation { #forschungsliteratur }
+
+**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-int-scott-smith-der-monat-2000) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-uy-manzi-bankrank-1981) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
 
 <a id="src-it-intesa-ambrosiano-interalpha-history"></a>
 ### Archivio storico Intesa Sanpaolo

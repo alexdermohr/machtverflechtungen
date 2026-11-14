@@ -192,7 +192,14 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_entities(entities: list[dict[str, Any]]) -> str:
+def render_entities(
+    entities: list[dict[str, Any]], relations: list[dict[str, Any]]
+) -> str:
+    """Link each entity to a stable, source-bound relation entry point."""
+    relation_ids: dict[str, list[str]] = {}
+    for relation in relations:
+        for node in {relation["from"], relation["to"]}:
+            relation_ids.setdefault(node, []).append(relation["id"].lower())
     groups = [
         ("Personen", [item for item in entities if item["type"] == "person"]),
         ("Organisationen & Institutionen", [
@@ -204,7 +211,8 @@ def render_entities(entities: list[dict[str, Any]]) -> str:
         "# Personen & Organisationen",
         "",
         f"**{len(entities)} Einträge** · Alphabetisch innerhalb der Kategorien geordnet. "
-        "Dokumentierte Beziehungen stehen im [Netzwerk](network.md).",
+        "Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten "
+        "Relation in der [quellengebundenen Netzwerkübersicht](network.md).",
         "",
     ]
     for heading, items in groups:
@@ -213,13 +221,18 @@ def render_entities(entities: list[dict[str, Any]]) -> str:
         lines += [
             f"## {heading}",
             "",
-            "| Name | Typ | ID | Länder |",
-            "|---|---|---|---|",
+            "| Name | Typ | ID | Länder | Beziehungen |",
+            "|---|---|---|---|---|",
         ]
         for entity in sorted(items, key=lambda item: item["name"].casefold()):
+            matches = relation_ids.get(entity["id"], [])
+            relation_link = (
+                f"[{len(matches)}](network.md#{matches[0]})" if matches else "–"
+            )
             lines.append(
                 f"| {esc(entity['name'])} | {esc(entity['type'])} | "
-                f"`{entity['id']}` | {', '.join(entity.get('countries', []))} |"
+                f"`{entity['id']}` | {', '.join(entity.get('countries', []))} | "
+                f"{relation_link} |"
             )
         lines.append("")
     return "\n".join(lines) + "\n"
@@ -302,6 +315,12 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
         f"**{len(sources)} registrierte Quellen** · Originaldokumente und Forschung "
         "mit stabiler Kennung, direktem Link und genauer Fundstelle.",
         "",
+        "Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen)"
+        " · [Forschung & Dokumentation](#forschungsliteratur). "
+        "Die Buchstabenlinks in den Abschnitten springen zur ersten Quelle "
+        "der jeweiligen Institution. Mit der Seitensuche können weitere "
+        "Begriffe gefunden werden; Links mit Quellen-IDs bleiben dauerhaft gültig.",
+        "",
     ]
     for heading, selected in [
         ("Originaldokumente & amtliche Quellen", [
@@ -313,14 +332,26 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
     ]:
         if not selected:
             continue
-        lines += [f"## {heading}", ""]
-        for source in sorted(
+        section_anchor = "originalquellen" if selected[0].get("primary") else "forschungsliteratur"
+        sorted_sources = sorted(
             selected, key=lambda item: (
                 str(item.get("institution") or "").casefold(),
                 str(item.get("date") or ""),
                 str(item.get("title") or "").casefold(),
             )
-        ):
+        )
+        # Existing src-* fragment identifiers remain the canonical destinations.
+        first_by_letter: dict[str, str] = {}
+        for source in sorted_sources:
+            initial = (str(source.get("institution") or "").strip()[:1] or "#").upper()
+            first_by_letter.setdefault(initial, source["id"].lower())
+        letters = " · ".join(
+            f"[{letter}](#{first_by_letter[letter]})"
+            for letter in sorted(first_by_letter)
+        )
+        lines += [f"## {heading} {{ #{section_anchor} }}", "",
+                  f"**Institutionen A–Z:** {letters}", ""]
+        for source in sorted_sources:
             primary = "Primärquelle" if source.get("primary") else "Sekundär-/Forschungsquelle"
             source_date = source.get("date")
             date_label = source_date if source_date is not None else "unbekannt"
@@ -361,7 +392,8 @@ def render_network(
         f"**{len(relations)} quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. "
         "Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.",
         "",
-        "[Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen.",
+        "[Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen. "
+        "Jede Zeile ist über ihre Kennung direkt verlinkbar.",
         "",
         "## Dokumentierte Relationen",
         "",
@@ -378,7 +410,7 @@ def render_network(
             for key in relation["sources"]
         )
         lines.append(
-            f"| `{relation['id']}` | {esc(label(relation['from']))} | "
+            f'| <a id="{relation["id"].lower()}"></a>`{relation["id"]}` | {esc(label(relation["from"]))} | '
             f"{esc(relation.get('label', relation['type']))} | {esc(label(relation['to']))} | "
             f"{EVIDENCE_LABELS.get(relation['evidence_level'], relation['evidence_level'])} | "
             f"{source_links} |"
@@ -406,7 +438,7 @@ def render_network_graph(
     lines = [
         "# Netzwerkdiagramm",
         "",
-        f"**{len(relations)} Beziehungen** als interaktive Übersicht. "
+        f"**{len(relations)} Beziehungen** als grafische Gesamtübersicht. "
         "Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.",
         "",
         "```mermaid",
@@ -448,7 +480,7 @@ def main() -> int:
         DOCS / "generated" / "timeline.md": render_timeline(cases),
         DOCS / "generated" / "network.md": render_network(cases, entities, relations),
         DOCS / "generated" / "network-graph.md": render_network_graph(cases, entities, relations),
-        DOCS / "generated" / "entities.md": render_entities(entities),
+        DOCS / "generated" / "entities.md": render_entities(entities, relations),
         DOCS / "generated" / "regions.md": render_regions(cases),
         DOCS / "generated" / "hypotheses.md": render_hypotheses(cases),
         DOCS / "mechanismen" / "index.md": render_mechanisms(mechanisms),
