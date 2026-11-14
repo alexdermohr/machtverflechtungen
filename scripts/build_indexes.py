@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from html import escape as html_escape
 import re
 import sys
 from pathlib import Path
@@ -315,6 +316,8 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
         f"**{len(sources)} registrierte Quellen** · Originaldokumente und Forschung "
         "mit stabiler Kennung, direktem Link und genauer Fundstelle.",
         "",
+        '<div id="mv-source-browser"></div>',
+        "",
         "Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen)"
         " · [Forschung & Dokumentation](#forschungsliteratur). "
         "Die Buchstabenlinks in den Abschnitten springen zur ersten Quelle "
@@ -355,7 +358,14 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
             primary = "Primärquelle" if source.get("primary") else "Sekundär-/Forschungsquelle"
             source_date = source.get("date")
             date_label = source_date if source_date is not None else "unbekannt"
+            year_match = re.search(r"(?<!\d)[12]\d{3}(?!\d)", str(date_label))
+            year = year_match.group() if year_match else ""
+            kind = "primary" if source.get("primary") else "research"
+            tier = html_escape(str(source["tier"]), quote=True)
             lines += [
+                f'<article class="mv-source-entry" markdown="1" '
+                f'data-source-kind="{kind}" data-source-tier="{tier}" data-source-year="{year}">',
+                "",
                 f'<a id="{source["id"].lower()}"></a>',
                 f"### {source['institution']}",
                 "",
@@ -370,6 +380,7 @@ def render_sources(sources: list[dict[str, Any]]) -> str:
                 lines += [f"[Archiv/Recovery öffnen]({source['archive_url']})", ""]
             if source.get("locator"):
                 lines += [f"Fundstelle: {source['locator']}", ""]
+            lines += ["</article>", ""]
     return "\n".join(lines) + "\n"
 
 
@@ -418,32 +429,32 @@ def render_network(
     return "\n".join(lines) + "\n"
 
 
-def render_network_graph(
+# Focus pages show only direct relations from the canonical dataset.
+# They make no new claims about causation or community membership.
+FOCUS_NETWORKS = (
+    ("Atlantik-Brücke", "atlantik-bruecke", "ORG-DE-ATLANTIK-BRUECKE"),
+    ("Bilderberg Meetings", "bilderberg", "ORG-INT-BILDERBERG-MEETINGS"),
+    ("Organisation Gehlen", "organisation-gehlen", "ORG-DE-ORGANISATION-GEHLEN"),
+    ("Bund Deutscher Jugend", "bdj", "ORG-DE-BDJ"),
+    ("BAFISUD", "bafisud", "ORG-UY-BANCO-FINANCIERO-SUDAMERICANO"),
+)
+
+
+def mermaid_network_lines(
     cases: list[tuple[dict[str, Any], str]],
     entities: list[dict[str, Any]],
     relations: list[dict[str, Any]],
-) -> str:
-    """Render Mermaid on its own visible page, never in a collapsed details element."""
+) -> list[str]:
     entity_map = {item["id"]: item for item in entities}
     case_titles = {meta["id"]: meta["title"] for meta, _ in cases}
 
     def label(node: str) -> str:
-        if node in entity_map:
-            return entity_map[node]["name"]
-        return case_titles.get(node, node)
+        return entity_map[node]["name"] if node in entity_map else case_titles.get(node, node)
 
     def mid(node: str) -> str:
         return "N_" + re.sub(r"[^A-Za-z0-9_]", "_", node)
 
-    lines = [
-        "# Netzwerkdiagramm",
-        "",
-        f"**{len(relations)} Beziehungen** als grafische Gesamtübersicht. "
-        "Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.",
-        "",
-        "```mermaid",
-        "flowchart LR",
-    ]
+    lines = ["flowchart LR"]
     seen: set[str] = set()
     for relation in relations:
         source, target = relation["from"], relation["to"]
@@ -455,8 +466,100 @@ def render_network_graph(
                 seen.add(node)
         edge = relation.get("label", relation["type"]).replace('"', "'")
         lines.append(f'    {mid(source)} -->|"{edge}"| {mid(target)}')
-    lines += ["```", "", "[Zur Relationstabelle](network.md)", ""]
+    return lines
+
+
+def render_network_graph(
+    cases: list[tuple[dict[str, Any], str]],
+    entities: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+) -> str:
+    """Keep the full network available, with smaller views above it."""
+    lines = [
+        "# Netzwerkdiagramm",
+        "",
+        f"**{len(relations)} Beziehungen** als grafische Gesamtübersicht. "
+        "Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.",
+        "",
+        "## Direkte Verbindungen im Fokus",
+        "",
+        "Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen "
+        "des gewählten Akteurs. Weitere Beziehungen oder eine gemeinsame "
+        "Steuerung sind daraus nicht automatisch ableitbar.",
+        "",
+    ]
+    for label, slug, node_id in FOCUS_NETWORKS:
+        count = sum(node_id in (relation["from"], relation["to"]) for relation in relations)
+        lines.append(
+            f"- [{label}](network-focus-{slug}.md) — {count} direkte Beziehungen"
+        )
+    lines += ["", "## Gesamtnetzwerk", "", "```mermaid",
+              *mermaid_network_lines(cases, entities, relations),
+              "```", "", "[Zur Relationstabelle](network.md)", ""]
     return "\n".join(lines) + "\n"
+
+
+def render_network_focus(
+    cases: list[tuple[dict[str, Any], str]],
+    entities: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+    focal_node: str,
+    title: str,
+) -> str:
+    """One-hop graph and a full source-linked relation list."""
+    entity_names = {item["id"]: item["name"] for item in entities}
+    case_names = {meta["id"]: meta["title"] for meta, _ in cases}
+    if focal_node not in entity_names:
+        raise ValueError(f"Unknown focus entity: {focal_node}")
+    selected = [
+        item for item in relations
+        if focal_node in (item["from"], item["to"])
+    ]
+    if not selected:
+        raise ValueError(f"No relations for focus entity: {focal_node}")
+
+    def label(node: str) -> str:
+        return entity_names.get(node, case_names.get(node, node))
+
+    lines = [
+        f"# {title} – direkte Beziehungen",
+        "",
+        f"**{len(selected)} quellengebundene Beziehungen** mit {title} als Ausgangs- "
+        "oder Zielakteur. Die Ansicht zeigt **nur unmittelbare Relationen**; "
+        "sie beweist weder gemeinsame Steuerung noch Beziehungen zwischen "
+        "den übrigen dargestellten Akteuren.",
+        "",
+        "[Alle Fokusansichten](network-graph.md) · [Vollständige Relationstabelle](network.md)",
+        "",
+        "```mermaid",
+        *mermaid_network_lines(cases, entities, selected),
+        "```",
+        "",
+        "## Quellen und Evidenz",
+        "",
+        "| Relation | Richtung und anderer Akteur | Befund | Evidenz | Quellen |",
+        "|---|---|---|---|---|",
+    ]
+    for relation in sorted(selected, key=lambda item: (
+        label(item["to"] if item["from"] == focal_node else item["from"]).casefold(),
+        item["id"],
+    )):
+        outgoing = relation["from"] == focal_node
+        other = relation["to"] if outgoing else relation["from"]
+        direction = "→" if outgoing else "←"
+        refs = ", ".join(
+            f"[{key}](../quellen/index.md#{key.lower()})"
+            for key in relation["sources"]
+        )
+        lines.append(
+            f"| [{relation['id']}](network.md#{relation['id'].lower()}) | "
+            f"{direction} {esc(label(other))} | "
+            f"{esc(relation.get('label', relation['type']))} | "
+            f"{EVIDENCE_LABELS.get(relation['evidence_level'], relation['evidence_level'])} | "
+            f"{refs} |"
+        )
+    return "\n".join(lines) + "\n"
+
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -487,6 +590,10 @@ def main() -> int:
         DOCS / "quellen" / "index.md": render_sources(sources),
         DOCS / "methodik.md": (ROOT / "METHODOLOGY.md").read_text(encoding="utf-8"),
     }
+    for label, slug, focal_node in FOCUS_NETWORKS:
+        outputs[DOCS / "generated" / f"network-focus-{slug}.md"] = (
+            render_network_focus(cases, entities, relations, focal_node, label)
+        )
 
     stale: list[str] = []
     for path, content in outputs.items():
@@ -509,7 +616,6 @@ def main() -> int:
         + f": {len(cases)} cases, {len(relations)} relations, {len(outputs)} pages"
     )
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

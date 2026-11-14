@@ -131,9 +131,61 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertIn("[SRC-TEST-A](../quellen/index.md#src-test-a)", network)
         self.assertIn("Keine Relation", actors)
 
+    def test_filterable_sources_keep_every_source_anchor_and_year(self) -> None:
+        source = {
+            "id": "SRC-TEST-1974", "institution": "Archiv",
+            "primary": True, "date": "1974-05-12",
+            "tier": "A", "title": "Aktenbestand",
+            "url": "https://example.org/original.pdf",
+        }
+        other = {
+            **source, "id": "SRC-TEST-UNDATED", "primary": False,
+            "date": None, "tier": "C",
+        }
+        catalog = build_indexes.render_sources([source, other])
+        self.assertIn('id="mv-source-browser"', catalog)
+        self.assertEqual(catalog.count('class="mv-source-entry"'), 2)
+        self.assertIn('data-source-kind="primary"', catalog)
+        self.assertIn('data-source-kind="research"', catalog)
+        self.assertIn('data-source-tier="A"', catalog)
+        self.assertIn('data-source-year="1974"', catalog)
+        self.assertIn('data-source-year=""', catalog)
+        self.assertEqual(catalog.count('<a id="src-test-1974"></a>'), 1)
+        self.assertEqual(catalog.count('<a id="src-test-undated"></a>'), 1)
+        self.assertEqual(catalog.count("</article>"), 2)
+
+    def test_focus_graphs_only_include_immediate_relations(self) -> None:
+        entities = [
+            {"id": "ORG-A", "name": "A", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-B", "name": "B", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-C", "name": "C", "type": "organization", "countries": ["DE"]},
+        ]
+        relation = {
+            "id": "REL-AB", "from": "ORG-A", "to": "ORG-B",
+            "type": "cooperation", "label": "kooperiert",
+            "evidence_level": "established", "sources": ["SRC-AB"],
+        }
+        other = {**relation, "id": "REL-BC", "from": "ORG-B", "to": "ORG-C"}
+        focus = build_indexes.render_network_focus(
+            [], entities, [relation, other], "ORG-A", "A"
+        )
+        self.assertIn("**1 quellengebundene Beziehungen**", focus)
+        self.assertIn("flowchart LR", focus)
+        self.assertIn("[REL-AB](network.md#rel-ab)", focus)
+        self.assertIn("[SRC-AB](../quellen/index.md#src-ab)", focus)
+        self.assertNotIn("REL-BC", focus)
+        self.assertNotIn("N_ORG_C", focus)
+        with self.assertRaises(ValueError):
+            build_indexes.render_network_focus(
+                [], entities, [relation], "ORG-C", "C"
+            )
+        self.assertEqual(len(build_indexes.FOCUS_NETWORKS), 5)
+
     def test_responsive_website_features_are_present(self) -> None:
         config = load_mkdocs_config()
         self.assertIn("assets/stylesheets/extra.css", config["extra_css"])
+        self.assertIn("assets/source-browser.js", config["extra_javascript"])
+        self.assertTrue((DOCS / "assets" / "source-browser.js").is_file())
         self.assertTrue((DOCS / "assets" / "stylesheets" / "extra.css").is_file())
         self.assertIn("navigation.sections", config["theme"]["features"])
         self.assertIn("search.suggest", config["theme"]["features"])

@@ -2,11 +2,15 @@
 
 **219 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
+<div id="mv-source-browser"></div>
+
 Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Forschung & Dokumentation](#forschungsliteratur). Die Buchstabenlinks in den Abschnitten springen zur ersten Quelle der jeweiligen Institution. Mit der Seitensuche können weitere Begriffe gefunden werden; Links mit Quellen-IDs bleiben dauerhaft gültig.
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
 **Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-wapo-sec-10k-2010)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
 <a id="src-de-berlin-plenum-urbach-1971"></a>
 ### Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek Berlin
@@ -19,6 +23,10 @@ Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek B
 
 Fundstelle: 7. Sitzung vom 27.05.1971, gedruckte S. 92–94 (ZLB Band I, Viewer-Bilder 112–114; Scans Abge_Berl_1971_VI_07.pdf, Bildseiten 10–12)
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
 <a id="src-us-acg-annual-2018"></a>
 ### American Council on Germany
 
@@ -29,6 +37,10 @@ American Council on Germany · 2018 · Stufe **A** · Primärquelle · `SRC-US-A
 [PDF öffnen](https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf)
 
 Fundstelle: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-us-acg-yl-list-1973-2025"></a>
 ### American Council on Germany
@@ -41,6 +53,10 @@ American Council on Germany · 2025 · Stufe **A** · Primärquelle · `SRC-US-A
 
 Fundstelle: Matthias Naß 1984; Theo Hans Koll 1988; Paul-Bernhard Kallen 1991; Kai Georg Diekmann 1995; Jörg Schönenborn 2000; Julia Jäckel 2002; Elmar Georg Theveßen 2003
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
 <a id="src-us-afb-irs-2008"></a>
 ### American Friends of Bilderberg Inc. / US Internal Revenue Service
 
@@ -51,6 +67,10 @@ American Friends of Bilderberg Inc. / US Internal Revenue Service · 2008 · Stu
 [PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2008.pdf)
 
 Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2009">
 
 <a id="src-us-afb-irs-2009"></a>
 ### American Friends of Bilderberg Inc. / US Internal Revenue Service
@@ -63,6 +83,10 @@ American Friends of Bilderberg Inc. / US Internal Revenue Service · 2009 · Stu
 
 Fundstelle: Schedule B Part I, Unternehmensbeitrag Washington Post Company 25.000 USD
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
 <a id="src-us-afb-irs-2010"></a>
 ### American Friends of Bilderberg Inc. / US Internal Revenue Service
 
@@ -74,6 +98,10 @@ American Friends of Bilderberg Inc. / US Internal Revenue Service · 2010 · Stu
 
 Fundstelle: PDF-Bildseite 18 (Nullindex 17), Schedule B Part I, Donald Graham 25.000 USD
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
 <a id="src-de-ard-panorama-urbach-1971-video"></a>
 ### ARD Mediathek / NDR
 
@@ -84,6 +112,10 @@ ARD Mediathek / NDR · 1971-05-24 · Stufe **A** · Primärquelle · `SRC-DE-ARD
 [Seite öffnen](https://www.ardmediathek.de/video/panorama/v-mann-als-zeuge/das-erste/Y3JpZDovL25kci5kZS82ZjFhYjAzMC01Nzc4LTQ5ZDAtYjgwZS05ZjhhNDU0ODI0NGU)
 
 Fundstelle: Zeitmarken 01:24–01:41; 03:51–04:15; 05:31–06:05; 06:25–08:38; 08:38–10:14; exakte Tonlänge lokal 624,363 s
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2007">
 
 <a id="src-de-ab-jb-2006-2007"></a>
 ### Atlantik-Brücke e.V.
@@ -98,6 +130,10 @@ Atlantik-Brücke e.V. · 2007 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 Fundstelle: PDF S. 23, World Young Leaders-Treffen 29.09.-01.10.2006 mit Ulrich Wilhelm als Gastredner; PDF S. 43, XX. Karl-Heinz-Beckurts-Gedächtnisrede am 13.03.2007 mit Claus-Detlev Kleber als Redner
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2009">
+
 <a id="src-de-ab-jb-2008-2009"></a>
 ### Atlantik-Brücke e.V.
 
@@ -110,6 +146,10 @@ Atlantik-Brücke e.V. · 2009 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 [Archiv/Recovery öffnen](https://www.hintergrund.de/wp-content/uploads/2015/09/jahresbericht-2008-2009.pdf)
 
 Fundstelle: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2010">
 
 <a id="src-de-ab-jb-2009-2010"></a>
 ### Atlantik-Brücke e.V.
@@ -124,6 +164,10 @@ Atlantik-Brücke e.V. · 2010 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 Fundstelle: Journalistenreise 19.-29.09.2009 mit Jörg Quoos und Theo Sommer; 79. Sitzung Arbeitskreis USA am 10.06.2010 mit Einführung von Klaus-Dieter Frankenberger
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2012">
+
 <a id="src-de-ab-jb-2011-2012"></a>
 ### Atlantik-Brücke e.V.
 
@@ -137,6 +181,10 @@ Atlantik-Brücke e.V. · 2012 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 Fundstelle: Gespräche mit Jörg Schönenborn am 06.03. und 19.04.2012; Working Lunch mit Admiral Stavridis und Ingo Zamperoni im Januar 2012
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2014">
+
 <a id="src-de-ab-jb-2013-2014"></a>
 ### Atlantik-Brücke e.V.
 
@@ -147,6 +195,10 @@ Atlantik-Brücke e.V. · 2014 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 [PDF öffnen](https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2013_2014_final.pdf)
 
 Fundstelle: Gastbeitrag „Unvollendet: Die amerikanische Europapolitik“ von Klaus-Dieter Frankenberger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2015">
 
 <a id="src-de-ab-jb-2014-2015"></a>
 ### Atlantik-Brücke e.V.
@@ -161,6 +213,10 @@ Atlantik-Brücke e.V. · 2015 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 Fundstelle: PDF S. 14, gemeinsames Atlantik-Brücke/Bertelsmann-Format am 26.06.2014 mit Thomas Rabe; PDF S. 47 und 54, Frankfurt Luncheon am 10.04.2015 mit Dr. Peter Frey, Chefredakteur ZDF
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2016">
+
 <a id="src-de-ab-jb-2015-2016"></a>
 ### Atlantik-Brücke e.V.
 
@@ -174,6 +230,10 @@ Atlantik-Brücke e.V. · 2016 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 Fundstelle: PDF S. 32 (Jahresbericht S. 60-61), Deutsch-Amerikanische Konferenz, Berlin, 11.09.2015; Thomas Roth in der Veranstaltungsdokumentation
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
 <a id="src-de-ab-nass-nato-2016"></a>
 ### Atlantik-Brücke e.V.
 
@@ -184,6 +244,10 @@ Atlantik-Brücke e.V. · 2016-07-15 · Stufe **A** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://www.atlantik-bruecke.org/nato-in-a-world-of-disorder-a-conversation-on-the-outcomes-of-the-warsaw-summit-2016/)
 
 Fundstelle: Bericht vom 15.07.2016; Diskussion zwei Tage nach Ende des Warschauer NATO-Gipfels; Moderation Matthias Naß, Internationaler Korrespondent der ZEIT
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
 <a id="src-de-ab-kornelius-yl-2016"></a>
 ### Atlantik-Brücke e.V.
@@ -196,6 +260,10 @@ Atlantik-Brücke e.V. · 2016-08-12 · Stufe **A** · Primärquelle · `SRC-DE-A
 
 Fundstelle: Stefan Kornelius, Ressortleiter Außenpolitik der Süddeutschen Zeitung, als Gastredner
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
 <a id="src-de-ab-afhueppe-2016"></a>
 ### Atlantik-Brücke e.V.
 
@@ -206,6 +274,10 @@ Atlantik-Brücke e.V. · 2016-09-06 · Stufe **A** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://www.atlantik-bruecke.org/industrie-4-0-im-standortwettbewerb-zwischen-deutschland-europa-und-den-usa/)
 
 Fundstelle: Veranstaltung 03.03.2016; Moderation Sven Afhüppe, Chefredakteur Handelsblatt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
 <a id="src-de-ab-steingart-2016"></a>
 ### Atlantik-Brücke e.V.
@@ -218,6 +290,10 @@ Atlantik-Brücke e.V. · 2016-09-29 · Stufe **A** · Primärquelle · `SRC-DE-A
 
 Fundstelle: Veranstaltung 26.09.2016; Moderation Gabor Steingart, Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-ab-conference-2017"></a>
 ### Atlantik-Brücke e.V.
 
@@ -228,6 +304,10 @@ Atlantik-Brücke e.V. · 2017-10-18 · Stufe **A** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://www.atlantik-bruecke.org/konferenz-spricht-probleme-im-jubilaeumsjahr-offen-an/)
 
 Fundstelle: Deutsch-Amerikanische Konferenz 16.–17. Mai 2017; Tina Hassel, Georg Mascolo und Matthias Naß
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-ab-buhrow-2017"></a>
 ### Atlantik-Brücke e.V.
@@ -240,6 +320,10 @@ Atlantik-Brücke e.V. · 2017-10-26 · Stufe **A** · Primärquelle · `SRC-DE-A
 
 Fundstelle: Farewell dinner for Ambassador John B. Emerson on 18 January 2017; Tom Buhrow addressed in the event record
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
 <a id="src-de-ab-frankenberger-2018"></a>
 ### Atlantik-Brücke e.V.
 
@@ -250,6 +334,10 @@ Atlantik-Brücke e.V. · 2018-05-18 · Stufe **A** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://www.atlantik-bruecke.org/the-alliance-in-question/)
 
 Fundstelle: Bericht vom 18.05.2018; Klaus-Dieter Frankenberger, Verantwortlicher Redakteur für Außenpolitik, FAZ, als Redner der Deutsch-Amerikanischen Konferenz
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-ab-diekmann-2021"></a>
 ### Atlantik-Brücke e.V.
@@ -262,6 +350,10 @@ Atlantik-Brücke e.V. · 2021-07-13 · Stufe **A** · Primärquelle · `SRC-DE-A
 
 Fundstelle: Kai Diekmann als Mitglied des Vorstands der Atlantik-Brücke und Moderator
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
 <a id="src-de-ab-thevessen-2024"></a>
 ### Atlantik-Brücke e.V.
 
@@ -272,6 +364,10 @@ Atlantik-Brücke e.V. · 2024-10-25 · Stufe **A** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://www.atlantik-bruecke.org/trump-would-try-to-finish-the-wall-and-deploy-the-us-military/)
 
 Fundstelle: Autorenhinweis bezeichnet Elmar Theveßen als Leiter des ZDF-Studios Washington und Mitglied der Atlantik-Brücke
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-ab-kleber-2026"></a>
 ### Atlantik-Brücke e.V.
@@ -284,6 +380,10 @@ Atlantik-Brücke e.V. · 2026-06-23 · Stufe **A** · Primärquelle · `SRC-DE-A
 
 Fundstelle: Veranstaltungsankündigung für 23.06.2026; angekündigt war eine von Claus Kleber moderierte Diskussion
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="E" data-source-year="2026">
+
 <a id="src-de-ab-kleber-mv-recap-2026"></a>
 ### Atlantik-Brücke e.V.
 
@@ -294,6 +394,10 @@ Atlantik-Brücke e.V. · 2026-06-24 · Stufe **E** · Primärquelle · `SRC-DE-A
 [Seite öffnen](https://de.linkedin.com/posts/atlantik-bruecke_mv-2026-activity-7475558772233469952-dFjW)
 
 Fundstelle: Rückblick auf die Mitgliederversammlung vom Vortag; Paneldiskussion zum 250. Geburtstag der USA mit Emily Haber, Tina Hassel, Ben Hodges und Claus Kleber
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-ab-newbridge-program-2026"></a>
 ### Atlantik-Brücke e.V.
@@ -306,6 +410,10 @@ Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle · `SRC-DE-AB-N
 
 Fundstelle: New Bridge to Germany seit 2021, New Bridge to the U.S. seit 2023 und Kosten und Förderung mit Joachim Herz Stiftung/ERP
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-de-atlantikbruecke-yl"></a>
 ### Atlantik-Brücke e.V.
 
@@ -316,6 +424,10 @@ Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle · `SRC-DE-ATLA
 [Seite öffnen](https://www.atlantik-bruecke.org/nachwuchsfoerderung/)
 
 Fundstelle: Abschnitt Young Leaders Programm
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-axelspringer-diekmann-2015"></a>
 ### Axel Springer SE
@@ -328,6 +440,10 @@ Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle · `SRC-DE-AXELSP
 
 Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
 <a id="src-it-banca-italia-bafisud-varesino-1983"></a>
 ### Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI
 
@@ -338,6 +454,10 @@ Banca d'Italia; Camera dei Deputati/Senato, P2-Kommission, Vol. III Tomo VI · 1
 [PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf)
 
 Fundstelle: IX Legislatur, Doc. XXIII 2-quater/3/VI, Druck-S. 423/PDF 431: BAFISUD Montevideo 5,5% Banco Ambrosiano Overseas Nassau; 426/PDF 434: CCF Suisse als schweizerische Tochter der französischen CCF; 427/PDF 435: Einlagen 1980; 430/PDF 438: La Centrale 4,5 Mio. Credito-Varesino-Aktien 1978 an BAFISUD Corporation Panama; 436/PDF 444: effektiver Finanzierer unbekannt; 440/PDF 448: Banco-Ambrosiano-Brief vom 13.02.1979; 448-449/PDF 456-457: CCF-Suisse-Brief 01.04.1981 und Zertifikatübertragung 31.03.1981.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
 
 <a id="src-it-ambrosiano-interalpha-angps-1979"></a>
 ### Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS
@@ -350,6 +470,10 @@ Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS · 1979-02 · 
 
 Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banco Ambrosiano und NMB als Inter-Alpha-Mitglieder
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
+
 <a id="src-de-bymr-td-19530113"></a>
 ### Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat
 
@@ -360,6 +484,10 @@ Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat · 1953-01-13
 [Seite öffnen](https://www.bayerischer-ministerrat.de/api/id/ehr33p136/pdf)
 
 Fundstelle: Nr. 136, TOP IX, gedruckte S. 8: Verbot Stoßtrupp/DHS und Verschiebung einer bayerischen BDJ-Entscheidung bis zur BMI-Besprechung am 15. Januar
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-bymr-td-19530120"></a>
 ### Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat
@@ -372,6 +500,10 @@ Bayerische Staatskanzlei / Editionsprojekt Bayerischer Ministerrat · 1953-01-20
 
 Fundstelle: Nr. 138, TOP V, gedruckte S. 8–9: Bundesanwalt gegen Frankfurter GStA; BDJ/TD-Trennung, Beschluss gegen TD; 23 in Bayern festgestellte US-Ausgebildete, Wald-Michelbach/Grafenwöhr
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-de-bylt-td-19521029"></a>
 ### Bayerischer Landtag
 
@@ -382,6 +514,10 @@ Bayerischer Landtag · 1952-10-29 · Stufe **A** · Primärquelle · `SRC-DE-BYL
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP02/Protokolle/02%20Wahlperiode%20Kopie/02%20WP%20Plenum%20LT%20Kopie/115%20PL%20291052%20ges%20endg%20Kopie.pdf)
 
 Fundstelle: gedruckte S. 311: 70.000 DM Zufluss/30.000 DM Bargeld, Listen, US-Schulung; S. 312: Stoßtrupp, DHS, CIC-Telefonreferenz; S. 313: Regierungserklärung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-de-baylt-okt-spuren-2014"></a>
 ### Bayerischer Landtag
@@ -394,6 +530,10 @@ Bayerischer Landtag · 2014-10-02 · Stufe **A** · Primärquelle · `SRC-DE-BAY
 
 Fundstelle: Abschnitt „Viele Akten können nun eingesehen werden“; Bericht Landespolizeipräsident Schmidbauer zu 29 BLKA-Spurenakten und Abgabe an das Hauptstaatsarchiv
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
 <a id="src-de-baylt-wsg-finanz-5905-1977"></a>
 ### Bayerischer Landtag / Bayerisches Staatsministerium des Innern
 
@@ -404,6 +544,10 @@ Bayerischer Landtag / Bayerisches Staatsministerium des Innern · 1977-07-12 · 
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP08/Drucksachen/0000005500/08-05905.pdf)
 
 Fundstelle: Zweiseitige Originaldrucksache: S. 1 Antwort 1/2, Verfassungsschutzbericht Bayern 1976 und WSG-Fahrzeug-/Waffenbestand; S. 2 Antwort 1/2, etwa 50 Ausgebildete, Spenden und Freundeskreis; S. 2 Antworten 3–5, Ermittlungen, Verbotszuständigkeit BMI, besondere Beobachtung und damalige Gefahrenbewertung (Schreiben StM Seidl 12.07.1977).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-de-baylt-erlangen-lippert-30649-2023"></a>
 ### Bayerischer Landtag / Staatsministerium des Innern
@@ -416,6 +560,10 @@ Bayerischer Landtag / Staatsministerium des Innern · 2023-12-21 · Stufe **A** 
 
 Fundstelle: Gedruckte S. 2–4/13, Antworten 1.1–1.3 und 2.1–3.2; Antwort BayStMI 13.10.2023, BayLfV 26.02.1981, Erlangen-Soko 12.03.1981, Nachbefragung 31.03.1981, Weitergabe des Befragungsergebnisses 22.04.1981; 2020/2021 BayHStA-Abgabe und 2021 Rückgabe
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
 <a id="src-de-baylt-erlangen-lippert-30588-2023"></a>
 ### Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Justiz
 
@@ -426,6 +574,10 @@ Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Jus
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP18/Drucksachen/Schriftliche%20Anfragen/18_0030588.pdf)
 
 Fundstelle: Gedruckte S. 3–7/8, Antworten 1a–1c, 2a–2c, 3b–4c, 5a–5b und 6a–7b; Antwort BayStMI 19.09.2023, darin Auszug BayLfV C/3-Schreiben 26.02.1981 und polizeiliche Gegenbefunde vom März 1981
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-de-baylt-erlangen-lippert-7784-2025"></a>
 ### Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Justiz
@@ -438,6 +590,10 @@ Bayerischer Landtag / Staatsministerium des Innern und Staatsministerium der Jus
 
 Fundstelle: Gedruckte S. 3–4/5, Antworten 1 und 2.1–5; Regierungsantwort 29.07.2025 zu VS-Vertraulich-Auswertungsdienstvorschrift 20.09.1978 und fehlender Frist für Übermittlung durch menschliche Quellen an BayLfV
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
+
 <a id="src-de-baylt-langemann-minderheit-13012-1982"></a>
 ### Bayerischer Landtag, SPD-/FDP-Minderheit des Langemann-Untersuchungsausschusses
 
@@ -448,6 +604,10 @@ Bayerischer Landtag, SPD-/FDP-Minderheit des Langemann-Untersuchungsausschusses 
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP09/Drucksachen/0000013000/09-13012.pdf)
 
 Fundstelle: Faksimile gedruckte S. 15 zur Publikation VS-Vertraulich/G-10 1980; S. 17 Vermerk 21.02.1980 zur Medienbeeinflussung; S. 17–18 Vormerkung 'Victory for Strauß' November 1979 mit Medien-/Finanzierungsprogramm; S. 25–26 Deckname Kinsky, Förderzahlungen an den Arbeitskreis, Stauffenbergs private Informationsdienst-Zahlungen und Bezieherkreis.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-de-baylt-langemann-mehrheit-12951-1982"></a>
 ### Bayerischer Landtag, Untersuchungsausschuss Langemann (Mehrheitsbericht)
@@ -460,6 +620,10 @@ Bayerischer Landtag, Untersuchungsausschuss Langemann (Mehrheitsbericht) · 1982
 
 Fundstelle: Faksimile gedruckte S. 11: Ziff. 2c zur Aktenweitergabe Oktoberfest; S. 13, Abschnitt 5, Ziffer 1: 8.000 DM an 'Prof. Dr. Johann Kinsky' (1976); Ziffer 4: Arbeitskreis-Förderung; Ziffer 5: von Stauffenbergs berichtete Zahlungen an Langemann.
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
 <a id="src-de-bayvfgh-okt-2014"></a>
 ### Bayerischer Verfassungsgerichtshof
 
@@ -470,6 +634,10 @@ Bayerischer Verfassungsgerichtshof · 2014-03-20 · Stufe **A** · Primärquelle
 [PDF öffnen](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 
 Fundstelle: Rn. 143–145, gedruckte S. 59 (Auskunftsdefizit); Antwort von 2012 auf S. 17; Gesamtentscheidung S. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2016">
 
 <a id="src-int-bilderberg-2016-archive"></a>
 ### Bilderberg Meetings
@@ -482,6 +650,10 @@ Bilderberg Meetings · 2016-06-09 · Stufe **B** · Primärquelle · `SRC-INT-BI
 
 Fundstelle: Ebeling, Thomas (DEU), CEO, ProSiebenSat.1
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-int-bilderberg-2017"></a>
 ### Bilderberg Meetings
 
@@ -492,6 +664,10 @@ Bilderberg Meetings · 2017 · Stufe **A** · Primärquelle · `SRC-INT-BILDERBE
 [Seite öffnen](https://bilderbergmeetings.org/meetings/meeting-2017/participants-2017)
 
 Fundstelle: Döpfner, Mathias (DEU), CEO, Axel Springer SE
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-int-bilderberg-steering-2026"></a>
 ### Bilderberg Meetings
@@ -504,6 +680,10 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 
 Fundstelle: John Micklethwait – Bloomberg; Steuerungsausschuss mit Teilnehmer- und Agendazuständigkeit
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-int-bilderberg-former-steering"></a>
 ### Bilderberg Meetings
 
@@ -514,6 +694,10 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 [Seite öffnen](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)
 
 Fundstelle: Sommer, Theo (DEU)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-gb-bp-agm-sawers-2023"></a>
 ### BP p.l.c., UK FCA National Storage Mechanism
@@ -526,6 +710,10 @@ BP p.l.c., UK FCA National Storage Mechanism · 2023 · Stufe **A** · Primärqu
 
 Fundstelle: Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Association UK und Executive Chair Newbridge Advisory Ltd
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
 <a id="src-de-barch-fricke-akteneinsicht-1997"></a>
 ### Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaftliche Reihe
 
@@ -536,6 +724,10 @@ Bundesarchiv / Bundesbeauftragter für die Stasi-Unterlagen (BStU), wissenschaft
 [PDF öffnen](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/AuD_099_Fricke_Akten-Einsicht_barrierefrei.pdf)
 
 Fundstelle: Buch S. 38 (PDF-Bildseite 37) Frickes Eigenbericht; S. 89–91 (PDF-Bildseiten 88–90) Abdruck der MfS-Anklageschrift 1955
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-barch-b136-1679-paris-1955-1956"></a>
 ### Bundesarchiv / Bundeskanzleramt
@@ -548,6 +740,10 @@ Bundesarchiv / Bundeskanzleramt · 2026-04-24 · Stufe **A** · Primärquelle ·
 
 Fundstelle: BArch B 136/1679; Laufzeit 1955–1956; Haushalts-, Kassen- und Rechnungswesen; Haushaltsangelegenheiten des BPA
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
 <a id="src-de-barch-b145-810-adk-1954-1956"></a>
 ### Bundesarchiv / Presse- und Informationsamt der Bundesregierung
 
@@ -558,6 +754,10 @@ Bundesarchiv / Presse- und Informationsamt der Bundesregierung · 2026-04-24 · 
 [Seite öffnen](https://www.deutsche-digitale-bibliothek.de/item/AQL6AGNH45NL2PMAXODEOHLWFOQ7DC67)
 
 Fundstelle: BArch B 145/810; Laufzeit 1954–1956; 65 Vorgänge; BPA, Öffentlichkeitsarbeit in Verteidigungsfragen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
 
 <a id="src-de-barch-soko-zwischenbericht-1980"></a>
 ### Bundesarchiv / Soko Theresienwiese (BLKA/BKA)
@@ -570,6 +770,10 @@ Bundesarchiv / Soko Theresienwiese (BLKA/BKA) · 1980-09 · Stufe **A** · Prim�
 
 Fundstelle: BArch B 141/68772, Image 0643; Faksimile 'Zwischenbericht der Soko Theresienwiese', Seite 1, Abschnitt 'Ermittlungsführung': Übernahme durch GBA 27.09.1980, 14.10 Uhr; auf der amtlichen Bundesarchiv-Ausstellungsseite in der 31-seitigen Dokumentengruppe
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
 <a id="src-de-barch-baumann-urbach-1973"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
 
@@ -580,6 +784,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1973-11-28 · Stufe **A** · Primärqu
 [Seite öffnen](https://www.stasi-mediathek.de/medien/protokoll-ueber-die-vernehmung-michael-bommi-baumanns-nach-seiner-einreise-in-die-ddr-mit-falschen-papieren/blatt/90/)
 
 Fundstelle: BArch, MfS, HA VI, Nr. 1432, Bl. 90, Absatz französische Pistole Unique / Urbach / Mahler
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
 
 <a id="src-de-barch-mfs-wandervogel-1980"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
@@ -592,6 +800,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1980-09 · Stufe **A** · Primärquell
 
 Fundstelle: BArch, MfS, HA XXII, Nr. 5749, Bd. 4, Bl. 23 ff.; Transkript Aktion Wandervogel, 25./26.09.1980
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
+
 <a id="src-de-barch-mfs-haiii7729-1980"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
 
@@ -602,6 +814,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1980-10-29 · Stufe **A** · Primärqu
 [Seite öffnen](https://www.stasi-mediathek.de/medien/bericht-ueber-die-ermittlungen-von-lka-und-bka-zum-oktoberfestattentat-1980/blatt/149/)
 
 Fundstelle: BArch, MfS, HA III, Nr. 7729; Stasi-Mediathek, facsimilierte Berichtsstrecke zu LKA/BKA/Soko, digitale Blattseiten 149–152 (VS-NfD-Bericht, 27.09. Durchsuchungen, 28./29.09. Lageberichte); getrennt von MfS HA XXII 5749 Bd. 4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1986">
 
 <a id="src-de-mfs-la-belle-information-1986"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
@@ -614,6 +830,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1986-04-15 · Stufe **A** · Primärqu
 
 Fundstelle: BArch, MfS, HA XX, AKG Nr. 154, Bl. 558; Originalfaksimile im PDF Seite 2 von 2
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1988">
+
 <a id="src-de-mfs-la-belle-thesen-1988"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
 
@@ -624,6 +844,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · 1988-01-27 · Stufe **A** · Primärqu
 [Seite öffnen](https://www.stasi-mediathek.de/medien/thesenzuarbeit-fuer-erich-mielke-in-vorbereitung-der-antiterrorismuskonsultationen-der-ddr-mit-den-usa/blatt/163/)
 
 Fundstelle: BArch, MfS, HA XXII, Nr. 18138, Bd. 1, Bl. 158–171, besonders Bl. 163 und Passage La Belle
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-barch-kab-bdj-19521010"></a>
 ### Bundesarchiv, Editionsreihe Die Kabinettsprotokolle der Bundesregierung
@@ -636,6 +860,10 @@ Bundesarchiv, Editionsreihe Die Kabinettsprotokolle der Bundesregierung · 1952-
 
 Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-Schreiben 16.10.1952, 10.000 DM); ergänzend B 106/15584 (BMI)
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
 <a id="src-de-bgh-cumex-2021"></a>
 ### Bundesgerichtshof
 
@@ -646,6 +874,10 @@ Bundesgerichtshof · 2021-07-28 · Stufe **A** · Primärquelle · `SRC-DE-BGH-C
 [Seite öffnen](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=122362)
 
 Fundstelle: Amtliche Leitsätze, insbesondere Leitsatz 1; ECLI:DE:BGH:2021:280721U1STR519.20.0
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
 
 <a id="src-de-bgh-la-belle-2004"></a>
 ### Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24
@@ -658,6 +890,10 @@ Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24 · 2004-06-24
 
 Fundstelle: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
 <a id="src-de-stammheim-herold-schreiben-19770211"></a>
 ### Bundeskriminalamt / Horst Herold / OLG Stuttgart / Edition Stammheim-Prozess
 
@@ -668,6 +904,10 @@ Bundeskriminalamt / Horst Herold / OLG Stuttgart / Edition Stammheim-Prozess · 
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-1-17.2.1977-S.-13425-Schreiben-des-Praesidenten-des-BKA-Dr.-Herold-vom-11.2.1977.pdf)
 
 Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 1, Protokollseite 13425
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-bmi-herold-aussagegenehmigung-19770303"></a>
 ### Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess
@@ -680,6 +920,10 @@ Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess · 1977-03
 
 Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3 (Fotokopie), Protokollseiten 13619–13620
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
 <a id="src-de-bnd-geschichte-2011"></a>
 ### Bundesnachrichtendienst
 
@@ -688,6 +932,10 @@ Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 1
 Bundesnachrichtendienst · 2011 · Stufe **A** · Primärquelle · `SRC-DE-BND-GESCHICHTE-2011`
 
 [PDF öffnen](https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bverfg-okt-2017"></a>
 ### Bundesverfassungsgericht
@@ -700,6 +948,10 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
 <a id="src-de-bverfg-2bve1-76-19770302"></a>
 ### Bundesverfassungsgericht (Zweiter Senat)
 
@@ -710,6 +962,10 @@ Bundesverfassungsgericht (Zweiter Senat) · 1977-03-02 · Stufe **A** · Primär
 [Seite öffnen](https://www.servat.unibe.ch/dfr/bv044125.html)
 
 Fundstelle: Entscheidungsformel; Tatbestand Rn. 2–9; Gründe Rn. 86–138 (Anzeigen), 139–167 (Druckschriften)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1966">
 
 <a id="src-de-bverfg-parteienfinanzierung-19660719"></a>
 ### Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politische Bildung
@@ -722,6 +978,10 @@ Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politis
 
 Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Titel 612 (1965)
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
 <a id="src-de-bverwg-c18-6vr120-2020"></a>
 ### Bundesverwaltungsgericht
 
@@ -732,6 +992,10 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1953">
 
 <a id="src-us-cia-qksnitch-final-1953"></a>
 ### Central Intelligence Agency
@@ -744,6 +1008,10 @@ Central Intelligence Agency · 1953-04-14 · Stufe **B** · Primärquelle · `SR
 
 Fundstelle: Indexierter OCR-Auszug; Anlage D noch nicht unabhängig im Faksimile geprüft
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-us-cia-kmmanly-monthly-1952-1953"></a>
 ### Central Intelligence Agency / Office of Policy Coordination
 
@@ -754,6 +1022,10 @@ Central Intelligence Agency / Office of Policy Coordination · 1952-1953 · Stuf
 [PDF öffnen](https://www.foiaresearch.net/system/files/2023-11/kmmanly.pdf)
 
 Fundstelle: 55 PDF-Blätter, insbesondere Bl. 28–29, 41, 44 und 53–55
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1951">
 
 <a id="src-us-cia-lcprowl-v1-0044"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
@@ -766,6 +1038,10 @@ Central Intelligence Agency / Office of Policy Coordination (OPC) · 1951-01-24 
 
 Fundstelle: PDF-S. 2: Bericht 24.01.1951, Abschn. A; S. 3: Abschn. C (Cover), D (Operational Security), G (Finances); S. 6: Board-Protokoll 21.12.1950
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1951">
+
 <a id="src-us-cia-lcprowl-v1-0037"></a>
 ### Central Intelligence Agency / Office of Policy Coordination (OPC)
 
@@ -776,6 +1052,10 @@ Central Intelligence Agency / Office of Policy Coordination (OPC) · 1951-06-11 
 [PDF öffnen](https://web.archive.org/web/20250220053806id_/https://www.cia.gov/readingroom/docs/LCPROWL%20%20%20%20VOL.%201_0037.pdf)
 
 Fundstelle: PDF-S. 2–3: OPC Form 404a; S. 4: Outline Clearance Sheet, EE-3, 11.06.1951; S. 5: Project Amendment No. 2, Ziff. 2–3; S. 6–7: Ziff. 4a–4d; S. 8: Ziff. 4e–6
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-us-cia-lcprowl-v2-0023"></a>
 ### Central Intelligence Agency, EE/PP/Germany
@@ -788,6 +1068,10 @@ Central Intelligence Agency, EE/PP/Germany · 1953-04-15 · Stufe **A** · Prim�
 
 Fundstelle: PDF-S. 1: Übersendung des SPD-Weißbuchs; S. 2: Memorandum 15.04.1953, Einleitung und Ziff. 1–3; S. 3: Ziff. 3–8, besonders Ziff. 7 zum Defizit von 40.000 DM, personeller Reduktion und angekündigtem Finanzierungsende; S. 4: Ziff. 8–10 und Gesamtwertung
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
+
 <a id="src-us-cia-helms-rusty-19480319"></a>
 ### Central Intelligence Agency, Original bei National Security Archive
 
@@ -798,6 +1082,10 @@ Central Intelligence Agency, Original bei National Security Archive · 1948-03-1
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)
 
 Fundstelle: Document 59, PDF-Bildseite 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1988">
 
 <a id="src-it-court-bologna-aqura-1988"></a>
 ### Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (stragi.it)
@@ -810,6 +1098,10 @@ Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (
 
 Fundstelle: Digitalisiertes Urteil, 1937 PDF-Seiten: PDF S. 153–155 (gedruckte S. 59–61, Interview Porena/Abu Iyad 19.09.1980); PDF S. 174–177 (gedruckte S. 80–83, SISDE 09.10.1980, CESIS 31.10.1980/30.01.1981); PDF S. 1307–1308 (gedruckte S. 1213–1214, Giovannone-/Propagandabewertung). SHA-256 Faksimile d2ac7f6d986a664d0da10790381eb453d7286af24eeb48006185c37f36d67cb9
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-de-bt-bdj-19521023"></a>
 ### Deutscher Bundestag
 
@@ -820,6 +1112,10 @@ Deutscher Bundestag · 1952-10-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btp/01/01235.pdf)
 
 Fundstelle: gedruckte S. 10804–10813, besonders S. 10805: Lehr zu BDJ/TD, 10.000-DM-BMG-Zuschuss, BMI-Abwehrmittel, Kommission 02./08.10.; S. 10812: Zinn zu Ermittlungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-bt-04644-1953"></a>
 ### Deutscher Bundestag
@@ -832,6 +1128,10 @@ Deutscher Bundestag · 1953-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Drucksache Nr. 4644
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1957">
+
 <a id="src-de-bt-plenar-02225-epl04-t309-19570706"></a>
 ### Deutscher Bundestag
 
@@ -842,6 +1142,10 @@ Deutscher Bundestag · 1957-07-06 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/02/02225.pdf#page=22)
 
 Fundstelle: 2. Wahlperiode, 225. Sitzung 06.07.1957, gedruckte Seite 13492, PDF-Bildseite 22; 6. Nachtragshaushalt Rechnungsjahr 1956
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1967">
 
 <a id="src-de-bt-adk-plenum-19670607"></a>
 ### Deutscher Bundestag
@@ -854,6 +1158,10 @@ Deutscher Bundestag · 1967-06-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: 5/111 gedruckte S. 5279, PDF-Bild 35; Gegenrede Haase S. 5280
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
 <a id="src-de-bt-plenar-06135-bpa-19710923"></a>
 ### Deutscher Bundestag
 
@@ -864,6 +1172,10 @@ Deutscher Bundestag · 1971-09-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/06/06135.pdf#page=53)
 
 Fundstelle: 6. Wahlperiode, 135. Sitzung, gedruckte S. 7912–7913, Ahlers' Antwort auf Leicht
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
 
 <a id="src-de-bt-plenar-08164-mobil-19790628"></a>
 ### Deutscher Bundestag
@@ -876,6 +1188,10 @@ Deutscher Bundestag · 1979-06-28 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: 8. Wahlperiode, 164. Sitzung, gedruckte S. 13158, linke Spalte
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1981">
+
 <a id="src-de-bt-09066-1981"></a>
 ### Deutscher Bundestag
 
@@ -886,6 +1202,10 @@ Deutscher Bundestag · 1981-11-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btp/09/09066.pdf)
 
 Fundstelle: gedruckte S. 3842–3843, Zusatzfrage Gnädinger sowie Frage 16 Fischer (Osthofen)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-de-bt-1311005-1998"></a>
 ### Deutscher Bundestag
@@ -898,6 +1218,10 @@ Deutscher Bundestag · 1998 · Stufe **A** · Primärquelle · `SRC-DE-BT-131100
 
 Fundstelle: gedruckte S. 55–57 (Vortrag), 72–74 (AA/BMVg-Bewilligung und Materialbereitstellung), 460 (Vorstandswahl) und 464–465 (Fahrzeugverbleib); Roeder und DRGW
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2009">
+
 <a id="src-de-bt-ua-bnd-journalisten-2009"></a>
 ### Deutscher Bundestag
 
@@ -908,6 +1232,10 @@ Deutscher Bundestag · 2009-06-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/16/134/1613400.pdf)
 
 Fundstelle: Drucksache 16/13400; Teil B, S. 344–345 zur festgestellten Foertsch-Einflussnahme; Teil C H, S. 414–418 zur Mehrheitsbewertung der Journalistenobservationen; Teil G, S. 963–964 für die ausdrücklich getrennte Sondervotums-/Schäfer-Bericht-Passage zu Mascolo.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
 
 <a id="src-de-bt-nsu-rennsteig-2012"></a>
 ### Deutscher Bundestag
@@ -920,6 +1248,10 @@ Deutscher Bundestag · 2012-07-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
 <a id="src-de-bt-plenar-vm2100-18096-2015"></a>
 ### Deutscher Bundestag
 
@@ -930,6 +1262,10 @@ Deutscher Bundestag · 2015-03-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btp/18/18096.pdf)
 
 Fundstelle: Gedruckte S. 9133–9134; PDF-Bildindex 36–37
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
 <a id="src-de-bt-nsu-yozgat-2016"></a>
 ### Deutscher Bundestag
@@ -942,6 +1278,10 @@ Deutscher Bundestag · 2016-12-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Öffentliche Anhörung des 3. UA vom 15.12.2016; Abschnitte Temme, Zeugengenehmigung, E-Mail Pilling vom 24.03.2006
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-bt-nsu-bilanz-2017"></a>
 ### Deutscher Bundestag
 
@@ -952,6 +1292,10 @@ Deutscher Bundestag · 2017 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-BI
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2017/kw32-nsu-bilanz-515208)
 
 Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstützerstrukturen liegen noch im Dunkeln
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bt-nsu-lingen-2017"></a>
 ### Deutscher Bundestag
@@ -964,6 +1308,10 @@ Deutscher Bundestag · 2017-02-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 Fundstelle: Absätze zur Aktion Konfetti; Aussage Lingens von 2014; Aussagen Fromms vom 16.02.2017
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-bt-cumex-pua-2017"></a>
 ### Deutscher Bundestag
 
@@ -974,6 +1322,10 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/127/1812700.pdf)
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
 <a id="src-de-bt-nonne-3123-1992"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -986,6 +1338,10 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2000">
+
 <a id="src-de-bt-piatto-br-1403979-20000810"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -996,6 +1352,10 @@ Deutscher Bundestag / Bundesregierung · 2000-08-10 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/14/039/1403979.pdf)
 
 Fundstelle: BT-Drs. 14/3979, gedruckte S. 2–4; Regierungsantwort und Fragen der Abgeordneten getrennt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
 
 <a id="src-de-bt-bh-nachverbot-1409182-2002"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1008,6 +1368,10 @@ Deutscher Bundestag / Bundesregierung · 2002-05-30 · Stufe **A** · Primärque
 
 Fundstelle: BT-Drs. 14/9182, gedruckte S. 3, PDF-Bildindex 2
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2009">
+
 <a id="src-de-bt-okt-1613527-2009"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1018,6 +1382,10 @@ Deutscher Bundestag / Bundesregierung · 2009-06-22 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/16/135/1613527.pdf)
 
 Fundstelle: S. 4–6, Fragen 4, 6 und 8; anonyme Bologna-Anruferin, italienische Festnahmen und kriminaltechnische Spuren im Köhler-Elternhaus
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
 
 <a id="src-de-bt-bfvbka-1711490-20121115"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1030,6 +1398,10 @@ Deutscher Bundestag / Bundesregierung · 2012-11-16 · Stufe **A** · Primärque
 
 Fundstelle: BT-Drs. 17/11490, gedruckte S. 14 (PDF-Bildseite 22); Antwort von Klaus-Dieter Fritsche vom 15.11.2012 auf Frage von Hans-Christian Ströbele S. 13
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
 <a id="src-de-bt-bfv-referat-2014"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1040,6 +1412,10 @@ Deutscher Bundestag / Bundesregierung · 2014-09-30 · Stufe **A** · Primärque
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2014_09/332648-332648)
 
 Fundstelle: Erster Absatz: Gründung Referat Rechtsterrorismus im BfV 1981
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-de-bt-okt-183259-2014"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1052,6 +1428,10 @@ Deutscher Bundestag / Bundesregierung · 2014-11-24 · Stufe **A** · Primärque
 
 Fundstelle: gedruckte S. 3–11, insbesondere S. 4–7 (Spur 253, Lembke, Asservate), S. 9–10 (Gerichtsverwertbarkeit, Munitionsherkunft)
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
 <a id="src-de-bt-okt-183985-2015"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1062,6 +1442,10 @@ Deutscher Bundestag / Bundesregierung · 2015-02-09 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/18/039/1803985.pdf)
 
 Fundstelle: Antworten 14–16, 19–23 und Geheimdienstaktenlage; spätere Ergänzung in BT-Drs. 18/13318 beachten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bt-okt-1811602-2017"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1074,6 +1458,10 @@ Deutscher Bundestag / Bundesregierung · 2017-03-22 · Stufe **A** · Primärque
 
 Fundstelle: Gedruckte S. 2, Antworten 1–4: BayHStA→BLKA 26.03.2015, BKA→GBA 14.01.2015 (Erlanger Akten); BND-Abgaben Februar 2014/Juni 2016 unter BArch B 206/3009
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-bt-okt-1813318-2017"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1084,6 +1472,10 @@ Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/18/133/1813318.pdf)
 
 Fundstelle: gedruckte S. 1–3; Fragen 14–16 (Oktoberfest), 19–21 (WSG), 22–23 (BfV-V-Personen), 28–31 (Landesämter)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bt-okt-1813317-2017"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1096,6 +1488,10 @@ Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärque
 
 Fundstelle: S. 1, Antwort 2a
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
 <a id="src-de-bt-okt-1922142-2020"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1106,6 +1502,10 @@ Deutscher Bundestag / Bundesregierung · 2020-09-07 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/19/221/1922142.pdf)
 
 Fundstelle: gedruckte S. 2–5, insbesondere Antworten 1, 2 und 3 (Motiv und Mitwisserschaft) sowie 4 (Zeugenbewertung)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-bt-okt-motiv-2020"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1118,6 +1518,10 @@ Deutscher Bundestag / Bundesregierung · 2020-09-14 · Stufe **A** · Primärque
 
 Fundstelle: Absatz 1-3; Einstellungsverfügung GBA vom 06.07.2020 und Bewertung rechtsextremistisch
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
 <a id="src-de-bt-okt-1922430-2020"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1128,6 +1532,10 @@ Deutscher Bundestag / Bundesregierung · 2020-09-15 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/19/224/1922430.pdf)
 
 Fundstelle: gedruckte S. 2–7, insbesondere Antworten 3–5 (Hand und Geldschein), 18–21 (Geheimdienst- und Stay-behind-Komplex)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-bt-okt-weitere-2020"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1140,6 +1548,10 @@ Deutscher Bundestag / Bundesregierung · 2020-09-24 · Stufe **A** · Primärque
 
 Fundstelle: Absatz 1-3; Stand und Grenzen der Ermittlungen zur Beteiligung weiterer Personen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
 <a id="src-de-bt-okt-200358-2021"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -1150,6 +1562,10 @@ Deutscher Bundestag / Bundesregierung · 2021-12-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/20/003/2000358.pdf)
 
 Fundstelle: Gedruckte S. 1–3, Antworten auf Fragen 1–3: Behörden-/Archivliste, Arten der Aktenbeiziehung, partielle Aktenrückgabe per 30.12.2021
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-de-bt-warburg-antwort-2025"></a>
 ### Deutscher Bundestag / Bundesregierung
@@ -1162,6 +1578,10 @@ Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärque
 
 Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
 <a id="src-de-bt-khk-s-19910627"></a>
 ### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
 
@@ -1172,6 +1592,10 @@ Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1991-06-
 [PDF öffnen](https://dserver.bundestag.de/btd/12/008/1200868.pdf)
 
 Fundstelle: Gedruckte S. 1, Frage 1: Abordnung 12.02.–18.05.1971; S. 2, Frage 3: Zeugenrolle Heimerzheim; S. 3, Antworten zu Fragen 5/6, 8/9: Anklage 08.04.1991, Erkenntnisstand und weitere Ermittlungsverfahren
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
 
 <a id="src-de-bt-mfs-kontakte-19930721"></a>
 ### Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern
@@ -1184,6 +1608,10 @@ Deutscher Bundestag / Bundesregierung / Bundesministerium des Innern · 1993-07-
 
 Fundstelle: Gedruckte S. 2: Namensabkürzung Walter Sch., Kriminalhauptkommissar Duisburg, einst Sicherungsgruppe Bonn, Querverweis Drs. 12/868; S. 3: Fragen nach Geld, Leistungen und Aussagebereitschaft sowie Regierungsantworten
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
 <a id="src-de-bt-gladio-18701-2014"></a>
 ### Deutscher Bundestag / Bundesregierung, Bundeskanzleramt
 
@@ -1194,6 +1622,10 @@ Deutscher Bundestag / Bundesregierung, Bundeskanzleramt · 2014-03-03 · Stufe *
 [PDF öffnen](https://dserver.bundestag.de/btd/18/007/1800701.pdf)
 
 Fundstelle: Gedruckte S. 5, Antwort auf Frage 9: BND-Unterlagen 1980/81 zu Beirut/Fatah-Zeltlager, Vermerk 29.09.1980 zu AQURA/italienischen Rechtsextremisten, keine feststellbare Ordine-Nuovo-Zuordnung und Bundesarchiv-Übergabe 17.02.2014; S. 2, Vorbemerkung Nr. 2 ohne bestätigte BND-Stay-behind-Terrorverbindung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
 
 <a id="src-de-bt-wsg-weinmann-124605-1993"></a>
 ### Deutscher Bundestag / Bundesregierung, Bundesministerium des Innern
@@ -1206,6 +1638,10 @@ Deutscher Bundestag / Bundesregierung, Bundesministerium des Innern · 1993-03-2
 
 Fundstelle: Gedruckte S. 1–3: Fragestellerzitierung aus General-Anzeiger (22.02.1993), wonach ein Flugblatt des WSG-Freundeskreises von 1975 Peter Weinmann als 'Informationsstelle Bonn' genannt habe; Fragen 1 und 10 zur BfV-Tätigkeit/WSG-Freundeskreis. Gedruckte S. 4 (PDF S. 4), Einleitende Bundesantwort 17.03.1993: keine öffentliche Stellungnahme über nachrichtendienstliche Einzelheiten, unabhängig vom Wahrheitsgehalt der Behauptungen.
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1981">
+
 <a id="src-de-bt-wsg-freundeskreis-9081-1981"></a>
 ### Deutscher Bundestag / Bundesregierung, Staatssekretär Dr. Fröhlich
 
@@ -1216,6 +1652,10 @@ Deutscher Bundestag / Bundesregierung, Staatssekretär Dr. Fröhlich · 1981-01-
 [PDF öffnen](https://dserver.bundestag.de/btd/09/000/0900081.pdf)
 
 Fundstelle: Gedruckte S. 7, Frage und Antwort Nr. 14, Antwort des Staatssekretärs Dr. Fröhlich vom 23.12.1980: nach damaligem Kenntnisstand keine fortdauernden Spendeninformationen, jüngste Freundeskreisaktivität nicht festgestellt und das in Presse erwähnte Nürnberger Postscheckkonto sei ein Privatkonto Hoffmanns.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1968">
 
 <a id="src-de-bt-adk-haushalt-19680315"></a>
 ### Deutscher Bundestag / Haushaltsausschuss
@@ -1228,6 +1668,10 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primär
 
 Fundstelle: Gedruckte S. 4, Titel 300: 8 vs. 7 Mio. DM; S. 5 Titel 314: 6 vs. 7 Mio. DM
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1968">
+
 <a id="src-de-bt-haushaltsgesetz-v2731-1968"></a>
 ### Deutscher Bundestag / Haushaltsausschuss
 
@@ -1238,6 +1682,10 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-15 · Stufe **A** · Primär
 [Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731.pdf#page=1)
 
 Fundstelle: Drucksache V/2731, Titelseite/PDF-Bildseite 1: Ausschussantrag und Datum Bonn 15.03.1968; anschließend Zusammenstellung der Haushaltsgesetzfassungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1968">
 
 <a id="src-de-bt-adk-bericht-zu-v2731-1968"></a>
 ### Deutscher Bundestag / Haushaltsausschuss
@@ -1250,6 +1698,10 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primär
 
 Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
 <a id="src-de-bt-nsu-ua-prot70-egerton-20130513"></a>
 ### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
 
@@ -1260,6 +1712,10 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-05-13 �
 [PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2070a.pdf)
 
 Fundstelle: Endgültige Fassung, Protokoll Nr. 70a, gedruckte S. 22, 57, 59, 61
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
 
 <a id="src-de-bt-piatto-nsu-ua-1714600-2013"></a>
 ### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
@@ -1272,6 +1728,10 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 �
 
 Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bislang nur amtlich indexierter Text), S. 219 (PDF-Bildseite 267; am 17.10.2026 direkt am Originalbild geprüft)
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-de-frak-bdj-19521021"></a>
 ### Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899)
 
@@ -1282,6 +1742,10 @@ Edition der CDU/CSU-Fraktionsprotokolle (historische Vorlage BArch B 145/1899) �
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-01_1952-10-21-t1500_AN.html)
 
 Fundstelle: 21.10.1952, Tagesordnungspunkt Hans Egidi/BDJ; BfV-Waffenlager 1950, Übungen 1951, BDJ Bundesmittel 10.000/6.000 DM; Editionsanmerkung 4 zum Gesamtdeutschen Ausschuss 29.03.1951
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1976">
 
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
 ### Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht unabhängig authentifizierter privater Sammlung
@@ -1294,6 +1758,10 @@ Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht
 
 Fundstelle: Vollständiges Einladungsblatt, Veranstaltung 29.10.1976 in Nürnberg; unten links Impressum mit Finanzverwalter 'Franz Lippert', Bonner Informationsstelle '(P. Weinmann)' und Spendenkonto beim Postscheckamt Nürnberg. Commons-Beschreibung gibt 01.10.1976 als Datum an (Uploader-Angabe, NICHT Urschriftdatierung). Datei 2480×3507 px, SHA-256 a8e36b8b3259c42414ca36128f2827984aae064545ca8ffe4e1bf295f4120438.
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
 <a id="src-de-stammheim-buback-verfuegung-19770215"></a>
 ### Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-Prozess
 
@@ -1304,6 +1772,10 @@ Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-P
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf)
 
 Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="">
 
 <a id="src-de-gsp-bpa-vertrag-1953"></a>
 ### Gesellschaft für Sicherheitspolitik e.V.
@@ -1316,6 +1788,10 @@ Gesellschaft für Sicherheitspolitik e.V. · current · Stufe **B** · Primärqu
 
 Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
 <a id="src-de-hh-cumex-pua-2024"></a>
 ### Hamburgische Bürgerschaft
 
@@ -1326,6 +1802,10 @@ Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
 
 Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-de-hmg-afhueppe-2014"></a>
 ### Handelsblatt Media Group
@@ -1338,6 +1818,10 @@ Handelsblatt Media Group · 2014 · Stufe **A** · Primärquelle · `SRC-DE-HMG-
 
 Fundstelle: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
+
 <a id="src-de-he-vsber-1982"></a>
 ### Hessische Landesregierung / Verfassungsschutz Hessen
 
@@ -1348,6 +1832,10 @@ Hessische Landesregierung / Verfassungsschutz Hessen · 1982 · Stufe **A** · P
 [PDF öffnen](https://starweb.hessen.de/cache/hessen/vsbericht1982.pdf)
 
 Fundstelle: gedruckte S. 15, Abschnitt Manfred Roeder/Deutsche Bürgerinitiative; PDF-Seite 16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
 
 <a id="src-de-helt-bdj-186904-2013"></a>
 ### Hessischer Landtag / Hessische Landesregierung
@@ -1360,6 +1848,10 @@ Hessischer Landtag / Hessische Landesregierung · 2013-03-19 · Stufe **A** · P
 
 Fundstelle: gedruckte S. 1: Regierungsantwort Frage 1 (Staatskanzlei und deutsch-amerikanischer Kommissionsaktenband); S. 2–3: Archivbestände, Rechts- und Forschungszugang in 2013
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-de-hhstaw-502-17886"></a>
 ### Hessisches Hauptstaatsarchiv Wiesbaden
 
@@ -1370,6 +1862,10 @@ Hessisches Hauptstaatsarchiv Wiesbaden · unbekannt · Stufe **A** · Primärque
 [Seite öffnen](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=6991555)
 
 Fundstelle: HHStAW, 502, 17886; Bd. 1; Laufzeit [1951] 1952–1953; 'Enthält'-Vermerk zur Deutsch-Amerikanischen Untersuchungskommission
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
 
 <a id="src-de-stammheim-128-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
@@ -1382,6 +1878,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: S. 10633–10659; Anlagen 4–19
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
 <a id="src-de-stammheim-158-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
 
@@ -1392,6 +1892,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 [Seite öffnen](https://www.stammheim-prozess.de/158-verhandlungstag/)
 
 Fundstelle: Protokoll S. 12262–12270 (Teilfreigabe und Unterbrechungsantrag), 12277–12283 (Antragsbehandlung, Ablehnung und Senatsbeschluss)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
 
 <a id="src-de-stammheim-159-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
@@ -1404,6 +1908,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: Akten 3 ARP 74/75 I und 1 BJs 7/76; Protokoll S. 12288–12292 und 12306
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
 <a id="src-de-stammheim-161-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
 
@@ -1414,6 +1922,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 [Seite öffnen](https://www.stammheim-prozess.de/161-verhandlungstag/)
 
 Fundstelle: Protokoll S. 12347–12353; zwölf weiterhin gesperrte Fundstellen, zehn nicht kopierte Formalblätter
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
 
 <a id="src-de-stammheim-163-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
@@ -1426,6 +1938,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 
 Fundstelle: Protokoll S. 12507–12513, 12522–12523 (Sicherungsgruppe und Werner Freund), 12581–12645; Aussagen Fisch, Wolf, Zimniak
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
 <a id="src-de-stammheim-166-1976"></a>
 ### Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll
 
@@ -1436,6 +1952,10 @@ Humboldt-Universität zu Berlin / Forschungsedition Stammheim-Protokoll · 1976-
 [Seite öffnen](https://www.stammheim-prozess.de/166-verhandlungstag/)
 
 Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Liepe, Becher, Gehlen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-jhs-newbridge-2026"></a>
 ### Joachim Herz Stiftung
@@ -1448,6 +1968,10 @@ Joachim Herz Stiftung · current · Stufe **A** · Primärquelle · `SRC-DE-JHS-
 
 Fundstelle: Förderangebote für junge Menschen, New Bridge Program
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1967">
+
 <a id="src-de-kgparl-cdu-adk-19670606"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
@@ -1458,6 +1982,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-06-06-t1505_WZ.html)
 
 Fundstelle: ACDP 08-001-1014/1; Wortprotokoll; Burger und Niederalt, DOI 10.82988/fddm-ew62
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1967">
 
 <a id="src-de-kgparl-cdu-adk-19671205"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
@@ -1470,6 +1998,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 
 Fundstelle: ACDP 08-001-1015/2, TOP 5, DOI 10.82988/n09r-wv67
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1967">
+
 <a id="src-de-kgparl-cdu-adk-19671212"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
@@ -1480,6 +2012,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1967-12-12-t1507_WZ.html)
 
 Fundstelle: ACDP 08-001-1015/2, Teil A Barzel, DOI 10.82988/bprm-rn16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1968">
 
 <a id="src-de-kgparl-cdu-adk-19680326"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
@@ -1492,6 +2028,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 
 Fundstelle: ACDP 08-001-1016/1, Teil A, DOI 10.82988/jmdx-7e83, editorische Fn. 7
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1968">
+
 <a id="src-de-kgparl-cdu-adk-19680402"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / CDU-CSU-Fraktion
 
@@ -1502,6 +2042,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / C
 [Seite öffnen](https://www.fraktionsprotokolle.de/cdu-csu-05_1968-04-02-t0805_WZ.html)
 
 Fundstelle: ACDP 08-001-1016/1, TOP 3, DOI 10.82988/b995-sj37, editorische Fn. 20
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1967">
 
 <a id="src-de-kgparl-spd-adk-19670606"></a>
 ### Kommission für Geschichte des Parlamentarismus und der politischen Parteien / SPD-Fraktion
@@ -1514,6 +2058,10 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / S
 
 Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische Fußnote 32; historische AdsD-Originalsignatur nicht eigenständig eingesehen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
 <a id="src-de-bwlt-stammheim-2007"></a>
 ### Landtag Baden-Württemberg / Justizministerium
 
@@ -1524,6 +2072,10 @@ Landtag Baden-Württemberg / Justizministerium · 2007-10-08 · Stufe **A** · P
 [PDF öffnen](https://www.landtag-bw.de/resource/blob/55082/25d8847bfe8691b874833b0dd117ec62/14_1721_D.pdf)
 
 Fundstelle: Antwort zu Fragen 1–6, gedruckte S. 3–6
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
 
 <a id="src-de-bb-nsu-sondervotum-2019"></a>
 ### Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen
@@ -1536,6 +2088,10 @@ Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen · 2019 · Stufe **A** · 
 
 Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jeweils eins niedriger
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
 <a id="src-de-nrw-posser-regierung-1970"></a>
 ### Landtag Nordrhein-Westfalen
 
@@ -1546,6 +2102,10 @@ Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle · `SR
 [PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
 
 Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2007">
 
 <a id="src-de-message-sommer-bilderberg-2007"></a>
 ### message
@@ -1558,6 +2118,10 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
 <a id="src-fr-mae-1rp-findbuch-2023"></a>
 ### Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplomatiques de La Courneuve
 
@@ -1568,6 +2132,10 @@ Ministère de l'Europe et des Affaires étrangères / Centre des Archives diplom
 [PDF öffnen](https://archivesdiplomatiques.diplomatie.gouv.fr/media/894739ac-3d8f-4abb-bd77-171965ecbeab.pdf)
 
 Fundstelle: 373 PDF-Seiten: S. 17 (1RP 11/6 VFF), S. 18 (1RP 16/5 Verfassungschutz), S. 23 (1RP 34/2 BDJ), S. 53 (1RP 233/4 BDJ und 233/7 VFF), S. 85 (1RP 438/3 BDJ), S. 267 (1RP 2262/1 BDJ), S. 343 (1RP 2950/3 BDJ)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-int-nato-warsaw-summit-2016"></a>
 ### NATO
@@ -1580,6 +2148,10 @@ NATO · 2015-05-22 · Stufe **A** · Primärquelle · `SRC-INT-NATO-WARSAW-SUMMI
 
 Fundstelle: Ankündigung des NATO-Generalsekretärs; Warsaw Summit am 8.–9. Juli 2016
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
 <a id="src-de-ndr-panorama-urbach-1971"></a>
 ### NDR / Das Erste / Panorama-Archiv
 
@@ -1591,6 +2163,10 @@ NDR / Das Erste / Panorama-Archiv · 1971-05-24 · Stufe **A** · Primärquelle 
 
 Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minuten; NDR-Redaktionsbeschreibung
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
 <a id="src-de-ni-mj-celler-2015"></a>
 ### Niedersächsisches Justizministerium
 
@@ -1599,6 +2175,10 @@ Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minu
 Niedersächsisches Justizministerium · 2015-07-24 · Stufe **A** · Primärquelle · `SRC-DE-NI-MJ-CELLER-2015`
 
 [Seite öffnen](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-olg-stuttgart-raf-1977"></a>
 ### Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition
@@ -1611,6 +2191,10 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 
 Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
 <a id="src-de-stammheim-herold-184-19770315"></a>
 ### OLG Stuttgart / Edition Stammheim-Prozess
 
@@ -1621,6 +2205,10 @@ OLG Stuttgart / Edition Stammheim-Prozess · 1977-03-15 · Stufe **A** · Primä
 [Seite öffnen](https://www.stammheim-prozess.de/184-verhandlungstag/)
 
 Fundstelle: Protokollseiten 13617 ff., 13643–13652, 13664–13667
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-stammheim-schily-herold-19770114"></a>
 ### Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess
@@ -1633,6 +2221,10 @@ Otto Schily / OLG Stuttgart / Edition Stammheim-Prozess · 1977-01-14 · Stufe *
 
 Fundstelle: 174. Verhandlungstag, 20.01.1977, Anlage 5 (laut Protokoll in Ablichtung beigefügt), Protokollseiten 13272–13273
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
 <a id="src-it-senato-stragi-2001"></a>
 ### Parlamento italiano
 
@@ -1643,6 +2235,10 @@ Parlamento italiano · 2001 · Stufe **A** · Primärquelle · `SRC-IT-SENATO-ST
 [PDF öffnen](https://www.senato.it/service/PDF/PDFServer/BGT/301445.pdf)
 
 Fundstelle: Doc. XXIII n. 64, volume I, tomo II
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1986">
 
 <a id="src-de-aa-aapd-la-belle-warnung-1986"></a>
 ### Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte
@@ -1655,6 +2251,10 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
+
 <a id="src-uy-impo-ley15322-1982-original"></a>
 ### República Oriental del Uruguay, IMPO
 
@@ -1665,6 +2265,10 @@ República Oriental del Uruguay, IMPO · 1982-09-17 · Stufe **A** · Primärque
 [Seite öffnen](https://www.impo.com.uy/bases/decretos-leyes-originales/15322-1982)
 
 Fundstelle: Decreto-Ley 15322, Originalfassung 1982, nicht nachträglich konsolidierter Rechtstext
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
 
 <a id="src-uy-conviccion-bafisud-reply-1984"></a>
 ### Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay
@@ -1677,6 +2281,10 @@ Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay · 1984-02-16 · 
 
 Fundstelle: PDF-Seite 7, Bankbrief: NMB im ersten Quartal 1983 mehrheitlich beteiligt und beanspruchte 100% 1984; Redaktion zu Mario Ortolani
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
 <a id="src-de-rotehilfe-ruhland-1975"></a>
 ### Rote Hilfe / Hans-Litten-Archiv (Digitalisat)
 
@@ -1687,6 +2295,10 @@ Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Prim�
 [PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
 
 Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-hh-warburg-senat-2020"></a>
 ### Senat der Freien und Hansestadt Hamburg
@@ -1699,6 +2311,10 @@ Senat der Freien und Hansestadt Hamburg · 2020 · Stufe **A** · Primärquelle 
 
 Fundstelle: Drucksache 21/20198, Frage 4 a
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
 <a id="src-it-senato-piazza-2006"></a>
 ### Senato della Repubblica
 
@@ -1707,6 +2323,10 @@ Fundstelle: Drucksache 21/20198, Frage 4 a
 Senato della Repubblica · 2006-12-12 · Stufe **A** · Primärquelle · `SRC-IT-SENATO-PIAZZA-2006`
 
 [Seite öffnen](https://www.senato.it/show-doc?id=227361&idoggetto=0&leg=15&part=doc_dc-ressten_rs-gentit_sadsdpf&tipodoc=resaula)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
 
 <a id="src-it-parl-aqura-por-xxiii64-2001"></a>
 ### Senato della Repubblica / Camera dei deputati, XIII legislatura
@@ -1719,6 +2339,10 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-de-fes-spdpd-bdj-19521009"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
 
@@ -1729,6 +2353,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 [PDF öffnen](https://library.fes.de/spdpd/1952/521009.pdf)
 
 Fundstelle: Heft P/VIII/234, gedruckte S. 1–2, PDF-Bildseiten 1–2; FES-TIFF 400 dpi: /tiff400/015/00000244.tif und 00000245.tif
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-fes-spdpd-bdj-19521010"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
@@ -1741,6 +2369,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 
 Fundstelle: Heft P/VIII/235, gedruckte S. 6–7, PDF-Bildseiten 6–7; FES-TIFF 400 dpi: /tiff400/015/00000254.tif und 00000255.tif
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
+
 <a id="src-de-fes-spdpd-bdj-19521027"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
 
@@ -1751,6 +2383,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 [PDF öffnen](https://library.fes.de/spdpd/1952/521027.pdf)
 
 Fundstelle: Heft P/VIII/249, gedruckte S. 6–7, PDF-Bildseiten 6–7; FES-TIFF 400 dpi: /tiff400/015/00000338.tif und 00000339.tif
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-fes-spdpd-bdj-19530124"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
@@ -1763,6 +2399,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 
 Fundstelle: Heft P/VIII/20, gedruckte S. 1–2, PDF-Bildseiten 1–2; Original-TIFF 400 dpi: /tiff400/016/00000164.tif und 00000165.tif
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
+
 <a id="src-de-fes-spdpd-bdj-19530312"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
 
@@ -1773,6 +2413,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 [PDF öffnen](https://library.fes.de/spdpd/1953/530312.pdf)
 
 Fundstelle: Heft P/VIII/60, gedruckte S. 4–5, PDF-Bildseiten 4–5; TIFF 400 dpi: /tiff400/016/00000432.tif und 00000433.tif
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-fes-spdpd-bdj-19530717"></a>
 ### Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung
@@ -1785,6 +2429,10 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 
 Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 dpi: /tiff400/017/00000455.tif und 00000456.tif
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
 <a id="src-gb-bilderberg-charity-accounts-2015"></a>
 ### The Bilderberg Association (Charity 272706), Audit Buzzacott LLP
 
@@ -1795,6 +2443,10 @@ The Bilderberg Association (Charity 272706), Audit Buzzacott LLP · 2015 · Stuf
 [PDF öffnen](https://info.publicintelligence.net/BilderbergAssociation-2015.pdf)
 
 Fundstelle: Note 1, PDF-Index 12: FY2014-Vergleichsausgaben £320,000 Security und £139,839 Organisation
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-us-halle-ab-newbridge-grants-2022-2023"></a>
 ### The Halle Foundation
@@ -1807,6 +2459,10 @@ The Halle Foundation · current · Stufe **A** · Primärquelle · `SRC-US-HALLE
 
 Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.V. 40,000 USD
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
 <a id="src-de-thlt-nsu-ua-2014"></a>
 ### Thüringer Landtag
 
@@ -1817,6 +2473,10 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 [PDF öffnen](https://www.thueringer-landtag.de/fileadmin/Redaktion/1-Hauptmenue/1-Landtag/3-Ausschuesse_und_Gremien/3-Untersuchungsausschuesse/1-Untersuchungsausschuss_6-1/Dokumente/mogliches-fehlverhalten-der-thuringer-sicherheits-und-justizbehorden-einschliesslich-der-zustandigen-ministerien-unter-einschluss-der-politischen.pdf)
 
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
 
 <a id="src-us-wapo-sec-10k-2010"></a>
 ### U.S. Securities and Exchange Commission
@@ -1829,6 +2489,10 @@ U.S. Securities and Exchange Commission · 2010-03-02 · Stufe **A** · Primärq
 
 Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
 <a id="src-gb-charity-commission-bilderberg-272706"></a>
 ### UK Charity Commission
 
@@ -1839,6 +2503,10 @@ UK Charity Commission · 2021-05-21 · Stufe **A** · Primärquelle · `SRC-GB-C
 [Seite öffnen](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/272706/full-print)
 
 Fundstelle: Former charity 272706, removed 21 May 2021
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
 
 <a id="src-gb-companies-house-newbridge-11853148"></a>
 ### UK Companies House
@@ -1851,6 +2519,10 @@ UK Companies House · 2019-02-28 · Stufe **A** · Primärquelle · `SRC-GB-COMP
 
 Fundstelle: Sir Robert John Sawers, appointed director 28 February 2019
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
 <a id="src-gb-companies-house-bilderberg-12988319"></a>
 ### UK Companies House
 
@@ -1861,6 +2533,10 @@ UK Companies House · 2020-11-02 · Stufe **A** · Primärquelle · `SRC-GB-COMP
 [Seite öffnen](https://find-and-update.company-information.service.gov.uk/company/12988319/officers)
 
 Fundstelle: Sir Robert John Sawers und Susan Jean Minton Beddoes seit 2 November 2020 Directors
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-gb-companies-house-bilderberg-psc-2026"></a>
 ### UK Companies House
@@ -1873,6 +2549,10 @@ UK Companies House · current · Stufe **A** · Primärquelle · `SRC-GB-COMPANI
 
 Fundstelle: Zwei aktive PSC: Susan Jean Minton Beddoes und Sir Robert John Sawers, notified 2 November 2020, jeweils >25 bis <=50 Prozent voting rights plus right to appoint/remove directors
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
 <a id="src-gb-home-office-foi29091-2014"></a>
 ### UK Home Office
 
@@ -1883,6 +2563,10 @@ UK Home Office · 2014-03-06 · Stufe **A** · Primärquelle · `SRC-GB-HOME-OFF
 [PDF öffnen](https://assets.publishing.service.gov.uk/media/5a74e7a5e5274a59fa715e02/29091-Annex_A_-_information_for_release.pdf)
 
 Fundstelle: PDF-Index 3: Hertfordshire 2013/14, Op Discuss Bilderberg, £527,762 Amount of bid, Decision Pending; Spalten PDF-Index 0
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-gb-commons-lammy-register-2023"></a>
 ### UK House of Commons
@@ -1895,6 +2579,10 @@ UK House of Commons · 2023-01-09 · Stufe **A** · Primärquelle · `SRC-GB-COM
 
 Fundstelle: Newbridge Advisory £5,669.57, Bilderberg Association estimated £536.58, trip 2–5 June 2022
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
 <a id="src-gb-commons-lammy-rectification-2022"></a>
 ### UK House of Commons, Parliamentary Commissioner for Standards
 
@@ -1905,6 +2593,10 @@ UK House of Commons, Parliamentary Commissioner for Standards · 2022-08-11 · S
 [PDF öffnen](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)
 
 Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
 
 <a id="src-us-cig-rusty-doc21-1946"></a>
 ### US Central Intelligence Group, Original bei National Security Archive
@@ -1917,6 +2609,10 @@ US Central Intelligence Group, Original bei National Security Archive · 1946-10
 
 Fundstelle: PDF-Bildseiten 1–2, interne Kosten-/Sicherheitsbewertung
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
 <a id="src-us-cig-rusty-doc22-1946"></a>
 ### US Central Intelligence Group, Original bei National Security Archive
 
@@ -1927,6 +2623,10 @@ US Central Intelligence Group, Original bei National Security Archive · 1946-10
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc22.pdf)
 
 Fundstelle: PDF-Bildseiten 1–2, interne Kritik und Kontrollprobleme
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1947">
 
 <a id="src-us-cig-rusty-doc45-19470606"></a>
 ### US Central Intelligence Group; Edition National Security Archive, George Washington University
@@ -1939,6 +2639,10 @@ US Central Intelligence Group; Edition National Security Archive, George Washing
 
 Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuchung B.2 und E.3
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
 <a id="src-us-afb-nccs-990-2025"></a>
 ### US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS
 
@@ -1950,9 +2654,13 @@ US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS · 2025 · Stu
 
 Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors
 
+</article>
+
 ## Forschung & Dokumentation { #forschungsliteratur }
 
 **Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-int-scott-smith-der-monat-2000) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-uy-manzi-bankrank-1981) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-it-intesa-ambrosiano-interalpha-history"></a>
 ### Archivio storico Intesa Sanpaolo
@@ -1965,6 +2673,10 @@ Archivio storico Intesa Sanpaolo · unbekannt · Stufe **B** · Sekundär-/Forsc
 
 Fundstelle: Abschnitt ab 1972: Gründerbanken BA, BHF, CCF, KB, NMB, Williams & Glyn's; strukturelle Unabhängigkeit; Inter-Alpha-Auslandsbüros
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
 <a id="src-de-archivportal-da-2026"></a>
 ### Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg
 
@@ -1975,6 +2687,10 @@ Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg · 2026-08-14 ·
 [Seite öffnen](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen)
 
 Fundstelle: Einleitung; Ablauf des Ereignisses; Ermittlungen; Bestandsübersicht
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2003">
 
 <a id="src-de-ab-message-2003-mirror"></a>
 ### Atlantik-Brücke e.V.
@@ -1987,6 +2703,10 @@ Atlantik-Brücke e.V. · 2003-02-16 · Stufe **B** · Sekundär-/Forschungsquell
 
 Fundstelle: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mitgliedern und Freunden, die durch ihren Beitrag die Veröffentlichung ermöglichten
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
+
 <a id="src-uy-bcu-vaz-npl-1999-tab38"></a>
 ### Banco Central del Uruguay, Revista de Economía
 
@@ -1997,6 +2717,10 @@ Banco Central del Uruguay, Revista de Economía · 1999 · Stufe **B** · Sekund
 [PDF öffnen](https://bvrie.bcu.gub.uy/local/File/REVECO/1999/Vaz.pdf)
 
 Fundstelle: Druckseite 130 / PDF-Seite 102, Tabelle 3.8, BAFISUD US$106 Mio. Forderungsnennwert; 5 Banken 413,2 Mio.; Quelle Banda [1990]
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
 
 <a id="src-de-polizei-by-okt-chronologie-2025"></a>
 ### Bayerische Polizei / Bayerisches Landeskriminalamt
@@ -2009,6 +2733,10 @@ Bayerische Polizei / Bayerisches Landeskriminalamt · 2025 · Stufe **B** · Sek
 
 Fundstelle: Abschnitt 'Die Ermittlungen': 'Am 27. September um 11 Uhr übernahm Generalbundesanwalt Kurt Rebmann das Verfahren als Ermittlungsführer'
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1990">
+
 <a id="src-int-bilderberg-1990-archive"></a>
 ### Bilderberg Meetings
 
@@ -2019,6 +2747,10 @@ Bilderberg Meetings · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://publicintelligence.net/1990-bilderberg-participant-list/)
 
 Fundstelle: Theo Sommer, Editor-in-Chief, Die Zeit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2006">
 
 <a id="src-int-bilderberg-2006-archive"></a>
 ### Bilderberg Meetings
@@ -2031,6 +2763,10 @@ Bilderberg Meetings · 2006 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 
 Fundstelle: Offizielle Teilnehmerliste Ottawa, 08.-11.06.2006; Josef Joffe
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2007">
+
 <a id="src-int-bilderberg-2007-archive"></a>
 ### Bilderberg Meetings
 
@@ -2041,6 +2777,10 @@ Bilderberg Meetings · 2007 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://publicintelligence.net/official-list-of-participants-for-the-2007-bilderberg-meeting/)
 
 Fundstelle: Offizielle Teilnehmerliste Istanbul, 31.05.-03.06.2007; Hubert Burda und Mathias Döpfner
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
 
 <a id="src-int-bilderberg-2012-archive"></a>
 ### Bilderberg Meetings
@@ -2053,6 +2793,10 @@ Bilderberg Meetings · 2012 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 
 Fundstelle: Matthias Nass, Chief International Correspondent, Die Zeit
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
 <a id="src-de-barch-oktoberfest-2025"></a>
 ### Bundesarchiv
 
@@ -2063,6 +2807,10 @@ Bundesarchiv · 2025 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BA
 [Seite öffnen](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-oktoberfestattentat-1980/)
 
 Fundstelle: Abschnitte Das Attentat; Kontakte zur Wehrsportgruppe Hoffmann; (K)ein rechtsextremes Attentat?; Wiederaufnahme
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-barch-volksaufstand-dienste"></a>
 ### Bundesarchiv
@@ -2075,6 +2823,10 @@ Bundesarchiv · undatiert · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-
 
 Fundstelle: Rolle der Gehlen-Organisation beim 17. Juni 1953
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
 <a id="src-de-barch-felfe-register"></a>
 ### Bundesarchiv
 
@@ -2085,6 +2837,10 @@ Bundesarchiv · undatiert · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-
 [Seite öffnen](https://www.kabinettsprotokolle.bundesarchiv.de/register/person/ef252cb5-4cbf-4862-b636-329666188c9d)
 
 Fundstelle: Registereintrag Heinz Felfe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-barch-la-belle-dossier"></a>
 ### Bundesarchiv / Stasi-Unterlagen-Archiv
@@ -2097,6 +2853,10 @@ Bundesarchiv / Stasi-Unterlagen-Archiv · unbekannt · Stufe **B** · Sekundär-
 
 Fundstelle: Abschnitte 'Die Staatssicherheit als Insider', 'Irreführung der USA'; 22:30-Uhr-Anruf vor dem Anschlag
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
+
 <a id="src-de-bpb-farin-scheinrevolution-2010"></a>
 ### Bundeszentrale für politische Bildung
 
@@ -2107,6 +2867,10 @@ Bundeszentrale für politische Bildung · 2010-02-25 · Stufe **C** · Sekundär
 [Seite öffnen](https://www.bpb.de/themen/zeit-kulturgeschichte/jugendkulturen-in-deutschland/36189/scheinrevolution/)
 
 Fundstelle: Klaus Farin, Absatz zu Urbach und Lindner 1996, S. 213
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
 
 <a id="src-de-bpb-henke-inland-2014"></a>
 ### Bundeszentrale für politische Bildung
@@ -2119,6 +2883,10 @@ Bundeszentrale für politische Bildung · 2014 · Stufe **B** · Sekundär-/Fors
 
 Fundstelle: Inlandsspionage und Regierungsadressaten
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
 <a id="src-de-bpb-henke-geheime-2019"></a>
 ### Bundeszentrale für politische Bildung
 
@@ -2129,6 +2897,10 @@ Bundeszentrale für politische Bildung · 2019 · Stufe **B** · Sekundär-/Fors
 [Seite öffnen](https://www.bpb.de/shop/buecher/schriftenreihe/295408/geheime-dienste/)
 
 Fundstelle: Bibliografischer Nachweis und Themenbeschreibung; kein vollständig geprüfter Buchtext
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
 
 <a id="src-de-bpb-antisemitismus-2021"></a>
 ### Bundeszentrale für politische Bildung
@@ -2141,6 +2913,10 @@ Bundeszentrale für politische Bildung · 2021 · Stufe **B** · Sekundär-/Fors
 
 Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin vom 9. November 1969
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
 <a id="src-de-bpb-bnd-2026"></a>
 ### Bundeszentrale für politische Bildung
 
@@ -2149,6 +2925,10 @@ Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin
 Bundeszentrale für politische Bildung · 2026-03-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-BND-2026`
 
 [Seite öffnen](https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1995">
 
 <a id="src-us-cia-ccf-history-1995"></a>
 ### Central Intelligence Agency, Center for the Study of Intelligence
@@ -2161,6 +2941,10 @@ Central Intelligence Agency, Center for the Study of Intelligence · 1995 · Stu
 
 Fundstelle: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
 <a id="src-uy-copab-bankcrisis-report-2025"></a>
 ### Corporación de Protección del Ahorro Bancario (COPAB), Uruguay
 
@@ -2171,6 +2955,10 @@ Corporación de Protección del Ahorro Bancario (COPAB), Uruguay · 2025-11 · S
 [PDF öffnen](https://www.copab.org.uy/innovaportal/file/1374/1/copab-informe-final-investigacion-crisis-bancarias-nov-2025.pdf)
 
 Fundstelle: PDF-Seiten 35 (25% Finanzsystemkredite, 10% aggregierte Rückgewinnung), 39 (wirtschaftliche Gesamtkosten), 96–98 (BCU-Kreditportfolio-Tabellen)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
 ### DER SPIEGEL, Nr. 24/1971
@@ -2183,6 +2971,10 @@ DER SPIEGEL, Nr. 24/1971 · 1971-06-06 · Stufe **C** · Sekundär-/Forschungsqu
 
 Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4.04.1970, Antrag 08.03./Unterschrift 02.05.; Vermerk Ermittlungsakten Bl. 47a
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="2013">
+
 <a id="src-de-bt-hib-piatto-20130415"></a>
 ### Deutscher Bundestag, Parlamentsnachrichten (hib)
 
@@ -2193,6 +2985,10 @@ Deutscher Bundestag, Parlamentsnachrichten (hib) · 2013-04-15 · Stufe **D** ·
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/01-254136)
 
 Fundstelle: hib 200/2013; Bericht zur öffentlichen Aussage von Gordian Meyer-Plath und zur JVA-Postkontrolle; Originalvernehmung in UA-Protokoll Nr. 64a separat
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="2017">
 
 <a id="src-de-bt-hib-piatto-20170120"></a>
 ### Deutscher Bundestag, Parlamentsnachrichten (hib)
@@ -2205,6 +3001,10 @@ Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** ·
 
 Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
+
 <a id="src-de-zeit-schueler-urbach-1971"></a>
 ### DIE ZEIT / Hans Schueler
 
@@ -2215,6 +3015,10 @@ DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **C** · Sekundär-/Forschungsqu
 [Seite öffnen](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)
 
 Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung der Aussagegenehmigung durch Richter Geuß und zum von Urbach eingeräumten Waffenvergraben
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2000">
 
 <a id="src-int-scott-smith-der-monat-2000"></a>
 ### Journal of Contemporary History
@@ -2227,6 +3031,10 @@ Journal of Contemporary History · 2000-04-01 · Stufe **B** · Sekundär-/Forsc
 
 Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zuschüsse wurden laut Studie über den Congress aus CIA-Mitteln geleitet
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
 <a id="src-de-kas-fonds-spr-2003"></a>
 ### Konrad-Adenauer-Stiftung
 
@@ -2237,6 +3045,10 @@ Konrad-Adenauer-Stiftung · undated · Stufe **B** · Sekundär-/Forschungsquell
 [Seite öffnen](https://www.kas.de/de/unterstuetzen-sie-uns)
 
 Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 2003 und Zweck Wissenschaftliche Dienste
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
 
 <a id="src-de-acdp-jahn-nachlass-01753"></a>
 ### Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); DDB als Nachweisportal
@@ -2249,6 +3061,10 @@ Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik (ACDP); D
 
 Fundstelle: ACDP 01-753; letzte Aktualisierung des Katalogs 05.11.2025; Bestandslaufzeit 1956–1997
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1953">
+
 <a id="src-de-he-lagis-bdj-19530108"></a>
 ### Landesgeschichtliches Informationssystem Hessen (LAGIS)
 
@@ -2259,6 +3075,10 @@ Landesgeschichtliches Informationssystem Hessen (LAGIS) · 1953-01-08 · Stufe *
 [Seite öffnen](https://www.lagis-hessen.de/de/subjects/browse/section/6/year/1953/page/1/current/4806/sn/edb)
 
 Fundstelle: Hessen-Chronik Eintrag vom 08.01.1953; Nachfolgeeintrag 09.01.1953 Räumung der Frankfurter BDJ-Geschäftsstelle
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-de-rigoll-innerer-kreis-2017"></a>
 ### Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online
@@ -2271,6 +3091,10 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2017-1
 
 Fundstelle: Dominik Rigoll, Absatz Peter Urbach, Fußnote 2: Wolfgang Kraushaar, Die Bombe im Jüdischen Gemeindehaus, Hamburg 2005, S. 175
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2022">
+
 <a id="src-de-wolff-urbach-nollau-2022"></a>
 ### Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online
 
@@ -2281,6 +3105,10 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 [Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1987">
 
 <a id="src-uy-carrio-pais-vaciado-1987-bafisud"></a>
 ### Monte Sexto, Montevideo; Archiv Sitios de Memoria
@@ -2293,6 +3121,10 @@ Monte Sexto, Montevideo; Archiv Sitios de Memoria · 1987 · Stufe **B** · Seku
 
 Fundstelle: Gedruckte Seiten 35–38, PDF-Seiten 37–40: 03./04./07.03.1983 und 05./09.01.1984; Aktienanteile 78,79%, N$ 1 und BCU-Problemforderungen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
+
 <a id="src-us-nsa-gehlen-2005"></a>
 ### National Security Archive, George Washington University
 
@@ -2303,6 +3135,10 @@ National Security Archive, George Washington University · 2005 · Stufe **B** �
 [Seite öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/)
 
 Fundstelle: Edition mit Dokumenten 21, 22 und 59
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
 
 <a id="src-de-igel-urbach-baumann-handschrift-2010"></a>
 ### Regine Igel / Telepolis
@@ -2315,6 +3151,10 @@ Regine Igel / Telepolis · 2010-06-13 · Stufe **C** · Sekundär-/Forschungsque
 
 Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="1981">
+
 <a id="src-de-berlin-ulrich-urbach-1981-mirror"></a>
 ### Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma
 
@@ -2325,6 +3165,10 @@ Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-0
 [Seite öffnen](https://isioma.net/sds120502.html)
 
 Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
 
 <a id="src-de-erlangen-lewin-2026"></a>
 ### Stadt Erlangen
@@ -2337,6 +3181,10 @@ Stadt Erlangen · 2026-01-26 · Stufe **B** · Sekundär-/Forschungsquelle · `S
 
 Fundstelle: Abschnitt Gedenken: Tatdatum 19.12.1980, Opfer Shlomo Lewin und Frida Poeschke, Tatort Erlangen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="1971">
+
 <a id="src-de-stern-urbach-1971-reprint"></a>
 ### STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma
 
@@ -2347,6 +3195,10 @@ STERN Nr. 23/1971; Reproduktion im SDS-Archiv Isioma · 1971 · Stufe **D** · S
 [Seite öffnen](https://www.isioma.net/sds120504.html)
 
 Fundstelle: STERN Nr. 23/1971, S. 32–36, reproduzierter Bericht von Serke, Seufert und Unger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-adenauerhaus-adk-spr-nachfolge"></a>
 ### Stiftung Bundeskanzler-Adenauer-Haus
@@ -2359,6 +3211,10 @@ Stiftung Bundeskanzler-Adenauer-Haus · undated · Stufe **B** · Sekundär-/For
 
 Fundstelle: Abschnitte Gründung / Schwerpunkte / Auflösung ADK bis 1969, SPR als Nachfolge und Auflösung 2001
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="2017">
+
 <a id="src-de-spr-mediennetz-2017"></a>
 ### Swiss Policy Research
 
@@ -2369,6 +3225,10 @@ Swiss Policy Research · 2017 · Stufe **D** · Sekundär-/Forschungsquelle · `
 [Seite öffnen](https://swprs.org/netzwerk-medien-deutschland/)
 
 Fundstelle: Infografik und Quellen zur Infografik
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-int-trilateral-2017-mirror"></a>
 ### The Trilateral Commission
@@ -2381,6 +3241,10 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1981">
+
 <a id="src-uy-manzi-bankrank-1981"></a>
 ### Uruguay: dictadura y realidad nacional; Sitios de Memoria
 
@@ -2391,6 +3255,10 @@ Uruguay: dictadura y realidad nacional; Sitios de Memoria · 1981 · Stufe **B**
 [PDF öffnen](https://sitiosdememoria.uy/sites/default/files/2024-02/uruguay-dictadura-y-realidad-nacional_f1981.pdf)
 
 Fundstelle: Gedruckte Seite 134, PDF-Seite 136, 30. April 1980: BAFISUD Rang 8, 938.685 Tausend N$ bzw. 4,75 Prozent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2001">
 
 <a id="src-us-nara-iwg-gehlen-2001"></a>
 ### US National Archives, Interagency Working Group
@@ -2403,6 +3271,10 @@ US National Archives, Interagency Working Group · 2001 · Stufe **B** · Sekund
 
 Fundstelle: Gehlen Organization und Emil Augsburg
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
+
 <a id="src-de-kraushaar-bombe-gemeindehaus-2005"></a>
 ### Wolfgang Kraushaar / Hamburger Edition
 
@@ -2414,6 +3286,10 @@ Wolfgang Kraushaar / Hamburger Edition · 2005-06 · Stufe **B** · Sekundär-/F
 
 Fundstelle: ISBN 978-3-936096-53-8; besonders Abschnitte über Peter Urbach, Albert Fichter und Originalquellen
 
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2007">
+
 <a id="src-de-zzo-raf-chronik"></a>
 ### zeitgeschichte|online
 
@@ -2424,3 +3300,5 @@ zeitgeschichte|online · 2007 · Stufe **B** · Sekundär-/Forschungsquelle · `
 [Seite öffnen](https://zeitgeschichte-online.de/themen/zur-geschichte-der-roten-armee-fraktion-raf-und-ihrer-kontexte-eine-chronik)
 
 Fundstelle: Februar 1969: misslungener Sprengsatz-Anschlag zur Nixon-Reise; laut Aussage Baumanns von Urbach übergeben
+
+</article>

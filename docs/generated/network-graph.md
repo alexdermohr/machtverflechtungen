@@ -2,6 +2,18 @@
 
 **166 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
+## Direkte Verbindungen im Fokus
+
+Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gewählten Akteurs. Weitere Beziehungen oder eine gemeinsame Steuerung sind daraus nicht automatisch ableitbar.
+
+- [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 36 direkte Beziehungen
+- [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
+- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 6 direkte Beziehungen
+- [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
+- [BAFISUD](network-focus-bafisud.md) — 5 direkte Beziehungen
+
+## Gesamtnetzwerk
+
 ```mermaid
 flowchart LR
     N_ORG_DE_NI_VERFASSUNGSSCHUTZ["Niedersächsischer Verfassungsschutz"]
