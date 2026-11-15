@@ -1,0 +1,190 @@
+# „Ballets roses“: Sexpartys, Justizakten, Nihoul, Geheimdienste und Prominentenzuschreibungen (1979–2026)
+
+**Recherchestand: 15. November 2026.** Gegenstand sind die belgischen „Ballets roses“ (niederländisch „Roze balletten“) und behauptete Verflechtungen mit Polizei, Politik, Justiz, Geheimdienst, Königshaus sowie den späteren Ermittlungen gegen Marc Dutroux. Als primärer Maßstab dienen die belgischen parlamentarischen **Berichte 573/7, 573/9, 573/11, 573/12 (Brabant-Morde, 1997) und 713/8 (Dutroux–Nihoul, 1998)**. Getrennt werden **tatsächlich belegte sexuelle Zusammenkünfte Erwachsener**, konkret dokumentierte Behördenentscheidungen, überprüfbare Geld-/Informationsspuren und ungeprüfte Vorwürfe sexueller Straftaten gegen Minderjährige.
+
+## Befund
+
+Die „Ballets roses“ waren **kein rein erfundenes Milieu**: Die belgische Untersuchungskommission zur Brabant-Mordserie stellte 1997 fest, dass entsprechende sexuelle Treffen zumindest in den 1980er-Jahren stattfanden [Q1, S. 30–31]. Sie fand **keinen hinreichenden Nachweis**, dass dort Minderjährige anwesend waren oder dass diese Treffen die Brabant-Morde erklären. Das ist eine begrenzte Befundlage, kein Freispruch für jede unbekannte Einzelveranstaltung.
+
+Harte institutionelle Befunde sind **auffällig behandelte Ermittlungen, verlorene Beweismaterialien, vorzeitig eingestellte Verfahren, informelle Kontakte zwischen Justiz und Staatssicherheit sowie eine nachweisbare Verbindung Michel Nihouls zu Sexclubs, Gesellschaftsveranstaltungen, Polizeikontakten und politischer Selbstdarstellung** [Q1–Q5]. Eine besonders konkrete Finanzspur ist die im Parlamentsbericht beschriebene Zahlung von **etwa fünf Millionen belgischen Francs** für eine von Nihoul in Aussicht gestellte Richterbestechung; nach der Kommission fand die Bestechung **nicht** statt, und Geld wurde von Nihoul anderweitig genutzt [Q5, S. 138–140]. Eine zweite, direkte Einflussgeschichte betrifft einen Anruf von jemandem, der sich als Angehöriger des Verteidigungsministerkabinetts ausgab und damit einen Gendarmerieoffizier zu Eingriffen in einen Ermittlungsablauf veranlasste [Q5, S. 139–141].
+
+Die angebliche Beteiligung belgischer Könige oder Prinzen an strafbaren Handlungen mit Minderjährigen ist **nicht nachgewiesen**. Die bekannt gewordenen royalen Anschuldigungen beruhen im recherchierten Material auf widersprüchlichen oder widerrufenen Aussagen sowie von Nihoul gegen Geld angebotenen, **nicht vorgelegten Fotos** [Q6]. Ebenso ist **keine durchgehende Befehls- oder Beweislinie** von „Ballets roses“ über Westland New Post/Geheimdienst zum Dutroux-Mordkomplex verifiziert.
+
+## 1. Behördenübergreifende Belegmatrix
+
+**A**: parlamentarische Originalfeststellung oder Originalaussage, nur für genau das dokumentierte Ereignis; **B**: identifizierbarer zeitgenössischer Bericht/Interview, soweit selbst beobachtet; **C**: referierte und unbestätigte Zeugen-/Akteurzuschreibung; **D**: keine tragfähige Nachweiskette. Eine in einer A-Quelle enthaltene Zeugenaussage besitzt nicht automatisch A-Qualität für ihren Wahrheitsgehalt.
+
+| Konkreter Claim | Status | Beleg und widerstreitende Evidenz |
+| --- | --- | --- |
+| In Belgien gab es in den 1980ern sexuelle Zusammenkünfte, die als „Ballets roses“ behandelt wurden. | **A – für Existenz und dokumentierte Ermittlungen** | Brabant-Kommission 573/7, S. 30–31 [Q1]. |
+| Bei diesen Zusammenkünften wurden Minderjährige systematisch missbraucht. | **C/D – nicht nachgewiesen** | Ermittlungen prüften Zeugenaussagen, bestätigten aber keinen solchen allgemeinen Tatkomplex [Q1–Q3]. |
+| Die Staatsanwaltschaft behandelte mehrere einschlägige Altverfahren auffällig, und wichtige Unterlagen fehlten. | **A – parlamentarischer Befund** | Montaricourt, Fortunato Israël, Eurosystem Hospitalier und Pinon [Q1–Q3]. Fehlende Akten zeigen Informations-/Kontrollverlust, nicht automatisch dessen Urheber oder Absicht. |
+| Ein systematischer Erpressungsapparat steuerte Politiker mithilfe heimlich gefilmter Verbrechen. | **C/D – plausible Prüfthese, unbewiesen** | Berichte enthalten Erpressungsannahmen und Filmbehauptungen, aber keine vorgelegte authentifizierte vollständige Beweiskette [Q1–Q3, Q5]. |
+| Michel Nihoul war regelmäßiger Gast und Beteiligter an einschlägigen Erwachsenen-Sextreffen. | **A – parlamentarisch dokumentiert** | Rue des Atrébates, „Le Dolo“, Schloss Faulx-les-Tombes; Betreiber bestätigten Treffen, bestritten Beteiligung Minderjähriger [Q5, S. 127–130]. |
+| Beim Faulx-les-Tombes-Komplex sind kommunale Polizei und Gemeindeeigentum dokumentiert. | **A – konkrete institutionelle Verbindung** | Schloss gehörte Etterbeek, kommunale Polizisten leisteten Außendienst; damaliger Bürgermeister ermöglichte befristete Unterbringung Nihouls [Q5, S. 128–130]. **Keine** bewiesene Kenntnis eines Kinderverbrechens der Gemeinde. |
+| Nihoul war codierter Gendarmerie-Informant und verfügte über Polizeikontakte. | **A – parlamentarisch dokumentierter Status** | Gendarmerie kennzeichnete ihn als inaktiven/unzuverlässigen Informanten; Vorwarnung für „Dolo“ von Polizeiseite dokumentiert [Q5, S. 8–9, 131–133]. |
+| Nihoul erhielt für eine behauptete Richterbestechung 5 Mio. BEF. | **A – parlamentarisch rekonstruierter Geldvorgang** | Schweizer Bargeldabhebung, Schuldanerkennung und Konkursunterlagen; **Bestechung fand laut Kommission gerade nicht statt** [Q5, S. 138–140]. |
+| Ein angeblicher Anrufer aus dem Verteidigungsministerium beeinflusste Ermittlungen im Dossier Borges. | **A für protokollierten Ablauf, C für wahre Identität des Anrufers** | Nihoul-Kontakt, Anruf, Einfluss auf Gendarmerie; teilweise widersprechende Beamtenaussagen und Polizeiaufsicht [Q5, S. 139–141]. |
+| Staatsanwalt Deprêtre traf Geheimdienstchef Albert Raes informell ohne Protokoll. | **A – dokumentierte Aussage** | 573/12 (Anhang), Gespräche über Brabant-Morde und rechtsextreme Spur [Q4]. **Keine** belegte Anordnung, Tatspuren im Dutroux-Komplex zu unterdrücken. |
+| Es gab ungewöhnliche Kontakte zwischen Staatssicherheit und Westland New Post. | **A für untersuchte Kontakte; C für Gründungsbefehl** | Bericht 573/11 referiert Kontakte zu Christian Smets. Behauptung einer WNP-Gründung auf Smets' Geheiß wird als **„mein Eindruck“** eines Zeugen markiert [Q3]. |
+| Paul Latinus verfügte sicher über einen belastenden Film-/Pinon-Komplex. | **C/D – widersprüchliche Aussagen** | Schlicker bestätigte Nachprüfung, aber entsprechende Pinon-Unterlagen wurden bei Latinus **nicht gefunden** [Q3, Abschnitt V.2.4]. |
+| König Albert II./früher Prinz Albert war an Kindesmissbrauch beteiligt. | **D – nicht nachgewiesen** | Widerruf einer maßgeblichen Zeugin und **kein vorgelegter Foto-/Filmbeleg**. Nihoul bot einem Journalisten gegen hohe Zahlung angebliche Royal-Fotografie an; nicht authentifiziert [Q6]. |
+| Die fraglichen Partys waren ein provenierter Bestandteil von Dutroux' Entführungsorganisation. | **D – nicht belegt** | Nihouls milieu- und polizeibezogene Kontakte sind real; 2004 wurde er **von der Beteiligung an den Kindesentführungen freigesprochen** [Q5, Q8]. |
+
+## 2. Vier Altverfahren: Prüfbare Abweichungen in der Justiz
+
+Die 1997er Brabant-Kommission wertete vier einschlägige Dossiers aus [Q1–Q3]. Im abschließenden Kapitel über die Einstellungspraxis stellte sie ausdrücklich fest, dass die Staatsanwaltschaft **im Fall Fortunato Israël ihre Entscheidungsautonomie missbraucht** und eine Strafverfolgung hätte stattfinden müssen. Sie hielt mögliche Protektion für nicht ausgeschlossen [Q1, S. 60].
+
+| Dossier | Konkret genannte Abweichung | Was nachzurecherchieren ist |
+| --- | --- | --- |
+| **Montaricourt** | Ein Fotoalbum mit Callgirls, Ermittlungsunterlagen der Gendarmerie und eine Agenda mit Namen gesellschaftlich prominenter Personen fehlten. | Beschlagnahmeprotokolle, Eingangsregister, Verwahrorte, Aussonderungsvermerke, ursprüngliche Eigentümer/Verantwortliche; fehlend heißt **nicht** bewiesen absichtlich vernichtet. |
+| **Fortunato Israël** | Schnelle Einstellung; beschlagnahmte Gegenstände einschließlich eines Tischplans mit Namen prominenter Gäste wurden nicht mehr aufgefunden. | Datum und Rechtsgrund der Einstellung, Asservatenkette, amtliche Identifikationslisten, Revisionsvermerke. |
+| **Eurosystem Hospitalier** | Einstellung trotz offener angeordneter Ermittlungshandlung; ein Gendarm wurde im Verteidigungsministerium empfangen. | Geschäftsbücher, Ministeriums-Kabinettskorrespondenz, tatsächlicher Gesprächszweck, Weisung und Kausalwirkung. |
+| **Pinon** | Staatsanwalt **Jean Deprêtre** behandelte die Sache besonders abgeschirmt. Ein 1985 dokumentiertes Schreiben rühmte die verringerte Aufmerksamkeit des Untersuchungsrichters. | Schreiben vom **13.03.1985**, Aktenverfügungen, richterliche Anhörungen und vorhandene/fehlende Foto- und Video-Asservate. |
+
+**Parlamentarische Bewertung:** Nicht ordnungsgemäße Bearbeitung der Dossiers; es konnte weder eine an diesen Vorgängen festzumachende allgemeine Erpressungsmaschine noch die behauptete Verbindung zu den Brabant-Morden bewiesen werden [Q1–Q3]. Für eine strafrechtliche Anklage gegen bestimmte Personen braucht es zusätzlich persönliche Pflicht, Tatwissen, konkrete Handlung und Kausalität.
+
+### Ungeklärte Videobehauptungen
+
+Im Anhang 573/9 wurde die Aussage von **Maud Sarr** zu möglichen minderjährigen Opfern und filmischen Aufnahmen behandelt [Q2]. Spätere Berichte geben teils anderslautende Aussagen darüber wieder, ob sie selbst ein Beweisvideo besaß und es an Ermittler übergab. Die maßgeblichen Befragungen lieferten **keinen gesicherten Asservatennachweis** für das behauptete Erpressungsmaterial [Q2, Q3]. In einer 1997 berichteten Anhörung wurde ausdrücklich festgehalten, dass eine bestimmte frühere Angabe zu einem männlichen Minderjährigen **damals nicht untersucht** worden war [Q3].
+
+Daraus ergibt sich eine konkret überprüfbare Aktenlücke und eine **offene Tatfrage**, nicht die Feststellung, dass das behauptete Video existierte. Es ist keine Suche oder Verbreitung sexualisierter Darstellungen Minderjähriger erforderlich; maßgeblich sind Asservatennummern, Polizeiprotokolle und legale behördliche Originalaktenprüfung.
+
+## 3. Michel Nihoul: Ort, Organisation, Gegenleistungen
+
+### Die drei greifbaren Veranstaltungsorte
+
+Der Ergänzungsbericht 713/8 beschreibt Nihouls regelmäßigen Besuch des Clubs **Rue des Atrébates 145** ab etwa **1981**, dessen Betreiber Sexveranstaltungen bestätigte, die Beteiligung Minderjähriger jedoch bestritt. Danach wurde **Le Dolo** in der Rue Philippe Baucq zu einem weiteren Treffpunkt derselben Betreibergruppe. Ein Organisator räumte **zwei Veranstaltungen im Château de Faulx-les-Tombes** ein; Nihoul war demnach beteiligt. Das Anwesen stand im Eigentum der Gemeinde Etterbeek und kommunale Ordnungskräfte versahen den Außendienst. Nihoul wohnte 1983/84 kurzzeitig auf Veranlassung des damaligen Bürgermeisters dort [Q5, S. 127–130].
+
+Die Kommission sah hierin ein Beispiel dafür, wie **kommunale Ressourcen und private Beziehungen die Trennung staatlicher und privater Funktionen verwischen** konnten. Das belegt weder Kenntnis sexualisierter Verbrechen an Minderjährigen noch eigene Beteiligung der eingesetzten Beamten an solchen Verbrechen.
+
+### Politische Zugänge und Selbstdarstellung
+
+Nihoul nutzte laut Kommission unter anderem den Verein **Confrérie des maîtres brasseurs**, **Radio JMB** und politische Wahlkampfhilfe, um gesellschaftliche Beziehungen aufzubauen. Die Kommission differenziert reale Kontakte von seinem wiederholten Versuch, die eigene Einflussmacht größer erscheinen zu lassen [Q5, S. 130–132]. Gästelisten sollten daher stets mit Zahlungs-, Anwesenheits- oder Kommunikationsbelegen gegengeprüft werden.
+
+Seine Rolle als **codierter, später inaktiver und als unzuverlässig bewerteter Gendarmerie-Informant** ist ein getrenntes polizeiliches Faktum [Q5]. Ein Informantenstatus bedeutet nicht, dass die Gendarmerie alle Aktivitäten des Informanten kannte oder billigte; die bereits dokumentierte **Vorwarnung des Le-Dolo-Betreibers** verlangt dagegen eine genaue personelle und zeitliche Rekonstruktion.
+
+### Politische Personenzuschreibungen: Paul Vanden Boeynants und die Aussage Maud Sarr
+
+Die frühere Prostituierte **Maud Sarr** behauptete in einer Fernsehsendung im **Februar 1990**, der frühere belgische Premierminister **Paul Vanden Boeynants** und höhere Justizvertreter hätten an Treffen mit Minderjährigen teilgenommen. **Vanden Boeynants, Jean Deprêtre und Jean-Pierre Jaspar bestritten die Vorwürfe**; Vanden Boeynants zeigte die Zeugin nach zeitgenössischer Berichterstattung an [Q7, Q9]. Der frühere Premierminister erklärte bei seiner Anhörung am **21.02.1990** vor der belgischen Untersuchungskommission, die Anschuldigungen seien falsch. Zeitgenössische Berichte sahen keine tragfähigen Beweise für die behauptete Beteiligung an sexuellen Verbrechen [Q7].
+
+Das parlamentarische Dossier 573/9 beschreibt spätere polizeiliche Nachprüfungen von Sarrs Angaben sowie befragte Frauen aus dem Montaricourt-Umfeld, die den behaupteten Missbrauch Minderjähriger **nicht bestätigten** [Q2]. Eine Zeugin hatte zunächst den Besuch von „Ministern“ erwähnt, relativierte aber diesen Ausdruck später als mögliche gesellschaftliche Ehrenbezeichnung [Q2, S. 115]. **Konkrete politische Namen in Aussagen sind als beschuldigt/erwähnt, nicht als Täterbeweise zu erfassen.**
+
+### Geldspur: 5 Millionen belgische Francs, Schweiz und Justiz
+
+Der Bericht 713/8, **S. 139**, referiert ein Brüsseler Konkursurteil vom **31.05.1989**, eine anerkannte Forderung des **Dr. G.** über **5.000.000 BEF**, eine Schuldanerkennung aus **1984** und einen Geldfluss aus den frühen 1980er-Jahren. Nihoul habe Dr. G. dazu gebracht, die Summe zur angeblichen Bestechung von Berufungsrichtern zur Verfügung zu stellen. Er hob die Summe in der **Schweiz** ab. Die Bestechung sei **nicht erfolgt**; der Arzt erhielt eine höhere Berufungsstrafe. Nach den Feststellungen floss Geld zumindest teilweise in Nihouls Brüsseler Bar **„Le clin d’œil“** [Q5].
+
+**Belegstatus:** Der parlamentarische Bericht dokumentiert die Gerichtsakte und seine eigene Bewertung. Die direkte Bank-/Auszahlungsbestätigung und das Konkursdokument sind noch selbst zu beschaffen. **Kein Nachweis einer real erfolgten Richterbestechung.** Besonders relevant ist die Geldspur als konkrete Schnittstelle zwischen **versprochener Einflussnahme, Geschäftsgründung und fragwürdiger Schuld-/Konkursgestaltung**.
+
+### Dossier Borges: Ein angeblicher Ministeriums-Anruf verändert polizeiliches Handeln
+
+Die parlamentarische Rekonstruktion [Q5, S. 139–141] beginnt mit einem ungedeckten Scheck über **1.200.000 BEF** und Nihouls Intervention am **29.09.1986** bei der Gendarmerie Schaerbeek. Am **06.10.1986** meldete sich bei einem Gendarmerieoffizier ein Anrufer, der sich als Mitglied des **Kabinetts des damaligen Verteidigungsministers** ausgab. Die ministerielle Zuschreibung beeindruckte den Offizier und führte dazu, dass dieser den zuständigen Beamten zu vorläufiger Untätigkeit bis zur Rücksprache aufforderte.
+
+Nach dem betreffenden Beamtenbericht sollte die Staatsanwaltschaft zunächst **nicht** verständigt werden. Bei der späteren Befragung durch **Comité P** bestritt der Offizier einzelne Auskünfte und vermutete selbst, der Anrufer könne **Nihoul** gewesen sein. Die **Identität des Anrufers** und die Frage, ob jemals ein tatsächlicher Ministeriumsmitarbeiter beteiligt war, sind in dieser Quelle nicht gesichert. Das ist ein konkreter Fall von **behaupteter politischer Autorität mit nachweisbarer Beeinflussungswirkung**, nicht nachgewiesene Ministerbeteiligung.
+
+## 4. Geheimdienstkontakte, Deprêtre und Westland New Post
+
+### Jean Deprêtre / Albert Raes
+
+In der Untersuchung zur Brabant-Mordserie berichtete **Jean Deprêtre**, den Staatssicherheitschef **Albert Raes** mehrfach nahezu geheim ohne formelle Gesprächsprotokolle getroffen zu haben [Q4, Abschnitt zu Kontakten mit der Sûreté de l'État]. Gespräche behandelten u.a. die **rechtsextreme Spur**. Deprêtre verteidigte vertrauliche Dienstkontakte; der Bericht nennt zugleich Diskrepanzen zwischen vorhandenen Informationen der Staatssicherheit und dem, was Ermittlern **schriftlich** zur Verfügung stand.
+
+**Knotenpunkt:** Deprêtre taucht in **Pinon-Verfahrensführung** und **Brabant-Ermittlungen** auf. Die Form der Kommunikation ist kritisch prüfbar, eine nachgewiesene koordinierte Steuerung von Dutroux und „Ballets roses“ durch den Staatssicherheitschef folgt daraus nicht.
+
+### Westland New Post (WNP), Paul Latinus, Christian Smets
+
+Die Kommission prüfte Kontakte belgischer Staatssicherheitsleute, darunter **Christian Smets**, zum rechtsextremen **Westland New Post (WNP)** und seinem Gründer **Paul Latinus** [Q3, Q4]. Einer der Ermittler interpretierte nach Gesprächen, Latinus habe WNP möglicherweise **auf Bitte von Smets** aufgebaut; er bezeichnete das ausdrücklich als seinen **Eindruck**, nicht als bewiesenen Gründungsbefehl [Q3, Abschnitt zu WNP/Sûreté]. Aus einer dokumentierten Verbindung zwischen Informanten und extremistischem Milieu darf kein gesicherter staatlicher Auftrag ohne weitere Akten entstehen.
+
+Der Bericht 573/11, **Abschnitt V.2.4**, enthält Aussagen, Latinus habe ein **Pinon-Dossier** besessen. Untersuchungsrichter Schlicker bestätigte eine entsprechende Nachforschung; die behaupteten Unterlagen wurden **nicht bei Latinus aufgefunden** [Q3]. Auch die Schlussfolgerung, Latinus habe Videomaterial zur Erpressung von Politikern an einen Geheimdienst geliefert, bleibt daher eine **nicht geschlossene Beweiskette**.
+
+Eine andere in den Ausschusssitzungen diskutierte Verbindung zu politischen Personen über Namen in Latinus' Notizbüchern war nach ausdrücklicher Bewertung eines Ermittlers **oft lediglich Kontakt zweiten oder dritten Grades**, nicht der Nachweis gemeinsamer Handlungen [Q3].
+
+### Militärnachrichtendienst ADIV/SGR: Aktenzugriffe 1986–1989
+
+Der **Brabant-Parlamentsbericht 573/7, S. 10–11**, reproduziert die Antwort des ADIV/SGR-Leiters vom **15.10.1996**: Sein Dienst habe keine eigene, speziell den Brabant-Morden gewidmete Ermittlungsakte. Im selben Schreiben wird jedoch bestätigt, dass Gendarmeriekommandant **Schot zwischen 1986 und 1989 ungefähr 150 Personenakten und zehn Organisationsakten** beim Militärnachrichtendienst einsah, vor allem zu **Major Bougerol, PIO, Westland New Post (WNP)** und dessen Mitgliedern. Am **14.02.1997** lieferte der Dienst der Untersuchungskommission doch ein Dossier [Q1, S. 11].
+
+Das begründet eine dokumentierte Spur militärischer Informationsbestände und ihrer Nutzung durch einen Gendarmerie-Ermittler. Es beweist weder, dass die erste Auskunft über das Fehlen einer *eigenen Brabant-Fallakte* unwahr war, noch dass WNP durch den Geheimdienst für Straftaten gesteuert wurde. Die tatsächlichen übergebenen Akten, Vermerke über Schots Konsultationen und der Inhalt der späteren Lieferung bleiben gesondert zu prüfen.
+
+### Comité P und Comité R: Unzulässige Aktenvernichtung im polizeilich-militärischen Grenzbereich
+
+Der **Jahresbericht 1997 des Comité permanent P** dokumentiert das gemeinsam mit dem Nachrichtendienstkontrollorgan R bearbeitete **Kontrollverfahren 3122/96**, abgeschlossen am **24.06.1997** [Q10, S. 75–78]. Es ging um die Überführung von Terrorismus-Unterlagen der Brüsseler Kriminalpolizei zum militärischen SGR zwecks Vernichtung. Die Kontrolleure stellten unter anderem fest:
+
+- Es fehlten Ausleihregister; zeitweise waren die Unterlagen in unverschlossenen Räumen zugänglich.
+- Die Akten enthielten Kopien polizeilicher Protokolle und teilweise Berichte der Staatssicherheit mit dem Hinweis „Danger-Source“.
+- Justizbehörden wurden vor dem Transfer **nicht informiert oder um Zustimmung ersucht**; auch die gesetzlich erforderliche Erlaubnis des belgischen Generalarchivars lag **nicht** vor.
+- Durch die Vernichtung gingen potenziell relevante Erkenntnisse verloren, obwohl etwa Ermittlungen zu den **Cellules Communistes Combattantes (CCC)** noch anhängig waren. Die Kriminalpolizei führte anschließend **keine interne Untersuchung** durch.
+
+Die Aufsichtsquelle belegt **konkrete Dokumentenverluste und Rechtsverstöße im Bereich Terrorismuserkundung**, nicht die Vernichtung einer spezifischen Dutroux- oder „Ballets roses“-Akte. Über den Anteil und die Verantwortlichkeit des Nachrichtendienstes entscheidet dieser Teilbericht allein nicht; die eigenständige Prüfung durch **Comité R** ist entsprechend abzugleichen. Ein Automatismus „Aktenvernichtung = Beweis einer gemeinsamen Täterorganisation“ wäre nicht gerechtfertigt.
+
+### Stay-Behind/Gladio: bestätigter Geheimverbund und nicht vollständig offengelegte Personalakten
+
+Das **Comité R** bestätigte im Jahresbericht 1997 eine frühere, tatsächlich bestehende belgische **Stay-Behind-Struktur** aus militärischem **SDRA-VIII** und ziviler Staatssicherheit, die 1951/52 durch staatliche Beschlüsse eingerichtet und durch Ministerratsbeschluss vom **23.11.1990** eingestellt worden war. Die offiziellen, auch an verbündete Nachrichtendienste übermittelten Auflösungsmaßnahmen werden dort konkret nachgezeichnet [Q11, S. 108–110].
+
+**Nachgewiesene Grenze parlamentarischer Kontrolle:** Der Bericht hält ausdrücklich fest, dass der für SDRA-VIII verantwortliche Oberst den von der früheren Untersuchungskommission bestimmten hochrangigen Richtern nicht alle angeforderten Angaben gab. **Die Identitäten der geheimen Agenten wurden den Richtern nicht mitgeteilt.** Außerdem wurde kein detailliertes schriftliches Ministeriumsdokument gefunden, das dem Militärdienst konkrete Schritte zur Auflösung vorgab [Q11, S. 109]. Die Nichtoffenlegung ist ein realer, amtlich benannter Kontrollkonflikt, jedoch für sich genommen kein Nachweis rechtswidriger Tätigkeit dieser Personen.
+
+**Gegenprobe einer angeblichen Weiterführung:** Das Comité R überprüfte 1996/97 auch die Hypothese, der Verbund sei unter SGR/IH oder als paralleles Netzwerk neu errichtet worden. Nach unangekündigten Besuchen und Anhörungen fand das Kontrollgremium **keine Hinweise** auf eine solche Wiedererrichtung. Es konnte aber mangels offengelegter Identitäten **nicht sicher ausschließen**, dass einzelne frühere Geheimagenten später Informanten bei SGR/IH geworden waren [Q11, S. 112–113].
+
+**Fallbezug:** Für eine direkte Finanzierung, Steuerung oder Beteiligung von Stay-Behind-Mitgliedern an den „Ballets roses“, den Brabant-Morden oder den Dutroux-Entführungen liegt aus diesem Bericht **kein Nachweis** vor. Der konkret belegbare Zusammenhang ist die damalige Praxis und eingeschränkte Prüfbarkeit geheimdienstlicher Personal- und Aktenbestände; eine gemeinsame Täterstruktur wäre erst über eindeutige Aktenidentität, Handlungen und Zeitbezüge nachweisbar.
+
+## 5. Behauptungen zum belgischen Königshaus
+
+Der Journalist **Alexander Smoltczyk** befragte **Michel Nihoul** persönlich; sein zeitgenössischer Bericht im *Spiegel* vom **14.10.2001** dokumentiert Nihouls Bereitschaft, gegen Geld angeblich kompromittierendes Material zu liefern [Q6]. Er bot für eine **sechsstellige Summe** ein angebliches Foto des damaligen Prinzen und späteren Königs **Albert II.** in einer sexuellen Situation mit einer Minderjährigen an. Das **Foto wurde nicht vorgelegt**, weshalb weder Existenz, Echtheit, dargestellte Person, Alter noch Ort verifiziert sind. Der Bericht belegt die **Angebotsbehauptung Nihouls**, nicht ein Verbrechen Alberts.
+
+Separat berief sich ein Buch von **Jean Nicolas und Frédéric Lavachery** auf alte Zeugenaussagen, darunter die Aussage von **Christine D.** aus dem Jahr **1981**, zu angeblicher Schutzgewährung durch Prinz Albert. Nach einer späteren polizeilichen Befragung widerrief Christine D. jedoch die belastende Aussage und erklärte, prominente Namen seien ihr von einem Arzt nahegelegt worden. Der königliche Hof wies die Vorwürfe zurück und leitete rechtliche Schritte gegen den Verlag ein [Q6]. Ähnliche Vorwürfe der Zeugin **X3** sind im geprüften Material nicht durch authentische Bildbeweise, Tatortspuren oder gerichtlich festgestellte Täterhandlungen gedeckt.
+
+**Fazit Royals:** Gerüchte und schwerwiegende, publizierte Anschuldigungen **existieren**; die personenspezifische Beweiskette fehlt. Man kann eine überprüfbare Spur (Originaltonband, Originalvernehmung, behauptetes Bild-Asservat, gerichtliche Verfügung) benennen, aber nicht den prominenten Namen auf eine Täterliste setzen.
+
+## 6. Verschränkung mit Dutroux – die tatsächliche Aussagegrenze
+
+Die **Nihoul–Erwachsenen-Sextreffen–Gendarmerie**-Verknüpfung ist **dokumentiert**; ebenso die **Deprêtre–Pinon–Staatssicherheit–Brabant**-Verknüpfung als anderer Ermittlungsstrang. Beide zeigen wiederkehrende belgische Probleme in Beweissicherung und Informantenführung. **Dass sie ein und denselben Täterapparat bildeten, ist damit nicht bewiesen.**
+
+Michel Nihoul wurde **2004 von der Beteiligung an Dutroux' Kindesentführungen freigesprochen** und wegen anderer, insbesondere drogenbezogener Delikte verurteilt [Q8]. Daher ist eine Erklärung „Nihoul organisierte nachweislich die Entführungen im Auftrag von Royals“ sachlich nicht haltbar.
+
+Die zusätzlich behaupteten Verbindungen zu **Manuel Schadwald/Zandvoort/Apollo** sind in den beiden anderen Studien als separat dokumentierte, teilweise widersprochene Ermittlungsbehauptungen aufgeführt. Die parlamentarischen Sexclub- und Geheimdienstakten enthalten **keine belegte Fallidentifikation** Manuels oder einen authentifizierten Tatfilm. Vgl. [Dutroux-Kommissionsakten, Forschungs-PR #194](https://github.com/alexdermohr/machtverflechtungen/pull/194) und [Schadwald/Zandvoort, Forschungs-PR #193](https://github.com/alexdermohr/machtverflechtungen/pull/193).
+
+## 7. Amtliche Aktenzeichen als überprüfbare Recherchezugänge
+
+Der Bericht **573/7, S. 10–11**, nennt die der Untersuchungskommission 1997 überlassenen Originalakten. Diese konkreten Referenzen ermöglichen gezielte Archivanfragen [Q1]:
+
+| Dossier | Im amtlichen Bericht genannte Geschäftszeichen |
+| --- | --- |
+| **Pinon** | `38.91.1005/79`, `45.21.300/87`, `71/92` |
+| **Montaricourt / Fortunato Israël** | `38.66.1371/78`, `38.66.2330/79` |
+| **Maud Sarr** | `37.97.641/90` |
+| **Eurosystem Hospitalier** | `41/79` |
+| **Gemeinsame Prüfung Polizei/Militärnachrichtendienst** | Comité P/R `3122/96` [Q10] |
+
+Die Aktennummern belegen die **Existenz beziehungsweise Aufnahme der bezeichneten Verfahren in den damaligen Aktenbestand der Kommission**, nicht die Richtigkeit sämtlicher darin erhobener Anschuldigungen.
+
+## 8. Offene Originalakten und konkrete Gegenproben
+
+| Untersuchungsziel | Priorisierte Originalakten | Erwarteter Entscheidungspunkt |
+| --- | --- | --- |
+| **Dossiers Montaricourt/Israël/Eurosystem** | Asservaten-Eingangsverzeichnis, Verfügung zur Einstellung, verlorene Fotografien/Agenda/Tischplan, ministerielle Kontakte | Dokumentiertes individuelles Handeln und Datierung statt bloßer Unterlagenverlust |
+| **Pinon – Deprêtre** | Schreiben vom 13.03.1985, vollständige Ermittlungsakte, Richterprotokolle, Dokumentenketten | Wurde erweislich eine erforderliche Maßnahme ohne sachlichen Grund verhindert? |
+| **Angebliche Sexfilm-Erpressung** | Legale Aktenabfrage zu Asservatennummern und Polizei-Inventar; Original-Protokolle zu Maud Sarr | Authentifizierte Aufnahme und Identifizierungen; oder widerlegte behauptete Herkunft |
+| **Nihoul–Polizeikontakte** | Informantencode, Führungsvorgänge, Datum der Dolo-Warnung, wer gab sie weiter? | Auftrag oder persönliche Gefälligkeit, und war der Schaden strafprozessual konkret? |
+| **5 Mio. BEF** | Konkursakten vom Mai 1989, Schuldanerkennung von 1984, Schweizer Auszahlung, Bar-Geschäftsbücher | Welche Gelder kamen wo an? Beleg für **falsche Bestechungszusage** vs. tatsächliche Bestechung |
+| **Borges 1986** | Original-PV **1993/86**, Comité-P-Befragung des Offiziers, Telefon-/Ministeriumskontakte | War der angebliche Kabinettsanrufer realer Mitarbeiter, Nihoul oder jemand anderes? |
+| **Raes–Deprêtre** | Dienstliche Besuchskalender, Sûreté-Akten zu Rechtsextremismus, Abgleich übermittelter Unterlagen | Was wurde aus Erkenntnisbeständen tatsächlich nicht an Ermittler weitergegeben, warum? |
+| **WNP/Pinon** | Nachlass/Asservatenverzeichnis Paul Latinus, Originalaussagen Schlicker/Marnette, Registratur Smets | Wurde ein Pinon-Original je gesichert? Existierte ein dokumentierter offizieller WNP-Auftrag? |
+| **Royale Anschuldigungen** | Originaltonband 1981 und vollständiger Widerruf Christine D., Bild-Asservat/Provenienz, Auskunft Gericht | Ist die behauptete Darstellung überhaupt authentifiziert? Kein Schuldschluss aus Angebot ohne Bild |
+
+**Arbeitshypothese mit höchstem Prüfwert:** Nicht ein abstraktes, alles steuerndes „Supernetzwerk“, sondern **nachweisbar austauschbare Mechanismen** – Informantenschutz, Nutzung behaupteter ministerieller Autorität, privilegierter Zugang zu Gremien, informelle Kontakte und Versagen von Asservatenketten. Ihre mögliche Koordination ist offen und muss **über Datierung, konkrete Personen, Weisungen, Geldflüsse und Primärakten** geprüft werden.
+
+## Primärquellen und kontrollierbare Berichte
+
+- **[Q1] A – Belgische Abgeordnetenkammer, Untersuchung zur Mordserie von Brabant, Bericht 573/7, 14.10.1997**, S. 30–31: https://www.lachambre.be/flwb/pdf/49/0573/49k0573007.pdf — Existenz sexueller Erwachsenentreffen und problematische Altverfahren; **keine** gesicherten Kinderverbrechen.
+- **[Q2] A – Belgische Abgeordnetenkammer, Bericht 573/9**, Anhang zu Pinon/Montaricourt/Israël/Eurosystem und Zeugenaussagen (1997): https://www.lachambre.be/FLWB/PDF/49/0573/49K0573009.pdf — untersuchte Akten, nicht bestätigte Film-/Erpressungsbehauptungen.
+- **[Q3] A – Belgische Abgeordnetenkammer, Bericht 573/11**, Anhang zur WNP-/Staatssicherheit-Spur und Pinon-Verfahrensprüfung, Abschnitt V (1997): https://www.dekamer.be/FLWB/PDF/49/0573/49K0573011.pdf — detaillierte Aussagen mit ausdrücklich markierten subjektiven Eindrücken und negativen Fundresultaten.
+- **[Q4] A – Belgische Abgeordnetenkammer, Bericht 573/12**, Untersuchungsanlage zu Sûreté de l'État, Raes/Deprêtre und Rechtsextremismusspur (1997): https://www.lachambre.be/FLWB/PDF/49/0573/49K0573012.pdf — informelle Treffen, Kommunikationswege und deren Grenzen.
+- **[Q5] A – Belgische Abgeordnetenkammer, Dutroux-Nihoul-Ergänzungsbericht 713/8, 16.02.1998**, insbesondere S. 8–9 und 127–145: https://www.dekamer.be/kvvcr/pdf_sections/comm/dutroux/49K0713008.pdf — Schloss, Sexclubs, Informantenstatus, 5-Mio.-BEF-Affäre, Borges-Vorgang. **Parlamentsreferat einer Gerichtsakte**, nicht von hier eingesehenes Konkursurteil selbst.
+- **[Q6] B – Der Spiegel**, Alexander Smoltczyk, 14.10.2001, „Im Netz der Dossiers“: https://www.spiegel.de/panorama/im-netz-der-dossiers-a-c9fe5b47-0002-0001-0000-000020353850 — authentisches **Interview über Nihouls Behauptungen**, keine Bestätigung angeblicher kompromittierender Fotos und der Königshausvorwürfe.
+- **[Q7] B – Le Monde, 23.02.1990**, „Belgique: rumeurs de « ballets roses »“, Bericht über Anhörung des ehemaligen Premierministers Paul Vanden Boeynants am **21.02.1990**, dessen Bestreiten und die fehlende Beweiskette zu Brabant-Morden: https://www.lemonde.fr/archives/article/1990/02/23/belgique-rumeurs-de-ballets-roses-vdb-a-beaucoup-de-defauts-mais-sexuellement-il-est-parfaitement-normal_3957860_1819218.html — namentliche Beschuldigung als Vorwurf, nicht als festgestellte Tat.
+- **[Q9] B – El País/EFE, 16.02.1990**, zeitgenössischer Bericht über die Sarr-Anschuldigungen und ausdrückliches Bestreiten von Vanden Boeynants, Deprêtre und Jaspar: https://elpais.com/diario/1990/02/16/internacional/635122814_850215.html — kein Beweis der Tatbehauptungen.
+- **[Q8] B mit Gerichtsangaben – Le Monde**, 18.06.2004, Urteilsdarstellung zu Dutroux und der Nichtverurteilung Nihouls als Entführungsbeteiligter: https://www.lemonde.fr/archives/article/2004/06/18/marc-dutroux-a-ete-juge-coupable-l-homme-des-reseaux-disculpe_369464_1819218.html — Originalurteil nicht in vollständiger Abschrift verfügbar.
+
+- **[Q10] A – Comité permanent P (Belgien), Rapport d'activités 1997**, gemeinsame Kontrolluntersuchung mit Comité R **3122/96**, Abschluss **24.06.1997**, S. 75–78: https://comitep.be/document/jaarverslagen/1997FR.pdf — dokumentierter Transfer von Terrorismusunterlagen der Brüsseler Kriminalpolizei zum SGR zwecks Vernichtung; fehlende Register, unterbliebene vorherige Justiz- und Archivgenehmigung, nicht durchgeführte interne Untersuchung. **Nicht als Dutroux- oder Pinon-Akte identifiziert**.
+
+- **[Q11] A – Belgisches Comité permanent de contrôle des services de renseignement (Comité R), Rapport d'activités 1997**, Berichtsteil „La réinstauration du réseau Stay-Behind“, S. **107–113** (besonders 108–109, 112–113): https://www.comiteri.be/images/pdf/activiteitenverslagen/AV_RA_1997_FR.pdf — dokumentiert die Regierungsentscheidung vom **23.11.1990**, die Auflösung SDRA-VIII, das Ausbleiben der Personalidentitäten gegenüber untersuchenden Richtern und **keinen bei der Untersuchung bestätigten Wiederaufbau**. Nicht als Nachweis einer Verbindung zu Dutroux verwenden.
+
+**Quellenbegrenzung:** Quellen Q1–Q5 sind parlamentarische Primärdokumente **für die darin festgehaltenen Feststellungen, Zitate und Verfahrensabläufe**. Sie sind nicht Ersatz für Original-Asservate, forensische Untersuchungen und endgültige Gerichtsentscheidungen in anderen Tatkomplexen. In dieser Studie werden **keine** namentlichen Sexualstraftaten gegen prominente Personen als erwiesen dargestellt, die nur auf bestrittenen Zeugenaussagen, nicht vorgelegten Aufnahmen oder Nähe im Kontaktgraphen beruhen.
