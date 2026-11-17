@@ -119,8 +119,8 @@ Die Bank meldet Rückzug aus institutionellem Kapitalmarktgeschäft, Verkauf von
 - **[H2]** Federal Reserve History, [Paul M. Warburg](https://www.federalreservehistory.org/people/paul-m-warburg), Biografie und Amtstermine; institutionelle Fed-Historik.
 - **[H3]** Federal Reserve History, [The Meeting at Jekyll Island](https://www.federalreservehistory.org/essays/jekyll-island-conference), Datierung, Geheimhaltung, Aldrich-Plan und politischer Unterschied zur späteren Bundesgesetzgebung.
 - **[H4]** American Council on Germany, [History](https://www.acgusa.org/about-us/history/); ACG-Eigenangaben zur Gründung 1952 und den Personen Clay, McCloy, Eric Warburg.
-- **[H5]** UBS, eigene Geschichte zur 1995 übernommenen S.G. Warburg & Co.; konkrete UBS-Archivseite bei Nachrecherche dauerhaft verlinken. *Status:* Unternehmenszuordnung historisch gut bekannt, aktuelle Kontrolle nicht behauptet.
-- **[H6]** Warburg Pincus, eigene Firmengeschichte zu E.M. Warburg & Co. und späterer eigenständiger Private-Equity-Entwicklung; konkrete archivierte Gründungsunterlagen noch offen.
+- **[H5]** UBS, [Wurzeln der UBS](https://www.ubs.com/global/de/our-firm/our-history/roots-of-ubs.html), tabellarischer Originalnachweis zu Gründung von S.G. Warburg & Co. 1946 und Übernahme durch den Schweizerischen Bankverein 1995; ergänzend [Deutsche Biographie zu Sir Siegmund Warburg](https://www.deutsche-biographie.de/sfz139069.html) zur persönlichen Geschichte.
+- **[H6]** Warburg Pincus, [Firm History: Milestones of Growth](https://warburgpincus.com/firm/firm-history/), institutionelle Primärquelle zur Gründung von E.M. Warburg & Co. 1939 in New York und zur Übernahme durch Lionel I. Pincus & Co. 1966; aktuelle Gesellschafts-/Eigentumskette nicht mit Hamburger Bank gleichsetzen.
 - **[H7]** Deutsche Biographie, [Max Warburg](https://www.deutsche-biographie.de/sfz139057.html); Forschungsbiografie zu Staatsämtern, Verfolgung und Eigentumsentzug.
 - **[H8]** Warburg Bank, [Unternehmensgeschichte / Partnerentwicklung](https://navigator.mmwarburg.de/ueberuns/), ausdrücklich **historische**, nicht aktuelle Eigentümerquote.
 
