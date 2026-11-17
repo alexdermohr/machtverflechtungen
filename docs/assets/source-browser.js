@@ -84,15 +84,24 @@
         : "Keine passenden Quellen. Filter zurücksetzen oder Suche ändern.";
     }
 
-    // Existing fragment links must still reveal their targets after filtering.
-    const content = root.closest(".md-content");
-    content?.addEventListener("click", (event) => {
-      const anchor = event.target?.closest?.('a[href^="#src-"]');
-      if (!anchor) return;
-      const target = document.getElementById(anchor.getAttribute("href").slice(1));
+    // Links and browser history must reveal a filtered-out source target.
+    function revealSource(id) {
+      const target = document.getElementById(id);
       if (target?.closest(".mv-source-entry")?.hidden) {
         form.dispatchEvent(new Event("reset", { cancelable: true, bubbles: true }));
       }
+    }
+
+    const content = root.closest(".md-content");
+    content?.addEventListener("click", (event) => {
+      const anchor = event.target?.closest?.('a[href^="#src-"]');
+      if (anchor) revealSource(anchor.getAttribute("href").slice(1));
+    });
+    window.addEventListener("hashchange", () => {
+      // Ignore stale listeners after MkDocs instant navigation.
+      if (document.getElementById("mv-source-browser") !== root) return;
+      const hash = window.location.hash;
+      if (hash.startsWith("#src-")) revealSource(hash.slice(1));
     });
 
     form.addEventListener("input", update);

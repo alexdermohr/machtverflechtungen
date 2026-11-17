@@ -154,6 +154,75 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertEqual(catalog.count('<a id="src-test-undated"></a>'), 1)
         self.assertEqual(catalog.count("</article>"), 2)
 
+    def test_hash_navigation_reveals_filtered_source(self) -> None:
+        """Hash navigation without a click must not land on a hidden source."""
+        import shutil
+        import subprocess
+
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("Node is not installed")
+        harness = r"""
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const vm = require("node:vm");
+const handlers = {};
+const formHandlers = {};
+const entry = {
+  textContent: "Archive 1974",
+  dataset: {sourceKind: "primary", sourceTier: "A", sourceYear: "1974"},
+  hidden: false
+};
+const input = {value: "no-match"};
+const kind = {value: ""}, tier = {value: ""}, period = {value: ""};
+const count = {textContent: ""};
+const form = {
+  addEventListener(type, fn) {formHandlers[type] = fn;},
+  dispatchEvent(event) {formHandlers[event.type](event);}
+};
+const fields = {
+  form, "#mv-source-query": input, "#mv-source-type": kind,
+  "#mv-source-tier": tier, "#mv-source-period": period,
+  "#mv-source-count": count
+};
+const root = {
+  dataset: {}, innerHTML: "",
+  querySelector(selector) {return fields[selector];},
+  closest() {return {addEventListener() {}};}
+};
+const target = {closest() {return entry;}};
+const document = {
+  readyState: "complete",
+  querySelectorAll() {return [entry];},
+  getElementById(id) {
+    if (id === "mv-source-browser") return root;
+    if (id === "src-test-1974") return target;
+    return null;
+  }
+};
+const window = {
+  location: {hash: ""},
+  addEventListener(name, fn) {handlers[name] = fn;}
+};
+class Event {
+  constructor(type) {this.type = type;}
+  preventDefault() {}
+}
+vm.runInNewContext(fs.readFileSync(process.argv[1], "utf8"),
+  {document, window, Event});
+assert.equal(entry.hidden, true, "precondition: source filtered out");
+window.location.hash = "#src-test-1974";
+assert.equal(typeof handlers.hashchange, "function", "hashchange handler missing");
+handlers.hashchange();
+assert.equal(entry.hidden, false, "hash-linked source stays hidden");
+assert.equal(input.value, "", "filter should clear for hidden permalink");
+"""
+        result = subprocess.run(
+            [node, "-e", harness, str(DOCS / "assets/source-browser.js")],
+            capture_output=True, text=True, timeout=15, check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_focus_graphs_only_include_immediate_relations(self) -> None:
         entities = [
             {"id": "ORG-A", "name": "A", "type": "organization", "countries": ["DE"]},
