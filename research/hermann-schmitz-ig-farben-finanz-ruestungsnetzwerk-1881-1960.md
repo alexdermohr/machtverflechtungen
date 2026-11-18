@@ -106,6 +106,18 @@ Dies ist ein **aus Archiven rekonstruierter Mechanismus, wirtschaftliche Kontrol
 
 **Wichtig für Projektdatenmodell:** Unterschiedliche Kantenkategorien als eigene überprüfbare Aussagen pflegen: *Person → Amt* (mit Beginn/Ende), *Unternehmen → Beteiligung* (Quote, Stimmrechte), *Unternehmen → Vertrag* (Datum, Vertragsrechte), *Bank → Zahlung* (Betrag, Auftraggeber, Empfänger, Zweck), *Person → Kenntnis/Entscheidung* (Dokument), *Person → strafrechtliche Feststellung* (konkreter Urteilspunkt). Eine Kante „Board-Kollege von“ ist keine Kante „Komplize bei Kriegsverbrechen“.
 
+## 11. Familienverbindungen im transatlantischen Beteiligungskomplex
+
+**SCH-16 — nach den genealogischen Angaben der Neuen Deutschen Biographie [S]:** Drei **personell verschiedene** Familienkanten sind bei einer Eigentums- und Steuerungsrecherche besonders auffällig:
+
+- **Dietrich Schmitz**, Bruder von Hermann, war nach der NDB **Präsident der American IG** und später der **General Aniline & Film Corporation (GAF)**. Damit reichen die familiären Beziehungen vom deutschen IG-Vorstand bis zur Spitze der US-amerikanischen Beteiligungen. Die Amtsjahre, konkrete Aufsicht und Einflussmöglichkeiten auf Abstimmungen sind anhand US-Register und Board Minutes gesondert zu belegen.
+- **Elfriede Schmitz**, Schwester, war mit **Albert Gadow** verheiratet; Gadow wurde 1935 Geschäftsführer der **IG Chemie Basel**, gerade jener Schweizer Gesellschaft, in der Vorzugsstimmrechte und Vertrauenspersonen eine zentrale Kontrollfunktion hatten. Der Familienbezug ist feststellbar; persönliche Teilnahme Gadows an einzelnen Stimmrechtskonstruktionen muss transaktionsbezogen nachgewiesen werden.
+- **Mathilde Schmitz**, Halbschwester, war mit **Emil Ilgner** verheiratet, einem Major und Leiter von Hermann Schmitz' Sekretariat in Ludwigshafen. **Emil Ilgner ist nicht mit Max Ilgner**, dem in den PR- und Auslandsvorgängen des IG-Apparats NW7 genannten Manager, **gleichzusetzen**. Ein tatsächliches Verwandtschaftsverhältnis beider Ilgner wäre nur mit separaten Familien- oder Personalakten zu prüfen.
+
+**Interpretation:** Hier liegt nicht nur ein Netzwerk abstrakter Organmandate vor, sondern eine **durch eine wissenschaftliche Biografie dokumentierte Familienpräsenz** an den neuralgischen Positionen deutscher Konzernleitung, Schweizer Holding und US-Tochterführung. Gerade bei Holdingstrukturen mit Vertrauenspersonen ist dies eine konkrete, archivisch weiter prüfbare Kontrollhypothese. **Nicht belegt:** dass allein aus der Verwandtschaft strafbare Absprachen, illegale Gewinntransfers oder eine fortgesetzte US-Kontrolle nach 1940 folgten.
+
+Quelle: [Werner Abelshauser, Hermann Schmitz, NDB, genealogischer Abschnitt](https://www.deutsche-biographie.de/gnd118609319.html). Nächste Primärquellen: US-Handelsregister und GAF-Board Minutes, IG Chemie/Interhandel-Verwaltungsratsprotokolle, Beteiligungs- und Treuhandkonten, Familien- und Personalakten zu Emil und Max Ilgner.
+
 ## Quellenverzeichnis und Querverweise
 
 1. [Werner Abelshauser: Hermann Schmitz, Neue Deutsche Biographie, 2007](https://www.deutsche-biographie.de/gnd118609319.html) — biografische Rekonstruktion, Mandate, Nachkriegszeit.
