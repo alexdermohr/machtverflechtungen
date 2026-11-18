@@ -77,6 +77,10 @@ Der Vorgang wurde unter dem **Decknamen „Melmer“** verbucht; die Sonderbuchu
 
 **Evidenzkritik:** Puhl relativierte seine frühere Erklärung später; auch Oswald Pohl versuchte Aussagen zurückzunehmen. Das Tribunal prüfte diese Widersprüche, hielt mehrere Entlastungsversionen für unglaubwürdig und stützte das Ergebnis zusätzlich auf Bankdokumente und andere Zeugen. Das Urteil ist damit stärker als eine unkritisch isolierte Verwertung von 3944-PS. [Q6, S. 614–620]
 
+### KSF-06 – Gerichtsfolgen (belegt)
+
+Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesprochen und zu **lebenslanger Haft** verurteilt; seine Freilassung erfolgte 1957. [Q9] Emil Puhl wurde im **Ministerien-Verfahren 1949** unter Anklagepunkt 5 schuldig, unter Anklagepunkt 7 nicht schuldig befunden. Die beiden Entscheidungen betreffen verschiedene Verfahren, Personen und Anklagepunkte. [Q6]
+
 ### KSF-07 – Melmer-Goldspur, Degussa und Reichsbank (historische Forschung mit Mengenbelegen)
 
 Die für die **Deutsche Bundesbank** herausgegebene Untersuchung *Von der Reichsbank zur Bundesbank* (2024) berichtet auf **gedruckten Seiten 76–78**: Die **76 Lieferungen** Bruno Melmers zwischen **August 1942 und Januar 1945** erbrachten **mindestens 2,65 Tonnen Feingold im Wert von 8,1 Millionen RM** sowie **Goldmünzen im Wert von 1,93 Millionen RM**. Die Münzangabe ist ein eigener Geldwert; 2,65 Tonnen sind keine Gesamtmasse aller KZ-Opfergegenstände. [Q7, S. 76]
@@ -94,9 +98,11 @@ Die BIZ veröffentlichte am **12. Mai 1997** eine Auswertung ihres Bankarchivs �
 | Bestand am 1.09.1939 | **1.861,70292 kg Feingold** | Darunter **1.802,08784 kg / 144 Barren** auf BIZ-Verwahrkonto Nr. 10 in Bern und **59,61508 kg** auf dem Gold-Sichtkonto bei der **Bank of England** in London |
 | Neue Golddepots der Reichsbank während des Krieges | **13.542,21892 kg** | Davon **12.016,59862 kg** in Bern und **1.525,62030 kg** am 12.04.1945 in Konstanz |
 | Am 12.04.1945 in Konstanz zur Verfügung gestelltes Gold | **1.525,62030 kg** | 34 Barren und 31 Kisten Goldmünzen; Schweizer Stellen verweigerten den physischen Transport, das Gold verblieb blockiert |
-| Nach 1945 als geraubtes Notenbankgold identifiziert und 1948 restituiert | **3.740 kg** | Laut BIZ-Archivbestand aus **belgischen und niederländischen Zentralbankreserven** |
+| Nach 1945 als geraubtes Notenbankgold identifiziert und 1948 restituiert | **3.740 kg** | Laut genauer BIZ-Rekonstruktion aus **niederländischen (2.093,86258 kg), belgischen (1.607,38516 kg) und italienischen (37,23783 kg) Zentralbankreserven**; **3.738,48557 kg** nachgewiesen, auf **3.740 kg** restituiert |
 
 **Buchhaltungsgrenze:** Die BIZ nennt außerdem rund **21.472 kg** auf jeder Seite ihrer **Bruttogoldkonten**, einschließlich Anfangsbeständen, Kauf-/Verkaufstransaktionen und Umbuchungen. Das sind **nicht 21,472 Tonnen neu eingegangenen Reichsbankgoldes**. Auch die **3,74 Tonnen Restitutionsgold** sind nicht mit den **2,65 Tonnen Melmer-Opfergold** gleichzusetzen. [Q12, S. 1–5; Q13, S. 3]
+
+**Wege der BIZ-Goldbarren (Stand 1. Februar 1947):** Die BIZ rekonstruierte aus den **13.542,21892 kg** Reichsbank-Goldeingängen den Verbleib von **3.893,26170 kg im eigenen Bestand** (einschließlich Konstanz) sowie Überträge an die **Nationalbanken Rumäniens (3.893,46171 kg), Jugoslawiens (3.138,28017 kg), Bulgariens (1.118,55459 kg), Portugals (799,27177 kg) und die Schweizerische Nationalbank (699,38898 kg)**. Das ist eine konkret bezifferte **Folgeverwahrung bzw. Buchungs-/Goldübertragung**, nicht automatisch der endgültige Eigentümer oder eine festgestellte Beteiligung der Empfänger am ursprünglichen Raub. Für individuelle Barren verlangt diese BIZ-Rekonstruktion den Abgleich ihrer **Anlage 5** mit Empfängerkonten und Verwahrbüchern. [Q12, S. 11–12]
 
 Eine besondere Transaktion erfolgte noch am **12. April 1945** in Konstanz: Das bereitgestellte Gold sollte 1945 fällige Zinsen Deutschlands an die BIZ vorweg begleichen. Die BIZ-Quellen unterscheiden **Gutschrift/Verwahrvermerk** von **physischem Transport**; eine Barrenprovenienz lässt sich nur mit der nächsten Kontenebene feststellen. [Q12, S. 5]
 
@@ -113,6 +119,8 @@ Die **BIZ-Archivübersicht von 1998 (Revision 2001)** nennt die konkret zu unter
 | **7.18(7) Thomas McKittrick** | BIZ-Präsident 1940–1946, Originale in Harvard Baker Library; Mikrofilme in Basel |
 | **7.19(4) Looted gold** | Ermittlungen 1945–1948 und Restitution von 3,7 Tonnen |
 | **Gold Register, Contract Books, Résumés Hebdomadaires** | Barrenregister, Vertrags- und Wochenlisten zur Differenzierung von Brutto-/Nettotransfers |
+
+**Archivzugang 2026:** Die BIZ meldet eine vorübergehende **Schließung ihres physischen Forschungsarchivs vom 18. September 2026 bis mindestens 15. Januar 2027**; digitalisierte Akten können gegebenenfalls online bereitgestellt werden. Die genannten Signaturen bleiben damit ein belastbarer Bestandsnachweis, kurzfristige Vor-Ort-Einsicht ist aber nicht verfügbar. [Q11]
 
 **Prüfbare Hypothese:** Puhls Stellung im Reichsbank-Goldgeschäft könnte sich in unterschriebenen Aufträgen oder BIZ-Korrespondenz zu einzelnen zweifelhaften Goldübertragungen niedergeschlagen haben. Die **Archive sind identifiziert, die personenbezogenen Verfügungen noch nicht dokumentiert**. [Q12–Q13]
 
@@ -142,9 +150,6 @@ Lindemann schilderte darüber hinaus, dass **Schröder und Otto Steinbrinck scho
 
 **Erkenntnis:** Für DAPG/Sonderkonto S existieren **zwei voneinander unterscheidbare Quellentypen**: Schröders **zeitgenössische Beitragszuordnung 1943** und Lindemanns **retrospektive Zeugenaussage 1947** zu einer Transferpraxis. Zusammen stützen sie eine finanzielle Verbindung **einer US-konzernverbundenen deutschen Mineralölfirma → Helfferich/Lindemann → Privatbankier Schröder → Himmlers Sonderfonds**. Nicht belegt sind dadurch **eine eigene Zahlungsanweisung der US-Konzernzentrale**, ihre Kenntnis des konkreten Zahlungsvorgangs oder der endgültige Einsatz einzelner Reichsmarkbeträge. Der nächste entscheidende Test sind **DAPG-Geschäftsberichte, Aufsichtsratsprotokolle und Zahlungsbelege von 1942–1944** gegen **Stein-Bank-Kontoauszüge**. [Q3, Q17–Q19]
 
-### KSF-06 – Gerichtsfolgen (belegt)
-
-Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesprochen und zu **lebenslanger Haft** verurteilt; seine Freilassung erfolgte 1957. [Q9] Emil Puhl wurde im **Ministerien-Verfahren 1949** unter Anklagepunkt 5 schuldig, unter Anklagepunkt 7 nicht schuldig befunden. Die beiden Entscheidungen betreffen verschiedene Verfahren, Personen und Anklagepunkte. [Q6]
 
 ## 3. Mechanismen und bisherige Aussagegrenzen
 
@@ -182,6 +187,7 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 - **[Q8] A/Institutionelle Selbstauskunft:** Bank für Internationalen Zahlungsausgleich, [historische Zeitleiste: 1931–1945 und 1946–1958](https://www.bis.org/about/history/timelines). Belegt Angaben der Institution zu Kriegsgeschäften, Sitzungspause und Goldrückgabe 1948, ersetzt keine unabhängige Transaktionsprüfung.
 - **[Q9] B/Historisches Museum:** United States Holocaust Memorial Museum, [Walther Funk: Rolle und Nürnberger Verurteilung](https://encyclopedia.ushmm.org/content/en/article/walther-funk?series=192).
 - **[Q10] A/Archivübersicht:** U.S. National Archives, [Records Relating to World War II Nazi-Era Assets / Bank for International Settlements](https://www.archives.gov/research/holocaust/finding-aid/military/part-1-notes.html). Die dortige Sammelbezeichnung „directors“ ist beim stellvertretenden Mandat Puhls anhand des exakten BIZ-Jahresberichts [Q4] zu präzisieren.
+- **[Q11] A/Aktuelle Archivmitteilung:** Bank für Internationalen Zahlungsausgleich, [BIS Historical Archive](https://www.bis.org/about/history/archive), Öffnungsregeln und **Schließung 18.09.2026 bis mindestens 15.01.2027**. Stand des Zugangs am 18.11.2026; die Verfügbarkeit von digitalisierten Einzelakten ist jeweils gesondert zu klären.
 
 - **[Q12] A/Institutionelle Archivrekonstruktion:** BIZ, *Note on Gold Operations Involving the BIS and the German Reichsbank, 1 September 1939 – 8 May 1945*, 12.05.1997, S. 1–5 und Transaktionstabellen: [Original-PDF BIZ](https://www.bis.org/publ/bisp02b.pdf). Goldkonten, Mengen, Transaktionen, Konstanz 12.04.1945; als Selbstdarstellung durch unabhängige Bankbelege zu kontrollieren.
 - **[Q13] A/Offizielles Findmittel:** BIZ, *Information Held in the BIS Archive on Gold Looted by Nazi Germany during World War II*, September 1998, revidiert 2001, **S. 1–4**: [Archivbestände und Signaturen](https://www.bis.org/publ/bisp04.pdf). Kennzeichnet erhaltene Reichsbank-Routineakten und Dokumente zur Restitution von 3,7 Tonnen.
