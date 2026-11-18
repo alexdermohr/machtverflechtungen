@@ -35,6 +35,9 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/source-browser.js
+
 plugins:
   - search:
       lang:
@@ -86,6 +89,12 @@ nav:
   - Beziehungen & Daten:
       - Netzwerk: generated/network.md
       - Netzwerkdiagramm: generated/network-graph.md
+      - Netzwerkfokus:
+          - Atlantik-Brücke: generated/network-focus-atlantik-bruecke.md
+          - Bilderberg: generated/network-focus-bilderberg.md
+          - Organisation Gehlen: generated/network-focus-organisation-gehlen.md
+          - Bund Deutscher Jugend: generated/network-focus-bdj.md
+          - BAFISUD: generated/network-focus-bafisud.md
       - Chronologie: generated/timeline.md
       - Personen & Organisationen: generated/entities.md
       - Regionen: generated/regions.md

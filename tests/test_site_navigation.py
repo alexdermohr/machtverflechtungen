@@ -131,9 +131,140 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertIn("[SRC-TEST-A](../quellen/index.md#src-test-a)", network)
         self.assertIn("Keine Relation", actors)
 
+    def test_filterable_sources_keep_every_source_anchor_and_year(self) -> None:
+        source = {
+            "id": "SRC-TEST-1974", "institution": "Archiv",
+            "primary": True, "date": "1974-05-12",
+            "tier": "A", "title": "Aktenbestand",
+            "url": "https://example.org/original.pdf",
+        }
+        other = {
+            **source, "id": "SRC-TEST-UNDATED", "primary": False,
+            "date": None, "tier": "C",
+        }
+        catalog = build_indexes.render_sources([source, other])
+        self.assertIn('id="mv-source-browser"', catalog)
+        self.assertEqual(catalog.count('class="mv-source-entry"'), 2)
+        self.assertIn('data-source-kind="primary"', catalog)
+        self.assertIn('data-source-kind="research"', catalog)
+        self.assertIn('data-source-tier="A"', catalog)
+        self.assertIn('data-source-year="1974"', catalog)
+        self.assertIn('data-source-year=""', catalog)
+        self.assertEqual(catalog.count('<a id="src-test-1974"></a>'), 1)
+        self.assertEqual(catalog.count('<a id="src-test-undated"></a>'), 1)
+        self.assertEqual(catalog.count("</article>"), 2)
+
+    def test_hash_navigation_reveals_filtered_source(self) -> None:
+        """Hash navigation without a click must not land on a hidden source."""
+        import shutil
+        import subprocess
+
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("Node is not installed")
+        harness = r"""
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const vm = require("node:vm");
+const handlers = {};
+const formHandlers = {};
+const entry = {
+  textContent: "Archive 1974",
+  dataset: {sourceKind: "primary", sourceTier: "A", sourceYear: "1974"},
+  hidden: false
+};
+const input = {value: "no-match"};
+const kind = {value: ""}, tier = {value: ""}, period = {value: ""};
+const count = {textContent: ""};
+const form = {
+  addEventListener(type, fn) {formHandlers[type] = fn;},
+  dispatchEvent(event) {formHandlers[event.type](event);}
+};
+const fields = {
+  form, "#mv-source-query": input, "#mv-source-type": kind,
+  "#mv-source-tier": tier, "#mv-source-period": period,
+  "#mv-source-count": count
+};
+const root = {
+  dataset: {}, innerHTML: "",
+  querySelector(selector) {return fields[selector];},
+  closest() {return {addEventListener() {}};}
+};
+let scrollCalls = 0;
+const target = {
+  closest() {return entry;},
+  scrollIntoView() {
+    assert.equal(entry.hidden, false, "fragment scrolling must follow reveal");
+    scrollCalls += 1;
+  }
+};
+const document = {
+  readyState: "complete",
+  querySelectorAll() {return [entry];},
+  getElementById(id) {
+    if (id === "mv-source-browser") return root;
+    if (id === "src-test-1974") return target;
+    return null;
+  }
+};
+const window = {
+  location: {hash: ""},
+  addEventListener(name, fn) {handlers[name] = fn;}
+};
+class Event {
+  constructor(type) {this.type = type;}
+  preventDefault() {}
+}
+vm.runInNewContext(fs.readFileSync(process.argv[1], "utf8"),
+  {document, window, Event});
+assert.equal(entry.hidden, true, "precondition: source filtered out");
+window.location.hash = "#src-test-1974";
+assert.equal(typeof handlers.hashchange, "function", "hashchange handler missing");
+handlers.hashchange();
+assert.equal(entry.hidden, false, "hash-linked source stays hidden");
+assert.equal(input.value, "", "filter should clear for hidden permalink");
+assert.equal(scrollCalls, 1, "hidden hash target was not scrolled into view");
+handlers.hashchange();
+assert.equal(scrollCalls, 1, "visible hash target should not trigger extra scrolling");
+"""
+        result = subprocess.run(
+            [node, "-e", harness, str(DOCS / "assets/source-browser.js")],
+            capture_output=True, text=True, timeout=15, check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_focus_graphs_only_include_immediate_relations(self) -> None:
+        entities = [
+            {"id": "ORG-A", "name": "A", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-B", "name": "B", "type": "organization", "countries": ["DE"]},
+            {"id": "ORG-C", "name": "C", "type": "organization", "countries": ["DE"]},
+        ]
+        relation = {
+            "id": "REL-AB", "from": "ORG-A", "to": "ORG-B",
+            "type": "cooperation", "label": "kooperiert",
+            "evidence_level": "established", "sources": ["SRC-AB"],
+        }
+        other = {**relation, "id": "REL-BC", "from": "ORG-B", "to": "ORG-C"}
+        focus = build_indexes.render_network_focus(
+            [], entities, [relation, other], "ORG-A", "A"
+        )
+        self.assertIn("**1 quellengebundene Beziehungen**", focus)
+        self.assertIn("flowchart LR", focus)
+        self.assertIn("[REL-AB](network.md#rel-ab)", focus)
+        self.assertIn("[SRC-AB](../quellen/index.md#src-ab)", focus)
+        self.assertNotIn("REL-BC", focus)
+        self.assertNotIn("N_ORG_C", focus)
+        with self.assertRaises(ValueError):
+            build_indexes.render_network_focus(
+                [], entities, [relation], "ORG-C", "C"
+            )
+        self.assertEqual(len(build_indexes.FOCUS_NETWORKS), 5)
+
     def test_responsive_website_features_are_present(self) -> None:
         config = load_mkdocs_config()
         self.assertIn("assets/stylesheets/extra.css", config["extra_css"])
+        self.assertIn("assets/source-browser.js", config["extra_javascript"])
+        self.assertTrue((DOCS / "assets" / "source-browser.js").is_file())
         self.assertTrue((DOCS / "assets" / "stylesheets" / "extra.css").is_file())
         self.assertIn("navigation.sections", config["theme"]["features"])
         self.assertIn("search.suggest", config["theme"]["features"])
