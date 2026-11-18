@@ -85,10 +85,12 @@
     }
 
     // Links and browser history must reveal a filtered-out source target.
-    function revealSource(id) {
+    function revealSource(id, scrollAfterReveal = false) {
       const target = document.getElementById(id);
       if (target?.closest(".mv-source-entry")?.hidden) {
         form.dispatchEvent(new Event("reset", { cancelable: true, bubbles: true }));
+        // The browser tried to scroll while the fragment target was still hidden.
+        if (scrollAfterReveal) target.scrollIntoView();
       }
     }
 
@@ -101,7 +103,7 @@
       // Ignore stale listeners after MkDocs instant navigation.
       if (document.getElementById("mv-source-browser") !== root) return;
       const hash = window.location.hash;
-      if (hash.startsWith("#src-")) revealSource(hash.slice(1));
+      if (hash.startsWith("#src-")) revealSource(hash.slice(1), true);
     });
 
     form.addEventListener("input", update);
