@@ -115,6 +115,6 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 
 ## Verwandte Arbeiten
 
-- [BIZ, Bank of England, Standard Oil, Rockefeller und McCloy](biz-bank-of-england-standardoil-rockefeller-mccloy-1930-1953.md) – ergänzende internationale Finanzakte, derzeit in eigenem Forschungs-PR.
+- [BIZ, Bank of England, Standard Oil, Rockefeller und McCloy – laufender Forschungs-PR](https://github.com/alexdermohr/machtverflechtungen/pull/212) – ergänzende internationale Finanzakte, derzeit in eigenem Forschungs-PR.
 - [Warburg-Bank: historischer Einfluss und personelle Netze](warburg-bank-einfluss-1798-2026.md) – institutionell eigenständige Vergleichsakte.
 - [Methodik](../METHODOLOGY.md) – Trennung von Primärbelegen, gerichtlichen Würdigungen, Ableitungen und offenen Forschungsfragen.
