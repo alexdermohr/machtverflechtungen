@@ -124,6 +124,14 @@ Die Bundesbank-Forschungsarbeit beschreibt Puhl als operativ besonders einflussr
 
 Das ist ein konkreter Prüfpfad **Reichsbank/BIZ → Nachkriegskreditbank → internationale Geschäftskontakte**, der Kontinuität von Personal und Reputation zeigt; der damalige Geschäftsverkehr und Weisungsinhalte sind noch über die archivalischen Sitzungs- und Korrespondenzakten zu untersuchen. [Q15]
 
+### KSF-11 – Eigentum an der Deutschen Golddiskontbank: ausländische Anteilseigner, aber keine belegte Steuerung
+
+Im **Nürnberger Protokoll vom 19. Mai 1948** erklärt Puhl vor dem Tribunal, die **Deutsche Golddiskontbank (DEGO)** habe **600 Mio. RM Aktienkapital** gehabt. Er spricht von **400 Mio. RM stimmberechtigtem Kapital** (mehrheitlich bei der Reichsbank) sowie **200 Mio. RM stimmrechtslosen, ausländischen Aktien**; diese seien 1939 beim Umtausch ausländischer Reichsbankanteile entstanden. Gleichzeitig bezeichnete er die DEGO organisatorisch als von der Reichsbank abgegrenzt, räumte aber deren Mehrheitsbeteiligung ein. Das sind zunächst **Puhls Aussagen im Verhör**, nicht einzeln geprüfte Aktienregister. [Q14, Sitzung vom 19.05.1948, Harvard-Sequenzen 5891–5894]
+
+Die Bundesregierung dokumentierte in **Bundestagsdrucksache II/2327 vom 20. April 1956, gedruckte S. 32–33**, für die spätere Liquidation dagegen **600 Mio. RM DEGO-Kapital**, nun eingeteilt in **375 Mio. RM Stammaktien A, 100 Mio. RM B und 125 Mio. RM stimmrechtslose Vorzugsaktien**. Davon befanden sich **rund 510 Mio. RM bei der Reichsbank**, rund **90 Mio. RM privat** (etwa 3 Mio. RM B-Aktien und 87 Mio. RM Vorzugsaktien). Diese Vorzugsaktien waren vornehmlich durch den **1939 gesetzlich angeordneten Austausch ehemaliger ausländischer Reichsbankanteile** ausgegeben worden. Der Regierungsentwurf hält zudem fest, dass der NS-Gesetzgeber 1939 **Ausländer und rassisch ausgeschlossene Personen als Reichsbankkapitaleigner ausschloss**. [Q16, S. 32–33]
+
+**Abgrenzung und Gegenprobe:** Die Puhl-Zahl **200 Mio. RM** (1948er Rückblick auf 1939) und die spätere amtliche Kapitalaufteilung **125/90 Mio. RM** (1956) lassen sich ohne Aktienbücher, Kapitalmaßnahmen und Kriegs-/Nachkriegsumtauschvorgänge **nicht periodengleichsetzen**. Das erklärt möglicherweise unterschiedliche Angaben, beweist aber auch **keine geheime Stimmrechtskontrolle ausländischer Privatbanken über die DEGO**. Ein konkreter weiterer Archivtest ist die namentliche **DEGO-Aktienregister-/Vorzugsaktien-Umtauschliste 1939–1956**, einschließlich Stimmberechtigung, Streubesitz, etwaigen Umtausch- und Entschädigungsvorgängen. [Q14, Q16]
+
 ### KSF-06 – Gerichtsfolgen (belegt)
 
 Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesprochen und zu **lebenslanger Haft** verurteilt; seine Freilassung erfolgte 1957. [Q9] Emil Puhl wurde im **Ministerien-Verfahren 1949** unter Anklagepunkt 5 schuldig, unter Anklagepunkt 7 nicht schuldig befunden. Die beiden Entscheidungen betreffen verschiedene Verfahren, Personen und Anklagepunkte. [Q6]
@@ -144,7 +152,8 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 ## 4. Vorrangige nächste Originalakten-Tests
 
 1. **Bankhaus J. H. Stein/Sonderkonto S:** Konto- und Korrespondenzakten 1936–1944 gegen 453-EC abgleichen: eingegangene Einzelüberweisungen, treuhänderische Verteilung und Empfänger. Besonderes Augenmerk auf die Position IG Farben und namentliche Vermerke Hermann Schmitz/Bütefisch.
-2. **DEST/Golddiskontbank:** Vertragsakten Oktober 1939 und **zweiten 8-Mio.-RM-Auftrag Funks vom 19. Mai 1941** samt Ministeriumskonten sichern, um beide **Kreditrahmen**, das **Sperrkonto** und den **10–12-Mio.-RM-Fonds** abzugrenzen; Funk-Unterschriften und Puhls tatsächliche Handlungskompetenz mit dem Urteil konfrontieren.
+2. **DEST/Golddiskontbank:** Vertragsakten Oktober 1939 und **zweiten 8-Mio.-RM-Auftrag Funks vom 19. Mai 1941** samt Ministeriumskonten sichern, um beide **Kreditrahmen**, das **Sperrkonto** und den **10–12-Mio.-RM-Fonds** abzugrenzen;
+   **DEGO-Eigentum:** Fremdbeteiligungen/Umtausch 1939 und Kapitalmaßnahmen bis 1956 gegen Puhls Verhöraussage und Bundestagsdrucksache [Q16] rekonstruieren; Funk-Unterschriften und Puhls tatsächliche Handlungskompetenz mit dem Urteil konfrontieren.
 3. **Melmer/Max Heiliger:** **76 Lieferungen**, mindestens **2,65 t Feingold** und die **Degussa-Teilspur von mindestens 1.015 kg** durch Lieferlisten, Schmelzaufträge, Reichskassenbuchungen und Ausfuhrunterlagen bis auf Barren-/Belegnummern verbinden. Gold **aus geraubten Nationalbankbeständen** und **von KZ-Opfern** getrennt verfolgen.
 4. **BIZ-Bankarchiv:** **Signaturen 2.4, 2.2, 2.14, 2.45, 7.18(5)–(7), 7.19(4), Gold Register und Contract Books** anhand von [Q13] anfordern; Geschäftsführungsbeschlüsse, Goldbarlisten, Stellvertretervollmachten und Restitutionsvorgänge 1948 abgleichen.
 5. **Schröder 1933:** Nachkriegsaussage mit Papens, Kepplers und Hindenburgs Umfeldakten zu den Treffen Dezember 1932/Januar 1933 triangulieren.
@@ -168,6 +177,8 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 - **[Q14] A/Primärquelle:** Nürnberger Ministerien-Prozess, **Verhandlung 19.05.1948** zur DEST-Finanzierung; [Harvard-Protokoll, Verlesung des von Funk unterschriebenen Auftrags vom 19.05.1941](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5889), [Buchungsbelege / zweiter Kredit](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5909).
 
 - **[Q15] B/Wissenschaftliche Forschung mit Archivverweisen:** Ralf Ahrens, „Der Exempelkandidat. Die Dresdner Bank und der Nürnberger Prozess gegen Karl Rasche“, *Vierteljahrshefte für Zeitgeschichte* **52 (2004), Heft 4**, S. 637–670, insbesondere **S. 667–668, Fn. 131 und 133**: [Original-PDF beim Institut für Zeitgeschichte](https://www.ifz-muenchen.de/heftarchiv/2004_4_3_ahrens.pdf). Belegt u. a. die Hamburger Kreditbank und nennt **HADrB 17835-2001, 1315-2002P** sowie das Schreiben von Heinrich Reckmann an Senator Dudek vom 1.08.1950.
+
+- **[Q16] A/Parlamentarische Primärquelle:** Deutscher Bundestag, **Drucksache II/2327 vom 20.04.1956**, *Entwurf eines Gesetzes über die Liquidation der Deutschen Reichsbank und der Deutschen Golddiskontbank*, insbesondere **gedruckte S. 32–33 („B. Die Liquidation der DEGO“, „XI. Aktienaustausch für Ausländer“)**: [amtliches PDF](https://dserver.bundestag.de/btd/02/023/0202327.pdf). Namentliche Anteile werden hier nicht vollständig aufgeschlüsselt; die Kategorien sind amtliche spätere Bilanz- und Rechtsbeschreibung.
 
 ## Verwandte Arbeiten
 
