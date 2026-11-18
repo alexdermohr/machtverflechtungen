@@ -29,6 +29,7 @@ STUDY_GROUPS = (
       "ewk-kkk-", "aginter-")),
     ("Wirtschaft, Finanzen & öffentliche Mittel", "finanzen",
      ("p2-", "bologna-", "bpa-", "adk-", "erp-", "insm-", "warburg-",
+      "biz-", "schroeder-",
       "verkehrsaufklaerung-")),
     ("Transatlantische & internationale Netzwerke", "internationale-netzwerke",
      ("acg-", "atlantik-bruecke-", "bilderberg-", "wef-", "msc-",
