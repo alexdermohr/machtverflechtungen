@@ -118,7 +118,9 @@ Die **BIZ-Archivübersicht von 1998 (Revision 2001)** nennt die konkret zu unter
 
 Die *Neue Deutsche Biographie* verzeichnet für Schröder im Jahr **1940 insgesamt 23 Aufsichtsratsmandate**, unter anderem bei Deutsche Verkehrs-Kreditbank, Felten & Guilleaume, Mitropa und Rheinische Zellwolle; **1943 leitete er die Wirtschaftsgruppe Private Banken**. Die Verbindung zu seiner 1943er Himmler-Beitragsliste zeigt einen konkreten Prüfpfad zwischen Privatbankwesen, Industriekonzernen und SS-Finanzierung. Mitgliedschaft allein ersetzt keinen Nachweis einzelner Weisungen. [Q2]
 
-Die Bundesbank-Forschungsarbeit beschreibt Puhl als operativ besonders einflussreichen Reichsbankmanager und nennt nach seiner vorzeitigen Freilassung **ab 1949** eine weitere berufliche Laufbahn in einem **Nachfolgeinstitut der dezentralisierten Dresdner Bank**. Ein prüfbarer Hinweis auf personelle Fortsetzung, ohne dass aus einer Karriere bereits eine fortbestehende NS-Organisation folgt. [Q7, gedruckte S. 88–91]
+Die Bundesbank-Forschungsarbeit beschreibt Puhl als operativ besonders einflussreichen Reichsbankmanager und nennt nach seiner vorzeitigen Freilassung **ab 1949** eine weitere berufliche Laufbahn in einem Nachfolgeinstitut der Dresdner Bank. Die präzisere unabhängige Untersuchung von **Ralf Ahrens (2004)** identifiziert das Institut als **Hamburger Kreditbank**: **seit April 1950 Teilnahme an Beiratssitzungen; 1951 Mitglied der Geschäftsleitung**. Ahrens führt Puhls gute Kontakte zu Banken in **Großbritannien und den USA** als Rekrutierungsgrund an und verweist dafür auf den **Brief von Banktreuhänder Heinrich Reckmann an Hamburgs Finanzsenator Dudek vom 1. August 1950**. [Q7, gedruckte S. 88–91; Q15, S. 667–668, Fn. 131, 133]
+
+Das ist ein konkreter Prüfpfad **Reichsbank/BIZ → Nachkriegskreditbank → internationale Geschäftskontakte**, der Kontinuität von Personal und Reputation zeigt; der damalige Geschäftsverkehr und Weisungsinhalte sind noch über die archivalischen Sitzungs- und Korrespondenzakten zu untersuchen. [Q15]
 
 ### KSF-06 – Gerichtsfolgen (belegt)
 
@@ -144,6 +146,7 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 3. **Melmer/Max Heiliger:** **76 Lieferungen**, mindestens **2,65 t Feingold** und die **Degussa-Teilspur von mindestens 1.015 kg** durch Lieferlisten, Schmelzaufträge, Reichskassenbuchungen und Ausfuhrunterlagen bis auf Barren-/Belegnummern verbinden. Gold **aus geraubten Nationalbankbeständen** und **von KZ-Opfern** getrennt verfolgen.
 4. **BIZ-Bankarchiv:** **Signaturen 2.4, 2.2, 2.14, 2.45, 7.18(5)–(7), 7.19(4), Gold Register und Contract Books** anhand von [Q13] anfordern; Geschäftsführungsbeschlüsse, Goldbarlisten, Stellvertretervollmachten und Restitutionsvorgänge 1948 abgleichen.
 5. **Schröder 1933:** Nachkriegsaussage mit Papens, Kepplers und Hindenburgs Umfeldakten zu den Treffen Dezember 1932/Januar 1933 triangulieren.
+6. **Puhl nach 1949:** **Historisches Archiv der Dresdner Bank (HADrB), Signaturen 17835-2001 (Hamburger Kreditbank: Beiratssitzungen) und 1315-2002P (Personalakte Emil Puhl)** sowie **Bundesarchiv Berlin 99 US 7/748** (Puhl-Verteidigung), nach [Q15] prüfen; besonders Personalentscheidung, Auslandskontakte und Reichsbank-Vorkenntnisse.
 
 ## 5. Quellen und genaue Fundstellen
 
@@ -161,6 +164,8 @@ Walther Funk wurde im **Internationalen Militärgerichtshof 1946** schuldig gesp
 - **[Q12] A/Institutionelle Archivrekonstruktion:** BIZ, *Note on Gold Operations Involving the BIS and the German Reichsbank, 1 September 1939 – 8 May 1945*, 12.05.1997, S. 1–5 und Transaktionstabellen: [Original-PDF BIZ](https://www.bis.org/publ/bisp02b.pdf). Goldkonten, Mengen, Transaktionen, Konstanz 12.04.1945; als Selbstdarstellung durch unabhängige Bankbelege zu kontrollieren.
 - **[Q13] A/Offizielles Findmittel:** BIZ, *Information Held in the BIS Archive on Gold Looted by Nazi Germany during World War II*, September 1998, revidiert 2001, **S. 1–4**: [Archivbestände und Signaturen](https://www.bis.org/publ/bisp04.pdf). Kennzeichnet erhaltene Reichsbank-Routineakten und Dokumente zur Restitution von 3,7 Tonnen.
 - **[Q14] A/Primärquelle:** Nürnberger Ministerien-Prozess, **Verhandlung 19.05.1948** zur DEST-Finanzierung; [Harvard-Protokoll, Verlesung des von Funk unterschriebenen Auftrags vom 19.05.1941](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5889), [Buchungsbelege / zweiter Kredit](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5909).
+
+- **[Q15] B/Wissenschaftliche Forschung mit Archivverweisen:** Ralf Ahrens, „Der Exempelkandidat. Die Dresdner Bank und der Nürnberger Prozess gegen Karl Rasche“, *Vierteljahrshefte für Zeitgeschichte* **52 (2004), Heft 4**, S. 637–670, insbesondere **S. 667–668, Fn. 131 und 133**: [Original-PDF beim Institut für Zeitgeschichte](https://www.ifz-muenchen.de/heftarchiv/2004_4_3_ahrens.pdf). Belegt u. a. die Hamburger Kreditbank und nennt **HADrB 17835-2001, 1315-2002P** sowie das Schreiben von Heinrich Reckmann an Senator Dudek vom 1.08.1950.
 
 ## Verwandte Arbeiten
 
