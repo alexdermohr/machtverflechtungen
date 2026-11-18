@@ -190,7 +190,14 @@ const root = {
   querySelector(selector) {return fields[selector];},
   closest() {return {addEventListener() {}};}
 };
-const target = {closest() {return entry;}};
+let scrollCalls = 0;
+const target = {
+  closest() {return entry;},
+  scrollIntoView() {
+    assert.equal(entry.hidden, false, "fragment scrolling must follow reveal");
+    scrollCalls += 1;
+  }
+};
 const document = {
   readyState: "complete",
   querySelectorAll() {return [entry];},
@@ -216,6 +223,9 @@ assert.equal(typeof handlers.hashchange, "function", "hashchange handler missing
 handlers.hashchange();
 assert.equal(entry.hidden, false, "hash-linked source stays hidden");
 assert.equal(input.value, "", "filter should clear for hidden permalink");
+assert.equal(scrollCalls, 1, "hidden hash target was not scrolled into view");
+handlers.hashchange();
+assert.equal(scrollCalls, 1, "visible hash target should not trigger extra scrolling");
 """
         result = subprocess.run(
             [node, "-e", harness, str(DOCS / "assets/source-browser.js")],
