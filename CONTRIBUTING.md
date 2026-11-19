@@ -45,6 +45,36 @@ Beiträge sind willkommen, wenn sie die Nachprüfbarkeit erhöhen. Eine starke B
 12. `python scripts/build_indexes.py` ausführen, um die abgeleiteten Übersichten zu aktualisieren.
 13. `python scripts/validate.py`, Tests, `python scripts/build_indexes.py --check` und `mkdocs build --strict` ausführen.
 
+## Neue oder geänderte Forschungsstudien
+
+Eine veröffentlichte Studie in `research/*.md` erscheint automatisch im Forschungsregister.
+Das Netzwerkdiagramm zeigt dagegen **nur** die quellengebundenen Relationen aus
+`data/relations.yml`. Ein Name im Fließtext ist nicht automatisch eine Kante.
+
+Bei **jeder neuen oder inhaltlich geänderten Studie** nach dem festen Altbestandsstand
+(`BASELINE_REVISION` in `scripts/research_integration.py`):
+
+1. Belegbare Akteure, Quellen und Beziehungen in `data/entities.yml`,
+   `data/sources.yml` und `data/relations.yml` erfassen, soweit erforderlich.
+2. Unter `data/research-integrations.yml` einen Eintrag mit exakt dem Dateinamen,
+   dem `sha256` des vollständigen Studien-Markdowns (`sha256sum research/datei.md`)
+   und `status: network` mit `relation_ids` der relevanten quellengebundenen
+   Relationen anlegen. Falls die Änderung keine neue darstellbare Relation enthält,
+   stattdessen `status: no_network_relation` mit konkreter fachlicher `reason`.
+3. Abgeleitete Seiten mit `python scripts/build_indexes.py` neu erstellen.
+4. `python scripts/research_integration.py --check` ausführen.
+
+Auch Änderungen an vorhandenen Studien benötigen eine **aktualisierte Prüfsumme**:
+Damit werden neue Behauptungen nicht unbemerkt unter einer alten Zuordnung
+veröffentlicht. Unveränderte Studien am festgeschriebenen Altbestandsstand
+bleiben vorerst zulässig, erscheinen im Forschungsregister aber sichtbar als
+**noch nicht auf Netzwerk-Erschließung geprüft**. Das ist eine offene
+Integrationsaufgabe und kein Beweis, dass dort keine graphfähigen Relationen liegen.
+
+Die Prüfung kann die **Existenz** einer dokumentierten Zuordnung und gültiger
+Relation-IDs garantieren, nicht die fachliche Vollständigkeit einer komplexen
+Studie. Diese bleibt Gegenstand der quellenkritischen Bearbeitung.
+
 ## Fallverknüpfungen
 
 **Vergleich:** macht eine relevante Ähnlichkeit oder gemeinsame Untersuchungsachse sichtbar. Er behauptet keine Kausalität oder gemeinsame Steuerung.

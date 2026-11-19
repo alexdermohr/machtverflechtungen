@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**166 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**172 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -331,6 +331,19 @@ flowchart LR
     N_ORG_PA_BAFISUD_CORPORATION_SA -->|"31.03.1981: 44 Zertifikate Nr. 00204-00247 zu je 100.000 Credito-Varesino-Aktien (4,4 Mio.) auf Schweizer CCF umgeschrieben; deren Brief vom 01.04. behauptet fehlendes Finanzgeschäft, nicht unabhängig geprüft"| N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA
     N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA -->|"Schweizer CCF ab 31.03.1981 eingetragene Halterin von 4,4 Mio. Credito-Varesino-Aktien; im Laufe 1981/82 teilweise veräußert; wirtschaftlicher Auftraggeber nicht identifiziert"| N_ORG_IT_CREDITO_VARESINO_SPA
     N_ORG_IT_CREDITO_VARESINO_SPA -->|"Zwei unterschiedliche Credito-Varesino-Interbankeinlagen bei BAFISUD: 200.000 USD ab 20.06.1980 (3 Monate) und 300.000 USD ab 25.09.1980 bis 29.12.1980; keine zeitgleiche 500.000-USD-Position ableitbar"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
+    N_ORG_INT_BCCI["BCCI-Gruppe (Bank of Credit and Commerce International)"]
+    N_ORG_US_CCAH["Credit and Commerce American Holdings (CCAH)"]
+    N_ORG_INT_BCCI -->|"verdeckte wirtschaftliche Beteiligung über Treuhänder; 1998 gerichtlich auf 61,156 % der CCAH-Anteile rekonstruiert, 1991 Fed-Mindestbefund 25 %"| N_ORG_US_CCAH
+    N_ORG_US_FIRST_AMERICAN_BANKSHARES["First American Bankshares"]
+    N_ORG_US_CCAH -->|"CCAH war die Mutterholding von First American Bankshares; Beteiligung nicht als unmittelbares BCCI-Eigentum der Bank ausweisen"| N_ORG_US_FIRST_AMERICAN_BANKSHARES
+    N_ORG_US_TREASURY["U.S. Department of the Treasury"]
+    N_ORG_US_CIA -->|"Senatsrekonstruktion: CIA-Erkenntnisse zum BCCI-/First-American-Eigentum Anfang 1985 an Treasury-Nachrichtendienstkontakte; Originalmemorandum fehlt"| N_ORG_US_TREASURY
+    N_ORG_US_OCC["Office of the Comptroller of the Currency (OCC)"]
+    N_ORG_US_CIA -->|"US-Senat rekonstruierte OCC als Empfänger früher CIA-Erkenntnisse zu BCCIs verdecktem US-Bankeigentum; tatsächliche Weiterverarbeitung ungeklärt"| N_ORG_US_OCC
+    N_ORG_US_FEDERAL_RESERVE["Federal Reserve System (US-Bankaufsicht)"]
+    N_ORG_US_FEDERAL_RESERVE -->|"29.07.1991 formelle Aufsichtsverfahren wegen verheimlichter CCAH-Beteiligungen angekündigt; angestrebte 200 Mio. USD Geldbuße nicht mit Zahlung gleichsetzen"| N_ORG_INT_BCCI
+    N_ORG_US_DOJ["U.S. Department of Justice"]
+    N_ORG_US_DOJ -->|"US-Justiz gab Dezember 1991 BCCI-Schuldbekenntnisvereinbarung bekannt; Gericht nahm am 24.01.1992 Schuldbekenntnisse von vier Gesellschaften an"| N_ORG_INT_BCCI
 ```
 
 [Zur Relationstabelle](network.md)

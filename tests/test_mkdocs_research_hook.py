@@ -121,6 +121,8 @@ class ResearchPagesTests(unittest.TestCase):
             repo = Path(tmp)
             research = repo / "research"
             research.mkdir()
+            (repo / "data").mkdir()
+            (repo / "data" / "research-integrations.yml").write_text("studies: {}\n")
             (research / "tracked.md").write_text("# Committed title\n\nCommitted body\n")
             nested = research / "nested"
             nested.mkdir()

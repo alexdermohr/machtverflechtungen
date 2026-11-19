@@ -1554,3 +1554,57 @@ relations:
     period: {start: "1980-06-20", end: "1980-12-29"}
     evidence_level: established
     sources: [SRC-IT-BANCA-ITALIA-BAFISUD-VARESINO-1983]
+
+  - id: REL-INT-BCCI-001
+    from: ORG-INT-BCCI
+    to: ORG-US-CCAH
+    type: concealed_beneficial_ownership
+    label: "verdeckte wirtschaftliche Beteiligung über Treuhänder; 1998 gerichtlich auf 61,156 % der CCAH-Anteile rekonstruiert, 1991 Fed-Mindestbefund 25 %"
+    period: {start: "1982", end: "1991"}
+    evidence_level: established
+    sources: [SRC-US-FED-BCCI-19910729, SRC-US-COURT-FIRST-AMERICAN-BCCI-1998]
+
+  - id: REL-INT-BCCI-002
+    from: ORG-US-CCAH
+    to: ORG-US-FIRST-AMERICAN-BANKSHARES
+    type: parent_company
+    label: "CCAH war die Mutterholding von First American Bankshares; Beteiligung nicht als unmittelbares BCCI-Eigentum der Bank ausweisen"
+    period: {start: "1982", end: "1991"}
+    evidence_level: established
+    sources: [SRC-US-FED-BCCI-19910729, SRC-US-COURT-FIRST-AMERICAN-BCCI-1998]
+
+  - id: REL-INT-BCCI-003
+    from: ORG-US-CIA
+    to: ORG-US-TREASURY
+    type: reported_intelligence_transmission
+    label: "Senatsrekonstruktion: CIA-Erkenntnisse zum BCCI-/First-American-Eigentum Anfang 1985 an Treasury-Nachrichtendienstkontakte; Originalmemorandum fehlt"
+    period: {start: "1985"}
+    evidence_level: strong
+    sources: [SRC-US-SENATE-BCCI-INTELLIGENCE-1992]
+
+  - id: REL-INT-BCCI-004
+    from: ORG-US-CIA
+    to: ORG-US-OCC
+    type: reported_intelligence_transmission
+    label: "US-Senat rekonstruierte OCC als Empfänger früher CIA-Erkenntnisse zu BCCIs verdecktem US-Bankeigentum; tatsächliche Weiterverarbeitung ungeklärt"
+    period: {start: "1985"}
+    evidence_level: strong
+    sources: [SRC-US-SENATE-BCCI-INTELLIGENCE-1992]
+
+  - id: REL-INT-BCCI-005
+    from: ORG-US-FEDERAL-RESERVE
+    to: ORG-INT-BCCI
+    type: regulatory_enforcement
+    label: "29.07.1991 formelle Aufsichtsverfahren wegen verheimlichter CCAH-Beteiligungen angekündigt; angestrebte 200 Mio. USD Geldbuße nicht mit Zahlung gleichsetzen"
+    period: {start: "1991-07-29"}
+    evidence_level: established
+    sources: [SRC-US-FED-BCCI-19910729]
+
+  - id: REL-INT-BCCI-006
+    from: ORG-US-DOJ
+    to: ORG-INT-BCCI
+    type: criminal_plea_proceedings
+    label: "US-Justiz gab Dezember 1991 BCCI-Schuldbekenntnisvereinbarung bekannt; Gericht nahm am 24.01.1992 Schuldbekenntnisse von vier Gesellschaften an"
+    period: {start: "1991-12-19", end: "1992-01-24"}
+    evidence_level: established
+    sources: [SRC-US-DOJ-BCCI-FACTSHEET-19911219, SRC-US-COURT-FIRST-AMERICAN-BCCI-1998]

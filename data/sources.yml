@@ -2520,3 +2520,51 @@ sources:
   locator: "IX Legislatur, Doc. XXIII 2-quater/3/VI, Druck-S. 423/PDF 431: BAFISUD Montevideo 5,5% Banco Ambrosiano Overseas Nassau; 426/PDF 434: CCF Suisse als schweizerische Tochter der französischen CCF; 427/PDF 435: Einlagen 1980; 430/PDF 438: La Centrale 4,5 Mio. Credito-Varesino-Aktien 1978 an BAFISUD Corporation Panama; 436/PDF 444: effektiver Finanzierer unbekannt; 440/PDF 448: Banco-Ambrosiano-Brief vom 13.02.1979; 448-449/PDF 456-457: CCF-Suisse-Brief 01.04.1981 und Zertifikatübertragung 31.03.1981."
   sha256: 73f799c088f40974ade37565c1db9293ad0df904c6339bee977303b160c64723
   notes: "53.268.656 Byte, SHA-256 erneut geprüft; Originalbriefseiten PDF 448, 456 und 457 im Bild kontrolliert; Inspektionsseiten PDF 431, 434, 435, 438, 440 und 444 in der Textlage überprüft. Primär für Bankaufsichtsbefunde, zeitgenössische Originalbriefe und nominelle Aktienbewegungen; KEIN unabhängig festgestellter effektiver Kapitalfinanzierer, keine Inter-Alpha-Anweisung, kein Sudam-/PSI-Endtransfer."
+
+- id: SRC-US-FED-BCCI-19910729
+  title: "Federal Reserve – BCCI/CCAH enforcement announcement and Notice"
+  institution: "Board of Governors of the Federal Reserve System"
+  date: "1991-07-29"
+  type: central_bank_enforcement_original
+  primary: true
+  tier: A
+  url: https://www.federalreserve.gov/supervisionreg/files/19910729.pdf
+  accessed: "2026-11-19"
+  locator: "Pressemitteilung S. 1–3; Anlage zur nicht genehmigten wirtschaftlichen Beteiligung an CCAH"
+  notes: "Zeitgenössische Federal-Reserve-Feststellung einer Beteiligung von mindestens 25 Prozent beim Erwerb 1982; spätere gerichtliche Rekonstruktion nennt 61,156 Prozent."
+
+- id: SRC-US-SENATE-BCCI-INTELLIGENCE-1992
+  title: "The BCCI Affair – BCCI, the CIA and Foreign Intelligence"
+  institution: "U.S. Senate, Subcommittee on Terrorism, Narcotics and International Operations"
+  date: "1992"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm
+  accessed: "2026-11-19"
+  locator: "The Official Record; The 1985 Report; The 1985, 1986 and 1989 Reports"
+  notes: "Parlamentarische Rekonstruktion aus Geheimdienstmaterial und Zeugenaussagen; ursprüngliches CIA-Memorandum 1985 laut Senat unauffindbar; FAS-Textstand und endgültiger Bericht ggf. gegenlesen. Belegt den Senatsbefund, nicht jeden behaupteten tatsächlichen Empfang."
+
+- id: SRC-US-COURT-FIRST-AMERICAN-BCCI-1998
+  title: "First American Corp. v. Al-Nahyan, 17 F. Supp. 2d 10"
+  institution: "U.S. District Court for the District of Columbia"
+  date: "1998-08-13"
+  type: federal_court_decision
+  primary: true
+  tier: A
+  url: https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/
+  accessed: "2026-11-19"
+  locator: "Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992"
+  notes: "Gerichtliche spätere Rekonstruktion des verdeckten wirtschaftlichen Eigentums. Quote nicht als 1982 bereits exakt bekannte Zahl darstellen."
+
+- id: SRC-US-DOJ-BCCI-FACTSHEET-19911219
+  title: "BCCI Fact Sheet and Press Statement (United States Attorneys' Bulletin)"
+  institution: "U.S. Department of Justice"
+  date: "1991-12-19"
+  type: justice_press_statement
+  primary: true
+  tier: A
+  url: https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf
+  accessed: "2026-11-19"
+  locator: "United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B"
+  notes: "Ankündigung des Vergleichs und der geplanten Einziehung, nicht allein Nachweis gerichtlichen Vollzugs."

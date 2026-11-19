@@ -12,6 +12,8 @@ from urllib.parse import quote
 
 from mkdocs.structure.files import File, Files, InclusionLevel
 
+from scripts.research_integration import read_registry
+
 ROOT = Path(__file__).resolve().parents[1]
 GITHUB_ROOT = "https://github.com/alexdermohr/machtverflechtungen/"
 
@@ -118,6 +120,7 @@ def on_files(files: Files, config, **kwargs) -> Files:
         raise ValueError("No versioned research studies found")
     if any(source.name == "index.md" for source in sources):
         raise ValueError("Committed research/index.md conflicts with generated index")
+    decisions = read_registry(ROOT)
 
     known = {file.src_uri for file in files}
     generated = {"research/index.md", *(f"research/{source.name}" for source in sources)}
@@ -132,6 +135,15 @@ def on_files(files: Files, config, **kwargs) -> Files:
         "Die Studien sind nach Themen erschlossen; innerhalb eines Themas alphabetisch "
         "nach Titel sortiert. Der vollständige Volltext und die Originaldatei "
         "sind direkt verlinkt. Nicht integrierte Pull Requests erscheinen nicht.",
+        "",
+        "**Netzwerk-Erschließung:** "
+        f"{sum(decisions.get(s.name, {}).get('status') == 'network' for s in sources)} Studien mit verknüpften Relationen, "
+        f"{sum(decisions.get(s.name, {}).get('status') == 'no_network_relation' for s in sources)} geprüft ohne neue Relation, "
+        f"{sum(s.name not in decisions for s in sources)} ältere Studien noch nicht einzeln geprüft.",
+        "",
+        "Im [Netzwerkdiagramm](../generated/network-graph.md) stehen ausschließlich ausdrücklich "
+        "erfasste und quellengebundene Relationen. Die Nennung einer Person in einer "
+        "Studie erzeugt keine unbewiesene Verbindung.",
         "",
         "## Themenübersicht",
         "",
@@ -165,9 +177,20 @@ def on_files(files: Files, config, **kwargs) -> Files:
         for source in sorted(by_group[anchor], key=lambda item: study_title(item).casefold()):
             escaped_name = quote(source.name, safe="-._~")
             original_url = f"{GITHUB_ROOT}blob/{source.revision}/research/{escaped_name}"
+            decision = decisions.get(source.name, {})
+            if decision.get("status") == "network":
+                relationships = ", ".join(
+                    f"[{relation_id}](../generated/network.md#{relation_id.lower()})"
+                    for relation_id in decision["relation_ids"]
+                )
+                state = f" · **Netzwerk:** {relationships}"
+            elif decision.get("status") == "no_network_relation":
+                state = " · **Netzwerk:** geprüft, keine neue darstellbare Relation"
+            else:
+                state = " · *Netzwerk-Erschließung noch offen*"
             lines.append(
                 f"- [{study_title(source)}]({escaped_name})"
-                f" · [Originaldatei auf GitHub]({original_url})"
+                f" · [Originaldatei auf GitHub]({original_url}){state}"
             )
         lines.append("")
 
@@ -195,11 +218,23 @@ def on_page_markdown(markdown: str, page, **kwargs) -> str | None:
     original_path = page.file.edit_uri
     if not isinstance(original_path, str) or not original_path.startswith("blob/"):
         raise ValueError(f"Missing pinned research original for {uri}")
+    decision = read_registry(ROOT).get(uri.removeprefix("research/"), {})
+    if decision.get("status") == "network":
+        relation_links = ", ".join(
+            f"[{relation_id}](../generated/network.md#{relation_id.lower()})"
+            for relation_id in decision["relation_ids"]
+        )
+        coverage = f"**Netzwerkzuordnung:** {relation_links}\\n\\n"
+    elif decision.get("status") == "no_network_relation":
+        coverage = f"**Netzwerkprüfung:** {decision['reason']}\\n\\n"
+    else:
+        coverage = "**Netzwerk-Erschließung:** für diesen Altbestand noch offen.\\n\\n"
     rendered = markdown.replace("](../METHODOLOGY.md", "](../methodik.md")
     rendered = rendered.replace("](../docs/", "](../")
     return (
         rendered
         + "\n\n---\n\n"
+        + coverage.replace("\\n", "\n")
         + "[Zur Studienübersicht](index.md) · [Fallakten](../faelle/index.md)"
         + " · [Methodik](../methodik.md)\n\n"
         + f"[Originaldatei dieser Studie auf GitHub]({GITHUB_ROOT}{original_path})\n"
