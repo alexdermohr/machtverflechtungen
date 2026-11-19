@@ -332,10 +332,10 @@ flowchart LR
     N_ORG_CH_CREDIT_COMMERCIAL_DE_FRANCE_SUISSE_SA -->|"Schweizer CCF ab 31.03.1981 eingetragene Halterin von 4,4 Mio. Credito-Varesino-Aktien; im Laufe 1981/82 teilweise veräußert; wirtschaftlicher Auftraggeber nicht identifiziert"| N_ORG_IT_CREDITO_VARESINO_SPA
     N_ORG_IT_CREDITO_VARESINO_SPA -->|"Zwei unterschiedliche Credito-Varesino-Interbankeinlagen bei BAFISUD: 200.000 USD ab 20.06.1980 (3 Monate) und 300.000 USD ab 25.09.1980 bis 29.12.1980; keine zeitgleiche 500.000-USD-Position ableitbar"| N_ORG_UY_BANCO_FINANCIERO_SUDAMERICANO
     N_ORG_INT_BCCI["BCCI-Gruppe (Bank of Credit and Commerce International)"]
-    N_ORG_US_CCAH["Credit and Commerce American Holdings (CCAH)"]
-    N_ORG_INT_BCCI -->|"verdeckte wirtschaftliche Beteiligung über Treuhänder; 1998 gerichtlich auf 61,156 % der CCAH-Anteile rekonstruiert, 1991 Fed-Mindestbefund 25 %"| N_ORG_US_CCAH
+    N_ORG_AN_CCAH["Credit and Commerce American Holdings N.V. (CCAH)"]
+    N_ORG_INT_BCCI -->|"verdeckte wirtschaftliche Beteiligung über Treuhänder; 1998 gerichtlich auf 61,156 % der CCAH-Anteile rekonstruiert, 1991 Fed-Mindestbefund 25 %"| N_ORG_AN_CCAH
     N_ORG_US_FIRST_AMERICAN_BANKSHARES["First American Bankshares"]
-    N_ORG_US_CCAH -->|"CCAH war die Mutterholding von First American Bankshares; Beteiligung nicht als unmittelbares BCCI-Eigentum der Bank ausweisen"| N_ORG_US_FIRST_AMERICAN_BANKSHARES
+    N_ORG_AN_CCAH -->|"CCAH war die Mutterholding von First American Bankshares; Beteiligung nicht als unmittelbares BCCI-Eigentum der Bank ausweisen"| N_ORG_US_FIRST_AMERICAN_BANKSHARES
     N_ORG_US_TREASURY["U.S. Department of the Treasury"]
     N_ORG_US_CIA -->|"Senatsrekonstruktion: CIA-Erkenntnisse zum BCCI-/First-American-Eigentum Anfang 1985 an Treasury-Nachrichtendienstkontakte; Originalmemorandum fehlt"| N_ORG_US_TREASURY
     N_ORG_US_OCC["Office of the Comptroller of the Currency (OCC)"]

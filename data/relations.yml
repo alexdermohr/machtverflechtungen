@@ -1557,7 +1557,7 @@ relations:
 
   - id: REL-INT-BCCI-001
     from: ORG-INT-BCCI
-    to: ORG-US-CCAH
+    to: ORG-AN-CCAH
     type: concealed_beneficial_ownership
     label: "verdeckte wirtschaftliche Beteiligung über Treuhänder; 1998 gerichtlich auf 61,156 % der CCAH-Anteile rekonstruiert, 1991 Fed-Mindestbefund 25 %"
     period: {start: "1982", end: "1991"}
@@ -1565,7 +1565,7 @@ relations:
     sources: [SRC-US-FED-BCCI-19910729, SRC-US-COURT-FIRST-AMERICAN-BCCI-1998]
 
   - id: REL-INT-BCCI-002
-    from: ORG-US-CCAH
+    from: ORG-AN-CCAH
     to: ORG-US-FIRST-AMERICAN-BANKSHARES
     type: parent_company
     label: "CCAH war die Mutterholding von First American Bankshares; Beteiligung nicht als unmittelbares BCCI-Eigentum der Bank ausweisen"

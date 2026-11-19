@@ -125,7 +125,7 @@ class ResearchIntegrationTests(unittest.TestCase):
             for source_id in relation["sources"]:
                 self.assertIn(f'id="{source_id.lower()}"', source_index)
         self.assertIn("ORG-INT-BCCI", people)
-        self.assertIn("ORG-US-CCAH", people)
+        self.assertIn("ORG-AN-CCAH", people)
 
 
 if __name__ == "__main__":

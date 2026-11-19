@@ -876,11 +876,11 @@ entities:
     countries: [LU, KY, GB, US]
     notes: "Sammelbezeichnung für mehrere historische BCCI-Rechtsträger; die 1992 gerichtlich angenommenen Schuldbekenntnisse betrafen vier Gesellschaften. Keine einheitliche juristische Person unterstellt."
 
-  - id: ORG-US-CCAH
+  - id: ORG-AN-CCAH
     type: bank_holding_company
-    name: "Credit and Commerce American Holdings (CCAH)"
-    countries: [US]
-    notes: "US-Bankholding; laut Federal Reserve 1991 über nominelle Investoren teilweise wirtschaftlich von BCCI kontrolliert, laut US-Gerichtsentscheidung 1998 insgesamt 61,156 Prozent BCCI-Anteil rekonstruiert."
+    name: "Credit and Commerce American Holdings N.V. (CCAH)"
+    countries: [AN, US]
+    notes: "Auf den Niederländischen Antillen registrierte N.V. (historischer Ländercode AN), als Mutterholding US-amerikanischer First-American-Banken; laut Federal Reserve 1991 verdeckte BCCI-Beteiligung, 1998 gerichtlich 61,156 Prozent rekonstruiert."
 
   - id: ORG-US-FIRST-AMERICAN-BANKSHARES
     type: bank_holding_company
