@@ -12,9 +12,14 @@ from urllib.parse import quote
 
 from mkdocs.structure.files import File, Files, InclusionLevel
 
-from scripts.research_integration import read_registry
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def read_registry(root: Path) -> dict:
+    """Read coverage labels without relying on MkDocs-specific sys.path entries."""
+    return yaml.safe_load((root / "data/research-integrations.yml").read_text(encoding="utf-8"))["studies"]
 GITHUB_ROOT = "https://github.com/alexdermohr/machtverflechtungen/"
 
 # Curated *prefix* groups, not a second catalogue of research files: new studies
