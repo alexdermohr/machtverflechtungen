@@ -1,0 +1,14 @@
+# Explicit network integration decisions for new and updated research.
+# Legacy studies from BASELINE_REVISION are tracked as unreviewed until changed.
+# Every entry requires the exact SHA-256 of the Markdown study at this revision.
+studies:
+  bcci-cia-treasury-first-american-1972-1998.md:
+    sha256: 4d14b1c2d00388353b8e88278f24689c4c89c0122e75bb7e1baba9e6d62349c3
+    status: network
+    relation_ids:
+      - REL-INT-BCCI-001
+      - REL-INT-BCCI-002
+      - REL-INT-BCCI-003
+      - REL-INT-BCCI-004
+      - REL-INT-BCCI-005
+      - REL-INT-BCCI-006

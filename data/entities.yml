@@ -868,3 +868,46 @@ entities:
     name: "Banco Ambrosiano Holding S.A. (Luxemburg)"
     countries: [LU]
     notes: "1979 in Banco-Ambrosiano-Inserat unter Controllate genannt; Banca d'Italia 1982/83 berichtet Kontrolle von Banco Ambrosiano Overseas Nassau über die luxemburgische Holding, ohne hier ein vollständiges Aktienregister oder zusätzliche Weisungsbelege zu liefern."
+
+
+  - id: ORG-INT-BCCI
+    type: banking_group
+    name: "BCCI-Gruppe (Bank of Credit and Commerce International)"
+    countries: [LU, KY, GB, US]
+    notes: "Sammelbezeichnung für mehrere historische BCCI-Rechtsträger; die 1992 gerichtlich angenommenen Schuldbekenntnisse betrafen vier Gesellschaften. Keine einheitliche juristische Person unterstellt."
+
+  - id: ORG-AN-CCAH
+    type: bank_holding_company
+    name: "Credit and Commerce American Holdings N.V. (CCAH)"
+    countries: [AN, US]
+    notes: "Auf den Niederländischen Antillen registrierte N.V. (historischer Ländercode AN), als Mutterholding US-amerikanischer First-American-Banken; laut Federal Reserve 1991 verdeckte BCCI-Beteiligung, 1998 gerichtlich 61,156 Prozent rekonstruiert."
+
+  - id: ORG-US-FIRST-AMERICAN-BANKSHARES
+    type: bank_holding_company
+    name: "First American Bankshares"
+    countries: [US]
+    notes: "US-Bankengruppe der CCAH-Holding; nicht mit First American Corp. als Prozessbezeichnung oder mit BCCI-Rechtsträgern gleichzusetzen."
+
+  - id: ORG-US-FEDERAL-RESERVE
+    type: bank_supervisor
+    name: "Federal Reserve System (US-Bankaufsicht)"
+    countries: [US]
+    notes: "US-Aufsicht, die 1991 formelle Verfahren wegen der verdeckten BCCI-Beteiligungen ankündigte."
+
+  - id: ORG-US-TREASURY
+    type: government_agency
+    name: "U.S. Department of the Treasury"
+    countries: [US]
+    notes: "US-Finanzministerium; nach Senatsrekonstruktion Empfänger von CIA-Erkenntnissen zur BCCI-/First-American-Beteiligung ab 1985, damaliges Originalmemorandum nicht auffindbar."
+
+  - id: ORG-US-OCC
+    type: bank_supervisor
+    name: "Office of the Comptroller of the Currency (OCC)"
+    countries: [US]
+    notes: "US-Bankenaufsicht; nach US-Senatsrekonstruktion Empfänger früher CIA-Informationen zum verdeckten BCCI-Bankeigentum."
+
+  - id: ORG-US-DOJ
+    type: government_agency
+    name: "U.S. Department of Justice"
+    countries: [US]
+    notes: "US-Justizministerium; gab 1991 die Vereinbarung über BCCI-Schuldbekenntnisse und Einziehungsmaßnahmen bekannt. Die gerichtliche Annahme folgte Januar 1992."

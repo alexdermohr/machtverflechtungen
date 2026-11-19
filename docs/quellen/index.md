@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**219 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**223 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-wapo-sec-10k-2010)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-doj-bcci-factsheet-19911219)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -694,6 +694,21 @@ Bilderberg Meetings · current · Stufe **A** · Primärquelle · `SRC-INT-BILDE
 [Seite öffnen](https://www.bilderbergmeetings.org/background/steering-committee/former-steering-committee-members)
 
 Fundstelle: Sommer, Theo (DEU)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
+<a id="src-us-fed-bcci-19910729"></a>
+### Board of Governors of the Federal Reserve System
+
+**[Federal Reserve – BCCI/CCAH enforcement announcement and Notice](https://www.federalreserve.gov/supervisionreg/files/19910729.pdf)**
+
+Board of Governors of the Federal Reserve System · 1991-07-29 · Stufe **A** · Primärquelle · `SRC-US-FED-BCCI-19910729`
+
+[PDF öffnen](https://www.federalreserve.gov/supervisionreg/files/19910729.pdf)
+
+Fundstelle: Pressemitteilung S. 1–3; Anlage zur nicht genehmigten wirtschaftlichen Beteiligung an CCAH
 
 </article>
 
@@ -2476,6 +2491,36 @@ Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
+<a id="src-us-doj-bcci-factsheet-19911219"></a>
+### U.S. Department of Justice
+
+**[BCCI Fact Sheet and Press Statement (United States Attorneys' Bulletin)](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)**
+
+U.S. Department of Justice · 1991-12-19 · Stufe **A** · Primärquelle · `SRC-US-DOJ-BCCI-FACTSHEET-19911219`
+
+[PDF öffnen](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)
+
+Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-us-court-first-american-bcci-1998"></a>
+### U.S. District Court for the District of Columbia
+
+**[First American Corp. v. Al-Nahyan, 17 F. Supp. 2d 10](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)**
+
+U.S. District Court for the District of Columbia · 1998-08-13 · Stufe **A** · Primärquelle · `SRC-US-COURT-FIRST-AMERICAN-BCCI-1998`
+
+[Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)
+
+Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
 
 <a id="src-us-wapo-sec-10k-2010"></a>
@@ -2488,6 +2533,21 @@ U.S. Securities and Exchange Commission · 2010-03-02 · Stufe **A** · Primärq
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)
 
 Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
+
+<a id="src-us-senate-bcci-intelligence-1992"></a>
+### U.S. Senate, Subcommittee on Terrorism, Narcotics and International Operations
+
+**[The BCCI Affair – BCCI, the CIA and Foreign Intelligence](https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm)**
+
+U.S. Senate, Subcommittee on Terrorism, Narcotics and International Operations · 1992 · Stufe **A** · Primärquelle · `SRC-US-SENATE-BCCI-INTELLIGENCE-1992`
+
+[Seite öffnen](https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm)
+
+Fundstelle: The Official Record; The 1985 Report; The 1985, 1986 and 1989 Reports
 
 </article>
 
