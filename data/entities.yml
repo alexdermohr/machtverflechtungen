@@ -1031,3 +1031,69 @@ entities:
     name: "Friedrich Merz"
     countries: [DE]
     notes: "Historisch 2021 und laut 2022er IRS-Auswertung bis Mai 2022 als Director des separaten US-Friends-Vereins aufgeführt. Kein Nachweis eines heutigen Vorstandsmandats aus dieser historischen Erfassung."
+
+  - id: PER-DE-KURT-VON-SCHROEDER
+    type: person
+    name: "Kurt Freiherr von Schröder (1889–1966)"
+    countries: [DE]
+    notes: "Kölner Privatbankier und SS-Finanzvermittler. Der BIZ-Jahresbericht nennt ihn 1939 als Verwaltungsrat; sein 1943er Himmler-Schreiben und die beigefügte Beitragsliste sind separate, zeitlich spätere Belege."
+
+  - id: PER-DE-WALTHER-FUNK
+    type: person
+    name: "Walther Funk (1890–1960)"
+    countries: [DE]
+    notes: "Ab Januar 1939 Reichsbankpräsident und zugleich Reichswirtschaftsminister; 1939 ex-officio BIZ-Verwaltungsrat. Gerichtliche Entscheidungen zu SS-Finanzierung nicht mit BIZ-Gremiumsbeschlüssen gleichsetzen."
+
+  - id: PER-DE-EMIL-PUHL
+    type: person
+    name: "Emil Puhl (1889–1962)"
+    countries: [DE]
+    notes: "Reichsbankmanager, 1939 amtierender Stellvertreter, seit 08.08.1940 förmlich Vizepräsident. In der BIZ-Verwaltungsratsliste 1939 ausdrücklich unter Stellvertreter, kein gleichrangiger Direktor."
+
+  - id: PER-DE-HEINRICH-HIMMLER
+    type: person
+    name: "Heinrich Himmler (1900–1945)"
+    countries: [DE]
+    notes: "NS-Reichsführer SS und im Schröder-Brief von 1943 benannter Verfügungsadressat des Sonderkontos S."
+
+  - id: PER-DE-OSWALD-POHL
+    type: person
+    name: "Oswald Pohl (1892–1951)"
+    countries: [DE]
+    notes: "Leiter der SS-Wirtschafts- und Verwaltungsorganisation; strikt von Reichsbankmanager Emil Puhl zu unterscheiden."
+
+  - id: ORG-DE-REICHSBANK-HISTORIC
+    type: central_bank
+    name: "Deutsche Reichsbank (historisch, 1933–1945)"
+    countries: [DE]
+    notes: "Historische Notenbank unter dem NS-Regime, getrennt von heutigen deutschen Institutionen. Zu Goldlieferungen an BIZ/SNB und SS-Vermögensannahme nach Kriegstribunalakten."
+
+  - id: ORG-GB-BANK-OF-ENGLAND-HISTORIC
+    type: central_bank
+    name: "Bank of England (historische Kontenfunktion 1939)"
+    countries: [GB]
+    notes: "Zentralbank und Kontoverwahrer in der tschechoslowakischen BIZ-Goldumbuchung im März 1939; keine aus der Kontenrolle abzuleitende freiwillige Goldschenkung."
+
+  - id: ORG-CH-SNB-HISTORIC
+    type: central_bank
+    name: "Schweizerische Nationalbank (SNB, historische Goldgeschäfte)"
+    countries: [CH]
+    notes: "Schweizer Notenbank, umfangreiche Reichsbank-Goldgeschäfte im Zweiten Weltkrieg. Laut UEK wurden Goldarten, Eigentümer und Motive unterschiedlich festgestellt; nicht alle Lieferungen waren Opfergold."
+
+  - id: PRG-DE-HIMMLER-SONDERKONTO-S-1943
+    type: special_funding_account
+    name: "Sonderkonto S des Himmler-Freundeskreises (1943)"
+    countries: [DE]
+    notes: "Historischer Konten-/Beitragslistenkomplex aus dem Schröder-Brief EC-453 vom 21.09.1943; Unternehmensliste 1,1 Mio. RM, einzelne Debitorenkontoauszüge hier nicht vorliegend."
+
+  - id: ORG-DE-DEGO-HISTORIC
+    type: historical_financial_institution
+    name: "Deutsche Golddiskontbank (DEGO, historisch)"
+    countries: [DE]
+    notes: "Eigenständige historische Finanzgesellschaft im Reichsbankumfeld, über die laut Ministerien-Urteil 1939 eine Kreditabsicherung für SS-Unternehmen lief."
+
+  - id: ORG-DE-DEST-SS-HISTORIC
+    type: ss_owned_company
+    name: "Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb)"
+    countries: [DE]
+    notes: "SS-Unternehmen, das KZ-Zwangsarbeit ausbeutete. Vom Ministerien-Tribunal dokumentierte Kreditrahmen 1939 und 1941 sind nicht mit tatsächlich abgerufenen Beträgen gleichzusetzen."

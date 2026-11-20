@@ -338,5 +338,66 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertEqual(historical["period"], {"start": "2021"})
 
 
+    def test_bis_reichsbank_and_ss_finance_are_source_bound(self):
+        root = coverage.ROOT
+        registry = coverage.read_registry(root)
+        names = [
+            "biz-bank-of-england-standardoil-rockefeller-mccloy-1930-1953.md",
+            "schroeder-funk-puhl-himmler-biz-raubgold-1933-1949.md",
+        ]
+        relations = {
+            relation["id"]: relation
+            for relation in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        people = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        seen = set()
+        for name in names:
+            with self.subTest(study=name):
+                entry = registry[name]
+                self.assertEqual(entry["status"], "network")
+                self.assertEqual(
+                    entry["sha256"],
+                    hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+                )
+                for relation_id in entry["relation_ids"]:
+                    relation = relations[relation_id]
+                    seen.add(relation_id)
+                    self.assertIn(relation["label"], graph)
+                    self.assertIn(f'id="{relation_id.lower()}"', table)
+                    for source_id in relation["sources"]:
+                        self.assertIn(f'id="{source_id.lower()}"', source_index)
+        new_bis_ids = {
+            relation_id for relation_id in seen
+            if relation_id.startswith(
+                ("REL-INT-BIS-1939-", "REL-DE-RB-", "REL-GB-BIS-GOLD-",
+                 "REL-INT-BIS-GOLD-", "REL-DE-BIS-GOLD-",
+                 "REL-DE-CH-SNB-GOLD-", "REL-DE-SS-")
+            )
+        }
+        self.assertEqual(len(new_bis_ids), 16)
+        for node in (
+            "PER-DE-KURT-VON-SCHROEDER",
+            "PER-DE-WALTHER-FUNK",
+            "PER-DE-EMIL-PUHL",
+            "PER-DE-OSWALD-POHL",
+            "ORG-DE-REICHSBANK-HISTORIC",
+            "ORG-GB-BANK-OF-ENGLAND-HISTORIC",
+            "PRG-DE-HIMMLER-SONDERKONTO-S-1943",
+        ):
+            self.assertIn(node, people)
+        # Court-examined victim property is not the same traceable gold
+        # as the 3.7 tonnes of central-bank gold returned by BIS in 1948.
+        self.assertIn("nicht mit Melmer-Opfergold gleichgesetzt",
+                      relations["REL-DE-BIS-GOLD-1945-001"]["label"])
+        # Puhl's subordinate BIS membership must not be promoted to director.
+        self.assertIn("nur unter Stellvertreter",
+                      relations["REL-INT-BIS-1939-003"]["label"])
+
+
 if __name__ == "__main__":
     unittest.main()

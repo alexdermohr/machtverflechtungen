@@ -1777,3 +1777,147 @@ relations:
     period: {start: "2021"}
     evidence_level: plausible
     sources: [SRC-US-IRS-FRIENDS-ATLANTIK-2021-EXTRACT]
+
+  - id: REL-INT-BIS-1939-001
+    from: PER-DE-WALTHER-FUNK
+    to: ORG-INT-BIS
+    type: ex_officio_board_member
+    label: "BIZ-Jahresbericht 1939: Reichsbankpräsident Walther Funk war ex-officio Verwaltungsrat; kein Beleg einer individuellen BIZ-Goldweisung daraus"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-INT-BIS-ANNUAL-REPORT-1939]
+
+  - id: REL-INT-BIS-1939-002
+    from: PER-DE-KURT-VON-SCHROEDER
+    to: ORG-INT-BIS
+    type: historical_board_membership
+    label: "1939 ausdrücklich im BIZ-Verwaltungsrat gelistet; seine separate SS-Finanzvermittlung 1943 ist damit nicht als BIZ-Beschluss bewiesen"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-INT-BIS-ANNUAL-REPORT-1939]
+
+  - id: REL-INT-BIS-1939-003
+    from: PER-DE-EMIL-PUHL
+    to: ORG-INT-BIS
+    type: listed_deputy_board_member
+    label: "BIZ-Jahresbericht 1939 nennt Emil Puhl nur unter Stellvertreter, nicht unter ordentlichen Verwaltungsräten"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-INT-BIS-ANNUAL-REPORT-1939]
+
+  - id: REL-INT-BIS-1939-004
+    from: PER-DE-WALTHER-FUNK
+    to: PER-DE-HERMANN-SCHMITZ
+    type: appointed_to_bis_board
+    label: "Funk berief laut 9. BIZ-Jahresbericht nach Übernahme des Reichsbankpräsidiums 1939 den IG-Farben-Chef Schmitz anstelle von Paul Reusch in den BIZ-Verwaltungsrat; kein Beleg eines gemeinsamen SS-Zahlungsentscheids"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-INT-BIS-ANNUAL-REPORT-1939]
+
+  - id: REL-DE-RB-1939-001
+    from: PER-DE-WALTHER-FUNK
+    to: ORG-DE-REICHSBANK-HISTORIC
+    type: bank_president
+    label: "Funk wurde im Januar 1939 Reichsbankpräsident, im selben Bericht als BIZ-Mitglied von Amts wegen bezeichnet"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-INT-BIS-ANNUAL-REPORT-1939]
+
+  - id: REL-DE-RB-1940-001
+    from: PER-DE-EMIL-PUHL
+    to: ORG-DE-REICHSBANK-HISTORIC
+    type: senior_bank_officer
+    label: "Puhl 1939 kommissarischer Reichsbank-Stellvertreter, am 08.08.1940 formell Vizepräsident; von seinem BIZ-Stellvertretermandat getrennt"
+    period: {start: "1939"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-MINISTRIES-PUHL-1949]
+
+  - id: REL-GB-BIS-GOLD-1939-001
+    from: ORG-GB-BANK-OF-ENGLAND-HISTORIC
+    to: ORG-INT-BIS
+    type: historic_gold_custody_accounts
+    label: "Bei der Bank of England geführtes BIZ-Goldkonto: tschechoslowakisches Zentralbankgold wurde im März 1939 nach unter Zwang erteilter Anweisung auf ein Reichsbankkonto umgebucht; keine freiwillige Schenkung"
+    period: {start: "1939-03-18"}
+    evidence_level: strong
+    sources: [SRC-INT-BIS-HISTORY-1939-GOLD]
+
+  - id: REL-INT-BIS-GOLD-1939-001
+    from: ORG-INT-BIS
+    to: ORG-DE-REICHSBANK-HISTORIC
+    type: executed_coerced_gold_account_transfer
+    label: "BIZ veranlasste März 1939 nach deutscher Besetzung Prags die Umbuchung tschechoslowakischer Goldreserven von ihrem Bank-of-England-Konto zur Reichsbank; BIS erkennt die später festgestellte Nötigung an"
+    period: {start: "1939-03-18"}
+    evidence_level: strong
+    sources: [SRC-INT-BIS-HISTORY-1939-GOLD]
+
+  - id: REL-DE-BIS-GOLD-1945-001
+    from: ORG-DE-REICHSBANK-HISTORIC
+    to: ORG-INT-BIS
+    type: wartime_interest_payments_in_stolen_gold
+    label: "BIS-Archivrekonstruktion: von der Reichsbank stammende Goldzahlungen 1939–45 enthielten ca. 3,7 Tonnen später als geraubtes belgisches/niederländisches Notenbankgold ermittelte Reserven; BIS restituierte 1948, nicht mit Melmer-Opfergold gleichgesetzt"
+    period: {start: "1939", end: "1945"}
+    evidence_level: strong
+    sources: [SRC-INT-BIS-HISTORY-1939-GOLD]
+
+  - id: REL-DE-CH-SNB-GOLD-1945-001
+    from: ORG-DE-REICHSBANK-HISTORIC
+    to: ORG-CH-SNB-HISTORIC
+    type: historical_gold_deliveries
+    label: "UEK: Reichsbank lieferte während des Kriegs Gold im Wert von 1,6–1,7 Mrd. CHF an SNB; 1,2 Mrd. auf SNB-Eigenrechnung, übriges teils Depotgold; nicht jede Lieferung war Raubgold"
+    period: {start: "1939", end: "1945"}
+    evidence_level: strong
+    sources: [SRC-CH-UEK-REICHSBANK-SNB-GOLD]
+
+  - id: REL-DE-SS-FUND-1943-001
+    from: PER-DE-KURT-VON-SCHROEDER
+    to: PRG-DE-HIMMLER-SONDERKONTO-S-1943
+    type: fundraising_and_contributor_listing
+    label: "Schröders Schreiben an Himmler EC-453 vom 21.09.1943 übermittelte eine Sonderkonto-S-Beitragsliste von insgesamt 1.100.000 RM; getrennte Einzelkontobelege liegen hier nicht vor"
+    period: {start: "1943-09-21"}
+    evidence_level: established
+    sources: [SRC-US-IMT-EC453-SCHROEDER-HIMMLER-1943]
+
+  - id: REL-DE-SS-FUND-1943-002
+    from: ORG-DE-IG-FARBEN
+    to: PRG-DE-HIMMLER-SONDERKONTO-S-1943
+    type: listed_special_account_contribution
+    label: "EC-453 weist für 1943 über Bütefisch und Hermann Schmitz 100.000 RM der IG Farben als beim Sonderkonto S eingegangenen Beitrag aus; kein unabhängig eingesehener Einzelbankbeleg und keine belegte konkrete Verwendung"
+    period: {start: "1943"}
+    evidence_level: strong
+    sources: [SRC-US-IMT-EC453-SCHROEDER-HIMMLER-1943]
+
+  - id: REL-DE-SS-FUND-1943-003
+    from: PRG-DE-HIMMLER-SONDERKONTO-S-1943
+    to: PER-DE-HEINRICH-HIMMLER
+    type: reported_funds_made_available
+    label: "Schröders Brief EC-453: 1943 auf Sonderkonto S gesammelte 1,1 Mio. RM für besondere Aufgaben Himmlers bereitgestellt; konkreter Endverwendungsnachweis offen"
+    period: {start: "1943"}
+    evidence_level: strong
+    sources: [SRC-US-IMT-EC453-SCHROEDER-HIMMLER-1943]
+
+  - id: REL-DE-SS-DEST-1941-001
+    from: PER-DE-WALTHER-FUNK
+    to: ORG-DE-DEST-SS-HISTORIC
+    type: documented_ss_financing_approval
+    label: "Ministerien-Urteil: Funk bewilligte 1939 einen 8-Mio.-RM-DEST-Finanzierungsrahmen und unterzeichnete am 19.05.1941 weiteren 8-Mio.-RM-Kreditauftrag; Kreditrahmen nicht mit vollständiger Auszahlung gleichgesetzt"
+    period: {start: "1939", end: "1941"}
+    evidence_level: established
+    sources: [SRC-US-NMT-MINISTRIES-PUHL-1949, SRC-US-NMT-DEST-FUNK-19410519]
+
+  - id: REL-DE-SS-DEST-1939-001
+    from: ORG-DE-DEGO-HISTORIC
+    to: ORG-DE-DEST-SS-HISTORIC
+    type: state_funds_credit_security
+    label: "1939 laut Ministerien-Urteil: 8 Mio. RM aus Mitteln des Reichswirtschaftsministeriums bei der DEGO als Sicherheit für DEST-Finanzierung deponiert, nicht Nachweis des ganzen ausgezahlten Darlehens"
+    period: {start: "1939"}
+    evidence_level: established
+    sources: [SRC-US-NMT-MINISTRIES-PUHL-1949]
+
+  - id: REL-DE-SS-GOLD-1942-001
+    from: PER-DE-EMIL-PUHL
+    to: PER-DE-OSWALD-POHL
+    type: coordinated_secret_ss_asset_processing
+    label: "Puhl berichtet 1946 über heimlich organisierte Reichsbank-Annahme von SS-Gold, KZ-Opfer-Schmuck, Zahngold und Devisen nach Abstimmung mit Oswald Pohl; Tribunal verurteilte Puhl wegen wissender Verwertung unter Count 5, nicht wegen Tötungen"
+    period: {start: "1942"}
+    evidence_level: established
+    sources: [SRC-US-IMT-PUHL-AFFIDAVIT-3944PS, SRC-US-NMT-MINISTRIES-PUHL-1949]

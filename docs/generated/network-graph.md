@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**191 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**207 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -383,6 +383,33 @@ flowchart LR
     N_PER_DE_FRIEDRICH_MERZ["Friedrich Merz"]
     N_ORG_US_ATLANTIK_BRUECKE_FRIENDS_EIN202174611["Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611)"]
     N_PER_DE_FRIEDRICH_MERZ -->|"IRS-abgeleitete 2021er US-990-EZ-Auswertung nennt Friedrich Merz als Director des rechtlich eigenständigen US-Friends-Vereins; Originalzeile hier nicht bildgeprüft, laut 2022er Erfassung bis Mai 2022; keine heutige Funktion belegt"| N_ORG_US_ATLANTIK_BRUECKE_FRIENDS_EIN202174611
+    N_PER_DE_WALTHER_FUNK["Walther Funk (1890–1960)"]
+    N_PER_DE_WALTHER_FUNK -->|"BIZ-Jahresbericht 1939: Reichsbankpräsident Walther Funk war ex-officio Verwaltungsrat; kein Beleg einer individuellen BIZ-Goldweisung daraus"| N_ORG_INT_BIS
+    N_PER_DE_KURT_VON_SCHROEDER["Kurt Freiherr von Schröder (1889–1966)"]
+    N_PER_DE_KURT_VON_SCHROEDER -->|"1939 ausdrücklich im BIZ-Verwaltungsrat gelistet; seine separate SS-Finanzvermittlung 1943 ist damit nicht als BIZ-Beschluss bewiesen"| N_ORG_INT_BIS
+    N_PER_DE_EMIL_PUHL["Emil Puhl (1889–1962)"]
+    N_PER_DE_EMIL_PUHL -->|"BIZ-Jahresbericht 1939 nennt Emil Puhl nur unter Stellvertreter, nicht unter ordentlichen Verwaltungsräten"| N_ORG_INT_BIS
+    N_PER_DE_WALTHER_FUNK -->|"Funk berief laut 9. BIZ-Jahresbericht nach Übernahme des Reichsbankpräsidiums 1939 den IG-Farben-Chef Schmitz anstelle von Paul Reusch in den BIZ-Verwaltungsrat; kein Beleg eines gemeinsamen SS-Zahlungsentscheids"| N_PER_DE_HERMANN_SCHMITZ
+    N_ORG_DE_REICHSBANK_HISTORIC["Deutsche Reichsbank (historisch, 1933–1945)"]
+    N_PER_DE_WALTHER_FUNK -->|"Funk wurde im Januar 1939 Reichsbankpräsident, im selben Bericht als BIZ-Mitglied von Amts wegen bezeichnet"| N_ORG_DE_REICHSBANK_HISTORIC
+    N_PER_DE_EMIL_PUHL -->|"Puhl 1939 kommissarischer Reichsbank-Stellvertreter, am 08.08.1940 formell Vizepräsident; von seinem BIZ-Stellvertretermandat getrennt"| N_ORG_DE_REICHSBANK_HISTORIC
+    N_ORG_GB_BANK_OF_ENGLAND_HISTORIC["Bank of England (historische Kontenfunktion 1939)"]
+    N_ORG_GB_BANK_OF_ENGLAND_HISTORIC -->|"Bei der Bank of England geführtes BIZ-Goldkonto: tschechoslowakisches Zentralbankgold wurde im März 1939 nach unter Zwang erteilter Anweisung auf ein Reichsbankkonto umgebucht; keine freiwillige Schenkung"| N_ORG_INT_BIS
+    N_ORG_INT_BIS -->|"BIZ veranlasste März 1939 nach deutscher Besetzung Prags die Umbuchung tschechoslowakischer Goldreserven von ihrem Bank-of-England-Konto zur Reichsbank; BIS erkennt die später festgestellte Nötigung an"| N_ORG_DE_REICHSBANK_HISTORIC
+    N_ORG_DE_REICHSBANK_HISTORIC -->|"BIS-Archivrekonstruktion: von der Reichsbank stammende Goldzahlungen 1939–45 enthielten ca. 3,7 Tonnen später als geraubtes belgisches/niederländisches Notenbankgold ermittelte Reserven; BIS restituierte 1948, nicht mit Melmer-Opfergold gleichgesetzt"| N_ORG_INT_BIS
+    N_ORG_CH_SNB_HISTORIC["Schweizerische Nationalbank (SNB, historische Goldgeschäfte)"]
+    N_ORG_DE_REICHSBANK_HISTORIC -->|"UEK: Reichsbank lieferte während des Kriegs Gold im Wert von 1,6–1,7 Mrd. CHF an SNB; 1,2 Mrd. auf SNB-Eigenrechnung, übriges teils Depotgold; nicht jede Lieferung war Raubgold"| N_ORG_CH_SNB_HISTORIC
+    N_PRG_DE_HIMMLER_SONDERKONTO_S_1943["Sonderkonto S des Himmler-Freundeskreises (1943)"]
+    N_PER_DE_KURT_VON_SCHROEDER -->|"Schröders Schreiben an Himmler EC-453 vom 21.09.1943 übermittelte eine Sonderkonto-S-Beitragsliste von insgesamt 1.100.000 RM; getrennte Einzelkontobelege liegen hier nicht vor"| N_PRG_DE_HIMMLER_SONDERKONTO_S_1943
+    N_ORG_DE_IG_FARBEN -->|"EC-453 weist für 1943 über Bütefisch und Hermann Schmitz 100.000 RM der IG Farben als beim Sonderkonto S eingegangenen Beitrag aus; kein unabhängig eingesehener Einzelbankbeleg und keine belegte konkrete Verwendung"| N_PRG_DE_HIMMLER_SONDERKONTO_S_1943
+    N_PER_DE_HEINRICH_HIMMLER["Heinrich Himmler (1900–1945)"]
+    N_PRG_DE_HIMMLER_SONDERKONTO_S_1943 -->|"Schröders Brief EC-453: 1943 auf Sonderkonto S gesammelte 1,1 Mio. RM für besondere Aufgaben Himmlers bereitgestellt; konkreter Endverwendungsnachweis offen"| N_PER_DE_HEINRICH_HIMMLER
+    N_ORG_DE_DEST_SS_HISTORIC["Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb)"]
+    N_PER_DE_WALTHER_FUNK -->|"Ministerien-Urteil: Funk bewilligte 1939 einen 8-Mio.-RM-DEST-Finanzierungsrahmen und unterzeichnete am 19.05.1941 weiteren 8-Mio.-RM-Kreditauftrag; Kreditrahmen nicht mit vollständiger Auszahlung gleichgesetzt"| N_ORG_DE_DEST_SS_HISTORIC
+    N_ORG_DE_DEGO_HISTORIC["Deutsche Golddiskontbank (DEGO, historisch)"]
+    N_ORG_DE_DEGO_HISTORIC -->|"1939 laut Ministerien-Urteil: 8 Mio. RM aus Mitteln des Reichswirtschaftsministeriums bei der DEGO als Sicherheit für DEST-Finanzierung deponiert, nicht Nachweis des ganzen ausgezahlten Darlehens"| N_ORG_DE_DEST_SS_HISTORIC
+    N_PER_DE_OSWALD_POHL["Oswald Pohl (1892–1951)"]
+    N_PER_DE_EMIL_PUHL -->|"Puhl berichtet 1946 über heimlich organisierte Reichsbank-Annahme von SS-Gold, KZ-Opfer-Schmuck, Zahngold und Devisen nach Abstimmung mit Oswald Pohl; Tribunal verurteilte Puhl wegen wissender Verwertung unter Count 5, nicht wegen Tötungen"| N_PER_DE_OSWALD_POHL
 ```
 
 [Zur Relationstabelle](network.md)

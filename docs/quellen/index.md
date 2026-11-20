@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**233 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**240 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -469,6 +469,36 @@ Banco Ambrosiano S.p.A.; Organo d'informazione mensile dell'ANGPS · 1979-02 · 
 [PDF öffnen](https://www.anpsbrescia.it/wp/wp-content/uploads/2018/02/1979-2-Feb-Mar-ROB.pdf)
 
 Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banco Ambrosiano und NMB als Inter-Alpha-Mitglieder
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-int-bis-history-1939-gold"></a>
+### Bank für Internationalen Zahlungsausgleich
+
+**[History of the Bank for International Settlements: WWII Czech gold and Reichsbank payments](https://www.bis.org/about/history/overview)**
+
+Bank für Internationalen Zahlungsausgleich · unbekannt · Stufe **A** · Primärquelle · `SRC-INT-BIS-HISTORY-1939-GOLD`
+
+[Seite öffnen](https://www.bis.org/about/history/overview)
+
+Fundstelle: Abschnitt BIS during the Second World War: zwangsveranlasster tschechoslowakischer Goldtransfer 1939, Reichsbank-Goldzinsen, später als geraubt ermittelte 3,7 Tonnen und Rückgabe 1948
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1939">
+
+<a id="src-int-bis-annual-report-1939"></a>
+### Bank für Internationalen Zahlungsausgleich
+
+**[Bank für Internationalen Zahlungsausgleich, 9. Jahresbericht 1938/39 (8. Mai 1939)](https://www.bis.org/publications/annual-report-1939)**
+
+Bank für Internationalen Zahlungsausgleich · 1939-05-08 · Stufe **A** · Primärquelle · `SRC-INT-BIS-ANNUAL-REPORT-1939`
+
+[Seite öffnen](https://www.bis.org/publications/annual-report-1939)
+
+Fundstelle: PDF S. 148–150: Veränderungen im Verwaltungsrat und 1939er Gremienliste. Funk, Schmitz, von Schröder Verwaltungsräte; Emil Puhl nur unter Stellvertreter
 
 </article>
 
@@ -2015,6 +2045,36 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1943">
+
+<a id="src-us-imt-ec453-schroeder-himmler-1943"></a>
+### International Military Tribunal Nürnberg, Harvard Law School Library
+
+**[EC-453, Kurt von Schröder to Himmler, 21 September 1943; Sonderkonto S contributor list](https://nuremberg.law.harvard.edu/documents/451121-letter-to-himmler-and-list?mode=image)**
+
+International Military Tribunal Nürnberg, Harvard Law School Library · 1943-09-21 · Stufe **A** · Primärquelle · `SRC-US-IMT-EC453-SCHROEDER-HIMMLER-1943`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/documents/451121-letter-to-himmler-and-list?mode=image)
+
+Fundstelle: EC-453 / Exhibit USA-322, Seiten 1–2: Zuschreibung 100.000 Reichsmark an I.G. Farben/Bütefisch/Hermann Schmitz; Gesamtbetrag Sonderkonto S laut Brief 1.100.000 RM
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
+<a id="src-us-imt-puhl-affidavit-3944ps"></a>
+### International Military Tribunal, Harvard Law School Library
+
+**[Emil Puhl affidavit 3944-PS regarding Reichsbank receipt of SS victim assets](https://nuremberg.law.harvard.edu/documents/75-affidavit-concerning-arrangements-by?mode=text)**
+
+International Military Tribunal, Harvard Law School Library · 1946-05-03 · Stufe **A** · Primärquelle · `SRC-US-IMT-PUHL-AFFIDAVIT-3944PS`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/documents/75-affidavit-concerning-arrangements-by?mode=text)
+
+Fundstelle: Absätze 2–7: von Funk berichtete Absprache mit Himmler, Puhls Kontakte zu Oswald Pohl und Annahme/Verwertung von KZ-Opferwerten
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-jhs-newbridge-2026"></a>
@@ -2578,6 +2638,36 @@ U.S. District Court for the District of Columbia · 1998-08-13 · Stufe **A** ·
 [Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)
 
 Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
+
+<a id="src-us-nmt-dest-funk-19410519"></a>
+### U.S. Military Tribunal IV, Harvard Law School Library
+
+**[Ministries Case, testimony on Funk-signed DEST loan instruction 19 May 1941](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5889)**
+
+U.S. Military Tribunal IV, Harvard Law School Library · 1948-05-19 · Stufe **A** · Primärquelle · `SRC-US-NMT-DEST-FUNK-19410519`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5889)
+
+Fundstelle: Verhandlung 19. Mai 1948: im Gericht verlesene Kreditweisung Funks vom 19.05.1941 an SS-Unternehmen DEST, 8 Mio. RM Rahmen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1949">
+
+<a id="src-us-nmt-ministries-puhl-1949"></a>
+### U.S. Military Tribunal IV, Harvard Law School Library
+
+**[United States v. Weizsaecker et al. (Ministries Case), judgment on Emil Puhl and SS assets](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=28627)**
+
+U.S. Military Tribunal IV, Harvard Law School Library · 1949-04-12 · Stufe **A** · Primärquelle · `SRC-US-NMT-MINISTRIES-PUHL-1949`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=28627)
+
+Fundstelle: Green Series Bd. 14, gedruckte S. 609–620 zu Opferwerten und S. 850–852 zu DEST-Finanzierung; Unterscheidung Puhls Verurteilung unter Count 5 und Freispruch unter Count 7
 
 </article>
 
@@ -3435,6 +3525,21 @@ UK Parliament · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC
 [Seite öffnen](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/rump-dissolved/)
 
 Fundstelle: Abschnitt Lord Protector Cromwell: Einsetzung als Lord Protector am 16. Dezember 1653
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-ch-uek-reichsbank-snb-gold"></a>
+### Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg
+
+**[Die Schweiz und die Goldtransaktionen im Zweiten Weltkrieg, Band 16 – Zusammenfassung](https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/16goldtransaktionen.htm)**
+
+Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CH-UEK-REICHSBANK-SNB-GOLD`
+
+[Seite öffnen](https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/16goldtransaktionen.htm)
+
+Fundstelle: Abschnitte Grundlagen und Die Goldtransaktionen zwischen der Schweiz und dem Dritten Reich: 77 %, 94/6 %, 1,6–1,7 Mrd CHF brutto, 1,2 Mrd CHF SNB auf eigene Rechnung
 
 </article>
 
