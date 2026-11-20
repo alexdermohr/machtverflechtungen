@@ -283,5 +283,60 @@ class ResearchIntegrationTests(unittest.TestCase):
         )
 
 
+    def test_media_financing_and_warburg_legacy_coverage(self):
+        root = coverage.ROOT
+        registry = coverage.read_registry(root)
+        mapped = {
+            "bilderberg-american-friends-irs-medien-2004-2025.md":
+                ["REL-US-BBF-001", "REL-US-BBF-002",
+                 "REL-US-BBF-003", "REL-US-BBF-010"],
+            "bilderberg-uk-minister-transparenz-polizeikosten-1993-2013.md":
+                ["REL-GB-BB-UK-001", "REL-GB-BB-UK-002"],
+            "atlantik-bruecke-halle-foerderbetraege-friends-2020-2026.md":
+                ["REL-US-HALLE-AB-GRANT-2022",
+                 "REL-US-HALLE-AB-GRANT-2023", "REL-US-ABFRIENDS-MERZ-2021"],
+            "atlantik-bruecke-agenda-finanzierer-2021-2026.md":
+                ["REL-DE-AB-NEW-BRIDGE-001", "REL-DE-JHS-AB-NEWBRIDGE-2026"],
+            "ewk-bpa-apuz-presse-und-finanzierung-1951-1967.md":
+                ["REL-DE-KMM-005", "REL-DE-KMM-009"],
+            "warburg-bank-einfluss-1798-2026.md":
+                ["REL-DE-CUMEX-001", "REL-DE-CUMEX-002"],
+            "warburg-hamburg-steuerverwaltung-belegmatrix-2014-2026.md":
+                ["REL-DE-CUMEX-001", "REL-DE-CUMEX-002"],
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        sources = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        relations = {
+            relation["id"]: relation
+            for relation in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        for name, ids in mapped.items():
+            with self.subTest(study=name):
+                entry = registry[name]
+                self.assertEqual(entry["status"], "network")
+                self.assertEqual(entry["sha256"], hashlib.sha256(
+                    (root / "research" / name).read_bytes()
+                ).hexdigest())
+                self.assertTrue(set(ids) <= set(entry["relation_ids"]))
+                for relation_id in ids:
+                    relation = relations[relation_id]
+                    self.assertIn(relation["label"], graph)
+                    self.assertIn(f'id="{relation_id.lower()}"', table)
+                    for source_id in relation["sources"]:
+                        self.assertIn(f'id="{source_id.lower()}"', sources)
+        self.assertIn("ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611", actors)
+        self.assertIn("PER-DE-FRIEDRICH-MERZ", actors)
+        # Do not turn a historical, not image-confirmed role into present
+        # ownership, corrupt influence or a verified donation transfer.
+        historical = relations["REL-US-ABFRIENDS-MERZ-2021"]
+        self.assertEqual(historical["evidence_level"], "plausible")
+        self.assertIn("keine heutige Funktion", historical["label"])
+        self.assertEqual(historical["period"], {"start": "2021"})
+
+
 if __name__ == "__main__":
     unittest.main()

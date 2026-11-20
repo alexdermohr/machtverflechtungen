@@ -2674,3 +2674,14 @@ sources:
   accessed: "2026-11-20"
   locator: "Abschnitt Lord Protector Cromwell: Einsetzung als Lord Protector am 16. Dezember 1653"
   notes: "Parlamentshistorische Sekundärdarstellung zur Amtsstellung; kein Beleg für eine vermeintlich bezahlte Königshinrichtung 1649."
+- id: SRC-US-IRS-FRIENDS-ATLANTIK-2021-EXTRACT
+  title: "Friends of the Atlantik-Bruecke Ev Inc – IRS Form 990-EZ, 2021 officer list (extracted)"
+  institution: "IRS filing data via ProPublica Nonprofit Explorer"
+  date: "2021"
+  type: tax_filing_extracted_database
+  primary: false
+  tier: B
+  url: https://projects.propublica.org/nonprofits/organizations/202174611
+  accessed: "2026-11-20"
+  locator: "EIN 20-2174611, 2021 IRS-990-EZ officer/director listings; 2022 filing for later tenure; original image of the individual officer line not independently re-verified in this update"
+  notes: "IRS-abgeleitete öffentliche Sekundärprojektion laut Forschungsdossier: Friedrich Merz wird 2021 als Director, 2022 bis Mai geführt. Der in der Webansicht eingeklappte Volltext aller Directors und die individuelle Originalfiling-Bildseite wurden hier nicht nochmals geprüft; die Quellenlage erlaubt keine Aussage über ein Mandat 2026."

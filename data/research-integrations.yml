@@ -142,3 +142,63 @@ studies:
       - REL-INT-INTERALPHA-1979-003
       - REL-UY-BAFISUD-NMB-1983-001
       - REL-UY-BAFISUD-BCU-1984-001
+  bilderberg-american-friends-irs-medien-2004-2025.md:
+    sha256: 47e9b5589b787daa2db8ae8b1a649d6df074bbe4fd4c87a45f23fbd74b7b437d
+    status: network
+    relation_ids:
+      - REL-US-BBF-001
+      - REL-US-BBF-002
+      - REL-US-BBF-003
+      - REL-US-BBF-004
+      - REL-US-BBF-005
+      - REL-US-BBF-006
+      - REL-US-BBF-007
+      - REL-US-BBF-008
+      - REL-US-BBF-009
+      - REL-US-BBF-010
+
+  bilderberg-uk-minister-transparenz-polizeikosten-1993-2013.md:
+    sha256: 9de5520cafa3391f17b138b2c0296d3655de6434dfa688f74dd6cb704f4fc7e0
+    status: network
+    relation_ids:
+      - REL-GB-BB-UK-001
+      - REL-GB-BB-UK-002
+
+  atlantik-bruecke-halle-foerderbetraege-friends-2020-2026.md:
+    sha256: 4ff3d280e3eadd21ddcd1478dc57a53815622780c69d3adf8471f17f1121bd91
+    status: network
+    relation_ids:
+      - REL-DE-AB-NEW-BRIDGE-001
+      - REL-DE-JHS-AB-NEWBRIDGE-2026
+      - REL-US-HALLE-AB-GRANT-2022
+      - REL-US-HALLE-AB-GRANT-2023
+      - REL-US-ABFRIENDS-MERZ-2021
+
+  atlantik-bruecke-agenda-finanzierer-2021-2026.md:
+    sha256: 2c9501fc3918baa1b007d3c88395e0081676da661d144e40120f2a87416781d8
+    status: network
+    relation_ids:
+      - REL-DE-AB-NEW-BRIDGE-001
+      - REL-DE-JHS-AB-NEWBRIDGE-2026
+
+  ewk-bpa-apuz-presse-und-finanzierung-1951-1967.md:
+    sha256: a471f91e93e7149571ed73dba3cc135961880e08ce7e04962442c61609488e2f
+    status: network
+    relation_ids:
+      - REL-DE-KMM-001
+      - REL-DE-KMM-005
+      - REL-DE-KMM-009
+
+  warburg-bank-einfluss-1798-2026.md:
+    sha256: 786e43d2fed8b2ad7a6c5c743cae9805bcaf495832f0d6723d44cd596c761b7a
+    status: network
+    relation_ids:
+      - REL-DE-CUMEX-001
+      - REL-DE-CUMEX-002
+
+  warburg-hamburg-steuerverwaltung-belegmatrix-2014-2026.md:
+    sha256: ae5ff8a232309e1c7868837fac731a840ddffa05ea444c3041361c8de4a1adfd
+    status: network
+    relation_ids:
+      - REL-DE-CUMEX-001
+      - REL-DE-CUMEX-002

@@ -1768,3 +1768,12 @@ relations:
     period: {start: "1655"}
     evidence_level: strong
     sources: [SRC-GB-JHSE-WOLF-CARVAJAL]
+
+  - id: REL-US-ABFRIENDS-MERZ-2021
+    from: PER-DE-FRIEDRICH-MERZ
+    to: ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611
+    type: reported_charity_directorship
+    label: "IRS-abgeleitete 2021er US-990-EZ-Auswertung nennt Friedrich Merz als Director des rechtlich eigenständigen US-Friends-Vereins; Originalzeile hier nicht bildgeprüft, laut 2022er Erfassung bis Mai 2022; keine heutige Funktion belegt"
+    period: {start: "2021"}
+    evidence_level: plausible
+    sources: [SRC-US-IRS-FRIENDS-ATLANTIK-2021-EXTRACT]

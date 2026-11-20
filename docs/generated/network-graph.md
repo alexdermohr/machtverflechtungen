@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**190 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**191 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -380,6 +380,9 @@ flowchart LR
     N_ORG_GB_PROTECTORATE_1653["Englisches Protektorat unter Oliver Cromwell (1653–1658)"]
     N_PER_GB_OLIVER_CROMWELL -->|"Am 16.12.1653 als Lord Protector eingesetzt; keine aus dem Amt allein ableitbare Weisung über einzelne Handelsverträge"| N_ORG_GB_PROTECTORATE_1653
     N_ORG_GB_PROTECTORATE_1653 -->|"Im Juli 1655 erhielten Carvajal und seine zwei Söhne laut Wolf-Edition im Protektorat einen Denization-Status; keine bewiesene Gegenleistung für die Hinrichtung von 1649"| N_PER_GB_ANTONIO_FERNANDES_CARVAJAL
+    N_PER_DE_FRIEDRICH_MERZ["Friedrich Merz"]
+    N_ORG_US_ATLANTIK_BRUECKE_FRIENDS_EIN202174611["Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611)"]
+    N_PER_DE_FRIEDRICH_MERZ -->|"IRS-abgeleitete 2021er US-990-EZ-Auswertung nennt Friedrich Merz als Director des rechtlich eigenständigen US-Friends-Vereins; Originalzeile hier nicht bildgeprüft, laut 2022er Erfassung bis Mai 2022; keine heutige Funktion belegt"| N_ORG_US_ATLANTIK_BRUECKE_FRIENDS_EIN202174611
 ```
 
 [Zur Relationstabelle](network.md)

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**188 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**190 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -21,6 +21,7 @@
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE | [1](network.md#rel-de-gehlen-005) |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [1](network.md#rel-de-tmn-035) |
+| Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
@@ -137,6 +138,7 @@
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [1](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [1](network.md#rel-de-tmn-018) |
+| Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |

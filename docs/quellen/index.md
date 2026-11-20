@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**232 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**233 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2778,7 +2778,7 @@ Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/Contributor
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3135,6 +3135,21 @@ DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **C** · Sekundär-/Forschungsqu
 [Seite öffnen](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)
 
 Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung der Aussagegenehmigung durch Richter Geuß und zum von Urbach eingeräumten Waffenvergraben
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-us-irs-friends-atlantik-2021-extract"></a>
+### IRS filing data via ProPublica Nonprofit Explorer
+
+**[Friends of the Atlantik-Bruecke Ev Inc – IRS Form 990-EZ, 2021 officer list (extracted)](https://projects.propublica.org/nonprofits/organizations/202174611)**
+
+IRS filing data via ProPublica Nonprofit Explorer · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-IRS-FRIENDS-ATLANTIK-2021-EXTRACT`
+
+[Seite öffnen](https://projects.propublica.org/nonprofits/organizations/202174611)
+
+Fundstelle: EIN 20-2174611, 2021 IRS-990-EZ officer/director listings; 2022 filing for later tenure; original image of the individual officer line not independently re-verified in this update
 
 </article>
 
