@@ -2639,3 +2639,38 @@ sources:
   accessed: "2026-11-20"
   locator: "Verteidigungsaussage: 1940 Anorgana-Aufsichtsrat; Verhandlung zu NI-7377 / Sitzung 23.08.1943"
   notes: "Protokolliert eigenes Mandatsvorbringen und Bezug auf Originalminutes; kein Einzelbeleg für alle Produktionsentscheidungen."
+- id: SRC-US-DOD-UKRAINE-BIOSAFETY-20220609
+  title: "Fact Sheet on WMD Threat Reduction Efforts with Ukraine, Russia and Other Former Soviet Union Countries"
+  institution: "U.S. Department of Defense"
+  date: "2022-06-09"
+  type: official_fact_sheet
+  primary: true
+  tier: A
+  url: https://www.defense.gov/News/Releases/Release/article/3057517/fact-sheet-on-wmd-threat-reduction-efforts-with-ukraine-russia-and-other-former/
+  accessed: "2026-11-20"
+  locator: "Abschnitt Ukraine Has No Biological Weapons Program: Unterstützung von 46 ukrainischen Laboren und Gesundheits-/Diagnostikstellen über zwei Jahrzehnte"
+  notes: "Amtliche US-Selbstauskunft über zivile Biosicherheit und Krankheitsüberwachung; keine unabhängige Prüfung jeder Einrichtung, kein Beleg für ukrainischen Ursprung von SARS-CoV-2 oder US-Biowaffenlaborbesitz."
+
+- id: SRC-GB-JHSE-WOLF-CARVAJAL
+  title: "The First English Jew: Notes on Antonio Fernandez Carvajal, with Some Biographical Documents"
+  institution: "Jewish Historical Society of England (Lucien Wolf)"
+  date: null
+  type: archival_historical_edition
+  primary: false
+  tier: B
+  url: https://www.jhse.org/pre-2015articles/the-first-english-jew%2C-notes-on-antonio-fernandez-carvajal
+  accessed: "2026-11-20"
+  locator: "Transkript S. 17–18: Council-of-State-Getreidevertrag 1649 (CSP Domestic 1649–50, S.255), Denization Juli 1655 und Thurloe-Notiz"
+  notes: "Archivnahe historische Studie mit dokumentierten Originalverweisen; belegt keine finanzielle Beauftragung oder Planung der Hinrichtung Karls I. durch Carvajal."
+
+- id: SRC-GB-PARLIAMENT-CROMWELL-PROTECTOR-1653
+  title: "The Rump dissolved – Lord Protector Cromwell"
+  institution: "UK Parliament"
+  date: null
+  type: institutional_history
+  primary: false
+  tier: B
+  url: https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/rump-dissolved/
+  accessed: "2026-11-20"
+  locator: "Abschnitt Lord Protector Cromwell: Einsetzung als Lord Protector am 16. Dezember 1653"
+  notes: "Parlamentshistorische Sekundärdarstellung zur Amtsstellung; kein Beleg für eine vermeintlich bezahlte Königshinrichtung 1649."

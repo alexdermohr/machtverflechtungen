@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**229 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**232 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-doj-bcci-factsheet-19911219)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2536,6 +2536,21 @@ Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-us-dod-ukraine-biosafety-20220609"></a>
+### U.S. Department of Defense
+
+**[Fact Sheet on WMD Threat Reduction Efforts with Ukraine, Russia and Other Former Soviet Union Countries](https://www.defense.gov/News/Releases/Release/article/3057517/fact-sheet-on-wmd-threat-reduction-efforts-with-ukraine-russia-and-other-former/)**
+
+U.S. Department of Defense · 2022-06-09 · Stufe **A** · Primärquelle · `SRC-US-DOD-UKRAINE-BIOSAFETY-20220609`
+
+[Seite öffnen](https://www.defense.gov/News/Releases/Release/article/3057517/fact-sheet-on-wmd-threat-reduction-efforts-with-ukraine-russia-and-other-former/)
+
+Fundstelle: Abschnitt Ukraine Has No Biological Weapons Program: Unterstützung von 46 ukrainischen Laboren und Gesundheits-/Diagnostikstellen über zwei Jahrzehnte
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
 
 <a id="src-us-doj-bcci-factsheet-19911219"></a>
@@ -2763,7 +2778,7 @@ Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/Contributor
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-int-scott-smith-der-monat-2000) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3123,6 +3138,21 @@ Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung d
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-gb-jhse-wolf-carvajal"></a>
+### Jewish Historical Society of England (Lucien Wolf)
+
+**[The First English Jew: Notes on Antonio Fernandez Carvajal, with Some Biographical Documents](https://www.jhse.org/pre-2015articles/the-first-english-jew%2C-notes-on-antonio-fernandez-carvajal)**
+
+Jewish Historical Society of England (Lucien Wolf) · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-JHSE-WOLF-CARVAJAL`
+
+[Seite öffnen](https://www.jhse.org/pre-2015articles/the-first-english-jew%2C-notes-on-antonio-fernandez-carvajal)
+
+Fundstelle: Transkript S. 17–18: Council-of-State-Getreidevertrag 1649 (CSP Domestic 1649–50, S.255), Denization Juli 1655 und Thurloe-Notiz
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2000">
 
 <a id="src-int-scott-smith-der-monat-2000"></a>
@@ -3375,6 +3405,21 @@ U.S. National Archives and Records Administration · unbekannt · Stufe **B** ·
 [Seite öffnen](https://www.archives.gov/research/holocaust/finding-aid/military/part-1-notes.html)
 
 Fundstelle: Anmerkung 2: historisches BIZ-Verwaltungsratsumfeld Schmitz, von Schröder, Funk, Puhl
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-gb-parliament-cromwell-protector-1653"></a>
+### UK Parliament
+
+**[The Rump dissolved – Lord Protector Cromwell](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/rump-dissolved/)**
+
+UK Parliament · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-PARLIAMENT-CROMWELL-PROTECTOR-1653`
+
+[Seite öffnen](https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/rump-dissolved/)
+
+Fundstelle: Abschnitt Lord Protector Cromwell: Einsetzung als Lord Protector am 16. Dezember 1653
 
 </article>
 

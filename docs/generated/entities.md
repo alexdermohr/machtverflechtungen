@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**182 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**188 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -8,6 +8,7 @@
 |---|---|---|---|---|
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
+| António Fernandes Carvajal (gest. 1659) | person | `PER-GB-ANTONIO-FERNANDES-CARVAJAL` | GB, PT | [2](network.md#rel-gb-crom-1649-001) |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE | [2](network.md#rel-de-lang-002) |
 | August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
@@ -48,6 +49,7 @@
 | Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE | [1](network.md#rel-de-da-008) |
 | Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE | [1](network.md#rel-de-da-004) |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE | [1](network.md#rel-de-cumex-002) |
+| Oliver Cromwell (1599–1658) | person | `PER-GB-OLIVER-CROMWELL` | GB | [1](network.md#rel-gb-crom-1653-001) |
 | Otto Lenz | person | `PER-DE-OTTO-LENZ` | DE | [1](network.md#rel-de-kmm-010) |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE | [1](network.md#rel-de-tmn-026) |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE | [1](network.md#rel-de-tmn-043) |
@@ -129,6 +131,8 @@
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
+| Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
+| Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [1](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
@@ -180,10 +184,12 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
+| U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [1](network.md#rel-us-ua-biosec-2022-001) |
 | U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [1](network.md#rel-int-bcci-006) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
+| USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**186 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**190 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -370,6 +370,16 @@ flowchart LR
     N_ORG_DE_DELBRUECK_SCHICKLER_1933 -->|"Bankhaus als Empfänger für das Konto Nationale Treuhand bezeichnet; Konto der Wahlkampffinanzierung im Februar 1933"| N_PRG_DE_NATIONALE_TREUHAND_1933
     N_ORG_DE_ANORGANA["Anorgana GmbH (historische IG-Farben-Gesellschaft)"]
     N_PER_DE_AUGUST_VON_KNIERIEM -->|"laut eigener Aussage ab Frühjahr 1940 Aufsichtsratsmitglied, 1943er Protokoll NI-7377 behandelt; konkrete Produktionsweisungen nicht belegt"| N_ORG_DE_ANORGANA
+    N_ORG_US_DOD["U.S. Department of Defense"]
+    N_PRG_UA_BIOSAFETY_COOP["USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm)"]
+    N_ORG_US_DOD -->|"US-Verteidigungsministerium erklärte am 09.06.2022, es habe über zwei Jahrzehnte 46 ukrainische Labor-, Gesundheits- und Diagnostikstellen bei Biosicherheit/Krankheitsüberwachung unterstützt; ukrainischer Betrieb laut US-Angabe, kein SARS-CoV-2-Transferbeleg"| N_PRG_UA_BIOSAFETY_COOP
+    N_ORG_GB_COUNCIL_OF_STATE_1649["Englischer Council of State (1649)"]
+    N_PER_GB_ANTONIO_FERNANDES_CARVAJAL["António Fernandes Carvajal (gest. 1659)"]
+    N_ORG_GB_COUNCIL_OF_STATE_1649 -->|"1649 erhielt Carvajal laut archivnaher Edition als einer von fünf Londoner Kaufleuten einen staatlichen Getreideliefervertrag für die Armee; keine belegte Finanzierung der Hinrichtung Karls I."| N_PER_GB_ANTONIO_FERNANDES_CARVAJAL
+    N_PER_GB_OLIVER_CROMWELL["Oliver Cromwell (1599–1658)"]
+    N_ORG_GB_PROTECTORATE_1653["Englisches Protektorat unter Oliver Cromwell (1653–1658)"]
+    N_PER_GB_OLIVER_CROMWELL -->|"Am 16.12.1653 als Lord Protector eingesetzt; keine aus dem Amt allein ableitbare Weisung über einzelne Handelsverträge"| N_ORG_GB_PROTECTORATE_1653
+    N_ORG_GB_PROTECTORATE_1653 -->|"Im Juli 1655 erhielten Carvajal und seine zwei Söhne laut Wolf-Edition im Protektorat einen Denization-Status; keine bewiesene Gegenleistung für die Hinrichtung von 1649"| N_PER_GB_ANTONIO_FERNANDES_CARVAJAL
 ```
 
 [Zur Relationstabelle](network.md)

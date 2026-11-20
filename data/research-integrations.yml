@@ -38,3 +38,70 @@ studies:
       - REL-CH-IGF-006
       - REL-US-IGF-008
       - REL-DE-IGF-014
+
+  cia-opc-kmmanly-qksnitch-gfw-1951-2024.md:
+    sha256: 94bcb35621157afb330fac1a077fd97fe2d1cae66608be7a067b47748b8c88ae
+    status: network
+    relation_ids:
+      - REL-DE-KMM-001
+      - REL-DE-KMM-002
+      - REL-DE-KMM-003
+      - REL-DE-KMM-004
+      - REL-DE-KMM-005
+      - REL-DE-KMM-006
+      - REL-DE-KMM-007
+      - REL-DE-KMM-008
+      - REL-DE-KMM-009
+      - REL-DE-KMM-010
+      - REL-DE-KMM-011
+
+  organisation-gehlen-gruendung-ns-inlandsspionage-1945-1968.md:
+    sha256: c65cfe8d4bb20c53a3b09eca4e0349a0d9cc0b5cfd5cd5bf626dcc83a8a52b5b
+    status: network
+    relation_ids:
+      - REL-DE-GEHLEN-001
+      - REL-DE-GEHLEN-002
+      - REL-DE-GEHLEN-003
+      - REL-DE-GEHLEN-004
+      - REL-DE-GEHLEN-005
+      - REL-DE-GEHLEN-006
+      - REL-DE-GEHLEN-007
+      - REL-DE-GEHLEN-008
+
+  bilderberg-washington-post-finanzierung-medienoffenlegung-2005-2012.md:
+    sha256: ec8938a151493ca99a59c7fea7b78124311dbf43d38c737f93dd945e21e5372c
+    status: network
+    relation_ids:
+      - REL-US-BBF-001
+      - REL-US-BBF-002
+      - REL-US-BBF-003
+      - REL-US-BBF-004
+
+  rockefeller-38-briefe-gier-zuschreibung-1918-2026.md:
+    sha256: b031818546f079f4703787e7c592262d09440b15c64c27d9109c1fbae19e01e8
+    status: no_network_relation
+    reason: "Die Studie prüft ausschließlich die Echtheit einer verbreiteten Briefzuschreibung ohne belegte originale Rockefeller-Urkunde oder konkrete daraus ableitbare Finanzierungs- oder Weisungsbeziehung. Eine fiktive Briefkante wäre irreführend."
+
+  lobbykontakte-exekutiver-fussabdruck-transparenz-2026.md:
+    sha256: 04b9702eb61514c4039a0e19eeee0146e611c1d95e3fa06f5d345cd0cef40080
+    status: no_network_relation
+    reason: "Amtliche Grundlagen zu Dokumentationslücken und gesetzlichen Transparenzverfahren begründen keine neue konkrete Beziehung zwischen benannten Akteuren. Die Studie warnt ausdrücklich davor, nicht erfasste Einzelkontakte als stattgefundene Kanten auszugeben."
+
+  atlantik-bruecke-demokratische-rechenschaft-2026.md:
+    sha256: 7be13687cd57c311969640458b9871d9fc0f86a2a434446ef6414e42cc91efc2
+    status: no_network_relation
+    reason: "Quellenkritischer Rechenschafts- und Aktenzugangstest zur Atlantik-Brücke: die beschriebenen allgemeinen Register-/Kontaktdokumentationslücken sind keine neue quellenbelegte bilaterale Finanzierungs-, Weisungs- oder Personenbeziehung."
+
+  monica-crowley-ukraine-wuhan-covid-ursprung-2023-2026.md:
+    sha256: d77966c6402c1025e9d5dcddcc0191a38ffe2895e6485f6f1dbb69d09fe9a7aa
+    status: network
+    relation_ids:
+      - REL-US-UA-BIOSEC-2022-001
+
+  cromwell-karl-i-geldgeber-quellenpruefung-1290-1656.md:
+    sha256: 06629ae0c4b5b90aa776ae57284494fb42661c1b67ad67b3b81547a7100e005c
+    status: network
+    relation_ids:
+      - REL-GB-CROM-1649-001
+      - REL-GB-CROM-1653-001
+      - REL-GB-CROM-1655-001

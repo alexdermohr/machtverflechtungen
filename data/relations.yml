@@ -1733,3 +1733,38 @@ relations:
     period: {start: "1940"}
     evidence_level: strong
     sources: [SRC-US-NMT-ANORGANA-NI7377]
+
+  - id: REL-US-UA-BIOSEC-2022-001
+    from: ORG-US-DOD
+    to: PRG-UA-BIOSAFETY-COOP
+    type: reported_biosafety_assistance
+    label: "US-Verteidigungsministerium erklärte am 09.06.2022, es habe über zwei Jahrzehnte 46 ukrainische Labor-, Gesundheits- und Diagnostikstellen bei Biosicherheit/Krankheitsüberwachung unterstützt; ukrainischer Betrieb laut US-Angabe, kein SARS-CoV-2-Transferbeleg"
+    evidence_level: strong
+    sources: [SRC-US-DOD-UKRAINE-BIOSAFETY-20220609]
+
+  - id: REL-GB-CROM-1649-001
+    from: ORG-GB-COUNCIL-OF-STATE-1649
+    to: PER-GB-ANTONIO-FERNANDES-CARVAJAL
+    type: army_supply_contract_awarded
+    label: "1649 erhielt Carvajal laut archivnaher Edition als einer von fünf Londoner Kaufleuten einen staatlichen Getreideliefervertrag für die Armee; keine belegte Finanzierung der Hinrichtung Karls I."
+    period: {start: "1649"}
+    evidence_level: strong
+    sources: [SRC-GB-JHSE-WOLF-CARVAJAL]
+
+  - id: REL-GB-CROM-1653-001
+    from: PER-GB-OLIVER-CROMWELL
+    to: ORG-GB-PROTECTORATE-1653
+    type: held_office
+    label: "Am 16.12.1653 als Lord Protector eingesetzt; keine aus dem Amt allein ableitbare Weisung über einzelne Handelsverträge"
+    period: {start: "1653-12-16", end: "1658"}
+    evidence_level: strong
+    sources: [SRC-GB-PARLIAMENT-CROMWELL-PROTECTOR-1653]
+
+  - id: REL-GB-CROM-1655-001
+    from: ORG-GB-PROTECTORATE-1653
+    to: PER-GB-ANTONIO-FERNANDES-CARVAJAL
+    type: historical_denization
+    label: "Im Juli 1655 erhielten Carvajal und seine zwei Söhne laut Wolf-Edition im Protektorat einen Denization-Status; keine bewiesene Gegenleistung für die Hinrichtung von 1649"
+    period: {start: "1655"}
+    evidence_level: strong
+    sources: [SRC-GB-JHSE-WOLF-CARVAJAL]
