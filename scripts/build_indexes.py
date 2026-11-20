@@ -180,6 +180,9 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
         "",
         "_Automatisch aus denselben Fall-Metadaten erzeugt._",
         "",
+        "Die [Beziehungs-Chronologie](relation-timeline.md) zeigt zusätzlich "
+        "sämtliche belegten Zeiträume aus dem Netzwerkregister.",
+        "",
         "| Beginn | Ende | Fall | Länder | Claim-Evidenz |",
         "|---:|---:|---|---|---|",
     ]
@@ -190,6 +193,81 @@ def render_timeline(cases: list[tuple[dict[str, Any], str]]) -> str:
             f"| {start} | {end} | [{esc(meta['title'])}](../{rel}) | "
             f"{', '.join(meta.get('countries', []))} | {esc(claim_summary(meta))} |"
         )
+    return "\n".join(lines) + "\n"
+
+
+
+def render_relation_timeline(
+    cases: list[tuple[dict[str, Any], str]],
+    entities: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+) -> str:
+    """Render every source-bound relation by its documented time span, not inference."""
+    entity_names = {item["id"]: item["name"] for item in entities}
+    case_names = {item["id"]: item["title"] for item, _path in cases}
+
+    def name(node_id: str) -> str:
+        return esc(entity_names.get(node_id, case_names.get(node_id, node_id)))
+
+    def render_row(item: dict[str, Any]) -> str:
+        period = item.get("period") or {}
+        start = period.get("start") or "–"
+        end = period.get("end") or "–"
+        relation_id = item["id"]
+        reference = f"[{relation_id}](network.md#{relation_id.lower()})"
+        source_links = ", ".join(
+            f"[{source}](../quellen/index.md#{source.lower()})"
+            for source in item["sources"]
+        )
+        return (
+            f"| {start} | {end} | {reference} | "
+            f"{name(item['from'])} → {name(item['to'])} | "
+            f"{esc(item.get('label', item['type']))} | "
+            f"{EVIDENCE_LABELS.get(item['evidence_level'], item['evidence_level'])} | "
+            f"{source_links} |"
+        )
+
+    dated = sorted(
+        (r for r in relations if (r.get("period") or {}).get("start")),
+        key=lambda r: (start_sort_key(r["period"]["start"]), r["id"]),
+    )
+    undated = sorted(
+        (r for r in relations if not (r.get("period") or {}).get("start")),
+        key=lambda r: r["id"],
+    )
+    lines = [
+        "# Beziehungs-Chronologie",
+        "",
+        f"**{len(relations)} quellengebundene Beziehungen**: "
+        f"**{len(dated)} datiert**, **{len(undated)} ohne belegten Beginn**. "
+        "Alle Einträge werden automatisch aus dem kanonischen Relationskatalog erzeugt.",
+        "",
+        "Die Anfangs- und Endangaben sind die in der jeweiligen Quelle belegte "
+        "**zeitliche Einordnung der Beziehung**, nicht notwendigerweise die "
+        "Valuta einer Zahlung, die persönliche Teilnahme an einer Sitzung "
+        "oder die Dauer fortgesetzter Kontrolle. Kreditrahmen, "
+        "Zeugenaussagen und Buchungsbelege bleiben unterscheidbar.",
+        "",
+        "[Fallchronologie](timeline.md) · "
+        "[Quellengebundene Relationstabelle](network.md) · "
+        "[Netzwerkdiagramm](network-graph.md)",
+        "",
+        "## Datierte Beziehungen",
+        "",
+    ]
+    header = [
+        "| Beginn | Ende | Relation | Akteure | Dokumentierter Zusammenhang | Evidenz | Quellen |",
+        "|---|---|---|---|---|---|---|",
+    ]
+    if dated:
+        lines += header + [render_row(item) for item in dated]
+    else:
+        lines += ["Keine datierten Beziehungen vorhanden."]
+    lines += ["", "## Ohne gesicherte Anfangsdatierung", ""]
+    if undated:
+        lines += header + [render_row(item) for item in undated]
+    else:
+        lines += ["Alle erfassten Beziehungen haben eine Datierung."]
     return "\n".join(lines) + "\n"
 
 
@@ -584,6 +662,7 @@ def main() -> int:
             cases, {item["id"]: item["label"] for item in mechanisms}
         ),
         DOCS / "generated" / "timeline.md": render_timeline(cases),
+        DOCS / "generated" / "relation-timeline.md": render_relation_timeline(cases, entities, relations),
         DOCS / "generated" / "network.md": render_network(cases, entities, relations),
         DOCS / "generated" / "network-graph.md": render_network_graph(cases, entities, relations),
         DOCS / "generated" / "entities.md": render_entities(entities, relations),

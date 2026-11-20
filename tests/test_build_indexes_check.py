@@ -133,6 +133,49 @@ class GeneratedIndexCheckTests(unittest.TestCase):
         self.assertIn("| DE | 1 belegt · 1 stark gestützt |", timeline_rendered)
         self.assertNotIn("| established |", timeline_rendered)
 
+    def test_relation_chronology_is_date_sorted_and_source_bound(self) -> None:
+        entities = [
+            {"id": "ORG-A", "name": "Akteur A"},
+            {"id": "ORG-B", "name": "Akteur B"},
+        ]
+        dated = {
+            "id": "REL-1939", "from": "ORG-A", "to": "ORG-B",
+            "type": "payment", "label": "Nur dokumentierte Umbuchung",
+            "evidence_level": "strong", "sources": ["SRC-1939"],
+            "period": {"start": "1939-03-18", "end": "1945"},
+        }
+        undated = {
+            "id": "REL-NODATE", "from": "ORG-B", "to": "ORG-A",
+            "type": "membership", "label": "Amtsjahre nicht gesichert",
+            "evidence_level": "plausible", "sources": ["SRC-NODATE"],
+        }
+        rendered = build_indexes.render_relation_timeline(
+            [], entities, [undated, dated],
+        )
+        self.assertIn("**2 quellengebundene Beziehungen**", rendered)
+        self.assertIn("**1 datiert**, **1 ohne belegten Beginn**", rendered)
+        self.assertIn("| 1939-03-18 | 1945 |", rendered)
+        self.assertIn("[REL-1939](network.md#rel-1939)", rendered)
+        self.assertIn("[SRC-1939](../quellen/index.md#src-1939)", rendered)
+        self.assertIn("stark gestützt", rendered)
+        self.assertIn("| – | – | [REL-NODATE]", rendered)
+        self.assertIn("plausibel", rendered)
+        self.assertLess(rendered.index("REL-1939"), rendered.index("REL-NODATE"))
+        self.assertNotIn("1940 | 1945 | [REL-NODATE]", rendered)
+
+    def test_all_real_relations_are_visible_in_relation_chronology(self) -> None:
+        relations = build_indexes.load_yaml(
+            build_indexes.DATA / "relations.yml"
+        )["relations"]
+        rendered = (
+            build_indexes.DOCS / "generated" / "relation-timeline.md"
+        ).read_text(encoding="utf-8")
+        for relation in relations:
+            self.assertIn(
+                f"[{relation['id']}](network.md#{relation['id'].lower()})",
+                rendered,
+            )
+
     def test_hypothesis_empty_state_is_model_version_neutral(self) -> None:
         rendered = build_indexes.render_hypotheses([])
 
