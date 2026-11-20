@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**288 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**296 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -555,6 +555,21 @@ flowchart LR
     N_ORG_IT_PROCURA_GENERALE_BOLOGNA_2024 -->|"Amtlicher Bericht der Generalstaatsanwaltschaft 2024 bezeichnet Federico Umberto D'Amato im Bellini-Prozess als mutmaßlichen Empfänger einer 850.000-USD-Position des documento Bologna; individuelle Kontogutschrift und Verfügungsberechtigung an Originalbanken hier nicht nachgewiesen; keine persönliche neue Verurteilung"| N_PER_IT_FEDERICO_UMBERTO_DAMATO
     N_PER_IT_ROBERTO_CALVI -->|"Bellini-Gerichtsurteil diskutiert und verweist auf Mailänder Bankrotturteil 1992: Calvi soll rund 20 Mio. USD in Erwartung unzulässigen Einflusses auf seine Gerichtsverfahren Gelli zur Verfügung gestellt haben; Alternative zur gewöhnlichen Anwaltsgebühr und keine durch diesen Absatz nachgewiesene identische Finanzierung des Bologna-Anschlags"| N_PER_IT_LICIO_GELLI
     N_PER_IT_LICIO_GELLI -->|"Bellini-Erstinstanzurteil Druck-S. 751 deutet die im Dokument MC vermerkte Position über 1 Mio. USD Bargeld für Marco Ceruti auf 20.–30.07.1980 als auffälligen VOR-Anschlags-Vorgang; Original-Kassenbeleg und tatsächlicher Bombenfinanzierungszweck bleiben ungeklärt"| N_PER_IT_MARCO_CERUTI_1980
+    N_ORG_DE_BUNDESREGIERUNG_1975["Bundesregierung der Bundesrepublik Deutschland (1975)"]
+    N_PRG_US_MCCLOY_FUND_1975["John J. McCloy Fund for German-American Exchanges (1975)"]
+    N_ORG_DE_BUNDESREGIERUNG_1975 -->|"Bundesregierung der Bundesrepublik stellte nach Scheels öffentlicher Erklärung im Weißen Haus vom 16.06.1975 einen Kapitalstock von 1.000.000 USD für den John-J.-McCloy-Austauschfonds bereit; ACG bestätigte 2025 die Zuwendung. Kein selbst eingesehener individueller Zahlungs- oder Verwendungs-Kontoauszug"| N_PRG_US_MCCLOY_FUND_1975
+    N_PRG_US_MCCLOY_FUND_1975 -->|"Das 1-Mio.-USD-Fondsvorhaben wurde am 16.06.1975 ausdrücklich unter dem Dach des American Council on Germany (ACG) angesiedelt; die Organisation beschreibt 2025 dessen institutionelle Annahme. Einzelne Publikationsausgaben nicht dadurch bewiesen"| N_ORG_US_ACG_2012
+    N_PER_US_JOHN_J_MCCLOY["John J. McCloy (1895–1989)"]
+    N_PER_US_JOHN_J_MCCLOY -->|"Präsident Gerald Fords Daily Diary für 16.06.1975 nennt John J. McCloy ausdrücklich Chairman of the Board des American Council on Germany; Vorstandsfunktion allein belegt keine individuelle Weisung an publizierende Journalisten"| N_ORG_US_ACG_2012
+    N_PER_DE_WALTER_SCHEEL["Walter Scheel (1919–2016)"]
+    N_PER_DE_WALTER_SCHEEL -->|"Bundespräsident Walter Scheel stellte den John-J.-McCloy-Fonds am 16.06.1975 im Weißen Haus öffentlich vor, benannte 1 Mio. USD staatliches Fondsvermögen und die Zwecke Nachwuchsaustausch, Konferenzen und Publikationen; Scheel war nicht Privatspender"| N_PRG_US_MCCLOY_FUND_1975
+    N_PER_US_GERALD_FORD["Gerald R. Ford (1913–2006)"]
+    N_PER_US_GERALD_FORD -->|"US-Präsident Gerald Ford war laut seinem Tageskalender am 16.06.1975 von 13:01 bis 13:20 Uhr Gastgeber der Rose-Garden-Zeremonie für den von der Bundesrepublik bereitgestellten Fonds; die Gastgeberrolle beweist keine Auswahl einzelner Austauschstipendien"| N_PRG_US_MCCLOY_FUND_1975
+    N_ORG_US_ACG_2012 -->|"ACG-Geschichte und Zetsches Archivstudie dokumentieren den gemeinsamen Start der American-German Young Leaders Conference 1973 durch ACG und Atlantik-Brücke in Hamburg; dies war zwei Jahre VOR der McCloy-Bundesdotierung 1975"| N_PRG_DE_ATLANTIK_BRUECKE_YOUNG_LEADERS
+    N_ORG_US_FORD_FOUNDATION_1973["Ford Foundation (historische Förderakten 1973)"]
+    N_ORG_US_FORD_FOUNDATION_1973 -->|"Zetsche (2016), S. 172 FN 157, weist unter Rockefeller Archive Center Ford Foundation Grant Files 1239, ACG & 7300512 eine TEILförderung der ersten ACG/Atlantik-Brücke-Young-Leaders-Konferenz vom 27.–30.06.1973 nach; Original Grant Action Form und Fördersumme hier nicht selbst eingesehen"| N_PRG_DE_ATLANTIK_BRUECKE_YOUNG_LEADERS
+    N_PRG_US_ACG_MCCLOY_FELLOWSHIPS_1976["ACG McCloy Fellowships (Beginn 1976)"]
+    N_ORG_US_ACG_2012 -->|"ACG-Jahresbericht 2017 datiert Beginn der McCloy Fellowships auf 1976; geförderte Austauschberufe einschließlich Journalismus, Recht, Gewerkschaften und Kommunalverwaltung. Direkter Geldtransfer aus dem 1975er Fonds in ein einzelnes Stipendium nicht vorgelegt"| N_PRG_US_ACG_MCCLOY_FELLOWSHIPS_1976
 ```
 
 [Zur Relationstabelle](network.md)

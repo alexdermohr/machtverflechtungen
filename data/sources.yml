@@ -3026,3 +3026,74 @@ sources:
   accessed: "2026-11-20"
   locator: "Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Archivfund und Bankzuflüssen nach 22.08.1980: 20 Mio. USD Banco Ambrosiano Andino → UBS Genf, 15 Mio. Teilbetrag, daraus 9,6/3,5/1,9 Mio. USD"
   notes: "Wiedergabe originaler gerichtlicher Erwägungen über journalistische Auszugsedition, nicht eigenständig vollständiges amtliches Gerichtsfaksimile oder originale Bankkontoauszüge; Vorsatz einer ursprünglichen Beweismittelunterdrückung aus Kopierfehler 1987 nicht bewiesen."
+- id: SRC-US-FORD-WHITEHOUSE-MCCLOY-FUND-19750616
+  title: "The White House – Exchange of Remarks, Walter Scheel, Gerald R. Ford and John J. McCloy, 16.06.1975"
+  institution: "Gerald R. Ford Presidential Library, White House Press Releases Box 12"
+  date: "1975-06-16"
+  type: original_white_house_press_transcript
+  primary: true
+  tier: A
+  url: https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0248/whpr19750616-018.pdf
+  accessed: "2026-11-20"
+  locator: "Scanseiten 3–4 (zero-index 2–3): Scheel kündigt einen mit einem Kapitalstock von 1 Mio. USD ausgestatteten Fonds beim American Council on Germany an; genannte Verwendungsziele Austausch junger Politiker, Gewerkschafts-/Jugendvertreter, Konferenzen und wichtige Publikationen; S. 4 über Massenmedien und gegenseitige Meinungsbilder"
+  notes: "Unmittelbare Primärquelle der öffentlich abgegebenen Regierungsankündigung 1975, nicht unabhängiger Kontoauszug einer Ein- oder Auszahlung und kein Beleg nachfolgender redaktioneller Weisungen. PDF-Seiten 3 und 4 frisch im Faksimile geprüft."
+
+- id: SRC-US-FORD-PRESIDENTIAL-DIARY-19750616
+  title: "President Gerald R. Ford – Daily Diary, 16 June 1975, Rose Garden McCloy Fund announcement"
+  institution: "Gerald R. Ford Presidential Library, Daily Diary Collection Box 75"
+  date: "1975-06-16"
+  type: original_presidential_daily_diary
+  primary: true
+  tier: A
+  url: https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0036/pdd750616.pdf
+  accessed: "2026-11-20"
+  locator: "PDF-Seite 2: Zeremonie 13:01–13:20 Uhr, Schenkungsankündigung 1 Mio. USD und John J. McCloy als ACG-Chairman; Appendix B PDF-Seiten 9–10: Anwesenheitsliste mit Scheel, Kissinger, Genscher, McCloy und weiteren Personen"
+  notes: "Amtliches zeitgenössisches Ereignisjournal und verifizierte Namensliste, im Originalbild Seiten 2 und 9 frisch gelesen; kein Zahlungsjournal oder Beweis der persönlichen Einflussnahme sämtlicher Anwesender."
+
+- id: SRC-US-ACG-HISTORY-YOUNG-LEADERS-1973
+  title: "American Council on Germany – History and the 1973 Young Leaders Conference"
+  institution: "American Council on Germany"
+  date: null
+  type: institutional_retrospective_history
+  primary: false
+  tier: B
+  url: https://www.acgusa.org/about-us/history/
+  accessed: "2026-11-20"
+  locator: "History: ACG 1952 in New York gegründet, John J. McCloy Gründungschair und bis 1987; Young Leaders Conference 1973 als gemeinsames Programm mit Atlantik-Brücke entwickelt und begonnen"
+  notes: "Selbstbericht des ACG in späterer Zeit; bestätigt Programmentwicklung, nicht das originale Juni-1973-Teilnehmerblatt und keine persönliche redaktionelle Einflussnahme."
+
+- id: SRC-US-ACG-ANNUAL-2017-MCCLOY-1976
+  title: "American Council on Germany – Annual Report 2017, Then & Now: McCloy Fellowships began 1976"
+  institution: "American Council on Germany"
+  date: "2017"
+  type: historical_fellowship_organizational_report
+  primary: false
+  tier: B
+  url: https://www.acgusa.org/wp-content/uploads/2018/07/ACG-AnnualReport2017-Final-Revision.pdf
+  accessed: "2026-11-20"
+  locator: "Gedruckte S. 14, PDF-Seite 16/Index 15: McCloy Fellowships begannen 1976 und betrafen u.a. Journalistinnen, Rechts- und Gewerkschaftsberufe; gedruckte S. 15, PDF-Seite 17 zur Zielgruppe Young Leaders"
+  notes: "Rückblickende organisatorische Quelle 2017 über Beginn des Programms, nicht einzelne signierte 1976er Stipendien-/Bankabrechnungen. Original-PDF-Bildseite 16 wurde geprüft."
+
+- id: SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973
+  title: "Anne Zetsche, The Quest for Atlanticism, Dissertation, archival references to Ford Foundation/ACG grant 1973"
+  institution: "Northumbria University, historisch-kritische Dissertation"
+  date: "2016"
+  type: archival_academic_thesis
+  primary: false
+  tier: B
+  url: https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf
+  accessed: "2026-11-20"
+  locator: "Druckseite 172 / PDF-Bildseite 175/Index 174: 1973 erster ACG/Atlantik-Brücke Young Leaders-Kongress Juni Hamburg, teilweise durch Ford Foundation gefördert; FN 157 mit Rockefeller Archive Center, Ford Foundation Grant Files (1239), ACG & 7300512, Program Action Form vom 27.–30.06.1973"
+  notes: "Archivreferenz mit eindeutiger Signatur in wissenschaftlicher Sekundärquelle. Die Original-Ford-Foundation-Förderakte wurde hier nicht separat eingesehen; keine grant-spezifische Zahlungshöhe oder direkte politische Weisung daraus behaupten. PDF-Seite 175 frisch visuell kontrolliert."
+
+- id: SRC-US-ACG-MCCLOY-50TH-20250616
+  title: "American Council on Germany – 50th Anniversary of the John J. McCloy Fund"
+  institution: "American Council on Germany"
+  date: "2025-06-16"
+  type: institutional_recollection_of_historical_grant
+  primary: false
+  tier: B
+  url: https://www.acgusa.org/50th-anniversary-of-the-john-j-mccloy-fund/
+  accessed: "2026-11-20"
+  locator: "Einleitung: ACG bestätigt retrospektiv Zuwendung von 1 Mio. USD der Bundesregierung und Scheel-Ford-Scheckzeremonie 16.06.1975; Stiftung ermöglichte laut ACG spätere Programmarbeit"
+  notes: "Empfängereigene retrospektive Bestätigung; keine eigenständige Originalkontoauszugsserie, keine Abrechnung jedes Stipendiums aus dem McCloy-Fonds."

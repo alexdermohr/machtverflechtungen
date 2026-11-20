@@ -925,5 +925,70 @@ class ResearchIntegrationTests(unittest.TestCase):
         )
 
 
+    def test_mccloy_1975_federal_fund_is_not_1973_ford_grant(self):
+        root = coverage.ROOT
+        study = "acg-mccloy-fund-ford-archiv-1973-1975.md"
+        decision = coverage.read_registry(root)[study]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+        )
+        self.assertEqual(len(decision["relation_ids"]), 8)
+        relations = {
+            r["id"]: r for r in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            s["id"]: s for s in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        for id_ in decision["relation_ids"]:
+            with self.subTest(relation=id_):
+                row = relations[id_]
+                self.assertIn(row["label"], graph)
+                self.assertIn(f'id="{id_.lower()}"', network)
+                self.assertIn(f"[{id_}](network.md#{id_.lower()})", chrono)
+                for source_id in row["sources"]:
+                    self.assertIn(f'id="{source_id.lower()}"', source_index)
+                    self.assertIn(source_id, sources)
+        for name in (
+            "PRG-US-MCCLOY-FUND-1975", "ORG-DE-BUNDESREGIERUNG-1975",
+            "PER-US-JOHN-J-MCCLOY", "PER-DE-WALTER-SCHEEL",
+            "PER-US-GERALD-FORD", "ORG-US-FORD-FOUNDATION-1973",
+            "PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976",
+        ):
+            self.assertIn(name, actors)
+        federal = relations["REL-US-ACG-MCCLOY-FUND-GOV-1975-001"]
+        self.assertEqual(federal["period"]["start"], "1975-06-16")
+        self.assertEqual(federal["evidence_level"], "established")
+        self.assertIn("1.000.000 USD", federal["label"])
+        self.assertIn("kein selbst eingesehener", federal["label"].lower())
+        self.assertIn("SRC-US-FORD-PRESIDENTIAL-DIARY-19750616",
+                      federal["sources"])
+        self.assertEqual(
+            sources["SRC-US-FORD-PRESIDENTIAL-DIARY-19750616"]["tier"], "A"
+        )
+        ford = relations["REL-US-FORDFOUNDATION-YOUNGLEADERS-1973-001"]
+        self.assertEqual(ford["period"]["start"], "1973-06-27")
+        self.assertEqual(ford["evidence_level"], "strong")
+        self.assertEqual(
+            ford["sources"], ["SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973"]
+        )
+        self.assertEqual(
+            sources["SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973"]["tier"], "B"
+        )
+        fellowships = relations["REL-US-ACG-MCCLOY-FELLOWSHIPS-1976-001"]
+        self.assertEqual(fellowships["period"]["start"], "1976")
+        self.assertIn("nicht vorgelegt", fellowships["label"])
+
+
 if __name__ == "__main__":
     unittest.main()

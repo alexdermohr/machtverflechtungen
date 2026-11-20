@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**262 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**268 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2015,6 +2015,36 @@ Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (B
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-ford-presidential-diary-19750616"></a>
+### Gerald R. Ford Presidential Library, Daily Diary Collection Box 75
+
+**[President Gerald R. Ford – Daily Diary, 16 June 1975, Rose Garden McCloy Fund announcement](https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0036/pdd750616.pdf)**
+
+Gerald R. Ford Presidential Library, Daily Diary Collection Box 75 · 1975-06-16 · Stufe **A** · Primärquelle · `SRC-US-FORD-PRESIDENTIAL-DIARY-19750616`
+
+[PDF öffnen](https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0036/pdd750616.pdf)
+
+Fundstelle: PDF-Seite 2: Zeremonie 13:01–13:20 Uhr, Schenkungsankündigung 1 Mio. USD und John J. McCloy als ACG-Chairman; Appendix B PDF-Seiten 9–10: Anwesenheitsliste mit Scheel, Kissinger, Genscher, McCloy und weiteren Personen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-ford-whitehouse-mccloy-fund-19750616"></a>
+### Gerald R. Ford Presidential Library, White House Press Releases Box 12
+
+**[The White House – Exchange of Remarks, Walter Scheel, Gerald R. Ford and John J. McCloy, 16.06.1975](https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0248/whpr19750616-018.pdf)**
+
+Gerald R. Ford Presidential Library, White House Press Releases Box 12 · 1975-06-16 · Stufe **A** · Primärquelle · `SRC-US-FORD-WHITEHOUSE-MCCLOY-FUND-19750616`
+
+[PDF öffnen](https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0248/whpr19750616-018.pdf)
+
+Fundstelle: Scanseiten 3–4 (zero-index 2–3): Scheel kündigt einen mit einem Kapitalstock von 1 Mio. USD ausgestatteten Fonds beim American Council on Germany an; genannte Verwendungsziele Austausch junger Politiker, Gewerkschafts-/Jugendvertreter, Konferenzen und wichtige Publikationen; S. 4 über Massenmedien und gegenseitige Meinungsbilder
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
 
 <a id="src-us-gmf-irs-990-schedule-i-2012"></a>
@@ -3168,7 +3198,52 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-us-acg-history-young-leaders-1973"></a>
+### American Council on Germany
+
+**[American Council on Germany – History and the 1973 Young Leaders Conference](https://www.acgusa.org/about-us/history/)**
+
+American Council on Germany · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-ACG-HISTORY-YOUNG-LEADERS-1973`
+
+[Seite öffnen](https://www.acgusa.org/about-us/history/)
+
+Fundstelle: History: ACG 1952 in New York gegründet, John J. McCloy Gründungschair und bis 1987; Young Leaders Conference 1973 als gemeinsames Programm mit Atlantik-Brücke entwickelt und begonnen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
+
+<a id="src-us-acg-annual-2017-mccloy-1976"></a>
+### American Council on Germany
+
+**[American Council on Germany – Annual Report 2017, Then & Now: McCloy Fellowships began 1976](https://www.acgusa.org/wp-content/uploads/2018/07/ACG-AnnualReport2017-Final-Revision.pdf)**
+
+American Council on Germany · 2017 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-ACG-ANNUAL-2017-MCCLOY-1976`
+
+[PDF öffnen](https://www.acgusa.org/wp-content/uploads/2018/07/ACG-AnnualReport2017-Final-Revision.pdf)
+
+Fundstelle: Gedruckte S. 14, PDF-Seite 16/Index 15: McCloy Fellowships begannen 1976 und betrafen u.a. Journalistinnen, Rechts- und Gewerkschaftsberufe; gedruckte S. 15, PDF-Seite 17 zur Zielgruppe Young Leaders
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-us-acg-mccloy-50th-20250616"></a>
+### American Council on Germany
+
+**[American Council on Germany – 50th Anniversary of the John J. McCloy Fund](https://www.acgusa.org/50th-anniversary-of-the-john-j-mccloy-fund/)**
+
+American Council on Germany · 2025-06-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-ACG-MCCLOY-50TH-20250616`
+
+[Seite öffnen](https://www.acgusa.org/50th-anniversary-of-the-john-j-mccloy-fund/)
+
+Fundstelle: Einleitung: ACG bestätigt retrospektiv Zuwendung von 1 Mio. USD der Bundesregierung und Scheel-Ford-Scheckzeremonie 16.06.1975; Stiftung ermöglichte laut ACG spätere Programmarbeit
+
+</article>
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3720,6 +3795,21 @@ Neue Deutsche Biographie / Deutsche Biographie · unbekannt · Stufe **B** · Se
 [Seite öffnen](https://www.deutsche-biographie.de/gnd118609319.html)
 
 Fundstelle: Werner Abelshauser, biografische Funktionen und I.G.-Farben-Vorsitz; widersprüchliche NSDAP-Mitgliedschaft gegen BASF offen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-gb-zetsche-phd-acg-young-ford-1973"></a>
+### Northumbria University, historisch-kritische Dissertation
+
+**[Anne Zetsche, The Quest for Atlanticism, Dissertation, archival references to Ford Foundation/ACG grant 1973](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf)**
+
+Northumbria University, historisch-kritische Dissertation · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973`
+
+[PDF öffnen](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf)
+
+Fundstelle: Druckseite 172 / PDF-Bildseite 175/Index 174: 1973 erster ACG/Atlantik-Brücke Young Leaders-Kongress Juni Hamburg, teilweise durch Ford Foundation gefördert; FN 157 mit Rockefeller Archive Center, Ford Foundation Grant Files (1239), ACG & 7300512, Program Action Form vom 27.–30.06.1973
 
 </article>
 
