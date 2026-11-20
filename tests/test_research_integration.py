@@ -226,5 +226,62 @@ class ResearchIntegrationTests(unittest.TestCase):
                 )
 
 
+    def test_p2_bank_studies_link_existing_evidenced_network(self):
+        root = coverage.ROOT
+        registry = coverage.read_registry(root)
+        selected = {
+            "p2-bafisud-bankrang-nmb-bcu-1980-1985.md": [
+                "REL-UY-BAFISUD-NMB-1983-001",
+                "REL-UY-BAFISUD-BCU-1984-001",
+            ],
+            "p2-bafisud-cisalpine-credito-varesino-1978-1983.md": [
+                "REL-BS-UY-BAFISUD-1978-001",
+                "REL-IT-PA-VARESINO-1978-001",
+                "REL-PA-CH-VARESINO-1981-001",
+                "REL-IT-UY-INTERBANK-DEPOSITS-1980-001",
+            ],
+            "p2-interalpha-ambrosiano-nmb-bafisud-bcu-1972-1984.md": [
+                "REL-INT-INTERALPHA-1979-001",
+                "REL-INT-INTERALPHA-1979-002",
+                "REL-INT-INTERALPHA-1979-003",
+                "REL-UY-BAFISUD-BCU-1984-001",
+            ],
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        relations = {
+            relation["id"]: relation
+            for relation in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        for name, expected_ids in selected.items():
+            with self.subTest(study=name):
+                decision = registry[name]
+                self.assertEqual(decision["status"], "network")
+                self.assertEqual(
+                    decision["sha256"],
+                    hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+                )
+                self.assertTrue(set(expected_ids) <= set(decision["relation_ids"]))
+                for relation_id in expected_ids:
+                    relation = relations[relation_id]
+                    self.assertIn(relation["label"], graph)
+                    self.assertIn(f'id="{relation_id.lower()}"', table)
+                    for source_id in relation["sources"]:
+                        self.assertIn(f'id="{source_id.lower()}"', source_index)
+        # These direct, bounded relations are not a proof of majority control
+        # or of a transfer from BAFISUD to political or violent beneficiaries.
+        self.assertIn(
+            "5,5 Prozent",
+            relations["REL-BS-UY-BAFISUD-1978-001"]["label"],
+        )
+        self.assertIn(
+            "Beträge nicht als identisch bewiesen",
+            relations["REL-UY-BAFISUD-BCU-1984-001"]["label"],
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
