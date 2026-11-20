@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**190 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**191 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen. Jede Zeile ist über ihre Kennung direkt verlinkbar.
 
@@ -74,6 +74,7 @@
 | <a id="rel-gb-crom-1655-001"></a>`REL-GB-CROM-1655-001` | Englisches Protektorat unter Oliver Cromwell (1653–1658) | Im Juli 1655 erhielten Carvajal und seine zwei Söhne laut Wolf-Edition im Protektorat einen Denization-Status; keine bewiesene Gegenleistung für die Hinrichtung von 1649 | António Fernandes Carvajal (gest. 1659) | stark gestützt | [SRC-GB-JHSE-WOLF-CARVAJAL](../quellen/index.md#src-gb-jhse-wolf-carvajal) |
 | <a id="rel-int-bcci-005"></a>`REL-INT-BCCI-005` | Federal Reserve System (US-Bankaufsicht) | 29.07.1991 formelle Aufsichtsverfahren wegen verheimlichter CCAH-Beteiligungen angekündigt; angestrebte 200 Mio. USD Geldbuße nicht mit Zahlung gleichsetzen | BCCI-Gruppe (Bank of Credit and Commerce International) | belegt | [SRC-US-FED-BCCI-19910729](../quellen/index.md#src-us-fed-bcci-19910729) |
 | <a id="rel-de-tmn-035"></a>`REL-DE-TMN-035` | Friede Springer | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | Atlantik-Brücke e.V. | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
+| <a id="rel-us-abfriends-merz-2021"></a>`REL-US-ABFRIENDS-MERZ-2021` | Friedrich Merz | IRS-abgeleitete 2021er US-990-EZ-Auswertung nennt Friedrich Merz als Director des rechtlich eigenständigen US-Friends-Vereins; Originalzeile hier nicht bildgeprüft, laut 2022er Erfassung bis Mai 2022; keine heutige Funktion belegt | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | plausibel | [SRC-US-IRS-FRIENDS-ATLANTIK-2021-EXTRACT](../quellen/index.md#src-us-irs-friends-atlantik-2021-extract) |
 | <a id="rel-de-tmn-010"></a>`REL-DE-TMN-010` | Gabor Steingart | moderierte Gespräch zur US-Präsidentschaftswahl | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
 | <a id="rel-de-tmn-011"></a>`REL-DE-TMN-011` | Gabor Steingart | Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt | Handelsblatt | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
 | <a id="rel-de-bdj-014"></a>`REL-DE-BDJ-014` | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | Laut bayerischem Ministerratsprotokoll beantragte die Generalstaatsanwaltschaft Frankfurt eine Voruntersuchung | Technischer Dienst des Bundes Deutscher Jugend | belegt | [SRC-DE-BYMR-TD-19530120](../quellen/index.md#src-de-bymr-td-19530120) |

@@ -1019,3 +1019,15 @@ entities:
     name: "Englisches Protektorat unter Oliver Cromwell (1653–1658)"
     countries: [GB]
     notes: "Lord-Protector-Regierung 1653–1658, unter der António Fernandes Carvajal und seine Söhne 1655 einen Denization-Status erhielten."
+
+  - id: ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611
+    type: charitable_support_organization
+    name: "Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611)"
+    countries: [US]
+    notes: "Eigenständige US-501(c)(3)-Körperschaft mit IRS-Form-990-EZ-Berichten; nicht rechtlich identisch mit Atlantik-Brücke e.V. in Deutschland. Ähnlicher Name beweist keinen konkreten Mitteltransfer."
+
+  - id: PER-DE-FRIEDRICH-MERZ
+    type: person
+    name: "Friedrich Merz"
+    countries: [DE]
+    notes: "Historisch 2021 und laut 2022er IRS-Auswertung bis Mai 2022 als Director des separaten US-Friends-Vereins aufgeführt. Kein Nachweis eines heutigen Vorstandsmandats aus dieser historischen Erfassung."
