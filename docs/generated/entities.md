@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**170 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**182 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -9,6 +9,7 @@
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE | [2](network.md#rel-de-lang-002) |
+| August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
@@ -27,6 +28,7 @@
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
 | Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE | [1](network.md#rel-de-gehlen-006) |
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE | [2](network.md#rel-de-da-003) |
+| Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [4](network.md#rel-de-igf-001) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
@@ -81,6 +83,7 @@
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
+| Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE | [1](network.md#rel-de-tmn-006) |
@@ -92,6 +95,7 @@
 | Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT | [3](network.md#rel-int-interalpha-1979-001) |
 | Banco Central del Uruguay (BCU) | central_bank | `ORG-UY-BANCO-CENTRAL-URUGUAY` | UY | [1](network.md#rel-uy-bafisud-bcu-1984-001) |
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
+| Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [1](network.md#rel-int-igf-010) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
@@ -116,6 +120,7 @@
 | Credito Varesino S.p.A. (Varese) | commercial_bank | `ORG-IT-CREDITO-VARESINO-SPA` | IT | [3](network.md#rel-pa-it-varesino-1978-001) |
 | Crédit Commercial de France (Suisse) S.A. (Genf) | commercial_bank | `ORG-CH-CREDIT-COMMERCIAL-DE-FRANCE-SUISSE-SA` | CH | [3](network.md#rel-it-ccf-1981-001) |
 | Crédit Commercial de France S.A. (Paris) | commercial_bank | `ORG-FR-CREDIT-COMMERCIAL-DE-FRANCE-SA` | FR | [2](network.md#rel-int-interalpha-1979-003) |
+| Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
@@ -123,18 +128,23 @@
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
+| Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [1](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [1](network.md#rel-de-tmn-018) |
+| General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
+| I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [5](network.md#rel-de-igf-001) |
+| IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
+| Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [2](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [1](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
@@ -153,7 +163,9 @@
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
+| Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [1](network.md#rel-de-tmn-016) |

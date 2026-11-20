@@ -12,3 +12,29 @@ studies:
       - REL-INT-BCCI-004
       - REL-INT-BCCI-005
       - REL-INT-BCCI-006
+
+  hermann-schmitz-ig-farben-finanz-ruestungsnetzwerk-1881-1960.md:
+    sha256: ca871f00f0722f9586082da2048ef91dfcf6d998253975ec359f7aabc8c889b2
+    status: network
+    relation_ids:
+      - REL-DE-IGF-001
+      - REL-DE-IGF-003
+      - REL-DE-IGF-004
+      - REL-CH-IGF-006
+      - REL-CH-IGF-007
+      - REL-US-IGF-008
+      - REL-CH-IGF-009
+      - REL-INT-IGF-010
+      - REL-DE-IGF-011
+      - REL-DE-IGF-012
+      - REL-DE-IGF-013
+  ig-farben-august-von-knieriem-1929-1957.md:
+    sha256: 921e028c129372746efac897ebd4d5ce28d92c2dde32e1ceef3a94a266f956f4
+    status: network
+    relation_ids:
+      - REL-DE-IGF-002
+      - REL-DE-IGF-003
+      - REL-DE-IGF-005
+      - REL-CH-IGF-006
+      - REL-US-IGF-008
+      - REL-DE-IGF-014

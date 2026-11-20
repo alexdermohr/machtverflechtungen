@@ -128,5 +128,39 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("ORG-AN-CCAH", people)
 
 
+    def test_ig_farben_studies_have_source_bound_graph_coverage(self):
+        root = coverage.ROOT
+        entries = coverage.read_registry(root)
+        studies = [
+            "hermann-schmitz-ig-farben-finanz-ruestungsnetzwerk-1881-1960.md",
+            "ig-farben-august-von-knieriem-1929-1957.md",
+        ]
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        sources = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        rels = yaml.safe_load((root / "data/relations.yml").read_text(encoding="utf-8"))["relations"]
+        known = {relation["id"]: relation for relation in rels}
+        distinct = set()
+        for study in studies:
+            decision = entries[study]
+            self.assertEqual(decision["status"], "network")
+            self.assertEqual(
+                decision["sha256"],
+                hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+            )
+            for relation_id in decision["relation_ids"]:
+                distinct.add(relation_id)
+                relation = known[relation_id]
+                self.assertIn(f'id="{relation_id.lower()}"', table)
+                self.assertIn(relation["label"], graph)
+                for source_id in relation["sources"]:
+                    self.assertIn(f'id="{source_id.lower()}"', sources)
+        self.assertEqual(len(distinct), 14)
+        self.assertIn("PER-DE-HERMANN-SCHMITZ", actors)
+        self.assertIn("PER-DE-AUGUST-VON-KNIERIEM", actors)
+        self.assertIn("ORG-INT-BIS", actors)
+
+
 if __name__ == "__main__":
     unittest.main()

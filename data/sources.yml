@@ -2568,3 +2568,74 @@ sources:
   accessed: "2026-11-19"
   locator: "United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B"
   notes: "Ankündigung des Vergleichs und der geplanten Einziehung, nicht allein Nachweis gerichtlichen Vollzugs."
+- id: SRC-DE-NDB-HERMANN-SCHMITZ
+  title: "Hermann Schmitz (1881–1960), Neue Deutsche Biographie"
+  institution: "Neue Deutsche Biographie / Deutsche Biographie"
+  date: null
+  type: scholarly_biography
+  primary: false
+  tier: B
+  url: https://www.deutsche-biographie.de/gnd118609319.html
+  accessed: "2026-11-20"
+  locator: "Werner Abelshauser, biografische Funktionen und I.G.-Farben-Vorsitz; widersprüchliche NSDAP-Mitgliedschaft gegen BASF offen"
+  notes: "Wissenschaftliche biografische Rekonstruktion, nicht eigenständiger Originalbeleg für jede Führungsentscheidung."
+
+- id: SRC-US-NMT-IGFARBEN-STANDARD-19471017
+  title: "I.G. Farben Trial, prosecution exhibits NI-10550 and NI-10430"
+  institution: "Harvard Law School Library, Nuremberg Trials Project (NMT VI)"
+  date: "1947-10-17"
+  type: war_crimes_trial_transcript
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=2354
+  accessed: "2026-11-20"
+  locator: "HLSL Sequenz 2359–2360, Pros. Ex. 942 (NI-10550) und 943 (NI-10430), beide am 09.11.1929; im Anklagevortrag als von Schmitz und von Knieriem unterzeichnet bezeichnet"
+  notes: "Gerichtsprotokoll belegt die Vorlage und den Inhalt des Anklagevortrags; die dort nicht vollständig wiedergegebenen Anlagen sind kein abschließender Transaktionsnachweis."
+
+- id: SRC-CH-UEK-INTERHANDEL-KOENIG
+  title: "Interhandel: die Schweizer Holding der IG Farben und ihre Metamorphosen (Zusammenfassung Band 2)"
+  institution: "Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg (Mario König)"
+  date: null
+  type: commissioned_historical_inquiry
+  primary: false
+  tier: B
+  url: https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/02interhandel.htm
+  accessed: "2026-11-20"
+  locator: "Gründung 1928/29, Schmitz/Greutert, Aufhebung des Bindungsvertrags Mai 1940, SBG-Kontrolle ab 1961 und Archivstreit"
+  notes: "Unabhängige archivalische Nachuntersuchung; stellt keine fortgesetzte juristische IG-Kontrolle über Interhandel nach Mai 1940 fest."
+
+- id: SRC-US-NARA-BIS-WARTIME-FOOTNOTE
+  title: "National Archives Holocaust-Era Assets Finding Aid, Military Agency Records, Note 2"
+  institution: "U.S. National Archives and Records Administration"
+  date: null
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.archives.gov/research/holocaust/finding-aid/military/part-1-notes.html
+  accessed: "2026-11-20"
+  locator: "Anmerkung 2: historisches BIZ-Verwaltungsratsumfeld Schmitz, von Schröder, Funk, Puhl"
+  notes: "Amtliches Findmittel ohne vollständige Amtsjahre und Sitzungsprotokolle; einzelne damalige Rollen sind kein gemeinsamer Beschlussbeleg."
+
+- id: SRC-US-NMT-IGFARBEN-FUND-NI391-19470902
+  title: "I.G. Farben Trial, Prosecution Exhibit 56 (NI-391), Zahlungsanweisung 1933"
+  institution: "Harvard Law School Library, Nuremberg Trials Project (NMT VI)"
+  date: "1947-09-02"
+  type: war_crimes_trial_transcript
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/transcripts/9?seq=359
+  accessed: "2026-11-20"
+  locator: "Pros. Ex. 56 / NI-391: Schreiben vom 27.02.1933, Zahlung 400.000 Reichsmark über Dresdner Bank an Delbrück, Schickler & Co., Konto Nationale Treuhand"
+  notes: "Beleg für im Prozess vorgetragene Zahlung und angegebenen Bankweg, nicht persönliche Unterschrift von Schmitz oder eigenständige Bankspende."
+
+- id: SRC-US-NMT-ANORGANA-NI7377
+  title: "I.G. Farben Trial, von Knieriem statement and Anorgana supervisory board minutes NI-7377"
+  institution: "Harvard Law School Library, Nuremberg Trials Project (NMT VI)"
+  date: "1948"
+  type: war_crimes_trial_transcript
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=6514
+  accessed: "2026-11-20"
+  locator: "Verteidigungsaussage: 1940 Anorgana-Aufsichtsrat; Verhandlung zu NI-7377 / Sitzung 23.08.1943"
+  notes: "Protokolliert eigenes Mandatsvorbringen und Bezug auf Originalminutes; kein Einzelbeleg für alle Produktionsentscheidungen."
