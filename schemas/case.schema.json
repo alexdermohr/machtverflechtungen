@@ -72,7 +72,7 @@
     },
     "actors": {
       "type": "array",
-      "items": {"type": "string", "pattern": "^(ORG|PER|PRG)-[A-Z0-9-]+$"},
+      "items": {"type": "string", "pattern": "^(ORG|PER|PRG|DOC)-[A-Z0-9-]+$"},
       "uniqueItems": true
     },
     "mechanisms": {
