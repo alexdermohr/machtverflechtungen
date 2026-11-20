@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**245 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**247 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2941,6 +2941,21 @@ Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/Contributor
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-de-verfg-brandenburg-604-20041209"></a>
+### Verfassungsgericht des Landes Brandenburg
+
+**[VfGBbg 6/04 – Urteil über Akteneinsicht zu Toni S. (09.12.2004)](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359)**
+
+Verfassungsgericht des Landes Brandenburg · 2004-12-09 · Stufe **A** · Primärquelle · `SRC-DE-VERFG-BRANDENBURG-604-20041209`
+
+[Seite öffnen](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359)
+
+Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kaiser-Nicht verfassungswidrig, im Übrigen Antrag zurückgewiesen; Gründe B.II/B.III zu individueller Abwägung gegenüber Nichtmitglied Heinz Vietze
+
+</article>
+
 ## Forschung & Dokumentation { #forschungsliteratur }
 
 **Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
@@ -3210,6 +3225,21 @@ Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin
 Bundeszentrale für politische Bildung · 2026-03-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-BND-2026`
 
 [Seite öffnen](https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
+<a id="src-de-bb-nsu-gruene-sondervotum-2019"></a>
+### Bündnis 90/Die Grünen, Landtagsfraktion Brandenburg
+
+**[Sondervotum Bündnis 90/Die Grünen zum NSU-Untersuchungsausschuss Brandenburg 6/1](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)**
+
+Bündnis 90/Die Grünen, Landtagsfraktion Brandenburg · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BB-NSU-GRUENE-SONDERVOTUM-2019`
+
+[PDF öffnen](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)
+
+Fundstelle: Druck-S. 200–205, PDF-Bild 200 (0-basierter Index 199): 06.02.2001 abgehörter Anruf Christian K. zu Sven Sch. 15:54; Warnung und auf 07.02. vorgezogene Durchsuchung, Befragungen; S. 169/216: späteres Urteil gegen Quelle referiert
 
 </article>
 

@@ -2827,3 +2827,26 @@ sources:
   accessed: "2026-11-20"
   locator: "S. 5076 / PDF 8: Dekret vom 30.06.1982 benennt Pierre W. Siegenthaler bereits als italienischen ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen"
   notes: "Dokumentiert bestehendes Amt 1982, weder ursprüngliche Ernennungszeit noch Nutzung des Amts für Finanztransaktionen 1979/80."
+- id: SRC-DE-VERFG-BRANDENBURG-604-20041209
+  title: "VfGBbg 6/04 – Urteil über Akteneinsicht zu Toni S. (09.12.2004)"
+  institution: "Verfassungsgericht des Landes Brandenburg"
+  date: "2004-12-09"
+  type: original_constitutional_court_ruling
+  primary: true
+  tier: A
+  url: https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359
+  accessed: "2026-11-20"
+  locator: "Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kaiser-Nicht verfassungswidrig, im Übrigen Antrag zurückgewiesen; Gründe B.II/B.III zu individueller Abwägung gegenüber Nichtmitglied Heinz Vietze"
+  notes: "Gerichtliche Primärquelle; stellte keinen Automatismus der Aktenherausgabe und keine Strafbarkeit von Toni S. oder konkreten NaBe-Sachverhalt fest."
+
+- id: SRC-DE-BB-NSU-GRUENE-SONDERVOTUM-2019
+  title: "Sondervotum Bündnis 90/Die Grünen zum NSU-Untersuchungsausschuss Brandenburg 6/1"
+  institution: "Bündnis 90/Die Grünen, Landtagsfraktion Brandenburg"
+  date: "2019"
+  type: parliamentary_minority_evidence_review
+  primary: false
+  tier: B
+  url: https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf
+  accessed: "2026-11-20"
+  locator: "Druck-S. 200–205, PDF-Bild 200 (0-basierter Index 199): 06.02.2001 abgehörter Anruf Christian K. zu Sven Sch. 15:54; Warnung und auf 07.02. vorgezogene Durchsuchung, Befragungen; S. 169/216: späteres Urteil gegen Quelle referiert"
+  notes: "Parlamentarische Minderheitsbewertung mit Akten-/Zeugenwiedergabe, Original-TKÜ und vollständiger strafgerichtlicher 2003er Verurteilungsakt hier nicht unabhängig eingesehen; keine verifizierte Steuerung der NaBe-Anschläge."

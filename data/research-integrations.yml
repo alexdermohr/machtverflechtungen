@@ -260,6 +260,7 @@ studies:
       - REL-UY-PA-BAFISUD-1978-001
       - REL-IT-PA-VARESINO-1978-001
       - REL-PA-IT-VARESINO-1978-001
+
   bdj-lcprowl-eca-mccloy-1950-1953.md:
     sha256: ff313ce42b607ed1796b9a36bda588f87b8ee8b655dd9980f7ac2939d9d43f02
     status: network
@@ -315,3 +316,13 @@ studies:
       - REL-GB-BB-UK-007
       - REL-US-BBF-008
       - REL-US-BBF-009
+
+  brandenburg-nabe-razziawarnung-aktenzugang-2001-2004.md:
+    sha256: f124c2733d0515930407d8f73c711300aa858e9b17c1bde6d26057d6a8f8139c
+    status: network
+    relation_ids:
+      - REL-DE-BB-VERFG-2004-001
+      - REL-DE-BB-VERFG-2004-002
+      - REL-DE-BB-VERFG-2004-003
+      - REL-DE-BB-NABE-2001-001
+      - REL-DE-BB-NABE-2001-002

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**218 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**223 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -430,6 +430,17 @@ flowchart LR
     N_ORG_IT_MAE_1982["Italienisches Außenministerium (Ministero degli Affari Esteri, 1982)"]
     N_PER_INT_PIERRE_W_SIEGENTHALER -->|"Italienisches Ministerialdekret 30.06.1982 benennt Siegenthaler bereits als ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen; keine nachgewiesene Nutzung des Amtes für Ambrosiano-Kredite"| N_ORG_IT_MAE_1982
     N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS -->|"P2-Minderheitsbericht 1984 beschreibt für 1980 einen mit 'Sudam' verbundenen 21-Mio.-USD-Kredit Overseas Nassau zu BAFISUD Corporation; Zeuge Botta erinnerte Nassau/Managua. Vertrag, Valuta, Identität letzter Begünstigter und PSI-Endzahlung nicht durch Bankkonto belegt"| N_ORG_PA_BAFISUD_CORPORATION_SA
+    N_ORG_DE_LANDESREGIERUNG_BRANDENBURG["Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04)"]
+    N_PER_DE_KERSTIN_KAISER_NICHT["Kerstin Kaiser-Nicht"]
+    N_ORG_DE_LANDESREGIERUNG_BRANDENBURG -->|"Innenministerium verweigerte am 06.11.2003 PKK-Mitglied Kerstin Kaiser-Nicht Akteneinsicht im Fall Toni S.; VerfGBbg 6/04 stellte am 09.12.2004 wegen fehlender einzelfallbezogener Abwägung eine Verletzung von Art. 56 Abs. 3 LV fest; keine automatische Herausgabe angeordnet"| N_PER_DE_KERSTIN_KAISER_NICHT
+    N_PER_DE_HEINZ_VIETZE["Heinz Vietze"]
+    N_ORG_DE_LANDESREGIERUNG_BRANDENBURG -->|"Innenministerium verweigerte am 06.11.2003 auch Heinz Vietze Akteneinsicht; VerfGBbg 6/04 bestätigte 2004 die Verweigerung für den nicht zur PKK gehörenden Abgeordneten als verfassungsgemäß"| N_PER_DE_HEINZ_VIETZE
+    N_ORG_DE_VERFG_BRANDENBURG["Verfassungsgericht des Landes Brandenburg"]
+    N_ORG_DE_VERFG_BRANDENBURG -->|"Urteil VfGBbg 6/04 vom 09.12.2004: unzureichend begründete Verweigerung gegenüber Kaiser-Nicht verfassungswidrig; Ablehnung gegenüber Vietze hatte Bestand; keine Beurteilung der NaBe-Warnkette oder eines 2003er Strafurteils"| N_ORG_DE_LANDESREGIERUNG_BRANDENBURG
+    N_PER_DE_CHRISTIAN_K_2001["Christian K. (anonymisierte Quelle Brandenburg, 2001)"]
+    N_ORG_DE_LFV_BRANDENBURG -->|"Brandenburger grünes Sondervotum 2019 beschreibt Christian K. 2001 als LfV-Quelle; vor der Durchsuchung 17.02. sollte sein Quellenführer warnen; ob die Nennung des konkreten Termins behördlich angeordnet wurde, blieb streitig"| N_PER_DE_CHRISTIAN_K_2001
+    N_PER_DE_SVEN_SCH_2001["Sven Sch. (anonymisierter Adressat einer Warnung, 2001)"]
+    N_PER_DE_CHRISTIAN_K_2001 -->|"Laut grünem Sondervotum/rekonstruierter TKÜ warnte Christian K. Sven Sch. am 06.02.2001 15:54 vor einer für 17.02. geplanten Durchsuchung; diese wurde auf 07.02. vorgezogen. Originalmitschnitt und tatsächlicher Beweismittelverlust hier nicht nachgewiesen"| N_PER_DE_SVEN_SCH_2001
 ```
 
 [Zur Relationstabelle](network.md)
