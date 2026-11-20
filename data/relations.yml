@@ -1757,7 +1757,7 @@ relations:
     type: held_office
     label: "Am 16.12.1653 als Lord Protector eingesetzt; keine aus dem Amt allein ableitbare Weisung über einzelne Handelsverträge"
     period: {start: "1653-12-16", end: "1658"}
-    evidence_level: established
+    evidence_level: strong
     sources: [SRC-GB-PARLIAMENT-CROMWELL-PROTECTOR-1653]
 
   - id: REL-GB-CROM-1655-001
