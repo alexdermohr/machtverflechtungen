@@ -162,5 +162,69 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("ORG-INT-BIS", actors)
 
 
+    def test_source_criticism_and_existing_network_coverage(self):
+        root = coverage.ROOT
+        registry = coverage.read_registry(root)
+        mapping = {
+            "cia-opc-kmmanly-qksnitch-gfw-1951-2024.md":
+                ["REL-DE-KMM-001", "REL-DE-KMM-003", "REL-DE-KMM-011"],
+            "organisation-gehlen-gruendung-ns-inlandsspionage-1945-1968.md":
+                ["REL-DE-GEHLEN-001", "REL-DE-GEHLEN-006", "REL-DE-GEHLEN-008"],
+            "bilderberg-washington-post-finanzierung-medienoffenlegung-2005-2012.md":
+                ["REL-US-BBF-001", "REL-US-BBF-002", "REL-US-BBF-004"],
+            "monica-crowley-ukraine-wuhan-covid-ursprung-2023-2026.md":
+                ["REL-US-UA-BIOSEC-2022-001"],
+            "cromwell-karl-i-geldgeber-quellenpruefung-1290-1656.md":
+                ["REL-GB-CROM-1649-001", "REL-GB-CROM-1653-001",
+                 "REL-GB-CROM-1655-001"],
+        }
+        relations = {
+            row["id"]: row
+            for row in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        people = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        sources = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        for study, required in mapping.items():
+            with self.subTest(study=study):
+                decision = registry[study]
+                self.assertEqual(decision["status"], "network")
+                self.assertEqual(
+                    decision["sha256"],
+                    hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+                )
+                self.assertTrue(set(required) <= set(decision["relation_ids"]))
+                for relation_id in required:
+                    relation = relations[relation_id]
+                    self.assertIn(f'id="{relation_id.lower()}"', table)
+                    self.assertIn(relation["label"], graph)
+                    for source_id in relation["sources"]:
+                        self.assertIn(f'id="{source_id.lower()}"', sources)
+        for actor_id in (
+            "ORG-US-DOD", "PRG-UA-BIOSAFETY-COOP",
+            "PER-GB-ANTONIO-FERNANDES-CARVAJAL",
+            "PER-GB-OLIVER-CROMWELL", "ORG-GB-PROTECTORATE-1653",
+        ):
+            self.assertIn(actor_id, people)
+
+        no_relation = [
+            "rockefeller-38-briefe-gier-zuschreibung-1918-2026.md",
+            "lobbykontakte-exekutiver-fussabdruck-transparenz-2026.md",
+            "atlantik-bruecke-demokratische-rechenschaft-2026.md",
+        ]
+        for study in no_relation:
+            with self.subTest(no_relation_study=study):
+                decision = registry[study]
+                self.assertEqual(decision["status"], "no_network_relation")
+                self.assertGreater(len(decision["reason"].strip()), 30)
+                self.assertEqual(
+                    decision["sha256"],
+                    hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+                )
+
+
 if __name__ == "__main__":
     unittest.main()

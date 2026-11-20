@@ -983,3 +983,39 @@ entities:
     name: "Anorgana GmbH (historische IG-Farben-Gesellschaft)"
     countries: [DE]
     notes: "Historischer IG-Farben-Betrieb; Aufsichtsratsfunktion von Knieriems belegt kein persönliches Ausführen sämtlicher dortiger Rüstungsmaßnahmen."
+
+  - id: ORG-US-DOD
+    type: government_agency
+    name: "U.S. Department of Defense"
+    countries: [US]
+    notes: "US-Verteidigungsministerium; seine amtliche Erklärung 2022 beschreibt zivile Unterstützung ukrainischer Gesundheits-/Diagnostikeinrichtungen, nicht ein bestätigtes Biowaffenprogramm."
+
+  - id: PRG-UA-BIOSAFETY-COOP
+    type: public_health_cooperation
+    name: "USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm)"
+    countries: [US, UA]
+    notes: "Programmatischer Sammelknoten, keine eigene ukrainische juristische Person und kein Besitzvermerk für 46 konkrete Einrichtungen. Die US-Seite meldete 2022 über zwei Jahrzehnte Unterstützung; Einrichtungen laut US-Mitteilung ukrainisch betrieben."
+
+  - id: PER-GB-ANTONIO-FERNANDES-CARVAJAL
+    type: person
+    name: "António Fernandes Carvajal (gest. 1659)"
+    countries: [GB, PT]
+    notes: "Historischer portugiesischstämmiger Kaufmann in London. Archivnah edierter Staatsaktenbefund belegt 1649 Heeresgetreidevertrag und 1655 Denization. Keine bezeugte Beauftragung oder Finanzierung der Hinrichtung Karls I."
+
+  - id: PER-GB-OLIVER-CROMWELL
+    type: person
+    name: "Oliver Cromwell (1599–1658)"
+    countries: [GB]
+    notes: "Englischer Staatsmann, ab 16.12.1653 Lord Protector. Die Herkunft einer behaupteten finanzpolitischen Kausalkette zum Königsmord ist davon getrennt zu prüfen."
+
+  - id: ORG-GB-COUNCIL-OF-STATE-1649
+    type: government_body
+    name: "Englischer Council of State (1649)"
+    countries: [GB]
+    notes: "Republikanisches Staatsratsgremium, das laut historischer Edition 1649 fünf Londoner Kaufleute mit Getreideversorgung der Armee beauftragte."
+
+  - id: ORG-GB-PROTECTORATE-1653
+    type: historical_government
+    name: "Englisches Protektorat unter Oliver Cromwell (1653–1658)"
+    countries: [GB]
+    notes: "Lord-Protector-Regierung 1653–1658, unter der António Fernandes Carvajal und seine Söhne 1655 einen Denization-Status erhielten."
