@@ -1445,3 +1445,45 @@ entities:
     name: "Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz)"
     countries: [IT, CH]
     notes: "Nach publiziertem Ausschnitt des Bellini-Gerichts 13.09.1982 in Gellis Brieftasche beschlagnahmt, 1987 nur unzureichend reproduziert, 18.02.2019 erneut für Ermittlungen erhoben. Dokumentprovenienz ist nicht der Nachweis aller postulierten Endempfänger."
+
+  - id: ORG-DE-BUNDESREGIERUNG-1975
+    type: historical_government
+    name: "Bundesregierung der Bundesrepublik Deutschland (1975)"
+    countries: [DE]
+    notes: "Bundesregierung unter Helmut Schmidt; finanzierte den öffentlich im Weißen Haus am 16.06.1975 angekündigten ACG-John-J.-McCloy-Fonds mit einem Kapitalstock von 1 Mio. USD. Der Programmstock ist von GMF-Gründungszusagen 1972 zu trennen."
+
+  - id: PRG-US-MCCLOY-FUND-1975
+    type: historical_exchange_fund
+    name: "John J. McCloy Fund for German-American Exchanges (1975)"
+    countries: [US, DE]
+    notes: "Im Rosengarten des Weißen Hauses am 16.06.1975 mit 1 Mio. USD deutscher Bundesmittel öffentlich angekündigter, beim American Council on Germany angesiedelter Austausch- und Publikationsfonds. Keine separat geprüften Einzelbankbelege oder Förderabrechnungen."
+
+  - id: PER-US-JOHN-J-MCCLOY
+    type: person
+    name: "John J. McCloy (1895–1989)"
+    countries: [US]
+    notes: "Amerikanischer früherer Hoher Kommissar in Deutschland und 1975 laut Präsidententagebuch Vorsitzender des American Council on Germany. Der Austauschfonds trägt seinen Namen; die nachfolgende Mittelverwendung ist damit nicht persönlich durch ihn belegt."
+
+  - id: PER-DE-WALTER-SCHEEL
+    type: person
+    name: "Walter Scheel (1919–2016)"
+    countries: [DE]
+    notes: "Bundespräsident, verkündete am 16.06.1975 im Weißen Haus öffentlich das mit 1 Mio. USD deutsche Bundesmittel ausgestattete John-J.-McCloy-Fund-Vorhaben; dokumentierte Teilnahme, nicht eigenständiger privater Spender."
+
+  - id: PER-US-GERALD-FORD
+    type: person
+    name: "Gerald R. Ford (1913–2006)"
+    countries: [US]
+    notes: "US-Präsident, Gastgeber der öffentlichen Rose-Garden-Zeremonie 16.06.1975 zur Ankündigung des McCloy-Fonds. Seine Anwesenheit beweist keine individuelle Auswahl oder Lenkung von Stipendien und Medienbeiträgen."
+
+  - id: ORG-US-FORD-FOUNDATION-1973
+    type: charitable_foundation
+    name: "Ford Foundation (historische Förderakten 1973)"
+    countries: [US]
+    notes: "US-Stiftung, laut Archivrecherche Anne Zetsches teilweise Unterstützerin der ersten gemeinsam von ACG/Atlantik-Brücke organisierten Young-Leaders-Konferenz im Juni 1973. Die signierte Grant-File-Urschrift und individuelle Zahlungshöhe hier nicht eingesehen."
+
+  - id: PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976
+    type: historical_fellowship_program
+    name: "ACG McCloy Fellowships (Beginn 1976)"
+    countries: [US, DE]
+    notes: "Laut ACG-Jahresbericht 2017 1976 begonnenes Austauschangebot u. a. für Journalistinnen/Journalisten, Kunst, Gewerkschaften, Recht und lokale Politik. Die Finanzierung jedes Einzelfellowships aus dem 1975er Kapitalstock ist hier nicht buchhalterisch nachgewiesen."

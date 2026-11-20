@@ -2646,3 +2646,75 @@ relations:
     period: {start: "1980-07-20", end: "1980-07-30"}
     evidence_level: plausible
     sources: [SRC-IT-BOLOGNA-BELLINI-2022-COURT-EXCERPT]
+
+  - id: REL-US-ACG-MCCLOY-FUND-GOV-1975-001
+    from: ORG-DE-BUNDESREGIERUNG-1975
+    to: PRG-US-MCCLOY-FUND-1975
+    type: public_federal_fund_endowment
+    label: "Bundesregierung der Bundesrepublik stellte nach Scheels öffentlicher Erklärung im Weißen Haus vom 16.06.1975 einen Kapitalstock von 1.000.000 USD für den John-J.-McCloy-Austauschfonds bereit; ACG bestätigte 2025 die Zuwendung. Kein selbst eingesehener individueller Zahlungs- oder Verwendungs-Kontoauszug"
+    period: {start: "1975-06-16"}
+    evidence_level: established
+    sources: [SRC-US-FORD-WHITEHOUSE-MCCLOY-FUND-19750616, SRC-US-FORD-PRESIDENTIAL-DIARY-19750616, SRC-US-ACG-MCCLOY-50TH-20250616]
+
+  - id: REL-US-ACG-MCCLOY-FUND-HOST-1975-001
+    from: PRG-US-MCCLOY-FUND-1975
+    to: ORG-US-ACG-2012
+    type: historical_fund_host_and_beneficiary
+    label: "Das 1-Mio.-USD-Fondsvorhaben wurde am 16.06.1975 ausdrücklich unter dem Dach des American Council on Germany (ACG) angesiedelt; die Organisation beschreibt 2025 dessen institutionelle Annahme. Einzelne Publikationsausgaben nicht dadurch bewiesen"
+    period: {start: "1975-06-16"}
+    evidence_level: established
+    sources: [SRC-US-FORD-WHITEHOUSE-MCCLOY-FUND-19750616, SRC-US-ACG-MCCLOY-50TH-20250616]
+
+  - id: REL-US-ACG-MCCLOY-CHAIR-1975-001
+    from: PER-US-JOHN-J-MCCLOY
+    to: ORG-US-ACG-2012
+    type: documented_organizational_chairmanship
+    label: "Präsident Gerald Fords Daily Diary für 16.06.1975 nennt John J. McCloy ausdrücklich Chairman of the Board des American Council on Germany; Vorstandsfunktion allein belegt keine individuelle Weisung an publizierende Journalisten"
+    period: {start: "1975-06-16"}
+    evidence_level: established
+    sources: [SRC-US-FORD-PRESIDENTIAL-DIARY-19750616]
+
+  - id: REL-US-ACG-MCCLOY-SCHEEL-1975-001
+    from: PER-DE-WALTER-SCHEEL
+    to: PRG-US-MCCLOY-FUND-1975
+    type: public_presentation_of_federal_endowment
+    label: "Bundespräsident Walter Scheel stellte den John-J.-McCloy-Fonds am 16.06.1975 im Weißen Haus öffentlich vor, benannte 1 Mio. USD staatliches Fondsvermögen und die Zwecke Nachwuchsaustausch, Konferenzen und Publikationen; Scheel war nicht Privatspender"
+    period: {start: "1975-06-16"}
+    evidence_level: established
+    sources: [SRC-US-FORD-WHITEHOUSE-MCCLOY-FUND-19750616, SRC-US-FORD-PRESIDENTIAL-DIARY-19750616]
+
+  - id: REL-US-ACG-MCCLOY-FORD-1975-001
+    from: PER-US-GERALD-FORD
+    to: PRG-US-MCCLOY-FUND-1975
+    type: hosted_public_announcement_ceremony
+    label: "US-Präsident Gerald Ford war laut seinem Tageskalender am 16.06.1975 von 13:01 bis 13:20 Uhr Gastgeber der Rose-Garden-Zeremonie für den von der Bundesrepublik bereitgestellten Fonds; die Gastgeberrolle beweist keine Auswahl einzelner Austauschstipendien"
+    period: {start: "1975-06-16"}
+    evidence_level: established
+    sources: [SRC-US-FORD-PRESIDENTIAL-DIARY-19750616]
+
+  - id: REL-US-ACG-YOUNGLEADERS-1973-001
+    from: ORG-US-ACG-2012
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: joint_foundation_of_exchange_conference
+    label: "ACG-Geschichte und Zetsches Archivstudie dokumentieren den gemeinsamen Start der American-German Young Leaders Conference 1973 durch ACG und Atlantik-Brücke in Hamburg; dies war zwei Jahre VOR der McCloy-Bundesdotierung 1975"
+    period: {start: "1973-06-27", end: "1973-06-30"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-HISTORY-YOUNG-LEADERS-1973, SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973]
+
+  - id: REL-US-FORDFOUNDATION-YOUNGLEADERS-1973-001
+    from: ORG-US-FORD-FOUNDATION-1973
+    to: PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS
+    type: archivally_reported_partial_conference_funding
+    label: "Zetsche (2016), S. 172 FN 157, weist unter Rockefeller Archive Center Ford Foundation Grant Files 1239, ACG & 7300512 eine TEILförderung der ersten ACG/Atlantik-Brücke-Young-Leaders-Konferenz vom 27.–30.06.1973 nach; Original Grant Action Form und Fördersumme hier nicht selbst eingesehen"
+    period: {start: "1973-06-27", end: "1973-06-30"}
+    evidence_level: strong
+    sources: [SRC-GB-ZETSCHE-PHD-ACG-YOUNG-FORD-1973]
+
+  - id: REL-US-ACG-MCCLOY-FELLOWSHIPS-1976-001
+    from: ORG-US-ACG-2012
+    to: PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976
+    type: established_exchange_fellowship_program
+    label: "ACG-Jahresbericht 2017 datiert Beginn der McCloy Fellowships auf 1976; geförderte Austauschberufe einschließlich Journalismus, Recht, Gewerkschaften und Kommunalverwaltung. Direkter Geldtransfer aus dem 1975er Fonds in ein einzelnes Stipendium nicht vorgelegt"
+    period: {start: "1976"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-ANNUAL-2017-MCCLOY-1976]
