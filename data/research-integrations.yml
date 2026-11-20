@@ -260,3 +260,58 @@ studies:
       - REL-UY-PA-BAFISUD-1978-001
       - REL-IT-PA-VARESINO-1978-001
       - REL-PA-IT-VARESINO-1978-001
+  bdj-lcprowl-eca-mccloy-1950-1953.md:
+    sha256: ff313ce42b607ed1796b9a36bda588f87b8ee8b655dd9980f7ac2939d9d43f02
+    status: network
+    relation_ids:
+      - REL-DE-BDJ-001
+      - REL-DE-BDJ-002
+
+  nsu-komplex-skandale-belegmatrix-1994-2026.md:
+    sha256: b499c6119429e69900f8fd8823f9f042f3a83d9657fecf50fad99b215463ead2
+    status: network
+    relation_ids:
+      - REL-DE-THS-001
+      - REL-DE-THS-002
+      - REL-DE-UKC18-001
+
+  britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md:
+    sha256: 2f5f454403931bae190ed7cff2cd7530b95f68b81527b60d141560e4fcae0ca1
+    status: network
+    relation_ids:
+      - REL-DE-UKC18-001
+      - REL-DE-UKC18-002
+      - REL-DE-UKC18-003
+
+  piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md:
+    sha256: aa276593d89648965b650eff00d18ff47fb1c9e7a0c55f33394a9ef392aa4d99
+    status: network
+    relation_ids:
+      - REL-DE-UKC18-001
+
+  bilderberg-medien-diskretion-originalakten-1954-2026.md:
+    sha256: da6aff8d1e3b1c44777fee9b8a715b8f8963394932a4fee70bb010a867095592
+    status: network
+    relation_ids:
+      - REL-GB-BB-UK-006
+      - REL-GB-BB-UK-007
+      - REL-US-BBF-008
+      - REL-US-BBF-009
+
+  atlantik-bruecke-medieninteressenkonflikte-1952-2026.md:
+    sha256: fdb09fd7ea4caf077725d18c8c2d5e56eeaed0edba6ebb39b33fcf68c734a90c
+    status: network
+    relation_ids:
+      - REL-GB-BB-UK-006
+      - REL-GB-BB-UK-007
+      - REL-US-BBF-008
+      - REL-US-BBF-009
+
+  atlantik-bruecke-bilderberg-vergleich-2026.md:
+    sha256: aeec8e0c3b5f5dd31318a023631e8c72ee20cf084791b67ffcbcd17406d127fb
+    status: network
+    relation_ids:
+      - REL-GB-BB-UK-006
+      - REL-GB-BB-UK-007
+      - REL-US-BBF-008
+      - REL-US-BBF-009
