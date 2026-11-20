@@ -458,6 +458,62 @@ class ResearchIntegrationTests(unittest.TestCase):
         consular = relations["REL-IT-SIEG-CONSUL-1982-001"]
         self.assertEqual(consular["period"]["start"], "1982-06-30")
 
+    def test_bdj_nsu_british_media_legacy_studies_are_graph_linked(self):
+        root = coverage.ROOT
+        mapping = {
+            "bdj-lcprowl-eca-mccloy-1950-1953.md":
+                ["REL-DE-BDJ-001", "REL-DE-BDJ-002"],
+            "nsu-komplex-skandale-belegmatrix-1994-2026.md":
+                ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001"],
+            "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
+                ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
+            "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":
+                ["REL-DE-UKC18-001"],
+            "bilderberg-medien-diskretion-originalakten-1954-2026.md":
+                ["REL-GB-BB-UK-006", "REL-GB-BB-UK-007",
+                 "REL-US-BBF-008", "REL-US-BBF-009"],
+            "atlantik-bruecke-medieninteressenkonflikte-1952-2026.md":
+                ["REL-GB-BB-UK-006", "REL-GB-BB-UK-007",
+                 "REL-US-BBF-008", "REL-US-BBF-009"],
+            "atlantik-bruecke-bilderberg-vergleich-2026.md":
+                ["REL-GB-BB-UK-006", "REL-GB-BB-UK-007",
+                 "REL-US-BBF-008", "REL-US-BBF-009"],
+        }
+        registry = coverage.read_registry(root)
+        links = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        sources = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        relations = {
+            relation["id"]: relation
+            for relation in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        for study, ids in mapping.items():
+            with self.subTest(study=study):
+                decision = registry[study]
+                self.assertEqual(decision["status"], "network")
+                self.assertEqual(
+                    decision["sha256"],
+                    hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+                )
+                self.assertEqual(set(decision["relation_ids"]), set(ids))
+                for relation_id in ids:
+                    relation = relations[relation_id]
+                    self.assertIn(f'id="{relation_id.lower()}"', links)
+                    self.assertIn(relation["label"], graph)
+                    for source_id in relation["sources"]:
+                        self.assertIn(f'id="{source_id.lower()}"', sources)
+        # Documented state financing and informant handling do not
+        # prove state orders for unrelated murders or UK intelligence control.
+        self.assertIn(
+            "keine MI5-Kante",
+            relations["REL-DE-UKC18-002"]["label"],
+        )
+        self.assertIn(
+            "keine britische Dienstanweisung",
+            relations["REL-DE-UKC18-003"]["label"],
+        )
 
     def test_brandenburg_nabe_warning_and_constitutional_court_diverge(self):
         root = coverage.ROOT
@@ -508,7 +564,6 @@ class ResearchIntegrationTests(unittest.TestCase):
                          rows[court[0]]["sources"])
         self.assertNotIn("SRC-DE-VERFG-BRANDENBURG-604-20041209",
                          rows[warnings[1]]["sources"])
-
 
 if __name__ == "__main__":
     unittest.main()
