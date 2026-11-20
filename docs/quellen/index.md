@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**223 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**229 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1835,6 +1835,51 @@ Fundstelle: Biografie Sven Afhüppe; Mitglied der Atlantik-Brücke
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1947">
+
+<a id="src-us-nmt-igfarben-fund-ni391-19470902"></a>
+### Harvard Law School Library, Nuremberg Trials Project (NMT VI)
+
+**[I.G. Farben Trial, Prosecution Exhibit 56 (NI-391), Zahlungsanweisung 1933](https://nuremberg.law.harvard.edu/transcripts/9?seq=359)**
+
+Harvard Law School Library, Nuremberg Trials Project (NMT VI) · 1947-09-02 · Stufe **A** · Primärquelle · `SRC-US-NMT-IGFARBEN-FUND-NI391-19470902`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/transcripts/9?seq=359)
+
+Fundstelle: Pros. Ex. 56 / NI-391: Schreiben vom 27.02.1933, Zahlung 400.000 Reichsmark über Dresdner Bank an Delbrück, Schickler & Co., Konto Nationale Treuhand
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1947">
+
+<a id="src-us-nmt-igfarben-standard-19471017"></a>
+### Harvard Law School Library, Nuremberg Trials Project (NMT VI)
+
+**[I.G. Farben Trial, prosecution exhibits NI-10550 and NI-10430](https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=2354)**
+
+Harvard Law School Library, Nuremberg Trials Project (NMT VI) · 1947-10-17 · Stufe **A** · Primärquelle · `SRC-US-NMT-IGFARBEN-STANDARD-19471017`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=2354)
+
+Fundstelle: HLSL Sequenz 2359–2360, Pros. Ex. 942 (NI-10550) und 943 (NI-10430), beide am 09.11.1929; im Anklagevortrag als von Schmitz und von Knieriem unterzeichnet bezeichnet
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
+
+<a id="src-us-nmt-anorgana-ni7377"></a>
+### Harvard Law School Library, Nuremberg Trials Project (NMT VI)
+
+**[I.G. Farben Trial, von Knieriem statement and Anorgana supervisory board minutes NI-7377](https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=6514)**
+
+Harvard Law School Library, Nuremberg Trials Project (NMT VI) · 1948 · Stufe **A** · Primärquelle · `SRC-US-NMT-ANORGANA-NI7377`
+
+[Seite öffnen](https://nuremberg.law.harvard.edu/transcripts/9-transcript-for-nmt-6-i-g-farben-case?seq=6514)
+
+Fundstelle: Verteidigungsaussage: 1940 Anorgana-Aufsichtsrat; Verhandlung zu NI-7377 / Sitzung 23.08.1943
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-de-he-vsber-1982"></a>
@@ -2718,7 +2763,7 @@ Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/Contributor
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-int-scott-smith-der-monat-2000) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-uy-manzi-bankrank-1981) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-it-intesa-ambrosiano-interalpha-history) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [J](#src-int-scott-smith-der-monat-2000) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3198,6 +3243,21 @@ Fundstelle: Edition mit Dokumenten 21, 22 und 59
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-ndb-hermann-schmitz"></a>
+### Neue Deutsche Biographie / Deutsche Biographie
+
+**[Hermann Schmitz (1881–1960), Neue Deutsche Biographie](https://www.deutsche-biographie.de/gnd118609319.html)**
+
+Neue Deutsche Biographie / Deutsche Biographie · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDB-HERMANN-SCHMITZ`
+
+[Seite öffnen](https://www.deutsche-biographie.de/gnd118609319.html)
+
+Fundstelle: Werner Abelshauser, biografische Funktionen und I.G.-Farben-Vorsitz; widersprüchliche NSDAP-Mitgliedschaft gegen BASF offen
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
 
 <a id="src-de-igel-urbach-baumann-handschrift-2010"></a>
@@ -3300,6 +3360,36 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 [PDF öffnen](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-us-nara-bis-wartime-footnote"></a>
+### U.S. National Archives and Records Administration
+
+**[National Archives Holocaust-Era Assets Finding Aid, Military Agency Records, Note 2](https://www.archives.gov/research/holocaust/finding-aid/military/part-1-notes.html)**
+
+U.S. National Archives and Records Administration · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-NARA-BIS-WARTIME-FOOTNOTE`
+
+[Seite öffnen](https://www.archives.gov/research/holocaust/finding-aid/military/part-1-notes.html)
+
+Fundstelle: Anmerkung 2: historisches BIZ-Verwaltungsratsumfeld Schmitz, von Schröder, Funk, Puhl
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-ch-uek-interhandel-koenig"></a>
+### Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg (Mario König)
+
+**[Interhandel: die Schweizer Holding der IG Farben und ihre Metamorphosen (Zusammenfassung Band 2)](https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/02interhandel.htm)**
+
+Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg (Mario König) · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CH-UEK-INTERHANDEL-KOENIG`
+
+[Seite öffnen](https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/02interhandel.htm)
+
+Fundstelle: Gründung 1928/29, Schmitz/Greutert, Aufhebung des Bindungsvertrags Mai 1940, SBG-Kontrolle ab 1961 und Archivstreit
 
 </article>
 

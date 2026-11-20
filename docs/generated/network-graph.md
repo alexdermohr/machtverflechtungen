@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**172 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**186 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -344,6 +344,32 @@ flowchart LR
     N_ORG_US_FEDERAL_RESERVE -->|"29.07.1991 formelle Aufsichtsverfahren wegen verheimlichter CCAH-Beteiligungen angekündigt; angestrebte 200 Mio. USD Geldbuße nicht mit Zahlung gleichsetzen"| N_ORG_INT_BCCI
     N_ORG_US_DOJ["U.S. Department of Justice"]
     N_ORG_US_DOJ -->|"US-Justiz gab Dezember 1991 BCCI-Schuldbekenntnisvereinbarung bekannt; Gericht nahm am 24.01.1992 Schuldbekenntnisse von vier Gesellschaften an"| N_ORG_INT_BCCI
+    N_PER_DE_HERMANN_SCHMITZ["Hermann Schmitz (1881–1960)"]
+    N_ORG_DE_IG_FARBEN["I.G. Farbenindustrie AG (historischer Konzern)"]
+    N_PER_DE_HERMANN_SCHMITZ -->|"1925 Finanz- und Auslandschef, 1935 bis 1945 Vorstandsvorsitzender; nicht jede Einzelentscheidung persönlich zurechenbar"| N_ORG_DE_IG_FARBEN
+    N_PER_DE_AUGUST_VON_KNIERIEM["August von Knieriem (1887–1978)"]
+    N_PER_DE_AUGUST_VON_KNIERIEM -->|"laut Nürnberger Protokoll Unterzeichner der beiden I.G.-Verträge NI-10550 und NI-10430 vom 09.11.1929"| N_ORG_DE_IG_FARBEN
+    N_ORG_US_STANDARD_OIL_NEW_JERSEY["Standard Oil Company of New Jersey (historisch)"]
+    N_ORG_DE_IG_FARBEN -->|"09.11.1929 Four-Party Agreement und Division of Fields Agreement über Patente, Technologien und Geschäftsfelder; durch Nürnberger Prozessakten dokumentiert"| N_ORG_US_STANDARD_OIL_NEW_JERSEY
+    N_PER_DE_HERMANN_SCHMITZ -->|"unterzeichnete laut Prozessprotokoll 1929 als I.G.-Vertreter die Standard-Oil-Vertragsdokumente; kein privates Finanzierungsverhältnis daraus abgeleitet"| N_ORG_US_STANDARD_OIL_NEW_JERSEY
+    N_PER_DE_AUGUST_VON_KNIERIEM -->|"war laut Prozessprotokoll 1929 im Namen von IG Farben Mitunterzeichner des Standard-IG-Vertrags und der Geschäftsfeld-Abgrenzung"| N_ORG_US_STANDARD_OIL_NEW_JERSEY
+    N_ORG_CH_IG_CHEMIE_INTERHANDEL["IG Chemie Basel / Interhandel (historische Schweizer Holding)"]
+    N_ORG_DE_IG_FARBEN -->|"1928/29 Gründung und durch Optionen, Dividenden- und Vorzugsstimmrechte wirksame IG-Bindung; laut UEK im Mai 1940 bedingungslos aufgehoben"| N_ORG_CH_IG_CHEMIE_INTERHANDEL
+    N_PER_DE_HERMANN_SCHMITZ -->|"als IG-Finanzchef Initiator der Gründung der Basler Finanzholding 1928/29, laut unabhängiger Schweizer Expertenkommission"| N_ORG_CH_IG_CHEMIE_INTERHANDEL
+    N_ORG_US_GAF_HISTORIC["General Aniline & Film Corporation (GAF, historisch)"]
+    N_ORG_CH_IG_CHEMIE_INTERHANDEL -->|"hielt US-Chemiefabriken, ab 1939 zu General Aniline & Film zusammengefasst; 1942 in den USA beschlagnahmt"| N_ORG_US_GAF_HISTORIC
+    N_ORG_CH_SBG_HISTORIC["Schweizerische Bankgesellschaft (SBG, historisch)"]
+    N_ORG_CH_SBG_HISTORIC -->|"seit 1961 alleinige Kontrolle laut UEK, 1967 Fusion mit Interhandel; keine Fortsetzung deutschen IG-Eigentums daraus abgeleitet"| N_ORG_CH_IG_CHEMIE_INTERHANDEL
+    N_ORG_INT_BIS["Bank für Internationalen Zahlungsausgleich (BIZ/BIS)"]
+    N_PER_DE_HERMANN_SCHMITZ -->|"US National Archives führen Schmitz im historischen BIZ-Verwaltungsrat; genaue Amtsjahre und Beschlüsse nicht daraus ermittelt"| N_ORG_INT_BIS
+    N_ORG_DE_DRESDNER_BANK_1933["Dresdner Bank (historische Bank, Frankfurt 1933)"]
+    N_ORG_DE_IG_FARBEN -->|"Schreiben IG-Farben-Bankabteilung vom 27.02.1933 wies die Dresdner Bank zur Zahlung von 400.000 Reichsmark an"| N_ORG_DE_DRESDNER_BANK_1933
+    N_ORG_DE_DELBRUECK_SCHICKLER_1933["Delbrück, Schickler & Co. (historisches Bankhaus)"]
+    N_ORG_DE_DRESDNER_BANK_1933 -->|"laut Nürnberger Exhibit NI-391 400.000 RM für das Nationale-Treuhand-Konto bei Delbrück, Schickler & Co. als Zahlung angewiesen"| N_ORG_DE_DELBRUECK_SCHICKLER_1933
+    N_PRG_DE_NATIONALE_TREUHAND_1933["Konto Nationale Treuhand (Wahlkampffonds 1933)"]
+    N_ORG_DE_DELBRUECK_SCHICKLER_1933 -->|"Bankhaus als Empfänger für das Konto Nationale Treuhand bezeichnet; Konto der Wahlkampffinanzierung im Februar 1933"| N_PRG_DE_NATIONALE_TREUHAND_1933
+    N_ORG_DE_ANORGANA["Anorgana GmbH (historische IG-Farben-Gesellschaft)"]
+    N_PER_DE_AUGUST_VON_KNIERIEM -->|"laut eigener Aussage ab Frühjahr 1940 Aufsichtsratsmitglied, 1943er Protokoll NI-7377 behandelt; konkrete Produktionsweisungen nicht belegt"| N_ORG_DE_ANORGANA
 ```
 
 [Zur Relationstabelle](network.md)

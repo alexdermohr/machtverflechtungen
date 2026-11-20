@@ -911,3 +911,75 @@ entities:
     name: "U.S. Department of Justice"
     countries: [US]
     notes: "US-Justizministerium; gab 1991 die Vereinbarung über BCCI-Schuldbekenntnisse und Einziehungsmaßnahmen bekannt. Die gerichtliche Annahme folgte Januar 1992."
+
+  - id: PER-DE-HERMANN-SCHMITZ
+    type: person
+    name: "Hermann Schmitz (1881–1960)"
+    countries: [DE]
+    notes: "Finanzchef und ab 1935 Vorstandsvorsitzender von IG Farben. Sein BIZ-Mandat und die von ihm mit unterzeichneten Standard-Oil-Verträge sind getrennte Funktionen, keine belegte gemeinsame Kriegsleitung."
+
+  - id: PER-DE-AUGUST-VON-KNIERIEM
+    type: person
+    name: "August von Knieriem (1887–1978)"
+    countries: [DE]
+    notes: "Juristische Leitung bei IG Farben; 1929 Mitunterzeichner von Standard-Oil-Vereinbarungen. Im IG-Farben-Verfahren 1948 individuell freigesprochen."
+
+  - id: ORG-DE-IG-FARBEN
+    type: chemical_industrial_concern
+    name: "I.G. Farbenindustrie AG (historischer Konzern)"
+    countries: [DE]
+    notes: "Historischer deutscher Chemiekonzern, 1925 gebildet; nicht identisch mit einzelnen Nachfolgegesellschaften und nicht automatisch mit IG Farben i.L. gleichzusetzen."
+
+  - id: ORG-US-STANDARD-OIL-NEW-JERSEY
+    type: petroleum_company
+    name: "Standard Oil Company of New Jersey (historisch)"
+    countries: [US]
+    notes: "Vertragspartner des industriellen IG-Farben-Komplexes 1929; kein allein hieraus belegter Auftraggeber nationalsozialistischer Parteifinanzierung."
+
+  - id: ORG-CH-IG-CHEMIE-INTERHANDEL
+    type: financial_holding
+    name: "IG Chemie Basel / Interhandel (historische Schweizer Holding)"
+    countries: [CH]
+    notes: "1928/29 gegründete Schweizer IG-Farben-Beteiligungsholding; 1945 in Interhandel umbenannt. Laut unabhängiger Expertenkommission endete die rechtliche IG-Bindung bedingungslos im Mai 1940."
+
+  - id: ORG-INT-BIS
+    type: international_central_bank
+    name: "Bank für Internationalen Zahlungsausgleich (BIZ/BIS)"
+    countries: [CH]
+    notes: "1930 in Basel gegründete internationale Finanzinstitution; historische personelle Mandate werden nicht als Nachweis gemeinsamer Goldtransferentscheidungen modelliert."
+
+  - id: ORG-US-GAF-HISTORIC
+    type: chemical_company
+    name: "General Aniline & Film Corporation (GAF, historisch)"
+    countries: [US]
+    notes: "US-amerikanische Fabrikbeteiligungen der IG-Chemie-/Interhandel-Struktur; 1942 durch US-Behörden beschlagnahmt."
+
+  - id: ORG-CH-SBG-HISTORIC
+    type: commercial_bank
+    name: "Schweizerische Bankgesellschaft (SBG, historisch)"
+    countries: [CH]
+    notes: "Seit 1961 nach UEK-Rekonstruktion alleinige Kontrolle über Interhandel; nicht mit späterer UBS rückwirkend rechtsidentisch modelliert."
+
+  - id: ORG-DE-DRESDNER-BANK-1933
+    type: commercial_bank
+    name: "Dresdner Bank (historische Bank, Frankfurt 1933)"
+    countries: [DE]
+    notes: "Nach Nürnberger Prozessprotokoll als angewiesene Abwicklungsbank für IG-Farben-Zahlungsweg 27./28. Februar 1933 genannt; eigene Parteispende nicht daraus bewiesen."
+
+  - id: ORG-DE-DELBRUECK-SCHICKLER-1933
+    type: commercial_bank
+    name: "Delbrück, Schickler & Co. (historisches Bankhaus)"
+    countries: [DE]
+    notes: "Bankkonto Nationale Treuhand, Empfänger des laut Prozessprotokoll von IG Farben angewiesenen Betrags von 400.000 Reichsmark im Februar 1933."
+
+  - id: PRG-DE-NATIONALE-TREUHAND-1933
+    type: financing_account
+    name: "Konto Nationale Treuhand (Wahlkampffonds 1933)"
+    countries: [DE]
+    notes: "Konto und Zahlungszweck für 400.000 Reichsmark am 28.02.1933 laut Nürnberger IG-Farben-Prozessprotokoll, nicht bereits Finanzierung der Kanzlerernennung vom Januar 1933."
+
+  - id: ORG-DE-ANORGANA
+    type: chemical_company
+    name: "Anorgana GmbH (historische IG-Farben-Gesellschaft)"
+    countries: [DE]
+    notes: "Historischer IG-Farben-Betrieb; Aufsichtsratsfunktion von Knieriems belegt kein persönliches Ausführen sämtlicher dortiger Rüstungsmaßnahmen."

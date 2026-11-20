@@ -1608,3 +1608,128 @@ relations:
     period: {start: "1991-12-19", end: "1992-01-24"}
     evidence_level: established
     sources: [SRC-US-DOJ-BCCI-FACTSHEET-19911219, SRC-US-COURT-FIRST-AMERICAN-BCCI-1998]
+
+  - id: REL-DE-IGF-001
+    from: PER-DE-HERMANN-SCHMITZ
+    to: ORG-DE-IG-FARBEN
+    type: executive_role
+    label: "1925 Finanz- und Auslandschef, 1935 bis 1945 Vorstandsvorsitzender; nicht jede Einzelentscheidung persönlich zurechenbar"
+    period: {start: "1925", end: "1945"}
+    evidence_level: strong
+    sources: [SRC-DE-NDB-HERMANN-SCHMITZ]
+
+  - id: REL-DE-IGF-002
+    from: PER-DE-AUGUST-VON-KNIERIEM
+    to: ORG-DE-IG-FARBEN
+    type: corporate_contract_signatory
+    label: "laut Nürnberger Protokoll Unterzeichner der beiden I.G.-Verträge NI-10550 und NI-10430 vom 09.11.1929"
+    period: {start: "1929-11-09"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-IGFARBEN-STANDARD-19471017]
+
+  - id: REL-DE-IGF-003
+    from: ORG-DE-IG-FARBEN
+    to: ORG-US-STANDARD-OIL-NEW-JERSEY
+    type: industrial_patent_and_market_contract
+    label: "09.11.1929 Four-Party Agreement und Division of Fields Agreement über Patente, Technologien und Geschäftsfelder; durch Nürnberger Prozessakten dokumentiert"
+    period: {start: "1929-11-09"}
+    evidence_level: established
+    sources: [SRC-US-NMT-IGFARBEN-STANDARD-19471017]
+
+  - id: REL-DE-IGF-004
+    from: PER-DE-HERMANN-SCHMITZ
+    to: ORG-US-STANDARD-OIL-NEW-JERSEY
+    type: contract_signatory_for_employer
+    label: "unterzeichnete laut Prozessprotokoll 1929 als I.G.-Vertreter die Standard-Oil-Vertragsdokumente; kein privates Finanzierungsverhältnis daraus abgeleitet"
+    period: {start: "1929-11-09"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-IGFARBEN-STANDARD-19471017]
+
+  - id: REL-DE-IGF-005
+    from: PER-DE-AUGUST-VON-KNIERIEM
+    to: ORG-US-STANDARD-OIL-NEW-JERSEY
+    type: contract_signatory_for_employer
+    label: "war laut Prozessprotokoll 1929 im Namen von IG Farben Mitunterzeichner des Standard-IG-Vertrags und der Geschäftsfeld-Abgrenzung"
+    period: {start: "1929-11-09"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-IGFARBEN-STANDARD-19471017]
+
+  - id: REL-CH-IGF-006
+    from: ORG-DE-IG-FARBEN
+    to: ORG-CH-IG-CHEMIE-INTERHANDEL
+    type: historical_contractual_control
+    label: "1928/29 Gründung und durch Optionen, Dividenden- und Vorzugsstimmrechte wirksame IG-Bindung; laut UEK im Mai 1940 bedingungslos aufgehoben"
+    period: {start: "1928", end: "1940"}
+    evidence_level: strong
+    sources: [SRC-CH-UEK-INTERHANDEL-KOENIG]
+
+  - id: REL-CH-IGF-007
+    from: PER-DE-HERMANN-SCHMITZ
+    to: ORG-CH-IG-CHEMIE-INTERHANDEL
+    type: founded_holding
+    label: "als IG-Finanzchef Initiator der Gründung der Basler Finanzholding 1928/29, laut unabhängiger Schweizer Expertenkommission"
+    period: {start: "1928", end: "1929"}
+    evidence_level: strong
+    sources: [SRC-CH-UEK-INTERHANDEL-KOENIG]
+
+  - id: REL-US-IGF-008
+    from: ORG-CH-IG-CHEMIE-INTERHANDEL
+    to: ORG-US-GAF-HISTORIC
+    type: historical_investment_holding
+    label: "hielt US-Chemiefabriken, ab 1939 zu General Aniline & Film zusammengefasst; 1942 in den USA beschlagnahmt"
+    period: {start: "1939", end: "1942"}
+    evidence_level: strong
+    sources: [SRC-CH-UEK-INTERHANDEL-KOENIG]
+
+  - id: REL-CH-IGF-009
+    from: ORG-CH-SBG-HISTORIC
+    to: ORG-CH-IG-CHEMIE-INTERHANDEL
+    type: historical_corporate_control
+    label: "seit 1961 alleinige Kontrolle laut UEK, 1967 Fusion mit Interhandel; keine Fortsetzung deutschen IG-Eigentums daraus abgeleitet"
+    period: {start: "1961", end: "1967"}
+    evidence_level: strong
+    sources: [SRC-CH-UEK-INTERHANDEL-KOENIG]
+
+  - id: REL-INT-IGF-010
+    from: PER-DE-HERMANN-SCHMITZ
+    to: ORG-INT-BIS
+    type: historical_board_membership
+    label: "US National Archives führen Schmitz im historischen BIZ-Verwaltungsrat; genaue Amtsjahre und Beschlüsse nicht daraus ermittelt"
+    evidence_level: strong
+    sources: [SRC-US-NARA-BIS-WARTIME-FOOTNOTE]
+
+  - id: REL-DE-IGF-011
+    from: ORG-DE-IG-FARBEN
+    to: ORG-DE-DRESDNER-BANK-1933
+    type: instructed_payment
+    label: "Schreiben IG-Farben-Bankabteilung vom 27.02.1933 wies die Dresdner Bank zur Zahlung von 400.000 Reichsmark an"
+    period: {start: "1933-02-27", end: "1933-02-28"}
+    evidence_level: established
+    sources: [SRC-US-NMT-IGFARBEN-FUND-NI391-19470902]
+
+  - id: REL-DE-IGF-012
+    from: ORG-DE-DRESDNER-BANK-1933
+    to: ORG-DE-DELBRUECK-SCHICKLER-1933
+    type: documented_payment_path
+    label: "laut Nürnberger Exhibit NI-391 400.000 RM für das Nationale-Treuhand-Konto bei Delbrück, Schickler & Co. als Zahlung angewiesen"
+    period: {start: "1933-02-28"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-IGFARBEN-FUND-NI391-19470902]
+
+  - id: REL-DE-IGF-013
+    from: ORG-DE-DELBRUECK-SCHICKLER-1933
+    to: PRG-DE-NATIONALE-TREUHAND-1933
+    type: bank_account_administration
+    label: "Bankhaus als Empfänger für das Konto Nationale Treuhand bezeichnet; Konto der Wahlkampffinanzierung im Februar 1933"
+    period: {start: "1933-02-28"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-IGFARBEN-FUND-NI391-19470902]
+
+  - id: REL-DE-IGF-014
+    from: PER-DE-AUGUST-VON-KNIERIEM
+    to: ORG-DE-ANORGANA
+    type: supervisory_board
+    label: "laut eigener Aussage ab Frühjahr 1940 Aufsichtsratsmitglied, 1943er Protokoll NI-7377 behandelt; konkrete Produktionsweisungen nicht belegt"
+    period: {start: "1940"}
+    evidence_level: strong
+    sources: [SRC-US-NMT-ANORGANA-NI7377]
