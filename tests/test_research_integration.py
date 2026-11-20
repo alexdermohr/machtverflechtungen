@@ -636,5 +636,77 @@ class ResearchIntegrationTests(unittest.TestCase):
         )
 
 
+    def test_journalism_grants_2012_do_not_imply_media_control(self):
+        root = coverage.ROOT
+        name = "atlantik-bruecke-journalistenreisen-zeit-gmf-1983-2012.md"
+        decision = coverage.read_registry(root)[name]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+        )
+        relations = {
+            x["id"]: x for x in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            x["id"]: x for x in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-atlantik-bruecke.md").read_text(encoding="utf-8")
+        self.assertEqual(len(decision["relation_ids"]), 9)
+        for relation_id in decision["relation_ids"]:
+            with self.subTest(relation=relation_id):
+                relation = relations[relation_id]
+                self.assertIn(relation["label"], graph)
+                self.assertIn(f'id="{relation_id.lower()}"', network)
+                self.assertIn(
+                    f"[{relation_id}](network.md#{relation_id.lower()})", chrono
+                )
+                for source_id in relation["sources"]:
+                    self.assertIn(source_id, sources)
+                    self.assertIn(f'id="{source_id.lower()}"', source_index)
+        self.assertIn(
+            "[REL-DE-AB-JOUR-ORGANIZED-1983-001](network.md#rel-de-ab-jour-organized-1983-001)",
+            focus,
+        )
+        for node in (
+            "ORG-DE-ZEIT-STIFTUNG-1991", "ORG-DE-ROBERT-BOSCH-STIFTUNG",
+            "ORG-US-GMF-2012", "ORG-US-ACG-2012", "ORG-US-AICGS-2012",
+            "ORG-US-FORMER-CONGRESS-MEMBERS-2012",
+            "PRG-US-ARTHUR-BURNS-FELLOWSHIP-2012",
+        ):
+            self.assertIn(node, actors)
+
+        distinct_grants = {
+            "REL-US-GMF-ACG-2012-001": 50000,
+            "REL-US-GMF-AICGS-2012-001": 50000,
+            "REL-US-GMF-FORMER-CONGRESS-2012-001": 90000,
+            "REL-US-GMF-ARTHUR-BURNS-2012-001": 20000,
+        }
+        self.assertEqual(sum(distinct_grants.values()), 210000)
+        for relation_id, amount in distinct_grants.items():
+            relation = relations[relation_id]
+            self.assertIn(f"{amount:,}".replace(",", "."), relation["label"])
+            self.assertEqual(relation["sources"], ["SRC-US-GMF-IRS-990-SCHEDULE-I-2012"])
+            self.assertEqual(relation["evidence_level"], "established")
+        self.assertEqual(sources["SRC-US-GMF-IRS-990-SCHEDULE-I-2012"]["tier"], "A")
+        self.assertEqual(sources["SRC-DE-ZEITST-PECHEL-BUCERIUS-1992"]["tier"], "B")
+        for relation_id in ("REL-DE-AB-JOUR-BOSCH-1992-001",
+                            "REL-DE-AB-JOUR-GMF-1992-001"):
+            self.assertNotIn("period", relations[relation_id])
+        self.assertIn("nicht mit IRS-Grants von 2012 gleichzusetzen",
+                      relations["REL-DE-AB-JOUR-GMF-1992-001"]["label"])
+        self.assertIn("kein Beleg einer inhaltlich beauftragten",
+                      relations["REL-US-GMF-ARTHUR-BURNS-2012-001"]["label"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -2861,3 +2861,27 @@ sources:
   accessed: "2026-11-20"
   locator: "Druck-S. 164 Mitgliedschaft Schreiber bei Atlantik-Brücke; S. 353–355 Schreiber–Kiep–Kohl-Briefwechsel und Kieps Aussage zum Briefkopf (insb. PDF Seite 354) sowie 28.05.1993-Folgeschreiben; S. 374 Schreiber-A.T.G.-Thyssen und 1-Mio.-DM-CDU-Parteispende 1991 (PDF Seite 374); S. 383 Fuchs-Besprechungsbitte 1991"
   notes: "Amtlicher Untersuchungsbericht mit dokumentierten Originalbriefen und Vernehmungszitaten. Der belegte private Lobbyvorstoß ist kein nachgewiesener Vorstandsbeschluss der Atlantik-Brücke; die 1-Mio.-DM-Zuwendung betrifft die CDU, nicht den Verein. Originalseiten 354, 355 und 374 im November 2026 erneut im Bild kontrolliert."
+
+- id: SRC-DE-ZEITST-PECHEL-BUCERIUS-1992
+  title: "ZEIT-Stiftung 50-Jahre-Chronik: Brief Peter E. Pechel an Gerd Bucerius vom 23. Januar 1992"
+  institution: "ZEIT-Stiftung Ebelin und Gerd Bucerius, digital über Universität Hamburg"
+  date: "1992-01-23"
+  type: reproduced_historical_correspondence
+  primary: true
+  tier: B
+  url: https://epub.sub.uni-hamburg.de/epub/volltexte/2022/141244/pdf/ZEITSt_Chronik_50_FINAL.pdf
+  accessed: "2026-11-20"
+  locator: "ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brief vom 23.01.1992, drei Förderer ZEIT-Stiftung, Robert Bosch Stiftung, German Marshall Fund; 121 Teilnehmende 1983–1991, 1992 zwei geplante Gruppen; daneben Chronikposten 1991 10.000 DM"
+  notes: "Reproduktion eines zeitgenössischen Organisatorenbriefs, nicht independently audited Teilnehmer- und Zahlungsdaten; Originalhandschrift samt Anlagen liegt nicht vor. Digitalisierungsserver lieferte bei aktueller automatisierter Bildkontrolle HTTP 403, der Reproduktionswortlaut stammt aus der bereits veröffentlichten quellenkritischen Forschungsakte. Eine konkrete Förderungshöhe von Bosch/GMF 1991 ist nicht belegt."
+
+- id: SRC-US-GMF-IRS-990-SCHEDULE-I-2012
+  title: "German Marshall Fund Form 990, Schedule I (2012), vier US-Zuschüsse für Transatlantic Dialogue"
+  institution: "German Marshall Fund of the United States / U.S. Internal Revenue Service"
+  date: "2012"
+  type: original_tax_return_schedule_i
+  primary: true
+  tier: A
+  url: https://www.gmfus.org/sites/default/files/2012-GMF-PUBLIC-COPY_0.pdf
+  accessed: "2026-11-20"
+  locator: "GMF Form 990 Steuerjahr 2012, PDF-Seite 63 / Nullindex 62, Schedule I Part II: ACG 50.000 USD (EIN 13-1889074), AICGS 50.000 (52-1309525), U.S. Association of Former Members of Congress 90.000 (54-0883744), Arthur Burns Fellowship 20.000 (54-1629976); alle non-cash assistance 0, Zweck Transatlantic Dialogue"
+  notes: "Öffentlich abgegebene Original-Steuererklärung mit vier getrennten Einträgen (Summe 210.000 USD), am 20.11.2026 im PDF-Seitenbild erneut geprüft. Beträge sind berichtete Geldzuschüsse an vier verschiedene Empfänger, keine Einzelzahlung von 210.000 USD an ACG oder Atlantik-Brücke und kein Nachweis bestimmter journalistischer Redaktionsanweisungen."

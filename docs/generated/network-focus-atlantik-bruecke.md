@@ -1,6 +1,6 @@
 # Atlantik-Brücke – direkte Beziehungen
 
-**47 quellengebundene Beziehungen** mit Atlantik-Brücke als Ausgangs- oder Zielakteur. Die Ansicht zeigt **nur unmittelbare Relationen**; sie beweist weder gemeinsame Steuerung noch Beziehungen zwischen den übrigen dargestellten Akteuren.
+**49 quellengebundene Beziehungen** mit Atlantik-Brücke als Ausgangs- oder Zielakteur. Die Ansicht zeigt **nur unmittelbare Relationen**; sie beweist weder gemeinsame Steuerung noch Beziehungen zwischen den übrigen dargestellten Akteuren.
 
 [Alle Fokusansichten](network-graph.md) · [Vollständige Relationstabelle](network.md)
 
@@ -95,6 +95,10 @@ flowchart LR
     N_ORG_DE_BERTELSMANN_STIFTUNG_2008["Bertelsmann Stiftung (Sponsor 2008/09)"]
     N_ORG_DE_BERTELSMANN_STIFTUNG_2008 -->|"Bertelsmann Stiftung wird in der Sponsorenliste des Atlantik-Brücke-Jahresberichts 2008/09 genannt, ohne ausgewiesenen Förderbetrag und ohne Beleg einer konkreten Einflussanweisung"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 S. 82–83: XVII. Expertengespräch mit U.S. European Command und Bundeswehrführung am 16.09.2008 auf Einladung der Deutschen Bank in ihrer Berliner Hauptstadtrepräsentanz; Gastgeberrolle ist kein Beleg einer Waffenbeschaffungsentscheidung"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_PRG_DE_AB_JOURNALISTS_1983_1992["Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992"]
+    N_ORG_DE_ATLANTIK_BRUECKE -->|"Pechels Brief vom 23.01.1992 als Atlantik-Brücke-Kuratoriumsmitglied beschreibt seit 1983 organisierte US-Journalistenreisen mit laut Organisator 121 Teilnehmenden bis 1991; vollständige Namens- und Artikelprüflisten liegen hier nicht vor"| N_PRG_DE_AB_JOURNALISTS_1983_1992
+    N_PER_DE_PETER_E_PECHEL["Peter E. Pechel"]
+    N_PER_DE_PETER_E_PECHEL -->|"Peter E. Pechel nennt sich im am 23.01.1992 reproduzierten Schreiben Mitglied des Kuratoriums der Atlantik-Brücke; seine Angaben zu Teilnehmerzahlen bleiben Organisatorberichte"| N_ORG_DE_ATLANTIK_BRUECKE
 ```
 
 ## Quellen und Evidenz
@@ -103,6 +107,7 @@ flowchart LR
 |---|---|---|---|---|
 | [REL-DE-AB-NEW-BRIDGE-001](network.md#rel-de-ab-new-bridge-001) | → Atlantik-Brücke New Bridge Program | betreibt New Bridge Program (New Bridge to Germany seit 2021) | belegt | [SRC-DE-AB-NEWBRIDGE-PROGRAM-2026](../quellen/index.md#src-de-ab-newbridge-program-2026) |
 | [REL-DE-AB-001](network.md#rel-de-ab-001) | → Atlantik-Brücke Young Leaders Program | betreibt | belegt | [SRC-DE-ATLANTIKBRUECKE-YL](../quellen/index.md#src-de-atlantikbruecke-yl) |
+| [REL-DE-AB-JOUR-ORGANIZED-1983-001](network.md#rel-de-ab-jour-organized-1983-001) | → Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | Pechels Brief vom 23.01.1992 als Atlantik-Brücke-Kuratoriumsmitglied beschreibt seit 1983 organisierte US-Journalistenreisen mit laut Organisator 121 Teilnehmenden bis 1991; vollständige Namens- und Artikelprüflisten liegen hier nicht vor | stark gestützt | [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992](../quellen/index.md#src-de-zeitst-pechel-bucerius-1992) |
 | [REL-DE-AB-AA-SPONSOR-2009-001](network.md#rel-de-ab-aa-sponsor-2009-001) | ← Auswärtiges Amt (Sponsor 2008/09) | Atlantik-Brücke-Jahresbericht Juni 2008–Juni 2009 nennt das Auswärtige Amt ausdrücklich unter den Sponsoren; konkrete Haushaltsstelle, Zahlbetrag und Gegenleistungen im Beleg offen | stark gestützt | [SRC-DE-AB-JB-2008-2009](../quellen/index.md#src-de-ab-jb-2008-2009) |
 | [REL-DE-AB-BERTELSMANN-SPONSOR-2009-001](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) | ← Bertelsmann Stiftung (Sponsor 2008/09) | Bertelsmann Stiftung wird in der Sponsorenliste des Atlantik-Brücke-Jahresberichts 2008/09 genannt, ohne ausgewiesenen Förderbetrag und ohne Beleg einer konkreten Einflussanweisung | stark gestützt | [SRC-DE-AB-JB-2008-2009](../quellen/index.md#src-de-ab-jb-2008-2009) |
 | [REL-DE-TMN-023](network.md#rel-de-tmn-023) | ← Claus Kleber | als Moderator der Diskussion angekündigt | belegt | [SRC-DE-AB-KLEBER-2026](../quellen/index.md#src-de-ab-kleber-2026) |
@@ -131,6 +136,7 @@ flowchart LR
 | [REL-DE-AB-WARBURG-SPONSOR-2009-001](network.md#rel-de-ab-warburg-sponsor-2009-001) | ← M. M. Warburg & CO | Atlantik-Brücke-Jahresbericht 2008/09 nennt M. M. Warburg Bank unter den Sponsoren; Sponsorennennung beweist keinen bezifferten Geldtransfer oder Einfluss auf konkrete Politikentscheidungen | stark gestützt | [SRC-DE-AB-JB-2008-2009](../quellen/index.md#src-de-ab-jb-2008-2009) |
 | [REL-DE-TMN-036](network.md#rel-de-tmn-036) | ← Mathias Döpfner | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |
 | [REL-DE-TMN-003](network.md#rel-de-tmn-003) | ← Matthias Naß | moderierte NATO-Diskussion | belegt | [SRC-DE-AB-NASS-NATO-2016](../quellen/index.md#src-de-ab-nass-nato-2016), [SRC-INT-NATO-WARSAW-SUMMIT-2016](../quellen/index.md#src-int-nato-warsaw-summit-2016) |
+| [REL-DE-AB-JOUR-PECHEL-1992-001](network.md#rel-de-ab-jour-pechel-1992-001) | ← Peter E. Pechel | Peter E. Pechel nennt sich im am 23.01.1992 reproduzierten Schreiben Mitglied des Kuratoriums der Atlantik-Brücke; seine Angaben zu Teilnehmerzahlen bleiben Organisatorberichte | stark gestützt | [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992](../quellen/index.md#src-de-zeitst-pechel-bucerius-1992) |
 | [REL-DE-TMN-043](network.md#rel-de-tmn-043) | ← Peter Frey | Redner beim Frankfurt Luncheon zum Fernsehen in der digitalen Öffentlichkeit | stark gestützt | [SRC-DE-AB-JB-2014-2015](../quellen/index.md#src-de-ab-jb-2014-2015) |
 | [REL-DE-TMN-015](network.md#rel-de-tmn-015) | ← Stefan Kornelius | Gastredner bei Young Leaders-Konferenz | belegt | [SRC-DE-AB-KORNELIUS-YL-2016](../quellen/index.md#src-de-ab-kornelius-yl-2016) |
 | [REL-DE-TMN-034](network.md#rel-de-tmn-034) | ← Stefan von Holtzbrinck | im 2003-Faksimile als beitragende Person im Kreis von Mitgliedern und Freunden aufgeführt | stark gestützt | [SRC-DE-AB-MESSAGE-2003-MIRROR](../quellen/index.md#src-de-ab-message-2003-mirror) |

@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**248 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**250 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -1880,6 +1880,21 @@ Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (B
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-us-gmf-irs-990-schedule-i-2012"></a>
+### German Marshall Fund of the United States / U.S. Internal Revenue Service
+
+**[German Marshall Fund Form 990, Schedule I (2012), vier US-Zuschüsse für Transatlantic Dialogue](https://www.gmfus.org/sites/default/files/2012-GMF-PUBLIC-COPY_0.pdf)**
+
+German Marshall Fund of the United States / U.S. Internal Revenue Service · 2012 · Stufe **A** · Primärquelle · `SRC-US-GMF-IRS-990-SCHEDULE-I-2012`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/2012-GMF-PUBLIC-COPY_0.pdf)
+
+Fundstelle: GMF Form 990 Steuerjahr 2012, PDF-Seite 63 / Nullindex 62, Schedule I Part II: ACG 50.000 USD (EIN 13-1889074), AICGS 50.000 (52-1309525), U.S. Association of Former Members of Congress 90.000 (54-0883744), Arthur Burns Fellowship 20.000 (54-1629976); alle non-cash assistance 0, Zweck Transatlantic Dialogue
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="">
 
 <a id="src-de-gsp-bpa-vertrag-1953"></a>
@@ -2968,6 +2983,21 @@ Verfassungsgericht des Landes Brandenburg · 2004-12-09 · Stufe **A** · Primä
 [Seite öffnen](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359)
 
 Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kaiser-Nicht verfassungswidrig, im Übrigen Antrag zurückgewiesen; Gründe B.II/B.III zu individueller Abwägung gegenüber Nichtmitglied Heinz Vietze
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1992">
+
+<a id="src-de-zeitst-pechel-bucerius-1992"></a>
+### ZEIT-Stiftung Ebelin und Gerd Bucerius, digital über Universität Hamburg
+
+**[ZEIT-Stiftung 50-Jahre-Chronik: Brief Peter E. Pechel an Gerd Bucerius vom 23. Januar 1992](https://epub.sub.uni-hamburg.de/epub/volltexte/2022/141244/pdf/ZEITSt_Chronik_50_FINAL.pdf)**
+
+ZEIT-Stiftung Ebelin und Gerd Bucerius, digital über Universität Hamburg · 1992-01-23 · Stufe **B** · Primärquelle · `SRC-DE-ZEITST-PECHEL-BUCERIUS-1992`
+
+[PDF öffnen](https://epub.sub.uni-hamburg.de/epub/volltexte/2022/141244/pdf/ZEITSt_Chronik_50_FINAL.pdf)
+
+Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brief vom 23.01.1992, drei Förderer ZEIT-Stiftung, Robert Bosch Stiftung, German Marshall Fund; 121 Teilnehmende 1983–1991, 1992 zwei geplante Gruppen; daneben Chronikposten 1991 10.000 DM
 
 </article>
 
