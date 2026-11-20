@@ -1169,3 +1169,81 @@ entities:
     name: "Sven Sch. (anonymisierter Adressat einer Warnung, 2001)"
     countries: [DE]
     notes: "Im parlamentarischen Sondervotum als Rechtsextremist und Musik-/Versandhändler beschriebener Empfänger eines von Christian K. berichteten Anrufs. Keine aus der Rolle ableitbare Tatverurteilung."
+
+  - id: PER-DE-WALTHER-LEISLER-KIEP
+    type: person
+    name: "Walther Leisler Kiep (1926–2016)"
+    countries: [DE]
+    notes: "Historischer CDU-Bundesschatzmeister und Atlantik-Brücke-Vorsitzender bzw. Ehrenvorsitzender. Bundestag 14/9300 dokumentiert 1991er Parteispendenannahme und 1993er Brief an Kohl auf Atlantik-Brücke-Briefkopf; keine daraus nachgewiesene institutionelle Vereinsspende."
+
+  - id: PER-DE-KARLHEINZ-SCHREIBER
+    type: person
+    name: "Karlheinz Schreiber"
+    countries: [DE]
+    notes: "Im Bundestagsbericht 14/9300 als Waffen-/Thyssen-Lobbyist und damaliges Atlantik-Brücke-Mitglied erwähnt; historische Person, kein hier aus dem Graph allein abgeleiteter allgemeiner Korruptionsschuldvorwurf."
+
+  - id: PER-DE-HELMUT-KOHL
+    type: person
+    name: "Helmut Kohl (1930–2017)"
+    countries: [DE]
+    notes: "Bundeskanzler 1982–1998, 1993 Empfänger von Kieps Schreiben zum kanadischen TH-495-Projekt. Der Bundestagsbericht belegt keine damit kausal bewirkte kanadische Rüstungsvergabe."
+
+  - id: ORG-DE-CDU-1991
+    type: historical_political_party
+    name: "Christlich Demokratische Union Deutschlands (CDU, 1991)"
+    countries: [DE]
+    notes: "Bundespartei als Empfängerin der im Bundestags-Untersuchungsbericht rekonstruierten verdeckten 1-Mio.-DM-Parteispende 1991; keine Zahlung an die Atlantik-Brücke daraus ableitbar."
+
+  - id: ORG-DE-THYSSEN-1991
+    type: historical_industrial_concern
+    name: "Thyssen-Konzern (historisch, 1991–1993)"
+    countries: [DE]
+    notes: "Historischer Rüstungsindustrie-/Stahlkonzern im Zusammenhang mit Fuchs-Spürpanzern und der Bear-Head/TH-495-Lobbygeschichte. Nicht rückwirkend identisch mit späteren fusionierten Rechtsträgern."
+
+  - id: ORG-PA-ATG-1991
+    type: historical_offshore_company
+    name: "A.T.G. (panamaische Gesellschaft, 1991)"
+    countries: [PA]
+    notes: "Laut Bundestag 14/9300 vom Lobbyisten Schreiber wirtschaftlich kontrollierte Gesellschaft mit Konto beim Schweizerischen Bankverein; 1991er Thyssen-Zahlweg ist ein dokumentierter Einzelfall."
+
+  - id: ORG-DE-DEUTSCHE-BANK-2008
+    type: commercial_bank
+    name: "Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09)"
+    countries: [DE]
+    notes: "Historische Sponsoren-Eigennennung und Gastgeber 16.09.2008 eines Atlantik-Brücke-Militärgesprächs in Berliner Hauptstadtrepräsentanz; keine im Bericht bezifferte Einzelsumme oder Beschaffungsweisung."
+
+  - id: ORG-DE-DZ-BANK-2008
+    type: commercial_bank
+    name: "DZ BANK (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "Als Atlantik-Brücke-Sponsor im Eigenjahresbericht 2008/09 genannt, ohne individuellen Betrag oder Art einer Gegenleistung."
+
+  - id: ORG-DE-BUNDESBANK-2008
+    type: central_bank
+    name: "Deutsche Bundesbank (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "In historischer Atlantik-Brücke-Sponsorenliste 2008/09 genannt, ohne nachgewiesene heutige Förderung oder genaues haushaltsrechtliches Instrument."
+
+  - id: ORG-DE-AUSWAERTIGES-AMT-2008
+    type: government_ministry
+    name: "Auswärtiges Amt (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "Im Atlantik-Brücke-Jahresbericht 2008/09 als Sponsor aufgeführt; konkreter Förderposten, Jahresbetrag und programmatische Bedingungen im Quellenbeleg offen."
+
+  - id: ORG-DE-VOLKSWAGEN-2008
+    type: industrial_company
+    name: "Volkswagen (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "Historisch in der öffentlich zugänglichen Sponsorenliste der Atlantik-Brücke für 2008/09 genannt; keine daraus bewiesene aktuelle Förderung."
+
+  - id: ORG-DE-STIFTUNG-VAN-MEETEREN
+    type: charitable_foundation
+    name: "Stiftung van Meeteren (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "Als historische Atlantik-Brücke-Sponsorenorganisation 2008/09 namentlich bestätigt, Betrag und konkrete geförderte Veranstaltung offen."
+
+  - id: ORG-DE-BERTELSMANN-STIFTUNG-2008
+    type: charitable_foundation
+    name: "Bertelsmann Stiftung (Sponsor 2008/09)"
+    countries: [DE]
+    notes: "Im historischen Atlantik-Brücke-Eigenjahresbericht 2008/09 als Sponsor aufgeführt; Sponsoring beweist keine koordinierte redaktionelle Kontrolle."

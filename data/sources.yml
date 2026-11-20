@@ -306,8 +306,8 @@ sources:
   url: https://www.atlantik-bruecke.org/wp-content/uploads/jahresbericht-2008-2009.pdf
   archive_url: https://www.hintergrund.de/wp-content/uploads/2015/09/jahresbericht-2008-2009.pdf
   accessed: '2026-10-03'
-  locator: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
-  notes: Offizieller historischer Jahresbericht; Original-URL derzeit 404, zusätzlich ist eine Spiegelkopie auffindbar. Die Ebeling-Nennung wird nur als schwache Foto-/Namensspur gewertet.
+  locator: "Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift; PDF-Seite 7: acht namentlich aufgeführte Sponsoren 2008/09; PDF-Seite 42: EUCOM/Bundeswehr-Expertengespräch 16.09.2008 auf Einladung der Deutschen Bank in deren Berliner Räumen"
+  notes: Offizieller historischer Jahresbericht; Original-URL derzeit 404, zusätzlich ist eine Spiegelkopie auffindbar. Die Ebeling-Nennung wird nur als schwache Foto-/Namensspur gewertet. Sponsorennamen und Veranstaltungsort sind Eigenaussagen des Vereins im archivierten PDF; Beträge, vertragliche Sponsoringart und politische Gegenleistungen daraus nicht ableitbar.
 
 - id: SRC-DE-AB-JB-2009-2010
   title: Jahresbericht der Atlantik-Brücke 2009/2010
@@ -2850,3 +2850,14 @@ sources:
   accessed: "2026-11-20"
   locator: "Druck-S. 200–205, PDF-Bild 200 (0-basierter Index 199): 06.02.2001 abgehörter Anruf Christian K. zu Sven Sch. 15:54; Warnung und auf 07.02. vorgezogene Durchsuchung, Befragungen; S. 169/216: späteres Urteil gegen Quelle referiert"
   notes: "Parlamentarische Minderheitsbewertung mit Akten-/Zeugenwiedergabe, Original-TKÜ und vollständiger strafgerichtlicher 2003er Verurteilungsakt hier nicht unabhängig eingesehen; keine verifizierte Steuerung der NaBe-Anschläge."
+- id: SRC-DE-BT-PARTEISPENDEN-KIEP-SCHREIBER-2002
+  title: "Deutscher Bundestag, Drs. 14/9300 – Bericht des 1. Untersuchungsausschusses zu Parteispenden"
+  institution: "Deutscher Bundestag, 14. Wahlperiode"
+  date: "2002-06-13"
+  type: original_parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/14/093/1409300.pdf
+  accessed: "2026-11-20"
+  locator: "Druck-S. 164 Mitgliedschaft Schreiber bei Atlantik-Brücke; S. 353–355 Schreiber–Kiep–Kohl-Briefwechsel und Kieps Aussage zum Briefkopf (insb. PDF Seite 354) sowie 28.05.1993-Folgeschreiben; S. 374 Schreiber-A.T.G.-Thyssen und 1-Mio.-DM-CDU-Parteispende 1991 (PDF Seite 374); S. 383 Fuchs-Besprechungsbitte 1991"
+  notes: "Amtlicher Untersuchungsbericht mit dokumentierten Originalbriefen und Vernehmungszitaten. Der belegte private Lobbyvorstoß ist kein nachgewiesener Vorstandsbeschluss der Atlantik-Brücke; die 1-Mio.-DM-Zuwendung betrifft die CDU, nicht den Verein. Originalseiten 354, 355 und 374 im November 2026 erneut im Bild kontrolliert."
