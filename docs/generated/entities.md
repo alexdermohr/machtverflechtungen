@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**190 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**201 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -19,6 +19,7 @@
 | Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US | [2](network.md#rel-us-bbf-003) |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE | [3](network.md#rel-de-tmn-021) |
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE | [1](network.md#rel-de-gehlen-005) |
+| Emil Puhl (1889–1962) | person | `PER-DE-EMIL-PUHL` | DE | [3](network.md#rel-int-bis-1939-003) |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [1](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
@@ -28,9 +29,10 @@
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE | – |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
+| Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
 | Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE | [1](network.md#rel-de-gehlen-006) |
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE | [2](network.md#rel-de-da-003) |
-| Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [4](network.md#rel-de-igf-001) |
+| Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
@@ -41,6 +43,7 @@
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE | [4](network.md#rel-de-tmn-019) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [4](network.md#rel-de-tmn-017) |
+| Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
@@ -51,6 +54,7 @@
 | Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE | [1](network.md#rel-de-da-004) |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE | [1](network.md#rel-de-cumex-002) |
 | Oliver Cromwell (1599–1658) | person | `PER-GB-OLIVER-CROMWELL` | GB | [1](network.md#rel-gb-crom-1653-001) |
+| Oswald Pohl (1892–1951) | person | `PER-DE-OSWALD-POHL` | DE | [1](network.md#rel-de-ss-gold-1942-001) |
 | Otto Lenz | person | `PER-DE-OTTO-LENZ` | DE | [1](network.md#rel-de-kmm-010) |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE | [1](network.md#rel-de-tmn-026) |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE | [1](network.md#rel-de-tmn-043) |
@@ -76,6 +80,7 @@
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
+| Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
 | Wilhelm Classen | person | `PER-DE-WILHELM-CLASSEN` | DE | [1](network.md#rel-de-kmm-007) |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE | – |
 | William Wilf Browning | person | `PER-GB-WILLIAM-BROWNING` | GB | [1](network.md#rel-de-ukc18-003) |
@@ -98,7 +103,8 @@
 | Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT | [3](network.md#rel-int-interalpha-1979-001) |
 | Banco Central del Uruguay (BCU) | central_bank | `ORG-UY-BANCO-CENTRAL-URUGUAY` | UY | [1](network.md#rel-uy-bafisud-bcu-1984-001) |
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
-| Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [1](network.md#rel-int-igf-010) |
+| Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
+| Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
@@ -128,6 +134,9 @@
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
 | Deutsche Bürgerinitiative | organization | `ORG-DE-DEUTSCHE-BUERGERINITIATIVE` | DE | [2](network.md#rel-de-da-002) |
+| Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb) | ss_owned_company | `ORG-DE-DEST-SS-HISTORIC` | DE | [2](network.md#rel-de-ss-dest-1941-001) |
+| Deutsche Golddiskontbank (DEGO, historisch) | historical_financial_institution | `ORG-DE-DEGO-HISTORIC` | DE | [1](network.md#rel-de-ss-dest-1939-001) |
+| Deutsche Reichsbank (historisch, 1933–1945) | central_bank | `ORG-DE-REICHSBANK-HISTORIC` | DE | [5](network.md#rel-de-rb-1939-001) |
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
@@ -146,7 +155,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
-| I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [5](network.md#rel-de-igf-001) |
+| I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
@@ -170,6 +179,8 @@
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
+| Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
+| Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |

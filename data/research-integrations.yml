@@ -202,3 +202,42 @@ studies:
     relation_ids:
       - REL-DE-CUMEX-001
       - REL-DE-CUMEX-002
+
+  biz-bank-of-england-standardoil-rockefeller-mccloy-1930-1953.md:
+    sha256: baffb792b42018e732d60bb602f14577a7291f5b59fce8ad5953148146fd77f6
+    status: network
+    relation_ids:
+      - REL-DE-IGF-003
+      - REL-DE-IGF-011
+      - REL-DE-IGF-012
+      - REL-DE-IGF-013
+      - REL-INT-IGF-010
+      - REL-INT-BIS-1939-001
+      - REL-INT-BIS-1939-002
+      - REL-INT-BIS-1939-003
+      - REL-INT-BIS-1939-004
+      - REL-DE-RB-1939-001
+      - REL-DE-RB-1940-001
+      - REL-GB-BIS-GOLD-1939-001
+      - REL-INT-BIS-GOLD-1939-001
+      - REL-DE-BIS-GOLD-1945-001
+      - REL-DE-CH-SNB-GOLD-1945-001
+
+  schroeder-funk-puhl-himmler-biz-raubgold-1933-1949.md:
+    sha256: 1c4c6b7c35a765c60a2e7ed90bed25cd051c683c0e8c77cce3402b3c42fd29ed
+    status: network
+    relation_ids:
+      - REL-INT-IGF-010
+      - REL-INT-BIS-1939-001
+      - REL-INT-BIS-1939-002
+      - REL-INT-BIS-1939-003
+      - REL-INT-BIS-1939-004
+      - REL-DE-RB-1939-001
+      - REL-DE-RB-1940-001
+      - REL-DE-BIS-GOLD-1945-001
+      - REL-DE-SS-FUND-1943-001
+      - REL-DE-SS-FUND-1943-002
+      - REL-DE-SS-FUND-1943-003
+      - REL-DE-SS-DEST-1941-001
+      - REL-DE-SS-DEST-1939-001
+      - REL-DE-SS-GOLD-1942-001

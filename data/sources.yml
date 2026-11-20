@@ -2685,3 +2685,86 @@ sources:
   accessed: "2026-11-20"
   locator: "EIN 20-2174611, 2021 IRS-990-EZ officer/director listings; 2022 filing for later tenure; original image of the individual officer line not independently re-verified in this update"
   notes: "IRS-abgeleitete öffentliche Sekundärprojektion laut Forschungsdossier: Friedrich Merz wird 2021 als Director, 2022 bis Mai geführt. Der in der Webansicht eingeklappte Volltext aller Directors und die individuelle Originalfiling-Bildseite wurden hier nicht nochmals geprüft; die Quellenlage erlaubt keine Aussage über ein Mandat 2026."
+- id: SRC-INT-BIS-ANNUAL-REPORT-1939
+  title: "Bank für Internationalen Zahlungsausgleich, 9. Jahresbericht 1938/39 (8. Mai 1939)"
+  institution: "Bank für Internationalen Zahlungsausgleich"
+  date: "1939-05-08"
+  type: original_central_bank_annual_report
+  primary: true
+  tier: A
+  url: https://www.bis.org/publications/annual-report-1939
+  accessed: "2026-11-20"
+  locator: "PDF S. 148–150: Veränderungen im Verwaltungsrat und 1939er Gremienliste. Funk, Schmitz, von Schröder Verwaltungsräte; Emil Puhl nur unter Stellvertreter"
+  notes: "Zeitgenössischer BIS-Jahresbericht. Der frühere Archivlink zur deutschen PDF-Fassung war beim erneuten Onlineabruf nicht zuverlässig erreichbar; die offizielle Veröffentlichungsseite bleibt referenziert."
+
+- id: SRC-INT-BIS-HISTORY-1939-GOLD
+  title: "History of the Bank for International Settlements: WWII Czech gold and Reichsbank payments"
+  institution: "Bank für Internationalen Zahlungsausgleich"
+  date: null
+  type: institutional_archival_history
+  primary: true
+  tier: A
+  url: https://www.bis.org/about/history/overview
+  accessed: "2026-11-20"
+  locator: "Abschnitt BIS during the Second World War: zwangsveranlasster tschechoslowakischer Goldtransfer 1939, Reichsbank-Goldzinsen, später als geraubt ermittelte 3,7 Tonnen und Rückgabe 1948"
+  notes: "Institutionelle Selbstdarstellung nach Archivuntersuchungen. Zentralbankraubgold nicht mit persönlich geraubtem Melmer-Opfergold gleichsetzen."
+
+- id: SRC-CH-UEK-REICHSBANK-SNB-GOLD
+  title: "Die Schweiz und die Goldtransaktionen im Zweiten Weltkrieg, Band 16 – Zusammenfassung"
+  institution: "Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg"
+  date: null
+  type: independent_historical_inquiry
+  primary: false
+  tier: B
+  url: https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/16goldtransaktionen.htm
+  accessed: "2026-11-20"
+  locator: "Abschnitte Grundlagen und Die Goldtransaktionen zwischen der Schweiz und dem Dritten Reich: 77 %, 94/6 %, 1,6–1,7 Mrd CHF brutto, 1,2 Mrd CHF SNB auf eigene Rechnung"
+  notes: "Archivalische Untersuchung, grenzt rechtmäßige Reserven, erzwungene Vermögensübertragung und geraubtes Gold sowie Depot- und Eigenkäufe ausdrücklich voneinander ab."
+
+- id: SRC-US-IMT-EC453-SCHROEDER-HIMMLER-1943
+  title: "EC-453, Kurt von Schröder to Himmler, 21 September 1943; Sonderkonto S contributor list"
+  institution: "International Military Tribunal Nürnberg, Harvard Law School Library"
+  date: "1943-09-21"
+  type: original_trial_exhibit
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/documents/451121-letter-to-himmler-and-list?mode=image
+  accessed: "2026-11-20"
+  locator: "EC-453 / Exhibit USA-322, Seiten 1–2: Zuschreibung 100.000 Reichsmark an I.G. Farben/Bütefisch/Hermann Schmitz; Gesamtbetrag Sonderkonto S laut Brief 1.100.000 RM"
+  notes: "Originaler Brief mit überlieferter Liste, im IMT vorgetragen. Belegt Schröders Verzeichnis und Angabe eingegangener Beiträge, nicht den zugehörigen, hier nicht eingesehenen Einzelkontoauszug und nicht den Endzweck jeder Zahlung."
+
+- id: SRC-US-NMT-MINISTRIES-PUHL-1949
+  title: "United States v. Weizsaecker et al. (Ministries Case), judgment on Emil Puhl and SS assets"
+  institution: "U.S. Military Tribunal IV, Harvard Law School Library"
+  date: "1949-04-12"
+  type: military_court_judgment
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=28627
+  accessed: "2026-11-20"
+  locator: "Green Series Bd. 14, gedruckte S. 609–620 zu Opferwerten und S. 850–852 zu DEST-Finanzierung; Unterscheidung Puhls Verurteilung unter Count 5 und Freispruch unter Count 7"
+  notes: "Gerichtliche Feststellungen zur SS-Wertannahme und unterschiedlichen individuellen Verantwortlichkeit; nicht dasselbe wie BIZ-Zentralbankgoldgeschäfte."
+
+- id: SRC-US-IMT-PUHL-AFFIDAVIT-3944PS
+  title: "Emil Puhl affidavit 3944-PS regarding Reichsbank receipt of SS victim assets"
+  institution: "International Military Tribunal, Harvard Law School Library"
+  date: "1946-05-03"
+  type: sworn_trial_statement
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/documents/75-affidavit-concerning-arrangements-by?mode=text
+  accessed: "2026-11-20"
+  locator: "Absätze 2–7: von Funk berichtete Absprache mit Himmler, Puhls Kontakte zu Oswald Pohl und Annahme/Verwertung von KZ-Opferwerten"
+  notes: "Zeitgenössische Eigenaussage später teilweise relativiert, mit unabhängigen Dokumenten und widersprechenden Zeugenaussagen im Urteil 1949 abgeglichen."
+
+- id: SRC-US-NMT-DEST-FUNK-19410519
+  title: "Ministries Case, testimony on Funk-signed DEST loan instruction 19 May 1941"
+  institution: "U.S. Military Tribunal IV, Harvard Law School Library"
+  date: "1948-05-19"
+  type: military_court_transcript
+  primary: true
+  tier: A
+  url: https://nuremberg.law.harvard.edu/transcripts/12-transcript-for-nmt-11-ministries-case?seq=5889
+  accessed: "2026-11-20"
+  locator: "Verhandlung 19. Mai 1948: im Gericht verlesene Kreditweisung Funks vom 19.05.1941 an SS-Unternehmen DEST, 8 Mio. RM Rahmen"
+  notes: "Kreditbewilligung bzw. -auftrag, nicht Beleg der vollständigen Auszahlung. Getrennt vom 1939er Kreditrahmen von 8 Mio. RM."
