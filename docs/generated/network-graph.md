@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**271 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**280 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -526,6 +526,21 @@ flowchart LR
     N_PER_IT_EUGENIO_SCALFARI["Eugenio Scalfari (1924–2022)"]
     N_PER_IT_EUGENIO_SCALFARI -->|"Eugenio Scalfari war 1979 Vertragsunterzeichner. In seiner Aussage vom 13.05.1981 bestritt er, dass Bankzugangs- und Wettbewerbsverbotszusätze aus einer Gelli-Notiz Teil des unterzeichneten Endtextes waren"| N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979
     N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979 -->|"Unterzeichneter Vertrag 05.07.1979 regelt gegebenenfalls gemeinsame Presseinvestitionen, Konsultationen und Bemühen um objektive nicht-feindliche Berichterstattung zwischen Verlagen; unbewiesene redaktionelle Weisung und bestrittene Banco-Ambrosiano-Zusatzklausel nicht als Vertragsinhalt modelliert"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_ORG_DE_BMWI_2019["Bundesministerium für Wirtschaft und Energie (BMWi, 2019)"]
+    N_PRG_DE_ERP_TRANSATLANTIK_2019["Deutsches Programm für transatlantische Begegnung (ERP-Sondervermögen)"]
+    N_ORG_DE_BMWI_2019 -->|"ERP-Wirtschaftsplangesetz 2019 Titel 681 03-029: BMWi bewilligt im Einvernehmen mit interministeriellem Ausschuss; Bundesansatz 3,6 Mio. EUR für das gesamte Transatlantik-Begegnungsprogramm, weder ACG-Bewilligung noch tatsächlich ausgezahlter ACG-Betrag"| N_PRG_DE_ERP_TRANSATLANTIK_2019
+    N_PRG_DE_ERP_TRANSATLANTIK_2019 -->|"ACG-Jahresbericht 2018 gedruckte S. 19 führt European Recovery Program – Transatlantic Program in Kategorie '$50,000 and above' als Institutional/Grant Support (blauer Punkt); Kategoriebetrag ist kein geprüfter Kontotransfer und keinem einzelnen Projekt zugeordnet"| N_ORG_US_ACG_2012
+    N_PRG_US_ACG_CITIES_2019["ACG Transatlantic Cities of Tomorrow – Digitalization and Future of Work (2019)"]
+    N_PRG_DE_ERP_TRANSATLANTIK_2019 -->|"ACG nennt für das 2019er Transatlantic Cities of Tomorrow-Programm in USA (29.04.–04.05.) und Deutschland (30.06.–06.07.) Unterstützung über das Bundes-ERP-Programm des BMWi; beide Reisen gehören zu einem Förderprogramm, nicht zu zwei nachgewiesenen Bundesüberweisungen"| N_PRG_US_ACG_CITIES_2019
+    N_ORG_US_ACG_2012 -->|"ACG organisierte laut zwei offiziellen Eigenberichten 2019 das Austauschprogramm mit 16 Teilnehmenden bei einer USA-Reise Ende April/Anfang Mai und einem Gegenbesuch in Deutschland Anfang Juli; Teilnehmerzahl nicht doppelt als 32 individuelle Personen gezählt"| N_PRG_US_ACG_CITIES_2019
+    N_PRG_US_ACG_CITIES_2019 -->|"ACG-Gegenbesuchsbericht 2019 beschreibt Delegationskontakt mit Vertretern des BMWi zu Digitalisierung und Industrie 4.0 in Berlin; kein Nachweis einer Gesetzesänderung, Förderentscheidung im Gespräch oder individuellen Gegenleistung"| N_ORG_DE_BMWI_2019
+    N_ORG_DE_BDI_2019["Bundesverband der Deutschen Industrie (BDI, 2019)"]
+    N_PRG_US_ACG_CITIES_2019 -->|"ACG berichtet einen Berliner Austausch der 16-köpfigen Delegation mit Vertretern des Bundesverbands der Deutschen Industrie zur Digitalisierungsstrategie 2019; kein belegter Lobbyerfolg oder gemeinsam formulierter Gesetzestext"| N_ORG_DE_BDI_2019
+    N_PER_DE_MARJA_LIISA_VOELLERS_2019["Marja-Liisa Völlers (Bundestagsabgeordnete 2019)"]
+    N_PER_DE_MARJA_LIISA_VOELLERS_2019 -->|"Die damalige Bundestagsabgeordnete Marja-Liisa Völlers diskutierte laut ACG-Projektbericht im Juli 2019 mit Austauschdelegierten die Modernisierung beruflicher Bildung in digitalisierter Arbeitswelt; kein Nachweis einer dadurch ausgelösten parlamentarischen Initiative"| N_PRG_US_ACG_CITIES_2019
+    N_PRG_US_ACG_WARBURG_2018["ACG Eric M. Warburg Chapters – ERP-finanzierte Rednertouren (2018)"]
+    N_PRG_DE_ERP_TRANSATLANTIK_2019 -->|"ACG-Jahresbericht 2018, gedruckte S. 9: ERP Program for Transatlantic Encounters unterstützte ausdrücklich zehn Rednertouren der Warburg-Chapters-Reihe Restoring Trust Through Dialogue; mehr als 70 Chapters-Veranstaltungen sind keine 70 ERP-finanzierten Reisen"| N_PRG_US_ACG_WARBURG_2018
+    N_ORG_US_ACG_2012 -->|"ACG-Jahresbericht 2018 dokumentiert eigene Eric-M.-Warburg-Chapters mit 21 regionalen Gruppen und zehn ERP-geförderten Speaker Tours. Nennung eines einzelnen Referenten auf derselben Seite beweist keine persönliche öffentliche Zahlung"| N_PRG_US_ACG_WARBURG_2018
 ```
 
 [Zur Relationstabelle](network.md)

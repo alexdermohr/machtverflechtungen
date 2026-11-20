@@ -203,7 +203,7 @@ sources:
   tier: A
   url: https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf
   accessed: '2026-10-03'
-  locator: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018
+  locator: "PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018; gedruckte S. 9/PDF 11: ausdrücklich zehn durch ERP finanzierte Warburg-Chapters-Rednertouren; gedruckte S. 19/PDF 21: ERP-Transatlantic Program unter $50,000 and above mit blauer Kennzeichnung Institutional/Grant Support, nicht Mitgliedsbeitrag"
   notes: Offizieller Jahresbericht des American Council on Germany; trägt das Datum derselben gemeinsam mit der Atlantik-Brücke veranstalteten Konferenz.
 - id: SRC-DE-AB-DIEKMANN-2021
   title: Deutschland und die digitale Transformation – Verlieren wir den Anschluss?
@@ -2932,3 +2932,50 @@ sources:
   accessed: "2026-11-20"
   locator: "Doc. XXIII n. 2-quater/3/XIII, gedruckte S. 140 / PDF-Bildseite 148 unterzeichneter Vertrag mit Koordination und nicht-feindlicher Berichterstattung; S. 141–143 / PDF 149–151 Scalfari-Vernehmung vom 13.05.1981, insbesondere S. 143 Abgrenzung von Gelli zugeschriebener Banco-Ambrosiano-Zugangsklausel"
   notes: "Originale Vertragsurkunde und bezeugte Gegenposition; der Text belegt eine vereinbarte Pressekooperation, aber nicht ihre effektive Umsetzung, eine P2-Mitgliedschaft Caracciolos/Scalfaris oder eine redaktionelle Weisung an einzelne Autoren."
+- id: SRC-US-ACG-CITIES-OHIO-2019
+  title: "Transatlantic Cities of Tomorrow in Ohio and Pennsylvania, ACG Projektbericht"
+  institution: "American Council on Germany"
+  date: "2019"
+  type: original_organizer_project_report
+  primary: true
+  tier: A
+  url: https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/ohio-and-pennsylvania/
+  accessed: "2026-11-20"
+  locator: "Beginn 29.04.–04.05.2019, 16 Teilnehmende, Dortmund/Darmstadt sowie Cleveland/Pittsburgh/Youngstown; letzter Absatz: organisiert und verwaltet durch ACG, finanziell unterstützt von Transatlantic Program/ERP des BMWi"
+  notes: "Selbstauskunft des Organisators zum Projekt und Förderer. Kein behördlicher Zuwendungsbescheid, keine ACG-Kontobuchung und keine nachgewiesene bestimmte Auszahlungssumme."
+
+- id: SRC-US-ACG-CITIES-GERMANY-2019
+  title: "Transatlantic Cities of Tomorrow in Dortmund and Darmstadt, ACG Gegenbesuchsbericht"
+  institution: "American Council on Germany"
+  date: "2019"
+  type: original_organizer_project_report
+  primary: true
+  tier: A
+  url: https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/dortmund-and-darmstadt/
+  accessed: "2026-11-20"
+  locator: "30.06.–06.07.2019 Gegenreise 16 Teilnehmende nach Berlin/Dortmund/Darmstadt; Absatz 3 Kontakte BMWi/BDI, Absatz 5 Bundestagsabgeordnete Marja-Liisa Völlers, Schlussabsatz ERP-/BMWi-Unterstützung"
+  notes: "Teil desselben 2019er Austauschprogramms wie Ohio/Pennsylvania. ACG-Bericht belegt Kontakt- und Projektförderungsangaben, nicht die Genehmigung eines Gesetzes, zwei unabhängige Zuschüsse oder einen tatsächlichen Bundeskontotransfer."
+
+- id: SRC-DE-AA-ERP-TRANSATLANTIK-PROGRAM
+  title: "German Program for Transatlantic Encounters – offizielle Förderbeschreibung"
+  institution: "Auswärtiges Amt / deutsche Auslandsvertretungen in den USA"
+  date: null
+  type: official_current_government_program_description
+  primary: true
+  tier: A
+  url: https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042
+  accessed: "2026-11-20"
+  locator: "Finanzierung aus ERP-Sondervermögen des Wirtschaftsministeriums; Zielsetzungen Förderung von Kultur/Bildung/Wirtschaft, Multiplikatoren und öffentlicher Meinungsbildung; keine 2018/19er Einzelbewilligungsakte"
+  notes: "Amtliche heutige Programmbeschreibung, kein rückwirkender Einzelbeweis für Zahlungszeitpunkt, Betragszuweisung oder die tatsächliche Durchführung einer 2019er Rechnung."
+
+- id: SRC-DE-BGBL-ERP-2019-TITLE-68103
+  title: "ERP-Wirtschaftsplangesetz 2019, Bundesgesetzblatt 2018 I Nr. 42, Titel 681 03-029"
+  institution: "Bundesgesetzblatt, Bundesrepublik Deutschland"
+  date: "2018-11-29"
+  type: original_promulgated_government_budget_law
+  primary: true
+  tier: A
+  url: https://media.offenegesetze.de/bgbl1/2018/bgbl1_2018_42.pdf
+  accessed: "2026-11-20"
+  locator: "BGBl I 2018 S. 2218 / PDF-Bildseite 10 (1-basiert), Titel 681 03-029, Haushaltsansatz 3.600 T€ für 2019; S. 2219/PDF 11: BMWi/Interministerieller Ausschuss und mehrjährige Programmautorisierung"
+  notes: "Gesetzlicher Gesamtansatz von 3,6 Mio. EUR für alle transatlantischen Begegnungsprojekte 2019, KEINE ACG-Einzelbewilligung, KEINE tatsächlich geflossene 3,6-Mio.-Überweisung. Die relevanten zwei amtlichen PDF-Seiten am 20.11.2026 visuell gegengeprüft."

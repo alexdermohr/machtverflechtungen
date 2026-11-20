@@ -780,5 +780,76 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("REL-IT-AMBROSIANO-RIZZOLI-1980-001", rizzolifocus)
 
 
+    def test_acg_erp_program_grants_and_meetings_stay_distinct(self):
+        root = coverage.ROOT
+        study = "acg-erp-projektfoerderung-2018-2019.md"
+        entry = coverage.read_registry(root)[study]
+        self.assertEqual(entry["status"], "network")
+        self.assertEqual(entry["sha256"], hashlib.sha256(
+            (root / "research" / study).read_bytes()
+        ).hexdigest())
+        self.assertEqual(len(entry["relation_ids"]), 9)
+        relations = {
+            r["id"]: r for r in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            s["id"]: s for s in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chronology = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        sources_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        for relation_id in entry["relation_ids"]:
+            with self.subTest(relation=relation_id):
+                row = relations[relation_id]
+                self.assertIn(row["label"], graph)
+                self.assertIn(f'id="{relation_id.lower()}"', network)
+                self.assertIn(
+                    f"[{relation_id}](network.md#{relation_id.lower()})",
+                    chronology,
+                )
+                for source in row["sources"]:
+                    self.assertIn(f'id="{source.lower()}"', sources_index)
+                    self.assertIn(source, sources)
+        for node in (
+            "PRG-DE-ERP-TRANSATLANTIK-2019", "ORG-DE-BMWI-2019",
+            "PRG-US-ACG-CITIES-2019", "PRG-US-ACG-WARBURG-2018",
+            "ORG-DE-BDI-2019", "PER-DE-MARJA-LIISA-VOELLERS-2019",
+        ):
+            self.assertIn(node, actors)
+
+        budget = relations["REL-DE-ERP-BMWI-2019-001"]
+        self.assertEqual(budget["evidence_level"], "established")
+        self.assertIn("3,6 Mio. EUR", budget["label"])
+        self.assertIn("weder ACG-Bewilligung", budget["label"])
+        self.assertIn(
+            "SRC-DE-BGBL-ERP-2019-TITLE-68103", budget["sources"]
+        )
+        self.assertEqual(
+            sources["SRC-DE-BGBL-ERP-2019-TITLE-68103"]["tier"], "A"
+        )
+        bracket = relations["REL-US-ERP-ACG-GRANTBRACKET-2018-001"]
+        self.assertEqual(bracket["evidence_level"], "strong")
+        self.assertIn("kein geprüfter Kontotransfer", bracket["label"])
+        tours = relations["REL-US-ERP-ACG-WARBURG-2018-001"]
+        self.assertIn("zehn Rednertouren", tours["label"])
+        self.assertIn("keine 70 ERP-finanzierten Reisen", tours["label"])
+        cities = relations["REL-US-ERP-ACG-CITIES-2019-001"]
+        self.assertIn("nicht zu zwei nachgewiesenen Bundesüberweisungen", cities["label"])
+        for id_ in ("REL-US-ACG-CITIES-BMWI-2019-001",
+                    "REL-US-ACG-CITIES-BDI-2019-001",
+                    "REL-US-ACG-CITIES-VOELLERS-2019-001"):
+            self.assertEqual(relations[id_]["evidence_level"], "strong")
+        self.assertNotEqual(
+            budget["to"], cities["to"],
+            "The whole ERP budget must never be attributed to the ACG trip",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

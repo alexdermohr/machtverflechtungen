@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**254 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**258 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -36,7 +36,37 @@ American Council on Germany · 2018 · Stufe **A** · Primärquelle · `SRC-US-A
 
 [PDF öffnen](https://www.acgusa.org/wp-content/uploads/2019/04/ACG2018_Annual-Report_ONLINE.pdf)
 
-Fundstelle: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018
+Fundstelle: PDF S. 9; sixth annual German-American Conference “The Alliance in Question? The Transatlantic Relationship in an Era of Disruption”, Washington, D.C., May 6 and 7, 2018; gedruckte S. 9/PDF 11: ausdrücklich zehn durch ERP finanzierte Warburg-Chapters-Rednertouren; gedruckte S. 19/PDF 21: ERP-Transatlantic Program unter $50,000 and above mit blauer Kennzeichnung Institutional/Grant Support, nicht Mitgliedsbeitrag
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-us-acg-cities-germany-2019"></a>
+### American Council on Germany
+
+**[Transatlantic Cities of Tomorrow in Dortmund and Darmstadt, ACG Gegenbesuchsbericht](https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/dortmund-and-darmstadt/)**
+
+American Council on Germany · 2019 · Stufe **A** · Primärquelle · `SRC-US-ACG-CITIES-GERMANY-2019`
+
+[Seite öffnen](https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/dortmund-and-darmstadt/)
+
+Fundstelle: 30.06.–06.07.2019 Gegenreise 16 Teilnehmende nach Berlin/Dortmund/Darmstadt; Absatz 3 Kontakte BMWi/BDI, Absatz 5 Bundestagsabgeordnete Marja-Liisa Völlers, Schlussabsatz ERP-/BMWi-Unterstützung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-us-acg-cities-ohio-2019"></a>
+### American Council on Germany
+
+**[Transatlantic Cities of Tomorrow in Ohio and Pennsylvania, ACG Projektbericht](https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/ohio-and-pennsylvania/)**
+
+American Council on Germany · 2019 · Stufe **A** · Primärquelle · `SRC-US-ACG-CITIES-OHIO-2019`
+
+[Seite öffnen](https://www.acgusa.org/study-tours/transatlantic-cities-of-tomorrow/ohio-and-pennsylvania/)
+
+Fundstelle: Beginn 29.04.–04.05.2019, 16 Teilnehmende, Dortmund/Darmstadt sowie Cleveland/Pittsburgh/Youngstown; letzter Absatz: organisiert und verwaltet durch ACG, finanziell unterstützt von Transatlantic Program/ERP des BMWi
 
 </article>
 
@@ -424,6 +454,21 @@ Atlantik-Brücke e.V. · current · Stufe **A** · Primärquelle · `SRC-DE-ATLA
 [Seite öffnen](https://www.atlantik-bruecke.org/nachwuchsfoerderung/)
 
 Fundstelle: Abschnitt Young Leaders Programm
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-de-aa-erp-transatlantik-program"></a>
+### Auswärtiges Amt / deutsche Auslandsvertretungen in den USA
+
+**[German Program for Transatlantic Encounters – offizielle Förderbeschreibung](https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042)**
+
+Auswärtiges Amt / deutsche Auslandsvertretungen in den USA · unbekannt · Stufe **A** · Primärquelle · `SRC-DE-AA-ERP-TRANSATLANTIK-PROGRAM`
+
+[Seite öffnen](https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042)
+
+Fundstelle: Finanzierung aus ERP-Sondervermögen des Wirtschaftsministeriums; Zielsetzungen Förderung von Kultur/Bildung/Wirtschaft, Multiplikatoren und öffentlicher Meinungsbildung; keine 2018/19er Einzelbewilligungsakte
 
 </article>
 
@@ -949,6 +994,21 @@ Bundesgerichtshof, 5. Strafsenat; Volltextpublikation bei anwalt24 · 2004-06-24
 [Seite öffnen](https://www.anwalt24.de/urteile/bgh/2004-06-24/5-str-306_03)
 
 Fundstelle: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-bgbl-erp-2019-title-68103"></a>
+### Bundesgesetzblatt, Bundesrepublik Deutschland
+
+**[ERP-Wirtschaftsplangesetz 2019, Bundesgesetzblatt 2018 I Nr. 42, Titel 681 03-029](https://media.offenegesetze.de/bgbl1/2018/bgbl1_2018_42.pdf)**
+
+Bundesgesetzblatt, Bundesrepublik Deutschland · 2018-11-29 · Stufe **A** · Primärquelle · `SRC-DE-BGBL-ERP-2019-TITLE-68103`
+
+[PDF öffnen](https://media.offenegesetze.de/bgbl1/2018/bgbl1_2018_42.pdf)
+
+Fundstelle: BGBl I 2018 S. 2218 / PDF-Bildseite 10 (1-basiert), Titel 681 03-029, Haushaltsansatz 3.600 T€ für 2019; S. 2219/PDF 11: BMWi/Interministerieller Ausschuss und mehrjährige Programmautorisierung
 
 </article>
 
