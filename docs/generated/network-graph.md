@@ -11,6 +11,9 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [Organisation Gehlen](network-focus-organisation-gehlen.md) — 6 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
 - [BAFISUD](network-focus-bafisud.md) — 5 direkte Beziehungen
+- [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
+- [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
+- [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
 
 ## Gesamtnetzwerk
 
