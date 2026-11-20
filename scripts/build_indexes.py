@@ -528,6 +528,7 @@ FOCUS_NETWORKS = (
     ("ENI / Tradinvest", "tradinvest", "ORG-BS-TRADINVEST-ENI"),
     ("P2 / Loge", "p2", "ORG-IT-LOGGIA-P2-1970-1981"),
     ("Rizzoli / Corriere", "rizzoli", "ORG-IT-RIZZOLI-EDITORE-1975-1984"),
+    ("UBS Genf / Bologna 1980", "ubs-genf-1980", "ORG-CH-UBS-GENEVA-1980"),
 )
 
 

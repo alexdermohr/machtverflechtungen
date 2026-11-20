@@ -1415,3 +1415,33 @@ entities:
     name: "Marja-Liisa Völlers (Bundestagsabgeordnete 2019)"
     countries: [DE]
     notes: "Laut ACG-Eigenbericht besprach sie mit den Teilnehmern des Berliner Juli-2019-Austauschs berufliche Bildung in digitalisierter Arbeitswelt; kein unmittelbarer Nachweis einer Förderbewilligung oder Gesetzesänderung."
+
+  - id: ORG-CH-UBS-GENEVA-1980
+    type: historical_commercial_bank
+    name: "Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81)"
+    countries: [CH]
+    notes: "Historische Schweizer Bank mit im P2-Untersuchungsband reproduziertem Bankbrief 11.05.1981 zu Kontoinhabern Licio Gelli und Marco Ceruti; kein institutioneller Nachweis der Kenntnis über einen Bologna-Anschlagsfinanzierungszweck."
+
+  - id: PER-IT-MARCO-CERUTI-1980
+    type: person
+    name: "Marco Ceruti (historischer UBS-Kontoinhaber)"
+    countries: [IT]
+    notes: "Im Originalbankbrief 11.05.1981 als Inhaber zweier UBS-Konten aufgeführt. Die Bologna-Gerichtsrekonstruktion behandelt 'Tortuga'/'Bukada' und Geldbewegungen ab September 1980; daraus folgt keine persönliche Verurteilung wegen des Bologna-Anschlags."
+
+  - id: PER-IT-FEDERICO-UMBERTO-DAMATO
+    type: person
+    name: "Federico Umberto D'Amato (1919–1996)"
+    countries: [IT]
+    notes: "Historischer italienischer Sicherheits-/Innenministeriumsmitarbeiter; 2024er Generalstaatsanwaltschaft ordnete ihm nach ihrer Bewertung im documento Bologna 850.000 USD zu. Ohne separat eingesehenen Empfänger-Kontobeleg und ohne individuelle neue Tatverurteilung."
+
+  - id: ORG-IT-PROCURA-GENERALE-BOLOGNA-2024
+    type: judicial_prosecution_office
+    name: "Procura Generale della Repubblica Bologna (2024)"
+    countries: [IT]
+    notes: "Italienische Generalstaatsanwaltschaft als Urheberin ihrer amtlich veröffentlichten, ausdrücklich als eigener Standpunkt gekennzeichneten Bewertung des documento Bologna, nicht selbst gerichtlicher Schuldspruch."
+
+  - id: DOC-IT-DOCUMENTO-BOLOGNA-1982
+    type: historical_document
+    name: "Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz)"
+    countries: [IT, CH]
+    notes: "Nach publiziertem Ausschnitt des Bellini-Gerichts 13.09.1982 in Gellis Brieftasche beschlagnahmt, 1987 nur unzureichend reproduziert, 18.02.2019 erneut für Ermittlungen erhoben. Dokumentprovenienz ist nicht der Nachweis aller postulierten Endempfänger."
