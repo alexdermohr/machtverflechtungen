@@ -241,3 +241,22 @@ studies:
       - REL-DE-SS-DEST-1941-001
       - REL-DE-SS-DEST-1939-001
       - REL-DE-SS-GOLD-1942-001
+  p2-sudam-bafisud-psi-parteien-medienfinanzierung-1979-1993.md:
+    sha256: 04922ca75e2e6e213c6f7ed18128dc56211406c996e3c6f6a166543534484123
+    status: network
+    relation_ids:
+      - REL-IT-ENI-TRAD-1979-001
+      - REL-BS-NI-TRAD-1979-001
+      - REL-BS-PE-TRAD-1979-001
+      - REL-BS-BS-TRAD-1979-001
+      - REL-BS-BS-TRAD-1979-002
+      - REL-BS-PE-TRAD-1980-001
+      - REL-INT-TRAD-SIEG-1979-001
+      - REL-BS-SIEG-1978-001
+      - REL-NI-SIEG-1978-001
+      - REL-IT-SIEG-CONSUL-1982-001
+      - REL-BS-PA-SUDAM-1980-001
+      - REL-BS-UY-BAFISUD-1978-001
+      - REL-UY-PA-BAFISUD-1978-001
+      - REL-IT-PA-VARESINO-1978-001
+      - REL-PA-IT-VARESINO-1978-001

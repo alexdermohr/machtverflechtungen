@@ -399,5 +399,65 @@ class ResearchIntegrationTests(unittest.TestCase):
                       relations["REL-INT-BIS-1939-003"]["label"])
 
 
+    def test_eni_tradinvest_and_sudam_loan_claim_source_limits(self):
+        root = coverage.ROOT
+        name = "p2-sudam-bafisud-psi-parteien-medienfinanzierung-1979-1993.md"
+        registry = coverage.read_registry(root)
+        decision = registry[name]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / name).read_bytes()).hexdigest()
+        )
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        relations = {
+            row["id"]: row
+            for row in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        new_ids = [
+            "REL-IT-ENI-TRAD-1979-001",
+            "REL-BS-NI-TRAD-1979-001",
+            "REL-BS-PE-TRAD-1979-001",
+            "REL-BS-BS-TRAD-1979-001",
+            "REL-BS-BS-TRAD-1979-002",
+            "REL-BS-PE-TRAD-1980-001",
+            "REL-INT-TRAD-SIEG-1979-001",
+            "REL-BS-SIEG-1978-001",
+            "REL-NI-SIEG-1978-001",
+            "REL-IT-SIEG-CONSUL-1982-001",
+            "REL-BS-PA-SUDAM-1980-001",
+        ]
+        self.assertTrue(set(new_ids) <= set(decision["relation_ids"]))
+        for relation_id in new_ids:
+            with self.subTest(relation=relation_id):
+                relation = relations[relation_id]
+                self.assertIn(relation["label"], graph)
+                self.assertIn(f'id="{relation_id.lower()}"', network)
+                for source_id in relation["sources"]:
+                    self.assertIn(f'id="{source_id.lower()}"', source_index)
+        for id_ in ("ORG-BS-TRADINVEST-ENI", "ORG-NI-AMBROSIANO-MANAGUA",
+                    "ORG-PE-AMBROSIANO-ANDINO", "PER-INT-PIERRE-W-SIEGENTHALER"):
+            self.assertIn(id_, actors)
+        # The 1979 12.5m original and its 6.5m/6m reallocation
+        # are the same credit exposure, NOT three disbursements.
+        self.assertIn("keine drei addierbaren",
+                      relations["REL-BS-NI-TRAD-1979-001"]["label"])
+        # The 1980 50m ENI–Andino loan is distinct from the
+        # alleged Sudam loan of 21m and does not document PSI receipts.
+        self.assertIn("kein Beleg für spätere PSI-Zahlung",
+                      relations["REL-BS-PE-TRAD-1980-001"]["label"])
+        claimed = relations["REL-BS-PA-SUDAM-1980-001"]
+        self.assertEqual(claimed["evidence_level"], "plausible")
+        self.assertIn("PSI-Endzahlung nicht durch Bankkonto belegt",
+                      claimed["label"])
+        consular = relations["REL-IT-SIEG-CONSUL-1982-001"]
+        self.assertEqual(consular["period"]["start"], "1982-06-30")
+
+
 if __name__ == "__main__":
     unittest.main()

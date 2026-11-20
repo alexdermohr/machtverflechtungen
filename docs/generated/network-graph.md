@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**207 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**218 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -410,6 +410,23 @@ flowchart LR
     N_ORG_DE_DEGO_HISTORIC -->|"1939 laut Ministerien-Urteil: 8 Mio. RM aus Mitteln des Reichswirtschaftsministeriums bei der DEGO als Sicherheit für DEST-Finanzierung deponiert, nicht Nachweis des ganzen ausgezahlten Darlehens"| N_ORG_DE_DEST_SS_HISTORIC
     N_PER_DE_OSWALD_POHL["Oswald Pohl (1892–1951)"]
     N_PER_DE_EMIL_PUHL -->|"Puhl berichtet 1946 über heimlich organisierte Reichsbank-Annahme von SS-Gold, KZ-Opfer-Schmuck, Zahngold und Devisen nach Abstimmung mit Oswald Pohl; Tribunal verurteilte Puhl wegen wissender Verwertung unter Count 5, nicht wegen Tötungen"| N_PER_DE_OSWALD_POHL
+    N_ORG_IT_ENI_1978["Ente Nazionale Idrocarburi (ENI, historisch 1978–1982)"]
+    N_ORG_BS_TRADINVEST_ENI["Tradinvest Bank and Trust Company of Nassau Ltd. (ENI)"]
+    N_ORG_IT_ENI_1978 -->|"ENI-Originalauskunft 1982 benennt Tradinvest Nassau als eigene Finanztochter; Darlehensentscheidungen formal durch deren Verwaltungsrat, nicht unmittelbar der ENI-Giunta zugeschrieben"| N_ORG_BS_TRADINVEST_ENI
+    N_ORG_NI_AMBROSIANO_MANAGUA["Ambrosiano Group Banco Comercial S.A., Managua"]
+    N_ORG_BS_TRADINVEST_ENI -->|"ENI-Unterlagen: 31.05.1979 12,5 Mio. USD-Darlehen an Ambrosiano Managua, am 30.10.1979 in 6,5 Mio. Andino und 6 Mio. Overseas umverteilt; dies sind keine drei addierbaren Darlehenszahlungen"| N_ORG_NI_AMBROSIANO_MANAGUA
+    N_ORG_PE_AMBROSIANO_ANDINO["Banco Ambrosiano Andino S.A., Lima"]
+    N_ORG_BS_TRADINVEST_ENI -->|"1979er Tradinvest-Darlehensposition aus 12,5 Mio. USD an Managua laut ENI-Abrechnung auf 6,5 Mio. USD für Banco Ambrosiano Andino Lima aufgeteilt, keine zusätzliche zweite 6,5-Mio.-Auszahlung"| N_ORG_PE_AMBROSIANO_ANDINO
+    N_ORG_BS_TRADINVEST_ENI -->|"1979er Tradinvest-Darlehensposition aus 12,5 Mio. USD an Managua laut ENI-Abrechnung zu 6 Mio. USD auf Ambrosiano Overseas Nassau umgeordnet; Umverteilung ist kein dritter Zahlungseingang"| N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS
+    N_ORG_BS_TRADINVEST_ENI -->|"Teodori-P2-Minderheitsbericht 1984 führt getrennt von der 6-Mio.-Umverteilung einen Tradinvest-Overseas-Vertrag über 25 Mio. USD vom 31.05.1979 und eine Valuta 11.06.1979 auf; vollständiges Bankjournal hier nicht geprüft"| N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS
+    N_ORG_BS_TRADINVEST_ENI -->|"ENI-Dokumente und Teodori-Tabelle: eigenständiger Andino-Vertrag 01.12.1980 über 50 Mio. USD Nominalanleihe, angegebene Auszahlung 08.12.1980; ENI-Risikoposition 48 Mio., kein Beleg für spätere PSI-Zahlung"| N_ORG_PE_AMBROSIANO_ANDINO
+    N_PER_INT_PIERRE_W_SIEGENTHALER["Pierre W. Siegenthaler"]
+    N_PER_INT_PIERRE_W_SIEGENTHALER -->|"ENI-Originalunterlagen nennen Pierre W. Siegenthaler in Tradinvest-Verwaltungsratslisten 1979 und 1980; Teilnahme an konkreter Abstimmung oder Sondervorteil nicht einzeln belegt"| N_ORG_BS_TRADINVEST_ENI
+    N_PER_INT_PIERRE_W_SIEGENTHALER -->|"Banca-d'Italia-Inspektionsanhang 1978 führt Pierre W. Siegenthaler als Präsidenten der Cisalpine Overseas Bank Nassau; Amtszeit nach 1978 bedarf gesonderter Prüfung"| N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS
+    N_PER_INT_PIERRE_W_SIEGENTHALER -->|"Banca-d'Italia-Inspektionsanhang 1978 nennt Siegenthaler als Secretary von Ambrosiano Group Banco Comercial Managua; keine persönliche Zahlungsausführung daraus bewiesen"| N_ORG_NI_AMBROSIANO_MANAGUA
+    N_ORG_IT_MAE_1982["Italienisches Außenministerium (Ministero degli Affari Esteri, 1982)"]
+    N_PER_INT_PIERRE_W_SIEGENTHALER -->|"Italienisches Ministerialdekret 30.06.1982 benennt Siegenthaler bereits als ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen; keine nachgewiesene Nutzung des Amtes für Ambrosiano-Kredite"| N_ORG_IT_MAE_1982
+    N_ORG_BS_BANCO_AMBROSIANO_OVERSEAS -->|"P2-Minderheitsbericht 1984 beschreibt für 1980 einen mit 'Sudam' verbundenen 21-Mio.-USD-Kredit Overseas Nassau zu BAFISUD Corporation; Zeuge Botta erinnerte Nassau/Managua. Vertrag, Valuta, Identität letzter Begünstigter und PSI-Endzahlung nicht durch Bankkonto belegt"| N_ORG_PA_BAFISUD_CORPORATION_SA
 ```
 
 [Zur Relationstabelle](network.md)
