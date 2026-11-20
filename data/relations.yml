@@ -2493,3 +2493,84 @@ relations:
     period: {start: "1979-07-05"}
     evidence_level: established
     sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]
+
+  - id: REL-DE-ERP-BMWI-2019-001
+    from: ORG-DE-BMWI-2019
+    to: PRG-DE-ERP-TRANSATLANTIK-2019
+    type: government_program_budget_and_approval
+    label: "ERP-Wirtschaftsplangesetz 2019 Titel 681 03-029: BMWi bewilligt im Einvernehmen mit interministeriellem Ausschuss; Bundesansatz 3,6 Mio. EUR für das gesamte Transatlantik-Begegnungsprogramm, weder ACG-Bewilligung noch tatsächlich ausgezahlter ACG-Betrag"
+    period: {start: "2019"}
+    evidence_level: established
+    sources: [SRC-DE-BGBL-ERP-2019-TITLE-68103, SRC-DE-AA-ERP-TRANSATLANTIK-PROGRAM]
+
+  - id: REL-US-ERP-ACG-GRANTBRACKET-2018-001
+    from: PRG-DE-ERP-TRANSATLANTIK-2019
+    to: ORG-US-ACG-2012
+    type: reported_institutional_support_tier
+    label: "ACG-Jahresbericht 2018 gedruckte S. 19 führt European Recovery Program – Transatlantic Program in Kategorie '$50,000 and above' als Institutional/Grant Support (blauer Punkt); Kategoriebetrag ist kein geprüfter Kontotransfer und keinem einzelnen Projekt zugeordnet"
+    period: {start: "2018"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-ANNUAL-2018]
+
+  - id: REL-US-ERP-ACG-CITIES-2019-001
+    from: PRG-DE-ERP-TRANSATLANTIK-2019
+    to: PRG-US-ACG-CITIES-2019
+    type: reported_project_funding_support
+    label: "ACG nennt für das 2019er Transatlantic Cities of Tomorrow-Programm in USA (29.04.–04.05.) und Deutschland (30.06.–06.07.) Unterstützung über das Bundes-ERP-Programm des BMWi; beide Reisen gehören zu einem Förderprogramm, nicht zu zwei nachgewiesenen Bundesüberweisungen"
+    period: {start: "2019-04-29", end: "2019-07-06"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-CITIES-OHIO-2019, SRC-US-ACG-CITIES-GERMANY-2019]
+
+  - id: REL-US-ACG-CITIES-2019-001
+    from: ORG-US-ACG-2012
+    to: PRG-US-ACG-CITIES-2019
+    type: project_organizer
+    label: "ACG organisierte laut zwei offiziellen Eigenberichten 2019 das Austauschprogramm mit 16 Teilnehmenden bei einer USA-Reise Ende April/Anfang Mai und einem Gegenbesuch in Deutschland Anfang Juli; Teilnehmerzahl nicht doppelt als 32 individuelle Personen gezählt"
+    period: {start: "2019-04-29", end: "2019-07-06"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-CITIES-OHIO-2019, SRC-US-ACG-CITIES-GERMANY-2019]
+
+  - id: REL-US-ACG-CITIES-BMWI-2019-001
+    from: PRG-US-ACG-CITIES-2019
+    to: ORG-DE-BMWI-2019
+    type: documented_policy_meeting
+    label: "ACG-Gegenbesuchsbericht 2019 beschreibt Delegationskontakt mit Vertretern des BMWi zu Digitalisierung und Industrie 4.0 in Berlin; kein Nachweis einer Gesetzesänderung, Förderentscheidung im Gespräch oder individuellen Gegenleistung"
+    period: {start: "2019-06-30", end: "2019-07-06"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-CITIES-GERMANY-2019]
+
+  - id: REL-US-ACG-CITIES-BDI-2019-001
+    from: PRG-US-ACG-CITIES-2019
+    to: ORG-DE-BDI-2019
+    type: documented_industry_association_meeting
+    label: "ACG berichtet einen Berliner Austausch der 16-köpfigen Delegation mit Vertretern des Bundesverbands der Deutschen Industrie zur Digitalisierungsstrategie 2019; kein belegter Lobbyerfolg oder gemeinsam formulierter Gesetzestext"
+    period: {start: "2019-06-30", end: "2019-07-06"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-CITIES-GERMANY-2019]
+
+  - id: REL-US-ACG-CITIES-VOELLERS-2019-001
+    from: PER-DE-MARJA-LIISA-VOELLERS-2019
+    to: PRG-US-ACG-CITIES-2019
+    type: documented_parliamentary_meeting
+    label: "Die damalige Bundestagsabgeordnete Marja-Liisa Völlers diskutierte laut ACG-Projektbericht im Juli 2019 mit Austauschdelegierten die Modernisierung beruflicher Bildung in digitalisierter Arbeitswelt; kein Nachweis einer dadurch ausgelösten parlamentarischen Initiative"
+    period: {start: "2019-06-30", end: "2019-07-06"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-CITIES-GERMANY-2019]
+
+  - id: REL-US-ERP-ACG-WARBURG-2018-001
+    from: PRG-DE-ERP-TRANSATLANTIK-2019
+    to: PRG-US-ACG-WARBURG-2018
+    type: reported_funding_of_ten_speaker_tours
+    label: "ACG-Jahresbericht 2018, gedruckte S. 9: ERP Program for Transatlantic Encounters unterstützte ausdrücklich zehn Rednertouren der Warburg-Chapters-Reihe Restoring Trust Through Dialogue; mehr als 70 Chapters-Veranstaltungen sind keine 70 ERP-finanzierten Reisen"
+    period: {start: "2018"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-ANNUAL-2018]
+
+  - id: REL-US-ACG-WARBURG-2018-001
+    from: ORG-US-ACG-2012
+    to: PRG-US-ACG-WARBURG-2018
+    type: organized_speaker_tour_series
+    label: "ACG-Jahresbericht 2018 dokumentiert eigene Eric-M.-Warburg-Chapters mit 21 regionalen Gruppen und zehn ERP-geförderten Speaker Tours. Nennung eines einzelnen Referenten auf derselben Seite beweist keine persönliche öffentliche Zahlung"
+    period: {start: "2018"}
+    evidence_level: strong
+    sources: [SRC-US-ACG-ANNUAL-2018]

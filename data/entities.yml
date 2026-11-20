@@ -1379,3 +1379,39 @@ entities:
     name: "Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979"
     countries: [IT]
     notes: "Unterzeichnete Vereinbarung zwischen Verlegerkreisen mit Nichtangriffs- und Koordinationsformulierungen; ein Entwurf vom Juni 1979 und Gelli zugeschriebene Bankzugangsnotizen sind kein Beleg für ihren Bestandteil oder Vollzug."
+
+  - id: PRG-DE-ERP-TRANSATLANTIK-2019
+    type: program
+    name: "Deutsches Programm für transatlantische Begegnung (ERP-Sondervermögen)"
+    countries: [DE, US]
+    notes: "Staatliches Förderprogramm aus ERP-Sondervermögen. Wirtschaftsplangesetz 2019: Titel 681 03-029, 3,6 Mio. EUR Haushaltsansatz für das Gesamtprogramm. Weder ACG-Einzelbewilligung noch tatsächlicher Einzelzahlungsbeleg."
+
+  - id: ORG-DE-BMWI-2019
+    type: government_ministry
+    name: "Bundesministerium für Wirtschaft und Energie (BMWi, 2019)"
+    countries: [DE]
+    notes: "2019 zuständige Bundesbehörde für ERP-Transatlantikprogramm-Bewilligungen, laut Wirtschaftsplangesetz grundsätzlich im Einvernehmen mit interministeriellem Ausschuss. Eine direkte ACG-Überweisung ist nicht dokumentiert."
+
+  - id: PRG-US-ACG-CITIES-2019
+    type: program
+    name: "ACG Transatlantic Cities of Tomorrow – Digitalization and Future of Work (2019)"
+    countries: [US, DE]
+    notes: "ACG-Eigenberichte: tatsächlich durchgeführte 16-Personen-Austauschreisen 29.04.–04.05.2019 in USA und 30.06.–06.07.2019 in Deutschland als Teile eines mehrjährigen Programms. Beide Berichte nennen dieselbe ERP-/BMWi-Förderung, keine zwei getrennten Bundeszuschüsse."
+
+  - id: PRG-US-ACG-WARBURG-2018
+    type: program
+    name: "ACG Eric M. Warburg Chapters – ERP-finanzierte Rednertouren (2018)"
+    countries: [US, DE]
+    notes: "ACG-Jahresbericht 2018 gedruckte S. 9: zehn durch ERP unterstützte Rednertouren in der Reihe Restoring Trust Through Dialogue. Die mehr als 70 allgemeinen Warburg-Chapters-Veranstaltungen sind nicht 70 belegte ERP-Touren."
+
+  - id: ORG-DE-BDI-2019
+    type: industry_association
+    name: "Bundesverband der Deutschen Industrie (BDI, 2019)"
+    countries: [DE]
+    notes: "ACG-Programmbericht über 2019er Delegationsgespräch mit BDI- und BMWi-Vertretern zur Digitalisierung/Industrie 4.0; keine daraus nachgewiesene gesetzgeberische Gegenleistung."
+
+  - id: PER-DE-MARJA-LIISA-VOELLERS-2019
+    type: person
+    name: "Marja-Liisa Völlers (Bundestagsabgeordnete 2019)"
+    countries: [DE]
+    notes: "Laut ACG-Eigenbericht besprach sie mit den Teilnehmern des Berliner Juli-2019-Austauschs berufliche Bildung in digitalisierter Arbeitswelt; kein unmittelbarer Nachweis einer Förderbewilligung oder Gesetzesänderung."

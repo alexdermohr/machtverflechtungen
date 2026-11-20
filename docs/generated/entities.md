@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**248 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**254 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -56,6 +56,7 @@
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
+| Marja-Liisa Völlers (Bundestagsabgeordnete 2019) | person | `PER-DE-MARJA-LIISA-VOELLERS-2019` | DE | [1](network.md#rel-us-acg-cities-voellers-2019-001) |
 | Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE | [3](network.md#rel-de-tmn-001) |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE | [4](network.md#rel-de-tmn-003) |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE | – |
@@ -106,7 +107,7 @@
 |---|---|---|---|---|
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
-| American Council on Germany (ACG) | transatlantic_nonprofit | `ORG-US-ACG-2012` | US | [1](network.md#rel-us-gmf-acg-2012-001) |
+| American Council on Germany (ACG) | transatlantic_nonprofit | `ORG-US-ACG-2012` | US | [4](network.md#rel-us-gmf-acg-2012-001) |
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
 | American Institute for Contemporary German Studies (AICGS) | policy_research_institute | `ORG-US-AICGS-2012` | US | [1](network.md#rel-us-gmf-aicgs-2012-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
@@ -142,7 +143,9 @@
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
+| Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [6](network.md#rel-de-gehlen-001) |
+| Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [4](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
@@ -258,10 +261,13 @@
 
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
+| ACG Eric M. Warburg Chapters – ERP-finanzierte Rednertouren (2018) | program | `PRG-US-ACG-WARBURG-2018` | US, DE | [2](network.md#rel-us-erp-acg-warburg-2018-001) |
+| ACG Transatlantic Cities of Tomorrow – Digitalization and Future of Work (2019) | program | `PRG-US-ACG-CITIES-2019` | US, DE | [5](network.md#rel-us-erp-acg-cities-2019-001) |
 | Atlantik-Brücke New Bridge Program | program | `PRG-DE-ATLANTIK-BRUECKE-NEW-BRIDGE` | DE, US | [2](network.md#rel-de-ab-new-bridge-001) |
 | Atlantik-Brücke Young Leaders Program | program | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | DE, US | [8](network.md#rel-de-ab-001) |
 | CIA-Teilprojekt QKSNITCH | program | `PRG-US-CIA-QKSNITCH` | US, DE | [2](network.md#rel-de-kmm-002) |
 | CIA/OPC-Projekt KMMANLY | program | `PRG-US-CIA-KMMANLY` | US, DE | [5](network.md#rel-de-kmm-001) |
+| Deutsches Programm für transatlantische Begegnung (ERP-Sondervermögen) | program | `PRG-DE-ERP-TRANSATLANTIK-2019` | DE, US | [4](network.md#rel-de-erp-bmwi-2019-001) |
 
 ## Historische Vertragsurkunden
 
