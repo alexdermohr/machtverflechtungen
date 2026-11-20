@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**250 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**254 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -1052,6 +1052,66 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-it-p2-anselmi-report-1984"></a>
+### Camera dei Deputati / Senato della Repubblica, IX Legislatura
+
+**[Commissione parlamentare d'inchiesta sulla Loggia massonica P2 – Mehrheitsbericht Tina Anselmi](https://legislature.camera.it/_dati/leg09/lavori/stampati/pdf/p2/09%2520Leg%2520Doc%2520XXIII%2520n%25202-1%2520relatore%2520ANSELMI-ocr.pdf)**
+
+Camera dei Deputati / Senato della Repubblica, IX Legislatura · 1984-07-12 · Stufe **A** · Primärquelle · `SRC-IT-P2-ANSELMI-REPORT-1984`
+
+[PDF öffnen](https://legislature.camera.it/_dati/leg09/lavori/stampati/pdf/p2/09%2520Leg%2520Doc%2520XXIII%2520n%25202-1%2520relatore%2520ANSELMI-ocr.pdf)
+
+Fundstelle: Doc. XXIII n. 2, gedruckte S. 112 zu Critica giudiziaria / Justiz; S. 120–126 zu P2/Rizzoli/Corriere, besonders S. 122–123 über 22,5 Mrd. Lire Ambrosiano-Konzernbanken, La-Centrale-/IOR-Aktienpfad und von der Kommission zugeschriebene Pressesteuerung; Bildseiten 129–133
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
+
+<a id="src-it-p2-rizzoli-agreement-1980-original"></a>
+### Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. I Tomo II
+
+**[P2-Kommission, Reperto 1/C: Originalvereinbarung Rizzoli vom 18.09.1980 und Nachtrag 18.12.1980](https://www.archivioantimafia.org/p2/commissione_parlamentare/03.%20Volume%20I%20%28022-025%29/023.%20volume_01_tomo_02.pdf)**
+
+Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. I Tomo II · 1980-09-18 · Stufe **A** · Primärquelle · `SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/03.%20Volume%20I%20%28022-025%29/023.%20volume_01_tomo_02.pdf)
+
+Fundstelle: Doc. XXIII n. 2-quater/1/II, gedruckte S. 1042 (Entwurf Aktienverteilung 40/10,2/40/9,8 und geplanter premio), S. 1045 (ausdrücklich 18. September 1980), S. 1043 (Nachtrag vom 18.12.1980 verlängert bis 31.03.1981)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-it-p2-rizzoli-perrella-paraphs-1980"></a>
+### Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo VII
+
+**[Renato Perrella, Parere peritale su documenti – Rizzoli-Reperto 1/C](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/045.%20volume_03_tomo_07_parte1.pdf)**
+
+Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo VII · unbekannt · Stufe **A** · Primärquelle · `SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/045.%20volume_03_tomo_07_parte1.pdf)
+
+Fundstelle: Gedruckte S. 405–412, PDF-Bildseiten 413–420: Begutachtung der Paraphen Gelli, Ortolani, Calvi, Angelo Rizzoli und Bruno Tassan Din; S. 406 18/9/1980, S. 408 und 412 18/1/1980
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
+
+<a id="src-it-p2-rizzoli-caracciolo-press-pact-1979"></a>
+### Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo XIII
+
+**[Accordo gruppo Rizzoli–Caracciolo–Scalfari 05.07.1979 und Scalfari-Zeugenvernehmung 13.05.1981](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/052.%20volume_03_tomo_13.pdf)**
+
+Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo XIII · 1979-07-05 · Stufe **A** · Primärquelle · `SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/052.%20volume_03_tomo_13.pdf)
+
+Fundstelle: Doc. XXIII n. 2-quater/3/XIII, gedruckte S. 140 / PDF-Bildseite 148 unterzeichneter Vertrag mit Koordination und nicht-feindlicher Berichterstattung; S. 141–143 / PDF 149–151 Scalfari-Vernehmung vom 13.05.1981, insbesondere S. 143 Abgrenzung von Gelli zugeschriebener Banco-Ambrosiano-Zugangsklausel
 
 </article>
 

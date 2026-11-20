@@ -708,5 +708,77 @@ class ResearchIntegrationTests(unittest.TestCase):
                       relations["REL-US-GMF-ARTHUR-BURNS-2012-001"]["label"])
 
 
+    def test_p2_rizzoli_archival_financing_and_press_contracts(self):
+        root = coverage.ROOT
+        name = "p2-rizzoli-corriere-ambrosiano-mediensteuerung-1975-1984.md"
+        decision = coverage.read_registry(root)[name]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+        )
+        self.assertEqual(len(decision["relation_ids"]), 21)
+        relations = {
+            x["id"]: x
+            for x in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            x["id"]: x
+            for x in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        for id_ in decision["relation_ids"]:
+            with self.subTest(relation=id_):
+                row = relations[id_]
+                self.assertIn(row["label"], graph)
+                self.assertIn(f'id="{id_.lower()}"', network)
+                self.assertIn(f"[{id_}](network.md#{id_.lower()})", chrono)
+                for source in row["sources"]:
+                    self.assertIn(f'id="{source.lower()}"', source_index)
+                    self.assertEqual(sources[source]["tier"], "A")
+        signed_1980 = [
+            x for x in decision["relation_ids"]
+            if x.startswith("REL-IT-P2-AGREEMENT-")
+            and x != "REL-IT-P2-AGREEMENT-RIZZOLI-CORP-1980-001"
+        ]
+        signed_1979 = [
+            x for x in decision["relation_ids"]
+            if x.startswith("REL-IT-P2-PRESSPACT-")
+            and x != "REL-IT-P2-PRESSPACT-PUBLISHER-1979-001"
+        ]
+        self.assertEqual(len(signed_1980), 5)
+        self.assertEqual(len(signed_1979), 4)
+        self.assertTrue(all(relations[x]["period"]["start"] == "1980-09-18" for x in signed_1980))
+        self.assertTrue(all(relations[x]["period"]["start"] == "1979-07-05" for x in signed_1979))
+        self.assertIn(
+            "22,5 Milliarden Lire",
+            relations["REL-IT-AMBROSIANO-RIZZOLI-1980-001"]["label"],
+        )
+        self.assertEqual(relations["REL-IT-P2-RIZZOLI-1975-1981-001"]["evidence_level"], "strong")
+        self.assertIn(
+            "keine nachgewiesene Steuerung jedes Corriere-Beitrags",
+            relations["REL-IT-P2-RIZZOLI-EDITORIAL-1980-001"]["label"],
+        )
+        self.assertIn(
+            "bestritt", relations["REL-IT-P2-PRESSPACT-SCALFARI-1979-001"]["label"]
+        )
+        self.assertIn(
+            "18/1/1980", sources["SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980"]["locator"]
+        )
+        entities = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        self.assertIn("Historische Vertragsurkunden", entities)
+        p2focus = (root / "docs/generated/network-focus-p2.md").read_text(encoding="utf-8")
+        rizzolifocus = (root / "docs/generated/network-focus-rizzoli.md").read_text(encoding="utf-8")
+        self.assertIn("REL-IT-P2-RIZZOLI-1975-1981-001", p2focus)
+        self.assertIn("REL-IT-AMBROSIANO-RIZZOLI-1980-001", rizzolifocus)
+
+
 if __name__ == "__main__":
     unittest.main()

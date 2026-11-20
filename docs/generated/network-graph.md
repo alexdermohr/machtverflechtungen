@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**250 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**271 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -14,6 +14,8 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
 - [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
+- [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
+- [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
 
 ## Gesamtnetzwerk
 
@@ -490,6 +492,40 @@ flowchart LR
     N_ORG_US_GMF_2012 -->|"GMF Form 990 Schedule I 2012 nennt 90.000 USD Geldzuschuss an U.S. Association of Former Members of Congress (EIN 54-0883744) für Transatlantic Dialogue; keine Zahlung an deutsches Journalistenreiseprogramm hieraus abgeleitet"| N_ORG_US_FORMER_CONGRESS_MEMBERS_2012
     N_PRG_US_ARTHUR_BURNS_FELLOWSHIP_2012["Arthur Burns Fellowship (2012, US-Steuerfall)"]
     N_ORG_US_GMF_2012 -->|"GMF Form 990 Schedule I 2012 erfasst 20.000 USD Geldzuschuss an Arthur Burns Fellowship (EIN 54-1629976) für Transatlantic Dialogue; kein Beleg einer inhaltlich beauftragten journalistischen Veröffentlichung"| N_PRG_US_ARTHUR_BURNS_FELLOWSHIP_2012
+    N_PER_IT_LICIO_GELLI["Licio Gelli (1919–2015)"]
+    N_ORG_IT_LOGGIA_P2_1970_1981["Loggia massonica Propaganda 2 (P2, historisch)"]
+    N_PER_IT_LICIO_GELLI -->|"Der P2-Untersuchungsbericht 1984 beschreibt Licio Gelli als maßgeblichen Leiter der historischen Loge; daraus folgt kein individueller Beweis für jeden bei Rizzoli untersuchten Bankvorgang oder für Anschlagsweisungen"| N_ORG_IT_LOGGIA_P2_1970_1981
+    N_ORG_IT_RIZZOLI_EDITORE_1975_1984["Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984)"]
+    N_ORG_IT_LOGGIA_P2_1970_1981 -->|"Die Anselmi-Kommission beschreibt für 1975–1981 Gelli und Ortolani als Koordinatoren eines Finanzierungs- und Einflussmechanismus im Rizzoli-Konzern; dies ist ihr Befund, kein hier unabhängig bewiesener Einzelbefehl an Journalisten"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_ORG_IT_CORRIERE_DELLA_SERA_1980["Corriere della Sera (italienische Zeitung, 1980)"]
+    N_ORG_IT_RIZZOLI_EDITORE_1975_1984 -->|"Historische Rizzoli-Verlagsgruppe als Trägerin des Corriere della Sera; die Anselmi-Kommission bewertet den finanziellen Druck und die redaktionelle Einwirkung im konkreten historischen Zeitraum, nicht eine ständige Weisung an jeden Artikel"| N_ORG_IT_CORRIERE_DELLA_SERA_1980
+    N_PER_IT_ANGELO_RIZZOLI["Angelo Rizzoli (1943–2013)"]
+    N_PER_IT_ANGELO_RIZZOLI -->|"Angelo Rizzoli als historischer Verlagsvertreter an der Kapital- und Sanierungsstruktur beteiligt; Originalvertrag vom 18.09.1980 und Paraphengutachten nennen ihn unter den beteiligten Personen"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_PER_IT_BRUNO_TASSAN_DIN["Bruno Tassan Din"]
+    N_PER_IT_BRUNO_TASSAN_DIN -->|"Bruno Tassan Din wird von der P2-Kommission als Generaldirektor der Rizzoli-Gruppe und Beteiligter an der Vereinbarung 1980 aufgeführt; die Rolle belegt keine einzelne Kontotransaktion"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_PER_IT_UMBERTO_ORTOLANI["Umberto Ortolani (1913–2002)"]
+    N_PER_IT_UMBERTO_ORTOLANI -->|"Nach Anselmi-Mehrheitsbericht trat Umberto Ortolani 1978 in den Rizzoli-Verwaltungsrat ein; diese Organrolle beweist allein keine konkrete Auslandszahlung"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_PER_IT_ROBERTO_CALVI["Roberto Calvi (1920–1982)"]
+    N_PER_IT_ROBERTO_CALVI -->|"Die parlamentarische P2-Untersuchung beschreibt Roberto Calvi als Bankmanager und Finanzierungsakteur im Banco-Ambrosiano-Komplex; seine Signatur 1980 ist von einem separat ausgezahlten Kredit zu unterscheiden"| N_ORG_IT_BANCO_AMBROSIANO_SPA_1979
+    N_ORG_IT_AMBROSIANO_BANKS_1980["Banken des Banco-Ambrosiano-Konzerns (historisch 1980)"]
+    N_ORG_IT_AMBROSIANO_BANKS_1980 -->|"Anselmi-Bericht 1984, gedruckte S. 122: Banken des Ambrosiano-Verbunds gewährten Rizzoli Editore Finanzierung über 22,5 Milliarden Lire zur Rückzahlung älterer Agnelli-Verpflichtungen. Einzelbank und tatsächliche Valuta hier nicht durch separate Bankbelege geprüft"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_ORG_IT_LA_CENTRALE_FINANZIARIA_SPA -->|"Die Anselmi-Kommission schildert im Rizzoli-Sanierungsprozess eine auf La Centrale Finanziaria S.p.A. lautende 40-Prozent-Aktienposition; der genaue Vollzug jeder wirtschaftlichen Eigentümerstufe ist nur mit Aktienbuch und Treuhandverträgen prüfbar"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_ORG_IT_LOGGIA_P2_1970_1981 -->|"Anselmi-Bericht 1984 bezeichnet die von Gelli und Ortolani betriebene Bestellung des Chefredakteurs Di Bella sowie redaktionelle Einwirkungen als Teil des P2-Einflusses; Beweisrang parlamentarische Bewertung, keine nachgewiesene Steuerung jedes Corriere-Beitrags"| N_ORG_IT_CORRIERE_DELLA_SERA_1980
+    N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980["Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C)"]
+    N_PER_IT_LICIO_GELLI -->|"Original Sanierungsvereinbarung vom 18.09.1980 und Perrella-Gutachten ordnen die Paraphen Licio Gelli zu; intern abweichende Januar-Angaben im Gutachten, September durch Vertragsdatum und Dezembernachtrag gestützt; kein Kontobeleg"| N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980
+    N_PER_IT_UMBERTO_ORTOLANI -->|"Perrella-Gutachten ordnet Umberto Ortolani zu den fünf Paraphierenden des Sanierungsdokuments 18.09.1980; die Unterschrift bedeutet keinen unabhängig verifizierten späteren Mitteltransfer"| N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980
+    N_PER_IT_ROBERTO_CALVI -->|"Originalvertrag 18.09.1980 und Paraphengutachten führen Roberto Calvi als Beteiligten; vertragliche Mitwirkung und finanzielle Auszahlung sind zwei unterschiedliche Beweisfragen"| N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980
+    N_PER_IT_ANGELO_RIZZOLI -->|"Angelo Rizzoli wurde vom Originalvertrag und Sachverständigen den Paraphen des Sanierungsentwurfs vom 18.09.1980 zugeordnet; ohne damit die tatsächliche Durchführung der geplanten Aktienverteilung zu behaupten"| N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980
+    N_PER_IT_BRUNO_TASSAN_DIN -->|"Original-Paraphenbefund zu Bruno Tassan Din auf Sanierungsvereinbarung vom 18.09.1980; November-/Dezember-Umsetzung und gezahlte Kautionssumme nicht aus der Paraphe selbst abgeleitet"| N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980
+    N_DOC_IT_RIZZOLI_P2_AGREEMENT_1980 -->|"Reperto 1/C: Rizzoli-Sanierungsplan 18.09.1980 mit vorgesehenem Aktienmodell 40/10,2/40/9,8 Prozent und geplantem Premio; Nachtrag 18.12.1980 verlängerte bis 31.03.1981, ohne vollständigen Nachweis aller Geld- und Eigentumsübertragungen"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
+    N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979["Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979"]
+    N_PER_IT_ANGELO_RIZZOLI -->|"Unterzeichnete Rizzoli–Caracciolo–Scalfari-Pressevereinbarung vom 05.07.1979 benennt Angelo Rizzoli als Partei; die Vereinbarung über nicht-feindliche Darstellung ersetzt keinen Nachweis der späteren redaktionellen Durchführung"| N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979
+    N_PER_IT_BRUNO_TASSAN_DIN -->|"Bruno Tassan Din ist auf dem 05.07.1979 unterzeichneten Pressevertrag als Rizzoli-Vertreter beteiligt; der gezeichnete Wortlaut belegt keine von Gelli vermittelte Banco-Ambrosiano-Zusage"| N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979
+    N_PER_IT_CARLO_CARACCIOLO["Carlo Caracciolo (1925–2008)"]
+    N_PER_IT_CARLO_CARACCIOLO -->|"Carlo Caracciolo unterzeichnete am 05.07.1979 eine verlagsübergreifende Pressekooperationsvereinbarung; seine spätere Aussage 1983 über bestrittenen Vollzug und fehlende Gelli-Kontakte ist davon getrennt"| N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979
+    N_PER_IT_EUGENIO_SCALFARI["Eugenio Scalfari (1924–2022)"]
+    N_PER_IT_EUGENIO_SCALFARI -->|"Eugenio Scalfari war 1979 Vertragsunterzeichner. In seiner Aussage vom 13.05.1981 bestritt er, dass Bankzugangs- und Wettbewerbsverbotszusätze aus einer Gelli-Notiz Teil des unterzeichneten Endtextes waren"| N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979
+    N_DOC_IT_RIZZOLI_CARACCIOLO_SCALFARI_PACT_1979 -->|"Unterzeichneter Vertrag 05.07.1979 regelt gegebenenfalls gemeinsame Presseinvestitionen, Konsultationen und Bemühen um objektive nicht-feindliche Berichterstattung zwischen Verlagen; unbewiesene redaktionelle Weisung und bestrittene Banco-Ambrosiano-Zusatzklausel nicht als Vertragsinhalt modelliert"| N_ORG_IT_RIZZOLI_EDITORE_1975_1984
 ```
 
 [Zur Relationstabelle](network.md)
