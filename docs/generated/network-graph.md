@@ -1,12 +1,12 @@
 # Netzwerkdiagramm
 
-**241 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**250 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
 Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gewählten Akteurs. Weitere Beziehungen oder eine gemeinsame Steuerung sind daraus nicht automatisch ableitbar.
 
-- [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 47 direkte Beziehungen
+- [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 49 direkte Beziehungen
 - [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
 - [Organisation Gehlen](network-focus-organisation-gehlen.md) — 6 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
@@ -472,6 +472,24 @@ flowchart LR
     N_ORG_DE_BERTELSMANN_STIFTUNG_2008["Bertelsmann Stiftung (Sponsor 2008/09)"]
     N_ORG_DE_BERTELSMANN_STIFTUNG_2008 -->|"Bertelsmann Stiftung wird in der Sponsorenliste des Atlantik-Brücke-Jahresberichts 2008/09 genannt, ohne ausgewiesenen Förderbetrag und ohne Beleg einer konkreten Einflussanweisung"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 S. 82–83: XVII. Expertengespräch mit U.S. European Command und Bundeswehrführung am 16.09.2008 auf Einladung der Deutschen Bank in ihrer Berliner Hauptstadtrepräsentanz; Gastgeberrolle ist kein Beleg einer Waffenbeschaffungsentscheidung"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_PRG_DE_AB_JOURNALISTS_1983_1992["Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992"]
+    N_ORG_DE_ATLANTIK_BRUECKE -->|"Pechels Brief vom 23.01.1992 als Atlantik-Brücke-Kuratoriumsmitglied beschreibt seit 1983 organisierte US-Journalistenreisen mit laut Organisator 121 Teilnehmenden bis 1991; vollständige Namens- und Artikelprüflisten liegen hier nicht vor"| N_PRG_DE_AB_JOURNALISTS_1983_1992
+    N_ORG_DE_ZEIT_STIFTUNG_1991["ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991)"]
+    N_ORG_DE_ZEIT_STIFTUNG_1991 -->|"ZEIT-Stiftungs-Chronik führt für 1991 eine Unterstützung des Atlantik-Brücke-Journalistenreiseprogramms über 10.000 DM auf; nicht mit Zahlungen von Bosch oder GMF zu addieren, die im Brief ohne Betrag erwähnt werden"| N_PRG_DE_AB_JOURNALISTS_1983_1992
+    N_ORG_DE_ROBERT_BOSCH_STIFTUNG["Robert Bosch Stiftung"]
+    N_ORG_DE_ROBERT_BOSCH_STIFTUNG -->|"Pechel nennt die Robert Bosch Stiftung im reproduzierten Schreiben vom Januar 1992 als Förderer des Atlantik-Brücke-Journalistenreiseprogramms; Einzeljahr, Geldsumme und tatsächlicher Zahlungslauf nicht dokumentiert"| N_PRG_DE_AB_JOURNALISTS_1983_1992
+    N_ORG_US_GMF_2012["German Marshall Fund of the United States (GMF)"]
+    N_ORG_US_GMF_2012 -->|"Pechel nennt German Marshall Fund 1992 als Förderer des Atlantik-Brücke-Journalistenreiseprogramms; der Betrag und das genaue Zuwendungsjahr dieser historischen Förderung sind nicht beziffert und nicht mit IRS-Grants von 2012 gleichzusetzen"| N_PRG_DE_AB_JOURNALISTS_1983_1992
+    N_PER_DE_PETER_E_PECHEL["Peter E. Pechel"]
+    N_PER_DE_PETER_E_PECHEL -->|"Peter E. Pechel nennt sich im am 23.01.1992 reproduzierten Schreiben Mitglied des Kuratoriums der Atlantik-Brücke; seine Angaben zu Teilnehmerzahlen bleiben Organisatorberichte"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_US_ACG_2012["American Council on Germany (ACG)"]
+    N_ORG_US_GMF_2012 -->|"GMF meldete in IRS Form 990 Schedule I für 2012 50.000 USD Geldzuschuss an American Council on Germany (EIN 13-1889074), Zweck Transatlantic Dialogue; keine direkte Atlantik-Brücke-Zahlung aus dieser Zeile"| N_ORG_US_ACG_2012
+    N_ORG_US_AICGS_2012["American Institute for Contemporary German Studies (AICGS)"]
+    N_ORG_US_GMF_2012 -->|"GMF Form 990 Schedule I 2012 nennt 50.000 USD Geldzuschuss an AICGS (EIN 52-1309525), Zweck Transatlantic Dialogue; getrennt vom gleich hohen ACG-Zuschuss"| N_ORG_US_AICGS_2012
+    N_ORG_US_FORMER_CONGRESS_MEMBERS_2012["U.S. Association of Former Members of Congress"]
+    N_ORG_US_GMF_2012 -->|"GMF Form 990 Schedule I 2012 nennt 90.000 USD Geldzuschuss an U.S. Association of Former Members of Congress (EIN 54-0883744) für Transatlantic Dialogue; keine Zahlung an deutsches Journalistenreiseprogramm hieraus abgeleitet"| N_ORG_US_FORMER_CONGRESS_MEMBERS_2012
+    N_PRG_US_ARTHUR_BURNS_FELLOWSHIP_2012["Arthur Burns Fellowship (2012, US-Steuerfall)"]
+    N_ORG_US_GMF_2012 -->|"GMF Form 990 Schedule I 2012 erfasst 20.000 USD Geldzuschuss an Arthur Burns Fellowship (EIN 54-1629976) für Transatlantic Dialogue; kein Beleg einer inhaltlich beauftragten journalistischen Veröffentlichung"| N_PRG_US_ARTHUR_BURNS_FELLOWSHIP_2012
 ```
 
 [Zur Relationstabelle](network.md)

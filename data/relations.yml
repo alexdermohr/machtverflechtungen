@@ -2227,3 +2227,82 @@ relations:
     period: {start: "2008-09-16"}
     evidence_level: strong
     sources: [SRC-DE-AB-JB-2008-2009]
+
+  - id: REL-DE-AB-JOUR-ORGANIZED-1983-001
+    from: ORG-DE-ATLANTIK-BRUECKE
+    to: PRG-DE-AB-JOURNALISTS-1983-1992
+    type: reported_historical_journalism_exchange
+    label: "Pechels Brief vom 23.01.1992 als Atlantik-Brücke-Kuratoriumsmitglied beschreibt seit 1983 organisierte US-Journalistenreisen mit laut Organisator 121 Teilnehmenden bis 1991; vollständige Namens- und Artikelprüflisten liegen hier nicht vor"
+    period: {start: "1983", end: "1991"}
+    evidence_level: strong
+    sources: [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992]
+
+  - id: REL-DE-AB-JOUR-ZEIT-1991-001
+    from: ORG-DE-ZEIT-STIFTUNG-1991
+    to: PRG-DE-AB-JOURNALISTS-1983-1992
+    type: reported_project_grant_1991
+    label: "ZEIT-Stiftungs-Chronik führt für 1991 eine Unterstützung des Atlantik-Brücke-Journalistenreiseprogramms über 10.000 DM auf; nicht mit Zahlungen von Bosch oder GMF zu addieren, die im Brief ohne Betrag erwähnt werden"
+    period: {start: "1991"}
+    evidence_level: strong
+    sources: [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992]
+
+  - id: REL-DE-AB-JOUR-BOSCH-1992-001
+    from: ORG-DE-ROBERT-BOSCH-STIFTUNG
+    to: PRG-DE-AB-JOURNALISTS-1983-1992
+    type: named_historical_project_supporter
+    label: "Pechel nennt die Robert Bosch Stiftung im reproduzierten Schreiben vom Januar 1992 als Förderer des Atlantik-Brücke-Journalistenreiseprogramms; Einzeljahr, Geldsumme und tatsächlicher Zahlungslauf nicht dokumentiert"
+    evidence_level: strong
+    sources: [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992]
+
+  - id: REL-DE-AB-JOUR-GMF-1992-001
+    from: ORG-US-GMF-2012
+    to: PRG-DE-AB-JOURNALISTS-1983-1992
+    type: named_historical_project_supporter
+    label: "Pechel nennt German Marshall Fund 1992 als Förderer des Atlantik-Brücke-Journalistenreiseprogramms; der Betrag und das genaue Zuwendungsjahr dieser historischen Förderung sind nicht beziffert und nicht mit IRS-Grants von 2012 gleichzusetzen"
+    evidence_level: strong
+    sources: [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992]
+
+  - id: REL-DE-AB-JOUR-PECHEL-1992-001
+    from: PER-DE-PETER-E-PECHEL
+    to: ORG-DE-ATLANTIK-BRUECKE
+    type: historical_council_membership
+    label: "Peter E. Pechel nennt sich im am 23.01.1992 reproduzierten Schreiben Mitglied des Kuratoriums der Atlantik-Brücke; seine Angaben zu Teilnehmerzahlen bleiben Organisatorberichte"
+    period: {start: "1992-01-23"}
+    evidence_level: strong
+    sources: [SRC-DE-ZEITST-PECHEL-BUCERIUS-1992]
+
+  - id: REL-US-GMF-ACG-2012-001
+    from: ORG-US-GMF-2012
+    to: ORG-US-ACG-2012
+    type: tax_return_reported_cash_grant
+    label: "GMF meldete in IRS Form 990 Schedule I für 2012 50.000 USD Geldzuschuss an American Council on Germany (EIN 13-1889074), Zweck Transatlantic Dialogue; keine direkte Atlantik-Brücke-Zahlung aus dieser Zeile"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-US-GMF-IRS-990-SCHEDULE-I-2012]
+
+  - id: REL-US-GMF-AICGS-2012-001
+    from: ORG-US-GMF-2012
+    to: ORG-US-AICGS-2012
+    type: tax_return_reported_cash_grant
+    label: "GMF Form 990 Schedule I 2012 nennt 50.000 USD Geldzuschuss an AICGS (EIN 52-1309525), Zweck Transatlantic Dialogue; getrennt vom gleich hohen ACG-Zuschuss"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-US-GMF-IRS-990-SCHEDULE-I-2012]
+
+  - id: REL-US-GMF-FORMER-CONGRESS-2012-001
+    from: ORG-US-GMF-2012
+    to: ORG-US-FORMER-CONGRESS-MEMBERS-2012
+    type: tax_return_reported_cash_grant
+    label: "GMF Form 990 Schedule I 2012 nennt 90.000 USD Geldzuschuss an U.S. Association of Former Members of Congress (EIN 54-0883744) für Transatlantic Dialogue; keine Zahlung an deutsches Journalistenreiseprogramm hieraus abgeleitet"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-US-GMF-IRS-990-SCHEDULE-I-2012]
+
+  - id: REL-US-GMF-ARTHUR-BURNS-2012-001
+    from: ORG-US-GMF-2012
+    to: PRG-US-ARTHUR-BURNS-FELLOWSHIP-2012
+    type: tax_return_reported_cash_grant
+    label: "GMF Form 990 Schedule I 2012 erfasst 20.000 USD Geldzuschuss an Arthur Burns Fellowship (EIN 54-1629976) für Transatlantic Dialogue; kein Beleg einer inhaltlich beauftragten journalistischen Veröffentlichung"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-US-GMF-IRS-990-SCHEDULE-I-2012]

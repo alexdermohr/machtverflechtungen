@@ -1247,3 +1247,57 @@ entities:
     name: "Bertelsmann Stiftung (Sponsor 2008/09)"
     countries: [DE]
     notes: "Im historischen Atlantik-Brücke-Eigenjahresbericht 2008/09 als Sponsor aufgeführt; Sponsoring beweist keine koordinierte redaktionelle Kontrolle."
+
+  - id: ORG-DE-ZEIT-STIFTUNG-1991
+    type: charitable_foundation
+    name: "ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991)"
+    countries: [DE]
+    notes: "Im ZEIT-Stiftungs-Rückblick ist 1991 eine Unterstützung des Atlantik-Brücke-Journalistenprogramms mit 10.000 DM vermerkt; originaler Kontobeleg und individuelle Reiseabrechnungen nicht eingesehen."
+
+  - id: ORG-DE-ROBERT-BOSCH-STIFTUNG
+    type: charitable_foundation
+    name: "Robert Bosch Stiftung"
+    countries: [DE]
+    notes: "Im reproduzierten Brief eines Atlantik-Brücke-Kuratoriumsmitglieds 1992 als Unterstützer der US-Journalistenreisen genannt; Spendenjahr und individueller Betrag dort nicht angegeben."
+
+  - id: ORG-US-GMF-2012
+    type: transatlantic_foundation
+    name: "German Marshall Fund of the United States (GMF)"
+    countries: [US]
+    notes: "Private transatlantische Stiftung, laut 1992er Organisatorenbrief Förderer von Journalistenreisen; eigenes IRS Form 990 2012 führt vier separat bezifferte Grants für transatlantischen Dialog auf."
+
+  - id: ORG-US-ACG-2012
+    type: transatlantic_nonprofit
+    name: "American Council on Germany (ACG)"
+    countries: [US]
+    notes: "US-501(c)(3) mit eigener EIN 13-1889074; im GMF-Form-990 2012 als 50.000-USD-Zuwendungsempfänger genannt. Nicht rechtsidentisch mit Atlantik-Brücke e.V. in Deutschland."
+
+  - id: ORG-US-AICGS-2012
+    type: policy_research_institute
+    name: "American Institute for Contemporary German Studies (AICGS)"
+    countries: [US]
+    notes: "US-501(c)(3) EIN 52-1309525; in GMF-Form-990-Schedule-I 2012 eigenständig mit 50.000 USD Grant aufgeführt."
+
+  - id: ORG-US-FORMER-CONGRESS-MEMBERS-2012
+    type: civic_nonprofit
+    name: "U.S. Association of Former Members of Congress"
+    countries: [US]
+    notes: "US-501(c)(3) EIN 54-0883744; im GMF-2012-Schedule-I als 90.000-USD-Empfänger gelistet. Keine direkte Zahlung an Atlantik-Brücke daraus ableitbar."
+
+  - id: PRG-US-ARTHUR-BURNS-FELLOWSHIP-2012
+    type: journalism_exchange_nonprofit
+    name: "Arthur Burns Fellowship (2012, US-Steuerfall)"
+    countries: [US]
+    notes: "Steuerlich als eigene 501(c)(3) EIN 54-1629976 in GMF-Schedule-I 2012 für 20.000 USD erfasst. Kein Beleg für eine konkret gesteuerte journalistische Veröffentlichung."
+
+  - id: PRG-DE-AB-JOURNALISTS-1983-1992
+    type: journalism_exchange_program
+    name: "Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992"
+    countries: [DE, US]
+    notes: "Historisches organisiertes Reise-/Informationsprogramm der Atlantik-Brücke; 1992er Pechel-Brief berichtet 121 Teilnehmende 1983–1991 und drei Förderer, vollständige Teilnehmerliste nicht geprüft."
+
+  - id: PER-DE-PETER-E-PECHEL
+    type: person
+    name: "Peter E. Pechel"
+    countries: [DE]
+    notes: "1992 Mitglied des Atlantik-Brücke-Kuratoriums, in ZEIT-Stiftungs-Rückblick als Autor eines 23.01.1992 datierten Briefs an Gerd Bucerius mit Journalistenprogrammdaten dokumentiert."
