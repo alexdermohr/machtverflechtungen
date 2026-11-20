@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**247 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**248 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -145,7 +145,7 @@ Atlantik-Brücke e.V. · 2009 · Stufe **B** · Primärquelle · `SRC-DE-AB-JB-2
 
 [Archiv/Recovery öffnen](https://www.hintergrund.de/wp-content/uploads/2015/09/jahresbericht-2008-2009.pdf)
 
-Fundstelle: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift
+Fundstelle: Liz Mohn erhält am 13.06.2008 den XIV. Vernon A. Walters Award; Thomas Ebeling erscheint lediglich in einer Bildunterschrift; PDF-Seite 7: acht namentlich aufgeführte Sponsoren 2008/09; PDF-Seite 42: EUCOM/Bundeswehr-Expertengespräch 16.09.2008 auf Einladung der Deutschen Bank in deren Berliner Räumen
 
 </article>
 
@@ -1772,6 +1772,21 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primär
 [Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)
 
 Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-de-bt-parteispenden-kiep-schreiber-2002"></a>
+### Deutscher Bundestag, 14. Wahlperiode
+
+**[Deutscher Bundestag, Drs. 14/9300 – Bericht des 1. Untersuchungsausschusses zu Parteispenden](https://dserver.bundestag.de/btd/14/093/1409300.pdf)**
+
+Deutscher Bundestag, 14. Wahlperiode · 2002-06-13 · Stufe **A** · Primärquelle · `SRC-DE-BT-PARTEISPENDEN-KIEP-SCHREIBER-2002`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/14/093/1409300.pdf)
+
+Fundstelle: Druck-S. 164 Mitgliedschaft Schreiber bei Atlantik-Brücke; S. 353–355 Schreiber–Kiep–Kohl-Briefwechsel und Kieps Aussage zum Briefkopf (insb. PDF Seite 354) sowie 28.05.1993-Folgeschreiben; S. 374 Schreiber-A.T.G.-Thyssen und 1-Mio.-DM-CDU-Parteispende 1991 (PDF Seite 374); S. 383 Fuchs-Besprechungsbitte 1991
 
 </article>
 

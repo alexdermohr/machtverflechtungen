@@ -565,5 +565,76 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertNotIn("SRC-DE-VERFG-BRANDENBURG-604-20041209",
                          rows[warnings[1]]["sources"])
 
+    def test_kiep_schreiber_and_sponsorship_are_source_bound(self):
+        root = coverage.ROOT
+        name = "atlantik-bruecke-kiep-schreiber-ruestung-sponsoren-1991-2010.md"
+        decision = coverage.read_registry(root)[name]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+        )
+        relations = {
+            relation["id"]: relation
+            for relation in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            source["id"]: source
+            for source in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chronology = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-atlantik-bruecke.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+
+        self.assertEqual(len(decision["relation_ids"]), 18)
+        for id_ in decision["relation_ids"]:
+            with self.subTest(relation=id_):
+                relation = relations[id_]
+                self.assertIn(relation["label"], graph)
+                self.assertIn(f'id="{id_.lower()}"', table)
+                self.assertIn(f"[{id_}](network.md#{id_.lower()})", chronology)
+                for source_id in relation["sources"]:
+                    self.assertIn(f'id="{source_id.lower()}"', source_index)
+                    self.assertIn(source_id, sources)
+        for node in (
+            "PER-DE-WALTHER-LEISLER-KIEP", "PER-DE-KARLHEINZ-SCHREIBER",
+            "ORG-DE-CDU-1991", "ORG-PA-ATG-1991",
+            "ORG-DE-DEUTSCHE-BANK-2008", "ORG-DE-BUNDESBANK-2008",
+        ):
+            self.assertIn(node, actors)
+
+        named_sponsors = [
+            id_ for id_ in decision["relation_ids"]
+            if id_.endswith("-SPONSOR-2009-001")
+        ]
+        self.assertEqual(len(named_sponsors), 8)
+        for id_ in named_sponsors:
+            self.assertRegex(relations[id_]["label"], r"[Bb]etrag|Geldtransfer|Geldfluss")
+            self.assertEqual(relations[id_]["evidence_level"], "strong")
+            self.assertIn(
+                "SRC-DE-AB-JB-2008-2009", relations[id_]["sources"]
+            )
+            self.assertIn(f"[{id_}](network.md#{id_.lower()})", focus)
+        self.assertIn("keine vereinsseitige Autorisierung",
+                      relations["REL-DE-AB-KIEP-KOHL-1993-001"]["label"])
+        self.assertIn("keine unabhängige Atlantik-Brücke-Spende",
+                      relations["REL-DE-AB-SCHREIBER-KIEP-CASH-1991-001"]["label"])
+        self.assertIn("nicht erneut zu addieren",
+                      relations["REL-DE-AB-KIEP-CDU-DONATION-1991-001"]["label"])
+        self.assertEqual(
+            sources["SRC-DE-BT-PARTEISPENDEN-KIEP-SCHREIBER-2002"]["tier"], "A"
+        )
+        self.assertEqual(
+            sources["SRC-DE-AB-JB-2008-2009"]["tier"], "B"
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

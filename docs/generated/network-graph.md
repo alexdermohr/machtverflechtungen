@@ -1,12 +1,12 @@
 # Netzwerkdiagramm
 
-**223 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**241 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
 Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gewählten Akteurs. Weitere Beziehungen oder eine gemeinsame Steuerung sind daraus nicht automatisch ableitbar.
 
-- [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 36 direkte Beziehungen
+- [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 47 direkte Beziehungen
 - [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
 - [Organisation Gehlen](network-focus-organisation-gehlen.md) — 6 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
@@ -441,6 +441,37 @@ flowchart LR
     N_ORG_DE_LFV_BRANDENBURG -->|"Brandenburger grünes Sondervotum 2019 beschreibt Christian K. 2001 als LfV-Quelle; vor der Durchsuchung 17.02. sollte sein Quellenführer warnen; ob die Nennung des konkreten Termins behördlich angeordnet wurde, blieb streitig"| N_PER_DE_CHRISTIAN_K_2001
     N_PER_DE_SVEN_SCH_2001["Sven Sch. (anonymisierter Adressat einer Warnung, 2001)"]
     N_PER_DE_CHRISTIAN_K_2001 -->|"Laut grünem Sondervotum/rekonstruierter TKÜ warnte Christian K. Sven Sch. am 06.02.2001 15:54 vor einer für 17.02. geplanten Durchsuchung; diese wurde auf 07.02. vorgezogen. Originalmitschnitt und tatsächlicher Beweismittelverlust hier nicht nachgewiesen"| N_PER_DE_SVEN_SCH_2001
+    N_PER_DE_KARLHEINZ_SCHREIBER["Karlheinz Schreiber"]
+    N_PER_DE_WALTHER_LEISLER_KIEP["Walther Leisler Kiep (1926–2016)"]
+    N_PER_DE_KARLHEINZ_SCHREIBER -->|"Bundestagsbericht 14/9300 rekonstruiert Schreibers Bitte vom 20.02.1991 an CDU-Schatzmeister Kiep, vor der Entscheidung über Fuchs-Spürpanzer an Saudi-Arabien politisch bei Kohl einzuwirken; keine nachgewiesene Atlantik-Brücke-Briefkopfverwendung 1991"| N_PER_DE_WALTHER_LEISLER_KIEP
+    N_PER_DE_KARLHEINZ_SCHREIBER -->|"Schreiber bat Kiep mit Schreiben vom 23.04.1993 als Bear-Head/Thyssen-Lobbyist, Kohl um politische Unterstützung des kanadischen TH-495-Vorhabens zu ersuchen; kein erfolgreicher Beschaffungsauftrag aus dieser Anfrage belegt"| N_PER_DE_WALTHER_LEISLER_KIEP
+    N_PER_DE_HELMUT_KOHL["Helmut Kohl (1930–2017)"]
+    N_PER_DE_WALTHER_LEISLER_KIEP -->|"Kiep leitete am 27.04.1993 Schreibers TH-495-Vorstoß auf Briefkopf der Atlantik-Brücke an Kohl weiter (eigene Zeugenaussage). Brief vom 28.05.1993 verweist auf eine von Kohl vorgelesene Stellungnahme; keine vereinsseitige Autorisierung oder erfolgreiches Rüstungsgeschäft dadurch bewiesen"| N_PER_DE_HELMUT_KOHL
+    N_PER_DE_WALTHER_LEISLER_KIEP -->|"Atlantik-Brücke-Jahresbericht zum 30.06.2009 trägt die Unterschrift Walther Leisler Kieps als Ehrenvorsitzendem; nicht gleichbedeutend mit einem Vorstandsbeschluss über seinen TH-495-Lobbybrief von 1993"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_PER_DE_KARLHEINZ_SCHREIBER -->|"Bundestags-Untersuchungsausschuss Drs. 14/9300 nennt Schreiber im Zusammenhang mit den frühen 1990er Jahren Mitglied der Atlantik-Brücke; Höhe eines Vereinsbeitrags oder Vorstandsvollmacht nicht nachgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_THYSSEN_1991["Thyssen-Konzern (historisch, 1991–1993)"]
+    N_ORG_PA_ATG_1991["A.T.G. (panamaische Gesellschaft, 1991)"]
+    N_ORG_DE_THYSSEN_1991 -->|"Bundestagsausschuss Drs. 14/9300 S. 374 stellte 11 Mio. DM Thyssen-Zufluss vom 02.08.1991 auf A.T.G.-Schweizer Bankkonto fest, aus Saudi-Arabien-Geschäft für 36 Fuchs-Spürpanzer; nicht 11 Mio. DM Vereinszuwendung"| N_ORG_PA_ATG_1991
+    N_ORG_PA_ATG_1991 -->|"Bundestagsbericht 14/9300 bezeichnet Schreiber als wirtschaftlich Berechtigten hinter der panamaischen A.T.G. mit Konto beim Schweizerischen Bankverein; keine rechtliche Eigentümerschaft von Atlantik-Brücke oder CDU an der A.T.G. daraus abgeleitet"| N_PER_DE_KARLHEINZ_SCHREIBER
+    N_PER_DE_KARLHEINZ_SCHREIBER -->|"Bundestagsbericht 14/9300 S. 374 stellt Übergabe von 1 Mio. DM in bar durch Schreiber an CDU-Schatzmeister Kiep am 26.08.1991 in St. Margrethen fest; dies ist derselbe CDU-Parteispendevorgang, keine unabhängige Atlantik-Brücke-Spende"| N_PER_DE_WALTHER_LEISLER_KIEP
+    N_ORG_DE_CDU_1991["Christlich Demokratische Union Deutschlands (CDU, 1991)"]
+    N_PER_DE_WALTHER_LEISLER_KIEP -->|"Bundestagsbericht: 1 Mio. DM aus dem Schreiber/Thyssen-Geldweg gelangten 1991 über Kiep und den Treuhänder Weyrauch verdeckt zur CDU. Identisch mit der Schreiber-Kiep-Bargeldübergabe, nicht erneut zu addieren und keine nachgewiesene Vereinszuwendung"| N_ORG_DE_CDU_1991
+    N_ORG_DE_AUSWAERTIGES_AMT_2008["Auswärtiges Amt (Sponsor 2008/09)"]
+    N_ORG_DE_AUSWAERTIGES_AMT_2008 -->|"Atlantik-Brücke-Jahresbericht Juni 2008–Juni 2009 nennt das Auswärtige Amt ausdrücklich unter den Sponsoren; konkrete Haushaltsstelle, Zahlbetrag und Gegenleistungen im Beleg offen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_DEUTSCHE_BANK_2008["Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09)"]
+    N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 nennt Deutsche Bank als Sponsor; Betrag, Rechtsform der Unterstützung und konkrete Gegenleistung nicht angegeben"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_DZ_BANK_2008["DZ BANK (Sponsor 2008/09)"]
+    N_ORG_DE_DZ_BANK_2008 -->|"Jahresbericht Atlantik-Brücke 2008/09 nennt DZ BANK ausdrücklich unter acht Sponsoren, ohne individuellen Betrag oder Zweckvertrag"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_MM_WARBURG -->|"Atlantik-Brücke-Jahresbericht 2008/09 nennt M. M. Warburg Bank unter den Sponsoren; Sponsorennennung beweist keinen bezifferten Geldtransfer oder Einfluss auf konkrete Politikentscheidungen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_BUNDESBANK_2008["Deutsche Bundesbank (Sponsor 2008/09)"]
+    N_ORG_DE_BUNDESBANK_2008 -->|"Jahresbericht Atlantik-Brücke 2008/09 nennt Deutsche Bundesbank als Sponsor; genaue Unterstützungsart und Betrag sowie heutige Förderung nicht daraus ableitbar"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_VOLKSWAGEN_2008["Volkswagen (Sponsor 2008/09)"]
+    N_ORG_DE_VOLKSWAGEN_2008 -->|"Atlantik-Brücke bezeichnet Volkswagen im historischen Jahresbericht 2008/09 ausdrücklich als Sponsor; kein dokumentierter Einzelbetrag oder Kauf politischer Entscheidungen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_STIFTUNG_VAN_MEETEREN["Stiftung van Meeteren (Sponsor 2008/09)"]
+    N_ORG_DE_STIFTUNG_VAN_MEETEREN -->|"Atlantik-Brücke-Jahresbericht 2008/09 nennt Stiftung van Meeteren als Sponsor; Stiftungsbewilligung und individueller Geldfluss nicht ausgewiesen"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_BERTELSMANN_STIFTUNG_2008["Bertelsmann Stiftung (Sponsor 2008/09)"]
+    N_ORG_DE_BERTELSMANN_STIFTUNG_2008 -->|"Bertelsmann Stiftung wird in der Sponsorenliste des Atlantik-Brücke-Jahresberichts 2008/09 genannt, ohne ausgewiesenen Förderbetrag und ohne Beleg einer konkreten Einflussanweisung"| N_ORG_DE_ATLANTIK_BRUECKE
+    N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 S. 82–83: XVII. Expertengespräch mit U.S. European Command und Bundeswehrführung am 16.09.2008 auf Einladung der Deutschen Bank in ihrer Berliner Hauptstadtrepräsentanz; Gastgeberrolle ist kein Beleg einer Waffenbeschaffungsentscheidung"| N_ORG_DE_ATLANTIK_BRUECKE
 ```
 
 [Zur Relationstabelle](network.md)
