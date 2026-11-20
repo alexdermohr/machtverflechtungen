@@ -2768,3 +2768,62 @@ sources:
   accessed: "2026-11-20"
   locator: "Verhandlung 19. Mai 1948: im Gericht verlesene Kreditweisung Funks vom 19.05.1941 an SS-Unternehmen DEST, 8 Mio. RM Rahmen"
   notes: "Kreditbewilligung bzw. -auftrag, nicht Beleg der vollständigen Auszahlung. Getrennt vom 1939er Kreditrahmen von 8 Mio. RM."
+- id: SRC-IT-P2-ENI-TRADINVEST-1982
+  title: "ENI-Sonderkommissar Gandolfi: Finanzierungsverträge Tradinvest–Ambrosiano (1978–1982)"
+  institution: "Ente Nazionale Idrocarburi (ENI), in den Akten der italienischen P2-Parlamentskommission"
+  date: "1982-09-02"
+  type: parliamentary_original_business_documents
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf
+  accessed: "2026-11-20"
+  locator: "Vol. III Tomo VI, PDF 231–255, v.a. 242–245: 1979er 12,5 Mio. USD an Managua, Aufteilung 6,5/6,0 Mio. nach Andino/Overseas; 1980er Andino-Vertrag 50 Mio. USD; Tradinvest-Risikogröße 48 Mio. und Organlisten"
+  notes: "Originalbrief-/Vertragsübersicht, bereits im Forschungsdossier mit Originalseiten-Prüfung dokumentiert; keine hier neu geprüften lückenlosen Valuta-/Endempfängerkontenauszüge. 50 Mio. Nominalvolumen und 48 Mio. Risikoposition unterscheiden."
+
+- id: SRC-IT-P2-TEODORI-ENI-SUDAM-1984
+  title: "Massimo Teodori: Relazione di minoranza, P2-Kommission, Finanzierungsverträge ENI und Sudam (1984)"
+  institution: "Camera dei Deputati / Senato della Repubblica, P2-Untersuchungskommission"
+  date: "1984"
+  type: parliamentary_minority_report_original
+  primary: true
+  tier: A
+  url: https://www.senato.it/service/PDF/PDFServer/DF/284293.pdf
+  accessed: "2026-11-20"
+  locator: "Doc. XXIII n. 2-bis/1, gedruckte S. 127: Tabelle der Tradinvest-/ENI-Kredite 1978–1980; S. 273–274: berichtete 21 Mio. USD Ambrosiano Overseas–BAFISUD Corporation und 'Sudam'"
+  notes: "Parlamentarischer Minderheitsbericht ist unmittelbare Quelle seiner Vertragsaufstellung, aber keine forensische Gesamtbuchung oder Gerichtsfeststellung über PSI-Endempfänger; die Formulierungen des Berichterstatters und die Kreditsummen getrennt behandeln."
+
+- id: SRC-IT-P2-BOTTA-SUDAM-19830506
+  title: "Giacomo Botta, Vernehmung vom 6. Mai 1983 zu 'Sudam' und 21-Mio.-USD-Kredit"
+  institution: "Italienische Ermittlungsrichter, Originalvernehmung in der P2-Parlamentskommission"
+  date: "1983-05-06"
+  type: original_sworn_witness_testimony
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/116.%20volume_08_tomo_08.pdf
+  accessed: "2026-11-20"
+  locator: "Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinnert 21 Mio. USD Nassau für Managua, Bezug zu 'Sudam', vermutete Restschuld und unklare Empfänger"
+  notes: "Primärquelle der Zeugenaussage, nicht selbst verifizierter Nassau-/Managua-Kontobeleg; eine rechnerische 15-Mio.-USD-Restschuld beweist keine Zahlung an PSI."
+
+- id: SRC-IT-P2-BANCA-ITALIA-SIEGENTHALER-1978
+  title: "Banca d'Italia: Ambrosiano-Inspektionsanhang 1978 zu Pierre W. Siegenthalers Auslandsmandate"
+  institution: "Banca d'Italia, Dokumente der italienischen P2-Parlamentskommission"
+  date: "1978"
+  type: original_bank_regulatory_inspection
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/047.%20volume_03_tomo_08.pdf
+  accessed: "2026-11-20"
+  locator: "Vol. III Tomo VIII, Druck-S. 3 / PDF 7: Siegenthaler als Präsident von Cisalpine Overseas Nassau, Secretary von Ambrosiano Group Banco Comercial Managua"
+  notes: "Zeitgenössischer Organrollen-Befund, keine Verurteilung und keine automatisch persönlich bewiesene Entscheidung über andere Kredite."
+
+- id: SRC-IT-GAZZETTA-SIEGENTHALER-19820717
+  title: "Gazzetta Ufficiale Nr. 195: Beschränkte Befugnisse des ehrenamtlichen Konsularagenten in Nassau"
+  institution: "Ministero degli Affari Esteri, Gazzetta Ufficiale della Repubblica Italiana"
+  date: "1982-07-17"
+  type: original_ministerial_gazette
+  primary: true
+  tier: A
+  url: https://www.gazzettaufficiale.it/eli/gu/1982/07/17/195/sg/pdf
+  accessed: "2026-11-20"
+  locator: "S. 5076 / PDF 8: Dekret vom 30.06.1982 benennt Pierre W. Siegenthaler bereits als italienischen ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen"
+  notes: "Dokumentiert bestehendes Amt 1982, weder ursprüngliche Ernennungszeit noch Nutzung des Amts für Finanztransaktionen 1979/80."

@@ -1097,3 +1097,39 @@ entities:
     name: "Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb)"
     countries: [DE]
     notes: "SS-Unternehmen, das KZ-Zwangsarbeit ausbeutete. Vom Ministerien-Tribunal dokumentierte Kreditrahmen 1939 und 1941 sind nicht mit tatsächlich abgerufenen Beträgen gleichzusetzen."
+
+  - id: ORG-IT-ENI-1978
+    type: historical_state_enterprise
+    name: "Ente Nazionale Idrocarburi (ENI, historisch 1978–1982)"
+    countries: [IT]
+    notes: "Italienischer Staatsenergiekonzern; Ambrosiano-Finanzierungen über rechtlich eigene Finanztöchter einschließlich Tradinvest. Einzelbeschlüsse sind nicht automatisch Weisungen der ENI-Spitze."
+
+  - id: ORG-BS-TRADINVEST-ENI
+    type: historical_banking_subsidiary
+    name: "Tradinvest Bank and Trust Company of Nassau Ltd. (ENI)"
+    countries: [BS]
+    notes: "ENI-Finanztochter mit dokumentierten Darlehen an ausländische Ambrosiano-Banken 1978–1980; ursprüngliche und umgebuchte 1979er 12,5-Mio.-USD-Position nicht addieren."
+
+  - id: ORG-NI-AMBROSIANO-MANAGUA
+    type: historical_bank
+    name: "Ambrosiano Group Banco Comercial S.A., Managua"
+    countries: [NI]
+    notes: "Nicaraguanische Ambrosiano-Auslandsbank; nicht mit BAFISUD Corporation Panama, BAFISUD Montevideo oder Banco Ambrosiano Andino Lima identisch."
+
+  - id: ORG-PE-AMBROSIANO-ANDINO
+    type: historical_bank
+    name: "Banco Ambrosiano Andino S.A., Lima"
+    countries: [PE]
+    notes: "Ambrosiano-Auslandsbank in Peru; Vertragspartner von Tradinvest 1979 und 1980, nicht automatisch identisch mit später von Chierici als Banco Andino Montevideo bezeichnetem Institut."
+
+  - id: PER-INT-PIERRE-W-SIEGENTHALER
+    type: person
+    name: "Pierre W. Siegenthaler"
+    countries: [BS, IT]
+    notes: "ENI-Unterlagen nennen historische Tradinvest-Verwaltungsratsmandate; Bankaufsicht nennt Cisalpine-Overseas-Präsidentschaft und Managua-Secretary 1978. Nationale Zugehörigkeit und individuelle Kreditentscheidung ungeklärt."
+
+  - id: ORG-IT-MAE-1982
+    type: government_agency
+    name: "Italienisches Außenministerium (Ministero degli Affari Esteri, 1982)"
+    countries: [IT]
+    notes: "Amtliche Dekretbehörde für begrenzte Kompetenzen des ehrenamtlichen Konsularagenten Siegenthaler 1982 in Nassau; aus Rolle folgt keine Beteiligung an den Bankgeschäften."

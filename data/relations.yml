@@ -1921,3 +1921,102 @@ relations:
     period: {start: "1942"}
     evidence_level: established
     sources: [SRC-US-IMT-PUHL-AFFIDAVIT-3944PS, SRC-US-NMT-MINISTRIES-PUHL-1949]
+
+  - id: REL-IT-ENI-TRAD-1979-001
+    from: ORG-IT-ENI-1978
+    to: ORG-BS-TRADINVEST-ENI
+    type: controlled_overseas_finance_subsidiary
+    label: "ENI-Originalauskunft 1982 benennt Tradinvest Nassau als eigene Finanztochter; Darlehensentscheidungen formal durch deren Verwaltungsrat, nicht unmittelbar der ENI-Giunta zugeschrieben"
+    period: {start: "1978", end: "1982"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982]
+
+  - id: REL-BS-NI-TRAD-1979-001
+    from: ORG-BS-TRADINVEST-ENI
+    to: ORG-NI-AMBROSIANO-MANAGUA
+    type: historic_lending_and_reassignment
+    label: "ENI-Unterlagen: 31.05.1979 12,5 Mio. USD-Darlehen an Ambrosiano Managua, am 30.10.1979 in 6,5 Mio. Andino und 6 Mio. Overseas umverteilt; dies sind keine drei addierbaren Darlehenszahlungen"
+    period: {start: "1979-05-31", end: "1979-10-30"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982, SRC-IT-P2-TEODORI-ENI-SUDAM-1984]
+
+  - id: REL-BS-PE-TRAD-1979-001
+    from: ORG-BS-TRADINVEST-ENI
+    to: ORG-PE-AMBROSIANO-ANDINO
+    type: historically_reallocated_loan_exposure
+    label: "1979er Tradinvest-Darlehensposition aus 12,5 Mio. USD an Managua laut ENI-Abrechnung auf 6,5 Mio. USD für Banco Ambrosiano Andino Lima aufgeteilt, keine zusätzliche zweite 6,5-Mio.-Auszahlung"
+    period: {start: "1979-10-30"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982, SRC-IT-P2-TEODORI-ENI-SUDAM-1984]
+
+  - id: REL-BS-BS-TRAD-1979-001
+    from: ORG-BS-TRADINVEST-ENI
+    to: ORG-BS-BANCO-AMBROSIANO-OVERSEAS
+    type: historically_reallocated_loan_exposure
+    label: "1979er Tradinvest-Darlehensposition aus 12,5 Mio. USD an Managua laut ENI-Abrechnung zu 6 Mio. USD auf Ambrosiano Overseas Nassau umgeordnet; Umverteilung ist kein dritter Zahlungseingang"
+    period: {start: "1979-10-30"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982, SRC-IT-P2-TEODORI-ENI-SUDAM-1984]
+
+  - id: REL-BS-BS-TRAD-1979-002
+    from: ORG-BS-TRADINVEST-ENI
+    to: ORG-BS-BANCO-AMBROSIANO-OVERSEAS
+    type: separately_reported_loan_contract
+    label: "Teodori-P2-Minderheitsbericht 1984 führt getrennt von der 6-Mio.-Umverteilung einen Tradinvest-Overseas-Vertrag über 25 Mio. USD vom 31.05.1979 und eine Valuta 11.06.1979 auf; vollständiges Bankjournal hier nicht geprüft"
+    period: {start: "1979-05-31"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-TEODORI-ENI-SUDAM-1984]
+
+  - id: REL-BS-PE-TRAD-1980-001
+    from: ORG-BS-TRADINVEST-ENI
+    to: ORG-PE-AMBROSIANO-ANDINO
+    type: distinct_loan_contract
+    label: "ENI-Dokumente und Teodori-Tabelle: eigenständiger Andino-Vertrag 01.12.1980 über 50 Mio. USD Nominalanleihe, angegebene Auszahlung 08.12.1980; ENI-Risikoposition 48 Mio., kein Beleg für spätere PSI-Zahlung"
+    period: {start: "1980-12-01"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982, SRC-IT-P2-TEODORI-ENI-SUDAM-1984]
+
+  - id: REL-INT-TRAD-SIEG-1979-001
+    from: PER-INT-PIERRE-W-SIEGENTHALER
+    to: ORG-BS-TRADINVEST-ENI
+    type: historical_board_seat
+    label: "ENI-Originalunterlagen nennen Pierre W. Siegenthaler in Tradinvest-Verwaltungsratslisten 1979 und 1980; Teilnahme an konkreter Abstimmung oder Sondervorteil nicht einzeln belegt"
+    period: {start: "1979", end: "1980"}
+    evidence_level: established
+    sources: [SRC-IT-P2-ENI-TRADINVEST-1982]
+
+  - id: REL-BS-SIEG-1978-001
+    from: PER-INT-PIERRE-W-SIEGENTHALER
+    to: ORG-BS-BANCO-AMBROSIANO-OVERSEAS
+    type: historical_bank_presidency
+    label: "Banca-d'Italia-Inspektionsanhang 1978 führt Pierre W. Siegenthaler als Präsidenten der Cisalpine Overseas Bank Nassau; Amtszeit nach 1978 bedarf gesonderter Prüfung"
+    period: {start: "1978"}
+    evidence_level: established
+    sources: [SRC-IT-P2-BANCA-ITALIA-SIEGENTHALER-1978]
+
+  - id: REL-NI-SIEG-1978-001
+    from: PER-INT-PIERRE-W-SIEGENTHALER
+    to: ORG-NI-AMBROSIANO-MANAGUA
+    type: historical_corporate_secretary_role
+    label: "Banca-d'Italia-Inspektionsanhang 1978 nennt Siegenthaler als Secretary von Ambrosiano Group Banco Comercial Managua; keine persönliche Zahlungsausführung daraus bewiesen"
+    period: {start: "1978"}
+    evidence_level: established
+    sources: [SRC-IT-P2-BANCA-ITALIA-SIEGENTHALER-1978]
+
+  - id: REL-IT-SIEG-CONSUL-1982-001
+    from: PER-INT-PIERRE-W-SIEGENTHALER
+    to: ORG-IT-MAE-1982
+    type: honorary_consular_officer
+    label: "Italienisches Ministerialdekret 30.06.1982 benennt Siegenthaler bereits als ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen; keine nachgewiesene Nutzung des Amtes für Ambrosiano-Kredite"
+    period: {start: "1982-06-30"}
+    evidence_level: established
+    sources: [SRC-IT-GAZZETTA-SIEGENTHALER-19820717]
+
+  - id: REL-BS-PA-SUDAM-1980-001
+    from: ORG-BS-BANCO-AMBROSIANO-OVERSEAS
+    to: ORG-PA-BAFISUD-CORPORATION-SA
+    type: parliamentary_reported_credit_facility
+    label: "P2-Minderheitsbericht 1984 beschreibt für 1980 einen mit 'Sudam' verbundenen 21-Mio.-USD-Kredit Overseas Nassau zu BAFISUD Corporation; Zeuge Botta erinnerte Nassau/Managua. Vertrag, Valuta, Identität letzter Begünstigter und PSI-Endzahlung nicht durch Bankkonto belegt"
+    period: {start: "1980"}
+    evidence_level: plausible
+    sources: [SRC-IT-P2-TEODORI-ENI-SUDAM-1984, SRC-IT-P2-BOTTA-SUDAM-19830506]

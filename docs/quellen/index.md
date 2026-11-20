@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**240 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**245 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-banca-italia-bafisud-varesino-1983) · [C](#src-us-cia-qksnitch-final-1953) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-teodori-eni-sudam-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -439,6 +439,21 @@ Axel Springer SE · 2015-11-05 · Stufe **A** · Primärquelle · `SRC-DE-AXELSP
 [Seite öffnen](https://www.axelspringer.com/de/ax-press-release/personalien-bild-gruppe-kai-diekmann-uebernimmt-als-herausgeber-die-fuehrung-der-chefredakteure-tanit-koch-wird-bild-chefredakteurin)
 
 Fundstelle: Kai Diekmann als BILD-Chefredakteur und Herausgeber der BILD-Gruppe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-it-p2-banca-italia-siegenthaler-1978"></a>
+### Banca d'Italia, Dokumente der italienischen P2-Parlamentskommission
+
+**[Banca d'Italia: Ambrosiano-Inspektionsanhang 1978 zu Pierre W. Siegenthalers Auslandsmandate](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/047.%20volume_03_tomo_08.pdf)**
+
+Banca d'Italia, Dokumente der italienischen P2-Parlamentskommission · 1978 · Stufe **A** · Primärquelle · `SRC-IT-P2-BANCA-ITALIA-SIEGENTHALER-1978`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/047.%20volume_03_tomo_08.pdf)
+
+Fundstelle: Vol. III Tomo VIII, Druck-S. 3 / PDF 7: Siegenthaler als Präsident von Cisalpine Overseas Nassau, Secretary von Ambrosiano Group Banco Comercial Managua
 
 </article>
 
@@ -1037,6 +1052,21 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-it-p2-teodori-eni-sudam-1984"></a>
+### Camera dei Deputati / Senato della Repubblica, P2-Untersuchungskommission
+
+**[Massimo Teodori: Relazione di minoranza, P2-Kommission, Finanzierungsverträge ENI und Sudam (1984)](https://www.senato.it/service/PDF/PDFServer/DF/284293.pdf)**
+
+Camera dei Deputati / Senato della Repubblica, P2-Untersuchungskommission · 1984 · Stufe **A** · Primärquelle · `SRC-IT-P2-TEODORI-ENI-SUDAM-1984`
+
+[PDF öffnen](https://www.senato.it/service/PDF/PDFServer/DF/284293.pdf)
+
+Fundstelle: Doc. XXIII n. 2-bis/1, gedruckte S. 127: Tabelle der Tradinvest-/ENI-Kredite 1978–1980; S. 273–274: berichtete 21 Mio. USD Ambrosiano Overseas–BAFISUD Corporation und 'Sudam'
 
 </article>
 
@@ -1790,6 +1820,21 @@ Fundstelle: 21.10.1952, Tagesordnungspunkt Hans Egidi/BDJ; BfV-Waffenlager 1950,
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
+
+<a id="src-it-p2-eni-tradinvest-1982"></a>
+### Ente Nazionale Idrocarburi (ENI), in den Akten der italienischen P2-Parlamentskommission
+
+**[ENI-Sonderkommissar Gandolfi: Finanzierungsverträge Tradinvest–Ambrosiano (1978–1982)](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf)**
+
+Ente Nazionale Idrocarburi (ENI), in den Akten der italienischen P2-Parlamentskommission · 1982-09-02 · Stufe **A** · Primärquelle · `SRC-IT-P2-ENI-TRADINVEST-1982`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/044.%20volume_03_tomo_06.pdf)
+
+Fundstelle: Vol. III Tomo VI, PDF 231–255, v.a. 242–245: 1979er 12,5 Mio. USD an Managua, Aufteilung 6,5/6,0 Mio. nach Andino/Overseas; 1980er Andino-Vertrag 50 Mio. USD; Tradinvest-Risikogröße 48 Mio. und Organlisten
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1976">
 
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
@@ -2075,6 +2120,21 @@ Fundstelle: Absätze 2–7: von Funk berichtete Absprache mit Himmler, Puhls Kon
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-it-p2-botta-sudam-19830506"></a>
+### Italienische Ermittlungsrichter, Originalvernehmung in der P2-Parlamentskommission
+
+**[Giacomo Botta, Vernehmung vom 6. Mai 1983 zu 'Sudam' und 21-Mio.-USD-Kredit](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/116.%20volume_08_tomo_08.pdf)**
+
+Italienische Ermittlungsrichter, Originalvernehmung in der P2-Parlamentskommission · 1983-05-06 · Stufe **A** · Primärquelle · `SRC-IT-P2-BOTTA-SUDAM-19830506`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/116.%20volume_08_tomo_08.pdf)
+
+Fundstelle: Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinnert 21 Mio. USD Nassau für Managua, Bezug zu 'Sudam', vermutete Restschuld und unklare Empfänger
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-jhs-newbridge-2026"></a>
@@ -2237,6 +2297,21 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
+
+<a id="src-it-gazzetta-siegenthaler-19820717"></a>
+### Ministero degli Affari Esteri, Gazzetta Ufficiale della Repubblica Italiana
+
+**[Gazzetta Ufficiale Nr. 195: Beschränkte Befugnisse des ehrenamtlichen Konsularagenten in Nassau](https://www.gazzettaufficiale.it/eli/gu/1982/07/17/195/sg/pdf)**
+
+Ministero degli Affari Esteri, Gazzetta Ufficiale della Repubblica Italiana · 1982-07-17 · Stufe **A** · Primärquelle · `SRC-IT-GAZZETTA-SIEGENTHALER-19820717`
+
+[Seite öffnen](https://www.gazzettaufficiale.it/eli/gu/1982/07/17/195/sg/pdf)
+
+Fundstelle: S. 5076 / PDF 8: Dekret vom 30.06.1982 benennt Pierre W. Siegenthaler bereits als italienischen ehrenamtlichen Konsularagenten in Nassau mit begrenzten Befugnissen
 
 </article>
 
