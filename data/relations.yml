@@ -2020,3 +2020,48 @@ relations:
     period: {start: "1980"}
     evidence_level: plausible
     sources: [SRC-IT-P2-TEODORI-ENI-SUDAM-1984, SRC-IT-P2-BOTTA-SUDAM-19830506]
+
+  - id: REL-DE-BB-VERFG-2004-001
+    from: ORG-DE-LANDESREGIERUNG-BRANDENBURG
+    to: PER-DE-KERSTIN-KAISER-NICHT
+    type: unconstitutional_archival_access_denial
+    label: "Innenministerium verweigerte am 06.11.2003 PKK-Mitglied Kerstin Kaiser-Nicht Akteneinsicht im Fall Toni S.; VerfGBbg 6/04 stellte am 09.12.2004 wegen fehlender einzelfallbezogener Abwägung eine Verletzung von Art. 56 Abs. 3 LV fest; keine automatische Herausgabe angeordnet"
+    period: {start: "2003-11-06", end: "2004-12-09"}
+    evidence_level: established
+    sources: [SRC-DE-VERFG-BRANDENBURG-604-20041209]
+
+  - id: REL-DE-BB-VERFG-2004-002
+    from: ORG-DE-LANDESREGIERUNG-BRANDENBURG
+    to: PER-DE-HEINZ-VIETZE
+    type: constitutionally_upheld_archival_access_denial
+    label: "Innenministerium verweigerte am 06.11.2003 auch Heinz Vietze Akteneinsicht; VerfGBbg 6/04 bestätigte 2004 die Verweigerung für den nicht zur PKK gehörenden Abgeordneten als verfassungsgemäß"
+    period: {start: "2003-11-06", end: "2004-12-09"}
+    evidence_level: established
+    sources: [SRC-DE-VERFG-BRANDENBURG-604-20041209]
+
+  - id: REL-DE-BB-VERFG-2004-003
+    from: ORG-DE-VERFG-BRANDENBURG
+    to: ORG-DE-LANDESREGIERUNG-BRANDENBURG
+    type: partial_constitutional_violation_ruling
+    label: "Urteil VfGBbg 6/04 vom 09.12.2004: unzureichend begründete Verweigerung gegenüber Kaiser-Nicht verfassungswidrig; Ablehnung gegenüber Vietze hatte Bestand; keine Beurteilung der NaBe-Warnkette oder eines 2003er Strafurteils"
+    period: {start: "2004-12-09"}
+    evidence_level: established
+    sources: [SRC-DE-VERFG-BRANDENBURG-604-20041209]
+
+  - id: REL-DE-BB-NABE-2001-001
+    from: ORG-DE-LFV-BRANDENBURG
+    to: PER-DE-CHRISTIAN-K-2001
+    type: reported_informant_management_and_protective_warning
+    label: "Brandenburger grünes Sondervotum 2019 beschreibt Christian K. 2001 als LfV-Quelle; vor der Durchsuchung 17.02. sollte sein Quellenführer warnen; ob die Nennung des konkreten Termins behördlich angeordnet wurde, blieb streitig"
+    period: {start: "2001-02-06"}
+    evidence_level: strong
+    sources: [SRC-DE-BB-NSU-GRUENE-SONDERVOTUM-2019]
+
+  - id: REL-DE-BB-NABE-2001-002
+    from: PER-DE-CHRISTIAN-K-2001
+    to: PER-DE-SVEN-SCH-2001
+    type: reported_police_search_warning
+    label: "Laut grünem Sondervotum/rekonstruierter TKÜ warnte Christian K. Sven Sch. am 06.02.2001 15:54 vor einer für 17.02. geplanten Durchsuchung; diese wurde auf 07.02. vorgezogen. Originalmitschnitt und tatsächlicher Beweismittelverlust hier nicht nachgewiesen"
+    period: {start: "2001-02-06"}
+    evidence_level: strong
+    sources: [SRC-DE-BB-NSU-GRUENE-SONDERVOTUM-2019]

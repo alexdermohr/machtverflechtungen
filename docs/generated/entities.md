@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**207 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**213 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -32,6 +32,7 @@
 | Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
 | Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE | [1](network.md#rel-de-gehlen-006) |
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE | [2](network.md#rel-de-da-003) |
+| Heinz Vietze | person | `PER-DE-HEINZ-VIETZE` | DE | [1](network.md#rel-de-bb-verfg-2004-002) |
 | Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
@@ -42,6 +43,7 @@
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE | [4](network.md#rel-de-tmn-019) |
+| Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [4](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
@@ -125,6 +127,7 @@
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [4](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
+| Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
@@ -166,8 +169,9 @@
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [2](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
-| Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [1](network.md#rel-de-ukc18-001) |
+| Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
+| Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [1](network.md#rel-de-cumex-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
@@ -190,6 +194,7 @@
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
+| Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [1](network.md#rel-de-tmn-016) |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE | [4](network.md#rel-de-bdj-001) |
 | The Bilderberg Association (Charity 272706, historisch) | association | `ORG-GB-BILDERBERG-CHARITY-272706` | GB | [1](network.md#rel-gb-bb-uk-001) |
@@ -209,6 +214,7 @@
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
+| Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |

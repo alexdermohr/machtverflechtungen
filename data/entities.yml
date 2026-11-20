@@ -1133,3 +1133,39 @@ entities:
     name: "Italienisches Außenministerium (Ministero degli Affari Esteri, 1982)"
     countries: [IT]
     notes: "Amtliche Dekretbehörde für begrenzte Kompetenzen des ehrenamtlichen Konsularagenten Siegenthaler 1982 in Nassau; aus Rolle folgt keine Beteiligung an den Bankgeschäften."
+
+  - id: ORG-DE-LANDESREGIERUNG-BRANDENBURG
+    type: state_government
+    name: "Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04)"
+    countries: [DE]
+    notes: "Antragsgegnerin im Organstreit VfGBbg 6/04; Innenministerium lehnte Akteneinsicht 2003 ab. Das Gericht unterschied die Rechte einzelner PKK- und Nicht-PKK-Abgeordneter."
+
+  - id: ORG-DE-VERFG-BRANDENBURG
+    type: constitutional_court
+    name: "Verfassungsgericht des Landes Brandenburg"
+    countries: [DE]
+    notes: "Landesverfassungsgericht; entschied mit Urteil VfGBbg 6/04 vom 09.12.2004 über die verfassungsrechtliche Reichweite individueller Akteneinsicht."
+
+  - id: PER-DE-KERSTIN-KAISER-NICHT
+    type: person
+    name: "Kerstin Kaiser-Nicht"
+    countries: [DE]
+    notes: "Landtagsabgeordnete und Mitglied der Parlamentarischen Kontrollkommission; Akteneinsichtsverweigerung im Fall Toni S. 2004 als verfassungswidrig beurteilt. Urteil bewirkte keine automatische Herausgabe."
+
+  - id: PER-DE-HEINZ-VIETZE
+    type: person
+    name: "Heinz Vietze"
+    countries: [DE]
+    notes: "Landtagsabgeordneter ohne PKK-Mitgliedschaft im gerichtlichen Verfahren VfGBbg 6/04; das Landesverfassungsgericht hielt die Ablehnung seines eigenen Akteneinsichtsantrags für verfassungsgemäß."
+
+  - id: PER-DE-CHRISTIAN-K-2001
+    type: informant_anonymized
+    name: "Christian K. (anonymisierte Quelle Brandenburg, 2001)"
+    countries: [DE]
+    notes: "Verfassungsschutzquelle im 2001er NaBe-Warnkomplex. Warnanruf nach parlamentarischem Minderheitsbericht auf Basis von TKÜ und Zeugen, Originalmitschnitt hier nicht eingesehen."
+
+  - id: PER-DE-SVEN-SCH-2001
+    type: historical_contact_anonymized
+    name: "Sven Sch. (anonymisierter Adressat einer Warnung, 2001)"
+    countries: [DE]
+    notes: "Im parlamentarischen Sondervotum als Rechtsextremist und Musik-/Versandhändler beschriebener Empfänger eines von Christian K. berichteten Anrufs. Keine aus der Rolle ableitbare Tatverurteilung."

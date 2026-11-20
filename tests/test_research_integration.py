@@ -459,5 +459,56 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertEqual(consular["period"]["start"], "1982-06-30")
 
 
+    def test_brandenburg_nabe_warning_and_constitutional_court_diverge(self):
+        root = coverage.ROOT
+        study = "brandenburg-nabe-razziawarnung-aktenzugang-2001-2004.md"
+        decision = coverage.read_registry(root)[study]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"],
+            hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+        )
+        rows = {
+            row["id"]: row
+            for row in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        sources = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        court = [
+            "REL-DE-BB-VERFG-2004-001",
+            "REL-DE-BB-VERFG-2004-002",
+            "REL-DE-BB-VERFG-2004-003",
+        ]
+        warnings = ["REL-DE-BB-NABE-2001-001", "REL-DE-BB-NABE-2001-002"]
+        self.assertEqual(set(decision["relation_ids"]), set(court + warnings))
+        for relation_id in court + warnings:
+            relation = rows[relation_id]
+            self.assertIn(relation["label"], graph)
+            self.assertIn(f'id="{relation_id.lower()}"', network)
+            for source_id in relation["sources"]:
+                self.assertIn(f'id="{source_id.lower()}"', sources)
+        for node in ("ORG-DE-VERFG-BRANDENBURG",
+                     "PER-DE-KERSTIN-KAISER-NICHT",
+                     "PER-DE-HEINZ-VIETZE",
+                     "PER-DE-CHRISTIAN-K-2001",
+                     "PER-DE-SVEN-SCH-2001"):
+            self.assertIn(node, actors)
+        self.assertEqual(
+            rows[court[0]]["evidence_level"], "established"
+        )
+        self.assertEqual(rows[warnings[1]]["evidence_level"], "strong")
+        self.assertIn("keine automatische Herausgabe", rows[court[0]]["label"])
+        self.assertIn("als verfassungsgemäß", rows[court[1]]["label"])
+        self.assertIn("Originalmitschnitt", rows[warnings[1]]["label"])
+        self.assertNotIn("SRC-DE-BB-NSU-GRUENE-SONDERVOTUM-2019",
+                         rows[court[0]]["sources"])
+        self.assertNotIn("SRC-DE-VERFG-BRANDENBURG-604-20041209",
+                         rows[warnings[1]]["sources"])
+
+
 if __name__ == "__main__":
     unittest.main()
