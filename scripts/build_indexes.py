@@ -437,6 +437,9 @@ FOCUS_NETWORKS = (
     ("Organisation Gehlen", "organisation-gehlen", "ORG-DE-ORGANISATION-GEHLEN"),
     ("Bund Deutscher Jugend", "bdj", "ORG-DE-BDJ"),
     ("BAFISUD", "bafisud", "ORG-UY-BANCO-FINANCIERO-SUDAMERICANO"),
+    ("BIZ / BIS", "biz", "ORG-INT-BIS"),
+    ("I.G. Farben", "ig-farben", "ORG-DE-IG-FARBEN"),
+    ("ENI / Tradinvest", "tradinvest", "ORG-BS-TRADINVEST-ENI"),
 )
 
 
