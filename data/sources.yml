@@ -2979,3 +2979,50 @@ sources:
   accessed: "2026-11-20"
   locator: "BGBl I 2018 S. 2218 / PDF-Bildseite 10 (1-basiert), Titel 681 03-029, Haushaltsansatz 3.600 T€ für 2019; S. 2219/PDF 11: BMWi/Interministerieller Ausschuss und mehrjährige Programmautorisierung"
   notes: "Gesetzlicher Gesamtansatz von 3,6 Mio. EUR für alle transatlantischen Begegnungsprojekte 2019, KEINE ACG-Einzelbewilligung, KEINE tatsächlich geflossene 3,6-Mio.-Überweisung. Die relevanten zwei amtlichen PDF-Seiten am 20.11.2026 visuell gegengeprüft."
+- id: SRC-IT-P2-UBS-GELLI-CERUTI-19810511
+  title: "Union de Banques Suisses, Brief an Untersuchungsrichter Salvatore Aversano vom 11.05.1981"
+  institution: "Union de Banques Suisses Genf; Originalabdruck der P2-Parlamentskommission, Vol. VIII Tomo X"
+  date: "1981-05-11"
+  type: original_historical_bank_correspondence
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/118.%20volume_08_tomo_10.pdf
+  accessed: "2026-11-20"
+  locator: "P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299–300: Licio Gelli Kontoinhaber 596.757.K.J. 60 T und 525.779.X.S. 60 R; Marco Ceruti 525.366.B.W. 60 A und 525.367.B.X. 60 D; Richtervermerk Druck-S. 286/PDF 298"
+  notes: "Originalbrief bereits in der quellenkritischen Bologna-Studie bildlich mit Banknummern geprüft; bei dieser Nachpflege wurde die 45-MB-PDF wegen Zugriffsbeschränkung des Web-Retrievers nicht erneut als Volltext geöffnet. Dokumentiert historische namentliche Kontozuordnung, nicht tatsächlich an Attentäter bezahlte Mittel oder die Identität anders formatierter Kontokennungen."
+
+- id: SRC-IT-BOLOGNA-BELLINI-2022-COURT-EXCERPT
+  title: "Corte d'Assise di Bologna, Bellini-Motivazione 2022/2023, Urteilsauszug zu documento Bologna"
+  institution: "Corte d'Assise di Bologna, in öffentlicher reproduzierter Urteilsausfertigung"
+  date: "2023"
+  type: original_court_judgment_excerpt
+  primary: true
+  tier: A
+  url: https://www.ugomariatassinari.it/download/Strage%20di%20Bologna/StrageBellini-motivazione-4-6_2.pdf
+  accessed: "2026-11-20"
+  locator: "Auszug Druckseiten 749–751 / PDF-Seiten 33–35; Seite 749 zu Calvi-Gelli-20-Mio.-USD/Justizeinfluss als Gerichtsdeutung; Seite 750 zu nachträglich veränderten UBS-Bankdurchschrift vom 14.10.1980 über 800.000 USD und Urteil Roma vom 16.04.1994; Seite 751 zu vor dem 02.08.1980 datiertem 'MC'-Bargeldvermerk über 1 Mio. USD"
+  notes: "Echte veröffentlichte Gerichtsbegründungsseiten, im November 2026 erneut visuell geprüft. Das 1992er Mailänder Urteil und die originalen UBS-Kontobuchungen wurden für diesen Nachtrag nicht separat als Bankoriginal eingesehen. Richterliche Deutung zu Geldzweck ist nicht eine persönliche neue Verurteilung Verstorbener wegen des Bologna-Anschlags."
+
+- id: SRC-IT-BOLOGNA-PG-REPORT-2024
+  title: "Procura Generale Bologna, Relazione sull'Amministrazione della Giustizia 2024"
+  institution: "Procura Generale presso la Corte d'Appello di Bologna"
+  date: "2024-01-27"
+  type: official_prosecutorial_annual_report
+  primary: true
+  tier: A
+  url: https://pg-bologna.giustizia.it/cmsresources/cms/documents/relazione_anno_giudiziario_2024_PG_Bo_intero_1.pdf
+  accessed: "2026-11-20"
+  locator: "Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Verfahren; dem Gelli Finanzierungsrolle und D'Amato 850.000-USD-Position zugeschrieben; Interpretation des documento Bologna als Anschlagsbuchhaltung ausdrücklich 'a giudizio della Procura Generale'"
+  notes: "Offizielle Selbstaussage einer Verfahrenspartei zu ihrer strafprozessualen Interpretation; keine eigenständige Strafverurteilung Gellis oder D'Amatos. Original-PDF-Bildseite am 20.11.2026 frisch eingesehen."
+
+- id: SRC-IT-BOLOGNA-DOMANI-COURT-EXCERPT-2024
+  title: "Il documento Bologna, una prova esaminata con quarant'anni di ritardo – Bellini-Gerichtstext im Domani-Abdruck"
+  institution: "Corte d'Assise di Bologna, durch Domani journalistisch auszugsweise reproduziert"
+  date: "2024-09-18"
+  type: court_text_republished_excerpt
+  primary: false
+  tier: B
+  url: https://www.editorialedomani.it/il-documento-bologna-una-prova-esaminata-con-quarantanni-di-ritardo-r9luteo5
+  accessed: "2026-11-20"
+  locator: "Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Archivfund und Bankzuflüssen nach 22.08.1980: 20 Mio. USD Banco Ambrosiano Andino → UBS Genf, 15 Mio. Teilbetrag, daraus 9,6/3,5/1,9 Mio. USD"
+  notes: "Wiedergabe originaler gerichtlicher Erwägungen über journalistische Auszugsedition, nicht eigenständig vollständiges amtliches Gerichtsfaksimile oder originale Bankkontoauszüge; Vorsatz einer ursprünglichen Beweismittelunterdrückung aus Kopierfehler 1987 nicht bewiesen."

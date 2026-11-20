@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**254 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**259 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -25,6 +25,7 @@
 | Emil Puhl (1889–1962) | person | `PER-DE-EMIL-PUHL` | DE | [3](network.md#rel-int-bis-1939-003) |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
 | Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
+| Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [1](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
@@ -52,10 +53,11 @@
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [4](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
-| Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [2](network.md#rel-it-p2-gelli-1981-001) |
+| Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
+| Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
 | Marja-Liisa Völlers (Bundestagsabgeordnete 2019) | person | `PER-DE-MARJA-LIISA-VOELLERS-2019` | DE | [1](network.md#rel-us-acg-cities-voellers-2019-001) |
 | Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE | [3](network.md#rel-de-tmn-001) |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE | [4](network.md#rel-de-tmn-003) |
@@ -75,7 +77,7 @@
 | Raymund Hörnle | person | `PER-DE-RAYMUND-HOERNLE` | DE | – |
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE | [2](network.md#rel-de-gehlen-002) |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
-| Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [2](network.md#rel-it-ambrosiano-calvi-1980-001) |
+| Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [3](network.md#rel-it-ambrosiano-calvi-1980-001) |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE | – |
 | Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB | [3](network.md#rel-gb-bb-uk-003) |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE | [2](network.md#rel-de-tmn-015) |
@@ -120,7 +122,7 @@
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [2](network.md#rel-de-tmn-002) |
 | BAFISUD Corporation S.A. (Panama) | finance_company | `ORG-PA-BAFISUD-CORPORATION-SA` | PA | [5](network.md#rel-uy-pa-bafisud-1978-001) |
-| Banco Ambrosiano Andino S.A., Lima | historical_bank | `ORG-PE-AMBROSIANO-ANDINO` | PE | [2](network.md#rel-bs-pe-trad-1979-001) |
+| Banco Ambrosiano Andino S.A., Lima | historical_bank | `ORG-PE-AMBROSIANO-ANDINO` | PE | [3](network.md#rel-bs-pe-trad-1979-001) |
 | Banco Ambrosiano Holding S.A. (Luxemburg) | finance_company | `ORG-LU-BANCO-AMBROSIANO-HOLDING-SA` | LU | [2](network.md#rel-it-ambrosiano-lux-1979-001) |
 | Banco Ambrosiano Overseas (Nassau; vormals Cisalpine Overseas Bank) | commercial_bank | `ORG-BS-BANCO-AMBROSIANO-OVERSEAS` | BS | [6](network.md#rel-lu-bs-ambrosiano-overseas-1983-001) |
 | Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT | [4](network.md#rel-int-interalpha-1979-001) |
@@ -172,6 +174,7 @@
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
+| Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
@@ -215,6 +218,7 @@
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
+| Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
@@ -246,6 +250,7 @@
 | U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [1](network.md#rel-int-bcci-006) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
+| Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |

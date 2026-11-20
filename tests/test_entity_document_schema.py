@@ -30,7 +30,11 @@ class DocumentEntitySchemaTests(unittest.TestCase):
             (ROOT / "data/entities.yml").read_text(encoding="utf-8")
         )["entities"]
         contracts = [e for e in entities if e["id"].startswith("DOC-")]
-        self.assertEqual(len(contracts), 2)
+        self.assertGreaterEqual(len(contracts), 2)
+        self.assertIn(
+            "DOC-IT-DOCUMENTO-BOLOGNA-1982",
+            {record["id"] for record in contracts},
+        )
         for record in contracts:
             self.assertIn("document", record["type"])
             self.assertGreater(len(record["notes"]), 70)

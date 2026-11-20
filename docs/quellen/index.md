@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**258 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**262 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1277,6 +1277,21 @@ Central Intelligence Agency, Original bei National Security Archive · 1948-03-1
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)
 
 Fundstelle: Document 59, PDF-Bildseite 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-it-bologna-bellini-2022-court-excerpt"></a>
+### Corte d'Assise di Bologna, in öffentlicher reproduzierter Urteilsausfertigung
+
+**[Corte d'Assise di Bologna, Bellini-Motivazione 2022/2023, Urteilsauszug zu documento Bologna](https://www.ugomariatassinari.it/download/Strage%20di%20Bologna/StrageBellini-motivazione-4-6_2.pdf)**
+
+Corte d'Assise di Bologna, in öffentlicher reproduzierter Urteilsausfertigung · 2023 · Stufe **A** · Primärquelle · `SRC-IT-BOLOGNA-BELLINI-2022-COURT-EXCERPT`
+
+[PDF öffnen](https://www.ugomariatassinari.it/download/Strage%20di%20Bologna/StrageBellini-motivazione-4-6_2.pdf)
+
+Fundstelle: Auszug Druckseiten 749–751 / PDF-Seiten 33–35; Seite 749 zu Calvi-Gelli-20-Mio.-USD/Justizeinfluss als Gerichtsdeutung; Seite 750 zu nachträglich veränderten UBS-Bankdurchschrift vom 14.10.1980 über 800.000 USD und Urteil Roma vom 16.04.1994; Seite 751 zu vor dem 02.08.1980 datiertem 'MC'-Bargeldvermerk über 1 Mio. USD
 
 </article>
 
@@ -2598,6 +2613,21 @@ Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-it-bologna-pg-report-2024"></a>
+### Procura Generale presso la Corte d'Appello di Bologna
+
+**[Procura Generale Bologna, Relazione sull'Amministrazione della Giustizia 2024](https://pg-bologna.giustizia.it/cmsresources/cms/documents/relazione_anno_giudiziario_2024_PG_Bo_intero_1.pdf)**
+
+Procura Generale presso la Corte d'Appello di Bologna · 2024-01-27 · Stufe **A** · Primärquelle · `SRC-IT-BOLOGNA-PG-REPORT-2024`
+
+[PDF öffnen](https://pg-bologna.giustizia.it/cmsresources/cms/documents/relazione_anno_giudiziario_2024_PG_Bo_intero_1.pdf)
+
+Fundstelle: Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Verfahren; dem Gelli Finanzierungsrolle und D'Amato 850.000-USD-Position zugeschrieben; Interpretation des documento Bologna als Anschlagsbuchhaltung ausdrücklich 'a giudizio della Procura Generale'
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-uy-impo-ley15322-1982-original"></a>
@@ -3031,6 +3061,21 @@ Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1981">
+
+<a id="src-it-p2-ubs-gelli-ceruti-19810511"></a>
+### Union de Banques Suisses Genf; Originalabdruck der P2-Parlamentskommission, Vol. VIII Tomo X
+
+**[Union de Banques Suisses, Brief an Untersuchungsrichter Salvatore Aversano vom 11.05.1981](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/118.%20volume_08_tomo_10.pdf)**
+
+Union de Banques Suisses Genf; Originalabdruck der P2-Parlamentskommission, Vol. VIII Tomo X · 1981-05-11 · Stufe **A** · Primärquelle · `SRC-IT-P2-UBS-GELLI-CERUTI-19810511`
+
+[PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/118.%20volume_08_tomo_10.pdf)
+
+Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299–300: Licio Gelli Kontoinhaber 596.757.K.J. 60 T und 525.779.X.S. 60 R; Marco Ceruti 525.366.B.W. 60 A und 525.367.B.X. 60 D; Richtervermerk Druck-S. 286/PDF 298
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
 
 <a id="src-us-cig-rusty-doc21-1946"></a>
@@ -3435,6 +3480,21 @@ Corporación de Protección del Ahorro Bancario (COPAB), Uruguay · 2025-11 · S
 [PDF öffnen](https://www.copab.org.uy/innovaportal/file/1374/1/copab-informe-final-investigacion-crisis-bancarias-nov-2025.pdf)
 
 Fundstelle: PDF-Seiten 35 (25% Finanzsystemkredite, 10% aggregierte Rückgewinnung), 39 (wirtschaftliche Gesamtkosten), 96–98 (BCU-Kreditportfolio-Tabellen)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2024">
+
+<a id="src-it-bologna-domani-court-excerpt-2024"></a>
+### Corte d'Assise di Bologna, durch Domani journalistisch auszugsweise reproduziert
+
+**[Il documento Bologna, una prova esaminata con quarant'anni di ritardo – Bellini-Gerichtstext im Domani-Abdruck](https://www.editorialedomani.it/il-documento-bologna-una-prova-esaminata-con-quarantanni-di-ritardo-r9luteo5)**
+
+Corte d'Assise di Bologna, durch Domani journalistisch auszugsweise reproduziert · 2024-09-18 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-IT-BOLOGNA-DOMANI-COURT-EXCERPT-2024`
+
+[Seite öffnen](https://www.editorialedomani.it/il-documento-bologna-una-prova-esaminata-con-quarantanni-di-ritardo-r9luteo5)
+
+Fundstelle: Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Archivfund und Bankzuflüssen nach 22.08.1980: 20 Mio. USD Banco Ambrosiano Andino → UBS Genf, 15 Mio. Teilbetrag, daraus 9,6/3,5/1,9 Mio. USD
 
 </article>
 

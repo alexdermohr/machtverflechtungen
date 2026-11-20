@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**280 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**288 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -16,6 +16,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
 - [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
 - [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
+- [UBS Genf / Bologna 1980](network-focus-ubs-genf-1980.md) — 3 direkte Beziehungen
 
 ## Gesamtnetzwerk
 
@@ -541,6 +542,19 @@ flowchart LR
     N_PRG_US_ACG_WARBURG_2018["ACG Eric M. Warburg Chapters – ERP-finanzierte Rednertouren (2018)"]
     N_PRG_DE_ERP_TRANSATLANTIK_2019 -->|"ACG-Jahresbericht 2018, gedruckte S. 9: ERP Program for Transatlantic Encounters unterstützte ausdrücklich zehn Rednertouren der Warburg-Chapters-Reihe Restoring Trust Through Dialogue; mehr als 70 Chapters-Veranstaltungen sind keine 70 ERP-finanzierten Reisen"| N_PRG_US_ACG_WARBURG_2018
     N_ORG_US_ACG_2012 -->|"ACG-Jahresbericht 2018 dokumentiert eigene Eric-M.-Warburg-Chapters mit 21 regionalen Gruppen und zehn ERP-geförderten Speaker Tours. Nennung eines einzelnen Referenten auf derselben Seite beweist keine persönliche öffentliche Zahlung"| N_PRG_US_ACG_WARBURG_2018
+    N_ORG_CH_UBS_GENEVA_1980["Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81)"]
+    N_ORG_CH_UBS_GENEVA_1980 -->|"UBS Genf bestätigte im am 11.05.1981 veröffentlichten Rechtshilfe-Originalbrief Licio Gelli als Inhaber der Kontenkennungen 596.757.K.J. 60 T und 525.779.X.S. 60 R; keine Anschlagsfinanzierungs-Zweckbindung durch diese Kontoinhabernennung"| N_PER_IT_LICIO_GELLI
+    N_PER_IT_MARCO_CERUTI_1980["Marco Ceruti (historischer UBS-Kontoinhaber)"]
+    N_ORG_CH_UBS_GENEVA_1980 -->|"UBS Genf nannte Marco Ceruti im Originalbrief 11.05.1981 als Kontoinhaber 525.366.B.W. 60 A und 525.367.B.X. 60 D, die laut Brief geschlossen waren; diese Kontokennungen nicht ohne Stammblatt mit anderen Bukada-/Tortuga-Formaten gleichsetzen"| N_PER_IT_MARCO_CERUTI_1980
+    N_ORG_PE_AMBROSIANO_ANDINO -->|"Bologna-Gerichtstext im 2024er Domani-Auszug rekonstruiert 20 Mio. USD aus Banco Ambrosiano Andino an UBS Genf ab 22.08.1980, also NACH dem Anschlag 02.08.1980. 15 Mio. USD gelten darin als Teilmenge, nicht zusätzliche Zahlung; endgültige Anschlagsfinanzierung hieraus nicht bewiesen"| N_ORG_CH_UBS_GENEVA_1980
+    N_DOC_IT_DOCUMENTO_BOLOGNA_1982["Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz)"]
+    N_PER_IT_LICIO_GELLI -->|"Laut öffentlich reproduziertem Bellini-Gerichtstext wurde das später als documento Bologna bezeichnete gefaltete Bankdokument bei Gellis Festnahme am 13.09.1982 in Genf aus seiner Brieftasche sichergestellt und am 18.02.2019 erneut archivisch erhoben; Dokumentbesitz ist nicht der Nachweis einer konkreten Bombenfinanzierungsanweisung"| N_DOC_IT_DOCUMENTO_BOLOGNA_1982
+    N_ORG_IT_PROCURA_GENERALE_BOLOGNA_2024["Procura Generale della Repubblica Bologna (2024)"]
+    N_ORG_IT_PROCURA_GENERALE_BOLOGNA_2024 -->|"Generalstaatsanwaltschaft Bologna berichtete am 27.01.2024 über die erstinstanzliche Zuschreibung einer Anschlagsfinanzierungsrolle an Licio Gelli und kennzeichnet die Deutung des documento Bologna als Anschlagsbuchhaltung ausdrücklich als eigene Auffassung; kein neuer persönlicher Schuldspruch wegen des Anschlags"| N_PER_IT_LICIO_GELLI
+    N_PER_IT_FEDERICO_UMBERTO_DAMATO["Federico Umberto D'Amato (1919–1996)"]
+    N_ORG_IT_PROCURA_GENERALE_BOLOGNA_2024 -->|"Amtlicher Bericht der Generalstaatsanwaltschaft 2024 bezeichnet Federico Umberto D'Amato im Bellini-Prozess als mutmaßlichen Empfänger einer 850.000-USD-Position des documento Bologna; individuelle Kontogutschrift und Verfügungsberechtigung an Originalbanken hier nicht nachgewiesen; keine persönliche neue Verurteilung"| N_PER_IT_FEDERICO_UMBERTO_DAMATO
+    N_PER_IT_ROBERTO_CALVI -->|"Bellini-Gerichtsurteil diskutiert und verweist auf Mailänder Bankrotturteil 1992: Calvi soll rund 20 Mio. USD in Erwartung unzulässigen Einflusses auf seine Gerichtsverfahren Gelli zur Verfügung gestellt haben; Alternative zur gewöhnlichen Anwaltsgebühr und keine durch diesen Absatz nachgewiesene identische Finanzierung des Bologna-Anschlags"| N_PER_IT_LICIO_GELLI
+    N_PER_IT_LICIO_GELLI -->|"Bellini-Erstinstanzurteil Druck-S. 751 deutet die im Dokument MC vermerkte Position über 1 Mio. USD Bargeld für Marco Ceruti auf 20.–30.07.1980 als auffälligen VOR-Anschlags-Vorgang; Original-Kassenbeleg und tatsächlicher Bombenfinanzierungszweck bleiben ungeklärt"| N_PER_IT_MARCO_CERUTI_1980
 ```
 
 [Zur Relationstabelle](network.md)

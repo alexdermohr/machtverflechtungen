@@ -851,5 +851,79 @@ class ResearchIntegrationTests(unittest.TestCase):
         )
 
 
+    def test_bologna_bank_files_post_bomb_timing_and_prosecutorial_claims(self):
+        root = coverage.ROOT
+        study = "bologna-p2-ambrosiano-geldfluesse-1979-2026.md"
+        decision = coverage.read_registry(root)[study]
+        self.assertEqual(decision["status"], "network")
+        self.assertEqual(
+            decision["sha256"], hashlib.sha256(
+                (root / "research" / study).read_bytes()
+            ).hexdigest()
+        )
+        self.assertEqual(len(decision["relation_ids"]), 8)
+        relations = {
+            x["id"]: x for x in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            x["id"]: x for x in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        timeline = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-ubs-genf-1980.md").read_text(encoding="utf-8")
+        for id_ in decision["relation_ids"]:
+            with self.subTest(id=id_):
+                record = relations[id_]
+                self.assertIn(record["label"], graph)
+                self.assertIn(f'id="{id_.lower()}"', table)
+                self.assertIn(
+                    f"[{id_}](network.md#{id_.lower()})", timeline
+                )
+                for source in record["sources"]:
+                    self.assertIn(f'id="{source.lower()}"', source_index)
+                    self.assertIn(source, sources)
+        for node in (
+            "ORG-CH-UBS-GENEVA-1980", "PER-IT-MARCO-CERUTI-1980",
+            "PER-IT-FEDERICO-UMBERTO-DAMATO",
+            "DOC-IT-DOCUMENTO-BOLOGNA-1982",
+            "ORG-IT-PROCURA-GENERALE-BOLOGNA-2024",
+        ):
+            self.assertIn(node, actors)
+        for id_ in ("REL-CH-UBS-GELLI-1981-001",
+                    "REL-CH-UBS-CERUTI-1981-001",
+                    "REL-PE-CH-BOLOGNA-ANDINO-UBS-1980-001"):
+            self.assertIn(id_, focus)
+        post = relations["REL-PE-CH-BOLOGNA-ANDINO-UBS-1980-001"]
+        self.assertEqual(post["period"]["start"], "1980-08-22")
+        self.assertIn("NACH dem Anschlag 02.08.1980", post["label"])
+        self.assertIn("Teilmenge, nicht zusätzliche Zahlung", post["label"])
+        for id_ in ("REL-IT-BOLOGNA-PG-GELLI-2024-001",
+                    "REL-IT-BOLOGNA-PG-DAMATO-2024-001"):
+            self.assertEqual(relations[id_]["evidence_level"], "plausible")
+            self.assertEqual(
+                relations[id_]["sources"],
+                ["SRC-IT-BOLOGNA-PG-REPORT-2024"]
+            )
+        self.assertIn(
+            "keine persönliche neue Verurteilung",
+            relations["REL-IT-BOLOGNA-PG-DAMATO-2024-001"]["label"]
+        )
+        self.assertEqual(
+            relations["REL-IT-BOLOGNA-GELLI-DOCUMENT-1982-001"]["period"],
+            {"start": "1982-09-13"}
+        )
+        self.assertEqual(sources["SRC-IT-P2-UBS-GELLI-CERUTI-19810511"]["tier"], "A")
+        self.assertEqual(
+            sources["SRC-IT-BOLOGNA-DOMANI-COURT-EXCERPT-2024"]["tier"], "B"
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

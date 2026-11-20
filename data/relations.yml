@@ -2574,3 +2574,75 @@ relations:
     period: {start: "2018"}
     evidence_level: strong
     sources: [SRC-US-ACG-ANNUAL-2018]
+
+  - id: REL-CH-UBS-GELLI-1981-001
+    from: ORG-CH-UBS-GENEVA-1980
+    to: PER-IT-LICIO-GELLI
+    type: original_bank_letter_account_holder
+    label: "UBS Genf bestätigte im am 11.05.1981 veröffentlichten Rechtshilfe-Originalbrief Licio Gelli als Inhaber der Kontenkennungen 596.757.K.J. 60 T und 525.779.X.S. 60 R; keine Anschlagsfinanzierungs-Zweckbindung durch diese Kontoinhabernennung"
+    period: {start: "1981-05-11"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-UBS-GELLI-CERUTI-19810511]
+
+  - id: REL-CH-UBS-CERUTI-1981-001
+    from: ORG-CH-UBS-GENEVA-1980
+    to: PER-IT-MARCO-CERUTI-1980
+    type: original_bank_letter_account_holder
+    label: "UBS Genf nannte Marco Ceruti im Originalbrief 11.05.1981 als Kontoinhaber 525.366.B.W. 60 A und 525.367.B.X. 60 D, die laut Brief geschlossen waren; diese Kontokennungen nicht ohne Stammblatt mit anderen Bukada-/Tortuga-Formaten gleichsetzen"
+    period: {start: "1981-05-11"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-UBS-GELLI-CERUTI-19810511]
+
+  - id: REL-PE-CH-BOLOGNA-ANDINO-UBS-1980-001
+    from: ORG-PE-AMBROSIANO-ANDINO
+    to: ORG-CH-UBS-GENEVA-1980
+    type: court_reported_post_attack_bank_transfer
+    label: "Bologna-Gerichtstext im 2024er Domani-Auszug rekonstruiert 20 Mio. USD aus Banco Ambrosiano Andino an UBS Genf ab 22.08.1980, also NACH dem Anschlag 02.08.1980. 15 Mio. USD gelten darin als Teilmenge, nicht zusätzliche Zahlung; endgültige Anschlagsfinanzierung hieraus nicht bewiesen"
+    period: {start: "1980-08-22"}
+    evidence_level: strong
+    sources: [SRC-IT-BOLOGNA-DOMANI-COURT-EXCERPT-2024]
+
+  - id: REL-IT-BOLOGNA-GELLI-DOCUMENT-1982-001
+    from: PER-IT-LICIO-GELLI
+    to: DOC-IT-DOCUMENTO-BOLOGNA-1982
+    type: seized_document_possession
+    label: "Laut öffentlich reproduziertem Bellini-Gerichtstext wurde das später als documento Bologna bezeichnete gefaltete Bankdokument bei Gellis Festnahme am 13.09.1982 in Genf aus seiner Brieftasche sichergestellt und am 18.02.2019 erneut archivisch erhoben; Dokumentbesitz ist nicht der Nachweis einer konkreten Bombenfinanzierungsanweisung"
+    period: {start: "1982-09-13"}
+    evidence_level: strong
+    sources: [SRC-IT-BOLOGNA-DOMANI-COURT-EXCERPT-2024]
+
+  - id: REL-IT-BOLOGNA-PG-GELLI-2024-001
+    from: ORG-IT-PROCURA-GENERALE-BOLOGNA-2024
+    to: PER-IT-LICIO-GELLI
+    type: prosecutorial_historical_financing_interpretation
+    label: "Generalstaatsanwaltschaft Bologna berichtete am 27.01.2024 über die erstinstanzliche Zuschreibung einer Anschlagsfinanzierungsrolle an Licio Gelli und kennzeichnet die Deutung des documento Bologna als Anschlagsbuchhaltung ausdrücklich als eigene Auffassung; kein neuer persönlicher Schuldspruch wegen des Anschlags"
+    period: {start: "2024-01-27"}
+    evidence_level: plausible
+    sources: [SRC-IT-BOLOGNA-PG-REPORT-2024]
+
+  - id: REL-IT-BOLOGNA-PG-DAMATO-2024-001
+    from: ORG-IT-PROCURA-GENERALE-BOLOGNA-2024
+    to: PER-IT-FEDERICO-UMBERTO-DAMATO
+    type: prosecutorial_claim_about_850k_usd_beneficiary
+    label: "Amtlicher Bericht der Generalstaatsanwaltschaft 2024 bezeichnet Federico Umberto D'Amato im Bellini-Prozess als mutmaßlichen Empfänger einer 850.000-USD-Position des documento Bologna; individuelle Kontogutschrift und Verfügungsberechtigung an Originalbanken hier nicht nachgewiesen; keine persönliche neue Verurteilung"
+    period: {start: "2024-01-27"}
+    evidence_level: plausible
+    sources: [SRC-IT-BOLOGNA-PG-REPORT-2024]
+
+  - id: REL-IT-BOLOGNA-CALVI-GELLI-1980-001
+    from: PER-IT-ROBERTO-CALVI
+    to: PER-IT-LICIO-GELLI
+    type: court_discussed_alternative_financial_motive
+    label: "Bellini-Gerichtsurteil diskutiert und verweist auf Mailänder Bankrotturteil 1992: Calvi soll rund 20 Mio. USD in Erwartung unzulässigen Einflusses auf seine Gerichtsverfahren Gelli zur Verfügung gestellt haben; Alternative zur gewöhnlichen Anwaltsgebühr und keine durch diesen Absatz nachgewiesene identische Finanzierung des Bologna-Anschlags"
+    period: {start: "1980", end: "1981"}
+    evidence_level: plausible
+    sources: [SRC-IT-BOLOGNA-BELLINI-2022-COURT-EXCERPT]
+
+  - id: REL-IT-BOLOGNA-GELLI-CERUTI-1980-001
+    from: PER-IT-LICIO-GELLI
+    to: PER-IT-MARCO-CERUTI-1980
+    type: court_interpreted_pre_attack_cash_note
+    label: "Bellini-Erstinstanzurteil Druck-S. 751 deutet die im Dokument MC vermerkte Position über 1 Mio. USD Bargeld für Marco Ceruti auf 20.–30.07.1980 als auffälligen VOR-Anschlags-Vorgang; Original-Kassenbeleg und tatsächlicher Bombenfinanzierungszweck bleiben ungeklärt"
+    period: {start: "1980-07-20", end: "1980-07-30"}
+    evidence_level: plausible
+    sources: [SRC-IT-BOLOGNA-BELLINI-2022-COURT-EXCERPT]
