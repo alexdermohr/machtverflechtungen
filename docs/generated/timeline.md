@@ -2,6 +2,8 @@
 
 _Automatisch aus denselben Fall-Metadaten erzeugt._
 
+Die [Beziehungs-Chronologie](relation-timeline.md) zeigt zusätzlich sämtliche belegten Zeiträume aus dem Netzwerkregister.
+
 | Beginn | Ende | Fall | Länder | Claim-Evidenz |
 |---:|---:|---|---|---|
 | 1946 | 1968 | [Organisation Gehlen und Entstehung des BND](../faelle/de/organisation-gehlen.md) | DE, US | 5 belegt · 5 stark gestützt |
