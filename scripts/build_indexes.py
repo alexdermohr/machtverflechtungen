@@ -282,9 +282,17 @@ def render_entities(
     groups = [
         ("Personen", [item for item in entities if item["type"] == "person"]),
         ("Organisationen & Institutionen", [
-            item for item in entities if item["type"] not in {"person", "program"}
+            item for item in entities if item["type"] not in {
+                "person", "program", "historical_contract_document",
+                "historical_press_contract_document",
+            }
         ]),
         ("Programme", [item for item in entities if item["type"] == "program"]),
+        ("Historische Vertragsurkunden", [
+            item for item in entities if item["type"] in {
+                "historical_contract_document", "historical_press_contract_document"
+            }
+        ]),
     ]
     lines = [
         "# Personen & Organisationen",
@@ -518,6 +526,8 @@ FOCUS_NETWORKS = (
     ("BIZ / BIS", "biz", "ORG-INT-BIS"),
     ("I.G. Farben", "ig-farben", "ORG-DE-IG-FARBEN"),
     ("ENI / Tradinvest", "tradinvest", "ORG-BS-TRADINVEST-ENI"),
+    ("P2 / Loge", "p2", "ORG-IT-LOGGIA-P2-1970-1981"),
+    ("Rizzoli / Corriere", "rizzoli", "ORG-IT-RIZZOLI-EDITORE-1975-1984"),
 )
 
 

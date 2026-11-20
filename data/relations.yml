@@ -2306,3 +2306,190 @@ relations:
     period: {start: "2012"}
     evidence_level: established
     sources: [SRC-US-GMF-IRS-990-SCHEDULE-I-2012]
+
+  - id: REL-IT-P2-GELLI-1981-001
+    from: PER-IT-LICIO-GELLI
+    to: ORG-IT-LOGGIA-P2-1970-1981
+    type: historical_lodge_leadership
+    label: "Der P2-Untersuchungsbericht 1984 beschreibt Licio Gelli als maßgeblichen Leiter der historischen Loge; daraus folgt kein individueller Beweis für jeden bei Rizzoli untersuchten Bankvorgang oder für Anschlagsweisungen"
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-P2-RIZZOLI-1975-1981-001
+    from: ORG-IT-LOGGIA-P2-1970-1981
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: parliamentary_found_financial_and_editorial_influence
+    label: "Die Anselmi-Kommission beschreibt für 1975–1981 Gelli und Ortolani als Koordinatoren eines Finanzierungs- und Einflussmechanismus im Rizzoli-Konzern; dies ist ihr Befund, kein hier unabhängig bewiesener Einzelbefehl an Journalisten"
+    period: {start: "1975", end: "1981"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-RIZZOLI-CORRIERE-1977-001
+    from: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    to: ORG-IT-CORRIERE-DELLA-SERA-1980
+    type: historical_newspaper_publisher
+    label: "Historische Rizzoli-Verlagsgruppe als Trägerin des Corriere della Sera; die Anselmi-Kommission bewertet den finanziellen Druck und die redaktionelle Einwirkung im konkreten historischen Zeitraum, nicht eine ständige Weisung an jeden Artikel"
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-RIZZOLI-ANGELO-1980-001
+    from: PER-IT-ANGELO-RIZZOLI
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: historical_company_leadership
+    label: "Angelo Rizzoli als historischer Verlagsvertreter an der Kapital- und Sanierungsstruktur beteiligt; Originalvertrag vom 18.09.1980 und Paraphengutachten nennen ihn unter den beteiligten Personen"
+    period: {start: "1980-09-18"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984, SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL]
+
+  - id: REL-IT-RIZZOLI-TASSANDIN-1980-001
+    from: PER-IT-BRUNO-TASSAN-DIN
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: historical_general_director_role
+    label: "Bruno Tassan Din wird von der P2-Kommission als Generaldirektor der Rizzoli-Gruppe und Beteiligter an der Vereinbarung 1980 aufgeführt; die Rolle belegt keine einzelne Kontotransaktion"
+    period: {start: "1980"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-RIZZOLI-ORTOLANI-1978-001
+    from: PER-IT-UMBERTO-ORTOLANI
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: historical_board_membership
+    label: "Nach Anselmi-Mehrheitsbericht trat Umberto Ortolani 1978 in den Rizzoli-Verwaltungsrat ein; diese Organrolle beweist allein keine konkrete Auslandszahlung"
+    period: {start: "1978"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-AMBROSIANO-CALVI-1980-001
+    from: PER-IT-ROBERTO-CALVI
+    to: ORG-IT-BANCO-AMBROSIANO-SPA-1979
+    type: historical_banking_leadership
+    label: "Die parlamentarische P2-Untersuchung beschreibt Roberto Calvi als Bankmanager und Finanzierungsakteur im Banco-Ambrosiano-Komplex; seine Signatur 1980 ist von einem separat ausgezahlten Kredit zu unterscheiden"
+    period: {start: "1980"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-AMBROSIANO-RIZZOLI-1980-001
+    from: ORG-IT-AMBROSIANO-BANKS-1980
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: parliamentary_reconstructed_group_loan
+    label: "Anselmi-Bericht 1984, gedruckte S. 122: Banken des Ambrosiano-Verbunds gewährten Rizzoli Editore Finanzierung über 22,5 Milliarden Lire zur Rückzahlung älterer Agnelli-Verpflichtungen. Einzelbank und tatsächliche Valuta hier nicht durch separate Bankbelege geprüft"
+    period: {start: "1980"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-LACENTRALE-RIZZOLI-1981-001
+    from: ORG-IT-LA-CENTRALE-FINANZIARIA-SPA
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: parliamentary_reconstructed_equity_position
+    label: "Die Anselmi-Kommission schildert im Rizzoli-Sanierungsprozess eine auf La Centrale Finanziaria S.p.A. lautende 40-Prozent-Aktienposition; der genaue Vollzug jeder wirtschaftlichen Eigentümerstufe ist nur mit Aktienbuch und Treuhandverträgen prüfbar"
+    period: {start: "1981"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-P2-RIZZOLI-EDITORIAL-1980-001
+    from: ORG-IT-LOGGIA-P2-1970-1981
+    to: ORG-IT-CORRIERE-DELLA-SERA-1980
+    type: parliamentary_reported_editorial_influence
+    label: "Anselmi-Bericht 1984 bezeichnet die von Gelli und Ortolani betriebene Bestellung des Chefredakteurs Di Bella sowie redaktionelle Einwirkungen als Teil des P2-Einflusses; Beweisrang parlamentarische Bewertung, keine nachgewiesene Steuerung jedes Corriere-Beitrags"
+    period: {start: "1977", end: "1981"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-ANSELMI-REPORT-1984]
+
+  - id: REL-IT-P2-AGREEMENT-GELLI-1980-001
+    from: PER-IT-LICIO-GELLI
+    to: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: authenticated_initials_on_rescue_contract
+    label: "Original Sanierungsvereinbarung vom 18.09.1980 und Perrella-Gutachten ordnen die Paraphen Licio Gelli zu; intern abweichende Januar-Angaben im Gutachten, September durch Vertragsdatum und Dezembernachtrag gestützt; kein Kontobeleg"
+    period: {start: "1980-09-18"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL, SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980]
+
+  - id: REL-IT-P2-AGREEMENT-ORTOLANI-1980-001
+    from: PER-IT-UMBERTO-ORTOLANI
+    to: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: authenticated_initials_on_rescue_contract
+    label: "Perrella-Gutachten ordnet Umberto Ortolani zu den fünf Paraphierenden des Sanierungsdokuments 18.09.1980; die Unterschrift bedeutet keinen unabhängig verifizierten späteren Mitteltransfer"
+    period: {start: "1980-09-18"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL, SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980]
+
+  - id: REL-IT-P2-AGREEMENT-CALVI-1980-001
+    from: PER-IT-ROBERTO-CALVI
+    to: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: authenticated_initials_on_rescue_contract
+    label: "Originalvertrag 18.09.1980 und Paraphengutachten führen Roberto Calvi als Beteiligten; vertragliche Mitwirkung und finanzielle Auszahlung sind zwei unterschiedliche Beweisfragen"
+    period: {start: "1980-09-18"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL, SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980]
+
+  - id: REL-IT-P2-AGREEMENT-RIZZOLI-1980-001
+    from: PER-IT-ANGELO-RIZZOLI
+    to: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: authenticated_initials_on_rescue_contract
+    label: "Angelo Rizzoli wurde vom Originalvertrag und Sachverständigen den Paraphen des Sanierungsentwurfs vom 18.09.1980 zugeordnet; ohne damit die tatsächliche Durchführung der geplanten Aktienverteilung zu behaupten"
+    period: {start: "1980-09-18"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL, SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980]
+
+  - id: REL-IT-P2-AGREEMENT-TASSANDIN-1980-001
+    from: PER-IT-BRUNO-TASSAN-DIN
+    to: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: authenticated_initials_on_rescue_contract
+    label: "Original-Paraphenbefund zu Bruno Tassan Din auf Sanierungsvereinbarung vom 18.09.1980; November-/Dezember-Umsetzung und gezahlte Kautionssumme nicht aus der Paraphe selbst abgeleitet"
+    period: {start: "1980-09-18"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL, SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980]
+
+  - id: REL-IT-P2-AGREEMENT-RIZZOLI-CORP-1980-001
+    from: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: documented_shareholding_restructuring_plan
+    label: "Reperto 1/C: Rizzoli-Sanierungsplan 18.09.1980 mit vorgesehenem Aktienmodell 40/10,2/40/9,8 Prozent und geplantem Premio; Nachtrag 18.12.1980 verlängerte bis 31.03.1981, ohne vollständigen Nachweis aller Geld- und Eigentumsübertragungen"
+    period: {start: "1980-09-18", end: "1981-03-31"}
+    evidence_level: strong
+    sources: [SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL]
+
+  - id: REL-IT-P2-PRESSPACT-RIZZOLI-1979-001
+    from: PER-IT-ANGELO-RIZZOLI
+    to: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    type: historical_press_agreement_signatory
+    label: "Unterzeichnete Rizzoli–Caracciolo–Scalfari-Pressevereinbarung vom 05.07.1979 benennt Angelo Rizzoli als Partei; die Vereinbarung über nicht-feindliche Darstellung ersetzt keinen Nachweis der späteren redaktionellen Durchführung"
+    period: {start: "1979-07-05"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]
+
+  - id: REL-IT-P2-PRESSPACT-TASSANDIN-1979-001
+    from: PER-IT-BRUNO-TASSAN-DIN
+    to: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    type: historical_press_agreement_signatory
+    label: "Bruno Tassan Din ist auf dem 05.07.1979 unterzeichneten Pressevertrag als Rizzoli-Vertreter beteiligt; der gezeichnete Wortlaut belegt keine von Gelli vermittelte Banco-Ambrosiano-Zusage"
+    period: {start: "1979-07-05"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]
+
+  - id: REL-IT-P2-PRESSPACT-CARACCIOLO-1979-001
+    from: PER-IT-CARLO-CARACCIOLO
+    to: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    type: historical_press_agreement_signatory
+    label: "Carlo Caracciolo unterzeichnete am 05.07.1979 eine verlagsübergreifende Pressekooperationsvereinbarung; seine spätere Aussage 1983 über bestrittenen Vollzug und fehlende Gelli-Kontakte ist davon getrennt"
+    period: {start: "1979-07-05"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]
+
+  - id: REL-IT-P2-PRESSPACT-SCALFARI-1979-001
+    from: PER-IT-EUGENIO-SCALFARI
+    to: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    type: historical_press_agreement_signatory
+    label: "Eugenio Scalfari war 1979 Vertragsunterzeichner. In seiner Aussage vom 13.05.1981 bestritt er, dass Bankzugangs- und Wettbewerbsverbotszusätze aus einer Gelli-Notiz Teil des unterzeichneten Endtextes waren"
+    period: {start: "1979-07-05"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]
+
+  - id: REL-IT-P2-PRESSPACT-PUBLISHER-1979-001
+    from: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    to: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: documented_interpublisher_press_cooperation
+    label: "Unterzeichneter Vertrag 05.07.1979 regelt gegebenenfalls gemeinsame Presseinvestitionen, Konsultationen und Bemühen um objektive nicht-feindliche Berichterstattung zwischen Verlagen; unbewiesene redaktionelle Weisung und bestrittene Banco-Ambrosiano-Zusatzklausel nicht als Vertragsinhalt modelliert"
+    period: {start: "1979-07-05"}
+    evidence_level: established
+    sources: [SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979]

@@ -100,6 +100,8 @@ nav:
           - BIZ / BIS: generated/network-focus-biz.md
           - I.G. Farben: generated/network-focus-ig-farben.md
           - ENI / Tradinvest: generated/network-focus-tradinvest.md
+          - P2 / Loge: generated/network-focus-p2.md
+          - Rizzoli / Corriere: generated/network-focus-rizzoli.md
       - Chronologie: generated/timeline.md
       - Beziehungs-Chronologie: generated/relation-timeline.md
       - Personen & Organisationen: generated/entities.md

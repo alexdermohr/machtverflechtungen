@@ -1301,3 +1301,81 @@ entities:
     name: "Peter E. Pechel"
     countries: [DE]
     notes: "1992 Mitglied des Atlantik-Brücke-Kuratoriums, in ZEIT-Stiftungs-Rückblick als Autor eines 23.01.1992 datierten Briefs an Gerd Bucerius mit Journalistenprogrammdaten dokumentiert."
+
+  - id: ORG-IT-LOGGIA-P2-1970-1981
+    type: historical_masonic_lodge
+    name: "Loggia massonica Propaganda 2 (P2, historisch)"
+    countries: [IT]
+    notes: "In den Originalakten der italienischen P2-Untersuchungskommission 1984 untersuchte, geheim operierende Freimaurerloge. Parlamentarische Bewertungen zur Verlagspolitik werden nicht automatisch als individuell strafgerichtliche Feststellungen eingestuft."
+
+  - id: PER-IT-LICIO-GELLI
+    type: person
+    name: "Licio Gelli (1919–2015)"
+    countries: [IT]
+    notes: "Historischer Leiter der P2; die parlamentarischen Originalakten enthalten seine authentifizierten Paraphen zum Sanierungsabkommen vom 18.09.1980. Vertragsteilnahme belegt allein weder Vollzug aller geplanten Eigentumsübertragungen noch einen Befehl zu Gewalttaten."
+
+  - id: PER-IT-UMBERTO-ORTOLANI
+    type: person
+    name: "Umberto Ortolani (1913–2002)"
+    countries: [IT]
+    notes: "Im italienischen P2-Untersuchungsbericht als Rizzoli-Verwaltungsrat ab 1978 und als mit Gelli an der Verlagsfinanzierungsstruktur beteiligt beschrieben. Die Begutachtung nennt Paraphen auf der Septembervereinbarung 1980."
+
+  - id: PER-IT-ROBERTO-CALVI
+    type: person
+    name: "Roberto Calvi (1920–1982)"
+    countries: [IT]
+    notes: "Historischer Banco-Ambrosiano-Bankmanager, laut Original-Gutachten Mitparaphierender des Rizzoli-Sanierungsabkommens vom September 1980; nicht als Beleg der Finanzierung des Bologna-Anschlags zu interpretieren."
+
+  - id: PER-IT-ANGELO-RIZZOLI
+    type: person
+    name: "Angelo Rizzoli (1943–2013)"
+    countries: [IT]
+    notes: "Historischer Rizzoli-Verlagsunternehmer; laut Originalfaksimile und Paraphengutachten Beteiligter am 1980er Sanierungsentwurf und laut P2-Kommissionsakten am 1979er Presseabkommen. Juristische Einzelverantwortlichkeiten nicht daraus abgeleitet."
+
+  - id: PER-IT-BRUNO-TASSAN-DIN
+    type: person
+    name: "Bruno Tassan Din"
+    countries: [IT]
+    notes: "Historischer Rizzoli-Generaldirektor, Paraphen auf der 1980er Restrukturierungsurkunde und nach Originaldokumenten Mitunterzeichner des Rizzoli–Caracciolo–Scalfari-Vertrags von 1979. Kontoauszüge nicht durch die Unterschrift ersetzt."
+
+  - id: PER-IT-CARLO-CARACCIOLO
+    type: person
+    name: "Carlo Caracciolo (1925–2008)"
+    countries: [IT]
+    notes: "Italienischer Verlagsunternehmer, Partner des signierten Presseabkommens vom 05.07.1979; erklärte vor der P2-Kommission 1983, Gelli nicht persönlich zu kennen und bestritt Teile des Vollzugs."
+
+  - id: PER-IT-EUGENIO-SCALFARI
+    type: person
+    name: "Eugenio Scalfari (1924–2022)"
+    countries: [IT]
+    notes: "Journalist und Verlagsmitunterzeichner des 05.07.1979-Presseabkommens. Seine originale Vernehmung 1981 bestreitet eine Gelli zugeschriebene Banco-Ambrosiano-Zugangsklausel als Vertragsbestandteil."
+
+  - id: ORG-IT-RIZZOLI-EDITORE-1975-1984
+    type: historical_publisher
+    name: "Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984)"
+    countries: [IT]
+    notes: "Italienischer Presse- und Verlagsträger des Corriere-della-Sera-Komplexes; Eigentumsplan, tatsächlich vollzogene Beteiligungen und finanzielle Kreditpositionen laut P2-Originalakten streng trennen."
+
+  - id: ORG-IT-CORRIERE-DELLA-SERA-1980
+    type: historical_newspaper
+    name: "Corriere della Sera (italienische Zeitung, 1980)"
+    countries: [IT]
+    notes: "Italienische Tageszeitung im historischen Rizzoli-Verbund; parlamentarisch untersuchte redaktionelle Einflüsse sind keine automatisch belegten Weisungen zu sämtlichen Artikeln."
+
+  - id: ORG-IT-AMBROSIANO-BANKS-1980
+    type: historical_banking_group
+    name: "Banken des Banco-Ambrosiano-Konzerns (historisch 1980)"
+    countries: [IT]
+    notes: "Sammelbezeichnung für mehrere Banken im Ambrosiano-Verbund aus dem P2-Bericht; 22,5 Mrd. Lire Kreditgewährung lässt sich aus dem Bericht nicht einer einzelnen juristischen Bank ohne Originalvertrag zurechnen."
+
+  - id: DOC-IT-RIZZOLI-P2-AGREEMENT-1980
+    type: historical_contract_document
+    name: "Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C)"
+    countries: [IT]
+    notes: "1980 datierte, ursprünglich sichergestellte Sanierungs- und Beteiligungsvereinbarung mit fünf zugeordneten Paraphen; Nachtrag vom 18.12.1980 verlängert deren Geltung bis 31.03.1981. Vorhaben, Paraphen und tatsächlich geflossene Zahlungen getrennt behandeln."
+
+  - id: DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979
+    type: historical_press_contract_document
+    name: "Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979"
+    countries: [IT]
+    notes: "Unterzeichnete Vereinbarung zwischen Verlegerkreisen mit Nichtangriffs- und Koordinationsformulierungen; ein Entwurf vom Juni 1979 und Gelli zugeschriebene Bankzugangsnotizen sind kein Beleg für ihren Bestandteil oder Vollzug."

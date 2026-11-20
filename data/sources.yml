@@ -2885,3 +2885,50 @@ sources:
   accessed: "2026-11-20"
   locator: "GMF Form 990 Steuerjahr 2012, PDF-Seite 63 / Nullindex 62, Schedule I Part II: ACG 50.000 USD (EIN 13-1889074), AICGS 50.000 (52-1309525), U.S. Association of Former Members of Congress 90.000 (54-0883744), Arthur Burns Fellowship 20.000 (54-1629976); alle non-cash assistance 0, Zweck Transatlantic Dialogue"
   notes: "Öffentlich abgegebene Original-Steuererklärung mit vier getrennten Einträgen (Summe 210.000 USD), am 20.11.2026 im PDF-Seitenbild erneut geprüft. Beträge sind berichtete Geldzuschüsse an vier verschiedene Empfänger, keine Einzelzahlung von 210.000 USD an ACG oder Atlantik-Brücke und kein Nachweis bestimmter journalistischer Redaktionsanweisungen."
+- id: SRC-IT-P2-ANSELMI-REPORT-1984
+  title: "Commissione parlamentare d'inchiesta sulla Loggia massonica P2 – Mehrheitsbericht Tina Anselmi"
+  institution: "Camera dei Deputati / Senato della Repubblica, IX Legislatura"
+  date: "1984-07-12"
+  type: original_parliamentary_inquiry_majority_report
+  primary: true
+  tier: A
+  url: https://legislature.camera.it/_dati/leg09/lavori/stampati/pdf/p2/09%2520Leg%2520Doc%2520XXIII%2520n%25202-1%2520relatore%2520ANSELMI-ocr.pdf
+  accessed: "2026-11-20"
+  locator: "Doc. XXIII n. 2, gedruckte S. 112 zu Critica giudiziaria / Justiz; S. 120–126 zu P2/Rizzoli/Corriere, besonders S. 122–123 über 22,5 Mrd. Lire Ambrosiano-Konzernbanken, La-Centrale-/IOR-Aktienpfad und von der Kommission zugeschriebene Pressesteuerung; Bildseiten 129–133"
+  notes: "Amtlicher parlamentarischer Mehrheitsbericht mit dokumentierter behördlicher Rekonstruktion und Bewertungen, kein individuelles Strafurteil und keine vollständige unabhängige Buchungs- oder Redaktionsanweisungsakte. Die relevanten PDF-Seiten wurden am 20.11.2026 im Originalbild gegengeprüft."
+
+- id: SRC-IT-P2-RIZZOLI-AGREEMENT-1980-ORIGINAL
+  title: "P2-Kommission, Reperto 1/C: Originalvereinbarung Rizzoli vom 18.09.1980 und Nachtrag 18.12.1980"
+  institution: "Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. I Tomo II"
+  date: "1980-09-18"
+  type: original_seized_business_contract
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/03.%20Volume%20I%20%28022-025%29/023.%20volume_01_tomo_02.pdf
+  accessed: "2026-11-20"
+  locator: "Doc. XXIII n. 2-quater/1/II, gedruckte S. 1042 (Entwurf Aktienverteilung 40/10,2/40/9,8 und geplanter premio), S. 1045 (ausdrücklich 18. September 1980), S. 1043 (Nachtrag vom 18.12.1980 verlängert bis 31.03.1981)"
+  notes: "Parlamentarisch veröffentlichtes beschlagnahmtes Original; die Forschungsstudie weist vorausgegangene Bildprüfungen nach. Am 20.11.2026 ist die archivische Original-PDF weiterhin per HTTP HEAD 200 erreichbar; ein früherer 180-Mrd.-Lire-Premio in der Planung ist keine verbuchte Zahlung."
+
+- id: SRC-IT-P2-RIZZOLI-PERRELLA-PARAPHS-1980
+  title: "Renato Perrella, Parere peritale su documenti – Rizzoli-Reperto 1/C"
+  institution: "Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo VII"
+  date: null
+  type: original_forensic_handwriting_expert_report
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/045.%20volume_03_tomo_07_parte1.pdf
+  accessed: "2026-11-20"
+  locator: "Gedruckte S. 405–412, PDF-Bildseiten 413–420: Begutachtung der Paraphen Gelli, Ortolani, Calvi, Angelo Rizzoli und Bruno Tassan Din; S. 406 18/9/1980, S. 408 und 412 18/1/1980"
+  notes: "Originalgutachten über die Echtheit und Zuordnung von Paraphen, keine Kontoprüfung. Interne Datierungsdifferenz zu Januar 1980 besteht im gedruckten Gutachten; durch Vertrag und Dezember-Nachtrag ist September besser begründet."
+
+- id: SRC-IT-P2-RIZZOLI-CARACCIOLO-PRESS-PACT-1979
+  title: "Accordo gruppo Rizzoli–Caracciolo–Scalfari 05.07.1979 und Scalfari-Zeugenvernehmung 13.05.1981"
+  institution: "Camera dei Deputati / Senato della Repubblica, P2-Kommission, Vol. III Tomo XIII"
+  date: "1979-07-05"
+  type: original_signed_press_agreement_and_testimony
+  primary: true
+  tier: A
+  url: https://www.archivioantimafia.org/p2/commissione_parlamentare/05.%20Volume%20III%20%2835-64%29/052.%20volume_03_tomo_13.pdf
+  accessed: "2026-11-20"
+  locator: "Doc. XXIII n. 2-quater/3/XIII, gedruckte S. 140 / PDF-Bildseite 148 unterzeichneter Vertrag mit Koordination und nicht-feindlicher Berichterstattung; S. 141–143 / PDF 149–151 Scalfari-Vernehmung vom 13.05.1981, insbesondere S. 143 Abgrenzung von Gelli zugeschriebener Banco-Ambrosiano-Zugangsklausel"
+  notes: "Originale Vertragsurkunde und bezeugte Gegenposition; der Text belegt eine vereinbarte Pressekooperation, aber nicht ihre effektive Umsetzung, eine P2-Mitgliedschaft Caracciolos/Scalfaris oder eine redaktionelle Weisung an einzelne Autoren."

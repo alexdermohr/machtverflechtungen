@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**235 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**248 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -8,9 +8,12 @@
 |---|---|---|---|---|
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
+| Angelo Rizzoli (1943–2013) | person | `PER-IT-ANGELO-RIZZOLI` | IT | [3](network.md#rel-it-rizzoli-angelo-1980-001) |
 | António Fernandes Carvajal (gest. 1659) | person | `PER-GB-ANTONIO-FERNANDES-CARVAJAL` | GB, PT | [2](network.md#rel-gb-crom-1649-001) |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE | [2](network.md#rel-de-lang-002) |
 | August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
+| Bruno Tassan Din | person | `PER-IT-BRUNO-TASSAN-DIN` | IT | [3](network.md#rel-it-rizzoli-tassandin-1980-001) |
+| Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
@@ -21,6 +24,7 @@
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE | [1](network.md#rel-de-gehlen-005) |
 | Emil Puhl (1889–1962) | person | `PER-DE-EMIL-PUHL` | DE | [3](network.md#rel-int-bis-1939-003) |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
+| Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [1](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
@@ -48,6 +52,7 @@
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [4](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
+| Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [2](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
@@ -69,6 +74,7 @@
 | Raymund Hörnle | person | `PER-DE-RAYMUND-HOERNLE` | DE | – |
 | Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE | [2](network.md#rel-de-gehlen-002) |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
+| Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [2](network.md#rel-it-ambrosiano-calvi-1980-001) |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE | – |
 | Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB | [3](network.md#rel-gb-bb-uk-003) |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE | [2](network.md#rel-de-tmn-015) |
@@ -84,6 +90,7 @@
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
+| Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
@@ -115,11 +122,12 @@
 | Banco Ambrosiano Andino S.A., Lima | historical_bank | `ORG-PE-AMBROSIANO-ANDINO` | PE | [2](network.md#rel-bs-pe-trad-1979-001) |
 | Banco Ambrosiano Holding S.A. (Luxemburg) | finance_company | `ORG-LU-BANCO-AMBROSIANO-HOLDING-SA` | LU | [2](network.md#rel-it-ambrosiano-lux-1979-001) |
 | Banco Ambrosiano Overseas (Nassau; vormals Cisalpine Overseas Bank) | commercial_bank | `ORG-BS-BANCO-AMBROSIANO-OVERSEAS` | BS | [6](network.md#rel-lu-bs-ambrosiano-overseas-1983-001) |
-| Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT | [3](network.md#rel-int-interalpha-1979-001) |
+| Banco Ambrosiano S.p.A. (Mailand; historische Gesellschaft) | commercial_bank | `ORG-IT-BANCO-AMBROSIANO-SPA-1979` | IT | [4](network.md#rel-int-interalpha-1979-001) |
 | Banco Central del Uruguay (BCU) | central_bank | `ORG-UY-BANCO-CENTRAL-URUGUAY` | UY | [1](network.md#rel-uy-bafisud-bcu-1984-001) |
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
+| Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
@@ -143,6 +151,7 @@
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
+| Corriere della Sera (italienische Zeitung, 1980) | historical_newspaper | `ORG-IT-CORRIERE-DELLA-SERA-1980` | IT | [2](network.md#rel-it-rizzoli-corriere-1977-001) |
 | Credit and Commerce American Holdings N.V. (CCAH) | bank_holding_company | `ORG-AN-CCAH` | AN, US | [2](network.md#rel-int-bcci-001) |
 | Credito Varesino S.p.A. (Varese) | commercial_bank | `ORG-IT-CREDITO-VARESINO-SPA` | IT | [3](network.md#rel-pa-it-varesino-1978-001) |
 | Crédit Commercial de France (Suisse) S.A. (Genf) | commercial_bank | `ORG-CH-CREDIT-COMMERCIAL-DE-FRANCE-SUISSE-SA` | CH | [3](network.md#rel-it-ccf-1981-001) |
@@ -184,11 +193,12 @@
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
-| La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [2](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
+| La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
+| Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [2](network.md#rel-de-cumex-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
@@ -203,6 +213,7 @@
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
@@ -251,3 +262,10 @@
 | Atlantik-Brücke Young Leaders Program | program | `PRG-DE-ATLANTIK-BRUECKE-YOUNG-LEADERS` | DE, US | [8](network.md#rel-de-ab-001) |
 | CIA-Teilprojekt QKSNITCH | program | `PRG-US-CIA-QKSNITCH` | US, DE | [2](network.md#rel-de-kmm-002) |
 | CIA/OPC-Projekt KMMANLY | program | `PRG-US-CIA-KMMANLY` | US, DE | [5](network.md#rel-de-kmm-001) |
+
+## Historische Vertragsurkunden
+
+| Name | Typ | ID | Länder | Beziehungen |
+|---|---|---|---|---|
+| Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979 | historical_press_contract_document | `DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979` | IT | [5](network.md#rel-it-p2-presspact-rizzoli-1979-001) |
+| Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C) | historical_contract_document | `DOC-IT-RIZZOLI-P2-AGREEMENT-1980` | IT | [6](network.md#rel-it-p2-agreement-gelli-1980-001) |
