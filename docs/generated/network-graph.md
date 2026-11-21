@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**296 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**306 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -14,6 +14,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
 - [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
+- [M.M.Warburg / Eigentum & Aufsicht](network-focus-warburg-kontrolle.md) — 8 direkte Beziehungen
 - [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
 - [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
 - [UBS Genf / Bologna 1980](network-focus-ubs-genf-1980.md) — 3 direkte Beziehungen
@@ -570,6 +571,24 @@ flowchart LR
     N_ORG_US_FORD_FOUNDATION_1973 -->|"Zetsche (2016), S. 172 FN 157, weist unter Rockefeller Archive Center Ford Foundation Grant Files 1239, ACG & 7300512 eine TEILförderung der ersten ACG/Atlantik-Brücke-Young-Leaders-Konferenz vom 27.–30.06.1973 nach; Original Grant Action Form und Fördersumme hier nicht selbst eingesehen"| N_PRG_DE_ATLANTIK_BRUECKE_YOUNG_LEADERS
     N_PRG_US_ACG_MCCLOY_FELLOWSHIPS_1976["ACG McCloy Fellowships (Beginn 1976)"]
     N_ORG_US_ACG_2012 -->|"ACG-Jahresbericht 2017 datiert Beginn der McCloy Fellowships auf 1976; geförderte Austauschberufe einschließlich Journalismus, Recht, Gewerkschaften und Kommunalverwaltung. Direkter Geldtransfer aus dem 1975er Fonds in ein einzelnes Stipendium nicht vorgelegt"| N_PRG_US_ACG_MCCLOY_FELLOWSHIPS_1976
+    N_ORG_DE_WARBURG_FMWV_2013["Familie Max Warburg Vermögensverwaltung KG (FMWV)"]
+    N_ORG_DE_WARBURG_MWB1_2023["1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1)"]
+    N_ORG_DE_WARBURG_FMWV_2013 -->|"EuG T-366/23 Rn. 4: 2013 gingen 87,5 % des MWB-1-Kapitals zugunsten der Kinder auf FMWV über; ein anonymisierter Altinhaber behielt 12,5 % Kapital und über Golden Share 51 % Stimmen, außerdem Pooling/Nießbrauch. Keine Gleichsetzung von 87,5 % Kapital mit 87,5 % Stimmen oder aktuelle 2026er Quote"| N_ORG_DE_WARBURG_MWB1_2023
+    N_ORG_DE_WARBURG_GRUPPE_2023["M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023)"]
+    N_ORG_DE_WARBURG_MWB1_2023 -->|"EuG T-366/23 Rn. 5: MWB 1 hielt laut Urteil für den 2023er Sachstand 40,24 % Kapital an der Warburg-Gruppe; weiterer 41,25-%-Block im Urteil nicht namentlich bezeichnet. Keine ungeprüfte Aktualisierung auf 2026"| N_ORG_DE_WARBURG_GRUPPE_2023
+    N_ORG_DE_WARBURG_GRUPPE_2023 -->|"EuG T-366/23 Rn. 6: Die Finanzholding Warburg-Gruppe hielt zum entscheidungserheblichen historischen Sachstand 2023 unmittelbar 100 % des Kapitals von M.M.Warburg & CO (AG & Co.) KGaA; nicht als unveränderte 2026er Registerlage behauptet"| N_ORG_DE_MM_WARBURG
+    N_ORG_DE_MARCARD_STEIN_2023["Marcard, Stein & Co AG (Warburg-Tochter 2023)"]
+    N_ORG_DE_MM_WARBURG -->|"EuG T-366/23 Rn. 6: Marcard, Stein & Co AG war zum Stand der EZB-Entscheidung vom 05.05.2023 100-%-Tochter der Warburg-Bank; 2026er Veräußerungsankündigung nicht als bereits vollzogener Verkauf oder fortbestehendes Eigentum interpretiert"| N_ORG_DE_MARCARD_STEIN_2023
+    N_ORG_DE_WARBURG_HYPO_2023["M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023)"]
+    N_ORG_DE_MM_WARBURG -->|"EuG T-366/23 Rn. 6: 60-%-Beteiligung der Warburg-Bank an der Hypothekenbank im historischen Verfahren; Verkauf am 03.11.2022 vereinbart, zum 01.06.2023 wirksam. Keine über diesen Zeitpunkt fortdauernde Warburg-Eigentümerschaft"| N_ORG_DE_WARBURG_HYPO_2023
+    N_ORG_DE_BAFIN_2023["Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023)"]
+    N_ORG_DE_BAFIN_2023 -->|"EuG T-366/23 Rn. 2: BaFin beaufsichtigte das im Verfahren als weniger bedeutend eingestufte Kreditinstitut Warburg unmittelbar; der 2023er Zuständigkeitsbefund ist keine Feststellung einer strafbaren Gegenleistung"| N_ORG_DE_MM_WARBURG
+    N_ORG_EU_ECB_2023["Europäische Zentralbank (EZB)"]
+    N_ORG_EU_ECB_2023 -->|"EuG T-366/23 Rn. 2: Die EZB übte beim weniger bedeutenden Warburg-Kreditinstitut 2023 mittelbare Aufsicht aus; von der direkten BaFin-Aufsicht und der gesonderten Erwerbsuntersagung zu unterscheiden"| N_ORG_DE_MM_WARBURG
+    N_ORG_DE_WARBURG_MWB1_2023 -->|"EuG T-366/23 Rn. 9: Im Rahmen der BaFin-Prüfung 2019 vereinbarte MWB 1 zwei seit Februar 2020 eingesetzte Bevollmächtigte zur Ausübung der Stimmrechte an der Warburg-Gruppe. Kein Beleg, dass die Vollmachten unverändert bis 2026 fortbestanden oder kapitalrechtliche Anteile übertrugen"| N_ORG_DE_WARBURG_GRUPPE_2023
+    N_ORG_EU_ECB_2023 -->|"EZB-Beschluss vom 05.05.2023 untersagte laut EuG T-366/23 Rn. 1 und 19–23 einen geplanten qualifizierten indirekten Erwerb einer Beteiligung am Warburg-Institut; die Übertragung des Golden Share an die Ehefrau war nur beabsichtigt, keine vollzogene Eigentumsübertragung"| N_ORG_DE_MM_WARBURG
+    N_ORG_EU_GENERAL_COURT_2025["Gericht der Europäischen Union (EuG, Urteil 19.11.2025)"]
+    N_ORG_EU_GENERAL_COURT_2025 -->|"EuG T-366/23 wies am 19.11.2025 die Klage gegen den EZB-Erwerbsbeschluss vom 05.05.2023 ab; laut amtlichem InfoCuria-Register ist das am 27.01.2026 eingelegte Rechtsmittel C-39/26 P am 21.11.2026 noch anhängig. Keine letztinstanzliche Bestätigung, neue Eigentumsübertragung oder persönliche Straftat daraus ableiten"| N_ORG_EU_ECB_2023
 ```
 
 [Zur Relationstabelle](network.md)

@@ -3097,3 +3097,27 @@ sources:
   accessed: "2026-11-20"
   locator: "Einleitung: ACG bestätigt retrospektiv Zuwendung von 1 Mio. USD der Bundesregierung und Scheel-Ford-Scheckzeremonie 16.06.1975; Stiftung ermöglichte laut ACG spätere Programmarbeit"
   notes: "Empfängereigene retrospektive Bestätigung; keine eigenständige Originalkontoauszugsserie, keine Abrechnung jedes Stipendiums aus dem McCloy-Fonds."
+
+- id: SRC-EU-GENERAL-COURT-WARBURG-T36623-2025
+  title: "Gericht der Europäischen Union, YH/EZB, Urteil vom 19.11.2025, T-366/23, ECLI:EU:T:2025:1037"
+  institution: "Gericht der Europäischen Union / EUR-Lex"
+  date: "2025-11-19"
+  type: original_eu_court_judgment
+  primary: true
+  tier: A
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62023TJ0366
+  accessed: "2026-11-21"
+  locator: "Rn. 1–9 und Schaubild (PDF-Seiten 2–3): Holding 40,24 %, anonymisierter 41,25-%-Block, 100-%-Banktochter, Marcard 100 % und Hypothekenbank 60 % historisch; 2013er 87,5-%-Kapitaltransfer, Golden Share 51 % Stimmen; Rn. 9 und 19–23 zu BaFin, Bevollmächtigten und EZB-Ablehnung 05.05.2023; Urteilstenor."
+  notes: "Primäre, bildseitig am 21.11.2026 auf PDF-S. 2–3 kontrollierte Gerichtsbegründung. Gerichtlicher Sachstand für 2013/2020/2023 und Urteil 2025 ist keine aktuelle Eigentümerliste November 2026. Den anonymen anderen Gesellschafter nicht ohne Registerurkunde mit Olearius gleichsetzen. Beabsichtigte Übertragung des Golden Share an Ehefrau nicht als vollzogen ausgeben; kein individueller Bankkonto- oder Mediensteuerungsbeweis."
+
+- id: SRC-EU-CJ-WARBURG-APPEAL-C39P-2026
+  title: "Gerichtshof der Europäischen Union, InfoCuria: C-39/26 P - Warburg v ECB, Rechtsmittel vom 27.01.2026"
+  institution: "Gerichtshof der Europäischen Union / InfoCuria"
+  date: "2026-01-27"
+  type: official_court_docket
+  primary: true
+  tier: A
+  url: https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-39%2F26+P&searchTerm=%22C-%22
+  accessed: "2026-11-21"
+  locator: "C-39/26 P, Fallübersicht, Stand 21.11.2026 'Pending'; Appellationsschrift veröffentlicht 13.04.2026, Akteneingang 27.01.2026; Vorinstanz T-366/23."
+  notes: "Offizielles laufendes Rechtsmittelregister, belegt die Anhängigkeit der Anfechtung des EuG-Urteils zum Abrufstand. Keine Prognose des Ausgangs und kein Beleg einer neuen Eigentumsübertragung."
