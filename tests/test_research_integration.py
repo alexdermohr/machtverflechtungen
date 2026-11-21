@@ -1068,7 +1068,7 @@ class ResearchIntegrationTests(unittest.TestCase):
             entry["sha256"],
             hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
         )
-        self.assertEqual(len(entry["relation_ids"]), 9)
+        self.assertEqual(len(entry["relation_ids"]), 11)
         relations = {r["id"]: r for r in yaml.safe_load(
             (root / "data/relations.yml").read_text(encoding="utf-8")
         )["relations"]}
@@ -1094,7 +1094,8 @@ class ResearchIntegrationTests(unittest.TestCase):
                     "DOC-DE-SPRINGER-VOTING-POOL-2012",
                     "ORG-DE-BRILLIANT-310-2006"):
             self.assertIn(doc, actors)
-        for rel in ("REL-DE-DOEPFNER-SPRINGER-VINK-2006-001",
+        for rel in ("REL-DE-DOEPFNER-BRILLIANT-MANAGEMENT-2006-001",
+                    "REL-DE-DOEPFNER-SPRINGER-VINK-2006-001",
                     "REL-DE-DOEPFNER-SPRINGER-POOL-2012-001",
                     "REL-DE-SPRINGER-DOEPFNER-EQUITY-2006-001",
                     "REL-DE-FRIEDE-DOEPFNER-GIFT-2012-001"):
@@ -1110,6 +1111,12 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("52.826.967",pool["label"])
         self.assertNotIn("Warburg",pool["from"])
         self.assertNotIn("Bankkredit 60 Mio.",pool["label"])
+        brilliant = relations["REL-DE-BRILLIANT-SPRINGER-ACQ-2006-001"]
+        self.assertEqual(brilliant["period"]["start"], "2006-07-13")
+        self.assertIn("104,10 EUR", brilliant["label"])
+        self.assertIn("77 EUR", brilliant["label"])
+        self.assertIn("nicht ohne Transaktionsakten gleichsetzen", brilliant["label"])
+
 
 
 if __name__ == "__main__":

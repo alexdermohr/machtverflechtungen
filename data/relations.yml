@@ -2889,3 +2889,21 @@ relations:
     period: {start: "2012-08-14"}
     evidence_level: established
     sources: [SRC-DE-AXELSPRINGER-GB-2012-POOL]
+
+  - id: REL-DE-BRILLIANT-SPRINGER-ACQ-2006-001
+    from: ORG-DE-BRILLIANT-310-2006
+    to: ORG-DE-AXEL-SPRINGER
+    type: issuer_reported_historical_equity_acquisition
+    label: "Axel-Springer-Jahresbericht 2006 S. 115 dokumentiert Brilliant 310. GmbHs gemeldeten Erwerb von 680.000 Stückaktien am 13.07.2006 für 104,10 EUR je Aktie. Gesondert meldete der Emittent am 20.07.2006 Döpfners mittelbaren Erwerb von 680.000 Aktien zu 77 EUR; verschiedene gemeldete Rechtsvorgänge und Bewertungsgegenstände nicht ohne Transaktionsakten gleichsetzen oder Aktien zweimal addieren"
+    period: {start: "2006-07-13"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]
+
+  - id: REL-DE-DOEPFNER-BRILLIANT-MANAGEMENT-2006-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-BRILLIANT-310-2006
+    type: issuer_reported_company_directorship
+    label: "Axel-Springer-Jahresbericht 2006 S. 115 nennt Mathias Döpfner zugleich als Vorstandsvorsitzenden der Springer AG und Geschäftsführer von Brilliant 310. GmbH; historische Organrolle belegt nicht, dass er sämtliche Kaufpreis- oder Kreditbedingungen persönlich vereinbarte"
+    period: {start: "2006"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]

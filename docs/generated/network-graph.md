@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**315 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**317 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -15,7 +15,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
 - [M.M.Warburg / Eigentum & Aufsicht](network-focus-warburg-kontrolle.md) — 9 direkte Beziehungen
-- [Döpfner / Springer](network-focus-springer-doepfner.md) — 7 direkte Beziehungen
+- [Döpfner / Springer](network-focus-springer-doepfner.md) — 8 direkte Beziehungen
 - [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
 - [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
 - [UBS Genf / Bologna 1980](network-focus-ubs-genf-1980.md) — 3 direkte Beziehungen
@@ -602,6 +602,8 @@ flowchart LR
     N_PER_DE_MATHIAS_DOEPFNER -->|"Döpfner trat laut Geschäftsbericht 2012 am 14.08.2012 nach der Schenkung von 1.978.800 Aktien dem von Friede Springer und Friede Springer GmbH & Co KG getragenen Pool bei; 52.826.967 poolgebundene Aktien sind NICHT Döpfners persönliche Eigentumsaktien"| N_DOC_DE_SPRINGER_VOTING_POOL_2012
     N_PER_DE_FRIEDE_SPRINGER -->|"Der Axel-Springer-Geschäftsbericht 2012 nennt Friede Springer und Friede Springer GmbH & Co. KG als Parteien des Stimmrechtspools, dem Döpfner am 14.08.2012 beitrat; keine Warburg-Bankbeteiligung an diesem späteren Poolvertrag belegt"| N_DOC_DE_SPRINGER_VOTING_POOL_2012
     N_DOC_DE_SPRINGER_VOTING_POOL_2012 -->|"Axel Springer 2012 gedruckte S. 57: Poolvereinbarung umfasste 52.826.967 stimmberechtigte Aktien. Poolmitglieder stimmen in der Hauptversammlung gemäß Poolbeschlüssen, auch wenn sie intern dagegen votierten; Aggregat nicht als unmittelbarer persönlicher Döpfner- oder Warburg-Aktienbesitz ausgeben"| N_ORG_DE_AXEL_SPRINGER
+    N_ORG_DE_BRILLIANT_310_2006 -->|"Axel-Springer-Jahresbericht 2006 S. 115 dokumentiert Brilliant 310. GmbHs gemeldeten Erwerb von 680.000 Stückaktien am 13.07.2006 für 104,10 EUR je Aktie. Gesondert meldete der Emittent am 20.07.2006 Döpfners mittelbaren Erwerb von 680.000 Aktien zu 77 EUR; verschiedene gemeldete Rechtsvorgänge und Bewertungsgegenstände nicht ohne Transaktionsakten gleichsetzen oder Aktien zweimal addieren"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_MATHIAS_DOEPFNER -->|"Axel-Springer-Jahresbericht 2006 S. 115 nennt Mathias Döpfner zugleich als Vorstandsvorsitzenden der Springer AG und Geschäftsführer von Brilliant 310. GmbH; historische Organrolle belegt nicht, dass er sämtliche Kaufpreis- oder Kreditbedingungen persönlich vereinbarte"| N_ORG_DE_BRILLIANT_310_2006
 ```
 
 [Zur Relationstabelle](network.md)
