@@ -1119,5 +1119,63 @@ class ResearchIntegrationTests(unittest.TestCase):
 
 
 
+
+    def test_warburg_pincus_1978_self_report_separated_from_dol_rule_and_fed_market_data(self):
+        root = coverage.ROOT
+        name = "warburg-pincus-erisa-pensionskapital-1977-1980.md"
+        entry = coverage.read_registry(root)[name]
+        self.assertEqual(entry["status"], "network")
+        self.assertEqual(
+            entry["sha256"],
+            hashlib.sha256((root / "research" / name).read_bytes()).hexdigest(),
+        )
+        self.assertEqual(len(entry["relation_ids"]), 7)
+        rels = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        sources = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/sources.yml").read_text(encoding="utf-8")
+        )["sources"]}
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-warburg-pincus-erisa.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        for relid in entry["relation_ids"]:
+            row = rels[relid]
+            self.assertIn(row["label"], graph)
+            self.assertIn(f'id="{relid.lower()}"', table)
+            self.assertIn(f"[{relid}](network.md#{relid.lower()})", chrono)
+            for sid in row["sources"]:
+                self.assertIn(sid, sources)
+                self.assertIn(f'id="{sid.lower()}"', source_index)
+        self.assertEqual(sources["SRC-US-WARBURG-PINCUS-FIRM-HISTORY-1978"]["tier"], "B")
+        self.assertEqual(sources["SRC-US-DOL-ERISA-PRUDENCE-FR-19790626"]["tier"], "A")
+        self.assertEqual(sources["SRC-US-FED-PRIVATE-EQUITY-STAFF-1995"]["tier"], "B")
+        for entity in ("ORG-US-WARBURG-PINCUS-1978", "ORG-US-DOL-ERISA-1979",
+                       "DOC-US-DOL-ERISA-RULE-1979", "PRG-US-ERISA-PENSION-PLANS-1979"):
+            self.assertIn(entity, actors)
+        for relid in ("REL-US-WP-NVCA-1973-001", "REL-US-WP-DOL-CONSULTATIONS-1978-001"):
+            self.assertIn(relid, focus)
+        self.assertNotIn("REL-US-DOL-ERISA-FINAL-1979-001", focus)
+        wp = rels["REL-US-WP-DOL-CONSULTATIONS-1978-001"]
+        self.assertEqual(wp["evidence_level"], "plausible")
+        self.assertEqual(wp["period"]["start"], "1978")
+        self.assertIn("Firmen-Selbstaussage", wp["label"])
+        self.assertNotIn("ORG-DE-MM-WARBURG", (wp["from"],wp["to"]))
+        final = rels["REL-US-DOL-ERISA-FINAL-1979-001"]
+        self.assertEqual(final["period"]["start"], "1979-06-26")
+        self.assertEqual(final["evidence_level"], "established")
+        self.assertIn("nicht als alleinigen Urheber", final["label"])
+        portfolio = rels["REL-US-ERISA-RULE-PORTFOLIO-1979-001"]
+        self.assertEqual(portfolio["period"]["start"], "1979-07-23")
+        self.assertIn("KEINE generelle Erlaubnis", portfolio["label"])
+        market = rels["REL-US-ERISA-VC-AGGREGATES-1976-1979-001"]
+        self.assertEqual(market["period"], {"start": "1976", "end": "1979"})
+        self.assertIn("ERSTEN HALBJAHR 1979", market["label"])
+        self.assertIn("KEIN nachgewiesener individueller Geldfluss", market["label"])
+
+
 if __name__ == "__main__":
     unittest.main()
