@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**292 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**302 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -119,6 +119,7 @@
 | American Council on Germany (ACG) | transatlantic_nonprofit | `ORG-US-ACG-2012` | US | [8](network.md#rel-us-gmf-acg-2012-001) |
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
 | American Institute for Contemporary German Studies (AICGS) | policy_research_institute | `ORG-US-AICGS-2012` | US | [1](network.md#rel-us-gmf-aicgs-2012-001) |
+| Anduril Industries | defense_technology_company | `ORG-US-ANDURIL` | US | [3](network.md#rel-us-army-anduril-titan-order-2026) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
@@ -147,6 +148,7 @@
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
+| Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
@@ -232,19 +234,24 @@
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
+| Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
 | National Venture Capital Association (NVCA, 1973) | industry_association | `ORG-US-NVCA-1973` | US | [1](network.md#rel-us-wp-nvca-1973-001) |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | – |
 | Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL | [2](network.md#rel-int-interalpha-1979-002) |
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
+| Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [1](network.md#rel-int-bcci-004) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
+| Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
+| Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
+| Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
@@ -260,6 +267,7 @@
 | Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg) | historical_civic_association | `ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990` | DE | [4](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [1](network.md#rel-de-tmn-016) |
+| Tactical Intelligence Targeting Access Node (TITAN) | military_technology_program | `PRG-US-ARMY-TITAN` | US | [2](network.md#rel-us-palantir-titan-integration-2026) |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE | [4](network.md#rel-de-bdj-001) |
 | The Bilderberg Association (Charity 272706, historisch) | association | `ORG-GB-BILDERBERG-CHARITY-272706` | GB | [1](network.md#rel-gb-bb-uk-001) |
 | The Bilderberg Association UK Limited (12988319) | organization | `ORG-GB-BILDERBERG-UK-LTD-12988319` | GB | [4](network.md#rel-gb-bb-uk-004) |
@@ -272,6 +280,7 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
+| U.S. Army Southern European Task Force, Africa (SETAF-AF) | military_organization | `ORG-US-ARMY-SETAF-AF` | US | [1](network.md#rel-us-setaf-palantir-maven-pa-2025) |
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [1](network.md#rel-us-ua-biosec-2022-001) |
@@ -280,6 +289,7 @@
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
+| United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |

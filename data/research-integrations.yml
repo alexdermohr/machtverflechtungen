@@ -518,3 +518,20 @@ studies:
     sha256: 1e7fb80dce35acefe8c2d2c9d317d4550f66a57bbfdb72f18dd0164d176e3639
     status: no_network_relation
     reason: "Die 1997 öffentlich Ulfkotte zugeschriebene Bordell-/US-Geheimaktenbehauptung über Glenn Miller ist archivalisch nicht belegt. Die Geschichte kursierte bereits 1985; original belegte US-Flug- und Verlustakten sprechen für einen anderen Hergang. Weder eine CIA-/USAAF-Vertuschungskante noch eine journalistische Falschbeurkundung ohne Originalunterlagen wird als gesicherte Netzwerkbeziehung konstruiert."
+
+  jeffrey-sachs-militaer-digital-palantir-anduril-2024-2026.md:
+    sha256: aba693acd6900252627ccab39ac60bb91fc23665e907b71b72ddfa97d7a7434a
+    status: network
+    relation_ids:
+      - REL-US-ARMY-PALANTIR-TITAN-OTA-2024
+      - REL-US-ARMY-PALANTIR-TITAN-ORDER-2026
+      - REL-US-ARMY-ANDURIL-TITAN-ORDER-2026
+      - REL-US-PALANTIR-TITAN-INTEGRATION-2026
+      - REL-US-ANDURIL-TITAN-HARDWARE-2026
+      - REL-US-ANDURIL-PALANTIR-NGC2-2026
+      - REL-US-RAFT-NGC2-2026
+      - REL-UA-MOD-PALANTIR-BRAVE1-2026
+      - REL-UA-BRAVE1-PALANTIR-SOFTWARE-2026
+      - REL-US-SETAF-PALANTIR-MAVEN-PA-2025
+      - REL-US-ARMY-PALANTIR-AMMO-2026
+      - REL-US-ARMY-PALANTIR-AIP-2025
