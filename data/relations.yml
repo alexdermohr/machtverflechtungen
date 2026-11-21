@@ -2970,3 +2970,25 @@ relations:
     period: {start: "1976", end: "1979"}
     evidence_level: strong
     sources: [SRC-US-FED-PRIVATE-EQUITY-STAFF-1995]
+
+  - id: REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
+    from: ORG-INT-SHELL-GROUP-1996
+    to: PER-DE-UDO-ULFKOTTE
+    type: corporate_sponsored_journalist_trip
+    label: "Shell organisierte und finanzierte nach zeitgenössischer taz-Recherche die Niger-Delta-Reise des FAZ-Korrespondenten Ulfkotte im Oktober 1996 einschließlich Hubschrauberflügen; dies belegt eine Zuwendung, nicht Bestechungsstraftat oder diktierte Berichterstattung"
+    period: {start: "1996", end: "1996"}
+    evidence_level: strong
+    sources:
+      - SRC-DE-TAZ-SHELL-ULFKOTTE-NIGERIA-1997-05-23
+      - SRC-DE-TAZ-SHELL-ULFKOTTE-LGKOELN-1997-07-03
+
+  - id: REL-INT-SHELL-FAZ-PR-REUSE-1996-001
+    from: ORG-INT-SHELL-GROUP-1996
+    to: ORG-DE-FAZ
+    type: corporate_pr_reuse_of_media_report
+    label: "Nach zeitgenössischer taz-Berichterstattung verwendete Shell Ulfkottes nach der 1996er Reise erschienenen FAZ-Artikel in einem firmeneigenen Werbevideo; daraus ist kein redaktioneller Auftrag und kein ausdrückliches FAZ-Einverständnis ableitbar"
+    period: {start: "1996"}
+    evidence_level: strong
+    sources:
+      - SRC-DE-TAZ-SHELL-ULFKOTTE-NIGERIA-1997-05-23
+      - SRC-DE-TAZ-SHELL-ULFKOTTE-LGKOELN-1997-07-03
