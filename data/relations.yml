@@ -2907,3 +2907,66 @@ relations:
     period: {start: "2006"}
     evidence_level: established
     sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]
+
+  - id: REL-US-WP-NVCA-1973-001
+    from: ORG-US-WARBURG-PINCUS-1978
+    to: ORG-US-NVCA-1973
+    type: retrospectively_self_reported_industry_founding_membership
+    label: "Warburg Pincus bezeichnet sich in der eigenen heutigen Firmengeschichte als Gründungsmitglied der National Venture Capital Association 1973. Diese Eigenangabe belegt keine individuelle Mitautorenschaft an der späteren US-ERISA-Regel von 1979"
+    period: {start: "1973"}
+    evidence_level: strong
+    sources: [SRC-US-WARBURG-PINCUS-FIRM-HISTORY-1978]
+
+  - id: REL-US-WP-DOL-CONSULTATIONS-1978-001
+    from: ORG-US-WARBURG-PINCUS-1978
+    to: ORG-US-DOL-ERISA-1979
+    type: company_claimed_historical_regulatory_discussions
+    label: "Warburg Pincus erklärt retrospektiv, 1978 Gespräche mit dem U.S. Department of Labor zur Öffnung von Pensionsanlagen für alternative Vermögensklassen mit angeführt zu haben. Das ist eine Firmen-Selbstaussage, keine unabhängig verifizierte Teilnehmerliste, Übernahme eines Wortlautentwurfs oder persönliche Bestechung"
+    period: {start: "1978"}
+    evidence_level: plausible
+    sources: [SRC-US-WARBURG-PINCUS-FIRM-HISTORY-1978]
+
+  - id: REL-US-DOL-ERISA-PROPOSAL-1978-001
+    from: ORG-US-DOL-ERISA-1979
+    to: DOC-US-DOL-ERISA-PROPOSAL-1978
+    type: official_retrospective_documented_proposed_rule
+    label: "Die DOL-Endbegründung im Federal Register 44 FR 37222 bestätigt die öffentliche Ankündigung des Regelungsentwurfs 29 CFR 2550.404a-1 am 25.04.1978 (43 FR 17480); namentliche Warburg-Pincus-Eingaben oder konkrete Entwurfsübernahmen daraus nicht gesichert"
+    period: {start: "1978-04-25"}
+    evidence_level: established
+    sources: [SRC-US-DOL-ERISA-PRUDENCE-FR-19790626]
+
+  - id: REL-US-DOL-ERISA-FINAL-1979-001
+    from: ORG-US-DOL-ERISA-1979
+    to: DOC-US-DOL-ERISA-RULE-1979
+    type: issued_federal_fiduciary_prudence_regulation
+    label: "Das U.S. Department of Labor veröffentlichte am 26.06.1979 die finale ERISA-Treuhänder-Anlageauslegung unter 29 CFR 2550.404a-1, wirksam am 23.07.1979. Die Amtsbegründung berücksichtigt branchenweite Stellungnahmen, benennt Warburg Pincus aber nicht als alleinigen Urheber"
+    period: {start: "1979-06-26"}
+    evidence_level: established
+    sources: [SRC-US-DOL-ERISA-PRUDENCE-FR-19790626]
+
+  - id: REL-US-ERISA-RULE-PORTFOLIO-1979-001
+    from: DOC-US-DOL-ERISA-RULE-1979
+    to: PRG-US-ERISA-PENSION-PLANS-1979
+    type: established_portfolio_context_prudence_standard
+    label: "Die am 23.07.1979 wirksame DOL-Regel bewertet Anlagesorgfalt im Kontext des gesamten Pensionsportfolios. Weder risikoreiche Unternehmensanteile noch alternative Anlagen sind allein wegen ihrer Anlageklasse per se unzulässig; dies ist KEINE generelle Erlaubnis beliebiger Private-Equity-Investments"
+    period: {start: "1979-07-23"}
+    evidence_level: established
+    sources: [SRC-US-DOL-ERISA-PRUDENCE-FR-19790626]
+
+  - id: REL-US-FED-STAFF-PE-STUDY-1995-001
+    from: ORG-US-FEDERAL-RESERVE
+    to: DOC-US-FED-PRIVATE-EQUITY-1995
+    type: historical_staff_research_publication
+    label: "Eine unter dem Dach des Federal Reserve System publizierte Staff Study 168 (Dezember 1995) analysiert Struktur und regulatorischen Wandel des Private-Equity-Markts. Die Autorenmeinungen sind keine automatische amtliche Billigung sämtlicher Schlussfolgerungen durch den Gouverneursrat"
+    period: {start: "1995"}
+    evidence_level: strong
+    sources: [SRC-US-FED-PRIVATE-EQUITY-STAFF-1995]
+
+  - id: REL-US-ERISA-VC-AGGREGATES-1976-1979-001
+    from: PRG-US-ERISA-PENSION-PLANS-1979
+    to: ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979
+    type: staff_study_reported_aggregate_capital_commitments
+    label: "Federal-Reserve-Staff-Studie 1995: VC-Partnerships erhielten von ERISA-Pensionsplänen 1976–1978 jeweils weniger als 5 Mio. USD jährlich, dagegen 50 Mio. USD im ERSTEN HALBJAHR 1979. Unterschiedliche Zeiträume, keine addierbaren Jahressummen und KEIN nachgewiesener individueller Geldfluss zu Warburg Pincus; DOL-Gegenregulierung folgte August 1979"
+    period: {start: "1976", end: "1979"}
+    evidence_level: strong
+    sources: [SRC-US-FED-PRIVATE-EQUITY-STAFF-1995]

@@ -3169,3 +3169,39 @@ sources:
   accessed: "2026-11-21"
   locator: "Absatz zum mittelbaren Erwerb von 680.000 Namensaktien zu je 77 EUR (2 % des Grundkapitals) durch Mathias Döpfner von Friede Springer; rechnerisch 52,36 Mio. EUR"
   notes: "Original-Emittentenmitteilung via Presseportal; belegt Aktienkauf und Ausgabekurs, nicht Darlehensvertrag oder einen 60-Mio.-EUR-Bankkredit. Originalmeldung in vorhandener Studie präzise dokumentiert; späterer direkter Reabruf teilweise durch 410-Antwort eingeschränkt."
+
+- id: SRC-US-WARBURG-PINCUS-FIRM-HISTORY-1978
+  title: "Warburg Pincus – Firm History / Milestones of Growth, Eintrag 1978 und NVCA 1973"
+  institution: "Warburg Pincus"
+  date: null
+  type: institutional_retrospective_self_report
+  primary: false
+  tier: B
+  url: https://warburgpincus.com/firm/firm-history/
+  accessed: "2026-11-21"
+  locator: "Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitgliedschaft; Eintrag 1978: Warburg Pincus 'helped lead discussions with the U.S. Department of Labor' zu Pensionsfonds und alternativen Anlageklassen"
+  notes: "Aktuelle Retrospektive und Eigenbehauptung der Firma, keine selbst eingesehene Besprechungsniederschrift, individuelle DOL-Eingabe, Pensionsfonds-Auszahlung oder Beweis einer übernommenen Wortlautvorlage. Historisches US-Haus ist nicht die heutige Hamburger Privatbank."
+
+- id: SRC-US-DOL-ERISA-PRUDENCE-FR-19790626
+  title: "U.S. Department of Labor, 29 CFR Part 2550, Investment of Plan Assets Under the Prudence Rule"
+  institution: "United States Department of Labor, amtlicher Federal Register Vol. 44 Nr. 124"
+  date: "1979-06-26"
+  type: original_federal_regulation
+  primary: true
+  tier: A
+  url: https://archives.federalregister.gov/issue_slice/1979/6/26/37221-37229.pdf
+  accessed: "2026-11-21"
+  locator: "44 FR 37221 (Originalscan PDF-Seite 1): Regelungsgegenstand und Wirksamkeit 23.07.1979. 44 FR 37222 (PDF-Seite 2): ursprünglicher Regelungsentwurf 25.04.1978, öffentliche Kommentare und Portfolio-Kontext. 44 FR 37225 (PDF-Seite 5): amtlicher Normtext 29 CFR 2550.404a-1."
+  notes: "Original-Faksimile der 1979 veröffentlichten Endnorm, PDF-Seiten 2 und 5 am 21.11.2026 bildseitig überprüft. Der Text enthält keinen individuellen Warburg-Pincus-Namensnachweis; riskante Anlagen sind nicht generell erlaubt, Treuhänderpflichten bestehen. Der separate 1978er Entwurf wurde hier nur über den amtlichen Rückverweis nachgewiesen."
+
+- id: SRC-US-FED-PRIVATE-EQUITY-STAFF-1995
+  title: "Fenn, Liang & Prowse, The Economics of the Private Equity Market, Staff Study 168"
+  institution: "Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dallas, Staff Study"
+  date: "1995-12"
+  type: historical_economic_staff_study
+  primary: false
+  tier: B
+  url: https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf
+  accessed: "2026-11-21"
+  locator: "Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980."
+  notes: "Historisch-ökonomische Analyse mit Daten aus Branchenquellen, keine amtliche Originalbuchhaltung jedes Fonds und keine Pensionszahlungen an Warburg Pincus nachgewiesen. Unterschiedliche Erhebungsperioden und Gegenregulierung werden ausdrücklich genannt; Autoren vertreten nicht zwangsläufig die Auffassung des Federal-Reserve-Gouverneursrats."

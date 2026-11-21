@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**274 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**277 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3196,6 +3196,21 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
+
+<a id="src-us-dol-erisa-prudence-fr-19790626"></a>
+### United States Department of Labor, amtlicher Federal Register Vol. 44 Nr. 124
+
+**[U.S. Department of Labor, 29 CFR Part 2550, Investment of Plan Assets Under the Prudence Rule](https://archives.federalregister.gov/issue_slice/1979/6/26/37221-37229.pdf)**
+
+United States Department of Labor, amtlicher Federal Register Vol. 44 Nr. 124 · 1979-06-26 · Stufe **A** · Primärquelle · `SRC-US-DOL-ERISA-PRUDENCE-FR-19790626`
+
+[PDF öffnen](https://archives.federalregister.gov/issue_slice/1979/6/26/37221-37229.pdf)
+
+Fundstelle: 44 FR 37221 (Originalscan PDF-Seite 1): Regelungsgegenstand und Wirksamkeit 23.07.1979. 44 FR 37222 (PDF-Seite 2): ursprünglicher Regelungsentwurf 25.04.1978, öffentliche Kommentare und Portfolio-Kontext. 44 FR 37225 (PDF-Seite 5): amtlicher Normtext 29 CFR 2550.404a-1.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
 
 <a id="src-us-cig-rusty-doc21-1946"></a>
@@ -3288,7 +3303,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-de-kraushaar-bombe-gemeindehaus-2005) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3467,6 +3482,21 @@ Bilderberg Meetings · 2012 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://publicintelligence.net/2012-bilderberg-meeting-participant-list/)
 
 Fundstelle: Matthias Nass, Chief International Correspondent, Die Zeit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1995">
+
+<a id="src-us-fed-private-equity-staff-1995"></a>
+### Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dallas, Staff Study
+
+**[Fenn, Liang & Prowse, The Economics of the Private Equity Market, Staff Study 168](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)**
+
+Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dallas, Staff Study · 1995-12 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-FED-PRIVATE-EQUITY-STAFF-1995`
+
+[PDF öffnen](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)
+
+Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980.
 
 </article>
 
@@ -4095,6 +4125,21 @@ US National Archives, Interagency Working Group · 2001 · Stufe **B** · Sekund
 [Seite öffnen](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/rg-263-report.html)
 
 Fundstelle: Gehlen Organization und Emil Augsburg
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-us-warburg-pincus-firm-history-1978"></a>
+### Warburg Pincus
+
+**[Warburg Pincus – Firm History / Milestones of Growth, Eintrag 1978 und NVCA 1973](https://warburgpincus.com/firm/firm-history/)**
+
+Warburg Pincus · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-WARBURG-PINCUS-FIRM-HISTORY-1978`
+
+[Seite öffnen](https://warburgpincus.com/firm/firm-history/)
+
+Fundstelle: Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitgliedschaft; Eintrag 1978: Warburg Pincus 'helped lead discussions with the U.S. Department of Labor' zu Pensionsfonds und alternativen Anlageklassen
 
 </article>
 

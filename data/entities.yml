@@ -1553,3 +1553,51 @@ entities:
     name: "Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien)"
     countries: [DE]
     notes: "Axel-Springer-Geschäftsbericht 2012, gedruckte S. 57: Poolvertrag zwischen Friede Springer und Friede Springer GmbH & Co KG, dem Döpfner am 14.08.2012 nach Schenkung von 1.978.800 Aktien beitrat. 52.826.967 bezeichnet sämtliche poolgebundenen stimmberechtigten Aktien, keine persönliche Beteiligung Döpfners oder Warburgs."
+
+  - id: ORG-US-WARBURG-PINCUS-1978
+    type: historical_private_equity_firm
+    name: "Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978)"
+    countries: [US]
+    notes: "Eigenständiges US-Risikokapitalunternehmen mit historischer E.M.-Warburg-Namensverbindung; NICHT rechtlich mit der Hamburger Privatbank M.M.Warburg & CO gleichzusetzen. Die heutige Firmengeschichte beansprucht eine Rolle bei US-Arbeitsministeriums-Gesprächen 1978, ohne amtlichen Teilnehmer- oder Schriftsatzbeleg."
+
+  - id: ORG-US-DOL-ERISA-1979
+    type: government_agency
+    name: "U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979)"
+    countries: [US]
+    notes: "Amtlicher Verordnungsgeber 29 CFR 2550.404a-1, Entwurf 25.04.1978 und Endverordnung 26.06.1979, wirksam 23.07.1979. Der amtliche Verordnungstext enthält keine unabhängige Zuschreibung der Normurheberschaft an Warburg Pincus."
+
+  - id: ORG-US-NVCA-1973
+    type: industry_association
+    name: "National Venture Capital Association (NVCA, 1973)"
+    countries: [US]
+    notes: "US-Branchenverband; Warburg Pincus bezeichnet sich in seiner rückblickenden Firmengeschichte als Gründungsmitglied 1973. Für das individuelle Mitwirken an der 1979er ERISA-Norm fehlt ein vom Verband signierter Vorschlag."
+
+  - id: DOC-US-DOL-ERISA-PROPOSAL-1978
+    type: historical_regulatory_document
+    name: "US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480)"
+    countries: [US]
+    notes: "Existenz, Datum und Gegenstand des 1978er Regelungsvorschlags sind in der amtlichen Endbegründung 44 FR 37222 (1979) bestätigt; die originale Entwurfsakte 43 FR 17480 wurde für diesen Nachtrag nicht separat als Faksimile gesichtet."
+
+  - id: DOC-US-DOL-ERISA-RULE-1979
+    type: historical_regulatory_document
+    name: "ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979)"
+    countries: [US]
+    notes: "Am 26.06.1979 im Federal Register 44 FR 37221–37225 veröffentlichte Auslegung des Investment-Prudence-Maßstabs, wirksam 23.07.1979. Portfolio-Kontext kann riskantere Anlagen zulassen, aber keine Anlageklasse wird pauschal als rechtmäßig erklärt."
+
+  - id: PRG-US-ERISA-PENSION-PLANS-1979
+    type: historical_pension_system
+    name: "ERISA-betroffene US-Pensionspläne (historisch 1979)"
+    countries: [US]
+    notes: "Pensionspläne mit unter ERISA geregelten Treuhänderpflichten; die DOL-Regelung von 1979 betrifft Anlage-Sorgfalt im Portfoliokontext, nicht eine pauschale Anlageerlaubnis oder Pflicht, in Private Equity zu investieren."
+
+  - id: ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979
+    type: historical_investment_sector
+    name: "US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979)"
+    countries: [US]
+    notes: "Gesamter historischer Branchenkreis in einer Federal-Reserve-Staff-Study 1995; deren aggregierte ERISA-Pensionszusagen sind keine individuelle Zahlung an Warburg Pincus oder einzelne Fondsgesellschaften."
+
+  - id: DOC-US-FED-PRIVATE-EQUITY-1995
+    type: historical_research_document
+    name: "Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995)"
+    countries: [US]
+    notes: "Von Fenn, Liang und Prowse verfasste Forschungsstudie, Dezember 1995, keine zwingende Billigung jeder Interpretation durch den Board of Governors. Berichtet historische Pensionskapital-Aggregate 1976–1979 und gegenläufige DOL-Regulierung 1979/80."
