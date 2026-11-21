@@ -3145,3 +3145,84 @@ relations:
     period: {start: "2025-06-01"}
     evidence_level: established
     sources: [SRC-US-USASPENDING-PALANTIR-AIP-2025]
+
+  - id: REL-US-CIA-PDC-CAMPAIGN-1964
+    from: ORG-US-CIA
+    to: ORG-CL-CHRISTIAN-DEMOCRATS-1964
+    type: documented_covert_election_financing
+    label: "CIA finanzierte 1964 verdeckt etwas mehr als die Hälfte des christdemokratischen Präsidentschaftswahlkampfes; Kandidat Frei sollte über Herkunft nicht informiert werden"
+    period: {start: "1964"}
+    evidence_level: established
+    sources: [SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-MCCONE-CIA-DIRECTOR-1961-1965
+    from: PER-US-JOHN-A-MCCONE
+    to: ORG-US-CIA
+    type: former_intelligence_director
+    label: "John McCone war 29.11.1961–28.04.1965 Director of Central Intelligence; ITT-Vorstandsbrief 1970 bestätigt frühere Leitungsfunktion"
+    period: {start: "1961"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-MCCONE-KISSINGER-1970]
+  - id: REL-US-MCCONE-ITT-BOARD-1970
+    from: PER-US-JOHN-A-MCCONE
+    to: ORG-US-ITT-1970
+    type: corporate_board_membership
+    label: "McCone war laut eigenem Brief 14.09.1970 ITT-Director und Mitglied des Executive Committee; Konzern- und Geheimdiensterfahrung hier persönlich verbunden"
+    period: {start: "1970-09-14"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-MCCONE-KISSINGER-1970]
+  - id: REL-US-CIA-ITT-FUNDING-CHANNELS-1970
+    from: ORG-US-CIA
+    to: ORG-US-ITT-1970
+    type: documented_covert_electoral_funding_advice
+    label: "CIA gab 1970 ITT Hinweise auf sichere Kanäle der Anti-Allende-Wahlkampffinanzierung; angebotene 1 Mio. USD über CIA wurden explizit abgelehnt"
+    period: {start: "1970"}
+    evidence_level: established
+    sources: [SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-ITT-ALLENDE-OPPOSITION-1970
+    from: ORG-US-ITT-1970
+    to: PRG-CL-ANTI-ALLENDE-1970
+    type: documented_corporate_electoral_funding
+    label: "ITT leitete 1970 laut Church-Ausschuss mindestens 350.000 USD zur Anti-Allende-Kampagne; CIA beriet Übermittlung, nahm aber die angebotene 1-Mio.-CIA-Durchleitung nicht an"
+    period: {start: "1970"}
+    evidence_level: established
+    sources: [SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-CIA-TRACK-II-CHILE-1970
+    from: ORG-US-CIA
+    to: PRG-CL-CIA-TRACK-II-1970
+    type: directed_covert_coup_attempt
+    label: "Track II war CIA-seitig für militärische Lösung gegen Allendes Amtsantritt 1970 organisiert, unter Ausschluss von Botschafter und State; nicht Beweis direkter Führung des Putsches 1973"
+    period: {start: "1970-09-21"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-CIA-TRACK2-1970, SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-CIA-EL-MERCURIO-1971-1972
+    from: ORG-US-CIA
+    to: ORG-CL-EL-MERCURIO-1971
+    type: covert_media_funding_disbursed
+    label: "CIA-Memo 10.04.1972: 700.000 USD für El Mercurio September 1971 bewilligt/ausgegeben, weitere 300.000 USD bis Januar 1972 bewilligt/ausgegeben; zusätzliche 1972er Bewilligung kein Zahlungsbeleg"
+    period: {start: "1971-09-13"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-CIA-MERCURIO-1972, SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-CIA-CHILE-JUNTA-PROPAGANDA-1973
+    from: ORG-US-CIA
+    to: ORG-CL-MILITARY-JUNTA-1973
+    type: covert_post_coup_media_support
+    label: "Church-Ausschuss dokumentiert nach Putsch 1973 fortgeführtes CIA-Propagandaprogramm zugunsten des Junta-Ansehens; kein direkter Putschbefehl dadurch erwiesen"
+    period: {start: "1973-09-11"}
+    evidence_level: strong
+    sources: [SRC-US-NARA-CHURCH-CHILE-1975]
+  - id: REL-US-CIA-PBSUCCESS-GUATEMALA-1954
+    from: ORG-US-CIA
+    to: PRG-GT-CIA-PBSUCCESS-1954
+    type: documented_covert_regime_change_operation
+    label: "Operation PBSUCCESS als CIA-geführte verdeckte US-Intervention gegen Regierung Árbenz in Guatemala 1954 offiziell in FRUS dokumentiert"
+    period: {start: "1954"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GUATEMALA-PREFACE-2003]
+  - id: REL-US-UFCO-CASTILLO-ARMAS-SUPPORT-1952
+    from: ORG-US-UNITED-FRUIT-1952
+    to: ORG-GT-CASTILLO-ARMAS-GROUP
+    type: historical_rebel_financial_support
+    label: "FRUS-Editorial Note: United Fruit gehörte 1952 zur finanziellen Unterstützergruppe potentieller Rebellen um Castillo Armas; Summe, Überweisungsweg und CIA-Direktzahlung ungeklärt"
+    period: {start: "1952"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-GUATEMALA-1952-EDITORIAL]
