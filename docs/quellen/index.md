@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**301 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**308 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2720,6 +2720,21 @@ Fundstelle: S. 5076 / PDF 8: Dekret vom 30.06.1982 benennt Pierre W. Siegenthale
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-ua-mod-brave1-2026"></a>
+### Ministry of Defence of Ukraine
+
+**[Ministry of Defence launches Brave1 Dataroom, a secure environment for training military AI solutions](https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions)**
+
+Ministry of Defence of Ukraine · 2026-01-21 · Stufe **A** · Primärquelle · `SRC-UA-MOD-BRAVE1-2026`
+
+[Seite öffnen](https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions)
+
+Fundstelle: Kooperationspartner, Aufgaben und Einsatz realer Militärdaten; institutionell mit Digitalministeriums-Mitteilung verwandt.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-fr-mae-1rp-findbuch-2023"></a>
@@ -3106,6 +3121,81 @@ Fundstelle: Zeitgenössische Recherche zu Zielgruppen, Vereinsfinanzierung und p
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-us-army-titan-2024"></a>
+### U.S. Army Contracting Command – Aberdeen Proving Ground
+
+**[TITAN Ground Station Prototype – Award](https://www.army.mil/article/274301/army_tactical_intelligence_targeting_access_node_titan_ground_station_prototype_award)**
+
+U.S. Army Contracting Command – Aberdeen Proving Ground · 2024-03-06 · Stufe **A** · Primärquelle · `SRC-US-ARMY-TITAN-2024`
+
+[Seite öffnen](https://www.army.mil/article/274301/army_tactical_intelligence_targeting_access_node_titan_ground_station_prototype_award)
+
+Fundstelle: 178,4 Mio. USD OTA-Prototypenvereinbarung, zehn Systeme; KI-Sensor-/Zielinformationsverarbeitung. Auftragswert ist keine Auszahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-us-army-titan-prod-2026"></a>
+### U.S. Army CPE Intelligence and Spectrum Warfare
+
+**[Army Announces Move to Production for TITAN](https://cpeisw.army.mil/2026/09/01/army-announces-move-to-production-for-titan/)**
+
+U.S. Army CPE Intelligence and Spectrum Warfare · 2026-09-01 · Stufe **A** · Primärquelle · `SRC-US-ARMY-TITAN-PROD-2026`
+
+[Seite öffnen](https://cpeisw.army.mil/2026/09/01/army-announces-move-to-production-for-titan/)
+
+Fundstelle: 127 Mio. USD Palantir, 65 Mio. USD Anduril als zwei Delivery Orders für acht Produktionssysteme; neun behaltene Prototypen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-us-army-ngc2-data-2026"></a>
+### U.S. Army Public Affairs
+
+**[Army and industry align on common data baseline as Next Generation Command and Control moves from prototyping to delivery](https://www.army.mil/article-amp/293409/army_and_industry_align_on_common_data_baseline_as_next_generation_command_and_control_moves_from_prototyping_to_delivery)**
+
+U.S. Army Public Affairs · 2026-06-22 · Stufe **A** · Primärquelle · `SRC-US-ARMY-NGC2-DATA-2026`
+
+[Seite öffnen](https://www.army.mil/article-amp/293409/army_and_industry_align_on_common_data_baseline_as_next_generation_command_and_control_moves_from_prototyping_to_delivery)
+
+Fundstelle: Anduril Lattice, Palantir Foundry und Raft gemeinsam in Army-NGC2-Datenarchitektur, ohne hier belegte Einzelzahlungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-us-army-ammunition-palantir-2026"></a>
+### U.S. Army Public Affairs
+
+**[US Army awards contract to modernize ammunition management](https://www.army.mil/article/295461)**
+
+U.S. Army Public Affairs · 2026-09-17 · Stufe **A** · Primärquelle · `SRC-US-ARMY-AMMUNITION-PALANTIR-2026`
+
+[Seite öffnen](https://www.army.mil/article/295461)
+
+Fundstelle: Delivery Order 48.094.071 USD an Palantir USG für Munitionsmanagement; Logistik, nicht TITAN-Zielsteuerung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-us-army-setaf-maven-2025"></a>
+### U.S. Army Southern European Task Force, Africa
+
+**[SETAF-AF public affairs experiment with emerging technology to shape the information environment](https://www.army.mil/article-amp/289747/setaf_af_public_affairs_experiment_with_emerging_technology_to_shape_the_information_environment)**
+
+U.S. Army Southern European Task Force, Africa · 2025-12-22 · Stufe **A** · Primärquelle · `SRC-US-ARMY-SETAF-MAVEN-2025`
+
+[Seite öffnen](https://www.army.mil/article-amp/289747/setaf_af_public_affairs_experiment_with_emerging_technology_to_shape_the_information_environment)
+
+Fundstelle: Offene Erprobung von Palantirs Maven Smart System in Army Public Affairs zur Informationslage und Narrativkommunikation; kein verdeckter Geheimdienstbeweis.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dod-ukraine-biosafety-20220609"></a>
@@ -3463,6 +3553,21 @@ US-Steuererklärung, veröffentlicht durch Urban Institute / NCCS · 2025 · Stu
 [Seite öffnen](https://nccs-efile.s3.us-east-1.amazonaws.com/xml2/v2_3_patch/202621389349100797_public.xml)
 
 Fundstelle: EIN 510163715; eFile 202621389349100797; IRS990ScheduleB/ContributorInformationGrp und 2025er Directors
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-us-usaspending-palantir-aip-2025"></a>
+### USAspending.gov, U.S. Treasury
+
+**[Department of Defense Delivery Order W56KGY25F0090 to Palantir USG Inc.](https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/)**
+
+USAspending.gov, U.S. Treasury · 2025-06-01 · Stufe **A** · Primärquelle · `SRC-US-USASPENDING-PALANTIR-AIP-2025`
+
+[Seite öffnen](https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/)
+
+Fundstelle: Army Intelligence Data Platform Artificial Intelligence Platform Lizenz; laut Abruf 21.11.2026 1.166.666,69 USD obligated, keine Auszahlungsbehauptung.
 
 </article>
 

@@ -1643,3 +1643,55 @@ entities:
     name: "Werner Marx (1924–1985, CDU)"
     countries: [DE]
     notes: "KAS-Politikerbiografie: Bundeswehr-Referat für psychologische Kriegsführung ab 1958, erster Vorsitzender der Studiengesellschaft für Zeitprobleme 1965–1972, später MdB und Vorsitzender des Verteidigungsausschusses 1980–1982. Keine persönliche Förderentscheidung für 1989/90 unterstellt."
+
+  - id: ORG-US-ARMY
+    type: military_organization
+    name: "United States Army"
+    countries: [US]
+    notes: "US-Heer; Beschaffungsstellen und Öffentlichkeitsarbeit werden in den jeweiligen Quellen präzisiert, nicht mit CIA gleichgesetzt."
+  - id: ORG-US-PALANTIR-TECH
+    type: technology_company
+    name: "Palantir Technologies (Unternehmensgruppe)"
+    countries: [US]
+    notes: "Army und ukrainische Ministerien nennen bei TITAN, NGC2, Maven und Brave1 die Marke Palantir/Palantir Technologies; konkrete Auftragnehmer-Rechtseinheit für einzelne Vorhaben nur nach Vertragsurkunde bestimmen."
+
+  - id: ORG-US-PALANTIR-USG
+    type: technology_company
+    name: "Palantir USG Inc."
+    countries: [US]
+    notes: "Gesonderter, in Army-Munitionsauftrag 2026 und USAspending-Delivery-Order W56KGY25F0090 namentlich genannter Rechtsträger; Vertragssummen nicht automatisch mit an Palantir Technologies genannten Gruppenaufträgen verrechnen."
+  - id: ORG-US-ANDURIL
+    type: defense_technology_company
+    name: "Anduril Industries"
+    countries: [US]
+    notes: "US-Verteidigungstechnologieanbieter, Army-TITAN-Produktionsorder 2026 und NGC2-Lattice-Partnerschaft."
+  - id: PRG-US-ARMY-TITAN
+    type: military_technology_program
+    name: "Tactical Intelligence Targeting Access Node (TITAN)"
+    countries: [US]
+    notes: "US-Army-Aufklärungs- und KI-Zielinformationssystem; Prototypen-OTA 2024 und eigenständige Produktionsorders 2026."
+  - id: PRG-US-ARMY-NGC2
+    type: military_technology_program
+    name: "Next Generation Command and Control (NGC2)"
+    countries: [US]
+    notes: "US-Army-Programm für Datenbasisschicht und Führungs-/Operationsanwendungen; Army nennt Anduril, Palantir und Raft als technische Partner."
+  - id: ORG-UA-MINDEF
+    type: government_agency
+    name: "Ministry of Defence of Ukraine"
+    countries: [UA]
+    notes: "Ukrainisches Verteidigungsministerium; bestätigte den Brave1 Dataroom mit Palantir und realen Daten zur Luftverteidigung."
+  - id: PRG-UA-BRAVE1-DATAROOM
+    type: military_ai_platform
+    name: "Brave1 Dataroom"
+    countries: [UA]
+    notes: "2026 angekündigte sichere KI-Trainings- und Testumgebung für ukrainische Abwehrtechnologien, getragen von ukrainischen Behörden mit Palantir."
+  - id: ORG-US-ARMY-SETAF-AF
+    type: military_organization
+    name: "U.S. Army Southern European Task Force, Africa (SETAF-AF)"
+    countries: [US]
+    notes: "Army-Streitkräfteverband; seine Public-Affairs-Stelle beschreibt 2025 eine offen kommunizierte Maven-AI-Erprobung, keine nachgewiesene verdeckte Mediensteuerung."
+  - id: ORG-US-RAFT-TECH
+    type: technology_company
+    name: "Raft"
+    countries: [US]
+    notes: "Daten-/Softwarepartner der Anduril-/Palantir-Architektur NGC2 laut Army vom Juni 2026; Vertragsbetrag in der Quelle nicht angegeben."

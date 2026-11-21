@@ -3048,3 +3048,100 @@ relations:
     period: {start: "1980-02-25", end: "1980-02-25"}
     evidence_level: plausible
     sources: [SRC-DE-ULFKOTTE-GEKAUFTE-JOURNALISTEN-2014]
+
+  - id: REL-US-ARMY-PALANTIR-TITAN-OTA-2024
+    from: ORG-US-ARMY
+    to: ORG-US-PALANTIR-TECH
+    type: official_prototype_contract_award
+    label: "Army-OTA 06.03.2024 an Palantir: TITAN-Phase 3 über 178,4 Mio. USD für zehn Prototypen; Auftragswert, keine Auszahlung"
+    period: {start: "2024-03-06"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-TITAN-2024]
+  - id: REL-US-ARMY-PALANTIR-TITAN-ORDER-2026
+    from: ORG-US-ARMY
+    to: ORG-US-PALANTIR-TECH
+    type: official_production_delivery_order
+    label: "Army-Delivery-Order 31.08.2026 an Palantir über 127 Mio. USD als TITAN-Produktions-/Systemintegrationsauftrag; nicht als ausgezahlter Gewinn behandeln"
+    period: {start: "2026-08-31"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-TITAN-PROD-2026]
+  - id: REL-US-ARMY-ANDURIL-TITAN-ORDER-2026
+    from: ORG-US-ARMY
+    to: ORG-US-ANDURIL
+    type: official_production_delivery_order
+    label: "Army-Delivery-Order 31.08.2026 an Anduril über 65 Mio. USD für TITAN-Hardware-/Shelter-Integration; von Palantir 127 Mio. USD getrennt"
+    period: {start: "2026-08-31"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-TITAN-PROD-2026]
+  - id: REL-US-PALANTIR-TITAN-INTEGRATION-2026
+    from: ORG-US-PALANTIR-TECH
+    to: PRG-US-ARMY-TITAN
+    type: documented_system_integration
+    label: "Palantir soll laut Army bei der 2026er TITAN-Produktion federführend integrieren; Programmrolle, keine politische Weisung"
+    period: {start: "2026-09-01"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-TITAN-PROD-2026]
+  - id: REL-US-ANDURIL-TITAN-HARDWARE-2026
+    from: ORG-US-ANDURIL
+    to: PRG-US-ARMY-TITAN
+    type: documented_hardware_integration
+    label: "Anduril liefert im TITAN-Produktionsauftrag 2026 insbesondere Hardware-/Shelter-Integration; Auftragssumme gesondert modelliert"
+    period: {start: "2026-09-01"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-TITAN-PROD-2026]
+  - id: REL-US-ANDURIL-PALANTIR-NGC2-2026
+    from: ORG-US-ANDURIL
+    to: ORG-US-PALANTIR-TECH
+    type: documented_technical_program_collaboration
+    label: "US Army bestätigt Anduril-Lattice-/Palantir-Foundry-Zusammenarbeit für NGC2 Edge-to-Cloud Data Mesh; ohne ausgewiesene Einzelvergabe"
+    period: {start: "2026-06-22"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-NGC2-DATA-2026]
+  - id: REL-US-RAFT-NGC2-2026
+    from: ORG-US-RAFT-TECH
+    to: PRG-US-ARMY-NGC2
+    type: documented_program_data_partner
+    label: "Army nennt Raft für NGC2 Datenregistrierung/-transformation/-föderation, ohne belegte Einzelvergütung"
+    period: {start: "2026-06-22"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-NGC2-DATA-2026]
+  - id: REL-UA-MOD-PALANTIR-BRAVE1-2026
+    from: ORG-UA-MINDEF
+    to: ORG-US-PALANTIR-TECH
+    type: documented_military_ai_platform_collaboration
+    label: "Ukrainisches Verteidigungsministerium und Palantir starteten Brave1-Dataroom-Technologieprojekt mit realen Drohnen-/Gefechtsdaten; kein Projektbetrag genannt"
+    period: {start: "2026-01-21"}
+    evidence_level: established
+    sources: [SRC-UA-MOD-BRAVE1-2026]
+  - id: REL-UA-BRAVE1-PALANTIR-SOFTWARE-2026
+    from: PRG-UA-BRAVE1-DATAROOM
+    to: ORG-US-PALANTIR-TECH
+    type: documented_software_platform_supplier
+    label: "Brave1 Dataroom nutzt Palantir-Software als Basis zum Training/Validieren militärischer KI; keine belegte Datenverkaufssumme"
+    period: {start: "2026-01-20"}
+    evidence_level: established
+    sources: [SRC-UA-MOD-BRAVE1-2026]
+  - id: REL-US-SETAF-PALANTIR-MAVEN-PA-2025
+    from: ORG-US-ARMY-SETAF-AF
+    to: ORG-US-PALANTIR-TECH
+    type: documented_public_affairs_ai_experiment
+    label: "Army SETAF-AF beschreibt 22.12.2025 offenes Experiment ihrer Public-Affairs-Stelle mit Palantirs Maven Smart System zur Lageauswertung/Narrativkommunikation; kein verdeckter Einfluss belegt"
+    period: {start: "2025-12-22"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-SETAF-MAVEN-2025]
+  - id: REL-US-ARMY-PALANTIR-AMMO-2026
+    from: ORG-US-ARMY
+    to: ORG-US-PALANTIR-USG
+    type: official_software_delivery_order
+    label: "Army vergab 17.09.2026 48.094.071 USD Delivery Order an Palantir USG zur Modernisierung des Munitionsmanagements, getrennt von TITAN"
+    period: {start: "2026-09-17"}
+    evidence_level: established
+    sources: [SRC-US-ARMY-AMMUNITION-PALANTIR-2026]
+  - id: REL-US-ARMY-PALANTIR-AIP-2025
+    from: ORG-US-ARMY
+    to: ORG-US-PALANTIR-USG
+    type: federal_registered_ai_license_obligation
+    label: "USAspending W56KGY25F0090 ab 01.06.2025: Army Intelligence Data Platform AI-Platform-Lizenz, 1.166.666,69 USD obligated laut Register; keine Auszahlung"
+    period: {start: "2025-06-01"}
+    evidence_level: established
+    sources: [SRC-US-USASPENDING-PALANTIR-AIP-2025]

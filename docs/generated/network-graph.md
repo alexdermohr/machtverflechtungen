@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**332 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**344 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -635,6 +635,28 @@ flowchart LR
     N_PER_DE_WERNER_MARX_CDU_1965_1972["Werner Marx (1924–1985, CDU)"]
     N_PER_DE_WERNER_MARX_CDU_1965_1972 -->|"Werner Marx war laut institutioneller CDU-Biografie erster Vorsitzender der Studiengesellschaft 1965–1972 und zuvor im BMVg-Referat psychologische Kriegsführung tätig; keine persönliche Budgetweisung für Förderungen 1981–1990 nachgewiesen"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
     N_PER_DE_UDO_ULFKOTTE -->|"Nur Ulfkottes retrospektive Eigenaussage (2014): Teilnahme an einem SfZ-Seminar am 25.02.1980 in Bonn-Bad Godesberg; keine unabhängig gesicherte Teilnehmerliste, BND-Anwerbung oder individuelle Spesenabrechnung"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
+    N_ORG_US_ARMY["United States Army"]
+    N_ORG_US_PALANTIR_TECH["Palantir Technologies (Unternehmensgruppe)"]
+    N_ORG_US_ARMY -->|"Army-OTA 06.03.2024 an Palantir: TITAN-Phase 3 über 178,4 Mio. USD für zehn Prototypen; Auftragswert, keine Auszahlung"| N_ORG_US_PALANTIR_TECH
+    N_ORG_US_ARMY -->|"Army-Delivery-Order 31.08.2026 an Palantir über 127 Mio. USD als TITAN-Produktions-/Systemintegrationsauftrag; nicht als ausgezahlter Gewinn behandeln"| N_ORG_US_PALANTIR_TECH
+    N_ORG_US_ANDURIL["Anduril Industries"]
+    N_ORG_US_ARMY -->|"Army-Delivery-Order 31.08.2026 an Anduril über 65 Mio. USD für TITAN-Hardware-/Shelter-Integration; von Palantir 127 Mio. USD getrennt"| N_ORG_US_ANDURIL
+    N_PRG_US_ARMY_TITAN["Tactical Intelligence Targeting Access Node (TITAN)"]
+    N_ORG_US_PALANTIR_TECH -->|"Palantir soll laut Army bei der 2026er TITAN-Produktion federführend integrieren; Programmrolle, keine politische Weisung"| N_PRG_US_ARMY_TITAN
+    N_ORG_US_ANDURIL -->|"Anduril liefert im TITAN-Produktionsauftrag 2026 insbesondere Hardware-/Shelter-Integration; Auftragssumme gesondert modelliert"| N_PRG_US_ARMY_TITAN
+    N_ORG_US_ANDURIL -->|"US Army bestätigt Anduril-Lattice-/Palantir-Foundry-Zusammenarbeit für NGC2 Edge-to-Cloud Data Mesh; ohne ausgewiesene Einzelvergabe"| N_ORG_US_PALANTIR_TECH
+    N_ORG_US_RAFT_TECH["Raft"]
+    N_PRG_US_ARMY_NGC2["Next Generation Command and Control (NGC2)"]
+    N_ORG_US_RAFT_TECH -->|"Army nennt Raft für NGC2 Datenregistrierung/-transformation/-föderation, ohne belegte Einzelvergütung"| N_PRG_US_ARMY_NGC2
+    N_ORG_UA_MINDEF["Ministry of Defence of Ukraine"]
+    N_ORG_UA_MINDEF -->|"Ukrainisches Verteidigungsministerium und Palantir starteten Brave1-Dataroom-Technologieprojekt mit realen Drohnen-/Gefechtsdaten; kein Projektbetrag genannt"| N_ORG_US_PALANTIR_TECH
+    N_PRG_UA_BRAVE1_DATAROOM["Brave1 Dataroom"]
+    N_PRG_UA_BRAVE1_DATAROOM -->|"Brave1 Dataroom nutzt Palantir-Software als Basis zum Training/Validieren militärischer KI; keine belegte Datenverkaufssumme"| N_ORG_US_PALANTIR_TECH
+    N_ORG_US_ARMY_SETAF_AF["U.S. Army Southern European Task Force, Africa (SETAF-AF)"]
+    N_ORG_US_ARMY_SETAF_AF -->|"Army SETAF-AF beschreibt 22.12.2025 offenes Experiment ihrer Public-Affairs-Stelle mit Palantirs Maven Smart System zur Lageauswertung/Narrativkommunikation; kein verdeckter Einfluss belegt"| N_ORG_US_PALANTIR_TECH
+    N_ORG_US_PALANTIR_USG["Palantir USG Inc."]
+    N_ORG_US_ARMY -->|"Army vergab 17.09.2026 48.094.071 USD Delivery Order an Palantir USG zur Modernisierung des Munitionsmanagements, getrennt von TITAN"| N_ORG_US_PALANTIR_USG
+    N_ORG_US_ARMY -->|"USAspending W56KGY25F0090 ab 01.06.2025: Army Intelligence Data Platform AI-Platform-Lizenz, 1.166.666,69 USD obligated laut Register; keine Auszahlung"| N_ORG_US_PALANTIR_USG
 ```
 
 [Zur Relationstabelle](network.md)
