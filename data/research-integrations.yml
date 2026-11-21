@@ -494,3 +494,7 @@ studies:
     status: network
     relation_ids:
       - REL-DE-BKA-ULFKOTTE-MYKONOS-1996-001
+  jeffrey-sachs-systemkritische-aussagen-1994-2026.md:
+    sha256: eebbecab301f309e0cc48f66ee411cb094750dfcac494a87926aa3b540580408
+    status: no_network_relation
+    reason: "Die Studie analysiert Sachs eigene öffentliche Aussagen und argumentative Hypothesen; daraus folgt keine neue verifizierte Finanzierung, Mitgliedschaft oder Machtbeziehung zwischen Akteuren. Keine künstlichen Netzwerk-Kanten."
