@@ -1613,3 +1613,9 @@ entities:
     name: "Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996)"
     countries: [GB, NL, DE, NG]
     notes: "Historische Shell-Reiseorganisation und -Finanzierung im Niger-Delta Oktober 1996 laut zeitgenössischer taz; ohne eigenständige Abrechnung sind juristische Einzelgesellschaft und Zahler nicht abschließend identifiziert. Kein Beleg einer Textweisung an FAZ."
+
+  - id: ORG-DE-BKA
+    type: federal_criminal_investigation_agency
+    name: "Bundeskriminalamt (BKA)"
+    countries: [DE]
+    notes: "Bundesbehörde, die nach amtlicher Antwort vom 18.08.1997 den Journalisten Udo Ulfkotte für eine einzelne ressortübergreifende Lagebesprechung am 27.11.1996 als Iran-Experten und ausdrücklich nicht in Pressefunktion einlud. Kein Beleg einer BND-Agentenbeziehung."

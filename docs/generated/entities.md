@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**287 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**288 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -94,7 +94,7 @@
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
-| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [1](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
+| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
@@ -151,6 +151,7 @@
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
+| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [1](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |

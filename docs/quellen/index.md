@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**287 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**289 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1592,6 +1592,36 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/127/1812700.pdf)
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-ulfkotte-bka-1997-8534"></a>
+### Deutscher Bundestag / Bundeskanzleramt
+
+**[Bundestagsdrucksache 13/8534: Nachfragen zu Ulfkottes geheimhaltungsbedürftigen Kontakten und BKA-Mykonos-Sitzung](https://dserver.bundestag.de/btd/13/085/1308534.pdf)**
+
+Deutscher Bundestag / Bundeskanzleramt · 1997-09-19 · Stufe **A** · Primärquelle · `SRC-DE-BT-ULFKOTTE-BKA-1997-8534`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/085/1308534.pdf)
+
+Fundstelle: Gedruckte S. 1–2 Fragen Annelie Buntenbach 1–2 und Antworten Schmidbauer vom 08.09.1997; Original-Faksimile PDF-Seiten 7–8 (1-basiert).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-ulfkotte-bka-1997-8433"></a>
+### Deutscher Bundestag / Bundeskanzleramt / Bundesministerium des Innern
+
+**[Bundestagsdrucksache 13/8433: Udo Ulfkotte, BKA-Sicherheitslagebesprechung und angebliche BND-Verschlusssachen](https://dserver.bundestag.de/btd/13/084/1308433.pdf)**
+
+Deutscher Bundestag / Bundeskanzleramt / Bundesministerium des Innern · 1997-08-29 · Stufe **A** · Primärquelle · `SRC-DE-BT-ULFKOTTE-BKA-1997-8433`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/084/1308433.pdf)
+
+Fundstelle: Gedruckte S. 1 Fragen Manfred Such 1–2 und Antworten Schmidbauer vom 26.08.1997; gedruckte S. 6–7 Frage 12 und Antwort Schelter vom 18.08.1997. Faksimile-PDF-Seiten 5, 10–11 (1-basiert).
 
 </article>
 

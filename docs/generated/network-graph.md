@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**326 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**327 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -624,6 +624,8 @@ flowchart LR
     N_PER_DE_UDO_ULFKOTTE["Udo Ulfkotte (1960–2017)"]
     N_ORG_INT_SHELL_GROUP_1996 -->|"Shell organisierte und finanzierte nach zeitgenössischer taz-Recherche die Niger-Delta-Reise des FAZ-Korrespondenten Ulfkotte im Oktober 1996 einschließlich Hubschrauberflügen; dies belegt eine Zuwendung, nicht Bestechungsstraftat oder diktierte Berichterstattung"| N_PER_DE_UDO_ULFKOTTE
     N_ORG_INT_SHELL_GROUP_1996 -->|"Nach zeitgenössischer taz-Berichterstattung verwendete Shell Ulfkottes nach der 1996er Reise erschienenen FAZ-Artikel in einem firmeneigenen Werbevideo; daraus ist kein redaktioneller Auftrag und kein ausdrückliches FAZ-Einverständnis ableitbar"| N_ORG_DE_FAZ
+    N_ORG_DE_BKA["Bundeskriminalamt (BKA)"]
+    N_ORG_DE_BKA -->|"BKA lud Ulfkotte nach der Bundesregierung für eine einzelne ressortübergreifende Mykonos-Gefährdungslagebesprechung am 27.11.1996 als Experten für inneriranische Verhältnisse und ausdrücklich nicht als Pressevertreter ein; keine amtlich bestätigte Übergabe geheimer Verschlusssachen oder Agentenrolle"| N_PER_DE_UDO_ULFKOTTE
 ```
 
 [Zur Relationstabelle](network.md)
