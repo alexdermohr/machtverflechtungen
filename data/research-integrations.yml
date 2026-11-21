@@ -505,7 +505,7 @@ studies:
     reason: "Historische Originalaktenprüfung der Aussagen von Jeffrey Sachs zur NATO-Erweiterung und Diplomatie. Der Vergleich von Verhandlungspositionen und Rechtsdokumenten begründet keine neue personenbezogene Finanzierungs-, Weisungs- oder Einflusskante."
 
   ulfkotte-studiengesellschaft-psychologische-verteidigung-bmvg-1965-1990.md:
-    sha256: 27476f99d7b511ce2c38f39dd731750075fe6594239a8b4672ffd6af528e612b
+    sha256: e358ea93d1f9a15dd49005371231f6ccd754f55b86bbb39a0b3b8eddc1ca3599
     status: network
     relation_ids:
       - REL-DE-BMVG-SFZ-FUNDING-1981-1988-001

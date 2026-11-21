@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**300 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**301 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2057,6 +2057,21 @@ Deutscher Bundestag / Haushaltsausschuss · 1968-03-27 · Stufe **A** · Primär
 [Seite öffnen](https://dserver.bundestag.de/btd/05/027/0502731zu.pdf#page=6)
 
 Fundstelle: Gedruckte Seite 6 (PDF-Bildseite 6), Kap. 04 03 Titel 300 und 314; Bericht signiert Bonn 27.03.1968 auf gedruckter S. 8
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-de-bt-psv-plenar-1989-11-122"></a>
+### Deutscher Bundestag / Parlamentarischer Staatssekretär Willy Wimmer (BMVg)
+
+**[Plenarprotokoll 11/122: Bundestagsantwort zur Studiengesellschaft und ihrer Seminar-Adresskartei](https://dserver.bundestag.de/btp/11/11122.pdf)**
+
+Deutscher Bundestag / Parlamentarischer Staatssekretär Willy Wimmer (BMVg) · 1989-01-26 · Stufe **A** · Primärquelle · `SRC-DE-BT-PSV-PLENAR-1989-11-122`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/11/11122.pdf)
+
+Fundstelle: Anlage 14, gedruckte S. 9034 (Fragen 56 und 57 der Abgeordneten Frau Schmidt [Nürnberg]): laut Bundesregierung unmittelbare BMVg-Zuwendungen statt Finanzierung über PSV-Akademie, Adressdatei von Seminarteilnehmenden und Informationsbestellern; darüber hinausgehende personenbezogene Datensammlung und PSV-Akademie-Weisungen amtlich bestritten
 
 </article>
 
