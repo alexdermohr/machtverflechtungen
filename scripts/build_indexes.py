@@ -527,6 +527,7 @@ FOCUS_NETWORKS = (
     ("I.G. Farben", "ig-farben", "ORG-DE-IG-FARBEN"),
     ("ENI / Tradinvest", "tradinvest", "ORG-BS-TRADINVEST-ENI"),
     ("M.M.Warburg / Eigentum & Aufsicht", "warburg-kontrolle", "ORG-DE-MM-WARBURG"),
+    ("Döpfner / Springer", "springer-doepfner", "PER-DE-MATHIAS-DOEPFNER"),
     ("P2 / Loge", "p2", "ORG-IT-LOGGIA-P2-1970-1981"),
     ("Rizzoli / Corriere", "rizzoli", "ORG-IT-RIZZOLI-EDITORE-1975-1984"),
     ("UBS Genf / Bologna 1980", "ubs-genf-1980", "ORG-CH-UBS-GENEVA-1980"),

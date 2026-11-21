@@ -2808,3 +2808,102 @@ relations:
     period: {start: "2025-11-19"}
     evidence_level: established
     sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025, SRC-EU-CJ-WARBURG-APPEAL-C39P-2026]
+
+  - id: REL-DE-WARBURG-SPRINGER-VINK-2006-001
+    from: ORG-DE-MM-WARBURG
+    to: DOC-DE-SPRINGER-VINKULIERUNG-2006
+    type: documented_equity_restriction_contract_party
+    label: "Axel-Springer-Originalgeschäftsbericht 2006 S. 37 nennt M.M.Warburg & Co. KGaA neben Döpfner, Brilliant 310. GmbH und Axel Springer AG als Partei der Vinkulierungsvereinbarung vom 31.07./04.08.2006. Dies belegt den Vertragskontakt, NICHT individuelle Kredithöhe, Auszahlung oder redaktionelle Weisung"
+    period: {start: "2006-07-31", end: "2006-08-04"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK, SRC-DE-AXELSPRINGER-GB-2011-WARBURG-VINK]
+
+  - id: REL-DE-DOEPFNER-SPRINGER-VINK-2006-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: DOC-DE-SPRINGER-VINKULIERUNG-2006
+    type: documented_equity_restriction_contract_party
+    label: "Mathias Döpfner ist laut Axel-Springer-Geschäftsbericht 2006 namentliche Partei des 31.07./04.08.2006 geschlossenen vierseitigen Aktien-Vinkulierungsvertrags mit Brilliant 310. GmbH, Axel Springer AG und M.M.Warburg & Co.; Bankkreditkonditionen daraus nicht ersichtlich"
+    period: {start: "2006-07-31", end: "2006-08-04"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]
+
+  - id: REL-DE-BRILLIANT-SPRINGER-VINK-2006-001
+    from: ORG-DE-BRILLIANT-310-2006
+    to: DOC-DE-SPRINGER-VINKULIERUNG-2006
+    type: documented_equity_restriction_contract_party
+    label: "Brilliant 310. GmbH ist im Axel-Springer-Originalgeschäftsbericht 2006 als beteiligte Gesellschaft an der am 31.07./04.08.2006 geschlossenen Vinkulierungsvereinbarung genannt; der Vertrag regelt mittelbare und unmittelbare Aktienverfügungen unter Zustimmungsvorbehalt"
+    period: {start: "2006-07-31", end: "2006-08-04"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK, SRC-DE-AXELSPRINGER-GB-2011-WARBURG-VINK]
+
+  - id: REL-DE-AXELSPRINGER-SPRINGER-VINK-2006-001
+    from: ORG-DE-AXEL-SPRINGER
+    to: DOC-DE-SPRINGER-VINKULIERUNG-2006
+    type: issuer_and_consentee_in_equity_restriction_contract
+    label: "Axel Springer AG war laut eigenem Geschäftsbericht 2006 Partei des Vinkulierungsvertrags mit Döpfner, Brilliant 310. GmbH und Warburg; direkte und indirekte Verfügungen über die betroffenen Namensaktien verlangten ihre satzungsgemäße Zustimmung. Kein Vertrag über redaktionelle Entscheidungen"
+    period: {start: "2006-07-31", end: "2006-08-04"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK, SRC-DE-AXELSPRINGER-GB-2011-WARBURG-VINK]
+
+  - id: REL-DE-SPRINGER-DOEPFNER-EQUITY-2006-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-AXEL-SPRINGER
+    type: issuer_announced_indirect_share_purchase
+    label: "Axel-Springer-Mitteilung 20.07.2006 nennt mittelbaren Erwerb von 680.000 damaligen Namensaktien zu je 77 EUR (2 %), Kaufpreis rechnerisch 52,36 Mio. EUR; andere Größe als der 2023 journalistisch berichtete rund 60-Mio.-EUR-Kredit. Der Emittent nennt keine Darlehenssumme"
+    period: {start: "2006-07-20"}
+    evidence_level: strong
+    sources: [SRC-DE-AXELSPRINGER-PR-20060720]
+
+  - id: REL-DE-FRIEDE-DOEPFNER-GIFT-2012-001
+    from: PER-DE-FRIEDE-SPRINGER
+    to: PER-DE-MATHIAS-DOEPFNER
+    type: issuer_documented_share_gift
+    label: "Axel-Springer-Geschäftsbericht 2012 gedruckte S. 57 dokumentiert, dass Friede Springer Döpfner am 14.08.2012 insgesamt 1.978.800 Aktien schenkte; keine Übertragung des gesamten Stimmrechtspools und kein Beleg einer bankbezogenen Gegenleistung"
+    period: {start: "2012-08-14"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2012-POOL]
+
+  - id: REL-DE-DOEPFNER-SPRINGER-POOL-2012-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: DOC-DE-SPRINGER-VOTING-POOL-2012
+    type: joined_documented_shareholder_voting_pool
+    label: "Döpfner trat laut Geschäftsbericht 2012 am 14.08.2012 nach der Schenkung von 1.978.800 Aktien dem von Friede Springer und Friede Springer GmbH & Co KG getragenen Pool bei; 52.826.967 poolgebundene Aktien sind NICHT Döpfners persönliche Eigentumsaktien"
+    period: {start: "2012-08-14"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2012-POOL]
+
+  - id: REL-DE-FRIEDE-SPRINGER-POOL-2012-001
+    from: PER-DE-FRIEDE-SPRINGER
+    to: DOC-DE-SPRINGER-VOTING-POOL-2012
+    type: issuer_documented_voting_pool_party
+    label: "Der Axel-Springer-Geschäftsbericht 2012 nennt Friede Springer und Friede Springer GmbH & Co. KG als Parteien des Stimmrechtspools, dem Döpfner am 14.08.2012 beitrat; keine Warburg-Bankbeteiligung an diesem späteren Poolvertrag belegt"
+    period: {start: "2012-08-14"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2012-POOL]
+
+  - id: REL-DE-SPRINGER-VOTING-POOL-2012-001
+    from: DOC-DE-SPRINGER-VOTING-POOL-2012
+    to: ORG-DE-AXEL-SPRINGER
+    type: issuer_documented_aggregate_pooled_votes
+    label: "Axel Springer 2012 gedruckte S. 57: Poolvereinbarung umfasste 52.826.967 stimmberechtigte Aktien. Poolmitglieder stimmen in der Hauptversammlung gemäß Poolbeschlüssen, auch wenn sie intern dagegen votierten; Aggregat nicht als unmittelbarer persönlicher Döpfner- oder Warburg-Aktienbesitz ausgeben"
+    period: {start: "2012-08-14"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2012-POOL]
+
+  - id: REL-DE-BRILLIANT-SPRINGER-ACQ-2006-001
+    from: ORG-DE-BRILLIANT-310-2006
+    to: ORG-DE-AXEL-SPRINGER
+    type: issuer_reported_historical_equity_acquisition
+    label: "Axel-Springer-Jahresbericht 2006 S. 115 dokumentiert Brilliant 310. GmbHs gemeldeten Erwerb von 680.000 Stückaktien am 13.07.2006 für 104,10 EUR je Aktie. Gesondert meldete der Emittent am 20.07.2006 Döpfners mittelbaren Erwerb von 680.000 Aktien zu 77 EUR; verschiedene gemeldete Rechtsvorgänge und Bewertungsgegenstände nicht ohne Transaktionsakten gleichsetzen oder Aktien zweimal addieren"
+    period: {start: "2006-07-13"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]
+
+  - id: REL-DE-DOEPFNER-BRILLIANT-MANAGEMENT-2006-001
+    from: PER-DE-MATHIAS-DOEPFNER
+    to: ORG-DE-BRILLIANT-310-2006
+    type: issuer_reported_company_directorship
+    label: "Axel-Springer-Jahresbericht 2006 S. 115 nennt Mathias Döpfner zugleich als Vorstandsvorsitzenden der Springer AG und Geschäftsführer von Brilliant 310. GmbH; historische Organrolle belegt nicht, dass er sämtliche Kaufpreis- oder Kreditbedingungen persönlich vereinbarte"
+    period: {start: "2006"}
+    evidence_level: established
+    sources: [SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK]

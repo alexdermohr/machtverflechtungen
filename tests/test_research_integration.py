@@ -1058,5 +1058,66 @@ class ResearchIntegrationTests(unittest.TestCase):
         )
 
 
+
+    def test_springer_warburg_2006_contract_is_separate_from_2012_voting_pool(self):
+        root = coverage.ROOT
+        study = "warburg-axel-springer-doepfner-finanzierung-2006-2025.md"
+        entry = coverage.read_registry(root)[study]
+        self.assertEqual(entry["status"], "network")
+        self.assertEqual(
+            entry["sha256"],
+            hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+        )
+        self.assertEqual(len(entry["relation_ids"]), 11)
+        relations = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        sources = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/sources.yml").read_text(encoding="utf-8")
+        )["sources"]}
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-springer-doepfner.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        actors = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        for relid in entry["relation_ids"]:
+            row = relations[relid]
+            self.assertIn(row["label"], graph)
+            self.assertIn(f'id="{relid.lower()}"', table)
+            self.assertIn(f"[{relid}](network.md#{relid.lower()})", chrono)
+            for sid in row["sources"]:
+                self.assertIn(sid, sources)
+                self.assertIn(f'id="{sid.lower()}"', source_index)
+                self.assertEqual(sources[sid]["tier"], "A")
+        for doc in ("DOC-DE-SPRINGER-VINKULIERUNG-2006",
+                    "DOC-DE-SPRINGER-VOTING-POOL-2012",
+                    "ORG-DE-BRILLIANT-310-2006"):
+            self.assertIn(doc, actors)
+        for rel in ("REL-DE-DOEPFNER-BRILLIANT-MANAGEMENT-2006-001",
+                    "REL-DE-DOEPFNER-SPRINGER-VINK-2006-001",
+                    "REL-DE-DOEPFNER-SPRINGER-POOL-2012-001",
+                    "REL-DE-SPRINGER-DOEPFNER-EQUITY-2006-001",
+                    "REL-DE-FRIEDE-DOEPFNER-GIFT-2012-001"):
+            self.assertIn(rel, focus)
+        bank_contract = relations["REL-DE-WARBURG-SPRINGER-VINK-2006-001"]
+        self.assertEqual(bank_contract["period"], {"start":"2006-07-31","end":"2006-08-04"})
+        self.assertIn("NICHT individuelle Kredithöhe",bank_contract["label"])
+        shares = relations["REL-DE-SPRINGER-DOEPFNER-EQUITY-2006-001"]
+        self.assertIn("52,36 Mio.", shares["label"])
+        self.assertIn("keine Darlehenssumme", shares["label"])
+        self.assertEqual(relations["REL-DE-FRIEDE-DOEPFNER-GIFT-2012-001"]["period"]["start"], "2012-08-14")
+        pool = relations["REL-DE-SPRINGER-VOTING-POOL-2012-001"]
+        self.assertIn("52.826.967",pool["label"])
+        self.assertNotIn("Warburg",pool["from"])
+        self.assertNotIn("Bankkredit 60 Mio.",pool["label"])
+        brilliant = relations["REL-DE-BRILLIANT-SPRINGER-ACQ-2006-001"]
+        self.assertEqual(brilliant["period"]["start"], "2006-07-13")
+        self.assertIn("104,10 EUR", brilliant["label"])
+        self.assertIn("77 EUR", brilliant["label"])
+        self.assertIn("nicht ohne Transaktionsakten gleichsetzen", brilliant["label"])
+
+
+
 if __name__ == "__main__":
     unittest.main()
