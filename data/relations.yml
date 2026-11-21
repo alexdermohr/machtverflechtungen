@@ -3253,3 +3253,30 @@ relations:
     period: {start: "2003-12-12", end: "2003-12-12"}
     evidence_level: established
     sources: [SRC-DE-BARTHELT-STAATSBUERGER-ULFKOTTE-2003]
+
+  - id: REL-DE-NR-FORUM5-ORGANIZER-2005-001
+    from: ORG-DE-NETZWERK-RECHERCHE-2005
+    to: PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005
+    type: documented_public_journalism_conference_organizer
+    label: "Netzwerk Recherche organisierte die öffentlich angekündigte Jahrestagungsdiskussion 'Zwischen Wahrheit und Abhängigkeit – Zur Kooperation von Geheimdiensten und Journalisten' beim NDR Hamburg am 04.06.2005, Forum 5 (15:45–17:00); keine institutionelle BND-Weisung oder Finanzierung aus Programm ableitbar"
+    period: {start: "2005-06-04", end: "2005-06-04"}
+    evidence_level: established
+    sources: [SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005, SRC-DE-NR-JAHRESKONFERENZ-ARCHIVE-2005]
+
+  - id: REL-DE-ULFKOTTE-NR-FORUM5-2005-001
+    from: PER-DE-UDO-ULFKOTTE
+    to: PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005
+    type: original_program_listed_public_panelist
+    label: "Originalprogramm führt Udo Ulfkotte als Teilnehmer des öffentlichen Geheimdienste-und-Journalisten-Panels am 04.06.2005; message 1/2006 berichtet rückblickend über ein Instrumentalisierungseingeständnis Ulfkottes auf jener Jahrestagung, aber kein Tonmitschnitt und keine Lokalisierung des Zitats gerade in Forum 5 gesichtet"
+    period: {start: "2005-06-04", end: "2005-06-04"}
+    evidence_level: strong
+    sources: [SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005, SRC-DE-MESSAGE-ULFKOTTE-TAUBERT-2006]
+
+  - id: REL-DE-UHRLAU-NR-FORUM5-2005-001
+    from: PER-DE-ERNST-UHRLAU
+    to: PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005
+    type: original_program_listed_public_panelist
+    label: "Originalprogramm 2005 listet Ernst Uhrlau für dasselbe öffentlich angekündigte Forum 5 als damaligen Nachrichtendienstkoordinator im Kanzleramt, nicht als 2005 bereits amtierenden BND-Präsidenten; tatsächliche Anwesenheit und ein persönlicher Kontakt zu Ulfkotte ohne Mitschnitt hier nicht eigenständig gesichert"
+    period: {start: "2005-06-04", end: "2005-06-04"}
+    evidence_level: strong
+    sources: [SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005, SRC-DE-BT-UHRLAU-CAREER-2015]

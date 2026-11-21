@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**357 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**360 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -682,6 +682,12 @@ flowchart LR
     N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG -->|"Annette Barthelt-Stiftung dokumentiert Verleihung ihres staatsbürgerlichen Preises an Udo Ulfkotte am 12.12.2003 im Presse-Club Bonn; unizeit nannte eine angekündigte Dotierung von 6.000 EUR, aber eine individuelle Auszahlung ist nicht geprüft"| N_PER_DE_UDO_ULFKOTTE
     N_PER_DE_GUENTHER_BECKSTEIN["Günther Beckstein"]
     N_PER_DE_GUENTHER_BECKSTEIN -->|"Der damalige bayerische Innenminister Günther Beckstein hielt laut eigener Preisträgerchronik der Annette Barthelt-Stiftung die Laudatio auf Udo Ulfkotte bei der Preisverleihung am 12.12.2003; dokumentierte öffentliche Anerkennung, keine belegte Weisung an journalistische Veröffentlichungen"| N_PER_DE_UDO_ULFKOTTE
+    N_ORG_DE_NETZWERK_RECHERCHE_2005["Netzwerk Recherche (Konferenzveranstalter 2005)"]
+    N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005["Netzwerk Recherche Forum 5: Zwischen Wahrheit und Abhängigkeit (04.06.2005)"]
+    N_ORG_DE_NETZWERK_RECHERCHE_2005 -->|"Netzwerk Recherche organisierte die öffentlich angekündigte Jahrestagungsdiskussion 'Zwischen Wahrheit und Abhängigkeit – Zur Kooperation von Geheimdiensten und Journalisten' beim NDR Hamburg am 04.06.2005, Forum 5 (15:45–17:00); keine institutionelle BND-Weisung oder Finanzierung aus Programm ableitbar"| N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005
+    N_PER_DE_UDO_ULFKOTTE -->|"Originalprogramm führt Udo Ulfkotte als Teilnehmer des öffentlichen Geheimdienste-und-Journalisten-Panels am 04.06.2005; message 1/2006 berichtet rückblickend über ein Instrumentalisierungseingeständnis Ulfkottes auf jener Jahrestagung, aber kein Tonmitschnitt und keine Lokalisierung des Zitats gerade in Forum 5 gesichtet"| N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005
+    N_PER_DE_ERNST_UHRLAU["Ernst Uhrlau"]
+    N_PER_DE_ERNST_UHRLAU -->|"Originalprogramm 2005 listet Ernst Uhrlau für dasselbe öffentlich angekündigte Forum 5 als damaligen Nachrichtendienstkoordinator im Kanzleramt, nicht als 2005 bereits amtierenden BND-Präsidenten; tatsächliche Anwesenheit und ein persönlicher Kontakt zu Ulfkotte ohne Mitschnitt hier nicht eigenständig gesichert"| N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005
 ```
 
 [Zur Relationstabelle](network.md)

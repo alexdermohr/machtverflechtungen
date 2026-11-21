@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**319 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**322 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2810,6 +2810,36 @@ Fundstelle: Panorama-Sendung vom 24.05.1971, Beitrag 'V-Mann als Zeuge', 10 Minu
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-de-nr-jahreskonferenz-archive-2005"></a>
+### Netzwerk Recherche
+
+**[Netzwerk Recherche: Archiv der Jahreskonferenzen – nr05 Fakten gegen Fiktionen](https://netzwerkrecherche.org/nr-termine-archive/)**
+
+Netzwerk Recherche · 2005-06-04 · Stufe **A** · Primärquelle · `SRC-DE-NR-JAHRESKONFERENZ-ARCHIVE-2005`
+
+[Seite öffnen](https://netzwerkrecherche.org/nr-termine-archive/)
+
+Fundstelle: Organisationseigene Archivübersicht: Jahrestagung am 03. und 04.06.2005 im NDR Hamburg
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-de-nr-ulfkotte-uhrlau-panel-2005"></a>
+### Netzwerk Recherche / NDR Hamburg
+
+**[Netzwerk Recherche: Jahreskonferenz 2005 Originalprogramm – Forum 5 Geheimdienste und Journalisten](https://netzwerkrecherche.org/wp-content/uploads/2014/10/nr-jt2005-programm.pdf)**
+
+Netzwerk Recherche / NDR Hamburg · 2005-06-04 · Stufe **A** · Primärquelle · `SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005`
+
+[PDF öffnen](https://netzwerkrecherche.org/wp-content/uploads/2014/10/nr-jt2005-programm.pdf)
+
+Fundstelle: PDF Bildseite 2 (Nullindex 1): Samstag 04.06.2005 Forum 5 15:45–17:00, Saal K3, 'Zwischen Wahrheit und Abhängigkeit – Zur Kooperation von Geheimdiensten und Journalisten', namentlich Ernst Uhrlau (Nachrichtendienstkoordinator), Udo Ulfkotte, Andreas Zumach, Joachim Wagner, Jürgen Roth; Moderation Thomas Leif
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-ni-mj-celler-2015"></a>
@@ -4125,6 +4155,21 @@ DER SPIEGEL, Nr. 24/1971 · 1971-06-06 · Stufe **C** · Sekundär-/Forschungsqu
 [Seite öffnen](https://www.spiegel.de/politik/gewiss-die-waffen-waren-da-a-f3b35395-0002-0001-0000-000043176585)
 
 Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4.04.1970, Antrag 08.03./Unterschrift 02.05.; Vermerk Ermittlungsakten Bl. 47a
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2015">
+
+<a id="src-de-bt-uhrlau-career-2015"></a>
+### Deutscher Bundestag / NSA-Untersuchungsausschuss
+
+**[NSA-Aktivitäten 2006 erstmals aufgefallen – Rückblick auf Ernst Uhrlaus Karriere](https://www.bundestag.de/webarchiv/textarchiv/2015/kw24_pa_1ua-376710)**
+
+Deutscher Bundestag / NSA-Untersuchungsausschuss · 2015-06-12 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BT-UHRLAU-CAREER-2015`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2015/kw24_pa_1ua-376710)
+
+Fundstelle: Bundestagsbericht zur Zeugenvernehmung 12.06.2015; Ernst Uhrlau bis 2005 Geheimdienstkoordinator, anschließend BND-Präsident 2005–2011
 
 </article>
 

@@ -3684,3 +3684,39 @@ sources:
   accessed: "2026-11-21"
   locator: "Journalistischer Rückblick: Frankfurter Ermittlungen 2004 gegen Ulfkotte später eingestellt, Vorwürfe gegen ihn nicht belegt; sonstige Gegenreaktionen nicht als gerichtlich festgestellt darstellen"
   notes: "Späterer Pressenachbericht, kein authentifizierter Einstellungsbeschluss oder staatsanwaltschaftliches Schlussdokument."
+
+- id: SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005
+  title: "Netzwerk Recherche: Jahreskonferenz 2005 Originalprogramm – Forum 5 Geheimdienste und Journalisten"
+  institution: "Netzwerk Recherche / NDR Hamburg"
+  date: "2005-06-04"
+  type: original_contemporaneous_conference_program
+  primary: true
+  tier: A
+  url: https://netzwerkrecherche.org/wp-content/uploads/2014/10/nr-jt2005-programm.pdf
+  accessed: "2026-11-21"
+  locator: "PDF Bildseite 2 (Nullindex 1): Samstag 04.06.2005 Forum 5 15:45–17:00, Saal K3, 'Zwischen Wahrheit und Abhängigkeit – Zur Kooperation von Geheimdiensten und Journalisten', namentlich Ernst Uhrlau (Nachrichtendienstkoordinator), Udo Ulfkotte, Andreas Zumach, Joachim Wagner, Jürgen Roth; Moderation Thomas Leif"
+  notes: "Originalprogramm im PDF-Seitenbild verifiziert; dokumentiert Veranstaltungsplanung, nicht vollständiges Attendance-Protokoll oder wortgetreuen Mitschnitt."
+
+- id: SRC-DE-BT-UHRLAU-CAREER-2015
+  title: "NSA-Aktivitäten 2006 erstmals aufgefallen – Rückblick auf Ernst Uhrlaus Karriere"
+  institution: "Deutscher Bundestag / NSA-Untersuchungsausschuss"
+  date: "2015-06-12"
+  type: official_parliamentary_account_of_testimony
+  primary: false
+  tier: B
+  url: https://www.bundestag.de/webarchiv/textarchiv/2015/kw24_pa_1ua-376710
+  accessed: "2026-11-21"
+  locator: "Bundestagsbericht zur Zeugenvernehmung 12.06.2015; Ernst Uhrlau bis 2005 Geheimdienstkoordinator, anschließend BND-Präsident 2005–2011"
+  notes: "Offizielle Parlamentskommunikation über Zeugenanhörung, nicht originales Dienstpostenregister; ausreichend zur Unterscheidung seiner Rolle im Juni 2005."
+
+- id: SRC-DE-NR-JAHRESKONFERENZ-ARCHIVE-2005
+  title: "Netzwerk Recherche: Archiv der Jahreskonferenzen – nr05 Fakten gegen Fiktionen"
+  institution: "Netzwerk Recherche"
+  date: "2005-06-04"
+  type: institutional_event_archive
+  primary: true
+  tier: A
+  url: https://netzwerkrecherche.org/nr-termine-archive/
+  accessed: "2026-11-21"
+  locator: "Organisationseigene Archivübersicht: Jahrestagung am 03. und 04.06.2005 im NDR Hamburg"
+  notes: "Bestätigt Veranstaltung und Ort; kein Mitschnitt jedes einzelnen Panelbeitrags."
