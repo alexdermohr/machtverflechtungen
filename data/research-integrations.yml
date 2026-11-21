@@ -498,3 +498,8 @@ studies:
     sha256: eebbecab301f309e0cc48f66ee411cb094750dfcac494a87926aa3b540580408
     status: no_network_relation
     reason: "Die Studie analysiert Sachs eigene öffentliche Aussagen und argumentative Hypothesen; daraus folgt keine neue verifizierte Finanzierung, Mitgliedschaft oder Machtbeziehung zwischen Akteuren. Keine künstlichen Netzwerk-Kanten."
+
+  jeffrey-sachs-nato-zusagen-clinton-bukarest-sicherheitsdiplomatie-1990-2026.md:
+    sha256: 848d18c39d525554b2a72ce786e48a101f0a530602844be85ae7f3278e0c633f
+    status: no_network_relation
+    reason: "Historische Originalaktenprüfung der Aussagen von Jeffrey Sachs zur NATO-Erweiterung und Diplomatie. Der Vergleich von Verhandlungspositionen und Rechtsdokumenten begründet keine neue personenbezogene Finanzierungs-, Weisungs- oder Einflusskante."
