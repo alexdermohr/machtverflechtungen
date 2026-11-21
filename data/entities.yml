@@ -1549,7 +1549,7 @@ entities:
     notes: "Originalgeschäftsberichte der Axel Springer AG 2006, 2011, 2012 benennen die vier Vertragsparteien; vereinbart ist die vorherige Zustimmung der Axel Springer AG zu direkten und indirekten Aktienübertragungen. Der vollständige Bankkreditvertrag, konkrete Zinsen und eine redaktionelle Weisung sind damit NICHT dokumentiert."
 
   - id: DOC-DE-SPRINGER-VOTING-POOL-2012
-    type: historical_voting_agreement
+    type: historical_voting_agreement_document
     name: "Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien)"
     countries: [DE]
     notes: "Axel-Springer-Geschäftsbericht 2012, gedruckte S. 57: Poolvertrag zwischen Friede Springer und Friede Springer GmbH & Co KG, dem Döpfner am 14.08.2012 nach Schenkung von 1.978.800 Aktien beitrat. 52.826.967 bezeichnet sämtliche poolgebundenen stimmberechtigten Aktien, keine persönliche Beteiligung Döpfners oder Warburgs."

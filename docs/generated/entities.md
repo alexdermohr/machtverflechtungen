@@ -126,7 +126,7 @@
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
-| Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
+| Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement_document | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
 | BAFISUD Corporation S.A. (Panama) | finance_company | `ORG-PA-BAFISUD-CORPORATION-SA` | PA | [5](network.md#rel-uy-pa-bafisud-1978-001) |
 | Banco Ambrosiano Andino S.A., Lima | historical_bank | `ORG-PE-AMBROSIANO-ANDINO` | PE | [3](network.md#rel-bs-pe-trad-1979-001) |
 | Banco Ambrosiano Holding S.A. (Luxemburg) | finance_company | `ORG-LU-BANCO-AMBROSIANO-HOLDING-SA` | LU | [2](network.md#rel-it-ambrosiano-lux-1979-001) |
