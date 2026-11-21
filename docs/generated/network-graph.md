@@ -664,16 +664,16 @@ flowchart LR
     N_ORG_US_ITT_1970["International Telephone and Telegraph (ITT; 1970)"]
     N_PER_US_JOHN_A_MCCONE -->|"McCone war laut eigenem Brief 14.09.1970 ITT-Director und Mitglied des Executive Committee; Konzern- und Geheimdiensterfahrung hier persönlich verbunden"| N_ORG_US_ITT_1970
     N_ORG_US_CIA -->|"CIA gab 1970 ITT Hinweise auf sichere Kanäle der Anti-Allende-Wahlkampffinanzierung; angebotene 1 Mio. USD über CIA wurden explizit abgelehnt"| N_ORG_US_ITT_1970
-    N_CASE_CL_ANTI_ALLENDE_1970["Anti-Allende-Wahlkampf Chile 1970"]
-    N_ORG_US_ITT_1970 -->|"ITT leitete 1970 laut Church-Ausschuss mindestens 350.000 USD zur Anti-Allende-Kampagne; CIA beriet Übermittlung, nahm aber die angebotene 1-Mio.-CIA-Durchleitung nicht an"| N_CASE_CL_ANTI_ALLENDE_1970
-    N_CASE_CL_CIA_TRACK_II_1970["CIA Track II: Chile 1970"]
-    N_ORG_US_CIA -->|"Track II war CIA-seitig für militärische Lösung gegen Allendes Amtsantritt 1970 organisiert, unter Ausschluss von Botschafter und State; nicht Beweis direkter Führung des Putsches 1973"| N_CASE_CL_CIA_TRACK_II_1970
+    N_PRG_CL_ANTI_ALLENDE_1970["Anti-Allende-Wahlkampf Chile 1970"]
+    N_ORG_US_ITT_1970 -->|"ITT leitete 1970 laut Church-Ausschuss mindestens 350.000 USD zur Anti-Allende-Kampagne; CIA beriet Übermittlung, nahm aber die angebotene 1-Mio.-CIA-Durchleitung nicht an"| N_PRG_CL_ANTI_ALLENDE_1970
+    N_PRG_CL_CIA_TRACK_II_1970["CIA Track II: Chile 1970"]
+    N_ORG_US_CIA -->|"Track II war CIA-seitig für militärische Lösung gegen Allendes Amtsantritt 1970 organisiert, unter Ausschluss von Botschafter und State; nicht Beweis direkter Führung des Putsches 1973"| N_PRG_CL_CIA_TRACK_II_1970
     N_ORG_CL_EL_MERCURIO_1971["El Mercurio (Chile)"]
     N_ORG_US_CIA -->|"CIA-Memo 10.04.1972: 700.000 USD für El Mercurio September 1971 bewilligt/ausgegeben, weitere 300.000 USD bis Januar 1972 bewilligt/ausgegeben; zusätzliche 1972er Bewilligung kein Zahlungsbeleg"| N_ORG_CL_EL_MERCURIO_1971
     N_ORG_CL_MILITARY_JUNTA_1973["Chilenische Militärjunta ab September 1973"]
     N_ORG_US_CIA -->|"Church-Ausschuss dokumentiert nach Putsch 1973 fortgeführtes CIA-Propagandaprogramm zugunsten des Junta-Ansehens; kein direkter Putschbefehl dadurch erwiesen"| N_ORG_CL_MILITARY_JUNTA_1973
-    N_CASE_GT_CIA_PBSUCCESS_1954["Operation PBSUCCESS: Guatemala 1954"]
-    N_ORG_US_CIA -->|"Operation PBSUCCESS als CIA-geführte verdeckte US-Intervention gegen Regierung Árbenz in Guatemala 1954 offiziell in FRUS dokumentiert"| N_CASE_GT_CIA_PBSUCCESS_1954
+    N_PRG_GT_CIA_PBSUCCESS_1954["Operation PBSUCCESS: Guatemala 1954"]
+    N_ORG_US_CIA -->|"Operation PBSUCCESS als CIA-geführte verdeckte US-Intervention gegen Regierung Árbenz in Guatemala 1954 offiziell in FRUS dokumentiert"| N_PRG_GT_CIA_PBSUCCESS_1954
     N_ORG_US_UNITED_FRUIT_1952["United Fruit Company (1952)"]
     N_ORG_GT_CASTILLO_ARMAS_GROUP["Gruppe um Carlos Castillo Armas (1952)"]
     N_ORG_US_UNITED_FRUIT_1952 -->|"FRUS-Editorial Note: United Fruit gehörte 1952 zur finanziellen Unterstützergruppe potentieller Rebellen um Castillo Armas; Summe, Überweisungsweg und CIA-Direktzahlung ungeklärt"| N_ORG_GT_CASTILLO_ARMAS_GROUP

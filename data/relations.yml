@@ -3175,12 +3175,12 @@ relations:
     to: ORG-US-ITT-1970
     type: documented_covert_electoral_funding_advice
     label: "CIA gab 1970 ITT Hinweise auf sichere Kanäle der Anti-Allende-Wahlkampffinanzierung; angebotene 1 Mio. USD über CIA wurden explizit abgelehnt"
-    period: {start: "1970-07"}
+    period: {start: "1970"}
     evidence_level: established
     sources: [SRC-US-NARA-CHURCH-CHILE-1975]
   - id: REL-US-ITT-ALLENDE-OPPOSITION-1970
     from: ORG-US-ITT-1970
-    to: CASE-CL-ANTI-ALLENDE-1970
+    to: PRG-CL-ANTI-ALLENDE-1970
     type: documented_corporate_electoral_funding
     label: "ITT leitete 1970 laut Church-Ausschuss mindestens 350.000 USD zur Anti-Allende-Kampagne; CIA beriet Übermittlung, nahm aber die angebotene 1-Mio.-CIA-Durchleitung nicht an"
     period: {start: "1970"}
@@ -3188,7 +3188,7 @@ relations:
     sources: [SRC-US-NARA-CHURCH-CHILE-1975]
   - id: REL-US-CIA-TRACK-II-CHILE-1970
     from: ORG-US-CIA
-    to: CASE-CL-CIA-TRACK-II-1970
+    to: PRG-CL-CIA-TRACK-II-1970
     type: directed_covert_coup_attempt
     label: "Track II war CIA-seitig für militärische Lösung gegen Allendes Amtsantritt 1970 organisiert, unter Ausschluss von Botschafter und State; nicht Beweis direkter Führung des Putsches 1973"
     period: {start: "1970-09-21"}
@@ -3212,7 +3212,7 @@ relations:
     sources: [SRC-US-NARA-CHURCH-CHILE-1975]
   - id: REL-US-CIA-PBSUCCESS-GUATEMALA-1954
     from: ORG-US-CIA
-    to: CASE-GT-CIA-PBSUCCESS-1954
+    to: PRG-GT-CIA-PBSUCCESS-1954
     type: documented_covert_regime_change_operation
     label: "Operation PBSUCCESS als CIA-geführte verdeckte US-Intervention gegen Regierung Árbenz in Guatemala 1954 offiziell in FRUS dokumentiert"
     period: {start: "1954"}

@@ -1706,7 +1706,7 @@ entities:
     name: "John A. McCone"
     countries: [US]
     notes: "CIA-Direktor 1961–1965; 1970 ITT-Vorstandsmitglied. 14.09.1970 persönlich an Kissinger gerichteter Brief mit unternehmerischer Interventionsempfehlung."
-  - id: CASE-CL-ANTI-ALLENDE-1970
+  - id: PRG-CL-ANTI-ALLENDE-1970
     type: historical_electoral_campaign
     name: "Anti-Allende-Wahlkampf Chile 1970"
     countries: [CL]
@@ -1716,7 +1716,7 @@ entities:
     name: "Partido Demócrata Cristiano de Chile (PDC)"
     countries: [CL]
     notes: "Chile: Christdemokratische Partei, 1964 mit verdeckten CIA-Wahlkampfhilfen über Mittelsleute unterstützt. Keine universale Steuerungsannahme über ihre gesamte Tätigkeit."
-  - id: CASE-CL-CIA-TRACK-II-1970
+  - id: PRG-CL-CIA-TRACK-II-1970
     type: historical_covert_operation
     name: "CIA Track II: Chile 1970"
     countries: [US, CL]
@@ -1731,7 +1731,7 @@ entities:
     name: "Chilenische Militärjunta ab September 1973"
     countries: [CL]
     notes: "Militärregierung nach dem Putsch am 11.09.1973; CIA nutzte danach Propagandaaktivitäten zur Imageförderung laut Church-Ausschuss."
-  - id: CASE-GT-CIA-PBSUCCESS-1954
+  - id: PRG-GT-CIA-PBSUCCESS-1954
     type: historical_covert_operation
     name: "Operation PBSUCCESS: Guatemala 1954"
     countries: [GT, US]
