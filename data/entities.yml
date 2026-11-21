@@ -1695,3 +1695,54 @@ entities:
     name: "Raft"
     countries: [US]
     notes: "Daten-/Softwarepartner der Anduril-/Palantir-Architektur NGC2 laut Army vom Juni 2026; Vertragsbetrag in der Quelle nicht angegeben."
+
+  - id: ORG-US-ITT-1970
+    type: historical_multinational_corporation
+    name: "International Telephone and Telegraph (ITT; 1970)"
+    countries: [US, CL]
+    notes: "Zeitgenössischer US-Telekommunikationskonzern mit Beteiligungen in Chile. 1970 direkte dokumentierte CIA-Kontakte zur Wahlkampffinanzierung; keine Gleichsetzung mit späteren ITT-Nachfolgeunternehmen."
+  - id: PER-US-JOHN-A-MCCONE
+    type: person
+    name: "John A. McCone"
+    countries: [US]
+    notes: "CIA-Direktor 1961–1965; 1970 ITT-Vorstandsmitglied. 14.09.1970 persönlich an Kissinger gerichteter Brief mit unternehmerischer Interventionsempfehlung."
+  - id: CASE-CL-ANTI-ALLENDE-1970
+    type: historical_electoral_campaign
+    name: "Anti-Allende-Wahlkampf Chile 1970"
+    countries: [CL]
+    notes: "Sammelbezeichnung für oppositionelle Wahlkampfförderungen 1970; keine Behauptung eines einheitlichen rechtlichen Empfängers oder einer einzigen Geheimdienstkasse."
+  - id: ORG-CL-CHRISTIAN-DEMOCRATS-1964
+    type: historical_political_party
+    name: "Partido Demócrata Cristiano de Chile (PDC)"
+    countries: [CL]
+    notes: "Chile: Christdemokratische Partei, 1964 mit verdeckten CIA-Wahlkampfhilfen über Mittelsleute unterstützt. Keine universale Steuerungsannahme über ihre gesamte Tätigkeit."
+  - id: CASE-CL-CIA-TRACK-II-1970
+    type: historical_covert_operation
+    name: "CIA Track II: Chile 1970"
+    countries: [US, CL]
+    notes: "Separate CIA-Operation, im Herbst 1970 zur Förderung eines Militärputsches vor Allendes Amtsantritt, von der erfolgreichen chilenischen Militärrevolte 1973 zu trennen."
+  - id: ORG-CL-EL-MERCURIO-1971
+    type: historical_media_organization
+    name: "El Mercurio (Chile)"
+    countries: [CL]
+    notes: "Chilenische oppositionelle Zeitung, 1971–1973 mit verdeckter CIA-Unterstützung. Funding nicht gleichbedeutend mit nachgewiesener Falschheit sämtlicher Artikel."
+  - id: ORG-CL-MILITARY-JUNTA-1973
+    type: historical_military_government
+    name: "Chilenische Militärjunta ab September 1973"
+    countries: [CL]
+    notes: "Militärregierung nach dem Putsch am 11.09.1973; CIA nutzte danach Propagandaaktivitäten zur Imageförderung laut Church-Ausschuss."
+  - id: CASE-GT-CIA-PBSUCCESS-1954
+    type: historical_covert_operation
+    name: "Operation PBSUCCESS: Guatemala 1954"
+    countries: [GT, US]
+    notes: "CIA-geführte verdeckte Umsturzoperation gegen die Regierung Jacobo Árbenz in Guatemala 1954, vom US-Außenministerium historisch als CIA-Aktion dokumentiert."
+  - id: ORG-US-UNITED-FRUIT-1952
+    type: historical_multinational_corporation
+    name: "United Fruit Company (1952)"
+    countries: [US, GT]
+    notes: "US-Obstkonzern mit Landbesitz in Guatemala; 1952 laut FRUS-Editorial Note in der finanziellen Unterstützergruppe potentieller Rebellen um Carlos Castillo Armas."
+  - id: ORG-GT-CASTILLO-ARMAS-GROUP
+    type: historical_rebel_group
+    name: "Gruppe um Carlos Castillo Armas (1952)"
+    countries: [GT]
+    notes: "Potentielle Umsturzgruppe in Guatemala 1952, nach State-Department-Editoren durch mehrere Stellen einschließlich United Fruit finanziell unterstützt; keine bekannte Einzelzahlungshöhe in Quelle."
