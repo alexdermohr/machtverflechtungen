@@ -1706,3 +1706,9 @@ entities:
     name: "EcoHealth Alliance"
     countries: [US]
     notes: "Gemeinnützige Forschungsorganisation; Verbindungen zu WIV-Forschungsprojekten wurden 2021 als Interessenkonfliktproblem für Lancet-Taskforce diskutiert."
+
+  - id: PRG-US-USAID-RUSSIA-AID-1992-1997
+    type: historical_government_assistance_program
+    name: "USAID-Russlandhilfeprogramme im HIID-Betreuungsportfolio (1992–1997)"
+    countries: [US, RU]
+    notes: "GAO-01-8 S. 80: Rund 300 Mio. USD US-Hilfe für Russland wurden durch HIID beaufsichtigt und strategisch begleitet, mit Umsetzung durch mehrere US-Auftragnehmer und relativ geringer USAID-Aufsicht. Dies ist weder eine HIID- oder Sachs-Auszahlung in dieser Höhe noch eine Kontrollbeziehung des HIID über die Behörde USAID."

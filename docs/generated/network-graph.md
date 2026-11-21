@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**324 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**344 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -620,6 +620,48 @@ flowchart LR
     N_ORG_US_FEDERAL_RESERVE -->|"Eine unter dem Dach des Federal Reserve System publizierte Staff Study 168 (Dezember 1995) analysiert Struktur und regulatorischen Wandel des Private-Equity-Markts. Die Autorenmeinungen sind keine automatische amtliche Billigung sämtlicher Schlussfolgerungen durch den Gouverneursrat"| N_DOC_US_FED_PRIVATE_EQUITY_1995
     N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979["US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979)"]
     N_PRG_US_ERISA_PENSION_PLANS_1979 -->|"Federal-Reserve-Staff-Studie 1995: VC-Partnerships erhielten von ERISA-Pensionsplänen 1976–1978 jeweils weniger als 5 Mio. USD jährlich, dagegen 50 Mio. USD im ERSTEN HALBJAHR 1979. Unterschiedliche Zeiträume, keine addierbaren Jahressummen und KEIN nachgewiesener individueller Geldfluss zu Warburg Pincus; DOL-Gegenregulierung folgte August 1979"| N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979
+    N_PER_US_JEFFREY_SACHS["Jeffrey D. Sachs"]
+    N_ORG_PL_SOLIDARNOSC["Solidarność / Solidarity"]
+    N_PER_US_JEFFREY_SACHS -->|"beriet 1989 Vertreter der Solidarność über das marktwirtschaftliche Reformprogramm"| N_ORG_PL_SOLIDARNOSC
+    N_PER_US_DAVID_LIPTON["David Lipton"]
+    N_PER_US_DAVID_LIPTON -->|"erarbeitete 1989 gemeinsam mit Sachs Reformvorschläge für Solidarność"| N_ORG_PL_SOLIDARNOSC
+    N_PER_US_GEORGE_SOROS["George Soros"]
+    N_ORG_PL_STEFAN_BATORY_FOUNDATION["Stefan Batory Foundation"]
+    N_PER_US_GEORGE_SOROS -->|"gründete und unterstützte die polnische Stefan-Batory-Stiftung"| N_ORG_PL_STEFAN_BATORY_FOUNDATION
+    N_ORG_PL_STEFAN_BATORY_FOUNDATION -->|"finanzierte 1989 Reisen/Arbeit des Sachs-Beraterteams in Polen; kein nachgewiesenes persönliches Honorar oder Weisungsverhältnis"| N_PER_US_JEFFREY_SACHS
+    N_ORG_RU_YELTSIN_GOVERNMENT_1991_1994["Regierung Boris Jelzin (Russland, 1991–1994)"]
+    N_PER_US_JEFFREY_SACHS -->|"wirtschaftspolitischer Berater der Jelzin-Regierung von Ende 1991 bis Ende 1993; Rücktritt Januar 1994 dokumentiert"| N_ORG_RU_YELTSIN_GOVERNMENT_1991_1994
+    N_ORG_US_HIID["Harvard Institute for International Development (HIID)"]
+    N_PER_US_JEFFREY_SACHS -->|"Direktor des HIID ab 1995, einschließlich der Schlussphase des USAID-Russlandprogramms; keine aus der Leitung allein folgende Schuld am Interessenkonfliktfall"| N_ORG_US_HIID
+    N_ORG_US_USAID["U.S. Agency for International Development (USAID)"]
+    N_ORG_US_USAID -->|"stellte für HIID-Russlandprogramme seit 1992 bis 1997 mehr als 40 Mio. USD bereit; von 300 Mio. USD unter HIID-Aufsicht getrennt halten"| N_ORG_US_HIID
+    N_PRG_US_USAID_RUSSIA_AID_1992_1997["USAID-Russlandhilfeprogramme im HIID-Betreuungsportfolio (1992–1997)"]
+    N_ORG_US_HIID -->|"beaufsichtigte laut GAO strategisch 300 Mio. USD US-Russlandhilfe bei relativ geringer USAID-Aufsicht; Portfolio, nicht Harvard-Einnahmen"| N_PRG_US_USAID_RUSSIA_AID_1992_1997
+    N_PER_US_ANDREI_SHLEIFER["Andrei Shleifer"]
+    N_PER_US_ANDREI_SHLEIFER -->|"leitete HIID-Russlandprogramm und wurde 1997 nach Konfliktregelverletzungen aus dem Programm entfernt"| N_ORG_US_HIID
+    N_PER_US_JONATHAN_HAY["Jonathan Hay"]
+    N_PER_US_JONATHAN_HAY -->|"leitete operative Programmteile in Moskau und wurde 1997 nach Konfliktregelverletzungen entfernt"| N_ORG_US_HIID
+    N_ORG_INT_SDSN["UN Sustainable Development Solutions Network (SDSN)"]
+    N_PER_US_JEFFREY_SACHS -->|"Präsident des Sustainable Development Solutions Network, laut SDSN-Website 2026"| N_ORG_INT_SDSN
+    N_ORG_INT_UN_SECRETARIAT["UN-Generalsekretariat"]
+    N_ORG_INT_UN_SECRETARIAT -->|"UN-Generalsekretär Ban Ki-moon lancierte 2012 das unabhängige SDSN; rechtlich kein UN-Organ"| N_ORG_INT_SDSN
+    N_ORG_US_SDSN_ASSOCIATION["SDSN Association, Inc."]
+    N_ORG_US_SDSN_ASSOCIATION -->|"eigenständiger US-501(c)(3)-Rechtsträger betreibt SDSN-Sekretariat"| N_ORG_INT_SDSN
+    N_ORG_US_GATES_FOUNDATION["Gates Foundation"]
+    N_ORG_US_GATES_FOUNDATION -->|"auf SDSN-Partnerseite 2026 als finanzieller Unterstützer gelistet; keine Höhe oder individuelle Zuwendung an Sachs ausgewiesen"| N_ORG_INT_SDSN
+    N_ORG_US_BEZOS_EARTH_FUND["Bezos Earth Fund"]
+    N_ORG_US_BEZOS_EARTH_FUND -->|"auf SDSN-Partnerseite 2026 als finanzieller Unterstützer gelistet; Betrag ungenannt"| N_ORG_INT_SDSN
+    N_ORG_DE_BMWK_IKI["BMWK / Internationale Klimaschutzinitiative (IKI)"]
+    N_ORG_DE_BMWK_IKI -->|"BMWK und IKI auf SDSN-Partnerseite als finanzielle Unterstützer gelistet, Abruf 2026; ohne belegte Einzelzahlung"| N_ORG_INT_SDSN
+    N_ORG_INT_UNDP["United Nations Development Programme (UNDP)"]
+    N_ORG_INT_UNDP -->|"UNDP auf SDSN-Partnerseite als finanzieller Unterstützer gelistet, Abruf 2026"| N_ORG_INT_SDSN
+    N_ORG_US_COLUMBIA_CSD["Center for Sustainable Development, Columbia University"]
+    N_PER_US_JEFFREY_SACHS -->|"Direktor des Center for Sustainable Development an der Columbia University laut aktueller SDSN-Biografie"| N_ORG_US_COLUMBIA_CSD
+    N_ORG_INT_LANCET_COVID_COMMISSION["Lancet COVID-19 Commission"]
+    N_PER_US_JEFFREY_SACHS -->|"Vorsitzender der Lancet-COVID-19-Kommission 2020–2022"| N_ORG_INT_LANCET_COVID_COMMISSION
+    N_PER_US_PETER_DASZAK["Peter Daszak"]
+    N_ORG_US_ECOHEALTH_ALLIANCE["EcoHealth Alliance"]
+    N_PER_US_PETER_DASZAK -->|"leitete die EcoHealth Alliance; im Jahr 2021 durch Lancet-Taskforce-Interessenkonfliktdebatte relevant"| N_ORG_US_ECOHEALTH_ALLIANCE
 ```
 
 [Zur Relationstabelle](network.md)

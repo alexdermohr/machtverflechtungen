@@ -3028,7 +3028,7 @@ relations:
     sources: [SRC-US-HARVARD-MAG-HIID-1997]
   - id: REL-INT-SACHS-008
     from: ORG-US-HIID
-    to: ORG-US-USAID
+    to: PRG-US-USAID-RUSSIA-AID-1992-1997
     type: strategic_program_oversight
     label: "beaufsichtigte laut GAO strategisch 300 Mio. USD US-Russlandhilfe bei relativ geringer USAID-Aufsicht; Portfolio, nicht Harvard-Einnahmen"
     period: {start: "1992", end: "1997"}

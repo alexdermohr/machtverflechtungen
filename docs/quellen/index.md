@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**277 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**292 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-us-sachs-lipton-solidarnosc-1989) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-dod-ukraine-biosafety-20220609) · [V](#src-de-verfg-brandenburg-604-20041209) · [W](#src-un-who-lancet-sachs-2022) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2420,6 +2420,21 @@ Fundstelle: Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinn
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-us-sachs-lipton-solidarnosc-1989"></a>
+### Jeffrey Sachs / David Lipton
+
+**[Summary of the Proposed Economic Program of Solidarity](https://www.jeffsachs.org/newspaper-articles/45brjxpph5hw7fllbbx8ka27e7nx8j)**
+
+Jeffrey Sachs / David Lipton · 1989 · Stufe **A** · Primärquelle · `SRC-US-SACHS-LIPTON-SOLIDARNOSC-1989`
+
+[Seite öffnen](https://www.jeffsachs.org/newspaper-articles/45brjxpph5hw7fllbbx8ka27e7nx8j)
+
+Fundstelle: Primäre Beschreibung des gemeinsam vorgeschlagenen Reformprogramms
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-jhs-newbridge-2026"></a>
@@ -2926,6 +2941,51 @@ Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-sdsn-financials-2026"></a>
+### Sustainable Development Solutions Network
+
+**[Financials, Operations, and By-Laws](https://www.unsdsn.org/about/financials-operations-and-by-laws/)**
+
+Sustainable Development Solutions Network · 2026-11-21 · Stufe **A** · Primärquelle · `SRC-INT-SDSN-FINANCIALS-2026`
+
+[Seite öffnen](https://www.unsdsn.org/about/financials-operations-and-by-laws/)
+
+Fundstelle: Rechtlich eigenständige SDSN Association; Verfügbarkeit geprüfter Jahresabschlüsse FY2016–FY2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-sdsn-sachs-profile-2026"></a>
+### Sustainable Development Solutions Network
+
+**[Jeffrey Sachs – President](https://www.unsdsn.org/about/profile/jeffrey-sachs/)**
+
+Sustainable Development Solutions Network · 2026-11-21 · Stufe **A** · Primärquelle · `SRC-INT-SDSN-SACHS-PROFILE-2026`
+
+[Seite öffnen](https://www.unsdsn.org/about/profile/jeffrey-sachs/)
+
+Fundstelle: Sachs-Funktionen am Abrufdatum; nicht Beleg für Detailgeschichte sämtlicher beratener Länder
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-sdsn-partners-2026"></a>
+### Sustainable Development Solutions Network
+
+**[Partnerships – Financial Supporters](https://www.unsdsn.org/about/partnerships/)**
+
+Sustainable Development Solutions Network · 2026-11-21 · Stufe **A** · Primärquelle · `SRC-INT-SDSN-PARTNERS-2026`
+
+[Seite öffnen](https://www.unsdsn.org/about/partnerships/)
+
+Fundstelle: Offizielle Liste finanzieller Unterstützer, ohne einzelne Auszahlungen und Beträge
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-gb-bilderberg-charity-accounts-2015"></a>
@@ -3013,6 +3073,21 @@ U.S. District Court for the District of Columbia · 1998-08-13 · Stufe **A** ·
 [Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)
 
 Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2000">
+
+<a id="src-us-gao-russia-hiid-2000"></a>
+### U.S. General Accounting Office
+
+**[Foreign Assistance: International Efforts to Aid Russia's Transition Have Had Mixed Results (GAO-01-8)](https://www.gao.gov/assets/gao-01-8.pdf#page=82)**
+
+U.S. General Accounting Office · 2000-11-01 · Stufe **A** · Primärquelle · `SRC-US-GAO-RUSSIA-HIID-2000`
+
+[Seite öffnen](https://www.gao.gov/assets/gao-01-8.pdf#page=82)
+
+Fundstelle: S. 80/PDF-Bildseite 82 am 21.11.2026 bildseitig geprüft: HIID beaufsichtigte 300 Mio. USD US-Russlandhilfe, relativ geringe USAID-Aufsicht; Vertragsende 1997
 
 </article>
 
@@ -3196,6 +3271,21 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-un-desa-sdsn-launch-2012"></a>
+### United Nations DESA
+
+**[Sustainable Development Network Launched to Help Find Solutions to Global Problems](https://www.un.org/development/desa/en/news/sustainable/sustainable-development-network.html)**
+
+United Nations DESA · 2012-08-16 · Stufe **A** · Primärquelle · `SRC-UN-DESA-SDSN-LAUNCH-2012`
+
+[Seite öffnen](https://www.un.org/development/desa/en/news/sustainable/sustainable-development-network.html)
+
+Fundstelle: SDSN als neues unabhängiges Netzwerk unter Sachs-Leitung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
 
 <a id="src-us-dol-erisa-prudence-fr-19790626"></a>
@@ -3286,6 +3376,21 @@ Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kais
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-un-who-lancet-sachs-2022"></a>
+### World Health Organization
+
+**[WHO Director-General opening remarks at the launch of the Lancet COVID-19 Commission Final Report](https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-launch-of-the-lancet-covid-19-commission-final-report---15-september-2022)**
+
+World Health Organization · 2022-09-15 · Stufe **A** · Primärquelle · `SRC-UN-WHO-LANCET-SACHS-2022`
+
+[Seite öffnen](https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-launch-of-the-lancet-covid-19-commission-final-report---15-september-2022)
+
+Fundstelle: Bestätigt Sachs als Kommissionsleiter; kein Ursprungsgutachten
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1992">
 
 <a id="src-de-zeitst-pechel-bucerius-1992"></a>
@@ -3303,7 +3408,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [H](#src-us-harvard-mag-hiid-1997) · [I](#src-us-imf-sachs-2012) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-us-harvard-crimson-yeltsin-1994) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3497,6 +3602,21 @@ Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dalla
 [PDF öffnen](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)
 
 Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-uk-bmj-covid-taskforce-2021"></a>
+### British Medical Journal
+
+**[Covid-19: Lancet investigation into origin of pandemic shuts down over bias risk](https://www.bmj.com/content/375/bmj.n2414)**
+
+British Medical Journal · 2021-10-01 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-UK-BMJ-COVID-TASKFORCE-2021`
+
+[Seite öffnen](https://www.bmj.com/content/375/bmj.n2414)
+
+Fundstelle: 2021er Auflösung der Arbeitsgruppe wegen COI-Bedenken zu Peter Daszak/EcoHealth
 
 </article>
 
@@ -3750,6 +3870,51 @@ DIE ZEIT / Hans Schueler · 1971-05-21 · Stufe **C** · Sekundär-/Forschungsqu
 [Seite öffnen](https://www.zeit.de/1971/21/die-bomben-des-senators/seite-3)
 
 Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung der Aussagegenehmigung durch Richter Geuß und zum von Urbach eingeräumten Waffenvergraben
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1997">
+
+<a id="src-us-harvard-mag-hiid-1997"></a>
+### Harvard Magazine
+
+**[Harvard in Russia: Conflicts of Interest](https://www.harvardmagazine.com/sites/default/files/html/1997/07a/jhj.russia.html)**
+
+Harvard Magazine · 1997 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-HARVARD-MAG-HIID-1997`
+
+[Seite öffnen](https://www.harvardmagazine.com/sites/default/files/html/1997/07a/jhj.russia.html)
+
+Fundstelle: Mehr als 40 Mio. USD USAID an HIID-Projekte seit 1992; Sachs seit 1995 Direktor; Abberufung Shleifer/Hay
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2005">
+
+<a id="src-us-harvard-mag-hiid-2005"></a>
+### Harvard Magazine
+
+**[Russia Case (and Dust) Settle](https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html)**
+
+Harvard Magazine · 2005-11-01 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-HARVARD-MAG-HIID-2005`
+
+[Seite öffnen](https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html)
+
+Fundstelle: Zivilvergleich mehr als 31 Mio. USD, 26,5 Mio. USD Harvard plus Shleifer/Hay u.a.; keine persönliche Verurteilung Sachs
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-us-imf-sachs-2012"></a>
+### International Monetary Fund
+
+**[People in Economics: A Project in Every Port](https://www.imf.org/external/pubs/ft/fandd/2012/12/people.htm)**
+
+International Monetary Fund · 2012-12-01 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-IMF-SACHS-2012`
+
+[Seite öffnen](https://www.imf.org/external/pubs/ft/fandd/2012/12/people.htm)
+
+Fundstelle: Retrospektive zu polnischem Reformprozess und Sachs' wirtschaftspolitischem Russlandmandat
 
 </article>
 
@@ -4023,6 +4188,51 @@ Fundstelle: Infografik und Quellen zur Infografik
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1994">
+
+<a id="src-us-harvard-crimson-yeltsin-1994"></a>
+### The Harvard Crimson
+
+**[Sachs Quits As Economic Consultant To Yeltsin](https://www.thecrimson.com/article/1994/1/24/sachs-quits-as-economic-consultant-to/)**
+
+The Harvard Crimson · 1994-01-24 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-HARVARD-CRIMSON-YELTSIN-1994`
+
+[Seite öffnen](https://www.thecrimson.com/article/1994/1/24/sachs-quits-as-economic-consultant-to/)
+
+Fundstelle: Beendigung der Beratung, Januar 1994; Kritik am IMF und westlicher Hilfe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1999">
+
+<a id="src-us-harvard-crimson-hiid-1999"></a>
+### The Harvard Crimson
+
+**[Govt. Launches Investigation Of HIID Experts](https://www.thecrimson.com/article/1999/2/4/govt-launches-investigation-of-hiid-experts/)**
+
+The Harvard Crimson · 1999-02-04 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-HARVARD-CRIMSON-HIID-1999`
+
+[Seite öffnen](https://www.thecrimson.com/article/1999/2/4/govt-launches-investigation-of-hiid-experts/)
+
+Fundstelle: Quellennahe Berichterstattung zu Aufsichtsproblemen und fehlendem persönlichen Verdacht gegen Sachs
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1989">
+
+<a id="src-us-newyorker-soros-poland-1989"></a>
+### The New Yorker
+
+**[A Grand Experiment](https://www.newyorker.com/magazine/1989/11/13/a-grand-experiment)**
+
+The New Yorker · 1989-11-13 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-NEWYORKER-SOROS-POLAND-1989`
+
+[Seite öffnen](https://www.newyorker.com/magazine/1989/11/13/a-grand-experiment)
+
+Fundstelle: Identifiziert Stefan Batory Foundation als Finanzierer der Sachsteams-Reisen
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-int-trilateral-2017-mirror"></a>
@@ -4140,6 +4350,21 @@ Warburg Pincus · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://warburgpincus.com/firm/firm-history/)
 
 Fundstelle: Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitgliedschaft; Eintrag 1978: Warburg Pincus 'helped lead discussions with the U.S. Department of Labor' zu Pensionsfonds und alternativen Anlageklassen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1989">
+
+<a id="src-us-wapo-sachs-poland-1989"></a>
+### Washington Post
+
+**[Harvard Prof's Shock Therapy Spurs Polish Economic Debate](https://www.washingtonpost.com/archive/politics/1989/09/23/harvard-profs-shock-therapy-spurs-polish-economic-debate/ddfec196-366b-4fa2-b9b7-df4b8a4032ad/)**
+
+Washington Post · 1989-09-23 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-US-WAPO-SACHS-POLAND-1989`
+
+[Seite öffnen](https://www.washingtonpost.com/archive/politics/1989/09/23/harvard-profs-shock-therapy-spurs-polish-economic-debate/ddfec196-366b-4fa2-b9b7-df4b8a4032ad/)
+
+Fundstelle: Zeitgenössisch: Sachs/Lipton, Kontakte zu Solidarność und Bezahlung von Reisen durch Soros-Stiftung
 
 </article>
 

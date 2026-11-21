@@ -476,6 +476,12 @@ studies:
       - REL-US-ERISA-RULE-PORTFOLIO-1979-001
       - REL-US-FED-STAFF-PE-STUDY-1995-001
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
+
+  udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md:
+    sha256: 501722b60733eebfdfd05df10e3147caabef30ea88047f42414b3aa1ce2a505b
+    status: no_network_relation
+    reason: "Die amtlich belegten BND-Observationen und Eingriffe in die Pressearbeit sind bereits in der Fallakte zu Medien und Nachrichtendiensten modelliert. Ulfkottes Behauptung einer konkreten BND-Autorschaft des FAZ-Artikels vom 16.03.1993 ist bislang nicht unabhängig belegt und begründet daher keine neue Netzwerkrelation."
+
   jeffrey-sachs-soros-harvard-usaid-sdsn-1985-2026.md:
     sha256: 2ad7089447465166a6cf128b783529c1d1c2d2b78d0022221e2ecc047ce63a84
     status: network

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**285 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**307 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -8,6 +8,7 @@
 |---|---|---|---|---|
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
+| Andrei Shleifer | person | `PER-US-ANDREI-SHLEIFER` | US | [1](network.md#rel-int-sachs-009) |
 | Angelo Rizzoli (1943–2013) | person | `PER-IT-ANGELO-RIZZOLI` | IT | [3](network.md#rel-it-rizzoli-angelo-1980-001) |
 | António Fernandes Carvajal (gest. 1659) | person | `PER-GB-ANTONIO-FERNANDES-CARVAJAL` | GB, PT | [2](network.md#rel-gb-crom-1649-001) |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE | [2](network.md#rel-de-lang-002) |
@@ -18,6 +19,7 @@
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
 | David Lammy | person | `PER-GB-DAVID-LAMMY` | GB | [4](network.md#rel-gb-bb-uk-008) |
+| David Lipton | person | `PER-US-DAVID-LIPTON` | US | [1](network.md#rel-int-sachs-002) |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE | [1](network.md#rel-de-tmn-033) |
 | Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US | [2](network.md#rel-us-bbf-003) |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE | [3](network.md#rel-de-tmn-021) |
@@ -30,6 +32,7 @@
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
+| George Soros | person | `PER-US-GEORGE-SOROS` | US | [1](network.md#rel-int-sachs-003) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
@@ -44,8 +47,10 @@
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
+| Jeffrey D. Sachs | person | `PER-US-JEFFREY-SACHS` | US | [7](network.md#rel-int-sachs-001) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
+| Jonathan Hay | person | `PER-US-JONATHAN-HAY` | US | [1](network.md#rel-int-sachs-010) |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
@@ -71,6 +76,7 @@
 | Oswald Pohl (1892–1951) | person | `PER-DE-OSWALD-POHL` | DE | [1](network.md#rel-de-ss-gold-1942-001) |
 | Otto Lenz | person | `PER-DE-OTTO-LENZ` | DE | [1](network.md#rel-de-kmm-010) |
 | Paul-Bernhard Kallen | person | `PER-DE-PAUL-BERNHARD-KALLEN` | DE | [1](network.md#rel-de-tmn-026) |
+| Peter Daszak | person | `PER-US-PETER-DASZAK` | US, GB | [1](network.md#rel-int-sachs-020) |
 | Peter E. Pechel | person | `PER-DE-PETER-E-PECHEL` | DE | [1](network.md#rel-de-ab-jour-pechel-1992-001) |
 | Peter Frey | person | `PER-DE-PETER-FREY` | DE | [1](network.md#rel-de-tmn-043) |
 | Peter Thiel | person | `PER-US-PETER-THIEL` | US | [2](network.md#rel-us-bbf-005) |
@@ -141,10 +147,12 @@
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
+| Bezos Earth Fund | foundation | `ORG-US-BEZOS-EARTH-FUND` | US | [1](network.md#rel-int-sachs-015) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
+| BMWK / Internationale Klimaschutzinitiative (IKI) | government_funding_program | `ORG-DE-BMWK-IKI` | DE | [1](network.md#rel-int-sachs-016) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
@@ -158,6 +166,7 @@
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
+| Center for Sustainable Development, Columbia University | research_center | `ORG-US-COLUMBIA-CSD` | US | [1](network.md#rel-int-sachs-018) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [4](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
@@ -186,6 +195,7 @@
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
+| EcoHealth Alliance | nonprofit | `ORG-US-ECOHEALTH-ALLIANCE` | US | [1](network.md#rel-int-sachs-020) |
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
 | Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Ente Nazionale Idrocarburi (ENI, historisch 1978–1982) | historical_state_enterprise | `ORG-IT-ENI-1978` | IT | [1](network.md#rel-it-eni-trad-1979-001) |
@@ -200,6 +210,7 @@
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [1](network.md#rel-de-tmn-018) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
+| Gates Foundation | foundation | `ORG-US-GATES-FOUNDATION` | US | [1](network.md#rel-int-sachs-014) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
@@ -207,6 +218,7 @@
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
+| Harvard Institute for International Development (HIID) | development_institute | `ORG-US-HIID` | US | [5](network.md#rel-int-sachs-006) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
@@ -217,6 +229,7 @@
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
+| Lancet COVID-19 Commission | research_commission | `ORG-INT-LANCET-COVID-COMMISSION` | US, GB | [1](network.md#rel-int-sachs-019) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
@@ -241,13 +254,17 @@
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Regierung Boris Jelzin (Russland, 1991–1994) | government | `ORG-RU-YELTSIN-GOVERNMENT-1991-1994` | RU | [1](network.md#rel-int-sachs-005) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
+| SDSN Association, Inc. | nonprofit | `ORG-US-SDSN-ASSOCIATION` | US | [1](network.md#rel-int-sachs-013) |
+| Solidarność / Solidarity | political_movement | `ORG-PL-SOLIDARNOSC` | PL | [2](network.md#rel-int-sachs-001) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
+| Stefan Batory Foundation | foundation | `ORG-PL-STEFAN-BATORY-FOUNDATION` | PL | [2](network.md#rel-int-sachs-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
@@ -265,6 +282,7 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
+| U.S. Agency for International Development (USAID) | government_agency | `ORG-US-USAID` | US | [1](network.md#rel-int-sachs-007) |
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [1](network.md#rel-us-ua-biosec-2022-001) |
@@ -272,10 +290,14 @@
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
+| UN Sustainable Development Solutions Network (SDSN) | policy_network | `ORG-INT-SDSN` | US, FR | [7](network.md#rel-int-sachs-011) |
+| UN-Generalsekretariat | intergovernmental_institution | `ORG-INT-UN-SECRETARIAT` | US | [1](network.md#rel-int-sachs-012) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
+| United Nations Development Programme (UNDP) | un_agency | `ORG-INT-UNDP` | US | [1](network.md#rel-int-sachs-017) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
+| USAID-Russlandhilfeprogramme im HIID-Betreuungsportfolio (1992–1997) | historical_government_assistance_program | `PRG-US-USAID-RUSSIA-AID-1992-1997` | US, RU | [1](network.md#rel-int-sachs-008) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |

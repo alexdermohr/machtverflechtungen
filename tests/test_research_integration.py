@@ -1177,5 +1177,42 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("KEIN nachgewiesener individueller Geldfluss", market["label"])
 
 
+    def test_sachs_hiid_300m_is_program_oversight_not_personal_disbursement(self):
+        root = coverage.ROOT
+        study = "jeffrey-sachs-soros-harvard-usaid-sdsn-1985-2026.md"
+        entry = coverage.read_registry(root)[study]
+        self.assertEqual(entry["status"], "network")
+        self.assertEqual(len(entry["relation_ids"]), 20)
+        self.assertEqual(
+            entry["sha256"],
+            hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+        )
+        rels = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        sources = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/sources.yml").read_text(encoding="utf-8")
+        )["sources"]}
+        entities = {e["id"]: e for e in yaml.safe_load(
+            (root / "data/entities.yml").read_text(encoding="utf-8")
+        )["entities"]}
+        gaosrc = "SRC-US-GAO-RUSSIA-HIID-2000"
+        self.assertEqual(sources[gaosrc]["tier"], "A")
+        oversight = rels["REL-INT-SACHS-008"]
+        self.assertEqual(oversight["from"], "ORG-US-HIID")
+        self.assertEqual(oversight["to"], "PRG-US-USAID-RUSSIA-AID-1992-1997")
+        self.assertIn(oversight["to"], entities)
+        self.assertEqual(oversight["sources"], [gaosrc])
+        self.assertIn("300 Mio.", oversight["label"])
+        self.assertIn("Portfolio", oversight["label"])
+        for edge_id in entry["relation_ids"]:
+            self.assertIn(edge_id, rels)
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        table = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        for edge_id in entry["relation_ids"]:
+            self.assertIn(rels[edge_id]["label"], graph)
+            self.assertIn(f'id="{edge_id.lower()}"', table)
+
+
 if __name__ == "__main__":
     unittest.main()
