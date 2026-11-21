@@ -1695,3 +1695,15 @@ entities:
     name: "Raft"
     countries: [US]
     notes: "Daten-/Softwarepartner der Anduril-/Palantir-Architektur NGC2 laut Army vom Juni 2026; Vertragsbetrag in der Quelle nicht angegeben."
+
+  - id: ORG-DE-ANNETTE-BARTHELT-STIFTUNG
+    type: charitable_foundation_association
+    name: "Annette Barthelt-Stiftung e. V."
+    countries: [DE]
+    notes: "Privat finanzierte Stiftung/Verein mit staatsbürgerlichem Preis neben separatem Preis für Meeresforschung. Veranstalterchronik bestätigt Udo Ulfkotte als Staatsbürgerpreis-Preisträger am 12.12.2003 im Presse-Club Bonn; kein überprüfter individueller Zahlungsbeleg trotz 2003 angekündigter 6.000 EUR Dotierung."
+
+  - id: PER-DE-GUENTHER-BECKSTEIN
+    type: person
+    name: "Günther Beckstein"
+    countries: [DE]
+    notes: "Bayerischer Innenminister zum Zeitpunkt des Staatsbürgerpreises 12.12.2003; offizielle Annette-Barthelt-Stiftung-Preisträgerchronik nennt ihn als Laudator für Udo Ulfkotte. Eine redaktionelle Weisung oder individuelle Preiszahlung durch den Minister ist daraus nicht ableitbar."

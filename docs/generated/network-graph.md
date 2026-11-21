@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**344 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**347 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -657,6 +657,11 @@ flowchart LR
     N_ORG_US_PALANTIR_USG["Palantir USG Inc."]
     N_ORG_US_ARMY -->|"Army vergab 17.09.2026 48.094.071 USD Delivery Order an Palantir USG zur Modernisierung des Munitionsmanagements, getrennt von TITAN"| N_ORG_US_PALANTIR_USG
     N_ORG_US_ARMY -->|"USAspending W56KGY25F0090 ab 01.06.2025: Army Intelligence Data Platform AI-Platform-Lizenz, 1.166.666,69 USD obligated laut Register; keine Auszahlung"| N_ORG_US_PALANTIR_USG
+    N_ORG_DE_BND -->|"Das Grünen-Sondervotum in BT-Drs 16/13400, S. 963, referiert einen BND-Pressestellenvermerk an den BND-Präsidenten vom 10.11.1997 über den Journalisten Ulfkotte und angeblich bei ihm vorhandene BND-Dokumente (MAT A 374/1, Ordner 42, Bl. 183–186); kein eigener BND-Aktenvolltext oder Beleg der tatsächlichen Aktenübergabe eingesehen"| N_PER_DE_UDO_ULFKOTTE
+    N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG["Annette Barthelt-Stiftung e. V."]
+    N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG -->|"Annette Barthelt-Stiftung dokumentiert Verleihung ihres staatsbürgerlichen Preises an Udo Ulfkotte am 12.12.2003 im Presse-Club Bonn; unizeit nannte eine angekündigte Dotierung von 6.000 EUR, aber eine individuelle Auszahlung ist nicht geprüft"| N_PER_DE_UDO_ULFKOTTE
+    N_PER_DE_GUENTHER_BECKSTEIN["Günther Beckstein"]
+    N_PER_DE_GUENTHER_BECKSTEIN -->|"Der damalige bayerische Innenminister Günther Beckstein hielt laut eigener Preisträgerchronik der Annette Barthelt-Stiftung die Laudatio auf Udo Ulfkotte bei der Preisverleihung am 12.12.2003; dokumentierte öffentliche Anerkennung, keine belegte Weisung an journalistische Veröffentlichungen"| N_PER_DE_UDO_ULFKOTTE
 ```
 
 [Zur Relationstabelle](network.md)

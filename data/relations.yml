@@ -3145,3 +3145,30 @@ relations:
     period: {start: "2025-06-01"}
     evidence_level: established
     sources: [SRC-US-USASPENDING-PALANTIR-AIP-2025]
+
+  - id: REL-DE-BND-ULFKOTTE-INTERNAL-PRESS-NOTE-1997-001
+    from: ORG-DE-BND
+    to: PER-DE-UDO-ULFKOTTE
+    type: parliamentary_reported_internal_press_note_about_journalist
+    label: "Das Grünen-Sondervotum in BT-Drs 16/13400, S. 963, referiert einen BND-Pressestellenvermerk an den BND-Präsidenten vom 10.11.1997 über den Journalisten Ulfkotte und angeblich bei ihm vorhandene BND-Dokumente (MAT A 374/1, Ordner 42, Bl. 183–186); kein eigener BND-Aktenvolltext oder Beleg der tatsächlichen Aktenübergabe eingesehen"
+    period: {start: "1997-11-10", end: "1997-11-10"}
+    evidence_level: strong
+    sources: [SRC-DE-BT-UA-BND-JOURNALISTEN-2009]
+
+  - id: REL-DE-BARTHELT-ULFKOTTE-AWARD-2003-001
+    from: ORG-DE-ANNETTE-BARTHELT-STIFTUNG
+    to: PER-DE-UDO-ULFKOTTE
+    type: confirmed_historical_citizenship_award
+    label: "Annette Barthelt-Stiftung dokumentiert Verleihung ihres staatsbürgerlichen Preises an Udo Ulfkotte am 12.12.2003 im Presse-Club Bonn; unizeit nannte eine angekündigte Dotierung von 6.000 EUR, aber eine individuelle Auszahlung ist nicht geprüft"
+    period: {start: "2003-12-12", end: "2003-12-12"}
+    evidence_level: established
+    sources: [SRC-DE-BARTHELT-STAATSBUERGER-ULFKOTTE-2003, SRC-DE-CAU-UNIZEIT-ULFKOTTE-2003]
+
+  - id: REL-DE-BECKSTEIN-ULFKOTTE-LAUDATIO-2003-001
+    from: PER-DE-GUENTHER-BECKSTEIN
+    to: PER-DE-UDO-ULFKOTTE
+    type: confirmed_historical_official_laudation
+    label: "Der damalige bayerische Innenminister Günther Beckstein hielt laut eigener Preisträgerchronik der Annette Barthelt-Stiftung die Laudatio auf Udo Ulfkotte bei der Preisverleihung am 12.12.2003; dokumentierte öffentliche Anerkennung, keine belegte Weisung an journalistische Veröffentlichungen"
+    period: {start: "2003-12-12", end: "2003-12-12"}
+    evidence_level: established
+    sources: [SRC-DE-BARTHELT-STAATSBUERGER-ULFKOTTE-2003]

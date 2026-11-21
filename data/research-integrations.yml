@@ -535,3 +535,11 @@ studies:
       - REL-US-SETAF-PALANTIR-MAVEN-PA-2025
       - REL-US-ARMY-PALANTIR-AMMO-2026
       - REL-US-ARMY-PALANTIR-AIP-2025
+
+  udo-ulfkotte-bnd-vermerk-behoerdenquellen-barthelt-preis-1997-2006.md:
+    sha256: 7001b4a125f225cbeaa27fa8851b011892874e21e8cefb758875f95316d7810d
+    status: network
+    relation_ids:
+      - REL-DE-BND-ULFKOTTE-INTERNAL-PRESS-NOTE-1997-001
+      - REL-DE-BARTHELT-ULFKOTTE-AWARD-2003-001
+      - REL-DE-BECKSTEIN-ULFKOTTE-LAUDATIO-2003-001

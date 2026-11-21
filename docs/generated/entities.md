@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**302 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**304 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -32,6 +32,7 @@
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
+| Günther Beckstein | person | `PER-DE-GUENTHER-BECKSTEIN` | DE | [1](network.md#rel-de-beckstein-ulfkotte-laudatio-2003-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE | – |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
@@ -94,7 +95,7 @@
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
-| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [3](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
+| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [6](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
@@ -120,6 +121,7 @@
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
 | American Institute for Contemporary German Studies (AICGS) | policy_research_institute | `ORG-US-AICGS-2012` | US | [1](network.md#rel-us-gmf-aicgs-2012-001) |
 | Anduril Industries | defense_technology_company | `ORG-US-ANDURIL` | US | [3](network.md#rel-us-army-anduril-titan-order-2026) |
+| Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
@@ -160,7 +162,7 @@
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [6](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [7](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
