@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**327 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**332 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -626,6 +626,15 @@ flowchart LR
     N_ORG_INT_SHELL_GROUP_1996 -->|"Nach zeitgenössischer taz-Berichterstattung verwendete Shell Ulfkottes nach der 1996er Reise erschienenen FAZ-Artikel in einem firmeneigenen Werbevideo; daraus ist kein redaktioneller Auftrag und kein ausdrückliches FAZ-Einverständnis ableitbar"| N_ORG_DE_FAZ
     N_ORG_DE_BKA["Bundeskriminalamt (BKA)"]
     N_ORG_DE_BKA -->|"BKA lud Ulfkotte nach der Bundesregierung für eine einzelne ressortübergreifende Mykonos-Gefährdungslagebesprechung am 27.11.1996 als Experten für inneriranische Verhältnisse und ausdrücklich nicht als Pressevertreter ein; keine amtlich bestätigte Übergabe geheimer Verschlusssachen oder Agentenrolle"| N_PER_DE_UDO_ULFKOTTE
+    N_ORG_DE_BMVG_PSV_1981_1990["Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990)"]
+    N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990["Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg)"]
+    N_ORG_DE_BMVG_PSV_1981_1990 -->|"Bundesregierung nennt für 1981–1988 ca. eine Million DM jährlich aus BMVg-Mitteln an die Studiengesellschaft für Zeitprobleme; näherungsweiser Jahreswert, nicht exakt belegte acht Einzelzahlungen und kein BND-Rekrutierungsauftrag"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
+    N_ORG_DE_BMVG_PSV_1981_1990 -->|"Bundesregierung meldet 1.449.200 DM Gesamtzuwendungen an die Studiengesellschaft vom 01.01.1989 bis August 1990; ein Gesamtwert für 20 Monate und keine Einzeljahreszahlung oder Leistung an Ulfkotte"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
+    N_ORG_DE_DGFSB_1989_1990["Deutsche Gesellschaft für Sozialbeziehungen e. V. (Bonn, Förderzeitraum 1989–1990)"]
+    N_ORG_DE_BMVG_PSV_1981_1990 -->|"Von den für 1989–1990 amtlich gemeldeten 515.171 DM Zuwendungen an sechs andere zivile Organisationen erhielt die Deutsche Gesellschaft für Sozialbeziehungen e. V. 385.000 DM; Studiengesellschaft in dieser Gesamtsumme ausdrücklich nicht enthalten"| N_ORG_DE_DGFSB_1989_1990
+    N_PER_DE_WERNER_MARX_CDU_1965_1972["Werner Marx (1924–1985, CDU)"]
+    N_PER_DE_WERNER_MARX_CDU_1965_1972 -->|"Werner Marx war laut institutioneller CDU-Biografie erster Vorsitzender der Studiengesellschaft 1965–1972 und zuvor im BMVg-Referat psychologische Kriegsführung tätig; keine persönliche Budgetweisung für Förderungen 1981–1990 nachgewiesen"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
+    N_PER_DE_UDO_ULFKOTTE -->|"Nur Ulfkottes retrospektive Eigenaussage (2014): Teilnahme an einem SfZ-Seminar am 25.02.1980 in Bonn-Bad Godesberg; keine unabhängig gesicherte Teilnehmerliste, BND-Anwerbung oder individuelle Spesenabrechnung"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
 ```
 
 [Zur Relationstabelle](network.md)

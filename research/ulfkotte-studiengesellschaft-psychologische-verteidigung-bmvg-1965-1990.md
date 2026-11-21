@@ -1,0 +1,70 @@
+# Udo Ulfkotte und die Studiengesellschaft für Zeitprobleme: BND-Anwerbungsbehauptung versus amtlich belegte Bundeswehr-Finanzierung (1965–1990)
+
+**Quellenstand: 21. November 2026 · parlamentarische Originalakten, zeitgenössische Recherche und autobiografische Darstellung.** Ausgangspunkt ist ein bislang nicht einzeln erfasster Komplex aus Udo Ulfkottes *Gekaufte Journalisten* (2014): seine angebliche Anbahnung durch den BND im Umfeld eines Seminars am **25. Februar 1980** bei der **Studiengesellschaft für Zeitprobleme e. V.** in Bonn-Bad Godesberg sowie seine Behauptung, später selbst Studierende im Rahmen seines Lehrauftrags in Lüneburg auf mögliche BND-Eignung beurteilt zu haben. Die von ihm beschriebene **Organisation, staatliche Finanzierung und Zielgruppenarbeit** lassen sich ungewöhnlich weit anhand amtlicher Akten prüfen; die individuelle **BND-Rekrutierung** bleibt eine andere Beweisfrage.
+
+## Zusammenfassung: was belegt ist und was nicht
+
+| Kürzel | Aussage | Einordnung |
+| --- | --- | --- |
+| PSV-01 | **Ulfkotte** schreibt, er habe am **25.02.1980** in der **Ubierstraße 88, Bonn-Bad Godesberg**, an einem von der Studiengesellschaft organisierten Seminar zum Ost-West-Konflikt teilgenommen. Bei der Anwerbung als Student seien Fahrkosten, Hotel, 20 DM Tagesgeld und 150 DM Büchergeld angeboten worden. | **C – autobiografische Erinnerung**, keine erhaltene Teilnehmerliste, Buchung oder personenbezogene BND-Unterlage eingesehen [Q1]. Die Existenz und staatliche Finanzierung des Veranstalters werden getrennt belegt [Q2–Q5]. |
+| PSV-02 | Ulfkotte behauptet, die Seminare hätten unter anderem der **verdeckten Anbahnung für den BND** gedient, gestützt auf Rollenspiele und Auswahl geeigneter Studierender. | **C – konkrete Eigenaussage** [Q1]. Historische Quellen belegen Seminare und eine verdeckt militärisch unterstützte Zielgruppenansprache, **nicht aber ein BND-Auftragsverhältnis in Ulfkottes Seminar von 1980** [Q2–Q5]. |
+| PSV-03 | **Bundesministerium der Verteidigung → Studiengesellschaft**, **1981–1988**: Die Bundesregierung räumte Finanzierung von etwa **1 Million DM pro Jahr** ein. | **A – Originalantwort 11/4360 vom 18.04.1989**, gedruckte S. 4, Frage II.3 [Q2]. Acht Jahreswerte wurden **nicht einzeln** ausgewiesen. Keine genaue Gesamtsumme oder Zweckbuchung für einen Studenten ableitbar. |
+| PSV-04 | **Bundesministerium der Verteidigung → Studiengesellschaft**, **01.01.1989 bis August 1990**: **1.449.200 DM** Gesamtsumme; nach der Auflösung des PSV-Leitreferats wurden entsprechende Verträge gekündigt. | **A – Originalantwort 11/7749 vom 28.08.1990**, gedruckte S. 1–2 [Q3]. Es ist ein **Gesamtbetrag für einen angegebenen Zeitraum**, kein Jahresbetrag und keine Zahlung an Ulfkotte. |
+| PSV-05 | **Bundesministerium der Verteidigung → Deutsche Gesellschaft für Sozialbeziehungen e. V.**, **1989–1990**: **385.000 DM**. Fünf weitere Empfänger erhielten zusammengenommen **130.171 DM**, alle sechs zusammen **515.171 DM**, jeweils **ohne die Studiengesellschaft**. | **A – 11/7749, gedruckte S. 3**, Tabelleneinträge [Q3]. BMVg-Zuwendungen an Organisationen, **nicht** ein Nachweis direkter Einzelpersonenzahlungen; dieselbe Antwort verneint solche Einzelpersonenzuwendungen. |
+| PSV-06 | **Personalunion**: Ein Leiter des Referats Fü S I 9 war gleichzeitig **Mitglied** der Studiengesellschaft; ein ziviler Mitarbeiter der PSV-Akademie war zugleich langjähriger Geschäftsführer. | **A – 11/4360, gedruckte S. 4–5**: die Bundesregierung bestätigte beide Zuordnungen; namentlich erscheinen die Personen im Fragenkatalog nur als Initialen [Q2]. |
+| PSV-07 | **Werner Marx (CDU)**: von **1965 bis 1972** Vorsitzender der Studiengesellschaft; zuvor im Referat für Psychologische Kriegführung des BMVg tätig, später Vorsitzender des Bundestags-Verteidigungsausschusses. | **B – institutionelle Politikerbiografie der Konrad-Adenauer-Stiftung** [Q6]. Diese belegten Karrierepositionen beweisen keine Mitwirkung an einer bestimmten BND-Studentenanwerbung 1980. |
+| PSV-08 | Ulfkotte behauptet, er habe **ab 1999** als Lehrbeauftragter für Sicherheitsmanagement an der Universität Lüneburg Studierende zusammen mit anderen Referenten für den BND unbemerkt ausgewählt und sei nach Ermittlungen nicht weiter beschäftigt worden. | **C – retrospektive Selbstaussage** [Q1]. Vorlesungsverzeichnis, Seminarakten, BND-Auftrag, Prüfungs- oder Auswahlprotokolle und institutionelle Stellungnahme zur behaupteten Rekrutierung liegen hier **nicht** unabhängig vor. |
+| PSV-09 | Zur gleichen Zeit behauptete die Bundesregierung ausdrücklich, keine **„Tarnorganisationen“** der PSV zu unterhalten, räumte jedoch finanzierte zivile Institutionen und Personalüberschneidungen ein. | **A – Gegenüberstellung innerhalb derselben Antwort 11/4360**, S. 2 und S. 4–5 [Q2]; die **Bezeichnung „Tarnorganisation“ ist bestritten**, das **Sponsoring und die Personalüberschneidung** dagegen amtlich bestätigt. |
+
+## Der finanzielle Einflussmechanismus – amtliche Originalantworten
+
+### 18. April 1989: Behördliche Bestätigung trotz Leugnung von „Tarnorganisationen“
+
+Die [Bundestagsdrucksache 11/4360](https://dserver.bundestag.de/btd/11/043/1104360.pdf) [Q2] ist besonders aussagekräftig, weil sie sowohl **den staatlichen Anspruch** als auch **konkrete institutionelle Abhängigkeiten** wiedergibt. Auf gedruckter **S. 2** erklärt die Bundesregierung sinngemäß, die Bundeswehr unterhalte oder nutze keine Tarnorganisationen für die Psychologische Verteidigung, zivile Einrichtungen könnten aber Mittel erhalten, sofern sie deren Zielsetzungen unterstützten. Auf gedruckter **S. 4** bestätigt dieselbe Antwort das Mitgliedschaftsverhältnis eines Referatsleiters zur Studiengesellschaft und **ungefähr eine Million DM jährliche Bundesmittel von 1981 bis 1988**. Auf **S. 5** wird eine personelle Doppelrolle zwischen Studiengesellschaft-Geschäftsführung und der PSV-Akademie bejaht.
+
+Das erlaubt einen **belegten Graphen aus Finanzierungs- und Personalbeziehungen**. Ob das politisch und rechtlich als „Tarnorganisation“ zu bewerten ist, kann gesondert und unter Einbezug der Aufgabenpraxis untersucht werden; der bloße Widerspruch zwischen Behördenbezeichnung und dokumentierter Struktur beantwortet das **nicht abschließend**.
+
+### 28. August 1990: Exakte Förderbeträge, Ende der früheren Konstruktion
+
+Die [Bundestagsdrucksache 11/7749](https://dserver.bundestag.de/btd/11/077/1107749.pdf) [Q3] gibt für **1. Januar 1989 bis zur Antwort vom August 1990** genau **1.449.200 DM** Zuwendungen an die Studiengesellschaft an. Andere Organisationen wurden 1989/90 zusammen mit **515.171 DM** unterstützt. Davon gingen **385.000 DM** an die Deutsche Gesellschaft für Sozialbeziehungen e. V.; die übrigen ausgewiesenen Beträge:
+
+| Förderempfänger (1989/90) | DM |
+| --- | ---: |
+| Deutsche Gesellschaft für Sozialbeziehungen e. V., Bonn | 385.000 |
+| Ostsee-Akademie, Lübeck | 10.400 |
+| Ruhrinstitut, Essen | 6.711 |
+| Arbeitskreis für Landesverteidigung e. V., Bonn | 10.000 |
+| Arbeitskreis Sicherung des Friedens e. V., Bonn | 85.951 |
+| Arbeitskreis Sicherheitspolitische Information e. V., Alfter | 17.109 |
+| **Gesamt ohne Studiengesellschaft** | **515.171** |
+
+Die Regierung bestätigte zugleich: Das zuständige Referat **Fü S I 9 wurde am 01.07.1990 aufgelöst**; die Verträge mit externen Partnern wurden gekündigt. Die Akademie in Waldbröl wurde umgewidmet. Die jährlichen **Schätzwerte 1981–1988** dürfen nicht als genau abgerechnete Einzeljahresbeträge aufgelistet werden. Die **1.449.200 DM** dürfen auch nicht als 1989er Betrag oder als Zahlung an die Privatperson Ulfkotte ausgegeben werden. Der Gesamtbefund über mindestens zwei Zeitfenster dokumentiert erhebliche institutionelle Finanzierung, **keine exakt rekonstruierte individuelle Studentenbezahlung**.
+
+## Unabhängige Entstehungs- und Wirkungsgeschichte
+
+Der zeitgenössische Journalist **Tom Schimmeck** beschrieb 1989 die Arbeit der „Psychologischen Verteidigung“ [Q4], ihre Erfassung politisch unerwünschter Zielgruppen und die Finanzierung ziviler Vereine. Seine Recherchen nennen die Studiengesellschaft als formal unabhängigen, in der Praxis jedoch an der Hardthöhe finanziell und personell angebundenen Träger.
+
+Die [historische Studie von Martin Kirsch (2014)](https://www.imi-online.de/download/2014_07_kirsch_web.pdf) [Q5] wertet die Ausbildungs- und Öffentlichkeitsarbeit des PSK-/PSV-Komplexes anhand zeitgenössischer Berichte und der Dissertation Dirk Drews (2006) aus. Danach organisierte die Studiengesellschaft **studentische Seminare**, finanzierte teils externe Träger, beeinflusste Themen und Referenten und nutzte Multiplikatorengruppen in Universität, Schule, Jugendverbänden und Journalismus. Für die **1980er Jahre** sind die Seminare als Organisationstyp historisch nachvollziehbar; **Ulfkottes namentliche Teilnahme am 25.02.1980 oder nachträgliche Anwerbung durch den BND** sind dadurch nicht individuell bestätigt.
+
+Die [Politikerbiografie Werner Marx](https://www.kas.de/de/web/geschichte-der-cdu/personen/biogramm-detail/-/content/werner-marx) [Q6] belegt weitere Überlappungen von Politik, militärischer psychologischer Kommunikation und formal ziviler Trägerschaft. Als **Vereinsvorsitzender 1965–1972** ist Marx eine belegte organisatorische Brücke. Sein späterer Vorsitz im Verteidigungsausschuss fällt in einen anderen Zeitraum und ist **keine persönliche Budgetanweisung für 1989/90**.
+
+## Ulfkottes eigene Behauptungen – drei strikt getrennte Prüfachsen
+
+1. **Seminar und Anreizmittel, 1980:** Ulfkotte nennt *Gekaufte Journalisten* (2014) **25. Februar 1980, Ubierstraße 88**, die Studiengesellschaft und konkrete Fahrt-/Tagungszuschüsse. Die Behauptung ist sehr konkret und daher **falsifizierbar**: Seminarprogramm, Anwesenheitsverzeichnis, Einladungsschreiben, Reisekostenlisten und ggf. Teilnehmervermerke für genau diese Woche lassen sich suchen. **Das BMVg finanzierte SfZ nachweislich 1981–1988 und 1989/90; die beiden Bundestagsdrucksachen tragen aber keine individuelle Zahlung von 1980.**
+2. **BND-Auswahl von Studierenden:** Ulfkotte schreibt, Teilnehmer seien über politisch-psychologische Rollenspiele beurteilt und später für den BND ausgewählt worden. Die Seminare und der militärische Zweck ziviler Zielgruppenansprache sind unabhängig gestützt, **nicht die angebliche Übergabe personenbezogener Selektionsdaten oder ein förmliches BND-Anwerbungsmandat**. Die Finanzierung durch das **Verteidigungsministerium darf nicht automatisch mit Finanzierung durch den BND gleichgesetzt werden**.
+3. **Eigene Lehre in Lüneburg ab 1999:** Ulfkotte beschreibt sich als jemand, der selbst Studierende für BND-Interessen auswählte, und nennt **Rolf-Wilhelm Dau** als früheren Co-Referenten. Dieses autobiografische Geständnis begründet einen präzisen Rechercheauftrag an Lehrveranstaltungsverzeichnisse, öffentlich zulässige Universitätsakten und unabhängige Zeitzeugen. Es ist aber **kein selbstbeglaubigendes BND-Dokument** und kein Beleg für die individuelle Spitzeltätigkeit einer anderen namentlich genannten Person.
+
+## Erkenntnisstatus und Integrationsentscheidung
+
+**In das Netzwerk übernommen:** Die amtlich belegten historischen **BMVg → Studiengesellschaft-Förderbeziehungen** (zwei getrennte Zeiträume), **BMVg → Deutsche Gesellschaft für Sozialbeziehungen** (1989/90) und die institutionell belegte **Werner-Marx-Vorsitzperiode (1965–1972)**. Daneben eine **ausdrücklich als Eigenaussage typisierte, plausibel, nicht established** eingestufte **Ulfkotte → Studiengesellschaft-Teilnahme 1980** – nicht als gesicherte BND-Anwerbung.
+
+**Nicht übernommen:** „BND → Studiengesellschaft finanzierte Ulfkotte-Anwerbung“, „BND → Universität Lüneburg Studentenrekrutierung“, „alle PSV-Seminare waren Geheimdienstcamps“. Hier fehlen zeitgenössische Originalzuordnungen.
+
+## Quellen- und Belegverzeichnis
+
+- **[Q1; C]** Udo Ulfkotte: *Gekaufte Journalisten*, **2014**, insbesondere Kapitel **„Im Würgegriff der Geheimdienste“** (Selbstdarstellung des Seminars vom 25.02.1980, Ubierstraße 88, späterer Sicherheitsmanagement-Lehrauftrag in Lüneburg). [Bibliografischer Nachweis](https://books.google.com/books/about/Gekaufte_Journalisten.html?id=TZfioQEACAAJ). Quelle ist **Primärbeleg der autobiografischen Behauptung, kein unabhängiger Ereignisbeweis**.
+- **[Q2; A]** Deutscher Bundestag, [Drucksache **11/4360**, „Aktivitäten der psychologischen Verteidigung“, **18.04.1989**](https://dserver.bundestag.de/btd/11/043/1104360.pdf), besonders gedruckte **S. 2 und 4–5**. Originalseiten im Faksimile eingesehen. Historischer amtlicher Finanz- und Personalbefund.
+- **[Q3; A]** Deutscher Bundestag, [Drucksache **11/7749**, „Neuorganisation der Psychologischen Verteidigung“, **28.08.1990**](https://dserver.bundestag.de/btd/11/077/1107749.pdf), besonders gedruckte **S. 1–3**. Originalseiten mit Förderbeträgen im Faksimile eingesehen.
+- **[Q4; B]** Tom Schimmeck, [„Wir müssen an Mütter und Bräute ran“, 1989, Originalreportage im Autorenarchiv](https://www.schimmeck.de/Texte/psv.htm). Zeitgenössische journalistische Recherche; Trennung von Dienstanweisungen und Autorenbewertungen beachten.
+- **[Q5; B]** Martin Kirsch, [*Die „Psychologische Verteidigung“ der Bundeswehr bis 1990* (IMI-Studie 7/2014)](https://www.imi-online.de/download/2014_07_kirsch_web.pdf), besonders gedruckte **S. 3, 6–8**. Sekundäre historische Rekonstruktion unter Rückgriff auf Dirk Drews, *Die Psychologische Kampfführung/Psychologische Verteidigung der Bundeswehr* (2006) und zeitgenössische Dienstvorschriften.
+- **[Q6; B]** Konrad-Adenauer-Stiftung, [Biografie Werner Marx](https://www.kas.de/de/web/geschichte-der-cdu/personen/biogramm-detail/-/content/werner-marx), Abschnitt berufliche Laufbahn, **Vorsitz Studiengesellschaft 1965–1972**.
