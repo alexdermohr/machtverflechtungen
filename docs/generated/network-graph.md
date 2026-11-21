@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**347 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**357 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -657,6 +657,26 @@ flowchart LR
     N_ORG_US_PALANTIR_USG["Palantir USG Inc."]
     N_ORG_US_ARMY -->|"Army vergab 17.09.2026 48.094.071 USD Delivery Order an Palantir USG zur Modernisierung des Munitionsmanagements, getrennt von TITAN"| N_ORG_US_PALANTIR_USG
     N_ORG_US_ARMY -->|"USAspending W56KGY25F0090 ab 01.06.2025: Army Intelligence Data Platform AI-Platform-Lizenz, 1.166.666,69 USD obligated laut Register; keine Auszahlung"| N_ORG_US_PALANTIR_USG
+    N_ORG_CL_CHRISTIAN_DEMOCRATS_1964["Partido Demócrata Cristiano de Chile (PDC)"]
+    N_ORG_US_CIA -->|"CIA finanzierte 1964 verdeckt etwas mehr als die Hälfte des christdemokratischen Präsidentschaftswahlkampfes; Kandidat Frei sollte über Herkunft nicht informiert werden"| N_ORG_CL_CHRISTIAN_DEMOCRATS_1964
+    N_PER_US_JOHN_A_MCCONE["John A. McCone"]
+    N_PER_US_JOHN_A_MCCONE -->|"John McCone war 29.11.1961–28.04.1965 Director of Central Intelligence; ITT-Vorstandsbrief 1970 bestätigt frühere Leitungsfunktion"| N_ORG_US_CIA
+    N_ORG_US_ITT_1970["International Telephone and Telegraph (ITT; 1970)"]
+    N_PER_US_JOHN_A_MCCONE -->|"McCone war laut eigenem Brief 14.09.1970 ITT-Director und Mitglied des Executive Committee; Konzern- und Geheimdiensterfahrung hier persönlich verbunden"| N_ORG_US_ITT_1970
+    N_ORG_US_CIA -->|"CIA gab 1970 ITT Hinweise auf sichere Kanäle der Anti-Allende-Wahlkampffinanzierung; angebotene 1 Mio. USD über CIA wurden explizit abgelehnt"| N_ORG_US_ITT_1970
+    N_PRG_CL_ANTI_ALLENDE_1970["Anti-Allende-Wahlkampf Chile 1970"]
+    N_ORG_US_ITT_1970 -->|"ITT leitete 1970 laut Church-Ausschuss mindestens 350.000 USD zur Anti-Allende-Kampagne; CIA beriet Übermittlung, nahm aber die angebotene 1-Mio.-CIA-Durchleitung nicht an"| N_PRG_CL_ANTI_ALLENDE_1970
+    N_PRG_CL_CIA_TRACK_II_1970["CIA Track II: Chile 1970"]
+    N_ORG_US_CIA -->|"Track II war CIA-seitig für militärische Lösung gegen Allendes Amtsantritt 1970 organisiert, unter Ausschluss von Botschafter und State; nicht Beweis direkter Führung des Putsches 1973"| N_PRG_CL_CIA_TRACK_II_1970
+    N_ORG_CL_EL_MERCURIO_1971["El Mercurio (Chile)"]
+    N_ORG_US_CIA -->|"CIA-Memo 10.04.1972: 700.000 USD für El Mercurio September 1971 bewilligt/ausgegeben, weitere 300.000 USD bis Januar 1972 bewilligt/ausgegeben; zusätzliche 1972er Bewilligung kein Zahlungsbeleg"| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_CL_MILITARY_JUNTA_1973["Chilenische Militärjunta ab September 1973"]
+    N_ORG_US_CIA -->|"Church-Ausschuss dokumentiert nach Putsch 1973 fortgeführtes CIA-Propagandaprogramm zugunsten des Junta-Ansehens; kein direkter Putschbefehl dadurch erwiesen"| N_ORG_CL_MILITARY_JUNTA_1973
+    N_PRG_GT_CIA_PBSUCCESS_1954["Operation PBSUCCESS: Guatemala 1954"]
+    N_ORG_US_CIA -->|"Operation PBSUCCESS als CIA-geführte verdeckte US-Intervention gegen Regierung Árbenz in Guatemala 1954 offiziell in FRUS dokumentiert"| N_PRG_GT_CIA_PBSUCCESS_1954
+    N_ORG_US_UNITED_FRUIT_1952["United Fruit Company (1952)"]
+    N_ORG_GT_CASTILLO_ARMAS_GROUP["Gruppe um Carlos Castillo Armas (1952)"]
+    N_ORG_US_UNITED_FRUIT_1952 -->|"FRUS-Editorial Note: United Fruit gehörte 1952 zur finanziellen Unterstützergruppe potentieller Rebellen um Castillo Armas; Summe, Überweisungsweg und CIA-Direktzahlung ungeklärt"| N_ORG_GT_CASTILLO_ARMAS_GROUP
     N_ORG_DE_BND -->|"Das Grünen-Sondervotum in BT-Drs 16/13400, S. 963, referiert einen BND-Pressestellenvermerk an den BND-Präsidenten vom 10.11.1997 über den Journalisten Ulfkotte und angeblich bei ihm vorhandene BND-Dokumente (MAT A 374/1, Ordner 42, Bl. 183–186); kein eigener BND-Aktenvolltext oder Beleg der tatsächlichen Aktenübergabe eingesehen"| N_PER_DE_UDO_ULFKOTTE
     N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG["Annette Barthelt-Stiftung e. V."]
     N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG -->|"Annette Barthelt-Stiftung dokumentiert Verleihung ihres staatsbürgerlichen Preises an Udo Ulfkotte am 12.12.2003 im Presse-Club Bonn; unizeit nannte eine angekündigte Dotierung von 6.000 EUR, aber eine individuelle Auszahlung ist nicht geprüft"| N_PER_DE_UDO_ULFKOTTE

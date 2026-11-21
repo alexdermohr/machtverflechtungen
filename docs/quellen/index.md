@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**313 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**319 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3256,6 +3256,81 @@ Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appen
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
+<a id="src-us-frus-mccone-kissinger-1970"></a>
+### U.S. Department of State, Office of the Historian
+
+**[Letter John McCone to Henry Kissinger, 14 September 1970 (FRUS XXI, Doc 90)](https://history.state.gov/historicaldocuments/frus1969-76v21/d90)**
+
+U.S. Department of State, Office of the Historian · 1970-09-14 · Stufe **A** · Primärquelle · `SRC-US-FRUS-MCCONE-KISSINGER-1970`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d90)
+
+Fundstelle: McCone: früher CIA-Direktor, 1970 ITT-Board/Executive Committee; 1 Mio. USD als angebotener politischer Einsatz, 150 Mio. USD Investitions-Buchwert und 95–100 Mio. USD behauptete US-Garantien nicht verifiziert als Auszahlungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
+<a id="src-us-frus-cia-track2-1970"></a>
+### U.S. Department of State, Office of the Historian
+
+**[CIA Message to Station Chile, 21 September 1970 (FRUS E–16, Doc 22)](https://history.state.gov/historicaldocuments/frus1969-76ve16/d22)**
+
+U.S. Department of State, Office of the Historian · 1970-09-21 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-TRACK2-1970`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d22)
+
+Fundstelle: CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für militärische Lösung vor Allendes Regierungsantritt, Botschafter/Außenministerium auszuschließen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-cia-mercurio-1972"></a>
+### U.S. Department of State, Office of the Historian
+
+**[CIA Memorandum for 40 Committee, 10 April 1972 (FRUS E–16, Doc 108)](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108)**
+
+U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-MERCURIO-1972`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108)
+
+Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-us-frus-guatemala-1952-editorial"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1952–1954 Guatemala, Document 1 Editorial Note](https://history.state.gov/historicaldocuments/frus1952-54Guat/d1)**
+
+U.S. Department of State, Office of the Historian · 2003 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GUATEMALA-1952-EDITORIAL`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d1)
+
+Fundstelle: US-Außenministeriums-Editoren vermerken finanziellen Rückhalt der potentiellen Rebellen um Carlos Castillo Armas 1952 aus Nicaragua, Dominikanischer Republik und United Fruit; referenziert CIA-Historie, kein Einzelkontoauszug.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-us-frus-guatemala-preface-2003"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1952–1954 Guatemala, Preface (2003)](https://history.state.gov/historicaldocuments/frus1952-54Guat/preface)**
+
+U.S. Department of State, Office of the Historian · 2003-04-01 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GUATEMALA-PREFACE-2003`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/preface)
+
+Fundstelle: Amtliche Einordnung der CIA-Aktion Operation PBSUCCESS zur Destabilisierung/stürzung der demokratisch gewählten Regierung Guatemala; deklassifizierte Unterlagen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-us-court-first-american-bcci-1998"></a>
@@ -3313,6 +3388,21 @@ U.S. Securities and Exchange Commission · 2010-03-02 · Stufe **A** · Primärq
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/104889/000119312510045806/d10k.htm)
 
 Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive Officer
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-nara-church-chile-1975"></a>
+### U.S. Senate Church Committee / U.S. National Archives
+
+**[Senate Staff Report Covert Action in Chile, 1963–1973](https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf)**
+
+U.S. Senate Church Committee / U.S. National Archives · 1975-12-18 · Stufe **A** · Primärquelle · `SRC-US-NARA-CHURCH-CHILE-1975`
+
+[PDF öffnen](https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf)
+
+Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 1970 ITT-Kontakte und $350k, Track II, El Mercurio sowie Postcoup-Medienprojekte. Geschwärztes amtliches Exemplar.
 
 </article>
 

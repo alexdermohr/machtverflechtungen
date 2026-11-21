@@ -3563,6 +3563,67 @@ sources:
   url: https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/
   accessed: "2026-11-21"
   locator: "Army Intelligence Data Platform Artificial Intelligence Platform Lizenz; laut Abruf 21.11.2026 1.166.666,69 USD obligated, keine Auszahlungsbehauptung."
+- id: SRC-US-NARA-CHURCH-CHILE-1975
+  title: "Senate Staff Report Covert Action in Chile, 1963–1973"
+  institution: "U.S. Senate Church Committee / U.S. National Archives"
+  date: "1975-12-18"
+  type: parliamentary_investigative_report
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf
+  accessed: "2026-11-21"
+  locator: "Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 1970 ITT-Kontakte und $350k, Track II, El Mercurio sowie Postcoup-Medienprojekte. Geschwärztes amtliches Exemplar."
+- id: SRC-US-FRUS-MCCONE-KISSINGER-1970
+  title: "Letter John McCone to Henry Kissinger, 14 September 1970 (FRUS XXI, Doc 90)"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-14"
+  type: declassified_personal_correspondence
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1969-76v21/d90
+  accessed: "2026-11-21"
+  locator: "McCone: früher CIA-Direktor, 1970 ITT-Board/Executive Committee; 1 Mio. USD als angebotener politischer Einsatz, 150 Mio. USD Investitions-Buchwert und 95–100 Mio. USD behauptete US-Garantien nicht verifiziert als Auszahlungen."
+- id: SRC-US-FRUS-CIA-TRACK2-1970
+  title: "CIA Message to Station Chile, 21 September 1970 (FRUS E–16, Doc 22)"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-21"
+  type: declassified_intelligence_instruction
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1969-76ve16/d22
+  accessed: "2026-11-21"
+  locator: "CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für militärische Lösung vor Allendes Regierungsantritt, Botschafter/Außenministerium auszuschließen."
+- id: SRC-US-FRUS-CIA-MERCURIO-1972
+  title: "CIA Memorandum for 40 Committee, 10 April 1972 (FRUS E–16, Doc 108)"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-04-10"
+  type: declassified_intelligence_funding_memo
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1969-76ve16/d108
+  accessed: "2026-11-21"
+  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten."
+- id: SRC-US-FRUS-GUATEMALA-PREFACE-2003
+  title: "FRUS 1952–1954 Guatemala, Preface (2003)"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "2003-04-01"
+  type: official_declassified_history_editorial
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  accessed: "2026-11-21"
+  locator: "Amtliche Einordnung der CIA-Aktion Operation PBSUCCESS zur Destabilisierung/stürzung der demokratisch gewählten Regierung Guatemala; deklassifizierte Unterlagen."
+- id: SRC-US-FRUS-GUATEMALA-1952-EDITORIAL
+  title: "FRUS 1952–1954 Guatemala, Document 1 Editorial Note"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "2003"
+  type: official_declassified_history_editorial
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d1
+  accessed: "2026-11-21"
+  locator: "US-Außenministeriums-Editoren vermerken finanziellen Rückhalt der potentiellen Rebellen um Carlos Castillo Armas 1952 aus Nicaragua, Dominikanischer Republik und United Fruit; referenziert CIA-Historie, kein Einzelkontoauszug."
+
 
 - id: SRC-DE-CAU-UNIZEIT-ULFKOTTE-2003
   title: "unizeit 18.10.2003: Interview Udo Ulfkotte – Der Krieg in unseren Städten"

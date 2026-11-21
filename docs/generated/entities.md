@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**304 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**314 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -45,6 +45,7 @@
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
+| John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
@@ -123,6 +124,7 @@
 | Anduril Industries | defense_technology_company | `ORG-US-ANDURIL` | US | [3](network.md#rel-us-army-anduril-titan-order-2026) |
 | Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
+| Anti-Allende-Wahlkampf Chile 1970 | historical_electoral_campaign | `PRG-CL-ANTI-ALLENDE-1970` | CL | [1](network.md#rel-us-itt-allende-opposition-1970) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE | [1](network.md#rel-de-tmn-006) |
@@ -166,10 +168,12 @@
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
-| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [4](network.md#rel-de-mni-006) |
+| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [11](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
+| Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [1](network.md#rel-us-cia-chile-junta-propaganda-1973) |
 | Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
 | Christlich Demokratische Union Deutschlands (CDU, 1991) | historical_political_party | `ORG-DE-CDU-1991` | DE | [1](network.md#rel-de-ab-kiep-cdu-donation-1991-001) |
+| CIA Track II: Chile 1970 | historical_covert_operation | `PRG-CL-CIA-TRACK-II-1970` | US, CL | [1](network.md#rel-us-cia-track-ii-chile-1970) |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
@@ -195,6 +199,7 @@
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
+| El Mercurio (Chile) | historical_media_organization | `ORG-CL-EL-MERCURIO-1971` | CL | [1](network.md#rel-us-cia-el-mercurio-1971-1972) |
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
 | Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Ente Nazionale Idrocarburi (ENI, historisch 1978–1982) | historical_state_enterprise | `ORG-IT-ENI-1978` | IT | [1](network.md#rel-it-eni-trad-1979-001) |
@@ -214,6 +219,7 @@
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
 | German Marshall Fund of the United States (GMF) | transatlantic_foundation | `ORG-US-GMF-2012` | US | [5](network.md#rel-de-ab-jour-gmf-1992-001) |
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |
+| Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
@@ -221,6 +227,7 @@
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
+| International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [3](network.md#rel-us-mccone-itt-board-1970) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
@@ -247,10 +254,12 @@
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [1](network.md#rel-int-bcci-004) |
+| Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
+| Partido Demócrata Cristiano de Chile (PDC) | historical_political_party | `ORG-CL-CHRISTIAN-DEMOCRATS-1964` | CL | [1](network.md#rel-us-cia-pdc-campaign-1964) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
@@ -291,6 +300,7 @@
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
+| United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
