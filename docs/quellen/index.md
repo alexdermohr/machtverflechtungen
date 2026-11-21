@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**312 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**308 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-us-sachs-fares-ai-war-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2525,21 +2525,6 @@ Fundstelle: Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinn
 
 </article>
 
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
-
-<a id="src-us-sachs-fares-ai-war-2026"></a>
-### Jeffrey D. Sachs and Sybil Fares
-
-**[Ukraine: America's Enduring Proxy War on Russia](https://www.jeffsachs.org/newspaper-articles/abpd4r6tdaw35jr5eey649kbblx53r)**
-
-Jeffrey D. Sachs and Sybil Fares · 2026-07-21 · Stufe **A** · Primärquelle · `SRC-US-SACHS-FARES-AI-WAR-2026`
-
-[Seite öffnen](https://www.jeffsachs.org/newspaper-articles/abpd4r6tdaw35jr5eey649kbblx53r)
-
-Fundstelle: Beweist Urheberschaft und Wortlaut von Sachs/Fares-Hypothese über Silicon Valley und militärisch-industriellen Komplex, nicht die unterstellte politische Kontrolle.
-
-</article>
-
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-de-jhs-newbridge-2026"></a>
@@ -2747,21 +2732,6 @@ Ministry of Defence of Ukraine · 2026-01-21 · Stufe **A** · Primärquelle · 
 [Seite öffnen](https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions)
 
 Fundstelle: Kooperationspartner, Aufgaben und Einsatz realer Militärdaten; institutionell mit Digitalministeriums-Mitteilung verwandt.
-
-</article>
-
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
-
-<a id="src-ua-digital-brave1-2026"></a>
-### Ministry of Digital Transformation of Ukraine
-
-**[Ukraine Launches Brave1 Dataroom with Palantir to Train AI Models Using Battlefield Data](https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data)**
-
-Ministry of Digital Transformation of Ukraine · 2026-01-20 · Stufe **A** · Primärquelle · `SRC-UA-DIGITAL-BRAVE1-2026`
-
-[Seite öffnen](https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data)
-
-Fundstelle: Einsatz realer visueller/thermischer Kriegsdaten für Erkennung/Abwehr feindlicher Drohnen; Palantir-Software.
 
 </article>
 
@@ -3268,36 +3238,6 @@ U.S. District Court for the District of Columbia · 1998-08-13 · Stufe **A** ·
 [Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)
 
 Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992
-
-</article>
-
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
-
-<a id="src-us-gao-ota-data-2025"></a>
-### U.S. Government Accountability Office
-
-**[Other Transaction Agreements: Improved Contracting Data Would Help DOD Assess Effectiveness (GAO-25-107546)](https://files.gao.gov/reports/GAO-25-107546/index.html)**
-
-U.S. Government Accountability Office · 2025-09-03 · Stufe **A** · Primärquelle · `SRC-US-GAO-OTA-DATA-2025`
-
-[Seite öffnen](https://files.gao.gov/reports/GAO-25-107546/index.html)
-
-Fundstelle: Generelle OTA-Transparenz und Wirksamkeitsprüfung; kein spezifischer TITAN-Verstoß belegt.
-
-</article>
-
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
-
-<a id="src-us-gao-ai-acquisitions-2026"></a>
-### U.S. Government Accountability Office
-
-**[Artificial Intelligence Acquisitions: Agencies Should Collect and Apply Lessons Learned to Improve Future Procurements (GAO-26-107859)](https://www.gao.gov/products/gao-26-107859)**
-
-U.S. Government Accountability Office · 2026-04-13 · Stufe **A** · Primärquelle · `SRC-US-GAO-AI-ACQUISITIONS-2026`
-
-[Seite öffnen](https://www.gao.gov/products/gao-26-107859)
-
-Fundstelle: DOD/DHS/GSA/VA-Querschnitt, Datenrechte/Preisprüfung/Lernmechanismen, vier Empfehlungen; keine spezifische Palantir-Verurteilung.
 
 </article>
 

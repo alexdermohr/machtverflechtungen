@@ -3523,16 +3523,6 @@ sources:
   url: https://www.army.mil/article-amp/293409/army_and_industry_align_on_common_data_baseline_as_next_generation_command_and_control_moves_from_prototyping_to_delivery
   accessed: "2026-11-21"
   locator: "Anduril Lattice, Palantir Foundry und Raft gemeinsam in Army-NGC2-Datenarchitektur, ohne hier belegte Einzelzahlungen."
-- id: SRC-UA-DIGITAL-BRAVE1-2026
-  title: "Ukraine Launches Brave1 Dataroom with Palantir to Train AI Models Using Battlefield Data"
-  institution: "Ministry of Digital Transformation of Ukraine"
-  date: "2026-01-20"
-  type: official_project_announcement
-  primary: true
-  tier: A
-  url: https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data
-  accessed: "2026-11-21"
-  locator: "Einsatz realer visueller/thermischer Kriegsdaten für Erkennung/Abwehr feindlicher Drohnen; Palantir-Software."
 - id: SRC-UA-MOD-BRAVE1-2026
   title: "Ministry of Defence launches Brave1 Dataroom, a secure environment for training military AI solutions"
   institution: "Ministry of Defence of Ukraine"
@@ -3553,26 +3543,6 @@ sources:
   url: https://www.army.mil/article-amp/289747/setaf_af_public_affairs_experiment_with_emerging_technology_to_shape_the_information_environment
   accessed: "2026-11-21"
   locator: "Offene Erprobung von Palantirs Maven Smart System in Army Public Affairs zur Informationslage und Narrativkommunikation; kein verdeckter Geheimdienstbeweis."
-- id: SRC-US-GAO-AI-ACQUISITIONS-2026
-  title: "Artificial Intelligence Acquisitions: Agencies Should Collect and Apply Lessons Learned to Improve Future Procurements (GAO-26-107859)"
-  institution: "U.S. Government Accountability Office"
-  date: "2026-04-13"
-  type: government_audit
-  primary: true
-  tier: A
-  url: https://www.gao.gov/products/gao-26-107859
-  accessed: "2026-11-21"
-  locator: "DOD/DHS/GSA/VA-Querschnitt, Datenrechte/Preisprüfung/Lernmechanismen, vier Empfehlungen; keine spezifische Palantir-Verurteilung."
-- id: SRC-US-GAO-OTA-DATA-2025
-  title: "Other Transaction Agreements: Improved Contracting Data Would Help DOD Assess Effectiveness (GAO-25-107546)"
-  institution: "U.S. Government Accountability Office"
-  date: "2025-09-03"
-  type: government_audit
-  primary: true
-  tier: A
-  url: https://files.gao.gov/reports/GAO-25-107546/index.html
-  accessed: "2026-11-21"
-  locator: "Generelle OTA-Transparenz und Wirksamkeitsprüfung; kein spezifischer TITAN-Verstoß belegt."
 - id: SRC-US-ARMY-AMMUNITION-PALANTIR-2026
   title: "US Army awards contract to modernize ammunition management"
   institution: "U.S. Army Public Affairs"
@@ -3593,13 +3563,3 @@ sources:
   url: https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/
   accessed: "2026-11-21"
   locator: "Army Intelligence Data Platform Artificial Intelligence Platform Lizenz; laut Abruf 21.11.2026 1.166.666,69 USD obligated, keine Auszahlungsbehauptung."
-- id: SRC-US-SACHS-FARES-AI-WAR-2026
-  title: "Ukraine: America's Enduring Proxy War on Russia"
-  institution: "Jeffrey D. Sachs and Sybil Fares"
-  date: "2026-07-21"
-  type: author_original_publication
-  primary: true
-  tier: A
-  url: https://www.jeffsachs.org/newspaper-articles/abpd4r6tdaw35jr5eey649kbblx53r
-  accessed: "2026-11-21"
-  locator: "Beweist Urheberschaft und Wortlaut von Sachs/Fares-Hypothese über Silicon Valley und militärisch-industriellen Komplex, nicht die unterstellte politische Kontrolle."

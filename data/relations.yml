@@ -3112,7 +3112,7 @@ relations:
     label: "Ukrainisches Verteidigungsministerium und Palantir starteten Brave1-Dataroom-Technologieprojekt mit realen Drohnen-/Gefechtsdaten; kein Projektbetrag genannt"
     period: {start: "2026-01-21"}
     evidence_level: established
-    sources: [SRC-UA-MOD-BRAVE1-2026, SRC-UA-DIGITAL-BRAVE1-2026]
+    sources: [SRC-UA-MOD-BRAVE1-2026]
   - id: REL-UA-BRAVE1-PALANTIR-SOFTWARE-2026
     from: PRG-UA-BRAVE1-DATAROOM
     to: ORG-US-PALANTIR-TECH
@@ -3120,7 +3120,7 @@ relations:
     label: "Brave1 Dataroom nutzt Palantir-Software als Basis zum Training/Validieren militärischer KI; keine belegte Datenverkaufssumme"
     period: {start: "2026-01-20"}
     evidence_level: established
-    sources: [SRC-UA-DIGITAL-BRAVE1-2026, SRC-UA-MOD-BRAVE1-2026]
+    sources: [SRC-UA-MOD-BRAVE1-2026]
   - id: REL-US-SETAF-PALANTIR-MAVEN-PA-2025
     from: ORG-US-ARMY-SETAF-AF
     to: ORG-US-PALANTIR-TECH
