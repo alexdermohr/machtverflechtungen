@@ -3623,3 +3623,64 @@ sources:
   url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d1
   accessed: "2026-11-21"
   locator: "US-Außenministeriums-Editoren vermerken finanziellen Rückhalt der potentiellen Rebellen um Carlos Castillo Armas 1952 aus Nicaragua, Dominikanischer Republik und United Fruit; referenziert CIA-Historie, kein Einzelkontoauszug."
+
+
+- id: SRC-DE-CAU-UNIZEIT-ULFKOTTE-2003
+  title: "unizeit 18.10.2003: Interview Udo Ulfkotte – Der Krieg in unseren Städten"
+  institution: "Christian-Albrechts-Universität zu Kiel / unizeit"
+  date: "2003-10-18"
+  type: contemporaneous_original_interview
+  primary: true
+  tier: C
+  url: https://www.uni-kiel.de/fileadmin/user_upload/unizeit/pdf/unizeit-18.pdf
+  accessed: "2026-11-21"
+  locator: "Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr als 80 Prozent seiner Terrorismus-Erkenntnisse aus BKA und 'vom Nachrichtendienst' erhalten, erklärt Mehrquellenabgleich; Meldung über Annette-Barthelt-Staatsbürgerpreis 6.000 EUR"
+  notes: "Primärbeleg für den exakten im Original gedruckten Ulfkotte-Selbstaussagewortlaut; 'Nachrichtendienst' nicht automatisch BND, behauptete Prozentquote nicht unabhängig auditiert. Preis angekündigt, nicht Zahlbeleg."
+
+- id: SRC-DE-BARTHELT-STAATSBUERGER-ULFKOTTE-2003
+  title: "Annette Barthelt-Stiftung: Staatsbürgerpreisträger 2003 Udo Ulfkotte und Laudator Günther Beckstein"
+  institution: "Annette Barthelt-Stiftung e. V."
+  date: "2003-12-12"
+  type: original_foundation_award_chronicle
+  primary: true
+  tier: A
+  url: https://annette-barthelt-stiftung.de/staatspreistraeger.html
+  accessed: "2026-11-21"
+  locator: "Preisträgerchronik zum 12.12.2003: Verleihung im Presse-Club Bonn an Ulfkotte mit Laudatio des bayerischen Innenministers Günther Beckstein und Foto"
+  notes: "Primäre Selbstdokumentation des Preisveranstalters. Keine Einzelbuchungsbestätigung über die für 2003 in unizeit angekündigte Dotierung von 6.000 EUR und kein Dokument eines ministeriellen journalistischen Auftrags."
+
+- id: SRC-DE-MESSAGE-ULFKOTTE-TAUBERT-2006
+  title: "Ein ganz besonderes Paar – Geheimdienste und Journalisten, Fall Udo Ulfkotte"
+  institution: "message, Internationale Zeitschrift für Journalismus / Greta Taubert"
+  date: "2006"
+  type: original_continued_press_account
+  primary: false
+  tier: B
+  url: https://d-nb.info/1382647891/34
+  accessed: "2026-11-21"
+  locator: "message 1/2006, gedruckte S. 29, Erich-Schmidt-Eenboom-1998er Zitat paraphrasiert und Bericht über Ulfkottes BND-Instrumentalisierungseingeständnis bei Netzwerk-Recherche-Konferenz Juni 2005; verweist auf message 3/2005"
+  notes: "Zeitgenössischer originaler Presseartikel; nicht Tonaufnahme 2005 oder Urschrift von Undercover (1998). Der ursprüngliche Interviewwortlaut ist gesondert zu authentifizieren."
+
+- id: SRC-DE-WELT-ULFKOTTE-ERM-2004
+  title: "Staatsanwaltschaft durchsucht Privat- und Büroräume von Autor Udo Ulfkotte"
+  institution: "Die Welt / Jan Rübel"
+  date: "2004-04-01"
+  type: contemporaneous_prosecutorial_press_reporting
+  primary: false
+  tier: B
+  url: https://www.welt.de/print-welt/article303930/Staatsanwaltschaft-durchsucht-Privat-und-Bueroraeume-von-Autor-Udo-Ulfkotte.html
+  accessed: "2026-11-21"
+  locator: "Staatsanwaltschaft Frankfurt bestätigt laut Bericht Durchsuchungen und Ermittlungen wegen Verdachts Anstiftung zum Verrat von Dienstgeheimnissen; Ulfkotte bestritt Bestechung"
+  notes: "Zeitgenössische Berichterstattung über Ermittlungen, kein Strafurteil, keine Verfahrensentscheidung oder Schuldbeleg."
+
+- id: SRC-DE-TAZ-ULFKOTTE-VERFAHREN-2007
+  title: "Der Kreuzretter"
+  institution: "taz / Astrid Geisler"
+  date: "2007-07-18"
+  type: contemporaneous_followup_interview
+  primary: false
+  tier: B
+  url: https://taz.de/Der-Kreuzretter/!257192/
+  accessed: "2026-11-21"
+  locator: "Journalistischer Rückblick: Frankfurter Ermittlungen 2004 gegen Ulfkotte später eingestellt, Vorwürfe gegen ihn nicht belegt; sonstige Gegenreaktionen nicht als gerichtlich festgestellt darstellen"
+  notes: "Späterer Pressenachbericht, kein authentifizierter Einstellungsbeschluss oder staatsanwaltschaftliches Schlussdokument."

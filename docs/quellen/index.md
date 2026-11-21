@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**314 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**319 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -127,6 +127,21 @@ American Friends of Bilderberg Inc. / US Internal Revenue Service · 2010 · Stu
 [PDF öffnen](https://info.publicintelligence.net/AmericanBilderberg-2010.pdf)
 
 Fundstelle: PDF-Bildseite 18 (Nullindex 17), Schedule B Part I, Donald Graham 25.000 USD
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-de-barthelt-staatsbuerger-ulfkotte-2003"></a>
+### Annette Barthelt-Stiftung e. V.
+
+**[Annette Barthelt-Stiftung: Staatsbürgerpreisträger 2003 Udo Ulfkotte und Laudator Günther Beckstein](https://annette-barthelt-stiftung.de/staatspreistraeger.html)**
+
+Annette Barthelt-Stiftung e. V. · 2003-12-12 · Stufe **A** · Primärquelle · `SRC-DE-BARTHELT-STAATSBUERGER-ULFKOTTE-2003`
+
+[Seite öffnen](https://annette-barthelt-stiftung.de/staatspreistraeger.html)
+
+Fundstelle: Preisträgerchronik zum 12.12.2003: Verleihung im Presse-Club Bonn an Ulfkotte mit Laudatio des bayerischen Innenministers Günther Beckstein und Foto
 
 </article>
 
@@ -1337,6 +1352,21 @@ Central Intelligence Agency, Original bei National Security Archive · 1948-03-1
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)
 
 Fundstelle: Document 59, PDF-Bildseite 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2003">
+
+<a id="src-de-cau-unizeit-ulfkotte-2003"></a>
+### Christian-Albrechts-Universität zu Kiel / unizeit
+
+**[unizeit 18.10.2003: Interview Udo Ulfkotte – Der Krieg in unseren Städten](https://www.uni-kiel.de/fileadmin/user_upload/unizeit/pdf/unizeit-18.pdf)**
+
+Christian-Albrechts-Universität zu Kiel / unizeit · 2003-10-18 · Stufe **C** · Primärquelle · `SRC-DE-CAU-UNIZEIT-ULFKOTTE-2003`
+
+[PDF öffnen](https://www.uni-kiel.de/fileadmin/user_upload/unizeit/pdf/unizeit-18.pdf)
+
+Fundstelle: Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr als 80 Prozent seiner Terrorismus-Erkenntnisse aus BKA und 'vom Nachrichtendienst' erhalten, erklärt Mehrquellenabgleich; Meldung über Annette-Barthelt-Staatsbürgerpreis 6.000 EUR
 
 </article>
 
@@ -3693,7 +3723,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-shell-ulfkotte-nigeria-1997-05-23) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -4128,6 +4158,21 @@ Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Beric
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
+
+<a id="src-de-welt-ulfkotte-erm-2004"></a>
+### Die Welt / Jan Rübel
+
+**[Staatsanwaltschaft durchsucht Privat- und Büroräume von Autor Udo Ulfkotte](https://www.welt.de/print-welt/article303930/Staatsanwaltschaft-durchsucht-Privat-und-Bueroraeume-von-Autor-Udo-Ulfkotte.html)**
+
+Die Welt / Jan Rübel · 2004-04-01 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WELT-ULFKOTTE-ERM-2004`
+
+[Seite öffnen](https://www.welt.de/print-welt/article303930/Staatsanwaltschaft-durchsucht-Privat-und-Bueroraeume-von-Autor-Udo-Ulfkotte.html)
+
+Fundstelle: Staatsanwaltschaft Frankfurt bestätigt laut Bericht Durchsuchungen und Ermittlungen wegen Verdachts Anstiftung zum Verrat von Dienstgeheimnissen; Ulfkotte bestritt Bestechung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-zeit-schueler-urbach-1971"></a>
@@ -4308,6 +4353,21 @@ Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2006">
+
+<a id="src-de-message-ulfkotte-taubert-2006"></a>
+### message, Internationale Zeitschrift für Journalismus / Greta Taubert
+
+**[Ein ganz besonderes Paar – Geheimdienste und Journalisten, Fall Udo Ulfkotte](https://d-nb.info/1382647891/34)**
+
+message, Internationale Zeitschrift für Journalismus / Greta Taubert · 2006 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-MESSAGE-ULFKOTTE-TAUBERT-2006`
+
+[Seite öffnen](https://d-nb.info/1382647891/34)
+
+Fundstelle: message 1/2006, gedruckte S. 29, Erich-Schmidt-Eenboom-1998er Zitat paraphrasiert und Bericht über Ulfkottes BND-Instrumentalisierungseingeständnis bei Netzwerk-Recherche-Konferenz Juni 2005; verweist auf message 3/2005
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1987">
 
 <a id="src-uy-carrio-pais-vaciado-1987-bafisud"></a>
@@ -4485,6 +4545,21 @@ Süddeutsche Zeitung / Jakob Augstein · 2010-07-22 · Stufe **B** · Sekundär-
 [Seite öffnen](https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398)
 
 Fundstelle: Kritische Erörterung des Presseleitungstreffens vom 08.10.2008
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2007">
+
+<a id="src-de-taz-ulfkotte-verfahren-2007"></a>
+### taz / Astrid Geisler
+
+**[Der Kreuzretter](https://taz.de/Der-Kreuzretter/!257192/)**
+
+taz / Astrid Geisler · 2007-07-18 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TAZ-ULFKOTTE-VERFAHREN-2007`
+
+[Seite öffnen](https://taz.de/Der-Kreuzretter/!257192/)
+
+Fundstelle: Journalistischer Rückblick: Frankfurter Ermittlungen 2004 gegen Ulfkotte später eingestellt, Vorwürfe gegen ihn nicht belegt; sonstige Gegenreaktionen nicht als gerichtlich festgestellt darstellen
 
 </article>
 

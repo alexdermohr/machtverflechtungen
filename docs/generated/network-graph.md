@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**354 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**357 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -677,6 +677,11 @@ flowchart LR
     N_ORG_US_UNITED_FRUIT_1952["United Fruit Company (1952)"]
     N_ORG_GT_CASTILLO_ARMAS_GROUP["Gruppe um Carlos Castillo Armas (1952)"]
     N_ORG_US_UNITED_FRUIT_1952 -->|"FRUS-Editorial Note: United Fruit gehörte 1952 zur finanziellen Unterstützergruppe potentieller Rebellen um Castillo Armas; Summe, Überweisungsweg und CIA-Direktzahlung ungeklärt"| N_ORG_GT_CASTILLO_ARMAS_GROUP
+    N_ORG_DE_BND -->|"Das Grünen-Sondervotum in BT-Drs 16/13400, S. 963, referiert einen BND-Pressestellenvermerk an den BND-Präsidenten vom 10.11.1997 über den Journalisten Ulfkotte und angeblich bei ihm vorhandene BND-Dokumente (MAT A 374/1, Ordner 42, Bl. 183–186); kein eigener BND-Aktenvolltext oder Beleg der tatsächlichen Aktenübergabe eingesehen"| N_PER_DE_UDO_ULFKOTTE
+    N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG["Annette Barthelt-Stiftung e. V."]
+    N_ORG_DE_ANNETTE_BARTHELT_STIFTUNG -->|"Annette Barthelt-Stiftung dokumentiert Verleihung ihres staatsbürgerlichen Preises an Udo Ulfkotte am 12.12.2003 im Presse-Club Bonn; unizeit nannte eine angekündigte Dotierung von 6.000 EUR, aber eine individuelle Auszahlung ist nicht geprüft"| N_PER_DE_UDO_ULFKOTTE
+    N_PER_DE_GUENTHER_BECKSTEIN["Günther Beckstein"]
+    N_PER_DE_GUENTHER_BECKSTEIN -->|"Der damalige bayerische Innenminister Günther Beckstein hielt laut eigener Preisträgerchronik der Annette Barthelt-Stiftung die Laudatio auf Udo Ulfkotte bei der Preisverleihung am 12.12.2003; dokumentierte öffentliche Anerkennung, keine belegte Weisung an journalistische Veröffentlichungen"| N_PER_DE_UDO_ULFKOTTE
 ```
 
 [Zur Relationstabelle](network.md)
