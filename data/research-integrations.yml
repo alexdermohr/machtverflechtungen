@@ -488,3 +488,9 @@ studies:
     relation_ids:
       - REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
       - REL-INT-SHELL-FAZ-PR-REUSE-1996-001
+
+  udo-ulfkotte-bka-mykonos-verschlusssachen-bundestag-1996-1997.md:
+    sha256: 64d66f1709528c6790bf56721f1fa11f69c6612187b290f22083f6dff6ec1884
+    status: network
+    relation_ids:
+      - REL-DE-BKA-ULFKOTTE-MYKONOS-1996-001

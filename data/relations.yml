@@ -2992,3 +2992,14 @@ relations:
     sources:
       - SRC-DE-TAZ-SHELL-ULFKOTTE-NIGERIA-1997-05-23
       - SRC-DE-TAZ-SHELL-ULFKOTTE-LGKOELN-1997-07-03
+
+  - id: REL-DE-BKA-ULFKOTTE-MYKONOS-1996-001
+    from: ORG-DE-BKA
+    to: PER-DE-UDO-ULFKOTTE
+    type: invited_external_expert_to_security_briefing
+    label: "BKA lud Ulfkotte nach der Bundesregierung für eine einzelne ressortübergreifende Mykonos-Gefährdungslagebesprechung am 27.11.1996 als Experten für inneriranische Verhältnisse und ausdrücklich nicht als Pressevertreter ein; keine amtlich bestätigte Übergabe geheimer Verschlusssachen oder Agentenrolle"
+    period: {start: "1996-11-27", end: "1996-11-27"}
+    evidence_level: established
+    sources:
+      - SRC-DE-BT-ULFKOTTE-BKA-1997-8433
+      - SRC-DE-BT-ULFKOTTE-BKA-1997-8534
