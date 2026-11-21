@@ -3205,3 +3205,153 @@ sources:
   accessed: "2026-11-21"
   locator: "Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980."
   notes: "Historisch-ökonomische Analyse mit Daten aus Branchenquellen, keine amtliche Originalbuchhaltung jedes Fonds und keine Pensionszahlungen an Warburg Pincus nachgewiesen. Unterschiedliche Erhebungsperioden und Gegenregulierung werden ausdrücklich genannt; Autoren vertreten nicht zwangsläufig die Auffassung des Federal-Reserve-Gouverneursrats."
+- id: SRC-US-WAPO-SACHS-POLAND-1989
+  title: "Harvard Prof's Shock Therapy Spurs Polish Economic Debate"
+  institution: "Washington Post"
+  date: "1989-09-23"
+  type: contemporary_reporting
+  primary: false
+  tier: C
+  url: https://www.washingtonpost.com/archive/politics/1989/09/23/harvard-profs-shock-therapy-spurs-polish-economic-debate/ddfec196-366b-4fa2-b9b7-df4b8a4032ad/
+  accessed: "2026-11-21"
+  locator: "Zeitgenössisch: Sachs/Lipton, Kontakte zu Solidarność und Bezahlung von Reisen durch Soros-Stiftung"
+- id: SRC-US-NEWYORKER-SOROS-POLAND-1989
+  title: "A Grand Experiment"
+  institution: "The New Yorker"
+  date: "1989-11-13"
+  type: contemporary_reporting
+  primary: false
+  tier: C
+  url: https://www.newyorker.com/magazine/1989/11/13/a-grand-experiment
+  accessed: "2026-11-21"
+  locator: "Identifiziert Stefan Batory Foundation als Finanzierer der Sachsteams-Reisen"
+- id: SRC-US-SACHS-LIPTON-SOLIDARNOSC-1989
+  title: "Summary of the Proposed Economic Program of Solidarity"
+  institution: "Jeffrey Sachs / David Lipton"
+  date: "1989"
+  type: original_policy_proposal
+  primary: true
+  tier: A
+  url: https://www.jeffsachs.org/newspaper-articles/45brjxpph5hw7fllbbx8ka27e7nx8j
+  accessed: "2026-11-21"
+  locator: "Primäre Beschreibung des gemeinsam vorgeschlagenen Reformprogramms"
+- id: SRC-US-IMF-SACHS-2012
+  title: "People in Economics: A Project in Every Port"
+  institution: "International Monetary Fund"
+  date: "2012-12-01"
+  type: institutional_retrospective
+  primary: false
+  tier: B
+  url: https://www.imf.org/external/pubs/ft/fandd/2012/12/people.htm
+  accessed: "2026-11-21"
+  locator: "Retrospektive zu polnischem Reformprozess und Sachs' wirtschaftspolitischem Russlandmandat"
+- id: SRC-US-HARVARD-CRIMSON-YELTSIN-1994
+  title: "Sachs Quits As Economic Consultant To Yeltsin"
+  institution: "The Harvard Crimson"
+  date: "1994-01-24"
+  type: contemporary_reporting
+  primary: false
+  tier: C
+  url: https://www.thecrimson.com/article/1994/1/24/sachs-quits-as-economic-consultant-to/
+  accessed: "2026-11-21"
+  locator: "Beendigung der Beratung, Januar 1994; Kritik am IMF und westlicher Hilfe"
+- id: SRC-US-HARVARD-MAG-HIID-1997
+  title: "Harvard in Russia: Conflicts of Interest"
+  institution: "Harvard Magazine"
+  date: "1997"
+  type: contemporary_institutional_reporting
+  primary: false
+  tier: C
+  url: https://www.harvardmagazine.com/sites/default/files/html/1997/07a/jhj.russia.html
+  accessed: "2026-11-21"
+  locator: "Mehr als 40 Mio. USD USAID an HIID-Projekte seit 1992; Sachs seit 1995 Direktor; Abberufung Shleifer/Hay"
+- id: SRC-US-GAO-RUSSIA-HIID-2000
+  title: "Foreign Assistance: International Efforts to Aid Russia's Transition Have Had Mixed Results (GAO-01-8)"
+  institution: "U.S. General Accounting Office"
+  date: "2000-11-01"
+  type: government_audit
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/gao-01-8.pdf#page=82
+  accessed: "2026-11-21"
+  locator: "S. 80/PDF-Bildseite 82 am 21.11.2026 bildseitig geprüft: HIID beaufsichtigte 300 Mio. USD US-Russlandhilfe, relativ geringe USAID-Aufsicht; Vertragsende 1997"
+- id: SRC-US-HARVARD-MAG-HIID-2005
+  title: "Russia Case (and Dust) Settle"
+  institution: "Harvard Magazine"
+  date: "2005-11-01"
+  type: investigative_report
+  primary: false
+  tier: C
+  url: https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html
+  accessed: "2026-11-21"
+  locator: "Zivilvergleich mehr als 31 Mio. USD, 26,5 Mio. USD Harvard plus Shleifer/Hay u.a.; keine persönliche Verurteilung Sachs"
+- id: SRC-US-HARVARD-CRIMSON-HIID-1999
+  title: "Govt. Launches Investigation Of HIID Experts"
+  institution: "The Harvard Crimson"
+  date: "1999-02-04"
+  type: contemporary_reporting
+  primary: false
+  tier: C
+  url: https://www.thecrimson.com/article/1999/2/4/govt-launches-investigation-of-hiid-experts/
+  accessed: "2026-11-21"
+  locator: "Quellennahe Berichterstattung zu Aufsichtsproblemen und fehlendem persönlichen Verdacht gegen Sachs"
+- id: SRC-UN-DESA-SDSN-LAUNCH-2012
+  title: "Sustainable Development Network Launched to Help Find Solutions to Global Problems"
+  institution: "United Nations DESA"
+  date: "2012-08-16"
+  type: official_announcement
+  primary: true
+  tier: A
+  url: https://www.un.org/development/desa/en/news/sustainable/sustainable-development-network.html
+  accessed: "2026-11-21"
+  locator: "SDSN als neues unabhängiges Netzwerk unter Sachs-Leitung"
+- id: SRC-INT-SDSN-SACHS-PROFILE-2026
+  title: "Jeffrey Sachs – President"
+  institution: "Sustainable Development Solutions Network"
+  date: "2026-11-21"
+  type: official_biography
+  primary: true
+  tier: A
+  url: https://www.unsdsn.org/about/profile/jeffrey-sachs/
+  accessed: "2026-11-21"
+  locator: "Sachs-Funktionen am Abrufdatum; nicht Beleg für Detailgeschichte sämtlicher beratener Länder"
+- id: SRC-INT-SDSN-FINANCIALS-2026
+  title: "Financials, Operations, and By-Laws"
+  institution: "Sustainable Development Solutions Network"
+  date: "2026-11-21"
+  type: official_governance_page
+  primary: true
+  tier: A
+  url: https://www.unsdsn.org/about/financials-operations-and-by-laws/
+  accessed: "2026-11-21"
+  locator: "Rechtlich eigenständige SDSN Association; Verfügbarkeit geprüfter Jahresabschlüsse FY2016–FY2025"
+- id: SRC-INT-SDSN-PARTNERS-2026
+  title: "Partnerships – Financial Supporters"
+  institution: "Sustainable Development Solutions Network"
+  date: "2026-11-21"
+  type: official_donor_listing
+  primary: true
+  tier: A
+  url: https://www.unsdsn.org/about/partnerships/
+  accessed: "2026-11-21"
+  locator: "Offizielle Liste finanzieller Unterstützer, ohne einzelne Auszahlungen und Beträge"
+- id: SRC-UK-BMJ-COVID-TASKFORCE-2021
+  title: "Covid-19: Lancet investigation into origin of pandemic shuts down over bias risk"
+  institution: "British Medical Journal"
+  date: "2021-10-01"
+  type: medical_journal_news
+  primary: false
+  tier: B
+  url: https://www.bmj.com/content/375/bmj.n2414
+  accessed: "2026-11-21"
+  locator: "2021er Auflösung der Arbeitsgruppe wegen COI-Bedenken zu Peter Daszak/EcoHealth"
+- id: SRC-UN-WHO-LANCET-SACHS-2022
+  title: "WHO Director-General opening remarks at the launch of the Lancet COVID-19 Commission Final Report"
+  institution: "World Health Organization"
+  date: "2022-09-15"
+  type: official_speech
+  primary: true
+  tier: A
+  url: https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-launch-of-the-lancet-covid-19-commission-final-report---15-september-2022
+  accessed: "2026-11-21"
+  locator: "Bestätigt Sachs als Kommissionsleiter; kein Ursprungsgutachten"

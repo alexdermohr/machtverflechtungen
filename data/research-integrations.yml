@@ -476,3 +476,27 @@ studies:
       - REL-US-ERISA-RULE-PORTFOLIO-1979-001
       - REL-US-FED-STAFF-PE-STUDY-1995-001
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
+  jeffrey-sachs-soros-harvard-usaid-sdsn-1985-2026.md:
+    sha256: 2ad7089447465166a6cf128b783529c1d1c2d2b78d0022221e2ecc047ce63a84
+    status: network
+    relation_ids:
+      - REL-INT-SACHS-001
+      - REL-INT-SACHS-002
+      - REL-INT-SACHS-003
+      - REL-INT-SACHS-004
+      - REL-INT-SACHS-005
+      - REL-INT-SACHS-006
+      - REL-INT-SACHS-007
+      - REL-INT-SACHS-008
+      - REL-INT-SACHS-009
+      - REL-INT-SACHS-010
+      - REL-INT-SACHS-011
+      - REL-INT-SACHS-012
+      - REL-INT-SACHS-013
+      - REL-INT-SACHS-014
+      - REL-INT-SACHS-015
+      - REL-INT-SACHS-016
+      - REL-INT-SACHS-017
+      - REL-INT-SACHS-018
+      - REL-INT-SACHS-019
+      - REL-INT-SACHS-020

@@ -1601,3 +1601,108 @@ entities:
     name: "Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995)"
     countries: [US]
     notes: "Von Fenn, Liang und Prowse verfasste Forschungsstudie, Dezember 1995, keine zwingende Billigung jeder Interpretation durch den Board of Governors. Berichtet historische Pensionskapital-Aggregate 1976–1979 und gegenläufige DOL-Regulierung 1979/80."
+  - id: PER-US-JEFFREY-SACHS
+    type: person
+    name: "Jeffrey D. Sachs"
+    countries: [US]
+    notes: "Wirtschaftspolitischer Berater in Bolivien, Polen und Russland; Direktor HIID ab 1995, Präsident SDSN. Institutionelle Leitungsfunktion nicht mit persönlicher Verstrickung in den Harvard/USAID-Interessenkonfliktfall gleichsetzen."
+  - id: PER-US-GEORGE-SOROS
+    type: person
+    name: "George Soros"
+    countries: [US]
+    notes: "Stifter im Umfeld der polnischen Stefan-Batory-Stiftung; zeitgenössisch dokumentierte Finanzierungsbeziehung zu Sachs' Polenreisen 1989."
+  - id: PER-US-DAVID-LIPTON
+    type: person
+    name: "David Lipton"
+    countries: [US]
+    notes: "Mitautor von Sachs' polnischem Wirtschaftsreformprogramm 1989; damaliger IMF-Mitarbeiter."
+  - id: ORG-PL-STEFAN-BATORY-FOUNDATION
+    type: foundation
+    name: "Stefan Batory Foundation"
+    countries: [PL]
+    notes: "Von George Soros gegründete Stiftung; finanzierte 1989 Reisen/Beratungsaktivitäten des Sachs-Lipton-Teams in Polen."
+  - id: ORG-PL-SOLIDARNOSC
+    type: political_movement
+    name: "Solidarność / Solidarity"
+    countries: [PL]
+    notes: "Polnische Gewerkschafts- und Oppositionsbewegung; politische Akteure nahmen 1989 Sachs/Lipton als Wirtschaftsberater hinzu."
+  - id: ORG-RU-YELTSIN-GOVERNMENT-1991-1994
+    type: government
+    name: "Regierung Boris Jelzin (Russland, 1991–1994)"
+    countries: [RU]
+    notes: "Historische Regierung; Sachs war 1991/92–1993 wirtschaftspolitischer Berater."
+  - id: ORG-US-HIID
+    type: development_institute
+    name: "Harvard Institute for International Development (HIID)"
+    countries: [US]
+    notes: "Bis 1997 mit USAID geförderten Russlandreformprogrammen betraut; laut GAO strategische Aufsicht über 300 Mio. USD US-Hilfe, nicht eigener Mittelzufluss in dieser Höhe."
+  - id: ORG-US-USAID
+    type: government_agency
+    name: "U.S. Agency for International Development (USAID)"
+    countries: [US]
+    notes: "US-Entwicklungsbehörde; gewährte HIID Fördermittel für Russlandprojekte und beendete Vertragsbeziehung 1997."
+  - id: PER-US-ANDREI-SHLEIFER
+    type: person
+    name: "Andrei Shleifer"
+    countries: [US]
+    notes: "Harvard-Ökonom, leitete das HIID-Russlandprojekt; 1997 wegen Konfliktregelverletzungen aus dem Projekt entfernt, 2005 Partei eines US-Zivilvergleichs."
+  - id: PER-US-JONATHAN-HAY
+    type: person
+    name: "Jonathan Hay"
+    countries: [US]
+    notes: "HIID-Moskauprogrammleiter; 1997 wegen Konfliktregelverletzungen aus dem Projekt entfernt, 2005 Partei eines US-Zivilvergleichs."
+  - id: ORG-INT-SDSN
+    type: policy_network
+    name: "UN Sustainable Development Solutions Network (SDSN)"
+    countries: [US, FR]
+    notes: "Unabhängiges Netzwerk unter Schirmherrschaft des UN-Generalsekretärs, initiiert 2012; nicht als UN-Sonderorganisation einordnen."
+  - id: ORG-US-SDSN-ASSOCIATION
+    type: nonprofit
+    name: "SDSN Association, Inc."
+    countries: [US]
+    notes: "Eigenständige US-amerikanische 501(c)(3)-Trägerorganisation des SDSN-Sekretariats; französische Schwesterstruktur getrennt."
+  - id: ORG-US-COLUMBIA-CSD
+    type: research_center
+    name: "Center for Sustainable Development, Columbia University"
+    countries: [US]
+    notes: "Von Jeffrey Sachs geleitetes Forschungszentrum der Columbia University."
+  - id: ORG-US-GATES-FOUNDATION
+    type: foundation
+    name: "Gates Foundation"
+    countries: [US]
+    notes: "Auf SDSN-Partnerseite als Unterstützer finanzieller Art genannt; Betrag und Zweckbindung nicht aus der Liste ableitbar."
+  - id: ORG-US-BEZOS-EARTH-FUND
+    type: foundation
+    name: "Bezos Earth Fund"
+    countries: [US]
+    notes: "Auf SDSN-Partnerseite als finanzielle Unterstützung gelistet; ohne Einzelbetrag."
+  - id: ORG-DE-BMWK-IKI
+    type: government_funding_program
+    name: "BMWK / Internationale Klimaschutzinitiative (IKI)"
+    countries: [DE]
+    notes: "Von SDSN als finanzieller Unterstützer unter dieser Bezeichnung gelistet, Abruf November 2026."
+  - id: ORG-INT-UNDP
+    type: un_agency
+    name: "United Nations Development Programme (UNDP)"
+    countries: [US]
+    notes: "Von SDSN als finanzieller Unterstützer gelistet; Beziehung nicht als persönlicher Geldfluss an Sachs interpretieren."
+  - id: ORG-INT-UN-SECRETARIAT
+    type: intergovernmental_institution
+    name: "UN-Generalsekretariat"
+    countries: [US]
+    notes: "Ban Ki-moon lancierte 2012 das eigenständige SDSN; Sachs war Sonderberater mehrerer Generalsekretäre."
+  - id: ORG-INT-LANCET-COVID-COMMISSION
+    type: research_commission
+    name: "Lancet COVID-19 Commission"
+    countries: [US, GB]
+    notes: "Wissenschaftliche Kommission 2020–2022, Vorsitz Jeffrey Sachs; Ursprungs-Taskforce 2021 eingestellt."
+  - id: PER-US-PETER-DASZAK
+    type: person
+    name: "Peter Daszak"
+    countries: [US, GB]
+    notes: "EcoHealth-Alliance-Leiter und Mitglied der Ursprungsarbeitsgruppe der Lancet-Kommission."
+  - id: ORG-US-ECOHEALTH-ALLIANCE
+    type: nonprofit
+    name: "EcoHealth Alliance"
+    countries: [US]
+    notes: "Gemeinnützige Forschungsorganisation; Verbindungen zu WIV-Forschungsprojekten wurden 2021 als Interessenkonfliktproblem für Lancet-Taskforce diskutiert."

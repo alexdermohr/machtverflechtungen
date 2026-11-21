@@ -2970,3 +2970,158 @@ relations:
     period: {start: "1976", end: "1979"}
     evidence_level: strong
     sources: [SRC-US-FED-PRIVATE-EQUITY-STAFF-1995]
+  - id: REL-INT-SACHS-001
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-PL-SOLIDARNOSC
+    type: economic_policy_adviser
+    label: "beriet 1989 Vertreter der Solidarność über das marktwirtschaftliche Reformprogramm"
+    period: {start: "1989", end: "1989"}
+    evidence_level: established
+    sources: [SRC-US-SACHS-LIPTON-SOLIDARNOSC-1989, SRC-US-WAPO-SACHS-POLAND-1989]
+  - id: REL-INT-SACHS-002
+    from: PER-US-DAVID-LIPTON
+    to: ORG-PL-SOLIDARNOSC
+    type: economic_policy_adviser
+    label: "erarbeitete 1989 gemeinsam mit Sachs Reformvorschläge für Solidarność"
+    period: {start: "1989", end: "1989"}
+    evidence_level: established
+    sources: [SRC-US-SACHS-LIPTON-SOLIDARNOSC-1989, SRC-US-IMF-SACHS-2012]
+  - id: REL-INT-SACHS-003
+    from: PER-US-GEORGE-SOROS
+    to: ORG-PL-STEFAN-BATORY-FOUNDATION
+    type: foundation_founder
+    label: "gründete und unterstützte die polnische Stefan-Batory-Stiftung"
+    period: {start: "1989"}
+    evidence_level: strong
+    sources: [SRC-US-NEWYORKER-SOROS-POLAND-1989, SRC-US-WAPO-SACHS-POLAND-1989]
+  - id: REL-INT-SACHS-004
+    from: ORG-PL-STEFAN-BATORY-FOUNDATION
+    to: PER-US-JEFFREY-SACHS
+    type: travel_and_advisory_support
+    label: "finanzierte 1989 Reisen/Arbeit des Sachs-Beraterteams in Polen; kein nachgewiesenes persönliches Honorar oder Weisungsverhältnis"
+    period: {start: "1989", end: "1989"}
+    evidence_level: strong
+    sources: [SRC-US-WAPO-SACHS-POLAND-1989, SRC-US-NEWYORKER-SOROS-POLAND-1989]
+  - id: REL-INT-SACHS-005
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-RU-YELTSIN-GOVERNMENT-1991-1994
+    type: economic_policy_adviser
+    label: "wirtschaftspolitischer Berater der Jelzin-Regierung von Ende 1991 bis Ende 1993; Rücktritt Januar 1994 dokumentiert"
+    period: {start: "1991", end: "1994"}
+    evidence_level: strong
+    sources: [SRC-US-IMF-SACHS-2012, SRC-US-HARVARD-CRIMSON-YELTSIN-1994]
+  - id: REL-INT-SACHS-006
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-US-HIID
+    type: institutional_director
+    label: "Direktor des HIID ab 1995, einschließlich der Schlussphase des USAID-Russlandprogramms; keine aus der Leitung allein folgende Schuld am Interessenkonfliktfall"
+    period: {start: "1995", end: "1999"}
+    evidence_level: strong
+    sources: [SRC-US-HARVARD-MAG-HIID-1997]
+  - id: REL-INT-SACHS-007
+    from: ORG-US-USAID
+    to: ORG-US-HIID
+    type: government_grant
+    label: "stellte für HIID-Russlandprogramme seit 1992 bis 1997 mehr als 40 Mio. USD bereit; von 300 Mio. USD unter HIID-Aufsicht getrennt halten"
+    period: {start: "1992", end: "1997"}
+    evidence_level: strong
+    sources: [SRC-US-HARVARD-MAG-HIID-1997]
+  - id: REL-INT-SACHS-008
+    from: ORG-US-HIID
+    to: ORG-US-USAID
+    type: strategic_program_oversight
+    label: "beaufsichtigte laut GAO strategisch 300 Mio. USD US-Russlandhilfe bei relativ geringer USAID-Aufsicht; Portfolio, nicht Harvard-Einnahmen"
+    period: {start: "1992", end: "1997"}
+    evidence_level: established
+    sources: [SRC-US-GAO-RUSSIA-HIID-2000]
+  - id: REL-INT-SACHS-009
+    from: PER-US-ANDREI-SHLEIFER
+    to: ORG-US-HIID
+    type: russia_project_director
+    label: "leitete HIID-Russlandprogramm und wurde 1997 nach Konfliktregelverletzungen aus dem Programm entfernt"
+    period: {start: "1992", end: "1997"}
+    evidence_level: strong
+    sources: [SRC-US-HARVARD-MAG-HIID-1997, SRC-US-HARVARD-MAG-HIID-2005]
+  - id: REL-INT-SACHS-010
+    from: PER-US-JONATHAN-HAY
+    to: ORG-US-HIID
+    type: russia_program_manager
+    label: "leitete operative Programmteile in Moskau und wurde 1997 nach Konfliktregelverletzungen entfernt"
+    period: {start: "1994", end: "1997"}
+    evidence_level: strong
+    sources: [SRC-US-HARVARD-MAG-HIID-1997, SRC-US-HARVARD-MAG-HIID-2005]
+  - id: REL-INT-SACHS-011
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-INT-SDSN
+    type: president
+    label: "Präsident des Sustainable Development Solutions Network, laut SDSN-Website 2026"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-INT-SDSN-SACHS-PROFILE-2026, SRC-UN-DESA-SDSN-LAUNCH-2012]
+  - id: REL-INT-SACHS-012
+    from: ORG-INT-UN-SECRETARIAT
+    to: ORG-INT-SDSN
+    type: founded_under_auspices
+    label: "UN-Generalsekretär Ban Ki-moon lancierte 2012 das unabhängige SDSN; rechtlich kein UN-Organ"
+    period: {start: "2012", end: "2012"}
+    evidence_level: established
+    sources: [SRC-UN-DESA-SDSN-LAUNCH-2012, SRC-INT-SDSN-FINANCIALS-2026]
+  - id: REL-INT-SACHS-013
+    from: ORG-US-SDSN-ASSOCIATION
+    to: ORG-INT-SDSN
+    type: hosts_secretariat
+    label: "eigenständiger US-501(c)(3)-Rechtsträger betreibt SDSN-Sekretariat"
+    period: {start: "2014"}
+    evidence_level: established
+    sources: [SRC-INT-SDSN-FINANCIALS-2026]
+  - id: REL-INT-SACHS-014
+    from: ORG-US-GATES-FOUNDATION
+    to: ORG-INT-SDSN
+    type: listed_financial_supporter
+    label: "auf SDSN-Partnerseite 2026 als finanzieller Unterstützer gelistet; keine Höhe oder individuelle Zuwendung an Sachs ausgewiesen"
+    evidence_level: established
+    sources: [SRC-INT-SDSN-PARTNERS-2026]
+  - id: REL-INT-SACHS-015
+    from: ORG-US-BEZOS-EARTH-FUND
+    to: ORG-INT-SDSN
+    type: listed_financial_supporter
+    label: "auf SDSN-Partnerseite 2026 als finanzieller Unterstützer gelistet; Betrag ungenannt"
+    evidence_level: established
+    sources: [SRC-INT-SDSN-PARTNERS-2026]
+  - id: REL-INT-SACHS-016
+    from: ORG-DE-BMWK-IKI
+    to: ORG-INT-SDSN
+    type: listed_financial_supporter
+    label: "BMWK und IKI auf SDSN-Partnerseite als finanzielle Unterstützer gelistet, Abruf 2026; ohne belegte Einzelzahlung"
+    evidence_level: established
+    sources: [SRC-INT-SDSN-PARTNERS-2026]
+  - id: REL-INT-SACHS-017
+    from: ORG-INT-UNDP
+    to: ORG-INT-SDSN
+    type: listed_financial_supporter
+    label: "UNDP auf SDSN-Partnerseite als finanzieller Unterstützer gelistet, Abruf 2026"
+    evidence_level: established
+    sources: [SRC-INT-SDSN-PARTNERS-2026]
+  - id: REL-INT-SACHS-018
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-US-COLUMBIA-CSD
+    type: director
+    label: "Direktor des Center for Sustainable Development an der Columbia University laut aktueller SDSN-Biografie"
+    evidence_level: established
+    sources: [SRC-INT-SDSN-SACHS-PROFILE-2026]
+  - id: REL-INT-SACHS-019
+    from: PER-US-JEFFREY-SACHS
+    to: ORG-INT-LANCET-COVID-COMMISSION
+    type: chair
+    label: "Vorsitzender der Lancet-COVID-19-Kommission 2020–2022"
+    period: {start: "2020", end: "2022"}
+    evidence_level: established
+    sources: [SRC-UN-WHO-LANCET-SACHS-2022, SRC-UK-BMJ-COVID-TASKFORCE-2021]
+  - id: REL-INT-SACHS-020
+    from: PER-US-PETER-DASZAK
+    to: ORG-US-ECOHEALTH-ALLIANCE
+    type: executive_leadership
+    label: "leitete die EcoHealth Alliance; im Jahr 2021 durch Lancet-Taskforce-Interessenkonfliktdebatte relevant"
+    period: {start: "2021", end: "2021"}
+    evidence_level: strong
+    sources: [SRC-UK-BMJ-COVID-TASKFORCE-2021]
