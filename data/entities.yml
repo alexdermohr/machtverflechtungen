@@ -1487,3 +1487,51 @@ entities:
     name: "ACG McCloy Fellowships (Beginn 1976)"
     countries: [US, DE]
     notes: "Laut ACG-Jahresbericht 2017 1976 begonnenes Austauschangebot u. a. für Journalistinnen/Journalisten, Kunst, Gewerkschaften, Recht und lokale Politik. Die Finanzierung jedes Einzelfellowships aus dem 1975er Kapitalstock ist hier nicht buchhalterisch nachgewiesen."
+
+  - id: ORG-DE-WARBURG-GRUPPE-2023
+    type: financial_holding
+    name: "M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023)"
+    countries: [DE]
+    notes: "Finanzholding; EuG T-366/23 Rn. 5–6 dokumentiert 2023 MWB-1-Anteil 40,24 %, weiteren anonymen Block 41,25 % und 100 % der Bank. Kein Anteilregister für 2026."
+
+  - id: ORG-DE-WARBURG-MWB1-2023
+    type: financial_holding
+    name: "1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1)"
+    countries: [DE]
+    notes: "EuG T-366/23 Rn. 4–8: gesellschaftsrechtliche Zwischenholding. 87,5 % Kapitaleinbringung an FMWV 2013; ursprünglicher Inhaber behielt 12,5 % Kapital, aber 51 % Stimmen über Golden Share. Die spätere Übertragung auf Ehefrau war nur geplant."
+
+  - id: ORG-DE-WARBURG-FMWV-2013
+    type: family_asset_holding
+    name: "Familie Max Warburg Vermögensverwaltung KG (FMWV)"
+    countries: [DE]
+    notes: "Nach EuG T-366/23 2013 Empfängerin von 87,5 % des Kapitals an MWB 1 zugunsten der Kinder; wegen Golden Share, Pooling und Nießbrauch nicht mit identischem Stimmrechtsanteil gleichsetzen."
+
+  - id: ORG-DE-MARCARD-STEIN-2023
+    type: historical_bank
+    name: "Marcard, Stein & Co AG (Warburg-Tochter 2023)"
+    countries: [DE]
+    notes: "Nach EuG T-366/23 Rn. 6 zum Stand der angefochtenen EZB-Entscheidung vom 05.05.2023 vollständig von der Warburg-Bank gehalten; keine Aussage zu einem Verkaufsabschluss 2026."
+
+  - id: ORG-DE-WARBURG-HYPO-2023
+    type: historical_bank
+    name: "M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023)"
+    countries: [DE]
+    notes: "EuG T-366/23 Rn. 6: damals 60-%-Tochter, laut Urteil Verkauf 03.11.2022 und Wirksamkeit 01.06.2023; keine gegenwärtige Warburg-Tochterstellung behaupten."
+
+  - id: ORG-DE-BAFIN-2023
+    type: financial_supervisor
+    name: "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023)"
+    countries: [DE]
+    notes: "EuG T-366/23 Rn. 2 und 9: direkte Aufsicht über weniger bedeutendes Kreditinstitut und 2019er Prüfung; zwei Stimmrechtsbevollmächtigte seit Februar 2020 im damaligen Verfahren."
+
+  - id: ORG-EU-ECB-2023
+    type: central_bank
+    name: "Europäische Zentralbank (EZB)"
+    countries: [DE]
+    notes: "EuG T-366/23 Rn. 2, 19–23: indirekte Bankenaufsicht und Ablehnung des beabsichtigten qualifizierten Anteilserwerbs vom 05.05.2023; eine gerichtliche Anfechtung ist gesondert von der Aufsichtsentscheidung zu unterscheiden."
+
+  - id: ORG-EU-GENERAL-COURT-2025
+    type: court
+    name: "Gericht der Europäischen Union (EuG, Urteil 19.11.2025)"
+    countries: [LU]
+    notes: "Originalentscheidung YH/EZB, T-366/23, ECLI:EU:T:2025:1037; Klageabweisung 2025 belegt den gerichtlichen Verfahrensstand, nicht automatisch den Abschluss etwaiger Rechtsmittel."

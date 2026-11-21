@@ -2718,3 +2718,93 @@ relations:
     period: {start: "1976"}
     evidence_level: strong
     sources: [SRC-US-ACG-ANNUAL-2017-MCCLOY-1976]
+
+  - id: REL-DE-WARBURG-FMWV-MWB1-2013-001
+    from: ORG-DE-WARBURG-FMWV-2013
+    to: ORG-DE-WARBURG-MWB1-2023
+    type: historical_capital_transfer
+    label: "EuG T-366/23 Rn. 4: 2013 gingen 87,5 % des MWB-1-Kapitals zugunsten der Kinder auf FMWV über; ein anonymisierter Altinhaber behielt 12,5 % Kapital und über Golden Share 51 % Stimmen, außerdem Pooling/Nießbrauch. Keine Gleichsetzung von 87,5 % Kapital mit 87,5 % Stimmen oder aktuelle 2026er Quote"
+    period: {start: "2013"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-MWB1-GRUPPE-2023-001
+    from: ORG-DE-WARBURG-MWB1-2023
+    to: ORG-DE-WARBURG-GRUPPE-2023
+    type: court_documented_historical_equity_holding
+    label: "EuG T-366/23 Rn. 5: MWB 1 hielt laut Urteil für den 2023er Sachstand 40,24 % Kapital an der Warburg-Gruppe; weiterer 41,25-%-Block im Urteil nicht namentlich bezeichnet. Keine ungeprüfte Aktualisierung auf 2026"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-GRUPPE-BANK-2023-001
+    from: ORG-DE-WARBURG-GRUPPE-2023
+    to: ORG-DE-MM-WARBURG
+    type: court_documented_wholly_owned_bank
+    label: "EuG T-366/23 Rn. 6: Die Finanzholding Warburg-Gruppe hielt zum entscheidungserheblichen historischen Sachstand 2023 unmittelbar 100 % des Kapitals von M.M.Warburg & CO (AG & Co.) KGaA; nicht als unveränderte 2026er Registerlage behauptet"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-BANK-MARCARD-2023-001
+    from: ORG-DE-MM-WARBURG
+    to: ORG-DE-MARCARD-STEIN-2023
+    type: historical_wholly_owned_bank_subsidiary
+    label: "EuG T-366/23 Rn. 6: Marcard, Stein & Co AG war zum Stand der EZB-Entscheidung vom 05.05.2023 100-%-Tochter der Warburg-Bank; 2026er Veräußerungsankündigung nicht als bereits vollzogener Verkauf oder fortbestehendes Eigentum interpretiert"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-BANK-HYPO-2023-001
+    from: ORG-DE-MM-WARBURG
+    to: ORG-DE-WARBURG-HYPO-2023
+    type: historical_60_percent_bank_subsidiary
+    label: "EuG T-366/23 Rn. 6: 60-%-Beteiligung der Warburg-Bank an der Hypothekenbank im historischen Verfahren; Verkauf am 03.11.2022 vereinbart, zum 01.06.2023 wirksam. Keine über diesen Zeitpunkt fortdauernde Warburg-Eigentümerschaft"
+    period: {start: "2023-05-05", end: "2023-06-01"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-BAFIN-DIRECT-2023-001
+    from: ORG-DE-BAFIN-2023
+    to: ORG-DE-MM-WARBURG
+    type: court_documented_direct_prudential_supervision
+    label: "EuG T-366/23 Rn. 2: BaFin beaufsichtigte das im Verfahren als weniger bedeutend eingestufte Kreditinstitut Warburg unmittelbar; der 2023er Zuständigkeitsbefund ist keine Feststellung einer strafbaren Gegenleistung"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-EU-WARBURG-ECB-INDIRECT-2023-001
+    from: ORG-EU-ECB-2023
+    to: ORG-DE-MM-WARBURG
+    type: court_documented_indirect_prudential_supervision
+    label: "EuG T-366/23 Rn. 2: Die EZB übte beim weniger bedeutenden Warburg-Kreditinstitut 2023 mittelbare Aufsicht aus; von der direkten BaFin-Aufsicht und der gesonderten Erwerbsuntersagung zu unterscheiden"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-DE-WARBURG-MWB1-PROXIES-2020-001
+    from: ORG-DE-WARBURG-MWB1-2023
+    to: ORG-DE-WARBURG-GRUPPE-2023
+    type: court_documented_proxy_voting_arrangement
+    label: "EuG T-366/23 Rn. 9: Im Rahmen der BaFin-Prüfung 2019 vereinbarte MWB 1 zwei seit Februar 2020 eingesetzte Bevollmächtigte zur Ausübung der Stimmrechte an der Warburg-Gruppe. Kein Beleg, dass die Vollmachten unverändert bis 2026 fortbestanden oder kapitalrechtliche Anteile übertrugen"
+    period: {start: "2020"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-EU-WARBURG-ECB-OPPOSITION-2023-001
+    from: ORG-EU-ECB-2023
+    to: ORG-DE-MM-WARBURG
+    type: historical_qualifying_holding_acquisition_opposition
+    label: "EZB-Beschluss vom 05.05.2023 untersagte laut EuG T-366/23 Rn. 1 und 19–23 einen geplanten qualifizierten indirekten Erwerb einer Beteiligung am Warburg-Institut; die Übertragung des Golden Share an die Ehefrau war nur beabsichtigt, keine vollzogene Eigentumsübertragung"
+    period: {start: "2023-05-05"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025]
+
+  - id: REL-EU-WARBURG-EUG-DECISION-2025-001
+    from: ORG-EU-GENERAL-COURT-2025
+    to: ORG-EU-ECB-2023
+    type: court_dismissal_of_appeal_against_ecb_decision
+    label: "EuG T-366/23 wies am 19.11.2025 die Klage gegen den EZB-Erwerbsbeschluss vom 05.05.2023 ab; laut amtlichem InfoCuria-Register ist das am 27.01.2026 eingelegte Rechtsmittel C-39/26 P am 21.11.2026 noch anhängig. Keine letztinstanzliche Bestätigung, neue Eigentumsübertragung oder persönliche Straftat daraus ableiten"
+    period: {start: "2025-11-19"}
+    evidence_level: established
+    sources: [SRC-EU-GENERAL-COURT-WARBURG-T36623-2025, SRC-EU-CJ-WARBURG-APPEAL-C39P-2026]

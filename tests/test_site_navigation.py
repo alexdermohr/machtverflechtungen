@@ -258,15 +258,16 @@ assert.equal(scrollCalls, 1, "visible hash target should not trigger extra scrol
             build_indexes.render_network_focus(
                 [], entities, [relation], "ORG-C", "C"
             )
-        self.assertEqual(len(build_indexes.FOCUS_NETWORKS), 11)
+        self.assertEqual(len(build_indexes.FOCUS_NETWORKS), len({slug for _label, slug, _entity in build_indexes.FOCUS_NETWORKS}))
         finance = {slug: entity for _label, slug, entity in build_indexes.FOCUS_NETWORKS}
         self.assertEqual(finance["biz"], "ORG-INT-BIS")
         self.assertEqual(finance["ig-farben"], "ORG-DE-IG-FARBEN")
         self.assertEqual(finance["tradinvest"], "ORG-BS-TRADINVEST-ENI")
+        self.assertEqual(finance["warburg-kontrolle"], "ORG-DE-MM-WARBURG")
         self.assertEqual(finance["p2"], "ORG-IT-LOGGIA-P2-1970-1981")
         self.assertEqual(finance["rizzoli"], "ORG-IT-RIZZOLI-EDITORE-1975-1984")
         self.assertEqual(finance["ubs-genf-1980"], "ORG-CH-UBS-GENEVA-1980")
-        for slug in ("biz", "ig-farben", "tradinvest", "p2", "rizzoli", "ubs-genf-1980"):
+        for slug in ("biz", "ig-farben", "tradinvest", "p2", "rizzoli", "ubs-genf-1980", "warburg-kontrolle"):
             self.assertTrue((DOCS / "generated" / f"network-focus-{slug}.md").is_file())
 
     def test_responsive_website_features_are_present(self) -> None:

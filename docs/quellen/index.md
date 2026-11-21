@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**268 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**270 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2042,6 +2042,36 @@ Gerald R. Ford Presidential Library, White House Press Releases Box 12 · 1975-0
 [PDF öffnen](https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0248/whpr19750616-018.pdf)
 
 Fundstelle: Scanseiten 3–4 (zero-index 2–3): Scheel kündigt einen mit einem Kapitalstock von 1 Mio. USD ausgestatteten Fonds beim American Council on Germany an; genannte Verwendungsziele Austausch junger Politiker, Gewerkschafts-/Jugendvertreter, Konferenzen und wichtige Publikationen; S. 4 über Massenmedien und gegenseitige Meinungsbilder
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-eu-general-court-warburg-t36623-2025"></a>
+### Gericht der Europäischen Union / EUR-Lex
+
+**[Gericht der Europäischen Union, YH/EZB, Urteil vom 19.11.2025, T-366/23, ECLI:EU:T:2025:1037](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62023TJ0366)**
+
+Gericht der Europäischen Union / EUR-Lex · 2025-11-19 · Stufe **A** · Primärquelle · `SRC-EU-GENERAL-COURT-WARBURG-T36623-2025`
+
+[Seite öffnen](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62023TJ0366)
+
+Fundstelle: Rn. 1–9 und Schaubild (PDF-Seiten 2–3): Holding 40,24 %, anonymisierter 41,25-%-Block, 100-%-Banktochter, Marcard 100 % und Hypothekenbank 60 % historisch; 2013er 87,5-%-Kapitaltransfer, Golden Share 51 % Stimmen; Rn. 9 und 19–23 zu BaFin, Bevollmächtigten und EZB-Ablehnung 05.05.2023; Urteilstenor.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-eu-cj-warburg-appeal-c39p-2026"></a>
+### Gerichtshof der Europäischen Union / InfoCuria
+
+**[Gerichtshof der Europäischen Union, InfoCuria: C-39/26 P - Warburg v ECB, Rechtsmittel vom 27.01.2026](https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-39%2F26+P&searchTerm=%22C-%22)**
+
+Gerichtshof der Europäischen Union / InfoCuria · 2026-01-27 · Stufe **A** · Primärquelle · `SRC-EU-CJ-WARBURG-APPEAL-C39P-2026`
+
+[Seite öffnen](https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-39%2F26+P&searchTerm=%22C-%22)
+
+Fundstelle: C-39/26 P, Fallübersicht, Stand 21.11.2026 'Pending'; Appellationsschrift veröffentlicht 13.04.2026, Akteneingang 27.01.2026; Vorinstanz T-366/23.
 
 </article>
 

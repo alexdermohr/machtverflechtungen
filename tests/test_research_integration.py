@@ -990,5 +990,73 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("nicht vorgelegt", fellowships["label"])
 
 
+
+    def test_warburg_eug_capital_votes_2023_and_2025_decision(self):
+        root = coverage.ROOT
+        registry = coverage.read_registry(root)
+        main_study = "warburg-ezb-stimmrechtskontrolle-2013-2026.md"
+        ownership_study = "warburg-gruppe-eigentum-kontrolle-registervergleich-2016-2026.md"
+        for study in (main_study, ownership_study):
+            self.assertEqual(registry[study]["status"], "network")
+            self.assertEqual(
+                registry[study]["sha256"],
+                hashlib.sha256((root / "research" / study).read_bytes()).hexdigest(),
+            )
+        self.assertEqual(len(registry[main_study]["relation_ids"]), 10)
+        self.assertEqual(len(registry[ownership_study]["relation_ids"]), 6)
+        relations = {
+            row["id"]: row for row in yaml.safe_load(
+                (root / "data/relations.yml").read_text(encoding="utf-8")
+            )["relations"]
+        }
+        sources = {
+            row["id"]: row for row in yaml.safe_load(
+                (root / "data/sources.yml").read_text(encoding="utf-8")
+            )["sources"]
+        }
+        src = "SRC-EU-GENERAL-COURT-WARBURG-T36623-2025"
+        self.assertEqual(sources[src]["tier"], "A")
+        self.assertEqual(sources["SRC-EU-CJ-WARBURG-APPEAL-C39P-2026"]["tier"], "A")
+        graph = (root / "docs/generated/network-graph.md").read_text(encoding="utf-8")
+        network = (root / "docs/generated/network.md").read_text(encoding="utf-8")
+        chrono = (root / "docs/generated/relation-timeline.md").read_text(encoding="utf-8")
+        focus = (root / "docs/generated/network-focus-warburg-kontrolle.md").read_text(encoding="utf-8")
+        source_index = (root / "docs/quellen/index.md").read_text(encoding="utf-8")
+        entities = (root / "docs/generated/entities.md").read_text(encoding="utf-8")
+        self.assertIn(f'id="{src.lower()}"', source_index)
+        for relid in registry[main_study]["relation_ids"]:
+            row = relations[relid]
+            if relid == "REL-EU-WARBURG-EUG-DECISION-2025-001":
+                self.assertEqual(row["sources"], [src, "SRC-EU-CJ-WARBURG-APPEAL-C39P-2026"])
+            else:
+                self.assertEqual(row["sources"], [src])
+            self.assertIn(row["label"], graph)
+            self.assertIn(f'id="{relid.lower()}"', network)
+            self.assertIn(f"[{relid}](network.md#{relid.lower()})", chrono)
+        for relid in (
+            "REL-DE-WARBURG-GRUPPE-BANK-2023-001",
+            "REL-DE-WARBURG-BANK-MARCARD-2023-001",
+            "REL-DE-WARBURG-BANK-HYPO-2023-001",
+        ):
+            self.assertIn(relid, focus)
+        for entity in ("ORG-DE-WARBURG-MWB1-2023", "ORG-DE-WARBURG-GRUPPE-2023",
+                       "ORG-DE-WARBURG-FMWV-2013", "ORG-EU-ECB-2023"):
+            self.assertIn(entity, entities)
+        fmvw = relations["REL-DE-WARBURG-FMWV-MWB1-2013-001"]
+        self.assertEqual(fmvw["period"]["start"], "2013")
+        self.assertIn("87,5 %", fmvw["label"])
+        self.assertIn("51 % Stimmen", fmvw["label"])
+        self.assertIn("keine ungeprüfte aktualisierung auf 2026",
+                      relations["REL-DE-WARBURG-MWB1-GRUPPE-2023-001"]["label"].lower())
+        hypo = relations["REL-DE-WARBURG-BANK-HYPO-2023-001"]
+        self.assertEqual(hypo["period"]["end"], "2023-06-01")
+        self.assertIn("nur beabsichtigt",
+                      relations["REL-EU-WARBURG-ECB-OPPOSITION-2023-001"]["label"])
+        self.assertEqual(
+            relations["REL-EU-WARBURG-EUG-DECISION-2025-001"]["period"]["start"],
+            "2025-11-19",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
