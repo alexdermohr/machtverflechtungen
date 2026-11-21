@@ -3121,3 +3121,51 @@ sources:
   accessed: "2026-11-21"
   locator: "C-39/26 P, Fallübersicht, Stand 21.11.2026 'Pending'; Appellationsschrift veröffentlicht 13.04.2026, Akteneingang 27.01.2026; Vorinstanz T-366/23."
   notes: "Offizielles laufendes Rechtsmittelregister, belegt die Anhängigkeit der Anfechtung des EuG-Urteils zum Abrufstand. Keine Prognose des Ausgangs und kein Beleg einer neuen Eigentumsübertragung."
+
+- id: SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK
+  title: "Axel Springer AG – Geschäftsbericht 2006, vierseitige Vinkulierungsvereinbarung 31.07./04.08.2006"
+  institution: "Axel Springer AG"
+  date: "2007-03"
+  type: corporate_annual_report_original
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/data/uploads/2018/06/01_axelspringer_geschaeftsbericht_2006-1.pdf
+  accessed: "2026-11-21"
+  locator: "Gedruckte S. 37/PDF-Bildseite 39 (1-basiert), vier Vertragsparteien Döpfner, Brilliant 310. GmbH, Axel Springer AG und M.M.Warburg & Co. KGaA, Vertragsdatum 31.07./04.08.2006"
+  notes: "Zeitgenössischer Emittentenoriginalbericht; PDF-Seite am 21.11.2026 im Scanbild geprüft. Belegt Beteiligung am Aktienübertragungs-/Vinkulierungsvertrag, nicht Kreditsumme, Bankkontoauszahlung oder Einfluss auf Zeitungsredaktionen."
+
+- id: SRC-DE-AXELSPRINGER-GB-2011-WARBURG-VINK
+  title: "Axel Springer AG – Geschäftsbericht 2011, Vertragsbestätigung 2006 und Übertragungsmechanismus"
+  institution: "Axel Springer AG"
+  date: "2012"
+  type: corporate_annual_report_original
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht-2011_Axel-Springer-AG.pdf
+  accessed: "2026-11-21"
+  locator: "Gedruckte S. 82/PDF-Bildseite 86, vierseitige Vinkulierungsvereinbarung 2006 und Zustimmungserfordernisse; S. 81 allgemeine Aktienverpfändung an finanzierende Banken"
+  notes: "Emittentenbestätigung als Original-Faksimile am 21.11.2026 visuell geprüft. Allgemeine Aussage zu Verpfändung beweist weder individuell belegtes Warburg-Darlehen von 60 Mio. EUR noch redaktionelle Gegenleistung."
+
+- id: SRC-DE-AXELSPRINGER-GB-2012-POOL
+  title: "Axel Springer AG – Geschäftsbericht 2012, Aktienpool und Schenkung 14.08.2012"
+  institution: "Axel Springer AG"
+  date: "2013"
+  type: corporate_annual_report_original
+  primary: true
+  tier: A
+  url: https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht_2012_Axel_Springer-1.pdf
+  accessed: "2026-11-21"
+  locator: "Gedruckte S. 57/PDF-Bildseite 59: 2006er Vinkulierung, Schenkung 1.978.800 Aktien an Döpfner, sein Beitritt zum Pool am 14.08.2012, insgesamt 52.826.967 poolgebundene stimmberechtigte Aktien; S. 58 zur poolgebundenen Abstimmung"
+  notes: "Originalbericht bildseitig am 21.11.2026 kontrolliert. Gesamtpool ist nicht persönliche Kapitalquote; der Bankvertrag 2006 und der separate Poolvertrag 2012 sind verschiedene Rechtsverhältnisse."
+
+- id: SRC-DE-AXELSPRINGER-PR-20060720
+  title: "Axel Springer AG – Pressemitteilung Mathias Döpfner erwirbt zwei Prozent der Aktien"
+  institution: "Axel Springer AG, veröffentlicht über news aktuell/Presseportal"
+  date: "2006-07-20"
+  type: issuer_original_press_release
+  primary: true
+  tier: A
+  url: https://www.presseportal.de/pm/6338/850781
+  accessed: "2026-11-21"
+  locator: "Absatz zum mittelbaren Erwerb von 680.000 Namensaktien zu je 77 EUR (2 % des Grundkapitals) durch Mathias Döpfner von Friede Springer; rechnerisch 52,36 Mio. EUR"
+  notes: "Original-Emittentenmitteilung via Presseportal; belegt Aktienkauf und Ausgabekurs, nicht Darlehensvertrag oder einen 60-Mio.-EUR-Bankkredit. Originalmeldung in vorhandener Studie präzise dokumentiert; späterer direkter Reabruf teilweise durch 410-Antwort eingeschränkt."

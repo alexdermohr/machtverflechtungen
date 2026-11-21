@@ -1535,3 +1535,21 @@ entities:
     name: "Gericht der Europäischen Union (EuG, Urteil 19.11.2025)"
     countries: [LU]
     notes: "Originalentscheidung YH/EZB, T-366/23, ECLI:EU:T:2025:1037; Klageabweisung 2025 belegt den gerichtlichen Verfahrensstand, nicht automatisch den Abschluss etwaiger Rechtsmittel."
+
+  - id: ORG-DE-BRILLIANT-310-2006
+    type: historical_holding_company
+    name: "Brilliant 310. GmbH (im Springer-Vertrag 2006)"
+    countries: [DE]
+    notes: "Im Axel-Springer-Geschäftsbericht 2006 als Partei der vierseitigen Vinkulierungsvereinbarung vom 31.07./04.08.2006 genannt. Bericht 2011 verwendet die Form Brilliant, die untersuchte Studie dokumentiert auch abweichende Schreibung Brillant; ohne Registerakte nicht als zwei Unternehmen behandeln."
+
+  - id: DOC-DE-SPRINGER-VINKULIERUNG-2006
+    type: historical_contract_document
+    name: "Vinkulierungsvereinbarung Döpfner–Brilliant–Springer–Warburg vom 31.07./04.08.2006"
+    countries: [DE]
+    notes: "Originalgeschäftsberichte der Axel Springer AG 2006, 2011, 2012 benennen die vier Vertragsparteien; vereinbart ist die vorherige Zustimmung der Axel Springer AG zu direkten und indirekten Aktienübertragungen. Der vollständige Bankkreditvertrag, konkrete Zinsen und eine redaktionelle Weisung sind damit NICHT dokumentiert."
+
+  - id: DOC-DE-SPRINGER-VOTING-POOL-2012
+    type: historical_voting_agreement
+    name: "Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien)"
+    countries: [DE]
+    notes: "Axel-Springer-Geschäftsbericht 2012, gedruckte S. 57: Poolvertrag zwischen Friede Springer und Friede Springer GmbH & Co KG, dem Döpfner am 14.08.2012 nach Schenkung von 1.978.800 Aktien beitrat. 52.826.967 bezeichnet sämtliche poolgebundenen stimmberechtigten Aktien, keine persönliche Beteiligung Döpfners oder Warburgs."

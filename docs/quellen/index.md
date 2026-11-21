@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**270 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**274 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -469,6 +469,66 @@ Auswärtiges Amt / deutsche Auslandsvertretungen in den USA · unbekannt · Stuf
 [Seite öffnen](https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042)
 
 Fundstelle: Finanzierung aus ERP-Sondervermögen des Wirtschaftsministeriums; Zielsetzungen Förderung von Kultur/Bildung/Wirtschaft, Multiplikatoren und öffentlicher Meinungsbildung; keine 2018/19er Einzelbewilligungsakte
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-de-axelspringer-gb-2006-warburg-vink"></a>
+### Axel Springer AG
+
+**[Axel Springer AG – Geschäftsbericht 2006, vierseitige Vinkulierungsvereinbarung 31.07./04.08.2006](https://www.axelspringer.com/data/uploads/2018/06/01_axelspringer_geschaeftsbericht_2006-1.pdf)**
+
+Axel Springer AG · 2007-03 · Stufe **A** · Primärquelle · `SRC-DE-AXELSPRINGER-GB-2006-WARBURG-VINK`
+
+[PDF öffnen](https://www.axelspringer.com/data/uploads/2018/06/01_axelspringer_geschaeftsbericht_2006-1.pdf)
+
+Fundstelle: Gedruckte S. 37/PDF-Bildseite 39 (1-basiert), vier Vertragsparteien Döpfner, Brilliant 310. GmbH, Axel Springer AG und M.M.Warburg & Co. KGaA, Vertragsdatum 31.07./04.08.2006
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-axelspringer-gb-2011-warburg-vink"></a>
+### Axel Springer AG
+
+**[Axel Springer AG – Geschäftsbericht 2011, Vertragsbestätigung 2006 und Übertragungsmechanismus](https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht-2011_Axel-Springer-AG.pdf)**
+
+Axel Springer AG · 2012 · Stufe **A** · Primärquelle · `SRC-DE-AXELSPRINGER-GB-2011-WARBURG-VINK`
+
+[PDF öffnen](https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht-2011_Axel-Springer-AG.pdf)
+
+Fundstelle: Gedruckte S. 82/PDF-Bildseite 86, vierseitige Vinkulierungsvereinbarung 2006 und Zustimmungserfordernisse; S. 81 allgemeine Aktienverpfändung an finanzierende Banken
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-axelspringer-gb-2012-pool"></a>
+### Axel Springer AG
+
+**[Axel Springer AG – Geschäftsbericht 2012, Aktienpool und Schenkung 14.08.2012](https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht_2012_Axel_Springer-1.pdf)**
+
+Axel Springer AG · 2013 · Stufe **A** · Primärquelle · `SRC-DE-AXELSPRINGER-GB-2012-POOL`
+
+[PDF öffnen](https://www.axelspringer.com/data/uploads/2021/11/Geschaeftsbericht_2012_Axel_Springer-1.pdf)
+
+Fundstelle: Gedruckte S. 57/PDF-Bildseite 59: 2006er Vinkulierung, Schenkung 1.978.800 Aktien an Döpfner, sein Beitritt zum Pool am 14.08.2012, insgesamt 52.826.967 poolgebundene stimmberechtigte Aktien; S. 58 zur poolgebundenen Abstimmung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-de-axelspringer-pr-20060720"></a>
+### Axel Springer AG, veröffentlicht über news aktuell/Presseportal
+
+**[Axel Springer AG – Pressemitteilung Mathias Döpfner erwirbt zwei Prozent der Aktien](https://www.presseportal.de/pm/6338/850781)**
+
+Axel Springer AG, veröffentlicht über news aktuell/Presseportal · 2006-07-20 · Stufe **A** · Primärquelle · `SRC-DE-AXELSPRINGER-PR-20060720`
+
+[Seite öffnen](https://www.presseportal.de/pm/6338/850781)
+
+Fundstelle: Absatz zum mittelbaren Erwerb von 680.000 Namensaktien zu je 77 EUR (2 % des Grundkapitals) durch Mathias Döpfner von Friede Springer; rechnerisch 52,36 Mio. EUR
 
 </article>
 

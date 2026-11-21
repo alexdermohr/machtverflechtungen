@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**274 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**277 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -26,7 +26,7 @@
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
 | Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
 | Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
-| Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [1](network.md#rel-de-tmn-035) |
+| Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
@@ -61,7 +61,7 @@
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
 | Marja-Liisa Völlers (Bundestagsabgeordnete 2019) | person | `PER-DE-MARJA-LIISA-VOELLERS-2019` | DE | [1](network.md#rel-us-acg-cities-voellers-2019-001) |
-| Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE | [3](network.md#rel-de-tmn-001) |
+| Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE | [7](network.md#rel-de-tmn-001) |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE | [4](network.md#rel-de-tmn-003) |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE | – |
 | Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE | [1](network.md#rel-de-da-008) |
@@ -125,7 +125,8 @@
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
-| Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [2](network.md#rel-de-tmn-002) |
+| Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [5](network.md#rel-de-tmn-002) |
+| Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
 | BAFISUD Corporation S.A. (Panama) | finance_company | `ORG-PA-BAFISUD-CORPORATION-SA` | PA | [5](network.md#rel-uy-pa-bafisud-1978-001) |
 | Banco Ambrosiano Andino S.A., Lima | historical_bank | `ORG-PE-AMBROSIANO-ANDINO` | PE | [3](network.md#rel-bs-pe-trad-1979-001) |
 | Banco Ambrosiano Holding S.A. (Luxemburg) | finance_company | `ORG-LU-BANCO-AMBROSIANO-HOLDING-SA` | LU | [2](network.md#rel-it-ambrosiano-lux-1979-001) |
@@ -144,6 +145,7 @@
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
+| Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [1](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
@@ -217,7 +219,7 @@
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
-| M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [8](network.md#rel-de-cumex-001) |
+| M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [9](network.md#rel-de-cumex-001) |
 | M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023) | financial_holding | `ORG-DE-WARBURG-GRUPPE-2023` | DE | [3](network.md#rel-de-warburg-mwb1-gruppe-2023-001) |
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
@@ -295,3 +297,4 @@
 |---|---|---|---|---|
 | Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979 | historical_press_contract_document | `DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979` | IT | [5](network.md#rel-it-p2-presspact-rizzoli-1979-001) |
 | Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C) | historical_contract_document | `DOC-IT-RIZZOLI-P2-AGREEMENT-1980` | IT | [6](network.md#rel-it-p2-agreement-gelli-1980-001) |
+| Vinkulierungsvereinbarung Döpfner–Brilliant–Springer–Warburg vom 31.07./04.08.2006 | historical_contract_document | `DOC-DE-SPRINGER-VINKULIERUNG-2006` | DE | [4](network.md#rel-de-warburg-springer-vink-2006-001) |

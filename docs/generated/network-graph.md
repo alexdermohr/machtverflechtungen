@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**306 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**315 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -14,7 +14,8 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
 - [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
-- [M.M.Warburg / Eigentum & Aufsicht](network-focus-warburg-kontrolle.md) — 8 direkte Beziehungen
+- [M.M.Warburg / Eigentum & Aufsicht](network-focus-warburg-kontrolle.md) — 9 direkte Beziehungen
+- [Döpfner / Springer](network-focus-springer-doepfner.md) — 7 direkte Beziehungen
 - [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
 - [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
 - [UBS Genf / Bologna 1980](network-focus-ubs-genf-1980.md) — 3 direkte Beziehungen
@@ -589,6 +590,18 @@ flowchart LR
     N_ORG_EU_ECB_2023 -->|"EZB-Beschluss vom 05.05.2023 untersagte laut EuG T-366/23 Rn. 1 und 19–23 einen geplanten qualifizierten indirekten Erwerb einer Beteiligung am Warburg-Institut; die Übertragung des Golden Share an die Ehefrau war nur beabsichtigt, keine vollzogene Eigentumsübertragung"| N_ORG_DE_MM_WARBURG
     N_ORG_EU_GENERAL_COURT_2025["Gericht der Europäischen Union (EuG, Urteil 19.11.2025)"]
     N_ORG_EU_GENERAL_COURT_2025 -->|"EuG T-366/23 wies am 19.11.2025 die Klage gegen den EZB-Erwerbsbeschluss vom 05.05.2023 ab; laut amtlichem InfoCuria-Register ist das am 27.01.2026 eingelegte Rechtsmittel C-39/26 P am 21.11.2026 noch anhängig. Keine letztinstanzliche Bestätigung, neue Eigentumsübertragung oder persönliche Straftat daraus ableiten"| N_ORG_EU_ECB_2023
+    N_DOC_DE_SPRINGER_VINKULIERUNG_2006["Vinkulierungsvereinbarung Döpfner–Brilliant–Springer–Warburg vom 31.07./04.08.2006"]
+    N_ORG_DE_MM_WARBURG -->|"Axel-Springer-Originalgeschäftsbericht 2006 S. 37 nennt M.M.Warburg & Co. KGaA neben Döpfner, Brilliant 310. GmbH und Axel Springer AG als Partei der Vinkulierungsvereinbarung vom 31.07./04.08.2006. Dies belegt den Vertragskontakt, NICHT individuelle Kredithöhe, Auszahlung oder redaktionelle Weisung"| N_DOC_DE_SPRINGER_VINKULIERUNG_2006
+    N_PER_DE_MATHIAS_DOEPFNER -->|"Mathias Döpfner ist laut Axel-Springer-Geschäftsbericht 2006 namentliche Partei des 31.07./04.08.2006 geschlossenen vierseitigen Aktien-Vinkulierungsvertrags mit Brilliant 310. GmbH, Axel Springer AG und M.M.Warburg & Co.; Bankkreditkonditionen daraus nicht ersichtlich"| N_DOC_DE_SPRINGER_VINKULIERUNG_2006
+    N_ORG_DE_BRILLIANT_310_2006["Brilliant 310. GmbH (im Springer-Vertrag 2006)"]
+    N_ORG_DE_BRILLIANT_310_2006 -->|"Brilliant 310. GmbH ist im Axel-Springer-Originalgeschäftsbericht 2006 als beteiligte Gesellschaft an der am 31.07./04.08.2006 geschlossenen Vinkulierungsvereinbarung genannt; der Vertrag regelt mittelbare und unmittelbare Aktienverfügungen unter Zustimmungsvorbehalt"| N_DOC_DE_SPRINGER_VINKULIERUNG_2006
+    N_ORG_DE_AXEL_SPRINGER -->|"Axel Springer AG war laut eigenem Geschäftsbericht 2006 Partei des Vinkulierungsvertrags mit Döpfner, Brilliant 310. GmbH und Warburg; direkte und indirekte Verfügungen über die betroffenen Namensaktien verlangten ihre satzungsgemäße Zustimmung. Kein Vertrag über redaktionelle Entscheidungen"| N_DOC_DE_SPRINGER_VINKULIERUNG_2006
+    N_PER_DE_MATHIAS_DOEPFNER -->|"Axel-Springer-Mitteilung 20.07.2006 nennt mittelbaren Erwerb von 680.000 damaligen Namensaktien zu je 77 EUR (2 %), Kaufpreis rechnerisch 52,36 Mio. EUR; andere Größe als der 2023 journalistisch berichtete rund 60-Mio.-EUR-Kredit. Der Emittent nennt keine Darlehenssumme"| N_ORG_DE_AXEL_SPRINGER
+    N_PER_DE_FRIEDE_SPRINGER -->|"Axel-Springer-Geschäftsbericht 2012 gedruckte S. 57 dokumentiert, dass Friede Springer Döpfner am 14.08.2012 insgesamt 1.978.800 Aktien schenkte; keine Übertragung des gesamten Stimmrechtspools und kein Beleg einer bankbezogenen Gegenleistung"| N_PER_DE_MATHIAS_DOEPFNER
+    N_DOC_DE_SPRINGER_VOTING_POOL_2012["Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien)"]
+    N_PER_DE_MATHIAS_DOEPFNER -->|"Döpfner trat laut Geschäftsbericht 2012 am 14.08.2012 nach der Schenkung von 1.978.800 Aktien dem von Friede Springer und Friede Springer GmbH & Co KG getragenen Pool bei; 52.826.967 poolgebundene Aktien sind NICHT Döpfners persönliche Eigentumsaktien"| N_DOC_DE_SPRINGER_VOTING_POOL_2012
+    N_PER_DE_FRIEDE_SPRINGER -->|"Der Axel-Springer-Geschäftsbericht 2012 nennt Friede Springer und Friede Springer GmbH & Co. KG als Parteien des Stimmrechtspools, dem Döpfner am 14.08.2012 beitrat; keine Warburg-Bankbeteiligung an diesem späteren Poolvertrag belegt"| N_DOC_DE_SPRINGER_VOTING_POOL_2012
+    N_DOC_DE_SPRINGER_VOTING_POOL_2012 -->|"Axel Springer 2012 gedruckte S. 57: Poolvereinbarung umfasste 52.826.967 stimmberechtigte Aktien. Poolmitglieder stimmen in der Hauptversammlung gemäß Poolbeschlüssen, auch wenn sie intern dagegen votierten; Aggregat nicht als unmittelbarer persönlicher Döpfner- oder Warburg-Aktienbesitz ausgeben"| N_ORG_DE_AXEL_SPRINGER
 ```
 
 [Zur Relationstabelle](network.md)
