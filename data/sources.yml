@@ -3205,3 +3205,123 @@ sources:
   accessed: "2026-11-21"
   locator: "Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980."
   notes: "Historisch-ökonomische Analyse mit Daten aus Branchenquellen, keine amtliche Originalbuchhaltung jedes Fonds und keine Pensionszahlungen an Warburg Pincus nachgewiesen. Unterschiedliche Erhebungsperioden und Gegenregulierung werden ausdrücklich genannt; Autoren vertreten nicht zwangsläufig die Auffassung des Federal-Reserve-Gouverneursrats."
+
+- id: SRC-DE-TAZ-SHELL-ULFKOTTE-NIGERIA-1997-05-23
+  title: "Die Folgen einer Dienstreise"
+  institution: "taz / Hermann Rheindorf"
+  date: "1997-05-23"
+  type: contemporaneous_journalistic_investigation
+  primary: false
+  tier: B
+  url: https://taz.de/Die-Folgen-einer-Dienstreise/!1399584/
+  accessed: "2026-11-21"
+  locator: "Oktober 1996: Shell finanzierte Journalistenreise im Niger-Delta samt Helikopter; Ulfkotte als FAZ-Afrika-Korrespondent, Berichterstattung ohne Shell-Finanzierungs-Offenlegung"
+  notes: "Zeitgenössische unabhängige Presseberichterstattung; keine Shell-Reisekostenoriginale eingesehen."
+
+- id: SRC-DE-TAZ-SHELL-ULFKOTTE-LGKOELN-1997-07-03
+  title: "Zuhälter und Prostituierte"
+  institution: "taz / Hermann Rheindorf"
+  date: "1997-07-03"
+  type: contemporaneous_court_reporting
+  primary: false
+  tier: B
+  url: https://taz.de/Zuhaelter-und-Prostituierte/!1393455/
+  accessed: "2026-11-21"
+  locator: "Landgericht Köln am 02.07.1997: Klage FAZ/Ulfkotte gegen Rössel abgewiesen; Konzern-Pressefahrt und spätere Shell-Werbevideonutzung des FAZ-Artikels"
+  notes: "Zeitnaher Urteilsbericht; kein Originalurteil und kein strafrechtlicher Schuldspruch."
+
+- id: SRC-DE-BT-IRAQ-CW-EXPORT-1988
+  title: "Bundestagsdrucksache 11/3762: Chemiewaffenzulieferungs-Ermittlungen Irak"
+  institution: "Deutscher Bundestag / Bundesregierung"
+  date: "1988-12-20"
+  type: original_parliamentary_government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/11/037/1103762.pdf
+  accessed: "2026-11-21"
+  locator: "S. 1 ff.: Seit 1987 Ermittlungsverfahren, 38 Beschuldigte, Firmen WET, Karl Kolb, Pilot Plant, Preussag und Heberger Bau"
+  notes: "Ermittlungsstandsmitteilung; keine Verurteilung von Firmen durch Namensnennung."
+
+- id: SRC-DE-BT-IRAQ-LABS-KOLB-1984
+  title: "Bundestagsdrucksache 10/1710: Chemielabor-Lieferungen Karl Kolb/Pilot Plant an Samarra"
+  institution: "Deutscher Bundestag / Bundesregierung"
+  date: "1984"
+  type: original_parliamentary_government_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/10/017/1001710.pdf
+  accessed: "2026-11-21"
+  locator: "Fragen zu sieben Laboranlagen und weiteren Anlagen zur Pestizidherstellung, damalige Regierungsbewertung"
+  notes: "Bewertung von 1984, keine endgültige Entlastung für spätere Ermittlungen."
+
+- id: SRC-DE-KRESS-ULFKOTTE-INTERVIEW-2016
+  title: "Die Journalisten kapieren es einfach nicht"
+  institution: "kress / Frank Hauke-Steller"
+  date: "2016-12-12"
+  type: original_interview
+  primary: true
+  tier: C
+  url: https://kress.de/news/beitrag/131242-quot-die-journalisten-kapieren-es-einfach-nicht-quot.html
+  accessed: "2026-11-21"
+  locator: "Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanzleramt seit 2008"
+  notes: "Primärquelle für die Äußerung, nicht für eine unabhängig erwiesene US-Oberaufsicht oder Zensur."
+
+- id: SRC-DE-ULFKOTTE-SELBDARSTELLUNG-2014
+  title: "Deutschland: Pressefreiheit wird nur noch simuliert"
+  institution: "Udo Ulfkotte / Wissensmanufaktur"
+  date: "2014-09-18"
+  type: original_self_authored_commentary
+  primary: true
+  tier: C
+  url: https://www.wissensmanufaktur.net/pressefreiheit-wird-nur-noch-simuliert/
+  accessed: "2026-11-21"
+  locator: "Eigenbericht über transatlantische Kontakte, US-Auszeichnung, Willy-Wimmer-Aussage und Mediensteuerung"
+  notes: "Quelle für Selbstaussage, nicht unabhängige Bestätigung der Einzelbehauptungen."
+
+- id: SRC-DE-WIMMER-FAZ-INTERVIEW-2014
+  title: "Es gibt ein NATO-Netzwerk in den deutschen Medien"
+  institution: "Thomas Wagner / Willy Wimmer, Archiv Friedensratschlag"
+  date: "2014-09-15"
+  type: contemporaneous_republished_interview
+  primary: false
+  tier: B
+  url: https://www.ag-friedensforschung.de/themen/NATO1/wimmer.html
+  accessed: "2026-11-21"
+  locator: "Wimmer über Gespräch mit anonymem FAZ-Mitarbeiter und angebliche State-Department-Anrufe"
+  notes: "Erinnerung aus zweiter Hand, konkrete ursprüngliche US-Anweisung unbewiesen."
+
+- id: SRC-DE-ZEIT-REDAKTIONSKRISENTREFFEN-2009
+  title: "Wirtschaftskrise in Deutschland: Jetzt mal ehrlich"
+  institution: "DIE ZEIT / Marc Brost und Bernd Ulrich"
+  date: "2009-01-29"
+  type: contemporaneous_political_reporting
+  primary: false
+  tier: B
+  url: https://www.zeit.de/2009/06/Ratlosigkeit
+  accessed: "2026-11-21"
+  locator: "Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitte keine schlechte Stimmung zu machen"
+  notes: "Zeitgenössischer Bericht über Appell, keine offizielle Weisungsakte oder nachgewiesene Zensur."
+
+- id: SRC-DE-SZ-AUGSTEIN-KANZLERAMT-2010
+  title: "Das ist nicht Ihr Kanzleramt!"
+  institution: "Süddeutsche Zeitung / Jakob Augstein"
+  date: "2010-07-22"
+  type: commentary_on_contemporary_political_event
+  primary: false
+  tier: B
+  url: https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398
+  accessed: "2026-11-21"
+  locator: "Kritische Erörterung des Presseleitungstreffens vom 08.10.2008"
+  notes: "Spätere Kommentierung, kein Sitzungsprotokoll."
+
+- id: SRC-DE-KRUEGER-MEINUNGSMACHT-2013
+  title: "Meinungsmacht – Der Einfluss von Eliten auf Leitmedien und Alpha-Journalisten"
+  institution: "Uwe Krüger / Institut für Praktische Journalismus- und Kommunikationsforschung"
+  date: "2013"
+  type: original_research_publisher_description
+  primary: false
+  tier: B
+  url: https://eijc.de/uwe-krueger-meinungsmacht-der-einfluss-von-eliten-auf-leitmedien-und-alpha-journalisten/
+  accessed: "2026-11-21"
+  locator: "2013: Netzwerkanalyse mit 219 Redakteuren und vier vertieften US-/NATO-Elitenmilieu-Fällen"
+  notes: "Empirischer Struktur-/Gleichlauf-Befund, kein Beleg für einen Kausal- oder Bestechungsauftrag."

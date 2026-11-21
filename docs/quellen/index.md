@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**277 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**287 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1595,6 +1595,36 @@ Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-de-bt-iraq-labs-kolb-1984"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Bundestagsdrucksache 10/1710: Chemielabor-Lieferungen Karl Kolb/Pilot Plant an Samarra](https://dserver.bundestag.de/btd/10/017/1001710.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1984 · Stufe **A** · Primärquelle · `SRC-DE-BT-IRAQ-LABS-KOLB-1984`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/10/017/1001710.pdf)
+
+Fundstelle: Fragen zu sieben Laboranlagen und weiteren Anlagen zur Pestizidherstellung, damalige Regierungsbewertung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1988">
+
+<a id="src-de-bt-iraq-cw-export-1988"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Bundestagsdrucksache 11/3762: Chemiewaffenzulieferungs-Ermittlungen Irak](https://dserver.bundestag.de/btd/11/037/1103762.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1988-12-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-IRAQ-CW-EXPORT-1988`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/11/037/1103762.pdf)
+
+Fundstelle: S. 1 ff.: Seit 1987 Ermittlungsverfahren, 38 Beschuldigte, Firmen WET, Karl Kolb, Pilot Plant, Preussag und Heberger Bau
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
 <a id="src-de-bt-nonne-3123-1992"></a>
@@ -2525,6 +2555,21 @@ Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2016">
+
+<a id="src-de-kress-ulfkotte-interview-2016"></a>
+### kress / Frank Hauke-Steller
+
+**[Die Journalisten kapieren es einfach nicht](https://kress.de/news/beitrag/131242-quot-die-journalisten-kapieren-es-einfach-nicht-quot.html)**
+
+kress / Frank Hauke-Steller · 2016-12-12 · Stufe **C** · Primärquelle · `SRC-DE-KRESS-ULFKOTTE-INTERVIEW-2016`
+
+[Seite öffnen](https://kress.de/news/beitrag/131242-quot-die-journalisten-kapieren-es-einfach-nicht-quot.html)
+
+Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanzleramt seit 2008
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-de-bwlt-stammheim-2007"></a>
@@ -3076,6 +3121,21 @@ Fundstelle: The Official Record; The 1985 Report; The 1985, 1986 and 1989 Report
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2014">
+
+<a id="src-de-ulfkotte-selbdarstellung-2014"></a>
+### Udo Ulfkotte / Wissensmanufaktur
+
+**[Deutschland: Pressefreiheit wird nur noch simuliert](https://www.wissensmanufaktur.net/pressefreiheit-wird-nur-noch-simuliert/)**
+
+Udo Ulfkotte / Wissensmanufaktur · 2014-09-18 · Stufe **C** · Primärquelle · `SRC-DE-ULFKOTTE-SELBDARSTELLUNG-2014`
+
+[Seite öffnen](https://www.wissensmanufaktur.net/pressefreiheit-wird-nur-noch-simuliert/)
+
+Fundstelle: Eigenbericht über transatlantische Kontakte, US-Auszeichnung, Willy-Wimmer-Aussage und Mediensteuerung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-gb-charity-commission-bilderberg-272706"></a>
@@ -3303,7 +3363,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-int-trilateral-2017-mirror) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-shell-ulfkotte-nigeria-1997-05-23) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3753,6 +3813,21 @@ Fundstelle: ZEIT Nr. 21/1971, Seite 3 von 3: Absatz zur teilweisen Erweiterung d
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2009">
+
+<a id="src-de-zeit-redaktionskrisentreffen-2009"></a>
+### DIE ZEIT / Marc Brost und Bernd Ulrich
+
+**[Wirtschaftskrise in Deutschland: Jetzt mal ehrlich](https://www.zeit.de/2009/06/Ratlosigkeit)**
+
+DIE ZEIT / Marc Brost und Bernd Ulrich · 2009-01-29 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-ZEIT-REDAKTIONSKRISENTREFFEN-2009`
+
+[Seite öffnen](https://www.zeit.de/2009/06/Ratlosigkeit)
+
+Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitte keine schlechte Stimmung zu machen
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
 
 <a id="src-us-irs-friends-atlantik-2021-extract"></a>
@@ -4023,6 +4098,51 @@ Fundstelle: Infografik und Quellen zur Infografik
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2010">
+
+<a id="src-de-sz-augstein-kanzleramt-2010"></a>
+### Süddeutsche Zeitung / Jakob Augstein
+
+**[Das ist nicht Ihr Kanzleramt!](https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398)**
+
+Süddeutsche Zeitung / Jakob Augstein · 2010-07-22 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-SZ-AUGSTEIN-KANZLERAMT-2010`
+
+[Seite öffnen](https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398)
+
+Fundstelle: Kritische Erörterung des Presseleitungstreffens vom 08.10.2008
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1997">
+
+<a id="src-de-taz-shell-ulfkotte-nigeria-1997-05-23"></a>
+### taz / Hermann Rheindorf
+
+**[Die Folgen einer Dienstreise](https://taz.de/Die-Folgen-einer-Dienstreise/!1399584/)**
+
+taz / Hermann Rheindorf · 1997-05-23 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TAZ-SHELL-ULFKOTTE-NIGERIA-1997-05-23`
+
+[Seite öffnen](https://taz.de/Die-Folgen-einer-Dienstreise/!1399584/)
+
+Fundstelle: Oktober 1996: Shell finanzierte Journalistenreise im Niger-Delta samt Helikopter; Ulfkotte als FAZ-Afrika-Korrespondent, Berichterstattung ohne Shell-Finanzierungs-Offenlegung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1997">
+
+<a id="src-de-taz-shell-ulfkotte-lgkoeln-1997-07-03"></a>
+### taz / Hermann Rheindorf
+
+**[Zuhälter und Prostituierte](https://taz.de/Zuhaelter-und-Prostituierte/!1393455/)**
+
+taz / Hermann Rheindorf · 1997-07-03 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TAZ-SHELL-ULFKOTTE-LGKOELN-1997-07-03`
+
+[Seite öffnen](https://taz.de/Zuhaelter-und-Prostituierte/!1393455/)
+
+Fundstelle: Landgericht Köln am 02.07.1997: Klage FAZ/Ulfkotte gegen Rössel abgewiesen; Konzern-Pressefahrt und spätere Shell-Werbevideonutzung des FAZ-Artikels
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-int-trilateral-2017-mirror"></a>
@@ -4035,6 +4155,21 @@ The Trilateral Commission · 2017-01 · Stufe **B** · Sekundär-/Forschungsquel
 [PDF öffnen](https://swprs.org/wp-content/uploads/2017/07/trilateral-commission-members-2017.pdf)
 
 Fundstelle: European Group, Klaus-Dieter Frankenberger, Foreign Editor, Frankfurter Allgemeine Zeitung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
+
+<a id="src-de-wimmer-faz-interview-2014"></a>
+### Thomas Wagner / Willy Wimmer, Archiv Friedensratschlag
+
+**[Es gibt ein NATO-Netzwerk in den deutschen Medien](https://www.ag-friedensforschung.de/themen/NATO1/wimmer.html)**
+
+Thomas Wagner / Willy Wimmer, Archiv Friedensratschlag · 2014-09-15 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WIMMER-FAZ-INTERVIEW-2014`
+
+[Seite öffnen](https://www.ag-friedensforschung.de/themen/NATO1/wimmer.html)
+
+Fundstelle: Wimmer über Gespräch mit anonymem FAZ-Mitarbeiter und angebliche State-Department-Anrufe
 
 </article>
 
@@ -4125,6 +4260,21 @@ US National Archives, Interagency Working Group · 2001 · Stufe **B** · Sekund
 [Seite öffnen](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/rg-263-report.html)
 
 Fundstelle: Gehlen Organization und Emil Augsburg
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2013">
+
+<a id="src-de-krueger-meinungsmacht-2013"></a>
+### Uwe Krüger / Institut für Praktische Journalismus- und Kommunikationsforschung
+
+**[Meinungsmacht – Der Einfluss von Eliten auf Leitmedien und Alpha-Journalisten](https://eijc.de/uwe-krueger-meinungsmacht-der-einfluss-von-eliten-auf-leitmedien-und-alpha-journalisten/)**
+
+Uwe Krüger / Institut für Praktische Journalismus- und Kommunikationsforschung · 2013 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KRUEGER-MEINUNGSMACHT-2013`
+
+[Seite öffnen](https://eijc.de/uwe-krueger-meinungsmacht-der-einfluss-von-eliten-auf-leitmedien-und-alpha-journalisten/)
+
+Fundstelle: 2013: Netzwerkanalyse mit 219 Redakteuren und vier vertieften US-/NATO-Elitenmilieu-Fällen
 
 </article>
 

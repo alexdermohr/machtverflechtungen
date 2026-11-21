@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**324 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**326 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -620,6 +620,10 @@ flowchart LR
     N_ORG_US_FEDERAL_RESERVE -->|"Eine unter dem Dach des Federal Reserve System publizierte Staff Study 168 (Dezember 1995) analysiert Struktur und regulatorischen Wandel des Private-Equity-Markts. Die Autorenmeinungen sind keine automatische amtliche Billigung sämtlicher Schlussfolgerungen durch den Gouverneursrat"| N_DOC_US_FED_PRIVATE_EQUITY_1995
     N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979["US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979)"]
     N_PRG_US_ERISA_PENSION_PLANS_1979 -->|"Federal-Reserve-Staff-Studie 1995: VC-Partnerships erhielten von ERISA-Pensionsplänen 1976–1978 jeweils weniger als 5 Mio. USD jährlich, dagegen 50 Mio. USD im ERSTEN HALBJAHR 1979. Unterschiedliche Zeiträume, keine addierbaren Jahressummen und KEIN nachgewiesener individueller Geldfluss zu Warburg Pincus; DOL-Gegenregulierung folgte August 1979"| N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979
+    N_ORG_INT_SHELL_GROUP_1996["Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996)"]
+    N_PER_DE_UDO_ULFKOTTE["Udo Ulfkotte (1960–2017)"]
+    N_ORG_INT_SHELL_GROUP_1996 -->|"Shell organisierte und finanzierte nach zeitgenössischer taz-Recherche die Niger-Delta-Reise des FAZ-Korrespondenten Ulfkotte im Oktober 1996 einschließlich Hubschrauberflügen; dies belegt eine Zuwendung, nicht Bestechungsstraftat oder diktierte Berichterstattung"| N_PER_DE_UDO_ULFKOTTE
+    N_ORG_INT_SHELL_GROUP_1996 -->|"Nach zeitgenössischer taz-Berichterstattung verwendete Shell Ulfkottes nach der 1996er Reise erschienenen FAZ-Artikel in einem firmeneigenen Werbevideo; daraus ist kein redaktioneller Auftrag und kein ausdrückliches FAZ-Einverständnis ableitbar"| N_ORG_DE_FAZ
 ```
 
 [Zur Relationstabelle](network.md)

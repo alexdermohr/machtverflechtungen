@@ -1601,3 +1601,15 @@ entities:
     name: "Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995)"
     countries: [US]
     notes: "Von Fenn, Liang und Prowse verfasste Forschungsstudie, Dezember 1995, keine zwingende Billigung jeder Interpretation durch den Board of Governors. Berichtet historische Pensionskapital-Aggregate 1976–1979 und gegenläufige DOL-Regulierung 1979/80."
+
+  - id: PER-DE-UDO-ULFKOTTE
+    type: person
+    name: "Udo Ulfkotte (1960–2017)"
+    countries: [DE]
+    notes: "Ehemaliger FAZ-Afrikakorrespondent, Shell-finanzierte Niger-Delta-Journalistenreise im Oktober 1996 laut zeitgenössischer taz; seine separaten Geheimdienst- und GMF-Erzählungen werden daraus nicht bestätigt."
+
+  - id: ORG-INT-SHELL-GROUP-1996
+    type: energy_company
+    name: "Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996)"
+    countries: [GB, NL, DE, NG]
+    notes: "Historische Shell-Reiseorganisation und -Finanzierung im Niger-Delta Oktober 1996 laut zeitgenössischer taz; ohne eigenständige Abrechnung sind juristische Einzelgesellschaft und Zahler nicht abschließend identifiziert. Kein Beleg einer Textweisung an FAZ."

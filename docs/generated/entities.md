@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**285 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**287 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -94,6 +94,7 @@
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
+| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [1](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
@@ -198,7 +199,7 @@
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [2](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
-| Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [1](network.md#rel-de-tmn-018) |
+| Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [2](network.md#rel-de-tmn-018) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
@@ -245,6 +246,7 @@
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
+| Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
