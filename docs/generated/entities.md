@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**277 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**285 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -189,10 +189,13 @@
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
 | Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Ente Nazionale Idrocarburi (ENI, historisch 1978–1982) | historical_state_enterprise | `ORG-IT-ENI-1978` | IT | [1](network.md#rel-it-eni-trad-1979-001) |
+| ERISA-betroffene US-Pensionspläne (historisch 1979) | historical_pension_system | `PRG-US-ERISA-PENSION-PLANS-1979` | US | [2](network.md#rel-us-erisa-rule-portfolio-1979-001) |
+| ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
 | Europäische Zentralbank (EZB) | central_bank | `ORG-EU-ECB-2023` | DE | [3](network.md#rel-eu-warburg-ecb-indirect-2023-001) |
 | Familie Max Warburg Vermögensverwaltung KG (FMWV) | family_asset_holding | `ORG-DE-WARBURG-FMWV-2013` | DE | [1](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
-| Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [1](network.md#rel-int-bcci-005) |
+| Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
+| Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [2](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [1](network.md#rel-de-tmn-018) |
@@ -225,6 +228,7 @@
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
+| National Venture Capital Association (NVCA, 1973) | industry_association | `ORG-US-NVCA-1973` | US | [1](network.md#rel-us-wp-nvca-1973-001) |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | – |
 | Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL | [2](network.md#rel-int-interalpha-1979-002) |
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
@@ -265,13 +269,17 @@
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [1](network.md#rel-us-ua-biosec-2022-001) |
 | U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [1](network.md#rel-int-bcci-006) |
+| U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
+| US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
+| US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
+| Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |

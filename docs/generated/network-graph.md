@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**317 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**324 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -15,6 +15,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 - [I.G. Farben](network-focus-ig-farben.md) — 6 direkte Beziehungen
 - [ENI / Tradinvest](network-focus-tradinvest.md) — 7 direkte Beziehungen
 - [M.M.Warburg / Eigentum & Aufsicht](network-focus-warburg-kontrolle.md) — 9 direkte Beziehungen
+- [Warburg Pincus / ERISA 1979](network-focus-warburg-pincus-erisa.md) — 2 direkte Beziehungen
 - [Döpfner / Springer](network-focus-springer-doepfner.md) — 8 direkte Beziehungen
 - [P2 / Loge](network-focus-p2.md) — 3 direkte Beziehungen
 - [Rizzoli / Corriere](network-focus-rizzoli.md) — 9 direkte Beziehungen
@@ -604,6 +605,21 @@ flowchart LR
     N_DOC_DE_SPRINGER_VOTING_POOL_2012 -->|"Axel Springer 2012 gedruckte S. 57: Poolvereinbarung umfasste 52.826.967 stimmberechtigte Aktien. Poolmitglieder stimmen in der Hauptversammlung gemäß Poolbeschlüssen, auch wenn sie intern dagegen votierten; Aggregat nicht als unmittelbarer persönlicher Döpfner- oder Warburg-Aktienbesitz ausgeben"| N_ORG_DE_AXEL_SPRINGER
     N_ORG_DE_BRILLIANT_310_2006 -->|"Axel-Springer-Jahresbericht 2006 S. 115 dokumentiert Brilliant 310. GmbHs gemeldeten Erwerb von 680.000 Stückaktien am 13.07.2006 für 104,10 EUR je Aktie. Gesondert meldete der Emittent am 20.07.2006 Döpfners mittelbaren Erwerb von 680.000 Aktien zu 77 EUR; verschiedene gemeldete Rechtsvorgänge und Bewertungsgegenstände nicht ohne Transaktionsakten gleichsetzen oder Aktien zweimal addieren"| N_ORG_DE_AXEL_SPRINGER
     N_PER_DE_MATHIAS_DOEPFNER -->|"Axel-Springer-Jahresbericht 2006 S. 115 nennt Mathias Döpfner zugleich als Vorstandsvorsitzenden der Springer AG und Geschäftsführer von Brilliant 310. GmbH; historische Organrolle belegt nicht, dass er sämtliche Kaufpreis- oder Kreditbedingungen persönlich vereinbarte"| N_ORG_DE_BRILLIANT_310_2006
+    N_ORG_US_WARBURG_PINCUS_1978["Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978)"]
+    N_ORG_US_NVCA_1973["National Venture Capital Association (NVCA, 1973)"]
+    N_ORG_US_WARBURG_PINCUS_1978 -->|"Warburg Pincus bezeichnet sich in der eigenen heutigen Firmengeschichte als Gründungsmitglied der National Venture Capital Association 1973. Diese Eigenangabe belegt keine individuelle Mitautorenschaft an der späteren US-ERISA-Regel von 1979"| N_ORG_US_NVCA_1973
+    N_ORG_US_DOL_ERISA_1979["U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979)"]
+    N_ORG_US_WARBURG_PINCUS_1978 -->|"Warburg Pincus erklärt retrospektiv, 1978 Gespräche mit dem U.S. Department of Labor zur Öffnung von Pensionsanlagen für alternative Vermögensklassen mit angeführt zu haben. Das ist eine Firmen-Selbstaussage, keine unabhängig verifizierte Teilnehmerliste, Übernahme eines Wortlautentwurfs oder persönliche Bestechung"| N_ORG_US_DOL_ERISA_1979
+    N_DOC_US_DOL_ERISA_PROPOSAL_1978["US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480)"]
+    N_ORG_US_DOL_ERISA_1979 -->|"Die DOL-Endbegründung im Federal Register 44 FR 37222 bestätigt die öffentliche Ankündigung des Regelungsentwurfs 29 CFR 2550.404a-1 am 25.04.1978 (43 FR 17480); namentliche Warburg-Pincus-Eingaben oder konkrete Entwurfsübernahmen daraus nicht gesichert"| N_DOC_US_DOL_ERISA_PROPOSAL_1978
+    N_DOC_US_DOL_ERISA_RULE_1979["ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979)"]
+    N_ORG_US_DOL_ERISA_1979 -->|"Das U.S. Department of Labor veröffentlichte am 26.06.1979 die finale ERISA-Treuhänder-Anlageauslegung unter 29 CFR 2550.404a-1, wirksam am 23.07.1979. Die Amtsbegründung berücksichtigt branchenweite Stellungnahmen, benennt Warburg Pincus aber nicht als alleinigen Urheber"| N_DOC_US_DOL_ERISA_RULE_1979
+    N_PRG_US_ERISA_PENSION_PLANS_1979["ERISA-betroffene US-Pensionspläne (historisch 1979)"]
+    N_DOC_US_DOL_ERISA_RULE_1979 -->|"Die am 23.07.1979 wirksame DOL-Regel bewertet Anlagesorgfalt im Kontext des gesamten Pensionsportfolios. Weder risikoreiche Unternehmensanteile noch alternative Anlagen sind allein wegen ihrer Anlageklasse per se unzulässig; dies ist KEINE generelle Erlaubnis beliebiger Private-Equity-Investments"| N_PRG_US_ERISA_PENSION_PLANS_1979
+    N_DOC_US_FED_PRIVATE_EQUITY_1995["Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995)"]
+    N_ORG_US_FEDERAL_RESERVE -->|"Eine unter dem Dach des Federal Reserve System publizierte Staff Study 168 (Dezember 1995) analysiert Struktur und regulatorischen Wandel des Private-Equity-Markts. Die Autorenmeinungen sind keine automatische amtliche Billigung sämtlicher Schlussfolgerungen durch den Gouverneursrat"| N_DOC_US_FED_PRIVATE_EQUITY_1995
+    N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979["US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979)"]
+    N_PRG_US_ERISA_PENSION_PLANS_1979 -->|"Federal-Reserve-Staff-Studie 1995: VC-Partnerships erhielten von ERISA-Pensionsplänen 1976–1978 jeweils weniger als 5 Mio. USD jährlich, dagegen 50 Mio. USD im ERSTEN HALBJAHR 1979. Unterschiedliche Zeiträume, keine addierbaren Jahressummen und KEIN nachgewiesener individueller Geldfluss zu Warburg Pincus; DOL-Gegenregulierung folgte August 1979"| N_ORG_US_VENTURE_CAPITAL_PARTNERSHIPS_1979
 ```
 
 [Zur Relationstabelle](network.md)
