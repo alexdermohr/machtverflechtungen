@@ -1619,3 +1619,27 @@ entities:
     name: "Bundeskriminalamt (BKA)"
     countries: [DE]
     notes: "Bundesbehörde, die nach amtlicher Antwort vom 18.08.1997 den Journalisten Udo Ulfkotte für eine einzelne ressortübergreifende Lagebesprechung am 27.11.1996 als Iran-Experten und ausdrücklich nicht in Pressefunktion einlud. Kein Beleg einer BND-Agentenbeziehung."
+
+  - id: ORG-DE-BMVG-PSV-1981-1990
+    type: federal_ministry
+    name: "Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990)"
+    countries: [DE]
+    notes: "Verteidigungsministerium der BRD; Haushaltsmittel der Referatsgruppe Psychologische Verteidigung in Bundestagsdrucksachen 11/4360 und 11/7749 nachgewiesen. Historischer Förderkontext, weder gleichbedeutend mit BND noch mit einer personenbezogenen Agentenzahlung."
+
+  - id: ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990
+    type: historical_civic_association
+    name: "Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg)"
+    countries: [DE]
+    notes: "Seit 1961 existierende, bis zur Neuorganisation 1990 staatlich geförderte Studien- und Seminarorganisation; erhebliche BMVg-PSV-Zuwendungen 1981–1990 und Personalüberschneidungen laut BT-Drs 11/4360 und 11/7749. Ein konkreter BND-Rekrutierungsauftrag Ulfkottes ist nicht unabhängig belegt."
+
+  - id: ORG-DE-DGFSB-1989-1990
+    type: historical_civic_association
+    name: "Deutsche Gesellschaft für Sozialbeziehungen e. V. (Bonn, Förderzeitraum 1989–1990)"
+    countries: [DE]
+    notes: "Laut amtlicher Antwort BT-Drs 11/7749 im Zeitraum der Haushaltsjahre 1989/90 mit insgesamt 385.000 DM aus BMVg/PSV-Mitteln unterstützt. Kein Nachweis der Zahlung an eine Einzelperson oder des BND als Zahler."
+
+  - id: PER-DE-WERNER-MARX-CDU-1965-1972
+    type: person
+    name: "Werner Marx (1924–1985, CDU)"
+    countries: [DE]
+    notes: "KAS-Politikerbiografie: Bundeswehr-Referat für psychologische Kriegsführung ab 1958, erster Vorsitzender der Studiengesellschaft für Zeitprobleme 1965–1972, später MdB und Vorsitzender des Verteidigungsausschusses 1980–1982. Keine persönliche Förderentscheidung für 1989/90 unterstellt."

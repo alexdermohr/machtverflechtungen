@@ -503,3 +503,18 @@ studies:
     sha256: 848d18c39d525554b2a72ce786e48a101f0a530602844be85ae7f3278e0c633f
     status: no_network_relation
     reason: "Historische Originalaktenprüfung der Aussagen von Jeffrey Sachs zur NATO-Erweiterung und Diplomatie. Der Vergleich von Verhandlungspositionen und Rechtsdokumenten begründet keine neue personenbezogene Finanzierungs-, Weisungs- oder Einflusskante."
+
+  ulfkotte-studiengesellschaft-psychologische-verteidigung-bmvg-1965-1990.md:
+    sha256: 27476f99d7b511ce2c38f39dd731750075fe6594239a8b4672ffd6af528e612b
+    status: network
+    relation_ids:
+      - REL-DE-BMVG-SFZ-FUNDING-1981-1988-001
+      - REL-DE-BMVG-SFZ-FUNDING-1989-1990-001
+      - REL-DE-BMVG-DGFSB-FUNDING-1989-1990-001
+      - REL-DE-MARX-SFZ-CHAIR-1965-1972-001
+      - REL-DE-ULFKOTTE-SFZ-SEMINAR-1980-001
+
+  ulfkotte-glenn-miller-geheimakten-belegpruefung-1944-1997.md:
+    sha256: 1e7fb80dce35acefe8c2d2c9d317d4550f66a57bbfdb72f18dd0164d176e3639
+    status: no_network_relation
+    reason: "Die 1997 öffentlich Ulfkotte zugeschriebene Bordell-/US-Geheimaktenbehauptung über Glenn Miller ist archivalisch nicht belegt. Die Geschichte kursierte bereits 1985; original belegte US-Flug- und Verlustakten sprechen für einen anderen Hergang. Weder eine CIA-/USAAF-Vertuschungskante noch eine journalistische Falschbeurkundung ohne Originalunterlagen wird als gesicherte Netzwerkbeziehung konstruiert."

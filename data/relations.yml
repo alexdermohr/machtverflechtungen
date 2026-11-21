@@ -3003,3 +3003,48 @@ relations:
     sources:
       - SRC-DE-BT-ULFKOTTE-BKA-1997-8433
       - SRC-DE-BT-ULFKOTTE-BKA-1997-8534
+
+  - id: REL-DE-BMVG-SFZ-FUNDING-1981-1988-001
+    from: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990
+    type: historical_government_grant_reported
+    label: "Bundesregierung nennt für 1981–1988 ca. eine Million DM jährlich aus BMVg-Mitteln an die Studiengesellschaft für Zeitprobleme; näherungsweiser Jahreswert, nicht exakt belegte acht Einzelzahlungen und kein BND-Rekrutierungsauftrag"
+    period: {start: "1981", end: "1988"}
+    evidence_level: established
+    sources: [SRC-DE-BT-PSV-1989-11-4360]
+
+  - id: REL-DE-BMVG-SFZ-FUNDING-1989-1990-001
+    from: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990
+    type: historical_government_grant_reported
+    label: "Bundesregierung meldet 1.449.200 DM Gesamtzuwendungen an die Studiengesellschaft vom 01.01.1989 bis August 1990; ein Gesamtwert für 20 Monate und keine Einzeljahreszahlung oder Leistung an Ulfkotte"
+    period: {start: "1989-01-01", end: "1990-08-28"}
+    evidence_level: established
+    sources: [SRC-DE-BT-PSV-1990-11-7749]
+
+  - id: REL-DE-BMVG-DGFSB-FUNDING-1989-1990-001
+    from: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-DGFSB-1989-1990
+    type: historical_government_grant_reported
+    label: "Von den für 1989–1990 amtlich gemeldeten 515.171 DM Zuwendungen an sechs andere zivile Organisationen erhielt die Deutsche Gesellschaft für Sozialbeziehungen e. V. 385.000 DM; Studiengesellschaft in dieser Gesamtsumme ausdrücklich nicht enthalten"
+    period: {start: "1989", end: "1990"}
+    evidence_level: established
+    sources: [SRC-DE-BT-PSV-1990-11-7749]
+
+  - id: REL-DE-MARX-SFZ-CHAIR-1965-1972-001
+    from: PER-DE-WERNER-MARX-CDU-1965-1972
+    to: ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990
+    type: historical_organization_chairmanship
+    label: "Werner Marx war laut institutioneller CDU-Biografie erster Vorsitzender der Studiengesellschaft 1965–1972 und zuvor im BMVg-Referat psychologische Kriegsführung tätig; keine persönliche Budgetweisung für Förderungen 1981–1990 nachgewiesen"
+    period: {start: "1965", end: "1972"}
+    evidence_level: strong
+    sources: [SRC-DE-KAS-WERNER-MARX-BIO]
+
+  - id: REL-DE-ULFKOTTE-SFZ-SEMINAR-1980-001
+    from: PER-DE-UDO-ULFKOTTE
+    to: ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990
+    type: autobiographically_claimed_seminar_participation
+    label: "Nur Ulfkottes retrospektive Eigenaussage (2014): Teilnahme an einem SfZ-Seminar am 25.02.1980 in Bonn-Bad Godesberg; keine unabhängig gesicherte Teilnehmerliste, BND-Anwerbung oder individuelle Spesenabrechnung"
+    period: {start: "1980-02-25", end: "1980-02-25"}
+    evidence_level: plausible
+    sources: [SRC-DE-ULFKOTTE-GEKAUFTE-JOURNALISTEN-2014]

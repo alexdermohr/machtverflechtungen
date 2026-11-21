@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**289 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**300 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1655,6 +1655,36 @@ Fundstelle: S. 1 ff.: Seit 1987 Ermittlungsverfahren, 38 Beschuldigte, Firmen WE
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-de-bt-psv-1989-11-4360"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Aktivitäten der psychologischen Verteidigung, Drucksache 11/4360](https://dserver.bundestag.de/btd/11/043/1104360.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1989-04-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-PSV-1989-11-4360`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/11/043/1104360.pdf)
+
+Fundstelle: Gedruckte S. 2: Bundesregierung bestreitet Tarnorganisationen, lässt staatliche Finanzierung ziviler Einrichtungen zu; S. 4: SfZ ca. 1 Mio. DM/Jahr 1981–1988 und Fü S I 9 Mitglied; S. 5: langjähriger Geschäftsführer der SfZ zugleich Mitarbeiter PSV-Akademie
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-bt-psv-1990-11-7749"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Neuorganisation der Psychologischen Verteidigung, Drucksache 11/7749](https://dserver.bundestag.de/btd/11/077/1107749.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-08-28 · Stufe **A** · Primärquelle · `SRC-DE-BT-PSV-1990-11-7749`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/11/077/1107749.pdf)
+
+Fundstelle: S. 1: Fü S I 9 am 01.07.1990 aufgelöst; S. 2: 1.449.200 DM Gesamtzuwendungen SfZ ab 01.01.1989 bis August 1990; S. 3: weitere sechs Vereine zusammen 515.171 DM, DGfSB davon 385.000 DM, keine Einzelpersonen
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
 <a id="src-de-bt-nonne-3123-1992"></a>
@@ -3046,6 +3076,21 @@ Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1989">
+
+<a id="src-de-schimmeck-psv-reportage-1989"></a>
+### Tom Schimmeck / zeitgenössische journalistische Reportage 1989
+
+**[Wir müssen an Mütter und Bräute ran](https://www.schimmeck.de/Texte/psv.htm)**
+
+Tom Schimmeck / zeitgenössische journalistische Reportage 1989 · 1989 · Stufe **B** · Primärquelle · `SRC-DE-SCHIMMECK-PSV-REPORTAGE-1989`
+
+[Seite öffnen](https://www.schimmeck.de/Texte/psv.htm)
+
+Fundstelle: Zeitgenössische Recherche zu Zielgruppen, Vereinsfinanzierung und personellen Verbindungen der Psychologischen Verteidigung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dod-ukraine-biosafety-20220609"></a>
@@ -3148,6 +3193,21 @@ U.S. Senate, Subcommittee on Terrorism, Narcotics and International Operations �
 [Seite öffnen](https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm)
 
 Fundstelle: The Official Record; The 1985 Report; The 1985, 1986 and 1989 Reports
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2014">
+
+<a id="src-de-ulfkotte-gekaufte-journalisten-2014"></a>
+### Udo Ulfkotte / Kopp Verlag
+
+**[Gekaufte Journalisten: Wie Politiker, Geheimdienste und Hochfinanz Deutschlands Massenmedien lenken](https://books.google.com/books/about/Gekaufte_Journalisten.html?id=TZfioQEACAAJ)**
+
+Udo Ulfkotte / Kopp Verlag · 2014 · Stufe **C** · Primärquelle · `SRC-DE-ULFKOTTE-GEKAUFTE-JOURNALISTEN-2014`
+
+[Seite öffnen](https://books.google.com/books/about/Gekaufte_Journalisten.html?id=TZfioQEACAAJ)
+
+Fundstelle: Kapitel Im Würgegriff der Geheimdienste: persönliche Erinnerung eines SfZ-Seminars am 25.02.1980 und behauptete BND-Anbahnung; Lehrauftrag Lüneburg ab 1999
 
 </article>
 
@@ -3286,6 +3346,36 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1985">
+
+<a id="src-us-upi-miller-bordell-geruecht-1985"></a>
+### United Press International
+
+**[New explanation for Miller mystery offered](https://www.upi.com/Archives/1985/12/31/New-explanation-for-Miller-mystery-offered/3132504853200/)**
+
+United Press International · 1985-12-31 · Stufe **B** · Primärquelle · `SRC-US-UPI-MILLER-BORDELL-GERUECHT-1985`
+
+[Seite öffnen](https://www.upi.com/Archives/1985/12/31/New-explanation-for-Miller-mystery-offered/3132504853200/)
+
+Fundstelle: 1985: Schilderung einer alternativen Miller-Verlusttheorie erwähnt das schon damals kursierende Gerücht eines Pariser Bordelltodes
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1997">
+
+<a id="src-us-upi-miller-ulfkotte-1997"></a>
+### United Press International, Referat über BILD/Udo Ulfkotte
+
+**[Bild: Glenn Miller died in bordello](https://www.upi.com/Archives/1997/07/13/Bild-Glenn-Miller-died-in-bordello/7556868766400/)**
+
+United Press International, Referat über BILD/Udo Ulfkotte · 1997-07-13 · Stufe **B** · Primärquelle · `SRC-US-UPI-MILLER-ULFKOTTE-1997`
+
+[Seite öffnen](https://www.upi.com/Archives/1997/07/13/Bild-Glenn-Miller-died-in-bordello/7556868766400/)
+
+Fundstelle: Ulfkotte wird von UPI über BILD eine behauptete US-Geheimaktenentdeckung, Paris-Bordelltod und Vertuschung zugeschrieben; keine Aktennummer
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
 
 <a id="src-us-dol-erisa-prudence-fr-19790626"></a>
@@ -3393,7 +3483,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-us-irs-friends-atlantik-2021-extract) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-shell-ulfkotte-nigeria-1997-05-23) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-uy-carrio-pais-vaciado-1987-bafisud) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-shell-ulfkotte-nigeria-1997-05-23) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -3858,6 +3948,21 @@ Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
+
+<a id="src-de-imi-kirsch-psv-2014"></a>
+### Informationsstelle Militarisierung / Martin Kirsch
+
+**[Die Psychologische Verteidigung der Bundeswehr bis 1990 (IMI-Studie 7/2014)](https://www.imi-online.de/download/2014_07_kirsch_web.pdf)**
+
+Informationsstelle Militarisierung / Martin Kirsch · 2014-12-03 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-IMI-KIRSCH-PSV-2014`
+
+[PDF öffnen](https://www.imi-online.de/download/2014_07_kirsch_web.pdf)
+
+Fundstelle: S. 3, 6–8: SfZ-Finanzierung, multiplikatorgerichtete Seminare, ZDv 1/200 und institutionelle Geschichte unter Rückgriff auf Dirk Drews (2006)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
 
 <a id="src-us-irs-friends-atlantik-2021-extract"></a>
@@ -3933,6 +4038,21 @@ Fundstelle: ACDP 01-753; letzte Aktualisierung des Katalogs 05.11.2025; Bestands
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2015">
+
+<a id="src-de-kas-werner-marx-bio"></a>
+### Konrad-Adenauer-Stiftung, Geschichte der CDU
+
+**[Werner Marx, biografische Darstellung der Konrad-Adenauer-Stiftung](https://www.kas.de/en/web/geschichte-der-cdu/significant-figures/biogram-detail/-/content/werner-marx)**
+
+Konrad-Adenauer-Stiftung, Geschichte der CDU · 2015 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KAS-WERNER-MARX-BIO`
+
+[Seite öffnen](https://www.kas.de/en/web/geschichte-der-cdu/significant-figures/biogram-detail/-/content/werner-marx)
+
+Fundstelle: 1972: Ende des von KAS genannten SfZ-Vorsitzes 1965–1972; vorher BMVg-Referat Psychologische Kriegsführung ab 1958; Vorsitz Verteidigungsausschuss 1980–1982
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1953">
 
 <a id="src-de-he-lagis-bdj-19530108"></a>
@@ -4005,6 +4125,21 @@ National Security Archive, George Washington University · 2005 · Stufe **B** �
 [Seite öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/)
 
 Fundstelle: Edition mit Dokumenten 21, 22 und 59
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
+<a id="src-us-wwii-museum-glenn-miller-2019"></a>
+### National WWII Museum, New Orleans
+
+**[Major Glenn Miller: The Loss of an Icon](https://www.nationalww2museum.org/war/articles/major-glenn-miller-loss-icon)**
+
+National WWII Museum, New Orleans · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-WWII-MUSEUM-GLENN-MILLER-2019`
+
+[Seite öffnen](https://www.nationalww2museum.org/war/articles/major-glenn-miller-loss-icon)
+
+Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit Missing Air Crew Report und Verlustunterlagen
 
 </article>
 
@@ -4218,6 +4353,21 @@ Fundstelle: Anmerkung 2: historisches BIZ-Verwaltungsratsumfeld Schmitz, von Sch
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2024">
+
+<a id="src-us-nara-glenn-miller-archive-2024"></a>
+### U.S. National Archives and Records Administration
+
+**[Remembering Major Alton Glenn Miller (1904–1944)](https://text-message.blogs.archives.gov/2024/12/24/remembering-major-alton-glenn-miller-1904-1944/)**
+
+U.S. National Archives and Records Administration · 2024-12-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-NARA-GLENN-MILLER-ARCHIVE-2024`
+
+[Seite öffnen](https://text-message.blogs.archives.gov/2024/12/24/remembering-major-alton-glenn-miller-1904-1944/)
+
+Fundstelle: Miller, Norman Baessell und Pilot John R. Stuart Morgan verschwanden nach einem Flug England–Frankreich am 15.12.1944; originale Verlust- und Personalakten abgebildet
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-gb-parliament-cromwell-protector-1653"></a>
@@ -4260,6 +4410,21 @@ Unabhängige Expertenkommission Schweiz – Zweiter Weltkrieg (Mario König) · 
 [Seite öffnen](https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungen/02interhandel.htm)
 
 Fundstelle: Gründung 1928/29, Schmitz/Greutert, Aufhebung des Bindungsvertrags Mai 1940, SBG-Kontrolle ab 1961 und Archivstreit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
+
+<a id="src-us-colorado-spragg-miller-2014"></a>
+### University of Colorado Boulder, College of Music
+
+**[Revealed: What really happened when Glenn Miller disappeared in 1944](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)**
+
+University of Colorado Boulder, College of Music · 2014-07-08 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-COLORADO-SPRAGG-MILLER-2014`
+
+[Seite öffnen](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)
+
+Fundstelle: Dennis Spragg über Archivnachweise für Militäraircraft-boarding 1944 und mögliche Ursprünge späterer Bordell-/Friendly-Fire-Erzählungen
 
 </article>
 
