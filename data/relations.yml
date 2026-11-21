@@ -2803,7 +2803,7 @@ relations:
   - id: REL-EU-WARBURG-EUG-DECISION-2025-001
     from: ORG-EU-GENERAL-COURT-2025
     to: ORG-EU-ECB-2023
-    type: court_dismissal_of_appeal_against_ecb_decision
+    type: court_dismissal_of_annulment_action
     label: "EuG T-366/23 wies am 19.11.2025 die Klage gegen den EZB-Erwerbsbeschluss vom 05.05.2023 ab; laut amtlichem InfoCuria-Register ist das am 27.01.2026 eingelegte Rechtsmittel C-39/26 P am 21.11.2026 noch anhängig. Keine letztinstanzliche Bestätigung, neue Eigentumsübertragung oder persönliche Straftat daraus ableiten"
     period: {start: "2025-11-19"}
     evidence_level: established
