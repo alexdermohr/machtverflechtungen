@@ -3720,3 +3720,53 @@ sources:
   accessed: "2026-11-21"
   locator: "Organisationseigene Archivübersicht: Jahrestagung am 03. und 04.06.2005 im NDR Hamburg"
   notes: "Bestätigt Veranstaltung und Ort; kein Mitschnitt jedes einzelnen Panelbeitrags."
+- id: SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722
+  title: "CIA Memorandum J. C. King: Meeting with Joe Montgomery and Thomas Corcoran of United Fruit Company, 22 July 1954"
+  institution: "U.S. Department of State, FRUS Guatemala, Doc. 279"
+  date: "1954-07-22"
+  type: declassified_original_intelligence_meeting_record
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d279
+  accessed: "2026-11-22"
+  locator: "Persönliches CIA/UFCO-Treffen King, Montgomery, Corcoran; Vertreter erzählt eigene Intervention bei US-Botschafter Peurifoy wegen Polizeichef Mendoza und kritisiert angekündigte Kartellklage. Berichtete Einflusswirkung ist nicht unabhängig belegt."
+- id: SRC-US-FRUS-GT-CIA-CORCORAN-19540609
+  title: "CIA PBSUCCESS Meeting Record, 9 June 1954 (FRUS Doc. 178)"
+  institution: "U.S. Department of State, FRUS Guatemala, Doc. 178"
+  date: "1954-06-09"
+  type: declassified_original_intelligence_operation_record
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d178
+  accessed: "2026-11-22"
+  locator: "CIA-interne Klage über Thomas Corcorans Zugangs- und Druckversuche gegen Operation PBSUCCESS; Weisung, ohne DCI-Zustimmung keine Informationen auszutauschen."
+- id: SRC-US-FRUS-GT-NSC-ANTITRUST-UFCO-19540617
+  title: "National Security Council discussion on an anti-trust suit against United Fruit, 17 June 1954 (FRUS Doc. 196)"
+  institution: "U.S. Department of State, FRUS Guatemala, Doc. 196"
+  date: "1954-06-17"
+  type: official_editorial_note_based_on_NSC_minutes
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d196
+  accessed: "2026-11-22"
+  locator: "Amtliche Edition der NSC-Sitzungsprotokolle: Eisenhower und John Foster Dulles befürworten grundsätzlich Kartellverfahren, Allen Dulles möchte CIA-Operationsschutz durch etwa einmonatigen Aufschub. Editorial Note, kein selbständig eingesehenes NSC-Faksimile."
+- id: SRC-US-FRUS-GT-CIA-SHERWOOD-UFCO-19540627
+  title: "CIA Telegram 06737: One More Adverse Reference to United Fruit via SHERWOOD, 27 June 1954 (FRUS Doc. 240)"
+  institution: "U.S. Department of State, FRUS Guatemala, Doc. 240"
+  date: "1954-06-27"
+  type: declassified_original_intelligence_propaganda_telegram
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d240
+  accessed: "2026-11-22"
+  locator: "CIA-Telegramm empfiehlt SHERWOOD eine kritische Äußerung über United Fruit, um Eindruck Castillo-Armas-Unternehmensnähe zu vermindern. Anweisung/Empfehlung, nicht automatisch tatsächliche Ausstrahlung."
+- id: SRC-US-FRUS-GT-CIA-MEDIA-COORD-19540604
+  title: "CIA Dispatch HUL-A-1039 on Guatemalan media and anti-imperialism counternarrative, 4 June 1954 (FRUS Doc. 171)"
+  institution: "U.S. Department of State, FRUS Guatemala, Doc. 171"
+  date: "1954-06-04"
+  type: declassified_original_intelligence_propaganda_planning_memo
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d171
+  accessed: "2026-11-22"
+  locator: "CIA-Hauptquartier: Vorschläge zu privatwirtschaftlicher UFCO-PR, CIA-kontrollierten Medien und SHERWOOD; möglicher Stiftungs-/Forscherauftrag nur vorgeschlagen, kein tatsächlich geförderter Akteur belegt."
