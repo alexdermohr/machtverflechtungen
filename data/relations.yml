@@ -3316,10 +3316,10 @@ relations:
     from: ORG-US-DOJ
     to: ORG-US-UNITED-FRUIT-1952
     type: documented_federal_antitrust_proceeding
-    label: "NSC diskutierte am 17.06.1954 Kartellvorgehen gegen United Fruit; das CIA-Meeting 22.07.1954 berichtet die inzwischen angekündigte Kartellklage. Keine Aussage über gerichtliche Feststellung/Ergebnis"
-    period: {start: "1954"}
-    evidence_level: strong
-    sources: [SRC-US-FRUS-GT-NSC-ANTITRUST-UFCO-19540617, SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722]
+    label: "US-DOJ reichte am 02.07.1954 tatsächlich Zivilkartellklage gegen United Fruit ein; am 04.02.1958 folgte ein Consent Judgment mit Wettbewerbs-/Entflechtungsauflagen ohne Prozess oder Schuldanerkenntnis, 1978 modifiziert"
+    period: {start: "1954-07-02"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-NSC-ANTITRUST-UFCO-19540617, SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722, SRC-US-FRUS-NSC-UFCO-ANTITRUST-REOPEN-19540617, SRC-US-FRUS-STATE-UFCO-ANTITRUST-SPARKS-19541203, SRC-US-DOJ-UFCO-MODIFIED-FINAL-JUDGMENT-1978]
   - id: REL-US-CIA-GT-SHERWOOD-MEDIA-1954
     from: ORG-US-CIA
     to: PRG-GT-CIA-SHERWOOD-1954
@@ -3336,3 +3336,36 @@ relations:
     period: {start: "1954-06-27"}
     evidence_level: established
     sources: [SRC-US-FRUS-GT-CIA-SHERWOOD-UFCO-19540627]
+
+  - id: REL-US-CUTLER-OLD-COLONY-PRESIDENT-1953
+    from: PER-US-ROBERT-CUTLER-1953
+    to: ORG-US-OLD-COLONY-TRUST-1953
+    type: disclosed_former_financial_institution_presidency
+    label: "NSC-Protokoll vom 04.06.1953 bezeichnet Robert Cutler als ehemaligen Präsidenten der Old Colony Trust Company; eine konkrete Weisung oder Zahlung im UFCO-Kartellverfahren wird nicht behauptet"
+    period: {start: "1953-06-04"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-NSC-UFCO-ANTITRUST-DELAY-19530604]
+  - id: REL-US-OLD-COLONY-UFCO-RECUSAL-1953
+    from: ORG-US-OLD-COLONY-TRUST-1953
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_institutional_ties_cited_for_recusal
+    label: "NSC-Protokoll vom 04.06.1953 benennt Verbindungen Old Colony Trust–United Fruit als Grund für Cutlers Selbstenthaltung; Art, Kapitalanteile und Finanzflüsse sind in der Akte nicht spezifiziert"
+    period: {start: "1953-06-04"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-NSC-UFCO-ANTITRUST-DELAY-19530604]
+  - id: REL-US-NSC-DOJ-UFCO-ANTITRUST-DELAY-1953
+    from: ORG-US-NSC-1953
+    to: ORG-US-DOJ
+    type: formal_nsc_decision_to_delay_antitrust_filing
+    label: "National Security Council beschloss am 04.06.1953 einjährige Verschiebung der vorbereiteten United-Fruit-Kartellklage mit Auftrag an den Attorney General zur Verhandlung; Präsidentengenehmigung ist ediert"
+    period: {start: "1953-06-04", end: "1954-06-04"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-NSC-UFCO-ANTITRUST-PLANNING-19530601, SRC-US-FRUS-NSC-UFCO-ANTITRUST-DELAY-19530604]
+  - id: REL-US-UFCO-STATE-DOJ-LOBBY-1954
+    from: ORG-US-UNITED-FRUIT-1952
+    to: ORG-US-STATE-DEPARTMENT-1954
+    type: documented_attempt_to_influence_antitrust_settlement
+    label: "State-Memorandum vom 03.12.1954 beschreibt wiederholte United-Fruit-Bitten um diplomatische Einflussnahme zunächst gegen Klage, dann für günstige Einigung; eine tatsächliche DOJ-Weisung oder erreichte Wirkung ist nicht nachgewiesen"
+    period: {start: "1954-12-03"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-STATE-UFCO-ANTITRUST-SPARKS-19541203]
