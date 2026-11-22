@@ -3770,3 +3770,64 @@ sources:
   url: https://history.state.gov/historicaldocuments/frus1952-54Guat/d171
   accessed: "2026-11-22"
   locator: "CIA-Hauptquartier: Vorschläge zu privatwirtschaftlicher UFCO-PR, CIA-kontrollierten Medien und SHERWOOD; möglicher Stiftungs-/Forscherauftrag nur vorgeschlagen, kein tatsächlich geförderter Akteur belegt."
+
+- id: SRC-US-FRUS-NSC-UFCO-ANTITRUST-PLANNING-19530601
+  title: "NSC Planning Board: Effect on National Security Interests in Latin America of Possible Anti-Trust Proceedings, 1 June 1953"
+  institution: "U.S. Department of State, FRUS American Republics IV, Doc. 45"
+  date: "1953-06-01"
+  type: declassified_original_nsc_planning_report
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54v04/d45
+  accessed: "2026-11-22"
+  locator: "Erörterung seit Jahrzehnten vorbereiteter DOJ-Kartellvorwürfe und strategischer United-Fruit-Transport-/Funkanlagen; Aufschubempfehlung, noch nicht der NSC-Beschluss."
+- id: SRC-US-FRUS-NSC-UFCO-ANTITRUST-DELAY-19530604
+  title: "NSC 148th Meeting: United Fruit antitrust postponement and Robert Cutler recusal, 4 June 1953"
+  institution: "U.S. Department of State, FRUS American Republics IV, Doc. 46"
+  date: "1953-06-04"
+  type: declassified_original_nsc_decision_minutes
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54v04/d46
+  accessed: "2026-11-22"
+  locator: "NSC-Beschluss eines einjährigen DOJ-Aufschubs; Robert Cutler erklärt früheres Amt bei Old Colony Trust und Verbindungen des Instituts zu United Fruit, verlässt Beratung. Kein Nachweis Cutlers persönlicher Entscheidung."
+- id: SRC-US-FRUS-NSC-UFCO-ANTITRUST-REOPEN-19540617
+  title: "NSC 202nd Meeting: United Fruit antitrust and CIA concerns, 17 June 1954"
+  institution: "U.S. Department of State, FRUS American Republics IV, Doc. 57"
+  date: "1954-06-17"
+  type: declassified_original_nsc_decision_minutes
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54v04/d57
+  accessed: "2026-11-22"
+  locator: "NSC beschließt keine weitere sicherheitsbedingte Verzögerung über die Aktenvorbereitung hinaus; Allen Dulles verweist auf Guatemala-Operation. Edition bestätigt Klageeinreichung 02.07.1954."
+- id: SRC-US-FRUS-STATE-UFCO-ANTITRUST-SPARKS-19541203
+  title: "Edward J. Sparks: United States Anti-Trust Suit Against United Fruit Company, 3 December 1954"
+  institution: "U.S. Department of State, FRUS American Republics IV, Doc. 64"
+  date: "1954-12-03"
+  type: original_internal_state_department_antitrust_memo
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1952-54v04/d64
+  accessed: "2026-11-22"
+  locator: "Amtliche Akte hält wiederholtes UFCO-Lobbying gegenüber State und tatsächliche Klage 02.07.1954 fest; empfiehlt Vergleich und Prüfung von Entflechtungsforderungen, dokumentiert keine Umsetzung."
+- id: SRC-US-DOJ-UFCO-MODIFIED-FINAL-JUDGMENT-1978
+  title: "United States v. United Fruit Company: Modified Final Judgment, 7 April 1978"
+  institution: "U.S. District Court, Eastern District of Louisiana; U.S. Department of Justice archival PDF"
+  date: "1978-04-07"
+  type: original_federal_court_consent_judgment
+  primary: true
+  tier: A
+  url: https://www.justice.gov/atr/page/file/1432816/dl?inline=
+  accessed: "2026-11-22"
+  locator: "Gerichtsoriginal dokumentiert Klage 02.07.1954, Consent Judgment 04.02.1958 ohne Prozess/Schuldanerkenntnis, spätere Modifikation und Verkauf guatemaltekischer Plantagen an Del Monte 14.12.1972."
+- id: SRC-US-COURT-APPEALS-UFCO-ANTITRUST-1969
+  title: "U.S. Court of Appeals, Fifth Circuit: United States v. United Fruit Company, 410 F.2d 553 (1969)"
+  institution: "U.S. Court of Appeals for the Fifth Circuit; juristisches Textarchiv Justia"
+  date: "1969-04-25"
+  type: original_federal_appellate_court_opinion_republished
+  primary: true
+  tier: A
+  url: https://law.justia.com/cases/federal/appellate-courts/F2/410/553/154971/
+  accessed: "2026-11-22"
+  locator: "Berufungsurteil beschreibt 1958er Consent Judgment mit struktureller Wettbewerbsauflage und juristisch begründete Schutzanordnung über vertrauliche Entflechtungspläne."
