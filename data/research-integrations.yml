@@ -558,3 +558,11 @@ studies:
       - REL-DE-BND-ULFKOTTE-INTERNAL-PRESS-NOTE-1997-001
       - REL-DE-BARTHELT-ULFKOTTE-AWARD-2003-001
       - REL-DE-BECKSTEIN-ULFKOTTE-LAUDATIO-2003-001
+
+  udo-ulfkotte-ernst-uhrlau-netzwerk-recherche-panel-2005.md:
+    sha256: 396ce331750c2d503d56d52caa2210e7edd0bd214e231e41fef7fdeca1eea1a0
+    status: network
+    relation_ids:
+      - REL-DE-NR-FORUM5-ORGANIZER-2005-001
+      - REL-DE-ULFKOTTE-NR-FORUM5-2005-001
+      - REL-DE-UHRLAU-NR-FORUM5-2005-001

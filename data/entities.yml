@@ -1758,3 +1758,21 @@ entities:
     name: "Günther Beckstein"
     countries: [DE]
     notes: "Bayerischer Innenminister zum Zeitpunkt des Staatsbürgerpreises 12.12.2003; offizielle Annette-Barthelt-Stiftung-Preisträgerchronik nennt ihn als Laudator für Udo Ulfkotte. Eine redaktionelle Weisung oder individuelle Preiszahlung durch den Minister ist daraus nicht ableitbar."
+
+  - id: ORG-DE-NETZWERK-RECHERCHE-2005
+    type: professional_journalism_association
+    name: "Netzwerk Recherche (Konferenzveranstalter 2005)"
+    countries: [DE]
+    notes: "Journalistisches Berufsnetzwerk, veranstaltete die Jahreskonferenz 'Fakten gegen Fiktionen' beim NDR Hamburg 03.–04.06.2005; öffentliches Originalprogramm nennt Udo Ulfkotte und den damaligen Nachrichtendienstkoordinator Ernst Uhrlau für ein Panel. Keine geheime staatliche Finanzierung dieses Panels nachgewiesen."
+
+  - id: PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005
+    type: public_conference_panel
+    name: "Netzwerk Recherche Forum 5: Zwischen Wahrheit und Abhängigkeit (04.06.2005)"
+    countries: [DE]
+    notes: "Laut Veranstalteroriginalprogramm Samstag 04.06.2005, 15:45–17:00 Uhr, NDR Hamburg Saal K3, öffentlich angesetztes Forum zur Zusammenarbeit von Geheimdiensten und Journalisten; Udo Ulfkotte und Ernst Uhrlau unter benannten Diskutanten. Programm belegt Planung, nicht lückenlos tatsächliche Anwesenheit oder Wortlaut."
+
+  - id: PER-DE-ERNST-UHRLAU
+    type: person
+    name: "Ernst Uhrlau"
+    countries: [DE]
+    notes: "Laut Netzwerk-Recherche-Programm vom 04.06.2005 damals Nachrichtendienstkoordinator der Bundesregierung; Bundestagsbericht 2015 bestätigt spätere BND-Präsidentschaft 2005–2011. Geplante öffentliche Podiumsteilnahme neben Ulfkotte ist kein Nachweis einer verdeckten persönlichen Führungsbeziehung."
