@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**327 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**333 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3256,6 +3256,21 @@ Fundstelle: Offene Erprobung von Palantirs Maven Smart System in Army Public Aff
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1969">
+
+<a id="src-us-court-appeals-ufco-antitrust-1969"></a>
+### U.S. Court of Appeals for the Fifth Circuit; juristisches Textarchiv Justia
+
+**[U.S. Court of Appeals, Fifth Circuit: United States v. United Fruit Company, 410 F.2d 553 (1969)](https://law.justia.com/cases/federal/appellate-courts/F2/410/553/154971/)**
+
+U.S. Court of Appeals for the Fifth Circuit; juristisches Textarchiv Justia · 1969-04-25 · Stufe **A** · Primärquelle · `SRC-US-COURT-APPEALS-UFCO-ANTITRUST-1969`
+
+[Seite öffnen](https://law.justia.com/cases/federal/appellate-courts/F2/410/553/154971/)
+
+Fundstelle: Berufungsurteil beschreibt 1958er Consent Judgment mit struktureller Wettbewerbsauflage und juristisch begründete Schutzanordnung über vertrauliche Entflechtungspläne.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dod-ukraine-biosafety-20220609"></a>
@@ -3283,6 +3298,66 @@ U.S. Department of Justice · 1991-12-19 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)
 
 Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
+
+<a id="src-us-frus-nsc-ufco-antitrust-planning-19530601"></a>
+### U.S. Department of State, FRUS American Republics IV, Doc. 45
+
+**[NSC Planning Board: Effect on National Security Interests in Latin America of Possible Anti-Trust Proceedings, 1 June 1953](https://history.state.gov/historicaldocuments/frus1952-54v04/d45)**
+
+U.S. Department of State, FRUS American Republics IV, Doc. 45 · 1953-06-01 · Stufe **A** · Primärquelle · `SRC-US-FRUS-NSC-UFCO-ANTITRUST-PLANNING-19530601`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54v04/d45)
+
+Fundstelle: Erörterung seit Jahrzehnten vorbereiteter DOJ-Kartellvorwürfe und strategischer United-Fruit-Transport-/Funkanlagen; Aufschubempfehlung, noch nicht der NSC-Beschluss.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
+
+<a id="src-us-frus-nsc-ufco-antitrust-delay-19530604"></a>
+### U.S. Department of State, FRUS American Republics IV, Doc. 46
+
+**[NSC 148th Meeting: United Fruit antitrust postponement and Robert Cutler recusal, 4 June 1953](https://history.state.gov/historicaldocuments/frus1952-54v04/d46)**
+
+U.S. Department of State, FRUS American Republics IV, Doc. 46 · 1953-06-04 · Stufe **A** · Primärquelle · `SRC-US-FRUS-NSC-UFCO-ANTITRUST-DELAY-19530604`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54v04/d46)
+
+Fundstelle: NSC-Beschluss eines einjährigen DOJ-Aufschubs; Robert Cutler erklärt früheres Amt bei Old Colony Trust und Verbindungen des Instituts zu United Fruit, verlässt Beratung. Kein Nachweis Cutlers persönlicher Entscheidung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-nsc-ufco-antitrust-reopen-19540617"></a>
+### U.S. Department of State, FRUS American Republics IV, Doc. 57
+
+**[NSC 202nd Meeting: United Fruit antitrust and CIA concerns, 17 June 1954](https://history.state.gov/historicaldocuments/frus1952-54v04/d57)**
+
+U.S. Department of State, FRUS American Republics IV, Doc. 57 · 1954-06-17 · Stufe **A** · Primärquelle · `SRC-US-FRUS-NSC-UFCO-ANTITRUST-REOPEN-19540617`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54v04/d57)
+
+Fundstelle: NSC beschließt keine weitere sicherheitsbedingte Verzögerung über die Aktenvorbereitung hinaus; Allen Dulles verweist auf Guatemala-Operation. Edition bestätigt Klageeinreichung 02.07.1954.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-state-ufco-antitrust-sparks-19541203"></a>
+### U.S. Department of State, FRUS American Republics IV, Doc. 64
+
+**[Edward J. Sparks: United States Anti-Trust Suit Against United Fruit Company, 3 December 1954](https://history.state.gov/historicaldocuments/frus1952-54v04/d64)**
+
+U.S. Department of State, FRUS American Republics IV, Doc. 64 · 1954-12-03 · Stufe **A** · Primärquelle · `SRC-US-FRUS-STATE-UFCO-ANTITRUST-SPARKS-19541203`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54v04/d64)
+
+Fundstelle: Amtliche Akte hält wiederholtes UFCO-Lobbying gegenüber State und tatsächliche Klage 02.07.1954 fest; empfiehlt Vergleich und Prüfung von Entflechtungsforderungen, dokumentiert keine Umsetzung.
 
 </article>
 
@@ -3448,6 +3523,21 @@ U.S. District Court for the District of Columbia · 1998-08-13 · Stufe **A** ·
 [Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp2/17/10/2488622/)
 
 Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Einziehung; Annahme der Schuldbekenntnisse 24.01.1992
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-us-doj-ufco-modified-final-judgment-1978"></a>
+### U.S. District Court, Eastern District of Louisiana; U.S. Department of Justice archival PDF
+
+**[United States v. United Fruit Company: Modified Final Judgment, 7 April 1978](https://www.justice.gov/atr/page/file/1432816/dl?inline=)**
+
+U.S. District Court, Eastern District of Louisiana; U.S. Department of Justice archival PDF · 1978-04-07 · Stufe **A** · Primärquelle · `SRC-US-DOJ-UFCO-MODIFIED-FINAL-JUDGMENT-1978`
+
+[Seite öffnen](https://www.justice.gov/atr/page/file/1432816/dl?inline=)
+
+Fundstelle: Gerichtsoriginal dokumentiert Klage 02.07.1954, Consent Judgment 04.02.1958 ohne Prozess/Schuldanerkenntnis, spätere Modifikation und Verkauf guatemaltekischer Plantagen an Del Monte 14.12.1972.
 
 </article>
 

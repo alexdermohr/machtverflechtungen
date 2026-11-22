@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**367 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**371 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -694,10 +694,18 @@ flowchart LR
     N_PER_US_JOE_MONTGOMERY_UFCO_1954 -->|"Joe Montgomery sprach laut dem CIA-Protokoll vom 22.07.1954 persönlich für die United Fruit Company; die berichtete Einflussnahme auf einen Polizeichef ist nicht unabhängig bestätigt"| N_ORG_US_UNITED_FRUIT_1952
     N_ORG_US_CIA -->|"CIA-Western-Hemisphere-Chef J. C. King protokollierte am 22.07.1954 vertrauliche Gespräche mit United-Fruit-Vertretern Montgomery/Corcoran zu Politik, Personalfragen und US-Kartellklage; keine Unternehmensleitung der CIA belegt"| N_ORG_US_UNITED_FRUIT_1952
     N_PER_US_THOMAS_CORCORAN_UFCO_1954 -->|"CIA-interne Sitzungsnotiz vom 09.06.1954 beschreibt Corcorans Versuche, Informationen zu PBSUCCESS zu erhalten und politischen Druck auszuüben; CIA wies Kontakte ohne DCI-Genehmigung zurück, tatsächlicher Erfolg nicht belegt"| N_ORG_US_CIA
-    N_ORG_US_DOJ -->|"NSC diskutierte am 17.06.1954 Kartellvorgehen gegen United Fruit; das CIA-Meeting 22.07.1954 berichtet die inzwischen angekündigte Kartellklage. Keine Aussage über gerichtliche Feststellung/Ergebnis"| N_ORG_US_UNITED_FRUIT_1952
+    N_ORG_US_DOJ -->|"US-DOJ reichte am 02.07.1954 tatsächlich Zivilkartellklage gegen United Fruit ein; am 04.02.1958 folgte ein Consent Judgment mit Wettbewerbs-/Entflechtungsauflagen ohne Prozess oder Schuldanerkenntnis, 1978 modifiziert"| N_ORG_US_UNITED_FRUIT_1952
     N_PRG_GT_CIA_SHERWOOD_1954["CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954)"]
     N_ORG_US_CIA -->|"CIA-Planungsdepesche 04.06.1954 ordnet SHERWOOD zu CIA-kontrollierten Medien; Telegramm 27.06.1954 empfiehlt bestimmte UFCO-Bezüge für SHERWOOD; keine generelle Aussage über Ausstrahlung jedes Plans"| N_PRG_GT_CIA_SHERWOOD_1954
     N_PRG_GT_CIA_SHERWOOD_1954 -->|"CIA-Zentrale empfahl 27.06.1954, SHERWOOD solle United Fruit ausdrücklich kritisch darstellen, damit Castillo Armas nicht als Mann des Konzerns gelte. Weist Kommunikationsabsicht nach, nicht tatsächlich erfolgte Sendung"| N_ORG_US_UNITED_FRUIT_1952
+    N_PER_US_ROBERT_CUTLER_1953["Robert Cutler (NSC-Sicherheitsberater 1953)"]
+    N_ORG_US_OLD_COLONY_TRUST_1953["Old Colony Trust Company (1953)"]
+    N_PER_US_ROBERT_CUTLER_1953 -->|"NSC-Protokoll vom 04.06.1953 bezeichnet Robert Cutler als ehemaligen Präsidenten der Old Colony Trust Company; eine konkrete Weisung oder Zahlung im UFCO-Kartellverfahren wird nicht behauptet"| N_ORG_US_OLD_COLONY_TRUST_1953
+    N_ORG_US_OLD_COLONY_TRUST_1953 -->|"NSC-Protokoll vom 04.06.1953 benennt Verbindungen Old Colony Trust–United Fruit als Grund für Cutlers Selbstenthaltung; Art, Kapitalanteile und Finanzflüsse sind in der Akte nicht spezifiziert"| N_ORG_US_UNITED_FRUIT_1952
+    N_ORG_US_NSC_1953["National Security Council (USA, 1953–1954)"]
+    N_ORG_US_NSC_1953 -->|"National Security Council beschloss am 04.06.1953 einjährige Verschiebung der vorbereiteten United-Fruit-Kartellklage mit Auftrag an den Attorney General zur Verhandlung; Präsidentengenehmigung ist ediert"| N_ORG_US_DOJ
+    N_ORG_US_STATE_DEPARTMENT_1954["U.S. Department of State (1954)"]
+    N_ORG_US_UNITED_FRUIT_1952 -->|"State-Memorandum vom 03.12.1954 beschreibt wiederholte United-Fruit-Bitten um diplomatische Einflussnahme zunächst gegen Klage, dann für günstige Einigung; eine tatsächliche DOJ-Weisung oder erreichte Wirkung ist nicht nachgewiesen"| N_ORG_US_STATE_DEPARTMENT_1954
 ```
 
 [Zur Relationstabelle](network.md)

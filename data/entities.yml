@@ -1791,3 +1791,24 @@ entities:
     name: "CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954)"
     countries: [US, GT]
     notes: "In deklassifizierten CIA-Dokumenten vom 04. und 27.06.1954 als Rundfunkkanal verdeckter KUGOWN/PBSUCCESS-Gegenpropaganda erwähnt. Nicht jeder in der Planung genannte Sendeinhalt als tatsächlich ausgestrahlt nachgewiesen."
+
+  - id: PER-US-ROBERT-CUTLER-1953
+    type: person
+    name: "Robert Cutler (NSC-Sicherheitsberater 1953)"
+    countries: [US]
+    notes: "Nach NSC-Protokoll vom 04.06.1953 früherer Präsident von Old Colony Trust; verließ wegen dokumentierter Verbindungen des Instituts zu United Fruit die konkrete NSC-Beratung. Kein Beleg einer persönlichen Kartellklageweisung oder Zahlung."
+  - id: ORG-US-OLD-COLONY-TRUST-1953
+    type: historical_financial_institution
+    name: "Old Colony Trust Company (1953)"
+    countries: [US]
+    notes: "US-Finanzinstitut mit im NSC-Protokoll vom 04.06.1953 ausdrücklich erwähnten Verbindungen zu United Fruit; deren Art, Anteilshöhe und Zahlungswege sind aus dieser NSC-Akte nicht ersichtlich."
+  - id: ORG-US-NSC-1953
+    type: historical_federal_security_policy_council
+    name: "National Security Council (USA, 1953–1954)"
+    countries: [US]
+    notes: "US-Sicherheitsrat; beschloss am 04.06.1953 einen einjährigen Aufschub vorbereiteter Kartellverfahren gegen United Fruit aus außen- und sicherheitspolitischen Erwägungen; Neubewertung im Juni 1954."
+  - id: ORG-US-STATE-DEPARTMENT-1954
+    type: historical_federal_executive_department
+    name: "U.S. Department of State (1954)"
+    countries: [US]
+    notes: "US-Außenministerium; internes Memorandum vom 03.12.1954 dokumentiert wiederholte UFCO-Ansprachen und empfiehlt gegenüber DOJ Vergleich und Überprüfung von Entflechtungsforderungen. Umsetzung dieser Empfehlung nicht erwiesen."
