@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**324 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**326 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -232,7 +232,7 @@
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
-| International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [3](network.md#rel-us-mccone-itt-board-1970) |
+| International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
@@ -265,6 +265,7 @@
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
+| Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [5](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
@@ -300,6 +301,7 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
+| U.S. Agency for International Development (politische Risikoversicherung Chile, 1967) | federal_foreign_aid_agency_historical | `ORG-US-USAID-CHILE-1967` | US, CL | [2](network.md#rel-us-aid-itt-chile-riskinsurance-1967) |
 | U.S. Army Southern European Task Force, Africa (SETAF-AF) | military_organization | `ORG-US-ARMY-SETAF-AF` | US | [1](network.md#rel-us-setaf-palantir-maven-pa-2025) |
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |

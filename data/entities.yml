@@ -1812,3 +1812,13 @@ entities:
     name: "U.S. Department of State (1954)"
     countries: [US]
     notes: "US-Außenministerium; internes Memorandum vom 03.12.1954 dokumentiert wiederholte UFCO-Ansprachen und empfiehlt gegenüber DOJ Vergleich und Überprüfung von Entflechtungsforderungen. Umsetzung dieser Empfehlung nicht erwiesen."
+  - id: ORG-US-USAID-CHILE-1967
+    type: federal_foreign_aid_agency_historical
+    name: "U.S. Agency for International Development (politische Risikoversicherung Chile, 1967)"
+    countries: [US, CL]
+    notes: "US-AID war vor OPIC Gründungsjahr 1971 staatliche Versicherungsstelle. CRS-Bericht 1973 dokumentiert die politische Risikoabsicherung ITTs Ende 1967, ohne den exakten einzelnen Versicherungswert zu nennen."
+  - id: ORG-US-OPIC-1971
+    type: federal_political_risk_insurer_historical
+    name: "Overseas Private Investment Corporation (OPIC, USA)"
+    countries: [US]
+    notes: "US-amerikanische staatliche Agentur für politische Investitionsrisiken ab 1971. Verweigerte ITTs Chile-Entschädigung 09.04.1973, unterlag laut Anhörung 1976 im Schiedsverfahren und erbrachte im FY1975 34,7 Mio. USD bar plus 59,4 Mio. USD Garantie; DFC ist Nachfolgerin. Keine pauschale Barzahlung der Gesamtsumme."
