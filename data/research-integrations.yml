@@ -478,7 +478,7 @@ studies:
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
 
   udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md:
-    sha256: 026921c2821640d8a0931e8a20e78113c12f6b7a03a2ed20ff7b60ea691cf6b1
+    sha256: 70acb5141691fc201acced5e43d1ae49930190352edcb9bf8e072c9b8adc11d6
     status: no_network_relation
     reason: "Die amtlich belegten BND-Observationen und Eingriffe in die Pressearbeit sind bereits in der Fallakte zu Medien und Nachrichtendiensten modelliert. Ulfkottes Behauptung einer konkreten BND-Autorschaft des FAZ-Artikels vom 16.03.1993 ist bislang nicht unabhängig belegt und begründet daher keine neue Netzwerkrelation."
 
