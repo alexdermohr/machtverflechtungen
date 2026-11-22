@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**371 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**377 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -706,6 +706,14 @@ flowchart LR
     N_ORG_US_NSC_1953 -->|"National Security Council beschloss am 04.06.1953 einjährige Verschiebung der vorbereiteten United-Fruit-Kartellklage mit Auftrag an den Attorney General zur Verhandlung; Präsidentengenehmigung ist ediert"| N_ORG_US_DOJ
     N_ORG_US_STATE_DEPARTMENT_1954["U.S. Department of State (1954)"]
     N_ORG_US_UNITED_FRUIT_1952 -->|"State-Memorandum vom 03.12.1954 beschreibt wiederholte United-Fruit-Bitten um diplomatische Einflussnahme zunächst gegen Klage, dann für günstige Einigung; eine tatsächliche DOJ-Weisung oder erreichte Wirkung ist nicht nachgewiesen"| N_ORG_US_STATE_DEPARTMENT_1954
+    N_ORG_US_USAID_CHILE_1967["U.S. Agency for International Development (politische Risikoversicherung Chile, 1967)"]
+    N_ORG_US_USAID_CHILE_1967 -->|"CRS-House-Bericht 1973: AID versicherte Ende 1967 u.a. ITT-Risiken in Chile; 0,9 Mrd. USD sind länderweites Quartalsvolumen und keine ITT-Einzelsumme"| N_ORG_US_ITT_1970
+    N_ORG_US_OPIC_1971["Overseas Private Investment Corporation (OPIC, USA)"]
+    N_ORG_US_USAID_CHILE_1967 -->|"DFC-Nachfolgeregister: AID verwaltete staatliche Risikoversicherung bis OPIC 1971 den Betrieb aufnahm; institutionelle Nachfolge, keine ITT-Einzelzahlung"| N_ORG_US_OPIC_1971
+    N_ORG_US_OPIC_1971 -->|"OPIC Board lehnte am 09.04.1973 eine rund 92,5 Mio. USD ITT-Forderung mit behaupteten Vertragsverletzungen ab; streitiger Vorwurf, kein gerichtliches Schuldurteil"| N_ORG_US_ITT_1970
+    N_ORG_US_OPIC_1971 -->|"OPIC-Anwalt erklärte im US-Kongress 1976, ein einstimmiges dreiköpfiges Schiedsgericht habe zugunsten ITTs OPIC-Haftung festgestellt; vollständiger Schiedsspruch noch nicht eingesehen"| N_ORG_US_ITT_1970
+    N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 34.706.917 USD Cash als Teil der ITT-Versicherungsregelung zu Chile; keine Zahlung der zusätzlich garantierten Schuldverschreibungen zu unterstellen"| N_ORG_US_ITT_1970
+    N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 59.384.614 USD OPIC-Garantie chilenischer Regierungsverpflichtungen im ITT-Vergleich, nicht als sofortige Barzahlung; FRUS-Fußnote nennt abweichend 59.384.697 USD"| N_ORG_US_ITT_1970
 ```
 
 [Zur Relationstabelle](network.md)

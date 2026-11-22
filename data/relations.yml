@@ -3369,3 +3369,51 @@ relations:
     period: {start: "1954-12-03"}
     evidence_level: strong
     sources: [SRC-US-FRUS-STATE-UFCO-ANTITRUST-SPARKS-19541203]
+  - id: REL-US-AID-ITT-CHILE-RISKINSURANCE-1967
+    from: ORG-US-USAID-CHILE-1967
+    to: ORG-US-ITT-1970
+    type: historical_federal_political_risk_insurance
+    label: "CRS-House-Bericht 1973: AID versicherte Ende 1967 u.a. ITT-Risiken in Chile; 0,9 Mrd. USD sind länderweites Quartalsvolumen und keine ITT-Einzelsumme"
+    period: {start: "1967-10"}
+    evidence_level: strong
+    sources: [SRC-US-HOUSE-CRS-OPIC-CHILE-1973]
+  - id: REL-US-AID-OPIC-INSURANCE-TRANSFER-1971
+    from: ORG-US-USAID-CHILE-1967
+    to: ORG-US-OPIC-1971
+    type: federal_insurance_program_successorship
+    label: "DFC-Nachfolgeregister: AID verwaltete staatliche Risikoversicherung bis OPIC 1971 den Betrieb aufnahm; institutionelle Nachfolge, keine ITT-Einzelzahlung"
+    period: {start: "1971"}
+    evidence_level: established
+    sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022]
+  - id: REL-US-OPIC-ITT-CLAIM-DENIAL-1973
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ITT-1970
+    type: official_disputed_insurance_claim_denial
+    label: "OPIC Board lehnte am 09.04.1973 eine rund 92,5 Mio. USD ITT-Forderung mit behaupteten Vertragsverletzungen ab; streitiger Vorwurf, kein gerichtliches Schuldurteil"
+    period: {start: "1973-04-09"}
+    evidence_level: established
+    sources: [SRC-US-OPIC-ITT-DENIAL-CONGRESS-1973, SRC-US-FRUS-STATE-ITT-OPIC-1973]
+  - id: REL-US-OPIC-ITT-ARBITRAL-LIABILITY-1974
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ITT-1970
+    type: documented_arbitral_insurance_liability
+    label: "OPIC-Anwalt erklärte im US-Kongress 1976, ein einstimmiges dreiköpfiges Schiedsgericht habe zugunsten ITTs OPIC-Haftung festgestellt; vollständiger Schiedsspruch noch nicht eingesehen"
+    period: {start: "1974"}
+    evidence_level: strong
+    sources: [SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976]
+  - id: REL-US-OPIC-ITT-CASH-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ITT-1970
+    type: official_insurance_cash_settlement
+    label: "DFC-FY75-Register: 34.706.917 USD Cash als Teil der ITT-Versicherungsregelung zu Chile; keine Zahlung der zusätzlich garantierten Schuldverschreibungen zu unterstellen"
+    period: {start: "1975"}
+    evidence_level: established
+    sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022, SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976]
+  - id: REL-US-OPIC-ITT-GUARANTEE-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ITT-1970
+    type: official_government_obligation_guarantee
+    label: "DFC-FY75-Register: 59.384.614 USD OPIC-Garantie chilenischer Regierungsverpflichtungen im ITT-Vergleich, nicht als sofortige Barzahlung; FRUS-Fußnote nennt abweichend 59.384.697 USD"
+    period: {start: "1975"}
+    evidence_level: established
+    sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022, SRC-US-FRUS-STATE-ITT-OPIC-1973, SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976]

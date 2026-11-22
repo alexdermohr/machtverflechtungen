@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**333 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**339 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2898,6 +2898,21 @@ Fundstelle: 174. Verhandlungstag, 20.01.1977, Anlage 5 (laut Protokoll in Ablich
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-opic-itt-denial-congress-1973"></a>
+### Overseas Private Investment Corporation; U.S. Congressional Record, House Extensions, 9 April 1973
+
+**[OPIC Denies $92.5 Million ITT Chilean Claim (original OPIC release, 9 April 1973, reprinted Congressional Record)](https://www.congress.gov/93/crecb/1973/04/09/GPO-CRECB-1973-pt9-5-2.pdf)**
+
+Overseas Private Investment Corporation; U.S. Congressional Record, House Extensions, 9 April 1973 · 1973-04-09 · Stufe **A** · Primärquelle · `SRC-US-OPIC-ITT-DENIAL-CONGRESS-1973`
+
+[PDF öffnen](https://www.congress.gov/93/crecb/1973/04/09/GPO-CRECB-1973-pt9-5-2.pdf)
+
+Fundstelle: Druckseite 11465: OPIC Board lehnte 09.04.1973 92,5 Mio. USD ITT-Anspruch ab, behauptete Informations- und Vertragspflichtverletzung; ITT-Schiedsrecht.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
 
 <a id="src-it-senato-stragi-2001"></a>
@@ -3361,6 +3376,36 @@ Fundstelle: Amtliche Akte hält wiederholtes UFCO-Lobbying gegenüber State und 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-frus-state-itt-opic-1973"></a>
+### U.S. Department of State, FRUS Chile XXI, Document 322
+
+**[Eliot to Kissinger: Church Subcommittee Hearings on Multinational Corporations Chile–ITT, 16 March 1973](https://history.state.gov/historicaldocuments/frus1969-76v21/d322)**
+
+U.S. Department of State, FRUS Chile XXI, Document 322 · 1973-03-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-STATE-ITT-OPIC-1973`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d322)
+
+Fundstelle: Senatsanforderungen, State-Bereitschaft Dokumente zurückzuhalten und ggf. Executive Privilege zu bemühen, CIA/ITT-Anwälte; geplante OPIC-Verweigerung 92,5 Mio. USD. Editionsfußnote nennt abweichend 59.384.697 USD Garantie.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-state-chile-strategy-1972"></a>
+### U.S. Department of State, FRUS E–16, Document 127
+
+**[Chile Strategy: Paper Prepared in Department of State, 1 December 1972](https://history.state.gov/historicaldocuments/frus1969-76ve16/d127)**
+
+U.S. Department of State, FRUS E–16, Document 127 · 1972-12-01 · Stufe **A** · Primärquelle · `SRC-US-FRUS-STATE-CHILE-STRATEGY-1972`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d127)
+
+Fundstelle: Explizites Ziel Allende-Regierung nicht konsolidieren, US-Eximbank/OPIC/AID-Exposition ca. 1,1 Mrd. USD schützen. Keine ITT-Einzelzahlung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
 
 <a id="src-us-frus-gt-cia-media-coord-19540604"></a>
@@ -3538,6 +3583,51 @@ U.S. District Court, Eastern District of Louisiana; U.S. Department of Justice a
 [Seite öffnen](https://www.justice.gov/atr/page/file/1432816/dl?inline=)
 
 Fundstelle: Gerichtsoriginal dokumentiert Klage 02.07.1954, Consent Judgment 04.02.1958 ohne Prozess/Schuldanerkenntnis, spätere Modifikation und Verkauf guatemaltekischer Plantagen an Del Monte 14.12.1972.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-house-crs-opic-chile-1973"></a>
+### U.S. House Committee on Foreign Affairs / Congressional Research Service
+
+**[The Overseas Private Investment Corporation: A Critical Analysis (Congressional Research Service, House Foreign Affairs)](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf)**
+
+U.S. House Committee on Foreign Affairs / Congressional Research Service · 1973-09-04 · Stufe **A** · Primärquelle · `SRC-US-HOUSE-CRS-OPIC-CHILE-1973`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf)
+
+Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
+<a id="src-us-house-opic-itt-hearings-1976"></a>
+### U.S. House Committee on International Relations, 94th Congress
+
+**[Chile: The Status of Human Rights and Its Relationship to U.S. Economic Assistance Programs, 29 April / 5 May 1976](https://www.govinfo.gov/content/pkg/CHRG-94hhrg73450O/pdf/CHRG-94hhrg73450O.pdf)**
+
+U.S. House Committee on International Relations, 94th Congress · 1976-04-29 · Stufe **A** · Primärquelle · `SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CHRG-94hhrg73450O/pdf/CHRG-94hhrg73450O.pdf)
+
+Fundstelle: Druckseiten 45–47: OPIC-Jurist Morgan: einstimmiges Dreier-Schiedsgericht, OPIC-Haftung für ITT, Vergleich Cash+Garantien, zusätzliche Prüfung weiterer Vorwürfe, keine neue Maßnahme; Vertragsänderungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-us-dfc-insurance-claims-2022"></a>
+### U.S. International Development Finance Corporation (DFC; OPIC-Rechtsnachfolgerin)
+
+**[Insurance Claims Experience to Date: DFC and Its Predecessor Agencies, 30 September 2022](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf)**
+
+U.S. International Development Finance Corporation (DFC; OPIC-Rechtsnachfolgerin) · 2022-09-30 · Stufe **A** · Primärquelle · `SRC-US-DFC-INSURANCE-CLAIMS-2022`
+
+[PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf)
+
+Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD.
 
 </article>
 
