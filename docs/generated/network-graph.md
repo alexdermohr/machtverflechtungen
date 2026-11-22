@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**360 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**367 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -688,6 +688,16 @@ flowchart LR
     N_PER_DE_UDO_ULFKOTTE -->|"Originalprogramm führt Udo Ulfkotte als Teilnehmer des öffentlichen Geheimdienste-und-Journalisten-Panels am 04.06.2005; message 1/2006 berichtet rückblickend über ein Instrumentalisierungseingeständnis Ulfkottes auf jener Jahrestagung, aber kein Tonmitschnitt und keine Lokalisierung des Zitats gerade in Forum 5 gesichtet"| N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005
     N_PER_DE_ERNST_UHRLAU["Ernst Uhrlau"]
     N_PER_DE_ERNST_UHRLAU -->|"Originalprogramm 2005 listet Ernst Uhrlau für dasselbe öffentlich angekündigte Forum 5 als damaligen Nachrichtendienstkoordinator im Kanzleramt, nicht als 2005 bereits amtierenden BND-Präsidenten; tatsächliche Anwesenheit und ein persönlicher Kontakt zu Ulfkotte ohne Mitschnitt hier nicht eigenständig gesichert"| N_PRG_DE_NR_INTELLIGENCE_MEDIA_PANEL_2005
+    N_PER_US_THOMAS_CORCORAN_UFCO_1954["Thomas G. Corcoran (United-Fruit-Verbindung 1954)"]
+    N_PER_US_THOMAS_CORCORAN_UFCO_1954 -->|"Thomas Corcoran trat am 22.07.1954 gemeinsam mit Joe Montgomery in einem vertraulichen CIA-Gespräch als United-Fruit-Vertreter auf; kein nachgewiesenes Anstellungsverhältnis oder CIA-Operativbefehl"| N_ORG_US_UNITED_FRUIT_1952
+    N_PER_US_JOE_MONTGOMERY_UFCO_1954["Joe Montgomery (United Fruit 1954)"]
+    N_PER_US_JOE_MONTGOMERY_UFCO_1954 -->|"Joe Montgomery sprach laut dem CIA-Protokoll vom 22.07.1954 persönlich für die United Fruit Company; die berichtete Einflussnahme auf einen Polizeichef ist nicht unabhängig bestätigt"| N_ORG_US_UNITED_FRUIT_1952
+    N_ORG_US_CIA -->|"CIA-Western-Hemisphere-Chef J. C. King protokollierte am 22.07.1954 vertrauliche Gespräche mit United-Fruit-Vertretern Montgomery/Corcoran zu Politik, Personalfragen und US-Kartellklage; keine Unternehmensleitung der CIA belegt"| N_ORG_US_UNITED_FRUIT_1952
+    N_PER_US_THOMAS_CORCORAN_UFCO_1954 -->|"CIA-interne Sitzungsnotiz vom 09.06.1954 beschreibt Corcorans Versuche, Informationen zu PBSUCCESS zu erhalten und politischen Druck auszuüben; CIA wies Kontakte ohne DCI-Genehmigung zurück, tatsächlicher Erfolg nicht belegt"| N_ORG_US_CIA
+    N_ORG_US_DOJ -->|"NSC diskutierte am 17.06.1954 Kartellvorgehen gegen United Fruit; das CIA-Meeting 22.07.1954 berichtet die inzwischen angekündigte Kartellklage. Keine Aussage über gerichtliche Feststellung/Ergebnis"| N_ORG_US_UNITED_FRUIT_1952
+    N_PRG_GT_CIA_SHERWOOD_1954["CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954)"]
+    N_ORG_US_CIA -->|"CIA-Planungsdepesche 04.06.1954 ordnet SHERWOOD zu CIA-kontrollierten Medien; Telegramm 27.06.1954 empfiehlt bestimmte UFCO-Bezüge für SHERWOOD; keine generelle Aussage über Ausstrahlung jedes Plans"| N_PRG_GT_CIA_SHERWOOD_1954
+    N_PRG_GT_CIA_SHERWOOD_1954 -->|"CIA-Zentrale empfahl 27.06.1954, SHERWOOD solle United Fruit ausdrücklich kritisch darstellen, damit Castillo Armas nicht als Mann des Konzerns gelte. Weist Kommunikationsabsicht nach, nicht tatsächlich erfolgte Sendung"| N_ORG_US_UNITED_FRUIT_1952
 ```
 
 [Zur Relationstabelle](network.md)

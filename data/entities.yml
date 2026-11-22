@@ -1776,3 +1776,18 @@ entities:
     name: "Ernst Uhrlau"
     countries: [DE]
     notes: "Laut Netzwerk-Recherche-Programm vom 04.06.2005 damals Nachrichtendienstkoordinator der Bundesregierung; Bundestagsbericht 2015 bestätigt spätere BND-Präsidentschaft 2005–2011. Geplante öffentliche Podiumsteilnahme neben Ulfkotte ist kein Nachweis einer verdeckten persönlichen Führungsbeziehung."
+  - id: PER-US-THOMAS-CORCORAN-UFCO-1954
+    type: person
+    name: "Thomas G. Corcoran (United-Fruit-Verbindung 1954)"
+    countries: [US]
+    notes: "Im CIA-Gesprächsprotokoll 22.07.1954 als Vertreter von United Fruit zusammen mit Joe Montgomery genannt. CIA-Notiz vom 09.06.1954 spricht von seinem versuchten Einfluss auf PBSUCCESS; kein Beweis erfolgreicher Weisung."
+  - id: PER-US-JOE-MONTGOMERY-UFCO-1954
+    type: person
+    name: "Joe Montgomery (United Fruit 1954)"
+    countries: [US]
+    notes: "Von J. C. King im CIA-Gesprächsprotokoll vom 22.07.1954 als United-Fruit-Vertreter benannt. Seine Schilderung des Kontakts zu Botschafter Peurifoy und einer Polizeichefernennung ist ein Selbstbericht, keine unabhängig verifizierte Kausalwirkung."
+  - id: PRG-GT-CIA-SHERWOOD-1954
+    type: historical_covert_media_program
+    name: "CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954)"
+    countries: [US, GT]
+    notes: "In deklassifizierten CIA-Dokumenten vom 04. und 27.06.1954 als Rundfunkkanal verdeckter KUGOWN/PBSUCCESS-Gegenpropaganda erwähnt. Nicht jeder in der Planung genannte Sendeinhalt als tatsächlich ausgestrahlt nachgewiesen."

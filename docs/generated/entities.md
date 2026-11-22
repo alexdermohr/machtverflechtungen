@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**317 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**320 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -46,6 +46,7 @@
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
+| Joe Montgomery (United Fruit 1954) | person | `PER-US-JOE-MONTGOMERY-UFCO-1954` | US | [1](network.md#rel-us-montgomery-ufco-liaison-1954) |
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
@@ -92,6 +93,7 @@
 | Theo Koll | person | `PER-DE-THEO-KOLL` | DE | [2](network.md#rel-de-tmn-025) |
 | Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE | [2](network.md#rel-de-tmn-049) |
 | Thomas Ebeling | person | `PER-DE-THOMAS-EBELING` | DE | [1](network.md#rel-de-tmn-051) |
+| Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
 | Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE | [1](network.md#rel-de-tmn-040) |
 | Thomas Roth | person | `PER-DE-THOMAS-ROTH` | DE | [1](network.md#rel-de-tmn-048) |
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
@@ -169,12 +171,13 @@
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
-| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [11](network.md#rel-de-mni-006) |
+| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [14](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [1](network.md#rel-us-cia-chile-junta-propaganda-1973) |
 | Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
 | Christlich Demokratische Union Deutschlands (CDU, 1991) | historical_political_party | `ORG-DE-CDU-1991` | DE | [1](network.md#rel-de-ab-kiep-cdu-donation-1991-001) |
 | CIA Track II: Chile 1970 | historical_covert_operation | `PRG-CL-CIA-TRACK-II-1970` | US, CL | [1](network.md#rel-us-cia-track-ii-chile-1970) |
+| CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954) | historical_covert_media_program | `PRG-GT-CIA-SHERWOOD-1954` | US, GT | [2](network.md#rel-us-cia-gt-sherwood-media-1954) |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
@@ -298,12 +301,12 @@
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [1](network.md#rel-us-ua-biosec-2022-001) |
-| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [1](network.md#rel-int-bcci-006) |
+| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [2](network.md#rel-int-bcci-006) |
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
-| United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
+| United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [6](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |

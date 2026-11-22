@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**322 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**327 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3283,6 +3283,81 @@ U.S. Department of Justice · 1991-12-19 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)
 
 Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-gt-cia-media-coord-19540604"></a>
+### U.S. Department of State, FRUS Guatemala, Doc. 171
+
+**[CIA Dispatch HUL-A-1039 on Guatemalan media and anti-imperialism counternarrative, 4 June 1954 (FRUS Doc. 171)](https://history.state.gov/historicaldocuments/frus1952-54Guat/d171)**
+
+U.S. Department of State, FRUS Guatemala, Doc. 171 · 1954-06-04 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GT-CIA-MEDIA-COORD-19540604`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d171)
+
+Fundstelle: CIA-Hauptquartier: Vorschläge zu privatwirtschaftlicher UFCO-PR, CIA-kontrollierten Medien und SHERWOOD; möglicher Stiftungs-/Forscherauftrag nur vorgeschlagen, kein tatsächlich geförderter Akteur belegt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-gt-cia-corcoran-19540609"></a>
+### U.S. Department of State, FRUS Guatemala, Doc. 178
+
+**[CIA PBSUCCESS Meeting Record, 9 June 1954 (FRUS Doc. 178)](https://history.state.gov/historicaldocuments/frus1952-54Guat/d178)**
+
+U.S. Department of State, FRUS Guatemala, Doc. 178 · 1954-06-09 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GT-CIA-CORCORAN-19540609`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d178)
+
+Fundstelle: CIA-interne Klage über Thomas Corcorans Zugangs- und Druckversuche gegen Operation PBSUCCESS; Weisung, ohne DCI-Zustimmung keine Informationen auszutauschen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-gt-nsc-antitrust-ufco-19540617"></a>
+### U.S. Department of State, FRUS Guatemala, Doc. 196
+
+**[National Security Council discussion on an anti-trust suit against United Fruit, 17 June 1954 (FRUS Doc. 196)](https://history.state.gov/historicaldocuments/frus1952-54Guat/d196)**
+
+U.S. Department of State, FRUS Guatemala, Doc. 196 · 1954-06-17 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GT-NSC-ANTITRUST-UFCO-19540617`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d196)
+
+Fundstelle: Amtliche Edition der NSC-Sitzungsprotokolle: Eisenhower und John Foster Dulles befürworten grundsätzlich Kartellverfahren, Allen Dulles möchte CIA-Operationsschutz durch etwa einmonatigen Aufschub. Editorial Note, kein selbständig eingesehenes NSC-Faksimile.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-gt-cia-sherwood-ufco-19540627"></a>
+### U.S. Department of State, FRUS Guatemala, Doc. 240
+
+**[CIA Telegram 06737: One More Adverse Reference to United Fruit via SHERWOOD, 27 June 1954 (FRUS Doc. 240)](https://history.state.gov/historicaldocuments/frus1952-54Guat/d240)**
+
+U.S. Department of State, FRUS Guatemala, Doc. 240 · 1954-06-27 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GT-CIA-SHERWOOD-UFCO-19540627`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d240)
+
+Fundstelle: CIA-Telegramm empfiehlt SHERWOOD eine kritische Äußerung über United Fruit, um Eindruck Castillo-Armas-Unternehmensnähe zu vermindern. Anweisung/Empfehlung, nicht automatisch tatsächliche Ausstrahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-us-frus-gt-cia-corporate-meeting-19540722"></a>
+### U.S. Department of State, FRUS Guatemala, Doc. 279
+
+**[CIA Memorandum J. C. King: Meeting with Joe Montgomery and Thomas Corcoran of United Fruit Company, 22 July 1954](https://history.state.gov/historicaldocuments/frus1952-54Guat/d279)**
+
+U.S. Department of State, FRUS Guatemala, Doc. 279 · 1954-07-22 · Stufe **A** · Primärquelle · `SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1952-54Guat/d279)
+
+Fundstelle: Persönliches CIA/UFCO-Treffen King, Montgomery, Corcoran; Vertreter erzählt eigene Intervention bei US-Botschafter Peurifoy wegen Polizeichef Mendoza und kritisiert angekündigte Kartellklage. Berichtete Einflusswirkung ist nicht unabhängig belegt.
 
 </article>
 
