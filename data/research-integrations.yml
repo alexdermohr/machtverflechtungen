@@ -483,7 +483,7 @@ studies:
     reason: "Die amtlich belegten BND-Observationen und Eingriffe in die Pressearbeit sind bereits in der Fallakte zu Medien und Nachrichtendiensten modelliert. Ulfkottes Behauptung einer konkreten BND-Autorschaft des FAZ-Artikels vom 16.03.1993 ist bislang nicht unabhängig belegt und begründet daher keine neue Netzwerkrelation."
 
   udo-ulfkotte-weitere-aussagen-shell-gmf-chemiewaffen-medien-1984-2016.md:
-    sha256: d43af41c68dae9b86d34f7dcc2255616764b3db94aff368112822ef79d280c63
+    sha256: 30aa92ac66c8b47eebb8e2fc70a002d360ce290d78088f92aad8ff6351724ebf
     status: network
     relation_ids:
       - REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
