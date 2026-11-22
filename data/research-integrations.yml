@@ -597,3 +597,11 @@ studies:
       - REL-US-OPIC-ITT-ARBITRAL-LIABILITY-1974
       - REL-US-OPIC-ITT-CASH-1975
       - REL-US-OPIC-ITT-GUARANTEE-1975
+
+  p2-corriere-argentinien-redaktionsdossier-1976-1983.md:
+    sha256: 84cbfa1709605b47d54111b9a43c78fa3cabfc59718fb916aeb09c07b11bc5e6
+    status: network
+    relation_ids:
+      - REL-IT-P2-RIZZOLI-1975-1981-001
+      - REL-IT-RIZZOLI-CORRIERE-1977-001
+      - REL-IT-P2-RIZZOLI-EDITORIAL-1980-001
