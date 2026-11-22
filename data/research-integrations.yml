@@ -567,7 +567,7 @@ studies:
       - REL-DE-ULFKOTTE-NR-FORUM5-2005-001
       - REL-DE-UHRLAU-NR-FORUM5-2005-001
   jeffrey-sachs-guatemala-united-fruit-cia-diskurs-und-kontrolle-1952-1954.md:
-    sha256: 140e199592d36b00b021d3f67f93e3483d1aa407ab0d5213c102255d6e103e35
+    sha256: 36d934290855c5acbfa3b98612835f95d19a7064b062662c03e020229f5de830
     status: network
     relation_ids:
       - REL-US-CORCORAN-UFCO-LIAISON-1954
