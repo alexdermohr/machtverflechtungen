@@ -3280,3 +3280,59 @@ relations:
     period: {start: "2005-06-04", end: "2005-06-04"}
     evidence_level: strong
     sources: [SRC-DE-NR-ULFKOTTE-UHRLAU-PANEL-2005, SRC-DE-BT-UHRLAU-CAREER-2015]
+  - id: REL-US-CORCORAN-UFCO-LIAISON-1954
+    from: PER-US-THOMAS-CORCORAN-UFCO-1954
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_corporate_liaison
+    label: "Thomas Corcoran trat am 22.07.1954 gemeinsam mit Joe Montgomery in einem vertraulichen CIA-Gespräch als United-Fruit-Vertreter auf; kein nachgewiesenes Anstellungsverhältnis oder CIA-Operativbefehl"
+    period: {start: "1954-07-22"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722]
+  - id: REL-US-MONTGOMERY-UFCO-LIAISON-1954
+    from: PER-US-JOE-MONTGOMERY-UFCO-1954
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_corporate_liaison
+    label: "Joe Montgomery sprach laut dem CIA-Protokoll vom 22.07.1954 persönlich für die United Fruit Company; die berichtete Einflussnahme auf einen Polizeichef ist nicht unabhängig bestätigt"
+    period: {start: "1954-07-22"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722]
+  - id: REL-US-CIA-UFCO-KING-MEETING-1954
+    from: ORG-US-CIA
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_confidential_corporate_intelligence_contact
+    label: "CIA-Western-Hemisphere-Chef J. C. King protokollierte am 22.07.1954 vertrauliche Gespräche mit United-Fruit-Vertretern Montgomery/Corcoran zu Politik, Personalfragen und US-Kartellklage; keine Unternehmensleitung der CIA belegt"
+    period: {start: "1954-07-22"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722]
+  - id: REL-US-CORCORAN-CIA-ACCESS-PRESSURE-1954
+    from: PER-US-THOMAS-CORCORAN-UFCO-1954
+    to: ORG-US-CIA
+    type: documented_intelligence_record_of_lobbying_attempt
+    label: "CIA-interne Sitzungsnotiz vom 09.06.1954 beschreibt Corcorans Versuche, Informationen zu PBSUCCESS zu erhalten und politischen Druck auszuüben; CIA wies Kontakte ohne DCI-Genehmigung zurück, tatsächlicher Erfolg nicht belegt"
+    period: {start: "1954-06-09"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-GT-CIA-CORCORAN-19540609]
+  - id: REL-US-DOJ-UFCO-ANTITRUST-1954
+    from: ORG-US-DOJ
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_federal_antitrust_proceeding
+    label: "NSC diskutierte am 17.06.1954 Kartellvorgehen gegen United Fruit; das CIA-Meeting 22.07.1954 berichtet die inzwischen angekündigte Kartellklage. Keine Aussage über gerichtliche Feststellung/Ergebnis"
+    period: {start: "1954"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-GT-NSC-ANTITRUST-UFCO-19540617, SRC-US-FRUS-GT-CIA-CORPORATE-MEETING-19540722]
+  - id: REL-US-CIA-GT-SHERWOOD-MEDIA-1954
+    from: ORG-US-CIA
+    to: PRG-GT-CIA-SHERWOOD-1954
+    type: documented_covert_propaganda_channel
+    label: "CIA-Planungsdepesche 04.06.1954 ordnet SHERWOOD zu CIA-kontrollierten Medien; Telegramm 27.06.1954 empfiehlt bestimmte UFCO-Bezüge für SHERWOOD; keine generelle Aussage über Ausstrahlung jedes Plans"
+    period: {start: "1954-06-04"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-CIA-MEDIA-COORD-19540604, SRC-US-FRUS-GT-CIA-SHERWOOD-UFCO-19540627]
+  - id: REL-GT-SHERWOOD-UFCO-COUNTERNARRATIVE-1954
+    from: PRG-GT-CIA-SHERWOOD-1954
+    to: ORG-US-UNITED-FRUIT-1952
+    type: documented_cia_media_instruction_about_company
+    label: "CIA-Zentrale empfahl 27.06.1954, SHERWOOD solle United Fruit ausdrücklich kritisch darstellen, damit Castillo Armas nicht als Mann des Konzerns gelte. Weist Kommunikationsabsicht nach, nicht tatsächlich erfolgte Sendung"
+    period: {start: "1954-06-27"}
+    evidence_level: established
+    sources: [SRC-US-FRUS-GT-CIA-SHERWOOD-UFCO-19540627]
