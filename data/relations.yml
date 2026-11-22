@@ -3374,7 +3374,7 @@ relations:
     to: ORG-US-ITT-1970
     type: historical_federal_political_risk_insurance
     label: "CRS-House-Bericht 1973: AID versicherte Ende 1967 u.a. ITT-Risiken in Chile; 0,9 Mrd. USD sind länderweites Quartalsvolumen und keine ITT-Einzelsumme"
-    period: {start: "1967-10"}
+    period: {start: "1967"}
     evidence_level: strong
     sources: [SRC-US-HOUSE-CRS-OPIC-CHILE-1973]
   - id: REL-US-AID-OPIC-INSURANCE-TRANSFER-1971
