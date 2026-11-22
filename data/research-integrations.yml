@@ -490,7 +490,7 @@ studies:
       - REL-INT-SHELL-FAZ-PR-REUSE-1996-001
 
   udo-ulfkotte-bka-mykonos-verschlusssachen-bundestag-1996-1997.md:
-    sha256: 5672167d8ced14f963f459a75831bc52cfcec11d80b931949d8261d5a5e3f56d
+    sha256: 1180fd69860596311830f049591a9d84bebba733ee6b3b97c46da5f115869c1e
     status: network
     relation_ids:
       - REL-DE-BKA-ULFKOTTE-MYKONOS-1996-001
