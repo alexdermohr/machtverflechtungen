@@ -1822,3 +1822,43 @@ entities:
     name: "Overseas Private Investment Corporation (OPIC, USA)"
     countries: [US]
     notes: "US-amerikanische staatliche Agentur für politische Investitionsrisiken ab 1971. Verweigerte ITTs Chile-Entschädigung 09.04.1973, unterlag laut Anhörung 1976 im Schiedsverfahren und erbrachte im FY1975 34,7 Mio. USD bar plus 59,4 Mio. USD Garantie; DFC ist Nachfolgerin. Keine pauschale Barzahlung der Gesamtsumme."
+  - id: ORG-INT-PARIS-CLUB-CHILE-1972
+    type: historical_multilateral_creditor_negotiation
+    name: "Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975)"
+    countries: [CL, DE, US, FR, GB]
+    notes: "Koordinationsverfahren staatlicher Gläubiger zu Chile, kein weltweit zentral handelnder Bankenkonzern. UNTS 967 dokumentiert 1972 und 1974 Vereinbarungen; State-Telegramme dokumentieren 1975 getrennte Vorberatung der Gläubiger."
+  - id: ORG-CL-ALLENDE-GOVERNMENT-1972
+    type: historical_national_government
+    name: "Regierung Salvador Allende (Chile, April 1972)"
+    countries: [CL]
+    notes: "Chilenische Regierung unter Salvador Allende bei multilateraler Schuldenvereinbarung April 1972. Unterscheiden von Militärregierung ab September 1973."
+  - id: ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975
+    type: historical_government_creditor_delegation
+    name: "Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975)"
+    countries: [DE]
+    notes: "Regierungsdelegation bzw. bundesdeutsche Gläubigerstellen in den Pariser-Club-Verhandlungen 1972/1974 und diplomatischen Berichten 1975. Nicht mit der speziellen, auf 1975 bezogenen ACG-Fonds-Beziehung der Bundesrepublik gleichsetzen."
+  - id: ORG-US-BANK-OF-AMERICA-1974
+    type: historical_commercial_bank
+    name: "Bank of America (Chile-Industriekredite 1974)"
+    countries: [US]
+    notes: "Die US–Chile-Umschuldungsakte 17.06.1974 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A. und Industrias de Celulosa Arauco S.A.; Kredithöhen und Aktienrechte aus diesem Ausschnitt nicht einzeln ableitbar."
+  - id: ORG-CL-PETROQUIMICA-DOW-1974
+    type: historical_industrial_borrower
+    name: "Petroquímica Dow S.A. (Chile, 1974)"
+    countries: [CL]
+    notes: "Chilenischer Kreditnehmer in Bank-of-America-Darlehensakten laut UNTS 967 Nr.13947. Die Namenskomponente Dow ist kein geprüfter Beleg direkter Konzerneigentumsrechte."
+  - id: ORG-CL-INDUSTRIAS-ARAUCO-1974
+    type: historical_industrial_borrower
+    name: "Industrias de Celulosa Arauco S.A. (Chile, 1974)"
+    countries: [CL]
+    notes: "Chilenischer Kreditnehmer in Bank-of-America-Darlehensakten laut US–Chile-Vertrag vom 17.06.1974; keine aus der Vertragsstelle allein abgeleitete heutige Unternehmensidentität."
+  - id: ORG-US-EXIMBANK-1974
+    type: historical_federal_export_credit_agency
+    name: "Export–Import Bank of the United States (Chile, 1974)"
+    countries: [US]
+    notes: "US-Exportkreditinstitution, 1974 unter US–Chile-Vertrag mit 12 Mio. USD bereits gezahltem Schuldendienst als Empfängerin genannt; andere Vertragsforderungen sind getrennte Kategorien."
+  - id: ORG-US-COMMERCIAL-BANKS-CHILE-1975
+    type: historical_commercial_bank_cohort
+    name: "US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"
+    countries: [US, CL]
+    notes: "Sammelbezeichnung ohne namentliche Bankzuordnung: 04.04.1975 gab Chiles Minister Raúl Sáez der US-Botschaft an, US-Banken wollten bis zu einem Pariser-Club-Abkommen keine neuen Kurzfristkredite bereitstellen. Nicht mit Bank of America als konkreter Teilnehmerin dieser Aussage gleichsetzen."

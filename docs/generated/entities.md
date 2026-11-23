@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**326 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**334 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -146,6 +146,7 @@
 | Banco Central del Uruguay (BCU) | central_bank | `ORG-UY-BANCO-CENTRAL-URUGUAY` | UY | [1](network.md#rel-uy-bafisud-bcu-1984-001) |
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
+| Bank of America (Chile-Industriekredite 1974) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [3](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
 | Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
@@ -170,11 +171,12 @@
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [7](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
+| Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [14](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
-| Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [1](network.md#rel-us-cia-chile-junta-propaganda-1973) |
+| Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [6](network.md#rel-us-cia-chile-junta-propaganda-1973) |
 | Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
 | Christlich Demokratische Union Deutschlands (CDU, 1991) | historical_political_party | `ORG-DE-CDU-1991` | DE | [1](network.md#rel-de-ab-kiep-cdu-donation-1991-001) |
 | CIA Track II: Chile 1970 | historical_covert_operation | `PRG-CL-CIA-TRACK-II-1970` | US, CL | [1](network.md#rel-us-cia-track-ii-chile-1970) |
@@ -212,6 +214,7 @@
 | ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
 | Europäische Zentralbank (EZB) | central_bank | `ORG-EU-ECB-2023` | DE | [3](network.md#rel-eu-warburg-ecb-indirect-2023-001) |
+| Export–Import Bank of the United States (Chile, 1974) | historical_federal_export_credit_agency | `ORG-US-EXIMBANK-1974` | US | [1](network.md#rel-cl-chile-us-exim-debt-payment-1974) |
 | Familie Max Warburg Vermögensverwaltung KG (FMWV) | family_asset_holding | `ORG-DE-WARBURG-FMWV-2013` | DE | [1](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [2](network.md#rel-int-bcci-005) |
@@ -231,6 +234,7 @@
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
+| Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
@@ -265,15 +269,18 @@
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
-| Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [5](network.md#rel-us-aid-opic-insurance-transfer-1971) |
+| Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [7](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
+| Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Partido Demócrata Cristiano de Chile (PDC) | historical_political_party | `ORG-CL-CHRISTIAN-DEMOCRATS-1964` | CL | [1](network.md#rel-us-cia-pdc-campaign-1964) |
+| Petroquímica Dow S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-PETROQUIMICA-DOW-1974` | CL | [1](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Regierung Salvador Allende (Chile, April 1972) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [2](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
@@ -316,6 +323,7 @@
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
+| US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975) | historical_commercial_bank_cohort | `ORG-US-COMMERCIAL-BANKS-CHILE-1975` | US, CL | [1](network.md#rel-us-commercial-banks-chile-paris-condition-1975) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
