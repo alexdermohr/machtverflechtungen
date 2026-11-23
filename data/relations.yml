@@ -3417,3 +3417,91 @@ relations:
     period: {start: "1975"}
     evidence_level: established
     sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022, SRC-US-FRUS-STATE-ITT-OPIC-1973, SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976]
+  - id: REL-INT-PARIS-CLUB-CHILE-RESCHEDULING-1972
+    from: ORG-INT-PARIS-CLUB-CHILE-1972
+    to: ORG-CL-ALLENDE-GOVERNMENT-1972
+    type: documented_multilateral_debt_rescheduling_arrangement
+    label: "UNTS 967: Pariser Gläubiger mit Chile am 19.04.1972 Grundsatz zur Konsolidierung von 70% bestimmter Fälligkeiten vereinbart, Bilateralverträge nötig; kein 70%-Schuldenerlass."
+    period: {start: "1972-04-19"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-CHILE-PARIS-1972]
+  - id: REL-DE-FRG-PARIS-CLUB-CHILE-1972-1974
+    from: ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975
+    to: ORG-INT-PARIS-CLUB-CHILE-1972
+    type: documented_multilateral_creditor_government_participation
+    label: "Bundesrepublik Deutschland war 1972 und 1974 Gläubigerstaat in multilateralen Verhandlungen zur chilenischen Umschuldung, laut UNTS-Verträgen; keine Weisung an US-Dienststellen daraus ableitbar."
+    period: {start: "1972-04-19", end: "1974-03-25"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-CHILE-PARIS-1972, SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-INT-PARIS-CLUB-CHILE-RESCHEDULING-1974
+    from: ORG-INT-PARIS-CLUB-CHILE-1972
+    to: ORG-CL-MILITARY-JUNTA-1973
+    type: documented_multilateral_debt_rescheduling_arrangement
+    label: "Pariser Abkommen 25.03.1974 sah für ausgewählte 1973/74 fällige chilenische Verpflichtungen 80% Umschuldung und IMF-Stand-by-Bedingung vor, nicht pauschalen Schuldenerlass."
+    period: {start: "1974-03-25"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-INT-PARIS-CHILE-ITT-COMPENSATION-1972
+    from: ORG-INT-PARIS-CLUB-CHILE-1972
+    to: ORG-CL-ALLENDE-GOVERNMENT-1972
+    type: documented_creditor_question_about_itt_compensation
+    label: "Laut Kissinger-Memo 28.04.1972 fragten Pariser Gläubiger die chilenische Delegation ausdrücklich, ob ITT unter Entschädigungsregeln falle; keine belegte ITT-Weisung und kein Kausalbeweis für Umschuldungsbeginn."
+    period: {start: "1972-04-28"}
+    evidence_level: strong
+    sources: [SRC-US-FRUS-KISSINGER-CHILE-PARIS-ITT-19720428]
+  - id: REL-US-BOFA-PETROQUIMICA-DOW-CHILE-1974
+    from: ORG-US-BANK-OF-AMERICA-1974
+    to: ORG-CL-PETROQUIMICA-DOW-1974
+    type: historically_documented_commercial_bank_loan_relationship
+    label: "UNTS 967 Nr. 13947 §8-9 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A.; betroffene Fälligkeiten 1971–1972 und OPIC-Bezug, keine Eigentumskontrolle nachgewiesen."
+    period: {start: "1974-06-17"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-US-BOFA-ARAUCO-CHILE-1974
+    from: ORG-US-BANK-OF-AMERICA-1974
+    to: ORG-CL-INDUSTRIAS-ARAUCO-1974
+    type: historically_documented_commercial_bank_loan_relationship
+    label: "UNTS 967 Nr. 13947 §8-9 nennt Bank-of-America-Darlehensverträge mit Industrias de Celulosa Arauco S.A.; keine Einzelkreditsumme oder spätere Ownership aus diesem Text belegt."
+    period: {start: "1974-06-17"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-US-OPIC-BOFA-LOAN-PAYOUT-PLANNED-1974
+    from: ORG-US-OPIC-1971
+    to: ORG-US-BANK-OF-AMERICA-1974
+    type: historically_agreed_insurance_payment_on_commercial_bank_loans
+    label: "US–Chile-Memorandum 17.06.1974 §8–9: OPIC-Zahlung bezüglich Bank-of-America-Industriekrediten für etwa 30.06.1974 vorgesehen; keine verifizierte fristgerechte Auszahlung."
+    period: {start: "1974-06-17"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-CL-CHILE-OPIC-RECORDED-DEBT-PAYMENT-1974
+    from: ORG-CL-MILITARY-JUNTA-1973
+    to: ORG-US-OPIC-1971
+    type: original_treaty_recorded_government_debt_payment
+    label: "UNTS 967 Nr. 13947 §10: Chile erklärte bereits 15.05.1974 1.226.443,63 USD an OPIC überwiesen; separat von ITT FY1975; Vertrag druckt Gesamtbetrag 1 USD unter Summe der Einzelpositionen."
+    period: {start: "1974-05-15"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-CL-CHILE-US-EXIM-DEBT-PAYMENT-1974
+    from: ORG-CL-MILITARY-JUNTA-1973
+    to: ORG-US-EXIMBANK-1974
+    type: original_treaty_recorded_government_debt_payment
+    label: "US–Chile-Schuldenvertrag 17.06.1974 §10 nennt 12 Mio. USD bereits 15.05.1974 an US Export–Import Bank gezahlt; von OPIC-Zahlung und anderen Kategorien getrennt."
+    period: {start: "1974-05-15"}
+    evidence_level: established
+    sources: [SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-US-COMMERCIAL-BANKS-CHILE-PARIS-CONDITION-1975
+    from: ORG-US-COMMERCIAL-BANKS-CHILE-1975
+    to: ORG-CL-MILITARY-JUNTA-1973
+    type: diplomatically_reported_commercial_credit_condition
+    label: "US-Botschaft Santiago 04.04.1975 referiert Minister Saez: nicht namentlich genannte US-Banken hielten neue Kurzfristkredite bis Pariser-Club-Vereinbarung zurück; keine individuelle Bankweisung geprüft."
+    period: {start: "1975-04-04"}
+    evidence_level: strong
+    sources: [SRC-US-DOS-CABLE-SANTIAGO-BANKS-19750404]
+  - id: REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
+    from: ORG-CL-MILITARY-JUNTA-1973
+    to: ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975
+    type: documented_diplomatic_transmission_of_creditor_claims
+    label: "US-Botschaft Bonn 06.05.1975: Chilenische Botschaft übergab am 02.05.1975 deutschem Ministerialbeamten Müller-Thuns Forderungs-/Zahlungsplanliste u.a. ITT und OPIC; Anlage liegt nicht vor."
+    period: {start: "1975-05-02"}
+    evidence_level: strong
+    sources: [SRC-US-DOS-CABLE-BONN-FRG-19750506]
