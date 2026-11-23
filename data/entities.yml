@@ -1862,3 +1862,28 @@ entities:
     name: "US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"
     countries: [US, CL]
     notes: "Sammelbezeichnung ohne namentliche Bankzuordnung: 04.04.1975 gab Chiles Minister Raúl Sáez der US-Botschaft an, US-Banken wollten bis zu einem Pariser-Club-Abkommen keine neuen Kurzfristkredite bereitstellen. Nicht mit Bank of America als konkreter Teilnehmerin dieser Aussage gleichsetzen."
+  - id: ORG-US-ANACONDA-COPPER-1972
+    type: historical_multinational_mining_corporation
+    name: "Anaconda Company (Chile-Kupferbeteiligungen 1972–1977)"
+    countries: [US, CL]
+    notes: "US-Kupferkonzern; GAO 1976 dokumentiert OPIC-Ablehnung zweier Forderungen über rund 154 Mio. USD 1972 und Haftungs-Schiedsspruch 1975; GAO 1977 und DFC FY77 dokumentieren 95,092 Mio. USD Cash/Guarantee-Abwicklung 31.03.1977. Keine Behauptung einer bewiesenen CIA-Weisung."
+  - id: ORG-CL-CHILE-COPPER-ANACONDA-1972
+    type: historical_mining_company_subsidiary
+    name: "Chile Copper Company (Anaconda-Tochter, 1972)"
+    countries: [US, CL]
+    notes: "Anaconda-Tochter in US-GAO-Originalbelegen zu abgesicherten chilenischen Kupferminen Chuquicamata/El Salvador. Eigentumsverbindung nicht gleichbedeutend mit Steuerung staatlicher US-Institutionen."
+  - id: ORG-US-DISTRICT-COURT-DC-1976
+    type: federal_judicial_court_historical
+    name: "U.S. District Court for the District of Columbia (Anaconda-Urteil 1976)"
+    countries: [US]
+    notes: "Urteil 418 F. Supp. 107 vom 20.07.1976 lehnte OPIC-Antrag auf Aufhebung des Anaconda-Schiedsspruchs wegen behaupteter Schiedsrichterbefangenheit ab; keine gerichtliche Feststellung der von OPIC behaupteten Korruption."
+  - id: ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975
+    type: historical_private_insurance_group
+    name: "Overseas Investment Insurance Group (OPIC-Mitversicherer 1975)"
+    countries: [US]
+    notes: "Laut GAO-Bericht 1977 beteiligten sich private Versicherungsunternehmen im OIIG seit 1975 als direkte Versicherer und Rückversicherer bestehender OPIC-Policen, mit vertraglichen Verlustlimits; keine Zahlung in einzelnen Chile-Schadensfällen hier dokumentiert."
+  - id: ORG-GB-LLOYDS-LONDON-1976
+    type: private_insurance_market_historical
+    name: "Lloyd's of London (OPIC-Rückversicherung 1976)"
+    countries: [GB]
+    notes: "GAO-Bericht 1977 nennt bestehenden gesonderten Rückversicherungsvertrag mit OPIC. Die dortigen Schadensbeispiele sind hypothetisch; keine individuelle Chile-Auszahlung oder Allianz mit geheimdienstlichen Akteuren hier belegt."

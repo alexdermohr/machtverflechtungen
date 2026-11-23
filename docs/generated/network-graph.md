@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**388 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**400 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -733,6 +733,23 @@ flowchart LR
     N_ORG_US_COMMERCIAL_BANKS_CHILE_1975["US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"]
     N_ORG_US_COMMERCIAL_BANKS_CHILE_1975 -->|"US-Botschaft Santiago 04.04.1975 referiert Minister Saez: nicht namentlich genannte US-Banken hielten neue Kurzfristkredite bis Pariser-Club-Vereinbarung zurück; keine individuelle Bankweisung geprüft."| N_ORG_CL_MILITARY_JUNTA_1973
     N_ORG_CL_MILITARY_JUNTA_1973 -->|"US-Botschaft Bonn 06.05.1975: Chilenische Botschaft übergab am 02.05.1975 deutschem Ministerialbeamten Müller-Thuns Forderungs-/Zahlungsplanliste u.a. ITT und OPIC; Anlage liegt nicht vor."| N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975
+    N_ORG_US_ANACONDA_COPPER_1972["Anaconda Company (Chile-Kupferbeteiligungen 1972–1977)"]
+    N_ORG_US_OPIC_1971 -->|"GAO 1976: OPIC wies September 1972 zwei Anaconda/Chile-Copper-Enteignungsforderungen zusammen ca. 154 Mio USD wegen streitiger Policendeckung zurück; keine akzeptierte Leistung."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_CL_CHILE_COPPER_ANACONDA_1972["Chile Copper Company (Anaconda-Tochter, 1972)"]
+    N_ORG_US_ANACONDA_COPPER_1972 -->|"GAO-Bilanzbericht benennt Chile Copper Company ausdrücklich als Tochter der Anaconda Company in 1972er gemeinsamen OPIC-Versicherungsforderungen."| N_ORG_CL_CHILE_COPPER_ANACONDA_1972
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"GAO 1976: Chile vereinbarte Juli 1974 mit Anaconda ca. 65 Mio USD Cash und chilenische Schuldscheine Nominalwert 188 Mio USD; nicht mit OPIC-1977-Abwicklung addieren."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_US_OPIC_1971 -->|"Dreierschiedsgericht 17.07.1975 bejahte laut US-GAO und Gericht OPIC-Haftung gegenüber Anaconda, bestimmte jedoch noch keinen Zahlbetrag; Ablehnung von 1972 nicht Endstand."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_US_DISTRICT_COURT_DC_1976["U.S. District Court for the District of Columbia (Anaconda-Urteil 1976)"]
+    N_ORG_US_DISTRICT_COURT_DC_1976 -->|"418 F. Supp. 107 vom 20.07.1976: Gericht wies OPIC-Antrag zur Aufhebung des Anaconda-Schiedsspruchs wegen behaupteter Befangenheit ab; kein Korruptionsbefund gegen Anaconda."| N_ORG_US_OPIC_1971
+    N_ORG_US_OPIC_1971 -->|"GAO-Bilanz zum 30.06.1975: 128.659.383 USD Chile-bezogene Eventualgarantien auf von Chile übernommene Entschädigungs-/Schuldverpflichtungen; einschliesslich Zinsen, keine Barauszahlung."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_US_OPIC_1971 -->|"GAO 1977 und DFC FY77: OPIC-Anaconda-Vergleich 31.03.1977, Cashanteil exakt 47.504.034 USD; OPIC erhielt zudem laut GAO ca. 27,5 Mio USD Chile-Notes als Gegenwert, keine Nettoverlustbehauptung."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_US_OPIC_1971 -->|"DFC FY77: 47.588.104 USD Garantieanteil von insgesamt 95.092.138 USD im Anaconda-Vergleich; Eventualhaftung auf Chile-Notes, keine sofortige Barauszahlung."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_US_OPIC_1971 -->|"DFC FY78: Bank of America/Petrodow II, Chile, Versicherungsart A Unkonvertierbarkeit, exakt 868.642 USD Garantie, 0 USD Cash. Keine Datierung auf im UN-Vertrag geplante Zahlung Juni 1974."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_US_OPIC_1971 -->|"DFC FY78: Bank of America/Arauco III, Chile, Versicherungsart A Unkonvertierbarkeit, exakt 4.397.727 USD Garantie, 0 USD Cash; Kreditprojekt laut UNTS 1974 namentlich zuordenbar, Policenidentität offen."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975["Overseas Investment Insurance Group (OPIC-Mitversicherer 1975)"]
+    N_ORG_US_OPIC_1971 -->|"GAO ID-77-24: private Unternehmen in OIIG traten seit 01.01.1975 als Mitversicherer neu ausgestellter OPIC-Policen und als Rückversicherer älterer Verträge auf; keine konkrete Chile-Payout-Zuordnung."| N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975
+    N_ORG_GB_LLOYDS_LONDON_1976["Lloyd's of London (OPIC-Rückversicherung 1976)"]
+    N_ORG_US_OPIC_1971 -->|"US-GAO ID-77-24 Druckseite 8: OPIC unterhielt 1976 eigenen Rückversicherungsvertrag mit Lloyd's of London, getrennt von OIIG; keine bewiesene Zahlung an Anaconda, ITT oder BoFA."| N_ORG_GB_LLOYDS_LONDON_1976
 ```
 
 [Zur Relationstabelle](network.md)
