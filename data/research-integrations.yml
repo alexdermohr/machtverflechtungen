@@ -483,7 +483,7 @@ studies:
     reason: "Die amtlich belegten BND-Observationen und Eingriffe in die Pressearbeit sind bereits in der Fallakte zu Medien und Nachrichtendiensten modelliert. Ulfkottes Behauptung einer konkreten BND-Autorschaft des FAZ-Artikels vom 16.03.1993 ist bislang nicht unabhängig belegt und begründet daher keine neue Netzwerkrelation."
 
   udo-ulfkotte-weitere-aussagen-shell-gmf-chemiewaffen-medien-1984-2016.md:
-    sha256: 0ab46a6d0f18976fc4d05a7d33ef8606c75822ee8dfb6c6678f827941185b864
+    sha256: b269609399c146ec425a96ceca468a66cbe1f2c2cc2a772f1e21102a28b0983f
     status: network
     relation_ids:
       - REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
@@ -605,6 +605,21 @@ studies:
       - REL-IT-P2-RIZZOLI-1975-1981-001
       - REL-IT-RIZZOLI-CORRIERE-1977-001
       - REL-IT-P2-RIZZOLI-EDITORIAL-1980-001
+  jeffrey-sachs-chile-pariser-club-opic-bank-of-america-1972-1975.md:
+    sha256: f147448efc08dd9f6bb980ab73b0deb5f0a130396b77ec600f781aca3637a336
+    status: network
+    relation_ids:
+      - REL-INT-PARIS-CLUB-CHILE-RESCHEDULING-1972
+      - REL-DE-FRG-PARIS-CLUB-CHILE-1972-1974
+      - REL-INT-PARIS-CLUB-CHILE-RESCHEDULING-1974
+      - REL-INT-PARIS-CHILE-ITT-COMPENSATION-1972
+      - REL-US-BOFA-PETROQUIMICA-DOW-CHILE-1974
+      - REL-US-BOFA-ARAUCO-CHILE-1974
+      - REL-US-OPIC-BOFA-LOAN-PAYOUT-PLANNED-1974
+      - REL-CL-CHILE-OPIC-RECORDED-DEBT-PAYMENT-1974
+      - REL-CL-CHILE-US-EXIM-DEBT-PAYMENT-1974
+      - REL-US-COMMERCIAL-BANKS-CHILE-PARIS-CONDITION-1975
+      - REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
 
   bfv-los-nsu-2011-2014.md:
     sha256: 5c842b7164c402b685dd429abcceb75de8289412923988d59e0436407f97f08c
