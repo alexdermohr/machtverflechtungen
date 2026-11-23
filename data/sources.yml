@@ -3891,3 +3891,73 @@ sources:
   url: https://www.govinfo.gov/content/pkg/CHRG-94hhrg73450O/pdf/CHRG-94hhrg73450O.pdf
   accessed: "2026-11-22"
   locator: "Druckseiten 45–47: OPIC-Jurist Morgan: einstimmiges Dreier-Schiedsgericht, OPIC-Haftung für ITT, Vergleich Cash+Garantien, zusätzliche Prüfung weiterer Vorwürfe, keine neue Maßnahme; Vertragsänderungen."
+- id: SRC-UN-UNTS967-CHILE-PARIS-1972
+  title: "UNTS 967 No. 13944, annex: Memorandum of Agreement Regarding the Consolidation of Chilean Debts, Paris 19 April 1972"
+  institution: "United Nations Treaty Series; original multilateral debt arrangement (annex to US–Chile treaty)"
+  date: "1972-04-19"
+  type: original_multilateral_creditor_agreement_in_un_treaty_series
+  primary: true
+  tier: A
+  url: https://treaties.un.org/doc/Publication/UNTS/Volume%20967/v967.pdf
+  accessed: "2026-11-23"
+  locator: "UNTS Vol 967 Druckseiten 52–54, PDF-Bildseiten 61–63; Vertragsparteien einschliesslich BRD, 70%-Umschuldungsregel, 13 Raten, 1972er Alternative zum IMF-Stand-by."
+- id: SRC-UN-UNTS967-US-CHILE-1974
+  title: "UNTS 967 No. 13947, US–Chile Debt Consolidation Memorandum, 17 June 1974; Paris Agreed Note 25 March 1974"
+  institution: "United Nations Treaty Series; United States and Chile"
+  date: "1974-06-17"
+  type: original_bilateral_debt_rescheduling_treaty
+  primary: true
+  tier: A
+  url: https://treaties.un.org/doc/Publication/UNTS/Volume%20967/v967.pdf
+  accessed: "2026-11-23"
+  locator: "UNTS Druckseiten 87–98; PDF-Bildseite 98: §§8–10 Bank of America, Petroquímica Dow/Arauco, OPIC und Chile-Zahlungsbestätigung 15.05.1974; Gesamtbetrag 14.900.645,83 USD weicht um 1 USD von Summe der vier Teilposten 14.900.646,83 USD ab. 1974 Pariser Vereinbarung 80%."
+- id: SRC-US-FRUS-KISSINGER-CHILE-PARIS-ITT-19720428
+  title: "Kissinger to Nixon, Chile Financial Issues, 28 April 1972"
+  institution: "U.S. Department of State, FRUS 1969–1976 Volume XXI, Doc. 299"
+  date: "1972-04-28"
+  type: declassified_original_presidential_policy_memo
+  primary: true
+  tier: A
+  url: https://history.state.gov/historicaldocuments/frus1969-76v21/d299
+  accessed: "2026-11-23"
+  locator: "Pariser Gläubiger fragten chilenische Delegation nach ITT-Entschädigung; Kissinger selbst verneinte ersichtliche direkte Kausalverbindung zwischen Allendes ITT-Ankündigung und zuvor vereinbartem Schuldenpakt."
+- id: SRC-US-DOS-CABLE-SANTIAGO-ITT-OPIC-19741003
+  title: "SANTIAGO 06044: ITT–CHITELCO, 3 October 1974"
+  institution: "U.S. Embassy Santiago; declassified State Department cable reproduced by WikiLeaks PlusD"
+  date: "1974-10-03"
+  type: original_diplomatic_telegram_transcription
+  primary: true
+  tier: A
+  url: https://wikileaks.org/plusd/cables/1974SANTIA06044_b.html
+  accessed: "2026-11-23"
+  locator: "Raúl Sáez berichtete ad referendum ITT-Einigung 20.09.1974 samt vorgesehener OPIC-Zustimmung; keine formale Unterschrift oder Auszahlungsbestätigung im Kabel."
+- id: SRC-US-DOS-CABLE-PARIS-CLUB-FRG-19750327
+  title: "STATE 069960: Chile Debt Rescheduling, 27 March 1975"
+  institution: "U.S. Department of State; declassified telegram reproduced by WikiLeaks PlusD"
+  date: "1975-03-27"
+  type: original_diplomatic_telegram_transcription
+  primary: true
+  tier: A
+  url: https://www.wikileaks.org/plusd/cables/1975STATE069960_b.html
+  accessed: "2026-11-23"
+  locator: "US-Forderung zeitnaher formaler Paris-Club-Runde, creditors-alone vorbereitete gemeinsame Position, danach Schuldnerstaat; Bonn/Paris angeschrieben."
+- id: SRC-US-DOS-CABLE-SANTIAGO-BANKS-19750404
+  title: "SANTIAGO 02054: Chile Debt Rescheduling, 4 April 1975"
+  institution: "U.S. Embassy Santiago; declassified State Department cable reproduced by WikiLeaks PlusD"
+  date: "1975-04-04"
+  type: original_diplomatic_telegram_transcription
+  primary: true
+  tier: A
+  url: https://www.wikileaks.org/plusd/cables/1975SANTIA02054_b.html
+  accessed: "2026-11-23"
+  locator: "Wiedergabe von Raúl Sáez: namentlich nicht benannte US-Geschäftsbanken wollten bis zu Pariser-Club-Übereinkommen keine neuen Kurzfristkredite bereitstellen; keine Bankakten."
+- id: SRC-US-DOS-CABLE-BONN-FRG-19750506
+  title: "BONN 07281: Chile Debt Rescheduling, 6 May 1975"
+  institution: "U.S. Embassy Bonn; declassified State Department cable reproduced by WikiLeaks PlusD"
+  date: "1975-05-06"
+  type: original_diplomatic_telegram_transcription
+  primary: true
+  tier: A
+  url: https://www.wikileaks.org/plusd/cables/1975BONN07281_b.html
+  accessed: "2026-11-23"
+  locator: "Chilenische Botschaft übergab 02.05.1975 Müller-Thuns Liste zu ITT, Andina-Cerro, Anaconda, Kennecott, OPIC-Forderungen; US-Botschaft sah Gleichbehandlung staatlicher/privater Gläubiger als Hauptanliegen der BRD, ohne Liste als Anlage."

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**377 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**388 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -714,6 +714,25 @@ flowchart LR
     N_ORG_US_OPIC_1971 -->|"OPIC-Anwalt erklärte im US-Kongress 1976, ein einstimmiges dreiköpfiges Schiedsgericht habe zugunsten ITTs OPIC-Haftung festgestellt; vollständiger Schiedsspruch noch nicht eingesehen"| N_ORG_US_ITT_1970
     N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 34.706.917 USD Cash als Teil der ITT-Versicherungsregelung zu Chile; keine Zahlung der zusätzlich garantierten Schuldverschreibungen zu unterstellen"| N_ORG_US_ITT_1970
     N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 59.384.614 USD OPIC-Garantie chilenischer Regierungsverpflichtungen im ITT-Vergleich, nicht als sofortige Barzahlung; FRUS-Fußnote nennt abweichend 59.384.697 USD"| N_ORG_US_ITT_1970
+    N_ORG_INT_PARIS_CLUB_CHILE_1972["Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975)"]
+    N_ORG_CL_ALLENDE_GOVERNMENT_1972["Regierung Salvador Allende (Chile, April 1972)"]
+    N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"UNTS 967: Pariser Gläubiger mit Chile am 19.04.1972 Grundsatz zur Konsolidierung von 70% bestimmter Fälligkeiten vereinbart, Bilateralverträge nötig; kein 70%-Schuldenerlass."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
+    N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975["Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975)"]
+    N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975 -->|"Bundesrepublik Deutschland war 1972 und 1974 Gläubigerstaat in multilateralen Verhandlungen zur chilenischen Umschuldung, laut UNTS-Verträgen; keine Weisung an US-Dienststellen daraus ableitbar."| N_ORG_INT_PARIS_CLUB_CHILE_1972
+    N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"Pariser Abkommen 25.03.1974 sah für ausgewählte 1973/74 fällige chilenische Verpflichtungen 80% Umschuldung und IMF-Stand-by-Bedingung vor, nicht pauschalen Schuldenerlass."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"Laut Kissinger-Memo 28.04.1972 fragten Pariser Gläubiger die chilenische Delegation ausdrücklich, ob ITT unter Entschädigungsregeln falle; keine belegte ITT-Weisung und kein Kausalbeweis für Umschuldungsbeginn."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
+    N_ORG_US_BANK_OF_AMERICA_1974["Bank of America (Chile-Industriekredite 1974)"]
+    N_ORG_CL_PETROQUIMICA_DOW_1974["Petroquímica Dow S.A. (Chile, 1974)"]
+    N_ORG_US_BANK_OF_AMERICA_1974 -->|"UNTS 967 Nr. 13947 §8-9 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A.; betroffene Fälligkeiten 1971–1972 und OPIC-Bezug, keine Eigentumskontrolle nachgewiesen."| N_ORG_CL_PETROQUIMICA_DOW_1974
+    N_ORG_CL_INDUSTRIAS_ARAUCO_1974["Industrias de Celulosa Arauco S.A. (Chile, 1974)"]
+    N_ORG_US_BANK_OF_AMERICA_1974 -->|"UNTS 967 Nr. 13947 §8-9 nennt Bank-of-America-Darlehensverträge mit Industrias de Celulosa Arauco S.A.; keine Einzelkreditsumme oder spätere Ownership aus diesem Text belegt."| N_ORG_CL_INDUSTRIAS_ARAUCO_1974
+    N_ORG_US_OPIC_1971 -->|"US–Chile-Memorandum 17.06.1974 §8–9: OPIC-Zahlung bezüglich Bank-of-America-Industriekrediten für etwa 30.06.1974 vorgesehen; keine verifizierte fristgerechte Auszahlung."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"UNTS 967 Nr. 13947 §10: Chile erklärte bereits 15.05.1974 1.226.443,63 USD an OPIC überwiesen; separat von ITT FY1975; Vertrag druckt Gesamtbetrag 1 USD unter Summe der Einzelpositionen."| N_ORG_US_OPIC_1971
+    N_ORG_US_EXIMBANK_1974["Export–Import Bank of the United States (Chile, 1974)"]
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"US–Chile-Schuldenvertrag 17.06.1974 §10 nennt 12 Mio. USD bereits 15.05.1974 an US Export–Import Bank gezahlt; von OPIC-Zahlung und anderen Kategorien getrennt."| N_ORG_US_EXIMBANK_1974
+    N_ORG_US_COMMERCIAL_BANKS_CHILE_1975["US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"]
+    N_ORG_US_COMMERCIAL_BANKS_CHILE_1975 -->|"US-Botschaft Santiago 04.04.1975 referiert Minister Saez: nicht namentlich genannte US-Banken hielten neue Kurzfristkredite bis Pariser-Club-Vereinbarung zurück; keine individuelle Bankweisung geprüft."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"US-Botschaft Bonn 06.05.1975: Chilenische Botschaft übergab am 02.05.1975 deutschem Ministerialbeamten Müller-Thuns Forderungs-/Zahlungsplanliste u.a. ITT und OPIC; Anlage liegt nicht vor."| N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975
 ```
 
 [Zur Relationstabelle](network.md)
