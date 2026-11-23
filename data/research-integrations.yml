@@ -633,3 +633,18 @@ studies:
     relation_ids:
       - REL-IT-P2-RIZZOLI-1975-1981-001
       - REL-IT-RIZZOLI-CORRIERE-1977-001
+
+  cia-gehlen-sonderverbindungen-orion-bdj-1949-1956.md:
+    sha256: bfcce974fddcc9a9a927df450b8f4fd4a545f9c43c19af8f219b7d17edbf0784
+    status: network
+    relation_ids:
+      - REL-DE-GEHLEN-002
+      - REL-DE-GEHLEN-004
+
+  okkultismus-geheimbuende-machtverflechtungen-2026-10-26.md:
+    sha256: c6d010d847d5f8773c0359d793e7214482cf285f764ac3db1eac20f6f81fdc9b
+    status: network
+    relation_ids:
+      - REL-IT-P2-GELLI-1981-001
+      - REL-IT-P2-RIZZOLI-1975-1981-001
+      - REL-IT-RIZZOLI-CORRIERE-1977-001
