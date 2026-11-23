@@ -620,3 +620,16 @@ studies:
       - REL-CL-CHILE-US-EXIM-DEBT-PAYMENT-1974
       - REL-US-COMMERCIAL-BANKS-CHILE-PARIS-CONDITION-1975
       - REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
+
+  bfv-los-nsu-2011-2014.md:
+    sha256: 5c842b7164c402b685dd429abcceb75de8289412923988d59e0436407f97f08c
+    status: network
+    relation_ids:
+      - REL-DE-NSU-AKT-001
+
+  p2-gelli-argentinien-rizzoli-cia-sisde-1974-1983.md:
+    sha256: 8ddc049e97cc229e6fc53b616746f8a8a85f404a379b60503d1bcde935933a43
+    status: network
+    relation_ids:
+      - REL-IT-P2-RIZZOLI-1975-1981-001
+      - REL-IT-RIZZOLI-CORRIERE-1977-001
