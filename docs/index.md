@@ -16,8 +16,8 @@ hide:
 
 ### Geheimlogen, Banken und Medienmacht
 
-- **P2, Banco Ambrosiano, Rizzoli und Corriere della Sera:** Die italienische Untersuchungskommission rekonstruierte die Rolle von Gelli und Ortolani bei der Einflussnahme auf den Rizzoli-Konzern. Verträge und Bankfinanzierungen machen das Netzwerk greifbar. [Studie](research/p2-rizzoli-corriere-ambrosiano-mediensteuerung-1975-1984.md) · [P2-Netzwerk](generated/network-focus-p2.md) · [Bologna-Geldspuren](research/bologna-p2-ambrosiano-geldfluesse-1979-2026.md)
-- **BCCI, CIA und Bankaufsicht:** Die US-Fed stellte eine verschleierte Beteiligung der BCCI an der First-American-Mutter fest. Die spätere gerichtliche Rekonstruktion bezifferte sie auf 61,156 Prozent. Der Senat untersuchte die unzureichende Weitergabe früher CIA-Erkenntnisse. [Studie](research/bcci-cia-treasury-first-american-1972-1998.md)
+- **P2, Banco Ambrosiano, Rizzoli und Corriere della Sera:** Die italienische Untersuchungskommission rekonstruierte die Rolle von Gelli und Ortolani bei der Einflussnahme auf den Rizzoli-Konzern. Verträge und Bankfinanzierungen machen das Netzwerk greifbar. [Fallübersicht](falluebersichten/p2-banco-ambrosiano.md) · [P2-Netzwerk](generated/network-focus-p2.md) · [Bologna-Geldspuren](research/bologna-p2-ambrosiano-geldfluesse-1979-2026.md)
+- **BCCI, CIA und Bankaufsicht:** Die US-Fed stellte eine verschleierte Beteiligung der BCCI an der First-American-Mutter fest. Die spätere gerichtliche Rekonstruktion bezifferte sie auf 61,156 Prozent. Der Senat untersuchte die unzureichende Weitergabe früher CIA-Erkenntnisse. [Fallübersicht](falluebersichten/bcci-cia-bankaufsicht.md)
 - **Warburg und Axel Springer:** Ein Geschäftsbericht dokumentiert Warburg als Partei einer Aktienübertragungsvereinbarung mit Döpfner und Springer. Welche Auswirkungen das auf redaktionelle Entscheidungen hatte, bleibt offen. [Studie](research/warburg-axel-springer-doepfner-finanzierung-2006-2025.md) · [Vertragsnetzwerk](generated/network-focus-springer-doepfner.md) · [Cum-Ex-Fallakte](faelle/de/cum-ex-warburg-steuerverfahren.md)
 
 ### Geheimdienste, politische Gewalt und verdeckte Finanzierung
