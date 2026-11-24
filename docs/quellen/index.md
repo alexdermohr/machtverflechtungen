@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**346 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**371 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -1505,6 +1505,66 @@ Fundstelle: gedruckte S. 3842–3843, Zusatzfrage Gnädinger sowie Frage 16 Fisc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-ulf-bt-12182"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/182](https://dserver.bundestag.de/btp/12/12182.pdf)**
+
+Deutscher Bundestag · 1993-10-21 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12182`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12182.pdf)
+
+Fundstelle: Anlage 15: damalige öffentliche Darstellung des Fallahian-Gesprächs.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ulf-bt-12208"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/208](https://dserver.bundestag.de/btp/12/12208.pdf)**
+
+Deutscher Bundestag · 1994 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12208`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12208.pdf)
+
+Fundstelle: Anlage 13, S. 18074: Sperrerklärung 04.12.1992 und Ersatzfassung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ulf-bt-12225"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/225](https://dserver.bundestag.de/btp/12/12225.pdf)**
+
+Deutscher Bundestag · 1994-04-28 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12225`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12225.pdf)
+
+Fundstelle: S. 19420–19421: eingeräumter Interventionsversuch und erklärte Zurückweisung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ulf-bt-136613"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: BND-Kontakte zu Balanian](https://dserver.bundestag.de/btd/13/066/1306613.pdf)**
+
+Deutscher Bundestag · 1996-12-19 · Stufe **A** · Primärquelle · `SRC-ULF-BT-136613`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/066/1306613.pdf)
+
+Fundstelle: S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengelegt.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-de-bt-1311005-1998"></a>
@@ -2150,6 +2210,21 @@ Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-ulf-tk-drpr"></a>
+### Deutscher Rat für Public Relations
+
+**[Ratsbeschluss 09/2012 ThyssenKrupp / Pressereisen](https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf)**
+
+Deutscher Rat für Public Relations · 2015-01 · Stufe **A** · Primärquelle · `SRC-ULF-TK-DRPR`
+
+[PDF öffnen](https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf)
+
+Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-frak-bdj-19521021"></a>
@@ -2267,6 +2342,66 @@ Gerichtshof der Europäischen Union / InfoCuria · 2026-01-27 · Stufe **A** · 
 [Seite öffnen](https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-39%2F26+P&searchTerm=%22C-%22)
 
 Fundstelle: C-39/26 P, Fallübersicht, Stand 21.11.2026 'Pending'; Appellationsschrift veröffentlicht 13.04.2026, Akteneingang 27.01.2026; Vorinstanz T-366/23.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ulf-gmf-2001"></a>
+### German Marshall Fund
+
+**[Annual Report 2001](https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf)**
+
+German Marshall Fund · 2001 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-2001`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf)
+
+Fundstelle: S. 26–27: Journalism Fellowship seit 1999.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ulf-gmf-2006"></a>
+### German Marshall Fund
+
+**[GMF Annual Report 2006](https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf)**
+
+German Marshall Fund · 2006 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-2006`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf)
+
+Fundstelle: S. 48: Board of Trustees.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-ulf-gmf-forum"></a>
+### German Marshall Fund
+
+**[Brussels Forum Participants 2007](https://www.gmfus.org/sites/default/files/bf2007participants.pdf)**
+
+German Marshall Fund · 2007 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-FORUM`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/bf2007participants.pdf)
+
+Fundstelle: S. 4: Klaus-Dieter Frankenberger (FAZ).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ulf-gmf-mmf"></a>
+### German Marshall Fund
+
+**[Marshall Memorial Fellowship](https://www.gmfus.org/marshall-memorial-fellowship)**
+
+German Marshall Fund · current · Stufe **A** · Primärquelle · `SRC-ULF-GMF-MMF`
+
+[Seite öffnen](https://www.gmfus.org/marshall-memorial-fellowship)
+
+Fundstelle: Programmbeschreibung; kein Nachweis individueller Teilnahme Ulfkottes.
 
 </article>
 
@@ -2537,6 +2672,21 @@ International Military Tribunal, Harvard Law School Library · 1946-05-03 · Stu
 [Seite öffnen](https://nuremberg.law.harvard.edu/documents/75-affidavit-concerning-arrangements-by?mode=text)
 
 Fundstelle: Absätze 2–7: von Funk berichtete Absprache mit Himmler, Puhls Kontakte zu Oswald Pohl und Annahme/Verwertung von KZ-Opferwerten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-ulf-sec-2014"></a>
+### Invesco / SEC
+
+**[SEC proxy filing: Suzanne Woolsey](https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm)**
+
+Invesco / SEC · 2014 · Stufe **A** · Primärquelle · `SRC-ULF-SEC-2014`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm)
+
+Fundstelle: GMF 1992–2000 und 2002–2010; Fluor 2004–2014.
 
 </article>
 
@@ -3166,6 +3316,36 @@ Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-ulf-tk-gb12"></a>
+### ThyssenKrupp AG
+
+**[Geschäftsbericht 2011/2012](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf)**
+
+ThyssenKrupp AG · 2012 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB12`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf)
+
+Fundstelle: Vorstandswechsel Claassen zum 31.12.2012.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-ulf-tk-gb13"></a>
+### ThyssenKrupp AG
+
+**[Geschäftsbericht 2012/2013](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf)**
+
+ThyssenKrupp AG · 2013 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB13`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf)
+
+Fundstelle: Compliance: interne Prüfung, Angemessenheitsgrenzen, neue Richtlinie; Eigenauskunft.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-de-thlt-nsu-ua-2014"></a>
@@ -3706,6 +3886,21 @@ Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-ulf-csl-20261124"></a>
+### U.S. International Trade Administration
+
+**[Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)**
+
+U.S. International Trade Administration · 2026-11-24 · Stufe **A** · Primärquelle · `SRC-ULF-CSL-20261124`
+
+[Seite öffnen](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)
+
+Fundstelle: Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
 
 <a id="src-us-nmt-dest-funk-19410519"></a>
@@ -4051,6 +4246,36 @@ Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ulf-fr-rose"></a>
+### US Department of State
+
+**[Federal Register: Rose-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf)**
+
+US Department of State · 1997-10-03 · Stufe **A** · Primärquelle · `SRC-ULF-FR-ROSE`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf)
+
+Fundstelle: Person und Rose Import-Export GmbH; wirksam 25.09.1997.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-ulf-fr-balanian"></a>
+### US Department of State
+
+**[Federal Register: Balanian-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf)**
+
+US Department of State · 1998-02-23 · Stufe **A** · Primärquelle · `SRC-ULF-FR-BALANIAN`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf)
+
+Fundstelle: Wirksam 09.02.1998; administrative Sanktion, kein Strafurteil.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-us-afb-nccs-990-2025"></a>
@@ -4078,6 +4303,21 @@ USAspending.gov, U.S. Treasury · 2025-06-01 · Stufe **A** · Primärquelle · 
 [Seite öffnen](https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/)
 
 Fundstelle: Army Intelligence Data Platform Artificial Intelligence Platform Lizenz; laut Abruf 21.11.2026 1.166.666,69 USD obligated, keine Auszahlungsbehauptung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ulf-sec-2005"></a>
+### Van Kampen / SEC
+
+**[SEC proxy filing: Suzanne Woolsey](https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt)**
+
+Van Kampen / SEC · 2005 · Stufe **A** · Primärquelle · `SRC-ULF-SEC-2005`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt)
+
+Fundstelle: S. 10: GMF, IDA, RMI, Fluor.
 
 </article>
 
@@ -4113,7 +4353,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -4503,6 +4743,21 @@ Fundstelle: Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Arch
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-sta"></a>
+### dapd / Die Welt
+
+**[Ermittler entlasten geschassten ThyssenKrupp-Manager teilweise](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)**
+
+dapd / Die Welt · 2012-12-06 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-STA`
+
+[Seite öffnen](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)
+
+Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
@@ -4563,6 +4818,51 @@ Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Beric
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-dlf"></a>
+### Deutschlandfunk
+
+**[ThyssenKrupp bezahlt Luxusreisen für Journalisten](https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html)**
+
+Deutschlandfunk · 2012-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-DLF`
+
+[Seite öffnen](https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html)
+
+Fundstelle: Interview mit Recherchejournalist; Kostenschätzung, keine Rechnung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-welt-11"></a>
+### Die Welt
+
+**[Luxusreisen des Thyssen-Managers auf Firmenkosten](https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html)**
+
+Die Welt · 2012-11-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-WELT-11`
+
+[Seite öffnen](https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html)
+
+Fundstelle: Reiserecherche, FAZ-Bericht und redaktionelle Angaben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-welt-12"></a>
+### Die Welt
+
+**[Luxusreisen bei ThyssenKrupp](https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html)**
+
+Die Welt · 2012-11-12 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-WELT-12`
+
+[Seite öffnen](https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html)
+
+Fundstelle: Redaktionelle Reaktionen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
 
 <a id="src-de-welt-ulfkotte-erm-2004"></a>
@@ -4605,6 +4905,36 @@ DIE ZEIT / Marc Brost und Bernd Ulrich · 2009-01-29 · Stufe **B** · Sekundär
 [Seite öffnen](https://www.zeit.de/2009/06/Ratlosigkeit)
 
 Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitte keine schlechte Stimmung zu machen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1990">
+
+<a id="src-ulf-gannett-1990"></a>
+### Gannett Foundation
+
+**[Programminventur zur Unterstützung osteuropäischer Medien](https://files.eric.ed.gov/fulltext/ED326913.pdf)**
+
+Gannett Foundation · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-GANNETT-1990`
+
+[PDF öffnen](https://files.eric.ed.gov/fulltext/ED326913.pdf)
+
+Fundstelle: S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlungsbeleg.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
+
+<a id="src-ulf-horizont-park-2005"></a>
+### HORIZONT
+
+**[G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)**
+
+HORIZONT · 2005-10-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-HORIZONT-PARK-2005`
+
+[Seite öffnen](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)
+
+Fundstelle: Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag.
 
 </article>
 
@@ -4713,6 +5043,21 @@ Fundstelle: 1972: Ende des von KAS genannten SfZ-Vorsitzes 1965–1972; vorher B
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2006">
+
+<a id="src-ulf-kress-park-2006"></a>
+### kress
+
+**[Aufruhr in der Parkstraße bei Gruner+Jahr](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)**
+
+kress · 2006-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-KRESS-PARK-2006`
+
+[Seite öffnen](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)
+
+Fundstelle: Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1953">
 
 <a id="src-de-he-lagis-bdj-19530108"></a>
@@ -4755,6 +5100,21 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 [Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
+
+<a id="src-ulf-lat-2004"></a>
+### Los Angeles Times
+
+**[Private, Public Roles Overlap in Washington](https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html)**
+
+Los Angeles Times · 2004-08-08 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-LAT-2004`
+
+[Seite öffnen](https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html)
+
+Fundstelle: Eheverhältnis; öffentliche und private Mandate.
 
 </article>
 
@@ -5025,6 +5385,21 @@ Thomas Wagner / Willy Wimmer, Archiv Friedensratschlag · 2014-09-15 · Stufe **
 [Seite öffnen](https://www.ag-friedensforschung.de/themen/NATO1/wimmer.html)
 
 Fundstelle: Wimmer über Gespräch mit anonymem FAZ-Mitarbeiter und angebliche State-Department-Anrufe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2013">
+
+<a id="src-ulf-tk-ti"></a>
+### Transparency International Deutschland
+
+**[Gefallen an Gefälligkeiten](https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf)**
+
+Transparency International Deutschland · 2013 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-TI`
+
+[PDF öffnen](https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf)
+
+Fundstelle: Vergleichskontext journalistischer Zuwendungen.
 
 </article>
 

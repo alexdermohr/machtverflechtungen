@@ -3961,3 +3961,280 @@ sources:
   url: https://www.wikileaks.org/plusd/cables/1975BONN07281_b.html
   accessed: "2026-11-23"
   locator: "Chilenische Botschaft übergab 02.05.1975 Müller-Thuns Liste zu ITT, Andina-Cerro, Anaconda, Kennecott, OPIC-Forderungen; US-Botschaft sah Gleichbehandlung staatlicher/privater Gläubiger als Hauptanliegen der BRD, ohne Liste als Anlage."
+
+- id: SRC-ULF-BT-136613
+  title: "Antwort der Bundesregierung: BND-Kontakte zu Balanian"
+  institution: "Deutscher Bundestag"
+  date: "1996-12-19"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btd/13/066/1306613.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengelegt."
+
+- id: SRC-ULF-FR-ROSE
+  title: "Federal Register: Rose-Sanktionsbescheid"
+  institution: "US Department of State"
+  date: "1997-10-03"
+  type: "official_notice"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf"
+  accessed: "2026-11-24"
+  locator: "Person und Rose Import-Export GmbH; wirksam 25.09.1997."
+
+- id: SRC-ULF-FR-BALANIAN
+  title: "Federal Register: Balanian-Sanktionsbescheid"
+  institution: "US Department of State"
+  date: "1998-02-23"
+  type: "official_notice"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf"
+  accessed: "2026-11-24"
+  locator: "Wirksam 09.02.1998; administrative Sanktion, kein Strafurteil."
+
+- id: SRC-ULF-SEC-2005
+  title: "SEC proxy filing: Suzanne Woolsey"
+  institution: "Van Kampen / SEC"
+  date: "2005"
+  type: "regulatory_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt"
+  accessed: "2026-11-24"
+  locator: "S. 10: GMF, IDA, RMI, Fluor."
+
+- id: SRC-ULF-SEC-2014
+  title: "SEC proxy filing: Suzanne Woolsey"
+  institution: "Invesco / SEC"
+  date: "2014"
+  type: "regulatory_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm"
+  accessed: "2026-11-24"
+  locator: "GMF 1992–2000 und 2002–2010; Fluor 2004–2014."
+
+- id: SRC-ULF-GMF-2006
+  title: "GMF Annual Report 2006"
+  institution: "German Marshall Fund"
+  date: "2006"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 48: Board of Trustees."
+
+- id: SRC-ULF-LAT-2004
+  title: "Private, Public Roles Overlap in Washington"
+  institution: "Los Angeles Times"
+  date: "2004-08-08"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html"
+  accessed: "2026-11-24"
+  locator: "Eheverhältnis; öffentliche und private Mandate."
+
+- id: SRC-ULF-GMF-FORUM
+  title: "Brussels Forum Participants 2007"
+  institution: "German Marshall Fund"
+  date: "2007"
+  type: "participant_list"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/bf2007participants.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 4: Klaus-Dieter Frankenberger (FAZ)."
+
+- id: SRC-ULF-GMF-MMF
+  title: "Marshall Memorial Fellowship"
+  institution: "German Marshall Fund"
+  date: "current"
+  type: "organization_self_description"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/marshall-memorial-fellowship"
+  accessed: "2026-11-24"
+  locator: "Programmbeschreibung; kein Nachweis individueller Teilnahme Ulfkottes."
+
+- id: SRC-ULF-GMF-2001
+  title: "Annual Report 2001"
+  institution: "German Marshall Fund"
+  date: "2001"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 26–27: Journalism Fellowship seit 1999."
+
+- id: SRC-ULF-GANNETT-1990
+  title: "Programminventur zur Unterstützung osteuropäischer Medien"
+  institution: "Gannett Foundation"
+  date: "1990"
+  type: "research_report"
+  primary: false
+  tier: "B"
+  url: "https://files.eric.ed.gov/fulltext/ED326913.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlungsbeleg."
+
+- id: SRC-ULF-BT-12208
+  title: "Plenarprotokoll 12/208"
+  institution: "Deutscher Bundestag"
+  date: "1994"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12208.pdf"
+  accessed: "2026-11-24"
+  locator: "Anlage 13, S. 18074: Sperrerklärung 04.12.1992 und Ersatzfassung."
+
+- id: SRC-ULF-BT-12182
+  title: "Plenarprotokoll 12/182"
+  institution: "Deutscher Bundestag"
+  date: "1993-10-21"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12182.pdf"
+  accessed: "2026-11-24"
+  locator: "Anlage 15: damalige öffentliche Darstellung des Fallahian-Gesprächs."
+
+- id: SRC-ULF-BT-12225
+  title: "Plenarprotokoll 12/225"
+  institution: "Deutscher Bundestag"
+  date: "1994-04-28"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12225.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 19420–19421: eingeräumter Interventionsversuch und erklärte Zurückweisung."
+
+- id: SRC-ULF-TK-DRPR
+  title: "Ratsbeschluss 09/2012 ThyssenKrupp / Pressereisen"
+  institution: "Deutscher Rat für Public Relations"
+  date: "2015-01"
+  type: "self_regulation_decision"
+  primary: true
+  tier: "A"
+  url: "https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien."
+
+- id: SRC-ULF-TK-WELT-11
+  title: "Luxusreisen des Thyssen-Managers auf Firmenkosten"
+  institution: "Die Welt"
+  date: "2012-11-11"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html"
+  accessed: "2026-11-24"
+  locator: "Reiserecherche, FAZ-Bericht und redaktionelle Angaben."
+
+- id: SRC-ULF-TK-WELT-12
+  title: "Luxusreisen bei ThyssenKrupp"
+  institution: "Die Welt"
+  date: "2012-11-12"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html"
+  accessed: "2026-11-24"
+  locator: "Redaktionelle Reaktionen."
+
+- id: SRC-ULF-TK-DLF
+  title: "ThyssenKrupp bezahlt Luxusreisen für Journalisten"
+  institution: "Deutschlandfunk"
+  date: "2012-11"
+  type: "press_interview"
+  primary: false
+  tier: "B"
+  url: "https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html"
+  accessed: "2026-11-24"
+  locator: "Interview mit Recherchejournalist; Kostenschätzung, keine Rechnung."
+
+- id: SRC-ULF-TK-STA
+  title: "Ermittler entlasten geschassten ThyssenKrupp-Manager teilweise"
+  institution: "dapd / Die Welt"
+  date: "2012-12-06"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html"
+  accessed: "2026-11-24"
+  locator: "StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert."
+
+- id: SRC-ULF-TK-GB13
+  title: "Geschäftsbericht 2012/2013"
+  institution: "ThyssenKrupp AG"
+  date: "2013"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf"
+  accessed: "2026-11-24"
+  locator: "Compliance: interne Prüfung, Angemessenheitsgrenzen, neue Richtlinie; Eigenauskunft."
+
+- id: SRC-ULF-TK-GB12
+  title: "Geschäftsbericht 2011/2012"
+  institution: "ThyssenKrupp AG"
+  date: "2012"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf"
+  accessed: "2026-11-24"
+  locator: "Vorstandswechsel Claassen zum 31.12.2012."
+
+- id: SRC-ULF-TK-TI
+  title: "Gefallen an Gefälligkeiten"
+  institution: "Transparency International Deutschland"
+  date: "2013"
+  type: "research_report"
+  primary: false
+  tier: "B"
+  url: "https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf"
+  accessed: "2026-11-24"
+  locator: "Vergleichskontext journalistischer Zuwendungen."
+
+- id: SRC-ULF-CSL-20261124
+  title: "Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026"
+  institution: "U.S. International Trade Administration"
+  date: "2026-11-24"
+  type: "official_data"
+  primary: true
+  tier: "A"
+  url: "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv"
+  accessed: "2026-11-24"
+  sha256: "b89fdb22ff55bd9e269946981ad21ac57cae68450d8d13fce106c2f8cb52e34a"
+  locator: "Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert."
+  notes: "Dynamische amtliche Screeningliste, keine neue Einzelverfügung. Der Hash bindet die am Abrufdatum ausgewertete Version."
+
+- id: SRC-ULF-KRESS-PARK-2006
+  title: "Aufruhr in der Parkstraße bei Gruner+Jahr"
+  institution: "kress"
+  date: "2006-06-30"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html"
+  accessed: "2026-11-24"
+  locator: "Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006."
+
+- id: SRC-ULF-HORIZONT-PARK-2005
+  title: "G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten"
+  institution: "HORIZONT"
+  date: "2005-10-24"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044"
+  accessed: "2026-11-24"
+  locator: "Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag."

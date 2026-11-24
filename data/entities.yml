@@ -1862,3 +1862,135 @@ entities:
     name: "US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"
     countries: [US, CL]
     notes: "Sammelbezeichnung ohne namentliche Bankzuordnung: 04.04.1975 gab Chiles Minister Raúl Sáez der US-Botschaft an, US-Banken wollten bis zu einem Pariser-Club-Abkommen keine neuen Kurzfristkredite bereitstellen. Nicht mit Bank of America als konkreter Teilnehmerin dieser Aussage gleichsetzen."
+
+  - id: PER-INT-BERGE-BALANIAN
+    type: "person"
+    name: "Berge Aris Balanian"
+    countries: ["DE", "LB"]
+
+  - id: PER-DE-HANS-JOACHIM-ROSE
+    type: "person"
+    name: "Hans-Joachim Rose"
+    countries: ["DE"]
+
+  - id: ORG-DE-ROSE-IMPORT-EXPORT
+    type: "company"
+    name: "Rose Import-Export GmbH"
+    countries: ["DE"]
+
+  - id: ORG-US-STATE-DEPARTMENT
+    type: "government_agency"
+    name: "US Department of State"
+    countries: ["US"]
+
+  - id: PER-US-SUZANNE-WOOLSEY
+    type: "person"
+    name: "Suzanne H. Woolsey"
+    countries: ["US"]
+
+  - id: PER-US-JAMES-WOOLSEY
+    type: "person"
+    name: "R. James Woolsey"
+    countries: ["US"]
+
+  - id: ORG-US-FLUOR
+    type: "company"
+    name: "Fluor Corporation"
+    countries: ["US"]
+
+  - id: ORG-US-IDA
+    type: "research_institute"
+    name: "Institute for Defense Analyses"
+    countries: ["US"]
+
+  - id: ORG-US-RMI
+    type: "research_institute"
+    name: "Rocky Mountain Institute"
+    countries: ["US"]
+
+  - id: PRG-US-GMF-MARSHALL-MEMORIAL
+    type: "program"
+    name: "Marshall Memorial Fellowship"
+    countries: ["US", "DE"]
+
+  - id: PRG-US-GMF-JOURNALISM
+    type: "program"
+    name: "GMF Journalism Fellowship"
+    countries: ["US", "DE"]
+
+  - id: ORG-US-NATIONAL-FORUM-FOUNDATION
+    type: "foundation"
+    name: "National Forum Foundation"
+    countries: ["US"]
+
+  - id: PER-IR-ALI-FALLAHIAN
+    type: "person"
+    name: "Ali Fallahian"
+    countries: ["IR"]
+
+  - id: PER-DE-BERND-SCHMIDBAUER
+    type: "person"
+    name: "Bernd Schmidbauer"
+    countries: ["DE"]
+
+  - id: ORG-DE-BUNDESKANZLERAMT
+    type: "government_agency"
+    name: "Bundeskanzleramt"
+    countries: ["DE"]
+
+  - id: DOC-DE-MYKONOS-ERMITTLUNG-1992
+    type: "official_document"
+    name: "Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992)"
+    countries: ["DE"]
+    notes: "Dokumentknoten zur amtlich bestätigten Sperrerklärung und Beschränkung des Zugangs zum ursprünglichen BND-Schreiben; kein Akteur und keine Feststellung einer Verfahrenssabotage. BT-Plenarprotokoll 12/208, Anlage 13."
+
+  - id: ORG-DE-THYSSENKRUPP
+    type: "company"
+    name: "ThyssenKrupp AG"
+    countries: ["DE"]
+
+  - id: ORG-DE-DRPR
+    type: "organization"
+    name: "Deutscher Rat für Public Relations"
+    countries: ["DE"]
+
+  - id: ORG-DE-TAGESSPIEGEL
+    type: "media_outlet"
+    name: "Der Tagesspiegel"
+    countries: ["DE"]
+
+  - id: ORG-DE-RHEINISCHE-POST
+    type: "media_outlet"
+    name: "Rheinische Post"
+    countries: ["DE"]
+
+  - id: ORG-DE-NRZ
+    type: "media_outlet"
+    name: "Neue Ruhr / Neue Rhein Zeitung"
+    countries: ["DE"]
+
+  - id: PER-DE-JUERGEN-CLAASSEN
+    type: "person"
+    name: "Jürgen Claassen"
+    countries: ["DE"]
+
+  - id: PER-DE-ALEXANDER-WILKE
+    type: "person"
+    name: "Alexander Wilke"
+    countries: ["DE"]
+
+  - id: ORG-DE-PARK-AVENUE
+    type: "media_outlet"
+    name: "Park Avenue (Gruner + Jahr)"
+    countries: ["DE"]
+    notes: "Magazin mit Testausgabe Juni 2005, regulärer Start Ende Oktober 2005; historischer redaktioneller Kontext."
+
+  - id: ORG-DE-GRUNER-JAHR
+    type: "media_company"
+    name: "Gruner + Jahr (historischer Verlag)"
+    countries: ["DE"]
+
+  - id: PER-DE-HOLGER-CHRISTMANN
+    type: "person"
+    name: "Holger Christmann"
+    countries: ["DE"]
