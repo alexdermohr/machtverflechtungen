@@ -3980,9 +3980,9 @@ sources:
   type: "official_notice"
   primary: true
   tier: "A"
-  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf"
+  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf"
   accessed: "2026-11-24"
-  locator: "Person und Rose Import-Export GmbH; wirksam 25.09.1997."
+  locator: "62(192), S. 51926, Public Notice 2614, FR Doc. 97-26305; zwei Adressaten derselben Notice, wirksam 25.09.1997."
 
 - id: SRC-ULF-FR-BALANIAN
   title: "Federal Register: Balanian-Sanktionsbescheid"
