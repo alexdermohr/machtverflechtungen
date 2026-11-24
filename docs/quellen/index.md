@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**375 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**380 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -799,6 +799,21 @@ Bayerischer Verfassungsgerichtshof · 2014-03-20 · Stufe **A** · Primärquelle
 [PDF öffnen](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 
 Fundstelle: Rn. 143–145, gedruckte S. 59 (Auskunftsdefizit); Antwort von 2012 auf S. 17; Gesamtentscheidung S. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-ulf-tk-bdo-boecking-2013"></a>
+### BDO AG und Prof. Hans-Joachim Böcking
+
+**[Bericht über die freiwillige Sonderprüfung bei der ThyssenKrupp AG, Essen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf)**
+
+BDO AG und Prof. Hans-Joachim Böcking · 2013-11-12 · Stufe **A** · Primärquelle · `SRC-ULF-TK-BDO-BOECKING-2013`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf)
+
+Fundstelle: S. 1–4: Auftrag und Datenbasis; S. 66–68: Reformstand und Richtlinie vom 05.02.2013; S. 74–78: Berichterstattung der Internen Revision. Getrennte Prüfungsverantwortung.
 
 </article>
 
@@ -2810,6 +2825,21 @@ Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-ulf-tk-kpmg-2011"></a>
+### KPMG AG Wirtschaftsprüfungsgesellschaft
+
+**[KPMG: Angemessenheit, Implementierung und Wirksamkeit des Compliance Management Systems zum 30. September 2011 (Kurzfassung)](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf)**
+
+KPMG AG Wirtschaftsprüfungsgesellschaft · 2011-11-14 · Stufe **A** · Primärquelle · `SRC-ULF-TK-KPMG-2011`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf)
+
+Fundstelle: S. 1, 4–9: Auftrag, Stichproben, Empfehlungen, Feststellungen und zeitlich/sachlich/geografisch begrenztes Prüfungsurteil.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2016">
 
 <a id="src-de-kress-ulfkotte-interview-2016"></a>
@@ -3316,6 +3346,36 @@ Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ulf-tk-external-audits"></a>
+### ThyssenKrupp
+
+**[Unternehmensübersicht externe Prüfberichte](https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte)**
+
+ThyssenKrupp · current · Stufe **A** · Primärquelle · `SRC-ULF-TK-EXTERNAL-AUDITS`
+
+[Seite öffnen](https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte)
+
+Fundstelle: Unternehmensrückblick: HV-Ablehnung Januar 2013 und freiwillige Vereinbarung mit DSW und Strenger im Juli.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-ulf-tk-interim-2010"></a>
+### ThyssenKrupp AG
+
+**[Zwischenbericht 9 Monate 2009/2010](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf)**
+
+ThyssenKrupp AG · 2010 · Stufe **A** · Primärquelle · `SRC-ULF-TK-INTERIM-2010`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf)
+
+Fundstelle: S. 32: ursprüngliche Ressortplanung und Bestellungsbeschluss vom 12.05.2010.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
 
 <a id="src-ulf-tk-gb12"></a>
@@ -3327,7 +3387,22 @@ ThyssenKrupp AG · 2012 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB12`
 
 [PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf)
 
-Fundstelle: Vorstandswechsel Claassen zum 31.12.2012.
+Fundstelle: S. 003: Vorstandsressorts, Hiesinger Internal Auditing; Corporate-Governance-Bericht: Ausgliederung Compliance Juni 2012; Vergütungsbericht und Nachtragsbericht: Vorstandseintritt 21.01.2011 und Ausscheiden 31.12.2012.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-ulf-tk-board-20121210"></a>
+### ThyssenKrupp AG
+
+**[Unternehmensmitteilung zur strategischen Weiterentwicklung und Vorstandsneuordnung](https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html)**
+
+ThyssenKrupp AG · 2012-12-10 · Stufe **A** · Primärquelle · `SRC-ULF-TK-BOARD-20121210`
+
+[Seite öffnen](https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html)
+
+Fundstelle: Aufsichtsratsbeschluss: einvernehmliches Ausscheiden Claassen, Berlien und Eichler; Unternehmensdarstellung.
 
 </article>
 
@@ -3342,7 +3417,7 @@ ThyssenKrupp AG · 2013 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB13`
 
 [PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf)
 
-Fundstelle: Compliance: interne Prüfung, Angemessenheitsgrenzen, neue Richtlinie; Eigenauskunft.
+Fundstelle: S. 21–22: Ausgleichszahlung 3.754.000 EUR, anteilige variable Vergütung, Anrechnung der Monatsgehälter; S. 69: interne Prüfung der Reisen 2007–2012 und neue Richtlinie; Eigenauskunft.
 
 </article>
 

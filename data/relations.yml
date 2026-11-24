@@ -3707,9 +3707,10 @@ relations:
     from: "PER-DE-JUERGEN-CLAASSEN"
     to: "ORG-DE-THYSSENKRUPP"
     type: "board_member"
-    label: "Vorstandsverantwortung im Untersuchungszeitraum; Ausscheiden 31.12.2012"
+    label: "Vorstandsmitglied 21.01.2011–31.12.2012; Geschäftsbericht 2011/12 nennt Recht, Compliance, Kommunikation und Politik im selben Ressort"
     evidence_level: "established"
-    sources: ["SRC-ULF-TK-GB12", "SRC-ULF-TK-DRPR"]
+    sources: ["SRC-ULF-TK-GB12", "SRC-ULF-TK-BOARD-20121210", "SRC-ULF-TK-DRPR"]
+    period: {"start": "2011-01-21", "end": "2012-12-31"}
 
   - id: REL-ULF-TK-WILKE
     from: "PER-DE-ALEXANDER-WILKE"
@@ -3841,3 +3842,57 @@ relations:
     period: {start: "1976"}
     evidence_level: established
     sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977]
+
+  - id: REL-ULF-TK-CLAASSEN-SEVERANCE
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "PER-DE-JUERGEN-CLAASSEN"
+    type: "executive_severance"
+    label: "Geschäftsbericht 2012/13 weist vertraglichen Ausgleich von 3.754.000 EUR aus; keine nachgewiesene unzulässige Gegenleistung"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-GB13"]
+    period: {"start": "2012", "end": "2013"}
+
+  - id: REL-ULF-TK-KPMG-CMS-AUDIT
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-KPMG-AG"
+    type: "commissioned_compliance_audit"
+    label: "Vorstandsauftrag zur CMS-Prüfung 2011; Wirksamkeitszeitraum April–September, begrenzter Prüfungsumfang"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-KPMG-2011"]
+    period: {"start": "2011-03-17", "end": "2011-11-14"}
+
+  - id: REL-ULF-TK-BDO-SPECIAL-AUDIT
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-BDO-AG"
+    type: "commissioned_special_audit"
+    label: "Freiwillige Sonderprüfung 2013: Weiterentwicklung des internen Kontrollsystems, Prüfungsgegenstand 1"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-BDO-BOECKING-2013"]
+    period: {"start": "2013", "end": "2013-11-12"}
+
+  - id: REL-ULF-TK-BOECKING-SPECIAL-AUDIT
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "PER-DE-HANS-JOACHIM-BOECKING"
+    type: "commissioned_special_audit"
+    label: "Freiwillige Sonderprüfung 2013: KPMG-Empfehlungen, Investitionscontrolling und Informationswege, Prüfungsgegenstände 2–4"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-BDO-BOECKING-2013"]
+    period: {"start": "2013", "end": "2013-11-12"}
+
+  - id: REL-ULF-TK-DSW-AUDIT-AGREEMENT
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-DSW"
+    type: "special_audit_agreement"
+    label: "Vereinbarung zur freiwilligen Sonderprüfung vom 16.07.2013, nach zuvor abgelehntem Antrag laut Unternehmen"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-BDO-BOECKING-2013", "SRC-ULF-TK-EXTERNAL-AUDITS"]
+    period: {"start": "2013-07-16", "end": "2013-07-16"}
+
+  - id: REL-ULF-TK-STRENGER-AUDIT-AGREEMENT
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "PER-DE-CHRISTIAN-STRENGER"
+    type: "special_audit_agreement"
+    label: "Aktionär als Mitvereinbarungspartner der freiwilligen Sonderprüfung vom 16.07.2013"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-BDO-BOECKING-2013"]
+    period: {"start": "2013-07-16", "end": "2013-07-16"}
