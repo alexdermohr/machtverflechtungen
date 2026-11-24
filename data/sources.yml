@@ -3602,7 +3602,7 @@ sources:
   tier: A
   url: https://history.state.gov/historicaldocuments/frus1969-76ve16/d108
   accessed: "2026-11-21"
-  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten."
+  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung."
 - id: SRC-US-FRUS-GUATEMALA-PREFACE-2003
   title: "FRUS 1952–1954 Guatemala, Preface (2003)"
   institution: "U.S. Department of State, Office of the Historian"
@@ -3840,7 +3840,7 @@ sources:
   tier: A
   url: https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf
   accessed: "2026-11-22"
-  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung."
+  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank."
 - id: SRC-US-FRUS-STATE-CHILE-STRATEGY-1972
   title: "Chile Strategy: Paper Prepared in Department of State, 1 December 1972"
   institution: "U.S. Department of State, FRUS E–16, Document 127"
@@ -3880,7 +3880,7 @@ sources:
   tier: A
   url: https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf
   accessed: "2026-11-22"
-  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD."
+  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973."
 - id: SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976
   title: "Chile: The Status of Human Rights and Its Relationship to U.S. Economic Assistance Programs, 29 April / 5 May 1976"
   institution: "U.S. House Committee on International Relations, 94th Congress"
@@ -4247,7 +4247,7 @@ sources:
   tier: A
   url: https://www.gao.gov/assets/b-173240-096568.pdf
   accessed: "2026-11-23"
-  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit."
+  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury."
 - id: SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976
   title: "Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)"
   institution: "U.S. General Accounting Office, Comptroller General of the United States"
@@ -4487,3 +4487,223 @@ sources:
   url: "https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf"
   accessed: '2026-11-24'
   locator: "S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268."
+
+- id: SRC-CL-BCCH-ACTA87-1974
+  title: "Acta Comité Ejecutivo 87, sesión 2455"
+  institution: "Banco Central de Chile"
+  date: "1974-12-26"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451"
+  accessed: "2026-11-24"
+  locator: "S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403."
+
+- id: SRC-CL-DL821-1974
+  title: "Decreto Ley 821: convenio de indemnización Exótica"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1974-12-27"
+  type: "original_statutory_compensation_agreement"
+  primary: true
+  tier: "A"
+  url: "https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27"
+  accessed: "2026-11-24"
+  locator: "Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins."
+
+- id: SRC-UN-A9716-CHILE-1974
+  title: "A/9716: United Nations report on Chile (1974)"
+  institution: "United Nations"
+  date: "1974"
+  type: "original_un_report"
+  primary: true
+  tier: "A"
+  url: "https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf"
+  accessed: "2026-11-24"
+  locator: "Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC."
+
+- id: SRC-US-CONGRESS-OPIC-ANACONDA-19720307
+  title: "Congressional Record: OPIC/Anaconda correspondence"
+  institution: "United States Congress"
+  date: "1972-03-07"
+  type: "original_congressional_correspondence_record"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf"
+  accessed: "2026-11-24"
+  locator: "S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig."
+
+- id: SRC-US-SENATE-RIGGS-PINOCHET-2005
+  title: "Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2005-03"
+  type: "original_senate_investigative_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
+  accessed: "2026-11-24"
+  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004."
+
+- id: SRC-US-DOJ-RIGGS-PLEA-2005
+  title: "Riggs Bank Pleads Guilty to Violating Bank Secrecy Act"
+  institution: "U.S. Department of Justice"
+  date: "2005-01-27"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html"
+  accessed: "2026-11-24"
+  locator: "BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea."
+
+- id: SRC-US-GAO-OPIC-ID8340-1983
+  title: "Examination of Financial Statements of OPIC (ID-83-40)"
+  institution: "U.S. General Accounting Office"
+  date: "1983-05-06"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/id-83-40.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio."
+
+- id: SRC-US-GAO-OPIC-AFMD8525-1985
+  title: "Examination of Financial Statements of OPIC (AFMD-85-25)"
+  institution: "U.S. General Accounting Office"
+  date: "1985-03-05"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/afmd-85-25.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio."
+
+- id: SRC-US-DFC-INSURANCE-CLAIMS-2024
+  title: "Insurance Claims Experience to Date, 30 September 2024"
+  institution: "U.S. International Development Finance Corporation"
+  date: "2024-09-30"
+  type: "official_retrospective_insurance_claim_register"
+  primary: true
+  tier: "A"
+  url: "https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf"
+  accessed: "2026-11-24"
+  locator: "Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe."
+
+- id: SRC-CL-BCCH-DL600-1984
+  title: "Aspectos relevantes de la inversión extranjera en Chile: DL 600"
+  institution: "Banco Central de Chile"
+  date: "1984-10"
+  type: "original_central_bank_publication"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978"
+  accessed: "2026-11-24"
+  locator: "S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme."
+
+- id: SRC-CL-BCCH-ACTA1648-1985
+  title: "Acta Comité Ejecutivo 1648"
+  institution: "Banco Central de Chile"
+  date: "1985-05-15"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1"
+  accessed: "2026-11-24"
+  locator: "Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen."
+
+- id: SRC-US-FRUS-CHILE-DEBT-BANKS-19720112
+  title: "FRUS E–16, Doc 95: Chile debt renegotiations"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-01-12"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d95"
+  accessed: "2026-11-24"
+  locator: "S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen."
+
+- id: SRC-US-FRUS-KORRY-MERCURIO-19700916
+  title: "FRUS XXI, Doc 97: Korry to Johnson"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-16"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d97"
+  accessed: "2026-11-24"
+  locator: "Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt."
+
+- id: SRC-US-FRUS-KORRY-CREDIT-19700925
+  title: "FRUS XXI, Doc 120: Korry backchannel"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-25"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d120"
+  accessed: "2026-11-24"
+  locator: "Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches."
+
+- id: SRC-US-FRUS-CIA-STATE-MERCURIO-19720223
+  title: "FRUS XXI, Doc 290: McAfee to Cline"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-02-23"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d290"
+  accessed: "2026-11-24"
+  locator: "El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical."
+
+- id: SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410
+  title: "FRUS XXI, Doc 295: Jorden to Kissinger"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-04-10"
+  type: "declassified_covert_action_approval_record"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d295"
+  accessed: "2026-11-24"
+  locator: "965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve."
+
+- id: SRC-US-FRUS-CIA-CHILE-19730916
+  title: "FRUS E–16, Doc 145: CIA assessment of covert action in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1973-09-16"
+  type: "declassified_intelligence_report"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d145"
+  accessed: "2026-11-24"
+  locator: "Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04."
+
+- id: SRC-US-SEC-FNCB-CITIBANK-NAME-1976
+  title: "Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005"
+  institution: "Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR"
+  date: "2005-04-13"
+  type: "filed_corporate_contract"
+  url: "https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm"
+  locator: "Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-SEC-CITIBANK-OWNERSHIP-2004
+  title: "Form 424B5: Citibank, N.A. corporate ownership (2004)"
+  institution: "SEC EDGAR, eingereichter Wertpapierprospekt"
+  date: "2004"
+  type: "filed_securities_prospectus"
+  url: "https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm"
+  locator: "Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-FRUS-KENNECOTT-COPPER-19710929
+  title: "FRUS XXI, Doc 261: The Copper Crunch in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-09-29"
+  type: "declassified_nsc_memorandum"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d261"
+  locator: "NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"

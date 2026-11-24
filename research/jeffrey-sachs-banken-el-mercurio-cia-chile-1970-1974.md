@@ -1,0 +1,51 @@
+# Banken, El Mercurio und US-Geheimdienstpolitik in Chile (1970–1974)
+
+**Originalaktenstudie · 24. November 2026.** Ergänzt die [CIA-/ITT-/El-Mercurio-Studie](jeffrey-sachs-cia-chile-itt-el-mercurio-guatemala-1952-1975.md) und die [Pariser-Club-Studie](jeffrey-sachs-chile-pariser-club-opic-bank-of-america-1972-1975.md). Untersucht werden die tatsächlichen Verbindungen zwischen Banken, Medien, Gläubigerverhandlungen und US-Regierungsstellen im Umfeld der Systemkritik Jeffrey Sachs'. Die Quellen belegen differenzierte politische Interessen und konkrete Pläne, nicht die Befolgung jeder erwogenen Maßnahme.
+
+## 1. Politische Kreditstrategie
+
+Im Telegramm vom 16.09.1970 (FRUS XXI Dok.97) bat US-Botschafter Edward Korry Washington, die Einziehung der First-National-City-Bank-Kredite gegenüber El Mercurio zu lockern. Im Telegramm vom 25.09.1970 (Dok.120, Abs.8–14) erwog Korry dagegen eine Verschärfung der allgemeinen Kredit- und Wirtschaftslage, unter anderem durch Kreditbeschränkungen, Unternehmensschließungen und Wirtschaftspublizistik, bei der Geschäftsleute statt offen auftretender US-Regierungsvertreter die Botschaft verbreiten sollten. Bank of America und Anaconda werden genannt. Ein Esso-Vertreter habe zudem von einer Ansprache der Vertreter von Shell, Esso und COPEC berichtet, bei der die Verschlechterung der Wirtschaftslage gewünscht worden sei. Dies ist ein indirekter zeitgenössischer Bericht, kein Nachweis einer Ausführung oder Zustimmung der Firmen. Korry lehnte zugleich die unmittelbare US-Provokation eines Putsches ab. Die dokumentierten Zielkonflikte verbieten die Gleichsetzung aller US-Regierungsstellen oder Unternehmen.
+
+Das undatierte Anlagenpapier zum US-Memorandum vom 12.01.1972 (FRUS E16 Dok.95, S.498–505, 508) verbindet den Schutz privater und öffentlicher Gläubiger mit dem Ziel, Allendes wirtschaftspolitischen Spielraum zu beschränken. Eine politisch motivierte Verzögerung der bilateralen Unterschrift wurde erwogen. Die US-Behörden wollten im Rahmen des Gläubigerschutzes harte Bedingungen; auch eine IMF-Stabilisierungspolitik war vorgesehen. State und Defense befürworteten gerade aufgrund des politischen Potenzials der chilenischen Streitkräfte die weitere Auszahlung der noch offenen Militärkredite (8 Mio. USD) im rechtlich möglichen Umfang. Die Eximbank hatte nach Zahlungsausfall ihre Leistungen bereits suspendiert. Die 8 Mio. sind ein Kreditrest und eine politische Position, keine neue nachgewiesene Auszahlung.
+
+Das Papier beziffert die US-Forderungen auf etwa 1,5 Mrd. USD, darunter 920 Mio. staatliche und 560 Mio. von Chile garantierte private Forderungen, von letzteren rund 200 Mio. mit OPIC/Exim-Deckung. Die staatliche Exposition wurde auf ca.1,1 Mrd. geschätzt. Diese gerundeten, teils überlappenden Forderungsbestände sind nicht additiv.
+
+## 2. Das Gläubigerbankentreffen und die chilenische Neuverbriefung
+
+Am 14.12.1971 tagten 43 US-Banken in New York unter gemeinsamem Vorsitz First National City Bank und Bank of America; sie lehnten die chilenischen Vorschläge ab und machten einen Gegenvorschlag. State hielt Kontakt zu den Banken. Dok.95 dokumentiert dieses Koordinationsverfahren; eine vollständige Liste der Banken oder Weisungsbefugnis gegenüber ihnen ergibt sich daraus nicht.
+
+BCCh Acta87 vom 26.12.1974, S.2–3: Autorisierung fünf neuer Schuldscheine für den Zusatzkredit Crédito 2 aus 1972. Die ausgewiesene Plansumme lautet 72.362.886,16 USD; ein Teil der ursprünglich 1976 fälligen Tilgung wurde bis 1979 neu geplant. Mariano Pastor Richard, Mitarbeiter der CORFO-Stelle New York, erhielt besondere Zeichnungsbefugnis. Nicht identisch mit fünf Exótica-Schuldscheinen über 9,375 Mio. USD im selben Protokoll. Der Beschluss beweist keine tatsächliche Tilgung oder individuelle Zuordnung der Noten zu den Vorsitzenden des Bankentreffens.
+
+## 3. El Mercurio: Bankverbindlichkeiten und politische Finanzierung
+
+Die CIA-/State-Besprechung vom 23.02.1972 (FRUS XXI Dok.290) nennt rund 400.000 USD Auslandsschulden der Zeitung, darunter 293.000 USD bei Bank of Wisconsin. Daneben bestanden Forderungen von First National City Bank und einer französischen Bank. Der operative Monatsverlust wurde auf ca.120.000 USD geschätzt, jährliche Lieferkosten bei Sun Chemical auf ca.500.000 USD. Eine Finanzierung über US-Banken wurde erörtert; ein konkreter Banktransfer wird nicht nachgewiesen. Die Beteiligten diskutierten auch das Risiko der Entdeckung weiterer verdeckter Projekte und eine mögliche politische Verwertung der Zeitungseinstellung. Der CIA-Vertreter hielt die früher erwogene Variante einer dramatischen Schließung nicht mehr für realisierbar.
+
+Die CIA-Vorlage vom 10.04.1972 (E16 Dok.108) identifiziert First Wisconsin National Bank in Milwaukee sowie First National City Bank und Banco Francés. Frühere Zuschüsse deckten diese Auslandsverbindlichkeiten nicht. Die Zahlung über die Zentralbank hing nach Darstellung der CIA an der privaten US-Bankenumschuldung und den Pariser Gläubigervereinbarungen. Eine Intervention des State Department bei First Wisconsin war erfolglos. Die Bank forderte Zahlung; die Zeitung hatte nach dem CIA-Bericht den Eindruck einer bereits erfolgten Hinterlegung der erforderlichen Escudos vermittelt. Tatsächlich fehlten laut Bericht die Mittel. Die CIA wollte chilenische Escudos über den Schwarzmarkt beschaffen und plante verdeckte Zuführung unter Verwendung rechtlicher Decktransaktionen. Dies belegt die Planung, keine ausgeführte Schwarzmarkttransaktion, Bankmitwirkung oder strafgerichtliche Feststellung.
+
+| Förderkomponente | Dokumentierter Stand April 1972 |
+| --- | --- |
+| Forderung First Wisconsin | Ablösung vorgeschlagen |
+| Sun Chemical | Kreditlinie 100.000 USD, Ausweitung auf 300.000 USD vorgeschlagen; Garantie nicht als ausgeführt belegt |
+| Betriebsdefizit und Reserven | Weitere Finanzierung vorgeschlagen |
+| Zusätzliche Hilfe insgesamt | 965.000 USD durch 40 Committee gebilligt, keine Aufschlüsselung der tatsächlichen Einzelzahlungen |
+
+FRUS XXI Dok.295, 10.04.1972, Fn.1 identifiziert Rush, Irwin, Knowles, Kissinger und Helms als zustimmende 40-Committee-Principals; Haig zeichnete für Kissinger. Dokument 108 Editionsanmerkung datiert die Billigung auf 11.04., der CIA-Rückblick Dok.145 auf 12.04. Die unterschiedliche Datierung bleibt ausdrücklich offen. Der NSC-Mitarbeiter Jorden erörterte den politischen Wert der Zeitung und mögliche Nutzung einer politisch erzwungenen Schließung als Pressefreiheitsthema. Die bisher erfassten 700.000 und 300.000 USD sowie die 965.000 USD-Billigung werden nicht nochmals als neue Zahlungsbeträge gezählt. Dok.108 Tab B beschreibt auch den Einfluss des Zeitungsverbunds auf andere Oppositionsblätter und die Haltung der Streitkräfte; keine pauschale CIA-Autorenschaft einzelner Artikel.
+
+## 4. Konkrete institutionelle Überlappung, keine erfundene Geldspur
+
+First National City Bank ist zugleich historische El-Mercurio-Gläubigerin, Mitvorsitzende des Gläubigertreffens und im DFC-Register FY73 mit 66.503 USD Cash-Entschädigung (Chile, Typ B; CRS gerundet 66.500 USD) genannt. Die einzelnen Policen sind unbekannt: Aus den Dokumenten folgt nicht, dass OPIC diese Zeitung finanziert hat oder die Bank bewusst für CIA arbeitete. Die erfolglose Intervention bei First Wisconsin und der separat nachweisbare BoA-Deckungsstreit sprechen gegen eine pauschale Vorstellung gleichgerichteten Handelns sämtlicher Gläubiger. Die spätere [Riggs-/Citi-Studie](jeffrey-sachs-opic-exotica-riggs-chile-1972-2005.md) dokumentiert institutionelle Kontinuitäten und andere Bankgeschäfte, keine rückwirkende Zuordnung der Gelder.
+
+## Quellen
+
+- **SRC-US-FRUS-CHILE-DEBT-BANKS-19720112** — [FRUS E–16, Doc 95: Chile debt renegotiations](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95). S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen.
+- **SRC-CL-BCCH-ACTA87-1974** — [Acta Comité Ejecutivo 87, sesión 2455](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451). S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403.
+- **SRC-US-FRUS-KORRY-MERCURIO-19700916** — [FRUS XXI, Doc 97: Korry to Johnson](https://history.state.gov/historicaldocuments/frus1969-76v21/d97). Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt.
+- **SRC-US-FRUS-KORRY-CREDIT-19700925** — [FRUS XXI, Doc 120: Korry backchannel](https://history.state.gov/historicaldocuments/frus1969-76v21/d120). Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches.
+- **SRC-US-FRUS-CIA-STATE-MERCURIO-19720223** — [FRUS XXI, Doc 290: McAfee to Cline](https://history.state.gov/historicaldocuments/frus1969-76v21/d290). El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical.
+- **SRC-US-FRUS-CIA-MERCURIO-1972** — [CIA memorandum for 40 Committee, 10.04.1972](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108). FRUS E16 Dok.108, S.556–562, II.B, IV/V, Tab B.
+- **SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410** — [FRUS XXI, Doc 295: Jorden to Kissinger](https://history.state.gov/historicaldocuments/frus1969-76v21/d295). 965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve.
+- **SRC-US-FRUS-CIA-CHILE-19730916** — [FRUS E–16, Doc 145: CIA assessment of covert action in Chile](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145). Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04.
+- **SRC-US-DFC-INSURANCE-CLAIMS-2022** — [DFC, Insurance Claims Experience to Date, 30.09.2022](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf). PDF-S.3–4, 13 Fn.1, 15 Denial Table.
+- **SRC-US-HOUSE-CRS-OPIC-CHILE-1973** — [CRS, The Overseas Private Investment Corporation: A Critical Analysis, 04.09.1973](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf). Druckseiten 74–76.
+
+**Beleggrenzen:** CIA- und State-Berichte geben damalige Einschätzungen wieder. Der zugrunde liegende tatsächliche Zahlungsweg bleibt vielfach redigiert oder nicht erschlossen. Acta87 aus amtlicher Textansicht, Faksimile nicht verfügbar. Keine Behauptung von Mitschuld aufgrund bloßer Gläubigerstellung.
