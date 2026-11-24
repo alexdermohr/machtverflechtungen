@@ -3896,3 +3896,102 @@ relations:
     evidence_level: "established"
     sources: ["SRC-ULF-TK-BDO-BOECKING-2013"]
     period: {"start": "2013-07-16", "end": "2013-07-16"}
+
+  - id: REL-US-OPIC-FFB-RECOURSE-1977
+    from: ORG-US-OPIC-1971
+    to: ORG-US-FEDERAL-FINANCING-BANK-1973
+    type: documented_sale_of_chilean_notes_with_recourse
+    label: "FY1977 ca. 36 Mio. USD Zahlungen auf direkte Schadenverbindlichkeiten über Verkauf chilenischer Schuldverschreibungen mit Rückgriff finanziert; keine Zuordnung zu einzelnen Konzernfällen."
+    period: {"start": "1977"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FY1977-ID7836"]
+
+  - id: REL-US-TREASURY-FFB-FINANCING-1977
+    from: ORG-US-TREASURY
+    to: ORG-US-FEDERAL-FINANCING-BANK-1973
+    type: documented_public_financing_and_supervision
+    label: "Treasury beaufsichtigte die staatseigene FFB und finanzierte sie nach anfänglicher öffentlicher Finanzierung über Treasury-Kredite; Jahresbericht FY1977 S. 33–35."
+    period: {"start": "1977"}
+    evidence_level: established
+    sources: ["SRC-US-TREASURY-ANNUAL-REPORT-FY1977"]
+
+  - id: REL-US-OPIC-CHILE-CONTINGENT-GUARANTIES-1977-1978
+    from: ORG-US-OPIC-1971
+    to: ORG-CL-MILITARY-JUNTA-1973
+    type: audited_contingent_guarantees_on_chilean_obligations
+    label: "Chile-bezogene OPIC-Eventualgarantien zum 30.09.1977 190,778 Mio. USD und zum 30.09.1978 166,624 Mio. USD; Bestände, keine addierbaren Zahlungen."
+    period: {"start": "1977-09-30", "end": "1978-09-30"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FY1977-ID7836", "SRC-US-GAO-OPIC-FY1978-ID7921A"]
+
+  - id: REL-CL-CHILE-OPIC-RECEIVABLES-1977-1978
+    from: ORG-CL-MILITARY-JUNTA-1973
+    to: ORG-US-OPIC-1971
+    type: audited_sovereign_recovery_receivables
+    label: "Forderungen OPIC gegen Chile: 1977 Kapital 130,349 Mio./Zinsen 41,716 Mio.; 1978 Kapital 74,836 Mio./Zinsen 24,197 Mio. USD. Bis Berichtszeitpunkt fällige neu vereinbarte Raten geleistet; keine vollständige Tilgung belegt."
+    period: {"start": "1977-09-30", "end": "1978-09-30"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FY1977-ID7836", "SRC-US-GAO-OPIC-FY1978-ID7921A"]
+
+  - id: REL-GB-LLOYDS-OIIG-PARTICIPATION-1977
+    from: ORG-GB-LLOYDS-LONDON-1976
+    to: ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975
+    type: documented_insurance_pool_participation
+    label: "GAO-Aussage 08.09.1977: Lloyd's 12,5 % am Gruppenportfolio, OPIC 74,5 %, übrige private Beteiligung 13 %; individuelle Chile-Policenzuordnung offen."
+    period: {"start": "1977-09-08"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FASICK-19770908"]
+
+  - id: REL-CL-CAP-BETHLEHEM-ACQUISITION-1971
+    from: ORG-CL-CAP-STEEL-1971
+    to: ORG-US-BETHLEHEM-STEEL-1971
+    type: documented_agreement_to_acquire_industrial_interests
+    label: "FRUS 30.03.1971: Vereinbarung über Übernahme chilenischer Eisenerzinteressen, erwartete Entschädigung 20–23 Mio. USD abhängig von Bewertung, 15 Jahresraten ab Juni 1973 zu 5¾ %."
+    period: {"start": "1971-03-30"}
+    evidence_level: established
+    sources: ["SRC-US-FRUS-CHILE-BETHLEHEM-19710330"]
+
+  - id: REL-US-OPIC-BETHLEHEM-GUARANTEE-1971
+    from: ORG-US-OPIC-1971
+    to: ORG-US-BETHLEHEM-STEEL-1971
+    type: documented_contingent_investment_guarantee
+    label: "OPIC garantierte Bethlehem laut FRUS 30.03.1971 mindestens 18 Mio. USD bei Nichterfüllung durch CAP; kein nachgewiesener Garantieabruf."
+    period: {"start": "1971-03-30"}
+    evidence_level: established
+    sources: ["SRC-US-FRUS-CHILE-BETHLEHEM-19710330"]
+
+  - id: REL-US-OPIC-STATE-CHILE-NEGOTIATION-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-US-STATE-DEPARTMENT
+    type: documented_request_for_treaty_renegotiation
+    label: "OPIC bat Juli 1975 um Neuverhandlung der Chile-Investitionsgarantieregeln; State Department stimmte Verhandlungen zu, Unterzeichnungsfreigabe separat. Kein belegter Vertragsschluss 1975/76."
+    period: {"start": "1975"}
+    evidence_level: established
+    sources: ["SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976"]
+
+  - id: REL-US-BERGSTEN-OPIC-BOARD-1977
+    from: PER-US-C-FRED-BERGSTEN
+    to: ORG-US-OPIC-1971
+    type: documented_board_membership
+    label: "GAO ID-78-36 Appendix I S. 15 und Appendix II S. 17: C. Fred Bergsten ab 24.05.1977 OPIC-Boardmitglied; kein Nachweis individueller Anordnung der FFB-Transaktion."
+    period: {"start": "1977-05-24"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FY1977-ID7836"]
+
+  - id: REL-US-BERGSTEN-TREASURY-1977
+    from: PER-US-C-FRED-BERGSTEN
+    to: ORG-US-TREASURY
+    type: documented_government_office
+    label: "Assistant Secretary of the Treasury for International Affairs im Jahr 1977, gleichzeitig OPIC-Boardmitglied ab 24.05.; Kongressaussage zur Teilprivatisierung 27.07.1977."
+    period: {"start": "1977"}
+    evidence_level: established
+    sources: ["SRC-US-GAO-OPIC-FY1977-ID7836", "SRC-US-TREASURY-ANNUAL-REPORT-FY1977"]
+
+  - id: REL-CL-ALLENDE-CHAMBER-WITHDRAWAL-1971
+    from: ORG-CL-ALLENDE-GOVERNMENT-1972
+    to: ORG-CL-CHAMBER-OF-DEPUTIES
+    type: documented_withdrawal_of_treaty_approval_bill
+    label: "Oficio 13.794 vom 07.07.1971: Allende/Almeyda ziehen die Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen vom 03.12.1963 (Boletín 2268) zurück; Kammer stimmt am 13.07.1971 zu. Kein Nachweis damaliger Ratifikation."
+    period: {start: '1971-07-07', end: '1971-07-13'}
+    evidence_level: established
+    sources: [SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964, SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971]

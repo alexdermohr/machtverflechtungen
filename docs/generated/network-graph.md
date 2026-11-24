@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**433 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**444 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -715,7 +715,7 @@ flowchart LR
     N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 34.706.917 USD Cash als Teil der ITT-Versicherungsregelung zu Chile; keine Zahlung der zusätzlich garantierten Schuldverschreibungen zu unterstellen"| N_ORG_US_ITT_1970
     N_ORG_US_OPIC_1971 -->|"DFC-FY75-Register: 59.384.614 USD OPIC-Garantie chilenischer Regierungsverpflichtungen im ITT-Vergleich, nicht als sofortige Barzahlung; FRUS-Fußnote nennt abweichend 59.384.697 USD"| N_ORG_US_ITT_1970
     N_ORG_INT_PARIS_CLUB_CHILE_1972["Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975)"]
-    N_ORG_CL_ALLENDE_GOVERNMENT_1972["Regierung Salvador Allende (Chile, April 1972)"]
+    N_ORG_CL_ALLENDE_GOVERNMENT_1972["Regierung Salvador Allende (Chile, 1970–1973)"]
     N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"UNTS 967: Pariser Gläubiger mit Chile am 19.04.1972 Grundsatz zur Konsolidierung von 70% bestimmter Fälligkeiten vereinbart, Bilateralverträge nötig; kein 70%-Schuldenerlass."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
     N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975["Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975)"]
     N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975 -->|"Bundesrepublik Deutschland war 1972 und 1974 Gläubigerstaat in multilateralen Verhandlungen zur chilenischen Umschuldung, laut UNTS-Verträgen; keine Weisung an US-Dienststellen daraus ableitbar."| N_ORG_INT_PARIS_CLUB_CHILE_1972
@@ -814,6 +814,22 @@ flowchart LR
     N_ORG_DE_THYSSENKRUPP -->|"Vereinbarung zur freiwilligen Sonderprüfung vom 16.07.2013, nach zuvor abgelehntem Antrag laut Unternehmen"| N_ORG_DE_DSW
     N_PER_DE_CHRISTIAN_STRENGER["Christian Strenger"]
     N_ORG_DE_THYSSENKRUPP -->|"Aktionär als Mitvereinbarungspartner der freiwilligen Sonderprüfung vom 16.07.2013"| N_PER_DE_CHRISTIAN_STRENGER
+    N_ORG_US_FEDERAL_FINANCING_BANK_1973["Federal Financing Bank (FFB)"]
+    N_ORG_US_OPIC_1971 -->|"FY1977 ca. 36 Mio. USD Zahlungen auf direkte Schadenverbindlichkeiten über Verkauf chilenischer Schuldverschreibungen mit Rückgriff finanziert; keine Zuordnung zu einzelnen Konzernfällen."| N_ORG_US_FEDERAL_FINANCING_BANK_1973
+    N_ORG_US_TREASURY -->|"Treasury beaufsichtigte die staatseigene FFB und finanzierte sie nach anfänglicher öffentlicher Finanzierung über Treasury-Kredite; Jahresbericht FY1977 S. 33–35."| N_ORG_US_FEDERAL_FINANCING_BANK_1973
+    N_ORG_US_OPIC_1971 -->|"Chile-bezogene OPIC-Eventualgarantien zum 30.09.1977 190,778 Mio. USD und zum 30.09.1978 166,624 Mio. USD; Bestände, keine addierbaren Zahlungen."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"Forderungen OPIC gegen Chile: 1977 Kapital 130,349 Mio./Zinsen 41,716 Mio.; 1978 Kapital 74,836 Mio./Zinsen 24,197 Mio. USD. Bis Berichtszeitpunkt fällige neu vereinbarte Raten geleistet; keine vollständige Tilgung belegt."| N_ORG_US_OPIC_1971
+    N_ORG_GB_LLOYDS_LONDON_1976 -->|"GAO-Aussage 08.09.1977: Lloyd's 12,5 % am Gruppenportfolio, OPIC 74,5 %, übrige private Beteiligung 13 %; individuelle Chile-Policenzuordnung offen."| N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975
+    N_ORG_CL_CAP_STEEL_1971["Compañía de Acero del Pacífico (CAP, 1971)"]
+    N_ORG_US_BETHLEHEM_STEEL_1971["Bethlehem Steel (Chile-Eisenerzinteressen 1971)"]
+    N_ORG_CL_CAP_STEEL_1971 -->|"FRUS 30.03.1971: Vereinbarung über Übernahme chilenischer Eisenerzinteressen, erwartete Entschädigung 20–23 Mio. USD abhängig von Bewertung, 15 Jahresraten ab Juni 1973 zu 5¾ %."| N_ORG_US_BETHLEHEM_STEEL_1971
+    N_ORG_US_OPIC_1971 -->|"OPIC garantierte Bethlehem laut FRUS 30.03.1971 mindestens 18 Mio. USD bei Nichterfüllung durch CAP; kein nachgewiesener Garantieabruf."| N_ORG_US_BETHLEHEM_STEEL_1971
+    N_ORG_US_OPIC_1971 -->|"OPIC bat Juli 1975 um Neuverhandlung der Chile-Investitionsgarantieregeln; State Department stimmte Verhandlungen zu, Unterzeichnungsfreigabe separat. Kein belegter Vertragsschluss 1975/76."| N_ORG_US_STATE_DEPARTMENT
+    N_PER_US_C_FRED_BERGSTEN["C. Fred Bergsten"]
+    N_PER_US_C_FRED_BERGSTEN -->|"GAO ID-78-36 Appendix I S. 15 und Appendix II S. 17: C. Fred Bergsten ab 24.05.1977 OPIC-Boardmitglied; kein Nachweis individueller Anordnung der FFB-Transaktion."| N_ORG_US_OPIC_1971
+    N_PER_US_C_FRED_BERGSTEN -->|"Assistant Secretary of the Treasury for International Affairs im Jahr 1977, gleichzeitig OPIC-Boardmitglied ab 24.05.; Kongressaussage zur Teilprivatisierung 27.07.1977."| N_ORG_US_TREASURY
+    N_ORG_CL_CHAMBER_OF_DEPUTIES["Cámara de Diputados de Chile"]
+    N_ORG_CL_ALLENDE_GOVERNMENT_1972 -->|"Oficio 13.794 vom 07.07.1971: Allende/Almeyda ziehen die Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen vom 03.12.1963 (Boletín 2268) zurück; Kammer stimmt am 13.07.1971 zu. Kein Nachweis damaliger Ratifikation."| N_ORG_CL_CHAMBER_OF_DEPUTIES
 ```
 
 [Zur Relationstabelle](network.md)
