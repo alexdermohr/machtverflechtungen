@@ -3602,7 +3602,7 @@ sources:
   tier: A
   url: https://history.state.gov/historicaldocuments/frus1969-76ve16/d108
   accessed: "2026-11-21"
-  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten."
+  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung."
 - id: SRC-US-FRUS-GUATEMALA-PREFACE-2003
   title: "FRUS 1952–1954 Guatemala, Preface (2003)"
   institution: "U.S. Department of State, Office of the Historian"
@@ -3840,7 +3840,7 @@ sources:
   tier: A
   url: https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf
   accessed: "2026-11-22"
-  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung."
+  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank."
 - id: SRC-US-FRUS-STATE-CHILE-STRATEGY-1972
   title: "Chile Strategy: Paper Prepared in Department of State, 1 December 1972"
   institution: "U.S. Department of State, FRUS E–16, Document 127"
@@ -3880,7 +3880,7 @@ sources:
   tier: A
   url: https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf
   accessed: "2026-11-22"
-  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD."
+  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973."
 - id: SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976
   title: "Chile: The Status of Human Rights and Its Relationship to U.S. Economic Assistance Programs, 29 April / 5 May 1976"
   institution: "U.S. House Committee on International Relations, 94th Congress"
@@ -4247,7 +4247,7 @@ sources:
   tier: A
   url: https://www.gao.gov/assets/b-173240-096568.pdf
   accessed: "2026-11-23"
-  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit."
+  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury."
 - id: SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976
   title: "Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)"
   institution: "U.S. General Accounting Office, Comptroller General of the United States"
@@ -4488,6 +4488,226 @@ sources:
   accessed: '2026-11-24'
   locator: "S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268."
 
+- id: SRC-CL-BCCH-ACTA87-1974
+  title: "Acta Comité Ejecutivo 87, sesión 2455"
+  institution: "Banco Central de Chile"
+  date: "1974-12-26"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451"
+  accessed: "2026-11-24"
+  locator: "S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403."
+
+- id: SRC-CL-DL821-1974
+  title: "Decreto Ley 821: convenio de indemnización Exótica"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1974-12-27"
+  type: "original_statutory_compensation_agreement"
+  primary: true
+  tier: "A"
+  url: "https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27"
+  accessed: "2026-11-24"
+  locator: "Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins."
+
+- id: SRC-UN-A9716-CHILE-1974
+  title: "A/9716: United Nations report on Chile (1974)"
+  institution: "United Nations"
+  date: "1974"
+  type: "original_un_report"
+  primary: true
+  tier: "A"
+  url: "https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf"
+  accessed: "2026-11-24"
+  locator: "Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC."
+
+- id: SRC-US-CONGRESS-OPIC-ANACONDA-19720307
+  title: "Congressional Record: OPIC/Anaconda correspondence"
+  institution: "United States Congress"
+  date: "1972-03-07"
+  type: "original_congressional_correspondence_record"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf"
+  accessed: "2026-11-24"
+  locator: "S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig."
+
+- id: SRC-US-SENATE-RIGGS-PINOCHET-2005
+  title: "Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2005-03"
+  type: "original_senate_investigative_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
+  accessed: "2026-11-24"
+  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004."
+
+- id: SRC-US-DOJ-RIGGS-PLEA-2005
+  title: "Riggs Bank Pleads Guilty to Violating Bank Secrecy Act"
+  institution: "U.S. Department of Justice"
+  date: "2005-01-27"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html"
+  accessed: "2026-11-24"
+  locator: "BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea."
+
+- id: SRC-US-GAO-OPIC-ID8340-1983
+  title: "Examination of Financial Statements of OPIC (ID-83-40)"
+  institution: "U.S. General Accounting Office"
+  date: "1983-05-06"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/id-83-40.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio."
+
+- id: SRC-US-GAO-OPIC-AFMD8525-1985
+  title: "Examination of Financial Statements of OPIC (AFMD-85-25)"
+  institution: "U.S. General Accounting Office"
+  date: "1985-03-05"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/afmd-85-25.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio."
+
+- id: SRC-US-DFC-INSURANCE-CLAIMS-2024
+  title: "Insurance Claims Experience to Date, 30 September 2024"
+  institution: "U.S. International Development Finance Corporation"
+  date: "2024-09-30"
+  type: "official_retrospective_insurance_claim_register"
+  primary: true
+  tier: "A"
+  url: "https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf"
+  accessed: "2026-11-24"
+  locator: "Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe."
+
+- id: SRC-CL-BCCH-DL600-1984
+  title: "Aspectos relevantes de la inversión extranjera en Chile: DL 600"
+  institution: "Banco Central de Chile"
+  date: "1984-10"
+  type: "original_central_bank_publication"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978"
+  accessed: "2026-11-24"
+  locator: "S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme."
+
+- id: SRC-CL-BCCH-ACTA1648-1985
+  title: "Acta Comité Ejecutivo 1648"
+  institution: "Banco Central de Chile"
+  date: "1985-05-15"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1"
+  accessed: "2026-11-24"
+  locator: "Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen."
+
+- id: SRC-US-FRUS-CHILE-DEBT-BANKS-19720112
+  title: "FRUS E–16, Doc 95: Chile debt renegotiations"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-01-12"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d95"
+  accessed: "2026-11-24"
+  locator: "S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen."
+
+- id: SRC-US-FRUS-KORRY-MERCURIO-19700916
+  title: "FRUS XXI, Doc 97: Korry to Johnson"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-16"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d97"
+  accessed: "2026-11-24"
+  locator: "Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt."
+
+- id: SRC-US-FRUS-KORRY-CREDIT-19700925
+  title: "FRUS XXI, Doc 120: Korry backchannel"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-25"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d120"
+  accessed: "2026-11-24"
+  locator: "Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches."
+
+- id: SRC-US-FRUS-CIA-STATE-MERCURIO-19720223
+  title: "FRUS XXI, Doc 290: McAfee to Cline"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-02-23"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d290"
+  accessed: "2026-11-24"
+  locator: "El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical."
+
+- id: SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410
+  title: "FRUS XXI, Doc 295: Jorden to Kissinger"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-04-10"
+  type: "declassified_covert_action_approval_record"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d295"
+  accessed: "2026-11-24"
+  locator: "965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve."
+
+- id: SRC-US-FRUS-CIA-CHILE-19730916
+  title: "FRUS E–16, Doc 145: CIA assessment of covert action in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1973-09-16"
+  type: "declassified_intelligence_report"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d145"
+  accessed: "2026-11-24"
+  locator: "Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04."
+
+- id: SRC-US-SEC-FNCB-CITIBANK-NAME-1976
+  title: "Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005"
+  institution: "Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR"
+  date: "2005-04-13"
+  type: "filed_corporate_contract"
+  url: "https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm"
+  locator: "Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-SEC-CITIBANK-OWNERSHIP-2004
+  title: "Form 424B5: Citibank, N.A. corporate ownership (2004)"
+  institution: "SEC EDGAR, eingereichter Wertpapierprospekt"
+  date: "2004"
+  type: "filed_securities_prospectus"
+  url: "https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm"
+  locator: "Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-FRUS-KENNECOTT-COPPER-19710929
+  title: "FRUS XXI, Doc 261: The Copper Crunch in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-09-29"
+  type: "declassified_nsc_memorandum"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d261"
+  locator: "NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
 - id: SRC-WS-SSCI-104-4
   title: "Senate Report 104-4: Committee Activities 1993–1994"
   institution: "US Senate Select Committee on Intelligence"
@@ -4667,7 +4887,7 @@ sources:
   url: "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/relatoriofinal.pdf"
   accessed: "2026-11-24"
   language: "pt"
-  locator: "S. 37–39, 50, 176–177, 195: brasilianische Überwachung, Zeugenaussage, Auslandsbankdaten fehlen, Indizien und Weiterleitung an Staatsanwaltschaft."
+  locator: "S. 37–39, 50, 126, 139–141, 176–177, 195: Überwachung, Zeugenaussage, TCU-Zahlungs-/Vergabeprüfungen, fehlende Auslandsbankdaten, Indizien und vorgesehene Weiterleitung an Staatsanwaltschaft."
 
 - id: SRC-WS-BR-CPI-0528-02
   title: "CPI SIVAM, Sitzungsprotokoll Nr. 0528/02"
@@ -4752,3 +4972,195 @@ sources:
   accessed: "2026-11-24"
   language: "pt"
   locator: "DCN Seção II, S. 1033: zweite Tranche 160.598.550 statt 160.589.550 USD; korrigierte Summe entspricht Art. 1. Keine eigene Änderung von Art. 2(a) hier festgestellt."
+
+- id: SRC-WS-BR-TCU1249-2005
+  title: "Acórdão 1249/2005 – Plenário, TC 014.681/2005-4"
+  institution: "Tribunal de Contas da União"
+  date: "2005-08-24"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Bericht §§12–15, Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text."
+
+- id: SRC-WS-BR-CMN129-1997
+  title: "Ata da 618ª sessão do Conselho Monetário Nacional; Voto CMN 129/97 / BCB 305/97"
+  institution: "Banco Central do Brasil / Conselho Monetário Nacional"
+  date: "1997-08-28"
+  type: "central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Protokoll S.3: Annahme; Anlage Bl.45–47, BCB Voto 305/97 vom 13.08.1997 §§1–5: drei ausländische Kreditgeber, USD1.484.327.038,50, 1,5 Prozentpunkte Zinsmarge, 100%-Regel/0%-Ausnahme."
+
+- id: SRC-WS-BR-BCB444-1997
+  title: "Ata da 626ª sessão do CMN; Voto BCB 444/97"
+  institution: "Banco Central do Brasil"
+  date: "1997-11-26"
+  type: "central_bank_submission"
+  primary: true
+  tier: "A"
+  url: "https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anlage Bl.49–51, Voto 444/97 §6: zugelassene 0%-Gewichtung der SIVAM-Kredite und manuelle Anpassung des erforderlichen Eigenkapitals."
+
+- id: SRC-WS-BR-BB-PROSPECTUS-2006
+  title: "Prospecto Definitivo de Distribuição Pública Secundária de Ações Ordinárias – Banco do Brasil S.A."
+  institution: "Banco do Brasil / BNDES-Archiv"
+  date: "2006-06"
+  type: "securities_prospectus"
+  primary: true
+  tier: "A"
+  url: "https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.246, Relacionamento com o Acionista Controlador: Vertrag März 1997, drei Kreditgeber, ca. USD1,3 Mrd. bis 31.03.2006 ausgezahlt; IAN-Anhang S.464 wiederholt Emittentenangabe."
+
+- id: SRC-WS-BR-BB-DRAFT-2006
+  title: "Minuta inicial de prospecto – Banco do Brasil"
+  institution: "Banco do Brasil / Bovespa-CVM"
+  date: "2006-04"
+  type: "draft_prospectus"
+  primary: true
+  tier: "A"
+  url: "https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "S.164 ausstehender Saldo, S.198 kumulative Auszahlungen zum 31.12.2005 jeweils gerundet USD1,3 Mrd.; ausdrücklich vorläufig, nicht als endgültiger Beleg verwendet."
+
+- id: SRC-WS-BR-RES37-1996
+  title: "Resolução 37/1996, de 23 de maio de 1996 (amtlicher Wiederabdruck)"
+  institution: "Senado Federal"
+  date: "1996-05-23"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anais Mai 1999 Bd.23 Nr.14, S.291–293, Requerimentos 251/252, Art.1,3,4 und Anhang: Aufhebung Art.3/4 der fünf Resolutionen von 1994, Fristverlängerung und neue Bedingungen."
+
+- id: SRC-WS-BR-R93-1994
+  title: "Resolução 93, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art.1–2: EXIM-garantierte Kreditlinie; Berichtigung DOU 23.01.1995 S.968 (SRC-WS-BR-R93-RET-1995)."
+
+- id: SRC-WS-BR-R93-RET-1995
+  title: "Retificação da Resolução 93/1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1995-01-23"
+  type: "legislation_correction"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "DOU S.968: USD105.046.668,50; Tranchen 84.621.030 und 20.425.638,50."
+
+- id: SRC-WS-BR-R95-1994
+  title: "Resolução 95, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art.1–2: SIVAM Vendor Trust, USD48 Mio., 9% ursprünglicher Festzins, Verzugszins 10%."
+
+- id: SRC-WS-BR-LEI11199-2005
+  title: "Lei 11.199, de 24 de novembro de 2005"
+  institution: "República Federativa do Brasil"
+  date: "2005-11-24"
+  type: "budget_law"
+  primary: true
+  tier: "A"
+  url: "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anexo I, 52000/52101, Programm 0496, Aktion 1391: R$70 Mio. Zusatzbewilligung für SIVAM; kein Zahlungsbeleg."
+
+- id: SRC-WS-BR-TCU48-2001
+  title: "Acórdão 48/2001 – Plenário, TC 014.825/1995-3"
+  institution: "Tribunal de Contas da União"
+  date: "2001-03-28"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Bericht II.2.1 §§47–54, Votum 6.6.1/6.7.1, Stellungnahme MP vom 09.05.1997 und Tenor: technische Beanstandungen, Doppelrollen, Aufhebung der früheren Sanktionen."
+
+- id: SRC-WS-BR-TCU87-1996
+  title: "Acórdão 87/1996 – Plenário, TC 014.825/1995-3"
+  institution: "Tribunal de Contas da União"
+  date: "1996-06-12"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Ursprünglicher Beanstandungs-/Sanktionsbeschluss; a–c durch Acórdão48/2001 aufgehoben."
+
+- id: SRC-WS-BR-TCU110-1996
+  title: "Acórdão 110/1996 – Plenário"
+  institution: "Tribunal de Contas da União"
+  date: "1996-07-24"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Einbeziehung ESCA in besondere Rechnungsprüfung; Zusammenhang mit 87/96 und späterem 48/2001."
+
+- id: SRC-WS-BR-TCU82-1997
+  title: "Ata 8/1997, Decisão 82/97, TC 001.493/97-3"
+  institution: "Tribunal de Contas da União"
+  date: "1997-03-12"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.17–46, Votum S.38–40, Erklärung Carlos Átila S.43–45: Preisverschiebung und Konsortienüberschneidung; keine gerichtlich festgestellte Absprache."
+
+- id: SRC-WS-BR-PLN34-2005
+  title: "Parlamentares vão analisar crédito para o Sivam"
+  institution: "Senado Federal"
+  date: "2005-09-06"
+  type: "official_news"
+  primary: true
+  tier: "A"
+  url: "https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "PLN34/2005, R$70 Mio. für SIVAM; spätere Lei11.199."
+
+- id: SRC-WS-BR-SENATE-2005-REPORT
+  title: "Relatório da Presidência do Senado Federal 2005, cap.13"
+  institution: "Senado Federal"
+  date: "2005"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.733, MSF270/2005, Nachricht794/2005: Zuordnung PLN34/2005 zu Lei11.199."

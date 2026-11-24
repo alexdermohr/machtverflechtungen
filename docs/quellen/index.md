@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**416 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**452 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-ws-br-anais-1996-05) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -607,6 +607,111 @@ Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-bcch-acta87-1974"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 87, sesión 2455](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)**
+
+Banco Central de Chile · 1974-12-26 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA87-1974`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)
+
+Fundstelle: S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-cl-bcch-dl600-1984"></a>
+### Banco Central de Chile
+
+**[Aspectos relevantes de la inversión extranjera en Chile: DL 600](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)**
+
+Banco Central de Chile · 1984-10 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-DL600-1984`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)
+
+Fundstelle: S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-cl-bcch-acta1648-1985"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 1648](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)**
+
+Banco Central de Chile · 1985-05-15 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA1648-1985`
+
+[PDF öffnen](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)
+
+Fundstelle: Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-bcb444-1997"></a>
+### Banco Central do Brasil
+
+**[Ata da 626ª sessão do CMN; Voto BCB 444/97](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf)**
+
+Banco Central do Brasil · 1997-11-26 · Stufe **A** · Primärquelle · `SRC-WS-BR-BCB444-1997`
+
+[PDF öffnen](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf)
+
+Fundstelle: Anlage Bl.49–51, Voto 444/97 §6: zugelassene 0%-Gewichtung der SIVAM-Kredite und manuelle Anpassung des erforderlichen Eigenkapitals.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-cmn129-1997"></a>
+### Banco Central do Brasil / Conselho Monetário Nacional
+
+**[Ata da 618ª sessão do Conselho Monetário Nacional; Voto CMN 129/97 / BCB 305/97](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf)**
+
+Banco Central do Brasil / Conselho Monetário Nacional · 1997-08-28 · Stufe **A** · Primärquelle · `SRC-WS-BR-CMN129-1997`
+
+[PDF öffnen](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf)
+
+Fundstelle: Protokoll S.3: Annahme; Anlage Bl.45–47, BCB Voto 305/97 vom 13.08.1997 §§1–5: drei ausländische Kreditgeber, USD1.484.327.038,50, 1,5 Prozentpunkte Zinsmarge, 100%-Regel/0%-Ausnahme.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ws-br-bb-prospectus-2006"></a>
+### Banco do Brasil / BNDES-Archiv
+
+**[Prospecto Definitivo de Distribuição Pública Secundária de Ações Ordinárias – Banco do Brasil S.A.](https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf)**
+
+Banco do Brasil / BNDES-Archiv · 2006-06 · Stufe **A** · Primärquelle · `SRC-WS-BR-BB-PROSPECTUS-2006`
+
+[PDF öffnen](https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf)
+
+Fundstelle: Gedruckte S.246, Relacionamento com o Acionista Controlador: Vertrag März 1997, drei Kreditgeber, ca. USD1,3 Mrd. bis 31.03.2006 ausgezahlt; IAN-Anhang S.464 wiederholt Emittentenangabe.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ws-br-bb-draft-2006"></a>
+### Banco do Brasil / Bovespa-CVM
+
+**[Minuta inicial de prospecto – Banco do Brasil](https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C)**
+
+Banco do Brasil / Bovespa-CVM · 2006-04 · Stufe **A** · Primärquelle · `SRC-WS-BR-BB-DRAFT-2006`
+
+[Seite öffnen](https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C)
+
+Fundstelle: S.164 ausstehender Saldo, S.198 kumulative Auszahlungen zum 31.12.2005 jeweils gerundet USD1,3 Mrd.; ausdrücklich vorläufig, nicht als endgültiger Beleg verwendet.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-int-bis-history-1939-gold"></a>
@@ -844,6 +949,21 @@ Biblioteca del Congreso Nacional de Chile · 1971-07-13 · Stufe **A** · Primä
 [Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)
 
 Fundstelle: S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-dl821-1974"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Decreto Ley 821: convenio de indemnización Exótica](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)**
+
+Biblioteca del Congreso Nacional de Chile · 1974-12-27 · Stufe **A** · Primärquelle · `SRC-CL-DL821-1974`
+
+[Seite öffnen](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)
+
+Fundstelle: Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins.
 
 </article>
 
@@ -1415,6 +1535,21 @@ Fundstelle: Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-fncb-citibank-name-1976"></a>
+### Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR
+
+**[Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)**
+
+Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR · 2005-04-13 · Stufe **A** · Primärquelle · `SRC-US-SEC-FNCB-CITIBANK-NAME-1976`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)
+
+Fundstelle: Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-it-bologna-bellini-2022-court-excerpt"></a>
@@ -1486,7 +1621,7 @@ Câmara dos Deputados · 2002-06-04 · Stufe **A** · Primärquelle · `SRC-WS-B
 
 [PDF öffnen](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/relatoriofinal.pdf)
 
-Fundstelle: S. 37–39, 50, 176–177, 195: brasilianische Überwachung, Zeugenaussage, Auslandsbankdaten fehlen, Indizien und Weiterleitung an Staatsanwaltschaft.
+Fundstelle: S. 37–39, 50, 126, 139–141, 176–177, 195: Überwachung, Zeugenaussage, TCU-Zahlungs-/Vergabeprüfungen, fehlende Auslandsbankdaten, Indizien und vorgesehene Weiterleitung an Staatsanwaltschaft.
 
 </article>
 
@@ -3243,6 +3378,21 @@ Fundstelle: Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Ver
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-lei11199-2005"></a>
+### República Federativa do Brasil
+
+**[Lei 11.199, de 24 de novembro de 2005](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm)**
+
+República Federativa do Brasil · 2005-11-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-LEI11199-2005`
+
+[Seite öffnen](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm)
+
+Fundstelle: Anexo I, 52000/52101, Programm 0496, Aktion 1391: R$70 Mio. Zusatzbewilligung für SIVAM; kein Zahlungsbeleg.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-uy-impo-ley15322-1982-original"></a>
@@ -3288,6 +3438,21 @@ Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3),
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-sec-citibank-ownership-2004"></a>
+### SEC EDGAR, eingereichter Wertpapierprospekt
+
+**[Form 424B5: Citibank, N.A. corporate ownership (2004)](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)**
+
+SEC EDGAR, eingereichter Wertpapierprospekt · 2004 · Stufe **A** · Primärquelle · `SRC-US-SEC-CITIBANK-OWNERSHIP-2004`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)
+
+Fundstelle: Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
 
 <a id="src-ws-br-anais-1996-05"></a>
@@ -3318,6 +3483,81 @@ Fundstelle: Vermerk 07.08.1997: AV 041/1997 über Wirksamkeit der Verträge am 2
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-res37-1996"></a>
+### Senado Federal
+
+**[Resolução 37/1996, de 23 de maio de 1996 (amtlicher Wiederabdruck)](https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf)**
+
+Senado Federal · 1996-05-23 · Stufe **A** · Primärquelle · `SRC-WS-BR-RES37-1996`
+
+[PDF öffnen](https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf)
+
+Fundstelle: Anais Mai 1999 Bd.23 Nr.14, S.291–293, Requerimentos 251/252, Art.1,3,4 und Anhang: Aufhebung Art.3/4 der fünf Resolutionen von 1994, Fristverlängerung und neue Bedingungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-senate-2005-report"></a>
+### Senado Federal
+
+**[Relatório da Presidência do Senado Federal 2005, cap.13](https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf)**
+
+Senado Federal · 2005 · Stufe **A** · Primärquelle · `SRC-WS-BR-SENATE-2005-REPORT`
+
+[PDF öffnen](https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf)
+
+Fundstelle: Gedruckte S.733, MSF270/2005, Nachricht794/2005: Zuordnung PLN34/2005 zu Lei11.199.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-pln34-2005"></a>
+### Senado Federal
+
+**[Parlamentares vão analisar crédito para o Sivam](https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam)**
+
+Senado Federal · 2005-09-06 · Stufe **A** · Primärquelle · `SRC-WS-BR-PLN34-2005`
+
+[Seite öffnen](https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam)
+
+Fundstelle: PLN34/2005, R$70 Mio. für SIVAM; spätere Lei11.199.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r93-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução 93, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R93-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art.1–2: EXIM-garantierte Kreditlinie; Berichtigung DOU 23.01.1995 S.968 (SRC-WS-BR-R93-RET-1995).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r95-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução 95, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R95-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art.1–2: SIVAM Vendor Trust, USD48 Mio., 9% ursprünglicher Festzins, Verzugszins 10%.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
 
 <a id="src-ws-br-r96-1994"></a>
@@ -3345,6 +3585,21 @@ Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärqu
 [Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-97-27-dezembro-1994-392017-publicacaooriginal-1-pl.html)
 
 Fundstelle: Art. 1–4: 239,2 Mio. USD Raytheon-Kredit; kommerzieller Vertrag als Vorbedingung, Projektbudget und doppelt ausgewiesene 80 Mio. USD.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-ws-br-r93-ret-1995"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Retificação da Resolução 93/1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1995-01-23 · Stufe **A** · Primärquelle · `SRC-WS-BR-R93-RET-1995`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html)
+
+Fundstelle: DOU S.968: USD105.046.668,50; Tranchen 84.621.030 und 20.425.638,50.
 
 </article>
 
@@ -3646,6 +3901,81 @@ Fundstelle: Zeitgenössische Recherche zu Zielgruppen, Vereinsfinanzierung und p
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-tcu87-1996"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 87/1996 – Plenário, TC 014.825/1995-3](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf)**
+
+Tribunal de Contas da União · 1996-06-12 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU87-1996`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf)
+
+Fundstelle: Ursprünglicher Beanstandungs-/Sanktionsbeschluss; a–c durch Acórdão48/2001 aufgehoben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-tcu110-1996"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 110/1996 – Plenário](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf)**
+
+Tribunal de Contas da União · 1996-07-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU110-1996`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf)
+
+Fundstelle: Einbeziehung ESCA in besondere Rechnungsprüfung; Zusammenhang mit 87/96 und späterem 48/2001.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-tcu82-1997"></a>
+### Tribunal de Contas da União
+
+**[Ata 8/1997, Decisão 82/97, TC 001.493/97-3](https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf)**
+
+Tribunal de Contas da União · 1997-03-12 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU82-1997`
+
+[PDF öffnen](https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf)
+
+Fundstelle: Gedruckte S.17–46, Votum S.38–40, Erklärung Carlos Átila S.43–45: Preisverschiebung und Konsortienüberschneidung; keine gerichtlich festgestellte Absprache.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ws-br-tcu48-2001"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 48/2001 – Plenário, TC 014.825/1995-3](https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf)**
+
+Tribunal de Contas da União · 2001-03-28 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU48-2001`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf)
+
+Fundstelle: Bericht II.2.1 §§47–54, Votum 6.6.1/6.7.1, Stellungnahme MP vom 09.05.1997 und Tenor: technische Beanstandungen, Doppelrollen, Aufhebung der früheren Sanktionen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-tcu1249-2005"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 1249/2005 – Plenário, TC 014.681/2005-4](https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse)**
+
+Tribunal de Contas da União · 2005-08-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU1249-2005`
+
+[Seite öffnen](https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse)
+
+Fundstelle: Bericht §§12–15, Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
 
 <a id="src-ws-br-trf4-2003"></a>
@@ -3778,6 +4108,21 @@ U.S. Department of Justice · 1991-12-19 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)
 
 Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-doj-riggs-plea-2005"></a>
+### U.S. Department of Justice
+
+**[Riggs Bank Pleads Guilty to Violating Bank Secrecy Act](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)**
+
+U.S. Department of Justice · 2005-01-27 · Stufe **A** · Primärquelle · `SRC-US-DOJ-RIGGS-PLEA-2005`
+
+[Seite öffnen](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)
+
+Fundstelle: BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea.
 
 </article>
 
@@ -3978,6 +4323,21 @@ Fundstelle: McCone: früher CIA-Direktor, 1970 ITT-Board/Executive Committee; 1 
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
 
+<a id="src-us-frus-korry-mercurio-19700916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 97: Korry to Johnson](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)**
+
+U.S. Department of State, Office of the Historian · 1970-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-MERCURIO-19700916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)
+
+Fundstelle: Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
 <a id="src-us-frus-cia-track2-1970"></a>
 ### U.S. Department of State, Office of the Historian
 
@@ -3988,6 +4348,21 @@ U.S. Department of State, Office of the Historian · 1970-09-21 · Stufe **A** �
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d22)
 
 Fundstelle: CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für militärische Lösung vor Allendes Regierungsantritt, Botschafter/Außenministerium auszuschließen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
+<a id="src-us-frus-korry-credit-19700925"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 120: Korry backchannel](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)**
+
+U.S. Department of State, Office of the Historian · 1970-09-25 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-CREDIT-19700925`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)
+
+Fundstelle: Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches.
 
 </article>
 
@@ -4021,6 +4396,51 @@ Fundstelle: Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennec
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-kennecott-copper-19710929"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 261: The Copper Crunch in Chile](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)**
+
+U.S. Department of State, Office of the Historian · 1971-09-29 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KENNECOTT-COPPER-19710929`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)
+
+Fundstelle: NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-chile-debt-banks-19720112"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 95: Chile debt renegotiations](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)**
+
+U.S. Department of State, Office of the Historian · 1972-01-12 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-DEBT-BANKS-19720112`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)
+
+Fundstelle: S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-cia-state-mercurio-19720223"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 290: McAfee to Cline](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)**
+
+U.S. Department of State, Office of the Historian · 1972-02-23 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-STATE-MERCURIO-19720223`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)
+
+Fundstelle: El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-frus-cia-mercurio-1972"></a>
@@ -4032,7 +4452,37 @@ U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** �
 
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108)
 
-Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten.
+Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-40-committee-mercurio-19720410"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 295: Jorden to Kissinger](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)**
+
+U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** · Primärquelle · `SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)
+
+Fundstelle: 965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-frus-cia-chile-19730916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 145: CIA assessment of covert action in Chile](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)**
+
+U.S. Department of State, Office of the Historian · 1973-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-CHILE-19730916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)
+
+Fundstelle: Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04.
 
 </article>
 
@@ -4246,6 +4696,36 @@ Fundstelle: Note 2: Bilanzierungsänderung ab 01.10.1978.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-us-gao-opic-id8340-1983"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (ID-83-40)](https://www.gao.gov/assets/id-83-40.pdf)**
+
+U.S. General Accounting Office · 1983-05-06 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-ID8340-1983`
+
+[PDF öffnen](https://www.gao.gov/assets/id-83-40.pdf)
+
+Fundstelle: Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-us-gao-opic-afmd8525-1985"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (AFMD-85-25)](https://www.gao.gov/assets/afmd-85-25.pdf)**
+
+U.S. General Accounting Office · 1985-03-05 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-AFMD8525-1985`
+
+[PDF öffnen](https://www.gao.gov/assets/afmd-85-25.pdf)
+
+Fundstelle: Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-gao-opic-audit-fy1971-1972"></a>
@@ -4257,7 +4737,7 @@ U.S. General Accounting Office, Comptroller General of the United States · 1972
 
 [PDF öffnen](https://www.gao.gov/assets/b-173240-096568.pdf)
 
-Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit.
+Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury.
 
 </article>
 
@@ -4302,7 +4782,7 @@ U.S. House Committee on Foreign Affairs / Congressional Research Service · 1973
 
 [PDF öffnen](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf)
 
-Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung.
+Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank.
 
 </article>
 
@@ -4321,6 +4801,21 @@ Fundstelle: Druckseiten 45–47: OPIC-Jurist Morgan: einstimmiges Dreier-Schieds
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-us-dfc-insurance-claims-2024"></a>
+### U.S. International Development Finance Corporation
+
+**[Insurance Claims Experience to Date, 30 September 2024](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)**
+
+U.S. International Development Finance Corporation · 2024-09-30 · Stufe **A** · Primärquelle · `SRC-US-DFC-INSURANCE-CLAIMS-2024`
+
+[PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)
+
+Fundstelle: Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dfc-insurance-claims-2022"></a>
@@ -4332,7 +4827,7 @@ U.S. International Development Finance Corporation (DFC; OPIC-Rechtsnachfolgerin
 
 [PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf)
 
-Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD.
+Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973.
 
 </article>
 
@@ -4408,6 +4903,21 @@ U.S. Senate Church Committee / U.S. National Archives · 1975-12-18 · Stufe **A
 [PDF öffnen](https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf)
 
 Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 1970 ITT-Kontakte und $350k, Track II, El Mercurio sowie Postcoup-Medienprojekte. Geschwärztes amtliches Exemplar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-senate-riggs-pinochet-2005"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-PINOCHET-2005`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
+
+Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004.
 
 </article>
 
@@ -4576,6 +5086,21 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-un-a9716-chile-1974"></a>
+### United Nations
+
+**[A/9716: United Nations report on Chile (1974)](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)**
+
+United Nations · 1974 · Stufe **A** · Primärquelle · `SRC-UN-A9716-CHILE-1974`
+
+[PDF öffnen](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)
+
+Fundstelle: Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
 
 <a id="src-un-unts405-us-chile-1960"></a>
@@ -4678,6 +5203,21 @@ United Press International, Referat über BILD/Udo Ulfkotte · 1997-07-13 · Stu
 [Seite öffnen](https://www.upi.com/Archives/1997/07/13/Bild-Glenn-Miller-died-in-bordello/7556868766400/)
 
 Fundstelle: Ulfkotte wird von UPI über BILD eine behauptete US-Geheimaktenentdeckung, Paris-Bordelltod und Vertuschung zugeschrieben; keine Aktennummer
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-congress-opic-anaconda-19720307"></a>
+### United States Congress
+
+**[Congressional Record: OPIC/Anaconda correspondence](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)**
+
+United States Congress · 1972-03-07 · Stufe **A** · Primärquelle · `SRC-US-CONGRESS-OPIC-ANACONDA-19720307`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)
+
+Fundstelle: S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig.
 
 </article>
 

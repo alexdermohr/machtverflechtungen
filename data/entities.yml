@@ -1839,9 +1839,9 @@ entities:
     notes: "Regierungsdelegation bzw. bundesdeutsche Gläubigerstellen in den Pariser-Club-Verhandlungen 1972/1974 und diplomatischen Berichten 1975. Nicht mit der speziellen, auf 1975 bezogenen ACG-Fonds-Beziehung der Bundesrepublik gleichsetzen."
   - id: ORG-US-BANK-OF-AMERICA-1974
     type: historical_commercial_bank
-    name: "Bank of America (Chile-Industriekredite 1974)"
+    name: "Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978)"
     countries: [US]
-    notes: "Die US–Chile-Umschuldungsakte 17.06.1974 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A. und Industrias de Celulosa Arauco S.A.; Kredithöhen und Aktienrechte aus diesem Ausschnitt nicht einzeln ableitbar."
+    notes: "Die US–Chile-Umschuldungsakte 17.06.1974 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A. und Industrias de Celulosa Arauco S.A.; Kredithöhen und Aktienrechte aus diesem Ausschnitt nicht einzeln ableitbar. FRUS 1970–1972 nennt das Institut bei Druckvorschlägen und als Mitvorsitzende des US-Gläubigerbankentreffens; DFC-Register nennt mehrere getrennte Schadenfälle. Keine Identität einzelner Verträge oder politische Weisungsausführung abgeleitet."
   - id: ORG-CL-PETROQUIMICA-DOW-1974
     type: historical_industrial_borrower
     name: "Petroquímica Dow S.A. (Chile, 1974)"
@@ -2080,6 +2080,108 @@ entities:
     countries: [CL]
     notes: "Chilenische Abgeordnetenkammer; 13.07.1971 dokumentierte Zustimmung zur Rücknahme der Genehmigungsvorlage zum Investitionsgarantie-Zusatzabkommen vom 03.12.1963."
 
+  - id: ORG-US-FIRST-NATIONAL-CITY-BANK-1971
+    type: "historical_commercial_bank"
+    name: "First National City Bank / Citibank, N.A. (Umbenennung 1976)"
+    countries: ["US", "CL"]
+    notes: "First National City Bank: historischer Bankname bis 01.03.1976, dann Citibank, N.A. (SEC-Vertragspräambel). Gläubigerin El Mercurios, Mitvorsitz 43 Banken, separater OPIC-Fall. Citigroup-Holding und einzelne verbundene Gesellschaften rechtlich getrennt. Keine Identität der Kredite oder Gelder."
+
+  - id: ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972
+    type: "historical_commercial_bank"
+    name: "First Wisconsin National Bank (Milwaukee, 1972)"
+    countries: ["US"]
+    notes: "Gläubigerin El Mercurios, Interventionsversuch erfolglos; keine bewusste CIA-Mitwirkung belegt."
+
+  - id: ORG-CL-BANCO-CENTRAL-1974
+    type: "central_bank"
+    name: "Banco Central de Chile"
+    countries: ["CL"]
+    notes: "Getrennte Schuldscheinserien 26.12.1974; OPIC-Registrierung 1985."
+
+  - id: ORG-CL-CORPORACION-DEL-COBRE-1974
+    type: "historical_state_copper_organization"
+    name: "Corporación del Cobre (Chile, 1974)"
+    countries: ["CL"]
+    notes: "25%-Beteiligung Exótica und Vertragspartnerin; eigene Ansprüche getrennt."
+
+  - id: ORG-CL-EXOTICA-COPPER-1971
+    type: "historical_mining_project"
+    name: "Compañía Minera Exótica (Chile)"
+    countries: ["CL"]
+    notes: "Historische Beteiligungsstruktur laut DL821; keine heutige Firmenidentität abgeleitet."
+
+  - id: ORG-US-RIGGS-NATIONAL-BANK
+    type: "historical_commercial_bank"
+    name: "Riggs National Bank (Washington, D.C.)"
+    countries: ["US"]
+    notes: "Vorgesehene Zahlstelle 1974; spätere Pinochet-Konten und BSA-Schuldbekenntnis separat."
+
+  - id: PER-CL-AUGUSTO-PINOCHET
+    type: "person"
+    name: "Augusto Pinochet"
+    countries: ["CL"]
+    notes: "Spätere Riggs-Konten; keine persönliche Verfügung über Exótica-Zahlung nachgewiesen."
+
+  - id: ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971
+    type: "historical_commercial_bank_cohort"
+    name: "US-Privatbank-Gläubigerverhandlungen mit Chile (1971–1972)"
+    countries: ["US", "CL"]
+    notes: "43 Banken am 14.12.1971; Bankliste und genaue Identität der Gläubiger im Crédito 2 offen."
+
+  - id: ORG-US-SUN-CHEMICAL-1972
+    type: "historical_commercial_supplier"
+    name: "Sun Chemical Company (El-Mercurio-Lieferantin, 1972)"
+    countries: ["US"]
+    notes: "Lieferantenkredit; vorgeschlagene Ausweitung nicht als ausgeführt erwiesen."
+
+  - id: PER-US-EDWARD-KORRY
+    type: "person"
+    name: "Edward M. Korry"
+    countries: ["US"]
+    notes: "US-Botschafter in Chile 1970; Vorschläge nicht mit Ausführung gleichsetzen."
+
+  - id: ORG-US-40-COMMITTEE-1972
+    type: "historical_covert_action_oversight_committee"
+    name: "40 Committee (1972)"
+    countries: ["US"]
+    notes: "US-Gremium zur Billigung verdeckter Maßnahmen; keine Einzelüberweisung aus Genehmigung ableitbar."
+
+  - id: ORG-US-CITIGROUP-2004
+    type: "financial_holding_company"
+    name: "Citigroup Inc. und im Senatsbericht erfasste Vorgänger/Verbundunternehmen (2004)"
+    countries: ["US"]
+    notes: "SEC-Prospekt 2004 dokumentiert indirekte Beteiligung über Citicorp; Senatsbericht 2005 verwendet Gruppenbezeichnung auch rückblickend für Vorgänger/Tochtergesellschaften. Keine Gleichsetzung sämtlicher Rechts- oder Bankgeschäfte."
+
+  - id: ORG-CL-ARMED-FORCES-HISTORICAL
+    type: "historical_military_institution"
+    name: "Chilenische Streitkräfte (historischer Kontext 1972–2002)"
+    countries: ["CL"]
+    notes: "Institutioneller Bezug auf Militärkreditpolitik 1972 und spätere Bankbeziehungen; nicht mit Regierung oder persönlichem Vermögen Pinochets gleichsetzen."
+
+  - id: ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION
+    type: "historical_foundation"
+    name: "Fundación Augusto Pinochet Ugarte (1997)"
+    countries: ["CL"]
+    notes: "Riggs-Spende nach Bankunterlagen und Dankschreiben; keine daraus allein abgeleitete Gegenleistung."
+
+  - id: ORG-US-KENNECOTT-COPPER-CORP-1971
+    type: "historical_multinational_mining_corporation"
+    name: "Kennecott Copper Corporation / Braden Copper (Chile-Fall)"
+    countries: ["US", "CL"]
+    notes: "Kennecott-Kredit und OPIC-Deckung laut FRUS 1971/72; DFC-Fallregister gemeinsamer Name Braden Copper/Kennecott, keine Gleichsetzung der einzelnen juristischen Personen oder Policen."
+
+  - id: PER-US-PAUL-VOLCKER
+    type: "person"
+    name: "Paul A. Volcker (Treasury/OPIC, 1971)"
+    countries: ["US"]
+    notes: "GAO FY1971 Appendix I/II nennt OPIC-Boardmitglied seit 19.01.1971 und Under Secretary of Treasury for Monetary Affairs; kein Nachweis individueller Weisung in konkretem Chile-Schadensfall."
+
+  - id: ORG-US-CHILE-CREDITO2-LENDERS-1972
+    type: "historical_commercial_bank_cohort"
+    name: "US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972)"
+    countries: ["US", "CL"]
+    notes: "Acta 87 vom 26.12.1974 nennt den Zusatzkredit aus 1972, aber nicht sämtliche Kreditgeber. Keine Gleichsetzung mit den 43 Banken der Sitzung vom 14.12.1971."
+
   - id: ORG-US-IC-1990S
     type: "historical_intelligence_community"
     name: "US Intelligence Community (Wirtschaftsaufklärung 1993–1995)"
@@ -2253,3 +2355,69 @@ entities:
     name: "Saudi-Arabien (Flugzeugbeschaffung 1994)"
     countries: ["SA"]
     notes: "Öffentliche Beschaffungsankündigung vom 16.02.1994."
+
+  - id: ORG-BR-BANCO-DO-BRASIL-SIVAM-1997
+    type: "historical_commercial_bank"
+    name: "Banco do Brasil S.A. (SIVAM, 1997–2006)"
+    countries: ["BR"]
+    notes: "Rechtlicher Kreditnehmer der drei ausländischen Banken und Gläubiger der brasilianischen Union laut BCB-Voto 305/97; nicht bloßer Durchleiter."
+
+  - id: ORG-NL-ABN-AMRO-SIVAM-1997
+    type: "historical_commercial_bank"
+    name: "ABN AMRO Bank (SIVAM-Refinanzierung 1997)"
+    countries: ["NL"]
+    notes: "Historischer, in BCB-Akte und BB-Prospekt namentlich ausgewiesener Kreditgeber; genaue rechtliche Niederlassung und individuelle Auszahlung nicht belegt."
+
+  - id: ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997
+    type: "historical_export_credit_institution"
+    name: "AB Svensk Exportkredit (SEK, SIVAM)"
+    countries: ["SE"]
+    notes: "Schwedischer Kreditgeber, TCU 1249/2005 nennt USD91.025.000 Vertragslimit über Grand Cayman; SEK ist Firmenabkürzung, USD die Kreditwährung."
+
+  - id: ORG-BR-BCB
+    type: "central_bank"
+    name: "Banco Central do Brasil (BCB)"
+    countries: ["BR"]
+    notes: "Zentralbankvorlagen 305/97 und 444/97 dokumentieren regulatorische Behandlung der SIVAM-Finanzierung."
+
+  - id: ORG-BR-CMN
+    type: "government_council"
+    name: "Conselho Monetário Nacional (CMN)"
+    countries: ["BR"]
+    notes: "Genehmigte Voto129/97 am 28.08.1997; 0%-Risikogewichtung als regulatorische Ausnahme."
+
+  - id: ORG-BR-TCU
+    type: "supreme_audit_institution"
+    name: "Tribunal de Contas da União (TCU)"
+    countries: ["BR"]
+    notes: "Brasilianischer Rechnungshof; technische Prüfberichte, Kollegialentscheidungen und aufgehobene Sanktionen getrennt bewerten."
+
+  - id: ORG-BR-CMO
+    type: "parliamentary_committee"
+    name: "Comissão Mista de Orçamento (CMO)"
+    countries: ["BR"]
+    notes: "Gemeinsamer Haushaltsausschuss des Nationalkongresses; Adressat der in TCU1249/2005 angeordneten Warnung."
+
+  - id: ORG-INT-SIVAM-VENDOR-TRUST-1994
+    type: "historical_finance_vehicle"
+    name: "SIVAM Vendor Trust (Kreditgenehmigung 1994)"
+    countries: ["BR"]
+    notes: "In Resolution95/1994 genannter Kreditgeber; TCU2005 bezeichnet eine Vendor Credit Facility, konkrete Vertragsurkunde und Rechtsträgeridentität noch offen."
+
+  - id: ORG-BR-CISCEA
+    type: "historical_government_commission"
+    name: "Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA)"
+    countries: ["BR"]
+    notes: "Luftfahrt-/Luftraumkontrollkommission; historische personelle und vertragliche Überschneidungen mit ESCA in TCU-Akte geprüft."
+
+  - id: PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS
+    type: "person"
+    name: "José Roberto Toscano Dantas"
+    countries: ["BR"]
+    notes: "Rechtsberater mit in TCU48/2001 erörterter Luftwaffe/CISCEA-Tätigkeit und ESCA-Vergütung; keine Bestechungsfeststellung, spätere Mehrheitsentscheidung zu Gunsten der Betroffenen."
+
+  - id: ORG-BR-EMBRAER-SIVAM
+    type: "historical_company"
+    name: "Embraer (SIVAM-Verträge, 1990er–2005)"
+    countries: ["BR"]
+    notes: "Zeitgenössischer Lieferant im SIVAM-Projekt; in Vertragsbezeichnung 01/95 von TCU1249/2005 aufgeführt."

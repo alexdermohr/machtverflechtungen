@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**487 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**559 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -721,7 +721,7 @@ flowchart LR
     N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975 -->|"Bundesrepublik Deutschland war 1972 und 1974 Gläubigerstaat in multilateralen Verhandlungen zur chilenischen Umschuldung, laut UNTS-Verträgen; keine Weisung an US-Dienststellen daraus ableitbar."| N_ORG_INT_PARIS_CLUB_CHILE_1972
     N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"Pariser Abkommen 25.03.1974 sah für ausgewählte 1973/74 fällige chilenische Verpflichtungen 80% Umschuldung und IMF-Stand-by-Bedingung vor, nicht pauschalen Schuldenerlass."| N_ORG_CL_MILITARY_JUNTA_1973
     N_ORG_INT_PARIS_CLUB_CHILE_1972 -->|"Laut Kissinger-Memo 28.04.1972 fragten Pariser Gläubiger die chilenische Delegation ausdrücklich, ob ITT unter Entschädigungsregeln falle; keine belegte ITT-Weisung und kein Kausalbeweis für Umschuldungsbeginn."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
-    N_ORG_US_BANK_OF_AMERICA_1974["Bank of America (Chile-Industriekredite 1974)"]
+    N_ORG_US_BANK_OF_AMERICA_1974["Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978)"]
     N_ORG_CL_PETROQUIMICA_DOW_1974["Petroquímica Dow S.A. (Chile, 1974)"]
     N_ORG_US_BANK_OF_AMERICA_1974 -->|"UNTS 967 Nr. 13947 §8-9 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A.; betroffene Fälligkeiten 1971–1972 und OPIC-Bezug, keine Eigentumskontrolle nachgewiesen."| N_ORG_CL_PETROQUIMICA_DOW_1974
     N_ORG_CL_INDUSTRIAS_ARAUCO_1974["Industrias de Celulosa Arauco S.A. (Chile, 1974)"]
@@ -830,6 +830,71 @@ flowchart LR
     N_PER_US_C_FRED_BERGSTEN -->|"Assistant Secretary of the Treasury for International Affairs im Jahr 1977, gleichzeitig OPIC-Boardmitglied ab 24.05.; Kongressaussage zur Teilprivatisierung 27.07.1977."| N_ORG_US_TREASURY
     N_ORG_CL_CHAMBER_OF_DEPUTIES["Cámara de Diputados de Chile"]
     N_ORG_CL_ALLENDE_GOVERNMENT_1972 -->|"Oficio 13.794 vom 07.07.1971: Allende/Almeyda ziehen die Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen vom 03.12.1963 (Boletín 2268) zurück; Kammer stimmt am 13.07.1971 zu. Kein Nachweis damaliger Ratifikation."| N_ORG_CL_CHAMBER_OF_DEPUTIES
+    N_ORG_CL_EXOTICA_COPPER_1971["Compañía Minera Exótica (Chile)"]
+    N_ORG_CL_CHILE_COPPER_ANACONDA_1972 -->|"DL821: Chile Copper Company hielt historisch 75% an Exótica; keine heutige Beteiligung abgeleitet."| N_ORG_CL_EXOTICA_COPPER_1971
+    N_ORG_CL_CORPORACION_DEL_COBRE_1974["Corporación del Cobre (Chile, 1974)"]
+    N_ORG_CL_CORPORACION_DEL_COBRE_1974 -->|"DL821: Corporación del Cobre hielt 25% an Exótica; eigene Ansprüche getrennt."| N_ORG_CL_EXOTICA_COPPER_1971
+    N_ORG_US_OPIC_1971 -->|"BCCh Acta87 und CRS: 11.890.000 USD Exótica-Eigenkapitalentschädigung bezahlt; Bankkreditdeckung separat bestritten."| N_ORG_CL_CHILE_COPPER_ANACONDA_1972
+    N_ORG_CL_CHILE_COPPER_ANACONDA_1972 -->|"DL821: vertragliche Forderungsabtretung an OPIC 06.10.1972; spätere Tilgungen offen."| N_ORG_US_OPIC_1971
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"Vergleich 24.12.1974: 11,25 Mio. Kapital + 2,7 Mio. Zinsen = 13,95 Mio. USD; 4,575 Mio. sofort vorgesehen, 9,375 Mio. Noten; vollständige Zahlung offen."| N_ORG_US_OPIC_1971
+    N_ORG_CL_CORPORACION_DEL_COBRE_1974 -->|"Corporación del Cobre war mit Chile und OPIC Vertragspartnerin der Exótica-Vereinbarung; eigene 25%-Ansprüche separat."| N_ORG_US_OPIC_1971
+    N_ORG_US_RIGGS_NATIONAL_BANK["Riggs National Bank (Washington, D.C.)"]
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"BCCh 26.12.1974: Zahlungsanweisung Chiles an Riggs bis 31.12. für 4,575 Mio. USD vorgesehen; keine Bankbuchung belegt."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_CL_BANCO_CENTRAL_1974["Banco Central de Chile"]
+    N_ORG_CL_BANCO_CENTRAL_1974 -->|"BCCh beschloss Mithaftung für fünf OPIC-Noten à 1,875 Mio. USD, zusammen 9,375 Mio., 8,3% Zins; keine Tilgungsableitung."| N_ORG_US_OPIC_1971
+    N_PER_CL_AUGUSTO_PINOCHET["Augusto Pinochet"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"US-Senatsbericht 2005 identifiziert 28 Riggs-Konten/CDs in Pinochet-Komplex 1979–2004, darunter Konten im Namen von Dritten. Keine Herkunft aus Exótica 1974 nachgewiesen."| N_PER_CL_AUGUSTO_PINOCHET
+    N_ORG_CL_ARMED_FORCES_HISTORICAL["Chilenische Streitkräfte (historischer Kontext 1972–2002)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Senatsbericht 2005, IV.B: Riggs hatte langjährige Beziehungen zu chilenischen Militärinstitutionen, stellte 1994 etliche Konten wieder her; Militär und Botschaft zusammen 2002 ca.100 Mio. USD Einlagen. Keine Privatvermögenssumme, keine OPIC-Zahlungsidentität."| N_ORG_CL_ARMED_FORCES_HISTORICAL
+    N_ORG_US_OPIC_1971 -->|"DFC FY74 Anaconda Chile 13.640.000 USD Cash, keine Garantie; nicht mit Exótica 11,89 Mio. oder späterer Abwicklung gleichsetzen."| N_ORG_US_ANACONDA_COPPER_1972
+    N_ORG_US_OPIC_1971 -->|"DFC FY74 Chile Typ A: 463.207 und 2.633.876 USD Cash, keine Garantien; zweite Zahl Textansicht, letzte Ziffer Faksimile angeschnitten; Policenidentität offen."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_US_OPIC_1971 -->|"DFC FY75 Chile Typ B: 3.010.272 USD Cash, keine Garantie; nicht als Petrodow/Arauco FY78 identifizieren."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971["First National City Bank / Citibank, N.A. (Umbenennung 1976)"]
+    N_ORG_US_OPIC_1971 -->|"DFC FY73 Typ B 66.503 USD Cash, CRS 1973 S.75 gerundet 66.500 USD. Keine Identität mit El Mercurio."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_OPIC_1971 -->|"GAO: Chile-Garantiebestand FY82 60,2 Mio. und FY84 9,8 Mio. USD inkl. Zinsen; Differenz keine Barzahlung."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_CL_BANCO_CENTRAL_1974 -->|"Acta1648 Anlage Blatt23: Kontrolle/Registrierung von OPIC-Mitteilungen nach Abkommen 1983/84; keine neue Einzelpolice belegt."| N_ORG_US_OPIC_1971
+    N_ORG_US_CHILE_PRIVATE_CREDITOR_BANKS_1971["US-Privatbank-Gläubigerverhandlungen mit Chile (1971–1972)"]
+    N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971 -->|"FRUS Dok95: FNCB leitete mit Bank of America 14.12.1971 Zusammenkunft von 43 US-Privatbanken in New York."| N_ORG_US_CHILE_PRIVATE_CREDITOR_BANKS_1971
+    N_ORG_US_BANK_OF_AMERICA_1974 -->|"FRUS Dok95: Bank of America leitete mit FNCB 14.12.1971 Zusammenkunft von 43 US-Privatbanken; Einzelverträge nicht identifiziert."| N_ORG_US_CHILE_PRIVATE_CREDITOR_BANKS_1971
+    N_ORG_US_STATE_DEPARTMENT -->|"FRUS 12.01.1972: State-Kontakt mit Privatbanken; restriktive Kreditstrategie und Verzögerungsüberlegungen; keine Weisungsausführung belegt."| N_ORG_US_CHILE_PRIVATE_CREDITOR_BANKS_1971
+    N_ORG_US_CHILE_CREDITO2_LENDERS_1972["US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972)"]
+    N_ORG_CL_BANCO_CENTRAL_1974 -->|"Acta87 S.2–3: fünf Ersatznoten zum Zusatzkredit 1972, Plansumme 72.362.886,16 USD; Bankliste fehlt, nicht Exótica-Noten."| N_ORG_US_CHILE_CREDITO2_LENDERS_1972
+    N_PER_US_EDWARD_KORRY["Edward M. Korry"]
+    N_PER_US_EDWARD_KORRY -->|"Korry bat Washington 16.09.1970 um Lockerung von FNCB-Einziehungsforderungen gegenüber El Mercurio; keine Befolgung belegt."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_PER_US_EDWARD_KORRY -->|"Korry 25.09.1970 nennt BoA bei Vorschlägen wirtschaftlicher Druckmittel; keine Umsetzung/Bankzustimmung nachgewiesen."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971 -->|"CIA/State 23.02. und CIA 10.04.1972 nennen FNCB als Auslandsgläubigerin; Einzelbetrag und OPIC-Identität offen."| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972["First Wisconsin National Bank (Milwaukee, 1972)"]
+    N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972 -->|"Februar 1972 rund 293.000 USD Schuld bei Bank of Wisconsin; CIA April identifiziert First Wisconsin National Bank; Einziehungslockerung erfolglos."| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_CL_BANCO_CENTRAL_1974 -->|"CIA 10.04.1972: Zentralbankzahlung hing an privater US-Bankenumschuldung und Pariser Abkommen; keine erfolgte Überweisung belegt."| N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972
+    N_ORG_US_STATE_DEPARTMENT -->|"CIA-Vorlage beschreibt erfolglose diplomatische Intervention zur Lockerung der First-Wisconsin-Einziehung."| N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972
+    N_ORG_US_SUN_CHEMICAL_1972["Sun Chemical Company (El-Mercurio-Lieferantin, 1972)"]
+    N_ORG_US_SUN_CHEMICAL_1972 -->|"CIA-Akten: US-Lieferkosten ca. 500.000 USD jährlich, Kredit 100.000, Ausweitung auf 300.000 vorgeschlagen, nicht als ausgeführt belegt."| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_US_CIA -->|"CIA-Vorlage 10.04.1972 sah Ablösung der First-Wisconsin-Forderung vor, u.a. durch Beschaffung chilenischer Escudos am Schwarzmarkt. Keine konkret ausgeführte Zahlung oder bewusste CIA-Kooperation der Bank belegt."| N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972
+    N_ORG_US_CIA -->|"CIA 10.04.1972: vorgeschlagene Absicherung zur Ausweitung Lieferantenkredit 100.000 auf 300.000 USD; keine ausgeführte Garantie belegt."| N_ORG_US_SUN_CHEMICAL_1972
+    N_ORG_US_40_COMMITTEE_1972["40 Committee (1972)"]
+    N_ORG_US_40_COMMITTEE_1972 -->|"965.000 USD Zusatzhilfe gebilligt, einschließlich Schuldendienst und Lieferkredit. Editionsanmerkung Dok108: 11.04.1972; CIA-Rückblick Dok145: 12.04.1972. Keine weitere Auszahlung oder Einzelbankzahlung."| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_US_CITIGROUP_2004["Citigroup Inc. und im Senatsbericht erfasste Vorgänger/Verbundunternehmen (2004)"]
+    N_ORG_US_CITIGROUP_2004 -->|"SEC-Prospekt 2004: Citibank, N.A. vollständig im Eigentum von Citicorp, dieses indirekte 100%-Tochter von Citigroup; Bankname seit 01.03.1976. Nicht gleichbedeutend mit identischer Rechtsperson."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_CITIGROUP_2004 -->|"Senatsbericht V.A: 63 US-Konten/CDs 1981–2004 für Pinochet und Familie/verbundene Strukturen; 15 persönliche, 19 Familien-, 29 Offshore-Konten. 1960er-Konto nur Erinnerung, nicht belegt."| N_PER_CL_AUGUSTO_PINOCHET
+    N_ORG_US_CITIGROUP_2004 -->|"Senatsbericht V.A dokumentiert am 25.04.1996 403.000 USD von Meritor Investments (Marco Pinochet) über Citi an Pinochet-bezogenes Riggs-Konto. Kein Nachweis OPIC-Herkunft oder Strafbarkeit aller Beteiligten."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_CL_AUGUSTO_PINOCHET_UGARTE_FOUNDATION["Fundación Augusto Pinochet Ugarte (1997)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Riggs spendete 1997 laut Senat 5.000 USD auf Anfrage General Izurietas; Dankschreiben 22.04.1997. Keine nachgewiesene Gegenleistung."| N_ORG_CL_AUGUSTO_PINOCHET_UGARTE_FOUNDATION
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"DOJ 27.01.2005: Riggs bekannte sich schuldig wegen systematischer strafbarer Nichtmeldung verdächtiger Transaktionen bei Pinochet-/Äquatorialguinea-Konten; 16 Mio. USD vereinbarte Geldstrafe. Keine Rückprojektion auf 1974."| N_ORG_US_DOJ
+    N_ORG_US_KENNECOTT_COPPER_CORP_1971["Kennecott Copper Corporation / Braden Copper (Chile-Fall)"]
+    N_ORG_US_OPIC_1971 -->|"FRUS 29.09.1971 und Anlage 12.01.1972: 85 Mio. USD OPIC-Deckung bei Kennecott, 88 Mio. Kreditforderung umstritten; Deckung keine Auszahlung."| N_ORG_US_KENNECOTT_COPPER_CORP_1971
+    N_ORG_US_OPIC_1971 -->|"DFC FY73 Braden Copper/Kennecott: 66.908.494 USD Vergleich/Garantie, 38.709.753 USD später Cash unter Garantie laut Fn.1; nicht addieren, Abrufdatum/Policenidentität offen. CRS 1973 ca.67 Mio. Garantie."| N_ORG_US_KENNECOTT_COPPER_CORP_1971
+    N_ORG_US_OPIC_1971 -->|"DFC FY72 Bethlehem: 17.365.721 USD Vergleich/Garantie, 3.076.820 USD später Cash unter Garantie laut Fn.1; nicht addieren, nicht identisch mit 1971 geplanter Mindestdeckung bewiesen."| N_ORG_US_BETHLEHEM_STEEL_1971
+    N_ORG_US_OPIC_1971 -->|"DFC Denial Table: Bank of America Chile Typ A, Anspruch 2.913.021 USD, abgelehnt 26.03.1973. Keine Schiedszahlung in Zeile ausgewiesen; keine Identität mit anderen BoA-Policen."| N_ORG_US_BANK_OF_AMERICA_1974
+    N_PER_US_PAUL_VOLCKER["Paul A. Volcker (Treasury/OPIC, 1971)"]
+    N_PER_US_PAUL_VOLCKER -->|"GAO FY1971 Appendix I/II: Paul Volcker seit 19.01.1971 OPIC-Boardmitglied, gleichzeitig Under Secretary of Treasury for Monetary Affairs. Kein Nachweis individueller Chile-Fallweisung."| N_ORG_US_OPIC_1971
+    N_PER_US_PAUL_VOLCKER -->|"GAO FY1971 Appendix II nennt Paul Volcker als Under Secretary of Treasury for Monetary Affairs (Stand 30.06.1971) und OPIC-Boardmitglied."| N_ORG_US_TREASURY
+    N_ORG_US_CIA -->|"CIA Dok108, 10.04.1972: Beschaffung chilenischer Escudos am Schwarzmarkt zur Tilgung der First-Wisconsin-Schuld vorgesehen; Decktransaktionen diskutiert. Keine Ausführung oder strafgerichtliche Bewertung belegt."| N_ORG_CL_EL_MERCURIO_1971
+    N_ORG_CL_EL_MERCURIO_1971 -->|"CIA Dok108 berichtet, El Mercurio habe bei First Wisconsin den Eindruck einer erfolgten Hinterlegung bei der Zentralbank erweckt, obwohl Mittel fehlten; CIA-Bericht, kein eigenständiges Bank-/Gerichtsdokument."| N_ORG_US_FIRST_WISCONSIN_NATIONAL_BANK_1972
+    N_ORG_US_STATE_DEPARTMENT -->|"CIA/State 23.02.1972 diskutierten politische Instrumentalisierung einer möglichen Zeitungseinstellung; NSC 10.04.1972 erwog Pressefreiheitsthema. Keine ausgeführte Schließungsinszenierung belegt."| N_ORG_CL_EL_MERCURIO_1971
+    N_PER_US_EDWARD_KORRY -->|"Korry 25.09.1970, Abs.8–14: Kreditbeschränkung, wirtschaftliche Negativpublizistik über Geschäftsleute ohne sichtbare USG, Unternehmensschließung und wirtschaftliche Druckoptionen erwogen; Umsetzung nicht belegt."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
+    N_ORG_US_STATE_DEPARTMENT -->|"Anlage 12.01.1972: US-Planung wollte Schuldenerleichterungen politisch begrenzen und Gläubiger schützen, harte Bedingungen, ggf. verzögerte Unterschrift bei zunehmender innerer Unzufriedenheit. Keine pauschale tatsächliche Kreditverweigerung abgeleitet."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
+    N_ORG_US_STATE_DEPARTMENT -->|"Anlage 12.01.1972 S.499: State/Defense befürworteten Fortführung noch nicht ausgezahlter 8 Mio. USD Militärkredite im rechtlich möglichen Umfang wegen oppositionellen Potenzials der Streitkräfte; keine neue Auszahlung."| N_ORG_CL_ARMED_FORCES_HISTORICAL
+    N_ORG_US_DOD -->|"Anlage 12.01.1972 S.499/511ff: Defense befürwortete mit State Erhalt des FMS-Kreditprogramms für Chile aus politischer Erwägung; 8 Mio. USD ausstehende Auszahlung, keine zusätzliche Summe."| N_ORG_CL_ARMED_FORCES_HISTORICAL
     N_ORG_US_IC_1990S["US Intelligence Community (Wirtschaftsaufklärung 1993–1995)"]
     N_ORG_US_IC_1990S -->|"Wirtschaftsaufklärung für staatliche Entscheidungsträger; SSCI berichtet Juli 1994 über wirtschaftlichen Nutzen"| N_ORG_US_STATE_DEPARTMENT
     N_ORG_US_COMMERCE["US Department of Commerce"]
@@ -902,6 +967,41 @@ flowchart LR
     N_ORG_BR_TRF4 -->|"2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
     N_ORG_BR_STJ["Superior Tribunal de Justiça (STJ)"]
     N_ORG_BR_STJ -->|"03.04.2008 REsp 719.548-PR: Vorentscheidung aufgehoben, Verfahren ohne Sachentscheidung beendet; Vermögensschaden nicht nachgewiesen"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997["Banco do Brasil S.A. (SIVAM, 1997–2006)"]
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Grand-Cayman-Niederlassung des vertraglichen SIVAM-Finanzierers Banco do Brasil"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_US_EXIMBANK_1994 -->|"Vertrag AP067303XX, direktes EXIM-Limit USD1.288.255.370, laut TCU1249/2005; kein Einzelabrufnachweis"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM-garantierte Linie AP067902XX, Limit USD105.046.668,50; Garantie nicht mit direkter Auszahlung gleichgesetzt"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_NL_ABN_AMRO_SIVAM_1997["ABN AMRO Bank (SIVAM-Refinanzierung 1997)"]
+    N_ORG_NL_ABN_AMRO_SIVAM_1997 -->|"1997 als einer von drei Kreditgebern genannt, durch endgültigen Prospekt bestätigt; exakte einzelne Tranche nicht dokumentiert"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_SE_SVENSK_EXPORTKREDIT_SIVAM_1997["AB Svensk Exportkredit (SEK, SIVAM)"]
+    N_ORG_SE_SVENSK_EXPORTKREDIT_SIVAM_1997 -->|"TCU1249/2005: unterzeichneter SEK-Finanzierungsvertrag mit BB Grand Cayman, Limit USD91.025.000"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Drei Gegenverträge mit der Union; USD1.484.327.038,50 Vertragsvolumen und 1,5 Prozentpunkte jährliche Zinsvergütung laut BCB"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Endgültiger Prospekt: ca. USD1,3 Mrd. kumulativ ausgezahlt bis 31.03.2006; keine Empfänger-Einzelabrechnung"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"72,1% des stimmberechtigten und gesamten Kapitals am 31.03.2006 laut endgültigem Prospekt"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_BR_BCB["Banco Central do Brasil (BCB)"]
+    N_ORG_BR_CMN["Conselho Monetário Nacional (CMN)"]
+    N_ORG_BR_BCB -->|"Voto305/97 / CMN129/97 empfiehlt 0 statt 100% Risikogewicht für strategische SIVAM-Kredite"| N_ORG_BR_CMN
+    N_ORG_BR_CMN -->|"CMN genehmigt 28.08.1997 Risikogewicht 0% für SIVAM; BCB444/97 bestätigt Eigenkapitalentlastung, keine tatsächliche Risikolosigkeit"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_US_RAYTHEON_1994 -->|"Raytheon Credit Facility mit Limit USD239,2 Mio. laut TCU1249/2005; tatsächlicher Einzelabruf offen"| N_ORG_BR_UNION_SIVAM
+    N_ORG_INT_SIVAM_VENDOR_TRUST_1994["SIVAM Vendor Trust (Kreditgenehmigung 1994)"]
+    N_ORG_INT_SIVAM_VENDOR_TRUST_1994 -->|"Resolution95/1994: SIVAM Vendor Trust, USD48 Mio. genehmigt; TCU2005 nennt Vendor Credit Facility mit gleichem Limit, genaue Urkunde fehlt"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_SENADO_FEDERAL -->|"Res.37/1996 hebt Art.3/4 der fünf ursprünglichen Kreditresolutionen auf, Fristen +270 Tage und neue Schutz-/Ausschreibungsbedingungen"| N_PRG_BR_SIVAM
+    N_ORG_BR_EMBRAER_SIVAM["Embraer (SIVAM-Verträge, 1990er–2005)"]
+    N_ORG_BR_EMBRAER_SIVAM -->|"TCU1249/2005 nennt Vertrag 01/95 mit CCSIVAM/Raytheon/ATECH/Embraer; späterer Stand, kein ursprünglicher Vertragsschluss 1995 behauptet"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_ATECH_FOUNDATION -->|"TCU1249/2005 nennt ATECH in späterer Vertragsbezeichnung 01/95; ursprüngliche und geänderte Fassung getrennt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_TCU["Tribunal de Contas da União (TCU)"]
+    N_ORG_BR_CMO["Comissão Mista de Orçamento (CMO)"]
+    N_ORG_BR_TCU -->|"TCU ordnet Warnung vor möglicher vorzeitiger Fälligkeit von rund USD1,5 Mrd. bei Nichtzahlung an; kein Nachweis eingetretener Fälligstellung"| N_ORG_BR_CMO
+    N_ORG_BR_TCU -->|"TCU dokumentiert Klausel24.1.18 und verknüpfte Default-Klauseln der fünf Finanzierungen, bei qualifiziertem Zahlungsverzug mögliche Kündigung/Fälligstellung"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_UNION_SIVAM -->|"Lei11.199 vom 24.11.2005: R$70 Mio. Zusatzbewilligung; keine Zahlungsabrechnung"| N_PRG_BR_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"CPI2002 S.126 gibt TCU-Prüfung wieder: R$2 Mio. an ESCA 1994–95 für Beratung/Engineering zur Integrationslogik; keine Bestechungsfeststellung"| N_ORG_BR_ESCA
+    N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS["José Roberto Toscano Dantas"]
+    N_ORG_BR_ESCA -->|"TCU48/2001 erörtert ESCA-Vergütung des Rechtsberaters auf Anregung des Ministeriums; spätere Mehrheit sah Schaden/Bereicherung/bösen Glauben nicht nachgewiesen"| N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS
+    N_ORG_BR_CISCEA["Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA)"]
+    N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS -->|"TCU48/2001 dokumentiert längerfristige juristische Tätigkeit für Luftwaffe/CISCEA neben ESCA-Vergütung; zeitliche Aussage auf Prüfakte beschränkt"| N_ORG_BR_CISCEA
+    N_ORG_BR_TCU -->|"Technische Prüfung zu Auswahlsitzung 13.09.1993: sechs von neun Beteiligten mit ESCA-Verbindungen; Mehrheit hob 2001 die Ziffern a–c von 87/96 auf; keine strafrechtliche Entscheidung"| N_ORG_BR_ESCA
+    N_ORG_BR_TCU -->|"TCU110/96 bezog ESCA in besondere Rechnungsprüfung ein; TCU48/2001 hob 87/96 a–c später auf, kein Strafurteil"| N_ORG_BR_ESCA
+    N_ORG_BR_TCU -->|"TCU82/97: umverteilte Teilkosten USD28.475.782, Bezifferung nicht verifiziert; Konsortienüberschneidung im abweichenden Prüfbeitrag, keine bewiesene Absprache"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
 ```
 
 [Zur Relationstabelle](network.md)

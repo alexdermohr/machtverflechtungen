@@ -3996,6 +3996,438 @@ relations:
     evidence_level: established
     sources: [SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964, SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971]
 
+  - id: REL-CL-CHILE-COPPER-EXOTICA-OWNERSHIP-1971
+    from: "ORG-CL-CHILE-COPPER-ANACONDA-1972"
+    to: "ORG-CL-EXOTICA-COPPER-1971"
+    type: "documented_historical_equity_interest"
+    label: "DL821: Chile Copper Company hielt historisch 75% an Exótica; keine heutige Beteiligung abgeleitet."
+    evidence_level: "established"
+    sources: ["SRC-CL-DL821-1974"]
+    period: {"start": "1971"}
+
+  - id: REL-CL-CORPORACION-COBRE-EXOTICA-OWNERSHIP-1971
+    from: "ORG-CL-CORPORACION-DEL-COBRE-1974"
+    to: "ORG-CL-EXOTICA-COPPER-1971"
+    type: "documented_historical_equity_interest"
+    label: "DL821: Corporación del Cobre hielt 25% an Exótica; eigene Ansprüche getrennt."
+    evidence_level: "established"
+    sources: ["SRC-CL-DL821-1974"]
+    period: {"start": "1971"}
+
+  - id: REL-US-OPIC-CHILE-COPPER-EXOTICA-PAYMENT-1972
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-CL-CHILE-COPPER-ANACONDA-1972"
+    type: "documented_insurance_cash_settlement"
+    label: "BCCh Acta87 und CRS: 11.890.000 USD Exótica-Eigenkapitalentschädigung bezahlt; Bankkreditdeckung separat bestritten."
+    evidence_level: "established"
+    sources: ["SRC-CL-BCCH-ACTA87-1974", "SRC-US-HOUSE-CRS-OPIC-CHILE-1973", "SRC-UN-A9716-CHILE-1974", "SRC-US-CONGRESS-OPIC-ANACONDA-19720307"]
+    period: {"start": "1972"}
+
+  - id: REL-CL-CHILE-COPPER-OPIC-EXOTICA-ASSIGNMENT-1972
+    from: "ORG-CL-CHILE-COPPER-ANACONDA-1972"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_subrogated_compensation_rights"
+    label: "DL821: vertragliche Forderungsabtretung an OPIC 06.10.1972; spätere Tilgungen offen."
+    evidence_level: "established"
+    sources: ["SRC-CL-DL821-1974", "SRC-UN-A9716-CHILE-1974"]
+    period: {"start": "1972-10-06"}
+
+  - id: REL-CL-JUNTA-OPIC-EXOTICA-SETTLEMENT-1974
+    from: "ORG-CL-MILITARY-JUNTA-1973"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_sovereign_compensation_agreement"
+    label: "Vergleich 24.12.1974: 11,25 Mio. Kapital + 2,7 Mio. Zinsen = 13,95 Mio. USD; 4,575 Mio. sofort vorgesehen, 9,375 Mio. Noten; vollständige Zahlung offen."
+    evidence_level: "established"
+    sources: ["SRC-CL-DL821-1974", "SRC-CL-BCCH-ACTA87-1974"]
+    period: {"start": "1974-12-24"}
+
+  - id: REL-CL-CORPORACION-COBRE-OPIC-EXOTICA-AGREEMENT-1974
+    from: "ORG-CL-CORPORACION-DEL-COBRE-1974"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_tripartite_compensation_agreement"
+    label: "Corporación del Cobre war mit Chile und OPIC Vertragspartnerin der Exótica-Vereinbarung; eigene 25%-Ansprüche separat."
+    evidence_level: "established"
+    sources: ["SRC-CL-DL821-1974"]
+    period: {"start": "1974-12-24"}
+
+  - id: REL-CL-JUNTA-RIGGS-EXOTICA-PAYMENT-INSTRUCTION-1974
+    from: "ORG-CL-MILITARY-JUNTA-1973"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "documented_planned_bank_payment_instruction"
+    label: "BCCh 26.12.1974: Zahlungsanweisung Chiles an Riggs bis 31.12. für 4,575 Mio. USD vorgesehen; keine Bankbuchung belegt."
+    evidence_level: "established"
+    sources: ["SRC-CL-BCCH-ACTA87-1974"]
+    period: {"start": "1974-12-26"}
+
+  - id: REL-CL-BCCH-OPIC-EXOTICA-NOTE-GUARANTEE-1974
+    from: "ORG-CL-BANCO-CENTRAL-1974"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_central_bank_guarantee_decision"
+    label: "BCCh beschloss Mithaftung für fünf OPIC-Noten à 1,875 Mio. USD, zusammen 9,375 Mio., 8,3% Zins; keine Tilgungsableitung."
+    evidence_level: "established"
+    sources: ["SRC-CL-BCCH-ACTA87-1974", "SRC-CL-DL821-1974"]
+    period: {"start": "1974-12-26"}
+
+  - id: REL-US-RIGGS-PINOCHET-ACCOUNTS-1979-2004
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "PER-CL-AUGUSTO-PINOCHET"
+    type: "documented_bank_account_relationship"
+    label: "US-Senatsbericht 2005 identifiziert 28 Riggs-Konten/CDs in Pinochet-Komplex 1979–2004, darunter Konten im Namen von Dritten. Keine Herkunft aus Exótica 1974 nachgewiesen."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005", "SRC-US-DOJ-RIGGS-PLEA-2005"]
+    period: {"start": "1979", "end": "2004"}
+
+  - id: REL-US-RIGGS-CHILE-MILITARY-BANKING-1994-2002
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-CL-ARMED-FORCES-HISTORICAL"
+    type: "officially_reported_historical_military_banking"
+    label: "Senatsbericht 2005, IV.B: Riggs hatte langjährige Beziehungen zu chilenischen Militärinstitutionen, stellte 1994 etliche Konten wieder her; Militär und Botschaft zusammen 2002 ca.100 Mio. USD Einlagen. Keine Privatvermögenssumme, keine OPIC-Zahlungsidentität."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1994", "end": "2002"}
+
+  - id: REL-US-OPIC-ANACONDA-REGISTER-CASH-FY1974
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-ANACONDA-COPPER-1972"
+    type: "official_insurance_register_cash_amount"
+    label: "DFC FY74 Anaconda Chile 13.640.000 USD Cash, keine Garantie; nicht mit Exótica 11,89 Mio. oder späterer Abwicklung gleichsetzen."
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022"]
+    period: {"start": "1974"}
+
+  - id: REL-US-OPIC-BOFA-REGISTER-CASH-FY1974
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-BANK-OF-AMERICA-1974"
+    type: "official_insurance_register_cash_amount"
+    label: "DFC FY74 Chile Typ A: 463.207 und 2.633.876 USD Cash, keine Garantien; zweite Zahl Textansicht, letzte Ziffer Faksimile angeschnitten; Policenidentität offen."
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022"]
+    period: {"start": "1974"}
+
+  - id: REL-US-OPIC-BOFA-REGISTER-CASH-FY1975
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-BANK-OF-AMERICA-1974"
+    type: "official_insurance_register_cash_amount"
+    label: "DFC FY75 Chile Typ B: 3.010.272 USD Cash, keine Garantie; nicht als Petrodow/Arauco FY78 identifizieren."
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022"]
+    period: {"start": "1975"}
+
+  - id: REL-US-OPIC-FNCB-REGISTER-CASH-FY1973
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "official_insurance_register_cash_amount"
+    label: "DFC FY73 Typ B 66.503 USD Cash, CRS 1973 S.75 gerundet 66.500 USD. Keine Identität mit El Mercurio."
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022", "SRC-US-HOUSE-CRS-OPIC-CHILE-1973"]
+    period: {"start": "1973"}
+
+  - id: REL-US-OPIC-CHILE-CONTINGENT-GUARANTIES-1982-1984
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-CL-MILITARY-JUNTA-1973"
+    type: "audited_contingent_guarantees_on_chilean_obligations"
+    label: "GAO: Chile-Garantiebestand FY82 60,2 Mio. und FY84 9,8 Mio. USD inkl. Zinsen; Differenz keine Barzahlung."
+    evidence_level: "established"
+    sources: ["SRC-US-GAO-OPIC-ID8340-1983", "SRC-US-GAO-OPIC-AFMD8525-1985"]
+    period: {"start": "1982", "end": "1984"}
+
+  - id: REL-CL-BCCH-OPIC-NOTICE-REGISTRATION-1985
+    from: "ORG-CL-BANCO-CENTRAL-1974"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_administrative_investment_insurance_registration"
+    label: "Acta1648 Anlage Blatt23: Kontrolle/Registrierung von OPIC-Mitteilungen nach Abkommen 1983/84; keine neue Einzelpolice belegt."
+    evidence_level: "established"
+    sources: ["SRC-CL-BCCH-DL600-1984", "SRC-CL-BCCH-ACTA1648-1985"]
+    period: {"start": "1985-05-15"}
+
+  - id: REL-US-FNCB-CHILE-BANK-CONSORTIUM-1971
+    from: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    to: "ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971"
+    type: "documented_creditor_meeting_cochair"
+    label: "FRUS Dok95: FNCB leitete mit Bank of America 14.12.1971 Zusammenkunft von 43 US-Privatbanken in New York."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+    period: {"start": "1971-12-14"}
+
+  - id: REL-US-BOFA-CHILE-BANK-CONSORTIUM-1971
+    from: "ORG-US-BANK-OF-AMERICA-1974"
+    to: "ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971"
+    type: "documented_creditor_meeting_cochair"
+    label: "FRUS Dok95: Bank of America leitete mit FNCB 14.12.1971 Zusammenkunft von 43 US-Privatbanken; Einzelverträge nicht identifiziert."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+    period: {"start": "1971-12-14"}
+
+  - id: REL-US-STATE-CHILE-PRIVATE-CREDITORS-CONTACT-1972
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971"
+    type: "documented_diplomatic_creditor_contact"
+    label: "FRUS 12.01.1972: State-Kontakt mit Privatbanken; restriktive Kreditstrategie und Verzögerungsüberlegungen; keine Weisungsausführung belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+    period: {"start": "1972-01-12"}
+
+  - id: REL-CL-BCCH-US-PRIVATE-BANK-CREDITO2-NOTES-1974
+    from: "ORG-CL-BANCO-CENTRAL-1974"
+    to: "ORG-US-CHILE-CREDITO2-LENDERS-1972"
+    type: "documented_private_debt_rescheduling_decision"
+    label: "Acta87 S.2–3: fünf Ersatznoten zum Zusatzkredit 1972, Plansumme 72.362.886,16 USD; Bankliste fehlt, nicht Exótica-Noten."
+    evidence_level: "established"
+    sources: ["SRC-CL-BCCH-ACTA87-1974", "SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+    period: {"start": "1974-12-26"}
+
+  - id: REL-US-KORRY-FNCB-MERCURIO-REQUEST-1970
+    from: "PER-US-EDWARD-KORRY"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "documented_diplomatic_intervention_request"
+    label: "Korry bat Washington 16.09.1970 um Lockerung von FNCB-Einziehungsforderungen gegenüber El Mercurio; keine Befolgung belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-KORRY-MERCURIO-19700916"]
+    period: {"start": "1970-09-16"}
+
+  - id: REL-US-KORRY-BOFA-CREDIT-PRESSURE-PROPOSAL-1970
+    from: "PER-US-EDWARD-KORRY"
+    to: "ORG-US-BANK-OF-AMERICA-1974"
+    type: "documented_economic_pressure_proposal"
+    label: "Korry 25.09.1970 nennt BoA bei Vorschlägen wirtschaftlicher Druckmittel; keine Umsetzung/Bankzustimmung nachgewiesen."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-KORRY-CREDIT-19700925"]
+    period: {"start": "1970-09-25"}
+
+  - id: REL-US-FNCB-EL-MERCURIO-DEBT-1972
+    from: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_historical_creditor_relationship"
+    label: "CIA/State 23.02. und CIA 10.04.1972 nennen FNCB als Auslandsgläubigerin; Einzelbetrag und OPIC-Identität offen."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-STATE-MERCURIO-19720223", "SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-02-23"}
+
+  - id: REL-US-FWNB-EL-MERCURIO-DEBT-1972
+    from: "ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_historical_creditor_relationship"
+    label: "Februar 1972 rund 293.000 USD Schuld bei Bank of Wisconsin; CIA April identifiziert First Wisconsin National Bank; Einziehungslockerung erfolglos."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-STATE-MERCURIO-19720223", "SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-02-23"}
+
+  - id: REL-CL-BCCH-FWNB-MERCURIO-TRANSFER-CONDITION-1972
+    from: "ORG-CL-BANCO-CENTRAL-1974"
+    to: "ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972"
+    type: "documented_debt_transfer_condition_reported_by_cia"
+    label: "CIA 10.04.1972: Zentralbankzahlung hing an privater US-Bankenumschuldung und Pariser Abkommen; keine erfolgte Überweisung belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-04-10"}
+
+  - id: REL-US-STATE-FWNB-MERCURIO-INTERVENTION-1972
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972"
+    type: "documented_unsuccessful_creditor_intervention"
+    label: "CIA-Vorlage beschreibt erfolglose diplomatische Intervention zur Lockerung der First-Wisconsin-Einziehung."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-04-10"}
+
+  - id: REL-US-SUN-CHEMICAL-EL-MERCURIO-CREDIT-1972
+    from: "ORG-US-SUN-CHEMICAL-1972"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_supplier_credit_relationship"
+    label: "CIA-Akten: US-Lieferkosten ca. 500.000 USD jährlich, Kredit 100.000, Ausweitung auf 300.000 vorgeschlagen, nicht als ausgeführt belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-STATE-MERCURIO-19720223", "SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-04-10"}
+
+  - id: REL-US-CIA-FWNB-MERCURIO-DEBT-PROPOSAL-1972
+    from: "ORG-US-CIA"
+    to: "ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972"
+    type: "documented_covert_support_debt_repayment_proposal"
+    label: "CIA-Vorlage 10.04.1972 sah Ablösung der First-Wisconsin-Forderung vor, u.a. durch Beschaffung chilenischer Escudos am Schwarzmarkt. Keine konkret ausgeführte Zahlung oder bewusste CIA-Kooperation der Bank belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-04-10"}
+
+  - id: REL-US-CIA-SUN-CHEMICAL-MERCURIO-CREDIT-PROPOSAL-1972
+    from: "ORG-US-CIA"
+    to: "ORG-US-SUN-CHEMICAL-1972"
+    type: "documented_covert_support_supplier_credit_proposal"
+    label: "CIA 10.04.1972: vorgeschlagene Absicherung zur Ausweitung Lieferantenkredit 100.000 auf 300.000 USD; keine ausgeführte Garantie belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+    period: {"start": "1972-04-10"}
+
+  - id: REL-US-40-COMMITTEE-EL-MERCURIO-SUPPORT-APPROVAL-1972
+    from: "ORG-US-40-COMMITTEE-1972"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_covert_support_authorization"
+    label: "965.000 USD Zusatzhilfe gebilligt, einschließlich Schuldendienst und Lieferkredit. Editionsanmerkung Dok108: 11.04.1972; CIA-Rückblick Dok145: 12.04.1972. Keine weitere Auszahlung oder Einzelbankzahlung."
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972", "SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410", "SRC-US-FRUS-CIA-CHILE-19730916"]
+    period: {"start": "1972"}
+
+  - id: REL-US-CITIGROUP-CITIBANK-INDIRECT-OWNERSHIP-2004
+    from: "ORG-US-CITIGROUP-2004"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "documented_indirect_corporate_ownership"
+    label: "SEC-Prospekt 2004: Citibank, N.A. vollständig im Eigentum von Citicorp, dieses indirekte 100%-Tochter von Citigroup; Bankname seit 01.03.1976. Nicht gleichbedeutend mit identischer Rechtsperson."
+    period: {"start": "2004"}
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-FNCB-CITIBANK-NAME-1976", "SRC-US-SEC-CITIBANK-OWNERSHIP-2004"]
+
+  - id: REL-US-CITI-PINOCHET-FAMILY-ACCOUNTS-1981-2004
+    from: "ORG-US-CITIGROUP-2004"
+    to: "PER-CL-AUGUSTO-PINOCHET"
+    type: "documented_historical_banking_relationship"
+    label: "Senatsbericht V.A: 63 US-Konten/CDs 1981–2004 für Pinochet und Familie/verbundene Strukturen; 15 persönliche, 19 Familien-, 29 Offshore-Konten. 1960er-Konto nur Erinnerung, nicht belegt."
+    period: {"start": "1981", "end": "2004"}
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+
+  - id: REL-US-CITI-RIGGS-MERITOR-TRANSFER-1996
+    from: "ORG-US-CITIGROUP-2004"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "documented_interbank_customer_transfer"
+    label: "Senatsbericht V.A dokumentiert am 25.04.1996 403.000 USD von Meritor Investments (Marco Pinochet) über Citi an Pinochet-bezogenes Riggs-Konto. Kein Nachweis OPIC-Herkunft oder Strafbarkeit aller Beteiligten."
+    period: {"start": "1996-04-25"}
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+
+  - id: REL-US-RIGGS-PINOCHET-FOUNDATION-DONATION-1997
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION"
+    type: "documented_foundation_donation"
+    label: "Riggs spendete 1997 laut Senat 5.000 USD auf Anfrage General Izurietas; Dankschreiben 22.04.1997. Keine nachgewiesene Gegenleistung."
+    period: {"start": "1997"}
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+
+  - id: REL-US-RIGGS-DOJ-BSA-GUILTY-PLEA-2005
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-US-DOJ"
+    type: "documented_criminal_guilty_plea"
+    label: "DOJ 27.01.2005: Riggs bekannte sich schuldig wegen systematischer strafbarer Nichtmeldung verdächtiger Transaktionen bei Pinochet-/Äquatorialguinea-Konten; 16 Mio. USD vereinbarte Geldstrafe. Keine Rückprojektion auf 1974."
+    period: {"start": "2005-01-27"}
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-RIGGS-PLEA-2005"]
+
+  - id: REL-US-OPIC-KENNECOTT-CREDIT-COVER-1971-1972
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-KENNECOTT-COPPER-CORP-1971"
+    type: "documented_political_risk_debt_insurance"
+    label: "FRUS 29.09.1971 und Anlage 12.01.1972: 85 Mio. USD OPIC-Deckung bei Kennecott, 88 Mio. Kreditforderung umstritten; Deckung keine Auszahlung."
+    period: {"start": "1971", "end": "1972"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-KENNECOTT-COPPER-19710929", "SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+
+  - id: REL-US-OPIC-KENNECOTT-GUARANTEE-REGISTER-FY1973
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-KENNECOTT-COPPER-CORP-1971"
+    type: "official_claim_guarantee_and_subsequent_draws"
+    label: "DFC FY73 Braden Copper/Kennecott: 66.908.494 USD Vergleich/Garantie, 38.709.753 USD später Cash unter Garantie laut Fn.1; nicht addieren, Abrufdatum/Policenidentität offen. CRS 1973 ca.67 Mio. Garantie."
+    period: {"start": "1973"}
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022", "SRC-US-HOUSE-CRS-OPIC-CHILE-1973"]
+
+  - id: REL-US-OPIC-BETHLEHEM-GUARANTEE-REGISTER-FY1972
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-BETHLEHEM-STEEL-1971"
+    type: "official_claim_guarantee_and_subsequent_draws"
+    label: "DFC FY72 Bethlehem: 17.365.721 USD Vergleich/Garantie, 3.076.820 USD später Cash unter Garantie laut Fn.1; nicht addieren, nicht identisch mit 1971 geplanter Mindestdeckung bewiesen."
+    period: {"start": "1972"}
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022", "SRC-US-HOUSE-CRS-OPIC-CHILE-1973"]
+
+  - id: REL-US-OPIC-BOFA-CLAIM-DENIAL-19730326
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-BANK-OF-AMERICA-1974"
+    type: "official_disputed_insurance_claim_denial"
+    label: "DFC Denial Table: Bank of America Chile Typ A, Anspruch 2.913.021 USD, abgelehnt 26.03.1973. Keine Schiedszahlung in Zeile ausgewiesen; keine Identität mit anderen BoA-Policen."
+    period: {"start": "1973-03-26"}
+    evidence_level: "established"
+    sources: ["SRC-US-DFC-INSURANCE-CLAIMS-2022"]
+
+  - id: REL-US-VOLCKER-OPIC-BOARD-1971
+    from: "PER-US-PAUL-VOLCKER"
+    to: "ORG-US-OPIC-1971"
+    type: "documented_board_membership"
+    label: "GAO FY1971 Appendix I/II: Paul Volcker seit 19.01.1971 OPIC-Boardmitglied, gleichzeitig Under Secretary of Treasury for Monetary Affairs. Kein Nachweis individueller Chile-Fallweisung."
+    period: {"start": "1971-01-19"}
+    evidence_level: "established"
+    sources: ["SRC-US-GAO-OPIC-AUDIT-FY1971-1972"]
+
+  - id: REL-US-VOLCKER-TREASURY-MONETARY-AFFAIRS-1971
+    from: "PER-US-PAUL-VOLCKER"
+    to: "ORG-US-TREASURY"
+    type: "documented_government_office"
+    label: "GAO FY1971 Appendix II nennt Paul Volcker als Under Secretary of Treasury for Monetary Affairs (Stand 30.06.1971) und OPIC-Boardmitglied."
+    period: {"start": "1971-06-30"}
+    evidence_level: "established"
+    sources: ["SRC-US-GAO-OPIC-AUDIT-FY1971-1972"]
+
+  - id: REL-US-CIA-EL-MERCURIO-BLACK-MARKET-PROPOSAL-1972
+    from: "ORG-US-CIA"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_covert_funding_proposal"
+    label: "CIA Dok108, 10.04.1972: Beschaffung chilenischer Escudos am Schwarzmarkt zur Tilgung der First-Wisconsin-Schuld vorgesehen; Decktransaktionen diskutiert. Keine Ausführung oder strafgerichtliche Bewertung belegt."
+    period: {"start": "1972-04-10"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+
+  - id: REL-CL-EL-MERCURIO-FWNB-DEPOSIT-REPRESENTATION-1972
+    from: "ORG-CL-EL-MERCURIO-1971"
+    to: "ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972"
+    type: "documented_intelligence_report_of_misleading_representation"
+    label: "CIA Dok108 berichtet, El Mercurio habe bei First Wisconsin den Eindruck einer erfolgten Hinterlegung bei der Zentralbank erweckt, obwohl Mittel fehlten; CIA-Bericht, kein eigenständiges Bank-/Gerichtsdokument."
+    period: {"start": "1972-04-10"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-MERCURIO-1972"]
+
+  - id: REL-US-STATE-EL-MERCURIO-PRESS-FREEDOM-STRATEGY-1972
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-CL-EL-MERCURIO-1971"
+    type: "documented_discussion_of_political_media_strategy"
+    label: "CIA/State 23.02.1972 diskutierten politische Instrumentalisierung einer möglichen Zeitungseinstellung; NSC 10.04.1972 erwog Pressefreiheitsthema. Keine ausgeführte Schließungsinszenierung belegt."
+    period: {"start": "1972-02-23"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CIA-STATE-MERCURIO-19720223", "SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410"]
+
+  - id: REL-US-KORRY-ALLENDE-ECONOMIC-PRESSURE-PROPOSALS-1970
+    from: "PER-US-EDWARD-KORRY"
+    to: "ORG-CL-ALLENDE-GOVERNMENT-1972"
+    type: "documented_economic_destabilization_proposals"
+    label: "Korry 25.09.1970, Abs.8–14: Kreditbeschränkung, wirtschaftliche Negativpublizistik über Geschäftsleute ohne sichtbare USG, Unternehmensschließung und wirtschaftliche Druckoptionen erwogen; Umsetzung nicht belegt."
+    period: {"start": "1970-09-25"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-KORRY-CREDIT-19700925"]
+
+  - id: REL-US-STATE-CHILE-DEBT-RESTRICTION-POLICY-1972
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-CL-ALLENDE-GOVERNMENT-1972"
+    type: "documented_interagency_debt_negotiation_objective"
+    label: "Anlage 12.01.1972: US-Planung wollte Schuldenerleichterungen politisch begrenzen und Gläubiger schützen, harte Bedingungen, ggf. verzögerte Unterschrift bei zunehmender innerer Unzufriedenheit. Keine pauschale tatsächliche Kreditverweigerung abgeleitet."
+    period: {"start": "1972-01-12"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+
+  - id: REL-US-STATE-CHILE-MILITARY-CREDIT-POSITION-1972
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-CL-ARMED-FORCES-HISTORICAL"
+    type: "documented_political_credit_policy_position"
+    label: "Anlage 12.01.1972 S.499: State/Defense befürworteten Fortführung noch nicht ausgezahlter 8 Mio. USD Militärkredite im rechtlich möglichen Umfang wegen oppositionellen Potenzials der Streitkräfte; keine neue Auszahlung."
+    period: {"start": "1972-01-12"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+
+  - id: REL-US-DOD-CHILE-MILITARY-CREDIT-POSITION-1972
+    from: "ORG-US-DOD"
+    to: "ORG-CL-ARMED-FORCES-HISTORICAL"
+    type: "documented_political_credit_policy_position"
+    label: "Anlage 12.01.1972 S.499/511ff: Defense befürwortete mit State Erhalt des FMS-Kreditprogramms für Chile aus politischer Erwägung; 8 Mio. USD ausstehende Auszahlung, keine zusätzliche Summe."
+    period: {"start": "1972-01-12"}
+    evidence_level: "established"
+    sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+
   - id: REL-WS-IC-STATE
     from: "ORG-US-IC-1990S"
     to: "ORG-US-STATE-DEPARTMENT"
@@ -4382,3 +4814,219 @@ relations:
     evidence_level: "established"
     sources: ["SRC-WS-BR-STJ-719548"]
     period: {"start": "2008-04-03", "end": "2008-04-03"}
+
+  - id: REL-WS-BB-CAYMAN
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "bank_branch"
+    label: "Grand-Cayman-Niederlassung des vertraglichen SIVAM-Finanzierers Banco do Brasil"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997", "end": "2005"}
+
+  - id: REL-WS-EXIM-CAYMAN-DIRECT-CONTRACT
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_financing_contract"
+    label: "Vertrag AP067303XX, direktes EXIM-Limit USD1.288.255.370, laut TCU1249/2005; kein Einzelabrufnachweis"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-EXIM-CAYMAN-GUARANTEE
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_guaranteed_financing"
+    label: "EXIM-garantierte Linie AP067902XX, Limit USD105.046.668,50; Garantie nicht mit direkter Auszahlung gleichgesetzt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-R93-1994", "SRC-WS-BR-R93-RET-1995"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-ABN-BB
+    from: "ORG-NL-ABN-AMRO-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "bank_refinancing"
+    label: "1997 als einer von drei Kreditgebern genannt, durch endgültigen Prospekt bestätigt; exakte einzelne Tranche nicht dokumentiert"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "1997", "end": "2006"}
+
+  - id: REL-WS-SEK-CAYMAN
+    from: "ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_financing_contract"
+    label: "TCU1249/2005: unterzeichneter SEK-Finanzierungsvertrag mit BB Grand Cayman, Limit USD91.025.000"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-BB-BRAZIL-CREDIT
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "sovereign_onlending"
+    label: "Drei Gegenverträge mit der Union; USD1.484.327.038,50 Vertragsvolumen und 1,5 Prozentpunkte jährliche Zinsvergütung laut BCB"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997", "end": "1997"}
+
+  - id: REL-WS-BB-BRAZIL-DISBURSED
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "reported_disbursement"
+    label: "Endgültiger Prospekt: ca. USD1,3 Mrd. kumulativ ausgezahlt bis 31.03.2006; keine Empfänger-Einzelabrechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2006-03-31", "end": "2006-03-31"}
+
+  - id: REL-WS-BRAZIL-BB-OWNERSHIP
+    from: "ORG-BR-UNION-SIVAM"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "state_shareholding"
+    label: "72,1% des stimmberechtigten und gesamten Kapitals am 31.03.2006 laut endgültigem Prospekt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2006-03-31", "end": "2006-03-31"}
+
+  - id: REL-WS-BCB-CMN-RISK
+    from: "ORG-BR-BCB"
+    to: "ORG-BR-CMN"
+    type: "regulatory_submission"
+    label: "Voto305/97 / CMN129/97 empfiehlt 0 statt 100% Risikogewicht für strategische SIVAM-Kredite"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997-08-13", "end": "1997-08-13"}
+
+  - id: REL-WS-CMN-BB-RISK
+    from: "ORG-BR-CMN"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "prudential_exemption"
+    label: "CMN genehmigt 28.08.1997 Risikogewicht 0% für SIVAM; BCB444/97 bestätigt Eigenkapitalentlastung, keine tatsächliche Risikolosigkeit"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BCB444-1997"]
+    period: {"start": "1997-08-28", "end": "1997-08-28"}
+
+  - id: REL-WS-RAYTHEON-BRAZIL-RCF
+    from: "ORG-US-RAYTHEON-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "documented_supplier_credit"
+    label: "Raytheon Credit Facility mit Limit USD239,2 Mio. laut TCU1249/2005; tatsächlicher Einzelabruf offen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-R97-1994"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-VENDOR-BRAZIL
+    from: "ORG-INT-SIVAM-VENDOR-TRUST-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_vendor_credit"
+    label: "Resolution95/1994: SIVAM Vendor Trust, USD48 Mio. genehmigt; TCU2005 nennt Vendor Credit Facility mit gleichem Limit, genaue Urkunde fehlt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R95-1994", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-SENATE-CONDITIONS-1996
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "PRG-BR-SIVAM"
+    type: "legislative_financing_revision"
+    label: "Res.37/1996 hebt Art.3/4 der fünf ursprünglichen Kreditresolutionen auf, Fristen +270 Tage und neue Schutz-/Ausschreibungsbedingungen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-RES37-1996", "SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1996-05-23", "end": "1996-05-23"}
+
+  - id: REL-WS-EMBRAER-CONTRACT
+    from: "ORG-BR-EMBRAER-SIVAM"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "reported_contract_party"
+    label: "TCU1249/2005 nennt Vertrag 01/95 mit CCSIVAM/Raytheon/ATECH/Embraer; späterer Stand, kein ursprünglicher Vertragsschluss 1995 behauptet"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-ATECH-CONTRACT
+    from: "ORG-BR-ATECH-FOUNDATION"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "reported_contract_party"
+    label: "TCU1249/2005 nennt ATECH in späterer Vertragsbezeichnung 01/95; ursprüngliche und geänderte Fassung getrennt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-STJ-719548"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-TCU-CMO-DEFAULT
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-CMO"
+    type: "ordered_budget_warning"
+    label: "TCU ordnet Warnung vor möglicher vorzeitiger Fälligkeit von rund USD1,5 Mrd. bei Nichtzahlung an; kein Nachweis eingetretener Fälligstellung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-TCU-CONTRACT-DEFAULT
+    from: "ORG-BR-TCU"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contractual_default_review"
+    label: "TCU dokumentiert Klausel24.1.18 und verknüpfte Default-Klauseln der fünf Finanzierungen, bei qualifiziertem Zahlungsverzug mögliche Kündigung/Fälligstellung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-BRAZIL-SIVAM-BUDGET-2005
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "supplementary_budget_authorization"
+    label: "Lei11.199 vom 24.11.2005: R$70 Mio. Zusatzbewilligung; keine Zahlungsabrechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-LEI11199-2005", "SRC-WS-BR-PLN34-2005", "SRC-WS-BR-SENATE-2005-REPORT"]
+    period: {"start": "2005-11-24", "end": "2005-11-24"}
+
+  - id: REL-WS-BRAZIL-ESCA-PAYMENT
+    from: "ORG-BR-UNION-SIVAM"
+    to: "ORG-BR-ESCA"
+    type: "reported_service_payment"
+    label: "CPI2002 S.126 gibt TCU-Prüfung wieder: R$2 Mio. an ESCA 1994–95 für Beratung/Engineering zur Integrationslogik; keine Bestechungsfeststellung"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-CPI-2002"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-ESCA-ADVISER
+    from: "ORG-BR-ESCA"
+    to: "PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS"
+    type: "reported_legal_services_compensation"
+    label: "TCU48/2001 erörtert ESCA-Vergütung des Rechtsberaters auf Anregung des Ministeriums; spätere Mehrheit sah Schaden/Bereicherung/bösen Glauben nicht nachgewiesen"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-TCU48-2001"]
+    period: {"start": "2001-03-28", "end": "2001-03-28"}
+
+  - id: REL-WS-ADVISER-CISCEA
+    from: "PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS"
+    to: "ORG-BR-CISCEA"
+    type: "reported_legal_advisory_role"
+    label: "TCU48/2001 dokumentiert längerfristige juristische Tätigkeit für Luftwaffe/CISCEA neben ESCA-Vergütung; zeitliche Aussage auf Prüfakte beschränkt"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-TCU48-2001"]
+    period: {"start": "2001", "end": "2001"}
+
+  - id: REL-WS-TCU-ESCA-INTEREST
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-ESCA"
+    type: "reported_conflict_of_interest_review"
+    label: "Technische Prüfung zu Auswahlsitzung 13.09.1993: sechs von neun Beteiligten mit ESCA-Verbindungen; Mehrheit hob 2001 die Ziffern a–c von 87/96 auf; keine strafrechtliche Entscheidung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU48-2001", "SRC-WS-BR-TCU87-1996"]
+    period: {"start": "1996", "end": "2001"}
+
+  - id: REL-WS-TCU-ESCA-ACCOUNTING
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-ESCA"
+    type: "historical_audit_action"
+    label: "TCU110/96 bezog ESCA in besondere Rechnungsprüfung ein; TCU48/2001 hob 87/96 a–c später auf, kein Strafurteil"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU110-1996", "SRC-WS-BR-TCU87-1996", "SRC-WS-BR-TCU48-2001"]
+    period: {"start": "1996-07-24", "end": "1996-07-24"}
+
+  - id: REL-WS-TCU-CONTRACT-PRICE
+    from: "ORG-BR-TCU"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "procurement_price_review"
+    label: "TCU82/97: umverteilte Teilkosten USD28.475.782, Bezifferung nicht verifiziert; Konsortienüberschneidung im abweichenden Prüfbeitrag, keine bewiesene Absprache"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU82-1997", "SRC-WS-BR-CPI-2002"]
+    period: {"start": "1997-03-12", "end": "1997-03-12"}
