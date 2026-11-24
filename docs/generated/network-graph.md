@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**427 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**433 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -777,7 +777,7 @@ flowchart LR
     N_ORG_DE_DRPR["Deutscher Rat für Public Relations"]
     N_ORG_DE_DRPR -->|"Ermahnung wegen unverhältnismäßiger Pressereisen; ausdrücklich keine formelle Rüge"| N_ORG_DE_THYSSENKRUPP
     N_PER_DE_JUERGEN_CLAASSEN["Jürgen Claassen"]
-    N_PER_DE_JUERGEN_CLAASSEN -->|"Vorstandsverantwortung im Untersuchungszeitraum; Ausscheiden 31.12.2012"| N_ORG_DE_THYSSENKRUPP
+    N_PER_DE_JUERGEN_CLAASSEN -->|"Vorstandsmitglied 21.01.2011–31.12.2012; Geschäftsbericht 2011/12 nennt Recht, Compliance, Kommunikation und Politik im selben Ressort"| N_ORG_DE_THYSSENKRUPP
     N_PER_DE_ALEXANDER_WILKE["Alexander Wilke"]
     N_PER_DE_ALEXANDER_WILKE -->|"Kommunikationsverantwortung und Aufarbeitung gegenüber DRPR"| N_ORG_DE_THYSSENKRUPP
     N_ORG_DE_PARK_AVENUE["Park Avenue (Gruner + Jahr)"]
@@ -803,6 +803,17 @@ flowchart LR
     N_ORG_US_OPIC_1971 -->|"GAO ID-77-24: private Unternehmen in OIIG traten seit 01.01.1975 als Mitversicherer neu ausgestellter OPIC-Policen und als Rückversicherer älterer Verträge auf; keine konkrete Chile-Payout-Zuordnung."| N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975
     N_ORG_GB_LLOYDS_LONDON_1976["Lloyd's of London (OPIC-Rückversicherung 1976)"]
     N_ORG_US_OPIC_1971 -->|"US-GAO ID-77-24 Druckseite 8: OPIC unterhielt 1976 eigenen Rückversicherungsvertrag mit Lloyd's of London, getrennt von OIIG; keine bewiesene Zahlung an Anaconda, ITT oder BoFA."| N_ORG_GB_LLOYDS_LONDON_1976
+    N_ORG_DE_THYSSENKRUPP -->|"Geschäftsbericht 2012/13 weist vertraglichen Ausgleich von 3.754.000 EUR aus; keine nachgewiesene unzulässige Gegenleistung"| N_PER_DE_JUERGEN_CLAASSEN
+    N_ORG_DE_KPMG_AG["KPMG AG Wirtschaftsprüfungsgesellschaft"]
+    N_ORG_DE_THYSSENKRUPP -->|"Vorstandsauftrag zur CMS-Prüfung 2011; Wirksamkeitszeitraum April–September, begrenzter Prüfungsumfang"| N_ORG_DE_KPMG_AG
+    N_ORG_DE_BDO_AG["BDO AG Wirtschaftsprüfungsgesellschaft"]
+    N_ORG_DE_THYSSENKRUPP -->|"Freiwillige Sonderprüfung 2013: Weiterentwicklung des internen Kontrollsystems, Prüfungsgegenstand 1"| N_ORG_DE_BDO_AG
+    N_PER_DE_HANS_JOACHIM_BOECKING["Hans-Joachim Böcking"]
+    N_ORG_DE_THYSSENKRUPP -->|"Freiwillige Sonderprüfung 2013: KPMG-Empfehlungen, Investitionscontrolling und Informationswege, Prüfungsgegenstände 2–4"| N_PER_DE_HANS_JOACHIM_BOECKING
+    N_ORG_DE_DSW["Deutsche Schutzvereinigung für Wertpapierbesitz e.V."]
+    N_ORG_DE_THYSSENKRUPP -->|"Vereinbarung zur freiwilligen Sonderprüfung vom 16.07.2013, nach zuvor abgelehntem Antrag laut Unternehmen"| N_ORG_DE_DSW
+    N_PER_DE_CHRISTIAN_STRENGER["Christian Strenger"]
+    N_ORG_DE_THYSSENKRUPP -->|"Aktionär als Mitvereinbarungspartner der freiwilligen Sonderprüfung vom 16.07.2013"| N_PER_DE_CHRISTIAN_STRENGER
 ```
 
 [Zur Relationstabelle](network.md)

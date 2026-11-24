@@ -654,7 +654,7 @@ studies:
       - REL-IT-RIZZOLI-CORRIERE-1977-001
 
   thyssenkrupp-pressereisen-medien-2010-2015.md:
-    sha256: 128e55f1c57acd686f0502f3d1263d62366036dbf24e50f920d2cf8a204563e6
+    sha256: eb73bdf520630a20c773a4d9496c091d36acd4e59337ab8ec9a595a20b4f7d18
     status: network
     relation_ids:
       - REL-ULF-TK-TRIP-0
@@ -665,6 +665,12 @@ studies:
       - REL-ULF-TK-DRPR
       - REL-ULF-TK-CLAASSEN
       - REL-ULF-TK-WILKE
+      - REL-ULF-TK-CLAASSEN-SEVERANCE
+      - REL-ULF-TK-KPMG-CMS-AUDIT
+      - REL-ULF-TK-BDO-SPECIAL-AUDIT
+      - REL-ULF-TK-BOECKING-SPECIAL-AUDIT
+      - REL-ULF-TK-DSW-AUDIT-AGREEMENT
+      - REL-ULF-TK-STRENGER-AUDIT-AGREEMENT
   jeffrey-sachs-opic-anaconda-bank-of-america-garantien-1971-1978.md:
     sha256: 0cb1b426874ea6a04880950e45f1ed95019ae0098399fb4e9d96b7a00697cc42
     status: network
