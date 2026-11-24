@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**427 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**437 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -803,6 +803,20 @@ flowchart LR
     N_ORG_US_OPIC_1971 -->|"GAO ID-77-24: private Unternehmen in OIIG traten seit 01.01.1975 als Mitversicherer neu ausgestellter OPIC-Policen und als Rückversicherer älterer Verträge auf; keine konkrete Chile-Payout-Zuordnung."| N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975
     N_ORG_GB_LLOYDS_LONDON_1976["Lloyd's of London (OPIC-Rückversicherung 1976)"]
     N_ORG_US_OPIC_1971 -->|"US-GAO ID-77-24 Druckseite 8: OPIC unterhielt 1976 eigenen Rückversicherungsvertrag mit Lloyd's of London, getrennt von OIIG; keine bewiesene Zahlung an Anaconda, ITT oder BoFA."| N_ORG_GB_LLOYDS_LONDON_1976
+    N_ORG_US_FEDERAL_FINANCING_BANK_1973["Federal Financing Bank (FFB)"]
+    N_ORG_US_OPIC_1971 -->|"FY1977 ca. 36 Mio. USD Zahlungen auf direkte Schadenverbindlichkeiten über Verkauf chilenischer Schuldverschreibungen mit Rückgriff finanziert; keine Zuordnung zu einzelnen Konzernfällen."| N_ORG_US_FEDERAL_FINANCING_BANK_1973
+    N_ORG_US_TREASURY -->|"Treasury beaufsichtigte die staatseigene FFB und finanzierte sie nach anfänglicher öffentlicher Finanzierung über Treasury-Kredite; Jahresbericht FY1977 S. 33–35."| N_ORG_US_FEDERAL_FINANCING_BANK_1973
+    N_ORG_US_OPIC_1971 -->|"Chile-bezogene OPIC-Eventualgarantien zum 30.09.1977 190,778 Mio. USD und zum 30.09.1978 166,624 Mio. USD; Bestände, keine addierbaren Zahlungen."| N_ORG_CL_MILITARY_JUNTA_1973
+    N_ORG_CL_MILITARY_JUNTA_1973 -->|"Forderungen OPIC gegen Chile: 1977 Kapital 130,349 Mio./Zinsen 41,716 Mio.; 1978 Kapital 74,836 Mio./Zinsen 24,197 Mio. USD. Bis Berichtszeitpunkt fällige neu vereinbarte Raten geleistet; keine vollständige Tilgung belegt."| N_ORG_US_OPIC_1971
+    N_ORG_GB_LLOYDS_LONDON_1976 -->|"GAO-Aussage 08.09.1977: Lloyd's 12,5 % am Gruppenportfolio, OPIC 74,5 %, übrige private Beteiligung 13 %; individuelle Chile-Policenzuordnung offen."| N_ORG_INT_OVERSEAS_INVESTMENT_INSURANCE_GROUP_1975
+    N_ORG_CL_CAP_STEEL_1971["Compañía de Acero del Pacífico (CAP, 1971)"]
+    N_ORG_US_BETHLEHEM_STEEL_1971["Bethlehem Steel (Chile-Eisenerzinteressen 1971)"]
+    N_ORG_CL_CAP_STEEL_1971 -->|"FRUS 30.03.1971: Vereinbarung über Übernahme chilenischer Eisenerzinteressen, erwartete Entschädigung 20–23 Mio. USD abhängig von Bewertung, 15 Jahresraten ab Juni 1973 zu 5¾ %."| N_ORG_US_BETHLEHEM_STEEL_1971
+    N_ORG_US_OPIC_1971 -->|"OPIC garantierte Bethlehem laut FRUS 30.03.1971 mindestens 18 Mio. USD bei Nichterfüllung durch CAP; kein nachgewiesener Garantieabruf."| N_ORG_US_BETHLEHEM_STEEL_1971
+    N_ORG_US_OPIC_1971 -->|"OPIC bat Juli 1975 um Neuverhandlung der Chile-Investitionsgarantieregeln; State Department stimmte Verhandlungen zu, Unterzeichnungsfreigabe separat. Kein belegter Vertragsschluss 1975/76."| N_ORG_US_STATE_DEPARTMENT
+    N_PER_US_C_FRED_BERGSTEN["C. Fred Bergsten"]
+    N_PER_US_C_FRED_BERGSTEN -->|"GAO ID-78-36 Appendix II: C. Fred Bergsten ab 24.05.1977 OPIC-Boardmitglied; kein Nachweis individueller Anordnung der FFB-Transaktion."| N_ORG_US_OPIC_1971
+    N_PER_US_C_FRED_BERGSTEN -->|"Assistant Secretary of the Treasury for International Affairs im Jahr 1977, gleichzeitig OPIC-Boardmitglied ab 24.05.; Kongressaussage zur Teilprivatisierung 27.07.1977."| N_ORG_US_TREASURY
 ```
 
 [Zur Relationstabelle](network.md)

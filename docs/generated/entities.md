@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**365 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**369 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -17,6 +17,7 @@
 | Berge Aris Balanian | person | `PER-INT-BERGE-BALANIAN` | DE, LB | [2](network.md#rel-ulf-balanian-contact) |
 | Bernd Schmidbauer | person | `PER-DE-BERND-SCHMIDBAUER` | DE | [1](network.md#rel-ulf-fallahian-schmidbauer) |
 | Bruno Tassan Din | person | `PER-IT-BRUNO-TASSAN-DIN` | IT | [3](network.md#rel-it-rizzoli-tassandin-1980-001) |
+| C. Fred Bergsten | person | `PER-US-C-FRED-BERGSTEN` | US | [2](network.md#rel-us-bergsten-opic-board-1977) |
 | Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
@@ -163,6 +164,7 @@
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
+| Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [2](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
@@ -188,13 +190,14 @@
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [14](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Chile Copper Company (Anaconda-Tochter, 1972) | historical_mining_company_subsidiary | `ORG-CL-CHILE-COPPER-ANACONDA-1972` | US, CL | [1](network.md#rel-us-anaconda-chile-copper-subsidiary-1972) |
-| Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [8](network.md#rel-us-cia-chile-junta-propaganda-1973) |
+| Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [10](network.md#rel-us-cia-chile-junta-propaganda-1973) |
 | Christian K. (anonymisierte Quelle Brandenburg, 2001) | informant_anonymized | `PER-DE-CHRISTIAN-K-2001` | DE | [2](network.md#rel-de-bb-nabe-2001-001) |
 | Christlich Demokratische Union Deutschlands (CDU, 1991) | historical_political_party | `ORG-DE-CDU-1991` | DE | [1](network.md#rel-de-ab-kiep-cdu-donation-1991-001) |
 | CIA Track II: Chile 1970 | historical_covert_operation | `PRG-CL-CIA-TRACK-II-1970` | US, CL | [1](network.md#rel-us-cia-track-ii-chile-1970) |
 | CIA-gesteuerte Radiostruktur SHERWOOD (Guatemala 1954) | historical_covert_media_program | `PRG-GT-CIA-SHERWOOD-1954` | US, GT | [2](network.md#rel-us-cia-gt-sherwood-media-1954) |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
+| Compañía de Acero del Pacífico (CAP, 1971) | historical_industrial_corporation | `ORG-CL-CAP-STEEL-1971` | CL | [1](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
 | Corriere della Sera (italienische Zeitung, 1980) | historical_newspaper | `ORG-IT-CORRIERE-DELLA-SERA-1980` | IT | [2](network.md#rel-it-rizzoli-corriere-1977-001) |
 | Credit and Commerce American Holdings N.V. (CCAH) | bank_holding_company | `ORG-AN-CCAH` | AN, US | [2](network.md#rel-int-bcci-001) |
@@ -230,6 +233,7 @@
 | Europäische Zentralbank (EZB) | central_bank | `ORG-EU-ECB-2023` | DE | [3](network.md#rel-eu-warburg-ecb-indirect-2023-001) |
 | Export–Import Bank of the United States (Chile, 1974) | historical_federal_export_credit_agency | `ORG-US-EXIMBANK-1974` | US | [1](network.md#rel-cl-chile-us-exim-debt-payment-1974) |
 | Familie Max Warburg Vermögensverwaltung KG (FMWV) | family_asset_holding | `ORG-DE-WARBURG-FMWV-2013` | DE | [1](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
+| Federal Financing Bank (FFB) | government_financing_institution | `ORG-US-FEDERAL-FINANCING-BANK-1973` | US | [2](network.md#rel-us-opic-ffb-recourse-1977) |
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [2](network.md#rel-int-bcci-005) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
@@ -263,7 +267,7 @@
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
-| Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [1](network.md#rel-us-opic-lloyds-reinsurance-1976) |
+| Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
 | Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [9](network.md#rel-de-cumex-001) |
 | M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023) | financial_holding | `ORG-DE-WARBURG-GRUPPE-2023` | DE | [3](network.md#rel-de-warburg-mwb1-gruppe-2023-001) |
@@ -289,8 +293,8 @@
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
-| Overseas Investment Insurance Group (OPIC-Mitversicherer 1975) | historical_private_insurance_group | `ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975` | US | [1](network.md#rel-us-opic-oiig-coinsurance-1975) |
-| Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [17](network.md#rel-us-aid-opic-insurance-transfer-1971) |
+| Overseas Investment Insurance Group (OPIC-Mitversicherer 1975) | historical_private_insurance_group | `ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975` | US | [2](network.md#rel-us-opic-oiig-coinsurance-1975) |
+| Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [23](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
@@ -343,13 +347,13 @@
 | U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [3](network.md#rel-int-bcci-006) |
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of State (1954) | historical_federal_executive_department | `ORG-US-STATE-DEPARTMENT-1954` | US | [1](network.md#rel-us-ufco-state-doj-lobby-1954) |
-| U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [1](network.md#rel-int-bcci-003) |
+| U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [3](network.md#rel-int-bcci-003) |
 | U.S. District Court for the District of Columbia (Anaconda-Urteil 1976) | federal_judicial_court_historical | `ORG-US-DISTRICT-COURT-DC-1976` | US | [1](network.md#rel-us-dc-court-opic-anaconda-vacatur-1976) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [8](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
-| US Department of State | government_agency | `ORG-US-STATE-DEPARTMENT` | US | [3](network.md#rel-ulf-balanian-sanction) |
+| US Department of State | government_agency | `ORG-US-STATE-DEPARTMENT` | US | [4](network.md#rel-ulf-balanian-sanction) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
 | US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975) | historical_commercial_bank_cohort | `ORG-US-COMMERCIAL-BANKS-CHILE-1975` | US, CL | [1](network.md#rel-us-commercial-banks-chile-paris-condition-1975) |

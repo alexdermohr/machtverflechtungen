@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**375 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**387 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3706,6 +3706,36 @@ Fundstelle: CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-chile-bethlehem-19710330"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1969–1976, Volume XXI, Document 217](https://history.state.gov/historicaldocuments/frus1969-76v21/d217)**
+
+U.S. Department of State, Office of the Historian · 1971-03-30 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-BETHLEHEM-19710330`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d217)
+
+Fundstelle: S. 600: Bergsten an Kissinger; CAP/Bethlehem-Übernahme und OPIC-Mindestgarantie.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-chile-mills-19710527"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1969–1976, Volume XXI, Document 231](https://history.state.gov/historicaldocuments/frus1969-76v21/d231)**
+
+U.S. Department of State, Office of the Historian · 1971-05-27 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-MILLS-19710527`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d231)
+
+Fundstelle: Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennecott und Anaconda.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-frus-cia-mercurio-1972"></a>
@@ -3763,6 +3793,21 @@ U.S. Department of State; declassified telegram reproduced by WikiLeaks PlusD ·
 [Seite öffnen](https://www.wikileaks.org/plusd/cables/1975STATE069960_b.html)
 
 Fundstelle: US-Forderung zeitnaher formaler Paris-Club-Runde, creditors-alone vorbereitete gemeinsame Position, danach Schuldnerstaat; Bonn/Paris angeschrieben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-treasury-annual-report-fy1977"></a>
+### U.S. Department of the Treasury
+
+**[Annual Report of the Secretary of the Treasury, Fiscal Year 1977](https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext)**
+
+U.S. Department of the Treasury · 1977 · Stufe **A** · Primärquelle · `SRC-US-TREASURY-ANNUAL-REPORT-FY1977`
+
+[Seite öffnen](https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext)
+
+Fundstelle: Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhibit 36 S. 370–372, Bergsten 27.07.1977.
 
 </article>
 
@@ -3838,6 +3883,81 @@ U.S. Embassy Santiago; declassified State Department cable reproduced by WikiLea
 [Seite öffnen](https://www.wikileaks.org/plusd/cables/1975SANTIA02054_b.html)
 
 Fundstelle: Wiedergabe von Raúl Sáez: namentlich nicht benannte US-Geschäftsbanken wollten bis zu Pariser-Club-Übereinkommen keine neuen Kurzfristkredite bereitstellen; keine Bankakten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-gao-opic-coop-19750616"></a>
+### U.S. General Accounting Office
+
+**[Comptroller General decision B-173240](https://www.gao.gov/products/b-173240-20)**
+
+U.S. General Accounting Office · 1975-06-16 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-COOP-19750616`
+
+[Seite öffnen](https://www.gao.gov/products/b-173240-20)
+
+Fundstelle: Konkrete OIIG-Kooperation, Abgrenzung zum Beschaffungsvertrag.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-gao-opic-fasick-19770908"></a>
+### U.S. General Accounting Office
+
+**[GAO testimony on OPIC, J. Kenneth Fasick (103514)](https://www.gao.gov/assets/103514.pdf)**
+
+U.S. General Accounting Office · 1977-09-08 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FASICK-19770908`
+
+[PDF öffnen](https://www.gao.gov/assets/103514.pdf)
+
+Fundstelle: S. 2–4: OPIC 74,5 %, private 25,5 %, Lloyd's 12,5 % Gruppenanteil; Vertragsentwicklung und Privatisierungsanreiz.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-us-gao-opic-fy1977-id7836"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1977 (ID-78-36)](https://www.gao.gov/assets/id-78-36.pdf)**
+
+U.S. General Accounting Office · 1978-06-07 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1977-ID7836`
+
+[PDF öffnen](https://www.gao.gov/assets/id-78-36.pdf)
+
+Fundstelle: Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix II: Bergsten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
+
+<a id="src-us-gao-opic-fy1978-id7921a"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1978 (ID-79-21A)](https://www.gao.gov/assets/id-79-21a.pdf)**
+
+U.S. General Accounting Office · 1979-04-13 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1978-ID7921A`
+
+[PDF öffnen](https://www.gao.gov/assets/id-79-21a.pdf)
+
+Fundstelle: Note 5(A), Note 7, S. 9 und 12: Chile-Garantien 166,624 Mio. USD, Forderungen, Raten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
+
+<a id="src-us-gao-opic-fy1979-id8045"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1979 (ID-80-45)](https://www.gao.gov/assets/id-80-45.pdf)**
+
+U.S. General Accounting Office · 1980-06-05 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1979-ID8045`
+
+[PDF öffnen](https://www.gao.gov/assets/id-80-45.pdf)
+
+Fundstelle: Note 2: Bilanzierungsänderung ab 01.10.1978.
 
 </article>
 
@@ -4171,6 +4291,51 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
+
+<a id="src-un-unts405-us-chile-1960"></a>
+### United Nations Treaty Series
+
+**[UNTS 405, No. 5829: United States–Chile investment guaranty agreement](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf)**
+
+United Nations Treaty Series · 1960-07-29 · Stufe **A** · Primärquelle · `SRC-UN-UNTS405-US-CHILE-1960`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf)
+
+Fundstelle: S. 127–134; Notenwechsel, Inkrafttreten 15.02.1961.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-un-unts2014-us-chile-1983"></a>
+### United Nations Treaty Series
+
+**[UNTS 2014, No. 34603: Investment Incentive Agreement](https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf)**
+
+United Nations Treaty Series · 1983-09-22 · Stufe **A** · Primärquelle · `SRC-UN-UNTS2014-US-CHILE-1983`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf)
+
+Fundstelle: S. 537–541, Art. 1–4, 6, 8–9; Inkrafttreten 14.02.1984.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-un-unts2016-chile-termination-1984"></a>
+### United Nations Treaty Series
+
+**[UNTS 2016, A-5829: termination of agreement of 29 July 1960](https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf)**
+
+United Nations Treaty Series · 1984-02-14 · Stufe **A** · Primärquelle · `SRC-UN-UNTS2016-CHILE-TERMINATION-1984`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf)
+
+Fundstelle: S. 25; registrierte Beendigung wirksam 14.02.1984.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-un-unts967-chile-paris-1972"></a>
@@ -4228,6 +4393,21 @@ United Press International, Referat über BILD/Udo Ulfkotte · 1997-07-13 · Stu
 [Seite öffnen](https://www.upi.com/Archives/1997/07/13/Bild-Glenn-Miller-died-in-bordello/7556868766400/)
 
 Fundstelle: Ulfkotte wird von UPI über BILD eine behauptete US-Geheimaktenentdeckung, Paris-Bordelltod und Vertuschung zugeschrieben; keine Aktennummer
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-us-public-law-95-268-1978"></a>
+### United States Congress
+
+**[Public Law 95-268, 92 Stat. 213](https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf)**
+
+United States Congress · 1978-04-24 · Stufe **A** · Primärquelle · `SRC-US-PUBLIC-LAW-95-268-1978`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf)
+
+Fundstelle: §§ 3, 5–7: Änderung des Versicherungs- und Privatisierungsauftrags, FCPA-Klausel.
 
 </article>
 

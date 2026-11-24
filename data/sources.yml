@@ -4278,3 +4278,135 @@ sources:
   url: https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/
   accessed: "2026-11-23"
   locator: "Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund."
+
+- id: SRC-US-GAO-OPIC-FY1977-ID7836
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1977 (ID-78-36)"
+  institution: "U.S. General Accounting Office"
+  date: "1978-06-07"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-78-36.pdf"
+  accessed: '2026-11-24'
+  locator: "Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix II: Bergsten."
+
+- id: SRC-US-TREASURY-ANNUAL-REPORT-FY1977
+  title: "Annual Report of the Secretary of the Treasury, Fiscal Year 1977"
+  institution: "U.S. Department of the Treasury"
+  date: "1977"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext"
+  accessed: '2026-11-24'
+  locator: "Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhibit 36 S. 370–372, Bergsten 27.07.1977."
+
+- id: SRC-US-GAO-OPIC-FY1978-ID7921A
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1978 (ID-79-21A)"
+  institution: "U.S. General Accounting Office"
+  date: "1979-04-13"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-79-21a.pdf"
+  accessed: '2026-11-24'
+  locator: "Note 5(A), Note 7, S. 9 und 12: Chile-Garantien 166,624 Mio. USD, Forderungen, Raten."
+
+- id: SRC-US-GAO-OPIC-FY1979-ID8045
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1979 (ID-80-45)"
+  institution: "U.S. General Accounting Office"
+  date: "1980-06-05"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-80-45.pdf"
+  accessed: '2026-11-24'
+  locator: "Note 2: Bilanzierungsänderung ab 01.10.1978."
+
+- id: SRC-US-GAO-OPIC-FASICK-19770908
+  title: "GAO testimony on OPIC, J. Kenneth Fasick (103514)"
+  institution: "U.S. General Accounting Office"
+  date: "1977-09-08"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/103514.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 2–4: OPIC 74,5 %, private 25,5 %, Lloyd's 12,5 % Gruppenanteil; Vertragsentwicklung und Privatisierungsanreiz."
+
+- id: SRC-US-GAO-OPIC-COOP-19750616
+  title: "Comptroller General decision B-173240"
+  institution: "U.S. General Accounting Office"
+  date: "1975-06-16"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/products/b-173240-20"
+  accessed: '2026-11-24'
+  locator: "Konkrete OIIG-Kooperation, Abgrenzung zum Beschaffungsvertrag."
+
+- id: SRC-US-PUBLIC-LAW-95-268-1978
+  title: "Public Law 95-268, 92 Stat. 213"
+  institution: "United States Congress"
+  date: "1978-04-24"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf"
+  accessed: '2026-11-24'
+  locator: "§§ 3, 5–7: Änderung des Versicherungs- und Privatisierungsauftrags, FCPA-Klausel."
+
+- id: SRC-US-FRUS-CHILE-BETHLEHEM-19710330
+  title: "FRUS 1969–1976, Volume XXI, Document 217"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-03-30"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d217"
+  accessed: '2026-11-24'
+  locator: "S. 600: Bergsten an Kissinger; CAP/Bethlehem-Übernahme und OPIC-Mindestgarantie."
+
+- id: SRC-US-FRUS-CHILE-MILLS-19710527
+  title: "FRUS 1969–1976, Volume XXI, Document 231"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-05-27"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d231"
+  accessed: '2026-11-24'
+  locator: "Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennecott und Anaconda."
+
+- id: SRC-UN-UNTS405-US-CHILE-1960
+  title: "UNTS 405, No. 5829: United States–Chile investment guaranty agreement"
+  institution: "United Nations Treaty Series"
+  date: "1960-07-29"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 127–134; Notenwechsel, Inkrafttreten 15.02.1961."
+
+- id: SRC-UN-UNTS2014-US-CHILE-1983
+  title: "UNTS 2014, No. 34603: Investment Incentive Agreement"
+  institution: "United Nations Treaty Series"
+  date: "1983-09-22"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 537–541, Art. 1–4, 6, 8–9; Inkrafttreten 14.02.1984."
+
+- id: SRC-UN-UNTS2016-CHILE-TERMINATION-1984
+  title: "UNTS 2016, A-5829: termination of agreement of 29 July 1960"
+  institution: "United Nations Treaty Series"
+  date: "1984-02-14"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 25; registrierte Beendigung wirksam 14.02.1984."
