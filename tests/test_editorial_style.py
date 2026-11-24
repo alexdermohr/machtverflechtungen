@@ -88,6 +88,16 @@ class EditorialStyleTest(unittest.TestCase):
             self.assertIn("what_does_not_follow", meta)
         self.assertGreater(cases, 0)
 
+    def test_network_relevance_is_not_conditioned_on_proven_intervention(self) -> None:
+        method = (ROOT / "METHODOLOGY.md").read_text(encoding="utf-8")
+        self.assertIn("Investigativer Erkenntniswert ist von Evidenzstärke und Relationstyp unabhängig", method)
+        self.assertIn("Sie werden nicht erst bei belegter Weisung", method)
+        media = (DOCS / "faelle/de/medien-nachrichtendienst-crosslayer.md").read_text(encoding="utf-8")
+        self.assertIn("## Ergänzende Verflechtungen und Vergleichsfälle", media)
+        self.assertIn("Personelle Mehrfachrollen, Mitgliedschaften, Eigentum, Finanzierungsbeziehungen", media)
+        self.assertNotIn("personelle Mehrfachrollen gehören nicht in diesen Fall", media)
+        self.assertIn("dieselben fünf historischen Heft-Digitalisate", media)
+
     def test_published_methodology_mirrors_canonical_version(self) -> None:
         self.assertEqual(
             (ROOT / "METHODOLOGY.md").read_text(encoding="utf-8"),
