@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**394 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**414 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -607,6 +607,51 @@ Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-bcch-acta87-1974"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 87, sesión 2455](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)**
+
+Banco Central de Chile · 1974-12-26 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA87-1974`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)
+
+Fundstelle: S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-cl-bcch-dl600-1984"></a>
+### Banco Central de Chile
+
+**[Aspectos relevantes de la inversión extranjera en Chile: DL 600](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)**
+
+Banco Central de Chile · 1984-10 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-DL600-1984`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)
+
+Fundstelle: S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-cl-bcch-acta1648-1985"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 1648](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)**
+
+Banco Central de Chile · 1985-05-15 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA1648-1985`
+
+[PDF öffnen](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)
+
+Fundstelle: Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-int-bis-history-1939-gold"></a>
@@ -844,6 +889,21 @@ Biblioteca del Congreso Nacional de Chile · 1971-07-13 · Stufe **A** · Primä
 [Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)
 
 Fundstelle: S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-dl821-1974"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Decreto Ley 821: convenio de indemnización Exótica](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)**
+
+Biblioteca del Congreso Nacional de Chile · 1974-12-27 · Stufe **A** · Primärquelle · `SRC-CL-DL821-1974`
+
+[Seite öffnen](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)
+
+Fundstelle: Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins.
 
 </article>
 
@@ -1412,6 +1472,21 @@ Christian-Albrechts-Universität zu Kiel / unizeit · 2003-10-18 · Stufe **C** 
 [PDF öffnen](https://www.uni-kiel.de/fileadmin/user_upload/unizeit/pdf/unizeit-18.pdf)
 
 Fundstelle: Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr als 80 Prozent seiner Terrorismus-Erkenntnisse aus BKA und 'vom Nachrichtendienst' erhalten, erklärt Mehrquellenabgleich; Meldung über Annette-Barthelt-Staatsbürgerpreis 6.000 EUR
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-fncb-citibank-name-1976"></a>
+### Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR
+
+**[Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)**
+
+Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR · 2005-04-13 · Stufe **A** · Primärquelle · `SRC-US-SEC-FNCB-CITIBANK-NAME-1976`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)
+
+Fundstelle: Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976.
 
 </article>
 
@@ -3213,6 +3288,21 @@ Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3),
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-sec-citibank-ownership-2004"></a>
+### SEC EDGAR, eingereichter Wertpapierprospekt
+
+**[Form 424B5: Citibank, N.A. corporate ownership (2004)](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)**
+
+SEC EDGAR, eingereichter Wertpapierprospekt · 2004 · Stufe **A** · Primärquelle · `SRC-US-SEC-CITIBANK-OWNERSHIP-2004`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)
+
+Fundstelle: Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-hh-warburg-senat-2020"></a>
@@ -3601,6 +3691,21 @@ Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appen
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-doj-riggs-plea-2005"></a>
+### U.S. Department of Justice
+
+**[Riggs Bank Pleads Guilty to Violating Bank Secrecy Act](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)**
+
+U.S. Department of Justice · 2005-01-27 · Stufe **A** · Primärquelle · `SRC-US-DOJ-RIGGS-PLEA-2005`
+
+[Seite öffnen](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)
+
+Fundstelle: BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-frus-kissinger-chile-paris-itt-19720428"></a>
@@ -3798,6 +3903,21 @@ Fundstelle: McCone: früher CIA-Direktor, 1970 ITT-Board/Executive Committee; 1 
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
 
+<a id="src-us-frus-korry-mercurio-19700916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 97: Korry to Johnson](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)**
+
+U.S. Department of State, Office of the Historian · 1970-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-MERCURIO-19700916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)
+
+Fundstelle: Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
 <a id="src-us-frus-cia-track2-1970"></a>
 ### U.S. Department of State, Office of the Historian
 
@@ -3808,6 +3928,21 @@ U.S. Department of State, Office of the Historian · 1970-09-21 · Stufe **A** �
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d22)
 
 Fundstelle: CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für militärische Lösung vor Allendes Regierungsantritt, Botschafter/Außenministerium auszuschließen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
+<a id="src-us-frus-korry-credit-19700925"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 120: Korry backchannel](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)**
+
+U.S. Department of State, Office of the Historian · 1970-09-25 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-CREDIT-19700925`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)
+
+Fundstelle: Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches.
 
 </article>
 
@@ -3841,6 +3976,51 @@ Fundstelle: Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennec
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-kennecott-copper-19710929"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 261: The Copper Crunch in Chile](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)**
+
+U.S. Department of State, Office of the Historian · 1971-09-29 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KENNECOTT-COPPER-19710929`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)
+
+Fundstelle: NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-chile-debt-banks-19720112"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 95: Chile debt renegotiations](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)**
+
+U.S. Department of State, Office of the Historian · 1972-01-12 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-DEBT-BANKS-19720112`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)
+
+Fundstelle: S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-cia-state-mercurio-19720223"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 290: McAfee to Cline](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)**
+
+U.S. Department of State, Office of the Historian · 1972-02-23 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-STATE-MERCURIO-19720223`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)
+
+Fundstelle: El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-frus-cia-mercurio-1972"></a>
@@ -3852,7 +4032,37 @@ U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** �
 
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108)
 
-Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten.
+Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-40-committee-mercurio-19720410"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 295: Jorden to Kissinger](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)**
+
+U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** · Primärquelle · `SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)
+
+Fundstelle: 965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-frus-cia-chile-19730916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 145: CIA assessment of covert action in Chile](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)**
+
+U.S. Department of State, Office of the Historian · 1973-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-CHILE-19730916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)
+
+Fundstelle: Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04.
 
 </article>
 
@@ -4066,6 +4276,36 @@ Fundstelle: Note 2: Bilanzierungsänderung ab 01.10.1978.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-us-gao-opic-id8340-1983"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (ID-83-40)](https://www.gao.gov/assets/id-83-40.pdf)**
+
+U.S. General Accounting Office · 1983-05-06 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-ID8340-1983`
+
+[PDF öffnen](https://www.gao.gov/assets/id-83-40.pdf)
+
+Fundstelle: Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-us-gao-opic-afmd8525-1985"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (AFMD-85-25)](https://www.gao.gov/assets/afmd-85-25.pdf)**
+
+U.S. General Accounting Office · 1985-03-05 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-AFMD8525-1985`
+
+[PDF öffnen](https://www.gao.gov/assets/afmd-85-25.pdf)
+
+Fundstelle: Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-gao-opic-audit-fy1971-1972"></a>
@@ -4077,7 +4317,7 @@ U.S. General Accounting Office, Comptroller General of the United States · 1972
 
 [PDF öffnen](https://www.gao.gov/assets/b-173240-096568.pdf)
 
-Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit.
+Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury.
 
 </article>
 
@@ -4122,7 +4362,7 @@ U.S. House Committee on Foreign Affairs / Congressional Research Service · 1973
 
 [PDF öffnen](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf)
 
-Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung.
+Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank.
 
 </article>
 
@@ -4141,6 +4381,21 @@ Fundstelle: Druckseiten 45–47: OPIC-Jurist Morgan: einstimmiges Dreier-Schieds
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-us-dfc-insurance-claims-2024"></a>
+### U.S. International Development Finance Corporation
+
+**[Insurance Claims Experience to Date, 30 September 2024](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)**
+
+U.S. International Development Finance Corporation · 2024-09-30 · Stufe **A** · Primärquelle · `SRC-US-DFC-INSURANCE-CLAIMS-2024`
+
+[PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)
+
+Fundstelle: Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dfc-insurance-claims-2022"></a>
@@ -4152,7 +4407,7 @@ U.S. International Development Finance Corporation (DFC; OPIC-Rechtsnachfolgerin
 
 [PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf)
 
-Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD.
+Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973.
 
 </article>
 
@@ -4228,6 +4483,21 @@ U.S. Senate Church Committee / U.S. National Archives · 1975-12-18 · Stufe **A
 [PDF öffnen](https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf)
 
 Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 1970 ITT-Kontakte und $350k, Track II, El Mercurio sowie Postcoup-Medienprojekte. Geschwärztes amtliches Exemplar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-senate-riggs-pinochet-2005"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-PINOCHET-2005`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
+
+Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004.
 
 </article>
 
@@ -4396,6 +4666,21 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-un-a9716-chile-1974"></a>
+### United Nations
+
+**[A/9716: United Nations report on Chile (1974)](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)**
+
+United Nations · 1974 · Stufe **A** · Primärquelle · `SRC-UN-A9716-CHILE-1974`
+
+[PDF öffnen](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)
+
+Fundstelle: Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
 
 <a id="src-un-unts405-us-chile-1960"></a>
@@ -4498,6 +4783,21 @@ United Press International, Referat über BILD/Udo Ulfkotte · 1997-07-13 · Stu
 [Seite öffnen](https://www.upi.com/Archives/1997/07/13/Bild-Glenn-Miller-died-in-bordello/7556868766400/)
 
 Fundstelle: Ulfkotte wird von UPI über BILD eine behauptete US-Geheimaktenentdeckung, Paris-Bordelltod und Vertuschung zugeschrieben; keine Aktennummer
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-congress-opic-anaconda-19720307"></a>
+### United States Congress
+
+**[Congressional Record: OPIC/Anaconda correspondence](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)**
+
+United States Congress · 1972-03-07 · Stufe **A** · Primärquelle · `SRC-US-CONGRESS-OPIC-ANACONDA-19720307`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)
+
+Fundstelle: S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig.
 
 </article>
 
