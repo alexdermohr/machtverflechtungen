@@ -107,6 +107,20 @@ class ResearchPagesTests(unittest.TestCase):
         self.assertIn("[Fallakten nach Themen](../faelle/index.md)", index)
         self.assertEqual(hook.study_group("ein-neues-thema-2099.md"), hook.OTHER_STUDIES[1])
 
+    def test_cross_sector_studies_have_specific_topic_groups(self):
+        examples = {
+            "p2-rizzoli-corriere-ambrosiano-mediensteuerung-1975-1984.md": "geheimbuende-banken",
+            "bcci-cia-treasury-first-american-1972-1998.md": "geheimbuende-banken",
+            "angolagate-sonangol-zts-osos-brenco-bank-justiz-1993-2015.md": "krieg-und-finanzierung",
+            "jeffrey-sachs-cia-chile-itt-el-mercurio-guatemala-1952-1975.md": "krieg-und-finanzierung",
+            "udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md": "medieneinfluss",
+            "ulfkotte-glenn-miller-geheimakten-belegpruefung-1944-1997.md": "quellenkritik",
+            "dutroux-parlament-nihoul-netzwerke-1986-2026.md": "missbrauch-justiz",
+        }
+        for name, expected in examples.items():
+            with self.subTest(study=name):
+                self.assertEqual(hook.study_group(name), expected)
+
     def test_study_footer_leads_back_to_research_and_methodology(self):
         files = self.generated()
         study = next(file for file in files if file.src_uri != "research/index.md")
