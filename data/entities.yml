@@ -2020,6 +2020,36 @@ entities:
     countries: [GB]
     notes: "GAO-Bericht 1977 nennt bestehenden gesonderten Rückversicherungsvertrag mit OPIC. Die dortigen Schadensbeispiele sind hypothetisch; keine individuelle Chile-Auszahlung oder Allianz mit geheimdienstlichen Akteuren hier belegt."
 
+  - id: ORG-DE-KPMG-AG
+    type: "company"
+    name: "KPMG AG Wirtschaftsprüfungsgesellschaft"
+    countries: ["DE"]
+    notes: "Deutsche Gesellschaft; ThyssenKrupp-CMS-Prüfung 2011, keine Aussage über das globale KPMG-Netzwerk."
+
+  - id: ORG-DE-BDO-AG
+    type: "company"
+    name: "BDO AG Wirtschaftsprüfungsgesellschaft"
+    countries: ["DE"]
+    notes: "Freiwillige Sonderprüfung ThyssenKrupp 2013, Prüfungsgegenstand 1; getrennte Verantwortung von Prof. Böcking."
+
+  - id: PER-DE-HANS-JOACHIM-BOECKING
+    type: "person"
+    name: "Hans-Joachim Böcking"
+    countries: ["DE"]
+    notes: "Professor für Wirtschaftsprüfung und Corporate Governance; Sonderprüfung ThyssenKrupp 2013, Prüfungsgegenstände 2 bis 4."
+
+  - id: ORG-DE-DSW
+    type: "organization"
+    name: "Deutsche Schutzvereinigung für Wertpapierbesitz e.V."
+    countries: ["DE"]
+    notes: "Aktionärsinteressenvertretung; Vereinbarung über freiwillige Sonderprüfung vom 16.07.2013."
+
+  - id: PER-DE-CHRISTIAN-STRENGER
+    type: "person"
+    name: "Christian Strenger"
+    countries: ["DE"]
+    notes: "In der Sonderprüfungsakte als Aktionär und Vereinbarungspartner bezeichnet."
+
   - id: ORG-US-FEDERAL-FINANCING-BANK-1973
     type: government_financing_institution
     name: "Federal Financing Bank (FFB)"

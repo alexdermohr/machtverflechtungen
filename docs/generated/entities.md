@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**370 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**375 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -21,6 +21,7 @@
 | Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
+| Christian Strenger | person | `PER-DE-CHRISTIAN-STRENGER` | DE | [1](network.md#rel-ulf-tk-strenger-audit-agreement) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
 | David Lammy | person | `PER-GB-DAVID-LAMMY` | GB | [4](network.md#rel-gb-bb-uk-008) |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE | [1](network.md#rel-de-tmn-033) |
@@ -42,6 +43,7 @@
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE | – |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
+| Hans-Joachim Böcking | person | `PER-DE-HANS-JOACHIM-BOECKING` | DE | [1](network.md#rel-ulf-tk-boecking-special-audit) |
 | Hans-Joachim Rose | person | `PER-DE-HANS-JOACHIM-ROSE` | DE | [1](network.md#rel-ulf-rose-sanction) |
 | Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
 | Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE | [1](network.md#rel-de-gehlen-006) |
@@ -61,7 +63,7 @@
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
-| Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [1](network.md#rel-ulf-tk-claassen) |
+| Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE | [4](network.md#rel-de-tmn-019) |
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
@@ -163,6 +165,7 @@
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
+| BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [2](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
@@ -217,6 +220,7 @@
 | Deutsche Gesellschaft für Sozialbeziehungen e. V. (Bonn, Förderzeitraum 1989–1990) | historical_civic_association | `ORG-DE-DGFSB-1989-1990` | DE | [1](network.md#rel-de-bmvg-dgfsb-funding-1989-1990-001) |
 | Deutsche Golddiskontbank (DEGO, historisch) | historical_financial_institution | `ORG-DE-DEGO-HISTORIC` | DE | [1](network.md#rel-de-ss-dest-1939-001) |
 | Deutsche Reichsbank (historisch, 1933–1945) | central_bank | `ORG-DE-REICHSBANK-HISTORIC` | DE | [5](network.md#rel-de-rb-1939-001) |
+| Deutsche Schutzvereinigung für Wertpapierbesitz e.V. | organization | `ORG-DE-DSW` | DE | [1](network.md#rel-ulf-tk-dsw-audit-agreement) |
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | Deutscher Rat für Public Relations | organization | `ORG-DE-DRPR` | DE | [1](network.md#rel-ulf-tk-drpr) |
@@ -263,6 +267,7 @@
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
+| KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
@@ -335,7 +340,7 @@
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE | [1](network.md#rel-de-tmn-056) |
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US | [3](network.md#rel-us-bbf-001) |
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
-| ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [8](network.md#rel-ulf-tk-trip-0) |
+| ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |

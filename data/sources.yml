@@ -3980,9 +3980,9 @@ sources:
   type: "official_notice"
   primary: true
   tier: "A"
-  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf"
+  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf"
   accessed: "2026-11-24"
-  locator: "Person und Rose Import-Export GmbH; wirksam 25.09.1997."
+  locator: "62(192), S. 51926, Public Notice 2614, FR Doc. 97-26305; zwei Adressaten derselben Notice, wirksam 25.09.1997."
 
 - id: SRC-ULF-FR-BALANIAN
   title: "Federal Register: Balanian-Sanktionsbescheid"
@@ -4180,7 +4180,7 @@ sources:
   tier: "A"
   url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf"
   accessed: "2026-11-24"
-  locator: "Compliance: interne Prüfung, Angemessenheitsgrenzen, neue Richtlinie; Eigenauskunft."
+  locator: "S. 21–22: Ausgleichszahlung 3.754.000 EUR, anteilige variable Vergütung, Anrechnung der Monatsgehälter; S. 69: interne Prüfung der Reisen 2007–2012 und neue Richtlinie; Eigenauskunft."
 
 - id: SRC-ULF-TK-GB12
   title: "Geschäftsbericht 2011/2012"
@@ -4191,7 +4191,7 @@ sources:
   tier: "A"
   url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf"
   accessed: "2026-11-24"
-  locator: "Vorstandswechsel Claassen zum 31.12.2012."
+  locator: "S. 003: Vorstandsressorts, Hiesinger Internal Auditing; Corporate-Governance-Bericht: Ausgliederung Compliance Juni 2012; Vergütungsbericht und Nachtragsbericht: Vorstandseintritt 21.01.2011 und Ausscheiden 31.12.2012."
 
 - id: SRC-ULF-TK-TI
   title: "Gefallen an Gefälligkeiten"
@@ -4278,6 +4278,61 @@ sources:
   url: https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/
   accessed: "2026-11-23"
   locator: "Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund."
+
+- id: SRC-ULF-TK-INTERIM-2010
+  title: "Zwischenbericht 9 Monate 2009/2010"
+  institution: "ThyssenKrupp AG"
+  date: "2010"
+  type: "interim_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 32: ursprüngliche Ressortplanung und Bestellungsbeschluss vom 12.05.2010."
+
+- id: SRC-ULF-TK-BOARD-20121210
+  title: "Unternehmensmitteilung zur strategischen Weiterentwicklung und Vorstandsneuordnung"
+  institution: "ThyssenKrupp AG"
+  date: "2012-12-10"
+  type: "company_statement"
+  primary: true
+  tier: "A"
+  url: "https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html"
+  accessed: "2026-11-24"
+  locator: "Aufsichtsratsbeschluss: einvernehmliches Ausscheiden Claassen, Berlien und Eichler; Unternehmensdarstellung."
+
+- id: SRC-ULF-TK-KPMG-2011
+  title: "KPMG: Angemessenheit, Implementierung und Wirksamkeit des Compliance Management Systems zum 30. September 2011 (Kurzfassung)"
+  institution: "KPMG AG Wirtschaftsprüfungsgesellschaft"
+  date: "2011-11-14"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1, 4–9: Auftrag, Stichproben, Empfehlungen, Feststellungen und zeitlich/sachlich/geografisch begrenztes Prüfungsurteil."
+
+- id: SRC-ULF-TK-BDO-BOECKING-2013
+  title: "Bericht über die freiwillige Sonderprüfung bei der ThyssenKrupp AG, Essen"
+  institution: "BDO AG und Prof. Hans-Joachim Böcking"
+  date: "2013-11-12"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1–4: Auftrag und Datenbasis; S. 66–68: Reformstand und Richtlinie vom 05.02.2013; S. 74–78: Berichterstattung der Internen Revision. Getrennte Prüfungsverantwortung."
+
+- id: SRC-ULF-TK-EXTERNAL-AUDITS
+  title: "Unternehmensübersicht externe Prüfberichte"
+  institution: "ThyssenKrupp"
+  date: "current"
+  type: "organization_self_description"
+  primary: true
+  tier: "A"
+  url: "https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte"
+  accessed: "2026-11-24"
+  locator: "Unternehmensrückblick: HV-Ablehnung Januar 2013 und freiwillige Vereinbarung mit DSW und Strenger im Juli."
 
 - id: SRC-US-GAO-OPIC-FY1977-ID7836
   title: "Examination of Financial Statements of OPIC, Fiscal Year 1977 (ID-78-36)"
