@@ -2243,7 +2243,7 @@ entities:
     notes: "REsp 719.548-PR am 03.04.2008; Zivil-/Verwaltungsverfahren, kein Strafurteil."
 
   - id: DOC-BR-CCSIVAM-RAYTHEON-0195
-    type: "historical_contract"
+    type: "historical_contract_document"
     name: "Vertrag 01/95 – CCSIVAM/Raytheon"
     countries: ["BR", "US"]
     notes: "Vertragsidentität durch Gerichtsakten belegt; vollständiger ursprünglicher Vertrag hier nicht eingesehen."

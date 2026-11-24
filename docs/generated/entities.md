@@ -394,7 +394,6 @@
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
-| Vertrag 01/95 – CCSIVAM/Raytheon | historical_contract | `DOC-BR-CCSIVAM-RAYTHEON-0195` | BR, US | [4](network.md#rel-ws-ccsivam-contract) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
@@ -424,4 +423,5 @@
 |---|---|---|---|---|
 | Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979 | historical_press_contract_document | `DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979` | IT | [5](network.md#rel-it-p2-presspact-rizzoli-1979-001) |
 | Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C) | historical_contract_document | `DOC-IT-RIZZOLI-P2-AGREEMENT-1980` | IT | [6](network.md#rel-it-p2-agreement-gelli-1980-001) |
+| Vertrag 01/95 – CCSIVAM/Raytheon | historical_contract_document | `DOC-BR-CCSIVAM-RAYTHEON-0195` | BR, US | [4](network.md#rel-ws-ccsivam-contract) |
 | Vinkulierungsvereinbarung Döpfner–Brilliant–Springer–Warburg vom 31.07./04.08.2006 | historical_contract_document | `DOC-DE-SPRINGER-VINKULIERUNG-2006` | DE | [4](network.md#rel-de-warburg-springer-vink-2006-001) |
