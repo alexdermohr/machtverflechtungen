@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**444 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**487 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -830,6 +830,78 @@ flowchart LR
     N_PER_US_C_FRED_BERGSTEN -->|"Assistant Secretary of the Treasury for International Affairs im Jahr 1977, gleichzeitig OPIC-Boardmitglied ab 24.05.; Kongressaussage zur Teilprivatisierung 27.07.1977."| N_ORG_US_TREASURY
     N_ORG_CL_CHAMBER_OF_DEPUTIES["Cámara de Diputados de Chile"]
     N_ORG_CL_ALLENDE_GOVERNMENT_1972 -->|"Oficio 13.794 vom 07.07.1971: Allende/Almeyda ziehen die Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen vom 03.12.1963 (Boletín 2268) zurück; Kammer stimmt am 13.07.1971 zu. Kein Nachweis damaliger Ratifikation."| N_ORG_CL_CHAMBER_OF_DEPUTIES
+    N_ORG_US_IC_1990S["US Intelligence Community (Wirtschaftsaufklärung 1993–1995)"]
+    N_ORG_US_IC_1990S -->|"Wirtschaftsaufklärung für staatliche Entscheidungsträger; SSCI berichtet Juli 1994 über wirtschaftlichen Nutzen"| N_ORG_US_STATE_DEPARTMENT
+    N_ORG_US_COMMERCE["US Department of Commerce"]
+    N_ORG_US_IC_1990S -->|"Commerce als Nutzer; im Juli 1994 berichtete Vorteile aus Geheimdienstinformationen, Einzelfälle nicht offengelegt"| N_ORG_US_COMMERCE
+    N_ORG_US_SSCI["Senate Select Committee on Intelligence (SSCI)"]
+    N_ORG_US_STATE_DEPARTMENT -->|"Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"| N_ORG_US_SSCI
+    N_ORG_US_COMMERCE -->|"Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"| N_ORG_US_SSCI
+    N_PER_US_WILLIAM_STUDEMAN["William O. Studeman"]
+    N_PER_US_WILLIAM_STUDEMAN -->|"03.04.1995: Übermittlung koordinierter Intelligence-Community-Antworten zur Anhörung vom 10.01.1995"| N_ORG_US_SSCI
+    N_ORG_US_OSAC["Overseas Security Advisory Council (OSAC)"]
+    N_ORG_US_STATE_DEPARTMENT -->|"1985 eingerichtetes Forum für Sicherheits- und Informationsaustausch"| N_ORG_US_OSAC
+    N_PER_US_JAMES_WOOLSEY -->|"Treffen mit OSAC-Exekutivkomitee 15.11.1993 laut schriftlichem CIA-Nachtrag 03.04.1995"| N_ORG_US_OSAC
+    N_ORG_US_NSA["National Security Agency (NSA)"]
+    N_ORG_US_NSA -->|"Technische Beratung des Informations-/Technologieschutz-Fachausschusses laut CIA-Antwort April 1995"| N_ORG_US_OSAC
+    N_ORG_US_NACIC_1994["National Counterintelligence Center (NACIC, 1994)"]
+    N_ORG_US_NACIC_1994 -->|"Technische Beratung des OSAC-Fachausschusses laut CIA-Antwort April 1995"| N_ORG_US_OSAC
+    N_ORG_US_FBI["Federal Bureau of Investigation (FBI)"]
+    N_ORG_US_IC_1990S -->|"Koordination der Abwehr fremdstaatlich geförderter Wirtschaftsspionage, wechselseitige Warnungen/Briefings laut CIA"| N_ORG_US_FBI
+    N_ORG_US_IBM_1992["IBM Corporation (1992)"]
+    N_ORG_US_IBM_1992 -->|"IBM-Sicherheitsdirektor Richard E. Mainey als Vizevorsitzender laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_CITICORP_1992["Citicorp/Citibank N.A. (1992)"]
+    N_ORG_US_CITICORP_1992 -->|"Citicorp/Citibank N.A., eine Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_BECHTEL_1992["Bechtel Corporation (1992–1996)"]
+    N_ORG_US_BECHTEL_1992 -->|"Bechtel-Sicherheitsvertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_MCDONNELL_DOUGLAS_1992["McDonnell Douglas (1992–1996)"]
+    N_ORG_US_MCDONNELL_DOUGLAS_1992 -->|"McDonnell-Douglas-Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_BOEING_1993["Boeing (1993–1996)"]
+    N_ORG_US_BOEING_1993 -->|"05.08.1993: Unternehmensvertreter Hayden/Blay wünschen Schutz vor fremder Spionage, lehnen Beschaffung fremder Geschäftsgeheimnisse ab"| N_ORG_US_SSCI
+    N_ORG_US_TPCC_ADVOCACY["Advocacy Coordinating Network / Advocacy Center (1993–1994)"]
+    N_ORG_US_COMMERCE -->|"Seit November 1993 Exportförderungskoordination mit 17 Behörden laut National Export Strategy"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_STATE_DEPARTMENT -->|"Diplomatische Beteiligung an behördenübergreifender Exportförderung 1994"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_EXIMBANK_1994["Export–Import Bank of the United States (Exportfinanzierung 1994–1997)"]
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM beteiligt sich laut Regierungsbericht an Exportförderungskoordination"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_OPIC_1971 -->|"OPIC in Exportförderungskoordination; mögliche SIVAM-Finanzierung ist keine nachgewiesene Auszahlung"| N_ORG_US_TPCC_ADVOCACY
+    N_PRG_BR_SIVAM["Sistema de Vigilância da Amazônia (SIVAM)"]
+    N_ORG_US_TPCC_ADVOCACY -->|"National Export Strategy nennt diplomatische und kommerzielle Unterstützung der Raytheon-Auswahl"| N_PRG_BR_SIVAM
+    N_ORG_US_EXIMBANK_1994 -->|"4.426 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_BOEING_1993
+    N_ORG_US_RAYTHEON_1994["Raytheon Company (SIVAM 1994–2008)"]
+    N_ORG_US_EXIMBANK_1994 -->|"1.923 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_RAYTHEON_1994
+    N_ORG_US_EXIMBANK_1994 -->|"938 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_BECHTEL_1992
+    N_ORG_US_EXIMBANK_1994 -->|"745 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_MCDONNELL_DOUGLAS_1992
+    N_ORG_US_EXIMBANK_1994 -->|"530 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_FLUOR
+    N_ORG_SA_GOVERNMENT_1994["Saudi-Arabien (Flugzeugbeschaffung 1994)"]
+    N_ORG_SA_GOVERNMENT_1994 -->|"16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"| N_ORG_US_BOEING_1993
+    N_ORG_SA_GOVERNMENT_1994 -->|"16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"| N_ORG_US_MCDONNELL_DOUGLAS_1992
+    N_ORG_BR_SENADO_FEDERAL["Senado Federal (Brasilien)"]
+    N_ORG_BR_UNION_SIVAM["Brasilianische Union (SIVAM-Verträge)"]
+    N_ORG_BR_SENADO_FEDERAL -->|"Resolution 96: 1.288.255.370 USD genehmigter Kredit über Banco do Brasil Grand Cayman, nicht Auszahlungsnachweis"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994["Banco do Brasil S.A., Agência Grand Cayman (1994)"]
+    N_ORG_US_EXIMBANK_1994 -->|"Resolution 96 genehmigt Weiterleitung von EXIM-Mitteln durch die Grand-Cayman-Niederlassung"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994 -->|"1.288.255.370 USD genehmigte externe Kreditoperation laut Art. 1; keine tatsächliche Zahlung belegt"| N_ORG_BR_UNION_SIVAM
+    N_ORG_US_RAYTHEON_1994 -->|"Resolution 97: 239,2 Mio. USD genehmigter Lieferantenkredit, 9 Prozent Festzins nach ursprünglicher Regelung"| N_ORG_BR_UNION_SIVAM
+    N_DOC_BR_CCSIVAM_RAYTHEON_0195["Vertrag 01/95 – CCSIVAM/Raytheon"]
+    N_ORG_BR_SENADO_FEDERAL -->|"Resolutionen 96/97 Art. 3: Abschluss des kommerziellen Vertrags als Voraussetzung für Finanzierungsverträge"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM-Rückblick: 1994 ca. 1,3 Mrd. USD bewilligt; GAO AP 67303 bestätigt Datum und spätere Kreditänderung"| N_PRG_BR_SIVAM
+    N_ORG_US_EXIMBANK_1994 -->|"04.03.1997: 34 Mio. USD Kreditänderung AP 67303, Raytheon-Lieferungen; nicht zusätzlich zur ursprünglichen Gesamtsumme addieren"| N_PRG_BR_SIVAM
+    N_ORG_BR_CCSIVAM["Comissão de Coordenação de Implantação do SIVAM (CCSIVAM)"]
+    N_ORG_BR_CCSIVAM -->|"Vertrag 01/95 CCSIVAM/Raytheon, aus gerichtlicher Wiedergabe identifiziert; vollständiger Vertragsvolltext fehlt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_US_RAYTHEON_1994 -->|"Vertrag 01/95 mit CCSIVAM; ursprüngliche Aufgabenabgrenzung gerichtlich beanstandet"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_ESCA["ESCA – Engenharia de Controle e Automação S.A."]
+    N_ORG_BR_ESCA -->|"Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"| N_PRG_BR_SIVAM
+    N_ORG_BR_ATECH_FOUNDATION["Fundação Aplicações de Tecnologias Críticas (ATECH)"]
+    N_ORG_BR_ATECH_FOUNDATION -->|"Spätere Vertragsänderungen übertragen strategische Informationsverarbeitung an ATECH laut STJ-Urteil"| N_PRG_BR_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"| N_PRG_BR_SIVAM
+    N_ORG_BR_CPI_SIVAM_2002["CPI SIVAM (Câmara dos Deputados)"]
+    N_ORG_BR_CPI_SIVAM_2002 -->|"CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"| N_PRG_BR_SIVAM
+    N_ORG_BR_MPF["Ministério Público Federal (Brasilien)"]
+    N_ORG_BR_CPI_SIVAM_2002 -->|"Abschlussbericht und gesonderte Gegenunterlagen an MPF weitergegeben; Verfahrensausgang offen"| N_ORG_BR_MPF
+    N_ORG_BR_TRF4["Tribunal Regional Federal da 4ª Região"]
+    N_ORG_BR_TRF4 -->|"2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_STJ["Superior Tribunal de Justiça (STJ)"]
+    N_ORG_BR_STJ -->|"03.04.2008 REsp 719.548-PR: Vorentscheidung aufgehoben, Verfahren ohne Sachentscheidung beendet; Vermögensschaden nicht nachgewiesen"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
 ```
 
 [Zur Relationstabelle](network.md)

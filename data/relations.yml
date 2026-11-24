@@ -3995,3 +3995,390 @@ relations:
     period: {start: '1971-07-07', end: '1971-07-13'}
     evidence_level: established
     sources: [SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964, SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971]
+
+  - id: REL-WS-IC-STATE
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-STATE-DEPARTMENT"
+    type: "economic_intelligence_support"
+    label: "Wirtschaftsaufklärung für staatliche Entscheidungsträger; SSCI berichtet Juli 1994 über wirtschaftlichen Nutzen"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1993", "end": "1995"}
+
+  - id: REL-WS-IC-COMMERCE
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-COMMERCE"
+    type: "economic_intelligence_support"
+    label: "Commerce als Nutzer; im Juli 1994 berichtete Vorteile aus Geheimdienstinformationen, Einzelfälle nicht offengelegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1993", "end": "1995"}
+
+  - id: REL-WS-STATE-SSCI
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-SSCI"
+    type: "closed_hearing"
+    label: "Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-COMMERCE-SSCI
+    from: "ORG-US-COMMERCE"
+    to: "ORG-US-SSCI"
+    type: "closed_hearing"
+    label: "Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-STUDEMAN-SSCI
+    from: "PER-US-WILLIAM-STUDEMAN"
+    to: "ORG-US-SSCI"
+    type: "official_response"
+    label: "03.04.1995: Übermittlung koordinierter Intelligence-Community-Antworten zur Anhörung vom 10.01.1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-STATE-OSAC
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-OSAC"
+    type: "public_private_cooperation"
+    label: "1985 eingerichtetes Forum für Sicherheits- und Informationsaustausch"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1985", "end": "1995"}
+
+  - id: REL-WS-WOOLSEY-OSAC
+    from: "PER-US-JAMES-WOOLSEY"
+    to: "ORG-US-OSAC"
+    type: "reported_consultation"
+    label: "Treffen mit OSAC-Exekutivkomitee 15.11.1993 laut schriftlichem CIA-Nachtrag 03.04.1995"
+    evidence_level: "strong"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1993-11-15", "end": "1993-11-15"}
+
+  - id: REL-WS-NSA-OSAC
+    from: "ORG-US-NSA"
+    to: "ORG-US-OSAC"
+    type: "technical_advisory"
+    label: "Technische Beratung des Informations-/Technologieschutz-Fachausschusses laut CIA-Antwort April 1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-NACIC-OSAC
+    from: "ORG-US-NACIC-1994"
+    to: "ORG-US-OSAC"
+    type: "technical_advisory"
+    label: "Technische Beratung des OSAC-Fachausschusses laut CIA-Antwort April 1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-IC-FBI
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-FBI"
+    type: "counterintelligence_cooperation"
+    label: "Koordination der Abwehr fremdstaatlich geförderter Wirtschaftsspionage, wechselseitige Warnungen/Briefings laut CIA"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-IBM-OSAC
+    from: "ORG-US-IBM-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "IBM-Sicherheitsdirektor Richard E. Mainey als Vizevorsitzender laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-CITI-OSAC
+    from: "ORG-US-CITICORP-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "Citicorp/Citibank N.A., eine Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-BECHTEL-OSAC
+    from: "ORG-US-BECHTEL-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "Bechtel-Sicherheitsvertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-MCDONNELL-OSAC
+    from: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "McDonnell-Douglas-Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-BOEING-SSCI
+    from: "ORG-US-BOEING-1993"
+    to: "ORG-US-SSCI"
+    type: "parliamentary_testimony"
+    label: "05.08.1993: Unternehmensvertreter Hayden/Blay wünschen Schutz vor fremder Spionage, lehnen Beschaffung fremder Geschäftsgeheimnisse ab"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-103-650"]
+    period: {"start": "1993-08-05", "end": "1993-08-05"}
+
+  - id: REL-WS-COMMERCE-ADVOCACY
+    from: "ORG-US-COMMERCE"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_promotion_coordination"
+    label: "Seit November 1993 Exportförderungskoordination mit 17 Behörden laut National Export Strategy"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1993", "end": "1994"}
+
+  - id: REL-WS-STATE-ADVOCACY
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_promotion_participation"
+    label: "Diplomatische Beteiligung an behördenübergreifender Exportförderung 1994"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-EXIM-ADVOCACY
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_finance_participation"
+    label: "EXIM beteiligt sich laut Regierungsbericht an Exportförderungskoordination"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-OPIC-ADVOCACY
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_finance_participation"
+    label: "OPIC in Exportförderungskoordination; mögliche SIVAM-Finanzierung ist keine nachgewiesene Auszahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-ADVOCACY-SIVAM
+    from: "ORG-US-TPCC-ADVOCACY"
+    to: "PRG-BR-SIVAM"
+    type: "reported_export_advocacy"
+    label: "National Export Strategy nennt diplomatische und kommerzielle Unterstützung der Raytheon-Auswahl"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-EXIM-BOEING
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-BOEING-1993"
+    type: "export_finance_commitment"
+    label: "4.426 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-RAYTHEON
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-RAYTHEON-1994"
+    type: "export_finance_commitment"
+    label: "1.923 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-BECHTEL
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-BECHTEL-1992"
+    type: "export_finance_commitment"
+    label: "938 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-MCDONNELL
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    type: "export_finance_commitment"
+    label: "745 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-FLUOR
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-FLUOR"
+    type: "export_finance_commitment"
+    label: "530 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-SAUDI-BOEING
+    from: "ORG-SA-GOVERNMENT-1994"
+    to: "ORG-US-BOEING-1993"
+    type: "announced_procurement"
+    label: "16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-CLINTON-SAUDI-1994", "SRC-WS-TPCC-1994"]
+    period: {"start": "1994-02-16", "end": "1994-02-16"}
+
+  - id: REL-WS-SAUDI-MCDONNELL
+    from: "ORG-SA-GOVERNMENT-1994"
+    to: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    type: "announced_procurement"
+    label: "16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-CLINTON-SAUDI-1994", "SRC-WS-TPCC-1994"]
+    period: {"start": "1994-02-16", "end": "1994-02-16"}
+
+  - id: REL-WS-SENATE-EXIM-AUTH
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "credit_authorization"
+    label: "Resolution 96: 1.288.255.370 USD genehmigter Kredit über Banco do Brasil Grand Cayman, nicht Auszahlungsnachweis"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R96-RET-1995"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-EXIM-CAYMAN
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "authorized_funding_channel"
+    label: "Resolution 96 genehmigt Weiterleitung von EXIM-Mitteln durch die Grand-Cayman-Niederlassung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-CAYMAN-BRAZIL
+    from: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_credit"
+    label: "1.288.255.370 USD genehmigte externe Kreditoperation laut Art. 1; keine tatsächliche Zahlung belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R96-RET-1995"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-RAYTHEON-BRAZIL-CREDIT
+    from: "ORG-US-RAYTHEON-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_supplier_credit"
+    label: "Resolution 97: 239,2 Mio. USD genehmigter Lieferantenkredit, 9 Prozent Festzins nach ursprünglicher Regelung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R97-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-SENATE-CONTRACT
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "statutory_financing_condition"
+    label: "Resolutionen 96/97 Art. 3: Abschluss des kommerziellen Vertrags als Voraussetzung für Finanzierungsverträge"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R97-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-EXIM-SIVAM
+    from: "ORG-US-EXIMBANK-1994"
+    to: "PRG-BR-SIVAM"
+    type: "approved_export_financing"
+    label: "EXIM-Rückblick: 1994 ca. 1,3 Mrd. USD bewilligt; GAO AP 67303 bestätigt Datum und spätere Kreditänderung"
+    evidence_level: "established"
+    sources: ["SRC-WS-EXIM-HISTORY", "SRC-WS-GAO-97-211", "SRC-WS-BR-R96-1994"]
+    period: {"start": "1994-09-30", "end": "1994-09-30"}
+
+  - id: REL-WS-EXIM-SIVAM-AMEND
+    from: "ORG-US-EXIMBANK-1994"
+    to: "PRG-BR-SIVAM"
+    type: "credit_amendment"
+    label: "04.03.1997: 34 Mio. USD Kreditänderung AP 67303, Raytheon-Lieferungen; nicht zusätzlich zur ursprünglichen Gesamtsumme addieren"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-211"]
+    period: {"start": "1997-03-04", "end": "1997-03-04"}
+
+  - id: REL-WS-CCSIVAM-CONTRACT
+    from: "ORG-BR-CCSIVAM"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contracting_party"
+    label: "Vertrag 01/95 CCSIVAM/Raytheon, aus gerichtlicher Wiedergabe identifiziert; vollständiger Vertragsvolltext fehlt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003", "SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1995", "end": "1995"}
+
+  - id: REL-WS-RAYTHEON-CONTRACT
+    from: "ORG-US-RAYTHEON-1994"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contracting_party"
+    label: "Vertrag 01/95 mit CCSIVAM; ursprüngliche Aufgabenabgrenzung gerichtlich beanstandet"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003"]
+    period: {"start": "1995", "end": "1995"}
+
+  - id: REL-WS-ESCA-SIVAM
+    from: "ORG-BR-ESCA"
+    to: "PRG-BR-SIVAM"
+    type: "initial_integrator_selection"
+    label: "Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-ATECH-SIVAM
+    from: "ORG-BR-ATECH-FOUNDATION"
+    to: "PRG-BR-SIVAM"
+    type: "reported_contract_amendment"
+    label: "Spätere Vertragsänderungen übertragen strategische Informationsverarbeitung an ATECH laut STJ-Urteil"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548"]
+    period: {"start": "2008", "end": "2008"}
+
+  - id: REL-WS-BR-SIVAM-EFFECTIVE
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "reported_contract_effectiveness"
+    label: "Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1997-07-25", "end": "1997-07-25"}
+
+  - id: REL-WS-CPI-SIVAM
+    from: "ORG-BR-CPI-SIVAM-2002"
+    to: "PRG-BR-SIVAM"
+    type: "parliamentary_investigation"
+    label: "CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CPI-2002"]
+    period: {"start": "2002-06-04", "end": "2002-06-04"}
+
+  - id: REL-WS-CPI-MPF
+    from: "ORG-BR-CPI-SIVAM-2002"
+    to: "ORG-BR-MPF"
+    type: "referral_for_investigation"
+    label: "Abschlussbericht und gesonderte Gegenunterlagen an MPF weitergegeben; Verfahrensausgang offen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CPI-2002", "SRC-WS-BR-CPI-0528-02"]
+    period: {"start": "2002-06-04", "end": "2002-06-04"}
+
+  - id: REL-WS-TRF4-CONTRACT
+    from: "ORG-BR-TRF4"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contract_nullity_ruling"
+    label: "2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-STJ-719548"]
+    period: {"start": "2003", "end": "2003"}
+
+  - id: REL-WS-STJ-CONTRACT
+    from: "ORG-BR-STJ"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "judicial_procedural_disposition"
+    label: "03.04.2008 REsp 719.548-PR: Vorentscheidung aufgehoben, Verfahren ohne Sachentscheidung beendet; Vermögensschaden nicht nachgewiesen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548"]
+    period: {"start": "2008-04-03", "end": "2008-04-03"}

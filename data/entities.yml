@@ -2079,3 +2079,177 @@ entities:
     name: "Cámara de Diputados de Chile"
     countries: [CL]
     notes: "Chilenische Abgeordnetenkammer; 13.07.1971 dokumentierte Zustimmung zur Rücknahme der Genehmigungsvorlage zum Investitionsgarantie-Zusatzabkommen vom 03.12.1963."
+
+  - id: ORG-US-IC-1990S
+    type: "historical_intelligence_community"
+    name: "US Intelligence Community (Wirtschaftsaufklärung 1993–1995)"
+    countries: ["US"]
+    notes: "Behördenübergreifende Gemeinschaft; nicht jede Aussage einem einzelnen Dienst zurechnen."
+
+  - id: ORG-US-SSCI
+    type: "government_committee"
+    name: "Senate Select Committee on Intelligence (SSCI)"
+    countries: ["US"]
+    notes: "Kongressaufsicht; öffentliche Berichte fassen nichtöffentliche Anhörungen zusammen."
+
+  - id: ORG-US-COMMERCE
+    type: "government_agency"
+    name: "US Department of Commerce"
+    countries: ["US"]
+    notes: "Empfänger wirtschaftlicher Intelligence-Berichte und Träger der Exportförderung."
+
+  - id: ORG-US-OSAC
+    type: "public_private_advisory_council"
+    name: "Overseas Security Advisory Council (OSAC)"
+    countries: ["US"]
+    notes: "1985 durch State Department gegründet, Sicherheits- und Informationsaustausch mit Privatwirtschaft."
+
+  - id: ORG-US-NSA
+    type: "government_agency"
+    name: "National Security Agency (NSA)"
+    countries: ["US"]
+    notes: "Technische Beratung in OSAC-Fachausschuss laut 1995er Senatsakte; keine individualisierte Exportoperation belegt."
+
+  - id: ORG-US-NACIC-1994
+    type: "historical_government_agency"
+    name: "National Counterintelligence Center (NACIC, 1994)"
+    countries: ["US"]
+    notes: "1994 eingerichtet; technische Beratung des OSAC-Fachausschusses."
+
+  - id: ORG-US-FBI
+    type: "government_agency"
+    name: "Federal Bureau of Investigation (FBI)"
+    countries: ["US"]
+    notes: "Kooperation zu Abwehr staatlich geförderter Wirtschaftsspionage, keine behauptete Wettbewerbsdatenübergabe."
+
+  - id: ORG-US-TPCC-ADVOCACY
+    type: "interagency_network"
+    name: "Advocacy Coordinating Network / Advocacy Center (1993–1994)"
+    countries: ["US"]
+    notes: "Exportförderungskoordination; nicht mit OSAC oder Geheimdienst gleichzusetzen."
+
+  - id: ORG-US-EXIMBANK-1994
+    type: "historical_federal_export_credit_agency"
+    name: "Export–Import Bank of the United States (Exportfinanzierung 1994–1997)"
+    countries: ["US"]
+    notes: "Gleiche Bundesinstitution wie historisch separat modellierter Chile-Knoten 1974; zeitlich abgegrenzte Kreditakten."
+
+  - id: ORG-US-RAYTHEON-1994
+    type: "historical_company"
+    name: "Raytheon Company (SIVAM 1994–2008)"
+    countries: ["US", "BR"]
+    notes: "Historisches Unternehmen; keine pauschale Gleichsetzung mit heutiger Konzernstruktur."
+
+  - id: ORG-US-BOEING-1993
+    type: "historical_company"
+    name: "Boeing (1993–1996)"
+    countries: ["US"]
+    notes: "Zeitgenössische Unternehmenseinheit, vor Zusammenschluss mit McDonnell Douglas."
+
+  - id: ORG-US-MCDONNELL-DOUGLAS-1992
+    type: "historical_company"
+    name: "McDonnell Douglas (1992–1996)"
+    countries: ["US"]
+    notes: "Zeitgenössische separate Firma; OSAC-Vertretung und Exportaufträge."
+
+  - id: ORG-US-BECHTEL-1992
+    type: "historical_company"
+    name: "Bechtel Corporation (1992–1996)"
+    countries: ["US"]
+    notes: "OSAC-Vertretung 1992; GAO-Zusagen 1994–96."
+
+  - id: ORG-US-IBM-1992
+    type: "historical_company"
+    name: "IBM Corporation (1992)"
+    countries: ["US"]
+    notes: "OSAC-Vizevorsitz im November 1992 laut State Department."
+
+  - id: ORG-US-CITICORP-1992
+    type: "historical_financial_group"
+    name: "Citicorp/Citibank N.A. (1992)"
+    countries: ["US"]
+    notes: "Eine gemeinsame Vertretung laut historischer Liste; keine Beteiligung an einzelnen Spionagefällen daraus ableitbar."
+
+  - id: PER-US-WILLIAM-STUDEMAN
+    type: "person"
+    name: "William O. Studeman"
+    countries: ["US"]
+    notes: "Acting Director of Central Intelligence, Übermittlung koordinierter Antworten an den Senat 03.04.1995."
+
+  - id: ORG-BR-UNION-SIVAM
+    type: "historical_government"
+    name: "Brasilianische Union (SIVAM-Verträge)"
+    countries: ["BR"]
+    notes: "Kreditnehmerin und Vertragspartnerin im untersuchten SIVAM-Komplex."
+
+  - id: ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994
+    type: "historical_bank_branch"
+    name: "Banco do Brasil S.A., Agência Grand Cayman (1994)"
+    countries: ["BR", "KY"]
+    notes: "In Resolução 96 namentlich genannte Zwischenstation der EXIM-Kreditweiterleitung; keine Illegalität aus Offshore-Standort abgeleitet."
+
+  - id: PRG-BR-SIVAM
+    type: "historical_surveillance_project"
+    name: "Sistema de Vigilância da Amazônia (SIVAM)"
+    countries: ["BR"]
+    notes: "Überwachungs-/Informationsinfrastruktur im Amazonasgebiet; genaue Endnutzung nicht aus Kreditgenehmigung ableitbar."
+
+  - id: ORG-BR-SENADO-FEDERAL
+    type: "legislative_body"
+    name: "Senado Federal (Brasilien)"
+    countries: ["BR"]
+    notes: "Kreditgenehmigungen und Änderungsverfahren."
+
+  - id: ORG-BR-CCSIVAM
+    type: "historical_government_commission"
+    name: "Comissão de Coordenação de Implantação do SIVAM (CCSIVAM)"
+    countries: ["BR"]
+    notes: "Staatliche Projektkommission; Vertrag 01/95 mit Raytheon."
+
+  - id: ORG-BR-ESCA
+    type: "historical_company"
+    name: "ESCA – Engenharia de Controle e Automação S.A."
+    countries: ["BR"]
+    notes: "Ursprünglich ausgewählte nationale Integratorin; später aus dem Vertrag entfernt."
+
+  - id: ORG-BR-ATECH-FOUNDATION
+    type: "historical_foundation"
+    name: "Fundação Aplicações de Tecnologias Críticas (ATECH)"
+    countries: ["BR"]
+    notes: "Durch spätere Vertragsänderung einbezogen; nicht ohne Identitätsnachweis mit heutiger Unternehmensstruktur gleichsetzen."
+
+  - id: ORG-BR-CPI-SIVAM-2002
+    type: "parliamentary_inquiry"
+    name: "CPI SIVAM (Câmara dos Deputados)"
+    countries: ["BR"]
+    notes: "Untersuchungsausschuss, Abschlussbericht 04.06.2002."
+
+  - id: ORG-BR-MPF
+    type: "prosecution_authority"
+    name: "Ministério Público Federal (Brasilien)"
+    countries: ["BR"]
+    notes: "Adressat der parlamentarischen Unterlagen; weiterer strafrechtlicher Verfahrensausgang offen."
+
+  - id: ORG-BR-TRF4
+    type: "court"
+    name: "Tribunal Regional Federal da 4ª Região"
+    countries: ["BR"]
+    notes: "2003 Berufungsentscheidung zur Vertragsnichtigkeit."
+
+  - id: ORG-BR-STJ
+    type: "court"
+    name: "Superior Tribunal de Justiça (STJ)"
+    countries: ["BR"]
+    notes: "REsp 719.548-PR am 03.04.2008; Zivil-/Verwaltungsverfahren, kein Strafurteil."
+
+  - id: DOC-BR-CCSIVAM-RAYTHEON-0195
+    type: "historical_contract"
+    name: "Vertrag 01/95 – CCSIVAM/Raytheon"
+    countries: ["BR", "US"]
+    notes: "Vertragsidentität durch Gerichtsakten belegt; vollständiger ursprünglicher Vertrag hier nicht eingesehen."
+
+  - id: ORG-SA-GOVERNMENT-1994
+    type: "historical_government"
+    name: "Saudi-Arabien (Flugzeugbeschaffung 1994)"
+    countries: ["SA"]
+    notes: "Öffentliche Beschaffungsankündigung vom 16.02.1994."
