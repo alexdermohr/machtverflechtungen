@@ -4238,3 +4238,43 @@ sources:
   url: "https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044"
   accessed: "2026-11-24"
   locator: "Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag."
+- id: SRC-US-GAO-OPIC-AUDIT-FY1971-1972
+  title: "Audit of the Overseas Private Investment Corporation, Fiscal Year 1971 (B-173240)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1972-05-16"
+  type: original_congressional_financial_audit
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/b-173240-096568.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit."
+- id: SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976
+  title: "Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1976-03-01"
+  type: original_congressional_audit_and_official_accounting_notes
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/id-76-49.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseite 8, Note 7(A,C): 30.06.1975 147.385.976 USD OPIC contingent claims settlement guarantees einschliesslich Zinsen, davon Chile 128.659.383 USD; Anaconda-154-Mio-Ablehnung 1972, Schiedshaftung 17.07.1975, 1974er Chile-Vergleich ca. 65 Mio Cash plus 188 Mio Nominalschuld."
+- id: SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977
+  title: "Examination of Financial Statements of OPIC, Fiscal Years 1976 and 1975 (ID-77-24)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1977-09-07"
+  type: original_congressional_audit_and_subsequent_settlement_report
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/id-77-24.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseite 6: 31.03.1977 Anaconda-Vergleich 95,1 Mio USD, 47,5 Mio Cash und 47,6 Mio garantierte chilenische Notes; 27,5 Mio Notes als Gegenwert für OPIC; andere Chile-Garantie zuvor 36,4 Mio bezahlt und rückforderbar. S.8–9: private OIIG/OPIC und Lloyds-Rückversicherungsstruktur. Note 7(A) Chile 104.571.471 USD contingent 1976."
+- id: SRC-US-FED-COURT-OPIC-ANACONDA-19760720
+  title: "Overseas Private Investment Corporation v. Anaconda Company, 418 F. Supp. 107 (D.D.C. 1976)"
+  institution: "United States District Court for the District of Columbia; court original reproduced by Justia"
+  date: "1976-07-20"
+  type: original_federal_court_opinion_republished
+  primary: true
+  tier: A
+  url: https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/
+  accessed: "2026-11-23"
+  locator: "Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund."

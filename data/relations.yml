@@ -3745,3 +3745,99 @@ relations:
     label: "Von zeitgenössischem Branchenbericht als berufliche Vermittlung zum Magazin Park Avenue beschrieben; kein Geheimdienstbezug belegt"
     evidence_level: "strong"
     sources: ["SRC-ULF-KRESS-PARK-2006"]
+  - id: REL-US-OPIC-ANACONDA-CLAIM-DENIAL-1972
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ANACONDA-COPPER-1972
+    type: documented_denial_of_insurance_claim
+    label: "GAO 1976: OPIC wies September 1972 zwei Anaconda/Chile-Copper-Enteignungsforderungen zusammen ca. 154 Mio USD wegen streitiger Policendeckung zurück; keine akzeptierte Leistung."
+    period: {start: "1972"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976]
+  - id: REL-US-ANACONDA-CHILE-COPPER-SUBSIDIARY-1972
+    from: ORG-US-ANACONDA-COPPER-1972
+    to: ORG-CL-CHILE-COPPER-ANACONDA-1972
+    type: documented_historical_corporate_subsidiary
+    label: "GAO-Bilanzbericht benennt Chile Copper Company ausdrücklich als Tochter der Anaconda Company in 1972er gemeinsamen OPIC-Versicherungsforderungen."
+    period: {start: "1972"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976]
+  - id: REL-CL-CHILE-ANACONDA-SETTLEMENT-1974
+    from: ORG-CL-MILITARY-JUNTA-1973
+    to: ORG-US-ANACONDA-COPPER-1972
+    type: historical_copper_expropriation_compensation_settlement
+    label: "GAO 1976: Chile vereinbarte Juli 1974 mit Anaconda ca. 65 Mio USD Cash und chilenische Schuldscheine Nominalwert 188 Mio USD; nicht mit OPIC-1977-Abwicklung addieren."
+    period: {start: "1974"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976]
+  - id: REL-US-OPIC-ANACONDA-ARBITRATION-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ANACONDA-COPPER-1972
+    type: arbitral_contract_insurance_liability_documented
+    label: "Dreierschiedsgericht 17.07.1975 bejahte laut US-GAO und Gericht OPIC-Haftung gegenüber Anaconda, bestimmte jedoch noch keinen Zahlbetrag; Ablehnung von 1972 nicht Endstand."
+    period: {start: "1975-07-17"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976, SRC-US-FED-COURT-OPIC-ANACONDA-19760720]
+  - id: REL-US-DC-COURT-OPIC-ANACONDA-VACATUR-1976
+    from: ORG-US-DISTRICT-COURT-DC-1976
+    to: ORG-US-OPIC-1971
+    type: federal_court_denial_of_arbitral_vacatur
+    label: "418 F. Supp. 107 vom 20.07.1976: Gericht wies OPIC-Antrag zur Aufhebung des Anaconda-Schiedsspruchs wegen behaupteter Befangenheit ab; kein Korruptionsbefund gegen Anaconda."
+    period: {start: "1976-07-20"}
+    evidence_level: established
+    sources: [SRC-US-FED-COURT-OPIC-ANACONDA-19760720]
+  - id: REL-US-OPIC-CHILE-CONTINGENT-GUARANTIES-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-CL-MILITARY-JUNTA-1973
+    type: audited_contingent_guarantees_on_chilean_obligations
+    label: "GAO-Bilanz zum 30.06.1975: 128.659.383 USD Chile-bezogene Eventualgarantien auf von Chile übernommene Entschädigungs-/Schuldverpflichtungen; einschliesslich Zinsen, keine Barauszahlung."
+    period: {start: "1975-06-30"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976]
+  - id: REL-US-OPIC-ANACONDA-CASH-SETTLEMENT-1977
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ANACONDA-COPPER-1972
+    type: documented_insurance_cash_settlement
+    label: "GAO 1977 und DFC FY77: OPIC-Anaconda-Vergleich 31.03.1977, Cashanteil exakt 47.504.034 USD; OPIC erhielt zudem laut GAO ca. 27,5 Mio USD Chile-Notes als Gegenwert, keine Nettoverlustbehauptung."
+    period: {start: "1977-03-31"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977, SRC-US-DFC-INSURANCE-CLAIMS-2022]
+  - id: REL-US-OPIC-ANACONDA-GUARANTEES-1977
+    from: ORG-US-OPIC-1971
+    to: ORG-US-ANACONDA-COPPER-1972
+    type: audited_claim_settlement_guarantee_chilean_notes
+    label: "DFC FY77: 47.588.104 USD Garantieanteil von insgesamt 95.092.138 USD im Anaconda-Vergleich; Eventualhaftung auf Chile-Notes, keine sofortige Barauszahlung."
+    period: {start: "1977-03-31"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977, SRC-US-DFC-INSURANCE-CLAIMS-2022]
+  - id: REL-US-OPIC-BOFA-PETRODOW-GUARANTEE-1978
+    from: ORG-US-OPIC-1971
+    to: ORG-US-BANK-OF-AMERICA-1974
+    type: historical_inconvertibility_insurance_guarantee
+    label: "DFC FY78: Bank of America/Petrodow II, Chile, Versicherungsart A Unkonvertierbarkeit, exakt 868.642 USD Garantie, 0 USD Cash. Keine Datierung auf im UN-Vertrag geplante Zahlung Juni 1974."
+    period: {start: "1978"}
+    evidence_level: established
+    sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022, SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-US-OPIC-BOFA-ARAUCO-GUARANTEE-1978
+    from: ORG-US-OPIC-1971
+    to: ORG-US-BANK-OF-AMERICA-1974
+    type: historical_inconvertibility_insurance_guarantee
+    label: "DFC FY78: Bank of America/Arauco III, Chile, Versicherungsart A Unkonvertierbarkeit, exakt 4.397.727 USD Garantie, 0 USD Cash; Kreditprojekt laut UNTS 1974 namentlich zuordenbar, Policenidentität offen."
+    period: {start: "1978"}
+    evidence_level: established
+    sources: [SRC-US-DFC-INSURANCE-CLAIMS-2022, SRC-UN-UNTS967-US-CHILE-1974]
+  - id: REL-US-OPIC-OIIG-COINSURANCE-1975
+    from: ORG-US-OPIC-1971
+    to: ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975
+    type: documented_public_private_coinsurance_reinsurance
+    label: "GAO ID-77-24: private Unternehmen in OIIG traten seit 01.01.1975 als Mitversicherer neu ausgestellter OPIC-Policen und als Rückversicherer älterer Verträge auf; keine konkrete Chile-Payout-Zuordnung."
+    period: {start: "1975"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977]
+  - id: REL-US-OPIC-LLOYDS-REINSURANCE-1976
+    from: ORG-US-OPIC-1971
+    to: ORG-GB-LLOYDS-LONDON-1976
+    type: documented_historical_reinsurance_agreement
+    label: "US-GAO ID-77-24 Druckseite 8: OPIC unterhielt 1976 eigenen Rückversicherungsvertrag mit Lloyd's of London, getrennt von OIIG; keine bewiesene Zahlung an Anaconda, ITT oder BoFA."
+    period: {start: "1976"}
+    evidence_level: established
+    sources: [SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977]

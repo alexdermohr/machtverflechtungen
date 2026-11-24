@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**371 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**375 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3841,6 +3841,51 @@ Fundstelle: Wiedergabe von Raúl Sáez: namentlich nicht benannte US-Geschäftsb
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-gao-opic-audit-fy1971-1972"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Audit of the Overseas Private Investment Corporation, Fiscal Year 1971 (B-173240)](https://www.gao.gov/assets/b-173240-096568.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1972-05-16 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-AUDIT-FY1971-1972`
+
+[PDF öffnen](https://www.gao.gov/assets/b-173240-096568.pdf)
+
+Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
+<a id="src-us-gao-opic-financial-fy1975-1976"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)](https://www.gao.gov/assets/id-76-49.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1976-03-01 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976`
+
+[PDF öffnen](https://www.gao.gov/assets/id-76-49.pdf)
+
+Fundstelle: Druckseite 8, Note 7(A,C): 30.06.1975 147.385.976 USD OPIC contingent claims settlement guarantees einschliesslich Zinsen, davon Chile 128.659.383 USD; Anaconda-154-Mio-Ablehnung 1972, Schiedshaftung 17.07.1975, 1974er Chile-Vergleich ca. 65 Mio Cash plus 188 Mio Nominalschuld.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-gao-opic-financial-fy1976-1977"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Examination of Financial Statements of OPIC, Fiscal Years 1976 and 1975 (ID-77-24)](https://www.gao.gov/assets/id-77-24.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1977-09-07 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977`
+
+[PDF öffnen](https://www.gao.gov/assets/id-77-24.pdf)
+
+Fundstelle: Druckseite 6: 31.03.1977 Anaconda-Vergleich 95,1 Mio USD, 47,5 Mio Cash und 47,6 Mio garantierte chilenische Notes; 27,5 Mio Notes als Gegenwert für OPIC; andere Chile-Garantie zuvor 36,4 Mio bezahlt und rückforderbar. S.8–9: private OIIG/OPIC und Lloyds-Rückversicherungsstruktur. Note 7(A) Chile 104.571.471 USD contingent 1976.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
 
 <a id="src-us-house-crs-opic-chile-1973"></a>
@@ -4198,6 +4243,21 @@ United States Department of Labor, amtlicher Federal Register Vol. 44 Nr. 124 ·
 [PDF öffnen](https://archives.federalregister.gov/issue_slice/1979/6/26/37221-37229.pdf)
 
 Fundstelle: 44 FR 37221 (Originalscan PDF-Seite 1): Regelungsgegenstand und Wirksamkeit 23.07.1979. 44 FR 37222 (PDF-Seite 2): ursprünglicher Regelungsentwurf 25.04.1978, öffentliche Kommentare und Portfolio-Kontext. 44 FR 37225 (PDF-Seite 5): amtlicher Normtext 29 CFR 2550.404a-1.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
+<a id="src-us-fed-court-opic-anaconda-19760720"></a>
+### United States District Court for the District of Columbia; court original reproduced by Justia
+
+**[Overseas Private Investment Corporation v. Anaconda Company, 418 F. Supp. 107 (D.D.C. 1976)](https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/)**
+
+United States District Court for the District of Columbia; court original reproduced by Justia · 1976-07-20 · Stufe **A** · Primärquelle · `SRC-US-FED-COURT-OPIC-ANACONDA-19760720`
+
+[Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/)
+
+Fundstelle: Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund.
 
 </article>
 
