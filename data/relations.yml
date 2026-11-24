@@ -3528,7 +3528,7 @@ relations:
     from: "ORG-US-STATE-DEPARTMENT"
     to: "PER-DE-HANS-JOACHIM-ROSE"
     type: "administrative_sanction"
-    label: "Sanktionsbescheid wirksam ab 25.09.1997"
+    label: "Adressat der Public Notice 2614; wirksam ab 25.09.1997"
     evidence_level: "established"
     sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
     period: {"start": "1997-09-25"}
@@ -3537,7 +3537,7 @@ relations:
     from: "ORG-US-STATE-DEPARTMENT"
     to: "ORG-DE-ROSE-IMPORT-EXPORT"
     type: "administrative_sanction"
-    label: "Gesonderter Sanktionsbescheid wirksam ab 25.09.1997"
+    label: "Weiterer Adressat derselben Public Notice 2614; wirksam ab 25.09.1997"
     evidence_level: "established"
     sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
     period: {"start": "1997-09-25"}

@@ -478,7 +478,7 @@ studies:
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
 
   udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md:
-    sha256: f54294136460cb3c16bf4b66abcafad9fdacc3fd9c3c6a8f757bea2069584512
+    sha256: 2d3d13401160376c7eef92c6170d6310918b072e759ec06c8c2494004248c4b1
     status: network
     relation_ids:
       - REL-ULF-BALANIAN-CONTACT

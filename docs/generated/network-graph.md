@@ -738,9 +738,9 @@ flowchart LR
     N_ORG_US_STATE_DEPARTMENT["US Department of State"]
     N_ORG_US_STATE_DEPARTMENT -->|"Sanktionsbescheid wirksam ab 09.02.1998; kein Strafurteil"| N_PER_INT_BERGE_BALANIAN
     N_PER_DE_HANS_JOACHIM_ROSE["Hans-Joachim Rose"]
-    N_ORG_US_STATE_DEPARTMENT -->|"Sanktionsbescheid wirksam ab 25.09.1997"| N_PER_DE_HANS_JOACHIM_ROSE
+    N_ORG_US_STATE_DEPARTMENT -->|"Adressat der Public Notice 2614; wirksam ab 25.09.1997"| N_PER_DE_HANS_JOACHIM_ROSE
     N_ORG_DE_ROSE_IMPORT_EXPORT["Rose Import-Export GmbH"]
-    N_ORG_US_STATE_DEPARTMENT -->|"Gesonderter Sanktionsbescheid wirksam ab 25.09.1997"| N_ORG_DE_ROSE_IMPORT_EXPORT
+    N_ORG_US_STATE_DEPARTMENT -->|"Weiterer Adressat derselben Public Notice 2614; wirksam ab 25.09.1997"| N_ORG_DE_ROSE_IMPORT_EXPORT
     N_PER_US_SUZANNE_WOOLSEY["Suzanne H. Woolsey"]
     N_PER_US_SUZANNE_WOOLSEY -->|"GMF-Kuratorium 1992–2000"| N_ORG_US_GMF_2012
     N_PER_US_SUZANNE_WOOLSEY -->|"GMF-Kuratorium 2002–2010"| N_ORG_US_GMF_2012

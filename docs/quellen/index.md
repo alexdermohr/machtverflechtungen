@@ -4386,13 +4386,13 @@ Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuc
 <a id="src-ulf-fr-rose"></a>
 ### US Department of State
 
-**[Federal Register: Rose-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf)**
+**[Federal Register: Rose-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf)**
 
 US Department of State · 1997-10-03 · Stufe **A** · Primärquelle · `SRC-ULF-FR-ROSE`
 
-[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26236.pdf)
+[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf)
 
-Fundstelle: Person und Rose Import-Export GmbH; wirksam 25.09.1997.
+Fundstelle: 62(192), S. 51926, Public Notice 2614, FR Doc. 97-26305; zwei Adressaten derselben Notice, wirksam 25.09.1997.
 
 </article>
 
