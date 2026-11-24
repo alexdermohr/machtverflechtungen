@@ -22,6 +22,24 @@ Die [Veranstalter-FAQ](https://bilderbergmeetings.org/frequently-asked-questions
 
 Die [Governance-Selbstauskunft der Bilderberg Meetings](https://bilderbergmeetings.org/background/governance-and-funding) legt die Vorbereitung von **Programm und Teilnehmerauswahl** in die Hände von Vorsitz und **Steering Committee**. In der [offiziellen Mitgliederliste](https://bilderbergmeetings.org/background/steering-committee/steering-committee) finden sich unter anderem **John Micklethwait (Chefredakteur Bloomberg), Zanny Minton Beddoes (Chefredakteurin The Economist), Mathias Döpfner (Axel Springer), Thomas Leysen (Mediahuis) und Fareed Zakaria (Fernsehmoderator)**. Das sind organisatorisch maßgebliche Medienrollen und keine bloßen Konferenzgäste. Ob diese Beziehungen in **konkreten** Artikeln oder Sendungen offengelegt wurden, ist im [Medienaudit](../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md) als eigene, noch offene Prüfung ausgewiesen.
 
+## Finanzträger, Medienkonzerne und politische Kontakte
+
+Die Steuerunterlagen von **American Friends of Bilderberg Inc.** (eigenständiger US-Rechtsträger) erschließen mehr als die bloßen Teilnehmerlisten:
+
+- **2025:** Die NCCS-Reproduktion des IRS-Filing-XML nennt sechs Zuwendungen über insgesamt **2.625.000 USD**, darunter Peter Thiel (1 Mio.), Alexander Karp (500.000) und Henry Kravis (500.000 USD). Es handelt sich um gemeldete Zuwendungen an den US-Rechtsträger, nicht automatisch um Unternehmenszahlungen von Palantir oder politische Aufträge.
+- **Medien-Governance:** Die US-Organliste 2025 nennt Bloomberg-Chefredakteur John Micklethwait als Director; die Bilderberg-Organisationsseite führt ihn zusätzlich im Steering Committee. Diese Doppelrolle verbindet Finanzierungsorganisation, Konferenz-Governance und leitende journalistische Funktion.
+- **Washington Post:** Die Steuerakten-Auswertung weist für 2008 und 2009 jeweils 25.000 USD der Washington Post Company aus; der erneute Bildabgleich der Spenderzeilen steht aus. In den konkret geprüften Artikeltexten wird die Unternehmensförderung nicht genannt, die personelle Eigennähe wird 2012 dagegen ausdrücklich offengelegt. Das ist eine konkrete Transparenzfrage, keine nachgewiesene flächendeckende Nachrichtensperre.
+
+[US-Steuerakten und namentliche Förderer](../research/bilderberg-american-friends-irs-medien-2004-2025.md) · [Washington-Post-Artikelaudit](../research/bilderberg-washington-post-finanzierung-medienoffenlegung-2005-2012.md) · [Finanzierung Thiel](../generated/network.md#rel-us-bbf-005) · [Micklethwait-Doppelrolle](../generated/network.md#rel-us-bbf-007)
+
+## Amtliche Transparenzverstöße und konkrete Kontaktwirkung
+
+Der britische Unterhaus-Standardsausschuss bestätigte 1997 eine Registrierungsverletzung geringen Gewichts: Der damalige Innenminister Kenneth Clarke hatte die 1993 von Bilderberg-Gastgebern finanzierte Unterkunft nicht rechtzeitig angegeben. Der Ausschuss sah zugleich keinen tragfähigen Grund, eine Beeinflussung parlamentarischer Entscheidungen anzunehmen. Der britische Charity-Bericht 2013 und die amtliche Polizeikostenanfrage dokumentieren weitere institutionelle Finanzierungsfragen.
+
+Die [Osborne-Studie](../research/bilderberg-osborne-bloomberg-acoba-medienpolitik-2006-2017.md) verfolgt registrierte Konferenzleistungen von 2006–2009 und den späteren Wechsel in die Medienbranche. Ein besonders klarer Kontaktpfad führt von Vernon Jordan (damals Lazard) und Eric Schmidt (Google) bei Bilderberg 2007 zur von Jordan bestätigten Einladung an den Economic Club of Washington und zum tatsächlich abgehaltenen Vortrag 2008.
+
+[Britische Parlaments- und Charity-Akten](../research/bilderberg-uk-minister-transparenz-polizeikosten-1993-2013.md) · [Jordan/Schmidt-Kontaktwirkung](../research/bilderberg-jordan-schmidt-kontaktwirkung-2007-2008.md) · [Bilderberg-Netzwerk](../generated/network-focus-bilderberg.md)
+
 ## Offene, ausdrücklich getrennte Fragen
 
 Die verbreitete angebliche Dankesrede David Rockefellers von 1991 an Medienverleger für jahrzehntelange Diskretion bleibt **ohne authentisch nachgewiesenes Redeoriginal**. Schon die 1974er Organisationsanweisung liefert einen belastbaren Originalbeleg für die Vertraulichkeit der Konferenzberatungen. Ein nachweislicher gemeinsamer Beschluss der Teilnehmer zur Steuerung einer konkreten staatlichen Entscheidung kann daraus nicht abgeleitet werden.
