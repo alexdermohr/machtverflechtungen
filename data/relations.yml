@@ -3521,7 +3521,7 @@ relations:
     type: "administrative_sanction"
     label: "Sanktionsbescheid wirksam ab 09.02.1998; kein Strafurteil"
     evidence_level: "established"
-    sources: ["SRC-ULF-FR-BALANIAN"]
+    sources: ["SRC-ULF-FR-BALANIAN", "SRC-ULF-CSL-20261124"]
     period: {"start": "1998-02-09"}
 
   - id: REL-ULF-ROSE-SANCTION
@@ -3530,7 +3530,7 @@ relations:
     type: "administrative_sanction"
     label: "Sanktionsbescheid wirksam ab 25.09.1997"
     evidence_level: "established"
-    sources: ["SRC-ULF-FR-ROSE"]
+    sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
     period: {"start": "1997-09-25"}
 
   - id: REL-ULF-ROSE-COMPANY-SANCTION
@@ -3539,7 +3539,7 @@ relations:
     type: "administrative_sanction"
     label: "Gesonderter Sanktionsbescheid wirksam ab 25.09.1997"
     evidence_level: "established"
-    sources: ["SRC-ULF-FR-ROSE"]
+    sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
     period: {"start": "1997-09-25"}
 
   - id: REL-ULF-WOOLSEY-GMF-1
@@ -3719,3 +3719,29 @@ relations:
     evidence_level: "established"
     sources: ["SRC-ULF-TK-DRPR"]
     period: {"start": "2013", "end": "2015"}
+
+  - id: REL-ULF-PARK-ROLE
+    from: "PER-DE-UDO-ULFKOTTE"
+    to: "ORG-DE-PARK-AVENUE"
+    type: "journalist_role"
+    label: "Zeitgenössisch als Chefreporter bezeichnet; Ausscheiden bis 30.06.2006 berichtet"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-KRESS-PARK-2006"]
+    period: {"start": "2006", "end": "2006-06-30"}
+
+  - id: REL-ULF-PARK-PUBLISHER
+    from: "ORG-DE-GRUNER-JAHR"
+    to: "ORG-DE-PARK-AVENUE"
+    type: "publisher"
+    label: "Verlag zur Testausgabe Juni und zum regulären Start Oktober 2005"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-HORIZONT-PARK-2005"]
+    period: {"start": "2005", "end": "2005"}
+
+  - id: REL-ULF-PARK-RECRUITMENT
+    from: "PER-DE-HOLGER-CHRISTMANN"
+    to: "PER-DE-UDO-ULFKOTTE"
+    type: "reported_recruitment"
+    label: "Von zeitgenössischem Branchenbericht als berufliche Vermittlung zum Magazin Park Avenue beschrieben; kein Geheimdienstbezug belegt"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-KRESS-PARK-2006"]

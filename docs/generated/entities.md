@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**357 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**360 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -48,6 +48,7 @@
 | Heinz Vietze | person | `PER-DE-HEINZ-VIETZE` | DE | [1](network.md#rel-de-bb-verfg-2004-002) |
 | Helmut Kohl (1930–2017) | person | `PER-DE-HELMUT-KOHL` | DE | [1](network.md#rel-de-ab-kiep-kohl-1993-001) |
 | Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
+| Holger Christmann | person | `PER-DE-HOLGER-CHRISTMANN` | DE | [1](network.md#rel-ulf-park-recruitment) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
@@ -108,7 +109,7 @@
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
-| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [7](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
+| Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [9](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
@@ -239,6 +240,7 @@
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
 | German Marshall Fund of the United States (GMF) | transatlantic_foundation | `ORG-US-GMF-2012` | US | [11](network.md#rel-de-ab-jour-gmf-1992-001) |
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |
+| Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
@@ -266,7 +268,6 @@
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
-| Mykonos-Ermittlungsverfahren (Aktenbeschränkung 1992) | documented_proceeding | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
 | National Security Council (USA, 1953–1954) | historical_federal_security_policy_council | `ORG-US-NSC-1953` | US | [1](network.md#rel-us-nsc-doj-ufco-antitrust-delay-1953) |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
@@ -289,6 +290,7 @@
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
+| Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Partido Demócrata Cristiano de Chile (PDC) | historical_political_party | `ORG-CL-CHRISTIAN-DEMOCRATS-1964` | CL | [1](network.md#rel-us-cia-pdc-campaign-1964) |
 | Petroquímica Dow S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-PETROQUIMICA-DOW-1974` | CL | [1](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
@@ -307,6 +309,7 @@
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
+| Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |

@@ -1939,9 +1939,10 @@ entities:
     countries: ["DE"]
 
   - id: DOC-DE-MYKONOS-ERMITTLUNG-1992
-    type: "documented_proceeding"
-    name: "Mykonos-Ermittlungsverfahren (Aktenbeschränkung 1992)"
+    type: "official_document"
+    name: "Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992)"
     countries: ["DE"]
+    notes: "Dokumentknoten zur amtlich bestätigten Sperrerklärung und Beschränkung des Zugangs zum ursprünglichen BND-Schreiben; kein Akteur und keine Feststellung einer Verfahrenssabotage. BT-Plenarprotokoll 12/208, Anlage 13."
 
   - id: ORG-DE-THYSSENKRUPP
     type: "company"
@@ -1976,4 +1977,20 @@ entities:
   - id: PER-DE-ALEXANDER-WILKE
     type: "person"
     name: "Alexander Wilke"
+    countries: ["DE"]
+
+  - id: ORG-DE-PARK-AVENUE
+    type: "media_outlet"
+    name: "Park Avenue (Gruner + Jahr)"
+    countries: ["DE"]
+    notes: "Magazin mit Testausgabe Juni 2005, regulärer Start Ende Oktober 2005; historischer redaktioneller Kontext."
+
+  - id: ORG-DE-GRUNER-JAHR
+    type: "media_company"
+    name: "Gruner + Jahr (historischer Verlag)"
+    countries: ["DE"]
+
+  - id: PER-DE-HOLGER-CHRISTMANN
+    type: "person"
+    name: "Holger Christmann"
     countries: ["DE"]

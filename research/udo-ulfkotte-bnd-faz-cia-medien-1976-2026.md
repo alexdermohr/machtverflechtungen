@@ -191,3 +191,15 @@ Eine **aktuelle Drittanbieter-Sanktionsaggregation** führt Balanian auch in ihr
 ### Netzwerkintegration (24.11.2026)
 
 Neun BND-Gespräche mit Balanian und die drei US-Sanktionsadressaten werden als eigenständige belegte Beziehungen erfasst. Quellenstatus, BND-Autorschaft und direkte Exportmitwirkung bleiben offen.
+
+### Amtlicher Gegenabgleich vom 24.11.2026
+
+Der [amtliche ITA-CSL-Gesamtdownload (CSV)](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv), Last-Modified 24.11.2026 05:30:38 UTC, wurde mit HTTP 200 vollständig gelesen (19.083.418 Bytes; SHA-256 b89fdb22ff55bd9e269946981ad21ac57cae68450d8d13fce106c2f8cb52e34a). Die Suche nach den drei Namen lieferte genau drei Datensätze unter „Nonproliferation Sanctions (ACN) - State Department“, Programm „Chemical and Biological Weapons Act“:
+
+| Name | Startdatum | Federal Register | Enddatum |
+|---|---|---|---|
+| Berge Aris Balanian | 1998-02-09 | Vol. 63, No. 35, 02/23/1998 | leer |
+| Hans-Joachim Rose | 1997-09-25 | Vol. 62, No. 192, 10/03/1997 | leer |
+| Rose Import-Export GMBH | 1997-09-25 | Vol. 62, No. 192, 10/03/1997 | leer |
+
+Die amtliche Momentaufnahme vom 24.11.2026 bestätigt die aktuelle Listung aller drei Adressaten und die historischen Verfügungsreferenzen. Sie stützt die Erklärung eines administrativen Listenwechsels statt einer neuen Sanktion im Oktober 2026. Sie ersetzt nicht die rechtliche Prüfung des Bundesregisters auf spätere Einzelverfügungen. Die [ITA-Beschreibung der CSL](https://www.trade.gov/consolidated-screening-list) nennt als aktuelle zuständige Liste ACN und verweist für verbindliche Sanktionsentscheidungen auf das Federal Register. Der frühere Download-Blocker ist damit für diese Recherche beseitigt. Die CSV ist dynamisch; Hash und Last-Modified fixieren die ausgewertete Fassung. Der Ulfkotte-/BND-Komplex bleibt von diesen Maßnahmen getrennt.

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**412 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**415 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -763,7 +763,7 @@ flowchart LR
     N_PER_DE_BERND_SCHMIDBAUER["Bernd Schmidbauer"]
     N_PER_IR_ALI_FALLAHIAN -->|"Eingeräumte Forderung zur Einflussnahme auf Mykonos-Verfahren 1993; laut Schmidbauer sofort zurückgewiesen"| N_PER_DE_BERND_SCHMIDBAUER
     N_ORG_DE_BUNDESKANZLERAMT["Bundeskanzleramt"]
-    N_DOC_DE_MYKONOS_ERMITTLUNG_1992["Mykonos-Ermittlungsverfahren (Aktenbeschränkung 1992)"]
+    N_DOC_DE_MYKONOS_ERMITTLUNG_1992["Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992)"]
     N_ORG_DE_BUNDESKANZLERAMT -->|"Sperrerklärung 04.12.1992 und ersetztes BND-Schreiben; keine belegte Verbindung zum späteren Fallahian-Treffen"| N_DOC_DE_MYKONOS_ERMITTLUNG_1992
     N_ORG_DE_THYSSENKRUPP["ThyssenKrupp AG"]
     N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_FAZ
@@ -780,6 +780,12 @@ flowchart LR
     N_PER_DE_JUERGEN_CLAASSEN -->|"Vorstandsverantwortung im Untersuchungszeitraum; Ausscheiden 31.12.2012"| N_ORG_DE_THYSSENKRUPP
     N_PER_DE_ALEXANDER_WILKE["Alexander Wilke"]
     N_PER_DE_ALEXANDER_WILKE -->|"Kommunikationsverantwortung und Aufarbeitung gegenüber DRPR"| N_ORG_DE_THYSSENKRUPP
+    N_ORG_DE_PARK_AVENUE["Park Avenue (Gruner + Jahr)"]
+    N_PER_DE_UDO_ULFKOTTE -->|"Zeitgenössisch als Chefreporter bezeichnet; Ausscheiden bis 30.06.2006 berichtet"| N_ORG_DE_PARK_AVENUE
+    N_ORG_DE_GRUNER_JAHR["Gruner + Jahr (historischer Verlag)"]
+    N_ORG_DE_GRUNER_JAHR -->|"Verlag zur Testausgabe Juni und zum regulären Start Oktober 2005"| N_ORG_DE_PARK_AVENUE
+    N_PER_DE_HOLGER_CHRISTMANN["Holger Christmann"]
+    N_PER_DE_HOLGER_CHRISTMANN -->|"Von zeitgenössischem Branchenbericht als berufliche Vermittlung zum Magazin Park Avenue beschrieben; kein Geheimdienstbezug belegt"| N_PER_DE_UDO_ULFKOTTE
 ```
 
 [Zur Relationstabelle](network.md)

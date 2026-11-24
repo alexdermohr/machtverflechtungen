@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**368 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**371 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3886,6 +3886,21 @@ Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-ulf-csl-20261124"></a>
+### U.S. International Trade Administration
+
+**[Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)**
+
+U.S. International Trade Administration · 2026-11-24 · Stufe **A** · Primärquelle · `SRC-ULF-CSL-20261124`
+
+[Seite öffnen](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)
+
+Fundstelle: Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
 
 <a id="src-us-nmt-dest-funk-19410519"></a>
@@ -4338,7 +4353,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -4908,6 +4923,21 @@ Fundstelle: S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlun
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
+
+<a id="src-ulf-horizont-park-2005"></a>
+### HORIZONT
+
+**[G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)**
+
+HORIZONT · 2005-10-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-HORIZONT-PARK-2005`
+
+[Seite öffnen](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)
+
+Fundstelle: Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
 
 <a id="src-de-imi-kirsch-psv-2014"></a>
@@ -5010,6 +5040,21 @@ Konrad-Adenauer-Stiftung, Geschichte der CDU · 2015 · Stufe **B** · Sekundär
 [Seite öffnen](https://www.kas.de/en/web/geschichte-der-cdu/significant-figures/biogram-detail/-/content/werner-marx)
 
 Fundstelle: 1972: Ende des von KAS genannten SfZ-Vorsitzes 1965–1972; vorher BMVg-Referat Psychologische Kriegsführung ab 1958; Vorsitz Verteidigungsausschuss 1980–1982
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2006">
+
+<a id="src-ulf-kress-park-2006"></a>
+### kress
+
+**[Aufruhr in der Parkstraße bei Gruner+Jahr](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)**
+
+kress · 2006-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-KRESS-PARK-2006`
+
+[Seite öffnen](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)
+
+Fundstelle: Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006.
 
 </article>
 

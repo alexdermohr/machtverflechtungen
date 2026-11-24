@@ -4203,3 +4203,38 @@ sources:
   url: "https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf"
   accessed: "2026-11-24"
   locator: "Vergleichskontext journalistischer Zuwendungen."
+
+- id: SRC-ULF-CSL-20261124
+  title: "Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026"
+  institution: "U.S. International Trade Administration"
+  date: "2026-11-24"
+  type: "official_data"
+  primary: true
+  tier: "A"
+  url: "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv"
+  accessed: "2026-11-24"
+  sha256: "b89fdb22ff55bd9e269946981ad21ac57cae68450d8d13fce106c2f8cb52e34a"
+  locator: "Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert."
+  notes: "Dynamische amtliche Screeningliste, keine neue Einzelverfügung. Der Hash bindet die am Abrufdatum ausgewertete Version."
+
+- id: SRC-ULF-KRESS-PARK-2006
+  title: "Aufruhr in der Parkstraße bei Gruner+Jahr"
+  institution: "kress"
+  date: "2006-06-30"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html"
+  accessed: "2026-11-24"
+  locator: "Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006."
+
+- id: SRC-ULF-HORIZONT-PARK-2005
+  title: "G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten"
+  institution: "HORIZONT"
+  date: "2005-10-24"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044"
+  accessed: "2026-11-24"
+  locator: "Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag."

@@ -478,7 +478,7 @@ studies:
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
 
   udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md:
-    sha256: 3f79b083f6650df69bcd632ad780c3e0a960ff0799d15192193270ece972cf4a
+    sha256: f54294136460cb3c16bf4b66abcafad9fdacc3fd9c3c6a8f757bea2069584512
     status: network
     relation_ids:
       - REL-ULF-BALANIAN-CONTACT
@@ -487,7 +487,7 @@ studies:
       - REL-ULF-ROSE-COMPANY-SANCTION
 
   udo-ulfkotte-weitere-aussagen-shell-gmf-chemiewaffen-medien-1984-2016.md:
-    sha256: 2368536d30c6128edd773bf09ec9979c2f537221d3df02183f7ae53f97607de3
+    sha256: b565feda21ac126b472a0d787b33b4fd7f970fe16cfe8c9789815c7ed85f8285
     status: network
     relation_ids:
       - REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
@@ -502,6 +502,9 @@ studies:
       - REL-ULF-GMF-MMF
       - REL-ULF-GMF-JOURNALISM
       - REL-ULF-GMF-NFF
+      - REL-ULF-PARK-ROLE
+      - REL-ULF-PARK-PUBLISHER
+      - REL-ULF-PARK-RECRUITMENT
 
   udo-ulfkotte-bka-mykonos-verschlusssachen-bundestag-1996-1997.md:
     sha256: 3475cb9aeb80ffe711771fa7d5448fc0413cea53eed332049c7fde81e2f4c9cc
