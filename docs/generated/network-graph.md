@@ -858,7 +858,7 @@ flowchart LR
     N_ORG_US_MCDONNELL_DOUGLAS_1992 -->|"McDonnell-Douglas-Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
     N_ORG_US_BOEING_1993["Boeing (1993–1996)"]
     N_ORG_US_BOEING_1993 -->|"05.08.1993: Unternehmensvertreter Hayden/Blay wünschen Schutz vor fremder Spionage, lehnen Beschaffung fremder Geschäftsgeheimnisse ab"| N_ORG_US_SSCI
-    N_ORG_US_TPCC_ADVOCACY["Advocacy Coordinating Network / Advocacy Center (1993–1994)"]
+    N_ORG_US_TPCC_ADVOCACY["Advocacy Coordinating Network (1993–1994)"]
     N_ORG_US_COMMERCE -->|"Seit November 1993 Exportförderungskoordination mit 17 Behörden laut National Export Strategy"| N_ORG_US_TPCC_ADVOCACY
     N_ORG_US_STATE_DEPARTMENT -->|"Diplomatische Beteiligung an behördenübergreifender Exportförderung 1994"| N_ORG_US_TPCC_ADVOCACY
     N_ORG_US_EXIMBANK_1994["Export–Import Bank of the United States (Exportfinanzierung 1994–1997)"]
@@ -882,22 +882,22 @@ flowchart LR
     N_ORG_US_EXIMBANK_1994 -->|"Resolution 96 genehmigt Weiterleitung von EXIM-Mitteln durch die Grand-Cayman-Niederlassung"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
     N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994 -->|"1.288.255.370 USD genehmigte externe Kreditoperation laut Art. 1; keine tatsächliche Zahlung belegt"| N_ORG_BR_UNION_SIVAM
     N_ORG_US_RAYTHEON_1994 -->|"Resolution 97: 239,2 Mio. USD genehmigter Lieferantenkredit, 9 Prozent Festzins nach ursprünglicher Regelung"| N_ORG_BR_UNION_SIVAM
-    N_DOC_BR_CCSIVAM_RAYTHEON_0195["Vertrag 01/95 – CCSIVAM/Raytheon"]
-    N_ORG_BR_SENADO_FEDERAL -->|"Resolutionen 96/97 Art. 3: Abschluss des kommerziellen Vertrags als Voraussetzung für Finanzierungsverträge"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_SENADO_FEDERAL -->|"Resolutionen 96/97 Art. 3: geplanter CCSIVAM-Vertrag mit ESCA/Raytheon-Konsortium als Finanzierungsbedingung; nicht mit späterem Vertrag 01/95 gleichgesetzt"| N_PRG_BR_SIVAM
     N_ORG_US_EXIMBANK_1994 -->|"EXIM-Rückblick: 1994 ca. 1,3 Mrd. USD bewilligt; GAO AP 67303 bestätigt Datum und spätere Kreditänderung"| N_PRG_BR_SIVAM
     N_ORG_US_EXIMBANK_1994 -->|"04.03.1997: 34 Mio. USD Kreditänderung AP 67303, Raytheon-Lieferungen; nicht zusätzlich zur ursprünglichen Gesamtsumme addieren"| N_PRG_BR_SIVAM
     N_ORG_BR_CCSIVAM["Comissão de Coordenação de Implantação do SIVAM (CCSIVAM)"]
+    N_DOC_BR_CCSIVAM_RAYTHEON_0195["Vertrag 01/95 – CCSIVAM/Raytheon"]
     N_ORG_BR_CCSIVAM -->|"Vertrag 01/95 CCSIVAM/Raytheon, aus gerichtlicher Wiedergabe identifiziert; vollständiger Vertragsvolltext fehlt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
     N_ORG_US_RAYTHEON_1994 -->|"Vertrag 01/95 mit CCSIVAM; ursprüngliche Aufgabenabgrenzung gerichtlich beanstandet"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
     N_ORG_BR_ESCA["ESCA – Engenharia de Controle e Automação S.A."]
     N_ORG_BR_ESCA -->|"Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"| N_PRG_BR_SIVAM
     N_ORG_BR_ATECH_FOUNDATION["Fundação Aplicações de Tecnologias Críticas (ATECH)"]
-    N_ORG_BR_ATECH_FOUNDATION -->|"Spätere Vertragsänderungen übertragen strategische Informationsverarbeitung an ATECH laut STJ-Urteil"| N_PRG_BR_SIVAM
+    N_ORG_BR_ATECH_FOUNDATION -->|"STJ-Urteil 2008 beschreibt spätere Vertragsänderungen: strategische Informationsverarbeitung an ATECH; keine erst 2008 erfolgte Beauftragung behauptet"| N_PRG_BR_SIVAM
     N_ORG_BR_UNION_SIVAM -->|"Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"| N_PRG_BR_SIVAM
     N_ORG_BR_CPI_SIVAM_2002["CPI SIVAM (Câmara dos Deputados)"]
     N_ORG_BR_CPI_SIVAM_2002 -->|"CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"| N_PRG_BR_SIVAM
     N_ORG_BR_MPF["Ministério Público Federal (Brasilien)"]
-    N_ORG_BR_CPI_SIVAM_2002 -->|"Abschlussbericht und gesonderte Gegenunterlagen an MPF weitergegeben; Verfahrensausgang offen"| N_ORG_BR_MPF
+    N_ORG_BR_CPI_SIVAM_2002 -->|"Abschlussbericht und gesonderte Gegenunterlagen zur Weitergabe an MPF bestimmt; Eingangsbeleg und Verfahrensausgang offen"| N_ORG_BR_MPF
     N_ORG_BR_TRF4["Tribunal Regional Federal da 4ª Região"]
     N_ORG_BR_TRF4 -->|"2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
     N_ORG_BR_STJ["Superior Tribunal de Justiça (STJ)"]

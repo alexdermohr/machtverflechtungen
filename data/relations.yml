@@ -4277,9 +4277,9 @@ relations:
 
   - id: REL-WS-SENATE-CONTRACT
     from: "ORG-BR-SENADO-FEDERAL"
-    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    to: "PRG-BR-SIVAM"
     type: "statutory_financing_condition"
-    label: "Resolutionen 96/97 Art. 3: Abschluss des kommerziellen Vertrags als Voraussetzung für Finanzierungsverträge"
+    label: "Resolutionen 96/97 Art. 3: geplanter CCSIVAM-Vertrag mit ESCA/Raytheon-Konsortium als Finanzierungsbedingung; nicht mit späterem Vertrag 01/95 gleichgesetzt"
     evidence_level: "established"
     sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R97-1994"]
     period: {"start": "1994-12-27", "end": "1994-12-27"}
@@ -4333,7 +4333,7 @@ relations:
     from: "ORG-BR-ATECH-FOUNDATION"
     to: "PRG-BR-SIVAM"
     type: "reported_contract_amendment"
-    label: "Spätere Vertragsänderungen übertragen strategische Informationsverarbeitung an ATECH laut STJ-Urteil"
+    label: "STJ-Urteil 2008 beschreibt spätere Vertragsänderungen: strategische Informationsverarbeitung an ATECH; keine erst 2008 erfolgte Beauftragung behauptet"
     evidence_level: "established"
     sources: ["SRC-WS-BR-STJ-719548"]
     period: {"start": "2008", "end": "2008"}
@@ -4360,7 +4360,7 @@ relations:
     from: "ORG-BR-CPI-SIVAM-2002"
     to: "ORG-BR-MPF"
     type: "referral_for_investigation"
-    label: "Abschlussbericht und gesonderte Gegenunterlagen an MPF weitergegeben; Verfahrensausgang offen"
+    label: "Abschlussbericht und gesonderte Gegenunterlagen zur Weitergabe an MPF bestimmt; Eingangsbeleg und Verfahrensausgang offen"
     evidence_level: "established"
     sources: ["SRC-WS-BR-CPI-2002", "SRC-WS-BR-CPI-0528-02"]
     period: {"start": "2002-06-04", "end": "2002-06-04"}

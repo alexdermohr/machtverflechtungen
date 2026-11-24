@@ -134,7 +134,7 @@
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
-| Advocacy Coordinating Network / Advocacy Center (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
+| Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
 | American Council on Germany (ACG) | transatlantic_nonprofit | `ORG-US-ACG-2012` | US | [8](network.md#rel-us-gmf-acg-2012-001) |
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
@@ -344,7 +344,7 @@
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [2](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
-| Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [7](network.md#rel-ws-advocacy-sivam) |
+| Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [8](network.md#rel-ws-advocacy-sivam) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -394,7 +394,7 @@
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
-| Vertrag 01/95 – CCSIVAM/Raytheon | historical_contract | `DOC-BR-CCSIVAM-RAYTHEON-0195` | BR, US | [5](network.md#rel-ws-senate-contract) |
+| Vertrag 01/95 – CCSIVAM/Raytheon | historical_contract | `DOC-BR-CCSIVAM-RAYTHEON-0195` | BR, US | [4](network.md#rel-ws-ccsivam-contract) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |

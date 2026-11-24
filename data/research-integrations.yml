@@ -707,7 +707,7 @@ studies:
       - REL-CL-ALLENDE-CHAMBER-WITHDRAWAL-1971
 
   woolsey-wirtschaftsaufklaerung-osac-sivam-1985-2008.md:
-    sha256: 1a5c6455881ba672765eec2700a5aa85fb5cf615a80bef3f51cb6de6ccaf3b9d
+    sha256: c53f18f87adc5e638c2fb0b4eab0401aa4487c13d09b52e79ec2a1182bf5613d
     status: network
     relation_ids:
       - REL-WS-IC-STATE

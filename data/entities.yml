@@ -2124,9 +2124,9 @@ entities:
 
   - id: ORG-US-TPCC-ADVOCACY
     type: "interagency_network"
-    name: "Advocacy Coordinating Network / Advocacy Center (1993–1994)"
+    name: "Advocacy Coordinating Network (1993–1994)"
     countries: ["US"]
-    notes: "Exportförderungskoordination; nicht mit OSAC oder Geheimdienst gleichzusetzen."
+    notes: "Behördenübergreifendes Exportförderungsnetz mit Advocacy Center bei Commerce als Koordinationsstelle; nicht mit OSAC oder Geheimdienst gleichzusetzen."
 
   - id: ORG-US-EXIMBANK-1994
     type: "historical_federal_export_credit_agency"
