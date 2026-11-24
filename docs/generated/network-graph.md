@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**388 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**412 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -733,6 +733,53 @@ flowchart LR
     N_ORG_US_COMMERCIAL_BANKS_CHILE_1975["US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"]
     N_ORG_US_COMMERCIAL_BANKS_CHILE_1975 -->|"US-Botschaft Santiago 04.04.1975 referiert Minister Saez: nicht namentlich genannte US-Banken hielten neue Kurzfristkredite bis Pariser-Club-Vereinbarung zurück; keine individuelle Bankweisung geprüft."| N_ORG_CL_MILITARY_JUNTA_1973
     N_ORG_CL_MILITARY_JUNTA_1973 -->|"US-Botschaft Bonn 06.05.1975: Chilenische Botschaft übergab am 02.05.1975 deutschem Ministerialbeamten Müller-Thuns Forderungs-/Zahlungsplanliste u.a. ITT und OPIC; Anlage liegt nicht vor."| N_ORG_DE_FRG_CREDITOR_GOVERNMENT_1972_1975
+    N_PER_INT_BERGE_BALANIAN["Berge Aris Balanian"]
+    N_ORG_DE_BND -->|"Neun amtlich bestätigte Gespräche ab September 1992; formeller Quellenstatus offen"| N_PER_INT_BERGE_BALANIAN
+    N_ORG_US_STATE_DEPARTMENT["US Department of State"]
+    N_ORG_US_STATE_DEPARTMENT -->|"Sanktionsbescheid wirksam ab 09.02.1998; kein Strafurteil"| N_PER_INT_BERGE_BALANIAN
+    N_PER_DE_HANS_JOACHIM_ROSE["Hans-Joachim Rose"]
+    N_ORG_US_STATE_DEPARTMENT -->|"Sanktionsbescheid wirksam ab 25.09.1997"| N_PER_DE_HANS_JOACHIM_ROSE
+    N_ORG_DE_ROSE_IMPORT_EXPORT["Rose Import-Export GmbH"]
+    N_ORG_US_STATE_DEPARTMENT -->|"Gesonderter Sanktionsbescheid wirksam ab 25.09.1997"| N_ORG_DE_ROSE_IMPORT_EXPORT
+    N_PER_US_SUZANNE_WOOLSEY["Suzanne H. Woolsey"]
+    N_PER_US_SUZANNE_WOOLSEY -->|"GMF-Kuratorium 1992–2000"| N_ORG_US_GMF_2012
+    N_PER_US_SUZANNE_WOOLSEY -->|"GMF-Kuratorium 2002–2010"| N_ORG_US_GMF_2012
+    N_ORG_US_FLUOR["Fluor Corporation"]
+    N_PER_US_SUZANNE_WOOLSEY -->|"Verwaltungsratsmandat 2004–2014"| N_ORG_US_FLUOR
+    N_ORG_US_IDA["Institute for Defense Analyses"]
+    N_PER_US_SUZANNE_WOOLSEY -->|"IDA-Mandat in SEC-Offenlegung 2005"| N_ORG_US_IDA
+    N_ORG_US_RMI["Rocky Mountain Institute"]
+    N_PER_US_SUZANNE_WOOLSEY -->|"RMI-Mandat in SEC-Offenlegung 2005"| N_ORG_US_RMI
+    N_PER_US_JAMES_WOOLSEY["R. James Woolsey"]
+    N_PER_US_SUZANNE_WOOLSEY -->|"Öffentlich dokumentiertes Eheverhältnis, Stand 2004"| N_PER_US_JAMES_WOOLSEY
+    N_PER_DE_KLAUS_DIETER_FRANKENBERGER -->|"Teilnehmer Brussels Forum 2007 (FAZ)"| N_ORG_US_GMF_2012
+    N_PRG_US_GMF_MARSHALL_MEMORIAL["Marshall Memorial Fellowship"]
+    N_ORG_US_GMF_2012 -->|"Betreibt Austauschprogramm Marshall Memorial Fellowship"| N_PRG_US_GMF_MARSHALL_MEMORIAL
+    N_PRG_US_GMF_JOURNALISM["GMF Journalism Fellowship"]
+    N_ORG_US_GMF_2012 -->|"Journalism Fellowship seit 1999, getrennt vom MMF"| N_PRG_US_GMF_JOURNALISM
+    N_ORG_US_NATIONAL_FORUM_FOUNDATION["National Forum Foundation"]
+    N_ORG_US_GMF_2012 -->|"In externer Programminventur 1990 genannte Förderung; keine Zahlungsabrechnung"| N_ORG_US_NATIONAL_FORUM_FOUNDATION
+    N_PER_IR_ALI_FALLAHIAN["Ali Fallahian"]
+    N_PER_DE_BERND_SCHMIDBAUER["Bernd Schmidbauer"]
+    N_PER_IR_ALI_FALLAHIAN -->|"Eingeräumte Forderung zur Einflussnahme auf Mykonos-Verfahren 1993; laut Schmidbauer sofort zurückgewiesen"| N_PER_DE_BERND_SCHMIDBAUER
+    N_ORG_DE_BUNDESKANZLERAMT["Bundeskanzleramt"]
+    N_DOC_DE_MYKONOS_ERMITTLUNG_1992["Mykonos-Ermittlungsverfahren (Aktenbeschränkung 1992)"]
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Sperrerklärung 04.12.1992 und ersetztes BND-Schreiben; keine belegte Verbindung zum späteren Fallahian-Treffen"| N_DOC_DE_MYKONOS_ERMITTLUNG_1992
+    N_ORG_DE_THYSSENKRUPP["ThyssenKrupp AG"]
+    N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_FAZ
+    N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_SUEDDEUTSCHE_ZEITUNG
+    N_ORG_DE_TAGESSPIEGEL["Der Tagesspiegel"]
+    N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_TAGESSPIEGEL
+    N_ORG_DE_RHEINISCHE_POST["Rheinische Post"]
+    N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_RHEINISCHE_POST
+    N_ORG_DE_NRZ["Neue Ruhr / Neue Rhein Zeitung"]
+    N_ORG_DE_THYSSENKRUPP -->|"Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"| N_ORG_DE_NRZ
+    N_ORG_DE_DRPR["Deutscher Rat für Public Relations"]
+    N_ORG_DE_DRPR -->|"Ermahnung wegen unverhältnismäßiger Pressereisen; ausdrücklich keine formelle Rüge"| N_ORG_DE_THYSSENKRUPP
+    N_PER_DE_JUERGEN_CLAASSEN["Jürgen Claassen"]
+    N_PER_DE_JUERGEN_CLAASSEN -->|"Vorstandsverantwortung im Untersuchungszeitraum; Ausscheiden 31.12.2012"| N_ORG_DE_THYSSENKRUPP
+    N_PER_DE_ALEXANDER_WILKE["Alexander Wilke"]
+    N_PER_DE_ALEXANDER_WILKE -->|"Kommunikationsverantwortung und Aufarbeitung gegenüber DRPR"| N_ORG_DE_THYSSENKRUPP
 ```
 
 [Zur Relationstabelle](network.md)

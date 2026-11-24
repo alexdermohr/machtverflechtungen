@@ -111,4 +111,8 @@ Die Kritik von 1997 macht die Bundestagsakte als **Gegenprobe** besonders wertvo
 - **[Q13; A]** Deutscher Bundestag, [**Plenarprotokoll 12/225**, **28.04.1994**, gedruckte **S. 19420–19421**](https://dserver.bundestag.de/btp/12/12225.pdf); Fragestunde **Ingrid Köppe ↔ Bernd Schmidbauer**, eigenständige Bestätigung des iranischen Vorschlags zur Prozessbeeinflussung und die Regierungsposition, dieser sei sofort zurückgewiesen worden.
 - **[Q14; B]** *taz*/dpa, [**„Teheran wollte Mykonos-Prozeß verhindern“, 18.03.1994**](https://taz.de/Teheran-wollte-Mykonos-Prozess-verhindern/!1571554/); zeitgenössischer Bericht über die Zeugenaussage Schmidbauers am **17.03.1994** vor dem Kammergericht.
 
-**Integrationsentscheidung:** Nur die **konkrete BKA-Einladung zur Mykonos-Besprechung am 27.11.1996** ist als neue Beziehung hinreichend belegt. Weder ein Kanzleramt-/BND-Verschlusssachenfluss noch die Einordnung als CIA-/BND-Agent werden durch diesen amtlichen Quellenkomplex bewiesen.
+**Integrationsentscheidung:** Die **konkrete BKA-Einladung zur Mykonos-Besprechung am 27.11.1996**, der amtlich bestätigte Interventionsversuch und die Sperrerklärung sind als voneinander getrennte Beziehungen belegt. Weder ein Kanzleramt-/BND-Verschlusssachenfluss noch die Einordnung als CIA-/BND-Agent werden durch diesen amtlichen Quellenkomplex bewiesen.
+
+### Netzwerkintegration (24.11.2026)
+
+Fallahian–Schmidbauer und die Sperrerklärung des Bundeskanzleramts werden separat modelliert. Die Sperrerklärung liegt vor dem Treffen; die erklärte Zurückweisung und fehlende Beweise erfolgreicher Verfahrensbeeinflussung bleiben bestehen.
