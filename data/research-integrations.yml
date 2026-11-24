@@ -478,22 +478,41 @@ studies:
       - REL-US-ERISA-VC-AGGREGATES-1976-1979-001
 
   udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md:
-    sha256: 50ee81db8f3509ccb9d38acfc99feed67a6ad8bd5c3b4a13aeed44319aaff376
-    status: no_network_relation
-    reason: "Die amtlich belegten BND-Observationen und Eingriffe in die Pressearbeit sind bereits in der Fallakte zu Medien und Nachrichtendiensten modelliert. Ulfkottes Behauptung einer konkreten BND-Autorschaft des FAZ-Artikels vom 16.03.1993 ist bislang nicht unabhängig belegt und begründet daher keine neue Netzwerkrelation."
+    sha256: f54294136460cb3c16bf4b66abcafad9fdacc3fd9c3c6a8f757bea2069584512
+    status: network
+    relation_ids:
+      - REL-ULF-BALANIAN-CONTACT
+      - REL-ULF-BALANIAN-SANCTION
+      - REL-ULF-ROSE-SANCTION
+      - REL-ULF-ROSE-COMPANY-SANCTION
 
   udo-ulfkotte-weitere-aussagen-shell-gmf-chemiewaffen-medien-1984-2016.md:
-    sha256: b269609399c146ec425a96ceca468a66cbe1f2c2cc2a772f1e21102a28b0983f
+    sha256: b565feda21ac126b472a0d787b33b4fd7f970fe16cfe8c9789815c7ed85f8285
     status: network
     relation_ids:
       - REL-INT-SHELL-ULFKOTTE-NIGERIA-1996-001
       - REL-INT-SHELL-FAZ-PR-REUSE-1996-001
+      - REL-ULF-WOOLSEY-GMF-1
+      - REL-ULF-WOOLSEY-GMF-2
+      - REL-ULF-WOOLSEY-FLUOR
+      - REL-ULF-WOOLSEY-IDA
+      - REL-ULF-WOOLSEY-RMI
+      - REL-ULF-WOOLSEY-MARRIAGE
+      - REL-ULF-FRANKENBERGER-GMF
+      - REL-ULF-GMF-MMF
+      - REL-ULF-GMF-JOURNALISM
+      - REL-ULF-GMF-NFF
+      - REL-ULF-PARK-ROLE
+      - REL-ULF-PARK-PUBLISHER
+      - REL-ULF-PARK-RECRUITMENT
 
   udo-ulfkotte-bka-mykonos-verschlusssachen-bundestag-1996-1997.md:
-    sha256: 1180fd69860596311830f049591a9d84bebba733ee6b3b97c46da5f115869c1e
+    sha256: 3475cb9aeb80ffe711771fa7d5448fc0413cea53eed332049c7fde81e2f4c9cc
     status: network
     relation_ids:
       - REL-DE-BKA-ULFKOTTE-MYKONOS-1996-001
+      - REL-ULF-FALLAHIAN-SCHMIDBAUER
+      - REL-ULF-KANZLERAMT-MYKONOS
   jeffrey-sachs-systemkritische-aussagen-1994-2026.md:
     sha256: eebbecab301f309e0cc48f66ee411cb094750dfcac494a87926aa3b540580408
     status: no_network_relation
@@ -633,6 +652,19 @@ studies:
     relation_ids:
       - REL-IT-P2-RIZZOLI-1975-1981-001
       - REL-IT-RIZZOLI-CORRIERE-1977-001
+
+  thyssenkrupp-pressereisen-medien-2010-2015.md:
+    sha256: 128e55f1c57acd686f0502f3d1263d62366036dbf24e50f920d2cf8a204563e6
+    status: network
+    relation_ids:
+      - REL-ULF-TK-TRIP-0
+      - REL-ULF-TK-TRIP-1
+      - REL-ULF-TK-TRIP-2
+      - REL-ULF-TK-TRIP-3
+      - REL-ULF-TK-TRIP-4
+      - REL-ULF-TK-DRPR
+      - REL-ULF-TK-CLAASSEN
+      - REL-ULF-TK-WILKE
   jeffrey-sachs-opic-anaconda-bank-of-america-garantien-1971-1978.md:
     sha256: 0cb1b426874ea6a04880950e45f1ed95019ae0098399fb4e9d96b7a00697cc42
     status: network

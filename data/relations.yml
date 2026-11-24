@@ -3505,6 +3505,246 @@ relations:
     period: {start: "1975-05-02"}
     evidence_level: strong
     sources: [SRC-US-DOS-CABLE-BONN-FRG-19750506]
+
+  - id: REL-ULF-BALANIAN-CONTACT
+    from: "ORG-DE-BND"
+    to: "PER-INT-BERGE-BALANIAN"
+    type: "documented_contacts"
+    label: "Neun amtlich bestätigte Gespräche ab September 1992; formeller Quellenstatus offen"
+    evidence_level: "established"
+    sources: ["SRC-ULF-BT-136613"]
+    period: {"start": "1992"}
+
+  - id: REL-ULF-BALANIAN-SANCTION
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "PER-INT-BERGE-BALANIAN"
+    type: "administrative_sanction"
+    label: "Sanktionsbescheid wirksam ab 09.02.1998; kein Strafurteil"
+    evidence_level: "established"
+    sources: ["SRC-ULF-FR-BALANIAN", "SRC-ULF-CSL-20261124"]
+    period: {"start": "1998-02-09"}
+
+  - id: REL-ULF-ROSE-SANCTION
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "PER-DE-HANS-JOACHIM-ROSE"
+    type: "administrative_sanction"
+    label: "Sanktionsbescheid wirksam ab 25.09.1997"
+    evidence_level: "established"
+    sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
+    period: {"start": "1997-09-25"}
+
+  - id: REL-ULF-ROSE-COMPANY-SANCTION
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-DE-ROSE-IMPORT-EXPORT"
+    type: "administrative_sanction"
+    label: "Gesonderter Sanktionsbescheid wirksam ab 25.09.1997"
+    evidence_level: "established"
+    sources: ["SRC-ULF-FR-ROSE", "SRC-ULF-CSL-20261124"]
+    period: {"start": "1997-09-25"}
+
+  - id: REL-ULF-WOOLSEY-GMF-1
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "ORG-US-GMF-2012"
+    type: "board_member"
+    label: "GMF-Kuratorium 1992–2000"
+    evidence_level: "established"
+    sources: ["SRC-ULF-SEC-2014"]
+    period: {"start": "1992", "end": "2000"}
+
+  - id: REL-ULF-WOOLSEY-GMF-2
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "ORG-US-GMF-2012"
+    type: "board_member"
+    label: "GMF-Kuratorium 2002–2010"
+    evidence_level: "established"
+    sources: ["SRC-ULF-SEC-2014", "SRC-ULF-GMF-2006"]
+    period: {"start": "2002", "end": "2010"}
+
+  - id: REL-ULF-WOOLSEY-FLUOR
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "ORG-US-FLUOR"
+    type: "board_member"
+    label: "Verwaltungsratsmandat 2004–2014"
+    evidence_level: "established"
+    sources: ["SRC-ULF-SEC-2005", "SRC-ULF-SEC-2014"]
+    period: {"start": "2004", "end": "2014"}
+
+  - id: REL-ULF-WOOLSEY-IDA
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "ORG-US-IDA"
+    type: "board_member"
+    label: "IDA-Mandat in SEC-Offenlegung 2005"
+    evidence_level: "established"
+    sources: ["SRC-ULF-SEC-2005"]
+    period: {"start": "2005", "end": "2005"}
+
+  - id: REL-ULF-WOOLSEY-RMI
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "ORG-US-RMI"
+    type: "board_member"
+    label: "RMI-Mandat in SEC-Offenlegung 2005"
+    evidence_level: "established"
+    sources: ["SRC-ULF-SEC-2005"]
+    period: {"start": "2005", "end": "2005"}
+
+  - id: REL-ULF-WOOLSEY-MARRIAGE
+    from: "PER-US-SUZANNE-WOOLSEY"
+    to: "PER-US-JAMES-WOOLSEY"
+    type: "spouse"
+    label: "Öffentlich dokumentiertes Eheverhältnis, Stand 2004"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-LAT-2004"]
+    period: {"start": "2004", "end": "2004"}
+
+  - id: REL-ULF-FRANKENBERGER-GMF
+    from: "PER-DE-KLAUS-DIETER-FRANKENBERGER"
+    to: "ORG-US-GMF-2012"
+    type: "conference_participant"
+    label: "Teilnehmer Brussels Forum 2007 (FAZ)"
+    evidence_level: "established"
+    sources: ["SRC-ULF-GMF-FORUM"]
+    period: {"start": "2007", "end": "2007"}
+
+  - id: REL-ULF-GMF-MMF
+    from: "ORG-US-GMF-2012"
+    to: "PRG-US-GMF-MARSHALL-MEMORIAL"
+    type: "operates_program"
+    label: "Betreibt Austauschprogramm Marshall Memorial Fellowship"
+    evidence_level: "established"
+    sources: ["SRC-ULF-GMF-MMF"]
+
+  - id: REL-ULF-GMF-JOURNALISM
+    from: "ORG-US-GMF-2012"
+    to: "PRG-US-GMF-JOURNALISM"
+    type: "operates_program"
+    label: "Journalism Fellowship seit 1999, getrennt vom MMF"
+    evidence_level: "established"
+    sources: ["SRC-ULF-GMF-2001"]
+    period: {"start": "1999"}
+
+  - id: REL-ULF-GMF-NFF
+    from: "ORG-US-GMF-2012"
+    to: "ORG-US-NATIONAL-FORUM-FOUNDATION"
+    type: "reported_program_support"
+    label: "In externer Programminventur 1990 genannte Förderung; keine Zahlungsabrechnung"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-GANNETT-1990"]
+    period: {"start": "1990", "end": "1990"}
+
+  - id: REL-ULF-FALLAHIAN-SCHMIDBAUER
+    from: "PER-IR-ALI-FALLAHIAN"
+    to: "PER-DE-BERND-SCHMIDBAUER"
+    type: "documented_intervention_request"
+    label: "Eingeräumte Forderung zur Einflussnahme auf Mykonos-Verfahren 1993; laut Schmidbauer sofort zurückgewiesen"
+    evidence_level: "established"
+    sources: ["SRC-ULF-BT-12182", "SRC-ULF-BT-12225"]
+    period: {"start": "1993", "end": "1993"}
+
+  - id: REL-ULF-KANZLERAMT-MYKONOS
+    from: "ORG-DE-BUNDESKANZLERAMT"
+    to: "DOC-DE-MYKONOS-ERMITTLUNG-1992"
+    type: "documented_file_restriction"
+    label: "Sperrerklärung 04.12.1992 und ersetztes BND-Schreiben; keine belegte Verbindung zum späteren Fallahian-Treffen"
+    evidence_level: "established"
+    sources: ["SRC-ULF-BT-12208"]
+    period: {"start": "1992-12-04", "end": "1992-12-04"}
+
+  - id: REL-ULF-TK-TRIP-0
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-FAZ"
+    type: "company_funded_press_trip"
+    label: "Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR", "SRC-ULF-TK-WELT-11"]
+    period: {"start": "2010", "end": "2012"}
+
+  - id: REL-ULF-TK-TRIP-1
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-SUEDDEUTSCHE-ZEITUNG"
+    type: "company_funded_press_trip"
+    label: "Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR", "SRC-ULF-TK-WELT-11"]
+    period: {"start": "2010", "end": "2012"}
+
+  - id: REL-ULF-TK-TRIP-2
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-TAGESSPIEGEL"
+    type: "company_funded_press_trip"
+    label: "Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR", "SRC-ULF-TK-WELT-11"]
+    period: {"start": "2010", "end": "2012"}
+
+  - id: REL-ULF-TK-TRIP-3
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-RHEINISCHE-POST"
+    type: "company_funded_press_trip"
+    label: "Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR", "SRC-ULF-TK-WELT-11"]
+    period: {"start": "2010", "end": "2012"}
+
+  - id: REL-ULF-TK-TRIP-4
+    from: "ORG-DE-THYSSENKRUPP"
+    to: "ORG-DE-NRZ"
+    type: "company_funded_press_trip"
+    label: "Vom DRPR dokumentierte Einladung von Medienvertretern zu firmenfinanzierten Pressereisen; keine redaktionelle Weisung belegt"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR", "SRC-ULF-TK-WELT-11"]
+    period: {"start": "2010", "end": "2012"}
+
+  - id: REL-ULF-TK-DRPR
+    from: "ORG-DE-DRPR"
+    to: "ORG-DE-THYSSENKRUPP"
+    type: "self_regulatory_admonition"
+    label: "Ermahnung wegen unverhältnismäßiger Pressereisen; ausdrücklich keine formelle Rüge"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR"]
+    period: {"start": "2015", "end": "2015"}
+
+  - id: REL-ULF-TK-CLAASSEN
+    from: "PER-DE-JUERGEN-CLAASSEN"
+    to: "ORG-DE-THYSSENKRUPP"
+    type: "board_member"
+    label: "Vorstandsverantwortung im Untersuchungszeitraum; Ausscheiden 31.12.2012"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-GB12", "SRC-ULF-TK-DRPR"]
+
+  - id: REL-ULF-TK-WILKE
+    from: "PER-DE-ALEXANDER-WILKE"
+    to: "ORG-DE-THYSSENKRUPP"
+    type: "communications_management"
+    label: "Kommunikationsverantwortung und Aufarbeitung gegenüber DRPR"
+    evidence_level: "established"
+    sources: ["SRC-ULF-TK-DRPR"]
+    period: {"start": "2013", "end": "2015"}
+
+  - id: REL-ULF-PARK-ROLE
+    from: "PER-DE-UDO-ULFKOTTE"
+    to: "ORG-DE-PARK-AVENUE"
+    type: "journalist_role"
+    label: "Zeitgenössisch als Chefreporter bezeichnet; Ausscheiden bis 30.06.2006 berichtet"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-KRESS-PARK-2006"]
+    period: {"start": "2006", "end": "2006-06-30"}
+
+  - id: REL-ULF-PARK-PUBLISHER
+    from: "ORG-DE-GRUNER-JAHR"
+    to: "ORG-DE-PARK-AVENUE"
+    type: "publisher"
+    label: "Verlag zur Testausgabe Juni und zum regulären Start Oktober 2005"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-HORIZONT-PARK-2005"]
+    period: {"start": "2005", "end": "2005"}
+
+  - id: REL-ULF-PARK-RECRUITMENT
+    from: "PER-DE-HOLGER-CHRISTMANN"
+    to: "PER-DE-UDO-ULFKOTTE"
+    type: "reported_recruitment"
+    label: "Von zeitgenössischem Branchenbericht als berufliche Vermittlung zum Magazin Park Avenue beschrieben; kein Geheimdienstbezug belegt"
+    evidence_level: "strong"
+    sources: ["SRC-ULF-KRESS-PARK-2006"]
   - id: REL-US-OPIC-ANACONDA-CLAIM-DENIAL-1972
     from: ORG-US-OPIC-1971
     to: ORG-US-ANACONDA-COPPER-1972
