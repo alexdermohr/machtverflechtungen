@@ -12,7 +12,7 @@ hide:
 [Forschungsstudien durchsuchen](research/index.md){ .md-button }
 [Beziehungsnetzwerk](generated/network.md){ .md-button }
 
-## Aufschlussreiche Fälle und Verflechtungen
+## Themen entdecken: aufschlussreiche Fälle und Verflechtungen
 
 ### Geheimlogen, Banken und Medienmacht
 

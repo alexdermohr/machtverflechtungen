@@ -193,11 +193,9 @@ def on_files(files: Files, config, **kwargs) -> Files:
             original_url = f"{GITHUB_ROOT}blob/{source.revision}/research/{escaped_name}"
             decision = decisions.get(source.name, {})
             if decision.get("status") == "network":
-                relationships = ", ".join(
-                    f"[{relation_id}](../generated/network.md#{relation_id.lower()})"
-                    for relation_id in decision["relation_ids"]
-                )
-                state = f" · **Netzwerk:** {relationships}"
+                count = len(decision["relation_ids"])
+                label = "1 Beziehung" if count == 1 else f"{count} Beziehungen"
+                state = f" · [{label}]({escaped_name}#netzwerkzuordnung)"
             elif decision.get("status") == "no_network_relation":
                 state = " · **Netzwerk:** geprüft, keine neue darstellbare Relation"
             else:
@@ -248,6 +246,7 @@ def on_page_markdown(markdown: str, page, **kwargs) -> str | None:
     return (
         rendered
         + "\n\n---\n\n"
+        + '<a id="netzwerkzuordnung"></a>\n\n'
         + coverage.replace("\\n", "\n")
         + "[Zur Studienübersicht](index.md) · [Fallakten](../faelle/index.md)"
         + " · [Methodik](../methodik.md)\n\n"
