@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**369 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**370 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -204,6 +204,7 @@
 | Credito Varesino S.p.A. (Varese) | commercial_bank | `ORG-IT-CREDITO-VARESINO-SPA` | IT | [3](network.md#rel-pa-it-varesino-1978-001) |
 | Crédit Commercial de France (Suisse) S.A. (Genf) | commercial_bank | `ORG-CH-CREDIT-COMMERCIAL-DE-FRANCE-SUISSE-SA` | CH | [3](network.md#rel-it-ccf-1981-001) |
 | Crédit Commercial de France S.A. (Paris) | commercial_bank | `ORG-FR-CREDIT-COMMERCIAL-DE-FRANCE-SA` | FR | [2](network.md#rel-int-interalpha-1979-003) |
+| Cámara de Diputados de Chile | national_legislative_chamber | `ORG-CL-CHAMBER-OF-DEPUTIES` | CL | [1](network.md#rel-cl-allende-chamber-withdrawal-1971) |
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [1](network.md#rel-ulf-tk-trip-2) |
@@ -306,7 +307,7 @@
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
-| Regierung Salvador Allende (Chile, April 1972) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [2](network.md#rel-int-paris-club-chile-rescheduling-1972) |
+| Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [3](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |

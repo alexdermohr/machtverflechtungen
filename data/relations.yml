@@ -3918,7 +3918,7 @@ relations:
     from: PER-US-C-FRED-BERGSTEN
     to: ORG-US-OPIC-1971
     type: documented_board_membership
-    label: "GAO ID-78-36 Appendix II: C. Fred Bergsten ab 24.05.1977 OPIC-Boardmitglied; kein Nachweis individueller Anordnung der FFB-Transaktion."
+    label: "GAO ID-78-36 Appendix I S. 15 und Appendix II S. 17: C. Fred Bergsten ab 24.05.1977 OPIC-Boardmitglied; kein Nachweis individueller Anordnung der FFB-Transaktion."
     period: {"start": "1977-05-24"}
     evidence_level: established
     sources: ["SRC-US-GAO-OPIC-FY1977-ID7836"]
@@ -3931,3 +3931,12 @@ relations:
     period: {"start": "1977"}
     evidence_level: established
     sources: ["SRC-US-GAO-OPIC-FY1977-ID7836", "SRC-US-TREASURY-ANNUAL-REPORT-FY1977"]
+
+  - id: REL-CL-ALLENDE-CHAMBER-WITHDRAWAL-1971
+    from: ORG-CL-ALLENDE-GOVERNMENT-1972
+    to: ORG-CL-CHAMBER-OF-DEPUTIES
+    type: documented_withdrawal_of_treaty_approval_bill
+    label: "Oficio 13.794 vom 07.07.1971: Allende/Almeyda ziehen die Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen vom 03.12.1963 (Boletín 2268) zurück; Kammer stimmt am 13.07.1971 zu. Kein Nachweis damaliger Ratifikation."
+    period: {start: '1971-07-07', end: '1971-07-13'}
+    evidence_level: established
+    sources: [SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964, SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971]

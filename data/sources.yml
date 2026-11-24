@@ -4288,7 +4288,7 @@ sources:
   tier: A
   url: "https://www.gao.gov/assets/id-78-36.pdf"
   accessed: '2026-11-24'
-  locator: "Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix II: Bergsten."
+  locator: "Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix I S. 15 und Appendix II S. 17: Bergsten."
 
 - id: SRC-US-TREASURY-ANNUAL-REPORT-FY1977
   title: "Annual Report of the Secretary of the Treasury, Fiscal Year 1977"
@@ -4410,3 +4410,25 @@ sources:
   url: "https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf"
   accessed: '2026-11-24'
   locator: "S. 25; registrierte Beendigung wirksam 14.02.1984."
+
+- id: SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964
+  title: "Cámara de Diputados, Sesión 42ª, 8 de septiembre de 1964"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1964-09-08"
+  type: original_parliamentary_record
+  primary: true
+  tier: A
+  url: "https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 3151–3153: Präsidentenvorlage und Erläuterung des Zusatzabkommens vom 03.12.1963; Ratifikation vorausgesetzt."
+
+- id: SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971
+  title: "Cámara de Diputados, Sesión 12ª, 13 de julio de 1971"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1971-07-13"
+  type: original_parliamentary_record
+  primary: true
+  tier: A
+  url: "https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268."

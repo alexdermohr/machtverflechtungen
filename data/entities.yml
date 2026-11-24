@@ -1829,9 +1829,9 @@ entities:
     notes: "Koordinationsverfahren staatlicher Gläubiger zu Chile, kein weltweit zentral handelnder Bankenkonzern. UNTS 967 dokumentiert 1972 und 1974 Vereinbarungen; State-Telegramme dokumentieren 1975 getrennte Vorberatung der Gläubiger."
   - id: ORG-CL-ALLENDE-GOVERNMENT-1972
     type: historical_national_government
-    name: "Regierung Salvador Allende (Chile, April 1972)"
+    name: "Regierung Salvador Allende (Chile, 1970–1973)"
     countries: [CL]
-    notes: "Chilenische Regierung unter Salvador Allende bei multilateraler Schuldenvereinbarung April 1972. Unterscheiden von Militärregierung ab September 1973."
+    notes: "Chilenische Regierung unter Salvador Allende; multilaterale Schuldenvereinbarung April 1972 und Rücknahme der Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen 07./13.07.1971. Unterscheiden von Militärregierung ab September 1973."
   - id: ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975
     type: historical_government_creditor_delegation
     name: "Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975)"
@@ -2043,3 +2043,9 @@ entities:
     name: "C. Fred Bergsten"
     countries: ["US"]
     notes: "1971 Memorandum an Kissinger; 1977 Assistant Secretary of the Treasury for International Affairs und ab 24.05. OPIC-Boardmitglied laut GAO ID-78-36. Kein Nachweis persönlicher Anordnung des Notenverkaufs."
+
+  - id: ORG-CL-CHAMBER-OF-DEPUTIES
+    type: national_legislative_chamber
+    name: "Cámara de Diputados de Chile"
+    countries: [CL]
+    notes: "Chilenische Abgeordnetenkammer; 13.07.1971 dokumentierte Zustimmung zur Rücknahme der Genehmigungsvorlage zum Investitionsgarantie-Zusatzabkommen vom 03.12.1963."

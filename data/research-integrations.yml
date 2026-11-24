@@ -683,7 +683,7 @@ studies:
       - REL-US-OPIC-LLOYDS-REINSURANCE-1976
 
   jeffrey-sachs-opic-ffb-oiig-chile-risikotransfer-1960-1984.md:
-    sha256: 90c53c55e6e029175a5565aca93bf73a38bf44ba08e4c4150d7b7974f6694bdb
+    sha256: 61e7e25537229464d1568e4cf7439833f81e401a8ebce2ca14893ae23ab63f06
     status: network
     relation_ids:
       - REL-US-OPIC-FFB-RECOURSE-1977
@@ -698,3 +698,4 @@ studies:
       - REL-US-BERGSTEN-TREASURY-1977
       - REL-US-OPIC-OIIG-COINSURANCE-1975
       - REL-US-OPIC-LLOYDS-REINSURANCE-1976
+      - REL-CL-ALLENDE-CHAMBER-WITHDRAWAL-1971

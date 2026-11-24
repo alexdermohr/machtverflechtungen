@@ -43,7 +43,7 @@ US-Botschafter Edward Korry hatte im Hintergrund vermittelt. Laut dem Memorandum
 
 Ein weiterer diplomatischer Bericht vom 27. Mai 1971 dokumentiert Gespräche von Mills mit Allende über ITT, Kennecott und Anaconda [Q10]. Der Bericht ist eine US-amerikanische Darstellung eines diplomatischen Gesprächs, nicht ein unabhängiges Protokoll aller Aussagen.
 
-Die personelle Verbindung zwischen Treasury und OPIC ist später ebenfalls dokumentiert: GAO führt **C. Fred Bergsten ab dem 24. Mai 1977 als OPIC-Vorstandsmitglied und Assistant Secretary of the Treasury for International Affairs** [Q1, Appendix II]. Diese Doppelrolle ist institutionell relevant, aber kein Beleg, dass Bergsten persönlich den FFB-Notenverkauf angeordnet oder rechtswidrig begünstigt hätte.
+Die personelle Verbindung zwischen Treasury und OPIC ist später ebenfalls dokumentiert: GAO führt **C. Fred Bergsten ab dem 24. Mai 1977 als OPIC-Vorstandsmitglied und Assistant Secretary of the Treasury for International Affairs** [Q1, Appendix I S. 15, Appendix II S. 17]. Diese Doppelrolle ist institutionell relevant, aber kein Beleg, dass Bergsten persönlich den FFB-Notenverkauf angeordnet oder rechtswidrig begünstigt hätte.
 
 ## 4. Bilateraler Rechtsrahmen: 1960, Neuverhandlung 1975/76 und Nachfolge 1983/84
 
@@ -53,7 +53,11 @@ In den House-Anhörungen von 1976 berichtete OPIC, im Juli 1975 das State Depart
 
 Ein nachfolgendes Abkommen wurde am 22. September 1983 in Santiago geschlossen und trat am 14. Februar 1984 in Kraft. Es erfasst staatlich gestützte Versicherungen, Rückversicherungen und Garantien sowie Vereinbarungen mit privaten Versicherern (Art. 1), regelt Zustimmung, Forderungsübergang und Beschränkungen (Art. 2–4) sowie staatliche Verhandlungen und gegebenenfalls Schiedsverfahren (Art. 6). Art. 8 beendet das Abkommen von 1960 und erstreckt die Neuregelung ab Inkrafttreten auf bestimmte bereits bestehende Policen beziehungsweise frühere Investitionsgenehmigungen. Art. 9 begrenzt den Schutz nach Kündigung auf höchstens 20 Jahre [Q13–Q14].
 
-Quellenkritische Besonderheit: Die Fußnoten zu Art. 8 des UNTS-Abdrucks verweisen für 1960 auf UNTS 405 S. 77 statt S. 127 und für die gesondert erwähnte Vereinbarung von 1963 auf UNTS 486 S. 279 (dort ein australisch-indischer Verteidigungshilfevertrag). Die tatsächliche Quelle der 1963er Vereinbarung ist daher noch zu beschaffen. Die Beendigung des 1960er Abkommens ist dagegen auch durch die eigenständige UN-Vertragsregistrierung nachgewiesen [Q14]. Keine rückwirkende Zahlung oder Identität mit dem 1975/76 verhandelten Text wird unterstellt.
+Quellenkritische Besonderheit: Die Fußnoten zu Art. 8 des UNTS-Abdrucks verweisen für 1960 auf UNTS 405 S. 77 statt S. 127 und für die gesondert erwähnte Vereinbarung von 1963 auf UNTS 486 S. 279 (dort ein australisch-indischer Verteidigungshilfevertrag). Die fehlerhaften Fundstellen erlauben keine Identifikation des Notenwechsels im UNTS; die chilenischen Parlamentsakten [Q15–Q16] liefern dagegen unabhängige Belege zu Inhalt und zurückgezogenem Genehmigungsverfahren. Die Beendigung des 1960er Abkommens ist dagegen auch durch die eigenständige UN-Vertragsregistrierung nachgewiesen [Q14]. Keine rückwirkende Zahlung oder Identität mit dem 1975/76 verhandelten Text wird unterstellt.
+
+Die Spur von 1963 lässt sich durch das chilenische Parlamentsarchiv wesentlich präzisieren. Der Bericht der Abgeordnetenkammer vom 8. September 1964 gibt die von Präsident Jorge Alessandri und Außenminister Julio Philippi gezeichnete Vorlage zum Zusatzabkommen vom 3. Dezember 1963 wieder [Q15, S. 3151–3153]. Sie erläutert die beabsichtigte Erweiterung auf weitere Risiken und Vermögensrechte: Ein Forderungsübergang auf die US-Regierung sollte bei Sachvermögen der Weiterübertragung an einen Dritten unter chilenischer Zustimmung dienen; internationale Streitigkeiten sollten nach gescheiterten Verhandlungen einem Schiedsverfahren oder einer verbindlich vereinbarten Rechtsauskunft des Internationalen Gerichtshofs unterliegen. Inlandszuständigkeiten sollten ausdrücklich unberührt bleiben. Die Vorlage setzte die Ratifikation voraus.
+
+**Die Zustimmungsvorlage wurde 1971 tatsächlich zurückgezogen.** Mit Oficio Nr. 13.794 vom 7. Juli 1971 zogen Präsident Salvador Allende und Außenminister Clodomiro Almeyda den 1964 unter Boletín Nr. 2268 eingereichten Genehmigungsentwurf zurück. Die Abgeordnetenkammer stimmte in ihrer Sitzung vom 13. Juli 1971 zu [Q16, S. 1091, 1106]. Damit ist nicht nur ein allgemeiner Konflikt um Investitionsschutz, sondern ein konkreter gesetzgeberischer Vorgang nachgewiesen. Der 1963 unterzeichnete Notenwechsel darf für diese Zeit nicht als nachgewiesenermaßen ratifizierter, in Kraft befindlicher Vertrag behandelt werden. Der noch zu beschaffende vollständige Notentext und etwaige spätere Genehmigungsakte bleiben gesonderte Prüfgegenstände. Die bloße Bezugnahme auf das Abkommen von 1963 in Art. 8 des Abkommens von 1983 ersetzt diesen Nachweis nicht.
 
 ## 5. Befundgrenzen und Gegenhypothesen
 
@@ -65,11 +69,11 @@ Quellenkritische Besonderheit: Die Fußnoten zu Art. 8 des UNTS-Abdrucks verweis
 | Die chilenischen Forderungen waren sämtlich endgültig uneinbringlich. | Nicht belegt; beide Bilanzberichte dokumentieren bis dahin geleistete Raten. |
 | Die öffentliche Versicherungsarchitektur beweist eine gemeinsame politische Verschwörung. | Nicht belegt. Dokumentiert sind rechtliche Verpflichtungen, unterschiedliche Interessen, reale Risikoverteilung und staatliche Aufsicht. |
 
-Das weitere Prüfprogramm betrifft vor allem einzelne FFB-Notenkaufakten, die vollständige chilenische Rückzahlungshistorie, die Policen- und Rückversicherungszuordnung je Schadensfall, die 1963er bilaterale Vereinbarung sowie die Verhandlungs- und Freigabeakten der Gespräche 1975/76.
+Das weitere Prüfprogramm betrifft vor allem einzelne FFB-Notenkaufakten, die vollständige chilenische Rückzahlungshistorie, die Policen- und Rückversicherungszuordnung je Schadensfall, den vollständigen Notenwechsel von 1963 und mögliche spätere Genehmigungsakte sowie die Verhandlungs- und Freigabeakten der Gespräche 1975/76.
 
 ## Quellen
 
-- **[Q1, A]** GAO, [ID-78-36, Prüfung OPIC FY1977](https://www.gao.gov/assets/id-78-36.pdf), 07.06.1978, Anschreiben S. 1–2, Note 5 S. 9, weitere Bilanznoten und Appendix II.
+- **[Q1, A]** GAO, [ID-78-36, Prüfung OPIC FY1977](https://www.gao.gov/assets/id-78-36.pdf), 07.06.1978, Anschreiben S. 1–2, Note 5 S. 9, weitere Bilanznoten und Appendix I S. 15, Appendix II S. 17.
 - **[Q2, A]** US Treasury, [Annual Report FY1977](https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext), S. 33–35, Exhibit 36 S. 370–372.
 - **[Q3, A]** GAO, [ID-79-21A, Prüfung OPIC FY1978](https://www.gao.gov/assets/id-79-21a.pdf), 13.04.1979, Note 5(A), Note 7, S. 9 und 12.
 - **[Q4, A]** GAO, [ID-80-45, Prüfung OPIC FY1979](https://www.gao.gov/assets/id-80-45.pdf), 05.06.1980, Note 2.
@@ -83,5 +87,8 @@ Das weitere Prüfprogramm betrifft vor allem einzelne FFB-Notenkaufakten, die vo
 - **[Q12, A]** US House, [OPIC-/ITT-Anhörungen 1976](https://www.govinfo.gov/content/pkg/CHRG-94hhrg73450O/pdf/CHRG-94hhrg73450O.pdf), 29.04./05.05.1976, Appendix 9, S. 126–133.
 - **[Q13, A]** UNTS 2014, [Nr. 34603](https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf), 22.09.1983, S. 537–541.
 - **[Q14, A]** UNTS 2016, [A-5829, Beendigungsregistrierung](https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf), S. 25.
+
+- **[Q15, A]** Cámara de Diputados de Chile, [Sesión 42ª, 08.09.1964](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf), S. 3151–3153, Präsidentenvorlage zum Zusatzabkommen.
+- **[Q16, A]** Cámara de Diputados de Chile, [Sesión 12ª, 13.07.1971](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf), S. 1091 Oficio Nr. 13.794 vom 07.07.1971 und S. 1106 Zustimmung zur Rücknahme.
 
 Die Originaltexte und amtlichen Transkriptionen wurden quellenkritisch ausgewertet. Bei mehreren PDF-Abrufen konnte die Faksimileanzeige nicht zusätzlich verifiziert werden; insbesondere sind die auffälligen UNTS-Fußnoten daher als Prüfspur und nicht als abschließend geklärter Editionsfehler zu behandeln. Beträge werden als gerundete Angaben beziehungsweise Stichtagswerte in der jeweils belegten Genauigkeit wiedergegeben.

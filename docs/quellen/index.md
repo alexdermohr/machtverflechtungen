@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**387 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**389 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -799,6 +799,36 @@ Bayerischer Verfassungsgerichtshof · 2014-03-20 · Stufe **A** · Primärquelle
 [PDF öffnen](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 
 Fundstelle: Rn. 143–145, gedruckte S. 59 (Auskunftsdefizit); Antwort von 2012 auf S. 17; Gesamtentscheidung S. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1964">
+
+<a id="src-cl-bcn-investment-guaranty-supplement-1964"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Cámara de Diputados, Sesión 42ª, 8 de septiembre de 1964](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf)**
+
+Biblioteca del Congreso Nacional de Chile · 1964-09-08 · Stufe **A** · Primärquelle · `SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964`
+
+[Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf)
+
+Fundstelle: S. 3151–3153: Präsidentenvorlage und Erläuterung des Zusatzabkommens vom 03.12.1963; Ratifikation vorausgesetzt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-cl-bcn-allende-withdrawal-1971"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Cámara de Diputados, Sesión 12ª, 13 de julio de 1971](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)**
+
+Biblioteca del Congreso Nacional de Chile · 1971-07-13 · Stufe **A** · Primärquelle · `SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971`
+
+[Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)
+
+Fundstelle: S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268.
 
 </article>
 
@@ -3927,7 +3957,7 @@ U.S. General Accounting Office · 1978-06-07 · Stufe **A** · Primärquelle · 
 
 [PDF öffnen](https://www.gao.gov/assets/id-78-36.pdf)
 
-Fundstelle: Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix II: Bergsten.
+Fundstelle: Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix I S. 15 und Appendix II S. 17: Bergsten.
 
 </article>
 
