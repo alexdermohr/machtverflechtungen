@@ -764,3 +764,204 @@ studies:
       - REL-US-STATE-CHILE-DEBT-RESTRICTION-POLICY-1972
       - REL-US-STATE-CHILE-MILITARY-CREDIT-POSITION-1972
       - REL-US-DOD-CHILE-MILITARY-CREDIT-POSITION-1972
+
+  woolsey-wirtschaftsaufklaerung-osac-sivam-1985-2008.md:
+    sha256: a5f85b4421bdcda424a6bdf1461ab0b2bed5392fbc2cbee017bb1e27cfdd4486
+    status: network
+    relation_ids:
+      - REL-WS-IC-STATE
+      - REL-WS-IC-COMMERCE
+      - REL-WS-STATE-SSCI
+      - REL-WS-COMMERCE-SSCI
+      - REL-WS-STUDEMAN-SSCI
+      - REL-WS-STATE-OSAC
+      - REL-WS-WOOLSEY-OSAC
+      - REL-WS-NSA-OSAC
+      - REL-WS-NACIC-OSAC
+      - REL-WS-IC-FBI
+      - REL-WS-IBM-OSAC
+      - REL-WS-CITI-OSAC
+      - REL-WS-BECHTEL-OSAC
+      - REL-WS-MCDONNELL-OSAC
+      - REL-WS-BOEING-SSCI
+      - REL-WS-COMMERCE-ADVOCACY
+      - REL-WS-STATE-ADVOCACY
+      - REL-WS-EXIM-ADVOCACY
+      - REL-WS-OPIC-ADVOCACY
+      - REL-WS-ADVOCACY-SIVAM
+      - REL-WS-EXIM-BOEING
+      - REL-WS-EXIM-RAYTHEON
+      - REL-WS-EXIM-BECHTEL
+      - REL-WS-EXIM-MCDONNELL
+      - REL-WS-EXIM-FLUOR
+      - REL-WS-SAUDI-BOEING
+      - REL-WS-SAUDI-MCDONNELL
+      - REL-WS-SENATE-EXIM-AUTH
+      - REL-WS-EXIM-CAYMAN
+      - REL-WS-CAYMAN-BRAZIL
+      - REL-WS-RAYTHEON-BRAZIL-CREDIT
+      - REL-WS-SENATE-CONTRACT
+      - REL-WS-EXIM-SIVAM
+      - REL-WS-EXIM-SIVAM-AMEND
+      - REL-WS-CCSIVAM-CONTRACT
+      - REL-WS-RAYTHEON-CONTRACT
+      - REL-WS-ESCA-SIVAM
+      - REL-WS-ATECH-SIVAM
+      - REL-WS-BR-SIVAM-EFFECTIVE
+      - REL-WS-CPI-SIVAM
+      - REL-WS-CPI-MPF
+      - REL-WS-TRF4-CONTRACT
+      - REL-WS-STJ-CONTRACT
+      - REL-WS-BB-CAYMAN
+      - REL-WS-EXIM-CAYMAN-DIRECT-CONTRACT
+      - REL-WS-EXIM-CAYMAN-GUARANTEE
+      - REL-WS-ABN-BB
+      - REL-WS-SEK-CAYMAN
+      - REL-WS-BB-BRAZIL-CREDIT
+      - REL-WS-BB-BRAZIL-DISBURSED
+      - REL-WS-BRAZIL-BB-OWNERSHIP
+      - REL-WS-BCB-CMN-RISK
+      - REL-WS-CMN-BB-RISK
+      - REL-WS-RAYTHEON-BRAZIL-RCF
+      - REL-WS-VENDOR-BRAZIL
+      - REL-WS-SENATE-CONDITIONS-1996
+      - REL-WS-EMBRAER-CONTRACT
+      - REL-WS-ATECH-CONTRACT
+      - REL-WS-TCU-CMO-DEFAULT
+      - REL-WS-TCU-CONTRACT-DEFAULT
+      - REL-WS-BRAZIL-SIVAM-BUDGET-2005
+      - REL-WS-BRAZIL-ESCA-PAYMENT
+      - REL-WS-ESCA-ADVISER
+      - REL-WS-ADVISER-CISCEA
+      - REL-WS-TCU-ESCA-INTEREST
+      - REL-WS-TCU-ESCA-ACCOUNTING
+      - REL-WS-TCU-CONTRACT-PRICE
+      - REL-WS-TCU-ATECH-EMBRAER-1999
+      - REL-WS-TCU-SENATE-CONFIDENTIAL-1999
+      - REL-WS-CCSIVAM-SCHAHIN-1999
+      - REL-WS-BR-SIVAM-AIRCRAFT-ARREARS-2003
+
+  riggs-pinochet-banken-aufsicht-medien-1981-2012.md:
+    sha256: 4544c8b546270681757143e650e9ec471d6fcd2c47a4c4ba5259e6ec7a055d5d
+    status: network
+    relation_ids:
+      - REL-RIGGS-FOLLOWUP-001
+      - REL-RIGGS-FOLLOWUP-002
+      - REL-RIGGS-FOLLOWUP-003
+      - REL-RIGGS-FOLLOWUP-004
+      - REL-RIGGS-FOLLOWUP-005
+      - REL-RIGGS-FOLLOWUP-006
+      - REL-RIGGS-FOLLOWUP-007
+      - REL-RIGGS-FOLLOWUP-008
+      - REL-RIGGS-FOLLOWUP-009
+      - REL-RIGGS-FOLLOWUP-010
+      - REL-RIGGS-FOLLOWUP-011
+      - REL-RIGGS-FOLLOWUP-012
+      - REL-RIGGS-FOLLOWUP-013
+      - REL-RIGGS-FOLLOWUP-014
+      - REL-RIGGS-FOLLOWUP-015
+      - REL-RIGGS-FOLLOWUP-016
+      - REL-RIGGS-FOLLOWUP-017
+      - REL-RIGGS-FOLLOWUP-018
+      - REL-RIGGS-FOLLOWUP-019
+      - REL-RIGGS-FOLLOWUP-020
+      - REL-RIGGS-FOLLOWUP-021
+      - REL-RIGGS-FOLLOWUP-022
+      - REL-RIGGS-FOLLOWUP-023
+      - REL-RIGGS-FOLLOWUP-024
+      - REL-RIGGS-FOLLOWUP-025
+      - REL-RIGGS-FOLLOWUP-026
+      - REL-RIGGS-FOLLOWUP-027
+      - REL-RIGGS-FOLLOWUP-028
+      - REL-RIGGS-FOLLOWUP-029
+      - REL-RIGGS-FOLLOWUP-030
+      - REL-RIGGS-FOLLOWUP-031
+      - REL-RIGGS-FOLLOWUP-032
+      - REL-RIGGS-FOLLOWUP-033
+      - REL-RIGGS-FOLLOWUP-034
+      - REL-RIGGS-FOLLOWUP-035
+      - REL-RIGGS-FOLLOWUP-036
+      - REL-RIGGS-FOLLOWUP-037
+      - REL-RIGGS-FOLLOWUP-061
+
+  riggs-aequatorialguinea-oelkonzerne-1995-2005.md:
+    sha256: c23f56659766fdd100af3d480c53fa7c8c622536f93ab8104987b1b61aad03f4
+    status: network
+    relation_ids:
+      - REL-RIGGS-FOLLOWUP-038
+      - REL-RIGGS-FOLLOWUP-039
+      - REL-RIGGS-FOLLOWUP-040
+      - REL-RIGGS-FOLLOWUP-041
+      - REL-RIGGS-FOLLOWUP-042
+      - REL-RIGGS-FOLLOWUP-043
+      - REL-RIGGS-FOLLOWUP-044
+      - REL-RIGGS-FOLLOWUP-045
+      - REL-RIGGS-FOLLOWUP-046
+      - REL-RIGGS-FOLLOWUP-047
+      - REL-RIGGS-FOLLOWUP-048
+      - REL-RIGGS-FOLLOWUP-049
+      - REL-RIGGS-FOLLOWUP-050
+      - REL-RIGGS-FOLLOWUP-051
+      - REL-RIGGS-FOLLOWUP-052
+      - REL-RIGGS-FOLLOWUP-053
+      - REL-RIGGS-FOLLOWUP-054
+      - REL-RIGGS-FOLLOWUP-055
+      - REL-RIGGS-FOLLOWUP-056
+      - REL-RIGGS-FOLLOWUP-057
+      - REL-RIGGS-FOLLOWUP-058
+      - REL-RIGGS-FOLLOWUP-059
+      - REL-RIGGS-FOLLOWUP-060
+
+  cia-gehlen-sonderverbindungen-orion-bdj-1949-1956.md:
+    sha256: bfcce974fddcc9a9a927df450b8f4fd4a545f9c43c19af8f219b7d17edbf0784
+    status: network
+    relation_ids:
+      - REL-DE-GEHLEN-002
+      - REL-DE-GEHLEN-004
+
+  okkultismus-geheimbuende-machtverflechtungen-2026-10-26.md:
+    sha256: c6d010d847d5f8773c0359d793e7214482cf285f764ac3db1eac20f6f81fdc9b
+    status: network
+    relation_ids:
+      - REL-IT-P2-GELLI-1981-001
+      - REL-IT-P2-RIZZOLI-1975-1981-001
+      - REL-IT-RIZZOLI-CORRIERE-1977-001
+
+  acg-atlantik-bruecke-cfr-finanznetz-2019.md:
+    sha256: a611041051688c6c070691976984791375fc424e2a5d7dacca04b5783e08c7bd
+    status: network
+    relation_ids:
+      - REL-DE-ERP-BMWI-2019-001
+
+  anne-zetsche-atlantik-bruecke-archivbelege-1950-1974.md:
+    sha256: b5720b0e00f4a00a8a9fc25c9203ae041051b3ceef9ea204cf4aa30c2a100a9a
+    status: network
+    relation_ids:
+      - REL-US-ACG-YOUNGLEADERS-1973-001
+      - REL-US-FORDFOUNDATION-YOUNGLEADERS-1973-001
+
+  bilderberg-osborne-bloomberg-acoba-medienpolitik-2006-2017.md:
+    sha256: f8325d9cc1ffd441cfce6f96db9422a8d16c6ce9422c3901096c83f98eb2ecf8
+    status: network
+    relation_ids:
+      - REL-DE-TMN-001
+
+  bpa-wehrkunde-verlag-gfw-oeffentlichkeitsarbeit-1975-1977.md:
+    sha256: af60623616ac5566a3af9c1d77110bf60425bd91a1d52887e0622fcfc8aa61c6
+    status: network
+    relation_ids:
+      - REL-DE-KMM-011
+
+  npd-v-leute-verbotsverfahren-bverfg-2001-2017.md:
+    sha256: e3cdf58ff6a450b5a077e66caaab2e1e1acda65ff37344cd3557680f89666693
+    status: network
+    relation_ids:
+      - REL-DE-UKC18-001
+
+  strategie-der-spannung-brescia-bologna-gladio-1969-2026.md:
+    sha256: 35dd2aa3e6665a8a1cd8092cbf985b495c94bcf9ade9ef4574decdc7f8e47f65
+    status: network
+    relation_ids:
+      - REL-DE-CELLER-001
+      - REL-IT-BOLOGNA-PG-GELLI-2024-001
+      - REL-IT-BOLOGNA-PG-DAMATO-2024-001

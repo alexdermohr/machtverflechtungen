@@ -4541,7 +4541,7 @@ sources:
   tier: "A"
   url: "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
   accessed: "2026-11-24"
-  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004."
+  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004. Ergänzung: Abschnitte V.B–E (Banco de Chile, Espírito Santo, weitere Banken), Fn. 133, 140, 141; 1991er Deloitte-Transfers, Bankwechsel, BankBoston, Banco Atlántico, Coutts und Santander. Chilenische Gerichtsakte nur zitiert, nicht unabhängig gelesen."
 
 - id: SRC-US-DOJ-RIGGS-PLEA-2005
   title: "Riggs Bank Pleads Guilty to Violating Bank Secrecy Act"
@@ -4707,3 +4707,628 @@ sources:
   primary: true
   tier: "A"
   accessed: "2026-11-24"
+
+- id: SRC-WS-SSCI-104-4
+  title: "Senate Report 104-4: Committee Activities 1993–1994"
+  institution: "US Senate Select Committee on Intelligence"
+  date: "1995-01-18"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-104srpt4.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Gedruckte S. 18: Anhörungen, wirtschaftliche Vorteile laut State und Commerce, Bewertung und fehlende übergreifende Anleitung; keine Einzelfälle genannt."
+
+- id: SRC-WS-SSCI-104-15
+  title: "Worldwide Intelligence Review, S. Hrg. 104-15"
+  institution: "US Senate Select Committee on Intelligence"
+  date: "1995-01-10"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-worldwideintelli00unit.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "S. III (Inhaltsverzeichnis), 96 (Studeman-Übermittlung 03.04.1995), 125–134 (Antworten 19–26), insbesondere S. 132–133 OSAC/NSA/NACIC; Anhörung und schriftliche Nachträge getrennt."
+
+- id: SRC-WS-OSAC-10218
+  title: "Guidelines for Protecting U.S. Business Information Overseas (Publication 10218)"
+  institution: "US Department of State, Bureau of Diplomatic Security"
+  date: "1994-11"
+  type: "government_publication"
+  primary: true
+  tier: "A"
+  url: "https://2009-2017.state.gov/documents/organization/19793.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "S. v–vi: rotierende Mitgliederliste Stand November 1992; Vorwort und Preface: Einrichtung 1985, Mitglieder und Informationsschutzausschuss."
+  archive_url: "https://2009-2017.state.gov/m/ds/rls/rpt/19908.htm"
+
+- id: SRC-WS-SSCI-103-650
+  title: "Economic Intelligence, S. Hrg. 103-650"
+  institution: "US Senate Select Committee on Intelligence"
+  date: "1993-08-05"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-103650.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "S. 5–6, 24–25, 29, 33–34: Aussagen der Boeing-Vertreter Hayden und Blay."
+
+- id: SRC-WS-TPCC-1994
+  title: "National Export Strategy, Second Annual Report; S. Hrg. 103-909"
+  institution: "US Congress / Trade Promotion Coordinating Committee"
+  date: "1994-10-05"
+  type: "government_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0/html/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0.htm"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Anlage National Export Strategy S. 19–22: Advocacy-Netz, SIVAM und saudische Flugzeugbeschaffung, diplomatische und Finanzierungsunterstützung; Regierungsselbstauskunft."
+
+- id: SRC-WS-CLINTON-SAUDI-1994
+  title: "Statement on Saudi Arabian Aircraft Purchase, 16 February 1994"
+  institution: "White House / Weekly Compilation of Presidential Documents"
+  date: "1994-02-16"
+  type: "government_statement"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/WCPD-1994-02-21/pdf/WCPD-1994-02-21.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Gedruckte S. 305: angekündigte Boeing/McDonnell-Douglas-Beschaffung, rund 6 Mrd. USD und Finanzierung; keine Kreditabrechnung."
+
+- id: SRC-WS-EXIM-HISTORY
+  title: "EXIM Historical Timeline: SIVAM entry 1994"
+  institution: "Export-Import Bank of the United States"
+  date: null
+  type: "institutional_history"
+  primary: true
+  tier: "A"
+  url: "https://www.exim.gov/about/history-exim/historical-timeline"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Rückblickender Eintrag 1994: Bewilligung ca. 1,3 Mrd. USD; Raytheon als Hauptexporteur. Keine Auszahlungsabrechnung."
+
+- id: SRC-WS-GAO-97-211
+  title: "U.S. Export-Import Bank: Process in Place to Ensure Compliance With Dual-Use Export Requirements"
+  institution: "US General Accounting Office"
+  date: "1997-07-17"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/nsiad-97-211.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "S. 15, Fall AP 67303: am 04.03.1997 bewilligte Änderung eines Kredits vom 30.09.1994; 34 Mio. USD für Raytheon-Lieferungen an Brasilien."
+
+- id: SRC-WS-GAO-97-215
+  title: "Export-Import Bank: Key Factors in Considering Eximbank Reauthorization"
+  institution: "US General Accounting Office"
+  date: "1997-07-17"
+  type: "parliamentary_testimony"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/t-nsiad-97-215.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "S. 2, Abb. II.2 S. 16: Zusagen FY 1994–96, 15 führende Exporteure/Auftragnehmer rund 38 Prozent; nicht Auszahlungen an Unternehmen."
+
+- id: SRC-WS-ITA-1997
+  title: "House Appropriations hearing: International Trade Administration"
+  institution: "US House of Representatives"
+  date: "1997-03-18"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CHRG-105hhrg41818/html/CHRG-105hhrg41818.htm"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Opening Statement Stuart Eizenstat: laut Commerce 122 unterstützte Aufträge FY1996, US-Exportwert über 26 Mrd. USD über Laufzeiten."
+
+- id: SRC-WS-BR-R96-1994
+  title: "Resolução nº 96, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-96-27-dezembro-1994-395019-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art. 1–4: Banco do Brasil Grand Cayman, EXIM-Weiterleitung, Genehmigungsbetrag und Tranchen; Art. 2(a) abweichender Wert in Onlinefassung, Retifikation der zweiten Tranche siehe SRC-WS-BR-R96-RET-1995."
+
+- id: SRC-WS-BR-R97-1994
+  title: "Resolução nº 97, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-97-27-dezembro-1994-392017-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art. 1–4: 239,2 Mio. USD Raytheon-Kredit; kommerzieller Vertrag als Vorbedingung, Projektbudget und doppelt ausgewiesene 80 Mio. USD."
+
+- id: SRC-WS-BR-ANAIS-1996-05
+  title: "Anais do Senado Federal, Mai 1996, PRS 35/1996"
+  institution: "Senado Federal"
+  date: "1996-05"
+  type: "parliamentary_debate"
+  primary: true
+  tier: "A"
+  url: "https://www.senado.leg.br/publicacoes/anais/pdf-digitalizado/Anais_Republica/1996/1996%20Livro%2010.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S. 110: Ausschussargumentation gegen Neuausschreibung wegen Lieferantenbindung der EXIM- und Raytheon-Kreditlinien."
+
+- id: SRC-WS-BR-PRS35-1996
+  title: "PRS 35/1996 – Verfahrensregister zu Resolution 37/1996"
+  institution: "Senado Federal"
+  date: "1996-05-23"
+  type: "parliamentary_register"
+  primary: true
+  tier: "A"
+  url: "https://www25.senado.leg.br/web/atividade/materias/-/materia/32224"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Vermerk 07.08.1997: AV 041/1997 über Wirksamkeit der Verträge am 25.07.1997; Vermerke 25.03.1998: Gerichtsanfragen 4. Bundesgericht Campinas, Ação Popular 96.0601271-9 und fehlende Originalvertragsfassung im Senat."
+
+- id: SRC-WS-BR-CPI-2002
+  title: "CPI SIVAM: Relatório final"
+  institution: "Câmara dos Deputados"
+  date: "2002-06-04"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/relatoriofinal.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "S. 37–39, 50, 126, 139–141, 176–177, 195: Überwachung, Zeugenaussage, TCU-Zahlungs-/Vergabeprüfungen, fehlende Auslandsbankdaten, Indizien und vorgesehene Weiterleitung an Staatsanwaltschaft."
+
+- id: SRC-WS-BR-CPI-0528-02
+  title: "CPI SIVAM, Sitzungsprotokoll Nr. 0528/02"
+  institution: "Câmara dos Deputados"
+  date: "2002-06-04"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/notas/nt040602.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "S. 3–5, 10–12: Chinaglia-Gegenposition, abweichende Dokumente, Mehrheitsannahme und separate Weitergabe."
+
+- id: SRC-WS-BR-CPI-PRESS-2002
+  title: "CPI do Sivam inocenta embaixador"
+  institution: "Câmara dos Deputados"
+  date: "2002-06-04"
+  type: "official_news"
+  primary: true
+  tier: "A"
+  url: "https://www.camara.leg.br/noticias/19155-cpi-do-sivam-inocenta-embaixador"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Amtliche Meldung zum fehlenden Nachweis der Vorwürfe gegen Botschafter Júlio César Gomes dos Santos; keine umfassende Strafentscheidung."
+
+- id: SRC-WS-BR-TRF4-2003
+  title: "TRF confirma anulação do contrato da União com a Raytheon para implantação do Sivam"
+  institution: "Tribunal Regional Federal da 4ª Região"
+  date: "2003-10-17"
+  type: "court_statement"
+  primary: true
+  tier: "A"
+  url: "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=3572"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD; ATECH und Embraer 1997 durch Nachträge 9/10 einbezogen."
+
+- id: SRC-WS-BR-STJ-719548
+  title: "REsp 719.548-PR (2005/0009564-0), 03.04.2008"
+  institution: "Superior Tribunal de Justiça"
+  date: "2008-04-03"
+  type: "court_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Amtliche Urteilswiedergabe in Coletânea 78, S. 139–154 (DJe 21.11.2008); insbesondere S. 140–141 Berichtigung TRF-Tenor, 148–150 Vertragsänderungen, 154 Verfahrensbeendigung ohne Sachentscheidung."
+
+- id: SRC-WS-STOA-1999
+  title: "Interception Capabilities 2000"
+  institution: "Duncan Campbell / European Parliament STOA"
+  date: "1999-04"
+  type: "commissioned_study"
+  primary: false
+  tier: "B"
+  url: "https://irp.fas.org/eprint/ic2000/ic2000.htm"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "Abschnitt 5, Rn. 97–104, Fn. 65, 69, 70: journalistische Quellen und Raytheon-Mitteilung; keine operativen NSA-Einzelakten."
+
+- id: SRC-WS-NSA-LIBRARY
+  title: "National Cryptologic Museum Library Catalog"
+  institution: "National Security Agency"
+  date: null
+  type: "library_catalog"
+  primary: true
+  tier: "A"
+  url: "https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/museum/national-cryptologic-museum-library-catalog.pdf"
+  accessed: "2026-11-24"
+  language: "en"
+  locator: "VF 18-12 und VF 26-27: Bibliografische Nachweise Baltimore Sun, keine inhaltliche Bestätigung."
+
+- id: SRC-WS-BR-R96-RET-1995
+  title: "Retificação da Resolução nº 96, de 1994"
+  institution: "Senado Federal / Diário do Congresso Nacional"
+  date: "1995-01-21"
+  type: "legislation_correction"
+  primary: true
+  tier: "A"
+  url: "https://legis.senado.leg.br/diarios/BuscaPaginasDiario?codDiario=6990&download=true"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "DCN Seção II, S. 1033: zweite Tranche 160.598.550 statt 160.589.550 USD; korrigierte Summe entspricht Art. 1. Keine eigene Änderung von Art. 2(a) hier festgestellt."
+
+- id: SRC-WS-BR-TCU1249-2005
+  title: "Acórdão 1249/2005 – Plenário, TC 014.681/2005-4"
+  institution: "Tribunal de Contas da União"
+  date: "2005-08-24"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Bericht §§12–15 inkl. Fn.3 (SIVAM Vendor Trust, Vertragsbl.18–19), Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text."
+
+- id: SRC-WS-BR-CMN129-1997
+  title: "Ata da 618ª sessão do Conselho Monetário Nacional; Voto CMN 129/97 / BCB 305/97"
+  institution: "Banco Central do Brasil / Conselho Monetário Nacional"
+  date: "1997-08-28"
+  type: "central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Protokoll S.3: Annahme; Anlage Bl.45–47, BCB Voto 305/97 vom 13.08.1997 §§1–5: drei ausländische Kreditgeber, USD1.484.327.038,50, 1,5 Prozentpunkte Zinsmarge, 100%-Regel/0%-Ausnahme."
+
+- id: SRC-WS-BR-BCB444-1997
+  title: "Ata da 626ª sessão do CMN; Voto BCB 444/97"
+  institution: "Banco Central do Brasil"
+  date: "1997-11-26"
+  type: "central_bank_submission"
+  primary: true
+  tier: "A"
+  url: "https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anlage Bl.49–51, Voto 444/97 §6: zugelassene 0%-Gewichtung der SIVAM-Kredite und manuelle Anpassung des erforderlichen Eigenkapitals."
+
+- id: SRC-WS-BR-BB-PROSPECTUS-2006
+  title: "Prospecto Definitivo de Distribuição Pública Secundária de Ações Ordinárias – Banco do Brasil S.A."
+  institution: "Banco do Brasil / BNDES-Archiv"
+  date: "2006-06"
+  type: "securities_prospectus"
+  primary: true
+  tier: "A"
+  url: "https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.246, Relacionamento com o Acionista Controlador: Vertrag März 1997, drei Kreditgeber, ca. USD1,3 Mrd. bis 31.03.2006 ausgezahlt; IAN-Anhang S.464 wiederholt Emittentenangabe."
+
+- id: SRC-WS-BR-BB-DRAFT-2006
+  title: "Minuta inicial de prospecto – Banco do Brasil"
+  institution: "Banco do Brasil / Bovespa-CVM"
+  date: "2006-04"
+  type: "draft_prospectus"
+  primary: true
+  tier: "A"
+  url: "https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "S.164 ausstehender Saldo, S.198 kumulative Auszahlungen zum 31.12.2005 jeweils gerundet USD1,3 Mrd.; ausdrücklich vorläufig, nicht als endgültiger Beleg verwendet."
+
+- id: SRC-WS-BR-RES37-1996
+  title: "Resolução 37/1996, de 23 de maio de 1996 (amtlicher Wiederabdruck)"
+  institution: "Senado Federal"
+  date: "1996-05-23"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anais Mai 1999 Bd.23 Nr.14, S.291–293, Requerimentos 251/252, Art.1,3,4 und Anhang: Aufhebung Art.3/4 der fünf Resolutionen von 1994, Fristverlängerung und neue Bedingungen."
+
+- id: SRC-WS-BR-R93-1994
+  title: "Resolução 93, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art.1–2: EXIM-garantierte Kreditlinie; Berichtigung DOU 23.01.1995 S.968 (SRC-WS-BR-R93-RET-1995)."
+
+- id: SRC-WS-BR-R93-RET-1995
+  title: "Retificação da Resolução 93/1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1995-01-23"
+  type: "legislation_correction"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "DOU S.968: USD105.046.668,50; Tranchen 84.621.030 und 20.425.638,50."
+
+- id: SRC-WS-BR-R95-1994
+  title: "Resolução 95, de 27 de dezembro de 1994"
+  institution: "Senado Federal / Câmara dos Deputados"
+  date: "1994-12-27"
+  type: "legislation"
+  primary: true
+  tier: "A"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Art.1–2: SIVAM Vendor Trust, USD48 Mio., 9% ursprünglicher Festzins, Verzugszins 10%."
+
+- id: SRC-WS-BR-LEI11199-2005
+  title: "Lei 11.199, de 24 de novembro de 2005"
+  institution: "República Federativa do Brasil"
+  date: "2005-11-24"
+  type: "budget_law"
+  primary: true
+  tier: "A"
+  url: "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Anexo I, 52000/52101, Programm 0496, Aktion 1391: R$70 Mio. Zusatzbewilligung für SIVAM; kein Zahlungsbeleg."
+
+- id: SRC-WS-BR-TCU48-2001
+  title: "Acórdão 48/2001 – Plenário, TC 014.825/1995-3"
+  institution: "Tribunal de Contas da União"
+  date: "2001-03-28"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Bericht II.2.1 §§47–54, Votum 6.6.1/6.7.1, Stellungnahme MP vom 09.05.1997 und Tenor: technische Beanstandungen, Doppelrollen, Aufhebung der früheren Sanktionen."
+
+- id: SRC-WS-BR-TCU87-1996
+  title: "Acórdão 87/1996 – Plenário, TC 014.825/1995-3"
+  institution: "Tribunal de Contas da União"
+  date: "1996-06-12"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Ursprünglicher Beanstandungs-/Sanktionsbeschluss; a–c durch Acórdão48/2001 aufgehoben."
+
+- id: SRC-WS-BR-TCU110-1996
+  title: "Acórdão 110/1996 – Plenário"
+  institution: "Tribunal de Contas da União"
+  date: "1996-07-24"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Einbeziehung ESCA in besondere Rechnungsprüfung; Zusammenhang mit 87/96 und späterem 48/2001."
+
+- id: SRC-WS-BR-TCU82-1997
+  title: "Ata 8/1997, Decisão 82/97, TC 001.493/97-3"
+  institution: "Tribunal de Contas da União"
+  date: "1997-03-12"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.17–46, Votum S.38–40, Erklärung Carlos Átila S.43–45: Preisverschiebung und Konsortienüberschneidung; keine gerichtlich festgestellte Absprache."
+
+- id: SRC-WS-BR-PLN34-2005
+  title: "Parlamentares vão analisar crédito para o Sivam"
+  institution: "Senado Federal"
+  date: "2005-09-06"
+  type: "official_news"
+  primary: true
+  tier: "A"
+  url: "https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "PLN34/2005, R$70 Mio. für SIVAM; spätere Lei11.199."
+
+- id: SRC-WS-BR-SENATE-2005-REPORT
+  title: "Relatório da Presidência do Senado Federal 2005, cap.13"
+  institution: "Senado Federal"
+  date: "2005"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf"
+  accessed: "2026-11-24"
+  language: "pt"
+  locator: "Gedruckte S.733, MSF270/2005, Nachricht794/2005: Zuordnung PLN34/2005 zu Lei11.199."
+
+- id: SRC-WS-BR-TCU850-1999
+  title: "Decisão 850/99-TCU-Plenário, TC 002.077/97-3"
+  institution: "Tribunal de Contas da União"
+  date: "1999-11-17"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Ata 50/1999, Abschnitt Decisão 850/99, Ziff.8.1–8.4: Direktvergabe, Vertraulichkeit übriger Akten, Übermittlung an Senat und 1997er Rechnungsakte; Sitzung 41/99 außerordentlich nichtöffentlich."
+
+- id: SRC-WS-BR-TCU-WORKS-2001
+  title: "Relatório sintético de fiscalização, Anexo II, Tomo 5 – obras civis do SIVAM"
+  institution: "Tribunal de Contas da União / Câmara dos Deputados"
+  date: "2001-06-29"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Haushaltsjahr 2001, PT05.126.0496.5525.0001 Nr.3, TC8542/2001-2: tatsächlich gezahlte aggregierte Beträge 1997/98, Vertrag001/CCSIVAM/99, Carta336/VPE 20.12.1999 und spätere Nachreichung; Entscheidung09.08.2001."
+
+- id: SRC-WS-BR-PPA-2004
+  title: "Relatório de Avaliação do PPA 2004–2007, exercício 2004"
+  institution: "Ministério do Planejamento, Orçamento e Gestão"
+  date: "2004"
+  type: "government_report"
+  primary: true
+  tier: "A"
+  url: "https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004."
+
+- id: SRC-US-SENATE-RIGGS-REPORT-2004
+  title: "Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act – Staff Report"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2004-07-15"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf"
+  accessed: "2026-11-25"
+  locator: "Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 167–169, 192–193, 200–206; Fn. 195 Jadini-Gründungsurkunde. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen."
+
+- id: SRC-US-SENATE-RIGGS-HEARING-2004
+  title: "Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act, S. Hrg. 108–633"
+  institution: "U.S. Senate"
+  date: "2004-07-15"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf"
+  accessed: "2026-11-25"
+  locator: "Druck-S. 17–23, 35–37; Exhibits 7b (S. 260), 48a/48b (S. 487/490). Zeugenaussagen; Voll-PDF beim erneuten Abruf nicht vollständig verfügbar."
+
+- id: SRC-US-TREASURY-OIG-SAR-2006-03
+  title: "Semiannual Report to the Congress, October 2005–March 2006"
+  institution: "U.S. Department of the Treasury, Office of Inspector General"
+  date: "2006-03"
+  type: "official_report"
+  primary: true
+  tier: "A"
+  url: "https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf"
+  accessed: "2026-11-25"
+  locator: "S. 17: Former OCC Examiner-in-Charge Cleared of Wrongdoing. Kein Name im Bericht; Amt und spätere Riggs-Funktion passen zum Lee-Vorgang."
+
+- id: SRC-US-OCC-QMD-AML-2005
+  title: "Bank Secrecy Act/Anti-Money Laundering Supervision, Final Report"
+  institution: "OCC Quality Management Division"
+  date: "2005-05-18"
+  type: "official_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf"
+  accessed: "2026-11-25"
+  locator: "Anlage in S. Hrg. 112–597, Vol. 2 (17.07.2012), Druck-S. 1247 ff., 1250–1251, 1254, 1271–1272. Nicht 112–766. Textansicht; Faksimileabruf fehlgeschlagen."
+
+- id: SRC-US-OCC-RIGGS-SUPERVISION-20040603
+  title: "Comptroller Hawke Orders Review of OCC's Supervision of Riggs Bank"
+  institution: "Office of the Comptroller of the Currency"
+  date: "2004-06-03"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html"
+  accessed: "2026-11-25"
+  locator: "NR 2004-43: erkannte Mängel seit 1997 und unzureichend frühe förmliche Durchsetzung."
+
+- id: SRC-US-FINCEN-RIGGS-CMP-20040513
+  title: "FinCEN Assesses $25 Million Civil Money Penalty Against Riggs Bank, N.A."
+  institution: "Financial Crimes Enforcement Network"
+  date: "2004-05-13"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na"
+  accessed: "2026-11-25"
+  locator: "Koordinierte OCC-/FinCEN-Sanktionen, durch eine Zahlung von 25 Mio. USD an Treasury zu erfüllen."
+
+- id: SRC-US-PUBLIC-LAW-108-458-2004
+  title: "Intelligence Reform and Terrorism Prevention Act of 2004, Public Law 108–458"
+  institution: "U.S. Congress"
+  date: "2004-12-17"
+  type: "statute"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm"
+  accessed: "2026-11-25"
+  locator: "Sec. 6303(b), (d), 118 Stat. 3751–3754: 12 USC 1820(k), Wirksamkeit nach zwölf Monaten."
+
+- id: SRC-US-SENATE-REPORT-109-368-2006
+  title: "Report of the Permanent Subcommittee on Investigations, S. Rept. 109–368"
+  institution: "U.S. Senate"
+  date: "2006-12-22"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm"
+  accessed: "2026-11-25"
+  locator: "Abschnitt B: Money Laundering and Foreign Corruption; Zusammenhang Riggs-Untersuchung und Beschäftigungsbeschränkung."
+
+- id: SRC-US-SEC-RIGGS-8K-20050311
+  title: "Riggs National Corporation, Current Report on Form 8-K"
+  institution: "Riggs National Corporation / SEC"
+  date: "2005-03-11"
+  type: "corporate_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm"
+  accessed: "2026-11-25"
+  locator: "Item 5.02: Rücktritt Robert Allbritton, Hebert-Funktionen, related business transactions 2004."
+
+- id: SRC-US-SEC-BOFA-424B5-2005
+  title: "Bank of America Corporation, Prospectus Supplement Form 424B5"
+  institution: "Bank of America Corporation / SEC"
+  date: "2005-02"
+  type: "corporate_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm"
+  accessed: "2026-11-25"
+  locator: "Bank of America Corporation – General; Namens-/Fusionsgeschichte 1998 und FleetBoston 01.04.2004. Suchauszug, erneuter Vollabruf fehlgeschlagen."
+
+- id: SRC-US-FED-BANCO-DE-CHILE-ORDER-2005
+  title: "Order to Cease and Desist, Banco de Chile and Miami Branch"
+  institution: "Board of Governors of the Federal Reserve System"
+  date: "2005-02-01"
+  type: "official_order"
+  primary: true
+  tier: "A"
+  url: "https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf"
+  accessed: "2026-11-25"
+  locator: "Docket 05-001-B-FR; Maßnahmen gegen Mängel bei Geldwäscheprävention. Keine strafrechtliche Verurteilung."
+
+- id: SRC-US-FED-BANCO-DE-CHILE-TERMINATION-2008
+  title: "Termination of enforcement action against Banco de Chile"
+  institution: "Board of Governors of the Federal Reserve System"
+  date: "2008-06-04"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm"
+  accessed: "2026-11-25"
+  locator: "Beendigung der Anordnung zum 02.06.2008."

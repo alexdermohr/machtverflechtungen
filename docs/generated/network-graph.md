@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**492 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**624 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -895,6 +895,222 @@ flowchart LR
     N_ORG_US_STATE_DEPARTMENT -->|"Anlage 12.01.1972: US-Planung wollte Schuldenerleichterungen politisch begrenzen und Gläubiger schützen, harte Bedingungen, ggf. verzögerte Unterschrift bei zunehmender innerer Unzufriedenheit. Keine pauschale tatsächliche Kreditverweigerung abgeleitet."| N_ORG_CL_ALLENDE_GOVERNMENT_1972
     N_ORG_US_STATE_DEPARTMENT -->|"Anlage 12.01.1972 S.499: State/Defense befürworteten Fortführung noch nicht ausgezahlter 8 Mio. USD Militärkredite im rechtlich möglichen Umfang wegen oppositionellen Potenzials der Streitkräfte; keine neue Auszahlung."| N_ORG_CL_ARMED_FORCES_HISTORICAL
     N_ORG_US_DOD -->|"Anlage 12.01.1972 S.499/511ff: Defense befürwortete mit State Erhalt des FMS-Kreditprogramms für Chile aus politischer Erwägung; 8 Mio. USD ausstehende Auszahlung, keine zusätzliche Summe."| N_ORG_CL_ARMED_FORCES_HISTORICAL
+    N_ORG_US_IC_1990S["US Intelligence Community (Wirtschaftsaufklärung 1993–1995)"]
+    N_ORG_US_IC_1990S -->|"Wirtschaftsaufklärung für staatliche Entscheidungsträger; SSCI berichtet Juli 1994 über wirtschaftlichen Nutzen"| N_ORG_US_STATE_DEPARTMENT
+    N_ORG_US_COMMERCE["US Department of Commerce"]
+    N_ORG_US_IC_1990S -->|"Commerce als Nutzer; im Juli 1994 berichtete Vorteile aus Geheimdienstinformationen, Einzelfälle nicht offengelegt"| N_ORG_US_COMMERCE
+    N_ORG_US_SSCI["Senate Select Committee on Intelligence (SSCI)"]
+    N_ORG_US_STATE_DEPARTMENT -->|"Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"| N_ORG_US_SSCI
+    N_ORG_US_COMMERCE -->|"Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"| N_ORG_US_SSCI
+    N_PER_US_WILLIAM_STUDEMAN["William O. Studeman"]
+    N_PER_US_WILLIAM_STUDEMAN -->|"03.04.1995: Übermittlung koordinierter Intelligence-Community-Antworten zur Anhörung vom 10.01.1995"| N_ORG_US_SSCI
+    N_ORG_US_OSAC["Overseas Security Advisory Council (OSAC)"]
+    N_ORG_US_STATE_DEPARTMENT -->|"1985 eingerichtetes Forum für Sicherheits- und Informationsaustausch"| N_ORG_US_OSAC
+    N_PER_US_JAMES_WOOLSEY -->|"Treffen mit OSAC-Exekutivkomitee 15.11.1993 laut schriftlichem CIA-Nachtrag 03.04.1995"| N_ORG_US_OSAC
+    N_ORG_US_NSA["National Security Agency (NSA)"]
+    N_ORG_US_NSA -->|"Technische Beratung des Informations-/Technologieschutz-Fachausschusses laut CIA-Antwort April 1995"| N_ORG_US_OSAC
+    N_ORG_US_NACIC_1994["National Counterintelligence Center (NACIC, 1994)"]
+    N_ORG_US_NACIC_1994 -->|"Technische Beratung des OSAC-Fachausschusses laut CIA-Antwort April 1995"| N_ORG_US_OSAC
+    N_ORG_US_FBI["Federal Bureau of Investigation (FBI)"]
+    N_ORG_US_IC_1990S -->|"Koordination der Abwehr fremdstaatlich geförderter Wirtschaftsspionage, wechselseitige Warnungen/Briefings laut CIA"| N_ORG_US_FBI
+    N_ORG_US_IBM_1992["IBM Corporation (1992)"]
+    N_ORG_US_IBM_1992 -->|"IBM-Sicherheitsdirektor Richard E. Mainey als Vizevorsitzender laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_CITICORP_1992["Citicorp/Citibank N.A. (1992)"]
+    N_ORG_US_CITICORP_1992 -->|"Citicorp/Citibank N.A., eine Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_BECHTEL_1992["Bechtel Corporation (1992–1996)"]
+    N_ORG_US_BECHTEL_1992 -->|"Bechtel-Sicherheitsvertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_MCDONNELL_DOUGLAS_1992["McDonnell Douglas (1992–1996)"]
+    N_ORG_US_MCDONNELL_DOUGLAS_1992 -->|"McDonnell-Douglas-Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"| N_ORG_US_OSAC
+    N_ORG_US_BOEING_1993["Boeing (1993–1996)"]
+    N_ORG_US_BOEING_1993 -->|"05.08.1993: Unternehmensvertreter Hayden/Blay wünschen Schutz vor fremder Spionage, lehnen Beschaffung fremder Geschäftsgeheimnisse ab"| N_ORG_US_SSCI
+    N_ORG_US_TPCC_ADVOCACY["Advocacy Coordinating Network (1993–1994)"]
+    N_ORG_US_COMMERCE -->|"Seit November 1993 Exportförderungskoordination mit 17 Behörden laut National Export Strategy"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_STATE_DEPARTMENT -->|"Diplomatische Beteiligung an behördenübergreifender Exportförderung 1994"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_EXIMBANK_1994["Export–Import Bank of the United States (Exportfinanzierung 1994–1997)"]
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM beteiligt sich laut Regierungsbericht an Exportförderungskoordination"| N_ORG_US_TPCC_ADVOCACY
+    N_ORG_US_OPIC_1971 -->|"OPIC in Exportförderungskoordination; mögliche SIVAM-Finanzierung ist keine nachgewiesene Auszahlung"| N_ORG_US_TPCC_ADVOCACY
+    N_PRG_BR_SIVAM["Sistema de Vigilância da Amazônia (SIVAM)"]
+    N_ORG_US_TPCC_ADVOCACY -->|"National Export Strategy nennt diplomatische und kommerzielle Unterstützung der Raytheon-Auswahl"| N_PRG_BR_SIVAM
+    N_ORG_US_EXIMBANK_1994 -->|"4.426 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_BOEING_1993
+    N_ORG_US_RAYTHEON_1994["Raytheon Company (SIVAM 1994–2008)"]
+    N_ORG_US_EXIMBANK_1994 -->|"1.923 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_RAYTHEON_1994
+    N_ORG_US_EXIMBANK_1994 -->|"938 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_BECHTEL_1992
+    N_ORG_US_EXIMBANK_1994 -->|"745 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_MCDONNELL_DOUGLAS_1992
+    N_ORG_US_EXIMBANK_1994 -->|"530 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"| N_ORG_US_FLUOR
+    N_ORG_SA_GOVERNMENT_1994["Saudi-Arabien (Flugzeugbeschaffung 1994)"]
+    N_ORG_SA_GOVERNMENT_1994 -->|"16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"| N_ORG_US_BOEING_1993
+    N_ORG_SA_GOVERNMENT_1994 -->|"16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"| N_ORG_US_MCDONNELL_DOUGLAS_1992
+    N_ORG_BR_SENADO_FEDERAL["Senado Federal (Brasilien)"]
+    N_ORG_BR_UNION_SIVAM["Brasilianische Union (SIVAM-Verträge)"]
+    N_ORG_BR_SENADO_FEDERAL -->|"Resolution 96: 1.288.255.370 USD genehmigter Kredit über Banco do Brasil Grand Cayman, nicht Auszahlungsnachweis"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994["Banco do Brasil S.A., Agência Grand Cayman (1994)"]
+    N_ORG_US_EXIMBANK_1994 -->|"Resolution 96 genehmigt Weiterleitung von EXIM-Mitteln durch die Grand-Cayman-Niederlassung"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994 -->|"1.288.255.370 USD genehmigte externe Kreditoperation laut Art. 1; keine tatsächliche Zahlung belegt"| N_ORG_BR_UNION_SIVAM
+    N_ORG_US_RAYTHEON_1994 -->|"Resolution 97: 239,2 Mio. USD genehmigter Lieferantenkredit, 9 Prozent Festzins nach ursprünglicher Regelung"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_SENADO_FEDERAL -->|"Resolutionen 96/97 Art. 3: geplanter CCSIVAM-Vertrag mit ESCA/Raytheon-Konsortium als Finanzierungsbedingung; nicht mit späterem Vertrag 01/95 gleichgesetzt"| N_PRG_BR_SIVAM
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM-Rückblick: 1994 ca. 1,3 Mrd. USD bewilligt; GAO AP 67303 bestätigt Datum und spätere Kreditänderung"| N_PRG_BR_SIVAM
+    N_ORG_US_EXIMBANK_1994 -->|"04.03.1997: 34 Mio. USD Kreditänderung AP 67303, Raytheon-Lieferungen; nicht zusätzlich zur ursprünglichen Gesamtsumme addieren"| N_PRG_BR_SIVAM
+    N_ORG_BR_CCSIVAM["Comissão de Coordenação de Implantação do SIVAM (CCSIVAM)"]
+    N_DOC_BR_CCSIVAM_RAYTHEON_0195["Vertrag 01/95 – CCSIVAM/Raytheon"]
+    N_ORG_BR_CCSIVAM -->|"Vertrag 01/95 CCSIVAM/Raytheon, aus gerichtlicher Wiedergabe identifiziert; vollständiger Vertragsvolltext fehlt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_US_RAYTHEON_1994 -->|"Vertrag 01/95 mit CCSIVAM; ursprüngliche Aufgabenabgrenzung gerichtlich beanstandet"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_ESCA["ESCA – Engenharia de Controle e Automação S.A."]
+    N_ORG_BR_ESCA -->|"Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"| N_PRG_BR_SIVAM
+    N_ORG_BR_ATECH_FOUNDATION["Fundação Aplicações de Tecnologias Críticas (ATECH)"]
+    N_ORG_BR_ATECH_FOUNDATION -->|"1997 durch Nachträge 9/10 als nationale Integratorin einbezogen (TRF4 2003); spätere strategische Aufgabenabgrenzung im STJ-Urteil 2008"| N_PRG_BR_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"| N_PRG_BR_SIVAM
+    N_ORG_BR_CPI_SIVAM_2002["CPI SIVAM (Câmara dos Deputados)"]
+    N_ORG_BR_CPI_SIVAM_2002 -->|"CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"| N_PRG_BR_SIVAM
+    N_ORG_BR_MPF["Ministério Público Federal (Brasilien)"]
+    N_ORG_BR_CPI_SIVAM_2002 -->|"Abschlussbericht und gesonderte Gegenunterlagen zur Weitergabe an MPF bestimmt; Eingangsbeleg und Verfahrensausgang offen"| N_ORG_BR_MPF
+    N_ORG_BR_TRF4["Tribunal Regional Federal da 4ª Região"]
+    N_ORG_BR_TRF4 -->|"2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_STJ["Superior Tribunal de Justiça (STJ)"]
+    N_ORG_BR_STJ -->|"03.04.2008 REsp 719.548-PR: Vorentscheidung aufgehoben, Verfahren ohne Sachentscheidung beendet; Vermögensschaden nicht nachgewiesen"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997["Banco do Brasil S.A. (SIVAM, 1997–2006)"]
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Grand-Cayman-Niederlassung des vertraglichen SIVAM-Finanzierers Banco do Brasil"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_US_EXIMBANK_1994 -->|"Vertrag AP067303XX, direktes EXIM-Limit USD1.288.255.370, laut TCU1249/2005; kein Einzelabrufnachweis"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_US_EXIMBANK_1994 -->|"EXIM-garantierte Linie AP067902XX, Limit USD105.046.668,50; Garantie nicht mit direkter Auszahlung gleichgesetzt"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_NL_ABN_AMRO_SIVAM_1997["ABN AMRO Bank (SIVAM-Refinanzierung 1997)"]
+    N_ORG_NL_ABN_AMRO_SIVAM_1997 -->|"1997 als einer von drei Kreditgebern genannt, durch endgültigen Prospekt bestätigt; exakte einzelne Tranche nicht dokumentiert"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_SE_SVENSK_EXPORTKREDIT_SIVAM_1997["AB Svensk Exportkredit (SEK, SIVAM)"]
+    N_ORG_SE_SVENSK_EXPORTKREDIT_SIVAM_1997 -->|"TCU1249/2005: unterzeichneter SEK-Finanzierungsvertrag mit BB Grand Cayman, Limit USD91.025.000"| N_ORG_BR_BANCO_DO_BRASIL_CAYMAN_1994
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Drei Gegenverträge mit der Union; USD1.484.327.038,50 Vertragsvolumen und 1,5 Prozentpunkte jährliche Zinsvergütung laut BCB"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997 -->|"Endgültiger Prospekt: ca. USD1,3 Mrd. kumulativ ausgezahlt bis 31.03.2006; keine Empfänger-Einzelabrechnung"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"72,1% des stimmberechtigten und gesamten Kapitals am 31.03.2006 laut endgültigem Prospekt"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_BR_BCB["Banco Central do Brasil (BCB)"]
+    N_ORG_BR_CMN["Conselho Monetário Nacional (CMN)"]
+    N_ORG_BR_BCB -->|"Voto305/97 / CMN129/97 empfiehlt 0 statt 100% Risikogewicht für strategische SIVAM-Kredite"| N_ORG_BR_CMN
+    N_ORG_BR_CMN -->|"CMN genehmigt 28.08.1997 Risikogewicht 0% für SIVAM; BCB444/97 bestätigt Eigenkapitalentlastung, keine tatsächliche Risikolosigkeit"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
+    N_ORG_US_RAYTHEON_1994 -->|"Raytheon Credit Facility mit Limit USD239,2 Mio. laut TCU1249/2005; tatsächlicher Einzelabruf offen"| N_ORG_BR_UNION_SIVAM
+    N_ORG_INT_SIVAM_VENDOR_TRUST_1994["SIVAM Vendor Trust (Kreditgenehmigung 1994)"]
+    N_ORG_INT_SIVAM_VENDOR_TRUST_1994 -->|"Resolution95/1994 genehmigt USD48 Mio. SIVAM Vendor Trust; TCU1249/2005 §15 Fn.3 bestätigt den Vertragspartner der Vendor Facility; Einzelabruf offen"| N_ORG_BR_UNION_SIVAM
+    N_ORG_BR_SENADO_FEDERAL -->|"Res.37/1996 hebt Art.3/4 der fünf ursprünglichen Kreditresolutionen auf, Fristen +270 Tage und neue Schutz-/Ausschreibungsbedingungen"| N_PRG_BR_SIVAM
+    N_ORG_BR_EMBRAER_SIVAM["Embraer (SIVAM-Verträge, 1990er–2005)"]
+    N_ORG_BR_EMBRAER_SIVAM -->|"1997 durch dieselben Nachträge 9/10 als Flugzeuglieferantin in Vertrag 01/95 aufgenommen; exakter Tag nicht belegt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_ATECH_FOUNDATION -->|"1997 durch Nachträge 9/10 in Vertrag 01/95 aufgenommen, nicht erst 2005/2008; exakter Tag nicht belegt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_TCU["Tribunal de Contas da União (TCU)"]
+    N_ORG_BR_CMO["Comissão Mista de Orçamento (CMO)"]
+    N_ORG_BR_TCU -->|"TCU ordnet Warnung vor möglicher vorzeitiger Fälligkeit von rund USD1,5 Mrd. bei Nichtzahlung an; kein Nachweis eingetretener Fälligstellung"| N_ORG_BR_CMO
+    N_ORG_BR_TCU -->|"TCU dokumentiert Klausel24.1.18 und verknüpfte Default-Klauseln der fünf Finanzierungen, bei qualifiziertem Zahlungsverzug mögliche Kündigung/Fälligstellung"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_UNION_SIVAM -->|"Lei11.199 vom 24.11.2005: R$70 Mio. Zusatzbewilligung; keine Zahlungsabrechnung"| N_PRG_BR_SIVAM
+    N_ORG_BR_UNION_SIVAM -->|"CPI2002 S.126 gibt TCU-Prüfung wieder: R$2 Mio. an ESCA 1994–95 für Beratung/Engineering zur Integrationslogik; keine Bestechungsfeststellung"| N_ORG_BR_ESCA
+    N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS["José Roberto Toscano Dantas"]
+    N_ORG_BR_ESCA -->|"TCU48/2001 erörtert ESCA-Vergütung des Rechtsberaters auf Anregung des Ministeriums; spätere Mehrheit sah Schaden/Bereicherung/bösen Glauben nicht nachgewiesen"| N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS
+    N_ORG_BR_CISCEA["Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA)"]
+    N_PER_BR_JOSE_ROBERTO_TOSCANO_DANTAS -->|"TCU48/2001 dokumentiert längerfristige juristische Tätigkeit für Luftwaffe/CISCEA neben ESCA-Vergütung; zeitliche Aussage auf Prüfakte beschränkt"| N_ORG_BR_CISCEA
+    N_ORG_BR_TCU -->|"Technische Prüfung zu Auswahlsitzung 13.09.1993: sechs von neun Beteiligten mit ESCA-Verbindungen; Mehrheit hob 2001 die Ziffern a–c von 87/96 auf; keine strafrechtliche Entscheidung"| N_ORG_BR_ESCA
+    N_ORG_BR_TCU -->|"TCU110/96 bezog ESCA in besondere Rechnungsprüfung ein; TCU48/2001 hob 87/96 a–c später auf, kein Strafurteil"| N_ORG_BR_ESCA
+    N_ORG_BR_TCU -->|"TCU82/97: umverteilte Teilkosten USD28.475.782, Bezifferung nicht verifiziert; Konsortienüberschneidung im abweichenden Prüfbeitrag, keine bewiesene Absprache"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_TCU -->|"17.11.1999: TCU850/99 beurteilt Direktvergabe an Embraer/ATECH als regulär; Entscheidung veröffentlicht, übrige Akten vertraulich"| N_ORG_BR_CCSIVAM
+    N_ORG_BR_TCU -->|"TCU850/99 Ziff.8.2–8.3: Übermittlung von Entscheidung und Grundlagen an Senatspräsidentschaft sowie Senatoren Valadares/Amorim unter Vertraulichkeit angeordnet"| N_ORG_BR_SENADO_FEDERAL
+    N_ORG_BR_SCHAHIN_SIVAM_1999["Schahin (SIVAM-Bauauftrag 1999)"]
+    N_ORG_BR_CCSIVAM -->|"Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"| N_ORG_BR_SCHAHIN_SIVAM_1999
+    N_ORG_BR_UNION_SIVAM -->|"PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"| N_PRG_BR_SIVAM
+    N_PER_CL_INES_LUCIA_PINOCHET["Inés Lucía Pinochet"]
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004["Bank of America – Kontenverbund laut Senatsbericht 2005"]
+    N_PER_CL_INES_LUCIA_PINOCHET -->|"Drei US-Konten und zeitweise bis zu sechs CDs; Höchststand ca. 420.000 USD (12/2002)."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"300.000 USD aus Riggs-London-Scheck am 30.09.2002 auf Konto von Inés Lucía Pinochet bei Bank of America."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_PINEBANK_MIAMI["PineBank (Miami)"]
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"130.000 USD über Bank-of-America-Schecks an PineBank ab 09.10.2002; keine gesicherte Identität mit dem vorherigen Riggs-Eingang."| N_ORG_US_PINEBANK_MIAMI
+    N_ORG_CL_BANKBOSTON_CHILE_2001["BankBoston Chile (2001)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Zwei Riggs-Schecks zu je 50.000 USD am 03.01. und 01.10.2001 bei BankBoston Chile eingelöst."| N_ORG_CL_BANKBOSTON_CHILE_2001
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"FleetBoston-Erwerb 2004; BankBoston Chile erst dadurch dem späteren Bank-of-America-Verbund zugeordnet."| N_ORG_CL_BANKBOSTON_CHILE_2001
+    N_ORG_PT_BANCO_ESPIRITO_SANTO_2005["Banco Espírito Santo (Lissabon, 2005)"]
+    N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI["Espírito Santo Bank (Miami)"]
+    N_ORG_PT_BANCO_ESPIRITO_SANTO_2005 -->|"Miami-Bank im Senatsbericht 2005 als Tochter von Banco Espírito Santo Lissabon bezeichnet."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_PER_CL_AUGUSTO_PINOCHET -->|"Mindestens sechs Konten/CDs im Pinochet-Komplex und mindestens 3,9 Mio. USD Einlagen 1991–2000 (Senatsuntersuchung)."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Ehemalige Mitarbeiter von Riggs International Banking Corporation (einschließlich früherem Leiter) bei Espírito Santo; Kundenvermittlung im Bericht rekonstruiert."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Ca. 525.000 USD aus einem Riggs-Konto eines Militärangehörigen an Espírito Santo, August 1992 bis August 1994."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_BS_DELOITTE_TOUCHE_1991["Deloitte & Touche (Bahamas, 1991)"]
+    N_ORG_BS_DELOITTE_TOUCHE_1991 -->|"Laut Senatsbericht Vertrag über Dienstleistungen einschließlich Verwaltung der Riggs Bank & Trust Co. (Bahamas)."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Januar 1991: 1,15 Mio. USD vom Riggs-Gemeinschaftskonto Pinochets/Ehefrau über Bank of Bahamas zugunsten Deloitte & Touche."| N_ORG_BS_DELOITTE_TOUCHE_1991
+    N_ORG_BS_DELOITTE_TOUCHE_1991 -->|"Oktober 1991: 1,19 Mio. USD über Deloitte & Touche zugunsten Trilateral International Trading bei Espírito Santo. Herkunftsvermutung des Senats, keine exakte Betragsidentität."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_COUTTS_INTERNATIONAL_1999["Coutts & Co. (USA) International (1999)"]
+    N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI -->|"Dezember 1999 ca. 2,3 Mio. USD von drei Espírito-Santo-Konten zugunsten Eastview Finance bei Coutts."| N_ORG_US_COUTTS_INTERNATIONAL_1999
+    N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004["Banco Santander Central Hispano (2004)"]
+    N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004 -->|"2003 Erwerb des betreffenden internationalen Privatbankgeschäfts von RBS; Übertragung der Konten 2004."| N_ORG_US_COUTTS_INTERNATIONAL_1999
+    N_ORG_ES_BANCO_ATLANTICO_1981_2000["Banco Atlántico (1981–2000)"]
+    N_ORG_ES_BANCO_ATLANTICO_1981_2000 -->|"Über 5,8 Mio. USD an Pinochet-bezogene Riggs-Konten 1981–2000; Herkunft und Endbegünstigte teilweise ungeklärt."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCEAN_BANK_MIAMI["Ocean Bank (Miami)"]
+    N_ORG_US_CITIGROUP_2004 -->|"Mindestens fünf Überweisungen von Meritor über Cititrust Bahamas an Ocean Bank, zusammen 349.326 USD (10/2003–06/2004); Gruppenzuordnung retrospektiv."| N_ORG_US_OCEAN_BANK_MIAMI
+    N_ORG_CL_BANCO_DE_CHILE_2005["Banco de Chile (einschließlich US-Niederlassung)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"36 Riggs-Schecks über zusammen ca. 1,8 Mio. USD bei Banco de Chile in Chile eingelöst (08/2000–08/2003)."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_ORG_US_FEDERAL_RESERVE -->|"Anordnung zur Verbesserung der Geldwäscheprävention, wirksam 01.02.2005."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_ORG_US_FEDERAL_RESERVE -->|"Beendigung der Aufsichtsanordnung am 02.06.2008."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_PER_US_ASHLEY_LEE["R. Ashley Lee"]
+    N_PER_US_ASHLEY_LEE -->|"Leitender Riggs-Prüfer; am 08.08.2002 aus Prüfung zurückgezogen. Persönliche Vorwürfe strittig."| N_ORG_US_OCC
+    N_PER_US_ASHLEY_LEE -->|"Wechsel aus OCC zu Riggs im Oktober 2002; OIG 2006 berichtet passenden, nicht namentlich identifizierten Ermittlungsabschluss ohne Belege für untersuchte Straftaten."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCC -->|"OCC erklärte am 03.06.2004, seit 1997 erkannte BSA-Mängel nicht früh genug förmlich verfolgt zu haben."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCC -->|"25 Mio. USD Geldbuße vom 13.05.2004, koordiniert mit FinCEN; insgesamt eine Zahlung von 25 Mio. USD."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_FINCEN["Financial Crimes Enforcement Network (FinCEN)"]
+    N_ORG_US_FINCEN -->|"Koordinierte 25-Mio.-USD-Sanktion mit OCC; durch dieselbe einmalige Treasury-Zahlung zu erfüllen, nicht zusätzlich."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_DOJ -->|"US-Staatsanwalt Wainstein bat am 08.08.2004 um Einstellung bestimmter Riggs-bezogener Reviewaktivitäten; allgemeine QMD-Prüfung lief weiter."| N_ORG_US_OCC
+    N_DOC_US_PL108_458_SEC6303["Public Law 108–458, Section 6303 (2004)"]
+    N_DOC_US_PL108_458_SEC6303 -->|"Befristete Beschäftigungsbeschränkung für bestimmte leitende Prüfer, wirksam zwölf Monate nach Erlass; keine Rückwirkung auf Lee."| N_ORG_US_OCC
+    N_ORG_US_RIGGS_NATIONAL_CORPORATION["Riggs National Corporation"]
+    N_ORG_US_RIGGS_NATIONAL_CORPORATION -->|"Riggs Bank als Tochtergesellschaft der Riggs National Corporation im Untersuchungszeitraum."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_US_ROBERT_ALLBRITTON["Robert Allbritton"]
+    N_PER_US_ROBERT_ALLBRITTON -->|"CEO und Chairman der Holding bis Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_PER_US_ROBERT_ALLBRITTON -->|"Chairman von Riggs Bank; Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_US_LAWRENCE_I_HEBERT["Lawrence I. Hebert"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Bankpräsident und CEO seit Februar 2001; SEC-Mitteilung vom 11.03.2005 nennt ihn weiterhin in dieser Funktion. Ausscheidensdatum nicht belegt."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004["Allbritton Communications Company (2004)"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Weitere Leitungsfunktionen bei Allbritton Communications bis Oktober 2004, parallel zur Bankleitung."| N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004
+    N_ORG_US_PERPETUAL_CORPORATION_2004["Perpetual Corporation (2004)"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Präsident der ACC-Mutter Perpetual Corporation 1981–10/2004."| N_ORG_US_PERPETUAL_CORPORATION_2004
+    N_ORG_US_PERPETUAL_CORPORATION_2004 -->|"Perpetual Corporation in SEC-Meldung als Muttergesellschaft von ACC bezeichnet."| N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004
+    N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004 -->|"506.160 USD 2004 für Büroräume, Veranstaltungslogen und Kontodienstleistungen, nach SEC-8-K; keine redaktionelle Weisung belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_PER_US_STEVEN_B_PFEIFFER["Steven B. Pfeiffer"]
+    N_PER_US_STEVEN_B_PFEIFFER -->|"Direktor der Riggs-Holding laut Senatsbericht 2004 seit 1989."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_ORG_US_FULBRIGHT_JAWORSKI_2004["Fulbright & Jaworski (2004)"]
+    N_PER_US_STEVEN_B_PFEIFFER -->|"Gleichzeitig Partner von Fulbright & Jaworski laut Senatsbericht 2004."| N_ORG_US_FULBRIGHT_JAWORSKI_2004
+    N_ORG_US_FULBRIGHT_JAWORSKI_2004 -->|"Rechtsdienstleistungen für Riggs laut Senatsbericht 2004, keine strafrechtliche Mitwirkung allein daraus."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_GOVERNMENT_1995_2004["Regierung Äquatorialguineas (1995–2004)"]
+    N_ORG_GQ_GOVERNMENT_1995_2004 -->|"Seit 1995 staatliche und amtsträgerbezogene Konten; mehr als 60 Konten/CDs einschließlich Angehöriger, zeitweise 400–700 Mio. USD Einlagen 2003 im Gesamtkomplex."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_KALUNGA_COMPANY_SA["Kalunga Company S.A."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."| N_ORG_GQ_KALUNGA_COMPANY_SA
+    N_ORG_GQ_KALUNGA_COMPANY_SA -->|"Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."| N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004
+    N_ORG_INT_APEXSIDE_TRADING_LTD["Apexside Trading Ltd."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."| N_ORG_INT_APEXSIDE_TRADING_LTD
+    N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000["Crédit Commercial de France (Luxemburg, 2000–2001)"]
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000
+    N_ORG_LU_HSBC_LUXEMBOURG_2001["HSBC (Luxemburg, 2001)"]
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_HSBC_LUXEMBOURG_2001
+    N_ORG_INT_JADINI_HOLDINGS["Jadini Holdings Ltd."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Drei Überweisungen 2001–2002 über insgesamt 1.096.677,78 USD; Kontrolle durch Ehefrau des Riggs-Kundenbetreuers laut Bericht."| N_ORG_INT_JADINI_HOLDINGS
+    N_PER_GQ_MELCHOR_ESONO_EDJO["Melchor Esono Edjo"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"499.000 USD an persönliche Konten des damaligen Staatssekretärs 1998–2002 laut Senatsbericht."| N_PER_GQ_MELCHOR_ESONO_EDJO
+    N_PER_GQ_TEODORO_OBIANG["Teodoro Obiang Nguema Mbasogo"]
+    N_ORG_GQ_ABAYAK_SA["Abayak S.A. (1998–2004)"]
+    N_PER_GQ_TEODORO_OBIANG -->|"Kontrolle der Abayak S.A. durch den Präsidenten laut Senatsuntersuchung; vollständige Eigentümerakte offen."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC["Mobil Equatorial Guinea Inc. (MEGI)"]
+    N_PER_GQ_CONSTANCIA_MANGUE["Constancia Mangue Nsue de Obiang"]
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC -->|"Mietverträge 1996–2001 mit Präsidentengattin, im Bericht dokumentierte Einzelzahlungen auf Riggs-Konto."| N_PER_GQ_CONSTANCIA_MANGUE
+    N_PER_GQ_CONSTANCIA_MANGUE -->|"Empfang von MEGI-Mietzahlungen auf historisches Riggs-Konto laut Bankunterlagen in Fn. 341."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC -->|"Ab 22.06.2001 Wechsel der Vermieterin von Präsidentengattin zu Abayak S.A."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_US_MOBIL_INTERNATIONAL_PETROLEUM["Mobil International Petroleum Corporation (1998)"]
+    N_ORG_GQ_MOGE_JOINT_VENTURE["MOGE (Gemeinschaftsunternehmen, 1998)"]
+    N_ORG_US_MOBIL_INTERNATIONAL_PETROLEUM -->|"85-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."| N_ORG_GQ_MOGE_JOINT_VENTURE
+    N_ORG_GQ_ABAYAK_SA -->|"15-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."| N_ORG_GQ_MOGE_JOINT_VENTURE
+    N_ORG_GQ_MOGE_JOINT_VENTURE -->|"Ca. 10.500 USD Dividende jährlich 2001–2003 nach Unternehmensantwort."| N_ORG_GQ_ABAYAK_SA
+    N_PER_GQ_ARMENGOL_ONDO_NGUEMA["Armengol Ondo Nguema"]
+    N_ORG_GQ_SONAVI["Sonavi (Sicherheitsdienst)"]
+    N_PER_GQ_ARMENGOL_ONDO_NGUEMA -->|"Sicherheitsgesellschaft im Eigentum des Präsidentenbruders laut Senatsbericht."| N_ORG_GQ_SONAVI
+    N_ORG_US_AMERADA_HESS_2004["Amerada Hess (Unternehmensverbund, 2004)"]
+    N_ORG_US_AMERADA_HESS_2004 -->|"Ca. 300.500 USD Sicherheitsdienstzahlungen Januar 2000 bis Mai 2004; Hess verwies auf vorgegebene Konditionen."| N_ORG_GQ_SONAVI
+    N_ORG_US_EXXONMOBIL_REPORT_2004["ExxonMobil (berichteter Unternehmensverbund 2004)"]
+    N_ORG_US_EXXONMOBIL_REPORT_2004 -->|"Zwei getrennte Einheiten: 683.900 USD (08/1997–10/2000) und ca. 26.400 USD (2000–2003); marktübliche Vergütung laut Unternehmensantwort."| N_ORG_GQ_SONAVI
+    N_ORG_US_MARATHON_OIL_2004["Marathon Oil (2004)"]
+    N_ORG_US_MARATHON_OIL_2004 -->|"Über 611.000 USD Landkaufpreis im Januar 2004 über Abayak an Präsidenten; weiterer ca. 1,4-Mio.-Kauf noch nicht vollzogen (18.06.2004)."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_GQ_AMPCO_METHANOL["Atlantic Methanol Production Company (AMPCO)"]
+    N_ORG_US_MARATHON_OIL_2004 -->|"45-%-Anteil an Methanol-Gemeinschaftsunternehmen laut Senatsbericht."| N_ORG_GQ_AMPCO_METHANOL
+    N_ORG_GQ_GEOGAM["GEOGAM (2004)"]
+    N_ORG_GQ_GEOGAM -->|"10-%-Anteil; eigene GEOGAM-Eigentümerstruktur bleibt ungeklärt."| N_ORG_GQ_AMPCO_METHANOL
+    N_ORG_GQ_AMPCO_METHANOL -->|"Mehr als 4 Mio. USD Dividenden 2002 bis Mai 2004; keine gesicherte Zurechnung an Präsidentenfamilie."| N_ORG_GQ_GEOGAM
+    N_ORG_GQ_ATSIGE["ATSIGE (2000–2004)"]
+    N_ORG_GQ_MOGE_JOINT_VENTURE -->|"236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."| N_ORG_GQ_ATSIGE
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
 ```
 
 [Zur Relationstabelle](network.md)

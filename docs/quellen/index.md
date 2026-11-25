@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**414 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**467 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -652,6 +652,66 @@ Fundstelle: Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OP
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-bcb444-1997"></a>
+### Banco Central do Brasil
+
+**[Ata da 626ª sessão do CMN; Voto BCB 444/97](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf)**
+
+Banco Central do Brasil · 1997-11-26 · Stufe **A** · Primärquelle · `SRC-WS-BR-BCB444-1997`
+
+[PDF öffnen](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0626_CMN.pdf)
+
+Fundstelle: Anlage Bl.49–51, Voto 444/97 §6: zugelassene 0%-Gewichtung der SIVAM-Kredite und manuelle Anpassung des erforderlichen Eigenkapitals.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-cmn129-1997"></a>
+### Banco Central do Brasil / Conselho Monetário Nacional
+
+**[Ata da 618ª sessão do Conselho Monetário Nacional; Voto CMN 129/97 / BCB 305/97](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf)**
+
+Banco Central do Brasil / Conselho Monetário Nacional · 1997-08-28 · Stufe **A** · Primärquelle · `SRC-WS-BR-CMN129-1997`
+
+[PDF öffnen](https://www.bcb.gov.br/conteudo/cmn/AtasCmn/Ata_0618_CMN.pdf)
+
+Fundstelle: Protokoll S.3: Annahme; Anlage Bl.45–47, BCB Voto 305/97 vom 13.08.1997 §§1–5: drei ausländische Kreditgeber, USD1.484.327.038,50, 1,5 Prozentpunkte Zinsmarge, 100%-Regel/0%-Ausnahme.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ws-br-bb-prospectus-2006"></a>
+### Banco do Brasil / BNDES-Archiv
+
+**[Prospecto Definitivo de Distribuição Pública Secundária de Ações Ordinárias – Banco do Brasil S.A.](https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf)**
+
+Banco do Brasil / BNDES-Archiv · 2006-06 · Stufe **A** · Primärquelle · `SRC-WS-BR-BB-PROSPECTUS-2006`
+
+[PDF öffnen](https://www.bndes.gov.br/arquivos/bndespar/comunicados/prospecto_bb.pdf)
+
+Fundstelle: Gedruckte S.246, Relacionamento com o Acionista Controlador: Vertrag März 1997, drei Kreditgeber, ca. USD1,3 Mrd. bis 31.03.2006 ausgezahlt; IAN-Anhang S.464 wiederholt Emittentenangabe.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ws-br-bb-draft-2006"></a>
+### Banco do Brasil / Bovespa-CVM
+
+**[Minuta inicial de prospecto – Banco do Brasil](https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C)**
+
+Banco do Brasil / Bovespa-CVM · 2006-04 · Stufe **A** · Primärquelle · `SRC-WS-BR-BB-DRAFT-2006`
+
+[Seite öffnen](https://siteempresas.bovespa.com.br/consbov/ArquivosExibe.asp?protocolo=86858&site=C)
+
+Fundstelle: S.164 ausstehender Saldo, S.198 kumulative Auszahlungen zum 31.12.2005 jeweils gerundet USD1,3 Mrd.; ausdrücklich vorläufig, nicht als endgültiger Beleg verwendet.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-int-bis-history-1939-gold"></a>
@@ -679,6 +739,21 @@ Bank für Internationalen Zahlungsausgleich · 1939-05-08 · Stufe **A** · Prim
 [Seite öffnen](https://www.bis.org/publications/annual-report-1939)
 
 Fundstelle: PDF S. 148–150: Veränderungen im Verwaltungsrat und 1939er Gremienliste. Funk, Schmitz, von Schröder Verwaltungsräte; Emil Puhl nur unter Stellvertreter
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-bofa-424b5-2005"></a>
+### Bank of America Corporation / SEC
+
+**[Bank of America Corporation, Prospectus Supplement Form 424B5](https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm)**
+
+Bank of America Corporation / SEC · 2005-02 · Stufe **A** · Primärquelle · `SRC-US-SEC-BOFA-424B5-2005`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm)
+
+Fundstelle: Bank of America Corporation – General; Namens-/Fusionsgeschichte 1998 und FleetBoston 01.04.2004. Suchauszug, erneuter Vollabruf fehlgeschlagen.
 
 </article>
 
@@ -979,6 +1054,36 @@ Board of Governors of the Federal Reserve System · 1991-07-29 · Stufe **A** ·
 [PDF öffnen](https://www.federalreserve.gov/supervisionreg/files/19910729.pdf)
 
 Fundstelle: Pressemitteilung S. 1–3; Anlage zur nicht genehmigten wirtschaftlichen Beteiligung an CCAH
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-fed-banco-de-chile-order-2005"></a>
+### Board of Governors of the Federal Reserve System
+
+**[Order to Cease and Desist, Banco de Chile and Miami Branch](https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf)**
+
+Board of Governors of the Federal Reserve System · 2005-02-01 · Stufe **A** · Primärquelle · `SRC-US-FED-BANCO-DE-CHILE-ORDER-2005`
+
+[PDF öffnen](https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf)
+
+Fundstelle: Docket 05-001-B-FR; Maßnahmen gegen Mängel bei Geldwäscheprävention. Keine strafrechtliche Verurteilung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
+<a id="src-us-fed-banco-de-chile-termination-2008"></a>
+### Board of Governors of the Federal Reserve System
+
+**[Termination of enforcement action against Banco de Chile](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm)**
+
+Board of Governors of the Federal Reserve System · 2008-06-04 · Stufe **A** · Primärquelle · `SRC-US-FED-BANCO-DE-CHILE-TERMINATION-2008`
+
+[Seite öffnen](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm)
+
+Fundstelle: Beendigung der Anordnung zum 02.06.2008.
 
 </article>
 
@@ -1517,6 +1622,51 @@ Corte d'Assise di Bologna; digitales Faksimile im Archiv der Opferangehörigen (
 [PDF öffnen](https://www.stragi.it/archivio/doc/638.pdf)
 
 Fundstelle: Digitalisiertes Urteil, 1937 PDF-Seiten: PDF S. 153–155 (gedruckte S. 59–61, Interview Porena/Abu Iyad 19.09.1980); PDF S. 174–177 (gedruckte S. 80–83, SISDE 09.10.1980, CESIS 31.10.1980/30.01.1981); PDF S. 1307–1308 (gedruckte S. 1213–1214, Giovannone-/Propagandabewertung). SHA-256 Faksimile d2ac7f6d986a664d0da10790381eb453d7286af24eeb48006185c37f36d67cb9
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-ws-br-cpi-press-2002"></a>
+### Câmara dos Deputados
+
+**[CPI do Sivam inocenta embaixador](https://www.camara.leg.br/noticias/19155-cpi-do-sivam-inocenta-embaixador)**
+
+Câmara dos Deputados · 2002-06-04 · Stufe **A** · Primärquelle · `SRC-WS-BR-CPI-PRESS-2002`
+
+[Seite öffnen](https://www.camara.leg.br/noticias/19155-cpi-do-sivam-inocenta-embaixador)
+
+Fundstelle: Amtliche Meldung zum fehlenden Nachweis der Vorwürfe gegen Botschafter Júlio César Gomes dos Santos; keine umfassende Strafentscheidung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-ws-br-cpi-0528-02"></a>
+### Câmara dos Deputados
+
+**[CPI SIVAM, Sitzungsprotokoll Nr. 0528/02](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/notas/nt040602.pdf)**
+
+Câmara dos Deputados · 2002-06-04 · Stufe **A** · Primärquelle · `SRC-WS-BR-CPI-0528-02`
+
+[PDF öffnen](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/notas/nt040602.pdf)
+
+Fundstelle: S. 3–5, 10–12: Chinaglia-Gegenposition, abweichende Dokumente, Mehrheitsannahme und separate Weitergabe.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-ws-br-cpi-2002"></a>
+### Câmara dos Deputados
+
+**[CPI SIVAM: Relatório final](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/relatoriofinal.pdf)**
+
+Câmara dos Deputados · 2002-06-04 · Stufe **A** · Primärquelle · `SRC-WS-BR-CPI-2002`
+
+[PDF öffnen](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpisivam/relatoriofinal.pdf)
+
+Fundstelle: S. 37–39, 50, 126, 139–141, 176–177, 195: Überwachung, Zeugenaussage, TCU-Zahlungs-/Vergabeprüfungen, fehlende Auslandsbankdaten, Indizien und vorgesehene Weiterleitung an Staatsanwaltschaft.
 
 </article>
 
@@ -2375,6 +2525,36 @@ Fundstelle: Vol. III Tomo VI, PDF 231–255, v.a. 242–245: 1979er 12,5 Mio. US
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ws-exim-history"></a>
+### Export-Import Bank of the United States
+
+**[EXIM Historical Timeline: SIVAM entry 1994](https://www.exim.gov/about/history-exim/historical-timeline)**
+
+Export-Import Bank of the United States · unbekannt · Stufe **A** · Primärquelle · `SRC-WS-EXIM-HISTORY`
+
+[Seite öffnen](https://www.exim.gov/about/history-exim/historical-timeline)
+
+Fundstelle: Rückblickender Eintrag 1994: Bewilligung ca. 1,3 Mrd. USD; Raytheon als Hauptexporteur. Keine Auszahlungsabrechnung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-fincen-riggs-cmp-20040513"></a>
+### Financial Crimes Enforcement Network
+
+**[FinCEN Assesses $25 Million Civil Money Penalty Against Riggs Bank, N.A.](https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na)**
+
+Financial Crimes Enforcement Network · 2004-05-13 · Stufe **A** · Primärquelle · `SRC-US-FINCEN-RIGGS-CMP-20040513`
+
+[Seite öffnen](https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na)
+
+Fundstelle: Koordinierte OCC-/FinCEN-Sanktionen, durch eine Zahlung von 25 Mio. USD an Treasury zu erfüllen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1976">
 
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
@@ -3065,6 +3245,36 @@ Fundstelle: 373 PDF-Seiten: S. 17 (1RP 11/6 VFF), S. 18 (1RP 16/5 Verfassungschu
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-ws-br-ppa-2004"></a>
+### Ministério do Planejamento, Orçamento e Gestão
+
+**[Relatório de Avaliação do PPA 2004–2007, exercício 2004](https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf)**
+
+Ministério do Planejamento, Orçamento e Gestão · 2004 · Stufe **A** · Primärquelle · `SRC-WS-BR-PPA-2004`
+
+[PDF öffnen](https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf)
+
+Fundstelle: Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ws-nsa-library"></a>
+### National Security Agency
+
+**[National Cryptologic Museum Library Catalog](https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/museum/national-cryptologic-museum-library-catalog.pdf)**
+
+National Security Agency · unbekannt · Stufe **A** · Primärquelle · `SRC-WS-NSA-LIBRARY`
+
+[PDF öffnen](https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/museum/national-cryptologic-museum-library-catalog.pdf)
+
+Fundstelle: VF 18-12 und VF 26-27: Bibliografische Nachweise Baltimore Sun, keine inhaltliche Bestätigung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-int-nato-warsaw-summit-2016"></a>
@@ -3150,6 +3360,36 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
 
 Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-occ-qmd-aml-2005"></a>
+### OCC Quality Management Division
+
+**[Bank Secrecy Act/Anti-Money Laundering Supervision, Final Report](https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf)**
+
+OCC Quality Management Division · 2005-05-18 · Stufe **A** · Primärquelle · `SRC-US-OCC-QMD-AML-2005`
+
+[PDF öffnen](https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf)
+
+Fundstelle: Anlage in S. Hrg. 112–597, Vol. 2 (17.07.2012), Druck-S. 1247 ff., 1250–1251, 1254, 1271–1272. Nicht 112–766. Textansicht; Faksimileabruf fehlgeschlagen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-occ-riggs-supervision-20040603"></a>
+### Office of the Comptroller of the Currency
+
+**[Comptroller Hawke Orders Review of OCC's Supervision of Riggs Bank](https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html)**
+
+Office of the Comptroller of the Currency · 2004-06-03 · Stufe **A** · Primärquelle · `SRC-US-OCC-RIGGS-SUPERVISION-20040603`
+
+[Seite öffnen](https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html)
+
+Fundstelle: NR 2004-43: erkannte Mängel seit 1997 und unzureichend frühe förmliche Durchsetzung.
 
 </article>
 
@@ -3243,6 +3483,21 @@ Fundstelle: Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Ver
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-lei11199-2005"></a>
+### República Federativa do Brasil
+
+**[Lei 11.199, de 24 de novembro de 2005](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm)**
+
+República Federativa do Brasil · 2005-11-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-LEI11199-2005`
+
+[Seite öffnen](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11199.htm)
+
+Fundstelle: Anexo I, 52000/52101, Programm 0496, Aktion 1391: R$70 Mio. Zusatzbewilligung für SIVAM; kein Zahlungsbeleg.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-uy-impo-ley15322-1982-original"></a>
@@ -3273,6 +3528,21 @@ Fundstelle: PDF-Seite 7, Bankbrief: NMB im ersten Quartal 1983 mehrheitlich bete
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-riggs-8k-20050311"></a>
+### Riggs National Corporation / SEC
+
+**[Riggs National Corporation, Current Report on Form 8-K](https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm)**
+
+Riggs National Corporation / SEC · 2005-03-11 · Stufe **A** · Primärquelle · `SRC-US-SEC-RIGGS-8K-20050311`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm)
+
+Fundstelle: Item 5.02: Rücktritt Robert Allbritton, Hebert-Funktionen, related business transactions 2004.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
 
 <a id="src-de-rotehilfe-ruhland-1975"></a>
@@ -3300,6 +3570,171 @@ SEC EDGAR, eingereichter Wertpapierprospekt · 2004 · Stufe **A** · Primärque
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)
 
 Fundstelle: Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-anais-1996-05"></a>
+### Senado Federal
+
+**[Anais do Senado Federal, Mai 1996, PRS 35/1996](https://www.senado.leg.br/publicacoes/anais/pdf-digitalizado/Anais_Republica/1996/1996%20Livro%2010.pdf)**
+
+Senado Federal · 1996-05 · Stufe **A** · Primärquelle · `SRC-WS-BR-ANAIS-1996-05`
+
+[PDF öffnen](https://www.senado.leg.br/publicacoes/anais/pdf-digitalizado/Anais_Republica/1996/1996%20Livro%2010.pdf)
+
+Fundstelle: Gedruckte S. 110: Ausschussargumentation gegen Neuausschreibung wegen Lieferantenbindung der EXIM- und Raytheon-Kreditlinien.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-prs35-1996"></a>
+### Senado Federal
+
+**[PRS 35/1996 – Verfahrensregister zu Resolution 37/1996](https://www25.senado.leg.br/web/atividade/materias/-/materia/32224)**
+
+Senado Federal · 1996-05-23 · Stufe **A** · Primärquelle · `SRC-WS-BR-PRS35-1996`
+
+[Seite öffnen](https://www25.senado.leg.br/web/atividade/materias/-/materia/32224)
+
+Fundstelle: Vermerk 07.08.1997: AV 041/1997 über Wirksamkeit der Verträge am 25.07.1997; Vermerke 25.03.1998: Gerichtsanfragen 4. Bundesgericht Campinas, Ação Popular 96.0601271-9 und fehlende Originalvertragsfassung im Senat.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-res37-1996"></a>
+### Senado Federal
+
+**[Resolução 37/1996, de 23 de maio de 1996 (amtlicher Wiederabdruck)](https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf)**
+
+Senado Federal · 1996-05-23 · Stufe **A** · Primärquelle · `SRC-WS-BR-RES37-1996`
+
+[PDF öffnen](https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/1999/1999%20Livro%2014.pdf)
+
+Fundstelle: Anais Mai 1999 Bd.23 Nr.14, S.291–293, Requerimentos 251/252, Art.1,3,4 und Anhang: Aufhebung Art.3/4 der fünf Resolutionen von 1994, Fristverlängerung und neue Bedingungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-senate-2005-report"></a>
+### Senado Federal
+
+**[Relatório da Presidência do Senado Federal 2005, cap.13](https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf)**
+
+Senado Federal · 2005 · Stufe **A** · Primärquelle · `SRC-WS-BR-SENATE-2005-REPORT`
+
+[PDF öffnen](https://www.senado.leg.br/Relatorios_SGM/RelPresi/2005/P1_K13_MSF.pdf)
+
+Fundstelle: Gedruckte S.733, MSF270/2005, Nachricht794/2005: Zuordnung PLN34/2005 zu Lei11.199.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-pln34-2005"></a>
+### Senado Federal
+
+**[Parlamentares vão analisar crédito para o Sivam](https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam)**
+
+Senado Federal · 2005-09-06 · Stufe **A** · Primärquelle · `SRC-WS-BR-PLN34-2005`
+
+[Seite öffnen](https://www12.senado.leg.br/noticias/materias/2005/09/06/parlamentares-vao-analisar-credito-para-o-sivam)
+
+Fundstelle: PLN34/2005, R$70 Mio. für SIVAM; spätere Lei11.199.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r93-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução 93, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R93-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art.1–2: EXIM-garantierte Kreditlinie; Berichtigung DOU 23.01.1995 S.968 (SRC-WS-BR-R93-RET-1995).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r95-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução 95, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R95-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-95-27-dezembro-1994-395026-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art.1–2: SIVAM Vendor Trust, USD48 Mio., 9% ursprünglicher Festzins, Verzugszins 10%.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r96-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução nº 96, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-96-27-dezembro-1994-395019-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R96-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-96-27-dezembro-1994-395019-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art. 1–4: Banco do Brasil Grand Cayman, EXIM-Weiterleitung, Genehmigungsbetrag und Tranchen; Art. 2(a) abweichender Wert in Onlinefassung, Retifikation der zweiten Tranche siehe SRC-WS-BR-R96-RET-1995.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-br-r97-1994"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Resolução nº 97, de 27 de dezembro de 1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-97-27-dezembro-1994-392017-publicacaooriginal-1-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1994-12-27 · Stufe **A** · Primärquelle · `SRC-WS-BR-R97-1994`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-97-27-dezembro-1994-392017-publicacaooriginal-1-pl.html)
+
+Fundstelle: Art. 1–4: 239,2 Mio. USD Raytheon-Kredit; kommerzieller Vertrag als Vorbedingung, Projektbudget und doppelt ausgewiesene 80 Mio. USD.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-ws-br-r93-ret-1995"></a>
+### Senado Federal / Câmara dos Deputados
+
+**[Retificação da Resolução 93/1994](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html)**
+
+Senado Federal / Câmara dos Deputados · 1995-01-23 · Stufe **A** · Primärquelle · `SRC-WS-BR-R93-RET-1995`
+
+[Seite öffnen](https://www2.camara.leg.br/legin/fed/ressen/1994/resolucao-93-27-dezembro-1994-395028-retificacao-29560-pl.html)
+
+Fundstelle: DOU S.968: USD105.046.668,50; Tranchen 84.621.030 und 20.425.638,50.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-ws-br-r96-ret-1995"></a>
+### Senado Federal / Diário do Congresso Nacional
+
+**[Retificação da Resolução nº 96, de 1994](https://legis.senado.leg.br/diarios/BuscaPaginasDiario?codDiario=6990&download=true)**
+
+Senado Federal / Diário do Congresso Nacional · 1995-01-21 · Stufe **A** · Primärquelle · `SRC-WS-BR-R96-RET-1995`
+
+[Seite öffnen](https://legis.senado.leg.br/diarios/BuscaPaginasDiario?codDiario=6990&download=true)
+
+Fundstelle: DCN Seção II, S. 1033: zweite Tranche 160.598.550 statt 160.589.550 USD; korrigierte Summe entspricht Art. 1. Keine eigene Änderung von Art. 2(a) hier festgestellt.
 
 </article>
 
@@ -3433,6 +3868,21 @@ Sozialdemokratischer Pressedienst; Bibliothek der Friedrich-Ebert-Stiftung · 19
 [PDF öffnen](https://library.fes.de/spdpd/1953/530717.pdf)
 
 Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 dpi: /tiff400/017/00000455.tif und 00000456.tif
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
+<a id="src-ws-br-stj-719548"></a>
+### Superior Tribunal de Justiça
+
+**[REsp 719.548-PR (2005/0009564-0), 03.04.2008](https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330)**
+
+Superior Tribunal de Justiça · 2008-04-03 · Stufe **A** · Primärquelle · `SRC-WS-BR-STJ-719548`
+
+[Seite öffnen](https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330)
+
+Fundstelle: Amtliche Urteilswiedergabe in Coletânea 78, S. 139–154 (DJe 21.11.2008); insbesondere S. 140–141 Berichtigung TRF-Tenor, 148–150 Vertragsänderungen, 154 Verfahrensbeendigung ohne Sachentscheidung.
 
 </article>
 
@@ -3571,6 +4021,126 @@ Fundstelle: Zeitgenössische Recherche zu Zielgruppen, Vereinsfinanzierung und p
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-tcu87-1996"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 87/1996 – Plenário, TC 014.825/1995-3](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf)**
+
+Tribunal de Contas da União · 1996-06-12 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU87-1996`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000087-AG-PL.pdf)
+
+Fundstelle: Ursprünglicher Beanstandungs-/Sanktionsbeschluss; a–c durch Acórdão48/2001 aufgehoben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ws-br-tcu110-1996"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 110/1996 – Plenário](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf)**
+
+Tribunal de Contas da União · 1996-07-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU110-1996`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/1996/Plenario/AC-1996-000110-AG-PL.pdf)
+
+Fundstelle: Einbeziehung ESCA in besondere Rechnungsprüfung; Zusammenhang mit 87/96 und späterem 48/2001.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-br-tcu82-1997"></a>
+### Tribunal de Contas da União
+
+**[Ata 8/1997, Decisão 82/97, TC 001.493/97-3](https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf)**
+
+Tribunal de Contas da União · 1997-03-12 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU82-1997`
+
+[PDF öffnen](https://www.tcu.gov.br/atas/1997/plenario/TCU_ATA_0_N_1997_08.pdf)
+
+Fundstelle: Gedruckte S.17–46, Votum S.38–40, Erklärung Carlos Átila S.43–45: Preisverschiebung und Konsortienüberschneidung; keine gerichtlich festgestellte Absprache.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1999">
+
+<a id="src-ws-br-tcu850-1999"></a>
+### Tribunal de Contas da União
+
+**[Decisão 850/99-TCU-Plenário, TC 002.077/97-3](https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf)**
+
+Tribunal de Contas da União · 1999-11-17 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU850-1999`
+
+[PDF öffnen](https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf)
+
+Fundstelle: Ata 50/1999, Abschnitt Decisão 850/99, Ziff.8.1–8.4: Direktvergabe, Vertraulichkeit übriger Akten, Übermittlung an Senat und 1997er Rechnungsakte; Sitzung 41/99 außerordentlich nichtöffentlich.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ws-br-tcu48-2001"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 48/2001 – Plenário, TC 014.825/1995-3](https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf)**
+
+Tribunal de Contas da União · 2001-03-28 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU48-2001`
+
+[PDF öffnen](https://www.tcu.gov.br/acordaoslegados/2001/Plenario/AC-2001-000048-BJB-PL.pdf)
+
+Fundstelle: Bericht II.2.1 §§47–54, Votum 6.6.1/6.7.1, Stellungnahme MP vom 09.05.1997 und Tenor: technische Beanstandungen, Doppelrollen, Aufhebung der früheren Sanktionen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ws-br-tcu1249-2005"></a>
+### Tribunal de Contas da União
+
+**[Acórdão 1249/2005 – Plenário, TC 014.681/2005-4](https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse)**
+
+Tribunal de Contas da União · 2005-08-24 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU1249-2005`
+
+[Seite öffnen](https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse)
+
+Fundstelle: Bericht §§12–15 inkl. Fn.3 (SIVAM Vendor Trust, Vertragsbl.18–19), Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ws-br-tcu-works-2001"></a>
+### Tribunal de Contas da União / Câmara dos Deputados
+
+**[Relatório sintético de fiscalização, Anexo II, Tomo 5 – obras civis do SIVAM](https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF)**
+
+Tribunal de Contas da União / Câmara dos Deputados · 2001-06-29 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU-WORKS-2001`
+
+[PDF öffnen](https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF)
+
+Fundstelle: Haushaltsjahr 2001, PT05.126.0496.5525.0001 Nr.3, TC8542/2001-2: tatsächlich gezahlte aggregierte Beträge 1997/98, Vertrag001/CCSIVAM/99, Carta336/VPE 20.12.1999 und spätere Nachreichung; Entscheidung09.08.2001.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-ws-br-trf4-2003"></a>
+### Tribunal Regional Federal da 4ª Região
+
+**[TRF confirma anulação do contrato da União com a Raytheon para implantação do Sivam](https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=3572)**
+
+Tribunal Regional Federal da 4ª Região · 2003-10-17 · Stufe **A** · Primärquelle · `SRC-WS-BR-TRF4-2003`
+
+[Seite öffnen](https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=3572)
+
+Fundstelle: Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD; ATECH und Embraer 1997 durch Nachträge 9/10 einbezogen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
 
 <a id="src-us-army-titan-2024"></a>
@@ -3643,6 +4213,21 @@ U.S. Army Southern European Task Force, Africa · 2025-12-22 · Stufe **A** · P
 [Seite öffnen](https://www.army.mil/article-amp/289747/setaf_af_public_affairs_experiment_with_emerging_technology_to_shape_the_information_environment)
 
 Fundstelle: Offene Erprobung von Palantirs Maven Smart System in Army Public Affairs zur Informationslage und Narrativkommunikation; kein verdeckter Geheimdienstbeweis.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-public-law-108-458-2004"></a>
+### U.S. Congress
+
+**[Intelligence Reform and Terrorism Prevention Act of 2004, Public Law 108–458](https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm)**
+
+U.S. Congress · 2004-12-17 · Stufe **A** · Primärquelle · `SRC-US-PUBLIC-LAW-108-458-2004`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm)
+
+Fundstelle: Sec. 6303(b), (d), 118 Stat. 3751–3754: 12 USC 1820(k), Wirksamkeit nach zwölf Monaten.
 
 </article>
 
@@ -4126,6 +4711,21 @@ Fundstelle: Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhi
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-us-treasury-oig-sar-2006-03"></a>
+### U.S. Department of the Treasury, Office of Inspector General
+
+**[Semiannual Report to the Congress, October 2005–March 2006](https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf)**
+
+U.S. Department of the Treasury, Office of Inspector General · 2006-03 · Stufe **A** · Primärquelle · `SRC-US-TREASURY-OIG-SAR-2006-03`
+
+[PDF öffnen](https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf)
+
+Fundstelle: S. 17: Former OCC Examiner-in-Charge Cleared of Wrongdoing. Kein Name im Bericht; Amt und spätere Riggs-Funktion passen zum Lee-Vorgang.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-us-court-first-american-bcci-1998"></a>
@@ -4471,6 +5071,36 @@ Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive O
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-senate-riggs-hearing-2004"></a>
+### U.S. Senate
+
+**[Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act, S. Hrg. 108–633](https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf)**
+
+U.S. Senate · 2004-07-15 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-HEARING-2004`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf)
+
+Fundstelle: Druck-S. 17–23, 35–37; Exhibits 7b (S. 260), 48a/48b (S. 487/490). Zeugenaussagen; Voll-PDF beim erneuten Abruf nicht vollständig verfügbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-us-senate-report-109-368-2006"></a>
+### U.S. Senate
+
+**[Report of the Permanent Subcommittee on Investigations, S. Rept. 109–368](https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm)**
+
+U.S. Senate · 2006-12-22 · Stufe **A** · Primärquelle · `SRC-US-SENATE-REPORT-109-368-2006`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm)
+
+Fundstelle: Abschnitt B: Money Laundering and Foreign Corruption; Zusammenhang Riggs-Untersuchung und Beschäftigungsbeschränkung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
 
 <a id="src-us-nara-church-chile-1975"></a>
@@ -4486,6 +5116,21 @@ Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-senate-riggs-report-2004"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act – Staff Report](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2004-07-15 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-REPORT-2004`
+
+[PDF öffnen](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf)
+
+Fundstelle: Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 167–169, 192–193, 200–206; Fn. 195 Jadini-Gründungsurkunde. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
 
 <a id="src-us-senate-riggs-pinochet-2005"></a>
@@ -4497,7 +5142,7 @@ U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** �
 
 [Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
 
-Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004.
+Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004. Ergänzung: Abschnitte V.B–E (Banco de Chile, Espírito Santo, weitere Banken), Fn. 133, 140, 141; 1991er Deloitte-Transfers, Bankwechsel, BankBoston, Banco Atlántico, Coutts und Santander. Chilenische Gerichtsakte nur zitiert, nicht unabhängig gelesen.
 
 </article>
 
@@ -4891,6 +5536,21 @@ Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-tpcc-1994"></a>
+### US Congress / Trade Promotion Coordinating Committee
+
+**[National Export Strategy, Second Annual Report; S. Hrg. 103-909](https://www.govinfo.gov/content/pkg/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0/html/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0.htm)**
+
+US Congress / Trade Promotion Coordinating Committee · 1994-10-05 · Stufe **A** · Primärquelle · `SRC-WS-TPCC-1994`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0/html/GOVPUB-Y4_B22_3-2a7933157d14d0f67690829f9c5b6db0.htm)
+
+Fundstelle: Anlage National Export Strategy S. 19–22: Advocacy-Netz, SIVAM und saudische Flugzeugbeschaffung, diplomatische und Finanzierungsunterstützung; Regierungsselbstauskunft.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
 
 <a id="src-ulf-fr-rose"></a>
@@ -4918,6 +5578,113 @@ US Department of State · 1998-02-23 · Stufe **A** · Primärquelle · `SRC-ULF
 [PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf)
 
 Fundstelle: Wirksam 09.02.1998; administrative Sanktion, kein Strafurteil.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-osac-10218"></a>
+### US Department of State, Bureau of Diplomatic Security
+
+**[Guidelines for Protecting U.S. Business Information Overseas (Publication 10218)](https://2009-2017.state.gov/documents/organization/19793.pdf)**
+
+US Department of State, Bureau of Diplomatic Security · 1994-11 · Stufe **A** · Primärquelle · `SRC-WS-OSAC-10218`
+
+[PDF öffnen](https://2009-2017.state.gov/documents/organization/19793.pdf)
+
+[Archiv/Recovery öffnen](https://2009-2017.state.gov/m/ds/rls/rpt/19908.htm)
+
+Fundstelle: S. v–vi: rotierende Mitgliederliste Stand November 1992; Vorwort und Preface: Einrichtung 1985, Mitglieder und Informationsschutzausschuss.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-gao-97-215"></a>
+### US General Accounting Office
+
+**[Export-Import Bank: Key Factors in Considering Eximbank Reauthorization](https://www.gao.gov/assets/t-nsiad-97-215.pdf)**
+
+US General Accounting Office · 1997-07-17 · Stufe **A** · Primärquelle · `SRC-WS-GAO-97-215`
+
+[PDF öffnen](https://www.gao.gov/assets/t-nsiad-97-215.pdf)
+
+Fundstelle: S. 2, Abb. II.2 S. 16: Zusagen FY 1994–96, 15 führende Exporteure/Auftragnehmer rund 38 Prozent; nicht Auszahlungen an Unternehmen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-gao-97-211"></a>
+### US General Accounting Office
+
+**[U.S. Export-Import Bank: Process in Place to Ensure Compliance With Dual-Use Export Requirements](https://www.gao.gov/assets/nsiad-97-211.pdf)**
+
+US General Accounting Office · 1997-07-17 · Stufe **A** · Primärquelle · `SRC-WS-GAO-97-211`
+
+[PDF öffnen](https://www.gao.gov/assets/nsiad-97-211.pdf)
+
+Fundstelle: S. 15, Fall AP 67303: am 04.03.1997 bewilligte Änderung eines Kredits vom 30.09.1994; 34 Mio. USD für Raytheon-Lieferungen an Brasilien.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ws-ita-1997"></a>
+### US House of Representatives
+
+**[House Appropriations hearing: International Trade Administration](https://www.govinfo.gov/content/pkg/CHRG-105hhrg41818/html/CHRG-105hhrg41818.htm)**
+
+US House of Representatives · 1997-03-18 · Stufe **A** · Primärquelle · `SRC-WS-ITA-1997`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CHRG-105hhrg41818/html/CHRG-105hhrg41818.htm)
+
+Fundstelle: Opening Statement Stuart Eizenstat: laut Commerce 122 unterstützte Aufträge FY1996, US-Exportwert über 26 Mrd. USD über Laufzeiten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-ws-ssci-103-650"></a>
+### US Senate Select Committee on Intelligence
+
+**[Economic Intelligence, S. Hrg. 103-650](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-103650.pdf)**
+
+US Senate Select Committee on Intelligence · 1993-08-05 · Stufe **A** · Primärquelle · `SRC-WS-SSCI-103-650`
+
+[PDF öffnen](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-103650.pdf)
+
+Fundstelle: S. 5–6, 24–25, 29, 33–34: Aussagen der Boeing-Vertreter Hayden und Blay.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-ws-ssci-104-15"></a>
+### US Senate Select Committee on Intelligence
+
+**[Worldwide Intelligence Review, S. Hrg. 104-15](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-worldwideintelli00unit.pdf)**
+
+US Senate Select Committee on Intelligence · 1995-01-10 · Stufe **A** · Primärquelle · `SRC-WS-SSCI-104-15`
+
+[PDF öffnen](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-worldwideintelli00unit.pdf)
+
+Fundstelle: S. III (Inhaltsverzeichnis), 96 (Studeman-Übermittlung 03.04.1995), 125–134 (Antworten 19–26), insbesondere S. 132–133 OSAC/NSA/NACIC; Anhörung und schriftliche Nachträge getrennt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-ws-ssci-104-4"></a>
+### US Senate Select Committee on Intelligence
+
+**[Senate Report 104-4: Committee Activities 1993–1994](https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-104srpt4.pdf)**
+
+US Senate Select Committee on Intelligence · 1995-01-18 · Stufe **A** · Primärquelle · `SRC-WS-SSCI-104-4`
+
+[PDF öffnen](https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-104srpt4.pdf)
+
+Fundstelle: Gedruckte S. 18: Anhörungen, wirtschaftliche Vorteile laut State und Commerce, Bewertung und fehlende übergreifende Anleitung; keine Einzelfälle genannt.
 
 </article>
 
@@ -4978,6 +5745,21 @@ Verfassungsgericht des Landes Brandenburg · 2004-12-09 · Stufe **A** · Primä
 [Seite öffnen](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359)
 
 Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kaiser-Nicht verfassungswidrig, im Übrigen Antrag zurückgewiesen; Gründe B.II/B.III zu individueller Abwägung gegenüber Nichtmitglied Heinz Vietze
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ws-clinton-saudi-1994"></a>
+### White House / Weekly Compilation of Presidential Documents
+
+**[Statement on Saudi Arabian Aircraft Purchase, 16 February 1994](https://www.govinfo.gov/content/pkg/WCPD-1994-02-21/pdf/WCPD-1994-02-21.pdf)**
+
+White House / Weekly Compilation of Presidential Documents · 1994-02-16 · Stufe **A** · Primärquelle · `SRC-WS-CLINTON-SAUDI-1994`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/WCPD-1994-02-21/pdf/WCPD-1994-02-21.pdf)
+
+Fundstelle: Gedruckte S. 305: angekündigte Boeing/McDonnell-Douglas-Beschaffung, rund 6 Mrd. USD und Finanzierung; keine Kreditabrechnung.
 
 </article>
 
@@ -5550,6 +6332,21 @@ DIE ZEIT / Marc Brost und Bernd Ulrich · 2009-01-29 · Stufe **B** · Sekundär
 [Seite öffnen](https://www.zeit.de/2009/06/Ratlosigkeit)
 
 Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitte keine schlechte Stimmung zu machen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
+
+<a id="src-ws-stoa-1999"></a>
+### Duncan Campbell / European Parliament STOA
+
+**[Interception Capabilities 2000](https://irp.fas.org/eprint/ic2000/ic2000.htm)**
+
+Duncan Campbell / European Parliament STOA · 1999-04 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-WS-STOA-1999`
+
+[Seite öffnen](https://irp.fas.org/eprint/ic2000/ic2000.htm)
+
+Fundstelle: Abschnitt 5, Rn. 97–104, Fn. 65, 69, 70: journalistische Quellen und Raytheon-Mitteilung; keine operativen NSA-Einzelakten.
 
 </article>
 

@@ -4427,3 +4427,1191 @@ relations:
     period: {"start": "1972-01-12"}
     evidence_level: "established"
     sources: ["SRC-US-FRUS-CHILE-DEBT-BANKS-19720112"]
+
+  - id: REL-WS-IC-STATE
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-STATE-DEPARTMENT"
+    type: "economic_intelligence_support"
+    label: "Wirtschaftsaufklärung für staatliche Entscheidungsträger; SSCI berichtet Juli 1994 über wirtschaftlichen Nutzen"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1993", "end": "1995"}
+
+  - id: REL-WS-IC-COMMERCE
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-COMMERCE"
+    type: "economic_intelligence_support"
+    label: "Commerce als Nutzer; im Juli 1994 berichtete Vorteile aus Geheimdienstinformationen, Einzelfälle nicht offengelegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1993", "end": "1995"}
+
+  - id: REL-WS-STATE-SSCI
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-SSCI"
+    type: "closed_hearing"
+    label: "Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-COMMERCE-SSCI
+    from: "ORG-US-COMMERCE"
+    to: "ORG-US-SSCI"
+    type: "closed_hearing"
+    label: "Juli 1994: Darstellung wirtschaftlicher Vorteile in nichtöffentlicher Anhörung"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-4"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-STUDEMAN-SSCI
+    from: "PER-US-WILLIAM-STUDEMAN"
+    to: "ORG-US-SSCI"
+    type: "official_response"
+    label: "03.04.1995: Übermittlung koordinierter Intelligence-Community-Antworten zur Anhörung vom 10.01.1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-STATE-OSAC
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-OSAC"
+    type: "public_private_cooperation"
+    label: "1985 eingerichtetes Forum für Sicherheits- und Informationsaustausch"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218", "SRC-WS-SSCI-104-15"]
+    period: {"start": "1985", "end": "1995"}
+
+  - id: REL-WS-WOOLSEY-OSAC
+    from: "PER-US-JAMES-WOOLSEY"
+    to: "ORG-US-OSAC"
+    type: "reported_consultation"
+    label: "Treffen mit OSAC-Exekutivkomitee 15.11.1993 laut schriftlichem CIA-Nachtrag 03.04.1995"
+    evidence_level: "strong"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1993-11-15", "end": "1993-11-15"}
+
+  - id: REL-WS-NSA-OSAC
+    from: "ORG-US-NSA"
+    to: "ORG-US-OSAC"
+    type: "technical_advisory"
+    label: "Technische Beratung des Informations-/Technologieschutz-Fachausschusses laut CIA-Antwort April 1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-NACIC-OSAC
+    from: "ORG-US-NACIC-1994"
+    to: "ORG-US-OSAC"
+    type: "technical_advisory"
+    label: "Technische Beratung des OSAC-Fachausschusses laut CIA-Antwort April 1995"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1995-04-03", "end": "1995-04-03"}
+
+  - id: REL-WS-IC-FBI
+    from: "ORG-US-IC-1990S"
+    to: "ORG-US-FBI"
+    type: "counterintelligence_cooperation"
+    label: "Koordination der Abwehr fremdstaatlich geförderter Wirtschaftsspionage, wechselseitige Warnungen/Briefings laut CIA"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-104-15"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-IBM-OSAC
+    from: "ORG-US-IBM-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "IBM-Sicherheitsdirektor Richard E. Mainey als Vizevorsitzender laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-CITI-OSAC
+    from: "ORG-US-CITICORP-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "Citicorp/Citibank N.A., eine Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-BECHTEL-OSAC
+    from: "ORG-US-BECHTEL-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "Bechtel-Sicherheitsvertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-MCDONNELL-OSAC
+    from: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    to: "ORG-US-OSAC"
+    type: "council_representation"
+    label: "McDonnell-Douglas-Vertretung laut Mitgliederliste November 1992; keine spätere Dauer unterstellt"
+    evidence_level: "established"
+    sources: ["SRC-WS-OSAC-10218"]
+    period: {"start": "1992", "end": "1992"}
+
+  - id: REL-WS-BOEING-SSCI
+    from: "ORG-US-BOEING-1993"
+    to: "ORG-US-SSCI"
+    type: "parliamentary_testimony"
+    label: "05.08.1993: Unternehmensvertreter Hayden/Blay wünschen Schutz vor fremder Spionage, lehnen Beschaffung fremder Geschäftsgeheimnisse ab"
+    evidence_level: "established"
+    sources: ["SRC-WS-SSCI-103-650"]
+    period: {"start": "1993-08-05", "end": "1993-08-05"}
+
+  - id: REL-WS-COMMERCE-ADVOCACY
+    from: "ORG-US-COMMERCE"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_promotion_coordination"
+    label: "Seit November 1993 Exportförderungskoordination mit 17 Behörden laut National Export Strategy"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1993", "end": "1994"}
+
+  - id: REL-WS-STATE-ADVOCACY
+    from: "ORG-US-STATE-DEPARTMENT"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_promotion_participation"
+    label: "Diplomatische Beteiligung an behördenübergreifender Exportförderung 1994"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-EXIM-ADVOCACY
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_finance_participation"
+    label: "EXIM beteiligt sich laut Regierungsbericht an Exportförderungskoordination"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-OPIC-ADVOCACY
+    from: "ORG-US-OPIC-1971"
+    to: "ORG-US-TPCC-ADVOCACY"
+    type: "export_finance_participation"
+    label: "OPIC in Exportförderungskoordination; mögliche SIVAM-Finanzierung ist keine nachgewiesene Auszahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-ADVOCACY-SIVAM
+    from: "ORG-US-TPCC-ADVOCACY"
+    to: "PRG-BR-SIVAM"
+    type: "reported_export_advocacy"
+    label: "National Export Strategy nennt diplomatische und kommerzielle Unterstützung der Raytheon-Auswahl"
+    evidence_level: "established"
+    sources: ["SRC-WS-TPCC-1994"]
+    period: {"start": "1994", "end": "1994"}
+
+  - id: REL-WS-EXIM-BOEING
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-BOEING-1993"
+    type: "export_finance_commitment"
+    label: "4.426 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-RAYTHEON
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-RAYTHEON-1994"
+    type: "export_finance_commitment"
+    label: "1.923 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-BECHTEL
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-BECHTEL-1992"
+    type: "export_finance_commitment"
+    label: "938 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-MCDONNELL
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    type: "export_finance_commitment"
+    label: "745 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-EXIM-FLUOR
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-US-FLUOR"
+    type: "export_finance_commitment"
+    label: "530 Mio. USD EXIM-Finanzierungszusagen zur Unterstützung des Exporteurs/Auftragnehmers FY1994–96; keine Firmenzahlung"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-215"]
+    period: {"start": "1994", "end": "1996"}
+
+  - id: REL-WS-SAUDI-BOEING
+    from: "ORG-SA-GOVERNMENT-1994"
+    to: "ORG-US-BOEING-1993"
+    type: "announced_procurement"
+    label: "16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-CLINTON-SAUDI-1994", "SRC-WS-TPCC-1994"]
+    period: {"start": "1994-02-16", "end": "1994-02-16"}
+
+  - id: REL-WS-SAUDI-MCDONNELL
+    from: "ORG-SA-GOVERNMENT-1994"
+    to: "ORG-US-MCDONNELL-DOUGLAS-1992"
+    type: "announced_procurement"
+    label: "16.02.1994: angekündigte zivile Flugzeugbeschaffung; beide Firmen zusammen knapp 6 Mrd. USD, keine individuelle Zurechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-CLINTON-SAUDI-1994", "SRC-WS-TPCC-1994"]
+    period: {"start": "1994-02-16", "end": "1994-02-16"}
+
+  - id: REL-WS-SENATE-EXIM-AUTH
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "credit_authorization"
+    label: "Resolution 96: 1.288.255.370 USD genehmigter Kredit über Banco do Brasil Grand Cayman, nicht Auszahlungsnachweis"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R96-RET-1995"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-EXIM-CAYMAN
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "authorized_funding_channel"
+    label: "Resolution 96 genehmigt Weiterleitung von EXIM-Mitteln durch die Grand-Cayman-Niederlassung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-CAYMAN-BRAZIL
+    from: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_credit"
+    label: "1.288.255.370 USD genehmigte externe Kreditoperation laut Art. 1; keine tatsächliche Zahlung belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R96-RET-1995"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-RAYTHEON-BRAZIL-CREDIT
+    from: "ORG-US-RAYTHEON-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_supplier_credit"
+    label: "Resolution 97: 239,2 Mio. USD genehmigter Lieferantenkredit, 9 Prozent Festzins nach ursprünglicher Regelung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R97-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-SENATE-CONTRACT
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "PRG-BR-SIVAM"
+    type: "statutory_financing_condition"
+    label: "Resolutionen 96/97 Art. 3: geplanter CCSIVAM-Vertrag mit ESCA/Raytheon-Konsortium als Finanzierungsbedingung; nicht mit späterem Vertrag 01/95 gleichgesetzt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R96-1994", "SRC-WS-BR-R97-1994"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-EXIM-SIVAM
+    from: "ORG-US-EXIMBANK-1994"
+    to: "PRG-BR-SIVAM"
+    type: "approved_export_financing"
+    label: "EXIM-Rückblick: 1994 ca. 1,3 Mrd. USD bewilligt; GAO AP 67303 bestätigt Datum und spätere Kreditänderung"
+    evidence_level: "established"
+    sources: ["SRC-WS-EXIM-HISTORY", "SRC-WS-GAO-97-211", "SRC-WS-BR-R96-1994"]
+    period: {"start": "1994-09-30", "end": "1994-09-30"}
+
+  - id: REL-WS-EXIM-SIVAM-AMEND
+    from: "ORG-US-EXIMBANK-1994"
+    to: "PRG-BR-SIVAM"
+    type: "credit_amendment"
+    label: "04.03.1997: 34 Mio. USD Kreditänderung AP 67303, Raytheon-Lieferungen; nicht zusätzlich zur ursprünglichen Gesamtsumme addieren"
+    evidence_level: "established"
+    sources: ["SRC-WS-GAO-97-211"]
+    period: {"start": "1997-03-04", "end": "1997-03-04"}
+
+  - id: REL-WS-CCSIVAM-CONTRACT
+    from: "ORG-BR-CCSIVAM"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contracting_party"
+    label: "Vertrag 01/95 CCSIVAM/Raytheon, aus gerichtlicher Wiedergabe identifiziert; vollständiger Vertragsvolltext fehlt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003", "SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1995", "end": "1995"}
+
+  - id: REL-WS-RAYTHEON-CONTRACT
+    from: "ORG-US-RAYTHEON-1994"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contracting_party"
+    label: "Vertrag 01/95 mit CCSIVAM; ursprüngliche Aufgabenabgrenzung gerichtlich beanstandet"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003"]
+    period: {"start": "1995", "end": "1995"}
+
+  - id: REL-WS-ESCA-SIVAM
+    from: "ORG-BR-ESCA"
+    to: "PRG-BR-SIVAM"
+    type: "initial_integrator_selection"
+    label: "Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548", "SRC-WS-BR-TRF4-2003"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-ATECH-SIVAM
+    from: "ORG-BR-ATECH-FOUNDATION"
+    to: "PRG-BR-SIVAM"
+    type: "reported_contract_amendment"
+    label: "1997 durch Nachträge 9/10 als nationale Integratorin einbezogen (TRF4 2003); spätere strategische Aufgabenabgrenzung im STJ-Urteil 2008"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-STJ-719548", "SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1997", "end": "1997"}
+
+  - id: REL-WS-BR-SIVAM-EFFECTIVE
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "reported_contract_effectiveness"
+    label: "Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1997-07-25", "end": "1997-07-25"}
+
+  - id: REL-WS-CPI-SIVAM
+    from: "ORG-BR-CPI-SIVAM-2002"
+    to: "PRG-BR-SIVAM"
+    type: "parliamentary_investigation"
+    label: "CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CPI-2002"]
+    period: {"start": "2002-06-04", "end": "2002-06-04"}
+
+  - id: REL-WS-CPI-MPF
+    from: "ORG-BR-CPI-SIVAM-2002"
+    to: "ORG-BR-MPF"
+    type: "referral_for_investigation"
+    label: "Abschlussbericht und gesonderte Gegenunterlagen zur Weitergabe an MPF bestimmt; Eingangsbeleg und Verfahrensausgang offen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CPI-2002", "SRC-WS-BR-CPI-0528-02"]
+    period: {"start": "2002-06-04", "end": "2002-06-04"}
+
+  - id: REL-WS-TRF4-CONTRACT
+    from: "ORG-BR-TRF4"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contract_nullity_ruling"
+    label: "2003 bestätigt TRF4 die 1997 ausgesprochene Nichtigkeit; spätere Aufhebung durch STJ beachten"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-STJ-719548"]
+    period: {"start": "2003", "end": "2003"}
+
+  - id: REL-WS-STJ-CONTRACT
+    from: "ORG-BR-STJ"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "judicial_procedural_disposition"
+    label: "03.04.2008 REsp 719.548-PR: Vorentscheidung aufgehoben, Verfahren ohne Sachentscheidung beendet; Vermögensschaden nicht nachgewiesen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-STJ-719548"]
+    period: {"start": "2008-04-03", "end": "2008-04-03"}
+
+  - id: REL-WS-BB-CAYMAN
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "bank_branch"
+    label: "Grand-Cayman-Niederlassung des vertraglichen SIVAM-Finanzierers Banco do Brasil"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997", "end": "2005"}
+
+  - id: REL-WS-EXIM-CAYMAN-DIRECT-CONTRACT
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_financing_contract"
+    label: "Vertrag AP067303XX, direktes EXIM-Limit USD1.288.255.370, laut TCU1249/2005; kein Einzelabrufnachweis"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-EXIM-CAYMAN-GUARANTEE
+    from: "ORG-US-EXIMBANK-1994"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_guaranteed_financing"
+    label: "EXIM-garantierte Linie AP067902XX, Limit USD105.046.668,50; Garantie nicht mit direkter Auszahlung gleichgesetzt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-R93-1994", "SRC-WS-BR-R93-RET-1995"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-ABN-BB
+    from: "ORG-NL-ABN-AMRO-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "bank_refinancing"
+    label: "1997 als einer von drei Kreditgebern genannt, durch endgültigen Prospekt bestätigt; exakte einzelne Tranche nicht dokumentiert"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "1997", "end": "2006"}
+
+  - id: REL-WS-SEK-CAYMAN
+    from: "ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997"
+    to: "ORG-BR-BANCO-DO-BRASIL-CAYMAN-1994"
+    type: "documented_financing_contract"
+    label: "TCU1249/2005: unterzeichneter SEK-Finanzierungsvertrag mit BB Grand Cayman, Limit USD91.025.000"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-BB-BRAZIL-CREDIT
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "sovereign_onlending"
+    label: "Drei Gegenverträge mit der Union; USD1.484.327.038,50 Vertragsvolumen und 1,5 Prozentpunkte jährliche Zinsvergütung laut BCB"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997", "end": "1997"}
+
+  - id: REL-WS-BB-BRAZIL-DISBURSED
+    from: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "reported_disbursement"
+    label: "Endgültiger Prospekt: ca. USD1,3 Mrd. kumulativ ausgezahlt bis 31.03.2006; keine Empfänger-Einzelabrechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2006-03-31", "end": "2006-03-31"}
+
+  - id: REL-WS-BRAZIL-BB-OWNERSHIP
+    from: "ORG-BR-UNION-SIVAM"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "state_shareholding"
+    label: "72,1% des stimmberechtigten und gesamten Kapitals am 31.03.2006 laut endgültigem Prospekt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-BB-PROSPECTUS-2006"]
+    period: {"start": "2006-03-31", "end": "2006-03-31"}
+
+  - id: REL-WS-BCB-CMN-RISK
+    from: "ORG-BR-BCB"
+    to: "ORG-BR-CMN"
+    type: "regulatory_submission"
+    label: "Voto305/97 / CMN129/97 empfiehlt 0 statt 100% Risikogewicht für strategische SIVAM-Kredite"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997"]
+    period: {"start": "1997-08-13", "end": "1997-08-13"}
+
+  - id: REL-WS-CMN-BB-RISK
+    from: "ORG-BR-CMN"
+    to: "ORG-BR-BANCO-DO-BRASIL-SIVAM-1997"
+    type: "prudential_exemption"
+    label: "CMN genehmigt 28.08.1997 Risikogewicht 0% für SIVAM; BCB444/97 bestätigt Eigenkapitalentlastung, keine tatsächliche Risikolosigkeit"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-CMN129-1997", "SRC-WS-BR-BCB444-1997"]
+    period: {"start": "1997-08-28", "end": "1997-08-28"}
+
+  - id: REL-WS-RAYTHEON-BRAZIL-RCF
+    from: "ORG-US-RAYTHEON-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "documented_supplier_credit"
+    label: "Raytheon Credit Facility mit Limit USD239,2 Mio. laut TCU1249/2005; tatsächlicher Einzelabruf offen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-R97-1994"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-VENDOR-BRAZIL
+    from: "ORG-INT-SIVAM-VENDOR-TRUST-1994"
+    to: "ORG-BR-UNION-SIVAM"
+    type: "authorized_vendor_credit"
+    label: "Resolution95/1994 genehmigt USD48 Mio. SIVAM Vendor Trust; TCU1249/2005 §15 Fn.3 bestätigt den Vertragspartner der Vendor Facility; Einzelabruf offen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-R95-1994", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1994-12-27", "end": "1994-12-27"}
+
+  - id: REL-WS-SENATE-CONDITIONS-1996
+    from: "ORG-BR-SENADO-FEDERAL"
+    to: "PRG-BR-SIVAM"
+    type: "legislative_financing_revision"
+    label: "Res.37/1996 hebt Art.3/4 der fünf ursprünglichen Kreditresolutionen auf, Fristen +270 Tage und neue Schutz-/Ausschreibungsbedingungen"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-RES37-1996", "SRC-WS-BR-PRS35-1996"]
+    period: {"start": "1996-05-23", "end": "1996-05-23"}
+
+  - id: REL-WS-EMBRAER-CONTRACT
+    from: "ORG-BR-EMBRAER-SIVAM"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "reported_contract_party"
+    label: "1997 durch dieselben Nachträge 9/10 als Flugzeuglieferantin in Vertrag 01/95 aufgenommen; exakter Tag nicht belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-TCU850-1999", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1997", "end": "1997"}
+
+  - id: REL-WS-ATECH-CONTRACT
+    from: "ORG-BR-ATECH-FOUNDATION"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "reported_contract_party"
+    label: "1997 durch Nachträge 9/10 in Vertrag 01/95 aufgenommen, nicht erst 2005/2008; exakter Tag nicht belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-TCU850-1999", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1997", "end": "1997"}
+
+  - id: REL-WS-TCU-CMO-DEFAULT
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-CMO"
+    type: "ordered_budget_warning"
+    label: "TCU ordnet Warnung vor möglicher vorzeitiger Fälligkeit von rund USD1,5 Mrd. bei Nichtzahlung an; kein Nachweis eingetretener Fälligstellung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-TCU-CONTRACT-DEFAULT
+    from: "ORG-BR-TCU"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "contractual_default_review"
+    label: "TCU dokumentiert Klausel24.1.18 und verknüpfte Default-Klauseln der fünf Finanzierungen, bei qualifiziertem Zahlungsverzug mögliche Kündigung/Fälligstellung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "2005-08-24", "end": "2005-08-24"}
+
+  - id: REL-WS-BRAZIL-SIVAM-BUDGET-2005
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "supplementary_budget_authorization"
+    label: "Lei11.199 vom 24.11.2005: R$70 Mio. Zusatzbewilligung; keine Zahlungsabrechnung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-LEI11199-2005", "SRC-WS-BR-PLN34-2005", "SRC-WS-BR-SENATE-2005-REPORT"]
+    period: {"start": "2005-11-24", "end": "2005-11-24"}
+
+  - id: REL-WS-BRAZIL-ESCA-PAYMENT
+    from: "ORG-BR-UNION-SIVAM"
+    to: "ORG-BR-ESCA"
+    type: "reported_service_payment"
+    label: "CPI2002 S.126 gibt TCU-Prüfung wieder: R$2 Mio. an ESCA 1994–95 für Beratung/Engineering zur Integrationslogik; keine Bestechungsfeststellung"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-CPI-2002"]
+    period: {"start": "1994", "end": "1995"}
+
+  - id: REL-WS-ESCA-ADVISER
+    from: "ORG-BR-ESCA"
+    to: "PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS"
+    type: "reported_legal_services_compensation"
+    label: "TCU48/2001 erörtert ESCA-Vergütung des Rechtsberaters auf Anregung des Ministeriums; spätere Mehrheit sah Schaden/Bereicherung/bösen Glauben nicht nachgewiesen"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-TCU48-2001"]
+    period: {"start": "2001-03-28", "end": "2001-03-28"}
+
+  - id: REL-WS-ADVISER-CISCEA
+    from: "PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS"
+    to: "ORG-BR-CISCEA"
+    type: "reported_legal_advisory_role"
+    label: "TCU48/2001 dokumentiert längerfristige juristische Tätigkeit für Luftwaffe/CISCEA neben ESCA-Vergütung; zeitliche Aussage auf Prüfakte beschränkt"
+    evidence_level: "strong"
+    sources: ["SRC-WS-BR-TCU48-2001"]
+    period: {"start": "2001", "end": "2001"}
+
+  - id: REL-WS-TCU-ESCA-INTEREST
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-ESCA"
+    type: "reported_conflict_of_interest_review"
+    label: "Technische Prüfung zu Auswahlsitzung 13.09.1993: sechs von neun Beteiligten mit ESCA-Verbindungen; Mehrheit hob 2001 die Ziffern a–c von 87/96 auf; keine strafrechtliche Entscheidung"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU48-2001", "SRC-WS-BR-TCU87-1996"]
+    period: {"start": "1996", "end": "2001"}
+
+  - id: REL-WS-TCU-ESCA-ACCOUNTING
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-ESCA"
+    type: "historical_audit_action"
+    label: "TCU110/96 bezog ESCA in besondere Rechnungsprüfung ein; TCU48/2001 hob 87/96 a–c später auf, kein Strafurteil"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU110-1996", "SRC-WS-BR-TCU87-1996", "SRC-WS-BR-TCU48-2001"]
+    period: {"start": "1996-07-24", "end": "1996-07-24"}
+
+  - id: REL-WS-TCU-CONTRACT-PRICE
+    from: "ORG-BR-TCU"
+    to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
+    type: "procurement_price_review"
+    label: "TCU82/97: umverteilte Teilkosten USD28.475.782, Bezifferung nicht verifiziert; Konsortienüberschneidung im abweichenden Prüfbeitrag, keine bewiesene Absprache"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU82-1997", "SRC-WS-BR-CPI-2002"]
+    period: {"start": "1997-03-12", "end": "1997-03-12"}
+
+  - id: REL-WS-TCU-ATECH-EMBRAER-1999
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-CCSIVAM"
+    type: "procurement_audit_decision"
+    label: "17.11.1999: TCU850/99 beurteilt Direktvergabe an Embraer/ATECH als regulär; Entscheidung veröffentlicht, übrige Akten vertraulich"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1999-11-17", "end": "1999-11-17"}
+
+  - id: REL-WS-TCU-SENATE-CONFIDENTIAL-1999
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-SENADO-FEDERAL"
+    type: "ordered_confidential_transmission"
+    label: "TCU850/99 Ziff.8.2–8.3: Übermittlung von Entscheidung und Grundlagen an Senatspräsidentschaft sowie Senatoren Valadares/Amorim unter Vertraulichkeit angeordnet"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1999-11-17", "end": "1999-11-17"}
+
+  - id: REL-WS-CCSIVAM-SCHAHIN-1999
+    from: "ORG-BR-CCSIVAM"
+    to: "ORG-BR-SCHAHIN-SIVAM-1999"
+    type: "civil_works_contract"
+    label: "Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU-WORKS-2001"]
+    period: {"start": "1999", "end": "1999"}
+
+  - id: REL-WS-BR-SIVAM-AIRCRAFT-ARREARS-2003
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "reported_budget_arrears"
+    label: "PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-PPA-2004"]
+    period: {"start": "2003", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-001
+    from: "PER-CL-INES-LUCIA-PINOCHET"
+    to: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    type: "bank_account_relationship"
+    label: "Drei US-Konten und zeitweise bis zu sechs CDs; Höchststand ca. 420.000 USD (12/2002)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1993", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-002
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    type: "documented_transfer"
+    label: "300.000 USD aus Riggs-London-Scheck am 30.09.2002 auf Konto von Inés Lucía Pinochet bei Bank of America."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2002-09-30"}
+
+  - id: REL-RIGGS-FOLLOWUP-003
+    from: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    to: "ORG-US-PINEBANK-MIAMI"
+    type: "documented_transfer"
+    label: "130.000 USD über Bank-of-America-Schecks an PineBank ab 09.10.2002; keine gesicherte Identität mit dem vorherigen Riggs-Eingang."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2002-10-09"}
+
+  - id: REL-RIGGS-FOLLOWUP-004
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-CL-BANKBOSTON-CHILE-2001"
+    type: "documented_check_cashing"
+    label: "Zwei Riggs-Schecks zu je 50.000 USD am 03.01. und 01.10.2001 bei BankBoston Chile eingelöst."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2001-01-03", "end": "2001-10-01"}
+
+  - id: REL-RIGGS-FOLLOWUP-005
+    from: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    to: "ORG-CL-BANKBOSTON-CHILE-2001"
+    type: "corporate_acquisition"
+    label: "FleetBoston-Erwerb 2004; BankBoston Chile erst dadurch dem späteren Bank-of-America-Verbund zugeordnet."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005", "SRC-US-SEC-BOFA-424B5-2005"]
+    period: {"start": "2004-04-01"}
+
+  - id: REL-RIGGS-FOLLOWUP-006
+    from: "ORG-PT-BANCO-ESPIRITO-SANTO-2005"
+    to: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    type: "corporate_ownership"
+    label: "Miami-Bank im Senatsbericht 2005 als Tochter von Banco Espírito Santo Lissabon bezeichnet."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2005"}
+
+  - id: REL-RIGGS-FOLLOWUP-007
+    from: "PER-CL-AUGUSTO-PINOCHET"
+    to: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    type: "bank_account_relationship"
+    label: "Mindestens sechs Konten/CDs im Pinochet-Komplex und mindestens 3,9 Mio. USD Einlagen 1991–2000 (Senatsuntersuchung)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1991", "end": "2000"}
+
+  - id: REL-RIGGS-FOLLOWUP-008
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    type: "staff_mobility"
+    label: "Ehemalige Mitarbeiter von Riggs International Banking Corporation (einschließlich früherem Leiter) bei Espírito Santo; Kundenvermittlung im Bericht rekonstruiert."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1991"}
+
+  - id: REL-RIGGS-FOLLOWUP-009
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    type: "documented_transfer"
+    label: "Ca. 525.000 USD aus einem Riggs-Konto eines Militärangehörigen an Espírito Santo, August 1992 bis August 1994."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1992", "end": "1994"}
+
+  - id: REL-RIGGS-FOLLOWUP-010
+    from: "ORG-BS-DELOITTE-TOUCHE-1991"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "service_contract"
+    label: "Laut Senatsbericht Vertrag über Dienstleistungen einschließlich Verwaltung der Riggs Bank & Trust Co. (Bahamas)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1991"}
+
+  - id: REL-RIGGS-FOLLOWUP-011
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-BS-DELOITTE-TOUCHE-1991"
+    type: "documented_transfer"
+    label: "Januar 1991: 1,15 Mio. USD vom Riggs-Gemeinschaftskonto Pinochets/Ehefrau über Bank of Bahamas zugunsten Deloitte & Touche."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1991"}
+
+  - id: REL-RIGGS-FOLLOWUP-012
+    from: "ORG-BS-DELOITTE-TOUCHE-1991"
+    to: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    type: "documented_transfer"
+    label: "Oktober 1991: 1,19 Mio. USD über Deloitte & Touche zugunsten Trilateral International Trading bei Espírito Santo. Herkunftsvermutung des Senats, keine exakte Betragsidentität."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1991"}
+
+  - id: REL-RIGGS-FOLLOWUP-013
+    from: "ORG-US-ESPIRITO-SANTO-BANK-MIAMI"
+    to: "ORG-US-COUTTS-INTERNATIONAL-1999"
+    type: "documented_transfer"
+    label: "Dezember 1999 ca. 2,3 Mio. USD von drei Espírito-Santo-Konten zugunsten Eastview Finance bei Coutts."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1999"}
+
+  - id: REL-RIGGS-FOLLOWUP-014
+    from: "ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004"
+    to: "ORG-US-COUTTS-INTERNATIONAL-1999"
+    type: "corporate_acquisition"
+    label: "2003 Erwerb des betreffenden internationalen Privatbankgeschäfts von RBS; Übertragung der Konten 2004."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2003", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-015
+    from: "ORG-ES-BANCO-ATLANTICO-1981-2000"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "documented_transfer"
+    label: "Über 5,8 Mio. USD an Pinochet-bezogene Riggs-Konten 1981–2000; Herkunft und Endbegünstigte teilweise ungeklärt."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "1981", "end": "2000"}
+
+  - id: REL-RIGGS-FOLLOWUP-016
+    from: "ORG-US-CITIGROUP-2004"
+    to: "ORG-US-OCEAN-BANK-MIAMI"
+    type: "documented_transfer"
+    label: "Mindestens fünf Überweisungen von Meritor über Cititrust Bahamas an Ocean Bank, zusammen 349.326 USD (10/2003–06/2004); Gruppenzuordnung retrospektiv."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2003", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-017
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-CL-BANCO-DE-CHILE-2005"
+    type: "documented_check_cashing"
+    label: "36 Riggs-Schecks über zusammen ca. 1,8 Mio. USD bei Banco de Chile in Chile eingelöst (08/2000–08/2003)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-PINOCHET-2005"]
+    period: {"start": "2000", "end": "2003"}
+
+  - id: REL-RIGGS-FOLLOWUP-018
+    from: "ORG-US-FEDERAL-RESERVE"
+    to: "ORG-CL-BANCO-DE-CHILE-2005"
+    type: "regulatory_order"
+    label: "Anordnung zur Verbesserung der Geldwäscheprävention, wirksam 01.02.2005."
+    evidence_level: "established"
+    sources: ["SRC-US-FED-BANCO-DE-CHILE-ORDER-2005"]
+    period: {"start": "2005-02-01"}
+
+  - id: REL-RIGGS-FOLLOWUP-019
+    from: "ORG-US-FEDERAL-RESERVE"
+    to: "ORG-CL-BANCO-DE-CHILE-2005"
+    type: "regulatory_termination"
+    label: "Beendigung der Aufsichtsanordnung am 02.06.2008."
+    evidence_level: "established"
+    sources: ["SRC-US-FED-BANCO-DE-CHILE-TERMINATION-2008"]
+    period: {"start": "2008-06-02"}
+
+  - id: REL-RIGGS-FOLLOWUP-020
+    from: "PER-US-ASHLEY-LEE"
+    to: "ORG-US-OCC"
+    type: "supervisory_role"
+    label: "Leitender Riggs-Prüfer; am 08.08.2002 aus Prüfung zurückgezogen. Persönliche Vorwürfe strittig."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SENATE-RIGGS-HEARING-2004"]
+    period: {"start": "1998", "end": "2002-08-08"}
+
+  - id: REL-RIGGS-FOLLOWUP-021
+    from: "PER-US-ASHLEY-LEE"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "employment"
+    label: "Wechsel aus OCC zu Riggs im Oktober 2002; OIG 2006 berichtet passenden, nicht namentlich identifizierten Ermittlungsabschluss ohne Belege für untersuchte Straftaten."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SENATE-RIGGS-HEARING-2004", "SRC-US-TREASURY-OIG-SAR-2006-03"]
+    period: {"start": "2002-10-03"}
+
+  - id: REL-RIGGS-FOLLOWUP-022
+    from: "ORG-US-OCC"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "acknowledged_supervisory_failure"
+    label: "OCC erklärte am 03.06.2004, seit 1997 erkannte BSA-Mängel nicht früh genug förmlich verfolgt zu haben."
+    evidence_level: "established"
+    sources: ["SRC-US-OCC-RIGGS-SUPERVISION-20040603"]
+    period: {"start": "2004-06-03"}
+
+  - id: REL-RIGGS-FOLLOWUP-023
+    from: "ORG-US-OCC"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "regulatory_sanction"
+    label: "25 Mio. USD Geldbuße vom 13.05.2004, koordiniert mit FinCEN; insgesamt eine Zahlung von 25 Mio. USD."
+    evidence_level: "established"
+    sources: ["SRC-US-FINCEN-RIGGS-CMP-20040513"]
+    period: {"start": "2004-05-13"}
+
+  - id: REL-RIGGS-FOLLOWUP-024
+    from: "ORG-US-FINCEN"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "regulatory_sanction"
+    label: "Koordinierte 25-Mio.-USD-Sanktion mit OCC; durch dieselbe einmalige Treasury-Zahlung zu erfüllen, nicht zusätzlich."
+    evidence_level: "established"
+    sources: ["SRC-US-FINCEN-RIGGS-CMP-20040513"]
+    period: {"start": "2004-05-13"}
+
+  - id: REL-RIGGS-FOLLOWUP-025
+    from: "ORG-US-DOJ"
+    to: "ORG-US-OCC"
+    type: "documented_review_scope_request"
+    label: "US-Staatsanwalt Wainstein bat am 08.08.2004 um Einstellung bestimmter Riggs-bezogener Reviewaktivitäten; allgemeine QMD-Prüfung lief weiter."
+    evidence_level: "established"
+    sources: ["SRC-US-OCC-QMD-AML-2005"]
+    period: {"start": "2004-08-08"}
+
+  - id: REL-RIGGS-FOLLOWUP-026
+    from: "DOC-US-PL108-458-SEC6303"
+    to: "ORG-US-OCC"
+    type: "statutory_employment_restriction"
+    label: "Befristete Beschäftigungsbeschränkung für bestimmte leitende Prüfer, wirksam zwölf Monate nach Erlass; keine Rückwirkung auf Lee."
+    evidence_level: "established"
+    sources: ["SRC-US-PUBLIC-LAW-108-458-2004", "SRC-US-SENATE-REPORT-109-368-2006"]
+    period: {"start": "2005-12-17"}
+
+  - id: REL-RIGGS-FOLLOWUP-027
+    from: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "corporate_ownership"
+    label: "Riggs Bank als Tochtergesellschaft der Riggs National Corporation im Untersuchungszeitraum."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2004", "end": "2005"}
+
+  - id: REL-RIGGS-FOLLOWUP-028
+    from: "PER-US-ROBERT-ALLBRITTON"
+    to: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    type: "chief_executive"
+    label: "CEO und Chairman der Holding bis Rücktritt 07.03.2005."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2001", "end": "2005-03-07"}
+
+  - id: REL-RIGGS-FOLLOWUP-029
+    from: "PER-US-ROBERT-ALLBRITTON"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "chairmanship"
+    label: "Chairman von Riggs Bank; Rücktritt 07.03.2005."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2001", "end": "2005-03-07"}
+
+  - id: REL-RIGGS-FOLLOWUP-030
+    from: "PER-US-LAWRENCE-I-HEBERT"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "chief_executive"
+    label: "Bankpräsident und CEO seit Februar 2001; SEC-Mitteilung vom 11.03.2005 nennt ihn weiterhin in dieser Funktion. Ausscheidensdatum nicht belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2001"}
+
+  - id: REL-RIGGS-FOLLOWUP-031
+    from: "PER-US-LAWRENCE-I-HEBERT"
+    to: "ORG-US-ALLBRITTON-COMMUNICATIONS-2004"
+    type: "management_role"
+    label: "Weitere Leitungsfunktionen bei Allbritton Communications bis Oktober 2004, parallel zur Bankleitung."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2001", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-032
+    from: "PER-US-LAWRENCE-I-HEBERT"
+    to: "ORG-US-PERPETUAL-CORPORATION-2004"
+    type: "president"
+    label: "Präsident der ACC-Mutter Perpetual Corporation 1981–10/2004."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "1981", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-033
+    from: "ORG-US-PERPETUAL-CORPORATION-2004"
+    to: "ORG-US-ALLBRITTON-COMMUNICATIONS-2004"
+    type: "corporate_ownership"
+    label: "Perpetual Corporation in SEC-Meldung als Muttergesellschaft von ACC bezeichnet."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-034
+    from: "ORG-US-ALLBRITTON-COMMUNICATIONS-2004"
+    to: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    type: "documented_business_payments"
+    label: "506.160 USD 2004 für Büroräume, Veranstaltungslogen und Kontodienstleistungen, nach SEC-8-K; keine redaktionelle Weisung belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-035
+    from: "PER-US-STEVEN-B-PFEIFFER"
+    to: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    type: "board_membership"
+    label: "Direktor der Riggs-Holding laut Senatsbericht 2004 seit 1989."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1989", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-036
+    from: "PER-US-STEVEN-B-PFEIFFER"
+    to: "ORG-US-FULBRIGHT-JAWORSKI-2004"
+    type: "partnership"
+    label: "Gleichzeitig Partner von Fulbright & Jaworski laut Senatsbericht 2004."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-037
+    from: "ORG-US-FULBRIGHT-JAWORSKI-2004"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "legal_services"
+    label: "Rechtsdienstleistungen für Riggs laut Senatsbericht 2004, keine strafrechtliche Mitwirkung allein daraus."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-038
+    from: "ORG-GQ-GOVERNMENT-1995-2004"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "banking_relationship"
+    label: "Seit 1995 staatliche und amtsträgerbezogene Konten; mehr als 60 Konten/CDs einschließlich Angehöriger, zeitweise 400–700 Mio. USD Einlagen 2003 im Gesamtkomplex."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004", "SRC-US-SENATE-REPORT-109-368-2006"]
+    period: {"start": "1995", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-039
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-GQ-KALUNGA-COMPANY-SA"
+    type: "documented_transfer"
+    label: "16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2003"}
+
+  - id: REL-RIGGS-FOLLOWUP-040
+    from: "ORG-GQ-KALUNGA-COMPANY-SA"
+    to: "ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2003"}
+
+  - id: REL-RIGGS-FOLLOWUP-041
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-INT-APEXSIDE-TRADING-LTD"
+    type: "documented_transfer"
+    label: "10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2001"}
+
+  - id: REL-RIGGS-FOLLOWUP-042
+    from: "ORG-INT-APEXSIDE-TRADING-LTD"
+    to: "ORG-LU-CREDIT-COMMERCIAL-DE-FRANCE-2000"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2001"}
+
+  - id: REL-RIGGS-FOLLOWUP-043
+    from: "ORG-INT-APEXSIDE-TRADING-LTD"
+    to: "ORG-LU-HSBC-LUXEMBOURG-2001"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2001"}
+
+  - id: REL-RIGGS-FOLLOWUP-044
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-INT-JADINI-HOLDINGS"
+    type: "documented_transfer"
+    label: "Drei Überweisungen 2001–2002 über insgesamt 1.096.677,78 USD; Kontrolle durch Ehefrau des Riggs-Kundenbetreuers laut Bericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2001", "end": "2002"}
+
+  - id: REL-RIGGS-FOLLOWUP-045
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "PER-GQ-MELCHOR-ESONO-EDJO"
+    type: "documented_transfer"
+    label: "499.000 USD an persönliche Konten des damaligen Staatssekretärs 1998–2002 laut Senatsbericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1998", "end": "2002"}
+
+  - id: REL-RIGGS-FOLLOWUP-046
+    from: "PER-GQ-TEODORO-OBIANG"
+    to: "ORG-GQ-ABAYAK-SA"
+    type: "reported_corporate_control"
+    label: "Kontrolle der Abayak S.A. durch den Präsidenten laut Senatsuntersuchung; vollständige Eigentümerakte offen."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2001", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-047
+    from: "ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC"
+    to: "PER-GQ-CONSTANCIA-MANGUE"
+    type: "lease_relationship"
+    label: "Mietverträge 1996–2001 mit Präsidentengattin, im Bericht dokumentierte Einzelzahlungen auf Riggs-Konto."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1996", "end": "2001"}
+
+  - id: REL-RIGGS-FOLLOWUP-048
+    from: "PER-GQ-CONSTANCIA-MANGUE"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "bank_account_relationship"
+    label: "Empfang von MEGI-Mietzahlungen auf historisches Riggs-Konto laut Bankunterlagen in Fn. 341."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1998", "end": "2000"}
+
+  - id: REL-RIGGS-FOLLOWUP-049
+    from: "ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC"
+    to: "ORG-GQ-ABAYAK-SA"
+    type: "lease_relationship"
+    label: "Ab 22.06.2001 Wechsel der Vermieterin von Präsidentengattin zu Abayak S.A."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2001-06-22"}
+
+  - id: REL-RIGGS-FOLLOWUP-050
+    from: "ORG-US-MOBIL-INTERNATIONAL-PETROLEUM"
+    to: "ORG-GQ-MOGE-JOINT-VENTURE"
+    type: "joint_venture_shareholding"
+    label: "85-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1998"}
+
+  - id: REL-RIGGS-FOLLOWUP-051
+    from: "ORG-GQ-ABAYAK-SA"
+    to: "ORG-GQ-MOGE-JOINT-VENTURE"
+    type: "joint_venture_shareholding"
+    label: "15-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1998"}
+
+  - id: REL-RIGGS-FOLLOWUP-052
+    from: "ORG-GQ-MOGE-JOINT-VENTURE"
+    to: "ORG-GQ-ABAYAK-SA"
+    type: "dividend_payment"
+    label: "Ca. 10.500 USD Dividende jährlich 2001–2003 nach Unternehmensantwort."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2001", "end": "2003"}
+
+  - id: REL-RIGGS-FOLLOWUP-053
+    from: "PER-GQ-ARMENGOL-ONDO-NGUEMA"
+    to: "ORG-GQ-SONAVI"
+    type: "reported_corporate_control"
+    label: "Sicherheitsgesellschaft im Eigentum des Präsidentenbruders laut Senatsbericht."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-054
+    from: "ORG-US-AMERADA-HESS-2004"
+    to: "ORG-GQ-SONAVI"
+    type: "documented_service_payments"
+    label: "Ca. 300.500 USD Sicherheitsdienstzahlungen Januar 2000 bis Mai 2004; Hess verwies auf vorgegebene Konditionen."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-055
+    from: "ORG-US-EXXONMOBIL-REPORT-2004"
+    to: "ORG-GQ-SONAVI"
+    type: "documented_service_payments"
+    label: "Zwei getrennte Einheiten: 683.900 USD (08/1997–10/2000) und ca. 26.400 USD (2000–2003); marktübliche Vergütung laut Unternehmensantwort."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "1997", "end": "2003"}
+
+  - id: REL-RIGGS-FOLLOWUP-056
+    from: "ORG-US-MARATHON-OIL-2004"
+    to: "ORG-GQ-ABAYAK-SA"
+    type: "documented_land_purchase"
+    label: "Über 611.000 USD Landkaufpreis im Januar 2004 über Abayak an Präsidenten; weiterer ca. 1,4-Mio.-Kauf noch nicht vollzogen (18.06.2004)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-057
+    from: "ORG-US-MARATHON-OIL-2004"
+    to: "ORG-GQ-AMPCO-METHANOL"
+    type: "joint_venture_shareholding"
+    label: "45-%-Anteil an Methanol-Gemeinschaftsunternehmen laut Senatsbericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-058
+    from: "ORG-GQ-GEOGAM"
+    to: "ORG-GQ-AMPCO-METHANOL"
+    type: "joint_venture_shareholding"
+    label: "10-%-Anteil; eigene GEOGAM-Eigentümerstruktur bleibt ungeklärt."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-059
+    from: "ORG-GQ-AMPCO-METHANOL"
+    to: "ORG-GQ-GEOGAM"
+    type: "dividend_payment"
+    label: "Mehr als 4 Mio. USD Dividenden 2002 bis Mai 2004; keine gesicherte Zurechnung an Präsidentenfamilie."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2002", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-060
+    from: "ORG-GQ-MOGE-JOINT-VENTURE"
+    to: "ORG-GQ-ATSIGE"
+    type: "documented_service_payments"
+    label: "236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
+    period: {"start": "2000", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-061
+    from: "PER-US-LAWRENCE-I-HEBERT"
+    to: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    type: "conditional_executive_appointment"
+    label: "Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2005-03-09"}
