@@ -33,6 +33,12 @@ hide:
 - **CIA, Rockefeller und Meinungsforschung:** Eine CIA-Akte beschreibt verdeckte Finanzierung über Dearborn Foundation und Research Council; parallel sind Rockefeller-Förderungen und personelle Überschneidungen in der Meinungsforschung dokumentiert. Die Identität der Finanzierungswege bleibt zu prüfen. [Studie](research/cia-dearborn-foolproof-rockefeller-meinungsforschung-1940-1968.md)
 - **INSM und ARD-Marienhof:** Der DRPR dokumentierte bezahlte, mit der INSM abgestimmte Themenplatzierungen; 2006 erfolgte eine öffentliche Rüge wegen Schleichwerbung. [Studie](research/insm-marienhof-bavaria-placements-rechnungen-justiz-2002-2006.md) · [Medien und Nachrichtendienste](faelle/de/medien-nachrichtendienst-crosslayer.md)
 
+- **CIA, Prolog und Suchasnist:** Interne CIA-Finanzierungs- und Kontrollakten lassen sich mit unabhängigen zeitgenössischen Druckoriginalen verbinden. [Fallübersicht](falluebersichten/cia-prolog-medienfinanzierung.md)
+
+### Justiz und institutionelle Kontrolle
+
+- **Dutroux-Komplex:** Die belgische Untersuchungskommission dokumentierte konkreten passiven Schutz durch Informantenführung und die später eingeschränkte parlamentarische Akteneinsicht. [Fallübersicht](falluebersichten/dutroux-justiz-kontrolle.md)
+
 ### Industrie, Finanzwirtschaft und Krieg
 
 - **I.G. Farben, Standard Oil und NS-Kriegswirtschaft:** Internationale Verträge, personelle Verbindungen und finanzwirtschaftliche Strukturen im Umfeld des NS-Regimes. [Hermann Schmitz](research/hermann-schmitz-ig-farben-finanz-ruestungsnetzwerk-1881-1960.md) · [I.G.-Farben-Netzwerk](generated/network-focus-ig-farben.md) · [BIZ, SS-Kredite und Opfergold](research/schroeder-funk-puhl-himmler-biz-raubgold-1933-1949.md)
