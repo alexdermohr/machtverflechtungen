@@ -4541,7 +4541,7 @@ sources:
   tier: "A"
   url: "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
   accessed: "2026-11-24"
-  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004."
+  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004. Ergänzung: Abschnitte V.B–E (Banco de Chile, Espírito Santo, weitere Banken), Fn. 133, 140, 141; 1991er Deloitte-Transfers, Bankwechsel, BankBoston, Banco Atlántico, Coutts und Santander. Chilenische Gerichtsakte nur zitiert, nicht unabhängig gelesen."
 
 - id: SRC-US-DOJ-RIGGS-PLEA-2005
   title: "Riggs Bank Pleads Guilty to Violating Bank Secrecy Act"
@@ -5200,3 +5200,135 @@ sources:
   accessed: "2026-11-25"
   language: "pt"
   locator: "Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004."
+
+- id: SRC-US-SENATE-RIGGS-REPORT-2004
+  title: "Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act – Staff Report"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2004-07-15"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf"
+  accessed: "2026-11-25"
+  locator: "Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 167–169, 192–193, 200–206; Fn. 195 Jadini-Gründungsurkunde. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen."
+
+- id: SRC-US-SENATE-RIGGS-HEARING-2004
+  title: "Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act, S. Hrg. 108–633"
+  institution: "U.S. Senate"
+  date: "2004-07-15"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf"
+  accessed: "2026-11-25"
+  locator: "Druck-S. 17–23, 35–37; Exhibits 7b (S. 260), 48a/48b (S. 487/490). Zeugenaussagen; Voll-PDF beim erneuten Abruf nicht vollständig verfügbar."
+
+- id: SRC-US-TREASURY-OIG-SAR-2006-03
+  title: "Semiannual Report to the Congress, October 2005–March 2006"
+  institution: "U.S. Department of the Treasury, Office of Inspector General"
+  date: "2006-03"
+  type: "official_report"
+  primary: true
+  tier: "A"
+  url: "https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf"
+  accessed: "2026-11-25"
+  locator: "S. 17: Former OCC Examiner-in-Charge Cleared of Wrongdoing. Kein Name im Bericht; Amt und spätere Riggs-Funktion passen zum Lee-Vorgang."
+
+- id: SRC-US-OCC-QMD-AML-2005
+  title: "Bank Secrecy Act/Anti-Money Laundering Supervision, Final Report"
+  institution: "OCC Quality Management Division"
+  date: "2005-05-18"
+  type: "official_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf"
+  accessed: "2026-11-25"
+  locator: "Anlage in S. Hrg. 112–597, Vol. 2 (17.07.2012), Druck-S. 1247 ff., 1250–1251, 1254, 1271–1272. Nicht 112–766. Textansicht; Faksimileabruf fehlgeschlagen."
+
+- id: SRC-US-OCC-RIGGS-SUPERVISION-20040603
+  title: "Comptroller Hawke Orders Review of OCC's Supervision of Riggs Bank"
+  institution: "Office of the Comptroller of the Currency"
+  date: "2004-06-03"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html"
+  accessed: "2026-11-25"
+  locator: "NR 2004-43: erkannte Mängel seit 1997 und unzureichend frühe förmliche Durchsetzung."
+
+- id: SRC-US-FINCEN-RIGGS-CMP-20040513
+  title: "FinCEN Assesses $25 Million Civil Money Penalty Against Riggs Bank, N.A."
+  institution: "Financial Crimes Enforcement Network"
+  date: "2004-05-13"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na"
+  accessed: "2026-11-25"
+  locator: "Koordinierte OCC-/FinCEN-Sanktionen, durch eine Zahlung von 25 Mio. USD an Treasury zu erfüllen."
+
+- id: SRC-US-PUBLIC-LAW-108-458-2004
+  title: "Intelligence Reform and Terrorism Prevention Act of 2004, Public Law 108–458"
+  institution: "U.S. Congress"
+  date: "2004-12-17"
+  type: "statute"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm"
+  accessed: "2026-11-25"
+  locator: "Sec. 6303(b), (d), 118 Stat. 3751–3754: 12 USC 1820(k), Wirksamkeit nach zwölf Monaten."
+
+- id: SRC-US-SENATE-REPORT-109-368-2006
+  title: "Report of the Permanent Subcommittee on Investigations, S. Rept. 109–368"
+  institution: "U.S. Senate"
+  date: "2006-12-22"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm"
+  accessed: "2026-11-25"
+  locator: "Abschnitt B: Money Laundering and Foreign Corruption; Zusammenhang Riggs-Untersuchung und Beschäftigungsbeschränkung."
+
+- id: SRC-US-SEC-RIGGS-8K-20050311
+  title: "Riggs National Corporation, Current Report on Form 8-K"
+  institution: "Riggs National Corporation / SEC"
+  date: "2005-03-11"
+  type: "corporate_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm"
+  accessed: "2026-11-25"
+  locator: "Item 5.02: Rücktritt Robert Allbritton, Hebert-Funktionen, related business transactions 2004."
+
+- id: SRC-US-SEC-BOFA-424B5-2005
+  title: "Bank of America Corporation, Prospectus Supplement Form 424B5"
+  institution: "Bank of America Corporation / SEC"
+  date: "2005-02"
+  type: "corporate_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm"
+  accessed: "2026-11-25"
+  locator: "Bank of America Corporation – General; Namens-/Fusionsgeschichte 1998 und FleetBoston 01.04.2004. Suchauszug, erneuter Vollabruf fehlgeschlagen."
+
+- id: SRC-US-FED-BANCO-DE-CHILE-ORDER-2005
+  title: "Order to Cease and Desist, Banco de Chile and Miami Branch"
+  institution: "Board of Governors of the Federal Reserve System"
+  date: "2005-02-01"
+  type: "official_order"
+  primary: true
+  tier: "A"
+  url: "https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf"
+  accessed: "2026-11-25"
+  locator: "Docket 05-001-B-FR; Maßnahmen gegen Mängel bei Geldwäscheprävention. Keine strafrechtliche Verurteilung."
+
+- id: SRC-US-FED-BANCO-DE-CHILE-TERMINATION-2008
+  title: "Termination of enforcement action against Banco de Chile"
+  institution: "Board of Governors of the Federal Reserve System"
+  date: "2008-06-04"
+  type: "official_web"
+  primary: true
+  tier: "A"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm"
+  accessed: "2026-11-25"
+  locator: "Beendigung der Anordnung zum 02.06.2008."

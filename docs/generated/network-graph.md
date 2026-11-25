@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**563 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**624 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1007,6 +1007,110 @@ flowchart LR
     N_ORG_BR_SCHAHIN_SIVAM_1999["Schahin (SIVAM-Bauauftrag 1999)"]
     N_ORG_BR_CCSIVAM -->|"Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"| N_ORG_BR_SCHAHIN_SIVAM_1999
     N_ORG_BR_UNION_SIVAM -->|"PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"| N_PRG_BR_SIVAM
+    N_PER_CL_INES_LUCIA_PINOCHET["Inés Lucía Pinochet"]
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004["Bank of America – Kontenverbund laut Senatsbericht 2005"]
+    N_PER_CL_INES_LUCIA_PINOCHET -->|"Drei US-Konten und zeitweise bis zu sechs CDs; Höchststand ca. 420.000 USD (12/2002)."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"300.000 USD aus Riggs-London-Scheck am 30.09.2002 auf Konto von Inés Lucía Pinochet bei Bank of America."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_PINEBANK_MIAMI["PineBank (Miami)"]
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"130.000 USD über Bank-of-America-Schecks an PineBank ab 09.10.2002; keine gesicherte Identität mit dem vorherigen Riggs-Eingang."| N_ORG_US_PINEBANK_MIAMI
+    N_ORG_CL_BANKBOSTON_CHILE_2001["BankBoston Chile (2001)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Zwei Riggs-Schecks zu je 50.000 USD am 03.01. und 01.10.2001 bei BankBoston Chile eingelöst."| N_ORG_CL_BANKBOSTON_CHILE_2001
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"FleetBoston-Erwerb 2004; BankBoston Chile erst dadurch dem späteren Bank-of-America-Verbund zugeordnet."| N_ORG_CL_BANKBOSTON_CHILE_2001
+    N_ORG_PT_BANCO_ESPIRITO_SANTO_2005["Banco Espírito Santo (Lissabon, 2005)"]
+    N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI["Espírito Santo Bank (Miami)"]
+    N_ORG_PT_BANCO_ESPIRITO_SANTO_2005 -->|"Miami-Bank im Senatsbericht 2005 als Tochter von Banco Espírito Santo Lissabon bezeichnet."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_PER_CL_AUGUSTO_PINOCHET -->|"Mindestens sechs Konten/CDs im Pinochet-Komplex und mindestens 3,9 Mio. USD Einlagen 1991–2000 (Senatsuntersuchung)."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Ehemalige Mitarbeiter von Riggs International Banking Corporation (einschließlich früherem Leiter) bei Espírito Santo; Kundenvermittlung im Bericht rekonstruiert."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Ca. 525.000 USD aus einem Riggs-Konto eines Militärangehörigen an Espírito Santo, August 1992 bis August 1994."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_BS_DELOITTE_TOUCHE_1991["Deloitte & Touche (Bahamas, 1991)"]
+    N_ORG_BS_DELOITTE_TOUCHE_1991 -->|"Laut Senatsbericht Vertrag über Dienstleistungen einschließlich Verwaltung der Riggs Bank & Trust Co. (Bahamas)."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Januar 1991: 1,15 Mio. USD vom Riggs-Gemeinschaftskonto Pinochets/Ehefrau über Bank of Bahamas zugunsten Deloitte & Touche."| N_ORG_BS_DELOITTE_TOUCHE_1991
+    N_ORG_BS_DELOITTE_TOUCHE_1991 -->|"Oktober 1991: 1,19 Mio. USD über Deloitte & Touche zugunsten Trilateral International Trading bei Espírito Santo. Herkunftsvermutung des Senats, keine exakte Betragsidentität."| N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI
+    N_ORG_US_COUTTS_INTERNATIONAL_1999["Coutts & Co. (USA) International (1999)"]
+    N_ORG_US_ESPIRITO_SANTO_BANK_MIAMI -->|"Dezember 1999 ca. 2,3 Mio. USD von drei Espírito-Santo-Konten zugunsten Eastview Finance bei Coutts."| N_ORG_US_COUTTS_INTERNATIONAL_1999
+    N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004["Banco Santander Central Hispano (2004)"]
+    N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004 -->|"2003 Erwerb des betreffenden internationalen Privatbankgeschäfts von RBS; Übertragung der Konten 2004."| N_ORG_US_COUTTS_INTERNATIONAL_1999
+    N_ORG_ES_BANCO_ATLANTICO_1981_2000["Banco Atlántico (1981–2000)"]
+    N_ORG_ES_BANCO_ATLANTICO_1981_2000 -->|"Über 5,8 Mio. USD an Pinochet-bezogene Riggs-Konten 1981–2000; Herkunft und Endbegünstigte teilweise ungeklärt."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCEAN_BANK_MIAMI["Ocean Bank (Miami)"]
+    N_ORG_US_CITIGROUP_2004 -->|"Mindestens fünf Überweisungen von Meritor über Cititrust Bahamas an Ocean Bank, zusammen 349.326 USD (10/2003–06/2004); Gruppenzuordnung retrospektiv."| N_ORG_US_OCEAN_BANK_MIAMI
+    N_ORG_CL_BANCO_DE_CHILE_2005["Banco de Chile (einschließlich US-Niederlassung)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"36 Riggs-Schecks über zusammen ca. 1,8 Mio. USD bei Banco de Chile in Chile eingelöst (08/2000–08/2003)."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_ORG_US_FEDERAL_RESERVE -->|"Anordnung zur Verbesserung der Geldwäscheprävention, wirksam 01.02.2005."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_ORG_US_FEDERAL_RESERVE -->|"Beendigung der Aufsichtsanordnung am 02.06.2008."| N_ORG_CL_BANCO_DE_CHILE_2005
+    N_PER_US_ASHLEY_LEE["R. Ashley Lee"]
+    N_PER_US_ASHLEY_LEE -->|"Leitender Riggs-Prüfer; am 08.08.2002 aus Prüfung zurückgezogen. Persönliche Vorwürfe strittig."| N_ORG_US_OCC
+    N_PER_US_ASHLEY_LEE -->|"Wechsel aus OCC zu Riggs im Oktober 2002; OIG 2006 berichtet passenden, nicht namentlich identifizierten Ermittlungsabschluss ohne Belege für untersuchte Straftaten."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCC -->|"OCC erklärte am 03.06.2004, seit 1997 erkannte BSA-Mängel nicht früh genug förmlich verfolgt zu haben."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_OCC -->|"25 Mio. USD Geldbuße vom 13.05.2004, koordiniert mit FinCEN; insgesamt eine Zahlung von 25 Mio. USD."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_FINCEN["Financial Crimes Enforcement Network (FinCEN)"]
+    N_ORG_US_FINCEN -->|"Koordinierte 25-Mio.-USD-Sanktion mit OCC; durch dieselbe einmalige Treasury-Zahlung zu erfüllen, nicht zusätzlich."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_DOJ -->|"US-Staatsanwalt Wainstein bat am 08.08.2004 um Einstellung bestimmter Riggs-bezogener Reviewaktivitäten; allgemeine QMD-Prüfung lief weiter."| N_ORG_US_OCC
+    N_DOC_US_PL108_458_SEC6303["Public Law 108–458, Section 6303 (2004)"]
+    N_DOC_US_PL108_458_SEC6303 -->|"Befristete Beschäftigungsbeschränkung für bestimmte leitende Prüfer, wirksam zwölf Monate nach Erlass; keine Rückwirkung auf Lee."| N_ORG_US_OCC
+    N_ORG_US_RIGGS_NATIONAL_CORPORATION["Riggs National Corporation"]
+    N_ORG_US_RIGGS_NATIONAL_CORPORATION -->|"Riggs Bank als Tochtergesellschaft der Riggs National Corporation im Untersuchungszeitraum."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_US_ROBERT_ALLBRITTON["Robert Allbritton"]
+    N_PER_US_ROBERT_ALLBRITTON -->|"CEO und Chairman der Holding bis Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_PER_US_ROBERT_ALLBRITTON -->|"Chairman von Riggs Bank; Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_US_LAWRENCE_I_HEBERT["Lawrence I. Hebert"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Bankpräsident und CEO seit Februar 2001; SEC-Mitteilung vom 11.03.2005 nennt ihn weiterhin in dieser Funktion. Ausscheidensdatum nicht belegt."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004["Allbritton Communications Company (2004)"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Weitere Leitungsfunktionen bei Allbritton Communications bis Oktober 2004, parallel zur Bankleitung."| N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004
+    N_ORG_US_PERPETUAL_CORPORATION_2004["Perpetual Corporation (2004)"]
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Präsident der ACC-Mutter Perpetual Corporation 1981–10/2004."| N_ORG_US_PERPETUAL_CORPORATION_2004
+    N_ORG_US_PERPETUAL_CORPORATION_2004 -->|"Perpetual Corporation in SEC-Meldung als Muttergesellschaft von ACC bezeichnet."| N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004
+    N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004 -->|"506.160 USD 2004 für Büroräume, Veranstaltungslogen und Kontodienstleistungen, nach SEC-8-K; keine redaktionelle Weisung belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_PER_US_STEVEN_B_PFEIFFER["Steven B. Pfeiffer"]
+    N_PER_US_STEVEN_B_PFEIFFER -->|"Direktor der Riggs-Holding laut Senatsbericht 2004 seit 1989."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_ORG_US_FULBRIGHT_JAWORSKI_2004["Fulbright & Jaworski (2004)"]
+    N_PER_US_STEVEN_B_PFEIFFER -->|"Gleichzeitig Partner von Fulbright & Jaworski laut Senatsbericht 2004."| N_ORG_US_FULBRIGHT_JAWORSKI_2004
+    N_ORG_US_FULBRIGHT_JAWORSKI_2004 -->|"Rechtsdienstleistungen für Riggs laut Senatsbericht 2004, keine strafrechtliche Mitwirkung allein daraus."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_GOVERNMENT_1995_2004["Regierung Äquatorialguineas (1995–2004)"]
+    N_ORG_GQ_GOVERNMENT_1995_2004 -->|"Seit 1995 staatliche und amtsträgerbezogene Konten; mehr als 60 Konten/CDs einschließlich Angehöriger, zeitweise 400–700 Mio. USD Einlagen 2003 im Gesamtkomplex."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_KALUNGA_COMPANY_SA["Kalunga Company S.A."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."| N_ORG_GQ_KALUNGA_COMPANY_SA
+    N_ORG_GQ_KALUNGA_COMPANY_SA -->|"Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."| N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004
+    N_ORG_INT_APEXSIDE_TRADING_LTD["Apexside Trading Ltd."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."| N_ORG_INT_APEXSIDE_TRADING_LTD
+    N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000["Crédit Commercial de France (Luxemburg, 2000–2001)"]
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000
+    N_ORG_LU_HSBC_LUXEMBOURG_2001["HSBC (Luxemburg, 2001)"]
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_HSBC_LUXEMBOURG_2001
+    N_ORG_INT_JADINI_HOLDINGS["Jadini Holdings Ltd."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"Drei Überweisungen 2001–2002 über insgesamt 1.096.677,78 USD; Kontrolle durch Ehefrau des Riggs-Kundenbetreuers laut Bericht."| N_ORG_INT_JADINI_HOLDINGS
+    N_PER_GQ_MELCHOR_ESONO_EDJO["Melchor Esono Edjo"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"499.000 USD an persönliche Konten des damaligen Staatssekretärs 1998–2002 laut Senatsbericht."| N_PER_GQ_MELCHOR_ESONO_EDJO
+    N_PER_GQ_TEODORO_OBIANG["Teodoro Obiang Nguema Mbasogo"]
+    N_ORG_GQ_ABAYAK_SA["Abayak S.A. (1998–2004)"]
+    N_PER_GQ_TEODORO_OBIANG -->|"Kontrolle der Abayak S.A. durch den Präsidenten laut Senatsuntersuchung; vollständige Eigentümerakte offen."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC["Mobil Equatorial Guinea Inc. (MEGI)"]
+    N_PER_GQ_CONSTANCIA_MANGUE["Constancia Mangue Nsue de Obiang"]
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC -->|"Mietverträge 1996–2001 mit Präsidentengattin, im Bericht dokumentierte Einzelzahlungen auf Riggs-Konto."| N_PER_GQ_CONSTANCIA_MANGUE
+    N_PER_GQ_CONSTANCIA_MANGUE -->|"Empfang von MEGI-Mietzahlungen auf historisches Riggs-Konto laut Bankunterlagen in Fn. 341."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_GQ_MOBIL_EQUATORIAL_GUINEA_INC -->|"Ab 22.06.2001 Wechsel der Vermieterin von Präsidentengattin zu Abayak S.A."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_US_MOBIL_INTERNATIONAL_PETROLEUM["Mobil International Petroleum Corporation (1998)"]
+    N_ORG_GQ_MOGE_JOINT_VENTURE["MOGE (Gemeinschaftsunternehmen, 1998)"]
+    N_ORG_US_MOBIL_INTERNATIONAL_PETROLEUM -->|"85-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."| N_ORG_GQ_MOGE_JOINT_VENTURE
+    N_ORG_GQ_ABAYAK_SA -->|"15-%-Beteiligung nach ExxonMobil-Unternehmensantwort im Senatsbericht."| N_ORG_GQ_MOGE_JOINT_VENTURE
+    N_ORG_GQ_MOGE_JOINT_VENTURE -->|"Ca. 10.500 USD Dividende jährlich 2001–2003 nach Unternehmensantwort."| N_ORG_GQ_ABAYAK_SA
+    N_PER_GQ_ARMENGOL_ONDO_NGUEMA["Armengol Ondo Nguema"]
+    N_ORG_GQ_SONAVI["Sonavi (Sicherheitsdienst)"]
+    N_PER_GQ_ARMENGOL_ONDO_NGUEMA -->|"Sicherheitsgesellschaft im Eigentum des Präsidentenbruders laut Senatsbericht."| N_ORG_GQ_SONAVI
+    N_ORG_US_AMERADA_HESS_2004["Amerada Hess (Unternehmensverbund, 2004)"]
+    N_ORG_US_AMERADA_HESS_2004 -->|"Ca. 300.500 USD Sicherheitsdienstzahlungen Januar 2000 bis Mai 2004; Hess verwies auf vorgegebene Konditionen."| N_ORG_GQ_SONAVI
+    N_ORG_US_EXXONMOBIL_REPORT_2004["ExxonMobil (berichteter Unternehmensverbund 2004)"]
+    N_ORG_US_EXXONMOBIL_REPORT_2004 -->|"Zwei getrennte Einheiten: 683.900 USD (08/1997–10/2000) und ca. 26.400 USD (2000–2003); marktübliche Vergütung laut Unternehmensantwort."| N_ORG_GQ_SONAVI
+    N_ORG_US_MARATHON_OIL_2004["Marathon Oil (2004)"]
+    N_ORG_US_MARATHON_OIL_2004 -->|"Über 611.000 USD Landkaufpreis im Januar 2004 über Abayak an Präsidenten; weiterer ca. 1,4-Mio.-Kauf noch nicht vollzogen (18.06.2004)."| N_ORG_GQ_ABAYAK_SA
+    N_ORG_GQ_AMPCO_METHANOL["Atlantic Methanol Production Company (AMPCO)"]
+    N_ORG_US_MARATHON_OIL_2004 -->|"45-%-Anteil an Methanol-Gemeinschaftsunternehmen laut Senatsbericht."| N_ORG_GQ_AMPCO_METHANOL
+    N_ORG_GQ_GEOGAM["GEOGAM (2004)"]
+    N_ORG_GQ_GEOGAM -->|"10-%-Anteil; eigene GEOGAM-Eigentümerstruktur bleibt ungeklärt."| N_ORG_GQ_AMPCO_METHANOL
+    N_ORG_GQ_AMPCO_METHANOL -->|"Mehr als 4 Mio. USD Dividenden 2002 bis Mai 2004; keine gesicherte Zurechnung an Präsidentenfamilie."| N_ORG_GQ_GEOGAM
+    N_ORG_GQ_ATSIGE["ATSIGE (2000–2004)"]
+    N_ORG_GQ_MOGE_JOINT_VENTURE -->|"236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."| N_ORG_GQ_ATSIGE
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
 ```
 
 [Zur Relationstabelle](network.md)
