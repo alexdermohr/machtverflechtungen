@@ -79,6 +79,8 @@ class WebsiteNavigationTests(unittest.TestCase):
         self.assertIn("## Vertiefende Fallübersichten", catalog)
         self.assertIn("../falluebersichten/p2-banco-ambrosiano.md", catalog)
         self.assertIn("../falluebersichten/bcci-cia-bankaufsicht.md", catalog)
+        self.assertIn("../falluebersichten/cia-prolog-medienfinanzierung.md", catalog)
+        self.assertIn("../falluebersichten/dutroux-justiz-kontrolle.md", catalog)
         network = (DOCS / "generated" / "network.md").read_text(encoding="utf-8")
         self.assertIn("[Netzwerkdiagramm öffnen](network-graph.md)", network)
         graph = (DOCS / "generated" / "network-graph.md").read_text(encoding="utf-8")
