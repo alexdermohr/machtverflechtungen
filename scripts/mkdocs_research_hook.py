@@ -38,7 +38,7 @@ STUDY_GROUPS = (
      ("p2-", "bologna-", "bcci-")),
     ("Krieg, Rüstung & internationale Finanzierung", "krieg-und-finanzierung",
      ("angola-", "angolagate-", "unita-", "ig-farben-", "hermann-schmitz-", "biz-", "schroeder-",
-      "jeffrey-sachs-chile-", "jeffrey-sachs-itt-", "jeffrey-sachs-opic-",
+      "jeffrey-sachs-chile-", "jeffrey-sachs-itt-", "jeffrey-sachs-opic-", "jeffrey-sachs-banken-",
       "jeffrey-sachs-militaer-", "jeffrey-sachs-united-fruit-",
       "jeffrey-sachs-guatemala-", "jeffrey-sachs-cia-")),
     ("Wirtschaft, Finanzen & öffentliche Mittel", "finanzen",
