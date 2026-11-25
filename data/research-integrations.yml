@@ -911,3 +911,57 @@ studies:
       - REL-RIGGS-FOLLOWUP-058
       - REL-RIGGS-FOLLOWUP-059
       - REL-RIGGS-FOLLOWUP-060
+
+  cia-gehlen-sonderverbindungen-orion-bdj-1949-1956.md:
+    sha256: bfcce974fddcc9a9a927df450b8f4fd4a545f9c43c19af8f219b7d17edbf0784
+    status: network
+    relation_ids:
+      - REL-DE-GEHLEN-002
+      - REL-DE-GEHLEN-004
+
+  okkultismus-geheimbuende-machtverflechtungen-2026-10-26.md:
+    sha256: c6d010d847d5f8773c0359d793e7214482cf285f764ac3db1eac20f6f81fdc9b
+    status: network
+    relation_ids:
+      - REL-IT-P2-GELLI-1981-001
+      - REL-IT-P2-RIZZOLI-1975-1981-001
+      - REL-IT-RIZZOLI-CORRIERE-1977-001
+
+  acg-atlantik-bruecke-cfr-finanznetz-2019.md:
+    sha256: a611041051688c6c070691976984791375fc424e2a5d7dacca04b5783e08c7bd
+    status: network
+    relation_ids:
+      - REL-DE-ERP-BMWI-2019-001
+
+  anne-zetsche-atlantik-bruecke-archivbelege-1950-1974.md:
+    sha256: b5720b0e00f4a00a8a9fc25c9203ae041051b3ceef9ea204cf4aa30c2a100a9a
+    status: network
+    relation_ids:
+      - REL-US-ACG-YOUNGLEADERS-1973-001
+      - REL-US-FORDFOUNDATION-YOUNGLEADERS-1973-001
+
+  bilderberg-osborne-bloomberg-acoba-medienpolitik-2006-2017.md:
+    sha256: f8325d9cc1ffd441cfce6f96db9422a8d16c6ce9422c3901096c83f98eb2ecf8
+    status: network
+    relation_ids:
+      - REL-DE-TMN-001
+
+  bpa-wehrkunde-verlag-gfw-oeffentlichkeitsarbeit-1975-1977.md:
+    sha256: af60623616ac5566a3af9c1d77110bf60425bd91a1d52887e0622fcfc8aa61c6
+    status: network
+    relation_ids:
+      - REL-DE-KMM-011
+
+  npd-v-leute-verbotsverfahren-bverfg-2001-2017.md:
+    sha256: e3cdf58ff6a450b5a077e66caaab2e1e1acda65ff37344cd3557680f89666693
+    status: network
+    relation_ids:
+      - REL-DE-UKC18-001
+
+  strategie-der-spannung-brescia-bologna-gladio-1969-2026.md:
+    sha256: 35dd2aa3e6665a8a1cd8092cbf985b495c94bcf9ade9ef4574decdc7f8e47f65
+    status: network
+    relation_ids:
+      - REL-DE-CELLER-001
+      - REL-IT-BOLOGNA-PG-GELLI-2024-001
+      - REL-IT-BOLOGNA-PG-DAMATO-2024-001
