@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**432 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**433 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -187,7 +187,7 @@
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
 | Boeing (1993–1996) | historical_company | `ORG-US-BOEING-1993` | US | [3](network.md#rel-ws-boeing-ssci) |
-| Brasilianische Union (SIVAM-Verträge) | historical_government | `ORG-BR-UNION-SIVAM` | BR | [11](network.md#rel-ws-senate-exim-auth) |
+| Brasilianische Union (SIVAM-Verträge) | historical_government | `ORG-BR-UNION-SIVAM` | BR | [12](network.md#rel-ws-senate-exim-auth) |
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
@@ -219,7 +219,7 @@
 | Citigroup Inc. und im Senatsbericht erfasste Vorgänger/Verbundunternehmen (2004) | financial_holding_company | `ORG-US-CITIGROUP-2004` | US | [3](network.md#rel-us-citigroup-citibank-indirect-ownership-2004) |
 | Combat 18 (Großbritannien, 1990er Jahre) | extremist_network | `ORG-GB-COMBAT18-1990S` | GB | – |
 | Combat 18 Deutschland (Vereinsstruktur ab 2013) | extremist_network | `ORG-DE-COMBAT18-2013` | DE | [1](network.md#rel-de-ukc18-003) |
-| Comissão de Coordenação de Implantação do SIVAM (CCSIVAM) | historical_government_commission | `ORG-BR-CCSIVAM` | BR | [1](network.md#rel-ws-ccsivam-contract) |
+| Comissão de Coordenação de Implantação do SIVAM (CCSIVAM) | historical_government_commission | `ORG-BR-CCSIVAM` | BR | [3](network.md#rel-ws-ccsivam-contract) |
 | Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA) | historical_government_commission | `ORG-BR-CISCEA` | BR | [1](network.md#rel-ws-adviser-ciscea) |
 | Comissão Mista de Orçamento (CMO) | parliamentary_committee | `ORG-BR-CMO` | BR | [1](network.md#rel-ws-tcu-cmo-default) |
 | Compañía de Acero del Pacífico (CAP, 1971) | historical_industrial_corporation | `ORG-CL-CAP-STEEL-1971` | CL | [1](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
@@ -362,12 +362,13 @@
 | Rocky Mountain Institute | research_institute | `ORG-US-RMI` | US | [1](network.md#rel-ulf-woolsey-rmi) |
 | Rose Import-Export GmbH | company | `ORG-DE-ROSE-IMPORT-EXPORT` | DE | [1](network.md#rel-ulf-rose-company-sanction) |
 | Saudi-Arabien (Flugzeugbeschaffung 1994) | historical_government | `ORG-SA-GOVERNMENT-1994` | SA | [2](network.md#rel-ws-saudi-boeing) |
+| Schahin (SIVAM-Bauauftrag 1999) | historical_company | `ORG-BR-SCHAHIN-SIVAM-1999` | BR | [1](network.md#rel-ws-ccsivam-schahin-1999) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
-| Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [3](network.md#rel-ws-senate-exim-auth) |
+| Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
-| Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [10](network.md#rel-ws-advocacy-sivam) |
+| Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [11](network.md#rel-ws-advocacy-sivam) |
 | SIVAM Vendor Trust (Kreditgenehmigung 1994) | historical_finance_vehicle | `ORG-INT-SIVAM-VENDOR-TRUST-1994` | BR | [1](network.md#rel-ws-vendor-brazil) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
@@ -394,7 +395,7 @@
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
-| Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [5](network.md#rel-ws-tcu-cmo-default) |
+| Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
 | U.S. Agency for International Development (politische Risikoversicherung Chile, 1967) | federal_foreign_aid_agency_historical | `ORG-US-USAID-CHILE-1967` | US, CL | [2](network.md#rel-us-aid-itt-chile-riskinsurance-1967) |

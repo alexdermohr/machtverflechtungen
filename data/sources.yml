@@ -4923,7 +4923,7 @@ sources:
   url: "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=3572"
   accessed: "2026-11-24"
   language: "pt"
-  locator: "Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD, ATECH."
+  locator: "Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD; ATECH und Embraer 1997 durch Nachträge 9/10 einbezogen."
 
 - id: SRC-WS-BR-STJ-719548
   title: "REsp 719.548-PR (2005/0009564-0), 03.04.2008"
@@ -4983,7 +4983,7 @@ sources:
   url: "https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse"
   accessed: "2026-11-24"
   language: "pt"
-  locator: "Bericht §§12–15, Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text."
+  locator: "Bericht §§12–15 inkl. Fn.3 (SIVAM Vendor Trust, Vertragsbl.18–19), Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text."
 
 - id: SRC-WS-BR-CMN129-1997
   title: "Ata da 618ª sessão do Conselho Monetário Nacional; Voto CMN 129/97 / BCB 305/97"
@@ -5164,3 +5164,39 @@ sources:
   accessed: "2026-11-24"
   language: "pt"
   locator: "Gedruckte S.733, MSF270/2005, Nachricht794/2005: Zuordnung PLN34/2005 zu Lei11.199."
+
+- id: SRC-WS-BR-TCU850-1999
+  title: "Decisão 850/99-TCU-Plenário, TC 002.077/97-3"
+  institution: "Tribunal de Contas da União"
+  date: "1999-11-17"
+  type: "audit_decision"
+  primary: true
+  tier: "A"
+  url: "https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Ata 50/1999, Abschnitt Decisão 850/99, Ziff.8.1–8.4: Direktvergabe, Vertraulichkeit übriger Akten, Übermittlung an Senat und 1997er Rechnungsakte; Sitzung 41/99 außerordentlich nichtöffentlich."
+
+- id: SRC-WS-BR-TCU-WORKS-2001
+  title: "Relatório sintético de fiscalização, Anexo II, Tomo 5 – obras civis do SIVAM"
+  institution: "Tribunal de Contas da União / Câmara dos Deputados"
+  date: "2001-06-29"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Haushaltsjahr 2001, PT05.126.0496.5525.0001 Nr.3, TC8542/2001-2: tatsächlich gezahlte aggregierte Beträge 1997/98, Vertrag001/CCSIVAM/99, Carta336/VPE 20.12.1999 und spätere Nachreichung; Entscheidung09.08.2001."
+
+- id: SRC-WS-BR-PPA-2004
+  title: "Relatório de Avaliação do PPA 2004–2007, exercício 2004"
+  institution: "Ministério do Planejamento, Orçamento e Gestão"
+  date: "2004"
+  type: "government_report"
+  primary: true
+  tier: "A"
+  url: "https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf"
+  accessed: "2026-11-25"
+  language: "pt"
+  locator: "Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004."

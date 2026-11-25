@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**559 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**563 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -957,7 +957,7 @@ flowchart LR
     N_ORG_BR_ESCA["ESCA – Engenharia de Controle e Automação S.A."]
     N_ORG_BR_ESCA -->|"Ursprüngliche nationale Integratorin; später nach Vorwürfen des Sozialversicherungsbetrugs aus Vertrag entfernt"| N_PRG_BR_SIVAM
     N_ORG_BR_ATECH_FOUNDATION["Fundação Aplicações de Tecnologias Críticas (ATECH)"]
-    N_ORG_BR_ATECH_FOUNDATION -->|"STJ-Urteil 2008 beschreibt spätere Vertragsänderungen: strategische Informationsverarbeitung an ATECH; keine erst 2008 erfolgte Beauftragung behauptet"| N_PRG_BR_SIVAM
+    N_ORG_BR_ATECH_FOUNDATION -->|"1997 durch Nachträge 9/10 als nationale Integratorin einbezogen (TRF4 2003); spätere strategische Aufgabenabgrenzung im STJ-Urteil 2008"| N_PRG_BR_SIVAM
     N_ORG_BR_UNION_SIVAM -->|"Luftfahrtministerium meldet dem Senat Vertragswirksamkeit ab 25.07.1997 nach geänderten Resolutionen"| N_PRG_BR_SIVAM
     N_ORG_BR_CPI_SIVAM_2002["CPI SIVAM (Câmara dos Deputados)"]
     N_ORG_BR_CPI_SIVAM_2002 -->|"CPI-Abschluss 04.06.2002: Indizien, fehlende Auslandsbankdaten, keine Strafentscheidung"| N_PRG_BR_SIVAM
@@ -984,11 +984,11 @@ flowchart LR
     N_ORG_BR_CMN -->|"CMN genehmigt 28.08.1997 Risikogewicht 0% für SIVAM; BCB444/97 bestätigt Eigenkapitalentlastung, keine tatsächliche Risikolosigkeit"| N_ORG_BR_BANCO_DO_BRASIL_SIVAM_1997
     N_ORG_US_RAYTHEON_1994 -->|"Raytheon Credit Facility mit Limit USD239,2 Mio. laut TCU1249/2005; tatsächlicher Einzelabruf offen"| N_ORG_BR_UNION_SIVAM
     N_ORG_INT_SIVAM_VENDOR_TRUST_1994["SIVAM Vendor Trust (Kreditgenehmigung 1994)"]
-    N_ORG_INT_SIVAM_VENDOR_TRUST_1994 -->|"Resolution95/1994: SIVAM Vendor Trust, USD48 Mio. genehmigt; TCU2005 nennt Vendor Credit Facility mit gleichem Limit, genaue Urkunde fehlt"| N_ORG_BR_UNION_SIVAM
+    N_ORG_INT_SIVAM_VENDOR_TRUST_1994 -->|"Resolution95/1994 genehmigt USD48 Mio. SIVAM Vendor Trust; TCU1249/2005 §15 Fn.3 bestätigt den Vertragspartner der Vendor Facility; Einzelabruf offen"| N_ORG_BR_UNION_SIVAM
     N_ORG_BR_SENADO_FEDERAL -->|"Res.37/1996 hebt Art.3/4 der fünf ursprünglichen Kreditresolutionen auf, Fristen +270 Tage und neue Schutz-/Ausschreibungsbedingungen"| N_PRG_BR_SIVAM
     N_ORG_BR_EMBRAER_SIVAM["Embraer (SIVAM-Verträge, 1990er–2005)"]
-    N_ORG_BR_EMBRAER_SIVAM -->|"TCU1249/2005 nennt Vertrag 01/95 mit CCSIVAM/Raytheon/ATECH/Embraer; späterer Stand, kein ursprünglicher Vertragsschluss 1995 behauptet"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
-    N_ORG_BR_ATECH_FOUNDATION -->|"TCU1249/2005 nennt ATECH in späterer Vertragsbezeichnung 01/95; ursprüngliche und geänderte Fassung getrennt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_EMBRAER_SIVAM -->|"1997 durch dieselben Nachträge 9/10 als Flugzeuglieferantin in Vertrag 01/95 aufgenommen; exakter Tag nicht belegt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_ATECH_FOUNDATION -->|"1997 durch Nachträge 9/10 in Vertrag 01/95 aufgenommen, nicht erst 2005/2008; exakter Tag nicht belegt"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
     N_ORG_BR_TCU["Tribunal de Contas da União (TCU)"]
     N_ORG_BR_CMO["Comissão Mista de Orçamento (CMO)"]
     N_ORG_BR_TCU -->|"TCU ordnet Warnung vor möglicher vorzeitiger Fälligkeit von rund USD1,5 Mrd. bei Nichtzahlung an; kein Nachweis eingetretener Fälligstellung"| N_ORG_BR_CMO
@@ -1002,6 +1002,11 @@ flowchart LR
     N_ORG_BR_TCU -->|"Technische Prüfung zu Auswahlsitzung 13.09.1993: sechs von neun Beteiligten mit ESCA-Verbindungen; Mehrheit hob 2001 die Ziffern a–c von 87/96 auf; keine strafrechtliche Entscheidung"| N_ORG_BR_ESCA
     N_ORG_BR_TCU -->|"TCU110/96 bezog ESCA in besondere Rechnungsprüfung ein; TCU48/2001 hob 87/96 a–c später auf, kein Strafurteil"| N_ORG_BR_ESCA
     N_ORG_BR_TCU -->|"TCU82/97: umverteilte Teilkosten USD28.475.782, Bezifferung nicht verifiziert; Konsortienüberschneidung im abweichenden Prüfbeitrag, keine bewiesene Absprache"| N_DOC_BR_CCSIVAM_RAYTHEON_0195
+    N_ORG_BR_TCU -->|"17.11.1999: TCU850/99 beurteilt Direktvergabe an Embraer/ATECH als regulär; Entscheidung veröffentlicht, übrige Akten vertraulich"| N_ORG_BR_CCSIVAM
+    N_ORG_BR_TCU -->|"TCU850/99 Ziff.8.2–8.3: Übermittlung von Entscheidung und Grundlagen an Senatspräsidentschaft sowie Senatoren Valadares/Amorim unter Vertraulichkeit angeordnet"| N_ORG_BR_SENADO_FEDERAL
+    N_ORG_BR_SCHAHIN_SIVAM_1999["Schahin (SIVAM-Bauauftrag 1999)"]
+    N_ORG_BR_CCSIVAM -->|"Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"| N_ORG_BR_SCHAHIN_SIVAM_1999
+    N_ORG_BR_UNION_SIVAM -->|"PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"| N_PRG_BR_SIVAM
 ```
 
 [Zur Relationstabelle](network.md)

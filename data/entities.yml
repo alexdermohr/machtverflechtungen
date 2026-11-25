@@ -2402,7 +2402,7 @@ entities:
     type: "historical_finance_vehicle"
     name: "SIVAM Vendor Trust (Kreditgenehmigung 1994)"
     countries: ["BR"]
-    notes: "In Resolution95/1994 genannter Kreditgeber; TCU2005 bezeichnet eine Vendor Credit Facility, konkrete Vertragsurkunde und Rechtsträgeridentität noch offen."
+    notes: "In Resolution95/1994 genannter Kreditgeber; TCU1249/2005 §15 Fn.3 bestätigt SIVAM Vendor Trust als Vertragspartner. Vollständige Krediturkunde, Sitz, wirtschaftlich Berechtigte und Einzelabrufe offen."
 
   - id: ORG-BR-CISCEA
     type: "historical_government_commission"
@@ -2421,3 +2421,9 @@ entities:
     name: "Embraer (SIVAM-Verträge, 1990er–2005)"
     countries: ["BR"]
     notes: "Zeitgenössischer Lieferant im SIVAM-Projekt; in Vertragsbezeichnung 01/95 von TCU1249/2005 aufgeführt."
+
+  - id: ORG-BR-SCHAHIN-SIVAM-1999
+    type: "historical_company"
+    name: "Schahin (SIVAM-Bauauftrag 1999)"
+    countries: ["BR"]
+    notes: "TCU-Bericht TC8542/2001-2 nennt Schahin als Bauauftragnehmer für 001/CCSIVAM/99. Keine pauschale Zurechnung anderer Gruppengesellschaften oder späterer Verfahren."

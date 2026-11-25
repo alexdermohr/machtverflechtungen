@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**452 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**455 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3185,6 +3185,21 @@ Fundstelle: 373 PDF-Seiten: S. 17 (1RP 11/6 VFF), S. 18 (1RP 16/5 Verfassungschu
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-ws-br-ppa-2004"></a>
+### Ministério do Planejamento, Orçamento e Gestão
+
+**[Relatório de Avaliação do PPA 2004–2007, exercício 2004](https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf)**
+
+Ministério do Planejamento, Orçamento e Gestão · 2004 · Stufe **A** · Primärquelle · `SRC-WS-BR-PPA-2004`
+
+[PDF öffnen](https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf)
+
+Fundstelle: Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-ws-nsa-library"></a>
@@ -3946,6 +3961,21 @@ Fundstelle: Gedruckte S.17–46, Votum S.38–40, Erklärung Carlos Átila S.43�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1999">
+
+<a id="src-ws-br-tcu850-1999"></a>
+### Tribunal de Contas da União
+
+**[Decisão 850/99-TCU-Plenário, TC 002.077/97-3](https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf)**
+
+Tribunal de Contas da União · 1999-11-17 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU850-1999`
+
+[PDF öffnen](https://www.tcu.gov.br/atas/1999/plenario/TCU_ATA_0_N_1999_50.pdf)
+
+Fundstelle: Ata 50/1999, Abschnitt Decisão 850/99, Ziff.8.1–8.4: Direktvergabe, Vertraulichkeit übriger Akten, Übermittlung an Senat und 1997er Rechnungsakte; Sitzung 41/99 außerordentlich nichtöffentlich.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
 
 <a id="src-ws-br-tcu48-2001"></a>
@@ -3972,7 +4002,22 @@ Tribunal de Contas da União · 2005-08-24 · Stufe **A** · Primärquelle · `S
 
 [Seite öffnen](https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/%2A/KEY%253AACORDAO-COMPLETO-23700/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/0/sinonimos%253Dfalse)
 
-Fundstelle: Bericht §§12–15, Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text.
+Fundstelle: Bericht §§12–15 inkl. Fn.3 (SIVAM Vendor Trust, Vertragsbl.18–19), Votum §§7–9, Tenor 9.1–9.4: fünf Verträge/Höchstbeträge, Ausfallklauseln, Haushaltsbedarf und Warnung; amtlicher indexierter Text.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ws-br-tcu-works-2001"></a>
+### Tribunal de Contas da União / Câmara dos Deputados
+
+**[Relatório sintético de fiscalização, Anexo II, Tomo 5 – obras civis do SIVAM](https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF)**
+
+Tribunal de Contas da União / Câmara dos Deputados · 2001-06-29 · Stufe **A** · Primärquelle · `SRC-WS-BR-TCU-WORKS-2001`
+
+[PDF öffnen](https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2002/TCU/Rel%20Sint%C3%A9tico%20Anexo%20II%20Tomo%205.PDF)
+
+Fundstelle: Haushaltsjahr 2001, PT05.126.0496.5525.0001 Nr.3, TC8542/2001-2: tatsächlich gezahlte aggregierte Beträge 1997/98, Vertrag001/CCSIVAM/99, Carta336/VPE 20.12.1999 und spätere Nachreichung; Entscheidung09.08.2001.
 
 </article>
 
@@ -3987,7 +4032,7 @@ Tribunal Regional Federal da 4ª Região · 2003-10-17 · Stufe **A** · Primär
 
 [Seite öffnen](https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=3572)
 
-Fundstelle: Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD, ATECH.
+Fundstelle: Amtliche Gerichtsmitteilung: 1997er Nichtigkeitsurteil, 2003 bestätigt, Rechtskraft noch offen; nationale Integratorpflicht, ESCA, 80 Mio. USD; ATECH und Embraer 1997 durch Nachträge 9/10 einbezogen.
 
 </article>
 

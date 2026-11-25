@@ -766,7 +766,7 @@ studies:
       - REL-US-DOD-CHILE-MILITARY-CREDIT-POSITION-1972
 
   woolsey-wirtschaftsaufklaerung-osac-sivam-1985-2008.md:
-    sha256: a1ae81d260e4f502ed428693ffff9a071786ead6140dbf75f7e32bd469776f9c
+    sha256: a5f85b4421bdcda424a6bdf1461ab0b2bed5392fbc2cbee017bb1e27cfdd4486
     status: network
     relation_ids:
       - REL-WS-IC-STATE
@@ -836,3 +836,7 @@ studies:
       - REL-WS-TCU-ESCA-INTEREST
       - REL-WS-TCU-ESCA-ACCOUNTING
       - REL-WS-TCU-CONTRACT-PRICE
+      - REL-WS-TCU-ATECH-EMBRAER-1999
+      - REL-WS-TCU-SENATE-CONFIDENTIAL-1999
+      - REL-WS-CCSIVAM-SCHAHIN-1999
+      - REL-WS-BR-SIVAM-AIRCRAFT-ARREARS-2003

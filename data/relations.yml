@@ -4765,10 +4765,10 @@ relations:
     from: "ORG-BR-ATECH-FOUNDATION"
     to: "PRG-BR-SIVAM"
     type: "reported_contract_amendment"
-    label: "STJ-Urteil 2008 beschreibt spätere Vertragsänderungen: strategische Informationsverarbeitung an ATECH; keine erst 2008 erfolgte Beauftragung behauptet"
+    label: "1997 durch Nachträge 9/10 als nationale Integratorin einbezogen (TRF4 2003); spätere strategische Aufgabenabgrenzung im STJ-Urteil 2008"
     evidence_level: "established"
-    sources: ["SRC-WS-BR-STJ-719548"]
-    period: {"start": "2008", "end": "2008"}
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-STJ-719548", "SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1997", "end": "1997"}
 
   - id: REL-WS-BR-SIVAM-EFFECTIVE
     from: "ORG-BR-UNION-SIVAM"
@@ -4918,7 +4918,7 @@ relations:
     from: "ORG-INT-SIVAM-VENDOR-TRUST-1994"
     to: "ORG-BR-UNION-SIVAM"
     type: "authorized_vendor_credit"
-    label: "Resolution95/1994: SIVAM Vendor Trust, USD48 Mio. genehmigt; TCU2005 nennt Vendor Credit Facility mit gleichem Limit, genaue Urkunde fehlt"
+    label: "Resolution95/1994 genehmigt USD48 Mio. SIVAM Vendor Trust; TCU1249/2005 §15 Fn.3 bestätigt den Vertragspartner der Vendor Facility; Einzelabruf offen"
     evidence_level: "established"
     sources: ["SRC-WS-BR-R95-1994", "SRC-WS-BR-TCU1249-2005"]
     period: {"start": "1994-12-27", "end": "1994-12-27"}
@@ -4936,19 +4936,19 @@ relations:
     from: "ORG-BR-EMBRAER-SIVAM"
     to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
     type: "reported_contract_party"
-    label: "TCU1249/2005 nennt Vertrag 01/95 mit CCSIVAM/Raytheon/ATECH/Embraer; späterer Stand, kein ursprünglicher Vertragsschluss 1995 behauptet"
+    label: "1997 durch dieselben Nachträge 9/10 als Flugzeuglieferantin in Vertrag 01/95 aufgenommen; exakter Tag nicht belegt"
     evidence_level: "established"
-    sources: ["SRC-WS-BR-TCU1249-2005"]
-    period: {"start": "2005-08-24", "end": "2005-08-24"}
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-TCU850-1999", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1997", "end": "1997"}
 
   - id: REL-WS-ATECH-CONTRACT
     from: "ORG-BR-ATECH-FOUNDATION"
     to: "DOC-BR-CCSIVAM-RAYTHEON-0195"
     type: "reported_contract_party"
-    label: "TCU1249/2005 nennt ATECH in späterer Vertragsbezeichnung 01/95; ursprüngliche und geänderte Fassung getrennt"
+    label: "1997 durch Nachträge 9/10 in Vertrag 01/95 aufgenommen, nicht erst 2005/2008; exakter Tag nicht belegt"
     evidence_level: "established"
-    sources: ["SRC-WS-BR-TCU1249-2005", "SRC-WS-BR-STJ-719548"]
-    period: {"start": "2005-08-24", "end": "2005-08-24"}
+    sources: ["SRC-WS-BR-TRF4-2003", "SRC-WS-BR-TCU850-1999", "SRC-WS-BR-TCU1249-2005"]
+    period: {"start": "1997", "end": "1997"}
 
   - id: REL-WS-TCU-CMO-DEFAULT
     from: "ORG-BR-TCU"
@@ -5030,3 +5030,39 @@ relations:
     evidence_level: "established"
     sources: ["SRC-WS-BR-TCU82-1997", "SRC-WS-BR-CPI-2002"]
     period: {"start": "1997-03-12", "end": "1997-03-12"}
+
+  - id: REL-WS-TCU-ATECH-EMBRAER-1999
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-CCSIVAM"
+    type: "procurement_audit_decision"
+    label: "17.11.1999: TCU850/99 beurteilt Direktvergabe an Embraer/ATECH als regulär; Entscheidung veröffentlicht, übrige Akten vertraulich"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1999-11-17", "end": "1999-11-17"}
+
+  - id: REL-WS-TCU-SENATE-CONFIDENTIAL-1999
+    from: "ORG-BR-TCU"
+    to: "ORG-BR-SENADO-FEDERAL"
+    type: "ordered_confidential_transmission"
+    label: "TCU850/99 Ziff.8.2–8.3: Übermittlung von Entscheidung und Grundlagen an Senatspräsidentschaft sowie Senatoren Valadares/Amorim unter Vertraulichkeit angeordnet"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU850-1999"]
+    period: {"start": "1999-11-17", "end": "1999-11-17"}
+
+  - id: REL-WS-CCSIVAM-SCHAHIN-1999
+    from: "ORG-BR-CCSIVAM"
+    to: "ORG-BR-SCHAHIN-SIVAM-1999"
+    type: "civil_works_contract"
+    label: "Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-TCU-WORKS-2001"]
+    period: {"start": "1999", "end": "1999"}
+
+  - id: REL-WS-BR-SIVAM-AIRCRAFT-ARREARS-2003
+    from: "ORG-BR-UNION-SIVAM"
+    to: "PRG-BR-SIVAM"
+    type: "reported_budget_arrears"
+    label: "PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"
+    evidence_level: "established"
+    sources: ["SRC-WS-BR-PPA-2004"]
+    period: {"start": "2003", "end": "2004"}
