@@ -18,6 +18,7 @@ hide:
 
 - **P2, Banco Ambrosiano, Rizzoli und Corriere della Sera:** Die italienische Untersuchungskommission rekonstruierte die Rolle von Gelli und Ortolani bei der Einflussnahme auf den Rizzoli-Konzern. Verträge und Bankfinanzierungen machen das Netzwerk greifbar. [Fallübersicht](falluebersichten/p2-banco-ambrosiano.md) · [P2-Netzwerk](generated/network-focus-p2.md) · [Bologna-Geldspuren](research/bologna-p2-ambrosiano-geldfluesse-1979-2026.md)
 - **BCCI, CIA und Bankaufsicht:** Die US-Fed stellte eine verschleierte Beteiligung der BCCI an der First-American-Mutter fest. Die spätere gerichtliche Rekonstruktion bezifferte sie auf 61,156 Prozent. Der Senat untersuchte die unzureichende Weitergabe früher CIA-Erkenntnisse. [Fallübersicht](falluebersichten/bcci-cia-bankaufsicht.md)
+- **Riggs, Bankenaufsicht, Medien und Ölwirtschaft:** Der Senat untersuchte die Konten Pinochets und Äquatorialguineas bei derselben Bank; die SEC-Mitteilung dokumentiert zudem personelle und geschäftliche Verbindungen zur Mediengesellschaft Allbritton Communications, einschließlich 506.160 USD für Leistungen im Jahr 2004. [Pinochet und Medien](research/riggs-pinochet-banken-aufsicht-medien-1981-2012.md) · [Ölkonzerne und politische Familieninteressen](research/riggs-aequatorialguinea-oelkonzerne-1995-2005.md)
 - **Warburg und Axel Springer:** Ein Geschäftsbericht dokumentiert Warburg als Partei einer Aktienübertragungsvereinbarung mit Döpfner und Springer. Welche Auswirkungen das auf redaktionelle Entscheidungen hatte, bleibt offen. [Studie](research/warburg-axel-springer-doepfner-finanzierung-2006-2025.md) · [Vertragsnetzwerk](generated/network-focus-springer-doepfner.md) · [Cum-Ex-Fallakte](faelle/de/cum-ex-warburg-steuerverfahren.md)
 
 ### Geheimdienste, politische Gewalt und verdeckte Finanzierung
@@ -34,6 +35,7 @@ hide:
 - **INSM und ARD-Marienhof:** Der DRPR dokumentierte bezahlte, mit der INSM abgestimmte Themenplatzierungen; 2006 erfolgte eine öffentliche Rüge wegen Schleichwerbung. [Studie](research/insm-marienhof-bavaria-placements-rechnungen-justiz-2002-2006.md) · [Medien und Nachrichtendienste](faelle/de/medien-nachrichtendienst-crosslayer.md)
 
 - **CIA, Prolog und Suchasnist:** Interne CIA-Finanzierungs- und Kontrollakten lassen sich mit unabhängigen zeitgenössischen Druckoriginalen verbinden. [Fallübersicht](falluebersichten/cia-prolog-medienfinanzierung.md)
+- **Bundespresseamt, ADK und Medienfinanzierung:** Verdeckte CIA-Förderung der GfW, öffentliche Publikationsmittel, private Träger und die 1977 gerichtlich festgestellte staatliche Wahlkampfhilfe. [Fallübersicht](falluebersichten/bpa-adk-medienfinanzierung.md)
 
 ### Justiz und institutionelle Kontrolle
 
@@ -44,6 +46,7 @@ hide:
 - **I.G. Farben, Standard Oil und NS-Kriegswirtschaft:** Internationale Verträge, personelle Verbindungen und finanzwirtschaftliche Strukturen im Umfeld des NS-Regimes. [Hermann Schmitz](research/hermann-schmitz-ig-farben-finanz-ruestungsnetzwerk-1881-1960.md) · [I.G.-Farben-Netzwerk](generated/network-focus-ig-farben.md) · [BIZ, SS-Kredite und Opfergold](research/schroeder-funk-puhl-himmler-biz-raubgold-1933-1949.md)
 - **Angolagate und Sonangol:** Gerichtsakten beschreiben ölbesicherte Waffenfinanzierung und internationale Bankwege; die Regierung und UNITA waren gegnerische Kriegsparteien. [Angolagate](research/angolagate-sonangol-zts-osos-brenco-bank-justiz-1993-2015.md) · [Öl-Nebenhaushalt](research/angola-sonangol-oel-nebenhaushalt-kredite-krieg-1993-2005.md) · [UNITA-Finanzierung](research/angola-unita-antwerpen-diamanten-waffen-finanzierung-1993-2003.md)
 - **CIA, ITT und Chile:** Der Church-Ausschuss dokumentierte verdeckte Wahlkampffinanzierung und Kontakte zwischen CIA und ITT. Die Prüfung von Jeffrey Sachs' Aussagen erschließt zudem Medienfinanzierung und Unternehmensinteressen in Guatemala. [Studie](research/jeffrey-sachs-cia-chile-itt-el-mercurio-guatemala-1952-1975.md)
+- **Wirtschaftsaufklärung und SIVAM:** US-Regierungsakten dokumentieren staatliche Exportförderung und Unternehmenskontakte; brasilianische Akten zeigen Kreditsicherheiten, regulatorische Ausnahmen, Vergabekonflikte und eine Bankfinanzierung mit Grand-Cayman-Bezug. [Studie](research/woolsey-wirtschaftsaufklaerung-osac-sivam-1985-2008.md)
 
 ## Weitere Recherchewege
 
