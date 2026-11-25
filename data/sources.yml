@@ -5464,3 +5464,51 @@ sources:
   url: "https://star.worldbank.org/asset-recovery-watch-database/teodoro-nguema-obiang-mbasogo-spain-chapter"
   accessed: "2026-11-25"
   locator: "Historischer Stand 2023, Anzeige 2008, staatsanwaltliche Angaben 21.01.2009; Filialangabe Las Palmas vs. Madrid im Senatsbericht. Neuerer Verfahrensstand nur Presse, amtliches Urteil offen."
+
+- id: SRC-INT-EG-MPTF-2022
+  title: "Informe anual 2022 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2023-03"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf"
+  accessed: "2026-11-25"
+  locator: "S.22–23, Tabellen 1–2: Einzahlung 10 Mio. USD 2021, 2022 keine; Ausgaben bis 2022. Titelblatt März 2023, wiederkehrende Kopfzeilen irrtümlich März 2022."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-2023
+  title: "Informe anual 2023 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2024-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf"
+  accessed: "2026-11-25"
+  locator: "S.21–24, Tabellen 1–5.1: zweite Einzahlung 9,225 Mio. USD 2023; Nettofinanzierung und Ausgaben. Datumsangabe in Einleitung des Finanzteils weicht vom Tabellenstichtag ab."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-2025
+  title: "Informe anual 2025 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2026-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf"
+  accessed: "2026-11-25"
+  locator: "S.9–12 Programmreorientierung, Beschaffung und Lieferstatus; S.28–33 Tabellen 1–5.2, 31.12.2025; S.36 Projekt 00129191."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-TOR-2021
+  title: "Equatorial Guinea MPTF Terms of Reference, August 2021"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2021-08"
+  type: "official_governance_document"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf"
+  accessed: "2026-11-25"
+  locator: "S.15–18: Lenkungsausschuss Impf-Fenster, DOJ-Mitgliedschaft, EG beratend ohne Stimme, UNDP MPTF Office Verwaltung."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."

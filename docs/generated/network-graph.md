@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**677 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1190,13 +1190,24 @@ flowchart LR
     N_ORG_US_SWEETWATER_MALIBU_LLC -->|"Vergleichspartei und von Parteien bezeichnete eingetragene Immobilieneigentümerin, §§2–6; keine Identität mit älterem Immobilienvorgang."| N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014
     N_ORG_US_DOJ -->|"US-Seite: §27 Verfall 10,3 Mio. USD nach Verwertungskosten, Rest zugunsten Bevölkerung, §28 weiterer Beitrag und Verwertung; §30 Rechnungslegung."| N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014
     N_ORG_INT_UNITED_NATIONS_2021["Vereinte Nationen (Zuwendungsvereinbarung 2021)"]
-    N_ORG_US_DOJ -->|"Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG; tatsächliche vollständige Auszahlung offen."| N_ORG_INT_UNITED_NATIONS_2021
+    N_ORG_US_DOJ -->|"Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG; GNQ00 verbucht 19,225 Mio. USD US-Einzahlungen. Nicht additiv; vollständige Abrechnung offen."| N_ORG_INT_UNITED_NATIONS_2021
     N_ORG_US_MCDI_GLOBAL_HEALTH["Medical Care Development International / MCD Global Health"]
     N_ORG_US_DOJ -->|"Ankündigung 20.09.2021: Vereinbarung über 6,35 Mio. USD für Medikamente und medizinischen Bedarf; spätere Berichte, kein vollständiger Zahlungs-/Ausgabennachweis."| N_ORG_US_MCDI_GLOBAL_HEALTH
     N_PRG_GQ_GOOD_WILL_FUND_2021_2025["Good Will Fund (Äquatorialguinea, 2021–2025)"]
     N_ORG_US_MCDI_GLOBAL_HEALTH -->|"MCD berichtet Good Will Fund 2021–2025, medizinische Lieferungen und Aufbau der Logistik in 19 Distrikten; Eigenauskunft."| N_PRG_GQ_GOOD_WILL_FUND_2021_2025
     N_DOC_INT_ICJ_163_2020 -->|"Der zwischenstaatliche Immunitätsstreit betraf die Immobilie im Zusammenhang mit französischen Ermittlungen gegen den Präsidentensohn; keine Strafverurteilung durch den IGH."| N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE
     N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Sohn des Präsidenten Teodoro Obiang Nguema Mbasogo; Verwandtschaft belegt, keine Zurechnung der jeweiligen Geldströme oder Delikte."| N_PER_GQ_TEODORO_OBIANG
+    N_ORG_US_FEDERAL_GOVERNMENT["Regierung der Vereinigten Staaten"]
+    N_PRG_GQ_MPTF_GNQ00["Equatorial Guinea Multi-Partner Trust Fund (GNQ00)"]
+    N_ORG_US_FEDERAL_GOVERNMENT -->|"10 Mio. USD Einzahlung 2021 und 9,225 Mio. USD 2023; kumuliert 19,225 Mio. USD bis 2025. Nicht additiv zur DOJ-Zusage 19,25 Mio.; Differenz 25.000 USD ungeklärt."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_INT_UNDP["United Nations Development Programme (UNDP)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"7.632.981 USD Nettofinanzierung bis 31.12.2025, davon gemeldete Ausgaben 4.670.867 USD; Programm 00129191."| N_ORG_INT_UNDP
+    N_ORG_INT_UNICEF["United Nations Children's Fund (UNICEF)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"7.746.761 USD Nettofinanzierung bis 31.12.2025, davon gemeldete Ausgaben 4.356.419 USD; Programm 00129191."| N_ORG_INT_UNICEF
+    N_ORG_INT_WHO["World Health Organization (WHO)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
+    N_ORG_US_DOJ -->|"Terms of Reference August 2021: DOJ Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht; keine Aussage zur späteren Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
 ```
 
 [Zur Relationstabelle](network.md)

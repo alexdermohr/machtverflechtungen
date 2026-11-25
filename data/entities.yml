@@ -2864,7 +2864,7 @@ entities:
     type: "international_organization"
     name: "Vereinte Nationen (Zuwendungsvereinbarung 2021)"
     countries: []
-    notes: "DOJ nennt UN als Empfängerin; konkrete Unterorganisation und vollständiger Mittelabfluss hier nicht belegt."
+    notes: "DOJ nennt UN als Empfängerin; das MPTF GNQ00 dokumentiert Einzahlungen und Ausgaben. Die Betragsdifferenz zur DOJ-Zusage bleibt offen."
 
   - id: ORG-US-MCDI-GLOBAL-HEALTH
     type: "nonprofit_organization"
@@ -2883,3 +2883,33 @@ entities:
     name: "IGH-Urteil 163 zum diplomatischen Status (11.12.2020)"
     countries: ["NL", "FR", "GQ"]
     notes: "Zwischenstaatliches Verfahren zwischen Äquatorialguinea und Frankreich; kein Strafurteil gegen den Präsidentensohn und keine Feststellung sämtlicher Vermögensherkünfte. Tenor nach amtlicher Pressemitteilung vom 11.12.2020."
+
+  - id: ORG-US-FEDERAL-GOVERNMENT
+    type: "government"
+    name: "Regierung der Vereinigten Staaten"
+    countries: ["US"]
+    notes: "Einziger Einzahler des EG-MPTF laut Jahresrechnung; konkrete Zahlstelle nicht identifiziert."
+
+  - id: PRG-GQ-MPTF-GNQ00
+    type: "multilateral_trust_fund"
+    name: "Equatorial Guinea Multi-Partner Trust Fund (GNQ00)"
+    countries: ["GQ"]
+    notes: "UN-Treuhandfonds seit 10.08.2021. Programm 00129191. Institutionelle Abwicklung nicht als Fehlverhalten gewertet."
+
+  - id: ORG-INT-UNDP
+    type: "international_organization"
+    name: "United Nations Development Programme (UNDP)"
+    countries: []
+    notes: ""
+
+  - id: ORG-INT-UNICEF
+    type: "international_organization"
+    name: "United Nations Children's Fund (UNICEF)"
+    countries: []
+    notes: ""
+
+  - id: ORG-INT-WHO
+    type: "international_organization"
+    name: "World Health Organization (WHO)"
+    countries: []
+    notes: ""

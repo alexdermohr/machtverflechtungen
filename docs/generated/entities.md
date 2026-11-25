@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**509 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**514 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -291,6 +291,7 @@
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
 | Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Ente Nazionale Idrocarburi (ENI, historisch 1978–1982) | historical_state_enterprise | `ORG-IT-ENI-1978` | IT | [1](network.md#rel-it-eni-trad-1979-001) |
+| Equatorial Guinea Multi-Partner Trust Fund (GNQ00) | multilateral_trust_fund | `PRG-GQ-MPTF-GNQ00` | GQ | [6](network.md#rel-riggs-post-2004-054) |
 | ERISA-betroffene US-Pensionspläne (historisch 1979) | historical_pension_system | `PRG-US-ERISA-PENSION-PLANS-1979` | US | [2](network.md#rel-us-erisa-rule-portfolio-1979-001) |
 | ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
 | ESCA – Engenharia de Controle e Automação S.A. | historical_company | `ORG-BR-ESCA` | BR | [5](network.md#rel-ws-esca-sivam) |
@@ -414,6 +415,7 @@
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Raytheon Company (SIVAM 1994–2008) | historical_company | `ORG-US-RAYTHEON-1994` | US, BR | [4](network.md#rel-ws-exim-raytheon) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
@@ -472,7 +474,7 @@
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [2](network.md#rel-us-ua-biosec-2022-001) |
-| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [10](network.md#rel-int-bcci-006) |
+| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [11](network.md#rel-int-bcci-006) |
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of State (1954) | historical_federal_executive_department | `ORG-US-STATE-DEPARTMENT-1954` | US | [1](network.md#rel-us-ufco-state-doj-lobby-1954) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [4](network.md#rel-int-bcci-003) |
@@ -483,6 +485,8 @@
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | UnionBanCal Corporation (2007) | bank_holding_company | `ORG-US-UNIONBANCAL-2007` | US | [2](network.md#rel-riggs-post-2004-033) |
 | United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [8](network.md#rel-us-ufco-castillo-armas-support-1952) |
+| United Nations Children's Fund (UNICEF) | international_organization | `ORG-INT-UNICEF` |  | [1](network.md#rel-riggs-post-2004-056) |
+| United Nations Development Programme (UNDP) | international_organization | `ORG-INT-UNDP` |  | [2](network.md#rel-riggs-post-2004-055) |
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Unlimited Horizon, Inc. (2006–2007) | company | `ORG-US-UNLIMITED-HORIZON-INC-2006` | US | [2](network.md#rel-riggs-post-2004-029) |
 | US Department of Commerce | government_agency | `ORG-US-COMMERCE` | US | [3](network.md#rel-ws-ic-commerce) |
@@ -504,6 +508,7 @@
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | – |
+| World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [1](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
 

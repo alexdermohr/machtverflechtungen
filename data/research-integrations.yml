@@ -959,7 +959,7 @@ studies:
       - REL-RIGGS-POST-2004-053
 
   riggs-obiang-gerichtsverfahren-vermoegensrueckfuehrung-2014-2026.md:
-    sha256: f7ad6c11493eae4a6d27676cb71efe38b64eaf79d67af7ab683f13748e13152f
+    sha256: 269d09adf0a9517c56195a2e85ed6ada6948d7c6eb3afd4f264b0e8a30fb618b
     status: network
     relation_ids:
       - REL-RIGGS-POST-2004-041
@@ -977,3 +977,9 @@ studies:
       - REL-RIGGS-POST-2004-002
       - REL-RIGGS-POST-2004-052
       - REL-RIGGS-POST-2004-053
+      - REL-RIGGS-POST-2004-054
+      - REL-RIGGS-POST-2004-055
+      - REL-RIGGS-POST-2004-056
+      - REL-RIGGS-POST-2004-057
+      - REL-RIGGS-POST-2004-058
+      - REL-RIGGS-POST-2004-059

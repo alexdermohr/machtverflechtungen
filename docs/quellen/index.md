@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**479 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**483 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5458,6 +5458,66 @@ UK House of Commons, Parliamentary Commissioner for Standards · 2022-08-11 · S
 [PDF öffnen](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)
 
 Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-int-eg-mptf-tor-2021"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Equatorial Guinea MPTF Terms of Reference, August 2021](https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2021-08 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-TOR-2021`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf)
+
+Fundstelle: S.15–18: Lenkungsausschuss Impf-Fenster, DOJ-Mitgliedschaft, EG beratend ohne Stimme, UNDP MPTF Office Verwaltung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-int-eg-mptf-2022"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2022 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2023-03 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2022`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf)
+
+Fundstelle: S.22–23, Tabellen 1–2: Einzahlung 10 Mio. USD 2021, 2022 keine; Ausgaben bis 2022. Titelblatt März 2023, wiederkehrende Kopfzeilen irrtümlich März 2022.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-int-eg-mptf-2023"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2023 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2024-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2023`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf)
+
+Fundstelle: S.21–24, Tabellen 1–5.1: zweite Einzahlung 9,225 Mio. USD 2023; Nettofinanzierung und Ausgaben. Datumsangabe in Einleitung des Finanzteils weicht vom Tabellenstichtag ab.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-eg-mptf-2025"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2025 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2026-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf)
+
+Fundstelle: S.9–12 Programmreorientierung, Beschaffung und Lieferstatus; S.28–33 Tabellen 1–5.2, 31.12.2025; S.36 Projekt 00129191.
 
 </article>
 
