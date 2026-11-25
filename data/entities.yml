@@ -2430,9 +2430,9 @@ entities:
 
   - id: ORG-US-BOFA-ACCOUNT-GROUP-1993-2004
     type: "banking_group"
-    name: "Bank of America – Kontenverbund laut Senatsbericht 2005"
+    name: "Bank of America – Kontenverbund laut Senatsberichten 2005/2010"
     countries: ["US"]
-    notes: "Retrospektive Bezeichnung des Kontenverbunds 1993–2004; keine Gleichsetzung mit dem Rechtsträger der Chile-Kredite 1970–1978. Holdinggeschichte 1998, FleetBoston 2004 beachten."
+    notes: "Retrospektive Bezeichnung des Kontenverbunds 1993–2004; keine Gleichsetzung mit dem Rechtsträger der Chile-Kredite 1970–1978. Holdinggeschichte 1998, FleetBoston 2004 beachten. Der PSI-Bericht 2010 bezeichnet auch die hier untersuchten Obiang-/Berger-/Beautiful-Vision-Konten als Bank of America (2004–2007). Der Gruppenbezug ist historisch, keine Rechtsidentität einzelner Kontenbanken oder Geldströme aus dem Gruppennamen abgeleitet."
 
   - id: ORG-CL-BANKBOSTON-CHILE-2001
     type: "commercial_bank"
@@ -2685,3 +2685,201 @@ entities:
     name: "ATSIGE (2000–2004)"
     countries: ["GQ"]
     notes: "Im Senatsbericht als Gesellschaft des damaligen Innenministers bezeichnet; keine vollständige Eigentümerprüfung."
+
+  - id: PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE
+    type: "person"
+    name: "Teodoro Nguema Obiang Mangue"
+    countries: ["GQ"]
+    notes: "Präsidentensohn im PSI-Fall 2010 und in späteren Gerichtsverfahren; nicht mit Vater Teodoro Obiang Nguema Mbasogo gleichsetzen. Keine Identität mit staatlichen Öleinnahmenkonten unterstellt."
+
+  - id: ORG-GQ-SOMAGUI-FORESTAL
+    type: "historical_forestry_company"
+    name: "Somagui Forestal (historischer Untersuchungszeitraum)"
+    countries: ["GQ"]
+    notes: "PSI 2010 Kontoinstrumente und Unternehmenszahlungen; französisches Urteil 2021 Rn.29–34 unterscheidet Unternehmensmissbrauch und nicht nachgewiesene Korruptionsvortat."
+
+  - id: ORG-GQ-SOCAGE
+    type: "company"
+    name: "Socage (historischer Untersuchungszeitraum)"
+    countries: ["GQ"]
+    notes: "Als Zahlungsauftraggeberin im PSI-Bericht und Mittelquelle im französischen Urteil dokumentiert."
+
+  - id: ORG-GQ-EDUM
+    type: "company"
+    name: "Edum (historischer Untersuchungszeitraum)"
+    countries: ["GQ"]
+    notes: "Französisches Urteil 2021 Rn.30–32; keine konkrete US-Banküberweisung aus dieser Quelle abgeleitet."
+
+  - id: ORG-INT-FOCH-SERVICES-HISTORICAL
+    type: "company"
+    name: "Foch services (historischer Rechtsträger laut Urteil)"
+    countries: []
+    notes: "Französisches Urteil Rn.30–31 beschreibt tatsächliche Leitung und Abschirmfunktion im Frankreich-Komplex; keine eigenständige Registerjurisdiktion oder Gründungsakte geprüft."
+
+  - id: ORG-GQ-CCEI-BANK-2003-2008
+    type: "commercial_bank"
+    name: "CCEI Bank GE (2003–2008)"
+    countries: ["GQ"]
+    notes: "Historischer Auftraggeber-/Kontenbankbezug in PSI-Tabellen, kein heutiger Eigentumsstand."
+
+  - id: ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006
+    type: "commercial_bank"
+    name: "Société Générale de Banque – Äquatorialguinea (2006)"
+    countries: ["GQ"]
+    notes: "Historische Bank laut PSI-Überweisungstabelle; nicht pauschal mit französischer Muttergesellschaft gleichsetzen."
+
+  - id: ORG-US-SOCIETE-GENERALE-NY-2006
+    type: "commercial_bank"
+    name: "Société Générale S.A. (New York, 2006)"
+    countries: ["US", "FR"]
+    notes: "Im PSI-Bericht als Zwischenstation der Rücküberweisung 24.01.2006 bezeichnet."
+
+  - id: ORG-CM-BEAC-2006
+    type: "central_bank"
+    name: "Banque des États de l’Afrique Centrale (BEAC, 2006)"
+    countries: ["CM", "GQ"]
+    notes: "Regionale Zentralbank im historischen Zahlungsweg; Länderbezug Hauptsitz und Mitgliedstaat, keine Behauptung ausschließlicher Zuständigkeit."
+
+  - id: ORG-FR-BANQUE-DE-FRANCE-2006
+    type: "central_bank"
+    name: "Banque de France (2006)"
+    countries: ["FR"]
+    notes: "Historische Korrespondenzbankverbindung zu Wachovia laut PSI."
+
+  - id: ORG-US-WACHOVIA-BANK-2006
+    type: "historical_commercial_bank"
+    name: "Wachovia Bank, N.A. (historischer Untersuchungszeitraum)"
+    countries: ["US"]
+    notes: "Korrespondenzbank 2006–2008, eigenständiges DPA 2010. Keine Rückprojektion auf spätere Konzerngesellschaften."
+
+  - id: ORG-INT-FORTIS-BANK-2008
+    type: "commercial_bank"
+    name: "Fortis Bank (in PSI-Tabelle 2008)"
+    countries: ["FR"]
+    notes: "Französischer Bankbezug laut PSI-Berichtsprosa, genaue Rechtsträger-/Niederlassungsakte offen; keine rückwirkende BNP-Zurechnung."
+
+  - id: ORG-GB-UBS-LONDON-2006
+    type: "commercial_bank"
+    name: "UBS London (2006)"
+    countries: ["GB", "CH"]
+    notes: "Kontenbank für Insured Aircraft Title Service in PSI-Tabelle; getrennt von historischen UBS-Genfer Konten."
+
+  - id: ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006
+    type: "escrow_service"
+    name: "Insured Aircraft Title Service(s) (2006)"
+    countries: []
+    notes: "Flugzeug-Treuhand-/Titeldienstleister, Empfängerkonto UBS London; genaue Registerjurisdiktion nicht aus Kontenstandort abgeleitet."
+
+  - id: ORG-US-MCAFEE-TAFT-2006
+    type: "law_firm"
+    name: "McAfee & Taft (2006)"
+    countries: ["US"]
+    notes: "Kanzlei und Empfängerkonto bei Bank of America laut PSI; keine eigenständige Deliktfeststellung."
+
+  - id: ORG-US-FIRST-AMERICAN-TITLE-2006
+    type: "escrow_service"
+    name: "First American Title Company (2006)"
+    countries: ["US"]
+    notes: "Empfängerin der fünf Immobilien-Transferzeilen; Kontenbank First American Trust F.S.B."
+
+  - id: ORG-US-FIRST-AMERICAN-TRUST-2006
+    type: "commercial_bank"
+    name: "First American Trust, F.S.B. (2006)"
+    countries: ["US"]
+    notes: "Kontenbank der Title Company; nicht mit dem BCCI-/First-American-Bankkomplex gleichsetzen."
+
+  - id: ORG-US-UNION-BANK-OF-CALIFORNIA-2007
+    type: "historical_commercial_bank"
+    name: "Union Bank of California, N.A. (UBOC)"
+    countries: ["US"]
+    notes: "Historische Bank, PSI-Konten und DPA 2007. Keine Zurechnung zu heutigen Rechtsträgern."
+
+  - id: ORG-US-UNIONBANCAL-2007
+    type: "bank_holding_company"
+    name: "UnionBanCal Corporation (2007)"
+    countries: ["US"]
+    notes: "Historische Mutter laut FinCEN 2007-02 §II."
+
+  - id: ORG-JP-MUFG-2007
+    type: "financial_holding_company"
+    name: "Mitsubishi UFJ Financial Group (2007)"
+    countries: ["JP"]
+    notes: "Mehrheitseigentümer der UnionBanCal laut FinCEN §II; kein Kenntnisnachweis aus Beteiligung."
+
+  - id: ORG-US-BEVERLY-HILLS-ESCROW-2001
+    type: "escrow_service"
+    name: "Beverly Hills Escrow (2001)"
+    countries: ["US"]
+    notes: "Empfänger des dokumentierten 2001er Transfers; nicht der späteren Malibu-Zahlung gleichsetzen."
+
+  - id: ORG-US-BERGER-LAW-OFFICE-2004-2007
+    type: "law_firm"
+    name: "Kanzlei Michael Berger (2004–2007)"
+    countries: ["US"]
+    notes: "Historische anwaltliche Treuhandkonten laut PSI; Bericht und Bankverdachtsbewertung sind kein Strafurteil gegen den Anwalt."
+
+  - id: ORG-US-BEAUTIFUL-VISION-INC-2004
+    type: "company"
+    name: "Beautiful Vision, Inc. (2004–2005)"
+    countries: ["US"]
+    notes: "Gesellschaft und Konten laut PSI; keine heutige Registerzuordnung."
+
+  - id: ORG-US-UNLIMITED-HORIZON-INC-2006
+    type: "company"
+    name: "Unlimited Horizon, Inc. (2006–2007)"
+    countries: ["US"]
+    notes: "Historische Konten bei UBOC und Citibank, in PSI-Bericht dokumentiert."
+
+  - id: ORG-US-SWEETWATER-MALIBU-LLC
+    type: "company"
+    name: "Sweetwater Malibu LLC"
+    countries: ["US"]
+    notes: "Vergleich 2014 und PSI-Bankbericht; eingetragene Immobilieneigentümerin nach Parteienangaben, keine Gleichsetzung mit früherer Beverly Hills Escrow."
+
+  - id: ORG-US-SIDLEY-AUSTIN-2006
+    type: "law_firm"
+    name: "Sidley Austin (2006)"
+    countries: ["US"]
+    notes: "Rücküberweisung von Treuhandmitteln nach EG, im Senatsbericht DOJ-Bestätigung fehlender Sperrgrundlage zum damaligen Zeitpunkt angeführt."
+
+  - id: ORG-FR-COUR-DE-CASSATION
+    type: "court"
+    name: "Cour de cassation (Frankreich)"
+    countries: ["FR"]
+    notes: "Kassationsentscheidung 20-81.553 vom 28.07.2021."
+
+  - id: ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE
+    type: "court"
+    name: "Internationaler Gerichtshof (IGH)"
+    countries: ["NL"]
+    notes: "Zwischenstaatliches Immunitätsverfahren 163, kein Strafgericht."
+
+  - id: DOC-US-OBIANG-CIVIL-SETTLEMENT-2014
+    type: "historical_contract_document"
+    name: "US-Zivilvergleich Obiang Mangue vom 10.10.2014"
+    countries: ["US", "GQ"]
+    notes: "2:11-cv-03582-GW-SS Doc.127-1; keine strafrechtliche Verurteilung; Verpflichtungen von tatsächlicher Erfüllung getrennt."
+
+  - id: ORG-INT-UNITED-NATIONS-2021
+    type: "international_organization"
+    name: "Vereinte Nationen (Zuwendungsvereinbarung 2021)"
+    countries: []
+    notes: "DOJ nennt UN als Empfängerin; konkrete Unterorganisation und vollständiger Mittelabfluss hier nicht belegt."
+
+  - id: ORG-US-MCDI-GLOBAL-HEALTH
+    type: "nonprofit_organization"
+    name: "Medical Care Development International / MCD Global Health"
+    countries: ["US", "GQ"]
+    notes: "DOJ-Empfängerbezeichnung 2021 und nachfolgende Implementerberichte 2024/26 zum Good Will Fund; keine vollständige Zuwendungsabrechnung."
+
+  - id: PRG-GQ-GOOD-WILL-FUND-2021-2025
+    type: "health_program"
+    name: "Good Will Fund (Äquatorialguinea, 2021–2025)"
+    countries: ["GQ", "US"]
+    notes: "Projektberichterstattung von MCD; keine unabhängige Vollprüfung der Ausgaben oder des Beitrags einzelner Geldgeber."
+
+  - id: DOC-INT-ICJ-163-2020
+    type: "historical_court_decision_document"
+    name: "IGH-Urteil 163 zum diplomatischen Status (11.12.2020)"
+    countries: ["NL", "FR", "GQ"]
+    notes: "Zwischenstaatliches Verfahren zwischen Äquatorialguinea und Frankreich; kein Strafurteil gegen den Präsidentensohn und keine Feststellung sämtlicher Vermögensherkünfte. Tenor nach amtlicher Pressemitteilung vom 11.12.2020."

@@ -5615,3 +5615,476 @@ relations:
     evidence_level: "established"
     sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
     period: {"start": "2005-03-09"}
+
+  - id: REL-RIGGS-POST-2004-001
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-GQ-SOMAGUI-FORESTAL"
+    type: "documented_corporate_control"
+    label: "PSI bezeichnet Somagui als Obiang-Gesellschaft; Urteil Rn.32 bestätigt maßgeblichen Entscheidungseinfluss im historischen Zeitraum."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-FR-CASSATION-20-81553-2021"]
+    period: {"start": "2003", "end": "2006"}
+
+  - id: REL-RIGGS-POST-2004-002
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-GQ-SOCAGE"
+    type: "documented_corporate_control"
+    label: "PSI bezeichnet Socage als Obiang-Gesellschaft; Urteil Rn.30–32 zur Nutzung von Gesellschaftsmitteln."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-FR-CASSATION-20-81553-2021"]
+    period: {"start": "2004", "end": "2007"}
+
+  - id: REL-RIGGS-POST-2004-003
+    from: "ORG-GQ-SOMAGUI-FORESTAL"
+    to: "ORG-GQ-CCEI-BANK-2003-2008"
+    type: "bank_transfer_origin"
+    label: "Vier Riggs-Zahlungsaufträge 2003–2004 über CCEI GE, zusammen 3,8 Mio. USD; Teil des gleichen 4,8-Mio.-Transferkomplexes."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2003-03-19", "end": "2004-06-24"}
+
+  - id: REL-RIGGS-POST-2004-004
+    from: "ORG-GQ-SOCAGE"
+    to: "ORG-GQ-CCEI-BANK-2003-2008"
+    type: "bank_transfer_origin"
+    label: "Ein Riggs-Zahlungsauftrag über CCEI GE, 1 Mio. USD am 09.03.2004; Teil derselben fünf Transfers."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2004-03-09"}
+
+  - id: REL-RIGGS-POST-2004-005
+    from: "ORG-GQ-CCEI-BANK-2003-2008"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "documented_correspondent_transfer"
+    label: "Fünf ausgewiesene Riggs-Überweisungen 2003–04, 4,8 Mio. USD via Citibank; kein zusätzlicher Mittelzufluss pro Zwischenstation."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2003-03-19", "end": "2004-06-24"}
+
+  - id: REL-RIGGS-POST-2004-006
+    from: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "documented_correspondent_transfer"
+    label: "Dieselben fünf Überweisungen 4,8 Mio. USD an Obiang-bezogene Riggs-Konten, Quelle Citigroup-Tabelle S.102. Fn.563 widerspricht beim Jahr einer Zeile."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2003-03-19", "end": "2004-06-24"}
+
+  - id: REL-RIGGS-POST-2004-007
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-US-RIGGS-NATIONAL-BANK"
+    type: "bank_account_relationship"
+    label: "PSI2010 dokumentiert Riggs-Konten des Präsidentensohns u.a. 2001 und 2003–04; getrennt vom Vater und staatlichem Öleinnahmenkonto."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2001", "end": "2004"}
+
+  - id: REL-RIGGS-POST-2004-008
+    from: "ORG-US-SIDLEY-AUSTIN-2006"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "documented_return_transfer"
+    label: "Rücküberweisung 19.570.635,18 USD am 24.01.2006 über Citibank, nach im PSI referierter damaliger DOJ-Bestätigung fehlender Sperrgrundlage."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-01-24"}
+
+  - id: REL-RIGGS-POST-2004-009
+    from: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    to: "ORG-US-SOCIETE-GENERALE-NY-2006"
+    type: "documented_correspondent_transfer"
+    label: "Zwischenstation derselben Rücküberweisung 19.570.635,18 USD; kein zusätzlicher Zufluss."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-01-24"}
+
+  - id: REL-RIGGS-POST-2004-010
+    from: "ORG-US-SOCIETE-GENERALE-NY-2006"
+    to: "ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006"
+    type: "documented_correspondent_transfer"
+    label: "Weiterleitung derselben Rücküberweisung nach EG laut Tabelle S.103."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-01-24"}
+
+  - id: REL-RIGGS-POST-2004-011
+    from: "ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006"
+    to: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der Rücküberweisung und Ausgangskonto der späteren 14 Überweisungen 2006 laut PSI, keine Mittelidentität allein daraus."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006"}
+
+  - id: REL-RIGGS-POST-2004-012
+    from: "ORG-US-RIGGS-NATIONAL-BANK"
+    to: "ORG-US-BEVERLY-HILLS-ESCROW-2001"
+    type: "documented_transfer"
+    label: "2001 6,2 Mio. USD aus Konto des Präsidentensohns bei Riggs an Beverly Hills Escrow bei UBOC (Bankrückschau 2004)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2001"}
+
+  - id: REL-RIGGS-POST-2004-013
+    from: "ORG-US-BEVERLY-HILLS-ESCROW-2001"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der 6,2-Mio.-USD-Überweisung, kein zweiter Mittelzufluss."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2001"}
+
+  - id: REL-RIGGS-POST-2004-014
+    from: "ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006"
+    to: "ORG-CM-BEAC-2006"
+    type: "documented_correspondent_transfer"
+    label: "14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der Textzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-04-05", "end": "2006-06-19"}
+
+  - id: REL-RIGGS-POST-2004-015
+    from: "ORG-CM-BEAC-2006"
+    to: "ORG-FR-BANQUE-DE-FRANCE-2006"
+    type: "documented_correspondent_transfer"
+    label: "Dieselben 14 Zahlungsaufträge 2006 über Banque de France, kein eigenständiges Zahlungsaggregat."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-04-05", "end": "2006-06-19"}
+
+  - id: REL-RIGGS-POST-2004-016
+    from: "ORG-FR-BANQUE-DE-FRANCE-2006"
+    to: "ORG-US-WACHOVIA-BANK-2006"
+    type: "documented_correspondent_transfer"
+    label: "Korrespondenzbankweg derselben 14 Zahlungsaufträge; keine Addition der wiederholten Streckenbeträge."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-04-05", "end": "2006-06-19"}
+
+  - id: REL-RIGGS-POST-2004-017
+    from: "ORG-US-WACHOVIA-BANK-2006"
+    to: "ORG-US-MCAFEE-TAFT-2006"
+    type: "documented_transfer"
+    label: "Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Textzeilensumme 10,3 Mio. USD."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-04-05", "end": "2006-04-10"}
+
+  - id: REL-RIGGS-POST-2004-018
+    from: "ORG-US-MCAFEE-TAFT-2006"
+    to: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der drei 2006er Treuhandzahlungen laut PSI; keine zusätzlichen Beträge."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006"}
+
+  - id: REL-RIGGS-POST-2004-019
+    from: "ORG-US-WACHOVIA-BANK-2006"
+    to: "ORG-US-FIRST-AMERICAN-TITLE-2006"
+    type: "documented_transfer"
+    label: "Fünf Zahlungen April 2006 je 5.908.400 USD, zusammen 29.542.000 USD laut Tabelle und Fn.553; Immobilienerwerb."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-04-05", "end": "2006-04-26"}
+
+  - id: REL-RIGGS-POST-2004-020
+    from: "ORG-US-FIRST-AMERICAN-TITLE-2006"
+    to: "ORG-US-FIRST-AMERICAN-TRUST-2006"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der fünf Immobilienzahlungen laut PSI-Tabelle."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006"}
+
+  - id: REL-RIGGS-POST-2004-021
+    from: "ORG-US-WACHOVIA-BANK-2006"
+    to: "ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006"
+    type: "documented_transfer"
+    label: "Sechs Zeilen Mai–Juni 2006, Summe 33.799.999,99 USD an Flugzeug-Titeldienstleister bei UBS London. Vor endgültiger Mittelabrechnung keine zusätzliche Eigentumsbehauptung."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-05-09", "end": "2006-06-19"}
+
+  - id: REL-RIGGS-POST-2004-022
+    from: "ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006"
+    to: "ORG-GB-UBS-LONDON-2006"
+    type: "bank_account_relationship"
+    label: "Empfängerkonto der sechs in PSI-Tabelle ausgewiesenen Zahlungen bei UBS London."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006"}
+
+  - id: REL-RIGGS-POST-2004-023
+    from: "ORG-GQ-CCEI-BANK-2003-2008"
+    to: "ORG-INT-FORTIS-BANK-2008"
+    type: "documented_correspondent_transfer"
+    label: "Zwei weitere Überweisungen 2008 (144.017,99 und 1.458,51 USD) über Fortis an Wachovia, getrennt vom 2006er Komplex."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2008-02-06", "end": "2008-07-30"}
+
+  - id: REL-RIGGS-POST-2004-024
+    from: "ORG-INT-FORTIS-BANK-2008"
+    to: "ORG-US-WACHOVIA-BANK-2006"
+    type: "documented_correspondent_transfer"
+    label: "Dieselben zwei 2008er Überweisungen, Summe 145.476,50 USD; nicht additiv zur vorigen Kante."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2008-02-06", "end": "2008-07-30"}
+
+  - id: REL-RIGGS-POST-2004-025
+    from: "ORG-US-BERGER-LAW-OFFICE-2004-2007"
+    to: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    type: "bank_account_relationship"
+    label: "Historische anwaltliche Treuhandkonten und Zahlungsabwicklung für Obiang, dokumentiert 2004–07; kein Strafurteil gegen Anwalt."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-2010"]
+    period: {"start": "2004", "end": "2007"}
+
+  - id: REL-RIGGS-POST-2004-026
+    from: "ORG-US-BEAUTIFUL-VISION-INC-2004"
+    to: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    type: "bank_account_relationship"
+    label: "Beautiful-Vision-Konten ab 19.10.2004; ausgewiesene größere Einzahlungen zusammen 9.729.321,28 USD, darunter interne Umbuchungen und Immobilienerlöse; Schließungen 2005."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-2010"]
+    period: {"start": "2004-10-19", "end": "2005"}
+
+  - id: REL-RIGGS-POST-2004-027
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-US-BEAUTIFUL-VISION-INC-2004"
+    type: "documented_beneficial_control"
+    label: "Sole signatory eines Beautiful-Vision-Kontos laut PSI; Bank schloss Konten wegen seiner Verbindung. Vollständige Registerakte offen."
+    evidence_level: "strong"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-2010"]
+    period: {"start": "2004", "end": "2005"}
+
+  - id: REL-RIGGS-POST-2004-028
+    from: "ORG-US-BERGER-LAW-OFFICE-2004-2007"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "bank_account_relationship"
+    label: "Treuhandkonto mit acht EG-Überweisungen ab 24.11.2006 bis 06.06.2007, >1,7 Mio. USD aus Somagui/Obiang laut PSI; kein weiteres Summieren mit Ausgängen."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-11-24", "end": "2007-06-12"}
+
+  - id: REL-RIGGS-POST-2004-029
+    from: "ORG-US-UNLIMITED-HORIZON-INC-2006"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "bank_account_relationship"
+    label: "Unlimited-Horizon-Konten ab 2006, Weiterleitungen vom Kanzleikonto; PSI rekonstruiert Schließung 12.06.2007."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006", "end": "2007-06-12"}
+
+  - id: REL-RIGGS-POST-2004-030
+    from: "ORG-US-UNLIMITED-HORIZON-INC-2006"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "bank_account_relationship"
+    label: "Spätere Unlimited-Horizon-Konten; 26.07.2007 dokumentierte Weiterzahlung 199.948,82 USD aus Berger-Konto bei BofA nach Socage-Eingang."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2007-07-26"}
+
+  - id: REL-RIGGS-POST-2004-031
+    from: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "documented_transfer"
+    label: "23.10.2006 Weiterleitung 199.931,17 USD aus Berger-Treuhandkonto an Unlimited Horizon bei UBOC; Eingangs-/Gebühren- und E-Mail-Angaben abweichend."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2006-10-23"}
+
+  - id: REL-RIGGS-POST-2004-032
+    from: "ORG-US-BOFA-ACCOUNT-GROUP-1993-2004"
+    to: "ORG-US-FIRST-NATIONAL-CITY-BANK-1971"
+    type: "documented_transfer"
+    label: "26.07.2007 Weiterleitung des Socage-Eingangs 199.948,82 USD an Unlimited Horizon/Citibank; dieselbe Zahlung wie Kontenbeleg, nicht additiv."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    period: {"start": "2007-07-26"}
+
+  - id: REL-RIGGS-POST-2004-033
+    from: "ORG-US-UNIONBANCAL-2007"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "corporate_ownership"
+    label: "UBOC als vollständig im Eigentum von UnionBanCal laut FinCEN 2007-02 §II."
+    evidence_level: "established"
+    sources: ["SRC-US-FINCEN-UBOC-2007-02"]
+    period: {"start": "2007"}
+
+  - id: REL-RIGGS-POST-2004-034
+    from: "ORG-JP-MUFG-2007"
+    to: "ORG-US-UNIONBANCAL-2007"
+    type: "corporate_ownership"
+    label: "UnionBanCal mehrheitlich im Eigentum von MUFG laut FinCEN §II; keine Kenntniszurechnung."
+    evidence_level: "established"
+    sources: ["SRC-US-FINCEN-UBOC-2007-02"]
+    period: {"start": "2007"}
+
+  - id: REL-RIGGS-POST-2004-035
+    from: "ORG-US-DOJ"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "deferred_prosecution_agreement"
+    label: "DPA 17.09.2007, 21,6 Mio. USD vereinbarter Verfall, mexikanischer Wechselhauskomplex; kein Obiang-Strafurteil."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-UBOC-DPA-2007"]
+    period: {"start": "2007-09-17"}
+
+  - id: REL-RIGGS-POST-2004-036
+    from: "ORG-US-OCC"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "regulatory_sanction"
+    label: "Parallele OCC-/FinCEN-Bußen durch eine 10-Mio.-USD-Zahlung an OCC zu erfüllen; nicht doppelt zählen."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-UBOC-DPA-2007", "SRC-US-FINCEN-UBOC-2007-02"]
+    period: {"start": "2007-09-17"}
+
+  - id: REL-RIGGS-POST-2004-037
+    from: "ORG-US-FINCEN"
+    to: "ORG-US-UNION-BANK-OF-CALIFORNIA-2007"
+    type: "regulatory_sanction"
+    label: "Koordinierte 10-Mio.-USD-Buße, dieselbe Zahlung an OCC, nicht zusätzliche 10 Mio.; Consent ohne Anerkennung außer Zuständigkeit."
+    evidence_level: "established"
+    sources: ["SRC-US-FINCEN-UBOC-2007-02", "SRC-US-DOJ-UBOC-DPA-2007"]
+    period: {"start": "2007-09-17"}
+
+  - id: REL-RIGGS-POST-2004-038
+    from: "ORG-US-DOJ"
+    to: "ORG-US-WACHOVIA-BANK-2006"
+    type: "deferred_prosecution_agreement"
+    label: "DPA gerichtlich angenommen 17.03.2010; 110 Mio. USD Verfall und 50 Mio. zusätzliche OCC-Buße. Wechselhäuser/Zahlungsdienstleister, nicht Obiang zugerechnet."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-WACHOVIA-DPA-2010"]
+    period: {"start": "2010-03-17"}
+
+  - id: REL-RIGGS-POST-2004-039
+    from: "ORG-US-FINCEN"
+    to: "ORG-US-WACHOVIA-BANK-2006"
+    type: "regulatory_sanction"
+    label: "110 Mio. USD FinCEN-Buße durch denselben Verfall erfüllt, nicht zusätzlich zu 160 Mio. Gesamtvereinbarung."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-WACHOVIA-DPA-2010"]
+    period: {"start": "2010-03-17"}
+
+  - id: REL-RIGGS-POST-2004-040
+    from: "ORG-US-OCC"
+    to: "ORG-US-WACHOVIA-BANK-2006"
+    type: "regulatory_sanction"
+    label: "Zusätzliche 50 Mio. USD im DPA-/OCC-Komplex 2010."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-WACHOVIA-DPA-2010"]
+    period: {"start": "2010-03-17"}
+
+  - id: REL-RIGGS-POST-2004-041
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-GQ-EDUM"
+    type: "historical_judicial_finding"
+    label: "Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Urteil 2021 Rn.30–32: Nutzung und Entscheidungseinfluss über Gesellschaftsmittel; alternative Vertrauensmissbrauchsqualifikation 350.037 EUR."
+    evidence_level: "established"
+    sources: ["SRC-FR-CASSATION-20-81553-2021"]
+
+  - id: REL-RIGGS-POST-2004-042
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "ORG-INT-FOCH-SERVICES-HISTORICAL"
+    type: "historical_judicial_finding"
+    label: "Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Urteil Rn.30–31: tatsächliche Leitung der Abschirmgesellschaft durch Angeklagten; keine aus Quelle bewiesene Gründungs-/Registergeschichte."
+    evidence_level: "established"
+    sources: ["SRC-FR-CASSATION-20-81553-2021"]
+
+  - id: REL-RIGGS-POST-2004-043
+    from: "ORG-GQ-SOMAGUI-FORESTAL"
+    to: "ORG-INT-FOCH-SERVICES-HISTORICAL"
+    type: "historical_judicial_finding"
+    label: "Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Rn.31: Foch services laut Berufungsfeststellung Abschirmgesellschaft und Somagui einzige Finanzierungsquelle; keine konkrete US-Transferidentität."
+    evidence_level: "established"
+    sources: ["SRC-FR-CASSATION-20-81553-2021"]
+
+  - id: REL-RIGGS-POST-2004-044
+    from: "ORG-FR-COUR-DE-CASSATION"
+    to: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    type: "judicial_decision"
+    label: "Kassationsbeschwerde am 28.07.2021 zurückgewiesen; Geldwäscheverurteilung und Einziehung bestätigt; Teilfreispruch für Geldwäsche aus Korruption ausdrücklich erhalten."
+    evidence_level: "established"
+    sources: ["SRC-FR-CASSATION-20-81553-2021", "SRC-INT-ICJ-163-PRESS-2020"]
+    period: {"start": "2021-07-28"}
+
+  - id: REL-RIGGS-POST-2004-045
+    from: "ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE"
+    to: "DOC-INT-ICJ-163-2020"
+    type: "judicial_diplomatic_status_decision"
+    label: "Urteil vom 11.12.2020: umstrittenes Pariser Gebäude erwarb keinen Status diplomatischer Missionsräume; keine Verletzung der Wiener Konvention festgestellt."
+    evidence_level: "established"
+    sources: ["SRC-INT-ICJ-163-PRESS-2020"]
+    period: {"start": "2020-12-11"}
+
+  - id: REL-RIGGS-POST-2004-046
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "DOC-US-OBIANG-CIVIL-SETTLEMENT-2014"
+    type: "civil_settlement_party"
+    label: "Zivilvergleich 10.10.2014 über Verwertung bestimmter Vermögenswerte und Beitrag 1 Mio. USD; Verpflichtung nicht mit Erfüllung gleichsetzen."
+    evidence_level: "established"
+    sources: ["SRC-US-OBIANG-SETTLEMENT-2014"]
+    period: {"start": "2014-10-10"}
+
+  - id: REL-RIGGS-POST-2004-047
+    from: "ORG-US-SWEETWATER-MALIBU-LLC"
+    to: "DOC-US-OBIANG-CIVIL-SETTLEMENT-2014"
+    type: "civil_settlement_party"
+    label: "Vergleichspartei und von Parteien bezeichnete eingetragene Immobilieneigentümerin, §§2–6; keine Identität mit älterem Immobilienvorgang."
+    evidence_level: "established"
+    sources: ["SRC-US-OBIANG-SETTLEMENT-2014"]
+    period: {"start": "2014-10-10"}
+
+  - id: REL-RIGGS-POST-2004-048
+    from: "ORG-US-DOJ"
+    to: "DOC-US-OBIANG-CIVIL-SETTLEMENT-2014"
+    type: "civil_settlement"
+    label: "US-Seite: §27 Verfall 10,3 Mio. USD nach Verwertungskosten, Rest zugunsten Bevölkerung, §28 weiterer Beitrag und Verwertung; §30 Rechnungslegung."
+    evidence_level: "established"
+    sources: ["SRC-US-OBIANG-SETTLEMENT-2014", "SRC-US-DOJ-OBIANG-DISTRIBUTION-2021"]
+    period: {"start": "2014-10-10"}
+
+  - id: REL-RIGGS-POST-2004-049
+    from: "ORG-US-DOJ"
+    to: "ORG-INT-UNITED-NATIONS-2021"
+    type: "documented_funding_agreement"
+    label: "Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG; tatsächliche vollständige Auszahlung offen."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-OBIANG-DISTRIBUTION-2021"]
+    period: {"start": "2021-09-20"}
+
+  - id: REL-RIGGS-POST-2004-050
+    from: "ORG-US-DOJ"
+    to: "ORG-US-MCDI-GLOBAL-HEALTH"
+    type: "documented_funding_agreement"
+    label: "Ankündigung 20.09.2021: Vereinbarung über 6,35 Mio. USD für Medikamente und medizinischen Bedarf; spätere Berichte, kein vollständiger Zahlungs-/Ausgabennachweis."
+    evidence_level: "established"
+    sources: ["SRC-US-DOJ-OBIANG-DISTRIBUTION-2021", "SRC-US-MCD-GWF-2024", "SRC-US-MCD-GWF-CLOSEOUT-2026"]
+    period: {"start": "2021-09-20"}
+
+  - id: REL-RIGGS-POST-2004-051
+    from: "ORG-US-MCDI-GLOBAL-HEALTH"
+    to: "PRG-GQ-GOOD-WILL-FUND-2021-2025"
+    type: "reported_program_implementation"
+    label: "MCD berichtet Good Will Fund 2021–2025, medizinische Lieferungen und Aufbau der Logistik in 19 Distrikten; Eigenauskunft."
+    evidence_level: "strong"
+    sources: ["SRC-US-MCD-GWF-2024", "SRC-US-MCD-GWF-CLOSEOUT-2026"]
+    period: {"start": "2021", "end": "2025"}
+
+  - id: REL-RIGGS-POST-2004-052
+    from: "DOC-INT-ICJ-163-2020"
+    to: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    type: "related_legal_proceedings"
+    label: "Der zwischenstaatliche Immunitätsstreit betraf die Immobilie im Zusammenhang mit französischen Ermittlungen gegen den Präsidentensohn; keine Strafverurteilung durch den IGH."
+    evidence_level: "established"
+    sources: ["SRC-INT-ICJ-163-PRESS-2020", "SRC-FR-CASSATION-20-81553-2021"]
+    period: {"start": "2020-12-11"}
+
+  - id: REL-RIGGS-POST-2004-053
+    from: "PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE"
+    to: "PER-GQ-TEODORO-OBIANG"
+    type: "family_relationship"
+    label: "Sohn des Präsidenten Teodoro Obiang Nguema Mbasogo; Verwandtschaft belegt, keine Zurechnung der jeweiligen Geldströme oder Delikte."
+    evidence_level: "established"
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-FR-CASSATION-20-81553-2021"]
