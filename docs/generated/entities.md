@@ -158,7 +158,7 @@
 | Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Anti-Allende-Wahlkampf Chile 1970 | historical_electoral_campaign | `PRG-CL-ANTI-ALLENDE-1970` | CL | [1](network.md#rel-us-itt-allende-opposition-1970) |
-| Apexside Trading Ltd. | company | `ORG-CY-APEXSIDE-TRADING-LTD` | CY | [3](network.md#rel-riggs-followup-041) |
+| Apexside Trading Ltd. | company | `ORG-INT-APEXSIDE-TRADING-LTD` |  | [3](network.md#rel-riggs-followup-041) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
 | ARD | public_broadcaster | `ORG-DE-ARD` | DE | [1](network.md#rel-de-tmn-006) |
@@ -306,10 +306,10 @@
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
-| Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` |  | [1](network.md#rel-riggs-followup-044) |
+| Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` | VG | [1](network.md#rel-riggs-followup-044) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
-| Kalunga Company S.A. | company | `ORG-PA-KALUNGA-COMPANY-SA` | PA | [2](network.md#rel-riggs-followup-039) |
+| Kalunga Company S.A. | company | `ORG-GQ-KALUNGA-COMPANY-SA` | GQ | [2](network.md#rel-riggs-followup-039) |
 | Kennecott Copper Corporation / Braden Copper (Chile-Fall) | historical_multinational_mining_corporation | `ORG-US-KENNECOTT-COPPER-CORP-1971` | US, CL | [2](network.md#rel-us-opic-kennecott-credit-cover-1971-1972) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |

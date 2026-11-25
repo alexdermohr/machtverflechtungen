@@ -4772,7 +4772,7 @@ relations:
 
   - id: REL-RIGGS-FOLLOWUP-039
     from: "ORG-US-RIGGS-NATIONAL-BANK"
-    to: "ORG-PA-KALUNGA-COMPANY-SA"
+    to: "ORG-GQ-KALUNGA-COMPANY-SA"
     type: "documented_transfer"
     label: "16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."
     evidence_level: "established"
@@ -4780,7 +4780,7 @@ relations:
     period: {"start": "2000", "end": "2003"}
 
   - id: REL-RIGGS-FOLLOWUP-040
-    from: "ORG-PA-KALUNGA-COMPANY-SA"
+    from: "ORG-GQ-KALUNGA-COMPANY-SA"
     to: "ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004"
     type: "bank_account_relationship"
     label: "Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."
@@ -4790,7 +4790,7 @@ relations:
 
   - id: REL-RIGGS-FOLLOWUP-041
     from: "ORG-US-RIGGS-NATIONAL-BANK"
-    to: "ORG-CY-APEXSIDE-TRADING-LTD"
+    to: "ORG-INT-APEXSIDE-TRADING-LTD"
     type: "documented_transfer"
     label: "10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."
     evidence_level: "established"
@@ -4798,7 +4798,7 @@ relations:
     period: {"start": "2000", "end": "2001"}
 
   - id: REL-RIGGS-FOLLOWUP-042
-    from: "ORG-CY-APEXSIDE-TRADING-LTD"
+    from: "ORG-INT-APEXSIDE-TRADING-LTD"
     to: "ORG-LU-CREDIT-COMMERCIAL-DE-FRANCE-2000"
     type: "bank_account_relationship"
     label: "Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."
@@ -4807,7 +4807,7 @@ relations:
     period: {"start": "2000", "end": "2001"}
 
   - id: REL-RIGGS-FOLLOWUP-043
-    from: "ORG-CY-APEXSIDE-TRADING-LTD"
+    from: "ORG-INT-APEXSIDE-TRADING-LTD"
     to: "ORG-LU-HSBC-LUXEMBOURG-2001"
     type: "bank_account_relationship"
     label: "Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."

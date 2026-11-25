@@ -4662,7 +4662,7 @@ U.S. Senate Permanent Subcommittee on Investigations · 2004-07-15 · Stufe **A*
 
 [PDF öffnen](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf)
 
-Fundstelle: Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 168–170, 192–193, 200–206. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen.
+Fundstelle: Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 167–169, 192–193, 200–206; Fn. 195 Jadini-Gründungsurkunde. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen.
 
 </article>
 

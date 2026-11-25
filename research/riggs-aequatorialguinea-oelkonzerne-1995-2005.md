@@ -6,7 +6,7 @@ Der Riggs-Komplex verbindet zwei zuvor getrennte Forschungsfelder: die historisc
 
 ## 1. Staatliche Einnahmen und Empfängerkonten
 
-Der Bericht (interne S. 2, 28, 40–42/Druck-S. 130, 156, 168–170) dokumentiert seit 1995 ein Kontengeschäft von Riggs mit Äquatorialguinea. Mehr als 60 Konten und CDs umfassten Regierung, Amtsträger und Angehörige. Die zeitweiligen Einlagen von 400–700 Mio. USD 2003 sind keine persönliche Vermögens- oder Deliktsumme.
+Der Bericht (interne S. 2, 28, 40–42/Druck-S. 130, 156, 167–169) dokumentiert seit 1995 ein Kontengeschäft von Riggs mit Äquatorialguinea. Mehr als 60 Konten und CDs umfassten Regierung, Amtsträger und Angehörige. Die zeitweiligen Einlagen von 400–700 Mio. USD 2003 sind keine persönliche Vermögens- oder Deliktsumme.
 
 | Empfängerkomplex | Betrag und Zeitraum | Fundstelle / Grenze |
 |---|---|---|
@@ -16,6 +16,8 @@ Der Bericht (interne S. 2, 28, 40–42/Druck-S. 130, 156, 168–170) dokumentier
 | Melchor Esono Edjo | 499.000 USD, 1998–2002 | Persönliche Konten des damaligen Staatssekretärs laut Bericht |
 
 Die ersten beiden Tabellensummen ergeben zusammen **34.589.474,51 USD**. Der Bericht verwendet in der Prosa teils eine abweichende gerundete Größenangabe (über bzw. knapp 35 Mio. USD). Diese Differenz wird nicht durch erfundene Einzelzahlungen aufgefüllt. Bei Apexside unterscheiden sich außerdem der in der Prosa genannte Endmonat und die Tabellenliste. Daher wird nur das belegte Jahresintervall modelliert. Die aus amtlichen Textansichten gewonnenen Beträge sind bei erneutem Zugriff auf das Faksimile nochmals zeilenweise zu prüfen.
+
+Zur Rechtsträgerzuordnung: Der Senatsmitarbeiterbericht bezeichnet Kalunga auf interner S. 40 (Druck-S. 167) als äquatorialguineische Gesellschaft. Eine eigenständige Gründungsakte liegt noch nicht vor. Die Zypern-Verbindung in der HSBC-Antwort betrifft eine andere Gesellschaft, nicht Apexside (interne S. 42/Druck-S. 169); Apexside bleibt ohne gesicherte Registerjurisdiktion erfasst. Bei Jadini verweist Fn. 195 auf die BVI-Gründungsurkunde vom 09.05.2001. Empfängerbankstandort, Registerjurisdiktion und wirtschaftliche Berechtigung sind auseinanderzuhalten.
 
 Riggs richtete am 10.02.2004 Anfragen nach § 314(b) des Patriot Act an Santander und HSBC USA. Die Institute verwiesen bei Empfängerinformationen auf ihre Auslegung ausländischer Bankgeheimnisbestimmungen. Die behauptete rechtliche Rechtfertigung ist nicht selbst als rechtlich zutreffend festgestellt. Aus der fehlenden Endbegünstigteninformation folgt keine eindeutige Zuordnung der Gesellschaften zum Präsidenten. Die Überweisungsaggregate werden nicht erneut als separate gleichhohe Bankzahlungen gezählt.
 

@@ -956,15 +956,15 @@ flowchart LR
     N_ORG_US_FULBRIGHT_JAWORSKI_2004 -->|"Rechtsdienstleistungen für Riggs laut Senatsbericht 2004, keine strafrechtliche Mitwirkung allein daraus."| N_ORG_US_RIGGS_NATIONAL_BANK
     N_ORG_GQ_GOVERNMENT_1995_2004["Regierung Äquatorialguineas (1995–2004)"]
     N_ORG_GQ_GOVERNMENT_1995_2004 -->|"Seit 1995 staatliche und amtsträgerbezogene Konten; mehr als 60 Konten/CDs einschließlich Angehöriger, zeitweise 400–700 Mio. USD Einlagen 2003 im Gesamtkomplex."| N_ORG_US_RIGGS_NATIONAL_BANK
-    N_ORG_PA_KALUNGA_COMPANY_SA["Kalunga Company S.A."]
-    N_ORG_US_RIGGS_NATIONAL_BANK -->|"16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."| N_ORG_PA_KALUNGA_COMPANY_SA
-    N_ORG_PA_KALUNGA_COMPANY_SA -->|"Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."| N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004
-    N_ORG_CY_APEXSIDE_TRADING_LTD["Apexside Trading Ltd."]
-    N_ORG_US_RIGGS_NATIONAL_BANK -->|"10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."| N_ORG_CY_APEXSIDE_TRADING_LTD
+    N_ORG_GQ_KALUNGA_COMPANY_SA["Kalunga Company S.A."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"16 Überweisungen aus staatlichem Öleinnahmenkonto, 26.483.982,57 USD (06/2000–12/2003), laut Senatstabelle."| N_ORG_GQ_KALUNGA_COMPANY_SA
+    N_ORG_GQ_KALUNGA_COMPANY_SA -->|"Empfängerkonto der 16 Öleinnahmentransfers bei Santander Madrid; Endbegünstigung ungeklärt."| N_ORG_ES_BANCO_SANTANDER_CENTRAL_HISPANO_2004
+    N_ORG_INT_APEXSIDE_TRADING_LTD["Apexside Trading Ltd."]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"10 Überweisungen aus Öleinnahmenkonto, 8.105.491,94 USD (2000–2001); neun CCF Luxemburg, eine HSBC Luxemburg."| N_ORG_INT_APEXSIDE_TRADING_LTD
     N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000["Crédit Commercial de France (Luxemburg, 2000–2001)"]
-    N_ORG_CY_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für neun der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_CREDIT_COMMERCIAL_DE_FRANCE_2000
     N_ORG_LU_HSBC_LUXEMBOURG_2001["HSBC (Luxemburg, 2001)"]
-    N_ORG_CY_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_HSBC_LUXEMBOURG_2001
+    N_ORG_INT_APEXSIDE_TRADING_LTD -->|"Empfängerkonto für eine der zehn Apexside-Überweisungen; Einzelbetrag nicht gesichert."| N_ORG_LU_HSBC_LUXEMBOURG_2001
     N_ORG_INT_JADINI_HOLDINGS["Jadini Holdings Ltd."]
     N_ORG_US_RIGGS_NATIONAL_BANK -->|"Drei Überweisungen 2001–2002 über insgesamt 1.096.677,78 USD; Kontrolle durch Ehefrau des Riggs-Kundenbetreuers laut Bericht."| N_ORG_INT_JADINI_HOLDINGS
     N_PER_GQ_MELCHOR_ESONO_EDJO["Melchor Esono Edjo"]

@@ -2332,17 +2332,17 @@ entities:
     countries: ["GQ"]
     notes: "Präsidentengattin im Untersuchungszeitraum; Mietbeziehungen nach Senatsbericht 2004."
 
-  - id: ORG-PA-KALUNGA-COMPANY-SA
+  - id: ORG-GQ-KALUNGA-COMPANY-SA
     type: "company"
     name: "Kalunga Company S.A."
-    countries: ["PA"]
-    notes: "Gesellschaft laut Senatsbericht; Empfängerkonto Madrid. Wirtschaftlich Berechtigte nicht abschließend geklärt."
+    countries: ["GQ"]
+    notes: "Im Senatsmitarbeiterbericht 2004, interne S. 40/Druck-S. 167, als Gesellschaft aus Äquatorialguinea bezeichnet. Empfängerkonto Madrid. Eigenständige Registerakte und wirtschaftlich Berechtigte nicht abschließend geklärt."
 
-  - id: ORG-CY-APEXSIDE-TRADING-LTD
+  - id: ORG-INT-APEXSIDE-TRADING-LTD
     type: "company"
     name: "Apexside Trading Ltd."
-    countries: ["CY"]
-    notes: "Gesellschaft laut Senatsbericht; Luxemburg-Konten. Wirtschaftlich Berechtigte nicht abschließend geklärt."
+    countries: []
+    notes: "Senatsbericht 2004, interne S. 40–42/Druck-S. 167–169: Empfängerkonten Luxemburg; die erwähnte Überweisung nach Zypern betrifft eine andere Gesellschaft. Registerjurisdiktion und wirtschaftlich Berechtigte ungeklärt."
 
   - id: ORG-LU-CREDIT-COMMERCIAL-DE-FRANCE-2000
     type: "commercial_bank"
@@ -2359,8 +2359,8 @@ entities:
   - id: ORG-INT-JADINI-HOLDINGS
     type: "company"
     name: "Jadini Holdings Ltd."
-    countries: []
-    notes: "Senatsbericht: durch Ehefrau des Riggs-Kundenbetreuers kontrollierte Gesellschaft. Keine eigenständige strafrechtliche Schuldzuweisung."
+    countries: ["VG"]
+    notes: "Senatsbericht 2004, interne S. 41/Fn. 195: Gründungsurkunde British Virgin Islands vom 09.05.2001 angeführt. Kontrolle durch Ehefrau des Riggs-Kundenbetreuers laut Bericht; keine eigenständige strafrechtliche Schuldzuweisung."
 
   - id: PER-GQ-MELCHOR-ESONO-EDJO
     type: "person"

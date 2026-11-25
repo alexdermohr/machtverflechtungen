@@ -809,7 +809,7 @@ studies:
       - REL-RIGGS-FOLLOWUP-061
 
   riggs-aequatorialguinea-oelkonzerne-1995-2005.md:
-    sha256: 82723a63023958766f2e9ae30fcecae747f406e77fb1ddd6a1239d75da405919
+    sha256: c23f56659766fdd100af3d480c53fa7c8c622536f93ab8104987b1b61aad03f4
     status: network
     relation_ids:
       - REL-RIGGS-FOLLOWUP-038
