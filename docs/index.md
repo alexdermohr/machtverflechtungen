@@ -34,6 +34,7 @@ hide:
 - **INSM und ARD-Marienhof:** Der DRPR dokumentierte bezahlte, mit der INSM abgestimmte Themenplatzierungen; 2006 erfolgte eine öffentliche Rüge wegen Schleichwerbung. [Studie](research/insm-marienhof-bavaria-placements-rechnungen-justiz-2002-2006.md) · [Medien und Nachrichtendienste](faelle/de/medien-nachrichtendienst-crosslayer.md)
 
 - **CIA, Prolog und Suchasnist:** Interne CIA-Finanzierungs- und Kontrollakten lassen sich mit unabhängigen zeitgenössischen Druckoriginalen verbinden. [Fallübersicht](falluebersichten/cia-prolog-medienfinanzierung.md)
+- **Bundespresseamt, ADK und Medienfinanzierung:** Verdeckte CIA-Förderung der GfW, öffentliche Publikationsmittel, private Träger und die 1977 gerichtlich festgestellte staatliche Wahlkampfhilfe. [Fallübersicht](falluebersichten/bpa-adk-medienfinanzierung.md)
 
 ### Justiz und institutionelle Kontrolle
 
