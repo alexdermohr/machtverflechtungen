@@ -113,6 +113,7 @@ class ResearchPagesTests(unittest.TestCase):
             "bcci-cia-treasury-first-american-1972-1998.md": "geheimbuende-banken",
             "angolagate-sonangol-zts-osos-brenco-bank-justiz-1993-2015.md": "krieg-und-finanzierung",
             "jeffrey-sachs-cia-chile-itt-el-mercurio-guatemala-1952-1975.md": "krieg-und-finanzierung",
+            "jeffrey-sachs-banken-el-mercurio-cia-chile-1970-1974.md": "krieg-und-finanzierung",
             "udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md": "medieneinfluss",
             "ulfkotte-glenn-miller-geheimakten-belegpruefung-1944-1997.md": "quellenkritik",
             "dutroux-parlament-nihoul-netzwerke-1986-2026.md": "missbrauch-justiz",
