@@ -34,17 +34,26 @@ STUDY_GROUPS = (
       "raf-", "npd-", "nsu-", "bfv-", "corelli-", "piatto-",
       "brandenburg-", "berlin-lka-", "britische-neonazinetzwerke-",
       "ewk-kkk-", "aginter-")),
+    ("Geheimbünde, Banken & Medienkontrolle", "geheimbuende-banken",
+     ("p2-", "bologna-", "bcci-")),
+    ("Krieg, Rüstung & internationale Finanzierung", "krieg-und-finanzierung",
+     ("angola-", "angolagate-", "unita-", "ig-farben-", "hermann-schmitz-", "biz-", "schroeder-",
+      "jeffrey-sachs-chile-", "jeffrey-sachs-itt-", "jeffrey-sachs-opic-", "jeffrey-sachs-banken-",
+      "jeffrey-sachs-militaer-", "jeffrey-sachs-united-fruit-",
+      "jeffrey-sachs-guatemala-", "jeffrey-sachs-cia-")),
     ("Wirtschaft, Finanzen & öffentliche Mittel", "finanzen",
-     ("bcci-", "p2-", "bologna-", "bpa-", "adk-", "erp-", "insm-", "warburg-",
-      "biz-", "schroeder-",
-      "verkehrsaufklaerung-")),
+     ("bpa-", "adk-", "erp-", "insm-", "warburg-", "verkehrsaufklaerung-")),
+    ("Medien, Geheimdienstkontakte & politische Einflussnahme", "medieneinfluss",
+     ("udo-ulfkotte-", "ulfkotte-studiengesellschaft-", "thyssenkrupp-")),
+    ("Missbrauch, Justiz & Ermittlungsversagen", "missbrauch-justiz",
+     ("dutroux-", "ballets-roses-", "manuel-schadwald-")),
     ("Transatlantische & internationale Netzwerke", "internationale-netzwerke",
      ("acg-", "atlantik-bruecke-", "bilderberg-", "wef-", "msc-",
       "aspen-", "ecfr-", "dgap-", "lobbykontakte-",
-      "anne-zetsche-")),
+      "anne-zetsche-", "jeffrey-sachs-nato-", "jeffrey-sachs-systemkritische-")),
     ("Quellenkritik & historische Einordnung", "quellenkritik",
      ("rockefeller-", "monica-crowley-", "epstein-", "cromwell-",
-      "okkultismus-", "wilhelm-classen-")),
+      "okkultismus-", "wilhelm-classen-", "ulfkotte-glenn-")),
 )
 OTHER_STUDIES = ("Weitere Studien", "weitere-studien")
 
@@ -184,11 +193,9 @@ def on_files(files: Files, config, **kwargs) -> Files:
             original_url = f"{GITHUB_ROOT}blob/{source.revision}/research/{escaped_name}"
             decision = decisions.get(source.name, {})
             if decision.get("status") == "network":
-                relationships = ", ".join(
-                    f"[{relation_id}](../generated/network.md#{relation_id.lower()})"
-                    for relation_id in decision["relation_ids"]
-                )
-                state = f" · **Netzwerk:** {relationships}"
+                count = len(decision["relation_ids"])
+                label = "1 Beziehung" if count == 1 else f"{count} Beziehungen"
+                state = f" · [{label}]({escaped_name}#netzwerkzuordnung)"
             elif decision.get("status") == "no_network_relation":
                 state = " · **Netzwerk:** geprüft, keine neue darstellbare Relation"
             else:
@@ -239,6 +246,7 @@ def on_page_markdown(markdown: str, page, **kwargs) -> str | None:
     return (
         rendered
         + "\n\n---\n\n"
+        + '<a id="netzwerkzuordnung"></a>\n\n'
         + coverage.replace("\\n", "\n")
         + "[Zur Studienübersicht](index.md) · [Fallakten](../faelle/index.md)"
         + " · [Methodik](../methodik.md)\n\n"

@@ -1829,9 +1829,9 @@ entities:
     notes: "Koordinationsverfahren staatlicher Gläubiger zu Chile, kein weltweit zentral handelnder Bankenkonzern. UNTS 967 dokumentiert 1972 und 1974 Vereinbarungen; State-Telegramme dokumentieren 1975 getrennte Vorberatung der Gläubiger."
   - id: ORG-CL-ALLENDE-GOVERNMENT-1972
     type: historical_national_government
-    name: "Regierung Salvador Allende (Chile, April 1972)"
+    name: "Regierung Salvador Allende (Chile, 1970–1973)"
     countries: [CL]
-    notes: "Chilenische Regierung unter Salvador Allende bei multilateraler Schuldenvereinbarung April 1972. Unterscheiden von Militärregierung ab September 1973."
+    notes: "Chilenische Regierung unter Salvador Allende; multilaterale Schuldenvereinbarung April 1972 und Rücknahme der Genehmigungsvorlage zum US-Investitionsgarantie-Zusatzabkommen 07./13.07.1971. Unterscheiden von Militärregierung ab September 1973."
   - id: ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975
     type: historical_government_creditor_delegation
     name: "Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975)"
@@ -1839,9 +1839,9 @@ entities:
     notes: "Regierungsdelegation bzw. bundesdeutsche Gläubigerstellen in den Pariser-Club-Verhandlungen 1972/1974 und diplomatischen Berichten 1975. Nicht mit der speziellen, auf 1975 bezogenen ACG-Fonds-Beziehung der Bundesrepublik gleichsetzen."
   - id: ORG-US-BANK-OF-AMERICA-1974
     type: historical_commercial_bank
-    name: "Bank of America (Chile-Industriekredite 1974)"
+    name: "Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978)"
     countries: [US]
-    notes: "Die US–Chile-Umschuldungsakte 17.06.1974 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A. und Industrias de Celulosa Arauco S.A.; Kredithöhen und Aktienrechte aus diesem Ausschnitt nicht einzeln ableitbar."
+    notes: "Die US–Chile-Umschuldungsakte 17.06.1974 nennt Bank-of-America-Darlehensverträge mit Petroquímica Dow S.A. und Industrias de Celulosa Arauco S.A.; Kredithöhen und Aktienrechte aus diesem Ausschnitt nicht einzeln ableitbar. FRUS 1970–1972 nennt das Institut bei Druckvorschlägen und als Mitvorsitzende des US-Gläubigerbankentreffens; DFC-Register nennt mehrere getrennte Schadenfälle. Keine Identität einzelner Verträge oder politische Weisungsausführung abgeleitet."
   - id: ORG-CL-PETROQUIMICA-DOW-1974
     type: historical_industrial_borrower
     name: "Petroquímica Dow S.A. (Chile, 1974)"
@@ -1862,3 +1862,322 @@ entities:
     name: "US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975)"
     countries: [US, CL]
     notes: "Sammelbezeichnung ohne namentliche Bankzuordnung: 04.04.1975 gab Chiles Minister Raúl Sáez der US-Botschaft an, US-Banken wollten bis zu einem Pariser-Club-Abkommen keine neuen Kurzfristkredite bereitstellen. Nicht mit Bank of America als konkreter Teilnehmerin dieser Aussage gleichsetzen."
+
+  - id: PER-INT-BERGE-BALANIAN
+    type: "person"
+    name: "Berge Aris Balanian"
+    countries: ["DE", "LB"]
+
+  - id: PER-DE-HANS-JOACHIM-ROSE
+    type: "person"
+    name: "Hans-Joachim Rose"
+    countries: ["DE"]
+
+  - id: ORG-DE-ROSE-IMPORT-EXPORT
+    type: "company"
+    name: "Rose Import-Export GmbH"
+    countries: ["DE"]
+
+  - id: ORG-US-STATE-DEPARTMENT
+    type: "government_agency"
+    name: "US Department of State"
+    countries: ["US"]
+
+  - id: PER-US-SUZANNE-WOOLSEY
+    type: "person"
+    name: "Suzanne H. Woolsey"
+    countries: ["US"]
+
+  - id: PER-US-JAMES-WOOLSEY
+    type: "person"
+    name: "R. James Woolsey"
+    countries: ["US"]
+
+  - id: ORG-US-FLUOR
+    type: "company"
+    name: "Fluor Corporation"
+    countries: ["US"]
+
+  - id: ORG-US-IDA
+    type: "research_institute"
+    name: "Institute for Defense Analyses"
+    countries: ["US"]
+
+  - id: ORG-US-RMI
+    type: "research_institute"
+    name: "Rocky Mountain Institute"
+    countries: ["US"]
+
+  - id: PRG-US-GMF-MARSHALL-MEMORIAL
+    type: "program"
+    name: "Marshall Memorial Fellowship"
+    countries: ["US", "DE"]
+
+  - id: PRG-US-GMF-JOURNALISM
+    type: "program"
+    name: "GMF Journalism Fellowship"
+    countries: ["US", "DE"]
+
+  - id: ORG-US-NATIONAL-FORUM-FOUNDATION
+    type: "foundation"
+    name: "National Forum Foundation"
+    countries: ["US"]
+
+  - id: PER-IR-ALI-FALLAHIAN
+    type: "person"
+    name: "Ali Fallahian"
+    countries: ["IR"]
+
+  - id: PER-DE-BERND-SCHMIDBAUER
+    type: "person"
+    name: "Bernd Schmidbauer"
+    countries: ["DE"]
+
+  - id: ORG-DE-BUNDESKANZLERAMT
+    type: "government_agency"
+    name: "Bundeskanzleramt"
+    countries: ["DE"]
+
+  - id: DOC-DE-MYKONOS-ERMITTLUNG-1992
+    type: "official_document"
+    name: "Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992)"
+    countries: ["DE"]
+    notes: "Dokumentknoten zur amtlich bestätigten Sperrerklärung und Beschränkung des Zugangs zum ursprünglichen BND-Schreiben; kein Akteur und keine Feststellung einer Verfahrenssabotage. BT-Plenarprotokoll 12/208, Anlage 13."
+
+  - id: ORG-DE-THYSSENKRUPP
+    type: "company"
+    name: "ThyssenKrupp AG"
+    countries: ["DE"]
+
+  - id: ORG-DE-DRPR
+    type: "organization"
+    name: "Deutscher Rat für Public Relations"
+    countries: ["DE"]
+
+  - id: ORG-DE-TAGESSPIEGEL
+    type: "media_outlet"
+    name: "Der Tagesspiegel"
+    countries: ["DE"]
+
+  - id: ORG-DE-RHEINISCHE-POST
+    type: "media_outlet"
+    name: "Rheinische Post"
+    countries: ["DE"]
+
+  - id: ORG-DE-NRZ
+    type: "media_outlet"
+    name: "Neue Ruhr / Neue Rhein Zeitung"
+    countries: ["DE"]
+
+  - id: PER-DE-JUERGEN-CLAASSEN
+    type: "person"
+    name: "Jürgen Claassen"
+    countries: ["DE"]
+
+  - id: PER-DE-ALEXANDER-WILKE
+    type: "person"
+    name: "Alexander Wilke"
+    countries: ["DE"]
+
+  - id: ORG-DE-PARK-AVENUE
+    type: "media_outlet"
+    name: "Park Avenue (Gruner + Jahr)"
+    countries: ["DE"]
+    notes: "Magazin mit Testausgabe Juni 2005, regulärer Start Ende Oktober 2005; historischer redaktioneller Kontext."
+
+  - id: ORG-DE-GRUNER-JAHR
+    type: "media_company"
+    name: "Gruner + Jahr (historischer Verlag)"
+    countries: ["DE"]
+
+  - id: PER-DE-HOLGER-CHRISTMANN
+    type: "person"
+    name: "Holger Christmann"
+    countries: ["DE"]
+  - id: ORG-US-ANACONDA-COPPER-1972
+    type: historical_multinational_mining_corporation
+    name: "Anaconda Company (Chile-Kupferbeteiligungen 1972–1977)"
+    countries: [US, CL]
+    notes: "US-Kupferkonzern; GAO 1976 dokumentiert OPIC-Ablehnung zweier Forderungen über rund 154 Mio. USD 1972 und Haftungs-Schiedsspruch 1975; GAO 1977 und DFC FY77 dokumentieren 95,092 Mio. USD Cash/Guarantee-Abwicklung 31.03.1977. Keine Behauptung einer bewiesenen CIA-Weisung."
+  - id: ORG-CL-CHILE-COPPER-ANACONDA-1972
+    type: historical_mining_company_subsidiary
+    name: "Chile Copper Company (Anaconda-Tochter, 1972)"
+    countries: [US, CL]
+    notes: "Anaconda-Tochter in US-GAO-Originalbelegen zu abgesicherten chilenischen Kupferminen Chuquicamata/El Salvador. Eigentumsverbindung nicht gleichbedeutend mit Steuerung staatlicher US-Institutionen."
+  - id: ORG-US-DISTRICT-COURT-DC-1976
+    type: federal_judicial_court_historical
+    name: "U.S. District Court for the District of Columbia (Anaconda-Urteil 1976)"
+    countries: [US]
+    notes: "Urteil 418 F. Supp. 107 vom 20.07.1976 lehnte OPIC-Antrag auf Aufhebung des Anaconda-Schiedsspruchs wegen behaupteter Schiedsrichterbefangenheit ab; keine gerichtliche Feststellung der von OPIC behaupteten Korruption."
+  - id: ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975
+    type: historical_private_insurance_group
+    name: "Overseas Investment Insurance Group (OPIC-Mitversicherer 1975)"
+    countries: [US]
+    notes: "Laut GAO-Bericht 1977 beteiligten sich private Versicherungsunternehmen im OIIG seit 1975 als direkte Versicherer und Rückversicherer bestehender OPIC-Policen, mit vertraglichen Verlustlimits; keine Zahlung in einzelnen Chile-Schadensfällen hier dokumentiert."
+  - id: ORG-GB-LLOYDS-LONDON-1976
+    type: private_insurance_market_historical
+    name: "Lloyd's of London (OPIC-Rückversicherung 1976)"
+    countries: [GB]
+    notes: "GAO-Bericht 1977 nennt bestehenden gesonderten Rückversicherungsvertrag mit OPIC. Die dortigen Schadensbeispiele sind hypothetisch; keine individuelle Chile-Auszahlung oder Allianz mit geheimdienstlichen Akteuren hier belegt."
+
+  - id: ORG-DE-KPMG-AG
+    type: "company"
+    name: "KPMG AG Wirtschaftsprüfungsgesellschaft"
+    countries: ["DE"]
+    notes: "Deutsche Gesellschaft; ThyssenKrupp-CMS-Prüfung 2011, keine Aussage über das globale KPMG-Netzwerk."
+
+  - id: ORG-DE-BDO-AG
+    type: "company"
+    name: "BDO AG Wirtschaftsprüfungsgesellschaft"
+    countries: ["DE"]
+    notes: "Freiwillige Sonderprüfung ThyssenKrupp 2013, Prüfungsgegenstand 1; getrennte Verantwortung von Prof. Böcking."
+
+  - id: PER-DE-HANS-JOACHIM-BOECKING
+    type: "person"
+    name: "Hans-Joachim Böcking"
+    countries: ["DE"]
+    notes: "Professor für Wirtschaftsprüfung und Corporate Governance; Sonderprüfung ThyssenKrupp 2013, Prüfungsgegenstände 2 bis 4."
+
+  - id: ORG-DE-DSW
+    type: "organization"
+    name: "Deutsche Schutzvereinigung für Wertpapierbesitz e.V."
+    countries: ["DE"]
+    notes: "Aktionärsinteressenvertretung; Vereinbarung über freiwillige Sonderprüfung vom 16.07.2013."
+
+  - id: PER-DE-CHRISTIAN-STRENGER
+    type: "person"
+    name: "Christian Strenger"
+    countries: ["DE"]
+    notes: "In der Sonderprüfungsakte als Aktionär und Vereinbarungspartner bezeichnet."
+
+  - id: ORG-US-FEDERAL-FINANCING-BANK-1973
+    type: government_financing_institution
+    name: "Federal Financing Bank (FFB)"
+    countries: ["US"]
+    notes: "Staatseigene Refinanzierungsinstitution unter Treasury-Aufsicht; GAO dokumentiert Erwerb chilenischer Schuldverschreibungen mit OPIC-Rückgriff 1977."
+
+  - id: ORG-US-BETHLEHEM-STEEL-1971
+    type: historical_industrial_corporation
+    name: "Bethlehem Steel (Chile-Eisenerzinteressen 1971)"
+    countries: ["US", "CL"]
+    notes: "FRUS Dok. 217: vereinbarte Übernahme ihrer chilenischen Eisenerzinteressen durch CAP, OPIC-Mindestgarantie 18 Mio. USD bei Nichterfüllung; kein Abrufnachweis."
+
+  - id: ORG-CL-CAP-STEEL-1971
+    type: historical_industrial_corporation
+    name: "Compañía de Acero del Pacífico (CAP, 1971)"
+    countries: ["CL"]
+    notes: "Chilenische Gesellschaft; Übernahmevereinbarung mit Bethlehem Steel laut FRUS 30.03.1971."
+
+  - id: PER-US-C-FRED-BERGSTEN
+    type: person
+    name: "C. Fred Bergsten"
+    countries: ["US"]
+    notes: "1971 Memorandum an Kissinger; 1977 Assistant Secretary of the Treasury for International Affairs und ab 24.05. OPIC-Boardmitglied laut GAO ID-78-36. Kein Nachweis persönlicher Anordnung des Notenverkaufs."
+
+  - id: ORG-CL-CHAMBER-OF-DEPUTIES
+    type: national_legislative_chamber
+    name: "Cámara de Diputados de Chile"
+    countries: [CL]
+    notes: "Chilenische Abgeordnetenkammer; 13.07.1971 dokumentierte Zustimmung zur Rücknahme der Genehmigungsvorlage zum Investitionsgarantie-Zusatzabkommen vom 03.12.1963."
+
+  - id: ORG-US-FIRST-NATIONAL-CITY-BANK-1971
+    type: "historical_commercial_bank"
+    name: "First National City Bank / Citibank, N.A. (Umbenennung 1976)"
+    countries: ["US", "CL"]
+    notes: "First National City Bank: historischer Bankname bis 01.03.1976, dann Citibank, N.A. (SEC-Vertragspräambel). Gläubigerin El Mercurios, Mitvorsitz 43 Banken, separater OPIC-Fall. Citigroup-Holding und einzelne verbundene Gesellschaften rechtlich getrennt. Keine Identität der Kredite oder Gelder."
+
+  - id: ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972
+    type: "historical_commercial_bank"
+    name: "First Wisconsin National Bank (Milwaukee, 1972)"
+    countries: ["US"]
+    notes: "Gläubigerin El Mercurios, Interventionsversuch erfolglos; keine bewusste CIA-Mitwirkung belegt."
+
+  - id: ORG-CL-BANCO-CENTRAL-1974
+    type: "central_bank"
+    name: "Banco Central de Chile"
+    countries: ["CL"]
+    notes: "Getrennte Schuldscheinserien 26.12.1974; OPIC-Registrierung 1985."
+
+  - id: ORG-CL-CORPORACION-DEL-COBRE-1974
+    type: "historical_state_copper_organization"
+    name: "Corporación del Cobre (Chile, 1974)"
+    countries: ["CL"]
+    notes: "25%-Beteiligung Exótica und Vertragspartnerin; eigene Ansprüche getrennt."
+
+  - id: ORG-CL-EXOTICA-COPPER-1971
+    type: "historical_mining_project"
+    name: "Compañía Minera Exótica (Chile)"
+    countries: ["CL"]
+    notes: "Historische Beteiligungsstruktur laut DL821; keine heutige Firmenidentität abgeleitet."
+
+  - id: ORG-US-RIGGS-NATIONAL-BANK
+    type: "historical_commercial_bank"
+    name: "Riggs National Bank (Washington, D.C.)"
+    countries: ["US"]
+    notes: "Vorgesehene Zahlstelle 1974; spätere Pinochet-Konten und BSA-Schuldbekenntnis separat."
+
+  - id: PER-CL-AUGUSTO-PINOCHET
+    type: "person"
+    name: "Augusto Pinochet"
+    countries: ["CL"]
+    notes: "Spätere Riggs-Konten; keine persönliche Verfügung über Exótica-Zahlung nachgewiesen."
+
+  - id: ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971
+    type: "historical_commercial_bank_cohort"
+    name: "US-Privatbank-Gläubigerverhandlungen mit Chile (1971–1972)"
+    countries: ["US", "CL"]
+    notes: "43 Banken am 14.12.1971; Bankliste und genaue Identität der Gläubiger im Crédito 2 offen."
+
+  - id: ORG-US-SUN-CHEMICAL-1972
+    type: "historical_commercial_supplier"
+    name: "Sun Chemical Company (El-Mercurio-Lieferantin, 1972)"
+    countries: ["US"]
+    notes: "Lieferantenkredit; vorgeschlagene Ausweitung nicht als ausgeführt erwiesen."
+
+  - id: PER-US-EDWARD-KORRY
+    type: "person"
+    name: "Edward M. Korry"
+    countries: ["US"]
+    notes: "US-Botschafter in Chile 1970; Vorschläge nicht mit Ausführung gleichsetzen."
+
+  - id: ORG-US-40-COMMITTEE-1972
+    type: "historical_covert_action_oversight_committee"
+    name: "40 Committee (1972)"
+    countries: ["US"]
+    notes: "US-Gremium zur Billigung verdeckter Maßnahmen; keine Einzelüberweisung aus Genehmigung ableitbar."
+
+  - id: ORG-US-CITIGROUP-2004
+    type: "financial_holding_company"
+    name: "Citigroup Inc. und im Senatsbericht erfasste Vorgänger/Verbundunternehmen (2004)"
+    countries: ["US"]
+    notes: "SEC-Prospekt 2004 dokumentiert indirekte Beteiligung über Citicorp; Senatsbericht 2005 verwendet Gruppenbezeichnung auch rückblickend für Vorgänger/Tochtergesellschaften. Keine Gleichsetzung sämtlicher Rechts- oder Bankgeschäfte."
+
+  - id: ORG-CL-ARMED-FORCES-HISTORICAL
+    type: "historical_military_institution"
+    name: "Chilenische Streitkräfte (historischer Kontext 1972–2002)"
+    countries: ["CL"]
+    notes: "Institutioneller Bezug auf Militärkreditpolitik 1972 und spätere Bankbeziehungen; nicht mit Regierung oder persönlichem Vermögen Pinochets gleichsetzen."
+
+  - id: ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION
+    type: "historical_foundation"
+    name: "Fundación Augusto Pinochet Ugarte (1997)"
+    countries: ["CL"]
+    notes: "Riggs-Spende nach Bankunterlagen und Dankschreiben; keine daraus allein abgeleitete Gegenleistung."
+
+  - id: ORG-US-KENNECOTT-COPPER-CORP-1971
+    type: "historical_multinational_mining_corporation"
+    name: "Kennecott Copper Corporation / Braden Copper (Chile-Fall)"
+    countries: ["US", "CL"]
+    notes: "Kennecott-Kredit und OPIC-Deckung laut FRUS 1971/72; DFC-Fallregister gemeinsamer Name Braden Copper/Kennecott, keine Gleichsetzung der einzelnen juristischen Personen oder Policen."
+
+  - id: PER-US-PAUL-VOLCKER
+    type: "person"
+    name: "Paul A. Volcker (Treasury/OPIC, 1971)"
+    countries: ["US"]
+    notes: "GAO FY1971 Appendix I/II nennt OPIC-Boardmitglied seit 19.01.1971 und Under Secretary of Treasury for Monetary Affairs; kein Nachweis individueller Weisung in konkretem Chile-Schadensfall."
+
+  - id: ORG-US-CHILE-CREDITO2-LENDERS-1972
+    type: "historical_commercial_bank_cohort"
+    name: "US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972)"
+    countries: ["US", "CL"]
+    notes: "Acta 87 vom 26.12.1974 nennt den Zusatzkredit aus 1972, aber nicht sämtliche Kreditgeber. Keine Gleichsetzung mit den 43 Banken der Sitzung vom 14.12.1971."

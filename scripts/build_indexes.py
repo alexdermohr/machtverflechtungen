@@ -164,6 +164,15 @@ def render_cases(
             )
         lines.append("")
     lines += [
+        "## Vertiefende Fallübersichten",
+        "",
+        "Redaktionelle Synthesen der vorhandenen Studien mit direkten Beleg- und Netzwerkverweisen:",
+        "",
+        "- [P2 / Banco Ambrosiano](../falluebersichten/p2-banco-ambrosiano.md) — Geheimloge, Bankfinanzierung, Medienkontrolle und politische Kontakte.",
+        "- [BCCI / CIA und Bankaufsicht](../falluebersichten/bcci-cia-bankaufsicht.md) — verdeckte Beteiligungen, Informationswege und Aufsichtsversagen.",
+        "- [CIA / Prolog und Suchasnist](../falluebersichten/cia-prolog-medienfinanzierung.md) — verdeckte Finanzierung, Bankwege und Publikationskontrolle.",
+        "- [Dutroux-Komplex](../falluebersichten/dutroux-justiz-kontrolle.md) — Ermittlungsversäumnisse, Schutzmechanismen und parlamentarische Nachkontrolle.",
+        "",
         "## Weitere Zugänge",
         "",
         "- [Chronologie](../generated/timeline.md) — alle Fälle nach Beginn.",

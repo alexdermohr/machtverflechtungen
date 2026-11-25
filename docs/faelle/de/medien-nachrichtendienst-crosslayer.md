@@ -150,9 +150,9 @@ case_links:
 
 </div>
 
-## Auswahlregel
+## Untersuchungsgegenstand
 
-Dieser Fall enthält nur Vorgänge mit einem konkreten problematischen Machtmechanismus: rechtswidrige Überwachung von Journalisten, dokumentierte Beeinflussung von Berichterstattung oder verdeckte Geheimdienstfinanzierung eines Mediums. Bloße Mitgliedschaften, Konferenzteilnahmen, Eigentumsverhältnisse, normale Berufsrollen und personelle Mehrfachrollen gehören nicht in diesen Fall.
+Der gesicherte Ereigniskern dieser Fallakte behandelt rechtswidrige Überwachung von Journalisten, dokumentierte Beeinflussung von Berichterstattung und verdeckte Geheimdienstfinanzierung. Personelle Mehrfachrollen, Mitgliedschaften, Eigentum, Finanzierungsbeziehungen und gemeinsame Organisationsstrukturen sind ergänzende Untersuchungsgegenstände: Sie können sichtbar machen, über welche Akteure und Institutionen Einfluss überhaupt ausgeübt werden kann.
 
 ## Gesicherter Ereigniskern
 
@@ -176,6 +176,14 @@ Ein Sondervotumsabschnitt zitiert unter Bezug auf den Schäfer-Bericht Foertschs
 Die CIA-eigene historische Rückschau bezeichnet den Congress for Cultural Freedom als verdeckte CIA-Operation. Die Fachforschung rekonstruiert für Der Monat einen Finanzierungskanal, über den CIA-Mittel via Congress an das deutsche politische Magazin gelangten.
 
 Der dokumentierte Finanzierungskanal ist ein konkretes Beispiel verdeckter nachrichtendienstlicher Einflussinfrastruktur im Medienbereich.
+
+## Ergänzende Verflechtungen und Vergleichsfälle
+
+- **Personelle und organisatorische Brücken:** [Transatlantische Mediennetzwerke](transatlantik-mediennetzwerk-2017-2026.md) erfasst dokumentierte Mitgliedschaften, Funktionen und Kontakte; der [Medienrollen- und Interessenkonfliktaudit](../../research/atlantik-bruecke-medieninteressenkonflikte-1952-2026.md) untersucht ihre Bedeutung für journalistische Unabhängigkeit.
+- **Verdeckte Finanzierung und publizistische Infrastruktur:** [Fallübersicht CIA/Prolog und Suchasnist](../../falluebersichten/cia-prolog-medienfinanzierung.md) bündelt elf Studien. [CIA–Prolog–München](../../research/cia-aerodynamic-prolog-muenchen-tarnfinanzierung-1967-1970.md), [Suchasnist: Münchner Zahlstelle, Impressum und Prolog-Anzeige](../../research/suchasnist-konto-verlag-prolog-1971-1973.md) und [ergänzender Quellenvergleich](../../research/suchasnist-prolog-vereinsbank-verlag-1971-1973.md) erschließen die Verbindung interner CIA-Akten mit öffentlich dokumentierten Verlagsstrukturen. Die beiden Suchasnist-Studien verwenden dieselben fünf historischen Heft-Digitalisate; ihre Zusatzbefunde und Prüfstände ergänzen sich, sind aber keine unabhängige doppelte Bestätigung derselben Geldbewegung.
+- **Wirtschaftliche und politische Medienbeeinflussung:** [INSM/Marienhof](../../research/insm-marienhof-bavaria-placements-rechnungen-justiz-2002-2006.md) dokumentiert bezahlte politische Themenplatzierungen; [Warburg/Axel Springer](../../research/warburg-axel-springer-doepfner-finanzierung-2006-2025.md) untersucht Eigentums- und Finanzierungsbeziehungen. [P2/Rizzoli/Corriere](../../research/p2-rizzoli-corriere-ambrosiano-mediensteuerung-1975-1984.md) ergänzt einen internationalen Vergleich von Bankfinanzierung und redaktioneller Einflussnahme.
+
+Diese Verweise erschließen ergänzende Befunde und Vergleichsfälle; sie behaupten keine gemeinsame operative Steuerung sämtlicher Akteure.
 
 ## Quellen
 

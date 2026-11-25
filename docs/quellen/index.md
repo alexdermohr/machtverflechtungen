@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**346 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**414 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-de-hh-warburg-senat-2020) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-de-verfg-brandenburg-604-20041209) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -607,6 +607,51 @@ Fundstelle: Februar-März 1979, Jahr 6 Nr. 2-3, Druckseite 4 / PDF-Seite 4, Banc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-bcch-acta87-1974"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 87, sesión 2455](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)**
+
+Banco Central de Chile · 1974-12-26 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA87-1974`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451)
+
+Fundstelle: S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-cl-bcch-dl600-1984"></a>
+### Banco Central de Chile
+
+**[Aspectos relevantes de la inversión extranjera en Chile: DL 600](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)**
+
+Banco Central de Chile · 1984-10 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-DL600-1984`
+
+[Seite öffnen](https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978)
+
+Fundstelle: S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-cl-bcch-acta1648-1985"></a>
+### Banco Central de Chile
+
+**[Acta Comité Ejecutivo 1648](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)**
+
+Banco Central de Chile · 1985-05-15 · Stufe **A** · Primärquelle · `SRC-CL-BCCH-ACTA1648-1985`
+
+[PDF öffnen](https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1)
+
+Fundstelle: Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-int-bis-history-1939-gold"></a>
@@ -799,6 +844,66 @@ Bayerischer Verfassungsgerichtshof · 2014-03-20 · Stufe **A** · Primärquelle
 [PDF öffnen](https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/72-iva-12-entscheidung.pdf)
 
 Fundstelle: Rn. 143–145, gedruckte S. 59 (Auskunftsdefizit); Antwort von 2012 auf S. 17; Gesamtentscheidung S. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-ulf-tk-bdo-boecking-2013"></a>
+### BDO AG und Prof. Hans-Joachim Böcking
+
+**[Bericht über die freiwillige Sonderprüfung bei der ThyssenKrupp AG, Essen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf)**
+
+BDO AG und Prof. Hans-Joachim Böcking · 2013-11-12 · Stufe **A** · Primärquelle · `SRC-ULF-TK-BDO-BOECKING-2013`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf)
+
+Fundstelle: S. 1–4: Auftrag und Datenbasis; S. 66–68: Reformstand und Richtlinie vom 05.02.2013; S. 74–78: Berichterstattung der Internen Revision. Getrennte Prüfungsverantwortung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1964">
+
+<a id="src-cl-bcn-investment-guaranty-supplement-1964"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Cámara de Diputados, Sesión 42ª, 8 de septiembre de 1964](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf)**
+
+Biblioteca del Congreso Nacional de Chile · 1964-09-08 · Stufe **A** · Primärquelle · `SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964`
+
+[Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf)
+
+Fundstelle: S. 3151–3153: Präsidentenvorlage und Erläuterung des Zusatzabkommens vom 03.12.1963; Ratifikation vorausgesetzt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-cl-bcn-allende-withdrawal-1971"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Cámara de Diputados, Sesión 12ª, 13 de julio de 1971](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)**
+
+Biblioteca del Congreso Nacional de Chile · 1971-07-13 · Stufe **A** · Primärquelle · `SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971`
+
+[Seite öffnen](https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf)
+
+Fundstelle: S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-cl-dl821-1974"></a>
+### Biblioteca del Congreso Nacional de Chile
+
+**[Decreto Ley 821: convenio de indemnización Exótica](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)**
+
+Biblioteca del Congreso Nacional de Chile · 1974-12-27 · Stufe **A** · Primärquelle · `SRC-CL-DL821-1974`
+
+[Seite öffnen](https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27)
+
+Fundstelle: Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins.
 
 </article>
 
@@ -1370,6 +1475,21 @@ Fundstelle: Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-fncb-citibank-name-1976"></a>
+### Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR
+
+**[Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)**
+
+Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR · 2005-04-13 · Stufe **A** · Primärquelle · `SRC-US-SEC-FNCB-CITIBANK-NAME-1976`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)
+
+Fundstelle: Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-it-bologna-bellini-2022-court-excerpt"></a>
@@ -1502,6 +1622,66 @@ Deutscher Bundestag · 1981-11-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btp/09/09066.pdf)
 
 Fundstelle: gedruckte S. 3842–3843, Zusatzfrage Gnädinger sowie Frage 16 Fischer (Osthofen)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-ulf-bt-12182"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/182](https://dserver.bundestag.de/btp/12/12182.pdf)**
+
+Deutscher Bundestag · 1993-10-21 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12182`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12182.pdf)
+
+Fundstelle: Anlage 15: damalige öffentliche Darstellung des Fallahian-Gesprächs.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ulf-bt-12208"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/208](https://dserver.bundestag.de/btp/12/12208.pdf)**
+
+Deutscher Bundestag · 1994 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12208`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12208.pdf)
+
+Fundstelle: Anlage 13, S. 18074: Sperrerklärung 04.12.1992 und Ersatzfassung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-ulf-bt-12225"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 12/225](https://dserver.bundestag.de/btp/12/12225.pdf)**
+
+Deutscher Bundestag · 1994-04-28 · Stufe **A** · Primärquelle · `SRC-ULF-BT-12225`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/12/12225.pdf)
+
+Fundstelle: S. 19420–19421: eingeräumter Interventionsversuch und erklärte Zurückweisung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-ulf-bt-136613"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: BND-Kontakte zu Balanian](https://dserver.bundestag.de/btd/13/066/1306613.pdf)**
+
+Deutscher Bundestag · 1996-12-19 · Stufe **A** · Primärquelle · `SRC-ULF-BT-136613`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/066/1306613.pdf)
+
+Fundstelle: S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengelegt.
 
 </article>
 
@@ -2150,6 +2330,21 @@ Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-ulf-tk-drpr"></a>
+### Deutscher Rat für Public Relations
+
+**[Ratsbeschluss 09/2012 ThyssenKrupp / Pressereisen](https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf)**
+
+Deutscher Rat für Public Relations · 2015-01 · Stufe **A** · Primärquelle · `SRC-ULF-TK-DRPR`
+
+[PDF öffnen](https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf)
+
+Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-frak-bdj-19521021"></a>
@@ -2267,6 +2462,66 @@ Gerichtshof der Europäischen Union / InfoCuria · 2026-01-27 · Stufe **A** · 
 [Seite öffnen](https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-39%2F26+P&searchTerm=%22C-%22)
 
 Fundstelle: C-39/26 P, Fallübersicht, Stand 21.11.2026 'Pending'; Appellationsschrift veröffentlicht 13.04.2026, Akteneingang 27.01.2026; Vorinstanz T-366/23.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-ulf-gmf-2001"></a>
+### German Marshall Fund
+
+**[Annual Report 2001](https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf)**
+
+German Marshall Fund · 2001 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-2001`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf)
+
+Fundstelle: S. 26–27: Journalism Fellowship seit 1999.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-ulf-gmf-2006"></a>
+### German Marshall Fund
+
+**[GMF Annual Report 2006](https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf)**
+
+German Marshall Fund · 2006 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-2006`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf)
+
+Fundstelle: S. 48: Board of Trustees.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-ulf-gmf-forum"></a>
+### German Marshall Fund
+
+**[Brussels Forum Participants 2007](https://www.gmfus.org/sites/default/files/bf2007participants.pdf)**
+
+German Marshall Fund · 2007 · Stufe **A** · Primärquelle · `SRC-ULF-GMF-FORUM`
+
+[PDF öffnen](https://www.gmfus.org/sites/default/files/bf2007participants.pdf)
+
+Fundstelle: S. 4: Klaus-Dieter Frankenberger (FAZ).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ulf-gmf-mmf"></a>
+### German Marshall Fund
+
+**[Marshall Memorial Fellowship](https://www.gmfus.org/marshall-memorial-fellowship)**
+
+German Marshall Fund · current · Stufe **A** · Primärquelle · `SRC-ULF-GMF-MMF`
+
+[Seite öffnen](https://www.gmfus.org/marshall-memorial-fellowship)
+
+Fundstelle: Programmbeschreibung; kein Nachweis individueller Teilnahme Ulfkottes.
 
 </article>
 
@@ -2540,6 +2795,21 @@ Fundstelle: Absätze 2–7: von Funk berichtete Absprache mit Himmler, Puhls Kon
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-ulf-sec-2014"></a>
+### Invesco / SEC
+
+**[SEC proxy filing: Suzanne Woolsey](https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm)**
+
+Invesco / SEC · 2014 · Stufe **A** · Primärquelle · `SRC-ULF-SEC-2014`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm)
+
+Fundstelle: GMF 1992–2000 und 2002–2010; Fluor 2004–2014.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
 
 <a id="src-it-p2-botta-sudam-19830506"></a>
@@ -2657,6 +2927,21 @@ Kommission für Geschichte des Parlamentarismus und der politischen Parteien / S
 [Seite öffnen](https://www.fraktionsprotokolle.de/spd-05_1967-06-06-t1705_EP.html)
 
 Fundstelle: 65. Protokoll, Kapitel 04 03; Edition Bettina Tüffers, editorische Fußnote 32; historische AdsD-Originalsignatur nicht eigenständig eingesehen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-ulf-tk-kpmg-2011"></a>
+### KPMG AG Wirtschaftsprüfungsgesellschaft
+
+**[KPMG: Angemessenheit, Implementierung und Wirksamkeit des Compliance Management Systems zum 30. September 2011 (Kurzfassung)](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf)**
+
+KPMG AG Wirtschaftsprüfungsgesellschaft · 2011-11-14 · Stufe **A** · Primärquelle · `SRC-ULF-TK-KPMG-2011`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf)
+
+Fundstelle: S. 1, 4–9: Auftrag, Stichproben, Empfehlungen, Feststellungen und zeitlich/sachlich/geografisch begrenztes Prüfungsurteil.
 
 </article>
 
@@ -3003,6 +3288,21 @@ Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3),
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-sec-citibank-ownership-2004"></a>
+### SEC EDGAR, eingereichter Wertpapierprospekt
+
+**[Form 424B5: Citibank, N.A. corporate ownership (2004)](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)**
+
+SEC EDGAR, eingereichter Wertpapierprospekt · 2004 · Stufe **A** · Primärquelle · `SRC-US-SEC-CITIBANK-OWNERSHIP-2004`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)
+
+Fundstelle: Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-hh-warburg-senat-2020"></a>
@@ -3166,6 +3466,81 @@ Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-ulf-tk-external-audits"></a>
+### ThyssenKrupp
+
+**[Unternehmensübersicht externe Prüfberichte](https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte)**
+
+ThyssenKrupp · current · Stufe **A** · Primärquelle · `SRC-ULF-TK-EXTERNAL-AUDITS`
+
+[Seite öffnen](https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte)
+
+Fundstelle: Unternehmensrückblick: HV-Ablehnung Januar 2013 und freiwillige Vereinbarung mit DSW und Strenger im Juli.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-ulf-tk-interim-2010"></a>
+### ThyssenKrupp AG
+
+**[Zwischenbericht 9 Monate 2009/2010](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf)**
+
+ThyssenKrupp AG · 2010 · Stufe **A** · Primärquelle · `SRC-ULF-TK-INTERIM-2010`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf)
+
+Fundstelle: S. 32: ursprüngliche Ressortplanung und Bestellungsbeschluss vom 12.05.2010.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-ulf-tk-gb12"></a>
+### ThyssenKrupp AG
+
+**[Geschäftsbericht 2011/2012](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf)**
+
+ThyssenKrupp AG · 2012 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB12`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf)
+
+Fundstelle: S. 003: Vorstandsressorts, Hiesinger Internal Auditing; Corporate-Governance-Bericht: Ausgliederung Compliance Juni 2012; Vergütungsbericht und Nachtragsbericht: Vorstandseintritt 21.01.2011 und Ausscheiden 31.12.2012.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-ulf-tk-board-20121210"></a>
+### ThyssenKrupp AG
+
+**[Unternehmensmitteilung zur strategischen Weiterentwicklung und Vorstandsneuordnung](https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html)**
+
+ThyssenKrupp AG · 2012-12-10 · Stufe **A** · Primärquelle · `SRC-ULF-TK-BOARD-20121210`
+
+[Seite öffnen](https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html)
+
+Fundstelle: Aufsichtsratsbeschluss: einvernehmliches Ausscheiden Claassen, Berlien und Eichler; Unternehmensdarstellung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-ulf-tk-gb13"></a>
+### ThyssenKrupp AG
+
+**[Geschäftsbericht 2012/2013](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf)**
+
+ThyssenKrupp AG · 2013 · Stufe **A** · Primärquelle · `SRC-ULF-TK-GB13`
+
+[PDF öffnen](https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf)
+
+Fundstelle: S. 21–22: Ausgleichszahlung 3.754.000 EUR, anteilige variable Vergütung, Anrechnung der Monatsgehälter; S. 69: interne Prüfung der Reisen 2007–2012 und neue Richtlinie; Eigenauskunft.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-de-thlt-nsu-ua-2014"></a>
@@ -3313,6 +3688,21 @@ U.S. Department of Justice · 1991-12-19 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4001.pdf)
 
 Fundstelle: United States Attorneys' Bulletin Vol. 40, Nr. 1 (15.01.1992), Appendix B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-doj-riggs-plea-2005"></a>
+### U.S. Department of Justice
+
+**[Riggs Bank Pleads Guilty to Violating Bank Secrecy Act](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)**
+
+U.S. Department of Justice · 2005-01-27 · Stufe **A** · Primärquelle · `SRC-US-DOJ-RIGGS-PLEA-2005`
+
+[Seite öffnen](https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html)
+
+Fundstelle: BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea.
 
 </article>
 
@@ -3513,6 +3903,21 @@ Fundstelle: McCone: früher CIA-Direktor, 1970 ITT-Board/Executive Committee; 1 
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
 
+<a id="src-us-frus-korry-mercurio-19700916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 97: Korry to Johnson](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)**
+
+U.S. Department of State, Office of the Historian · 1970-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-MERCURIO-19700916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d97)
+
+Fundstelle: Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
 <a id="src-us-frus-cia-track2-1970"></a>
 ### U.S. Department of State, Office of the Historian
 
@@ -3523,6 +3928,96 @@ U.S. Department of State, Office of the Historian · 1970-09-21 · Stufe **A** �
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d22)
 
 Fundstelle: CIA-interne Abgrenzung Track I gegen geheimen Track II, allein für militärische Lösung vor Allendes Regierungsantritt, Botschafter/Außenministerium auszuschließen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1970">
+
+<a id="src-us-frus-korry-credit-19700925"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 120: Korry backchannel](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)**
+
+U.S. Department of State, Office of the Historian · 1970-09-25 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KORRY-CREDIT-19700925`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d120)
+
+Fundstelle: Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-chile-bethlehem-19710330"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1969–1976, Volume XXI, Document 217](https://history.state.gov/historicaldocuments/frus1969-76v21/d217)**
+
+U.S. Department of State, Office of the Historian · 1971-03-30 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-BETHLEHEM-19710330`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d217)
+
+Fundstelle: S. 600: Bergsten an Kissinger; CAP/Bethlehem-Übernahme und OPIC-Mindestgarantie.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-chile-mills-19710527"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS 1969–1976, Volume XXI, Document 231](https://history.state.gov/historicaldocuments/frus1969-76v21/d231)**
+
+U.S. Department of State, Office of the Historian · 1971-05-27 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-MILLS-19710527`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d231)
+
+Fundstelle: Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennecott und Anaconda.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-frus-kennecott-copper-19710929"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 261: The Copper Crunch in Chile](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)**
+
+U.S. Department of State, Office of the Historian · 1971-09-29 · Stufe **A** · Primärquelle · `SRC-US-FRUS-KENNECOTT-COPPER-19710929`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d261)
+
+Fundstelle: NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-chile-debt-banks-19720112"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 95: Chile debt renegotiations](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)**
+
+U.S. Department of State, Office of the Historian · 1972-01-12 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CHILE-DEBT-BANKS-19720112`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d95)
+
+Fundstelle: S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-cia-state-mercurio-19720223"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 290: McAfee to Cline](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)**
+
+U.S. Department of State, Office of the Historian · 1972-02-23 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-STATE-MERCURIO-19720223`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d290)
+
+Fundstelle: El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical.
 
 </article>
 
@@ -3537,7 +4032,37 @@ U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** �
 
 [Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d108)
 
-Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten.
+Fundstelle: El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-frus-40-committee-mercurio-19720410"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS XXI, Doc 295: Jorden to Kissinger](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)**
+
+U.S. Department of State, Office of the Historian · 1972-04-10 · Stufe **A** · Primärquelle · `SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76v21/d295)
+
+Fundstelle: 965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
+
+<a id="src-us-frus-cia-chile-19730916"></a>
+### U.S. Department of State, Office of the Historian
+
+**[FRUS E–16, Doc 145: CIA assessment of covert action in Chile](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)**
+
+U.S. Department of State, Office of the Historian · 1973-09-16 · Stufe **A** · Primärquelle · `SRC-US-FRUS-CIA-CHILE-19730916`
+
+[Seite öffnen](https://history.state.gov/historicaldocuments/frus1969-76ve16/d145)
+
+Fundstelle: Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04.
 
 </article>
 
@@ -3583,6 +4108,21 @@ U.S. Department of State; declassified telegram reproduced by WikiLeaks PlusD ·
 [Seite öffnen](https://www.wikileaks.org/plusd/cables/1975STATE069960_b.html)
 
 Fundstelle: US-Forderung zeitnaher formaler Paris-Club-Runde, creditors-alone vorbereitete gemeinsame Position, danach Schuldnerstaat; Bonn/Paris angeschrieben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-treasury-annual-report-fy1977"></a>
+### U.S. Department of the Treasury
+
+**[Annual Report of the Secretary of the Treasury, Fiscal Year 1977](https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext)**
+
+U.S. Department of the Treasury · 1977 · Stufe **A** · Primärquelle · `SRC-US-TREASURY-ANNUAL-REPORT-FY1977`
+
+[Seite öffnen](https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext)
+
+Fundstelle: Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhibit 36 S. 370–372, Bergsten 27.07.1977.
 
 </article>
 
@@ -3661,6 +4201,156 @@ Fundstelle: Wiedergabe von Raúl Sáez: namentlich nicht benannte US-Geschäftsb
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-gao-opic-coop-19750616"></a>
+### U.S. General Accounting Office
+
+**[Comptroller General decision B-173240](https://www.gao.gov/products/b-173240-20)**
+
+U.S. General Accounting Office · 1975-06-16 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-COOP-19750616`
+
+[Seite öffnen](https://www.gao.gov/products/b-173240-20)
+
+Fundstelle: Konkrete OIIG-Kooperation, Abgrenzung zum Beschaffungsvertrag.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-gao-opic-fasick-19770908"></a>
+### U.S. General Accounting Office
+
+**[GAO testimony on OPIC, J. Kenneth Fasick (103514)](https://www.gao.gov/assets/103514.pdf)**
+
+U.S. General Accounting Office · 1977-09-08 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FASICK-19770908`
+
+[PDF öffnen](https://www.gao.gov/assets/103514.pdf)
+
+Fundstelle: S. 2–4: OPIC 74,5 %, private 25,5 %, Lloyd's 12,5 % Gruppenanteil; Vertragsentwicklung und Privatisierungsanreiz.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-us-gao-opic-fy1977-id7836"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1977 (ID-78-36)](https://www.gao.gov/assets/id-78-36.pdf)**
+
+U.S. General Accounting Office · 1978-06-07 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1977-ID7836`
+
+[PDF öffnen](https://www.gao.gov/assets/id-78-36.pdf)
+
+Fundstelle: Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix I S. 15 und Appendix II S. 17: Bergsten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
+
+<a id="src-us-gao-opic-fy1978-id7921a"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1978 (ID-79-21A)](https://www.gao.gov/assets/id-79-21a.pdf)**
+
+U.S. General Accounting Office · 1979-04-13 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1978-ID7921A`
+
+[PDF öffnen](https://www.gao.gov/assets/id-79-21a.pdf)
+
+Fundstelle: Note 5(A), Note 7, S. 9 und 12: Chile-Garantien 166,624 Mio. USD, Forderungen, Raten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1980">
+
+<a id="src-us-gao-opic-fy1979-id8045"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC, Fiscal Year 1979 (ID-80-45)](https://www.gao.gov/assets/id-80-45.pdf)**
+
+U.S. General Accounting Office · 1980-06-05 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FY1979-ID8045`
+
+[PDF öffnen](https://www.gao.gov/assets/id-80-45.pdf)
+
+Fundstelle: Note 2: Bilanzierungsänderung ab 01.10.1978.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-us-gao-opic-id8340-1983"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (ID-83-40)](https://www.gao.gov/assets/id-83-40.pdf)**
+
+U.S. General Accounting Office · 1983-05-06 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-ID8340-1983`
+
+[PDF öffnen](https://www.gao.gov/assets/id-83-40.pdf)
+
+Fundstelle: Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-us-gao-opic-afmd8525-1985"></a>
+### U.S. General Accounting Office
+
+**[Examination of Financial Statements of OPIC (AFMD-85-25)](https://www.gao.gov/assets/afmd-85-25.pdf)**
+
+U.S. General Accounting Office · 1985-03-05 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-AFMD8525-1985`
+
+[PDF öffnen](https://www.gao.gov/assets/afmd-85-25.pdf)
+
+Fundstelle: Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-gao-opic-audit-fy1971-1972"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Audit of the Overseas Private Investment Corporation, Fiscal Year 1971 (B-173240)](https://www.gao.gov/assets/b-173240-096568.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1972-05-16 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-AUDIT-FY1971-1972`
+
+[PDF öffnen](https://www.gao.gov/assets/b-173240-096568.pdf)
+
+Fundstelle: Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
+<a id="src-us-gao-opic-financial-fy1975-1976"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)](https://www.gao.gov/assets/id-76-49.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1976-03-01 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976`
+
+[PDF öffnen](https://www.gao.gov/assets/id-76-49.pdf)
+
+Fundstelle: Druckseite 8, Note 7(A,C): 30.06.1975 147.385.976 USD OPIC contingent claims settlement guarantees einschliesslich Zinsen, davon Chile 128.659.383 USD; Anaconda-154-Mio-Ablehnung 1972, Schiedshaftung 17.07.1975, 1974er Chile-Vergleich ca. 65 Mio Cash plus 188 Mio Nominalschuld.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-us-gao-opic-financial-fy1976-1977"></a>
+### U.S. General Accounting Office, Comptroller General of the United States
+
+**[Examination of Financial Statements of OPIC, Fiscal Years 1976 and 1975 (ID-77-24)](https://www.gao.gov/assets/id-77-24.pdf)**
+
+U.S. General Accounting Office, Comptroller General of the United States · 1977-09-07 · Stufe **A** · Primärquelle · `SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977`
+
+[PDF öffnen](https://www.gao.gov/assets/id-77-24.pdf)
+
+Fundstelle: Druckseite 6: 31.03.1977 Anaconda-Vergleich 95,1 Mio USD, 47,5 Mio Cash und 47,6 Mio garantierte chilenische Notes; 27,5 Mio Notes als Gegenwert für OPIC; andere Chile-Garantie zuvor 36,4 Mio bezahlt und rückforderbar. S.8–9: private OIIG/OPIC und Lloyds-Rückversicherungsstruktur. Note 7(A) Chile 104.571.471 USD contingent 1976.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1973">
 
 <a id="src-us-house-crs-opic-chile-1973"></a>
@@ -3672,7 +4362,7 @@ U.S. House Committee on Foreign Affairs / Congressional Research Service · 1973
 
 [PDF öffnen](https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf)
 
-Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung.
+Fundstelle: Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank.
 
 </article>
 
@@ -3691,6 +4381,21 @@ Fundstelle: Druckseiten 45–47: OPIC-Jurist Morgan: einstimmiges Dreier-Schieds
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-us-dfc-insurance-claims-2024"></a>
+### U.S. International Development Finance Corporation
+
+**[Insurance Claims Experience to Date, 30 September 2024](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)**
+
+U.S. International Development Finance Corporation · 2024-09-30 · Stufe **A** · Primärquelle · `SRC-US-DFC-INSURANCE-CLAIMS-2024`
+
+[PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf)
+
+Fundstelle: Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-us-dfc-insurance-claims-2022"></a>
@@ -3702,7 +4407,22 @@ U.S. International Development Finance Corporation (DFC; OPIC-Rechtsnachfolgerin
 
 [PDF öffnen](https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf)
 
-Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD.
+Fundstelle: FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-ulf-csl-20261124"></a>
+### U.S. International Trade Administration
+
+**[Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)**
+
+U.S. International Trade Administration · 2026-11-24 · Stufe **A** · Primärquelle · `SRC-ULF-CSL-20261124`
+
+[Seite öffnen](https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv)
+
+Fundstelle: Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert.
 
 </article>
 
@@ -3763,6 +4483,21 @@ U.S. Senate Church Committee / U.S. National Archives · 1975-12-18 · Stufe **A
 [PDF öffnen](https://www.archives.gov/files/declassification/iscap/pdf/2010-009-doc17.pdf)
 
 Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 1970 ITT-Kontakte und $350k, Track II, El Mercurio sowie Postcoup-Medienprojekte. Geschwärztes amtliches Exemplar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-senate-riggs-pinochet-2005"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-PINOCHET-2005`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
+
+Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004.
 
 </article>
 
@@ -3931,6 +4666,66 @@ Fundstelle: P2 Doc. XXIII n. 2-quater/8/X, Druckseite 287–288 / PDF-Seite 299�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1974">
+
+<a id="src-un-a9716-chile-1974"></a>
+### United Nations
+
+**[A/9716: United Nations report on Chile (1974)](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)**
+
+United Nations · 1974 · Stufe **A** · Primärquelle · `SRC-UN-A9716-CHILE-1974`
+
+[PDF öffnen](https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf)
+
+Fundstelle: Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
+
+<a id="src-un-unts405-us-chile-1960"></a>
+### United Nations Treaty Series
+
+**[UNTS 405, No. 5829: United States–Chile investment guaranty agreement](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf)**
+
+United Nations Treaty Series · 1960-07-29 · Stufe **A** · Primärquelle · `SRC-UN-UNTS405-US-CHILE-1960`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf)
+
+Fundstelle: S. 127–134; Notenwechsel, Inkrafttreten 15.02.1961.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1983">
+
+<a id="src-un-unts2014-us-chile-1983"></a>
+### United Nations Treaty Series
+
+**[UNTS 2014, No. 34603: Investment Incentive Agreement](https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf)**
+
+United Nations Treaty Series · 1983-09-22 · Stufe **A** · Primärquelle · `SRC-UN-UNTS2014-US-CHILE-1983`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf)
+
+Fundstelle: S. 537–541, Art. 1–4, 6, 8–9; Inkrafttreten 14.02.1984.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
+
+<a id="src-un-unts2016-chile-termination-1984"></a>
+### United Nations Treaty Series
+
+**[UNTS 2016, A-5829: termination of agreement of 29 July 1960](https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf)**
+
+United Nations Treaty Series · 1984-02-14 · Stufe **A** · Primärquelle · `SRC-UN-UNTS2016-CHILE-TERMINATION-1984`
+
+[PDF öffnen](https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf)
+
+Fundstelle: S. 25; registrierte Beendigung wirksam 14.02.1984.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-un-unts967-chile-paris-1972"></a>
@@ -3991,6 +4786,36 @@ Fundstelle: Ulfkotte wird von UPI über BILD eine behauptete US-Geheimaktenentde
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-congress-opic-anaconda-19720307"></a>
+### United States Congress
+
+**[Congressional Record: OPIC/Anaconda correspondence](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)**
+
+United States Congress · 1972-03-07 · Stufe **A** · Primärquelle · `SRC-US-CONGRESS-OPIC-ANACONDA-19720307`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf)
+
+Fundstelle: S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
+
+<a id="src-us-public-law-95-268-1978"></a>
+### United States Congress
+
+**[Public Law 95-268, 92 Stat. 213](https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf)**
+
+United States Congress · 1978-04-24 · Stufe **A** · Primärquelle · `SRC-US-PUBLIC-LAW-95-268-1978`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf)
+
+Fundstelle: §§ 3, 5–7: Änderung des Versicherungs- und Privatisierungsauftrags, FCPA-Klausel.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1979">
 
 <a id="src-us-dol-erisa-prudence-fr-19790626"></a>
@@ -4003,6 +4828,21 @@ United States Department of Labor, amtlicher Federal Register Vol. 44 Nr. 124 ·
 [PDF öffnen](https://archives.federalregister.gov/issue_slice/1979/6/26/37221-37229.pdf)
 
 Fundstelle: 44 FR 37221 (Originalscan PDF-Seite 1): Regelungsgegenstand und Wirksamkeit 23.07.1979. 44 FR 37222 (PDF-Seite 2): ursprünglicher Regelungsentwurf 25.04.1978, öffentliche Kommentare und Portfolio-Kontext. 44 FR 37225 (PDF-Seite 5): amtlicher Normtext 29 CFR 2550.404a-1.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1976">
+
+<a id="src-us-fed-court-opic-anaconda-19760720"></a>
+### United States District Court for the District of Columbia; court original reproduced by Justia
+
+**[Overseas Private Investment Corporation v. Anaconda Company, 418 F. Supp. 107 (D.D.C. 1976)](https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/)**
+
+United States District Court for the District of Columbia; court original reproduced by Justia · 1976-07-20 · Stufe **A** · Primärquelle · `SRC-US-FED-COURT-OPIC-ANACONDA-19760720`
+
+[Seite öffnen](https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/)
+
+Fundstelle: Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund.
 
 </article>
 
@@ -4051,6 +4891,36 @@ Fundstelle: PDF-Bildseiten 1–3, CIG-Begleitmemorandum und Anlage; CIG-Untersuc
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-ulf-fr-rose"></a>
+### US Department of State
+
+**[Federal Register: Rose-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf)**
+
+US Department of State · 1997-10-03 · Stufe **A** · Primärquelle · `SRC-ULF-FR-ROSE`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf)
+
+Fundstelle: 62(192), S. 51926, Public Notice 2614, FR Doc. 97-26305; zwei Adressaten derselben Notice, wirksam 25.09.1997.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-ulf-fr-balanian"></a>
+### US Department of State
+
+**[Federal Register: Balanian-Sanktionsbescheid](https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf)**
+
+US Department of State · 1998-02-23 · Stufe **A** · Primärquelle · `SRC-ULF-FR-BALANIAN`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf)
+
+Fundstelle: Wirksam 09.02.1998; administrative Sanktion, kein Strafurteil.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-us-afb-nccs-990-2025"></a>
@@ -4078,6 +4948,21 @@ USAspending.gov, U.S. Treasury · 2025-06-01 · Stufe **A** · Primärquelle · 
 [Seite öffnen](https://www.usaspending.gov/award/CONT_AWD_W56KGY25F0090_9700_W56KGY20D0005_9700/)
 
 Fundstelle: Army Intelligence Data Platform Artificial Intelligence Platform Lizenz; laut Abruf 21.11.2026 1.166.666,69 USD obligated, keine Auszahlungsbehauptung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-ulf-sec-2005"></a>
+### Van Kampen / SEC
+
+**[SEC proxy filing: Suzanne Woolsey](https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt)**
+
+Van Kampen / SEC · 2005 · Stufe **A** · Primärquelle · `SRC-ULF-SEC-2005`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt)
+
+Fundstelle: S. 10: GMF, IDA, RMI, Fluor.
 
 </article>
 
@@ -4113,7 +4998,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-de-spiegel-neubauer-urbach-1971) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -4503,6 +5388,21 @@ Fundstelle: Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Arch
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-sta"></a>
+### dapd / Die Welt
+
+**[Ermittler entlasten geschassten ThyssenKrupp-Manager teilweise](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)**
+
+dapd / Die Welt · 2012-12-06 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-STA`
+
+[Seite öffnen](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)
+
+Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
@@ -4563,6 +5463,51 @@ Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Beric
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-dlf"></a>
+### Deutschlandfunk
+
+**[ThyssenKrupp bezahlt Luxusreisen für Journalisten](https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html)**
+
+Deutschlandfunk · 2012-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-DLF`
+
+[Seite öffnen](https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html)
+
+Fundstelle: Interview mit Recherchejournalist; Kostenschätzung, keine Rechnung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-welt-11"></a>
+### Die Welt
+
+**[Luxusreisen des Thyssen-Managers auf Firmenkosten](https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html)**
+
+Die Welt · 2012-11-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-WELT-11`
+
+[Seite öffnen](https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html)
+
+Fundstelle: Reiserecherche, FAZ-Bericht und redaktionelle Angaben.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-ulf-tk-welt-12"></a>
+### Die Welt
+
+**[Luxusreisen bei ThyssenKrupp](https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html)**
+
+Die Welt · 2012-11-12 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-WELT-12`
+
+[Seite öffnen](https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html)
+
+Fundstelle: Redaktionelle Reaktionen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
 
 <a id="src-de-welt-ulfkotte-erm-2004"></a>
@@ -4605,6 +5550,36 @@ DIE ZEIT / Marc Brost und Bernd Ulrich · 2009-01-29 · Stufe **B** · Sekundär
 [Seite öffnen](https://www.zeit.de/2009/06/Ratlosigkeit)
 
 Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitte keine schlechte Stimmung zu machen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1990">
+
+<a id="src-ulf-gannett-1990"></a>
+### Gannett Foundation
+
+**[Programminventur zur Unterstützung osteuropäischer Medien](https://files.eric.ed.gov/fulltext/ED326913.pdf)**
+
+Gannett Foundation · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-GANNETT-1990`
+
+[PDF öffnen](https://files.eric.ed.gov/fulltext/ED326913.pdf)
+
+Fundstelle: S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlungsbeleg.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
+
+<a id="src-ulf-horizont-park-2005"></a>
+### HORIZONT
+
+**[G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)**
+
+HORIZONT · 2005-10-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-HORIZONT-PARK-2005`
+
+[Seite öffnen](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)
+
+Fundstelle: Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag.
 
 </article>
 
@@ -4713,6 +5688,21 @@ Fundstelle: 1972: Ende des von KAS genannten SfZ-Vorsitzes 1965–1972; vorher B
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2006">
+
+<a id="src-ulf-kress-park-2006"></a>
+### kress
+
+**[Aufruhr in der Parkstraße bei Gruner+Jahr](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)**
+
+kress · 2006-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-KRESS-PARK-2006`
+
+[Seite öffnen](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)
+
+Fundstelle: Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1953">
 
 <a id="src-de-he-lagis-bdj-19530108"></a>
@@ -4755,6 +5745,21 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 [Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
+
+<a id="src-ulf-lat-2004"></a>
+### Los Angeles Times
+
+**[Private, Public Roles Overlap in Washington](https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html)**
+
+Los Angeles Times · 2004-08-08 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-LAT-2004`
+
+[Seite öffnen](https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html)
+
+Fundstelle: Eheverhältnis; öffentliche und private Mandate.
 
 </article>
 
@@ -5025,6 +6030,21 @@ Thomas Wagner / Willy Wimmer, Archiv Friedensratschlag · 2014-09-15 · Stufe **
 [Seite öffnen](https://www.ag-friedensforschung.de/themen/NATO1/wimmer.html)
 
 Fundstelle: Wimmer über Gespräch mit anonymem FAZ-Mitarbeiter und angebliche State-Department-Anrufe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2013">
+
+<a id="src-ulf-tk-ti"></a>
+### Transparency International Deutschland
+
+**[Gefallen an Gefälligkeiten](https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf)**
+
+Transparency International Deutschland · 2013 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-TK-TI`
+
+[PDF öffnen](https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf)
+
+Fundstelle: Vergleichskontext journalistischer Zuwendungen.
 
 </article>
 

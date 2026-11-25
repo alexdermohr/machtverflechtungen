@@ -46,6 +46,15 @@ Finanzierungswege, politische Kontakte und dokumentierte Medienbeeinflussung.
 | 1984 – 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |  |
 | 2007 – 2025 | [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](de/cum-ex-warburg-steuerverfahren.md) | DE | 6 belegt · 1 spekulativ/offen | Ungerechtfertigte Steueranrechnung / Steuererstattung |
 
+## Vertiefende Fallübersichten
+
+Redaktionelle Synthesen der vorhandenen Studien mit direkten Beleg- und Netzwerkverweisen:
+
+- [P2 / Banco Ambrosiano](../falluebersichten/p2-banco-ambrosiano.md) — Geheimloge, Bankfinanzierung, Medienkontrolle und politische Kontakte.
+- [BCCI / CIA und Bankaufsicht](../falluebersichten/bcci-cia-bankaufsicht.md) — verdeckte Beteiligungen, Informationswege und Aufsichtsversagen.
+- [CIA / Prolog und Suchasnist](../falluebersichten/cia-prolog-medienfinanzierung.md) — verdeckte Finanzierung, Bankwege und Publikationskontrolle.
+- [Dutroux-Komplex](../falluebersichten/dutroux-justiz-kontrolle.md) — Ermittlungsversäumnisse, Schutzmechanismen und parlamentarische Nachkontrolle.
+
 ## Weitere Zugänge
 
 - [Chronologie](../generated/timeline.md) — alle Fälle nach Beginn.

@@ -88,6 +88,11 @@ nav:
           - Cum-Ex / Warburg: faelle/de/cum-ex-warburg-steuerverfahren.md
           - Transatlantische Mediennetzwerke: faelle/de/transatlantik-mediennetzwerk-2017-2026.md
           - Nachrichtendienste und Medien: faelle/de/medien-nachrichtendienst-crosslayer.md
+          - P2 / Banco Ambrosiano (Fallübersicht): falluebersichten/p2-banco-ambrosiano.md
+          - BCCI / CIA und Bankaufsicht (Fallübersicht): falluebersichten/bcci-cia-bankaufsicht.md
+          - CIA / Prolog und Suchasnist (Fallübersicht): falluebersichten/cia-prolog-medienfinanzierung.md
+      - Justiz & institutionelle Kontrolle:
+          - Dutroux-Komplex (Fallübersicht): falluebersichten/dutroux-justiz-kontrolle.md
   - Beziehungen & Daten:
       - Netzwerk: generated/network.md
       - Netzwerkdiagramm: generated/network-graph.md

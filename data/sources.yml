@@ -3602,7 +3602,7 @@ sources:
   tier: A
   url: https://history.state.gov/historicaldocuments/frus1969-76ve16/d108
   accessed: "2026-11-21"
-  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten."
+  locator: "El Mercurio: 1971 $700,000 authorized and expended; weiterer $300,000 vor Januar 1972 authorized and expended; neues Volumen nicht als Auszahlung deuten. S.557–560 II.B.2–3, IV/V: Bankverbindlichkeiten, Schwarzmarkt-Escudo-Beschaffung vorgeschlagen, Zentralbanktransfer abhängig von Umschuldung, erfolglose Intervention, Lieferkredit; Tab B Medienwirkung."
 - id: SRC-US-FRUS-GUATEMALA-PREFACE-2003
   title: "FRUS 1952–1954 Guatemala, Preface (2003)"
   institution: "U.S. Department of State, Office of the Historian"
@@ -3840,7 +3840,7 @@ sources:
   tier: A
   url: https://www.govinfo.gov/content/pkg/CPRT-93HPRT99341/pdf/CPRT-93HPRT99341.pdf
   accessed: "2026-11-22"
-  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung."
+  locator: "Druckseite 95: 1,8 Mrd. USD Chile-Risikoversicherung AID im Zeitraum 1960er, 0,9 Mrd. 10–12/1967, ITT als Begünstigte genannt. Aggregate nicht ITT-Einzelzahlung. Druck-S.74–76, Tabelle S.75: Exótica-Zahlung, Kennecott/Bethlehem-Garantien und First National City Bank."
 - id: SRC-US-FRUS-STATE-CHILE-STRATEGY-1972
   title: "Chile Strategy: Paper Prepared in Department of State, 1 December 1972"
   institution: "U.S. Department of State, FRUS E–16, Document 127"
@@ -3880,7 +3880,7 @@ sources:
   tier: A
   url: https://www.dfc.gov/sites/default/files/media/documents/Insurance%20Claims%20Experience%20to%20Date%20-%20Sept.%202022_Redacted.pdf
   accessed: "2026-11-22"
-  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD."
+  locator: "FY75: ITT Corp. Chile 94.091.531 USD insgesamt, 34.706.917 Cash, 59.384.614 Guaranty; separate Denial Table 09.04.1973: ITT-Forderung 95.066.000 USD, Zahlungen nach Arbitration 94.091.531 USD. PDF-S.3–4: Chile-Fallzeilen FY72–75; PDF-S.13 Fn.1: spätere Cash-Abrufe unter Garantie nicht addieren; PDF-S.15: BoA-Ablehnung 26.03.1973."
 - id: SRC-US-HOUSE-OPIC-ITT-HEARINGS-1976
   title: "Chile: The Status of Human Rights and Its Relationship to U.S. Economic Assistance Programs, 29 April / 5 May 1976"
   institution: "U.S. House Committee on International Relations, 94th Congress"
@@ -3961,3 +3961,749 @@ sources:
   url: https://www.wikileaks.org/plusd/cables/1975BONN07281_b.html
   accessed: "2026-11-23"
   locator: "Chilenische Botschaft übergab 02.05.1975 Müller-Thuns Liste zu ITT, Andina-Cerro, Anaconda, Kennecott, OPIC-Forderungen; US-Botschaft sah Gleichbehandlung staatlicher/privater Gläubiger als Hauptanliegen der BRD, ohne Liste als Anlage."
+
+- id: SRC-ULF-BT-136613
+  title: "Antwort der Bundesregierung: BND-Kontakte zu Balanian"
+  institution: "Deutscher Bundestag"
+  date: "1996-12-19"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btd/13/066/1306613.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengelegt."
+
+- id: SRC-ULF-FR-ROSE
+  title: "Federal Register: Rose-Sanktionsbescheid"
+  institution: "US Department of State"
+  date: "1997-10-03"
+  type: "official_notice"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/FR-1997-10-03/pdf/97-26305.pdf"
+  accessed: "2026-11-24"
+  locator: "62(192), S. 51926, Public Notice 2614, FR Doc. 97-26305; zwei Adressaten derselben Notice, wirksam 25.09.1997."
+
+- id: SRC-ULF-FR-BALANIAN
+  title: "Federal Register: Balanian-Sanktionsbescheid"
+  institution: "US Department of State"
+  date: "1998-02-23"
+  type: "official_notice"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/FR-1998-02-23/pdf/98-4414.pdf"
+  accessed: "2026-11-24"
+  locator: "Wirksam 09.02.1998; administrative Sanktion, kein Strafurteil."
+
+- id: SRC-ULF-SEC-2005
+  title: "SEC proxy filing: Suzanne Woolsey"
+  institution: "Van Kampen / SEC"
+  date: "2005"
+  type: "regulatory_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/5094/000095013705006267/c93601ddef14a.txt"
+  accessed: "2026-11-24"
+  locator: "S. 10: GMF, IDA, RMI, Fluor."
+
+- id: SRC-ULF-SEC-2014
+  title: "SEC proxy filing: Suzanne Woolsey"
+  institution: "Invesco / SEC"
+  date: "2014"
+  type: "regulatory_filing"
+  primary: true
+  tier: "A"
+  url: "https://www.sec.gov/Archives/edgar/data/884152/000119312514272910/d759102ddef14a.htm"
+  accessed: "2026-11-24"
+  locator: "GMF 1992–2000 und 2002–2010; Fluor 2004–2014."
+
+- id: SRC-ULF-GMF-2006
+  title: "GMF Annual Report 2006"
+  institution: "German Marshall Fund"
+  date: "2006"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/GMFAnnualReport2006_0.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 48: Board of Trustees."
+
+- id: SRC-ULF-LAT-2004
+  title: "Private, Public Roles Overlap in Washington"
+  institution: "Los Angeles Times"
+  date: "2004-08-08"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.latimes.com/archives/la-xpm-2004-aug-08-na-woolsey8-story.html"
+  accessed: "2026-11-24"
+  locator: "Eheverhältnis; öffentliche und private Mandate."
+
+- id: SRC-ULF-GMF-FORUM
+  title: "Brussels Forum Participants 2007"
+  institution: "German Marshall Fund"
+  date: "2007"
+  type: "participant_list"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/bf2007participants.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 4: Klaus-Dieter Frankenberger (FAZ)."
+
+- id: SRC-ULF-GMF-MMF
+  title: "Marshall Memorial Fellowship"
+  institution: "German Marshall Fund"
+  date: "current"
+  type: "organization_self_description"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/marshall-memorial-fellowship"
+  accessed: "2026-11-24"
+  locator: "Programmbeschreibung; kein Nachweis individueller Teilnahme Ulfkottes."
+
+- id: SRC-ULF-GMF-2001
+  title: "Annual Report 2001"
+  institution: "German Marshall Fund"
+  date: "2001"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://www.gmfus.org/sites/default/files/GMFAnnualReport2001_0.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 26–27: Journalism Fellowship seit 1999."
+
+- id: SRC-ULF-GANNETT-1990
+  title: "Programminventur zur Unterstützung osteuropäischer Medien"
+  institution: "Gannett Foundation"
+  date: "1990"
+  type: "research_report"
+  primary: false
+  tier: "B"
+  url: "https://files.eric.ed.gov/fulltext/ED326913.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlungsbeleg."
+
+- id: SRC-ULF-BT-12208
+  title: "Plenarprotokoll 12/208"
+  institution: "Deutscher Bundestag"
+  date: "1994"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12208.pdf"
+  accessed: "2026-11-24"
+  locator: "Anlage 13, S. 18074: Sperrerklärung 04.12.1992 und Ersatzfassung."
+
+- id: SRC-ULF-BT-12182
+  title: "Plenarprotokoll 12/182"
+  institution: "Deutscher Bundestag"
+  date: "1993-10-21"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12182.pdf"
+  accessed: "2026-11-24"
+  locator: "Anlage 15: damalige öffentliche Darstellung des Fallahian-Gesprächs."
+
+- id: SRC-ULF-BT-12225
+  title: "Plenarprotokoll 12/225"
+  institution: "Deutscher Bundestag"
+  date: "1994-04-28"
+  type: "parliamentary_record"
+  primary: true
+  tier: "A"
+  url: "https://dserver.bundestag.de/btp/12/12225.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 19420–19421: eingeräumter Interventionsversuch und erklärte Zurückweisung."
+
+- id: SRC-ULF-TK-DRPR
+  title: "Ratsbeschluss 09/2012 ThyssenKrupp / Pressereisen"
+  institution: "Deutscher Rat für Public Relations"
+  date: "2015-01"
+  type: "self_regulation_decision"
+  primary: true
+  tier: "A"
+  url: "https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien."
+
+- id: SRC-ULF-TK-WELT-11
+  title: "Luxusreisen des Thyssen-Managers auf Firmenkosten"
+  institution: "Die Welt"
+  date: "2012-11-11"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/wirtschaft/article110891981/Stahlkonzern-Luxusreisen-des-Thyssen-Managers-auf-Firmenkosten.html"
+  accessed: "2026-11-24"
+  locator: "Reiserecherche, FAZ-Bericht und redaktionelle Angaben."
+
+- id: SRC-ULF-TK-WELT-12
+  title: "Luxusreisen bei ThyssenKrupp"
+  institution: "Die Welt"
+  date: "2012-11-12"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/print/welt_kompakt/print_wirtschaft/article110911226/Luxusreisen-bei-ThyssenKrupp.html"
+  accessed: "2026-11-24"
+  locator: "Redaktionelle Reaktionen."
+
+- id: SRC-ULF-TK-DLF
+  title: "ThyssenKrupp bezahlt Luxusreisen für Journalisten"
+  institution: "Deutschlandfunk"
+  date: "2012-11"
+  type: "press_interview"
+  primary: false
+  tier: "B"
+  url: "https://www.deutschlandfunk.de/thyssenkrupp-bezahlt-luxusreisen-fuer-journalisten-100.html"
+  accessed: "2026-11-24"
+  locator: "Interview mit Recherchejournalist; Kostenschätzung, keine Rechnung."
+
+- id: SRC-ULF-TK-STA
+  title: "Ermittler entlasten geschassten ThyssenKrupp-Manager teilweise"
+  institution: "dapd / Die Welt"
+  date: "2012-12-06"
+  type: "press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html"
+  accessed: "2026-11-24"
+  locator: "StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert."
+
+- id: SRC-ULF-TK-GB13
+  title: "Geschäftsbericht 2012/2013"
+  institution: "ThyssenKrupp AG"
+  date: "2013"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2012_2013_gb.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 21–22: Ausgleichszahlung 3.754.000 EUR, anteilige variable Vergütung, Anrechnung der Monatsgehälter; S. 69: interne Prüfung der Reisen 2007–2012 und neue Richtlinie; Eigenauskunft."
+
+- id: SRC-ULF-TK-GB12
+  title: "Geschäftsbericht 2011/2012"
+  institution: "ThyssenKrupp AG"
+  date: "2012"
+  type: "annual_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/geschaeftsberichte/deutsch/dokumente/thyssenkrupp_2011_2012_gb.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 003: Vorstandsressorts, Hiesinger Internal Auditing; Corporate-Governance-Bericht: Ausgliederung Compliance Juni 2012; Vergütungsbericht und Nachtragsbericht: Vorstandseintritt 21.01.2011 und Ausscheiden 31.12.2012."
+
+- id: SRC-ULF-TK-TI
+  title: "Gefallen an Gefälligkeiten"
+  institution: "Transparency International Deutschland"
+  date: "2013"
+  type: "research_report"
+  primary: false
+  tier: "B"
+  url: "https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf"
+  accessed: "2026-11-24"
+  locator: "Vergleichskontext journalistischer Zuwendungen."
+
+- id: SRC-ULF-CSL-20261124
+  title: "Consolidated Screening List – offizieller CSV-Datensatz vom 24.11.2026"
+  institution: "U.S. International Trade Administration"
+  date: "2026-11-24"
+  type: "official_data"
+  primary: true
+  tier: "A"
+  url: "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv"
+  accessed: "2026-11-24"
+  sha256: "b89fdb22ff55bd9e269946981ad21ac57cae68450d8d13fce106c2f8cb52e34a"
+  locator: "Last-Modified 24.11.2026 05:30:38 UTC; 19.083.418 Bytes; drei namentliche ACN-Einträge; kein Enddatum; historische Federal-Register-Referenzen unverändert."
+  notes: "Dynamische amtliche Screeningliste, keine neue Einzelverfügung. Der Hash bindet die am Abrufdatum ausgewertete Version."
+
+- id: SRC-ULF-KRESS-PARK-2006
+  title: "Aufruhr in der Parkstraße bei Gruner+Jahr"
+  institution: "kress"
+  date: "2006-06-30"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html"
+  accessed: "2026-11-24"
+  locator: "Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006."
+
+- id: SRC-ULF-HORIZONT-PARK-2005
+  title: "G+J sucht mit Park Avenue die Nähe zu Promi-Persönlichkeiten"
+  institution: "HORIZONT"
+  date: "2005-10-24"
+  type: "trade_press_report"
+  primary: false
+  tier: "B"
+  url: "https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044"
+  accessed: "2026-11-24"
+  locator: "Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag."
+- id: SRC-US-GAO-OPIC-AUDIT-FY1971-1972
+  title: "Audit of the Overseas Private Investment Corporation, Fiscal Year 1971 (B-173240)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1972-05-16"
+  type: original_congressional_financial_audit
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/b-173240-096568.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseiten 13–16: OPIC-Forderungsklassen per 31.12.1971; Chile 234.646.000 + 1.342.000 + 34.604.320 = 270.592.320 USD potentielle Exposition, nicht tatsächliche Zahlung. Separater Anaconda-Policenstreit. S.14–16, Note 6: Policen 5928/5936/5850 und Refinanzierungsstreit; Appendix I/II S.29–30: Boardmitglied Paul Volcker, Treasury."
+- id: SRC-US-GAO-OPIC-FINANCIAL-FY1975-1976
+  title: "Examination of Financial Statements of OPIC, Fiscal Years 1975 and 1974 (ID-76-49)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1976-03-01"
+  type: original_congressional_audit_and_official_accounting_notes
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/id-76-49.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseite 8, Note 7(A,C): 30.06.1975 147.385.976 USD OPIC contingent claims settlement guarantees einschliesslich Zinsen, davon Chile 128.659.383 USD; Anaconda-154-Mio-Ablehnung 1972, Schiedshaftung 17.07.1975, 1974er Chile-Vergleich ca. 65 Mio Cash plus 188 Mio Nominalschuld."
+- id: SRC-US-GAO-OPIC-FINANCIAL-FY1976-1977
+  title: "Examination of Financial Statements of OPIC, Fiscal Years 1976 and 1975 (ID-77-24)"
+  institution: "U.S. General Accounting Office, Comptroller General of the United States"
+  date: "1977-09-07"
+  type: original_congressional_audit_and_subsequent_settlement_report
+  primary: true
+  tier: A
+  url: https://www.gao.gov/assets/id-77-24.pdf
+  accessed: "2026-11-23"
+  locator: "Druckseite 6: 31.03.1977 Anaconda-Vergleich 95,1 Mio USD, 47,5 Mio Cash und 47,6 Mio garantierte chilenische Notes; 27,5 Mio Notes als Gegenwert für OPIC; andere Chile-Garantie zuvor 36,4 Mio bezahlt und rückforderbar. S.8–9: private OIIG/OPIC und Lloyds-Rückversicherungsstruktur. Note 7(A) Chile 104.571.471 USD contingent 1976."
+- id: SRC-US-FED-COURT-OPIC-ANACONDA-19760720
+  title: "Overseas Private Investment Corporation v. Anaconda Company, 418 F. Supp. 107 (D.D.C. 1976)"
+  institution: "United States District Court for the District of Columbia; court original reproduced by Justia"
+  date: "1976-07-20"
+  type: original_federal_court_opinion_republished
+  primary: true
+  tier: A
+  url: https://law.justia.com/cases/federal/district-courts/FSupp/418/107/1603007/
+  accessed: "2026-11-23"
+  locator: "Beschreibt Anaconda-OPIC Schiedsentscheidung 17.07.1975, behauptete Kontakte des Schiedsrichters Sommers zu Curtis Mallet-Prevost und Wilmer Cutler Pickering; Gericht lehnt OPIC-Vacatur ab und bestätigt Haftung, kein richterlicher Korruptionsbefund."
+
+- id: SRC-ULF-TK-INTERIM-2010
+  title: "Zwischenbericht 9 Monate 2009/2010"
+  institution: "ThyssenKrupp AG"
+  date: "2010"
+  type: "interim_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/publikationen/zwischenberichte/deutsch/dokumente/thyssenkrupp_2009_2010_q3.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 32: ursprüngliche Ressortplanung und Bestellungsbeschluss vom 12.05.2010."
+
+- id: SRC-ULF-TK-BOARD-20121210
+  title: "Unternehmensmitteilung zur strategischen Weiterentwicklung und Vorstandsneuordnung"
+  institution: "ThyssenKrupp AG"
+  date: "2012-12-10"
+  type: "company_statement"
+  primary: true
+  tier: "A"
+  url: "https://www.thyssenkrupp-automotive-technology.com/de/presse/pressemitteilungen/thyssenkrupp-setzt-strategische-weiterentwicklung-im-geschaeftsjahr-2011-2012-entschlossen-fort-417.html"
+  accessed: "2026-11-24"
+  locator: "Aufsichtsratsbeschluss: einvernehmliches Ausscheiden Claassen, Berlien und Eichler; Unternehmensdarstellung."
+
+- id: SRC-ULF-TK-KPMG-2011
+  title: "KPMG: Angemessenheit, Implementierung und Wirksamkeit des Compliance Management Systems zum 30. September 2011 (Kurzfassung)"
+  institution: "KPMG AG Wirtschaftsprüfungsgesellschaft"
+  date: "2011-11-14"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/kpmg_pruefungsbericht_2011_09_30.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1, 4–9: Auftrag, Stichproben, Empfehlungen, Feststellungen und zeitlich/sachlich/geografisch begrenztes Prüfungsurteil."
+
+- id: SRC-ULF-TK-BDO-BOECKING-2013
+  title: "Bericht über die freiwillige Sonderprüfung bei der ThyssenKrupp AG, Essen"
+  institution: "BDO AG und Prof. Hans-Joachim Böcking"
+  date: "2013-11-12"
+  type: "audit_report"
+  primary: true
+  tier: "A"
+  url: "https://ucpcdn.thyssenkrupp.com/_legacy/UCPthyssenkruppAG/assets.files/media/unternehmen/compliance/pr%C3%BCfberichte/bericht_bdo_freiwillige_sonderpruefung_2013.pdf"
+  accessed: "2026-11-24"
+  locator: "S. 1–4: Auftrag und Datenbasis; S. 66–68: Reformstand und Richtlinie vom 05.02.2013; S. 74–78: Berichterstattung der Internen Revision. Getrennte Prüfungsverantwortung."
+
+- id: SRC-ULF-TK-EXTERNAL-AUDITS
+  title: "Unternehmensübersicht externe Prüfberichte"
+  institution: "ThyssenKrupp"
+  date: "current"
+  type: "organization_self_description"
+  primary: true
+  tier: "A"
+  url: "https://d27ltaouddsvax.cloudfront.net/de/unternehmen/compliance/pruefberichte"
+  accessed: "2026-11-24"
+  locator: "Unternehmensrückblick: HV-Ablehnung Januar 2013 und freiwillige Vereinbarung mit DSW und Strenger im Juli."
+
+- id: SRC-US-GAO-OPIC-FY1977-ID7836
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1977 (ID-78-36)"
+  institution: "U.S. General Accounting Office"
+  date: "1978-06-07"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-78-36.pdf"
+  accessed: '2026-11-24'
+  locator: "Anschreiben S. 1–2; Note 5 S. 9: ca. 36 Mio. USD Zahlungen über FFB-Verkauf mit Rückgriff; Chile-Bestände und Rückzahlungsforderungen; Appendix I S. 15 und Appendix II S. 17: Bergsten."
+
+- id: SRC-US-TREASURY-ANNUAL-REPORT-FY1977
+  title: "Annual Report of the Secretary of the Treasury, Fiscal Year 1977"
+  institution: "U.S. Department of the Treasury"
+  date: "1977"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194/annual-report-secretary-treasury-state-finances-fiscal-year-1977-5620/fulltext"
+  accessed: '2026-11-24'
+  locator: "Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhibit 36 S. 370–372, Bergsten 27.07.1977."
+
+- id: SRC-US-GAO-OPIC-FY1978-ID7921A
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1978 (ID-79-21A)"
+  institution: "U.S. General Accounting Office"
+  date: "1979-04-13"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-79-21a.pdf"
+  accessed: '2026-11-24'
+  locator: "Note 5(A), Note 7, S. 9 und 12: Chile-Garantien 166,624 Mio. USD, Forderungen, Raten."
+
+- id: SRC-US-GAO-OPIC-FY1979-ID8045
+  title: "Examination of Financial Statements of OPIC, Fiscal Year 1979 (ID-80-45)"
+  institution: "U.S. General Accounting Office"
+  date: "1980-06-05"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/id-80-45.pdf"
+  accessed: '2026-11-24'
+  locator: "Note 2: Bilanzierungsänderung ab 01.10.1978."
+
+- id: SRC-US-GAO-OPIC-FASICK-19770908
+  title: "GAO testimony on OPIC, J. Kenneth Fasick (103514)"
+  institution: "U.S. General Accounting Office"
+  date: "1977-09-08"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/assets/103514.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 2–4: OPIC 74,5 %, private 25,5 %, Lloyd's 12,5 % Gruppenanteil; Vertragsentwicklung und Privatisierungsanreiz."
+
+- id: SRC-US-GAO-OPIC-COOP-19750616
+  title: "Comptroller General decision B-173240"
+  institution: "U.S. General Accounting Office"
+  date: "1975-06-16"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.gao.gov/products/b-173240-20"
+  accessed: '2026-11-24'
+  locator: "Konkrete OIIG-Kooperation, Abgrenzung zum Beschaffungsvertrag."
+
+- id: SRC-US-PUBLIC-LAW-95-268-1978
+  title: "Public Law 95-268, 92 Stat. 213"
+  institution: "United States Congress"
+  date: "1978-04-24"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg213.pdf"
+  accessed: '2026-11-24'
+  locator: "§§ 3, 5–7: Änderung des Versicherungs- und Privatisierungsauftrags, FCPA-Klausel."
+
+- id: SRC-US-FRUS-CHILE-BETHLEHEM-19710330
+  title: "FRUS 1969–1976, Volume XXI, Document 217"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-03-30"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d217"
+  accessed: '2026-11-24'
+  locator: "S. 600: Bergsten an Kissinger; CAP/Bethlehem-Übernahme und OPIC-Mindestgarantie."
+
+- id: SRC-US-FRUS-CHILE-MILLS-19710527
+  title: "FRUS 1969–1976, Volume XXI, Document 231"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-05-27"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d231"
+  accessed: '2026-11-24'
+  locator: "Diplomatischer Bericht zum Gespräch Mills/Allende über ITT, Kennecott und Anaconda."
+
+- id: SRC-UN-UNTS405-US-CHILE-1960
+  title: "UNTS 405, No. 5829: United States–Chile investment guaranty agreement"
+  institution: "United Nations Treaty Series"
+  date: "1960-07-29"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 127–134; Notenwechsel, Inkrafttreten 15.02.1961."
+
+- id: SRC-UN-UNTS2014-US-CHILE-1983
+  title: "UNTS 2014, No. 34603: Investment Incentive Agreement"
+  institution: "United Nations Treaty Series"
+  date: "1983-09-22"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%202014/v2014.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 537–541, Art. 1–4, 6, 8–9; Inkrafttreten 14.02.1984."
+
+- id: SRC-UN-UNTS2016-CHILE-TERMINATION-1984
+  title: "UNTS 2016, A-5829: termination of agreement of 29 July 1960"
+  institution: "United Nations Treaty Series"
+  date: "1984-02-14"
+  type: original_official_document
+  primary: true
+  tier: A
+  url: "https://treaties.un.org/doc/Publication/UNTS/Volume%202016/v2016.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 25; registrierte Beendigung wirksam 14.02.1984."
+
+- id: SRC-CL-BCN-INVESTMENT-GUARANTY-SUPPLEMENT-1964
+  title: "Cámara de Diputados, Sesión 42ª, 8 de septiembre de 1964"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1964-09-08"
+  type: original_parliamentary_record
+  primary: true
+  tier: A
+  url: "https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F35343%2F1%2FC19640908_42.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 3151–3153: Präsidentenvorlage und Erläuterung des Zusatzabkommens vom 03.12.1963; Ratifikation vorausgesetzt."
+
+- id: SRC-CL-BCN-ALLENDE-WITHDRAWAL-1971
+  title: "Cámara de Diputados, Sesión 12ª, 13 de julio de 1971"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1971-07-13"
+  type: original_parliamentary_record
+  primary: true
+  tier: A
+  url: "https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales%2F10221.3%2F20137%2F1%2FC19710713_12.pdf"
+  accessed: '2026-11-24'
+  locator: "S. 1091: Oficio 13.794 vom 07.07.1971, Allende/Almeyda; S. 1106: Zustimmung der Kammer zur Rücknahme der Genehmigungsvorlage Boletín 2268."
+
+- id: SRC-CL-BCCH-ACTA87-1974
+  title: "Acta Comité Ejecutivo 87, sesión 2455"
+  institution: "Banco Central de Chile"
+  date: "1974-12-26"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/6451"
+  accessed: "2026-11-24"
+  locator: "S.2–3 Fol.1573–1574 Crédito 2; S.4–7 Fol.1575–1578 Exótica/OPIC, Riggs, fünf Noten. Textzugriff, PDF-Abruf 403."
+
+- id: SRC-CL-DL821-1974
+  title: "Decreto Ley 821: convenio de indemnización Exótica"
+  institution: "Biblioteca del Congreso Nacional de Chile"
+  date: "1974-12-27"
+  type: "original_statutory_compensation_agreement"
+  primary: true
+  tier: "A"
+  url: "https://www.bcn.cl/leychile/navegar?idNorma=133272&idVersion=1974-12-27"
+  accessed: "2026-11-24"
+  locator: "Erwägungen/Artículo único, Abtretung 06.10.1972, Vergleich 24.12.1974, 11,25+2,7 Mio., 4,575+9,375 Mio., 8,3% Zins."
+
+- id: SRC-UN-A9716-CHILE-1974
+  title: "A/9716: United Nations report on Chile (1974)"
+  institution: "United Nations"
+  date: "1974"
+  type: "original_un_report"
+  primary: true
+  tier: "A"
+  url: "https://digitallibrary.un.org/record/762013/files/A_9716-EN.pdf"
+  accessed: "2026-11-24"
+  locator: "Annex S.20 Fußnote d: Exótica rund 11,9 Mio. 1972 und Abtretung an OPIC."
+
+- id: SRC-US-CONGRESS-OPIC-ANACONDA-19720307
+  title: "Congressional Record: OPIC/Anaconda correspondence"
+  institution: "United States Congress"
+  date: "1972-03-07"
+  type: "original_congressional_correspondence_record"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/GPO-CRECB-1972-pt6/pdf/GPO-CRECB-1972-pt6-4-2.pdf"
+  accessed: "2026-11-24"
+  locator: "S.7277–7278: Mills 02.02. und Place 29.02.1972; 117,383 Mio. laut Place, 11,89 Mio. Exótica unstreitig."
+
+- id: SRC-US-SENATE-RIGGS-PINOCHET-2005
+  title: "Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet, S. Prt. 109-25"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2005-03"
+  type: "original_senate_investigative_report"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
+  accessed: "2026-11-24"
+  locator: "Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004."
+
+- id: SRC-US-DOJ-RIGGS-PLEA-2005
+  title: "Riggs Bank Pleads Guilty to Violating Bank Secrecy Act"
+  institution: "U.S. Department of Justice"
+  date: "2005-01-27"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archive/tax/usaopress/2005/txdv050530.html"
+  accessed: "2026-11-24"
+  locator: "BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/Äquatorialguinea."
+
+- id: SRC-US-GAO-OPIC-ID8340-1983
+  title: "Examination of Financial Statements of OPIC (ID-83-40)"
+  institution: "U.S. General Accounting Office"
+  date: "1983-05-06"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/id-83-40.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 5(A), S.10: Garantien weltweit 66 Mio., Chile 60,2 Mio."
+
+- id: SRC-US-GAO-OPIC-AFMD8525-1985
+  title: "Examination of Financial Statements of OPIC (AFMD-85-25)"
+  institution: "U.S. General Accounting Office"
+  date: "1985-03-05"
+  type: "original_financial_audit"
+  primary: true
+  tier: "A"
+  url: "https://www.gao.gov/assets/afmd-85-25.pdf"
+  accessed: "2026-11-24"
+  locator: "Note 7(C), S.9: FY84 Garantien weltweit 12,7 Mio., Chile 9,8 Mio."
+
+- id: SRC-US-DFC-INSURANCE-CLAIMS-2024
+  title: "Insurance Claims Experience to Date, 30 September 2024"
+  institution: "U.S. International Development Finance Corporation"
+  date: "2024-09-30"
+  type: "official_retrospective_insurance_claim_register"
+  primary: true
+  tier: "A"
+  url: "https://www.dfc.gov/sites/default/files/media/documents/2024-11-14T19_08_24.2239636Z-29-2024-11-13T18_10_33.4454408Z-29-FINAL-Insurance%20Claims%20Experience%20to%20Date%20-%2020241024_508.pdf"
+  accessed: "2026-11-24"
+  locator: "Ländertabelle Chile 25 Fälle, 315.998.415 settled, 335.620.632 recovered; Zinsen, Garantieabrufe."
+
+- id: SRC-CL-BCCH-DL600-1984
+  title: "Aspectos relevantes de la inversión extranjera en Chile: DL 600"
+  institution: "Banco Central de Chile"
+  date: "1984-10"
+  type: "original_central_bank_publication"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/handle/20.500.12580/3978"
+  accessed: "2026-11-24"
+  locator: "S.27–28: Abkommen seit 14.02.1984 ermöglicht OPIC-Wiederaufnahme."
+
+- id: SRC-CL-BCCH-ACTA1648-1985
+  title: "Acta Comité Ejecutivo 1648"
+  institution: "Banco Central de Chile"
+  date: "1985-05-15"
+  type: "original_central_bank_minutes"
+  primary: true
+  tier: "A"
+  url: "https://repositoriodigital.bcentral.cl/xmlui/bitstream/handle/20.500.12580/7155/Acta%20Comit%C3%A9%20Ejecutivo%20N%C2%B0%201648.pdf?isAllowed=y&sequence=1"
+  accessed: "2026-11-24"
+  locator: "Beschluss 1648-05-850515, Anlage Blatt23: Kontrolle/Registrierung OPIC-Mitteilungen."
+
+- id: SRC-US-FRUS-CHILE-DEBT-BANKS-19720112
+  title: "FRUS E–16, Doc 95: Chile debt renegotiations"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-01-12"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d95"
+  accessed: "2026-11-24"
+  locator: "S.498–505, 508: 43 Banken, FNCB/BoA Vorsitz; State-Kontakt und US-Planungspositionen."
+
+- id: SRC-US-FRUS-KORRY-MERCURIO-19700916
+  title: "FRUS XXI, Doc 97: Korry to Johnson"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-16"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d97"
+  accessed: "2026-11-24"
+  locator: "Interventionsbitte bei FNCB zugunsten El Mercurio; keine Ausführung belegt."
+
+- id: SRC-US-FRUS-KORRY-CREDIT-19700925
+  title: "FRUS XXI, Doc 120: Korry backchannel"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1970-09-25"
+  type: "declassified_diplomatic_telegram"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d120"
+  accessed: "2026-11-24"
+  locator: "Abs.8–15: Kreditdruck und Wirtschaftspublizistik, BoA/Anaconda, Ablehnung unmittelbar US-provozierten Putsches."
+
+- id: SRC-US-FRUS-CIA-STATE-MERCURIO-19720223
+  title: "FRUS XXI, Doc 290: McAfee to Cline"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-02-23"
+  type: "declassified_interagency_memorandum"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d290"
+  accessed: "2026-11-24"
+  locator: "El Mercurio ca. 400.000 USD Auslandsschulden, Wisconsin 293.000, FNCB und Sun Chemical."
+
+- id: SRC-US-FRUS-40-COMMITTEE-MERCURIO-19720410
+  title: "FRUS XXI, Doc 295: Jorden to Kissinger"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1972-04-10"
+  type: "declassified_covert_action_approval_record"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d295"
+  accessed: "2026-11-24"
+  locator: "965.000 USD Zusatzhilfe gebilligt; Verbindlichkeiten, Defizit, Lieferkredit, Reserve."
+
+- id: SRC-US-FRUS-CIA-CHILE-19730916
+  title: "FRUS E–16, Doc 145: CIA assessment of covert action in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1973-09-16"
+  type: "declassified_intelligence_report"
+  primary: true
+  tier: "A"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76ve16/d145"
+  accessed: "2026-11-24"
+  locator: "Rückblick: Billigung 12.04.1972, d108 Editionsanmerkung 11.04."
+
+- id: SRC-US-SEC-FNCB-CITIBANK-NAME-1976
+  title: "Consumers Energy: One Hundred Second Supplemental Indenture, 13 April 2005"
+  institution: "Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR"
+  date: "2005-04-13"
+  type: "filed_corporate_contract"
+  url: "https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm"
+  locator: "Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-SEC-CITIBANK-OWNERSHIP-2004
+  title: "Form 424B5: Citibank, N.A. corporate ownership (2004)"
+  institution: "SEC EDGAR, eingereichter Wertpapierprospekt"
+  date: "2004"
+  type: "filed_securities_prospectus"
+  url: "https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm"
+  locator: "Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
+
+- id: SRC-US-FRUS-KENNECOTT-COPPER-19710929
+  title: "FRUS XXI, Doc 261: The Copper Crunch in Chile"
+  institution: "U.S. Department of State, Office of the Historian"
+  date: "1971-09-29"
+  type: "declassified_nsc_memorandum"
+  url: "https://history.state.gov/historicaldocuments/frus1969-76v21/d261"
+  locator: "NSC-Memo an Kissinger: Kennecott-OPIC-Deckung ca.85 Mio. USD; keine Auszahlung."
+  primary: true
+  tier: "A"
+  accessed: "2026-11-24"
