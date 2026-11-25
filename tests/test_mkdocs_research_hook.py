@@ -119,6 +119,11 @@ class ResearchPagesTests(unittest.TestCase):
             "riggs-aequatorialguinea-oelkonzerne-1995-2005.md": "geheimbuende-banken",
             "udo-ulfkotte-bnd-faz-cia-medien-1976-2026.md": "medieneinfluss",
             "ulfkotte-glenn-miller-geheimakten-belegpruefung-1944-1997.md": "quellenkritik",
+            "wilhelm-classen-naumann-cia-bnd-archivspuren-1934-1967.md": "nachrichtendienste",
+            "okkultismus-geheimbuende-machtverflechtungen-2026-10-26.md": "geheimbuende-banken",
+            "epstein-20-todesfaelle-quellenpruefung-2012-2026.md": "missbrauch-justiz",
+            "riggs-obiang-gerichtsverfahren-vermoegensrueckfuehrung-2014-2026.md": "geheimbuende-banken",
+            "riggs-obiang-korrespondenzbanken-aufsicht-2001-2010.md": "geheimbuende-banken",
             "dutroux-parlament-nihoul-netzwerke-1986-2026.md": "missbrauch-justiz",
         }
         for name, expected in examples.items():
