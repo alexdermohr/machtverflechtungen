@@ -2181,3 +2181,261 @@ entities:
     name: "US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972)"
     countries: ["US", "CL"]
     notes: "Acta 87 vom 26.12.1974 nennt den Zusatzkredit aus 1972, aber nicht sämtliche Kreditgeber. Keine Gleichsetzung mit den 43 Banken der Sitzung vom 14.12.1971."
+
+  - id: ORG-US-BOFA-ACCOUNT-GROUP-1993-2004
+    type: "banking_group"
+    name: "Bank of America – Kontenverbund laut Senatsbericht 2005"
+    countries: ["US"]
+    notes: "Retrospektive Bezeichnung des Kontenverbunds 1993–2004; keine Gleichsetzung mit dem Rechtsträger der Chile-Kredite 1970–1978. Holdinggeschichte 1998, FleetBoston 2004 beachten."
+
+  - id: ORG-CL-BANKBOSTON-CHILE-2001
+    type: "commercial_bank"
+    name: "BankBoston Chile (2001)"
+    countries: ["CL", "US"]
+    notes: "Historische BankBoston-Niederlassung; zwei 2001 eingelöste Riggs-Schecks liegen vor dem späteren Erwerb von FleetBoston durch Bank of America."
+
+  - id: PER-CL-INES-LUCIA-PINOCHET
+    type: "person"
+    name: "Inés Lucía Pinochet"
+    countries: ["CL"]
+    notes: "Im Senatsbericht 2005 dokumentierte historische Bankbeziehungen; keine pauschale Straftatzuordnung."
+
+  - id: ORG-US-PINEBANK-MIAMI
+    type: "commercial_bank"
+    name: "PineBank (Miami)"
+    countries: ["US"]
+    notes: "Historische Empfängerbank 2002 nach S. Prt. 109–25."
+
+  - id: ORG-US-OCEAN-BANK-MIAMI
+    type: "commercial_bank"
+    name: "Ocean Bank (Miami)"
+    countries: ["US"]
+    notes: "Historischer Pinochet-Familienkontenkomplex im Senatsbericht; keine pauschale Deliktzuweisung."
+
+  - id: ORG-US-ESPIRITO-SANTO-BANK-MIAMI
+    type: "commercial_bank"
+    name: "Espírito Santo Bank (Miami)"
+    countries: ["US", "PT"]
+    notes: "Historische US-Bank; nicht mit der Cayman-Gesellschaft BESIL oder heutiger Konzernstruktur gleichsetzen."
+
+  - id: ORG-PT-BANCO-ESPIRITO-SANTO-2005
+    type: "commercial_bank"
+    name: "Banco Espírito Santo (Lissabon, 2005)"
+    countries: ["PT"]
+    notes: "Im Senatsbericht 2005 als Muttergesellschaft der Miami-Bank bezeichnet."
+
+  - id: ORG-BS-DELOITTE-TOUCHE-1991
+    type: "professional_services"
+    name: "Deloitte & Touche (Bahamas, 1991)"
+    countries: ["BS"]
+    notes: "Historische im Bericht genannte Dienstleistungseinheit. Nicht automatisch dem heutigen weltweiten Deloitte-Verbund zurechnen."
+
+  - id: ORG-US-COUTTS-INTERNATIONAL-1999
+    type: "commercial_bank"
+    name: "Coutts & Co. (USA) International (1999)"
+    countries: ["US", "GB"]
+    notes: "Historisches Privatbankgeschäft; spätere Übernahme durch Santander getrennt modelliert."
+
+  - id: ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004
+    type: "commercial_bank"
+    name: "Banco Santander Central Hispano (2004)"
+    countries: ["ES"]
+    notes: "Historischer Konzern; Empfängerbank Madrid im Kalunga-Komplex und Käufer von Coutts-Geschäft. Keine Identität der Geschäftssegmente unterstellt."
+
+  - id: ORG-ES-BANCO-ATLANTICO-1981-2000
+    type: "commercial_bank"
+    name: "Banco Atlántico (1981–2000)"
+    countries: ["ES", "US"]
+    notes: "Im Senatsbericht dokumentierter historischer Bankverbund; nicht mit späteren Eigentümern gleichsetzen."
+
+  - id: ORG-CL-BANCO-DE-CHILE-2005
+    type: "commercial_bank"
+    name: "Banco de Chile (einschließlich US-Niederlassung)"
+    countries: ["CL", "US"]
+    notes: "Geldwäscheaufsicht 2005/2008; Chile- und US-Transaktionen im jeweiligen Label unterschieden."
+
+  - id: PER-US-ASHLEY-LEE
+    type: "person"
+    name: "R. Ashley Lee"
+    countries: ["US"]
+    notes: "Ehemaliger OCC-Prüfer, später Riggs-Funktion. Strittige Vorwürfe, Bestreiten und namenloser Ermittlungsabschluss OIG 2006 in der Studie zusammen dokumentiert."
+
+  - id: ORG-US-FINCEN
+    type: "government_agency"
+    name: "Financial Crimes Enforcement Network (FinCEN)"
+    countries: ["US"]
+    notes: "Koordinierte Geldbuße mit OCC 2004; keine Addition der gleichlautenden Sanktionen."
+
+  - id: ORG-US-RIGGS-NATIONAL-CORPORATION
+    type: "bank_holding_company"
+    name: "Riggs National Corporation"
+    countries: ["US"]
+    notes: "Historische Muttergesellschaft von Riggs Bank; SEC-Emittentin. Nicht mit der Bank als eigenständigem Rechtsträger verwechseln."
+
+  - id: ORG-US-ALLBRITTON-COMMUNICATIONS-2004
+    type: "media_company"
+    name: "Allbritton Communications Company (2004)"
+    countries: ["US"]
+    notes: "Historische Mediengesellschaft; Geschäftsvorgang mit Riggs-Holding 2004 belegt, keine redaktionelle Einflussnahme nachgewiesen."
+
+  - id: ORG-US-PERPETUAL-CORPORATION-2004
+    type: "holding_company"
+    name: "Perpetual Corporation (2004)"
+    countries: ["US"]
+    notes: "In der SEC-Meldung als Muttergesellschaft von Allbritton Communications bezeichnet."
+
+  - id: PER-US-LAWRENCE-I-HEBERT
+    type: "person"
+    name: "Lawrence I. Hebert"
+    countries: ["US"]
+    notes: "Parallelfunktionen bei Bank und Medienkonzern laut SEC-8-K; keine Straftat aus Personalunion abgeleitet."
+
+  - id: PER-US-ROBERT-ALLBRITTON
+    type: "person"
+    name: "Robert Allbritton"
+    countries: ["US"]
+    notes: "Historische Leitung von Riggs-Holding und Bank; Rücktritt 07.03.2005."
+
+  - id: PER-US-STEVEN-B-PFEIFFER
+    type: "person"
+    name: "Steven B. Pfeiffer"
+    countries: ["US"]
+    notes: "Im Senatsbericht 2004 als Direktor und Partner der beauftragten Kanzlei genannt."
+
+  - id: ORG-US-FULBRIGHT-JAWORSKI-2004
+    type: "law_firm"
+    name: "Fulbright & Jaworski (2004)"
+    countries: ["US"]
+    notes: "Historische Kanzlei; Rechtsberatung ist keine nachgewiesene Beteiligung an einer Straftat."
+
+  - id: DOC-US-PL108-458-SEC6303
+    type: "statute_document"
+    name: "Public Law 108–458, Section 6303 (2004)"
+    countries: ["US"]
+    notes: "Bankprüfer-Beschäftigungsbeschränkung mit Voraussetzungen und Ausnahmen, keine Rückwirkung auf 2002."
+
+  - id: ORG-GQ-GOVERNMENT-1995-2004
+    type: "government"
+    name: "Regierung Äquatorialguineas (1995–2004)"
+    countries: ["GQ"]
+    notes: "Staatlicher Öleinnahmen- und Bankkontenkomplex; Staatsgeld nicht mit persönlichem Vermögen gleichsetzen."
+
+  - id: PER-GQ-TEODORO-OBIANG
+    type: "person"
+    name: "Teodoro Obiang Nguema Mbasogo"
+    countries: ["GQ"]
+    notes: "Präsident im Untersuchungszeitraum, historisch dokumentierte Geschäftsverflechtungen."
+
+  - id: PER-GQ-CONSTANCIA-MANGUE
+    type: "person"
+    name: "Constancia Mangue Nsue de Obiang"
+    countries: ["GQ"]
+    notes: "Präsidentengattin im Untersuchungszeitraum; Mietbeziehungen nach Senatsbericht 2004."
+
+  - id: ORG-PA-KALUNGA-COMPANY-SA
+    type: "company"
+    name: "Kalunga Company S.A."
+    countries: ["PA"]
+    notes: "Gesellschaft laut Senatsbericht; Empfängerkonto Madrid. Wirtschaftlich Berechtigte nicht abschließend geklärt."
+
+  - id: ORG-CY-APEXSIDE-TRADING-LTD
+    type: "company"
+    name: "Apexside Trading Ltd."
+    countries: ["CY"]
+    notes: "Gesellschaft laut Senatsbericht; Luxemburg-Konten. Wirtschaftlich Berechtigte nicht abschließend geklärt."
+
+  - id: ORG-LU-CREDIT-COMMERCIAL-DE-FRANCE-2000
+    type: "commercial_bank"
+    name: "Crédit Commercial de France (Luxemburg, 2000–2001)"
+    countries: ["LU", "FR"]
+    notes: "Historische Empfängerbank, getrennt von französischer und Schweizer Gesellschaft."
+
+  - id: ORG-LU-HSBC-LUXEMBOURG-2001
+    type: "commercial_bank"
+    name: "HSBC (Luxemburg, 2001)"
+    countries: ["LU"]
+    notes: "Historischer im Überweisungsbericht genannter Bankstandort; keine gesicherte individuelle Betragszuordnung."
+
+  - id: ORG-INT-JADINI-HOLDINGS
+    type: "company"
+    name: "Jadini Holdings Ltd."
+    countries: []
+    notes: "Senatsbericht: durch Ehefrau des Riggs-Kundenbetreuers kontrollierte Gesellschaft. Keine eigenständige strafrechtliche Schuldzuweisung."
+
+  - id: PER-GQ-MELCHOR-ESONO-EDJO
+    type: "person"
+    name: "Melchor Esono Edjo"
+    countries: ["GQ"]
+    notes: "Historischer Staatssekretär für Haushalt/Finanzen; Überweisungen laut Senatsbericht."
+
+  - id: ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC
+    type: "oil_company"
+    name: "Mobil Equatorial Guinea Inc. (MEGI)"
+    countries: ["GQ", "US"]
+    notes: "Historische ExxonMobil-Gesellschaft; nicht mit MOGE gleichsetzen."
+
+  - id: ORG-GQ-MOGE-JOINT-VENTURE
+    type: "joint_venture"
+    name: "MOGE (Gemeinschaftsunternehmen, 1998)"
+    countries: ["GQ"]
+    notes: "Historische Beteiligung 85/15 laut Unternehmensantwort im Senatsbericht; getrennt von MEGI."
+
+  - id: ORG-US-MOBIL-INTERNATIONAL-PETROLEUM
+    type: "oil_company"
+    name: "Mobil International Petroleum Corporation (1998)"
+    countries: ["US"]
+    notes: "Laut ExxonMobil-Antwort Anteilseigner von MOGE."
+
+  - id: ORG-US-EXXONMOBIL-REPORT-2004
+    type: "oil_company"
+    name: "ExxonMobil (berichteter Unternehmensverbund 2004)"
+    countries: ["US"]
+    notes: "Aggregat der im Bericht beschriebenen Einheiten; keine Gleichsetzung einzelner Tochterunternehmen."
+
+  - id: ORG-GQ-ABAYAK-SA
+    type: "company"
+    name: "Abayak S.A. (1998–2004)"
+    countries: ["GQ"]
+    notes: "Vom Präsidenten kontrollierte Gesellschaft laut Senatsbericht; keine vollständige Eigentümerhistorie."
+
+  - id: ORG-GQ-SONAVI
+    type: "security_company"
+    name: "Sonavi (Sicherheitsdienst)"
+    countries: ["GQ"]
+    notes: "Kontrolle durch Bruder des Präsidenten nach Senatsbericht; Vergütung und behauptete Marktbedingungen getrennt."
+
+  - id: PER-GQ-ARMENGOL-ONDO-NGUEMA
+    type: "person"
+    name: "Armengol Ondo Nguema"
+    countries: ["GQ"]
+    notes: "Bruder des Präsidenten; Kontrolle von Sonavi laut Untersuchungsbericht."
+
+  - id: ORG-US-AMERADA-HESS-2004
+    type: "oil_company"
+    name: "Amerada Hess (Unternehmensverbund, 2004)"
+    countries: ["US"]
+    notes: "Historischer Konzernname und damalige Unternehmensantworten; keine pauschale Zurechnung an spätere Eigentümer."
+
+  - id: ORG-US-MARATHON-OIL-2004
+    type: "oil_company"
+    name: "Marathon Oil (2004)"
+    countries: ["US"]
+    notes: "Historischer Unternehmensverbund im Senatsbericht; Landzahlungen und Gemeinschaftsunternehmen getrennt."
+
+  - id: ORG-GQ-AMPCO-METHANOL
+    type: "joint_venture"
+    name: "Atlantic Methanol Production Company (AMPCO)"
+    countries: ["GQ"]
+    notes: "Historische Anteile 45/45/10 und Dividenden nach Senatsbericht."
+
+  - id: ORG-GQ-GEOGAM
+    type: "company"
+    name: "GEOGAM (2004)"
+    countries: ["GQ"]
+    notes: "10-%-Beteiligung an AMPCO belegt; Angaben zu eigener Eigentümerstruktur widersprüchlich."
+
+  - id: ORG-GQ-ATSIGE
+    type: "company"
+    name: "ATSIGE (2000–2004)"
+    countries: ["GQ"]
+    notes: "Im Senatsbericht als Gesellschaft des damaligen Innenministers bezeichnet; keine vollständige Eigentümerprüfung."

@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**414 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**426 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-de-wsg-freundeskreis-einladung-1976) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-int-nato-warsaw-summit-2016) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-uy-impo-ley15322-1982-original) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -682,6 +682,21 @@ Fundstelle: PDF S. 148–150: Veränderungen im Verwaltungsrat und 1939er Gremie
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-bofa-424b5-2005"></a>
+### Bank of America Corporation / SEC
+
+**[Bank of America Corporation, Prospectus Supplement Form 424B5](https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm)**
+
+Bank of America Corporation / SEC · 2005-02 · Stufe **A** · Primärquelle · `SRC-US-SEC-BOFA-424B5-2005`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/70858/000119312505033810/d424b5.htm)
+
+Fundstelle: Bank of America Corporation – General; Namens-/Fusionsgeschichte 1998 und FleetBoston 01.04.2004. Suchauszug, erneuter Vollabruf fehlgeschlagen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-bymr-td-19530113"></a>
@@ -979,6 +994,36 @@ Board of Governors of the Federal Reserve System · 1991-07-29 · Stufe **A** ·
 [PDF öffnen](https://www.federalreserve.gov/supervisionreg/files/19910729.pdf)
 
 Fundstelle: Pressemitteilung S. 1–3; Anlage zur nicht genehmigten wirtschaftlichen Beteiligung an CCAH
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-fed-banco-de-chile-order-2005"></a>
+### Board of Governors of the Federal Reserve System
+
+**[Order to Cease and Desist, Banco de Chile and Miami Branch](https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf)**
+
+Board of Governors of the Federal Reserve System · 2005-02-01 · Stufe **A** · Primärquelle · `SRC-US-FED-BANCO-DE-CHILE-ORDER-2005`
+
+[PDF öffnen](https://www.federalreserve.gov/boarddocs/press/enforcement/2005/20050202/attachment.pdf)
+
+Fundstelle: Docket 05-001-B-FR; Maßnahmen gegen Mängel bei Geldwäscheprävention. Keine strafrechtliche Verurteilung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
+<a id="src-us-fed-banco-de-chile-termination-2008"></a>
+### Board of Governors of the Federal Reserve System
+
+**[Termination of enforcement action against Banco de Chile](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm)**
+
+Board of Governors of the Federal Reserve System · 2008-06-04 · Stufe **A** · Primärquelle · `SRC-US-FED-BANCO-DE-CHILE-TERMINATION-2008`
+
+[Seite öffnen](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm)
+
+Fundstelle: Beendigung der Anordnung zum 02.06.2008.
 
 </article>
 
@@ -2375,6 +2420,21 @@ Fundstelle: Vol. III Tomo VI, PDF 231–255, v.a. 242–245: 1979er 12,5 Mio. US
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-fincen-riggs-cmp-20040513"></a>
+### Financial Crimes Enforcement Network
+
+**[FinCEN Assesses $25 Million Civil Money Penalty Against Riggs Bank, N.A.](https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na)**
+
+Financial Crimes Enforcement Network · 2004-05-13 · Stufe **A** · Primärquelle · `SRC-US-FINCEN-RIGGS-CMP-20040513`
+
+[Seite öffnen](https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na)
+
+Fundstelle: Koordinierte OCC-/FinCEN-Sanktionen, durch eine Zahlung von 25 Mio. USD an Treasury zu erfüllen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1976">
 
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
@@ -3153,6 +3213,36 @@ Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-occ-qmd-aml-2005"></a>
+### OCC Quality Management Division
+
+**[Bank Secrecy Act/Anti-Money Laundering Supervision, Final Report](https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf)**
+
+OCC Quality Management Division · 2005-05-18 · Stufe **A** · Primärquelle · `SRC-US-OCC-QMD-AML-2005`
+
+[PDF öffnen](https://www.gpo.gov/fdsys/pkg/CHRG-112shrg76646/pdf/CHRG-112shrg76646.pdf)
+
+Fundstelle: Anlage in S. Hrg. 112–597, Vol. 2 (17.07.2012), Druck-S. 1247 ff., 1250–1251, 1254, 1271–1272. Nicht 112–766. Textansicht; Faksimileabruf fehlgeschlagen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-occ-riggs-supervision-20040603"></a>
+### Office of the Comptroller of the Currency
+
+**[Comptroller Hawke Orders Review of OCC's Supervision of Riggs Bank](https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html)**
+
+Office of the Comptroller of the Currency · 2004-06-03 · Stufe **A** · Primärquelle · `SRC-US-OCC-RIGGS-SUPERVISION-20040603`
+
+[Seite öffnen](https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-43.html)
+
+Fundstelle: NR 2004-43: erkannte Mängel seit 1997 und unzureichend frühe förmliche Durchsetzung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-stammheim-herold-184-19770315"></a>
@@ -3270,6 +3360,21 @@ Revista CONVICCIÓN, Montevideo; Biblioteca Digital de Uruguay · 1984-02-16 · 
 [PDF öffnen](https://bibliotecadigital.bibna.gub.uy/jspui/bitstream/123456789/148461/1/Conviccion_N10.pdf)
 
 Fundstelle: PDF-Seite 7, Bankbrief: NMB im ersten Quartal 1983 mehrheitlich beteiligt und beanspruchte 100% 1984; Redaktion zu Mario Ortolani
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-sec-riggs-8k-20050311"></a>
+### Riggs National Corporation / SEC
+
+**[Riggs National Corporation, Current Report on Form 8-K](https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm)**
+
+Riggs National Corporation / SEC · 2005-03-11 · Stufe **A** · Primärquelle · `SRC-US-SEC-RIGGS-8K-20050311`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/350847/000095013305000986/w06732e8vk.htm)
+
+Fundstelle: Item 5.02: Rücktritt Robert Allbritton, Hebert-Funktionen, related business transactions 2004.
 
 </article>
 
@@ -3643,6 +3748,21 @@ U.S. Army Southern European Task Force, Africa · 2025-12-22 · Stufe **A** · P
 [Seite öffnen](https://www.army.mil/article-amp/289747/setaf_af_public_affairs_experiment_with_emerging_technology_to_shape_the_information_environment)
 
 Fundstelle: Offene Erprobung von Palantirs Maven Smart System in Army Public Affairs zur Informationslage und Narrativkommunikation; kein verdeckter Geheimdienstbeweis.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-public-law-108-458-2004"></a>
+### U.S. Congress
+
+**[Intelligence Reform and Terrorism Prevention Act of 2004, Public Law 108–458](https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm)**
+
+U.S. Congress · 2004-12-17 · Stufe **A** · Primärquelle · `SRC-US-PUBLIC-LAW-108-458-2004`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/PLAW-108publ458/html/PLAW-108publ458.htm)
+
+Fundstelle: Sec. 6303(b), (d), 118 Stat. 3751–3754: 12 USC 1820(k), Wirksamkeit nach zwölf Monaten.
 
 </article>
 
@@ -4126,6 +4246,21 @@ Fundstelle: Berichtsjahr FY1977; S. 33–35: FFB-Governance/Refinanzierung; Exhi
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-us-treasury-oig-sar-2006-03"></a>
+### U.S. Department of the Treasury, Office of Inspector General
+
+**[Semiannual Report to the Congress, October 2005–March 2006](https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf)**
+
+U.S. Department of the Treasury, Office of Inspector General · 2006-03 · Stufe **A** · Primärquelle · `SRC-US-TREASURY-OIG-SAR-2006-03`
+
+[PDF öffnen](https://oig.treasury.gov/system/files/Documents/Spring2006SAR.pdf)
+
+Fundstelle: S. 17: Former OCC Examiner-in-Charge Cleared of Wrongdoing. Kein Name im Bericht; Amt und spätere Riggs-Funktion passen zum Lee-Vorgang.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-us-court-first-american-bcci-1998"></a>
@@ -4471,6 +4606,36 @@ Fundstelle: Executive Officers, Donald E. Graham, Chairman and Chief Executive O
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-senate-riggs-hearing-2004"></a>
+### U.S. Senate
+
+**[Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act, S. Hrg. 108–633](https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf)**
+
+U.S. Senate · 2004-07-15 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-HEARING-2004`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf)
+
+Fundstelle: Druck-S. 17–23, 35–37; Exhibits 7b (S. 260), 48a/48b (S. 487/490). Zeugenaussagen; Voll-PDF beim erneuten Abruf nicht vollständig verfügbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-us-senate-report-109-368-2006"></a>
+### U.S. Senate
+
+**[Report of the Permanent Subcommittee on Investigations, S. Rept. 109–368](https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm)**
+
+U.S. Senate · 2006-12-22 · Stufe **A** · Primärquelle · `SRC-US-SENATE-REPORT-109-368-2006`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CRPT-109srpt368/html/CRPT-109srpt368.htm)
+
+Fundstelle: Abschnitt B: Money Laundering and Foreign Corruption; Zusammenhang Riggs-Untersuchung und Beschäftigungsbeschränkung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
 
 <a id="src-us-nara-church-chile-1975"></a>
@@ -4486,6 +4651,21 @@ Fundstelle: Abschnitte II.B/II.C, IV.A/IV.D–IV.F, V.E; 1964 CIA-Finanzierung, 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-us-senate-riggs-report-2004"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act – Staff Report](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2004-07-15 · Stufe **A** · Primärquelle · `SRC-US-SENATE-RIGGS-REPORT-2004`
+
+[PDF öffnen](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT-Money%20Laundering%20%26%20Foreign%20Corruption%20%28July%202004%29.pdf)
+
+Fundstelle: Interne S. 2, 10–11, 28, 40–42, 65–66, 73–79; Druck-S. 130, 138–139, 156, 168–170, 192–193, 200–206. Zeitgenössische Untersuchungsbefunde und Unternehmensantworten; Textansicht, Faksimileabruf fehlgeschlagen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
 
 <a id="src-us-senate-riggs-pinochet-2005"></a>
@@ -4497,7 +4677,7 @@ U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** �
 
 [Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
 
-Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004.
+Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004. Ergänzung: Abschnitte V.B–E (Banco de Chile, Espírito Santo, weitere Banken), Fn. 133, 140, 141; 1991er Deloitte-Transfers, Bankwechsel, BankBoston, Banco Atlántico, Coutts und Santander. Chilenische Gerichtsakte nur zitiert, nicht unabhängig gelesen.
 
 </article>
 
