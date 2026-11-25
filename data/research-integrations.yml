@@ -766,7 +766,7 @@ studies:
       - REL-US-DOD-CHILE-MILITARY-CREDIT-POSITION-1972
 
   woolsey-wirtschaftsaufklaerung-osac-sivam-1985-2008.md:
-    sha256: a5f85b4421bdcda424a6bdf1461ab0b2bed5392fbc2cbee017bb1e27cfdd4486
+    sha256: 85df450c91e3971f0638074bc4cbcc4a009a04581f9bf8fa10f9d742216c05bc
     status: network
     relation_ids:
       - REL-WS-IC-STATE
