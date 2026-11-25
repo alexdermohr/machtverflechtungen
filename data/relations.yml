@@ -4693,10 +4693,10 @@ relations:
     from: "PER-US-LAWRENCE-I-HEBERT"
     to: "ORG-US-RIGGS-NATIONAL-BANK"
     type: "chief_executive"
-    label: "Bank-CEO seit Februar 2001; am 09.03.2005 zum Holding-CEO ernannt (vorbehaltlich Aufsichtsgenehmigung)."
+    label: "Bankpräsident und CEO seit Februar 2001; SEC-Mitteilung vom 11.03.2005 nennt ihn weiterhin in dieser Funktion. Ausscheidensdatum nicht belegt."
     evidence_level: "established"
     sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
-    period: {"start": "2001", "end": "2005-03-09"}
+    period: {"start": "2001"}
 
   - id: REL-RIGGS-FOLLOWUP-031
     from: "PER-US-LAWRENCE-I-HEBERT"
@@ -4967,3 +4967,12 @@ relations:
     evidence_level: "established"
     sources: ["SRC-US-SENATE-RIGGS-REPORT-2004"]
     period: {"start": "2000", "end": "2004"}
+
+  - id: REL-RIGGS-FOLLOWUP-061
+    from: "PER-US-LAWRENCE-I-HEBERT"
+    to: "ORG-US-RIGGS-NATIONAL-CORPORATION"
+    type: "conditional_executive_appointment"
+    label: "Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."
+    evidence_level: "established"
+    sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
+    period: {"start": "2005-03-09"}

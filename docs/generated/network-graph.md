@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**552 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**553 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -942,7 +942,7 @@ flowchart LR
     N_PER_US_ROBERT_ALLBRITTON -->|"CEO und Chairman der Holding bis Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
     N_PER_US_ROBERT_ALLBRITTON -->|"Chairman von Riggs Bank; Rücktritt 07.03.2005."| N_ORG_US_RIGGS_NATIONAL_BANK
     N_PER_US_LAWRENCE_I_HEBERT["Lawrence I. Hebert"]
-    N_PER_US_LAWRENCE_I_HEBERT -->|"Bank-CEO seit Februar 2001; am 09.03.2005 zum Holding-CEO ernannt (vorbehaltlich Aufsichtsgenehmigung)."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Bankpräsident und CEO seit Februar 2001; SEC-Mitteilung vom 11.03.2005 nennt ihn weiterhin in dieser Funktion. Ausscheidensdatum nicht belegt."| N_ORG_US_RIGGS_NATIONAL_BANK
     N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004["Allbritton Communications Company (2004)"]
     N_PER_US_LAWRENCE_I_HEBERT -->|"Weitere Leitungsfunktionen bei Allbritton Communications bis Oktober 2004, parallel zur Bankleitung."| N_ORG_US_ALLBRITTON_COMMUNICATIONS_2004
     N_ORG_US_PERPETUAL_CORPORATION_2004["Perpetual Corporation (2004)"]
@@ -998,6 +998,7 @@ flowchart LR
     N_ORG_GQ_AMPCO_METHANOL -->|"Mehr als 4 Mio. USD Dividenden 2002 bis Mai 2004; keine gesicherte Zurechnung an Präsidentenfamilie."| N_ORG_GQ_GEOGAM
     N_ORG_GQ_ATSIGE["ATSIGE (2000–2004)"]
     N_ORG_GQ_MOGE_JOINT_VENTURE -->|"236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."| N_ORG_GQ_ATSIGE
+    N_PER_US_LAWRENCE_I_HEBERT -->|"Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
 ```
 
 [Zur Relationstabelle](network.md)

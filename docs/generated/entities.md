@@ -74,7 +74,7 @@
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
-| Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [3](network.md#rel-riggs-followup-030) |
+| Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
@@ -369,7 +369,7 @@
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [28](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
-| Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [4](network.md#rel-riggs-followup-027) |
+| Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [5](network.md#rel-riggs-followup-027) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Rocky Mountain Institute | research_institute | `ORG-US-RMI` | US | [1](network.md#rel-ulf-woolsey-rmi) |

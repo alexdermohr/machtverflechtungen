@@ -766,7 +766,7 @@ studies:
       - REL-US-DOD-CHILE-MILITARY-CREDIT-POSITION-1972
 
   riggs-pinochet-banken-aufsicht-medien-1981-2012.md:
-    sha256: f00971ba256f82ccdd37441babfbab80f26f42240ae3d13272fd5e42615ee4b2
+    sha256: 4544c8b546270681757143e650e9ec471d6fcd2c47a4c4ba5259e6ec7a055d5d
     status: network
     relation_ids:
       - REL-RIGGS-FOLLOWUP-001
@@ -806,6 +806,7 @@ studies:
       - REL-RIGGS-FOLLOWUP-035
       - REL-RIGGS-FOLLOWUP-036
       - REL-RIGGS-FOLLOWUP-037
+      - REL-RIGGS-FOLLOWUP-061
 
   riggs-aequatorialguinea-oelkonzerne-1995-2005.md:
     sha256: 82723a63023958766f2e9ae30fcecae747f406e77fb1ddd6a1239d75da405919
