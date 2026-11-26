@@ -2913,3 +2913,142 @@ entities:
     name: "World Health Organization (WHO)"
     countries: []
     notes: ""
+
+  - id: ORG-DE-INSM
+    type: organization
+    name: Initiative Neue Soziale Marktwirtschaft (INSM)
+    countries:
+    - DE
+    notes: Historische Auftraggeberrolle 2002; keine pauschale Zurechnung anderer Kampagnen.
+  - id: ORG-DE-HS-2002
+    type: historical_company
+    name: H.+S. Unternehmensberatung (München, 2002)
+    countries:
+    - DE
+    notes: Vermittler laut DRPR; Klägerin des anonymisierten OLG-Verfahrens nicht sicher identifiziert.
+  - id: ORG-DE-KW-2002
+    type: historical_company
+    name: Kultur + Werbung (K+W, 2002–2005)
+    countries:
+    - DE
+    notes: Schwesterfirma laut DRPR, historischer Agenturkanal.
+  - id: ORG-DE-BAVARIA-SONOR-2005
+    type: historical_company
+    name: Bavaria Sonor (Placement-Abwicklung 2002–2005)
+    countries:
+    - DE
+    notes: Abrechnung und Vertragsabwicklung; vom Auftragsproduzenten Bavaria Film unterscheiden.
+  - id: ORG-DE-BAVARIA-FILM-2005
+    type: historical_company
+    name: Bavaria Film GmbH (2005)
+    countries:
+    - DE
+    notes: Auftragsproduzent; damalige Gesellschafter nach eigener Erklärung.
+  - id: PRG-DE-MARIENHOF-2002
+    type: television_program
+    name: ARD-Serie Marienhof (Placement-Untersuchung 2002–2005)
+    countries:
+    - DE
+    notes: Historischer Untersuchungsgegenstand; keine Zurechnung sämtlicher Placements zur INSM.
+  - id: ORG-DE-BR
+    type: public_broadcaster
+    name: Bayerischer Rundfunk
+    countries:
+    - DE
+    notes: Abnehmende Redaktion für Marienhof laut Bavaria.
+  - id: ORG-DE-MDR
+    type: public_broadcaster
+    name: Mitteldeutscher Rundfunk
+    countries:
+    - DE
+    notes: In der Erklärung 2005 als Gesellschafter genannt.
+  - id: ORG-DE-SWR
+    type: public_broadcaster
+    name: Südwestrundfunk
+    countries:
+    - DE
+    notes: Gesellschafter und Revisionsfunktion im Untersuchungszeitraum.
+  - id: PER-DE-ROLF-KAUKA
+    type: person
+    name: Rolf Kauka
+    countries:
+    - DE
+    notes: Comicverleger, 1917–2000; möglicher Informantenbezug nicht abschließend belegt.
+  - id: PER-DE-GERHARD-WESSEL
+    type: person
+    name: Gerhard Wessel
+    countries:
+    - DE
+    notes: Späterer BND-Präsident; persönliche Freundschaft amtlich bestätigt.
+  - id: ORG-DE-BVERWG
+    type: government_agency
+    name: Bundesverwaltungsgericht
+    countries:
+    - DE
+    notes: Gerichtliche Prüfung von Presse- und Archivansprüchen.
+  - id: DOC-DE-KAUKA-BND-AKTENKOMPLEX
+    type: historical_document_collection
+    name: BND-Aktenkomplex Kauka-Verlag
+    countries:
+    - DE
+    notes: Gegenstand des Archivverfahrens 10 A 1.24; kein Nachweis aller behaupteten Operationen.
+  - id: PRG-DE-BND-UKRAINE-MEDIENKONTAKTE-2024
+    type: documented_contact_series
+    name: BND-Einzelhintergrundgespräche zur Ukraine 2024
+    countries:
+    - DE
+    notes: Acht bis zur Auskunft vom 25.09.2024 benannte Gespräche; keine förmliche Programmbezeichnung und keine identifizierten Medien.
+  - id: ORG-DE-VERLAG-1BVR257519
+    type: media_publisher
+    name: Nicht namentlich verifizierter Verlag (1 BvR 2575/19)
+    countries:
+    - DE
+    notes: Nur fallbezogener Platzhalter gemäß BVerwG 6 VR 1.21; keine Zuordnung zu bekanntem Verlag oder Medienmarke.
+  - id: ORG-DE-BVERFG
+    type: constitutional_court
+    name: Bundesverfassungsgericht
+    countries:
+    - DE
+    notes: Verfahrensausgang 1 BvR 2575/19 im BVerwG-Beschluss referiert.
+  - id: ORG-DE-NDR
+    type: public_broadcaster
+    name: Norddeutscher Rundfunk
+    countries:
+    - DE
+    notes: Eigenständige Rundfunkanstalt; von ARD-Verbund und Rechercheverbund unterscheiden.
+  - id: ORG-DE-DW
+    type: public_broadcaster
+    name: Deutsche Welle
+    countries:
+    - DE
+    notes: Im Bericht zu BND-Gesprächen 2025 benannt.
+  - id: ORG-DE-RAUE
+    type: law_firm
+    name: Raue (Berlin)
+    countries:
+    - DE
+    notes: Vom Tagesspiegel 2025 als häufig mandatierte Kanzlei benannt; kein Nachweis rechtswidriger Vergütung.
+  - id: PRG-DE-BND-EXTERNE-PRESSERECHTSMANDATE-2013-2025
+    type: documented_mandate_series
+    name: Externe BND-Mandate in Presserechtsverfahren seit 2013
+    countries:
+    - DE
+    notes: Aggregat von elf Verfahren laut veröffentlichter BND-Auskunft; kein einzelner Vertrag oder Empfänger.
+  - id: ORG-DE-BILD
+    type: media_outlet
+    name: Bild
+    countries:
+    - DE
+    notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.
+  - id: ORG-DE-DER-SPIEGEL
+    type: media_outlet
+    name: Der Spiegel
+    countries:
+    - DE
+    notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.
+  - id: ORG-DE-DIE-WELT
+    type: media_outlet
+    name: Die Welt
+    countries:
+    - DE
+    notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.

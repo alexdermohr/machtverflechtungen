@@ -6142,3 +6142,470 @@ relations:
     evidence_level: "established"
     sources: ["SRC-INT-EG-MPTF-TOR-2021", "SRC-INT-EG-MPTF-2025"]
     period: {"start": "2021", "end": "2025"}
+
+  - id: REL-DE-MARIENHOF-001
+    from: ORG-DE-INSM
+    to: ORG-DE-HS-2002
+    type: paid_placement_commission
+    label: DRPR dokumentiert Beauftragung der H.+S. mit bezahlten Marienhof-Themenplatzierungen 2002; laut INSM nach wenigen Monaten beendet.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-DE-MARIENHOF-002
+    from: ORG-DE-HS-2002
+    to: ORG-DE-INSM
+    type: editorial_topic_coordination
+    label: H.+S. legte der INSM vor der Platzierung Themenvorschläge und Treatments zur Abstimmung vor; kein Nachweis der Mitwirkung anderer Netzwerke.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-DE-MARIENHOF-003
+    from: ORG-DE-HS-2002
+    to: ORG-DE-KW-2002
+    type: documented_sister_company
+    label: DRPR nennt K+W als Schwesterfirma der H.+S.; genaue Eigentumsquoten nicht ausgewiesen.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-DE-MARIENHOF-004
+    from: ORG-DE-KW-2002
+    to: ORG-DE-BAVARIA-SONOR-2005
+    type: reported_payment_transfer
+    label: Laut DRPR leitete H.+S. über K+W insgesamt 58.670,14 EUR an Bavaria Sonor weiter; ein einziger berichteter Gesamtbetrag, keine unabhängigen Kontoauszüge.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-DE-MARIENHOF-005
+    from: ORG-DE-INSM
+    to: PRG-DE-MARIENHOF-2002
+    type: paid_topic_placement
+    label: INSM räumte acht bezahlte Themenplatzierungen 2002 ein, Clearingstelle nennt sieben. DRPR stellt unzulässige verdeckte Werbung fest; keine politische Wirkungsmessung.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-DE-MARIENHOF-006
+    from: ORG-DE-DRPR
+    to: ORG-DE-INSM
+    type: public_self_regulation_reprimand
+    label: Öffentliche Rüge vom 09.05.2006; DRPR würdigt zugleich Aufklärungskooperation und Distanzierung. Keine strafgerichtliche Verurteilung.
+    evidence_level: established
+    sources:
+    - SRC-DE-DRPR-INSM-2006
+    period:
+      start: '2006-05-09'
+      end: '2006-05-09'
+  - id: REL-DE-MARIENHOF-007
+    from: ORG-DE-BAVARIA-FILM-2005
+    to: ORG-DE-ARD
+    type: reported_production_for
+    label: Bavaria beschreibt ARD-Auftragsproduktionen und vertragliche Trennung von Werbung und Programm; keine pauschale Kenntnis der ARD von Placements.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2002-01-01'
+      end: '2005-05-31'
+  - id: REL-DE-MARIENHOF-008
+    from: ORG-DE-BAVARIA-FILM-2005
+    to: PRG-DE-MARIENHOF-2002
+    type: reported_production_audit
+    label: 'Bavaria veröffentlichte Sonderprüfbefunde: 19 Verträge, 117 realisierte und 76 nicht realisierte Placements bei Marienhof. Alle Auftraggeber, nicht allein INSM.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2002-01-01'
+      end: '2005-05-31'
+  - id: REL-DE-MARIENHOF-009
+    from: ORG-DE-BAVARIA-SONOR-2005
+    to: PRG-DE-MARIENHOF-2002
+    type: placement_contract_and_billing
+    label: Bavaria-Prüfauszug nennt Sonor als Abwicklungsstelle von Placement-Verträgen und Rechnungen. Prüfung beschreibt nicht erkennbare Leistungsart im Buchungssystem; kein Strafurteil.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2002-01-01'
+      end: '2005-05-31'
+  - id: REL-DE-MARIENHOF-010
+    from: ORG-DE-BR
+    to: PRG-DE-MARIENHOF-2002
+    type: editorial_acceptance
+    label: Bavaria nennt BR-Vorabendredaktion als abnehmende Redaktion. Prüfauszug entlastet sie hinsichtlich Erkennbarkeit integrierter Themen; keine bewusste Kollaboration festgestellt.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2002-01-01'
+      end: '2005-05-31'
+  - id: REL-DE-MARIENHOF-011
+    from: ORG-DE-WDR
+    to: ORG-DE-BAVARIA-FILM-2005
+    type: documented_shareholder_role
+    label: Bavaria-Erklärung vom 01.07.2005 nennt WDR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2005-07-01'
+      end: '2005-07-01'
+  - id: REL-DE-MARIENHOF-012
+    from: ORG-DE-MDR
+    to: ORG-DE-BAVARIA-FILM-2005
+    type: documented_shareholder_role
+    label: Bavaria-Erklärung vom 01.07.2005 nennt MDR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2005-07-01'
+      end: '2005-07-01'
+  - id: REL-DE-MARIENHOF-013
+    from: ORG-DE-SWR
+    to: ORG-DE-BAVARIA-FILM-2005
+    type: documented_shareholder_role
+    label: Bavaria-Erklärung vom 01.07.2005 nennt SWR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2005-07-01'
+      end: '2005-07-01'
+  - id: REL-DE-MARIENHOF-014
+    from: ORG-DE-BR
+    to: ORG-DE-BAVARIA-FILM-2005
+    type: documented_shareholder_role
+    label: Bavaria-Erklärung vom 01.07.2005 nennt BR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2005-07-01'
+      end: '2005-07-01'
+  - id: REL-DE-MARIENHOF-015
+    from: ORG-DE-SWR
+    to: ORG-DE-BAVARIA-FILM-2005
+    type: reported_special_audit
+    label: SWR-Revision untersuchte laut Bavaria 2005 die Schnittstelle von abnehmenden Redaktionen und Auftragsproduktion; veröffentlichter Prüfauszug, nicht vollständige Akte.
+    evidence_level: established
+    sources:
+    - SRC-DE-BAVARIA-PLACEMENT-2005
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-DE-KAUKA-001
+    from: PER-DE-GERHARD-WESSEL
+    to: PER-DE-ROLF-KAUKA
+    type: confirmed_personal_friendship
+    label: BND bestätigte enges persönliches Verhältnis zwischen Wessel und Kauka; im Beschluss 6 A 9.19 amtlich protokolliert. Keine festgestellte Agentenrolle.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-KAUKA-6A919-2021
+  - id: REL-DE-KAUKA-002
+    from: PER-DE-GERHARD-WESSEL
+    to: ORG-DE-BND
+    type: former_leadership
+    label: In 6 A 9.19 als späterer BND-Präsident bezeichnet; keine Datierung seiner Amtszeit aus diesem Beschluss.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-KAUKA-6A919-2021
+  - id: REL-DE-KAUKA-003
+    from: PER-DE-GERHARD-WESSEL
+    to: PER-DE-ROLF-KAUKA
+    type: reported_contract_facilitation
+    label: Spionagemuseum berichtet unter Bezug auf Hechelhammer über durch Wessels Kontakte vermittelte Ausbildungsfilmaufträge Mitte der 1950er Jahre. Originalverträge und Beträge fehlen.
+    evidence_level: strong
+    sources:
+    - SRC-DE-SPIONAGEMUSEUM-KAUKA-2022
+  - id: REL-DE-KAUKA-004
+    from: ORG-DE-BUNDESWEHR
+    to: PER-DE-ROLF-KAUKA
+    type: reported_contract_award
+    label: Bericht des Spionagemuseums über Ausbildungsfilmaufträge an Kauka Mitte der 1950er Jahre. Kein unabhängig belegter Geldfluss und keine Aussage zu Comicfinanzierung.
+    evidence_level: strong
+    sources:
+    - SRC-DE-SPIONAGEMUSEUM-KAUKA-2022
+  - id: REL-DE-KAUKA-005
+    from: PER-DE-ROLF-KAUKA
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: hypothesis_informant_contact
+    label: Bundesarchiv nennt eine mögliche Informantentätigkeit ab 1950 unter der Bezeichnung BND; wegen der institutionellen Chronologie ist die Zuordnung zur Vorgängerorganisation eine Recherchehypothese. Keine eingesehene Quellenverpflichtung.
+    evidence_level: plausible
+    sources:
+    - SRC-DE-BARCH-KAUKA-RECHERCHELEITFADEN
+  - id: REL-DE-KAUKA-006
+    from: ORG-DE-BND
+    to: DOC-DE-KAUKA-BND-AKTENKOMPLEX
+    type: documented_restricted_archive_access
+    label: Bescheid vom 01.04.2019 gewährte Teilzugang mit Schwärzungen, lehnte weiteren Zugang ab; Urteil 10 A 1.24, Rn. 2.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-KAUKA-10A124-2025
+    period:
+      start: '2019-04-01'
+      end: '2019-04-01'
+  - id: REL-DE-KAUKA-007
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: DOC-DE-KAUKA-BND-AKTENKOMPLEX
+    type: documented_withholding_declaration
+    label: Sperrerklärung 28.09.2021 im Archivverfahren, bestätigt am 18.02.2022; Fachsenat bestätigte sie 2024. Keine Feststellung rechtswidriger Vertuschung.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-KAUKA-10A124-2025
+    period:
+      start: '2021-09-28'
+      end: '2022-02-18'
+  - id: REL-DE-KAUKA-008
+    from: ORG-DE-BVERWG
+    to: DOC-DE-KAUKA-BND-AKTENKOMPLEX
+    type: judicial_archive_access_decision
+    label: 'Urteil vom 30.04.2025: teilweise Erledigung, im Übrigen Klageabweisung. Geheimhaltungsgründe gerichtlich geprüft, keine öffentliche Feststellung einzelner Zahlungen oder Agentenverpflichtungen.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-KAUKA-10A124-2025
+    period:
+      start: '2025-04-30'
+      end: '2025-04-30'
+  - id: REL-DE-KAUKA-009
+    from: ORG-DE-BND
+    to: PRG-DE-BND-UKRAINE-MEDIENKONTAKTE-2024
+    type: documented_background_briefings
+    label: Am 25.09.2024 mitgeteilte Zahl von acht Einzelhintergrundgesprächen seit Jahresanfang zur militärischen Situation in der Ukraine. Keine Benennung der Teilnehmer oder Feststellung ihrer Berichterstattungswirkung.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-BND-10A324-2025
+    period:
+      start: '2024'
+      end: '2024-09-25'
+  - id: REL-DE-KAUKA-010
+    from: ORG-DE-BVERWG
+    to: PRG-DE-BND-UKRAINE-MEDIENKONTAKTE-2024
+    type: judicial_press_access_decision
+    label: Urteil 25.09.2025 weist Klage ab; Recherchegeheimnis schützt betroffene Medien. Gericht bestätigt keine behauptete politische Steuerungsabsicht.
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-BND-10A324-2025
+    period:
+      start: '2025-09-25'
+      end: '2025-09-25'
+  - id: REL-DE-BND-MEDIA-001
+    from: ORG-DE-VERLAG-1BVR257519
+    to: ORG-DE-BND
+    type: reported_confidential_legal_document_transmission
+    label: Nach BND-Angaben übermittelte der Beschwerdeführer am 14.11.2019 die Verfassungsbeschwerde vertraulich; weitergehende Kooperation vom BND bestritten.
+    period:
+      start: '2019-11-14'
+      end: '2019-11-14'
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-6VR121-2021
+  - id: REL-DE-BND-MEDIA-002
+    from: ORG-DE-VERLAG-1BVR257519
+    to: ORG-DE-BVERFG
+    type: documented_constitutional_complaint
+    label: Beschwerde 1 BvR 2575/19 gegen Transparenzurteil 6 A 7.18; am 14.11.2019 nicht zur Entscheidung angenommen laut BVerwG.
+    period:
+      start: '2019'
+      end: '2019'
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-6VR121-2021
+  - id: REL-DE-BND-MEDIA-003
+    from: ORG-DE-BVERWG
+    to: ORG-DE-BND
+    type: judicial_press_access_decision
+    label: Einstweilige Anordnung zur Auskunft über Beschwerdeführer, Anwälte sowie Einladung bzw. Teilnahme an Hintergrundgesprächen; kein Nachweis eines Gegengeschäfts.
+    period:
+      start: '2021-03-23'
+      end: '2021-03-23'
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-6VR121-2021
+  - id: REL-DE-BND-MEDIA-004
+    from: ORG-DE-BND
+    to: ORG-DE-ARD
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben vier Termine; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-005
+    from: ORG-DE-BND
+    to: ORG-DE-NDR
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben vier Termine; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-006
+    from: ORG-DE-BND
+    to: ORG-DE-ZDF
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-007
+    from: ORG-DE-BND
+    to: ORG-DE-SWR
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-008
+    from: ORG-DE-BND
+    to: ORG-DE-BR
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-009
+    from: ORG-DE-BND
+    to: ORG-DE-DW
+    type: reported_background_briefing_access
+    label: Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung.
+    period:
+      start: '2025'
+      end: '2025-11-27'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-010
+    from: ORG-DE-BND
+    to: ORG-DE-TAGESSPIEGEL
+    type: reported_background_briefing_participation
+    label: Tagesspiegel berichtet am 27.11.2025 über eigene Teilnahme an BND-Gesprächen; konkretes Datum nicht belegt; von Gruppeneinladungen unterscheiden.
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20251127
+  - id: REL-DE-BND-MEDIA-011
+    from: ORG-DE-BND
+    to: PRG-DE-BND-EXTERNE-PRESSERECHTSMANDATE-2013-2025
+    type: reported_legal_services_expenditure
+    label: Laut Tagesspiegel-Bericht vom 16.12.2025 knapp 200.000 EUR für externe Anwälte in elf Verfahren, darunter ein Unterlassungsverfahren; drei Kanzleien. Keine Einzelrechnungen eingesehen.
+    period:
+      start: '2013'
+      end: '2025'
+    evidence_level: strong
+    sources:
+    - SRC-DE-BVERWG-10A224-2025
+    - SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216
+  - id: REL-DE-BND-MEDIA-012
+    from: ORG-DE-BND
+    to: ORG-DE-RAUE
+    type: reported_legal_mandates
+    label: Laut Tagesspiegel-Bericht vom 16.12.2025 meist mandatierte Kanzlei in elf Verfahren; genaue Mandatsdauer und eigener Kostenanteil nicht bekannt.
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216
+  - id: REL-DE-BND-MEDIA-013
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-RAUE
+    type: reported_legal_mandates
+    label: Laut Tagesspiegel-Bericht vom 16.12.2025 regelmäßig bei presserechtlichen Auseinandersetzungen mandatiert; keine Einzelverträge, Laufzeit oder Beträge belegt.
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216
+  - id: REL-DE-BND-MEDIA-014
+    from: ORG-DE-BVERWG
+    to: PRG-DE-BND-EXTERNE-PRESSERECHTSMANDATE-2013-2025
+    type: judicial_press_access_decision
+    label: Urteil 10 A 2.24 verpflichtet zur Auskunft über Verfahren, Kanzleien und Summen; weitere Teile der Klage abgewiesen.
+    period:
+      start: '2025-09-25'
+      end: '2025-09-25'
+    evidence_level: established
+    sources:
+    - SRC-DE-BVERWG-10A224-2025
+  - id: REL-DE-BND-MEDIA-015
+    from: ORG-DE-BND
+    to: ORG-DE-BILD
+    type: reported_background_briefing_access
+    label: Bild laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt.
+    period:
+      start: '2019'
+      end: '2020'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20231110
+    - SRC-DE-BVERWG-BND-10A223-2023
+  - id: REL-DE-BND-MEDIA-016
+    from: ORG-DE-BND
+    to: ORG-DE-DER-SPIEGEL
+    type: reported_background_briefing_access
+    label: Spiegel laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt.
+    period:
+      start: '2019'
+      end: '2020'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20231110
+    - SRC-DE-BVERWG-BND-10A223-2023
+  - id: REL-DE-BND-MEDIA-017
+    from: ORG-DE-BND
+    to: ORG-DE-NDR
+    type: reported_background_briefing_access
+    label: NDR laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt.
+    period:
+      start: '2019'
+      end: '2020'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20231110
+    - SRC-DE-BVERWG-BND-10A223-2023
+  - id: REL-DE-BND-MEDIA-018
+    from: ORG-DE-BND
+    to: ORG-DE-DIE-WELT
+    type: reported_background_briefing_access
+    label: Welt laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt.
+    period:
+      start: '2019'
+      end: '2020'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20231110
+    - SRC-DE-BVERWG-BND-10A223-2023
+  - id: REL-DE-BND-MEDIA-019
+    from: ORG-DE-BND
+    to: ORG-DE-DIE-ZEIT
+    type: reported_background_briefing_access
+    label: Zeit laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt.
+    period:
+      start: '2019'
+      end: '2020'
+    evidence_level: strong
+    sources:
+    - SRC-DE-TSP-BND-MEDIEN-20231110
+    - SRC-DE-BVERWG-BND-10A223-2023
