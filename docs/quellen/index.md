@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**492 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**500 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1957,6 +1957,21 @@ Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstütze
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
+<a id="src-de-amri-bt-1811027"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: Verantwortung und etwaige Fehler der Sicherheitsbehörden](https://dserver.bundestag.de/btd/18/110/1811027.pdf)**
+
+Deutscher Bundestag · 2017-01-27 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1811027`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/110/1811027.pdf)
+
+Fundstelle: Drs. 18/11027, Fragen 1c, 5f–g, 6a–f, 8e
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-bt-nsu-lingen-2017"></a>
 ### Deutscher Bundestag
 
@@ -1967,6 +1982,21 @@ Deutscher Bundestag · 2017-02-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_02/493792-493792)
 
 Fundstelle: Absätze zur Aktion Konfetti; Aussage Lingens von 2014; Aussagen Fromms vom 16.02.2017
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-amri-pkgr-1812585"></a>
+### Deutscher Bundestag
+
+**[Erläuternde Sachverhaltsdarstellung des Parlamentarischen Kontrollgremiums zum Fall Anis Amri](https://dserver.bundestag.de/btd/18/125/1812585.pdf)**
+
+Deutscher Bundestag · 2017-05-31 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PKGR-1812585`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/125/1812585.pdf)
+
+Fundstelle: Drs. 18/12585, S. 2, 10–14
 
 </article>
 
@@ -1985,6 +2015,21 @@ Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-amri-bt-bfv-2018"></a>
+### Deutscher Bundestag
+
+**[Verfassungsschutz hatte Amri früh im Blick](https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770)**
+
+Deutscher Bundestag · 2018-09-13 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BFV-2018`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770)
+
+Fundstelle: hib 666/2018, Aussage Lia Freimuth
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
 
 <a id="src-de-amri-bt-dgst-2019"></a>
@@ -1997,6 +2042,21 @@ Deutscher Bundestag · 2019-03-21 · Stufe **A** · Primärquelle · `SRC-DE-AMR
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2019/kw12-pa-ua-amri-628466)
 
 Fundstelle: Aussagen O’Debie und Kurzhals
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bt-benammar-2019"></a>
+### Deutscher Bundestag
+
+**[Wie es zur Abschiebung des Tunesiers Bilel ben Ammar kam](https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698)**
+
+Deutscher Bundestag · 2019-10-17 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BENAMMAR-2019`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698)
+
+Fundstelle: Aussagen Drange, Haber und Koch
 
 </article>
 
@@ -2027,6 +2087,66 @@ Deutscher Bundestag · 2020-01-17 · Stufe **A** · Primärquelle · `SRC-DE-AMR
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_01/678056-678056)
 
 Fundstelle: BKA-Zeugenaussage und Neubewertung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-bfv-2020"></a>
+### Deutscher Bundestag
+
+**[Verfassungsschützer: Amri kein reiner Polizeifall](https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876)**
+
+Deutscher Bundestag · 2020-10-01 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BFV-2020`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876)
+
+Fundstelle: hib 1043/2020, Aussage Gilbert Siebertz
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-maassen-2020"></a>
+### Deutscher Bundestag
+
+**[Maaßen weist Vorwürfe im Fall Amri zurück](https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118)**
+
+Deutscher Bundestag · 2020-10-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-MAASSEN-2020`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118)
+
+Fundstelle: hib 1084/2020, Aussage Hans-Georg Maaßen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-bt-1930800"></a>
+### Deutscher Bundestag
+
+**[Beschlussempfehlung und Bericht des 1. Untersuchungsausschusses der 19. Wahlperiode](https://dserver.bundestag.de/btd/19/308/1930800.pdf)**
+
+Deutscher Bundestag · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1930800`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/308/1930800.pdf)
+
+Fundstelle: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-bt-1929493"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: Offene Fragen zur Verantwortung und etwaigen Fehlern der Sicherheitsbehörden](https://dserver.bundestag.de/btd/19/294/1929493.pdf)**
+
+Deutscher Bundestag · 2021-05-10 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1929493`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/294/1929493.pdf)
+
+Fundstelle: Drs. 19/29493, S. 2–3, Fragen 1–2d
 
 </article>
 

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**698 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**703 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1234,6 +1234,14 @@ flowchart LR
     N_ORG_DE_GENSTA_BERLIN -->|"führte Ermittlungsverfahren wegen Verdachts der Beteiligung an einem Tötungsverbrechen; keine Verurteilung"| N_PER_TN_ANIS_AMRI
     N_ORG_DE_LFV_NRW -->|"als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen"| N_ORG_DE_BFV
     N_ORG_DE_BFV -->|"erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01"| N_ORG_DE_LKA_BERLIN
+    N_ORG_DE_BFV -->|"führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt"| N_PER_TN_ANIS_AMRI
+    N_ORG_DE_FUSSILET_MOSCHEE["Fussilet 33 e.V. (Berliner Fussilet-Moschee)"]
+    N_ORG_DE_BFV -->|"setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt"| N_ORG_DE_FUSSILET_MOSCHEE
+    N_ORG_DE_BKA -->|"unterrichtete den BND erstmals über Amri"| N_ORG_DE_BND
+    N_ORG_DE_BKA -->|"übermittelte ausgelesene Mobiltelefondaten zur Auswertung"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (Amri-Komplex 2017)"]
+    N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
+    N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
 ```
 
 [Zur Relationstabelle](network.md)

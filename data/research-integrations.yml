@@ -1039,7 +1039,7 @@ studies:
       - REL-RIGGS-POST-2004-059
 
   amri-behoerden-aufklaerung-2015-2021.md:
-    sha256: 9320c9871be11d13690258775deb1760c80c71c603247b54af1012575a2a97ca
+    sha256: 3e9dcfd35d53ff6835ec33aa89660107b01807237cd65f21363b7a0a9ced8277
     status: network
     relation_ids:
     - REL-DE-AMRI-001
@@ -1057,3 +1057,8 @@ studies:
     - REL-DE-AMRI-013
     - REL-DE-AMRI-014
     - REL-DE-AMRI-015
+    - REL-DE-AMRI-016
+    - REL-DE-AMRI-017
+    - REL-DE-AMRI-018
+    - REL-DE-AMRI-019
+    - REL-DE-AMRI-020

@@ -6308,3 +6308,59 @@ relations:
     - SRC-DE-AMRI-GBA-MAT-A-GBA4
     period:
       start: '2016-01-26'
+
+  - id: REL-DE-AMRI-016
+    from: ORG-DE-BFV
+    to: PER-TN-ANIS-AMRI
+    type: intelligence_collection
+    label: führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-BFV-2018
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-017
+    from: ORG-DE-BFV
+    to: ORG-DE-FUSSILET-MOSCHEE
+    type: intelligence_collection
+    label: setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt
+    sources:
+    - SRC-DE-AMRI-BT-MAASSEN-2020
+    - SRC-DE-AMRI-BT-BFV-2020
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-018
+    from: ORG-DE-BKA
+    to: ORG-DE-BND
+    type: information_transfer
+    label: unterrichtete den BND erstmals über Amri
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-1811027
+    evidence_level: established
+    period:
+      start: '2016-02-04'
+  - id: REL-DE-AMRI-019
+    from: ORG-DE-BKA
+    to: ORG-DE-BFV
+    type: information_transfer
+    label: übermittelte ausgelesene Mobiltelefondaten zur Auswertung
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    evidence_level: established
+    period:
+      start: '2016'
+  - id: REL-DE-AMRI-020
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BMJV-AMRI-2017
+    type: policy_coordination
+    label: vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war
+    sources:
+    - SRC-DE-AMRI-BT-BENAMMAR-2019
+    evidence_level: established
+    period:
+      start: '2017'

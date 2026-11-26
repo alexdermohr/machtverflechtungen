@@ -5614,3 +5614,92 @@ sources:
   accessed: '2026-11-26'
   locator: BKA-Zeugenaussage und Neubewertung
   notes: Gegenposition; Quellenzuverlässigkeit und Bewertung konkreter Meldungen getrennt.
+
+- id: SRC-DE-AMRI-BT-1811027
+  title: 'Antwort der Bundesregierung: Verantwortung und etwaige Fehler der Sicherheitsbehörden'
+  institution: Deutscher Bundestag
+  date: '2017-01-27'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/110/1811027.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 18/11027, Fragen 1c, 5f–g, 6a–f, 8e
+  notes: Regierungsaussage, übermittelt 26.01.2017; spätere Offenlegung der BfV-Quelle in Fussilet gesondert vergleichen.
+- id: SRC-DE-AMRI-PKGR-1812585
+  title: Erläuternde Sachverhaltsdarstellung des Parlamentarischen Kontrollgremiums zum Fall Anis Amri
+  institution: Deutscher Bundestag
+  date: '2017-05-31'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/125/1812585.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 18/12585, S. 2, 10–14
+  notes: Parlamentarischer Bericht mit begrenztem Kontrollauftrag; keine vollständige Prüfung der originären Landesakten.
+- id: SRC-DE-AMRI-BT-1929493
+  title: 'Antwort der Bundesregierung: Offene Fragen zur Verantwortung und etwaigen Fehlern der Sicherheitsbehörden'
+  institution: Deutscher Bundestag
+  date: '2021-05-10'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/294/1929493.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 19/29493, S. 2–3, Fragen 1–2d
+  notes: Regierungsaussage zum Aktenlieferstand 05.05.2021; keine unabhängige Bestätigung der Vollständigkeit.
+- id: SRC-DE-AMRI-BT-1930800
+  title: Beschlussempfehlung und Bericht des 1. Untersuchungsausschusses der 19. Wahlperiode
+  institution: Deutscher Bundestag
+  date: '2021'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/308/1930800.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+  notes: Sondervotum von FDP, Linken und Grünen nicht mit Mehrheitsbericht verwechseln.
+- id: SRC-DE-AMRI-BT-BFV-2018
+  title: Verfassungsschutz hatte Amri früh im Blick
+  institution: Deutscher Bundestag
+  date: '2018-09-13'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770
+  accessed: '2026-11-26'
+  locator: hib 666/2018, Aussage Lia Freimuth
+  notes: Parlamentarisch dokumentierte Zeugenaussage.
+- id: SRC-DE-AMRI-BT-BFV-2020
+  title: 'Verfassungsschützer: Amri kein reiner Polizeifall'
+  institution: Deutscher Bundestag
+  date: '2020-10-01'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876
+  accessed: '2026-11-26'
+  locator: hib 1043/2020, Aussage Gilbert Siebertz
+  notes: Zeuge korrigiert missverständliche Formulierung, bestreitet zusätzliche Erkenntnisse vor dem Anschlag.
+- id: SRC-DE-AMRI-BT-MAASSEN-2020
+  title: Maaßen weist Vorwürfe im Fall Amri zurück
+  institution: Deutscher Bundestag
+  date: '2020-10-08'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118
+  accessed: '2026-11-26'
+  locator: hib 1084/2020, Aussage Hans-Georg Maaßen
+  notes: Bestätigt den Quelleneinsatz in Fussilet für anderen Sachverhalt; bestreitet persönliche Bekanntschaft und Täuschung.
+- id: SRC-DE-AMRI-BT-BENAMMAR-2019
+  title: Wie es zur Abschiebung des Tunesiers Bilel ben Ammar kam
+  institution: Deutscher Bundestag
+  date: '2019-10-17'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698
+  accessed: '2026-11-26'
+  locator: Aussagen Drange, Haber und Koch
+  notes: Politische Entscheidung und Begründung; keine Feststellung einer Tatbeteiligung Ben Ammars.

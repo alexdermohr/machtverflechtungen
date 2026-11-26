@@ -2970,3 +2970,19 @@ entities:
     name: Anis Amri
     countries:
     - TN
+
+  - id: ORG-DE-FUSSILET-MOSCHEE
+    type: association
+    name: Fussilet 33 e.V. (Berliner Fussilet-Moschee)
+    countries:
+    - DE
+  - id: ORG-DE-BMI-AMRI-2017
+    type: government_ministry
+    name: Bundesministerium des Innern (Amri-Komplex 2017)
+    countries:
+    - DE
+  - id: ORG-DE-BMJV-AMRI-2017
+    type: government_ministry
+    name: Bundesministerium der Justiz und für Verbraucherschutz (2017)
+    countries:
+    - DE
