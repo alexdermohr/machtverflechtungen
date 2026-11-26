@@ -5685,7 +5685,7 @@ relations:
     type: "documented_return_transfer"
     label: "Rücküberweisung 19.570.635,18 USD am 24.01.2006 über Citibank, nach im PSI referierter damaliger DOJ-Bestätigung fehlender Sperrgrundlage."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-01-24"}
 
   - id: REL-RIGGS-POST-2004-009
@@ -5737,9 +5737,9 @@ relations:
     from: "ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006"
     to: "ORG-CM-BEAC-2006"
     type: "documented_correspondent_transfer"
-    label: "14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der Textzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."
+    label: "14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der visuell bestätigten Tabellenzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-04-05", "end": "2006-06-19"}
 
   - id: REL-RIGGS-POST-2004-015
@@ -5748,7 +5748,7 @@ relations:
     type: "documented_correspondent_transfer"
     label: "Dieselben 14 Zahlungsaufträge 2006 über Banque de France, kein eigenständiges Zahlungsaggregat."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-04-05", "end": "2006-06-19"}
 
   - id: REL-RIGGS-POST-2004-016
@@ -5757,16 +5757,16 @@ relations:
     type: "documented_correspondent_transfer"
     label: "Korrespondenzbankweg derselben 14 Zahlungsaufträge; keine Addition der wiederholten Streckenbeträge."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-04-05", "end": "2006-06-19"}
 
   - id: REL-RIGGS-POST-2004-017
     from: "ORG-US-WACHOVIA-BANK-2006"
     to: "ORG-US-MCAFEE-TAFT-2006"
     type: "documented_transfer"
-    label: "Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Textzeilensumme 10,3 Mio. USD."
+    label: "Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Faksimile-Summe 10,3 Mio. USD; DHS-Anfrage nennt 10.299.950 USD, 50 USD Differenz offen."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010", "SRC-US-SENATE-HEARING-111-540-V2-FACSIMILE-2010"]
     period: {"start": "2006-04-05", "end": "2006-04-10"}
 
   - id: REL-RIGGS-POST-2004-018
@@ -5775,7 +5775,7 @@ relations:
     type: "bank_account_relationship"
     label: "Empfängerkonto der drei 2006er Treuhandzahlungen laut PSI; keine zusätzlichen Beträge."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006"}
 
   - id: REL-RIGGS-POST-2004-019
@@ -5784,7 +5784,7 @@ relations:
     type: "documented_transfer"
     label: "Fünf Zahlungen April 2006 je 5.908.400 USD, zusammen 29.542.000 USD laut Tabelle und Fn.553; Immobilienerwerb."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-04-05", "end": "2006-04-26"}
 
   - id: REL-RIGGS-POST-2004-020
@@ -5793,7 +5793,7 @@ relations:
     type: "bank_account_relationship"
     label: "Empfängerkonto der fünf Immobilienzahlungen laut PSI-Tabelle."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006"}
 
   - id: REL-RIGGS-POST-2004-021
@@ -5802,7 +5802,7 @@ relations:
     type: "documented_transfer"
     label: "Sechs Zeilen Mai–Juni 2006, Summe 33.799.999,99 USD an Flugzeug-Titeldienstleister bei UBS London. Vor endgültiger Mittelabrechnung keine zusätzliche Eigentumsbehauptung."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-05-09", "end": "2006-06-19"}
 
   - id: REL-RIGGS-POST-2004-022
@@ -5811,7 +5811,7 @@ relations:
     type: "bank_account_relationship"
     label: "Empfängerkonto der sechs in PSI-Tabelle ausgewiesenen Zahlungen bei UBS London."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006"}
 
   - id: REL-RIGGS-POST-2004-023
@@ -5820,7 +5820,7 @@ relations:
     type: "documented_correspondent_transfer"
     label: "Zwei weitere Überweisungen 2008 (144.017,99 und 1.458,51 USD) über Fortis an Wachovia, getrennt vom 2006er Komplex."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2008-02-06", "end": "2008-07-30"}
 
   - id: REL-RIGGS-POST-2004-024
@@ -5829,7 +5829,7 @@ relations:
     type: "documented_correspondent_transfer"
     label: "Dieselben zwei 2008er Überweisungen, Summe 145.476,50 USD; nicht additiv zur vorigen Kante."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2008-02-06", "end": "2008-07-30"}
 
   - id: REL-RIGGS-POST-2004-025
@@ -5865,7 +5865,7 @@ relations:
     type: "bank_account_relationship"
     label: "Treuhandkonto mit acht EG-Überweisungen ab 24.11.2006 bis 06.06.2007, >1,7 Mio. USD aus Somagui/Obiang laut PSI; kein weiteres Summieren mit Ausgängen."
     evidence_level: "established"
-    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010"]
+    sources: ["SRC-US-SENATE-FOREIGN-CORRUPTION-2010", "SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010"]
     period: {"start": "2006-11-24", "end": "2007-06-12"}
 
   - id: REL-RIGGS-POST-2004-029
@@ -6142,3 +6142,150 @@ relations:
     evidence_level: "established"
     sources: ["SRC-INT-EG-MPTF-TOR-2021", "SRC-INT-EG-MPTF-2025"]
     period: {"start": "2021", "end": "2025"}
+
+  - id: REL-RIGGS-ORIGINAL-001
+    from: ORG-US-DOJ
+    to: ORG-US-SIDLEY-AUSTIN-2006
+    type: documented_official_assessment
+    label: 'Brief 18.04.2005: US Attorney D.C. erklärt damalige Untersuchung des geplanten Gulfstream-Verkaufs für abgeschlossen und sieht zu diesem Zeitpunkt keine Grundlage für Sperre/Beschlagnahme oder AML-Verstoß. Keine allgemeine Herkunftsbescheinigung.'
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-04-18'
+  - id: REL-RIGGS-ORIGINAL-002
+    from: PER-US-JOHN-ROTH-2005
+    to: ORG-US-DOJ
+    type: documented_official_role
+    label: Unterzeichnet DOJ-Schreiben 18.04.2005 als AUSA und Chief Fraud & Public Corruption Section, District of Columbia.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-04-18'
+  - id: REL-RIGGS-ORIGINAL-003
+    from: PER-US-KENNETH-WAINSTEIN-2005
+    to: ORG-US-DOJ
+    type: documented_official_role
+    label: Im selben Schreiben als U.S. Attorney District of Columbia genannt; Roth unterzeichnet. Keine persönliche Entscheidung Wainsteins daraus abgeleitet.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-04-18'
+  - id: REL-RIGGS-ORIGINAL-004
+    from: PER-US-THOMAS-C-GREEN-2005
+    to: ORG-US-SIDLEY-AUSTIN-2006
+    type: documented_professional_affiliation
+    label: Im DOJ-Schreiben als Anwalt bei Sidley Austin Brown & Wood LLP adressiert.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-04-18'
+  - id: REL-RIGGS-ORIGINAL-005
+    from: ORG-GQ-REPUBLIC-2005
+    to: ORG-US-SIDLEY-AUSTIN-2006
+    type: documented_client_designation
+    label: Sidley Trust Transaction Detail Report, S.1434–1435, führt die Republik als Mandantin der Gulfstream-Angelegenheit; keine Feststellung wirtschaftlichen Eigentums am konkreten Vermögen.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005'
+      end: '2006'
+  - id: REL-RIGGS-ORIGINAL-006
+    from: ORG-US-GENERAL-DYNAMICS-CORPORATE-2005
+    to: ORG-US-SIDLEY-AUSTIN-2006
+    type: documented_trust_account_entry
+    label: 'Treuhandbericht S.1435: Eingang 01.07.2005 21.086.523,97 USD mit Buchungstext General Dynamics Corporate, am 28.07. interne Weiterbuchung. Kein Beweis ursprünglicher Finanzierung durch den Konzern; nicht additiv zu den Folgebuchungen.'
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-07-01'
+      end: '2005-07-28'
+  - id: REL-RIGGS-ORIGINAL-007
+    from: ORG-US-SIDLEY-AUSTIN-2006
+    to: ORG-US-GULFSTREAM-AEROSPACE-2005
+    type: documented_legal_matter
+    label: Treuhandbericht bezeichnet Gulfstream Aerospace Corporation als Angelegenheit; Kanzleibrief dokumentiert gescheiterten Flugzeugkauf für Obiang.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005'
+  - id: REL-RIGGS-ORIGINAL-008
+    from: ORG-US-SIDLEY-AUSTIN-2006
+    to: ORG-INT-AERO-RECORDS-TITLE-2005
+    type: documented_transfer
+    label: 250.000 USD am 08.12.2005 an Aero Records & Title Co. Escrow laut Buchungsbericht und Kanzleibrief; Teil der 21.086.523,97 USD, nicht additiv.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2005-12-08'
+  - id: REL-RIGGS-ORIGINAL-009
+    from: ORG-US-DOJ
+    to: ORG-FR-MLAT-CENTRAL-AUTHORITY-2007
+    type: documented_mutual_legal_assistance_request
+    label: Rechtshilfeersuchen 04.09.2007 an französische Zentralbehörde; Informationsaustausch zu mutmaßlichen Geldwäsche-/Korruptionsvortaten, keine Anklage oder Verurteilung aus Ersuchen ableiten.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2007-09-04'
+  - id: REL-RIGGS-ORIGINAL-010
+    from: ORG-US-DOJ
+    to: ORG-US-ICE-2007
+    type: documented_joint_investigation
+    label: MLAT 04.09.2007 bezeichnet DOJ Fraud/Asset Forfeiture and Money Laundering Sections und ICE als ermittelnde Behörden im Obiang-Komplex.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2007-09-04'
+  - id: REL-RIGGS-ORIGINAL-011
+    from: ORG-US-ICE-2007
+    to: ORG-US-WACHOVIA-BANK-2006
+    type: documented_information_request
+    label: DHS/ICE 16.01.2007 fragt zu Herkunftsinstitution dreier Zahlungen über Wachovia; 17.01. interne Fallanlage hoher Priorität erbeten. Keine abgeschlossene Prüfung belegt.
+    evidence_level: established
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V2-FACSIMILE-2010
+    period:
+      start: '2007-01-16'
+      end: '2007-01-17'
+  - id: REL-RIGGS-ORIGINAL-012
+    from: ORG-FR-FORTIS-BANQUE-2006-2007
+    to: ORG-US-BERGER-LAW-OFFICE-2004-2007
+    type: reported_correspondent_transfer
+    label: MLAT S.607 nennt zwei Transfers über Fortis Banque France am 24.11.2006 und 10.05.2007 je 199.943 USD an Berger-Treuhandkonto bei UBOC. Teil der bereits untersuchten acht Eingänge, keine Addition. Originalbankbelege offen.
+    evidence_level: strong
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2006-11-24'
+      end: '2007-05-10'
+  - id: REL-RIGGS-ORIGINAL-013
+    from: ORG-FR-NATIXIS-2007
+    to: ORG-US-BERGER-LAW-OFFICE-2004-2007
+    type: reported_correspondent_transfer
+    label: MLAT S.607–608 nennt zwei Transfers über Natixis 2007 (199.906,21 und 199.906,10 USD) an Berger-Treuhandkonto bei UBOC. Überlappung mit bisherigen Eingängen; keine Addition oder Deliktkenntnis.
+    evidence_level: strong
+    sources:
+    - SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+    period:
+      start: '2007'
+  - id: REL-RIGGS-ORIGINAL-014
+    from: ORG-US-GENERAL-DYNAMICS-CORPORATION-2005
+    to: ORG-US-GULFSTREAM-AEROSPACE-2005
+    type: documented_group_affiliation
+    label: 'SEC-Listen 31.01.2005 und 31.01.2006: mehrere Gulfstream Aerospace Corporations jeweils 100 % Stimmrechte. Konzernzugehörigkeit, konkrete Vertragsgesellschaft nicht bestimmt; keine Deliktkenntnis abgeleitet.'
+    evidence_level: established
+    sources:
+    - SRC-US-GENERAL-DYNAMICS-EX21-2004
+    - SRC-US-GENERAL-DYNAMICS-EX21-2005
+    period:
+      start: '2005-01-31'
+      end: '2006-01-31'

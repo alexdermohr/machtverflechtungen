@@ -967,7 +967,7 @@ studies:
       - REL-IT-BOLOGNA-PG-DAMATO-2024-001
 
   riggs-obiang-korrespondenzbanken-aufsicht-2001-2010.md:
-    sha256: 16e8101b35e288e469f0b74c6ae00a57f48845f8bb424124aae1121e1fac9e37
+    sha256: 87e6a6657350ecd3edbb89b97c4b486359dd047bdf9019cc1b782a444c6f06a4
     status: network
     relation_ids:
       - REL-RIGGS-POST-2004-001
@@ -1011,6 +1011,20 @@ studies:
       - REL-RIGGS-POST-2004-039
       - REL-RIGGS-POST-2004-040
       - REL-RIGGS-POST-2004-053
+      - REL-RIGGS-ORIGINAL-001
+      - REL-RIGGS-ORIGINAL-002
+      - REL-RIGGS-ORIGINAL-003
+      - REL-RIGGS-ORIGINAL-004
+      - REL-RIGGS-ORIGINAL-005
+      - REL-RIGGS-ORIGINAL-006
+      - REL-RIGGS-ORIGINAL-007
+      - REL-RIGGS-ORIGINAL-008
+      - REL-RIGGS-ORIGINAL-009
+      - REL-RIGGS-ORIGINAL-010
+      - REL-RIGGS-ORIGINAL-011
+      - REL-RIGGS-ORIGINAL-012
+      - REL-RIGGS-ORIGINAL-013
+      - REL-RIGGS-ORIGINAL-014
 
   riggs-obiang-gerichtsverfahren-vermoegensrueckfuehrung-2014-2026.md:
     sha256: c4a8483a9b92a544856bd49a66cfe11f4cf1303e9adcc8f2af966287ed4e718a

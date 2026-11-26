@@ -2913,3 +2913,75 @@ entities:
     name: "World Health Organization (WHO)"
     countries: []
     notes: ""
+
+  - id: ORG-GQ-REPUBLIC-2005
+    type: sovereign_state
+    name: Republik Äquatorialguinea (Mandantenbezeichnung 2005)
+    countries:
+    - GQ
+    notes: Staat als Mandant im Sidley-Treuhandbericht vom 03.12.2009, getrennt von der historischen Regierungsentität 1995–2004; kein Nachweis des wirtschaftlichen Eigentums am konkreten Betrag.
+  - id: ORG-US-GENERAL-DYNAMICS-CORPORATE-2005
+    type: company
+    name: General Dynamics Corporate (Buchungsbezeichnung 2005)
+    countries:
+    - US
+    notes: Wortlaut der Buchungsbezeichnung im Sidley-Bericht S.1435; keine eigenständige Bestimmung des kontoführenden Rechtsträgers oder der ursprünglichen Vermögensherkunft.
+  - id: ORG-US-GULFSTREAM-AEROSPACE-2005
+    type: company
+    name: Gulfstream Aerospace Corporation (2005)
+    countries:
+    - US
+    notes: Historische Vertragsangelegenheit und gescheiterter Flugzeugkauf, keine heutige Rechtsform oder strafrechtliche Kenntnis abgeleitet.
+  - id: PER-US-JOHN-ROTH-2005
+    type: person
+    name: John Roth (U.S. Attorney's Office D.C., 2005)
+    countries:
+    - US
+    notes: Unterzeichnete Brief vom 18.04.2005 als Assistant U.S. Attorney und Leiter Fraud & Public Corruption Section; keine Aussage zu späteren Funktionen.
+  - id: PER-US-KENNETH-WAINSTEIN-2005
+    type: person
+    name: Kenneth L. Wainstein (U.S. Attorney D.C., 2005)
+    countries:
+    - US
+    notes: Im Briefkopf und als ausstellender U.S. Attorney genannt; die Unterschrift stammt von John Roth, keine persönliche Sachbearbeitung behauptet.
+  - id: PER-US-THOMAS-C-GREEN-2005
+    type: person
+    name: Thomas C. Green (Sidley Austin, 2005)
+    countries:
+    - US
+    notes: Adressat des DOJ-Schreibens vom 18.04.2005, keine weitergehende Tat- oder Verantwortungszurechnung.
+  - id: ORG-US-ICE-2007
+    type: government_agency
+    name: U.S. Immigration and Customs Enforcement (ICE, 2007)
+    countries:
+    - US
+    notes: Historische Ermittlungsrolle im DOJ-Rechtshilfeersuchen sowie DHS-Anfrage an Wachovia; keine heutige Zuständigkeit behauptet.
+  - id: ORG-FR-MLAT-CENTRAL-AUTHORITY-2007
+    type: government_agency
+    name: Französische Zentralbehörde für Strafrechtshilfe (2007)
+    countries:
+    - FR
+    notes: Adressatin des US-Rechtshilfeersuchens; keine konkrete Bearbeitung oder Zustimmung aus Adressierung abgeleitet.
+  - id: ORG-FR-FORTIS-BANQUE-2006-2007
+    type: commercial_bank
+    name: Fortis Banque France (2006–2007)
+    countries:
+    - FR
+    notes: Bezeichnung im Rechtshilfeersuchen S.607, getrennt vom Fortis-Bankweg 2008; genaue historische Rechtsträgeridentität noch offen.
+  - id: ORG-FR-NATIXIS-2007
+    type: commercial_bank
+    name: Natixis (ex Natexis Banques Populaires, 2007)
+    countries:
+    - FR
+    notes: Historische Bankbezeichnung im Rechtshilfeersuchen S.607–608; keine Kenntnis von Vortaten allein aus Korrespondenzdienst abgeleitet.
+  - id: ORG-INT-AERO-RECORDS-TITLE-2005
+    type: escrow_service
+    name: Aero Records & Title Co. Escrow (2005)
+    countries: []
+    notes: Ausgewiesener Treuhandempfänger; genaue Registerjurisdiktion nicht geprüft.
+  - id: ORG-US-GENERAL-DYNAMICS-CORPORATION-2005
+    type: corporation
+    name: General Dynamics Corporation (2005–2006)
+    countries:
+    - US
+    notes: SEC Exhibit 21 belegt historische Konzernzugehörigkeit von Gulfstream-Gesellschaften. Identität mit Buchungsbezeichnung General Dynamics Corporate nicht festgestellt.

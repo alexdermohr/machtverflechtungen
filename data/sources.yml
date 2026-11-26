@@ -5536,3 +5536,53 @@ sources:
   accessed: "2026-11-26"
   locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
   notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
+
+- id: SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010
+  title: Keeping Foreign Corruption Out of the United States – S. Hrg. 111-540, Vol. 1 (Faksimiles)
+  institution: U.S. Senate Permanent Subcommittee on Investigations
+  date: '2010-02-04'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/pdf/CHRG-111shrg56840.pdf
+  accessed: '2026-11-26'
+  language: en
+  sha256: 3a65f720bf276889f66bf503483c59a1b6f19757a896b230b38e57bf1633e2c2
+  locator: S.243–244 (PDF275–276), Exhibit 41 S.601–613 (PDF633–645), vollständig visuell geprüft, Exhibit 134 Fn432 S.1350–1353 (PDF1382–1385), Fn479 S.1433 (PDF1465), Fn480 S.1434–1435 (PDF1466–1467). PDF-Seiten 1-basiert. Faksimiles der genannten
+    geprüften Seiten visuell gelesen.
+- id: SRC-US-SENATE-HEARING-111-540-V2-FACSIMILE-2010
+  title: Keeping Foreign Corruption Out of the United States – S. Hrg. 111-540, Vol. 2 (Faksimiles)
+  institution: U.S. Senate Permanent Subcommittee on Investigations
+  date: '2010-02-04'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.govinfo.gov/content/pkg/CHRG-111shrg57734/pdf/CHRG-111shrg57734.pdf
+  accessed: '2026-11-26'
+  language: en
+  sha256: 59802aaac64c0f0c1b9aa5f006d9346d262846c88f0d0e61ead7ab14365c37e6
+  locator: Exhibit 134 Fn557, S.1615–1616, PDF45–46 (1-basiert), DHS- und Wachovia-E-Mails vom 16./17.01.2007, Bates BF-FC00007–8; visuell geprüft.
+- id: SRC-US-GENERAL-DYNAMICS-EX21-2004
+  title: General Dynamics Corporation – Exhibit 21, FY 2004
+  institution: General Dynamics Corporation / SEC
+  date: '2005-01-31'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/40533/000119312505042255/dex21.htm
+  accessed: '2026-11-26'
+  language: en
+  locator: Tochtergesellschaftsliste, Stand 2005-01-31; vier Gulfstream Aerospace Corporation-Einträge (DE, CA, GA, OK), jeweils 100 % Stimmrechte.
+  notes: Datum bezeichnet Listenstand. Konkrete Vertragsgesellschaft und Buchungstext nicht eindeutig identifiziert.
+- id: SRC-US-GENERAL-DYNAMICS-EX21-2005
+  title: General Dynamics Corporation – Exhibit 21, FY 2005
+  institution: General Dynamics Corporation / SEC
+  date: '2006-01-31'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/40533/000119312506044567/dex21.htm
+  accessed: '2026-11-26'
+  language: en
+  locator: Tochtergesellschaftsliste, Stand 2006-01-31; vier Gulfstream Aerospace Corporation-Einträge (DE, CA, GA, OK), jeweils 100 % Stimmrechte.
+  notes: Datum bezeichnet Listenstand. Konkrete Vertragsgesellschaft und Buchungstext nicht eindeutig identifiziert.
