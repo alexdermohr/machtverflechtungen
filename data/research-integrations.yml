@@ -967,7 +967,7 @@ studies:
       - REL-IT-BOLOGNA-PG-DAMATO-2024-001
 
   l3-titan-lehman-staatsauftraege-exportaufsicht-1997-2007.md:
-    sha256: 34a4f5f3357118b8e0529563720febb2e7d341d6027d1bc242759ccd9dc46322
+    sha256: 272e60207468b764bf9077ae2de9fe5923cd1ded42604cc6f2271b263112bf01
     status: network
     relation_ids:
     - REL-TITAN-FOUNDING-LEHMAN

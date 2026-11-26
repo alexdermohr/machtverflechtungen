@@ -32,7 +32,7 @@ Der Titan-Proxy dokumentiert Lehman Brothers Inc. neben Relational Advisors als 
 | Nachrangige Notes | 1 Mrd. USD nominal |
 | Ergänzender Term Loan | 750 Mio. USD tatsächlich zur Erwerbsfinanzierung genutzt |
 | Bestehender Revolver | 1 Mrd. USD Kreditrahmen, keine vollständige Auszahlung unterstellt |
-| Vertreter der Erstkäufer beider Emissionen | Lehman Brothers Inc., Bear Stearns, CSFB LLC, Banc of America Securities LLC |
+| Vertreter der Erstkäufer beider Emissionen | Lehman Brothers Inc., Bear, Stearns & Co. Inc., Credit Suisse First Boston LLC (CSFB), Banc of America Securities LLC |
 | Kreditorganisation | Bank of America N.A. (Administrative Agent), Lehman Commercial Paper (Syndication Agent), Banc of America Securities und Lehman Brothers (Lead Arranger/Book Manager) |
 
 Kein eigener Kredit- oder Zeichnungsbetrag der einzelnen Institute aus den Gesamtsummen ableiten. Die unterschiedlichen Bezugsgrößen Nettoerlös, Nominalvolumen, vorhandene Liquidität, übernommene Schulden und Kaufpreis nicht addieren. Der 2005 berichtete Transaktionswert betrug rund 2,754 Mrd. USD netto erworbener Liquidität. [Kreditnachtrag vom 25.10.2006](https://www.sec.gov/Archives/edgar/data/1056239/000095013606008837/file2.htm) nennt weitere Institute auf Unterschriftsseiten, darunter Wachovia, Bank of New York, HSBC Bank USA und Bank of Ireland. Teilweise offene Unterschriftsfelder belegen weder jede Unterzeichnung noch ursprüngliche Einzelkredite 2005. Die komplette 2005er Krediturkunde ist im SEC-Index lokalisiert, aber nicht vollständig abrufbar.
