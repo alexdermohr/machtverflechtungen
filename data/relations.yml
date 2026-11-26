@@ -6371,8 +6371,8 @@ relations:
     from: ORG-US-L3-COMMUNICATIONS-1997
     to: ORG-US-TITAN-CORPORATION-2005
     type: business_acquisition
-    label: Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert
-      rund 2,754 Mrd. USD
+    label: Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Transaktionswert
+      rund 2,754 Mrd. USD netto erworbener Liquidität
     evidence_level: established
     sources:
     - SRC-TITAN-L3-S4-05
@@ -6535,17 +6535,14 @@ relations:
       start: '2006'
       end: '2006'
   - id: REL-TITAN-DDTC-SUCCESSOR
-    from: ORG-US-DDTC-2006
+    from: ORG-US-DDTC
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: administrative_charge_draft
-    label: Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe,
-      keine gerichtliche Schuldfeststellung
+    label: 'Undatierter Anklageentwurf nach Titan-Erwerb: L-3 als Rechtsnachfolger für
+      vorherige ITAR-Vorwürfe benannt; keine gerichtliche Schuldfeststellung'
     evidence_level: established
     sources:
     - SRC-TITAN-DDTC
-    period:
-      start: '2006'
-      end: '2006'
   - id: REL-TITAN-EXPORT-RESTORED
     from: ORG-US-STATE-DEPARTMENT
     to: ORG-US-TITAN-CORPORATION-2005
@@ -6850,7 +6847,8 @@ relations:
     from: ORG-BE-BELGOLAISE-1999
     to: ORG-BJ-OPT-2001
     type: reported_bridge_credit
-    label: Überbrückungskredit in Art.7 genannt; kein Betrag oder einzelner Abruf belegt
+    label: Art. 7 des Rahmenprotokolls nennt Belgolaise-Überbrückungskredit an OPTB
+      und dessen Abzug vom Projekterlös; Kreditdatum, Betrag und Abrufe nicht belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-PROTOCOL

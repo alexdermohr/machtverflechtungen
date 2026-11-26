@@ -3869,7 +3869,7 @@ SEC EDGAR / Emittent · 2003 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN
 
 [PDF öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225803000284/ex10_4protocal.pdf)
 
-Fundstelle: Präambel A–H, Art.2–3,5–7,10,14 und Datumsberichtigung S.15–18; PDF-Text, Faksimileabruf Cache miss.
+Fundstelle: Präambel A–H, Art.2–3,5–7,10,14; Art.7 S.9 benennt OPTB ausdrücklich als Kreditnehmerin der Belgolaise Facility; Datumsberichtigung S.15–18. SEC-PDF-Text und indexierte amtliche HTML-Fassung.
 
 </article>
 
@@ -4797,7 +4797,7 @@ U.S. Department of State, DDTC · unbekannt · Stufe **A** · Primärquelle · `
 
 [Seite öffnen](https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928)
 
-Fundstelle: §§1–2, 10–12, 18–19, S.4 Faksimile geprüft. Anklageentwurf, keine endgültige Entscheidung.
+Fundstelle: Undatierter Entwurf, S. 1 und 7 visuell bestätigt; §§1–2, Fn.1 (Nachfolge nach Erwerb 29.07.2005), 10–12, 18–22; S.4 zuvor visuell geprüft. Keine endgültige Entscheidung.
 
 </article>
 

@@ -1039,7 +1039,7 @@ studies:
       - REL-RIGGS-POST-2004-059
 
   l3-titan-lehman-staatsauftraege-exportaufsicht-1997-2007.md:
-    sha256: f2ebbd08942573cba047c398fcc17cf4b7e01cca9be882687ddc1e73ad91c7d2
+    sha256: a61b294b2a0761a529638d1d0682fc9aa029da374cee02bd44644bd59c070d26
     status: network
     relation_ids:
     - REL-TITAN-FOUNDING-LEHMAN
@@ -1080,7 +1080,7 @@ studies:
     - REL-TITAN-HEAD-CONVICTION
 
   titan-benin-bct-banken-vergleich-1996-2005.md:
-    sha256: 3a68ae41967499fdcf748057bf09f4c899fac75a8766553fe7a2be329a7005d0
+    sha256: b3d63ba56b28e9ea4ee2489c69adc30f8a769b067e89245f5112f45f353b2cfa
     status: network
     relation_ids:
     - REL-TITAN-BCT-AFN-OPT

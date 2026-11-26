@@ -43,7 +43,7 @@ Der [L-3 10-Q für September 2006](https://www.sec.gov/Archives/edgar/data/10562
 
 ## 6. Nachfolgehaftung und Exportaufsicht
 
-Das [DDTC Draft Charging Letter](https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928), §§1–2 und 10–12, nennt L-3 als Rechtsnachfolger für Titan-Verstöße vor der Übernahme. S.4 nennt die folgenden behaupteten, nicht ordnungsgemäß deklarierten Provisionen (Faksimile geprüft):
+Das [DDTC Draft Charging Letter](https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928), §§1–2 und 10–12, nennt L-3 als Rechtsnachfolger für Titan-Verstöße vor der Übernahme. Der vorliegende Entwurf selbst trägt kein Datum (S. 1 und 7 visuell geprüft); der Erwerb vom 29.07.2005 ist in § 2 als bereits erfolgt beschrieben. Der Entwurf wird daher nicht mit einem erschlossenen Ausstellungsjahr in der Zeitleiste versehen. S.4 nennt die folgenden behaupteten, nicht ordnungsgemäß deklarierten Provisionen (Faksimile geprüft):
 
 | Land / Jahr | Behaupteter Empfänger | Provision | Geschäftswert ca. |
 | --- | --- | ---: | ---: |

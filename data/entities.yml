@@ -2992,12 +2992,13 @@ entities:
     countries:
     - US
     notes: Zivilrechtliche Durchsetzung.
-  - id: ORG-US-DDTC-2006
+  - id: ORG-US-DDTC
     type: government_agency
     name: Directorate of Defense Trade Controls (DDTC)
     countries:
     - US
-    notes: U.S. Department of State, Exportkontrolle.
+    notes: U.S. Department of State, Exportkontrolle; im vorliegenden Anklageentwurf
+      als DDTC bezeichnet.
   - id: ORG-US-INSCOM-2006
     type: military_command
     name: U.S. Army Intelligence and Security Command (INSCOM) (2006)

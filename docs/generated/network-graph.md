@@ -1240,7 +1240,7 @@ flowchart LR
     N_PER_US_ROBERT_MILLARD["Robert B. Millard"]
     N_PER_US_ROBERT_MILLARD -->|"Managing Director laut Übernahmeprospekt"| N_ORG_US_LEHMAN_BROTHERS_INC
     N_PER_US_ROBERT_MILLARD -->|"Mitglied im L-3-Verwaltungsrat persönlich laut Proxy"| N_ORG_US_L3_HOLDINGS_1997
-    N_ORG_US_L3_COMMUNICATIONS_1997 -->|"Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert rund 2,754 Mrd. USD"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_L3_COMMUNICATIONS_1997 -->|"Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Transaktionswert rund 2,754 Mrd. USD netto erworbener Liquidität"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_BOFA_NA_2005["Bank of America, N.A. (L-3-Kredit 2005–2006)"]
     N_ORG_US_BOFA_NA_2005 -->|"Administrative Agent/Swing Line/LC issuer; 750 Mio. Term Loan zusätzlich zu 1 Mrd. Revolver; kein individueller Kreditanteil"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_LEHMAN_COMMERCIAL_PAPER["Lehman Commercial Paper Inc. (2002–2006)"]
@@ -1260,8 +1260,8 @@ flowchart LR
     N_ORG_US_CSFB_LLC_2005 -->|"Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_INSCOM_2006["U.S. Army Intelligence and Security Command (INSCOM) (2006)"]
     N_ORG_US_INSCOM_2006 -->|"Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad"| N_ORG_US_L3_COMMUNICATIONS_1997
-    N_ORG_US_DDTC_2006["Directorate of Defense Trade Controls (DDTC)"]
-    N_ORG_US_DDTC_2006 -->|"Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe, keine gerichtliche Schuldfeststellung"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_DDTC["Directorate of Defense Trade Controls (DDTC)"]
+    N_ORG_US_DDTC -->|"Undatierter Anklageentwurf nach Titan-Erwerb: L-3 als Rechtsnachfolger für vorherige ITAR-Vorwürfe benannt; keine gerichtliche Schuldfeststellung"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_STATE_DEPARTMENT -->|"L-3 10-Q berichtet Titan-Vereinbarung mit State Department: 1,5 Mio. USD vorgesehene Sanktionen und erneute Exportlizenzfähigkeit Titans; DDTC-Entwurf gegen L-3 separat, keine Original-Vergleichsurkunde eingesehen"| N_ORG_US_TITAN_CORPORATION_2005
     N_PER_US_STEVEN_LYNWOOD_HEAD["Steven Lynwood Head"]
     N_ORG_US_DOJ -->|"Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised release, 5000 USD Geldstrafe; keine Schuld Dritter"| N_PER_US_STEVEN_LYNWOOD_HEAD
@@ -1302,7 +1302,7 @@ flowchart LR
     N_ORG_BJ_OPT_2001 -->|"Vertragspartei; bedingte Übertragung und Anspruchsverzicht, keine pauschale Übernahme von Titan-Altlasten"| N_DOC_BJ_BCT_PROTOCOL_2003
     N_ORG_US_TITAN_CORPORATION_2005 -->|"Vertragspartei mit bedingtem Verzicht und 40% definierter Nettoerlöse nach Kreditrückzahlung; Wirksamkeit/Zahlungen getrennt"| N_DOC_BJ_BCT_PROTOCOL_2003
     N_ORG_US_TITAN_AFRICA_INC -->|"Mitunterzeichner der bedingten Vertragsänderung"| N_DOC_BJ_BCT_PROTOCOL_2003
-    N_ORG_BE_BELGOLAISE_1999 -->|"Überbrückungskredit in Art.7 genannt; kein Betrag oder einzelner Abruf belegt"| N_ORG_BJ_OPT_2001
+    N_ORG_BE_BELGOLAISE_1999 -->|"Art. 7 des Rahmenprotokolls nennt Belgolaise-Überbrückungskredit an OPTB und dessen Abzug vom Projekterlös; Kreditdatum, Betrag und Abrufe nicht belegt"| N_ORG_BJ_OPT_2001
     N_ORG_FR_ALCATEL_1999 -->|"Alcatel-Lieferantenkredit in Art.7 als Abzug von Projektumsätzen; keine Einzelzahlung belegt"| N_DOC_BJ_BCT_PROTOCOL_2003
     N_ORG_BJ_OPT_2001 -->|"11 Mio. USD laut FY2004 10-K am 31.12.2003 erhalten; keine identische Bestechungszahlung"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_BJ_OPT_2001 -->|"Weitere 3,4 Mio. USD im Juli 2005 laut Q2-Filing tatsächlich erhalten; Vergleichsrest 10,9 Mio."| N_ORG_US_TITAN_CORPORATION_2005

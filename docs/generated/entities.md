@@ -297,7 +297,7 @@
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | Deutscher Rat für Public Relations | organization | `ORG-DE-DRPR` | DE | [1](network.md#rel-ulf-tk-drpr) |
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
-| Directorate of Defense Trade Controls (DDTC) | government_agency | `ORG-US-DDTC-2006` | US | [1](network.md#rel-titan-ddtc-successor) |
+| Directorate of Defense Trade Controls (DDTC) | government_agency | `ORG-US-DDTC` | US | [1](network.md#rel-titan-ddtc-successor) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
