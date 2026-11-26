@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**514 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-titan-lehman02) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-titan-sec-complaint) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -3185,6 +3185,126 @@ Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-titan-lehman02"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – Form S-4 September 2002](https://www.sec.gov/Archives/edgar/data/1059161/000095013602002692/file001.txt)**
+
+L-3 (SEC EDGAR) · 2002-09-18 · Stufe **A** · Primärquelle · `SRC-TITAN-LEHMAN02`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1059161/000095013602002692/file001.txt)
+
+Fundstelle: S.92–93, F-13, Beteiligung und Finanzierungsrollen; zuvor Originalvolltext geprüft.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-titan-ais"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – Form 10-K fiscal year 2002](https://www.sec.gov/Archives/edgar/data/1056239/000095013603000535/file001.txt)**
+
+L-3 (SEC EDGAR) · 2003 · Stufe **A** · Primärquelle · `SRC-TITAN-AIS`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1056239/000095013603000535/file001.txt)
+
+Fundstelle: Note 3 F-15–16, SIVAM-Verträge im erworbenen AIS-Bestand; zuvor Originalvolltext geprüft.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-l3-10q-jun"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – Form 10-Q for quarter ended June 30, 2005](https://www.sec.gov/Archives/edgar/data/1039101/000095013605004713/file001.htm)**
+
+L-3 (SEC EDGAR) · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-L3-10Q-JUN`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1039101/000095013605004713/file001.htm)
+
+Fundstelle: Financing Activities; Nutzung des Term Loans; amtlicher Index.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-l3-s4-05"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – Form S-4 2005, acquisition financing and risk factors](https://www.sec.gov/Archives/edgar/data/1039101/000095013605007897/file001.htm)**
+
+L-3 (SEC EDGAR) · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-L3-S4-05`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1039101/000095013605007897/file001.htm)
+
+Fundstelle: Acquisition Financing, FCPA Investigation, Navy-Verhandlungen, Stockholder and Derivative Actions; amtlicher Index.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-titan-l3-10q-sep06"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – Form 10-Q for quarter ended September 30, 2006](https://www.sec.gov/Archives/edgar/data/1056239/000095013606009344/file1.htm)**
+
+L-3 (SEC EDGAR) · 2006 · Stufe **A** · Primärquelle · `SRC-TITAN-L3-10Q-SEP06`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1056239/000095013606009344/file1.htm)
+
+Fundstelle: Note 4 S.11–12, Legal Matters, MD&A; Sicherheitsfreigaben, Kundenbeziehungen, INSCOM-Umsätze, Exportzulassung; amtlicher Index.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-titan-credit06"></a>
+### L-3 (SEC EDGAR)
+
+**[L-3 – First Amendment to Amended and Restated Credit Agreement](https://www.sec.gov/Archives/edgar/data/1056239/000095013606008837/file2.htm)**
+
+L-3 (SEC EDGAR) · 2006-10-25 · Stufe **A** · Primärquelle · `SRC-TITAN-CREDIT06`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1056239/000095013606008837/file2.htm)
+
+Fundstelle: Unterschriftsseiten: benannte Kreditgeber, teilweise leere Unterschriften; keine Einzelbeträge.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-l3-8k"></a>
+### L-3 Holdings / L-3 Communications (SEC EDGAR)
+
+**[L-3 – Form 8-K: acquisition and financing](https://www.sec.gov/Archives/edgar/data/1056239/000095013605004521/file001.htm)**
+
+L-3 Holdings / L-3 Communications (SEC EDGAR) · 2005-07-27 · Stufe **A** · Primärquelle · `SRC-TITAN-L3-8K`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1056239/000095013605004521/file001.htm)
+
+Fundstelle: Items 1.01, 2.01, 2.03: Emissionen, Kreditagenten, Übernahme; amtlicher Index.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-titan-l3-97"></a>
+### L-3, Emittentenarchiv
+
+**[L-3 Communications – S-4 Amendment No. 1](https://l3technologiesinc.gcs-web.com/static-files/88113d78-2f6d-4415-a384-42ac4390471e)**
+
+L-3, Emittentenarchiv · 1997-09-11 · Stufe **A** · Primärquelle · `SRC-TITAN-L3-97`
+
+[Seite öffnen](https://l3technologiesinc.gcs-web.com/static-files/88113d78-2f6d-4415-a384-42ac4390471e)
+
+Fundstelle: The Transaction, S.13–15; historische Chronik-Fundstelle und Issue 265; frühere PDF-Textauswertung.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-de-bwlt-stammheim-2007"></a>
@@ -3227,6 +3347,21 @@ Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle · `SR
 [PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
 
 Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-titan-lockheed"></a>
+### Lockheed Martin / Titan (SEC EDGAR)
+
+**[Lockheed Martin – 2004 merger termination release](https://www.sec.gov/Archives/edgar/data/32258/000110465904018438/a04-7429_1ex99d1.htm)**
+
+Lockheed Martin / Titan (SEC EDGAR) · 2004-06-26 · Stufe **A** · Primärquelle · `SRC-TITAN-LOCKHEED`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000110465904018438/a04-7429_1ex99d1.htm)
+
+Fundstelle: Exhibit 99.1; beendete Lockheed-Titan-Vereinbarung; frühere Quelle. Titeljahr der ursprünglichen L-3-Gründung nicht mit Übernahmeversuch verwechseln.
 
 </article>
 
@@ -3630,6 +3765,186 @@ Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Prim�
 [PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
 
 Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-sec-complaint"></a>
+### SEC
+
+**[SEC complaint against Titan, Civil Action 05-0411](https://www.sec.gov/files/litigation/complaints/comp19107.pdf)**
+
+SEC · 2005-03-01 · Stufe **A** · Primärquelle · `SRC-TITAN-SEC-COMPLAINT`
+
+[PDF öffnen](https://www.sec.gov/files/litigation/complaints/comp19107.pdf)
+
+Fundstelle: §§44–57, 66–68; zivilrechtlicher Vorwurf, Vergleich ohne Eingeständnis oder Bestreiten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-sec"></a>
+### SEC
+
+**[SEC Litigation Release 19107 – The Titan Corporation](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19107)**
+
+SEC · 2005-03-01 · Stufe **A** · Primärquelle · `SRC-TITAN-SEC`
+
+[Seite öffnen](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19107)
+
+Fundstelle: Civil Action 05-0411; Vergleich und Vorwurfsstatus, Verrechnung der Strafzahlung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-titan-benin-q201"></a>
+### SEC EDGAR / Emittent
+
+**[Titan 10-Q/A June 2001](https://www.sec.gov/Archives/edgar/data/32258/000003225801500004/form10q2a.htm)**
+
+SEC EDGAR / Emittent · 2001 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-Q201`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225801500004/form10q2a.htm)
+
+Fundstelle: Liquidity and Capital Resources: Abruf, 18 Mio. Investorenerlös, Vertragsverlängerungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-titan-benin-10k01"></a>
+### SEC EDGAR / Emittent
+
+**[Titan Form 10-K FY2001](https://www.sec.gov/Archives/edgar/data/32258/000003225802000005/ttn10k_01.htm)**
+
+SEC EDGAR / Emittent · 2002 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-10K01`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225802000005/ttn10k_01.htm)
+
+Fundstelle: Liquidity and Capital Resources, Debt; Kreditabruf und Vertragsliste.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-titan-benin-10ka01"></a>
+### SEC EDGAR / Emittent
+
+**[Titan Form 10-K/A FY2001](https://www.sec.gov/Archives/edgar/data/32258/000003225802000057/ttn10ka2_01.htm)**
+
+SEC EDGAR / Emittent · 2002 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-10KA01`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225802000057/ttn10ka2_01.htm)
+
+Fundstelle: Separater Kreditrahmen von 485 Mio. USD.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-titan-relational03"></a>
+### SEC EDGAR / Emittent
+
+**[Lockheed/Titan Form S-4/A 2003](https://www.sec.gov/Archives/edgar/data/936468/000119312503084495/ds4a.htm)**
+
+SEC EDGAR / Emittent · 2003 · Stufe **A** · Primärquelle · `SRC-TITAN-RELATIONAL03`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/936468/000119312503084495/ds4a.htm)
+
+Fundstelle: Annex B, Fondsanteil Titan, frühere Beratung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-titan-benin-protocol"></a>
+### SEC EDGAR / Emittent
+
+**[Protocole d'accord cadre BCT, einschließlich Datumsberichtigung](https://www.sec.gov/Archives/edgar/data/32258/000003225803000284/ex10_4protocal.pdf)**
+
+SEC EDGAR / Emittent · 2003 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-PROTOCOL`
+
+[PDF öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225803000284/ex10_4protocal.pdf)
+
+Fundstelle: Präambel A–H, Art.2–3,5–7,10,14; Art.7 S.9 benennt OPTB ausdrücklich als Kreditnehmerin der Belgolaise Facility; Datumsberichtigung S.15–18. SEC-PDF-Text und indexierte amtliche HTML-Fassung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-titan-benin-8k03"></a>
+### SEC EDGAR / Emittent
+
+**[Titan Form 8-K July 2003](https://www.sec.gov/Archives/edgar/data/32258/000003225803000238/from8kjul09_03.htm)**
+
+SEC EDGAR / Emittent · 2003-07-09 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-8K03`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000003225803000238/from8kjul09_03.htm)
+
+Fundstelle: 40,5 Mio. USD in längerfristigen Verbindlichkeiten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-titan-benin-q204"></a>
+### SEC EDGAR / Emittent
+
+**[Titan 10-Q June 2004](https://www.sec.gov/Archives/edgar/data/32258/000104746904025833/a2141634z10-q.htm)**
+
+SEC EDGAR / Emittent · 2004 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-Q204`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000104746904025833/a2141634z10-q.htm)
+
+Fundstelle: Benin: abweichende 35-Mio.-Angabe; keine zusätzliche Forderung daraus ableiten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
+
+<a id="src-titan-relational04"></a>
+### SEC EDGAR / Emittent
+
+**[Titan definitive merger proxy 2004](https://www.sec.gov/Archives/edgar/data/32258/000119312504079394/ddefm14a.htm)**
+
+SEC EDGAR / Emittent · 2004 · Stufe **A** · Primärquelle · `SRC-TITAN-RELATIONAL04`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000119312504079394/ddefm14a.htm)
+
+Fundstelle: Opinion of Relational Advisors, S.36, bezahlte Gutachtengebühren.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-benin-q205"></a>
+### SEC EDGAR / Emittent
+
+**[Titan financial statements Q2 2005, L-3 exhibit](https://www.sec.gov/Archives/edgar/data/1056239/000095013605007543/file003.htm)**
+
+SEC EDGAR / Emittent · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-Q205`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/1056239/000095013605007543/file003.htm)
+
+Fundstelle: Benin: Restschuld, Juli-Zahlung und Subunternehmervergleich.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-benin-10k04"></a>
+### SEC EDGAR / Emittent
+
+**[Titan Form 10-K FY2004](https://www.sec.gov/Archives/edgar/data/32258/000104746905006804/a2153658z10-k.htm)**
+
+SEC EDGAR / Emittent · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-BENIN-10K04`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000104746905006804/a2153658z10-k.htm)
+
+Fundstelle: S.31, Note 7 S.79–80, Exhibit 10.21–22 S.124; Kredit, Banken, Forderungen, berichtete Zahlungen.
 
 </article>
 
@@ -4081,6 +4396,36 @@ Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-proxy"></a>
+### Titan (SEC EDGAR)
+
+**[The Titan Corporation – definitive merger proxy statement](https://www.sec.gov/Archives/edgar/data/32258/000104746905018302/a2160261zdefm14a.htm)**
+
+Titan (SEC EDGAR) · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-PROXY`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000104746905018302/a2160261zdefm14a.htm)
+
+Fundstelle: Background of Merger; Opinion of Relational Advisors; Opinion of Lehman Brothers, S. 36–37; Covenants; indexierte Originaleinreichung (beide getrennte Gebührenvereinbarungen erneut bestätigt).
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-navy"></a>
+### Titan / Department of the Navy (SEC EDGAR)
+
+**[Administrative Settlement Agreement between Titan and the Department of the Navy](https://www.sec.gov/Archives/edgar/data/32258/000110465905009388/a05-4343_1ex10d3.htm)**
+
+Titan / Department of the Navy (SEC EDGAR) · 2005-03-02 · Stufe **A** · Primärquelle · `SRC-TITAN-NAVY`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000110465905009388/a05-4343_1ex10d3.htm)
+
+Fundstelle: Exhibit 10.3 §§1–3, 5–6, 9–16, 19–20; Originalvertrag.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1989">
 
 <a id="src-de-schimmeck-psv-reportage-1989"></a>
@@ -4291,6 +4636,21 @@ Fundstelle: Offene Erprobung von Palantirs Maven Smart System in Army Public Aff
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-titan-head-motion"></a>
+### U.S. Attorney / DOJ
+
+**[United States v. Steven Lynwood Head – Government motion §5K1.1](https://www.justice.gov/criminal/fraud/fcpa/cases/heads/09-21-07headgovt5k1-depart.pdf)**
+
+U.S. Attorney / DOJ · 2007-09-21 · Stufe **A** · Primärquelle · `SRC-TITAN-HEAD-MOTION`
+
+[PDF öffnen](https://www.justice.gov/criminal/fraud/fcpa/cases/heads/09-21-07headgovt5k1-depart.pdf)
+
+Fundstelle: Doc.30 S.2–6, Fn.3; Darstellung der Anklagebehörde, keine Schuldentscheidung über Dritte.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2004">
 
 <a id="src-us-public-law-108-458-2004"></a>
@@ -4366,6 +4726,21 @@ Fundstelle: BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-doj-pr"></a>
+### U.S. Department of Justice
+
+**[DOJ press release: Titan plea](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-pr-plea.pdf)**
+
+U.S. Department of Justice · 2005-03-01 · Stufe **A** · Primärquelle · `SRC-TITAN-DOJ-PR`
+
+[PDF öffnen](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-pr-plea.pdf)
+
+Fundstelle: Keine Kenntnis des damaligen Präsidenten in der Anklage behauptet; Pressemitteilung, PDF-Text.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-us-doj-uboc-dpa-2007"></a>
@@ -4408,6 +4783,21 @@ U.S. Department of Justice, U.S. Attorney Southern District of Florida · 2010-0
 [Seite öffnen](https://www.justice.gov/archive/usao/fls/PressReleases/2010/100317-02.html)
 
 Fundstelle: DPA wegen BSA-Mängeln 05/2003–06/2008; Wechselhäuser und Zahlungsdienstleister; 110 Mio. USD Verfall (erfüllt zugleich FinCEN-Buße), 50 Mio. zusätzliche OCC-Buße. Kein Obiang-Schuldspruch.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-titan-ddtc"></a>
+### U.S. Department of State, DDTC
+
+**[L-3 Communications Corporation – Draft Charging Letter](https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928)**
+
+U.S. Department of State, DDTC · unbekannt · Stufe **A** · Primärquelle · `SRC-TITAN-DDTC`
+
+[Seite öffnen](https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928)
+
+Fundstelle: Undatierter Entwurf, S. 1 und 7 visuell bestätigt; §§1–2, Fn.1 (Nachfolge nach Erwerb 29.07.2005), 10–12, 18–22; S.4 zuvor visuell geprüft. Keine endgültige Entscheidung.
 
 </article>
 
@@ -4861,6 +5251,21 @@ Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Ein
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-titan-head"></a>
+### U.S. District Court Southern District of California / DOJ
+
+**[United States v. Steven Lynwood Head – Judgment, Doc. 36](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/10-04-07head-judgment.pdf)**
+
+U.S. District Court Southern District of California / DOJ · 2007-10-04 · Stufe **A** · Primärquelle · `SRC-TITAN-HEAD`
+
+[PDF öffnen](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/10-04-07head-judgment.pdf)
+
+Fundstelle: Urteil S.1–5, Strafzumessung 28.09.2007; früherer PDF-Textzugriff.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
 
 <a id="src-us-obiang-settlement-2014"></a>
@@ -4888,6 +5293,21 @@ U.S. District Court, Eastern District of Louisiana; U.S. Department of Justice a
 [Seite öffnen](https://www.justice.gov/atr/page/file/1432816/dl?inline=)
 
 Fundstelle: Gerichtsoriginal dokumentiert Klage 02.07.1954, Consent Judgment 04.02.1958 ohne Prozess/Schuldanerkenntnis, spätere Modifikation und Verkauf guatemaltekischer Plantagen an Del Monte 14.12.1972.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-titan-plea"></a>
+### U.S. District Court, Southern District of California / DOJ
+
+**[Titan Corporation – Plea Agreement, 05CR0314-BEN](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-plea.pdf)**
+
+U.S. District Court, Southern District of California / DOJ · 2005-03-01 · Stufe **A** · Primärquelle · `SRC-TITAN-PLEA`
+
+[PDF öffnen](https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-plea.pdf)
+
+Fundstelle: Abschnitt I, II.B §§19–30, 38–39; Schuldeingeständnis; PDF-Text, Faksimileabruf teilweise fehlgeschlagen.
 
 </article>
 
@@ -6035,7 +6455,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-titan-benin-loan-mirror) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6902,6 +7322,21 @@ Northumbria University, historisch-kritische Dissertation · 2016 · Stufe **B**
 [PDF öffnen](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf)
 
 Fundstelle: Druckseite 172 / PDF-Bildseite 175/Index 174: 1973 erster ACG/Atlantik-Brücke Young Leaders-Kongress Juni Hamburg, teilweise durch Ford Foundation gefördert; FN 157 mit Rockefeller Archive Center, Ford Foundation Grant Files (1239), ACG & 7300512, Program Action Form vom 27.–30.06.1973
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
+
+<a id="src-titan-benin-loan-mirror"></a>
+### Onecle (Vertragsmirror)
+
+**[Loan Facility Agreement 10 December 1999 (Vertragswiedergabe)](https://contracts.onecle.com/titan/benin.loan.1999.12.10.shtml)**
+
+Onecle (Vertragsmirror) · 1999-12-10 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-TITAN-BENIN-LOAN-MIRROR`
+
+[Seite öffnen](https://contracts.onecle.com/titan/benin.loan.1999.12.10.shtml)
+
+Fundstelle: Onecle, indexierte englische Vertragswiedergabe; Direktabruf Timeout; Deckblatt, Präambel, Art.10–11,17–19, Anlagen 11.2/11.3. Gegenbeleg SEC-Anlagenliste.
 
 </article>
 
