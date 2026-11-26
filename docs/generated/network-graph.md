@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**624 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1008,7 +1008,7 @@ flowchart LR
     N_ORG_BR_CCSIVAM -->|"Bauauftrag 001/CCSIVAM/99; CCSIVAM gestattete 20.12.1999 ausnahmsweise Zahlung vor vollständigen Abgabennachweisen, laut TCU2001 später nachgereicht"| N_ORG_BR_SCHAHIN_SIVAM_1999
     N_ORG_BR_UNION_SIVAM -->|"PPA-Auswertung 2004, Aktion5523 Flugzeuge: physisch 2003 abgeschlossen, offene Haushaltsverbindlichkeiten R$4,345 Mio. aus 2003, Budget 2004 R$3 Mio.; keine Auszahlung belegt"| N_PRG_BR_SIVAM
     N_PER_CL_INES_LUCIA_PINOCHET["Inés Lucía Pinochet"]
-    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004["Bank of America – Kontenverbund laut Senatsbericht 2005"]
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004["Bank of America – Kontenverbund laut Senatsberichten 2005/2010"]
     N_PER_CL_INES_LUCIA_PINOCHET -->|"Drei US-Konten und zeitweise bis zu sechs CDs; Höchststand ca. 420.000 USD (12/2002)."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
     N_ORG_US_RIGGS_NATIONAL_BANK -->|"300.000 USD aus Riggs-London-Scheck am 30.09.2002 auf Konto von Inés Lucía Pinochet bei Bank of America."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
     N_ORG_US_PINEBANK_MIAMI["PineBank (Miami)"]
@@ -1111,6 +1111,103 @@ flowchart LR
     N_ORG_GQ_ATSIGE["ATSIGE (2000–2004)"]
     N_ORG_GQ_MOGE_JOINT_VENTURE -->|"236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."| N_ORG_GQ_ATSIGE
     N_PER_US_LAWRENCE_I_HEBERT -->|"Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE["Teodoro Nguema Obiang Mangue"]
+    N_ORG_GQ_SOMAGUI_FORESTAL["Somagui Forestal (historischer Untersuchungszeitraum)"]
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"PSI bezeichnet Somagui als Obiang-Gesellschaft; Urteil Rn.32 bestätigt maßgeblichen Entscheidungseinfluss im historischen Zeitraum."| N_ORG_GQ_SOMAGUI_FORESTAL
+    N_ORG_GQ_SOCAGE["Socage (historischer Untersuchungszeitraum)"]
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"PSI bezeichnet Socage als Obiang-Gesellschaft; Urteil Rn.30–32 zur Nutzung von Gesellschaftsmitteln."| N_ORG_GQ_SOCAGE
+    N_ORG_GQ_CCEI_BANK_2003_2008["CCEI Bank GE (2003–2008)"]
+    N_ORG_GQ_SOMAGUI_FORESTAL -->|"Vier Riggs-Zahlungsaufträge 2003–2004 über CCEI GE, zusammen 3,8 Mio. USD; Teil des gleichen 4,8-Mio.-Transferkomplexes."| N_ORG_GQ_CCEI_BANK_2003_2008
+    N_ORG_GQ_SOCAGE -->|"Ein Riggs-Zahlungsauftrag über CCEI GE, 1 Mio. USD am 09.03.2004; Teil derselben fünf Transfers."| N_ORG_GQ_CCEI_BANK_2003_2008
+    N_ORG_GQ_CCEI_BANK_2003_2008 -->|"Fünf ausgewiesene Riggs-Überweisungen 2003–04, 4,8 Mio. USD via Citibank; kein zusätzlicher Mittelzufluss pro Zwischenstation."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971 -->|"Dieselben fünf Überweisungen 4,8 Mio. USD an Obiang-bezogene Riggs-Konten, Quelle Citigroup-Tabelle S.102. Fn.563 widerspricht beim Jahr einer Zeile."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"PSI2010 dokumentiert Riggs-Konten des Präsidentensohns u.a. 2001 und 2003–04; getrennt vom Vater und staatlichem Öleinnahmenkonto."| N_ORG_US_RIGGS_NATIONAL_BANK
+    N_ORG_US_SIDLEY_AUSTIN_2006["Sidley Austin (2006)"]
+    N_ORG_US_SIDLEY_AUSTIN_2006 -->|"Rücküberweisung 19.570.635,18 USD am 24.01.2006 über Citibank, nach im PSI referierter damaliger DOJ-Bestätigung fehlender Sperrgrundlage."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_SOCIETE_GENERALE_NY_2006["Société Générale S.A. (New York, 2006)"]
+    N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971 -->|"Zwischenstation derselben Rücküberweisung 19.570.635,18 USD; kein zusätzlicher Zufluss."| N_ORG_US_SOCIETE_GENERALE_NY_2006
+    N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006["Société Générale de Banque – Äquatorialguinea (2006)"]
+    N_ORG_US_SOCIETE_GENERALE_NY_2006 -->|"Weiterleitung derselben Rücküberweisung nach EG laut Tabelle S.103."| N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006
+    N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006 -->|"Empfängerkonto der Rücküberweisung und Ausgangskonto der späteren 14 Überweisungen 2006 laut PSI, keine Mittelidentität allein daraus."| N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE
+    N_ORG_US_BEVERLY_HILLS_ESCROW_2001["Beverly Hills Escrow (2001)"]
+    N_ORG_US_RIGGS_NATIONAL_BANK -->|"2001 6,2 Mio. USD aus Konto des Präsidentensohns bei Riggs an Beverly Hills Escrow bei UBOC (Bankrückschau 2004)."| N_ORG_US_BEVERLY_HILLS_ESCROW_2001
+    N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007["Union Bank of California, N.A. (UBOC)"]
+    N_ORG_US_BEVERLY_HILLS_ESCROW_2001 -->|"Empfängerkonto der 6,2-Mio.-USD-Überweisung, kein zweiter Mittelzufluss."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_CM_BEAC_2006["Banque des États de l’Afrique Centrale (BEAC, 2006)"]
+    N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006 -->|"14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der Textzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."| N_ORG_CM_BEAC_2006
+    N_ORG_FR_BANQUE_DE_FRANCE_2006["Banque de France (2006)"]
+    N_ORG_CM_BEAC_2006 -->|"Dieselben 14 Zahlungsaufträge 2006 über Banque de France, kein eigenständiges Zahlungsaggregat."| N_ORG_FR_BANQUE_DE_FRANCE_2006
+    N_ORG_US_WACHOVIA_BANK_2006["Wachovia Bank, N.A. (historischer Untersuchungszeitraum)"]
+    N_ORG_FR_BANQUE_DE_FRANCE_2006 -->|"Korrespondenzbankweg derselben 14 Zahlungsaufträge; keine Addition der wiederholten Streckenbeträge."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_US_MCAFEE_TAFT_2006["McAfee & Taft (2006)"]
+    N_ORG_US_WACHOVIA_BANK_2006 -->|"Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Textzeilensumme 10,3 Mio. USD."| N_ORG_US_MCAFEE_TAFT_2006
+    N_ORG_US_MCAFEE_TAFT_2006 -->|"Empfängerkonto der drei 2006er Treuhandzahlungen laut PSI; keine zusätzlichen Beträge."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_FIRST_AMERICAN_TITLE_2006["First American Title Company (2006)"]
+    N_ORG_US_WACHOVIA_BANK_2006 -->|"Fünf Zahlungen April 2006 je 5.908.400 USD, zusammen 29.542.000 USD laut Tabelle und Fn.553; Immobilienerwerb."| N_ORG_US_FIRST_AMERICAN_TITLE_2006
+    N_ORG_US_FIRST_AMERICAN_TRUST_2006["First American Trust, F.S.B. (2006)"]
+    N_ORG_US_FIRST_AMERICAN_TITLE_2006 -->|"Empfängerkonto der fünf Immobilienzahlungen laut PSI-Tabelle."| N_ORG_US_FIRST_AMERICAN_TRUST_2006
+    N_ORG_INT_INSURED_AIRCRAFT_TITLE_SERVICE_2006["Insured Aircraft Title Service(s) (2006)"]
+    N_ORG_US_WACHOVIA_BANK_2006 -->|"Sechs Zeilen Mai–Juni 2006, Summe 33.799.999,99 USD an Flugzeug-Titeldienstleister bei UBS London. Vor endgültiger Mittelabrechnung keine zusätzliche Eigentumsbehauptung."| N_ORG_INT_INSURED_AIRCRAFT_TITLE_SERVICE_2006
+    N_ORG_GB_UBS_LONDON_2006["UBS London (2006)"]
+    N_ORG_INT_INSURED_AIRCRAFT_TITLE_SERVICE_2006 -->|"Empfängerkonto der sechs in PSI-Tabelle ausgewiesenen Zahlungen bei UBS London."| N_ORG_GB_UBS_LONDON_2006
+    N_ORG_INT_FORTIS_BANK_2008["Fortis Bank (in PSI-Tabelle 2008)"]
+    N_ORG_GQ_CCEI_BANK_2003_2008 -->|"Zwei weitere Überweisungen 2008 (144.017,99 und 1.458,51 USD) über Fortis an Wachovia, getrennt vom 2006er Komplex."| N_ORG_INT_FORTIS_BANK_2008
+    N_ORG_INT_FORTIS_BANK_2008 -->|"Dieselben zwei 2008er Überweisungen, Summe 145.476,50 USD; nicht additiv zur vorigen Kante."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_US_BERGER_LAW_OFFICE_2004_2007["Kanzlei Michael Berger (2004–2007)"]
+    N_ORG_US_BERGER_LAW_OFFICE_2004_2007 -->|"Historische anwaltliche Treuhandkonten und Zahlungsabwicklung für Obiang, dokumentiert 2004–07; kein Strafurteil gegen Anwalt."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_ORG_US_BEAUTIFUL_VISION_INC_2004["Beautiful Vision, Inc. (2004–2005)"]
+    N_ORG_US_BEAUTIFUL_VISION_INC_2004 -->|"Beautiful-Vision-Konten ab 19.10.2004; ausgewiesene größere Einzahlungen zusammen 9.729.321,28 USD, darunter interne Umbuchungen und Immobilienerlöse; Schließungen 2005."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Sole signatory eines Beautiful-Vision-Kontos laut PSI; Bank schloss Konten wegen seiner Verbindung. Vollständige Registerakte offen."| N_ORG_US_BEAUTIFUL_VISION_INC_2004
+    N_ORG_US_BERGER_LAW_OFFICE_2004_2007 -->|"Treuhandkonto mit acht EG-Überweisungen ab 24.11.2006 bis 06.06.2007, >1,7 Mio. USD aus Somagui/Obiang laut PSI; kein weiteres Summieren mit Ausgängen."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_UNLIMITED_HORIZON_INC_2006["Unlimited Horizon, Inc. (2006–2007)"]
+    N_ORG_US_UNLIMITED_HORIZON_INC_2006 -->|"Unlimited-Horizon-Konten ab 2006, Weiterleitungen vom Kanzleikonto; PSI rekonstruiert Schließung 12.06.2007."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_UNLIMITED_HORIZON_INC_2006 -->|"Spätere Unlimited-Horizon-Konten; 26.07.2007 dokumentierte Weiterzahlung 199.948,82 USD aus Berger-Konto bei BofA nach Socage-Eingang."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"23.10.2006 Weiterleitung 199.931,17 USD aus Berger-Treuhandkonto an Unlimited Horizon bei UBOC; Eingangs-/Gebühren- und E-Mail-Angaben abweichend."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004 -->|"26.07.2007 Weiterleitung des Socage-Eingangs 199.948,82 USD an Unlimited Horizon/Citibank; dieselbe Zahlung wie Kontenbeleg, nicht additiv."| N_ORG_US_FIRST_NATIONAL_CITY_BANK_1971
+    N_ORG_US_UNIONBANCAL_2007["UnionBanCal Corporation (2007)"]
+    N_ORG_US_UNIONBANCAL_2007 -->|"UBOC als vollständig im Eigentum von UnionBanCal laut FinCEN 2007-02 §II."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_JP_MUFG_2007["Mitsubishi UFJ Financial Group (2007)"]
+    N_ORG_JP_MUFG_2007 -->|"UnionBanCal mehrheitlich im Eigentum von MUFG laut FinCEN §II; keine Kenntniszurechnung."| N_ORG_US_UNIONBANCAL_2007
+    N_ORG_US_DOJ -->|"DPA 17.09.2007, 21,6 Mio. USD vereinbarter Verfall, mexikanischer Wechselhauskomplex; kein Obiang-Strafurteil."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_OCC -->|"Parallele OCC-/FinCEN-Bußen durch eine 10-Mio.-USD-Zahlung an OCC zu erfüllen; nicht doppelt zählen."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_FINCEN -->|"Koordinierte 10-Mio.-USD-Buße, dieselbe Zahlung an OCC, nicht zusätzliche 10 Mio.; Consent ohne Anerkennung außer Zuständigkeit."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
+    N_ORG_US_DOJ -->|"DPA gerichtlich angenommen 17.03.2010; 110 Mio. USD Verfall und 50 Mio. zusätzliche OCC-Buße. Wechselhäuser/Zahlungsdienstleister, nicht Obiang zugerechnet."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_US_FINCEN -->|"110 Mio. USD FinCEN-Buße durch denselben Verfall erfüllt, nicht zusätzlich zu 160 Mio. Gesamtvereinbarung."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_US_OCC -->|"Zusätzliche 50 Mio. USD im DPA-/OCC-Komplex 2010."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_GQ_EDUM["Edum (historischer Untersuchungszeitraum)"]
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Urteil 2021 Rn.30–32: Nutzung und Entscheidungseinfluss über Gesellschaftsmittel; alternative Vertrauensmissbrauchsqualifikation 350.037 EUR."| N_ORG_GQ_EDUM
+    N_ORG_INT_FOCH_SERVICES_HISTORICAL["Foch services (historischer Rechtsträger laut Urteil)"]
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Urteil Rn.30–31: tatsächliche Leitung der Abschirmgesellschaft durch Angeklagten; keine aus Quelle bewiesene Gründungs-/Registergeschichte."| N_ORG_INT_FOCH_SERVICES_HISTORICAL
+    N_ORG_GQ_SOMAGUI_FORESTAL -->|"Gerichtsentscheidung vom 28.07.2021 zur früheren Tätigkeit: Rn.31: Foch services laut Berufungsfeststellung Abschirmgesellschaft und Somagui einzige Finanzierungsquelle; keine konkrete US-Transferidentität."| N_ORG_INT_FOCH_SERVICES_HISTORICAL
+    N_ORG_FR_COUR_DE_CASSATION["Cour de cassation (Frankreich)"]
+    N_ORG_FR_COUR_DE_CASSATION -->|"Kassationsbeschwerde am 28.07.2021 zurückgewiesen; Geldwäscheverurteilung und Einziehung bestätigt; Teilfreispruch für Geldwäsche aus Korruption ausdrücklich erhalten."| N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE
+    N_ORG_INT_INTERNATIONAL_COURT_OF_JUSTICE["Internationaler Gerichtshof (IGH)"]
+    N_DOC_INT_ICJ_163_2020["IGH-Urteil 163 zum diplomatischen Status (11.12.2020)"]
+    N_ORG_INT_INTERNATIONAL_COURT_OF_JUSTICE -->|"Urteil vom 11.12.2020: umstrittenes Pariser Gebäude erwarb keinen Status diplomatischer Missionsräume; keine Verletzung der Wiener Konvention festgestellt."| N_DOC_INT_ICJ_163_2020
+    N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014["US-Zivilvergleich Obiang Mangue vom 10.10.2014"]
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Zivilvergleich 10.10.2014 über Verwertung bestimmter Vermögenswerte und Beitrag 1 Mio. USD; Verpflichtung nicht mit Erfüllung gleichsetzen."| N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014
+    N_ORG_US_SWEETWATER_MALIBU_LLC["Sweetwater Malibu LLC"]
+    N_ORG_US_SWEETWATER_MALIBU_LLC -->|"Vergleichspartei und von Parteien bezeichnete eingetragene Immobilieneigentümerin, §§2–6; keine Identität mit älterem Immobilienvorgang."| N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014
+    N_ORG_US_DOJ -->|"US-Seite: §27 Verfall 10,3 Mio. USD nach Verwertungskosten, Rest zugunsten Bevölkerung, §28 weiterer Beitrag und Verwertung; §30 Rechnungslegung."| N_DOC_US_OBIANG_CIVIL_SETTLEMENT_2014
+    N_ORG_INT_UNITED_NATIONS_2021["Vereinte Nationen (Zuwendungsvereinbarung 2021)"]
+    N_ORG_US_DOJ -->|"Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG. Tatsächliche Einzahlungen getrennt in REL-RIGGS-POST-2004-054; nicht additiv."| N_ORG_INT_UNITED_NATIONS_2021
+    N_ORG_US_MCDI_GLOBAL_HEALTH["Medical Care Development International / MCD Global Health"]
+    N_ORG_US_DOJ -->|"Ankündigung 20.09.2021: Vereinbarung über 6,35 Mio. USD für Medikamente und medizinischen Bedarf; spätere Berichte, kein vollständiger Zahlungs-/Ausgabennachweis."| N_ORG_US_MCDI_GLOBAL_HEALTH
+    N_PRG_GQ_GOOD_WILL_FUND_2021_2025["Good Will Fund (Äquatorialguinea, 2021–2025)"]
+    N_ORG_US_MCDI_GLOBAL_HEALTH -->|"MCD berichtet Good Will Fund 2021–2025, medizinische Lieferungen und Aufbau der Logistik in 19 Distrikten; Eigenauskunft."| N_PRG_GQ_GOOD_WILL_FUND_2021_2025
+    N_DOC_INT_ICJ_163_2020 -->|"Der zwischenstaatliche Immunitätsstreit betraf die Immobilie im Zusammenhang mit französischen Ermittlungen gegen den Präsidentensohn; keine Strafverurteilung durch den IGH."| N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE
+    N_PER_GQ_TEODORO_NGUEMA_OBIANG_MANGUE -->|"Sohn des Präsidenten Teodoro Obiang Nguema Mbasogo; Verwandtschaft belegt, keine Zurechnung der jeweiligen Geldströme oder Delikte."| N_PER_GQ_TEODORO_OBIANG
+    N_ORG_US_FEDERAL_GOVERNMENT["Regierung der Vereinigten Staaten"]
+    N_PRG_GQ_MPTF_GNQ00["Equatorial Guinea Multi-Partner Trust Fund (GNQ00)"]
+    N_ORG_US_FEDERAL_GOVERNMENT -->|"10 Mio. USD Einzahlung 2021 und 9,225 Mio. USD 2023; kumuliert 19,225 Mio. USD bis 2025. Nicht additiv zur DOJ-Zusage 19,25 Mio.; Differenz 25.000 USD ungeklärt."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_INT_UNDP["United Nations Development Programme (UNDP)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"7.632.981 USD Nettofinanzierung bis 31.12.2025, davon gemeldete Ausgaben 4.670.867 USD; Programm 00129191."| N_ORG_INT_UNDP
+    N_ORG_INT_UNICEF["United Nations Children's Fund (UNICEF)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"7.746.761 USD Nettofinanzierung bis 31.12.2025, davon gemeldete Ausgaben 4.356.419 USD; Programm 00129191."| N_ORG_INT_UNICEF
+    N_ORG_INT_WHO["World Health Organization (WHO)"]
+    N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
+    N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
 ```
 
 [Zur Relationstabelle](network.md)

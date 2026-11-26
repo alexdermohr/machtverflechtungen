@@ -5332,3 +5332,207 @@ sources:
   url: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20080604a.htm"
   accessed: "2026-11-25"
   locator: "Beendigung der Anordnung zum 02.06.2008."
+
+- id: SRC-US-SENATE-FOREIGN-CORRUPTION-2010
+  title: "Keeping Foreign Corruption Out of the United States: Four Case Histories – Majority and Minority Staff Report"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2010-02-04"
+  type: "parliamentary_report"
+  primary: true
+  tier: "A"
+  url: "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/FOREIGNCORRUPTIONREPORTFINAL710.pdf"
+  accessed: "2026-11-25"
+  locator: "Interne S.30–45, 98–105; Fn.109–114, 131–135, 553, 563, 567. Banktabellen und Interviews; Textansicht, Faksimileabruf Cache miss."
+
+- id: SRC-US-SENATE-HEARING-111-540-2010
+  title: "Keeping Foreign Corruption Out of the United States: Four Case Histories – S. Hrg. 111-540 Vol. 1"
+  institution: "U.S. Senate Permanent Subcommittee on Investigations"
+  date: "2010-02-04"
+  type: "parliamentary_hearing"
+  primary: true
+  tier: "A"
+  url: "https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/html/CHRG-111shrg56840.htm"
+  accessed: "2026-11-25"
+  locator: "Befragung William J. Fox: Beautiful Vision, Berger-Konten, frühere Kontrollentscheidungen; Zeugenaussagen."
+
+- id: SRC-US-DOJ-UBOC-DPA-2007
+  title: "Union Bank of California Enters into Deferred Prosecution Agreement and Forfeits $21.6 Million"
+  institution: "U.S. Department of Justice"
+  date: "2007-09-17"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archive/opa/pr/2007/September/07_crm_726.html"
+  accessed: "2026-11-25"
+  locator: "07-726: DPA und vereinbarter Verfall, koordinierte Geldbußen; mexikanische Wechselhauskonten, keine Obiang-Strafsache."
+
+- id: SRC-US-FINCEN-UBOC-2007-02
+  title: "Assessment of Civil Money Penalty, Union Bank of California, N.A., No. 2007-02"
+  institution: "Financial Crimes Enforcement Network"
+  date: "2007-09-17"
+  type: "official_order"
+  primary: true
+  tier: "A"
+  url: "https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf"
+  accessed: "2026-11-25"
+  locator: "§§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar."
+
+- id: SRC-US-DOJ-WACHOVIA-DPA-2010
+  title: "Wachovia Enters into Deferred Prosecution Agreement"
+  institution: "U.S. Department of Justice, U.S. Attorney Southern District of Florida"
+  date: "2010-03-17"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archive/usao/fls/PressReleases/2010/100317-02.html"
+  accessed: "2026-11-25"
+  locator: "DPA wegen BSA-Mängeln 05/2003–06/2008; Wechselhäuser und Zahlungsdienstleister; 110 Mio. USD Verfall (erfüllt zugleich FinCEN-Buße), 50 Mio. zusätzliche OCC-Buße. Kein Obiang-Schuldspruch."
+
+- id: SRC-FR-CASSATION-20-81553-2021
+  title: "Cour de cassation, chambre criminelle, pourvoi 20-81.553"
+  institution: "Cour de cassation / Légifrance"
+  date: "2021-07-28"
+  type: "court_judgment"
+  primary: true
+  tier: "A"
+  url: "https://www.legifrance.gouv.fr/juri/id/JURITEXT000043920904"
+  accessed: "2026-11-25"
+  locator: "Rn.6, 29–34, 36–43 und Tenor: Ermittlungsvolumen, Unternehmensmittel, Foch services, Teilfreispruch bzgl. Korruptionsvortat, Zurückweisung Kassationsbeschwerde."
+
+- id: SRC-INT-ICJ-163-PRESS-2020
+  title: "Immunities and Criminal Proceedings (Equatorial Guinea v. France), judgment on merits, Press Release 2020/36"
+  institution: "International Court of Justice"
+  date: "2020-12-11"
+  type: "official_court_release"
+  primary: true
+  tier: "A"
+  url: "https://api.icj-cij.org/sites/default/files/case-related/163/163-20201211-PRE-01-00-EN.pdf"
+  accessed: "2026-11-25"
+  locator: "Amtliche Mitteilung (als unofficial gekennzeichnet), Tenor 9:7 bzw. 12:4. Urteils-PDF beim aktuellen erneuten Abruf HTTP403, frühere Textprüfung dokumentiert."
+
+- id: SRC-US-OBIANG-SETTLEMENT-2014
+  title: "Stipulation and Settlement Agreement, No. CV 13-9169-GW-SS, filed in 2:11-cv-03582-GW-SS, Doc. 127-1"
+  institution: "U.S. District Court, Central District of California / DOJ"
+  date: "2014-10-10"
+  type: "court_settlement"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/sites/default/files/press-releases/attachments/2014/10/10/obiang_settlement_agreement.pdf"
+  accessed: "2026-11-25"
+  locator: "§§2–6, 24, 26–31, 42–44; Zivilvergleich, Verwertung, zweckgebundene Mittel, jährliche Rechnungslegung. Textansicht, Faksimile nicht abrufbar."
+
+- id: SRC-US-DOJ-OBIANG-DISTRIBUTION-2021
+  title: "$26.6 Million In Allegedly Illicit Proceeds to Be Used To Fight COVID-19 and Address Medical Needs in Equatorial Guinea"
+  institution: "U.S. Department of Justice"
+  date: "2021-09-20"
+  type: "official_prosecution_release"
+  primary: true
+  tier: "A"
+  url: "https://www.justice.gov/archives/opa/pr/266-million-allegedly-illicit-proceeds-be-used-fight-covid-19-and-address-medical-needs"
+  accessed: "2026-11-25"
+  locator: "21-899: angekündigte Zuwendungsvereinbarungen UN 19,25 Mio., MCDI 6,35 Mio.; Überschrift 26,6 Mio. gegenüber Textsumme 25,6 Mio.; Differenz offen."
+
+- id: SRC-US-MCD-GWF-2024
+  title: "Strengthening Equatorial Guinea’s Health System through Supply Chain Management"
+  institution: "MCD Global Health"
+  date: "2024-07-01"
+  type: "implementer_report"
+  primary: true
+  tier: "B"
+  url: "https://mcd.org/news/strengthening-equatorial-guinea-health-system-supply-chain-management"
+  accessed: "2026-11-25"
+  locator: "Good Will Fund, seit 2021; Finanzierung DOJ und EG-Regierung; Bericht über >100 Tonnen Medizinprodukte in 2,5 Jahren, 19 Gesundheitsdistrikte; Eigenauskunft, kein Rechnungsabschluss."
+
+- id: SRC-US-MCD-GWF-CLOSEOUT-2026
+  title: "U.S.–Equatorial Guinea Partnership Delivers Lasting Supply Chain Gains Nationwide"
+  institution: "MCD Global Health"
+  date: "2026-02-11"
+  type: "implementer_report"
+  primary: true
+  tier: "B"
+  url: "https://www.mcd.org/news/us-equatorial-guinea-partnership-suppy-chain-gains"
+  accessed: "2026-11-25"
+  locator: "Projektabschluss 2021–2025; >6,3 Mio. USD von US-Regierung und EG-Regierung; 19 Distrikte; Implementer-Eigenauskunft, keine vollständige Abrechnung."
+
+- id: SRC-INT-WB-STAR-KALUNGA-SPAIN-2023
+  title: "Teodoro Nguema Obiang Mbasogo (Spain chapter)"
+  institution: "World Bank / UNODC Stolen Asset Recovery Initiative"
+  date: "2023-12-06"
+  type: "case_reconstruction"
+  primary: false
+  tier: "B"
+  url: "https://star.worldbank.org/asset-recovery-watch-database/teodoro-nguema-obiang-mbasogo-spain-chapter"
+  accessed: "2026-11-25"
+  locator: "Historischer Stand 2023, Anzeige 2008, staatsanwaltliche Angaben 21.01.2009; Filialangabe Las Palmas vs. Madrid im Senatsbericht. Neuerer Verfahrensstand nur Presse, amtliches Urteil offen."
+
+- id: SRC-INT-EG-MPTF-2022
+  title: "Informe anual 2022 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2023-03"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf"
+  accessed: "2026-11-25"
+  locator: "S.22–23, Tabellen 1–2: Einzahlung 10 Mio. USD 2021, 2022 keine; Ausgaben bis 2022. Titelblatt März 2023, wiederkehrende Kopfzeilen irrtümlich März 2022."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-2023
+  title: "Informe anual 2023 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2024-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf"
+  accessed: "2026-11-25"
+  locator: "S.21–24, Tabellen 1–5.1: zweite Einzahlung 9,225 Mio. USD 2023; Nettofinanzierung und Ausgaben. Datumsangabe in Einleitung des Finanzteils weicht vom Tabellenstichtag ab."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-2025
+  title: "Informe anual 2025 – MPTF Guinea Ecuatorial"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2026-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf"
+  accessed: "2026-11-25"
+  locator: "S.9–12 Programmreorientierung, Beschaffung und Lieferstatus; S.28–33 Tabellen 1–5.2, 31.12.2025; S.36 Projekt 00129191."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-TOR-2021
+  title: "Equatorial Guinea MPTF Terms of Reference, August 2021"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2021-08"
+  type: "official_governance_document"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf"
+  accessed: "2026-11-25"
+  locator: "S.15–18: Lenkungsausschuss Impf-Fenster, DOJ-Mitgliedschaft, EG beratend ohne Stimme, UNDP MPTF Office Verwaltung."
+  notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-SUOF-2025
+  title: "Equatorial Guinea MPTF – Sources and Uses of Funds, 31 December 2025"
+  institution: "UNDP Multi-Partner Trust Fund Office"
+  date: "2026-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf"
+  accessed: "2026-11-26"
+  locator: "Zertifizierte Finanzaufstellung zum 31.12.2025: Beiträge, Zinserträge, Transfers, Rückzahlungen, Gebühren und Bestand des Verwaltungsagenten."
+  notes: "Amtliche PDF-Textansicht; Seitenbild nicht abrufbar. Vorlage verweist auf unterschriebenes Original auf Anfrage; kein unabhängiger Nachweis der Endverwendung."
+
+- id: SRC-INT-EG-MPTF-TOR-2025
+  title: "Términos de Referencia – Fondo Fiduciario de Asociados Múltiples de Guinea Ecuatorial (revisión 18.12.2025)"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2025-12-18"
+  type: "official_governance_document"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf"
+  accessed: "2026-11-26"
+  locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
+  notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."

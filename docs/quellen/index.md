@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**467 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-us-imt-ec453-schroeder-himmler-1943) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-de-message-sommer-bilderberg-2007) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -1625,6 +1625,21 @@ Fundstelle: Digitalisiertes Urteil, 1937 PDF-Seiten: PDF S. 153–155 (gedruckte
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-fr-cassation-20-81553-2021"></a>
+### Cour de cassation / Légifrance
+
+**[Cour de cassation, chambre criminelle, pourvoi 20-81.553](https://www.legifrance.gouv.fr/juri/id/JURITEXT000043920904)**
+
+Cour de cassation / Légifrance · 2021-07-28 · Stufe **A** · Primärquelle · `SRC-FR-CASSATION-20-81553-2021`
+
+[Seite öffnen](https://www.legifrance.gouv.fr/juri/id/JURITEXT000043920904)
+
+Fundstelle: Rn.6, 29–34, 36–43 und Tenor: Ermittlungsvolumen, Unternehmensmittel, Foch services, Teilfreispruch bzgl. Korruptionsvortat, Zurückweisung Kassationsbeschwerde.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
 
 <a id="src-ws-br-cpi-press-2002"></a>
@@ -2555,6 +2570,21 @@ Fundstelle: Koordinierte OCC-/FinCEN-Sanktionen, durch eine Zahlung von 25 Mio. 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-us-fincen-uboc-2007-02"></a>
+### Financial Crimes Enforcement Network
+
+**[Assessment of Civil Money Penalty, Union Bank of California, N.A., No. 2007-02](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)**
+
+Financial Crimes Enforcement Network · 2007-09-17 · Stufe **A** · Primärquelle · `SRC-US-FINCEN-UBOC-2007-02`
+
+[PDF öffnen](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)
+
+Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1976">
 
 <a id="src-de-wsg-freundeskreis-einladung-1976"></a>
@@ -2945,6 +2975,21 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-int-icj-163-press-2020"></a>
+### International Court of Justice
+
+**[Immunities and Criminal Proceedings (Equatorial Guinea v. France), judgment on merits, Press Release 2020/36](https://api.icj-cij.org/sites/default/files/case-related/163/163-20201211-PRE-01-00-EN.pdf)**
+
+International Court of Justice · 2020-12-11 · Stufe **A** · Primärquelle · `SRC-INT-ICJ-163-PRESS-2020`
+
+[PDF öffnen](https://api.icj-cij.org/sites/default/files/case-related/163/163-20201211-PRE-01-00-EN.pdf)
+
+Fundstelle: Amtliche Mitteilung (als unofficial gekennzeichnet), Tenor 9:7 bzw. 12:4. Urteils-PDF beim aktuellen erneuten Abruf HTTP403, frühere Textprüfung dokumentiert.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1943">
 
 <a id="src-us-imt-ec453-schroeder-himmler-1943"></a>
@@ -3182,6 +3227,36 @@ Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle · `SR
 [PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
 
 Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2024">
+
+<a id="src-us-mcd-gwf-2024"></a>
+### MCD Global Health
+
+**[Strengthening Equatorial Guinea’s Health System through Supply Chain Management](https://mcd.org/news/strengthening-equatorial-guinea-health-system-supply-chain-management)**
+
+MCD Global Health · 2024-07-01 · Stufe **B** · Primärquelle · `SRC-US-MCD-GWF-2024`
+
+[Seite öffnen](https://mcd.org/news/strengthening-equatorial-guinea-health-system-supply-chain-management)
+
+Fundstelle: Good Will Fund, seit 2021; Finanzierung DOJ und EG-Regierung; Bericht über >100 Tonnen Medizinprodukte in 2,5 Jahren, 19 Gesundheitsdistrikte; Eigenauskunft, kein Rechnungsabschluss.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2026">
+
+<a id="src-us-mcd-gwf-closeout-2026"></a>
+### MCD Global Health
+
+**[U.S.–Equatorial Guinea Partnership Delivers Lasting Supply Chain Gains Nationwide](https://www.mcd.org/news/us-equatorial-guinea-partnership-suppy-chain-gains)**
+
+MCD Global Health · 2026-02-11 · Stufe **B** · Primärquelle · `SRC-US-MCD-GWF-CLOSEOUT-2026`
+
+[Seite öffnen](https://www.mcd.org/news/us-equatorial-guinea-partnership-suppy-chain-gains)
+
+Fundstelle: Projektabschluss 2021–2025; >6,3 Mio. USD von US-Regierung und EG-Regierung; 19 Distrikte; Implementer-Eigenauskunft, keine vollständige Abrechnung.
 
 </article>
 
@@ -4291,6 +4366,51 @@ Fundstelle: BSA-Schuldbekenntnis, vereinbarte Geldstrafe 16 Mio. USD, Pinochet/�
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-us-doj-uboc-dpa-2007"></a>
+### U.S. Department of Justice
+
+**[Union Bank of California Enters into Deferred Prosecution Agreement and Forfeits $21.6 Million](https://www.justice.gov/archive/opa/pr/2007/September/07_crm_726.html)**
+
+U.S. Department of Justice · 2007-09-17 · Stufe **A** · Primärquelle · `SRC-US-DOJ-UBOC-DPA-2007`
+
+[Seite öffnen](https://www.justice.gov/archive/opa/pr/2007/September/07_crm_726.html)
+
+Fundstelle: 07-726: DPA und vereinbarter Verfall, koordinierte Geldbußen; mexikanische Wechselhauskonten, keine Obiang-Strafsache.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-us-doj-obiang-distribution-2021"></a>
+### U.S. Department of Justice
+
+**[$26.6 Million In Allegedly Illicit Proceeds to Be Used To Fight COVID-19 and Address Medical Needs in Equatorial Guinea](https://www.justice.gov/archives/opa/pr/266-million-allegedly-illicit-proceeds-be-used-fight-covid-19-and-address-medical-needs)**
+
+U.S. Department of Justice · 2021-09-20 · Stufe **A** · Primärquelle · `SRC-US-DOJ-OBIANG-DISTRIBUTION-2021`
+
+[Seite öffnen](https://www.justice.gov/archives/opa/pr/266-million-allegedly-illicit-proceeds-be-used-fight-covid-19-and-address-medical-needs)
+
+Fundstelle: 21-899: angekündigte Zuwendungsvereinbarungen UN 19,25 Mio., MCDI 6,35 Mio.; Überschrift 26,6 Mio. gegenüber Textsumme 25,6 Mio.; Differenz offen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-us-doj-wachovia-dpa-2010"></a>
+### U.S. Department of Justice, U.S. Attorney Southern District of Florida
+
+**[Wachovia Enters into Deferred Prosecution Agreement](https://www.justice.gov/archive/usao/fls/PressReleases/2010/100317-02.html)**
+
+U.S. Department of Justice, U.S. Attorney Southern District of Florida · 2010-03-17 · Stufe **A** · Primärquelle · `SRC-US-DOJ-WACHOVIA-DPA-2010`
+
+[Seite öffnen](https://www.justice.gov/archive/usao/fls/PressReleases/2010/100317-02.html)
+
+Fundstelle: DPA wegen BSA-Mängeln 05/2003–06/2008; Wechselhäuser und Zahlungsdienstleister; 110 Mio. USD Verfall (erfüllt zugleich FinCEN-Buße), 50 Mio. zusätzliche OCC-Buße. Kein Obiang-Schuldspruch.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
 
 <a id="src-us-frus-kissinger-chile-paris-itt-19720428"></a>
@@ -4741,6 +4861,21 @@ Fundstelle: Abschnitte I.5, II.A: 61,156 Prozent BCCI-Quote an CCAH aus RICO-Ein
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-us-obiang-settlement-2014"></a>
+### U.S. District Court, Central District of California / DOJ
+
+**[Stipulation and Settlement Agreement, No. CV 13-9169-GW-SS, filed in 2:11-cv-03582-GW-SS, Doc. 127-1](https://www.justice.gov/sites/default/files/press-releases/attachments/2014/10/10/obiang_settlement_agreement.pdf)**
+
+U.S. District Court, Central District of California / DOJ · 2014-10-10 · Stufe **A** · Primärquelle · `SRC-US-OBIANG-SETTLEMENT-2014`
+
+[PDF öffnen](https://www.justice.gov/sites/default/files/press-releases/attachments/2014/10/10/obiang_settlement_agreement.pdf)
+
+Fundstelle: §§2–6, 24, 26–31, 42–44; Zivilvergleich, Verwertung, zweckgebundene Mittel, jährliche Rechnungslegung. Textansicht, Faksimile nicht abrufbar.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1978">
 
 <a id="src-us-doj-ufco-modified-final-judgment-1978"></a>
@@ -5146,6 +5281,36 @@ Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-us-senate-foreign-corruption-2010"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Keeping Foreign Corruption Out of the United States: Four Case Histories – Majority and Minority Staff Report](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/FOREIGNCORRUPTIONREPORTFINAL710.pdf)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2010-02-04 · Stufe **A** · Primärquelle · `SRC-US-SENATE-FOREIGN-CORRUPTION-2010`
+
+[PDF öffnen](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/FOREIGNCORRUPTIONREPORTFINAL710.pdf)
+
+Fundstelle: Interne S.30–45, 98–105; Fn.109–114, 131–135, 553, 563, 567. Banktabellen und Interviews; Textansicht, Faksimileabruf Cache miss.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-us-senate-hearing-111-540-2010"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Keeping Foreign Corruption Out of the United States: Four Case Histories – S. Hrg. 111-540 Vol. 1](https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/html/CHRG-111shrg56840.htm)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2010-02-04 · Stufe **A** · Primärquelle · `SRC-US-SENATE-HEARING-111-540-2010`
+
+[Seite öffnen](https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/html/CHRG-111shrg56840.htm)
+
+Fundstelle: Befragung William J. Fox: Beautiful Vision, Berger-Konten, frühere Kontrollentscheidungen; Zeugenaussagen.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
 <a id="src-us-senate-bcci-intelligence-1992"></a>
@@ -5293,6 +5458,96 @@ UK House of Commons, Parliamentary Commissioner for Standards · 2022-08-11 · S
 [PDF öffnen](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)
 
 Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-eg-mptf-suof-2025"></a>
+### UNDP Multi-Partner Trust Fund Office
+
+**[Equatorial Guinea MPTF – Sources and Uses of Funds, 31 December 2025](https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf)**
+
+UNDP Multi-Partner Trust Fund Office · 2026-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-SUOF-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf)
+
+Fundstelle: Zertifizierte Finanzaufstellung zum 31.12.2025: Beiträge, Zinserträge, Transfers, Rückzahlungen, Gebühren und Bestand des Verwaltungsagenten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-int-eg-mptf-tor-2021"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Equatorial Guinea MPTF Terms of Reference, August 2021](https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2021-08 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-TOR-2021`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/40000/annex_a_tor_equatorial_guinea_mptf_august_2021.pdf)
+
+Fundstelle: S.15–18: Lenkungsausschuss Impf-Fenster, DOJ-Mitgliedschaft, EG beratend ohne Stimme, UNDP MPTF Office Verwaltung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-int-eg-mptf-2022"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2022 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2023-03 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2022`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2023-05/equatorial_guinea_mptf_2022_cosolidated_annual_report.pdf)
+
+Fundstelle: S.22–23, Tabellen 1–2: Einzahlung 10 Mio. USD 2021, 2022 keine; Ausgaben bis 2022. Titelblatt März 2023, wiederkehrende Kopfzeilen irrtümlich März 2022.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-int-eg-mptf-2023"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2023 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2024-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2023`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf)
+
+Fundstelle: S.21–24, Tabellen 1–5.1: zweite Einzahlung 9,225 Mio. USD 2023; Nettofinanzierung und Ausgaben. Datumsangabe in Einleitung des Finanzteils weicht vom Tabellenstichtag ab.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-int-eg-mptf-tor-2025"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Términos de Referencia – Fondo Fiduciario de Asociados Múltiples de Guinea Ecuatorial (revisión 18.12.2025)](https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2025-12-18 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-TOR-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf)
+
+Fundstelle: S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-eg-mptf-2025"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Informe anual 2025 – MPTF Guinea Ecuatorial](https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2026-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-05/informe_consolidado_anual_mptf_eg_2025-final_3.pdf)
+
+Fundstelle: S.9–12 Programmreorientierung, Beschaffung und Lieferstatus; S.28–33 Tabellen 1–5.2, 31.12.2025; S.36 Projekt 00129191.
 
 </article>
 
@@ -7007,6 +7262,21 @@ Wolfgang Kraushaar / Hamburger Edition · 2005-06 · Stufe **B** · Sekundär-/F
 [Seite öffnen](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/)
 
 Fundstelle: ISBN 978-3-936096-53-8; besonders Abschnitte über Peter Urbach, Albert Fichter und Originalquellen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-int-wb-star-kalunga-spain-2023"></a>
+### World Bank / UNODC Stolen Asset Recovery Initiative
+
+**[Teodoro Nguema Obiang Mbasogo (Spain chapter)](https://star.worldbank.org/asset-recovery-watch-database/teodoro-nguema-obiang-mbasogo-spain-chapter)**
+
+World Bank / UNODC Stolen Asset Recovery Initiative · 2023-12-06 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-WB-STAR-KALUNGA-SPAIN-2023`
+
+[Seite öffnen](https://star.worldbank.org/asset-recovery-watch-database/teodoro-nguema-obiang-mbasogo-spain-chapter)
+
+Fundstelle: Historischer Stand 2023, Anzeige 2008, staatsanwaltliche Angaben 21.01.2009; Filialangabe Las Palmas vs. Madrid im Senatsbericht. Neuerer Verfahrensstand nur Presse, amtliches Urteil offen.
 
 </article>
 
