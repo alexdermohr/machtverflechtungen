@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**514 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**526 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -64,6 +64,7 @@
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
+| John Roth (U.S. Attorney's Office D.C., 2005) | person | `PER-US-JOHN-ROTH-2005` | US | [1](network.md#rel-riggs-original-002) |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
 | José Roberto Toscano Dantas | person | `PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS` | BR | [2](network.md#rel-ws-esca-adviser) |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
@@ -72,6 +73,7 @@
 | Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE | [4](network.md#rel-de-tmn-019) |
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
+| Kenneth L. Wainstein (U.S. Attorney D.C., 2005) | person | `PER-US-KENNETH-WAINSTEIN-2005` | US | [1](network.md#rel-riggs-original-003) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
@@ -119,6 +121,7 @@
 | Teodoro Obiang Nguema Mbasogo | person | `PER-GQ-TEODORO-OBIANG` | GQ | [2](network.md#rel-riggs-followup-046) |
 | Theo Koll | person | `PER-DE-THEO-KOLL` | DE | [2](network.md#rel-de-tmn-025) |
 | Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE | [2](network.md#rel-de-tmn-049) |
+| Thomas C. Green (Sidley Austin, 2005) | person | `PER-US-THOMAS-C-GREEN-2005` | US | [1](network.md#rel-riggs-original-004) |
 | Thomas Ebeling | person | `PER-DE-THOMAS-EBELING` | DE | [1](network.md#rel-de-tmn-051) |
 | Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
 | Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE | [1](network.md#rel-de-tmn-040) |
@@ -153,6 +156,7 @@
 | ABN AMRO Bank (SIVAM-Refinanzierung 1997) | historical_commercial_bank | `ORG-NL-ABN-AMRO-SIVAM-1997` | NL | [1](network.md#rel-ws-abn-bb) |
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
 | Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
+| Aero Records & Title Co. Escrow (2005) | escrow_service | `ORG-INT-AERO-RECORDS-TITLE-2005` |  | [1](network.md#rel-riggs-original-008) |
 | Allbritton Communications Company (2004) | media_company | `ORG-US-ALLBRITTON-COMMUNICATIONS-2004` | US | [3](network.md#rel-riggs-followup-031) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
 | Amerada Hess (Unternehmensverbund, 2004) | oil_company | `ORG-US-AMERADA-HESS-2004` | US | [1](network.md#rel-riggs-followup-054) |
@@ -316,12 +320,16 @@
 | Foch services (historischer Rechtsträger laut Urteil) | company | `ORG-INT-FOCH-SERVICES-HISTORICAL` |  | [2](network.md#rel-riggs-post-2004-042) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
 | Fortis Bank (in PSI-Tabelle 2008) | commercial_bank | `ORG-INT-FORTIS-BANK-2008` | FR | [2](network.md#rel-riggs-post-2004-023) |
+| Fortis Banque France (2006–2007) | commercial_bank | `ORG-FR-FORTIS-BANQUE-2006-2007` | FR | [1](network.md#rel-riggs-original-012) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [3](network.md#rel-de-tmn-018) |
+| Französische Zentralbehörde für Strafrechtshilfe (2007) | government_agency | `ORG-FR-MLAT-CENTRAL-AUTHORITY-2007` | FR | [1](network.md#rel-riggs-original-009) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | Fulbright & Jaworski (2004) | law_firm | `ORG-US-FULBRIGHT-JAWORSKI-2004` | US | [2](network.md#rel-riggs-followup-036) |
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
+| General Dynamics Corporate (Buchungsbezeichnung 2005) | company | `ORG-US-GENERAL-DYNAMICS-CORPORATE-2005` | US | [1](network.md#rel-riggs-original-006) |
+| General Dynamics Corporation (2005–2006) | corporation | `ORG-US-GENERAL-DYNAMICS-CORPORATION-2005` | US | [1](network.md#rel-riggs-original-014) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
@@ -330,6 +338,7 @@
 | Good Will Fund (Äquatorialguinea, 2021–2025) | health_program | `PRG-GQ-GOOD-WILL-FUND-2021-2025` | GQ, US | [1](network.md#rel-riggs-post-2004-051) |
 | Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
+| Gulfstream Aerospace Corporation (2005) | company | `ORG-US-GULFSTREAM-AEROSPACE-2005` | US | [2](network.md#rel-riggs-original-007) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
@@ -350,7 +359,7 @@
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Kalunga Company S.A. | company | `ORG-GQ-KALUNGA-COMPANY-SA` | GQ | [2](network.md#rel-riggs-followup-039) |
-| Kanzlei Michael Berger (2004–2007) | law_firm | `ORG-US-BERGER-LAW-OFFICE-2004-2007` | US | [2](network.md#rel-riggs-post-2004-025) |
+| Kanzlei Michael Berger (2004–2007) | law_firm | `ORG-US-BERGER-LAW-OFFICE-2004-2007` | US | [4](network.md#rel-riggs-post-2004-025) |
 | Kennecott Copper Corporation / Braden Copper (Chile-Fall) | historical_multinational_mining_corporation | `ORG-US-KENNECOTT-COPPER-CORP-1971` | US, CL | [2](network.md#rel-us-opic-kennecott-credit-cover-1971-1972) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
@@ -383,6 +392,7 @@
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
 | National Venture Capital Association (NVCA, 1973) | industry_association | `ORG-US-NVCA-1973` | US | [1](network.md#rel-us-wp-nvca-1973-001) |
 | Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | – |
+| Natixis (ex Natexis Banques Populaires, 2007) | commercial_bank | `ORG-FR-NATIXIS-2007` | FR | [1](network.md#rel-riggs-original-013) |
 | Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL | [2](network.md#rel-int-interalpha-1979-002) |
 | Netzwerk Recherche (Konferenzveranstalter 2005) | professional_journalism_association | `ORG-DE-NETZWERK-RECHERCHE-2005` | DE | [1](network.md#rel-de-nr-forum5-organizer-2005-001) |
 | Netzwerk Recherche Forum 5: Zwischen Wahrheit und Abhängigkeit (04.06.2005) | public_conference_panel | `PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005` | DE | [3](network.md#rel-de-nr-forum5-organizer-2005-001) |
@@ -418,6 +428,7 @@
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
+| Republik Äquatorialguinea (Mandantenbezeichnung 2005) | sovereign_state | `ORG-GQ-REPUBLIC-2005` | GQ | [1](network.md#rel-riggs-original-005) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [31](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
 | Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [5](network.md#rel-riggs-followup-027) |
@@ -432,7 +443,7 @@
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
-| Sidley Austin (2006) | law_firm | `ORG-US-SIDLEY-AUSTIN-2006` | US | [1](network.md#rel-riggs-post-2004-008) |
+| Sidley Austin (2006) | law_firm | `ORG-US-SIDLEY-AUSTIN-2006` | US | [7](network.md#rel-riggs-post-2004-008) |
 | Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [11](network.md#rel-ws-advocacy-sivam) |
 | SIVAM Vendor Trust (Kreditgenehmigung 1994) | historical_finance_vehicle | `ORG-INT-SIVAM-VENDOR-TRUST-1994` | BR | [1](network.md#rel-ws-vendor-brazil) |
 | Socage (historischer Untersuchungszeitraum) | company | `ORG-GQ-SOCAGE` | GQ | [2](network.md#rel-riggs-post-2004-002) |
@@ -474,11 +485,12 @@
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [2](network.md#rel-us-ua-biosec-2022-001) |
-| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [11](network.md#rel-int-bcci-006) |
+| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [16](network.md#rel-int-bcci-006) |
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of State (1954) | historical_federal_executive_department | `ORG-US-STATE-DEPARTMENT-1954` | US | [1](network.md#rel-us-ufco-state-doj-lobby-1954) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [4](network.md#rel-int-bcci-003) |
 | U.S. District Court for the District of Columbia (Anaconda-Urteil 1976) | federal_judicial_court_historical | `ORG-US-DISTRICT-COURT-DC-1976` | US | [1](network.md#rel-us-dc-court-opic-anaconda-vacatur-1976) |
+| U.S. Immigration and Customs Enforcement (ICE, 2007) | government_agency | `ORG-US-ICE-2007` | US | [2](network.md#rel-riggs-original-010) |
 | UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
@@ -502,7 +514,7 @@
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
-| Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
+| Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [9](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |

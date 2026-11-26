@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**489 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-us-general-dynamics-ex21-2004) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2597,6 +2597,36 @@ Freundeskreis zur Förderung der Wehrsportgruppe Hoffmann; Digitalisat aus nicht
 [Seite öffnen](https://commons.wikimedia.org/wiki/File:Brief_1976_Freundeskreis_zur_F%C3%B6rderung_der_Wehrsportgruppe_Hoffmann.jpg)
 
 Fundstelle: Vollständiges Einladungsblatt, Veranstaltung 29.10.1976 in Nürnberg; unten links Impressum mit Finanzverwalter 'Franz Lippert', Bonner Informationsstelle '(P. Weinmann)' und Spendenkonto beim Postscheckamt Nürnberg. Commons-Beschreibung gibt 01.10.1976 als Datum an (Uploader-Angabe, NICHT Urschriftdatierung). Datei 2480×3507 px, SHA-256 a8e36b8b3259c42414ca36128f2827984aae064545ca8ffe4e1bf295f4120438.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-us-general-dynamics-ex21-2004"></a>
+### General Dynamics Corporation / SEC
+
+**[General Dynamics Corporation – Exhibit 21, FY 2004](https://www.sec.gov/Archives/edgar/data/40533/000119312505042255/dex21.htm)**
+
+General Dynamics Corporation / SEC · 2005-01-31 · Stufe **A** · Primärquelle · `SRC-US-GENERAL-DYNAMICS-EX21-2004`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/40533/000119312505042255/dex21.htm)
+
+Fundstelle: Tochtergesellschaftsliste, Stand 2005-01-31; vier Gulfstream Aerospace Corporation-Einträge (DE, CA, GA, OK), jeweils 100 % Stimmrechte.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-us-general-dynamics-ex21-2005"></a>
+### General Dynamics Corporation / SEC
+
+**[General Dynamics Corporation – Exhibit 21, FY 2005](https://www.sec.gov/Archives/edgar/data/40533/000119312506044567/dex21.htm)**
+
+General Dynamics Corporation / SEC · 2006-01-31 · Stufe **A** · Primärquelle · `SRC-US-GENERAL-DYNAMICS-EX21-2005`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/40533/000119312506044567/dex21.htm)
+
+Fundstelle: Tochtergesellschaftsliste, Stand 2006-01-31; vier Gulfstream Aerospace Corporation-Einträge (DE, CA, GA, OK), jeweils 100 % Stimmrechte.
 
 </article>
 
@@ -5278,6 +5308,36 @@ U.S. Senate Permanent Subcommittee on Investigations · 2005-03 · Stufe **A** �
 [Seite öffnen](https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm)
 
 Fundstelle: Riggs, historische Militärbeziehungen, Pinochet-Konten/CDs 1979–2004. Ergänzung: Abschnitte V.B–E (Banco de Chile, Espírito Santo, weitere Banken), Fn. 133, 140, 141; 1991er Deloitte-Transfers, Bankwechsel, BankBoston, Banco Atlántico, Coutts und Santander. Chilenische Gerichtsakte nur zitiert, nicht unabhängig gelesen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-us-senate-hearing-111-540-v1-facsimile-2010"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Keeping Foreign Corruption Out of the United States – S. Hrg. 111-540, Vol. 1 (Faksimiles)](https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/pdf/CHRG-111shrg56840.pdf)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2010-02-04 · Stufe **A** · Primärquelle · `SRC-US-SENATE-HEARING-111-540-V1-FACSIMILE-2010`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/pdf/CHRG-111shrg56840.pdf)
+
+Fundstelle: S.243–244 (PDF275–276), Exhibit 41 S.601–613 (PDF633–645), vollständig visuell geprüft, Exhibit 134 Fn432 S.1350–1353 (PDF1382–1385), Fn479 S.1433 (PDF1465), Fn480 S.1434–1435 (PDF1466–1467). PDF-Seiten 1-basiert. Faksimiles der genannten geprüften Seiten visuell gelesen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
+
+<a id="src-us-senate-hearing-111-540-v2-facsimile-2010"></a>
+### U.S. Senate Permanent Subcommittee on Investigations
+
+**[Keeping Foreign Corruption Out of the United States – S. Hrg. 111-540, Vol. 2 (Faksimiles)](https://www.govinfo.gov/content/pkg/CHRG-111shrg57734/pdf/CHRG-111shrg57734.pdf)**
+
+U.S. Senate Permanent Subcommittee on Investigations · 2010-02-04 · Stufe **A** · Primärquelle · `SRC-US-SENATE-HEARING-111-540-V2-FACSIMILE-2010`
+
+[PDF öffnen](https://www.govinfo.gov/content/pkg/CHRG-111shrg57734/pdf/CHRG-111shrg57734.pdf)
+
+Fundstelle: Exhibit 134 Fn557, S.1615–1616, PDF45–46 (1-basiert), DHS- und Wachovia-E-Mails vom 16./17.01.2007, Bates BF-FC00007–8; visuell geprüft.
 
 </article>
 

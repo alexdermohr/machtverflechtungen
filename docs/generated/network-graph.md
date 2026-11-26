@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**697 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1134,13 +1134,13 @@ flowchart LR
     N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007["Union Bank of California, N.A. (UBOC)"]
     N_ORG_US_BEVERLY_HILLS_ESCROW_2001 -->|"Empfängerkonto der 6,2-Mio.-USD-Überweisung, kein zweiter Mittelzufluss."| N_ORG_US_UNION_BANK_OF_CALIFORNIA_2007
     N_ORG_CM_BEAC_2006["Banque des États de l’Afrique Centrale (BEAC, 2006)"]
-    N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006 -->|"14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der Textzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."| N_ORG_CM_BEAC_2006
+    N_ORG_GQ_SOCIETE_GENERALE_DE_BANQUE_2006 -->|"14 Zahlungsaufträge April–Juni 2006 über BEAC/Banque de France/Wachovia; Summe der visuell bestätigten Tabellenzeilen 73.641.999,99 USD (Fn.553 bestätigt gruppierte Summe)."| N_ORG_CM_BEAC_2006
     N_ORG_FR_BANQUE_DE_FRANCE_2006["Banque de France (2006)"]
     N_ORG_CM_BEAC_2006 -->|"Dieselben 14 Zahlungsaufträge 2006 über Banque de France, kein eigenständiges Zahlungsaggregat."| N_ORG_FR_BANQUE_DE_FRANCE_2006
     N_ORG_US_WACHOVIA_BANK_2006["Wachovia Bank, N.A. (historischer Untersuchungszeitraum)"]
     N_ORG_FR_BANQUE_DE_FRANCE_2006 -->|"Korrespondenzbankweg derselben 14 Zahlungsaufträge; keine Addition der wiederholten Streckenbeträge."| N_ORG_US_WACHOVIA_BANK_2006
     N_ORG_US_MCAFEE_TAFT_2006["McAfee & Taft (2006)"]
-    N_ORG_US_WACHOVIA_BANK_2006 -->|"Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Textzeilensumme 10,3 Mio. USD."| N_ORG_US_MCAFEE_TAFT_2006
+    N_ORG_US_WACHOVIA_BANK_2006 -->|"Drei ausgewiesene Zahlungen 05./10.04.2006 an Kanzleikonto bei Bank of America, Faksimile-Summe 10,3 Mio. USD; DHS-Anfrage nennt 10.299.950 USD, 50 USD Differenz offen."| N_ORG_US_MCAFEE_TAFT_2006
     N_ORG_US_MCAFEE_TAFT_2006 -->|"Empfängerkonto der drei 2006er Treuhandzahlungen laut PSI; keine zusätzlichen Beträge."| N_ORG_US_BOFA_ACCOUNT_GROUP_1993_2004
     N_ORG_US_FIRST_AMERICAN_TITLE_2006["First American Title Company (2006)"]
     N_ORG_US_WACHOVIA_BANK_2006 -->|"Fünf Zahlungen April 2006 je 5.908.400 USD, zusammen 29.542.000 USD laut Tabelle und Fn.553; Immobilienerwerb."| N_ORG_US_FIRST_AMERICAN_TITLE_2006
@@ -1208,6 +1208,32 @@ flowchart LR
     N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
     N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
     N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_US_DOJ -->|"Brief 18.04.2005: US Attorney D.C. erklärt damalige Untersuchung des geplanten Gulfstream-Verkaufs für abgeschlossen und sieht zu diesem Zeitpunkt keine Grundlage für Sperre/Beschlagnahme oder AML-Verstoß. Keine allgemeine Herkunftsbescheinigung."| N_ORG_US_SIDLEY_AUSTIN_2006
+    N_PER_US_JOHN_ROTH_2005["John Roth (U.S. Attorney's Office D.C., 2005)"]
+    N_PER_US_JOHN_ROTH_2005 -->|"Unterzeichnet DOJ-Schreiben 18.04.2005 als AUSA und Chief Fraud & Public Corruption Section, District of Columbia."| N_ORG_US_DOJ
+    N_PER_US_KENNETH_WAINSTEIN_2005["Kenneth L. Wainstein (U.S. Attorney D.C., 2005)"]
+    N_PER_US_KENNETH_WAINSTEIN_2005 -->|"Im selben Schreiben als U.S. Attorney District of Columbia genannt; Roth unterzeichnet. Keine persönliche Entscheidung Wainsteins daraus abgeleitet."| N_ORG_US_DOJ
+    N_PER_US_THOMAS_C_GREEN_2005["Thomas C. Green (Sidley Austin, 2005)"]
+    N_PER_US_THOMAS_C_GREEN_2005 -->|"Im DOJ-Schreiben als Anwalt bei Sidley Austin Brown & Wood LLP adressiert."| N_ORG_US_SIDLEY_AUSTIN_2006
+    N_ORG_GQ_REPUBLIC_2005["Republik Äquatorialguinea (Mandantenbezeichnung 2005)"]
+    N_ORG_GQ_REPUBLIC_2005 -->|"Sidley Trust Transaction Detail Report, S.1434–1435, führt die Republik als Mandantin der Gulfstream-Angelegenheit; keine Feststellung wirtschaftlichen Eigentums am konkreten Vermögen."| N_ORG_US_SIDLEY_AUSTIN_2006
+    N_ORG_US_GENERAL_DYNAMICS_CORPORATE_2005["General Dynamics Corporate (Buchungsbezeichnung 2005)"]
+    N_ORG_US_GENERAL_DYNAMICS_CORPORATE_2005 -->|"Treuhandbericht S.1435: Eingang 01.07.2005 21.086.523,97 USD mit Buchungstext General Dynamics Corporate, am 28.07. interne Weiterbuchung. Kein Beweis ursprünglicher Finanzierung durch den Konzern; nicht additiv zu den Folgebuchungen."| N_ORG_US_SIDLEY_AUSTIN_2006
+    N_ORG_US_GULFSTREAM_AEROSPACE_2005["Gulfstream Aerospace Corporation (2005)"]
+    N_ORG_US_SIDLEY_AUSTIN_2006 -->|"Treuhandbericht bezeichnet Gulfstream Aerospace Corporation als Angelegenheit; Kanzleibrief dokumentiert gescheiterten Flugzeugkauf für Obiang."| N_ORG_US_GULFSTREAM_AEROSPACE_2005
+    N_ORG_INT_AERO_RECORDS_TITLE_2005["Aero Records & Title Co. Escrow (2005)"]
+    N_ORG_US_SIDLEY_AUSTIN_2006 -->|"250.000 USD am 08.12.2005 an Aero Records & Title Co. Escrow laut Buchungsbericht und Kanzleibrief; Teil der 21.086.523,97 USD, nicht additiv."| N_ORG_INT_AERO_RECORDS_TITLE_2005
+    N_ORG_FR_MLAT_CENTRAL_AUTHORITY_2007["Französische Zentralbehörde für Strafrechtshilfe (2007)"]
+    N_ORG_US_DOJ -->|"Rechtshilfeersuchen 04.09.2007 an französische Zentralbehörde; Informationsaustausch zu mutmaßlichen Geldwäsche-/Korruptionsvortaten, keine Anklage oder Verurteilung aus Ersuchen ableiten."| N_ORG_FR_MLAT_CENTRAL_AUTHORITY_2007
+    N_ORG_US_ICE_2007["U.S. Immigration and Customs Enforcement (ICE, 2007)"]
+    N_ORG_US_DOJ -->|"MLAT 04.09.2007 bezeichnet DOJ Fraud/Asset Forfeiture and Money Laundering Sections und ICE als ermittelnde Behörden im Obiang-Komplex."| N_ORG_US_ICE_2007
+    N_ORG_US_ICE_2007 -->|"DHS/ICE 16.01.2007 fragt zu Herkunftsinstitution dreier Zahlungen über Wachovia; 17.01. interne Fallanlage hoher Priorität erbeten. Keine abgeschlossene Prüfung belegt."| N_ORG_US_WACHOVIA_BANK_2006
+    N_ORG_FR_FORTIS_BANQUE_2006_2007["Fortis Banque France (2006–2007)"]
+    N_ORG_FR_FORTIS_BANQUE_2006_2007 -->|"MLAT S.607 nennt zwei Transfers über Fortis Banque France am 24.11.2006 und 10.05.2007 je 199.943 USD an Berger-Treuhandkonto bei UBOC. Teil der bereits untersuchten acht Eingänge, keine Addition. Originalbankbelege offen."| N_ORG_US_BERGER_LAW_OFFICE_2004_2007
+    N_ORG_FR_NATIXIS_2007["Natixis (ex Natexis Banques Populaires, 2007)"]
+    N_ORG_FR_NATIXIS_2007 -->|"MLAT S.607–608 nennt zwei Transfers über Natixis 2007 (199.906,21 und 199.906,10 USD) an Berger-Treuhandkonto bei UBOC. Überlappung mit bisherigen Eingängen; keine Addition oder Deliktkenntnis."| N_ORG_US_BERGER_LAW_OFFICE_2004_2007
+    N_ORG_US_GENERAL_DYNAMICS_CORPORATION_2005["General Dynamics Corporation (2005–2006)"]
+    N_ORG_US_GENERAL_DYNAMICS_CORPORATION_2005 -->|"SEC-Listen 31.01.2005 und 31.01.2006: mehrere Gulfstream Aerospace Corporations jeweils 100 % Stimmrechte. Konzernzugehörigkeit, konkrete Vertragsgesellschaft nicht bestimmt; keine Deliktkenntnis abgeleitet."| N_ORG_US_GULFSTREAM_AEROSPACE_2005
 ```
 
 [Zur Relationstabelle](network.md)
