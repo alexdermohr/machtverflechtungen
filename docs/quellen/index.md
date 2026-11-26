@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**493 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**495 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1910,6 +1910,21 @@ Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-1714600-meldewege-2013"></a>
+### Deutscher Bundestag
+
+**[Erster NSU-Untersuchungsausschuss: Meldewege, frühe GBA-Prüfung und Gefahrenanalyse, BT-Drs. 17/14600](https://dserver.bundestag.de/btd/17/146/1714600.pdf)**
+
+Deutscher Bundestag · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1714600-MELDEWEGE-2013`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
+
+Fundstelle: Gedruckte S. 303–309, 452–453, 853–854; Fn. 2655–2702 und 3988–3991
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-bt-plenar-vm2100-18096-2015"></a>
@@ -2552,6 +2567,21 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 �
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
 Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bislang nur amtlich indexierter Text), S. 219 (PDF-Bildseite 267; am 17.10.2026 direkt am Originalbild geprüft)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-vp562-hib-20130423"></a>
+### Deutscher Bundestag, Parlamentsnachrichten
+
+**[NSU-Affäre: Harte Kritik an Berliner Polizei, hib 222/2013](https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416)**
+
+Deutscher Bundestag, Parlamentsnachrichten · 2013-04-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-VP562-HIB-20130423`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416)
+
+Fundstelle: Absätze zur Anhörung Haeberers, VP 562 und Weitergabefrage
 
 </article>
 

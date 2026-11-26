@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**519 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**525 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -74,6 +74,7 @@
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
+| Klaus-Dieter Fritsche | person | `PER-DE-KLAUS-DIETER-FRITSCHE` | DE | [1](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
@@ -124,6 +125,7 @@
 | Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
 | Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE | [1](network.md#rel-de-tmn-040) |
 | Thomas Roth | person | `PER-DE-THOMAS-ROTH` | DE | [1](network.md#rel-de-tmn-048) |
+| Thomas Starke (VP 562) | person | `PER-DE-THOMAS-STARKE` | DE | [1](network.md#rel-de-nsu-lka-vp562-001) |
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
@@ -218,7 +220,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [5](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [6](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -226,6 +228,7 @@
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
+| Bundesministerium des Innern (2003) | government_ministry | `ORG-DE-BMI-2003` | DE | [1](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [8](network.md#rel-de-gehlen-001) |
@@ -324,6 +327,7 @@
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
+| Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012) | prosecution_authority | `ORG-DE-GBA-NSU-1998-2012` | DE | [2](network.md#rel-de-nsu-gba-pruefung-1999-001) |
 | Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026) | prosecution_authority | `ORG-DE-GBA-NSU-2026` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -361,6 +365,7 @@
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
+| Landeskriminalamt Berlin | law_enforcement | `ORG-DE-BERLIN-LKA` | DE | [2](network.md#rel-de-nsu-lka-vp562-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
@@ -373,6 +378,7 @@
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
+| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [2](network.md#rel-de-nsu-mad-bfv-1999-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -386,7 +392,7 @@
 | National Security Council (USA, 1953–1954) | historical_federal_security_policy_council | `ORG-US-NSC-1953` | US | [1](network.md#rel-us-nsc-doj-ufco-antitrust-delay-1953) |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
 | National Venture Capital Association (NVCA, 1973) | industry_association | `ORG-US-NVCA-1973` | US | [1](network.md#rel-us-wp-nvca-1973-001) |
-| Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | – |
+| Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | [1](network.md#rel-de-nsu-gba-pruefung-1999-001) |
 | Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL | [2](network.md#rel-int-interalpha-1979-002) |
 | Netzwerk Recherche (Konferenzveranstalter 2005) | professional_journalism_association | `ORG-DE-NETZWERK-RECHERCHE-2005` | DE | [1](network.md#rel-de-nr-forum5-organizer-2005-001) |
 | Netzwerk Recherche Forum 5: Zwischen Wahrheit und Abhängigkeit (04.06.2005) | public_conference_panel | `PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005` | DE | [3](network.md#rel-de-nr-forum5-organizer-2005-001) |
@@ -469,7 +475,7 @@
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
-| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [2](network.md#rel-de-ths-001) |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [3](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

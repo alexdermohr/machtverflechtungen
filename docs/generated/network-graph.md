@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**689 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**695 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1219,6 +1219,19 @@ flowchart LR
     N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
     N_PER_DE_LOTHAR_LINGEN -->|"Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"| N_ORG_DE_TLFV
     N_ORG_DE_BFV -->|"Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"| N_CASE_DE_NSU_AKTEN_2011
+    N_ORG_DE_MAD["Militärischer Abschirmdienst"]
+    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"| N_ORG_DE_BFV
+    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"| N_ORG_DE_TLFV
+    N_ORG_DE_GBA_NSU_1998_2012["Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012)"]
+    N_ORG_DE_NSU["Nationalsozialistischer Untergrund (NSU)"]
+    N_ORG_DE_GBA_NSU_1998_2012 -->|"Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"| N_ORG_DE_NSU
+    N_PER_DE_KLAUS_DIETER_FRITSCHE["Klaus-Dieter Fritsche"]
+    N_ORG_DE_BMI_2003["Bundesministerium des Innern (2003)"]
+    N_PER_DE_KLAUS_DIETER_FRITSCHE -->|"Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"| N_ORG_DE_BMI_2003
+    N_ORG_DE_BERLIN_LKA["Landeskriminalamt Berlin"]
+    N_PER_DE_THOMAS_STARKE["Thomas Starke (VP 562)"]
+    N_ORG_DE_BERLIN_LKA -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
+    N_ORG_DE_GBA_NSU_1998_2012 -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_BERLIN_LKA
 ```
 
 [Zur Relationstabelle](network.md)

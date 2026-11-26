@@ -470,7 +470,13 @@ class ResearchIntegrationTests(unittest.TestCase):
                  "REL-DE-NSU-LINGEN-BFV-2013-001",
                  "REL-DE-NSU-BVERWG-BFV-2020-001",
                  "REL-DE-NSU-LINGEN-TLFV-2002-001",
-                 "REL-DE-NSU-BFV-PARL-DATE-2012-001"],
+                 "REL-DE-NSU-BFV-PARL-DATE-2012-001",
+                 "REL-DE-NSU-MAD-BFV-1999-001",
+                 "REL-DE-NSU-MAD-TLFV-1999-001",
+                 "REL-DE-NSU-GBA-PRUEFUNG-1999-001",
+                 "REL-DE-NSU-FRITSCHE-BMI-2003-001",
+                 "REL-DE-NSU-LKA-VP562-001",
+                 "REL-DE-NSU-GBA-BERLIN-2012-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":

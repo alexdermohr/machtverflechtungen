@@ -6196,3 +6196,57 @@ relations:
     period: {start: "2012", end: "2012-06-27"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-NSU-MAD-BFV-1999-001
+    from: ORG-DE-MAD
+    to: ORG-DE-BFV
+    type: transmitted_intelligence_report
+    label: "Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"
+    period: {start: "1999-12-06"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-MAD-TLFV-1999-001
+    from: ORG-DE-MAD
+    to: ORG-DE-TLFV
+    type: transmitted_intelligence_report
+    label: "Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"
+    period: {start: "1999-12-06"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-GBA-PRUEFUNG-1999-001
+    from: ORG-DE-GBA-NSU-1998-2012
+    to: ORG-DE-NSU
+    type: closed_preliminary_review
+    label: "Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"
+    period: {start: "1999-08-12"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-FRITSCHE-BMI-2003-001
+    from: PER-DE-KLAUS-DIETER-FRITSCHE
+    to: ORG-DE-BMI-2003
+    type: submitted_risk_assessment
+    label: "Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"
+    period: {start: "2003"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-LKA-VP562-001
+    from: ORG-DE-BERLIN-LKA
+    to: PER-DE-THOMAS-STARKE
+    type: source_handler_relationship
+    label: "Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"
+    period: {start: "2000", end: "2009"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-BT-NSU-VP562-HIB-20130423]
+
+  - id: REL-DE-NSU-GBA-BERLIN-2012-001
+    from: ORG-DE-GBA-NSU-1998-2012
+    to: ORG-DE-BERLIN-LKA
+    type: confidentiality_consultation
+    label: "Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"
+    period: {start: "2012-03-20"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]

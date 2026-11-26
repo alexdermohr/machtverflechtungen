@@ -2940,3 +2940,35 @@ entities:
     type: court
     name: "Bundesverwaltungsgericht"
     countries: [DE]
+
+  - id: ORG-DE-MAD
+    type: intelligence_service
+    name: "Militärischer Abschirmdienst"
+    countries: [DE]
+
+  - id: ORG-DE-BERLIN-LKA
+    type: law_enforcement
+    name: "Landeskriminalamt Berlin"
+    countries: [DE]
+
+  - id: PER-DE-THOMAS-STARKE
+    type: person
+    name: "Thomas Starke (VP 562)"
+    countries: [DE]
+    notes: "Öffentlich im Bundestagsbericht 17/14600 benannter Informant des Berliner LKA."
+
+  - id: ORG-DE-GBA-NSU-1998-2012
+    type: prosecution_authority
+    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012)"
+    countries: [DE]
+    notes: "Zeitbezogener Datensatz, nicht mit den Datensätzen 1952–1953 oder 2026 verwechseln."
+
+  - id: ORG-DE-BMI-2003
+    type: government_ministry
+    name: "Bundesministerium des Innern (2003)"
+    countries: [DE]
+
+  - id: PER-DE-KLAUS-DIETER-FRITSCHE
+    type: person
+    name: "Klaus-Dieter Fritsche"
+    countries: [DE]

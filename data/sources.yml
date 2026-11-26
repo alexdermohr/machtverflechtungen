@@ -5632,3 +5632,27 @@ sources:
   accessed: '2026-11-26'
   locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920"
   notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften."
+
+- id: SRC-DE-BT-NSU-1714600-MELDEWEGE-2013
+  title: "Erster NSU-Untersuchungsausschuss: Meldewege, frühe GBA-Prüfung und Gefahrenanalyse, BT-Drs. 17/14600"
+  institution: Deutscher Bundestag
+  date: '2013-08-22'
+  type: parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/146/1714600.pdf
+  accessed: '2026-11-26'
+  locator: "Gedruckte S. 303–309, 452–453, 853–854; Fn. 2655–2702 und 3988–3991"
+  notes: "Amtliche Textfassung; Seitenbildabruf wegen Dateigröße gescheitert. Anderer Fundstellenbereich desselben Dokuments wie SRC-DE-BT-PIATTO-NSU-UA-1714600-2013, keine unabhängige Quelle. Zitiert Akten, Gutachten und Zeugenaussagen; widersprechende Aussagen getrennt bewerten."
+
+- id: SRC-DE-BT-NSU-VP562-HIB-20130423
+  title: "NSU-Affäre: Harte Kritik an Berliner Polizei, hib 222/2013"
+  institution: "Deutscher Bundestag, Parlamentsnachrichten"
+  date: '2013-04-23'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416
+  accessed: '2026-11-26'
+  locator: "Absätze zur Anhörung Haeberers, VP 562 und Weitergabefrage"
+  notes: "Amtliche Anhörungsberichterstattung, kein Wortprotokoll; Aussagen und Ausschusskritik sind keine Strafurteile."
