@@ -1,13 +1,15 @@
 # Personen & Organisationen
 
-**514 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**528 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
+| Alexander von Stahl | person | `PER-DE-ALEXANDER-VON-STAHL` | DE | [3](network.md#rel-raf-schmuecker-nonne-006) |
 | Alexander Wilke | person | `PER-DE-ALEXANDER-WILKE` | DE | [1](network.md#rel-ulf-tk-wilke) |
+| Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-020) |
 | Ali Fallahian | person | `PER-IR-ALI-FALLAHIAN` | IR | [1](network.md#rel-ulf-fallahian-schmidbauer) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
 | Angelo Rizzoli (1943–2013) | person | `PER-IT-ANGELO-RIZZOLI` | IT | [3](network.md#rel-it-rizzoli-angelo-1980-001) |
@@ -22,13 +24,16 @@
 | C. Fred Bergsten | person | `PER-US-C-FRED-BERGSTEN` | US | [2](network.md#rel-us-bergsten-opic-board-1977) |
 | Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
 | Carsten Szczepanski (Piatto) | person | `PER-DE-CARSTEN-SZCZEPANSKI` | DE | [2](network.md#rel-de-ukc18-001) |
+| Christian Hain (V-Mann Flach) | person | `PER-DE-CHRISTIAN-HAIN` | DE | [1](network.md#rel-raf-schmuecker-nonne-005) |
 | Christian Olearius | person | `PER-DE-CHRISTIAN-OLEARIUS` | DE | [1](network.md#rel-de-cumex-002) |
 | Christian Strenger | person | `PER-DE-CHRISTIAN-STRENGER` | DE | [1](network.md#rel-ulf-tk-strenger-audit-agreement) |
+| Christoph Seidler | person | `PER-DE-CHRISTOPH-SEIDLER` | DE | [1](network.md#rel-raf-schmuecker-nonne-016) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
 | Constancia Mangue Nsue de Obiang | person | `PER-GQ-CONSTANCIA-MANGUE` | GQ | [2](network.md#rel-riggs-followup-047) |
 | David Lammy | person | `PER-GB-DAVID-LAMMY` | GB | [4](network.md#rel-gb-bb-uk-008) |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE | [1](network.md#rel-de-tmn-033) |
 | Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US | [2](network.md#rel-us-bbf-003) |
+| Eberhard Zachmann | person | `PER-DE-EBERHARD-ZACHMANN` | DE | [1](network.md#rel-raf-schmuecker-nonne-001) |
 | Edward M. Korry | person | `PER-US-EDWARD-KORRY` | US | [3](network.md#rel-us-korry-fncb-mercurio-request-1970) |
 | Elmar Theveßen | person | `PER-DE-ELMAR-THEVESSEN` | DE | [3](network.md#rel-de-tmn-021) |
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE | [1](network.md#rel-de-gehlen-005) |
@@ -86,6 +91,7 @@
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE | [4](network.md#rel-de-tmn-003) |
 | Melchor Esono Edjo | person | `PER-GQ-MELCHOR-ESONO-EDJO` | GQ | [1](network.md#rel-riggs-followup-045) |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE | – |
+| Michael Grünhagen | person | `PER-DE-MICHAEL-GRUENHAGEN` | DE | [2](network.md#rel-raf-schmuecker-nonne-018) |
 | Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE | [1](network.md#rel-de-da-008) |
 | Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE | [1](network.md#rel-de-da-004) |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE | [1](network.md#rel-de-cumex-002) |
@@ -108,6 +114,7 @@
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
 | Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [3](network.md#rel-it-ambrosiano-calvi-1980-001) |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE | – |
+| Siegfried Nonne | person | `PER-DE-SIEGFRIED-NONNE` | DE | [3](network.md#rel-raf-schmuecker-nonne-010) |
 | Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB | [3](network.md#rel-gb-bb-uk-003) |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE | [2](network.md#rel-de-tmn-015) |
 | Stefan von Holtzbrinck | person | `PER-DE-STEFAN-VON-HOLTZBRINCK` | DE | [1](network.md#rel-de-tmn-034) |
@@ -127,9 +134,11 @@
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
 | Udo Ulfkotte (1960–2017) | person | `PER-DE-UDO-ULFKOTTE` | DE | [9](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
+| Ulrich Schmücker | person | `PER-DE-ULRICH-SCHMUECKER` | DE | [2](network.md#rel-raf-schmuecker-nonne-017) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
+| Volker von Weingraber | person | `PER-DE-VOLKER-VON-WEINGRABER` | DE | [1](network.md#rel-raf-schmuecker-nonne-003) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
 | Walter Scheel (1919–2016) | person | `PER-DE-WALTER-SCHEEL` | DE | [1](network.md#rel-us-acg-mccloy-scheel-1975-001) |
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
@@ -205,6 +214,7 @@
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
+| Berliner Senatsverwaltung für Justiz | government_agency | `ORG-DE-BERLIN-JUSTIZSENAT` | DE | [1](network.md#rel-raf-schmuecker-nonne-006) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
@@ -217,11 +227,12 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [3](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
-| Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
+| Bundesanwaltschaft | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [6](network.md#rel-de-bdj-013) |
+| Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [2](network.md#rel-raf-schmuecker-nonne-007) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
-| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [1](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
+| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [2](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
@@ -356,7 +367,7 @@
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
-| Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
+| Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
@@ -391,6 +402,7 @@
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
+| Oberlandesgericht Frankfurt am Main | court | `ORG-DE-OLG-FRANKFURT` | DE | [1](network.md#rel-raf-schmuecker-nonne-014) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
@@ -443,6 +455,8 @@
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
+| Staatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-STA-BERLIN` | DE | [2](network.md#rel-raf-schmuecker-nonne-004) |
+| Staatsanwaltschaft Wiesbaden | prosecution_authority | `ORG-DE-STA-WIESBADEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-015) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |
@@ -506,7 +520,7 @@
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
-| West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |
+| West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [9](network.md#rel-de-urb-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | – |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [1](network.md#rel-de-tmn-022) |

@@ -6142,3 +6142,215 @@ relations:
     evidence_level: "established"
     sources: ["SRC-INT-EG-MPTF-TOR-2021", "SRC-INT-EG-MPTF-2025"]
     period: {"start": "2021", "end": "2025"}
+  - id: REL-RAF-SCHMUECKER-NONNE-001
+    from: PER-DE-EBERHARD-ZACHMANN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: leadership
+    label: Zachmann leitete das Berliner LfV zur Amtsleitertagung am 31.01.1975.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975-01-31'
+  - id: REL-RAF-SCHMUECKER-NONNE-002
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: ORG-DE-BFV
+    type: documented_information_sharing
+    label: 'UA 1990: BfV-Präsident bei Amtsleitertagung 31.01.1975; bundesweite Unterrichtung über mutmaßliche Hintergründe
+      Schmückers, spätere Wirkung ungeklärt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975-01-31'
+  - id: REL-RAF-SCHMUECKER-NONNE-003
+    from: PER-DE-VOLKER-VON-WEINGRABER
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_source_relationship
+    label: 'UA S.23–24: Quelle übergab dem Berliner LfV wesentliches mutmaßliches Tatbeweismittel im Fall Schmücker.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-004
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: ORG-DE-STA-BERLIN
+    type: documented_evidence_withholding
+    label: 'UA S.23–24,35: wesentliches Beweismittel nicht an Strafverfolgung übergeben; Rechtmäßigkeit umstritten,
+      Projektgruppe kritisiert unterbliebene Untersuchung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-005
+    from: PER-DE-CHRISTIAN-HAIN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_source_relationship
+    label: 'UA S.36–38: V-Mann übermittelte Teile der Verteidigerstrategie; tatsächliche Weiterverwertung durch Strafverfolgung
+      ungeklärt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975'
+  - id: REL-RAF-SCHMUECKER-NONNE-006
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-BERLIN-JUSTIZSENAT
+    type: documented_office
+    label: Senatsdirektor bzw. Staatssekretär 1975–1989.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    - SRC-DE-VON-STAHL-MUNZINGER
+    period:
+      start: '1975'
+      end: '1989'
+  - id: REL-RAF-SCHMUECKER-NONNE-007
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-BGH
+    type: reported_intervention_attempt
+    label: UA S.35, Anlage 16 bewertet Abklärung möglicher Revisionsgründe 1980 als Einflussnahmeversuch; von Stahl
+      bestritt diese Interpretation.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1980'
+  - id: REL-RAF-SCHMUECKER-NONNE-008
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-BUNDESANWALTSCHAFT
+    type: documented_office
+    label: Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar.
+    evidence_level: strong
+    sources:
+    - SRC-DE-VON-STAHL-MUNZINGER
+    period:
+      start: '1990'
+      end: '1993'
+  - id: REL-RAF-SCHMUECKER-NONNE-009
+    from: ORG-DE-STA-BERLIN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_investigation
+    label: Senat bestätigt Ermittlungsverfahren gegen LfV-Verantwortliche ab 03.07.1991; Ausgang offen.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-SCHMUECKER-780-1991
+    - SRC-DE-BERLIN-SCHMUECKER-2659-1993
+    period:
+      start: '1991-07-03'
+  - id: REL-RAF-SCHMUECKER-NONNE-010
+    from: ORG-DE-LFV-HESSEN
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_contact
+    label: 'Regierung 1992: LfV-Beamte hatten im August 1991 mit Zustimmung Nonnes Zugang zu seinen Räumen vor späterer
+      Beweissicherung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-2209-1992
+    period:
+      start: '1991'
+  - id: REL-RAF-SCHMUECKER-NONNE-011
+    from: ORG-DE-LFV-HESSEN
+    to: ORG-DE-BUNDESANWALTSCHAFT
+    type: documented_information_sharing
+    label: Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-2209-1992
+    period:
+      start: '1991-08-07'
+  - id: REL-RAF-SCHMUECKER-NONNE-012
+    from: ORG-DE-LFV-HESSEN
+    to: ORG-DE-BKA
+    type: documented_file_transfer
+    label: 'BT-Drs. 13/754 F15: BKA erhielt im Dezember 1991 Teile des LfV-Vorgangs U 2.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1991'
+  - id: REL-RAF-SCHMUECKER-NONNE-013
+    from: ORG-DE-BUNDESANWALTSCHAFT
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_prosecution
+    label: Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1994-06-27'
+  - id: REL-RAF-SCHMUECKER-NONNE-014
+    from: ORG-DE-OLG-FRANKFURT
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_proceeding
+    label: Einstellung nach Kronzeugenregelung am 20.09.1994, amtlich berichtet.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1994-09-20'
+  - id: REL-RAF-SCHMUECKER-NONNE-015
+    from: ORG-DE-BUNDESANWALTSCHAFT
+    to: ORG-DE-STA-WIESBADEN
+    type: documented_delayed_file_access
+    label: Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren, begründet mit Untersuchungszweck.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1994'
+  - id: REL-RAF-SCHMUECKER-NONNE-016
+    from: ORG-DE-BGH
+    to: PER-DE-CHRISTOPH-SEIDLER
+    type: documented_judicial_decision
+    label: Regierung bestätigt BGH-Beschluss 16.01.1997 zur Haftbefehlsaufhebung; Nonne-Aussage ohne zusätzliche objektive
+      Indizien nicht ausreichend.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-PL156-1997
+    period:
+      start: '1997-01-16'
+  - id: REL-RAF-SCHMUECKER-NONNE-017
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: PER-DE-ULRICH-SCHMUECKER
+    type: documented_source_contact
+    label: 'UA S.11–12: längerfristige Beziehung seit 1972; Informationsakte Kette, 15.03.1973 Tarnname und Informantenbezeichnung;
+      formeller V-Mann-Status bestritten.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+      end: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-018
+    from: PER-DE-MICHAEL-GRUENHAGEN
+    to: PER-DE-ULRICH-SCHMUECKER
+    type: documented_source_contact
+    label: 'UA S.11–12: Grünhagen war LfV-Ansprechpartner Schmückers; Vorwürfe eines Fluchtplans bestritt er.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+  - id: REL-RAF-SCHMUECKER-NONNE-019
+    from: PER-DE-MICHAEL-GRUENHAGEN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_office
+    label: 'UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+  - id: REL-RAF-SCHMUECKER-NONNE-020
+    from: ORG-DE-BUNDESANWALTSCHAFT
+    to: PER-DE-ALFRED-HERRHAUSEN
+    type: documented_investigation
+    label: 'BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1995-03-09'

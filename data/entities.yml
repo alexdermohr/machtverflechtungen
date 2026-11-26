@@ -517,7 +517,7 @@ entities:
 
   - id: ORG-DE-BUNDESANWALTSCHAFT
     type: prosecution_authority
-    name: "Bundesanwaltschaft (1952–1953)"
+    name: "Bundesanwaltschaft"
     countries: [DE]
 
   - id: ORG-DE-FRANKFURT-GSTA
@@ -2913,3 +2913,73 @@ entities:
     name: "World Health Organization (WHO)"
     countries: []
     notes: ""
+  - id: PER-DE-ULRICH-SCHMUECKER
+    type: person
+    name: Ulrich Schmücker
+    countries:
+    - DE
+  - id: PER-DE-EBERHARD-ZACHMANN
+    type: person
+    name: Eberhard Zachmann
+    countries:
+    - DE
+  - id: PER-DE-VOLKER-VON-WEINGRABER
+    type: person
+    name: Volker von Weingraber
+    countries:
+    - DE
+  - id: PER-DE-CHRISTIAN-HAIN
+    type: person
+    name: Christian Hain (V-Mann Flach)
+    countries:
+    - DE
+  - id: PER-DE-ALEXANDER-VON-STAHL
+    type: person
+    name: Alexander von Stahl
+    countries:
+    - DE
+  - id: PER-DE-SIEGFRIED-NONNE
+    type: person
+    name: Siegfried Nonne
+    countries:
+    - DE
+  - id: PER-DE-ALFRED-HERRHAUSEN
+    type: person
+    name: Alfred Herrhausen
+    countries:
+    - DE
+  - id: PER-DE-CHRISTOPH-SEIDLER
+    type: person
+    name: Christoph Seidler
+    countries:
+    - DE
+  - id: ORG-DE-BERLIN-JUSTIZSENAT
+    type: government_agency
+    name: Berliner Senatsverwaltung für Justiz
+    countries:
+    - DE
+  - id: ORG-DE-STA-BERLIN
+    type: prosecution_authority
+    name: Staatsanwaltschaft Berlin
+    countries:
+    - DE
+  - id: ORG-DE-STA-WIESBADEN
+    type: prosecution_authority
+    name: Staatsanwaltschaft Wiesbaden
+    countries:
+    - DE
+  - id: ORG-DE-BGH
+    type: court
+    name: Bundesgerichtshof
+    countries:
+    - DE
+  - id: ORG-DE-OLG-FRANKFURT
+    type: court
+    name: Oberlandesgericht Frankfurt am Main
+    countries:
+    - DE
+  - id: PER-DE-MICHAEL-GRUENHAGEN
+    type: person
+    name: Michael Grünhagen
+    countries:
+    - DE

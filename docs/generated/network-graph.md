@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**703 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -218,7 +218,7 @@ flowchart LR
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Stoßtrupp; Vollzug gesondert nachprüfen"| N_ORG_DE_STOSSTRUPP_BZ
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Deutschen Heimatschutz"| N_ORG_DE_DHS
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerrat erklärte am 20.01.1953 den TD zur verfassungswidrigen Organisation, BDJ-Entscheidung vertagt"| N_ORG_DE_BDJ_TD
-    N_ORG_DE_BUNDESANWALTSCHAFT["Bundesanwaltschaft (1952–1953)"]
+    N_ORG_DE_BUNDESANWALTSCHAFT["Bundesanwaltschaft"]
     N_CASE_DE_BDJ_TD_1950S["Technischer Dienst des Bundes Deutscher Jugend"]
     N_ORG_DE_BUNDESANWALTSCHAFT -->|"Laut bayerischem Ministerratsprotokoll 20.01.1953 erwog der Bundesanwalt eine Verfahrenseinstellung"| N_CASE_DE_BDJ_TD_1950S
     N_ORG_DE_FRANKFURT_GSTA["Generalstaatsanwaltschaft Frankfurt am Main (1952–1953)"]
@@ -1208,6 +1208,40 @@ flowchart LR
     N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
     N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
     N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
+    N_PER_DE_EBERHARD_ZACHMANN["Eberhard Zachmann"]
+    N_PER_DE_EBERHARD_ZACHMANN -->|"Zachmann leitete das Berliner LfV zur Amtsleitertagung am 31.01.1975."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA 1990: BfV-Präsident bei Amtsleitertagung 31.01.1975; bundesweite Unterrichtung über mutmaßliche Hintergründe Schmückers, spätere Wirkung ungeklärt."| N_ORG_DE_BFV
+    N_PER_DE_VOLKER_VON_WEINGRABER["Volker von Weingraber"]
+    N_PER_DE_VOLKER_VON_WEINGRABER -->|"UA S.23–24: Quelle übergab dem Berliner LfV wesentliches mutmaßliches Tatbeweismittel im Fall Schmücker."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA S.23–24,35: wesentliches Beweismittel nicht an Strafverfolgung übergeben; Rechtmäßigkeit umstritten, Projektgruppe kritisiert unterbliebene Untersuchung."| N_ORG_DE_STA_BERLIN
+    N_PER_DE_CHRISTIAN_HAIN["Christian Hain (V-Mann Flach)"]
+    N_PER_DE_CHRISTIAN_HAIN -->|"UA S.36–38: V-Mann übermittelte Teile der Verteidigerstrategie; tatsächliche Weiterverwertung durch Strafverfolgung ungeklärt."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_ALEXANDER_VON_STAHL["Alexander von Stahl"]
+    N_ORG_DE_BERLIN_JUSTIZSENAT["Berliner Senatsverwaltung für Justiz"]
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"Senatsdirektor bzw. Staatssekretär 1975–1989."| N_ORG_DE_BERLIN_JUSTIZSENAT
+    N_ORG_DE_BGH["Bundesgerichtshof"]
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"UA S.35, Anlage 16 bewertet Abklärung möglicher Revisionsgründe 1980 als Einflussnahmeversuch; von Stahl bestritt diese Interpretation."| N_ORG_DE_BGH
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar."| N_ORG_DE_BUNDESANWALTSCHAFT
+    N_ORG_DE_STA_BERLIN -->|"Senat bestätigt Ermittlungsverfahren gegen LfV-Verantwortliche ab 03.07.1991; Ausgang offen."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_SIEGFRIED_NONNE["Siegfried Nonne"]
+    N_ORG_DE_LFV_HESSEN -->|"Regierung 1992: LfV-Beamte hatten im August 1991 mit Zustimmung Nonnes Zugang zu seinen Räumen vor späterer Beweissicherung."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_LFV_HESSEN -->|"Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne."| N_ORG_DE_BUNDESANWALTSCHAFT
+    N_ORG_DE_LFV_HESSEN -->|"BT-Drs. 13/754 F15: BKA erhielt im Dezember 1991 Teile des LfV-Vorgangs U 2."| N_ORG_DE_BKA
+    N_ORG_DE_BUNDESANWALTSCHAFT -->|"Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_OLG_FRANKFURT["Oberlandesgericht Frankfurt am Main"]
+    N_ORG_DE_OLG_FRANKFURT -->|"Einstellung nach Kronzeugenregelung am 20.09.1994, amtlich berichtet."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_STA_WIESBADEN["Staatsanwaltschaft Wiesbaden"]
+    N_ORG_DE_BUNDESANWALTSCHAFT -->|"Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren, begründet mit Untersuchungszweck."| N_ORG_DE_STA_WIESBADEN
+    N_PER_DE_CHRISTOPH_SEIDLER["Christoph Seidler"]
+    N_ORG_DE_BGH -->|"Regierung bestätigt BGH-Beschluss 16.01.1997 zur Haftbefehlsaufhebung; Nonne-Aussage ohne zusätzliche objektive Indizien nicht ausreichend."| N_PER_DE_CHRISTOPH_SEIDLER
+    N_PER_DE_ULRICH_SCHMUECKER["Ulrich Schmücker"]
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA S.11–12: längerfristige Beziehung seit 1972; Informationsakte Kette, 15.03.1973 Tarnname und Informantenbezeichnung; formeller V-Mann-Status bestritten."| N_PER_DE_ULRICH_SCHMUECKER
+    N_PER_DE_MICHAEL_GRUENHAGEN["Michael Grünhagen"]
+    N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11–12: Grünhagen war LfV-Ansprechpartner Schmückers; Vorwürfe eines Fluchtplans bestritt er."| N_PER_DE_ULRICH_SCHMUECKER
+    N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_ALFRED_HERRHAUSEN["Alfred Herrhausen"]
+    N_ORG_DE_BUNDESANWALTSCHAFT -->|"BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995."| N_PER_DE_ALFRED_HERRHAUSEN
 ```
 
 [Zur Relationstabelle](network.md)

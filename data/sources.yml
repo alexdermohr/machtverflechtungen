@@ -5536,3 +5536,103 @@ sources:
   accessed: "2026-11-26"
   locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
   notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
+- id: SRC-DE-BERLIN-UA-SCHMUECKER-1990
+  title: Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224
+  institution: Abgeordnetenhaus Berlin
+  date: '1990-10-02'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf
+  accessed: '2026-11-26'
+  locator: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
+  notes: Text S. 9–12 geprüft; Seitenbilder S. 23–24 und 35–38 geprüft. Zwischenbericht, keine strafgerichtliche Schuldfeststellung;
+    abweichender Bericht nicht vollständig ausgewertet.
+- id: SRC-DE-BERLIN-SCHMUECKER-780-1991
+  title: Konsequenzen aus dem Ende des Schmücker-Verfahrens, Drs. 12/780
+  institution: Abgeordnetenhaus Berlin / Senat
+  date: '1991-09-25'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf
+  accessed: '2026-11-26'
+  locator: S. 8, KA 863, Antworten 6, 9–11
+  notes: Text und Faksimile geprüft. Verfahrenseinleitung, keine Verurteilung.
+- id: SRC-DE-BERLIN-SCHMUECKER-2659-1993
+  title: Konsequenzen aus dem Schmücker-Prozeß, Drs. 12/2659
+  institution: Abgeordnetenhaus Berlin / Senat
+  date: '1993-03-16'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf
+  accessed: '2026-11-26'
+  locator: S. 34, KA 3567, Antworten 1–3
+  notes: Text und Faksimile geprüft. Auskunft über Stand 1993, nicht späteren Ausgang.
+- id: SRC-DE-BT-HERRHAUSEN-2209-1992
+  title: Fahndungsverlauf im Mordfall Herrhausen, Drs. 12/2209
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1992-03-10'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/12/022/1202209.pdf
+  accessed: '2026-11-26'
+  locator: S. 2–3, Fragen 2a/d/e, 3–4
+  notes: Text und Faksimile geprüft. Beweiskettenlücke, kein Nachweis einer Manipulation.
+- id: SRC-DE-VON-STAHL-MUNZINGER
+  title: Alexander von Stahl – Biografie
+  institution: Munzinger
+  date: null
+  type: biography
+  primary: false
+  tier: B
+  url: https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547
+  accessed: '2026-11-26'
+  locator: Berufsrollen 1975–1989 und 1990–1993
+  notes: Nur Ämterkontinuität; kein individueller Auftrag in anderen Verfahren.
+- id: SRC-DE-BT-NONNE-754-1995
+  title: Der Kronzeuge Siegfried Nonne und die Rolle der Sicherheitsbehörden, Drs. 13/754
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1995-03-09'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/007/1300754.pdf
+  accessed: '2026-11-26'
+  locator: Vorbemerkung; S. 2, 4–5, Fragen 3, 10–16
+  notes: Amtliche Darstellung, Landesbehörden nicht an Antwort beteiligt; keine unabhängige Verifizierung der Bestreitungen.
+- id: SRC-DE-BT-HERRHAUSEN-PL156-1997
+  title: Plenarprotokoll 13/156 – Antwort auf Frage 36 zum Herrhausen-Verfahren
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1997-02-19'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13156.pdf
+  accessed: '2026-11-26'
+  locator: S. 14075*, Anlage 13
+  notes: Text geprüft; Faksimileabruf fehlgeschlagen. Regierung referiert BGH-Entscheidung und verteidigt Gutachten.
+- id: SRC-DE-BGH-STB31-96-METADATA
+  title: BGH StB 31/96 – Entscheidungsnachweis
+  institution: dejure.org
+  date: '1997-01-16'
+  type: court_metadata
+  primary: false
+  tier: B
+  url: https://dejure.org/1997,8858
+  accessed: '2026-11-26'
+  locator: Aktenzeichen StB 31/96, 1 BJs 226/85-6
+  notes: Bibliografischer Nachweis; kein geprüfter Urteilsvolltext.
+- id: SRC-DE-TSP-KLUMP-1999
+  title: Etwa zehn Jahre nach der Tat wurde der letzte Haftbefehl aufgehoben
+  institution: Tagesspiegel
+  date: '1999-12-29'
+  type: press_report
+  primary: false
+  tier: D
+  url: https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html
+  accessed: '2026-11-26'
+  locator: Bericht zur Aufhebung des Mordvorwurfs gegen Andrea Klump
+  notes: Zeitgenössischer Pressebericht; gerichtliche Originalentscheidung noch offen.

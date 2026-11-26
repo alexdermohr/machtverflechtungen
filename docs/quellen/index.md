@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**494 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,52 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-berlin-ua-schmuecker-1990"></a>
+### Abgeordnetenhaus Berlin
+
+**[Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)**
+
+Abgeordnetenhaus Berlin · 1990-10-02 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-UA-SCHMUECKER-1990`
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)
+
+Fundstelle: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
+<a id="src-de-berlin-schmuecker-780-1991"></a>
+### Abgeordnetenhaus Berlin / Senat
+
+**[Konsequenzen aus dem Ende des Schmücker-Verfahrens, Drs. 12/780](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf)**
+
+Abgeordnetenhaus Berlin / Senat · 1991-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-SCHMUECKER-780-1991`
+
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf)
+
+Fundstelle: S. 8, KA 863, Antworten 6, 9–11
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-de-berlin-schmuecker-2659-1993"></a>
+### Abgeordnetenhaus Berlin / Senat
+
+**[Konsequenzen aus dem Schmücker-Prozeß, Drs. 12/2659](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf)**
+
+Abgeordnetenhaus Berlin / Senat · 1993-03-16 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-SCHMUECKER-2659-1993`
+
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf)
+
+Fundstelle: S. 34, KA 3567, Antworten 1–3
+
+</article>
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2062,6 +2107,21 @@ Fundstelle: S. 1: Fü S I 9 am 01.07.1990 aufgelöst; S. 2: 1.449.200 DM Gesamtz
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
+<a id="src-de-bt-herrhausen-2209-1992"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fahndungsverlauf im Mordfall Herrhausen, Drs. 12/2209](https://dserver.bundestag.de/btd/12/022/1202209.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1992-03-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-HERRHAUSEN-2209-1992`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/022/1202209.pdf)
+
+Fundstelle: S. 2–3, Fragen 2a/d/e, 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
+
 <a id="src-de-bt-nonne-3123-1992"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -2072,6 +2132,36 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-de-bt-nonne-754-1995"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Der Kronzeuge Siegfried Nonne und die Rolle der Sicherheitsbehörden, Drs. 13/754](https://dserver.bundestag.de/btd/13/007/1300754.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1995-03-09 · Stufe **A** · Primärquelle · `SRC-DE-BT-NONNE-754-1995`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/007/1300754.pdf)
+
+Fundstelle: Vorbemerkung; S. 2, 4–5, Fragen 3, 10–16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-herrhausen-pl156-1997"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Plenarprotokoll 13/156 – Antwort auf Frage 36 zum Herrhausen-Verfahren](https://dserver.bundestag.de/btp/13/13156.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1997-02-19 · Stufe **A** · Primärquelle · `SRC-DE-BT-HERRHAUSEN-PL156-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13156.pdf)
+
+Fundstelle: S. 14075*, Anlage 13
 
 </article>
 
@@ -6035,7 +6125,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6437,6 +6527,21 @@ dapd / Die Welt · 2012-12-06 · Stufe **B** · Sekundär-/Forschungsquelle · `
 [Seite öffnen](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)
 
 Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1997">
+
+<a id="src-de-bgh-stb31-96-metadata"></a>
+### dejure.org
+
+**[BGH StB 31/96 – Entscheidungsnachweis](https://dejure.org/1997,8858)**
+
+dejure.org · 1997-01-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BGH-STB31-96-METADATA`
+
+[Seite öffnen](https://dejure.org/1997,8858)
+
+Fundstelle: Aktenzeichen StB 31/96, 1 BJs 226/85-6
 
 </article>
 
@@ -6845,6 +6950,21 @@ Fundstelle: Gedruckte Seiten 35–38, PDF-Seiten 37–40: 03./04./07.03.1983 und
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-von-stahl-munzinger"></a>
+### Munzinger
+
+**[Alexander von Stahl – Biografie](https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547)**
+
+Munzinger · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-VON-STAHL-MUNZINGER`
+
+[Seite öffnen](https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547)
+
+Fundstelle: Berufsrollen 1975–1989 und 1990–1993
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
 
 <a id="src-us-nsa-gehlen-2005"></a>
@@ -7007,6 +7127,21 @@ Süddeutsche Zeitung / Jakob Augstein · 2010-07-22 · Stufe **B** · Sekundär-
 [Seite öffnen](https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398)
 
 Fundstelle: Kritische Erörterung des Presseleitungstreffens vom 08.10.2008
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="1999">
+
+<a id="src-de-tsp-klump-1999"></a>
+### Tagesspiegel
+
+**[Etwa zehn Jahre nach der Tat wurde der letzte Haftbefehl aufgehoben](https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html)**
+
+Tagesspiegel · 1999-12-29 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-KLUMP-1999`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html)
+
+Fundstelle: Bericht zur Aufhebung des Mordvorwurfs gegen Andrea Klump
 
 </article>
 
