@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**483 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5461,6 +5461,21 @@ Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-int-eg-mptf-suof-2025"></a>
+### UNDP Multi-Partner Trust Fund Office
+
+**[Equatorial Guinea MPTF – Sources and Uses of Funds, 31 December 2025](https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf)**
+
+UNDP Multi-Partner Trust Fund Office · 2026-05 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-SUOF-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf)
+
+Fundstelle: Zertifizierte Finanzaufstellung zum 31.12.2025: Beiträge, Zinserträge, Transfers, Rückzahlungen, Gebühren und Bestand des Verwaltungsagenten.
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-int-eg-mptf-tor-2021"></a>
@@ -5503,6 +5518,21 @@ UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2024-05 · Stufe 
 [PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2024-05/equatorial_guinea_mptf_2023_annual_report.pdf)
 
 Fundstelle: S.21–24, Tabellen 1–5.1: zweite Einzahlung 9,225 Mio. USD 2023; Nettofinanzierung und Ausgaben. Datumsangabe in Einleitung des Finanzteils weicht vom Tabellenstichtag ab.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-int-eg-mptf-tor-2025"></a>
+### UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial
+
+**[Términos de Referencia – Fondo Fiduciario de Asociados Múltiples de Guinea Ecuatorial (revisión 18.12.2025)](https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf)**
+
+UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial · 2025-12-18 · Stufe **A** · Primärquelle · `SRC-INT-EG-MPTF-TOR-2025`
+
+[PDF öffnen](https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf)
+
+Fundstelle: S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027.
 
 </article>
 

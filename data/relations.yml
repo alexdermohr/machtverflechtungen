@@ -6049,7 +6049,7 @@ relations:
     from: "ORG-US-DOJ"
     to: "ORG-INT-UNITED-NATIONS-2021"
     type: "documented_funding_agreement"
-    label: "Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG; GNQ00 verbucht 19,225 Mio. USD US-Einzahlungen. Nicht additiv; vollständige Abrechnung offen."
+    label: "Ankündigung vom 20.09.2021: Zuwendungsvereinbarung 19,25 Mio. USD für Impfprogramm in EG. Tatsächliche Einzahlungen getrennt in REL-RIGGS-POST-2004-054; nicht additiv."
     evidence_level: "established"
     sources: ["SRC-US-DOJ-OBIANG-DISTRIBUTION-2021"]
     period: {"start": "2021-09-20"}
@@ -6095,7 +6095,7 @@ relations:
     type: "documented_funding_transfer"
     label: "10 Mio. USD Einzahlung 2021 und 9,225 Mio. USD 2023; kumuliert 19,225 Mio. USD bis 2025. Nicht additiv zur DOJ-Zusage 19,25 Mio.; Differenz 25.000 USD ungeklärt."
     evidence_level: "established"
-    sources: ["SRC-INT-EG-MPTF-2022", "SRC-INT-EG-MPTF-2023", "SRC-INT-EG-MPTF-2025"]
+    sources: ["SRC-INT-EG-MPTF-2022", "SRC-INT-EG-MPTF-2023", "SRC-INT-EG-MPTF-2025", "SRC-INT-EG-MPTF-SUOF-2025"]
     period: {"start": "2021", "end": "2023"}
 
   - id: REL-RIGGS-POST-2004-055
@@ -6129,9 +6129,9 @@ relations:
     from: "ORG-US-DOJ"
     to: "PRG-GQ-MPTF-GNQ00"
     type: "documented_governance_role"
-    label: "Terms of Reference August 2021: DOJ Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht; keine Aussage zur späteren Besetzung oder zu einzelnen Beschlüssen."
+    label: "Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."
     evidence_level: "established"
-    sources: ["SRC-INT-EG-MPTF-TOR-2021"]
+    sources: ["SRC-INT-EG-MPTF-TOR-2021", "SRC-INT-EG-MPTF-TOR-2025"]
     period: {"start": "2021"}
 
   - id: REL-RIGGS-POST-2004-059

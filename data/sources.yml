@@ -5512,3 +5512,27 @@ sources:
   accessed: "2026-11-25"
   locator: "S.15–18: Lenkungsausschuss Impf-Fenster, DOJ-Mitgliedschaft, EG beratend ohne Stimme, UNDP MPTF Office Verwaltung."
   notes: "Amtliche PDF-Textansicht. Seitenbildabruf schlug fehl; keine behauptete unabhängige Rechnungsprüfung."
+
+- id: SRC-INT-EG-MPTF-SUOF-2025
+  title: "Equatorial Guinea MPTF – Sources and Uses of Funds, 31 December 2025"
+  institution: "UNDP Multi-Partner Trust Fund Office"
+  date: "2026-05"
+  type: "official_fund_report"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-05/equatorial_guinea_mptf_gnq00_2025_suof.pdf"
+  accessed: "2026-11-26"
+  locator: "Zertifizierte Finanzaufstellung zum 31.12.2025: Beiträge, Zinserträge, Transfers, Rückzahlungen, Gebühren und Bestand des Verwaltungsagenten."
+  notes: "Amtliche PDF-Textansicht; Seitenbild nicht abrufbar. Vorlage verweist auf unterschriebenes Original auf Anfrage; kein unabhängiger Nachweis der Endverwendung."
+
+- id: SRC-INT-EG-MPTF-TOR-2025
+  title: "Términos de Referencia – Fondo Fiduciario de Asociados Múltiples de Guinea Ecuatorial (revisión 18.12.2025)"
+  institution: "UNDP Multi-Partner Trust Fund Office / UN Guinea Ecuatorial"
+  date: "2025-12-18"
+  type: "official_governance_document"
+  primary: true
+  tier: "A"
+  url: "https://mptf.undp.org/sites/default/files/documents/2026-02/tor_eg-mptf_es_revised_2025_as_per_10-12-25_sc_decision.pdf"
+  accessed: "2026-11-26"
+  locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
+  notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
