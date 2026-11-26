@@ -2685,3 +2685,130 @@ entities:
     name: "ATSIGE (2000–2004)"
     countries: ["GQ"]
     notes: "Im Senatsbericht als Gesellschaft des damaligen Innenministers bezeichnet; keine vollständige Eigentümerprüfung."
+
+  - id: ORG-US-L3-HOLDINGS-1997
+    type: holding_company
+    name: L-3 Communications Holdings, Inc. (1997–2006)
+    countries:
+    - US
+    notes: Historische Holding; nicht mit späteren L3Harris-Rechtsträgern gleichsetzen.
+  - id: ORG-US-L3-COMMUNICATIONS-1997
+    type: defense_contractor
+    name: L-3 Communications Corporation (1997–2006)
+    countries:
+    - US
+    notes: Operative Gesellschaft der Holding.
+  - id: ORG-US-TITAN-CORPORATION-2005
+    type: defense_contractor
+    name: The Titan Corporation (1999–2006)
+    countries:
+    - US
+    notes: 2005 von L-3 erworben; nicht gleichnamiges Army-TITAN-Programm.
+  - id: ORG-US-LEHMAN-PARTNERSHIP-1997
+    type: investment_partnership
+    name: Lehman Partnership (Capital Partners III LP und verbundene Gesellschaften)
+    countries:
+    - US
+    notes: Beteiligungsgruppe, nicht Lehman Brothers Inc.
+  - id: ORG-US-LEHMAN-BROTHERS-INC
+    type: investment_bank
+    name: Lehman Brothers Inc. (1997–2006)
+    countries:
+    - US
+    notes: Historische Investmentbank und Emissionsintermediär.
+  - id: ORG-US-LEHMAN-COMMERCIAL-PAPER
+    type: financial_company
+    name: Lehman Commercial Paper Inc. (2002–2006)
+    countries:
+    - US
+    notes: Separater Finanzierungsrechtsträger.
+  - id: ORG-US-LOCKHEED-MARTIN-1997
+    type: defense_contractor
+    name: Lockheed Martin Corporation (1997–2004)
+    countries:
+    - US
+    notes: L-3-Gründungsbeteiligung; gescheiterter Titan-Erwerb getrennt.
+  - id: ORG-US-BOFA-NA-2005
+    type: commercial_bank
+    name: Bank of America, N.A. (L-3-Kredit 2005–2006)
+    countries:
+    - US
+    notes: Rechtsträger im Kreditvertrag, nicht pauschaler Kontenverbund.
+  - id: ORG-US-BANC-OF-AMERICA-SECURITIES
+    type: investment_bank
+    name: Banc of America Securities LLC (2005)
+    countries:
+    - US
+    notes: Separater Wertpapierintermediär.
+  - id: ORG-US-BEAR-STEARNS-CO
+    type: investment_bank
+    name: Bear, Stearns & Co. Inc. (2005)
+    countries:
+    - US
+    notes: Vertreter der Erstkäufer der beiden L-3-Emissionen.
+  - id: ORG-US-CSFB-LLC-2005
+    type: investment_bank
+    name: Credit Suisse First Boston LLC (2005)
+    countries:
+    - US
+    notes: US-Wertpapierintermediär, nicht pauschal Schweizer Muttergesellschaft.
+  - id: ORG-US-NAVY-2005
+    type: government_agency
+    name: U.S. Department of the Navy (Titan-Vereinbarung 2005)
+    countries:
+    - US
+    notes: Handelte im Namen des DoD.
+  - id: ORG-US-SEC-2005
+    type: government_agency
+    name: U.S. Securities and Exchange Commission (Titan 2005)
+    countries:
+    - US
+    notes: Zivilrechtliche Durchsetzung.
+  - id: ORG-US-DDTC-2006
+    type: government_agency
+    name: Directorate of Defense Trade Controls (DDTC)
+    countries:
+    - US
+    notes: U.S. Department of State, Exportkontrolle.
+  - id: ORG-US-INSCOM-2006
+    type: military_command
+    name: U.S. Army Intelligence and Security Command (INSCOM) (2006)
+    countries:
+    - US
+    notes: Vertragspartner des übernommenen Sprachdienstleistungsvertrags.
+  - id: ORG-BJ-OPT-2001
+    type: government_agency
+    name: Office des Postes et Télécommunications (OPT), Benin
+    countries:
+    - BJ
+    notes: Staatlicher Vertragspartner; die Organisation nicht mit einzelnen Verantwortlichen gleichsetzen.
+  - id: PER-BJ-TITAN-AGENT-2001
+    type: historical_person
+    name: Benin-Vermittler im Titan-Schuldeingeständnis (nicht namentlich zugeordnet)
+    countries:
+    - BJ
+    notes: Rollenbezogene Referenz auf die Gerichtsakte, keine Namensspekulation.
+  - id: PER-US-STEVEN-LYNWOOD-HEAD
+    type: historical_person
+    name: Steven Lynwood Head
+    countries:
+    - US
+    notes: Ehemaliger Titan-Projektmanager; Urteil 2007.
+  - id: PER-US-ALAN-WASHKOWITZ
+    type: historical_person
+    name: Alan H. Washkowitz
+    countries:
+    - US
+    notes: Lehman Managing Director und L-3 Board laut Proxy 2005.
+  - id: PER-US-ROBERT-MILLARD
+    type: historical_person
+    name: Robert B. Millard
+    countries:
+    - US
+    notes: Lehman Managing Director und L-3 Board laut Proxy 2005.
+  - id: DOC-US-TITAN-NAVY-20050302
+    type: historical_contract_document
+    name: Titan–Navy Administrative Settlement Agreement (02.03.2005)
+    countries:
+    - US
+    notes: Vertragliche Fortsetzung unter Bedingungen; Änderungen und Schlussberichte nicht erschlossen.

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**624 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**660 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1111,6 +1111,63 @@ flowchart LR
     N_ORG_GQ_ATSIGE["ATSIGE (2000–2004)"]
     N_ORG_GQ_MOGE_JOINT_VENTURE -->|"236.160 USD 2000 bis Mai 2004 an Gesellschaft des Innenministers laut Senatsbericht."| N_ORG_GQ_ATSIGE
     N_PER_US_LAWRENCE_I_HEBERT -->|"Holding-Verwaltungsrat ernannte Hebert am 09.03.2005 zum CEO der Riggs National Corporation, vorbehaltlich der erforderlichen Aufsichtsgenehmigungen; Wirksamkeit nicht durch diese Quelle belegt."| N_ORG_US_RIGGS_NATIONAL_CORPORATION
+    N_ORG_US_LEHMAN_PARTNERSHIP_1997["Lehman Partnership (Capital Partners III LP und verbundene Gesellschaften)"]
+    N_ORG_US_L3_HOLDINGS_1997["L-3 Communications Holdings, Inc. (1997–2006)"]
+    N_ORG_US_LEHMAN_PARTNERSHIP_1997 -->|"50,1 % Gründungsanteil der Lehman Partnership; zeitgebundene Beteiligung, nicht laufende Kontrolle"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_LOCKHEED_MARTIN_1997["Lockheed Martin Corporation (1997–2004)"]
+    N_ORG_US_LOCKHEED_MARTIN_1997 -->|"34,9 % Gründungsanteil; keine Fortdauer unterstellt"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_L3_COMMUNICATIONS_1997["L-3 Communications Corporation (1997–2006)"]
+    N_ORG_US_L3_HOLDINGS_1997 -->|"Operative Tochtergesellschaft der Holding bei Gründung"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_LEHMAN_PARTNERSHIP_1997 -->|"4,4 % Aktienbesitz am 31.12.2001; nicht mit 50,1 % von 1997 addieren"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_RAYTHEON_1994 -->|"L-3 erwarb 2002 die AIS-Sparte; kein Erwerb des gesamten Raytheon-Konzerns"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_L3_COMMUNICATIONS_1997 -->|"SIVAM unter den beim AIS-Erwerb übernommenen laufenden Verträgen; keine Übertragung des gesamten Hauptvertrags"| N_PRG_BR_SIVAM
+    N_ORG_US_LEHMAN_BROTHERS_INC["Lehman Brothers Inc. (1997–2006)"]
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"AIS-Erwerbsberatung und Organisation der Zwischenfinanzierung; keine SIVAM-Einzelzahlung"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_TITAN_CORPORATION_2005["The Titan Corporation (1999–2006)"]
+    N_PER_BJ_TITAN_AGENT_2001["Benin-Vermittler im Titan-Schuldeingeständnis (nicht namentlich zugeordnet)"]
+    N_ORG_US_TITAN_CORPORATION_2005 -->|"Laut Schuldeingeständnis ca.2,1 Mio. USD Zahlungen mit bekanntem Wahlkampfzweck; kein Nachweis Wissen des Präsidenten"| N_PER_BJ_TITAN_AGENT_2001
+    N_ORG_BJ_OPT_2001["Office des Postes et Télécommunications (OPT), Benin"]
+    N_ORG_BJ_OPT_2001 -->|"Laut Plea §24–29 Managementvergütung rückwirkend 5 auf 20 %; beanspruchter Mehrwert nicht tatsächliche Auszahlung"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_DOJ -->|"Schuldeingeständnis Bestechung, falsche Bücher und Beihilfe falsche Steuererklärung; 13 Mio. USD Strafzahlung"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_SEC_2005["U.S. Securities and Exchange Commission (Titan 2005)"]
+    N_ORG_US_SEC_2005 -->|"15,479 Mio. USD Abschöpfung/Zinsen plus durch Strafzahlung erfüllte 13 Mio.; Vergleich ohne Eingeständnis oder Bestreiten SEC-Vorwürfe"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_NAVY_2005["U.S. Department of the Navy (Titan-Vereinbarung 2005)"]
+    N_DOC_US_TITAN_NAVY_20050302["Titan–Navy Administrative Settlement Agreement (02.03.2005)"]
+    N_ORG_US_NAVY_2005 -->|"Vereinbarung auf Grundlage der FCPA-Verfahren; Navy im Namen des DoD"| N_DOC_US_TITAN_NAVY_20050302
+    N_DOC_US_TITAN_NAVY_20050302 -->|"Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten und vorbehaltenen weiteren Sanktionen"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_L3_COMMUNICATIONS_1997 -->|"Übernahmebedingungen sehen Bemühen um Änderungen vor; unterzeichnete Änderung nicht belegt"| N_DOC_US_TITAN_NAVY_20050302
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Verkäuferberatung; 1 Mio. USD Fairness Opinion bezahlt, 8,7 Mio. closingabhängig vereinbart"| N_ORG_US_TITAN_CORPORATION_2005
+    N_PER_US_ALAN_WASHKOWITZ["Alan H. Washkowitz"]
+    N_PER_US_ALAN_WASHKOWITZ -->|"Managing Director laut Übernahmeprospekt"| N_ORG_US_LEHMAN_BROTHERS_INC
+    N_PER_US_ALAN_WASHKOWITZ -->|"Mitglied im L-3-Verwaltungsrat persönlich laut Proxy"| N_ORG_US_L3_HOLDINGS_1997
+    N_PER_US_ROBERT_MILLARD["Robert B. Millard"]
+    N_PER_US_ROBERT_MILLARD -->|"Managing Director laut Übernahmeprospekt"| N_ORG_US_LEHMAN_BROTHERS_INC
+    N_PER_US_ROBERT_MILLARD -->|"Mitglied im L-3-Verwaltungsrat persönlich laut Proxy"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_L3_COMMUNICATIONS_1997 -->|"Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert rund 2,754 Mrd. USD"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_BOFA_NA_2005["Bank of America, N.A. (L-3-Kredit 2005–2006)"]
+    N_ORG_US_BOFA_NA_2005 -->|"Administrative Agent/Swing Line/LC issuer; 750 Mio. Term Loan zusätzlich zu 1 Mrd. Revolver; kein individueller Kreditanteil"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_LEHMAN_COMMERCIAL_PAPER["Lehman Commercial Paper Inc. (2002–2006)"]
+    N_ORG_US_LEHMAN_COMMERCIAL_PAPER -->|"Syndizierungsagent der ergänzten Kreditfazilität; individueller Anteil offen"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Gemeinsamer Lead Arranger und Book Manager der Kreditfazilität"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_BANC_OF_AMERICA_SECURITIES["Banc of America Securities LLC (2005)"]
+    N_ORG_US_BANC_OF_AMERICA_SECURITIES -->|"Gemeinsamer Lead Arranger und Book Manager der Kreditfazilität"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_BANC_OF_AMERICA_SECURITIES -->|"Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_BANC_OF_AMERICA_SECURITIES -->|"Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_BEAR_STEARNS_CO["Bear, Stearns & Co. Inc. (2005)"]
+    N_ORG_US_BEAR_STEARNS_CO -->|"Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_BEAR_STEARNS_CO -->|"Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_CSFB_LLC_2005["Credit Suisse First Boston LLC (2005)"]
+    N_ORG_US_CSFB_LLC_2005 -->|"Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag"| N_ORG_US_L3_HOLDINGS_1997
+    N_ORG_US_CSFB_LLC_2005 -->|"Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_INSCOM_2006["U.S. Army Intelligence and Security Command (INSCOM) (2006)"]
+    N_ORG_US_INSCOM_2006 -->|"Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_DDTC_2006["Directorate of Defense Trade Controls (DDTC)"]
+    N_ORG_US_DDTC_2006 -->|"Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe, keine gerichtliche Schuldfeststellung"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_STATE_DEPARTMENT -->|"Laut L-3 10-Q bis Sep 2006 Vergleich mit 1,5 Mio. USD und wieder neue Lizenzen möglich; keine tatsächliche Zahlung oder Navy-Änderung behauptet"| N_ORG_US_TITAN_CORPORATION_2005
+    N_PER_US_STEVEN_LYNWOOD_HEAD["Steven Lynwood Head"]
+    N_ORG_US_DOJ -->|"Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised release, 5000 USD Geldstrafe; keine Schuld Dritter"| N_PER_US_STEVEN_LYNWOOD_HEAD
 ```
 
 [Zur Relationstabelle](network.md)

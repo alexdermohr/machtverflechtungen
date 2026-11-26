@@ -5615,3 +5615,395 @@ relations:
     evidence_level: "established"
     sources: ["SRC-US-SEC-RIGGS-8K-20050311"]
     period: {"start": "2005-03-09"}
+
+  - id: REL-TITAN-FOUNDING-LEHMAN
+    from: ORG-US-LEHMAN-PARTNERSHIP-1997
+    to: ORG-US-L3-HOLDINGS-1997
+    type: equity_ownership
+    label: 50,1 % Gründungsanteil der Lehman Partnership; zeitgebundene Beteiligung, nicht laufende Kontrolle
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-97
+    period:
+      start: '1997'
+      end: '1997'
+  - id: REL-TITAN-FOUNDING-LOCKHEED
+    from: ORG-US-LOCKHEED-MARTIN-1997
+    to: ORG-US-L3-HOLDINGS-1997
+    type: equity_ownership
+    label: 34,9 % Gründungsanteil; keine Fortdauer unterstellt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-97
+    period:
+      start: '1997'
+      end: '1997'
+  - id: REL-TITAN-HOLDING
+    from: ORG-US-L3-HOLDINGS-1997
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: corporate_ownership
+    label: Operative Tochtergesellschaft der Holding bei Gründung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-97
+    period:
+      start: '1997'
+      end: '1997'
+  - id: REL-TITAN-LEHMAN-STAKE-2001
+    from: ORG-US-LEHMAN-PARTNERSHIP-1997
+    to: ORG-US-L3-HOLDINGS-1997
+    type: equity_ownership
+    label: 4,4 % Aktienbesitz am 31.12.2001; nicht mit 50,1 % von 1997 addieren
+    evidence_level: established
+    sources:
+    - SRC-TITAN-LEHMAN02
+    period:
+      start: '2001-12-31'
+      end: '2001-12-31'
+  - id: REL-TITAN-AIS-ACQUISITION
+    from: ORG-US-RAYTHEON-1994
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: business_acquisition
+    label: L-3 erwarb 2002 die AIS-Sparte; kein Erwerb des gesamten Raytheon-Konzerns
+    evidence_level: established
+    sources:
+    - SRC-TITAN-AIS
+    period:
+      start: '2002-03-08'
+      end: '2002-03-08'
+  - id: REL-TITAN-SIVAM-TRANSFER
+    from: ORG-US-L3-COMMUNICATIONS-1997
+    to: PRG-BR-SIVAM
+    type: acquired_contract_portfolio
+    label: SIVAM unter den beim AIS-Erwerb übernommenen laufenden Verträgen; keine Übertragung des gesamten Hauptvertrags
+    evidence_level: established
+    sources:
+    - SRC-TITAN-AIS
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-TITAN-LEHMAN-AIS
+    from: ORG-US-LEHMAN-BROTHERS-INC
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: financial_advisory
+    label: AIS-Erwerbsberatung und Organisation der Zwischenfinanzierung; keine SIVAM-Einzelzahlung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-LEHMAN02
+    period:
+      start: '2002'
+      end: '2002'
+  - id: REL-TITAN-BENIN-PAYMENTS
+    from: ORG-US-TITAN-CORPORATION-2005
+    to: PER-BJ-TITAN-AGENT-2001
+    type: admitted_improper_payment
+    label: Laut Schuldeingeständnis ca.2,1 Mio. USD Zahlungen mit bekanntem Wahlkampfzweck; kein Nachweis Wissen des Präsidenten
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PLEA
+    - SRC-TITAN-SEC
+    period:
+      start: '2001'
+      end: '2001'
+  - id: REL-TITAN-OPT-FEE
+    from: ORG-BJ-OPT-2001
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: contract_fee_increase
+    label: Laut Plea §24–29 Managementvergütung rückwirkend 5 auf 20 %; beanspruchter Mehrwert nicht tatsächliche Auszahlung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PLEA
+    period:
+      start: '2001-06-25'
+      end: '2001-06-25'
+  - id: REL-TITAN-DOJ-PLEA
+    from: ORG-US-DOJ
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: criminal_plea
+    label: Schuldeingeständnis Bestechung, falsche Bücher und Beihilfe falsche Steuererklärung; 13 Mio. USD Strafzahlung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PLEA
+    - SRC-TITAN-SEC
+    period:
+      start: '2005-03-01'
+      end: '2005-03-01'
+  - id: REL-TITAN-SEC-SETTLEMENT
+    from: ORG-US-SEC-2005
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: civil_enforcement_settlement
+    label: 15,479 Mio. USD Abschöpfung/Zinsen plus durch Strafzahlung erfüllte 13 Mio.; Vergleich ohne Eingeständnis oder Bestreiten SEC-Vorwürfe
+    evidence_level: established
+    sources:
+    - SRC-TITAN-SEC
+    period:
+      start: '2005-03-01'
+      end: '2005-03-01'
+  - id: REL-TITAN-NAVY-SIGNED
+    from: ORG-US-NAVY-2005
+    to: DOC-US-TITAN-NAVY-20050302
+    type: administrative_settlement
+    label: Vereinbarung auf Grundlage der FCPA-Verfahren; Navy im Namen des DoD
+    evidence_level: established
+    sources:
+    - SRC-TITAN-NAVY
+    period:
+      start: '2005-03-02'
+      end: '2005-03-02'
+  - id: REL-TITAN-TITAN-NAVY
+    from: DOC-US-TITAN-NAVY-20050302
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: conditional_procurement_eligibility
+    label: Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten und vorbehaltenen weiteren Sanktionen
+    evidence_level: established
+    sources:
+    - SRC-TITAN-NAVY
+    period:
+      start: '2005-03-02'
+      end: '2005-03-02'
+  - id: REL-TITAN-MERGER-COVENANT
+    from: ORG-US-L3-COMMUNICATIONS-1997
+    to: DOC-US-TITAN-NAVY-20050302
+    type: contractual_modification_effort
+    label: Übernahmebedingungen sehen Bemühen um Änderungen vor; unterzeichnete Änderung nicht belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    - SRC-TITAN-L3-S4-05
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-LEHMAN-TITAN-ADVISORY
+    from: ORG-US-LEHMAN-BROTHERS-INC
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: financial_advisory
+    label: Verkäuferberatung; 1 Mio. USD Fairness Opinion bezahlt, 8,7 Mio. closingabhängig vereinbart
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-WASHKOWITZ-LEHMAN
+    from: PER-US-ALAN-WASHKOWITZ
+    to: ORG-US-LEHMAN-BROTHERS-INC
+    type: executive_role
+    label: Managing Director laut Übernahmeprospekt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-WASHKOWITZ-L3
+    from: PER-US-ALAN-WASHKOWITZ
+    to: ORG-US-L3-HOLDINGS-1997
+    type: board_membership
+    label: Mitglied im L-3-Verwaltungsrat persönlich laut Proxy
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-MILLARD-LEHMAN
+    from: PER-US-ROBERT-MILLARD
+    to: ORG-US-LEHMAN-BROTHERS-INC
+    type: executive_role
+    label: Managing Director laut Übernahmeprospekt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-MILLARD-L3
+    from: PER-US-ROBERT-MILLARD
+    to: ORG-US-L3-HOLDINGS-1997
+    type: board_membership
+    label: Mitglied im L-3-Verwaltungsrat persönlich laut Proxy
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-ACQUISITION
+    from: ORG-US-L3-COMMUNICATIONS-1997
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: business_acquisition
+    label: Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert rund 2,754 Mrd. USD
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-S4-05
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-29'
+      end: '2005-07-29'
+  - id: REL-TITAN-BOFA-AGENT
+    from: ORG-US-BOFA-NA-2005
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: credit_facility_agent
+    label: Administrative Agent/Swing Line/LC issuer; 750 Mio. Term Loan zusätzlich zu 1 Mrd. Revolver; kein individueller Kreditanteil
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-8K
+    - SRC-TITAN-L3-10Q-JUN
+    period:
+      start: '2005-07-29'
+      end: '2005-07-29'
+  - id: REL-TITAN-LEHMAN-SYNDICATION
+    from: ORG-US-LEHMAN-COMMERCIAL-PAPER
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: credit_syndication_agent
+    label: Syndizierungsagent der ergänzten Kreditfazilität; individueller Anteil offen
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-29'
+      end: '2005-07-29'
+  - id: REL-TITAN-LEHMAN-ARRANGER
+    from: ORG-US-LEHMAN-BROTHERS-INC
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: credit_arranger
+    label: Gemeinsamer Lead Arranger und Book Manager der Kreditfazilität
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-29'
+      end: '2005-07-29'
+  - id: REL-TITAN-BANC-ARRANGER
+    from: ORG-US-BANC-OF-AMERICA-SECURITIES
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: credit_arranger
+    label: Gemeinsamer Lead Arranger und Book Manager der Kreditfazilität
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-29'
+      end: '2005-07-29'
+  - id: REL-TITAN-LEHMAN-ISSUANCE
+    from: ORG-US-LEHMAN-BROTHERS-INC
+    to: ORG-US-L3-HOLDINGS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: &id001
+    - SRC-TITAN-L3-8K
+    period: &id002
+      start: '2005-07-27'
+      end: '2005-07-27'
+  - id: REL-TITAN-LEHMAN-ISSUANCE-NOTES
+    from: ORG-US-LEHMAN-BROTHERS-INC
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: *id001
+    period: *id002
+  - id: REL-TITAN-BANC-ISSUANCE
+    from: ORG-US-BANC-OF-AMERICA-SECURITIES
+    to: ORG-US-L3-HOLDINGS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: &id003
+    - SRC-TITAN-L3-8K
+    period: &id004
+      start: '2005-07-27'
+      end: '2005-07-27'
+  - id: REL-TITAN-BANC-ISSUANCE-NOTES
+    from: ORG-US-BANC-OF-AMERICA-SECURITIES
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: *id003
+    period: *id004
+  - id: REL-TITAN-BEAR-ISSUANCE
+    from: ORG-US-BEAR-STEARNS-CO
+    to: ORG-US-L3-HOLDINGS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: &id005
+    - SRC-TITAN-L3-8K
+    period: &id006
+      start: '2005-07-27'
+      end: '2005-07-27'
+  - id: REL-TITAN-BEAR-ISSUANCE-NOTES
+    from: ORG-US-BEAR-STEARNS-CO
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: *id005
+    period: *id006
+  - id: REL-TITAN-CSFB-ISSUANCE
+    from: ORG-US-CSFB-LLC-2005
+    to: ORG-US-L3-HOLDINGS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: &id007
+    - SRC-TITAN-L3-8K
+    period: &id008
+      start: '2005-07-27'
+      end: '2005-07-27'
+  - id: REL-TITAN-CSFB-ISSUANCE-NOTES
+    from: ORG-US-CSFB-LLC-2005
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: securities_issuance_role
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    evidence_level: established
+    sources: *id007
+    period: *id008
+  - id: REL-TITAN-INSCOM
+    from: ORG-US-INSCOM-2006
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: reported_contract_revenue
+    label: Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-10Q-SEP06
+    period:
+      start: '2006'
+      end: '2006'
+  - id: REL-TITAN-DDTC-SUCCESSOR
+    from: ORG-US-DDTC-2006
+    to: ORG-US-L3-COMMUNICATIONS-1997
+    type: administrative_charge_draft
+    label: Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe, keine gerichtliche Schuldfeststellung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-DDTC
+    period:
+      start: '2006'
+      end: '2006'
+  - id: REL-TITAN-EXPORT-RESTORED
+    from: ORG-US-STATE-DEPARTMENT
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: reported_export_licensing_restoration
+    label: Laut L-3 10-Q bis Sep 2006 Vergleich mit 1,5 Mio. USD und wieder neue Lizenzen möglich; keine tatsächliche Zahlung oder Navy-Änderung behauptet
+    evidence_level: established
+    sources:
+    - SRC-TITAN-L3-10Q-SEP06
+    period:
+      start: '2006'
+      end: '2006'
+  - id: REL-TITAN-HEAD-CONVICTION
+    from: ORG-US-DOJ
+    to: PER-US-STEVEN-LYNWOOD-HEAD
+    type: criminal_prosecution
+    label: 'Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised release, 5000 USD Geldstrafe; keine Schuld Dritter'
+    evidence_level: established
+    sources:
+    - SRC-TITAN-HEAD
+    - SRC-TITAN-HEAD-MOTION
+    period:
+      start: '2007-09-28'
+      end: '2007-09-28'
