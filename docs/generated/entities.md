@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**476 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**514 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -115,7 +115,8 @@
 | Susan Jean Minton Beddoes (Zanny Minton Beddoes) | person | `PER-GB-SUSAN-JEAN-MINTON-BEDDOES` | GB | [4](network.md#rel-gb-bb-uk-005) |
 | Suzanne H. Woolsey | person | `PER-US-SUZANNE-WOOLSEY` | US | [6](network.md#rel-ulf-woolsey-gmf-1) |
 | Sven Afhüppe | person | `PER-DE-SVEN-AFHUEPPE` | DE | [3](network.md#rel-de-tmn-012) |
-| Teodoro Obiang Nguema Mbasogo | person | `PER-GQ-TEODORO-OBIANG` | GQ | [1](network.md#rel-riggs-followup-046) |
+| Teodoro Nguema Obiang Mangue | person | `PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE` | GQ | [11](network.md#rel-riggs-post-2004-001) |
+| Teodoro Obiang Nguema Mbasogo | person | `PER-GQ-TEODORO-OBIANG` | GQ | [2](network.md#rel-riggs-followup-046) |
 | Theo Koll | person | `PER-DE-THEO-KOLL` | DE | [2](network.md#rel-de-tmn-025) |
 | Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE | [2](network.md#rel-de-tmn-049) |
 | Thomas Ebeling | person | `PER-DE-THOMAS-EBELING` | DE | [1](network.md#rel-de-tmn-051) |
@@ -192,17 +193,21 @@
 | Banco Santander Central Hispano (2004) | commercial_bank | `ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004` | ES | [2](network.md#rel-riggs-followup-014) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
 | Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [10](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
-| Bank of America – Kontenverbund laut Senatsbericht 2005 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [4](network.md#rel-riggs-followup-001) |
+| Bank of America – Kontenverbund laut Senatsberichten 2005/2010 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [9](network.md#rel-riggs-followup-001) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
 | BankBoston Chile (2001) | commercial_bank | `ORG-CL-BANKBOSTON-CHILE-2001` | CL, US | [2](network.md#rel-riggs-followup-004) |
 | Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
+| Banque de France (2006) | central_bank | `ORG-FR-BANQUE-DE-FRANCE-2006` | FR | [2](network.md#rel-riggs-post-2004-015) |
+| Banque des États de l’Afrique Centrale (BEAC, 2006) | central_bank | `ORG-CM-BEAC-2006` | CM, GQ | [2](network.md#rel-riggs-post-2004-014) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
+| Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
+| Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
@@ -227,6 +232,7 @@
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
+| CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [17](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Chile Copper Company (Anaconda-Tochter, 1972) | historical_mining_company_subsidiary | `ORG-CL-CHILE-COPPER-ANACONDA-1972` | US, CL | [4](network.md#rel-us-anaconda-chile-copper-subsidiary-1972) |
@@ -249,6 +255,7 @@
 | Conselho Monetário Nacional (CMN) | government_council | `ORG-BR-CMN` | BR | [2](network.md#rel-ws-bcb-cmn-risk) |
 | Corporación del Cobre (Chile, 1974) | historical_state_copper_organization | `ORG-CL-CORPORACION-DEL-COBRE-1974` | CL | [2](network.md#rel-cl-corporacion-cobre-exotica-ownership-1971) |
 | Corriere della Sera (italienische Zeitung, 1980) | historical_newspaper | `ORG-IT-CORRIERE-DELLA-SERA-1980` | IT | [2](network.md#rel-it-rizzoli-corriere-1977-001) |
+| Cour de cassation (Frankreich) | court | `ORG-FR-COUR-DE-CASSATION` | FR | [1](network.md#rel-riggs-post-2004-044) |
 | Coutts & Co. (USA) International (1999) | commercial_bank | `ORG-US-COUTTS-INTERNATIONAL-1999` | US, GB | [2](network.md#rel-riggs-followup-013) |
 | CPI SIVAM (Câmara dos Deputados) | parliamentary_inquiry | `ORG-BR-CPI-SIVAM-2002` | BR | [2](network.md#rel-ws-cpi-sivam) |
 | Credit and Commerce American Holdings N.V. (CCAH) | bank_holding_company | `ORG-AN-CCAH` | AN, US | [2](network.md#rel-int-bcci-001) |
@@ -278,11 +285,13 @@
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
+| Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
 | El Mercurio (Chile) | historical_media_organization | `ORG-CL-EL-MERCURIO-1971` | CL | [8](network.md#rel-us-cia-el-mercurio-1971-1972) |
 | Embraer (SIVAM-Verträge, 1990er–2005) | historical_company | `ORG-BR-EMBRAER-SIVAM` | BR | [1](network.md#rel-ws-embraer-contract) |
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
 | Englisches Protektorat unter Oliver Cromwell (1653–1658) | historical_government | `ORG-GB-PROTECTORATE-1653` | GB | [2](network.md#rel-gb-crom-1653-001) |
 | Ente Nazionale Idrocarburi (ENI, historisch 1978–1982) | historical_state_enterprise | `ORG-IT-ENI-1978` | IT | [1](network.md#rel-it-eni-trad-1979-001) |
+| Equatorial Guinea Multi-Partner Trust Fund (GNQ00) | multilateral_trust_fund | `PRG-GQ-MPTF-GNQ00` | GQ | [6](network.md#rel-riggs-post-2004-054) |
 | ERISA-betroffene US-Pensionspläne (historisch 1979) | historical_pension_system | `PRG-US-ERISA-PENSION-PLANS-1979` | US | [2](network.md#rel-us-erisa-rule-portfolio-1979-001) |
 | ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
 | ESCA – Engenharia de Controle e Automação S.A. | historical_company | `ORG-BR-ESCA` | BR | [5](network.md#rel-ws-esca-sivam) |
@@ -297,12 +306,16 @@
 | Federal Financing Bank (FFB) | government_financing_institution | `ORG-US-FEDERAL-FINANCING-BANK-1973` | US | [2](network.md#rel-us-opic-ffb-recourse-1977) |
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [4](network.md#rel-int-bcci-005) |
-| Financial Crimes Enforcement Network (FinCEN) | government_agency | `ORG-US-FINCEN` | US | [1](network.md#rel-riggs-followup-024) |
+| Financial Crimes Enforcement Network (FinCEN) | government_agency | `ORG-US-FINCEN` | US | [3](network.md#rel-riggs-followup-024) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
-| First National City Bank / Citibank, N.A. (Umbenennung 1976) | historical_commercial_bank | `ORG-US-FIRST-NATIONAL-CITY-BANK-1971` | US, CL | [5](network.md#rel-us-opic-fncb-register-cash-fy1973) |
+| First American Title Company (2006) | escrow_service | `ORG-US-FIRST-AMERICAN-TITLE-2006` | US | [2](network.md#rel-riggs-post-2004-019) |
+| First American Trust, F.S.B. (2006) | commercial_bank | `ORG-US-FIRST-AMERICAN-TRUST-2006` | US | [1](network.md#rel-riggs-post-2004-020) |
+| First National City Bank / Citibank, N.A. (Umbenennung 1976) | historical_commercial_bank | `ORG-US-FIRST-NATIONAL-CITY-BANK-1971` | US, CL | [11](network.md#rel-us-opic-fncb-register-cash-fy1973) |
 | First Wisconsin National Bank (Milwaukee, 1972) | historical_commercial_bank | `ORG-US-FIRST-WISCONSIN-NATIONAL-BANK-1972` | US | [5](network.md#rel-us-fwnb-el-mercurio-debt-1972) |
 | Fluor Corporation | company | `ORG-US-FLUOR` | US | [2](network.md#rel-ulf-woolsey-fluor) |
+| Foch services (historischer Rechtsträger laut Urteil) | company | `ORG-INT-FOCH-SERVICES-HISTORICAL` |  | [2](network.md#rel-riggs-post-2004-042) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
+| Fortis Bank (in PSI-Tabelle 2008) | commercial_bank | `ORG-INT-FORTIS-BANK-2008` | FR | [2](network.md#rel-riggs-post-2004-023) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [3](network.md#rel-de-tmn-018) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | Fulbright & Jaworski (2004) | law_firm | `ORG-US-FULBRIGHT-JAWORSKI-2004` | US | [2](network.md#rel-riggs-followup-036) |
@@ -314,6 +327,7 @@
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
 | German Marshall Fund of the United States (GMF) | transatlantic_foundation | `ORG-US-GMF-2012` | US | [11](network.md#rel-de-ab-jour-gmf-1992-001) |
 | Gesellschaft für Wehrkunde (historischer Verein) | association | `ORG-DE-GFW-1952` | DE | [3](network.md#rel-de-kmm-003) |
+| Good Will Fund (Äquatorialguinea, 2021–2025) | health_program | `PRG-GQ-GOOD-WILL-FUND-2021-2025` | GQ, US | [1](network.md#rel-riggs-post-2004-051) |
 | Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
@@ -324,15 +338,19 @@
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IBM Corporation (1992) | historical_company | `ORG-US-IBM-1992` | US | [1](network.md#rel-ws-ibm-osac) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
+| IGH-Urteil 163 zum diplomatischen Status (11.12.2020) | historical_court_decision_document | `DOC-INT-ICJ-163-2020` | NL, FR, GQ | [2](network.md#rel-riggs-post-2004-045) |
 | Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
 | Institute for Defense Analyses | research_institute | `ORG-US-IDA` | US | [1](network.md#rel-ulf-woolsey-ida) |
+| Insured Aircraft Title Service(s) (2006) | escrow_service | `ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006` |  | [2](network.md#rel-riggs-post-2004-021) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
+| Internationaler Gerichtshof (IGH) | court | `ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE` | NL | [1](network.md#rel-riggs-post-2004-045) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` | VG | [1](network.md#rel-riggs-followup-044) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Kalunga Company S.A. | company | `ORG-GQ-KALUNGA-COMPANY-SA` | GQ | [2](network.md#rel-riggs-followup-039) |
+| Kanzlei Michael Berger (2004–2007) | law_firm | `ORG-US-BERGER-LAW-OFFICE-2004-2007` | US | [2](network.md#rel-riggs-post-2004-025) |
 | Kennecott Copper Corporation / Braden Copper (Chile-Fall) | historical_multinational_mining_corporation | `ORG-US-KENNECOTT-COPPER-CORP-1971` | US, CL | [2](network.md#rel-us-opic-kennecott-credit-cover-1971-1972) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
@@ -348,10 +366,13 @@
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |
 | Marathon Oil (2004) | oil_company | `ORG-US-MARATHON-OIL-2004` | US | [2](network.md#rel-riggs-followup-056) |
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
+| McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
+| Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
+| Mitsubishi UFJ Financial Group (2007) | financial_holding_company | `ORG-JP-MUFG-2007` | JP | [1](network.md#rel-riggs-post-2004-034) |
 | Mobil Equatorial Guinea Inc. (MEGI) | oil_company | `ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC` | GQ, US | [2](network.md#rel-riggs-followup-047) |
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
@@ -372,7 +393,7 @@
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
-| Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [6](network.md#rel-int-bcci-004) |
+| Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
@@ -394,10 +415,11 @@
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Raytheon Company (SIVAM 1994–2008) | historical_company | `ORG-US-RAYTHEON-1994` | US, BR | [4](network.md#rel-ws-exim-raytheon) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
+| Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
-| Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [28](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
+| Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [31](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
 | Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [5](network.md#rel-riggs-followup-027) |
 | Rizzoli Editore S.p.A. (Verlagsgruppe historisch 1975–1984) | historical_publisher | `ORG-IT-RIZZOLI-EDITORE-1975-1984` | IT | [9](network.md#rel-it-p2-rizzoli-1975-1981-001) |
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
@@ -410,8 +432,13 @@
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
+| Sidley Austin (2006) | law_firm | `ORG-US-SIDLEY-AUSTIN-2006` | US | [1](network.md#rel-riggs-post-2004-008) |
 | Sistema de Vigilância da Amazônia (SIVAM) | historical_surveillance_project | `PRG-BR-SIVAM` | BR | [11](network.md#rel-ws-advocacy-sivam) |
 | SIVAM Vendor Trust (Kreditgenehmigung 1994) | historical_finance_vehicle | `ORG-INT-SIVAM-VENDOR-TRUST-1994` | BR | [1](network.md#rel-ws-vendor-brazil) |
+| Socage (historischer Untersuchungszeitraum) | company | `ORG-GQ-SOCAGE` | GQ | [2](network.md#rel-riggs-post-2004-002) |
+| Société Générale de Banque – Äquatorialguinea (2006) | commercial_bank | `ORG-GQ-SOCIETE-GENERALE-DE-BANQUE-2006` | GQ | [3](network.md#rel-riggs-post-2004-010) |
+| Société Générale S.A. (New York, 2006) | commercial_bank | `ORG-US-SOCIETE-GENERALE-NY-2006` | US, FR | [2](network.md#rel-riggs-post-2004-009) |
+| Somagui Forestal (historischer Untersuchungszeitraum) | historical_forestry_company | `ORG-GQ-SOMAGUI-FORESTAL` | GQ | [3](network.md#rel-riggs-post-2004-001) |
 | Sonavi (Sicherheitsdienst) | security_company | `ORG-GQ-SONAVI` | GQ | [3](network.md#rel-riggs-followup-053) |
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
@@ -424,6 +451,7 @@
 | Sun Chemical Company (El-Mercurio-Lieferantin, 1972) | historical_commercial_supplier | `ORG-US-SUN-CHEMICAL-1972` | US | [2](network.md#rel-us-sun-chemical-el-mercurio-credit-1972) |
 | Superior Tribunal de Justiça (STJ) | court | `ORG-BR-STJ` | BR | [1](network.md#rel-ws-stj-contract) |
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
+| Sweetwater Malibu LLC | company | `ORG-US-SWEETWATER-MALIBU-LLC` | US | [1](network.md#rel-riggs-post-2004-047) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [2](network.md#rel-de-tmn-016) |
 | Tactical Intelligence Targeting Access Node (TITAN) | military_technology_program | `PRG-US-ARMY-TITAN` | US | [2](network.md#rel-us-palantir-titan-integration-2026) |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE | [4](network.md#rel-de-bdj-001) |
@@ -446,15 +474,21 @@
 | U.S. Association of Former Members of Congress | civic_nonprofit | `ORG-US-FORMER-CONGRESS-MEMBERS-2012` | US | [1](network.md#rel-us-gmf-former-congress-2012-001) |
 | U.S. Counter Intelligence Corps (CIC) | intelligence_service | `ORG-US-CIC` | US | [1](network.md#rel-de-bdj-008) |
 | U.S. Department of Defense | government_agency | `ORG-US-DOD` | US | [2](network.md#rel-us-ua-biosec-2022-001) |
-| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [5](network.md#rel-int-bcci-006) |
+| U.S. Department of Justice | government_agency | `ORG-US-DOJ` | US | [11](network.md#rel-int-bcci-006) |
 | U.S. Department of Labor (ERISA-Pensionsaufsicht 1978–1979) | government_agency | `ORG-US-DOL-ERISA-1979` | US | [3](network.md#rel-us-wp-dol-consultations-1978-001) |
 | U.S. Department of State (1954) | historical_federal_executive_department | `ORG-US-STATE-DEPARTMENT-1954` | US | [1](network.md#rel-us-ufco-state-doj-lobby-1954) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [4](network.md#rel-int-bcci-003) |
 | U.S. District Court for the District of Columbia (Anaconda-Urteil 1976) | federal_judicial_court_historical | `ORG-US-DISTRICT-COURT-DC-1976` | US | [1](network.md#rel-us-dc-court-opic-anaconda-vacatur-1976) |
+| UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
+| Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
+| UnionBanCal Corporation (2007) | bank_holding_company | `ORG-US-UNIONBANCAL-2007` | US | [2](network.md#rel-riggs-post-2004-033) |
 | United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [8](network.md#rel-us-ufco-castillo-armas-support-1952) |
+| United Nations Children's Fund (UNICEF) | international_organization | `ORG-INT-UNICEF` |  | [1](network.md#rel-riggs-post-2004-056) |
+| United Nations Development Programme (UNDP) | international_organization | `ORG-INT-UNDP` |  | [2](network.md#rel-riggs-post-2004-055) |
 | United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
+| Unlimited Horizon, Inc. (2006–2007) | company | `ORG-US-UNLIMITED-HORIZON-INC-2006` | US | [2](network.md#rel-riggs-post-2004-029) |
 | US Department of Commerce | government_agency | `ORG-US-COMMERCE` | US | [3](network.md#rel-ws-ic-commerce) |
 | US Department of State | government_agency | `ORG-US-STATE-DEPARTMENT` | US | [13](network.md#rel-ulf-balanian-sanction) |
 | US Intelligence Community (Wirtschaftsaufklärung 1993–1995) | historical_intelligence_community | `ORG-US-IC-1990S` | US | [3](network.md#rel-ws-ic-state) |
@@ -465,13 +499,16 @@
 | US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972) | historical_commercial_bank_cohort | `ORG-US-CHILE-CREDITO2-LENDERS-1972` | US, CL | [1](network.md#rel-cl-bcch-us-private-bank-credito2-notes-1974) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
+| Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
+| Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | – |
+| World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [1](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
 
@@ -495,5 +532,6 @@
 |---|---|---|---|---|
 | Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979 | historical_press_contract_document | `DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979` | IT | [5](network.md#rel-it-p2-presspact-rizzoli-1979-001) |
 | Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C) | historical_contract_document | `DOC-IT-RIZZOLI-P2-AGREEMENT-1980` | IT | [6](network.md#rel-it-p2-agreement-gelli-1980-001) |
+| US-Zivilvergleich Obiang Mangue vom 10.10.2014 | historical_contract_document | `DOC-US-OBIANG-CIVIL-SETTLEMENT-2014` | US, GQ | [3](network.md#rel-riggs-post-2004-046) |
 | Vertrag 01/95 – CCSIVAM/Raytheon | historical_contract_document | `DOC-BR-CCSIVAM-RAYTHEON-0195` | BR, US | [8](network.md#rel-ws-ccsivam-contract) |
 | Vinkulierungsvereinbarung Döpfner–Brilliant–Springer–Warburg vom 31.07./04.08.2006 | historical_contract_document | `DOC-DE-SPRINGER-VINKULIERUNG-2006` | DE | [4](network.md#rel-de-warburg-springer-vink-2006-001) |
