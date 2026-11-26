@@ -30,7 +30,7 @@
 - Q1: Bundestag, hib 2019, LKA-Beamter erhebt schwere Vorwürfe: https://www.bundestag.de/webarchiv/presse/hib/2019_11/668678-668678
 - Q2: Bundestag, hib 2019, Staatsanwalt über Konflikt mit BKA: https://www.bundestag.de/webarchiv/presse/hib/2019_12/672898-672898
 - Q3: Bundestag, hib 2020, Bundesanwalt schildert Konflikt um VP01: https://www.bundestag.de/webarchiv/presse/hib/2020_07/704206-704206
-- Q4: Bundestag, hib 2020, BKA-Beamter widerspricht Vorwürfen: https://www.bundestag.de/webarchiv/presse/hib/2020_05/695238-695238
+- Q4: Bundestag, hib 2019, BKA-Beamter streitet Vorwürfe ab: https://www.bundestag.de/webarchiv/presse/hib/2019_12/673188-673188
 - Q5: Bundestag, hib 312/2019, DGST-Warnungen: https://www.bundestag.de/webarchiv/presse/hib/2019_03/630738-630738
 - Q6: BVerfG, 2 BvE 4/18: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html
 - Q7: Bundestag, Anhörung zu Berliner Ermittlungen: https://www.bundestag.de/webarchiv/textarchiv/2019/kw45-pa-1ua-665610
@@ -68,3 +68,29 @@
 - Q19: Innenministerium MV, Expertenkommission legt Bericht vor: https://www.presseportal.de/blaulicht/pm/108531/4919278
 
 **Prüfstatus:** Q15 und Q13 anhand zugänglicher PDF-Textfundstellen geprüft; Seitenrendering beider großer Berichte sowie erneute Darstellung Q10 fehlgeschlagen (Cache miss). Q17 und Q16 als HTML gelesen. Kein aktueller amtlicher Verfahrensstand 2026 verifiziert; keine Ableitung aus bloßen Aktualisierungsdaten älterer Webseiten. Q10 enthält im Text ein abweichendes Anschlagsdatum (16.12.2016); maßgeblich ist der 19.12.2016 nach den parlamentarischen Berichten. Die Forschungsakte ist eine Vorstudie, noch keine kanonische strukturierte Fallakte.
+
+
+## Primärakten-Nachtrag: Ermittlungsgegenstand, Selbstschutz und Quellenkonflikt (26.11.2026)
+
+**AMRI-17 – Eingeschränkter Gegenstand der Strafuntersuchung.** Der Berliner Ausschuss (Q13, S. 910–912, Fn. 4897–4905) gibt den Einstellungsvermerk vom 09.04.2018 wieder. Untersucht wurde insbesondere eine mögliche Strafvereitelung zugunsten eines weiteren Beschuldigten, nicht allgemein das Behördenversagen vor dem Anschlag und nicht eine Strafvereitelung zugunsten des bereits verstorbenen Amri. Die Staatsanwaltschaft stellte das Verfahren gemäß § 170 Abs. 2 StPO ein. Sie konnte weder einen kausalen Vereitelungserfolg noch den erforderlichen Tatentschluss nachweisen. Beim Vorwurf der Fälschung beweiserheblicher Daten sah sie keinen Anfangsverdacht. Die Einstellung ist daher keine umfassende Entlastung des Behördenhandelns. Fundstelle: Einstellungsvermerk, IV.2 StA Berlin, Bd. 29, Hauptakte Bd. XII, Bl. 46–71.
+
+**AMRI-18 – Amtlich dokumentierte Indizien für nachträglichen Selbstschutz.** Die Staatsanwaltschaft hielt ein bewusstes, teilweise sachwidriges Abschwächen der Vorwürfe gegen Amri und ein Motiv der Vermeidung von Diskussionen über eigene Versäumnisse für naheliegend (Q13, S. 911, Fn. 4904–4905, Einstellungsvermerk Bl. 68–70). Der Ausschuss bewertete die Veränderungen des Berichts, die Löschung eines Beschuldigten aus dem elektronischen Vorgang und die veränderte rechtliche Würdigung als nicht ordnungsgemäße Sachbearbeitung (S. 912). **Grenze:** Dies ist die amtlich dokumentierte Indizienbewertung, kein Strafurteil über Vertuschungsvorsatz. Auch bleibt offen, ob eine frühere Inhaftierung den Anschlag tatsächlich verhindert hätte.
+
+**AMRI-19 – Disziplinarverfahren und parlamentarische Auskunftsverweigerung.** Zum Ende der Beweisaufnahme des Berliner Ausschusses war das Disziplinarverfahren gegen O–1 rechtskräftig abgeschlossen, das gegen L–1 noch anhängig. Beide Beamte verweigerten 2019 die inhaltliche Aussage; das Landgericht bestätigte 2020 das Auskunftsverweigerungsrecht (Q13, S. 911–912). Kein aktueller Disziplinarstand 2026 verifiziert; keine belastende Schlussfolgerung allein aus der rechtmäßigen Auskunftsverweigerung.
+
+**AMRI-20 – Originalvermerk GBA: Quellenschutz als Grund für Informationsweg.** Q20, MAT A GBA-4, S. 3: In einer Besprechung zwischen LKA NRW und GBA-Referat TE 3 wurde vereinbart, Erkenntnisse über den LfV NRW an das BfV weiterzugeben, damit ein Behördenzeugnis erstellt werden konnte. Begründung war der Schutz der VP01 im verdeckten Ermittlungsverfahren. Der Vermerk dokumentiert außerdem die Weitergabe von Erkenntnissen und die Anlage von Prüfvorgängen durch den GBA. Keine nachgewiesene absichtliche Verhinderung einer Festnahme allein durch Wahl dieses Informationswegs.
+
+**AMRI-21 – Gegenbefund zur pauschalen Diskreditierungsthese.** Q20, S. 6, dokumentiert BKA-Mitteilungen mit anfänglichen Zweifeln an VP01; am 02.03.2016 hielt das BKA die Zweifel an ihrer Glaubwürdigkeit nicht mehr aufrecht, bewertete die Gefahr aber weiterhin niedrig. Die Angaben aus verschiedenen Bewertungsinstrumenten sind nicht ohne Prüfung des jeweiligen Gefahrensachverhalts gleichzusetzen. Der nachgewiesene Behördenkonflikt trägt nicht die Behauptung einer durchgehenden, absichtlich falschen Quellenbewertung. Die weitergehende Weisungshypothese bleibt offen.
+
+**AMRI-22 – Drogenverfahren war ausdrücklich als möglicher rechtmäßiger Haftansatz vorgesehen.** Der Jost-Zwischenbericht (Q21, S. 5) dokumentiert einen Auftrag der Berliner Generalstaatsanwaltschaft vom 18.08.2016 zur Zusammenstellung und Übergabe von Ermittlungsinformationen, um ein separates Verfahren einzuleiten und eine rechtlich mögliche Inhaftierung zu prüfen. Der Ausschuss sah eine mögliche spätere Inhaftierung, aber keine gesicherte Kausalität zur Anschlagsverhinderung (Q13, S. 912). Ein nicht abgearbeiteter Auftrag ist damit prüfbar, eine sichere hypothetische Haftentscheidung nicht.
+
+### Quellen-Nachtrag
+
+- Q20: GBA, MAT A GBA-4, Ordner 1 von 3, Bl. 4–14, Ausschussmaterial zu Drs. 19/30800, insbesondere S. 3 und 6: https://dserver.bundestag.de/btd/19/CD30800/III.%20Dokumente/036_MAT%20A%20GBA-4%20Ordner%201%20von%203%2C%20Bl.%204-14.pdf
+- Q21: Bruno Jost, Zwischenbericht des Sonderbeauftragten des Senats, Stand der Nachforschungen 23.06.2017, S. 5: https://www.berlin.de/sen/inneres/_assets/sicherheit/zwischenbericht-sonderbeauftragter.pdf
+- Q22: Berliner Drs. 18/4000, alternative offizielle Archiv-URL zu Q13, S. 910–912: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/DruckSachen/d18-4000.pdf
+- Q23: Bundestag, 21.03.2019, Aussagen zu DGST-Warnungen und BfV-Behördenzeugnis: https://www.bundestag.de/webarchiv/textarchiv/2019/kw12-pa-ua-amri-628466
+- Q24: Bundestag, 12.12.2019, Aussagen zur VP01 einschließlich Gegenposition BKA: https://www.bundestag.de/webarchiv/textarchiv/2019/kw50-pa-1ua-671536
+- Q25: Bundestag, BKA-Zeuge widerspricht Vorwürfen und erläutert Neubewertung: https://www.bundestag.de/webarchiv/presse/hib/2020_01/678056-678056
+
+**Netzwerk:** 15 quellengebundene Relationen zu Quellenführung, institutioneller Übermittlung, Bewertung, Ermittlungsauftrag und unvollständiger Weitergabe. Keine Kante für eine unbelegte Tatbeauftragung, eine tatsächliche Finanzierung des Anschlags oder eine Identifizierung von VP01. Der GBA-Vermerk, der Berliner Bericht und der Jost-Bericht wurden anhand der zugänglichen PDF-Textfassung geprüft; Screenshots schlugen mit Cache miss fehl. Die ungekürzte strafrechtliche Ermittlungsakte liegt weiterhin nicht vor. Kein neuer amtlicher Verfahrensstand 2026 gefunden.

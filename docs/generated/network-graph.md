@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**698 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1208,6 +1208,32 @@ flowchart LR
     N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
     N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
     N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_DE_LKA_NRW["Landeskriminalamt Nordrhein-Westfalen"]
+    N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]
+    N_ORG_DE_LKA_NRW -->|"führte VP01 im Abu-Walaa-Ermittlungskomplex"| N_PER_DE_VP01_AMRI
+    N_PER_DE_VP01_AMRI -->|"lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt"| N_ORG_DE_LKA_NRW
+    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
+    N_ORG_DE_LKA_NRW -->|"übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor"| N_ORG_DE_GBA
+    N_ORG_DE_LFV_NRW["Verfassungsschutz Nordrhein-Westfalen"]
+    N_ORG_DE_LKA_NRW -->|"vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01"| N_ORG_DE_LFV_NRW
+    N_ORG_DE_BFV -->|"Behördenzeugnis vom 26.01.2016 wurde Grundlage eines GBA-Prüfvorgangs"| N_ORG_DE_GBA
+    N_ORG_DE_BKA -->|"übermittelte Gefährdungsbewertungen; anfängliche Zweifel an VP01 später zurückgenommen"| N_ORG_DE_GBA
+    N_ORG_MA_DGST["Direction générale de la surveillance du territoire (DGST)"]
+    N_ORG_MA_DGST -->|"übermittelte vier Hinweise zu Amri laut BKA-Verbindungsbeamtem"| N_ORG_DE_BKA
+    N_ORG_MA_DGST -->|"übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem"| N_ORG_DE_BND
+    N_ORG_DE_LFV_MV["Verfassungsschutz Mecklenburg-Vorpommern"]
+    N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_BFV
+    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
+    N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_LFV_BERLIN
+    N_ORG_DE_GENSTA_BERLIN["Generalstaatsanwaltschaft Berlin"]
+    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
+    N_ORG_DE_GENSTA_BERLIN -->|"beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel"| N_ORG_DE_LKA_BERLIN
+    N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
+    N_ORG_DE_STA_BERLIN -->|"beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt"| N_ORG_DE_LKA_BERLIN
+    N_PER_TN_ANIS_AMRI["Anis Amri"]
+    N_ORG_DE_GENSTA_BERLIN -->|"führte Ermittlungsverfahren wegen Verdachts der Beteiligung an einem Tötungsverbrechen; keine Verurteilung"| N_PER_TN_ANIS_AMRI
+    N_ORG_DE_LFV_NRW -->|"als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen"| N_ORG_DE_BFV
+    N_ORG_DE_BFV -->|"erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01"| N_ORG_DE_LKA_BERLIN
 ```
 
 [Zur Relationstabelle](network.md)
