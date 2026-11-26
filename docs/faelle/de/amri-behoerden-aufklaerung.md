@@ -221,9 +221,13 @@ case_links:
 
 # Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse
 
+<div class="mv-case-intro" markdown>
+
 **Auf einen Blick:** Der Fall untersucht behördliches Wissen, Informationswege, Quellenführung und nachträgliche Aufklärung nach dem Terroranschlag vom 19. Dezember 2016. Die Perspektive der Opfer und Angehörigen verlangt eine klare Trennung zwischen belegter Verantwortung und unbewiesenen Hypothesen.
 
 [Alle Fälle](../index.md) · [Quellenkatalog](../../quellen/index.md) · [Chronologie](../../generated/timeline.md)
+
+</div>
 
 **Forschungsfrage:** Welche Behördenentscheidungen und nachträglichen Aufklärungshemmnisse sind im Amri-Komplex amtlich dokumentiert, und welche weitergehenden Hypothesen bleiben offen?
 

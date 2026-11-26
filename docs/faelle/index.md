@@ -27,6 +27,14 @@ Militante Netzwerke, Tatkomplexe, Quellenschutz und behördliche Aufklärung.
 | 1996 – 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt | Infiltration, Quellenschutz |
 | 2006-03-24 – 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](de/nsu-yozgat-temme.md) | DE | 4 belegt | Quellenschutz, Infiltration |
 
+## Islamistischer Terrorismus & Behördenhandeln
+
+Behördenwissen, Quellenführung und parlamentarische Aufklärung.
+
+| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |
+|---|---|---|---|---|
+| 2015 – 2022 | [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](de/amri-behoerden-aufklaerung.md) | DE, MA | 6 belegt · 1 spekulativ/offen | Infiltration, Quellenschutz, Ermittlungsmanipulation / Depistaggio |
+
 ## Internationale Anschläge
 
 Transnationale Zusammenhänge, Nachrichtendienstkontakte und Tatuntersuchungen.
@@ -45,14 +53,6 @@ Finanzierungswege, politische Kontakte und dokumentierte Medienbeeinflussung.
 | 1950 – 1998 | [Deutsche Medien: nachrichtendienstliche Eingriffe und verdeckte Finanzierung](de/medien-nachrichtendienst-crosslayer.md) | DE, US, FR | 2 belegt · 2 stark gestützt |  |
 | 1984 – 2026 | [Transatlantische Mediennetzwerke: Audit der Deutschland-Grafik 2017](de/transatlantik-mediennetzwerk-2017-2026.md) | DE, US | 1 belegt · 4 stark gestützt · 1 spekulativ/offen |  |
 | 2007 – 2025 | [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](de/cum-ex-warburg-steuerverfahren.md) | DE | 6 belegt · 1 spekulativ/offen | Ungerechtfertigte Steueranrechnung / Steuererstattung |
-
-## Weitere Fälle
-
-Neu hinzugefügte Fallakten.
-
-| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |
-|---|---|---|---|---|
-| 2015 – 2022 | [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](de/amri-behoerden-aufklaerung.md) | DE, MA | 6 belegt · 1 spekulativ/offen | Infiltration, Quellenschutz, Ermittlungsmanipulation / Depistaggio |
 
 ## Vertiefende Fallübersichten
 
