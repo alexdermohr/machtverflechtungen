@@ -464,7 +464,8 @@ class ResearchIntegrationTests(unittest.TestCase):
             "bdj-lcprowl-eca-mccloy-1950-1953.md":
                 ["REL-DE-BDJ-001", "REL-DE-BDJ-002"],
             "nsu-komplex-skandale-belegmatrix-1994-2026.md":
-                ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001"],
+                ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001",
+                 "REL-DE-NSU-HH-GBA-2026-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":
