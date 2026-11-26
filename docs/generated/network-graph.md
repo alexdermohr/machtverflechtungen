@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**695 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**699 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1232,6 +1232,16 @@ flowchart LR
     N_PER_DE_THOMAS_STARKE["Thomas Starke (VP 562)"]
     N_ORG_DE_BERLIN_LKA -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
     N_ORG_DE_GBA_NSU_1998_2012 -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_BERLIN_LKA
+    N_ORG_DE_GBA_NSU_2014["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014)"]
+    N_DOC_DE_NSU_WERNER_ASSERVATE_2014["Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"]
+    N_ORG_DE_GBA_NSU_2014 -->|"Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"| N_DOC_DE_NSU_WERNER_ASSERVATE_2014
+    N_ORG_DE_STA_KARLSRUHE["Staatsanwaltschaft Karlsruhe"]
+    N_ORG_DE_STA_KARLSRUHE -->|"Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"| N_ORG_DE_GBA_NSU_2014
+    N_ORG_DE_ST_LKA["Landeskriminalamt Sachsen-Anhalt"]
+    N_DOC_DE_NSU_ST_DATENTRAEGER_2014["In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"]
+    N_ORG_DE_ST_LKA -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
+    N_ORG_DE_ST_LFV["Verfassungsschutzbehörde Sachsen-Anhalt"]
+    N_ORG_DE_ST_LFV -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
 ```
 
 [Zur Relationstabelle](network.md)

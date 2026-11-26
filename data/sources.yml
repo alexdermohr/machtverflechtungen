@@ -5630,7 +5630,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/18/129/1812950.pdf
   accessed: '2026-11-26'
-  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920"
+  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)"
   notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften."
 
 - id: SRC-DE-BT-NSU-1714600-MELDEWEGE-2013
@@ -5656,3 +5656,49 @@ sources:
   accessed: '2026-11-26'
   locator: "Absätze zur Anhörung Haeberers, VP 562 und Weitergabefrage"
   notes: "Amtliche Anhörungsberichterstattung, kein Wortprotokoll; Aussagen und Ausschusskritik sind keine Strafurteile."
+
+- id: SRC-DE-WELT-NSU-WERNER-ASSERVATE-20160919
+  title: "Bundesanwaltschaft vernichtete wichtige Dokumente"
+  institution: WELT
+  author: Dirk Laabs
+  date: '2016-09-19'
+  type: journalism
+  primary: false
+  tier: B
+  url: https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html
+  accessed: '2026-11-26'
+  notes: "Journalistischer Bericht über eingesehenen GBA-Vermerk, keine eigene Einsicht in diesen. Das Sondervotum verweist auf dieselbe Berichterstattung."
+
+- id: SRC-DE-LTO-NSU-STA-KARLSRUHE-20161006
+  title: "Kein Ermittlungsverfahren der Staatsanwaltschaft Karlsruhe wegen NSU-Asservatenvernichtung"
+  institution: Legal Tribune Online / dpa
+  date: '2016-10-06'
+  type: journalism
+  primary: false
+  tier: B
+  url: https://www.lto.de/recht/nachrichten/n/nsu-aufklaerung-vernichtung-notizbuch-bundesanwaelte-ermittlung-staatsanwaltschaft
+  accessed: '2026-11-26'
+  notes: "Bericht mit namentlich zugeschriebener Auskunft des StA-Sprechers; Original-Prüfentscheidung nicht eingesehen."
+
+- id: SRC-DE-BT-NSU-MORATORIUM-20141015
+  title: "Innenausschuss: Keine NSU-Dateien vernichten, hib 514/2014"
+  institution: Deutscher Bundestag
+  date: '2014-10-15'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2014_10/335380-335380
+  accessed: '2026-11-26'
+  notes: "Amtlicher Bericht zum einstimmigen politischen Beschluss; keine eigene verbindliche Weisung an den GBA."
+
+- id: SRC-DE-ST-LT-64812-DSB-2016
+  title: "XII. Tätigkeitsbericht des Landesbeauftragten für den Datenschutz Sachsen-Anhalt, LT-Drs. 6/4812"
+  institution: Landtag Sachsen-Anhalt / Landesbeauftragter für den Datenschutz
+  date: '2016-02-18'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Drucksachen/d4812eun.pdf
+  accessed: '2026-11-26'
+  locator: "Abschnitt 8.2, gedruckte S. 89, PDF-Index 114"
+  notes: "Originalseitenbild geprüft; Datenschutzbeauftragter berichtet Prüfung der Vernichtungsnachweise. Nachweise selbst nicht eingesehen."

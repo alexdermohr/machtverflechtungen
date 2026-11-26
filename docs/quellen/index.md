@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**495 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**499 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1925,6 +1925,19 @@ Fundstelle: Gedruckte S. 303–309, 452–453, 853–854; Fn. 2655–2702 und 39
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-bt-nsu-moratorium-20141015"></a>
+### Deutscher Bundestag
+
+**[Innenausschuss: Keine NSU-Dateien vernichten, hib 514/2014](https://www.bundestag.de/webarchiv/presse/hib/2014_10/335380-335380)**
+
+Deutscher Bundestag · 2014-10-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-MORATORIUM-20141015`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2014_10/335380-335380)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-bt-plenar-vm2100-18096-2015"></a>
@@ -2011,7 +2024,7 @@ Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
 
-Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
 
 </article>
 
@@ -3332,6 +3345,21 @@ Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle · `SR
 [PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
 
 Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-st-lt-64812-dsb-2016"></a>
+### Landtag Sachsen-Anhalt / Landesbeauftragter für den Datenschutz
+
+**[XII. Tätigkeitsbericht des Landesbeauftragten für den Datenschutz Sachsen-Anhalt, LT-Drs. 6/4812](https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Drucksachen/d4812eun.pdf)**
+
+Landtag Sachsen-Anhalt / Landesbeauftragter für den Datenschutz · 2016-02-18 · Stufe **A** · Primärquelle · `SRC-DE-ST-LT-64812-DSB-2016`
+
+[PDF öffnen](https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Drucksachen/d4812eun.pdf)
+
+Fundstelle: Abschnitt 8.2, gedruckte S. 89, PDF-Index 114
 
 </article>
 
@@ -6905,6 +6933,19 @@ Fundstelle: Hessen-Chronik Eintrag vom 08.01.1953; Nachfolgeeintrag 09.01.1953 R
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-lto-nsu-sta-karlsruhe-20161006"></a>
+### Legal Tribune Online / dpa
+
+**[Kein Ermittlungsverfahren der Staatsanwaltschaft Karlsruhe wegen NSU-Asservatenvernichtung](https://www.lto.de/recht/nachrichten/n/nsu-aufklaerung-vernichtung-notizbuch-bundesanwaelte-ermittlung-staatsanwaltschaft)**
+
+Legal Tribune Online / dpa · 2016-10-06 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-LTO-NSU-STA-KARLSRUHE-20161006`
+
+[Seite öffnen](https://www.lto.de/recht/nachrichten/n/nsu-aufklaerung-vernichtung-notizbuch-bundesanwaelte-ermittlung-staatsanwaltschaft)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-de-rigoll-innerer-kreis-2017"></a>
@@ -7397,6 +7438,19 @@ Warburg Pincus · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://warburgpincus.com/firm/firm-history/)
 
 Fundstelle: Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitgliedschaft; Eintrag 1978: Warburg Pincus 'helped lead discussions with the U.S. Department of Labor' zu Pensionsfonds und alternativen Anlageklassen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-welt-nsu-werner-asservate-20160919"></a>
+### WELT
+
+**[Bundesanwaltschaft vernichtete wichtige Dokumente](https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html)**
+
+WELT · 2016-09-19 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WELT-NSU-WERNER-ASSERVATE-20160919`
+
+[Seite öffnen](https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html)
 
 </article>
 

@@ -2972,3 +2972,36 @@ entities:
     type: person
     name: "Klaus-Dieter Fritsche"
     countries: [DE]
+
+  - id: ORG-DE-GBA-NSU-2014
+    type: prosecution_authority
+    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014)"
+    countries: [DE]
+    notes: "Zeitbezogener Datensatz, institutionell identisch mit den entsprechend anders datierten GBA-Datensätzen."
+
+  - id: ORG-DE-STA-KARLSRUHE
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Karlsruhe"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-WERNER-ASSERVATE-2014
+    type: document
+    name: "Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"
+    countries: [DE]
+    notes: "Dokumentenbestand, kein einzelnes Dokument; Angaben zur Vernichtung laut Sondervotum und berichteter GBA-Auskunft."
+
+  - id: ORG-DE-ST-LKA
+    type: law_enforcement
+    name: "Landeskriminalamt Sachsen-Anhalt"
+    countries: [DE]
+
+  - id: ORG-DE-ST-LFV
+    type: intelligence_service
+    name: "Verfassungsschutzbehörde Sachsen-Anhalt"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-ST-DATENTRAEGER-2014
+    type: document
+    name: "In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"
+    countries: [DE]
+    notes: "2014 vernichtete Datenträger laut Datenschutz-Tätigkeitsbericht; genauer Umfang und weitere Überlieferung unbekannt."
