@@ -19,6 +19,7 @@ Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten 
 - [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](../faelle/de/nsu-v-leute-aktenvernichtung.md) — 1996 · 5 belegt
 - [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](../faelle/de/nsu-yozgat-temme.md) — 2006-03-24 · 4 belegt
 - [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) — 2007 · 6 belegt · 1 spekulativ/offen
+- [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](../faelle/de/amri-behoerden-aufklaerung.md) — 2015 · 6 belegt · 1 spekulativ/offen
 
 ## FR
 
@@ -35,6 +36,10 @@ Fallakten nach Ländern, jeweils mit Zeitraum und Verteilung der dokumentierten 
 ## LY
 
 - [La Belle 1986: libysche Anschlagsplanung, MfS-Informanten und Warnketten](../faelle/de/la-belle-1986.md) — 1986 · 8 belegt · 1 plausibel · 1 spekulativ/offen
+
+## MA
+
+- [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](../faelle/de/amri-behoerden-aufklaerung.md) — 2015 · 6 belegt · 1 spekulativ/offen
 
 ## US
 

@@ -122,3 +122,12 @@
 - Q33: Q11 erneut geprüft, insbesondere Aussagen Drange, Haber, Koch: https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698
 
 **Prüfstatus:** Q26–Q29 anhand PDF-Textfundstellen geprüft; Screenshot-Versuche meldeten Cache miss. Q30–Q33 und Q25 als HTML geprüft. Der Q4-Link war nicht abrufbar und wurde durch die verifizierte BKA-Zeugenaussage Q25 ersetzt. Q21 lieferte bei erneuter Abfrage HTTP 429; kein Beweis einer Löschung. Die Netzwerkintegration umfasst nun 20 belegte institutionelle Beziehungen; keine Kante für mutmaßliche Vertuschungsabsprachen oder direkte Tatsteuerung. Aktueller strafrechtlicher Stand 2026 nicht aus neuen amtlichen Quellen verifiziert.
+
+
+## Nachtrag: Frühere Sondervoten des PKGr (2017)
+
+**AMRI-29:** André Hahn beanstandete im Sondervotum Q27, S. 19–20, fehlende Landesakten und nicht zugängliche Befragungsprotokolle. Er hielt die Hypothese einer bewussten Duldung als Nachrichtenmittler für nicht ausgeräumt; kein Nachweis ihrer Richtigkeit.
+
+**AMRI-30:** Hans-Christian Ströbele kritisierte in Q27, S. 21–22, die fehlende Offenlegung zentraler Gefährdungserkenntnisse in der Regierungschronologie. Dies ist seine dokumentierte Bewertung und keine einstimmige Feststellung des Gremiums. Die Originalakte ist gegen die damaligen Veröffentlichungsversionen zu prüfen.
+
+**Publikation:** Kanonische Fallakte mit sieben bewerteten Claims unter docs/faelle/de/amri-behoerden-aufklaerung.md. Q27, Q26, Berliner Bericht und MV-Kommissionsbericht erneut anhand der PDF-Textfassung geprüft; Screenshotabrufe Cache miss.
