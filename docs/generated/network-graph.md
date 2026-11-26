@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**687 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**689 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1217,6 +1217,8 @@ flowchart LR
     N_ORG_DE_BFV -->|"Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"| N_PER_DE_LOTHAR_LINGEN
     N_ORG_DE_BVERWG["Bundesverwaltungsgericht"]
     N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
+    N_PER_DE_LOTHAR_LINGEN -->|"Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"| N_ORG_DE_TLFV
+    N_ORG_DE_BFV -->|"Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"| N_CASE_DE_NSU_AKTEN_2011
 ```
 
 [Zur Relationstabelle](network.md)

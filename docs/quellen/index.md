@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**492 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**493 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1982,6 +1982,21 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/127/1812700.pdf)
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bt-nsu-1812950-2017"></a>
+### Deutscher Bundestag
+
+**[Abschlussbericht des zweiten NSU-Untersuchungsausschusses, BT-Drs. 18/12950](https://dserver.bundestag.de/btd/18/129/1812950.pdf)**
+
+Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1812950-2017`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
+
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920
 
 </article>
 

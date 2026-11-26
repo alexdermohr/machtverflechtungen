@@ -78,7 +78,7 @@
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
-| Lothar Lingen (dienstlicher Deckname) | person | `PER-DE-LOTHAR-LINGEN` | DE | [2](network.md#rel-de-nsu-lingen-sta-2018-001) |
+| Lothar Lingen (dienstlicher Deckname) | person | `PER-DE-LOTHAR-LINGEN` | DE | [3](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
@@ -218,7 +218,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [4](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [5](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -469,7 +469,7 @@
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
-| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [2](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

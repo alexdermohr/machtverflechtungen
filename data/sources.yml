@@ -5620,3 +5620,15 @@ sources:
   accessed: '2026-11-26'
   locator: "Tenor; Rn. 30–31, 47–52, 61"
   notes: "Teilweiser Auskunftsanspruch, keine strafrechtliche Beurteilung der Aktenvernichtung."
+
+- id: SRC-DE-BT-NSU-1812950-2017
+  title: "Abschlussbericht des zweiten NSU-Untersuchungsausschusses, BT-Drs. 18/12950"
+  institution: Deutscher Bundestag
+  date: '2017-06-23'
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/129/1812950.pdf
+  accessed: '2026-11-26'
+  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920"
+  notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften."

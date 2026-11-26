@@ -6178,3 +6178,21 @@ relations:
     period: {start: "2020-10-13"}
     evidence_level: established
     sources: [SRC-DE-BVERWG-NSU-2C4118-2020]
+
+  - id: REL-DE-NSU-LINGEN-TLFV-2002-001
+    from: PER-DE-LOTHAR-LINGEN
+    to: ORG-DE-TLFV
+    type: signed_intelligence_report
+    label: "Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"
+    period: {start: "2002-01-07"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-NSU-BFV-PARL-DATE-2012-001
+    from: ORG-DE-BFV
+    to: CASE-DE-NSU-AKTEN-2011
+    type: inaccurate_information_to_inquiry
+    label: "Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"
+    period: {start: "2012", end: "2012-06-27"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]
