@@ -6879,18 +6879,7 @@ relations:
     from: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
     to: ORG-US-TITAN-RELATIONAL-FUND-2005
     type: fund_management
-    label: Verwaltet den nicht namentlich identifizierten Fonds; GP laut Proxy mit Relational Advisors verbunden
-    evidence_level: established
-    sources:
-    - SRC-TITAN-PROXY
-    period:
-      start: '2005'
-      end: '2005'
-  - id: REL-TITAN-BCT-TIP-AFFILIATE
-    from: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
-    to: ORG-US-RELATIONAL-ADVISORS-2005
-    type: reported_affiliate_relationship
-    label: Der General Partner des im Proxy beschriebenen Fonds ist mit Relational Advisors verbunden; genaue Zuordnung und Eigentumsquote nicht ausgewiesen
+    label: Verwaltet den nicht namentlich identifizierten Fonds laut Proxy
     evidence_level: established
     sources:
     - SRC-TITAN-PROXY

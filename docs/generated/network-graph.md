@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**753 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**752 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1312,8 +1312,7 @@ flowchart LR
     N_ORG_US_TITAN_RELATIONAL_FUND_2005["Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)"]
     N_ORG_US_TITAN_CORPORATION_2005 -->|"Ca.40% LP-Anteil laut Proxy; keine Beteiligungsidentität mit Fondsmanager"| N_ORG_US_TITAN_RELATIONAL_FUND_2005
     N_ORG_US_TITAN_INVESTMENT_PARTNERS_LLC["Titan Investment Partners LLC (2003–2005)"]
-    N_ORG_US_TITAN_INVESTMENT_PARTNERS_LLC -->|"Verwaltet den nicht namentlich identifizierten Fonds; GP laut Proxy mit Relational Advisors verbunden"| N_ORG_US_TITAN_RELATIONAL_FUND_2005
-    N_ORG_US_TITAN_INVESTMENT_PARTNERS_LLC -->|"Der General Partner des im Proxy beschriebenen Fonds ist mit Relational Advisors verbunden; genaue Zuordnung und Eigentumsquote nicht ausgewiesen"| N_ORG_US_RELATIONAL_ADVISORS_2005
+    N_ORG_US_TITAN_INVESTMENT_PARTNERS_LLC -->|"Verwaltet den nicht namentlich identifizierten Fonds laut Proxy"| N_ORG_US_TITAN_RELATIONAL_FUND_2005
     N_PER_US_GENE_W_RAY["Gene W. Ray"]
     N_PER_US_GENE_W_RAY -->|"CEO laut Proxy 2005"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_RELATIONAL_INVESTORS_LLC["Relational Investors LLC (2005)"]

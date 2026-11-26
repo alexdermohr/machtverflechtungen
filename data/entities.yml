@@ -3135,7 +3135,7 @@ entities:
     name: Titan Investment Partners LLC (2003–2005)
     countries:
     - US
-    notes: Verwaltet Fonds; GP laut Proxy mit Relational Advisors verbunden.
+    notes: Verwaltet den im Proxy beschriebenen Fonds. Identität des dort genannten General Partners nicht belegt.
   - id: ORG-US-TITAN-RELATIONAL-FUND-2005
     type: investment_fund
     name: Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)

@@ -445,7 +445,7 @@
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
-| Relational Advisors LLC (Titan 2003–2005) | financial_advisor | `ORG-US-RELATIONAL-ADVISORS-2005` | US | [3](network.md#rel-titan-bct-relational-2004) |
+| Relational Advisors LLC (Titan 2003–2005) | financial_advisor | `ORG-US-RELATIONAL-ADVISORS-2005` | US | [2](network.md#rel-titan-bct-relational-2004) |
 | Relational Investors LLC (2005) | investment_company | `ORG-US-RELATIONAL-INVESTORS-LLC` | US | [1](network.md#rel-titan-bct-ray-investment) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [31](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
@@ -498,7 +498,7 @@
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Titan Africa Inc. (Benin 1999–2005) | company | `ORG-US-TITAN-AFRICA-INC` | US | [4](network.md#rel-titan-bct-titan-africa) |
-| Titan Investment Partners LLC (2003–2005) | investment_company | `ORG-US-TITAN-INVESTMENT-PARTNERS-LLC` | US | [2](network.md#rel-titan-bct-fund-manager) |
+| Titan Investment Partners LLC (2003–2005) | investment_company | `ORG-US-TITAN-INVESTMENT-PARTNERS-LLC` | US | [1](network.md#rel-titan-bct-fund-manager) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

@@ -1080,7 +1080,7 @@ studies:
     - REL-TITAN-HEAD-CONVICTION
 
   titan-benin-bct-banken-vergleich-1996-2005.md:
-    sha256: 3229efbf0a8556f389a3f84f42f9f949dbdb5a0eaed4d1747fa564e778e9dd9f
+    sha256: 3a68ae41967499fdcf748057bf09f4c899fac75a8766553fe7a2be329a7005d0
     status: network
     relation_ids:
     - REL-TITAN-BCT-AFN-OPT
@@ -1114,6 +1114,5 @@ studies:
     - REL-TITAN-BCT-RELATIONAL-2005
     - REL-TITAN-BCT-FUND-STAKE
     - REL-TITAN-BCT-FUND-MANAGER
-    - REL-TITAN-BCT-TIP-AFFILIATE
     - REL-TITAN-BCT-RAY-CEO
     - REL-TITAN-BCT-RAY-INVESTMENT

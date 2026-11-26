@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**753 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**752 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen. Jede Zeile ist über ihre Kennung direkt verlinkbar.
 
@@ -660,8 +660,7 @@
 | <a id="rel-de-ths-002"></a>`REL-DE-THS-002` | Tino Brandt | setzte Geld und Sachmittel für Aufbau und Funktionieren ein | Thüringer Heimatschutz | belegt | [SRC-DE-THLT-NSU-UA-2014](../quellen/index.md#src-de-thlt-nsu-ua-2014) |
 | <a id="rel-titan-bct-alcatel-supply"></a>`REL-TITAN-BCT-ALCATEL-SUPPLY` | Titan Africa Inc. (Benin 1999–2005) | Liefer-/Servicevertrag Phasen 2–5 abhängig von Kreditabschluss laut Vertragswiedergabe | Alcatel Contracting S.A. (BCT 1999) | stark gestützt | [SRC-TITAN-BENIN-LOAN-MIRROR](../quellen/index.md#src-titan-benin-loan-mirror), [SRC-TITAN-BENIN-10K04](../quellen/index.md#src-titan-benin-10k04) |
 | <a id="rel-titan-bct-proto-africa"></a>`REL-TITAN-BCT-PROTO-AFRICA` | Titan Africa Inc. (Benin 1999–2005) | Mitunterzeichner der bedingten Vertragsänderung | BCT Protocole d'accord cadre (2003) | belegt | [SRC-TITAN-BENIN-PROTOCOL](../quellen/index.md#src-titan-benin-protocol) |
-| <a id="rel-titan-bct-fund-manager"></a>`REL-TITAN-BCT-FUND-MANAGER` | Titan Investment Partners LLC (2003–2005) | Verwaltet den nicht namentlich identifizierten Fonds; GP laut Proxy mit Relational Advisors verbunden | Nicht namentlich bestimmter Fonds (Titan/Relational, 2005) | belegt | [SRC-TITAN-PROXY](../quellen/index.md#src-titan-proxy) |
-| <a id="rel-titan-bct-tip-affiliate"></a>`REL-TITAN-BCT-TIP-AFFILIATE` | Titan Investment Partners LLC (2003–2005) | Der General Partner des im Proxy beschriebenen Fonds ist mit Relational Advisors verbunden; genaue Zuordnung und Eigentumsquote nicht ausgewiesen | Relational Advisors LLC (Titan 2003–2005) | belegt | [SRC-TITAN-PROXY](../quellen/index.md#src-titan-proxy) |
+| <a id="rel-titan-bct-fund-manager"></a>`REL-TITAN-BCT-FUND-MANAGER` | Titan Investment Partners LLC (2003–2005) | Verwaltet den nicht namentlich identifizierten Fonds laut Proxy | Nicht namentlich bestimmter Fonds (Titan/Relational, 2005) | belegt | [SRC-TITAN-PROXY](../quellen/index.md#src-titan-proxy) |
 | <a id="rel-titan-titan-navy"></a>`REL-TITAN-TITAN-NAVY` | Titan–Navy Administrative Settlement Agreement (02.03.2005) | Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten und vorbehaltenen weiteren Sanktionen | The Titan Corporation (1999–2006) | belegt | [SRC-TITAN-NAVY](../quellen/index.md#src-titan-navy) |
 | <a id="rel-de-tmn-009"></a>`REL-DE-TMN-009` | Tom Buhrow | in Emersons Abschiedsrede direkt angesprochen | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-BUHROW-2017](../quellen/index.md#src-de-ab-buhrow-2017) |
 | <a id="rel-bs-ni-trad-1979-001"></a>`REL-BS-NI-TRAD-1979-001` | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | ENI-Unterlagen: 31.05.1979 12,5 Mio. USD-Darlehen an Ambrosiano Managua, am 30.10.1979 in 6,5 Mio. Andino und 6 Mio. Overseas umverteilt; dies sind keine drei addierbaren Darlehenszahlungen | Ambrosiano Group Banco Comercial S.A., Managua | belegt | [SRC-IT-P2-ENI-TRADINVEST-1982](../quellen/index.md#src-it-p2-eni-tradinvest-1982), [SRC-IT-P2-TEODORI-ENI-SUDAM-1984](../quellen/index.md#src-it-p2-teodori-eni-sudam-1984) |
