@@ -2913,3 +2913,244 @@ entities:
     name: "World Health Organization (WHO)"
     countries: []
     notes: ""
+
+  - id: ORG-US-L3-HOLDINGS-1997
+    type: holding_company
+    name: L-3 Communications Holdings, Inc. (1997–2006)
+    countries:
+    - US
+    notes: Historische Holding; nicht mit späteren L3Harris-Rechtsträgern gleichsetzen.
+  - id: ORG-US-L3-COMMUNICATIONS-1997
+    type: defense_contractor
+    name: L-3 Communications Corporation (1997–2006)
+    countries:
+    - US
+    notes: Operative Gesellschaft der Holding.
+  - id: ORG-US-TITAN-CORPORATION-2005
+    type: defense_contractor
+    name: The Titan Corporation (1999–2006)
+    countries:
+    - US
+    notes: 2005 von L-3 erworben; nicht gleichnamiges Army-TITAN-Programm.
+  - id: ORG-US-LEHMAN-PARTNERSHIP-1997
+    type: investment_partnership
+    name: Lehman Partnership (Capital Partners III LP und verbundene Gesellschaften)
+    countries:
+    - US
+    notes: Beteiligungsgruppe, nicht Lehman Brothers Inc.
+  - id: ORG-US-LEHMAN-BROTHERS-INC
+    type: investment_bank
+    name: Lehman Brothers Inc. (1997–2006)
+    countries:
+    - US
+    notes: Historische Investmentbank und Emissionsintermediär.
+  - id: ORG-US-LEHMAN-COMMERCIAL-PAPER
+    type: financial_company
+    name: Lehman Commercial Paper Inc. (2002–2006)
+    countries:
+    - US
+    notes: Separater Finanzierungsrechtsträger.
+  - id: ORG-US-LOCKHEED-MARTIN-1997
+    type: defense_contractor
+    name: Lockheed Martin Corporation (1997–2004)
+    countries:
+    - US
+    notes: L-3-Gründungsbeteiligung; gescheiterter Titan-Erwerb getrennt.
+  - id: ORG-US-BOFA-NA-2005
+    type: commercial_bank
+    name: Bank of America, N.A. (L-3-Kredit 2005–2006)
+    countries:
+    - US
+    notes: Rechtsträger im Kreditvertrag, nicht pauschaler Kontenverbund.
+  - id: ORG-US-BANC-OF-AMERICA-SECURITIES
+    type: investment_bank
+    name: Banc of America Securities LLC (2005)
+    countries:
+    - US
+    notes: Separater Wertpapierintermediär.
+  - id: ORG-US-BEAR-STEARNS-CO
+    type: investment_bank
+    name: Bear, Stearns & Co. Inc. (2005)
+    countries:
+    - US
+    notes: Vertreter der Erstkäufer der beiden L-3-Emissionen.
+  - id: ORG-US-CSFB-LLC-2005
+    type: investment_bank
+    name: Credit Suisse First Boston LLC (2005)
+    countries:
+    - US
+    notes: US-Wertpapierintermediär, nicht pauschal Schweizer Muttergesellschaft.
+  - id: ORG-US-NAVY-2005
+    type: government_agency
+    name: U.S. Department of the Navy (Titan-Vereinbarung 2005)
+    countries:
+    - US
+    notes: Handelte im Namen des DoD.
+  - id: ORG-US-SEC-2005
+    type: government_agency
+    name: U.S. Securities and Exchange Commission (Titan 2005)
+    countries:
+    - US
+    notes: Zivilrechtliche Durchsetzung.
+  - id: ORG-US-DDTC-2006
+    type: government_agency
+    name: Directorate of Defense Trade Controls (DDTC)
+    countries:
+    - US
+    notes: U.S. Department of State, Exportkontrolle.
+  - id: ORG-US-INSCOM-2006
+    type: military_command
+    name: U.S. Army Intelligence and Security Command (INSCOM) (2006)
+    countries:
+    - US
+    notes: Vertragspartner des übernommenen Sprachdienstleistungsvertrags.
+  - id: ORG-BJ-OPT-2001
+    type: government_agency
+    name: Office des Postes et Télécommunications (OPT), Benin
+    countries:
+    - BJ
+    notes: Staatlicher Vertragspartner; die Organisation nicht mit einzelnen Verantwortlichen gleichsetzen.
+  - id: PER-BJ-TITAN-AGENT-2001
+    type: historical_person
+    name: Benin-Vermittler im Titan-Schuldeingeständnis (nicht namentlich zugeordnet)
+    countries:
+    - BJ
+    notes: Rollenbezogene Referenz auf die Gerichtsakte, keine Namensspekulation.
+  - id: PER-US-STEVEN-LYNWOOD-HEAD
+    type: historical_person
+    name: Steven Lynwood Head
+    countries:
+    - US
+    notes: Ehemaliger Titan-Projektmanager; Urteil 2007.
+  - id: PER-US-ALAN-WASHKOWITZ
+    type: historical_person
+    name: Alan H. Washkowitz
+    countries:
+    - US
+    notes: Lehman Managing Director und L-3 Board laut Proxy 2005.
+  - id: PER-US-ROBERT-MILLARD
+    type: historical_person
+    name: Robert B. Millard
+    countries:
+    - US
+    notes: Lehman Managing Director und L-3 Board laut Proxy 2005.
+  - id: DOC-US-TITAN-NAVY-20050302
+    type: historical_contract_document
+    name: Titan–Navy Administrative Settlement Agreement (02.03.2005)
+    countries:
+    - US
+    notes: Vertragliche Fortsetzung unter Bedingungen; Änderungen und Schlussberichte nicht erschlossen.
+
+  - id: ORG-US-TITAN-AFRICA-INC
+    type: company
+    name: Titan Africa Inc. (Benin 1999–2005)
+    countries:
+    - US
+    notes: Delaware-Tochtergesellschaft Titans, Kreditnehmerin; nicht Titan Africa S.A.
+  - id: ORG-AFRONETWORK-LTD-1999
+    type: company
+    name: Afronetwork Ltd. (BCT-Vorverträge)
+    countries: []
+    notes: Rechtsträger laut Protokoll; Sitz nicht aus diesen Akten bestimmt.
+  - id: DOC-BJ-BCT-LOAN-1999
+    type: historical_contract_document
+    name: BCT Loan Facility Agreement (10.12.1999)
+    countries:
+    - BJ
+    - US
+    notes: Krediturkunde in SEC-Anlagenliste und Spiegeltext; keine vollständige Originalsignaturprüfung.
+  - id: DOC-BJ-BCT-PROTOCOL-2003
+    type: historical_contract_document
+    name: BCT Protocole d'accord cadre (2003)
+    countries:
+    - BJ
+    - US
+    notes: Bedingte Vertragsänderung, Zahlungsverpflichtung, Verzicht und Ertragsverteilung.
+  - id: ORG-FR-AFRICA-MERCHANT-BANK-1999
+    type: investment_bank
+    name: Africa Merchant Bank (Paris, 1999)
+    countries:
+    - FR
+    notes: Arrangeur laut SEC und Vertragswiedergabe.
+  - id: ORG-BE-BELGOLAISE-1999
+    type: commercial_bank
+    name: Banque Belgolaise (BCT 1999–2003)
+    countries:
+    - BE
+    notes: Vertragspartei und laut Vertragsmirror International Agent; Überbrückungskredit 2003.
+  - id: ORG-BJ-BOA-BENIN-1999
+    type: commercial_bank
+    name: Bank of Africa Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei; laut Vertragsmirror Local Agent und Kreditgeber.
+  - id: ORG-BJ-ECOBANK-BENIN-1999
+    type: commercial_bank
+    name: Eco Bank Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-WA-BOAD-1999
+    type: development_bank
+    name: Banque Ouest Africaine de Développement (BOAD, BCT 1999)
+    countries: []
+    notes: Regionalbank; vorgesehene Beteiligung vorbehaltlich Board-Genehmigung.
+  - id: ORG-BJ-BIB-1999
+    type: commercial_bank
+    name: Banque Internationale du Bénin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-BJ-CONTINENTAL-BANK-1999
+    type: commercial_bank
+    name: Continental Bank Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-FR-ALCATEL-CONTRACTING-1999
+    type: company
+    name: Alcatel Contracting S.A. (BCT 1999)
+    countries:
+    - FR
+    notes: Laut Kreditvertragswiedergabe 95%-Tochter Alcatels; Alcatel-Konzern ist nicht mit jedem Rechtsträger identisch.
+  - id: ORG-FR-ALCATEL-1999
+    type: company
+    name: Alcatel (BCT 1999–2005)
+    countries:
+    - FR
+    notes: Konzernname in Emittentenberichten; genaue Subunternehmeridentitäten nicht gleichsetzen.
+  - id: ORG-AFRICAN-INVESTOR-GROUP-BCT-2000
+    type: investment_group
+    name: Nicht benannte afrikanische Investorengruppe (BCT 2000)
+    countries: []
+    notes: Kein Rückschluss auf die Konsortialbanken.
+  - id: ORG-US-RELATIONAL-ADVISORS-2005
+    type: financial_advisor
+    name: Relational Advisors LLC (Titan 2003–2005)
+    countries:
+    - US
+    notes: Verkäuferberater; verbundene Fondsstrukturen separat.
+  - id: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
+    type: investment_company
+    name: Titan Investment Partners LLC (2003–2005)
+    countries:
+    - US
+    notes: Verwaltet Fonds; GP laut Proxy mit Relational Advisors verbunden.
+  - id: ORG-US-TITAN-RELATIONAL-FUND-2005
+    type: investment_fund
+    name: Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)
+    countries:
+    - US
+    notes: Titan LP mit ca.40% Anteil; nicht der Verwalter selbst.
+  - id: ORG-US-RELATIONAL-INVESTORS-LLC
+    type: investment_company
+    name: Relational Investors LLC (2005)
+    countries:
+    - US
+    notes: Verwalter mehrerer Fonds und Konten; verbundene Gesellschaft nicht mit Relational Advisors gleichsetzen.
+  - id: PER-US-GENE-W-RAY
+    type: historical_person
+    name: Gene W. Ray
+    countries:
+    - US
+    notes: Titan-CEO laut Übernahmeprospekt 2005.

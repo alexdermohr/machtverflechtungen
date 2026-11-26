@@ -5536,3 +5536,295 @@ sources:
   accessed: "2026-11-26"
   locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
   notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
+
+- id: SRC-TITAN-PLEA
+  title: Titan Corporation – Plea Agreement, 05CR0314-BEN
+  institution: U.S. District Court, Southern District of California / DOJ
+  date: '2005-03-01'
+  type: original_court_judgment_excerpt
+  primary: true
+  tier: A
+  url: https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-plea.pdf
+  accessed: '2026-11-26'
+  locator: Abschnitt I, II.B §§19–30, 38–39; Schuldeingeständnis; PDF-Text, Faksimileabruf teilweise fehlgeschlagen.
+- id: SRC-TITAN-SEC
+  title: SEC Litigation Release 19107 – The Titan Corporation
+  institution: SEC
+  date: '2005-03-01'
+  type: official_prosecution_release
+  primary: true
+  tier: A
+  url: https://www.sec.gov/enforcement-litigation/litigation-releases/lr-19107
+  accessed: '2026-11-26'
+  locator: Civil Action 05-0411; Vergleich und Vorwurfsstatus, Verrechnung der Strafzahlung.
+- id: SRC-TITAN-NAVY
+  title: Administrative Settlement Agreement between Titan and the Department of the Navy
+  institution: Titan / Department of the Navy (SEC EDGAR)
+  date: '2005-03-02'
+  type: filed_corporate_contract
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000110465905009388/a05-4343_1ex10d3.htm
+  accessed: '2026-11-26'
+  locator: Exhibit 10.3 §§1–3, 5–6, 9–16, 19–20; Originalvertrag.
+- id: SRC-TITAN-PROXY
+  title: The Titan Corporation – definitive merger proxy statement
+  institution: Titan (SEC EDGAR)
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000104746905018302/a2160261zdefm14a.htm
+  accessed: '2026-11-26'
+  locator: Background of Merger, Opinion of Lehman Brothers, Covenants, ca. S.20–24, 36–37; früherer Textzugriff und amtlicher Suchindex.
+- id: SRC-TITAN-L3-8K
+  title: 'L-3 – Form 8-K: acquisition and financing'
+  institution: L-3 Holdings / L-3 Communications (SEC EDGAR)
+  date: '2005-07-27'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013605004521/file001.htm
+  accessed: '2026-11-26'
+  locator: 'Items 1.01, 2.01, 2.03: Emissionen, Kreditagenten, Übernahme; amtlicher Index.'
+- id: SRC-TITAN-L3-10Q-JUN
+  title: L-3 – Form 10-Q for quarter ended June 30, 2005
+  institution: L-3 (SEC EDGAR)
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1039101/000095013605004713/file001.htm
+  accessed: '2026-11-26'
+  locator: Financing Activities; Nutzung des Term Loans; amtlicher Index.
+- id: SRC-TITAN-L3-10Q-SEP06
+  title: L-3 – Form 10-Q for quarter ended September 30, 2006
+  institution: L-3 (SEC EDGAR)
+  date: '2006'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013606009344/file1.htm
+  accessed: '2026-11-26'
+  locator: Note 4 S.11–12, Legal Matters, MD&A; Sicherheitsfreigaben, Kundenbeziehungen, INSCOM-Umsätze, Exportzulassung; amtlicher Index.
+- id: SRC-TITAN-L3-S4-05
+  title: L-3 – Form S-4 2005, acquisition financing and risk factors
+  institution: L-3 (SEC EDGAR)
+  date: '2005'
+  type: filed_securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1039101/000095013605007897/file001.htm
+  accessed: '2026-11-26'
+  locator: Acquisition Financing, FCPA Investigation, Navy-Verhandlungen, Stockholder and Derivative Actions; amtlicher Index.
+- id: SRC-TITAN-DDTC
+  title: L-3 Communications Corporation – Draft Charging Letter
+  institution: U.S. Department of State, DDTC
+  date: null
+  type: original_official_document
+  primary: true
+  tier: A
+  url: https://www.pmddtc.state.gov/sys_attachment.do?sys_id=20edba89db99db0044f9ff621f961928
+  accessed: '2026-11-26'
+  locator: §§1–2, 10–12, 18–19, S.4 Faksimile geprüft. Anklageentwurf, keine endgültige Entscheidung.
+- id: SRC-TITAN-CREDIT06
+  title: L-3 – First Amendment to Amended and Restated Credit Agreement
+  institution: L-3 (SEC EDGAR)
+  date: '2006-10-25'
+  type: filed_corporate_contract
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013606008837/file2.htm
+  accessed: '2026-11-26'
+  locator: 'Unterschriftsseiten: benannte Kreditgeber, teilweise leere Unterschriften; keine Einzelbeträge.'
+- id: SRC-TITAN-L3-97
+  title: L-3 Communications – S-4 Amendment No. 1
+  institution: L-3, Emittentenarchiv
+  date: '1997-09-11'
+  type: filed_securities_prospectus
+  primary: true
+  tier: A
+  url: https://l3technologiesinc.gcs-web.com/static-files/88113d78-2f6d-4415-a384-42ac4390471e
+  accessed: '2026-11-26'
+  locator: The Transaction, S.13–15; historische Chronik-Fundstelle und Issue 265; frühere PDF-Textauswertung.
+- id: SRC-TITAN-AIS
+  title: L-3 – Form 10-K fiscal year 2002
+  institution: L-3 (SEC EDGAR)
+  date: '2003'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013603000535/file001.txt
+  accessed: '2026-11-26'
+  locator: Note 3 F-15–16, SIVAM-Verträge im erworbenen AIS-Bestand; zuvor Originalvolltext geprüft.
+- id: SRC-TITAN-LEHMAN02
+  title: L-3 – Form S-4 September 2002
+  institution: L-3 (SEC EDGAR)
+  date: '2002-09-18'
+  type: filed_securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1059161/000095013602002692/file001.txt
+  accessed: '2026-11-26'
+  locator: S.92–93, F-13, Beteiligung und Finanzierungsrollen; zuvor Originalvolltext geprüft.
+- id: SRC-TITAN-HEAD
+  title: United States v. Steven Lynwood Head – Judgment, Doc. 36
+  institution: U.S. District Court Southern District of California / DOJ
+  date: '2007-10-04'
+  type: court_judgment
+  primary: true
+  tier: A
+  url: https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/10-04-07head-judgment.pdf
+  accessed: '2026-11-26'
+  locator: Urteil S.1–5, Strafzumessung 28.09.2007; früherer PDF-Textzugriff.
+- id: SRC-TITAN-HEAD-MOTION
+  title: United States v. Steven Lynwood Head – Government motion §5K1.1
+  institution: U.S. Attorney / DOJ
+  date: '2007-09-21'
+  type: original_official_document
+  primary: true
+  tier: A
+  url: https://www.justice.gov/criminal/fraud/fcpa/cases/heads/09-21-07headgovt5k1-depart.pdf
+  accessed: '2026-11-26'
+  locator: Doc.30 S.2–6, Fn.3; Darstellung der Anklagebehörde, keine Schuldentscheidung über Dritte.
+- id: SRC-TITAN-SEC-COMPLAINT
+  title: SEC complaint against Titan, Civil Action 05-0411
+  institution: SEC
+  date: '2005-03-01'
+  type: original_official_document
+  primary: true
+  tier: A
+  url: https://www.sec.gov/files/litigation/complaints/comp19107.pdf
+  accessed: '2026-11-26'
+  locator: §§44–57, 66–68; zivilrechtlicher Vorwurf, Vergleich ohne Eingeständnis oder Bestreiten.
+- id: SRC-TITAN-LOCKHEED
+  title: Lockheed Martin – 2004 merger termination release
+  institution: Lockheed Martin / Titan (SEC EDGAR)
+  date: '2004-06-26'
+  type: company_press_release
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000110465904018438/a04-7429_1ex99d1.htm
+  accessed: '2026-11-26'
+  locator: Exhibit 99.1; beendete Lockheed-Titan-Vereinbarung; frühere Quelle. Titeljahr der ursprünglichen L-3-Gründung nicht mit Übernahmeversuch verwechseln.
+
+- id: SRC-TITAN-BENIN-10K04
+  title: Titan Form 10-K FY2004
+  institution: SEC EDGAR / Emittent
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000104746905006804/a2153658z10-k.htm
+  accessed: '2026-11-26'
+  locator: S.31, Note 7 S.79–80, Exhibit 10.21–22 S.124; Kredit, Banken, Forderungen, berichtete Zahlungen.
+- id: SRC-TITAN-BENIN-Q201
+  title: Titan 10-Q/A June 2001
+  institution: SEC EDGAR / Emittent
+  date: '2001'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225801500004/form10q2a.htm
+  accessed: '2026-11-26'
+  locator: 'Liquidity and Capital Resources: Abruf, 18 Mio. Investorenerlös, Vertragsverlängerungen.'
+- id: SRC-TITAN-BENIN-10K01
+  title: Titan Form 10-K FY2001
+  institution: SEC EDGAR / Emittent
+  date: '2002'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225802000005/ttn10k_01.htm
+  accessed: '2026-11-26'
+  locator: Liquidity and Capital Resources, Debt; Kreditabruf und Vertragsliste.
+- id: SRC-TITAN-BENIN-8K03
+  title: Titan Form 8-K July 2003
+  institution: SEC EDGAR / Emittent
+  date: '2003-07-09'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225803000238/from8kjul09_03.htm
+  accessed: '2026-11-26'
+  locator: 40,5 Mio. USD in längerfristigen Verbindlichkeiten.
+- id: SRC-TITAN-BENIN-Q205
+  title: Titan financial statements Q2 2005, L-3 exhibit
+  institution: SEC EDGAR / Emittent
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013605007543/file003.htm
+  accessed: '2026-11-26'
+  locator: 'Benin: Restschuld, Juli-Zahlung und Subunternehmervergleich.'
+- id: SRC-TITAN-BENIN-PROTOCOL
+  title: Protocole d'accord cadre BCT, einschließlich Datumsberichtigung
+  institution: SEC EDGAR / Emittent
+  date: '2003'
+  type: filed_corporate_contract
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225803000284/ex10_4protocal.pdf
+  accessed: '2026-11-26'
+  locator: Präambel A–H, Art.2–3,5–7,10,14 und Datumsberichtigung S.15–18; PDF-Text, Faksimileabruf Cache miss.
+- id: SRC-TITAN-BENIN-LOAN-MIRROR
+  title: Loan Facility Agreement 10 December 1999 (Vertragswiedergabe)
+  institution: Onecle (Vertragsmirror)
+  date: '1999-12-10'
+  type: archival_record_transcription
+  primary: false
+  tier: B
+  url: https://contracts.onecle.com/titan/benin.loan.1999.12.10.shtml
+  accessed: '2026-11-26'
+  locator: Onecle, indexierte englische Vertragswiedergabe; Direktabruf Timeout; Deckblatt, Präambel, Art.10–11,17–19, Anlagen 11.2/11.3. Gegenbeleg SEC-Anlagenliste.
+- id: SRC-TITAN-BENIN-Q204
+  title: Titan 10-Q June 2004
+  institution: SEC EDGAR / Emittent
+  date: '2004'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000104746904025833/a2141634z10-q.htm
+  accessed: '2026-11-26'
+  locator: 'Benin: abweichende 35-Mio.-Angabe; keine zusätzliche Forderung daraus ableiten.'
+- id: SRC-TITAN-BENIN-10KA01
+  title: Titan Form 10-K/A FY2001
+  institution: SEC EDGAR / Emittent
+  date: '2002'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225802000057/ttn10ka2_01.htm
+  accessed: '2026-11-26'
+  locator: Separater Kreditrahmen von 485 Mio. USD.
+- id: SRC-TITAN-RELATIONAL03
+  title: Lockheed/Titan Form S-4/A 2003
+  institution: SEC EDGAR / Emittent
+  date: '2003'
+  type: filed_securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/936468/000119312503084495/ds4a.htm
+  accessed: '2026-11-26'
+  locator: Annex B, Fondsanteil Titan, frühere Beratung.
+- id: SRC-TITAN-RELATIONAL04
+  title: Titan definitive merger proxy 2004
+  institution: SEC EDGAR / Emittent
+  date: '2004'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000119312504079394/ddefm14a.htm
+  accessed: '2026-11-26'
+  locator: Opinion of Relational Advisors, S.36, bezahlte Gutachtengebühren.
+- id: SRC-TITAN-DOJ-PR
+  title: 'DOJ press release: Titan plea'
+  institution: U.S. Department of Justice
+  date: '2005-03-01'
+  type: official_prosecution_release
+  primary: true
+  tier: A
+  url: https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-pr-plea.pdf
+  accessed: '2026-11-26'
+  locator: Keine Kenntnis des damaligen Präsidenten in der Anklage behauptet; Pressemitteilung, PDF-Text.

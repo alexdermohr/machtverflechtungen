@@ -40,7 +40,7 @@ STUDY_GROUPS = (
      ("angola-", "angolagate-", "unita-", "ig-farben-", "hermann-schmitz-", "biz-", "schroeder-",
       "jeffrey-sachs-chile-", "jeffrey-sachs-itt-", "jeffrey-sachs-opic-", "jeffrey-sachs-banken-",
       "jeffrey-sachs-militaer-", "jeffrey-sachs-united-fruit-",
-      "jeffrey-sachs-guatemala-", "jeffrey-sachs-cia-", "woolsey-")),
+      "jeffrey-sachs-guatemala-", "jeffrey-sachs-cia-", "woolsey-", "l3-titan-", "titan-")),
     ("Wirtschaft, Finanzen & öffentliche Mittel", "finanzen",
      ("bpa-", "adk-", "erp-", "insm-", "warburg-", "verkehrsaufklaerung-")),
     ("Medien, Geheimdienstkontakte & politische Einflussnahme", "medieneinfluss",
