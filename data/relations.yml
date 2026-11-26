@@ -6007,3 +6007,388 @@ relations:
     period:
       start: '2007-09-28'
       end: '2007-09-28'
+
+  - id: REL-TITAN-BCT-AFN-OPT
+    from: ORG-AFRONETWORK-LTD-1999
+    to: ORG-BJ-OPT-2001
+    type: documented_partnership
+    label: Partnerschaft 01.02.1996 laut späterem Rahmenprotokoll
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '1996-02-01'
+      end: '1996-02-01'
+  - id: REL-TITAN-BCT-AFN-ALCATEL
+    from: ORG-AFRONETWORK-LTD-1999
+    to: ORG-FR-ALCATEL-1999
+    type: supply_contract
+    label: Liefer-/Dienstleistungsvertrag 31.05.1999 laut Protokoll
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '1999-05-31'
+      end: '1999-05-31'
+  - id: REL-TITAN-BCT-AFN-TITAN
+    from: ORG-AFRONETWORK-LTD-1999
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: contract_assignment
+    label: Übertragung der AFN-Vertragsposition am 28.07.1999 mit OPTB-Zustimmung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '1999-07-28'
+      end: '1999-07-28'
+  - id: REL-TITAN-BCT-TITAN-OPT
+    from: ORG-US-TITAN-CORPORATION-2005
+    to: ORG-BJ-OPT-2001
+    type: project_contract
+    label: BCT-Vertrag 17.08.1999
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '1999-08-17'
+      end: '1999-08-17'
+  - id: REL-TITAN-BCT-TITAN-AFRICA
+    from: ORG-US-TITAN-CORPORATION-2005
+    to: ORG-US-TITAN-AFRICA-INC
+    type: subsidiary_ownership
+    label: 100%-Tochter und Übernahme der BCT-Vertragsposition laut Protokoll/10-K
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999'
+      end: '1999'
+  - id: REL-TITAN-BCT-LOAN-BORROWER
+    from: DOC-BJ-BCT-LOAN-1999
+    to: ORG-US-TITAN-AFRICA-INC
+    type: project_credit
+    label: Non-Recourse-Fazilität 30 Mrd. FCFA, später 36 Mrd.; Zins 9,5%; kein Einzelabruf als Bestechungsgeld belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-OPT-GUARANTEE
+    from: ORG-BJ-OPT-2001
+    to: DOC-BJ-BCT-LOAN-1999
+    type: credit_guarantee
+    label: Garantie und Besicherung durch projektbezogene Anlagen/Einnahmen; nicht Garantie der gesamten Republik
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-ARRANGER
+    from: ORG-FR-AFRICA-MERCHANT-BANK-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: credit_arranger
+    label: Arrangeur der syndizierten Projektfazilität
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-BELGOLAISE
+    from: ORG-BE-BELGOLAISE-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-BOA
+    from: ORG-BJ-BOA-BENIN-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-ECOBANK
+    from: ORG-BJ-ECOBANK-BENIN-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-BOAD
+    from: ORG-WA-BOAD-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-BIB
+    from: ORG-BJ-BIB-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-PARTY-CONTINENTAL
+    from: ORG-BJ-CONTINENTAL-BANK-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: named_credit_contract_party
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-INTERNATIONAL-AGENT
+    from: ORG-BE-BELGOLAISE-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: reported_international_agent
+    label: International Agent laut indexierter Vertragswiedergabe; Originalvolltext noch offen
+    evidence_level: strong
+    sources:
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-LOCAL-AGENT
+    from: ORG-BJ-BOA-BENIN-1999
+    to: DOC-BJ-BCT-LOAN-1999
+    type: reported_local_agent
+    label: Local Agent und Bank laut Vertragswiedergabe; keine Einzelzahlung belegt
+    evidence_level: strong
+    sources:
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999-12-10'
+      end: '1999-12-10'
+  - id: REL-TITAN-BCT-ALCATEL-SUBSIDIARY
+    from: ORG-FR-ALCATEL-1999
+    to: ORG-FR-ALCATEL-CONTRACTING-1999
+    type: reported_equity_ownership
+    label: 95%-Tochter laut Präambel der indexierten Kreditvertragswiedergabe
+    evidence_level: strong
+    sources:
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    period:
+      start: '1999'
+      end: '1999'
+  - id: REL-TITAN-BCT-ALCATEL-SUPPLY
+    from: ORG-US-TITAN-AFRICA-INC
+    to: ORG-FR-ALCATEL-CONTRACTING-1999
+    type: reported_financing_linked_supply
+    label: Liefer-/Servicevertrag Phasen 2–5 abhängig von Kreditabschluss laut Vertragswiedergabe
+    evidence_level: strong
+    sources:
+    - SRC-TITAN-BENIN-LOAN-MIRROR
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '1999'
+      end: '1999'
+  - id: REL-TITAN-BCT-LOAN-EQUIPMENT
+    from: DOC-BJ-BCT-LOAN-1999
+    to: ORG-FR-ALCATEL-1999
+    type: reported_equipment_financing
+    label: Kreditmittel dienten laut Emittent insbesondere Ausrüstung/Subunternehmerkosten Alcatels; Einzelzahlungen nicht belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K01
+    - SRC-TITAN-BENIN-10K04
+    period:
+      start: '2001'
+      end: '2001'
+  - id: REL-TITAN-BCT-INVESTOR
+    from: ORG-AFRICAN-INVESTOR-GROUP-BCT-2000
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: reported_revenue_share_purchase
+    label: 18 Mio. USD tatsächlich eingegangen Oktober 2000 für Teil wirtschaftlicher Ertragsbeteiligung; Identität offen
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-Q201
+    period:
+      start: '2000'
+      end: '2000'
+  - id: REL-TITAN-BCT-PROTO-OPT
+    from: ORG-BJ-OPT-2001
+    to: DOC-BJ-BCT-PROTOCOL-2003
+    type: settlement_contract_party
+    label: Vertragspartei; bedingte Übertragung und Anspruchsverzicht, keine pauschale Übernahme von Titan-Altlasten
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003'
+      end: '2003'
+  - id: REL-TITAN-BCT-PROTO-TITAN
+    from: ORG-US-TITAN-CORPORATION-2005
+    to: DOC-BJ-BCT-PROTOCOL-2003
+    type: settlement_contract_party
+    label: Vertragspartei mit bedingtem Verzicht und 40% definierter Nettoerlöse nach Kreditrückzahlung; Wirksamkeit/Zahlungen getrennt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003'
+      end: '2003'
+  - id: REL-TITAN-BCT-PROTO-AFRICA
+    from: ORG-US-TITAN-AFRICA-INC
+    to: DOC-BJ-BCT-PROTOCOL-2003
+    type: settlement_contract_party
+    label: Mitunterzeichner der bedingten Vertragsänderung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003'
+      end: '2003'
+  - id: REL-TITAN-BCT-BELGOLAISE-BRIDGE
+    from: ORG-BE-BELGOLAISE-1999
+    to: ORG-BJ-OPT-2001
+    type: reported_bridge_credit
+    label: Überbrückungskredit in Art.7 genannt; kein Betrag oder einzelner Abruf belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003'
+      end: '2003'
+  - id: REL-TITAN-BCT-ALCATEL-SUPPLIER
+    from: ORG-FR-ALCATEL-1999
+    to: DOC-BJ-BCT-PROTOCOL-2003
+    type: supplier_credit_deduction
+    label: Alcatel-Lieferantenkredit in Art.7 als Abzug von Projektumsätzen; keine Einzelzahlung belegt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003'
+      end: '2003'
+  - id: REL-TITAN-BCT-PAYMENT-2003
+    from: ORG-BJ-OPT-2001
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: reported_settlement_payment
+    label: 11 Mio. USD laut FY2004 10-K am 31.12.2003 erhalten; keine identische Bestechungszahlung
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-10K04
+    - SRC-TITAN-BENIN-PROTOCOL
+    period:
+      start: '2003-12-31'
+      end: '2003-12-31'
+  - id: REL-TITAN-BCT-PAYMENT-2005
+    from: ORG-BJ-OPT-2001
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: reported_settlement_payment
+    label: Weitere 3,4 Mio. USD im Juli 2005 laut Q2-Filing tatsächlich erhalten; Vergleichsrest 10,9 Mio.
+    evidence_level: established
+    sources:
+    - SRC-TITAN-BENIN-Q205
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-RELATIONAL-2004
+    from: ORG-US-RELATIONAL-ADVISORS-2005
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: financial_advisory
+    label: Exklusiver Verkäuferberater im gescheiterten Lockheed-Deal; 750.000 und 500.000 USD Opinion-Gebühren bezahlt
+    evidence_level: established
+    sources:
+    - SRC-TITAN-RELATIONAL04
+    period:
+      start: '2004'
+      end: '2004'
+  - id: REL-TITAN-BCT-RELATIONAL-2005
+    from: ORG-US-RELATIONAL-ADVISORS-2005
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: financial_advisory
+    label: Co-Berater beim L-3-Erwerb; 500.000 USD nach Retainer-Anrechnung bezahlt, weitere ca.8,7 Mio. vereinbart
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-FUND-STAKE
+    from: ORG-US-TITAN-CORPORATION-2005
+    to: ORG-US-TITAN-RELATIONAL-FUND-2005
+    type: limited_partnership_interest
+    label: Ca.40% LP-Anteil laut Proxy; keine Beteiligungsidentität mit Fondsmanager
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    - SRC-TITAN-RELATIONAL03
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-FUND-MANAGER
+    from: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
+    to: ORG-US-TITAN-RELATIONAL-FUND-2005
+    type: fund_management
+    label: Verwaltet den nicht namentlich identifizierten Fonds; GP laut Proxy mit Relational Advisors verbunden
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-TIP-AFFILIATE
+    from: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
+    to: ORG-US-RELATIONAL-ADVISORS-2005
+    type: reported_affiliate_relationship
+    label: Der General Partner des im Proxy beschriebenen Fonds ist mit Relational Advisors verbunden; genaue Zuordnung und Eigentumsquote nicht ausgewiesen
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-RAY-CEO
+    from: PER-US-GENE-W-RAY
+    to: ORG-US-TITAN-CORPORATION-2005
+    type: executive_role
+    label: CEO laut Proxy 2005
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'
+  - id: REL-TITAN-BCT-RAY-INVESTMENT
+    from: PER-US-GENE-W-RAY
+    to: ORG-US-RELATIONAL-INVESTORS-LLC
+    type: reported_managed_investment
+    label: LP-Investment in von Relational Investors verwalteter Anlage; weniger als 0,01% der gesamten verwalteten Gelder laut Proxy
+    evidence_level: established
+    sources:
+    - SRC-TITAN-PROXY
+    period:
+      start: '2005'
+      end: '2005'

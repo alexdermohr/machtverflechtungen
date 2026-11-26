@@ -2812,3 +2812,117 @@ entities:
     countries:
     - US
     notes: Vertragliche Fortsetzung unter Bedingungen; Änderungen und Schlussberichte nicht erschlossen.
+
+  - id: ORG-US-TITAN-AFRICA-INC
+    type: company
+    name: Titan Africa Inc. (Benin 1999–2005)
+    countries:
+    - US
+    notes: Delaware-Tochtergesellschaft Titans, Kreditnehmerin; nicht Titan Africa S.A.
+  - id: ORG-AFRONETWORK-LTD-1999
+    type: company
+    name: Afronetwork Ltd. (BCT-Vorverträge)
+    countries: []
+    notes: Rechtsträger laut Protokoll; Sitz nicht aus diesen Akten bestimmt.
+  - id: DOC-BJ-BCT-LOAN-1999
+    type: historical_contract_document
+    name: BCT Loan Facility Agreement (10.12.1999)
+    countries:
+    - BJ
+    - US
+    notes: Krediturkunde in SEC-Anlagenliste und Spiegeltext; keine vollständige Originalsignaturprüfung.
+  - id: DOC-BJ-BCT-PROTOCOL-2003
+    type: historical_contract_document
+    name: BCT Protocole d'accord cadre (2003)
+    countries:
+    - BJ
+    - US
+    notes: Bedingte Vertragsänderung, Zahlungsverpflichtung, Verzicht und Ertragsverteilung.
+  - id: ORG-FR-AFRICA-MERCHANT-BANK-1999
+    type: investment_bank
+    name: Africa Merchant Bank (Paris, 1999)
+    countries:
+    - FR
+    notes: Arrangeur laut SEC und Vertragswiedergabe.
+  - id: ORG-BE-BELGOLAISE-1999
+    type: commercial_bank
+    name: Banque Belgolaise (BCT 1999–2003)
+    countries:
+    - BE
+    notes: Vertragspartei und laut Vertragsmirror International Agent; Überbrückungskredit 2003.
+  - id: ORG-BJ-BOA-BENIN-1999
+    type: commercial_bank
+    name: Bank of Africa Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei; laut Vertragsmirror Local Agent und Kreditgeber.
+  - id: ORG-BJ-ECOBANK-BENIN-1999
+    type: commercial_bank
+    name: Eco Bank Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-WA-BOAD-1999
+    type: development_bank
+    name: Banque Ouest Africaine de Développement (BOAD, BCT 1999)
+    countries: []
+    notes: Regionalbank; vorgesehene Beteiligung vorbehaltlich Board-Genehmigung.
+  - id: ORG-BJ-BIB-1999
+    type: commercial_bank
+    name: Banque Internationale du Bénin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-BJ-CONTINENTAL-BANK-1999
+    type: commercial_bank
+    name: Continental Bank Benin (BCT 1999)
+    countries:
+    - BJ
+    notes: Vertragspartei laut SEC-Anlagenliste.
+  - id: ORG-FR-ALCATEL-CONTRACTING-1999
+    type: company
+    name: Alcatel Contracting S.A. (BCT 1999)
+    countries:
+    - FR
+    notes: Laut Kreditvertragswiedergabe 95%-Tochter Alcatels; Alcatel-Konzern ist nicht mit jedem Rechtsträger identisch.
+  - id: ORG-FR-ALCATEL-1999
+    type: company
+    name: Alcatel (BCT 1999–2005)
+    countries:
+    - FR
+    notes: Konzernname in Emittentenberichten; genaue Subunternehmeridentitäten nicht gleichsetzen.
+  - id: ORG-AFRICAN-INVESTOR-GROUP-BCT-2000
+    type: investment_group
+    name: Nicht benannte afrikanische Investorengruppe (BCT 2000)
+    countries: []
+    notes: Kein Rückschluss auf die Konsortialbanken.
+  - id: ORG-US-RELATIONAL-ADVISORS-2005
+    type: financial_advisor
+    name: Relational Advisors LLC (Titan 2003–2005)
+    countries:
+    - US
+    notes: Verkäuferberater; verbundene Fondsstrukturen separat.
+  - id: ORG-US-TITAN-INVESTMENT-PARTNERS-LLC
+    type: investment_company
+    name: Titan Investment Partners LLC (2003–2005)
+    countries:
+    - US
+    notes: Verwaltet Fonds; GP laut Proxy mit Relational Advisors verbunden.
+  - id: ORG-US-TITAN-RELATIONAL-FUND-2005
+    type: investment_fund
+    name: Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)
+    countries:
+    - US
+    notes: Titan LP mit ca.40% Anteil; nicht der Verwalter selbst.
+  - id: ORG-US-RELATIONAL-INVESTORS-LLC
+    type: investment_company
+    name: Relational Investors LLC (2005)
+    countries:
+    - US
+    notes: Verwalter mehrerer Fonds und Konten; verbundene Gesellschaft nicht mit Relational Advisors gleichsetzen.
+  - id: PER-US-GENE-W-RAY
+    type: historical_person
+    name: Gene W. Ray
+    countries:
+    - US
+    notes: Titan-CEO laut Übernahmeprospekt 2005.

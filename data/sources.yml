@@ -5503,3 +5503,124 @@ sources:
   url: https://www.sec.gov/Archives/edgar/data/32258/000110465904018438/a04-7429_1ex99d1.htm
   accessed: '2026-11-26'
   locator: Exhibit 99.1; beendete Lockheed-Titan-Vereinbarung; frühere Quelle. Titeljahr der ursprünglichen L-3-Gründung nicht mit Übernahmeversuch verwechseln.
+
+- id: SRC-TITAN-BENIN-10K04
+  title: Titan Form 10-K FY2004
+  institution: SEC EDGAR / Emittent
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000104746905006804/a2153658z10-k.htm
+  accessed: '2026-11-26'
+  locator: S.31, Note 7 S.79–80, Exhibit 10.21–22 S.124; Kredit, Banken, Forderungen, berichtete Zahlungen.
+- id: SRC-TITAN-BENIN-Q201
+  title: Titan 10-Q/A June 2001
+  institution: SEC EDGAR / Emittent
+  date: '2001'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225801500004/form10q2a.htm
+  accessed: '2026-11-26'
+  locator: 'Liquidity and Capital Resources: Abruf, 18 Mio. Investorenerlös, Vertragsverlängerungen.'
+- id: SRC-TITAN-BENIN-10K01
+  title: Titan Form 10-K FY2001
+  institution: SEC EDGAR / Emittent
+  date: '2002'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225802000005/ttn10k_01.htm
+  accessed: '2026-11-26'
+  locator: Liquidity and Capital Resources, Debt; Kreditabruf und Vertragsliste.
+- id: SRC-TITAN-BENIN-8K03
+  title: Titan Form 8-K July 2003
+  institution: SEC EDGAR / Emittent
+  date: '2003-07-09'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225803000238/from8kjul09_03.htm
+  accessed: '2026-11-26'
+  locator: 40,5 Mio. USD in längerfristigen Verbindlichkeiten.
+- id: SRC-TITAN-BENIN-Q205
+  title: Titan financial statements Q2 2005, L-3 exhibit
+  institution: SEC EDGAR / Emittent
+  date: '2005'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/1056239/000095013605007543/file003.htm
+  accessed: '2026-11-26'
+  locator: 'Benin: Restschuld, Juli-Zahlung und Subunternehmervergleich.'
+- id: SRC-TITAN-BENIN-PROTOCOL
+  title: Protocole d'accord cadre BCT, einschließlich Datumsberichtigung
+  institution: SEC EDGAR / Emittent
+  date: '2003'
+  type: filed_corporate_contract
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225803000284/ex10_4protocal.pdf
+  accessed: '2026-11-26'
+  locator: Präambel A–H, Art.2–3,5–7,10,14 und Datumsberichtigung S.15–18; PDF-Text, Faksimileabruf Cache miss.
+- id: SRC-TITAN-BENIN-LOAN-MIRROR
+  title: Loan Facility Agreement 10 December 1999 (Vertragswiedergabe)
+  institution: Onecle (Vertragsmirror)
+  date: '1999-12-10'
+  type: archival_record_transcription
+  primary: false
+  tier: B
+  url: https://contracts.onecle.com/titan/benin.loan.1999.12.10.shtml
+  accessed: '2026-11-26'
+  locator: Onecle, indexierte englische Vertragswiedergabe; Direktabruf Timeout; Deckblatt, Präambel, Art.10–11,17–19, Anlagen 11.2/11.3. Gegenbeleg SEC-Anlagenliste.
+- id: SRC-TITAN-BENIN-Q204
+  title: Titan 10-Q June 2004
+  institution: SEC EDGAR / Emittent
+  date: '2004'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000104746904025833/a2141634z10-q.htm
+  accessed: '2026-11-26'
+  locator: 'Benin: abweichende 35-Mio.-Angabe; keine zusätzliche Forderung daraus ableiten.'
+- id: SRC-TITAN-BENIN-10KA01
+  title: Titan Form 10-K/A FY2001
+  institution: SEC EDGAR / Emittent
+  date: '2002'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000003225802000057/ttn10ka2_01.htm
+  accessed: '2026-11-26'
+  locator: Separater Kreditrahmen von 485 Mio. USD.
+- id: SRC-TITAN-RELATIONAL03
+  title: Lockheed/Titan Form S-4/A 2003
+  institution: SEC EDGAR / Emittent
+  date: '2003'
+  type: filed_securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/936468/000119312503084495/ds4a.htm
+  accessed: '2026-11-26'
+  locator: Annex B, Fondsanteil Titan, frühere Beratung.
+- id: SRC-TITAN-RELATIONAL04
+  title: Titan definitive merger proxy 2004
+  institution: SEC EDGAR / Emittent
+  date: '2004'
+  type: corporate_filing
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/32258/000119312504079394/ddefm14a.htm
+  accessed: '2026-11-26'
+  locator: Opinion of Relational Advisors, S.36, bezahlte Gutachtengebühren.
+- id: SRC-TITAN-DOJ-PR
+  title: 'DOJ press release: Titan plea'
+  institution: U.S. Department of Justice
+  date: '2005-03-01'
+  type: official_prosecution_release
+  primary: true
+  tier: A
+  url: https://www.justice.gov/sites/default/files/criminal-fraud/legacy/2011/02/16/03-01-05titan-pr-plea.pdf
+  accessed: '2026-11-26'
+  locator: Keine Kenntnis des damaligen Präsidenten in der Anklage behauptet; Pressemitteilung, PDF-Text.

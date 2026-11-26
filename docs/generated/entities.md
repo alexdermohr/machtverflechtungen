@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**497 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**516 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -152,7 +152,11 @@
 | ABN AMRO Bank (SIVAM-Refinanzierung 1997) | historical_commercial_bank | `ORG-NL-ABN-AMRO-SIVAM-1997` | NL | [1](network.md#rel-ws-abn-bb) |
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
 | Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
+| Africa Merchant Bank (Paris, 1999) | investment_bank | `ORG-FR-AFRICA-MERCHANT-BANK-1999` | FR | [1](network.md#rel-titan-bct-arranger) |
+| Afronetwork Ltd. (BCT-Vorverträge) | company | `ORG-AFRONETWORK-LTD-1999` |  | [3](network.md#rel-titan-bct-afn-opt) |
 | Alan H. Washkowitz | historical_person | `PER-US-ALAN-WASHKOWITZ` | US | [2](network.md#rel-titan-washkowitz-lehman) |
+| Alcatel (BCT 1999–2005) | company | `ORG-FR-ALCATEL-1999` | FR | [4](network.md#rel-titan-bct-afn-alcatel) |
+| Alcatel Contracting S.A. (BCT 1999) | company | `ORG-FR-ALCATEL-CONTRACTING-1999` | FR | [2](network.md#rel-titan-bct-alcatel-subsidiary) |
 | Allbritton Communications Company (2004) | media_company | `ORG-US-ALLBRITTON-COMMUNICATIONS-2004` | US | [3](network.md#rel-riggs-followup-031) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
 | Amerada Hess (Unternehmensverbund, 2004) | oil_company | `ORG-US-AMERADA-HESS-2004` | US | [1](network.md#rel-riggs-followup-054) |
@@ -193,12 +197,16 @@
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
 | Banco Santander Central Hispano (2004) | commercial_bank | `ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004` | ES | [2](network.md#rel-riggs-followup-014) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
+| Bank of Africa Benin (BCT 1999) | commercial_bank | `ORG-BJ-BOA-BENIN-1999` | BJ | [2](network.md#rel-titan-bct-party-boa) |
 | Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [10](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | Bank of America – Kontenverbund laut Senatsbericht 2005 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [4](network.md#rel-riggs-followup-001) |
 | Bank of America, N.A. (L-3-Kredit 2005–2006) | commercial_bank | `ORG-US-BOFA-NA-2005` | US | [1](network.md#rel-titan-bofa-agent) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
 | BankBoston Chile (2001) | commercial_bank | `ORG-CL-BANKBOSTON-CHILE-2001` | CL, US | [2](network.md#rel-riggs-followup-004) |
 | Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
+| Banque Belgolaise (BCT 1999–2003) | commercial_bank | `ORG-BE-BELGOLAISE-1999` | BE | [3](network.md#rel-titan-bct-party-belgolaise) |
+| Banque Internationale du Bénin (BCT 1999) | commercial_bank | `ORG-BJ-BIB-1999` | BJ | [1](network.md#rel-titan-bct-party-bib) |
+| Banque Ouest Africaine de Développement (BOAD, BCT 1999) | development_bank | `ORG-WA-BOAD-1999` |  | [1](network.md#rel-titan-bct-party-boad) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
@@ -252,6 +260,7 @@
 | Compañía Minera Exótica (Chile) | historical_mining_project | `ORG-CL-EXOTICA-COPPER-1971` | CL | [2](network.md#rel-cl-chile-copper-exotica-ownership-1971) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
 | Conselho Monetário Nacional (CMN) | government_council | `ORG-BR-CMN` | BR | [2](network.md#rel-ws-bcb-cmn-risk) |
+| Continental Bank Benin (BCT 1999) | commercial_bank | `ORG-BJ-CONTINENTAL-BANK-1999` | BJ | [1](network.md#rel-titan-bct-party-continental) |
 | Corporación del Cobre (Chile, 1974) | historical_state_copper_organization | `ORG-CL-CORPORACION-DEL-COBRE-1974` | CL | [2](network.md#rel-cl-corporacion-cobre-exotica-ownership-1971) |
 | Corriere della Sera (italienische Zeitung, 1980) | historical_newspaper | `ORG-IT-CORRIERE-DELLA-SERA-1980` | IT | [2](network.md#rel-it-rizzoli-corriere-1977-001) |
 | Coutts & Co. (USA) International (1999) | commercial_bank | `ORG-US-COUTTS-INTERNATIONAL-1999` | US, GB | [2](network.md#rel-riggs-followup-013) |
@@ -285,6 +294,7 @@
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
+| Eco Bank Benin (BCT 1999) | commercial_bank | `ORG-BJ-ECOBANK-BENIN-1999` | BJ | [1](network.md#rel-titan-bct-party-ecobank) |
 | El Mercurio (Chile) | historical_media_organization | `ORG-CL-EL-MERCURIO-1971` | CL | [8](network.md#rel-us-cia-el-mercurio-1971-1972) |
 | Embraer (SIVAM-Verträge, 1990er–2005) | historical_company | `ORG-BR-EMBRAER-SIVAM` | BR | [1](network.md#rel-ws-embraer-contract) |
 | Englischer Council of State (1649) | government_body | `ORG-GB-COUNCIL-OF-STATE-1649` | GB | [1](network.md#rel-gb-crom-1649-001) |
@@ -315,6 +325,7 @@
 | Fulbright & Jaworski (2004) | law_firm | `ORG-US-FULBRIGHT-JAWORSKI-2004` | US | [2](network.md#rel-riggs-followup-036) |
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
+| Gene W. Ray | historical_person | `PER-US-GENE-W-RAY` | US | [2](network.md#rel-titan-bct-ray-ceo) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -382,9 +393,11 @@
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
+| Nicht benannte afrikanische Investorengruppe (BCT 2000) | investment_group | `ORG-AFRICAN-INVESTOR-GROUP-BCT-2000` |  | [1](network.md#rel-titan-bct-investor) |
+| Nicht namentlich bestimmter Fonds (Titan/Relational, 2005) | investment_fund | `ORG-US-TITAN-RELATIONAL-FUND-2005` | US | [2](network.md#rel-titan-bct-fund-stake) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
-| Office des Postes et Télécommunications (OPT), Benin | government_agency | `ORG-BJ-OPT-2001` | BJ | [1](network.md#rel-titan-opt-fee) |
+| Office des Postes et Télécommunications (OPT), Benin | government_agency | `ORG-BJ-OPT-2001` | BJ | [8](network.md#rel-titan-opt-fee) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [6](network.md#rel-int-bcci-004) |
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
@@ -410,6 +423,8 @@
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
+| Relational Advisors LLC (Titan 2003–2005) | financial_advisor | `ORG-US-RELATIONAL-ADVISORS-2005` | US | [3](network.md#rel-titan-bct-relational-2004) |
+| Relational Investors LLC (2005) | investment_company | `ORG-US-RELATIONAL-INVESTORS-LLC` | US | [1](network.md#rel-titan-bct-ray-investment) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [28](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
 | Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [5](network.md#rel-riggs-followup-027) |
@@ -447,13 +462,15 @@
 | The Bilderberg Association UK Limited (12988319) | organization | `ORG-GB-BILDERBERG-UK-LTD-12988319` | GB | [4](network.md#rel-gb-bb-uk-004) |
 | The Economist | media_outlet | `ORG-GB-THE-ECONOMIST` | GB | [1](network.md#rel-gb-bb-uk-006) |
 | The Halle Foundation | foundation | `ORG-US-HALLE-FOUNDATION` | US | [2](network.md#rel-us-halle-ab-grant-2022) |
-| The Titan Corporation (1999–2006) | defense_contractor | `ORG-US-TITAN-CORPORATION-2005` | US | [8](network.md#rel-titan-benin-payments) |
+| The Titan Corporation (1999–2006) | defense_contractor | `ORG-US-TITAN-CORPORATION-2005` | US | [19](network.md#rel-titan-benin-payments) |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE | [1](network.md#rel-de-tmn-056) |
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US | [3](network.md#rel-us-bbf-001) |
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
+| Titan Africa Inc. (Benin 1999–2005) | company | `ORG-US-TITAN-AFRICA-INC` | US | [4](network.md#rel-titan-bct-titan-africa) |
+| Titan Investment Partners LLC (2003–2005) | investment_company | `ORG-US-TITAN-INVESTMENT-PARTNERS-LLC` | US | [2](network.md#rel-titan-bct-fund-manager) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |
@@ -513,6 +530,8 @@
 
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
+| BCT Loan Facility Agreement (10.12.1999) | historical_contract_document | `DOC-BJ-BCT-LOAN-1999` | BJ, US | [12](network.md#rel-titan-bct-loan-borrower) |
+| BCT Protocole d'accord cadre (2003) | historical_contract_document | `DOC-BJ-BCT-PROTOCOL-2003` | BJ, US | [4](network.md#rel-titan-bct-proto-opt) |
 | Pressevereinbarung Rizzoli–Caracciolo–Scalfari vom 05.07.1979 | historical_press_contract_document | `DOC-IT-RIZZOLI-CARACCIOLO-SCALFARI-PACT-1979` | IT | [5](network.md#rel-it-p2-presspact-rizzoli-1979-001) |
 | Rizzoli-P2-Sanierungsvereinbarung vom 18.09.1980 (Reperto 1/C) | historical_contract_document | `DOC-IT-RIZZOLI-P2-AGREEMENT-1980` | IT | [6](network.md#rel-it-p2-agreement-gelli-1980-001) |
 | Titan–Navy Administrative Settlement Agreement (02.03.2005) | historical_contract_document | `DOC-US-TITAN-NAVY-20050302` | US | [3](network.md#rel-titan-navy-signed) |
