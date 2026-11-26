@@ -6354,3 +6354,196 @@ relations:
     - SRC-DE-BT-NONNE-754-1995
     period:
       start: '1995-03-09'
+  - id: REL-MAUSS-FINANZ-001
+    from: ORG-DE-HUK-VERBAND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: 'UA: seit 1968 Versicherungsverbandsvertrag, 1981 schriftlich mit Auftrags- und Beendigungsrecht für private
+      Ermittlungsaufträge, nicht für staatliche Strafverfahren.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-03-05'
+  - id: REL-MAUSS-FINANZ-002
+    from: ORG-DE-SACHVERSICHERER-VERBAND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: 'UA: seit 1968 Versicherungsverbandsvertrag; schriftlicher Vertrag 05.03.1981 mit Auftragsrecht und Spesenregelung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-03-05'
+  - id: REL-MAUSS-FINANZ-003
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_cooperation
+    label: Bundesregierung bestätigt BKA-Vereinbarungen 1972, 1976 und 1981; UA beschreibt BKA-Koordination privat
+      finanzierter Tätigkeit. Keine hoheitliche Befugnis.
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    - SRC-DE-BT-MAUSS-415-2018
+    period:
+      start: '1972'
+      end: '1987'
+  - id: REL-MAUSS-FINANZ-004
+    from: ORG-DE-HUK-VERBAND
+    to: ORG-DE-BKA
+    type: documented_coordination
+    label: 'UA beschreibt Abrede: Versicherungswirtschaft finanziert, BKA koordiniert Einsätze innerhalb vereinbarter
+      Grenzen.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    period:
+      start: '1981'
+  - id: REL-MAUSS-FINANZ-005
+    from: ORG-DE-SACHVERSICHERER-VERBAND
+    to: ORG-DE-BKA
+    type: documented_coordination
+    label: UA beschreibt Abrede über privat finanzierte, BKA-koordinierte Einsätze; keine Weisung an Polizei aus Versicherungsvertrag
+      abgeleitet.
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    period:
+      start: '1981'
+  - id: REL-MAUSS-FINANZ-006
+    from: ORG-DE-MANNHEIMER-VERSICHERUNG
+    to: PER-DE-WERNER-MAUSS
+    type: documented_financial_incentive
+    label: 'UA: bedingtes Erfolgshonorar von 700.000 DM im Fall Düe (05.08.1982); erste 350.000 DM zzgl. MwSt ausgezahlt,
+      weitere Anrechnungen und gesonderte Spesen. Kein Nachweis falscher Beweismittel.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1982'
+      end: '1986'
+  - id: REL-MAUSS-FINANZ-007
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_payment
+    label: 'Bundesregierung 1990: 174.000 DM Kostenerstattung, 8.946,25 DM für zwei Fälle ohne Zusammenarbeit; weitere
+      100.941,77 DM und 1.000 CHF (1970–Anfang 1976) mit nicht mehr zuordenbarem Zweck.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL210-1990
+    period:
+      start: '1970'
+  - id: REL-MAUSS-FINANZ-008
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_legal_obligation
+    label: 'UA S.162: Verpflichtung nach Verpflichtungsgesetz erst 06.08.1981; keine Amtsträgereigenschaft.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-08-06'
+  - id: REL-MAUSS-FINANZ-009
+    from: ORG-DE-LKA-NIEDERSACHSEN
+    to: PER-DE-WERNER-MAUSS
+    type: documented_legal_obligation
+    label: 'UA S.162: Verpflichtungen am 11.03.1982 und 20.10.1983.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1982-03-11'
+      end: '1983-10-20'
+  - id: REL-MAUSS-FINANZ-010
+    from: ORG-DE-NI-VERFASSUNGSSCHUTZ
+    to: PER-DE-WERNER-MAUSS
+    type: documented_cooperation
+    label: 'UA S.180: Zusammenarbeit Operation Neuland etwa 1974–1978; keine belegte Beteiligung Mauss am tatsächlichen
+      Celler Anschlag.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1974'
+      end: '1978'
+  - id: REL-MAUSS-FINANZ-011
+    from: ORG-DE-BND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: Bundesregierung bestätigt Vertrag 31.08.1979 zur Informationsbeschaffung über Terrorismus; kein Fondsvertrag.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+    period:
+      start: '1979-08-31'
+  - id: REL-MAUSS-FINANZ-012
+    from: ORG-DE-BKA
+    to: ORG-DE-OFD-KOBLENZ
+    type: documented_administrative_contact
+    label: 'BT-Drs.13/8130 F5: Kontakte im Zusammenhang mit Mauss, laut Regierung zur Grundabdeckung; keine bestätigte
+      unzulässige Steuerbegünstigung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+    period:
+      start: '1997-07-01'
+  - id: REL-MAUSS-FINANZ-013
+    from: ORG-DE-BND
+    to: ORG-DE-FA-ESSEN-SUED
+    type: documented_tax_arrangement
+    label: 'BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Mauss-Honorars aus 1979; Steuersatz nicht
+      genannt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+    period:
+      start: '1979'
+  - id: REL-MAUSS-FINANZ-014
+    from: ORG-DE-LG-BOCHUM
+    to: PER-DE-WERNER-MAUSS
+    type: documented_proceeding
+    label: Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige
+      Verurteilung.
+    evidence_level: established
+    sources:
+    - SRC-DE-BGH-MAUSS-347-2019
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2017-10-05'
+  - id: REL-MAUSS-FINANZ-015
+    from: ORG-DE-BGH
+    to: ORG-DE-LG-BOCHUM
+    type: documented_judicial_decision
+    label: 'BGH 1 StR 347/18: Urteil vom 10.01.2019 hebt landgerichtliches Urteil und Feststellungen auf.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BGH-MAUSS-347-2019
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2019-01-10'
+  - id: REL-MAUSS-FINANZ-016
+    from: ORG-DE-OLG-HAMM
+    to: ORG-DE-LG-BOCHUM
+    type: documented_judicial_decision
+    label: OLG 4 Ws 143/24 bestätigt Aussetzung des Steuerstrafverfahrens bis Klärung der Besteuerung; keine Feststellung
+      der Fondsherkunft.
+    evidence_level: established
+    sources:
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2024-10-08'
+  - id: REL-MAUSS-FINANZ-017
+    from: ORG-DE-FG-DUESSELDORF
+    to: PER-DE-WERNER-MAUSS
+    type: documented_proceeding
+    label: 'OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung
+      2025, Originalbeschluss offen.'
+    evidence_level: established
+    sources:
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    - SRC-DE-LOHR-MAUSS-2025
+    period:
+      start: '2024'

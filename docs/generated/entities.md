@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**528 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**538 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -144,6 +144,7 @@
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
 | Walther Leisler Kiep (1926–2016) | person | `PER-DE-WALTHER-LEISLER-KIEP` | DE | [6](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Werner Marx (1924–1985, CDU) | person | `PER-DE-WERNER-MARX-CDU-1965-1972` | DE | [1](network.md#rel-de-marx-sfz-chair-1965-1972-001) |
+| Werner Mauss | person | `PER-DE-WERNER-MAUSS` | DE | [11](network.md#rel-mauss-finanz-001) |
 | Wilhelm Classen | person | `PER-DE-WILHELM-CLASSEN` | DE | [1](network.md#rel-de-kmm-007) |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE | – |
 | William O. Studeman | person | `PER-US-WILLIAM-STUDEMAN` | US | [1](network.md#rel-ws-studeman-ssci) |
@@ -230,15 +231,15 @@
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [3](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [6](network.md#rel-de-bdj-013) |
-| Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [2](network.md#rel-raf-schmuecker-nonne-007) |
+| Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [3](network.md#rel-raf-schmuecker-nonne-007) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
-| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [2](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
+| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [8](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [8](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [10](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -318,6 +319,8 @@
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [4](network.md#rel-int-bcci-005) |
 | Financial Crimes Enforcement Network (FinCEN) | government_agency | `ORG-US-FINCEN` | US | [3](network.md#rel-riggs-followup-024) |
+| Finanzamt Essen-Süd | tax_authority | `ORG-DE-FA-ESSEN-SUED` | DE | [1](network.md#rel-mauss-finanz-013) |
+| Finanzgericht Düsseldorf | court | `ORG-DE-FG-DUESSELDORF` | DE | [1](network.md#rel-mauss-finanz-017) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | First American Title Company (2006) | escrow_service | `ORG-US-FIRST-AMERICAN-TITLE-2006` | US | [2](network.md#rel-riggs-post-2004-019) |
 | First American Trust, F.S.B. (2006) | commercial_bank | `ORG-US-FIRST-AMERICAN-TRUST-2006` | US | [1](network.md#rel-riggs-post-2004-020) |
@@ -346,6 +349,7 @@
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
+| HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IBM Corporation (1992) | historical_company | `ORG-US-IBM-1992` | US | [1](network.md#rel-ws-ibm-osac) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
@@ -368,13 +372,16 @@
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
+| Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
+| Landgericht Bochum | court | `ORG-DE-LG-BOCHUM` | DE | [3](network.md#rel-mauss-finanz-014) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
 | Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [9](network.md#rel-de-cumex-001) |
 | M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023) | financial_holding | `ORG-DE-WARBURG-GRUPPE-2023` | DE | [3](network.md#rel-de-warburg-mwb1-gruppe-2023-001) |
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |
+| Mannheimer Versicherung AG | insurance_company | `ORG-DE-MANNHEIMER-VERSICHERUNG` | DE | [1](network.md#rel-mauss-finanz-006) |
 | Marathon Oil (2004) | oil_company | `ORG-US-MARATHON-OIL-2004` | US | [2](network.md#rel-riggs-followup-056) |
 | Marcard, Stein & Co AG (Warburg-Tochter 2023) | historical_bank | `ORG-DE-MARCARD-STEIN-2023` | DE | [1](network.md#rel-de-warburg-bank-marcard-2023-001) |
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
@@ -401,8 +408,10 @@
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
-| Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
+| Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [2](network.md#rel-de-celler-001) |
+| Oberfinanzdirektion Koblenz | tax_authority | `ORG-DE-OFD-KOBLENZ` | DE | [1](network.md#rel-mauss-finanz-012) |
 | Oberlandesgericht Frankfurt am Main | court | `ORG-DE-OLG-FRANKFURT` | DE | [1](network.md#rel-raf-schmuecker-nonne-014) |
+| Oberlandesgericht Hamm | court | `ORG-DE-OLG-HAMM` | DE | [1](network.md#rel-mauss-finanz-016) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
@@ -513,6 +522,7 @@
 | US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972) | historical_commercial_bank_cohort | `ORG-US-CHILE-CREDITO2-LENDERS-1972` | US, CL | [1](network.md#rel-cl-bcch-us-private-bank-credito2-notes-1974) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
+| Verband der Sachversicherer (historisch) | insurance_trade_association | `ORG-DE-SACHVERSICHERER-VERBAND` | DE | [2](network.md#rel-mauss-finanz-002) |
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |

@@ -5636,3 +5636,150 @@ sources:
   accessed: '2026-11-26'
   locator: Bericht zur Aufhebung des Mordvorwurfs gegen Andrea Klump
   notes: Zeitgenössischer Pressebericht; gerichtliche Originalentscheidung noch offen.
+- id: SRC-DE-NI-UA-CELLE-4380-1989
+  title: Bericht Elfter Parlamentarischer Untersuchungsausschuss, Drs. 11/4380
+  institution: Niedersächsischer Landtag
+  date: '1989'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf
+  accessed: '2026-11-26'
+  locator: S. 160–162, 175–180; insbesondere Vertrag vom 05.03.1981 und Mannh. Bl. 2, 23, 27, 29–42, 99, 101
+  notes: Amtlicher Text; Seitenbilder nicht abrufbar. Unterscheidung Originalvertrag 1981, Zeugenaussagen zu älteren
+    Verträgen und Ausschussbewertung.
+- id: SRC-DE-BT-MAUSS-PL190-1990
+  title: Fragestunde zu Vereinbarungen Mauss/BKA/Versicherungswirtschaft, PlPr 11/190
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-01-24'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11190.pdf
+  accessed: '2026-11-26'
+  locator: S. 14665–14667, F1–2
+  notes: Amtliche Antwort bestätigt abgestimmte Abreden 1972, 1976, 1981; kein Vertragsvolltext.
+- id: SRC-DE-BT-MAUSS-PL200-1990
+  title: Fragestunde zu privaten Ermittlungen, PlPr 11/200
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-03-08'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11200.pdf
+  accessed: '2026-11-26'
+  locator: S. 15476–15477
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vertragszitat des Fragestellers nicht von Spranger bestätigt.
+- id: SRC-DE-BT-MAUSS-PL210-1990
+  title: Fragestunde zu Zahlungen an Mauss, PlPr 11/210
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-05-10'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11210.pdf
+  accessed: '2026-11-26'
+  locator: S. 16513–16515, F36–37
+  notes: Amtlich berichtete Zahlungen; ältere Verwendungszwecke nicht zuordenbar.
+- id: SRC-DE-BT-MAUSS-PL207-1990
+  title: Fragestunde zu Rechnungsprüfungen, PlPr 11/207
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-04-26'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11207.pdf
+  accessed: '2026-11-26'
+  locator: S. 16250, F34–35
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Prüfung angekündigt, Ergebnis erst in Q6 berichtet.
+- id: SRC-DE-BT-MAUSS-8130-1997
+  title: Werner Mauss – Agent der Bundesregierung (II), Drs. 13/8130
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1997-07-01'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/081/1308130.pdf
+  accessed: '2026-11-26'
+  locator: Vorbemerkung, F1–7, F29–33
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vertragsdatum 31.08.1979, steuerliche Abreden, nicht mehr mögliche
+    Rechnungsprüfung.
+- id: SRC-DE-BT-BND-INFORMANTENSTEUER-2008
+  title: Schriftliche Fragen zu Informantenbesteuerung, Drs. 16/8447
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2008-03-07'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/16/084/1608447.pdf
+  accessed: '2026-11-26'
+  locator: S. 16, F34–35
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vergleichsregime, kein Beleg seiner Anwendung auf Mauss.
+- id: SRC-DE-BT-MAUSS-7352-2016
+  title: Beauftragung und Ausstattung des Agenten Werner Mauss, Drs. 18/7352
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2016-01-26'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/073/1807352.pdf
+  accessed: '2026-11-26'
+  locator: S. 2–3, F1–4
+  notes: S. 2 Text und Faksimile geprüft. Keine Kenntnis neuer Bundesaufträge seit 2000; Details nur VS-NfD.
+- id: SRC-DE-BT-MAUSS-415-2018
+  title: Schriftliche Fragen, Drs. 19/415, Antwort zu Mauss
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2018-01-10'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/004/1900415.pdf
+  accessed: '2026-11-26'
+  locator: S. 18–19, F21, Antwort 10.01.2018
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Bestreitung früherer BKA-Fondskenntnis und Ende Zusammenarbeit
+    1987.
+- id: SRC-DE-BGH-MAUSS-347-2019
+  title: Urteil 1 StR 347/18
+  institution: Bundesgerichtshof, Volltext bei NWB
+  date: '2019-01-10'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://datenbank.nwb.de/Dokument/776164/
+  accessed: '2026-11-26'
+  locator: Rn. 4–10 und Vorsatzbeurteilung
+  notes: Urteil hebt LG-Feststellungen auf; referierte Beträge und Eigentumsannahmen nicht rechtskräftig.
+- id: SRC-DE-TAZ-DUE-FREISPRUCH-1989
+  title: Düe unschuldig – Werner Mauss perdu
+  institution: taz
+  date: '1989'
+  type: press_report
+  primary: false
+  tier: D
+  url: https://taz.de/Duee-unschuldig---Werner-Mauss-perdu/%211818993/
+  accessed: '2026-11-26'
+  locator: Bericht zum Strafprozess
+  notes: Originalurteil noch nicht geprüft; keine Aussage über den Ausgang des Zivilverfahrens.
+- id: SRC-DE-OLG-HAMM-MAUSS-143-2024
+  title: Beschluss 4 Ws 143/24
+  institution: Oberlandesgericht Hamm
+  date: '2024-10-08'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2024%2F4_Ws_143_24_Beschluss_20241008.html
+  accessed: '2026-11-26'
+  locator: Rn. 4–21, insbesondere 15–19
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Einlassung zur Fondsherkunft nicht mit gerichtlicher Tatsachenfeststellung
+    verwechseln.
+- id: SRC-DE-LOHR-MAUSS-2025
+  title: Schreiben Verfahrensstand, 07.11.2025
+  institution: Lohr + Company, veröffentlicht auf Mauss' Website
+  date: '2025-11-07'
+  type: party_statement
+  primary: true
+  tier: D
+  url: https://www.werner-mauss.de/documents/Schreiben_Prof_Dr_Lohr_Verfahrensstand_Ergaenzung_07_11_2025_gelb.pdf
+  accessed: '2026-11-26'
+  locator: S. 1
+  notes: Text und Faksimile; Mandantenquelle. Keine unabhängige Bestätigung der gerichtlichen und steuerlichen Erledigung.

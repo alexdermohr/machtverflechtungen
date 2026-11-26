@@ -2983,3 +2983,53 @@ entities:
     name: Michael Grünhagen
     countries:
     - DE
+  - id: PER-DE-WERNER-MAUSS
+    type: person
+    name: Werner Mauss
+    countries:
+    - DE
+  - id: ORG-DE-HUK-VERBAND
+    type: insurance_trade_association
+    name: HUK-Verband (historisch)
+    countries:
+    - DE
+  - id: ORG-DE-SACHVERSICHERER-VERBAND
+    type: insurance_trade_association
+    name: Verband der Sachversicherer (historisch)
+    countries:
+    - DE
+  - id: ORG-DE-MANNHEIMER-VERSICHERUNG
+    type: insurance_company
+    name: Mannheimer Versicherung AG
+    countries:
+    - DE
+  - id: ORG-DE-OFD-KOBLENZ
+    type: tax_authority
+    name: Oberfinanzdirektion Koblenz
+    countries:
+    - DE
+  - id: ORG-DE-FA-ESSEN-SUED
+    type: tax_authority
+    name: Finanzamt Essen-Süd
+    countries:
+    - DE
+  - id: ORG-DE-LG-BOCHUM
+    type: court
+    name: Landgericht Bochum
+    countries:
+    - DE
+  - id: ORG-DE-OLG-HAMM
+    type: court
+    name: Oberlandesgericht Hamm
+    countries:
+    - DE
+  - id: ORG-DE-FG-DUESSELDORF
+    type: court
+    name: Finanzgericht Düsseldorf
+    countries:
+    - DE
+  - id: ORG-DE-LKA-NIEDERSACHSEN
+    type: criminal_investigation_agency
+    name: Landeskriminalamt Niedersachsen
+    countries:
+    - DE

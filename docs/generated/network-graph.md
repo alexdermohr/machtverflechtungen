@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**703 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**720 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1242,6 +1242,33 @@ flowchart LR
     N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
     N_PER_DE_ALFRED_HERRHAUSEN["Alfred Herrhausen"]
     N_ORG_DE_BUNDESANWALTSCHAFT -->|"BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_DE_HUK_VERBAND["HUK-Verband (historisch)"]
+    N_PER_DE_WERNER_MAUSS["Werner Mauss"]
+    N_ORG_DE_HUK_VERBAND -->|"UA: seit 1968 Versicherungsverbandsvertrag, 1981 schriftlich mit Auftrags- und Beendigungsrecht für private Ermittlungsaufträge, nicht für staatliche Strafverfahren."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_SACHVERSICHERER_VERBAND["Verband der Sachversicherer (historisch)"]
+    N_ORG_DE_SACHVERSICHERER_VERBAND -->|"UA: seit 1968 Versicherungsverbandsvertrag; schriftlicher Vertrag 05.03.1981 mit Auftragsrecht und Spesenregelung."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"Bundesregierung bestätigt BKA-Vereinbarungen 1972, 1976 und 1981; UA beschreibt BKA-Koordination privat finanzierter Tätigkeit. Keine hoheitliche Befugnis."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_HUK_VERBAND -->|"UA beschreibt Abrede: Versicherungswirtschaft finanziert, BKA koordiniert Einsätze innerhalb vereinbarter Grenzen."| N_ORG_DE_BKA
+    N_ORG_DE_SACHVERSICHERER_VERBAND -->|"UA beschreibt Abrede über privat finanzierte, BKA-koordinierte Einsätze; keine Weisung an Polizei aus Versicherungsvertrag abgeleitet."| N_ORG_DE_BKA
+    N_ORG_DE_MANNHEIMER_VERSICHERUNG["Mannheimer Versicherung AG"]
+    N_ORG_DE_MANNHEIMER_VERSICHERUNG -->|"UA: bedingtes Erfolgshonorar von 700.000 DM im Fall Düe (05.08.1982); erste 350.000 DM zzgl. MwSt ausgezahlt, weitere Anrechnungen und gesonderte Spesen. Kein Nachweis falscher Beweismittel."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"Bundesregierung 1990: 174.000 DM Kostenerstattung, 8.946,25 DM für zwei Fälle ohne Zusammenarbeit; weitere 100.941,77 DM und 1.000 CHF (1970–Anfang 1976) mit nicht mehr zuordenbarem Zweck."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"UA S.162: Verpflichtung nach Verpflichtungsgesetz erst 06.08.1981; keine Amtsträgereigenschaft."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_LKA_NIEDERSACHSEN["Landeskriminalamt Niedersachsen"]
+    N_ORG_DE_LKA_NIEDERSACHSEN -->|"UA S.162: Verpflichtungen am 11.03.1982 und 20.10.1983."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_NI_VERFASSUNGSSCHUTZ -->|"UA S.180: Zusammenarbeit Operation Neuland etwa 1974–1978; keine belegte Beteiligung Mauss am tatsächlichen Celler Anschlag."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BND -->|"Bundesregierung bestätigt Vertrag 31.08.1979 zur Informationsbeschaffung über Terrorismus; kein Fondsvertrag."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_OFD_KOBLENZ["Oberfinanzdirektion Koblenz"]
+    N_ORG_DE_BKA -->|"BT-Drs.13/8130 F5: Kontakte im Zusammenhang mit Mauss, laut Regierung zur Grundabdeckung; keine bestätigte unzulässige Steuerbegünstigung."| N_ORG_DE_OFD_KOBLENZ
+    N_ORG_DE_FA_ESSEN_SUED["Finanzamt Essen-Süd"]
+    N_ORG_DE_BND -->|"BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Mauss-Honorars aus 1979; Steuersatz nicht genannt."| N_ORG_DE_FA_ESSEN_SUED
+    N_ORG_DE_LG_BOCHUM["Landgericht Bochum"]
+    N_ORG_DE_LG_BOCHUM -->|"Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige Verurteilung."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BGH -->|"BGH 1 StR 347/18: Urteil vom 10.01.2019 hebt landgerichtliches Urteil und Feststellungen auf."| N_ORG_DE_LG_BOCHUM
+    N_ORG_DE_OLG_HAMM["Oberlandesgericht Hamm"]
+    N_ORG_DE_OLG_HAMM -->|"OLG 4 Ws 143/24 bestätigt Aussetzung des Steuerstrafverfahrens bis Klärung der Besteuerung; keine Feststellung der Fondsherkunft."| N_ORG_DE_LG_BOCHUM
+    N_ORG_DE_FG_DUESSELDORF["Finanzgericht Düsseldorf"]
+    N_ORG_DE_FG_DUESSELDORF -->|"OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung 2025, Originalbeschluss offen."| N_PER_DE_WERNER_MAUSS
 ```
 
 [Zur Relationstabelle](network.md)
