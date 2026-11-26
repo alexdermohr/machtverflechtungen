@@ -6147,7 +6147,8 @@ relations:
     from: ORG-US-LEHMAN-PARTNERSHIP-1997
     to: ORG-US-L3-HOLDINGS-1997
     type: equity_ownership
-    label: 50,1 % Gründungsanteil der Lehman Partnership; zeitgebundene Beteiligung, nicht laufende Kontrolle
+    label: 50,1 % Gründungsanteil der Lehman Partnership; zeitgebundene Beteiligung,
+      nicht laufende Kontrolle
     evidence_level: established
     sources:
     - SRC-TITAN-L3-97
@@ -6190,8 +6191,9 @@ relations:
   - id: REL-TITAN-AIS-ACQUISITION
     from: ORG-US-RAYTHEON-1994
     to: ORG-US-L3-COMMUNICATIONS-1997
-    type: business_acquisition
-    label: L-3 erwarb 2002 die AIS-Sparte; kein Erwerb des gesamten Raytheon-Konzerns
+    type: business_divestiture
+    label: Raytheon veräußerte 2002 die AIS-Sparte an L-3; kein Erwerb des gesamten
+      Raytheon-Konzerns
     evidence_level: established
     sources:
     - SRC-TITAN-AIS
@@ -6202,7 +6204,8 @@ relations:
     from: ORG-US-L3-COMMUNICATIONS-1997
     to: PRG-BR-SIVAM
     type: acquired_contract_portfolio
-    label: SIVAM unter den beim AIS-Erwerb übernommenen laufenden Verträgen; keine Übertragung des gesamten Hauptvertrags
+    label: SIVAM unter den beim AIS-Erwerb übernommenen laufenden Verträgen; keine Übertragung
+      des gesamten Hauptvertrags
     evidence_level: established
     sources:
     - SRC-TITAN-AIS
@@ -6224,11 +6227,13 @@ relations:
     from: ORG-US-TITAN-CORPORATION-2005
     to: PER-BJ-TITAN-AGENT-2001
     type: admitted_improper_payment
-    label: Laut Schuldeingeständnis ca.2,1 Mio. USD Zahlungen mit bekanntem Wahlkampfzweck; kein Nachweis Wissen des Präsidenten
+    label: Laut Schuldeingeständnis ca.2,1 Mio. USD Zahlungen mit bekanntem Wahlkampfzweck;
+      kein Nachweis Wissen des Präsidenten
     evidence_level: established
     sources:
     - SRC-TITAN-PLEA
     - SRC-TITAN-SEC
+    - SRC-TITAN-DOJ-PR
     period:
       start: '2001'
       end: '2001'
@@ -6236,7 +6241,8 @@ relations:
     from: ORG-BJ-OPT-2001
     to: ORG-US-TITAN-CORPORATION-2005
     type: contract_fee_increase
-    label: Laut Plea §24–29 Managementvergütung rückwirkend 5 auf 20 %; beanspruchter Mehrwert nicht tatsächliche Auszahlung
+    label: Laut Plea §24–29 Managementvergütung rückwirkend 5 auf 20 %; beanspruchter
+      Mehrwert nicht tatsächliche Auszahlung
     evidence_level: established
     sources:
     - SRC-TITAN-PLEA
@@ -6247,7 +6253,8 @@ relations:
     from: ORG-US-DOJ
     to: ORG-US-TITAN-CORPORATION-2005
     type: criminal_plea
-    label: Schuldeingeständnis Bestechung, falsche Bücher und Beihilfe falsche Steuererklärung; 13 Mio. USD Strafzahlung
+    label: Schuldeingeständnis Bestechung, falsche Bücher und Beihilfe falsche Steuererklärung;
+      13 Mio. USD Strafzahlung
     evidence_level: established
     sources:
     - SRC-TITAN-PLEA
@@ -6259,7 +6266,8 @@ relations:
     from: ORG-US-SEC-2005
     to: ORG-US-TITAN-CORPORATION-2005
     type: civil_enforcement_settlement
-    label: 15,479 Mio. USD Abschöpfung/Zinsen plus durch Strafzahlung erfüllte 13 Mio.; Vergleich ohne Eingeständnis oder Bestreiten SEC-Vorwürfe
+    label: 15,479 Mio. USD Abschöpfung/Zinsen plus durch Strafzahlung erfüllte 13 Mio.;
+      Vergleich ohne Eingeständnis oder Bestreiten SEC-Vorwürfe
     evidence_level: established
     sources:
     - SRC-TITAN-SEC
@@ -6281,7 +6289,8 @@ relations:
     from: DOC-US-TITAN-NAVY-20050302
     to: ORG-US-TITAN-CORPORATION-2005
     type: conditional_procurement_eligibility
-    label: Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten und vorbehaltenen weiteren Sanktionen
+    label: Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten
+      und vorbehaltenen weiteren Sanktionen
     evidence_level: established
     sources:
     - SRC-TITAN-NAVY
@@ -6292,7 +6301,8 @@ relations:
     from: ORG-US-L3-COMMUNICATIONS-1997
     to: DOC-US-TITAN-NAVY-20050302
     type: contractual_modification_effort
-    label: Übernahmebedingungen sehen Bemühen um Änderungen vor; unterzeichnete Änderung nicht belegt
+    label: Übernahmebedingungen sehen Bemühen um Änderungen vor; unterzeichnete Änderung
+      nicht belegt
     evidence_level: established
     sources:
     - SRC-TITAN-PROXY
@@ -6304,11 +6314,12 @@ relations:
     from: ORG-US-LEHMAN-BROTHERS-INC
     to: ORG-US-TITAN-CORPORATION-2005
     type: financial_advisory
-    label: Verkäuferberatung; 1 Mio. USD Fairness Opinion bezahlt, 8,7 Mio. closingabhängig vereinbart
+    label: 'Verkäuferberatung: 1 Mio. USD Opinion bezahlt; 8,7 Mio. USD abschlussabhängig
+      vereinbart, 250.000 USD bei Mandatierung darauf anrechenbar; eigener Vertrag neben
+      Relational'
     evidence_level: established
     sources:
     - SRC-TITAN-PROXY
-    - SRC-TITAN-L3-8K
     period:
       start: '2005'
       end: '2005'
@@ -6360,7 +6371,8 @@ relations:
     from: ORG-US-L3-COMMUNICATIONS-1997
     to: ORG-US-TITAN-CORPORATION-2005
     type: business_acquisition
-    label: Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert rund 2,754 Mrd. USD
+    label: Übernahme 29.07.2005 für 23,10 USD je Aktie; 2005 berichteter Gesamtwert
+      rund 2,754 Mrd. USD
     evidence_level: established
     sources:
     - SRC-TITAN-L3-S4-05
@@ -6372,7 +6384,8 @@ relations:
     from: ORG-US-BOFA-NA-2005
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: credit_facility_agent
-    label: Administrative Agent/Swing Line/LC issuer; 750 Mio. Term Loan zusätzlich zu 1 Mrd. Revolver; kein individueller Kreditanteil
+    label: Administrative Agent/Swing Line/LC issuer; 750 Mio. Term Loan zusätzlich
+      zu 1 Mrd. Revolver; kein individueller Kreditanteil
     evidence_level: established
     sources:
     - SRC-TITAN-L3-8K
@@ -6417,83 +6430,104 @@ relations:
     from: ORG-US-LEHMAN-BROTHERS-INC
     to: ORG-US-L3-HOLDINGS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein
+      eigener Zeichnungsbetrag
     evidence_level: established
-    sources: &id001
+    sources:
     - SRC-TITAN-L3-8K
-    period: &id002
+    period:
       start: '2005-07-27'
       end: '2005-07-27'
   - id: REL-TITAN-LEHMAN-ISSUANCE-NOTES
     from: ORG-US-LEHMAN-BROTHERS-INC
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener
+      Zeichnungsbetrag
     evidence_level: established
-    sources: *id001
-    period: *id002
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-27'
+      end: '2005-07-27'
   - id: REL-TITAN-BANC-ISSUANCE
     from: ORG-US-BANC-OF-AMERICA-SECURITIES
     to: ORG-US-L3-HOLDINGS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein
+      eigener Zeichnungsbetrag
     evidence_level: established
-    sources: &id003
+    sources:
     - SRC-TITAN-L3-8K
-    period: &id004
+    period:
       start: '2005-07-27'
       end: '2005-07-27'
   - id: REL-TITAN-BANC-ISSUANCE-NOTES
     from: ORG-US-BANC-OF-AMERICA-SECURITIES
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener
+      Zeichnungsbetrag
     evidence_level: established
-    sources: *id003
-    period: *id004
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-27'
+      end: '2005-07-27'
   - id: REL-TITAN-BEAR-ISSUANCE
     from: ORG-US-BEAR-STEARNS-CO
     to: ORG-US-L3-HOLDINGS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein
+      eigener Zeichnungsbetrag
     evidence_level: established
-    sources: &id005
+    sources:
     - SRC-TITAN-L3-8K
-    period: &id006
+    period:
       start: '2005-07-27'
       end: '2005-07-27'
   - id: REL-TITAN-BEAR-ISSUANCE-NOTES
     from: ORG-US-BEAR-STEARNS-CO
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener
+      Zeichnungsbetrag
     evidence_level: established
-    sources: *id005
-    period: *id006
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-27'
+      end: '2005-07-27'
   - id: REL-TITAN-CSFB-ISSUANCE
     from: ORG-US-CSFB-LLC-2005
     to: ORG-US-L3-HOLDINGS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der CODES (600 Mio. USD plus 100 Mio. Option); kein
+      eigener Zeichnungsbetrag
     evidence_level: established
-    sources: &id007
+    sources:
     - SRC-TITAN-L3-8K
-    period: &id008
+    period:
       start: '2005-07-27'
       end: '2005-07-27'
   - id: REL-TITAN-CSFB-ISSUANCE-NOTES
     from: ORG-US-CSFB-LLC-2005
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: securities_issuance_role
-    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener Zeichnungsbetrag
+    label: Vertreter der Erstkäufer der 1 Mrd. USD nachrangigen Notes; kein eigener
+      Zeichnungsbetrag
     evidence_level: established
-    sources: *id007
-    period: *id008
+    sources:
+    - SRC-TITAN-L3-8K
+    period:
+      start: '2005-07-27'
+      end: '2005-07-27'
   - id: REL-TITAN-INSCOM
     from: ORG-US-INSCOM-2006
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: reported_contract_revenue
-    label: Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad
+    label: Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz
+      Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad
     evidence_level: established
     sources:
     - SRC-TITAN-L3-10Q-SEP06
@@ -6504,7 +6538,8 @@ relations:
     from: ORG-US-DDTC-2006
     to: ORG-US-L3-COMMUNICATIONS-1997
     type: administrative_charge_draft
-    label: Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe, keine gerichtliche Schuldfeststellung
+    label: Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe,
+      keine gerichtliche Schuldfeststellung
     evidence_level: established
     sources:
     - SRC-TITAN-DDTC
@@ -6515,7 +6550,9 @@ relations:
     from: ORG-US-STATE-DEPARTMENT
     to: ORG-US-TITAN-CORPORATION-2005
     type: reported_export_licensing_restoration
-    label: Laut L-3 10-Q bis Sep 2006 Vergleich mit 1,5 Mio. USD und wieder neue Lizenzen möglich; keine tatsächliche Zahlung oder Navy-Änderung behauptet
+    label: 'L-3 10-Q berichtet Titan-Vereinbarung mit State Department: 1,5 Mio. USD
+      vorgesehene Sanktionen und erneute Exportlizenzfähigkeit Titans; DDTC-Entwurf
+      gegen L-3 separat, keine Original-Vergleichsurkunde eingesehen'
     evidence_level: established
     sources:
     - SRC-TITAN-L3-10Q-SEP06
@@ -6526,7 +6563,8 @@ relations:
     from: ORG-US-DOJ
     to: PER-US-STEVEN-LYNWOOD-HEAD
     type: criminal_prosecution
-    label: 'Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised release, 5000 USD Geldstrafe; keine Schuld Dritter'
+    label: 'Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised
+      release, 5000 USD Geldstrafe; keine Schuld Dritter'
     evidence_level: established
     sources:
     - SRC-TITAN-HEAD
@@ -6534,9 +6572,8 @@ relations:
     period:
       start: '2007-09-28'
       end: '2007-09-28'
-
   - id: REL-TITAN-BCT-AFN-OPT
-    from: ORG-AFRONETWORK-LTD-1999
+    from: ORG-XX-AFRONETWORK-LTD-1999
     to: ORG-BJ-OPT-2001
     type: documented_partnership
     label: Partnerschaft 01.02.1996 laut späterem Rahmenprotokoll
@@ -6547,7 +6584,7 @@ relations:
       start: '1996-02-01'
       end: '1996-02-01'
   - id: REL-TITAN-BCT-AFN-ALCATEL
-    from: ORG-AFRONETWORK-LTD-1999
+    from: ORG-XX-AFRONETWORK-LTD-1999
     to: ORG-FR-ALCATEL-1999
     type: supply_contract
     label: Liefer-/Dienstleistungsvertrag 31.05.1999 laut Protokoll
@@ -6558,7 +6595,7 @@ relations:
       start: '1999-05-31'
       end: '1999-05-31'
   - id: REL-TITAN-BCT-AFN-TITAN
-    from: ORG-AFRONETWORK-LTD-1999
+    from: ORG-XX-AFRONETWORK-LTD-1999
     to: ORG-US-TITAN-CORPORATION-2005
     type: contract_assignment
     label: Übertragung der AFN-Vertragsposition am 28.07.1999 mit OPTB-Zustimmung
@@ -6595,7 +6632,8 @@ relations:
     from: DOC-BJ-BCT-LOAN-1999
     to: ORG-US-TITAN-AFRICA-INC
     type: project_credit
-    label: Non-Recourse-Fazilität 30 Mrd. FCFA, später 36 Mrd.; Zins 9,5%; kein Einzelabruf als Bestechungsgeld belegt
+    label: Non-Recourse-Fazilität 30 Mrd. FCFA, später 36 Mrd.; Zins 9,5%; kein Einzelabruf
+      als Bestechungsgeld belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6607,7 +6645,8 @@ relations:
     from: ORG-BJ-OPT-2001
     to: DOC-BJ-BCT-LOAN-1999
     type: credit_guarantee
-    label: Garantie und Besicherung durch projektbezogene Anlagen/Einnahmen; nicht Garantie der gesamten Republik
+    label: Garantie und Besicherung durch projektbezogene Anlagen/Einnahmen; nicht Garantie
+      der gesamten Republik
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6631,7 +6670,8 @@ relations:
     from: ORG-BE-BELGOLAISE-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6642,7 +6682,8 @@ relations:
     from: ORG-BJ-BOA-BENIN-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6653,7 +6694,8 @@ relations:
     from: ORG-BJ-ECOBANK-BENIN-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6661,10 +6703,11 @@ relations:
       start: '1999-12-10'
       end: '1999-12-10'
   - id: REL-TITAN-BCT-PARTY-BOAD
-    from: ORG-WA-BOAD-1999
+    from: ORG-INT-BOAD-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6675,7 +6718,8 @@ relations:
     from: ORG-BJ-BIB-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6686,7 +6730,8 @@ relations:
     from: ORG-BJ-CONTINENTAL-BANK-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: named_credit_contract_party
-    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt
+    label: In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung
+      oder Anteilsgröße belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K04
@@ -6697,7 +6742,8 @@ relations:
     from: ORG-BE-BELGOLAISE-1999
     to: DOC-BJ-BCT-LOAN-1999
     type: reported_international_agent
-    label: International Agent laut indexierter Vertragswiedergabe; Originalvolltext noch offen
+    label: International Agent laut indexierter Vertragswiedergabe; Originalvolltext
+      noch offen
     evidence_level: strong
     sources:
     - SRC-TITAN-BENIN-LOAN-MIRROR
@@ -6744,7 +6790,8 @@ relations:
     from: DOC-BJ-BCT-LOAN-1999
     to: ORG-FR-ALCATEL-1999
     type: reported_equipment_financing
-    label: Kreditmittel dienten laut Emittent insbesondere Ausrüstung/Subunternehmerkosten Alcatels; Einzelzahlungen nicht belegt
+    label: Kreditmittel dienten laut Emittent insbesondere Ausrüstung/Subunternehmerkosten
+      Alcatels; Einzelzahlungen nicht belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-10K01
@@ -6753,10 +6800,11 @@ relations:
       start: '2001'
       end: '2001'
   - id: REL-TITAN-BCT-INVESTOR
-    from: ORG-AFRICAN-INVESTOR-GROUP-BCT-2000
+    from: ORG-XX-AFRICAN-INVESTOR-GROUP-BCT-2000
     to: ORG-US-TITAN-CORPORATION-2005
     type: reported_revenue_share_purchase
-    label: 18 Mio. USD tatsächlich eingegangen Oktober 2000 für Teil wirtschaftlicher Ertragsbeteiligung; Identität offen
+    label: 18 Mio. USD tatsächlich eingegangen Oktober 2000 für Teil wirtschaftlicher
+      Ertragsbeteiligung; Identität offen
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-Q201
@@ -6767,7 +6815,8 @@ relations:
     from: ORG-BJ-OPT-2001
     to: DOC-BJ-BCT-PROTOCOL-2003
     type: settlement_contract_party
-    label: Vertragspartei; bedingte Übertragung und Anspruchsverzicht, keine pauschale Übernahme von Titan-Altlasten
+    label: Vertragspartei; bedingte Übertragung und Anspruchsverzicht, keine pauschale
+      Übernahme von Titan-Altlasten
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-PROTOCOL
@@ -6778,7 +6827,8 @@ relations:
     from: ORG-US-TITAN-CORPORATION-2005
     to: DOC-BJ-BCT-PROTOCOL-2003
     type: settlement_contract_party
-    label: Vertragspartei mit bedingtem Verzicht und 40% definierter Nettoerlöse nach Kreditrückzahlung; Wirksamkeit/Zahlungen getrennt
+    label: Vertragspartei mit bedingtem Verzicht und 40% definierter Nettoerlöse nach
+      Kreditrückzahlung; Wirksamkeit/Zahlungen getrennt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-PROTOCOL
@@ -6811,7 +6861,8 @@ relations:
     from: ORG-FR-ALCATEL-1999
     to: DOC-BJ-BCT-PROTOCOL-2003
     type: supplier_credit_deduction
-    label: Alcatel-Lieferantenkredit in Art.7 als Abzug von Projektumsätzen; keine Einzelzahlung belegt
+    label: Alcatel-Lieferantenkredit in Art.7 als Abzug von Projektumsätzen; keine Einzelzahlung
+      belegt
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-PROTOCOL
@@ -6834,7 +6885,8 @@ relations:
     from: ORG-BJ-OPT-2001
     to: ORG-US-TITAN-CORPORATION-2005
     type: reported_settlement_payment
-    label: Weitere 3,4 Mio. USD im Juli 2005 laut Q2-Filing tatsächlich erhalten; Vergleichsrest 10,9 Mio.
+    label: Weitere 3,4 Mio. USD im Juli 2005 laut Q2-Filing tatsächlich erhalten; Vergleichsrest
+      10,9 Mio.
     evidence_level: established
     sources:
     - SRC-TITAN-BENIN-Q205
@@ -6845,7 +6897,8 @@ relations:
     from: ORG-US-RELATIONAL-ADVISORS-2005
     to: ORG-US-TITAN-CORPORATION-2005
     type: financial_advisory
-    label: Exklusiver Verkäuferberater im gescheiterten Lockheed-Deal; 750.000 und 500.000 USD Opinion-Gebühren bezahlt
+    label: Exklusiver Verkäuferberater im gescheiterten Lockheed-Deal; 750.000 und 500.000
+      USD Opinion-Gebühren bezahlt
     evidence_level: established
     sources:
     - SRC-TITAN-RELATIONAL04
@@ -6856,7 +6909,8 @@ relations:
     from: ORG-US-RELATIONAL-ADVISORS-2005
     to: ORG-US-TITAN-CORPORATION-2005
     type: financial_advisory
-    label: Co-Berater beim L-3-Erwerb; 500.000 USD nach Retainer-Anrechnung bezahlt, weitere ca.8,7 Mio. vereinbart
+    label: 'Co-Berater: 500.000 USD Opinion nach Anrechnung des jährlichen Retainers
+      bezahlt; weitere ca. 8,7 Mio. USD separat vereinbart (0,325 % des Transaktionswerts)'
     evidence_level: established
     sources:
     - SRC-TITAN-PROXY
@@ -6901,7 +6955,8 @@ relations:
     from: PER-US-GENE-W-RAY
     to: ORG-US-RELATIONAL-INVESTORS-LLC
     type: reported_managed_investment
-    label: LP-Investment in von Relational Investors verwalteter Anlage; weniger als 0,01% der gesamten verwalteten Gelder laut Proxy
+    label: LP-Investment in von Relational Investors verwalteter Anlage; weniger als
+      0,01% der gesamten verwalteten Gelder laut Proxy
     evidence_level: established
     sources:
     - SRC-TITAN-PROXY

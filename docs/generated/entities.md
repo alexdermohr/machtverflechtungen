@@ -154,7 +154,7 @@
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
 | Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
 | Africa Merchant Bank (Paris, 1999) | investment_bank | `ORG-FR-AFRICA-MERCHANT-BANK-1999` | FR | [1](network.md#rel-titan-bct-arranger) |
-| Afronetwork Ltd. (BCT-Vorverträge) | company | `ORG-AFRONETWORK-LTD-1999` |  | [3](network.md#rel-titan-bct-afn-opt) |
+| Afronetwork Ltd. (BCT-Vorverträge) | company | `ORG-XX-AFRONETWORK-LTD-1999` |  | [3](network.md#rel-titan-bct-afn-opt) |
 | Alan H. Washkowitz | historical_person | `PER-US-ALAN-WASHKOWITZ` | US | [2](network.md#rel-titan-washkowitz-lehman) |
 | Alcatel (BCT 1999–2005) | company | `ORG-FR-ALCATEL-1999` | FR | [4](network.md#rel-titan-bct-afn-alcatel) |
 | Alcatel Contracting S.A. (BCT 1999) | company | `ORG-FR-ALCATEL-CONTRACTING-1999` | FR | [2](network.md#rel-titan-bct-alcatel-subsidiary) |
@@ -209,7 +209,7 @@
 | Banque de France (2006) | central_bank | `ORG-FR-BANQUE-DE-FRANCE-2006` | FR | [2](network.md#rel-riggs-post-2004-015) |
 | Banque des États de l’Afrique Centrale (BEAC, 2006) | central_bank | `ORG-CM-BEAC-2006` | CM, GQ | [2](network.md#rel-riggs-post-2004-014) |
 | Banque Internationale du Bénin (BCT 1999) | commercial_bank | `ORG-BJ-BIB-1999` | BJ | [1](network.md#rel-titan-bct-party-bib) |
-| Banque Ouest Africaine de Développement (BOAD, BCT 1999) | development_bank | `ORG-WA-BOAD-1999` |  | [1](network.md#rel-titan-bct-party-boad) |
+| Banque Ouest Africaine de Développement (BOAD, BCT 1999) | development_bank | `ORG-INT-BOAD-1999` |  | [1](network.md#rel-titan-bct-party-boad) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
@@ -414,7 +414,7 @@
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
-| Nicht benannte afrikanische Investorengruppe (BCT 2000) | investment_group | `ORG-AFRICAN-INVESTOR-GROUP-BCT-2000` |  | [1](network.md#rel-titan-bct-investor) |
+| Nicht benannte afrikanische Investorengruppe (BCT 2000) | investment_group | `ORG-XX-AFRICAN-INVESTOR-GROUP-BCT-2000` |  | [1](network.md#rel-titan-bct-investor) |
 | Nicht namentlich bestimmter Fonds (Titan/Relational, 2005) | investment_fund | `ORG-US-TITAN-RELATIONAL-FUND-2005` | US | [2](network.md#rel-titan-bct-fund-stake) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |

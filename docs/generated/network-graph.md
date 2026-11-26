@@ -1216,7 +1216,7 @@ flowchart LR
     N_ORG_US_L3_COMMUNICATIONS_1997["L-3 Communications Corporation (1997–2006)"]
     N_ORG_US_L3_HOLDINGS_1997 -->|"Operative Tochtergesellschaft der Holding bei Gründung"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_LEHMAN_PARTNERSHIP_1997 -->|"4,4 % Aktienbesitz am 31.12.2001; nicht mit 50,1 % von 1997 addieren"| N_ORG_US_L3_HOLDINGS_1997
-    N_ORG_US_RAYTHEON_1994 -->|"L-3 erwarb 2002 die AIS-Sparte; kein Erwerb des gesamten Raytheon-Konzerns"| N_ORG_US_L3_COMMUNICATIONS_1997
+    N_ORG_US_RAYTHEON_1994 -->|"Raytheon veräußerte 2002 die AIS-Sparte an L-3; kein Erwerb des gesamten Raytheon-Konzerns"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_L3_COMMUNICATIONS_1997 -->|"SIVAM unter den beim AIS-Erwerb übernommenen laufenden Verträgen; keine Übertragung des gesamten Hauptvertrags"| N_PRG_BR_SIVAM
     N_ORG_US_LEHMAN_BROTHERS_INC["Lehman Brothers Inc. (1997–2006)"]
     N_ORG_US_LEHMAN_BROTHERS_INC -->|"AIS-Erwerbsberatung und Organisation der Zwischenfinanzierung; keine SIVAM-Einzelzahlung"| N_ORG_US_L3_COMMUNICATIONS_1997
@@ -1233,7 +1233,7 @@ flowchart LR
     N_ORG_US_NAVY_2005 -->|"Vereinbarung auf Grundlage der FCPA-Verfahren; Navy im Namen des DoD"| N_DOC_US_TITAN_NAVY_20050302
     N_DOC_US_TITAN_NAVY_20050302 -->|"Kein Ausschlussverfahren zu bezeichneten Taten bei Überwachung, Pflichten und vorbehaltenen weiteren Sanktionen"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_L3_COMMUNICATIONS_1997 -->|"Übernahmebedingungen sehen Bemühen um Änderungen vor; unterzeichnete Änderung nicht belegt"| N_DOC_US_TITAN_NAVY_20050302
-    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Verkäuferberatung; 1 Mio. USD Fairness Opinion bezahlt, 8,7 Mio. closingabhängig vereinbart"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_LEHMAN_BROTHERS_INC -->|"Verkäuferberatung: 1 Mio. USD Opinion bezahlt; 8,7 Mio. USD abschlussabhängig vereinbart, 250.000 USD bei Mandatierung darauf anrechenbar; eigener Vertrag neben Relational"| N_ORG_US_TITAN_CORPORATION_2005
     N_PER_US_ALAN_WASHKOWITZ["Alan H. Washkowitz"]
     N_PER_US_ALAN_WASHKOWITZ -->|"Managing Director laut Übernahmeprospekt"| N_ORG_US_LEHMAN_BROTHERS_INC
     N_PER_US_ALAN_WASHKOWITZ -->|"Mitglied im L-3-Verwaltungsrat persönlich laut Proxy"| N_ORG_US_L3_HOLDINGS_1997
@@ -1262,14 +1262,14 @@ flowchart LR
     N_ORG_US_INSCOM_2006 -->|"Übernommener Sprachdienstleistungsvertrag; 456,5 Mio. USD berichteter Umsatz Jan–Sep 2006, Verlängerung bis 09.12.2006; kein Bankzahlungspfad"| N_ORG_US_L3_COMMUNICATIONS_1997
     N_ORG_US_DDTC_2006["Directorate of Defense Trade Controls (DDTC)"]
     N_ORG_US_DDTC_2006 -->|"Anklageentwurf benennt L-3 als Rechtsnachfolger für vor Erwerb liegende ITAR-Vorwürfe, keine gerichtliche Schuldfeststellung"| N_ORG_US_L3_COMMUNICATIONS_1997
-    N_ORG_US_STATE_DEPARTMENT -->|"Laut L-3 10-Q bis Sep 2006 Vergleich mit 1,5 Mio. USD und wieder neue Lizenzen möglich; keine tatsächliche Zahlung oder Navy-Änderung behauptet"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_STATE_DEPARTMENT -->|"L-3 10-Q berichtet Titan-Vereinbarung mit State Department: 1,5 Mio. USD vorgesehene Sanktionen und erneute Exportlizenzfähigkeit Titans; DDTC-Entwurf gegen L-3 separat, keine Original-Vergleichsurkunde eingesehen"| N_ORG_US_TITAN_CORPORATION_2005
     N_PER_US_STEVEN_LYNWOOD_HEAD["Steven Lynwood Head"]
     N_ORG_US_DOJ -->|"Buchführungsdelikt, Urteil 2007: sechs Monate Haft, drei Jahre supervised release, 5000 USD Geldstrafe; keine Schuld Dritter"| N_PER_US_STEVEN_LYNWOOD_HEAD
-    N_ORG_AFRONETWORK_LTD_1999["Afronetwork Ltd. (BCT-Vorverträge)"]
-    N_ORG_AFRONETWORK_LTD_1999 -->|"Partnerschaft 01.02.1996 laut späterem Rahmenprotokoll"| N_ORG_BJ_OPT_2001
+    N_ORG_XX_AFRONETWORK_LTD_1999["Afronetwork Ltd. (BCT-Vorverträge)"]
+    N_ORG_XX_AFRONETWORK_LTD_1999 -->|"Partnerschaft 01.02.1996 laut späterem Rahmenprotokoll"| N_ORG_BJ_OPT_2001
     N_ORG_FR_ALCATEL_1999["Alcatel (BCT 1999–2005)"]
-    N_ORG_AFRONETWORK_LTD_1999 -->|"Liefer-/Dienstleistungsvertrag 31.05.1999 laut Protokoll"| N_ORG_FR_ALCATEL_1999
-    N_ORG_AFRONETWORK_LTD_1999 -->|"Übertragung der AFN-Vertragsposition am 28.07.1999 mit OPTB-Zustimmung"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_XX_AFRONETWORK_LTD_1999 -->|"Liefer-/Dienstleistungsvertrag 31.05.1999 laut Protokoll"| N_ORG_FR_ALCATEL_1999
+    N_ORG_XX_AFRONETWORK_LTD_1999 -->|"Übertragung der AFN-Vertragsposition am 28.07.1999 mit OPTB-Zustimmung"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_TITAN_CORPORATION_2005 -->|"BCT-Vertrag 17.08.1999"| N_ORG_BJ_OPT_2001
     N_ORG_US_TITAN_AFRICA_INC["Titan Africa Inc. (Benin 1999–2005)"]
     N_ORG_US_TITAN_CORPORATION_2005 -->|"100%-Tochter und Übernahme der BCT-Vertragsposition laut Protokoll/10-K"| N_ORG_US_TITAN_AFRICA_INC
@@ -1284,8 +1284,8 @@ flowchart LR
     N_ORG_BJ_BOA_BENIN_1999 -->|"In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt"| N_DOC_BJ_BCT_LOAN_1999
     N_ORG_BJ_ECOBANK_BENIN_1999["Eco Bank Benin (BCT 1999)"]
     N_ORG_BJ_ECOBANK_BENIN_1999 -->|"In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt"| N_DOC_BJ_BCT_LOAN_1999
-    N_ORG_WA_BOAD_1999["Banque Ouest Africaine de Développement (BOAD, BCT 1999)"]
-    N_ORG_WA_BOAD_1999 -->|"In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt"| N_DOC_BJ_BCT_LOAN_1999
+    N_ORG_INT_BOAD_1999["Banque Ouest Africaine de Développement (BOAD, BCT 1999)"]
+    N_ORG_INT_BOAD_1999 -->|"In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt"| N_DOC_BJ_BCT_LOAN_1999
     N_ORG_BJ_BIB_1999["Banque Internationale du Bénin (BCT 1999)"]
     N_ORG_BJ_BIB_1999 -->|"In SEC-Anlagenliste zum Vertrag 10.12.1999 benannt; keine individuelle Auszahlung oder Anteilsgröße belegt"| N_DOC_BJ_BCT_LOAN_1999
     N_ORG_BJ_CONTINENTAL_BANK_1999["Continental Bank Benin (BCT 1999)"]
@@ -1296,8 +1296,8 @@ flowchart LR
     N_ORG_FR_ALCATEL_1999 -->|"95%-Tochter laut Präambel der indexierten Kreditvertragswiedergabe"| N_ORG_FR_ALCATEL_CONTRACTING_1999
     N_ORG_US_TITAN_AFRICA_INC -->|"Liefer-/Servicevertrag Phasen 2–5 abhängig von Kreditabschluss laut Vertragswiedergabe"| N_ORG_FR_ALCATEL_CONTRACTING_1999
     N_DOC_BJ_BCT_LOAN_1999 -->|"Kreditmittel dienten laut Emittent insbesondere Ausrüstung/Subunternehmerkosten Alcatels; Einzelzahlungen nicht belegt"| N_ORG_FR_ALCATEL_1999
-    N_ORG_AFRICAN_INVESTOR_GROUP_BCT_2000["Nicht benannte afrikanische Investorengruppe (BCT 2000)"]
-    N_ORG_AFRICAN_INVESTOR_GROUP_BCT_2000 -->|"18 Mio. USD tatsächlich eingegangen Oktober 2000 für Teil wirtschaftlicher Ertragsbeteiligung; Identität offen"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_XX_AFRICAN_INVESTOR_GROUP_BCT_2000["Nicht benannte afrikanische Investorengruppe (BCT 2000)"]
+    N_ORG_XX_AFRICAN_INVESTOR_GROUP_BCT_2000 -->|"18 Mio. USD tatsächlich eingegangen Oktober 2000 für Teil wirtschaftlicher Ertragsbeteiligung; Identität offen"| N_ORG_US_TITAN_CORPORATION_2005
     N_DOC_BJ_BCT_PROTOCOL_2003["BCT Protocole d'accord cadre (2003)"]
     N_ORG_BJ_OPT_2001 -->|"Vertragspartei; bedingte Übertragung und Anspruchsverzicht, keine pauschale Übernahme von Titan-Altlasten"| N_DOC_BJ_BCT_PROTOCOL_2003
     N_ORG_US_TITAN_CORPORATION_2005 -->|"Vertragspartei mit bedingtem Verzicht und 40% definierter Nettoerlöse nach Kreditrückzahlung; Wirksamkeit/Zahlungen getrennt"| N_DOC_BJ_BCT_PROTOCOL_2003
@@ -1308,7 +1308,7 @@ flowchart LR
     N_ORG_BJ_OPT_2001 -->|"Weitere 3,4 Mio. USD im Juli 2005 laut Q2-Filing tatsächlich erhalten; Vergleichsrest 10,9 Mio."| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_RELATIONAL_ADVISORS_2005["Relational Advisors LLC (Titan 2003–2005)"]
     N_ORG_US_RELATIONAL_ADVISORS_2005 -->|"Exklusiver Verkäuferberater im gescheiterten Lockheed-Deal; 750.000 und 500.000 USD Opinion-Gebühren bezahlt"| N_ORG_US_TITAN_CORPORATION_2005
-    N_ORG_US_RELATIONAL_ADVISORS_2005 -->|"Co-Berater beim L-3-Erwerb; 500.000 USD nach Retainer-Anrechnung bezahlt, weitere ca.8,7 Mio. vereinbart"| N_ORG_US_TITAN_CORPORATION_2005
+    N_ORG_US_RELATIONAL_ADVISORS_2005 -->|"Co-Berater: 500.000 USD Opinion nach Anrechnung des jährlichen Retainers bezahlt; weitere ca. 8,7 Mio. USD separat vereinbart (0,325 % des Transaktionswerts)"| N_ORG_US_TITAN_CORPORATION_2005
     N_ORG_US_TITAN_RELATIONAL_FUND_2005["Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)"]
     N_ORG_US_TITAN_CORPORATION_2005 -->|"Ca.40% LP-Anteil laut Proxy; keine Beteiligungsidentität mit Fondsmanager"| N_ORG_US_TITAN_RELATIONAL_FUND_2005
     N_ORG_US_TITAN_INVESTMENT_PARTNERS_LLC["Titan Investment Partners LLC (2003–2005)"]

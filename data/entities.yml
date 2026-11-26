@@ -3009,7 +3009,8 @@ entities:
     name: Office des Postes et Télécommunications (OPT), Benin
     countries:
     - BJ
-    notes: Staatlicher Vertragspartner; die Organisation nicht mit einzelnen Verantwortlichen gleichsetzen.
+    notes: Staatlicher Vertragspartner; die Organisation nicht mit einzelnen Verantwortlichen
+      gleichsetzen.
   - id: PER-BJ-TITAN-AGENT-2001
     type: historical_person
     name: Benin-Vermittler im Titan-Schuldeingeständnis (nicht namentlich zugeordnet)
@@ -3039,15 +3040,15 @@ entities:
     name: Titan–Navy Administrative Settlement Agreement (02.03.2005)
     countries:
     - US
-    notes: Vertragliche Fortsetzung unter Bedingungen; Änderungen und Schlussberichte nicht erschlossen.
-
+    notes: Vertragliche Fortsetzung unter Bedingungen; Änderungen und Schlussberichte
+      nicht erschlossen.
   - id: ORG-US-TITAN-AFRICA-INC
     type: company
     name: Titan Africa Inc. (Benin 1999–2005)
     countries:
     - US
     notes: Delaware-Tochtergesellschaft Titans, Kreditnehmerin; nicht Titan Africa S.A.
-  - id: ORG-AFRONETWORK-LTD-1999
+  - id: ORG-XX-AFRONETWORK-LTD-1999
     type: company
     name: Afronetwork Ltd. (BCT-Vorverträge)
     countries: []
@@ -3077,7 +3078,8 @@ entities:
     name: Banque Belgolaise (BCT 1999–2003)
     countries:
     - BE
-    notes: Vertragspartei und laut Vertragsmirror International Agent; Überbrückungskredit 2003.
+    notes: Vertragspartei und laut Vertragsmirror International Agent; Überbrückungskredit
+      2003.
   - id: ORG-BJ-BOA-BENIN-1999
     type: commercial_bank
     name: Bank of Africa Benin (BCT 1999)
@@ -3090,7 +3092,7 @@ entities:
     countries:
     - BJ
     notes: Vertragspartei laut SEC-Anlagenliste.
-  - id: ORG-WA-BOAD-1999
+  - id: ORG-INT-BOAD-1999
     type: development_bank
     name: Banque Ouest Africaine de Développement (BOAD, BCT 1999)
     countries: []
@@ -3112,14 +3114,16 @@ entities:
     name: Alcatel Contracting S.A. (BCT 1999)
     countries:
     - FR
-    notes: Laut Kreditvertragswiedergabe 95%-Tochter Alcatels; Alcatel-Konzern ist nicht mit jedem Rechtsträger identisch.
+    notes: Laut Kreditvertragswiedergabe 95%-Tochter Alcatels; Alcatel-Konzern ist nicht
+      mit jedem Rechtsträger identisch.
   - id: ORG-FR-ALCATEL-1999
     type: company
     name: Alcatel (BCT 1999–2005)
     countries:
     - FR
-    notes: Konzernname in Emittentenberichten; genaue Subunternehmeridentitäten nicht gleichsetzen.
-  - id: ORG-AFRICAN-INVESTOR-GROUP-BCT-2000
+    notes: Konzernname in Emittentenberichten; genaue Subunternehmeridentitäten nicht
+      gleichsetzen.
+  - id: ORG-XX-AFRICAN-INVESTOR-GROUP-BCT-2000
     type: investment_group
     name: Nicht benannte afrikanische Investorengruppe (BCT 2000)
     countries: []
@@ -3135,7 +3139,8 @@ entities:
     name: Titan Investment Partners LLC (2003–2005)
     countries:
     - US
-    notes: Verwaltet den im Proxy beschriebenen Fonds. Identität des dort genannten General Partners nicht belegt.
+    notes: Verwaltet den im Proxy beschriebenen Fonds. Identität des dort genannten
+      General Partners nicht belegt.
   - id: ORG-US-TITAN-RELATIONAL-FUND-2005
     type: investment_fund
     name: Nicht namentlich bestimmter Fonds (Titan/Relational, 2005)
@@ -3147,7 +3152,8 @@ entities:
     name: Relational Investors LLC (2005)
     countries:
     - US
-    notes: Verwalter mehrerer Fonds und Konten; verbundene Gesellschaft nicht mit Relational Advisors gleichsetzen.
+    notes: Verwalter mehrerer Fonds und Konten; verbundene Gesellschaft nicht mit Relational
+      Advisors gleichsetzen.
   - id: PER-US-GENE-W-RAY
     type: historical_person
     name: Gene W. Ray

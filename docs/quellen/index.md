@@ -4407,7 +4407,7 @@ Titan (SEC EDGAR) · 2005 · Stufe **A** · Primärquelle · `SRC-TITAN-PROXY`
 
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/32258/000104746905018302/a2160261zdefm14a.htm)
 
-Fundstelle: Background of Merger, Opinion of Lehman Brothers, Covenants, ca. S.20–24, 36–37; früherer Textzugriff und amtlicher Suchindex.
+Fundstelle: Background of Merger; Opinion of Relational Advisors; Opinion of Lehman Brothers, S. 36–37; Covenants; indexierte Originaleinreichung (beide getrennte Gebührenvereinbarungen erneut bestätigt).
 
 </article>
 

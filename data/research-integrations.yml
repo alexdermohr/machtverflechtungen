@@ -1039,7 +1039,7 @@ studies:
       - REL-RIGGS-POST-2004-059
 
   l3-titan-lehman-staatsauftraege-exportaufsicht-1997-2007.md:
-    sha256: a3e7a3034c6091dfd501de590103042a38c854ee7fd3a726dc9b8fe9039eecb6
+    sha256: f2ebbd08942573cba047c398fcc17cf4b7e01cca9be882687ddc1e73ad91c7d2
     status: network
     relation_ids:
     - REL-TITAN-FOUNDING-LEHMAN
