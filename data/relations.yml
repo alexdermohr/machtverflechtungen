@@ -6142,3 +6142,12 @@ relations:
     evidence_level: "established"
     sources: ["SRC-INT-EG-MPTF-TOR-2021", "SRC-INT-EG-MPTF-2025"]
     period: {"start": "2021", "end": "2025"}
+
+  - id: REL-DE-NSU-HH-GBA-2026-001
+    from: ORG-DE-GBA-NSU-2026
+    to: PRG-DE-HH-NSU-FORSCHUNG
+    type: denied_records_access
+    label: "Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"
+    period: {start: "2026-03-30", end: "2026-11-23"}
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123]

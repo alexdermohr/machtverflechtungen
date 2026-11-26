@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**683 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**684 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1208,6 +1208,9 @@ flowchart LR
     N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
     N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
     N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_DE_GBA_NSU_2026["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"]
+    N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
+    N_ORG_DE_GBA_NSU_2026 -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
 ```
 
 [Zur Relationstabelle](network.md)

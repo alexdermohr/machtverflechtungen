@@ -1,6 +1,6 @@
 # Beziehungsnetzwerk
 
-**683 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
+**684 quellengebundene Beziehungen** zwischen den erfassten Akteuren und Fällen. Die Tabelle ist alphabetisch nach Ausgangsakteur sortiert.
 
 [Netzwerkdiagramm öffnen](network-graph.md) — grafische Übersicht aller Relationen. Jede Zeile ist über ihre Kennung direkt verlinkbar.
 
@@ -272,6 +272,7 @@
 | <a id="rel-ws-atech-contract"></a>`REL-WS-ATECH-CONTRACT` | Fundação Aplicações de Tecnologias Críticas (ATECH) | 1997 durch Nachträge 9/10 in Vertrag 01/95 aufgenommen, nicht erst 2005/2008; exakter Tag nicht belegt | Vertrag 01/95 – CCSIVAM/Raytheon | belegt | [SRC-WS-BR-TRF4-2003](../quellen/index.md#src-ws-br-trf4-2003), [SRC-WS-BR-TCU850-1999](../quellen/index.md#src-ws-br-tcu850-1999), [SRC-WS-BR-TCU1249-2005](../quellen/index.md#src-ws-br-tcu1249-2005) |
 | <a id="rel-de-tmn-010"></a>`REL-DE-TMN-010` | Gabor Steingart | moderierte Gespräch zur US-Präsidentschaftswahl | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
 | <a id="rel-de-tmn-011"></a>`REL-DE-TMN-011` | Gabor Steingart | Vorsitzender der Geschäftsführung der Verlagsgruppe Handelsblatt | Handelsblatt | belegt | [SRC-DE-AB-STEINGART-2016](../quellen/index.md#src-de-ab-steingart-2016) |
+| <a id="rel-de-nsu-hh-gba-2026-001"></a>`REL-DE-NSU-HH-GBA-2026-001` | Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026) | Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen | Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | belegt | [SRC-DE-HH-NSU-BEIRAT-20260330](../quellen/index.md#src-de-hh-nsu-beirat-20260330), [SRC-DE-NDR-NSU-HH-20261107](../quellen/index.md#src-de-ndr-nsu-hh-20261107), [SRC-DE-TAZ-NSU-HH-20261123](../quellen/index.md#src-de-taz-nsu-hh-20261123) |
 | <a id="rel-de-bdj-014"></a>`REL-DE-BDJ-014` | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | Laut bayerischem Ministerratsprotokoll beantragte die Generalstaatsanwaltschaft Frankfurt eine Voruntersuchung | Technischer Dienst des Bundes Deutscher Jugend | belegt | [SRC-DE-BYMR-TD-19530120](../quellen/index.md#src-de-bymr-td-19530120) |
 | <a id="rel-riggs-followup-058"></a>`REL-RIGGS-FOLLOWUP-058` | GEOGAM (2004) | 10-%-Anteil; eigene GEOGAM-Eigentümerstruktur bleibt ungeklärt. | Atlantic Methanol Production Company (AMPCO) | belegt | [SRC-US-SENATE-RIGGS-REPORT-2004](../quellen/index.md#src-us-senate-riggs-report-2004) |
 | <a id="rel-de-tmn-007"></a>`REL-DE-TMN-007` | Georg Mascolo | Panelteilnehmer Deutsch-Amerikanische Konferenz | Atlantik-Brücke e.V. | belegt | [SRC-DE-AB-CONFERENCE-2017](../quellen/index.md#src-de-ab-conference-2017) |

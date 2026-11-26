@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**485 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**489 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2315,6 +2315,21 @@ Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-nsu-219268-2026"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Stand laufender Ermittlungen im NSU-Komplex, BT-Drs. 21/9268](https://dserver.bundestag.de/btd/21/092/2109268.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2026-11-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-219268-2026`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/092/2109268.pdf)
+
+Fundstelle: S. 2–4, Fragen 1, 3–13; Vorabfassung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
 
 <a id="src-de-bt-khk-s-19910627"></a>
@@ -2777,6 +2792,21 @@ Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
 
 Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-hh-nsu-beirat-20260330"></a>
+### Hamburgische Bürgerschaft
+
+**[Beiratssitzung zum Forschungsprojekt zur Aufarbeitung des NSU-Komplexes](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-beiratssitzung-zum-forschungsprojekt-zur-aufarbeitung-des-nsu-komplexes-1160896)**
+
+Hamburgische Bürgerschaft · 2026-03-30 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-BEIRAT-20260330`
+
+[Seite öffnen](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-beiratssitzung-zum-forschungsprojekt-zur-aufarbeitung-des-nsu-komplexes-1160896)
+
+Fundstelle: Absätze zu Akteneinsicht und Zusammenarbeit mit Hamburger Behörden
 
 </article>
 
@@ -3958,6 +3988,21 @@ Superior Tribunal de Justiça · 2008-04-03 · Stufe **A** · Primärquelle · `
 [Seite öffnen](https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330)
 
 Fundstelle: Amtliche Urteilswiedergabe in Coletânea 78, S. 139–154 (DJe 21.11.2008); insbesondere S. 140–141 Berichtigung TRF-Tenor, 148–150 Vertragsänderungen, 154 Verfahrensbeendigung ohne Sachentscheidung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-taz-nsu-hh-20261123"></a>
+### taz
+
+**[Interview mit Carola Veit zur Aufarbeitung des NSU-Komplexes](https://taz.de/NSU-Mord-an-Sueleyman-Taskoeprue/!6193181/)**
+
+taz · 2026-11-23 · Stufe **B** · Primärquelle · `SRC-DE-TAZ-NSU-HH-20261123`
+
+[Seite öffnen](https://taz.de/NSU-Mord-an-Sueleyman-Taskoeprue/!6193181/)
+
+Fundstelle: Antworten zu Vergleichsverhandlungen, Unterstützungssignalen 2023 und Ablehnungsgründen
 
 </article>
 
@@ -6872,6 +6917,21 @@ National WWII Museum, New Orleans · 2019 · Stufe **B** · Sekundär-/Forschung
 [Seite öffnen](https://www.nationalww2museum.org/war/articles/major-glenn-miller-loss-icon)
 
 Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit Missing Air Crew Report und Verlustunterlagen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-ndr-nsu-hh-20261107"></a>
+### NDR / tagesschau
+
+**[NSU-Mord in Hamburg: Aufarbeitung tritt weiter auf der Stelle](https://www.tagesschau.de/inland/regional/hamburg/nsu-mord-in-hamburg-aufarbeitung-tritt-weiter-auf-der-stelle,nsu-302.html)**
+
+NDR / tagesschau · 2026-11-07 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDR-NSU-HH-20261107`
+
+[Seite öffnen](https://www.tagesschau.de/inland/regional/hamburg/nsu-mord-in-hamburg-aufarbeitung-tritt-weiter-auf-der-stelle,nsu-302.html)
+
+Fundstelle: Abschnitte zur fehlenden Akteneinsicht und zum gerichtlichen Verfahren
 
 </article>
 

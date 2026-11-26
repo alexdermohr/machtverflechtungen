@@ -5536,3 +5536,51 @@ sources:
   accessed: "2026-11-26"
   locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
   notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
+
+- id: SRC-DE-BT-NSU-219268-2026
+  title: "Stand laufender Ermittlungen im NSU-Komplex, BT-Drs. 21/9268"
+  institution: "Deutscher Bundestag / Bundesregierung"
+  date: '2026-11-16'
+  type: parliamentary_government_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/21/092/2109268.pdf
+  accessed: '2026-11-26'
+  locator: "S. 2–4, Fragen 1, 3–13; Vorabfassung"
+  notes: "Fragen und Antworten getrennt; die Auskunftsverweigerung bestätigt keine Annahmen der Fragesteller."
+
+- id: SRC-DE-HH-NSU-BEIRAT-20260330
+  title: "Beiratssitzung zum Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"
+  institution: Hamburgische Bürgerschaft
+  date: '2026-03-30'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-beiratssitzung-zum-forschungsprojekt-zur-aufarbeitung-des-nsu-komplexes-1160896
+  accessed: '2026-11-26'
+  locator: "Absätze zu Akteneinsicht und Zusammenarbeit mit Hamburger Behörden"
+  notes: "Amtliche Mitteilung zum negativen Bescheid und gerichtlichen Streit; kein Originalbescheid oder Urteil."
+
+- id: SRC-DE-NDR-NSU-HH-20261107
+  title: "NSU-Mord in Hamburg: Aufarbeitung tritt weiter auf der Stelle"
+  institution: NDR / tagesschau
+  date: '2026-11-07'
+  type: journalism
+  primary: false
+  tier: B
+  url: https://www.tagesschau.de/inland/regional/hamburg/nsu-mord-in-hamburg-aufarbeitung-tritt-weiter-auf-der-stelle,nsu-302.html
+  accessed: '2026-11-26'
+  locator: "Abschnitte zur fehlenden Akteneinsicht und zum gerichtlichen Verfahren"
+  notes: "Sekundärbericht über fortbestehenden Zugangskonflikt; keine gerichtliche Entscheidung."
+
+- id: SRC-DE-TAZ-NSU-HH-20261123
+  title: "Interview mit Carola Veit zur Aufarbeitung des NSU-Komplexes"
+  institution: taz
+  date: '2026-11-23'
+  type: interview
+  primary: true
+  tier: B
+  url: https://taz.de/NSU-Mord-an-Sueleyman-Taskoeprue/!6193181/
+  accessed: '2026-11-26'
+  locator: "Antworten zu Vergleichsverhandlungen, Unterstützungssignalen 2023 und Ablehnungsgründen"
+  notes: "Direkte Aussage einer Verfahrensbeteiligten, kein Originalbescheid oder bestätigter Aktenzugang."

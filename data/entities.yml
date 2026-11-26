@@ -2913,3 +2913,14 @@ entities:
     name: "World Health Organization (WHO)"
     countries: []
     notes: ""
+
+  - id: ORG-DE-GBA-NSU-2026
+    type: prosecution_authority
+    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"
+    countries: [DE]
+    notes: "Zeitbezogener Datensatz, getrennt vom historischen Datensatz 1952–1953."
+
+  - id: PRG-DE-HH-NSU-FORSCHUNG
+    type: research_project
+    name: "Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"
+    countries: [DE]

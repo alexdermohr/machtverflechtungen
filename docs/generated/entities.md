@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**514 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**516 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -322,6 +322,7 @@
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
+| Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026) | prosecution_authority | `ORG-DE-GBA-NSU-2026` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
@@ -331,6 +332,7 @@
 | Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
+| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
