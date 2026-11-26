@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**489 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**492 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1400,6 +1400,21 @@ Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontak
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-bverwg-nsu-2c4118-2020"></a>
+### Bundesverwaltungsgericht
+
+**[Anspruch der Presse auf Auskunft aus den Akten eines abgeschlossenen Disziplinarverfahrens, BVerwG 2 C 41.18](https://www.bverwg.de/131020U2C41.18.0)**
+
+Bundesverwaltungsgericht · 2020-10-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-NSU-2C4118-2020`
+
+[Seite öffnen](https://www.bverwg.de/131020U2C41.18.0)
+
+Fundstelle: Tenor; Rn. 30–31, 47–52, 61
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1984">
 
 <a id="src-it-p2-anselmi-report-1984"></a>
@@ -2282,6 +2297,21 @@ Deutscher Bundestag / Bundesregierung · 2020-09-24 · Stufe **A** · Primärque
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_09/794448-794448)
 
 Fundstelle: Absatz 1-3; Stand und Grenzen der Ermittlungen zur Beteiligung weiterer Personen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bt-nsu-1931301-2021"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Ergänzende Antwort zu Aktenvernichtungen im BfV im NSU-Kontext, BT-Drs. 19/31301](https://dserver.bundestag.de/btd/19/313/1931301.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2021-06-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1931301-2021`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/313/1931301.pdf)
+
+Fundstelle: S. 2–4, Fragen 2–9
 
 </article>
 
@@ -3302,6 +3332,21 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-nrw-nsu-17823-2018"></a>
+### Ministerium der Justiz Nordrhein-Westfalen / Landtag NRW
+
+**[Ermittlungsverfahren wegen Aktenvernichtung im BfV eingestellt, Vorlage 17/823](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV17-823.pdf)**
+
+Ministerium der Justiz Nordrhein-Westfalen / Landtag NRW · 2018-05-30 · Stufe **A** · Primärquelle · `SRC-DE-NRW-NSU-17823-2018`
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV17-823.pdf)
+
+Fundstelle: Gedruckte S. 2–6, TOP 14 der Rechtsausschusssitzung; Sachstand Zahlung 22.05.2018
 
 </article>
 

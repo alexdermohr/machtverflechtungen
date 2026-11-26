@@ -6151,3 +6151,30 @@ relations:
     period: {start: "2026-03-30", end: "2026-11-23"}
     evidence_level: established
     sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123]
+
+  - id: REL-DE-NSU-LINGEN-STA-2018-001
+    from: ORG-DE-STA-KOELN
+    to: PER-DE-LOTHAR-LINGEN
+    type: conditional_proceedings_discontinuance
+    label: "Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"
+    period: {start: "2018-03-16"}
+    evidence_level: established
+    sources: [SRC-DE-NRW-NSU-17823-2018]
+
+  - id: REL-DE-NSU-LINGEN-BFV-2013-001
+    from: ORG-DE-BFV
+    to: PER-DE-LOTHAR-LINGEN
+    type: disciplinary_proceedings
+    label: "Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"
+    period: {start: "2012-06-27", end: "2013-12-16"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1931301-2021]
+
+  - id: REL-DE-NSU-BVERWG-BFV-2020-001
+    from: ORG-DE-BVERWG
+    to: ORG-DE-BFV
+    type: affirmed_partial_press_disclosure
+    label: "Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"
+    period: {start: "2020-10-13"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-NSU-2C4118-2020]

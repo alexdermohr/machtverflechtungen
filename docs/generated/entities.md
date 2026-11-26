@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**516 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**519 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -78,6 +78,7 @@
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
+| Lothar Lingen (dienstlicher Deckname) | person | `PER-DE-LOTHAR-LINGEN` | DE | [2](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
@@ -217,7 +218,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [2](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [4](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -231,6 +232,7 @@
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
+| Bundesverwaltungsgericht | court | `ORG-DE-BVERWG` | DE | [1](network.md#rel-de-nsu-bverwg-bfv-2020-001) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [17](network.md#rel-de-mni-006) |
@@ -445,6 +447,7 @@
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
+| Staatsanwaltschaft Köln | prosecution_authority | `ORG-DE-STA-KOELN` | DE | [1](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |

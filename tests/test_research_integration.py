@@ -465,7 +465,10 @@ class ResearchIntegrationTests(unittest.TestCase):
                 ["REL-DE-BDJ-001", "REL-DE-BDJ-002"],
             "nsu-komplex-skandale-belegmatrix-1994-2026.md":
                 ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001",
-                 "REL-DE-NSU-HH-GBA-2026-001"],
+                 "REL-DE-NSU-HH-GBA-2026-001",
+                 "REL-DE-NSU-LINGEN-STA-2018-001",
+                 "REL-DE-NSU-LINGEN-BFV-2013-001",
+                 "REL-DE-NSU-BVERWG-BFV-2020-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":

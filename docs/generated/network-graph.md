@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**684 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**687 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1211,6 +1211,12 @@ flowchart LR
     N_ORG_DE_GBA_NSU_2026["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"]
     N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
     N_ORG_DE_GBA_NSU_2026 -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
+    N_ORG_DE_STA_KOELN["Staatsanwaltschaft Köln"]
+    N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
+    N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN
+    N_ORG_DE_BFV -->|"Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"| N_PER_DE_LOTHAR_LINGEN
+    N_ORG_DE_BVERWG["Bundesverwaltungsgericht"]
+    N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
 ```
 
 [Zur Relationstabelle](network.md)

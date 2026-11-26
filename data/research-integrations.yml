@@ -269,13 +269,16 @@ studies:
       - REL-DE-BDJ-002
 
   nsu-komplex-skandale-belegmatrix-1994-2026.md:
-    sha256: ca89a0ece8b24c811950bf5244acb9a36ac2a77283e5ced802806f4f916b9d1f
+    sha256: 12bb68da7d3196e4ada298afd926a1b0dd11b295be2abfcff8114180cf56e8f8
     status: network
     relation_ids:
       - REL-DE-THS-001
       - REL-DE-THS-002
       - REL-DE-UKC18-001
       - REL-DE-NSU-HH-GBA-2026-001
+      - REL-DE-NSU-LINGEN-STA-2018-001
+      - REL-DE-NSU-LINGEN-BFV-2013-001
+      - REL-DE-NSU-BVERWG-BFV-2020-001
 
   britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md:
     sha256: 2f5f454403931bae190ed7cff2cd7530b95f68b81527b60d141560e4fcae0ca1
@@ -642,10 +645,13 @@ studies:
       - REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
 
   bfv-los-nsu-2011-2014.md:
-    sha256: 5c842b7164c402b685dd429abcceb75de8289412923988d59e0436407f97f08c
+    sha256: 2582c0fe29d48ec9a9f4dfdaf62b754e2eb74b112a47055bf84b3a1de2536a30
     status: network
     relation_ids:
       - REL-DE-NSU-AKT-001
+      - REL-DE-NSU-LINGEN-STA-2018-001
+      - REL-DE-NSU-LINGEN-BFV-2013-001
+      - REL-DE-NSU-BVERWG-BFV-2020-001
 
   p2-gelli-argentinien-rizzoli-cia-sisde-1974-1983.md:
     sha256: 8ddc049e97cc229e6fc53b616746f8a8a85f404a379b60503d1bcde935933a43

@@ -2924,3 +2924,19 @@ entities:
     type: research_project
     name: "Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"
     countries: [DE]
+
+  - id: PER-DE-LOTHAR-LINGEN
+    type: person
+    name: "Lothar Lingen (dienstlicher Deckname)"
+    countries: [DE]
+    notes: "Ehemaliger BfV-Referatsleiter; öffentliche amtliche Decknamensbezeichnung."
+
+  - id: ORG-DE-STA-KOELN
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Köln"
+    countries: [DE]
+
+  - id: ORG-DE-BVERWG
+    type: court
+    name: "Bundesverwaltungsgericht"
+    countries: [DE]

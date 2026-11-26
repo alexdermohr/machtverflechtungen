@@ -5584,3 +5584,39 @@ sources:
   accessed: '2026-11-26'
   locator: "Antworten zu Vergleichsverhandlungen, Unterstützungssignalen 2023 und Ablehnungsgründen"
   notes: "Direkte Aussage einer Verfahrensbeteiligten, kein Originalbescheid oder bestätigter Aktenzugang."
+
+- id: SRC-DE-NRW-NSU-17823-2018
+  title: "Ermittlungsverfahren wegen Aktenvernichtung im BfV eingestellt, Vorlage 17/823"
+  institution: "Ministerium der Justiz Nordrhein-Westfalen / Landtag NRW"
+  date: '2018-05-30'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV17-823.pdf
+  accessed: '2026-11-26'
+  locator: "Gedruckte S. 2–6, TOP 14 der Rechtsausschusssitzung; Sachstand Zahlung 22.05.2018"
+  notes: "Amtlicher Bericht auf Grundlage staatsanwaltschaftlicher Berichte, keine Einsicht in die Strafakten. Nachvernichtung frühestens 14.11.2011 laut Zeugin; Beschuldigter räumte Anordnung am 14.11. ein."
+
+- id: SRC-DE-BT-NSU-1931301-2021
+  title: "Ergänzende Antwort zu Aktenvernichtungen im BfV im NSU-Kontext, BT-Drs. 19/31301"
+  institution: "Deutscher Bundestag / Bundesregierung"
+  date: '2021-06-30'
+  type: parliamentary_government_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/313/1931301.pdf
+  accessed: '2026-11-26'
+  locator: "S. 2–4, Fragen 2–9"
+  notes: "Offene Regierungsantwort, kein Zugang zu eingestuften Beilagen."
+
+- id: SRC-DE-BVERWG-NSU-2C4118-2020
+  title: "Anspruch der Presse auf Auskunft aus den Akten eines abgeschlossenen Disziplinarverfahrens, BVerwG 2 C 41.18"
+  institution: Bundesverwaltungsgericht
+  date: '2020-10-13'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/131020U2C41.18.0
+  accessed: '2026-11-26'
+  locator: "Tenor; Rn. 30–31, 47–52, 61"
+  notes: "Teilweiser Auskunftsanspruch, keine strafrechtliche Beurteilung der Aktenvernichtung."
