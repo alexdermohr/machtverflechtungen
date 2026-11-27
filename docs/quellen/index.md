@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**536 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**543 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-amri-be-ua-2021) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-amri-be-ua-2021) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-lenz-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-gvobl-2016-203) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
@@ -3425,6 +3425,36 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-mv-lenz-2020"></a>
+### Innenministerium Mecklenburg-Vorpommern
+
+**[Innenministerium: Staatssekretär Lenz zum Umgang mit Hinweisen im Fall Amri](https://www.presseportal.de/blaulicht/pm/108531/4789153)**
+
+Innenministerium Mecklenburg-Vorpommern · 2020-12-11 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LENZ-2020`
+
+[Seite öffnen](https://www.presseportal.de/blaulicht/pm/108531/4789153)
+
+Fundstelle: Erklärung zur Unterrichtung der PKK am 03.12.2019
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-vsb-2024"></a>
+### Innenministerium Mecklenburg-Vorpommern
+
+**[Verfassungsschutzbericht 2024, Gesetzesanhang](https://www.verfassungsschutz-mv.de/serviceassistent/download?id=1680733)**
+
+Innenministerium Mecklenburg-Vorpommern · 2025 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-VSB-2024`
+
+[Seite öffnen](https://www.verfassungsschutz-mv.de/serviceassistent/download?id=1680733)
+
+Fundstelle: S. 174–175, 181–182
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-mv-kommission-2021"></a>
@@ -3650,6 +3680,36 @@ Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-amri-mv-gvobl-2016-203"></a>
+### Land Mecklenburg-Vorpommern
+
+**[Änderungsgesetz vom 25. April 2016](https://www.regierung-mv.de/static/Regierungsportal/Justizministerium/Inhalte/Rechtliches/GVOBI.M-V/Dateien/GVOBl_0844878.pdf)**
+
+Land Mecklenburg-Vorpommern · 2016-04-25 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-2016-203`
+
+[PDF öffnen](https://www.regierung-mv.de/static/Regierungsportal/Justizministerium/Inhalte/Rechtliches/GVOBI.M-V/Dateien/GVOBl_0844878.pdf)
+
+Fundstelle: GVOBl. Nr. 8 vom 13.05.2016, S. 203, 205–206, Art. 1 Nr. 10
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-gvobl-2026-original"></a>
+### Land Mecklenburg-Vorpommern
+
+**[Gesetz- und Verordnungsblatt Nr. 17/2026, Änderung des Landesverfassungsschutzgesetzes](https://land-mv.de/sites/default/files/2026-06/GVOBl.%20Nr.%2017%20v.%2029.6.2026.pdf)**
+
+Land Mecklenburg-Vorpommern · 2026-06-11 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-2026-ORIGINAL`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-06/GVOBl.%20Nr.%2017%20v.%2029.6.2026.pdf)
+
+Fundstelle: Ausgabe 29.06.2026, S. 551–568, insbesondere 558–560, 562, 565–566, 568
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-amri-mv-lverfg-725"></a>
@@ -3710,6 +3770,36 @@ Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jew
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-de-amri-mv-lt-31919"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Entwurf Landesverfassungsschutzgesetz, Drs. 3/1919](https://www.dokumentation.landtag-mv.de/parldok/dokument/2510/gesetz_ueber_den_verfassungsschutz_im_lande_mecklenburg_vorpommern_landesverfassungsschutzgesetz_lve.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2001 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-31919`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/2510/gesetz_ueber_den_verfassungsschutz_im_lande_mecklenburg_vorpommern_landesverfassungsschutzgesetz_lve.pdf)
+
+Fundstelle: S. 17, 32, 38
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-mv-rechtsgrundlagen-2020"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Rechtsgrundlagen des Landtags, Stand Januar 2020](https://www.landtag-mv.de/fileadmin/Publikationen/Publikationen_Archiv/Rechtsgrundlagen_Stand-Januar_2020_web.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2020 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-RECHTSGRUNDLAGEN-2020`
+
+[PDF öffnen](https://www.landtag-mv.de/fileadmin/Publikationen/Publikationen_Archiv/Rechtsgrundlagen_Stand-Januar_2020_web.pdf)
+
+Fundstelle: S. 233–236, insbesondere 235
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-de-amri-mv-pkk-84827"></a>
@@ -3737,6 +3827,21 @@ Landtag Mecklenburg-Vorpommern · 2025-07-08 · Stufe **A** · Primärquelle · 
 [Seite öffnen](https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission)
 
 Fundstelle: Ankündigung der Sitzung am 10.07.2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-86499"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Beschlussempfehlung zur Änderung des Landesverfassungsschutzgesetzes, Drs. 8/6499](https://www.dokumentation.landtag-mv.de/parldok/dokument/71157)**
+
+Landtag Mecklenburg-Vorpommern · 2026 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-86499`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/71157)
+
+Fundstelle: S. 7–8, §§ 29, 29a
 
 </article>
 

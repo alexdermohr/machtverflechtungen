@@ -6103,3 +6103,80 @@ sources:
   accessed: '2026-11-27'
   locator: Ankündigung der Sitzung am 10.07.2025
   notes: Ankündigung belegt keine tatsächliche Durchführung.
+- id: SRC-DE-AMRI-MV-LENZ-2020
+  title: 'Innenministerium: Staatssekretär Lenz zum Umgang mit Hinweisen im Fall Amri'
+  institution: Innenministerium Mecklenburg-Vorpommern
+  date: '2020-12-11'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.presseportal.de/blaulicht/pm/108531/4789153
+  accessed: '2026-11-27'
+  locator: Erklärung zur Unterrichtung der PKK am 03.12.2019
+  notes: Selbstauskunft desselben Zeugen wie Q48, keine unabhängige Bestätigung.
+- id: SRC-DE-AMRI-MV-LT-31919
+  title: Entwurf Landesverfassungsschutzgesetz, Drs. 3/1919
+  institution: Landtag Mecklenburg-Vorpommern
+  date: '2001'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.dokumentation.landtag-mv.de/parldok/dokument/2510/gesetz_ueber_den_verfassungsschutz_im_lande_mecklenburg_vorpommern_landesverfassungsschutzgesetz_lve.pdf
+  accessed: '2026-11-27'
+  locator: S. 17, 32, 38
+  notes: Entwurf und Begründung zur besonderen Kontrolle der Übermittlungsverweigerung.
+- id: SRC-DE-AMRI-MV-GVOBL-2016-203
+  title: Änderungsgesetz vom 25. April 2016
+  institution: Land Mecklenburg-Vorpommern
+  date: '2016-04-25'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.regierung-mv.de/static/Regierungsportal/Justizministerium/Inhalte/Rechtliches/GVOBI.M-V/Dateien/GVOBl_0844878.pdf
+  accessed: '2026-11-27'
+  locator: GVOBl. Nr. 8 vom 13.05.2016, S. 203, 205–206, Art. 1 Nr. 10
+  notes: Verschiebung des bisherigen § 20 Abs. 4 zu Abs. 5.
+- id: SRC-DE-AMRI-MV-RECHTSGRUNDLAGEN-2020
+  title: Rechtsgrundlagen des Landtags, Stand Januar 2020
+  institution: Landtag Mecklenburg-Vorpommern
+  date: '2020'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.landtag-mv.de/fileadmin/Publikationen/Publikationen_Archiv/Rechtsgrundlagen_Stand-Januar_2020_web.pdf
+  accessed: '2026-11-27'
+  locator: S. 233–236, insbesondere 235
+  notes: Amtliche Gesetzeswiedergabe mit fortbestehendem altem Verweis.
+- id: SRC-DE-AMRI-MV-VSB-2024
+  title: Verfassungsschutzbericht 2024, Gesetzesanhang
+  institution: Innenministerium Mecklenburg-Vorpommern
+  date: '2025'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.verfassungsschutz-mv.de/serviceassistent/download?id=1680733
+  accessed: '2026-11-27'
+  locator: S. 174–175, 181–182
+  notes: Amtliche Wiedergabe der alten Verweigerungsnorm und des überholten Kontrollverweises.
+- id: SRC-DE-AMRI-MV-LT-86499
+  title: Beschlussempfehlung zur Änderung des Landesverfassungsschutzgesetzes, Drs. 8/6499
+  institution: Landtag Mecklenburg-Vorpommern
+  date: '2026'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.dokumentation.landtag-mv.de/parldok/dokument/71157
+  accessed: '2026-11-27'
+  locator: S. 7–8, §§ 29, 29a
+  notes: Fortbestehen des Verweises auf § 20 Abs. 5 Satz 3 im Gesetzgebungsverfahren.
+- id: SRC-DE-AMRI-MV-GVOBL-2026-ORIGINAL
+  title: Gesetz- und Verordnungsblatt Nr. 17/2026, Änderung des Landesverfassungsschutzgesetzes
+  institution: Land Mecklenburg-Vorpommern
+  date: '2026-06-11'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://land-mv.de/sites/default/files/2026-06/GVOBl.%20Nr.%2017%20v.%2029.6.2026.pdf
+  accessed: '2026-11-27'
+  locator: Ausgabe 29.06.2026, S. 551–568, insbesondere 558–560, 562, 565–566, 568
+  notes: Amtliches Verkündungsblatt direkt abgerufen und PDF-Text geprüft; ersetzt die bisherige Einschränkung fehlender Einsicht ins amtliche Original.
