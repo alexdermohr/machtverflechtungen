@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**577 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**580 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -7342,6 +7342,36 @@ Fundstelle: Abschnitte 'Die Staatssicherheit als Insider', 'Irreführung der USA
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1971">
+
+<a id="src-de-stasi-pullach-intern-1971-ed"></a>
+### Bundesarchiv, Stasi-Unterlagen-Archiv
+
+**[Auswertung der Artikelserie Pullach intern (30.07.1971), editorische Anmerkung zu Kurt Weiß](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)**
+
+Bundesarchiv, Stasi-Unterlagen-Archiv · 1971-07-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-STASI-PULLACH-INTERN-1971-ED`
+
+[Seite öffnen](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)
+
+Fundstelle: BArch, MfS, ZAIG 5000, Bl. 1–19 (5. Expl.), K 1/25; Anm. 10 (moderne editorische Anmerkung; URL-Jahrgang 1968 irreführend)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
+
+<a id="src-de-bnd-mfg-dynamit-2014"></a>
+### Bundesnachrichtendienst, Forschungs- und Arbeitsgruppe Geschichte des BND
+
+**[Der Bundesnachrichtendienst und das Filmprojekt Mr. Dynamit (MFGBND 7/2014)](https://multimedia.gsb.bund.de/BND/Importer-Downloads/mfg7bnd.pdf)**
+
+Bundesnachrichtendienst, Forschungs- und Arbeitsgruppe Geschichte des BND · 2014 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BND-MFG-DYNAMIT-2014`
+
+[PDF öffnen](https://multimedia.gsb.bund.de/BND/Importer-Downloads/mfg7bnd.pdf)
+
+Fundstelle: S. 9–20, 25–31; BND-Archiv 150.089; Faksimileanhang S. 32–58 (Nachprüfziele)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
 
 <a id="src-de-bpb-farin-scheinrevolution-2010"></a>
@@ -7622,6 +7652,21 @@ Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** ·
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)
 
 Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1967">
+
+<a id="src-de-dff-filmportal-dynamit"></a>
+### Deutsches Filminstitut & Filmmuseum (filmportal.de)
+
+**[Mister Dynamit – Morgen küßt Euch der Tod](https://www.filmportal.de/film/mister-dynamit-morgen-kuesst-euch-der-tod_3658af8436b744e1922b9480802ee603)**
+
+Deutsches Filminstitut & Filmmuseum (filmportal.de) · 1967 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-DFF-FILMPORTAL-DYNAMIT`
+
+[Seite öffnen](https://www.filmportal.de/film/mister-dynamit-morgen-kuesst-euch-der-tod_3658af8436b744e1922b9480802ee603)
+
+Fundstelle: Produktionsangaben und Credits, BR Deutschland/Spanien/Italien 1966/1967; Jahr bezeichnet Film, nicht Katalogpublikation
 
 </article>
 

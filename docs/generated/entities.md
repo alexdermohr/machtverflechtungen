@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**633 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**639 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -90,6 +90,7 @@
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
+| Kurt Weiß (Winterstein) | person | `PER-DE-KURT-WEISS-BND` | DE | [5](network.md#rel-de-bnd-dynamit-009) |
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
@@ -118,7 +119,7 @@
 | R. Ashley Lee | person | `PER-US-ASHLEY-LEE` | US | [2](network.md#rel-riggs-followup-020) |
 | R. James Woolsey | person | `PER-US-JAMES-WOOLSEY` | US | [2](network.md#rel-ulf-woolsey-marriage) |
 | Raymund Hörnle | person | `PER-DE-RAYMUND-HOERNLE` | DE | – |
-| Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE | [2](network.md#rel-de-gehlen-002) |
+| Reinhard Gehlen | person | `PER-DE-REINHARD-GEHLEN` | DE | [4](network.md#rel-de-gehlen-002) |
 | Robert Allbritton | person | `PER-US-ROBERT-ALLBRITTON` | US | [2](network.md#rel-riggs-followup-028) |
 | Robert Cutler (NSC-Sicherheitsberater 1953) | person | `PER-US-ROBERT-CUTLER-1953` | US | [1](network.md#rel-us-cutler-old-colony-president-1953) |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
@@ -136,6 +137,7 @@
 | Teodoro Nguema Obiang Mangue | person | `PER-GQ-TEODORO-NGUEMA-OBIANG-MANGUE` | GQ | [11](network.md#rel-riggs-post-2004-001) |
 | Teodoro Obiang Nguema Mbasogo | person | `PER-GQ-TEODORO-OBIANG` | GQ | [2](network.md#rel-riggs-followup-046) |
 | Theo Koll | person | `PER-DE-THEO-KOLL` | DE | [2](network.md#rel-de-tmn-025) |
+| Theo Maria Werner | person | `PER-DE-THEO-MARIA-WERNER` | DE | [3](network.md#rel-de-bnd-dynamit-007) |
 | Theo Sommer | person | `PER-DE-THEO-SOMMER` | DE | [2](network.md#rel-de-tmn-049) |
 | Thomas Ebeling | person | `PER-DE-THOMAS-EBELING` | DE | [1](network.md#rel-de-tmn-051) |
 | Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
@@ -201,6 +203,7 @@
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | ATSIGE (2000–2004) | company | `ORG-GQ-ATSIGE` | GQ | [1](network.md#rel-riggs-followup-060) |
+| Auswärtiges Amt (1966) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-005) |
 | Auswärtiges Amt (historisch, 1995–1996) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1996` | DE | [3](network.md#rel-mauss-diplomatie-005) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
@@ -263,13 +266,14 @@
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [12](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
+| Bundesministerium der Verteidigung (1966) | federal_ministry | `ORG-DE-BMVG-1966` | DE | [3](network.md#rel-de-bnd-dynamit-001) |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [32](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [38](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -277,7 +281,7 @@
 | Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
-| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [17](network.md#rel-de-mni-006) |
+| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Chile Copper Company (Anaconda-Tochter, 1972) | historical_mining_company_subsidiary | `ORG-CL-CHILE-COPPER-ANACONDA-1972` | US, CL | [4](network.md#rel-us-anaconda-chile-copper-subsidiary-1972) |
 | Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [13](network.md#rel-us-cia-chile-junta-propaganda-1973) |
@@ -490,7 +494,7 @@
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
-| Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [7](network.md#rel-de-gehlen-001) |
+| Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [8](network.md#rel-de-gehlen-001) |
 | Overseas Investment Insurance Group (OPIC-Mitversicherer 1975) | historical_private_insurance_group | `ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975` | US | [2](network.md#rel-us-opic-oiig-coinsurance-1975) |
 | Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [40](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Overseas Security Advisory Council (OSAC) | public_private_advisory_council | `ORG-US-OSAC` | US | [8](network.md#rel-ws-state-osac) |
@@ -499,6 +503,7 @@
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
+| Parnass-Film GmbH (München) | media_company | `ORG-DE-PARNASS-FILM-MUENCHEN` | DE | [5](network.md#rel-de-bnd-dynamit-001) |
 | Partido Demócrata Cristiano de Chile (PDC) | historical_political_party | `ORG-CL-CHRISTIAN-DEMOCRATS-1964` | CL | [1](network.md#rel-us-cia-pdc-campaign-1964) |
 | Perpetual Corporation (2004) | holding_company | `ORG-US-PERPETUAL-CORPORATION-2004` | US | [2](network.md#rel-riggs-followup-032) |
 | Petroquímica Dow S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-PETROQUIMICA-DOW-1974` | CL | [1](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
@@ -507,6 +512,7 @@
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
+| Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Procuraduría General de la Nación (Kolumbien) | government_agency | `ORG-CO-PGN` | CO | [1](network.md#rel-mauss-pmt-028) |
 | Public Law 108–458, Section 6303 (2004) | statute_document | `DOC-US-PL108-458-SEC6303` | US | [1](network.md#rel-riggs-followup-026) |
@@ -625,7 +631,7 @@
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [9](network.md#rel-de-urb-001) |
-| Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [1](network.md#rel-de-marienhof-011) |
+| Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [2](network.md#rel-de-marienhof-011) |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |

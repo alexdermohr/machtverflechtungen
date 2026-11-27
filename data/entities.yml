@@ -3572,3 +3572,37 @@ entities:
     name: Bundesministerium der Justiz und für Verbraucherschutz (2017)
     countries:
     - DE
+
+  - id: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: media_company
+    name: Parnass-Film GmbH (München)
+    countries:
+    - DE
+    notes: Filmproduktionsgesellschaft 1966/67; nicht mit Wiener Koproduktionsgesellschaft gleichsetzen.
+  - id: PER-DE-THEO-MARIA-WERNER
+    type: person
+    name: Theo Maria Werner
+    countries:
+    - DE
+    notes: Produzent von Mister Dynamit; Anfragen und Änderungszusagen im BND-Dossier 150.089.
+  - id: PER-DE-KURT-WEISS-BND
+    type: person
+    name: Kurt Weiß (Winterstein)
+    countries:
+    - DE
+    notes: Politische/strategische Aufklärung; Zuordnung nach BND-Edition und editorischer Anmerkung des Stasi-Unterlagen-Archivs; abweichende Lebens- und Funktionsdaten nicht vereinheitlicht.
+  - id: ORG-DE-BMVG-1966
+    type: federal_ministry
+    name: "Bundesministerium der Verteidigung (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der dokumentierten Filmproduktionsanfragen und Bedingungen 1966; keine Gleichsetzung mit späteren PSV-Fördervorgängen."
+  - id: ORG-DE-AUSWAERTIGES-AMT-1966
+    type: government_ministry
+    name: "Auswärtiges Amt (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Aussage über spätere Sponsoringvorgänge."
+  - id: ORG-DE-BUNDESPRESSEAMT-1966
+    type: government_agency
+    name: "Presse- und Informationsamt der Bundesregierung (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Gleichsetzung mit der CIA-Nachdruckverteilung 1953."
