@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**538 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**558 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1745,6 +1745,36 @@ Fundstelle: Heft Nr. 18, gedruckte S. 5, direktes Interview: Ulfkotte nennt mehr
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-es-cnmv-amadeus-idemia-2026"></a>
+### CNMV / Amadeus
+
+**[Amadeus: acquisition of IDEMIA Public Security](https://www.cnmv.es/webservices/verdocumento/ver?t=%7Be7c28992-aea1-4504-9266-b07d7dfae6a9%7D)**
+
+CNMV / Amadeus · 2026-07-23 · Stufe **A** · Primärquelle · `SRC-ES-CNMV-AMADEUS-IDEMIA-2026`
+
+[Seite öffnen](https://www.cnmv.es/webservices/verdocumento/ver?t=%7Be7c28992-aea1-4504-9266-b07d7dfae6a9%7D)
+
+Fundstelle: Bedingter Kaufvertrag und Brückenfinanzierung; Vollzug offen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-co-ce-17661-2011"></a>
+### Consejo de Estado
+
+**[Consejo de Estado, Radicación 25000-23-26-000-1997-03809-01 (17661)](https://consejodeestado.gov.co/documentos/boletines/PDF/25000-23-26-000-1997-03809-01%2817661%29.pdf)**
+
+Consejo de Estado · 2011-07-26 · Stufe **A** · Primärquelle · `SRC-CO-CE-17661-2011`
+
+[PDF öffnen](https://consejodeestado.gov.co/documentos/boletines/PDF/25000-23-26-000-1997-03809-01%2817661%29.pdf)
+
+Fundstelle: Abschnitte 1.1–1.10, 3.1, Tenor; Band 8 Bl.1911–1912
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
 
 <a id="src-us-sec-fncb-citibank-name-1976"></a>
@@ -1757,6 +1787,21 @@ Consumers Energy Company / JPMorgan Chase Bank, SEC EDGAR · 2005-04-13 · Stufe
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/201533/000129993305001684/exhibit1.htm)
 
 Fundstelle: Präambel, Umbenennung First National City Bank zu Citibank, N.A. wirksam 01.03.1976.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-co-cc-c293-2026"></a>
+### Corte Constitucional de Colombia
+
+**[Comunicado 28, Sentencia C-293/26, D-17041](https://www.corteconstitucional.gov.co/comunicados/comunicado-28-septiembre-9-y-10-de-2026.pdf?v=1791887834965)**
+
+Corte Constitucional de Colombia · 2026-09-10 · Stufe **A** · Primärquelle · `SRC-CO-CC-C293-2026`
+
+[PDF öffnen](https://www.corteconstitucional.gov.co/comunicados/comunicado-28-septiembre-9-y-10-de-2026.pdf?v=1791887834965)
+
+Fundstelle: Entscheidung 1/2, Begründung, Sondervoten
 
 </article>
 
@@ -2102,6 +2147,21 @@ Deutscher Bundestag · 1998 · Stufe **A** · Primärquelle · `SRC-DE-BT-131100
 [PDF öffnen](https://dserver.bundestag.de/btd/13/110/1311005.pdf)
 
 Fundstelle: gedruckte S. 55–57 (Vortrag), 72–74 (AA/BMVg-Bewilligung und Materialbereitstellung), 460 (Vorstandswahl) und 464–465 (Fahrzeugverbleib); Roeder und DRGW
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-de-bt-frieden-11345-1998"></a>
+### Deutscher Bundestag
+
+**[Schriftliche Fragen mit Antworten der Bundesregierung, Drs. 13/11345](https://dserver.bundestag.de/btd/13/113/1311345.pdf)**
+
+Deutscher Bundestag · 1998-08-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-FRIEDEN-11345-1998`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/113/1311345.pdf)
+
+Fundstelle: S. 1, Antwort Schmidbauer
 
 </article>
 
@@ -3047,6 +3107,21 @@ Financial Crimes Enforcement Network · 2007-09-17 · Stufe **A** · Primärquel
 [PDF öffnen](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)
 
 Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-fr-in-groupe-idemia-2025"></a>
+### Französisches Wirtschaftsministerium
+
+**[Création d'un champion mondial de l'identité](https://presse.economie.gouv.fr/creation-dun-champion-mondial-de-lidentite-letat-soutient-le-rachat-par-in-groupe-didemia-smart-identity/)**
+
+Französisches Wirtschaftsministerium · 2025-07-01 · Stufe **A** · Primärquelle · `SRC-FR-IN-GROUPE-IDEMIA-2025`
+
+[Seite öffnen](https://presse.economie.gouv.fr/creation-dun-champion-mondial-de-lidentite-letat-soutient-le-rachat-par-in-groupe-didemia-smart-identity/)
+
+Fundstelle: Erwerb Smart Identity, staatliche Kapitalunterstützung
 
 </article>
 
@@ -4023,6 +4098,21 @@ Fundstelle: Druckseite 11465: OPIC Board lehnte 09.04.1973 92,5 Mio. USD ITT-Ans
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-co-pa-x-frieden-1998"></a>
+### PA-X Peace Agreements Database
+
+**[Friedensabkommen Mainz/Himmelspforten vom 15.07.1998](https://www.peaceagreements.org/agreements/156/)**
+
+PA-X Peace Agreements Database · 1998-07-15 · Stufe **A** · Primärquelle · `SRC-CO-PA-X-FRIEDEN-1998`
+
+[Seite öffnen](https://www.peaceagreements.org/agreements/156/)
+
+Fundstelle: Art. 10, 21 und Parteien
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
 
 <a id="src-it-senato-stragi-2001"></a>
@@ -4065,6 +4155,96 @@ Procura Generale presso la Corte d'Appello di Bologna · 2024-01-27 · Stufe **A
 [PDF öffnen](https://pg-bologna.giustizia.it/cmsresources/cms/documents/relazione_anno_giudiziario_2024_PG_Bo_intero_1.pdf)
 
 Fundstelle: Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Verfahren; dem Gelli Finanzierungsrolle und D'Amato 850.000-USD-Position zugeschrieben; Interpretation des documento Bologna als Anschlagsbuchhaltung ausdrücklich 'a giudizio della Procura Generale'
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-co-pgn-sic-2026"></a>
+### Procuraduría General de la Nación
+
+**[Procuraduría sanciona extralimitación en visitas de SIC](https://www.procuraduria.gov.co/Pages/procuraduria-sanciona-extralimitacion-visitas-superintendencia-industria-comercio-entidades-publicas.aspx)**
+
+Procuraduría General de la Nación · 2026-03-17 · Stufe **A** · Primärquelle · `SRC-CO-PGN-SIC-2026`
+
+[Seite öffnen](https://www.procuraduria.gov.co/Pages/procuraduria-sanciona-extralimitacion-visitas-superintendencia-industria-comercio-entidades-publicas.aspx)
+
+Fundstelle: Erstinstanzliche Disziplinarentscheidung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-co-rnec-vertrag197-2005"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Transparencia para contratar la renovación de la cédula](https://www.registraduria.gov.co/Transparencia-para-contratar-la-renovacion-de-la-cedula.html)**
+
+Registraduría Nacional del Estado Civil · 2005-08-04 · Stufe **A** · Primärquelle · `SRC-CO-RNEC-VERTRAG197-2005`
+
+[Seite öffnen](https://www.registraduria.gov.co/Transparencia-para-contratar-la-renovacion-de-la-cedula.html)
+
+Fundstelle: Primera Fase; Vertrag Nr. 197
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-co-rnec-fedesoft-2005"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Espaldarazo al proceso de contratación de la Registraduría](https://www.registraduria.gov.co/Espaldarazo-al-proceso-de-contratacion-de-la-Registraduria.html)**
+
+Registraduría Nacional del Estado Civil · 2005-11-01 · Stufe **A** · Primärquelle · `SRC-CO-RNEC-FEDESOFT-2005`
+
+[Seite öffnen](https://www.registraduria.gov.co/Espaldarazo-al-proceso-de-contratacion-de-la-Registraduria.html)
+
+Fundstelle: Programas fuentes; Kriterien
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-co-rnec-cogent-2005"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Registraduría ganó tutela de Cogent](https://registraduria.gov.co/Registraduria-gano-tutela-de-Cogent.html)**
+
+Registraduría Nacional del Estado Civil · 2005-11-01 · Stufe **A** · Primärquelle · `SRC-CO-RNEC-COGENT-2005`
+
+[Seite öffnen](https://registraduria.gov.co/Registraduria-gano-tutela-de-Cogent.html)
+
+Fundstelle: Expediente 2005-01867-01
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-co-rnec-sagem-2005"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Adjudicación al Consorcio Sagem](https://registraduria.gov.co/Adjudicacion-al-Consorcio-Sagem.html)**
+
+Registraduría Nacional del Estado Civil · 2005-12-12 · Stufe **A** · Primärquelle · `SRC-CO-RNEC-SAGEM-2005`
+
+[Seite öffnen](https://registraduria.gov.co/Adjudicacion-al-Consorcio-Sagem.html)
+
+Fundstelle: Resolución 5421; Einladung 005/2005
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-co-rnec-direktvergabe-2020"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Acto administrativo de justificación de la contratación directa, Vertrag 002/2020](https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf)**
+
+Registraduría Nacional del Estado Civil · 2020 · Stufe **A** · Primärquelle · `SRC-CO-RNEC-DIREKTVERGABE-2020`
+
+[PDF öffnen](https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf)
+
+Fundstelle: S. 2–6
 
 </article>
 
@@ -4128,6 +4308,21 @@ Fundstelle: Item 5.02: Rücktritt Robert Allbritton, Hebert-Funktionen, related 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-co-secop-rnec-357549767-2023"></a>
+### RNEC / SECOP
+
+**[Estudios, documentos previos y análisis del sector](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=357549767&InCommunity=False&InPaymentGateway=False)**
+
+RNEC / SECOP · 2023 · Stufe **A** · Primärquelle · `SRC-CO-SECOP-RNEC-357549767-2023`
+
+[Seite öffnen](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=357549767&InCommunity=False&InPaymentGateway=False)
+
+Fundstelle: S. 18–21, 34–35
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
 
 <a id="src-de-rotehilfe-ruhland-1975"></a>
@@ -4140,6 +4335,21 @@ Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Prim�
 [PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
 
 Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-fr-safran-advent-2017"></a>
+### Safran
+
+**[Completion of sale of Safran's identity and security activities](https://www.safran-group.com/pressroom/completion-sale-safrans-identity-and-security-activities-2017-05-31)**
+
+Safran · 2017-05-31 · Stufe **A** · Primärquelle · `SRC-FR-SAFRAN-ADVENT-2017`
+
+[Seite öffnen](https://www.safran-group.com/pressroom/completion-sale-safrans-identity-and-security-activities-2017-05-31)
+
+Fundstelle: Abgeschlossener Verkauf an Advent, 2,4 Mrd. EUR
 
 </article>
 
@@ -4456,6 +4666,21 @@ Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-co-sic-rnec-2024"></a>
+### Superintendencia de Industria y Comercio
+
+**[La SIC imputa cargos a 9 funcionarios de la Registraduría](https://sedeelectronica.sic.gov.co/noticias/la-sic-imputa-cargos-9-funcionarios-de-la-registraduria-por-presuntamente-desatender-requerimientos-en-visita-administrativa)**
+
+Superintendencia de Industria y Comercio · 2024-11-08 · Stufe **A** · Primärquelle · `SRC-CO-SIC-RNEC-2024`
+
+[Seite öffnen](https://sedeelectronica.sic.gov.co/noticias/la-sic-imputa-cargos-9-funcionarios-de-la-registraduria-por-presuntamente-desatender-requerimientos-en-visita-administrativa)
+
+Fundstelle: Eröffnung; keine Feststellung von Schuld
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
 
 <a id="src-ws-br-stj-719548"></a>
@@ -4603,6 +4828,21 @@ Tom Schimmeck / zeitgenössische journalistische Reportage 1989 · 1989 · Stufe
 [Seite öffnen](https://www.schimmeck.de/Texte/psv.htm)
 
 Fundstelle: Zeitgenössische Recherche zu Zielgruppen, Vereinsfinanzierung und personellen Verbindungen der Psychologischen Verteidigung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2005">
+
+<a id="src-co-cogent-2005"></a>
+### Tribunal Administrativo de Cundinamarca / vLex
+
+**[Providencia 60, Expediente 2005-01867-01](https://vlex.com.co/vid/providencia-no-60-30543777)**
+
+Tribunal Administrativo de Cundinamarca / vLex · 2005-10-28 · Stufe **B** · Primärquelle · `SRC-CO-COGENT-2005`
+
+[Seite öffnen](https://vlex.com.co/vid/providencia-no-60-30543777)
+
+Fundstelle: Sachverhalt 6–8; gerichtliche Entscheidungsgründe
 
 </article>
 
@@ -6545,7 +6785,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6724,6 +6964,21 @@ Bilderberg Meetings · 2012 · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://publicintelligence.net/2012-bilderberg-meeting-participant-list/)
 
 Fundstelle: Matthias Nass, Chief International Correspondent, Die Zeit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-co-blu-sic-archivo-2026"></a>
+### Blu Radio
+
+**[SIC archiva investigación por obstrucción contra funcionarios de la Registraduría](https://www.bluradio.com/judicial/sic-archiva-investigacion-por-obstruccion-contra-funcionarios-de-la-registraduria-pr30)**
+
+Blu Radio · 2026-09-17 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-BLU-SIC-ARCHIVO-2026`
+
+[Seite öffnen](https://www.bluradio.com/judicial/sic-archiva-investigacion-por-obstruccion-contra-funcionarios-de-la-registraduria-pr30)
+
+Fundstelle: Bericht über Einstellung
 
 </article>
 
@@ -6917,6 +7172,21 @@ Central Intelligence Agency, Center for the Study of Intelligence · 1995 · Stu
 [Seite öffnen](https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-38-no-5/origins-of-the-congress-for-cultural-freedom-1949-1950/)
 
 Fundstelle: Retrospektive CIA-Hausgeschichte; CCF als verdeckte CIA-Operation, Trennung 1966; Melvin Lasky als Gründungsherausgeber des von der US-Besatzungsregierung getragenen Der Monat
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
+
+<a id="src-co-accord-14-frieden"></a>
+### Conciliation Resources
+
+**[Alternatives to war: Colombia's peace processes](https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Alternatives_to_war_Colombia%27s_peace_processes_Accord_Issue_14.pdf)**
+
+Conciliation Resources · 2004 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-ACCORD-14-FRIEDEN`
+
+[PDF öffnen](https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Alternatives_to_war_Colombia%27s_peace_processes_Accord_Issue_14.pdf)
+
+Fundstelle: S. 54–55
 
 </article>
 
@@ -7262,6 +7532,21 @@ El Espectador / CONNECTAS · 2018-06-24 · Stufe **B** · Sekundär-/Forschungsq
 [Seite öffnen](https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/)
 
 Fundstelle: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-co-karisma-cedula-2025"></a>
+### Fundación Karisma
+
+**[Análisis de la aplicación Cédula Digital](https://biblio.karisma.org.co/download/208/pdf/208.pdf)**
+
+Fundación Karisma · 2025-09 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-KARISMA-CEDULA-2025`
+
+[PDF öffnen](https://biblio.karisma.org.co/download/208/pdf/208.pdf)
+
+Fundstelle: S. 13–15, 44–46; Fn. 24/86; RNEC-E-2024-203754
 
 </article>
 
@@ -7682,6 +7967,21 @@ Regine Igel / Telepolis · 2010-06-13 · Stufe **C** · Sekundär-/Forschungsque
 [Seite öffnen](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all)
 
 Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1997">
+
+<a id="src-co-semana-villamil-1997"></a>
+### Semana
+
+**[Alguien miente](https://www.semana.com/nacion/articulo/alguien-miente/31731-3/)**
+
+Semana · 1997-02-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-SEMANA-VILLAMIL-1997`
+
+[Seite öffnen](https://www.semana.com/nacion/articulo/alguien-miente/31731-3/)
+
+Fundstelle: Aussage Villamil, Metromed und Memoranden
 
 </article>
 

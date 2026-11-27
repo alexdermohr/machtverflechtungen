@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**801 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**834 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1399,6 +1399,72 @@ flowchart LR
     N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch und Kartellverhandlungsabsicht bestritten"| N_ORG_US_BOTSCHAFT_BONN_1997
     N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA["Fiscalía Delegada ante el Tribunal Superior de Antioquia"]
     N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA -->|"EFE berichtet Einstellung des Entführungsverfahrens Mai 1998, aufgehobene Anklage und Ausreisebeschränkung; Originalentscheidung offen"| N_PER_DE_WERNER_MAUSS
+    N_PER_DE_WERNER_HOYER["Werner Hoyer"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte zwei- bis dreimalige Information Hoyers zu Sondierungen im Spätsommer; keine Weisung belegt"| N_PER_DE_WERNER_HOYER
+    N_PER_CO_CARLOS_VILLAMIL_CHAUX["Carlos Villamil Chaux"]
+    N_ORG_CO_METROMED_1996["Metromed (historisch, 1996)"]
+    N_PER_CO_CARLOS_VILLAMIL_CHAUX -->|"Semana referiert Beratungstätigkeit seit Mai 1996; Vertrag und Vergütung offen"| N_ORG_CO_METROMED_1996
+    N_PER_DE_WERNER_MAUSS -->|"Semana referiert durch Mauss vermittelte Gespräche Villamils mit Schmidbauer; Originalaussage offen"| N_PER_CO_CARLOS_VILLAMIL_CHAUX
+    N_ORG_DE_BISCHOFSKONFERENZ["Deutsche Bischofskonferenz"]
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Regierungsantwort bestätigt Beteiligung an Sondierungen unter Dach der Bischofskonferenzen 1996, keine Federführung 1998"| N_ORG_DE_BISCHOFSKONFERENZ
+    N_ORG_CO_ELN["Ejército de Liberación Nacional (ELN)"]
+    N_ORG_DE_BISCHOFSKONFERENZ -->|"Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt"| N_ORG_CO_ELN
+    N_ORG_CO_BISCHOFSKONFERENZ["Kolumbianische Bischofskonferenz"]
+    N_ORG_CO_BISCHOFSKONFERENZ -->|"Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt"| N_ORG_CO_ELN
+    N_PER_DE_HANS_LANGENDOERFER["Hans Langendörfer"]
+    N_PER_DE_HANS_LANGENDOERFER -->|"Accord beschreibt kirchliche Moderation des Friedensprozesses 1998"| N_ORG_CO_ELN
+    N_PER_DE_EMIL_STEHLE["Emil Stehle"]
+    N_PER_DE_EMIL_STEHLE -->|"Accord beschreibt kirchliche Moderation des Friedensprozesses 1998"| N_ORG_CO_ELN
+    N_ORG_DE_SIEMENS_NIXDORF_1996["Siemens Nixdorf AG (historisch, 1996)"]
+    N_PRG_CO_PMT_VERGABE_1996["PMT-Vergabeverfahren 1995/96"]
+    N_ORG_DE_SIEMENS_NIXDORF_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_SIEMENS_SA_1996["Siemens SA (Bieter, 1996)"]
+    N_ORG_CO_SIEMENS_SA_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_DE_BUNDESDRUCKEREI_1996["Bundesdruckerei (historisch, 1996)"]
+    N_ORG_DE_BUNDESDRUCKEREI_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_FR_SOFREMI_1996["SOFREMI (Bieter, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"Gericht dokumentiert Bewerbung SOFREMIs; kein Zuschlag im beendeten Verfahren"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_FR_SAGEM_SA_1997["Sagem SA (historisch, 1996/97)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_FR_SAGEM_SA_1997
+    N_ORG_CO_IBM_1996["IBM de Colombia (historisch, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_CO_IBM_1996
+    N_ORG_INT_POLAROID_CARIBBEAN_1996["Polaroid Caribbean Corporation (historisch, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_INT_POLAROID_CARIBBEAN_1996
+    N_ORG_CO_UNISYS_1996["Unisys de Colombia SA (historisch, 1996)"]
+    N_ORG_CO_UNISYS_1996 -->|"Gericht dokumentiert Bewerbung von Unisys de Colombia"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_RNEC["Registraduría Nacional del Estado Civil (RNEC)"]
+    N_ORG_CO_RNEC -->|"Resoluciones 6121 und 6578 beenden Verfahren; spätere gerichtliche Einschränkung der Begründung"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_CONSEJO_ESTADO["Consejo de Estado (Kolumbien)"]
+    N_ORG_CO_CONSEJO_ESTADO -->|"Sicherheitsbegründung unzureichend belegt, Beendigung wegen Nichterfüllung der Bedingungen aufrechterhalten; keine Fälschung festgestellt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_RNEC -->|"Vertrag Nr. 197 zur Modernisierung der Identifikationssysteme"| N_ORG_FR_SAGEM_SA_1997
+    N_ORG_CO_CONSORCIO_SAGEM_2005["Consorcio Sagem (Vergabe 2005)"]
+    N_ORG_CO_RNEC -->|"Zuschlag gemäß Resolución 5421, COP 366.515.160.231 einschließlich Mehrwertsteuer; kein Zahlungsnachweis"| N_ORG_CO_CONSORCIO_SAGEM_2005
+    N_ORG_US_COGENT_2005["Cogent Inc. (historisch, 2005)"]
+    N_ORG_US_COGENT_2005 -->|"Erfolglose Tutela gegen Vergabebedingungen; Gericht begründet legitimen IP-Vorsprung; keine generelle Rechtmäßigkeitsfeststellung"| N_ORG_CO_RNEC
+    N_ORG_CO_FEDESOFT["Federación Colombiana de la Industria del Software (FEDESOFT)"]
+    N_ORG_CO_FEDESOFT -->|"RNEC gibt positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend für Konkurrenz"| N_ORG_CO_RNEC
+    N_ORG_FR_SAGEM_SA_1997 -->|"Laut zeitgenössischer Gutachtenwiedergabe verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt"| N_ORG_CO_RNEC
+    N_ORG_CO_IDEMIA_900060799["IDEMIA Identity & Security Sucursal Colombia"]
+    N_ORG_CO_IDEMIA_900060799 -->|"Verwaltungsakt und SECOP-Vorstudie begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige Feststellung der Alternativlosigkeit"| N_ORG_CO_RNEC
+    N_ORG_CO_FUNDACION_KARISMA["Fundación Karisma"]
+    N_ORG_CO_FUNDACION_KARISMA -->|"Auskunftsersuchen RNEC-E-2024-203754; Bericht über nur teilweise Antwort und Einwand nationaler Sicherheit"| N_ORG_CO_RNEC
+    N_ORG_CO_IDEMIA_900060799 -->|"Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung; RNEC bestreitet Weitergabe von Bürgerdaten"| N_ORG_CO_RNEC
+    N_ORG_CO_SIC["Superintendencia de Industria y Comercio (SIC)"]
+    N_ORG_CO_SIC -->|"SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen; keine Schuld festgestellt"| N_ORG_CO_RNEC
+    N_ORG_CO_PGN["Procuraduría General de la Nación (Kolumbien)"]
+    N_ORG_CO_PGN -->|"Erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; Rechtsmittel offen"| N_ORG_CO_SIC
+    N_ORG_CO_CORTE_CONSTITUCIONAL["Corte Constitucional de Colombia"]
+    N_ORG_CO_CORTE_CONSTITUCIONAL -->|"C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung betroffener Verfahren an"| N_ORG_CO_SIC
+    N_ORG_CO_SIC -->|"Blu Radio berichtet Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit; Originalbescheid offen"| N_ORG_CO_RNEC
+    N_ORG_US_ADVENT_INTERNATIONAL["Advent International"]
+    N_ORG_FR_SAFRAN_IDSEC_2017["Safran Identity & Security (veräußertes Geschäft, 2017)"]
+    N_ORG_US_ADVENT_INTERNATIONAL -->|"Safran bestätigt abgeschlossenen Verkauf seines Identity-&-Security-Geschäfts an Advent für 2,4 Mrd. EUR"| N_ORG_FR_SAFRAN_IDSEC_2017
+    N_ORG_FR_IN_GROUPE["IN Groupe"]
+    N_ORG_FR_IDEMIA_SMART_IDENTITY["IDEMIA Smart Identity"]
+    N_ORG_FR_IN_GROUPE -->|"Französische Regierung bestätigt Erwerb Smart Identity durch staatseigene IN Groupe; keine Aussage zu Public Security"| N_ORG_FR_IDEMIA_SMART_IDENTITY
+    N_ORG_ES_AMADEUS["Amadeus IT Group"]
+    N_ORG_FR_IDEMIA_PUBLIC_SECURITY["IDEMIA Public Security"]
+    N_ORG_ES_AMADEUS -->|"Kaufvertrag 1,2 Mrd. EUR plus mögliche Zusatzleistung; regulatorisch bedingter Vollzug offen"| N_ORG_FR_IDEMIA_PUBLIC_SECURITY
 ```
 
 [Zur Relationstabelle](network.md)

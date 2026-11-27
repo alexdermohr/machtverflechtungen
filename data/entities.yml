@@ -3326,3 +3326,177 @@ entities:
     countries:
     - CO
     notes: Laut EFE zuständige Staatsanwaltschaft für Verfahrensentscheidung Mai 1998.
+  - id: PER-DE-WERNER-HOYER
+    type: person
+    name: Werner Hoyer
+    countries:
+    - DE
+    notes: Staatsminister im Auswärtigen Amt im untersuchten Zeitraum.
+  - id: PER-CO-CARLOS-VILLAMIL-CHAUX
+    type: person
+    name: Carlos Villamil Chaux
+    countries:
+    - CO
+    notes: Ehemaliger Diplomat; Beratungstätigkeit und Kontakte laut Semana.
+  - id: ORG-CO-METROMED-1996
+    type: company
+    name: Metromed (historisch, 1996)
+    countries:
+    - CO
+    notes: Name laut Semana; genaue Rechtsträgeridentität und Abgrenzung zum Metroprojekt offen.
+  - id: ORG-DE-BISCHOFSKONFERENZ
+    type: religious_organization
+    name: Deutsche Bischofskonferenz
+    countries:
+    - DE
+  - id: ORG-CO-BISCHOFSKONFERENZ
+    type: religious_organization
+    name: Kolumbianische Bischofskonferenz
+    countries:
+    - CO
+  - id: ORG-CO-ELN
+    type: armed_group
+    name: Ejército de Liberación Nacional (ELN)
+    countries:
+    - CO
+  - id: PER-DE-HANS-LANGENDOERFER
+    type: person
+    name: Hans Langendörfer
+    countries:
+    - DE
+  - id: PER-DE-EMIL-STEHLE
+    type: person
+    name: Emil Stehle
+    countries:
+    - DE
+  - id: ORG-CO-RNEC
+    type: government_agency
+    name: Registraduría Nacional del Estado Civil (RNEC)
+    countries:
+    - CO
+  - id: ORG-CO-CONSEJO-ESTADO
+    type: court
+    name: Consejo de Estado (Kolumbien)
+    countries:
+    - CO
+  - id: PRG-CO-PMT-VERGABE-1996
+    type: procurement_case
+    name: PMT-Vergabeverfahren 1995/96
+    countries:
+    - CO
+    notes: Verfahren 1996 beendet, von späterer Vergabe 1997 getrennt.
+  - id: ORG-DE-SIEMENS-NIXDORF-1996
+    type: company
+    name: Siemens Nixdorf AG (historisch, 1996)
+    countries:
+    - DE
+  - id: ORG-CO-SIEMENS-SA-1996
+    type: company
+    name: Siemens SA (Bieter, 1996)
+    countries:
+    - CO
+    notes: Historischer Rechtsträger laut Vergabeurteil, keine pauschale Konzernidentität.
+  - id: ORG-DE-BUNDESDRUCKEREI-1996
+    type: company
+    name: Bundesdruckerei (historisch, 1996)
+    countries:
+    - DE
+  - id: ORG-FR-SOFREMI-1996
+    type: company
+    name: SOFREMI (Bieter, 1996)
+    countries:
+    - FR
+  - id: ORG-FR-SAGEM-SA-1997
+    type: company
+    name: Sagem SA (historisch, 1996/97)
+    countries:
+    - FR
+  - id: ORG-CO-IBM-1996
+    type: company
+    name: IBM de Colombia (historisch, 1996)
+    countries:
+    - CO
+  - id: ORG-INT-POLAROID-CARIBBEAN-1996
+    type: company
+    name: Polaroid Caribbean Corporation (historisch, 1996)
+    countries: []
+  - id: ORG-CO-UNISYS-1996
+    type: company
+    name: Unisys de Colombia SA (historisch, 1996)
+    countries:
+    - CO
+  - id: ORG-CO-CONSORCIO-SAGEM-2005
+    type: consortium
+    name: Consorcio Sagem (Vergabe 2005)
+    countries:
+    - CO
+    notes: Von Sagem SA 1997 und einzelnen Konsortialmitgliedern getrennt.
+  - id: ORG-US-COGENT-2005
+    type: company
+    name: Cogent Inc. (historisch, 2005)
+    countries:
+    - US
+  - id: ORG-CO-FEDESOFT
+    type: industry_association
+    name: Federación Colombiana de la Industria del Software (FEDESOFT)
+    countries:
+    - CO
+  - id: ORG-CO-IDEMIA-900060799
+    type: company
+    name: IDEMIA Identity & Security Sucursal Colombia
+    countries:
+    - CO
+    - FR
+    notes: Historische kolumbianische Niederlassung NIT 900060799-7; nicht automatisch mit IDEMIA Public Security
+      – Sucursal Colombia gleichzusetzen.
+  - id: ORG-CO-FUNDACION-KARISMA
+    type: civil_society_organization
+    name: Fundación Karisma
+    countries:
+    - CO
+  - id: ORG-CO-SIC
+    type: regulatory_authority
+    name: Superintendencia de Industria y Comercio (SIC)
+    countries:
+    - CO
+  - id: ORG-CO-PGN
+    type: government_agency
+    name: Procuraduría General de la Nación (Kolumbien)
+    countries:
+    - CO
+  - id: ORG-CO-CORTE-CONSTITUCIONAL
+    type: court
+    name: Corte Constitucional de Colombia
+    countries:
+    - CO
+  - id: ORG-FR-SAFRAN-IDSEC-2017
+    type: business_division
+    name: Safran Identity & Security (veräußertes Geschäft, 2017)
+    countries:
+    - FR
+    notes: Verkaufsgegenstand laut Safran; keine automatische Gleichsetzung aller Tochtergesellschaften.
+  - id: ORG-US-ADVENT-INTERNATIONAL
+    type: investment_firm
+    name: Advent International
+    countries:
+    - US
+  - id: ORG-FR-IDEMIA-SMART-IDENTITY
+    type: company
+    name: IDEMIA Smart Identity
+    countries:
+    - FR
+  - id: ORG-FR-IN-GROUPE
+    type: state_owned_company
+    name: IN Groupe
+    countries:
+    - FR
+  - id: ORG-FR-IDEMIA-PUBLIC-SECURITY
+    type: company
+    name: IDEMIA Public Security
+    countries:
+    - FR
+  - id: ORG-ES-AMADEUS
+    type: company
+    name: Amadeus IT Group
+    countries:
+    - ES

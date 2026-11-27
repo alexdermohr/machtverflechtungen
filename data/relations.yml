@@ -7409,3 +7409,352 @@ relations:
     - SRC-CO-EFE-MAUSS-PAZ-1998
     period:
       start: '1998-05-20'
+  - id: REL-MAUSS-PMT-001
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-DE-WERNER-HOYER
+    type: official_information
+    label: Schmidbauer bestätigte zwei- bis dreimalige Information Hoyers zu Sondierungen im Spätsommer; keine Weisung
+      belegt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    - SRC-DE-BT-MAUSS-PL153-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-002
+    from: PER-CO-CARLOS-VILLAMIL-CHAUX
+    to: ORG-CO-METROMED-1996
+    type: reported_advisory_relationship
+    label: Semana referiert Beratungstätigkeit seit Mai 1996; Vertrag und Vergütung offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-SEMANA-VILLAMIL-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-003
+    from: PER-DE-WERNER-MAUSS
+    to: PER-CO-CARLOS-VILLAMIL-CHAUX
+    type: reported_intermediation
+    label: Semana referiert durch Mauss vermittelte Gespräche Villamils mit Schmidbauer; Originalaussage offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-SEMANA-VILLAMIL-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-004
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-BISCHOFSKONFERENZ
+    type: official_coordination
+    label: Regierungsantwort bestätigt Beteiligung an Sondierungen unter Dach der Bischofskonferenzen 1996, keine
+      Federführung 1998
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-FRIEDEN-11345-1998
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-005
+    from: ORG-DE-BISCHOFSKONFERENZ
+    to: ORG-CO-ELN
+    type: peace_mediation
+    label: Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt
+    evidence_level: strong
+    sources:
+    - SRC-CO-PA-X-FRIEDEN-1998
+    period:
+      start: '1998-07-15'
+  - id: REL-MAUSS-PMT-006
+    from: ORG-CO-BISCHOFSKONFERENZ
+    to: ORG-CO-ELN
+    type: peace_mediation
+    label: Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt
+    evidence_level: strong
+    sources:
+    - SRC-CO-PA-X-FRIEDEN-1998
+    period:
+      start: '1998-07-15'
+  - id: REL-MAUSS-PMT-007
+    from: PER-DE-HANS-LANGENDOERFER
+    to: ORG-CO-ELN
+    type: reported_peace_mediation
+    label: Accord beschreibt kirchliche Moderation des Friedensprozesses 1998
+    evidence_level: strong
+    sources:
+    - SRC-CO-ACCORD-14-FRIEDEN
+    period:
+      start: '1998'
+  - id: REL-MAUSS-PMT-008
+    from: PER-DE-EMIL-STEHLE
+    to: ORG-CO-ELN
+    type: reported_peace_mediation
+    label: Accord beschreibt kirchliche Moderation des Friedensprozesses 1998
+    evidence_level: strong
+    sources:
+    - SRC-CO-ACCORD-14-FRIEDEN
+    period:
+      start: '1998'
+  - id: REL-MAUSS-PMT-009
+    from: ORG-DE-SIEMENS-NIXDORF-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-010
+    from: ORG-CO-SIEMENS-SA-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-011
+    from: ORG-DE-BUNDESDRUCKEREI-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-012
+    from: ORG-FR-SOFREMI-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_bid
+    label: Gericht dokumentiert Bewerbung SOFREMIs; kein Zuschlag im beendeten Verfahren
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-013
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-FR-SAGEM-SA-1997
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-014
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-CO-IBM-1996
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-015
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-INT-POLAROID-CARIBBEAN-1996
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-016
+    from: ORG-CO-UNISYS-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_bid
+    label: Gericht dokumentiert Bewerbung von Unisys de Colombia
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-017
+    from: ORG-CO-RNEC
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_procurement_cancellation
+    label: Resoluciones 6121 und 6578 beenden Verfahren; spätere gerichtliche Einschränkung der Begründung
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996-11-29'
+  - id: REL-MAUSS-PMT-018
+    from: ORG-CO-CONSEJO-ESTADO
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_judicial_decision
+    label: Sicherheitsbegründung unzureichend belegt, Beendigung wegen Nichterfüllung der Bedingungen aufrechterhalten;
+      keine Fälschung festgestellt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '2011-07-26'
+  - id: REL-MAUSS-PMT-019
+    from: ORG-CO-RNEC
+    to: ORG-FR-SAGEM-SA-1997
+    type: official_contract_award
+    label: Vertrag Nr. 197 zur Modernisierung der Identifikationssysteme
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-VERTRAG197-2005
+    period:
+      start: '1997-11-07'
+  - id: REL-MAUSS-PMT-020
+    from: ORG-CO-RNEC
+    to: ORG-CO-CONSORCIO-SAGEM-2005
+    type: official_contract_award
+    label: Zuschlag gemäß Resolución 5421, COP 366.515.160.231 einschließlich Mehrwertsteuer; kein Zahlungsnachweis
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-SAGEM-2005
+    period:
+      start: '2005-12-12'
+  - id: REL-MAUSS-PMT-021
+    from: ORG-US-COGENT-2005
+    to: ORG-CO-RNEC
+    type: documented_legal_challenge
+    label: Erfolglose Tutela gegen Vergabebedingungen; Gericht begründet legitimen IP-Vorsprung; keine generelle
+      Rechtmäßigkeitsfeststellung
+    evidence_level: strong
+    sources:
+    - SRC-CO-COGENT-2005
+    - SRC-CO-RNEC-COGENT-2005
+    period:
+      start: '2005'
+  - id: REL-MAUSS-PMT-022
+    from: ORG-CO-FEDESOFT
+    to: ORG-CO-RNEC
+    type: reported_technical_advice
+    label: RNEC gibt positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend
+      für Konkurrenz
+    evidence_level: strong
+    sources:
+    - SRC-CO-RNEC-FEDESOFT-2005
+    period:
+      start: '2005-11-01'
+  - id: REL-MAUSS-PMT-023
+    from: ORG-FR-SAGEM-SA-1997
+    to: ORG-CO-RNEC
+    type: documented_software_license_relationship
+    label: Laut zeitgenössischer Gutachtenwiedergabe verblieben Suchalgorithmen bei Sagem; staatliche Daten und
+      Nutzungsrechte getrennt
+    evidence_level: strong
+    sources:
+    - SRC-CO-RNEC-FEDESOFT-2005
+    - SRC-CO-COGENT-2005
+    period:
+      start: '2005'
+  - id: REL-MAUSS-PMT-024
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-CO-RNEC
+    type: documented_software_platform_supplier
+    label: Verwaltungsakt und SECOP-Vorstudie begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige
+      Feststellung der Alternativlosigkeit
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-DIREKTVERGABE-2020
+    - SRC-CO-SECOP-RNEC-357549767-2023
+    period:
+      start: '2020'
+  - id: REL-MAUSS-PMT-025
+    from: ORG-CO-FUNDACION-KARISMA
+    to: ORG-CO-RNEC
+    type: documented_information_request
+    label: Auskunftsersuchen RNEC-E-2024-203754; Bericht über nur teilweise Antwort und Einwand nationaler Sicherheit
+    evidence_level: strong
+    sources:
+    - SRC-CO-KARISMA-CEDULA-2025
+    period:
+      start: '2024-11-25'
+  - id: REL-MAUSS-PMT-026
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-CO-RNEC
+    type: reported_contractual_server_access
+    label: 'Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung;
+      RNEC bestreitet Weitergabe von Bürgerdaten'
+    evidence_level: strong
+    sources:
+    - SRC-CO-KARISMA-CEDULA-2025
+    period:
+      start: '2025-01-08'
+  - id: REL-MAUSS-PMT-027
+    from: ORG-CO-SIC
+    to: ORG-CO-RNEC
+    type: documented_investigation
+    label: SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen;
+      keine Schuld festgestellt
+    evidence_level: established
+    sources:
+    - SRC-CO-SIC-RNEC-2024
+    period:
+      start: '2024-11-08'
+  - id: REL-MAUSS-PMT-028
+    from: ORG-CO-PGN
+    to: ORG-CO-SIC
+    type: documented_disciplinary_decision
+    label: Erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen;
+      Rechtsmittel offen
+    evidence_level: established
+    sources:
+    - SRC-CO-PGN-SIC-2026
+    period:
+      start: '2026-03-17'
+  - id: REL-MAUSS-PMT-029
+    from: ORG-CO-CORTE-CONSTITUCIONAL
+    to: ORG-CO-SIC
+    type: documented_judicial_decision
+    label: C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung
+      betroffener Verfahren an
+    evidence_level: established
+    sources:
+    - SRC-CO-CC-C293-2026
+    period:
+      start: '2026-09-10'
+  - id: REL-MAUSS-PMT-030
+    from: ORG-CO-SIC
+    to: ORG-CO-RNEC
+    type: reported_case_disposition
+    label: Blu Radio berichtet Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit;
+      Originalbescheid offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-BLU-SIC-ARCHIVO-2026
+    - SRC-CO-CC-C293-2026
+    period:
+      start: '2026-09-17'
+  - id: REL-MAUSS-PMT-031
+    from: ORG-US-ADVENT-INTERNATIONAL
+    to: ORG-FR-SAFRAN-IDSEC-2017
+    type: documented_corporate_acquisition
+    label: Safran bestätigt abgeschlossenen Verkauf seines Identity-&-Security-Geschäfts an Advent für 2,4 Mrd.
+      EUR
+    evidence_level: established
+    sources:
+    - SRC-FR-SAFRAN-ADVENT-2017
+    period:
+      start: '2017-05-31'
+  - id: REL-MAUSS-PMT-032
+    from: ORG-FR-IN-GROUPE
+    to: ORG-FR-IDEMIA-SMART-IDENTITY
+    type: documented_corporate_acquisition
+    label: Französische Regierung bestätigt Erwerb Smart Identity durch staatseigene IN Groupe; keine Aussage zu
+      Public Security
+    evidence_level: established
+    sources:
+    - SRC-FR-IN-GROUPE-IDEMIA-2025
+    period:
+      start: '2025-07-01'
+  - id: REL-MAUSS-PMT-033
+    from: ORG-ES-AMADEUS
+    to: ORG-FR-IDEMIA-PUBLIC-SECURITY
+    type: documented_conditional_acquisition_agreement
+    label: Kaufvertrag 1,2 Mrd. EUR plus mögliche Zusatzleistung; regulatorisch bedingter Vollzug offen
+    evidence_level: established
+    sources:
+    - SRC-ES-CNMV-AMADEUS-IDEMIA-2026
+    period:
+      start: '2026-07-23'

@@ -6125,3 +6125,213 @@ sources:
   accessed: '2026-11-27'
   locator: Volltext
   notes: Datierung der Entscheidung 20.05.1998; abweichende Angaben zum Entführer; nicht unabhängig von Q8.
+- id: SRC-CO-SEMANA-VILLAMIL-1997
+  title: Alguien miente
+  institution: Semana
+  date: '1997-02-24'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://www.semana.com/nacion/articulo/alguien-miente/31731-3/
+  accessed: '2026-11-27'
+  locator: Aussage Villamil, Metromed und Memoranden
+  notes: Indexierter Text; Originalaussage nicht eingesehen.
+- id: SRC-DE-BT-FRIEDEN-11345-1998
+  title: Schriftliche Fragen mit Antworten der Bundesregierung, Drs. 13/11345
+  institution: Deutscher Bundestag
+  date: '1998-08-07'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/113/1311345.pdf
+  accessed: '2026-11-27'
+  locator: S. 1, Antwort Schmidbauer
+- id: SRC-CO-PA-X-FRIEDEN-1998
+  title: Friedensabkommen Mainz/Himmelspforten vom 15.07.1998
+  institution: PA-X Peace Agreements Database
+  date: '1998-07-15'
+  type: agreement_copy
+  primary: true
+  tier: A
+  url: https://www.peaceagreements.org/agreements/156/
+  accessed: '2026-11-27'
+  locator: Art. 10, 21 und Parteien
+  notes: Wiedergabe/Übersetzung aus Biblioteca de la Paz IV, 2009, S. 275.
+- id: SRC-CO-ACCORD-14-FRIEDEN
+  title: 'Alternatives to war: Colombia''s peace processes'
+  institution: Conciliation Resources
+  date: '2004'
+  type: research_report
+  primary: false
+  tier: B
+  url: https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Alternatives_to_war_Colombia%27s_peace_processes_Accord_Issue_14.pdf
+  accessed: '2026-11-27'
+  locator: S. 54–55
+- id: SRC-CO-CE-17661-2011
+  title: Consejo de Estado, Radicación 25000-23-26-000-1997-03809-01 (17661)
+  institution: Consejo de Estado
+  date: '2011-07-26'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://consejodeestado.gov.co/documentos/boletines/PDF/25000-23-26-000-1997-03809-01%2817661%29.pdf
+  accessed: '2026-11-27'
+  locator: Abschnitte 1.1–1.10, 3.1, Tenor; Band 8 Bl.1911–1912
+  notes: Textfassung, Seitenbilder technisch nicht verfügbar.
+- id: SRC-CO-RNEC-VERTRAG197-2005
+  title: Transparencia para contratar la renovación de la cédula
+  institution: Registraduría Nacional del Estado Civil
+  date: '2005-08-04'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.registraduria.gov.co/Transparencia-para-contratar-la-renovacion-de-la-cedula.html
+  accessed: '2026-11-27'
+  locator: Primera Fase; Vertrag Nr. 197
+- id: SRC-CO-RNEC-SAGEM-2005
+  title: Adjudicación al Consorcio Sagem
+  institution: Registraduría Nacional del Estado Civil
+  date: '2005-12-12'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://registraduria.gov.co/Adjudicacion-al-Consorcio-Sagem.html
+  accessed: '2026-11-27'
+  locator: Resolución 5421; Einladung 005/2005
+- id: SRC-CO-COGENT-2005
+  title: Providencia 60, Expediente 2005-01867-01
+  institution: Tribunal Administrativo de Cundinamarca / vLex
+  date: '2005-10-28'
+  type: court_decision_copy
+  primary: true
+  tier: B
+  url: https://vlex.com.co/vid/providencia-no-60-30543777
+  accessed: '2026-11-27'
+  locator: Sachverhalt 6–8; gerichtliche Entscheidungsgründe
+  notes: Nur indexierter Urteilstext, Datierung gegenüber RNEC abweichend.
+- id: SRC-CO-RNEC-COGENT-2005
+  title: Registraduría ganó tutela de Cogent
+  institution: Registraduría Nacional del Estado Civil
+  date: '2005-11-01'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://registraduria.gov.co/Registraduria-gano-tutela-de-Cogent.html
+  accessed: '2026-11-27'
+  locator: Expediente 2005-01867-01
+  notes: Behördliche Wiedergabe der Gerichtsentscheidung; kein Original.
+- id: SRC-CO-RNEC-FEDESOFT-2005
+  title: Espaldarazo al proceso de contratación de la Registraduría
+  institution: Registraduría Nacional del Estado Civil
+  date: '2005-11-01'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.registraduria.gov.co/Espaldarazo-al-proceso-de-contratacion-de-la-Registraduria.html
+  accessed: '2026-11-27'
+  locator: Programas fuentes; Kriterien
+  notes: Wiedergabe des FEDESOFT-Gutachtens.
+- id: SRC-CO-RNEC-DIREKTVERGABE-2020
+  title: Acto administrativo de justificación de la contratación directa, Vertrag 002/2020
+  institution: Registraduría Nacional del Estado Civil
+  date: '2020'
+  type: administrative_decision_copy
+  primary: true
+  tier: A
+  url: https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf
+  accessed: '2026-11-27'
+  locator: S. 2–6
+  notes: Veröffentlichte Kopie; amtliche Begründung, nicht unabhängige Bestätigung.
+- id: SRC-CO-SECOP-RNEC-357549767-2023
+  title: Estudios, documentos previos y análisis del sector
+  institution: RNEC / SECOP
+  date: '2023'
+  type: procurement_document
+  primary: true
+  tier: A
+  url: https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=357549767&InCommunity=False&InPaymentGateway=False
+  accessed: '2026-11-27'
+  locator: S. 18–21, 34–35
+- id: SRC-CO-KARISMA-CEDULA-2025
+  title: Análisis de la aplicación Cédula Digital
+  institution: Fundación Karisma
+  date: 2025-09
+  type: research_report
+  primary: false
+  tier: B
+  url: https://biblio.karisma.org.co/download/208/pdf/208.pdf
+  accessed: '2026-11-27'
+  locator: S. 13–15, 44–46; Fn. 24/86; RNEC-E-2024-203754
+  notes: Wiedergabe der amtlichen Antwort, Original nicht unabhängig eingesehen; Seitenbild Cache miss.
+- id: SRC-CO-SIC-RNEC-2024
+  title: La SIC imputa cargos a 9 funcionarios de la Registraduría
+  institution: Superintendencia de Industria y Comercio
+  date: '2024-11-08'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://sedeelectronica.sic.gov.co/noticias/la-sic-imputa-cargos-9-funcionarios-de-la-registraduria-por-presuntamente-desatender-requerimientos-en-visita-administrativa
+  accessed: '2026-11-27'
+  locator: Eröffnung; keine Feststellung von Schuld
+- id: SRC-CO-PGN-SIC-2026
+  title: Procuraduría sanciona extralimitación en visitas de SIC
+  institution: Procuraduría General de la Nación
+  date: '2026-03-17'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.procuraduria.gov.co/Pages/procuraduria-sanciona-extralimitacion-visitas-superintendencia-industria-comercio-entidades-publicas.aspx
+  accessed: '2026-11-27'
+  locator: Erstinstanzliche Disziplinarentscheidung
+- id: SRC-CO-CC-C293-2026
+  title: Comunicado 28, Sentencia C-293/26, D-17041
+  institution: Corte Constitucional de Colombia
+  date: '2026-09-10'
+  type: court_press_release
+  primary: true
+  tier: A
+  url: https://www.corteconstitucional.gov.co/comunicados/comunicado-28-septiembre-9-y-10-de-2026.pdf?v=1791887834965
+  accessed: '2026-11-27'
+  locator: Entscheidung 1/2, Begründung, Sondervoten
+  notes: Amtliches Kommuniqué, Vollurteil nicht eingesehen.
+- id: SRC-CO-BLU-SIC-ARCHIVO-2026
+  title: SIC archiva investigación por obstrucción contra funcionarios de la Registraduría
+  institution: Blu Radio
+  date: '2026-09-17'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://www.bluradio.com/judicial/sic-archiva-investigacion-por-obstruccion-contra-funcionarios-de-la-registraduria-pr30
+  accessed: '2026-11-27'
+  locator: Bericht über Einstellung
+  notes: Nur Suchauszug, Originalbescheid offen.
+- id: SRC-FR-SAFRAN-ADVENT-2017
+  title: Completion of sale of Safran's identity and security activities
+  institution: Safran
+  date: '2017-05-31'
+  type: corporate_release
+  primary: true
+  tier: A
+  url: https://www.safran-group.com/pressroom/completion-sale-safrans-identity-and-security-activities-2017-05-31
+  accessed: '2026-11-27'
+  locator: Abgeschlossener Verkauf an Advent, 2,4 Mrd. EUR
+- id: SRC-FR-IN-GROUPE-IDEMIA-2025
+  title: Création d'un champion mondial de l'identité
+  institution: Französisches Wirtschaftsministerium
+  date: '2025-07-01'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://presse.economie.gouv.fr/creation-dun-champion-mondial-de-lidentite-letat-soutient-le-rachat-par-in-groupe-didemia-smart-identity/
+  accessed: '2026-11-27'
+  locator: Erwerb Smart Identity, staatliche Kapitalunterstützung
+- id: SRC-ES-CNMV-AMADEUS-IDEMIA-2026
+  title: 'Amadeus: acquisition of IDEMIA Public Security'
+  institution: CNMV / Amadeus
+  date: '2026-07-23'
+  type: regulatory_filing
+  primary: true
+  tier: A
+  url: https://www.cnmv.es/webservices/verdocumento/ver?t=%7Be7c28992-aea1-4504-9266-b07d7dfae6a9%7D
+  accessed: '2026-11-27'
+  locator: Bedingter Kaufvertrag und Brückenfinanzierung; Vollzug offen
