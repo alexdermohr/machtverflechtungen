@@ -1,0 +1,65 @@
+# Werner Mauss: Versicherungswirtschaft, staatliche Ermittlungsaufträge und geheime Finanzstrukturen (1968–2025)
+
+**Forschungsstand: 26. November 2026.** Anschluss an [Schmücker und Herrhausen](raf-schmuecker-herrhausen-quellenschutz-1974-1997.md), [Celler Loch](../docs/faelle/de/celler-loch.md) und [Issue 288](https://github.com/alexdermohr/machtverflechtungen/issues/288). Die Finanzierung privater Ermittlungen und mögliche Interessenkonflikte sind Gegenstand der Untersuchung; eine Finanzierung oder Steuerung konkreter RAF-Taten folgt aus den Quellen nicht.
+
+## 1. Vertragliche Doppelbindung
+
+Der niedersächsische Untersuchungsausschuss (Q1, S. 160–162, 175–180) beschreibt seit 1968 eine Zusammenarbeit des Ehepaars Mauss mit den Dachverbänden der Haftpflicht-, Unfall-, Auto- und Rechtsschutzversicherer (HUK-Verband) und der Sachversicherer (Sachverband). Die ältere Pauschalvergütung betrug zunächst 12.000, später 15.000 DM monatlich, zuzüglich Mehrwertsteuer und Aufwendungen; Zahlungen mindestens bis 1978, erneut spätestens 1981 bis mindestens 1983. Der Ausschuss hatte keine verwertbaren schriftlichen Versicherungsverträge aus der Zeit vor 1981; die Angaben beruhen insoweit auf seiner Auswertung und Zeugenaussagen. Mauss verneinte für die ältere Regelung Weisungsrechte der Versicherer.
+
+Der schriftliche Vertrag vom 05.03.1981 (gültig ab 01.01.1981) räumte beiden Verbänden und deren Mitgliedsunternehmen ein Auftragsrecht ein. Nach Nr. 2 konnten Auftraggeber die Einstellung des **privaten Ermittlungsauftrags** verlangen, nicht die Einstellung eines staatlichen Strafverfahrens. Nr. 5–6 regelten Spesen und Genehmigung, Nr. 9–10 Kündigung und befristete Verlängerung. Der Ausschuss sah darin erheblichen Erfolgsdruck. Im Innenministeriumsbericht vom 03.07.1984 wurde die Interessenparallelität zwischen Versicherern und Polizei als bewusst akzeptiert beschrieben (Q1, S. 161).
+
+Nach der Ausschussdarstellung koordinierte das BKA innerhalb der vereinbarten Grenzen die Tätigkeit. Mauss war kein BKA-Amtsträger; Verpflichtungen nach dem Verpflichtungsgesetz dokumentiert der Ausschuss erst am 06.08.1981 (BKA), 11.03.1982 und 20.10.1983 (LKA Niedersachsen). Die Bundesregierung bestätigte am 24.01.1990 drei mit der Versicherungswirtschaft abgestimmte BKA-Vereinbarungen aus 1972, 1976 und 1981 (Q2). Sie bestritt die Übertragung hoheitlicher Strafverfolgungsaufgaben und bestätigte am 08.03.1990 den vom Abgeordneten Emmerlich angeführten Wortlaut einer Vertragsergänzung von 1976 nicht (Q3). Zu unterscheiden sind das vertragliche Recht, private Aufträge zu beenden, und die hoheitliche Entscheidung über ein Strafverfahren.
+
+## 2. Nachgewiesene Zahlungswege und Grenzen der Kontrolle
+
+Q1, S. 179–180, gibt einen Brief der Mannheimer Versicherung vom 05.08.1982 wieder: Das für den Fall Düe vereinbarte Erfolgshonorar sollte bei Leistungsfreiheit des Versicherers und ausbleibender Altersversorgung über die Verbände 700.000 DM betragen. Der Ausschuss dokumentiert eine Auszahlung von 350.000 DM zuzüglich Mehrwertsteuer am 26.04.1983 und spätere Zahlungen über 25.000 und 38.000 DM an einen Rechtsbeistand unter Anrechnung auf das Honorar. Gesondert nennt er 630.000 DM Spesenersatz 1981–1984. Ein Freispruch vom 13.03.1989 wurde zeitgenössisch berichtet (Q11); laut einem späteren Bericht war er rechtskräftig. Der Vorsitzende hielt nach dem Bericht Mauss wegen seiner wirtschaftlichen Interessen als Beweismittel für ungeeignet. Das schriftliche Strafurteil und der gesonderte Zivilrechtsstreit sind weiter zu prüfen. Erfolgsabhängige Vergütung ist ein finanzieller Anreiz und kein Beweis einer Beweisfälschung.
+
+Q4, BT-Plenarprotokoll 11/210, bestätigt 174.000 DM BKA-Kostenerstattungen, 8.946,25 DM für zwei Fälle ohne nachfolgende Zusammenarbeit und weitere 100.941,77 DM sowie 1.000 CHF zwischen 1970 und Anfang 1976. Bei den älteren Beträgen konnte das BKA 1990 Aufwandsersatz und operative Mittel nicht mehr unterscheiden. Fragen nach prüffähigen Abrechnungen und privater Mitfinanzierung wurden zur schriftlichen Beantwortung zurückgestellt. Am 26.04.1990 kündigte Spranger eine Aktenprüfung zu Rechnungen an private Versicherer an (Q5). Die Bundesregierung erklärte 1997, die Detailprüfung sei insbesondere wegen abgelaufener Aufbewahrungsfristen nicht mehr möglich gewesen; sie verwies auf das Schreiben vom 27.07.1990 (Q6, Frage 3).
+
+Ein HUK-Schreiben vom 12.06.1978 an den Sachversichererverband nennt für die Zeit ab Juli 1978 ein geplantes Jahresbudget von insgesamt 600.000 DM (je 100.000 DM der beiden Verbände, je 200.000 DM BKA und Industrie). Der Ausschuss konnte die Realisierung nicht feststellen (Q1, S. 178). Es handelt sich nicht um nachgewiesene Zahlungen; der Industrieanteil ist keinem identifizierten Unternehmen zuzuordnen.
+
+Der niedersächsische Ausschuss behandelte auch die Zusammenarbeit mit Mauss in der Operation Neuland. Die Fallbrücke zum Celler-Komplex liegt in den beteiligten Behörden und Quellenbeziehungen; daraus folgt keine Mitwirkung Mauss' am tatsächlich verübten Celler Anschlag. Eine gesonderte Auswertung des vollständigen Berichts samt abweichenden Bewertungen bleibt erforderlich.
+
+## 3. BND-Vertrag und steuerliche Behandlung
+
+BT-Drs. 13/8130 (Q6, Fragen 1–7) bestätigt einen BND-Vertrag vom 31.08.1979 mit dem Ehepaar Mauss zur Informationsbeschaffung über Terrorismus. Das Datum im Fragetext (21.08.) ist nicht das bestätigte Vertragsdatum. Das BKA stand mit der Oberfinanzdirektion Koblenz in Kontakt; nach Regierungsdarstellung ging es um die Grundabdeckung. Der BND vereinbarte mit dem Finanzamt Essen-Süd eine pauschalierte Besteuerung des Honorars aus dem 1979er-Vertrag. Datum der Steuervereinbarung und konkreter Steuersatz sind nicht genannt; 1979 bezeichnet den zugrunde liegenden Vertrag, nicht einen nachgewiesenen Beginn der Steuerregelung.
+
+Als Vergleich dokumentiert Q7 (BT-Drs. 16/8447, S. 16, Fragen 34–35) eine Verwaltungsvereinbarung der obersten Finanzbehörden aus 1963, bestätigt 1998: Bei Informantenprämien wird ein pauschaler Einkommensteuerbetrag von zehn Prozent staatlicherseits an die Länderfinanzkassen abgeführt. Die Antwort betrifft Informanten des BND im Kontext steuerrelevanter Daten aus Liechtenstein. Sie belegt nicht, dass die Vereinbarung auf den späteren Mauss-Fonds angewandt wurde.
+
+Die Bundesregierung verneinte 1997 Bundesaufträge nach 1982, beschrieb aber private Aufträge von Angehörigen und Unternehmen in Kolumbien sowie staatliche Unterstützung von Friedenssondierungen (Q6, Vorbemerkung). 2018 datierte sie das Ende der BKA-Zusammenarbeit auf 1987 (Q9). Die unterschiedliche Reichweite der Begriffe Auftrag und Zusammenarbeit ist zu klären. Q8, BT-Drs. 18/7352, verneinte 2016 nach Kenntnis der Bundesregierung neue oder fortgesetzte Bundesaufträge und Geldleistungen seit 2000; Einzelheiten zu Beendigungsdaten waren für berechtigte Parlamentarier nur als Verschlusssache hinterlegt.
+
+## 4. Der umstrittene Millionenfonds: Feststellungen, Aufhebung, Rechtsfrage
+
+Der BGH referierte am 10.01.2019 im Urteil 1 StR 347/18 (Q10, Rn. 4–10) die damaligen Feststellungen des LG Bochum: 23 Mio. USD auf einem 1985 eingerichteten Konto, Treuhandvertrag vom 04.10.1985 für verdeckte Tätigkeit gegen organisierte Kriminalität, anschließende Stiftungsstrukturen und ein Vermögensstand Ende 2008 von 47.649.000 EUR. Das LG war von fehlender Kontrolle der Mittel durch die Treugeber ausgegangen. Der BGH **hob das Urteil mit Feststellungen auf**; die Vorsatzbeurteilung war widersprüchlich. Die Beträge sind deshalb als referierte, aufgehobene landgerichtliche Feststellungen und nicht als rechtskräftig festgestelltes Eigentum oder als bewiesener Steuerbetrug wiederzugeben.
+
+Die Bundesregierung erklärte am 10.01.2018 (Q9, Frage 21), das BKA habe erst im September 2016 durch einen Rechtsanwalt von der behaupteten Fondsexistenz erfahren; der Bundesregierung fehlten Erkenntnisse über solche Konten, Transaktionen oder finanzierte Aktivitäten. Dies ist eine amtliche Bestreitung entsprechender Kenntnis, keine unabhängige Prüfung sämtlicher Dienstakten.
+
+Das OLG Hamm bestätigte am 08.10.2024 (Q12, 4 Ws 143/24, Rn. 14–19) die Aussetzung des Strafverfahrens bis zum Abschluss der Besteuerungsfrage. Es referiert die Einlassung Mauss': Ein ausländischer Staat sei Treugeber, dessen Auslandsdienst verwalte den Fonds; deutsche Sicherheitsbehörden hätten davon gewusst. Der Senat hielt den Konflikt zwischen Geheimhaltung und steuerrechtlichen Pflichten für eine entscheidungserhebliche Rechtsfrage. Das ist keine abschließende Feststellung der Treugeberidentität.
+
+Ein am 07.11.2025 datiertes Schreiben des Steuerberaters Lohr, auf Mauss' Website veröffentlicht (Q13, Text und Seitenbild), berichtet eine Einigung vom 02.07.2025, Beendigung des Finanzgerichtsverfahrens, Einstellung nach § 153a StPO und keine offenen Steuerschulden. Die gerichtlichen Beschlüsse und die Steuervereinbarung sind noch nicht unabhängig belegt. Eine solche Einstellung ist kein Freispruch und keine Verurteilung. Die Behauptung, das Verfahren sei weiterhin ausgesetzt, wäre angesichts dieses späteren Hinweises ohne aktualisierte gerichtliche Auskunft ebenfalls zu stark.
+
+## 5. Prüfbare Hypothesen und nächste Akten
+
+| Prüfthese | Tragender Befund und Gegenbefund | Unterscheidender Aktenzugang |
+| --- | --- | --- |
+| Private Versicherungsinteressen konnten die Auswahl und Fortdauer privater Ermittlungen beeinflussen. | Schriftlicher Vertrag 1981 und Erfolgshonorar; Regierung bestreitet Beeinträchtigung hoheitlicher Ermittlungen. | Originalvertrag, Einsatzzuteilungen, Einstellungsanweisungen und Entscheidungen der Polizei. |
+| Geteilte Finanzierung erschwerte finanzielle und rechtliche Kontrolle. | Zahlungen durch BKA und Versicherer; Prüfung älterer Rechnungen gescheitert. | BKA-Abrechnungen, Verbandsunterlagen, Spranger-Brief 27.07.1990. |
+| Der Fonds von 1985 war tatsächlich staatliches Treuhandvermögen. | Vertrag laut aufgehobenem Urteil und Einlassung im OLG-Beschluss; BKA bestreitet frühere Kenntnis. | Originalvertrag, Auftraggeberidentität, Bankunterlagen, Rechnungslegung, Steuervereinbarung 2025. |
+
+Die alternative Erklärung ist die zulässige Zusammenarbeit staatlicher und privater Ermittler bei überwiegend gleichgerichteten Interessen sowie eine getrennte steuerliche Behandlung einzelner Aufträge. Der Nachweis eines wirtschaftlichen Interessenkonflikts verlangt nicht den Nachweis einer rechtswidrigen Weisung. Umgekehrt darf aus ihm keine konkrete Tatsteuerung abgeleitet werden.
+
+## Quellen
+
+- Q1 / SRC-DE-NI-UA-CELLE-4380-1989: [Niedersächsischer Landtag, Drs. 11/4380](https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf), S. 160–162, 175–180. Amtliche Textfassung; Seitenbilder nicht abrufbar, keine vollständige Sondervotenauswertung.
+- Q2 / SRC-DE-BT-MAUSS-PL190-1990: [BT-PlPr 11/190, 24.01.1990](https://dserver.bundestag.de/btp/11/11190.pdf), S. 14665–14667, Fragen 1–2.
+- Q3 / SRC-DE-BT-MAUSS-PL200-1990: [BT-PlPr 11/200, 08.03.1990](https://dserver.bundestag.de/btp/11/11200.pdf), S. 15476–15477.
+- Q4 / SRC-DE-BT-MAUSS-PL210-1990: [BT-PlPr 11/210, 10.05.1990](https://dserver.bundestag.de/btp/11/11210.pdf), S. 16513–16515, Fragen 36–37.
+- Q5 / SRC-DE-BT-MAUSS-PL207-1990: [BT-PlPr 11/207, 26.04.1990](https://dserver.bundestag.de/btp/11/11207.pdf), S. 16250, Fragen 34–35.
+- Q6 / SRC-DE-BT-MAUSS-8130-1997: [BT-Drs. 13/8130, 01.07.1997](https://dserver.bundestag.de/btd/13/081/1308130.pdf), Vorbemerkung, Fragen 1–7.
+- Q7 / SRC-DE-BT-BND-INFORMANTENSTEUER-2008: [BT-Drs. 16/8447, 07.03.2008](https://dserver.bundestag.de/btd/16/084/1608447.pdf), S. 16, Fragen 34–35.
+- Q8 / SRC-DE-BT-MAUSS-7352-2016: [BT-Drs. 18/7352, 26.01.2016](https://dserver.bundestag.de/btd/18/073/1807352.pdf), S. 2–3, Fragen 1–4; S. 2 Text und Faksimile.
+- Q9 / SRC-DE-BT-MAUSS-415-2018: [BT-Drs. 19/415](https://dserver.bundestag.de/btd/19/004/1900415.pdf), Antwort vom 10.01.2018, S. 18–19, Frage 21.
+- Q10 / SRC-DE-BGH-MAUSS-347-2019: [BGH, 10.01.2019, 1 StR 347/18](https://datenbank.nwb.de/Dokument/776164/), Volltextwiedergabe, Rn. 4–10 und Vorsatzbeurteilung.
+- Q11 / SRC-DE-TAZ-DUE-FREISPRUCH-1989: [taz, Düe unschuldig – Werner Mauss perdu](https://taz.de/Duee-unschuldig---Werner-Mauss-perdu/%211818993/), zeitgenössischer Urteilsbericht; Originalurteil offen. Ergänzend [taz, Opfer von Mauss verlangt Entschädigung](https://taz.de/Opfer-von-Mauss-verlangt-Entschaedigung/%211799585/) zum rechtskräftigen Freispruch.
+- Q12 / SRC-DE-OLG-HAMM-MAUSS-143-2024: [OLG Hamm, 08.10.2024, 4 Ws 143/24](https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2024%2F4_Ws_143_24_Beschluss_20241008.html), Rn. 4–21, amtlicher PDF-Text; Seitenbild nicht abrufbar.
+- Q13 / SRC-DE-LOHR-MAUSS-2025: [Schreiben Lohr, 07.11.2025](https://www.werner-mauss.de/documents/Schreiben_Prof_Dr_Lohr_Verfahrensstand_Ergaenzung_07_11_2025_gelb.pdf), Text und Faksimile, interessengebundene Mandantenquelle. Originale der gerichtlichen und steuerlichen Erledigung fehlen.
