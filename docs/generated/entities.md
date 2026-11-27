@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**551 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**559 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -40,6 +40,7 @@
 | Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
+| Fritz Baier | person | `PER-DE-FRITZ-BAIER` | DE | [1](network.md#rel-de-pullach-004) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
@@ -48,7 +49,7 @@
 | Günther Beckstein | person | `PER-DE-GUENTHER-BECKSTEIN` | DE | [1](network.md#rel-de-beckstein-ulfkotte-laudatio-2003-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE | – |
-| Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
+| Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [3](network.md#rel-de-lang-001) |
 | Hans-Joachim Böcking | person | `PER-DE-HANS-JOACHIM-BOECKING` | DE | [1](network.md#rel-ulf-tk-boecking-special-audit) |
 | Hans-Joachim Rose | person | `PER-DE-HANS-JOACHIM-ROSE` | DE | [1](network.md#rel-ulf-rose-sanction) |
 | Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
@@ -57,6 +58,7 @@
 | Heinz Vietze | person | `PER-DE-HEINZ-VIETZE` | DE | [1](network.md#rel-de-bb-verfg-2004-002) |
 | Helmut Kohl (1930–2017) | person | `PER-DE-HELMUT-KOHL` | DE | [1](network.md#rel-de-ab-kiep-kohl-1993-001) |
 | Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
+| Hermann Zolling | person | `PER-DE-HERMANN-ZOLLING` | DE | [1](network.md#rel-de-pullach-006) |
 | Holger Christmann | person | `PER-DE-HOLGER-CHRISTMANN` | DE | [1](network.md#rel-ulf-park-recruitment) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
@@ -69,6 +71,7 @@
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
 | José Roberto Toscano Dantas | person | `PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS` | BR | [2](network.md#rel-ws-esca-adviser) |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
+| Julius Mader | person | `PER-DE-JULIUS-MADER` | DE | [2](network.md#rel-de-pullach-003) |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
@@ -156,6 +159,7 @@
 | Abayak S.A. (1998–2004) | company | `ORG-GQ-ABAYAK-SA` | GQ | [5](network.md#rel-riggs-followup-046) |
 | ABN AMRO Bank (SIVAM-Refinanzierung 1997) | historical_commercial_bank | `ORG-NL-ABN-AMRO-SIVAM-1997` | NL | [1](network.md#rel-ws-abn-bb) |
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
+| Acht Bundestagsabgeordnete (MfS-Versandliste, 1971) | historical_group | `ORG-DE-BUNDESTAGSABGEORDNETE-PULLACH-1971` | DE | [1](network.md#rel-de-pullach-002) |
 | Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
 | Allbritton Communications Company (2004) | media_company | `ORG-US-ALLBRITTON-COMMUNICATIONS-2004` | US | [3](network.md#rel-riggs-followup-031) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
@@ -206,8 +210,10 @@
 | Banque des États de l’Afrique Centrale (BEAC, 2006) | central_bank | `ORG-CM-BEAC-2006` | CM, GQ | [2](network.md#rel-riggs-post-2004-014) |
 | Bavaria Film GmbH (2005) | historical_company | `ORG-DE-BAVARIA-FILM-2005` | DE | [7](network.md#rel-de-marienhof-007) |
 | Bavaria Sonor (Placement-Abwicklung 2002–2005) | historical_company | `ORG-DE-BAVARIA-SONOR-2005` | DE | [2](network.md#rel-de-marienhof-004) |
+| Bayerischer Landtag – Untersuchungsausschuss Langemann II (1983–1985) | parliamentary_inquiry | `ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985` | DE | [6](network.md#rel-de-lang-ii-001) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerischer Rundfunk | public_broadcaster | `ORG-DE-BR` | DE | [3](network.md#rel-de-marienhof-010) |
+| Bayerisches Oberstes Landesgericht (1983) | court | `ORG-DE-BAYOBLG-1983` | DE | [4](network.md#rel-de-lang-ii-005) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
@@ -231,7 +237,7 @@
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [9](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
-| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [3](network.md#rel-ulf-kanzleramt-mykonos) |
+| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [4](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [5](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
@@ -240,7 +246,7 @@
 | Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [29](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [33](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -282,7 +288,7 @@
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Deloitte & Touche (Bahamas, 1991) | professional_services | `ORG-BS-DELOITTE-TOUCHE-1991` | BS | [3](network.md#rel-riggs-followup-010) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
-| Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [1](network.md#rel-de-bnd-media-016) |
+| Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [5](network.md#rel-de-bnd-media-016) |
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
@@ -343,7 +349,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [3](network.md#rel-de-amri-003) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [6](network.md#rel-de-amri-003) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -397,7 +403,7 @@
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
-| Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
+| Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | [4](network.md#rel-de-pullach-001) |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
 | Mitsubishi UFJ Financial Group (2007) | financial_holding_company | `ORG-JP-MUFG-2007` | JP | [1](network.md#rel-riggs-post-2004-034) |
@@ -433,6 +439,7 @@
 | Overseas Security Advisory Council (OSAC) | public_private_advisory_council | `ORG-US-OSAC` | US | [8](network.md#rel-ws-state-osac) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
+| Panorama (DDR-Auslandspressedienst, 1971) | media_service | `ORG-DDR-PANORAMA-AUSLANDSPRESSEDIENST` | DE | [1](network.md#rel-de-pullach-005) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
@@ -538,6 +545,7 @@
 | Verfassungsschutz Berlin | intelligence_service | `ORG-DE-LFV-BERLIN` | DE | [1](network.md#rel-de-amri-010) |
 | Verfassungsschutz Mecklenburg-Vorpommern | intelligence_service | `ORG-DE-LFV-MV` | DE | [2](network.md#rel-de-amri-009) |
 | Verfassungsschutz Nordrhein-Westfalen | intelligence_service | `ORG-DE-LFV-NRW` | DE | [2](network.md#rel-de-amri-004) |
+| Verwaltungsgericht München (1983) | court | `ORG-DE-VG-MUENCHEN-1983` | DE | [1](network.md#rel-de-lang-ii-004) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
