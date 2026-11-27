@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**792 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**795 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1380,6 +1380,13 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_ORG_DE_OVG_NRW["Oberverwaltungsgericht Nordrhein-Westfalen"]
+    N_ORG_DE_OVG_NRW -->|"Verpflichtete am 28.06.2013 in zwei Eilverfahren zur vorläufigen Rückumsetzung der beiden Vorgesetzten Lingens; keine strafrechtliche Klärung"| N_ORG_DE_BFV
+    N_ORG_DE_VG_DUESSELDORF["Verwaltungsgericht Düsseldorf"]
+    N_ORG_DE_VG_DUESSELDORF -->|"Hob am 01.07.2015 die Geldbuße gegen früheren Abteilungsleiter wegen inzwischen eingetretenen Ruhestands auf; keine Entscheidung zur materiellen Berechtigung des Vorwurfs"| N_ORG_DE_BFV
+    N_ORG_DE_BT_NSU_UA2_2015_2017["Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode)"]
+    N_ORG_DE_NRW_JUSTIZMINISTERIUM["Ministerium der Justiz Nordrhein-Westfalen"]
+    N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"| N_ORG_DE_NRW_JUSTIZMINISTERIUM
 ```
 
 [Zur Relationstabelle](network.md)

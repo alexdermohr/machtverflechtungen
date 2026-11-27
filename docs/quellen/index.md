@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**547 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**551 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2142,7 +2142,7 @@ Deutscher Bundestag · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
-Fundstelle: Gedruckte S. 303–309, 452–453, 743–744, 853–854, 859–861; Fn. 2655–2702 und 3988–3991
+Fundstelle: Gedruckte S. 303–309, 452–453, 743–744, 786, 853–854, 859–861; Fn. 2655–2702, 3988–3991, 6963–6967
 
 </article>
 
@@ -2275,7 +2275,7 @@ Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
 
-Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
 
 </article>
 
@@ -2994,6 +2994,21 @@ Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-08-22 �
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
 Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; am 16.10.2026 bildseitig geprüft); S. 218 (PDF-Bildseite 266; bislang nur amtlich indexierter Text), S. 219 (PDF-Bildseite 267; am 17.10.2026 direkt am Originalbild geprüft)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-nsu-nw35-20161020"></a>
+### Deutscher Bundestag, 3. Untersuchungsausschuss der 18. Wahlperiode
+
+**[Beweisbeschluss NW-35 zur Beiziehung von Gerichtsakten](https://www.bundestag.de/resource/blob/488394/NW-35.pdf)**
+
+Deutscher Bundestag, 3. Untersuchungsausschuss der 18. Wahlperiode · 2016-10-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-NW35-20161020`
+
+[PDF öffnen](https://www.bundestag.de/resource/blob/488394/NW-35.pdf)
+
+Fundstelle: 34. Sitzung, Beweisbeschluss NW-35, S. 1
 
 </article>
 
@@ -4117,6 +4132,36 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
 
 Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-ovg-nrw-nsu-1b130712-20130628"></a>
+### Oberverwaltungsgericht Nordrhein-Westfalen
+
+**[OVG NRW, Beschluss 28.06.2013, 1 B 1307/12](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1307-12)**
+
+Oberverwaltungsgericht Nordrhein-Westfalen · 2013-06-28 · Stufe **A** · Primärquelle · `SRC-DE-OVG-NRW-NSU-1B130712-20130628`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1307-12)
+
+Fundstelle: Indexierte Entscheidungsgründe zur Kenntnis, Aufsicht und Stopp-Anweisung; Abgleich BT-Drs. 17/14600 S. 786 und 18/12950 S. 331–332, 1277
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-ovg-nrw-nsu-1b137312-20130628"></a>
+### Oberverwaltungsgericht Nordrhein-Westfalen
+
+**[OVG NRW, Beschluss 28.06.2013, 1 B 1373/12](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1373-12)**
+
+Oberverwaltungsgericht Nordrhein-Westfalen · 2013-06-28 · Stufe **A** · Primärquelle · `SRC-DE-OVG-NRW-NSU-1B137312-20130628`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1373-12)
+
+Fundstelle: Indexierte Entscheidungsgründe zur Aufsicht; Abgleich BT-Drs. 17/14600 S. 786, Fn. 6963–6967
 
 </article>
 
@@ -6742,6 +6787,21 @@ Verfassungsgericht des Landes Brandenburg · 2004-12-09 · Stufe **A** · Primä
 [Seite öffnen](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~09-12-2004-vfgbbg-604_1359)
 
 Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kaiser-Nicht verfassungswidrig, im Übrigen Antrag zurückgewiesen; Gründe B.II/B.III zu individueller Abwägung gegenüber Nichtmitglied Heinz Vietze
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-vgd-nsu-37k440514bdg-20150701"></a>
+### Verwaltungsgericht Düsseldorf
+
+**[VG Düsseldorf, Urteil 01.07.2015, 37 K 4405/14.BDG](https://ra.de/vg-dusseldorf/37-k-440514bdg-2015-07-01)**
+
+Verwaltungsgericht Düsseldorf · 2015-07-01 · Stufe **A** · Primärquelle · `SRC-DE-VGD-NSU-37K440514BDG-20150701`
+
+[Seite öffnen](https://ra.de/vg-dusseldorf/37-k-440514bdg-2015-07-01)
+
+Fundstelle: ECLI:DE:VGD:2015:0701.37K4405.14BDG.00; Tenor, Rn. 4–11, 18–26
 
 </article>
 

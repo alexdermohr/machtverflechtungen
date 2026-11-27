@@ -1202,6 +1202,23 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("KEIN nachgewiesener individueller Geldfluss", market["label"])
 
 
+    def test_nsu_judicial_oversight_preserves_attribution_and_outcome_limits(self):
+        root = coverage.ROOT
+        matrix = (root / "research/nsu-komplex-skandale-belegmatrix-1994-2026.md").read_text(encoding="utf-8")
+        los = (root / "research/bfv-los-nsu-2011-2014.md").read_text(encoding="utf-8")
+        row = next(line for line in matrix.splitlines() if line.startswith("| NSU-28 |"))
+        self.assertIn("Referatsgruppenleiter D. seine Mitarbeiter", row)
+        self.assertIn("Hauptbericht leitet das Zitat fehlerhaft", row)
+        self.assertIn("S. 1277, Fn. 3694", row)
+        self.assertIn("Eine eigene Stopp-Anweisung Lingens für den 07./08.11. ist daraus nicht ableitbar", los)
+        self.assertNotIn("\n\n| NSU-46 |", matrix)
+        rels = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        self.assertIn("vorläufigen Rückumsetzung", rels["REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001"]["label"])
+        self.assertIn("keine Entscheidung zur materiellen Berechtigung", rels["REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001"]["label"])
+        self.assertIn("tatsächliche Vorlage offen", rels["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]["label"])
+
     def test_nsu_and_amri_use_shared_modern_authority_identities(self):
         root = coverage.ROOT
         entities = {e["id"]: e for e in yaml.safe_load(

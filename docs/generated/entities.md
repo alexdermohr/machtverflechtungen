@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**575 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**579 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -236,7 +236,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [16](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [18](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [3](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -412,6 +412,7 @@
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [4](network.md#rel-de-nsu-mad-bfv-1999-001) |
+| Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -437,6 +438,7 @@
 | Nicht namentlich verifizierter Verlag (1 BvR 2575/19) | media_publisher | `ORG-DE-VERLAG-1BVR257519` | DE | [2](network.md#rel-de-bnd-media-001) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Norddeutscher Rundfunk | public_broadcaster | `ORG-DE-NDR` | DE | [2](network.md#rel-de-bnd-media-005) |
+| Oberverwaltungsgericht Nordrhein-Westfalen | court | `ORG-DE-OVG-NRW` | DE | [1](network.md#rel-de-nsu-ovg-bfv-rueckumsetzung-2013-001) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
@@ -562,6 +564,7 @@
 | Verfassungsschutz Nordrhein-Westfalen | intelligence_service | `ORG-DE-LFV-NRW` | DE | [2](network.md#rel-de-amri-004) |
 | Verfassungsschutzbehörde Sachsen-Anhalt | intelligence_service | `ORG-DE-ST-LFV` | DE | [1](network.md#rel-de-nsu-st-lfv-datentraeger-2014-001) |
 | Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012) | document | `DOC-DE-NSU-G10-ANLAGENORDNER-2012` | DE | [1](network.md#rel-de-nsu-bfv-g10-vernichtung-001) |
+| Verwaltungsgericht Düsseldorf | court | `ORG-DE-VG-DUESSELDORF` | DE | [1](network.md#rel-de-nsu-vgd-bfv-disziplinar-2015-001) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
@@ -572,6 +575,7 @@
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
+| Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode) | parliamentary_committee | `ORG-DE-BT-NSU-UA2-2015-2017` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 
 ## Programme
 

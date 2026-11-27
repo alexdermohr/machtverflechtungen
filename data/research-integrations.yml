@@ -269,7 +269,7 @@ studies:
       - REL-DE-BDJ-002
 
   nsu-komplex-skandale-belegmatrix-1994-2026.md:
-    sha256: 6d05b827b4005f7924da82dd9d9b87960439801bafbc75db403164ef60741a48
+    sha256: fd7fe56411797efc8badbe5a5fb6503f465c825cbf52426bdbd22b0aebccda31
     status: network
     relation_ids:
       - REL-DE-THS-001
@@ -300,6 +300,9 @@ studies:
       - REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001
       - REL-DE-NSU-MAD-AKTEN-2012-001
       - REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001
+      - REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001
+      - REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001
+      - REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001
 
   britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md:
     sha256: 2f5f454403931bae190ed7cff2cd7530b95f68b81527b60d141560e4fcae0ca1
@@ -666,7 +669,7 @@ studies:
       - REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
 
   bfv-los-nsu-2011-2014.md:
-    sha256: b6c7a8c9d511e0a264492ee1b64acb072f687cd7ec55c7c851dd23872cffbdb3
+    sha256: 4db1e4ba5d828da40ca042b639b7f595c0e9742e626f2849df19becf886ef1c3
     status: network
     relation_ids:
       - REL-DE-NSU-AKT-001
@@ -678,6 +681,9 @@ studies:
       - REL-DE-NSU-BFV-G10-VERNICHTUNG-001
       - REL-DE-NSU-BMI-BFV-G10-2011-001
       - REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001
+      - REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001
+      - REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001
+      - REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001
 
   p2-gelli-argentinien-rizzoli-cia-sisde-1974-1983.md:
     sha256: 8ddc049e97cc229e6fc53b616746f8a8a85f404a379b60503d1bcde935933a43

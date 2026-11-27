@@ -3259,3 +3259,21 @@ entities:
     name: "Presse- und Informationsamt der Bundesregierung (1966)"
     countries: [DE]
     notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Gleichsetzung mit der CIA-Nachdruckverteilung 1953."
+
+  - id: ORG-DE-OVG-NRW
+    type: court
+    name: Oberverwaltungsgericht Nordrhein-Westfalen
+    countries: [DE]
+  - id: ORG-DE-VG-DUESSELDORF
+    type: court
+    name: Verwaltungsgericht Düsseldorf
+    countries: [DE]
+  - id: ORG-DE-BT-NSU-UA2-2015-2017
+    type: parliamentary_committee
+    name: Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode)
+    countries: [DE]
+    notes: "Dritter Untersuchungsausschuss der 18. Wahlperiode, nicht der erste NSU-Untersuchungsausschuss."
+  - id: ORG-DE-NRW-JUSTIZMINISTERIUM
+    type: government_ministry
+    name: Ministerium der Justiz Nordrhein-Westfalen
+    countries: [DE]

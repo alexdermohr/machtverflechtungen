@@ -7250,3 +7250,28 @@ relations:
     evidence_level: strong
     period:
       start: '1964'
+
+  - id: REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001
+    from: ORG-DE-OVG-NRW
+    to: ORG-DE-BFV
+    type: ordered_provisional_reinstatement
+    label: "Verpflichtete am 28.06.2013 in zwei Eilverfahren zur vorläufigen Rückumsetzung der beiden Vorgesetzten Lingens; keine strafrechtliche Klärung"
+    period: {start: "2013-06-28"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-OVG-NRW-NSU-1B130712-20130628, SRC-DE-OVG-NRW-NSU-1B137312-20130628]
+  - id: REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001
+    from: ORG-DE-VG-DUESSELDORF
+    to: ORG-DE-BFV
+    type: annulled_disciplinary_measure
+    label: "Hob am 01.07.2015 die Geldbuße gegen früheren Abteilungsleiter wegen inzwischen eingetretenen Ruhestands auf; keine Entscheidung zur materiellen Berechtigung des Vorwurfs"
+    period: {start: "2015-07-01"}
+    evidence_level: established
+    sources: [SRC-DE-VGD-NSU-37K440514BDG-20150701]
+  - id: REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001
+    from: ORG-DE-BT-NSU-UA2-2015-2017
+    to: ORG-DE-NRW-JUSTIZMINISTERIUM
+    type: requested_court_records
+    label: "Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"
+    period: {start: "2016-10-20"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-NW35-20161020]
