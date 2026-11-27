@@ -3053,12 +3053,6 @@ entities:
     - DE
     notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.
 
-  - id: ORG-DE-GBA-NSU-2026
-    type: prosecution_authority
-    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"
-    countries: [DE]
-    notes: "Zeitbezogener Datensatz, getrennt vom historischen Datensatz 1952–1953."
-
   - id: PRG-DE-HH-NSU-FORSCHUNG
     type: research_project
     name: "Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"
@@ -3080,38 +3074,16 @@ entities:
     name: "Militärischer Abschirmdienst"
     countries: [DE]
 
-  - id: ORG-DE-BERLIN-LKA
-    type: law_enforcement
-    name: "Landeskriminalamt Berlin"
-    countries: [DE]
-
   - id: PER-DE-THOMAS-STARKE
     type: person
     name: "Thomas Starke (VP 562)"
     countries: [DE]
     notes: "Öffentlich im Bundestagsbericht 17/14600 benannter Informant des Berliner LKA."
 
-  - id: ORG-DE-GBA-NSU-1998-2012
-    type: prosecution_authority
-    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012)"
-    countries: [DE]
-    notes: "Zeitbezogener Datensatz, nicht mit den Datensätzen 1952–1953 oder 2026 verwechseln."
-
-  - id: ORG-DE-BMI-2003
-    type: government_ministry
-    name: "Bundesministerium des Innern (2003)"
-    countries: [DE]
-
   - id: PER-DE-KLAUS-DIETER-FRITSCHE
     type: person
     name: "Klaus-Dieter Fritsche"
     countries: [DE]
-
-  - id: ORG-DE-GBA-NSU-2014
-    type: prosecution_authority
-    name: "Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014)"
-    countries: [DE]
-    notes: "Zeitbezogener Datensatz, institutionell identisch mit den entsprechend anders datierten GBA-Datensätzen."
 
   - id: ORG-DE-STA-KARLSRUHE
     type: prosecution_authority
@@ -3140,12 +3112,6 @@ entities:
     countries: [DE]
     notes: "2014 vernichtete Datenträger laut Datenschutz-Tätigkeitsbericht; genauer Umfang und weitere Überlieferung unbekannt."
 
-  - id: ORG-DE-BERLIN-LFV-2012
-    type: intelligence_service
-    name: "Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012)"
-    countries: [DE]
-    notes: "Zeitbezogener Datensatz des wiedervereinigten Berlin; vom historischen West-Berliner Landesamt im Datensatz ORG-DE-BERLIN-VERFASSUNGSSCHUTZ zu unterscheiden."
-
   - id: DOC-DE-NSU-BERLIN-AKTEN-2012
     type: document
     name: "57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"
@@ -3155,11 +3121,6 @@ entities:
   - id: ORG-DE-STA-GERA
     type: prosecution_authority
     name: "Staatsanwaltschaft Gera"
-    countries: [DE]
-
-  - id: ORG-DE-BMI-2011-2012
-    type: government_ministry
-    name: "Bundesministerium des Innern (NSU, 2011–2012)"
     countries: [DE]
 
   - id: ORG-DE-BMVG-2012
@@ -3199,11 +3160,13 @@ entities:
     name: Landeskriminalamt Berlin
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität des Berliner Landeskriminalamts in NSU- und Amri-Forschung; keine daraus abgeleitete personelle Identität der jeweiligen Ermittler."
   - id: ORG-DE-GBA
     type: prosecution_authority
     name: Generalbundesanwalt beim Bundesgerichtshof
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität für die NSU- und Amri-Beziehungen; Amtsinhaber, Zuständigkeiten und konkrete Entscheidungen ergeben sich aus den datierten Relationen. Der ältere historische Datensatz ORG-DE-BUNDESANWALTSCHAFT bleibt als publizierter Zeitschnitt erhalten."
   - id: ORG-DE-GENSTA-BERLIN
     type: prosecution_authority
     name: Generalstaatsanwaltschaft Berlin
@@ -3229,6 +3192,7 @@ entities:
     name: Verfassungsschutz Berlin
     countries:
     - DE
+    notes: "Berliner Verfassungsschutz des wiedervereinigten Berlin; vom historischen West-Berliner Landesamt ORG-DE-BERLIN-VERFASSUNGSSCHUTZ zu unterscheiden."
   - id: ORG-MA-DGST
     type: intelligence_service
     name: Direction générale de la surveillance du territoire (DGST)
@@ -3253,9 +3217,10 @@ entities:
     - DE
   - id: ORG-DE-BMI-AMRI-2017
     type: government_ministry
-    name: Bundesministerium des Innern (Amri-Komplex 2017)
+    name: Bundesministerium des Innern (BMI)
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität für die belegten BMI-Handlungen 2003, 2011–2012 und 2017; der bestehende publizierte ID-Anker bleibt erhalten, die Zeitangaben stehen in den Relationen. ORG-DE-BMI bleibt als publizierter historischer Zeitschnitt von 1952 erhalten."
   - id: ORG-DE-BMJV-AMRI-2017
     type: government_ministry
     name: Bundesministerium der Justiz und für Verbraucherschutz (2017)

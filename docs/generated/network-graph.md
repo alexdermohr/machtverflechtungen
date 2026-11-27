@@ -1276,9 +1276,9 @@ flowchart LR
     N_ORG_DE_DIE_WELT["Die Welt"]
     N_ORG_DE_BND -->|"Welt laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_WELT
     N_ORG_DE_BND -->|"Zeit laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_ZEIT
-    N_ORG_DE_GBA_NSU_2026["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"]
+    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
     N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
-    N_ORG_DE_GBA_NSU_2026 -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
+    N_ORG_DE_GBA -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
     N_ORG_DE_STA_KOELN["Staatsanwaltschaft Köln"]
     N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
     N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN
@@ -1289,38 +1289,35 @@ flowchart LR
     N_ORG_DE_MAD["Militärischer Abschirmdienst"]
     N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"| N_ORG_DE_BFV
     N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"| N_ORG_DE_TLFV
-    N_ORG_DE_GBA_NSU_1998_2012["Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012)"]
     N_ORG_DE_NSU["Nationalsozialistischer Untergrund (NSU)"]
-    N_ORG_DE_GBA_NSU_1998_2012 -->|"Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"| N_ORG_DE_NSU
+    N_ORG_DE_GBA -->|"Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"| N_ORG_DE_NSU
     N_PER_DE_KLAUS_DIETER_FRITSCHE["Klaus-Dieter Fritsche"]
-    N_ORG_DE_BMI_2003["Bundesministerium des Innern (2003)"]
-    N_PER_DE_KLAUS_DIETER_FRITSCHE -->|"Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"| N_ORG_DE_BMI_2003
-    N_ORG_DE_BERLIN_LKA["Landeskriminalamt Berlin"]
+    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (BMI)"]
+    N_PER_DE_KLAUS_DIETER_FRITSCHE -->|"Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"| N_ORG_DE_BMI_AMRI_2017
+    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
     N_PER_DE_THOMAS_STARKE["Thomas Starke (VP 562)"]
-    N_ORG_DE_BERLIN_LKA -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
-    N_ORG_DE_GBA_NSU_1998_2012 -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_BERLIN_LKA
-    N_ORG_DE_GBA_NSU_2014["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014)"]
+    N_ORG_DE_LKA_BERLIN -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
+    N_ORG_DE_GBA -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_LKA_BERLIN
     N_DOC_DE_NSU_WERNER_ASSERVATE_2014["Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"]
-    N_ORG_DE_GBA_NSU_2014 -->|"Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"| N_DOC_DE_NSU_WERNER_ASSERVATE_2014
+    N_ORG_DE_GBA -->|"Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"| N_DOC_DE_NSU_WERNER_ASSERVATE_2014
     N_ORG_DE_STA_KARLSRUHE["Staatsanwaltschaft Karlsruhe"]
-    N_ORG_DE_STA_KARLSRUHE -->|"Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"| N_ORG_DE_GBA_NSU_2014
+    N_ORG_DE_STA_KARLSRUHE -->|"Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"| N_ORG_DE_GBA
     N_ORG_DE_ST_LKA["Landeskriminalamt Sachsen-Anhalt"]
     N_DOC_DE_NSU_ST_DATENTRAEGER_2014["In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"]
     N_ORG_DE_ST_LKA -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
     N_ORG_DE_ST_LFV["Verfassungsschutzbehörde Sachsen-Anhalt"]
     N_ORG_DE_ST_LFV -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
-    N_ORG_DE_GBA_NSU_1998_2012 -->|"Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"| N_PER_DE_THOMAS_STARKE
-    N_ORG_DE_BERLIN_LFV_2012["Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012)"]
+    N_ORG_DE_GBA -->|"Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"| N_PER_DE_THOMAS_STARKE
+    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
     N_DOC_DE_NSU_BERLIN_AKTEN_2012["57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"]
-    N_ORG_DE_BERLIN_LFV_2012 -->|"Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"| N_DOC_DE_NSU_BERLIN_AKTEN_2012
+    N_ORG_DE_LFV_BERLIN -->|"Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"| N_DOC_DE_NSU_BERLIN_AKTEN_2012
     N_ORG_DE_STA_GERA["Staatsanwaltschaft Gera"]
     N_ORG_DE_STA_GERA -->|"Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"| N_ORG_DE_TLFV
     N_ORG_DE_TLFV -->|"Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"| N_ORG_DE_STA_GERA
     N_DOC_DE_NSU_G10_ANLAGENORDNER_2012["Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"]
     N_ORG_DE_BFV -->|"Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"| N_DOC_DE_NSU_G10_ANLAGENORDNER_2012
-    N_ORG_DE_BMI_2011_2012["Bundesministerium des Innern (NSU, 2011–2012)"]
-    N_ORG_DE_BMI_2011_2012 -->|"Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"| N_ORG_DE_BFV
-    N_ORG_DE_BMI_2011_2012 -->|"Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."| N_ORG_DE_BFV
     N_DOC_DE_NSU_MAD_AKTEN_2012["17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"]
     N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
     N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
@@ -1335,7 +1332,6 @@ flowchart LR
     N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]
     N_ORG_DE_LKA_NRW -->|"führte VP01 im Abu-Walaa-Ermittlungskomplex"| N_PER_DE_VP01_AMRI
     N_PER_DE_VP01_AMRI -->|"lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt"| N_ORG_DE_LKA_NRW
-    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
     N_ORG_DE_LKA_NRW -->|"übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor"| N_ORG_DE_GBA
     N_ORG_DE_LFV_NRW["Verfassungsschutz Nordrhein-Westfalen"]
     N_ORG_DE_LKA_NRW -->|"vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01"| N_ORG_DE_LFV_NRW
@@ -1346,10 +1342,8 @@ flowchart LR
     N_ORG_MA_DGST -->|"übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem"| N_ORG_DE_BND
     N_ORG_DE_LFV_MV["Verfassungsschutz Mecklenburg-Vorpommern"]
     N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_BFV
-    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
     N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_LFV_BERLIN
     N_ORG_DE_GENSTA_BERLIN["Generalstaatsanwaltschaft Berlin"]
-    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
     N_ORG_DE_GENSTA_BERLIN -->|"beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel"| N_ORG_DE_LKA_BERLIN
     N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
     N_ORG_DE_STA_BERLIN -->|"beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt"| N_ORG_DE_LKA_BERLIN
@@ -1362,7 +1356,6 @@ flowchart LR
     N_ORG_DE_BFV -->|"setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt"| N_ORG_DE_FUSSILET_MOSCHEE
     N_ORG_DE_BKA -->|"unterrichtete den BND erstmals über Amri"| N_ORG_DE_BND
     N_ORG_DE_BKA -->|"übermittelte ausgelesene Mobiltelefondaten zur Auswertung"| N_ORG_DE_BFV
-    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (Amri-Komplex 2017)"]
     N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
     N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
 ```

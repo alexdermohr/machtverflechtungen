@@ -1202,5 +1202,25 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertIn("KEIN nachgewiesener individueller Geldfluss", market["label"])
 
 
+    def test_nsu_and_amri_use_shared_modern_authority_identities(self):
+        root = coverage.ROOT
+        entities = {e["id"]: e for e in yaml.safe_load(
+            (root / "data/entities.yml").read_text(encoding="utf-8")
+        )["entities"]}
+        relations = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        obsolete = ('ORG-DE-BERLIN-LKA', 'ORG-DE-BERLIN-LFV-2012', 'ORG-DE-GBA-NSU-2026', 'ORG-DE-GBA-NSU-1998-2012', 'ORG-DE-GBA-NSU-2014', 'ORG-DE-BMI-2003', 'ORG-DE-BMI-2011-2012')
+        self.assertTrue(set(obsolete).isdisjoint(entities))
+        self.assertTrue(set(obsolete).isdisjoint(
+            endpoint for r in relations.values() for endpoint in (r["from"], r["to"])))
+        for entity in ("ORG-DE-LKA-BERLIN", "ORG-DE-GBA", "ORG-DE-LFV-BERLIN", "ORG-DE-BMI-AMRI-2017"):
+            self.assertIn(entity, entities)
+            for dossier in ("REL-DE-NSU-", "REL-DE-AMRI-"):
+                self.assertTrue(any(rid.startswith(dossier) and
+                    entity in (r["from"], r["to"]) for rid, r in relations.items()),
+                    (entity, dossier))
+
+
 if __name__ == "__main__":
     unittest.main()

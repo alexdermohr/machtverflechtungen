@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**576 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**569 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -218,7 +218,6 @@
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
-| Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012) | intelligence_service | `ORG-DE-BERLIN-LFV-2012` | DE | [1](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
@@ -244,9 +243,7 @@
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium der Verteidigung (NSU, 2012) | government_ministry | `ORG-DE-BMVG-2012` | DE | [1](network.md#rel-de-nsu-bmvg-mad-kenntnis-2012-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
-| Bundesministerium des Innern (2003) | government_ministry | `ORG-DE-BMI-2003` | DE | [1](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
-| Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
-| Bundesministerium des Innern (NSU, 2011–2012) | government_ministry | `ORG-DE-BMI-2011-2012` | DE | [2](network.md#rel-de-nsu-bmi-bfv-g10-2011-001) |
+| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [4](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [29](network.md#rel-de-gehlen-001) |
@@ -352,10 +349,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [3](network.md#rel-de-amri-003) |
-| Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012) | prosecution_authority | `ORG-DE-GBA-NSU-1998-2012` | DE | [3](network.md#rel-de-nsu-gba-pruefung-1999-001) |
-| Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014) | prosecution_authority | `ORG-DE-GBA-NSU-2014` | DE | [2](network.md#rel-de-nsu-gba-werner-asservate-2014-001) |
-| Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026) | prosecution_authority | `ORG-DE-GBA-NSU-2026` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [9](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -398,8 +392,7 @@
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
-| Landeskriminalamt Berlin | law_enforcement | `ORG-DE-BERLIN-LKA` | DE | [2](network.md#rel-de-nsu-lka-vp562-001) |
-| Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [3](network.md#rel-de-amri-011) |
+| Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-nsu-lka-vp562-001) |
 | Landeskriminalamt Nordrhein-Westfalen | police_authority | `ORG-DE-LKA-NRW` | DE | [4](network.md#rel-de-amri-001) |
 | Landeskriminalamt Sachsen-Anhalt | law_enforcement | `ORG-DE-ST-LKA` | DE | [1](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
@@ -558,7 +551,7 @@
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
-| Verfassungsschutz Berlin | intelligence_service | `ORG-DE-LFV-BERLIN` | DE | [1](network.md#rel-de-amri-010) |
+| Verfassungsschutz Berlin | intelligence_service | `ORG-DE-LFV-BERLIN` | DE | [2](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | Verfassungsschutz Mecklenburg-Vorpommern | intelligence_service | `ORG-DE-LFV-MV` | DE | [2](network.md#rel-de-amri-009) |
 | Verfassungsschutz Nordrhein-Westfalen | intelligence_service | `ORG-DE-LFV-NRW` | DE | [2](network.md#rel-de-amri-004) |
 | Verfassungsschutzbehörde Sachsen-Anhalt | intelligence_service | `ORG-DE-ST-LFV` | DE | [1](network.md#rel-de-nsu-st-lfv-datentraeger-2014-001) |
