@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**640 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**658 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -171,6 +171,7 @@
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
+| 3M Colombia S.A. | company | `ORG-IDNET-3M` | CO | [1](network.md#rel-co-idnet-014) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | AB Svensk Exportkredit (SEK, SIVAM) | historical_export_credit_institution | `ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997` | SE | [1](network.md#rel-ws-sek-cayman) |
@@ -280,6 +281,9 @@
 | Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
 | Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
+| Carvajal S.A. (Geschäftsbericht 2011) | company | `ORG-IDNET-CARVAJAL` | CO | [1](network.md#rel-co-idnet-006) |
+| Carvajal Soluciones en Tecnología S.A.S. | company | `ORG-IDNET-CARVAJAL-SOL` | CO | [1](network.md#rel-co-idnet-019) |
+| Carvajal Tecnología y Servicios S.A.S. (früher Assenda) | company | `ORG-IDNET-ASSENDA` | CO | [3](network.md#rel-co-idnet-005) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
@@ -389,6 +393,7 @@
 | Fundación Karisma | civil_society_organization | `ORG-CO-FUNDACION-KARISMA` | CO | [1](network.md#rel-mauss-pmt-025) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
+| Gemalto Colombia S.A. | company | `ORG-IDNET-GEMALTO` | CO | [1](network.md#rel-co-idnet-010) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [8](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
@@ -410,7 +415,8 @@
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IBM Corporation (1992) | historical_company | `ORG-US-IBM-1992` | US | [1](network.md#rel-ws-ibm-osac) |
 | IBM de Colombia (historisch, 1996) | company | `ORG-CO-IBM-1996` | CO | [1](network.md#rel-mauss-pmt-014) |
-| IDEMIA Identity & Security Sucursal Colombia | company | `ORG-CO-IDEMIA-900060799` | CO, FR | [2](network.md#rel-mauss-pmt-024) |
+| IDEMIA Colombia S.A.S. (Morpho Cards / Valores Plasticar) | company | `ORG-IDNET-SAS` | CO | [4](network.md#rel-co-idnet-004) |
+| IDEMIA Identity & Security Sucursal Colombia | company | `ORG-CO-IDEMIA-900060799` | CO, FR | [4](network.md#rel-mauss-pmt-024) |
 | IDEMIA Public Security | company | `ORG-FR-IDEMIA-PUBLIC-SECURITY` | FR | [1](network.md#rel-mauss-pmt-033) |
 | IDEMIA Smart Identity | company | `ORG-FR-IDEMIA-SMART-IDENTITY` | FR | [1](network.md#rel-mauss-pmt-032) |
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
@@ -459,6 +465,7 @@
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Metromed (historisch, 1996) | company | `ORG-CO-METROMED-1996` | CO | [1](network.md#rel-mauss-pmt-002) |
 | Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
+| Ministerio de Transporte (Kolumbien) | government_ministry | `ORG-IDNET-TRANSPORTE` | CO | [2](network.md#rel-co-idnet-022) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -467,6 +474,7 @@
 | Mobil Equatorial Guinea Inc. (MEGI) | oil_company | `ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC` | GQ, US | [2](network.md#rel-riggs-followup-047) |
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
+| Morpho Cards do Brasil S.A. | company | `ORG-IDNET-MORPHO-BR` | BR | [3](network.md#rel-co-idnet-006) |
 | Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
@@ -514,7 +522,7 @@
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
-| Procuraduría General de la Nación (Kolumbien) | government_agency | `ORG-CO-PGN` | CO | [1](network.md#rel-mauss-pmt-028) |
+| Procuraduría General de la Nación (Kolumbien) | government_agency | `ORG-CO-PGN` | CO | [2](network.md#rel-mauss-pmt-028) |
 | Public Law 108–458, Section 6303 (2004) | statute_document | `DOC-US-PL108-458-SEC6303` | US | [1](network.md#rel-riggs-followup-026) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Raue (Berlin) | law_firm | `ORG-DE-RAUE` | DE | [2](network.md#rel-de-bnd-media-012) |
@@ -538,6 +546,7 @@
 | Schahin (SIVAM-Bauauftrag 1999) | historical_company | `ORG-BR-SCHAHIN-SIVAM-1999` | BR | [1](network.md#rel-ws-ccsivam-schahin-1999) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
+| Seguridad Móvil de Colombia S.A. | company | `ORG-IDNET-SEG-MOVIL` | CO | [1](network.md#rel-co-idnet-013) |
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
@@ -563,7 +572,7 @@
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
 | Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg) | historical_civic_association | `ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990` | DE | [4](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Sun Chemical Company (El-Mercurio-Lieferantin, 1972) | historical_commercial_supplier | `ORG-US-SUN-CHEMICAL-1972` | US | [2](network.md#rel-us-sun-chemical-el-mercurio-credit-1972) |
-| Superintendencia de Industria y Comercio (SIC) | regulatory_authority | `ORG-CO-SIC` | CO | [4](network.md#rel-mauss-pmt-027) |
+| Superintendencia de Industria y Comercio (SIC) | regulatory_authority | `ORG-CO-SIC` | CO | [6](network.md#rel-mauss-pmt-027) |
 | Superior Tribunal de Justiça (STJ) | court | `ORG-BR-STJ` | BR | [1](network.md#rel-ws-stj-contract) |
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Sweetwater Malibu LLC | company | `ORG-US-SWEETWATER-MALIBU-LLC` | US | [1](network.md#rel-riggs-post-2004-047) |
@@ -578,6 +587,9 @@
 | The Halle Foundation | foundation | `ORG-US-HALLE-FOUNDATION` | US | [2](network.md#rel-us-halle-ab-grant-2022) |
 | The Trilateral Commission | policy_network | `ORG-INT-TRILATERAL-COMMISSION` | US, DE | [1](network.md#rel-de-tmn-056) |
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US | [3](network.md#rel-us-bbf-001) |
+| Thomas Greg & Sons de Colombia S.A. | company | `ORG-IDNET-TGS` | CO | [9](network.md#rel-co-idnet-001) |
+| Thomas Greg & Sons Limited (Guernsey) S.A. | company | `ORG-IDNET-TGS-GUERNSEY` | CO | [2](network.md#rel-co-idnet-016) |
+| Thomas Greg Express S.A. | company | `ORG-IDNET-TGS-EXPRESS` | CO | [1](network.md#rel-co-idnet-012) |
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
@@ -620,6 +632,12 @@
 | US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972) | historical_commercial_bank_cohort | `ORG-US-CHILE-CREDITO2-LENDERS-1972` | US, CL | [1](network.md#rel-cl-bcch-us-private-bank-credito2-notes-1974) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
+| UT DISPROEL 2018 | consortium | `ORG-IDNET-DISPROEL18` | CO | [3](network.md#rel-co-idnet-015) |
+| UT DISPROEL 2019 | consortium | `ORG-IDNET-DISPROEL19` | CO | [4](network.md#rel-co-idnet-018) |
+| UT Pasaportes Electrónicos 2014 | consortium | `ORG-IDNET-PASS2014` | CO | [2](network.md#rel-co-idnet-009) |
+| UT Personalización y Logística 2015 | consortium | `ORG-IDNET-PERSON2015` | CO | [4](network.md#rel-co-idnet-011) |
+| UT Soluciones Integrales de Licencias (2009) | consortium | `ORG-IDNET-SIL` | CO | [2](network.md#rel-co-idnet-003) |
+| Valores Plasticar S.A.C. (Peru) | company | `ORG-IDNET-PLASTICAR-PE` | PE | [1](network.md#rel-co-idnet-008) |
 | Verband der Sachversicherer (historisch) | insurance_trade_association | `ORG-DE-SACHVERSICHERER-VERBAND` | DE | [2](network.md#rel-mauss-finanz-002) |
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |

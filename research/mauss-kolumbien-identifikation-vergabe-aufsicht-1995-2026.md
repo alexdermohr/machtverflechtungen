@@ -76,3 +76,7 @@ Safran bestätigte 2017 die abgeschlossene Veräußerung seines Identity-&-Secur
 - Q30: [Cámara de Comercio de Bogotá, Boletín 7387](https://assets.ctfassets.net/n1ptkpqt763u/rgjN7hs1yyPV1hLJKvqOs/046487f18292d5880bb00ab7c53e936a/_7387__27_de_Noviembre_de_2024_publicado_28_de_Noviembre_de_2024.pdf), 27.11.2024, S.49.
 
 Quellenstand: Vorrecherchen sind in [Issue #288](https://github.com/alexdermohr/machtverflechtungen/issues/288) mit genauen Abrufgrenzen dokumentiert. Bei mehreren PDF-Quellen waren Seitenbilder trotz Abrufversuch nicht verfügbar; Textfassungen bzw. indexierte Auszüge werden entsprechend gekennzeichnet. Die CNMV-Mitteilung wurde laut Vorrecherche visuell kontrolliert. Keine unüberprüfte Zahlungs- oder Tatbeteiligungskante.
+
+## Nachtrag: Originalentscheid
+
+Fallo 006-26 vom 16.03.2026 und Auto 045-26 vom 18.03.2026 wurden in Textansicht erschlossen; 17.03. bezeichnet den Benachrichtigungstag, nicht das Entscheidungsdatum. Die erstinstanzliche Disziplinarentscheidung trifft keine materielle Kartellentscheidung. Details, Gegenposition und Unternehmensbeziehungen in der [Folgestudie](kolumbien-idemia-tgs-carvajal-konsortien-2009-2026.md). [Originaldokument](https://apps.procuraduria.gov.co/portal/media/file/Notificaciones/28560_FALLO%20006-26_auto_aclaratorio.pdf).

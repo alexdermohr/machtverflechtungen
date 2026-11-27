@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**870 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**895 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1455,7 +1455,7 @@ flowchart LR
     N_ORG_CO_SIC["Superintendencia de Industria y Comercio (SIC)"]
     N_ORG_CO_SIC -->|"SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen; keine Schuld festgestellt"| N_ORG_CO_RNEC
     N_ORG_CO_PGN["Procuraduría General de la Nación (Kolumbien)"]
-    N_ORG_CO_PGN -->|"PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; Rechtsmittel offen."| N_ORG_CO_SIC
+    N_ORG_CO_PGN -->|"Fallo 006-26 vom 16.03.2026: erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; kein materieller Kartellentscheid, Rechtsmittelstatus offen."| N_ORG_CO_SIC
     N_ORG_CO_CORTE_CONSTITUCIONAL["Corte Constitucional de Colombia"]
     N_ORG_CO_CORTE_CONSTITUCIONAL -->|"C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung betroffener Verfahren an"| N_ORG_CO_SIC
     N_ORG_CO_SIC -->|"Blu Radio berichtet am 17.09.2026 Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit; Originalbescheid offen"| N_ORG_CO_RNEC
@@ -1522,6 +1522,49 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_ORG_IDNET_TGS["Thomas Greg & Sons de Colombia S.A."]
+    N_ORG_CO_IDEMIA_900060799 -->|"RUP-Eintrag 49 (07.01.2021): Morpho Sucursal, registrierter ausgeführter Vertragswert 2.557,00 SMMLV; Datum und konkrete Leistung offen."| N_ORG_IDNET_TGS
+    N_ORG_CO_IDEMIA_900060799 -->|"RUP-Eintrag 178 (07.01.2021): IDEMIA Identity & Security Sucursal, 1.653,78 SMMLV; Datum und konkrete Leistung offen."| N_ORG_IDNET_TGS
+    N_ORG_IDNET_SIL["UT Soluciones Integrales de Licencias (2009)"]
+    N_ORG_IDNET_TGS -->|"TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_SIL
+    N_ORG_IDNET_SAS["IDEMIA Colombia S.A.S. (Morpho Cards / Valores Plasticar)"]
+    N_ORG_IDNET_SAS -->|"TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_SIL
+    N_ORG_IDNET_ASSENDA["Carvajal Tecnología y Servicios S.A.S. (früher Assenda)"]
+    N_ORG_IDNET_ASSENDA -->|"Registereintrag 27.04.2011: partielle Ausgliederung zugunsten Valores Plasticar; NIT-Kontinuität zur späteren SAS durch historische Zolldaten gestützt."| N_ORG_IDNET_SAS
+    N_ORG_IDNET_CARVAJAL["Carvajal S.A. (Geschäftsbericht 2011)"]
+    N_ORG_IDNET_MORPHO_BR["Morpho Cards do Brasil S.A."]
+    N_ORG_IDNET_CARVAJAL -->|"Carvajal berichtet Verkauf von Beteiligungen der drei Tochtergesellschaften in Kolumbien und Peru, zusammen 62.801.842 Tausend COP; Einigung August, Vollzug September 2011 laut Safran."| N_ORG_IDNET_MORPHO_BR
+    N_ORG_IDNET_MORPHO_BR -->|"Erwerb kolumbianischer Kartenproduktion (Valores Plasticar), September 2011; historische NIT-Kontinuität zur späteren SAS gestützt, exakte Namensurkunden offen."| N_ORG_IDNET_SAS
+    N_ORG_IDNET_PLASTICAR_PE["Valores Plasticar S.A.C. (Peru)"]
+    N_ORG_IDNET_MORPHO_BR -->|"Erwerb des peruanischen Kartenproduktionsgeschäfts im selben Verkauf 2011, keine separate Preiszuordnung."| N_ORG_IDNET_PLASTICAR_PE
+    N_ORG_IDNET_PASS2014["UT Pasaportes Electrónicos 2014"]
+    N_ORG_IDNET_TGS -->|"TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PASS2014
+    N_ORG_IDNET_GEMALTO["Gemalto Colombia S.A."]
+    N_ORG_IDNET_GEMALTO -->|"TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PASS2014
+    N_ORG_IDNET_PERSON2015["UT Personalización y Logística 2015"]
+    N_ORG_IDNET_TGS -->|"TGS-Finanzunterlagen 2019/2018: 45% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PERSON2015
+    N_ORG_IDNET_TGS_EXPRESS["Thomas Greg Express S.A."]
+    N_ORG_IDNET_TGS_EXPRESS -->|"TGS-Finanzunterlagen 2019/2018: 4% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PERSON2015
+    N_ORG_IDNET_SEG_MOVIL["Seguridad Móvil de Colombia S.A."]
+    N_ORG_IDNET_SEG_MOVIL -->|"TGS-Finanzunterlagen 2019/2018: 1% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PERSON2015
+    N_ORG_IDNET_3M["3M Colombia S.A."]
+    N_ORG_IDNET_3M -->|"TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_PERSON2015
+    N_ORG_IDNET_DISPROEL18["UT DISPROEL 2018"]
+    N_ORG_IDNET_ASSENDA -->|"TGS-Finanzunterlagen 2019/2018: 36% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL18
+    N_ORG_IDNET_TGS_GUERNSEY["Thomas Greg & Sons Limited (Guernsey) S.A."]
+    N_ORG_IDNET_TGS_GUERNSEY -->|"TGS-Finanzunterlagen 2019/2018: 18% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL18
+    N_ORG_IDNET_TGS -->|"TGS-Finanzunterlagen 2019/2018: 2% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL18
+    N_ORG_IDNET_DISPROEL19["UT DISPROEL 2019"]
+    N_ORG_IDNET_ASSENDA -->|"TGS-Finanzunterlagen 2019/2018: 42,4% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL19
+    N_ORG_IDNET_CARVAJAL_SOL["Carvajal Soluciones en Tecnología S.A.S."]
+    N_ORG_IDNET_CARVAJAL_SOL -->|"TGS-Finanzunterlagen 2019/2018: 2,6% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL19
+    N_ORG_IDNET_TGS_GUERNSEY -->|"TGS-Finanzunterlagen 2019/2018: 32% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL19
+    N_ORG_IDNET_TGS -->|"TGS-Finanzunterlagen 2019/2018: 5% laut Berichtsstand; Eintrittsdatum offen."| N_ORG_IDNET_DISPROEL19
+    N_ORG_IDNET_TRANSPORTE["Ministerio de Transporte (Kolumbien)"]
+    N_ORG_IDNET_TRANSPORTE -->|"Undatierte amtliche Liste zugelassener Anbieter vorbedruckter Karten; keine Exklusivität."| N_ORG_IDNET_TGS
+    N_ORG_IDNET_TRANSPORTE -->|"Amtliche Liste nennt Morpho Cards de Colombia als einen von vier zugelassenen Anbietern vorbedruckter Karten."| N_ORG_IDNET_SAS
+    N_ORG_CO_SIC -->|"Fallo 006-26 S.61–63, 81–83 dokumentiert Vorermittlung 21-210310 und Untersuchungsfragen zu TGS und möglichen IDEMIA-Verbindungen; kein materieller Schuldnachweis."| N_ORG_IDNET_TGS
+    N_ORG_CO_SIC -->|"SIC verteidigt am 18.03.2026 ihre Inspektionsverfahren nach erstinstanzlichem Disziplinarentscheid."| N_ORG_CO_PGN
 ```
 
 [Zur Relationstabelle](network.md)

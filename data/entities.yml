@@ -3611,3 +3611,103 @@ entities:
     name: "Sagem (AFIS-Rechteinhaber, 2005)"
     countries: [FR]
     notes: "Zeitbezogener Rollenknoten für den 2005 von der RNEC als Sagem bezeichneten Rechteinhaber; weder die konkrete juristische Kontinuität zum Vertragspartner 1997 noch Identität mit dem Consorcio Sagem vorausgesetzt."
+
+  - id: ORG-IDNET-TGS
+    name: Thomas Greg & Sons de Colombia S.A.
+    type: company
+    countries:
+    - CO
+    notes: NIT 860005080-2, nicht TGS Limited Guernsey
+  - id: ORG-IDNET-SAS
+    name: IDEMIA Colombia S.A.S. (Morpho Cards / Valores Plasticar)
+    type: company
+    countries:
+    - CO
+    notes: NIT 900386417-9; Morpho Cards amtlich, Valores Plasticar durch historische Zolldaten gestützt; nicht NIT
+      900060799-7
+  - id: ORG-IDNET-SIL
+    name: UT Soluciones Integrales de Licencias (2009)
+    type: consortium
+    countries:
+    - CO
+    notes: Gründungsdatum 27.07.2009; Zusammensetzung 2019 berichtet, Eintrittsdaten offen
+  - id: ORG-IDNET-ASSENDA
+    name: Carvajal Tecnología y Servicios S.A.S. (früher Assenda)
+    type: company
+    countries:
+    - CO
+    notes: Namenswechsel 2012; Ausgliederung zugunsten Valores Plasticar 2011
+  - id: ORG-IDNET-CARVAJAL
+    name: Carvajal S.A. (Geschäftsbericht 2011)
+    type: company
+    countries:
+    - CO
+    notes: Konzernperspektive; Verkauf durch drei Tochtergesellschaften
+  - id: ORG-IDNET-MORPHO-BR
+    name: Morpho Cards do Brasil S.A.
+    type: company
+    countries:
+    - BR
+    notes: Safran-Tochter 2011
+  - id: ORG-IDNET-PLASTICAR-PE
+    name: Valores Plasticar S.A.C. (Peru)
+    type: company
+    countries:
+    - PE
+    notes: Nicht kolumbianische SAS
+  - id: ORG-IDNET-PASS2014
+    name: UT Pasaportes Electrónicos 2014
+    type: consortium
+    countries:
+    - CO
+  - id: ORG-IDNET-GEMALTO
+    name: Gemalto Colombia S.A.
+    type: company
+    countries:
+    - CO
+  - id: ORG-IDNET-PERSON2015
+    name: UT Personalización y Logística 2015
+    type: consortium
+    countries:
+    - CO
+  - id: ORG-IDNET-3M
+    name: 3M Colombia S.A.
+    type: company
+    countries:
+    - CO
+  - id: ORG-IDNET-TGS-EXPRESS
+    name: Thomas Greg Express S.A.
+    type: company
+    countries:
+    - CO
+  - id: ORG-IDNET-SEG-MOVIL
+    name: Seguridad Móvil de Colombia S.A.
+    type: company
+    countries:
+    - CO
+  - id: ORG-IDNET-DISPROEL18
+    name: UT DISPROEL 2018
+    type: consortium
+    countries:
+    - CO
+  - id: ORG-IDNET-DISPROEL19
+    name: UT DISPROEL 2019
+    type: consortium
+    countries:
+    - CO
+  - id: ORG-IDNET-TGS-GUERNSEY
+    name: Thomas Greg & Sons Limited (Guernsey) S.A.
+    type: company
+    countries:
+    - CO
+    notes: Bezeichnung im TGS-Bericht; getrennt von TGS de Colombia
+  - id: ORG-IDNET-TRANSPORTE
+    name: Ministerio de Transporte (Kolumbien)
+    type: government_ministry
+    countries:
+    - CO
+  - id: ORG-IDNET-CARVAJAL-SOL
+    name: Carvajal Soluciones en Tecnología S.A.S.
+    type: company
+    countries:
+    - CO
