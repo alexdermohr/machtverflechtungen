@@ -15,11 +15,11 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 <a id="src-de-berlin-ua-schmuecker-1990"></a>
 ### Abgeordnetenhaus Berlin
 
-**[Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)**
+**[Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/11/DruckSachen/d11-1224.pdf)**
 
 Abgeordnetenhaus Berlin · 1990-10-02 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-UA-SCHMUECKER-1990`
 
-[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/11/DruckSachen/d11-1224.pdf)
 
 Fundstelle: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
 
@@ -2086,7 +2086,7 @@ Deutscher Bundestag · 1996-12-11 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btp/13/13147.pdf)
 
-Fundstelle: S. 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
+Fundstelle: S. 13275–13277, 13292, 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
 
 </article>
 
@@ -2131,7 +2131,7 @@ Deutscher Bundestag · 1997-01-29 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btp/13/13153.pdf)
 
-Fundstelle: S. 13771–13774, dringliche Fragen 1–2
+Fundstelle: S. 13771–13776, 13778, dringliche Fragen 1–2
 
 </article>
 

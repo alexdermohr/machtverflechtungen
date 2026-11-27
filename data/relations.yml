@@ -6819,8 +6819,6 @@ relations:
     evidence_level: established
     sources:
     - SRC-DE-BT-NONNE-754-1995
-    period:
-      start: '1995-03-09'
   - id: REL-MAUSS-FINANZ-001
     from: ORG-DE-HUK-VERBAND
     to: PER-DE-WERNER-MAUSS
@@ -6955,8 +6953,6 @@ relations:
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-8130-1997
-    period:
-      start: '1997-07-01'
   - id: REL-MAUSS-FINANZ-013
     from: ORG-DE-BND
     to: ORG-DE-FA-ESSEN-SUED
@@ -7147,8 +7143,6 @@ relations:
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-6953-1997
-    period:
-      start: '1997'
   - id: REL-MAUSS-OFFSHORE-014
     from: PER-ICIJ-BURGHAGEN-11003187
     to: ORG-PA-TRANSACTA-VALORES
@@ -7226,24 +7220,20 @@ relations:
     from: PER-DE-WERNER-MAUSS
     to: ORG-PA-BOREAL-MANAGEMENT
     type: reported_association
-    label: NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten
+    label: 2016 – NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten
     evidence_level: strong
     sources:
     - SRC-DE-NDR-MAUSS-PANAMA-2016
     - SRC-INT-OCCRP-MAUSS-PANAMA-2016
-    period:
-      start: '2016'
   - id: REL-MAUSS-OFFSHORE-022
     from: PER-DE-WERNER-MAUSS
     to: ORG-PA-ANYSBERG-INTERNATIONAL
     type: reported_association
-    label: Berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung
+    label: 2016 berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung
     evidence_level: strong
     sources:
     - SRC-DE-NDR-MAUSS-PANAMA-2016
     - SRC-INT-OCCRP-MAUSS-PANAMA-2016
-    period:
-      start: '2016'
   - id: REL-MAUSS-DIPLOMATIE-001
     from: ORG-AR-REGIERUNGSSTELLEN-1996
     to: PER-DE-BERND-SCHMIDBAUER
@@ -7292,7 +7282,7 @@ relations:
       start: '1995-02-16'
   - id: REL-MAUSS-DIPLOMATIE-005
     from: ORG-DE-MANNESMANN-1995
-    to: ORG-DE-AUSWAERTIGES-AMT-2008
+    to: ORG-DE-AUSWAERTIGES-AMT-1996
     type: official_coordination
     label: Abstimmung des Unternehmensschreibens mit Auswärtigem Amt und Kanzleramt laut Regierungsantwort
     evidence_level: established
@@ -7323,7 +7313,7 @@ relations:
       start: '1995-02-17'
   - id: REL-MAUSS-DIPLOMATIE-008
     from: ORG-DE-BUNDESKANZLERAMT
-    to: ORG-DE-AUSWAERTIGES-AMT-2008
+    to: ORG-DE-AUSWAERTIGES-AMT-1996
     type: official_coordination
     label: Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51
     evidence_level: established
@@ -7332,7 +7322,7 @@ relations:
     period:
       start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-009
-    from: ORG-DE-AUSWAERTIGES-AMT-2008
+    from: ORG-DE-AUSWAERTIGES-AMT-1996
     to: ORG-DE-BOTSCHAFT-BOGOTA
     type: official_instruction
     label: Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt
@@ -7343,16 +7333,14 @@ relations:
     period:
       start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-010
-    from: PER-DE-HELMUT-KOHL
-    to: ORG-DE-BUNDESKANZLERAMT
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: PER-DE-HELMUT-KOHL
     type: official_information
-    label: 'Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen informiert; keine
-      konkreten Einzelweisungen bestätigt'
+    label: 'Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut
+      Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen'
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL147-1996
-    period:
-      start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-011
     from: ORG-DK-FLS-1996
     to: PER-DE-WERNER-MAUSS

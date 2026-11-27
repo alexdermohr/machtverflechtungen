@@ -46,7 +46,7 @@ Die alternative Erklärung ist jeweils ein eigenständiges, möglicherweise fehl
 
 ## Quellen
 
-- Q1 / SRC-DE-BERLIN-UA-SCHMUECKER-1990: [Abgeordnetenhaus Berlin, Drs. 11/1224, 02.10.1990](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf), S. 9–12 (Text; Seitenbilder nicht abrufbar), 23–24, 35–38 (Text und Faksimile geprüft).
+- Q1 / SRC-DE-BERLIN-UA-SCHMUECKER-1990: [Abgeordnetenhaus Berlin, Drs. 11/1224, 02.10.1990](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/11/DruckSachen/d11-1224.pdf), S. 9–12, 23–24, 35–38; Berliner Original im Text identifiziert, aktueller Bildabruf fehlgeschlagen; zuvor Archivkopie ausgewertet.
 - Q2 / SRC-DE-BERLIN-SCHMUECKER-780-1991: [Drs. 12/780, Antwort 25.09.1991](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf), S. 8, KA 863. Text und Faksimile.
 - Q3 / SRC-DE-BERLIN-SCHMUECKER-2659-1993: [Drs. 12/2659, Antwort 16.03.1993](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf), S. 34, KA 3567. Text und Faksimile.
 - Q4 / SRC-DE-BT-HERRHAUSEN-2209-1992: [BT-Drs. 12/2209, 10.03.1992](https://dserver.bundestag.de/btd/12/022/1202209.pdf), S. 2–3, Fragen 2–4. Text und Faksimile.

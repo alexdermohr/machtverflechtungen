@@ -5687,10 +5687,10 @@ sources:
   type: parliamentary_report
   primary: true
   tier: A
-  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/11/DruckSachen/d11-1224.pdf
   accessed: '2026-11-26'
   locator: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
-  notes: Text S. 9–12 geprüft; Seitenbilder S. 23–24 und 35–38 geprüft. Zwischenbericht, keine strafgerichtliche
+  notes: Berliner Parlamentsarchiv – Dokumentidentität anhand Titel, Drucksache und Verweis Drs. 12/780 geprüft; zuvor NRW-Archivkopie ausgewertet. Aktueller Faksimileabruf fehlgeschlagen. Zwischenbericht, keine strafgerichtliche
     Schuldfeststellung; abweichender Bericht nicht vollständig ausgewertet.
 - id: SRC-DE-BERLIN-SCHMUECKER-780-1991
   title: Konsequenzen aus dem Ende des Schmücker-Verfahrens, Drs. 12/780
@@ -6079,7 +6079,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btp/13/13147.pdf
   accessed: '2026-11-27'
-  locator: S. 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
+  locator: S. 13275–13277, 13292, 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
   notes: Amtlicher Text; Faksimileabruf fehlgeschlagen. Unternehmensauskünfte und Regierungsantworten getrennt.
 - id: SRC-DE-BT-MAUSS-PL153-1997
   title: 'Plenarprotokoll 13/153: FLS/Pfister und US-Kontakte'
@@ -6090,7 +6090,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btp/13/13153.pdf
   accessed: '2026-11-27'
-  locator: S. 13771–13774, dringliche Fragen 1–2
+  locator: S. 13771–13776, 13778, dringliche Fragen 1–2
   notes: Amtliche Antwort zu Aufträgen, Auswärtigem Ausschuss und US-Kontakten; keine Bestätigung behaupteter Zahlungen.
 - id: SRC-DE-BT-MAUSS-PL159-1997
   title: 'Plenarprotokoll 13/159: Schutzpapiere und Vorwürfe'

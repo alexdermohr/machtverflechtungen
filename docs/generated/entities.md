@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**632 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**633 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -201,7 +201,8 @@
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | ATSIGE (2000–2004) | company | `ORG-GQ-ATSIGE` | GQ | [1](network.md#rel-riggs-followup-060) |
-| Auswärtiges Amt | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [4](network.md#rel-de-ab-aa-sponsor-2009-001) |
+| Auswärtiges Amt (historisch, 1995–1996) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1996` | DE | [3](network.md#rel-mauss-diplomatie-005) |
+| Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
 | Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement_document | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
 | BAFISUD Corporation S.A. (Panama) | finance_company | `ORG-PA-BAFISUD-CORPORATION-SA` | PA | [5](network.md#rel-uy-pa-bafisud-1978-001) |

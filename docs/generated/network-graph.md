@@ -462,7 +462,7 @@ flowchart LR
     N_PER_DE_KARLHEINZ_SCHREIBER -->|"Bundestagsbericht 14/9300 S. 374 stellt Übergabe von 1 Mio. DM in bar durch Schreiber an CDU-Schatzmeister Kiep am 26.08.1991 in St. Margrethen fest; dies ist derselbe CDU-Parteispendevorgang, keine unabhängige Atlantik-Brücke-Spende"| N_PER_DE_WALTHER_LEISLER_KIEP
     N_ORG_DE_CDU_1991["Christlich Demokratische Union Deutschlands (CDU, 1991)"]
     N_PER_DE_WALTHER_LEISLER_KIEP -->|"Bundestagsbericht: 1 Mio. DM aus dem Schreiber/Thyssen-Geldweg gelangten 1991 über Kiep und den Treuhänder Weyrauch verdeckt zur CDU. Identisch mit der Schreiber-Kiep-Bargeldübergabe, nicht erneut zu addieren und keine nachgewiesene Vereinszuwendung"| N_ORG_DE_CDU_1991
-    N_ORG_DE_AUSWAERTIGES_AMT_2008["Auswärtiges Amt"]
+    N_ORG_DE_AUSWAERTIGES_AMT_2008["Auswärtiges Amt (Sponsor 2008/09)"]
     N_ORG_DE_AUSWAERTIGES_AMT_2008 -->|"Atlantik-Brücke-Jahresbericht Juni 2008–Juni 2009 nennt das Auswärtige Amt ausdrücklich unter den Sponsoren; konkrete Haushaltsstelle, Zahlbetrag und Gegenleistungen im Beleg offen"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_DEUTSCHE_BANK_2008["Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09)"]
     N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 nennt Deutsche Bank als Sponsor; Betrag, Rechtsform der Unterstützung und konkrete Gegenleistung nicht angegeben"| N_ORG_DE_ATLANTIK_BRUECKE
@@ -1372,8 +1372,8 @@ flowchart LR
     N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_TRANSACTA_VALORES
     N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_BOREAL_MANAGEMENT
     N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_NOLILANE_NV
-    N_PER_DE_WERNER_MAUSS -->|"NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten"| N_ORG_PA_BOREAL_MANAGEMENT
-    N_PER_DE_WERNER_MAUSS -->|"Berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung"| N_ORG_PA_ANYSBERG_INTERNATIONAL
+    N_PER_DE_WERNER_MAUSS -->|"2016 – NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_PER_DE_WERNER_MAUSS -->|"2016 berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung"| N_ORG_PA_ANYSBERG_INTERNATIONAL
     N_ORG_AR_REGIERUNGSSTELLEN_1996["Argentinische Regierungsstellen (1996)"]
     N_ORG_AR_REGIERUNGSSTELLEN_1996 -->|"Schmidbauer bestätigte Gespräche mit argentinischen Regierungsstellen im Techint-Fall; keine Zusage konkreter Zahlungen belegt"| N_PER_DE_BERND_SCHMIDBAUER
     N_ORG_AR_TECHINT_1996["Techint (argentinische Firma, 1996)"]
@@ -1381,14 +1381,15 @@ flowchart LR
     N_ORG_AR_TECHINT_1996 -->|"Schmidbauer bestätigte bilaterale Gespräche und berichtete Bitte Techints um Vermittlung; Auftragshonorar und konkrete Zahlungen nicht belegt"| N_PER_DE_WERNER_MAUSS
     N_ORG_DE_MANNESMANN_1995["Mannesmann (historisch, 1995)"]
     N_ORG_DE_MANNESMANN_1995 -->|"Abgestimmte Schreiben im Fall Ruttnig laut Schmidbauer, Mannesmann mit Vollmacht der Angehörigen"| N_ORG_DE_BUNDESKANZLERAMT
-    N_ORG_DE_MANNESMANN_1995 -->|"Abstimmung des Unternehmensschreibens mit Auswärtigem Amt und Kanzleramt laut Regierungsantwort"| N_ORG_DE_AUSWAERTIGES_AMT_2008
+    N_ORG_DE_AUSWAERTIGES_AMT_1996["Auswärtiges Amt (historisch, 1995–1996)"]
+    N_ORG_DE_MANNESMANN_1995 -->|"Abstimmung des Unternehmensschreibens mit Auswärtigem Amt und Kanzleramt laut Regierungsantwort"| N_ORG_DE_AUSWAERTIGES_AMT_1996
     N_ORG_CO_AUSSENMINISTERIUM["Kolumbianisches Außenministerium"]
     N_ORG_DE_BOTSCHAFT_BOGOTA -->|"Deutsche Botschaft übergab gemeinsam mit österreichischen Vertretern Schreiben Mannesmanns und Schmidbauers an kolumbianisches Außenministerium"| N_ORG_CO_AUSSENMINISTERIUM
     N_ORG_AT_BOTSCHAFT_BOGOTA["Österreichische Botschaft Bogotá"]
     N_ORG_AT_BOTSCHAFT_BOGOTA -->|"Österreichische Botschaftsvertreter wirkten laut Regierungsantwort an Übergabe der Schreiben mit"| N_ORG_CO_AUSSENMINISTERIUM
-    N_ORG_DE_BUNDESKANZLERAMT -->|"Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51"| N_ORG_DE_AUSWAERTIGES_AMT_2008
-    N_ORG_DE_AUSWAERTIGES_AMT_2008 -->|"Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt"| N_ORG_DE_BOTSCHAFT_BOGOTA
-    N_PER_DE_HELMUT_KOHL -->|"Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen informiert; keine konkreten Einzelweisungen bestätigt"| N_ORG_DE_BUNDESKANZLERAMT
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51"| N_ORG_DE_AUSWAERTIGES_AMT_1996
+    N_ORG_DE_AUSWAERTIGES_AMT_1996 -->|"Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt"| N_ORG_DE_BOTSCHAFT_BOGOTA
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen"| N_PER_DE_HELMUT_KOHL
     N_ORG_DK_FLS_1996["FLS (dänische Firma, 1996)"]
     N_ORG_DK_FLS_1996 -->|"Schmidbauer bestätigte Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen nicht bestätigt"| N_PER_DE_WERNER_MAUSS
     N_ORG_DE_PFISTER_GMBH_1996["Pfister GmbH (historisch, 1996)"]

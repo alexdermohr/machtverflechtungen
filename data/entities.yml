@@ -1226,9 +1226,15 @@ entities:
 
   - id: ORG-DE-AUSWAERTIGES-AMT-2008
     type: government_ministry
-    name: "Auswärtiges Amt"
+    name: "Auswärtiges Amt (Sponsor 2008/09)"
     countries: [DE]
     notes: "Im Atlantik-Brücke-Jahresbericht 2008/09 als Sponsor aufgeführt; konkreter Förderposten, Jahresbetrag und programmatische Bedingungen im Quellenbeleg offen."
+
+  - id: ORG-DE-AUSWAERTIGES-AMT-1996
+    type: government_ministry
+    name: "Auswärtiges Amt (historisch, 1995–1996)"
+    countries: [DE]
+    notes: "Zeitbezogener Rollenknoten für die Kolumbien-Vorgänge 1995/96; dieselbe Institution, nicht eine Aussage über die Sponsorrolle 2008/09."
 
   - id: ORG-DE-VOLKSWAGEN-2008
     type: industrial_company

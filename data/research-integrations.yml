@@ -1095,7 +1095,7 @@ studies:
     - REL-DE-BND-MEDIA-018
     - REL-DE-BND-MEDIA-019
   raf-schmuecker-herrhausen-quellenschutz-1974-1997.md:
-    sha256: d239cc037f40da49c1127efee701539b6a8bfa14a49f09a064709b6031aca216
+    sha256: 546ec8d2f780c86ac7d96932097b464b292681a76f6dc58b34345e2529ab08fc
     status: network
     relation_ids:
     - REL-RAF-SCHMUECKER-NONNE-001
