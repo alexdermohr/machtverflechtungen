@@ -6831,3 +6831,224 @@ relations:
     period: {start: "2012"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+  - id: REL-DE-AMRI-001
+    from: ORG-DE-LKA-NRW
+    to: PER-DE-VP01-AMRI
+    type: source_handler_relationship
+    label: führte VP01 im Abu-Walaa-Ermittlungskomplex
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-002
+    from: PER-DE-VP01-AMRI
+    to: ORG-DE-LKA-NRW
+    type: intelligence_reporting
+    label: lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-003
+    from: ORG-DE-LKA-NRW
+    to: ORG-DE-GBA
+    type: information_transfer
+    label: übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-004
+    from: ORG-DE-LKA-NRW
+    to: ORG-DE-LFV-NRW
+    type: source_protection_coordination
+    label: vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-005
+    from: ORG-DE-BFV
+    to: ORG-DE-GBA
+    type: intelligence_reporting
+    label: Behördenzeugnis vom 26.01.2016 wurde Grundlage eines GBA-Prüfvorgangs
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2016-01-26'
+  - id: REL-DE-AMRI-006
+    from: ORG-DE-BKA
+    to: ORG-DE-GBA
+    type: risk_assessment
+    label: übermittelte Gefährdungsbewertungen; anfängliche Zweifel an VP01 später zurückgenommen
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    - SRC-DE-AMRI-BT-VP01-2020
+    period:
+      start: '2016'
+  - id: REL-DE-AMRI-007
+    from: ORG-MA-DGST
+    to: ORG-DE-BKA
+    type: intelligence_reporting
+    label: übermittelte vier Hinweise zu Amri laut BKA-Verbindungsbeamtem
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-008
+    from: ORG-MA-DGST
+    to: ORG-DE-BND
+    type: intelligence_reporting
+    label: übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-009
+    from: ORG-DE-LFV-MV
+    to: ORG-DE-BFV
+    type: incomplete_information_transfer
+    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-MV-KOMMISSION-2021
+    period:
+      start: '2017'
+  - id: REL-DE-AMRI-010
+    from: ORG-DE-LFV-MV
+    to: ORG-DE-LFV-BERLIN
+    type: incomplete_information_transfer
+    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-MV-KOMMISSION-2021
+    period:
+      start: '2017'
+  - id: REL-DE-AMRI-011
+    from: ORG-DE-GENSTA-BERLIN
+    to: ORG-DE-LKA-BERLIN
+    type: investigative_instruction
+    label: beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-JOST-2017
+    period:
+      start: '2016-08-18'
+  - id: REL-DE-AMRI-012
+    from: ORG-DE-STA-BERLIN
+    to: ORG-DE-LKA-BERLIN
+    type: investigative_instruction
+    label: beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-BE-UA-2021
+    period:
+      start: '2017'
+      end: '2018'
+  - id: REL-DE-AMRI-013
+    from: ORG-DE-GENSTA-BERLIN
+    to: PER-TN-ANIS-AMRI
+    type: criminal_investigation
+    label: leitete Ermittlungsverfahren wegen Verdachts des Versuchs der Beteiligung an einem Tötungsdelikt ein; keine Verurteilung
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-JOST-ABSCHLUSS-2017
+    period:
+      start: '2016-03-22'
+
+  - id: REL-DE-AMRI-014
+    from: ORG-DE-LFV-NRW
+    to: ORG-DE-BFV
+    type: source_protection_coordination
+    label: als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-015
+    from: ORG-DE-BFV
+    to: ORG-DE-LKA-BERLIN
+    type: intelligence_reporting
+    label: erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2016-01-26'
+
+  - id: REL-DE-AMRI-016
+    from: ORG-DE-BFV
+    to: PER-TN-ANIS-AMRI
+    type: intelligence_collection
+    label: führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-BFV-2018
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-017
+    from: ORG-DE-BFV
+    to: ORG-DE-FUSSILET-MOSCHEE
+    type: intelligence_collection
+    label: setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt
+    sources:
+    - SRC-DE-AMRI-BT-MAASSEN-2020
+    - SRC-DE-AMRI-BT-BFV-2020
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-018
+    from: ORG-DE-BKA
+    to: ORG-DE-BND
+    type: information_transfer
+    label: unterrichtete den BND erstmals über Amri
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-1811027
+    evidence_level: established
+    period:
+      start: '2016-02-04'
+  - id: REL-DE-AMRI-019
+    from: ORG-DE-BKA
+    to: ORG-DE-BFV
+    type: information_transfer
+    label: übermittelte ausgelesene Mobiltelefondaten zur Auswertung
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    evidence_level: established
+    period:
+      start: '2016'
+  - id: REL-DE-AMRI-020
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BMJV-AMRI-2017
+    type: policy_coordination
+    label: vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war
+    sources:
+    - SRC-DE-AMRI-BT-BENAMMAR-2019
+    evidence_level: established
+    period:
+      start: '2017'

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**752 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**772 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1325,6 +1325,40 @@ flowchart LR
     N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
     N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
     N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
+    N_ORG_DE_LKA_NRW["Landeskriminalamt Nordrhein-Westfalen"]
+    N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]
+    N_ORG_DE_LKA_NRW -->|"führte VP01 im Abu-Walaa-Ermittlungskomplex"| N_PER_DE_VP01_AMRI
+    N_PER_DE_VP01_AMRI -->|"lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt"| N_ORG_DE_LKA_NRW
+    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
+    N_ORG_DE_LKA_NRW -->|"übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor"| N_ORG_DE_GBA
+    N_ORG_DE_LFV_NRW["Verfassungsschutz Nordrhein-Westfalen"]
+    N_ORG_DE_LKA_NRW -->|"vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01"| N_ORG_DE_LFV_NRW
+    N_ORG_DE_BFV -->|"Behördenzeugnis vom 26.01.2016 wurde Grundlage eines GBA-Prüfvorgangs"| N_ORG_DE_GBA
+    N_ORG_DE_BKA -->|"übermittelte Gefährdungsbewertungen; anfängliche Zweifel an VP01 später zurückgenommen"| N_ORG_DE_GBA
+    N_ORG_MA_DGST["Direction générale de la surveillance du territoire (DGST)"]
+    N_ORG_MA_DGST -->|"übermittelte vier Hinweise zu Amri laut BKA-Verbindungsbeamtem"| N_ORG_DE_BKA
+    N_ORG_MA_DGST -->|"übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem"| N_ORG_DE_BND
+    N_ORG_DE_LFV_MV["Verfassungsschutz Mecklenburg-Vorpommern"]
+    N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_BFV
+    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
+    N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_LFV_BERLIN
+    N_ORG_DE_GENSTA_BERLIN["Generalstaatsanwaltschaft Berlin"]
+    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
+    N_ORG_DE_GENSTA_BERLIN -->|"beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel"| N_ORG_DE_LKA_BERLIN
+    N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
+    N_ORG_DE_STA_BERLIN -->|"beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt"| N_ORG_DE_LKA_BERLIN
+    N_PER_TN_ANIS_AMRI["Anis Amri"]
+    N_ORG_DE_GENSTA_BERLIN -->|"leitete Ermittlungsverfahren wegen Verdachts des Versuchs der Beteiligung an einem Tötungsdelikt ein; keine Verurteilung"| N_PER_TN_ANIS_AMRI
+    N_ORG_DE_LFV_NRW -->|"als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen"| N_ORG_DE_BFV
+    N_ORG_DE_BFV -->|"erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01"| N_ORG_DE_LKA_BERLIN
+    N_ORG_DE_BFV -->|"führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt"| N_PER_TN_ANIS_AMRI
+    N_ORG_DE_FUSSILET_MOSCHEE["Fussilet 33 e.V. (Berliner Fussilet-Moschee)"]
+    N_ORG_DE_BFV -->|"setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt"| N_ORG_DE_FUSSILET_MOSCHEE
+    N_ORG_DE_BKA -->|"unterrichtete den BND erstmals über Amri"| N_ORG_DE_BND
+    N_ORG_DE_BKA -->|"übermittelte ausgelesene Mobiltelefondaten zur Auswertung"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (Amri-Komplex 2017)"]
+    N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
+    N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
 ```
 
 [Zur Relationstabelle](network.md)

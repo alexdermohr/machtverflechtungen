@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**539 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,22 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-amri-be-ua-2021) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-be-ua-2021"></a>
+### Abgeordnetenhaus von Berlin
+
+**[Abschlussbericht 1. Untersuchungsausschuss, Drs. 18/4000](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/DruckSachen/d18-4000.pdf)**
+
+Abgeordnetenhaus von Berlin · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BE-UA-2021`
+
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/DruckSachen/d18-4000.pdf)
+
+Fundstelle: S. 910–912; Einstellungsvermerk 09.04.2018, Bl. 46–71
+
+</article>
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -2176,6 +2191,21 @@ Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstütze
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
+<a id="src-de-amri-bt-1811027"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: Verantwortung und etwaige Fehler der Sicherheitsbehörden](https://dserver.bundestag.de/btd/18/110/1811027.pdf)**
+
+Deutscher Bundestag · 2017-01-27 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1811027`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/110/1811027.pdf)
+
+Fundstelle: Drs. 18/11027, Fragen 1c, 5f–g, 6a–f, 8e
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
 <a id="src-de-bt-nsu-lingen-2017"></a>
 ### Deutscher Bundestag
 
@@ -2186,6 +2216,21 @@ Deutscher Bundestag · 2017-02-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_02/493792-493792)
 
 Fundstelle: Absätze zur Aktion Konfetti; Aussage Lingens von 2014; Aussagen Fromms vom 16.02.2017
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-amri-pkgr-1812585"></a>
+### Deutscher Bundestag
+
+**[Erläuternde Sachverhaltsdarstellung des Parlamentarischen Kontrollgremiums zum Fall Anis Amri](https://dserver.bundestag.de/btd/18/125/1812585.pdf)**
+
+Deutscher Bundestag · 2017-05-31 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PKGR-1812585`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/125/1812585.pdf)
+
+Fundstelle: Drs. 18/12585, S. 2, 10–14
 
 </article>
 
@@ -2219,6 +2264,126 @@ Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-amri-bt-bfv-2018"></a>
+### Deutscher Bundestag
+
+**[Verfassungsschutz hatte Amri früh im Blick](https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770)**
+
+Deutscher Bundestag · 2018-09-13 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BFV-2018`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770)
+
+Fundstelle: hib 666/2018, Aussage Lia Freimuth
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bt-dgst-2019"></a>
+### Deutscher Bundestag
+
+**[Zeuge: Marokkaner wiesen auf verdächtige Aktivitäten Amris hin](https://www.bundestag.de/webarchiv/textarchiv/2019/kw12-pa-ua-amri-628466)**
+
+Deutscher Bundestag · 2019-03-21 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-DGST-2019`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2019/kw12-pa-ua-amri-628466)
+
+Fundstelle: Aussagen O’Debie und Kurzhals
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bt-benammar-2019"></a>
+### Deutscher Bundestag
+
+**[Wie es zur Abschiebung des Tunesiers Bilel ben Ammar kam](https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698)**
+
+Deutscher Bundestag · 2019-10-17 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BENAMMAR-2019`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698)
+
+Fundstelle: Aussagen Drange, Haber und Koch
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bt-vp01-2019"></a>
+### Deutscher Bundestag
+
+**[Staatsanwalt berichtet über Konflikt mit Bundeskriminalamt](https://www.bundestag.de/webarchiv/textarchiv/2019/kw50-pa-1ua-671536)**
+
+Deutscher Bundestag · 2019-12-12 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-VP01-2019`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2019/kw50-pa-1ua-671536)
+
+Fundstelle: Aussage Dieter Killmer und Gegenposition BKA
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-vp01-2020"></a>
+### Deutscher Bundestag
+
+**[BKA-Zeuge erschrocken über Vorwürfe](https://www.bundestag.de/webarchiv/presse/hib/2020_01/678056-678056)**
+
+Deutscher Bundestag · 2020-01-17 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-VP01-2020`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_01/678056-678056)
+
+Fundstelle: BKA-Zeugenaussage und Neubewertung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-bfv-2020"></a>
+### Deutscher Bundestag
+
+**[Verfassungsschützer: Amri kein reiner Polizeifall](https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876)**
+
+Deutscher Bundestag · 2020-10-01 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-BFV-2020`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876)
+
+Fundstelle: hib 1043/2020, Aussage Gilbert Siebertz
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-maassen-2020"></a>
+### Deutscher Bundestag
+
+**[Maaßen weist Vorwürfe im Fall Amri zurück](https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118)**
+
+Deutscher Bundestag · 2020-10-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-MAASSEN-2020`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118)
+
+Fundstelle: hib 1084/2020, Aussage Hans-Georg Maaßen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-bt-1930800"></a>
+### Deutscher Bundestag
+
+**[Beschlussempfehlung und Bericht des 1. Untersuchungsausschusses der 19. Wahlperiode](https://dserver.bundestag.de/btd/19/308/1930800.pdf)**
+
+Deutscher Bundestag · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1930800`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/308/1930800.pdf)
+
+Fundstelle: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-bt-amri-bverfg-20210203"></a>
@@ -2229,6 +2394,21 @@ Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265
 Deutscher Bundestag · 2021-02-03 · Stufe **A** · Primärquelle · `SRC-DE-BT-AMRI-BVERFG-20210203`
 
 [Seite öffnen](https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-bt-1929493"></a>
+### Deutscher Bundestag
+
+**[Antwort der Bundesregierung: Offene Fragen zur Verantwortung und etwaigen Fehlern der Sicherheitsbehörden](https://dserver.bundestag.de/btd/19/294/1929493.pdf)**
+
+Deutscher Bundestag · 2021-05-10 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1929493`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/294/1929493.pdf)
+
+Fundstelle: Drs. 19/29493, S. 2–3, Fragen 1–2d
 
 </article>
 
@@ -2922,6 +3102,21 @@ Fundstelle: Vollständiges Einladungsblatt, Veranstaltung 29.10.1976 in Nürnber
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-gba-mat-a-gba4"></a>
+### Generalbundesanwalt / Deutscher Bundestag
+
+**[MAT A GBA-4, Ordner 1 von 3, Bl. 4–14](https://dserver.bundestag.de/btd/19/CD30800/III.%20Dokumente/036_MAT%20A%20GBA-4%20Ordner%201%20von%203%2C%20Bl.%204-14.pdf)**
+
+Generalbundesanwalt / Deutscher Bundestag · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-GBA-MAT-A-GBA4`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/III.%20Dokumente/036_MAT%20A%20GBA-4%20Ordner%201%20von%203%2C%20Bl.%204-14.pdf)
+
+Fundstelle: S. 2–8, insbesondere S. 3 und 6
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-stammheim-buback-verfuegung-19770215"></a>
@@ -3312,6 +3507,21 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-mv-kommission-2021"></a>
+### Innenministerium Mecklenburg-Vorpommern / Expertenkommission
+
+**[Abschlussbericht der Expertenkommission für den Verfassungsschutz MV (Managementfassung)](https://service.mvnet.de/_php/download.php?datei_id=1635610)**
+
+Innenministerium Mecklenburg-Vorpommern / Expertenkommission · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-KOMMISSION-2021`
+
+[Seite öffnen](https://service.mvnet.de/_php/download.php?datei_id=1635610)
+
+Fundstelle: S. 7–8, Komplex Breitscheidplatz
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-int-icj-163-press-2020"></a>
@@ -3522,6 +3732,21 @@ Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lverfg-725"></a>
+### Landesverfassungsgericht Mecklenburg-Vorpommern
+
+**[Organstreitverfahren gegen die Landesregierung Mecklenburg-Vorpommern teilweise stattgegeben](https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung)**
+
+Landesverfassungsgericht Mecklenburg-Vorpommern · 2026-07-09 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LVERFG-725`
+
+[Seite öffnen](https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung)
+
+Fundstelle: Pressemitteilung 6/2026, LVerfG 7/25
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-de-bwlt-stammheim-2007"></a>
@@ -3549,6 +3774,21 @@ Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen · 2019 · Stufe **A** · 
 [PDF öffnen](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)
 
 Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jeweils eins niedriger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-reform-85416"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Entwurf eines Dritten Gesetzes zur Änderung des Landesverfassungsschutzgesetzes](https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-10-29 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-REFORM-85416`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes)
+
+Fundstelle: Drs. 8/5416, S. 75, zu Nr. 26 (§ 29a)
 
 </article>
 
@@ -4177,6 +4417,36 @@ Senado Federal / Diário do Congresso Nacional · 1995-01-21 · Stufe **A** · P
 [Seite öffnen](https://legis.senado.leg.br/diarios/BuscaPaginasDiario?codDiario=6990&download=true)
 
 Fundstelle: DCN Seção II, S. 1033: zweite Tranche 160.598.550 statt 160.589.550 USD; korrigierte Summe entspricht Art. 1. Keine eigene Änderung von Art. 2(a) hier festgestellt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-amri-jost-abschluss-2017"></a>
+### Senat Berlin / Bruno Jost
+
+**[Abschlussbericht des Sonderbeauftragten Bruno Jost](https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf)**
+
+Senat Berlin / Bruno Jost · 2017 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-JOST-ABSCHLUSS-2017`
+
+[PDF öffnen](https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf)
+
+Fundstelle: S. 51, Nr. 10; S. 55, Bewertung Nr. 10
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-amri-jost-2017"></a>
+### Senat Berlin / Bruno Jost
+
+**[Zwischenbericht des Sonderbeauftragten des Senats](https://www.berlin.de/sen/inneres/_assets/sicherheit/zwischenbericht-sonderbeauftragter.pdf)**
+
+Senat Berlin / Bruno Jost · 2017 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-JOST-2017`
+
+[PDF öffnen](https://www.berlin.de/sen/inneres/_assets/sicherheit/zwischenbericht-sonderbeauftragter.pdf)
+
+Fundstelle: S. 5, Sachstand 23.06.2017
 
 </article>
 
@@ -6432,7 +6702,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -7224,6 +7494,21 @@ kress · 2006-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-KR
 [Seite öffnen](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)
 
 Fundstelle: Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-amri-mv-reform-gvobl-2026"></a>
+### Land Mecklenburg-Vorpommern (Gesetzeswiedergabe umwelt-online)
+
+**[Drittes Gesetz zur Änderung des Landesverfassungsschutzgesetzes Mecklenburg-Vorpommern](https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm)**
+
+Land Mecklenburg-Vorpommern (Gesetzeswiedergabe umwelt-online) · 2026-06-29 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-MV-REFORM-GVOBL-2026`
+
+[Seite öffnen](https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm)
+
+Fundstelle: GVOBl. M-V 2026 S. 551, Art. 1 Nr. 26, § 29a; Art. 2
 
 </article>
 
