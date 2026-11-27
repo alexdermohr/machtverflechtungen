@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**543 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**544 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2424,6 +2424,21 @@ Deutscher Bundestag · 2021-05-10 · Stufe **A** · Primärquelle · `SRC-DE-AMR
 [PDF öffnen](https://dserver.bundestag.de/btd/19/294/1929493.pdf)
 
 Fundstelle: Drs. 19/29493, S. 2–3, Fragen 1–2d
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-ra-nsu-20261014"></a>
+### Deutscher Bundestag
+
+**[Kurzprotokoll der 55. Sitzung des Ausschusses für Recht und Verbraucherschutz](https://www.bundestag.de/resource/blob/1231368/055_prot.pdf)**
+
+Deutscher Bundestag · 2026-10-14 · Stufe **A** · Primärquelle · `SRC-DE-BT-RA-NSU-20261014`
+
+[PDF öffnen](https://www.bundestag.de/resource/blob/1231368/055_prot.pdf)
+
+Fundstelle: Protokoll 21/55, TOP 5 b, S. 22–23
 
 </article>
 

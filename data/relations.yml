@@ -6617,7 +6617,7 @@ relations:
     label: "Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"
     period: {start: "2026-03-30", end: "2026-11-23"}
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123]
+    sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123, SRC-DE-BT-RA-NSU-20261014]
 
   - id: REL-DE-NSU-LINGEN-STA-2018-001
     from: ORG-DE-STA-KOELN

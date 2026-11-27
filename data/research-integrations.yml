@@ -1160,3 +1160,9 @@ studies:
     - REL-DE-AMRI-018
     - REL-DE-AMRI-019
     - REL-DE-AMRI-020
+
+  nsu-hamburg-akteneinsicht-rechtsausschuss-2026.md:
+    sha256: f9f40b2a9534af3e088a19f72aeb4f5c70e2b8d4086a2864ab5ff4a4faa4254e
+    status: network
+    relation_ids:
+      - REL-DE-NSU-HH-GBA-2026-001
