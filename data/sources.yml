@@ -5892,3 +5892,37 @@ sources:
   accessed: '2026-11-27'
   locator: Pressemitteilung 6/2026, LVerfG 7/25
   notes: Amtliche Pressemitteilung, nicht vollständiges Urteil. Eigenständiger Vergleichsfall parlamentarischer Auskunftsrechte; keine Amri-Tatverbindung.
+- id: SRC-DE-BARCH-MFS-K121-1971
+  title: 'MfS: Konzeption für politisch-operative und publizistische Maßnahmen gegen den BND (K 1/21)'
+  institution: Bundesarchiv, Stasi-Unterlagen-Archiv
+  date: '1971-04-06'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/konzept-fuer-massnahmen-gegen-den-bnd/
+  accessed: '2026-11-27'
+  locator: BArch, MfS, ZAIG 4996, Bl. 1–23 (1. Expl.), Reg.-Nr. 19/71; Abschnitte 2.3 c, Abschnitt 3, Materialgrundlage Punkt 3 (Legendierung), 4.1–4.5
+  notes: Amtliche Transkription; Datierung im Dokument 1971 trotz URL-Jahrgang 1968. Primärquelle für Planung und interne Vollzugsselbstauskunft, nicht unabhängiger Wirkungsnachweis.
+- id: SRC-DE-BARCH-MFS-K125-1971
+  title: 'MfS: Auswertung der Artikelserie Pullach intern (K 1/25)'
+  institution: Bundesarchiv, Stasi-Unterlagen-Archiv
+  date: '1971-07-30'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/
+  accessed: '2026-11-27'
+  locator: BArch, MfS, ZAIG 5000, Bl. 1–19 (5. Expl.), Abschnitt 1; interner Verteiler
+  notes: Primärquelle für die spätere MfS-Einschätzung und referierte HV-A-Information. Keine unabhängige Bestätigung der behaupteten Initiatoren oder Materialwege. Historisches Dokument,
+    nicht moderne Anmerkung 10.
+- id: SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
+  title: 'Jost Dülffer über Pullach intern: Kooperation von BND und SPIEGEL'
+  institution: Universität zu Köln
+  date: '2015-06-16'
+  type: research_interview
+  primary: false
+  tier: B
+  url: https://uni-koeln.de/universitaet/aktuell/koelner-universitaetsmagazin/unimag-einzelansicht/pullach-intern
+  accessed: '2026-11-27'
+  locator: Abschnitte Kooperation von gegensätzlichen Partnern und Der Sturm im Wasserglas; Seitenkopf 16.06.2015, erstellt 26.05.2015
+  notes: Archivgestützte Sekundärdarstellung des Historikers; vollständige Monografie und einzelne Urschriften nicht direkt geprüft.

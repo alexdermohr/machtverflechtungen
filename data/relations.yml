@@ -6831,3 +6831,95 @@ relations:
     evidence_level: established
     period:
       start: '2017'
+  - id: REL-DE-PULLACH-001
+    from: ORG-DE-MFS
+    to: ORG-DE-DER-SPIEGEL
+    type: reported_material_dispatch
+    label: MfS-Abteilung Agitation berichtet gezielte Materialsendungen an die Redaktion nach der ersten Folge; beabsichtigte Beeinflussung, keine unabhängige Empfangs- oder Wirkungsbestätigung
+      (K 1/21, 4.1)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-002
+    from: ORG-DE-MFS
+    to: ORG-DE-BUNDESTAGSABGEORDNETE-PULLACH-1971
+    type: reported_material_dispatch
+    label: MfS berichtet Versand publizistischer Extradrucke an acht namentlich genannte Abgeordnete verschiedener Parteien; keine daraus ableitbare Kooperation (K 1/21, 4.2)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-003
+    from: ORG-DE-MFS
+    to: PER-DE-JULIUS-MADER
+    type: reported_coordination
+    label: MfS berichtet Durchführung operativ-publizistischer Maßnahmen in Absprache mit Mader (K 1/21, 4)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-004
+    from: PER-DE-JULIUS-MADER
+    to: PER-DE-FRITZ-BAIER
+    type: reported_letter
+    label: MfS führt einen polemischen Brief Maders an den CDU-Abgeordneten Baier mit belastendem Material auf; Empfängerreaktion nicht belegt (K 1/21, 4.3)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-005
+    from: ORG-DE-MFS
+    to: ORG-DDR-PANORAMA-AUSLANDSPRESSEDIENST
+    type: reported_publication_distribution
+    label: MfS berichtet Verbreitung eines BND-kritischen Artikels über den DDR-Auslandspressedienst in 22 lateinamerikanischen Staaten; Reichweite und tatsächliche Rezeption ungeprüft
+      (K 1/21, 4.4)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-006
+    from: ORG-DE-BND
+    to: PER-DE-HERMANN-ZOLLING
+    type: reported_information_cooperation
+    label: Laut archivgestützter Darstellung Dülffers kooperierten BND und SPIEGEL-Journalist Zolling im Vorfeld der Serie von 1971; keine Agenten- oder Zahlungsbeziehung belegt
+    evidence_level: strong
+    sources:
+    - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-007
+    from: ORG-DE-DER-SPIEGEL
+    to: ORG-DE-BND
+    type: reported_draft_review
+    label: Laut Dülffer erhielt der BND vorab Artikelentwürfe zur Durchsicht; erste veröffentlichte Fassung nicht mehr gegengelesen
+    evidence_level: strong
+    sources:
+    - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-008
+    from: ORG-DE-BND
+    to: ORG-DE-DER-SPIEGEL
+    type: reported_publication_intervention
+    label: Laut Dülffer versuchte BND bestimmte aus seiner Sicht fehlerhafte oder geheimhaltungsbedürftige Veröffentlichungen zu verhindern; keine generelle redaktionelle Verfügungsmacht
+    evidence_level: strong
+    sources:
+    - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
+    period:
+      start: '1971'
+  - id: REL-DE-PULLACH-009
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-DER-SPIEGEL
+    type: reported_publication_intervention
+    label: Laut Dülffer versuchte auch das Kanzleramt bestimmte Veröffentlichungen zu verhindern; erste veröffentlichte Fassung war laut Dülffer nicht mehr vom BND gegengelesen
+    evidence_level: strong
+    sources:
+    - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
+    period:
+      start: '1971'

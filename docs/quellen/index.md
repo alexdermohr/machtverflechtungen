@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**517 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1279,6 +1279,36 @@ Bundesarchiv, Editionsreihe Die Kabinettsprotokolle der Bundesregierung · 1952-
 [PDF öffnen](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a78c73cb-24e8-4bfb-abce-9ad04e8da301.pdf)
 
 Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-Schreiben 16.10.1952, 10.000 DM); ergänzend B 106/15584 (BMI)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-de-barch-mfs-k121-1971"></a>
+### Bundesarchiv, Stasi-Unterlagen-Archiv
+
+**[MfS: Konzeption für politisch-operative und publizistische Maßnahmen gegen den BND (K 1/21)](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/konzept-fuer-massnahmen-gegen-den-bnd/)**
+
+Bundesarchiv, Stasi-Unterlagen-Archiv · 1971-04-06 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-MFS-K121-1971`
+
+[Seite öffnen](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/konzept-fuer-massnahmen-gegen-den-bnd/)
+
+Fundstelle: BArch, MfS, ZAIG 4996, Bl. 1–23 (1. Expl.), Reg.-Nr. 19/71; Abschnitte 2.3 c, Abschnitt 3, Materialgrundlage Punkt 3 (Legendierung), 4.1–4.5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-de-barch-mfs-k125-1971"></a>
+### Bundesarchiv, Stasi-Unterlagen-Archiv
+
+**[MfS: Auswertung der Artikelserie Pullach intern (K 1/25)](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)**
+
+Bundesarchiv, Stasi-Unterlagen-Archiv · 1971-07-30 · Stufe **A** · Primärquelle · `SRC-DE-BARCH-MFS-K125-1971`
+
+[Seite öffnen](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)
+
+Fundstelle: BArch, MfS, ZAIG 5000, Bl. 1–19 (5. Expl.), Abschnitt 1; interner Verteiler
 
 </article>
 
@@ -7667,6 +7697,21 @@ University of Colorado Boulder, College of Music · 2014-07-08 · Stufe **B** ·
 [Seite öffnen](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)
 
 Fundstelle: Dennis Spragg über Archivnachweise für Militäraircraft-boarding 1944 und mögliche Ursprünge späterer Bordell-/Friendly-Fire-Erzählungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2015">
+
+<a id="src-de-uni-koeln-duelffer-pullach-2015"></a>
+### Universität zu Köln
+
+**[Jost Dülffer über Pullach intern: Kooperation von BND und SPIEGEL](https://uni-koeln.de/universitaet/aktuell/koelner-universitaetsmagazin/unimag-einzelansicht/pullach-intern)**
+
+Universität zu Köln · 2015-06-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015`
+
+[Seite öffnen](https://uni-koeln.de/universitaet/aktuell/koelner-universitaetsmagazin/unimag-einzelansicht/pullach-intern)
+
+Fundstelle: Abschnitte Kooperation von gegensätzlichen Partnern und Der Sturm im Wasserglas; Seitenkopf 16.06.2015, erstellt 26.05.2015
 
 </article>
 
