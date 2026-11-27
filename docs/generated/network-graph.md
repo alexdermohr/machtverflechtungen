@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**699 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**703 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1242,6 +1242,13 @@ flowchart LR
     N_ORG_DE_ST_LKA -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
     N_ORG_DE_ST_LFV["Verfassungsschutzbehörde Sachsen-Anhalt"]
     N_ORG_DE_ST_LFV -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
+    N_ORG_DE_GBA_NSU_1998_2012 -->|"Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"| N_PER_DE_THOMAS_STARKE
+    N_ORG_DE_BERLIN_LFV_2012["Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012)"]
+    N_DOC_DE_NSU_BERLIN_AKTEN_2012["57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"]
+    N_ORG_DE_BERLIN_LFV_2012 -->|"Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"| N_DOC_DE_NSU_BERLIN_AKTEN_2012
+    N_ORG_DE_STA_GERA["Staatsanwaltschaft Gera"]
+    N_ORG_DE_STA_GERA -->|"Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"| N_ORG_DE_TLFV
+    N_ORG_DE_TLFV -->|"Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"| N_ORG_DE_STA_GERA
 ```
 
 [Zur Relationstabelle](network.md)

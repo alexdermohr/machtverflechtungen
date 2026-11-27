@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**531 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**534 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -125,7 +125,7 @@
 | Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
 | Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE | [1](network.md#rel-de-tmn-040) |
 | Thomas Roth | person | `PER-DE-THOMAS-ROTH` | DE | [1](network.md#rel-de-tmn-048) |
-| Thomas Starke (VP 562) | person | `PER-DE-THOMAS-STARKE` | DE | [1](network.md#rel-de-nsu-lka-vp562-001) |
+| Thomas Starke (VP 562) | person | `PER-DE-THOMAS-STARKE` | DE | [2](network.md#rel-de-nsu-lka-vp562-001) |
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
@@ -150,6 +150,7 @@
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
+| 57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012) | document | `DOC-DE-NSU-BERLIN-AKTEN-2012` | DE | [1](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | AB Svensk Exportkredit (SEK, SIVAM) | historical_export_credit_institution | `ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997` | SE | [1](network.md#rel-ws-sek-cayman) |
 | Abayak S.A. (1998–2004) | company | `ORG-GQ-ABAYAK-SA` | GQ | [5](network.md#rel-riggs-followup-046) |
@@ -208,6 +209,7 @@
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
+| Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012) | intelligence_service | `ORG-DE-BERLIN-LFV-2012` | DE | [1](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
@@ -327,7 +329,7 @@
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012) | prosecution_authority | `ORG-DE-GBA-NSU-1998-2012` | DE | [2](network.md#rel-de-nsu-gba-pruefung-1999-001) |
+| Generalbundesanwalt beim Bundesgerichtshof (NSU, 1998–2012) | prosecution_authority | `ORG-DE-GBA-NSU-1998-2012` | DE | [3](network.md#rel-de-nsu-gba-pruefung-1999-001) |
 | Generalbundesanwalt beim Bundesgerichtshof (NSU, 2014) | prosecution_authority | `ORG-DE-GBA-NSU-2014` | DE | [2](network.md#rel-de-nsu-gba-werner-asservate-2014-001) |
 | Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026) | prosecution_authority | `ORG-DE-GBA-NSU-2026` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
@@ -457,6 +459,7 @@
 | Sonderkonto S des Himmler-Freundeskreises (1943) | special_funding_account | `PRG-DE-HIMMLER-SONDERKONTO-S-1943` | DE | [3](network.md#rel-de-ss-fund-1943-001) |
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
+| Staatsanwaltschaft Gera | prosecution_authority | `ORG-DE-STA-GERA` | DE | [2](network.md#rel-de-nsu-gera-tlfv-fragen-001) |
 | Staatsanwaltschaft Karlsruhe | prosecution_authority | `ORG-DE-STA-KARLSRUHE` | DE | [1](network.md#rel-de-nsu-sta-gba-2016-001) |
 | Staatsanwaltschaft Köln | prosecution_authority | `ORG-DE-STA-KOELN` | DE | [1](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
@@ -480,7 +483,7 @@
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
-| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [3](network.md#rel-de-ths-001) |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [5](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

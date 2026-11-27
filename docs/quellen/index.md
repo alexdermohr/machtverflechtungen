@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**499 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**502 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1907,6 +1907,36 @@ Deutscher Bundestag · 2012-07-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/39720930_kw27_nsu_di-208982)
 
 Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-schultz-20130117"></a>
+### Deutscher Bundestag
+
+**[Merkwürdigkeiten der Ermittlungen in Thüringen](https://www.bundestag.de/webarchiv/textarchiv/2013/42382757_kw03_pa_nsu-210452)**
+
+Deutscher Bundestag · 2013-01-17 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-SCHULTZ-20130117`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2013/42382757_kw03_pa_nsu-210452)
+
+Fundstelle: Abschnitte Heimatschutz-Chef als V-Mann; So etwas nie mehr erlebt; Die haben uns abgeschöpft
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-wunderlich-20130131"></a>
+### Deutscher Bundestag
+
+**[Ausschuss stellt Chaos bei Sicherheitsbehörden fest](https://www.bundestag.de/webarchiv/textarchiv/2013/42632406_kw05_pa_2ua_nsu-210704)**
+
+Deutscher Bundestag · 2013-01-31 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-WUNDERLICH-20130131`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2013/42632406_kw05_pa_2ua_nsu-210704)
+
+Fundstelle: Abschnitte Einer hat gelogen; Gering, dünn, spärlich
 
 </article>
 
@@ -4001,6 +4031,21 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 [PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-berlin-feuerberg-nsu-2012"></a>
+### Senatsverwaltung für Inneres und Sport Berlin / Oberstaatsanwalt Feuerberg
+
+**[Bericht über die Sonderermittlungen im Geschäftsbereich des Senators für Inneres und Sport in Berlin im Zusammenhang mit der Aufklärung der Taten der Terrorgruppierung NSU](https://www.gruene-fraktion-sachsen.de/wp-content/uploads/2021/11/bericht_sonderermittler.pdf)**
+
+Senatsverwaltung für Inneres und Sport Berlin / Oberstaatsanwalt Feuerberg · 2012-12 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-FEUERBERG-NSU-2012`
+
+[PDF öffnen](https://www.gruene-fraktion-sachsen.de/wp-content/uploads/2021/11/bericht_sonderermittler.pdf)
+
+Fundstelle: S. 38–39, 42–45, 64–67, 70–80 (gedruckte Seiten); 88 PDF-Seiten
 
 </article>
 

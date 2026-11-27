@@ -3005,3 +3005,20 @@ entities:
     name: "In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"
     countries: [DE]
     notes: "2014 vernichtete Datenträger laut Datenschutz-Tätigkeitsbericht; genauer Umfang und weitere Überlieferung unbekannt."
+
+  - id: ORG-DE-BERLIN-LFV-2012
+    type: intelligence_service
+    name: "Berliner Verfassungsschutz (Senatsverwaltung für Inneres und Sport, 2012)"
+    countries: [DE]
+    notes: "Zeitbezogener Datensatz des wiedervereinigten Berlin; vom historischen West-Berliner Landesamt im Datensatz ORG-DE-BERLIN-VERFASSUNGSSCHUTZ zu unterscheiden."
+
+  - id: DOC-DE-NSU-BERLIN-AKTEN-2012
+    type: document
+    name: "57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"
+    countries: [DE]
+    notes: "Gesamtbestand laut Feuerberg-Bericht, darunter archivwürdige Rechtsextremismus-Unterlagen; nicht jeder Band nachweislich NSU-relevant."
+
+  - id: ORG-DE-STA-GERA
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Gera"
+    countries: [DE]
