@@ -218,7 +218,7 @@ flowchart LR
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Stoßtrupp; Vollzug gesondert nachprüfen"| N_ORG_DE_STOSSTRUPP_BZ
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerratsbeschluss 13.01.1953 gegen den Deutschen Heimatschutz"| N_ORG_DE_DHS
     N_ORG_DE_BY_MINISTERRAT -->|"Bayerischer Ministerrat erklärte am 20.01.1953 den TD zur verfassungswidrigen Organisation, BDJ-Entscheidung vertagt"| N_ORG_DE_BDJ_TD
-    N_ORG_DE_BUNDESANWALTSCHAFT["Bundesanwaltschaft"]
+    N_ORG_DE_BUNDESANWALTSCHAFT["Bundesanwaltschaft (1952–1953)"]
     N_CASE_DE_BDJ_TD_1950S["Technischer Dienst des Bundes Deutscher Jugend"]
     N_ORG_DE_BUNDESANWALTSCHAFT -->|"Laut bayerischem Ministerratsprotokoll 20.01.1953 erwog der Bundesanwalt eine Verfahrenseinstellung"| N_CASE_DE_BDJ_TD_1950S
     N_ORG_DE_FRANKFURT_GSTA["Generalstaatsanwaltschaft Frankfurt am Main (1952–1953)"]
@@ -1290,17 +1290,18 @@ flowchart LR
     N_PER_DE_ALEXANDER_VON_STAHL -->|"Senatsdirektor bzw. Staatssekretär 1975–1989."| N_ORG_DE_BERLIN_JUSTIZSENAT
     N_ORG_DE_BGH["Bundesgerichtshof"]
     N_PER_DE_ALEXANDER_VON_STAHL -->|"UA S.35, Anlage 16 bewertet Abklärung möglicher Revisionsgründe 1980 als Einflussnahmeversuch; von Stahl bestritt diese Interpretation."| N_ORG_DE_BGH
-    N_PER_DE_ALEXANDER_VON_STAHL -->|"Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar."| N_ORG_DE_BUNDESANWALTSCHAFT
+    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar."| N_ORG_DE_GBA
     N_ORG_DE_STA_BERLIN -->|"Senat bestätigt Ermittlungsverfahren gegen LfV-Verantwortliche ab 03.07.1991; Ausgang offen."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
     N_PER_DE_SIEGFRIED_NONNE["Siegfried Nonne"]
     N_ORG_DE_LFV_HESSEN -->|"Regierung 1992: LfV-Beamte hatten im August 1991 mit Zustimmung Nonnes Zugang zu seinen Räumen vor späterer Beweissicherung."| N_PER_DE_SIEGFRIED_NONNE
-    N_ORG_DE_LFV_HESSEN -->|"Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne."| N_ORG_DE_BUNDESANWALTSCHAFT
+    N_ORG_DE_LFV_HESSEN -->|"Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne."| N_ORG_DE_GBA
     N_ORG_DE_LFV_HESSEN -->|"BT-Drs. 13/754 F15: BKA erhielt im Dezember 1991 Teile des LfV-Vorgangs U 2."| N_ORG_DE_BKA
-    N_ORG_DE_BUNDESANWALTSCHAFT -->|"Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_GBA -->|"Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt."| N_PER_DE_SIEGFRIED_NONNE
     N_ORG_DE_OLG_FRANKFURT["Oberlandesgericht Frankfurt am Main"]
     N_ORG_DE_OLG_FRANKFURT -->|"Einstellung nach Kronzeugenregelung am 20.09.1994, amtlich berichtet."| N_PER_DE_SIEGFRIED_NONNE
     N_ORG_DE_STA_WIESBADEN["Staatsanwaltschaft Wiesbaden"]
-    N_ORG_DE_BUNDESANWALTSCHAFT -->|"Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren, begründet mit Untersuchungszweck."| N_ORG_DE_STA_WIESBADEN
+    N_ORG_DE_GBA -->|"Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren (1994), begründet mit Untersuchungszweck; tatsächliches Zugangsdatum offen."| N_ORG_DE_STA_WIESBADEN
     N_PER_DE_CHRISTOPH_SEIDLER["Christoph Seidler"]
     N_ORG_DE_BGH -->|"Regierung bestätigt BGH-Beschluss 16.01.1997 zur Haftbefehlsaufhebung; Nonne-Aussage ohne zusätzliche objektive Indizien nicht ausreichend."| N_PER_DE_CHRISTOPH_SEIDLER
     N_PER_DE_ULRICH_SCHMUECKER["Ulrich Schmücker"]
@@ -1309,7 +1310,7 @@ flowchart LR
     N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11–12: Grünhagen war LfV-Ansprechpartner Schmückers; Vorwürfe eines Fluchtplans bestritt er."| N_PER_DE_ULRICH_SCHMUECKER
     N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
     N_PER_DE_ALFRED_HERRHAUSEN["Alfred Herrhausen"]
-    N_ORG_DE_BUNDESANWALTSCHAFT -->|"BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_DE_GBA -->|"BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995."| N_PER_DE_ALFRED_HERRHAUSEN
     N_ORG_DE_HUK_VERBAND["HUK-Verband (historisch)"]
     N_PER_DE_WERNER_MAUSS["Werner Mauss"]
     N_ORG_DE_HUK_VERBAND -->|"UA: seit 1968 Versicherungsverbandsvertrag, 1981 schriftlich mit Auftrags- und Beendigungsrecht für private Ermittlungsaufträge, nicht für staatliche Strafverfahren."| N_PER_DE_WERNER_MAUSS
@@ -1329,7 +1330,7 @@ flowchart LR
     N_ORG_DE_OFD_KOBLENZ["Oberfinanzdirektion Koblenz"]
     N_ORG_DE_BKA -->|"BT-Drs.13/8130 F5: Kontakte im Zusammenhang mit Mauss, laut Regierung zur Grundabdeckung; keine bestätigte unzulässige Steuerbegünstigung."| N_ORG_DE_OFD_KOBLENZ
     N_ORG_DE_FA_ESSEN_SUED["Finanzamt Essen-Süd"]
-    N_ORG_DE_BND -->|"BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Mauss-Honorars aus 1979; Steuersatz nicht genannt."| N_ORG_DE_FA_ESSEN_SUED
+    N_ORG_DE_BND -->|"BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Honorars aus dem Vertrag 1979; Datum der Steuervereinbarung und Steuersatz nicht genannt."| N_ORG_DE_FA_ESSEN_SUED
     N_ORG_DE_LG_BOCHUM["Landgericht Bochum"]
     N_ORG_DE_LG_BOCHUM -->|"Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige Verurteilung."| N_PER_DE_WERNER_MAUSS
     N_ORG_DE_BGH -->|"BGH 1 StR 347/18: Urteil vom 10.01.2019 hebt landgerichtliches Urteil und Feststellungen auf."| N_ORG_DE_LG_BOCHUM
@@ -1361,17 +1362,17 @@ flowchart LR
     N_ORG_DE_BMZ -->|"1997 amtlich berichtete Kreditmittel von 100 Mio. DM für das Metroprojekt; Bereitstellungszeitpunkt offen, kein Mauss-Fondsbezug"| N_ORG_CO_METRO_MEDELLIN
     N_PER_ICIJ_BURGHAGEN_11003187["Hermann Alfred Volker Burghagen"]
     N_ORG_PA_TRANSACTA_VALORES["Transacta Valores S.A."]
-    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_TRANSACTA_VALORES
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen"| N_ORG_PA_TRANSACTA_VALORES
     N_ORG_PA_BOREAL_MANAGEMENT["Boreal Management Corp."]
-    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen"| N_ORG_PA_BOREAL_MANAGEMENT
     N_ORG_PA_NOLILANE_NV["Nolilane NV Inc."]
-    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_NOLILANE_NV
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen"| N_ORG_PA_NOLILANE_NV
     N_ORG_PA_ANYSBERG_INTERNATIONAL["Anysberg International Corp."]
-    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis"| N_ORG_PA_ANYSBERG_INTERNATIONAL
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2014, Beginn der Rolle offen"| N_ORG_PA_ANYSBERG_INTERNATIONAL
     N_ORG_PA_MOSSACK_FONSECA["Mossack Fonseca"]
-    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_TRANSACTA_VALORES
-    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_BOREAL_MANAGEMENT
-    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_NOLILANE_NV
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen"| N_ORG_PA_TRANSACTA_VALORES
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen"| N_ORG_PA_NOLILANE_NV
     N_PER_DE_WERNER_MAUSS -->|"2016 – NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten"| N_ORG_PA_BOREAL_MANAGEMENT
     N_PER_DE_WERNER_MAUSS -->|"2016 berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung"| N_ORG_PA_ANYSBERG_INTERNATIONAL
     N_ORG_AR_REGIERUNGSSTELLEN_1996["Argentinische Regierungsstellen (1996)"]
@@ -1389,15 +1390,15 @@ flowchart LR
     N_ORG_AT_BOTSCHAFT_BOGOTA -->|"Österreichische Botschaftsvertreter wirkten laut Regierungsantwort an Übergabe der Schreiben mit"| N_ORG_CO_AUSSENMINISTERIUM
     N_ORG_DE_BUNDESKANZLERAMT -->|"Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51"| N_ORG_DE_AUSWAERTIGES_AMT_1996
     N_ORG_DE_AUSWAERTIGES_AMT_1996 -->|"Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt"| N_ORG_DE_BOTSCHAFT_BOGOTA
-    N_ORG_DE_BUNDESKANZLERAMT -->|"Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen"| N_PER_DE_HELMUT_KOHL
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Schmidbauer 11.12.1996 (PlPr 13/147, S. 13292, F30): Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen"| N_PER_DE_HELMUT_KOHL
     N_ORG_DK_FLS_1996["FLS (dänische Firma, 1996)"]
-    N_ORG_DK_FLS_1996 -->|"Schmidbauer bestätigte Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen nicht bestätigt"| N_PER_DE_WERNER_MAUSS
+    N_ORG_DK_FLS_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen nicht bestätigt"| N_PER_DE_WERNER_MAUSS
     N_ORG_DE_PFISTER_GMBH_1996["Pfister GmbH (historisch, 1996)"]
-    N_ORG_DE_PFISTER_GMBH_1996 -->|"Schmidbauer bestätigte Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge offen"| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_PFISTER_GMBH_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge offen"| N_PER_DE_WERNER_MAUSS
     N_ORG_DK_REGIERUNG_1996["Dänische Regierung (1996/97)"]
-    N_ORG_DK_REGIERUNG_1996 -->|"Schmidbauer bestätigte Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der Bundesregierung tätig"| N_ORG_DE_BUNDESKANZLERAMT
+    N_ORG_DK_REGIERUNG_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der Bundesregierung tätig"| N_ORG_DE_BUNDESKANZLERAMT
     N_ORG_US_BOTSCHAFT_BONN_1997["US-Botschaft Bonn (historisch, 1997)"]
-    N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch und Kartellverhandlungsabsicht bestritten"| N_ORG_US_BOTSCHAFT_BONN_1997
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte am 29.01.1997 vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch und Kartellverhandlungsabsicht bestritten"| N_ORG_US_BOTSCHAFT_BONN_1997
     N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA["Fiscalía Delegada ante el Tribunal Superior de Antioquia"]
     N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA -->|"EFE berichtet Einstellung des Entführungsverfahrens Mai 1998, aufgehobene Anklage und Ausreisebeschränkung; Originalentscheidung offen"| N_PER_DE_WERNER_MAUSS
     N_PER_DE_WERNER_HOYER["Werner Hoyer"]
@@ -1443,20 +1444,21 @@ flowchart LR
     N_ORG_US_COGENT_2005["Cogent Inc. (historisch, 2005)"]
     N_ORG_US_COGENT_2005 -->|"Erfolglose Tutela gegen Vergabebedingungen; Gericht begründet legitimen IP-Vorsprung; keine generelle Rechtmäßigkeitsfeststellung"| N_ORG_CO_RNEC
     N_ORG_CO_FEDESOFT["Federación Colombiana de la Industria del Software (FEDESOFT)"]
-    N_ORG_CO_FEDESOFT -->|"RNEC gibt positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend für Konkurrenz"| N_ORG_CO_RNEC
-    N_ORG_FR_SAGEM_SA_1997 -->|"Laut zeitgenössischer Gutachtenwiedergabe verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt"| N_ORG_CO_RNEC
+    N_ORG_CO_FEDESOFT -->|"RNEC gibt am 01.11.2005 positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend für Konkurrenz"| N_ORG_CO_RNEC
+    N_ORG_FR_SAGEM_2005["Sagem (AFIS-Rechteinhaber, 2005)"]
+    N_ORG_FR_SAGEM_2005 -->|"Laut Gutachtenwiedergabe 01.11.2005 verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt; Beginn der Rechteinhaberschaft offen"| N_ORG_CO_RNEC
     N_ORG_CO_IDEMIA_900060799["IDEMIA Identity & Security Sucursal Colombia"]
-    N_ORG_CO_IDEMIA_900060799 -->|"Verwaltungsakt und SECOP-Vorstudie begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige Feststellung der Alternativlosigkeit"| N_ORG_CO_RNEC
+    N_ORG_CO_IDEMIA_900060799 -->|"Verwaltungsakt 2020 und SECOP-Vorstudie 2023 begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige Feststellung der Alternativlosigkeit"| N_ORG_CO_RNEC
     N_ORG_CO_FUNDACION_KARISMA["Fundación Karisma"]
     N_ORG_CO_FUNDACION_KARISMA -->|"Auskunftsersuchen RNEC-E-2024-203754; Bericht über nur teilweise Antwort und Einwand nationaler Sicherheit"| N_ORG_CO_RNEC
     N_ORG_CO_IDEMIA_900060799 -->|"Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung; RNEC bestreitet Weitergabe von Bürgerdaten"| N_ORG_CO_RNEC
     N_ORG_CO_SIC["Superintendencia de Industria y Comercio (SIC)"]
     N_ORG_CO_SIC -->|"SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen; keine Schuld festgestellt"| N_ORG_CO_RNEC
     N_ORG_CO_PGN["Procuraduría General de la Nación (Kolumbien)"]
-    N_ORG_CO_PGN -->|"Erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; Rechtsmittel offen"| N_ORG_CO_SIC
+    N_ORG_CO_PGN -->|"PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; Rechtsmittel offen."| N_ORG_CO_SIC
     N_ORG_CO_CORTE_CONSTITUCIONAL["Corte Constitucional de Colombia"]
     N_ORG_CO_CORTE_CONSTITUCIONAL -->|"C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung betroffener Verfahren an"| N_ORG_CO_SIC
-    N_ORG_CO_SIC -->|"Blu Radio berichtet Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit; Originalbescheid offen"| N_ORG_CO_RNEC
+    N_ORG_CO_SIC -->|"Blu Radio berichtet am 17.09.2026 Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit; Originalbescheid offen"| N_ORG_CO_RNEC
     N_ORG_US_ADVENT_INTERNATIONAL["Advent International"]
     N_ORG_FR_SAFRAN_IDSEC_2017["Safran Identity & Security (veräußertes Geschäft, 2017)"]
     N_ORG_US_ADVENT_INTERNATIONAL -->|"Safran bestätigt abgeschlossenen Verkauf seines Identity-&-Security-Geschäfts an Advent für 2,4 Mrd. EUR"| N_ORG_FR_SAFRAN_IDSEC_2017
@@ -1470,7 +1472,6 @@ flowchart LR
     N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]
     N_ORG_DE_LKA_NRW -->|"führte VP01 im Abu-Walaa-Ermittlungskomplex"| N_PER_DE_VP01_AMRI
     N_PER_DE_VP01_AMRI -->|"lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt"| N_ORG_DE_LKA_NRW
-    N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
     N_ORG_DE_LKA_NRW -->|"übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor"| N_ORG_DE_GBA
     N_ORG_DE_LFV_NRW["Verfassungsschutz Nordrhein-Westfalen"]
     N_ORG_DE_LKA_NRW -->|"vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01"| N_ORG_DE_LFV_NRW

@@ -22,7 +22,7 @@ Der niedersächsische Ausschuss behandelte auch die Zusammenarbeit mit Mauss in 
 
 ## 3. BND-Vertrag und steuerliche Behandlung
 
-BT-Drs. 13/8130 (Q6, Fragen 1–7) bestätigt einen BND-Vertrag vom 31.08.1979 mit dem Ehepaar Mauss zur Informationsbeschaffung über Terrorismus. Das Datum im Fragetext (21.08.) ist nicht das bestätigte Vertragsdatum. Das BKA stand mit der Oberfinanzdirektion Koblenz in Kontakt; nach Regierungsdarstellung ging es um die Grundabdeckung. Der BND vereinbarte mit dem Finanzamt Essen-Süd eine pauschalierte Besteuerung des Honorars aus dem 1979er-Vertrag. Der konkrete Steuersatz ist nicht genannt.
+BT-Drs. 13/8130 (Q6, Fragen 1–7) bestätigt einen BND-Vertrag vom 31.08.1979 mit dem Ehepaar Mauss zur Informationsbeschaffung über Terrorismus. Das Datum im Fragetext (21.08.) ist nicht das bestätigte Vertragsdatum. Das BKA stand mit der Oberfinanzdirektion Koblenz in Kontakt; nach Regierungsdarstellung ging es um die Grundabdeckung. Der BND vereinbarte mit dem Finanzamt Essen-Süd eine pauschalierte Besteuerung des Honorars aus dem 1979er-Vertrag. Datum der Steuervereinbarung und konkreter Steuersatz sind nicht genannt; 1979 bezeichnet den zugrunde liegenden Vertrag, nicht einen nachgewiesenen Beginn der Steuerregelung.
 
 Als Vergleich dokumentiert Q7 (BT-Drs. 16/8447, S. 16, Fragen 34–35) eine Verwaltungsvereinbarung der obersten Finanzbehörden aus 1963, bestätigt 1998: Bei Informantenprämien wird ein pauschaler Einkommensteuerbetrag von zehn Prozent staatlicherseits an die Länderfinanzkassen abgeführt. Die Antwort betrifft Informanten des BND im Kontext steuerrelevanter Daten aus Liechtenstein. Sie belegt nicht, dass die Vereinbarung auf den späteren Mauss-Fonds angewandt wurde.
 

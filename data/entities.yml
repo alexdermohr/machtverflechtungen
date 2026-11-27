@@ -517,9 +517,9 @@ entities:
 
   - id: ORG-DE-BUNDESANWALTSCHAFT
     type: prosecution_authority
-    name: "Bundesanwaltschaft"
-    countries: [DE]
-
+    name: Bundesanwaltschaft (1952–1953)
+    countries:
+    - DE
   - id: ORG-DE-FRANKFURT-GSTA
     type: prosecution_authority
     name: "Generalstaatsanwaltschaft Frankfurt am Main (1952–1953)"
@@ -3606,3 +3606,8 @@ entities:
     name: "Presse- und Informationsamt der Bundesregierung (1966)"
     countries: [DE]
     notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Gleichsetzung mit der CIA-Nachdruckverteilung 1953."
+  - id: ORG-FR-SAGEM-2005
+    type: company
+    name: "Sagem (AFIS-Rechteinhaber, 2005)"
+    countries: [FR]
+    notes: "Zeitbezogener Rollenknoten für den 2005 von der RNEC als Sagem bezeichneten Rechteinhaber; weder die konkrete juristische Kontinuität zum Vertragspartner 1997 noch Identität mit dem Consorcio Sagem vorausgesetzt."

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**639 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**640 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -259,7 +259,7 @@
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [10](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
-| Bundesanwaltschaft | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [6](network.md#rel-de-bdj-013) |
+| Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
 | Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [3](network.md#rel-raf-schmuecker-nonne-007) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [9](network.md#rel-ulf-kanzleramt-mykonos) |
@@ -390,7 +390,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [3](network.md#rel-de-amri-003) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [8](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -532,7 +532,8 @@
 | Rocky Mountain Institute | research_institute | `ORG-US-RMI` | US | [1](network.md#rel-ulf-woolsey-rmi) |
 | Rose Import-Export GmbH | company | `ORG-DE-ROSE-IMPORT-EXPORT` | DE | [1](network.md#rel-ulf-rose-company-sanction) |
 | Safran Identity & Security (veräußertes Geschäft, 2017) | business_division | `ORG-FR-SAFRAN-IDSEC-2017` | FR | [1](network.md#rel-mauss-pmt-031) |
-| Sagem SA (historisch, 1996/97) | company | `ORG-FR-SAGEM-SA-1997` | FR | [3](network.md#rel-mauss-pmt-013) |
+| Sagem (AFIS-Rechteinhaber, 2005) | company | `ORG-FR-SAGEM-2005` | FR | [1](network.md#rel-mauss-pmt-023) |
+| Sagem SA (historisch, 1996/97) | company | `ORG-FR-SAGEM-SA-1997` | FR | [2](network.md#rel-mauss-pmt-013) |
 | Saudi-Arabien (Flugzeugbeschaffung 1994) | historical_government | `ORG-SA-GOVERNMENT-1994` | SA | [2](network.md#rel-ws-saudi-boeing) |
 | Schahin (SIVAM-Bauauftrag 1999) | historical_company | `ORG-BR-SCHAHIN-SIVAM-1999` | BR | [1](network.md#rel-ws-ccsivam-schahin-1999) |
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |

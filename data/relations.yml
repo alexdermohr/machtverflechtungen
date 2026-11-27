@@ -6687,7 +6687,7 @@ relations:
       start: '1980'
   - id: REL-RAF-SCHMUECKER-NONNE-008
     from: PER-DE-ALEXANDER-VON-STAHL
-    to: ORG-DE-BUNDESANWALTSCHAFT
+    to: ORG-DE-GBA
     type: documented_office
     label: Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar.
     evidence_level: strong
@@ -6720,7 +6720,7 @@ relations:
       start: '1991'
   - id: REL-RAF-SCHMUECKER-NONNE-011
     from: ORG-DE-LFV-HESSEN
-    to: ORG-DE-BUNDESANWALTSCHAFT
+    to: ORG-DE-GBA
     type: documented_information_sharing
     label: Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne.
     evidence_level: established
@@ -6739,7 +6739,7 @@ relations:
     period:
       start: '1991'
   - id: REL-RAF-SCHMUECKER-NONNE-013
-    from: ORG-DE-BUNDESANWALTSCHAFT
+    from: ORG-DE-GBA
     to: PER-DE-SIEGFRIED-NONNE
     type: documented_prosecution
     label: Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt.
@@ -6759,15 +6759,14 @@ relations:
     period:
       start: '1994-09-20'
   - id: REL-RAF-SCHMUECKER-NONNE-015
-    from: ORG-DE-BUNDESANWALTSCHAFT
+    from: ORG-DE-GBA
     to: ORG-DE-STA-WIESBADEN
     type: documented_delayed_file_access
-    label: Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren, begründet mit Untersuchungszweck.
+    label: Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren (1994), begründet mit Untersuchungszweck;
+      tatsächliches Zugangsdatum offen.
     evidence_level: established
     sources:
     - SRC-DE-BT-NONNE-754-1995
-    period:
-      start: '1994'
   - id: REL-RAF-SCHMUECKER-NONNE-016
     from: ORG-DE-BGH
     to: PER-DE-CHRISTOPH-SEIDLER
@@ -6812,9 +6811,9 @@ relations:
     period:
       start: '1972'
   - id: REL-RAF-SCHMUECKER-NONNE-020
-    from: ORG-DE-BUNDESANWALTSCHAFT
+    from: ORG-DE-GBA
     to: PER-DE-ALFRED-HERRHAUSEN
-    type: documented_investigation
+    type: documented_investigation_into_death
     label: 'BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995.'
     evidence_level: established
     sources:
@@ -6921,7 +6920,6 @@ relations:
     - SRC-DE-NI-UA-CELLE-4380-1989
     period:
       start: '1982-03-11'
-      end: '1983-10-20'
   - id: REL-MAUSS-FINANZ-010
     from: ORG-DE-NI-VERFASSUNGSSCHUTZ
     to: PER-DE-WERNER-MAUSS
@@ -6957,19 +6955,16 @@ relations:
     from: ORG-DE-BND
     to: ORG-DE-FA-ESSEN-SUED
     type: documented_tax_arrangement
-    label: 'BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Mauss-Honorars aus 1979; Steuersatz nicht
-      genannt.'
+    label: 'BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Honorars aus dem Vertrag 1979; Datum der Steuervereinbarung
+      und Steuersatz nicht genannt.'
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-8130-1997
-    period:
-      start: '1979'
   - id: REL-MAUSS-FINANZ-014
     from: ORG-DE-LG-BOCHUM
     to: PER-DE-WERNER-MAUSS
-    type: documented_proceeding
-    label: Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige
-      Verurteilung.
+    type: documented_judicial_decision
+    label: Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige Verurteilung.
     evidence_level: established
     sources:
     - SRC-DE-BGH-MAUSS-347-2019
@@ -7002,14 +6997,12 @@ relations:
     from: ORG-DE-FG-DUESSELDORF
     to: PER-DE-WERNER-MAUSS
     type: documented_proceeding
-    label: 'OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung
-      2025, Originalbeschluss offen.'
+    label: 'OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung 2025,
+      Originalbeschluss offen.'
     evidence_level: established
     sources:
     - SRC-DE-OLG-HAMM-MAUSS-143-2024
     - SRC-DE-LOHR-MAUSS-2025
-    period:
-      start: '2024'
   - id: REL-MAUSS-OFFSHORE-001
     from: PER-DE-WERNER-MAUSS
     to: ORG-INT-MAUSS-RESERVE-1985
@@ -7147,75 +7140,65 @@ relations:
     from: PER-ICIJ-BURGHAGEN-11003187
     to: ORG-PA-TRANSACTA-VALORES
     type: intermediary
-    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle
+      offen'
     evidence_level: strong
     sources:
     - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
     - SRC-ICIJ-TRANSACTA-10044038
-    period:
-      start: '1985'
   - id: REL-MAUSS-OFFSHORE-015
     from: PER-ICIJ-BURGHAGEN-11003187
     to: ORG-PA-BOREAL-MANAGEMENT
     type: intermediary
-    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle
+      offen'
     evidence_level: strong
     sources:
     - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
     - SRC-ICIJ-BOREAL-10191986
-    period:
-      start: '1992'
   - id: REL-MAUSS-OFFSHORE-016
     from: PER-ICIJ-BURGHAGEN-11003187
     to: ORG-PA-NOLILANE-NV
     type: intermediary
-    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle
+      offen'
     evidence_level: strong
     sources:
     - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
     - SRC-ICIJ-NOLILANE-10041707
-    period:
-      start: '2005'
   - id: REL-MAUSS-OFFSHORE-017
     from: PER-ICIJ-BURGHAGEN-11003187
     to: ORG-PA-ANYSBERG-INTERNATIONAL
     type: intermediary
-    label: 'ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis'
+    label: 'ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2014,
+      Beginn der Rolle offen'
     evidence_level: strong
     sources:
     - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
-    period:
-      start: '2014'
   - id: REL-MAUSS-OFFSHORE-018
     from: ORG-PA-MOSSACK-FONSECA
     to: ORG-PA-TRANSACTA-VALORES
     type: registered_agent
-    label: Agent im historischen ICIJ-Profil
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen
     evidence_level: strong
     sources:
     - SRC-ICIJ-TRANSACTA-10044038
-    period:
-      start: '1985'
   - id: REL-MAUSS-OFFSHORE-019
     from: ORG-PA-MOSSACK-FONSECA
     to: ORG-PA-BOREAL-MANAGEMENT
     type: registered_agent
-    label: Agent im historischen ICIJ-Profil
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen
     evidence_level: strong
     sources:
     - SRC-ICIJ-BOREAL-10191986
-    period:
-      start: '1992'
   - id: REL-MAUSS-OFFSHORE-020
     from: ORG-PA-MOSSACK-FONSECA
     to: ORG-PA-NOLILANE-NV
     type: registered_agent
-    label: Agent im historischen ICIJ-Profil
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen
     evidence_level: strong
     sources:
     - SRC-ICIJ-NOLILANE-10041707
-    period:
-      start: '2005'
   - id: REL-MAUSS-OFFSHORE-021
     from: PER-DE-WERNER-MAUSS
     to: ORG-PA-BOREAL-MANAGEMENT
@@ -7336,8 +7319,9 @@ relations:
     from: ORG-DE-BUNDESKANZLERAMT
     to: PER-DE-HELMUT-KOHL
     type: official_information
-    label: 'Schmidbauer 11.12.1996: Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut
-      Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen'
+    label: 'Schmidbauer 11.12.1996 (PlPr 13/147, S. 13292, F30): Kanzler allgemein über Geiselbefreiung und Friedenssondierungen
+      unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt
+      offen'
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL147-1996
@@ -7345,46 +7329,38 @@ relations:
     from: ORG-DK-FLS-1996
     to: PER-DE-WERNER-MAUSS
     type: private_assignment
-    label: Schmidbauer bestätigte Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen
+    label: Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen
       nicht bestätigt
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL153-1997
-    period:
-      start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-012
     from: ORG-DE-PFISTER-GMBH-1996
     to: PER-DE-WERNER-MAUSS
     type: private_assignment
-    label: Schmidbauer bestätigte Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge
+    label: Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge
       offen
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL153-1997
-    period:
-      start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-013
     from: ORG-DK-REGIERUNG-1996
     to: ORG-DE-BUNDESKANZLERAMT
     type: official_contact
-    label: Schmidbauer bestätigte Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der Bundesregierung
-      tätig
+    label: Schmidbauer bestätigte am 29.01.1997 Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der
+      Bundesregierung tätig
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL153-1997
-    period:
-      start: '1996'
   - id: REL-MAUSS-DIPLOMATIE-014
     from: PER-DE-BERND-SCHMIDBAUER
     to: ORG-US-BOTSCHAFT-BONN-1997
     type: official_contact
-    label: Schmidbauer bestätigte vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch und
-      Kartellverhandlungsabsicht bestritten
+    label: Schmidbauer bestätigte am 29.01.1997 vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch
+      und Kartellverhandlungsabsicht bestritten
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-PL153-1997
-    period:
-      start: '1997'
   - id: REL-MAUSS-DIPLOMATIE-015
     from: ORG-CO-FISCALIA-DELEGADA-ANTIOQUIA
     to: PER-DE-WERNER-MAUSS
@@ -7617,37 +7593,31 @@ relations:
     from: ORG-CO-FEDESOFT
     to: ORG-CO-RNEC
     type: reported_technical_advice
-    label: RNEC gibt positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend
-      für Konkurrenz
+    label: RNEC gibt am 01.11.2005 positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband
+      ausreichend für Konkurrenz
     evidence_level: strong
     sources:
     - SRC-CO-RNEC-FEDESOFT-2005
-    period:
-      start: '2005-11-01'
   - id: REL-MAUSS-PMT-023
-    from: ORG-FR-SAGEM-SA-1997
+    from: ORG-FR-SAGEM-2005
     to: ORG-CO-RNEC
-    type: documented_software_license_relationship
-    label: Laut zeitgenössischer Gutachtenwiedergabe verblieben Suchalgorithmen bei Sagem; staatliche Daten und
-      Nutzungsrechte getrennt
+    type: reported_software_rights
+    label: Laut Gutachtenwiedergabe 01.11.2005 verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt;
+      Beginn der Rechteinhaberschaft offen
     evidence_level: strong
     sources:
     - SRC-CO-RNEC-FEDESOFT-2005
     - SRC-CO-COGENT-2005
-    period:
-      start: '2005'
   - id: REL-MAUSS-PMT-024
     from: ORG-CO-IDEMIA-900060799
     to: ORG-CO-RNEC
     type: documented_software_platform_supplier
-    label: Verwaltungsakt und SECOP-Vorstudie begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige
+    label: Verwaltungsakt 2020 und SECOP-Vorstudie 2023 begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige
       Feststellung der Alternativlosigkeit
     evidence_level: established
     sources:
     - SRC-CO-RNEC-DIREKTVERGABE-2020
     - SRC-CO-SECOP-RNEC-357549767-2023
-    period:
-      start: '2020'
   - id: REL-MAUSS-PMT-025
     from: ORG-CO-FUNDACION-KARISMA
     to: ORG-CO-RNEC
@@ -7662,13 +7632,11 @@ relations:
     from: ORG-CO-IDEMIA-900060799
     to: ORG-CO-RNEC
     type: reported_contractual_server_access
-    label: 'Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung;
-      RNEC bestreitet Weitergabe von Bürgerdaten'
+    label: 'Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung; RNEC
+      bestreitet Weitergabe von Bürgerdaten'
     evidence_level: strong
     sources:
     - SRC-CO-KARISMA-CEDULA-2025
-    period:
-      start: '2025-01-08'
   - id: REL-MAUSS-PMT-027
     from: ORG-CO-SIC
     to: ORG-CO-RNEC
@@ -7684,13 +7652,11 @@ relations:
     from: ORG-CO-PGN
     to: ORG-CO-SIC
     type: documented_disciplinary_decision
-    label: Erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen;
-      Rechtsmittel offen
+    label: PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen
+      Kompetenzüberschreitungen; Rechtsmittel offen.
     evidence_level: established
     sources:
     - SRC-CO-PGN-SIC-2026
-    period:
-      start: '2026-03-17'
   - id: REL-MAUSS-PMT-029
     from: ORG-CO-CORTE-CONSTITUCIONAL
     to: ORG-CO-SIC
@@ -7706,14 +7672,12 @@ relations:
     from: ORG-CO-SIC
     to: ORG-CO-RNEC
     type: reported_case_disposition
-    label: Blu Radio berichtet Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit;
+    label: Blu Radio berichtet am 17.09.2026 Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit;
       Originalbescheid offen
     evidence_level: strong
     sources:
     - SRC-CO-BLU-SIC-ARCHIVO-2026
     - SRC-CO-CC-C293-2026
-    period:
-      start: '2026-09-17'
   - id: REL-MAUSS-PMT-031
     from: ORG-US-ADVENT-INTERNATIONAL
     to: ORG-FR-SAFRAN-IDSEC-2017
