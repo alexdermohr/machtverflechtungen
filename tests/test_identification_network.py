@@ -40,3 +40,10 @@ class IdentificationNetwork(unittest.TestCase):
             self.assertIn(contract, edge["label"])
             self.assertEqual(edge["period"]["start"], year)
             self.assertIn("SRC-IDNET-RNEC-SECTOR-2026", edge["sources"])
+
+    def test_undated_sources_do_not_inherit_access_year(self):
+        src = records("sources")
+        for i in ("RNBD", "MT", "DEVICES"):
+            source = src["SRC-IDNET-" + i]
+            self.assertFalse(source.get("date"))
+            self.assertEqual(source["accessed"], "2026-11-27")

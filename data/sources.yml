@@ -6634,7 +6634,7 @@ sources:
 - id: SRC-IDNET-RNBD
   title: Registro Nacional de Bases de Datos – Encargado del tratamiento
   institution: Superintendencia de Industria y Comercio
-  date: '2026'
+  date: null
   type: official_document
   primary: true
   tier: A
@@ -6690,7 +6690,7 @@ sources:
 - id: SRC-IDNET-MT
   title: Relación de proveedores autorizados de tarjetas preimpresas
   institution: Ministerio de Transporte
-  date: '2026'
+  date: null
   type: official_document
   primary: true
   tier: A
@@ -6724,7 +6724,7 @@ sources:
 - id: SRC-IDNET-DEVICES
   title: Biometría – dispositivos homologados
   institution: Registraduría Nacional del Estado Civil
-  date: '2026'
+  date: null
   type: official_document
   primary: true
   tier: A

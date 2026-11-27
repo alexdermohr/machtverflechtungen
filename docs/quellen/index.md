@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-idnet-safran2011) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-idnet-devices) · [S](#src-idnet-safran2011) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -4145,14 +4145,14 @@ Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger B
 
 </article>
 
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
 <a id="src-idnet-mt"></a>
 ### Ministerio de Transporte
 
 **[Relación de proveedores autorizados de tarjetas preimpresas](https://mintransporte.gov.co/loader.php?idFile=10432&lFuncion=exposeDocument&lServicio=Tools2&lTipo=descargas&tmp=a42e534eee198378a4ca4e2aebf67ca2&urlDeleteFunction=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DdeleteTemporalFile%26tmp%3Da42e534eee198378a4ca4e2aebf67ca2)**
 
-Ministerio de Transporte · 2026 · Stufe **A** · Primärquelle · `SRC-IDNET-MT`
+Ministerio de Transporte · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-MT`
 
 [Seite öffnen](https://mintransporte.gov.co/loader.php?idFile=10432&lFuncion=exposeDocument&lServicio=Tools2&lTipo=descargas&tmp=a42e534eee198378a4ca4e2aebf67ca2&urlDeleteFunction=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DdeleteTemporalFile%26tmp%3Da42e534eee198378a4ca4e2aebf67ca2)
 
@@ -4533,6 +4533,21 @@ Fundstelle: S.1, 61–63, 81–83, 122–123, 208–215
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-idnet-devices"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Biometría – dispositivos homologados](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)**
+
+Registraduría Nacional del Estado Civil · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-DEVICES`
+
+[Seite öffnen](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)
+
+Fundstelle: Eintrag 1, Homologation 26.11.2025; Hersteller und Distributoren
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
 
 <a id="src-co-rnec-vertrag197-2005"></a>
@@ -4605,21 +4620,6 @@ Registraduría Nacional del Estado Civil · 2020 · Stufe **A** · Primärquelle
 [PDF öffnen](https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf)
 
 Fundstelle: S. 2–6
-
-</article>
-
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
-
-<a id="src-idnet-devices"></a>
-### Registraduría Nacional del Estado Civil
-
-**[Biometría – dispositivos homologados](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)**
-
-Registraduría Nacional del Estado Civil · 2026 · Stufe **A** · Primärquelle · `SRC-IDNET-DEVICES`
-
-[Seite öffnen](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)
-
-Fundstelle: Eintrag 1, Homologation 26.11.2025; Hersteller und Distributoren
 
 </article>
 
@@ -5101,6 +5101,21 @@ Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-idnet-rnbd"></a>
+### Superintendencia de Industria y Comercio
+
+**[Registro Nacional de Bases de Datos – Encargado del tratamiento](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)**
+
+Superintendencia de Industria y Comercio · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-RNBD`
+
+[Seite öffnen](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)
+
+Fundstelle: Morpho Cards de Colombia SAS, NIT 900386417
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
 
 <a id="src-co-sic-rnec-2024"></a>
@@ -5113,21 +5128,6 @@ Superintendencia de Industria y Comercio · 2024-11-08 · Stufe **A** · Primär
 [Seite öffnen](https://sedeelectronica.sic.gov.co/noticias/la-sic-imputa-cargos-9-funcionarios-de-la-registraduria-por-presuntamente-desatender-requerimientos-en-visita-administrativa)
 
 Fundstelle: Eröffnung; keine Feststellung von Schuld
-
-</article>
-
-<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
-
-<a id="src-idnet-rnbd"></a>
-### Superintendencia de Industria y Comercio
-
-**[Registro Nacional de Bases de Datos – Encargado del tratamiento](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)**
-
-Superintendencia de Industria y Comercio · 2026 · Stufe **A** · Primärquelle · `SRC-IDNET-RNBD`
-
-[Seite öffnen](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)
-
-Fundstelle: Morpho Cards de Colombia SAS, NIT 900386417
 
 </article>
 
