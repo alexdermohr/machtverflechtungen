@@ -3052,3 +3052,76 @@ entities:
     countries:
     - DE
     notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.
+
+  - id: ORG-DE-LKA-NRW
+    type: police_authority
+    name: Landeskriminalamt Nordrhein-Westfalen
+    countries:
+    - DE
+  - id: ORG-DE-LKA-BERLIN
+    type: police_authority
+    name: Landeskriminalamt Berlin
+    countries:
+    - DE
+  - id: ORG-DE-GBA
+    type: prosecution_authority
+    name: Generalbundesanwalt beim Bundesgerichtshof
+    countries:
+    - DE
+  - id: ORG-DE-GENSTA-BERLIN
+    type: prosecution_authority
+    name: Generalstaatsanwaltschaft Berlin
+    countries:
+    - DE
+  - id: ORG-DE-STA-BERLIN
+    type: prosecution_authority
+    name: Staatsanwaltschaft Berlin
+    countries:
+    - DE
+  - id: ORG-DE-LFV-NRW
+    type: intelligence_service
+    name: Verfassungsschutz Nordrhein-Westfalen
+    countries:
+    - DE
+  - id: ORG-DE-LFV-MV
+    type: intelligence_service
+    name: Verfassungsschutz Mecklenburg-Vorpommern
+    countries:
+    - DE
+  - id: ORG-DE-LFV-BERLIN
+    type: intelligence_service
+    name: Verfassungsschutz Berlin
+    countries:
+    - DE
+  - id: ORG-MA-DGST
+    type: intelligence_service
+    name: Direction générale de la surveillance du territoire (DGST)
+    countries:
+    - MA
+  - id: PER-DE-VP01-AMRI
+    type: person
+    name: VP01 (LKA NRW, Amri-Komplex)
+    countries:
+    - DE
+    notes: Öffentlich dokumentiertes Quellenkürzel; keine Identifizierung der Person.
+  - id: PER-TN-ANIS-AMRI
+    type: person
+    name: Anis Amri
+    countries:
+    - TN
+
+  - id: ORG-DE-FUSSILET-MOSCHEE
+    type: association
+    name: Fussilet 33 e.V. (Berliner Fussilet-Moschee)
+    countries:
+    - DE
+  - id: ORG-DE-BMI-AMRI-2017
+    type: government_ministry
+    name: Bundesministerium des Innern (Amri-Komplex 2017)
+    countries:
+    - DE
+  - id: ORG-DE-BMJV-AMRI-2017
+    type: government_ministry
+    name: Bundesministerium der Justiz und für Verbraucherschutz (2017)
+    countries:
+    - DE

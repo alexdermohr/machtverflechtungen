@@ -1094,3 +1094,28 @@ studies:
     - REL-DE-BND-MEDIA-017
     - REL-DE-BND-MEDIA-018
     - REL-DE-BND-MEDIA-019
+
+  amri-behoerden-aufklaerung-2015-2021.md:
+    sha256: a3538e193cf566e240d8ad80c075b31d35fd77a036bbf541ae28d07062a51018
+    status: network
+    relation_ids:
+    - REL-DE-AMRI-001
+    - REL-DE-AMRI-002
+    - REL-DE-AMRI-003
+    - REL-DE-AMRI-004
+    - REL-DE-AMRI-005
+    - REL-DE-AMRI-006
+    - REL-DE-AMRI-007
+    - REL-DE-AMRI-008
+    - REL-DE-AMRI-009
+    - REL-DE-AMRI-010
+    - REL-DE-AMRI-011
+    - REL-DE-AMRI-012
+    - REL-DE-AMRI-013
+    - REL-DE-AMRI-014
+    - REL-DE-AMRI-015
+    - REL-DE-AMRI-016
+    - REL-DE-AMRI-017
+    - REL-DE-AMRI-018
+    - REL-DE-AMRI-019
+    - REL-DE-AMRI-020

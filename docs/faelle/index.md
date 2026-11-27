@@ -1,6 +1,6 @@
 # Fallakten
 
-**16 Fallakten** · Thematisch geordnet; innerhalb eines Bereichs chronologisch sortiert. Jeder Eintrag führt zum dokumentierten Ereigniskern und zu den Quellen.
+**17 Fallakten** · Thematisch geordnet; innerhalb eines Bereichs chronologisch sortiert. Jeder Eintrag führt zum dokumentierten Ereigniskern und zu den Quellen.
 
 ## Nachrichtendienste & Informanten
 
@@ -26,6 +26,14 @@ Militante Netzwerke, Tatkomplexe, Quellenschutz und behördliche Aufklärung.
 | 1993 – 2020 | [Britisch-deutsche Combat-18-/NSM-Kontakte und staatliche Quellenführung](de/britisch-deutsche-combat18-blood-honour-verflechtung-1993-2020.md) | DE, GB | 7 belegt · 6 stark gestützt · 1 spekulativ/offen | Infiltration, Quellenschutz, Materielle Unterstützung |
 | 1996 – 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt | Infiltration, Quellenschutz |
 | 2006-03-24 – 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](de/nsu-yozgat-temme.md) | DE | 4 belegt | Quellenschutz, Infiltration |
+
+## Islamistischer Terrorismus & Behördenhandeln
+
+Behördenwissen, Quellenführung und parlamentarische Aufklärung.
+
+| Zeitraum | Fall | Länder | Claim-Evidenz | Mechanismen |
+|---|---|---|---|---|
+| 2015 – 2022 | [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](de/amri-behoerden-aufklaerung.md) | DE, MA | 6 belegt · 1 spekulativ/offen | Infiltration, Quellenschutz, Ermittlungsmanipulation / Depistaggio |
 
 ## Internationale Anschläge
 

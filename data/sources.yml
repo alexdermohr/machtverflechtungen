@@ -5680,3 +5680,215 @@ sources:
   accessed: '2026-11-26'
   locator: Absatz zur bereits erteilten Auskunft des BND
   notes: Bericht des klagenden Mediums nennt fünf Medien für beide Jahre zusammen; ursprüngliche Behördenantwort nicht eingesehen.
+
+- id: SRC-DE-AMRI-GBA-MAT-A-GBA4
+  title: MAT A GBA-4, Ordner 1 von 3, Bl. 4–14
+  institution: Generalbundesanwalt / Deutscher Bundestag
+  date: '2021'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/CD30800/III.%20Dokumente/036_MAT%20A%20GBA-4%20Ordner%201%20von%203%2C%20Bl.%204-14.pdf
+  accessed: '2026-11-26'
+  locator: S. 2–8, insbesondere S. 3 und 6
+  notes: Veröffentlichung als Ausschussmaterial 2021; Datum des zugrunde liegenden Vermerks hier nicht verifiziert. Belegt behördliche Meldungen und Bewertungen, nicht die Wahrheit jedes Quelleninhalts.
+- id: SRC-DE-AMRI-BE-UA-2021
+  title: Abschlussbericht 1. Untersuchungsausschuss, Drs. 18/4000
+  institution: Abgeordnetenhaus von Berlin
+  date: '2021'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/DruckSachen/d18-4000.pdf
+  accessed: '2026-11-26'
+  locator: S. 910–912; Einstellungsvermerk 09.04.2018, Bl. 46–71
+  notes: Ausschuss zitiert den Einstellungsvermerk; kein Nachweis strafbaren Vorsatzes.
+- id: SRC-DE-AMRI-JOST-2017
+  title: Zwischenbericht des Sonderbeauftragten des Senats
+  institution: Senat Berlin / Bruno Jost
+  date: '2017'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://www.berlin.de/sen/inneres/_assets/sicherheit/zwischenbericht-sonderbeauftragter.pdf
+  accessed: '2026-11-26'
+  locator: S. 5, Sachstand 23.06.2017
+  notes: Vorläufiger Bericht; spätere staatsanwaltschaftliche und parlamentarische Prüfung beachten.
+- id: SRC-DE-AMRI-MV-KOMMISSION-2021
+  title: Abschlussbericht der Expertenkommission für den Verfassungsschutz MV (Managementfassung)
+  institution: Innenministerium Mecklenburg-Vorpommern / Expertenkommission
+  date: '2021'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://service.mvnet.de/_php/download.php?datei_id=1635610
+  accessed: '2026-11-26'
+  locator: S. 7–8, Komplex Breitscheidplatz
+  notes: Quellenbehauptungen nicht bestätigt; Übermittlungs- und Dokumentationsmängel festgestellt. Abweichendes Datum im Bericht ist ein Fehler.
+- id: SRC-DE-AMRI-BT-DGST-2019
+  title: 'Zeuge: Marokkaner wiesen auf verdächtige Aktivitäten Amris hin'
+  institution: Deutscher Bundestag
+  date: '2019-03-21'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2019/kw12-pa-ua-amri-628466
+  accessed: '2026-11-26'
+  locator: Aussagen O’Debie und Kurzhals
+  notes: Dokumentiert Aussagen der BKA-Zeugen, keine Kenntnis des konkreten Anschlagsplans festgestellt.
+- id: SRC-DE-AMRI-BT-VP01-2019
+  title: Staatsanwalt berichtet über Konflikt mit Bundeskriminalamt
+  institution: Deutscher Bundestag
+  date: '2019-12-12'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2019/kw50-pa-1ua-671536
+  accessed: '2026-11-26'
+  locator: Aussage Dieter Killmer und Gegenposition BKA
+  notes: Streit belegt, behauptete Weisung nicht als Tatsache festgestellt.
+- id: SRC-DE-AMRI-BT-VP01-2020
+  title: BKA-Zeuge erschrocken über Vorwürfe
+  institution: Deutscher Bundestag
+  date: '2020-01-17'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2020_01/678056-678056
+  accessed: '2026-11-26'
+  locator: BKA-Zeugenaussage und Neubewertung
+  notes: Gegenposition; Quellenzuverlässigkeit und Bewertung konkreter Meldungen getrennt.
+
+- id: SRC-DE-AMRI-BT-1811027
+  title: 'Antwort der Bundesregierung: Verantwortung und etwaige Fehler der Sicherheitsbehörden'
+  institution: Deutscher Bundestag
+  date: '2017-01-27'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/110/1811027.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 18/11027, Fragen 1c, 5f–g, 6a–f, 8e
+  notes: Regierungsaussage, übermittelt 26.01.2017; spätere Offenlegung der BfV-Quelle in Fussilet gesondert vergleichen.
+- id: SRC-DE-AMRI-PKGR-1812585
+  title: Erläuternde Sachverhaltsdarstellung des Parlamentarischen Kontrollgremiums zum Fall Anis Amri
+  institution: Deutscher Bundestag
+  date: '2017-05-31'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/125/1812585.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 18/12585, S. 2, 10–14
+  notes: Parlamentarischer Bericht mit begrenztem Kontrollauftrag; keine vollständige Prüfung der originären Landesakten.
+- id: SRC-DE-AMRI-BT-1929493
+  title: 'Antwort der Bundesregierung: Offene Fragen zur Verantwortung und etwaigen Fehlern der Sicherheitsbehörden'
+  institution: Deutscher Bundestag
+  date: '2021-05-10'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/294/1929493.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 19/29493, S. 2–3, Fragen 1–2d
+  notes: Regierungsaussage zum Aktenlieferstand 05.05.2021; keine unabhängige Bestätigung der Vollständigkeit.
+- id: SRC-DE-AMRI-BT-1930800
+  title: Beschlussempfehlung und Bericht des 1. Untersuchungsausschusses der 19. Wahlperiode
+  institution: Deutscher Bundestag
+  date: '2021'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/308/1930800.pdf
+  accessed: '2026-11-26'
+  locator: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+  notes: Sondervotum von FDP, Linken und Grünen nicht mit Mehrheitsbericht verwechseln.
+- id: SRC-DE-AMRI-BT-BFV-2018
+  title: Verfassungsschutz hatte Amri früh im Blick
+  institution: Deutscher Bundestag
+  date: '2018-09-13'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2018_09/568770-568770
+  accessed: '2026-11-26'
+  locator: hib 666/2018, Aussage Lia Freimuth
+  notes: Parlamentarisch dokumentierte Zeugenaussage.
+- id: SRC-DE-AMRI-BT-BFV-2020
+  title: 'Verfassungsschützer: Amri kein reiner Polizeifall'
+  institution: Deutscher Bundestag
+  date: '2020-10-01'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2020_10/795876-795876
+  accessed: '2026-11-26'
+  locator: hib 1043/2020, Aussage Gilbert Siebertz
+  notes: Zeuge korrigiert missverständliche Formulierung, bestreitet zusätzliche Erkenntnisse vor dem Anschlag.
+- id: SRC-DE-AMRI-BT-MAASSEN-2020
+  title: Maaßen weist Vorwürfe im Fall Amri zurück
+  institution: Deutscher Bundestag
+  date: '2020-10-08'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/presse/hib/2020_10/798118-798118
+  accessed: '2026-11-26'
+  locator: hib 1084/2020, Aussage Hans-Georg Maaßen
+  notes: Bestätigt den Quelleneinsatz in Fussilet für anderen Sachverhalt; bestreitet persönliche Bekanntschaft und Täuschung.
+- id: SRC-DE-AMRI-BT-BENAMMAR-2019
+  title: Wie es zur Abschiebung des Tunesiers Bilel ben Ammar kam
+  institution: Deutscher Bundestag
+  date: '2019-10-17'
+  type: parliamentary_hearing
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-1ua-661698
+  accessed: '2026-11-26'
+  locator: Aussagen Drange, Haber und Koch
+  notes: Politische Entscheidung und Begründung; keine Feststellung einer Tatbeteiligung Ben Ammars.
+
+- id: SRC-DE-AMRI-JOST-ABSCHLUSS-2017
+  title: Abschlussbericht des Sonderbeauftragten Bruno Jost
+  institution: Senat Berlin / Bruno Jost
+  date: '2017'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf
+  accessed: '2026-11-27'
+  locator: S. 51, Nr. 10; S. 55, Bewertung Nr. 10
+  notes: Präziser strafrechtlicher Verdacht; nach Einschätzung Josts für diesen Verfahrensgegenstand nur Anfangsverdacht, kein dringender Tatverdacht. Text geprüft, Screenshot Cache miss.
+- id: SRC-DE-AMRI-MV-REFORM-85416
+  title: Entwurf eines Dritten Gesetzes zur Änderung des Landesverfassungsschutzgesetzes
+  institution: Landtag Mecklenburg-Vorpommern / Landesregierung
+  date: '2025-10-29'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes
+  accessed: '2026-11-27'
+  locator: Drs. 8/5416, S. 75, zu Nr. 26 (§ 29a)
+  notes: Ausdrücklicher Bezug auf Empfehlung der Expertenkommission vom 14.05.2021; Entwurf, nicht Gesetzesverkündung.
+- id: SRC-DE-AMRI-MV-REFORM-GVOBL-2026
+  title: Drittes Gesetz zur Änderung des Landesverfassungsschutzgesetzes Mecklenburg-Vorpommern
+  institution: Land Mecklenburg-Vorpommern (Gesetzeswiedergabe umwelt-online)
+  date: '2026-06-29'
+  type: law
+  primary: false
+  tier: B
+  url: https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm
+  accessed: '2026-11-27'
+  locator: GVOBl. M-V 2026 S. 551, Art. 1 Nr. 26, § 29a; Art. 2
+  notes: Sekundäre Wiedergabe des verkündeten Gesetzes, kein amtliches Verkündungsblatt eingesehen. Gremium statt Kommission im endgültigen Wortlaut.
+- id: SRC-DE-AMRI-MV-LVERFG-725
+  title: Organstreitverfahren gegen die Landesregierung Mecklenburg-Vorpommern teilweise stattgegeben
+  institution: Landesverfassungsgericht Mecklenburg-Vorpommern
+  date: '2026-07-09'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung
+  accessed: '2026-11-27'
+  locator: Pressemitteilung 6/2026, LVerfG 7/25
+  notes: Amtliche Pressemitteilung, nicht vollständiges Urteil. Eigenständiger Vergleichsfall parlamentarischer Auskunftsrechte; keine Amri-Tatverbindung.
