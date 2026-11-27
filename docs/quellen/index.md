@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**593 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -4518,6 +4518,21 @@ Fundstelle: Erstinstanzliche Disziplinarentscheidung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-idnet-fallo-copy"></a>
+### Procuraduría General de la Nación / Kopie La Silla Vacía
+
+**[PGN Fallo 006-26 – veröffentlichte Originalkopie](https://www.lasillavacia.com/wp-content/uploads/2026/03/FALLO-006-26.pdf)**
+
+Procuraduría General de la Nación / Kopie La Silla Vacía · 2026-03-16 · Stufe **A** · Primärquelle · `SRC-IDNET-FALLO-COPY`
+
+[PDF öffnen](https://www.lasillavacia.com/wp-content/uploads/2026/03/FALLO-006-26.pdf)
+
+Fundstelle: S.1, 61–63, 81–83, 122–123, 208–215
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
 
 <a id="src-co-rnec-vertrag197-2005"></a>
@@ -4605,6 +4620,21 @@ Registraduría Nacional del Estado Civil · 2026 · Stufe **A** · Primärquelle
 [Seite öffnen](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)
 
 Fundstelle: Eintrag 1, Homologation 26.11.2025; Hersteller und Distributoren
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-idnet-rnec-sector-2026"></a>
+### Registraduría Nacional del Estado Civil / SECOP
+
+**[Análisis del sector – Inscripción de Ciudadanos y Registro virtual de grupos significativos de ciudadanos](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=893874864&InCommunity=False&InPaymentGateway=False)**
+
+Registraduría Nacional del Estado Civil / SECOP · 2026 · Stufe **A** · Primärquelle · `SRC-IDNET-RNEC-SECTOR-2026`
+
+[Seite öffnen](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=893874864&InCommunity=False&InPaymentGateway=False)
+
+Fundstelle: SECOP-Dokument 893874864; S.1–2, 7–8, 12–13, 16–19
 
 </article>
 
@@ -5172,7 +5202,7 @@ Thomas Greg & Sons de Colombia / UPTC · 2020-02-25 · Stufe **A** · Primärque
 
 [PDF öffnen](https://www.uptc.edu.co/export/sites/default/admon_grupo_bienes/contratacion/2020/contrat_directa/CONTRATO_78_DE_2020/previos_contrato_78_de_2020.pdf)
 
-Fundstelle: Druck-S.36–37, UT SIL, Pasaportes, Personalización, DISPROEL; S.61–62
+Fundstelle: Druck-S.36–38, UT SIL, Pasaportes, Personalización, DISPROEL; S.61–62
 
 </article>
 

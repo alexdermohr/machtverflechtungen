@@ -7658,6 +7658,7 @@ relations:
     sources:
     - SRC-CO-PGN-SIC-2026
     - SRC-IDNET-FALLO
+    - SRC-IDNET-FALLO-COPY
     period:
       start: '2026-03-16'
   - id: REL-MAUSS-PMT-029
@@ -8309,14 +8310,14 @@ relations:
   - id: REL-CO-IDNET-024
     from: ORG-CO-SIC
     to: ORG-IDNET-TGS
-    type: documented_investigation
-    label: Fallo 006-26 S.61–63, 81–83 dokumentiert Vorermittlung 21-210310 und Untersuchungsfragen zu TGS und möglichen
-      IDEMIA-Verbindungen; kein materieller Schuldnachweis.
+    type: documented_preliminary_inquiry_subject
+    label: 'Fallo 006-26 S.61–63, 81–83: SIC prüfte mögliche Bevorzugung von TGS bei öffentlichen Vergaben; Registerauskunft
+      über TGS am 03.03.2023 angefordert. Kein förmliches Verfahren gegen TGS oder Schuldnachweis festgestellt; Beginn
+      offen.'
     evidence_level: established
     sources:
     - SRC-IDNET-FALLO
-    period:
-      start: '2022-08-19'
+    - SRC-IDNET-FALLO-COPY
   - id: REL-CO-IDNET-025
     from: ORG-CO-SIC
     to: ORG-CO-PGN
@@ -8327,3 +8328,28 @@ relations:
     - SRC-IDNET-SIC
     period:
       start: '2026-03-18'
+
+  - id: REL-CO-IDNET-026
+    from: ORG-CO-RNEC
+    to: ORG-IDNET-DISPROEL18
+    type: documented_contract
+    label: RNEC-Sektorstudie 2026 nennt Vertrag 052/2017 zur Organisation der Kongress- und Präsidentschaftswahlen
+      2018; amtliche Retrospektive, kein Nachweis konkreter Auszahlungen.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-RNEC-SECTOR-2026
+    - SRC-IDNET-FIN
+    period:
+      start: '2017'
+  - id: REL-CO-IDNET-027
+    from: ORG-CO-RNEC
+    to: ORG-IDNET-DISPROEL19
+    type: documented_contract
+    label: RNEC-Sektorstudie 2026 nennt Vertrag 038/2019 zur Organisation der Regionalwahlen 2019; amtliche Retrospektive,
+      kein Nachweis konkreter Auszahlungen.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-RNEC-SECTOR-2026
+    - SRC-IDNET-FIN
+    period:
+      start: '2019'

@@ -6617,7 +6617,7 @@ sources:
   tier: A
   url: https://www.uptc.edu.co/export/sites/default/admon_grupo_bienes/contratacion/2020/contrat_directa/CONTRATO_78_DE_2020/previos_contrato_78_de_2020.pdf
   accessed: '2026-11-27'
-  locator: Druck-S.36–37, UT SIL, Pasaportes, Personalización, DISPROEL; S.61–62
+  locator: Druck-S.36–38, UT SIL, Pasaportes, Personalización, DISPROEL; S.61–62
   notes: Vergabeunterlage Vertrag 78/2020; wiederholte Fassungen, auch BORRADOR. Freigabe zur Offenlegung, endgültige
     Hauptversammlungsbilligung nicht geprüft. PDF-Text ausgewertet; ergänzende Bildprüfung nicht verfügbar.
 - id: SRC-IDNET-DIAN
@@ -6732,3 +6732,28 @@ sources:
   accessed: '2026-11-27'
   locator: Eintrag 1, Homologation 26.11.2025; Hersteller und Distributoren
   notes: Dynamische Liste, 2026 Abrufjahr, kein Publikationsdatum; kein Serverzugriff nachgewiesen.
+
+- id: SRC-IDNET-FALLO-COPY
+  title: PGN Fallo 006-26 – veröffentlichte Originalkopie
+  institution: Procuraduría General de la Nación / Kopie La Silla Vacía
+  date: '2026-03-16'
+  type: official_document_copy
+  primary: true
+  tier: A
+  url: https://www.lasillavacia.com/wp-content/uploads/2026/03/FALLO-006-26.pdf
+  accessed: '2026-11-27'
+  locator: S.1, 61–63, 81–83, 122–123, 208–215
+  notes: Originaldokument als Presse-Archivkopie, Text direkt aus PDF extrahiert; kein unabhängiger zweiter Sachbeleg.
+    Amtliche kombinierte Datei erneut nicht erreichbar; Seitenbildabruf fehlgeschlagen.
+- id: SRC-IDNET-RNEC-SECTOR-2026
+  title: Análisis del sector – Inscripción de Ciudadanos y Registro virtual de grupos significativos de ciudadanos
+  institution: Registraduría Nacional del Estado Civil / SECOP
+  date: '2026'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=893874864&InCommunity=False&InPaymentGateway=False
+  accessed: '2026-11-27'
+  locator: SECOP-Dokument 893874864; S.1–2, 7–8, 12–13, 16–19
+  notes: Amtliche Retrospektive und Markterkundung, Text nennt 07.10.2026; 22.04.2024 ist Formularfreigabe. Keine
+    Zuschlagsentscheidung für 2027, keine Zahlungsdaten. PDF-Text ausgewertet, Seitenbildabruf fehlgeschlagen.

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**895 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**897 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1563,8 +1563,10 @@ flowchart LR
     N_ORG_IDNET_TRANSPORTE["Ministerio de Transporte (Kolumbien)"]
     N_ORG_IDNET_TRANSPORTE -->|"Undatierte amtliche Liste zugelassener Anbieter vorbedruckter Karten; keine Exklusivität."| N_ORG_IDNET_TGS
     N_ORG_IDNET_TRANSPORTE -->|"Amtliche Liste nennt Morpho Cards de Colombia als einen von vier zugelassenen Anbietern vorbedruckter Karten."| N_ORG_IDNET_SAS
-    N_ORG_CO_SIC -->|"Fallo 006-26 S.61–63, 81–83 dokumentiert Vorermittlung 21-210310 und Untersuchungsfragen zu TGS und möglichen IDEMIA-Verbindungen; kein materieller Schuldnachweis."| N_ORG_IDNET_TGS
+    N_ORG_CO_SIC -->|"Fallo 006-26 S.61–63, 81–83: SIC prüfte mögliche Bevorzugung von TGS bei öffentlichen Vergaben; Registerauskunft über TGS am 03.03.2023 angefordert. Kein förmliches Verfahren gegen TGS oder Schuldnachweis festgestellt; Beginn offen."| N_ORG_IDNET_TGS
     N_ORG_CO_SIC -->|"SIC verteidigt am 18.03.2026 ihre Inspektionsverfahren nach erstinstanzlichem Disziplinarentscheid."| N_ORG_CO_PGN
+    N_ORG_CO_RNEC -->|"RNEC-Sektorstudie 2026 nennt Vertrag 052/2017 zur Organisation der Kongress- und Präsidentschaftswahlen 2018; amtliche Retrospektive, kein Nachweis konkreter Auszahlungen."| N_ORG_IDNET_DISPROEL18
+    N_ORG_CO_RNEC -->|"RNEC-Sektorstudie 2026 nennt Vertrag 038/2019 zur Organisation der Regionalwahlen 2019; amtliche Retrospektive, kein Nachweis konkreter Auszahlungen."| N_ORG_IDNET_DISPROEL19
 ```
 
 [Zur Relationstabelle](network.md)

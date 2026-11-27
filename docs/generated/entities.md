@@ -531,7 +531,7 @@
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
-| Registraduría Nacional del Estado Civil (RNEC) | government_agency | `ORG-CO-RNEC` | CO | [11](network.md#rel-mauss-pmt-017) |
+| Registraduría Nacional del Estado Civil (RNEC) | government_agency | `ORG-CO-RNEC` | CO | [13](network.md#rel-mauss-pmt-017) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
 | Riggs National Bank (Washington, D.C.) | historical_commercial_bank | `ORG-US-RIGGS-NATIONAL-BANK` | US | [31](network.md#rel-cl-junta-riggs-exotica-payment-instruction-1974) |
 | Riggs National Corporation | bank_holding_company | `ORG-US-RIGGS-NATIONAL-CORPORATION` | US | [5](network.md#rel-riggs-followup-027) |
@@ -632,8 +632,8 @@
 | US-Privatbanken des chilenischen Zusatzkredits Crédito 2 (1972) | historical_commercial_bank_cohort | `ORG-US-CHILE-CREDITO2-LENDERS-1972` | US, CL | [1](network.md#rel-cl-bcch-us-private-bank-credito2-notes-1974) |
 | US-Venture-Capital-Partnerships (ERISA-Kapitalmarkt 1976–1979) | historical_investment_sector | `ORG-US-VENTURE-CAPITAL-PARTNERSHIPS-1979` | US | [1](network.md#rel-us-erisa-vc-aggregates-1976-1979-001) |
 | USA–Ukraine: biologische Gefahrenabwehr und Laborsicherheit (historisches Kooperationsprogramm) | public_health_cooperation | `PRG-UA-BIOSAFETY-COOP` | US, UA | [1](network.md#rel-us-ua-biosec-2022-001) |
-| UT DISPROEL 2018 | consortium | `ORG-IDNET-DISPROEL18` | CO | [3](network.md#rel-co-idnet-015) |
-| UT DISPROEL 2019 | consortium | `ORG-IDNET-DISPROEL19` | CO | [4](network.md#rel-co-idnet-018) |
+| UT DISPROEL 2018 | consortium | `ORG-IDNET-DISPROEL18` | CO | [4](network.md#rel-co-idnet-015) |
+| UT DISPROEL 2019 | consortium | `ORG-IDNET-DISPROEL19` | CO | [5](network.md#rel-co-idnet-018) |
 | UT Pasaportes Electrónicos 2014 | consortium | `ORG-IDNET-PASS2014` | CO | [2](network.md#rel-co-idnet-009) |
 | UT Personalización y Logística 2015 | consortium | `ORG-IDNET-PERSON2015` | CO | [4](network.md#rel-co-idnet-011) |
 | UT Soluciones Integrales de Licencias (2009) | consortium | `ORG-IDNET-SIL` | CO | [2](network.md#rel-co-idnet-003) |

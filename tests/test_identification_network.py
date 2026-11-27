@@ -26,3 +26,17 @@ class IdentificationNetwork(unittest.TestCase):
         self.assertEqual(r["REL-MAUSS-PMT-028"]["period"]["start"], "2026-03-16")
         self.assertIn("SRC-IDNET-FALLO", r["REL-MAUSS-PMT-028"]["sources"])
         self.assertIn("erstinstanzlich", r["REL-MAUSS-PMT-028"]["label"])
+
+    def test_preliminary_inquiry_and_contract_scope(self):
+        r = records("relations")
+        inquiry = r["REL-CO-IDNET-024"]
+        self.assertEqual(inquiry["type"], "documented_preliminary_inquiry_subject")
+        self.assertNotIn("period", inquiry)
+        self.assertIn("Kein förmliches Verfahren gegen TGS", inquiry["label"])
+        self.assertIn("SRC-IDNET-FALLO-COPY", inquiry["sources"])
+        for i, contract, year in (("026", "052/2017", "2017"), ("027", "038/2019", "2019")):
+            edge = r["REL-CO-IDNET-" + i]
+            self.assertEqual(edge["from"], "ORG-CO-RNEC")
+            self.assertIn(contract, edge["label"])
+            self.assertEqual(edge["period"]["start"], year)
+            self.assertIn("SRC-IDNET-RNEC-SECTOR-2026", edge["sources"])
