@@ -6609,7 +6609,1492 @@ relations:
     sources:
     - SRC-DE-TSP-BND-MEDIEN-20231110
     - SRC-DE-BVERWG-BND-10A223-2023
+  - id: REL-RAF-SCHMUECKER-NONNE-001
+    from: PER-DE-EBERHARD-ZACHMANN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: leadership
+    label: Zachmann leitete das Berliner LfV zur Amtsleitertagung am 31.01.1975.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975-01-31'
+  - id: REL-RAF-SCHMUECKER-NONNE-002
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: ORG-DE-BFV
+    type: documented_information_sharing
+    label: 'UA 1990: BfV-Präsident bei Amtsleitertagung 31.01.1975; bundesweite Unterrichtung über mutmaßliche Hintergründe
+      Schmückers, spätere Wirkung ungeklärt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975-01-31'
+  - id: REL-RAF-SCHMUECKER-NONNE-003
+    from: PER-DE-VOLKER-VON-WEINGRABER
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_source_relationship
+    label: 'UA S.23–24: Quelle übergab dem Berliner LfV wesentliches mutmaßliches Tatbeweismittel im Fall Schmücker.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-004
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: ORG-DE-STA-BERLIN
+    type: documented_evidence_withholding
+    label: 'UA S.23–24,35: wesentliches Beweismittel nicht an Strafverfolgung übergeben; Rechtmäßigkeit umstritten,
+      Projektgruppe kritisiert unterbliebene Untersuchung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-005
+    from: PER-DE-CHRISTIAN-HAIN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_source_relationship
+    label: 'UA S.36–38: V-Mann übermittelte Teile der Verteidigerstrategie; tatsächliche Weiterverwertung durch Strafverfolgung
+      ungeklärt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1975'
+  - id: REL-RAF-SCHMUECKER-NONNE-006
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-BERLIN-JUSTIZSENAT
+    type: documented_office
+    label: Senatsdirektor bzw. Staatssekretär 1975–1989.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    - SRC-DE-VON-STAHL-MUNZINGER
+    period:
+      start: '1975'
+      end: '1989'
+  - id: REL-RAF-SCHMUECKER-NONNE-007
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-BGH
+    type: reported_intervention_attempt
+    label: UA S.35, Anlage 16 bewertet Abklärung möglicher Revisionsgründe 1980 als Einflussnahmeversuch; von Stahl
+      bestritt diese Interpretation.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1980'
+  - id: REL-RAF-SCHMUECKER-NONNE-008
+    from: PER-DE-ALEXANDER-VON-STAHL
+    to: ORG-DE-GBA
+    type: documented_office
+    label: Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar.
+    evidence_level: strong
+    sources:
+    - SRC-DE-VON-STAHL-MUNZINGER
+    period:
+      start: '1990'
+      end: '1993'
+  - id: REL-RAF-SCHMUECKER-NONNE-009
+    from: ORG-DE-STA-BERLIN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_investigation
+    label: Senat bestätigt Ermittlungsverfahren gegen LfV-Verantwortliche ab 03.07.1991; Ausgang offen.
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-SCHMUECKER-780-1991
+    - SRC-DE-BERLIN-SCHMUECKER-2659-1993
+    period:
+      start: '1991-07-03'
+  - id: REL-RAF-SCHMUECKER-NONNE-010
+    from: ORG-DE-LFV-HESSEN
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_contact
+    label: 'Regierung 1992: LfV-Beamte hatten im August 1991 mit Zustimmung Nonnes Zugang zu seinen Räumen vor späterer
+      Beweissicherung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-2209-1992
+    period:
+      start: '1991'
+  - id: REL-RAF-SCHMUECKER-NONNE-011
+    from: ORG-DE-LFV-HESSEN
+    to: ORG-DE-GBA
+    type: documented_information_sharing
+    label: Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-2209-1992
+    period:
+      start: '1991-08-07'
+  - id: REL-RAF-SCHMUECKER-NONNE-012
+    from: ORG-DE-LFV-HESSEN
+    to: ORG-DE-BKA
+    type: documented_file_transfer
+    label: 'BT-Drs. 13/754 F15: BKA erhielt im Dezember 1991 Teile des LfV-Vorgangs U 2.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1991'
+  - id: REL-RAF-SCHMUECKER-NONNE-013
+    from: ORG-DE-GBA
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_prosecution
+    label: Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1994-06-27'
+  - id: REL-RAF-SCHMUECKER-NONNE-014
+    from: ORG-DE-OLG-FRANKFURT
+    to: PER-DE-SIEGFRIED-NONNE
+    type: documented_proceeding
+    label: Einstellung nach Kronzeugenregelung am 20.09.1994, amtlich berichtet.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+    period:
+      start: '1994-09-20'
+  - id: REL-RAF-SCHMUECKER-NONNE-015
+    from: ORG-DE-GBA
+    to: ORG-DE-STA-WIESBADEN
+    type: documented_delayed_file_access
+    label: Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren (1994), begründet mit Untersuchungszweck;
+      tatsächliches Zugangsdatum offen.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+  - id: REL-RAF-SCHMUECKER-NONNE-016
+    from: ORG-DE-BGH
+    to: PER-DE-CHRISTOPH-SEIDLER
+    type: documented_judicial_decision
+    label: Regierung bestätigt BGH-Beschluss 16.01.1997 zur Haftbefehlsaufhebung; Nonne-Aussage ohne zusätzliche objektive
+      Indizien nicht ausreichend.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-HERRHAUSEN-PL156-1997
+    period:
+      start: '1997-01-16'
+  - id: REL-RAF-SCHMUECKER-NONNE-017
+    from: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    to: PER-DE-ULRICH-SCHMUECKER
+    type: documented_source_contact
+    label: 'UA S.11–12: längerfristige Beziehung seit 1972; Informationsakte Kette, 15.03.1973 Tarnname und Informantenbezeichnung;
+      formeller V-Mann-Status bestritten.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+      end: '1974'
+  - id: REL-RAF-SCHMUECKER-NONNE-018
+    from: PER-DE-MICHAEL-GRUENHAGEN
+    to: PER-DE-ULRICH-SCHMUECKER
+    type: documented_source_contact
+    label: 'UA S.11–12: Grünhagen war LfV-Ansprechpartner Schmückers; Vorwürfe eines Fluchtplans bestritt er.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+  - id: REL-RAF-SCHMUECKER-NONNE-019
+    from: PER-DE-MICHAEL-GRUENHAGEN
+    to: ORG-DE-BERLIN-VERFASSUNGSSCHUTZ
+    type: documented_office
+    label: 'UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BERLIN-UA-SCHMUECKER-1990
+    period:
+      start: '1972'
+  - id: REL-RAF-SCHMUECKER-NONNE-020
+    from: ORG-DE-GBA
+    to: PER-DE-ALFRED-HERRHAUSEN
+    type: documented_investigation_into_death
+    label: 'BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-NONNE-754-1995
+  - id: REL-MAUSS-FINANZ-001
+    from: ORG-DE-HUK-VERBAND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: 'UA: seit 1968 Versicherungsverbandsvertrag, 1981 schriftlich mit Auftrags- und Beendigungsrecht für private
+      Ermittlungsaufträge, nicht für staatliche Strafverfahren.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-03-05'
+  - id: REL-MAUSS-FINANZ-002
+    from: ORG-DE-SACHVERSICHERER-VERBAND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: 'UA: seit 1968 Versicherungsverbandsvertrag; schriftlicher Vertrag 05.03.1981 mit Auftragsrecht und Spesenregelung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-03-05'
+  - id: REL-MAUSS-FINANZ-003
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_cooperation
+    label: Bundesregierung bestätigt BKA-Vereinbarungen 1972, 1976 und 1981; UA beschreibt BKA-Koordination privat
+      finanzierter Tätigkeit. Keine hoheitliche Befugnis.
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    - SRC-DE-BT-MAUSS-415-2018
+    period:
+      start: '1972'
+      end: '1987'
+  - id: REL-MAUSS-FINANZ-004
+    from: ORG-DE-HUK-VERBAND
+    to: ORG-DE-BKA
+    type: documented_coordination
+    label: 'UA beschreibt Abrede: Versicherungswirtschaft finanziert, BKA koordiniert Einsätze innerhalb vereinbarter
+      Grenzen.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    period:
+      start: '1981'
+  - id: REL-MAUSS-FINANZ-005
+    from: ORG-DE-SACHVERSICHERER-VERBAND
+    to: ORG-DE-BKA
+    type: documented_coordination
+    label: UA beschreibt Abrede über privat finanzierte, BKA-koordinierte Einsätze; keine Weisung an Polizei aus Versicherungsvertrag
+      abgeleitet.
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    - SRC-DE-BT-MAUSS-PL190-1990
+    period:
+      start: '1981'
+  - id: REL-MAUSS-FINANZ-006
+    from: ORG-DE-MANNHEIMER-VERSICHERUNG
+    to: PER-DE-WERNER-MAUSS
+    type: documented_financial_incentive
+    label: 'UA: bedingtes Erfolgshonorar von 700.000 DM im Fall Düe (05.08.1982); erste 350.000 DM zzgl. MwSt ausgezahlt,
+      weitere Anrechnungen und gesonderte Spesen. Kein Nachweis falscher Beweismittel.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1982'
+      end: '1986'
+  - id: REL-MAUSS-FINANZ-007
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_payment
+    label: 'Bundesregierung 1990: 174.000 DM Kostenerstattung, 8.946,25 DM für zwei Fälle ohne Zusammenarbeit; weitere
+      100.941,77 DM und 1.000 CHF (1970–Anfang 1976) mit nicht mehr zuordenbarem Zweck.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL210-1990
+    period:
+      start: '1970'
+  - id: REL-MAUSS-FINANZ-008
+    from: ORG-DE-BKA
+    to: PER-DE-WERNER-MAUSS
+    type: documented_legal_obligation
+    label: 'UA S.162: Verpflichtung nach Verpflichtungsgesetz erst 06.08.1981; keine Amtsträgereigenschaft.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1981-08-06'
+  - id: REL-MAUSS-FINANZ-009
+    from: ORG-DE-LKA-NIEDERSACHSEN
+    to: PER-DE-WERNER-MAUSS
+    type: documented_legal_obligation
+    label: 'UA S.162: Verpflichtungen am 11.03.1982 und 20.10.1983.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1982-03-11'
+  - id: REL-MAUSS-FINANZ-010
+    from: ORG-DE-NI-VERFASSUNGSSCHUTZ
+    to: PER-DE-WERNER-MAUSS
+    type: documented_cooperation
+    label: 'UA S.180: Zusammenarbeit Operation Neuland etwa 1974–1978; keine belegte Beteiligung Mauss am tatsächlichen
+      Celler Anschlag.'
+    evidence_level: established
+    sources:
+    - SRC-DE-NI-UA-CELLE-4380-1989
+    period:
+      start: '1974'
+      end: '1978'
+  - id: REL-MAUSS-FINANZ-011
+    from: ORG-DE-BND
+    to: PER-DE-WERNER-MAUSS
+    type: documented_contract
+    label: Bundesregierung bestätigt Vertrag 31.08.1979 zur Informationsbeschaffung über Terrorismus; kein Fondsvertrag.
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+    period:
+      start: '1979-08-31'
+  - id: REL-MAUSS-FINANZ-012
+    from: ORG-DE-BKA
+    to: ORG-DE-OFD-KOBLENZ
+    type: documented_administrative_contact
+    label: 'BT-Drs.13/8130 F5: Kontakte im Zusammenhang mit Mauss, laut Regierung zur Grundabdeckung; keine bestätigte
+      unzulässige Steuerbegünstigung.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+  - id: REL-MAUSS-FINANZ-013
+    from: ORG-DE-BND
+    to: ORG-DE-FA-ESSEN-SUED
+    type: documented_tax_arrangement
+    label: 'BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Honorars aus dem Vertrag 1979; Datum der Steuervereinbarung
+      und Steuersatz nicht genannt.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-8130-1997
+  - id: REL-MAUSS-FINANZ-014
+    from: ORG-DE-LG-BOCHUM
+    to: PER-DE-WERNER-MAUSS
+    type: documented_judicial_decision
+    label: Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige Verurteilung.
+    evidence_level: established
+    sources:
+    - SRC-DE-BGH-MAUSS-347-2019
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2017-10-05'
+  - id: REL-MAUSS-FINANZ-015
+    from: ORG-DE-BGH
+    to: ORG-DE-LG-BOCHUM
+    type: documented_judicial_decision
+    label: 'BGH 1 StR 347/18: Urteil vom 10.01.2019 hebt landgerichtliches Urteil und Feststellungen auf.'
+    evidence_level: established
+    sources:
+    - SRC-DE-BGH-MAUSS-347-2019
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2019-01-10'
+  - id: REL-MAUSS-FINANZ-016
+    from: ORG-DE-OLG-HAMM
+    to: ORG-DE-LG-BOCHUM
+    type: documented_judicial_decision
+    label: OLG 4 Ws 143/24 bestätigt Aussetzung des Steuerstrafverfahrens bis Klärung der Besteuerung; keine Feststellung
+      der Fondsherkunft.
+    evidence_level: established
+    sources:
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    period:
+      start: '2024-10-08'
+  - id: REL-MAUSS-FINANZ-017
+    from: ORG-DE-FG-DUESSELDORF
+    to: PER-DE-WERNER-MAUSS
+    type: documented_proceeding
+    label: 'OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung 2025,
+      Originalbeschluss offen.'
+    evidence_level: established
+    sources:
+    - SRC-DE-OLG-HAMM-MAUSS-143-2024
+    - SRC-DE-LOHR-MAUSS-2025
+  - id: REL-MAUSS-OFFSHORE-001
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_association
+    label: 1985 errichtete Treuhandreserve laut gerichtlicher Wiedergabe aufgehobener Feststellungen und Recherche;
+      endgültiges Eigentum offen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    - SRC-DE-BGH-MAUSS-347-2019
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-002
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: testimony
+    label: 'Gerichtszeugnis 2017 laut dpa: internationale Reserve, unter anderem USA als behauptete Geldgeber; kein
+      Nachweis konkreter Einzahlungen'
+    evidence_level: strong
+    sources:
+    - SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017
+    period:
+      start: '2017'
+  - id: REL-MAUSS-OFFSHORE-003
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: official_statement
+    label: 'Amtliche Auskunft 18.01.2017: behauptete Existenz erst seit 08.09.2016 bekannt, keine nachvollziehbaren
+      älteren Akten; keine Bestätigung der Fondsstruktur'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PLENAR-18211-2017
+    period:
+      start: '2017'
+  - id: REL-MAUSS-OFFSHORE-004
+    from: PER-PA-GENEROSO-GUERRA
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_representation
+    label: Laut dokumentengestützter Recherche Vertreter der im Vertrag bezeichneten westlichen Sicherheitsbehörden;
+      Originalurkunde offen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-005
+    from: ORG-INT-MAUSS-RESERVE-1985
+    to: ORG-PA-UBS-1985
+    type: reported_banking_relationship
+    label: Bankverbindung laut Recherche 2018 (Artikel schreibt USB); keine selbst eingesehenen Kontoauszüge
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-006
+    from: PER-CO-DARIO-CASTRILLON-HOYOS
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_statement
+    label: Schreiben 2013 zur Fondsgeschichte laut Recherche 2018; kein Beleg eigener Einzahlung
+    evidence_level: strong
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '2013'
+  - id: REL-MAUSS-OFFSHORE-007
+    from: PER-CO-JESUS-EMILIO-JARAMILLO
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_association
+    label: Beteiligung an Fondsentstehung laut 2018 referiertem Kardinalsschreiben; nicht als Kapitalgeber nachgewiesen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-008
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-CO-DARIO-CASTRILLON-HOYOS
+    type: reported_contact
+    label: Kontakt 1998 laut 2013 verfasstem, 2018 referiertem Schreiben
+    evidence_level: strong
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1998'
+  - id: REL-MAUSS-OFFSHORE-009
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-CO-ERNESTO-SAMPER
+    type: official_contact
+    label: Gespräch im Zusammenhang mit Friedenssondierungen, bestätigt in BT-Drs. 13/6953
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-010
+    from: PER-DE-WERNER-MAUSS
+    to: PER-CO-ERNESTO-SAMPER
+    type: official_contact
+    label: Teilnahme am Gespräch Schmidbauer–Samper amtlich bestätigt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-011
+    from: ORG-DE-BOTSCHAFT-BOGOTA
+    to: PER-DE-WERNER-MAUSS
+    type: official_support
+    label: Ausstellung eines konsularischen Schutzbriefes laut amtlicher Antwort; kein Honorarvertrag daraus ableitbar
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-012
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-DE-BND
+    type: correspondence
+    label: Schreiben vom 05.11.1996 laut amtlicher Antwort unbeantwortet; kein Nachweis fortbestehenden Auftrags
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996-11-05'
+  - id: REL-MAUSS-OFFSHORE-013
+    from: ORG-DE-BMZ
+    to: ORG-CO-METRO-MEDELLIN
+    type: credit
+    label: 1997 amtlich berichtete Kreditmittel von 100 Mio. DM für das Metroprojekt; Bereitstellungszeitpunkt offen, kein Mauss-Fondsbezug
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+  - id: REL-MAUSS-OFFSHORE-014
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-TRANSACTA-VALORES
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle
+      offen'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-TRANSACTA-10044038
+  - id: REL-MAUSS-OFFSHORE-015
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle
+      offen'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-BOREAL-10191986
+  - id: REL-MAUSS-OFFSHORE-016
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-NOLILANE-NV
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle
+      offen'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-NOLILANE-10041707
+  - id: REL-MAUSS-OFFSHORE-017
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: intermediary
+    label: 'ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2014,
+      Beginn der Rolle offen'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+  - id: REL-MAUSS-OFFSHORE-018
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-TRANSACTA-VALORES
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-TRANSACTA-10044038
+  - id: REL-MAUSS-OFFSHORE-019
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-BOREAL-10191986
+  - id: REL-MAUSS-OFFSHORE-020
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-NOLILANE-NV
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-NOLILANE-10041707
+  - id: REL-MAUSS-OFFSHORE-021
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: reported_association
+    label: 2016 – NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten
+    evidence_level: strong
+    sources:
+    - SRC-DE-NDR-MAUSS-PANAMA-2016
+    - SRC-INT-OCCRP-MAUSS-PANAMA-2016
+  - id: REL-MAUSS-OFFSHORE-022
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: reported_association
+    label: 2016 berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung
+    evidence_level: strong
+    sources:
+    - SRC-DE-NDR-MAUSS-PANAMA-2016
+    - SRC-INT-OCCRP-MAUSS-PANAMA-2016
+  - id: REL-MAUSS-DIPLOMATIE-001
+    from: ORG-AR-REGIERUNGSSTELLEN-1996
+    to: PER-DE-BERND-SCHMIDBAUER
+    type: official_contact
+    label: Schmidbauer bestätigte Gespräche mit argentinischen Regierungsstellen im Techint-Fall; keine Zusage konkreter
+      Zahlungen belegt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL144-1996
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1996'
+  - id: REL-MAUSS-DIPLOMATIE-002
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: ORG-AR-TECHINT-1996
+    type: official_contact
+    label: Amtlich bestätigte Teilnahme Techints an Gesprächen mit Schmidbauer und argentinischen Regierungsstellen;
+      finanzielle Vorschläge bestritten
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL144-1996
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1996'
+  - id: REL-MAUSS-DIPLOMATIE-003
+    from: ORG-AR-TECHINT-1996
+    to: PER-DE-WERNER-MAUSS
+    type: private_assignment
+    label: Schmidbauer bestätigte bilaterale Gespräche und berichtete Bitte Techints um Vermittlung; Auftragshonorar
+      und konkrete Zahlungen nicht belegt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL144-1996
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1996'
+  - id: REL-MAUSS-DIPLOMATIE-004
+    from: ORG-DE-MANNESMANN-1995
+    to: ORG-DE-BUNDESKANZLERAMT
+    type: official_coordination
+    label: Abgestimmte Schreiben im Fall Ruttnig laut Schmidbauer, Mannesmann mit Vollmacht der Angehörigen
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1995-02-16'
+  - id: REL-MAUSS-DIPLOMATIE-005
+    from: ORG-DE-MANNESMANN-1995
+    to: ORG-DE-AUSWAERTIGES-AMT-1996
+    type: official_coordination
+    label: Abstimmung des Unternehmensschreibens mit Auswärtigem Amt und Kanzleramt laut Regierungsantwort
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1995-02-16'
+  - id: REL-MAUSS-DIPLOMATIE-006
+    from: ORG-DE-BOTSCHAFT-BOGOTA
+    to: ORG-CO-AUSSENMINISTERIUM
+    type: diplomatic_correspondence
+    label: Deutsche Botschaft übergab gemeinsam mit österreichischen Vertretern Schreiben Mannesmanns und Schmidbauers
+      an kolumbianisches Außenministerium
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1995-02-17'
+  - id: REL-MAUSS-DIPLOMATIE-007
+    from: ORG-AT-BOTSCHAFT-BOGOTA
+    to: ORG-CO-AUSSENMINISTERIUM
+    type: diplomatic_correspondence
+    label: Österreichische Botschaftsvertreter wirkten laut Regierungsantwort an Übergabe der Schreiben mit
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1995-02-17'
+  - id: REL-MAUSS-DIPLOMATIE-008
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-AUSWAERTIGES-AMT-1996
+    type: official_coordination
+    label: Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    period:
+      start: '1996'
+  - id: REL-MAUSS-DIPLOMATIE-009
+    from: ORG-DE-AUSWAERTIGES-AMT-1996
+    to: ORG-DE-BOTSCHAFT-BOGOTA
+    type: official_instruction
+    label: Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    - SRC-DE-BT-MAUSS-PL159-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-DIPLOMATIE-010
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: PER-DE-HELMUT-KOHL
+    type: official_information
+    label: 'Schmidbauer 11.12.1996 (PlPr 13/147, S. 13292, F30): Kanzler allgemein über Geiselbefreiung und Friedenssondierungen
+      unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt
+      offen'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+  - id: REL-MAUSS-DIPLOMATIE-011
+    from: ORG-DK-FLS-1996
+    to: PER-DE-WERNER-MAUSS
+    type: private_assignment
+    label: Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen
+      nicht bestätigt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL153-1997
+  - id: REL-MAUSS-DIPLOMATIE-012
+    from: ORG-DE-PFISTER-GMBH-1996
+    to: PER-DE-WERNER-MAUSS
+    type: private_assignment
+    label: Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge
+      offen
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL153-1997
+  - id: REL-MAUSS-DIPLOMATIE-013
+    from: ORG-DK-REGIERUNG-1996
+    to: ORG-DE-BUNDESKANZLERAMT
+    type: official_contact
+    label: Schmidbauer bestätigte am 29.01.1997 Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der
+      Bundesregierung tätig
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL153-1997
+  - id: REL-MAUSS-DIPLOMATIE-014
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: ORG-US-BOTSCHAFT-BONN-1997
+    type: official_contact
+    label: Schmidbauer bestätigte am 29.01.1997 vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch
+      und Kartellverhandlungsabsicht bestritten
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL153-1997
+  - id: REL-MAUSS-DIPLOMATIE-015
+    from: ORG-CO-FISCALIA-DELEGADA-ANTIOQUIA
+    to: PER-DE-WERNER-MAUSS
+    type: reported_case_disposition
+    label: EFE berichtet Einstellung des Entführungsverfahrens Mai 1998, aufgehobene Anklage und Ausreisebeschränkung;
+      Originalentscheidung offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-EFE-MAUSS-ARCHIVO-1998
+    - SRC-CO-EFE-MAUSS-PAZ-1998
+    period:
+      start: '1998-05-20'
+  - id: REL-MAUSS-PMT-001
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-DE-WERNER-HOYER
+    type: official_information
+    label: Schmidbauer bestätigte zwei- bis dreimalige Information Hoyers zu Sondierungen im Spätsommer; keine Weisung
+      belegt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PL147-1996
+    - SRC-DE-BT-MAUSS-PL153-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-002
+    from: PER-CO-CARLOS-VILLAMIL-CHAUX
+    to: ORG-CO-METROMED-1996
+    type: reported_advisory_relationship
+    label: Semana referiert Beratungstätigkeit seit Mai 1996; Vertrag und Vergütung offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-SEMANA-VILLAMIL-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-003
+    from: PER-DE-WERNER-MAUSS
+    to: PER-CO-CARLOS-VILLAMIL-CHAUX
+    type: reported_intermediation
+    label: Semana referiert durch Mauss vermittelte Gespräche Villamils mit Schmidbauer; Originalaussage offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-SEMANA-VILLAMIL-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-004
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-BISCHOFSKONFERENZ
+    type: official_coordination
+    label: Regierungsantwort bestätigt Beteiligung an Sondierungen unter Dach der Bischofskonferenzen 1996, keine
+      Federführung 1998
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-FRIEDEN-11345-1998
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-005
+    from: ORG-DE-BISCHOFSKONFERENZ
+    to: ORG-CO-ELN
+    type: peace_mediation
+    label: Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt
+    evidence_level: strong
+    sources:
+    - SRC-CO-PA-X-FRIEDEN-1998
+    period:
+      start: '1998-07-15'
+  - id: REL-MAUSS-PMT-006
+    from: ORG-CO-BISCHOFSKONFERENZ
+    to: ORG-CO-ELN
+    type: peace_mediation
+    label: Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt
+    evidence_level: strong
+    sources:
+    - SRC-CO-PA-X-FRIEDEN-1998
+    period:
+      start: '1998-07-15'
+  - id: REL-MAUSS-PMT-007
+    from: PER-DE-HANS-LANGENDOERFER
+    to: ORG-CO-ELN
+    type: reported_peace_mediation
+    label: Accord beschreibt kirchliche Moderation des Friedensprozesses 1998
+    evidence_level: strong
+    sources:
+    - SRC-CO-ACCORD-14-FRIEDEN
+    period:
+      start: '1998'
+  - id: REL-MAUSS-PMT-008
+    from: PER-DE-EMIL-STEHLE
+    to: ORG-CO-ELN
+    type: reported_peace_mediation
+    label: Accord beschreibt kirchliche Moderation des Friedensprozesses 1998
+    evidence_level: strong
+    sources:
+    - SRC-CO-ACCORD-14-FRIEDEN
+    period:
+      start: '1998'
+  - id: REL-MAUSS-PMT-009
+    from: ORG-DE-SIEMENS-NIXDORF-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-010
+    from: ORG-CO-SIEMENS-SA-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-011
+    from: ORG-DE-BUNDESDRUCKEREI-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_joint_bid
+    label: Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-012
+    from: ORG-FR-SOFREMI-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_bid
+    label: Gericht dokumentiert Bewerbung SOFREMIs; kein Zuschlag im beendeten Verfahren
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-013
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-FR-SAGEM-SA-1997
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-014
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-CO-IBM-1996
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-015
+    from: ORG-FR-SOFREMI-1996
+    to: ORG-INT-POLAROID-CARIBBEAN-1996
+    type: documented_proposed_subcontractor
+    label: In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-016
+    from: ORG-CO-UNISYS-1996
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_bid
+    label: Gericht dokumentiert Bewerbung von Unisys de Colombia
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996'
+  - id: REL-MAUSS-PMT-017
+    from: ORG-CO-RNEC
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_procurement_cancellation
+    label: Resoluciones 6121 und 6578 beenden Verfahren; spätere gerichtliche Einschränkung der Begründung
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '1996-11-29'
+  - id: REL-MAUSS-PMT-018
+    from: ORG-CO-CONSEJO-ESTADO
+    to: PRG-CO-PMT-VERGABE-1996
+    type: documented_judicial_decision
+    label: Sicherheitsbegründung unzureichend belegt, Beendigung wegen Nichterfüllung der Bedingungen aufrechterhalten;
+      keine Fälschung festgestellt
+    evidence_level: established
+    sources:
+    - SRC-CO-CE-17661-2011
+    period:
+      start: '2011-07-26'
+  - id: REL-MAUSS-PMT-019
+    from: ORG-CO-RNEC
+    to: ORG-FR-SAGEM-SA-1997
+    type: official_contract_award
+    label: Vertrag Nr. 197 zur Modernisierung der Identifikationssysteme
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-VERTRAG197-2005
+    period:
+      start: '1997-11-07'
+  - id: REL-MAUSS-PMT-020
+    from: ORG-CO-RNEC
+    to: ORG-CO-CONSORCIO-SAGEM-2005
+    type: official_contract_award
+    label: Zuschlag gemäß Resolución 5421, COP 366.515.160.231 einschließlich Mehrwertsteuer; kein Zahlungsnachweis
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-SAGEM-2005
+    period:
+      start: '2005-12-12'
+  - id: REL-MAUSS-PMT-021
+    from: ORG-US-COGENT-2005
+    to: ORG-CO-RNEC
+    type: documented_legal_challenge
+    label: Erfolglose Tutela gegen Vergabebedingungen; Gericht begründet legitimen IP-Vorsprung; keine generelle
+      Rechtmäßigkeitsfeststellung
+    evidence_level: strong
+    sources:
+    - SRC-CO-COGENT-2005
+    - SRC-CO-RNEC-COGENT-2005
+    period:
+      start: '2005'
+  - id: REL-MAUSS-PMT-022
+    from: ORG-CO-FEDESOFT
+    to: ORG-CO-RNEC
+    type: reported_technical_advice
+    label: RNEC gibt am 01.11.2005 positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband
+      ausreichend für Konkurrenz
+    evidence_level: strong
+    sources:
+    - SRC-CO-RNEC-FEDESOFT-2005
+  - id: REL-MAUSS-PMT-023
+    from: ORG-FR-SAGEM-2005
+    to: ORG-CO-RNEC
+    type: reported_software_rights
+    label: Laut Gutachtenwiedergabe 01.11.2005 verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt;
+      Beginn der Rechteinhaberschaft offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-RNEC-FEDESOFT-2005
+    - SRC-CO-COGENT-2005
+  - id: REL-MAUSS-PMT-024
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-CO-RNEC
+    type: documented_software_platform_supplier
+    label: Verwaltungsakt 2020 und SECOP-Vorstudie 2023 begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige
+      Feststellung der Alternativlosigkeit
+    evidence_level: established
+    sources:
+    - SRC-CO-RNEC-DIREKTVERGABE-2020
+    - SRC-CO-SECOP-RNEC-357549767-2023
+  - id: REL-MAUSS-PMT-025
+    from: ORG-CO-FUNDACION-KARISMA
+    to: ORG-CO-RNEC
+    type: documented_information_request
+    label: Auskunftsersuchen RNEC-E-2024-203754; Bericht über nur teilweise Antwort und Einwand nationaler Sicherheit
+    evidence_level: strong
+    sources:
+    - SRC-CO-KARISMA-CEDULA-2025
+    period:
+      start: '2024-11-25'
+  - id: REL-MAUSS-PMT-026
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-CO-RNEC
+    type: reported_contractual_server_access
+    label: 'Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung; RNEC
+      bestreitet Weitergabe von Bürgerdaten'
+    evidence_level: strong
+    sources:
+    - SRC-CO-KARISMA-CEDULA-2025
+  - id: REL-MAUSS-PMT-027
+    from: ORG-CO-SIC
+    to: ORG-CO-RNEC
+    type: documented_investigation
+    label: SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen;
+      keine Schuld festgestellt
+    evidence_level: established
+    sources:
+    - SRC-CO-SIC-RNEC-2024
+    period:
+      start: '2024-11-08'
+  - id: REL-MAUSS-PMT-028
+    from: ORG-CO-PGN
+    to: ORG-CO-SIC
+    type: documented_disciplinary_decision
+    label: PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen
+      Kompetenzüberschreitungen; Rechtsmittel offen.
+    evidence_level: established
+    sources:
+    - SRC-CO-PGN-SIC-2026
+  - id: REL-MAUSS-PMT-029
+    from: ORG-CO-CORTE-CONSTITUCIONAL
+    to: ORG-CO-SIC
+    type: documented_judicial_decision
+    label: C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung
+      betroffener Verfahren an
+    evidence_level: established
+    sources:
+    - SRC-CO-CC-C293-2026
+    period:
+      start: '2026-09-10'
+  - id: REL-MAUSS-PMT-030
+    from: ORG-CO-SIC
+    to: ORG-CO-RNEC
+    type: reported_case_disposition
+    label: Blu Radio berichtet am 17.09.2026 Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit;
+      Originalbescheid offen
+    evidence_level: strong
+    sources:
+    - SRC-CO-BLU-SIC-ARCHIVO-2026
+    - SRC-CO-CC-C293-2026
+  - id: REL-MAUSS-PMT-031
+    from: ORG-US-ADVENT-INTERNATIONAL
+    to: ORG-FR-SAFRAN-IDSEC-2017
+    type: documented_corporate_acquisition
+    label: Safran bestätigt abgeschlossenen Verkauf seines Identity-&-Security-Geschäfts an Advent für 2,4 Mrd.
+      EUR
+    evidence_level: established
+    sources:
+    - SRC-FR-SAFRAN-ADVENT-2017
+    period:
+      start: '2017-05-31'
+  - id: REL-MAUSS-PMT-032
+    from: ORG-FR-IN-GROUPE
+    to: ORG-FR-IDEMIA-SMART-IDENTITY
+    type: documented_corporate_acquisition
+    label: Französische Regierung bestätigt Erwerb Smart Identity durch staatseigene IN Groupe; keine Aussage zu
+      Public Security
+    evidence_level: established
+    sources:
+    - SRC-FR-IN-GROUPE-IDEMIA-2025
+    period:
+      start: '2025-07-01'
+  - id: REL-MAUSS-PMT-033
+    from: ORG-ES-AMADEUS
+    to: ORG-FR-IDEMIA-PUBLIC-SECURITY
+    type: documented_conditional_acquisition_agreement
+    label: Kaufvertrag 1,2 Mrd. EUR plus mögliche Zusatzleistung; regulatorisch bedingter Vollzug offen
+    evidence_level: established
+    sources:
+    - SRC-ES-CNMV-AMADEUS-IDEMIA-2026
+    period:
+      start: '2026-07-23'
+  - id: REL-DE-AMRI-001
+    from: ORG-DE-LKA-NRW
+    to: PER-DE-VP01-AMRI
+    type: source_handler_relationship
+    label: führte VP01 im Abu-Walaa-Ermittlungskomplex
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-002
+    from: PER-DE-VP01-AMRI
+    to: ORG-DE-LKA-NRW
+    type: intelligence_reporting
+    label: lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-003
+    from: ORG-DE-LKA-NRW
+    to: ORG-DE-GBA
+    type: information_transfer
+    label: übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-004
+    from: ORG-DE-LKA-NRW
+    to: ORG-DE-LFV-NRW
+    type: source_protection_coordination
+    label: vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-005
+    from: ORG-DE-BFV
+    to: ORG-DE-GBA
+    type: intelligence_reporting
+    label: Behördenzeugnis vom 26.01.2016 wurde Grundlage eines GBA-Prüfvorgangs
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2016-01-26'
+  - id: REL-DE-AMRI-006
+    from: ORG-DE-BKA
+    to: ORG-DE-GBA
+    type: risk_assessment
+    label: übermittelte Gefährdungsbewertungen; anfängliche Zweifel an VP01 später zurückgenommen
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    - SRC-DE-AMRI-BT-VP01-2019
+    - SRC-DE-AMRI-BT-VP01-2020
+    period:
+      start: '2016'
+  - id: REL-DE-AMRI-007
+    from: ORG-MA-DGST
+    to: ORG-DE-BKA
+    type: intelligence_reporting
+    label: übermittelte vier Hinweise zu Amri laut BKA-Verbindungsbeamtem
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-008
+    from: ORG-MA-DGST
+    to: ORG-DE-BND
+    type: intelligence_reporting
+    label: übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-009
+    from: ORG-DE-LFV-MV
+    to: ORG-DE-BFV
+    type: incomplete_information_transfer
+    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-MV-KOMMISSION-2021
+    period:
+      start: '2017'
+  - id: REL-DE-AMRI-010
+    from: ORG-DE-LFV-MV
+    to: ORG-DE-LFV-BERLIN
+    type: incomplete_information_transfer
+    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-MV-KOMMISSION-2021
+    period:
+      start: '2017'
+  - id: REL-DE-AMRI-011
+    from: ORG-DE-GENSTA-BERLIN
+    to: ORG-DE-LKA-BERLIN
+    type: investigative_instruction
+    label: beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-JOST-2017
+    period:
+      start: '2016-08-18'
+  - id: REL-DE-AMRI-012
+    from: ORG-DE-STA-BERLIN
+    to: ORG-DE-LKA-BERLIN
+    type: investigative_instruction
+    label: beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-BE-UA-2021
+    period:
+      start: '2017'
+      end: '2018'
+  - id: REL-DE-AMRI-013
+    from: ORG-DE-GENSTA-BERLIN
+    to: PER-TN-ANIS-AMRI
+    type: criminal_investigation
+    label: leitete Ermittlungsverfahren wegen Verdachts des Versuchs der Beteiligung an einem Tötungsdelikt ein;
+      keine Verurteilung
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-JOST-ABSCHLUSS-2017
+    period:
+      start: '2016-03-22'
+  - id: REL-DE-AMRI-014
+    from: ORG-DE-LFV-NRW
+    to: ORG-DE-BFV
+    type: source_protection_coordination
+    label: als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen
+    evidence_level: established
+    sources:
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2015'
+      end: '2016'
+  - id: REL-DE-AMRI-015
+    from: ORG-DE-BFV
+    to: ORG-DE-LKA-BERLIN
+    type: intelligence_reporting
+    label: erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01
+    evidence_level: strong
+    sources:
+    - SRC-DE-AMRI-BT-DGST-2019
+    - SRC-DE-AMRI-GBA-MAT-A-GBA4
+    period:
+      start: '2016-01-26'
+  - id: REL-DE-AMRI-016
+    from: ORG-DE-BFV
+    to: PER-TN-ANIS-AMRI
+    type: intelligence_collection
+    label: führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-BFV-2018
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-017
+    from: ORG-DE-BFV
+    to: ORG-DE-FUSSILET-MOSCHEE
+    type: intelligence_collection
+    label: setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt
+    sources:
+    - SRC-DE-AMRI-BT-MAASSEN-2020
+    - SRC-DE-AMRI-BT-BFV-2020
+    evidence_level: established
+    period:
+      start: '2016'
+      end: '2016'
+  - id: REL-DE-AMRI-018
+    from: ORG-DE-BKA
+    to: ORG-DE-BND
+    type: information_transfer
+    label: unterrichtete den BND erstmals über Amri
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    - SRC-DE-AMRI-BT-1811027
+    evidence_level: established
+    period:
+      start: '2016-02-04'
+  - id: REL-DE-AMRI-019
+    from: ORG-DE-BKA
+    to: ORG-DE-BFV
+    type: information_transfer
+    label: übermittelte ausgelesene Mobiltelefondaten zur Auswertung
+    sources:
+    - SRC-DE-AMRI-PKGR-1812585
+    evidence_level: established
+    period:
+      start: '2016'
+  - id: REL-DE-AMRI-020
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BMJV-AMRI-2017
+    type: policy_coordination
+    label: vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar
+      war
+    sources:
+    - SRC-DE-AMRI-BT-BENAMMAR-2019
+    evidence_level: established
+    period:
+      start: '2017'
 
+  - id: REL-DE-BND-DYNAMIT-001
+    from: ORG-DE-BMVG-1966
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: conditional_production_support
+    label: Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-06-21'
+  - id: REL-DE-BND-DYNAMIT-002
+    from: ORG-DE-PARNASS-FILM-MUENCHEN
+    to: ORG-DE-BMVG-1966
+    type: reported_screenplay_revision
+    label: Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-10'
+  - id: REL-DE-BND-DYNAMIT-003
+    from: ORG-DE-BMVG-1966
+    to: ORG-DE-BND
+    type: reported_consultation
+    label: BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-20'
+  - id: REL-DE-BND-DYNAMIT-004
+    from: ORG-DE-PARNASS-FILM-MUENCHEN
+    to: ORG-DE-BUNDESPRESSEAMT-1966
+    type: documented_diplomatic_intervention_request
+    label: Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-06-28'
+  - id: REL-DE-BND-DYNAMIT-005
+    from: ORG-DE-BUNDESPRESSEAMT-1966
+    to: ORG-DE-AUSWAERTIGES-AMT-1966
+    type: reported_consultation
+    label: Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-07-14'
+  - id: REL-DE-BND-DYNAMIT-006
+    from: ORG-DE-AUSWAERTIGES-AMT-1966
+    to: ORG-DE-BND
+    type: reported_consultation
+    label: AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-09-13'
+  - id: REL-DE-BND-DYNAMIT-007
+    from: PER-DE-THEO-MARIA-WERNER
+    to: ORG-DE-BND
+    type: information_transfer
+    label: Laut Edition übergab Werner ein Drehbuch; Originaldrehbuch nicht auffindbar
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-03'
+  - id: REL-DE-BND-DYNAMIT-008
+    from: PER-DE-REINHARD-GEHLEN
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: conditional_filming_permission
+    label: Gehlen gestattete grundsätzlich Außenaufnahmen, untersagte Aufnahmen im Inneren der Zentrale; tatsächliche Nutzung nicht belegt (Edition Dok. 13)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-12'
+  - id: REL-DE-BND-DYNAMIT-009
+    from: PER-DE-KURT-WEISS-BND
+    to: PER-DE-THEO-MARIA-WERNER
+    type: reported_screenplay_negotiation
+    label: BND-Vermerk vom 28.11.1966 berichtet über Treffen am 23.11.; Werner bestätigte Rangänderungen und erklärte weitere Änderungsbereitschaft
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-23'
+  - id: REL-DE-BND-DYNAMIT-010
+    from: PER-DE-KURT-WEISS-BND
+    to: PER-DE-REINHARD-GEHLEN
+    type: intelligence_reporting
+    label: Weiß berichtete Gehlen über Produktionsgespräch und Unterstützungswünsche (Edition Dok. 17)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-28'
+  - id: REL-DE-BND-DYNAMIT-011
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-US-CIA
+    type: information_transfer
+    label: Weiß informierte CIA-Verbindungsstab über Filmprojekt (Edition S. 18, Dok. 18)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-04'
+  - id: REL-DE-BND-DYNAMIT-012
+    from: ORG-US-CIA
+    to: ORG-DE-BND
+    type: official_response
+    label: US-Dienst bestritt vorherige Kenntnis und berichtete fehlende Unterstützungszusage amerikanischer Stellen; keine nachgewiesene US-Filmhilfe (Edition Dok. 18)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-12-02'
+  - id: REL-DE-BND-DYNAMIT-013
+    from: PER-DE-THEO-MARIA-WERNER
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: producer_role
+    label: Filmportal und BND-Edition nennen Werner als Produzenten der Münchner Parnass-Produktion
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    - SRC-DE-DFF-FILMPORTAL-DYNAMIT
+    evidence_level: established
+    period:
+      start: '1966'
+      end: '1967'
+  - id: REL-DE-BND-DYNAMIT-014
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-DE-BND
+    type: employed_by
+    label: Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    - SRC-DE-STASI-PULLACH-INTERN-1971-ED
+    evidence_level: strong
+    period:
+      start: '1966'
+  - id: REL-DE-BND-DYNAMIT-015
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: employed_by
+    label: Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1952'
+  - id: REL-DE-BND-DYNAMIT-016
+    from: ORG-DE-BND
+    to: ORG-DE-WDR
+    type: reported_filming_permission
+    label: BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1964'
   - id: REL-DE-NSU-HH-GBA-2026-001
     from: ORG-DE-GBA
     to: PRG-DE-HH-NSU-FORSCHUNG
@@ -6866,390 +8351,6 @@ relations:
     period: {start: "2015-01-01"}
     evidence_level: established
     sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
-  - id: REL-DE-AMRI-001
-    from: ORG-DE-LKA-NRW
-    to: PER-DE-VP01-AMRI
-    type: source_handler_relationship
-    label: führte VP01 im Abu-Walaa-Ermittlungskomplex
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    - SRC-DE-AMRI-BT-VP01-2019
-    period:
-      start: '2015'
-      end: '2016'
-  - id: REL-DE-AMRI-002
-    from: PER-DE-VP01-AMRI
-    to: ORG-DE-LKA-NRW
-    type: intelligence_reporting
-    label: lieferte Hinweise zu Amri; Meldungsinhalt nicht automatisch bestätigt
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    - SRC-DE-AMRI-BT-VP01-2019
-    period:
-      start: '2015'
-      end: '2016'
-  - id: REL-DE-AMRI-003
-    from: ORG-DE-LKA-NRW
-    to: ORG-DE-GBA
-    type: information_transfer
-    label: übermittelte Erkenntnisse zu Amri und legte strafrechtlichen Prüfbedarf vor
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    period:
-      start: '2015'
-      end: '2016'
-  - id: REL-DE-AMRI-004
-    from: ORG-DE-LKA-NRW
-    to: ORG-DE-LFV-NRW
-    type: source_protection_coordination
-    label: vereinbarte Weiterleitung an das BfV über den LfV NRW zum Schutz von VP01
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    - SRC-DE-AMRI-BT-DGST-2019
-    period:
-      start: '2015'
-      end: '2016'
-  - id: REL-DE-AMRI-005
-    from: ORG-DE-BFV
-    to: ORG-DE-GBA
-    type: intelligence_reporting
-    label: Behördenzeugnis vom 26.01.2016 wurde Grundlage eines GBA-Prüfvorgangs
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    period:
-      start: '2016-01-26'
-  - id: REL-DE-AMRI-006
-    from: ORG-DE-BKA
-    to: ORG-DE-GBA
-    type: risk_assessment
-    label: übermittelte Gefährdungsbewertungen; anfängliche Zweifel an VP01 später zurückgenommen
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    - SRC-DE-AMRI-BT-VP01-2019
-    - SRC-DE-AMRI-BT-VP01-2020
-    period:
-      start: '2016'
-  - id: REL-DE-AMRI-007
-    from: ORG-MA-DGST
-    to: ORG-DE-BKA
-    type: intelligence_reporting
-    label: übermittelte vier Hinweise zu Amri laut BKA-Verbindungsbeamtem
-    evidence_level: strong
-    sources:
-    - SRC-DE-AMRI-BT-DGST-2019
-    period:
-      start: '2016'
-      end: '2016'
-  - id: REL-DE-AMRI-008
-    from: ORG-MA-DGST
-    to: ORG-DE-BND
-    type: intelligence_reporting
-    label: übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem
-    evidence_level: strong
-    sources:
-    - SRC-DE-AMRI-BT-DGST-2019
-    period:
-      start: '2016'
-      end: '2016'
-  - id: REL-DE-AMRI-009
-    from: ORG-DE-LFV-MV
-    to: ORG-DE-BFV
-    type: incomplete_information_transfer
-    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-MV-KOMMISSION-2021
-    period:
-      start: '2017'
-  - id: REL-DE-AMRI-010
-    from: ORG-DE-LFV-MV
-    to: ORG-DE-LFV-BERLIN
-    type: incomplete_information_transfer
-    label: übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-MV-KOMMISSION-2021
-    period:
-      start: '2017'
-  - id: REL-DE-AMRI-011
-    from: ORG-DE-GENSTA-BERLIN
-    to: ORG-DE-LKA-BERLIN
-    type: investigative_instruction
-    label: beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-JOST-2017
-    period:
-      start: '2016-08-18'
-  - id: REL-DE-AMRI-012
-    from: ORG-DE-STA-BERLIN
-    to: ORG-DE-LKA-BERLIN
-    type: investigative_instruction
-    label: beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-BE-UA-2021
-    period:
-      start: '2017'
-      end: '2018'
-  - id: REL-DE-AMRI-013
-    from: ORG-DE-GENSTA-BERLIN
-    to: PER-TN-ANIS-AMRI
-    type: criminal_investigation
-    label: leitete Ermittlungsverfahren wegen Verdachts des Versuchs der Beteiligung an einem Tötungsdelikt ein; keine Verurteilung
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-JOST-ABSCHLUSS-2017
-    period:
-      start: '2016-03-22'
-
-  - id: REL-DE-AMRI-014
-    from: ORG-DE-LFV-NRW
-    to: ORG-DE-BFV
-    type: source_protection_coordination
-    label: als Vermittler zum BfV im vereinbarten Quellenschutz-Informationsweg vorgesehen
-    evidence_level: established
-    sources:
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    period:
-      start: '2015'
-      end: '2016'
-  - id: REL-DE-AMRI-015
-    from: ORG-DE-BFV
-    to: ORG-DE-LKA-BERLIN
-    type: intelligence_reporting
-    label: erstellte Behördenzeugnis für Berliner Polizei ohne Nennung von VP01
-    evidence_level: strong
-    sources:
-    - SRC-DE-AMRI-BT-DGST-2019
-    - SRC-DE-AMRI-GBA-MAT-A-GBA4
-    period:
-      start: '2016-01-26'
-
-  - id: REL-DE-AMRI-016
-    from: ORG-DE-BFV
-    to: PER-TN-ANIS-AMRI
-    type: intelligence_collection
-    label: führte seit Januar 2016 eine Personenakte; keine Anwerbung als Quelle belegt
-    sources:
-    - SRC-DE-AMRI-PKGR-1812585
-    - SRC-DE-AMRI-BT-BFV-2018
-    evidence_level: established
-    period:
-      start: '2016'
-      end: '2016'
-  - id: REL-DE-AMRI-017
-    from: ORG-DE-BFV
-    to: ORG-DE-FUSSILET-MOSCHEE
-    type: intelligence_collection
-    label: setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt
-    sources:
-    - SRC-DE-AMRI-BT-MAASSEN-2020
-    - SRC-DE-AMRI-BT-BFV-2020
-    evidence_level: established
-    period:
-      start: '2016'
-      end: '2016'
-  - id: REL-DE-AMRI-018
-    from: ORG-DE-BKA
-    to: ORG-DE-BND
-    type: information_transfer
-    label: unterrichtete den BND erstmals über Amri
-    sources:
-    - SRC-DE-AMRI-PKGR-1812585
-    - SRC-DE-AMRI-BT-1811027
-    evidence_level: established
-    period:
-      start: '2016-02-04'
-  - id: REL-DE-AMRI-019
-    from: ORG-DE-BKA
-    to: ORG-DE-BFV
-    type: information_transfer
-    label: übermittelte ausgelesene Mobiltelefondaten zur Auswertung
-    sources:
-    - SRC-DE-AMRI-PKGR-1812585
-    evidence_level: established
-    period:
-      start: '2016'
-  - id: REL-DE-AMRI-020
-    from: ORG-DE-BMI-AMRI-2017
-    to: ORG-DE-BMJV-AMRI-2017
-    type: policy_coordination
-    label: vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war
-    sources:
-    - SRC-DE-AMRI-BT-BENAMMAR-2019
-    evidence_level: established
-    period:
-      start: '2017'
-  - id: REL-DE-BND-DYNAMIT-001
-    from: ORG-DE-BMVG-1966
-    to: ORG-DE-PARNASS-FILM-MUENCHEN
-    type: conditional_production_support
-    label: Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-06-21'
-  - id: REL-DE-BND-DYNAMIT-002
-    from: ORG-DE-PARNASS-FILM-MUENCHEN
-    to: ORG-DE-BMVG-1966
-    type: reported_screenplay_revision
-    label: Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-10-10'
-  - id: REL-DE-BND-DYNAMIT-003
-    from: ORG-DE-BMVG-1966
-    to: ORG-DE-BND
-    type: reported_consultation
-    label: BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-10-20'
-  - id: REL-DE-BND-DYNAMIT-004
-    from: ORG-DE-PARNASS-FILM-MUENCHEN
-    to: ORG-DE-BUNDESPRESSEAMT-1966
-    type: documented_diplomatic_intervention_request
-    label: Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-06-28'
-  - id: REL-DE-BND-DYNAMIT-005
-    from: ORG-DE-BUNDESPRESSEAMT-1966
-    to: ORG-DE-AUSWAERTIGES-AMT-1966
-    type: reported_consultation
-    label: Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-07-14'
-  - id: REL-DE-BND-DYNAMIT-006
-    from: ORG-DE-AUSWAERTIGES-AMT-1966
-    to: ORG-DE-BND
-    type: reported_consultation
-    label: AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-09-13'
-  - id: REL-DE-BND-DYNAMIT-007
-    from: PER-DE-THEO-MARIA-WERNER
-    to: ORG-DE-BND
-    type: information_transfer
-    label: Laut Edition übergab Werner ein Drehbuch; Originaldrehbuch nicht auffindbar
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-10-03'
-  - id: REL-DE-BND-DYNAMIT-008
-    from: PER-DE-REINHARD-GEHLEN
-    to: ORG-DE-PARNASS-FILM-MUENCHEN
-    type: conditional_filming_permission
-    label: Gehlen gestattete grundsätzlich Außenaufnahmen, untersagte Aufnahmen im Inneren der Zentrale; tatsächliche Nutzung nicht belegt (Edition Dok. 13)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-10-12'
-  - id: REL-DE-BND-DYNAMIT-009
-    from: PER-DE-KURT-WEISS-BND
-    to: PER-DE-THEO-MARIA-WERNER
-    type: reported_screenplay_negotiation
-    label: BND-Vermerk vom 28.11.1966 berichtet über Treffen am 23.11.; Werner bestätigte Rangänderungen und erklärte weitere Änderungsbereitschaft
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-11-23'
-  - id: REL-DE-BND-DYNAMIT-010
-    from: PER-DE-KURT-WEISS-BND
-    to: PER-DE-REINHARD-GEHLEN
-    type: intelligence_reporting
-    label: Weiß berichtete Gehlen über Produktionsgespräch und Unterstützungswünsche (Edition Dok. 17)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-11-28'
-  - id: REL-DE-BND-DYNAMIT-011
-    from: PER-DE-KURT-WEISS-BND
-    to: ORG-US-CIA
-    type: information_transfer
-    label: Weiß informierte CIA-Verbindungsstab über Filmprojekt (Edition S. 18, Dok. 18)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-11-04'
-  - id: REL-DE-BND-DYNAMIT-012
-    from: ORG-US-CIA
-    to: ORG-DE-BND
-    type: official_response
-    label: US-Dienst bestritt vorherige Kenntnis und berichtete fehlende Unterstützungszusage amerikanischer Stellen; keine nachgewiesene US-Filmhilfe (Edition Dok. 18)
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1966-12-02'
-  - id: REL-DE-BND-DYNAMIT-013
-    from: PER-DE-THEO-MARIA-WERNER
-    to: ORG-DE-PARNASS-FILM-MUENCHEN
-    type: producer_role
-    label: Filmportal und BND-Edition nennen Werner als Produzenten der Münchner Parnass-Produktion
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    - SRC-DE-DFF-FILMPORTAL-DYNAMIT
-    evidence_level: established
-    period:
-      start: '1966'
-      end: '1967'
-  - id: REL-DE-BND-DYNAMIT-014
-    from: PER-DE-KURT-WEISS-BND
-    to: ORG-DE-BND
-    type: employed_by
-    label: Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    - SRC-DE-STASI-PULLACH-INTERN-1971-ED
-    evidence_level: strong
-    period:
-      start: '1966'
-  - id: REL-DE-BND-DYNAMIT-015
-    from: PER-DE-KURT-WEISS-BND
-    to: ORG-DE-ORGANISATION-GEHLEN
-    type: employed_by
-    label: Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1952'
-  - id: REL-DE-BND-DYNAMIT-016
-    from: ORG-DE-BND
-    to: ORG-DE-WDR
-    type: reported_filming_permission
-    label: BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen
-    sources:
-    - SRC-DE-BND-MFG-DYNAMIT-2014
-    evidence_level: strong
-    period:
-      start: '1964'
 
   - id: REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001
     from: ORG-DE-OVG-NRW
@@ -7259,6 +8360,7 @@ relations:
     period: {start: "2013-06-28"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-OVG-NRW-NSU-1B130712-20130628, SRC-DE-OVG-NRW-NSU-1B137312-20130628]
+
   - id: REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001
     from: ORG-DE-VG-DUESSELDORF
     to: ORG-DE-BFV
@@ -7267,6 +8369,7 @@ relations:
     period: {start: "2015-07-01"}
     evidence_level: established
     sources: [SRC-DE-VGD-NSU-37K440514BDG-20150701]
+
   - id: REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001
     from: ORG-DE-BT-NSU-UA2-2015-2017
     to: ORG-DE-NRW-JUSTIZMINISTERIUM

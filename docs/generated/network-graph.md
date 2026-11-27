@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**795 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**902 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1276,58 +1276,198 @@ flowchart LR
     N_ORG_DE_DIE_WELT["Die Welt"]
     N_ORG_DE_BND -->|"Welt laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_WELT
     N_ORG_DE_BND -->|"Zeit laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_ZEIT
+    N_PER_DE_EBERHARD_ZACHMANN["Eberhard Zachmann"]
+    N_PER_DE_EBERHARD_ZACHMANN -->|"Zachmann leitete das Berliner LfV zur Amtsleitertagung am 31.01.1975."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA 1990: BfV-Präsident bei Amtsleitertagung 31.01.1975; bundesweite Unterrichtung über mutmaßliche Hintergründe Schmückers, spätere Wirkung ungeklärt."| N_ORG_DE_BFV
+    N_PER_DE_VOLKER_VON_WEINGRABER["Volker von Weingraber"]
+    N_PER_DE_VOLKER_VON_WEINGRABER -->|"UA S.23–24: Quelle übergab dem Berliner LfV wesentliches mutmaßliches Tatbeweismittel im Fall Schmücker."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA S.23–24,35: wesentliches Beweismittel nicht an Strafverfolgung übergeben; Rechtmäßigkeit umstritten, Projektgruppe kritisiert unterbliebene Untersuchung."| N_ORG_DE_STA_BERLIN
+    N_PER_DE_CHRISTIAN_HAIN["Christian Hain (V-Mann Flach)"]
+    N_PER_DE_CHRISTIAN_HAIN -->|"UA S.36–38: V-Mann übermittelte Teile der Verteidigerstrategie; tatsächliche Weiterverwertung durch Strafverfolgung ungeklärt."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_ALEXANDER_VON_STAHL["Alexander von Stahl"]
+    N_ORG_DE_BERLIN_JUSTIZSENAT["Berliner Senatsverwaltung für Justiz"]
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"Senatsdirektor bzw. Staatssekretär 1975–1989."| N_ORG_DE_BERLIN_JUSTIZSENAT
+    N_ORG_DE_BGH["Bundesgerichtshof"]
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"UA S.35, Anlage 16 bewertet Abklärung möglicher Revisionsgründe 1980 als Einflussnahmeversuch; von Stahl bestritt diese Interpretation."| N_ORG_DE_BGH
     N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
-    N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
-    N_ORG_DE_GBA -->|"Beantragte Akteneinsicht bis März 2026 nicht bewilligt; am 23.11.2026 laut Veit Vergleichsverhandlungen; Beginn der Ablehnung und Ende des Konflikts nicht belegt"| N_PRG_DE_HH_NSU_FORSCHUNG
-    N_ORG_DE_STA_KOELN["Staatsanwaltschaft Köln"]
-    N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
-    N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN
-    N_ORG_DE_BFV -->|"Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"| N_PER_DE_LOTHAR_LINGEN
-    N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
-    N_PER_DE_LOTHAR_LINGEN -->|"Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"| N_ORG_DE_TLFV
-    N_ORG_DE_BFV -->|"Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"| N_CASE_DE_NSU_AKTEN_2011
-    N_ORG_DE_MAD["Militärischer Abschirmdienst"]
-    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"| N_ORG_DE_BFV
-    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"| N_ORG_DE_TLFV
-    N_ORG_DE_NSU["Nationalsozialistischer Untergrund (NSU)"]
-    N_ORG_DE_GBA -->|"Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"| N_ORG_DE_NSU
-    N_PER_DE_KLAUS_DIETER_FRITSCHE["Klaus-Dieter Fritsche"]
-    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (BMI)"]
-    N_PER_DE_KLAUS_DIETER_FRITSCHE -->|"Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"| N_ORG_DE_BMI_AMRI_2017
-    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
-    N_PER_DE_THOMAS_STARKE["Thomas Starke (VP 562)"]
-    N_ORG_DE_LKA_BERLIN -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
-    N_ORG_DE_GBA -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_LKA_BERLIN
-    N_DOC_DE_NSU_WERNER_ASSERVATE_2014["Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"]
-    N_ORG_DE_GBA -->|"Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"| N_DOC_DE_NSU_WERNER_ASSERVATE_2014
-    N_ORG_DE_STA_KARLSRUHE["Staatsanwaltschaft Karlsruhe"]
-    N_ORG_DE_STA_KARLSRUHE -->|"Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"| N_ORG_DE_GBA
-    N_ORG_DE_ST_LKA["Landeskriminalamt Sachsen-Anhalt"]
-    N_DOC_DE_NSU_ST_DATENTRAEGER_2014["In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"]
-    N_ORG_DE_ST_LKA -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
-    N_ORG_DE_ST_LFV["Verfassungsschutzbehörde Sachsen-Anhalt"]
-    N_ORG_DE_ST_LFV -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
-    N_ORG_DE_GBA -->|"Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"| N_PER_DE_THOMAS_STARKE
-    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
-    N_DOC_DE_NSU_BERLIN_AKTEN_2012["57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"]
-    N_ORG_DE_LFV_BERLIN -->|"Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"| N_DOC_DE_NSU_BERLIN_AKTEN_2012
-    N_ORG_DE_STA_GERA["Staatsanwaltschaft Gera"]
-    N_ORG_DE_STA_GERA -->|"Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"| N_ORG_DE_TLFV
-    N_ORG_DE_TLFV -->|"Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"| N_ORG_DE_STA_GERA
-    N_DOC_DE_NSU_G10_ANLAGENORDNER_2012["Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"]
-    N_ORG_DE_BFV -->|"Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"| N_DOC_DE_NSU_G10_ANLAGENORDNER_2012
-    N_ORG_DE_BMI_AMRI_2017 -->|"Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"| N_ORG_DE_BFV
-    N_ORG_DE_BMI_AMRI_2017 -->|"Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."| N_ORG_DE_BFV
-    N_DOC_DE_NSU_MAD_AKTEN_2012["17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"]
-    N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
-    N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
-    N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
-    N_ORG_DE_TLKA["Thüringer Landeskriminalamt"]
-    N_ORG_DE_TLFV -->|"Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"| N_ORG_DE_TLKA
-    N_ORG_DE_TLFV -->|"Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2; in Kraft 18.08.2012 bis 31.12.2014 (§ 33; Art. 11 des Änderungsgesetzes 2014)"| N_ORG_DE_TLKA
-    N_ORG_DE_TH_AFV_2015["Thüringer Amt für Verfassungsschutz (ab 2015)"]
-    N_ORG_DE_TH_AFV_2015 -->|"Gesetz 2014 schreibt ab 01.01.2015 Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"| N_ORG_DE_TLKA
-    N_ORG_DE_TH_AFV_2015 -->|"Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"| N_ORG_DE_TLFV
+    N_PER_DE_ALEXANDER_VON_STAHL -->|"Generalbundesanwalt 1990–1993, keine konkrete Weisung im Nonne-Verfahren aus dieser Rolle ableitbar."| N_ORG_DE_GBA
+    N_ORG_DE_STA_BERLIN -->|"Senat bestätigt Ermittlungsverfahren gegen LfV-Verantwortliche ab 03.07.1991; Ausgang offen."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_SIEGFRIED_NONNE["Siegfried Nonne"]
+    N_ORG_DE_LFV_HESSEN -->|"Regierung 1992: LfV-Beamte hatten im August 1991 mit Zustimmung Nonnes Zugang zu seinen Räumen vor späterer Beweissicherung."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_LFV_HESSEN -->|"Amtlich bestätigte Informationsübermittlung am 07.08.1991; zunächst kein gesondertes Verfahren gegen Nonne."| N_ORG_DE_GBA
+    N_ORG_DE_LFV_HESSEN -->|"BT-Drs. 13/754 F15: BKA erhielt im Dezember 1991 Teile des LfV-Vorgangs U 2."| N_ORG_DE_BKA
+    N_ORG_DE_GBA -->|"Anklage gegen Nonne am 27.06.1994; Verfahren später ohne Schuldspruch eingestellt."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_OLG_FRANKFURT["Oberlandesgericht Frankfurt am Main"]
+    N_ORG_DE_OLG_FRANKFURT -->|"Einstellung nach Kronzeugenregelung am 20.09.1994, amtlich berichtet."| N_PER_DE_SIEGFRIED_NONNE
+    N_ORG_DE_STA_WIESBADEN["Staatsanwaltschaft Wiesbaden"]
+    N_ORG_DE_GBA -->|"Regierung bestätigt vollständigen Aktenzugang erst nach Abschluss Nonne-Verfahren (1994), begründet mit Untersuchungszweck; tatsächliches Zugangsdatum offen."| N_ORG_DE_STA_WIESBADEN
+    N_PER_DE_CHRISTOPH_SEIDLER["Christoph Seidler"]
+    N_ORG_DE_BGH -->|"Regierung bestätigt BGH-Beschluss 16.01.1997 zur Haftbefehlsaufhebung; Nonne-Aussage ohne zusätzliche objektive Indizien nicht ausreichend."| N_PER_DE_CHRISTOPH_SEIDLER
+    N_PER_DE_ULRICH_SCHMUECKER["Ulrich Schmücker"]
+    N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ -->|"UA S.11–12: längerfristige Beziehung seit 1972; Informationsakte Kette, 15.03.1973 Tarnname und Informantenbezeichnung; formeller V-Mann-Status bestritten."| N_PER_DE_ULRICH_SCHMUECKER
+    N_PER_DE_MICHAEL_GRUENHAGEN["Michael Grünhagen"]
+    N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11–12: Grünhagen war LfV-Ansprechpartner Schmückers; Vorwürfe eines Fluchtplans bestritt er."| N_PER_DE_ULRICH_SCHMUECKER
+    N_PER_DE_MICHAEL_GRUENHAGEN -->|"UA S.11: Verfassungsschutzbeamter, Ansprechpartner Schmücker und Führer der Quellen Wien und Flach."| N_ORG_DE_BERLIN_VERFASSUNGSSCHUTZ
+    N_PER_DE_ALFRED_HERRHAUSEN["Alfred Herrhausen"]
+    N_ORG_DE_GBA -->|"BT-Drs.13/754: Generalbundesanwalt führte Ermittlungen zum Mord an Herrhausen; Auskunft vom 09.03.1995."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_DE_HUK_VERBAND["HUK-Verband (historisch)"]
+    N_PER_DE_WERNER_MAUSS["Werner Mauss"]
+    N_ORG_DE_HUK_VERBAND -->|"UA: seit 1968 Versicherungsverbandsvertrag, 1981 schriftlich mit Auftrags- und Beendigungsrecht für private Ermittlungsaufträge, nicht für staatliche Strafverfahren."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_SACHVERSICHERER_VERBAND["Verband der Sachversicherer (historisch)"]
+    N_ORG_DE_SACHVERSICHERER_VERBAND -->|"UA: seit 1968 Versicherungsverbandsvertrag; schriftlicher Vertrag 05.03.1981 mit Auftragsrecht und Spesenregelung."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"Bundesregierung bestätigt BKA-Vereinbarungen 1972, 1976 und 1981; UA beschreibt BKA-Koordination privat finanzierter Tätigkeit. Keine hoheitliche Befugnis."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_HUK_VERBAND -->|"UA beschreibt Abrede: Versicherungswirtschaft finanziert, BKA koordiniert Einsätze innerhalb vereinbarter Grenzen."| N_ORG_DE_BKA
+    N_ORG_DE_SACHVERSICHERER_VERBAND -->|"UA beschreibt Abrede über privat finanzierte, BKA-koordinierte Einsätze; keine Weisung an Polizei aus Versicherungsvertrag abgeleitet."| N_ORG_DE_BKA
+    N_ORG_DE_MANNHEIMER_VERSICHERUNG["Mannheimer Versicherung AG"]
+    N_ORG_DE_MANNHEIMER_VERSICHERUNG -->|"UA: bedingtes Erfolgshonorar von 700.000 DM im Fall Düe (05.08.1982); erste 350.000 DM zzgl. MwSt ausgezahlt, weitere Anrechnungen und gesonderte Spesen. Kein Nachweis falscher Beweismittel."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"Bundesregierung 1990: 174.000 DM Kostenerstattung, 8.946,25 DM für zwei Fälle ohne Zusammenarbeit; weitere 100.941,77 DM und 1.000 CHF (1970–Anfang 1976) mit nicht mehr zuordenbarem Zweck."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BKA -->|"UA S.162: Verpflichtung nach Verpflichtungsgesetz erst 06.08.1981; keine Amtsträgereigenschaft."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_LKA_NIEDERSACHSEN["Landeskriminalamt Niedersachsen"]
+    N_ORG_DE_LKA_NIEDERSACHSEN -->|"UA S.162: Verpflichtungen am 11.03.1982 und 20.10.1983."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_NI_VERFASSUNGSSCHUTZ -->|"UA S.180: Zusammenarbeit Operation Neuland etwa 1974–1978; keine belegte Beteiligung Mauss am tatsächlichen Celler Anschlag."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BND -->|"Bundesregierung bestätigt Vertrag 31.08.1979 zur Informationsbeschaffung über Terrorismus; kein Fondsvertrag."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_OFD_KOBLENZ["Oberfinanzdirektion Koblenz"]
+    N_ORG_DE_BKA -->|"BT-Drs.13/8130 F5: Kontakte im Zusammenhang mit Mauss, laut Regierung zur Grundabdeckung; keine bestätigte unzulässige Steuerbegünstigung."| N_ORG_DE_OFD_KOBLENZ
+    N_ORG_DE_FA_ESSEN_SUED["Finanzamt Essen-Süd"]
+    N_ORG_DE_BND -->|"BT-Drs.13/8130 F6: Vereinbarung pauschalierter Besteuerung des Honorars aus dem Vertrag 1979; Datum der Steuervereinbarung und Steuersatz nicht genannt."| N_ORG_DE_FA_ESSEN_SUED
+    N_ORG_DE_LG_BOCHUM["Landgericht Bochum"]
+    N_ORG_DE_LG_BOCHUM -->|"Urteil LG Bochum vom 05.10.2017 im Steuerverfahren 2019 mitsamt Feststellungen aufgehoben; keine rechtskräftige Verurteilung."| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_BGH -->|"BGH 1 StR 347/18: Urteil vom 10.01.2019 hebt landgerichtliches Urteil und Feststellungen auf."| N_ORG_DE_LG_BOCHUM
+    N_ORG_DE_OLG_HAMM["Oberlandesgericht Hamm"]
+    N_ORG_DE_OLG_HAMM -->|"OLG 4 Ws 143/24 bestätigt Aussetzung des Steuerstrafverfahrens bis Klärung der Besteuerung; keine Feststellung der Fondsherkunft."| N_ORG_DE_LG_BOCHUM
+    N_ORG_DE_FG_DUESSELDORF["Finanzgericht Düsseldorf"]
+    N_ORG_DE_FG_DUESSELDORF -->|"OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung 2025, Originalbeschluss offen."| N_PER_DE_WERNER_MAUSS
+    N_ORG_INT_MAUSS_RESERVE_1985["Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985)"]
+    N_PER_DE_WERNER_MAUSS -->|"1985 errichtete Treuhandreserve laut gerichtlicher Wiedergabe aufgehobener Feststellungen und Recherche; endgültiges Eigentum offen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Gerichtszeugnis 2017 laut dpa: internationale Reserve, unter anderem USA als behauptete Geldgeber; kein Nachweis konkreter Einzahlungen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Amtliche Auskunft 18.01.2017: behauptete Existenz erst seit 08.09.2016 bekannt, keine nachvollziehbaren älteren Akten; keine Bestätigung der Fondsstruktur"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_PA_GENEROSO_GUERRA["Generoso Guerra"]
+    N_PER_PA_GENEROSO_GUERRA -->|"Laut dokumentengestützter Recherche Vertreter der im Vertrag bezeichneten westlichen Sicherheitsbehörden; Originalurkunde offen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_ORG_PA_UBS_1985["UBS Panama (berichtete historische Bankverbindung)"]
+    N_ORG_INT_MAUSS_RESERVE_1985 -->|"Bankverbindung laut Recherche 2018 (Artikel schreibt USB); keine selbst eingesehenen Kontoauszüge"| N_ORG_PA_UBS_1985
+    N_PER_CO_DARIO_CASTRILLON_HOYOS["Darío Castrillón Hoyos"]
+    N_PER_CO_DARIO_CASTRILLON_HOYOS -->|"Schreiben 2013 zur Fondsgeschichte laut Recherche 2018; kein Beleg eigener Einzahlung"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_CO_JESUS_EMILIO_JARAMILLO["Jesús Emilio Jaramillo"]
+    N_PER_CO_JESUS_EMILIO_JARAMILLO -->|"Beteiligung an Fondsentstehung laut 2018 referiertem Kardinalsschreiben; nicht als Kapitalgeber nachgewiesen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Kontakt 1998 laut 2013 verfasstem, 2018 referiertem Schreiben"| N_PER_CO_DARIO_CASTRILLON_HOYOS
+    N_PER_CO_ERNESTO_SAMPER["Ernesto Samper"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Gespräch im Zusammenhang mit Friedenssondierungen, bestätigt in BT-Drs. 13/6953"| N_PER_CO_ERNESTO_SAMPER
+    N_PER_DE_WERNER_MAUSS -->|"Teilnahme am Gespräch Schmidbauer–Samper amtlich bestätigt"| N_PER_CO_ERNESTO_SAMPER
+    N_ORG_DE_BOTSCHAFT_BOGOTA["Deutsche Botschaft Bogotá"]
+    N_ORG_DE_BOTSCHAFT_BOGOTA -->|"Ausstellung eines konsularischen Schutzbriefes laut amtlicher Antwort; kein Honorarvertrag daraus ableitbar"| N_PER_DE_WERNER_MAUSS
+    N_PER_DE_WERNER_MAUSS -->|"Schreiben vom 05.11.1996 laut amtlicher Antwort unbeantwortet; kein Nachweis fortbestehenden Auftrags"| N_ORG_DE_BND
+    N_ORG_DE_BMZ["Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)"]
+    N_ORG_CO_METRO_MEDELLIN["Metroprojekt Medellín"]
+    N_ORG_DE_BMZ -->|"1997 amtlich berichtete Kreditmittel von 100 Mio. DM für das Metroprojekt; Bereitstellungszeitpunkt offen, kein Mauss-Fondsbezug"| N_ORG_CO_METRO_MEDELLIN
+    N_PER_ICIJ_BURGHAGEN_11003187["Hermann Alfred Volker Burghagen"]
+    N_ORG_PA_TRANSACTA_VALORES["Transacta Valores S.A."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen"| N_ORG_PA_TRANSACTA_VALORES
+    N_ORG_PA_BOREAL_MANAGEMENT["Boreal Management Corp."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_ORG_PA_NOLILANE_NV["Nolilane NV Inc."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen"| N_ORG_PA_NOLILANE_NV
+    N_ORG_PA_ANYSBERG_INTERNATIONAL["Anysberg International Corp."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis; Gründungsjahr der Gesellschaft 2014, Beginn der Rolle offen"| N_ORG_PA_ANYSBERG_INTERNATIONAL
+    N_ORG_PA_MOSSACK_FONSECA["Mossack Fonseca"]
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1985, Beginn der Rolle offen"| N_ORG_PA_TRANSACTA_VALORES
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 1992, Beginn der Rolle offen"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil; Gründungsjahr der Gesellschaft 2005, Beginn der Rolle offen"| N_ORG_PA_NOLILANE_NV
+    N_PER_DE_WERNER_MAUSS -->|"2016 – NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_PER_DE_WERNER_MAUSS -->|"2016 berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung"| N_ORG_PA_ANYSBERG_INTERNATIONAL
+    N_ORG_AR_REGIERUNGSSTELLEN_1996["Argentinische Regierungsstellen (1996)"]
+    N_ORG_AR_REGIERUNGSSTELLEN_1996 -->|"Schmidbauer bestätigte Gespräche mit argentinischen Regierungsstellen im Techint-Fall; keine Zusage konkreter Zahlungen belegt"| N_PER_DE_BERND_SCHMIDBAUER
+    N_ORG_AR_TECHINT_1996["Techint (argentinische Firma, 1996)"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Amtlich bestätigte Teilnahme Techints an Gesprächen mit Schmidbauer und argentinischen Regierungsstellen; finanzielle Vorschläge bestritten"| N_ORG_AR_TECHINT_1996
+    N_ORG_AR_TECHINT_1996 -->|"Schmidbauer bestätigte bilaterale Gespräche und berichtete Bitte Techints um Vermittlung; Auftragshonorar und konkrete Zahlungen nicht belegt"| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_MANNESMANN_1995["Mannesmann (historisch, 1995)"]
+    N_ORG_DE_MANNESMANN_1995 -->|"Abgestimmte Schreiben im Fall Ruttnig laut Schmidbauer, Mannesmann mit Vollmacht der Angehörigen"| N_ORG_DE_BUNDESKANZLERAMT
+    N_ORG_DE_AUSWAERTIGES_AMT_1996["Auswärtiges Amt (historisch, 1995–1996)"]
+    N_ORG_DE_MANNESMANN_1995 -->|"Abstimmung des Unternehmensschreibens mit Auswärtigem Amt und Kanzleramt laut Regierungsantwort"| N_ORG_DE_AUSWAERTIGES_AMT_1996
+    N_ORG_CO_AUSSENMINISTERIUM["Kolumbianisches Außenministerium"]
+    N_ORG_DE_BOTSCHAFT_BOGOTA -->|"Deutsche Botschaft übergab gemeinsam mit österreichischen Vertretern Schreiben Mannesmanns und Schmidbauers an kolumbianisches Außenministerium"| N_ORG_CO_AUSSENMINISTERIUM
+    N_ORG_AT_BOTSCHAFT_BOGOTA["Österreichische Botschaft Bogotá"]
+    N_ORG_AT_BOTSCHAFT_BOGOTA -->|"Österreichische Botschaftsvertreter wirkten laut Regierungsantwort an Übergabe der Schreiben mit"| N_ORG_CO_AUSSENMINISTERIUM
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Anregung des Kanzleramts an das Auswärtige Amt zur Unterstützung des Ehepaars Mauss, F51"| N_ORG_DE_AUSWAERTIGES_AMT_1996
+    N_ORG_DE_AUSWAERTIGES_AMT_1996 -->|"Amtliche Weisung an Botschaft Bogotá zur Unterstützung Mauss'; Berichte an AA und Kanzleramt"| N_ORG_DE_BOTSCHAFT_BOGOTA
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Schmidbauer 11.12.1996 (PlPr 13/147, S. 13292, F30): Kanzler allgemein über Geiselbefreiung und Friedenssondierungen unterrichtet; Mauss laut Schmidbauer nicht erwähnt, konkrete Einzelweisungen nicht bestätigt; Einzelübermittler und Zeitpunkt offen"| N_PER_DE_HELMUT_KOHL
+    N_ORG_DK_FLS_1996["FLS (dänische Firma, 1996)"]
+    N_ORG_DK_FLS_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der genannten Unternehmen; behauptete Lösegeldzahlungen nicht bestätigt"| N_PER_DE_WERNER_MAUSS
+    N_ORG_DE_PFISTER_GMBH_1996["Pfister GmbH (historisch, 1996)"]
+    N_ORG_DE_PFISTER_GMBH_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Tätigkeit Mauss' im Auftrag der in Frage 1 genannten Unternehmen; konkrete Verträge offen"| N_PER_DE_WERNER_MAUSS
+    N_ORG_DK_REGIERUNG_1996["Dänische Regierung (1996/97)"]
+    N_ORG_DK_REGIERUNG_1996 -->|"Schmidbauer bestätigte am 29.01.1997 Kontakt zur dänischen Regierung im FLS-Fall; Mauss bereits vor Einschalten der Bundesregierung tätig"| N_ORG_DE_BUNDESKANZLERAMT
+    N_ORG_US_BOTSCHAFT_BONN_1997["US-Botschaft Bonn (historisch, 1997)"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte am 29.01.1997 vertrauliche Gespräche mit Vertretern der US-Botschaft zu Kolumbien; Besuch und Kartellverhandlungsabsicht bestritten"| N_ORG_US_BOTSCHAFT_BONN_1997
+    N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA["Fiscalía Delegada ante el Tribunal Superior de Antioquia"]
+    N_ORG_CO_FISCALIA_DELEGADA_ANTIOQUIA -->|"EFE berichtet Einstellung des Entführungsverfahrens Mai 1998, aufgehobene Anklage und Ausreisebeschränkung; Originalentscheidung offen"| N_PER_DE_WERNER_MAUSS
+    N_PER_DE_WERNER_HOYER["Werner Hoyer"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Schmidbauer bestätigte zwei- bis dreimalige Information Hoyers zu Sondierungen im Spätsommer; keine Weisung belegt"| N_PER_DE_WERNER_HOYER
+    N_PER_CO_CARLOS_VILLAMIL_CHAUX["Carlos Villamil Chaux"]
+    N_ORG_CO_METROMED_1996["Metromed (historisch, 1996)"]
+    N_PER_CO_CARLOS_VILLAMIL_CHAUX -->|"Semana referiert Beratungstätigkeit seit Mai 1996; Vertrag und Vergütung offen"| N_ORG_CO_METROMED_1996
+    N_PER_DE_WERNER_MAUSS -->|"Semana referiert durch Mauss vermittelte Gespräche Villamils mit Schmidbauer; Originalaussage offen"| N_PER_CO_CARLOS_VILLAMIL_CHAUX
+    N_ORG_DE_BISCHOFSKONFERENZ["Deutsche Bischofskonferenz"]
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Regierungsantwort bestätigt Beteiligung an Sondierungen unter Dach der Bischofskonferenzen 1996, keine Federführung 1998"| N_ORG_DE_BISCHOFSKONFERENZ
+    N_ORG_CO_ELN["Ejército de Liberación Nacional (ELN)"]
+    N_ORG_DE_BISCHOFSKONFERENZ -->|"Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt"| N_ORG_CO_ELN
+    N_ORG_CO_BISCHOFSKONFERENZ["Kolumbianische Bischofskonferenz"]
+    N_ORG_CO_BISCHOFSKONFERENZ -->|"Kirchliche Vermittlung des Abkommens 15.07.1998; keine Fondsfinanzierung belegt"| N_ORG_CO_ELN
+    N_PER_DE_HANS_LANGENDOERFER["Hans Langendörfer"]
+    N_PER_DE_HANS_LANGENDOERFER -->|"Accord beschreibt kirchliche Moderation des Friedensprozesses 1998"| N_ORG_CO_ELN
+    N_PER_DE_EMIL_STEHLE["Emil Stehle"]
+    N_PER_DE_EMIL_STEHLE -->|"Accord beschreibt kirchliche Moderation des Friedensprozesses 1998"| N_ORG_CO_ELN
+    N_ORG_DE_SIEMENS_NIXDORF_1996["Siemens Nixdorf AG (historisch, 1996)"]
+    N_PRG_CO_PMT_VERGABE_1996["PMT-Vergabeverfahren 1995/96"]
+    N_ORG_DE_SIEMENS_NIXDORF_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_SIEMENS_SA_1996["Siemens SA (Bieter, 1996)"]
+    N_ORG_CO_SIEMENS_SA_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_DE_BUNDESDRUCKEREI_1996["Bundesdruckerei (historisch, 1996)"]
+    N_ORG_DE_BUNDESDRUCKEREI_1996 -->|"Teil der gemeinsamen unión temporal im 1996 beendeten Vergabeverfahren; kein Zuschlag belegt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_FR_SOFREMI_1996["SOFREMI (Bieter, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"Gericht dokumentiert Bewerbung SOFREMIs; kein Zuschlag im beendeten Verfahren"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_FR_SAGEM_SA_1997["Sagem SA (historisch, 1996/97)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_FR_SAGEM_SA_1997
+    N_ORG_CO_IBM_1996["IBM de Colombia (historisch, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_CO_IBM_1996
+    N_ORG_INT_POLAROID_CARIBBEAN_1996["Polaroid Caribbean Corporation (historisch, 1996)"]
+    N_ORG_FR_SOFREMI_1996 -->|"In Bewerbung als Subunternehmer benannt, keine tatsächliche Beauftragung belegt"| N_ORG_INT_POLAROID_CARIBBEAN_1996
+    N_ORG_CO_UNISYS_1996["Unisys de Colombia SA (historisch, 1996)"]
+    N_ORG_CO_UNISYS_1996 -->|"Gericht dokumentiert Bewerbung von Unisys de Colombia"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_RNEC["Registraduría Nacional del Estado Civil (RNEC)"]
+    N_ORG_CO_RNEC -->|"Resoluciones 6121 und 6578 beenden Verfahren; spätere gerichtliche Einschränkung der Begründung"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_CONSEJO_ESTADO["Consejo de Estado (Kolumbien)"]
+    N_ORG_CO_CONSEJO_ESTADO -->|"Sicherheitsbegründung unzureichend belegt, Beendigung wegen Nichterfüllung der Bedingungen aufrechterhalten; keine Fälschung festgestellt"| N_PRG_CO_PMT_VERGABE_1996
+    N_ORG_CO_RNEC -->|"Vertrag Nr. 197 zur Modernisierung der Identifikationssysteme"| N_ORG_FR_SAGEM_SA_1997
+    N_ORG_CO_CONSORCIO_SAGEM_2005["Consorcio Sagem (Vergabe 2005)"]
+    N_ORG_CO_RNEC -->|"Zuschlag gemäß Resolución 5421, COP 366.515.160.231 einschließlich Mehrwertsteuer; kein Zahlungsnachweis"| N_ORG_CO_CONSORCIO_SAGEM_2005
+    N_ORG_US_COGENT_2005["Cogent Inc. (historisch, 2005)"]
+    N_ORG_US_COGENT_2005 -->|"Erfolglose Tutela gegen Vergabebedingungen; Gericht begründet legitimen IP-Vorsprung; keine generelle Rechtmäßigkeitsfeststellung"| N_ORG_CO_RNEC
+    N_ORG_CO_FEDESOFT["Federación Colombiana de la Industria del Software (FEDESOFT)"]
+    N_ORG_CO_FEDESOFT -->|"RNEC gibt am 01.11.2005 positives Gutachten zu Vergabebedingungen wieder; Quellcode fehlt, Lizenzen laut Verband ausreichend für Konkurrenz"| N_ORG_CO_RNEC
+    N_ORG_FR_SAGEM_2005["Sagem (AFIS-Rechteinhaber, 2005)"]
+    N_ORG_FR_SAGEM_2005 -->|"Laut Gutachtenwiedergabe 01.11.2005 verblieben Suchalgorithmen bei Sagem; staatliche Daten und Nutzungsrechte getrennt; Beginn der Rechteinhaberschaft offen"| N_ORG_CO_RNEC
+    N_ORG_CO_IDEMIA_900060799["IDEMIA Identity & Security Sucursal Colombia"]
+    N_ORG_CO_IDEMIA_900060799 -->|"Verwaltungsakt 2020 und SECOP-Vorstudie 2023 begründen Direktvergaben mit exklusiven IP-Rechten; keine unabhängige Feststellung der Alternativlosigkeit"| N_ORG_CO_RNEC
+    N_ORG_CO_FUNDACION_KARISMA["Fundación Karisma"]
+    N_ORG_CO_FUNDACION_KARISMA -->|"Auskunftsersuchen RNEC-E-2024-203754; Bericht über nur teilweise Antwort und Einwand nationaler Sicherheit"| N_ORG_CO_RNEC
+    N_ORG_CO_IDEMIA_900060799 -->|"Karisma zitiert Behördenantwort vom 08.01.2025: vertraglicher Serverzugang mit Vertraulichkeitsvereinbarung; RNEC bestreitet Weitergabe von Bürgerdaten"| N_ORG_CO_RNEC
+    N_ORG_CO_SIC["Superintendencia de Industria y Comercio (SIC)"]
+    N_ORG_CO_SIC -->|"SIC eröffnet Verfahren gegen neun RNEC-Mitarbeiter wegen mutmaßlicher Nichtbefolgung von Auskunftsanforderungen; keine Schuld festgestellt"| N_ORG_CO_RNEC
+    N_ORG_CO_PGN["Procuraduría General de la Nación (Kolumbien)"]
+    N_ORG_CO_PGN -->|"PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen Kompetenzüberschreitungen; Rechtsmittel offen."| N_ORG_CO_SIC
+    N_ORG_CO_CORTE_CONSTITUCIONAL["Corte Constitucional de Colombia"]
+    N_ORG_CO_CORTE_CONSTITUCIONAL -->|"C-293/26 begrenzt Wettbewerbsaufsicht gegenüber autonomen Verfassungsorganen und ordnet Beendigung/Weiterleitung betroffener Verfahren an"| N_ORG_CO_SIC
+    N_ORG_CO_SIC -->|"Blu Radio berichtet am 17.09.2026 Einstellung des Verfahrens gegen neun RNEC-Mitarbeiter wegen fehlender Zuständigkeit; Originalbescheid offen"| N_ORG_CO_RNEC
+    N_ORG_US_ADVENT_INTERNATIONAL["Advent International"]
+    N_ORG_FR_SAFRAN_IDSEC_2017["Safran Identity & Security (veräußertes Geschäft, 2017)"]
+    N_ORG_US_ADVENT_INTERNATIONAL -->|"Safran bestätigt abgeschlossenen Verkauf seines Identity-&-Security-Geschäfts an Advent für 2,4 Mrd. EUR"| N_ORG_FR_SAFRAN_IDSEC_2017
+    N_ORG_FR_IN_GROUPE["IN Groupe"]
+    N_ORG_FR_IDEMIA_SMART_IDENTITY["IDEMIA Smart Identity"]
+    N_ORG_FR_IN_GROUPE -->|"Französische Regierung bestätigt Erwerb Smart Identity durch staatseigene IN Groupe; keine Aussage zu Public Security"| N_ORG_FR_IDEMIA_SMART_IDENTITY
+    N_ORG_ES_AMADEUS["Amadeus IT Group"]
+    N_ORG_FR_IDEMIA_PUBLIC_SECURITY["IDEMIA Public Security"]
+    N_ORG_ES_AMADEUS -->|"Kaufvertrag 1,2 Mrd. EUR plus mögliche Zusatzleistung; regulatorisch bedingter Vollzug offen"| N_ORG_FR_IDEMIA_PUBLIC_SECURITY
     N_ORG_DE_LKA_NRW["Landeskriminalamt Nordrhein-Westfalen"]
     N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]
     N_ORG_DE_LKA_NRW -->|"führte VP01 im Abu-Walaa-Ermittlungskomplex"| N_PER_DE_VP01_AMRI
@@ -1342,10 +1482,11 @@ flowchart LR
     N_ORG_MA_DGST -->|"übermittelte Hinweise parallel laut BKA-Verbindungsbeamtem"| N_ORG_DE_BND
     N_ORG_DE_LFV_MV["Verfassungsschutz Mecklenburg-Vorpommern"]
     N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_BFV
+    N_ORG_DE_LFV_BERLIN["Verfassungsschutz Berlin"]
     N_ORG_DE_LFV_MV -->|"übermittelte nach dem Anschlag nur Teile der Quellenmeldung; Kommissionsbefund"| N_ORG_DE_LFV_BERLIN
     N_ORG_DE_GENSTA_BERLIN["Generalstaatsanwaltschaft Berlin"]
+    N_ORG_DE_LKA_BERLIN["Landeskriminalamt Berlin"]
     N_ORG_DE_GENSTA_BERLIN -->|"beauftragte Zusammenstellung und Weitergabe der Erkenntnisse zum Drogenhandel"| N_ORG_DE_LKA_BERLIN
-    N_ORG_DE_STA_BERLIN["Staatsanwaltschaft Berlin"]
     N_ORG_DE_STA_BERLIN -->|"beauftragte Ermittlungen gegen LKA-Beamten; später Verfahren gegen zwei Beamte eingestellt"| N_ORG_DE_LKA_BERLIN
     N_PER_TN_ANIS_AMRI["Anis Amri"]
     N_ORG_DE_GENSTA_BERLIN -->|"leitete Ermittlungsverfahren wegen Verdachts des Versuchs der Beteiligung an einem Tötungsdelikt ein; keine Verurteilung"| N_PER_TN_ANIS_AMRI
@@ -1356,6 +1497,7 @@ flowchart LR
     N_ORG_DE_BFV -->|"setzte dort eine V-Person zu einem anderen Sachverhalt ein; persönlicher Kontakt zu Amri nicht belegt"| N_ORG_DE_FUSSILET_MOSCHEE
     N_ORG_DE_BKA -->|"unterrichtete den BND erstmals über Amri"| N_ORG_DE_BND
     N_ORG_DE_BKA -->|"übermittelte ausgelesene Mobiltelefondaten zur Auswertung"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (BMI)"]
     N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
     N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
     N_ORG_DE_BMVG_1966["Bundesministerium der Verteidigung (1966)"]
@@ -1380,6 +1522,54 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
+    N_ORG_DE_GBA -->|"Beantragte Akteneinsicht bis März 2026 nicht bewilligt; am 23.11.2026 laut Veit Vergleichsverhandlungen; Beginn der Ablehnung und Ende des Konflikts nicht belegt"| N_PRG_DE_HH_NSU_FORSCHUNG
+    N_ORG_DE_STA_KOELN["Staatsanwaltschaft Köln"]
+    N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
+    N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN
+    N_ORG_DE_BFV -->|"Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"| N_PER_DE_LOTHAR_LINGEN
+    N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
+    N_PER_DE_LOTHAR_LINGEN -->|"Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"| N_ORG_DE_TLFV
+    N_ORG_DE_BFV -->|"Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"| N_CASE_DE_NSU_AKTEN_2011
+    N_ORG_DE_MAD["Militärischer Abschirmdienst"]
+    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"| N_ORG_DE_BFV
+    N_ORG_DE_MAD -->|"Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"| N_ORG_DE_TLFV
+    N_ORG_DE_NSU["Nationalsozialistischer Untergrund (NSU)"]
+    N_ORG_DE_GBA -->|"Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"| N_ORG_DE_NSU
+    N_PER_DE_KLAUS_DIETER_FRITSCHE["Klaus-Dieter Fritsche"]
+    N_PER_DE_KLAUS_DIETER_FRITSCHE -->|"Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"| N_ORG_DE_BMI_AMRI_2017
+    N_PER_DE_THOMAS_STARKE["Thomas Starke (VP 562)"]
+    N_ORG_DE_LKA_BERLIN -->|"Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"| N_PER_DE_THOMAS_STARKE
+    N_ORG_DE_GBA -->|"Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"| N_ORG_DE_LKA_BERLIN
+    N_DOC_DE_NSU_WERNER_ASSERVATE_2014["Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"]
+    N_ORG_DE_GBA -->|"Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"| N_DOC_DE_NSU_WERNER_ASSERVATE_2014
+    N_ORG_DE_STA_KARLSRUHE["Staatsanwaltschaft Karlsruhe"]
+    N_ORG_DE_STA_KARLSRUHE -->|"Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"| N_ORG_DE_GBA
+    N_ORG_DE_ST_LKA["Landeskriminalamt Sachsen-Anhalt"]
+    N_DOC_DE_NSU_ST_DATENTRAEGER_2014["In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"]
+    N_ORG_DE_ST_LKA -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
+    N_ORG_DE_ST_LFV["Verfassungsschutzbehörde Sachsen-Anhalt"]
+    N_ORG_DE_ST_LFV -->|"Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"| N_DOC_DE_NSU_ST_DATENTRAEGER_2014
+    N_ORG_DE_GBA -->|"Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"| N_PER_DE_THOMAS_STARKE
+    N_DOC_DE_NSU_BERLIN_AKTEN_2012["57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"]
+    N_ORG_DE_LFV_BERLIN -->|"Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"| N_DOC_DE_NSU_BERLIN_AKTEN_2012
+    N_ORG_DE_STA_GERA["Staatsanwaltschaft Gera"]
+    N_ORG_DE_STA_GERA -->|"Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"| N_ORG_DE_TLFV
+    N_ORG_DE_TLFV -->|"Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"| N_ORG_DE_STA_GERA
+    N_DOC_DE_NSU_G10_ANLAGENORDNER_2012["Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"]
+    N_ORG_DE_BFV -->|"Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"| N_DOC_DE_NSU_G10_ANLAGENORDNER_2012
+    N_ORG_DE_BMI_AMRI_2017 -->|"Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."| N_ORG_DE_BFV
+    N_DOC_DE_NSU_MAD_AKTEN_2012["17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"]
+    N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
+    N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
+    N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
+    N_ORG_DE_TLKA["Thüringer Landeskriminalamt"]
+    N_ORG_DE_TLFV -->|"Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"| N_ORG_DE_TLKA
+    N_ORG_DE_TLFV -->|"Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2; in Kraft 18.08.2012 bis 31.12.2014 (§ 33; Art. 11 des Änderungsgesetzes 2014)"| N_ORG_DE_TLKA
+    N_ORG_DE_TH_AFV_2015["Thüringer Amt für Verfassungsschutz (ab 2015)"]
+    N_ORG_DE_TH_AFV_2015 -->|"Gesetz 2014 schreibt ab 01.01.2015 Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"| N_ORG_DE_TLKA
+    N_ORG_DE_TH_AFV_2015 -->|"Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"| N_ORG_DE_TLFV
     N_ORG_DE_OVG_NRW["Oberverwaltungsgericht Nordrhein-Westfalen"]
     N_ORG_DE_OVG_NRW -->|"Verpflichtete am 28.06.2013 in zwei Eilverfahren zur vorläufigen Rückumsetzung der beiden Vorgesetzten Lingens; keine strafrechtliche Klärung"| N_ORG_DE_BFV
     N_ORG_DE_VG_DUESSELDORF["Verwaltungsgericht Düsseldorf"]
