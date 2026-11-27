@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**543 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**547 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1354,6 +1354,51 @@ Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess · 1977-03
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf)
 
 Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3 (Fotokopie), Protokollseiten 13619–13620
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-amri-bverfschg-bund-2026"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Bundesverfassungsschutzgesetz, konsolidierte Fassung](https://www.gesetze-im-internet.de/bverfschg/BJNR029700990.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 1990-12-20 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERFSCHG-BUND-2026`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/bverfschg/BJNR029700990.html)
+
+Fundstelle: §§ 19 Abs. 1 Satz 2, 21, 23 Abs. 1 Nr. 4 und Abs. 2, 26a; zuletzt geändert 09.01.2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2009">
+
+<a id="src-de-amri-pkgrg-8"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Kontrollgremiumgesetz, § 8 Eingaben](https://www.gesetze-im-internet.de/pkgrg/__8.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 2009-07-29 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PKGRG-8`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/pkgrg/__8.html)
+
+Fundstelle: § 8 Abs. 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-hinschg-5"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Hinweisgeberschutzgesetz, Ausschluss bestimmter Sicherheitsinformationen](https://www.gesetze-im-internet.de/hinschg/BJNR08C0B0023.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 2023-05-31 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-HINSCHG-5`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/hinschg/BJNR08C0B0023.html)
+
+Fundstelle: § 5 Abs. 1 Nr. 1 und 2, Abs. 2 Nr. 1
 
 </article>
 
@@ -3977,6 +4022,21 @@ Ministerium für Inneres und Bau Mecklenburg-Vorpommern · 2026 · Stufe **A** �
 [PDF öffnen](https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf)
 
 Fundstelle: S. 21–23; Impressum Juni 2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-gvobl-index-2026-32"></a>
+### Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern
+
+**[Systematische Übersicht des Gesetz- und Verordnungsblatts Mecklenburg-Vorpommern, Stand 32/2026](https://land-mv.de/sites/default/files/2026-11/1-System%20%C3%9Cbersicht%20Stand%2032_2026.pdf)**
+
+Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern · 2026-11-26 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-INDEX-2026-32`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-11/1-System%20%C3%9Cbersicht%20Stand%2032_2026.pdf)
+
+Fundstelle: S. 13, Gliederungsnummer 12-4
 
 </article>
 

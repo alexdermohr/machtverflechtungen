@@ -1096,7 +1096,7 @@ studies:
     - REL-DE-BND-MEDIA-019
 
   amri-behoerden-aufklaerung-2015-2021.md:
-    sha256: 823a3ac9663dd858830ec4bd6984a1708cb526aa43cf094f63b30c8f0f2d7b27
+    sha256: fad8658c1713f36210c94366b34f24ef736deb45a83ead994775bec27b373644
     status: network
     relation_ids:
     - REL-DE-AMRI-001

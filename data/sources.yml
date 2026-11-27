@@ -6180,3 +6180,47 @@ sources:
   accessed: '2026-11-27'
   locator: Ausgabe 29.06.2026, S. 551–568, insbesondere 558–560, 562, 565–566, 568
   notes: Amtliches Verkündungsblatt direkt abgerufen und PDF-Text geprüft; ersetzt die bisherige Einschränkung fehlender Einsicht ins amtliche Original.
+- id: SRC-DE-AMRI-MV-GVOBL-INDEX-2026-32
+  title: Systematische Übersicht des Gesetz- und Verordnungsblatts Mecklenburg-Vorpommern, Stand 32/2026
+  institution: Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern
+  date: '2026-11-26'
+  url: https://land-mv.de/sites/default/files/2026-11/1-System%20%C3%9Cbersicht%20Stand%2032_2026.pdf
+  locator: S. 13, Gliederungsnummer 12-4
+  notes: Amtlicher Index bis GVOBl. Nr. 32 vom 26.11.2026; keine spätere Änderung oder Berichtigung des LVerfSchG seit Ausgabe 17/2026 aufgeführt. Indexbefund, keine unabhängige Vollständigkeitsgarantie.
+  type: official_document
+  primary: true
+  tier: A
+  accessed: '2026-11-27'
+- id: SRC-DE-AMRI-BVERFSCHG-BUND-2026
+  title: Bundesverfassungsschutzgesetz, konsolidierte Fassung
+  institution: Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+  date: '1990-12-20'
+  url: https://www.gesetze-im-internet.de/bverfschg/BJNR029700990.html
+  locator: §§ 19 Abs. 1 Satz 2, 21, 23 Abs. 1 Nr. 4 und Abs. 2, 26a; zuletzt geändert 09.01.2026
+  notes: Amtliche Gesetzesbereitstellung. Bundesrechtliche Übermittlungspflicht bei normierten Voraussetzungen; keine Anwendung der neuen Norm auf 2017.
+  type: official_document
+  primary: true
+  tier: A
+  accessed: '2026-11-27'
+- id: SRC-DE-AMRI-PKGRG-8
+  title: Kontrollgremiumgesetz, § 8 Eingaben
+  institution: Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+  date: '2009-07-29'
+  url: https://www.gesetze-im-internet.de/pkgrg/__8.html
+  locator: § 8 Abs. 1
+  notes: Amtliche Gesetzesbereitstellung. Unmittelbarer Eingabeweg, ausdrückliches Benachteiligungsverbot, Namensschutz; Bundesdienste.
+  type: official_document
+  primary: true
+  tier: A
+  accessed: '2026-11-27'
+- id: SRC-DE-AMRI-HINSCHG-5
+  title: Hinweisgeberschutzgesetz, Ausschluss bestimmter Sicherheitsinformationen
+  institution: Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+  date: '2023-05-31'
+  url: https://www.gesetze-im-internet.de/hinschg/BJNR08C0B0023.html
+  locator: § 5 Abs. 1 Nr. 1 und 2, Abs. 2 Nr. 1
+  notes: Amtliche Gesetzesbereitstellung. Informationsbezogener Ausschluss, nicht genereller Ausschluss aller Beschäftigten unabhängig vom Meldungsinhalt.
+  type: official_document
+  primary: true
+  tier: A
+  accessed: '2026-11-27'
