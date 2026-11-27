@@ -5926,3 +5926,180 @@ sources:
   accessed: '2026-11-27'
   locator: S. 1–3, Fragen 1 und 2
   notes: Antwort direkt abgerufen; historischer Datenstand 18.06.2025, Gruppenangaben nach Regierungsauskunft nur vertraulich. Keine gerichtliche Bewertung der neuen Antwort.
+
+- id: SRC-DE-AMRI-MV-PKK-84827
+  title: Tätigkeitsbericht der Parlamentarischen Kontrollkommission für das Jahr 2024
+  institution: Landtag Mecklenburg-Vorpommern
+  date: '2025-04-15'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.dokumentation.landtag-mv.de/parldok/dokument/64338/8_4827_taetigkeitsbericht_der_parlamentarischen_kontrollkommission_fuer_das_jahr_2024
+  accessed: '2026-11-27'
+  locator: S. 2–3
+  notes: 'Tätigkeitsbericht der PKK: Sitzungen und berichtete Maßnahmen; kein Vollständigkeitsnachweis.'
+- id: SRC-DE-AMRI-MV-VSB-2025
+  title: Verfassungsschutzbericht 2025
+  institution: Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+  date: '2026'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf
+  accessed: '2026-11-27'
+  locator: S. 21–23; Impressum Juni 2026
+  notes: Behördliche Selbstauskunft zu Kontrollwegen und parlamentarischen Anfragen; keine unabhängige Wirkungsprüfung.
+- id: SRC-DE-AMRI-PROT-19103
+  title: Stenografisches Protokoll 19/103 – Vernehmung Maaßen
+  institution: Deutscher Bundestag
+  date: '2020-10-08'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/103.%20Sitzung_2020-10-08_endg_%C3%B6ff.pdf
+  accessed: '2026-11-27'
+  locator: S. 91 ff., insbesondere 96–97
+  notes: Zeugenaussage zur Gesprächsvorbereitung; tatsächliche Verwendung des Sprechzettels nicht gesichert.
+- id: SRC-DE-AMRI-PROT-19116
+  title: Stenografisches Protokoll 19/116 I – Vernehmung Geisel
+  institution: Deutscher Bundestag
+  date: '2020-12-17'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/116.%20Sitzung_2020-12-17_I_endg%C3%BCltig_%C3%B6ff.pdf
+  accessed: '2026-11-27'
+  locator: S. 140–141
+  notes: Erinnerung zum Dreiergespräch; keine Aussage über gesondertes Vieraugengespräch.
+- id: SRC-DE-AMRI-PROT-19120
+  title: Stenografisches Protokoll 19/120 I – Vernehmung Akmann
+  institution: Deutscher Bundestag
+  date: '2021-01-28'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/120.%20Sitzung_2021-01-28_I_endg%C3%BCltig_%C3%B6ff.pdf
+  accessed: '2026-11-27'
+  locator: S. 32–36
+  notes: Aussage zum Vieraugengespräch, Weitergabevorbehalt und eigenen Nachfragen; keine Bestätigung der vermuteten internen Weiterleitung.
+- id: SRC-DE-AMRI-BT-184654
+  title: Entwurf eines Gesetzes zur Verbesserung der Zusammenarbeit im Bereich des Verfassungsschutzes
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2015-04-20'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/046/1804654.pdf
+  accessed: '2026-11-27'
+  locator: S. 18, 22, Begründung zu Art. 1 Nr. 3
+  notes: Gesetzesgenese, § 6 Abs. 1 BVerfSchG; Zustimmungsvorbehalt, kein absolutes Verbot.
+- id: SRC-DE-AMRI-BT-1919363
+  title: Schriftliche Fragen mit den in der Woche vom 18. Mai 2020 eingegangenen Antworten der Bundesregierung, Drs. 19/19363
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2020-05-22'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/193/1919363.pdf
+  accessed: '2026-11-27'
+  locator: S. 15–16, Frage 22, Antwort vom 15.05.2020
+  notes: Regierungsdarstellung des Hinweisgebervorgangs 2019; nicht Zeitpunkt des ersten Eingangs sämtlicher ursprünglicher Meldungen.
+- id: SRC-DE-AMRI-PROT-19113
+  title: Stenografisches Protokoll 19/113 I – Vernehmung Peter Frank
+  institution: Deutscher Bundestag
+  date: '2020-12-10'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/113.%20Sitzung_2020-10-12_I_endg%C3%BCltig_%C3%B6ff.pdf
+  accessed: '2026-11-27'
+  locator: S. 35–36; auch Drs. 19/30800 S. 487 Fn. 3234
+  notes: Erwartung der eigenständigen Unterrichtung durch Sicherheitsbehörden; kein Rechtsurteil.
+- id: SRC-DE-AMRI-LUPE-2018
+  title: Abschlussbericht Taskforce Lupe – Managementfassung
+  institution: Polizei Berlin / Senatsverwaltung für Inneres
+  date: '2018-03-19'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.berlin.de/sen/inneres/presse/weitere-informationen/taskforce-lupe-abschlussbericht.pdf
+  accessed: '2026-11-27'
+  locator: Gedruckte S. 3–9, insbesondere S. 5, 7–8
+  notes: Polizeiinterne Prüfung; Fehlerklassen beziehen sich auf Ermittlungsergebnis, nicht auf Anschlagskausalität.
+- id: SRC-DE-AMRI-BVERWG-6VR219
+  title: Beschluss 6 VR 2.19 – Aktenanforderung eines Landesuntersuchungsausschusses
+  institution: Bundesverwaltungsgericht
+  date: '2019-09-02'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/020919B6VR2.19.0
+  accessed: '2026-11-27'
+  locator: Tenor II–IV, Leitsätze, Rn. 5–6, 22, 40–42, 48, 51–52
+  notes: Aktenvorlage und Vollständigkeitserklärung, begrenzt auf Landesbezug und gesetzlich zulässige Ausnahmen.
+- id: SRC-DE-AMRI-BVERFG-2BVE418
+  title: Beschluss 2 BvE 4/18 – Benennung eines V-Personen-Führers
+  institution: Bundesverfassungsgericht
+  date: '2020-12-16'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html
+  accessed: '2026-11-27'
+  locator: Leitsätze, Gründe, abweichende Meinung des Richters Müller
+  notes: Mehrheit billigt konkrete Verweigerung; Sondervotum warnt vor Kontrollverlust. Kein allgemeiner Freibrief.
+- id: SRC-DE-AMRI-BE-POD
+  title: Franziska Giffey verleiht Berliner Verwaltungspreis 2022
+  institution: Senatskanzlei Berlin
+  date: '2022-12-21'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/pressemitteilung.1277873.php
+  accessed: '2026-11-27'
+  locator: Kategorie Prozess- und Qualitätsmanagement, Platz 1
+  notes: Amtliche Bestätigung der Auszeichnung; kein selbständiger Wirksamkeits- oder Vollständigkeitsnachweis.
+- id: SRC-DE-AMRI-BE-POD-FUSION
+  title: Ressortübergreifendes PoD Fusion Center der Berliner Strafverfolgungsbehörden
+  institution: Polizei Berlin / Generalstaatsanwaltschaft Berlin
+  date: '2024'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.berlin.de/verwaltungspreis/innovationslandkarte/index.php/detail/334
+  accessed: '2026-11-27'
+  locator: Projektbeschreibung; Projektende 18.04.2023
+  notes: Behördliche Projektbeschreibung zur Bewerbung Verwaltungspreis 2024; keine unabhängige Vollständigkeitsprüfung. Amtliche indexierte Fassung inhaltlich gelesen; direkter Abruf am 27.11.2026 HTTP 404.
+- id: SRC-DE-AMRI-MV-WITTHAUT-2023
+  title: Gutachten des Sonderbeauftragten für den Verfassungsschutz Mecklenburg-Vorpommern
+  institution: Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+  date: '2023'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.verfassungsschutz-mv.de/static/VERF/Dateien/Sonstige_Dokumente/Gutachten%20Sonderbeauftragter%20Verfassungsschutz%20MV.pdf
+  accessed: '2026-11-27'
+  locator: 46 Seiten; amtlicher Scan
+  notes: Direkt abrufbar, keine nutzbare Textebene; Inhalt nicht unabhängig im Volltext geprüft.
+- id: SRC-DE-AMRI-MV-WITTHAUT-GRUENE
+  title: 'Sonderbeauftragter Verfassungsschutz: Gutachten – Oehlrich: öffentliche Sitzungen PKK'
+  institution: Fraktion Bündnis 90/Die Grünen im Landtag Mecklenburg-Vorpommern
+  date: '2023-09-07'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://gruene-fraktion-mv.de/2023/09/07/sonderbeauftragter-verfassungsschutz-gutachten-oehlrich-oeffentliche-sitzungen-pkk/
+  accessed: '2026-11-27'
+  locator: Fraktionsmitteilung vom 07.09.2023
+  notes: Primärquelle für politische Reaktion, sekundäre Darstellung der Gutachtenempfehlungen; kein Volltextnachweis.
+- id: SRC-DE-AMRI-MV-PKK-2025-ANK
+  title: Zweite öffentliche Sitzung der Parlamentarischen Kontrollkommission
+  institution: Landtag Mecklenburg-Vorpommern
+  date: '2025-07-08'
+  type: official_document
+  primary: true
+  tier: A
+  url: https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission
+  accessed: '2026-11-27'
+  locator: Ankündigung der Sitzung am 10.07.2025
+  notes: Ankündigung belegt keine tatsächliche Durchführung.

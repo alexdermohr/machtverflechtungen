@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**536 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1385,6 +1385,21 @@ Fundstelle: Rn. 1–6, 131 ff. und Tenor
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bverfg-2bve418"></a>
+### Bundesverfassungsgericht
+
+**[Beschluss 2 BvE 4/18 – Benennung eines V-Personen-Führers](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html)**
+
+Bundesverfassungsgericht · 2020-12-16 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERFG-2BVE418`
+
+[Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html)
+
+Fundstelle: Leitsätze, Gründe, abweichende Meinung des Richters Müller
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
 
 <a id="src-de-bverfg-2bve1-76-19770302"></a>
@@ -1412,6 +1427,21 @@ Bundesverfassungsgericht / zeitgenössischer Abdruck Bundeszentrale für politis
 [Seite öffnen](https://www.bpb.de/shop/zeitschriften/apuz/archiv/527544/das-bundesverfassungsgericht-zur-parteienfinanzierung/)
 
 Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Titel 612 (1965)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bverwg-6vr219"></a>
+### Bundesverwaltungsgericht
+
+**[Beschluss 6 VR 2.19 – Aktenanforderung eines Landesuntersuchungsausschusses](https://www.bverwg.de/020919B6VR2.19.0)**
+
+Bundesverwaltungsgericht · 2019-09-02 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERWG-6VR219`
+
+[Seite öffnen](https://www.bverwg.de/020919B6VR2.19.0)
+
+Fundstelle: Tenor II–IV, Leitsätze, Rn. 5–6, 22, 40–42, 48, 51–52
 
 </article>
 
@@ -2225,6 +2255,51 @@ Fundstelle: hib 1084/2020, Aussage Hans-Georg Maaßen
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19103"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/103 – Vernehmung Maaßen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/103.%20Sitzung_2020-10-08_endg_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-10-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19103`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/103.%20Sitzung_2020-10-08_endg_%C3%B6ff.pdf)
+
+Fundstelle: S. 91 ff., insbesondere 96–97
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19113"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/113 I – Vernehmung Peter Frank](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/113.%20Sitzung_2020-10-12_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-12-10 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19113`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/113.%20Sitzung_2020-10-12_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 35–36; auch Drs. 19/30800 S. 487 Fn. 3234
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19116"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/116 I – Vernehmung Geisel](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/116.%20Sitzung_2020-12-17_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-12-17 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19116`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/116.%20Sitzung_2020-12-17_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 140–141
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-bt-1930800"></a>
@@ -2237,6 +2312,21 @@ Deutscher Bundestag · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1
 [PDF öffnen](https://dserver.bundestag.de/btd/19/308/1930800.pdf)
 
 Fundstelle: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-prot-19120"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/120 I – Vernehmung Akmann](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/120.%20Sitzung_2021-01-28_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2021-01-28 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19120`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/120.%20Sitzung_2021-01-28_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 32–36
 
 </article>
 
@@ -2465,6 +2555,21 @@ Fundstelle: Antworten 14–16, 19–23 und Geheimdienstaktenlage; spätere Ergä
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-amri-bt-184654"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Entwurf eines Gesetzes zur Verbesserung der Zusammenarbeit im Bereich des Verfassungsschutzes](https://dserver.bundestag.de/btd/18/046/1804654.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2015-04-20 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-184654`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/046/1804654.pdf)
+
+Fundstelle: S. 18, 22, Begründung zu Art. 1 Nr. 3
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bt-okt-1811602-2017"></a>
@@ -2507,6 +2612,21 @@ Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/18/133/1813317.pdf)
 
 Fundstelle: S. 1, Antwort 2a
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-1919363"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen mit den in der Woche vom 18. Mai 2020 eingegangenen Antworten der Bundesregierung, Drs. 19/19363](https://dserver.bundestag.de/btd/19/193/1919363.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2020-05-22 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1919363`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/193/1919363.pdf)
+
+Fundstelle: S. 15–16, Frage 22, Antwort vom 15.05.2020
 
 </article>
 
@@ -2882,6 +3002,21 @@ Financial Crimes Enforcement Network · 2007-09-17 · Stufe **A** · Primärquel
 [PDF öffnen](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)
 
 Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-mv-witthaut-gruene"></a>
+### Fraktion Bündnis 90/Die Grünen im Landtag Mecklenburg-Vorpommern
+
+**[Sonderbeauftragter Verfassungsschutz: Gutachten – Oehlrich: öffentliche Sitzungen PKK](https://gruene-fraktion-mv.de/2023/09/07/sonderbeauftragter-verfassungsschutz-gutachten-oehlrich-oeffentliche-sitzungen-pkk/)**
+
+Fraktion Bündnis 90/Die Grünen im Landtag Mecklenburg-Vorpommern · 2023-09-07 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-WITTHAUT-GRUENE`
+
+[Seite öffnen](https://gruene-fraktion-mv.de/2023/09/07/sonderbeauftragter-verfassungsschutz-gutachten-oehlrich-oeffentliche-sitzungen-pkk/)
+
+Fundstelle: Fraktionsmitteilung vom 07.09.2023
 
 </article>
 
@@ -3577,6 +3712,36 @@ Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jew
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
+<a id="src-de-amri-mv-pkk-84827"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Tätigkeitsbericht der Parlamentarischen Kontrollkommission für das Jahr 2024](https://www.dokumentation.landtag-mv.de/parldok/dokument/64338/8_4827_taetigkeitsbericht_der_parlamentarischen_kontrollkommission_fuer_das_jahr_2024)**
+
+Landtag Mecklenburg-Vorpommern · 2025-04-15 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-PKK-84827`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/64338/8_4827_taetigkeitsbericht_der_parlamentarischen_kontrollkommission_fuer_das_jahr_2024)
+
+Fundstelle: S. 2–3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-pkk-2025-ank"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Zweite öffentliche Sitzung der Parlamentarischen Kontrollkommission](https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission)**
+
+Landtag Mecklenburg-Vorpommern · 2025-07-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-PKK-2025-ANK`
+
+[Seite öffnen](https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission)
+
+Fundstelle: Ankündigung der Sitzung am 10.07.2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
 <a id="src-de-amri-mv-lt-84357"></a>
 ### Landtag Mecklenburg-Vorpommern / Landesregierung
 
@@ -3677,6 +3842,36 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-mv-witthaut-2023"></a>
+### Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+
+**[Gutachten des Sonderbeauftragten für den Verfassungsschutz Mecklenburg-Vorpommern](https://www.verfassungsschutz-mv.de/static/VERF/Dateien/Sonstige_Dokumente/Gutachten%20Sonderbeauftragter%20Verfassungsschutz%20MV.pdf)**
+
+Ministerium für Inneres und Bau Mecklenburg-Vorpommern · 2023 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-WITTHAUT-2023`
+
+[PDF öffnen](https://www.verfassungsschutz-mv.de/static/VERF/Dateien/Sonstige_Dokumente/Gutachten%20Sonderbeauftragter%20Verfassungsschutz%20MV.pdf)
+
+Fundstelle: 46 Seiten; amtlicher Scan
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-vsb-2025"></a>
+### Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+
+**[Verfassungsschutzbericht 2025](https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf)**
+
+Ministerium für Inneres und Bau Mecklenburg-Vorpommern · 2026 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-VSB-2025`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf)
+
+Fundstelle: S. 21–23; Impressum Juni 2026
 
 </article>
 
@@ -3945,6 +4140,36 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-de-amri-be-pod-fusion"></a>
+### Polizei Berlin / Generalstaatsanwaltschaft Berlin
+
+**[Ressortübergreifendes PoD Fusion Center der Berliner Strafverfolgungsbehörden](https://www.berlin.de/verwaltungspreis/innovationslandkarte/index.php/detail/334)**
+
+Polizei Berlin / Generalstaatsanwaltschaft Berlin · 2024 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BE-POD-FUSION`
+
+[Seite öffnen](https://www.berlin.de/verwaltungspreis/innovationslandkarte/index.php/detail/334)
+
+Fundstelle: Projektbeschreibung; Projektende 18.04.2023
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-amri-lupe-2018"></a>
+### Polizei Berlin / Senatsverwaltung für Inneres
+
+**[Abschlussbericht Taskforce Lupe – Managementfassung](https://www.berlin.de/sen/inneres/presse/weitere-informationen/taskforce-lupe-abschlussbericht.pdf)**
+
+Polizei Berlin / Senatsverwaltung für Inneres · 2018-03-19 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-LUPE-2018`
+
+[PDF öffnen](https://www.berlin.de/sen/inneres/presse/weitere-informationen/taskforce-lupe-abschlussbericht.pdf)
+
+Fundstelle: Gedruckte S. 3–9, insbesondere S. 5, 7–8
 
 </article>
 
@@ -4288,6 +4513,21 @@ Senato della Repubblica / Camera dei deputati, XIII legislatura · 2001-04-26 ·
 [PDF öffnen](https://leg13.camera.it/_dati/leg13/lavori/doc/xxiii/064v01t05p02_RS/INTERO_COM.pdf)
 
 Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gemeinsame Schlussfolgerung); PDF S. 41, Autoren Mantica/Fragala 31.07.2000, aktualisiert Jan. 2001; gedruckte S. 239–245 (PDF S. 279–285): Corriere-del-Ticino-Interview 19.09.1980, UCIGOS/DIGOS-Vermerk 11.05.1989 und im Text wiedergegebene richterliche Vernehmungen zu Porena/SISMI.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-de-amri-be-pod"></a>
+### Senatskanzlei Berlin
+
+**[Franziska Giffey verleiht Berliner Verwaltungspreis 2022](https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/pressemitteilung.1277873.php)**
+
+Senatskanzlei Berlin · 2022-12-21 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BE-POD`
+
+[Seite öffnen](https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/pressemitteilung.1277873.php)
+
+Fundstelle: Kategorie Prozess- und Qualitätsmanagement, Platz 1
 
 </article>
 
