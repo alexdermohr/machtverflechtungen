@@ -1037,3 +1037,60 @@ studies:
       - REL-RIGGS-POST-2004-057
       - REL-RIGGS-POST-2004-058
       - REL-RIGGS-POST-2004-059
+
+  insm-marienhof-bavaria-placements-rechnungen-justiz-2002-2006.md:
+    sha256: c2d30acd86698aae78bf9af8b69b2d31380c34b1635c84d59f2a7fdc04e5205c
+    status: network
+    relation_ids:
+    - REL-DE-MARIENHOF-001
+    - REL-DE-MARIENHOF-002
+    - REL-DE-MARIENHOF-003
+    - REL-DE-MARIENHOF-004
+    - REL-DE-MARIENHOF-005
+    - REL-DE-MARIENHOF-006
+    - REL-DE-MARIENHOF-007
+    - REL-DE-MARIENHOF-008
+    - REL-DE-MARIENHOF-009
+    - REL-DE-MARIENHOF-010
+    - REL-DE-MARIENHOF-011
+    - REL-DE-MARIENHOF-012
+    - REL-DE-MARIENHOF-013
+    - REL-DE-MARIENHOF-014
+    - REL-DE-MARIENHOF-015
+  bnd-kauka-verlag-quellenschutz-medien-2021-2026.md:
+    sha256: 050a5652db7fcbd9b4948927985a955af75dbf6ba480f884d2bc879979b3250e
+    status: network
+    relation_ids:
+    - REL-DE-KAUKA-001
+    - REL-DE-KAUKA-002
+    - REL-DE-KAUKA-003
+    - REL-DE-KAUKA-004
+    - REL-DE-KAUKA-005
+    - REL-DE-KAUKA-006
+    - REL-DE-KAUKA-007
+    - REL-DE-KAUKA-008
+    - REL-DE-KAUKA-009
+    - REL-DE-KAUKA-010
+  bnd-medienzugang-anwaltsmandate-2019-2025.md:
+    sha256: f0303131d59e0f04f62ddde0edc24980fb3c6bff9a8165f48297c862e18b264a
+    status: network
+    relation_ids:
+    - REL-DE-BND-MEDIA-001
+    - REL-DE-BND-MEDIA-002
+    - REL-DE-BND-MEDIA-003
+    - REL-DE-BND-MEDIA-004
+    - REL-DE-BND-MEDIA-005
+    - REL-DE-BND-MEDIA-006
+    - REL-DE-BND-MEDIA-007
+    - REL-DE-BND-MEDIA-008
+    - REL-DE-BND-MEDIA-009
+    - REL-DE-BND-MEDIA-010
+    - REL-DE-BND-MEDIA-011
+    - REL-DE-BND-MEDIA-012
+    - REL-DE-BND-MEDIA-013
+    - REL-DE-BND-MEDIA-014
+    - REL-DE-BND-MEDIA-015
+    - REL-DE-BND-MEDIA-016
+    - REL-DE-BND-MEDIA-017
+    - REL-DE-BND-MEDIA-018
+    - REL-DE-BND-MEDIA-019
