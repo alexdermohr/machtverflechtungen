@@ -1164,3 +1164,44 @@ studies:
     - REL-DE-LANG-II-006
     - REL-DE-LANG-II-007
     - REL-DE-LANG-II-008
+  ddr-grossbritannien-medienfinanzierung-handel-1952-1975.md:
+    sha256: b2081ee689bf87512c326ab414535360959e9f20f3aa6d5d2c30077e2fa40730
+    status: network
+    relation_ids:
+    - REL-DE-DDR-UK-001
+    - REL-DE-DDR-UK-002
+    - REL-DE-DDR-UK-003
+    - REL-DE-DDR-UK-004
+    - REL-DE-DDR-UK-005
+    - REL-DE-DDR-UK-006
+    - REL-DE-DDR-UK-007
+    - REL-DE-DDR-UK-008
+    - REL-DE-DDR-UK-009
+    - REL-DE-DDR-UK-010
+    - REL-DE-DDR-UK-011
+    - REL-DE-DDR-UK-012
+    - REL-DE-DDR-UK-013
+    - REL-DE-DDR-UK-014
+    - REL-DE-DDR-UK-015
+    - REL-DE-DDR-UK-016
+    - REL-DE-DDR-UK-017
+    - REL-DE-DDR-UK-018
+    - REL-DE-DDR-UK-019
+    - REL-DE-DDR-UK-020
+  fbi-army-bonn-source-300-ddr-publikationskontakte-1956-1975.md:
+    sha256: 4428b477c61bcbd74b8716780f829e49f57f6a9e0e158eab6ad7fbd7d44a6243
+    status: network
+    relation_ids:
+    - REL-US-DDR-LIAISON-001
+    - REL-US-DDR-LIAISON-002
+    - REL-US-DDR-LIAISON-003
+    - REL-US-DDR-LIAISON-004
+    - REL-US-DDR-LIAISON-005
+    - REL-US-DDR-LIAISON-006
+    - REL-US-DDR-LIAISON-007
+    - REL-US-DDR-LIAISON-008
+    - REL-US-DDR-LIAISON-009
+    - REL-US-DDR-LIAISON-010
+    - REL-US-DDR-LIAISON-011
+    - REL-US-DDR-LIAISON-012
+    - REL-US-DDR-LIAISON-013

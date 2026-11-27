@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**780 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**813 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1358,6 +1358,64 @@ flowchart LR
     N_ORG_DE_BAYOBLG_1983 -->|"Vorsitzender des 3. Strafsenats lehnte Einsicht aus Gründen des BND-Geheimschutzes ab; keine gerichtliche Rechtswidrigkeitsfeststellung behauptet (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
     N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss beschloss Gegenvorstellung mit Angebot der Einsicht in Gerichtsräumen (S. 5, 3 l)"| N_ORG_DE_BAYOBLG_1983
     N_ORG_DE_BAYOBLG_1983 -->|"Erneute Ablehnung; berichtete Begründung: nicht aussonderbare nachrichtendienstliche Informationen und Schutz privater Aufzeichnungen (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
+    N_ORG_DE_DDR_STAAT["Deutsche Demokratische Republik (1949–1990)"]
+    N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT["Democratic German Report (1952–1975)"]
+    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet vollständige Finanzierung des DGR durch die DDR; konkrete zahlende Stelle, Haushaltsansätze und Beträge nicht nachgewiesen"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_PER_GB_JOHN_SCOTT_PEET["John Scott Peet"]
+    N_PER_GB_JOHN_SCOTT_PEET -->|"Herausgeber und Chefredakteur des englischsprachigen DGR 1952–1975"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_ORG_DE_MFS -->|"Berger/LaPorte S. 65 Fn. 178 berichten Überwachung 1952–1956 und erneut nach 1959; Verdacht britischer Geheimdiensttätigkeit nicht belegt; Originalakte MfS 17752/62 nicht eingesehen"| N_PER_GB_JOHN_SCOTT_PEET
+    N_ORG_DE_SED_POLITBUERO["Politbüro des ZK der SED"]
+    N_ORG_DE_SED_POLITBUERO -->|"Laut biografischem Handbuch beschloss das Politbüro im Dezember 1975 die Einstellung wegen der nicht mehr gewährleisteten politischen Linie; Originalbeschluss ausstehend"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_ORG_GB_NOTLEYS_ADVERTISING["Notley's Advertising Ltd"]
+    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Berger/LaPorte S. 116 nennen berichtete Vergütung bis zu 20.000 GBP jährlich ab 1960; tatsächliche Höhe, Laufzeit und Zahlungsbelege offen"| N_ORG_GB_NOTLEYS_ADVERTISING
+    N_PER_GB_BURNABY_DRAYSON["George Burnaby Drayson"]
+    N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Drayson als einen von zwei konservativen Abgeordneten mit Beratungsverhältnis zu Notley; Honorare, Vertragsbeginn und zweiter Name nicht direkt belegt"| N_PER_GB_BURNABY_DRAYSON
+    N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Formulierung von Draysons Pressebriefen zum Fall Franz Krahl im Dezember 1960 durch Notley; keine ursprünglichen Entwürfe eingesehen"| N_PER_GB_BURNABY_DRAYSON
+    N_ORG_GB_DOMINION_EXPORT["Dominion Export Ltd"]
+    N_PER_GB_BURNABY_DRAYSON -->|"Berger/LaPorte S. 72 beschreiben Drayson als Direktor der Dominion Export Ltd im Zusammenhang mit dem Handelsgeschäft 1953; genaue Amtsdauer offen"| N_ORG_GB_DOMINION_EXPORT
+    N_ORG_GB_DOMINION_EXPORT -->|"Berger/LaPorte S. 72: Handelsvereinbarung im Herbst 1953 über rund 3 Mio. GBP, Kalieinfuhr und Lebensmittelexport; Vertragswert, keine tatsächliche Zahlung oder persönliche Vergütung nachgewiesen"| N_ORG_DE_DDR_STAAT
+    N_ORG_GB_HOUSE_OF_COMMONS["House of Commons (britisches Unterhaus)"]
+    N_PER_GB_BURNABY_DRAYSON -->|"Drayson erklärt am 21.03.1962 öffentlich sein Interesse: eine mit ihm verbundene, im Beitrag nicht namentlich genannte Firma importiere DDR-Ammoniumsulfat und Kali"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_PER_DE_JULIUS_MADER -->|"Engelmann/Joestel S. 50 Fn. 189: Mader 1962–1989 Offizier im besonderen Einsatz im MfS-Agitationsbereich, unter Verweis auf Kaderakte KS 25335/90; Originalakte ausstehend"| N_ORG_DE_MFS
+    N_PRG_DE_MFS_STURM_1971["MfS-Konzeption Sturm (Bezug April 1971)"]
+    N_ORG_DE_MFS -->|"K 1/21 Abschnitt 3.3 d: Plan zur Vortäuschung konspirativer Aktivität; Verweis auf Konzeption Sturm; keine konkret ausgeführte Maßnahme oder Wirkung damit belegt"| N_PRG_DE_MFS_STURM_1971
+    N_PER_US_JOHN_HOWARD_LAWSON["John Howard Lawson"]
+    N_PER_US_JOHN_HOWARD_LAWSON -->|"Briefkopie vom 18.12.1971: Lawson bittet DGR um Änderung seiner Anschrift; tatsächlicher Empfang und politische Zusammenarbeit nicht belegt"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_PRG_US_FBI_BUREAU_SOURCE_300["Bureau Source 300 (FBI-Quellenbezeichnung)"]
+    N_ORG_US_FBI_LEGAT_BONN["FBI Legal Attaché Bonn (1956–1975 belegt)"]
+    N_PRG_US_FBI_BUREAU_SOURCE_300 -->|"Legat Bonn berichtet 13.01.1972 Erhalt der Lawson-Adressänderung über Bureau Source 300; Zeitpunkt des vorherigen Erhalts und Beschaffungsmethode offen"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_FBI_LEGAT_BONN -->|"Dienstlicher FBI-Vermerk vom 13.01.1972 an Director, FBI: Lawson-DGR-Korrespondenz mit DGR-Aktenhinweis 105-18093"| N_ORG_US_FBI
+    N_PER_US_BERNARD_FENSTERWALD["Bernard Fensterwald Jr."]
+    N_PER_DE_JULIUS_MADER -->|"FBI-Vermerk 13.11.1972 berichtet Formularbrief Maders mit Angebot seines Buchs Yellow List: Where is the CIA? und Bestellformular; keine operative Anwerbung belegt"| N_PER_US_BERNARD_FENSTERWALD
+    N_PER_US_BERNARD_FENSTERWALD -->|"FBI-Vermerk berichtet Bestellung eines englischen Exemplars mit einem 2-Dollar-Scheck; Einlösung, Lieferung oder weitere Zusammenarbeit nicht nachgewiesen"| N_PER_DE_JULIUS_MADER
+    N_PRG_US_FBI_BUREAU_SOURCE_300 -->|"Legat Bonn berichtet 13.11.1972 Erhalt des Materials zur Mader-Fensterwald-Bestellung über Bureau Source 300; keine konkret benannte Beschaffungsstelle"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_FBI_LEGAT_BONN -->|"Dienstlicher FBI-Vermerk vom 13.11.1972 an Acting Director zur Mader-Buchbestellung; Anlage erläutert Quellenschutz und bedingte Weitergabe"| N_ORG_US_FBI
+    N_ORG_US_ARMY_66TH_CIC["66th CIC Group (Region VIII, Berlin, 1956)"]
+    N_ORG_US_ARMY_66TH_CIC -->|"FBI-Vermerk 19.03.1956: Kopie eines Lawson-Briefs an Schlichting aus technischer Erfassung der 66th CIC Group über G-2 US Army Europe; DGR-Feld unmarkiert"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975["U.S. House Select Committee on Intelligence Activities (1975)"]
+    N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975 -->|"Aktenanforderung vom 26.09.1975 zu drei Organisationen einschließlich AFSC; später präzisierter Zeitraum laut FBI-Antwort"| N_ORG_US_FBI
+    N_ORG_US_ARMY -->|"FBI NOTE in der Antwort von 1975, S.197, identifiziert vier im AFSC-Zusammenhang erhaltene Source-300-Berichte als Material der US Army in Deutschland; keine pauschale Zuordnung aller Source-300-Fälle"| N_PRG_US_FBI_BUREAU_SOURCE_300
+    N_ORG_US_ARMY -->|"FBI NOTE S.197: Colonel John Heiss, Security Division ACSI, bat laut Liaison Section am 03.11.1975 um Nichtfreigabe der vier AFSC-Berichte an HSC"| N_ORG_US_FBI
+    N_ORG_US_FBI -->|"FBI-Antwortunterlagen vom 06.11.1975 nennen vier Source-300-Serien zum AFSC-Besuchsaustausch als nicht zur Ausschusseinsicht vorbereitet; spätere Freigabe und Rechtsgrundlage ungeklärt"| N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975
+    N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE["American Friends Service Committee (AFSC)"]
+    N_ORG_US_FBI_LEGAT_BONN -->|"FBI NOTE S.197: vier über Legat Bonn erhaltene Source-300-Serien behandeln Besuche zwischen AFSC-Mitgliedern und Personen in einem anderen Land; kein Erfassungsdatum, keine Straftat festgestellt"| N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE
+    N_PER_GB_RUDI_STERNBERG_PLURENDEN["Rudi Sternberg (später Lord Plurenden)"]
+    N_PER_GB_RUDI_STERNBERG_PLURENDEN -->|"Berger/LaPorte S. 72 Fn. 201: Dominion Export Ltd im Kontext des Vertrags von 1953 im Eigentum Lord Plurendens; genaue Beteiligung und Dauer nicht nachgewiesen"| N_ORG_GB_DOMINION_EXPORT
+    N_PER_GB_ARTHUR_LEWIS["Arthur Lewis (West Ham North)"]
+    N_PER_GB_ARTHUR_LEWIS -->|"Lewis berichtet im Unterhaus 24.04.1961 von gemeinsamer früherer Intervention mit Drayson zu Reisebeschränkungen eines DDR-Geschäftskontakts; Zeitpunkt, Mandat und Vergütung offen"| N_PER_GB_BURNABY_DRAYSON
+    N_PER_GB_ARTHUR_LEWIS -->|"Lewis erklärt am 24.04.1961 seine Verbindung zur Halbleiterindustrie und fordert Lockerung von Exportbeschränkungen; kein Firmenname oder persönlicher Zahlungsbetrag genannt"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_PER_GB_G_B_H_CURRIE["G. B. H. Currie (Down North)"]
+    N_PER_DE_WALTER_ULBRICHT["Walter Ulbricht"]
+    N_PER_GB_G_B_H_CURRIE -->|"Currie berichtet 24.04.1961 über persönliches Treffen mit Ulbricht auf der Leipziger Frühjahrsmesse 1961 als privater Parlamentarier, ohne Regierungsmandat; eigene finanzielle Interessen an der Motion verneint"| N_PER_DE_WALTER_ULBRICHT
+    N_PER_GB_ROBERT_BOOTHBY["Lord Robert Boothby"]
+    N_PER_GB_ROBERT_BOOTHBY -->|"Laut Curries eigener Parlamentsaussage 24.04.1961 nahm auch Lord Boothby am Treffen mit Ulbricht und zwei Ministern teil; keine staatliche britische Delegation oder Vergütung nachgewiesen"| N_PER_DE_WALTER_ULBRICHT
+    N_ORG_GB_FEDERATION_BRITISH_INDUSTRIES["Federation of British Industries (F.B.I.)"]
+    N_ORG_DE_DDR_KAMMER_AUSSENHANDEL["Kammer für Außenhandel der DDR"]
+    N_ORG_GB_FEDERATION_BRITISH_INDUSTRIES -->|"Currie und Rodgers benennen am 24.04.1961 die Handelsvereinbarung zwischen britischem Industrieverband und DDR-Außenhandelskammer als Alternative zu diplomatischem Abkommen; Originalvertrag nicht eingesehen"| N_ORG_DE_DDR_KAMMER_AUSSENHANDEL
+    N_PER_GB_GEORGE_JEGER["George Jeger (Goole)"]
+    N_PER_GB_GEORGE_JEGER -->|"Jeger legt am 12.03.1962 einen Sunday-Telegraph-Bericht vom Vortag zur Leipziger Messe vor und erhebt Privilegienbeschwerde; Pressevorwürfe nicht als Tatsachen bestätigt"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_ORG_GB_SUNDAY_TELEGRAPH["Sunday Telegraph"]
+    N_ORG_GB_HOUSE_OF_COMMONS -->|"Speaker entscheidet am 13.03.1962, Artikel begründe prima facie keine Verletzung parlamentarischer Privilegien; kein Vorrang der Beschwerde, Sachantrag weiterhin möglich; kein Urteil über den Wahrheitsgehalt"| N_ORG_GB_SUNDAY_TELEGRAPH
 ```
 
 [Zur Relationstabelle](network.md)

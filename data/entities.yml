@@ -3206,3 +3206,157 @@ entities:
     countries:
     - DE
     notes: Gericht des von Langemann angestrengten Verfahrens zur Einsichtnahme in seine Aufzeichnungen. Ergebnis hier nicht nachgewiesen.
+  - id: ORG-DE-DDR-STAAT
+    type: historical_state
+    name: Deutsche Demokratische Republik (1949–1990)
+    countries:
+    - DE
+    notes: Historischer Staat; aggregierter Knoten, wenn die Literatur keine konkret zahlende Dienststelle benennt. Nicht identisch mit SED oder MfS.
+  - id: ORG-DE-SED-POLITBUERO
+    type: party_executive
+    name: Politbüro des ZK der SED
+    countries:
+    - DE
+    notes: Parteiführung; konkrete Einstellung des DGR im Dezember 1975 laut biografischer Forschung, Originalbeschluss ausstehend.
+  - id: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: media_outlet
+    name: Democratic German Report (1952–1975)
+    countries:
+    - DE
+    notes: Englischsprachiger Informationsdienst aus Ost-Berlin; im MfS-Dokument K1/21 als German Democratic Report bezeichnet. Zuordnung zur Ausgabe 3.3.1971 folgt den editorischen Angaben;
+      Originalheft nicht eingesehen.
+  - id: PER-GB-JOHN-SCOTT-PEET
+    type: person
+    name: John Scott Peet
+    countries:
+    - GB
+    - DE
+    notes: Britischer Journalist; früher Reuters, 1952–1975 Herausgeber des DGR. Beobachtung durch MfS ist keine Agentenführung.
+  - id: ORG-GB-NOTLEYS-ADVERTISING
+    type: public_relations_agency
+    name: Notley's Advertising Ltd
+    countries:
+    - GB
+    notes: Londoner PR-Agentur; DDR-Mandat und Beraterbeziehungen um 1960 laut Howarth. Originalverträge und Honorare fehlen.
+  - id: PER-GB-BURNABY-DRAYSON
+    type: person
+    name: George Burnaby Drayson
+    countries:
+    - GB
+    notes: Konservativer Unterhausabgeordneter; öffentlich erklärte Geschäftsinteressen am DDR-Handel 1962. Beratungsverhältnis laut Howarth, keine Agentenzuschreibung.
+  - id: ORG-GB-DOMINION-EXPORT
+    type: company
+    name: Dominion Export Ltd
+    countries:
+    - GB
+    notes: Britische Handelsfirma, laut Berger/LaPorte 1953 unter Mitwirkung Draysons im DDR-Handel; ursprünglicher Vertrag und Registerakte nicht eingesehen.
+  - id: ORG-GB-HOUSE-OF-COMMONS
+    type: legislature
+    name: House of Commons (britisches Unterhaus)
+    countries:
+    - GB
+    notes: Parlamentarischer Ort der öffentlichen Interessenangabe Draysons am 21.3.1962.
+  - id: PRG-DE-MFS-STURM-1971
+    type: covert_operation_plan
+    name: MfS-Konzeption Sturm (Bezug April 1971)
+    countries:
+    - DE
+    notes: Historische Planung zur Vortäuschung konspirativer Tätigkeit; Bezug im MfS-Dokument K1/21, Abschnitt 3.3 d. Kein Beweis der konkreten Ausführung.
+  - id: ORG-US-FBI-LEGAT-BONN
+    type: intelligence_liaison_office
+    name: FBI Legal Attaché Bonn (1956–1975 belegt)
+    countries:
+    - US
+    - DE
+    notes: Historischer Dienststellenknoten; Weiterleitung der in den Quellen genannten Vorgänge, keine Aussage über heutige Organisation.
+  - id: ORG-US-ARMY-66TH-CIC
+    type: military_intelligence_unit
+    name: 66th CIC Group (Region VIII, Berlin, 1956)
+    countries:
+    - US
+    - DE
+    notes: Im FBI-Vermerk vom 19.03.1956 als beschaffende Einheit benannt. Keine Gleichsetzung mit Source 300 der 1970er Jahre.
+  - id: PRG-US-FBI-BUREAU-SOURCE-300
+    type: intelligence_reporting_channel
+    name: Bureau Source 300 (FBI-Quellenbezeichnung)
+    countries:
+    - US
+    notes: Dienstliche Bezeichnung, keine namentlich identifizierte natürliche Person oder eigene Behörde. Herkunft US Army Deutschland nur für vier AFSC-Vorgänge ausdrücklich belegt.
+  - id: PER-US-JOHN-HOWARD-LAWSON
+    type: person
+    name: John Howard Lawson
+    countries:
+    - US
+    notes: Amerikanischer Schriftsteller; Adressänderungsmitteilung an DGR 1971. Überwachter Kontakt ist kein Agentennachweis.
+  - id: PER-US-BERNARD-FENSTERWALD
+    type: person
+    name: Bernard Fensterwald Jr.
+    countries:
+    - US
+    notes: Amerikanischer Anwalt; laut FBI-Vermerk Buchbestellung bei Julius Mader 1972. Keine operative Beteiligung nachgewiesen.
+  - id: ORG-US-HOUSE-SELECT-COMMITTEE-INTELLIGENCE-1975
+    type: parliamentary_inquiry
+    name: U.S. House Select Committee on Intelligence Activities (1975)
+    countries:
+    - US
+    notes: Parlamentarischer Untersuchungsausschuss zu Nachrichtendiensten, nicht späterer Assassinations-Untersuchungsausschuss.
+  - id: ORG-US-AMERICAN-FRIENDS-SERVICE-COMMITTEE
+    type: civil_society_organization
+    name: American Friends Service Committee (AFSC)
+    countries:
+    - US
+    notes: Friedensorganisation; Gegenstand der 1975 genannten Aktenanforderung und vier nicht zur Einsicht vorbereiteten Berichte. Kein strafrechtlicher Vorwurf.
+  - id: PER-GB-RUDI-STERNBERG-PLURENDEN
+    type: person
+    name: Rudi Sternberg (später Lord Plurenden)
+    countries:
+    - GB
+    notes: Unternehmer; Eigentümer der Dominion Export Ltd im Kontext des DDR-Handelsgeschäfts von 1953 laut Berger/LaPorte. Firmenregister und Beteiligungsquote nicht eingesehen.
+  - id: PER-GB-ARTHUR-LEWIS
+    type: person
+    name: Arthur Lewis (West Ham North)
+    countries:
+    - GB
+    notes: Labour-Unterhausabgeordneter; in Hansard 24.04.1961 offen erklärte Verbindung zur Halbleiterindustrie und früheres Osthandelsengagement. Keine bestätigte Sternberg-Vergütung.
+  - id: PER-GB-G-B-H-CURRIE
+    type: person
+    name: G. B. H. Currie (Down North)
+    countries:
+    - GB
+    notes: Unterhausabgeordneter; berichtet 24.04.1961 von persönlichem Treffen mit Ulbricht in Leipzig, verneint persönliche finanzielle Interessen an der Motion.
+  - id: PER-GB-ROBERT-BOOTHBY
+    type: person
+    name: Lord Robert Boothby
+    countries:
+    - GB
+    notes: Britischer Oberhausabgeordneter; laut Curries Parlamentsbericht Teilnehmer des privaten Treffens mit Ulbricht 1961. Keine nachgewiesene Vergütung aus diesem Vorgang.
+  - id: PER-DE-WALTER-ULBRICHT
+    type: person
+    name: Walter Ulbricht
+    countries:
+    - DE
+    notes: 1961 Vorsitzender des Staatsrats der DDR; Treffen mit britischen Parlamentariern laut zeitgenössischer Aussage Curries.
+  - id: ORG-GB-FEDERATION-BRITISH-INDUSTRIES
+    type: industry_association
+    name: Federation of British Industries (F.B.I.)
+    countries:
+    - GB
+    notes: Historischer britischer Industrieverband, nicht das US Federal Bureau of Investigation. Nicht als staatliche diplomatische Vertretung kodiert.
+  - id: ORG-DE-DDR-KAMMER-AUSSENHANDEL
+    type: trade_association
+    name: Kammer für Außenhandel der DDR
+    countries:
+    - DE
+    notes: In britischem Hansard als Chamber of Foreign Trade bzw. Chamber of Trade bezeichnet; Handelspartner des britischen Industrieverbandes.
+  - id: PER-GB-GEORGE-JEGER
+    type: person
+    name: George Jeger (Goole)
+    countries:
+    - GB
+    notes: Unterhausabgeordneter, erhob am 12.03.1962 Privilegienbeschwerde über einen Zeitungsbericht. Nicht als Beteiligter an den beanstandeten Geschäften erfasst.
+  - id: ORG-GB-SUNDAY-TELEGRAPH
+    type: media_outlet
+    name: Sunday Telegraph
+    countries:
+    - GB
+    notes: Britische Sonntagszeitung; Artikel vom 11.03.1962 im britischen Parlament referiert, Originalausgabe noch nicht eingesehen.

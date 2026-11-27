@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**524 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**543 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5626,6 +5626,81 @@ Fundstelle: Green Series Bd. 14, gedruckte S. 609–620 zu Opferwerten und S. 85
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1956">
+
+<a id="src-us-nara-fbi-lawson-cic-1956"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn: John Howard Lawson, Quellenweg der US Army Europe / 66th CIC](https://www.archives.gov/files/research/jfk/releases/docid-32338625.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1956-03-19 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-LAWSON-CIC-1956`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32338625.pdf)
+
+Fundstelle: DocId 32338625, PDF S. 2; Legat 100-253, Briefdatum 26.01.1956, Referenz 57959
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-nara-lawson-dgr-letter-1971"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[John Howard Lawson an Democratic German Report: Adressänderung](https://www.archives.gov/files/research/jfk/releases/docid-32339036.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1971-12-18 · Stufe **A** · Primärquelle · `SRC-US-NARA-LAWSON-DGR-LETTER-1971`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32339036.pdf)
+
+Fundstelle: RIF 124-90143-10454; DocId 32339036, Umschlag und Brief; HQ 100-370750-349
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-nara-fbi-lawson-dgr-1972"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn an FBI Director: John Howard Lawson](https://www.archives.gov/files/research/jfk/releases/docid-32339034.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1972-01-13 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-LAWSON-DGR-1972`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32339034.pdf)
+
+Fundstelle: RIF 124-90143-10452; DocId 32339034, PDF S. 2; HQ 100-370750-349; Legat 100-963; DGR-Aktenhinweis 105-18093
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-nara-fbi-fensterwald-mader-1972"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn: Bernard Fensterwald Jr. – Julius Mader, mit Anlage zur Source 300](https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10433-10209.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1972-11-13 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-FENSTERWALD-MADER-1972`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10433-10209.pdf)
+
+Fundstelle: RIF 104-10433-10209; Memorandum 13.11.1972, Legat 105-7501-1779; Mader-Aktenhinweis 100-169674; Fortsetzung Box 105-7501-1779 und folgende Anlage über Source 300
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-nara-fbi-hsc-afsc-1975"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI: Antwort auf Aktenanforderung des House Select Committee, AFSC](https://www.archives.gov/files/research/jfk/releases/2025/0318/124-10273-10038.PDF)**
+
+U.S. National Archives and Records Administration / FBI · 1975-11-06 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-HSC-AFSC-1975`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/2025/0318/124-10273-10038.PDF)
+
+Fundstelle: RIF 124-10273-10038; DocId 32989695, gedruckte Scan-Seiten 195–199; besonders S. 197, NOTE; Referenz 62-116464
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
 
 <a id="src-us-wapo-sec-10k-2010"></a>
@@ -5893,6 +5968,96 @@ UK House of Commons, Parliamentary Commissioner for Standards · 2022-08-11 · S
 [PDF öffnen](https://www.parliament.uk/globalassets/documents/pcfs/rectifications/rt-hon-david-lammy-mp-rectification-22.pdf)
 
 Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung £5,669.57, geschätzte Transfers/Mahlzeiten £536.58; Para 14 Code breach / rectification
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
+
+<a id="src-gb-hansard-leipzig-19600315"></a>
+### UK Parliament / Hansard
+
+**[Leipzig Fair, House of Commons](https://hansard.parliament.uk/Commons/1960-03-15/debates/5602bdd5-8957-4307-86ad-ee40be90e2cf/CommonsChamber)**
+
+UK Parliament / Hansard · 1960-03-15 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-LEIPZIG-19600315`
+
+[Seite öffnen](https://hansard.parliament.uk/Commons/1960-03-15/debates/5602bdd5-8957-4307-86ad-ee40be90e2cf/CommonsChamber)
+
+Fundstelle: Frage 23 von S. Silverman, Antwort Erroll
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1961">
+
+<a id="src-gb-hansard-eastwest-1961"></a>
+### UK Parliament / Hansard
+
+**[East-West Trade (Development), HC Deb vol. 639 cc38–100](https://api.parliament.uk/historic-hansard/commons/1961/apr/24/east-west-trade-development)**
+
+UK Parliament / Hansard · 1961-04-24 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-EASTWEST-1961`
+
+[Seite öffnen](https://api.parliament.uk/historic-hansard/commons/1961/apr/24/east-west-trade-development)
+
+Fundstelle: Currie cc38,45–46; Lewis cc49–51,55; Rodgers cc58,62–63
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-privilege-19620312"></a>
+### UK Parliament / Hansard
+
+**[Complaint of Privilege, House of Commons](https://hansard.parliament.uk/commons/1962-03-12/debates/33171795-1b03-44ec-bc07-b909ec41f2b0/ComplaintOfPrivilege)**
+
+UK Parliament / Hansard · 1962-03-12 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-PRIVILEGE-19620312`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-12/debates/33171795-1b03-44ec-bc07-b909ec41f2b0/ComplaintOfPrivilege)
+
+Fundstelle: George Jeger; zitiert Sunday Telegraph vom 11.03.1962, Titelseite; Speaker kündigt Entscheidung an
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-privilege-19620313"></a>
+### UK Parliament / Hansard
+
+**[Complaint of Privilege, Entscheidung des Speakers](https://hansard.parliament.uk/commons/1962-03-13/debates/3e2d8f9a-bbbf-49d1-9c13-a422fd9dec81/CommonsChamber)**
+
+UK Parliament / Hansard · 1962-03-13 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-PRIVILEGE-19620313`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-13/debates/3e2d8f9a-bbbf-49d1-9c13-a422fd9dec81/CommonsChamber)
+
+Fundstelle: Abschnitt Complaint of Privilege unmittelbar nach New Member Sworn
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-leipzig-19620319"></a>
+### UK Parliament / Hansard
+
+**[East Germany (Leipzig Fair), House of Commons](https://hansard.parliament.uk/%E2%80%8CCommons/1962-03-19/debates/91161cd3-2ec6-4486-8e5b-390bb4a04f7b/CommonsChamber)**
+
+UK Parliament / Hansard · 1962-03-19 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-LEIPZIG-19620319`
+
+[Seite öffnen](https://hansard.parliament.uk/%E2%80%8CCommons/1962-03-19/debates/91161cd3-2ec6-4486-8e5b-390bb4a04f7b/CommonsChamber)
+
+Fundstelle: Fragen 32–33; Zilliacus, Jeger, Heath
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-drayson-1962"></a>
+### UK Parliament / Hansard
+
+**[House of Commons: Orders of the Day – Import Duties (Anti-Dumping), Drayson](https://hansard.parliament.uk/commons/1962-03-21/debates/a2a3868a-00bb-4a32-aae5-050607372219/OrdersOfTheDay)**
+
+UK Parliament / Hansard · 1962-03-21 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-DRAYSON-1962`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-21/debates/a2a3868a-00bb-4a32-aae5-050607372219/OrdersOfTheDay)
+
+Fundstelle: Redebeitrag Mr G. B. Drayson (Skipton), 7.55 p.m.; Erklärung des eigenen Interesses
 
 </article>
 
@@ -6562,6 +6727,21 @@ Fundstelle: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mi
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-au-anu-dgr-e262-136"></a>
+### Australian National University, Noel Butlin Archives Centre
+
+**[Democratic German Report, John Peet, Berlin – Archivverzeichnung](https://archivescollection.anu.edu.au/index.php/democratic-german-report-john-peet-berlin-2)**
+
+Australian National University, Noel Butlin Archives Centre · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-AU-ANU-DGR-E262-136`
+
+[Seite öffnen](https://archivescollection.anu.edu.au/index.php/democratic-german-report-john-peet-berlin-2)
+
+Fundstelle: AU NBAC E262-136, Laufzeit 1970–1972
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
 
 <a id="src-uy-bcu-vaz-npl-1999-tab38"></a>
@@ -6589,6 +6769,21 @@ Bayerische Polizei / Bayerisches Landeskriminalamt · 2025 · Stufe **B** · Sek
 [Seite öffnen](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
 
 Fundstelle: Abschnitt 'Die Ermittlungen': 'Am 27. September um 11 Uhr übernahm Generalbundesanwalt Kurt Rebmann das Verfahren als Ermittlungsführer'
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2010">
+
+<a id="src-gb-berger-laporte-friendly-enemies-2010"></a>
+### Berghahn Books
+
+**[Stefan Berger / Norman LaPorte: Friendly Enemies. Britain and the GDR, 1949–1990](https://www.berghahnbooks.com/title/BergerFriendly)**
+
+Berghahn Books · 2010 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010`
+
+[Seite öffnen](https://www.berghahnbooks.com/title/BergerFriendly)
+
+Fundstelle: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; S. 116 Fn. 190 (Howarth 1981, GDR Monitor 5, S. 4); Textfassung über öffentlich indexierten Buchspiegel gelesen
 
 </article>
 
@@ -6664,6 +6859,21 @@ Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dalla
 [PDF öffnen](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)
 
 Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2009">
+
+<a id="src-de-bstu-engelmann-joestel-zaig-2009"></a>
+### BStU, MfS-Handbuch, heute Bundesarchiv
+
+**[Roger Engelmann / Frank Joestel: Die Zentrale Auswertungs- und Informationsgruppe](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/MfS-HB_22_Engelmann-Joestel_ZAIG_barrierefrei.pdf)**
+
+BStU, MfS-Handbuch, heute Bundesarchiv · 2009 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BSTU-ENGELMANN-JOESTEL-ZAIG-2009`
+
+[PDF öffnen](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/MfS-HB_22_Engelmann-Joestel_ZAIG_barrierefrei.pdf)
+
+Fundstelle: Gedruckte S. 49–53, besonders S. 50 Fn. 189: BStU, MfS, KS 25335/90; S. 51–53 zur organisatorischen Trennung
 
 </article>
 
@@ -6772,6 +6982,21 @@ Fundstelle: S. 9–20, 25–31; BND-Archiv 150.089; Faksimileanhang S. 32–58 (
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-stiftung-aufarbeitung-peet"></a>
+### Bundesstiftung zur Aufarbeitung der SED-Diktatur
+
+**[John Scott Peet – Wer war wer in der DDR?](https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/john-scott-peet)**
+
+Bundesstiftung zur Aufarbeitung der SED-Diktatur · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-STIFTUNG-AUFARBEITUNG-PEET`
+
+[Seite öffnen](https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/john-scott-peet)
+
+Fundstelle: Biografischer Eintrag: Herausgeberschaft ab 1952 und Einstellung der Zeitschrift im Dezember 1975
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
 
 <a id="src-de-bpb-farin-scheinrevolution-2010"></a>
@@ -6842,6 +7067,21 @@ Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin
 Bundeszentrale für politische Bildung · 2026-03-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-BND-2026`
 
 [Seite öffnen](https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
+
+<a id="src-de-bpb-howarth-2017"></a>
+### Bundeszentrale für politische Bildung, Deutschland Archiv
+
+**[Marianne Howarth: The British Press and the German Democratic Republic](https://www.bpb.de/themen/deutschlandarchiv/261931/the-british-press-and-the-german-democratic-republic/)**
+
+Bundeszentrale für politische Bildung, Deutschland Archiv · 2017-12-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-HOWARTH-2017`
+
+[Seite öffnen](https://www.bpb.de/themen/deutschlandarchiv/261931/the-british-press-and-the-german-democratic-republic/)
+
+Fundstelle: The Context for British Press reporting of the GDR; Reporting the GDR: The Campaign for Recognition; Fn. 7, 24
 
 </article>
 
@@ -6917,6 +7157,21 @@ dapd / Die Welt · 2012-12-06 · Stufe **B** · Sekundär-/Forschungsquelle · `
 [Seite öffnen](https://www.welt.de/newsticker/news3/article111852382/Ermittler-entlasten-geschassten-ThyssenKrupp-Manager-teilweise.html)
 
 Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise gesondert.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1962">
+
+<a id="src-de-ostpreussenblatt-19620505"></a>
+### Das Ostpreußenblatt
+
+**[Das Ostpreußenblatt, Jahrgang 13 Folge 18](https://archiv.preussische-allgemeine.de/1962/1962_05_05_18.pdf)**
+
+Das Ostpreußenblatt · 1962-05-05 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-DE-OSTPREUSSENBLATT-19620505`
+
+[PDF öffnen](https://archiv.preussische-allgemeine.de/1962/1962_05_05_18.pdf)
+
+Fundstelle: Gedruckte S. 4; Bericht über Sunday Telegraph und Osthandel
 
 </article>
 
@@ -7550,6 +7805,21 @@ Fundstelle: Abschnitte Gründung / Schwerpunkte / Auflösung ADK bis 1969, SPR a
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-hdg-dgr-zp355"></a>
+### Stiftung Haus der Geschichte der Bundesrepublik Deutschland
+
+**[Bestandsverzeichnis Zeitschriften: Democratic German Report](https://www.hdg.de/onlineprojekte/zeitschriften/zeitschriften.php)**
+
+Stiftung Haus der Geschichte der Bundesrepublik Deutschland · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-HDG-DGR-ZP355`
+
+[Seite öffnen](https://www.hdg.de/onlineprojekte/zeitschriften/zeitschriften.php)
+
+Fundstelle: ZP 355, Erscheinungszeitraum 1952–1975
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="2017">
 
 <a id="src-de-spr-mediennetz-2017"></a>
@@ -7622,6 +7892,21 @@ taz / Hermann Rheindorf · 1997-07-03 · Stufe **B** · Sekundär-/Forschungsque
 [Seite öffnen](https://taz.de/Zuhaelter-und-Prostituierte/!1393455/)
 
 Fundstelle: Landgericht Köln am 02.07.1997: Klage FAZ/Ulfkotte gegen Rössel abgewiesen; Konzern-Pressefahrt und spätere Shell-Werbevideonutzung des FAZ-Artikels
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1978">
+
+<a id="src-gb-spectator-sternberg-1978"></a>
+### The Spectator
+
+**[Sternberg’s circus](https://archive.spectator.co.uk/article/14th-january-1978/14/sternbergs-circus)**
+
+The Spectator · 1978-01-14 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-GB-SPECTATOR-STERNBERG-1978`
+
+[Seite öffnen](https://archive.spectator.co.uk/article/14th-january-1978/14/sternbergs-circus)
+
+Fundstelle: S. 14; indexierte Textauszüge
 
 </article>
 
