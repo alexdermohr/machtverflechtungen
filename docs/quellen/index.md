@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**524 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**531 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5896,6 +5896,21 @@ Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-drayson-1962"></a>
+### UK Parliament / Hansard
+
+**[House of Commons: Orders of the Day – Import Duties (Anti-Dumping), Drayson](https://hansard.parliament.uk/commons/1962-03-21/debates/a2a3868a-00bb-4a32-aae5-050607372219/OrdersOfTheDay)**
+
+UK Parliament / Hansard · 1962-03-21 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-DRAYSON-1962`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-21/debates/a2a3868a-00bb-4a32-aae5-050607372219/OrdersOfTheDay)
+
+Fundstelle: Redebeitrag Mr G. B. Drayson (Skipton), 7.55 p.m.; Erklärung des eigenen Interesses
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-int-eg-mptf-suof-2025"></a>
@@ -6562,6 +6577,21 @@ Fundstelle: Faksimile der New-York-Times-Anzeige; Namensliste und Fußnote zu Mi
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-au-anu-dgr-e262-136"></a>
+### Australian National University, Noel Butlin Archives Centre
+
+**[Democratic German Report, John Peet, Berlin – Archivverzeichnung](https://archivescollection.anu.edu.au/index.php/democratic-german-report-john-peet-berlin-2)**
+
+Australian National University, Noel Butlin Archives Centre · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-AU-ANU-DGR-E262-136`
+
+[Seite öffnen](https://archivescollection.anu.edu.au/index.php/democratic-german-report-john-peet-berlin-2)
+
+Fundstelle: AU NBAC E262-136, Laufzeit 1970–1972
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
 
 <a id="src-uy-bcu-vaz-npl-1999-tab38"></a>
@@ -6589,6 +6619,21 @@ Bayerische Polizei / Bayerisches Landeskriminalamt · 2025 · Stufe **B** · Sek
 [Seite öffnen](https://www.polizei.bayern.de/wir-ueber-uns/geschichte/003413/index.html)
 
 Fundstelle: Abschnitt 'Die Ermittlungen': 'Am 27. September um 11 Uhr übernahm Generalbundesanwalt Kurt Rebmann das Verfahren als Ermittlungsführer'
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2010">
+
+<a id="src-gb-berger-laporte-friendly-enemies-2010"></a>
+### Berghahn Books
+
+**[Stefan Berger / Norman LaPorte: Friendly Enemies. Britain and the GDR, 1949–1990](https://www.berghahnbooks.com/title/BergerFriendly)**
+
+Berghahn Books · 2010 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010`
+
+[Seite öffnen](https://www.berghahnbooks.com/title/BergerFriendly)
+
+Fundstelle: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; Textfassung über öffentlich indexierten Buchspiegel gelesen
 
 </article>
 
@@ -6664,6 +6709,21 @@ Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dalla
 [PDF öffnen](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)
 
 Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2009">
+
+<a id="src-de-bstu-engelmann-joestel-zaig-2009"></a>
+### BStU, MfS-Handbuch, heute Bundesarchiv
+
+**[Roger Engelmann / Frank Joestel: Die Zentrale Auswertungs- und Informationsgruppe](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/MfS-HB_22_Engelmann-Joestel_ZAIG_barrierefrei.pdf)**
+
+BStU, MfS-Handbuch, heute Bundesarchiv · 2009 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BSTU-ENGELMANN-JOESTEL-ZAIG-2009`
+
+[PDF öffnen](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/MfS-HB_22_Engelmann-Joestel_ZAIG_barrierefrei.pdf)
+
+Fundstelle: Gedruckte S. 49–53, besonders S. 50 Fn. 189: BStU, MfS, KS 25335/90; S. 51–53 zur organisatorischen Trennung
 
 </article>
 
@@ -6772,6 +6832,21 @@ Fundstelle: S. 9–20, 25–31; BND-Archiv 150.089; Faksimileanhang S. 32–58 (
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-stiftung-aufarbeitung-peet"></a>
+### Bundesstiftung zur Aufarbeitung der SED-Diktatur
+
+**[John Scott Peet – Wer war wer in der DDR?](https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/john-scott-peet)**
+
+Bundesstiftung zur Aufarbeitung der SED-Diktatur · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-STIFTUNG-AUFARBEITUNG-PEET`
+
+[Seite öffnen](https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/john-scott-peet)
+
+Fundstelle: Biografischer Eintrag: Herausgeberschaft ab 1952 und Einstellung der Zeitschrift im Dezember 1975
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2010">
 
 <a id="src-de-bpb-farin-scheinrevolution-2010"></a>
@@ -6842,6 +6917,21 @@ Fundstelle: Abschnitt über den Bombenanschlagsversuch der Tupamaros West-Berlin
 Bundeszentrale für politische Bildung · 2026-03-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-BND-2026`
 
 [Seite öffnen](https://www.bpb.de/kurz-knapp/hintergrund-aktuell/576795/april-1956-gruendung-des-bundesnachrichtendienstes/)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
+
+<a id="src-de-bpb-howarth-2017"></a>
+### Bundeszentrale für politische Bildung, Deutschland Archiv
+
+**[Marianne Howarth: The British Press and the German Democratic Republic](https://www.bpb.de/themen/deutschlandarchiv/261931/the-british-press-and-the-german-democratic-republic/)**
+
+Bundeszentrale für politische Bildung, Deutschland Archiv · 2017-12-31 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BPB-HOWARTH-2017`
+
+[Seite öffnen](https://www.bpb.de/themen/deutschlandarchiv/261931/the-british-press-and-the-german-democratic-republic/)
+
+Fundstelle: The Context for British Press reporting of the GDR; Reporting the GDR: The Campaign for Recognition; Fn. 7, 24
 
 </article>
 
@@ -7547,6 +7637,21 @@ Stiftung Bundeskanzler-Adenauer-Haus · undated · Stufe **B** · Sekundär-/For
 [Seite öffnen](https://www.konrad-adenauer.de/seite/arbeitsgemeinschaft-demokratischer-kreise/)
 
 Fundstelle: Abschnitte Gründung / Schwerpunkte / Auflösung ADK bis 1969, SPR als Nachfolge und Auflösung 2001
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-hdg-dgr-zp355"></a>
+### Stiftung Haus der Geschichte der Bundesrepublik Deutschland
+
+**[Bestandsverzeichnis Zeitschriften: Democratic German Report](https://www.hdg.de/onlineprojekte/zeitschriften/zeitschriften.php)**
+
+Stiftung Haus der Geschichte der Bundesrepublik Deutschland · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-HDG-DGR-ZP355`
+
+[Seite öffnen](https://www.hdg.de/onlineprojekte/zeitschriften/zeitschriften.php)
+
+Fundstelle: ZP 355, Erscheinungszeitraum 1952–1975
 
 </article>
 

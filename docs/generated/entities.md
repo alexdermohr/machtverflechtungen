@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**565 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**574 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -43,6 +43,7 @@
 | Fritz Baier | person | `PER-DE-FRITZ-BAIER` | DE | [1](network.md#rel-de-pullach-004) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
+| George Burnaby Drayson | person | `PER-GB-BURNABY-DRAYSON` | GB | [4](network.md#rel-de-ddr-uk-006) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gerhard Wessel | person | `PER-DE-GERHARD-WESSEL` | DE | [3](network.md#rel-de-kauka-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
@@ -68,10 +69,11 @@
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
+| John Scott Peet | person | `PER-GB-JOHN-SCOTT-PEET` | GB, DE | [2](network.md#rel-de-ddr-uk-002) |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
 | José Roberto Toscano Dantas | person | `PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS` | BR | [2](network.md#rel-ws-esca-adviser) |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
-| Julius Mader | person | `PER-DE-JULIUS-MADER` | DE | [2](network.md#rel-de-pullach-003) |
+| Julius Mader | person | `PER-DE-JULIUS-MADER` | DE | [3](network.md#rel-de-pullach-003) |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
@@ -291,6 +293,7 @@
 | Cámara de Diputados de Chile | national_legislative_chamber | `ORG-CL-CHAMBER-OF-DEPUTIES` | CL | [1](network.md#rel-cl-allende-chamber-withdrawal-1971) |
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Deloitte & Touche (Bahamas, 1991) | professional_services | `ORG-BS-DELOITTE-TOUCHE-1991` | BS | [3](network.md#rel-riggs-followup-010) |
+| Democratic German Report (1952–1975) | media_outlet | `ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT` | DE | [3](network.md#rel-de-ddr-uk-001) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
 | Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [5](network.md#rel-de-bnd-media-016) |
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
@@ -299,6 +302,7 @@
 | Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09) | commercial_bank | `ORG-DE-DEUTSCHE-BANK-2008` | DE | [2](network.md#rel-de-ab-deutschebank-sponsor-2009-001) |
 | Deutsche Bundesbank (Sponsor 2008/09) | central_bank | `ORG-DE-BUNDESBANK-2008` | DE | [1](network.md#rel-de-ab-bundesbank-sponsor-2009-001) |
 | Deutsche Bürgerinitiative | organization | `ORG-DE-DEUTSCHE-BUERGERINITIATIVE` | DE | [2](network.md#rel-de-da-002) |
+| Deutsche Demokratische Republik (1949–1990) | historical_state | `ORG-DE-DDR-STAAT` | DE | [3](network.md#rel-de-ddr-uk-001) |
 | Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb) | ss_owned_company | `ORG-DE-DEST-SS-HISTORIC` | DE | [2](network.md#rel-de-ss-dest-1941-001) |
 | Deutsche Gesellschaft für Sozialbeziehungen e. V. (Bonn, Förderzeitraum 1989–1990) | historical_civic_association | `ORG-DE-DGFSB-1989-1990` | DE | [1](network.md#rel-de-bmvg-dgfsb-funding-1989-1990-001) |
 | Deutsche Golddiskontbank (DEGO, historisch) | historical_financial_institution | `ORG-DE-DEGO-HISTORIC` | DE | [1](network.md#rel-de-ss-dest-1939-001) |
@@ -312,6 +316,7 @@
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [2](network.md#rel-de-tmn-004) |
 | Direction générale de la surveillance du territoire (DGST) | intelligence_service | `ORG-MA-DGST` | MA | [2](network.md#rel-de-amri-007) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
+| Dominion Export Ltd | company | `ORG-GB-DOMINION-EXPORT` | GB | [2](network.md#rel-de-ddr-uk-008) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
 | Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
@@ -368,6 +373,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
+| House of Commons (britisches Unterhaus) | legislature | `ORG-GB-HOUSE-OF-COMMONS` | GB | [1](network.md#rel-de-ddr-uk-010) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IBM Corporation (1992) | historical_company | `ORG-US-IBM-1992` | US | [1](network.md#rel-ws-ibm-osac) |
@@ -407,7 +413,8 @@
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
-| Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | [4](network.md#rel-de-pullach-001) |
+| MfS-Konzeption Sturm (Bezug April 1971) | covert_operation_plan | `PRG-DE-MFS-STURM-1971` | DE | [1](network.md#rel-de-ddr-uk-012) |
+| Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | [7](network.md#rel-de-pullach-001) |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
 | Mitsubishi UFJ Financial Group (2007) | financial_holding_company | `ORG-JP-MUFG-2007` | JP | [1](network.md#rel-riggs-post-2004-034) |
@@ -432,6 +439,7 @@
 | Nicht namentlich verifizierter Verlag (1 BvR 2575/19) | media_publisher | `ORG-DE-VERLAG-1BVR257519` | DE | [2](network.md#rel-de-bnd-media-001) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
 | Norddeutscher Rundfunk | public_broadcaster | `ORG-DE-NDR` | DE | [2](network.md#rel-de-bnd-media-005) |
+| Notley's Advertising Ltd | public_relations_agency | `ORG-GB-NOTLEYS-ADVERTISING` | GB | [3](network.md#rel-de-ddr-uk-005) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
@@ -452,6 +460,7 @@
 | Perpetual Corporation (2004) | holding_company | `ORG-US-PERPETUAL-CORPORATION-2004` | US | [2](network.md#rel-riggs-followup-032) |
 | Petroquímica Dow S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-PETROQUIMICA-DOW-1974` | CL | [1](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
+| Politbüro des ZK der SED | party_executive | `ORG-DE-SED-POLITBUERO` | DE | [1](network.md#rel-de-ddr-uk-004) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |

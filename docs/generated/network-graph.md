@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**780 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**792 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1358,6 +1358,27 @@ flowchart LR
     N_ORG_DE_BAYOBLG_1983 -->|"Vorsitzender des 3. Strafsenats lehnte Einsicht aus Gründen des BND-Geheimschutzes ab; keine gerichtliche Rechtswidrigkeitsfeststellung behauptet (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
     N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss beschloss Gegenvorstellung mit Angebot der Einsicht in Gerichtsräumen (S. 5, 3 l)"| N_ORG_DE_BAYOBLG_1983
     N_ORG_DE_BAYOBLG_1983 -->|"Erneute Ablehnung; berichtete Begründung: nicht aussonderbare nachrichtendienstliche Informationen und Schutz privater Aufzeichnungen (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
+    N_ORG_DE_DDR_STAAT["Deutsche Demokratische Republik (1949–1990)"]
+    N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT["Democratic German Report (1952–1975)"]
+    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet vollständige Finanzierung des DGR durch die DDR; konkrete zahlende Stelle, Haushaltsansätze und Beträge nicht nachgewiesen"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_PER_GB_JOHN_SCOTT_PEET["John Scott Peet"]
+    N_PER_GB_JOHN_SCOTT_PEET -->|"Herausgeber und Chefredakteur des englischsprachigen DGR 1952–1975"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_ORG_DE_MFS -->|"Berger/LaPorte S. 65 Fn. 178 berichten Überwachung 1952–1956 und erneut nach 1959; Verdacht britischer Geheimdiensttätigkeit nicht belegt; Originalakte MfS 17752/62 nicht eingesehen"| N_PER_GB_JOHN_SCOTT_PEET
+    N_ORG_DE_SED_POLITBUERO["Politbüro des ZK der SED"]
+    N_ORG_DE_SED_POLITBUERO -->|"Laut biografischem Handbuch beschloss das Politbüro im Dezember 1975 die Einstellung wegen der nicht mehr gewährleisteten politischen Linie; Originalbeschluss ausstehend"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_ORG_GB_NOTLEYS_ADVERTISING["Notley's Advertising Ltd"]
+    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Vertragsbeginn und Honorar offen"| N_ORG_GB_NOTLEYS_ADVERTISING
+    N_PER_GB_BURNABY_DRAYSON["George Burnaby Drayson"]
+    N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Drayson als einen von zwei konservativen Abgeordneten mit Beratungsverhältnis zu Notley; Honorare, Vertragsbeginn und zweiter Name nicht direkt belegt"| N_PER_GB_BURNABY_DRAYSON
+    N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Formulierung von Draysons Pressebriefen zum Fall Franz Krahl im Dezember 1960 durch Notley; keine ursprünglichen Entwürfe eingesehen"| N_PER_GB_BURNABY_DRAYSON
+    N_ORG_GB_DOMINION_EXPORT["Dominion Export Ltd"]
+    N_PER_GB_BURNABY_DRAYSON -->|"Berger/LaPorte S. 72 beschreiben Drayson als Direktor der Dominion Export Ltd im Zusammenhang mit dem Handelsgeschäft 1953; genaue Amtsdauer offen"| N_ORG_GB_DOMINION_EXPORT
+    N_ORG_GB_DOMINION_EXPORT -->|"Berger/LaPorte S. 72: Handelsvereinbarung im Herbst 1953 über rund 3 Mio. GBP, Kalieinfuhr und Lebensmittelexport; Vertragswert, keine tatsächliche Zahlung oder persönliche Vergütung nachgewiesen"| N_ORG_DE_DDR_STAAT
+    N_ORG_GB_HOUSE_OF_COMMONS["House of Commons (britisches Unterhaus)"]
+    N_PER_GB_BURNABY_DRAYSON -->|"Drayson erklärt am 21.03.1962 öffentlich sein Interesse: eine mit ihm verbundene, im Beitrag nicht namentlich genannte Firma importiere DDR-Ammoniumsulfat und Kali"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_PER_DE_JULIUS_MADER -->|"Engelmann/Joestel S. 50 Fn. 189: Mader 1962–1989 Offizier im besonderen Einsatz im MfS-Agitationsbereich, unter Verweis auf Kaderakte KS 25335/90; Originalakte ausstehend"| N_ORG_DE_MFS
+    N_PRG_DE_MFS_STURM_1971["MfS-Konzeption Sturm (Bezug April 1971)"]
+    N_ORG_DE_MFS -->|"K 1/21 Abschnitt 3.3 d: Plan zur Vortäuschung konspirativer Aktivität; Verweis auf Konzeption Sturm; keine konkret ausgeführte Maßnahme oder Wirkung damit belegt"| N_PRG_DE_MFS_STURM_1971
 ```
 
 [Zur Relationstabelle](network.md)

@@ -1164,3 +1164,19 @@ studies:
     - REL-DE-LANG-II-006
     - REL-DE-LANG-II-007
     - REL-DE-LANG-II-008
+  ddr-grossbritannien-medienfinanzierung-handel-1952-1975.md:
+    sha256: 6f46e9adf0a7a9f764c65758ddd25a819d94c682999eeea0e8435e5e29445250
+    status: network
+    relation_ids:
+    - REL-DE-DDR-UK-001
+    - REL-DE-DDR-UK-002
+    - REL-DE-DDR-UK-003
+    - REL-DE-DDR-UK-004
+    - REL-DE-DDR-UK-005
+    - REL-DE-DDR-UK-006
+    - REL-DE-DDR-UK-007
+    - REL-DE-DDR-UK-008
+    - REL-DE-DDR-UK-009
+    - REL-DE-DDR-UK-010
+    - REL-DE-DDR-UK-011
+    - REL-DE-DDR-UK-012

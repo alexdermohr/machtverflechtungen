@@ -7164,3 +7164,127 @@ relations:
     - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
     period:
       start: '1983-11-22'
+  - id: REL-DE-DDR-UK-001
+    from: ORG-DE-DDR-STAAT
+    to: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: reported_public_funding
+    label: Howarth berichtet vollständige Finanzierung des DGR durch die DDR; konkrete zahlende Stelle, Haushaltsansätze und Beträge nicht nachgewiesen
+    evidence_level: strong
+    sources:
+    - SRC-DE-BPB-HOWARTH-2017
+    period:
+      start: '1952'
+      end: '1975'
+  - id: REL-DE-DDR-UK-002
+    from: PER-GB-JOHN-SCOTT-PEET
+    to: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: editorial_role
+    label: Herausgeber und Chefredakteur des englischsprachigen DGR 1952–1975
+    evidence_level: strong
+    sources:
+    - SRC-DE-BPB-HOWARTH-2017
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+    - SRC-DE-STIFTUNG-AUFARBEITUNG-PEET
+    period:
+      start: '1952'
+      end: '1975'
+  - id: REL-DE-DDR-UK-003
+    from: ORG-DE-MFS
+    to: PER-GB-JOHN-SCOTT-PEET
+    type: reported_surveillance
+    label: Berger/LaPorte S. 65 Fn. 178 berichten Überwachung 1952–1956 und erneut nach 1959; Verdacht britischer Geheimdiensttätigkeit nicht belegt; Originalakte MfS 17752/62 nicht eingesehen
+    evidence_level: strong
+    sources:
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+  - id: REL-DE-DDR-UK-004
+    from: ORG-DE-SED-POLITBUERO
+    to: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: reported_publication_termination
+    label: Laut biografischem Handbuch beschloss das Politbüro im Dezember 1975 die Einstellung wegen der nicht mehr gewährleisteten politischen Linie; Originalbeschluss ausstehend
+    evidence_level: strong
+    sources:
+    - SRC-DE-STIFTUNG-AUFARBEITUNG-PEET
+    period:
+      start: '1975'
+  - id: REL-DE-DDR-UK-005
+    from: ORG-DE-DDR-STAAT
+    to: ORG-GB-NOTLEYS-ADVERTISING
+    type: reported_public_relations_mandate
+    label: Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Vertragsbeginn und Honorar offen
+    evidence_level: strong
+    sources:
+    - SRC-DE-BPB-HOWARTH-2017
+    period:
+      start: '1960'
+  - id: REL-DE-DDR-UK-006
+    from: ORG-GB-NOTLEYS-ADVERTISING
+    to: PER-GB-BURNABY-DRAYSON
+    type: reported_consulting_engagement
+    label: Howarth berichtet Drayson als einen von zwei konservativen Abgeordneten mit Beratungsverhältnis zu Notley; Honorare, Vertragsbeginn und zweiter Name nicht direkt belegt
+    evidence_level: strong
+    sources:
+    - SRC-DE-BPB-HOWARTH-2017
+    period:
+      start: '1960'
+  - id: REL-DE-DDR-UK-007
+    from: ORG-GB-NOTLEYS-ADVERTISING
+    to: PER-GB-BURNABY-DRAYSON
+    type: reported_press_letter_drafting
+    label: Howarth berichtet Formulierung von Draysons Pressebriefen zum Fall Franz Krahl im Dezember 1960 durch Notley; keine ursprünglichen Entwürfe eingesehen
+    evidence_level: strong
+    sources:
+    - SRC-DE-BPB-HOWARTH-2017
+    period:
+      start: '1960'
+  - id: REL-DE-DDR-UK-008
+    from: PER-GB-BURNABY-DRAYSON
+    to: ORG-GB-DOMINION-EXPORT
+    type: reported_management_role
+    label: Berger/LaPorte S. 72 beschreiben Drayson als Direktor der Dominion Export Ltd im Zusammenhang mit dem Handelsgeschäft 1953; genaue Amtsdauer offen
+    evidence_level: strong
+    sources:
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+    period:
+      start: '1953'
+  - id: REL-DE-DDR-UK-009
+    from: ORG-GB-DOMINION-EXPORT
+    to: ORG-DE-DDR-STAAT
+    type: reported_trade_agreement
+    label: 'Berger/LaPorte S. 72: Handelsvereinbarung im Herbst 1953 über rund 3 Mio. GBP, Kalieinfuhr und Lebensmittelexport; Vertragswert, keine tatsächliche Zahlung oder persönliche
+      Vergütung nachgewiesen'
+    evidence_level: strong
+    sources:
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+    period:
+      start: '1953'
+  - id: REL-DE-DDR-UK-010
+    from: PER-GB-BURNABY-DRAYSON
+    to: ORG-GB-HOUSE-OF-COMMONS
+    type: declared_business_interest
+    label: 'Drayson erklärt am 21.03.1962 öffentlich sein Interesse: eine mit ihm verbundene, im Beitrag nicht namentlich genannte Firma importiere DDR-Ammoniumsulfat und Kali'
+    evidence_level: established
+    sources:
+    - SRC-GB-HANSARD-DRAYSON-1962
+    period:
+      start: '1962-03-21'
+  - id: REL-DE-DDR-UK-011
+    from: PER-DE-JULIUS-MADER
+    to: ORG-DE-MFS
+    type: employed_by
+    label: 'Engelmann/Joestel S. 50 Fn. 189: Mader 1962–1989 Offizier im besonderen Einsatz im MfS-Agitationsbereich, unter Verweis auf Kaderakte KS 25335/90; Originalakte ausstehend'
+    evidence_level: strong
+    sources:
+    - SRC-DE-BSTU-ENGELMANN-JOESTEL-ZAIG-2009
+    period:
+      start: '1962'
+      end: '1989'
+  - id: REL-DE-DDR-UK-012
+    from: ORG-DE-MFS
+    to: PRG-DE-MFS-STURM-1971
+    type: planned_disinformation
+    label: 'K 1/21 Abschnitt 3.3 d: Plan zur Vortäuschung konspirativer Aktivität; Verweis auf Konzeption Sturm; keine konkret ausgeführte Maßnahme oder Wirkung damit belegt'
+    evidence_level: strong
+    sources:
+    - SRC-DE-BARCH-MFS-K121-1971
+    period:
+      start: '1971-04-06'

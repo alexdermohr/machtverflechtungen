@@ -5971,3 +5971,82 @@ sources:
   locator: Gedruckte S. 5–6, Abschnitt 3 j–l und 4 a–d; über indexierten Text der amtlichen PDF-Quelle geprüft
   notes: Primärquelle für den Ausschussbericht, die dort wiedergegebenen Entscheidungen und Verfahrensabläufe. Faksimileseiten aktuell nicht abrufbar; Originalschreiben, gerichtliche
     Akten und Rechtskraft gesondert prüfen. Kein Beleg einer rechtswidrigen Vertuschung.
+- id: SRC-DE-BPB-HOWARTH-2017
+  title: 'Marianne Howarth: The British Press and the German Democratic Republic'
+  institution: Bundeszentrale für politische Bildung, Deutschland Archiv
+  date: '2017-12-31'
+  type: historical_research
+  primary: false
+  tier: B
+  url: https://www.bpb.de/themen/deutschlandarchiv/261931/the-british-press-and-the-german-democratic-republic/
+  accessed: '2026-11-27'
+  locator: 'The Context for British Press reporting of the GDR; Reporting the GDR: The Campaign for Recognition; Fn. 7, 24'
+  notes: Forschungsdarstellung; Finanzierung DGR und PR-/Beratungsbeziehungen berichtet; keine Originalverträge oder Einzelzahlungen eingesehen.
+- id: SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+  title: 'Stefan Berger / Norman LaPorte: Friendly Enemies. Britain and the GDR, 1949–1990'
+  institution: Berghahn Books
+  date: '2010'
+  type: historical_monograph
+  primary: false
+  tier: B
+  url: https://www.berghahnbooks.com/title/BergerFriendly
+  accessed: '2026-11-27'
+  locator: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; Textfassung über öffentlich indexierten Buchspiegel gelesen
+  notes: Für Überwachung und Außenministeriumsbeurteilung werden MfS HA II/13 836 und MfS 17752/62 genannt. S. 72 Fn. 203 verweist für Drayson nur auf Glees 2003, S. 71; diese Angabe
+    ist noch keine selbst geprüfte Originalakte. Handelsvertrag ca. 3 Mio. GBP, keine Zahlungsbilanz.
+- id: SRC-DE-STIFTUNG-AUFARBEITUNG-PEET
+  title: John Scott Peet – Wer war wer in der DDR?
+  institution: Bundesstiftung zur Aufarbeitung der SED-Diktatur
+  date: null
+  type: biographical_reference
+  primary: false
+  tier: B
+  url: https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/john-scott-peet
+  accessed: '2026-11-27'
+  locator: 'Biografischer Eintrag: Herausgeberschaft ab 1952 und Einstellung der Zeitschrift im Dezember 1975'
+  notes: Indexierter Volltext verfügbar; direkte Seite beim erneuten Abruf HTTP 403. Originalbeschluss des Politbüros nicht eingesehen; keine künstliche Datierung des Onlineeintrags.
+- id: SRC-GB-HANSARD-DRAYSON-1962
+  title: 'House of Commons: Orders of the Day – Import Duties (Anti-Dumping), Drayson'
+  institution: UK Parliament / Hansard
+  date: '1962-03-21'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://hansard.parliament.uk/commons/1962-03-21/debates/a2a3868a-00bb-4a32-aae5-050607372219/OrdersOfTheDay
+  accessed: '2026-11-27'
+  locator: Redebeitrag Mr G. B. Drayson (Skipton), 7.55 p.m.; Erklärung des eigenen Interesses
+  notes: Amtliche Transkription. Drayson nennt eine mit ihm verbundene Importfirma, nicht deren Namen; bestätigt offengelegtes Geschäftsinteresse, nicht Vergütung oder geheime Tätigkeit.
+- id: SRC-DE-BSTU-ENGELMANN-JOESTEL-ZAIG-2009
+  title: 'Roger Engelmann / Frank Joestel: Die Zentrale Auswertungs- und Informationsgruppe'
+  institution: BStU, MfS-Handbuch, heute Bundesarchiv
+  date: '2009'
+  type: historical_research
+  primary: false
+  tier: B
+  url: https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/MfS-HB_22_Engelmann-Joestel_ZAIG_barrierefrei.pdf
+  accessed: '2026-11-27'
+  locator: 'Gedruckte S. 49–53, besonders S. 50 Fn. 189: BStU, MfS, KS 25335/90; S. 51–53 zur organisatorischen Trennung'
+  notes: Indexierter PDF-Text geprüft; Seitenbilder nicht abrufbar. Kaderakte nicht selbst eingesehen. Forschung benennt Maders OibE-Tätigkeit und unterscheidet echtes Material, selektive
+    Darstellung und Manipulation.
+- id: SRC-AU-ANU-DGR-E262-136
+  title: Democratic German Report, John Peet, Berlin – Archivverzeichnung
+  institution: Australian National University, Noel Butlin Archives Centre
+  date: null
+  type: archival_catalogue
+  primary: false
+  tier: B
+  url: https://archivescollection.anu.edu.au/index.php/democratic-german-report-john-peet-berlin-2
+  accessed: '2026-11-27'
+  locator: AU NBAC E262-136, Laufzeit 1970–1972
+  notes: Bestandsnachweis im Gewerkschaftsarchiv; kein Nachweis der konkreten Ausgabe März 1971 oder ihres Empfangswegs.
+- id: SRC-DE-HDG-DGR-ZP355
+  title: 'Bestandsverzeichnis Zeitschriften: Democratic German Report'
+  institution: Stiftung Haus der Geschichte der Bundesrepublik Deutschland
+  date: null
+  type: archival_catalogue
+  primary: false
+  tier: B
+  url: https://www.hdg.de/onlineprojekte/zeitschriften/zeitschriften.php
+  accessed: '2026-11-27'
+  locator: ZP 355, Erscheinungszeitraum 1952–1975
+  notes: Bestandsnachweis; Vollständigkeit des Jahrgangs 1971 und Nr. 5 nicht geprüft.

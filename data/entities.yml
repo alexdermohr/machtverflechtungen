@@ -3206,3 +3206,59 @@ entities:
     countries:
     - DE
     notes: Gericht des von Langemann angestrengten Verfahrens zur Einsichtnahme in seine Aufzeichnungen. Ergebnis hier nicht nachgewiesen.
+  - id: ORG-DE-DDR-STAAT
+    type: historical_state
+    name: Deutsche Demokratische Republik (1949–1990)
+    countries:
+    - DE
+    notes: Historischer Staat; aggregierter Knoten, wenn die Literatur keine konkret zahlende Dienststelle benennt. Nicht identisch mit SED oder MfS.
+  - id: ORG-DE-SED-POLITBUERO
+    type: party_executive
+    name: Politbüro des ZK der SED
+    countries:
+    - DE
+    notes: Parteiführung; konkrete Einstellung des DGR im Dezember 1975 laut biografischer Forschung, Originalbeschluss ausstehend.
+  - id: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: media_outlet
+    name: Democratic German Report (1952–1975)
+    countries:
+    - DE
+    notes: Englischsprachiger Informationsdienst aus Ost-Berlin; im MfS-Dokument K1/21 als German Democratic Report bezeichnet. Zuordnung zur Ausgabe 3.3.1971 folgt den editorischen Angaben;
+      Originalheft nicht eingesehen.
+  - id: PER-GB-JOHN-SCOTT-PEET
+    type: person
+    name: John Scott Peet
+    countries:
+    - GB
+    - DE
+    notes: Britischer Journalist; früher Reuters, 1952–1975 Herausgeber des DGR. Beobachtung durch MfS ist keine Agentenführung.
+  - id: ORG-GB-NOTLEYS-ADVERTISING
+    type: public_relations_agency
+    name: Notley's Advertising Ltd
+    countries:
+    - GB
+    notes: Londoner PR-Agentur; DDR-Mandat und Beraterbeziehungen um 1960 laut Howarth. Originalverträge und Honorare fehlen.
+  - id: PER-GB-BURNABY-DRAYSON
+    type: person
+    name: George Burnaby Drayson
+    countries:
+    - GB
+    notes: Konservativer Unterhausabgeordneter; öffentlich erklärte Geschäftsinteressen am DDR-Handel 1962. Beratungsverhältnis laut Howarth, keine Agentenzuschreibung.
+  - id: ORG-GB-DOMINION-EXPORT
+    type: company
+    name: Dominion Export Ltd
+    countries:
+    - GB
+    notes: Britische Handelsfirma, laut Berger/LaPorte 1953 unter Mitwirkung Draysons im DDR-Handel; ursprünglicher Vertrag und Registerakte nicht eingesehen.
+  - id: ORG-GB-HOUSE-OF-COMMONS
+    type: legislature
+    name: House of Commons (britisches Unterhaus)
+    countries:
+    - GB
+    notes: Parlamentarischer Ort der öffentlichen Interessenangabe Draysons am 21.3.1962.
+  - id: PRG-DE-MFS-STURM-1971
+    type: covert_operation_plan
+    name: MfS-Konzeption Sturm (Bezug April 1971)
+    countries:
+    - DE
+    notes: Historische Planung zur Vortäuschung konspirativer Tätigkeit; Bezug im MfS-Dokument K1/21, Abschnitt 3.3 d. Kein Beweis der konkreten Ausführung.
