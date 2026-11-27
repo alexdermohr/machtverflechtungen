@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**776 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**792 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -8,7 +8,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 
 - [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 49 direkte Beziehungen
 - [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
-- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 7 direkte Beziehungen
+- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 8 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
 - [BAFISUD](network-focus-bafisud.md) — 5 direkte Beziehungen
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
@@ -1358,6 +1358,28 @@ flowchart LR
     N_ORG_DE_BKA -->|"übermittelte ausgelesene Mobiltelefondaten zur Auswertung"| N_ORG_DE_BFV
     N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
     N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
+    N_ORG_DE_BMVG_1966["Bundesministerium der Verteidigung (1966)"]
+    N_ORG_DE_PARNASS_FILM_MUENCHEN["Parnass-Film GmbH (München)"]
+    N_ORG_DE_BMVG_1966 -->|"Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_ORG_DE_PARNASS_FILM_MUENCHEN -->|"Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)"| N_ORG_DE_BMVG_1966
+    N_ORG_DE_BMVG_1966 -->|"BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)"| N_ORG_DE_BND
+    N_ORG_DE_BUNDESPRESSEAMT_1966["Presse- und Informationsamt der Bundesregierung (1966)"]
+    N_ORG_DE_PARNASS_FILM_MUENCHEN -->|"Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition"| N_ORG_DE_BUNDESPRESSEAMT_1966
+    N_ORG_DE_AUSWAERTIGES_AMT_1966["Auswärtiges Amt (1966)"]
+    N_ORG_DE_BUNDESPRESSEAMT_1966 -->|"Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition"| N_ORG_DE_AUSWAERTIGES_AMT_1966
+    N_ORG_DE_AUSWAERTIGES_AMT_1966 -->|"AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)"| N_ORG_DE_BND
+    N_PER_DE_THEO_MARIA_WERNER["Theo Maria Werner"]
+    N_PER_DE_THEO_MARIA_WERNER -->|"Laut Edition übergab Werner ein Drehbuch; Originaldrehbuch nicht auffindbar"| N_ORG_DE_BND
+    N_PER_DE_REINHARD_GEHLEN -->|"Gehlen gestattete grundsätzlich Außenaufnahmen, untersagte Aufnahmen im Inneren der Zentrale; tatsächliche Nutzung nicht belegt (Edition Dok. 13)"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_PER_DE_KURT_WEISS_BND["Kurt Weiß (Winterstein)"]
+    N_PER_DE_KURT_WEISS_BND -->|"BND-Vermerk vom 28.11.1966 berichtet über Treffen am 23.11.; Werner bestätigte Rangänderungen und erklärte weitere Änderungsbereitschaft"| N_PER_DE_THEO_MARIA_WERNER
+    N_PER_DE_KURT_WEISS_BND -->|"Weiß berichtete Gehlen über Produktionsgespräch und Unterstützungswünsche (Edition Dok. 17)"| N_PER_DE_REINHARD_GEHLEN
+    N_PER_DE_KURT_WEISS_BND -->|"Weiß informierte CIA-Verbindungsstab über Filmprojekt (Edition S. 18, Dok. 18)"| N_ORG_US_CIA
+    N_ORG_US_CIA -->|"US-Dienst bestritt vorherige Kenntnis und berichtete fehlende Unterstützungszusage amerikanischer Stellen; keine nachgewiesene US-Filmhilfe (Edition Dok. 18)"| N_ORG_DE_BND
+    N_PER_DE_THEO_MARIA_WERNER -->|"Filmportal und BND-Edition nennen Werner als Produzenten der Münchner Parnass-Produktion"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
+    N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
+    N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
 ```
 
 [Zur Relationstabelle](network.md)

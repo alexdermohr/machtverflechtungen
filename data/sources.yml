@@ -6208,3 +6208,37 @@ sources:
   accessed: '2026-11-27'
   locator: "Protokoll 21/55, TOP 5 b, S. 22–23"
   notes: "Amtliches Kurzprotokoll der GBA-Unterrichtung; Textfassung eingesehen, Seitenbildabruf fehlgeschlagen. Kein Urteil oder vollzogener Vergleich."
+
+- id: SRC-DE-BND-MFG-DYNAMIT-2014
+  title: Der Bundesnachrichtendienst und das Filmprojekt Mr. Dynamit (MFGBND 7/2014)
+  institution: Bundesnachrichtendienst, Forschungs- und Arbeitsgruppe Geschichte des BND
+  date: '2014'
+  type: official_document
+  primary: false
+  tier: B
+  url: https://multimedia.gsb.bund.de/BND/Importer-Downloads/mfg7bnd.pdf
+  accessed: '2026-11-27'
+  locator: S. 9–20, 25–31; BND-Archiv 150.089; Faksimileanhang S. 32–58 (Nachprüfziele)
+  notes: 'Amtliche historische Edition: Begleittext und Dokumentbeschreibungen ausgewertet, Faksimilebilder nicht abrufbar. Retrospektive Darstellung, keine direkte Sichtung der Originalblätter.'
+- id: SRC-DE-DFF-FILMPORTAL-DYNAMIT
+  title: Mister Dynamit – Morgen küßt Euch der Tod
+  institution: Deutsches Filminstitut & Filmmuseum (filmportal.de)
+  date: '1967'
+  type: catalog
+  primary: false
+  tier: B
+  url: https://www.filmportal.de/film/mister-dynamit-morgen-kuesst-euch-der-tod_3658af8436b744e1922b9480802ee603
+  accessed: '2026-11-27'
+  locator: Produktionsangaben und Credits, BR Deutschland/Spanien/Italien 1966/1967; Jahr bezeichnet Film, nicht Katalogpublikation
+  notes: Unabhängiger Katalognachweis für Parnass-Film München und Theo Maria Werner; kein Nachweis staatlicher Unterstützung.
+- id: SRC-DE-STASI-PULLACH-INTERN-1971-ED
+  title: Auswertung der Artikelserie Pullach intern (30.07.1971), editorische Anmerkung zu Kurt Weiß
+  institution: Bundesarchiv, Stasi-Unterlagen-Archiv
+  date: '1971-07-30'
+  type: official_document
+  primary: false
+  tier: B
+  url: https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/
+  accessed: '2026-11-27'
+  locator: BArch, MfS, ZAIG 5000, Bl. 1–19 (5. Expl.), K 1/25; Anm. 10 (moderne editorische Anmerkung; URL-Jahrgang 1968 irreführend)
+  notes: Datum bezeichnet das historische Bezugsdokument, nicht das unbekannte Publikationsdatum der modernen Anmerkung 10. Nur die editorische Anmerkung für personelle Identifizierung und Tätigkeit herangezogen; historische MfS-Einschätzung nicht als erwiesene BND-Handlung behandelt.
