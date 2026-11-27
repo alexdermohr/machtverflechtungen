@@ -6614,8 +6614,7 @@ relations:
     from: ORG-DE-GBA
     to: PRG-DE-HH-NSU-FORSCHUNG
     type: denied_records_access
-    label: "Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"
-    period: {start: "2026-03-30", end: "2026-11-23"}
+    label: "Beantragte Akteneinsicht bis März 2026 nicht bewilligt; am 23.11.2026 laut Veit Vergleichsverhandlungen; Beginn der Ablehnung und Ende des Konflikts nicht belegt"
     evidence_level: established
     sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123, SRC-DE-BT-RA-NSU-20261014]
 

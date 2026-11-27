@@ -3097,7 +3097,7 @@ entities:
     notes: "Dokumentenbestand, kein einzelnes Dokument; Angaben zur Vernichtung laut Sondervotum und berichteter GBA-Auskunft."
 
   - id: ORG-DE-ST-LKA
-    type: law_enforcement
+    type: police_authority
     name: "Landeskriminalamt Sachsen-Anhalt"
     countries: [DE]
 
@@ -3141,7 +3141,7 @@ entities:
     notes: "Sammelbezeichnung für die laut Bundestagsausschuss vom MAD eingeräumten Vernichtungsfälle; ein NSU-Bezug wurde überwiegend für unwahrscheinlich gehalten, jedoch nicht in allen Fällen ausgeschlossen."
 
   - id: ORG-DE-TLKA
-    type: law_enforcement
+    type: police_authority
     name: "Thüringer Landeskriminalamt"
     countries: [DE]
 

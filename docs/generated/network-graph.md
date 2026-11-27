@@ -1278,7 +1278,7 @@ flowchart LR
     N_ORG_DE_BND -->|"Zeit laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_ZEIT
     N_ORG_DE_GBA["Generalbundesanwalt beim Bundesgerichtshof"]
     N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
-    N_ORG_DE_GBA -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
+    N_ORG_DE_GBA -->|"Beantragte Akteneinsicht bis März 2026 nicht bewilligt; am 23.11.2026 laut Veit Vergleichsverhandlungen; Beginn der Ablehnung und Ende des Konflikts nicht belegt"| N_PRG_DE_HH_NSU_FORSCHUNG
     N_ORG_DE_STA_KOELN["Staatsanwaltschaft Köln"]
     N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
     N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN

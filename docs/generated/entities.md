@@ -394,7 +394,7 @@
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-nsu-lka-vp562-001) |
 | Landeskriminalamt Nordrhein-Westfalen | police_authority | `ORG-DE-LKA-NRW` | DE | [4](network.md#rel-de-amri-001) |
-| Landeskriminalamt Sachsen-Anhalt | law_enforcement | `ORG-DE-ST-LKA` | DE | [1](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
+| Landeskriminalamt Sachsen-Anhalt | police_authority | `ORG-DE-ST-LKA` | DE | [1](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
@@ -514,7 +514,7 @@
 | Thüringer Amt für Verfassungsschutz (ab 2015) | intelligence_service | `ORG-DE-TH-AFV-2015` | DE | [2](network.md#rel-de-th-afv-tlka-pflicht-2014-001) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [8](network.md#rel-de-ths-001) |
-| Thüringer Landeskriminalamt | law_enforcement | `ORG-DE-TLKA` | DE | [3](network.md#rel-de-nsu-tlfv-tlka-info-001) |
+| Thüringer Landeskriminalamt | police_authority | `ORG-DE-TLKA` | DE | [3](network.md#rel-de-nsu-tlfv-tlka-info-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

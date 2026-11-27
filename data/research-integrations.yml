@@ -269,7 +269,7 @@ studies:
       - REL-DE-BDJ-002
 
   nsu-komplex-skandale-belegmatrix-1994-2026.md:
-    sha256: 0bf0389483281dca6d70b58059ffa758c31a8f6827dc6e195c94f01e4c064483
+    sha256: 6d05b827b4005f7924da82dd9d9b87960439801bafbc75db403164ef60741a48
     status: network
     relation_ids:
       - REL-DE-THS-001
@@ -666,7 +666,7 @@ studies:
       - REL-CL-FRG-ITT-OPIC-CREDITOR-DOSSIER-1975
 
   bfv-los-nsu-2011-2014.md:
-    sha256: d997fd11c3f9a389c3881294899ef9c7bbf677d588c77cc76ff642fce505f31a
+    sha256: b6c7a8c9d511e0a264492ee1b64acb072f687cd7ec55c7c851dd23872cffbdb3
     status: network
     relation_ids:
       - REL-DE-NSU-AKT-001
