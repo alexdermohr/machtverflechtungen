@@ -85,3 +85,9 @@ Eine koordinierte Weisungs- oder Finanzierungskette von MI5 oder MI6 über briti
 **open_question · speculative**
 
 Ob ein politischer Kontakt im Warburg-Steuerverfahren eine konkrete Verwaltungsentscheidung kausal beeinflusste, bleibt mit den hier registrierten Quellen ungeklärt.
+
+## [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](../faelle/de/amri-behoerden-aufklaerung.md) · CLM-DE-AMRI-007
+
+**hypothesis · speculative**
+
+Die Hypothese einer bewussten Duldung Amris als möglicher Nachrichtenmittler wurde 2017 von André Hahn im Sondervotum als nicht ausgeräumt bezeichnet, ist aber durch die vorliegenden Quellen nicht nachgewiesen.

@@ -22,3 +22,4 @@ Die [Beziehungs-Chronologie](relation-timeline.md) zeigt zusätzlich sämtliche 
 | 1996 | 2017 | [NSU: Quellenführung, Operation Rennsteig und Aktenvernichtung 2011](../faelle/de/nsu-v-leute-aktenvernichtung.md) | DE | 5 belegt |
 | 2006-03-24 | 2017 | [NSU-Mord an Halit Yozgat: Andreas Temme, Quellenschutz und Ermittlungen](../faelle/de/nsu-yozgat-temme.md) | DE | 4 belegt |
 | 2007 | 2025 | [Cum-Ex und Warburg: Steuererstattungen, Behördenentscheidungen und politische Kontakte](../faelle/de/cum-ex-warburg-steuerverfahren.md) | DE | 6 belegt · 1 spekulativ/offen |
+| 2015 | 2022 | [Anis Amri: Behördenwissen, Quellenschutz und Aufklärungshemmnisse](../faelle/de/amri-behoerden-aufklaerung.md) | DE, MA | 6 belegt · 1 spekulativ/offen |
