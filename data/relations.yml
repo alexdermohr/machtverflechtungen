@@ -7652,11 +7652,15 @@ relations:
     from: ORG-CO-PGN
     to: ORG-CO-SIC
     type: documented_disciplinary_decision
-    label: PGN berichtet am 17.03.2026 über erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer wegen
-      Kompetenzüberschreitungen; Rechtsmittel offen.
+    label: 'Fallo 006-26 vom 16.03.2026: erstinstanzliche Disziplinarsanktionen gegen SIC-Mitarbeiter und Auftragnehmer
+      wegen Kompetenzüberschreitungen; kein materieller Kartellentscheid, Rechtsmittelstatus offen.'
     evidence_level: established
     sources:
     - SRC-CO-PGN-SIC-2026
+    - SRC-IDNET-FALLO
+    - SRC-IDNET-FALLO-COPY
+    period:
+      start: '2026-03-16'
   - id: REL-MAUSS-PMT-029
     from: ORG-CO-CORTE-CONSTITUCIONAL
     to: ORG-CO-SIC
@@ -8095,3 +8099,257 @@ relations:
     evidence_level: strong
     period:
       start: '1964'
+
+  - id: REL-CO-IDNET-001
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-IDNET-TGS
+    type: documented_registered_contract
+    label: 'RUP-Eintrag 49 (07.01.2021): Morpho Sucursal, registrierter ausgeführter Vertragswert 2.557,00 SMMLV;
+      Datum und konkrete Leistung offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-RUP
+    - SRC-IDNET-CCB
+  - id: REL-CO-IDNET-002
+    from: ORG-CO-IDEMIA-900060799
+    to: ORG-IDNET-TGS
+    type: documented_registered_contract
+    label: 'RUP-Eintrag 178 (07.01.2021): IDEMIA Identity & Security Sucursal, 1.653,78 SMMLV; Datum und konkrete
+      Leistung offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-RUP
+    - SRC-IDNET-CCB
+  - id: REL-CO-IDNET-003
+    from: ORG-IDNET-TGS
+    to: ORG-IDNET-SIL
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-004
+    from: ORG-IDNET-SAS
+    to: ORG-IDNET-SIL
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-005
+    from: ORG-IDNET-ASSENDA
+    to: ORG-IDNET-SAS
+    type: documented_corporate_spin_off
+    label: 'Registereintrag 27.04.2011: partielle Ausgliederung zugunsten Valores Plasticar; NIT-Kontinuität zur späteren
+      SAS durch historische Zolldaten gestützt.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-PROSPEKT
+    - SRC-IDNET-PANJIVA
+    - SRC-IDNET-DIAN
+    period:
+      start: '2011-04-27'
+  - id: REL-CO-IDNET-006
+    from: ORG-IDNET-CARVAJAL
+    to: ORG-IDNET-MORPHO-BR
+    type: documented_corporate_sale
+    label: Carvajal berichtet Verkauf von Beteiligungen der drei Tochtergesellschaften in Kolumbien und Peru, zusammen
+      62.801.842 Tausend COP; Einigung August, Vollzug September 2011 laut Safran.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-CARVAJAL2011
+    - SRC-IDNET-SAFRAN2011
+    period:
+      start: '2011'
+  - id: REL-CO-IDNET-007
+    from: ORG-IDNET-MORPHO-BR
+    to: ORG-IDNET-SAS
+    type: documented_corporate_acquisition
+    label: Erwerb kolumbianischer Kartenproduktion (Valores Plasticar), September 2011; historische NIT-Kontinuität
+      zur späteren SAS gestützt, exakte Namensurkunden offen.
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-CARVAJAL2011
+    - SRC-IDNET-SAFRAN2011
+    - SRC-IDNET-PANJIVA
+    - SRC-IDNET-DIAN
+    period:
+      start: '2011'
+  - id: REL-CO-IDNET-008
+    from: ORG-IDNET-MORPHO-BR
+    to: ORG-IDNET-PLASTICAR-PE
+    type: documented_corporate_acquisition
+    label: Erwerb des peruanischen Kartenproduktionsgeschäfts im selben Verkauf 2011, keine separate Preiszuordnung.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-CARVAJAL2011
+    - SRC-IDNET-SAFRAN2011
+    period:
+      start: '2011'
+  - id: REL-CO-IDNET-009
+    from: ORG-IDNET-TGS
+    to: ORG-IDNET-PASS2014
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-010
+    from: ORG-IDNET-GEMALTO
+    to: ORG-IDNET-PASS2014
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-011
+    from: ORG-IDNET-TGS
+    to: ORG-IDNET-PERSON2015
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 45% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-012
+    from: ORG-IDNET-TGS-EXPRESS
+    to: ORG-IDNET-PERSON2015
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 4% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-013
+    from: ORG-IDNET-SEG-MOVIL
+    to: ORG-IDNET-PERSON2015
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 1% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-014
+    from: ORG-IDNET-3M
+    to: ORG-IDNET-PERSON2015
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 50% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-015
+    from: ORG-IDNET-ASSENDA
+    to: ORG-IDNET-DISPROEL18
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 36% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-016
+    from: ORG-IDNET-TGS-GUERNSEY
+    to: ORG-IDNET-DISPROEL18
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 18% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-017
+    from: ORG-IDNET-TGS
+    to: ORG-IDNET-DISPROEL18
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 2% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-018
+    from: ORG-IDNET-ASSENDA
+    to: ORG-IDNET-DISPROEL19
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 42,4% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-019
+    from: ORG-IDNET-CARVAJAL-SOL
+    to: ORG-IDNET-DISPROEL19
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 2,6% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-020
+    from: ORG-IDNET-TGS-GUERNSEY
+    to: ORG-IDNET-DISPROEL19
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 32% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-021
+    from: ORG-IDNET-TGS
+    to: ORG-IDNET-DISPROEL19
+    type: reported_consortium_participation
+    label: 'TGS-Finanzunterlagen 2019/2018: 5% laut Berichtsstand; Eintrittsdatum offen.'
+    evidence_level: strong
+    sources:
+    - SRC-IDNET-FIN
+  - id: REL-CO-IDNET-022
+    from: ORG-IDNET-TRANSPORTE
+    to: ORG-IDNET-TGS
+    type: documented_supplier_authorization
+    label: Undatierte amtliche Liste zugelassener Anbieter vorbedruckter Karten; keine Exklusivität.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-MT
+  - id: REL-CO-IDNET-023
+    from: ORG-IDNET-TRANSPORTE
+    to: ORG-IDNET-SAS
+    type: documented_supplier_authorization
+    label: Amtliche Liste nennt Morpho Cards de Colombia als einen von vier zugelassenen Anbietern vorbedruckter Karten.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-MT
+    - SRC-IDNET-RNBD
+  - id: REL-CO-IDNET-024
+    from: ORG-CO-SIC
+    to: ORG-IDNET-TGS
+    type: documented_preliminary_inquiry_subject
+    label: 'Fallo 006-26 S.61–63, 81–83: SIC prüfte mögliche Bevorzugung von TGS bei öffentlichen Vergaben; Registerauskunft
+      über TGS am 03.03.2023 angefordert. Kein förmliches Verfahren gegen TGS oder Schuldnachweis festgestellt; Beginn
+      offen.'
+    evidence_level: established
+    sources:
+    - SRC-IDNET-FALLO
+    - SRC-IDNET-FALLO-COPY
+  - id: REL-CO-IDNET-025
+    from: ORG-CO-SIC
+    to: ORG-CO-PGN
+    type: official_response
+    label: SIC verteidigt am 18.03.2026 ihre Inspektionsverfahren nach erstinstanzlichem Disziplinarentscheid.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-SIC
+    period:
+      start: '2026-03-18'
+
+  - id: REL-CO-IDNET-026
+    from: ORG-CO-RNEC
+    to: ORG-IDNET-DISPROEL18
+    type: documented_contract
+    label: RNEC-Sektorstudie 2026 nennt Vertrag 052/2017 zur Organisation der Kongress- und Präsidentschaftswahlen
+      2018; amtliche Retrospektive, kein Nachweis konkreter Auszahlungen.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-RNEC-SECTOR-2026
+    - SRC-IDNET-FIN
+    period:
+      start: '2017'
+  - id: REL-CO-IDNET-027
+    from: ORG-CO-RNEC
+    to: ORG-IDNET-DISPROEL19
+    type: documented_contract
+    label: RNEC-Sektorstudie 2026 nennt Vertrag 038/2019 zur Organisation der Regionalwahlen 2019; amtliche Retrospektive,
+      kein Nachweis konkreter Auszahlungen.
+    evidence_level: established
+    sources:
+    - SRC-IDNET-RNEC-SECTOR-2026
+    - SRC-IDNET-FIN
+    period:
+      start: '2019'

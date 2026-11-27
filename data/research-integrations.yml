@@ -1185,7 +1185,7 @@ studies:
     - REL-MAUSS-DIPLOMATIE-014
     - REL-MAUSS-DIPLOMATIE-015
   mauss-kolumbien-identifikation-vergabe-aufsicht-1995-2026.md:
-    sha256: 8f86e91e6cd8559bb2b46d5bec33e745a61bd260f2a3b0d2f9c5d0d50d68104b
+    sha256: 0387d9075e73f856d9684951570abbb9d60c751c9d8a7c262e717b05ecc037e4
     status: network
     relation_ids:
     - REL-MAUSS-PMT-001
@@ -1266,3 +1266,36 @@ studies:
     - REL-DE-BND-DYNAMIT-014
     - REL-DE-BND-DYNAMIT-015
     - REL-DE-BND-DYNAMIT-016
+
+  kolumbien-idemia-tgs-carvajal-konsortien-2009-2026.md:
+    sha256: 979fef2960c0af2178b86690bad0b656b5108e00030be5d9df62b9cda4978796
+    status: network
+    relation_ids:
+    - REL-CO-IDNET-001
+    - REL-CO-IDNET-002
+    - REL-CO-IDNET-003
+    - REL-CO-IDNET-004
+    - REL-CO-IDNET-005
+    - REL-CO-IDNET-006
+    - REL-CO-IDNET-007
+    - REL-CO-IDNET-008
+    - REL-CO-IDNET-009
+    - REL-CO-IDNET-010
+    - REL-CO-IDNET-011
+    - REL-CO-IDNET-012
+    - REL-CO-IDNET-013
+    - REL-CO-IDNET-014
+    - REL-CO-IDNET-015
+    - REL-CO-IDNET-016
+    - REL-CO-IDNET-017
+    - REL-CO-IDNET-018
+    - REL-CO-IDNET-019
+    - REL-CO-IDNET-020
+    - REL-CO-IDNET-021
+    - REL-CO-IDNET-022
+    - REL-CO-IDNET-023
+    - REL-CO-IDNET-024
+    - REL-CO-IDNET-025
+    - REL-CO-IDNET-026
+    - REL-CO-IDNET-027
+    - REL-MAUSS-PMT-028

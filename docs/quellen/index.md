@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**580 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-idnet-devices) · [S](#src-idnet-safran2011) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1655,6 +1655,36 @@ Fundstelle: Doc. XXIII n. 2-bis/1, gedruckte S. 127: Tabelle der Tradinvest-/ENI
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-idnet-carvajal2011"></a>
+### Carvajal
+
+**[Informe anual 2011 Carvajal S.A.](https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/3577996/14629368.pdf)**
+
+Carvajal · 2011 · Stufe **A** · Primärquelle · `SRC-IDNET-CARVAJAL2011`
+
+[PDF öffnen](https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/3577996/14629368.pdf)
+
+Fundstelle: S.116–118, Venta de Valores Plasticar
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-idnet-prospekt"></a>
+### Carvajal / Cámara de Comercio de Cali
+
+**[Prospecto Carvajal; certificado registral](https://www.carvajal.com/wp-content/uploads/2021/11/ProspectoInformacionCARVAJAL.pdf)**
+
+Carvajal / Cámara de Comercio de Cali · 2019-11-05 · Stufe **A** · Primärquelle · `SRC-IDNET-PROSPEKT`
+
+[PDF öffnen](https://www.carvajal.com/wp-content/uploads/2021/11/ProspectoInformacionCARVAJAL.pdf)
+
+Fundstelle: Registerzertifikat S.3/14; Escritura 1085, 26.04.2011; Registro 5046, 27.04.2011
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1953">
 
 <a id="src-us-cia-qksnitch-final-1953"></a>
@@ -1862,6 +1892,36 @@ Cour de cassation / Légifrance · 2021-07-28 · Stufe **A** · Primärquelle ·
 [Seite öffnen](https://www.legifrance.gouv.fr/juri/id/JURITEXT000043920904)
 
 Fundstelle: Rn.6, 29–34, 36–43 und Tenor: Ermittlungsvolumen, Unternehmensmittel, Foch services, Teilfreispruch bzgl. Korruptionsvortat, Zurückweisung Kassationsbeschwerde.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-idnet-ccb"></a>
+### Cámara de Comercio de Bogotá
+
+**[Registerzertifikat IDEMIA-Niederlassung](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=357549765&InCommunity=False&InPaymentGateway=False)**
+
+Cámara de Comercio de Bogotá · 2023-09-04 · Stufe **A** · Primärquelle · `SRC-IDNET-CCB`
+
+[Seite öffnen](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=357549765&InCommunity=False&InPaymentGateway=False)
+
+Fundstelle: S.1–3, B2364414519BBB, NIT 900060799-7
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-idnet-rup"></a>
+### Cámara de Comercio de Bogotá / FND
+
+**[RUP-Zertifikat TGS, 07.01.2021](https://fnd.org.co/uploads/PROPUESTA_TGSCOL_8ae98f0bae.pdf)**
+
+Cámara de Comercio de Bogotá / FND · 2021-01-07 · Stufe **A** · Primärquelle · `SRC-IDNET-RUP`
+
+[PDF öffnen](https://fnd.org.co/uploads/PROPUESTA_TGSCOL_8ae98f0bae.pdf)
+
+Fundstelle: Einträge 49/178; Druck-S.57/58 und 120; A2101963459422
 
 </article>
 
@@ -3215,6 +3275,21 @@ Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-idnet-dian"></a>
+### DIAN
+
+**[Autorretenedores del impuesto sobre la renta](https://www.dian.gov.co/impuestos/Autorretenedores/Documents/Listado-actualizado-Renta-05082022.pdf)**
+
+DIAN · 2022-08-05 · Stufe **A** · Primärquelle · `SRC-IDNET-DIAN`
+
+[PDF öffnen](https://www.dian.gov.co/impuestos/Autorretenedores/Documents/Listado-actualizado-Renta-05082022.pdf)
+
+Fundstelle: NIT 900386417, Resolución 8396
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-frak-bdj-19521021"></a>
@@ -4070,6 +4145,21 @@ Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger B
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-idnet-mt"></a>
+### Ministerio de Transporte
+
+**[Relación de proveedores autorizados de tarjetas preimpresas](https://mintransporte.gov.co/loader.php?idFile=10432&lFuncion=exposeDocument&lServicio=Tools2&lTipo=descargas&tmp=a42e534eee198378a4ca4e2aebf67ca2&urlDeleteFunction=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DdeleteTemporalFile%26tmp%3Da42e534eee198378a4ca4e2aebf67ca2)**
+
+Ministerio de Transporte · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-MT`
+
+[Seite öffnen](https://mintransporte.gov.co/loader.php?idFile=10432&lFuncion=exposeDocument&lServicio=Tools2&lTipo=descargas&tmp=a42e534eee198378a4ca4e2aebf67ca2&urlDeleteFunction=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DdeleteTemporalFile%26tmp%3Da42e534eee198378a4ca4e2aebf67ca2)
+
+Fundstelle: Liste zugelassener Anbieter vorbedruckter Karten, Dokument 10432
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-it-gazzetta-siegenthaler-19820717"></a>
@@ -4400,6 +4490,21 @@ Fundstelle: Abschnitt B, gedruckte S. 7 / PDF-Seite 9: Bericht über Bellini-Ver
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
+<a id="src-idnet-fallo"></a>
+### Procuraduría General de la Nación
+
+**[Fallo 006-26, IUS E-2024-197244 / IUC D-2024-3538557; Auto 045-26](https://apps.procuraduria.gov.co/portal/media/file/Notificaciones/28560_FALLO%20006-26_auto_aclaratorio.pdf)**
+
+Procuraduría General de la Nación · 2026-03-16 · Stufe **A** · Primärquelle · `SRC-IDNET-FALLO`
+
+[PDF öffnen](https://apps.procuraduria.gov.co/portal/media/file/Notificaciones/28560_FALLO%20006-26_auto_aclaratorio.pdf)
+
+Fundstelle: S.1, 61–63, 81–83, 122–123, 208–215; Auto 18.03.2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
 <a id="src-co-pgn-sic-2026"></a>
 ### Procuraduría General de la Nación
 
@@ -4410,6 +4515,36 @@ Procuraduría General de la Nación · 2026-03-17 · Stufe **A** · Primärquell
 [Seite öffnen](https://www.procuraduria.gov.co/Pages/procuraduria-sanciona-extralimitacion-visitas-superintendencia-industria-comercio-entidades-publicas.aspx)
 
 Fundstelle: Erstinstanzliche Disziplinarentscheidung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-idnet-fallo-copy"></a>
+### Procuraduría General de la Nación / Kopie La Silla Vacía
+
+**[PGN Fallo 006-26 – veröffentlichte Originalkopie](https://www.lasillavacia.com/wp-content/uploads/2026/03/FALLO-006-26.pdf)**
+
+Procuraduría General de la Nación / Kopie La Silla Vacía · 2026-03-16 · Stufe **A** · Primärquelle · `SRC-IDNET-FALLO-COPY`
+
+[PDF öffnen](https://www.lasillavacia.com/wp-content/uploads/2026/03/FALLO-006-26.pdf)
+
+Fundstelle: S.1, 61–63, 81–83, 122–123, 208–215
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-idnet-devices"></a>
+### Registraduría Nacional del Estado Civil
+
+**[Biometría – dispositivos homologados](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)**
+
+Registraduría Nacional del Estado Civil · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-DEVICES`
+
+[Seite öffnen](https://wsp.registraduria.gov.co/biometria/dispositivos/listar/)
+
+Fundstelle: Eintrag 1, Homologation 26.11.2025; Hersteller und Distributoren
 
 </article>
 
@@ -4485,6 +4620,21 @@ Registraduría Nacional del Estado Civil · 2020 · Stufe **A** · Primärquelle
 [PDF öffnen](https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf)
 
 Fundstelle: S. 2–6
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-idnet-rnec-sector-2026"></a>
+### Registraduría Nacional del Estado Civil / SECOP
+
+**[Análisis del sector – Inscripción de Ciudadanos y Registro virtual de grupos significativos de ciudadanos](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=893874864&InCommunity=False&InPaymentGateway=False)**
+
+Registraduría Nacional del Estado Civil / SECOP · 2026 · Stufe **A** · Primärquelle · `SRC-IDNET-RNEC-SECTOR-2026`
+
+[Seite öffnen](https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocUniqueIdentifier=&DocumentId=893874864&InCommunity=False&InPaymentGateway=False)
+
+Fundstelle: SECOP-Dokument 893874864; S.1–2, 7–8, 12–13, 16–19
 
 </article>
 
@@ -4575,6 +4725,21 @@ Rote Hilfe / Hans-Litten-Archiv (Digitalisat) · 1975-11 · Stufe **A** · Prim�
 [PDF öffnen](https://hans-litten-archiv.de/images/RH_eV_November_1975.pdf)
 
 Fundstelle: 3. Jahrgang, Nr. 9, November 1975, gedruckte S. 3 (PDF-Bildseite 3), Rubrik Ruhlands Geldgeber
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-idnet-safran2011"></a>
+### Safran
+
+**[Safran Registration Document 2011](https://www.safran-group.com/sites/default/files/2021-07/277905_017_cl_avec_couv_13_apr_lr_lr.pdf)**
+
+Safran · 2011 · Stufe **A** · Primärquelle · `SRC-IDNET-SAFRAN2011`
+
+[PDF öffnen](https://www.safran-group.com/sites/default/files/2021-07/277905_017_cl_avec_couv_13_apr_lr_lr.pdf)
+
+Fundstelle: E-documents; Real estate and production plants
 
 </article>
 
@@ -4936,6 +5101,21 @@ Fundstelle: Heft P/VIII/164, gedruckte S. 5–6, PDF-Bildseiten 5–6; TIFF 400 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
+<a id="src-idnet-rnbd"></a>
+### Superintendencia de Industria y Comercio
+
+**[Registro Nacional de Bases de Datos – Encargado del tratamiento](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)**
+
+Superintendencia de Industria y Comercio · unbekannt · Stufe **A** · Primärquelle · `SRC-IDNET-RNBD`
+
+[Seite öffnen](https://rnbd.sic.gov.co/sisi/consultaTitulares/encargadoBd/1131060/)
+
+Fundstelle: Morpho Cards de Colombia SAS, NIT 900386417
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
 
 <a id="src-co-sic-rnec-2024"></a>
@@ -4948,6 +5128,21 @@ Superintendencia de Industria y Comercio · 2024-11-08 · Stufe **A** · Primär
 [Seite öffnen](https://sedeelectronica.sic.gov.co/noticias/la-sic-imputa-cargos-9-funcionarios-de-la-registraduria-por-presuntamente-desatender-requerimientos-en-visita-administrativa)
 
 Fundstelle: Eröffnung; keine Feststellung von Schuld
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-idnet-sic"></a>
+### Superintendencia de Industria y Comercio
+
+**[La SIC defiende la legitimidad de sus procedimientos de inspección](https://sedeelectronica.sic.gov.co/comunicado/la-sic-defiende-la-legitimidad-de-sus-procedimientos-de-inspeccion-y-el-honor-de-sus-servidores)**
+
+Superintendencia de Industria y Comercio · 2026-03-18 · Stufe **A** · Primärquelle · `SRC-IDNET-SIC`
+
+[Seite öffnen](https://sedeelectronica.sic.gov.co/comunicado/la-sic-defiende-la-legitimidad-de-sus-procedimientos-de-inspeccion-y-el-honor-de-sus-servidores)
+
+Fundstelle: Stellungnahme zur Disziplinarentscheidung
 
 </article>
 
@@ -4993,6 +5188,21 @@ The Halle Foundation · current · Stufe **A** · Primärquelle · `SRC-US-HALLE
 [Seite öffnen](https://thehallefoundation.org/grants-history/)
 
 Fundstelle: Zeilen 2022 Atlantik-Bruecke 47,525 USD und 2023 Atlantic-Brücke e.V. 40,000 USD
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-idnet-fin"></a>
+### Thomas Greg & Sons de Colombia / UPTC
+
+**[TGS Finanzunterlagen 2019/2018](https://www.uptc.edu.co/export/sites/default/admon_grupo_bienes/contratacion/2020/contrat_directa/CONTRATO_78_DE_2020/previos_contrato_78_de_2020.pdf)**
+
+Thomas Greg & Sons de Colombia / UPTC · 2020-02-25 · Stufe **A** · Primärquelle · `SRC-IDNET-FIN`
+
+[PDF öffnen](https://www.uptc.edu.co/export/sites/default/admon_grupo_bienes/contratacion/2020/contrat_directa/CONTRATO_78_DE_2020/previos_contrato_78_de_2020.pdf)
+
+Fundstelle: Druck-S.36–38, UT SIL, Pasaportes, Personalización, DISPROEL; S.61–62
 
 </article>
 
@@ -7055,7 +7265,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [P](#src-idnet-panjiva) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -8282,6 +8492,21 @@ OCCRP · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-OCCRP-MA
 [Seite öffnen](https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks)
 
 Fundstelle: Mauss-Abschnitt und Stellungnahmen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2012">
+
+<a id="src-idnet-panjiva"></a>
+### Panjiva
+
+**[Valores Plasticar – historische Zolldaten](https://es.panjiva.com/Valores-Plasticar-S-A-S/22001612)**
+
+Panjiva · 2012-08-27 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-IDNET-PANJIVA`
+
+[Seite öffnen](https://es.panjiva.com/Valores-Plasticar-S-A-S/22001612)
+
+Fundstelle: Ausfuhrerklärung 6007544113510, NIT 900386417
 
 </article>
 
