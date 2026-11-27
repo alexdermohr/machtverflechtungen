@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**524 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1354,6 +1354,21 @@ Bundesministerium des Innern · 2012-10 · Stufe **A** · Primärquelle · `SRC-
 [PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf)
 
 Fundstelle: Gedruckte S. 2–7, insbesondere 5–6; Anlage Dokument 11 zur BT-Drs. 17/14600
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-blkr-nsu-20130430"></a>
+### Bundesministerium des Innern / Innenministerkonferenz
+
+**[Abschlussbericht der Bund-Länder-Kommission Rechtsterrorismus](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2006.pdf)**
+
+Bundesministerium des Innern / Innenministerkonferenz · 2013-04-30 · Stufe **A** · Primärquelle · `SRC-DE-BLKR-NSU-20130430`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2006.pdf)
+
+Fundstelle: Gedruckte S. 238–241, Abschnitt 5.3.4.2.4; Ausschussdrucksache 488
 
 </article>
 
@@ -2904,6 +2919,51 @@ Financial Crimes Enforcement Network · 2007-09-17 · Stufe **A** · Primärquel
 [PDF öffnen](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)
 
 Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-th-schaefer-nsu-20120514"></a>
+### Freistaat Thüringen / Schäfer-Kommission
+
+**[Gutachten zum Verhalten der Thüringer Behörden und Staatsanwaltschaften bei der Verfolgung des Zwickauer Trios](https://www.nsu-watch.info/files/2012/05/120515_schaefer_gutachten-neu.pdf)**
+
+Freistaat Thüringen / Schäfer-Kommission · 2012-05-14 · Stufe **A** · Primärquelle · `SRC-DE-TH-SCHAEFER-NSU-20120514`
+
+[PDF öffnen](https://www.nsu-watch.info/files/2012/05/120515_schaefer_gutachten-neu.pdf)
+
+Fundstelle: S. 2, 200–204, 216–218, 240–246, 256–261
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-th-gvbl-thurverfschg-20140808"></a>
+### Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8
+
+**[Thüringer Gesetz zur Änderung sicherheitsrechtlicher Vorschriften vom 8. August 2014](https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf)**
+
+Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8 · 2014-08-08 · Stufe **A** · Primärquelle · `SRC-DE-TH-GVBL-THURVERFSCHG-20140808`
+
+[PDF öffnen](https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf)
+
+Fundstelle: GVBl. S. 529 ff., §§ 4, 21, 22, 27, 39
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-th-gvbl-thurvsg-20120730"></a>
+### Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 9
+
+**[Thüringer Verfassungsschutzgesetz vom 30. Juli 2012](https://parldok.thueringer-landtag.de/ParlDok/dokument/46031/gesetz_und_verordnungsblatt_nr_9_2012.pdf)**
+
+Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 9 · 2012-07-30 · Stufe **A** · Primärquelle · `SRC-DE-TH-GVBL-THURVSG-20120730`
+
+[PDF öffnen](https://parldok.thueringer-landtag.de/ParlDok/dokument/46031/gesetz_und_verordnungsblatt_nr_9_2012.pdf)
+
+Fundstelle: GVBl. S. 346 ff., §§ 14, 15, 33
 
 </article>
 

@@ -6831,3 +6831,39 @@ relations:
     period: {start: "2012"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-TLFV-TLKA-INFO-001
+    from: ORG-DE-TLFV
+    to: ORG-DE-TLKA
+    type: reported_information_withholding
+    label: "Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"
+    period: {start: "1998", end: "2001"}
+    evidence_level: strong
+    sources: [SRC-DE-TH-SCHAEFER-NSU-20120514]
+
+  - id: REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001
+    from: ORG-DE-TLFV
+    to: ORG-DE-TLKA
+    type: statutory_information_duty
+    label: "Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVSG-20120730, SRC-DE-BLKR-NSU-20130430]
+
+  - id: REL-DE-TH-AFV-TLKA-PFLICHT-2014-001
+    from: ORG-DE-TH-AFV-2015
+    to: ORG-DE-TLKA
+    type: statutory_information_duty
+    label: "Gesetz 2014 schreibt Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"
+    period: {start: "2015"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
+
+  - id: REL-DE-TH-AFV-TLFV-NACHFOLGE-2015-001
+    from: ORG-DE-TH-AFV-2015
+    to: ORG-DE-TLFV
+    type: institutional_successor
+    label: "Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"
+    period: {start: "2015-01-01"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]

@@ -5937,3 +5937,51 @@ sources:
   url: https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388
   accessed: '2026-11-27'
   notes: "Amtliche Berichterstattung zum Beschluss 2 BvE 4/18 vom 16.12.2020; Volltextabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-TH-SCHAEFER-NSU-20120514
+  title: "Gutachten zum Verhalten der Thüringer Behörden und Staatsanwaltschaften bei der Verfolgung des Zwickauer Trios"
+  institution: "Freistaat Thüringen / Schäfer-Kommission"
+  date: '2012-05-14'
+  type: investigation_report
+  primary: true
+  tier: A
+  url: https://www.nsu-watch.info/files/2012/05/120515_schaefer_gutachten-neu.pdf
+  accessed: '2026-11-27'
+  locator: "S. 2, 200–204, 216–218, 240–246, 256–261"
+  notes: "Amtlich beauftragte Untersuchung, veröffentlichte Fassung auf Drittwebsite; laut Vorbemerkung ohne Endnoten, Text sonst identisch. Textauswertung, Bildabrufe fehlgeschlagen. Keine eigene Einsicht in zugrunde liegende Akten."
+
+- id: SRC-DE-TH-GVBL-THURVSG-20120730
+  title: "Thüringer Verfassungsschutzgesetz vom 30. Juli 2012"
+  institution: "Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 9"
+  date: '2012-07-30'
+  type: legislation
+  primary: true
+  tier: A
+  url: https://parldok.thueringer-landtag.de/ParlDok/dokument/46031/gesetz_und_verordnungsblatt_nr_9_2012.pdf
+  accessed: '2026-11-27'
+  locator: "GVBl. S. 346 ff., §§ 14, 15, 33"
+  notes: "Historische Gesetzesfassung, Ausgabe 17.08.2012; Text geprüft, Bildabruf fehlgeschlagen."
+
+- id: SRC-DE-BLKR-NSU-20130430
+  title: "Abschlussbericht der Bund-Länder-Kommission Rechtsterrorismus"
+  institution: "Bundesministerium des Innern / Innenministerkonferenz"
+  date: '2013-04-30'
+  type: investigation_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2006.pdf
+  accessed: '2026-11-27'
+  locator: "Gedruckte S. 238–241, Abschnitt 5.3.4.2.4; Ausschussdrucksache 488"
+  notes: "Bericht mit Empfehlungen, kein Gesetz oder Nachweis der Umsetzung. Text geprüft, Bildabruf fehlgeschlagen."
+
+- id: SRC-DE-TH-GVBL-THURVERFSCHG-20140808
+  title: "Thüringer Gesetz zur Änderung sicherheitsrechtlicher Vorschriften vom 8. August 2014"
+  institution: "Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8"
+  date: '2014-08-08'
+  type: legislation
+  primary: true
+  tier: A
+  url: https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf
+  accessed: '2026-11-27'
+  locator: "GVBl. S. 529 ff., §§ 4, 21, 22, 27, 39"
+  notes: "Historische Gesetzesfassung, Ausgabe 28.08.2014; Text geprüft, Bildabrufe fehlgeschlagen."

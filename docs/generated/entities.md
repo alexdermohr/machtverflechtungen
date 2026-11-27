@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**560 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**562 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -507,8 +507,10 @@
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US | [3](network.md#rel-us-bbf-001) |
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
+| Thüringer Amt für Verfassungsschutz (ab 2015) | intelligence_service | `ORG-DE-TH-AFV-2015` | DE | [2](network.md#rel-de-th-afv-tlka-pflicht-2014-001) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
-| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [5](network.md#rel-de-ths-001) |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [8](network.md#rel-de-ths-001) |
+| Thüringer Landeskriminalamt | law_enforcement | `ORG-DE-TLKA` | DE | [3](network.md#rel-de-nsu-tlfv-tlka-info-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |

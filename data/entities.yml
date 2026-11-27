@@ -3178,3 +3178,14 @@ entities:
     name: "17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"
     countries: [DE]
     notes: "Sammelbezeichnung für die laut Bundestagsausschuss vom MAD eingeräumten Vernichtungsfälle; ein NSU-Bezug wurde überwiegend für unwahrscheinlich gehalten, jedoch nicht in allen Fällen ausgeschlossen."
+
+  - id: ORG-DE-TLKA
+    type: law_enforcement
+    name: "Thüringer Landeskriminalamt"
+    countries: [DE]
+
+  - id: ORG-DE-TH-AFV-2015
+    type: intelligence_service
+    name: "Thüringer Amt für Verfassungsschutz (ab 2015)"
+    countries: [DE]
+    notes: "Nach § 39 ThürVerfSchG 2014 zum 01.01.2015 beim zuständigen Ministerium errichtet; historischer Vorgänger ORG-DE-TLFV."

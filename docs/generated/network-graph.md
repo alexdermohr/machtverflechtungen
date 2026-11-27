@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**752 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**756 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1325,6 +1325,12 @@ flowchart LR
     N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
     N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
     N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
+    N_ORG_DE_TLKA["Thüringer Landeskriminalamt"]
+    N_ORG_DE_TLFV -->|"Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"| N_ORG_DE_TLKA
+    N_ORG_DE_TLFV -->|"Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2"| N_ORG_DE_TLKA
+    N_ORG_DE_TH_AFV_2015["Thüringer Amt für Verfassungsschutz (ab 2015)"]
+    N_ORG_DE_TH_AFV_2015 -->|"Gesetz 2014 schreibt Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"| N_ORG_DE_TLKA
+    N_ORG_DE_TH_AFV_2015 -->|"Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"| N_ORG_DE_TLFV
 ```
 
 [Zur Relationstabelle](network.md)
