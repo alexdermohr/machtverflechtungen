@@ -7143,7 +7143,7 @@ relations:
     from: ORG-DE-BMZ
     to: ORG-CO-METRO-MEDELLIN
     type: credit
-    label: Amtlich berichtete Kreditmittel 100 Mio. DM für das Metroprojekt; kein Mauss-Fondsbezug
+    label: 1997 amtlich berichtete Kreditmittel von 100 Mio. DM für das Metroprojekt; Bereitstellungszeitpunkt offen, kein Mauss-Fondsbezug
     evidence_level: established
     sources:
     - SRC-DE-BT-MAUSS-6953-1997

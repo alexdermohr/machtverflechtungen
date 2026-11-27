@@ -1358,7 +1358,7 @@ flowchart LR
     N_PER_DE_WERNER_MAUSS -->|"Schreiben vom 05.11.1996 laut amtlicher Antwort unbeantwortet; kein Nachweis fortbestehenden Auftrags"| N_ORG_DE_BND
     N_ORG_DE_BMZ["Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)"]
     N_ORG_CO_METRO_MEDELLIN["Metroprojekt Medellín"]
-    N_ORG_DE_BMZ -->|"Amtlich berichtete Kreditmittel 100 Mio. DM für das Metroprojekt; kein Mauss-Fondsbezug"| N_ORG_CO_METRO_MEDELLIN
+    N_ORG_DE_BMZ -->|"1997 amtlich berichtete Kreditmittel von 100 Mio. DM für das Metroprojekt; Bereitstellungszeitpunkt offen, kein Mauss-Fondsbezug"| N_ORG_CO_METRO_MEDELLIN
     N_PER_ICIJ_BURGHAGEN_11003187["Hermann Alfred Volker Burghagen"]
     N_ORG_PA_TRANSACTA_VALORES["Transacta Valores S.A."]
     N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_TRANSACTA_VALORES
