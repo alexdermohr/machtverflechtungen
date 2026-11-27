@@ -1,0 +1,36 @@
+# BND, BMVg und Parnass-Film: bedingte Produktionshilfe und Drehbuchmitsprache bei „Mister Dynamit“ (1966–1967)
+
+**Stand 27. November 2026.** Die amtliche historische Dokumentenedition des BND zeigt, wie ein kommerzielles Filmvorhaben mehrere Bundesbehörden und die CIA beschäftigte. Die wesentliche Erkenntnis ist nicht eine belegte Geheimdienstfinanzierung, sondern das ausdrücklich formulierte Junktim zwischen möglicher Sachhilfe und inhaltlicher Mitsprache, die anschließende Anpassung der Darstellung sowie die dienstinterne Prüfung einer öffentlichkeitswirksamen Unterstützung.
+
+## 1. Quellen und Reichweite
+
+- [S1] Bodo Hechelhammer (verantwortlicher Hg.), BND, *Der Bundesnachrichtendienst und das Filmprojekt Mr. Dynamit*, MFGBND 7/2014, ISBN 978-3-943549-09-6, [amtliche Edition](https://multimedia.gsb.bund.de/BND/Importer-Downloads/mfg7bnd.pdf), S. 9–20, 25–31, Faksimileanhang S. 32–58. BND-Archiv 150.089. Ausgewertet wurden der historische Begleittext, dessen archivalische Verweise und die Dokumentbeschreibungen auf S. 30–31; die Faksimileseiten konnten bei dieser Recherche nicht visuell abgerufen werden. Der BND-eigene Begleittext ist ein quellengebundener amtlicher Sekundärnachweis, nicht selbst das zeitgenössische Schreiben. Dokumentnummern und Faksimileseiten sind Nachprüfziele.
+- [S2] Deutsches Filminstitut & Filmmuseum, [Filmportal: Mister Dynamit – Morgen küßt Euch der Tod](https://www.filmportal.de/film/mister-dynamit-morgen-kuesst-euch-der-tod_3658af8436b744e1922b9480802ee603). Unabhängiger Katalognachweis für die Koproduktion 1966/67, die Münchner Parnass-Film GmbH und den Produzenten Theo Maria Werner; kein Nachweis der Behördenkontakte.
+- [S3] Stasi-Unterlagen-Archiv, [Auswertung der Artikelserie „Pullach intern“ (1968)](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/), besonders Anm. 10. Das MfS-Dokument und seine heutige editorische Anmerkung sind getrennt zu behandeln. Die Anmerkung stützt die Zuordnung Kurt Weiß/Winterstein zur politischen Aufklärung und zum Strategischen Dienst des BND; die abweichenden Lebens- und Funktionsdaten gegenüber S1 bleiben offen. Die MfS-Einschätzung ist kein Beweis einer politischen oder redaktionellen Steuerung.
+
+## 2. Der dokumentierte Hebel
+
+| Zeitpunkt | Vorgang | Fundstelle |
+| --- | --- | --- |
+| 21.06.1966 | Das BMVg stellt Bundeswehrhilfe nur nach Prüfung des Drehbuchs und Zustimmung zu ministerieller Mitsprache in Aussicht; Verwendung militärischer Aufnahmen von vorheriger Vorführung abhängig. | S1, S. 11, 30; Dok. 6, S. 38 |
+| 28.06.–25.07.1966 | Werner sucht über das Bundespresseamt Unterstützung bei den spanischen Behörden. Das Presseamt leitet die Anfrage an das Auswärtige Amt weiter, das eine offizielle Einschaltung zunächst ablehnt und Konkretisierung verlangt. | S1, S. 12–13, Fn. 26–31, PA AA B 95, 365, 14668; Originale separat zu erschließen |
+| 07.09.1966 | BMVg-interne Prüfung fordert, die Darstellung sämtlicher BND-Mitarbeiter als Militärangehörige zu vermeiden. | S1, S. 13–14, 31; Dok. 9, S. 42 |
+| 13.09.–05.10.1966 | AA-Filmreferent und BND besprechen das Vorhaben; Werner übergibt bei Kontakt mit dem BND ein Drehbuch. Dieses ist laut Edition nicht mehr auffindbar. | S1, S. 16, 31; Dok. 10–12, S. 43–45 |
+| 10.10.1966 | Werner bestätigt gegenüber dem BMVg bereits vorgenommene Änderungen und erklärt sich zur Sichtung der mit militärischer Hilfe gedrehten Szenen bereit. Er erwähnt zur Verfügung gestelltes Filmmaterial und weitere Sachhilfewünsche; tatsächliche Nutzung nicht belegt. | S1, S. 14, 31; Dok. 14, S. 47–48 |
+| 12.10.1966 | Reinhard Gehlen erlaubt grundsätzlich Außenaufnahmen; keine Aufnahmen in der BND-Zentrale. Genehmigung und tatsächliche Dreharbeit unterscheiden. | S1, S. 18, 31, Fn. 53; Dok. 13, S. 46 |
+| 20.10.1966 | BMVg macht sein weiteres Vorgehen vom Votum des BND abhängig. | S1, S. 16, 31; Dok. 15, S. 49 |
+| 02.11.1966 | Interner BND-Vermerk erörtert Chancen und Risiken des Filmprojekts; Weiß hatte auch erwogen, die prominente Rolle des Dienstes zu reduzieren. | S1, S. 17–18, 31; Dok. 16, S. 50–53 |
+| 04.11.–02.12.1966 | Weiß informiert den CIA-Verbindungsstab; nach dessen Antwort war das Filmprojekt den amerikanischen Stellen zuvor nicht bekannt. Laut BND-Edition wurde CIA-Direktor Richard Helms informiert. | S1, S. 18, 31; Dok. 18, S. 57 |
+| 23.–28.11.1966 | Werner bestätigt in einem Gespräch mit Weiß die bereits entfernten militärischen Ränge und Bereitschaft zu weiteren Änderungen. Er bittet nochmals um Vermittlung von Unterstützung; Weiß berichtet Gehlen. | S1, S. 19, 31; Dok. 17, S. 54–56 |
+
+## 3. Einfluss, Wirkung und gescheiterte Unterstützung
+
+Das Ministerium konnte die private Produktion durch Aussicht auf Sachhilfe zu einer Anpassung bewegen; der Produzent selbst meldete die Änderungen. Nach der vom BND-Historiker ausgewerteten Kinofassung waren die militärischen Rangbezeichnungen tatsächlich entfallen (S1, S. 20). Die nachgewiesene inhaltliche Korrektur ist deshalb stärker als eine bloße Kontaktbeziehung. Ob diese Korrektur politischer Imagepflege oder der Vermeidung einer falschen institutionellen Darstellung diente, lässt sich nicht exklusiv entscheiden; beide Motive sind mit den Unterlagen vereinbar.
+
+Die Verhandlungen des BND fanden spät in der Produktion statt. S1, S. 19–20, hält die tatsächliche Durchführung der genehmigten Außenaufnahmen und weitere Bundeswehrhilfe für unwahrscheinlich; die vorgesehene Übungsplatzszene wurde laut S. 17 entfernt. Die Behauptung des Produzenten über amerikanische Hilfe kollidiert mit der dokumentierten Antwort des US-Dienstes. Weder eine tatsächlich ausgezahlte staatliche Filmförderung noch eine erfolgreiche verdeckte Imagekampagne ist daraus ableitbar. Der BND-Historiker bewertet den erwarteten Imagegewinn als gescheitert (S. 25–29); dies ist eine historische Bewertung und keine gemessene Zuschauerwirkung.
+
+## 4. Personelle und institutionelle Anschlussforschung
+
+Kurt Weiß war laut S1 (S. 15, Fn. 41) seit 1952 bei der Organisation Gehlen und für politische/strategische Aufklärung sowie Pressekontakte tätig. Die Edition dokumentiert außerdem eine frühere Erlaubnis von Drehaufnahmen für eine WDR-Dokumentation 1964 (S. 18, Fn. 54; zeitgenössische Abendzeitung und Tagesspiegel) und eine 1960 in Gehlens Sonderkartei vermerkte Befassung mit dem Filmprojekt „Im Namen des Teufels“ (S. 16). Das sind konkrete weitere Vergleichsfälle, keine Belege einer kontinuierlichen Steuerung aller Produktionen. Die ursprünglichen WDR-Unterlagen, die Sonderkartei, die in S1 benannten Tagebücher und die AA-Akte B 95, 365, 14668 sind vorrangige Originalquellenziele.
+
+Das Projekt ist insbesondere mit den vorhandenen Studien zum [Kauka-Verlag](bnd-kauka-verlag-quellenschutz-medien-2021-2026.md) und zu [BND-Medienzugang und Rechtsmandaten](bnd-medienzugang-anwaltsmandate-2019-2025.md) vergleichbar. Die Unterschiede bleiben entscheidend: Beim Film sind Bedingungen und Änderungszusagen überliefert; beim Kauka-Komplex sind die operativen Akteninhalte weiterhin nicht öffentlich. Keine personelle oder finanzielle Film–Kauka-Verbindung ist nachgewiesen. Die gemeinsam genutzten Behördenknoten bezeichnen institutionelle Identität, keine durchgehende Operationskette.

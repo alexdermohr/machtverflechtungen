@@ -6831,3 +6831,166 @@ relations:
     evidence_level: established
     period:
       start: '2017'
+  - id: REL-DE-BND-DYNAMIT-001
+    from: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: conditional_production_support
+    label: Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-06-21'
+  - id: REL-DE-BND-DYNAMIT-002
+    from: ORG-DE-PARNASS-FILM-MUENCHEN
+    to: ORG-DE-BMVG-PSV-1981-1990
+    type: reported_screenplay_revision
+    label: Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-10'
+  - id: REL-DE-BND-DYNAMIT-003
+    from: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-BND
+    type: reported_consultation
+    label: BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-20'
+  - id: REL-DE-BND-DYNAMIT-004
+    from: ORG-DE-PARNASS-FILM-MUENCHEN
+    to: ORG-DE-BUNDESPRESSEAMT-1953
+    type: documented_diplomatic_intervention_request
+    label: Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-06-28'
+  - id: REL-DE-BND-DYNAMIT-005
+    from: ORG-DE-BUNDESPRESSEAMT-1953
+    to: ORG-DE-AUSWAERTIGES-AMT-2008
+    type: reported_consultation
+    label: Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-07-14'
+  - id: REL-DE-BND-DYNAMIT-006
+    from: ORG-DE-AUSWAERTIGES-AMT-2008
+    to: ORG-DE-BND
+    type: reported_consultation
+    label: AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-09-13'
+  - id: REL-DE-BND-DYNAMIT-007
+    from: PER-DE-THEO-MARIA-WERNER
+    to: ORG-DE-BND
+    type: information_transfer
+    label: Laut Edition übergab Werner ein Drehbuch; Originaldrehbuch nicht auffindbar
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-03'
+  - id: REL-DE-BND-DYNAMIT-008
+    from: PER-DE-REINHARD-GEHLEN
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: conditional_filming_permission
+    label: Gehlen gestattete grundsätzlich Außenaufnahmen, untersagte Aufnahmen im Inneren der Zentrale; tatsächliche Nutzung nicht belegt (Edition Dok. 13)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-10-12'
+  - id: REL-DE-BND-DYNAMIT-009
+    from: PER-DE-KURT-WEISS-BND
+    to: PER-DE-THEO-MARIA-WERNER
+    type: reported_screenplay_negotiation
+    label: BND-Vermerk vom 28.11.1966 berichtet über Treffen am 23.11.; Werner bestätigte Rangänderungen und erklärte weitere Änderungsbereitschaft
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-23'
+  - id: REL-DE-BND-DYNAMIT-010
+    from: PER-DE-KURT-WEISS-BND
+    to: PER-DE-REINHARD-GEHLEN
+    type: intelligence_reporting
+    label: Weiß berichtete Gehlen über Produktionsgespräch und Unterstützungswünsche (Edition Dok. 17)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-28'
+  - id: REL-DE-BND-DYNAMIT-011
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-US-CIA
+    type: information_transfer
+    label: Weiß informierte CIA-Verbindungsstab über Filmprojekt (Edition S. 18, Dok. 18)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-11-04'
+  - id: REL-DE-BND-DYNAMIT-012
+    from: ORG-US-CIA
+    to: ORG-DE-BND
+    type: official_response
+    label: US-Dienst bestritt vorherige Kenntnis und berichtete fehlende Unterstützungszusage amerikanischer Stellen; keine nachgewiesene US-Filmhilfe (Edition Dok. 18)
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1966-12-02'
+  - id: REL-DE-BND-DYNAMIT-013
+    from: PER-DE-THEO-MARIA-WERNER
+    to: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: producer_role
+    label: Filmportal und BND-Edition nennen Werner als Produzenten der Münchner Parnass-Produktion
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    - SRC-DE-DFF-FILMPORTAL-DYNAMIT
+    evidence_level: established
+    period:
+      start: '1966'
+      end: '1967'
+  - id: REL-DE-BND-DYNAMIT-014
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-DE-BND
+    type: management_role
+    label: Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    - SRC-DE-STASI-PULLACH-INTERN-1968-ED
+    evidence_level: strong
+    period:
+      start: '1966'
+  - id: REL-DE-BND-DYNAMIT-015
+    from: PER-DE-KURT-WEISS-BND
+    to: ORG-DE-ORGANISATION-GEHLEN
+    type: employed_by
+    label: Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1952'
+  - id: REL-DE-BND-DYNAMIT-016
+    from: ORG-DE-BND
+    to: ORG-DE-WDR
+    type: reported_filming_permission
+    label: BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen
+    sources:
+    - SRC-DE-BND-MFG-DYNAMIT-2014
+    evidence_level: strong
+    period:
+      start: '1964'

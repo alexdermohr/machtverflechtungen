@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**747 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**763 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -8,7 +8,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 
 - [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 49 direkte Beziehungen
 - [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
-- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 7 direkte Beziehungen
+- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 8 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
 - [BAFISUD](network-focus-bafisud.md) — 5 direkte Beziehungen
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
@@ -265,7 +265,7 @@ flowchart LR
     N_ORG_DE_STIFTERVERBAND_1952["Stifterverband für die Deutsche Wissenschaft (1952/53)"]
     N_PER_DE_WILHELM_CLASSEN -->|"laut CIA-QKSNITCH-Abschlussbericht Mittelsmann einer verdeckten Weiterleitung, nicht unabhängig bankgeprüft"| N_ORG_DE_STIFTERVERBAND_1952
     N_ORG_DE_STIFTERVERBAND_1952 -->|"CIA berichtet eine verdeckte Geldweiterleitung an das Münchner GfW-Konto; originale Kontoauszüge offen"| N_ORG_DE_GFW_1952
-    N_ORG_DE_BUNDESPRESSEAMT_1953["Presse- und Informationsamt der Bundesregierung (1953)"]
+    N_ORG_DE_BUNDESPRESSEAMT_1953["Presse- und Informationsamt der Bundesregierung"]
     N_ORG_DE_WWR_1952 -->|"laut CIA-Monatsbericht 300 Exemplare des zwölfseitigen Nachdrucks an das Bundespresseamt verteilt"| N_ORG_DE_BUNDESPRESSEAMT_1953
     N_PER_DE_OTTO_LENZ["Otto Lenz"]
     N_PER_DE_OTTO_LENZ -->|"CIA-Bericht Februar 1953 nennt erneute Zusage von 10.000 DM monatlich; Auszahlung nicht nachgewiesen"| N_ORG_DE_DSZ_1952
@@ -462,7 +462,7 @@ flowchart LR
     N_PER_DE_KARLHEINZ_SCHREIBER -->|"Bundestagsbericht 14/9300 S. 374 stellt Übergabe von 1 Mio. DM in bar durch Schreiber an CDU-Schatzmeister Kiep am 26.08.1991 in St. Margrethen fest; dies ist derselbe CDU-Parteispendevorgang, keine unabhängige Atlantik-Brücke-Spende"| N_PER_DE_WALTHER_LEISLER_KIEP
     N_ORG_DE_CDU_1991["Christlich Demokratische Union Deutschlands (CDU, 1991)"]
     N_PER_DE_WALTHER_LEISLER_KIEP -->|"Bundestagsbericht: 1 Mio. DM aus dem Schreiber/Thyssen-Geldweg gelangten 1991 über Kiep und den Treuhänder Weyrauch verdeckt zur CDU. Identisch mit der Schreiber-Kiep-Bargeldübergabe, nicht erneut zu addieren und keine nachgewiesene Vereinszuwendung"| N_ORG_DE_CDU_1991
-    N_ORG_DE_AUSWAERTIGES_AMT_2008["Auswärtiges Amt (Sponsor 2008/09)"]
+    N_ORG_DE_AUSWAERTIGES_AMT_2008["Auswärtiges Amt"]
     N_ORG_DE_AUSWAERTIGES_AMT_2008 -->|"Atlantik-Brücke-Jahresbericht Juni 2008–Juni 2009 nennt das Auswärtige Amt ausdrücklich unter den Sponsoren; konkrete Haushaltsstelle, Zahlbetrag und Gegenleistungen im Beleg offen"| N_ORG_DE_ATLANTIK_BRUECKE
     N_ORG_DE_DEUTSCHE_BANK_2008["Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09)"]
     N_ORG_DE_DEUTSCHE_BANK_2008 -->|"Atlantik-Brücke-Jahresbericht 2008/09 nennt Deutsche Bank als Sponsor; Betrag, Rechtsform der Unterstützung und konkrete Gegenleistung nicht angegeben"| N_ORG_DE_ATLANTIK_BRUECKE
@@ -626,7 +626,7 @@ flowchart LR
     N_ORG_INT_SHELL_GROUP_1996 -->|"Nach zeitgenössischer taz-Berichterstattung verwendete Shell Ulfkottes nach der 1996er Reise erschienenen FAZ-Artikel in einem firmeneigenen Werbevideo; daraus ist kein redaktioneller Auftrag und kein ausdrückliches FAZ-Einverständnis ableitbar"| N_ORG_DE_FAZ
     N_ORG_DE_BKA["Bundeskriminalamt (BKA)"]
     N_ORG_DE_BKA -->|"BKA lud Ulfkotte nach der Bundesregierung für eine einzelne ressortübergreifende Mykonos-Gefährdungslagebesprechung am 27.11.1996 als Experten für inneriranische Verhältnisse und ausdrücklich nicht als Pressevertreter ein; keine amtlich bestätigte Übergabe geheimer Verschlusssachen oder Agentenrolle"| N_PER_DE_UDO_ULFKOTTE
-    N_ORG_DE_BMVG_PSV_1981_1990["Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990)"]
+    N_ORG_DE_BMVG_PSV_1981_1990["Bundesministerium der Verteidigung (BMVg)"]
     N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990["Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg)"]
     N_ORG_DE_BMVG_PSV_1981_1990 -->|"Bundesregierung nennt für 1981–1988 ca. eine Million DM jährlich aus BMVg-Mitteln an die Studiengesellschaft für Zeitprobleme; näherungsweiser Jahreswert, nicht exakt belegte acht Einzelzahlungen und kein BND-Rekrutierungsauftrag"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
     N_ORG_DE_BMVG_PSV_1981_1990 -->|"Bundesregierung meldet 1.449.200 DM Gesamtzuwendungen an die Studiengesellschaft vom 01.01.1989 bis August 1990; ein Gesamtwert für 20 Monate und keine Einzeljahreszahlung oder Leistung an Ulfkotte"| N_ORG_DE_STUDIENGESELLSCHAFT_ZEITPROBLEME_1961_1990
@@ -1310,6 +1310,25 @@ flowchart LR
     N_ORG_DE_BMI_AMRI_2017["Bundesministerium des Innern (Amri-Komplex 2017)"]
     N_ORG_DE_BMJV_AMRI_2017["Bundesministerium der Justiz und für Verbraucherschutz (2017)"]
     N_ORG_DE_BMI_AMRI_2017 -->|"vereinbarte nach Anschlag Vorrang ausländerrechtlicher Maßnahmen, wenn tragfähige Strafhaft nicht erreichbar war"| N_ORG_DE_BMJV_AMRI_2017
+    N_ORG_DE_PARNASS_FILM_MUENCHEN["Parnass-Film GmbH (München)"]
+    N_ORG_DE_BMVG_PSV_1981_1990 -->|"Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_ORG_DE_PARNASS_FILM_MUENCHEN -->|"Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)"| N_ORG_DE_BMVG_PSV_1981_1990
+    N_ORG_DE_BMVG_PSV_1981_1990 -->|"BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)"| N_ORG_DE_BND
+    N_ORG_DE_PARNASS_FILM_MUENCHEN -->|"Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition"| N_ORG_DE_BUNDESPRESSEAMT_1953
+    N_ORG_DE_BUNDESPRESSEAMT_1953 -->|"Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition"| N_ORG_DE_AUSWAERTIGES_AMT_2008
+    N_ORG_DE_AUSWAERTIGES_AMT_2008 -->|"AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)"| N_ORG_DE_BND
+    N_PER_DE_THEO_MARIA_WERNER["Theo Maria Werner"]
+    N_PER_DE_THEO_MARIA_WERNER -->|"Laut Edition übergab Werner ein Drehbuch; Originaldrehbuch nicht auffindbar"| N_ORG_DE_BND
+    N_PER_DE_REINHARD_GEHLEN -->|"Gehlen gestattete grundsätzlich Außenaufnahmen, untersagte Aufnahmen im Inneren der Zentrale; tatsächliche Nutzung nicht belegt (Edition Dok. 13)"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_PER_DE_KURT_WEISS_BND["Kurt Weiß (Winterstein)"]
+    N_PER_DE_KURT_WEISS_BND -->|"BND-Vermerk vom 28.11.1966 berichtet über Treffen am 23.11.; Werner bestätigte Rangänderungen und erklärte weitere Änderungsbereitschaft"| N_PER_DE_THEO_MARIA_WERNER
+    N_PER_DE_KURT_WEISS_BND -->|"Weiß berichtete Gehlen über Produktionsgespräch und Unterstützungswünsche (Edition Dok. 17)"| N_PER_DE_REINHARD_GEHLEN
+    N_PER_DE_KURT_WEISS_BND -->|"Weiß informierte CIA-Verbindungsstab über Filmprojekt (Edition S. 18, Dok. 18)"| N_ORG_US_CIA
+    N_ORG_US_CIA -->|"US-Dienst bestritt vorherige Kenntnis und berichtete fehlende Unterstützungszusage amerikanischer Stellen; keine nachgewiesene US-Filmhilfe (Edition Dok. 18)"| N_ORG_DE_BND
+    N_PER_DE_THEO_MARIA_WERNER -->|"Filmportal und BND-Edition nennen Werner als Produzenten der Münchner Parnass-Produktion"| N_ORG_DE_PARNASS_FILM_MUENCHEN
+    N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
+    N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
+    N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
 ```
 
 [Zur Relationstabelle](network.md)

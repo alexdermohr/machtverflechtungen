@@ -670,7 +670,7 @@ entities:
 
   - id: ORG-DE-BUNDESPRESSEAMT-1953
     type: government_agency
-    name: "Presse- und Informationsamt der Bundesregierung (1953)"
+    name: "Presse- und Informationsamt der Bundesregierung"
     countries: [DE]
     notes: "CIA-Monatsbericht führt 300 Nachdruckexemplare als an das Bundespresseamt verteilte Menge auf; keine daraus abgeleitete Redaktionsweisung."
 
@@ -1226,7 +1226,7 @@ entities:
 
   - id: ORG-DE-AUSWAERTIGES-AMT-2008
     type: government_ministry
-    name: "Auswärtiges Amt (Sponsor 2008/09)"
+    name: "Auswärtiges Amt"
     countries: [DE]
     notes: "Im Atlantik-Brücke-Jahresbericht 2008/09 als Sponsor aufgeführt; konkreter Förderposten, Jahresbetrag und programmatische Bedingungen im Quellenbeleg offen."
 
@@ -1622,7 +1622,7 @@ entities:
 
   - id: ORG-DE-BMVG-PSV-1981-1990
     type: federal_ministry
-    name: "Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990)"
+    name: "Bundesministerium der Verteidigung (BMVg)"
     countries: [DE]
     notes: "Verteidigungsministerium der BRD; Haushaltsmittel der Referatsgruppe Psychologische Verteidigung in Bundestagsdrucksachen 11/4360 und 11/7749 nachgewiesen. Historischer Förderkontext, weder gleichbedeutend mit BND noch mit einer personenbezogenen Agentenzahlung."
 
@@ -3125,3 +3125,21 @@ entities:
     name: Bundesministerium der Justiz und für Verbraucherschutz (2017)
     countries:
     - DE
+  - id: ORG-DE-PARNASS-FILM-MUENCHEN
+    type: media_company
+    name: Parnass-Film GmbH (München)
+    countries:
+    - DE
+    notes: Filmproduktionsgesellschaft 1966/67; nicht mit Wiener Koproduktionsgesellschaft gleichsetzen.
+  - id: PER-DE-THEO-MARIA-WERNER
+    type: person
+    name: Theo Maria Werner
+    countries:
+    - DE
+    notes: Produzent von Mister Dynamit; Anfragen und Änderungszusagen im BND-Dossier 150.089.
+  - id: PER-DE-KURT-WEISS-BND
+    type: person
+    name: Kurt Weiß (Winterstein)
+    countries:
+    - DE
+    notes: Politische/strategische Aufklärung; Zuordnung nach BND-Edition und editorischer Anmerkung des Stasi-Unterlagen-Archivs; abweichende Lebens- und Funktionsdaten nicht vereinheitlicht.
