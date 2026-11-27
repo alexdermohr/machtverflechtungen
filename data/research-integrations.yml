@@ -1129,7 +1129,7 @@ studies:
     - REL-DE-BND-MEDIA-019
 
   nsu-schaefer-uebermittlungsrecht-thueringen-1998-2015.md:
-    sha256: 551d6b235a291259bb1cf813adefef703062113f3a8454edacaf457c99753d3e
+    sha256: 7c3c59a1d8fb410d804f9b120d054ed008da9ffb7f645033d0b46317d923608e
     status: network
     relation_ids:
       - REL-DE-NSU-TLFV-TLKA-INFO-001

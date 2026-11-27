@@ -6844,17 +6844,17 @@ relations:
     from: ORG-DE-TLFV
     to: ORG-DE-TLKA
     type: statutory_information_duty
-    label: "Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2"
-    period: {start: "2012"}
+    label: "Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2; in Kraft 18.08.2012 bis 31.12.2014 (§ 33; Art. 11 des Änderungsgesetzes 2014)"
+    period: {start: "2012-08-18", end: "2014-12-31"}
     evidence_level: established
-    sources: [SRC-DE-TH-GVBL-THURVSG-20120730, SRC-DE-BLKR-NSU-20130430]
+    sources: [SRC-DE-TH-GVBL-THURVSG-20120730, SRC-DE-BLKR-NSU-20130430, SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
 
   - id: REL-DE-TH-AFV-TLKA-PFLICHT-2014-001
     from: ORG-DE-TH-AFV-2015
     to: ORG-DE-TLKA
     type: statutory_information_duty
-    label: "Gesetz 2014 schreibt Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"
-    period: {start: "2015"}
+    label: "Gesetz 2014 schreibt ab 01.01.2015 Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"
+    period: {start: "2015-01-01"}
     evidence_level: established
     sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
 

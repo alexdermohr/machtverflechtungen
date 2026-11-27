@@ -3143,7 +3143,7 @@ Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8 · 2014-08-08 · Stufe 
 
 [PDF öffnen](https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf)
 
-Fundstelle: GVBl. S. 529 ff., §§ 4, 21, 22, 27, 39
+Fundstelle: GVBl. S. 529 ff., §§ 4, 21, 22, 27, 39; Art. 11, S. 544 (Inkrafttreten und Außerkrafttreten)
 
 </article>
 

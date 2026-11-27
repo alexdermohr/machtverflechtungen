@@ -1324,9 +1324,9 @@ flowchart LR
     N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
     N_ORG_DE_TLKA["Thüringer Landeskriminalamt"]
     N_ORG_DE_TLFV -->|"Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"| N_ORG_DE_TLKA
-    N_ORG_DE_TLFV -->|"Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2"| N_ORG_DE_TLKA
+    N_ORG_DE_TLFV -->|"Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2; in Kraft 18.08.2012 bis 31.12.2014 (§ 33; Art. 11 des Änderungsgesetzes 2014)"| N_ORG_DE_TLKA
     N_ORG_DE_TH_AFV_2015["Thüringer Amt für Verfassungsschutz (ab 2015)"]
-    N_ORG_DE_TH_AFV_2015 -->|"Gesetz 2014 schreibt Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"| N_ORG_DE_TLKA
+    N_ORG_DE_TH_AFV_2015 -->|"Gesetz 2014 schreibt ab 01.01.2015 Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"| N_ORG_DE_TLKA
     N_ORG_DE_TH_AFV_2015 -->|"Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"| N_ORG_DE_TLFV
     N_ORG_DE_LKA_NRW["Landeskriminalamt Nordrhein-Westfalen"]
     N_PER_DE_VP01_AMRI["VP01 (LKA NRW, Amri-Komplex)"]

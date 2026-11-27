@@ -1211,6 +1211,12 @@ class ResearchIntegrationTests(unittest.TestCase):
             (root / "data/relations.yml").read_text(encoding="utf-8")
         )["relations"]}
         self.assertNotIn("period", relations["REL-DE-NSU-HH-GBA-2026-001"])
+        self.assertEqual(relations["REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001"]["period"],
+                         {"start": "2012-08-18", "end": "2014-12-31"})
+        self.assertIn("SRC-DE-TH-GVBL-THURVERFSCHG-20140808",
+                      relations["REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001"]["sources"])
+        self.assertEqual(relations["REL-DE-TH-AFV-TLKA-PFLICHT-2014-001"]["period"]["start"],
+                         "2015-01-01")
         for lka in ("ORG-DE-ST-LKA", "ORG-DE-TLKA", "ORG-DE-LKA-BERLIN", "ORG-DE-LKA-NRW"):
             self.assertEqual(entities[lka]["type"], "police_authority", lka)
         obsolete = ('ORG-DE-BERLIN-LKA', 'ORG-DE-BERLIN-LFV-2012', 'ORG-DE-GBA-NSU-2026', 'ORG-DE-GBA-NSU-1998-2012', 'ORG-DE-GBA-NSU-2014', 'ORG-DE-BMI-2003', 'ORG-DE-BMI-2011-2012')
