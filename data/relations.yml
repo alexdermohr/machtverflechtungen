@@ -6923,3 +6923,83 @@ relations:
     - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
     period:
       start: '1971'
+  - id: REL-DE-LANG-II-001
+    from: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    to: ORG-DE-GBA
+    type: reported_file_access_request
+    label: Ausschuss ersuchte laut Schlussbericht um Einsicht in Langemanns beim GBA befindliche Ring- und Tagebücher (S. 5, Abschn. 3)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983'
+  - id: REL-DE-LANG-II-002
+    from: ORG-DE-BND
+    to: ORG-DE-GBA
+    type: reported_secrecy_objection
+    label: GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Originalschreiben nicht separat geprüft (S. 5, 3 k)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983-04-28'
+  - id: REL-DE-LANG-II-003
+    from: ORG-DE-GBA
+    to: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    type: reported_file_access_denial
+    label: GBA lehnte laut Schlussbericht Akteneinsicht unter Verweis auf BND-Interessen ab (S. 5, 3 k)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983-04-28'
+  - id: REL-DE-LANG-II-004
+    from: PER-DE-HANS-LANGEMANN
+    to: ORG-DE-VG-MUENCHEN-1983
+    type: reported_legal_challenge
+    label: Langemann klagte gegen das Einsichtsbegehren unter Berufung auf Privatsphäre; Ausschuss setzte Vollzug mehrheitlich aus, Ergebnis des Verfahrens offen (S. 5, Abschn. 3)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983'
+  - id: REL-DE-LANG-II-005
+    from: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    to: ORG-DE-BAYOBLG-1983
+    type: reported_file_access_request
+    label: Ausschuss richtete das Einsichtsbegehren nach Übergang der strafgerichtlichen Zuständigkeit an das BayObLG (S. 5, 3 l)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983'
+  - id: REL-DE-LANG-II-006
+    from: ORG-DE-BAYOBLG-1983
+    to: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    type: reported_file_access_denial
+    label: Vorsitzender des 3. Strafsenats lehnte Einsicht aus Gründen des BND-Geheimschutzes ab; keine gerichtliche Rechtswidrigkeitsfeststellung behauptet (S. 5, 3 l)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983-08-05'
+  - id: REL-DE-LANG-II-007
+    from: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    to: ORG-DE-BAYOBLG-1983
+    type: reported_reconsideration_request
+    label: Ausschuss beschloss Gegenvorstellung mit Angebot der Einsicht in Gerichtsräumen (S. 5, 3 l)
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983-10-11'
+  - id: REL-DE-LANG-II-008
+    from: ORG-DE-BAYOBLG-1983
+    to: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    type: reported_file_access_denial
+    label: 'Erneute Ablehnung; berichtete Begründung: nicht aussonderbare nachrichtendienstliche Informationen und Schutz privater Aufzeichnungen (S. 5, 3 l)'
+    evidence_level: strong
+    sources:
+    - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
+    period:
+      start: '1983-11-22'

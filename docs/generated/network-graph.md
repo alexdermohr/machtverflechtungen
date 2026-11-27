@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**756 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**764 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1325,6 +1325,17 @@ flowchart LR
     N_ORG_DE_DER_SPIEGEL -->|"Laut Dülffer erhielt der BND vorab Artikelentwürfe zur Durchsicht; erste veröffentlichte Fassung nicht mehr gegengelesen"| N_ORG_DE_BND
     N_ORG_DE_BND -->|"Laut Dülffer versuchte BND bestimmte aus seiner Sicht fehlerhafte oder geheimhaltungsbedürftige Veröffentlichungen zu verhindern; keine generelle redaktionelle Verfügungsmacht"| N_ORG_DE_DER_SPIEGEL
     N_ORG_DE_BUNDESKANZLERAMT -->|"Laut Dülffer versuchte auch das Kanzleramt bestimmte Veröffentlichungen zu verhindern; erste veröffentlichte Fassung war laut Dülffer nicht mehr vom BND gegengelesen"| N_ORG_DE_DER_SPIEGEL
+    N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985["Bayerischer Landtag – Untersuchungsausschuss Langemann II (1983–1985)"]
+    N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss ersuchte laut Schlussbericht um Einsicht in Langemanns beim GBA befindliche Ring- und Tagebücher (S. 5, Abschn. 3)"| N_ORG_DE_GBA
+    N_ORG_DE_BND -->|"GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Originalschreiben nicht separat geprüft (S. 5, 3 k)"| N_ORG_DE_GBA
+    N_ORG_DE_GBA -->|"GBA lehnte laut Schlussbericht Akteneinsicht unter Verweis auf BND-Interessen ab (S. 5, 3 k)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
+    N_ORG_DE_VG_MUENCHEN_1983["Verwaltungsgericht München (1983)"]
+    N_PER_DE_HANS_LANGEMANN -->|"Langemann klagte gegen das Einsichtsbegehren unter Berufung auf Privatsphäre; Ausschuss setzte Vollzug mehrheitlich aus, Ergebnis des Verfahrens offen (S. 5, Abschn. 3)"| N_ORG_DE_VG_MUENCHEN_1983
+    N_ORG_DE_BAYOBLG_1983["Bayerisches Oberstes Landesgericht (1983)"]
+    N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss richtete das Einsichtsbegehren nach Übergang der strafgerichtlichen Zuständigkeit an das BayObLG (S. 5, 3 l)"| N_ORG_DE_BAYOBLG_1983
+    N_ORG_DE_BAYOBLG_1983 -->|"Vorsitzender des 3. Strafsenats lehnte Einsicht aus Gründen des BND-Geheimschutzes ab; keine gerichtliche Rechtswidrigkeitsfeststellung behauptet (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
+    N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss beschloss Gegenvorstellung mit Angebot der Einsicht in Gerichtsräumen (S. 5, 3 l)"| N_ORG_DE_BAYOBLG_1983
+    N_ORG_DE_BAYOBLG_1983 -->|"Erneute Ablehnung; berichtete Begründung: nicht aussonderbare nachrichtendienstliche Informationen und Schutz privater Aufzeichnungen (S. 5, 3 l)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
 ```
 
 [Zur Relationstabelle](network.md)

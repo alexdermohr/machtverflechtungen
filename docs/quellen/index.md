@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**521 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -829,6 +829,21 @@ Bayerischer Landtag · 1952-10-29 · Stufe **A** · Primärquelle · `SRC-DE-BYL
 [PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP02/Protokolle/02%20Wahlperiode%20Kopie/02%20WP%20Plenum%20LT%20Kopie/115%20PL%20291052%20ges%20endg%20Kopie.pdf)
 
 Fundstelle: gedruckte S. 311: 70.000 DM Zufluss/30.000 DM Bargeld, Listen, US-Schulung; S. 312: Stoßtrupp, DHS, CIC-Telefonreferenz; S. 313: Regierungserklärung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1985">
+
+<a id="src-de-baylt-langemann-ii-6288-1985"></a>
+### Bayerischer Landtag
+
+**[Bayerischer Landtag, Drs. 10/6288: Schlussbericht Untersuchungsausschuss Langemann II](https://www.bayern.landtag.de/fileadmin/www/ElanTextAblage_WP10/Drucksachen/0000006000/10-06288.pdf)**
+
+Bayerischer Landtag · 1985-02-26 · Stufe **A** · Primärquelle · `SRC-DE-BAYLT-LANGEMANN-II-6288-1985`
+
+[PDF öffnen](https://www.bayern.landtag.de/fileadmin/www/ElanTextAblage_WP10/Drucksachen/0000006000/10-06288.pdf)
+
+Fundstelle: Gedruckte S. 5–6, Abschnitt 3 j–l und 4 a–d; über indexierten Text der amtlichen PDF-Quelle geprüft
 
 </article>
 

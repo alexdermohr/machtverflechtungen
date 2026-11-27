@@ -1132,3 +1132,15 @@ studies:
     - REL-DE-PULLACH-007
     - REL-DE-PULLACH-008
     - REL-DE-PULLACH-009
+  langemann-ii-aufklaerungsgrenzen-1983-1985.md:
+    sha256: 067430f09d4a8f351031ee4a43e0b0835529d8a5a91ce05a53ed34ba7c2af939
+    status: network
+    relation_ids:
+    - REL-DE-LANG-II-001
+    - REL-DE-LANG-II-002
+    - REL-DE-LANG-II-003
+    - REL-DE-LANG-II-004
+    - REL-DE-LANG-II-005
+    - REL-DE-LANG-II-006
+    - REL-DE-LANG-II-007
+    - REL-DE-LANG-II-008

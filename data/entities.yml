@@ -3155,3 +3155,21 @@ entities:
     countries:
     - DE
     notes: CDU-Bundestagsabgeordneter; als Empfänger eines Mader-Briefs im MfS-Bericht genannt, kein Beleg für Kooperation.
+  - id: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    type: parliamentary_inquiry
+    name: Bayerischer Landtag – Untersuchungsausschuss Langemann II (1983–1985)
+    countries:
+    - DE
+    notes: Folgeuntersuchung des Langemann-Komplexes; Schlussbericht 10/6288 dokumentiert nicht vollzogene Beweisbeschlüsse.
+  - id: ORG-DE-BAYOBLG-1983
+    type: court
+    name: Bayerisches Oberstes Landesgericht (1983)
+    countries:
+    - DE
+    notes: Dritter Strafsenat, damalige Zuständigkeit nach Anklageerhebung; keine Bewertung seiner Entscheidungen als rechtswidrig.
+  - id: ORG-DE-VG-MUENCHEN-1983
+    type: court
+    name: Verwaltungsgericht München (1983)
+    countries:
+    - DE
+    notes: Gericht des von Langemann angestrengten Verfahrens zur Einsichtnahme in seine Aufzeichnungen. Ergebnis hier nicht nachgewiesen.
