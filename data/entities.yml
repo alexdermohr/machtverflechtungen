@@ -3158,3 +3158,51 @@ entities:
     name: "Presse- und Informationsamt der Bundesregierung (1966)"
     countries: [DE]
     notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Gleichsetzung mit der CIA-Nachdruckverteilung 1953."
+  - id: PER-DE-JULIUS-MADER
+    type: person
+    name: Julius Mader
+    countries:
+    - DE
+    notes: Im MfS-Plan K 1/21 als Koordinationspartner für bereits berichtete publizistische Maßnahmen und Verfasser eines Briefs genannt.
+  - id: PER-DE-HERMANN-ZOLLING
+    type: person
+    name: Hermann Zolling
+    countries:
+    - DE
+    notes: SPIEGEL-Journalist; Kooperation mit BND im Vorfeld der 1971 erschienenen Serie laut Dülffer; genauer Beginn hier nicht belegt, keine nachgewiesene Agentenführung.
+  - id: ORG-DE-DDR-PANORAMA-AUSLANDSPRESSEDIENST
+    type: media_service
+    name: Panorama (DDR-Auslandspressedienst, 1971)
+    countries:
+    - DE
+    notes: Spanischsprachiger DDR-Auslandspressedienst laut MfS K 1/21 Abschnitt 4.4; nicht das ARD-Fernsehmagazin.
+  - id: ORG-DE-BUNDESTAGSABGEORDNETE-PULLACH-1971
+    type: historical_group
+    name: Acht Bundestagsabgeordnete (MfS-Versandliste, 1971)
+    countries:
+    - DE
+    notes: Adressatenliste K 1/21 Abschnitt 4.2; keine organisatorische Einheit, kein Beleg für Empfang, Zustimmung oder Zusammenarbeit.
+  - id: PER-DE-FRITZ-BAIER
+    type: person
+    name: Fritz Baier
+    countries:
+    - DE
+    notes: CDU-Bundestagsabgeordneter; als Empfänger eines Mader-Briefs im MfS-Bericht genannt, kein Beleg für Kooperation.
+  - id: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985
+    type: parliamentary_inquiry
+    name: Bayerischer Landtag – Untersuchungsausschuss Langemann II (1983–1985)
+    countries:
+    - DE
+    notes: Folgeuntersuchung des Langemann-Komplexes; Schlussbericht 10/6288 dokumentiert nicht vollzogene Beweisbeschlüsse.
+  - id: ORG-DE-BAYOBLG-1983
+    type: court
+    name: Bayerisches Oberstes Landesgericht (1983)
+    countries:
+    - DE
+    notes: Dritter Strafsenat, damalige Zuständigkeit nach Anklageerhebung; keine Bewertung seiner Entscheidungen als rechtswidrig.
+  - id: ORG-DE-VG-MUENCHEN-1983
+    type: court
+    name: Verwaltungsgericht München (1983)
+    countries:
+    - DE
+    notes: Gericht des von Langemann angestrengten Verfahrens zur Einsichtnahme in seine Aufzeichnungen. Ergebnis hier nicht nachgewiesen.

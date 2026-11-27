@@ -1139,3 +1139,28 @@ studies:
     - REL-DE-BND-DYNAMIT-014
     - REL-DE-BND-DYNAMIT-015
     - REL-DE-BND-DYNAMIT-016
+  pullach-intern-mfs-bnd-medien-1969-1972.md:
+    sha256: f7cc6a9499c8933847c8403c7fa420fb6bfb008db5c441c82fb7a7cb9ea30f4e
+    status: network
+    relation_ids:
+    - REL-DE-PULLACH-001
+    - REL-DE-PULLACH-002
+    - REL-DE-PULLACH-003
+    - REL-DE-PULLACH-004
+    - REL-DE-PULLACH-005
+    - REL-DE-PULLACH-006
+    - REL-DE-PULLACH-007
+    - REL-DE-PULLACH-008
+    - REL-DE-PULLACH-009
+  langemann-ii-aufklaerungsgrenzen-1983-1985.md:
+    sha256: 067430f09d4a8f351031ee4a43e0b0835529d8a5a91ce05a53ed34ba7c2af939
+    status: network
+    relation_ids:
+    - REL-DE-LANG-II-001
+    - REL-DE-LANG-II-002
+    - REL-DE-LANG-II-003
+    - REL-DE-LANG-II-004
+    - REL-DE-LANG-II-005
+    - REL-DE-LANG-II-006
+    - REL-DE-LANG-II-007
+    - REL-DE-LANG-II-008
