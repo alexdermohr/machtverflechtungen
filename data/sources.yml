@@ -5680,3 +5680,448 @@ sources:
   accessed: '2026-11-26'
   locator: Absatz zur bereits erteilten Auskunft des BND
   notes: Bericht des klagenden Mediums nennt fünf Medien für beide Jahre zusammen; ursprüngliche Behördenantwort nicht eingesehen.
+- id: SRC-DE-BERLIN-UA-SCHMUECKER-1990
+  title: Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224
+  institution: Abgeordnetenhaus Berlin
+  date: '1990-10-02'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf
+  accessed: '2026-11-26'
+  locator: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
+  notes: Text S. 9–12 geprüft; Seitenbilder S. 23–24 und 35–38 geprüft. Zwischenbericht, keine strafgerichtliche
+    Schuldfeststellung; abweichender Bericht nicht vollständig ausgewertet.
+- id: SRC-DE-BERLIN-SCHMUECKER-780-1991
+  title: Konsequenzen aus dem Ende des Schmücker-Verfahrens, Drs. 12/780
+  institution: Abgeordnetenhaus Berlin / Senat
+  date: '1991-09-25'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf
+  accessed: '2026-11-26'
+  locator: S. 8, KA 863, Antworten 6, 9–11
+  notes: Text und Faksimile geprüft. Verfahrenseinleitung, keine Verurteilung.
+- id: SRC-DE-BERLIN-SCHMUECKER-2659-1993
+  title: Konsequenzen aus dem Schmücker-Prozeß, Drs. 12/2659
+  institution: Abgeordnetenhaus Berlin / Senat
+  date: '1993-03-16'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf
+  accessed: '2026-11-26'
+  locator: S. 34, KA 3567, Antworten 1–3
+  notes: Text und Faksimile geprüft. Auskunft über Stand 1993, nicht späteren Ausgang.
+- id: SRC-DE-BT-HERRHAUSEN-2209-1992
+  title: Fahndungsverlauf im Mordfall Herrhausen, Drs. 12/2209
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1992-03-10'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/12/022/1202209.pdf
+  accessed: '2026-11-26'
+  locator: S. 2–3, Fragen 2a/d/e, 3–4
+  notes: Text und Faksimile geprüft. Beweiskettenlücke, kein Nachweis einer Manipulation.
+- id: SRC-DE-VON-STAHL-MUNZINGER
+  title: Alexander von Stahl – Biografie
+  institution: Munzinger
+  date: null
+  type: biography
+  primary: false
+  tier: B
+  url: https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547
+  accessed: '2026-11-26'
+  locator: Berufsrollen 1975–1989 und 1990–1993
+  notes: Nur Ämterkontinuität; kein individueller Auftrag in anderen Verfahren.
+- id: SRC-DE-BT-NONNE-754-1995
+  title: Der Kronzeuge Siegfried Nonne und die Rolle der Sicherheitsbehörden, Drs. 13/754
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1995-03-09'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/007/1300754.pdf
+  accessed: '2026-11-26'
+  locator: Vorbemerkung; S. 2, 4–5, Fragen 3, 10–16
+  notes: Amtliche Darstellung, Landesbehörden nicht an Antwort beteiligt; keine unabhängige Verifizierung der Bestreitungen.
+- id: SRC-DE-BT-HERRHAUSEN-PL156-1997
+  title: Plenarprotokoll 13/156 – Antwort auf Frage 36 zum Herrhausen-Verfahren
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1997-02-19'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13156.pdf
+  accessed: '2026-11-26'
+  locator: S. 14075*, Anlage 13
+  notes: Text geprüft; Faksimileabruf fehlgeschlagen. Regierung referiert BGH-Entscheidung und verteidigt Gutachten.
+- id: SRC-DE-BGH-STB31-96-METADATA
+  title: BGH StB 31/96 – Entscheidungsnachweis
+  institution: dejure.org
+  date: '1997-01-16'
+  type: court_metadata
+  primary: false
+  tier: B
+  url: https://dejure.org/1997,8858
+  accessed: '2026-11-26'
+  locator: Aktenzeichen StB 31/96, 1 BJs 226/85-6
+  notes: Bibliografischer Nachweis; kein geprüfter Urteilsvolltext.
+- id: SRC-DE-TSP-KLUMP-1999
+  title: Etwa zehn Jahre nach der Tat wurde der letzte Haftbefehl aufgehoben
+  institution: Tagesspiegel
+  date: '1999-12-29'
+  type: press_report
+  primary: false
+  tier: D
+  url: https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html
+  accessed: '2026-11-26'
+  locator: Bericht zur Aufhebung des Mordvorwurfs gegen Andrea Klump
+  notes: Zeitgenössischer Pressebericht; gerichtliche Originalentscheidung noch offen.
+- id: SRC-DE-NI-UA-CELLE-4380-1989
+  title: Bericht Elfter Parlamentarischer Untersuchungsausschuss, Drs. 11/4380
+  institution: Niedersächsischer Landtag
+  date: '1989'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf
+  accessed: '2026-11-26'
+  locator: S. 160–162, 175–180; insbesondere Vertrag vom 05.03.1981 und Mannh. Bl. 2, 23, 27, 29–42, 99, 101
+  notes: Amtlicher Text; Seitenbilder nicht abrufbar. Unterscheidung Originalvertrag 1981, Zeugenaussagen zu älteren
+    Verträgen und Ausschussbewertung.
+- id: SRC-DE-BT-MAUSS-PL190-1990
+  title: Fragestunde zu Vereinbarungen Mauss/BKA/Versicherungswirtschaft, PlPr 11/190
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-01-24'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11190.pdf
+  accessed: '2026-11-26'
+  locator: S. 14665–14667, F1–2
+  notes: Amtliche Antwort bestätigt abgestimmte Abreden 1972, 1976, 1981; kein Vertragsvolltext.
+- id: SRC-DE-BT-MAUSS-PL200-1990
+  title: Fragestunde zu privaten Ermittlungen, PlPr 11/200
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-03-08'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11200.pdf
+  accessed: '2026-11-26'
+  locator: S. 15476–15477
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vertragszitat des Fragestellers nicht von Spranger bestätigt.
+- id: SRC-DE-BT-MAUSS-PL210-1990
+  title: Fragestunde zu Zahlungen an Mauss, PlPr 11/210
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-05-10'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11210.pdf
+  accessed: '2026-11-26'
+  locator: S. 16513–16515, F36–37
+  notes: Amtlich berichtete Zahlungen; ältere Verwendungszwecke nicht zuordenbar.
+- id: SRC-DE-BT-MAUSS-PL207-1990
+  title: Fragestunde zu Rechnungsprüfungen, PlPr 11/207
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1990-04-26'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/11/11207.pdf
+  accessed: '2026-11-26'
+  locator: S. 16250, F34–35
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Prüfung angekündigt, Ergebnis erst in Q6 berichtet.
+- id: SRC-DE-BT-MAUSS-8130-1997
+  title: Werner Mauss – Agent der Bundesregierung (II), Drs. 13/8130
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1997-07-01'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/081/1308130.pdf
+  accessed: '2026-11-26'
+  locator: Vorbemerkung, F1–7, F29–33
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vertragsdatum 31.08.1979, steuerliche Abreden, nicht mehr mögliche
+    Rechnungsprüfung.
+- id: SRC-DE-BT-BND-INFORMANTENSTEUER-2008
+  title: Schriftliche Fragen zu Informantenbesteuerung, Drs. 16/8447
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2008-03-07'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/16/084/1608447.pdf
+  accessed: '2026-11-26'
+  locator: S. 16, F34–35
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Vergleichsregime, kein Beleg seiner Anwendung auf Mauss.
+- id: SRC-DE-BT-MAUSS-7352-2016
+  title: Beauftragung und Ausstattung des Agenten Werner Mauss, Drs. 18/7352
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2016-01-26'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/073/1807352.pdf
+  accessed: '2026-11-26'
+  locator: S. 2–3, F1–4
+  notes: S. 2 Text und Faksimile geprüft. Keine Kenntnis neuer Bundesaufträge seit 2000; Details nur VS-NfD.
+- id: SRC-DE-BT-MAUSS-415-2018
+  title: Schriftliche Fragen, Drs. 19/415, Antwort zu Mauss
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '2018-01-10'
+  type: parliamentary_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/19/004/1900415.pdf
+  accessed: '2026-11-26'
+  locator: S. 18–19, F21, Antwort 10.01.2018
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Bestreitung früherer BKA-Fondskenntnis und Ende Zusammenarbeit
+    1987.
+- id: SRC-DE-BGH-MAUSS-347-2019
+  title: Urteil 1 StR 347/18
+  institution: Bundesgerichtshof, Volltext bei NWB
+  date: '2019-01-10'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://datenbank.nwb.de/Dokument/776164/
+  accessed: '2026-11-26'
+  locator: Rn. 4–10 und Vorsatzbeurteilung
+  notes: Urteil hebt LG-Feststellungen auf; referierte Beträge und Eigentumsannahmen nicht rechtskräftig.
+- id: SRC-DE-TAZ-DUE-FREISPRUCH-1989
+  title: Düe unschuldig – Werner Mauss perdu
+  institution: taz
+  date: '1989'
+  type: press_report
+  primary: false
+  tier: D
+  url: https://taz.de/Duee-unschuldig---Werner-Mauss-perdu/%211818993/
+  accessed: '2026-11-26'
+  locator: Bericht zum Strafprozess
+  notes: Originalurteil noch nicht geprüft; keine Aussage über den Ausgang des Zivilverfahrens.
+- id: SRC-DE-OLG-HAMM-MAUSS-143-2024
+  title: Beschluss 4 Ws 143/24
+  institution: Oberlandesgericht Hamm
+  date: '2024-10-08'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2024%2F4_Ws_143_24_Beschluss_20241008.html
+  accessed: '2026-11-26'
+  locator: Rn. 4–21, insbesondere 15–19
+  notes: Amtlicher Text; Seitenbild nicht abrufbar. Einlassung zur Fondsherkunft nicht mit gerichtlicher Tatsachenfeststellung
+    verwechseln.
+- id: SRC-DE-LOHR-MAUSS-2025
+  title: Schreiben Verfahrensstand, 07.11.2025
+  institution: Lohr + Company, veröffentlicht auf Mauss' Website
+  date: '2025-11-07'
+  type: party_statement
+  primary: true
+  tier: D
+  url: https://www.werner-mauss.de/documents/Schreiben_Prof_Dr_Lohr_Verfahrensstand_Ergaenzung_07_11_2025_gelb.pdf
+  accessed: '2026-11-26'
+  locator: S. 1
+  notes: Text und Faksimile; Mandantenquelle. Keine unabhängige Bestätigung der gerichtlichen und steuerlichen Erledigung.
+- id: SRC-DE-BT-MAUSS-PLENAR-18211-2017
+  title: Plenarprotokoll 18/211 – Mauss-Fonds
+  institution: Deutscher Bundestag
+  date: '2017-01-18'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/18/18211.pdf
+  accessed: '2026-11-27'
+  locator: S. 21152–21153, 21185
+  notes: Amtliche Aussagen zur Kenntnis; zusätzlicher klassifizierter Antwortteil unbekannt.
+- id: SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017
+  title: Schmidbauer bestätigt Geheimfonds
+  institution: dpa / n-tv
+  date: '2017-01-09'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html
+  accessed: '2026-11-27'
+  locator: Bericht über Gerichtszeugnis
+  notes: Keine Mitschrift oder Zahlungsbelege.
+- id: SRC-DE-BT-MAUSS-10098-2016
+  title: Drucksache 18/10098
+  institution: Deutscher Bundestag
+  date: '2016-10-21'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/100/1810098.pdf
+  accessed: '2026-11-27'
+  locator: Fragen 13–15
+  notes: Amtliche Auskunft; nicht mit Bundesdruckerei-Komplex gleichsetzen.
+- id: SRC-DE-BT-MAUSS-10695-2016
+  title: Drucksache 18/10695
+  institution: Deutscher Bundestag
+  date: '2016-12-13'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/106/1810695.pdf
+  accessed: '2026-11-27'
+  locator: Frage 30, Antwort 13.12.2016
+  notes: Datum der relevanten Antwort.
+- id: SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+  title: El fondo secreto que une al exespía Werner Mauss y a la Iglesia Católica en Colombia
+  institution: El Espectador / CONNECTAS
+  date: '2018-06-24'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/
+  accessed: '2026-11-27'
+  locator: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
+  notes: Journalistisch eingesehene Originale, hier nicht unmittelbar geprüft; Bestreitungen berücksichtigt.
+- id: SRC-DE-BT-MAUSS-6953-1997
+  title: Drucksache 13/6953 – Kolumbien
+  institution: Deutscher Bundestag
+  date: '1997'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/069/1306953.pdf
+  accessed: '2026-11-27'
+  locator: Vorbemerkung; Fragen 8, 14, 18–20, 28–37
+  notes: Amtliche Antworten; keine Gleichsetzung von Deckungen, Krediten und Fonds.
+- id: SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+  title: 'Offshore Leaks: Intermediärdatensatz 11003187'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/11003187
+  accessed: '2026-11-27'
+  locator: Rolle intermediary; Liste verbundener Gesellschaften
+  notes: Historische Daten; ICIJ Offshore Leaks Database (ODbL).
+- id: SRC-ICIJ-TRANSACTA-10044038
+  title: 'Offshore Leaks: Transacta Valores S.A.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10044038
+  accessed: '2026-11-27'
+  locator: Gründung 1985-11-06; Agent
+  notes: Historischer Datensatz.
+- id: SRC-ICIJ-BOREAL-10191986
+  title: 'Offshore Leaks: Boreal Management Corp.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10191986
+  accessed: '2026-11-27'
+  locator: Gründung 1992-01-13; Agent
+  notes: Historischer Datensatz.
+- id: SRC-ICIJ-NOLILANE-10041707
+  title: 'Offshore Leaks: Nolilane NV Inc.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10041707
+  accessed: '2026-11-27'
+  locator: Gründung 2005-12-29; Agent
+  notes: Historischer Datensatz.
+- id: SRC-DE-NDR-MAUSS-PANAMA-2016
+  title: 'Panama Papers: Werner Mauss'
+  institution: NDR / tagesschau
+  date: '2016-07-20'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.tagesschau.de/ausland/panamapapers-159.html
+  accessed: '2026-11-27'
+  locator: Gesellschafts- und Kontozuordnungen; Stellungnahme
+  notes: Kontoverbindungen bestritten; gleicher Leak-Korpus wie ICIJ.
+- id: SRC-INT-OCCRP-MAUSS-PANAMA-2016
+  title: Spies and Shadowy Allies Lurk in Secret Thanks to Firm's Bag of Tricks
+  institution: OCCRP
+  date: '2016'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks
+  accessed: '2026-11-27'
+  locator: Mauss-Abschnitt und Stellungnahmen
+  notes: Gemeinsamer Leak-Korpus; kein unabhängiger Eigentumsnachweis.
+- id: SRC-DE-BT-MAUSS-PL144-1996
+  title: 'Plenarprotokoll 13/144: Techint und Mauss'
+  institution: Deutscher Bundestag
+  date: '1996-12-04'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13144.pdf
+  accessed: '2026-11-27'
+  locator: S. 12999–13000
+  notes: Amtliche Antwort bestätigt Gespräche, bestreitet Schmidbauers Zahlungsvorschlag; Faksimile Cache miss.
+- id: SRC-DE-BT-MAUSS-PL147-1996
+  title: 'Plenarprotokoll 13/147: Industrie und Diplomatie'
+  institution: Deutscher Bundestag
+  date: '1996-12-11'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13147.pdf
+  accessed: '2026-11-27'
+  locator: S. 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
+  notes: Amtlicher Text; Faksimileabruf fehlgeschlagen. Unternehmensauskünfte und Regierungsantworten getrennt.
+- id: SRC-DE-BT-MAUSS-PL153-1997
+  title: 'Plenarprotokoll 13/153: FLS/Pfister und US-Kontakte'
+  institution: Deutscher Bundestag
+  date: '1997-01-29'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13153.pdf
+  accessed: '2026-11-27'
+  locator: S. 13771–13774, dringliche Fragen 1–2
+  notes: Amtliche Antwort zu Aufträgen, Auswärtigem Ausschuss und US-Kontakten; keine Bestätigung behaupteter Zahlungen.
+- id: SRC-DE-BT-MAUSS-PL159-1997
+  title: 'Plenarprotokoll 13/159: Schutzpapiere und Vorwürfe'
+  institution: Deutscher Bundestag
+  date: '1997-02-26'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/13/13159.pdf
+  accessed: '2026-11-27'
+  locator: S. 14288–14290, F32–33
+  notes: Amtliche Antworten und verweigerte interne Detailauskünfte; Faksimile nicht verfügbar.
+- id: SRC-CO-EFE-MAUSS-ARCHIVO-1998
+  title: Fiscalía archiva causa contra alemán Mauss y su esposa
+  institution: EFE / Caracol Radio
+  date: '1998-05-21'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://caracol.com.co/radio/1998/05/21/nacional/0895730400_018094.html
+  accessed: '2026-11-27'
+  locator: Volltext
+  notes: Zeitgenössischer Bericht zur Aufhebung der Anklage und Einstellung; Originalentscheidung offen.
+- id: SRC-CO-EFE-MAUSS-PAZ-1998
+  title: Espías Mauss, de secuestradores a apóstoles de la paz
+  institution: EFE / Caracol Radio
+  date: '1998-05-28'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://caracol.com.co/radio/1998/05/28/nacional/0896335200_018172.html
+  accessed: '2026-11-27'
+  locator: Volltext
+  notes: Datierung der Entscheidung 20.05.1998; abweichende Angaben zum Entführer; nicht unabhängig von Q8.

@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**498 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**538 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,52 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-plenum-urbach-1971) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-stammheim-buback-verfuegung-19770215) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-icj-163-press-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-berlin-ua-schmuecker-1990"></a>
+### Abgeordnetenhaus Berlin
+
+**[Zwischenbericht Untersuchungsausschuss Schmücker, Drs. 11/1224](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)**
+
+Abgeordnetenhaus Berlin · 1990-10-02 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-UA-SCHMUECKER-1990`
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/EED11-1224.pdf)
+
+Fundstelle: S. 9–12, 23–24, 35–38; abweichender Bericht S. 90 ff.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
+<a id="src-de-berlin-schmuecker-780-1991"></a>
+### Abgeordnetenhaus Berlin / Senat
+
+**[Konsequenzen aus dem Ende des Schmücker-Verfahrens, Drs. 12/780](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf)**
+
+Abgeordnetenhaus Berlin / Senat · 1991-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-SCHMUECKER-780-1991`
+
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-0780.pdf)
+
+Fundstelle: S. 8, KA 863, Antworten 6, 9–11
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-de-berlin-schmuecker-2659-1993"></a>
+### Abgeordnetenhaus Berlin / Senat
+
+**[Konsequenzen aus dem Schmücker-Prozeß, Drs. 12/2659](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf)**
+
+Abgeordnetenhaus Berlin / Senat · 1993-03-16 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-SCHMUECKER-2659-1993`
+
+[PDF öffnen](https://pardok.parlament-berlin.de/starweb/adis/citat/VT/12/DruckSachen/d12-2659.pdf)
+
+Fundstelle: S. 34, KA 3567, Antworten 1–3
+
+</article>
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
 
@@ -1297,6 +1342,21 @@ Fundstelle: Gründe, A. Sachverhalt, Rn. 4–13; Tenor und Rn. 1–2
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-bgh-mauss-347-2019"></a>
+### Bundesgerichtshof, Volltext bei NWB
+
+**[Urteil 1 StR 347/18](https://datenbank.nwb.de/Dokument/776164/)**
+
+Bundesgerichtshof, Volltext bei NWB · 2019-01-10 · Stufe **A** · Primärquelle · `SRC-DE-BGH-MAUSS-347-2019`
+
+[Seite öffnen](https://datenbank.nwb.de/Dokument/776164/)
+
+Fundstelle: Rn. 4–10 und Vorsatzbeurteilung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
 
 <a id="src-de-bgbl-erp-2019-title-68103"></a>
@@ -1942,6 +2002,36 @@ Fundstelle: S. 19420–19421: eingeräumter Interventionsversuch und erklärte Z
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
 
+<a id="src-de-bt-mauss-pl144-1996"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 13/144: Techint und Mauss](https://dserver.bundestag.de/btp/13/13144.pdf)**
+
+Deutscher Bundestag · 1996-12-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL144-1996`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13144.pdf)
+
+Fundstelle: S. 12999–13000
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-de-bt-mauss-pl147-1996"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 13/147: Industrie und Diplomatie](https://dserver.bundestag.de/btp/13/13147.pdf)**
+
+Deutscher Bundestag · 1996-12-11 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL147-1996`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13147.pdf)
+
+Fundstelle: S. 13312–13313, Anlagen 8–12, F27–28, 31–36, 51
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
 <a id="src-ulf-bt-136613"></a>
 ### Deutscher Bundestag
 
@@ -1952,6 +2042,51 @@ Deutscher Bundestag · 1996-12-19 · Stufe **A** · Primärquelle · `SRC-ULF-BT
 [PDF öffnen](https://dserver.bundestag.de/btd/13/066/1306613.pdf)
 
 Fundstelle: S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengelegt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-mauss-6953-1997"></a>
+### Deutscher Bundestag
+
+**[Drucksache 13/6953 – Kolumbien](https://dserver.bundestag.de/btd/13/069/1306953.pdf)**
+
+Deutscher Bundestag · 1997 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-6953-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/069/1306953.pdf)
+
+Fundstelle: Vorbemerkung; Fragen 8, 14, 18–20, 28–37
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-mauss-pl153-1997"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 13/153: FLS/Pfister und US-Kontakte](https://dserver.bundestag.de/btp/13/13153.pdf)**
+
+Deutscher Bundestag · 1997-01-29 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL153-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13153.pdf)
+
+Fundstelle: S. 13771–13774, dringliche Fragen 1–2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-mauss-pl159-1997"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 13/159: Schutzpapiere und Vorwürfe](https://dserver.bundestag.de/btp/13/13159.pdf)**
+
+Deutscher Bundestag · 1997-02-26 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL159-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13159.pdf)
+
+Fundstelle: S. 14288–14290, F32–33
 
 </article>
 
@@ -2017,6 +2152,36 @@ Fundstelle: Gedruckte S. 9133–9134; PDF-Bildindex 36–37
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
+<a id="src-de-bt-mauss-10098-2016"></a>
+### Deutscher Bundestag
+
+**[Drucksache 18/10098](https://dserver.bundestag.de/btd/18/100/1810098.pdf)**
+
+Deutscher Bundestag · 2016-10-21 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-10098-2016`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/100/1810098.pdf)
+
+Fundstelle: Fragen 13–15
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-mauss-10695-2016"></a>
+### Deutscher Bundestag
+
+**[Drucksache 18/10695](https://dserver.bundestag.de/btd/18/106/1810695.pdf)**
+
+Deutscher Bundestag · 2016-12-13 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-10695-2016`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/106/1810695.pdf)
+
+Fundstelle: Frage 30, Antwort 13.12.2016
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
 <a id="src-de-bt-nsu-yozgat-2016"></a>
 ### Deutscher Bundestag
 
@@ -2042,6 +2207,21 @@ Deutscher Bundestag · 2017 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-BI
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2017/kw32-nsu-bilanz-515208)
 
 Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstützerstrukturen liegen noch im Dunkeln
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bt-mauss-plenar-18211-2017"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 18/211 – Mauss-Fonds](https://dserver.bundestag.de/btp/18/18211.pdf)**
+
+Deutscher Bundestag · 2017-01-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PLENAR-18211-2017`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/18/18211.pdf)
+
+Fundstelle: S. 21152–21153, 21185
 
 </article>
 
@@ -2152,6 +2332,66 @@ Fundstelle: Gedruckte S. 2: Bundesregierung bestreitet Tarnorganisationen, läss
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
+<a id="src-de-bt-mauss-pl190-1990"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fragestunde zu Vereinbarungen Mauss/BKA/Versicherungswirtschaft, PlPr 11/190](https://dserver.bundestag.de/btp/11/11190.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-01-24 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL190-1990`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/11/11190.pdf)
+
+Fundstelle: S. 14665–14667, F1–2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-bt-mauss-pl200-1990"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fragestunde zu privaten Ermittlungen, PlPr 11/200](https://dserver.bundestag.de/btp/11/11200.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-03-08 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL200-1990`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/11/11200.pdf)
+
+Fundstelle: S. 15476–15477
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-bt-mauss-pl207-1990"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fragestunde zu Rechnungsprüfungen, PlPr 11/207](https://dserver.bundestag.de/btp/11/11207.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-04-26 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL207-1990`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/11/11207.pdf)
+
+Fundstelle: S. 16250, F34–35
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-bt-mauss-pl210-1990"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fragestunde zu Zahlungen an Mauss, PlPr 11/210](https://dserver.bundestag.de/btp/11/11210.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-05-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PL210-1990`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/11/11210.pdf)
+
+Fundstelle: S. 16513–16515, F36–37
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
 <a id="src-de-bt-psv-1990-11-7749"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -2167,6 +2407,21 @@ Fundstelle: S. 1: Fü S I 9 am 01.07.1990 aufgelöst; S. 2: 1.449.200 DM Gesamtz
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
+<a id="src-de-bt-herrhausen-2209-1992"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Fahndungsverlauf im Mordfall Herrhausen, Drs. 12/2209](https://dserver.bundestag.de/btd/12/022/1202209.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1992-03-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-HERRHAUSEN-2209-1992`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/022/1202209.pdf)
+
+Fundstelle: S. 2–3, Fragen 2a/d/e, 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
+
 <a id="src-de-bt-nonne-3123-1992"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -2177,6 +2432,51 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-de-bt-nonne-754-1995"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Der Kronzeuge Siegfried Nonne und die Rolle der Sicherheitsbehörden, Drs. 13/754](https://dserver.bundestag.de/btd/13/007/1300754.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1995-03-09 · Stufe **A** · Primärquelle · `SRC-DE-BT-NONNE-754-1995`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/007/1300754.pdf)
+
+Fundstelle: Vorbemerkung; S. 2, 4–5, Fragen 3, 10–16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-herrhausen-pl156-1997"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Plenarprotokoll 13/156 – Antwort auf Frage 36 zum Herrhausen-Verfahren](https://dserver.bundestag.de/btp/13/13156.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1997-02-19 · Stufe **A** · Primärquelle · `SRC-DE-BT-HERRHAUSEN-PL156-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/13/13156.pdf)
+
+Fundstelle: S. 14075*, Anlage 13
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-mauss-8130-1997"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Werner Mauss – Agent der Bundesregierung (II), Drs. 13/8130](https://dserver.bundestag.de/btd/13/081/1308130.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1997-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-8130-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/081/1308130.pdf)
+
+Fundstelle: Vorbemerkung, F1–7, F29–33
 
 </article>
 
@@ -2207,6 +2507,21 @@ Deutscher Bundestag / Bundesregierung · 2002-05-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/14/091/1409182.pdf)
 
 Fundstelle: BT-Drs. 14/9182, gedruckte S. 3, PDF-Bildindex 2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
+<a id="src-de-bt-bnd-informantensteuer-2008"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen zu Informantenbesteuerung, Drs. 16/8447](https://dserver.bundestag.de/btd/16/084/1608447.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2008-03-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-BND-INFORMANTENSTEUER-2008`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/16/084/1608447.pdf)
+
+Fundstelle: S. 16, F34–35
 
 </article>
 
@@ -2285,6 +2600,21 @@ Fundstelle: Antworten 14–16, 19–23 und Geheimdienstaktenlage; spätere Ergä
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-mauss-7352-2016"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Beauftragung und Ausstattung des Agenten Werner Mauss, Drs. 18/7352](https://dserver.bundestag.de/btd/18/073/1807352.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2016-01-26 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-7352-2016`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/073/1807352.pdf)
+
+Fundstelle: S. 2–3, F1–4
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bt-okt-1811602-2017"></a>
@@ -2327,6 +2657,21 @@ Deutscher Bundestag / Bundesregierung · 2017-08-15 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/18/133/1813317.pdf)
 
 Fundstelle: S. 1, Antwort 2a
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-bt-mauss-415-2018"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen, Drs. 19/415, Antwort zu Mauss](https://dserver.bundestag.de/btd/19/004/1900415.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2018-01-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-415-2018`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/004/1900415.pdf)
+
+Fundstelle: S. 18–19, F21, Antwort 10.01.2018
 
 </article>
 
@@ -3350,6 +3695,21 @@ Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Poss
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="D" data-source-year="2025">
+
+<a id="src-de-lohr-mauss-2025"></a>
+### Lohr + Company, veröffentlicht auf Mauss' Website
+
+**[Schreiben Verfahrensstand, 07.11.2025](https://www.werner-mauss.de/documents/Schreiben_Prof_Dr_Lohr_Verfahrensstand_Ergaenzung_07_11_2025_gelb.pdf)**
+
+Lohr + Company, veröffentlicht auf Mauss' Website · 2025-11-07 · Stufe **D** · Primärquelle · `SRC-DE-LOHR-MAUSS-2025`
+
+[PDF öffnen](https://www.werner-mauss.de/documents/Schreiben_Prof_Dr_Lohr_Verfahrensstand_Ergaenzung_07_11_2025_gelb.pdf)
+
+Fundstelle: S. 1
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2024">
 
 <a id="src-us-mcd-gwf-2024"></a>
@@ -3530,6 +3890,21 @@ Fundstelle: PDF Bildseite 2 (Nullindex 1): Samstag 04.06.2005 Forum 5 15:45–17
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-de-ni-ua-celle-4380-1989"></a>
+### Niedersächsischer Landtag
+
+**[Bericht Elfter Parlamentarischer Untersuchungsausschuss, Drs. 11/4380](https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf)**
+
+Niedersächsischer Landtag · 1989 · Stufe **A** · Primärquelle · `SRC-DE-NI-UA-CELLE-4380-1989`
+
+[PDF öffnen](https://www.landtag-niedersachsen.de/drucksachen/drucksachen_11_5000/4001-4500/11-4380.pdf)
+
+Fundstelle: S. 160–162, 175–180; insbesondere Vertrag vom 05.03.1981 und Mannh. Bl. 2, 23, 27, 29–42, 99, 101
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-ni-mj-celler-2015"></a>
@@ -3540,6 +3915,21 @@ Fundstelle: PDF Bildseite 2 (Nullindex 1): Samstag 04.06.2005 Forum 5 15:45–17
 Niedersächsisches Justizministerium · 2015-07-24 · Stufe **A** · Primärquelle · `SRC-DE-NI-MJ-CELLER-2015`
 
 [Seite öffnen](https://www.mj.niedersachsen.de/startseite/aktuelles/presseinformationen/justizministerin-besucht-das-celler-loch-135720.html)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-de-olg-hamm-mauss-143-2024"></a>
+### Oberlandesgericht Hamm
+
+**[Beschluss 4 Ws 143/24](https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2024%2F4_Ws_143_24_Beschluss_20241008.html)**
+
+Oberlandesgericht Hamm · 2024-10-08 · Stufe **A** · Primärquelle · `SRC-DE-OLG-HAMM-MAUSS-143-2024`
+
+[Seite öffnen](https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2024%2F4_Ws_143_24_Beschluss_20241008.html)
+
+Fundstelle: Rn. 4–21, insbesondere 15–19
 
 </article>
 
@@ -6155,7 +6545,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6575,6 +6965,21 @@ Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise g
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1997">
+
+<a id="src-de-bgh-stb31-96-metadata"></a>
+### dejure.org
+
+**[BGH StB 31/96 – Entscheidungsnachweis](https://dejure.org/1997,8858)**
+
+dejure.org · 1997-01-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BGH-STB31-96-METADATA`
+
+[Seite öffnen](https://dejure.org/1997,8858)
+
+Fundstelle: Aktenzeichen StB 31/96, 1 BJs 226/85-6
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
@@ -6785,6 +7190,21 @@ Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
+
+<a id="src-de-dpa-schmidbauer-mauss-2017"></a>
+### dpa / n-tv
+
+**[Schmidbauer bestätigt Geheimfonds](https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html)**
+
+dpa / n-tv · 2017-01-09 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017`
+
+[Seite öffnen](https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html)
+
+Fundstelle: Bericht über Gerichtszeugnis
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
 
 <a id="src-ws-stoa-1999"></a>
@@ -6797,6 +7217,51 @@ Duncan Campbell / European Parliament STOA · 1999-04 · Stufe **B** · Sekundä
 [Seite öffnen](https://irp.fas.org/eprint/ic2000/ic2000.htm)
 
 Fundstelle: Abschnitt 5, Rn. 97–104, Fn. 65, 69, 70: journalistische Quellen und Raytheon-Mitteilung; keine operativen NSA-Einzelakten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1998">
+
+<a id="src-co-efe-mauss-archivo-1998"></a>
+### EFE / Caracol Radio
+
+**[Fiscalía archiva causa contra alemán Mauss y su esposa](https://caracol.com.co/radio/1998/05/21/nacional/0895730400_018094.html)**
+
+EFE / Caracol Radio · 1998-05-21 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-EFE-MAUSS-ARCHIVO-1998`
+
+[Seite öffnen](https://caracol.com.co/radio/1998/05/21/nacional/0895730400_018094.html)
+
+Fundstelle: Volltext
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1998">
+
+<a id="src-co-efe-mauss-paz-1998"></a>
+### EFE / Caracol Radio
+
+**[Espías Mauss, de secuestradores a apóstoles de la paz](https://caracol.com.co/radio/1998/05/28/nacional/0896335200_018172.html)**
+
+EFE / Caracol Radio · 1998-05-28 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-EFE-MAUSS-PAZ-1998`
+
+[Seite öffnen](https://caracol.com.co/radio/1998/05/28/nacional/0896335200_018172.html)
+
+Fundstelle: Volltext
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2018">
+
+<a id="src-co-espectador-mauss-fonds-2018"></a>
+### El Espectador / CONNECTAS
+
+**[El fondo secreto que une al exespía Werner Mauss y a la Iglesia Católica en Colombia](https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/)**
+
+El Espectador / CONNECTAS · 2018-06-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-ESPECTADOR-MAUSS-FONDS-2018`
+
+[Seite öffnen](https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/)
+
+Fundstelle: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
 
 </article>
 
@@ -6827,6 +7292,66 @@ HORIZONT · 2005-10-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF
 [Seite öffnen](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)
 
 Fundstelle: Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-boreal-10191986"></a>
+### ICIJ
+
+**[Offshore Leaks: Boreal Management Corp.](https://offshoreleaks.icij.org/nodes/10191986)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-BOREAL-10191986`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10191986)
+
+Fundstelle: Gründung 1992-01-13; Agent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-mauss-intermediary-11003187"></a>
+### ICIJ
+
+**[Offshore Leaks: Intermediärdatensatz 11003187](https://offshoreleaks.icij.org/nodes/11003187)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-MAUSS-INTERMEDIARY-11003187`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/11003187)
+
+Fundstelle: Rolle intermediary; Liste verbundener Gesellschaften
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-nolilane-10041707"></a>
+### ICIJ
+
+**[Offshore Leaks: Nolilane NV Inc.](https://offshoreleaks.icij.org/nodes/10041707)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-NOLILANE-10041707`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10041707)
+
+Fundstelle: Gründung 2005-12-29; Agent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-transacta-10044038"></a>
+### ICIJ
+
+**[Offshore Leaks: Transacta Valores S.A.](https://offshoreleaks.icij.org/nodes/10044038)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-TRANSACTA-10044038`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10044038)
+
+Fundstelle: Gründung 1985-11-06; Agent
 
 </article>
 
@@ -7040,6 +7565,21 @@ Fundstelle: Gedruckte Seiten 35–38, PDF-Seiten 37–40: 03./04./07.03.1983 und
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-von-stahl-munzinger"></a>
+### Munzinger
+
+**[Alexander von Stahl – Biografie](https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547)**
+
+Munzinger · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-VON-STAHL-MUNZINGER`
+
+[Seite öffnen](https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547)
+
+Fundstelle: Berufsrollen 1975–1989 und 1990–1993
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2005">
 
 <a id="src-us-nsa-gehlen-2005"></a>
@@ -7070,6 +7610,21 @@ Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit M
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-ndr-mauss-panama-2016"></a>
+### NDR / tagesschau
+
+**[Panama Papers: Werner Mauss](https://www.tagesschau.de/ausland/panamapapers-159.html)**
+
+NDR / tagesschau · 2016-07-20 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDR-MAUSS-PANAMA-2016`
+
+[Seite öffnen](https://www.tagesschau.de/ausland/panamapapers-159.html)
+
+Fundstelle: Gesellschafts- und Kontozuordnungen; Stellungnahme
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-ndb-hermann-schmitz"></a>
@@ -7097,6 +7652,21 @@ Northumbria University, historisch-kritische Dissertation · 2016 · Stufe **B**
 [PDF öffnen](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf)
 
 Fundstelle: Druckseite 172 / PDF-Bildseite 175/Index 174: 1973 erster ACG/Atlantik-Brücke Young Leaders-Kongress Juni Hamburg, teilweise durch Ford Foundation gefördert; FN 157 mit Rockefeller Archive Center, Ford Foundation Grant Files (1239), ACG & 7300512, Program Action Form vom 27.–30.06.1973
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-int-occrp-mauss-panama-2016"></a>
+### OCCRP
+
+**[Spies and Shadowy Allies Lurk in Secret Thanks to Firm's Bag of Tricks](https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks)**
+
+OCCRP · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-OCCRP-MAUSS-PANAMA-2016`
+
+[Seite öffnen](https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks)
+
+Fundstelle: Mauss-Abschnitt und Stellungnahmen
 
 </article>
 
@@ -7202,6 +7772,36 @@ Süddeutsche Zeitung / Jakob Augstein · 2010-07-22 · Stufe **B** · Sekundär-
 [Seite öffnen](https://www.sueddeutsche.de/medien/serie-wozu-noch-journalismus-4-das-ist-nicht-ihr-kanzleramt-1.63398)
 
 Fundstelle: Kritische Erörterung des Presseleitungstreffens vom 08.10.2008
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="1999">
+
+<a id="src-de-tsp-klump-1999"></a>
+### Tagesspiegel
+
+**[Etwa zehn Jahre nach der Tat wurde der letzte Haftbefehl aufgehoben](https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html)**
+
+Tagesspiegel · 1999-12-29 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-KLUMP-1999`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/etwa-zehn-jahre-nach-der-tat-wurde-der-letzte-haftbefehl-aufgehoben-643708.html)
+
+Fundstelle: Bericht zur Aufhebung des Mordvorwurfs gegen Andrea Klump
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="D" data-source-year="1989">
+
+<a id="src-de-taz-due-freispruch-1989"></a>
+### taz
+
+**[Düe unschuldig – Werner Mauss perdu](https://taz.de/Duee-unschuldig---Werner-Mauss-perdu/%211818993/)**
+
+taz · 1989 · Stufe **D** · Sekundär-/Forschungsquelle · `SRC-DE-TAZ-DUE-FREISPRUCH-1989`
+
+[Seite öffnen](https://taz.de/Duee-unschuldig---Werner-Mauss-perdu/%211818993/)
+
+Fundstelle: Bericht zum Strafprozess
 
 </article>
 

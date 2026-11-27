@@ -517,7 +517,7 @@ entities:
 
   - id: ORG-DE-BUNDESANWALTSCHAFT
     type: prosecution_authority
-    name: "Bundesanwaltschaft (1952–1953)"
+    name: "Bundesanwaltschaft"
     countries: [DE]
 
   - id: ORG-DE-FRANKFURT-GSTA
@@ -1226,7 +1226,7 @@ entities:
 
   - id: ORG-DE-AUSWAERTIGES-AMT-2008
     type: government_ministry
-    name: "Auswärtiges Amt (Sponsor 2008/09)"
+    name: "Auswärtiges Amt"
     countries: [DE]
     notes: "Im Atlantik-Brücke-Jahresbericht 2008/09 als Sponsor aufgeführt; konkreter Förderposten, Jahresbetrag und programmatische Bedingungen im Quellenbeleg offen."
 
@@ -3052,3 +3052,277 @@ entities:
     countries:
     - DE
     notes: Medienmarke; nicht mit dem jeweiligen Verlag oder einzelnen Journalisten gleichsetzen.
+  - id: PER-DE-ULRICH-SCHMUECKER
+    type: person
+    name: Ulrich Schmücker
+    countries:
+    - DE
+  - id: PER-DE-EBERHARD-ZACHMANN
+    type: person
+    name: Eberhard Zachmann
+    countries:
+    - DE
+  - id: PER-DE-VOLKER-VON-WEINGRABER
+    type: person
+    name: Volker von Weingraber
+    countries:
+    - DE
+  - id: PER-DE-CHRISTIAN-HAIN
+    type: person
+    name: Christian Hain (V-Mann Flach)
+    countries:
+    - DE
+  - id: PER-DE-ALEXANDER-VON-STAHL
+    type: person
+    name: Alexander von Stahl
+    countries:
+    - DE
+  - id: PER-DE-SIEGFRIED-NONNE
+    type: person
+    name: Siegfried Nonne
+    countries:
+    - DE
+  - id: PER-DE-ALFRED-HERRHAUSEN
+    type: person
+    name: Alfred Herrhausen
+    countries:
+    - DE
+  - id: PER-DE-CHRISTOPH-SEIDLER
+    type: person
+    name: Christoph Seidler
+    countries:
+    - DE
+  - id: ORG-DE-BERLIN-JUSTIZSENAT
+    type: government_agency
+    name: Berliner Senatsverwaltung für Justiz
+    countries:
+    - DE
+  - id: ORG-DE-STA-BERLIN
+    type: prosecution_authority
+    name: Staatsanwaltschaft Berlin
+    countries:
+    - DE
+  - id: ORG-DE-STA-WIESBADEN
+    type: prosecution_authority
+    name: Staatsanwaltschaft Wiesbaden
+    countries:
+    - DE
+  - id: ORG-DE-BGH
+    type: court
+    name: Bundesgerichtshof
+    countries:
+    - DE
+  - id: ORG-DE-OLG-FRANKFURT
+    type: court
+    name: Oberlandesgericht Frankfurt am Main
+    countries:
+    - DE
+  - id: PER-DE-MICHAEL-GRUENHAGEN
+    type: person
+    name: Michael Grünhagen
+    countries:
+    - DE
+  - id: PER-DE-WERNER-MAUSS
+    type: person
+    name: Werner Mauss
+    countries:
+    - DE
+  - id: ORG-DE-HUK-VERBAND
+    type: insurance_trade_association
+    name: HUK-Verband (historisch)
+    countries:
+    - DE
+  - id: ORG-DE-SACHVERSICHERER-VERBAND
+    type: insurance_trade_association
+    name: Verband der Sachversicherer (historisch)
+    countries:
+    - DE
+  - id: ORG-DE-MANNHEIMER-VERSICHERUNG
+    type: insurance_company
+    name: Mannheimer Versicherung AG
+    countries:
+    - DE
+  - id: ORG-DE-OFD-KOBLENZ
+    type: tax_authority
+    name: Oberfinanzdirektion Koblenz
+    countries:
+    - DE
+  - id: ORG-DE-FA-ESSEN-SUED
+    type: tax_authority
+    name: Finanzamt Essen-Süd
+    countries:
+    - DE
+  - id: ORG-DE-LG-BOCHUM
+    type: court
+    name: Landgericht Bochum
+    countries:
+    - DE
+  - id: ORG-DE-OLG-HAMM
+    type: court
+    name: Oberlandesgericht Hamm
+    countries:
+    - DE
+  - id: ORG-DE-FG-DUESSELDORF
+    type: court
+    name: Finanzgericht Düsseldorf
+    countries:
+    - DE
+  - id: ORG-DE-LKA-NIEDERSACHSEN
+    type: criminal_investigation_agency
+    name: Landeskriminalamt Niedersachsen
+    countries:
+    - DE
+  - id: ORG-INT-MAUSS-RESERVE-1985
+    type: fund
+    name: Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985)
+    countries: []
+    notes: Existenz und Einordnung Gegenstand von Gerichtsverfahren und Zeugenaussagen; tatsächliche Treugeber nicht
+      abschließend belegt.
+  - id: PER-PA-GENEROSO-GUERRA
+    type: person
+    name: Generoso Guerra
+    countries:
+    - PA
+    notes: Laut El Espectador/CONNECTAS 2018 Vertreter der im Fondsvertrag bezeichneten Treugeber.
+  - id: ORG-PA-UBS-1985
+    type: commercial_bank
+    name: UBS Panama (berichtete historische Bankverbindung)
+    countries:
+    - PA
+    notes: Zuordnung im Medienbericht 2018; Originalbankunterlagen nicht eingesehen. Keine Gleichsetzung mit anderen
+      UBS-Konten.
+  - id: PER-CO-DARIO-CASTRILLON-HOYOS
+    type: person
+    name: Darío Castrillón Hoyos
+    countries:
+    - CO
+    notes: Kardinal; Schreiben 2013 zur Fondsentstehung laut Recherche 2018.
+  - id: PER-CO-JESUS-EMILIO-JARAMILLO
+    type: person
+    name: Jesús Emilio Jaramillo
+    countries:
+    - CO
+    notes: Bischof; Rolle bei Entstehung der Reserve wird in einem 2018 referierten Schreiben behauptet.
+  - id: PER-CO-ERNESTO-SAMPER
+    type: person
+    name: Ernesto Samper
+    countries:
+    - CO
+    notes: Kolumbianischer Staatspräsident im Zeitraum der dokumentierten Gespräche.
+  - id: ORG-DE-BOTSCHAFT-BOGOTA
+    type: government_agency
+    name: Deutsche Botschaft Bogotá
+    countries:
+    - DE
+    - CO
+    notes: Konsularischer Schutzbrief für Mauss laut BT-Drs. 13/6953.
+  - id: ORG-DE-BMZ
+    type: government_agency
+    name: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)
+    countries:
+    - DE
+    notes: Kreditmittel für Metroprojekt Medellín laut BT-Drs. 13/6953.
+  - id: ORG-CO-METRO-MEDELLIN
+    type: infrastructure_project
+    name: Metroprojekt Medellín
+    countries:
+    - CO
+    notes: Projektbezogene Bundesdeckungen und BMZ-Kreditmittel; keine nachgewiesene Fondsverbindung.
+  - id: PER-ICIJ-BURGHAGEN-11003187
+    type: person
+    name: Hermann Alfred Volker Burghagen
+    countries: []
+    notes: Namensdatensatz ICIJ 11003187, Rolle Intermediär; keine Aussage über wirtschaftliches Eigentum.
+  - id: ORG-PA-MOSSACK-FONSECA
+    type: law_firm
+    name: Mossack Fonseca
+    countries:
+    - PA
+    notes: Historischer Agent in Panama-Papers-Gesellschaftsprofilen.
+  - id: ORG-PA-TRANSACTA-VALORES
+    type: company
+    name: Transacta Valores S.A.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10044038, Gründung 1985-11-06.
+  - id: ORG-PA-BOREAL-MANAGEMENT
+    type: company
+    name: Boreal Management Corp.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10191986, Gründung 1992-01-13.
+  - id: ORG-PA-NOLILANE-NV
+    type: company
+    name: Nolilane NV Inc.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10041707, Gründung 2005-12-29.
+  - id: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: company
+    name: Anysberg International Corp.
+    countries:
+    - PA
+    notes: ICIJ-Intermediärübersicht 11003187, Gründung 2014-12-10; Einzelprofil nicht selbst geprüft.
+  - id: ORG-AR-TECHINT-1996
+    type: industrial_company
+    name: Techint (argentinische Firma, 1996)
+    countries:
+    - AR
+    notes: Historischer Akteur laut BT-PlPr 13/144 und 13/147; konkrete Konzerngesellschaft nicht genauer identifiziert.
+  - id: ORG-DE-MANNESMANN-1995
+    type: industrial_company
+    name: Mannesmann (historisch, 1995)
+    countries:
+    - DE
+    notes: Unternehmen im Fall Ruttnig; keine Zuordnung zu späteren Rechtsnachfolgern.
+  - id: ORG-DK-FLS-1996
+    type: industrial_company
+    name: FLS (dänische Firma, 1996)
+    countries:
+    - DK
+    notes: Unternehmen laut BT-PlPr 13/153; genaue damalige Rechtsform offen.
+  - id: ORG-DE-PFISTER-GMBH-1996
+    type: industrial_company
+    name: Pfister GmbH (historisch, 1996)
+    countries:
+    - DE
+    notes: Subunternehmer laut Fragestunde 29.01.1997; genaue damalige Registeridentität offen.
+  - id: ORG-AR-REGIERUNGSSTELLEN-1996
+    type: government_agency
+    name: Argentinische Regierungsstellen (1996)
+    countries:
+    - AR
+    notes: Ansprechpartner Schmidbauers im Techint-Fall; konkrete Ämter nicht einzeln benannt.
+  - id: ORG-DK-REGIERUNG-1996
+    type: government_agency
+    name: Dänische Regierung (1996/97)
+    countries:
+    - DK
+    notes: Kontakt im FLS-Fall laut Schmidbauer.
+  - id: ORG-CO-AUSSENMINISTERIUM
+    type: government_ministry
+    name: Kolumbianisches Außenministerium
+    countries:
+    - CO
+    notes: Empfänger der abgestimmten Schreiben im Fall Ruttnig.
+  - id: ORG-AT-BOTSCHAFT-BOGOTA
+    type: government_agency
+    name: Österreichische Botschaft Bogotá
+    countries:
+    - AT
+    - CO
+    notes: Vertreter bei Übergabe der Schreiben 17.02.1995 laut BT-PlPr 13/147.
+  - id: ORG-US-BOTSCHAFT-BONN-1997
+    type: government_agency
+    name: US-Botschaft Bonn (historisch, 1997)
+    countries:
+    - US
+    - DE
+    notes: Vertreter bei vertraulichen Kolumbiengesprächen mit Schmidbauer; kein Nachweis einer geheimdienstlichen
+      Operation.
+  - id: ORG-CO-FISCALIA-DELEGADA-ANTIOQUIA
+    type: prosecution_authority
+    name: Fiscalía Delegada ante el Tribunal Superior de Antioquia
+    countries:
+    - CO
+    notes: Laut EFE zuständige Staatsanwaltschaft für Verfahrensentscheidung Mai 1998.
