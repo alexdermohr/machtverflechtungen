@@ -5783,3 +5783,135 @@ sources:
   accessed: '2026-11-26'
   locator: S. 1
   notes: Text und Faksimile; Mandantenquelle. Keine unabhängige Bestätigung der gerichtlichen und steuerlichen Erledigung.
+- id: SRC-DE-BT-MAUSS-PLENAR-18211-2017
+  title: Plenarprotokoll 18/211 – Mauss-Fonds
+  institution: Deutscher Bundestag
+  date: '2017-01-18'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btp/18/18211.pdf
+  accessed: '2026-11-27'
+  locator: S. 21152–21153, 21185
+  notes: Amtliche Aussagen zur Kenntnis; zusätzlicher klassifizierter Antwortteil unbekannt.
+- id: SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017
+  title: Schmidbauer bestätigt Geheimfonds
+  institution: dpa / n-tv
+  date: '2017-01-09'
+  type: press_report
+  primary: false
+  tier: B
+  url: https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html
+  accessed: '2026-11-27'
+  locator: Bericht über Gerichtszeugnis
+  notes: Keine Mitschrift oder Zahlungsbelege.
+- id: SRC-DE-BT-MAUSS-10098-2016
+  title: Drucksache 18/10098
+  institution: Deutscher Bundestag
+  date: '2016-10-21'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/100/1810098.pdf
+  accessed: '2026-11-27'
+  locator: Fragen 13–15
+  notes: Amtliche Auskunft; nicht mit Bundesdruckerei-Komplex gleichsetzen.
+- id: SRC-DE-BT-MAUSS-10695-2016
+  title: Drucksache 18/10695
+  institution: Deutscher Bundestag
+  date: '2016-12-13'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/106/1810695.pdf
+  accessed: '2026-11-27'
+  locator: Frage 30, Antwort 13.12.2016
+  notes: Datum der relevanten Antwort.
+- id: SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+  title: El fondo secreto que une al exespía Werner Mauss y a la Iglesia Católica en Colombia
+  institution: El Espectador / CONNECTAS
+  date: '2018-06-24'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/
+  accessed: '2026-11-27'
+  locator: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
+  notes: Journalistisch eingesehene Originale, hier nicht unmittelbar geprüft; Bestreitungen berücksichtigt.
+- id: SRC-DE-BT-MAUSS-6953-1997
+  title: Drucksache 13/6953 – Kolumbien
+  institution: Deutscher Bundestag
+  date: '1997'
+  type: parliamentary_record
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/13/069/1306953.pdf
+  accessed: '2026-11-27'
+  locator: Vorbemerkung; Fragen 8, 14, 18–20, 28–37
+  notes: Amtliche Antworten; keine Gleichsetzung von Deckungen, Krediten und Fonds.
+- id: SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+  title: 'Offshore Leaks: Intermediärdatensatz 11003187'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/11003187
+  accessed: '2026-11-27'
+  locator: Rolle intermediary; Liste verbundener Gesellschaften
+  notes: Historische Daten; ICIJ Offshore Leaks Database (ODbL).
+- id: SRC-ICIJ-TRANSACTA-10044038
+  title: 'Offshore Leaks: Transacta Valores S.A.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10044038
+  accessed: '2026-11-27'
+  locator: Gründung 1985-11-06; Agent
+  notes: Historischer Datensatz.
+- id: SRC-ICIJ-BOREAL-10191986
+  title: 'Offshore Leaks: Boreal Management Corp.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10191986
+  accessed: '2026-11-27'
+  locator: Gründung 1992-01-13; Agent
+  notes: Historischer Datensatz.
+- id: SRC-ICIJ-NOLILANE-10041707
+  title: 'Offshore Leaks: Nolilane NV Inc.'
+  institution: ICIJ
+  date: '2016'
+  type: leak_database
+  primary: false
+  tier: B
+  url: https://offshoreleaks.icij.org/nodes/10041707
+  accessed: '2026-11-27'
+  locator: Gründung 2005-12-29; Agent
+  notes: Historischer Datensatz.
+- id: SRC-DE-NDR-MAUSS-PANAMA-2016
+  title: 'Panama Papers: Werner Mauss'
+  institution: NDR / tagesschau
+  date: '2016-07-20'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.tagesschau.de/ausland/panamapapers-159.html
+  accessed: '2026-11-27'
+  locator: Gesellschafts- und Kontozuordnungen; Stellungnahme
+  notes: Kontoverbindungen bestritten; gleicher Leak-Korpus wie ICIJ.
+- id: SRC-INT-OCCRP-MAUSS-PANAMA-2016
+  title: Spies and Shadowy Allies Lurk in Secret Thanks to Firm's Bag of Tricks
+  institution: OCCRP
+  date: '2016'
+  type: investigative_report
+  primary: false
+  tier: B
+  url: https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks
+  accessed: '2026-11-27'
+  locator: Mauss-Abschnitt und Stellungnahmen
+  notes: Gemeinsamer Leak-Korpus; kein unabhängiger Eigentumsnachweis.

@@ -3033,3 +3033,94 @@ entities:
     name: Landeskriminalamt Niedersachsen
     countries:
     - DE
+  - id: ORG-INT-MAUSS-RESERVE-1985
+    type: fund
+    name: Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985)
+    countries: []
+    notes: Existenz und Einordnung Gegenstand von Gerichtsverfahren und Zeugenaussagen; tatsächliche Treugeber nicht
+      abschließend belegt.
+  - id: PER-PA-GENEROSO-GUERRA
+    type: person
+    name: Generoso Guerra
+    countries:
+    - PA
+    notes: Laut El Espectador/CONNECTAS 2018 Vertreter der im Fondsvertrag bezeichneten Treugeber.
+  - id: ORG-PA-UBS-1985
+    type: commercial_bank
+    name: UBS Panama (berichtete historische Bankverbindung)
+    countries:
+    - PA
+    notes: Zuordnung im Medienbericht 2018; Originalbankunterlagen nicht eingesehen. Keine Gleichsetzung mit anderen
+      UBS-Konten.
+  - id: PER-CO-DARIO-CASTRILLON-HOYOS
+    type: person
+    name: Darío Castrillón Hoyos
+    countries:
+    - CO
+    notes: Kardinal; Schreiben 2013 zur Fondsentstehung laut Recherche 2018.
+  - id: PER-CO-JESUS-EMILIO-JARAMILLO
+    type: person
+    name: Jesús Emilio Jaramillo
+    countries:
+    - CO
+    notes: Bischof; Rolle bei Entstehung der Reserve wird in einem 2018 referierten Schreiben behauptet.
+  - id: PER-CO-ERNESTO-SAMPER
+    type: person
+    name: Ernesto Samper
+    countries:
+    - CO
+    notes: Kolumbianischer Staatspräsident im Zeitraum der dokumentierten Gespräche.
+  - id: ORG-DE-BOTSCHAFT-BOGOTA
+    type: government_agency
+    name: Deutsche Botschaft Bogotá
+    countries:
+    - DE
+    - CO
+    notes: Konsularischer Schutzbrief für Mauss laut BT-Drs. 13/6953.
+  - id: ORG-DE-BMZ
+    type: government_agency
+    name: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)
+    countries:
+    - DE
+    notes: Kreditmittel für Metroprojekt Medellín laut BT-Drs. 13/6953.
+  - id: ORG-CO-METRO-MEDELLIN
+    type: infrastructure_project
+    name: Metroprojekt Medellín
+    countries:
+    - CO
+    notes: Projektbezogene Bundesdeckungen und BMZ-Kreditmittel; keine nachgewiesene Fondsverbindung.
+  - id: PER-ICIJ-BURGHAGEN-11003187
+    type: person
+    name: Hermann Alfred Volker Burghagen
+    countries: []
+    notes: Namensdatensatz ICIJ 11003187, Rolle Intermediär; keine Aussage über wirtschaftliches Eigentum.
+  - id: ORG-PA-MOSSACK-FONSECA
+    type: law_firm
+    name: Mossack Fonseca
+    countries:
+    - PA
+    notes: Historischer Agent in Panama-Papers-Gesellschaftsprofilen.
+  - id: ORG-PA-TRANSACTA-VALORES
+    type: company
+    name: Transacta Valores S.A.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10044038, Gründung 1985-11-06.
+  - id: ORG-PA-BOREAL-MANAGEMENT
+    type: company
+    name: Boreal Management Corp.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10191986, Gründung 1992-01-13.
+  - id: ORG-PA-NOLILANE-NV
+    type: company
+    name: Nolilane NV Inc.
+    countries:
+    - PA
+    notes: ICIJ-Entitätsdatensatz 10041707, Gründung 2005-12-29.
+  - id: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: company
+    name: Anysberg International Corp.
+    countries:
+    - PA
+    notes: ICIJ-Intermediärübersicht 11003187, Gründung 2014-12-10; Einzelprofil nicht selbst geprüft.

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**720 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**742 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1269,6 +1269,43 @@ flowchart LR
     N_ORG_DE_OLG_HAMM -->|"OLG 4 Ws 143/24 bestätigt Aussetzung des Steuerstrafverfahrens bis Klärung der Besteuerung; keine Feststellung der Fondsherkunft."| N_ORG_DE_LG_BOCHUM
     N_ORG_DE_FG_DUESSELDORF["Finanzgericht Düsseldorf"]
     N_ORG_DE_FG_DUESSELDORF -->|"OLG 4 Ws 143/24: Besteuerungsverfahren 2024 beim FG Düsseldorf anhängig; Mandantenquelle berichtet Erledigung 2025, Originalbeschluss offen."| N_PER_DE_WERNER_MAUSS
+    N_ORG_INT_MAUSS_RESERVE_1985["Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985)"]
+    N_PER_DE_WERNER_MAUSS -->|"1985 errichtete Treuhandreserve laut gerichtlicher Wiedergabe aufgehobener Feststellungen und Recherche; endgültiges Eigentum offen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Gerichtszeugnis 2017 laut dpa: internationale Reserve, unter anderem USA als behauptete Geldgeber; kein Nachweis konkreter Einzahlungen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Amtliche Auskunft 18.01.2017: behauptete Existenz erst seit 08.09.2016 bekannt, keine nachvollziehbaren älteren Akten; keine Bestätigung der Fondsstruktur"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_PA_GENEROSO_GUERRA["Generoso Guerra"]
+    N_PER_PA_GENEROSO_GUERRA -->|"Laut dokumentengestützter Recherche Vertreter der im Vertrag bezeichneten westlichen Sicherheitsbehörden; Originalurkunde offen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_ORG_PA_UBS_1985["UBS Panama (berichtete historische Bankverbindung)"]
+    N_ORG_INT_MAUSS_RESERVE_1985 -->|"Bankverbindung laut Recherche 2018 (Artikel schreibt USB); keine selbst eingesehenen Kontoauszüge"| N_ORG_PA_UBS_1985
+    N_PER_CO_DARIO_CASTRILLON_HOYOS["Darío Castrillón Hoyos"]
+    N_PER_CO_DARIO_CASTRILLON_HOYOS -->|"Schreiben 2013 zur Fondsgeschichte laut Recherche 2018; kein Beleg eigener Einzahlung"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_CO_JESUS_EMILIO_JARAMILLO["Jesús Emilio Jaramillo"]
+    N_PER_CO_JESUS_EMILIO_JARAMILLO -->|"Beteiligung an Fondsentstehung laut 2018 referiertem Kardinalsschreiben; nicht als Kapitalgeber nachgewiesen"| N_ORG_INT_MAUSS_RESERVE_1985
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Kontakt 1998 laut 2013 verfasstem, 2018 referiertem Schreiben"| N_PER_CO_DARIO_CASTRILLON_HOYOS
+    N_PER_CO_ERNESTO_SAMPER["Ernesto Samper"]
+    N_PER_DE_BERND_SCHMIDBAUER -->|"Gespräch im Zusammenhang mit Friedenssondierungen, bestätigt in BT-Drs. 13/6953"| N_PER_CO_ERNESTO_SAMPER
+    N_PER_DE_WERNER_MAUSS -->|"Teilnahme am Gespräch Schmidbauer–Samper amtlich bestätigt"| N_PER_CO_ERNESTO_SAMPER
+    N_ORG_DE_BOTSCHAFT_BOGOTA["Deutsche Botschaft Bogotá"]
+    N_ORG_DE_BOTSCHAFT_BOGOTA -->|"Ausstellung eines konsularischen Schutzbriefes laut amtlicher Antwort; kein Honorarvertrag daraus ableitbar"| N_PER_DE_WERNER_MAUSS
+    N_PER_DE_WERNER_MAUSS -->|"Schreiben vom 05.11.1996 laut amtlicher Antwort unbeantwortet; kein Nachweis fortbestehenden Auftrags"| N_ORG_DE_BND
+    N_ORG_DE_BMZ["Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)"]
+    N_ORG_CO_METRO_MEDELLIN["Metroprojekt Medellín"]
+    N_ORG_DE_BMZ -->|"Amtlich berichtete Kreditmittel 100 Mio. DM für das Metroprojekt; kein Mauss-Fondsbezug"| N_ORG_CO_METRO_MEDELLIN
+    N_PER_ICIJ_BURGHAGEN_11003187["Hermann Alfred Volker Burghagen"]
+    N_ORG_PA_TRANSACTA_VALORES["Transacta Valores S.A."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_TRANSACTA_VALORES
+    N_ORG_PA_BOREAL_MANAGEMENT["Boreal Management Corp."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_ORG_PA_NOLILANE_NV["Nolilane NV Inc."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis"| N_ORG_PA_NOLILANE_NV
+    N_ORG_PA_ANYSBERG_INTERNATIONAL["Anysberg International Corp."]
+    N_PER_ICIJ_BURGHAGEN_11003187 -->|"ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis"| N_ORG_PA_ANYSBERG_INTERNATIONAL
+    N_ORG_PA_MOSSACK_FONSECA["Mossack Fonseca"]
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_TRANSACTA_VALORES
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_ORG_PA_MOSSACK_FONSECA -->|"Agent im historischen ICIJ-Profil"| N_ORG_PA_NOLILANE_NV
+    N_PER_DE_WERNER_MAUSS -->|"NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten"| N_ORG_PA_BOREAL_MANAGEMENT
+    N_PER_DE_WERNER_MAUSS -->|"Berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung"| N_ORG_PA_ANYSBERG_INTERNATIONAL
 ```
 
 [Zur Relationstabelle](network.md)

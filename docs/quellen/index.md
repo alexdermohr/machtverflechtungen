@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**507 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**519 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1910,6 +1910,21 @@ Fundstelle: S. 11, 15: neun Gespräche; Quellenstatus und Inhalte nicht offengel
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
+
+<a id="src-de-bt-mauss-6953-1997"></a>
+### Deutscher Bundestag
+
+**[Drucksache 13/6953 – Kolumbien](https://dserver.bundestag.de/btd/13/069/1306953.pdf)**
+
+Deutscher Bundestag · 1997 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-6953-1997`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/069/1306953.pdf)
+
+Fundstelle: Vorbemerkung; Fragen 8, 14, 18–20, 28–37
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
 
 <a id="src-de-bt-1311005-1998"></a>
@@ -1972,6 +1987,36 @@ Fundstelle: Gedruckte S. 9133–9134; PDF-Bildindex 36–37
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
+<a id="src-de-bt-mauss-10098-2016"></a>
+### Deutscher Bundestag
+
+**[Drucksache 18/10098](https://dserver.bundestag.de/btd/18/100/1810098.pdf)**
+
+Deutscher Bundestag · 2016-10-21 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-10098-2016`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/100/1810098.pdf)
+
+Fundstelle: Fragen 13–15
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-mauss-10695-2016"></a>
+### Deutscher Bundestag
+
+**[Drucksache 18/10695](https://dserver.bundestag.de/btd/18/106/1810695.pdf)**
+
+Deutscher Bundestag · 2016-12-13 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-10695-2016`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/106/1810695.pdf)
+
+Fundstelle: Frage 30, Antwort 13.12.2016
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
 <a id="src-de-bt-nsu-yozgat-2016"></a>
 ### Deutscher Bundestag
 
@@ -1997,6 +2042,21 @@ Deutscher Bundestag · 2017 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-BI
 [Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2017/kw32-nsu-bilanz-515208)
 
 Fundstelle: Abschnitte V-Leute wussten sehr wahrscheinlich vom NSU; Unterstützerstrukturen liegen noch im Dunkeln
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bt-mauss-plenar-18211-2017"></a>
+### Deutscher Bundestag
+
+**[Plenarprotokoll 18/211 – Mauss-Fonds](https://dserver.bundestag.de/btp/18/18211.pdf)**
+
+Deutscher Bundestag · 2017-01-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-MAUSS-PLENAR-18211-2017`
+
+[PDF öffnen](https://dserver.bundestag.de/btp/18/18211.pdf)
+
+Fundstelle: S. 21152–21153, 21185
 
 </article>
 
@@ -6305,7 +6365,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-espectador-mauss-fonds-2018) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6875,6 +6935,21 @@ Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
+
+<a id="src-de-dpa-schmidbauer-mauss-2017"></a>
+### dpa / n-tv
+
+**[Schmidbauer bestätigt Geheimfonds](https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html)**
+
+dpa / n-tv · 2017-01-09 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017`
+
+[Seite öffnen](https://www.n-tv.de/politik/Schmidbauer-bestaetigt-Geheimfonds-article19506981.html)
+
+Fundstelle: Bericht über Gerichtszeugnis
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1999">
 
 <a id="src-ws-stoa-1999"></a>
@@ -6887,6 +6962,21 @@ Duncan Campbell / European Parliament STOA · 1999-04 · Stufe **B** · Sekundä
 [Seite öffnen](https://irp.fas.org/eprint/ic2000/ic2000.htm)
 
 Fundstelle: Abschnitt 5, Rn. 97–104, Fn. 65, 69, 70: journalistische Quellen und Raytheon-Mitteilung; keine operativen NSA-Einzelakten.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2018">
+
+<a id="src-co-espectador-mauss-fonds-2018"></a>
+### El Espectador / CONNECTAS
+
+**[El fondo secreto que une al exespía Werner Mauss y a la Iglesia Católica en Colombia](https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/)**
+
+El Espectador / CONNECTAS · 2018-06-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-CO-ESPECTADOR-MAUSS-FONDS-2018`
+
+[Seite öffnen](https://www.elespectador.com/investigacion/el-fondo-secreto-que-une-al-exespia-werner-mauss-y-a-la-iglesia-catolica-en-colombia-article-796168/)
+
+Fundstelle: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
 
 </article>
 
@@ -6917,6 +7007,66 @@ HORIZONT · 2005-10-24 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF
 [Seite öffnen](https://www.horizont.net/medien/nachrichten/-GJ-sucht-mit-Park-Avenue-die-Naehe-zu-Promi-Persoenlichkeiten-60044)
 
 Fundstelle: Testausgabe Anfang Juni 2005, erste reguläre Ausgabe Ende Oktober 2005; G+J als Verlag.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-boreal-10191986"></a>
+### ICIJ
+
+**[Offshore Leaks: Boreal Management Corp.](https://offshoreleaks.icij.org/nodes/10191986)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-BOREAL-10191986`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10191986)
+
+Fundstelle: Gründung 1992-01-13; Agent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-mauss-intermediary-11003187"></a>
+### ICIJ
+
+**[Offshore Leaks: Intermediärdatensatz 11003187](https://offshoreleaks.icij.org/nodes/11003187)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-MAUSS-INTERMEDIARY-11003187`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/11003187)
+
+Fundstelle: Rolle intermediary; Liste verbundener Gesellschaften
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-nolilane-10041707"></a>
+### ICIJ
+
+**[Offshore Leaks: Nolilane NV Inc.](https://offshoreleaks.icij.org/nodes/10041707)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-NOLILANE-10041707`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10041707)
+
+Fundstelle: Gründung 2005-12-29; Agent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-icij-transacta-10044038"></a>
+### ICIJ
+
+**[Offshore Leaks: Transacta Valores S.A.](https://offshoreleaks.icij.org/nodes/10044038)**
+
+ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-TRANSACTA-10044038`
+
+[Seite öffnen](https://offshoreleaks.icij.org/nodes/10044038)
+
+Fundstelle: Gründung 1985-11-06; Agent
 
 </article>
 
@@ -7175,6 +7325,21 @@ Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit M
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-ndr-mauss-panama-2016"></a>
+### NDR / tagesschau
+
+**[Panama Papers: Werner Mauss](https://www.tagesschau.de/ausland/panamapapers-159.html)**
+
+NDR / tagesschau · 2016-07-20 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDR-MAUSS-PANAMA-2016`
+
+[Seite öffnen](https://www.tagesschau.de/ausland/panamapapers-159.html)
+
+Fundstelle: Gesellschafts- und Kontozuordnungen; Stellungnahme
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-ndb-hermann-schmitz"></a>
@@ -7202,6 +7367,21 @@ Northumbria University, historisch-kritische Dissertation · 2016 · Stufe **B**
 [PDF öffnen](https://researchportal.northumbria.ac.uk/ws/files/13550985/zetsche.anne_phd.pdf)
 
 Fundstelle: Druckseite 172 / PDF-Bildseite 175/Index 174: 1973 erster ACG/Atlantik-Brücke Young Leaders-Kongress Juni Hamburg, teilweise durch Ford Foundation gefördert; FN 157 mit Rockefeller Archive Center, Ford Foundation Grant Files (1239), ACG & 7300512, Program Action Form vom 27.–30.06.1973
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-int-occrp-mauss-panama-2016"></a>
+### OCCRP
+
+**[Spies and Shadowy Allies Lurk in Secret Thanks to Firm's Bag of Tricks](https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks)**
+
+OCCRP · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-OCCRP-MAUSS-PANAMA-2016`
+
+[Seite öffnen](https://www.occrp.org/en/project/the-panama-papers/spies-and-shadowy-allies-lurk-in-secret-thanks-to-firms-bag-of-tricks)
+
+Fundstelle: Mauss-Abschnitt und Stellungnahmen
 
 </article>
 

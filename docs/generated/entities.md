@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**538 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**553 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -19,7 +19,7 @@
 | August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
 | Augusto Pinochet | person | `PER-CL-AUGUSTO-PINOCHET` | CL | [3](network.md#rel-us-riggs-pinochet-accounts-1979-2004) |
 | Berge Aris Balanian | person | `PER-INT-BERGE-BALANIAN` | DE, LB | [2](network.md#rel-ulf-balanian-contact) |
-| Bernd Schmidbauer | person | `PER-DE-BERND-SCHMIDBAUER` | DE | [1](network.md#rel-ulf-fallahian-schmidbauer) |
+| Bernd Schmidbauer | person | `PER-DE-BERND-SCHMIDBAUER` | DE | [4](network.md#rel-ulf-fallahian-schmidbauer) |
 | Bruno Tassan Din | person | `PER-IT-BRUNO-TASSAN-DIN` | IT | [3](network.md#rel-it-rizzoli-tassandin-1980-001) |
 | C. Fred Bergsten | person | `PER-US-C-FRED-BERGSTEN` | US | [2](network.md#rel-us-bergsten-opic-board-1977) |
 | Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
@@ -30,6 +30,7 @@
 | Christoph Seidler | person | `PER-DE-CHRISTOPH-SEIDLER` | DE | [1](network.md#rel-raf-schmuecker-nonne-016) |
 | Claus Kleber | person | `PER-DE-CLAUS-KLEBER` | DE | [2](network.md#rel-de-tmn-023) |
 | Constancia Mangue Nsue de Obiang | person | `PER-GQ-CONSTANCIA-MANGUE` | GQ | [2](network.md#rel-riggs-followup-047) |
+| Darío Castrillón Hoyos | person | `PER-CO-DARIO-CASTRILLON-HOYOS` | CO | [2](network.md#rel-mauss-offshore-006) |
 | David Lammy | person | `PER-GB-DAVID-LAMMY` | GB | [4](network.md#rel-gb-bb-uk-008) |
 | Dieter von Holtzbrinck | person | `PER-DE-DIETER-VON-HOLTZBRINCK` | DE | [1](network.md#rel-de-tmn-033) |
 | Donald E. Graham | person | `PER-US-DONALD-E-GRAHAM` | US | [2](network.md#rel-us-bbf-003) |
@@ -39,12 +40,14 @@
 | Emil Augsburg | person | `PER-DE-EMIL-AUGSBURG` | DE | [1](network.md#rel-de-gehlen-005) |
 | Emil Puhl (1889–1962) | person | `PER-DE-EMIL-PUHL` | DE | [3](network.md#rel-int-bis-1939-003) |
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
+| Ernesto Samper | person | `PER-CO-ERNESTO-SAMPER` | CO | [2](network.md#rel-mauss-offshore-009) |
 | Ernst Uhrlau | person | `PER-DE-ERNST-UHRLAU` | DE | [1](network.md#rel-de-uhrlau-nr-forum5-2005-001) |
 | Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
 | Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
+| Generoso Guerra | person | `PER-PA-GENEROSO-GUERRA` | PA | [1](network.md#rel-mauss-offshore-004) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
@@ -59,12 +62,14 @@
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE | [2](network.md#rel-de-da-003) |
 | Heinz Vietze | person | `PER-DE-HEINZ-VIETZE` | DE | [1](network.md#rel-de-bb-verfg-2004-002) |
 | Helmut Kohl (1930–2017) | person | `PER-DE-HELMUT-KOHL` | DE | [1](network.md#rel-de-ab-kiep-kohl-1993-001) |
+| Hermann Alfred Volker Burghagen | person | `PER-ICIJ-BURGHAGEN-11003187` |  | [4](network.md#rel-mauss-offshore-014) |
 | Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
 | Holger Christmann | person | `PER-DE-HOLGER-CHRISTMANN` | DE | [1](network.md#rel-ulf-park-recruitment) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
 | Inés Lucía Pinochet | person | `PER-CL-INES-LUCIA-PINOCHET` | CL | [1](network.md#rel-riggs-followup-001) |
+| Jesús Emilio Jaramillo | person | `PER-CO-JESUS-EMILIO-JARAMILLO` | CO | [1](network.md#rel-mauss-offshore-007) |
 | Joe Montgomery (United Fruit 1954) | person | `PER-US-JOE-MONTGOMERY-UFCO-1954` | US | [1](network.md#rel-us-montgomery-ufco-liaison-1954) |
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
@@ -144,7 +149,7 @@
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
 | Walther Leisler Kiep (1926–2016) | person | `PER-DE-WALTHER-LEISLER-KIEP` | DE | [6](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Werner Marx (1924–1985, CDU) | person | `PER-DE-WERNER-MARX-CDU-1965-1972` | DE | [1](network.md#rel-de-marx-sfz-chair-1965-1972-001) |
-| Werner Mauss | person | `PER-DE-WERNER-MAUSS` | DE | [11](network.md#rel-mauss-finanz-001) |
+| Werner Mauss | person | `PER-DE-WERNER-MAUSS` | DE | [17](network.md#rel-mauss-finanz-001) |
 | Wilhelm Classen | person | `PER-DE-WILHELM-CLASSEN` | DE | [1](network.md#rel-de-kmm-007) |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE | – |
 | William O. Studeman | person | `PER-US-WILLIAM-STUDEMAN` | US | [1](network.md#rel-ws-studeman-ssci) |
@@ -174,6 +179,7 @@
 | Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Anti-Allende-Wahlkampf Chile 1970 | historical_electoral_campaign | `PRG-CL-ANTI-ALLENDE-1970` | CL | [1](network.md#rel-us-itt-allende-opposition-1970) |
+| Anysberg International Corp. | company | `ORG-PA-ANYSBERG-INTERNATIONAL` | PA | [2](network.md#rel-mauss-offshore-017) |
 | Apexside Trading Ltd. | company | `ORG-INT-APEXSIDE-TRADING-LTD` |  | [3](network.md#rel-riggs-followup-041) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
@@ -224,6 +230,7 @@
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
 | Boeing (1993–1996) | historical_company | `ORG-US-BOEING-1993` | US | [3](network.md#rel-ws-boeing-ssci) |
+| Boreal Management Corp. | company | `ORG-PA-BOREAL-MANAGEMENT` | PA | [3](network.md#rel-mauss-offshore-015) |
 | Brasilianische Union (SIVAM-Verträge) | historical_government | `ORG-BR-UNION-SIVAM` | BR | [12](network.md#rel-ws-senate-exim-auth) |
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
@@ -232,14 +239,15 @@
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [6](network.md#rel-de-bdj-013) |
 | Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [3](network.md#rel-raf-schmuecker-nonne-007) |
-| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
+| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [2](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [8](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [10](network.md#rel-de-gehlen-001) |
+| Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [11](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -283,6 +291,7 @@
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
 | Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09) | commercial_bank | `ORG-DE-DEUTSCHE-BANK-2008` | DE | [2](network.md#rel-de-ab-deutschebank-sponsor-2009-001) |
+| Deutsche Botschaft Bogotá | government_agency | `ORG-DE-BOTSCHAFT-BOGOTA` | DE, CO | [1](network.md#rel-mauss-offshore-011) |
 | Deutsche Bundesbank (Sponsor 2008/09) | central_bank | `ORG-DE-BUNDESBANK-2008` | DE | [1](network.md#rel-de-ab-bundesbank-sponsor-2009-001) |
 | Deutsche Bürgerinitiative | organization | `ORG-DE-DEUTSCHE-BUERGERINITIATIVE` | DE | [2](network.md#rel-de-da-002) |
 | Deutsche Erd- und Steinwerke GmbH (DEST, SS-Betrieb) | ss_owned_company | `ORG-DE-DEST-SS-HISTORIC` | DE | [2](network.md#rel-de-ss-dest-1941-001) |
@@ -359,6 +368,7 @@
 | Insured Aircraft Title Service(s) (2006) | escrow_service | `ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006` |  | [2](network.md#rel-riggs-post-2004-021) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
 | International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
+| Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985) | fund | `ORG-INT-MAUSS-RESERVE-1985` |  | [7](network.md#rel-mauss-offshore-001) |
 | Internationaler Gerichtshof (IGH) | court | `ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE` | NL | [1](network.md#rel-riggs-post-2004-045) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` | VG | [1](network.md#rel-riggs-followup-044) |
@@ -387,6 +397,7 @@
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
+| Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -394,6 +405,7 @@
 | Mobil Equatorial Guinea Inc. (MEGI) | oil_company | `ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC` | GQ, US | [2](network.md#rel-riggs-followup-047) |
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
+| Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
 | National Security Agency (NSA) | government_agency | `ORG-US-NSA` | US | [1](network.md#rel-ws-nsa-osac) |
@@ -409,6 +421,7 @@
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [2](network.md#rel-de-celler-001) |
+| Nolilane NV Inc. | company | `ORG-PA-NOLILANE-NV` | PA | [2](network.md#rel-mauss-offshore-016) |
 | Oberfinanzdirektion Koblenz | tax_authority | `ORG-DE-OFD-KOBLENZ` | DE | [1](network.md#rel-mauss-finanz-012) |
 | Oberlandesgericht Frankfurt am Main | court | `ORG-DE-OLG-FRANKFURT` | DE | [1](network.md#rel-raf-schmuecker-nonne-014) |
 | Oberlandesgericht Hamm | court | `ORG-DE-OLG-HAMM` | DE | [1](network.md#rel-mauss-finanz-016) |
@@ -489,6 +502,7 @@
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
+| Transacta Valores S.A. | company | `ORG-PA-TRANSACTA-VALORES` | PA | [2](network.md#rel-mauss-offshore-014) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
@@ -503,6 +517,7 @@
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [4](network.md#rel-int-bcci-003) |
 | U.S. District Court for the District of Columbia (Anaconda-Urteil 1976) | federal_judicial_court_historical | `ORG-US-DISTRICT-COURT-DC-1976` | US | [1](network.md#rel-us-dc-court-opic-anaconda-vacatur-1976) |
 | UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
+| UBS Panama (berichtete historische Bankverbindung) | commercial_bank | `ORG-PA-UBS-1985` | PA | [1](network.md#rel-mauss-offshore-005) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |

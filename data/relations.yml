@@ -6547,3 +6547,233 @@ relations:
     - SRC-DE-LOHR-MAUSS-2025
     period:
       start: '2024'
+  - id: REL-MAUSS-OFFSHORE-001
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_association
+    label: 1985 errichtete Treuhandreserve laut gerichtlicher Wiedergabe aufgehobener Feststellungen und Recherche;
+      endgültiges Eigentum offen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    - SRC-DE-BGH-MAUSS-347-2019
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-002
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: testimony
+    label: 'Gerichtszeugnis 2017 laut dpa: internationale Reserve, unter anderem USA als behauptete Geldgeber; kein
+      Nachweis konkreter Einzahlungen'
+    evidence_level: strong
+    sources:
+    - SRC-DE-DPA-SCHMIDBAUER-MAUSS-2017
+    period:
+      start: '2017'
+  - id: REL-MAUSS-OFFSHORE-003
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: official_statement
+    label: 'Amtliche Auskunft 18.01.2017: behauptete Existenz erst seit 08.09.2016 bekannt, keine nachvollziehbaren
+      älteren Akten; keine Bestätigung der Fondsstruktur'
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-PLENAR-18211-2017
+    period:
+      start: '2017'
+  - id: REL-MAUSS-OFFSHORE-004
+    from: PER-PA-GENEROSO-GUERRA
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_representation
+    label: Laut dokumentengestützter Recherche Vertreter der im Vertrag bezeichneten westlichen Sicherheitsbehörden;
+      Originalurkunde offen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-005
+    from: ORG-INT-MAUSS-RESERVE-1985
+    to: ORG-PA-UBS-1985
+    type: reported_banking_relationship
+    label: Bankverbindung laut Recherche 2018 (Artikel schreibt USB); keine selbst eingesehenen Kontoauszüge
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-006
+    from: PER-CO-DARIO-CASTRILLON-HOYOS
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_statement
+    label: Schreiben 2013 zur Fondsgeschichte laut Recherche 2018; kein Beleg eigener Einzahlung
+    evidence_level: strong
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '2013'
+  - id: REL-MAUSS-OFFSHORE-007
+    from: PER-CO-JESUS-EMILIO-JARAMILLO
+    to: ORG-INT-MAUSS-RESERVE-1985
+    type: reported_association
+    label: Beteiligung an Fondsentstehung laut 2018 referiertem Kardinalsschreiben; nicht als Kapitalgeber nachgewiesen
+    evidence_level: plausible
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-008
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-CO-DARIO-CASTRILLON-HOYOS
+    type: reported_contact
+    label: Kontakt 1998 laut 2013 verfasstem, 2018 referiertem Schreiben
+    evidence_level: strong
+    sources:
+    - SRC-CO-ESPECTADOR-MAUSS-FONDS-2018
+    period:
+      start: '1998'
+  - id: REL-MAUSS-OFFSHORE-009
+    from: PER-DE-BERND-SCHMIDBAUER
+    to: PER-CO-ERNESTO-SAMPER
+    type: official_contact
+    label: Gespräch im Zusammenhang mit Friedenssondierungen, bestätigt in BT-Drs. 13/6953
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-010
+    from: PER-DE-WERNER-MAUSS
+    to: PER-CO-ERNESTO-SAMPER
+    type: official_contact
+    label: Teilnahme am Gespräch Schmidbauer–Samper amtlich bestätigt
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-011
+    from: ORG-DE-BOTSCHAFT-BOGOTA
+    to: PER-DE-WERNER-MAUSS
+    type: official_support
+    label: Ausstellung eines konsularischen Schutzbriefes laut amtlicher Antwort; kein Honorarvertrag daraus ableitbar
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996'
+  - id: REL-MAUSS-OFFSHORE-012
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-DE-BND
+    type: correspondence
+    label: Schreiben vom 05.11.1996 laut amtlicher Antwort unbeantwortet; kein Nachweis fortbestehenden Auftrags
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1996-11-05'
+  - id: REL-MAUSS-OFFSHORE-013
+    from: ORG-DE-BMZ
+    to: ORG-CO-METRO-MEDELLIN
+    type: credit
+    label: Amtlich berichtete Kreditmittel 100 Mio. DM für das Metroprojekt; kein Mauss-Fondsbezug
+    evidence_level: established
+    sources:
+    - SRC-DE-BT-MAUSS-6953-1997
+    period:
+      start: '1997'
+  - id: REL-MAUSS-OFFSHORE-014
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-TRANSACTA-VALORES
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-TRANSACTA-10044038
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-015
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-BOREAL-10191986
+    period:
+      start: '1992'
+  - id: REL-MAUSS-OFFSHORE-016
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-NOLILANE-NV
+    type: intermediary
+    label: 'ICIJ-Datensatz: Intermediärrolle, kein Eigentumsnachweis'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    - SRC-ICIJ-NOLILANE-10041707
+    period:
+      start: '2005'
+  - id: REL-MAUSS-OFFSHORE-017
+    from: PER-ICIJ-BURGHAGEN-11003187
+    to: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: intermediary
+    label: 'ICIJ-Intermediärübersicht: Gesellschaftsverbindung; kein Eigentumsnachweis'
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-MAUSS-INTERMEDIARY-11003187
+    period:
+      start: '2014'
+  - id: REL-MAUSS-OFFSHORE-018
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-TRANSACTA-VALORES
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-TRANSACTA-10044038
+    period:
+      start: '1985'
+  - id: REL-MAUSS-OFFSHORE-019
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-BOREAL-10191986
+    period:
+      start: '1992'
+  - id: REL-MAUSS-OFFSHORE-020
+    from: ORG-PA-MOSSACK-FONSECA
+    to: ORG-PA-NOLILANE-NV
+    type: registered_agent
+    label: Agent im historischen ICIJ-Profil
+    evidence_level: strong
+    sources:
+    - SRC-ICIJ-NOLILANE-10041707
+    period:
+      start: '2005'
+  - id: REL-MAUSS-OFFSHORE-021
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-PA-BOREAL-MANAGEMENT
+    type: reported_association
+    label: NDR/OCCRP ordnen Gesellschaft Mauss bzw. seinem Umfeld zu; Eigentum und Kontoverbindung bestritten
+    evidence_level: strong
+    sources:
+    - SRC-DE-NDR-MAUSS-PANAMA-2016
+    - SRC-INT-OCCRP-MAUSS-PANAMA-2016
+    period:
+      start: '2016'
+  - id: REL-MAUSS-OFFSHORE-022
+    from: PER-DE-WERNER-MAUSS
+    to: ORG-PA-ANYSBERG-INTERNATIONAL
+    type: reported_association
+    label: Berichtete Zuordnung aus Panama Papers; kein Nachweis persönlicher wirtschaftlicher Berechtigung oder Fondsverbindung
+    evidence_level: strong
+    sources:
+    - SRC-DE-NDR-MAUSS-PANAMA-2016
+    - SRC-INT-OCCRP-MAUSS-PANAMA-2016
+    period:
+      start: '2016'
