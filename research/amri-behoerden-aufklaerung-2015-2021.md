@@ -67,7 +67,7 @@
 - Q18: Bundestag, 28.01.2021, Zeuge kritisiert Kopfsperre: https://www.bundestag.de/dokumente/textarchiv/2021/kw04-pa-1untersuchungsausschuss-817984
 - Q19: Innenministerium MV, Expertenkommission legt Bericht vor: https://www.presseportal.de/blaulicht/pm/108531/4919278
 
-**Prüfstatus:** Q15 und Q13 anhand zugänglicher PDF-Textfundstellen geprüft; Seitenrendering beider großer Berichte sowie erneute Darstellung Q10 fehlgeschlagen (Cache miss). Q17 und Q16 als HTML gelesen. Kein aktueller amtlicher Verfahrensstand 2026 verifiziert; keine Ableitung aus bloßen Aktualisierungsdaten älterer Webseiten. Q10 enthält im Text ein abweichendes Anschlagsdatum (16.12.2016); maßgeblich ist der 19.12.2016 nach den parlamentarischen Berichten. Die Forschungsakte ist eine Vorstudie, noch keine kanonische strukturierte Fallakte.
+**Prüfstatus:** Q15 und Q13 anhand zugänglicher PDF-Textfundstellen geprüft; Seitenrendering beider großer Berichte sowie erneute Darstellung Q10 fehlgeschlagen (Cache miss). Q17 und Q16 als HTML gelesen. Kein aktueller amtlicher Verfahrensstand 2026 verifiziert; keine Ableitung aus bloßen Aktualisierungsdaten älterer Webseiten. Q10 enthält im Text ein abweichendes Anschlagsdatum (16.12.2016); maßgeblich ist der 19.12.2016 nach den parlamentarischen Berichten. Zum damaligen Zwischenstand war noch keine kanonische strukturierte Fallakte angelegt.
 
 
 ## Primärakten-Nachtrag: Ermittlungsgegenstand, Selbstschutz und Quellenkonflikt (26.11.2026)
@@ -131,3 +131,23 @@
 **AMRI-30:** Hans-Christian Ströbele kritisierte in Q27, S. 21–22, die fehlende Offenlegung zentraler Gefährdungserkenntnisse in der Regierungschronologie. Dies ist seine dokumentierte Bewertung und keine einstimmige Feststellung des Gremiums. Die Originalakte ist gegen die damaligen Veröffentlichungsversionen zu prüfen.
 
 **Publikation:** Kanonische Fallakte mit sieben bewerteten Claims unter docs/faelle/de/amri-behoerden-aufklaerung.md. Q27, Q26, Berliner Bericht und MV-Kommissionsbericht erneut anhand der PDF-Textfassung geprüft; Screenshotabrufe Cache miss.
+
+
+## Nachtrag: Reformfolgen und fortdauernde parlamentarische Kontrolle (27.11.2026)
+
+**AMRI-31 – Wiederkehrende Dokumentations- und Übermittlungsdefizite.** Die Managementfassung der MV-Expertenkommission (Q10, S. 3, 7–9 und 10–12) dokumentiert einen weiteren, erst im Rahmen der Untersuchung erschlossenen Sachverhalt: Erkenntnisse aus einer menschlichen Quelle über mutmaßlich nichtpolitische Straftaten wurden zunächst nicht schriftlich erfasst, der Auswertung vorenthalten und erst Jahre später unvollständig an die Staatsanwaltschaft weitergegeben. Der Kommission oblag keine straf- oder disziplinarrechtliche Bewertung einzelner Bediensteter. Die geheime Langfassung enthält 52 Empfehlungen. Wiederkehrende strukturelle Mängel sind damit dokumentiert; gemeinsame Absicht, Personalidentität oder operative Verbindung zwischen den untersuchten Sachverhalten sind nicht belegt.
+
+**AMRI-32 – Konkrete gesetzgeberische Folge.** Die Begründung der Landesregierung zu § 29a LVerfSchG M-V (Q35, S. 75) führt das unmittelbare Eingaberecht auf die Empfehlung der Expertenkommission vom 14.05.2021 zurück. Der verkündete Änderungstext (Q36, sekundäre Wiedergabe) sieht vor, dass Bedienstete sich ohne Dienstweg an das Parlamentarische Kontrollgremium wenden dürfen. Gegenüber dem Ministerium darf der Name nur mit ausdrücklicher Einwilligung offengelegt werden; die Eingabe unterliegt der Geheimhaltung. Damit ist eine konkrete gesetzgeberische Reaktion auf die Kommissionsarbeit belegt, nicht eine vollständige Umsetzung aller Empfehlungen oder die tatsächliche Wirksamkeit des Rechts. Die frühere Bezeichnung Kontrollkommission wurde im endgültigen Gesetz durch Kontrollgremium ersetzt.
+
+**AMRI-33 – Fortbestehende Grenzen parlamentarischer Kontrolle.** Das Landesverfassungsgericht M-V gab am 09.07.2026 dem Organstreitantrag LVerfG 7/25 teilweise statt (Q37). Nach der amtlichen Pressemitteilung verletzte die Landesregierung das Fragerecht hinsichtlich zweier Teilfragen zu nachrichtendienstlichen Onlineidentitäten und Gruppen, indem sie eine nicht öffentlich und eine nicht beantwortete. Unabhängiger Vergleichsfall zur Auskunftspraxis; keine Aussage über Amri, Tatbeteiligung, Anstiftung oder rechtswidrige Quellenführung. Vollständiges Urteil noch nicht geprüft.
+
+**AMRI-34 – Präzisierung des strafrechtlichen Ermittlungsgegenstands und Gegenprobe.** Der Jost-Abschlussbericht (Q34, S. 51 Nr. 10 und S. 55) beschreibt das am 22.03.2016 eingeleitete Verfahren der Generalstaatsanwaltschaft Berlin als Verdacht des Versuchs der Beteiligung an einem Tötungsdelikt (§§ 30 Abs. 1, 2. Alt., 211 StGB). Jost hielt bei damaliger Erkenntnislage für diesen Verfahrensgegenstand lediglich einen Anfangsverdacht, nicht den für einen Haftbefehl erforderlichen dringenden Tatverdacht für begründbar. Dies ist von den gesonderten Ermittlungen zum Drogenhandel und der dort diskutierten Haftmöglichkeit zu unterscheiden (AMRI-22). REL-DE-AMRI-013 entsprechend präzisiert. Kein Nachweis einer vollendeten Beteiligung oder einer rechtswidrig unterlassenen Haft allein aufgrund dieses Verfahrens.
+
+### Ergänzende Quellen
+
+- Q34: Bruno Jost, Abschlussbericht 2017, S. 51 Nr. 10 und S. 55: https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf
+- Q35: Landtag M-V, Drs. 8/5416, 29.10.2025, S. 75: https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes
+- Q36: Drittes Änderungsgesetz, GVOBl. M-V 2026 S. 551, § 29a, sekundäre Wiedergabe: https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm
+- Q37: Landesverfassungsgericht M-V, Pressemitteilung 6/2026 vom 09.07.2026, LVerfG 7/25: https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung
+
+**Prüfstatus:** Q34/Q35 anhand amtlicher PDF-Textfundstellen geprüft, Seitenbilder Cache miss. Q36 Gesetzeswiedergabe, Q37 amtlicher Presseindex. AMRI-31 beruht auf dem dokumentierten Kommissionsbefund der vorherigen Recherche. Die im PR-Kommentar 7202110514 referierte ministerielle Reformbilanz 2023 bleibt als Regierungsaussage dokumentiert; keine unabhängige Einzelprüfung der Umsetzung. Rechts- und Disziplinarstand der Amri-Verfahren im Jahr 2026 nicht verifiziert.

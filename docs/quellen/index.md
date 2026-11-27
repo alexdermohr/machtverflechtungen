@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**500 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**517 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-amri-be-ua-2021) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-bwlt-stammheim-2007) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-amri-be-ua-2021) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-stuttgart-raf-1977) · [P](#src-it-senato-stragi-2001) · [R](#src-ws-br-lei11199-2005) · [S](#src-us-sec-citibank-ownership-2004) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
@@ -772,6 +772,21 @@ Fundstelle: Bank of America Corporation – General; Namens-/Fusionsgeschichte 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-de-bavaria-placement-2005"></a>
+### Bavaria Film GmbH
+
+**[Presseerklärung des Aufsichtsrats und der Gesellschafterversammlung der Bavaria Film GmbH vom 01.07.2005](https://www.presseportal.de/pm/2893/697471)**
+
+Bavaria Film GmbH · 2005-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BAVARIA-PLACEMENT-2005`
+
+[Seite öffnen](https://www.presseportal.de/pm/2893/697471)
+
+Fundstelle: Anlage 1, Ziff. 1–6; Maßnahmenkatalog Ziff. 2–4
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-bymr-td-19530113"></a>
@@ -1412,6 +1427,96 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bverwg-kauka-6a919-2021"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 6 A 9.19, Beschluss vom 13.01.2021](https://www.bverwg.de/de/130121B6A9.19.0)**
+
+Bundesverwaltungsgericht · 2021-01-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-KAUKA-6A919-2021`
+
+[Seite öffnen](https://www.bverwg.de/de/130121B6A9.19.0)
+
+Fundstelle: Rn. 1–2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bverwg-6vr121-2021"></a>
+### Bundesverwaltungsgericht
+
+**[Beschluss 6 VR 1.21](https://www.bverwg.de/230321B6VR1.21.0)**
+
+Bundesverwaltungsgericht · 2021-03-23 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-6VR121-2021`
+
+[Seite öffnen](https://www.bverwg.de/230321B6VR1.21.0)
+
+Fundstelle: Tenor; Rn. 2–5, 9–14, 18–22
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-bverwg-bnd-10a223-2023"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 2.23, Urteil vom 09.11.2023](https://www.bverwg.de/091123U10A2.23.0)**
+
+Bundesverwaltungsgericht · 2023-11-09 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-BND-10A223-2023`
+
+[Seite öffnen](https://www.bverwg.de/091123U10A2.23.0)
+
+Fundstelle: Tenor, Sachverhalt: bereits erteilte gemeinsame Auskunft zu den fünf häufigsten Medien 2019/2020
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-kauka-10a124-2025"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 1.24, Urteil vom 30.04.2025](https://www.bverwg.de/300425U10A1.24.0)**
+
+Bundesverwaltungsgericht · 2025-04-30 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-KAUKA-10A124-2025`
+
+[Seite öffnen](https://www.bverwg.de/300425U10A1.24.0)
+
+Fundstelle: Tenor, Rn. 1–4 und Pressemitteilung 34/2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-bnd-10a324-2025"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 3.24, Urteil vom 25.09.2025](https://www.bverwg.de/250925U10A3.24.0)**
+
+Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-BND-10A324-2025`
+
+[Seite öffnen](https://www.bverwg.de/250925U10A3.24.0)
+
+Fundstelle: Tenor, Rn. 15–16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-10a224-2025"></a>
+### Bundesverwaltungsgericht
+
+**[Urteil 10 A 2.24](https://www.bverwg.de/de/250925U10A2.24.0)**
+
+Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-10A224-2025`
+
+[Seite öffnen](https://www.bverwg.de/de/250925U10A2.24.0)
+
+Fundstelle: Tenor Nr. 1–4; Leitsätze
 
 </article>
 
@@ -2675,6 +2780,21 @@ Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-de-drpr-insm-2006"></a>
+### Deutscher Rat für Public Relations
+
+**[Ratsrüge 06/2006 – Schleichwerbung in der ARD](https://drpr-online.de/2006/05/09/06-2006-schleichwerbung-in-der-ard/)**
+
+Deutscher Rat für Public Relations · 2006-05-09 · Stufe **A** · Primärquelle · `SRC-DE-DRPR-INSM-2006`
+
+[Seite öffnen](https://drpr-online.de/2006/05/09/06-2006-schleichwerbung-in-der-ard/)
+
+Fundstelle: Vorfall; Urteil; Urteilsbegründung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-ulf-tk-drpr"></a>
@@ -3395,6 +3515,21 @@ Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lverfg-725"></a>
+### Landesverfassungsgericht Mecklenburg-Vorpommern
+
+**[Organstreitverfahren gegen die Landesregierung Mecklenburg-Vorpommern teilweise stattgegeben](https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung)**
+
+Landesverfassungsgericht Mecklenburg-Vorpommern · 2026-07-09 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LVERFG-725`
+
+[Seite öffnen](https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/landesverfassungsgericht/Presse/?id=221751&processor=processor.sa.pressemitteilung)
+
+Fundstelle: Pressemitteilung 6/2026, LVerfG 7/25
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-de-bwlt-stammheim-2007"></a>
@@ -3422,6 +3557,21 @@ Landtag Brandenburg, Fraktion Bündnis 90/Die Grünen · 2019 · Stufe **A** · 
 [PDF öffnen](https://gruene-fraktion-brandenburg.de/uploads/documents/05_GRUENE.pdf)
 
 Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jeweils eins niedriger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-reform-85416"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Entwurf eines Dritten Gesetzes zur Änderung des Landesverfassungsschutzgesetzes](https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-10-29 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-REFORM-85416`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes)
+
+Fundstelle: Drs. 8/5416, S. 75, zu Nr. 26 (§ 29a)
 
 </article>
 
@@ -4020,6 +4170,21 @@ Senado Federal / Diário do Congresso Nacional · 1995-01-21 · Stufe **A** · P
 [Seite öffnen](https://legis.senado.leg.br/diarios/BuscaPaginasDiario?codDiario=6990&download=true)
 
 Fundstelle: DCN Seção II, S. 1033: zweite Tranche 160.598.550 statt 160.589.550 USD; korrigierte Summe entspricht Art. 1. Keine eigene Änderung von Art. 2(a) hier festgestellt.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-amri-jost-abschluss-2017"></a>
+### Senat Berlin / Bruno Jost
+
+**[Abschlussbericht des Sonderbeauftragten Bruno Jost](https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf)**
+
+Senat Berlin / Bruno Jost · 2017 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-JOST-ABSCHLUSS-2017`
+
+[PDF öffnen](https://www.berlin.de/sen/inneres/presse/weitere-informationen/abschlussbericht-bruno-jost.pdf)
+
+Fundstelle: S. 51, Nr. 10; S. 55, Bewertung Nr. 10
 
 </article>
 
@@ -6260,7 +6425,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-he-lagis-bdj-19530108) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-de-imi-kirsch-psv-2014) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-de-berlin-ulrich-urbach-1981-mirror) · [T](#src-de-taz-ulfkotte-verfahren-2007) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -6454,6 +6619,21 @@ Board of Governors of the Federal Reserve System / Federal Reserve Bank of Dalla
 [PDF öffnen](https://www.federalreserve.gov/pubs/staffstudies/168/ss168.pdf)
 
 Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): branchenweite Forderungen ab 1977; in 1976–1978 jährlich unter 5 Mio. USD von ERISA-Pensionsplänen eingeworbene Venture-Capital-Mittel vs. 50 Mio. USD im ersten Halbjahr 1979; DOL-Plan-Asset-Einschränkung August 1979 und spätere Lockerung 1980.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-barch-kauka-rechercheleitfaden"></a>
+### Bundesarchiv
+
+**[Soldaten als Schriftsteller – Rolf Kauka](https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/soldaten-als-schriftsteller/)**
+
+Bundesarchiv · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARCH-KAUKA-RECHERCHELEITFADEN`
+
+[Seite öffnen](https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/soldaten-als-schriftsteller/)
+
+Fundstelle: Abschnitt Rolf Kauka, PERS 6/150244
 
 </article>
 
@@ -6680,6 +6860,51 @@ Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-de-tsp-bnd-medien-20231110"></a>
+### Der Tagesspiegel
+
+**[Welche Medien informiert der BND? Der Geheimdienst hat ein Geheimnis weniger](https://www.tagesspiegel.de/politik/welche-medien-informiert-der-bnd-der-geheimdienst-hat-ein-geheimnis-weniger-10759756.html)**
+
+Der Tagesspiegel · 2023-11-10 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-MEDIEN-20231110`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/welche-medien-informiert-der-bnd-der-geheimdienst-hat-ein-geheimnis-weniger-10759756.html)
+
+Fundstelle: Absatz zur bereits erteilten Auskunft des BND
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-tsp-bnd-medien-20251127"></a>
+### Der Tagesspiegel
+
+**[Vertrauliche Treffen in der Geheimdienstzentrale](https://www.tagesspiegel.de/politik/vertrauliche-treffen-in-der-geheimdienstzentrale-offentlich-rechtliche-medien-haben-den-besten-draht-zum-bundesnachrichtendienst-14942366.html)**
+
+Der Tagesspiegel · 2025-11-27 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-MEDIEN-20251127`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/vertrauliche-treffen-in-der-geheimdienstzentrale-offentlich-rechtliche-medien-haben-den-besten-draht-zum-bundesnachrichtendienst-14942366.html)
+
+Fundstelle: Absätze zu BND-Antwort und Teilnehmern
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-tsp-bnd-anwaltskosten-20251216"></a>
+### Der Tagesspiegel
+
+**[Teure Abwehr gegen Recherchen der Presse](https://www.tagesspiegel.de/politik/teure-abwehr-gegen-recherchen-der-presse-so-viel-geld-gibt-der-bundesnachrichtendienst-fur-anwalte-aus-15052583.html)**
+
+Der Tagesspiegel · 2025-12-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/teure-abwehr-gegen-recherchen-der-presse-so-viel-geld-gibt-der-bundesnachrichtendienst-fur-anwalte-aus-15052583.html)
+
+Fundstelle: Absätze zu Kosten und Kanzleien
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2015">
 
 <a id="src-de-bt-uhrlau-career-2015"></a>
@@ -6722,6 +6947,21 @@ Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** ·
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)
 
 Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2022">
+
+<a id="src-de-spionagemuseum-kauka-2022"></a>
+### Deutsches Spionagemuseum
+
+**[Rückblick: Der Fürst der Füchse – Das abenteuerliche Leben des Rolf Kauka](https://www.deutsches-spionagemuseum.de/2022/09/22/rueckblick-der-fuerst-der-fuechse-das-abenteuerliche-leben-des-rolf-kauka)**
+
+Deutsches Spionagemuseum · 2022-09-22 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-SPIONAGEMUSEUM-KAUKA-2022`
+
+[Seite öffnen](https://www.deutsches-spionagemuseum.de/2022/09/22/rueckblick-der-fuerst-der-fuechse-das-abenteuerliche-leben-des-rolf-kauka)
+
+Fundstelle: Comics und Ideologie
 
 </article>
 
@@ -6977,6 +7217,21 @@ kress · 2006-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ULF-KR
 [Seite öffnen](https://kress.de/news/beitrag/61116-aufruhr-in-der-parkstrassebei-gruner-jahr-meldungen-ber-eine-bevorstehende-einstellung-des-prestige-projekts-quot-park-avenue-quot-haben-den-verlag-dazu-bewegt-die-harten-zahlen-auf-den-tisch-zu-legen-nachdem-wiederholt-desastr-se-grosso-west-zahlen-in-der-branche-herumgereicht-wurden-die-unter-10-000-exemplaren-liegen-war-handeln-angesagt-auch-um-die-gesch-tzten-anzeigenkunden-zu-beruhigen-die-b-ume-wachsen-zwar-nicht-in-den-himmel-kommen-aber-ber-das.html)
 
 Fundstelle: Zeitgenössischer Branchenbericht: Ulfkotte war Chefreporter und wurde von Holger Christmann geholt; Ausscheiden bis Ende Juni 2006.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-amri-mv-reform-gvobl-2026"></a>
+### Land Mecklenburg-Vorpommern (Gesetzeswiedergabe umwelt-online)
+
+**[Drittes Gesetz zur Änderung des Landesverfassungsschutzgesetzes Mecklenburg-Vorpommern](https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm)**
+
+Land Mecklenburg-Vorpommern (Gesetzeswiedergabe umwelt-online) · 2026-06-29 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-MV-REFORM-GVOBL-2026`
+
+[Seite öffnen](https://www.umwelt-online.de/regelwerk/allgemei/laender/mv/z26_0551.htm)
+
+Fundstelle: GVOBl. M-V 2026 S. 551, Art. 1 Nr. 26, § 29a; Art. 2
 
 </article>
 

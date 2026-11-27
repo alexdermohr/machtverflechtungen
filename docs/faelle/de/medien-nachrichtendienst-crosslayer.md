@@ -196,6 +196,8 @@ Nach der gerichtlichen Auskunftsanordnung vom 12.09.2024 (10 VR 1.24) teilte der
 
 **Präzisierung zur älteren Kauka-Studie:** Die am 25.09.2025 abgetrennten Verfahren 10 A 5.25 und 10 A 6.25 betreffen nicht nochmals die Ukraine-Gespräche. Laut [amtlicher Pressemitteilung 80/2026 vom 29.10.2026](https://ssl.bverwg.de/pm/2026/80) geht es um die Öffentlichkeitsarbeit des BND zur mutmaßlichen Herkunft des Coronavirus in China und zur Einschätzung der Wahrscheinlichkeit eines russischen Angriffs auf NATO-Staaten. Beide Klagen wurden abgewiesen; das Gericht nennt auswärtige Interessen und die Funktionsfähigkeit der Nachrichtendienste. Die Pressemitteilung war im Suchtext zugänglich, der vollständige erneute Abruf scheiterte. Die Urteilsvolltexte und ein möglicher Zusammenhang mit konkreten Medienberichten bleiben eigene Prüfziele.
 
+Die [Vertiefungsstudie zu BND-Medienzugang und Anwaltsmandaten](../../research/bnd-medienzugang-anwaltsmandate-2019-2025.md) erschließt die namentlich berichteten Medienkontakte, den dokumentierten Kontakt im Verfassungsbeschwerdeverfahren und die externen Rechtskosten. Belegte Verbindungen und weiterführende Hypothesen bleiben getrennt.
+
 ## CIA, Congress for Cultural Freedom und Der Monat
 
 Die CIA-eigene historische Rückschau bezeichnet den Congress for Cultural Freedom als verdeckte CIA-Operation. Die Fachforschung rekonstruiert für Der Monat einen Finanzierungskanal, über den CIA-Mittel via Congress an das deutsche politische Magazin gelangten.

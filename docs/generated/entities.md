@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**528 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**551 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -43,6 +43,7 @@
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
+| Gerhard Wessel | person | `PER-DE-GERHARD-WESSEL` | DE | [3](network.md#rel-de-kauka-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
 | Günther Beckstein | person | `PER-DE-GUENTHER-BECKSTEIN` | DE | [1](network.md#rel-de-beckstein-ulfkotte-laudatio-2003-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
@@ -108,6 +109,7 @@
 | Robert Cutler (NSC-Sicherheitsberater 1953) | person | `PER-US-ROBERT-CUTLER-1953` | US | [1](network.md#rel-us-cutler-old-colony-president-1953) |
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
 | Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [3](network.md#rel-it-ambrosiano-calvi-1980-001) |
+| Rolf Kauka | person | `PER-DE-ROLF-KAUKA` | DE | [4](network.md#rel-de-kauka-001) |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE | – |
 | Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB | [3](network.md#rel-gb-bb-uk-003) |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE | [2](network.md#rel-de-tmn-015) |
@@ -169,7 +171,8 @@
 | Apexside Trading Ltd. | company | `ORG-INT-APEXSIDE-TRADING-LTD` |  | [3](network.md#rel-riggs-followup-041) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
 | Arbeitskreis für das Studium internationaler Fragen e.V. | organization | `ORG-DE-AK-STUDIUM-INTERNATIONALER-FRAGEN` | DE | – |
-| ARD | public_broadcaster | `ORG-DE-ARD` | DE | [1](network.md#rel-de-tmn-006) |
+| ARD | public_broadcaster | `ORG-DE-ARD` | DE | [3](network.md#rel-de-tmn-006) |
+| ARD-Serie Marienhof (Placement-Untersuchung 2002–2005) | television_program | `PRG-DE-MARIENHOF-2002` | DE | [4](network.md#rel-de-marienhof-005) |
 | Arthur Burns Fellowship (2012, US-Steuerfall) | journalism_exchange_nonprofit | `PRG-US-ARTHUR-BURNS-FELLOWSHIP-2012` | US | [1](network.md#rel-us-gmf-arthur-burns-2012-001) |
 | Atlantic Methanol Production Company (AMPCO) | joint_venture | `ORG-GQ-AMPCO-METHANOL` | GQ | [3](network.md#rel-riggs-followup-057) |
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
@@ -201,7 +204,10 @@
 | Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
 | Banque de France (2006) | central_bank | `ORG-FR-BANQUE-DE-FRANCE-2006` | FR | [2](network.md#rel-riggs-post-2004-015) |
 | Banque des États de l’Afrique Centrale (BEAC, 2006) | central_bank | `ORG-CM-BEAC-2006` | CM, GQ | [2](network.md#rel-riggs-post-2004-014) |
+| Bavaria Film GmbH (2005) | historical_company | `ORG-DE-BAVARIA-FILM-2005` | DE | [7](network.md#rel-de-marienhof-007) |
+| Bavaria Sonor (Placement-Abwicklung 2002–2005) | historical_company | `ORG-DE-BAVARIA-SONOR-2005` | DE | [2](network.md#rel-de-marienhof-004) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
+| Bayerischer Rundfunk | public_broadcaster | `ORG-DE-BR` | DE | [3](network.md#rel-de-marienhof-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
@@ -210,10 +216,13 @@
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
+| Bild | media_outlet | `ORG-DE-BILD` | DE | [1](network.md#rel-de-bnd-media-015) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
 | Blood & Honour (internationales Rechtsrocknetz) | extremist_network | `ORG-INT-BLOOD-HONOUR` | GB, DE | – |
 | Bloomberg L.P. | media_company | `ORG-US-BLOOMBERG-LP` | US | [1](network.md#rel-us-bbf-009) |
+| BND-Aktenkomplex Kauka-Verlag | historical_document_collection | `DOC-DE-KAUKA-BND-AKTENKOMPLEX` | DE | [3](network.md#rel-de-kauka-006) |
+| BND-Einzelhintergrundgespräche zur Ukraine 2024 | documented_contact_series | `PRG-DE-BND-UKRAINE-MEDIENKONTAKTE-2024` | DE | [2](network.md#rel-de-kauka-009) |
 | Boeing (1993–1996) | historical_company | `ORG-US-BOEING-1993` | US | [3](network.md#rel-ws-boeing-ssci) |
 | Brasilianische Union (SIVAM-Verträge) | historical_government | `ORG-BR-UNION-SIVAM` | BR | [12](network.md#rel-ws-senate-exim-auth) |
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
@@ -222,7 +231,7 @@
 | Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [9](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
-| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
+| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [3](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [5](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
@@ -231,11 +240,13 @@
 | Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [10](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [29](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
-| Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [2](network.md#rel-de-da-006) |
+| Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
+| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
+| Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [17](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
@@ -271,7 +282,8 @@
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Deloitte & Touche (Bahamas, 1991) | professional_services | `ORG-BS-DELOITTE-TOUCHE-1991` | BS | [3](network.md#rel-riggs-followup-010) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
-| Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [1](network.md#rel-ulf-tk-trip-2) |
+| Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [1](network.md#rel-de-bnd-media-016) |
+| Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
 | Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09) | commercial_bank | `ORG-DE-DEUTSCHE-BANK-2008` | DE | [2](network.md#rel-de-ab-deutschebank-sponsor-2009-001) |
@@ -283,9 +295,11 @@
 | Deutsche Reichsbank (historisch, 1933–1945) | central_bank | `ORG-DE-REICHSBANK-HISTORIC` | DE | [5](network.md#rel-de-rb-1939-001) |
 | Deutsche Schutzvereinigung für Wertpapierbesitz e.V. | organization | `ORG-DE-DSW` | DE | [1](network.md#rel-ulf-tk-dsw-audit-agreement) |
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
+| Deutsche Welle | public_broadcaster | `ORG-DE-DW` | DE | [1](network.md#rel-de-bnd-media-009) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
-| Deutscher Rat für Public Relations | organization | `ORG-DE-DRPR` | DE | [1](network.md#rel-ulf-tk-drpr) |
-| DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [1](network.md#rel-de-tmn-004) |
+| Deutscher Rat für Public Relations | organization | `ORG-DE-DRPR` | DE | [2](network.md#rel-ulf-tk-drpr) |
+| Die Welt | media_outlet | `ORG-DE-DIE-WELT` | DE | [1](network.md#rel-de-bnd-media-018) |
+| DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [2](network.md#rel-de-tmn-004) |
 | Direction générale de la surveillance du territoire (DGST) | intelligence_service | `ORG-MA-DGST` | MA | [2](network.md#rel-de-amri-007) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
@@ -305,6 +319,7 @@
 | Europäische Zentralbank (EZB) | central_bank | `ORG-EU-ECB-2023` | DE | [3](network.md#rel-eu-warburg-ecb-indirect-2023-001) |
 | Export–Import Bank of the United States (Chile, 1974) | historical_federal_export_credit_agency | `ORG-US-EXIMBANK-1974` | US | [1](network.md#rel-cl-chile-us-exim-debt-payment-1974) |
 | Export–Import Bank of the United States (Exportfinanzierung 1994–1997) | historical_federal_export_credit_agency | `ORG-US-EXIMBANK-1994` | US | [11](network.md#rel-ws-exim-advocacy) |
+| Externe BND-Mandate in Presserechtsverfahren seit 2013 | documented_mandate_series | `PRG-DE-BND-EXTERNE-PRESSERECHTSMANDATE-2013-2025` | DE | [2](network.md#rel-de-bnd-media-011) |
 | ExxonMobil (berichteter Unternehmensverbund 2004) | oil_company | `ORG-US-EXXONMOBIL-REPORT-2004` | US | [1](network.md#rel-riggs-followup-055) |
 | Familie Max Warburg Vermögensverwaltung KG (FMWV) | family_asset_holding | `ORG-DE-WARBURG-FMWV-2013` | DE | [1](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
 | Federal Bureau of Investigation (FBI) | government_agency | `ORG-US-FBI` | US | [1](network.md#rel-ws-ic-fbi) |
@@ -338,6 +353,7 @@
 | Good Will Fund (Äquatorialguinea, 2021–2025) | health_program | `PRG-GQ-GOOD-WILL-FUND-2021-2025` | GQ, US | [1](network.md#rel-riggs-post-2004-051) |
 | Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
+| H.+S. Unternehmensberatung (München, 2002) | historical_company | `ORG-DE-HS-2002` | DE | [3](network.md#rel-de-marienhof-001) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
@@ -348,6 +364,7 @@
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | IGH-Urteil 163 zum diplomatischen Status (11.12.2020) | historical_court_decision_document | `DOC-INT-ICJ-163-2020` | NL, FR, GQ | [2](network.md#rel-riggs-post-2004-045) |
 | Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
+| Initiative Neue Soziale Marktwirtschaft (INSM) | organization | `ORG-DE-INSM` | DE | [4](network.md#rel-de-marienhof-001) |
 | Institute for Defense Analyses | research_institute | `ORG-US-IDA` | US | [1](network.md#rel-ulf-woolsey-ida) |
 | Insured Aircraft Title Service(s) (2006) | escrow_service | `ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006` |  | [2](network.md#rel-riggs-post-2004-021) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
@@ -362,6 +379,7 @@
 | Kennecott Copper Corporation / Braden Copper (Chile-Fall) | historical_multinational_mining_corporation | `ORG-US-KENNECOTT-COPPER-CORP-1971` | US, CL | [2](network.md#rel-us-opic-kennecott-credit-cover-1971-1972) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
+| Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [2](network.md#rel-de-nsu-yoz-001) |
@@ -383,6 +401,7 @@
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
 | Mitsubishi UFJ Financial Group (2007) | financial_holding_company | `ORG-JP-MUFG-2007` | JP | [1](network.md#rel-riggs-post-2004-034) |
+| Mitteldeutscher Rundfunk | public_broadcaster | `ORG-DE-MDR` | DE | [1](network.md#rel-de-marienhof-012) |
 | Mobil Equatorial Guinea Inc. (MEGI) | oil_company | `ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC` | GQ, US | [2](network.md#rel-riggs-followup-047) |
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
@@ -400,13 +419,15 @@
 | Newbridge Advisory (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-NEWBRIDGE-2022-SPONSOR-UNKNOWN` | GB | [1](network.md#rel-gb-bb-uk-008) |
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
+| Nicht namentlich verifizierter Verlag (1 BvR 2575/19) | media_publisher | `ORG-DE-VERLAG-1BVR257519` | DE | [2](network.md#rel-de-bnd-media-001) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-celler-001) |
+| Norddeutscher Rundfunk | public_broadcaster | `ORG-DE-NDR` | DE | [2](network.md#rel-de-bnd-media-005) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
-| Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [6](network.md#rel-de-gehlen-001) |
+| Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [7](network.md#rel-de-gehlen-001) |
 | Overseas Investment Insurance Group (OPIC-Mitversicherer 1975) | historical_private_insurance_group | `ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975` | US | [2](network.md#rel-us-opic-oiig-coinsurance-1975) |
 | Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [40](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Overseas Security Advisory Council (OSAC) | public_private_advisory_council | `ORG-US-OSAC` | US | [8](network.md#rel-ws-state-osac) |
@@ -423,6 +444,7 @@
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Public Law 108–458, Section 6303 (2004) | statute_document | `DOC-US-PL108-458-SEC6303` | US | [1](network.md#rel-riggs-followup-026) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |
+| Raue (Berlin) | law_firm | `ORG-DE-RAUE` | DE | [2](network.md#rel-de-bnd-media-012) |
 | Raytheon Company (SIVAM 1994–2008) | historical_company | `ORG-US-RAYTHEON-1994` | US, BR | [4](network.md#rel-ws-exim-raytheon) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
@@ -464,6 +486,7 @@
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Sweetwater Malibu LLC | company | `ORG-US-SWEETWATER-MALIBU-LLC` | US | [1](network.md#rel-riggs-post-2004-047) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [2](network.md#rel-de-tmn-016) |
+| Südwestrundfunk | public_broadcaster | `ORG-DE-SWR` | DE | [3](network.md#rel-de-marienhof-013) |
 | Tactical Intelligence Targeting Access Node (TITAN) | military_technology_program | `PRG-US-ARMY-TITAN` | US | [2](network.md#rel-us-palantir-titan-integration-2026) |
 | Technischer Dienst des Bundes Deutscher Jugend | paramilitary_network | `ORG-DE-BDJ-TD` | DE | [4](network.md#rel-de-bdj-001) |
 | The Bilderberg Association (Charity 272706, historisch) | association | `ORG-GB-BILDERBERG-CHARITY-272706` | GB | [1](network.md#rel-gb-bb-uk-001) |
@@ -521,9 +544,9 @@
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [1](network.md#rel-de-urb-001) |
-| Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | – |
+| Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [1](network.md#rel-de-marienhof-011) |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
-| ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [1](network.md#rel-de-tmn-022) |
+| ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
 
 ## Programme
