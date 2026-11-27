@@ -23,7 +23,10 @@ class PullachEvidenceTests(unittest.TestCase):
         self.assertIn("keine daraus ableitbare Kooperation", dispatch["label"])
         self.assertEqual(["SRC-DE-BARCH-MFS-K121-1971"], dispatch["sources"])
         self.assertEqual("reported_letter", rel["REL-DE-PULLACH-004"]["type"])
-        self.assertNotEqual(rel["REL-DE-PULLACH-005"]["to"], "ORG-DE-ARD")
+        self.assertEqual("ORG-DE-DDR-PANORAMA-AUSLANDSPRESSEDIENST", rel["REL-DE-PULLACH-005"]["to"])
+        self.assertIn(rel["REL-DE-PULLACH-005"]["to"], records("entities"))
+        self.assertNotIn("period", rel["REL-DE-PULLACH-006"])
+        self.assertIn("genauer Beginn hier nicht belegt", rel["REL-DE-PULLACH-006"]["label"])
 
     def test_historical_documents_are_distinct_from_research(self):
         src = records("sources")

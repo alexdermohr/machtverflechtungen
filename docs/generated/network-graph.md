@@ -1340,16 +1340,16 @@ flowchart LR
     N_ORG_DE_MFS -->|"MfS berichtet Durchführung operativ-publizistischer Maßnahmen in Absprache mit Mader (K 1/21, 4)"| N_PER_DE_JULIUS_MADER
     N_PER_DE_FRITZ_BAIER["Fritz Baier"]
     N_PER_DE_JULIUS_MADER -->|"MfS führt einen polemischen Brief Maders an den CDU-Abgeordneten Baier mit belastendem Material auf; Empfängerreaktion nicht belegt (K 1/21, 4.3)"| N_PER_DE_FRITZ_BAIER
-    N_ORG_DDR_PANORAMA_AUSLANDSPRESSEDIENST["Panorama (DDR-Auslandspressedienst, 1971)"]
-    N_ORG_DE_MFS -->|"MfS berichtet Verbreitung eines BND-kritischen Artikels über den DDR-Auslandspressedienst in 22 lateinamerikanischen Staaten; Reichweite und tatsächliche Rezeption ungeprüft (K 1/21, 4.4)"| N_ORG_DDR_PANORAMA_AUSLANDSPRESSEDIENST
+    N_ORG_DE_DDR_PANORAMA_AUSLANDSPRESSEDIENST["Panorama (DDR-Auslandspressedienst, 1971)"]
+    N_ORG_DE_MFS -->|"MfS berichtet Verbreitung eines BND-kritischen Artikels über den DDR-Auslandspressedienst in 22 lateinamerikanischen Staaten; Reichweite und tatsächliche Rezeption ungeprüft (K 1/21, 4.4)"| N_ORG_DE_DDR_PANORAMA_AUSLANDSPRESSEDIENST
     N_PER_DE_HERMANN_ZOLLING["Hermann Zolling"]
-    N_ORG_DE_BND -->|"Laut archivgestützter Darstellung Dülffers kooperierten BND und SPIEGEL-Journalist Zolling im Vorfeld der Serie von 1971; keine Agenten- oder Zahlungsbeziehung belegt"| N_PER_DE_HERMANN_ZOLLING
+    N_ORG_DE_BND -->|"Laut archivgestützter Darstellung Dülffers kooperierten BND und SPIEGEL-Journalist Zolling im Vorfeld der 1971 erschienenen Serie; genauer Beginn hier nicht belegt; keine Agenten- oder Zahlungsbeziehung belegt"| N_PER_DE_HERMANN_ZOLLING
     N_ORG_DE_DER_SPIEGEL -->|"Laut Dülffer erhielt der BND vorab Artikelentwürfe zur Durchsicht; erste veröffentlichte Fassung nicht mehr gegengelesen"| N_ORG_DE_BND
     N_ORG_DE_BND -->|"Laut Dülffer versuchte BND bestimmte aus seiner Sicht fehlerhafte oder geheimhaltungsbedürftige Veröffentlichungen zu verhindern; keine generelle redaktionelle Verfügungsmacht"| N_ORG_DE_DER_SPIEGEL
     N_ORG_DE_BUNDESKANZLERAMT -->|"Laut Dülffer versuchte auch das Kanzleramt bestimmte Veröffentlichungen zu verhindern; erste veröffentlichte Fassung war laut Dülffer nicht mehr vom BND gegengelesen"| N_ORG_DE_DER_SPIEGEL
     N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985["Bayerischer Landtag – Untersuchungsausschuss Langemann II (1983–1985)"]
     N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985 -->|"Ausschuss ersuchte laut Schlussbericht um Einsicht in Langemanns beim GBA befindliche Ring- und Tagebücher (S. 5, Abschn. 3)"| N_ORG_DE_GBA
-    N_ORG_DE_BND -->|"GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Originalschreiben nicht separat geprüft (S. 5, 3 k)"| N_ORG_DE_GBA
+    N_ORG_DE_BND -->|"GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Einwand spätestens 28.04.1983, genaues Datum unbekannt; Originalschreiben nicht separat geprüft (S. 5, 3 k)"| N_ORG_DE_GBA
     N_ORG_DE_GBA -->|"GBA lehnte laut Schlussbericht Akteneinsicht unter Verweis auf BND-Interessen ab (S. 5, 3 k)"| N_ORG_DE_BAYLT_UA_LANGEMANN_II_1983_1985
     N_ORG_DE_VG_MUENCHEN_1983["Verwaltungsgericht München (1983)"]
     N_PER_DE_HANS_LANGEMANN -->|"Langemann klagte gegen das Einsichtsbegehren unter Berufung auf Privatsphäre; Ausschuss setzte Vollzug mehrheitlich aus, Ergebnis des Verfahrens offen (S. 5, Abschn. 3)"| N_ORG_DE_VG_MUENCHEN_1983

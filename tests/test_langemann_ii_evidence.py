@@ -21,6 +21,8 @@ class LangemannIIEvidenceTests(unittest.TestCase):
         self.assertEqual("reported_secrecy_objection", objection["type"])
         self.assertEqual("ORG-DE-BND", objection["from"])
         self.assertEqual("ORG-DE-GBA", objection["to"])
+        self.assertEqual("1983", objection["period"]["start"])
+        self.assertIn("genaues Datum unbekannt", objection["label"])
         for n, sender, date in ((3, "ORG-DE-GBA", "1983-04-28"),
                                 (6, "ORG-DE-BAYOBLG-1983", "1983-08-05"),
                                 (8, "ORG-DE-BAYOBLG-1983", "1983-11-22")):

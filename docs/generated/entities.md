@@ -443,7 +443,7 @@
 | Overseas Security Advisory Council (OSAC) | public_private_advisory_council | `ORG-US-OSAC` | US | [8](network.md#rel-ws-state-osac) |
 | Palantir Technologies (Unternehmensgruppe) | technology_company | `ORG-US-PALANTIR-TECH` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
-| Panorama (DDR-Auslandspressedienst, 1971) | media_service | `ORG-DDR-PANORAMA-AUSLANDSPRESSEDIENST` | DE | [1](network.md#rel-de-pullach-005) |
+| Panorama (DDR-Auslandspressedienst, 1971) | media_service | `ORG-DE-DDR-PANORAMA-AUSLANDSPRESSEDIENST` | DE | [1](network.md#rel-de-pullach-005) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |

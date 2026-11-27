@@ -7037,7 +7037,7 @@ relations:
       start: '1971'
   - id: REL-DE-PULLACH-005
     from: ORG-DE-MFS
-    to: ORG-DDR-PANORAMA-AUSLANDSPRESSEDIENST
+    to: ORG-DE-DDR-PANORAMA-AUSLANDSPRESSEDIENST
     type: reported_publication_distribution
     label: MfS berichtet Verbreitung eines BND-kritischen Artikels über den DDR-Auslandspressedienst in 22 lateinamerikanischen Staaten; Reichweite und tatsächliche Rezeption ungeprüft
       (K 1/21, 4.4)
@@ -7050,12 +7050,10 @@ relations:
     from: ORG-DE-BND
     to: PER-DE-HERMANN-ZOLLING
     type: reported_information_cooperation
-    label: Laut archivgestützter Darstellung Dülffers kooperierten BND und SPIEGEL-Journalist Zolling im Vorfeld der Serie von 1971; keine Agenten- oder Zahlungsbeziehung belegt
+    label: Laut archivgestützter Darstellung Dülffers kooperierten BND und SPIEGEL-Journalist Zolling im Vorfeld der 1971 erschienenen Serie; genauer Beginn hier nicht belegt; keine Agenten- oder Zahlungsbeziehung belegt
     evidence_level: strong
     sources:
     - SRC-DE-UNI-KOELN-DUELFFER-PULLACH-2015
-    period:
-      start: '1971'
   - id: REL-DE-PULLACH-007
     from: ORG-DE-DER-SPIEGEL
     to: ORG-DE-BND
@@ -7100,12 +7098,12 @@ relations:
     from: ORG-DE-BND
     to: ORG-DE-GBA
     type: reported_secrecy_objection
-    label: GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Originalschreiben nicht separat geprüft (S. 5, 3 k)
+    label: GBA-Ablehnung vom 28.04.1983 verwies auf den gegen die Einsicht erhobenen Einwand des BND; Einwand spätestens 28.04.1983, genaues Datum unbekannt; Originalschreiben nicht separat geprüft (S. 5, 3 k)
     evidence_level: strong
     sources:
     - SRC-DE-BAYLT-LANGEMANN-II-6288-1985
     period:
-      start: '1983-04-28'
+      start: '1983'
   - id: REL-DE-LANG-II-003
     from: ORG-DE-GBA
     to: ORG-DE-BAYLT-UA-LANGEMANN-II-1983-1985

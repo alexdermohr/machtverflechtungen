@@ -3169,8 +3169,8 @@ entities:
     name: Hermann Zolling
     countries:
     - DE
-    notes: SPIEGEL-Journalist; Kooperation mit BND 1969–1971 laut Dülffer, keine nachgewiesene Agentenführung.
-  - id: ORG-DDR-PANORAMA-AUSLANDSPRESSEDIENST
+    notes: SPIEGEL-Journalist; Kooperation mit BND im Vorfeld der 1971 erschienenen Serie laut Dülffer; genauer Beginn hier nicht belegt, keine nachgewiesene Agentenführung.
+  - id: ORG-DE-DDR-PANORAMA-AUSLANDSPRESSEDIENST
     type: media_service
     name: Panorama (DDR-Auslandspressedienst, 1971)
     countries:
