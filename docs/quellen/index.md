@@ -6697,18 +6697,18 @@ Fundstelle: Abschnitte 'Die Staatssicherheit als Insider', 'Irreführung der USA
 
 </article>
 
-<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1968">
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1971">
 
 <a id="src-de-stasi-pullach-intern-1968-ed"></a>
 ### Bundesarchiv, Stasi-Unterlagen-Archiv
 
-**[Auswertung der Artikelserie Pullach intern (1968), editorische Anmerkung zu Kurt Weiß](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)**
+**[Auswertung der Artikelserie Pullach intern (30.07.1971), editorische Anmerkung zu Kurt Weiß](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)**
 
-Bundesarchiv, Stasi-Unterlagen-Archiv · 1968 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-STASI-PULLACH-INTERN-1968-ED`
+Bundesarchiv, Stasi-Unterlagen-Archiv · 1971-07-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-STASI-PULLACH-INTERN-1968-ED`
 
 [Seite öffnen](https://www.ddr-im-blick.de/jahrgaenge/jahrgang-1968/report/auswertung-der-artikelserie-pullach-intern/)
 
-Fundstelle: Anm. 10 (moderne editorische Anmerkung zum historischen Bericht)
+Fundstelle: BArch, MfS, ZAIG 5000, Bl. 1–19 (5. Expl.), K 1/25; Anm. 10 (moderne editorische Anmerkung; URL-Jahrgang 1968 irreführend)
 
 </article>
 

@@ -1120,7 +1120,7 @@ studies:
     - REL-DE-AMRI-019
     - REL-DE-AMRI-020
   bnd-bmvg-parnass-film-dynamit-1966-1967.md:
-    sha256: 67650be3adf9c65380e10102375fa3035a24b95818230c391a6e630fcf3a5e52
+    sha256: eac6c4b8aff96f4c3e1baab96509b6abf3960aebe73d24826e6c5b030c49b18b
     status: network
     relation_ids:
     - REL-DE-BND-DYNAMIT-001
