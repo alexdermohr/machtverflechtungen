@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**534 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**538 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -149,6 +149,7 @@
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
+| 17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012) | document | `DOC-DE-NSU-MAD-AKTEN-2012` | DE | [1](network.md#rel-de-nsu-mad-akten-2012-001) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
 | 57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012) | document | `DOC-DE-NSU-BERLIN-AKTEN-2012` | DE | [1](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
@@ -222,15 +223,17 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [6](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [9](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [1](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
+| Bundesministerium der Verteidigung (NSU, 2012) | government_ministry | `ORG-DE-BMVG-2012` | DE | [1](network.md#rel-de-nsu-bmvg-mad-kenntnis-2012-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium des Innern (2003) | government_ministry | `ORG-DE-BMI-2003` | DE | [1](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
+| Bundesministerium des Innern (NSU, 2011–2012) | government_ministry | `ORG-DE-BMI-2011-2012` | DE | [2](network.md#rel-de-nsu-bmi-bfv-g10-2011-001) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [8](network.md#rel-de-gehlen-001) |
@@ -384,7 +387,7 @@
 | McAfee & Taft (2006) | law_firm | `ORG-US-MCAFEE-TAFT-2006` | US | [2](network.md#rel-riggs-post-2004-017) |
 | McDonnell Douglas (1992–1996) | historical_company | `ORG-US-MCDONNELL-DOUGLAS-1992` | US | [3](network.md#rel-ws-mcdonnell-osac) |
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
-| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [2](network.md#rel-de-nsu-mad-bfv-1999-001) |
+| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [4](network.md#rel-de-nsu-mad-bfv-1999-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -521,6 +524,7 @@
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
 | Verfassungsschutzbehörde Sachsen-Anhalt | intelligence_service | `ORG-DE-ST-LFV` | DE | [1](network.md#rel-de-nsu-st-lfv-datentraeger-2014-001) |
+| Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012) | document | `DOC-DE-NSU-G10-ANLAGENORDNER-2012` | DE | [1](network.md#rel-de-nsu-bfv-g10-vernichtung-001) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |

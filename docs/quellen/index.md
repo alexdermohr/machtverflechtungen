@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**502 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**507 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1327,6 +1327,21 @@ Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bmi-engelke-offen-2012"></a>
+### Bundesministerium des Innern
+
+**[Bericht des BMI-Sonderbeauftragten zur Operation Rennsteig und weiteren Aktenvernichtungen, offene Fassung](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf)**
+
+Bundesministerium des Innern · 2012-10 · Stufe **A** · Primärquelle · `SRC-DE-BMI-ENGELKE-OFFEN-2012`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf)
+
+Fundstelle: Gedruckte S. 2–7, insbesondere 5–6; Anlage Dokument 11 zur BT-Drs. 17/14600
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
 
 <a id="src-de-bnd-geschichte-2011"></a>
@@ -1352,6 +1367,21 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bverfg-2bve115-2017"></a>
+### Bundesverfassungsgericht
+
+**[BVerfG 2 BvE 1/15, Beschluss zum parlamentarischen Auskunftsrecht und Quellenschutz](https://datenbank.nwb.de/Dokument/924391/)**
+
+Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-2BVE115-2017`
+
+[Seite öffnen](https://datenbank.nwb.de/Dokument/924391/)
+
+Fundstelle: Leitsätze, Rn. 124 ff.
 
 </article>
 
@@ -1910,6 +1940,32 @@ Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bt-nsu-aktenstopp-20120719"></a>
+### Deutscher Bundestag
+
+**[NSU-Ausschuss fordert Stopp der Aktenvernichtung](https://www.bundestag.de/webarchiv/textarchiv/2012/39895729_kw29_pa_2ua_nsu-209068)**
+
+Deutscher Bundestag · 2012-07-19 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-AKTENSTOPP-20120719`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/39895729_kw29_pa_2ua_nsu-209068)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bt-nsu-fritsche-20121018"></a>
+### Deutscher Bundestag
+
+**[Aufklärung wichtiger als Zusagen an Informanten](https://www.bundestag.de/webarchiv/textarchiv/2012/40954245_kw42_nsu_akten-209650)**
+
+Deutscher Bundestag · 2012-10-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-FRITSCHE-20121018`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/40954245_kw42_nsu_akten-209650)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
 
 <a id="src-de-bt-nsu-schultz-20130117"></a>
@@ -1951,7 +2007,7 @@ Deutscher Bundestag · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
 
-Fundstelle: Gedruckte S. 303–309, 452–453, 853–854; Fn. 2655–2702 und 3988–3991
+Fundstelle: Gedruckte S. 303–309, 452–453, 743–744, 853–854, 859–861; Fn. 2655–2702 und 3988–3991
 
 </article>
 
@@ -2055,6 +2111,19 @@ Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
 
 Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bt-amri-bverfg-20210203"></a>
+### Deutscher Bundestag
+
+**[V-Mann-Führer muss nicht vor Untersuchungsausschuss aussagen](https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388)**
+
+Deutscher Bundestag · 2021-02-03 · Stufe **A** · Primärquelle · `SRC-DE-BT-AMRI-BVERFG-20210203`
+
+[Seite öffnen](https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388)
 
 </article>
 

@@ -6319,3 +6319,48 @@ relations:
     label: "Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"
     evidence_level: strong
     sources: [SRC-DE-BT-NSU-SCHULTZ-20130117]
+
+  - id: REL-DE-NSU-BFV-G10-VERNICHTUNG-001
+    from: ORG-DE-BFV
+    to: DOC-DE-NSU-G10-ANLAGENORDNER-2012
+    type: destroyed_records
+    label: "Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"
+    period: {start: "2011", end: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BMI-ENGELKE-OFFEN-2012, SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-BMI-BFV-G10-2011-001
+    from: ORG-DE-BMI-2011-2012
+    to: ORG-DE-BFV
+    type: ordered_records_destruction
+    label: "Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"
+    period: {start: "2011-11-14"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-BT-NSU-AKTENSTOPP-20120719]
+
+  - id: REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001
+    from: ORG-DE-BMI-2011-2012
+    to: ORG-DE-BFV
+    type: imposed_records_moratorium
+    label: "Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."
+    period: {start: "2012-07-18"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-MAD-AKTEN-2012-001
+    from: ORG-DE-MAD
+    to: DOC-DE-NSU-MAD-AKTEN-2012
+    type: destroyed_records
+    label: "Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001
+    from: ORG-DE-BMVG-2012
+    to: ORG-DE-MAD
+    type: documented_shared_knowledge
+    label: "Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]

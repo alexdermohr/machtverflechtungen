@@ -5642,7 +5642,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/17/146/1714600.pdf
   accessed: '2026-11-26'
-  locator: "Gedruckte S. 303–309, 452–453, 853–854; Fn. 2655–2702 und 3988–3991"
+  locator: "Gedruckte S. 303–309, 452–453, 743–744, 853–854, 859–861; Fn. 2655–2702 und 3988–3991"
   notes: "Amtliche Textfassung; Seitenbildabruf wegen Dateigröße gescheitert. Anderer Fundstellenbereich desselben Dokuments wie SRC-DE-BT-PIATTO-NSU-UA-1714600-2013, keine unabhängige Quelle. Zitiert Akten, Gutachten und Zeugenaussagen; widersprechende Aussagen getrennt bewerten."
 
 - id: SRC-DE-BT-NSU-VP562-HIB-20130423
@@ -5738,3 +5738,58 @@ sources:
   accessed: '2026-11-27'
   locator: "Abschnitte Einer hat gelogen; Gering, dünn, spärlich"
   notes: "Amtliche Anhörungsberichterstattung; Widerspruch Wunderlich/Nocken dokumentiert, keine Entscheidung über Wahrheit oder Vorsatz."
+
+- id: SRC-DE-BMI-ENGELKE-OFFEN-2012
+  title: "Bericht des BMI-Sonderbeauftragten zur Operation Rennsteig und weiteren Aktenvernichtungen, offene Fassung"
+  institution: Bundesministerium des Innern
+  date: '2012-10'
+  type: investigation_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf
+  accessed: '2026-11-27'
+  locator: "Gedruckte S. 2–7, insbesondere 5–6; Anlage Dokument 11 zur BT-Drs. 17/14600"
+  notes: "S. 2 bildseitig geprüft, weitere Bildabrufe fehlgeschlagen. Offene Kurzfassung; nicht die geheime Langfassung. Motive und negative Befunde sind Untersuchungsbewertungen."
+
+- id: SRC-DE-BT-NSU-AKTENSTOPP-20120719
+  title: "NSU-Ausschuss fordert Stopp der Aktenvernichtung"
+  institution: Deutscher Bundestag
+  date: '2012-07-19'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2012/39895729_kw29_pa_2ua_nsu-209068
+  accessed: '2026-11-27'
+
+- id: SRC-DE-BT-NSU-FRITSCHE-20121018
+  title: "Aufklärung wichtiger als Zusagen an Informanten"
+  institution: Deutscher Bundestag
+  date: '2012-10-18'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/webarchiv/textarchiv/2012/40954245_kw42_nsu_akten-209650
+  accessed: '2026-11-27'
+
+- id: SRC-DE-BVERFG-2BVE115-2017
+  title: "BVerfG 2 BvE 1/15, Beschluss zum parlamentarischen Auskunftsrecht und Quellenschutz"
+  institution: Bundesverfassungsgericht
+  date: '2017-06-13'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://datenbank.nwb.de/Dokument/924391/
+  accessed: '2026-11-27'
+  locator: "Leitsätze, Rn. 124 ff."
+  notes: "Gerichtlicher Entscheidungstext in Drittveröffentlichung; gerichtliche Website beim Abruf 403."
+
+- id: SRC-DE-BT-AMRI-BVERFG-20210203
+  title: "V-Mann-Führer muss nicht vor Untersuchungsausschuss aussagen"
+  institution: Deutscher Bundestag
+  date: '2021-02-03'
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388
+  accessed: '2026-11-27'
+  notes: "Amtliche Berichterstattung zum Beschluss 2 BvE 4/18 vom 16.12.2020; Volltextabruf technisch fehlgeschlagen."

@@ -3022,3 +3022,23 @@ entities:
     type: prosecution_authority
     name: "Staatsanwaltschaft Gera"
     countries: [DE]
+
+  - id: ORG-DE-BMI-2011-2012
+    type: government_ministry
+    name: "Bundesministerium des Innern (NSU, 2011–2012)"
+    countries: [DE]
+
+  - id: ORG-DE-BMVG-2012
+    type: government_ministry
+    name: "Bundesministerium der Verteidigung (NSU, 2012)"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-G10-ANLAGENORDNER-2012
+    type: document
+    name: "Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-MAD-AKTEN-2012
+    type: document
+    name: "17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"
+    countries: [DE]

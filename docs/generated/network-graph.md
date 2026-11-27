@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**703 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**708 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1249,6 +1249,15 @@ flowchart LR
     N_ORG_DE_STA_GERA["Staatsanwaltschaft Gera"]
     N_ORG_DE_STA_GERA -->|"Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"| N_ORG_DE_TLFV
     N_ORG_DE_TLFV -->|"Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"| N_ORG_DE_STA_GERA
+    N_DOC_DE_NSU_G10_ANLAGENORDNER_2012["Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"]
+    N_ORG_DE_BFV -->|"Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"| N_DOC_DE_NSU_G10_ANLAGENORDNER_2012
+    N_ORG_DE_BMI_2011_2012["Bundesministerium des Innern (NSU, 2011–2012)"]
+    N_ORG_DE_BMI_2011_2012 -->|"Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_2011_2012 -->|"Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."| N_ORG_DE_BFV
+    N_DOC_DE_NSU_MAD_AKTEN_2012["17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"]
+    N_ORG_DE_MAD -->|"Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"| N_DOC_DE_NSU_MAD_AKTEN_2012
+    N_ORG_DE_BMVG_2012["Bundesministerium der Verteidigung (NSU, 2012)"]
+    N_ORG_DE_BMVG_2012 -->|"Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"| N_ORG_DE_MAD
 ```
 
 [Zur Relationstabelle](network.md)
