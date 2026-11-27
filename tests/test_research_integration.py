@@ -489,7 +489,10 @@ class ResearchIntegrationTests(unittest.TestCase):
                  "REL-DE-NSU-BMI-BFV-G10-2011-001",
                  "REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001",
                  "REL-DE-NSU-MAD-AKTEN-2012-001",
-                 "REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001"],
+                 "REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001",
+                 "REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001",
+                 "REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001",
+                 "REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":
