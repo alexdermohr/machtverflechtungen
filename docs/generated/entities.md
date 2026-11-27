@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**554 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**557 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -180,7 +180,8 @@
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | ATSIGE (2000–2004) | company | `ORG-GQ-ATSIGE` | GQ | [1](network.md#rel-riggs-followup-060) |
-| Auswärtiges Amt | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [3](network.md#rel-de-ab-aa-sponsor-2009-001) |
+| Auswärtiges Amt (1966) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-005) |
+| Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
 | Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement_document | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
 | BAFISUD Corporation S.A. (Panama) | finance_company | `ORG-PA-BAFISUD-CORPORATION-SA` | PA | [5](network.md#rel-uy-pa-bafisud-1978-001) |
@@ -237,7 +238,8 @@
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [5](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
-| Bundesministerium der Verteidigung (BMVg) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [6](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
+| Bundesministerium der Verteidigung (1966) | federal_ministry | `ORG-DE-BMVG-1966` | DE | [3](network.md#rel-de-bnd-dynamit-001) |
+| Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
 | Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
@@ -443,7 +445,8 @@
 | Perpetual Corporation (2004) | holding_company | `ORG-US-PERPETUAL-CORPORATION-2004` | US | [2](network.md#rel-riggs-followup-032) |
 | Petroquímica Dow S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-PETROQUIMICA-DOW-1974` | CL | [1](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
-| Presse- und Informationsamt der Bundesregierung | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [4](network.md#rel-de-kmm-009) |
+| Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
+| Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
 | Public Law 108–458, Section 6303 (2004) | statute_document | `DOC-US-PL108-458-SEC6303` | US | [1](network.md#rel-riggs-followup-026) |
 | Raft | technology_company | `ORG-US-RAFT-TECH` | US | [1](network.md#rel-us-raft-ngc2-2026) |

@@ -6832,7 +6832,7 @@ relations:
     period:
       start: '2017'
   - id: REL-DE-BND-DYNAMIT-001
-    from: ORG-DE-BMVG-PSV-1981-1990
+    from: ORG-DE-BMVG-1966
     to: ORG-DE-PARNASS-FILM-MUENCHEN
     type: conditional_production_support
     label: Laut BND-Edition stellte BMVg Unterstützung unter Bedingung von Drehbuchmitsprache und vorheriger Sichtung; keine endgültige Sachhilfezusage (Dok. 6)
@@ -6843,7 +6843,7 @@ relations:
       start: '1966-06-21'
   - id: REL-DE-BND-DYNAMIT-002
     from: ORG-DE-PARNASS-FILM-MUENCHEN
-    to: ORG-DE-BMVG-PSV-1981-1990
+    to: ORG-DE-BMVG-1966
     type: reported_screenplay_revision
     label: Werner bestätigte für Parnass die zivile Darstellung des BND und Bereitschaft zur vorherigen Sichtung (Edition S. 14, Dok. 14)
     sources:
@@ -6852,7 +6852,7 @@ relations:
     period:
       start: '1966-10-10'
   - id: REL-DE-BND-DYNAMIT-003
-    from: ORG-DE-BMVG-PSV-1981-1990
+    from: ORG-DE-BMVG-1966
     to: ORG-DE-BND
     type: reported_consultation
     label: BMVg bat um BND-Votum, von dem es weitere Unterstützung abhängig machte (Edition Dok. 15)
@@ -6863,7 +6863,7 @@ relations:
       start: '1966-10-20'
   - id: REL-DE-BND-DYNAMIT-004
     from: ORG-DE-PARNASS-FILM-MUENCHEN
-    to: ORG-DE-BUNDESPRESSEAMT-1953
+    to: ORG-DE-BUNDESPRESSEAMT-1966
     type: documented_diplomatic_intervention_request
     label: Parnass bat um diplomatische Unterstützung für Filmproduktion in Spanien; PA AA B 95, 365, 14668 laut Edition
     sources:
@@ -6872,8 +6872,8 @@ relations:
     period:
       start: '1966-06-28'
   - id: REL-DE-BND-DYNAMIT-005
-    from: ORG-DE-BUNDESPRESSEAMT-1953
-    to: ORG-DE-AUSWAERTIGES-AMT-2008
+    from: ORG-DE-BUNDESPRESSEAMT-1966
+    to: ORG-DE-AUSWAERTIGES-AMT-1966
     type: reported_consultation
     label: Presseamt leitete Film-Anfrage an AA weiter; PA AA B 95, 365, 14668 laut Edition
     sources:
@@ -6882,7 +6882,7 @@ relations:
     period:
       start: '1966-07-14'
   - id: REL-DE-BND-DYNAMIT-006
-    from: ORG-DE-AUSWAERTIGES-AMT-2008
+    from: ORG-DE-AUSWAERTIGES-AMT-1966
     to: ORG-DE-BND
     type: reported_consultation
     label: AA-Filmreferent besprach das Filmvorhaben mit BND (Edition Dok. 10)
@@ -6966,11 +6966,11 @@ relations:
   - id: REL-DE-BND-DYNAMIT-014
     from: PER-DE-KURT-WEISS-BND
     to: ORG-DE-BND
-    type: management_role
+    type: employed_by
     label: Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend
     sources:
     - SRC-DE-BND-MFG-DYNAMIT-2014
-    - SRC-DE-STASI-PULLACH-INTERN-1968-ED
+    - SRC-DE-STASI-PULLACH-INTERN-1971-ED
     evidence_level: strong
     period:
       start: '1966'

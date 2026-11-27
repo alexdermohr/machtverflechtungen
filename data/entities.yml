@@ -670,7 +670,7 @@ entities:
 
   - id: ORG-DE-BUNDESPRESSEAMT-1953
     type: government_agency
-    name: "Presse- und Informationsamt der Bundesregierung"
+    name: "Presse- und Informationsamt der Bundesregierung (1953)"
     countries: [DE]
     notes: "CIA-Monatsbericht führt 300 Nachdruckexemplare als an das Bundespresseamt verteilte Menge auf; keine daraus abgeleitete Redaktionsweisung."
 
@@ -1226,7 +1226,7 @@ entities:
 
   - id: ORG-DE-AUSWAERTIGES-AMT-2008
     type: government_ministry
-    name: "Auswärtiges Amt"
+    name: "Auswärtiges Amt (Sponsor 2008/09)"
     countries: [DE]
     notes: "Im Atlantik-Brücke-Jahresbericht 2008/09 als Sponsor aufgeführt; konkreter Förderposten, Jahresbetrag und programmatische Bedingungen im Quellenbeleg offen."
 
@@ -1622,7 +1622,7 @@ entities:
 
   - id: ORG-DE-BMVG-PSV-1981-1990
     type: federal_ministry
-    name: "Bundesministerium der Verteidigung (BMVg)"
+    name: "Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990)"
     countries: [DE]
     notes: "Verteidigungsministerium der BRD; Haushaltsmittel der Referatsgruppe Psychologische Verteidigung in Bundestagsdrucksachen 11/4360 und 11/7749 nachgewiesen. Historischer Förderkontext, weder gleichbedeutend mit BND noch mit einer personenbezogenen Agentenzahlung."
 
@@ -3143,3 +3143,18 @@ entities:
     countries:
     - DE
     notes: Politische/strategische Aufklärung; Zuordnung nach BND-Edition und editorischer Anmerkung des Stasi-Unterlagen-Archivs; abweichende Lebens- und Funktionsdaten nicht vereinheitlicht.
+  - id: ORG-DE-BMVG-1966
+    type: federal_ministry
+    name: "Bundesministerium der Verteidigung (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der dokumentierten Filmproduktionsanfragen und Bedingungen 1966; keine Gleichsetzung mit späteren PSV-Fördervorgängen."
+  - id: ORG-DE-AUSWAERTIGES-AMT-1966
+    type: government_ministry
+    name: "Auswärtiges Amt (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Aussage über spätere Sponsoringvorgänge."
+  - id: ORG-DE-BUNDESPRESSEAMT-1966
+    type: government_agency
+    name: "Presse- und Informationsamt der Bundesregierung (1966)"
+    countries: [DE]
+    notes: "Zeitgebundener Akteur der Filmproduktionskorrespondenz 1966; keine Gleichsetzung mit der CIA-Nachdruckverteilung 1953."
