@@ -5537,6 +5537,150 @@ sources:
   locator: "S.16 Mitgliedschaft DOJ im Impf-Fenster; S.18–19 Gebühren; S.25 Beschluss 10.12.2025, Verlängerung bis 31.12.2026, narrativer Abschlussbericht bis 30.06.2027."
   notes: "Spanische inoffizielle Übersetzung; englische Fassung maßgeblich. Amtliche PDF-Textansicht, Seitenbild nicht abrufbar; kein Nachweis konkreter Sitzungen oder Zustimmungen."
 
+- id: SRC-DE-DRPR-INSM-2006
+  title: Ratsrüge 06/2006 – Schleichwerbung in der ARD
+  institution: Deutscher Rat für Public Relations
+  date: '2006-05-09'
+  type: self_regulation_decision
+  primary: true
+  tier: A
+  url: https://drpr-online.de/2006/05/09/06-2006-schleichwerbung-in-der-ard/
+  accessed: '2026-11-25'
+  locator: Vorfall; Urteil; Urteilsbegründung
+  notes: Originalentscheidung erneut gelesen; acht INSM-eingeräumte Fälle versus sieben ARD-Einträge, Kooperation und Distanzierung ausdrücklich berücksichtigt.
+- id: SRC-DE-BAVARIA-PLACEMENT-2005
+  title: Presseerklärung des Aufsichtsrats und der Gesellschafterversammlung der Bavaria Film GmbH vom 01.07.2005
+  institution: Bavaria Film GmbH
+  date: '2005-07-01'
+  type: corporate_statement_with_audit_summary
+  primary: true
+  tier: A
+  url: https://www.presseportal.de/pm/2893/697471
+  accessed: '2026-11-25'
+  locator: Anlage 1, Ziff. 1–6; Maßnahmenkatalog Ziff. 2–4
+  notes: Erneut gelesene Original-Firmenerklärung mit Auszug aus Sonderprüfungen; nicht vollständige unabhängige Prüfberichte. 1,476 Mio. EUR Gesamtrechnungsbetrag beider Serien, nicht INSM-Einzelbetrag.
+- id: SRC-DE-BVERWG-KAUKA-6A919-2021
+  title: BVerwG 6 A 9.19, Beschluss vom 13.01.2021
+  institution: Bundesverwaltungsgericht
+  date: '2021-01-13'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/de/130121B6A9.19.0
+  accessed: '2026-11-26'
+  locator: Rn. 1–2
+  notes: Aussetzungsbeschluss; BND-Bestätigung der Freundschaft, keine gerichtliche Feststellung einer operativen Verlagsrolle.
+- id: SRC-DE-BVERWG-KAUKA-10A124-2025
+  title: BVerwG 10 A 1.24, Urteil vom 30.04.2025
+  institution: Bundesverwaltungsgericht
+  date: '2025-04-30'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/300425U10A1.24.0
+  accessed: '2026-11-26'
+  locator: Tenor, Rn. 1–4 und Pressemitteilung 34/2025
+  notes: Teilzugang, Sperrerklärung, In-camera-Prüfung; keine personenspezifischen Zahlungen.
+- id: SRC-DE-BVERWG-BND-10A324-2025
+  title: BVerwG 10 A 3.24, Urteil vom 25.09.2025
+  institution: Bundesverwaltungsgericht
+  date: '2025-09-25'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/250925U10A3.24.0
+  accessed: '2026-11-26'
+  locator: Tenor, Rn. 15–16
+  notes: Auskunft zu acht Gesprächen vom 25.09.2024; Namen nicht offengelegt. Keine gerichtliche Feststellung einer Manipulation.
+- id: SRC-DE-BARCH-KAUKA-RECHERCHELEITFADEN
+  title: Soldaten als Schriftsteller – Rolf Kauka
+  institution: Bundesarchiv
+  date: null
+  type: institutional_biography
+  primary: false
+  tier: B
+  url: https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/soldaten-als-schriftsteller/
+  accessed: '2026-11-26'
+  locator: Abschnitt Rolf Kauka, PERS 6/150244
+  notes: Sekundäre biografische Einordnung; Personalakte ist militärisch, nicht als Informantenakte ausgewiesen.
+- id: SRC-DE-SPIONAGEMUSEUM-KAUKA-2022
+  title: 'Rückblick: Der Fürst der Füchse – Das abenteuerliche Leben des Rolf Kauka'
+  institution: Deutsches Spionagemuseum
+  date: '2022-09-22'
+  type: secondary_event_report
+  primary: false
+  tier: B
+  url: https://www.deutsches-spionagemuseum.de/2022/09/22/rueckblick-der-fuerst-der-fuechse-das-abenteuerliche-leben-des-rolf-kauka
+  accessed: '2026-11-26'
+  locator: Comics und Ideologie
+  notes: Bericht über Hechelhammers Forschung; keine Originalauftrags- oder Zahlungsunterlagen.
+- id: SRC-DE-BVERWG-6VR121-2021
+  title: Beschluss 6 VR 1.21
+  institution: Bundesverwaltungsgericht
+  date: '2021-03-23'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/230321B6VR1.21.0
+  accessed: '2026-11-26'
+  locator: Tenor; Rn. 2–5, 9–14, 18–22
+  notes: BND-Angaben und prozessuale Würdigung unterscheiden; keine Feststellung eines Gegengeschäfts.
+- id: SRC-DE-BVERWG-10A224-2025
+  title: Urteil 10 A 2.24
+  institution: Bundesverwaltungsgericht
+  date: '2025-09-25'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/de/250925U10A2.24.0
+  accessed: '2026-11-26'
+  locator: Tenor Nr. 1–4; Leitsätze
+  notes: Auskunft über Verfahren, Kanzleien und Gesamtkosten; weitergehende Anträge teilweise abgewiesen.
+- id: SRC-DE-TSP-BND-MEDIEN-20251127
+  title: Vertrauliche Treffen in der Geheimdienstzentrale
+  institution: Der Tagesspiegel
+  date: '2025-11-27'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.tagesspiegel.de/politik/vertrauliche-treffen-in-der-geheimdienstzentrale-offentlich-rechtliche-medien-haben-den-besten-draht-zum-bundesnachrichtendienst-14942366.html
+  accessed: '2026-11-26'
+  locator: Absätze zu BND-Antwort und Teilnehmern
+  notes: Bericht über Behördenantwort, keine Originalantwort eingesehen; Zählung nicht mit individuellen Medienvertretern gleichsetzen.
+- id: SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216
+  title: Teure Abwehr gegen Recherchen der Presse
+  institution: Der Tagesspiegel
+  date: '2025-12-16'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.tagesspiegel.de/politik/teure-abwehr-gegen-recherchen-der-presse-so-viel-geld-gibt-der-bundesnachrichtendienst-fur-anwalte-aus-15052583.html
+  accessed: '2026-11-26'
+  locator: Absätze zu Kosten und Kanzleien
+  notes: Bericht über nach Urteil erteilte BND-Auskunft; Gesamtbetrag nicht allein Raue zuschreiben.
+- id: SRC-DE-BVERWG-BND-10A223-2023
+  title: BVerwG 10 A 2.23, Urteil vom 09.11.2023
+  institution: Bundesverwaltungsgericht
+  date: '2023-11-09'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/091123U10A2.23.0
+  accessed: '2026-11-26'
+  locator: 'Tenor, Sachverhalt: bereits erteilte gemeinsame Auskunft zu den fünf häufigsten Medien 2019/2020'
+  notes: Gericht verpflichtet zur jahresweisen Aufschlüsselung; Namen hier nicht veröffentlicht.
+- id: SRC-DE-TSP-BND-MEDIEN-20231110
+  title: Welche Medien informiert der BND? Der Geheimdienst hat ein Geheimnis weniger
+  institution: Der Tagesspiegel
+  date: '2023-11-10'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.tagesspiegel.de/politik/welche-medien-informiert-der-bnd-der-geheimdienst-hat-ein-geheimnis-weniger-10759756.html
+  accessed: '2026-11-26'
+  locator: Absatz zur bereits erteilten Auskunft des BND
+  notes: Bericht des klagenden Mediums nennt fünf Medien für beide Jahre zusammen; ursprüngliche Behördenantwort nicht eingesehen.
+
 - id: SRC-DE-BT-NSU-219268-2026
   title: "Stand laufender Ermittlungen im NSU-Komplex, BT-Drs. 21/9268"
   institution: "Deutscher Bundestag / Bundesregierung"

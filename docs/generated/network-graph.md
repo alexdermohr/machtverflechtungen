@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**708 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**752 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -8,7 +8,7 @@ Diese Ausschnitte zeigen nur die unmittelbar dokumentierten Beziehungen des gew�
 
 - [Atlantik-Brücke](network-focus-atlantik-bruecke.md) — 49 direkte Beziehungen
 - [Bilderberg Meetings](network-focus-bilderberg.md) — 10 direkte Beziehungen
-- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 6 direkte Beziehungen
+- [Organisation Gehlen](network-focus-organisation-gehlen.md) — 7 direkte Beziehungen
 - [Bund Deutscher Jugend](network-focus-bdj.md) — 6 direkte Beziehungen
 - [BAFISUD](network-focus-bafisud.md) — 5 direkte Beziehungen
 - [BIZ / BIS](network-focus-biz.md) — 7 direkte Beziehungen
@@ -1208,6 +1208,74 @@ flowchart LR
     N_PRG_GQ_MPTF_GNQ00 -->|"8.190.430 USD Bruttoübertragungen, 4.560.042 USD Rückzahlungen an Fonds, netto 3.630.388 USD bis 31.12.2025; gemeldete Ausgaben 3.630.387 USD."| N_ORG_INT_WHO
     N_ORG_US_DOJ -->|"Terms of Reference August 2021 und Revision Dezember 2025: DOJ formales Mitglied des Lenkungsausschusses des Impf-Fensters; EG-Regierungsvertreter beratend ohne Stimmrecht. Keine Aussage zur tatsächlichen Besetzung oder zu einzelnen Beschlüssen."| N_PRG_GQ_MPTF_GNQ00
     N_ORG_INT_UNDP -->|"UNDP MPTF Office verwaltet Fonds, erhält Einzahlungen und überträgt Mittel nach Ausschussbeschlüssen; 1% Verwaltungsgebühr. Von UNDP als programmumsetzender Organisation unterscheiden."| N_PRG_GQ_MPTF_GNQ00
+    N_ORG_DE_INSM["Initiative Neue Soziale Marktwirtschaft (INSM)"]
+    N_ORG_DE_HS_2002["H.+S. Unternehmensberatung (München, 2002)"]
+    N_ORG_DE_INSM -->|"DRPR dokumentiert Beauftragung der H.+S. mit bezahlten Marienhof-Themenplatzierungen 2002; laut INSM nach wenigen Monaten beendet."| N_ORG_DE_HS_2002
+    N_ORG_DE_HS_2002 -->|"H.+S. legte der INSM vor der Platzierung Themenvorschläge und Treatments zur Abstimmung vor; kein Nachweis der Mitwirkung anderer Netzwerke."| N_ORG_DE_INSM
+    N_ORG_DE_KW_2002["Kultur + Werbung (K+W, 2002–2005)"]
+    N_ORG_DE_HS_2002 -->|"DRPR nennt K+W als Schwesterfirma der H.+S.; genaue Eigentumsquoten nicht ausgewiesen."| N_ORG_DE_KW_2002
+    N_ORG_DE_BAVARIA_SONOR_2005["Bavaria Sonor (Placement-Abwicklung 2002–2005)"]
+    N_ORG_DE_KW_2002 -->|"Laut DRPR leitete H.+S. über K+W insgesamt 58.670,14 EUR an Bavaria Sonor weiter; ein einziger berichteter Gesamtbetrag, keine unabhängigen Kontoauszüge."| N_ORG_DE_BAVARIA_SONOR_2005
+    N_PRG_DE_MARIENHOF_2002["ARD-Serie Marienhof (Placement-Untersuchung 2002–2005)"]
+    N_ORG_DE_INSM -->|"INSM räumte acht bezahlte Themenplatzierungen 2002 ein, Clearingstelle nennt sieben. DRPR stellt unzulässige verdeckte Werbung fest; keine politische Wirkungsmessung."| N_PRG_DE_MARIENHOF_2002
+    N_ORG_DE_DRPR -->|"Öffentliche Rüge vom 09.05.2006; DRPR würdigt zugleich Aufklärungskooperation und Distanzierung. Keine strafgerichtliche Verurteilung."| N_ORG_DE_INSM
+    N_ORG_DE_BAVARIA_FILM_2005["Bavaria Film GmbH (2005)"]
+    N_ORG_DE_BAVARIA_FILM_2005 -->|"Bavaria beschreibt ARD-Auftragsproduktionen und vertragliche Trennung von Werbung und Programm; keine pauschale Kenntnis der ARD von Placements."| N_ORG_DE_ARD
+    N_ORG_DE_BAVARIA_FILM_2005 -->|"Bavaria veröffentlichte Sonderprüfbefunde: 19 Verträge, 117 realisierte und 76 nicht realisierte Placements bei Marienhof. Alle Auftraggeber, nicht allein INSM."| N_PRG_DE_MARIENHOF_2002
+    N_ORG_DE_BAVARIA_SONOR_2005 -->|"Bavaria-Prüfauszug nennt Sonor als Abwicklungsstelle von Placement-Verträgen und Rechnungen. Prüfung beschreibt nicht erkennbare Leistungsart im Buchungssystem; kein Strafurteil."| N_PRG_DE_MARIENHOF_2002
+    N_ORG_DE_BR["Bayerischer Rundfunk"]
+    N_ORG_DE_BR -->|"Bavaria nennt BR-Vorabendredaktion als abnehmende Redaktion. Prüfauszug entlastet sie hinsichtlich Erkennbarkeit integrierter Themen; keine bewusste Kollaboration festgestellt."| N_PRG_DE_MARIENHOF_2002
+    N_ORG_DE_WDR["Westdeutscher Rundfunk"]
+    N_ORG_DE_WDR -->|"Bavaria-Erklärung vom 01.07.2005 nennt WDR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar."| N_ORG_DE_BAVARIA_FILM_2005
+    N_ORG_DE_MDR["Mitteldeutscher Rundfunk"]
+    N_ORG_DE_MDR -->|"Bavaria-Erklärung vom 01.07.2005 nennt MDR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar."| N_ORG_DE_BAVARIA_FILM_2005
+    N_ORG_DE_SWR["Südwestrundfunk"]
+    N_ORG_DE_SWR -->|"Bavaria-Erklärung vom 01.07.2005 nennt SWR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar."| N_ORG_DE_BAVARIA_FILM_2005
+    N_ORG_DE_BR -->|"Bavaria-Erklärung vom 01.07.2005 nennt BR unter den Gesellschaftern; genaue Quote und Kenntnis von einzelnen Placements daraus nicht ableitbar."| N_ORG_DE_BAVARIA_FILM_2005
+    N_ORG_DE_SWR -->|"SWR-Revision untersuchte laut Bavaria 2005 die Schnittstelle von abnehmenden Redaktionen und Auftragsproduktion; veröffentlichter Prüfauszug, nicht vollständige Akte."| N_ORG_DE_BAVARIA_FILM_2005
+    N_PER_DE_GERHARD_WESSEL["Gerhard Wessel"]
+    N_PER_DE_ROLF_KAUKA["Rolf Kauka"]
+    N_PER_DE_GERHARD_WESSEL -->|"BND bestätigte enges persönliches Verhältnis zwischen Wessel und Kauka; im Beschluss 6 A 9.19 amtlich protokolliert. Keine festgestellte Agentenrolle."| N_PER_DE_ROLF_KAUKA
+    N_PER_DE_GERHARD_WESSEL -->|"In 6 A 9.19 als späterer BND-Präsident bezeichnet; keine Datierung seiner Amtszeit aus diesem Beschluss."| N_ORG_DE_BND
+    N_PER_DE_GERHARD_WESSEL -->|"Spionagemuseum berichtet unter Bezug auf Hechelhammer über durch Wessels Kontakte vermittelte Ausbildungsfilmaufträge Mitte der 1950er Jahre. Originalverträge und Beträge fehlen."| N_PER_DE_ROLF_KAUKA
+    N_ORG_DE_BUNDESWEHR -->|"Bericht des Spionagemuseums über Ausbildungsfilmaufträge an Kauka Mitte der 1950er Jahre. Kein unabhängig belegter Geldfluss und keine Aussage zu Comicfinanzierung."| N_PER_DE_ROLF_KAUKA
+    N_PER_DE_ROLF_KAUKA -->|"Bundesarchiv nennt eine mögliche Informantentätigkeit ab 1950 unter der Bezeichnung BND; wegen der institutionellen Chronologie ist die Zuordnung zur Vorgängerorganisation eine Recherchehypothese. Keine eingesehene Quellenverpflichtung."| N_ORG_DE_ORGANISATION_GEHLEN
+    N_DOC_DE_KAUKA_BND_AKTENKOMPLEX["BND-Aktenkomplex Kauka-Verlag"]
+    N_ORG_DE_BND -->|"Bescheid vom 01.04.2019 gewährte Teilzugang mit Schwärzungen, lehnte weiteren Zugang ab; Urteil 10 A 1.24, Rn. 2."| N_DOC_DE_KAUKA_BND_AKTENKOMPLEX
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Sperrerklärung 28.09.2021 im Archivverfahren, bestätigt am 18.02.2022; Fachsenat bestätigte sie 2024. Keine Feststellung rechtswidriger Vertuschung."| N_DOC_DE_KAUKA_BND_AKTENKOMPLEX
+    N_ORG_DE_BVERWG["Bundesverwaltungsgericht"]
+    N_ORG_DE_BVERWG -->|"Urteil vom 30.04.2025: teilweise Erledigung, im Übrigen Klageabweisung. Geheimhaltungsgründe gerichtlich geprüft, keine öffentliche Feststellung einzelner Zahlungen oder Agentenverpflichtungen."| N_DOC_DE_KAUKA_BND_AKTENKOMPLEX
+    N_PRG_DE_BND_UKRAINE_MEDIENKONTAKTE_2024["BND-Einzelhintergrundgespräche zur Ukraine 2024"]
+    N_ORG_DE_BND -->|"Am 25.09.2024 mitgeteilte Zahl von acht Einzelhintergrundgesprächen seit Jahresanfang zur militärischen Situation in der Ukraine. Keine Benennung der Teilnehmer oder Feststellung ihrer Berichterstattungswirkung."| N_PRG_DE_BND_UKRAINE_MEDIENKONTAKTE_2024
+    N_ORG_DE_BVERWG -->|"Urteil 25.09.2025 weist Klage ab; Recherchegeheimnis schützt betroffene Medien. Gericht bestätigt keine behauptete politische Steuerungsabsicht."| N_PRG_DE_BND_UKRAINE_MEDIENKONTAKTE_2024
+    N_ORG_DE_VERLAG_1BVR257519["Nicht namentlich verifizierter Verlag (1 BvR 2575/19)"]
+    N_ORG_DE_VERLAG_1BVR257519 -->|"Nach BND-Angaben übermittelte der Beschwerdeführer am 14.11.2019 die Verfassungsbeschwerde vertraulich; weitergehende Kooperation vom BND bestritten."| N_ORG_DE_BND
+    N_ORG_DE_BVERFG["Bundesverfassungsgericht"]
+    N_ORG_DE_VERLAG_1BVR257519 -->|"Beschwerde 1 BvR 2575/19 gegen Transparenzurteil 6 A 7.18; am 14.11.2019 nicht zur Entscheidung angenommen laut BVerwG."| N_ORG_DE_BVERFG
+    N_ORG_DE_BVERWG -->|"Einstweilige Anordnung zur Auskunft über Beschwerdeführer, Anwälte sowie Einladung bzw. Teilnahme an Hintergrundgesprächen; kein Nachweis eines Gegengeschäfts."| N_ORG_DE_BND
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben vier Termine; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_ARD
+    N_ORG_DE_NDR["Norddeutscher Rundfunk"]
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben vier Termine; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_NDR
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_ZDF
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_SWR
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_BR
+    N_ORG_DE_DW["Deutsche Welle"]
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 27.11.2025 über BND-Angaben als Teilnehmermedium benannt; kein Nachweis einer konkreten redaktionellen Weisung."| N_ORG_DE_DW
+    N_ORG_DE_BND -->|"Tagesspiegel berichtet am 27.11.2025 über eigene Teilnahme an BND-Gesprächen; konkretes Datum nicht belegt; von Gruppeneinladungen unterscheiden."| N_ORG_DE_TAGESSPIEGEL
+    N_PRG_DE_BND_EXTERNE_PRESSERECHTSMANDATE_2013_2025["Externe BND-Mandate in Presserechtsverfahren seit 2013"]
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 16.12.2025 knapp 200.000 EUR für externe Anwälte in elf Verfahren, darunter ein Unterlassungsverfahren; drei Kanzleien. Keine Einzelrechnungen eingesehen."| N_PRG_DE_BND_EXTERNE_PRESSERECHTSMANDATE_2013_2025
+    N_ORG_DE_RAUE["Raue (Berlin)"]
+    N_ORG_DE_BND -->|"Laut Tagesspiegel-Bericht vom 16.12.2025 meist mandatierte Kanzlei in elf Verfahren; genaue Mandatsdauer und eigener Kostenanteil nicht bekannt."| N_ORG_DE_RAUE
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Laut Tagesspiegel-Bericht vom 16.12.2025 regelmäßig bei presserechtlichen Auseinandersetzungen mandatiert; keine Einzelverträge, Laufzeit oder Beträge belegt."| N_ORG_DE_RAUE
+    N_ORG_DE_BVERWG -->|"Urteil 10 A 2.24 verpflichtet zur Auskunft über Verfahren, Kanzleien und Summen; weitere Teile der Klage abgewiesen."| N_PRG_DE_BND_EXTERNE_PRESSERECHTSMANDATE_2013_2025
+    N_ORG_DE_BILD["Bild"]
+    N_ORG_DE_BND -->|"Bild laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_BILD
+    N_ORG_DE_DER_SPIEGEL["Der Spiegel"]
+    N_ORG_DE_BND -->|"Spiegel laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DER_SPIEGEL
+    N_ORG_DE_BND -->|"NDR laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_NDR
+    N_ORG_DE_DIE_WELT["Die Welt"]
+    N_ORG_DE_BND -->|"Welt laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_WELT
+    N_ORG_DE_BND -->|"Zeit laut Tagesspiegel-Bericht vom 10.11.2023 unter den fünf Medien mit den meisten Einzelhintergrundgesprächen 2019/2020 zusammen; keine Einzelzahl, Rangposition oder redaktionelle Weisung belegt."| N_ORG_DE_DIE_ZEIT
     N_ORG_DE_GBA_NSU_2026["Generalbundesanwalt beim Bundesgerichtshof (NSU, 2026)"]
     N_PRG_DE_HH_NSU_FORSCHUNG["Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"]
     N_ORG_DE_GBA_NSU_2026 -->|"Bewilligte die beantragte Akteneinsicht bis März 2026 nicht; am 23.11.2026 laut Veit Vergleichsverhandlungen"| N_PRG_DE_HH_NSU_FORSCHUNG
@@ -1215,7 +1283,6 @@ flowchart LR
     N_PER_DE_LOTHAR_LINGEN["Lothar Lingen (dienstlicher Deckname)"]
     N_ORG_DE_STA_KOELN -->|"Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"| N_PER_DE_LOTHAR_LINGEN
     N_ORG_DE_BFV -->|"Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"| N_PER_DE_LOTHAR_LINGEN
-    N_ORG_DE_BVERWG["Bundesverwaltungsgericht"]
     N_ORG_DE_BVERWG -->|"Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"| N_ORG_DE_BFV
     N_PER_DE_LOTHAR_LINGEN -->|"Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"| N_ORG_DE_TLFV
     N_ORG_DE_BFV -->|"Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"| N_CASE_DE_NSU_AKTEN_2011

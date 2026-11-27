@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**507 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**520 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -757,6 +757,21 @@ Fundstelle: Bank of America Corporation – General; Namens-/Fusionsgeschichte 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2005">
+
+<a id="src-de-bavaria-placement-2005"></a>
+### Bavaria Film GmbH
+
+**[Presseerklärung des Aufsichtsrats und der Gesellschafterversammlung der Bavaria Film GmbH vom 01.07.2005](https://www.presseportal.de/pm/2893/697471)**
+
+Bavaria Film GmbH · 2005-07-01 · Stufe **A** · Primärquelle · `SRC-DE-BAVARIA-PLACEMENT-2005`
+
+[Seite öffnen](https://www.presseportal.de/pm/2893/697471)
+
+Fundstelle: Anlage 1, Ziff. 1–6; Maßnahmenkatalog Ziff. 2–4
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1953">
 
 <a id="src-de-bymr-td-19530113"></a>
@@ -1442,6 +1457,96 @@ Bundesverwaltungsgericht · 2020-10-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/131020U2C41.18.0)
 
 Fundstelle: Tenor; Rn. 30–31, 47–52, 61
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bverwg-kauka-6a919-2021"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 6 A 9.19, Beschluss vom 13.01.2021](https://www.bverwg.de/de/130121B6A9.19.0)**
+
+Bundesverwaltungsgericht · 2021-01-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-KAUKA-6A919-2021`
+
+[Seite öffnen](https://www.bverwg.de/de/130121B6A9.19.0)
+
+Fundstelle: Rn. 1–2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bverwg-6vr121-2021"></a>
+### Bundesverwaltungsgericht
+
+**[Beschluss 6 VR 1.21](https://www.bverwg.de/230321B6VR1.21.0)**
+
+Bundesverwaltungsgericht · 2021-03-23 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-6VR121-2021`
+
+[Seite öffnen](https://www.bverwg.de/230321B6VR1.21.0)
+
+Fundstelle: Tenor; Rn. 2–5, 9–14, 18–22
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-bverwg-bnd-10a223-2023"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 2.23, Urteil vom 09.11.2023](https://www.bverwg.de/091123U10A2.23.0)**
+
+Bundesverwaltungsgericht · 2023-11-09 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-BND-10A223-2023`
+
+[Seite öffnen](https://www.bverwg.de/091123U10A2.23.0)
+
+Fundstelle: Tenor, Sachverhalt: bereits erteilte gemeinsame Auskunft zu den fünf häufigsten Medien 2019/2020
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-kauka-10a124-2025"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 1.24, Urteil vom 30.04.2025](https://www.bverwg.de/300425U10A1.24.0)**
+
+Bundesverwaltungsgericht · 2025-04-30 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-KAUKA-10A124-2025`
+
+[Seite öffnen](https://www.bverwg.de/300425U10A1.24.0)
+
+Fundstelle: Tenor, Rn. 1–4 und Pressemitteilung 34/2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-bnd-10a324-2025"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG 10 A 3.24, Urteil vom 25.09.2025](https://www.bverwg.de/250925U10A3.24.0)**
+
+Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-BND-10A324-2025`
+
+[Seite öffnen](https://www.bverwg.de/250925U10A3.24.0)
+
+Fundstelle: Tenor, Rn. 15–16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bverwg-10a224-2025"></a>
+### Bundesverwaltungsgericht
+
+**[Urteil 10 A 2.24](https://www.bverwg.de/de/250925U10A2.24.0)**
+
+Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-10A224-2025`
+
+[Seite öffnen](https://www.bverwg.de/de/250925U10A2.24.0)
+
+Fundstelle: Tenor Nr. 1–4; Leitsätze
 
 </article>
 
@@ -2694,6 +2799,21 @@ Deutscher Bundestag, Parlamentsnachrichten · 2013-04-23 · Stufe **A** · Prim�
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416)
 
 Fundstelle: Absätze zur Anhörung Haeberers, VP 562 und Weitergabefrage
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
+
+<a id="src-de-drpr-insm-2006"></a>
+### Deutscher Rat für Public Relations
+
+**[Ratsrüge 06/2006 – Schleichwerbung in der ARD](https://drpr-online.de/2006/05/09/06-2006-schleichwerbung-in-der-ard/)**
+
+Deutscher Rat für Public Relations · 2006-05-09 · Stufe **A** · Primärquelle · `SRC-DE-DRPR-INSM-2006`
+
+[Seite öffnen](https://drpr-online.de/2006/05/09/06-2006-schleichwerbung-in-der-ard/)
+
+Fundstelle: Vorfall; Urteil; Urteilsbegründung
 
 </article>
 
@@ -6509,6 +6629,21 @@ Fundstelle: Gedruckte S. 10–11 / Original-PDF-Seiten 13–14 (1-basiert): bran
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-de-barch-kauka-rechercheleitfaden"></a>
+### Bundesarchiv
+
+**[Soldaten als Schriftsteller – Rolf Kauka](https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/soldaten-als-schriftsteller/)**
+
+Bundesarchiv · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARCH-KAUKA-RECHERCHELEITFADEN`
+
+[Seite öffnen](https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/soldaten-als-schriftsteller/)
+
+Fundstelle: Abschnitt Rolf Kauka, PERS 6/150244
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
 
 <a id="src-de-barch-oktoberfest-2025"></a>
@@ -6732,6 +6867,51 @@ Fundstelle: Interview 24/1971: Friedhof Buckow/Waffen; Aussagegenehmigung 2.–4
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-de-tsp-bnd-medien-20231110"></a>
+### Der Tagesspiegel
+
+**[Welche Medien informiert der BND? Der Geheimdienst hat ein Geheimnis weniger](https://www.tagesspiegel.de/politik/welche-medien-informiert-der-bnd-der-geheimdienst-hat-ein-geheimnis-weniger-10759756.html)**
+
+Der Tagesspiegel · 2023-11-10 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-MEDIEN-20231110`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/welche-medien-informiert-der-bnd-der-geheimdienst-hat-ein-geheimnis-weniger-10759756.html)
+
+Fundstelle: Absatz zur bereits erteilten Auskunft des BND
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-tsp-bnd-medien-20251127"></a>
+### Der Tagesspiegel
+
+**[Vertrauliche Treffen in der Geheimdienstzentrale](https://www.tagesspiegel.de/politik/vertrauliche-treffen-in-der-geheimdienstzentrale-offentlich-rechtliche-medien-haben-den-besten-draht-zum-bundesnachrichtendienst-14942366.html)**
+
+Der Tagesspiegel · 2025-11-27 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-MEDIEN-20251127`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/vertrauliche-treffen-in-der-geheimdienstzentrale-offentlich-rechtliche-medien-haben-den-besten-draht-zum-bundesnachrichtendienst-14942366.html)
+
+Fundstelle: Absätze zu BND-Antwort und Teilnehmern
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-tsp-bnd-anwaltskosten-20251216"></a>
+### Der Tagesspiegel
+
+**[Teure Abwehr gegen Recherchen der Presse](https://www.tagesspiegel.de/politik/teure-abwehr-gegen-recherchen-der-presse-so-viel-geld-gibt-der-bundesnachrichtendienst-fur-anwalte-aus-15052583.html)**
+
+Der Tagesspiegel · 2025-12-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TSP-BND-ANWALTSKOSTEN-20251216`
+
+[Seite öffnen](https://www.tagesspiegel.de/politik/teure-abwehr-gegen-recherchen-der-presse-so-viel-geld-gibt-der-bundesnachrichtendienst-fur-anwalte-aus-15052583.html)
+
+Fundstelle: Absätze zu Kosten und Kanzleien
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2015">
 
 <a id="src-de-bt-uhrlau-career-2015"></a>
@@ -6774,6 +6954,21 @@ Deutscher Bundestag, Parlamentsnachrichten (hib) · 2017-01-20 · Stufe **D** ·
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_01/489366-489366)
 
 Fundstelle: hib 33/2017, öffentliche Ausschusssitzung mit Jörg Milbradt: Bericht zu Quelle, NPD-Auftrag und SMS vom 25.08.1998
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2022">
+
+<a id="src-de-spionagemuseum-kauka-2022"></a>
+### Deutsches Spionagemuseum
+
+**[Rückblick: Der Fürst der Füchse – Das abenteuerliche Leben des Rolf Kauka](https://www.deutsches-spionagemuseum.de/2022/09/22/rueckblick-der-fuerst-der-fuechse-das-abenteuerliche-leben-des-rolf-kauka)**
+
+Deutsches Spionagemuseum · 2022-09-22 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-SPIONAGEMUSEUM-KAUKA-2022`
+
+[Seite öffnen](https://www.deutsches-spionagemuseum.de/2022/09/22/rueckblick-der-fuerst-der-fuechse-das-abenteuerliche-leben-des-rolf-kauka)
+
+Fundstelle: Comics und Ideologie
 
 </article>
 
