@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**640 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**662 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -89,11 +89,13 @@
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
+| Klaus-Dieter Fritsche | person | `PER-DE-KLAUS-DIETER-FRITSCHE` | DE | [1](network.md#rel-de-nsu-fritsche-bmi-2003-001) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
 | Kurt Weiß (Winterstein) | person | `PER-DE-KURT-WEISS-BND` | DE | [5](network.md#rel-de-bnd-dynamit-009) |
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
+| Lothar Lingen (dienstlicher Deckname) | person | `PER-DE-LOTHAR-LINGEN` | DE | [3](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
@@ -143,6 +145,7 @@
 | Thomas G. Corcoran (United-Fruit-Verbindung 1954) | person | `PER-US-THOMAS-CORCORAN-UFCO-1954` | US | [2](network.md#rel-us-corcoran-ufco-liaison-1954) |
 | Thomas Rabe | person | `PER-DE-THOMAS-RABE` | DE | [1](network.md#rel-de-tmn-040) |
 | Thomas Roth | person | `PER-DE-THOMAS-ROTH` | DE | [1](network.md#rel-de-tmn-048) |
+| Thomas Starke (VP 562) | person | `PER-DE-THOMAS-STARKE` | DE | [2](network.md#rel-de-nsu-lka-vp562-001) |
 | Tina Hassel | person | `PER-DE-TINA-HASSEL` | DE | [2](network.md#rel-de-tmn-005) |
 | Tino Brandt | person | `PER-DE-TINO-BRANDT` | DE | [2](network.md#rel-de-ths-001) |
 | Tom Buhrow | person | `PER-DE-TOM-BUHROW` | DE | [1](network.md#rel-de-tmn-009) |
@@ -171,7 +174,9 @@
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
+| 17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012) | document | `DOC-DE-NSU-MAD-AKTEN-2012` | DE | [1](network.md#rel-de-nsu-mad-akten-2012-001) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
+| 57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012) | document | `DOC-DE-NSU-BERLIN-AKTEN-2012` | DE | [1](network.md#rel-de-nsu-berlin-lfv-akten-2012-001) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | AB Svensk Exportkredit (SEK, SIVAM) | historical_export_credit_institution | `ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997` | SE | [1](network.md#rel-ws-sek-cayman) |
 | Abayak S.A. (1998–2004) | company | `ORG-GQ-ABAYAK-SA` | GQ | [5](network.md#rel-riggs-followup-046) |
@@ -257,7 +262,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [10](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [19](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
@@ -268,8 +273,9 @@
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium der Verteidigung (1966) | federal_ministry | `ORG-DE-BMVG-1966` | DE | [3](network.md#rel-de-bnd-dynamit-001) |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
+| Bundesministerium der Verteidigung (NSU, 2012) | government_ministry | `ORG-DE-BMVG-2012` | DE | [1](network.md#rel-de-nsu-bmvg-mad-kenntnis-2012-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
-| Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
+| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [4](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
@@ -278,7 +284,7 @@
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
-| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
+| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [5](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
@@ -390,7 +396,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [8](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [14](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -402,6 +408,7 @@
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | H.+S. Unternehmensberatung (München, 2002) | historical_company | `ORG-DE-HS-2002` | DE | [3](network.md#rel-de-marienhof-001) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
+| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
@@ -416,6 +423,7 @@
 | IG Chemie Basel / Interhandel (historische Schweizer Holding) | financial_holding | `ORG-CH-IG-CHEMIE-INTERHANDEL` | CH | [4](network.md#rel-ch-igf-006) |
 | IGH-Urteil 163 zum diplomatischen Status (11.12.2020) | historical_court_decision_document | `DOC-INT-ICJ-163-2020` | NL, FR, GQ | [2](network.md#rel-riggs-post-2004-045) |
 | IN Groupe | state_owned_company | `ORG-FR-IN-GROUPE` | FR | [1](network.md#rel-mauss-pmt-032) |
+| In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger | document | `DOC-DE-NSU-ST-DATENTRAEGER-2014` | DE | [2](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
 | Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
 | Initiative Neue Soziale Marktwirtschaft (INSM) | organization | `ORG-DE-INSM` | DE | [4](network.md#rel-de-marienhof-001) |
 | Institute for Defense Analyses | research_institute | `ORG-US-IDA` | US | [1](network.md#rel-ulf-woolsey-ida) |
@@ -426,6 +434,7 @@
 | Internationaler Gerichtshof (IGH) | court | `ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE` | NL | [1](network.md#rel-riggs-post-2004-045) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` | VG | [1](network.md#rel-riggs-followup-044) |
+| Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014) | document | `DOC-DE-NSU-WERNER-ASSERVATE-2014` | DE | [1](network.md#rel-de-nsu-gba-werner-asservate-2014-001) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Kalunga Company S.A. | company | `ORG-GQ-KALUNGA-COMPANY-SA` | GQ | [2](network.md#rel-riggs-followup-039) |
@@ -439,9 +448,10 @@
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
-| Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [3](network.md#rel-de-amri-011) |
+| Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
 | Landeskriminalamt Nordrhein-Westfalen | police_authority | `ORG-DE-LKA-NRW` | DE | [4](network.md#rel-de-amri-001) |
+| Landeskriminalamt Sachsen-Anhalt | police_authority | `ORG-DE-ST-LKA` | DE | [1](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
 | Landgericht Bochum | court | `ORG-DE-LG-BOCHUM` | DE | [3](network.md#rel-mauss-finanz-014) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
@@ -459,6 +469,8 @@
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Metromed (historisch, 1996) | company | `ORG-CO-METROMED-1996` | CO | [1](network.md#rel-mauss-pmt-002) |
 | Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
+| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [4](network.md#rel-de-nsu-mad-bfv-1999-001) |
+| Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -474,7 +486,7 @@
 | National Security Council (USA, 1953–1954) | historical_federal_security_policy_council | `ORG-US-NSC-1953` | US | [1](network.md#rel-us-nsc-doj-ufco-antitrust-delay-1953) |
 | National Socialist Movement (britische C18-Abspaltung) | extremist_network | `ORG-GB-NSM-1990S` | GB | [1](network.md#rel-de-ukc18-002) |
 | National Venture Capital Association (NVCA, 1973) | industry_association | `ORG-US-NVCA-1973` | US | [1](network.md#rel-us-wp-nvca-1973-001) |
-| Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | – |
+| Nationalsozialistischer Untergrund (NSU) | extremist_network | `ORG-DE-NSU` | DE | [1](network.md#rel-de-nsu-gba-pruefung-1999-001) |
 | Nederlandsche Middenstandsbank N.V. (NMB) | commercial_bank | `ORG-NL-NEDERLANDSCHE-MIDDENSTANDSBANK` | NL | [2](network.md#rel-int-interalpha-1979-002) |
 | Netzwerk Recherche (Konferenzveranstalter 2005) | professional_journalism_association | `ORG-DE-NETZWERK-RECHERCHE-2005` | DE | [1](network.md#rel-de-nr-forum5-organizer-2005-001) |
 | Netzwerk Recherche Forum 5: Zwischen Wahrheit und Abhängigkeit (04.06.2005) | public_conference_panel | `PRG-DE-NR-INTELLIGENCE-MEDIA-PANEL-2005` | DE | [3](network.md#rel-de-nr-forum5-organizer-2005-001) |
@@ -489,6 +501,7 @@
 | Oberfinanzdirektion Koblenz | tax_authority | `ORG-DE-OFD-KOBLENZ` | DE | [1](network.md#rel-mauss-finanz-012) |
 | Oberlandesgericht Frankfurt am Main | court | `ORG-DE-OLG-FRANKFURT` | DE | [1](network.md#rel-raf-schmuecker-nonne-014) |
 | Oberlandesgericht Hamm | court | `ORG-DE-OLG-HAMM` | DE | [1](network.md#rel-mauss-finanz-016) |
+| Oberverwaltungsgericht Nordrhein-Westfalen | court | `ORG-DE-OVG-NRW` | DE | [1](network.md#rel-de-nsu-ovg-bfv-rueckumsetzung-2013-001) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
@@ -556,6 +569,9 @@
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
 | Staatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-STA-BERLIN` | DE | [3](network.md#rel-raf-schmuecker-nonne-004) |
+| Staatsanwaltschaft Gera | prosecution_authority | `ORG-DE-STA-GERA` | DE | [2](network.md#rel-de-nsu-gera-tlfv-fragen-001) |
+| Staatsanwaltschaft Karlsruhe | prosecution_authority | `ORG-DE-STA-KARLSRUHE` | DE | [1](network.md#rel-de-nsu-sta-gba-2016-001) |
+| Staatsanwaltschaft Köln | prosecution_authority | `ORG-DE-STA-KOELN` | DE | [1](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Staatsanwaltschaft Wiesbaden | prosecution_authority | `ORG-DE-STA-WIESBADEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-015) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
@@ -580,8 +596,10 @@
 | The Washington Post Company (historischer Rechtsträger) | media_company | `ORG-US-WASHINGTON-POST-COMPANY` | US | [3](network.md#rel-us-bbf-001) |
 | Thyssen-Konzern (historisch, 1991–1993) | historical_industrial_concern | `ORG-DE-THYSSEN-1991` | DE | [1](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | ThyssenKrupp AG | company | `ORG-DE-THYSSENKRUPP` | DE | [14](network.md#rel-ulf-tk-trip-0) |
+| Thüringer Amt für Verfassungsschutz (ab 2015) | intelligence_service | `ORG-DE-TH-AFV-2015` | DE | [2](network.md#rel-de-th-afv-tlka-pflicht-2014-001) |
 | Thüringer Heimatschutz | extremist_network | `ORG-DE-THS` | DE | [1](network.md#rel-de-ths-002) |
-| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
+| Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [8](network.md#rel-de-ths-001) |
+| Thüringer Landeskriminalamt | police_authority | `ORG-DE-TLKA` | DE | [3](network.md#rel-de-nsu-tlfv-tlka-info-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Transacta Valores S.A. | company | `ORG-PA-TRANSACTA-VALORES` | PA | [2](network.md#rel-mauss-offshore-014) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
@@ -623,9 +641,12 @@
 | Verband der Sachversicherer (historisch) | insurance_trade_association | `ORG-DE-SACHVERSICHERER-VERBAND` | DE | [2](network.md#rel-mauss-finanz-002) |
 | Vereinte Nationen (Zuwendungsvereinbarung 2021) | international_organization | `ORG-INT-UNITED-NATIONS-2021` |  | [1](network.md#rel-riggs-post-2004-049) |
 | Verfassungsgericht des Landes Brandenburg | constitutional_court | `ORG-DE-VERFG-BRANDENBURG` | DE | [1](network.md#rel-de-bb-verfg-2004-003) |
-| Verfassungsschutz Berlin | intelligence_service | `ORG-DE-LFV-BERLIN` | DE | [1](network.md#rel-de-amri-010) |
+| Verfassungsschutz Berlin | intelligence_service | `ORG-DE-LFV-BERLIN` | DE | [2](network.md#rel-de-amri-010) |
 | Verfassungsschutz Mecklenburg-Vorpommern | intelligence_service | `ORG-DE-LFV-MV` | DE | [2](network.md#rel-de-amri-009) |
 | Verfassungsschutz Nordrhein-Westfalen | intelligence_service | `ORG-DE-LFV-NRW` | DE | [2](network.md#rel-de-amri-004) |
+| Verfassungsschutzbehörde Sachsen-Anhalt | intelligence_service | `ORG-DE-ST-LFV` | DE | [1](network.md#rel-de-nsu-st-lfv-datentraeger-2014-001) |
+| Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012) | document | `DOC-DE-NSU-G10-ANLAGENORDNER-2012` | DE | [1](network.md#rel-de-nsu-bfv-g10-vernichtung-001) |
+| Verwaltungsgericht Düsseldorf | court | `ORG-DE-VG-DUESSELDORF` | DE | [1](network.md#rel-de-nsu-vgd-bfv-disziplinar-2015-001) |
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
@@ -636,6 +657,7 @@
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
+| Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode) | parliamentary_committee | `ORG-DE-BT-NSU-UA2-2015-2017` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Österreichische Botschaft Bogotá | government_agency | `ORG-AT-BOTSCHAFT-BOGOTA` | AT, CO | [1](network.md#rel-mauss-diplomatie-007) |
 
 ## Programme

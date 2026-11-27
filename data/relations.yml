@@ -8095,3 +8095,286 @@ relations:
     evidence_level: strong
     period:
       start: '1964'
+  - id: REL-DE-NSU-HH-GBA-2026-001
+    from: ORG-DE-GBA
+    to: PRG-DE-HH-NSU-FORSCHUNG
+    type: denied_records_access
+    label: "Beantragte Akteneinsicht bis März 2026 nicht bewilligt; am 23.11.2026 laut Veit Vergleichsverhandlungen; Beginn der Ablehnung und Ende des Konflikts nicht belegt"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-BEIRAT-20260330, SRC-DE-NDR-NSU-HH-20261107, SRC-DE-TAZ-NSU-HH-20261123, SRC-DE-BT-RA-NSU-20261014]
+
+  - id: REL-DE-NSU-LINGEN-STA-2018-001
+    from: ORG-DE-STA-KOELN
+    to: PER-DE-LOTHAR-LINGEN
+    type: conditional_proceedings_discontinuance
+    label: "Stellte Verfahren wegen hinreichenden Verdachts des Verwahrungsbruchs am 16.03.2018 vorläufig gegen 3.000 Euro ein"
+    period: {start: "2018-03-16"}
+    evidence_level: established
+    sources: [SRC-DE-NRW-NSU-17823-2018]
+
+  - id: REL-DE-NSU-LINGEN-BFV-2013-001
+    from: ORG-DE-BFV
+    to: PER-DE-LOTHAR-LINGEN
+    type: disciplinary_proceedings
+    label: "Führte Disziplinarverfahren mit 28 Befragten und 1.696 Seiten Aktenumfang"
+    period: {start: "2012-06-27", end: "2013-12-16"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1931301-2021]
+
+  - id: REL-DE-NSU-BVERWG-BFV-2020-001
+    from: ORG-DE-BVERWG
+    to: ORG-DE-BFV
+    type: affirmed_partial_press_disclosure
+    label: "Bestätigte 2020 teilweise Presseauskunftsanspruch zum Disziplinarverfahren Lingen"
+    period: {start: "2020-10-13"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-NSU-2C4118-2020]
+
+  - id: REL-DE-NSU-LINGEN-TLFV-2002-001
+    from: PER-DE-LOTHAR-LINGEN
+    to: ORG-DE-TLFV
+    type: signed_intelligence_report
+    label: "Unterzeichnete BfV-Meldung an TLfV mit Bezug auf die drei Untergetauchten (07.01.2002)"
+    period: {start: "2002-01-07"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-NSU-BFV-PARL-DATE-2012-001
+    from: ORG-DE-BFV
+    to: CASE-DE-NSU-AKTEN-2011
+    type: inaccurate_information_to_inquiry
+    label: "Laut Ausschussbericht zunächst falscher Vernichtungszeitpunkt berichtet; Korrektur am 27.06.2012"
+    period: {start: "2012", end: "2012-06-27"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-NSU-MAD-BFV-1999-001
+    from: ORG-DE-MAD
+    to: ORG-DE-BFV
+    type: transmitted_intelligence_report
+    label: "Übermittelte am 06.12.1999 Meldung mit Einschätzung einer Kontaktperson zum rechtsterroristischen Gefahrenpotenzial"
+    period: {start: "1999-12-06"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-MAD-TLFV-1999-001
+    from: ORG-DE-MAD
+    to: ORG-DE-TLFV
+    type: transmitted_intelligence_report
+    label: "Übermittelte am 06.12.1999 Meldung zum Gefahrenpotenzial; Zuordnung zur einschlägigen Akte nicht belegt"
+    period: {start: "1999-12-06"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-GBA-PRUEFUNG-1999-001
+    from: ORG-DE-GBA
+    to: ORG-DE-NSU
+    type: closed_preliminary_review
+    label: "Legte 1999 frühen Prüfvorgang zu den später als NSU bekannten Untergetauchten bis 2011 weg"
+    period: {start: "1999-08-12"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-FRITSCHE-BMI-2003-001
+    from: PER-DE-KLAUS-DIETER-FRITSCHE
+    to: ORG-DE-BMI-AMRI-2017
+    type: submitted_risk_assessment
+    label: "Übermittelte im September 2003 BfV-Analyse ohne Einstufung der Untergetauchten als Rechtsterroristen; Ausschuss kritisierte sie"
+    period: {start: "2003"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-LKA-VP562-001
+    from: ORG-DE-LKA-BERLIN
+    to: PER-DE-THOMAS-STARKE
+    type: source_handler_relationship
+    label: "Führte VP 562 2000–2009; Weitergabe des NSU-bezogenen Hinweises vom Februar 2002 nicht aktenkundig"
+    period: {start: "2000", end: "2009"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-BT-NSU-VP562-HIB-20130423, SRC-DE-BERLIN-FEUERBERG-NSU-2012]
+
+  - id: REL-DE-NSU-GBA-BERLIN-2012-001
+    from: ORG-DE-GBA
+    to: ORG-DE-LKA-BERLIN
+    type: confidentiality_consultation
+    label: "Beriet am 20.03.2012 mit Berliner Polizei zur Geheimhaltung von VP 562; Reichweite der Absprachen strittig"
+    period: {start: "2012-03-20"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-BERLIN-FEUERBERG-NSU-2012]
+
+  - id: REL-DE-NSU-GBA-WERNER-ASSERVATE-2014-001
+    from: ORG-DE-GBA
+    to: DOC-DE-NSU-WERNER-ASSERVATE-2014
+    type: ordered_destruction_of_evidence
+    label: "Ordnete laut Sondervotum und berichtetem GBA-Vermerk am 03.11.2014 die Vernichtung verbliebener Asservate an"
+    period: {start: "2014-11-03"}
+    evidence_level: strong
+    sources: [SRC-DE-BT-NSU-1812950-2017, SRC-DE-WELT-NSU-WERNER-ASSERVATE-20160919]
+
+  - id: REL-DE-NSU-STA-GBA-2016-001
+    from: ORG-DE-STA-KARLSRUHE
+    to: ORG-DE-GBA
+    type: declined_investigation
+    label: "Sprecher teilte am 06.10.2016 Absehen von Ermittlungen zur Asservatenvernichtung mangels Anfangsverdachts mit"
+    period: {start: "2016-10-06"}
+    evidence_level: strong
+    sources: [SRC-DE-LTO-NSU-STA-KARLSRUHE-20161006]
+
+  - id: REL-DE-NSU-ST-LKA-DATENTRAEGER-2014-001
+    from: ORG-DE-ST-LKA
+    to: DOC-DE-NSU-ST-DATENTRAEGER-2014
+    type: destroyed_records_media
+    label: "Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"
+    period: {start: "2014"}
+    evidence_level: established
+    sources: [SRC-DE-ST-LT-64812-DSB-2016]
+
+  - id: REL-DE-NSU-ST-LFV-DATENTRAEGER-2014-001
+    from: ORG-DE-ST-LFV
+    to: DOC-DE-NSU-ST-DATENTRAEGER-2014
+    type: destroyed_records_media
+    label: "Vernichtete 2014 zuvor für den Bundestagsausschuss aufbewahrte Datenträger laut Datenschutzbericht"
+    period: {start: "2014"}
+    evidence_level: established
+    sources: [SRC-DE-ST-LT-64812-DSB-2016]
+
+  - id: REL-DE-NSU-GBA-STARKE-VERTRAULICHKEIT-001
+    from: ORG-DE-GBA
+    to: PER-DE-THOMAS-STARKE
+    type: confidentiality_assurance
+    label: "Erteilte laut Feuerberg eine Vertraulichkeitszusage trotz bekannter materieller Tatbeteiligung im Landser-Komplex"
+    evidence_level: established
+    sources: [SRC-DE-BERLIN-FEUERBERG-NSU-2012]
+
+  - id: REL-DE-NSU-BERLIN-LFV-AKTEN-2012-001
+    from: ORG-DE-LFV-BERLIN
+    to: DOC-DE-NSU-BERLIN-AKTEN-2012
+    type: destroyed_records
+    label: "Vernichtete im Juni 2012 auch archivwürdige Akten; 57 Bände des Gesamtvorgangs laut Feuerberg"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BERLIN-FEUERBERG-NSU-2012]
+
+  - id: REL-DE-NSU-GERA-TLFV-FRAGEN-001
+    from: ORG-DE-STA-GERA
+    to: ORG-DE-TLFV
+    type: reported_inquiry
+    label: "Richtete laut Aussage Schultz einen 22-Fragen-Katalog zu den Gesuchten an den Verfassungsschutz; sämtliche Fragen seien verneint worden"
+    evidence_level: strong
+    sources: [SRC-DE-BT-NSU-SCHULTZ-20130117]
+
+  - id: REL-DE-NSU-TLFV-GERA-AKTEN-001
+    from: ORG-DE-TLFV
+    to: ORG-DE-STA-GERA
+    type: reported_access_to_investigation_files
+    label: "Nahm laut Aussage Schultz Einsicht in Ermittlungsakten zu Rechtsextremisten; umgekehrter Informationsfluss sei unzureichend gewesen"
+    evidence_level: strong
+    sources: [SRC-DE-BT-NSU-SCHULTZ-20130117]
+
+  - id: REL-DE-NSU-BFV-G10-VERNICHTUNG-001
+    from: ORG-DE-BFV
+    to: DOC-DE-NSU-G10-ANLAGENORDNER-2012
+    type: destroyed_records
+    label: "Vernichtete Anlagenordner zu 26 G10-Maßnahmen; laut Ausschuss mehrere mit personellen NSU-Umfeldbezügen"
+    period: {start: "2011", end: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BMI-ENGELKE-OFFEN-2012, SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-BMI-BFV-G10-2011-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFV
+    type: ordered_records_destruction
+    label: "Erließ am 14.11.2011 eine Vernichtungsanordnung zu G10-Material laut Ausschuss; genaue Reichweite offen"
+    period: {start: "2011-11-14"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-BT-NSU-AKTENSTOPP-20120719]
+
+  - id: REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFV
+    type: imposed_records_moratorium
+    label: "Ordnete am 18.07.2012 allgemeines Vernichtungsmoratorium zum Rechtsextremismus an; BfV bereits am 04.07."
+    period: {start: "2012-07-18"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-MAD-AKTEN-2012-001
+    from: ORG-DE-MAD
+    to: DOC-DE-NSU-MAD-AKTEN-2012
+    type: destroyed_records
+    label: "Räumte 17 Vernichtungsfälle ein; NSU-Bezug laut Ausschuss überwiegend unwahrscheinlich, nicht überall ausschließbar"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001
+    from: ORG-DE-BMVG-2012
+    to: ORG-DE-MAD
+    type: documented_shared_knowledge
+    label: "Beide Leitungsebenen wussten laut Ausschuss seit März 2012 von früherem MAD-Kontakt zu Mundlos; Ausschuss nicht unterrichtet"
+    period: {start: "2012"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013]
+
+  - id: REL-DE-NSU-TLFV-TLKA-INFO-001
+    from: ORG-DE-TLFV
+    to: ORG-DE-TLKA
+    type: reported_information_withholding
+    label: "Hielt laut Schäfer-Kommission wahrscheinlich wesentliche Erkenntnisse zur NSU-Fahndung wegen übergewichteten Quellenschutzes zurück"
+    period: {start: "1998", end: "2001"}
+    evidence_level: strong
+    sources: [SRC-DE-TH-SCHAEFER-NSU-20120514]
+
+  - id: REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001
+    from: ORG-DE-TLFV
+    to: ORG-DE-TLKA
+    type: statutory_information_duty
+    label: "Gesetz vom 30.07.2012 begründete ausdrückliche Pflichtübermittlung an Polizei und Staatsanwaltschaft unter Voraussetzungen des § 14 Abs. 2; in Kraft 18.08.2012 bis 31.12.2014 (§ 33; Art. 11 des Änderungsgesetzes 2014)"
+    period: {start: "2012-08-18", end: "2014-12-31"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVSG-20120730, SRC-DE-BLKR-NSU-20130430, SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
+
+  - id: REL-DE-TH-AFV-TLKA-PFLICHT-2014-001
+    from: ORG-DE-TH-AFV-2015
+    to: ORG-DE-TLKA
+    type: statutory_information_duty
+    label: "Gesetz 2014 schreibt ab 01.01.2015 Pflichtübermittlung (§ 21 Abs. 2), gemeinsames Lagebild und Dokumentation (§ 4 Abs. 4–5) vor"
+    period: {start: "2015-01-01"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
+
+  - id: REL-DE-TH-AFV-TLFV-NACHFOLGE-2015-001
+    from: ORG-DE-TH-AFV-2015
+    to: ORG-DE-TLFV
+    type: institutional_successor
+    label: "Zum 01.01.2015 beim zuständigen Ministerium errichtet; vorheriges Landesamt nach § 39 zum 31.12.2014 aufgelöst"
+    period: {start: "2015-01-01"}
+    evidence_level: established
+    sources: [SRC-DE-TH-GVBL-THURVERFSCHG-20140808]
+
+  - id: REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001
+    from: ORG-DE-OVG-NRW
+    to: ORG-DE-BFV
+    type: ordered_provisional_reinstatement
+    label: "Verpflichtete am 28.06.2013 in zwei Eilverfahren zur vorläufigen Rückumsetzung der beiden Vorgesetzten Lingens; keine strafrechtliche Klärung"
+    period: {start: "2013-06-28"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-MELDEWEGE-2013, SRC-DE-OVG-NRW-NSU-1B130712-20130628, SRC-DE-OVG-NRW-NSU-1B137312-20130628]
+
+  - id: REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001
+    from: ORG-DE-VG-DUESSELDORF
+    to: ORG-DE-BFV
+    type: annulled_disciplinary_measure
+    label: "Hob am 01.07.2015 die Geldbuße gegen früheren Abteilungsleiter wegen inzwischen eingetretenen Ruhestands auf; keine Entscheidung zur materiellen Berechtigung des Vorwurfs"
+    period: {start: "2015-07-01"}
+    evidence_level: established
+    sources: [SRC-DE-VGD-NSU-37K440514BDG-20150701]
+
+  - id: REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001
+    from: ORG-DE-BT-NSU-UA2-2015-2017
+    to: ORG-DE-NRW-JUSTIZMINISTERIUM
+    type: requested_court_records
+    label: "Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"
+    period: {start: "2016-10-20"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-NW35-20161020]

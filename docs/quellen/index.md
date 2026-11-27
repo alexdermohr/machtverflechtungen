@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**580 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**611 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1417,6 +1417,36 @@ Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bmi-engelke-offen-2012"></a>
+### Bundesministerium des Innern
+
+**[Bericht des BMI-Sonderbeauftragten zur Operation Rennsteig und weiteren Aktenvernichtungen, offene Fassung](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf)**
+
+Bundesministerium des Innern · 2012-10 · Stufe **A** · Primärquelle · `SRC-DE-BMI-ENGELKE-OFFEN-2012`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2011.pdf)
+
+Fundstelle: Gedruckte S. 2–7, insbesondere 5–6; Anlage Dokument 11 zur BT-Drs. 17/14600
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-blkr-nsu-20130430"></a>
+### Bundesministerium des Innern / Innenministerkonferenz
+
+**[Abschlussbericht der Bund-Länder-Kommission Rechtsterrorismus](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2006.pdf)**
+
+Bundesministerium des Innern / Innenministerkonferenz · 2013-04-30 · Stufe **A** · Primärquelle · `SRC-DE-BLKR-NSU-20130430`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2006.pdf)
+
+Fundstelle: Gedruckte S. 238–241, Abschnitt 5.3.4.2.4; Ausschussdrucksache 488
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
 
 <a id="src-de-bnd-geschichte-2011"></a>
@@ -1442,6 +1472,21 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bverfg-2bve115-2017"></a>
+### Bundesverfassungsgericht
+
+**[BVerfG 2 BvE 1/15, Beschluss zum parlamentarischen Auskunftsrecht und Quellenschutz](https://datenbank.nwb.de/Dokument/924391/)**
+
+Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-2BVE115-2017`
+
+[Seite öffnen](https://datenbank.nwb.de/Dokument/924391/)
+
+Fundstelle: Leitsätze, Rn. 124 ff.
 
 </article>
 
@@ -1487,6 +1532,21 @@ Bundesverwaltungsgericht · 2020-09-21 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/210920B6VR1.20.0)
 
 Fundstelle: Rn. 5 (Parteivortrag zu UK-Lizenzzahlungen), Rn. 20 (Browning-Kontakte), Rn. 30–32 (CD-/Ticketproduktion und Binnenfinanzierung; VV Bl. 290, 913 f., 1091)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-bverwg-nsu-2c4118-2020"></a>
+### Bundesverwaltungsgericht
+
+**[Anspruch der Presse auf Auskunft aus den Akten eines abgeschlossenen Disziplinarverfahrens, BVerwG 2 C 41.18](https://www.bverwg.de/131020U2C41.18.0)**
+
+Bundesverwaltungsgericht · 2020-10-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-NSU-2C4118-2020`
+
+[Seite öffnen](https://www.bverwg.de/131020U2C41.18.0)
+
+Fundstelle: Tenor; Rn. 30–31, 47–52, 61
 
 </article>
 
@@ -2210,6 +2270,90 @@ Fundstelle: Abschnitt Operation Rennsteig, Zusammenarbeit BfV/TLfV/MAD 1996-2003
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bt-nsu-aktenstopp-20120719"></a>
+### Deutscher Bundestag
+
+**[NSU-Ausschuss fordert Stopp der Aktenvernichtung](https://www.bundestag.de/webarchiv/textarchiv/2012/39895729_kw29_pa_2ua_nsu-209068)**
+
+Deutscher Bundestag · 2012-07-19 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-AKTENSTOPP-20120719`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/39895729_kw29_pa_2ua_nsu-209068)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bt-nsu-fritsche-20121018"></a>
+### Deutscher Bundestag
+
+**[Aufklärung wichtiger als Zusagen an Informanten](https://www.bundestag.de/webarchiv/textarchiv/2012/40954245_kw42_nsu_akten-209650)**
+
+Deutscher Bundestag · 2012-10-18 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-FRITSCHE-20121018`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2012/40954245_kw42_nsu_akten-209650)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-schultz-20130117"></a>
+### Deutscher Bundestag
+
+**[Merkwürdigkeiten der Ermittlungen in Thüringen](https://www.bundestag.de/webarchiv/textarchiv/2013/42382757_kw03_pa_nsu-210452)**
+
+Deutscher Bundestag · 2013-01-17 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-SCHULTZ-20130117`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2013/42382757_kw03_pa_nsu-210452)
+
+Fundstelle: Abschnitte Heimatschutz-Chef als V-Mann; So etwas nie mehr erlebt; Die haben uns abgeschöpft
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-wunderlich-20130131"></a>
+### Deutscher Bundestag
+
+**[Ausschuss stellt Chaos bei Sicherheitsbehörden fest](https://www.bundestag.de/webarchiv/textarchiv/2013/42632406_kw05_pa_2ua_nsu-210704)**
+
+Deutscher Bundestag · 2013-01-31 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-WUNDERLICH-20130131`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/textarchiv/2013/42632406_kw05_pa_2ua_nsu-210704)
+
+Fundstelle: Abschnitte Einer hat gelogen; Gering, dünn, spärlich
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-1714600-meldewege-2013"></a>
+### Deutscher Bundestag
+
+**[Erster NSU-Untersuchungsausschuss: Meldewege, frühe GBA-Prüfung und Gefahrenanalyse, BT-Drs. 17/14600](https://dserver.bundestag.de/btd/17/146/1714600.pdf)**
+
+Deutscher Bundestag · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1714600-MELDEWEGE-2013`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
+
+Fundstelle: Gedruckte S. 303–309, 452–453, 743–744, 786, 853–854, 859–861; Fn. 2655–2702, 3988–3991, 6963–6967
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-bt-nsu-moratorium-20141015"></a>
+### Deutscher Bundestag
+
+**[Innenausschuss: Keine NSU-Dateien vernichten, hib 514/2014](https://www.bundestag.de/webarchiv/presse/hib/2014_10/335380-335380)**
+
+Deutscher Bundestag · 2014-10-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-MORATORIUM-20141015`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2014_10/335380-335380)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
 
 <a id="src-de-bt-plenar-vm2100-18096-2015"></a>
@@ -2360,6 +2504,21 @@ Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bt-nsu-1812950-2017"></a>
+### Deutscher Bundestag
+
+**[Abschlussbericht des zweiten NSU-Untersuchungsausschusses, BT-Drs. 18/12950](https://dserver.bundestag.de/btd/18/129/1812950.pdf)**
+
+Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1812950-2017`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
+
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
 
 <a id="src-de-amri-bt-bfv-2018"></a>
@@ -2482,6 +2641,19 @@ Fundstelle: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
+<a id="src-de-bt-amri-bverfg-20210203"></a>
+### Deutscher Bundestag
+
+**[V-Mann-Führer muss nicht vor Untersuchungsausschuss aussagen](https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388)**
+
+Deutscher Bundestag · 2021-02-03 · Stufe **A** · Primärquelle · `SRC-DE-BT-AMRI-BVERFG-20210203`
+
+[Seite öffnen](https://www.bundestag.de/dokumente/textarchiv/2021/kw05-bverfg-vmann-820388)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
 <a id="src-de-amri-bt-1929493"></a>
 ### Deutscher Bundestag
 
@@ -2492,6 +2664,21 @@ Deutscher Bundestag · 2021-05-10 · Stufe **A** · Primärquelle · `SRC-DE-AMR
 [PDF öffnen](https://dserver.bundestag.de/btd/19/294/1929493.pdf)
 
 Fundstelle: Drs. 19/29493, S. 2–3, Fragen 1–2d
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-ra-nsu-20261014"></a>
+### Deutscher Bundestag
+
+**[Kurzprotokoll der 55. Sitzung des Ausschusses für Recht und Verbraucherschutz](https://www.bundestag.de/resource/blob/1231368/055_prot.pdf)**
+
+Deutscher Bundestag · 2026-10-14 · Stufe **A** · Primärquelle · `SRC-DE-BT-RA-NSU-20261014`
+
+[PDF öffnen](https://www.bundestag.de/resource/blob/1231368/055_prot.pdf)
+
+Fundstelle: Protokoll 21/55, TOP 5 b, S. 22–23
 
 </article>
 
@@ -2977,6 +3164,21 @@ Fundstelle: Absatz 1-3; Stand und Grenzen der Ermittlungen zur Beteiligung weite
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
+<a id="src-de-bt-nsu-1931301-2021"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Ergänzende Antwort zu Aktenvernichtungen im BfV im NSU-Kontext, BT-Drs. 19/31301](https://dserver.bundestag.de/btd/19/313/1931301.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2021-06-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1931301-2021`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/313/1931301.pdf)
+
+Fundstelle: S. 2–4, Fragen 2–9
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
 <a id="src-de-bt-okt-200358-2021"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -3002,6 +3204,21 @@ Deutscher Bundestag / Bundesregierung · 2025-01-24 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/20/146/2014669.pdf)
 
 Fundstelle: Drucksache 20/14669, insbesondere S. 1–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-nsu-219268-2026"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Stand laufender Ermittlungen im NSU-Komplex, BT-Drs. 21/9268](https://dserver.bundestag.de/btd/21/092/2109268.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2026-11-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-219268-2026`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/092/2109268.pdf)
+
+Fundstelle: S. 2–4, Fragen 1, 3–13; Vorabfassung
 
 </article>
 
@@ -3185,6 +3402,36 @@ Fundstelle: BT-Drs. 17/14600, gedruckte S. 857–858 (PDF-Bildseiten 905–906; 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-nsu-nw35-20161020"></a>
+### Deutscher Bundestag, 3. Untersuchungsausschuss der 18. Wahlperiode
+
+**[Beweisbeschluss NW-35 zur Beiziehung von Gerichtsakten](https://www.bundestag.de/resource/blob/488394/NW-35.pdf)**
+
+Deutscher Bundestag, 3. Untersuchungsausschuss der 18. Wahlperiode · 2016-10-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-NW35-20161020`
+
+[PDF öffnen](https://www.bundestag.de/resource/blob/488394/NW-35.pdf)
+
+Fundstelle: 34. Sitzung, Beweisbeschluss NW-35, S. 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-vp562-hib-20130423"></a>
+### Deutscher Bundestag, Parlamentsnachrichten
+
+**[NSU-Affäre: Harte Kritik an Berliner Polizei, hib 222/2013](https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416)**
+
+Deutscher Bundestag, Parlamentsnachrichten · 2013-04-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-VP562-HIB-20130423`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2013_04/02-254416)
+
+Fundstelle: Absätze zur Anhörung Haeberers, VP 562 und Weitergabefrage
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2006">
 
 <a id="src-de-drpr-insm-2006"></a>
@@ -3302,6 +3549,51 @@ Französisches Wirtschaftsministerium · 2025-07-01 · Stufe **A** · Primärque
 [Seite öffnen](https://presse.economie.gouv.fr/creation-dun-champion-mondial-de-lidentite-letat-soutient-le-rachat-par-in-groupe-didemia-smart-identity/)
 
 Fundstelle: Erwerb Smart Identity, staatliche Kapitalunterstützung
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-th-schaefer-nsu-20120514"></a>
+### Freistaat Thüringen / Schäfer-Kommission
+
+**[Gutachten zum Verhalten der Thüringer Behörden und Staatsanwaltschaften bei der Verfolgung des Zwickauer Trios](https://www.nsu-watch.info/files/2012/05/120515_schaefer_gutachten-neu.pdf)**
+
+Freistaat Thüringen / Schäfer-Kommission · 2012-05-14 · Stufe **A** · Primärquelle · `SRC-DE-TH-SCHAEFER-NSU-20120514`
+
+[PDF öffnen](https://www.nsu-watch.info/files/2012/05/120515_schaefer_gutachten-neu.pdf)
+
+Fundstelle: S. 2, 200–204, 216–218, 240–246, 256–261
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-th-gvbl-thurverfschg-20140808"></a>
+### Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8
+
+**[Thüringer Gesetz zur Änderung sicherheitsrechtlicher Vorschriften vom 8. August 2014](https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf)**
+
+Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 8 · 2014-08-08 · Stufe **A** · Primärquelle · `SRC-DE-TH-GVBL-THURVERFSCHG-20140808`
+
+[PDF öffnen](https://parldok.thueringer-landtag.de/ParlDok/dokument/53420/gesetz_und_verordnungsblatt_nr_8_2014.pdf)
+
+Fundstelle: GVBl. S. 529 ff., §§ 4, 21, 22, 27, 39; Art. 11, S. 544 (Inkrafttreten und Außerkrafttreten)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-th-gvbl-thurvsg-20120730"></a>
+### Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 9
+
+**[Thüringer Verfassungsschutzgesetz vom 30. Juli 2012](https://parldok.thueringer-landtag.de/ParlDok/dokument/46031/gesetz_und_verordnungsblatt_nr_9_2012.pdf)**
+
+Freistaat Thüringen, Gesetz- und Verordnungsblatt Nr. 9 · 2012-07-30 · Stufe **A** · Primärquelle · `SRC-DE-TH-GVBL-THURVSG-20120730`
+
+[PDF öffnen](https://parldok.thueringer-landtag.de/ParlDok/dokument/46031/gesetz_und_verordnungsblatt_nr_9_2012.pdf)
+
+Fundstelle: GVBl. S. 346 ff., §§ 14, 15, 33
 
 </article>
 
@@ -3512,6 +3804,21 @@ Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
 
 Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-hh-nsu-beirat-20260330"></a>
+### Hamburgische Bürgerschaft
+
+**[Beiratssitzung zum Forschungsprojekt zur Aufarbeitung des NSU-Komplexes](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-beiratssitzung-zum-forschungsprojekt-zur-aufarbeitung-des-nsu-komplexes-1160896)**
+
+Hamburgische Bürgerschaft · 2026-03-30 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-BEIRAT-20260330`
+
+[Seite öffnen](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-beiratssitzung-zum-forschungsprojekt-zur-aufarbeitung-des-nsu-komplexes-1160896)
+
+Fundstelle: Absätze zu Akteneinsicht und Zusammenarbeit mit Hamburger Behörden
 
 </article>
 
@@ -4010,6 +4317,21 @@ Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Poss
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-st-lt-64812-dsb-2016"></a>
+### Landtag Sachsen-Anhalt / Landesbeauftragter für den Datenschutz
+
+**[XII. Tätigkeitsbericht des Landesbeauftragten für den Datenschutz Sachsen-Anhalt, LT-Drs. 6/4812](https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Drucksachen/d4812eun.pdf)**
+
+Landtag Sachsen-Anhalt / Landesbeauftragter für den Datenschutz · 2016-02-18 · Stufe **A** · Primärquelle · `SRC-DE-ST-LT-64812-DSB-2016`
+
+[PDF öffnen](https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Drucksachen/d4812eun.pdf)
+
+Fundstelle: Abschnitt 8.2, gedruckte S. 89, PDF-Index 114
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="D" data-source-year="2025">
 
 <a id="src-de-lohr-mauss-2025"></a>
@@ -4067,6 +4389,21 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-nrw-nsu-17823-2018"></a>
+### Ministerium der Justiz Nordrhein-Westfalen / Landtag NRW
+
+**[Ermittlungsverfahren wegen Aktenvernichtung im BfV eingestellt, Vorlage 17/823](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV17-823.pdf)**
+
+Ministerium der Justiz Nordrhein-Westfalen / Landtag NRW · 2018-05-30 · Stufe **A** · Primärquelle · `SRC-DE-NRW-NSU-17823-2018`
+
+[PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV17-823.pdf)
+
+Fundstelle: Gedruckte S. 2–6, TOP 14 der Rechtsausschusssitzung; Sachstand Zahlung 22.05.2018
 
 </article>
 
@@ -4260,6 +4597,36 @@ Oberlandesgericht Stuttgart / Stammheim-Protokoll-Gesamtedition · 1977-04-28 ·
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/11/OLG-Stuttgart-Urteil-vom-28.4.1977-2-StE-174-Text.pdf)
 
 Fundstelle: PDF-S. 114–117, Abschnitte [251]–[259]; Gerichtsbefunde zu 3 ARP 74/75 und 1 BJs 7/76 sowie zu geltend gemachten Aussageanreizen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-ovg-nrw-nsu-1b130712-20130628"></a>
+### Oberverwaltungsgericht Nordrhein-Westfalen
+
+**[OVG NRW, Beschluss 28.06.2013, 1 B 1307/12](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1307-12)**
+
+Oberverwaltungsgericht Nordrhein-Westfalen · 2013-06-28 · Stufe **A** · Primärquelle · `SRC-DE-OVG-NRW-NSU-1B130712-20130628`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1307-12)
+
+Fundstelle: Indexierte Entscheidungsgründe zur Kenntnis, Aufsicht und Stopp-Anweisung; Abgleich BT-Drs. 17/14600 S. 786 und 18/12950 S. 331–332, 1277
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-ovg-nrw-nsu-1b137312-20130628"></a>
+### Oberverwaltungsgericht Nordrhein-Westfalen
+
+**[OVG NRW, Beschluss 28.06.2013, 1 B 1373/12](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1373-12)**
+
+Oberverwaltungsgericht Nordrhein-Westfalen · 2013-06-28 · Stufe **A** · Primärquelle · `SRC-DE-OVG-NRW-NSU-1B137312-20130628`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/ovg-nrw/2013-06-28/1-b-1373-12)
+
+Fundstelle: Indexierte Entscheidungsgründe zur Aufsicht; Abgleich BT-Drs. 17/14600 S. 786, Fn. 6963–6967
 
 </article>
 
@@ -4846,6 +5213,21 @@ Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gem
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-berlin-feuerberg-nsu-2012"></a>
+### Senatsverwaltung für Inneres und Sport Berlin / Oberstaatsanwalt Feuerberg
+
+**[Bericht über die Sonderermittlungen im Geschäftsbereich des Senators für Inneres und Sport in Berlin im Zusammenhang mit der Aufklärung der Taten der Terrorgruppierung NSU](https://www.gruene-fraktion-sachsen.de/wp-content/uploads/2021/11/bericht_sonderermittler.pdf)**
+
+Senatsverwaltung für Inneres und Sport Berlin / Oberstaatsanwalt Feuerberg · 2012-12 · Stufe **A** · Primärquelle · `SRC-DE-BERLIN-FEUERBERG-NSU-2012`
+
+[PDF öffnen](https://www.gruene-fraktion-sachsen.de/wp-content/uploads/2021/11/bericht_sonderermittler.pdf)
+
+Fundstelle: S. 38–39, 42–45, 64–67, 70–80 (gedruckte Seiten); 88 PDF-Seiten
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-fes-spdpd-bdj-19521009"></a>
@@ -4963,6 +5345,21 @@ Superior Tribunal de Justiça · 2008-04-03 · Stufe **A** · Primärquelle · `
 [Seite öffnen](https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330)
 
 Fundstelle: Amtliche Urteilswiedergabe in Coletânea 78, S. 139–154 (DJe 21.11.2008); insbesondere S. 140–141 Berichtigung TRF-Tenor, 148–150 Vertragsänderungen, 154 Verfahrensbeendigung ohne Sachentscheidung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-taz-nsu-hh-20261123"></a>
+### taz
+
+**[Interview mit Carola Veit zur Aufarbeitung des NSU-Komplexes](https://taz.de/NSU-Mord-an-Sueleyman-Taskoeprue/!6193181/)**
+
+taz · 2026-11-23 · Stufe **B** · Primärquelle · `SRC-DE-TAZ-NSU-HH-20261123`
+
+[Seite öffnen](https://taz.de/NSU-Mord-an-Sueleyman-Taskoeprue/!6193181/)
+
+Fundstelle: Antworten zu Vergleichsverhandlungen, Unterstützungssignalen 2023 und Ablehnungsgründen
 
 </article>
 
@@ -7023,6 +7420,21 @@ Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kais
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-vgd-nsu-37k440514bdg-20150701"></a>
+### Verwaltungsgericht Düsseldorf
+
+**[VG Düsseldorf, Urteil 01.07.2015, 37 K 4405/14.BDG](https://ra.de/vg-dusseldorf/37-k-440514bdg-2015-07-01)**
+
+Verwaltungsgericht Düsseldorf · 2015-07-01 · Stufe **A** · Primärquelle · `SRC-DE-VGD-NSU-37K440514BDG-20150701`
+
+[Seite öffnen](https://ra.de/vg-dusseldorf/37-k-440514bdg-2015-07-01)
+
+Fundstelle: ECLI:DE:VGD:2015:0701.37K4405.14BDG.00; Tenor, Rn. 4–11, 18–26
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
 
 <a id="src-ws-clinton-saudi-1994"></a>
@@ -8105,6 +8517,19 @@ Fundstelle: Hessen-Chronik Eintrag vom 08.01.1953; Nachfolgeeintrag 09.01.1953 R
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-lto-nsu-sta-karlsruhe-20161006"></a>
+### Legal Tribune Online / dpa
+
+**[Kein Ermittlungsverfahren der Staatsanwaltschaft Karlsruhe wegen NSU-Asservatenvernichtung](https://www.lto.de/recht/nachrichten/n/nsu-aufklaerung-vernichtung-notizbuch-bundesanwaelte-ermittlung-staatsanwaltschaft)**
+
+Legal Tribune Online / dpa · 2016-10-06 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-LTO-NSU-STA-KARLSRUHE-20161006`
+
+[Seite öffnen](https://www.lto.de/recht/nachrichten/n/nsu-aufklaerung-vernichtung-notizbuch-bundesanwaelte-ermittlung-staatsanwaltschaft)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-de-rigoll-innerer-kreis-2017"></a>
@@ -8237,6 +8662,21 @@ NDR / tagesschau · 2016-07-20 · Stufe **B** · Sekundär-/Forschungsquelle · 
 [Seite öffnen](https://www.tagesschau.de/ausland/panamapapers-159.html)
 
 Fundstelle: Gesellschafts- und Kontozuordnungen; Stellungnahme
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-ndr-nsu-hh-20261107"></a>
+### NDR / tagesschau
+
+**[NSU-Mord in Hamburg: Aufarbeitung tritt weiter auf der Stelle](https://www.tagesschau.de/inland/regional/hamburg/nsu-mord-in-hamburg-aufarbeitung-tritt-weiter-auf-der-stelle,nsu-302.html)**
+
+NDR / tagesschau · 2026-11-07 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDR-NSU-HH-20261107`
+
+[Seite öffnen](https://www.tagesschau.de/inland/regional/hamburg/nsu-mord-in-hamburg-aufarbeitung-tritt-weiter-auf-der-stelle,nsu-302.html)
+
+Fundstelle: Abschnitte zur fehlenden Akteneinsicht und zum gerichtlichen Verfahren
 
 </article>
 
@@ -8672,6 +9112,19 @@ Warburg Pincus · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SR
 [Seite öffnen](https://warburgpincus.com/firm/firm-history/)
 
 Fundstelle: Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitgliedschaft; Eintrag 1978: Warburg Pincus 'helped lead discussions with the U.S. Department of Labor' zu Pensionsfonds und alternativen Anlageklassen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-de-welt-nsu-werner-asservate-20160919"></a>
+### WELT
+
+**[Bundesanwaltschaft vernichtete wichtige Dokumente](https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html)**
+
+WELT · 2016-09-19 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WELT-NSU-WERNER-ASSERVATE-20160919`
+
+[Seite öffnen](https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html)
 
 </article>
 

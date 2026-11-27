@@ -464,7 +464,35 @@ class ResearchIntegrationTests(unittest.TestCase):
             "bdj-lcprowl-eca-mccloy-1950-1953.md":
                 ["REL-DE-BDJ-001", "REL-DE-BDJ-002"],
             "nsu-komplex-skandale-belegmatrix-1994-2026.md":
-                ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001"],
+                ["REL-DE-THS-001", "REL-DE-THS-002", "REL-DE-UKC18-001",
+                 "REL-DE-NSU-HH-GBA-2026-001",
+                 "REL-DE-NSU-LINGEN-STA-2018-001",
+                 "REL-DE-NSU-LINGEN-BFV-2013-001",
+                 "REL-DE-NSU-BVERWG-BFV-2020-001",
+                 "REL-DE-NSU-LINGEN-TLFV-2002-001",
+                 "REL-DE-NSU-BFV-PARL-DATE-2012-001",
+                 "REL-DE-NSU-MAD-BFV-1999-001",
+                 "REL-DE-NSU-MAD-TLFV-1999-001",
+                 "REL-DE-NSU-GBA-PRUEFUNG-1999-001",
+                 "REL-DE-NSU-FRITSCHE-BMI-2003-001",
+                 "REL-DE-NSU-LKA-VP562-001",
+                 "REL-DE-NSU-GBA-BERLIN-2012-001",
+                 "REL-DE-NSU-GBA-WERNER-ASSERVATE-2014-001",
+                 "REL-DE-NSU-STA-GBA-2016-001",
+                 "REL-DE-NSU-ST-LKA-DATENTRAEGER-2014-001",
+                 "REL-DE-NSU-ST-LFV-DATENTRAEGER-2014-001",
+                 "REL-DE-NSU-GBA-STARKE-VERTRAULICHKEIT-001",
+                 "REL-DE-NSU-BERLIN-LFV-AKTEN-2012-001",
+                 "REL-DE-NSU-GERA-TLFV-FRAGEN-001",
+                 "REL-DE-NSU-TLFV-GERA-AKTEN-001",
+                 "REL-DE-NSU-BFV-G10-VERNICHTUNG-001",
+                 "REL-DE-NSU-BMI-BFV-G10-2011-001",
+                 "REL-DE-NSU-BMI-BFV-MORATORIUM-2012-001",
+                 "REL-DE-NSU-MAD-AKTEN-2012-001",
+                 "REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001",
+                 "REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001",
+                 "REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001",
+                 "REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":
@@ -1175,6 +1203,52 @@ class ResearchIntegrationTests(unittest.TestCase):
         self.assertEqual(market["period"], {"start": "1976", "end": "1979"})
         self.assertIn("ERSTEN HALBJAHR 1979", market["label"])
         self.assertIn("KEIN nachgewiesener individueller Geldfluss", market["label"])
+
+
+    def test_nsu_judicial_oversight_preserves_attribution_and_outcome_limits(self):
+        root = coverage.ROOT
+        matrix = (root / "research/nsu-komplex-skandale-belegmatrix-1994-2026.md").read_text(encoding="utf-8")
+        los = (root / "research/bfv-los-nsu-2011-2014.md").read_text(encoding="utf-8")
+        row = next(line for line in matrix.splitlines() if line.startswith("| NSU-28 |"))
+        self.assertIn("Referatsgruppenleiter D. seine Mitarbeiter", row)
+        self.assertIn("Hauptbericht leitet das Zitat fehlerhaft", row)
+        self.assertIn("S. 1277, Fn. 3694", row)
+        self.assertIn("Eine eigene Stopp-Anweisung Lingens für den 07./08.11. ist daraus nicht ableitbar", los)
+        self.assertNotIn("\n\n| NSU-46 |", matrix)
+        rels = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        self.assertIn("vorläufigen Rückumsetzung", rels["REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001"]["label"])
+        self.assertIn("keine Entscheidung zur materiellen Berechtigung", rels["REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001"]["label"])
+        self.assertIn("tatsächliche Vorlage offen", rels["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]["label"])
+
+    def test_nsu_and_amri_use_shared_modern_authority_identities(self):
+        root = coverage.ROOT
+        entities = {e["id"]: e for e in yaml.safe_load(
+            (root / "data/entities.yml").read_text(encoding="utf-8")
+        )["entities"]}
+        relations = {r["id"]: r for r in yaml.safe_load(
+            (root / "data/relations.yml").read_text(encoding="utf-8")
+        )["relations"]}
+        self.assertNotIn("period", relations["REL-DE-NSU-HH-GBA-2026-001"])
+        self.assertEqual(relations["REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001"]["period"],
+                         {"start": "2012-08-18", "end": "2014-12-31"})
+        self.assertIn("SRC-DE-TH-GVBL-THURVERFSCHG-20140808",
+                      relations["REL-DE-TH-TLFV-TLKA-PFLICHT-2012-001"]["sources"])
+        self.assertEqual(relations["REL-DE-TH-AFV-TLKA-PFLICHT-2014-001"]["period"]["start"],
+                         "2015-01-01")
+        for lka in ("ORG-DE-ST-LKA", "ORG-DE-TLKA", "ORG-DE-LKA-BERLIN", "ORG-DE-LKA-NRW"):
+            self.assertEqual(entities[lka]["type"], "police_authority", lka)
+        obsolete = ('ORG-DE-BERLIN-LKA', 'ORG-DE-BERLIN-LFV-2012', 'ORG-DE-GBA-NSU-2026', 'ORG-DE-GBA-NSU-1998-2012', 'ORG-DE-GBA-NSU-2014', 'ORG-DE-BMI-2003', 'ORG-DE-BMI-2011-2012')
+        self.assertTrue(set(obsolete).isdisjoint(entities))
+        self.assertTrue(set(obsolete).isdisjoint(
+            endpoint for r in relations.values() for endpoint in (r["from"], r["to"])))
+        for entity in ("ORG-DE-LKA-BERLIN", "ORG-DE-GBA", "ORG-DE-LFV-BERLIN", "ORG-DE-BMI-AMRI-2017"):
+            self.assertIn(entity, entities)
+            for dossier in ("REL-DE-NSU-", "REL-DE-AMRI-"):
+                self.assertTrue(any(rid.startswith(dossier) and
+                    entity in (r["from"], r["to"]) for rid, r in relations.items()),
+                    (entity, dossier))
 
 
 if __name__ == "__main__":

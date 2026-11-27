@@ -3516,11 +3516,15 @@ entities:
     name: Landeskriminalamt Berlin
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität des Berliner Landeskriminalamts in NSU- und Amri-Forschung; keine daraus abgeleitete personelle Identität der jeweiligen Ermittler."
+
   - id: ORG-DE-GBA
     type: prosecution_authority
     name: Generalbundesanwalt beim Bundesgerichtshof
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität für die NSU- und Amri-Beziehungen; Amtsinhaber, Zuständigkeiten und konkrete Entscheidungen ergeben sich aus den datierten Relationen. Der ältere historische Datensatz ORG-DE-BUNDESANWALTSCHAFT bleibt als publizierter Zeitschnitt erhalten."
+
   - id: ORG-DE-GENSTA-BERLIN
     type: prosecution_authority
     name: Generalstaatsanwaltschaft Berlin
@@ -3541,6 +3545,8 @@ entities:
     name: Verfassungsschutz Berlin
     countries:
     - DE
+    notes: "Berliner Verfassungsschutz des wiedervereinigten Berlin; vom historischen West-Berliner Landesamt ORG-DE-BERLIN-VERFASSUNGSSCHUTZ zu unterscheiden."
+
   - id: ORG-MA-DGST
     type: intelligence_service
     name: Direction générale de la surveillance du territoire (DGST)
@@ -3564,9 +3570,11 @@ entities:
     - DE
   - id: ORG-DE-BMI-AMRI-2017
     type: government_ministry
-    name: Bundesministerium des Innern (Amri-Komplex 2017)
+    name: Bundesministerium des Innern (BMI)
     countries:
     - DE
+    notes: "Gemeinsame institutionelle Identität für die belegten BMI-Handlungen 2003, 2011–2012 und 2017; der bestehende publizierte ID-Anker bleibt erhalten, die Zeitangaben stehen in den Relationen. ORG-DE-BMI bleibt als publizierter historischer Zeitschnitt von 1952 erhalten."
+
   - id: ORG-DE-BMJV-AMRI-2017
     type: government_ministry
     name: Bundesministerium der Justiz und für Verbraucherschutz (2017)
@@ -3611,3 +3619,121 @@ entities:
     name: "Sagem (AFIS-Rechteinhaber, 2005)"
     countries: [FR]
     notes: "Zeitbezogener Rollenknoten für den 2005 von der RNEC als Sagem bezeichneten Rechteinhaber; weder die konkrete juristische Kontinuität zum Vertragspartner 1997 noch Identität mit dem Consorcio Sagem vorausgesetzt."
+  - id: PRG-DE-HH-NSU-FORSCHUNG
+    type: research_project
+    name: "Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes"
+    countries: [DE]
+
+  - id: PER-DE-LOTHAR-LINGEN
+    type: person
+    name: "Lothar Lingen (dienstlicher Deckname)"
+    countries: [DE]
+    notes: "Ehemaliger BfV-Referatsleiter; öffentliche amtliche Decknamensbezeichnung."
+
+  - id: ORG-DE-STA-KOELN
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Köln"
+    countries: [DE]
+
+  - id: ORG-DE-MAD
+    type: intelligence_service
+    name: "Militärischer Abschirmdienst"
+    countries: [DE]
+
+  - id: PER-DE-THOMAS-STARKE
+    type: person
+    name: "Thomas Starke (VP 562)"
+    countries: [DE]
+    notes: "Öffentlich im Bundestagsbericht 17/14600 benannter Informant des Berliner LKA."
+
+  - id: PER-DE-KLAUS-DIETER-FRITSCHE
+    type: person
+    name: "Klaus-Dieter Fritsche"
+    countries: [DE]
+
+  - id: ORG-DE-STA-KARLSRUHE
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Karlsruhe"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-WERNER-ASSERVATE-2014
+    type: document
+    name: "Jan Werner betreffende Asservate aus dem Landser-Verfahren (2014)"
+    countries: [DE]
+    notes: "Dokumentenbestand, kein einzelnes Dokument; Angaben zur Vernichtung laut Sondervotum und berichteter GBA-Auskunft."
+
+  - id: ORG-DE-ST-LKA
+    type: police_authority
+    name: "Landeskriminalamt Sachsen-Anhalt"
+    countries: [DE]
+
+  - id: ORG-DE-ST-LFV
+    type: intelligence_service
+    name: "Verfassungsschutzbehörde Sachsen-Anhalt"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-ST-DATENTRAEGER-2014
+    type: document
+    name: "In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger"
+    countries: [DE]
+    notes: "2014 vernichtete Datenträger laut Datenschutz-Tätigkeitsbericht; genauer Umfang und weitere Überlieferung unbekannt."
+
+  - id: DOC-DE-NSU-BERLIN-AKTEN-2012
+    type: document
+    name: "57 vernichtete Aktenbände des Berliner Verfassungsschutzes (2012)"
+    countries: [DE]
+    notes: "Gesamtbestand laut Feuerberg-Bericht, darunter archivwürdige Rechtsextremismus-Unterlagen; nicht jeder Band nachweislich NSU-relevant."
+
+  - id: ORG-DE-STA-GERA
+    type: prosecution_authority
+    name: "Staatsanwaltschaft Gera"
+    countries: [DE]
+
+  - id: ORG-DE-BMVG-2012
+    type: government_ministry
+    name: "Bundesministerium der Verteidigung (NSU, 2012)"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-G10-ANLAGENORDNER-2012
+    type: document
+    name: "Vernichtete Anlagenordner zu 26 G10-Maßnahmen (BfV, 2011–2012)"
+    countries: [DE]
+    notes: "Sammelbezeichnung der im Engelke-Bericht erfassten G10-Anlagenordner; einzelne Inhalte und Umfang erhaltener Ersatzüberlieferung sind nicht abschließend geklärt."
+
+  - id: DOC-DE-NSU-MAD-AKTEN-2012
+    type: document
+    name: "17 vom MAD eingeräumte Aktenvernichtungsfälle (Rechtsextremismus, 2012)"
+    countries: [DE]
+    notes: "Sammelbezeichnung für die laut Bundestagsausschuss vom MAD eingeräumten Vernichtungsfälle; ein NSU-Bezug wurde überwiegend für unwahrscheinlich gehalten, jedoch nicht in allen Fällen ausgeschlossen."
+
+  - id: ORG-DE-TLKA
+    type: police_authority
+    name: "Thüringer Landeskriminalamt"
+    countries: [DE]
+
+  - id: ORG-DE-TH-AFV-2015
+    type: intelligence_service
+    name: "Thüringer Amt für Verfassungsschutz (ab 2015)"
+    countries: [DE]
+    notes: "Nach § 39 ThürVerfSchG 2014 zum 01.01.2015 beim zuständigen Ministerium errichtet; historischer Vorgänger ORG-DE-TLFV."
+
+  - id: ORG-DE-OVG-NRW
+    type: court
+    name: Oberverwaltungsgericht Nordrhein-Westfalen
+    countries: [DE]
+
+  - id: ORG-DE-VG-DUESSELDORF
+    type: court
+    name: Verwaltungsgericht Düsseldorf
+    countries: [DE]
+
+  - id: ORG-DE-BT-NSU-UA2-2015-2017
+    type: parliamentary_committee
+    name: Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode)
+    countries: [DE]
+    notes: "Dritter Untersuchungsausschuss der 18. Wahlperiode, nicht der erste NSU-Untersuchungsausschuss."
+
+  - id: ORG-DE-NRW-JUSTIZMINISTERIUM
+    type: government_ministry
+    name: Ministerium der Justiz Nordrhein-Westfalen
+    countries: [DE]
