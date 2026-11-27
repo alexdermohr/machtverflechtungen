@@ -7414,3 +7414,87 @@ relations:
     evidence_level: strong
     sources:
     - SRC-US-NARA-FBI-HSC-AFSC-1975
+  - id: REL-DE-DDR-UK-013
+    from: PER-GB-RUDI-STERNBERG-PLURENDEN
+    to: ORG-GB-DOMINION-EXPORT
+    type: reported_ownership
+    label: 'Berger/LaPorte S. 72 Fn. 201: Dominion Export Ltd im Kontext des Vertrags von 1953 im Eigentum Lord Plurendens; genaue Beteiligung und Dauer nicht nachgewiesen'
+    evidence_level: strong
+    sources:
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
+    - SRC-GB-SPECTATOR-STERNBERG-1978
+    period:
+      start: '1953'
+  - id: REL-DE-DDR-UK-014
+    from: PER-GB-ARTHUR-LEWIS
+    to: PER-GB-BURNABY-DRAYSON
+    type: reported_joint_trade_advocacy
+    label: Lewis berichtet im Unterhaus 24.04.1961 von gemeinsamer früherer Intervention mit Drayson zu Reisebeschränkungen eines DDR-Geschäftskontakts; Zeitpunkt, Mandat und Vergütung
+      offen
+    evidence_level: strong
+    sources:
+    - SRC-GB-HANSARD-EASTWEST-1961
+  - id: REL-DE-DDR-UK-015
+    from: PER-GB-ARTHUR-LEWIS
+    to: ORG-GB-HOUSE-OF-COMMONS
+    type: declared_industry_affiliation
+    label: Lewis erklärt am 24.04.1961 seine Verbindung zur Halbleiterindustrie und fordert Lockerung von Exportbeschränkungen; kein Firmenname oder persönlicher Zahlungsbetrag genannt
+    evidence_level: established
+    sources:
+    - SRC-GB-HANSARD-EASTWEST-1961
+    period:
+      start: '1961-04-24'
+  - id: REL-DE-DDR-UK-016
+    from: PER-GB-G-B-H-CURRIE
+    to: PER-DE-WALTER-ULBRICHT
+    type: reported_meeting
+    label: Currie berichtet 24.04.1961 über persönliches Treffen mit Ulbricht auf der Leipziger Frühjahrsmesse 1961 als privater Parlamentarier, ohne Regierungsmandat; eigene finanzielle
+      Interessen an der Motion verneint
+    evidence_level: strong
+    sources:
+    - SRC-GB-HANSARD-EASTWEST-1961
+    period:
+      start: '1961'
+  - id: REL-DE-DDR-UK-017
+    from: PER-GB-ROBERT-BOOTHBY
+    to: PER-DE-WALTER-ULBRICHT
+    type: reported_meeting
+    label: Laut Curries eigener Parlamentsaussage 24.04.1961 nahm auch Lord Boothby am Treffen mit Ulbricht und zwei Ministern teil; keine staatliche britische Delegation oder Vergütung
+      nachgewiesen
+    evidence_level: strong
+    sources:
+    - SRC-GB-HANSARD-EASTWEST-1961
+    period:
+      start: '1961'
+  - id: REL-DE-DDR-UK-018
+    from: ORG-GB-FEDERATION-BRITISH-INDUSTRIES
+    to: ORG-DE-DDR-KAMMER-AUSSENHANDEL
+    type: reported_trade_agreement
+    label: Currie und Rodgers benennen am 24.04.1961 die Handelsvereinbarung zwischen britischem Industrieverband und DDR-Außenhandelskammer als Alternative zu diplomatischem Abkommen;
+      Originalvertrag nicht eingesehen
+    evidence_level: strong
+    sources:
+    - SRC-GB-HANSARD-EASTWEST-1961
+    period:
+      start: '1961'
+  - id: REL-DE-DDR-UK-019
+    from: PER-GB-GEORGE-JEGER
+    to: ORG-GB-HOUSE-OF-COMMONS
+    type: documented_privilege_complaint
+    label: Jeger legt am 12.03.1962 einen Sunday-Telegraph-Bericht vom Vortag zur Leipziger Messe vor und erhebt Privilegienbeschwerde; Pressevorwürfe nicht als Tatsachen bestätigt
+    evidence_level: established
+    sources:
+    - SRC-GB-HANSARD-PRIVILEGE-19620312
+    period:
+      start: '1962-03-12'
+  - id: REL-DE-DDR-UK-020
+    from: ORG-GB-HOUSE-OF-COMMONS
+    to: ORG-GB-SUNDAY-TELEGRAPH
+    type: documented_procedural_ruling
+    label: Speaker entscheidet am 13.03.1962, Artikel begründe prima facie keine Verletzung parlamentarischer Privilegien; kein Vorrang der Beschwerde, Sachantrag weiterhin möglich; kein
+      Urteil über den Wahrheitsgehalt
+    evidence_level: established
+    sources:
+    - SRC-GB-HANSARD-PRIVILEGE-19620313
+    period:
+      start: '1962-03-13'

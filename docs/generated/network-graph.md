@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**805 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**813 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1399,6 +1399,23 @@ flowchart LR
     N_ORG_US_FBI -->|"FBI-Antwortunterlagen vom 06.11.1975 nennen vier Source-300-Serien zum AFSC-Besuchsaustausch als nicht zur Ausschusseinsicht vorbereitet; spätere Freigabe und Rechtsgrundlage ungeklärt"| N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975
     N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE["American Friends Service Committee (AFSC)"]
     N_ORG_US_FBI_LEGAT_BONN -->|"FBI NOTE S.197: vier über Legat Bonn erhaltene Source-300-Serien behandeln Besuche zwischen AFSC-Mitgliedern und Personen in einem anderen Land; kein Erfassungsdatum, keine Straftat festgestellt"| N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE
+    N_PER_GB_RUDI_STERNBERG_PLURENDEN["Rudi Sternberg (später Lord Plurenden)"]
+    N_PER_GB_RUDI_STERNBERG_PLURENDEN -->|"Berger/LaPorte S. 72 Fn. 201: Dominion Export Ltd im Kontext des Vertrags von 1953 im Eigentum Lord Plurendens; genaue Beteiligung und Dauer nicht nachgewiesen"| N_ORG_GB_DOMINION_EXPORT
+    N_PER_GB_ARTHUR_LEWIS["Arthur Lewis (West Ham North)"]
+    N_PER_GB_ARTHUR_LEWIS -->|"Lewis berichtet im Unterhaus 24.04.1961 von gemeinsamer früherer Intervention mit Drayson zu Reisebeschränkungen eines DDR-Geschäftskontakts; Zeitpunkt, Mandat und Vergütung offen"| N_PER_GB_BURNABY_DRAYSON
+    N_PER_GB_ARTHUR_LEWIS -->|"Lewis erklärt am 24.04.1961 seine Verbindung zur Halbleiterindustrie und fordert Lockerung von Exportbeschränkungen; kein Firmenname oder persönlicher Zahlungsbetrag genannt"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_PER_GB_G_B_H_CURRIE["G. B. H. Currie (Down North)"]
+    N_PER_DE_WALTER_ULBRICHT["Walter Ulbricht"]
+    N_PER_GB_G_B_H_CURRIE -->|"Currie berichtet 24.04.1961 über persönliches Treffen mit Ulbricht auf der Leipziger Frühjahrsmesse 1961 als privater Parlamentarier, ohne Regierungsmandat; eigene finanzielle Interessen an der Motion verneint"| N_PER_DE_WALTER_ULBRICHT
+    N_PER_GB_ROBERT_BOOTHBY["Lord Robert Boothby"]
+    N_PER_GB_ROBERT_BOOTHBY -->|"Laut Curries eigener Parlamentsaussage 24.04.1961 nahm auch Lord Boothby am Treffen mit Ulbricht und zwei Ministern teil; keine staatliche britische Delegation oder Vergütung nachgewiesen"| N_PER_DE_WALTER_ULBRICHT
+    N_ORG_GB_FEDERATION_BRITISH_INDUSTRIES["Federation of British Industries (F.B.I.)"]
+    N_ORG_DE_DDR_KAMMER_AUSSENHANDEL["Kammer für Außenhandel der DDR"]
+    N_ORG_GB_FEDERATION_BRITISH_INDUSTRIES -->|"Currie und Rodgers benennen am 24.04.1961 die Handelsvereinbarung zwischen britischem Industrieverband und DDR-Außenhandelskammer als Alternative zu diplomatischem Abkommen; Originalvertrag nicht eingesehen"| N_ORG_DE_DDR_KAMMER_AUSSENHANDEL
+    N_PER_GB_GEORGE_JEGER["George Jeger (Goole)"]
+    N_PER_GB_GEORGE_JEGER -->|"Jeger legt am 12.03.1962 einen Sunday-Telegraph-Bericht vom Vortag zur Leipziger Messe vor und erhebt Privilegienbeschwerde; Pressevorwürfe nicht als Tatsachen bestätigt"| N_ORG_GB_HOUSE_OF_COMMONS
+    N_ORG_GB_SUNDAY_TELEGRAPH["Sunday Telegraph"]
+    N_ORG_GB_HOUSE_OF_COMMONS -->|"Speaker entscheidet am 13.03.1962, Artikel begründe prima facie keine Verletzung parlamentarischer Privilegien; kein Vorrang der Beschwerde, Sachantrag weiterhin möglich; kein Urteil über den Wahrheitsgehalt"| N_ORG_GB_SUNDAY_TELEGRAPH
 ```
 
 [Zur Relationstabelle](network.md)

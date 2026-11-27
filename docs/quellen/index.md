@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**536 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**543 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5971,6 +5971,81 @@ Fundstelle: PDF-Index 1 und 21–22: Bilderberg 2–5 June 2022, Reiseerstattung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1960">
+
+<a id="src-gb-hansard-leipzig-19600315"></a>
+### UK Parliament / Hansard
+
+**[Leipzig Fair, House of Commons](https://hansard.parliament.uk/Commons/1960-03-15/debates/5602bdd5-8957-4307-86ad-ee40be90e2cf/CommonsChamber)**
+
+UK Parliament / Hansard · 1960-03-15 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-LEIPZIG-19600315`
+
+[Seite öffnen](https://hansard.parliament.uk/Commons/1960-03-15/debates/5602bdd5-8957-4307-86ad-ee40be90e2cf/CommonsChamber)
+
+Fundstelle: Frage 23 von S. Silverman, Antwort Erroll
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1961">
+
+<a id="src-gb-hansard-eastwest-1961"></a>
+### UK Parliament / Hansard
+
+**[East-West Trade (Development), HC Deb vol. 639 cc38–100](https://api.parliament.uk/historic-hansard/commons/1961/apr/24/east-west-trade-development)**
+
+UK Parliament / Hansard · 1961-04-24 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-EASTWEST-1961`
+
+[Seite öffnen](https://api.parliament.uk/historic-hansard/commons/1961/apr/24/east-west-trade-development)
+
+Fundstelle: Currie cc38,45–46; Lewis cc49–51,55; Rodgers cc58,62–63
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-privilege-19620312"></a>
+### UK Parliament / Hansard
+
+**[Complaint of Privilege, House of Commons](https://hansard.parliament.uk/commons/1962-03-12/debates/33171795-1b03-44ec-bc07-b909ec41f2b0/ComplaintOfPrivilege)**
+
+UK Parliament / Hansard · 1962-03-12 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-PRIVILEGE-19620312`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-12/debates/33171795-1b03-44ec-bc07-b909ec41f2b0/ComplaintOfPrivilege)
+
+Fundstelle: George Jeger; zitiert Sunday Telegraph vom 11.03.1962, Titelseite; Speaker kündigt Entscheidung an
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-privilege-19620313"></a>
+### UK Parliament / Hansard
+
+**[Complaint of Privilege, Entscheidung des Speakers](https://hansard.parliament.uk/commons/1962-03-13/debates/3e2d8f9a-bbbf-49d1-9c13-a422fd9dec81/CommonsChamber)**
+
+UK Parliament / Hansard · 1962-03-13 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-PRIVILEGE-19620313`
+
+[Seite öffnen](https://hansard.parliament.uk/commons/1962-03-13/debates/3e2d8f9a-bbbf-49d1-9c13-a422fd9dec81/CommonsChamber)
+
+Fundstelle: Abschnitt Complaint of Privilege unmittelbar nach New Member Sworn
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
+
+<a id="src-gb-hansard-leipzig-19620319"></a>
+### UK Parliament / Hansard
+
+**[East Germany (Leipzig Fair), House of Commons](https://hansard.parliament.uk/%E2%80%8CCommons/1962-03-19/debates/91161cd3-2ec6-4486-8e5b-390bb4a04f7b/CommonsChamber)**
+
+UK Parliament / Hansard · 1962-03-19 · Stufe **A** · Primärquelle · `SRC-GB-HANSARD-LEIPZIG-19620319`
+
+[Seite öffnen](https://hansard.parliament.uk/%E2%80%8CCommons/1962-03-19/debates/91161cd3-2ec6-4486-8e5b-390bb4a04f7b/CommonsChamber)
+
+Fundstelle: Fragen 32–33; Zilliacus, Jeger, Heath
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1962">
 
 <a id="src-gb-hansard-drayson-1962"></a>
@@ -7085,6 +7160,21 @@ Fundstelle: StA Essen: kein Anfangsverdacht zu Pressereisen; private USA-Reise g
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1962">
+
+<a id="src-de-ostpreussenblatt-19620505"></a>
+### Das Ostpreußenblatt
+
+**[Das Ostpreußenblatt, Jahrgang 13 Folge 18](https://archiv.preussische-allgemeine.de/1962/1962_05_05_18.pdf)**
+
+Das Ostpreußenblatt · 1962-05-05 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-DE-OSTPREUSSENBLATT-19620505`
+
+[PDF öffnen](https://archiv.preussische-allgemeine.de/1962/1962_05_05_18.pdf)
+
+Fundstelle: Gedruckte S. 4; Bericht über Sunday Telegraph und Osthandel
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1971">
 
 <a id="src-de-spiegel-neubauer-urbach-1971"></a>
@@ -7802,6 +7892,21 @@ taz / Hermann Rheindorf · 1997-07-03 · Stufe **B** · Sekundär-/Forschungsque
 [Seite öffnen](https://taz.de/Zuhaelter-und-Prostituierte/!1393455/)
 
 Fundstelle: Landgericht Köln am 02.07.1997: Klage FAZ/Ulfkotte gegen Rössel abgewiesen; Konzern-Pressefahrt und spätere Shell-Werbevideonutzung des FAZ-Artikels
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="1978">
+
+<a id="src-gb-spectator-sternberg-1978"></a>
+### The Spectator
+
+**[Sternberg’s circus](https://archive.spectator.co.uk/article/14th-january-1978/14/sternbergs-circus)**
+
+The Spectator · 1978-01-14 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-GB-SPECTATOR-STERNBERG-1978`
+
+[Seite öffnen](https://archive.spectator.co.uk/article/14th-january-1978/14/sternbergs-circus)
+
+Fundstelle: S. 14; indexierte Textauszüge
 
 </article>
 

@@ -6110,3 +6110,82 @@ sources:
   locator: DocId 32338625, PDF S. 2; Legat 100-253, Briefdatum 26.01.1956, Referenz 57959
   notes: Amtlich freigegebener Text; Faksimileabruf fehlgeschlagen. Markiertes Empfängerfeld Schlichting, nicht Peet/DGR; letzterer nur unmarkierte Formularoption. Kein Nachweis der
     Herkunft der 1972er Berichte aus derselben Einheit.
+- id: SRC-GB-HANSARD-EASTWEST-1961
+  title: East-West Trade (Development), HC Deb vol. 639 cc38–100
+  institution: UK Parliament / Hansard
+  date: '1961-04-24'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://api.parliament.uk/historic-hansard/commons/1961/apr/24/east-west-trade-development
+  accessed: '2026-11-27'
+  locator: Currie cc38,45–46; Lewis cc49–51,55; Rodgers cc58,62–63
+  notes: Amtliches Protokoll; Aussagen zu eigenem Verhalten, geschäftlichen Interessen und berichteten Kontakten. Kein unabhängiger Nachweis der darin erhobenen Vorwürfe.
+- id: SRC-GB-HANSARD-PRIVILEGE-19620312
+  title: Complaint of Privilege, House of Commons
+  institution: UK Parliament / Hansard
+  date: '1962-03-12'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://hansard.parliament.uk/commons/1962-03-12/debates/33171795-1b03-44ec-bc07-b909ec41f2b0/ComplaintOfPrivilege
+  accessed: '2026-11-27'
+  locator: George Jeger; zitiert Sunday Telegraph vom 11.03.1962, Titelseite; Speaker kündigt Entscheidung an
+  notes: Amtlicher indexierter Protokolltext. Der zitierte Zeitungsbericht behauptet Provisionsvereinbarungen und vermutet politische Absicht; keine Zahlung oder Agentenführung bewiesen.
+- id: SRC-GB-HANSARD-PRIVILEGE-19620313
+  title: Complaint of Privilege, Entscheidung des Speakers
+  institution: UK Parliament / Hansard
+  date: '1962-03-13'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://hansard.parliament.uk/commons/1962-03-13/debates/3e2d8f9a-bbbf-49d1-9c13-a422fd9dec81/CommonsChamber
+  accessed: '2026-11-27'
+  locator: Abschnitt Complaint of Privilege unmittelbar nach New Member Sworn
+  notes: Amtliche Transkription. Keine prima-facie Verletzung parlamentarischer Privilegien; kein Vorrang, Sachantrag bleibt möglich. Keine Entscheidung über Wahrheitsgehalt der Pressevorwürfe.
+- id: SRC-GB-HANSARD-LEIPZIG-19620319
+  title: East Germany (Leipzig Fair), House of Commons
+  institution: UK Parliament / Hansard
+  date: '1962-03-19'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://hansard.parliament.uk/%E2%80%8CCommons/1962-03-19/debates/91161cd3-2ec6-4486-8e5b-390bb4a04f7b/CommonsChamber
+  accessed: '2026-11-27'
+  locator: Fragen 32–33; Zilliacus, Jeger, Heath
+  notes: Indexierter Protokolltext; Zilliacus behauptet NATO-Boykottinitiative, Heath akzeptiert die behaupteten Tatsachen nicht; politische Ausnutzung legitimer Besuche als Regierungshinweis.
+- id: SRC-DE-OSTPREUSSENBLATT-19620505
+  title: Das Ostpreußenblatt, Jahrgang 13 Folge 18
+  institution: Das Ostpreußenblatt
+  date: '1962-05-05'
+  type: contemporary_press
+  primary: false
+  tier: C
+  url: https://archiv.preussische-allgemeine.de/1962/1962_05_05_18.pdf
+  accessed: '2026-11-27'
+  locator: Gedruckte S. 4; Bericht über Sunday Telegraph und Osthandel
+  notes: Zeitgenössischer, politisch positionierter Sekundärbericht über britische Presse. Indexierter Text gelesen, Seitenbildabruf fehlgeschlagen. Keine unabhängige Bestätigung der
+    genannten Funktionen oder Vergütungen.
+- id: SRC-GB-SPECTATOR-STERNBERG-1978
+  title: Sternberg’s circus
+  institution: The Spectator
+  date: '1978-01-14'
+  type: retrospective_press
+  primary: false
+  tier: C
+  url: https://archive.spectator.co.uk/article/14th-january-1978/14/sternbergs-circus
+  accessed: '2026-11-27'
+  locator: S. 14; indexierte Textauszüge
+  notes: Rückblick auf eigene frühere Sunday-Telegraph-Berichterstattung; direkter Volltextabruf fehlgeschlagen. Stützt Identifikation Sternberg/Lord Plurenden, kein unabhängiger Beweis
+    für frühere Pressevorwürfe.
+- id: SRC-GB-HANSARD-LEIPZIG-19600315
+  title: Leipzig Fair, House of Commons
+  institution: UK Parliament / Hansard
+  date: '1960-03-15'
+  type: parliamentary_transcript
+  primary: true
+  tier: A
+  url: https://hansard.parliament.uk/Commons/1960-03-15/debates/5602bdd5-8957-4307-86ad-ee40be90e2cf/CommonsChamber
+  accessed: '2026-11-27'
+  locator: Frage 23 von S. Silverman, Antwort Erroll
+  notes: Amtlicher indexierter Text; Ausstellerzahlen laut Industrieverband, keine Geschäftssumme bekannt. Vergleichsevidenz für legitimen Handel.

@@ -3306,3 +3306,57 @@ entities:
     countries:
     - US
     notes: Friedensorganisation; Gegenstand der 1975 genannten Aktenanforderung und vier nicht zur Einsicht vorbereiteten Berichte. Kein strafrechtlicher Vorwurf.
+  - id: PER-GB-RUDI-STERNBERG-PLURENDEN
+    type: person
+    name: Rudi Sternberg (später Lord Plurenden)
+    countries:
+    - GB
+    notes: Unternehmer; Eigentümer der Dominion Export Ltd im Kontext des DDR-Handelsgeschäfts von 1953 laut Berger/LaPorte. Firmenregister und Beteiligungsquote nicht eingesehen.
+  - id: PER-GB-ARTHUR-LEWIS
+    type: person
+    name: Arthur Lewis (West Ham North)
+    countries:
+    - GB
+    notes: Labour-Unterhausabgeordneter; in Hansard 24.04.1961 offen erklärte Verbindung zur Halbleiterindustrie und früheres Osthandelsengagement. Keine bestätigte Sternberg-Vergütung.
+  - id: PER-GB-G-B-H-CURRIE
+    type: person
+    name: G. B. H. Currie (Down North)
+    countries:
+    - GB
+    notes: Unterhausabgeordneter; berichtet 24.04.1961 von persönlichem Treffen mit Ulbricht in Leipzig, verneint persönliche finanzielle Interessen an der Motion.
+  - id: PER-GB-ROBERT-BOOTHBY
+    type: person
+    name: Lord Robert Boothby
+    countries:
+    - GB
+    notes: Britischer Oberhausabgeordneter; laut Curries Parlamentsbericht Teilnehmer des privaten Treffens mit Ulbricht 1961. Keine nachgewiesene Vergütung aus diesem Vorgang.
+  - id: PER-DE-WALTER-ULBRICHT
+    type: person
+    name: Walter Ulbricht
+    countries:
+    - DE
+    notes: 1961 Vorsitzender des Staatsrats der DDR; Treffen mit britischen Parlamentariern laut zeitgenössischer Aussage Curries.
+  - id: ORG-GB-FEDERATION-BRITISH-INDUSTRIES
+    type: industry_association
+    name: Federation of British Industries (F.B.I.)
+    countries:
+    - GB
+    notes: Historischer britischer Industrieverband, nicht das US Federal Bureau of Investigation. Nicht als staatliche diplomatische Vertretung kodiert.
+  - id: ORG-DE-DDR-KAMMER-AUSSENHANDEL
+    type: trade_association
+    name: Kammer für Außenhandel der DDR
+    countries:
+    - DE
+    notes: In britischem Hansard als Chamber of Foreign Trade bzw. Chamber of Trade bezeichnet; Handelspartner des britischen Industrieverbandes.
+  - id: PER-GB-GEORGE-JEGER
+    type: person
+    name: George Jeger (Goole)
+    countries:
+    - GB
+    notes: Unterhausabgeordneter, erhob am 12.03.1962 Privilegienbeschwerde über einen Zeitungsbericht. Nicht als Beteiligter an den beanstandeten Geschäften erfasst.
+  - id: ORG-GB-SUNDAY-TELEGRAPH
+    type: media_outlet
+    name: Sunday Telegraph
+    countries:
+    - GB
+    notes: Britische Sonntagszeitung; Artikel vom 11.03.1962 im britischen Parlament referiert, Originalausgabe noch nicht eingesehen.

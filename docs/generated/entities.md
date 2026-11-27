@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**581 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**590 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -15,6 +15,7 @@
 | António Fernandes Carvajal (gest. 1659) | person | `PER-GB-ANTONIO-FERNANDES-CARVAJAL` | GB, PT | [2](network.md#rel-gb-crom-1649-001) |
 | Aristide Brunello | person | `PER-DE-ARISTIDE-BRUNELLO` | DE | [2](network.md#rel-de-lang-002) |
 | Armengol Ondo Nguema | person | `PER-GQ-ARMENGOL-ONDO-NGUEMA` | GQ | [1](network.md#rel-riggs-followup-053) |
+| Arthur Lewis (West Ham North) | person | `PER-GB-ARTHUR-LEWIS` | GB | [2](network.md#rel-de-ddr-uk-014) |
 | August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
 | Augusto Pinochet | person | `PER-CL-AUGUSTO-PINOCHET` | CL | [3](network.md#rel-us-riggs-pinochet-accounts-1979-2004) |
 | Berge Aris Balanian | person | `PER-INT-BERGE-BALANIAN` | DE, LB | [2](network.md#rel-ulf-balanian-contact) |
@@ -42,9 +43,11 @@
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Fritz Baier | person | `PER-DE-FRITZ-BAIER` | DE | [1](network.md#rel-de-pullach-004) |
+| G. B. H. Currie (Down North) | person | `PER-GB-G-B-H-CURRIE` | GB | [1](network.md#rel-de-ddr-uk-016) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
-| George Burnaby Drayson | person | `PER-GB-BURNABY-DRAYSON` | GB | [4](network.md#rel-de-ddr-uk-006) |
+| George Burnaby Drayson | person | `PER-GB-BURNABY-DRAYSON` | GB | [5](network.md#rel-de-ddr-uk-006) |
+| George Jeger (Goole) | person | `PER-GB-GEORGE-JEGER` | GB | [1](network.md#rel-de-ddr-uk-019) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gerhard Wessel | person | `PER-DE-GERHARD-WESSEL` | DE | [3](network.md#rel-de-kauka-001) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
@@ -88,6 +91,7 @@
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
+| Lord Robert Boothby | person | `PER-GB-ROBERT-BOOTHBY` | GB | [1](network.md#rel-de-ddr-uk-017) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
@@ -118,6 +122,7 @@
 | Robert Lehr | person | `PER-DE-ROBERT-LEHR` | DE | – |
 | Roberto Calvi (1920–1982) | person | `PER-IT-ROBERTO-CALVI` | IT | [3](network.md#rel-it-ambrosiano-calvi-1980-001) |
 | Rolf Kauka | person | `PER-DE-ROLF-KAUKA` | DE | [4](network.md#rel-de-kauka-001) |
+| Rudi Sternberg (später Lord Plurenden) | person | `PER-GB-RUDI-STERNBERG-PLURENDEN` | GB | [1](network.md#rel-de-ddr-uk-013) |
 | Sibylle Vorderbrügge | person | `PER-DE-SIBYLLE-VORDERBRUEGGE` | DE | – |
 | Sir John Sawers | person | `PER-GB-JOHN-SAWERS` | GB | [3](network.md#rel-gb-bb-uk-003) |
 | Stefan Kornelius | person | `PER-DE-STEFAN-KORNELIUS` | DE | [2](network.md#rel-de-tmn-015) |
@@ -145,6 +150,7 @@
 | VP01 (LKA NRW, Amri-Komplex) | person | `PER-DE-VP01-AMRI` | DE | [2](network.md#rel-de-amri-001) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
 | Walter Scheel (1919–2016) | person | `PER-DE-WALTER-SCHEEL` | DE | [1](network.md#rel-us-acg-mccloy-scheel-1975-001) |
+| Walter Ulbricht | person | `PER-DE-WALTER-ULBRICHT` | DE | [2](network.md#rel-de-ddr-uk-016) |
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
 | Walther Leisler Kiep (1926–2016) | person | `PER-DE-WALTHER-LEISLER-KIEP` | DE | [6](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Werner Marx (1924–1985, CDU) | person | `PER-DE-WERNER-MARX-CDU-1965-1972` | DE | [1](network.md#rel-de-marx-sfz-chair-1965-1972-001) |
@@ -321,7 +327,7 @@
 | DIE ZEIT | media_outlet | `ORG-DE-DIE-ZEIT` | DE | [2](network.md#rel-de-tmn-004) |
 | Direction générale de la surveillance du territoire (DGST) | intelligence_service | `ORG-MA-DGST` | MA | [2](network.md#rel-de-amri-007) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
-| Dominion Export Ltd | company | `ORG-GB-DOMINION-EXPORT` | GB | [2](network.md#rel-de-ddr-uk-008) |
+| Dominion Export Ltd | company | `ORG-GB-DOMINION-EXPORT` | GB | [3](network.md#rel-de-ddr-uk-008) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
 | Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
@@ -347,6 +353,7 @@
 | Federal Financing Bank (FFB) | government_financing_institution | `ORG-US-FEDERAL-FINANCING-BANK-1973` | US | [2](network.md#rel-us-opic-ffb-recourse-1977) |
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [4](network.md#rel-int-bcci-005) |
+| Federation of British Industries (F.B.I.) | industry_association | `ORG-GB-FEDERATION-BRITISH-INDUSTRIES` | GB | [1](network.md#rel-de-ddr-uk-018) |
 | Financial Crimes Enforcement Network (FinCEN) | government_agency | `ORG-US-FINCEN` | US | [3](network.md#rel-riggs-followup-024) |
 | First American Bankshares | bank_holding_company | `ORG-US-FIRST-AMERICAN-BANKSHARES` | US | [1](network.md#rel-int-bcci-002) |
 | First American Title Company (2006) | escrow_service | `ORG-US-FIRST-AMERICAN-TITLE-2006` | US | [2](network.md#rel-riggs-post-2004-019) |
@@ -379,7 +386,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
-| House of Commons (britisches Unterhaus) | legislature | `ORG-GB-HOUSE-OF-COMMONS` | GB | [1](network.md#rel-de-ddr-uk-010) |
+| House of Commons (britisches Unterhaus) | legislature | `ORG-GB-HOUSE-OF-COMMONS` | GB | [4](network.md#rel-de-ddr-uk-010) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
 | IBM Corporation (1992) | historical_company | `ORG-US-IBM-1992` | US | [1](network.md#rel-ws-ibm-osac) |
@@ -397,6 +404,7 @@
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
 | John J. McCloy Fund for German-American Exchanges (1975) | historical_exchange_fund | `PRG-US-MCCLOY-FUND-1975` | US, DE | [4](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Kalunga Company S.A. | company | `ORG-GQ-KALUNGA-COMPANY-SA` | GQ | [2](network.md#rel-riggs-followup-039) |
+| Kammer für Außenhandel der DDR | trade_association | `ORG-DE-DDR-KAMMER-AUSSENHANDEL` | DE | [1](network.md#rel-de-ddr-uk-018) |
 | Kanzlei Michael Berger (2004–2007) | law_firm | `ORG-US-BERGER-LAW-OFFICE-2004-2007` | US | [2](network.md#rel-riggs-post-2004-025) |
 | Kennecott Copper Corporation / Braden Copper (Chile-Fall) | historical_multinational_mining_corporation | `ORG-US-KENNECOTT-COPPER-CORP-1971` | US, CL | [2](network.md#rel-us-opic-kennecott-credit-cover-1971-1972) |
 | Konto Nationale Treuhand (Wahlkampffonds 1933) | financing_account | `PRG-DE-NATIONALE-TREUHAND-1933` | DE | [1](network.md#rel-de-igf-013) |
@@ -510,6 +518,7 @@
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
 | Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg) | historical_civic_association | `ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990` | DE | [4](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Sun Chemical Company (El-Mercurio-Lieferantin, 1972) | historical_commercial_supplier | `ORG-US-SUN-CHEMICAL-1972` | US | [2](network.md#rel-us-sun-chemical-el-mercurio-credit-1972) |
+| Sunday Telegraph | media_outlet | `ORG-GB-SUNDAY-TELEGRAPH` | GB | [1](network.md#rel-de-ddr-uk-020) |
 | Superior Tribunal de Justiça (STJ) | court | `ORG-BR-STJ` | BR | [1](network.md#rel-ws-stj-contract) |
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Sweetwater Malibu LLC | company | `ORG-US-SWEETWATER-MALIBU-LLC` | US | [1](network.md#rel-riggs-post-2004-047) |
