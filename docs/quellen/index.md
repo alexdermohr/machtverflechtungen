@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**531 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**536 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -5626,6 +5626,81 @@ Fundstelle: Green Series Bd. 14, gedruckte S. 609–620 zu Opferwerten und S. 85
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1956">
+
+<a id="src-us-nara-fbi-lawson-cic-1956"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn: John Howard Lawson, Quellenweg der US Army Europe / 66th CIC](https://www.archives.gov/files/research/jfk/releases/docid-32338625.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1956-03-19 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-LAWSON-CIC-1956`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32338625.pdf)
+
+Fundstelle: DocId 32338625, PDF S. 2; Legat 100-253, Briefdatum 26.01.1956, Referenz 57959
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1971">
+
+<a id="src-us-nara-lawson-dgr-letter-1971"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[John Howard Lawson an Democratic German Report: Adressänderung](https://www.archives.gov/files/research/jfk/releases/docid-32339036.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1971-12-18 · Stufe **A** · Primärquelle · `SRC-US-NARA-LAWSON-DGR-LETTER-1971`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32339036.pdf)
+
+Fundstelle: RIF 124-90143-10454; DocId 32339036, Umschlag und Brief; HQ 100-370750-349
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-nara-fbi-lawson-dgr-1972"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn an FBI Director: John Howard Lawson](https://www.archives.gov/files/research/jfk/releases/docid-32339034.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1972-01-13 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-LAWSON-DGR-1972`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/docid-32339034.pdf)
+
+Fundstelle: RIF 124-90143-10452; DocId 32339034, PDF S. 2; HQ 100-370750-349; Legat 100-963; DGR-Aktenhinweis 105-18093
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1972">
+
+<a id="src-us-nara-fbi-fensterwald-mader-1972"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI Legal Attaché Bonn: Bernard Fensterwald Jr. – Julius Mader, mit Anlage zur Source 300](https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10433-10209.pdf)**
+
+U.S. National Archives and Records Administration / FBI · 1972-11-13 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-FENSTERWALD-MADER-1972`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10433-10209.pdf)
+
+Fundstelle: RIF 104-10433-10209; Memorandum 13.11.1972, Legat 105-7501-1779; Mader-Aktenhinweis 100-169674; Fortsetzung Box 105-7501-1779 und folgende Anlage über Source 300
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1975">
+
+<a id="src-us-nara-fbi-hsc-afsc-1975"></a>
+### U.S. National Archives and Records Administration / FBI
+
+**[FBI: Antwort auf Aktenanforderung des House Select Committee, AFSC](https://www.archives.gov/files/research/jfk/releases/2025/0318/124-10273-10038.PDF)**
+
+U.S. National Archives and Records Administration / FBI · 1975-11-06 · Stufe **A** · Primärquelle · `SRC-US-NARA-FBI-HSC-AFSC-1975`
+
+[PDF öffnen](https://www.archives.gov/files/research/jfk/releases/2025/0318/124-10273-10038.PDF)
+
+Fundstelle: RIF 124-10273-10038; DocId 32989695, gedruckte Scan-Seiten 195–199; besonders S. 197, NOTE; Referenz 62-116464
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2010">
 
 <a id="src-us-wapo-sec-10k-2010"></a>
@@ -6633,7 +6708,7 @@ Berghahn Books · 2010 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-GB-
 
 [Seite öffnen](https://www.berghahnbooks.com/title/BergerFriendly)
 
-Fundstelle: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; Textfassung über öffentlich indexierten Buchspiegel gelesen
+Fundstelle: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; S. 116 Fn. 190 (Howarth 1981, GDR Monitor 5, S. 4); Textfassung über öffentlich indexierten Buchspiegel gelesen
 
 </article>
 

@@ -3262,3 +3262,47 @@ entities:
     countries:
     - DE
     notes: Historische Planung zur Vortäuschung konspirativer Tätigkeit; Bezug im MfS-Dokument K1/21, Abschnitt 3.3 d. Kein Beweis der konkreten Ausführung.
+  - id: ORG-US-FBI-LEGAT-BONN
+    type: intelligence_liaison_office
+    name: FBI Legal Attaché Bonn (1956–1975 belegt)
+    countries:
+    - US
+    - DE
+    notes: Historischer Dienststellenknoten; Weiterleitung der in den Quellen genannten Vorgänge, keine Aussage über heutige Organisation.
+  - id: ORG-US-ARMY-66TH-CIC
+    type: military_intelligence_unit
+    name: 66th CIC Group (Region VIII, Berlin, 1956)
+    countries:
+    - US
+    - DE
+    notes: Im FBI-Vermerk vom 19.03.1956 als beschaffende Einheit benannt. Keine Gleichsetzung mit Source 300 der 1970er Jahre.
+  - id: PRG-US-FBI-BUREAU-SOURCE-300
+    type: intelligence_reporting_channel
+    name: Bureau Source 300 (FBI-Quellenbezeichnung)
+    countries:
+    - US
+    notes: Dienstliche Bezeichnung, keine namentlich identifizierte natürliche Person oder eigene Behörde. Herkunft US Army Deutschland nur für vier AFSC-Vorgänge ausdrücklich belegt.
+  - id: PER-US-JOHN-HOWARD-LAWSON
+    type: person
+    name: John Howard Lawson
+    countries:
+    - US
+    notes: Amerikanischer Schriftsteller; Adressänderungsmitteilung an DGR 1971. Überwachter Kontakt ist kein Agentennachweis.
+  - id: PER-US-BERNARD-FENSTERWALD
+    type: person
+    name: Bernard Fensterwald Jr.
+    countries:
+    - US
+    notes: Amerikanischer Anwalt; laut FBI-Vermerk Buchbestellung bei Julius Mader 1972. Keine operative Beteiligung nachgewiesen.
+  - id: ORG-US-HOUSE-SELECT-COMMITTEE-INTELLIGENCE-1975
+    type: parliamentary_inquiry
+    name: U.S. House Select Committee on Intelligence Activities (1975)
+    countries:
+    - US
+    notes: Parlamentarischer Untersuchungsausschuss zu Nachrichtendiensten, nicht späterer Assassinations-Untersuchungsausschuss.
+  - id: ORG-US-AMERICAN-FRIENDS-SERVICE-COMMITTEE
+    type: civil_society_organization
+    name: American Friends Service Committee (AFSC)
+    countries:
+    - US
+    notes: Friedensorganisation; Gegenstand der 1975 genannten Aktenanforderung und vier nicht zur Einsicht vorbereiteten Berichte. Kein strafrechtlicher Vorwurf.

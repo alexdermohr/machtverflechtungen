@@ -7210,10 +7210,11 @@ relations:
     from: ORG-DE-DDR-STAAT
     to: ORG-GB-NOTLEYS-ADVERTISING
     type: reported_public_relations_mandate
-    label: Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Vertragsbeginn und Honorar offen
+    label: Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Berger/LaPorte S. 116 nennen berichtete Vergütung bis zu 20.000 GBP jährlich ab 1960; tatsächliche Höhe, Laufzeit und Zahlungsbelege offen
     evidence_level: strong
     sources:
     - SRC-DE-BPB-HOWARTH-2017
+    - SRC-GB-BERGER-LAPORTE-FRIENDLY-ENEMIES-2010
     period:
       start: '1960'
   - id: REL-DE-DDR-UK-006
@@ -7288,3 +7289,128 @@ relations:
     - SRC-DE-BARCH-MFS-K121-1971
     period:
       start: '1971-04-06'
+  - id: REL-US-DDR-LIAISON-001
+    from: PER-US-JOHN-HOWARD-LAWSON
+    to: ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT
+    type: documented_correspondence
+    label: 'Briefkopie vom 18.12.1971: Lawson bittet DGR um Änderung seiner Anschrift; tatsächlicher Empfang und politische Zusammenarbeit nicht belegt'
+    evidence_level: established
+    sources:
+    - SRC-US-NARA-LAWSON-DGR-LETTER-1971
+    - SRC-US-NARA-FBI-LAWSON-DGR-1972
+    period:
+      start: '1971-12-18'
+  - id: REL-US-DDR-LIAISON-002
+    from: PRG-US-FBI-BUREAU-SOURCE-300
+    to: ORG-US-FBI-LEGAT-BONN
+    type: reported_information_transfer
+    label: Legat Bonn berichtet 13.01.1972 Erhalt der Lawson-Adressänderung über Bureau Source 300; Zeitpunkt des vorherigen Erhalts und Beschaffungsmethode offen
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-LAWSON-DGR-1972
+  - id: REL-US-DDR-LIAISON-003
+    from: ORG-US-FBI-LEGAT-BONN
+    to: ORG-US-FBI
+    type: documented_information_report
+    label: 'Dienstlicher FBI-Vermerk vom 13.01.1972 an Director, FBI: Lawson-DGR-Korrespondenz mit DGR-Aktenhinweis 105-18093'
+    evidence_level: established
+    sources:
+    - SRC-US-NARA-FBI-LAWSON-DGR-1972
+    period:
+      start: '1972-01-13'
+  - id: REL-US-DDR-LIAISON-004
+    from: PER-DE-JULIUS-MADER
+    to: PER-US-BERNARD-FENSTERWALD
+    type: reported_book_offer
+    label: 'FBI-Vermerk 13.11.1972 berichtet Formularbrief Maders mit Angebot seines Buchs Yellow List: Where is the CIA? und Bestellformular; keine operative Anwerbung belegt'
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-FENSTERWALD-MADER-1972
+  - id: REL-US-DDR-LIAISON-005
+    from: PER-US-BERNARD-FENSTERWALD
+    to: PER-DE-JULIUS-MADER
+    type: reported_book_order
+    label: FBI-Vermerk berichtet Bestellung eines englischen Exemplars mit einem 2-Dollar-Scheck; Einlösung, Lieferung oder weitere Zusammenarbeit nicht nachgewiesen
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-FENSTERWALD-MADER-1972
+    period:
+      start: '1972'
+  - id: REL-US-DDR-LIAISON-006
+    from: PRG-US-FBI-BUREAU-SOURCE-300
+    to: ORG-US-FBI-LEGAT-BONN
+    type: reported_information_transfer
+    label: Legat Bonn berichtet 13.11.1972 Erhalt des Materials zur Mader-Fensterwald-Bestellung über Bureau Source 300; keine konkret benannte Beschaffungsstelle
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-FENSTERWALD-MADER-1972
+    period:
+      start: '1972'
+  - id: REL-US-DDR-LIAISON-007
+    from: ORG-US-FBI-LEGAT-BONN
+    to: ORG-US-FBI
+    type: documented_information_report
+    label: Dienstlicher FBI-Vermerk vom 13.11.1972 an Acting Director zur Mader-Buchbestellung; Anlage erläutert Quellenschutz und bedingte Weitergabe
+    evidence_level: established
+    sources:
+    - SRC-US-NARA-FBI-FENSTERWALD-MADER-1972
+    period:
+      start: '1972-11-13'
+  - id: REL-US-DDR-LIAISON-008
+    from: ORG-US-ARMY-66TH-CIC
+    to: ORG-US-FBI-LEGAT-BONN
+    type: reported_information_transfer
+    label: 'FBI-Vermerk 19.03.1956: Kopie eines Lawson-Briefs an Schlichting aus technischer Erfassung der 66th CIC Group über G-2 US Army Europe; DGR-Feld unmarkiert'
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-LAWSON-CIC-1956
+    period:
+      start: '1956'
+  - id: REL-US-DDR-LIAISON-009
+    from: ORG-US-HOUSE-SELECT-COMMITTEE-INTELLIGENCE-1975
+    to: ORG-US-FBI
+    type: documented_records_request
+    label: Aktenanforderung vom 26.09.1975 zu drei Organisationen einschließlich AFSC; später präzisierter Zeitraum laut FBI-Antwort
+    evidence_level: established
+    sources:
+    - SRC-US-NARA-FBI-HSC-AFSC-1975
+    period:
+      start: '1975-09-26'
+  - id: REL-US-DDR-LIAISON-010
+    from: ORG-US-ARMY
+    to: PRG-US-FBI-BUREAU-SOURCE-300
+    type: reported_origin_of_specific_records
+    label: FBI NOTE in der Antwort von 1975, S.197, identifiziert vier im AFSC-Zusammenhang erhaltene Source-300-Berichte als Material der US Army in Deutschland; keine pauschale Zuordnung aller Source-300-Fälle
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-HSC-AFSC-1975
+  - id: REL-US-DDR-LIAISON-011
+    from: ORG-US-ARMY
+    to: ORG-US-FBI
+    type: reported_nondisclosure_request
+    label: 'FBI NOTE S.197: Colonel John Heiss, Security Division ACSI, bat laut Liaison Section am 03.11.1975 um Nichtfreigabe der vier AFSC-Berichte an HSC'
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-HSC-AFSC-1975
+    period:
+      start: '1975-11-03'
+  - id: REL-US-DDR-LIAISON-012
+    from: ORG-US-FBI
+    to: ORG-US-HOUSE-SELECT-COMMITTEE-INTELLIGENCE-1975
+    type: documented_omission_from_response
+    label: FBI-Antwortunterlagen vom 06.11.1975 nennen vier Source-300-Serien zum AFSC-Besuchsaustausch als nicht zur Ausschusseinsicht vorbereitet; spätere Freigabe und Rechtsgrundlage
+      ungeklärt
+    evidence_level: established
+    sources:
+    - SRC-US-NARA-FBI-HSC-AFSC-1975
+    period:
+      start: '1975-11-06'
+  - id: REL-US-DDR-LIAISON-013
+    from: ORG-US-FBI-LEGAT-BONN
+    to: ORG-US-AMERICAN-FRIENDS-SERVICE-COMMITTEE
+    type: reported_records_received_about
+    label: 'FBI NOTE S.197: vier über Legat Bonn erhaltene Source-300-Serien behandeln Besuche zwischen AFSC-Mitgliedern und Personen in einem anderen Land; kein Erfassungsdatum, keine
+      Straftat festgestellt'
+    evidence_level: strong
+    sources:
+    - SRC-US-NARA-FBI-HSC-AFSC-1975

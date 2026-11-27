@@ -1,6 +1,6 @@
 # DDR-Auslandspropaganda, Medienfinanzierung und britische Handelsinteressen (1952–1975)
 
-**Stand 27. November 2026.** Anschluss an Pullach intern (1971), nicht eine neue Behauptung über die Empfänger des dort dokumentierten Materialversands. Die Fallstudie trennt nachweisbare öffentliche Interessenangaben, berichtete Finanzierung und Verträge, journalistische Arbeit, Überwachung und Desinformationsplanung. Die konkrete Höhe der DDR-Zuwendungen an den DGR und an die britische Agentur ist noch nicht bekannt.
+**Stand 27. November 2026.** Anschluss an Pullach intern (1971), nicht eine neue Behauptung über die Empfänger des dort dokumentierten Materialversands. Die Fallstudie trennt nachweisbare öffentliche Interessenangaben, berichtete Finanzierung und Verträge, journalistische Arbeit, Überwachung und Desinformationsplanung. Die konkrete Höhe der DDR-Zuwendungen an den DGR und die tatsächlich gezahlten Agenturhonorare sind noch nicht bekannt.
 
 ## Quellenregister und Beweisgrenzen
 
@@ -31,6 +31,8 @@ K 1/21 3.3 d dokumentiert eine geplante Täuschungsmaßnahme im Zusammenhang mit
 ## 3. Großbritannien: Handel, PR und parlamentarische Interessen
 
 Howarth beschreibt Notley's Advertising Ltd als damalige Londoner PR-Agentur der DDR und Drayson sowie einen weiteren konservativen Abgeordneten als Berater. Im Dezember 1960 erschienen Briefe Draysons zur Ausweisung des Neues-Deutschland-Korrespondenten Franz Krahl; die Agentur soll die Briefe entworfen haben. Fn. 24 verweist konkret auf The Times, 7.12.1960 und The Guardian, 8.12.1960. Honorare, Vertragslaufzeit, der zweite Berater und Briefentwürfe sind nicht unabhängig verifiziert.
+
+Berger/LaPorte S. 116, Fn. 190, nennen für das Notley-Mandat ab 1960 eine berichtete Vergütung von bis zu 20.000 GBP pro Jahr sowie den Übergang des Auftrags auf Lex Hornsby and Partners im Jahr 1966. Die Fußnote verweist auf Marianne Howarth, *East Germany at Westminster – the Campaign for Recognition*, GDR Monitor 5 (1981), S. 4, noch nicht eingesehen. Der Betrag ist eine in der Forschung referierte Schätzung, kein nachgewiesenes Jahresbudget, kein kumulierter Betrag und keine persönliche Zahlung an Drayson. Als weiterer konkreter Prüfpfad ist das britische Foreign-Office-Dossier FO 371/160650 CG 1681/4 (Oktober 1961) bei Berger/LaPorte angegeben; der Originalakteninhalt ist noch nicht geprüft.
 
 Berger/LaPorte S. 72 berichten, dass Drayson als Direktor der Dominion Export Ltd im Herbst 1953 eine Handelsvereinbarung mit der DDR im Umfang von rund 3 Mio. GBP abschloss. Der Betrag ist ein berichteter Vertragswert und weder ein nachgewiesener Geldzufluss noch eine persönliche Zuwendung. Am 21.03.1962 legte Drayson im britischen Unterhaus ausdrücklich offen, dass eine mit ihm verbundene Firma DDR-Ammoniumsulfat und Kali importierte. Die amtliche Transkription nennt keinen Firmennamen; die Identifikation Dominion Export folgt allein der historischen Forschung. Die öffentliche Interessenangabe schwächt die Hypothese vollständig verdeckter wirtschaftlicher Einflussnahme, während die PR-Beratung und die zugeschriebenen Briefentwürfe einen gesonderten Interessenkonflikt begründen.
 

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**574 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**581 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -18,6 +18,7 @@
 | August von Knieriem (1887–1978) | person | `PER-DE-AUGUST-VON-KNIERIEM` | DE | [3](network.md#rel-de-igf-002) |
 | Augusto Pinochet | person | `PER-CL-AUGUSTO-PINOCHET` | CL | [3](network.md#rel-us-riggs-pinochet-accounts-1979-2004) |
 | Berge Aris Balanian | person | `PER-INT-BERGE-BALANIAN` | DE, LB | [2](network.md#rel-ulf-balanian-contact) |
+| Bernard Fensterwald Jr. | person | `PER-US-BERNARD-FENSTERWALD` | US | [2](network.md#rel-us-ddr-liaison-004) |
 | Bernd Schmidbauer | person | `PER-DE-BERND-SCHMIDBAUER` | DE | [1](network.md#rel-ulf-fallahian-schmidbauer) |
 | Bruno Tassan Din | person | `PER-IT-BRUNO-TASSAN-DIN` | IT | [3](network.md#rel-it-rizzoli-tassandin-1980-001) |
 | C. Fred Bergsten | person | `PER-US-C-FRED-BERGSTEN` | US | [2](network.md#rel-us-bergsten-opic-board-1977) |
@@ -67,13 +68,14 @@
 | Inés Lucía Pinochet | person | `PER-CL-INES-LUCIA-PINOCHET` | CL | [1](network.md#rel-riggs-followup-001) |
 | Joe Montgomery (United Fruit 1954) | person | `PER-US-JOE-MONTGOMERY-UFCO-1954` | US | [1](network.md#rel-us-montgomery-ufco-liaison-1954) |
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
+| John Howard Lawson | person | `PER-US-JOHN-HOWARD-LAWSON` | US | [1](network.md#rel-us-ddr-liaison-001) |
 | John J. McCloy (1895–1989) | person | `PER-US-JOHN-J-MCCLOY` | US | [1](network.md#rel-us-acg-mccloy-chair-1975-001) |
 | John Micklethwait | person | `PER-GB-JOHN-MICKLETHWAIT` | GB | [3](network.md#rel-us-bbf-007) |
 | John Scott Peet | person | `PER-GB-JOHN-SCOTT-PEET` | GB, DE | [2](network.md#rel-de-ddr-uk-002) |
 | Josef Joffe | person | `PER-DE-JOSEF-JOFFE` | DE | [2](network.md#rel-de-tmn-032) |
 | José Roberto Toscano Dantas | person | `PER-BR-JOSE-ROBERTO-TOSCANO-DANTAS` | BR | [2](network.md#rel-ws-esca-adviser) |
 | Julia Jäkel | person | `PER-DE-JULIA-JAEKEL` | DE | [2](network.md#rel-de-tmn-029) |
-| Julius Mader | person | `PER-DE-JULIUS-MADER` | DE | [3](network.md#rel-de-pullach-003) |
+| Julius Mader | person | `PER-DE-JULIUS-MADER` | DE | [5](network.md#rel-de-pullach-003) |
 | Jörg Quoos | person | `PER-DE-JOERG-QUOOS` | DE | [1](network.md#rel-de-tmn-046) |
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
@@ -158,6 +160,7 @@
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
+| 66th CIC Group (Region VIII, Berlin, 1956) | military_intelligence_unit | `ORG-US-ARMY-66TH-CIC` | US, DE | [1](network.md#rel-us-ddr-liaison-008) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | AB Svensk Exportkredit (SEK, SIVAM) | historical_export_credit_institution | `ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997` | SE | [1](network.md#rel-ws-sek-cayman) |
 | Abayak S.A. (1998–2004) | company | `ORG-GQ-ABAYAK-SA` | GQ | [5](network.md#rel-riggs-followup-046) |
@@ -170,6 +173,7 @@
 | Amerada Hess (Unternehmensverbund, 2004) | oil_company | `ORG-US-AMERADA-HESS-2004` | US | [1](network.md#rel-riggs-followup-054) |
 | American Council on Germany (ACG) | transatlantic_nonprofit | `ORG-US-ACG-2012` | US | [8](network.md#rel-us-gmf-acg-2012-001) |
 | American Friends of Bilderberg Inc. | association | `ORG-US-AMERICAN-FRIENDS-BILDERBERG` | US | [7](network.md#rel-us-bbf-001) |
+| American Friends Service Committee (AFSC) | civil_society_organization | `ORG-US-AMERICAN-FRIENDS-SERVICE-COMMITTEE` | US | [1](network.md#rel-us-ddr-liaison-013) |
 | American Institute for Contemporary German Studies (AICGS) | policy_research_institute | `ORG-US-AICGS-2012` | US | [1](network.md#rel-us-gmf-aicgs-2012-001) |
 | Anaconda Company (Chile-Kupferbeteiligungen 1972–1977) | historical_multinational_mining_corporation | `ORG-US-ANACONDA-COPPER-1972` | US, CL | [7](network.md#rel-us-opic-anaconda-claim-denial-1972) |
 | Anduril Industries | defense_technology_company | `ORG-US-ANDURIL` | US | [3](network.md#rel-us-army-anduril-titan-order-2026) |
@@ -259,6 +263,7 @@
 | Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
 | Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
+| Bureau Source 300 (FBI-Quellenbezeichnung) | intelligence_reporting_channel | `PRG-US-FBI-BUREAU-SOURCE-300` | US | [3](network.md#rel-us-ddr-liaison-002) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
@@ -293,7 +298,7 @@
 | Cámara de Diputados de Chile | national_legislative_chamber | `ORG-CL-CHAMBER-OF-DEPUTIES` | CL | [1](network.md#rel-cl-allende-chamber-withdrawal-1971) |
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Deloitte & Touche (Bahamas, 1991) | professional_services | `ORG-BS-DELOITTE-TOUCHE-1991` | BS | [3](network.md#rel-riggs-followup-010) |
-| Democratic German Report (1952–1975) | media_outlet | `ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT` | DE | [3](network.md#rel-de-ddr-uk-001) |
+| Democratic German Report (1952–1975) | media_outlet | `ORG-DE-DDR-DEMOCRATIC-GERMAN-REPORT` | DE | [4](network.md#rel-de-ddr-uk-001) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
 | Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [5](network.md#rel-de-bnd-media-016) |
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
@@ -337,7 +342,8 @@
 | Externe BND-Mandate in Presserechtsverfahren seit 2013 | documented_mandate_series | `PRG-DE-BND-EXTERNE-PRESSERECHTSMANDATE-2013-2025` | DE | [2](network.md#rel-de-bnd-media-011) |
 | ExxonMobil (berichteter Unternehmensverbund 2004) | oil_company | `ORG-US-EXXONMOBIL-REPORT-2004` | US | [1](network.md#rel-riggs-followup-055) |
 | Familie Max Warburg Vermögensverwaltung KG (FMWV) | family_asset_holding | `ORG-DE-WARBURG-FMWV-2013` | DE | [1](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
-| Federal Bureau of Investigation (FBI) | government_agency | `ORG-US-FBI` | US | [1](network.md#rel-ws-ic-fbi) |
+| FBI Legal Attaché Bonn (1956–1975 belegt) | intelligence_liaison_office | `ORG-US-FBI-LEGAT-BONN` | US, DE | [6](network.md#rel-us-ddr-liaison-002) |
+| Federal Bureau of Investigation (FBI) | government_agency | `ORG-US-FBI` | US | [6](network.md#rel-ws-ic-fbi) |
 | Federal Financing Bank (FFB) | government_financing_institution | `ORG-US-FEDERAL-FINANCING-BANK-1973` | US | [2](network.md#rel-us-opic-ffb-recourse-1977) |
 | Federal Reserve Staff Study 168 – The Economics of the Private Equity Market (1995) | historical_research_document | `DOC-US-FED-PRIVATE-EQUITY-1995` | US | [1](network.md#rel-us-fed-staff-pe-study-1995-001) |
 | Federal Reserve System (US-Bankaufsicht) | bank_supervisor | `ORG-US-FEDERAL-RESERVE` | US | [4](network.md#rel-int-bcci-005) |
@@ -535,6 +541,7 @@
 | U.S. Department of State (1954) | historical_federal_executive_department | `ORG-US-STATE-DEPARTMENT-1954` | US | [1](network.md#rel-us-ufco-state-doj-lobby-1954) |
 | U.S. Department of the Treasury | government_agency | `ORG-US-TREASURY` | US | [4](network.md#rel-int-bcci-003) |
 | U.S. District Court for the District of Columbia (Anaconda-Urteil 1976) | federal_judicial_court_historical | `ORG-US-DISTRICT-COURT-DC-1976` | US | [1](network.md#rel-us-dc-court-opic-anaconda-vacatur-1976) |
+| U.S. House Select Committee on Intelligence Activities (1975) | parliamentary_inquiry | `ORG-US-HOUSE-SELECT-COMMITTEE-INTELLIGENCE-1975` | US | [2](network.md#rel-us-ddr-liaison-009) |
 | UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
@@ -543,7 +550,7 @@
 | United Fruit Company (1952) | historical_multinational_corporation | `ORG-US-UNITED-FRUIT-1952` | US, GT | [8](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | United Nations Children's Fund (UNICEF) | international_organization | `ORG-INT-UNICEF` |  | [1](network.md#rel-riggs-post-2004-056) |
 | United Nations Development Programme (UNDP) | international_organization | `ORG-INT-UNDP` |  | [2](network.md#rel-riggs-post-2004-055) |
-| United States Army | military_organization | `ORG-US-ARMY` | US | [5](network.md#rel-us-army-palantir-titan-ota-2024) |
+| United States Army | military_organization | `ORG-US-ARMY` | US | [7](network.md#rel-us-army-palantir-titan-ota-2024) |
 | Unlimited Horizon, Inc. (2006–2007) | company | `ORG-US-UNLIMITED-HORIZON-INC-2006` | US | [2](network.md#rel-riggs-post-2004-029) |
 | US Department of Commerce | government_agency | `ORG-US-COMMERCE` | US | [3](network.md#rel-ws-ic-commerce) |
 | US Department of State | government_agency | `ORG-US-STATE-DEPARTMENT` | US | [13](network.md#rel-ulf-balanian-sanction) |

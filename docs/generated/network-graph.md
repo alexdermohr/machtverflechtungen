@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**792 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**805 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1367,7 +1367,7 @@ flowchart LR
     N_ORG_DE_SED_POLITBUERO["Politbüro des ZK der SED"]
     N_ORG_DE_SED_POLITBUERO -->|"Laut biografischem Handbuch beschloss das Politbüro im Dezember 1975 die Einstellung wegen der nicht mehr gewährleisteten politischen Linie; Originalbeschluss ausstehend"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
     N_ORG_GB_NOTLEYS_ADVERTISING["Notley's Advertising Ltd"]
-    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Vertragsbeginn und Honorar offen"| N_ORG_GB_NOTLEYS_ADVERTISING
+    N_ORG_DE_DDR_STAAT -->|"Howarth berichtet Londoner DDR-PR-Mandat von Notley im Umfeld der Pressebriefe Dezember 1960; Berger/LaPorte S. 116 nennen berichtete Vergütung bis zu 20.000 GBP jährlich ab 1960; tatsächliche Höhe, Laufzeit und Zahlungsbelege offen"| N_ORG_GB_NOTLEYS_ADVERTISING
     N_PER_GB_BURNABY_DRAYSON["George Burnaby Drayson"]
     N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Drayson als einen von zwei konservativen Abgeordneten mit Beratungsverhältnis zu Notley; Honorare, Vertragsbeginn und zweiter Name nicht direkt belegt"| N_PER_GB_BURNABY_DRAYSON
     N_ORG_GB_NOTLEYS_ADVERTISING -->|"Howarth berichtet Formulierung von Draysons Pressebriefen zum Fall Franz Krahl im Dezember 1960 durch Notley; keine ursprünglichen Entwürfe eingesehen"| N_PER_GB_BURNABY_DRAYSON
@@ -1379,6 +1379,26 @@ flowchart LR
     N_PER_DE_JULIUS_MADER -->|"Engelmann/Joestel S. 50 Fn. 189: Mader 1962–1989 Offizier im besonderen Einsatz im MfS-Agitationsbereich, unter Verweis auf Kaderakte KS 25335/90; Originalakte ausstehend"| N_ORG_DE_MFS
     N_PRG_DE_MFS_STURM_1971["MfS-Konzeption Sturm (Bezug April 1971)"]
     N_ORG_DE_MFS -->|"K 1/21 Abschnitt 3.3 d: Plan zur Vortäuschung konspirativer Aktivität; Verweis auf Konzeption Sturm; keine konkret ausgeführte Maßnahme oder Wirkung damit belegt"| N_PRG_DE_MFS_STURM_1971
+    N_PER_US_JOHN_HOWARD_LAWSON["John Howard Lawson"]
+    N_PER_US_JOHN_HOWARD_LAWSON -->|"Briefkopie vom 18.12.1971: Lawson bittet DGR um Änderung seiner Anschrift; tatsächlicher Empfang und politische Zusammenarbeit nicht belegt"| N_ORG_DE_DDR_DEMOCRATIC_GERMAN_REPORT
+    N_PRG_US_FBI_BUREAU_SOURCE_300["Bureau Source 300 (FBI-Quellenbezeichnung)"]
+    N_ORG_US_FBI_LEGAT_BONN["FBI Legal Attaché Bonn (1956–1975 belegt)"]
+    N_PRG_US_FBI_BUREAU_SOURCE_300 -->|"Legat Bonn berichtet 13.01.1972 Erhalt der Lawson-Adressänderung über Bureau Source 300; Zeitpunkt des vorherigen Erhalts und Beschaffungsmethode offen"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_FBI_LEGAT_BONN -->|"Dienstlicher FBI-Vermerk vom 13.01.1972 an Director, FBI: Lawson-DGR-Korrespondenz mit DGR-Aktenhinweis 105-18093"| N_ORG_US_FBI
+    N_PER_US_BERNARD_FENSTERWALD["Bernard Fensterwald Jr."]
+    N_PER_DE_JULIUS_MADER -->|"FBI-Vermerk 13.11.1972 berichtet Formularbrief Maders mit Angebot seines Buchs Yellow List: Where is the CIA? und Bestellformular; keine operative Anwerbung belegt"| N_PER_US_BERNARD_FENSTERWALD
+    N_PER_US_BERNARD_FENSTERWALD -->|"FBI-Vermerk berichtet Bestellung eines englischen Exemplars mit einem 2-Dollar-Scheck; Einlösung, Lieferung oder weitere Zusammenarbeit nicht nachgewiesen"| N_PER_DE_JULIUS_MADER
+    N_PRG_US_FBI_BUREAU_SOURCE_300 -->|"Legat Bonn berichtet 13.11.1972 Erhalt des Materials zur Mader-Fensterwald-Bestellung über Bureau Source 300; keine konkret benannte Beschaffungsstelle"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_FBI_LEGAT_BONN -->|"Dienstlicher FBI-Vermerk vom 13.11.1972 an Acting Director zur Mader-Buchbestellung; Anlage erläutert Quellenschutz und bedingte Weitergabe"| N_ORG_US_FBI
+    N_ORG_US_ARMY_66TH_CIC["66th CIC Group (Region VIII, Berlin, 1956)"]
+    N_ORG_US_ARMY_66TH_CIC -->|"FBI-Vermerk 19.03.1956: Kopie eines Lawson-Briefs an Schlichting aus technischer Erfassung der 66th CIC Group über G-2 US Army Europe; DGR-Feld unmarkiert"| N_ORG_US_FBI_LEGAT_BONN
+    N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975["U.S. House Select Committee on Intelligence Activities (1975)"]
+    N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975 -->|"Aktenanforderung vom 26.09.1975 zu drei Organisationen einschließlich AFSC; später präzisierter Zeitraum laut FBI-Antwort"| N_ORG_US_FBI
+    N_ORG_US_ARMY -->|"FBI NOTE in der Antwort von 1975, S.197, identifiziert vier im AFSC-Zusammenhang erhaltene Source-300-Berichte als Material der US Army in Deutschland; keine pauschale Zuordnung aller Source-300-Fälle"| N_PRG_US_FBI_BUREAU_SOURCE_300
+    N_ORG_US_ARMY -->|"FBI NOTE S.197: Colonel John Heiss, Security Division ACSI, bat laut Liaison Section am 03.11.1975 um Nichtfreigabe der vier AFSC-Berichte an HSC"| N_ORG_US_FBI
+    N_ORG_US_FBI -->|"FBI-Antwortunterlagen vom 06.11.1975 nennen vier Source-300-Serien zum AFSC-Besuchsaustausch als nicht zur Ausschusseinsicht vorbereitet; spätere Freigabe und Rechtsgrundlage ungeklärt"| N_ORG_US_HOUSE_SELECT_COMMITTEE_INTELLIGENCE_1975
+    N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE["American Friends Service Committee (AFSC)"]
+    N_ORG_US_FBI_LEGAT_BONN -->|"FBI NOTE S.197: vier über Legat Bonn erhaltene Source-300-Serien behandeln Besuche zwischen AFSC-Mitgliedern und Personen in einem anderen Land; kein Erfassungsdatum, keine Straftat festgestellt"| N_ORG_US_AMERICAN_FRIENDS_SERVICE_COMMITTEE
 ```
 
 [Zur Relationstabelle](network.md)

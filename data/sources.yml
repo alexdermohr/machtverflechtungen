@@ -5991,9 +5991,9 @@ sources:
   tier: B
   url: https://www.berghahnbooks.com/title/BergerFriendly
   accessed: '2026-11-27'
-  locator: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; Textfassung über öffentlich indexierten Buchspiegel gelesen
+  locator: Gedruckte S. 65 Fn. 177–178 und S. 72–73 Fn. 201–207; S. 116 Fn. 190 (Howarth 1981, GDR Monitor 5, S. 4); Textfassung über öffentlich indexierten Buchspiegel gelesen
   notes: Für Überwachung und Außenministeriumsbeurteilung werden MfS HA II/13 836 und MfS 17752/62 genannt. S. 72 Fn. 203 verweist für Drayson nur auf Glees 2003, S. 71; diese Angabe
-    ist noch keine selbst geprüfte Originalakte. Handelsvertrag ca. 3 Mio. GBP, keine Zahlungsbilanz.
+    ist noch keine selbst geprüfte Originalakte. Handelsvertrag ca. 3 Mio. GBP, keine Zahlungsbilanz. S. 116 nennt berichtete Notley-Vergütung bis zu 20.000 GBP jährlich und Übernahme des Auftrags 1966 durch Lex Hornsby and Partners; Originalbelege offen.
 - id: SRC-DE-STIFTUNG-AUFARBEITUNG-PEET
   title: John Scott Peet – Wer war wer in der DDR?
   institution: Bundesstiftung zur Aufarbeitung der SED-Diktatur
@@ -6050,3 +6050,63 @@ sources:
   accessed: '2026-11-27'
   locator: ZP 355, Erscheinungszeitraum 1952–1975
   notes: Bestandsnachweis; Vollständigkeit des Jahrgangs 1971 und Nr. 5 nicht geprüft.
+- id: SRC-US-NARA-FBI-LAWSON-DGR-1972
+  title: 'FBI Legal Attaché Bonn an FBI Director: John Howard Lawson'
+  institution: U.S. National Archives and Records Administration / FBI
+  date: '1972-01-13'
+  type: declassified_archival_document
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/research/jfk/releases/docid-32339034.pdf
+  accessed: '2026-11-27'
+  locator: RIF 124-90143-10452; DocId 32339034, PDF S. 2; HQ 100-370750-349; Legat 100-963; DGR-Aktenhinweis 105-18093
+  notes: Textauswertung der amtlichen Freigabedatei; Seitenbildabruf fehlgeschlagen. Bericht über Erhalt einer Adressänderung über Source 300; konkretes Verfahren und Rechtsgrundlage
+    nicht benannt.
+- id: SRC-US-NARA-LAWSON-DGR-LETTER-1971
+  title: 'John Howard Lawson an Democratic German Report: Adressänderung'
+  institution: U.S. National Archives and Records Administration / FBI
+  date: '1971-12-18'
+  type: declassified_archival_document
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/research/jfk/releases/docid-32339036.pdf
+  accessed: '2026-11-27'
+  locator: RIF 124-90143-10454; DocId 32339036, Umschlag und Brief; HQ 100-370750-349
+  notes: Im FBI-Bestand erhaltene Kopie des Briefes vom 18.12.1971. Text geprüft; Faksimileabruf fehlgeschlagen. Belegt Korrespondenzinhalt, nicht Zustellung oder politische Kooperation.
+    Keine Privatanschriften übernommen.
+- id: SRC-US-NARA-FBI-FENSTERWALD-MADER-1972
+  title: 'FBI Legal Attaché Bonn: Bernard Fensterwald Jr. – Julius Mader, mit Anlage zur Source 300'
+  institution: U.S. National Archives and Records Administration / FBI
+  date: '1972-11-13'
+  type: declassified_archival_document
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10433-10209.pdf
+  accessed: '2026-11-27'
+  locator: RIF 104-10433-10209; Memorandum 13.11.1972, Legat 105-7501-1779; Mader-Aktenhinweis 100-169674; Fortsetzung Box 105-7501-1779 und folgende Anlage über Source 300
+  notes: Textauswertung der amtlichen Sammeldatei; Faksimiles nicht abrufbar, keine ungesicherte Seitenzahl. Buchwerbung und Bestellung mit 2-Dollar-Scheck berichtet, nicht Einlösung;
+    Anlage beschreibt Source 300 als andere staatliche Stelle und beschränkte Weitergabe.
+- id: SRC-US-NARA-FBI-HSC-AFSC-1975
+  title: 'FBI: Antwort auf Aktenanforderung des House Select Committee, AFSC'
+  institution: U.S. National Archives and Records Administration / FBI
+  date: '1975-11-06'
+  type: declassified_archival_document
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/research/jfk/releases/2025/0318/124-10273-10038.PDF
+  accessed: '2026-11-27'
+  locator: RIF 124-10273-10038; DocId 32989695, gedruckte Scan-Seiten 195–199; besonders S. 197, NOTE; Referenz 62-116464
+  notes: Begleitschreiben S.195 und Empfangs-/Weitergabebelege S.198–199 datieren 06.11.1975. Indexierter Text der Folgeseite 196 enthält 1974, im Widerspruch zum Bezug auf September/Oktober
+    1975; Faksimileabruf fehlgeschlagen. Vier konkrete AFSC-Berichte aus US Army Deutschland; Nichtvorlage zum damaligen Zeitpunkt, keine endgültige Sperre aller Akten nachgewiesen.
+- id: SRC-US-NARA-FBI-LAWSON-CIC-1956
+  title: 'FBI Legal Attaché Bonn: John Howard Lawson, Quellenweg der US Army Europe / 66th CIC'
+  institution: U.S. National Archives and Records Administration / FBI
+  date: '1956-03-19'
+  type: declassified_archival_document
+  primary: true
+  tier: A
+  url: https://www.archives.gov/files/research/jfk/releases/docid-32338625.pdf
+  accessed: '2026-11-27'
+  locator: DocId 32338625, PDF S. 2; Legat 100-253, Briefdatum 26.01.1956, Referenz 57959
+  notes: Amtlich freigegebener Text; Faksimileabruf fehlgeschlagen. Markiertes Empfängerfeld Schlichting, nicht Peet/DGR; letzterer nur unmarkierte Formularoption. Kein Nachweis der
+    Herkunft der 1972er Berichte aus derselben Einheit.
