@@ -1268,7 +1268,7 @@ studies:
     - REL-DE-BND-DYNAMIT-016
 
   hs30-octogon-ruscheweyh-clearing-1944-1969.md:
-    sha256: 64f7a33499be44d8fcb2631852deeb5867a92a8c2ad8c77ea01cb2aaa7f91cb5
+    sha256: aa3a2355c4fa1a297c9ab0d615dfe35ff31d68f445c0ebe14072d319ec6f20cb
     status: network
     relation_ids:
     - REL-HS30-001

@@ -6592,7 +6592,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41494
+  url: https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494
   accessed: '2026-11-28'
   locator: LI LA V 004/1948/04 (a)
   notes: Transkription; wirtschaftliche Erwartungen der Regierung, keine unabhängige Vermögensprüfung.
@@ -6603,7 +6603,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41478
+  url: https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478
   accessed: '2026-11-28'
   locator: LI LA V 004/1948/04 (b), Anm. 3–4
   notes: Transkription und editorische Angaben zum Clearingverdacht.
@@ -6614,7 +6614,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D42137
+  url: https://www.e-archiv.li/textDetail.aspx?etID=42137
   accessed: '2026-11-28'
   locator: LI LA V 004/1948/04 (d)
   notes: Interessenvertretung durch Firmendirektor, keine unabhängige Bestätigung der behaupteten wirtschaftlichen
@@ -6626,7 +6626,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41476
+  url: https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476
   accessed: '2026-11-28'
   locator: LI LA V 143/3167 (a), Anm. 7
   notes: Transkription; Verfügung 15.03.1945 und Vergleich 1956 in editorischer Anmerkung.
@@ -6637,7 +6637,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41471
+  url: https://www.e-archiv.li/textDetail.aspx?etID=41471
   accessed: '2026-11-28'
   locator: LI LA V 143/3167 (b)
   notes: Schweizer diplomatische Note über britisches Verlangen, keine gerichtliche Feststellung.
@@ -6648,7 +6648,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41470
+  url: https://www.e-archiv.li/textDetail.aspx?etID=41470
   accessed: '2026-11-28'
   locator: LI LA V 143/3167 (c), Anm. 3
   notes: Transkription; spätere britische Vorwürfe und erneute Prüfung in Anmerkung.
@@ -6659,7 +6659,7 @@ sources:
   type: archival_document
   primary: true
   tier: A
-  url: https://www.e-archiv.li/D41493
+  url: https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493
   accessed: '2026-11-28'
   locator: LI LA V 004/1948/04 (c)
   notes: Interner Bericht; ausdrücklich keine formelle Zustimmung empfohlen.
@@ -6698,3 +6698,15 @@ sources:
   accessed: '2026-11-28'
   locator: S. 29–30, 104/1, 106, 122/1, 122/2, 104/2
   notes: Findbuchtext und Seitenbilder geprüft; darin beschriebene Akten nicht eingesehen.
+
+- id: SRC-HS30-KABINETT-19661109
+  title: 53. Kabinettssitzung am 9. November 1966
+  institution: Bundesarchiv (amtliche Edition)
+  date: '1966-11-09'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf
+  accessed: '2026-11-28'
+  locator: TOP A, PDF S. 2–5; B 136/36145 und B 136/3105
+  notes: Edition des Sitzungsprotokolls und internen Vermerks vom 11.11.1966. Aussagen und Vermutungen der Teilnehmer sind keine Zahlungsnachweise.

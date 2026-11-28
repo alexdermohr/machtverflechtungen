@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**590 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**591 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1174,6 +1174,21 @@ BP p.l.c., UK FCA National Storage Mechanism · 2023 · Stufe **A** · Primärqu
 [PDF öffnen](https://data.fca.org.uk/artefacts/NSM/Portal/NI-000069997/NI-000069997.pdf)
 
 Fundstelle: Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Association UK und Executive Chair Newbridge Advisory Ltd
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1966">
+
+<a id="src-hs30-kabinett-19661109"></a>
+### Bundesarchiv (amtliche Edition)
+
+**[53. Kabinettssitzung am 9. November 1966](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)**
+
+Bundesarchiv (amtliche Edition) · 1966-11-09 · Stufe **A** · Primärquelle · `SRC-HS30-KABINETT-19661109`
+
+[PDF öffnen](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)
+
+Fundstelle: TOP A, PDF S. 2–5; B 136/36145 und B 136/3105
 
 </article>
 
@@ -4030,11 +4045,11 @@ Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Poss
 <a id="src-hs30-d41494"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Regierung befürwortet Einbürgerung Ruscheweyhs](https://www.e-archiv.li/D41494)**
+**[Regierung befürwortet Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1944-02-11 · Stufe **A** · Primärquelle · `SRC-HS30-D41494`
 
-[Seite öffnen](https://www.e-archiv.li/D41494)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)
 
 Fundstelle: LI LA V 004/1948/04 (a)
 
@@ -4045,11 +4060,11 @@ Fundstelle: LI LA V 004/1948/04 (a)
 <a id="src-hs30-d41478"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Fremdenpolizei verlangt Sicherstellung einer Kaution](https://www.e-archiv.li/D41478)**
+**[Fremdenpolizei verlangt Sicherstellung einer Kaution](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1945-02-14 · Stufe **A** · Primärquelle · `SRC-HS30-D41478`
 
-[Seite öffnen](https://www.e-archiv.li/D41478)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)
 
 Fundstelle: LI LA V 004/1948/04 (b), Anm. 3–4
 
@@ -4060,11 +4075,11 @@ Fundstelle: LI LA V 004/1948/04 (b), Anm. 3–4
 <a id="src-hs30-d42137"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Presta hebt Ruscheweyhs Verdienste hervor](https://www.e-archiv.li/D42137)**
+**[Presta hebt Ruscheweyhs Verdienste hervor](https://www.e-archiv.li/textDetail.aspx?etID=42137)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-04 · Stufe **A** · Primärquelle · `SRC-HS30-D42137`
 
-[Seite öffnen](https://www.e-archiv.li/D42137)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=42137)
 
 Fundstelle: LI LA V 004/1948/04 (d)
 
@@ -4075,11 +4090,11 @@ Fundstelle: LI LA V 004/1948/04 (d)
 <a id="src-hs30-d41476"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Liechtenstein protestiert gegen Schweizer Vorgehen](https://www.e-archiv.li/D41476)**
+**[Liechtenstein protestiert gegen Schweizer Vorgehen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41476`
 
-[Seite öffnen](https://www.e-archiv.li/D41476)
+[Seite öffnen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)
 
 Fundstelle: LI LA V 143/3167 (a), Anm. 7
 
@@ -4090,11 +4105,11 @@ Fundstelle: LI LA V 143/3167 (a), Anm. 7
 <a id="src-hs30-d41471"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Britische Repatriierungsforderung](https://www.e-archiv.li/D41471)**
+**[Britische Repatriierungsforderung](https://www.e-archiv.li/textDetail.aspx?etID=41471)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1946-11-28 · Stufe **A** · Primärquelle · `SRC-HS30-D41471`
 
-[Seite öffnen](https://www.e-archiv.li/D41471)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41471)
 
 Fundstelle: LI LA V 143/3167 (b)
 
@@ -4105,11 +4120,11 @@ Fundstelle: LI LA V 143/3167 (b)
 <a id="src-hs30-d41470"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Liechtenstein lehnt Wegweisung ab](https://www.e-archiv.li/D41470)**
+**[Liechtenstein lehnt Wegweisung ab](https://www.e-archiv.li/textDetail.aspx?etID=41470)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1946-12-16 · Stufe **A** · Primärquelle · `SRC-HS30-D41470`
 
-[Seite öffnen](https://www.e-archiv.li/D41470)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41470)
 
 Fundstelle: LI LA V 143/3167 (c), Anm. 3
 
@@ -4120,11 +4135,11 @@ Fundstelle: LI LA V 143/3167 (c), Anm. 3
 <a id="src-hs30-d41493"></a>
 ### Liechtensteinisches Landesarchiv (Quellenedition)
 
-**[Fremdenpolizei zur Einbürgerung Ruscheweyhs](https://www.e-archiv.li/D41493)**
+**[Fremdenpolizei zur Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)**
 
 Liechtensteinisches Landesarchiv (Quellenedition) · 1948-01-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41493`
 
-[Seite öffnen](https://www.e-archiv.li/D41493)
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)
 
 Fundstelle: LI LA V 004/1948/04 (c)
 
