@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**580 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**584 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -952,6 +952,21 @@ Fundstelle: Gedruckte S. 3–4/5, Antworten 1 und 2.1–5; Regierungsantwort 29.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-barschel-baylt-198775"></a>
+### Bayerischer Landtag / Staatsregierung
+
+**[Ermittlungen im Zusammenhang mit dem Tod von Uwe Barschel](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0008775.pdf)**
+
+Bayerischer Landtag / Staatsregierung · 2025-12-10 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BAYLT-198775`
+
+[PDF öffnen](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0008775.pdf)
+
+Fundstelle: S. 1–6; Antwort 22.10.2025
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1982">
 
 <a id="src-de-baylt-langemann-minderheit-13012-1982"></a>
@@ -1475,6 +1490,21 @@ Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Tite
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-barschel-bverwg-6a513"></a>
+### Bundesverwaltungsgericht
+
+**[Kein Anspruch auf Einsicht in Unterlagen des BND über Uwe Barschel](https://www.bverwg.de/de/271113U6A5.13.0)**
+
+Bundesverwaltungsgericht · 2013-11-27 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BVERWG-6A513`
+
+[Seite öffnen](https://www.bverwg.de/de/271113U6A5.13.0)
+
+Fundstelle: 6 A 5.13, Urteil / amtliche Verfahrensinformation
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-bverwg-c18-6vr120-2020"></a>
@@ -1517,6 +1547,21 @@ Bundesverwaltungsgericht · 2021-03-23 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/230321B6VR1.21.0)
 
 Fundstelle: Tenor; Rn. 2–5, 9–14, 18–22
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-barschel-bverwg-20f521"></a>
+### Bundesverwaltungsgericht
+
+**[Teilweise rechtswidrige Sperrerklärung nach § 99 Abs. 1 Satz 2 VwGO](https://www.bverwg.de/230223B20F5.21.0)**
+
+Bundesverwaltungsgericht · 2023-02-23 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BVERWG-20F521`
+
+[Seite öffnen](https://www.bverwg.de/230223B20F5.21.0)
+
+Fundstelle: 20 F 5.21, Tenor; Rn. 1–7, 30, 48, 68–77
 
 </article>
 
@@ -2672,6 +2717,21 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-de-barschel-bt-125557"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen und Antworten, BT-Drs. 12/5557](https://dserver.bundestag.de/btd/12/055/1205557.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1993-08-13 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BT-125557`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/055/1205557.pdf)
+
+Fundstelle: S. 9–10, Fragen 18–19, Antwort 09.08.1993
 
 </article>
 

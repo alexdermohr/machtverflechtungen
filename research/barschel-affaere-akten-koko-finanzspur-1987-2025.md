@@ -1,0 +1,49 @@
+# Barschel-Affäre: Geheimdienstakten, Aufklärung und Finanzspuren (1987–2025)
+
+**Forschungsstand: 28. November 2026.** Quellengebundene Erstintegration zu [Issue 305](https://github.com/alexdermohr/machtverflechtungen/issues/305) und den dortigen Nachträgen. Der Wahlkampfkomplex, die Todesart, mögliche Rüstungs- und Finanzgeschäfte sowie spätere behördliche Aufklärungsentscheidungen sind getrennte Untersuchungsgegenstände.
+
+## 1. Wahlkampf und Schubladenaffäre
+
+Im Landtagswahlkampf 1987 richtete sich eine Diskreditierungskampagne gegen Björn Engholm. Die parlamentarischen Bewertungen der persönlichen Auftraggeberschaft Uwe Barschels änderten sich zwischen den Untersuchungsausschüssen von 1988 und 1995. Später bekannt gewordene Zahlungen aus dem SPD-Umfeld an Reiner Pfeiffer und Engholms falsche Angaben vor dem ersten Ausschuss werfen eigene Fragen auf. Die Originalberichte beider Ausschüsse sind noch vollständig auszuwerten (bibliographischer Ansatz: SH-LT Drs. 13/3225; Bericht 1988, ISBN 3-88312-140-1). Zahlungen nach dem Wahlkampf beweisen keine vorherige Vereinbarung. Dieser Abschnitt ist eine Forschungsorientierung, keine neue Netzwerkkante.
+
+## 2. Nachrichtendienstlicher Informationsweg 1993
+
+Die Regierungsantwort vom 09.08.1993 (Q1, Fragen 18–19) unterscheidet den behaupteten Bericht einer HVA-Quelle **nach** der Affäre von dem darin beschriebenen angeblichen Treffen Pfeiffer/Nilius/Jansen vor der SPIEGEL-Veröffentlichung. Ein Bericht über einen behaupteten Vorgang ist nicht dessen unabhängige Bestätigung. Nach Angaben der Regierung: Zeugenaussage am 11.03.1993 beim Landesamt SH; schriftlicher BfV-Hinweis vom 29.03. an das LfV; Übersendung durch den Innenminister des Landes, Eingang bei der Bundesanwaltschaft am 08.04.; GBA-Vernehmung am 30.04.; Protokoll an das BMJ am 13.07.; am 20.07. übersandte das BMJ nur die drei Blätter mit Schleswig-Holstein-Bezug an den Untersuchungsausschuss. Die Regierung bestritt Kenntnis darüber, ob Engholm vor der Wahl über dieses angebliche Treffen informiert war. Die nachweisbaren institutionellen Informationswege sind erschlossen, nicht eine unbewiesene operative Steuerung Pfeiffers durch das MfS.
+
+## 3. Zwei verschiedene Aktenbestände: BND und BfV
+
+Das Bundesverwaltungsgericht wies 2013 eine Klage auf Nutzung des BND-Archivguts ab (Q2). Die BND-Unterlagen und der spätere BfV-Rechtsstreit sind nicht gleichzusetzen. Der EGMR entschied im Verfahren Saure gegen Deutschland (8819/16, 08.11.2022) mehrheitlich gegen die Beschwerde; die abweichenden Richter betonten die eigenständige Bedeutung der Originalakten. Die berichtete BND-Teilfreigabe 2024 ist hinsichtlich Umfang und Inhalt anhand der freigegebenen Originale nachzuprüfen.
+
+Der Fachsenat des BVerwG entschied am 23.02.2023 im Zwischenverfahren nach § 99 VwGO (Q3): Die Sperrerklärung von 2021 war bezüglich 99 vollständig vorenthaltener Blätter und weiterer Schwärzungen rechtswidrig. Andere Verweigerungen hielt er für rechtmäßig. Die Schutzfrist war am 31.12.2020 abgelaufen. Rn. 30 behandelt einen Spionageverdacht; keine Feststellung tatsächlicher Anwerbung. Nach Rn. 48 dokumentieren die Akten die Abgabe von MfS-Dokumenten durch das BfV an einen ausländischen Nachrichtendienst im Jahr 1990. Der Empfänger bleibt in der veröffentlichten Entscheidung unbenannt. Weder der Inhalt jedes abgegebenen Dokuments noch eine operative Beteiligung am Tod Barschels sind daraus abzuleiten. Zwischenentscheidung über Aktenvorlage ist nicht gleich tatsächlicher Herausgabe im Hauptverfahren.
+
+## 4. Forensik und Asservate
+
+Barschels Tod in Genf 1987 durch Medikamentenvergiftung ist von der strittigen Todesart zu unterscheiden. Die Ermittler Heinrich Wille und Erhard Rex kamen zu unterschiedlichen Einschätzungen. Das Landtagsprotokoll vom 09.01.2013 (Q4, S. 4–6) referiert die staatsanwaltschaftliche Untersuchung des fehlenden Asservats 84. Die Übernahme aus Genf 1995 war dokumentiert; ob das Haar dabei tatsächlich vorhanden war, ließ sich nicht sicher rekonstruieren. Die übrigen 142 Asservate waren vorhanden. Die Dokumentation entsprach nicht durchgehend den Vorschriften; Überarbeitung der Regelungen wurde veranlasst. Vorsatz, Verlustzeitpunkt und Reformwirkung bleiben offen. Die Originalgutachten, der Abschlussvermerk vom 22.11.2012 und die tatsächliche Umsetzung der Reform sind zu prüfen.
+
+## 5. Rüstungshandel und KoKo
+
+Der KoKo-Abschlussbericht (Q5, S. 182–183; frühere Textauswertung im Issue, erneuter Volltextabruf an Größenlimit gescheitert) beschreibt die MfS-Verbindung des Waffenlagers Kavelstorf, dessen zivile Tarnung über IMES und die Vernichtung von Unterlagen im Herbst 1989. Der Ausschuss konnte den Umfang nicht mehr feststellen. Der behauptete Besuch Barschels blieb unbestätigt: Ein ehemaliger Fahrer wiederholte vor dem Ausschuss seine Medienangaben nicht, schloss einen Besuch aber nicht aus. Eine behauptete Kante Barschel–IMES oder Barschel–MfS wäre auf dieser Grundlage nicht tragfähig. Die Gründung der WITRA als IMES-Tochter und die HVA-Beteiligung an Beschaffungsstrukturen sind als eigenständige KoKo-Spur zu untersuchen; ein im Weisungsentwurf vorgesehenes Valutakonto ist noch kein realisierter Zahlungsweg. Die dokumentierten Iran-Contra-Geschäfte bilden einen historischen Vergleich, keinen Nachweis von Barschels Beteiligung. Behauptungen über Mossad, CIA und Werner Mauss aus Medien und Zeugenaussagen erfordern jeweils unabhängige Bestätigung. Eine Anwesenheit in Genf ist kein Tatnachweis.
+
+## 6. DG Bank und Justiz: Frage und Antwort getrennt
+
+Die amtliche BayLT-Drs. 19/8775 (Q6, 10.12.2025; Anfrage vom 22.08., Antwort vom 22.10.2025) enthält in der **Frage** Behauptungen über ein Strauß zugerechnetes DG-Bank-Konto, 359 Mio. DM im März 1990, Zahlungen von Schalck-Golodkowski sowie weitere Überweisungen. Genannt werden ein interner Prüfbericht vom 04.04.1994 und ein weiterer 20-seitiger Bericht. Diese Bankdokumente liegen hier nicht vor; Betrag, Kontoinhaberschaft und Transaktionen bleiben unbestätigt. Keine Kante aus der bloßen parlamentarischen Wiedergabe. Die amtlich geschwärzten Identitäten werden nicht rekonstruiert.
+
+Die **Antwort** trennt die Anzeige vom 17.05.2023 (Absehen von Verfolgung am 10.01.2024 gemäß § 154 StPO) von der gesonderten Anzeige vom 15.04.2024 wegen behaupteter Beihilfe zum Mord. München I übersandte den zweiten Vorgang mit Verfügung vom 02.05.2024 an Lübeck; Lübeck lehnte die Übernahme ab und verwies auf seine ablehnende Entscheidung vom 05.08.2021. München I verneinte nach eigener Prüfung am 07.08.2024 zureichende Anhaltspunkte für ein Ermittlungsverfahren. Laut Antwort änderte auch ein Pressebericht vom 14.03.2025 diese Einschätzung nicht. Bamberg verneinte am 15.07.2025 den Anfangsverdacht hinsichtlich behaupteter Strafvereitelung; bis 20.10.2025 war laut Regierung keine Beschwerde eingegangen. Q6, Antwort 5.1/5.2, bestätigt ferner die Weiterleitung einer Eingabe vom 23.10.2023 durch die Staatskanzlei an das Justizministerium und weiter an München I, nicht die persönliche Kenntnis des Ministerpräsidenten.
+
+Die verfahrensrechtlichen Entscheidungen sind kein gerichtlicher Nachweis der Echtheit oder Fälschung von Bankunterlagen. Umgekehrt beweist die fehlende Beschlagnahme weder ein Tötungsdelikt noch institutionelle Strafvereitelung. Der kleinste entscheidende Prüfschritt wäre rechtmäßiger Zugang zu den genannten Prüfberichten und den zugehörigen Primärbelegen sowie Abgleich mit den staatsanwaltschaftlichen Prüfvermerken.
+
+## 7. Hypothesen und Prüfkriterien
+
+- Suizid, assistierter Suizid und Fremdeinwirkung bleiben anhand der Originalforensik getrennt zu prüfen. Ein belastbarer Nachweis der Todesart würde mindestens eine verlässliche medizinische Rekonstruktion und unabhängige Belege erfordern.
+- Ein Zusammenhang mit Rüstungsgeschäften erfordert zeitlich zuordenbare Vertrags-, Korrespondenz- oder Zahlungsunterlagen mit konkretem Barschel-Bezug. Widerlegt oder geschwächt würde er durch belastbare unabhängige Herkunfts- und Zwecknachweise, die die behaupteten Geschäfte ausschließen.
+- Institutioneller Selbstschutz ist anhand konkreter Aktenzugangsentscheidungen und Dokumentationsmängel untersuchbar. Rechtmäßige Geheimhaltung, unabsichtlicher Verlust und fehlerhafte Routine bleiben konkurrierende Erklärungen; der teilweise rechtswidrige Sperrbescheid ist dagegen gerichtlich festgestellt. Motiv und Vorsatz erfordern zusätzliche Evidenz.
+
+## Quellen
+
+- Q1: [BT-Drs. 12/5557](https://dserver.bundestag.de/btd/12/055/1205557.pdf), S. 9–10, Fragen 18–19; Text geprüft; erneuter Screenshotabruf nicht verfügbar.
+- Q2: [BVerwG 6 A 5.13, 27.11.2013](https://www.bverwg.de/de/271113U6A5.13.0).
+- Q3: [BVerwG 20 F 5.21, 23.02.2023](https://www.bverwg.de/230223B20F5.21.0), Tenor, Rn. 1–7, 30, 48, 68–77.
+- Q4: [SH-Landtag, gemeinsame Ausschusssitzung 09.01.2013](https://www.landtag.ltsh.de/export/sites/ltsh/infothek/wahl18/aussch/finanz/niederschrift/2013/18-022_01-13.pdf), S. 4–6; frühere Textauswertung im Issue, erneuter Abruf nicht verfügbar.
+- Q5: [BT-Drs. 12/7600, vollständige externe Kopie](https://erinnerungsdebatten.de/wp-content/uploads/2023/03/12_7600.pdf), S. 182–183; erneuter Volltextabruf am Größenlimit gescheitert.
+- Q6: [BayLT-Drs. 19/8775](https://www.bayern.landtag.de/www/ElanTextAblage_WP19/Drucksachen/Schriftliche%20Anfragen/19_0008775.pdf), S. 1–6, Fragen und Antwort getrennt; Text und Seitenbilder 1, 5, 6 geprüft.
+- Weitere Leads und Gegenbefunde: [Issue 305](https://github.com/alexdermohr/machtverflechtungen/issues/305), insbesondere [erste Vertiefung](https://github.com/alexdermohr/machtverflechtungen/issues/305#issuecomment-7234073784) und [zweite Vertiefung](https://github.com/alexdermohr/machtverflechtungen/issues/305#issuecomment-7234086388). Kein Volltextnachweis der Ausschussberichte 1988/1995 und keine Bankoriginale.
