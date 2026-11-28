@@ -7066,7 +7066,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/17/130/1713000.pdf
   accessed: '2026-11-28'
-  locator: "S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3"
+  locator: "S. 93–94, Nr. 7.3 (RED); S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3"
   notes: "Eigene rechtliche Bewertung der NSU-Aktenvernichtung und berichtete Kontrollhindernisse bei Bundesnachrichtendiensten allgemein. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
 
 - id: SRC-DE-BT-NSU-18710-20140228
@@ -7116,3 +7116,99 @@ sources:
   accessed: '2026-11-28'
   locator: "Abschnitt Beschluss, namentliche Abstimmung zu 21/7868, 21/8295, 21/9161 (neu), Entschließung"
   notes: "Amtliche parlamentarische Berichterstattung und Abstimmungsergebnis; kein Nachweis der Verkündung, des Inkrafttretens oder der Umsetzung."
+
+- id: SRC-DE-BFDI-TB25-20150617
+  title: "25. Tätigkeitsbericht 2013/2014, BT-Drs. 18/5300"
+  institution: "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+  date: '2015-06-17'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/18/053/1805300.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 33–34, Nr. 2.1.1; S. 94–95, Nr. 5.13.8"
+  notes: "Aufsichtsbericht: G-10-Zugeständnis und gesonderte BfV/BKA-Projektdatei; keine RED-Zuordnung. Amtlicher Text; Bildabruf Cache-Miss."
+
+- id: SRC-DE-BT-PROJEKTDATEIEN-185659-20150729
+  title: "Antwort zur Speicherung personenbezogener Daten durch Sicherheitsbehörden, BT-Drs. 18/5659"
+  institution: "Bundesregierung"
+  date: '2015-07-29'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/18/056/1805659.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 15–16, Fragen 13i–l und 14–16"
+  notes: "Regierungsantwort: bestätigt 14 rechtsfehlerhafte Speicherungen, widerspricht pauschaler Darstellung und berichtet interne Nachprüfung. Text; Bildabruf Cache-Miss."
+
+- id: SRC-DE-BT-RED-EVAL-188060-20160407
+  title: "Evaluierung des Rechtsextremismus-Datei-Gesetzes, BT-Drs. 18/8060"
+  institution: "Jan Ziekow et al. im Auftrag des BMI; Unterrichtung durch Bundesregierung"
+  date: '2016-04-07'
+  type: commissioned_evaluation
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/18/080/1808060.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 3 (Autoren und Auftrag); S. 124–125, Nr. 7.1"
+  notes: "Evaluation November 2015, parlamentarisch vorgelegt April 2016; Protokolldaten, Erhebungsbögen, Nutzerbefragung. Keine Kausalmessung verhinderter Taten. Bildabruf Cache-Miss."
+
+- id: SRC-DE-BFDI-TB27-20190508
+  title: "27. Tätigkeitsbericht 2017/2018, BT-Drs. 19/9800"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2019-05-08'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/19/098/1909800.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 84, Nr. 9.3.11–9.3.12"
+  notes: "Kontrollverlauf 2015 und 2017 sowie Nutzwertbewertung; ATD-Prüfung beim BfV ohne Beanstandung 2017. Amtlicher Text, Bildabruf Cache-Miss."
+
+- id: SRC-DE-BT-ATD-1926367-20210202
+  title: "Konsequenzen aus dem Urteil des Bundesverfassungsgerichts bezüglich der Antiterrordatei, BT-Drs. 19/26367"
+  institution: "Bundesregierung"
+  date: '2021-02-02'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/19/263/1926367.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 2–4, Antworten 1, 5 und 7"
+  notes: "Regierungsposition: ATD als Fundstellennachweis; keine konkreten Erfolgsbeispiele benannt. Bildabruf Cache-Miss."
+
+- id: SRC-DE-BT-RED-201045-20220315
+  title: "Zehn Jahre Rechtsextremismusdatei, BT-Drs. 20/1045"
+  institution: "Bundesregierung"
+  date: '2022-03-15'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/20/010/2001045.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 2–4, Antworten 1–9"
+  notes: "Angaben zu fehlender Historisierungstatistik, Nichtnutzung erweiterter Auswertung und fortbestehender Kontaktanbahnung; S. 3–4 im Seitenbild abgeglichen. Nichtöffentliche Anlage nicht eingesehen."
+
+- id: SRC-DE-BFDI-TB30-20220405
+  title: "30. Tätigkeitsbericht 2021 (vorgelegt 05.04.2022; BT-Drs. 20/1352 vom 06.04.2022)"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2022-04-05'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/30TB_21.pdf?__blob=publicationFile&v=7"
+  accessed: '2026-11-28'
+  locator: "S. 85–86, Nr. 8.1.1"
+  notes: "Amtliche BfDI-Textfassung; Bundestags-PDF zu groß, Seitenbildabruf Cache-Miss. Beanstandungen und Rücknahmen getrennt; keine gerichtliche Entscheidung."
+
+- id: SRC-DE-BFDI-TB31-20230315
+  title: "31. Tätigkeitsbericht 2022, BT-Drs. 20/6000"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2023-03-15'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/31TB_22.pdf?__blob=publicationFile&v=8"
+  accessed: '2026-11-28'
+  locator: "S. 68–69, Nr. 7.7; S. 93–94, Pflichtkontrollen ATD/RED"
+  notes: "Amtliche BfDI-Textfassung, Seitenbildabruf Cache-Miss. Behebung einzelner Mängel von nicht erneut geprüften Schnittstellenproblemen unterschieden."

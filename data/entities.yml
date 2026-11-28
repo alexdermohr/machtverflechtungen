@@ -3759,3 +3759,15 @@ entities:
     name: Unabhängiger Kontrollrat (UKRat)
     countries: [DE]
     notes: "Bereits bestehendes Kontrollorgan; Ausbau der Zuständigkeiten durch Bundestagsbeschluss 13.11.2026 getrennt von tatsächlichem Inkrafttreten und Vollzug."
+
+  - id: PRG-DE-RED
+    type: information_system
+    name: Rechtsextremismusdatei (RED)
+    countries: [DE]
+    notes: "Gemeinsame Datei von Polizeien und Nachrichtendiensten; REDG 2012, BKA als dateiführende Behörde. Nicht mit Antiterrordatei oder einzelnen Projektdateien gleichsetzen."
+
+  - id: PRG-DE-ATD
+    type: information_system
+    name: Antiterrordatei (ATD)
+    countries: [DE]
+    notes: "Gemeinsame Verbunddatei auf Grundlage des ATDG 2006. Getrennt von RED und gemeinsamen Projektdateien."

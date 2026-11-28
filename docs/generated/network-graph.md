@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**916 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**926 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1595,6 +1595,18 @@ flowchart LR
     N_ORG_DE_UKRAT["Unabhängiger Kontrollrat (UKRat)"]
     N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: warnt vor Verlust des dienst- und polizeiübergreifenden Überblicks bei Aufsichtsverschiebung; Kritik an damaligem Plan, nicht an produktivem Vollzug"| N_ORG_DE_UKRAT
     N_ORG_DE_BFD -->|"Bundestag beschloss am 13.11.2026 Reform zur Übertragung operativer Datenschutzkontrolle; Verkündung, Inkrafttreten und tatsächliche Umsetzung nicht verifiziert"| N_ORG_DE_UKRAT
+    N_PRG_DE_RED["Rechtsextremismusdatei (RED)"]
+    N_ORG_DE_BFV -->|"BfDI-Bericht 24.04.2013: laut Aufsicht systematische Übertragung unzulässiger Daten nach geheim eingestuftem, behördenübergreifend abgestimmtem Kriterienkatalog; Datenkategorien und beteiligte Behörden öffentlich nicht benannt"| N_PRG_DE_RED
+    N_ORG_DE_BMI_AMRI_2017 -->|"BfDI-Bericht 17.06.2015: BMI gestattete Einsicht und Verwendung von G-10-Erkenntnissen zur gesetzlichen Aufgabenerfüllung; gesetzliche Klarstellung und Ressourcen weiterhin gefordert"| N_ORG_DE_BFD
+    N_ORG_DE_BFV -->|"BfDI 2015: unzulässige Speicherung von Demonstrationsteilnehmenden in gemeinsamer Projektdatei, BKA konnte Kenntnis erlangen; Regierung bestätigt 14 rechtsfehlerhafte Speicherungen, bestreitet pauschale Motivzuschreibung. Nicht RED oder ATD"| N_ORG_DE_BKA
+    N_ORG_DE_BMI_AMRI_2017 -->|"BMI-Auftragsevaluation veröffentlicht 07.04.2016: 90 % der erfassten Suchanfragen ohne weiterführende Erkenntnisse, 6 % mit solchen; 984 Bögen von elf Behörden, kein Wirkungsnachweis verhinderter Straftaten"| N_PRG_DE_RED
+    N_ORG_DE_BFD -->|"Bericht 08.05.2019: gemeinsame ATD-Prüfung 2017 nach Schwierigkeiten 2015 ohne Beanstandung abgeschlossen; keine Aussage über RED oder spätere Prüfungen"| N_ORG_DE_BFV
+    N_ORG_DE_BFD -->|"BfDI-Bericht 05.04.2022 über Prüfungen 2019: ursprünglich 5 ATD- und 3 RED-Beanstandungen, jeweils eine zurückgenommen; übrige Differenzen nicht nachweislich behoben"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Antwort 15.03.2022: keine historischen Statistiken zum Abgleich Tatverdächtiger; erweiterte Nutzung durch Bundesbehörden bis dahin ungenutzt; Bundesregierung hält Kontaktanbahnungsfunktion für relevant"| N_PRG_DE_RED
+    N_ORG_DE_BFD -->|"Bericht 15.03.2023: Einzelmängel bei ATD und RED Ende 2021 umgehend behoben, keine Beanstandung; kritisierte automatisierte Schnittstellen nicht erneut geprüft und laut BfDI technisch unverändert"| N_ORG_DE_BFV
+    N_ORG_DE_BFD -->|"BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der RED und ATD empfohlen; Empfehlung keine vollzogene Abschaffung"| N_PRG_DE_RED
+    N_PRG_DE_ATD["Antiterrordatei (ATD)"]
+    N_ORG_DE_BFD -->|"BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der ATD und RED empfohlen; Empfehlung keine vollzogene Abschaffung"| N_PRG_DE_ATD
 ```
 
 [Zur Relationstabelle](network.md)

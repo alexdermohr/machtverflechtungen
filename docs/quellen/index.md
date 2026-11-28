@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**625 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**633 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-bt-red-eval-188060-20160407) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1327,6 +1327,21 @@ Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-bfdi-tb25-20150617"></a>
+### Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+
+**[25. Tätigkeitsbericht 2013/2014, BT-Drs. 18/5300](https://dserver.bundestag.de/btd/18/053/1805300.pdf)**
+
+Bundesbeauftragte für den Datenschutz und die Informationsfreiheit · 2015-06-17 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB25-20150617`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/053/1805300.pdf)
+
+Fundstelle: S. 33–34, Nr. 2.1.1; S. 94–95, Nr. 5.13.8
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-bfdi-tb34-20260506"></a>
@@ -1413,7 +1428,52 @@ Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2013-04-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/17/130/1713000.pdf)
 
-Fundstelle: S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3
+Fundstelle: S. 93–94, Nr. 7.3 (RED); S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-bfdi-tb27-20190508"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[27. Tätigkeitsbericht 2017/2018, BT-Drs. 19/9800](https://dserver.bundestag.de/btd/19/098/1909800.pdf)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2019-05-08 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB27-20190508`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/098/1909800.pdf)
+
+Fundstelle: S. 84, Nr. 9.3.11–9.3.12
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-de-bfdi-tb30-20220405"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[30. Tätigkeitsbericht 2021 (vorgelegt 05.04.2022; BT-Drs. 20/1352 vom 06.04.2022)](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/30TB_21.pdf?__blob=publicationFile&v=7)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2022-04-05 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB30-20220405`
+
+[PDF öffnen](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/30TB_21.pdf?__blob=publicationFile&v=7)
+
+Fundstelle: S. 85–86, Nr. 8.1.1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-bfdi-tb31-20230315"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[31. Tätigkeitsbericht 2022, BT-Drs. 20/6000](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/31TB_22.pdf?__blob=publicationFile&v=8)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2023-03-15 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB31-20230315`
+
+[PDF öffnen](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/31TB_22.pdf?__blob=publicationFile&v=8)
+
+Fundstelle: S. 68–69, Nr. 7.7; S. 93–94, Pflichtkontrollen ATD/RED
 
 </article>
 
@@ -1580,6 +1640,21 @@ Fundstelle: Art. 1 Nr. 8, Begründung S. 29–30 zu § 13 Abs. 3 BVerfSchG
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-bt-projektdateien-185659-20150729"></a>
+### Bundesregierung
+
+**[Antwort zur Speicherung personenbezogener Daten durch Sicherheitsbehörden, BT-Drs. 18/5659](https://dserver.bundestag.de/btd/18/056/1805659.pdf)**
+
+Bundesregierung · 2015-07-29 · Stufe **A** · Primärquelle · `SRC-DE-BT-PROJEKTDATEIEN-185659-20150729`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/056/1805659.pdf)
+
+Fundstelle: S. 15–16, Fragen 13i–l und 14–16
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
 <a id="src-de-bt-nsu-189331-20160804"></a>
@@ -1592,6 +1667,36 @@ Bundesregierung · 2016-08-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/093/1809331.pdf)
 
 Fundstelle: Gedruckte S. 48–49, Fragen 50–52
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-bt-atd-1926367-20210202"></a>
+### Bundesregierung
+
+**[Konsequenzen aus dem Urteil des Bundesverfassungsgerichts bezüglich der Antiterrordatei, BT-Drs. 19/26367](https://dserver.bundestag.de/btd/19/263/1926367.pdf)**
+
+Bundesregierung · 2021-02-02 · Stufe **A** · Primärquelle · `SRC-DE-BT-ATD-1926367-20210202`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/263/1926367.pdf)
+
+Fundstelle: S. 2–4, Antworten 1, 5 und 7
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-de-bt-red-201045-20220315"></a>
+### Bundesregierung
+
+**[Zehn Jahre Rechtsextremismusdatei, BT-Drs. 20/1045](https://dserver.bundestag.de/btd/20/010/2001045.pdf)**
+
+Bundesregierung · 2022-03-15 · Stufe **A** · Primärquelle · `SRC-DE-BT-RED-201045-20220315`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/20/010/2001045.pdf)
+
+Fundstelle: S. 2–4, Antworten 1–9
 
 </article>
 
@@ -4269,6 +4374,21 @@ Italienische Ermittlungsrichter, Originalvernehmung in der P2-Parlamentskommissi
 [PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/116.%20volume_08_tomo_08.pdf)
 
 Fundstelle: Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinnert 21 Mio. USD Nassau für Managua, Bezug zu 'Sudam', vermutete Restschuld und unklare Empfänger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-red-eval-188060-20160407"></a>
+### Jan Ziekow et al. im Auftrag des BMI; Unterrichtung durch Bundesregierung
+
+**[Evaluierung des Rechtsextremismus-Datei-Gesetzes, BT-Drs. 18/8060](https://dserver.bundestag.de/btd/18/080/1808060.pdf)**
+
+Jan Ziekow et al. im Auftrag des BMI; Unterrichtung durch Bundesregierung · 2016-04-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-RED-EVAL-188060-20160407`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/080/1808060.pdf)
+
+Fundstelle: S. 3 (Autoren und Auftrag); S. 124–125, Nr. 7.1
 
 </article>
 

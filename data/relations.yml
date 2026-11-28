@@ -8504,3 +8504,93 @@ relations:
     period: {start: "2026-11-13"}
     evidence_level: established
     sources: [SRC-DE-BT-NDREFORM-219161-20261111, SRC-DE-BT-NDREFORM-BESCHLUSS-20261113]
+
+  - id: REL-DE-BFV-RED-FEHLBEFUELLUNG-2013-001
+    from: ORG-DE-BFV
+    to: PRG-DE-RED
+    type: reported_unlawful_data_transfer
+    label: "BfDI-Bericht 24.04.2013: laut Aufsicht systematische Übertragung unzulässiger Daten nach geheim eingestuftem, behördenübergreifend abgestimmtem Kriterienkatalog; Datenkategorien und beteiligte Behörden öffentlich nicht benannt"
+    period: {start: "2013-04-24"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB24-20130424]
+
+  - id: REL-DE-BMI-BFDI-G10-EINSICHT-2015-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFD
+    type: reported_granted_limited_oversight_access
+    label: "BfDI-Bericht 17.06.2015: BMI gestattete Einsicht und Verwendung von G-10-Erkenntnissen zur gesetzlichen Aufgabenerfüllung; gesetzliche Klarstellung und Ressourcen weiterhin gefordert"
+    period: {start: "2015-06-17"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB25-20150617]
+
+  - id: REL-DE-BFV-BKA-PROJEKTDATEI-2015-001
+    from: ORG-DE-BFV
+    to: ORG-DE-BKA
+    type: reported_unlawful_shared_file_storage
+    label: "BfDI 2015: unzulässige Speicherung von Demonstrationsteilnehmenden in gemeinsamer Projektdatei, BKA konnte Kenntnis erlangen; Regierung bestätigt 14 rechtsfehlerhafte Speicherungen, bestreitet pauschale Motivzuschreibung. Nicht RED oder ATD"
+    period: {start: "2015-07-29"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB25-20150617, SRC-DE-BT-PROJEKTDATEIEN-185659-20150729]
+
+  - id: REL-DE-BMI-RED-EVALUATION-2016-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: PRG-DE-RED
+    type: commissioned_evaluation_reported_limited_utility
+    label: "BMI-Auftragsevaluation veröffentlicht 07.04.2016: 90 % der erfassten Suchanfragen ohne weiterführende Erkenntnisse, 6 % mit solchen; 984 Bögen von elf Behörden, kein Wirkungsnachweis verhinderter Straftaten"
+    period: {start: "2016-04-07"}
+    evidence_level: established
+    sources: [SRC-DE-BT-RED-EVAL-188060-20160407]
+
+  - id: REL-DE-BFDI-BFV-ATD-KONTROLLE-2019-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_successful_oversight_inspection
+    label: "Bericht 08.05.2019: gemeinsame ATD-Prüfung 2017 nach Schwierigkeiten 2015 ohne Beanstandung abgeschlossen; keine Aussage über RED oder spätere Prüfungen"
+    period: {start: "2019-05-08"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB27-20190508]
+
+  - id: REL-DE-BFDI-BFV-VERBUNDDATEIEN-2022-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_disputed_oversight_findings
+    label: "BfDI-Bericht 05.04.2022 über Prüfungen 2019: ursprünglich 5 ATD- und 3 RED-Beanstandungen, jeweils eine zurückgenommen; übrige Differenzen nicht nachweislich behoben"
+    period: {start: "2022-04-05"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB30-20220405]
+
+  - id: REL-DE-BMI-RED-NUTZUNG-2022-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: PRG-DE-RED
+    type: reported_unverified_outcome_and_nonuse
+    label: "Antwort 15.03.2022: keine historischen Statistiken zum Abgleich Tatverdächtiger; erweiterte Nutzung durch Bundesbehörden bis dahin ungenutzt; Bundesregierung hält Kontaktanbahnungsfunktion für relevant"
+    period: {start: "2022-03-15"}
+    evidence_level: established
+    sources: [SRC-DE-BT-RED-201045-20220315, SRC-DE-BT-ATD-1926367-20210202]
+
+  - id: REL-DE-BFDI-BFV-VERBUNDDATEIEN-2023-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_remedied_findings_and_residual_defects
+    label: "Bericht 15.03.2023: Einzelmängel bei ATD und RED Ende 2021 umgehend behoben, keine Beanstandung; kritisierte automatisierte Schnittstellen nicht erneut geprüft und laut BfDI technisch unverändert"
+    period: {start: "2023-03-15"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB31-20230315]
+
+  - id: REL-DE-BFDI-RED-ABSCHAFFUNG-2023-001
+    from: ORG-DE-BFD
+    to: PRG-DE-RED
+    type: recommended_discontinuation
+    label: "BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der RED und ATD empfohlen; Empfehlung keine vollzogene Abschaffung"
+    period: {start: "2023-03-15"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB31-20230315]
+
+  - id: REL-DE-BFDI-ATD-ABSCHAFFUNG-2023-001
+    from: ORG-DE-BFD
+    to: PRG-DE-ATD
+    type: recommended_discontinuation
+    label: "BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der ATD und RED empfohlen; Empfehlung keine vollzogene Abschaffung"
+    period: {start: "2023-03-15"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB31-20230315]
