@@ -196,7 +196,7 @@
 | Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
 | Anti-Allende-Wahlkampf Chile 1970 | historical_electoral_campaign | `PRG-CL-ANTI-ALLENDE-1970` | CL | [1](network.md#rel-us-itt-allende-opposition-1970) |
-| Antiterrordatei (ATD) | information_system | `PRG-DE-ATD` | DE | [1](network.md#rel-de-bfdi-atd-abschaffung-2023-001) |
+| Antiterrordatei (ATD) | information_system | `PRG-DE-ATD` | DE | [2](network.md#rel-de-bfdi-atd-abschaffung-2023-001) |
 | Anysberg International Corp. | company | `ORG-PA-ANYSBERG-INTERNATIONAL` | PA | [2](network.md#rel-mauss-offshore-017) |
 | Apexside Trading Ltd. | company | `ORG-INT-APEXSIDE-TRADING-LTD` |  | [3](network.md#rel-riggs-followup-041) |
 | Arbeitsgemeinschaft Staat und Gesellschaft | organization | `ORG-DE-AG-STAAT-GESELLSCHAFT` | DE | – |
@@ -263,13 +263,13 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [34](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [37](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
-| Bundesbeauftragter für den Datenschutz (BfD) | government_body | `ORG-DE-BFD` | DE | [14](network.md#rel-de-bfd-bfv-aktenaufsicht-2003-001) |
+| Bundesbeauftragter für den Datenschutz (BfD) | government_body | `ORG-DE-BFD` | DE | [24](network.md#rel-de-bfd-bfv-aktenaufsicht-2003-001) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
 | Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [3](network.md#rel-raf-schmuecker-nonne-007) |
-| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [9](network.md#rel-ulf-kanzleramt-mykonos) |
+| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [10](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [13](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
@@ -277,16 +277,16 @@
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium der Verteidigung (NSU, 2012) | government_ministry | `ORG-DE-BMVG-2012` | DE | [1](network.md#rel-de-nsu-bmvg-mad-kenntnis-2012-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
-| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [9](network.md#rel-de-amri-020) |
+| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [10](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [38](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [39](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
-| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [5](network.md#rel-de-kauka-008) |
+| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [6](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
@@ -471,7 +471,7 @@
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Metromed (historisch, 1996) | company | `ORG-CO-METROMED-1996` | CO | [1](network.md#rel-mauss-pmt-002) |
 | Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
-| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [4](network.md#rel-de-nsu-mad-bfv-1999-001) |
+| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [5](network.md#rel-de-nsu-mad-bfv-1999-001) |
 | Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [2](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
@@ -535,7 +535,7 @@
 | Raue (Berlin) | law_firm | `ORG-DE-RAUE` | DE | [2](network.md#rel-de-bnd-media-012) |
 | Raytheon Company (SIVAM 1994–2008) | historical_company | `ORG-US-RAYTHEON-1994` | US, BR | [4](network.md#rel-ws-exim-raytheon) |
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
-| Rechtsextremismusdatei (RED) | information_system | `PRG-DE-RED` | DE | [4](network.md#rel-de-bfv-red-fehlbefuellung-2013-001) |
+| Rechtsextremismusdatei (RED) | information_system | `PRG-DE-RED` | DE | [5](network.md#rel-de-bfv-red-fehlbefuellung-2013-001) |
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |

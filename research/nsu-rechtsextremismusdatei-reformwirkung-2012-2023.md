@@ -60,3 +60,5 @@ Prioritäre Originale: eingestufter Kriterienkatalog 2012, Kontrollberichte 2015
 - **Q9:** Bundesbeauftragter für den Datenschutz und die Informationsfreiheit, 2023-03-15, [31. Tätigkeitsbericht 2022, BT-Drs. 20/6000](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/31TB_22.pdf?__blob=publicationFile&v=8), S. 68–69, Nr. 7.7; S. 93–94, Pflichtkontrollen ATD/RED. Amtliche BfDI-Textfassung, Seitenbildabruf Cache-Miss. Behebung einzelner Mängel von nicht erneut geprüften Schnittstellenproblemen unterschieden.
 
 Zugangsgrenze: Die meisten PDF-Seitenbilder waren technisch nicht verfügbar; ausgewertet wurden amtliche Textfassungen. Die Bundestagsdrucksache 20/1045 S. 3–4 wurde zusätzlich im Faksimile geprüft. Keine Auswertung der geheimen Anlagen oder vollständigen Kontrollakten.
+
+**Nachtrag 28.11.2026:** [Durchsetzbarkeit der Nachrichtendienstaufsicht 2023–2026](nsu-aufsichtsdurchsetzung-bfv-bnd-2023-2026.md) aktualisiert die Kontrollergebnisse und untersucht das BVerwG-Urteil 6 A 2.24. Die historischen Befunde bleiben erhalten; die neueren Gegenbefunde sind getrennt zu berücksichtigen.

@@ -8594,3 +8594,93 @@ relations:
     period: {start: "2023-03-15"}
     evidence_level: established
     sources: [SRC-DE-BFDI-TB31-20230315]
+
+  - id: REL-DE-BFDI-BFV-DOKUMENTATIONSBEANSTANDUNG-2024-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_documentation_defects
+    label: "BfDI-Bericht 20.03.2024: Beanstandung fehlender ordnungsgemäßer Dokumentation einer Internetbeobachtungsdatei nach zwei Jahren Betrieb; konkrete Datei nicht benannt"
+    period: {start: "2024-03-20"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB32-20240320]
+
+  - id: REL-DE-BMI-BFDI-DOKUMENTATION-2024-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFD
+    type: reported_rejected_oversight_findings
+    label: "BfDI-Bericht 20.03.2024: BMI weist Teile der Beanstandungen mangels einfachgesetzlicher Dokumentationspflicht zurück; Aufsicht widerspricht; keine gerichtliche Sachentscheidung"
+    period: {start: "2024-03-20"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB32-20240320]
+
+  - id: REL-DE-BFDI-BFV-VERBUNDDATEIEN-2025-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_no_defects_in_inspection
+    label: "BfDI-Bericht 10.04.2025: Ende 2023 begonnene ATD/RED-Pflichtkontrollen beim BfV ohne festgestellte Datenschutzdefizite; keine allgemeine Freigabe sämtlicher Dateien oder Beleg behobener Altmängel"
+    period: {start: "2025-04-10"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB33-20250410]
+
+  - id: REL-DE-BFDI-RED-REFORM-2025-001
+    from: ORG-DE-BFD
+    to: PRG-DE-RED
+    type: recommended_reform_after_inspection
+    label: "BfDI-Bericht 10.04.2025: erneut geringer Nutzwert und geringe Nutzung von RED und ATD; gemeinsame Reformberatung empfohlen, kein Nachweis bereits vollzogener Reform"
+    period: {start: "2025-04-10"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB33-20250410]
+
+  - id: REL-DE-BFDI-ATD-REFORM-2025-001
+    from: ORG-DE-BFD
+    to: PRG-DE-ATD
+    type: recommended_reform_after_inspection
+    label: "BfDI-Bericht 10.04.2025: erneut geringer Nutzwert und geringe Nutzung von ATD und RED; gemeinsame Reformberatung empfohlen, kein Nachweis bereits vollzogener Reform"
+    period: {start: "2025-04-10"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB33-20250410]
+
+  - id: REL-DE-BND-BFDI-EINSICHTSVERWEIGERUNG-2024-001
+    from: ORG-DE-BND
+    to: ORG-DE-BFD
+    type: documented_denial_of_oversight_access
+    label: "BND verweigert Einsicht in präsidiale Anordnungen zu Datei S.; BfDI beanstandet am 22.03.2024; materielle Rechtmäßigkeit nicht entschieden"
+    period: {start: "2024-03-22"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-BFDI-BND-6A224-20260304]
+
+  - id: REL-DE-BKAMT-BFDI-BEANSTANDUNG-2024-001
+    from: ORG-DE-BUNDESKANZLERAMT
+    to: ORG-DE-BFD
+    type: rejected_oversight_objection
+    label: "Bundeskanzleramt weist BfDI-Beanstandung der BND-Einsichtsverweigerung am 11.04.2024 zurück; Zuständigkeit des UKRat angeführt, materieller Streit offen"
+    period: {start: "2024-04-11"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-BFDI-BND-6A224-20260304]
+
+  - id: REL-DE-BVERWG-BFDI-KLAGEUNZULAESSIG-2026-001
+    from: ORG-DE-BVERWG
+    to: ORG-DE-BFD
+    type: dismissed_oversight_action_as_inadmissible
+    label: "BVerwG 6 A 2.24 vom 04.03.2026: Leistungs- und Feststellungsantrag unzulässig mangels wehrfähiger Rechtsposition; keine materielle Entscheidung zur Einsichtsverweigerung"
+    period: {start: "2026-03-04"}
+    evidence_level: established
+    sources: [SRC-DE-BVERWG-BFDI-BND-6A224-20260304]
+
+  - id: REL-DE-BFDI-BFV-DOKUMENTATION-2026-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: reported_persistent_documentation_defects
+    label: "BfDI-Bericht 06.05.2026: erneut Dokumentationsdefizite 2025; BMI/BfV halten Nachweis der Durchführung einer Ermessensentscheidung für ausreichend, nicht der Erwägungen; Aufsicht widerspricht"
+    period: {start: "2026-05-06"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB34-20260506]
+
+  - id: REL-DE-BFDI-MAD-AUSLANDSUEBERMITTLUNG-2026-001
+    from: ORG-DE-BFD
+    to: ORG-DE-MAD
+    type: reported_lawful_sampled_transfers
+    label: "BfDI-Bericht 06.05.2026: geprüfte Auslandsübermittlungen des MAD rechtmäßig, Hinweise zur Dokumentation; BfV-Prüfung bei Redaktionsschluss nicht abgeschlossen"
+    period: {start: "2026-05-06"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB34-20260506]

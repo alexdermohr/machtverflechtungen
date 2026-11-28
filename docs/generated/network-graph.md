@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**926 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**936 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1607,6 +1607,16 @@ flowchart LR
     N_ORG_DE_BFD -->|"BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der RED und ATD empfohlen; Empfehlung keine vollzogene Abschaffung"| N_PRG_DE_RED
     N_PRG_DE_ATD["Antiterrordatei (ATD)"]
     N_ORG_DE_BFD -->|"BfDI-Bericht 15.03.2023: wegen geringer fachlicher Bedeutung Abschaffung der ATD und RED empfohlen; Empfehlung keine vollzogene Abschaffung"| N_PRG_DE_ATD
+    N_ORG_DE_BFD -->|"BfDI-Bericht 20.03.2024: Beanstandung fehlender ordnungsgemäßer Dokumentation einer Internetbeobachtungsdatei nach zwei Jahren Betrieb; konkrete Datei nicht benannt"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"BfDI-Bericht 20.03.2024: BMI weist Teile der Beanstandungen mangels einfachgesetzlicher Dokumentationspflicht zurück; Aufsicht widerspricht; keine gerichtliche Sachentscheidung"| N_ORG_DE_BFD
+    N_ORG_DE_BFD -->|"BfDI-Bericht 10.04.2025: Ende 2023 begonnene ATD/RED-Pflichtkontrollen beim BfV ohne festgestellte Datenschutzdefizite; keine allgemeine Freigabe sämtlicher Dateien oder Beleg behobener Altmängel"| N_ORG_DE_BFV
+    N_ORG_DE_BFD -->|"BfDI-Bericht 10.04.2025: erneut geringer Nutzwert und geringe Nutzung von RED und ATD; gemeinsame Reformberatung empfohlen, kein Nachweis bereits vollzogener Reform"| N_PRG_DE_RED
+    N_ORG_DE_BFD -->|"BfDI-Bericht 10.04.2025: erneut geringer Nutzwert und geringe Nutzung von ATD und RED; gemeinsame Reformberatung empfohlen, kein Nachweis bereits vollzogener Reform"| N_PRG_DE_ATD
+    N_ORG_DE_BND -->|"BND verweigert Einsicht in präsidiale Anordnungen zu Datei S.; BfDI beanstandet am 22.03.2024; materielle Rechtmäßigkeit nicht entschieden"| N_ORG_DE_BFD
+    N_ORG_DE_BUNDESKANZLERAMT -->|"Bundeskanzleramt weist BfDI-Beanstandung der BND-Einsichtsverweigerung am 11.04.2024 zurück; Zuständigkeit des UKRat angeführt, materieller Streit offen"| N_ORG_DE_BFD
+    N_ORG_DE_BVERWG -->|"BVerwG 6 A 2.24 vom 04.03.2026: Leistungs- und Feststellungsantrag unzulässig mangels wehrfähiger Rechtsposition; keine materielle Entscheidung zur Einsichtsverweigerung"| N_ORG_DE_BFD
+    N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: erneut Dokumentationsdefizite 2025; BMI/BfV halten Nachweis der Durchführung einer Ermessensentscheidung für ausreichend, nicht der Erwägungen; Aufsicht widerspricht"| N_ORG_DE_BFV
+    N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: geprüfte Auslandsübermittlungen des MAD rechtmäßig, Hinweise zur Dokumentation; BfV-Prüfung bei Redaktionsschluss nicht abgeschlossen"| N_ORG_DE_MAD
 ```
 
 [Zur Relationstabelle](network.md)

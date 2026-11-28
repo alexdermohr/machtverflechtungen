@@ -7090,7 +7090,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/21/059/2105950.pdf
   accessed: '2026-11-28'
-  locator: "S. 8, Eingangsinterview"
+  locator: "S. 8, Eingangsinterview; S. 19–20 (3.3.1); S. 43–45 (7.9, Dokumentation, NADIS, Auslandsübermittlungen)"
   notes: "Kritik an geplanter Aufsichtsverlagerung vor Bundestagsbeschluss; keine Beurteilung des späteren Vollzugs. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
 
 - id: SRC-DE-BT-NDREFORM-219161-20261111
@@ -7212,3 +7212,39 @@ sources:
   accessed: '2026-11-28'
   locator: "S. 68–69, Nr. 7.7; S. 93–94, Pflichtkontrollen ATD/RED"
   notes: "Amtliche BfDI-Textfassung, Seitenbildabruf Cache-Miss. Behebung einzelner Mängel von nicht erneut geprüften Schnittstellenproblemen unterschieden."
+
+- id: SRC-DE-BFDI-TB32-20240320
+  title: "32. Tätigkeitsbericht 2023, BT-Drs. 20/10800"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2024-03-20'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/20/108/2010800.pdf
+  accessed: '2026-11-28'
+  locator: "S. 13, 91–92 (7.9), 123 (9.1.7), Anlage zu Beanstandungen"
+  notes: "Amtliche Textfassungen; S. 91 zusätzlich im BfDI-Faksimile geprüft. Bericht über konkrete Kontrolle und zurückgewiesene Beanstandungen; keine gerichtliche Feststellung."
+
+- id: SRC-DE-BFDI-TB33-20250410
+  title: "33. Tätigkeitsbericht 2024, BT-Drs. 21/120"
+  institution: "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+  date: '2025-04-10'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/21/001/2100120.pdf
+  accessed: '2026-11-28'
+  locator: "S. 26 (3.3.1), 108–110 (8.1.3–8.1.5), 118 (8.1.13)"
+  notes: "Amtliche Textfassung; S. 109 im Bundestags-Faksimile abgeglichen. Beanstandungsfreie Prüfungen, verspätete Unterlagen und geringer Nutzwert getrennt."
+
+- id: SRC-DE-BVERWG-BFDI-BND-6A224-20260304
+  title: "BVerwG, Urteil vom 04.03.2026, 6 A 2.24"
+  institution: "Bundesverwaltungsgericht"
+  date: '2026-03-04'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/040326U6A2.24.0
+  accessed: '2026-11-28'
+  locator: "ECLI:DE:BVerwG:2026:040326U6A2.24.0; Tenor; Rn. 3–5, 13–38, insbesondere 25–36"
+  notes: "Amtlicher Entscheidungstext. Unzulässigkeit mangels wehrfähiger Rechtsposition; keine Sachentscheidung über Zuständigkeitskonflikt oder Rechtmäßigkeit der konkreten Einsichtsverweigerung."

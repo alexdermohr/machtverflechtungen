@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**633 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**636 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1342,6 +1342,21 @@ Fundstelle: S. 33–34, Nr. 2.1.1; S. 94–95, Nr. 5.13.8
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-bfdi-tb33-20250410"></a>
+### Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+
+**[33. Tätigkeitsbericht 2024, BT-Drs. 21/120](https://dserver.bundestag.de/btd/21/001/2100120.pdf)**
+
+Bundesbeauftragte für den Datenschutz und die Informationsfreiheit · 2025-04-10 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB33-20250410`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/001/2100120.pdf)
+
+Fundstelle: S. 26 (3.3.1), 108–110 (8.1.3–8.1.5), 118 (8.1.13)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-bfdi-tb34-20260506"></a>
@@ -1353,7 +1368,7 @@ Bundesbeauftragte für den Datenschutz und die Informationsfreiheit · 2026-05-0
 
 [PDF öffnen](https://dserver.bundestag.de/btd/21/059/2105950.pdf)
 
-Fundstelle: S. 8, Eingangsinterview
+Fundstelle: S. 8, Eingangsinterview; S. 19–20 (3.3.1); S. 43–45 (7.9, Dokumentation, NADIS, Auslandsübermittlungen)
 
 </article>
 
@@ -1474,6 +1489,21 @@ Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2023-03-
 [PDF öffnen](https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Taetigkeitsberichte/31TB_22.pdf?__blob=publicationFile&v=8)
 
 Fundstelle: S. 68–69, Nr. 7.7; S. 93–94, Pflichtkontrollen ATD/RED
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-de-bfdi-tb32-20240320"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[32. Tätigkeitsbericht 2023, BT-Drs. 20/10800](https://dserver.bundestag.de/btd/20/108/2010800.pdf)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2024-03-20 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB32-20240320`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/20/108/2010800.pdf)
+
+Fundstelle: S. 13, 91–92 (7.9), 123 (9.1.7), Anlage zu Beanstandungen
 
 </article>
 
@@ -1877,6 +1907,21 @@ Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/de/250925U10A2.24.0)
 
 Fundstelle: Tenor Nr. 1–4; Leitsätze
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bverwg-bfdi-bnd-6a224-20260304"></a>
+### Bundesverwaltungsgericht
+
+**[BVerwG, Urteil vom 04.03.2026, 6 A 2.24](https://www.bverwg.de/040326U6A2.24.0)**
+
+Bundesverwaltungsgericht · 2026-03-04 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-BFDI-BND-6A224-20260304`
+
+[Seite öffnen](https://www.bverwg.de/040326U6A2.24.0)
+
+Fundstelle: ECLI:DE:BVerwG:2026:040326U6A2.24.0; Tenor; Rn. 3–5, 13–38, insbesondere 25–36
 
 </article>
 
