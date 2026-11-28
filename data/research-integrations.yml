@@ -1267,6 +1267,22 @@ studies:
     - REL-DE-BND-DYNAMIT-015
     - REL-DE-BND-DYNAMIT-016
 
+  barschel-affaere-akten-koko-finanzspur-1987-2025.md:
+    sha256: c43991d72086a60efb6a08c9182deced9a553523264298171ad0e4c29067b39c
+    status: network
+    relation_ids:
+      - REL-DE-BARSCHEL-001
+      - REL-DE-BARSCHEL-002
+      - REL-DE-BARSCHEL-003
+      - REL-DE-BARSCHEL-004
+      - REL-DE-BARSCHEL-005
+      - REL-DE-BARSCHEL-006
+      - REL-DE-BARSCHEL-007
+      - REL-DE-BARSCHEL-008
+      - REL-DE-BARSCHEL-009
+      - REL-DE-BARSCHEL-010
+      - REL-DE-BARSCHEL-011
+
   hs30-octogon-ruscheweyh-clearing-1944-1969.md:
     sha256: b7fd33a049ac6069a4b892d46b29b6778bc24757d81b5079d127768fed3bedd6
     status: network
