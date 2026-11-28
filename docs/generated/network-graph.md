@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**902 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**913 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1522,6 +1522,27 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_ORG_DE_LFV_SH["Landesamt für Verfassungsschutz Schleswig-Holstein"]
+    N_ORG_DE_BFV -->|"Schriftlicher Hinweis vom 29.03.1993 über Zeugenaussage zu einem behaupteten Treffen (BT 12/5557, Frage 18)"| N_ORG_DE_LFV_SH
+    N_ORG_DE_SH_INNENMINISTERIUM_1993["Innenministerium Schleswig-Holstein (1993)"]
+    N_ORG_DE_SH_INNENMINISTERIUM_1993 -->|"Übersandte BfV-Hinweis an Bundesanwaltschaft; Eingang 08.04.1993 (Regierungsantwort)"| N_ORG_DE_GBA
+    N_ORG_DE_BMJ_1993["Bundesministerium der Justiz (1993)"]
+    N_ORG_DE_GBA -->|"Übermittelte vollständiges Vernehmungsprotokoll am 13.07.1993 (Regierungsantwort)"| N_ORG_DE_BMJ_1993
+    N_ORG_DE_SH_LT_UA_1993["1. Untersuchungsausschuss des SH-Landtags (13. Wahlperiode)"]
+    N_ORG_DE_BMJ_1993 -->|"Übersandte Protokollblätter 1–3 mit SH-Bezug am 20.07.1993 (Regierungsantwort)"| N_ORG_DE_SH_LT_UA_1993
+    N_ORG_INT_UNBENANNTER_DIENST_BARSCHEL_1990["Unbenannter ausländischer Nachrichtendienst (BfV-Akten 1990)"]
+    N_ORG_DE_BFV -->|"Gab 1990 MfS-Dokumente an im veröffentlichten Beschluss nicht identifizierten Dienst ab (Rn. 48); keine Tatverbindung"| N_ORG_INT_UNBENANNTER_DIENST_BARSCHEL_1990
+    N_ORG_DE_BVERWG -->|"Beanstandete Sperrerklärung für BfV-Archivgut teilweise als rechtswidrig (20 F 5.21); keine Aussage über spätere Herausgabe"| N_ORG_DE_BFV
+    N_PER_DE_UWE_BARSCHEL["Uwe Barschel"]
+    N_ORG_DE_BFV -->|"Archivierte Akten zu Barschel als Gegenstand des Rechtsstreits; keine Aussage über Agententätigkeit"| N_PER_DE_UWE_BARSCHEL
+    N_ORG_DE_BVERWG -->|"Wies Klage auf Nutzung von BND-Archivgut zu Barschel ab (6 A 5.13)"| N_ORG_DE_BND
+    N_ORG_DE_STA_MUENCHEN_I["Staatsanwaltschaft München I"]
+    N_ORG_DE_STA_LUEBECK["Staatsanwaltschaft Lübeck"]
+    N_ORG_DE_STA_MUENCHEN_I -->|"Übersandte Anzeigenvorgang vom 15.04.2024 zur Übernahmeprüfung mit Verfügung vom 02.05.2024; Übernahme abgelehnt"| N_ORG_DE_STA_LUEBECK
+    N_ORG_DE_BAY_STAATSKANZLEI["Bayerische Staatskanzlei"]
+    N_ORG_DE_BAY_JUSTIZMINISTERIUM["Bayerisches Staatsministerium der Justiz"]
+    N_ORG_DE_BAY_STAATSKANZLEI -->|"Leitete Eingabe vom 23.10.2023 zuständigkeitshalber weiter; genaues Weiterleitungsdatum nicht genannt"| N_ORG_DE_BAY_JUSTIZMINISTERIUM
+    N_ORG_DE_BAY_JUSTIZMINISTERIUM -->|"Weiterleitung derselben Eingabe an Staatsanwaltschaft; genaues Datum nicht genannt"| N_ORG_DE_STA_MUENCHEN_I
     N_ORG_LI_REGIERUNG_1944_1948["Liechtensteinische Regierung (1944–1948)"]
     N_PER_DE_RUDOLF_RUSCHEWEYH["Rudolf Ruscheweyh"]
     N_ORG_LI_REGIERUNG_1944_1948 -->|"Regierung befürwortete 1944 Einbürgerung unter Verweis auf wirtschaftliche Interessen"| N_PER_DE_RUDOLF_RUSCHEWEYH
