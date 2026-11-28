@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**626 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**633 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1460,6 +1460,21 @@ Bundesnachrichtendienst · 2011 · Stufe **A** · Primärquelle · `SRC-DE-BND-G
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bverfg-nsa-2bve2-15"></a>
+### Bundesverfassungsgericht
+
+**[BVerfG: NSA-Selektorenlisten, Beschluss 2 BvE 2/15](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/10/es20161013_2bve000215.html)**
+
+Bundesverfassungsgericht · 2016-10-13 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-NSA-2BVE2-15`
+
+[Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/10/es20161013_2bve000215.html)
+
+Fundstelle: Leitsatz 2, Rn. 162 ff. (amtlich indexierte Passage; amtliche Pressemitteilung Nr. 84/2016 ergänzend)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
 
 <a id="src-de-bverfg-okt-2017"></a>
@@ -1487,6 +1502,21 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://datenbank.nwb.de/Dokument/924391/)
 
 Fundstelle: Leitsätze, Rn. 124 ff.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-bverfg-bnd-1bvr2835-17"></a>
+### Bundesverfassungsgericht
+
+**[BVerfG: Ausland-Ausland-Fernmeldeaufklärung, Urteil 1 BvR 2835/17](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/05/rs20200519_1bvr283517.html)**
+
+Bundesverfassungsgericht · 2020-05-19 · Stufe **A** · Primärquelle · `SRC-DE-BVERFG-BND-1BVR2835-17`
+
+[Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/05/rs20200519_1bvr283517.html)
+
+Fundstelle: Passage zur Third Party Rule und unabhängigen geheimschutzfähigen Rechtskontrolle (amtlich indexierter Text)
 
 </article>
 
@@ -2343,6 +2373,21 @@ Fundstelle: Abschnitte Einer hat gelogen; Gering, dünn, spärlich
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
 
+<a id="src-de-bt-nsu-1714600-italien-2013"></a>
+### Deutscher Bundestag
+
+**[Erster NSU-Untersuchungsausschuss: Hinweis des italienischen Inlandsdienstes](https://dserver.bundestag.de/btd/17/146/1714600.pdf)**
+
+Deutscher Bundestag · 2013-08-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1714600-ITALIEN-2013`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/146/1714600.pdf)
+
+Fundstelle: Gedruckte S. 282–283, 458–459, Fn. 2470–2474, 4055–4058
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
 <a id="src-de-bt-nsu-1714600-meldewege-2013"></a>
 ### Deutscher Bundestag
 
@@ -2486,6 +2531,21 @@ Deutscher Bundestag · 2017-02-16 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_02/493792-493792)
 
 Fundstelle: Absätze zur Aktion Konfetti; Aussage Lingens von 2014; Aussagen Fromms vom 16.02.2017
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-bt-third-party-1812297"></a>
+### Deutscher Bundestag
+
+**[Verweis auf eine Third-Party-Rule zur Geheimhaltung der Kooperation europäischer Inlandsgeheimdienste](https://dserver.bundestag.de/btd/18/122/1812297.pdf)**
+
+Deutscher Bundestag · 2017-05-10 · Stufe **A** · Primärquelle · `SRC-DE-BT-THIRD-PARTY-1812297`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/122/1812297.pdf)
+
+Fundstelle: S. 2–3, Antworten 1–4
 
 </article>
 
@@ -3809,6 +3869,21 @@ Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
+<a id="src-de-stpo-476-forschung"></a>
+### Gesetze im Internet
+
+**[§ 476 StPO: Auskünfte und Akteneinsicht zu Forschungszwecken](https://www.gesetze-im-internet.de/stpo/__476.html)**
+
+Gesetze im Internet · unbekannt · Stufe **A** · Primärquelle · `SRC-DE-STPO-476-FORSCHUNG`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/stpo/__476.html)
+
+Fundstelle: Abs. 1–3, 5–7
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-de-hh-nsu-forschung-projekt"></a>
 ### Hamburgische Bürgerschaft
 
@@ -3954,6 +4029,21 @@ Hamburgische Bürgerschaft · 2023-05-30 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/83752/nsu_komplex_und_rechte_netzwerke_in_hamburg_verbindungen_von_hamburg_zum_nsu.pdf)
 
 Fundstelle: S. 13–14, Fragen 27–29
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-hh-nsu-kontrolle-2211825"></a>
+### Hamburgische Bürgerschaft
+
+**[Offene Fragen im Zusammenhang mit dem Mord an Süleyman Taşköprü und dem NSU-Komplex in Hamburg](https://www.buergerschaft-hh.de/parldok/dokument/83720/22_11825_offene_fragen_im_zusammenhang_mit_dem_mord_an_sueleyman_taskoeprue_und_dem_nsu_komplex_in_hamburg)**
+
+Hamburgische Bürgerschaft · 2023-05-30 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-KONTROLLE-2211825`
+
+[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/83720/22_11825_offene_fragen_im_zusammenhang_mit_dem_mord_an_sueleyman_taskoeprue_und_dem_nsu_komplex_in_hamburg)
+
+Fundstelle: S. 1–2, 9 F13, 12 F19–20, 27–29 F85–89
 
 </article>
 
@@ -4314,6 +4404,21 @@ Italienische Ermittlungsrichter, Originalvernehmung in der P2-Parlamentskommissi
 [PDF öffnen](https://www.archivioantimafia.org/p2/commissione_parlamentare/10.%20Volume%20VIII%20%28109-118%29/116.%20volume_08_tomo_08.pdf)
 
 Fundstelle: Vol. VIII Tomo VIII, gedruckte S. 58–59 / PDF 78–79: Botta erinnert 21 Mio. USD Nassau für Managua, Bezug zu 'Sudam', vermutete Restschuld und unklare Empfänger
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-it-intelligence-124-2007"></a>
+### Italienisches Parlament
+
+**[Legge 3 agosto 2007, n. 124: Sistema di informazione per la sicurezza della Repubblica e nuova disciplina del segreto](https://www.parlamento.it/parlam/leggi/07124l.htm)**
+
+Italienisches Parlament · 2007-08-03 · Stufe **A** · Primärquelle · `SRC-IT-INTELLIGENCE-124-2007`
+
+[Seite öffnen](https://www.parlamento.it/parlam/leggi/07124l.htm)
+
+Fundstelle: Art. 7 und Art. 44 Abs. 2–4
 
 </article>
 

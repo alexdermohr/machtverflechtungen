@@ -3794,3 +3794,18 @@ entities:
     type: document
     name: "Ausgewählter Hamburger LfV-Forschungsaktenbestand (Stand April 2025)"
     countries: [DE]
+
+  - id: ORG-IT-SISDE
+    type: intelligence_service
+    name: "Servizio per le informazioni e la sicurezza democratica (SISDE)"
+    countries: [IT]
+
+  - id: ORG-IT-AISI
+    type: intelligence_service
+    name: "Agenzia informazioni e sicurezza interna (AISI)"
+    countries: [IT]
+
+  - id: DOC-DE-HH-PMK-BESTAND-BIS-2011
+    type: document
+    name: "Historischer Hamburger polizeilicher PMK-Datenbestand bis 2011"
+    countries: [DE]

@@ -8484,3 +8484,37 @@ relations:
     label: "Bestandsprüfung und geplante ungeschwärzte Abgabe in Abstimmung mit Staatsarchiv; am 22.04.2025 kein Übergabetermin, Vollzug nicht belegt"
     evidence_level: established
     sources: [SRC-DE-HH-NSU-AUSWAHL-230184, SRC-DE-HH-NSU-INNEN-2211564]
+
+  - id: REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001
+    from: ORG-DE-HH-POLIZEI
+    to: DOC-DE-HH-PMK-BESTAND-BIS-2011
+    type: reported_records_gap
+    label: "Laut Senatsantwort 30.05.2023 PMK-Daten bis 2011 wegen Löschfristen nicht mehr vorhanden; anderweitige Überlieferung offen"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-KONTROLLE-2211825]
+
+  - id: REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001
+    from: ORG-IT-SISDE
+    to: ORG-DE-BFV
+    type: transmitted_intelligence_tip
+    label: "Italienischer Hinweis Februar 2003 auf mutmaßliches militantes Netzwerk; BfV laut eigener Darstellung nur Datenbankabfragen; kein erwiesener NSU-Bezug, Originalabsenderzeile offen"
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013, SRC-IT-INTELLIGENCE-124-2007]
+
+  - id: REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001
+    from: ORG-IT-AISI
+    to: ORG-DE-BFV
+    type: transmitted_intelligence_tip
+    label: "Mitteilung vom 14.12.2011 über behauptete europäische Netzwerkdimension; Original nicht eingesehen, tatsächliches Netzwerk nicht nachgewiesen"
+    period: {start: "2011-12-14"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013]
+
+  - id: REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001
+    from: ORG-DE-HH-SENAT
+    to: ORG-DE-HH-BUERGERSCHAFT
+    type: restricted_parliamentary_information
+    label: "Antwort 85 vom 30.05.2023 verweist auf Third-Party-Rule und Bundeszuständigkeit; Eingang der Italien-Hinweise beim Hamburger LfV und konkrete Freigabeanfragen offen"
+    period: {start: "2023-05-30"}
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-KONTROLLE-2211825, SRC-DE-BT-THIRD-PARTY-1812297]

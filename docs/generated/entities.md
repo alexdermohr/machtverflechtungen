@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**674 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**677 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -184,6 +184,7 @@
 | ACG McCloy Fellowships (Beginn 1976) | historical_fellowship_program | `PRG-US-ACG-MCCLOY-FELLOWSHIPS-1976` | US, DE | [1](network.md#rel-us-acg-mccloy-fellowships-1976-001) |
 | Advent International | investment_firm | `ORG-US-ADVENT-INTERNATIONAL` | US | [1](network.md#rel-mauss-pmt-031) |
 | Advocacy Coordinating Network (1993–1994) | interagency_network | `ORG-US-TPCC-ADVOCACY` | US | [5](network.md#rel-ws-commerce-advocacy) |
+| Agenzia informazioni e sicurezza interna (AISI) | intelligence_service | `ORG-IT-AISI` | IT | [1](network.md#rel-it-de-nsu-aisi-bfv-hinweis-2011-001) |
 | Allbritton Communications Company (2004) | media_company | `ORG-US-ALLBRITTON-COMMUNICATIONS-2004` | US | [3](network.md#rel-riggs-followup-031) |
 | Amadeus IT Group | company | `ORG-ES-AMADEUS` | ES | [1](network.md#rel-mauss-pmt-033) |
 | Ambrosiano Group Banco Comercial S.A., Managua | historical_bank | `ORG-NI-AMBROSIANO-MANAGUA` | NI | [2](network.md#rel-bs-ni-trad-1979-001) |
@@ -264,7 +265,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [19](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [21](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
@@ -412,11 +413,12 @@
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [3](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Hamburger Staatsanwaltschaften | prosecution_authority | `ORG-DE-HH-STA` | DE | [1](network.md#rel-de-nsu-hh-sta-gba-akten-001) |
-| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [2](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
+| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [3](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
 | Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit | government_agency | `ORG-DE-HH-DSB` | DE | [1](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
+| Historischer Hamburger polizeilicher PMK-Datenbestand bis 2011 | document | `DOC-DE-HH-PMK-BESTAND-BIS-2011` | DE | [1](network.md#rel-de-nsu-hh-pol-pmk-luecke-2023-001) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
@@ -533,7 +535,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
-| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [4](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
+| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [5](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
@@ -562,8 +564,9 @@
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
-| Senat der Freien und Hansestadt Hamburg | government | `ORG-DE-HH-SENAT` | DE | [2](network.md#rel-de-nsu-hh-senat-pka-2017-001) |
+| Senat der Freien und Hansestadt Hamburg | government | `ORG-DE-HH-SENAT` | DE | [3](network.md#rel-de-nsu-hh-senat-pka-2017-001) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
+| Servizio per le informazioni e la sicurezza democratica (SISDE) | intelligence_service | `ORG-IT-SISDE` | IT | [1](network.md#rel-it-de-nsu-sisde-bfv-hinweis-2003-001) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Sidley Austin (2006) | law_firm | `ORG-US-SIDLEY-AUSTIN-2006` | US | [1](network.md#rel-riggs-post-2004-008) |
 | Siemens Nixdorf AG (historisch, 1996) | company | `ORG-DE-SIEMENS-NIXDORF-1996` | DE | [1](network.md#rel-mauss-pmt-009) |

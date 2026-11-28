@@ -7128,3 +7128,87 @@ sources:
   accessed: "2026-11-28"
   locator: "Veröffentlichungsdatum, Beschreibung und fünf Ressourcen"
   notes: "Katalogmetadaten der Bürgerschaftskanzlei; Abruf Vertrag, Zuschlag und Angebot technisch fehlgeschlagen; keine Kenntnis der Vertragsklauseln."
+
+- id: SRC-DE-HH-NSU-KONTROLLE-2211825
+  title: "Offene Fragen im Zusammenhang mit dem Mord an Süleyman Taşköprü und dem NSU-Komplex in Hamburg"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-05-30"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/83720/22_11825_offene_fragen_im_zusammenhang_mit_dem_mord_an_sueleyman_taskoeprue_und_dem_nsu_komplex_in_hamburg
+  accessed: "2026-11-28"
+  locator: "S. 1–2, 9 F13, 12 F19–20, 27–29 F85–89"
+  notes: "Amtliche Senatsantwort; Fremdhinweise und amtliche Selbstbewertung unterscheiden. Text eingesehen, Seitenbildabruf fehlgeschlagen."
+
+- id: SRC-DE-BT-NSU-1714600-ITALIEN-2013
+  title: "Erster NSU-Untersuchungsausschuss: Hinweis des italienischen Inlandsdienstes"
+  institution: "Deutscher Bundestag"
+  date: "2013-08-22"
+  type: parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/146/1714600.pdf
+  accessed: "2026-11-28"
+  locator: "Gedruckte S. 282–283, 458–459, Fn. 2470–2474, 4055–4058"
+  notes: "Weiterer Fundstellenbereich desselben Berichts wie SRC-DE-BT-PIATTO-NSU-UA-1714600-2013, keine unabhängige Quelle. Text; Seitenbilder und Originalschreiben nicht verfügbar; divergierende Tagesdaten 21./24.02.2003."
+
+- id: SRC-IT-INTELLIGENCE-124-2007
+  title: "Legge 3 agosto 2007, n. 124: Sistema di informazione per la sicurezza della Repubblica e nuova disciplina del segreto"
+  institution: "Italienisches Parlament"
+  date: "2007-08-03"
+  type: law
+  primary: true
+  tier: A
+  url: https://www.parlamento.it/parlam/leggi/07124l.htm
+  accessed: "2026-11-28"
+  locator: "Art. 7 und Art. 44 Abs. 2–4"
+  notes: "Verkündeter Gesetzestext, organisatorischer Übergang SISDE/AISI; keine Originalabsenderzeile der Meldung 2003."
+
+- id: SRC-DE-BT-THIRD-PARTY-1812297
+  title: "Verweis auf eine Third-Party-Rule zur Geheimhaltung der Kooperation europäischer Inlandsgeheimdienste"
+  institution: "Deutscher Bundestag"
+  date: "2017-05-10"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/122/1812297.pdf
+  accessed: "2026-11-28"
+  locator: "S. 2–3, Antworten 1–4"
+  notes: "Amtliche Bundesregierungsauskunft zur CTG; nicht Nachweis einer NSU-bezogenen Freigabeanfrage. Seitenbildabruf fehlgeschlagen."
+
+- id: SRC-DE-STPO-476-FORSCHUNG
+  title: "§ 476 StPO: Auskünfte und Akteneinsicht zu Forschungszwecken"
+  institution: "Gesetze im Internet"
+  date: null
+  type: law
+  primary: true
+  tier: A
+  url: https://www.gesetze-im-internet.de/stpo/__476.html
+  accessed: "2026-11-28"
+  locator: "Abs. 1–3, 5–7"
+  notes: "Amtlich bereitgestellter Gesetzestext, Abruf 28.11.2026; nicht konkreter Freigabebescheid."
+
+- id: SRC-DE-BVERFG-NSA-2BVE2-15
+  title: "BVerfG: NSA-Selektorenlisten, Beschluss 2 BvE 2/15"
+  institution: "Bundesverfassungsgericht"
+  date: "2016-10-13"
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/10/es20161013_2bve000215.html
+  accessed: "2026-11-28"
+  locator: "Leitsatz 2, Rn. 162 ff. (amtlich indexierte Passage; amtliche Pressemitteilung Nr. 84/2016 ergänzend)"
+  notes: "Volltextabruf des amtlichen Originals 403; kein Urteil zum Hamburger Fall."
+
+- id: SRC-DE-BVERFG-BND-1BVR2835-17
+  title: "BVerfG: Ausland-Ausland-Fernmeldeaufklärung, Urteil 1 BvR 2835/17"
+  institution: "Bundesverfassungsgericht"
+  date: "2020-05-19"
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/05/rs20200519_1bvr283517.html
+  accessed: "2026-11-28"
+  locator: "Passage zur Third Party Rule und unabhängigen geheimschutzfähigen Rechtskontrolle (amtlich indexierter Text)"
+  notes: "Volltextabruf fehlgeschlagen; verfassungsrechtlicher Vergleich, keine Einzelfallentscheidung zur Hamburger Aufarbeitung."

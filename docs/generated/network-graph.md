@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**915 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**919 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1602,6 +1602,13 @@ flowchart LR
     N_ORG_DE_HH_POLIZEI -->|"Polizei informierte GBA im Mai 2023 über Forschungsvorhaben; Entscheidung über Freigabe am 22.04.2025 noch ausstehend"| N_ORG_DE_GBA
     N_ORG_DE_HH_STAATSARCHIV["Staatsarchiv Hamburg"]
     N_ORG_DE_HH_POLIZEI -->|"Bestandsprüfung und geplante ungeschwärzte Abgabe in Abstimmung mit Staatsarchiv; am 22.04.2025 kein Übergabetermin, Vollzug nicht belegt"| N_ORG_DE_HH_STAATSARCHIV
+    N_DOC_DE_HH_PMK_BESTAND_BIS_2011["Historischer Hamburger polizeilicher PMK-Datenbestand bis 2011"]
+    N_ORG_DE_HH_POLIZEI -->|"Laut Senatsantwort 30.05.2023 PMK-Daten bis 2011 wegen Löschfristen nicht mehr vorhanden; anderweitige Überlieferung offen"| N_DOC_DE_HH_PMK_BESTAND_BIS_2011
+    N_ORG_IT_SISDE["Servizio per le informazioni e la sicurezza democratica (SISDE)"]
+    N_ORG_IT_SISDE -->|"Italienischer Hinweis Februar 2003 auf mutmaßliches militantes Netzwerk; BfV laut eigener Darstellung nur Datenbankabfragen; kein erwiesener NSU-Bezug, Originalabsenderzeile offen"| N_ORG_DE_BFV
+    N_ORG_IT_AISI["Agenzia informazioni e sicurezza interna (AISI)"]
+    N_ORG_IT_AISI -->|"Mitteilung vom 14.12.2011 über behauptete europäische Netzwerkdimension; Original nicht eingesehen, tatsächliches Netzwerk nicht nachgewiesen"| N_ORG_DE_BFV
+    N_ORG_DE_HH_SENAT -->|"Antwort 85 vom 30.05.2023 verweist auf Third-Party-Rule und Bundeszuständigkeit; Eingang der Italien-Hinweise beim Hamburger LfV und konkrete Freigabeanfragen offen"| N_ORG_DE_HH_BUERGERSCHAFT
 ```
 
 [Zur Relationstabelle](network.md)

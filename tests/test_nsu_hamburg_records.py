@@ -51,10 +51,21 @@ class HamburgRecordsTest(unittest.TestCase):
         self.assertIn("Anfang 2012", rels["REL-DE-NSU-HH-STA-GBA-AKTEN-001"]["label"])
         self.assertIn("kein Beweis", (ROOT / "research" / STUDY).read_text())
 
+    def test_italian_tip_and_information_limits(self):
+        rels = {r["id"]: r for r in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]}
+        first = rels["REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001"]
+        self.assertNotIn("period", first)
+        self.assertIn("kein erwiesener NSU-Bezug", first["label"])
+        later = rels["REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001"]
+        self.assertEqual(later["period"]["start"], "2011-12-14")
+        self.assertNotEqual(first["from"], later["from"])
+        self.assertIn("Freigabeanfragen offen", rels["REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001"]["label"])
+        self.assertIn("anderweitige Überlieferung offen", rels["REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001"]["label"])
+
     def test_study_exact_integration(self):
         reg = yaml.safe_load((ROOT / "data/research-integrations.yml").read_text())
         entry = reg["studies"][STUDY]
-        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {'REL-DE-NSU-HH-POL-ARCHIV-2025-001', 'REL-DE-NSU-HH-POL-GBA-FREIGABE-2023-001', 'REL-DE-NSU-HH-LFV-AUSWAHL-2025-001'} | {'REL-DE-NSU-HH-SENAT-PKA-2017-001', 'REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001', 'REL-DE-NSU-HH-GBA-2026-001', 'REL-DE-NSU-HH-DSB-PKA-2016-001'})
+        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {'REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001', 'REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001', 'REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001', 'REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001'} | {'REL-DE-NSU-HH-POL-ARCHIV-2025-001', 'REL-DE-NSU-HH-POL-GBA-FREIGABE-2023-001', 'REL-DE-NSU-HH-LFV-AUSWAHL-2025-001'} | {'REL-DE-NSU-HH-SENAT-PKA-2017-001', 'REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001', 'REL-DE-NSU-HH-GBA-2026-001', 'REL-DE-NSU-HH-DSB-PKA-2016-001'})
         self.assertEqual(entry["sha256"], hashlib.sha256((ROOT / "research" / STUDY).read_bytes()).hexdigest())
 
 if __name__ == "__main__":
