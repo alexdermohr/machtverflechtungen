@@ -8426,3 +8426,35 @@ relations:
     evidence_level: strong
     period:
       start: '1955-10-18'
+
+  - id: REL-HS30-WIG-001
+    from: ORG-US-CIA
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: intelligence_reporting
+    label: CIA-Memo vom 02.11.1965 enthält ältere ZIPPER-Studie, Anlage III Nr. 82 zur WIG; dokumentierte Berichterstattung,
+      kein Beweis von CIA-Kontrolle
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    - SRC-HS30-GEHLEN-MIDDLE-EAST-2019
+    evidence_level: strong
+    period:
+      start: '1965-11-02'
+  - id: REL-HS30-WIG-002
+    from: ORG-CH-HISPANO-SUIZA-1950S
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: reported_corporate_foundation
+    label: Gründung der WIG Mannheim im April 1953 durch Hispano-Suiza laut CIA-Studie Nr. 78; Registerbeleg ausstehend
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    evidence_level: plausible
+    period:
+      start: '1953'
+  - id: REL-HS30-WIG-003
+    from: ORG-LI-OCTOGON-TRUST
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: reported_business_successor
+    label: CIA-Studie Nr. 78 und 82 bezeichnet WIG als wirtschaftliche Nachfolgerin Octogons; Rechtsnachfolge und
+      Vermögensübertragung nicht belegt
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    evidence_level: plausible

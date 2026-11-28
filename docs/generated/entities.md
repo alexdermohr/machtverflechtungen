@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**665 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**666 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -292,7 +292,7 @@
 | Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
-| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
+| Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [20](network.md#rel-de-mni-006) |
 | Central Intelligence Group (CIG) | intelligence_organization | `ORG-US-CIG` | US | [1](network.md#rel-de-gehlen-008) |
 | Chile Copper Company (Anaconda-Tochter, 1972) | historical_mining_company_subsidiary | `ORG-CL-CHILE-COPPER-ANACONDA-1972` | US, CL | [4](network.md#rel-us-anaconda-chile-copper-subsidiary-1972) |
 | Chilenische Militärjunta ab September 1973 | historical_military_government | `ORG-CL-MILITARY-JUNTA-1973` | CL | [13](network.md#rel-us-cia-chile-junta-propaganda-1973) |
@@ -421,7 +421,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
-| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [6](network.md#rel-hs30-012) |
+| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [7](network.md#rel-hs30-012) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
@@ -508,7 +508,7 @@
 | Oberlandesgericht Frankfurt am Main | court | `ORG-DE-OLG-FRANKFURT` | DE | [1](network.md#rel-raf-schmuecker-nonne-014) |
 | Oberlandesgericht Hamm | court | `ORG-DE-OLG-HAMM` | DE | [1](network.md#rel-mauss-finanz-016) |
 | Ocean Bank (Miami) | commercial_bank | `ORG-US-OCEAN-BANK-MIAMI` | US | [1](network.md#rel-riggs-followup-016) |
-| Octogon Trust reg. (Schaan, 1952) | company | `ORG-LI-OCTOGON-TRUST` | LI | [1](network.md#rel-hs30-011) |
+| Octogon Trust reg. (Schaan, 1952) | company | `ORG-LI-OCTOGON-TRUST` | LI | [2](network.md#rel-hs30-011) |
 | Office of Policy Coordination (OPC) | intelligence_organization | `ORG-US-OPC` | US | [2](network.md#rel-de-bdj-015) |
 | Office of the Comptroller of the Currency (OCC) | bank_supervisor | `ORG-US-OCC` | US | [8](network.md#rel-int-bcci-004) |
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
@@ -657,6 +657,7 @@
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | Werkzeugmaschinenfabrik Oerlikon Bührle & Co. (1940er) | company | `ORG-CH-OERLIKON-BUEHRLE-1945` | CH | [2](network.md#rel-hs30-003) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [9](network.md#rel-de-urb-001) |
+| Westdeutsche Industriegesellschaft (WIG, Mannheim, 1953) | company | `ORG-DE-WIG-MANNHEIM-1953` | DE | [3](network.md#rel-hs30-wig-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [2](network.md#rel-de-marienhof-011) |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |

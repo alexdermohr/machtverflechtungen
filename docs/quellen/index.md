@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**594 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**597 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1757,6 +1757,21 @@ Central Intelligence Agency, Original bei National Security Archive · 1948-03-1
 [PDF öffnen](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB146/doc59.pdf)
 
 Fundstelle: Document 59, PDF-Bildseite 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1965">
+
+<a id="src-hs30-cia-catide-19651102"></a>
+### Central Intelligence Agency; Scan-Kopie bei FOIA Research
+
+**[Memorandum for the Record: CATIDE Cover Firms (Anlage ZIPPER COVERS)](https://www.foiaresearch.net/sites/default/files/2019-11/IHM%2C%20KARL_0011.pdf)**
+
+Central Intelligence Agency; Scan-Kopie bei FOIA Research · 1965-11-02 · Stufe **A** · Primärquelle · `SRC-HS30-CIA-CATIDE-19651102`
+
+[PDF öffnen](https://www.foiaresearch.net/sites/default/files/2019-11/IHM%2C%20KARL_0011.pdf)
+
+Fundstelle: NARA RG 263 Entry ZZ-18 Box 61 Karl Ihm Name File, File 32W-5-39/31; Anlage III Nr. 78, 82, Druckseiten 47–49
 
 </article>
 
@@ -7220,7 +7235,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-hs30-nara-ihm-namefile) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -8180,6 +8195,21 @@ Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zus
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
+<a id="src-hs30-gehlen-middle-east-2019"></a>
+### Journal of Intelligence History (Taylor & Francis)
+
+**[The Gehlen Organization, Nazis, and the Middle East](https://doi.org/10.1080/16161262.2019.1592956)**
+
+Journal of Intelligence History (Taylor & Francis) · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-GEHLEN-MIDDLE-EAST-2019`
+
+[Seite öffnen](https://doi.org/10.1080/16161262.2019.1592956)
+
+Fundstelle: Fn. 39, 40, 56
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-kas-fonds-spr-2003"></a>
@@ -8717,6 +8747,21 @@ Transparency International Deutschland · 2013 · Stufe **B** · Sekundär-/Fors
 [PDF öffnen](https://www.transparency.de/fileadmin/Redaktion/Publikationen/2013/Gefallen_an_Gefaelligkeiten_TransparencyDeutschland_2013.pdf)
 
 Fundstelle: Vergleichskontext journalistischer Zuwendungen.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-nara-ihm-namefile"></a>
+### U.S. National Archives and Records Administration
+
+**[CIA Name Files – 2nd Release](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release/name-files.html)**
+
+U.S. National Archives and Records Administration · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-NARA-IHM-NAMEFILE`
+
+[Seite öffnen](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release/name-files.html)
+
+Fundstelle: IHM, KARL, Box 061, 230/86/23/02
 
 </article>
 

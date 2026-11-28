@@ -3744,3 +3744,11 @@ entities:
     name: Eidgenössisches Justiz- und Polizeidepartement (1955)
     countries:
     - CH
+
+  - id: ORG-DE-WIG-MANNHEIM-1953
+    type: company
+    name: Westdeutsche Industriegesellschaft (WIG, Mannheim, 1953)
+    countries:
+    - DE
+    notes: Im CIA-Bericht 1965 als im April 1953 gegründete Nachfolgerin Octogons bezeichnet; genaue Registeridentität,
+      Eigentum und Rechtsnachfolge nicht bestätigt.

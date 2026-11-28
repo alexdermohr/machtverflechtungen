@@ -6747,3 +6747,40 @@ sources:
   locator: S. 132–133, Anm. 36–37
   notes: Text geprüft, visuelle Prüfung wegen Dateigröße gescheitert. Provisionen 1939–1945 geschätzt; Parteigeldbehauptung
     unbestätigt; Einbürgerungsjahr widerspricht Archivbiografie.
+
+- id: SRC-HS30-CIA-CATIDE-19651102
+  title: 'Memorandum for the Record: CATIDE Cover Firms (Anlage ZIPPER COVERS)'
+  institution: Central Intelligence Agency; Scan-Kopie bei FOIA Research
+  date: '1965-11-02'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://www.foiaresearch.net/sites/default/files/2019-11/IHM%2C%20KARL_0011.pdf
+  accessed: '2026-11-28'
+  locator: NARA RG 263 Entry ZZ-18 Box 61 Karl Ihm Name File, File 32W-5-39/31; Anlage III Nr. 78, 82, Druckseiten
+    47–49
+  notes: Textindex der freigegebenen Aktenkopie geprüft; offizieller Direktabruf nicht gelungen; Screenshot scheiterte
+    am Größenlimit. Anschreiben datiert 1965; Anlage laut Anschreiben vor 1956 erstellt. Berichtete Aussagen keine
+    Registerbelege.
+- id: SRC-HS30-NARA-IHM-NAMEFILE
+  title: CIA Name Files – 2nd Release
+  institution: U.S. National Archives and Records Administration
+  date: null
+  type: catalog
+  primary: false
+  tier: B
+  url: https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release/name-files.html
+  accessed: '2026-11-28'
+  locator: IHM, KARL, Box 061, 230/86/23/02
+  notes: Amtlicher Bestandsnachweis, keine direkte Bestätigung einzelner Aussagen der Akte.
+- id: SRC-HS30-GEHLEN-MIDDLE-EAST-2019
+  title: The Gehlen Organization, Nazis, and the Middle East
+  institution: Journal of Intelligence History (Taylor & Francis)
+  date: '2019'
+  type: research_article
+  primary: false
+  tier: B
+  url: https://doi.org/10.1080/16161262.2019.1592956
+  accessed: '2026-11-28'
+  locator: Fn. 39, 40, 56
+  notes: Bibliografische Provenienz der CIA-Akte und ZIPPER-Deckbezeichnung überprüft; nicht der vollständige Aufsatz.

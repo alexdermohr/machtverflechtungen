@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**902 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**905 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1579,6 +1579,10 @@ flowchart LR
     N_ORG_CH_EPD_1954_1955 -->|"Empfahl Genehmigung des BGS-Geschäfts über rund 2,9 Mio. CHF nach deutschen Garantien; Octogon-Ermittlungen noch laufend"| N_ORG_CH_BUNDESRAT_1953_1955
     N_ORG_CH_EJPD_1955["Eidgenössisches Justiz- und Polizeidepartement (1955)"]
     N_ORG_CH_EJPD_1955 -->|"Antrag vom 18.10.1955 zu Octogon und fremdenpolizeilichen Maßnahmen, im Mitbericht vom 29.10.1955 referiert; Hauptakte selbst nicht eingesehen"| N_ORG_CH_BUNDESRAT_1953_1955
+    N_ORG_DE_WIG_MANNHEIM_1953["Westdeutsche Industriegesellschaft (WIG, Mannheim, 1953)"]
+    N_ORG_US_CIA -->|"CIA-Memo vom 02.11.1965 enthält ältere ZIPPER-Studie, Anlage III Nr. 82 zur WIG; dokumentierte Berichterstattung, kein Beweis von CIA-Kontrolle"| N_ORG_DE_WIG_MANNHEIM_1953
+    N_ORG_CH_HISPANO_SUIZA_1950S -->|"Gründung der WIG Mannheim im April 1953 durch Hispano-Suiza laut CIA-Studie Nr. 78; Registerbeleg ausstehend"| N_ORG_DE_WIG_MANNHEIM_1953
+    N_ORG_LI_OCTOGON_TRUST -->|"CIA-Studie Nr. 78 und 82 bezeichnet WIG als wirtschaftliche Nachfolgerin Octogons; Rechtsnachfolge und Vermögensübertragung nicht belegt"| N_ORG_DE_WIG_MANNHEIM_1953
 ```
 
 [Zur Relationstabelle](network.md)

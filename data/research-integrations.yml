@@ -1303,3 +1303,11 @@ studies:
     - REL-HS30-030
     - REL-HS30-031
     - REL-HS30-032
+
+  hs30-octogon-wig-cia-1952-1965.md:
+    sha256: 058a6ff5b187e388bee417f6018855c4ac9ead1c91f9dbe10eff269be2ca0816
+    status: network
+    relation_ids:
+    - REL-HS30-WIG-001
+    - REL-HS30-WIG-002
+    - REL-HS30-WIG-003
