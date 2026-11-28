@@ -8576,3 +8576,36 @@ relations:
     period: {start: "2024-11-20"}
     evidence_level: established
     sources: [SRC-DE-HH-NSU-VERGABE-2216857]
+
+  - id: REL-DE-NSU-HH-BGR-BUERGERSCHAFT-AKTEN-2026-001
+    from: ORG-DE-HH-BUENDNIS-GEGEN-RECHTS
+    to: ORG-DE-HH-BUERGERSCHAFT
+    type: delivered_records_medium
+    label: "Datenträger am 30.06.2026 übergeben; nach Angaben des Bündnisses 196 Ermittlungsakten, Inhalt und Identität mit beantragtem Bestand ungeprüft"
+    period: {start: "2026-06-30"}
+    evidence_level: established
+    sources: [SRC-DE-NDR-NSU-HH-AKTENUEBERGABE-20260630, SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912, SRC-DE-TAZ-NSU-HH-20261123]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-DATENTRAEGER-2026-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: DOC-DE-HH-NSU-DATENTRAEGER-2026
+    type: reported_records_custody
+    label: "Veit: Datenträger verwahrt und nicht geöffnet; keine Weitergabe an Forschung nachgewiesen; Inhalt ungeprüft"
+    evidence_level: established
+    sources: [SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912, SRC-DE-TAZ-NSU-HH-20261123]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-GBA-UEBERNAHME-2026-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: ORG-DE-GBA
+    type: reported_offer_of_records_medium
+    label: "Veit laut WELT 12.09.2026: Datenträger dem GBA angeboten, Übernahme abgelehnt; kein GBA-Schreiben oder tatsächlicher Transfer belegt"
+    evidence_level: plausible
+    sources: [SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912]
+
+  - id: REL-DE-NSU-HH-BEIRAT-FORSCHUNG-001
+    from: ORG-DE-HH-NSU-BEIRAT
+    to: PRG-DE-HH-NSU-FORSCHUNG
+    type: oversaw_research
+    label: "Parlamentarischer Beirat begleitet Projekt und fordert regelmäßig Berichte an; kein parlamentarischer Untersuchungsausschuss"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-BEIRAT-STRUKTUR, SRC-DE-HH-NSU-BEIRAT-20260330]

@@ -7244,7 +7244,7 @@ sources:
   type: parliamentary_inquiry
   primary: true
   tier: A
-  url: https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie
+  url: https://www.buergerschaft-hh.de/parldok/dokument/89099/22_16857_vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie
   accessed: "2026-11-28"
   locator: "S. 1–4, insbesondere S. 2–4 (Vergabe, Kosten, Freigabeorganisation)"
   notes: "Amtlicher Antrag (Neufassung), vollständiger Text; Seitenbilder S. 2–3 Cache-Miss. Kein Vertrag, keine Zahlungs- oder Stellenbesetzungsnachweise."
@@ -7260,3 +7260,63 @@ sources:
   accessed: "2026-11-28"
   locator: "Absatz zur Vergabe und mehrheitlichen Kostenübernahme Ende 2024"
   notes: "Amtliche Projektseite; undatiert, eingesehen am 28.11.2026. Beauftragung und Kostenbeschluss, nicht Vollzug der Zahlungen."
+
+- id: SRC-DE-NDR-NSU-HH-AKTENUEBERGABE-20260630
+  title: "Hamburg: Ermittlungsakten zu NSU an Bürgerschaft übergeben"
+  institution: "NDR"
+  date: "2026-06-30"
+  type: journalism
+  primary: false
+  tier: B
+  url: https://www.ndr.de/nachrichten/hamburg/hamburg-ermittlungsakten-zu-nsu-an-buergerschaft-uebergeben%2Cnsu-288.html
+  accessed: "2026-11-28"
+  locator: "Absätze zur Übergabe und Herkunftsangabe"
+  notes: "Indexierter Text; Angabe 196 Akten stammt vom Bündnis, keine unabhängige Inhaltsprüfung."
+
+- id: SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912
+  title: "Bundesanwaltschaft verweigert NSU-Akten – Hamburg zieht vor Gericht"
+  institution: "WELT"
+  date: "2026-09-12"
+  type: journalism
+  primary: false
+  tier: B
+  url: https://www.welt.de/regionales/hamburg/article6aa39ed6181cb962d488b68b/streit-um-auskunftsrechte-bundesanwaltschaft-verweigert-nsu-akten-hamburg-zieht-vor-gericht.html
+  accessed: "2026-11-28"
+  locator: "Schlussabsätze zur Übergabe und Verwahrung"
+  notes: "Indexierter Text; direkte Aussagen Veits wiedergegeben, kein Übergabeprotokoll oder GBA-Schreiben."
+
+- id: SRC-DE-HH-NSU-BEIRAT-STRUKTUR
+  title: "Beirat zur wissenschaftlichen Aufarbeitung des NSU-Komplexes"
+  institution: "Hamburgische Bürgerschaft"
+  date: null
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.hamburgische-buergerschaft.de/unsere-arbeit/nsu-beiratsmitglieder
+  accessed: "2026-11-28"
+  locator: "Einleitung und Mitgliederübersicht"
+  notes: "Amtliche Projektseite; Aufgabendarstellung, kein Nachweis einer einzelnen Beiratssitzung oder einer Aktenfreigabe."
+
+- id: SRC-DE-HH-LINKE-NSU-WD-20260906
+  title: "NSU-Aufklärung: Gutachten bestätigt stärkere Rechte von PUA"
+  institution: "Bürgerschaftsfraktion Die Linke Hamburg"
+  date: "2026-09-06"
+  type: official_web
+  primary: true
+  tier: B
+  url: https://www.linksfraktion-hamburg.de/nsu-aufklaerung-gutachten-bestaetigt-staerkere-rechte-von-pua-rot-gruen-muss-jetzt-konsequenzen-aus-dem-aktenstreit-ziehen/
+  accessed: "2026-11-28"
+  locator: "Darstellung des WD-Gutachtens und politische Bewertung"
+  notes: "Primärquelle für politische Erklärung, nicht Originalgutachten. Indexierter Text; Volltextabruf fehlgeschlagen."
+
+- id: SRC-DE-BVERWG-AMRI-6VR2-19
+  title: "Aktenanforderung eines Landesuntersuchungsausschusses gegenüber Bundesbehörden im Fall Anis Amri, 6 VR 2.19"
+  institution: "Bundesverwaltungsgericht"
+  date: "2019-09-02"
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://www.bverwg.de/020919B6VR2.19.0
+  accessed: "2026-11-28"
+  locator: "Leitsätze 1–4, Tenor II–IV, Rn. 15–22, 37–47"
+  notes: "Amtlicher gerichtlicher Volltext. Einstweilige Anordnung in anderem Verfahren; kein Urteil über Akteneinsicht des Hamburger Forschungsprojekts."

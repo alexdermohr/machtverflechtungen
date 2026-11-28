@@ -137,6 +137,37 @@ Die Vorlage dokumentiert damit konkret, dass Freigabeabhängigkeiten und erhebli
 
 Zugang am 28.11.2026: Drs. 22/16857 erstmals als vollständiger amtlicher Text eingesehen, Seitenbilder S. 2–3 Cache-Miss. Vertrags- und Angebotsdateien des Transparenzportals weiterhin technisch nicht abrufbar (HTTP 400 bzw. nicht unterstützter Content-Type; separater direkter Downloadversuch ebenfalls fehlgeschlagen). Drs. 22/18070 auch über alternative Suchpfade nicht erschlossen. Aus der Vergabevorlage folgt kein Nachweis einzelner Vertragsklauseln, Nachträge, Auszahlungen oder einer tatsächlichen Besetzung der Stellen.
 
+## 2026: Ersatzüberlieferung, tatsächliche Projektfortschritte und Rechtsvergleich
+
+### Zivilgesellschaftliches Angebot von Aktenkopien
+
+Am 30.06.2026 berichtete der NDR, das Hamburger Bündnis gegen Rechts habe der Bürgerschaft nach eigenen Angaben 196 zugespielte Ermittlungsakten übergeben (SRC-DE-NDR-NSU-HH-AKTENUEBERGABE-20260630). Die WELT vom 12.09.2026 berichtet, Bürgerschaftspräsidentin Carola Veit habe den Datenträger entgegengenommen, jedoch weder dessen Auswertung noch eine Weitergabe an die Forschungsgruppe beabsichtigt; laut Veit habe der GBA auch die angebotene Übernahme nicht gewollt (SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912). Veit bestätigte im taz-Interview vom 23.11.2026, den Datenträger nicht geöffnet zu haben, und begründete dies unter anderem mit unbekannter Herkunft und dem Risiko für die offizielle Aktenbeschaffung (SRC-DE-TAZ-NSU-HH-20261123).
+
+Die behaupteten 196 Akten sind nicht mit den 141 Handakten des LKA gleichzusetzen. Authentizität, Integrität, Vollständigkeit, Herkunft, Schutzbedarf und Deckung mit dem offiziell beantragten Bestand sind nicht unabhängig festgestellt. Die Übergabe eines Datenträgers ist weder eine Freigabe zur Forschung noch ein Nachweis über darin enthaltene Beweise. Die Aussagen über Verwahrung und abgelehnte Übernahme sind den Beteiligten zugerechnet, nicht durch Übergabeprotokoll oder GBA-Schreiben belegt. Keine Beschaffung oder Verbreitung nichtöffentlich zugespielter Akten. Prüffrage bleibt, ob eine rechtlich autorisierte, datenschutzgerechte Prüfung durch eine unabhängige Stelle möglich war oder erwogen wurde. Die berichteten Sicherheits- und Verfahrensschutzbedenken sind plausible alternative Erklärungen für die Nichtnutzung.
+
+### Beirat und nachweisbarer Projektfortschritt
+
+Die amtliche Beiratsseite beschreibt acht ordentliche und drei stellvertretende Mitglieder aus vier Fraktionen, die Beratung der Bürgerschaftspräsidentin und regelmäßige Berichtsanforderungen an die Forschungsgruppe (SRC-DE-HH-NSU-BEIRAT-STRUKTUR). Der Beirat ist kein Untersuchungsausschuss. Am 30.03.2026 lobte die Forschungsgruppe laut amtlicher Mitteilung die Zusammenarbeit mit LfV, LKA und Staatsarchiv; der Aktenzugang beim GBA blieb das ausdrücklich benannte Problem (SRC-DE-HH-NSU-BEIRAT-20260330). Das ist ein Gegenindiz zu einer pauschalen Blockade durch alle Hamburger Stellen, jedoch kein Nachweis vollständiger Freigabe.
+
+Der NDR-Bericht vom 07.11.2026 (SRC-DE-NDR-NSU-HH-20261107) beschreibt die ursprünglich ab Juli 2025 vorgesehene Erfassung der Polizeiakten, die ab April 2026 geplante Analyse und den ursprünglich für Frühjahr 2028 vorgesehenen Abschluss. Die Präsidentin stellte eine Verlängerung bis 2030 in Aussicht. Bis dahin seien rund 359.000 Euro in Rechnung gestellt worden. Rechnungsstellung ist kein Auszahlungsnachweis; eine Verlängerung ist kein bewilligter Nachtrag. Im selben Bericht schildern Forschende den Zeitaufwand der rechtlichen Auseinandersetzung. Das belegt einen berichteten konkreten Projektmehraufwand, nicht das vollständige Scheitern oder eine zweckwidrige Mittelverwendung. Die tatsächliche Einrichtung der 2024 vorgesehenen zusätzlichen LfV-Stellen und deren Wirkung auf Freigabezeiten bleiben unbelegt.
+
+Die Senatsantwort 23/184, S. 2, bestätigt darüber hinaus, dass die Polizei ihre Bestandsprüfung 2023 im Zuge der Initiative für ein NSU-Archiv begann, nach einer Unterbrechung Anfang 2025 wiederaufnahm und die Forschungsteams zur Aufbereitung konsultierte. Das ist von der behördeninternen Relevanzauswahl des LfV (Fragen 10/11) zu trennen. Beide Abschnitte erneut im amtlichen Text geprüft; Seitenbilder weiterhin Cache-Miss.
+
+### Rechtsvergleich: Durchsetzung eines Landesuntersuchungsausschusses gegenüber dem Bund
+
+Die Linksfraktion der Hamburger Bürgerschaft berichtete am 06.09.2026 über ein im Auftrag von Cansu Özdemir erstelltes Gutachten der Wissenschaftlichen Dienste des Bundestages (SRC-DE-HH-LINKE-NSU-WD-20260906). Danach sei ein Untersuchungsausschuss gegenüber dem GBA rechtlich stärker gestellt als die Forschung nach § 476 StPO. Das Originalgutachten konnte nicht lokalisiert werden; die politische Wiedergabe ist kein Ersatz dafür.
+
+Ein direkt zugänglicher gerichtlicher Vergleichsfall erlaubt eine eigenständige Prüfung: BVerwG, Beschluss vom 02.09.2019, 6 VR 2.19, ECLI:DE:BVerwG:2019:020919B6VR2.19.0 (SRC-DE-BVERWG-AMRI-6VR2-19). Im Aktenstreit des Berliner Amri-Untersuchungsausschusses stellte das Gericht fest:
+
+- Ein Landesausschuss kann Amtshilfe des Bundes nach Art. 35 Abs. 1 GG verlangen; der Umfang richtet sich nach dem konkretisierenden Recht (Rn. 15–16).
+- Inhaltlicher Bezug zum Handeln der eigenen Landesbehörden kann genügen, unabhängig von Urheber oder Empfänger des Dokuments (Rn. 37–41). Bei Zurückhaltung aus Kompetenzgründen ist eine überprüfbare, differenzierte Begründung erforderlich.
+- Im Eilverfahren ordnete das Gericht unter Voraussetzungen die Vorlage weiterer einschlägiger Unterlagen und Vollständigkeitserklärungen an; Geheimschutz und föderale Kompetenzgrenzen begrenzten den Anspruch (Tenor II–IV, Rn. 42–47). Einzelne Anträge blieben erfolglos.
+- Das Angebot der Einsicht durch einen einzelnen Ermittlungsbeauftragten ersetzte nicht die Beweiserhebungskompetenz des Ausschusses als Ganzes (Rn. 20–22).
+
+Daraus lässt sich für Hamburg ein konkreter Vergleich ableiten: Ein Landesausschuss könnte bundesbehördliche Unterlagen anfordern, soweit sie der Aufklärung des eigenen Landeshandelns dienen; auch dann wäre nicht jede Akte vorbehaltlos zugänglich. Der Berliner Beschluss erging gegen den Bund in einem anderen Verfahren, nicht gegen den GBA im Hamburger NSU-Streit. Er belegt weder einen bereits bestehenden Anspruch der Forschungsgruppe noch, dass ein Hamburger Ausschuss in jedem Einzelfall obsiegen würde. Gleichwohl ist die stärkere institutionelle Stellung einer parlamentarischen Untersuchung mehr als eine politische Behauptung. Zu klären bleiben das ursprüngliche WD-Gutachten, die konkreten Rechtsgrundlagen und Ablehnungsgründe im Hamburger Verfahren sowie der Vollzug eines möglichen Vergleichs.
+
+Quellenstand: 28.11.2026. BVerwG-Volltext und amtliche Beiratsseite gelesen; NDR-, WELT-, taz- und Fraktionsaussagen in indexierten Textpassagen verfügbar, direkte Volltextabrufe teils Cache-Miss. Drs. 22/18070 und Vertragsoriginale bleiben unerschlossen; die offizielle Projektseite bestätigt die Dokumentreferenz. Kein neuer Nachweis eines erteilten GBA-Zugangs.
+
 ## Nächste Beweisschritte
 
 - Die Verfügungen vom 03.09.2012, 07.11.2013, 18.08.2015 und 07.12.2017 sowie die Stellungnahme des Hamburger Datenschutzbeauftragten beschaffen; Ursprung, Reichweite und tatsächliche Umsetzung des jeweiligen Moratoriums getrennt prüfen.

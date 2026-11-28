@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**637 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**642 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-forschungsteam) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-beirat-struktur) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1550,6 +1550,21 @@ Fundstelle: BVerfGE 20,56; pauschale 38 Mio. DM im Einzelplan 06 Kapitel 02 Tite
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-bverwg-amri-6vr2-19"></a>
+### Bundesverwaltungsgericht
+
+**[Aktenanforderung eines Landesuntersuchungsausschusses gegenüber Bundesbehörden im Fall Anis Amri, 6 VR 2.19](https://www.bverwg.de/020919B6VR2.19.0)**
+
+Bundesverwaltungsgericht · 2019-09-02 · Stufe **A** · Primärquelle · `SRC-DE-BVERWG-AMRI-6VR2-19`
+
+[Seite öffnen](https://www.bverwg.de/020919B6VR2.19.0)
+
+Fundstelle: Leitsätze 1–4, Tenor II–IV, Rn. 15–22, 37–47
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
 
 <a id="src-de-bverwg-c18-6vr120-2020"></a>
@@ -1667,6 +1682,21 @@ Bundesverwaltungsgericht · 2025-09-25 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/de/250925U10A2.24.0)
 
 Fundstelle: Tenor Nr. 1–4; Leitsätze
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-hh-linke-nsu-wd-20260906"></a>
+### Bürgerschaftsfraktion Die Linke Hamburg
+
+**[NSU-Aufklärung: Gutachten bestätigt stärkere Rechte von PUA](https://www.linksfraktion-hamburg.de/nsu-aufklaerung-gutachten-bestaetigt-staerkere-rechte-von-pua-rot-gruen-muss-jetzt-konsequenzen-aus-dem-aktenstreit-ziehen/)**
+
+Bürgerschaftsfraktion Die Linke Hamburg · 2026-09-06 · Stufe **B** · Primärquelle · `SRC-DE-HH-LINKE-NSU-WD-20260906`
+
+[Seite öffnen](https://www.linksfraktion-hamburg.de/nsu-aufklaerung-gutachten-bestaetigt-staerkere-rechte-von-pua-rot-gruen-muss-jetzt-konsequenzen-aus-dem-aktenstreit-ziehen/)
+
+Fundstelle: Darstellung des WD-Gutachtens und politische Bewertung
 
 </article>
 
@@ -3914,6 +3944,21 @@ Fundstelle: Abs. 1–3, 5–7
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
+<a id="src-de-hh-nsu-beirat-struktur"></a>
+### Hamburgische Bürgerschaft
+
+**[Beirat zur wissenschaftlichen Aufarbeitung des NSU-Komplexes](https://www.hamburgische-buergerschaft.de/unsere-arbeit/nsu-beiratsmitglieder)**
+
+Hamburgische Bürgerschaft · unbekannt · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-BEIRAT-STRUKTUR`
+
+[Seite öffnen](https://www.hamburgische-buergerschaft.de/unsere-arbeit/nsu-beiratsmitglieder)
+
+Fundstelle: Einleitung und Mitgliederübersicht
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-de-hh-nsu-forschungsteam"></a>
 ### Hamburgische Bürgerschaft
 
@@ -4127,11 +4172,11 @@ Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert
 <a id="src-de-hh-nsu-vergabe-2216857"></a>
 ### Hamburgische Bürgerschaft
 
-**[Vergabe des Auftrags zu einer wissenschaftlichen Studie: Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie](https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)**
+**[Vergabe des Auftrags zu einer wissenschaftlichen Studie: Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie](https://www.buergerschaft-hh.de/parldok/dokument/89099/22_16857_vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)**
 
 Hamburgische Bürgerschaft · 2024-11-20 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-VERGABE-2216857`
 
-[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)
+[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/89099/22_16857_vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)
 
 Fundstelle: S. 1–4, insbesondere S. 2–4 (Vergabe, Kosten, Freigabeorganisation)
 
@@ -9040,6 +9085,21 @@ Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit M
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-ndr-nsu-hh-aktenuebergabe-20260630"></a>
+### NDR
+
+**[Hamburg: Ermittlungsakten zu NSU an Bürgerschaft übergeben](https://www.ndr.de/nachrichten/hamburg/hamburg-ermittlungsakten-zu-nsu-an-buergerschaft-uebergeben%2Cnsu-288.html)**
+
+NDR · 2026-06-30 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-NDR-NSU-HH-AKTENUEBERGABE-20260630`
+
+[Seite öffnen](https://www.ndr.de/nachrichten/hamburg/hamburg-ermittlungsakten-zu-nsu-an-buergerschaft-uebergeben%2Cnsu-288.html)
+
+Fundstelle: Absätze zur Übergabe und Herkunftsangabe
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
 
 <a id="src-de-ndr-mauss-panama-2016"></a>
@@ -9515,6 +9575,21 @@ Fundstelle: Chronologischer Eintrag 1973 zur behaupteten NVCA-Gründungsmitglied
 WELT · 2016-09-19 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WELT-NSU-WERNER-ASSERVATE-20160919`
 
 [Seite öffnen](https://www.welt.de/politik/deutschland/article158260792/NSU-Komplex-Bundesanwaltschaft-vernichtete-wichtige-Dokumente.html)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-welt-nsu-hh-aktenuebergabe-20260912"></a>
+### WELT
+
+**[Bundesanwaltschaft verweigert NSU-Akten – Hamburg zieht vor Gericht](https://www.welt.de/regionales/hamburg/article6aa39ed6181cb962d488b68b/streit-um-auskunftsrechte-bundesanwaltschaft-verweigert-nsu-akten-hamburg-zieht-vor-gericht.html)**
+
+WELT · 2026-09-12 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-WELT-NSU-HH-AKTENUEBERGABE-20260912`
+
+[Seite öffnen](https://www.welt.de/regionales/hamburg/article6aa39ed6181cb962d488b68b/streit-um-auskunftsrechte-bundesanwaltschaft-verweigert-nsu-akten-hamburg-zieht-vor-gericht.html)
+
+Fundstelle: Schlussabsätze zur Übergabe und Verwahrung
 
 </article>
 

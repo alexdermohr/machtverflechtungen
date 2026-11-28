@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**926 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**930 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1620,6 +1620,13 @@ flowchart LR
     N_ORG_DE_HEUKING["HEUKING (Rechtsanwaltskanzlei)"]
     N_ORG_DE_HH_BUERGERSCHAFT -->|"Laut Drs. 22/16857 Durchführung des Vergabeverfahrens als Vergabestelle; keine Vergütungs- oder Unregelmäßigkeitsnachweise"| N_ORG_DE_HEUKING
     N_ORG_DE_HH_BUERGERSCHAFT -->|"Antrag 20.11.2024: drei zusätzliche LfV-Stellen bedingt für Fremdakten-Freigaben vorgesehen; Einrichtung und Vollzug nicht nachgewiesen"| N_ORG_DE_HH_LFV
+    N_ORG_DE_HH_BUENDNIS_GEGEN_RECHTS["Hamburger Bündnis gegen Rechts"]
+    N_ORG_DE_HH_BUENDNIS_GEGEN_RECHTS -->|"Datenträger am 30.06.2026 übergeben; nach Angaben des Bündnisses 196 Ermittlungsakten, Inhalt und Identität mit beantragtem Bestand ungeprüft"| N_ORG_DE_HH_BUERGERSCHAFT
+    N_DOC_DE_HH_NSU_DATENTRAEGER_2026["Der Hamburger Bürgerschaft am 30.06.2026 übergebener Datenträger (Inhalt ungeprüft)"]
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"Veit: Datenträger verwahrt und nicht geöffnet; keine Weitergabe an Forschung nachgewiesen; Inhalt ungeprüft"| N_DOC_DE_HH_NSU_DATENTRAEGER_2026
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"Veit laut WELT 12.09.2026: Datenträger dem GBA angeboten, Übernahme abgelehnt; kein GBA-Schreiben oder tatsächlicher Transfer belegt"| N_ORG_DE_GBA
+    N_ORG_DE_HH_NSU_BEIRAT["Parlamentarischer Beirat zur wissenschaftlichen Aufarbeitung des NSU-Komplexes Hamburg"]
+    N_ORG_DE_HH_NSU_BEIRAT -->|"Parlamentarischer Beirat begleitet Projekt und fordert regelmäßig Berichte an; kein parlamentarischer Untersuchungsausschuss"| N_PRG_DE_HH_NSU_FORSCHUNG
 ```
 
 [Zur Relationstabelle](network.md)

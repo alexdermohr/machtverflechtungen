@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**681 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**684 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -328,6 +328,7 @@
 | Cámara de Diputados de Chile | national_legislative_chamber | `ORG-CL-CHAMBER-OF-DEPUTIES` | CL | [1](network.md#rel-cl-allende-chamber-withdrawal-1971) |
 | Delbrück, Schickler & Co. (historisches Bankhaus) | commercial_bank | `ORG-DE-DELBRUECK-SCHICKLER-1933` | DE | [2](network.md#rel-de-igf-012) |
 | Deloitte & Touche (Bahamas, 1991) | professional_services | `ORG-BS-DELOITTE-TOUCHE-1991` | BS | [3](network.md#rel-riggs-followup-010) |
+| Der Hamburger Bürgerschaft am 30.06.2026 übergebener Datenträger (Inhalt ungeprüft) | document | `DOC-DE-HH-NSU-DATENTRAEGER-2026` | DE | [1](network.md#rel-de-nsu-hh-buergerschaft-datentraeger-2026-001) |
 | Der Monat | media_outlet | `ORG-DE-DER-MONAT` | DE | [1](network.md#rel-de-mni-008) |
 | Der Spiegel | media_outlet | `ORG-DE-DER-SPIEGEL` | DE | [1](network.md#rel-de-bnd-media-016) |
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
@@ -401,7 +402,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [17](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [18](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -412,10 +413,11 @@
 | Gruner + Jahr (historischer Verlag) | media_company | `ORG-DE-GRUNER-JAHR` | DE | [1](network.md#rel-ulf-park-publisher) |
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | H.+S. Unternehmensberatung (München, 2002) | historical_company | `ORG-DE-HS-2002` | DE | [3](network.md#rel-de-marienhof-001) |
+| Hamburger Bündnis gegen Rechts | civil_society_organization | `ORG-DE-HH-BUENDNIS-GEGEN-RECHTS` | DE | [1](network.md#rel-de-nsu-hh-bgr-buergerschaft-akten-2026-001) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
-| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [3](network.md#rel-de-nsu-hh-gba-2026-001) |
+| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [4](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Hamburger Staatsanwaltschaften | prosecution_authority | `ORG-DE-HH-STA` | DE | [1](network.md#rel-de-nsu-hh-sta-gba-akten-001) |
-| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [6](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
+| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [9](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
 | Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit | government_agency | `ORG-DE-HH-DSB` | DE | [1](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
@@ -528,6 +530,7 @@
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
+| Parlamentarischer Beirat zur wissenschaftlichen Aufarbeitung des NSU-Komplexes Hamburg | parliamentary_committee | `ORG-DE-HH-NSU-BEIRAT` | DE | [1](network.md#rel-de-nsu-hh-beirat-forschung-001) |
 | Parlamentarischer Kontrollausschuss der Hamburgischen Bürgerschaft | parliamentary_committee | `ORG-DE-HH-PKA` | DE | [2](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Parnass-Film GmbH (München) | media_company | `ORG-DE-PARNASS-FILM-MUENCHEN` | DE | [5](network.md#rel-de-bnd-dynamit-001) |

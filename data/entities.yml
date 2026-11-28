@@ -3829,3 +3829,18 @@ entities:
     type: law_firm
     name: "HEUKING (Rechtsanwaltskanzlei)"
     countries: [DE]
+
+  - id: ORG-DE-HH-BUENDNIS-GEGEN-RECHTS
+    type: civil_society_organization
+    name: "Hamburger Bündnis gegen Rechts"
+    countries: [DE]
+
+  - id: DOC-DE-HH-NSU-DATENTRAEGER-2026
+    type: document
+    name: "Der Hamburger Bürgerschaft am 30.06.2026 übergebener Datenträger (Inhalt ungeprüft)"
+    countries: [DE]
+
+  - id: ORG-DE-HH-NSU-BEIRAT
+    type: parliamentary_committee
+    name: "Parlamentarischer Beirat zur wissenschaftlichen Aufarbeitung des NSU-Komplexes Hamburg"
+    countries: [DE]
