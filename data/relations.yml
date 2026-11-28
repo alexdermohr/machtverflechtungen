@@ -8261,3 +8261,59 @@ relations:
     evidence_level: established
     period:
       start: '1994'
+
+  - id: REL-DE-HERRHAUSEN-FIN-016
+    from: ORG-GB-BARCLAYS-1993
+    to: ORG-PL-LONDON-CLUB-1994
+    type: documented_creditor_meeting_cochair
+    label: 'Quaisser S. 20: Barclays leitete den Lenkungsausschuss bis zur Übernahme durch Dresdner 1993; exakter Monat zwischen
+      Sekundärquellen abweichend.'
+    sources:
+    - SRC-DE-QUAISSER-POLEN-1994
+    evidence_level: strong
+    period:
+      start: '1993'
+  - id: REL-DE-HERRHAUSEN-FIN-017
+    from: ORG-DE-DRESDNER-BANK-1993
+    to: ORG-PL-LONDON-CLUB-1994
+    type: documented_creditor_meeting_cochair
+    label: Zeitgenössisches Gutachten und UPI belegen Leitung der Polen-Verhandlungen durch Dresdner nach Übernahme 1993; im
+      September 1994 gemeinsame Leitung mit Lloyds berichtet.
+    sources:
+    - SRC-DE-QUAISSER-POLEN-1994
+    - SRC-INT-UPI-POL-LIPP-1994
+    - SRC-US-LAT-POL-LONDON-1994
+    evidence_level: strong
+    period:
+      start: '1993'
+  - id: REL-DE-HERRHAUSEN-FIN-018
+    from: ORG-GB-LLOYDS-BANK-1994
+    to: ORG-PL-LONDON-CLUB-1994
+    type: documented_creditor_meeting_cochair
+    label: Los Angeles Times 15.09.1994 berichtet gemeinsamen Vorsitz mit Dresdner Bank.
+    sources:
+    - SRC-US-LAT-POL-LONDON-1994
+    evidence_level: strong
+    period:
+      start: '1994'
+  - id: REL-DE-HERRHAUSEN-FIN-019
+    from: PER-DE-ERNST-MORITZ-LIPP
+    to: ORG-DE-DRESDNER-BANK-1993
+    type: documented_office
+    label: UPI 11.03.1994 bezeichnet Lipp als Sonderbeauftragten der Dresdner Bank für Polen.
+    sources:
+    - SRC-INT-UPI-POL-LIPP-1994
+    evidence_level: strong
+    period:
+      start: '1994'
+  - id: REL-DE-HERRHAUSEN-FIN-020
+    from: PER-DE-ERNST-MORITZ-LIPP
+    to: ORG-PL-LONDON-CLUB-1994
+    type: documented_creditor_meeting_cochair
+    label: UPI 11.03.1994 nennt Lipp als Vorsitzenden der Polen-Arbeitsgruppe; LA Times 15.09.1994 als Verhandlungsführer.
+    sources:
+    - SRC-INT-UPI-POL-LIPP-1994
+    - SRC-US-LAT-POL-LONDON-1994
+    evidence_level: strong
+    period:
+      start: '1994'

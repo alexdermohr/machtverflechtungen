@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**600 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1472,6 +1472,21 @@ Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 1
 Bundesnachrichtendienst · 2011 · Stufe **A** · Primärquelle · `SRC-DE-BND-GESCHICHTE-2011`
 
 [PDF öffnen](https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-bt-entwicklung-7313-1990"></a>
+### Bundesregierung / Deutscher Bundestag
+
+**[Achter Bericht zur Entwicklungspolitik, BT-Drs. 11/7313](https://dserver.bundestag.de/btd/11/073/1107313.pdf)**
+
+Bundesregierung / Deutscher Bundestag · 1990-05-30 · Stufe **A** · Primärquelle · `SRC-DE-BT-ENTWICKLUNG-7313-1990`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/11/073/1107313.pdf)
+
+Fundstelle: S. 20–21, Abschnitt 2.3.3
 
 </article>
 
@@ -8180,6 +8195,21 @@ Fundstelle: S. 3, 6–8: SfZ-Finanzierung, multiplikatorgerichtete Seminare, ZDv
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1996">
+
+<a id="src-int-imf-debt-crisis-history"></a>
+### International Monetary Fund
+
+**[The Debt Crisis, Kapitel 12](https://www.elibrary.imf.org/abstract/book/9781475506969/ch12.xml)**
+
+International Monetary Fund · 1996 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-IMF-DEBT-CRISIS-HISTORY`
+
+[Seite öffnen](https://www.elibrary.imf.org/abstract/book/9781475506969/ch12.xml)
+
+Fundstelle: Brady-Plan und Freiwilligkeit
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
 
 <a id="src-us-irs-friends-atlantik-2021-extract"></a>
@@ -8342,6 +8372,21 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 [Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1994">
+
+<a id="src-us-lat-pol-london-1994"></a>
+### Los Angeles Times
+
+**[Debt-Reduction Accord Seen as Big Boost for Poland](https://www.latimes.com/archives/la-xpm-1994-09-15-fi-38925-story.html)**
+
+Los Angeles Times · 1994-09-15 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-US-LAT-POL-LONDON-1994`
+
+[Seite öffnen](https://www.latimes.com/archives/la-xpm-1994-09-15-fi-38925-story.html)
+
+Fundstelle: Bericht zu Unterzeichnung und Vorsitz
 
 </article>
 
@@ -8825,6 +8870,21 @@ Fundstelle: Gründung 1928/29, Schmitz/Greutert, Aufhebung des Bindungsvertrags 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1994">
+
+<a id="src-int-upi-pol-lipp-1994"></a>
+### United Press International
+
+**[Meldung zur Grundsatzeinigung über polnische Bankschulden](https://www.upi.com/Archives/1994/03/11/EHRNST-moh-RITZ-LIHPPARA/6643763362000/)**
+
+United Press International · 1994-03-11 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-UPI-POL-LIPP-1994`
+
+[Seite öffnen](https://www.upi.com/Archives/1994/03/11/EHRNST-moh-RITZ-LIHPPARA/6643763362000/)
+
+Fundstelle: Absätze zur Rolle Lipps und Dresdner Bank
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2014">
 
 <a id="src-us-colorado-spragg-miller-2014"></a>
@@ -8912,6 +8972,21 @@ Wolfgang Kraushaar / Hamburger Edition · 2005-06 · Stufe **B** · Sekundär-/F
 [Seite öffnen](https://www.hamburger-edition.de/buecher-e-books/artikel-detail/d/2273/die-bombe-im-judischen-gemeindehaus-print/)
 
 Fundstelle: ISBN 978-3-936096-53-8; besonders Abschnitte über Peter Urbach, Albert Fichter und Originalquellen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1994">
+
+<a id="src-de-quaisser-polen-1994"></a>
+### Wolfgang Quaisser / Osteuropa-Institut München
+
+**[Zahlungsbilanzprobleme und Verschuldung Polens, Nr. 170](https://www.econstor.eu/bitstream/10419/264875/1/1994_170_quaisser_arbeiten_oeim.pdf)**
+
+Wolfgang Quaisser / Osteuropa-Institut München · 1994-10 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-QUAISSER-POLEN-1994`
+
+[PDF öffnen](https://www.econstor.eu/bitstream/10419/264875/1/1994_170_quaisser_arbeiten_oeim.pdf)
+
+Fundstelle: S. 19–21, Fn. 21–26
 
 </article>
 

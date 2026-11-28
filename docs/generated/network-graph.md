@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**885 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**890 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1555,6 +1555,15 @@ flowchart LR
     N_ORG_PL_LONDON_CLUB_1994["Londoner Club: private Gläubiger Polens (1994)"]
     N_ORG_PL_REGIERUNG_1994 -->|"DDSR-Abkommen 1994, ca. 14,43 Mrd. USD Forderungen; Rückkäufe und Anleiheumtausch, teilweise US-Treasury-Besicherung; individuelle Gläubigerbeträge offen."| N_ORG_PL_LONDON_CLUB_1994
     N_ORG_INT_IBRD_1994 -->|"ICR Vorwort: begrenzte Freigabe von Negativverpfändungsklauseln im Umfang von 623,4 Mio. USD zur Besicherung neuer Anleihen; kein zusätzlicher Kredit."| N_ORG_PL_REGIERUNG_1994
+    N_ORG_GB_BARCLAYS_1993["Barclays Bank (Polen-Verhandlungen 1993)"]
+    N_ORG_GB_BARCLAYS_1993 -->|"Quaisser S. 20: Barclays leitete den Lenkungsausschuss bis zur Übernahme durch Dresdner 1993; exakter Monat zwischen Sekundärquellen abweichend."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_DE_DRESDNER_BANK_1993["Dresdner Bank (Polen-Verhandlungen 1993–1994)"]
+    N_ORG_DE_DRESDNER_BANK_1993 -->|"Zeitgenössisches Gutachten und UPI belegen Leitung der Polen-Verhandlungen durch Dresdner nach Übernahme 1993; im September 1994 gemeinsame Leitung mit Lloyds berichtet."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_GB_LLOYDS_BANK_1994["Lloyds Bank (Polen-Verhandlungen 1994)"]
+    N_ORG_GB_LLOYDS_BANK_1994 -->|"Los Angeles Times 15.09.1994 berichtet gemeinsamen Vorsitz mit Dresdner Bank."| N_ORG_PL_LONDON_CLUB_1994
+    N_PER_DE_ERNST_MORITZ_LIPP["Ernst-Moritz Lipp"]
+    N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 bezeichnet Lipp als Sonderbeauftragten der Dresdner Bank für Polen."| N_ORG_DE_DRESDNER_BANK_1993
+    N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 nennt Lipp als Vorsitzenden der Polen-Arbeitsgruppe; LA Times 15.09.1994 als Verhandlungsführer."| N_ORG_PL_LONDON_CLUB_1994
 ```
 
 [Zur Relationstabelle](network.md)

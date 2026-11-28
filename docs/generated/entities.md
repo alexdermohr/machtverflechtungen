@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**658 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**662 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -45,6 +45,7 @@
 | Erich Schmidt-Eenboom | person | `PER-DE-ERICH-SCHMIDT-EENBOOM` | DE | [1](network.md#rel-de-mni-001) |
 | Ernesto Samper | person | `PER-CO-ERNESTO-SAMPER` | CO | [2](network.md#rel-mauss-offshore-009) |
 | Ernst Uhrlau | person | `PER-DE-ERNST-UHRLAU` | DE | [1](network.md#rel-de-uhrlau-nr-forum5-2005-001) |
+| Ernst-Moritz Lipp | person | `PER-DE-ERNST-MORITZ-LIPP` | DE | [2](network.md#rel-de-herrhausen-fin-019) |
 | Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
 | Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
@@ -237,6 +238,7 @@
 | Banken des Banco-Ambrosiano-Konzerns (historisch 1980) | historical_banking_group | `ORG-IT-AMBROSIANO-BANKS-1980` | IT | [1](network.md#rel-it-ambrosiano-rizzoli-1980-001) |
 | Banque de France (2006) | central_bank | `ORG-FR-BANQUE-DE-FRANCE-2006` | FR | [2](network.md#rel-riggs-post-2004-015) |
 | Banque des États de l’Afrique Centrale (BEAC, 2006) | central_bank | `ORG-CM-BEAC-2006` | CM, GQ | [2](network.md#rel-riggs-post-2004-014) |
+| Barclays Bank (Polen-Verhandlungen 1993) | commercial_bank | `ORG-GB-BARCLAYS-1993` | GB | [1](network.md#rel-de-herrhausen-fin-016) |
 | Bavaria Film GmbH (2005) | historical_company | `ORG-DE-BAVARIA-FILM-2005` | DE | [7](network.md#rel-de-marienhof-007) |
 | Bavaria Sonor (Placement-Abwicklung 2002–2005) | historical_company | `ORG-DE-BAVARIA-SONOR-2005` | DE | [2](network.md#rel-de-marienhof-004) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
@@ -351,6 +353,7 @@
 | Direction générale de la surveillance du territoire (DGST) | intelligence_service | `ORG-MA-DGST` | MA | [2](network.md#rel-de-amri-007) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
+| Dresdner Bank (Polen-Verhandlungen 1993–1994) | commercial_bank | `ORG-DE-DRESDNER-BANK-1993` | DE | [2](network.md#rel-de-herrhausen-fin-017) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
 | Dänische Regierung (1996/97) | government_agency | `ORG-DK-REGIERUNG-1996` | DK | [1](network.md#rel-mauss-diplomatie-013) |
 | Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
@@ -457,8 +460,9 @@
 | Landgericht Bochum | court | `ORG-DE-LG-BOCHUM` | DE | [3](network.md#rel-mauss-finanz-014) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
+| Lloyds Bank (Polen-Verhandlungen 1994) | commercial_bank | `ORG-GB-LLOYDS-BANK-1994` | GB | [1](network.md#rel-de-herrhausen-fin-018) |
 | Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
-| Londoner Club: private Gläubiger Polens (1994) | historical_commercial_bank_cohort | `ORG-PL-LONDON-CLUB-1994` | PL | [1](network.md#rel-de-herrhausen-fin-014) |
+| Londoner Club: private Gläubiger Polens (1994) | historical_commercial_bank_cohort | `ORG-PL-LONDON-CLUB-1994` | PL | [5](network.md#rel-de-herrhausen-fin-014) |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [9](network.md#rel-de-cumex-001) |
 | M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023) | financial_holding | `ORG-DE-WARBURG-GRUPPE-2023` | DE | [3](network.md#rel-de-warburg-mwb1-gruppe-2023-001) |
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |

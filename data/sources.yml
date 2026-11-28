@@ -6752,3 +6752,59 @@ sources:
   locator: Poland, retrospective assessment of DDSRO
   notes: Retrospektive institutionelle Analyse, Suchindextext.
   accessed: '2026-11-28'
+
+- id: SRC-DE-BT-ENTWICKLUNG-7313-1990
+  title: Achter Bericht zur Entwicklungspolitik, BT-Drs. 11/7313
+  institution: Bundesregierung / Deutscher Bundestag
+  date: '1990-05-30'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/11/073/1107313.pdf
+  locator: S. 20–21, Abschnitt 2.3.3
+  notes: PDF-Text geprüft; Faksimile Cache miss. Regierungsdarstellung.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-DEBT-CRISIS-HISTORY
+  title: The Debt Crisis, Kapitel 12
+  institution: International Monetary Fund
+  date: '1996'
+  type: institutional_history
+  primary: false
+  tier: B
+  url: https://www.elibrary.imf.org/abstract/book/9781475506969/ch12.xml
+  locator: Brady-Plan und Freiwilligkeit
+  notes: Suchindex; Vollabruf HTTP 403.
+  accessed: '2026-11-28'
+- id: SRC-DE-QUAISSER-POLEN-1994
+  title: Zahlungsbilanzprobleme und Verschuldung Polens, Nr. 170
+  institution: Wolfgang Quaisser / Osteuropa-Institut München
+  date: 1994-10
+  type: commissioned_study
+  primary: false
+  tier: B
+  url: https://www.econstor.eu/bitstream/10419/264875/1/1994_170_quaisser_arbeiten_oeim.pdf
+  locator: S. 19–21, Fn. 21–26
+  notes: Zeitgenössisches Gutachten für Bundeswirtschaftsministerium, PDF-Text geprüft; Faksimile Cache miss. Keine Originalprotokolle.
+  accessed: '2026-11-28'
+- id: SRC-INT-UPI-POL-LIPP-1994
+  title: Meldung zur Grundsatzeinigung über polnische Bankschulden
+  institution: United Press International
+  date: '1994-03-11'
+  type: contemporary_news_wire_report
+  primary: false
+  tier: B
+  url: https://www.upi.com/Archives/1994/03/11/EHRNST-moh-RITZ-LIHPPARA/6643763362000/
+  locator: Absätze zur Rolle Lipps und Dresdner Bank
+  notes: Suchindex-Volltext; Vollabruf HTTP 403. Vorläufige Erlasszahlen nicht mit endgültigem Ergebnis gleichsetzen.
+  accessed: '2026-11-28'
+- id: SRC-US-LAT-POL-LONDON-1994
+  title: Debt-Reduction Accord Seen as Big Boost for Poland
+  institution: Los Angeles Times
+  date: '1994-09-15'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.latimes.com/archives/la-xpm-1994-09-15-fi-38925-story.html
+  locator: Bericht zu Unterzeichnung und Vorsitz
+  notes: Suchindex; gemeinsame Leitung Dresdner und Lloyds, keine bankindividuellen Erlassdaten.
+  accessed: '2026-11-28'

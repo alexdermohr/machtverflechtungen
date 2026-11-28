@@ -3724,3 +3724,28 @@ entities:
     - PL
     notes: Verhandlungskollektiv der privaten Gläubiger; kein eigenständiger globaler Konzern, keine individualisierte Zuordnung
       der Anleiheoptionen.
+
+  - id: ORG-DE-DRESDNER-BANK-1993
+    type: commercial_bank
+    name: Dresdner Bank (Polen-Verhandlungen 1993–1994)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für den Londoner Club, institutionelle Kontinuität zum historischen Bankknoten 1933.
+  - id: ORG-GB-BARCLAYS-1993
+    type: commercial_bank
+    name: Barclays Bank (Polen-Verhandlungen 1993)
+    countries:
+    - GB
+    notes: Vorsitz vor Übernahme durch Dresdner 1993 laut zeitgenössischem Gutachten.
+  - id: ORG-GB-LLOYDS-BANK-1994
+    type: commercial_bank
+    name: Lloyds Bank (Polen-Verhandlungen 1994)
+    countries:
+    - GB
+    notes: Geschäftsbank, nicht Lloyd's of London.
+  - id: PER-DE-ERNST-MORITZ-LIPP
+    type: person
+    name: Ernst-Moritz Lipp
+    countries:
+    - DE
+    notes: Sonderbeauftragter der Dresdner Bank und Leiter der Polen-Arbeitsgruppe 1994 laut zeitgenössischer Presse.
