@@ -71,7 +71,7 @@ Das offizielle Forschungsprogramm nennt die Untersuchung der V-Leute-Praxis als 
 
 Das Hamburger Transparenzportal weist seit 20.12.2024 fünf Vertragsressourcen aus (SRC-DE-HH-NSU-VERTRAG-KATALOG-2024): Vertrag, Zuschlag, allgemeine und zusätzliche Vertragsbedingungen sowie das geschwärzte Angebot der Ruhr-Universität Bochum. Der direkte Abruf von Vertrag, Zuschlag und Angebot scheiterte an HTTP-400-/Content-Type-Fehlern. Nur die Katalogmetadaten sind belegt. Vertragsklauseln, Fristen, Nachsteuerung bei Aktenverweigerung und Abnahmebedingungen sind nicht aus diesen Metadaten ableitbar.
 
-Amtliche Textfassungen der genannten Drucksachen und der Plenarabstimmung am 28.11.2026 eingesehen; Abruf der einschlägigen Seitenbilder scheiterte am Cache-Miss. Die Drs. 22/18070 und 22/16857 waren über die Projektseite verlinkt, der Volltextabruf scheiterte ebenfalls. Keine Behauptung über deren nicht eingesehenen Inhalt.
+Amtliche Textfassungen der genannten Drucksachen und der Plenarabstimmung am 28.11.2026 eingesehen; Abruf der einschlägigen Seitenbilder scheiterte am Cache-Miss. Die Drs. 22/18070 und 22/16857 waren über die Projektseite verlinkt; der damalige Volltextabruf scheiterte. Drs. 22/16857 wurde später erschlossen (siehe Abschnitt zur Vergabe). Keine Behauptung über deren nicht eingesehenen Inhalt.
 
 ## Historische Informationslücken und italienischer Hinweis (1997–2023)
 
@@ -121,6 +121,21 @@ Das öffentliche Vernehmungsprotokoll der 41. Sitzung am 22.11.2012 (SRC-DE-BT-N
 Der parlamentarische Ermittlungsbeauftragte konnte die Relevanz anhand einer vorgelagerten Sichtung selbst bestimmen. Bei der Hamburger wissenschaftlichen Studie wurde die Auswahl der LfV-Akten hingegen laut Senat durch die zu untersuchende Behörde getroffen. Das ergibt eine konkrete Vergleichsdimension: Wer darf die Auswahlgrundlage sehen, Kriterien verändern und nicht ausgewählte Akten nachfordern? Es handelt sich nicht um identische Rechtsgrundlagen oder Mandate. Auch der Ermittlungsbeauftragte war auf vorhandene Bestände und teils auf behördliche Suchhilfe angewiesen. Die heute verfügbare Menge und Identität der früher gesichteten Unterlagen lässt sich erst durch eine Zuordnung der historischen Inventare (Anlagen 2 und 3 des Berichts, bei Bedarf HH-5) zu den späteren Archiv- und Übergabelisten überprüfen. Die Zahlen aus der Bürgerschaftsmitteilung 2025 sind deshalb nicht direkt mit den Bestandszahlen 2012 vergleichbar.
 
 Zugang: Amtliche Textfassung des Ermittlungsbeauftragtenberichts und Vernehmungsprotokolls am 28.11.2026 eingesehen. Gedruckte Berichtsseiten 29 und 30 bildseitig geprüft; Seitenbilder 16, 18, 20, 34–36 sowie das Protokollbild technisch nicht abrufbar. Die Anlagen mit den Beiziehungslisten liegen nicht vor.
+
+## Vergabe, Finanzierung und Freigabeorganisation 2024
+
+Die Neufassung der Drs. 22/16857 vom 20.11.2024 (SRC-DE-HH-NSU-VERGABE-2216857) wurde inzwischen vollständig im amtlichen Text erschlossen; sie ist ein Antrag mit Darstellung des Vergabeverfahrens, nicht der unterzeichnete Vertrag. Die offizielle Forschungsgruppen-Seite (SRC-DE-HH-NSU-FORSCHUNGSTEAM) bestätigt die spätere mehrheitliche Annahme der Kostenübernahme und die Beauftragung unter Federführung der Ruhr-Universität Bochum (RUB).
+
+| Sachverhalt | Amtlich dokumentierter Stand |
+| --- | --- |
+| Auswahl | Drei Bewerber wurden zugelassen. Am 17.10.2024 entschied die Jury einstimmig zugunsten der RUB; die Kanzlei HEUKING führte das Vergabeverfahren durch (S. 2–3). |
+| Finanzierung | Angebot: 756.000 Euro netto; geplant rund 900.000 Euro brutto. Vorgesehen waren fünf Teilzahlungen sowie zwei getrennte Kostenansätze von jeweils 15 Prozent für Begleitung und Unvorhergesehenes (S. 3). Keine Zahlungsbelege. |
+| Aktenaufbereitung | Der LfV sollte die Auswahl digital aufbereiten und fachliche Ansprechpartner sowie Räume stellen (S. 3). |
+| Fremdakten | Für Freigabeermittlung, Anfragen, Nachverfolgung und Umsetzung der Entscheidungen wurden bedingt drei zusätzliche LfV-Stellen (eine A12, zwei A11) beantragt. Personalkosten bis 323.000 Euro 2025 und 329.000 Euro 2026; Sachkosten je bis 28.000 Euro (S. 3–4). |
+
+Die Vorlage dokumentiert damit konkret, dass Freigabeabhängigkeiten und erheblicher Verwaltungsaufwand bereits vor Beauftragung bekannt waren. Die Bürgerschaftskanzlei sollte die Koordination übernehmen; die Forschungsgruppe arbeitet laut offizieller Darstellung unabhängig von ihr. Das ist mit einer organisatorischen Abhängigkeit bei der Materialbeschaffung vereinbar. Weder das Vergabeverfahren noch die vorgesehenen Kosten begründen einen Korruptionsverdacht. Ob die zusätzlichen Stellen tatsächlich besetzt, Freigaben vollständig eingeholt oder Zahlungen geleistet wurden, ist anhand von Stellenplanvollzug, Haushaltsrechnungen, Freigabejournalen und Zwischenberichten zu prüfen. Insbesondere wäre zu untersuchen, ob die 2024 vorgesehene Sonderorganisation auch tatsächlich zur Anwendung kam und ob sie das in Drs. 23/184 erkennbare Erfassungsdefizit behob.
+
+Zugang am 28.11.2026: Drs. 22/16857 erstmals als vollständiger amtlicher Text eingesehen, Seitenbilder S. 2–3 Cache-Miss. Vertrags- und Angebotsdateien des Transparenzportals weiterhin technisch nicht abrufbar (HTTP 400 bzw. nicht unterstützter Content-Type; separater direkter Downloadversuch ebenfalls fehlgeschlagen). Drs. 22/18070 auch über alternative Suchpfade nicht erschlossen. Aus der Vergabevorlage folgt kein Nachweis einzelner Vertragsklauseln, Nachträge, Auszahlungen oder einer tatsächlichen Besetzung der Stellen.
 
 ## Nächste Beweisschritte
 

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**679 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**681 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -415,11 +415,12 @@
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [3](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Hamburger Staatsanwaltschaften | prosecution_authority | `ORG-DE-HH-STA` | DE | [1](network.md#rel-de-nsu-hh-sta-gba-akten-001) |
-| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [3](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
+| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [6](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
 | Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit | government_agency | `ORG-DE-HH-DSB` | DE | [1](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
+| HEUKING (Rechtsanwaltskanzlei) | law_firm | `ORG-DE-HEUKING` | DE | [1](network.md#rel-de-nsu-hh-buergerschaft-heuking-vergabe-2024-001) |
 | Historischer Hamburger polizeilicher PMK-Datenbestand bis 2011 | document | `DOC-DE-HH-PMK-BESTAND-BIS-2011` | DE | [1](network.md#rel-de-nsu-hh-pol-pmk-luecke-2023-001) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
@@ -456,7 +457,7 @@
 | Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
-| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [4](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
+| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [5](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
@@ -558,6 +559,7 @@
 | Robert Bosch Stiftung | charitable_foundation | `ORG-DE-ROBERT-BOSCH-STIFTUNG` | DE | [1](network.md#rel-de-ab-jour-bosch-1992-001) |
 | Rocky Mountain Institute | research_institute | `ORG-US-RMI` | US | [1](network.md#rel-ulf-woolsey-rmi) |
 | Rose Import-Export GmbH | company | `ORG-DE-ROSE-IMPORT-EXPORT` | DE | [1](network.md#rel-ulf-rose-company-sanction) |
+| Ruhr-Universität Bochum | university | `ORG-DE-RUB` | DE | [1](network.md#rel-de-nsu-hh-buergerschaft-rub-vergabe-2024-001) |
 | Safran Identity & Security (veräußertes Geschäft, 2017) | business_division | `ORG-FR-SAFRAN-IDSEC-2017` | FR | [1](network.md#rel-mauss-pmt-031) |
 | Sagem (AFIS-Rechteinhaber, 2005) | company | `ORG-FR-SAGEM-2005` | FR | [1](network.md#rel-mauss-pmt-023) |
 | Sagem SA (historisch, 1996/97) | company | `ORG-FR-SAGEM-SA-1997` | FR | [2](network.md#rel-mauss-pmt-013) |

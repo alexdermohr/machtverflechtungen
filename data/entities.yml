@@ -3819,3 +3819,13 @@ entities:
     type: parliamentary_committee
     name: "Erster NSU-Untersuchungsausschuss des Bundestages (17. Wahlperiode)"
     countries: [DE]
+
+  - id: ORG-DE-RUB
+    type: university
+    name: "Ruhr-Universität Bochum"
+    countries: [DE]
+
+  - id: ORG-DE-HEUKING
+    type: law_firm
+    name: "HEUKING (Rechtsanwaltskanzlei)"
+    countries: [DE]

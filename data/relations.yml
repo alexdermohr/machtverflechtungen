@@ -8551,3 +8551,28 @@ relations:
     label: "Dezember 2012 bis Februar 2013 Sichtung 356 Ordner einschließlich ungeschwärzter Akten zu fünf Quellen; kein Nachweis vollständiger Überlieferung"
     evidence_level: established
     sources: [SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-RUB-VERGABE-2024-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: ORG-DE-RUB
+    type: commissioned_research
+    label: "2024 Forschungsauftrag an RUB unter Beteiligung weiterer Hochschulen; Angebot 756.000 Euro netto; keine Zahlungsnachweise"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-VERGABE-2216857, SRC-DE-HH-NSU-FORSCHUNGSTEAM]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-HEUKING-VERGABE-2024-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: ORG-DE-HEUKING
+    type: procurement_advisory
+    label: "Laut Drs. 22/16857 Durchführung des Vergabeverfahrens als Vergabestelle; keine Vergütungs- oder Unregelmäßigkeitsnachweise"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-VERGABE-2216857]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-LFV-FREIGABEPLAN-2024-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: ORG-DE-HH-LFV
+    type: proposed_records_clearance_resources
+    label: "Antrag 20.11.2024: drei zusätzliche LfV-Stellen bedingt für Fremdakten-Freigaben vorgesehen; Einrichtung und Vollzug nicht nachgewiesen"
+    period: {start: "2024-11-20"}
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-VERGABE-2216857]

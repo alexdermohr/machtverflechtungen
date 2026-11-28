@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**635 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**637 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-forschung-projekt) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-forschungsteam) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -3914,6 +3914,21 @@ Fundstelle: Abs. 1–3, 5–7
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
 
+<a id="src-de-hh-nsu-forschungsteam"></a>
+### Hamburgische Bürgerschaft
+
+**[Das Forschungsteam](https://www.hamburgische-buergerschaft.de/unsere-arbeit/forschungsteam)**
+
+Hamburgische Bürgerschaft · unbekannt · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-FORSCHUNGSTEAM`
+
+[Seite öffnen](https://www.hamburgische-buergerschaft.de/unsere-arbeit/forschungsteam)
+
+Fundstelle: Absatz zur Vergabe und mehrheitlichen Kostenübernahme Ende 2024
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="">
+
 <a id="src-de-hh-nsu-forschung-projekt"></a>
 ### Hamburgische Bürgerschaft
 
@@ -4104,6 +4119,21 @@ Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
 
 Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-de-hh-nsu-vergabe-2216857"></a>
+### Hamburgische Bürgerschaft
+
+**[Vergabe des Auftrags zu einer wissenschaftlichen Studie: Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie](https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)**
+
+Hamburgische Bürgerschaft · 2024-11-20 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-VERGABE-2216857`
+
+[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie)
+
+Fundstelle: S. 1–4, insbesondere S. 2–4 (Vergabe, Kosten, Freigabeorganisation)
 
 </article>
 

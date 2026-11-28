@@ -7236,3 +7236,27 @@ sources:
   accessed: "2026-11-28"
   locator: "S. 139–140, Fragen Petermann und Pau, Antworten Förster"
   notes: "Endgültige öffentliche Niederschrift, amtlicher Text. Frage zu fehlender Vorlage und Erinnerungslücke; kein Beleg der Wahrheit der zitierten Medienbehauptungen. Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-VERGABE-2216857
+  title: "Vergabe des Auftrags zu einer wissenschaftlichen Studie: Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2024-11-20"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/89099/vergabe_des_auftrags_zu_einer_wissenschaftlichen_studie_aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie
+  accessed: "2026-11-28"
+  locator: "S. 1–4, insbesondere S. 2–4 (Vergabe, Kosten, Freigabeorganisation)"
+  notes: "Amtlicher Antrag (Neufassung), vollständiger Text; Seitenbilder S. 2–3 Cache-Miss. Kein Vertrag, keine Zahlungs- oder Stellenbesetzungsnachweise."
+
+- id: SRC-DE-HH-NSU-FORSCHUNGSTEAM
+  title: "Das Forschungsteam"
+  institution: "Hamburgische Bürgerschaft"
+  date: null
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.hamburgische-buergerschaft.de/unsere-arbeit/forschungsteam
+  accessed: "2026-11-28"
+  locator: "Absatz zur Vergabe und mehrheitlichen Kostenübernahme Ende 2024"
+  notes: "Amtliche Projektseite; undatiert, eingesehen am 28.11.2026. Beauftragung und Kostenbeschluss, nicht Vollzug der Zahlungen."

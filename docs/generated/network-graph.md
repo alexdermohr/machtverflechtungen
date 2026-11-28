@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**923 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**926 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1615,6 +1615,11 @@ flowchart LR
     N_ORG_DE_GBA -->|"Historische Sichtung von 140 Hamburger staatsanwaltlichen Haupt-, Spuren- und Nebenakten beim GBA; kein Nachweis aktuellen Bestands"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
     N_ORG_DE_HH_POLIZEI -->|"Historische Sichtung von 95 neuen Spurenakten und 26 Neben-/Beiakten beim LKA Hamburg; Kopien für Ausschuss gestattet; heutiger Bestand offen"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
     N_ORG_DE_BFV -->|"Dezember 2012 bis Februar 2013 Sichtung 356 Ordner einschließlich ungeschwärzter Akten zu fünf Quellen; kein Nachweis vollständiger Überlieferung"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
+    N_ORG_DE_RUB["Ruhr-Universität Bochum"]
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"2024 Forschungsauftrag an RUB unter Beteiligung weiterer Hochschulen; Angebot 756.000 Euro netto; keine Zahlungsnachweise"| N_ORG_DE_RUB
+    N_ORG_DE_HEUKING["HEUKING (Rechtsanwaltskanzlei)"]
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"Laut Drs. 22/16857 Durchführung des Vergabeverfahrens als Vergabestelle; keine Vergütungs- oder Unregelmäßigkeitsnachweise"| N_ORG_DE_HEUKING
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"Antrag 20.11.2024: drei zusätzliche LfV-Stellen bedingt für Fremdakten-Freigaben vorgesehen; Einrichtung und Vollzug nicht nachgewiesen"| N_ORG_DE_HH_LFV
 ```
 
 [Zur Relationstabelle](network.md)
