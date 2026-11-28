@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**611 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**613 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -7432,6 +7432,36 @@ Verwaltungsgericht Düsseldorf · 2015-07-01 · Stufe **A** · Primärquelle · 
 [Seite öffnen](https://ra.de/vg-dusseldorf/37-k-440514bdg-2015-07-01)
 
 Fundstelle: ECLI:DE:VGD:2015:0701.37K4405.14BDG.00; Tenor, Rn. 4–11, 18–26
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-vgk-nsu-15k345814-20150209"></a>
+### Verwaltungsgericht Köln
+
+**[VG Köln, Urteil 09.02.2015, 15 K 3458/14](https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-3458-14)**
+
+Verwaltungsgericht Köln · 2015-02-09 · Stufe **A** · Primärquelle · `SRC-DE-VGK-NSU-15K345814-20150209`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-3458-14)
+
+Fundstelle: ECLI:DE:VGK:2015:0209.15K3458.14.00; Tenor, Rn. 4–16, 27–45
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-vgk-nsu-15k706813-20150209"></a>
+### Verwaltungsgericht Köln
+
+**[VG Köln, Urteil 09.02.2015, 15 K 7068/13](https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-7068-13)**
+
+Verwaltungsgericht Köln · 2015-02-09 · Stufe **A** · Primärquelle · `SRC-DE-VGK-NSU-15K706813-20150209`
+
+[Seite öffnen](https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-7068-13)
+
+Fundstelle: ECLI:DE:VGK:2015:0209.15K7068.13.00; Tenor, Rn. 4–16, 28–43
 
 </article>
 

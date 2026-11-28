@@ -8378,3 +8378,21 @@ relations:
     period: {start: "2016-10-20"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-NW35-20161020]
+
+  - id: REL-DE-NSU-VGK-BFV-DOPPELSPITZE-2015-001
+    from: ORG-DE-VG-KOELN
+    to: ORG-DE-BFV
+    type: declared_personnel_measure_unlawful
+    label: "Stellte am 09.02.2015 die formelle und materielle Rechtswidrigkeit der eingeschränkten Rückumsetzung vom 26.07.2013 fest; Rechtskraft offen"
+    period: {start: "2015-02-09"}
+    evidence_level: established
+    sources: [SRC-DE-VGK-NSU-15K706813-20150209, SRC-DE-OVG-NRW-NSU-1B137312-20130628]
+
+  - id: REL-DE-NSU-VGK-BFV-UMSETZUNG-2015-001
+    from: ORG-DE-VG-KOELN
+    to: ORG-DE-BFV
+    type: upheld_personnel_measure
+    label: "Wies am 09.02.2015 die Klage gegen die andere alleinige Referatsgruppenleitung vom 25.11.2013 ab; sachliche Gründe anerkannt, Rechtskraft offen"
+    period: {start: "2015-02-09"}
+    evidence_level: established
+    sources: [SRC-DE-VGK-NSU-15K345814-20150209]

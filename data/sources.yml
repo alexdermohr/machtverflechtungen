@@ -6948,3 +6948,27 @@ sources:
   accessed: '2026-11-27'
   locator: "34. Sitzung, Beweisbeschluss NW-35, S. 1"
   notes: "Amtliche Textfassung, Bildabruf Cache-Miss; Beiziehungsbeschluss belegt keine tatsächliche Vorlage."
+
+- id: SRC-DE-VGK-NSU-15K706813-20150209
+  title: "VG Köln, Urteil 09.02.2015, 15 K 7068/13"
+  institution: Verwaltungsgericht Köln
+  date: '2015-02-09'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-7068-13
+  accessed: '2026-11-28'
+  locator: "ECLI:DE:VGK:2015:0209.15K7068.13.00; Tenor, Rn. 4–16, 28–43"
+  notes: "Indexierte gerichtliche Textwiedergabe in Drittveröffentlichung; direkter Abruf Cache-Miss, geprüfter amtlicher Pfad HTTP 404. Keine Urschrift oder Gerichtsakte eingesehen; Rechtskraft offen."
+
+- id: SRC-DE-VGK-NSU-15K345814-20150209
+  title: "VG Köln, Urteil 09.02.2015, 15 K 3458/14"
+  institution: Verwaltungsgericht Köln
+  date: '2015-02-09'
+  type: court_decision
+  primary: true
+  tier: A
+  url: https://recht.nulegal.eu/rechtsprechung/vg-koeln/2015-02-09/15-k-3458-14
+  accessed: '2026-11-28'
+  locator: "ECLI:DE:VGK:2015:0209.15K3458.14.00; Tenor, Rn. 4–16, 27–45"
+  notes: "Indexierte gerichtliche Textwiedergabe in Drittveröffentlichung; direkter Abruf Cache-Miss. Keine Urschrift oder Gerichtsakte eingesehen; Rechtskraft offen. Parteivortrag Rn. 17 ist nicht gerichtliche Feststellung."

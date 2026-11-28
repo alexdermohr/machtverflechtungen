@@ -3737,3 +3737,8 @@ entities:
     type: government_ministry
     name: Ministerium der Justiz Nordrhein-Westfalen
     countries: [DE]
+
+  - id: ORG-DE-VG-KOELN
+    type: court
+    name: Verwaltungsgericht Köln
+    countries: [DE]
