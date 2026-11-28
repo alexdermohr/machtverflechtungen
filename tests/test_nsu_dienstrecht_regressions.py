@@ -62,5 +62,17 @@ class NsuDienstrechtTests(unittest.TestCase):
         self.assertEqual(receipt["sources"], ["SRC-DE-BT-NSU-1812950-2017"])
 
 
+    def test_oversight_and_nw38_preserve_evidence_limits(self):
+        rows = {r["id"]: r for r in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]}
+        nw38 = rows["REL-DE-NSU-BT-NRW-NW38-2016-001"]
+        self.assertEqual(nw38["to"], "ORG-DE-NRW-STAATSKANZLEI")
+        self.assertEqual(str(nw38["period"]["start"]), "2016-11-10")
+        self.assertIn("03.01.2017", nw38["label"])
+        self.assertIn("Vollständigkeit offen", nw38["label"])
+        self.assertIn("keine Feststellung fortdauernder Mängel 2011", rows["REL-DE-BFD-BFV-AKTENAUFSICHT-2003-001"]["label"])
+        self.assertIn("tatsächlicher Vollzug nicht unabhängig geprüft", rows["REL-DE-BMI-BFV-AKTENREFORM-2016-001"]["label"])
+        self.assertFalse(any("SRC-DE-ARCHIVALIA-NSU-VERFUEGUNG-20130625" in r.get("sources", []) for r in rows.values()))
+
+
 if __name__ == "__main__":
     unittest.main()

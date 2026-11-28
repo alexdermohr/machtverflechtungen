@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**613 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**617 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1327,6 +1327,21 @@ Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-de-bfd-tb19-20030507"></a>
+### Bundesbeauftragter für den Datenschutz
+
+**[19. Tätigkeitsbericht des Bundesbeauftragten für den Datenschutz 2001/2002, BT-Drs. 15/888](https://dserver.bundestag.de/btd/15/008/1500888.pdf)**
+
+Bundesbeauftragter für den Datenschutz · 2003-05-07 · Stufe **A** · Primärquelle · `SRC-DE-BFD-TB19-20030507`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/15/008/1500888.pdf)
+
+Fundstelle: Gedruckte S. 111–112, Abschnitte 17.2.1, 17.2.2 und 17.3
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-bgh-cumex-2021"></a>
@@ -1457,6 +1472,36 @@ Fundstelle: Gedruckte S. 238–241, Abschnitt 5.3.4.2.4; Ausschussdrucksache 488
 Bundesnachrichtendienst · 2011 · Stufe **A** · Primärquelle · `SRC-DE-BND-GESCHICHTE-2011`
 
 [PDF öffnen](https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-bt-nsu-184654-20150420"></a>
+### Bundesregierung
+
+**[Entwurf eines Gesetzes zur Verbesserung der Zusammenarbeit im Bereich des Verfassungsschutzes, BT-Drs. 18/4654](https://dserver.bundestag.de/btd/18/046/1804654.pdf)**
+
+Bundesregierung · 2015-04-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-184654-20150420`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/046/1804654.pdf)
+
+Fundstelle: Art. 1 Nr. 8, Begründung S. 29–30 zu § 13 Abs. 3 BVerfSchG
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-bt-nsu-189331-20160804"></a>
+### Bundesregierung
+
+**[Antwort der Bundesregierung, BT-Drs. 18/9331, Fragen zur Aufarbeitung des NSU-Komplexes](https://dserver.bundestag.de/btd/18/093/1809331.pdf)**
+
+Bundesregierung · 2016-08-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-189331-20160804`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/093/1809331.pdf)
+
+Fundstelle: Gedruckte S. 48–49, Fragen 50–52
 
 </article>
 
@@ -2515,7 +2560,7 @@ Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
 
-Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1507, 1537 (A-Drs. 978, 1096), 1762–1764 (NW-33 bis NW-35, Eingang/MAT)
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1506–1507, 1516, 1537 (A-Drs. 976–978, 1016, 1096), 1762–1766 (NW-33 bis NW-35, NW-38, Eingang/MAT)
 
 </article>
 
@@ -7541,6 +7586,21 @@ American Council on Germany · 2025-06-16 · Stufe **B** · Sekundär-/Forschung
 [Seite öffnen](https://www.acgusa.org/50th-anniversary-of-the-john-j-mccloy-fund/)
 
 Fundstelle: Einleitung: ACG bestätigt retrospektiv Zuwendung von 1 Mio. USD der Bundesregierung und Scheel-Ford-Scheckzeremonie 16.06.1975; Stiftung ermöglichte laut ACG spätere Programmarbeit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="C" data-source-year="2013">
+
+<a id="src-de-archivalia-nsu-verfuegung-20130625"></a>
+### Archivalia
+
+**[Archivalia, Beitrag vom 25.06.2013 und anonymer Kommentar vom 26.06.2013 zur Kölner Verfügung](https://archiv.twoday.net/stories/434211667/)**
+
+Archivalia · 2013-06-25 · Stufe **C** · Sekundär-/Forschungsquelle · `SRC-DE-ARCHIVALIA-NSU-VERFUEGUNG-20130625`
+
+[Seite öffnen](https://archiv.twoday.net/stories/434211667/)
+
+Fundstelle: Indexierter Beitrag und anonymer Kommentar mit angeblichen Auszügen der Verfügung vom 18.06.2013, 121 Js 572/12
 
 </article>
 

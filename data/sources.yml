@@ -6677,7 +6677,7 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/18/129/1812950.pdf
   accessed: '2026-11-26'
-  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1507, 1537 (A-Drs. 978, 1096), 1762–1764 (NW-33 bis NW-35, Eingang/MAT)"
+  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1506–1507, 1516, 1537 (A-Drs. 976–978, 1016, 1096), 1762–1766 (NW-33 bis NW-35, NW-38, Eingang/MAT)"
   notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften. Anlagenverzeichnis am 28.11.2026 im amtlichen Text ausgewertet, Seitenbildabrufe Cache-Miss; registrierter Eingang belegt keine vollständige Vorlage."
 
 - id: SRC-DE-BT-NSU-1714600-MELDEWEGE-2013
@@ -6972,3 +6972,51 @@ sources:
   accessed: '2026-11-28'
   locator: "ECLI:DE:VGK:2015:0209.15K3458.14.00; Tenor, Rn. 4–16, 27–45"
   notes: "Indexierte gerichtliche Textwiedergabe in Drittveröffentlichung; direkter Abruf Cache-Miss. Keine Urschrift oder Gerichtsakte eingesehen; Rechtskraft offen. Parteivortrag Rn. 17 ist nicht gerichtliche Feststellung."
+
+- id: SRC-DE-BFD-TB19-20030507
+  title: "19. Tätigkeitsbericht des Bundesbeauftragten für den Datenschutz 2001/2002, BT-Drs. 15/888"
+  institution: Bundesbeauftragter für den Datenschutz
+  date: '2003-05-07'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/15/008/1500888.pdf
+  accessed: '2026-11-28'
+  locator: "Gedruckte S. 111–112, Abschnitte 17.2.1, 17.2.2 und 17.3"
+  notes: "Amtlicher Text; Bildabruf Cache-Miss. Zeitgenössischer Aufsichtsbefund, keine Feststellung der Praxis im Jahr 2011."
+
+- id: SRC-DE-BT-NSU-184654-20150420
+  title: "Entwurf eines Gesetzes zur Verbesserung der Zusammenarbeit im Bereich des Verfassungsschutzes, BT-Drs. 18/4654"
+  institution: Bundesregierung
+  date: '2015-04-20'
+  type: legislative_draft
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/046/1804654.pdf
+  accessed: '2026-11-28'
+  locator: "Art. 1 Nr. 8, Begründung S. 29–30 zu § 13 Abs. 3 BVerfSchG"
+  notes: "Amtlicher Entwurf, nicht der Verkündungstext; Empfehlung 35 des ersten NSU-Ausschusses. Bildabruf Cache-Miss; tatsächliches Inkrafttreten zusätzlich über Gesetz vom 17.11.2015, BGBl. I S. 1938, und Regierungsantwort 18/9331 abgeglichen."
+
+- id: SRC-DE-BT-NSU-189331-20160804
+  title: "Antwort der Bundesregierung, BT-Drs. 18/9331, Fragen zur Aufarbeitung des NSU-Komplexes"
+  institution: Bundesregierung
+  date: '2016-08-04'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/093/1809331.pdf
+  accessed: '2026-11-28'
+  locator: "Gedruckte S. 48–49, Fragen 50–52"
+  notes: "Amtlicher Text, Bildabruf Cache-Miss. Primärbeleg für Regierungsangaben zur Verfahrensänderung 2013, nicht unabhängiger Nachweis der Umsetzung."
+
+- id: SRC-DE-ARCHIVALIA-NSU-VERFUEGUNG-20130625
+  title: "Archivalia, Beitrag vom 25.06.2013 und anonymer Kommentar vom 26.06.2013 zur Kölner Verfügung"
+  institution: Archivalia
+  date: '2013-06-25'
+  type: commentary_on_contemporary_political_event
+  primary: false
+  tier: C
+  url: https://archiv.twoday.net/stories/434211667/
+  accessed: '2026-11-28'
+  locator: "Indexierter Beitrag und anonymer Kommentar mit angeblichen Auszügen der Verfügung vom 18.06.2013, 121 Js 572/12"
+  notes: "Ungeprüfte Drittwiedergabe ohne Faksimile; direkter Abruf Cache-Miss. Nur Suchspur zur Urschrift, kein eigenständiger Nachweis für § 96 StPO, Vollständigkeit oder tatsächliche Akteninhalte."

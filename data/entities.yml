@@ -3742,3 +3742,14 @@ entities:
     type: court
     name: Verwaltungsgericht Köln
     countries: [DE]
+
+  - id: ORG-DE-NRW-STAATSKANZLEI
+    type: government_body
+    name: Staatskanzlei Nordrhein-Westfalen
+    countries: [DE]
+
+  - id: ORG-DE-BFD
+    type: government_body
+    name: Bundesbeauftragter für den Datenschutz (BfD)
+    countries: [DE]
+    notes: "Historische Amtsbezeichnung 2003; heute BfDI."

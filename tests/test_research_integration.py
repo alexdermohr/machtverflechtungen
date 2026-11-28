@@ -493,7 +493,10 @@ class ResearchIntegrationTests(unittest.TestCase):
                  "REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001",
                  "REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001",
                  "REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001",
-                 "REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001"],
+                 "REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001",
+                 "REL-DE-NSU-BT-NRW-NW38-2016-001",
+                 "REL-DE-BFD-BFV-AKTENAUFSICHT-2003-001",
+                 "REL-DE-BMI-BFV-AKTENREFORM-2016-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":

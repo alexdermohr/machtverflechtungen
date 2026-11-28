@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**905 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**908 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1581,6 +1581,11 @@ flowchart LR
     N_ORG_DE_VG_KOELN -->|"Stellte am 09.02.2015 die formelle und materielle Rechtswidrigkeit der eingeschränkten Rückumsetzung vom 26.07.2013 fest; Rechtskraft offen"| N_ORG_DE_BFV
     N_ORG_DE_VG_KOELN -->|"Wies am 09.02.2015 die Klage gegen die andere alleinige Referatsgruppenleitung vom 25.11.2013 ab; sachliche Gründe anerkannt, Rechtskraft offen"| N_ORG_DE_BFV
     N_ORG_DE_NRW_JUSTIZMINISTERIUM -->|"Unterlageneingänge NW-33 (Strafakten) und NW-35 (Gerichtsakten) am 13.12.2016 registriert; beide mit Tgb.-Nr. 116/17 VS-V, Vollständigkeit und Inhalt offen"| N_ORG_DE_BT_NSU_UA2_2015_2017
+    N_ORG_DE_NRW_STAATSKANZLEI["Staatskanzlei Nordrhein-Westfalen"]
+    N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Amtshilfeersuchen NW-38 zu sämtlichen NRW-Justizunterlagen zu 121 Js 572/12 am 10.11.2016; MAT A NW-38 Eingang 03.01.2017 registriert, Einzelinventar und Vollständigkeit offen"| N_ORG_DE_NRW_STAATSKANZLEI
+    N_ORG_DE_BFD["Bundesbeauftragter für den Datenschutz (BfD)"]
+    N_ORG_DE_BFD -->|"Tätigkeitsbericht vom 07.05.2003: Prüfung 2001, neue Dienstanweisung 2002 und offene Archivierung zeitgeschichtlich bedeutsamer Akten; keine Feststellung fortdauernder Mängel 2011"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Regierungsantwort 04.08.2016: seit März 2013 zentrale Kassation in Registraturen und Trennung von Veranlassung und Kassation laut Bundesregierung; tatsächlicher Vollzug nicht unabhängig geprüft"| N_ORG_DE_BFV
 ```
 
 [Zur Relationstabelle](network.md)

@@ -8405,3 +8405,30 @@ relations:
     period: {start: "2016-12-13"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-NSU-BT-NRW-NW38-2016-001
+    from: ORG-DE-BT-NSU-UA2-2015-2017
+    to: ORG-DE-NRW-STAATSKANZLEI
+    type: requested_justice_records
+    label: "Amtshilfeersuchen NW-38 zu sämtlichen NRW-Justizunterlagen zu 121 Js 572/12 am 10.11.2016; MAT A NW-38 Eingang 03.01.2017 registriert, Einzelinventar und Vollständigkeit offen"
+    period: {start: "2016-11-10"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]
+
+  - id: REL-DE-BFD-BFV-AKTENAUFSICHT-2003-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: documented_records_oversight_findings
+    label: "Tätigkeitsbericht vom 07.05.2003: Prüfung 2001, neue Dienstanweisung 2002 und offene Archivierung zeitgeschichtlich bedeutsamer Akten; keine Feststellung fortdauernder Mängel 2011"
+    period: {start: "2003-05-07"}
+    evidence_level: established
+    sources: [SRC-DE-BFD-TB19-20030507]
+
+  - id: REL-DE-BMI-BFV-AKTENREFORM-2016-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFV
+    type: reported_records_management_reform
+    label: "Regierungsantwort 04.08.2016: seit März 2013 zentrale Kassation in Registraturen und Trennung von Veranlassung und Kassation laut Bundesregierung; tatsächlicher Vollzug nicht unabhängig geprüft"
+    period: {start: "2016-08-04"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-189331-20160804]
