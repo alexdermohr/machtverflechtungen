@@ -1311,3 +1311,18 @@ studies:
     - REL-HS30-WIG-001
     - REL-HS30-WIG-002
     - REL-HS30-WIG-003
+
+  hs30-winsemius-bank-of-america-singapur-1953-1984.md:
+    sha256: 4d871618563126443382288f0381c3db304ff1861677ada7679cce9e79aa1b56
+    status: network
+    relation_ids:
+    - REL-HS30-WIN-001
+    - REL-HS30-WIN-002
+    - REL-HS30-WIN-003
+    - REL-HS30-WIN-004
+    - REL-HS30-WIN-005
+    - REL-HS30-WIN-006
+    - REL-HS30-WIN-007
+    - REL-HS30-WIN-008
+    - REL-HS30-WIN-009
+    - REL-HS30-WIN-010

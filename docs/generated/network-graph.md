@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**905 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**915 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1583,6 +1583,24 @@ flowchart LR
     N_ORG_US_CIA -->|"CIA-Memo vom 02.11.1965 enthält ältere ZIPPER-Studie, Anlage III Nr. 82 zur WIG; dokumentierte Berichterstattung, kein Beweis von CIA-Kontrolle"| N_ORG_DE_WIG_MANNHEIM_1953
     N_ORG_CH_HISPANO_SUIZA_1950S -->|"Gründung der WIG Mannheim im April 1953 durch Hispano-Suiza laut CIA-Studie Nr. 78; Registerbeleg ausstehend"| N_ORG_DE_WIG_MANNHEIM_1953
     N_ORG_LI_OCTOGON_TRUST -->|"CIA-Studie Nr. 78 und 82 bezeichnet WIG als wirtschaftliche Nachfolgerin Octogons; Rechtsnachfolge und Vermögensübertragung nicht belegt"| N_ORG_DE_WIG_MANNHEIM_1953
+    N_PER_NL_ALBERT_WINSEMIUS["Albert Winsemius (1910–1996)"]
+    N_ORG_NL_ECONOMIC_AFFAIRS_1950S["Niederländisches Wirtschaftsministerium (frühe 1950er)"]
+    N_PER_NL_ALBERT_WINSEMIUS -->|"Generaldirektor für Industrialisierung vor Wechsel in die Rüstungsindustrie 1953, laut biografischer Forschung"| N_ORG_NL_ECONOMIC_AFFAIRS_1950S
+    N_PER_NL_ALBERT_WINSEMIUS -->|"Wechsel zu Hispano-Suiza in Genf 1953 laut biografischer Forschung; 1958 Firmenvertreter in Bonn im Ausschussbericht"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_NL_ALBERT_WINSEMIUS -->|"Interimistischer Hispano-Vertreter in Bonn; Schreiben vom 29.07.1958 zu vertraglichen Tauglichkeitskriterien (V/4527 S. 65)"| N_ORG_DE_BMVTDG_HS30_1956_1964
+    N_ORG_UN_EPTA_1960["UN Expanded Programme of Technical Assistance (1960)"]
+    N_ORG_UN_EPTA_1960 -->|"UN-Technikhilfe vermittelte Winsemius 1960 nach Singapur, laut Außenministerium 2018"| N_PER_NL_ALBERT_WINSEMIUS
+    N_ORG_SG_GOVERNMENT_1960_1984["Regierung Singapurs (1960–1984)"]
+    N_PER_NL_ALBERT_WINSEMIUS -->|"Wirtschaftspolitische Beratung 1960 bis 1984; berichtete politische Empfehlungen gesondert bewerten"| N_ORG_SG_GOVERNMENT_1960_1984
+    N_PER_NL_JD_VAN_OENEN["J. D. van Oenen (Bank of America, 1960er)"]
+    N_PER_NL_ALBERT_WINSEMIUS -->|"Kontakt und Zusammenarbeit bei Konzept des asiatischen Offshore-Dollarmarkts 1968; offizieller Rückblick 2021 und finanzhistorische Forschung"| N_PER_NL_JD_VAN_OENEN
+    N_ORG_US_BOFA_SINGAPORE_1960S["Bank of America (Singapur, 1960er)"]
+    N_PER_NL_JD_VAN_OENEN -->|"Führende Tätigkeit bei Bank of America in den 1960er Jahren"| N_ORG_US_BOFA_SINGAPORE_1960S
+    N_PER_SG_GOH_KENG_SWEE["Goh Keng Swee"]
+    N_PER_NL_JD_VAN_OENEN -->|"Vorschlag für asiatischen Dollarmarkt 1968 laut Rede Lee Kuan Yews vom 14.12.1977, S. 3"| N_PER_SG_GOH_KENG_SWEE
+    N_ORG_US_BOFA_SINGAPORE_1960S -->|"Laut Schenk 2020 und Interview Greene 1994 Sterling-Überziehungsgeschäft 1967 zugunsten Bank und Regierung; Betrag und Originalbelege offen"| N_ORG_SG_GOVERNMENT_1960_1984
+    N_ORG_SG_MAS_1971["Monetary Authority of Singapore (ab 1971)"]
+    N_ORG_SG_MAS_1971 -->|"Zusammenarbeit mit Finanzministerium zur Förderung von ACUs nach Gründung der MAS; ermäßigter Offshore-Steuersatz laut Rückblick 2021"| N_ORG_SG_GOVERNMENT_1960_1984
 ```
 
 [Zur Relationstabelle](network.md)

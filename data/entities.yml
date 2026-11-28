@@ -3752,3 +3752,49 @@ entities:
     - DE
     notes: Im CIA-Bericht 1965 als im April 1953 gegründete Nachfolgerin Octogons bezeichnet; genaue Registeridentität,
       Eigentum und Rechtsnachfolge nicht bestätigt.
+
+  - id: PER-NL-ALBERT-WINSEMIUS
+    type: person
+    name: Albert Winsemius (1910–1996)
+    countries:
+    - NL
+    - CH
+    - DE
+    - SG
+  - id: PER-NL-JD-VAN-OENEN
+    type: person
+    name: J. D. van Oenen (Bank of America, 1960er)
+    countries:
+    - NL
+    - SG
+    - GB
+  - id: PER-SG-GOH-KENG-SWEE
+    type: person
+    name: Goh Keng Swee
+    countries:
+    - SG
+  - id: ORG-SG-GOVERNMENT-1960-1984
+    type: government
+    name: Regierung Singapurs (1960–1984)
+    countries:
+    - SG
+  - id: ORG-US-BOFA-SINGAPORE-1960S
+    type: bank
+    name: Bank of America (Singapur, 1960er)
+    countries:
+    - US
+    - SG
+  - id: ORG-NL-ECONOMIC-AFFAIRS-1950S
+    type: government_ministry
+    name: Niederländisches Wirtschaftsministerium (frühe 1950er)
+    countries:
+    - NL
+  - id: ORG-UN-EPTA-1960
+    type: international_organization
+    name: UN Expanded Programme of Technical Assistance (1960)
+    countries: []
+  - id: ORG-SG-MAS-1971
+    type: government_agency
+    name: Monetary Authority of Singapore (ab 1971)
+    countries:
+    - SG

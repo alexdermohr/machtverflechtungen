@@ -8458,3 +8458,112 @@ relations:
     sources:
     - SRC-HS30-CIA-CATIDE-19651102
     evidence_level: plausible
+
+  - id: REL-HS30-WIN-001
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-NL-ECONOMIC-AFFAIRS-1950S
+    type: public_office
+    label: Generaldirektor für Industrialisierung vor Wechsel in die Rüstungsindustrie 1953, laut biografischer Forschung
+    sources:
+    - SRC-HS30-WIN-SOJOURN-2023
+    evidence_level: strong
+  - id: REL-HS30-WIN-002
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: employment
+    label: Wechsel zu Hispano-Suiza in Genf 1953 laut biografischer Forschung; 1958 Firmenvertreter in Bonn im Ausschussbericht
+    sources:
+    - SRC-HS30-WIN-SOJOURN-2023
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953'
+  - id: REL-HS30-WIN-003
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-DE-BMVTDG-HS30-1956-1964
+    type: contract_negotiation
+    label: Interimistischer Hispano-Vertreter in Bonn; Schreiben vom 29.07.1958 zu vertraglichen Tauglichkeitskriterien
+      (V/4527 S. 65)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1958-07-29'
+  - id: REL-HS30-WIN-004
+    from: ORG-UN-EPTA-1960
+    to: PER-NL-ALBERT-WINSEMIUS
+    type: expert_assignment
+    label: UN-Technikhilfe vermittelte Winsemius 1960 nach Singapur, laut Außenministerium 2018
+    sources:
+    - SRC-HS30-WIN-MFA-UN-2018
+    evidence_level: strong
+    period:
+      start: '1960'
+  - id: REL-HS30-WIN-005
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: economic_advisory
+    label: Wirtschaftspolitische Beratung 1960 bis 1984; berichtete politische Empfehlungen gesondert bewerten
+    sources:
+    - SRC-HS30-WIN-MFA-UN-2018
+    - SRC-HS30-WIN-NLB-WINSEMIUS
+    - SRC-HS30-WIN-BANKING-EMPIRE-2026
+    evidence_level: strong
+    period:
+      start: '1960'
+      end: '1984'
+  - id: REL-HS30-WIN-006
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: PER-NL-JD-VAN-OENEN
+    type: financial_policy_collaboration
+    label: Kontakt und Zusammenarbeit bei Konzept des asiatischen Offshore-Dollarmarkts 1968; offizieller Rückblick
+      2021 und finanzhistorische Forschung
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: strong
+    period:
+      start: '1968'
+  - id: REL-HS30-WIN-007
+    from: PER-NL-JD-VAN-OENEN
+    to: ORG-US-BOFA-SINGAPORE-1960S
+    type: employment
+    label: Führende Tätigkeit bei Bank of America in den 1960er Jahren
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: strong
+    period:
+      start: '1960'
+  - id: REL-HS30-WIN-008
+    from: PER-NL-JD-VAN-OENEN
+    to: PER-SG-GOH-KENG-SWEE
+    type: financial_policy_proposal
+    label: Vorschlag für asiatischen Dollarmarkt 1968 laut Rede Lee Kuan Yews vom 14.12.1977, S. 3
+    sources:
+    - SRC-HS30-WIN-NAS-LEE-19771214
+    evidence_level: strong
+    period:
+      start: '1968'
+  - id: REL-HS30-WIN-009
+    from: ORG-US-BOFA-SINGAPORE-1960S
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: reported_financial_transaction
+    label: Laut Schenk 2020 und Interview Greene 1994 Sterling-Überziehungsgeschäft 1967 zugunsten Bank und Regierung;
+      Betrag und Originalbelege offen
+    sources:
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: plausible
+    period:
+      start: '1967'
+  - id: REL-HS30-WIN-010
+    from: ORG-SG-MAS-1971
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: financial_regulation_collaboration
+    label: Zusammenarbeit mit Finanzministerium zur Förderung von ACUs nach Gründung der MAS; ermäßigter Offshore-Steuersatz
+      laut Rückblick 2021
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    evidence_level: strong
+    period:
+      start: '1971'

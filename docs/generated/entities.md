@@ -1,11 +1,12 @@
 # Personen & Organisationen
 
-**666 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**674 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
+| Albert Winsemius (1910–1996) | person | `PER-NL-ALBERT-WINSEMIUS` | NL, CH, DE, SG | [6](network.md#rel-hs30-win-001) |
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Alexander von Stahl | person | `PER-DE-ALEXANDER-VON-STAHL` | DE | [3](network.md#rel-raf-schmuecker-nonne-006) |
 | Alexander Wilke | person | `PER-DE-ALEXANDER-WILKE` | DE | [1](network.md#rel-ulf-tk-wilke) |
@@ -56,6 +57,7 @@
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gerhard Wessel | person | `PER-DE-GERHARD-WESSEL` | DE | [3](network.md#rel-de-kauka-001) |
+| Goh Keng Swee | person | `PER-SG-GOH-KENG-SWEE` | SG | [1](network.md#rel-hs30-win-008) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
 | Günther Beckstein | person | `PER-DE-GUENTHER-BECKSTEIN` | DE | [1](network.md#rel-de-beckstein-ulfkotte-laudatio-2003-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
@@ -76,6 +78,7 @@
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
 | Ingo Zamperoni | person | `PER-DE-INGO-ZAMPERONI` | DE | [1](network.md#rel-de-tmn-047) |
 | Inés Lucía Pinochet | person | `PER-CL-INES-LUCIA-PINOCHET` | CL | [1](network.md#rel-riggs-followup-001) |
+| J. D. van Oenen (Bank of America, 1960er) | person | `PER-NL-JD-VAN-OENEN` | NL, SG, GB | [3](network.md#rel-hs30-win-006) |
 | Jesús Emilio Jaramillo | person | `PER-CO-JESUS-EMILIO-JARAMILLO` | CO | [1](network.md#rel-mauss-offshore-007) |
 | Joe Montgomery (United Fruit 1954) | person | `PER-US-JOE-MONTGOMERY-UFCO-1954` | US | [1](network.md#rel-us-montgomery-ufco-liaison-1954) |
 | John A. McCone | person | `PER-US-JOHN-A-MCCONE` | US | [2](network.md#rel-us-mccone-cia-director-1961-1965) |
@@ -232,6 +235,7 @@
 | Banco Santander Central Hispano (2004) | commercial_bank | `ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004` | ES | [2](network.md#rel-riggs-followup-014) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
 | Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [10](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
+| Bank of America (Singapur, 1960er) | bank | `ORG-US-BOFA-SINGAPORE-1960S` | US, SG | [2](network.md#rel-hs30-win-007) |
 | Bank of America – Kontenverbund laut Senatsberichten 2005/2010 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [9](network.md#rel-riggs-followup-001) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
 | BankBoston Chile (2001) | commercial_bank | `ORG-CL-BANKBOSTON-CHILE-2001` | CL, US | [2](network.md#rel-riggs-followup-004) |
@@ -280,7 +284,7 @@
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [3](network.md#rel-de-bdj-003) |
 | Bundesministerium des Innern (Amri-Komplex 2017) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
-| Bundesministerium für Verteidigung (HS-30, 1956–1964) | federal_ministry | `ORG-DE-BMVTDG-HS30-1956-1964` | DE | [4](network.md#rel-hs30-018) |
+| Bundesministerium für Verteidigung (HS-30, 1956–1964) | federal_ministry | `ORG-DE-BMVTDG-HS30-1956-1964` | DE | [5](network.md#rel-hs30-018) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [38](network.md#rel-de-gehlen-001) |
@@ -421,7 +425,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
-| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [7](network.md#rel-hs30-012) |
+| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [8](network.md#rel-hs30-012) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
@@ -485,6 +489,7 @@
 | Mobil Equatorial Guinea Inc. (MEGI) | oil_company | `ORG-GQ-MOBIL-EQUATORIAL-GUINEA-INC` | GQ, US | [2](network.md#rel-riggs-followup-047) |
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
+| Monetary Authority of Singapore (ab 1971) | government_agency | `ORG-SG-MAS-1971` | SG | [1](network.md#rel-hs30-win-010) |
 | Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
@@ -501,6 +506,7 @@
 | Newbridge Advisory Limited (11853148) | organization | `ORG-GB-NEWBRIDGE-ADVISORY-LTD-11853148` | GB | [1](network.md#rel-gb-bb-uk-003) |
 | Next Generation Command and Control (NGC2) | military_technology_program | `PRG-US-ARMY-NGC2` | US | [1](network.md#rel-us-raft-ngc2-2026) |
 | Nicht namentlich verifizierter Verlag (1 BvR 2575/19) | media_publisher | `ORG-DE-VERLAG-1BVR257519` | DE | [2](network.md#rel-de-bnd-media-001) |
+| Niederländisches Wirtschaftsministerium (frühe 1950er) | government_ministry | `ORG-NL-ECONOMIC-AFFAIRS-1950S` | NL | [1](network.md#rel-hs30-win-001) |
 | Niedersächsischer Verfassungsschutz | intelligence_service | `ORG-DE-NI-VERFASSUNGSSCHUTZ` | DE | [2](network.md#rel-de-celler-001) |
 | Nolilane NV Inc. | company | `ORG-PA-NOLILANE-NV` | PA | [2](network.md#rel-mauss-offshore-016) |
 | Norddeutscher Rundfunk | public_broadcaster | `ORG-DE-NDR` | DE | [2](network.md#rel-de-bnd-media-005) |
@@ -542,6 +548,7 @@
 | Rechercheverbund NDR/WDR/Süddeutsche Zeitung | media_network | `ORG-DE-RECHERCHEVERBUND-NDR-WDR-SZ` | DE | [1](network.md#rel-de-tmn-008) |
 | Regierung der Vereinigten Staaten | government | `ORG-US-FEDERAL-GOVERNMENT` | US | [1](network.md#rel-riggs-post-2004-054) |
 | Regierung Salvador Allende (Chile, 1970–1973) | historical_national_government | `ORG-CL-ALLENDE-GOVERNMENT-1972` | CL | [5](network.md#rel-int-paris-club-chile-rescheduling-1972) |
+| Regierung Singapurs (1960–1984) | government | `ORG-SG-GOVERNMENT-1960-1984` | SG | [3](network.md#rel-hs30-win-005) |
 | Regierung Äquatorialguineas (1995–2004) | government | `ORG-GQ-GOVERNMENT-1995-2004` | GQ | [1](network.md#rel-riggs-followup-038) |
 | Registraduría Nacional del Estado Civil (RNEC) | government_agency | `ORG-CO-RNEC` | CO | [11](network.md#rel-mauss-pmt-017) |
 | Rheinische Post | media_outlet | `ORG-DE-RHEINISCHE-POST` | DE | [1](network.md#rel-ulf-tk-trip-3) |
@@ -623,6 +630,7 @@
 | UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
 | UBS Panama (berichtete historische Bankverbindung) | commercial_bank | `ORG-PA-UBS-1985` | PA | [1](network.md#rel-mauss-offshore-005) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
+| UN Expanded Programme of Technical Assistance (1960) | international_organization | `ORG-UN-EPTA-1960` |  | [1](network.md#rel-hs30-win-004) |
 | Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | UnionBanCal Corporation (2007) | bank_holding_company | `ORG-US-UNIONBANCAL-2007` | US | [2](network.md#rel-riggs-post-2004-033) |

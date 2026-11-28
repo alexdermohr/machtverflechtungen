@@ -6784,3 +6784,74 @@ sources:
   accessed: '2026-11-28'
   locator: Fn. 39, 40, 56
   notes: Bibliografische Provenienz der CIA-Akte und ZIPPER-Deckbezeichnung überprüft; nicht der vollständige Aufsatz.
+
+- id: SRC-HS30-WIN-SOJOURN-2023
+  title: Rezension zu Albert Winsemius / Frans Stoelinga
+  institution: SOJOURN 38/3
+  date: '2023'
+  type: research_article
+  primary: false
+  tier: B
+  url: https://bookshop.iseas.edu.sg/component/get/22725
+  accessed: '2026-11-28'
+  locator: S. 488–489; Rezension, nicht Vollbiografie
+- id: SRC-HS30-WIN-NAS-LEE-19771214
+  title: Rede Lee Kuan Yew, 14. Dezember 1977
+  institution: National Archives of Singapore
+  date: '1977-12-14'
+  type: speech
+  primary: true
+  tier: A
+  url: https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19771214.pdf
+  accessed: '2026-11-28'
+  locator: S. 3; zeitgenössischer Rückblick auf 1968; Text geprüft, Screenshot fehlgeschlagen
+- id: SRC-HS30-WIN-PMO-MAS50-2021
+  title: PM Lee Hsien Loong at the MAS50 Partners Appreciation Evening
+  institution: Prime Minister's Office Singapore
+  date: '2021-10-07'
+  type: speech
+  primary: true
+  tier: A
+  url: https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-at-the-mas50-partners-appreciation-evening/
+  accessed: '2026-11-28'
+  locator: Abschnitt The Asian Dollar Market; später institutioneller Rückblick; Amtstitel Hon für 1968 ungenau
+- id: SRC-HS30-WIN-MFA-UN-2018
+  title: Rede von Vivian Balakrishnan zur UNDP Asia Pacific Regional Management Meeting
+  institution: Ministry of Foreign Affairs Singapore
+  date: '2018-10-09'
+  type: speech
+  primary: true
+  tier: A
+  url: https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/transcript-undp-09-oct-2018/
+  accessed: '2026-11-28'
+  locator: UN-EPTA 1960, Beratung bis 1984; offizieller Rückblick
+- id: SRC-HS30-WIN-SCHENK-2020
+  title: 'Catherine R. Schenk: The origins of the Asia dollar market 1968–1986'
+  institution: Financial History Review 27/1
+  date: '2020'
+  type: research_article
+  primary: false
+  tier: B
+  url: https://doi.org/10.1017/S0968565019000271
+  accessed: '2026-11-28'
+  locator: S. 17–44; Autorenfassung Oxford S. 6–7 Fn. 23–30 textlich geprüft; Originalinterviews nicht geprüft
+- id: SRC-HS30-WIN-NLB-WINSEMIUS
+  title: Albert Winsemius
+  institution: National Library Board Singapore
+  date: null
+  type: biography
+  primary: false
+  tier: B
+  url: https://www.nlb.gov.sg/main/article-detail?cmsuuid=e3a51a30-f9fd-47e7-af89-1a11bce13e50
+  accessed: '2026-11-28'
+  locator: Biografie und berichtete politische Empfehlungen
+- id: SRC-HS30-WIN-BANKING-EMPIRE-2026
+  title: 'Banking on the Ruins of Empire: Developing Global Finance in Kuwait and Singapore'
+  institution: Social Science History
+  date: '2026'
+  type: research_article
+  primary: false
+  tier: B
+  url: https://www.cambridge.org/core/journals/social-science-history/article/banking-on-the-ruins-of-empire-developing-global-finance-in-kuwait-and-singapore/B142172B0F43616AC3BAE4D352ABC712
+  accessed: '2026-11-28'
+  locator: Abschnitt Singapore; Vergleich politischer Koalitionen, Offshore-Markt
