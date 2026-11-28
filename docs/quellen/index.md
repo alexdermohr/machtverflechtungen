@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**584 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**592 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -2105,6 +2105,36 @@ Fundstelle: S. 19420–19421: eingeräumter Interventionsversuch und erklärte Z
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-de-barschel-koko-127600"></a>
+### Deutscher Bundestag
+
+**[Beschlussempfehlung und Bericht des 1. Untersuchungsausschusses, BT-Drs. 12/7600](https://erinnerungsdebatten.de/wp-content/uploads/2023/03/12_7600.pdf)**
+
+Deutscher Bundestag · 1994-05-27 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-KOKO-127600`
+
+[PDF öffnen](https://erinnerungsdebatten.de/wp-content/uploads/2023/03/12_7600.pdf)
+
+Fundstelle: S. 182–183; S. 182 zusätzlich Yumpu-Textkopie
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-de-barschel-bt-127725"></a>
+### Deutscher Bundestag
+
+**[Beschlussempfehlung und zweiter abweichender Bericht, BT-Drs. 12/7725](https://dserver.bundestag.de/btd/12/077/1207725.pdf)**
+
+Deutscher Bundestag · 1994-05-27 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BT-127725`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/077/1207725.pdf)
+
+Fundstelle: S. 1, Fußnote zur Geheimeinstufung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
 
 <a id="src-de-bt-mauss-pl144-1996"></a>
@@ -2402,6 +2432,36 @@ Deutscher Bundestag · 2017-06-20 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [PDF öffnen](https://dserver.bundestag.de/btd/18/127/1812700.pdf)
 
 Fundstelle: Drucksache 18/12700; Mehrheitsbewertung und Sondervoten getrennt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-barschel-bt-hib-2017"></a>
+### Deutscher Bundestag
+
+**[Votum zum Koko-Untersuchungsausschuss](https://www.bundestag.de/webarchiv/presse/hib/2017_06/513162-513162)**
+
+Deutscher Bundestag · 2017-06-26 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BT-HIB-2017`
+
+[Seite öffnen](https://www.bundestag.de/webarchiv/presse/hib/2017_06/513162-513162)
+
+Fundstelle: hib 399/2017, Antrag 18/12821
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-barschel-bt-votum-2017"></a>
+### Deutscher Bundestag
+
+**[243. Sitzung, Beratung zur Geheimhaltung eines Sondervotums](https://www.bundestag.de/mediathek/video?videoid=7125716)**
+
+Deutscher Bundestag · 2017-06-29 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BT-VOTUM-2017`
+
+[Seite öffnen](https://www.bundestag.de/mediathek/video?videoid=7125716)
+
+Fundstelle: TOP 36; Beschluss zu Antrag 18/12821
 
 </article>
 
@@ -2717,6 +2777,21 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-de-barschel-bt-125487"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen und Antworten, BT-Drs. 12/5487](https://dserver.bundestag.de/btd/12/054/1205487.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1993-07-23 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-BT-125487`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/054/1205487.pdf)
+
+Fundstelle: S. 18–19, Fragen 23–24
 
 </article>
 
@@ -4650,6 +4725,36 @@ Safran · 2017-05-31 · Stufe **A** · Primärquelle · `SRC-FR-SAFRAN-ADVENT-20
 [Seite öffnen](https://www.safran-group.com/pressroom/completion-sale-safrans-identity-and-security-activities-2017-05-31)
 
 Fundstelle: Abgeschlossener Verkauf an Advent, 2,4 Mrd. EUR
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-de-barschel-sh-2011"></a>
+### Schleswig-Holsteinischer Landtag
+
+**[Innen- und Rechtsausschuss, 73. Sitzung](https://www.werner-kalinka.de/wp-content/uploads/2011/10/17-073_10-11.pdf)**
+
+Schleswig-Holsteinischer Landtag · 2011-10-06 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-SH-2011`
+
+[PDF öffnen](https://www.werner-kalinka.de/wp-content/uploads/2011/10/17-073_10-11.pdf)
+
+Fundstelle: Bericht zu Asservaten des Barschel-Verfahrens
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-barschel-sh-2013"></a>
+### Schleswig-Holsteinischer Landtag
+
+**[Gemeinsame Ausschusssitzung des Schleswig-Holsteinischen Landtags](https://www.landtag.ltsh.de/export/sites/ltsh/infothek/wahl18/aussch/finanz/niederschrift/2013/18-022_01-13.pdf)**
+
+Schleswig-Holsteinischer Landtag · 2013-01-09 · Stufe **A** · Primärquelle · `SRC-DE-BARSCHEL-SH-2013`
+
+[PDF öffnen](https://www.landtag.ltsh.de/export/sites/ltsh/infothek/wahl18/aussch/finanz/niederschrift/2013/18-022_01-13.pdf)
+
+Fundstelle: S. 4–10
 
 </article>
 
@@ -8282,6 +8387,21 @@ National WWII Museum, New Orleans · 2019 · Stufe **B** · Sekundär-/Forschung
 [Seite öffnen](https://www.nationalww2museum.org/war/articles/major-glenn-miller-loss-icon)
 
 Fundstelle: Zeit, Ort und Besatzung der 1944 verschwundenen USAAF Norseman mit Missing Air Crew Report und Verlustunterlagen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-de-barschel-ndr-2023"></a>
+### NDR
+
+**[Barschel- und Schubladenaffäre: Zwei Untersuchungsausschüsse in Kiel](https://www.ndr.de/geschichte/chronologie/Barschel-und-Schubladenaffaere-Zwei-Untersuchungsausschuesse-in-Kiel,barschelausschuesse101.html)**
+
+NDR · 2023-03-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARSCHEL-NDR-2023`
+
+[Seite öffnen](https://www.ndr.de/geschichte/chronologie/Barschel-und-Schubladenaffaere-Zwei-Untersuchungsausschuesse-in-Kiel,barschelausschuesse101.html)
+
+Fundstelle: Abschnitte zu Kenntnis, Geldzahlungen und Ausschussbefunden
 
 </article>
 

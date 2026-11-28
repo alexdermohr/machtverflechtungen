@@ -1268,7 +1268,7 @@ studies:
     - REL-DE-BND-DYNAMIT-016
 
   barschel-affaere-akten-koko-finanzspur-1987-2025.md:
-    sha256: 0412c8f32c6177450125985943834102e3b5857d743808c9ce10525fd341d5b0
+    sha256: c43991d72086a60efb6a08c9182deced9a553523264298171ad0e4c29067b39c
     status: network
     relation_ids:
       - REL-DE-BARSCHEL-001
