@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**668 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**674 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -263,7 +263,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [37](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [38](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesbeauftragter für den Datenschutz (BfD) | government_body | `ORG-DE-BFD` | DE | [24](network.md#rel-de-bfd-bfv-aktenaufsicht-2003-001) |
@@ -277,7 +277,7 @@
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
 | Bundesministerium der Verteidigung (NSU, 2012) | government_ministry | `ORG-DE-BMVG-2012` | DE | [1](network.md#rel-de-nsu-bmvg-mad-kenntnis-2012-001) |
 | Bundesministerium des Innern (1952) | government_ministry | `ORG-DE-BMI` | DE | [1](network.md#rel-de-bdj-003) |
-| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [10](network.md#rel-de-amri-020) |
+| Bundesministerium des Innern (BMI) | government_ministry | `ORG-DE-BMI-AMRI-2017` | DE | [11](network.md#rel-de-amri-020) |
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
@@ -343,6 +343,7 @@
 | Deutsche Schutzvereinigung für Wertpapierbesitz e.V. | organization | `ORG-DE-DSW` | DE | [1](network.md#rel-ulf-tk-dsw-audit-agreement) |
 | Deutsche Soldaten-Zeitung (1952/53) | media_outlet | `ORG-DE-DSZ-1952` | DE | [2](network.md#rel-de-kmm-004) |
 | Deutsche Welle | public_broadcaster | `ORG-DE-DW` | DE | [1](network.md#rel-de-bnd-media-009) |
+| Deutscher Bundestag | government_body | `ORG-DE-BUNDESTAG` | DE | [2](network.md#rel-de-linke-bundestag-nsu-evaluation-2026-001) |
 | Deutscher Heimatschutz (Erlangen, 1951–1953) | paramilitary_network | `ORG-DE-DHS` | DE | [3](network.md#rel-de-bdj-006) |
 | Deutscher Rat für Public Relations | organization | `ORG-DE-DRPR` | DE | [2](network.md#rel-ulf-tk-drpr) |
 | Die Welt | media_outlet | `ORG-DE-DIE-WELT` | DE | [1](network.md#rel-de-bnd-media-018) |
@@ -390,6 +391,7 @@
 | Foch services (historischer Rechtsträger laut Urteil) | company | `ORG-INT-FOCH-SERVICES-HISTORICAL` |  | [2](network.md#rel-riggs-post-2004-042) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
 | Fortis Bank (in PSI-Tabelle 2008) | commercial_bank | `ORG-INT-FORTIS-BANK-2008` | FR | [2](network.md#rel-riggs-post-2004-023) |
+| Fraktion Die Linke im Deutschen Bundestag (21. Wahlperiode) | parliamentary_group | `ORG-DE-BT-LINKE-FRAKTION-21` | DE | [1](network.md#rel-de-linke-bundestag-nsu-evaluation-2026-001) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [3](network.md#rel-de-tmn-018) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | Fulbright & Jaworski (2004) | law_firm | `ORG-US-FULBRIGHT-JAWORSKI-2004` | US | [2](network.md#rel-riggs-followup-036) |
@@ -398,8 +400,9 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [14](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [15](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
+| Generalstaatsanwaltschaft Dresden | government_body | `ORG-DE-SN-GENSTA-DRESDEN` | DE | [2](network.md#rel-de-sn-smj-gensta-verlaufsstatistik-2025-001) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
@@ -428,6 +431,8 @@
 | In Sachsen-Anhalt für den NSU-Untersuchungsausschuss aufbewahrte Datenträger | document | `DOC-DE-NSU-ST-DATENTRAEGER-2014` | DE | [2](network.md#rel-de-nsu-st-lka-datentraeger-2014-001) |
 | Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
 | Initiative Neue Soziale Marktwirtschaft (INSM) | organization | `ORG-DE-INSM` | DE | [4](network.md#rel-de-marienhof-001) |
+| Innenausschuss des Deutschen Bundestages (21. Wahlperiode) | government_body | `ORG-DE-BT-INNENAUSSCHUSS-21` | DE | [1](network.md#rel-de-bt-innenausschuss-nsu-antrag-2026-001) |
+| Institut für Demokratie und Zivilgesellschaft (IDZ), Jena | research_institute | `ORG-DE-IDZ-JENA` | DE | [2](network.md#rel-de-sn-smj-idz-nsu-studienauftrag-2025-001) |
 | Institute for Defense Analyses | research_institute | `ORG-US-IDA` | US | [1](network.md#rel-ulf-woolsey-ida) |
 | Insured Aircraft Title Service(s) (2006) | escrow_service | `ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006` |  | [2](network.md#rel-riggs-post-2004-021) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
@@ -471,7 +476,7 @@
 | Medical Care Development International / MCD Global Health | nonprofit_organization | `ORG-US-MCDI-GLOBAL-HEALTH` | US, GQ | [2](network.md#rel-riggs-post-2004-050) |
 | Metromed (historisch, 1996) | company | `ORG-CO-METROMED-1996` | CO | [1](network.md#rel-mauss-pmt-002) |
 | Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
-| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [5](network.md#rel-de-nsu-mad-bfv-1999-001) |
+| Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [7](network.md#rel-de-nsu-mad-bfv-1999-001) |
 | Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [2](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
@@ -587,6 +592,7 @@
 | Superior Tribunal de Justiça (STJ) | court | `ORG-BR-STJ` | BR | [1](network.md#rel-ws-stj-contract) |
 | Sven Sch. (anonymisierter Adressat einer Warnung, 2001) | historical_contact_anonymized | `PER-DE-SVEN-SCH-2001` | DE | [1](network.md#rel-de-bb-nabe-2001-002) |
 | Sweetwater Malibu LLC | company | `ORG-US-SWEETWATER-MALIBU-LLC` | US | [1](network.md#rel-riggs-post-2004-047) |
+| Sächsisches Staatsministerium der Justiz | government_body | `ORG-DE-SN-JUSTIZMINISTERIUM` | DE | [3](network.md#rel-de-sn-smj-idz-nsu-studienauftrag-2025-001) |
 | Süddeutsche Zeitung | media_outlet | `ORG-DE-SUEDDEUTSCHE-ZEITUNG` | DE | [2](network.md#rel-de-tmn-016) |
 | Südwestrundfunk | public_broadcaster | `ORG-DE-SWR` | DE | [3](network.md#rel-de-marienhof-013) |
 | Tactical Intelligence Targeting Access Node (TITAN) | military_technology_program | `PRG-US-ARMY-TITAN` | US | [2](network.md#rel-us-palantir-titan-integration-2026) |

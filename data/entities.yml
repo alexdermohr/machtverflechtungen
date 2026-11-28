@@ -3771,3 +3771,39 @@ entities:
     name: Antiterrordatei (ATD)
     countries: [DE]
     notes: "Gemeinsame Verbunddatei auf Grundlage des ATDG 2006. Getrennt von RED und gemeinsamen Projektdateien."
+
+  - id: ORG-DE-IDZ-JENA
+    type: research_institute
+    name: "Institut für Demokratie und Zivilgesellschaft (IDZ), Jena"
+    countries: [DE]
+    notes: "Forschungsinstitut in Trägerschaft der Amadeu Antonio Stiftung; Studienauftrag belegt, kein Schluss auf politische Weisung oder Finanzierung bestimmter Befunde."
+
+  - id: ORG-DE-SN-JUSTIZMINISTERIUM
+    type: government_body
+    name: "Sächsisches Staatsministerium der Justiz"
+    countries: [DE]
+    notes: "Zur Beauftragung 2023 Sächsisches Staatsministerium der Justiz und für Demokratie, Europa und Gleichstellung (SMJusDEG)."
+
+  - id: ORG-DE-SN-GENSTA-DRESDEN
+    type: government_body
+    name: "Generalstaatsanwaltschaft Dresden"
+    countries: [DE]
+    notes: "Zentralstelle Extremismus Sachsen (ZESA) als Organisationseinheit seit 01.12.2017."
+
+  - id: ORG-DE-BUNDESTAG
+    type: government_body
+    name: "Deutscher Bundestag"
+    countries: [DE]
+    notes: "Parlament; nicht mit einzelnen Untersuchungsausschüssen gleichzusetzen."
+
+  - id: ORG-DE-BT-LINKE-FRAKTION-21
+    type: parliamentary_group
+    name: "Fraktion Die Linke im Deutschen Bundestag (21. Wahlperiode)"
+    countries: [DE]
+    notes: "Antrag 21/8935 vom 04.11.2026; nicht mit Bundestagsmehrheit gleichzusetzen."
+
+  - id: ORG-DE-BT-INNENAUSSCHUSS-21
+    type: government_body
+    name: "Innenausschuss des Deutschen Bundestages (21. Wahlperiode)"
+    countries: [DE]
+    notes: "Federführender Ausschuss für Antrag 21/8935 ab Überweisung 05.11.2026."

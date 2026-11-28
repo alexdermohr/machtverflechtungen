@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**936 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**944 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1617,6 +1617,20 @@ flowchart LR
     N_ORG_DE_BVERWG -->|"BVerwG 6 A 2.24 vom 04.03.2026: Leistungs- und Feststellungsantrag unzulässig mangels wehrfähiger Rechtsposition; keine materielle Entscheidung zur Einsichtsverweigerung"| N_ORG_DE_BFD
     N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: erneut Dokumentationsdefizite 2025; BMI/BfV halten Nachweis der Durchführung einer Ermessensentscheidung für ausreichend, nicht der Erwägungen; Aufsicht widerspricht"| N_ORG_DE_BFV
     N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: geprüfte Auslandsübermittlungen des MAD rechtmäßig, Hinweise zur Dokumentation; BfV-Prüfung bei Redaktionsschluss nicht abgeschlossen"| N_ORG_DE_MAD
+    N_ORG_DE_BMI_AMRI_2017 -->|"Regierungsantwort 27.09.2019: MAD-interne Regeln zur Übermittlung, Aktenhaltung und Quellenführung; praktischer Vollzug und unabhängige Wirkung nicht nachgewiesen"| N_ORG_DE_MAD
+    N_ORG_DE_MAD -->|"Regierungsantwort 27.09.2019: MAD seit 2016 an BfV-VP-Datei beteiligt; Umwandlung zur Verbunddatei Juni 2017 abgeschlossen laut Bundesregierung; nicht RED oder ATD"| N_ORG_DE_BFV
+    N_ORG_DE_SN_JUSTIZMINISTERIUM["Sächsisches Staatsministerium der Justiz"]
+    N_ORG_DE_IDZ_JENA["Institut für Demokratie und Zivilgesellschaft (IDZ), Jena"]
+    N_ORG_DE_SN_JUSTIZMINISTERIUM -->|"IDZ veröffentlicht 11.09.2025 die 2023 vom sächsischen Justizministerium beauftragte und laut Eigenangabe November 2024 übergebene Reformbilanz; kein Motiv für Veröffentlichungszeitpunkt belegt"| N_ORG_DE_IDZ_JENA
+    N_ORG_DE_IDZ_JENA -->|"Externe Studie veröffentlicht 11.09.2025: mangelnde Transparenz, fehlende staatsanwaltschaftliche Pflichtüberprüfung der polizeilichen Einordnung und begrenzte Wirkungsprüfung in Sachsen; Stand der Erhebung 2024, keine Vollerhebung"| N_ORG_DE_SN_JUSTIZMINISTERIUM
+    N_ORG_DE_SN_GENSTA_DRESDEN["Generalstaatsanwaltschaft Dresden"]
+    N_ORG_DE_SN_JUSTIZMINISTERIUM -->|"Sächsische Justiz am 08.04.2025: polizeiliche und justizielle Datenerfassung ermöglicht noch keine fallbezogene Verlaufsstatistik; Trichtermodell nur näherungsweise, kein Beleg manipulierter Einzelfälle"| N_ORG_DE_SN_GENSTA_DRESDEN
+    N_ORG_DE_GBA -->|"Amtliche Mitteilung 18.06.2025: ZESA übernahm zwischen September 2024 und März 2025 vom GBA abgegebene Ermittlungsverfahren; konkrete Zusammenarbeit, keine Schuld- oder allgemeine Wirksamkeitsfeststellung"| N_ORG_DE_SN_GENSTA_DRESDEN
+    N_ORG_DE_BT_LINKE_FRAKTION_21["Fraktion Die Linke im Deutschen Bundestag (21. Wahlperiode)"]
+    N_ORG_DE_BUNDESTAG["Deutscher Bundestag"]
+    N_ORG_DE_BT_LINKE_FRAKTION_21 -->|"Antrag 21/8935 vom 04.11.2026 fordert unabhängige wissenschaftliche Evaluation der bundesweiten NSU-Reformen und besseren Archivzugang; kein erteilter Auftrag"| N_ORG_DE_BUNDESTAG
+    N_ORG_DE_BT_INNENAUSSCHUSS_21["Innenausschuss des Deutschen Bundestages (21. Wahlperiode)"]
+    N_ORG_DE_BUNDESTAG -->|"Bundestag überweist Antrag 21/8935 am 05.11.2026 an federführenden Innenausschuss und vier mitberatende Ausschüsse; keine Annahme der Forderungen"| N_ORG_DE_BT_INNENAUSSCHUSS_21
 ```
 
 [Zur Relationstabelle](network.md)

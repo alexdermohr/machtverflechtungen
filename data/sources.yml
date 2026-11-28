@@ -7248,3 +7248,99 @@ sources:
   accessed: '2026-11-28'
   locator: "ECLI:DE:BVerwG:2026:040326U6A2.24.0; Tenor; Rn. 3–5, 13–38, insbesondere 25–36"
   notes: "Amtlicher Entscheidungstext. Unzulässigkeit mangels wehrfähiger Rechtsposition; keine Sachentscheidung über Zuständigkeitskonflikt oder Rechtmäßigkeit der konkreten Einsichtsverweigerung."
+
+- id: SRC-DE-BT-NSU-1913659-20190927
+  title: "Umsetzung der Handlungsempfehlungen der NSU-Untersuchungsausschüsse, BT-Drs. 19/13659"
+  institution: "Bundesregierung"
+  date: '2019-09-27'
+  type: parliamentary_response
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/19/136/1913659.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 1–2, 12–13, 15–16 (Empfehlungen 1–2, 32–37, 46–47)"
+  notes: "Regierungs-Selbstbericht; S. 2 im Faksimile geprüft, weitere Seitenbilder Cache-Miss; tatsächliche Wirkungen nicht unabhängig belegt."
+
+- id: SRC-DE-IDZ-NSU-PUA-STUDIE-20250911
+  title: "Zwischenbilanz der Umsetzung der Empfehlungen der Untersuchungsausschüsse des Bundes und der Länder zum NSU-Komplex"
+  institution: "Janina Wollmann, Ernst von Münchhausen, Axel Salheiser; IDZ"
+  date: '2025-09-11'
+  type: research_report
+  primary: true
+  tier: B
+  url: "https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/IDZ_NSU-PUA-Studie_Web.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 18–28 (Methodik), 99–100, 205–212, 219–228; Anhang F"
+  notes: "Bericht datiert 01.09.2025, öffentliche Vorstellung 11.09.2025; externe Auftragsforschung, Primärquelle für eigene Untersuchung, nicht für alle referierten Einzelakten. Fokus Sachsen, Thüringen, Hessen. Faksimileabruf Cache-Miss."
+
+- id: SRC-DE-IDZ-NSU-PUA-PM-20250911
+  title: "Veröffentlichung der Studie zur Umsetzung der NSU-PUA-Empfehlungen"
+  institution: "IDZ"
+  date: '2025-09-11'
+  type: press_release
+  primary: true
+  tier: B
+  url: "https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/Werbematerialien/Pressemitteilung_V%C3%96_NSU-PUA-Studie_IDZ_11September2025.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 1–2; Abschluss und Übergabe November 2024"
+  notes: "Eigenangabe zu Auftrag, Übergabe und Veröffentlichung; Seitenbildabruf Cache-Miss. Kein Beleg für Grund der Zeitspanne bis Veröffentlichung."
+
+- id: SRC-DE-SN-PSB2-20250408
+  title: "Zweiter Periodischer Sicherheitsbericht, Berichtszeitraum 2019–2023: Veröffentlichung"
+  institution: "Sächsisches Staatsministerium der Justiz"
+  date: '2025-04-08'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://www.justiz.sachsen.de/smj/zweiter-periodischer-sicherheitsbericht-9231.html"
+  accessed: '2026-11-28'
+  locator: "Abschnitt Veröffentlichung des Zweiten Periodischen Sicherheitsberichts"
+  notes: "Amtliche Auskunft zur fehlenden fallbezogenen Verlaufsstatistik, getrennt von bereits vorhandenen Einzelstatistiken."
+
+- id: SRC-DE-SN-PSB2-LANG-20250408
+  title: "Zweiter Periodischer Sicherheitsbericht für den Freistaat Sachsen 2019–2023"
+  institution: "Sächsisches Staatsministerium des Innern und der Justiz"
+  date: '2025-04-08'
+  type: government_report
+  primary: true
+  tier: A
+  url: "https://www.justiz.sachsen.de/smj/download/Zweiter_PSB_LANG.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 29–30 (Trichtermodell), 167–168 (Hasskriminalität, Beispiel staatsanwaltschaftlicher Statistik)"
+  notes: "Amtlicher Volltext; Faksimile S. 29 Cache-Miss; aggregierte Querschnittsdaten sind keine individuelle Fallkohorte."
+
+- id: SRC-DE-SN-ZESA-20250618
+  title: "Gemeinsame Medieninformation zu Ermittlungsverfahren der ZESA"
+  institution: "Generalstaatsanwaltschaft Dresden und LKA Sachsen"
+  date: '2025-06-18'
+  type: press_release
+  primary: true
+  tier: A
+  url: "https://www.medienservice.sachsen.de/medien/news/1088262"
+  accessed: '2026-11-28'
+  locator: "Korrigierte Fassung, Abschnitt zur Abgabe durch Bundesanwaltschaft"
+  notes: "Amtliche Mitteilung zur tatsächlichen Übernahme von Ermittlungsverfahren September 2024 bis März 2025; keine Feststellung von Schuld, allgemeiner Wirksamkeit oder abgeschlossener Verfahren."
+
+- id: SRC-DE-BT-NSU-218935-20261104
+  title: "15 Jahre nach der Selbstenttarnung des NSU – Den Terror von gestern aufklären – Den Terror von morgen verhindern, BT-Drs. 21/8935"
+  institution: "Fraktion Die Linke im Deutschen Bundestag"
+  date: '2026-11-04'
+  type: parliamentary_motion
+  primary: true
+  tier: A
+  url: "https://dserver.bundestag.de/btd/21/089/2108935.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 3, Forderungen 10–12, 15"
+  notes: "Antrag, keine Mehrheitsentscheidung oder bewilligte Evaluation; Textfassung, Faksimile Cache-Miss."
+
+- id: SRC-DE-BT-NSU-UEBERWEISUNG-20261105
+  title: "Amtliches Protokoll der 105. Sitzung des Deutschen Bundestages"
+  institution: "Deutscher Bundestag"
+  date: '2026-11-05'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: "https://www.bundestag.de/resource/blob/1230944/amtpr21105.pdf"
+  accessed: '2026-11-28'
+  locator: "S. 14 von 16, TOP 22"
+  notes: "Überweisung an Innenausschuss (federführend) und vier mitberatende Ausschüsse; keine Annahme des Antrags. Faksimile Cache-Miss."

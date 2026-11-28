@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**636 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**644 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-bt-red-eval-188060-20160407) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-idz-nsu-pua-pm-20250911) · [J](#src-de-bt-red-eval-188060-20160407) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1700,6 +1700,21 @@ Fundstelle: Gedruckte S. 48–49, Fragen 50–52
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-bt-nsu-1913659-20190927"></a>
+### Bundesregierung
+
+**[Umsetzung der Handlungsempfehlungen der NSU-Untersuchungsausschüsse, BT-Drs. 19/13659](https://dserver.bundestag.de/btd/19/136/1913659.pdf)**
+
+Bundesregierung · 2019-09-27 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-1913659-20190927`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/136/1913659.pdf)
+
+Fundstelle: S. 1–2, 12–13, 15–16 (Empfehlungen 1–2, 32–37, 46–47)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-bt-atd-1926367-20210202"></a>
@@ -2969,6 +2984,21 @@ Fundstelle: Protokoll 21/55, TOP 5 b, S. 22–23
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
+<a id="src-de-bt-nsu-ueberweisung-20261105"></a>
+### Deutscher Bundestag
+
+**[Amtliches Protokoll der 105. Sitzung des Deutschen Bundestages](https://www.bundestag.de/resource/blob/1230944/amtpr21105.pdf)**
+
+Deutscher Bundestag · 2026-11-05 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-UEBERWEISUNG-20261105`
+
+[PDF öffnen](https://www.bundestag.de/resource/blob/1230944/amtpr21105.pdf)
+
+Fundstelle: S. 14 von 16, TOP 22
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
 <a id="src-de-bt-ndreform-beschluss-20261113"></a>
 ### Deutscher Bundestag
 
@@ -3852,6 +3882,21 @@ Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständi
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-nsu-218935-20261104"></a>
+### Fraktion Die Linke im Deutschen Bundestag
+
+**[15 Jahre nach der Selbstenttarnung des NSU – Den Terror von gestern aufklären – Den Terror von morgen verhindern, BT-Drs. 21/8935](https://dserver.bundestag.de/btd/21/089/2108935.pdf)**
+
+Fraktion Die Linke im Deutschen Bundestag · 2026-11-04 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-218935-20261104`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/089/2108935.pdf)
+
+Fundstelle: S. 3, Forderungen 10–12, 15
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-fr-in-groupe-idemia-2025"></a>
@@ -3954,6 +3999,21 @@ Generalbundesanwalt beim Bundesgerichtshof / OLG Stuttgart / Edition Stammheim-P
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-2-17.2.1977-S.-13428-13429-Schreiben-des-Generalbundesanwalts-Buback-vom-15.2.1977-nebst-Anlage.pdf)
 
 Fundstelle: 179. Verhandlungstag, 17.02.1977, Anlage 2, Protokollseiten 13428 (Buback-Schreiben), 13429 (auszugsweise beglaubigte Verfügung vom 26.03.1976, Dr. W. Krüger)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-sn-zesa-20250618"></a>
+### Generalstaatsanwaltschaft Dresden und LKA Sachsen
+
+**[Gemeinsame Medieninformation zu Ermittlungsverfahren der ZESA](https://www.medienservice.sachsen.de/medien/news/1088262)**
+
+Generalstaatsanwaltschaft Dresden und LKA Sachsen · 2025-06-18 · Stufe **A** · Primärquelle · `SRC-DE-SN-ZESA-20250618`
+
+[Seite öffnen](https://www.medienservice.sachsen.de/medien/news/1088262)
+
+Fundstelle: Korrigierte Fassung, Abschnitt zur Abgabe durch Bundesanwaltschaft
 
 </article>
 
@@ -4332,6 +4392,21 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-idz-nsu-pua-pm-20250911"></a>
+### IDZ
+
+**[Veröffentlichung der Studie zur Umsetzung der NSU-PUA-Empfehlungen](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/Werbematerialien/Pressemitteilung_V%C3%96_NSU-PUA-Studie_IDZ_11September2025.pdf)**
+
+IDZ · 2025-09-11 · Stufe **B** · Primärquelle · `SRC-DE-IDZ-NSU-PUA-PM-20250911`
+
+[PDF öffnen](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/Werbematerialien/Pressemitteilung_V%C3%96_NSU-PUA-Studie_IDZ_11September2025.pdf)
+
+Fundstelle: S. 1–2; Abschluss und Übergabe November 2024
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-mv-kommission-2021"></a>
@@ -4434,6 +4509,21 @@ Jan Ziekow et al. im Auftrag des BMI; Unterrichtung durch Bundesregierung · 201
 [PDF öffnen](https://dserver.bundestag.de/btd/18/080/1808060.pdf)
 
 Fundstelle: S. 3 (Autoren und Auftrag); S. 124–125, Nr. 7.1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-idz-nsu-pua-studie-20250911"></a>
+### Janina Wollmann, Ernst von Münchhausen, Axel Salheiser; IDZ
+
+**[Zwischenbilanz der Umsetzung der Empfehlungen der Untersuchungsausschüsse des Bundes und der Länder zum NSU-Komplex](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/IDZ_NSU-PUA-Studie_Web.pdf)**
+
+Janina Wollmann, Ernst von Münchhausen, Axel Salheiser; IDZ · 2025-09-11 · Stufe **B** · Primärquelle · `SRC-DE-IDZ-NSU-PUA-STUDIE-20250911`
+
+[PDF öffnen](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/IDZ_NSU-PUA-Studie_Web.pdf)
+
+Fundstelle: S. 18–28 (Methodik), 99–100, 205–212, 219–228; Anhang F
 
 </article>
 
@@ -5675,6 +5765,36 @@ Superior Tribunal de Justiça · 2008-04-03 · Stufe **A** · Primärquelle · `
 [Seite öffnen](https://www.stj.jus.br/publicacaoinstitucional/index.php/coletanea/article/download/2585/2330)
 
 Fundstelle: Amtliche Urteilswiedergabe in Coletânea 78, S. 139–154 (DJe 21.11.2008); insbesondere S. 140–141 Berichtigung TRF-Tenor, 148–150 Vertragsänderungen, 154 Verfahrensbeendigung ohne Sachentscheidung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-sn-psb2-20250408"></a>
+### Sächsisches Staatsministerium der Justiz
+
+**[Zweiter Periodischer Sicherheitsbericht, Berichtszeitraum 2019–2023: Veröffentlichung](https://www.justiz.sachsen.de/smj/zweiter-periodischer-sicherheitsbericht-9231.html)**
+
+Sächsisches Staatsministerium der Justiz · 2025-04-08 · Stufe **A** · Primärquelle · `SRC-DE-SN-PSB2-20250408`
+
+[Seite öffnen](https://www.justiz.sachsen.de/smj/zweiter-periodischer-sicherheitsbericht-9231.html)
+
+Fundstelle: Abschnitt Veröffentlichung des Zweiten Periodischen Sicherheitsberichts
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-sn-psb2-lang-20250408"></a>
+### Sächsisches Staatsministerium des Innern und der Justiz
+
+**[Zweiter Periodischer Sicherheitsbericht für den Freistaat Sachsen 2019–2023](https://www.justiz.sachsen.de/smj/download/Zweiter_PSB_LANG.pdf)**
+
+Sächsisches Staatsministerium des Innern und der Justiz · 2025-04-08 · Stufe **A** · Primärquelle · `SRC-DE-SN-PSB2-LANG-20250408`
+
+[PDF öffnen](https://www.justiz.sachsen.de/smj/download/Zweiter_PSB_LANG.pdf)
+
+Fundstelle: S. 29–30 (Trichtermodell), 167–168 (Hasskriminalität, Beispiel staatsanwaltschaftlicher Statistik)
 
 </article>
 

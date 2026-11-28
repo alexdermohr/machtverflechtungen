@@ -8684,3 +8684,75 @@ relations:
     period: {start: "2026-05-06"}
     evidence_level: established
     sources: [SRC-DE-BFDI-TB34-20260506]
+
+  - id: REL-DE-BMI-MAD-NSU-REFORMBERICHT-2019-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-MAD
+    type: reported_implementation_of_reform_measures
+    label: "Regierungsantwort 27.09.2019: MAD-interne Regeln zur Übermittlung, Aktenhaltung und Quellenführung; praktischer Vollzug und unabhängige Wirkung nicht nachgewiesen"
+    period: {start: "2019-09-27"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1913659-20190927]
+
+  - id: REL-DE-MAD-BFV-VPVERBUND-2019-001
+    from: ORG-DE-MAD
+    to: ORG-DE-BFV
+    type: reported_shared_source_register_participation
+    label: "Regierungsantwort 27.09.2019: MAD seit 2016 an BfV-VP-Datei beteiligt; Umwandlung zur Verbunddatei Juni 2017 abgeschlossen laut Bundesregierung; nicht RED oder ATD"
+    period: {start: "2019-09-27"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1913659-20190927]
+
+  - id: REL-DE-SN-SMJ-IDZ-NSU-STUDIENAUFTRAG-2025-001
+    from: ORG-DE-SN-JUSTIZMINISTERIUM
+    to: ORG-DE-IDZ-JENA
+    type: commissioned_external_reform_study
+    label: "IDZ veröffentlicht 11.09.2025 die 2023 vom sächsischen Justizministerium beauftragte und laut Eigenangabe November 2024 übergebene Reformbilanz; kein Motiv für Veröffentlichungszeitpunkt belegt"
+    period: {start: "2025-09-11"}
+    evidence_level: strong
+    sources: [SRC-DE-IDZ-NSU-PUA-STUDIE-20250911, SRC-DE-IDZ-NSU-PUA-PM-20250911]
+
+  - id: REL-DE-IDZ-SN-SMJ-NSU-REFORMDEFIZITE-2025-001
+    from: ORG-DE-IDZ-JENA
+    to: ORG-DE-SN-JUSTIZMINISTERIUM
+    type: reported_reform_implementation_gaps
+    label: "Externe Studie veröffentlicht 11.09.2025: mangelnde Transparenz, fehlende staatsanwaltschaftliche Pflichtüberprüfung der polizeilichen Einordnung und begrenzte Wirkungsprüfung in Sachsen; Stand der Erhebung 2024, keine Vollerhebung"
+    period: {start: "2025-09-11"}
+    evidence_level: strong
+    sources: [SRC-DE-IDZ-NSU-PUA-STUDIE-20250911]
+
+  - id: REL-DE-SN-SMJ-GENSTA-VERLAUFSSTATISTIK-2025-001
+    from: ORG-DE-SN-JUSTIZMINISTERIUM
+    to: ORG-DE-SN-GENSTA-DRESDEN
+    type: reported_missing_cross_agency_outcome_statistics
+    label: "Sächsische Justiz am 08.04.2025: polizeiliche und justizielle Datenerfassung ermöglicht noch keine fallbezogene Verlaufsstatistik; Trichtermodell nur näherungsweise, kein Beleg manipulierter Einzelfälle"
+    period: {start: "2025-04-08"}
+    evidence_level: established
+    sources: [SRC-DE-SN-PSB2-20250408, SRC-DE-SN-PSB2-LANG-20250408]
+
+  - id: REL-DE-GBA-GENSTA-DRESDEN-ZESA-2025-001
+    from: ORG-DE-GBA
+    to: ORG-DE-SN-GENSTA-DRESDEN
+    type: documented_transfer_of_investigations
+    label: "Amtliche Mitteilung 18.06.2025: ZESA übernahm zwischen September 2024 und März 2025 vom GBA abgegebene Ermittlungsverfahren; konkrete Zusammenarbeit, keine Schuld- oder allgemeine Wirksamkeitsfeststellung"
+    period: {start: "2025-06-18"}
+    evidence_level: established
+    sources: [SRC-DE-SN-ZESA-20250618]
+
+  - id: REL-DE-LINKE-BUNDESTAG-NSU-EVALUATION-2026-001
+    from: ORG-DE-BT-LINKE-FRAKTION-21
+    to: ORG-DE-BUNDESTAG
+    type: proposed_independent_reform_evaluation
+    label: "Antrag 21/8935 vom 04.11.2026 fordert unabhängige wissenschaftliche Evaluation der bundesweiten NSU-Reformen und besseren Archivzugang; kein erteilter Auftrag"
+    period: {start: "2026-11-04"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-218935-20261104]
+
+  - id: REL-DE-BT-INNENAUSSCHUSS-NSU-ANTRAG-2026-001
+    from: ORG-DE-BUNDESTAG
+    to: ORG-DE-BT-INNENAUSSCHUSS-21
+    type: referred_motion_for_consideration
+    label: "Bundestag überweist Antrag 21/8935 am 05.11.2026 an federführenden Innenausschuss und vier mitberatende Ausschüsse; keine Annahme der Forderungen"
+    period: {start: "2026-11-05"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-UEBERWEISUNG-20261105, SRC-DE-BT-NSU-218935-20261104]
