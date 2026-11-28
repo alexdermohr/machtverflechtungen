@@ -3764,3 +3764,23 @@ entities:
     name: "Nach dem Hamburger Polizeimoratorium vernichtete Unterlagen"
     countries: [DE]
     notes: "Laut Senatsantwort nach Fristablauf vernichtete Unterlagen; frühere Übermittlungen, Einzelinhalte und Kopienbestand nicht durch diese Antwort geklärt."
+
+  - id: ORG-DE-HH-PKA
+    type: parliamentary_committee
+    name: "Parlamentarischer Kontrollausschuss der Hamburgischen Bürgerschaft"
+    countries: [DE]
+
+  - id: ORG-DE-HH-DSB
+    type: government_agency
+    name: "Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit"
+    countries: [DE]
+
+  - id: ORG-DE-HH-SENAT
+    type: government
+    name: "Senat der Freien und Hansestadt Hamburg"
+    countries: [DE]
+
+  - id: ORG-DE-HH-BUERGERSCHAFT
+    type: parliament
+    name: "Hamburgische Bürgerschaft"
+    countries: [DE]

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**907 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**912 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1579,7 +1579,7 @@ flowchart LR
     N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"| N_ORG_DE_NRW_JUSTIZMINISTERIUM
     N_ORG_DE_HH_BIS["Behörde für Inneres und Sport Hamburg"]
     N_ORG_DE_HH_LFV["Landesamt für Verfassungsschutz Hamburg"]
-    N_ORG_DE_HH_BIS -->|"2012 verfügtes Moratorium endete laut Senat Dezember 2017; Aufhebungsurheber im Dokument nicht benannt"| N_ORG_DE_HH_LFV
+    N_ORG_DE_HH_BIS -->|"Senat 2022: Verfügung des Staatsrats 2012, Ende Dezember 2017; Senat 2014: LfV-Leiter ordnete Moratorium an; Verhältnis der Anordnungen offen"| N_ORG_DE_HH_LFV
     N_DOC_DE_NSU_HH_LFV_AKTEN_2017["Nach dem Hamburger LfV-Löschmoratorium betroffene Unterlagen"]
     N_ORG_DE_HH_LFV -->|"Senat bestätigt Löschungen nach Moratorium auch nicht zuvor an genannte Ausschüsse oder GBA überlassener Unterlagen; Umfang und Kopien offen"| N_DOC_DE_NSU_HH_LFV_AKTEN_2017
     N_ORG_DE_HH_POLIZEI["Polizei Hamburg"]
@@ -1588,6 +1588,15 @@ flowchart LR
     N_ORG_DE_HH_POLIZEI -->|"Laut Senat nach Aufhebung am 07.12.2017 betroffene Unterlagen nach Fristablauf vernichtet; vorherige Übermittlung offen"| N_DOC_DE_NSU_HH_POL_AKTEN_2017
     N_ORG_DE_HH_STA["Hamburger Staatsanwaltschaften"]
     N_ORG_DE_HH_STA -->|"Laut Senat Verfahren an GBA abgegeben, Akten bis Antwort 09.12.2022 nicht zurückgegeben; Übernahmedatum hier nicht belegt"| N_ORG_DE_GBA
+    N_ORG_DE_HH_DSB["Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit"]
+    N_ORG_DE_HH_PKA["Parlamentarischer Kontrollausschuss der Hamburgischen Bürgerschaft"]
+    N_ORG_DE_HH_DSB -->|"Schriftliche Bewertung des NSU-Moratoriums vom 16.03.2016 am 22.03.2016 erläutert; Ergebnis und Wortlaut offen"| N_ORG_DE_HH_PKA
+    N_ORG_DE_HH_SENAT["Senat der Freien und Hansestadt Hamburg"]
+    N_ORG_DE_HH_SENAT -->|"Erläuterte am 14.12.2017 Verfahren zum NSU-Moratorium; Inhalt und Zustimmung nicht dokumentiert"| N_ORG_DE_HH_PKA
+    N_ORG_DE_HH_BUERGERSCHAFT["Hamburgische Bürgerschaft"]
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"Ersuchen 2023 zur dauerhaften Sicherung vorhandener Unterlagen und Archivierung; Vollzug nicht nachgewiesen"| N_ORG_DE_HH_SENAT
+    N_ORG_DE_HH_BUERGERSCHAFT -->|"2023 wissenschaftliche Aufarbeitung beschlossen; PUA-Antrag mit 14 Ja und 87 Nein abgelehnt; Forschungsauftrag 2024 vergeben"| N_PRG_DE_HH_NSU_FORSCHUNG
+    N_ORG_DE_HH_LFV -->|"Laut Bürgerschaft am 14.02.2025 rund 500 Akten digitalisiert und mindestens bis Abschluss gesichert; tatsächlicher vollständiger Zugang nicht belegt"| N_PRG_DE_HH_NSU_FORSCHUNG
 ```
 
 [Zur Relationstabelle](network.md)

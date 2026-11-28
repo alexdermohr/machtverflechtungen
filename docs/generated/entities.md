@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**668 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**672 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -409,8 +409,10 @@
 | Gruppe um Carlos Castillo Armas (1952) | historical_rebel_group | `ORG-GT-CASTILLO-ARMAS-GROUP` | GT | [1](network.md#rel-us-ufco-castillo-armas-support-1952) |
 | H.+S. Unternehmensberatung (München, 2002) | historical_company | `ORG-DE-HS-2002` | DE | [3](network.md#rel-de-marienhof-001) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
-| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
+| Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [3](network.md#rel-de-nsu-hh-gba-2026-001) |
 | Hamburger Staatsanwaltschaften | prosecution_authority | `ORG-DE-HH-STA` | DE | [1](network.md#rel-de-nsu-hh-sta-gba-akten-001) |
+| Hamburgische Bürgerschaft | parliament | `ORG-DE-HH-BUERGERSCHAFT` | DE | [2](network.md#rel-de-nsu-hh-buergerschaft-senat-sicherung-2023-001) |
+| Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit | government_agency | `ORG-DE-HH-DSB` | DE | [1](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
@@ -449,7 +451,7 @@
 | Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
-| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [2](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
+| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [3](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
@@ -520,6 +522,7 @@
 | Palantir USG Inc. | technology_company | `ORG-US-PALANTIR-USG` | US | [2](network.md#rel-us-army-palantir-ammo-2026) |
 | Pariser Club: Gläubigerverhandlungen mit Chile (1972–1975) | historical_multilateral_creditor_negotiation | `ORG-INT-PARIS-CLUB-CHILE-1972` | CL, DE, US, FR, GB | [4](network.md#rel-int-paris-club-chile-rescheduling-1972) |
 | Park Avenue (Gruner + Jahr) | media_outlet | `ORG-DE-PARK-AVENUE` | DE | [2](network.md#rel-ulf-park-role) |
+| Parlamentarischer Kontrollausschuss der Hamburgischen Bürgerschaft | parliamentary_committee | `ORG-DE-HH-PKA` | DE | [2](network.md#rel-de-nsu-hh-dsb-pka-2016-001) |
 | Parliamentary Commissioner for Standards (House of Commons) | government_agency | `ORG-GB-COMMONS-STANDARDS-COMMISSIONER` | GB | [1](network.md#rel-gb-bb-uk-011) |
 | Parnass-Film GmbH (München) | media_company | `ORG-DE-PARNASS-FILM-MUENCHEN` | DE | [5](network.md#rel-de-bnd-dynamit-001) |
 | Partido Demócrata Cristiano de Chile (PDC) | historical_political_party | `ORG-CL-CHRISTIAN-DEMOCRATS-1964` | CL | [1](network.md#rel-us-cia-pdc-campaign-1964) |
@@ -558,6 +561,7 @@
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
+| Senat der Freien und Hansestadt Hamburg | government | `ORG-DE-HH-SENAT` | DE | [2](network.md#rel-de-nsu-hh-senat-pka-2017-001) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
 | Sidley Austin (2006) | law_firm | `ORG-US-SIDLEY-AUSTIN-2006` | US | [1](network.md#rel-riggs-post-2004-008) |

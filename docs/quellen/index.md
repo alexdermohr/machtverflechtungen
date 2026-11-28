@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**612 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**618 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-akten-2210312) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-pka-2017-218471) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -3792,6 +3792,36 @@ Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2017">
+
+<a id="src-de-hh-pka-2017-218471"></a>
+### Hamburgische Bürgerschaft
+
+**[Bericht des Parlamentarischen Kontrollausschusses für 2016](https://www.buergerschaft-hh.de/parldok/dokument/57174/bericht_des_parlamentarischen_kontrollausschusses_gemaess_25_absatz_7_hamburgisches_verfassungsschutzgesetz_hmbverfschg_ueber_die_ausuebung_seiner_kon.pdf)**
+
+Hamburgische Bürgerschaft · 2017-03-27 · Stufe **A** · Primärquelle · `SRC-DE-HH-PKA-2017-218471`
+
+[PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/57174/bericht_des_parlamentarischen_kontrollausschusses_gemaess_25_absatz_7_hamburgisches_verfassungsschutzgesetz_hmbverfschg_ueber_die_ausuebung_seiner_kon.pdf)
+
+Fundstelle: Drs. 21/8471, S. 1, Abschnitt III
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-hh-pka-2018-2113531"></a>
+### Hamburgische Bürgerschaft
+
+**[Bericht des Parlamentarischen Kontrollausschusses für 2017](https://www.buergerschaft-hh.de/parldok/dokument/21/art/Drucksache/num/13531)**
+
+Hamburgische Bürgerschaft · 2018-06-21 · Stufe **A** · Primärquelle · `SRC-DE-HH-PKA-2018-2113531`
+
+[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/21/art/Drucksache/num/13531)
+
+Fundstelle: Drs. 21/13531, S. 6, Abschnitt VI
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
 
 <a id="src-de-hh-nsu-akten-2210312"></a>
@@ -3807,6 +3837,36 @@ Fundstelle: Drs. 22/10312, S. 2–4, Antworten 5–14 (insbesondere 5–7, 9–1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-hh-nsu-2023-2211561"></a>
+### Hamburgische Bürgerschaft
+
+**[Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie sowie dauerhafte Sicherung aller Unterlagen aus Hamburg](https://www.buergerschaft-hh.de/parldok/dokument/83435/aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie_sowie_dauerhafte_sicherung_aller_unterlagen_aus_hamburg)**
+
+Hamburgische Bürgerschaft · 2023-04-12 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-2023-2211561`
+
+[Seite öffnen](https://www.buergerschaft-hh.de/parldok/dokument/83435/aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie_sowie_dauerhafte_sicherung_aller_unterlagen_aus_hamburg)
+
+Fundstelle: Drs. 22/11561, S. 3–4, A und B
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-hh-plenum-2023-2265"></a>
+### Hamburgische Bürgerschaft
+
+**[Plenarprotokoll 22/65](https://www.buergerschaft-hh.de/parldok/dokument/84112/plenarprotokoll_22_65.pdf)**
+
+Hamburgische Bürgerschaft · 2023-04-13 · Stufe **A** · Primärquelle · `SRC-DE-HH-PLENUM-2023-2265`
+
+[PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/84112/plenarprotokoll_22_65.pdf)
+
+Fundstelle: S. 5080 und Anlage 2, S. 5095–5097 (namentliche Abstimmung Drs. 22/11437)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
 
 <a id="src-de-hh-cumex-pua-2024"></a>
@@ -3819,6 +3879,21 @@ Hamburgische Bürgerschaft · 2024-02-28 · Stufe **A** · Primärquelle · `SRC
 [PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/86632/zwischenbericht_des_parlamentarischen_untersuchungsausschusses_klaerung_der_frage_warum_der_hamburger_senat_und_die_hamburger_steuerverwaltung_bereit_.pdf)
 
 Fundstelle: Drucksache 22/14500, S. 769 f.: Bewertung; Mehrheitsbefund gesondert von anderen Positionen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-hh-nsu-start-20250214"></a>
+### Hamburgische Bürgerschaft
+
+**[NSU-Komplex: Beginn der wissenschaftlichen Aufarbeitung](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-nsu-komplex-aufarbeitung-1022084)**
+
+Hamburgische Bürgerschaft · 2025-02-14 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-START-20250214`
+
+[Seite öffnen](https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-nsu-komplex-aufarbeitung-1022084)
+
+Fundstelle: Absätze zur Bestandsaufnahme, Digitalisierung, Zusage der Bürgerschaftspräsidentin
 
 </article>
 
@@ -5182,6 +5257,21 @@ Senat Berlin / Bruno Jost · 2017 · Stufe **A** · Primärquelle · `SRC-DE-AMR
 [PDF öffnen](https://www.berlin.de/sen/inneres/_assets/sicherheit/zwischenbericht-sonderbeauftragter.pdf)
 
 Fundstelle: S. 5, Sachstand 23.06.2017
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-hh-nsu-2014-2011661"></a>
+### Senat der Freien und Hansestadt Hamburg
+
+**[NSU: Ermittlungen, Aufarbeitung, Konsequenzen in Hamburg](https://starweb.hessen.de/cache/bund/HH_20_11661.pdf)**
+
+Senat der Freien und Hansestadt Hamburg · 2014-04-29 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-2014-2011661`
+
+[PDF öffnen](https://starweb.hessen.de/cache/bund/HH_20_11661.pdf)
+
+Fundstelle: Drs. 20/11661, S. 12–13
 
 </article>
 

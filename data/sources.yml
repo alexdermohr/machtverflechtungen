@@ -6960,3 +6960,75 @@ sources:
   accessed: '2026-11-28'
   locator: "Drs. 22/10312, S. 2–4, Antworten 5–14 (insbesondere 5–7, 9–12, 14)"
   notes: "Amtlicher PDF-Volltext; Seitenbildabruf Cache-Miss. Senatsdarstellung, keine Einsicht in Originalverfügungen, Löschprotokolle oder vollständigen Aktenbestand."
+
+- id: SRC-DE-HH-NSU-2014-2011661
+  title: "NSU: Ermittlungen, Aufarbeitung, Konsequenzen in Hamburg"
+  institution: "Senat der Freien und Hansestadt Hamburg"
+  date: "2014-04-29"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://starweb.hessen.de/cache/bund/HH_20_11661.pdf
+  accessed: "2026-11-28"
+  locator: "Drs. 20/11661, S. 12–13"
+  notes: "Amtlicher Senatsbericht in parlamentarischem Archiv; S. 13 als Seitenbild geprüft, S. 12 Text. Urschrift der Verfügungen nicht eingesehen."
+
+- id: SRC-DE-HH-PKA-2017-218471
+  title: "Bericht des Parlamentarischen Kontrollausschusses für 2016"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2017-03-27"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/57174/bericht_des_parlamentarischen_kontrollausschusses_gemaess_25_absatz_7_hamburgisches_verfassungsschutzgesetz_hmbverfschg_ueber_die_ausuebung_seiner_kon.pdf
+  accessed: "2026-11-28"
+  locator: "Drs. 21/8471, S. 1, Abschnitt III"
+  notes: "Amtlicher Bericht; Inhalt der Stellungnahme vom 16.03.2016 nicht wiedergegeben; Seitenbild technisch nicht abrufbar."
+
+- id: SRC-DE-HH-PKA-2018-2113531
+  title: "Bericht des Parlamentarischen Kontrollausschusses für 2017"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2018-06-21"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/21/art/Drucksache/num/13531
+  accessed: "2026-11-28"
+  locator: "Drs. 21/13531, S. 6, Abschnitt VI"
+  notes: "Amtlicher Bericht; Inhalt des erläuterten Verfahrens nicht wiedergegeben; Seitenbild technisch nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-2023-2211561
+  title: "Aufarbeitung des NSU-Komplexes im Rahmen einer wissenschaftlichen Studie sowie dauerhafte Sicherung aller Unterlagen aus Hamburg"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-04-12"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/83435/aufarbeitung_des_nsu_komplexes_im_rahmen_einer_wissenschaftlichen_studie_sowie_dauerhafte_sicherung_aller_unterlagen_aus_hamburg
+  accessed: "2026-11-28"
+  locator: "Drs. 22/11561, S. 3–4, A und B"
+  notes: "Antrag SPD/Grüne vor Abstimmung; keine Bestätigung der tatsächlichen Archivübergabe; Text, Seitenbildabruf fehlgeschlagen."
+
+- id: SRC-DE-HH-PLENUM-2023-2265
+  title: "Plenarprotokoll 22/65"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-04-13"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/84112/plenarprotokoll_22_65.pdf
+  accessed: "2026-11-28"
+  locator: "S. 5080 und Anlage 2, S. 5095–5097 (namentliche Abstimmung Drs. 22/11437)"
+  notes: "Amtlicher Text; Seitenbildabruf fehlgeschlagen."
+
+- id: SRC-DE-HH-NSU-START-20250214
+  title: "NSU-Komplex: Beginn der wissenschaftlichen Aufarbeitung"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2025-02-14"
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.hamburgische-buergerschaft.de/service-/pressemitteilungen/pm-nsu-komplex-aufarbeitung-1022084
+  accessed: "2026-11-28"
+  locator: "Absätze zur Bestandsaufnahme, Digitalisierung, Zusage der Bürgerschaftspräsidentin"
+  notes: "Amtliche Pressemitteilung; Drs. 22/18070 referenziert, deren Volltextabruf fehlgeschlagen. Keine Bestätigung tatsächlich erteilter GBA-Freigaben."

@@ -32,10 +32,19 @@ class HamburgRecordsTest(unittest.TestCase):
         self.assertIn("nicht zuvor", rels["REL-DE-NSU-HH-LFV-AKTEN-2017-001"]["label"])
         self.assertIn("Übermittlung offen", rels["REL-DE-NSU-HH-POL-AKTEN-2017-001"]["label"])
 
+    def test_earlier_sources_and_limits(self):
+        rels = {r["id"]: r for r in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]}
+        original = rels["REL-DE-NSU-HH-BIS-LFV-MORATORIUM-2017-001"]
+        self.assertIn("SRC-DE-HH-NSU-2014-2011661", original["sources"])
+        self.assertIn("Verhältnis der Anordnungen offen", original["label"])
+        self.assertIn("Zustimmung nicht dokumentiert", rels["REL-DE-NSU-HH-SENAT-PKA-2017-001"]["label"])
+        self.assertNotIn("period", rels["REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001"])
+        self.assertIn("Zugang nicht belegt", rels["REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001"]["label"])
+
     def test_study_exact_integration(self):
         reg = yaml.safe_load((ROOT / "data/research-integrations.yml").read_text())
         entry = reg["studies"][STUDY]
-        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {"REL-DE-NSU-HH-GBA-2026-001"})
+        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {'REL-DE-NSU-HH-SENAT-PKA-2017-001', 'REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001', 'REL-DE-NSU-HH-GBA-2026-001', 'REL-DE-NSU-HH-DSB-PKA-2016-001'})
         self.assertEqual(entry["sha256"], hashlib.sha256((ROOT / "research" / STUDY).read_bytes()).hexdigest())
 
 if __name__ == "__main__":

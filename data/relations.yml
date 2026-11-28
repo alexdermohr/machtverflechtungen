@@ -8383,9 +8383,9 @@ relations:
     from: ORG-DE-HH-BIS
     to: ORG-DE-HH-LFV
     type: ordered_records_preservation
-    label: "2012 verfügtes Moratorium endete laut Senat Dezember 2017; Aufhebungsurheber im Dokument nicht benannt"
+    label: "Senat 2022: Verfügung des Staatsrats 2012, Ende Dezember 2017; Senat 2014: LfV-Leiter ordnete Moratorium an; Verhältnis der Anordnungen offen"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661]
   - id: REL-DE-NSU-HH-LFV-AKTEN-2017-001
     from: ORG-DE-HH-LFV
     to: DOC-DE-NSU-HH-LFV-AKTEN-2017
@@ -8401,7 +8401,7 @@ relations:
     period:
       start: "2017-12-07"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661]
   - id: REL-DE-NSU-HH-POL-AKTEN-2017-001
     from: ORG-DE-HH-POLIZEI
     to: DOC-DE-NSU-HH-POL-AKTEN-2017
@@ -8415,4 +8415,48 @@ relations:
     type: transferred_case_records
     label: "Laut Senat Verfahren an GBA abgegeben, Akten bis Antwort 09.12.2022 nicht zurückgegeben; Übernahmedatum hier nicht belegt"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661]
+
+  - id: REL-DE-NSU-HH-DSB-PKA-2016-001
+    from: ORG-DE-HH-DSB
+    to: ORG-DE-HH-PKA
+    type: submitted_legal_assessment
+    label: "Schriftliche Bewertung des NSU-Moratoriums vom 16.03.2016 am 22.03.2016 erläutert; Ergebnis und Wortlaut offen"
+    period: {start: "2016-03-22"}
+    evidence_level: established
+    sources: [SRC-DE-HH-PKA-2017-218471]
+
+  - id: REL-DE-NSU-HH-SENAT-PKA-2017-001
+    from: ORG-DE-HH-SENAT
+    to: ORG-DE-HH-PKA
+    type: reported_to_oversight_body
+    label: "Erläuterte am 14.12.2017 Verfahren zum NSU-Moratorium; Inhalt und Zustimmung nicht dokumentiert"
+    period: {start: "2017-12-14"}
+    evidence_level: established
+    sources: [SRC-DE-HH-PKA-2018-2113531]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: ORG-DE-HH-SENAT
+    type: requested_records_preservation
+    label: "Ersuchen 2023 zur dauerhaften Sicherung vorhandener Unterlagen und Archivierung; Vollzug nicht nachgewiesen"
+    period: {start: "2023-04-13"}
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-2023-2211561, SRC-DE-HH-NSU-START-20250214]
+
+  - id: REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001
+    from: ORG-DE-HH-BUERGERSCHAFT
+    to: PRG-DE-HH-NSU-FORSCHUNG
+    type: commissioned_research
+    label: "2023 wissenschaftliche Aufarbeitung beschlossen; PUA-Antrag mit 14 Ja und 87 Nein abgelehnt; Forschungsauftrag 2024 vergeben"
+    period: {start: "2023-04-13"}
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-2023-2211561, SRC-DE-HH-PLENUM-2023-2265, SRC-DE-HH-NSU-START-20250214]
+
+  - id: REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001
+    from: ORG-DE-HH-LFV
+    to: PRG-DE-HH-NSU-FORSCHUNG
+    type: prepared_records_for_research
+    label: "Laut Bürgerschaft am 14.02.2025 rund 500 Akten digitalisiert und mindestens bis Abschluss gesichert; tatsächlicher vollständiger Zugang nicht belegt"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-START-20250214]
