@@ -3784,3 +3784,13 @@ entities:
     type: parliament
     name: "Hamburgische Bürgerschaft"
     countries: [DE]
+
+  - id: ORG-DE-HH-STAATSARCHIV
+    type: government_agency
+    name: "Staatsarchiv Hamburg"
+    countries: [DE]
+
+  - id: DOC-DE-NSU-HH-LFV-AUSWAHL-2025
+    type: document
+    name: "Ausgewählter Hamburger LfV-Forschungsaktenbestand (Stand April 2025)"
+    countries: [DE]

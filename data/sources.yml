@@ -7032,3 +7032,99 @@ sources:
   accessed: "2026-11-28"
   locator: "Absätze zur Bestandsaufnahme, Digitalisierung, Zusage der Bürgerschaftspräsidentin"
   notes: "Amtliche Pressemitteilung; Drs. 22/18070 referenziert, deren Volltextabruf fehlgeschlagen. Keine Bestätigung tatsächlich erteilter GBA-Freigaben."
+
+- id: SRC-DE-HH-NSU-MORATORIUM-2210688
+  title: "Löschmoratorium für Akten- und Datenbestände mit Bezügen zum NSU-Komplex und Rechtsterror"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-01-18"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/82511/loeschmoratorium_fuer_akten_und_datenbestaende_mit_bezuegen_zum_nsu_komplex_und_rechtsterror.pdf
+  accessed: "2026-11-28"
+  locator: "S. 1–2, Petitum"
+  notes: "Antrag, kein Beschluss; Text geprüft; Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-INNEN-2211564
+  title: "Bericht des Innenausschusses über Drs. 22/10688"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-04-12"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/83442/bericht_des_innenausschusses_ueber_die_drucksache_22_10688_loeschmoratorium_fuer_akten_und_datenbestaende_mit_bezuegen_zum_nsu_komplex_und_rechtsterro.pdf
+  accessed: "2026-11-28"
+  locator: "S. 1–3, Beratungsinhalt, Empfehlung und Anlage"
+  notes: "Amtliche Ausschussdarstellung, kein Bestandsinventar; Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-PLENUM-2023-2266
+  title: "Plenarprotokoll 22/66"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-04-26"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/84302/plenarprotokoll_22_66.pdf
+  accessed: "2026-11-28"
+  locator: "S. 5173, TOP 22, Abstimmungen zu Drs. 22/11564"
+  notes: "Text des Plenarprotokolls; Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-AUSWAHL-230184
+  title: "Wissenschaftliche Aufarbeitung des NSU in Hamburg"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2025-04-22"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/90790/23_00184_wissenschaftliche_aufarbeitung_des_nsu_in_hamburg
+  accessed: "2026-11-28"
+  locator: "S. 1–5, Vorbemerkung und Fragen 1–15"
+  notes: "Amtliche Senatsantwort, insbesondere Auswahl, Quelleninformationen, Freigaben; Seitenbilder nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-NETZE-2211841
+  title: "NSU-Komplex und rechte Netzwerke in Hamburg – Verbindungen von Hamburg zum NSU"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-05-30"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/83752/nsu_komplex_und_rechte_netzwerke_in_hamburg_verbindungen_von_hamburg_zum_nsu.pdf
+  accessed: "2026-11-28"
+  locator: "S. 13–14, Fragen 27–29"
+  notes: "Senatsantwort; Bearbeitung der Quellenmeldung 2014 und Einsicht 2015, keine Gleichsetzung mit Auswahl 1992–2011; Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-FREIGABEN-2212170
+  title: "Prävention und Bekämpfung von Rechtsextremismus in Hamburg"
+  institution: "Hamburgische Bürgerschaft"
+  date: "2023-07-04"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/84086/praevention_und_bekaempfung_von_rechtsextremismus_in_hamburg.pdf
+  accessed: "2026-11-28"
+  locator: "S. 3–5, Frage 6, insbesondere Übergabe Anfang 2012 und Freigabeübersicht"
+  notes: "Amtliche Selbstbewertung, kein vollständiger Beiziehungsnachweis; Seitenbild nicht abrufbar."
+
+- id: SRC-DE-HH-NSU-FORSCHUNG-PROJEKT
+  title: "Forschungsprojekt zur wissenschaftlichen Aufarbeitung des NSU-Komplexes"
+  institution: "Hamburgische Bürgerschaft"
+  date: null
+  type: official_web
+  primary: true
+  tier: A
+  url: https://www.hamburgische-buergerschaft.de/unsere-arbeit/nsu-forschungsprojekt
+  accessed: "2026-11-28"
+  locator: "Studienansätze, Punkt 2"
+  notes: "Undatierte amtliche Projektseite, Zielsetzung zur V-Leute-Praxis; kein Vollzugsnachweis."
+
+- id: SRC-DE-HH-NSU-VERTRAG-KATALOG-2024
+  title: "Vertrag über die Erstellung eines Gutachtens zur wissenschaftlichen Aufarbeitung des NSU-Komplexes"
+  institution: "Bürgerschaftskanzlei / Transparenzportal Hamburg"
+  date: "2024-12-20"
+  type: official_web
+  primary: true
+  tier: A
+  url: https://suche.transparenz.hamburg.de/dataset/vertrag-ueber-die-erstellung-eines-gutachtens-zur-wissenschaftlichen-aufarbeitung-des-nsu-kompl
+  accessed: "2026-11-28"
+  locator: "Veröffentlichungsdatum, Beschreibung und fünf Ressourcen"
+  notes: "Katalogmetadaten der Bürgerschaftskanzlei; Abruf Vertrag, Zuschlag und Angebot technisch fehlgeschlagen; keine Kenntnis der Vertragsklauseln."

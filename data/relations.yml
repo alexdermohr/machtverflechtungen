@@ -8413,9 +8413,9 @@ relations:
     from: ORG-DE-HH-STA
     to: ORG-DE-GBA
     type: transferred_case_records
-    label: "Laut Senat Verfahren an GBA abgegeben, Akten bis Antwort 09.12.2022 nicht zurückgegeben; Übernahmedatum hier nicht belegt"
+    label: "Senat 2023: Ermittlungsakten Anfang 2012 an GBA geleitet; laut Antwort 09.12.2022 nicht zurückgegeben; genauer Übergabetag offen"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661]
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661, SRC-DE-HH-NSU-FREIGABEN-2212170]
 
   - id: REL-DE-NSU-HH-DSB-PKA-2016-001
     from: ORG-DE-HH-DSB
@@ -8442,7 +8442,7 @@ relations:
     label: "Ersuchen 2023 zur dauerhaften Sicherung vorhandener Unterlagen und Archivierung; Vollzug nicht nachgewiesen"
     period: {start: "2023-04-13"}
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-2023-2211561, SRC-DE-HH-NSU-START-20250214]
+    sources: [SRC-DE-HH-NSU-2023-2211561, SRC-DE-HH-NSU-START-20250214, SRC-DE-HH-NSU-MORATORIUM-2210688, SRC-DE-HH-NSU-INNEN-2211564, SRC-DE-HH-PLENUM-2023-2266]
 
   - id: REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001
     from: ORG-DE-HH-BUERGERSCHAFT
@@ -8459,4 +8459,28 @@ relations:
     type: prepared_records_for_research
     label: "Laut Bürgerschaft am 14.02.2025 rund 500 Akten digitalisiert und mindestens bis Abschluss gesichert; tatsächlicher vollständiger Zugang nicht belegt"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-START-20250214]
+    sources: [SRC-DE-HH-NSU-START-20250214, SRC-DE-HH-NSU-AUSWAHL-230184]
+
+  - id: REL-DE-NSU-HH-LFV-AUSWAHL-2025-001
+    from: ORG-DE-HH-LFV
+    to: DOC-DE-NSU-HH-LFV-AUSWAHL-2025
+    type: selected_records_for_research
+    label: "Relevanzbewertung durch Auswertungsabteilung und Amtsleitung; laut Senatsantwort April 2025 keine Informationen über Vertrauensleute oder verdeckte Ermittler im ausgewählten Bestand"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AUSWAHL-230184, SRC-DE-HH-NSU-FORSCHUNG-PROJEKT]
+
+  - id: REL-DE-NSU-HH-POL-GBA-FREIGABE-2023-001
+    from: ORG-DE-HH-POLIZEI
+    to: ORG-DE-GBA
+    type: contacted_for_records_access
+    label: "Polizei informierte GBA im Mai 2023 über Forschungsvorhaben; Entscheidung über Freigabe am 22.04.2025 noch ausstehend"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AUSWAHL-230184]
+
+  - id: REL-DE-NSU-HH-POL-ARCHIV-2025-001
+    from: ORG-DE-HH-POLIZEI
+    to: ORG-DE-HH-STAATSARCHIV
+    type: prepared_records_transfer
+    label: "Bestandsprüfung und geplante ungeschwärzte Abgabe in Abstimmung mit Staatsarchiv; am 22.04.2025 kein Übergabetermin, Vollzug nicht belegt"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AUSWAHL-230184, SRC-DE-HH-NSU-INNEN-2211564]

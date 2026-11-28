@@ -1,4 +1,4 @@
-# Hamburg: NSU-Aktenmoratorien, Vernichtung und Aktenverbleib 2012–2022
+# Hamburg: NSU-Aktenmoratorien, Aktenauswahl und Aufarbeitung 2012–2026
 
 Stand: 28. November 2026. Ergänzung zur Studie [Hamburger Akteneinsicht und Rechtsausschuss](nsu-hamburg-akteneinsicht-rechtsausschuss-2026.md). Kein neuer Befund zur Täterschaft.
 
@@ -42,8 +42,39 @@ Gegenhypothese: reguläre datenschutzrechtliche Aufbewahrungsfristen und Übermi
 
 **Zugang:** Amtliche Textfassungen der sechs Quellen eingesehen am 28.11.2026. Seitenbild S. 13 der Drs. 20/11661 geprüft; S. 12 sowie Seitenbilder der übrigen PDF-Dokumente nicht abrufbar (Cache-Miss). Keine Einsicht in die genannten Originalverfügungen, die datenschutzrechtliche Stellungnahme selbst, das vollständige PKA-Protokoll oder die Senatsanlage 22/18070 (Abruf technisch fehlgeschlagen). Die Pressemitteilung ist unmittelbare Quelle für die veröffentlichte Bestandsdarstellung, nicht für die Vollständigkeit des Akteninventars.
 
+## Aktenauswahl, Archivkonzept und dokumentierte Kontrolllücken 2023–2025
+
+### Unterschiedliche Sicherungsreichweiten
+
+Der Antrag Drs. 22/10688 vom 18.01.2023 (SRC-DE-HH-NSU-MORATORIUM-2210688, S. 1–2) verlangte ein umfassendes neues Moratorium für relevante Bestände ab 1990. Der Innenausschuss empfahl am 06.04.2023 stattdessen ein Archivierungskonzept (Drs. 22/11564 vom 12.04.2023, SRC-DE-HH-NSU-INNEN-2211564, S. 1–3). Die Koalition, CDU und AfD unterstützten die Ablehnung des ursprünglichen Antrags im Ausschuss; das Ersatzersuchen erhielt Zustimmung aller übrigen Fraktionen bei AfD-Enthaltung. Das Plenum folgte am 26.04.2023 beiden Empfehlungen (Plenarprotokoll 22/66, TOP 22, S. 5173, SRC-DE-HH-PLENUM-2023-2266).
+
+Die beschlossene Alternative begrenzte die ausdrücklich zu sichernden LfV-Altbestände auf potenziell NSU-relevante, noch vorhandene Unterlagen aus 1992–2011, verlangte Angebote nicht archivwürdiger Rechtsextremismusunterlagen an geeignete wissenschaftliche Stellen und sah eine Überbrückungsaufbewahrung vor. Bei den Ermittlungsakten blieb die Hamburger Verfügungsbefugnis maßgeblich. Das war eine andere Sicherungsstrategie, kein allgemeines Moratorium ab 1990, aber auch keine bloße Ablehnung jeder Sicherung. Der Senat erklärte im Ausschuss, der zuvor als relevant identifizierte LfV-Bestand sei fast vollständig erhalten, vorläufig gesichert und teilweise als archivwürdig bewertet worden. Diese Bestandsaussage betrifft eine definierte Teilmenge; sie widerspricht nicht zwingend der 2022 eingeräumten Vernichtung anderer Unterlagen. Eine unabhängige Bestandsabgleichsliste liegt nicht vor.
+
+### Auswahl und Ausschluss von Quelleninformationen
+
+Die Senatsantwort Drs. 23/184 vom 22.04.2025 (SRC-DE-HH-NSU-AUSWAHL-230184) macht folgende Verfahrensgrenzen überprüfbar:
+
+- S. 1–2: Für frühere polizeiliche Aktenübermittlungen und Freigabeersuchen gab es nach Behördenauskunft keine systematische Erhebung. Eine Rekonstruktion sämtlicher Vorgänge sei nicht mehr möglich. 2023 habe die Polizei auf Bitte der Bundesregierung weitere anstehende Löschungen ausgesetzt. Die Bestandsprüfung war im April 2025 noch nicht beendet; ein Übergabetermin ans Staatsarchiv fehlte. Ungeschwärzte Übergabe war beabsichtigt, nicht vollzogen (S. 3, Frage 8).
+- S. 2, Frage 1: Die Polizei informierte den GBA bereits im Mai 2023 über das Vorhaben. Am 22.04.2025 stand die Entscheidung über Freigaben weiterhin aus. Die damalige Absichtserklärung des GBA bezüglich einer Befassung beim BGH darf nicht mit der späteren, am 30.03.2026 bestätigten Befassung des OLG Karlsruhe gleichgesetzt werden.
+- S. 3–4, Fragen 9–12: Die Auswahl ging auf die nach 2011 identifizierten gewaltorientierten rechtsextremen Personenzusammenhänge und die 2012 abgestimmten Kriterien zurück. Maßgeblich für die endgültige Auswahl war auch der zeitliche Rahmen 1992–2011. Die Auswertungsabteilung des LfV bewertete die Relevanz gemeinsam mit der Amtsleitung. Der Senat verneinte, dass die ausgewählten Akten Informationen über Vertrauensleute oder verdeckte Ermittler des LfV enthielten. Zugleich beschrieb er Schwärzungspflichten aufgrund des Quellen- und Geheimschutzes sowie Freigabevorbehalte fremder Behörden. Eine Beteiligung des Forschungsteams an der Relevanzentscheidung wurde in der Antwort nicht ausdrücklich dargelegt.
+- S. 4–5, Fragen 13–15: Etwa 500 Freigabeersuchen in den Jahren 2012–2023 betrafen oftmals mehrere Dokumente; die Zuordnung zum aktuellen Forschungsbestand und die Anzahl geheim eingestufter Dokumente wurden nicht beziffert. Diese 500 Ersuchen sind nicht mit den etwa 500 ausgewählten Akten identisch.
+
+### Vergleich mit früheren Aussagen und Gegenhypothesen
+
+Drs. 22/12170 vom 04.07.2023 (SRC-DE-HH-NSU-FREIGABEN-2212170, S. 3–5, Frage 6) nennt die Weiterleitung der Ermittlungsakten von der Staatsanwaltschaft an den GBA Anfang 2012 sowie frühere Materialübermittlungen an Aufklärungsgremien. Der Senat behauptet dort, bei den früheren LfV-Freigaben seien keine den Ausschüssen bislang unbekannten aufklärungsrelevanten Sachverhalte vorenthalten worden. Dies ist eine amtliche Selbstbewertung, kein vollständiger Nachweis der Freigaben oder ihrer Vollständigkeit. Die 2025 nicht vorgelegte Aufschlüsselung erschwert ihre unabhängige Kontrolle.
+
+Drs. 22/11841 vom 30.05.2023 (SRC-DE-HH-NSU-NETZE-2211841, S. 13–14, Fragen 27–29) beschreibt tatsächlich vorhandene LfV-Unterlagen über einen Hinweis einer Vertrauensperson im Zusammenhang mit Corelli, die der parlamentarische Sachverständige Jerzy Montag 2015 einsehen konnte. Die 2022er Antwort 8 benennt ebenfalls noch vorhandene Quellenunterlagen aus dem Zeitraum 1990–2011. Dem steht die 2025er Verneinung von Quelleninformationen im ausgewählten Forschungsbestand gegenüber. Das ist eine konkret überprüfbare **Abdeckungsfrage**, kein Beweis, dass genau diese Akten vernichtet oder gezielt ausgesondert wurden: Der dokumentierte Hinweis wurde 2014 bearbeitet und kann außerhalb des zeitlich begrenzten Forschungsbestands liegen. Ob und welche älteren Unterlagen zu den Vertrauenspersonen noch vorhanden sind und ob separat Zugang beantragt oder gewährt wurde, bleibt offen. Frage 29 der Drs. 22/11841 dokumentiert zudem, dass die Polizei anhand ihrer verbliebenen Unterlagen die Aufarbeitung bestimmter früherer Hinweise nicht mehr nachvollziehen konnte.
+
+Das offizielle Forschungsprogramm nennt die Untersuchung der V-Leute-Praxis als einen seiner Arbeitsgegenstände (SRC-DE-HH-NSU-FORSCHUNG-PROJEKT). Der selektierte Bestand und die ausdrückliche Auskunft zu Quelleninformationen begründen deshalb ein konkretes Risiko eingeschränkter Erkenntnismöglichkeiten. Eine bewusste Aufklärungsvereitelung ist nicht belegt; rechtliche Aufbewahrungsregeln, Auswahlzeitraum und legitimer Quellenschutz sind plausible alternative Erklärungen. Entscheidend sind das vollständige Auswahlverzeichnis, die Liste nicht ausgewählter Bestände, gesonderte Zugangsregelungen für Quellenakten und ein unabhängiger Abgleich mit den parlamentarischen Beiziehungslisten. Es ist nicht belegt, dass die Forschungsgruppe ausschließlich auf die ausgewählten LfV-Akten angewiesen ist.
+
+### Vertragsunterlagen als offener Prüfpfad
+
+Das Hamburger Transparenzportal weist seit 20.12.2024 fünf Vertragsressourcen aus (SRC-DE-HH-NSU-VERTRAG-KATALOG-2024): Vertrag, Zuschlag, allgemeine und zusätzliche Vertragsbedingungen sowie das geschwärzte Angebot der Ruhr-Universität Bochum. Der direkte Abruf von Vertrag, Zuschlag und Angebot scheiterte an HTTP-400-/Content-Type-Fehlern. Nur die Katalogmetadaten sind belegt. Vertragsklauseln, Fristen, Nachsteuerung bei Aktenverweigerung und Abnahmebedingungen sind nicht aus diesen Metadaten ableitbar.
+
+Amtliche Textfassungen der genannten Drucksachen und der Plenarabstimmung am 28.11.2026 eingesehen; Abruf der einschlägigen Seitenbilder scheiterte am Cache-Miss. Die Drs. 22/18070 und 22/16857 waren über die Projektseite verlinkt, der Volltextabruf scheiterte ebenfalls. Keine Behauptung über deren nicht eingesehenen Inhalt.
+
 ## Nächste Beweisschritte
 
 - Die Verfügungen vom 03.09.2012, 07.11.2013, 18.08.2015 und 07.12.2017 sowie die Stellungnahme des Hamburger Datenschutzbeauftragten beschaffen; Ursprung, Reichweite und tatsächliche Umsetzung des jeweiligen Moratoriums getrennt prüfen.
-- Bestands- und Löschlisten nach Behörden, Zeiträumen und Übergabeempfängern rekonstruieren; Archivangebote und Kopienbestände anhand der Beiziehungslisten prüfen.
+- Bestands- und Löschlisten nach Behörden, Zeiträumen und Übergabeempfängern rekonstruieren; Archivangebote und Kopienbestände anhand der Beiziehungslisten prüfen. Insbesondere das Auswahlverzeichnis, nicht berücksichtigte Quellenakten und gesonderte Einsichtsmöglichkeiten abgleichen; Vertrag, Zuschlag und Angebot im Transparenzportal beschaffen.
 - Ablehnungsbescheid, gerichtliche Schriftsätze und möglichen Vergleich im Akteneinsichtsstreit 2026 mit den tatsächlich vorhandenen Original- und Kopienbeständen abgleichen.

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**672 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**674 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -208,6 +208,7 @@
 | Atlantik-Brücke e.V. | association | `ORG-DE-ATLANTIK-BRUECKE` | DE, US | [49](network.md#rel-de-ab-001) |
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | ATSIGE (2000–2004) | company | `ORG-GQ-ATSIGE` | GQ | [1](network.md#rel-riggs-followup-060) |
+| Ausgewählter Hamburger LfV-Forschungsaktenbestand (Stand April 2025) | document | `DOC-DE-NSU-HH-LFV-AUSWAHL-2025` | DE | [1](network.md#rel-de-nsu-hh-lfv-auswahl-2025-001) |
 | Auswärtiges Amt (1966) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-005) |
 | Auswärtiges Amt (historisch, 1995–1996) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1996` | DE | [3](network.md#rel-mauss-diplomatie-005) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
@@ -397,7 +398,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [15](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [16](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -451,7 +452,7 @@
 | Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
-| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [3](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
+| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [4](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
@@ -532,7 +533,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
-| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [2](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
+| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [4](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
@@ -583,6 +584,7 @@
 | Staatsanwaltschaft Karlsruhe | prosecution_authority | `ORG-DE-STA-KARLSRUHE` | DE | [1](network.md#rel-de-nsu-sta-gba-2016-001) |
 | Staatsanwaltschaft Köln | prosecution_authority | `ORG-DE-STA-KOELN` | DE | [1](network.md#rel-de-nsu-lingen-sta-2018-001) |
 | Staatsanwaltschaft Wiesbaden | prosecution_authority | `ORG-DE-STA-WIESBADEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-015) |
+| Staatsarchiv Hamburg | government_agency | `ORG-DE-HH-STAATSARCHIV` | DE | [1](network.md#rel-de-nsu-hh-pol-archiv-2025-001) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |
