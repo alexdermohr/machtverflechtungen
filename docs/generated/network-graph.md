@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**870 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**896 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1522,6 +1522,52 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_ORG_LI_REGIERUNG_1944_1948["Liechtensteinische Regierung (1944–1948)"]
+    N_PER_DE_RUDOLF_RUSCHEWEYH["Rudolf Ruscheweyh"]
+    N_ORG_LI_REGIERUNG_1944_1948 -->|"Regierung befürwortete 1944 Einbürgerung unter Verweis auf wirtschaftliche Interessen"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_CH_FREMDENPOLIZEI_1945["Eidgenössische Fremdenpolizei (1945–1948)"]
+    N_ORG_CH_FREMDENPOLIZEI_1945 -->|"Weitere Aufenthaltsbewilligung von Sicherstellung 10.558.270,11 CHF abhängig gemacht"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_CH_OERLIKON_BUEHRLE_1945["Werkzeugmaschinenfabrik Oerlikon Bührle & Co. (1940er)"]
+    N_PER_DE_RUDOLF_RUSCHEWEYH -->|"Vertretung in Deutschland und Vermittlung von Rüstungsaufträgen 1940–1944 laut Archivbiografie und Ausschussbericht"| N_ORG_CH_OERLIKON_BUEHRLE_1945
+    N_ORG_LI_PRESTA_1945["Press- und Stanzwerk AG (Presta, 1945)"]
+    N_ORG_LI_PRESTA_1945 -->|"Presta verwies gegenüber Regierung auf Ruscheweyhs Beitrag zur wirtschaftlichen Grundlage der Firma; keine direkten Geschäftsbeziehungen behauptet"| N_ORG_LI_REGIERUNG_1944_1948
+    N_ORG_CH_VERRECHNUNGSSTELLE_1945["Schweizerische Verrechnungsstelle (1945)"]
+    N_ORG_CH_VERRECHNUNGSSTELLE_1945 -->|"Laut editorischer Anmerkung Verfügung zur Abführung von 12 Mio. CHF ins Clearing; tatsächlicher Zahlungsausgang nicht belegt"| N_ORG_CH_OERLIKON_BUEHRLE_1945
+    N_ORG_LI_REGIERUNG_1944_1948 -->|"Protest gegen Schweizer Vorgehen wegen Clearing und Aufenthaltsstatus"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_GB_REGIERUNG_1946["Britische Regierung (1946)"]
+    N_ORG_GB_REGIERUNG_1946 -->|"Britisches Rückführungs- und Guthabensperrverlangen laut schweizerischer Note"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_CH_EPD_1946["Eidgenössisches Politisches Departement (1946)"]
+    N_ORG_CH_EPD_1946 -->|"Übermittelte britische Forderung über liechtensteinische Gesandtschaft"| N_ORG_LI_REGIERUNG_1944_1948
+    N_ORG_LI_REGIERUNG_1944_1948 -->|"Lehnte Wegweisung ohne zusätzliche Belege ab"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_CH_FREMDENPOLIZEI_1945 -->|"Empfahl 1948 keine Verhinderung der Einbürgerung, aber auch keine ausdrückliche Zustimmung"| N_PER_DE_RUDOLF_RUSCHEWEYH
+    N_ORG_LI_OCTOGON_TRUST["Octogon Trust reg. (Schaan, 1952)"]
+    N_PER_DE_RUDOLF_RUSCHEWEYH -->|"Octogon-Gründung durch Seeger in Ruscheweyhs Auftrag laut Zeugenaussage (S. 23)"| N_ORG_LI_OCTOGON_TRUST
+    N_ORG_CH_HISPANO_SUIZA_1950S["Hispano-Suiza (Genf, 1950er)"]
+    N_PER_DE_RUDOLF_RUSCHEWEYH -->|"Geschäftskontakte nach Konflikt mit Bührle laut Ausschuss (S. 23, 115)"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_CH_CONRADO_KRAEMER["Kraemer (Hispano-Suiza, Genf)"]
+    N_PER_DE_RUDOLF_RUSCHEWEYH -->|"Bekanntschaft über Oberst a. D. Geist; finanzielle Beziehungen nicht geklärt (S. 23–24)"| N_PER_CH_CONRADO_KRAEMER
+    N_PER_CH_CONRADO_KRAEMER -->|"Generalbevollmächtigter und Verhandlungspartner der Bundesregierung (S. 24–25)"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_DE_FRIEDRICH_HOLZAPFEL["Friedrich Holzapfel"]
+    N_ORG_DE_AA_1953_1954["Auswärtiges Amt (1953–1954)"]
+    N_PER_DE_FRIEDRICH_HOLZAPFEL -->|"Meldete Vorgänge im Umfeld von Ruscheweyh, Octogon und Hispano-Suiza (S. 23–25, 115)"| N_ORG_DE_AA_1953_1954
+    N_ORG_DE_AA_1953_1954 -->|"Weitere Befassung mit Octogon untersagt laut Feststellung des Ausschusses (S. 115)"| N_PER_DE_FRIEDRICH_HOLZAPFEL
+    N_ORG_DE_AMT_BLANK["Dienststelle Blank (bis 1955)"]
+    N_ORG_DE_AA_1953_1954 -->|"Leitete Berichte Holzapfels am 18.03.1954 an Dienststelle Blank weiter (S. 24)"| N_ORG_DE_AMT_BLANK
+    N_ORG_DE_BMVTDG_HS30_1956_1964["Bundesministerium für Verteidigung (HS-30, 1956–1964)"]
+    N_ORG_DE_BMVTDG_HS30_1956_1964 -->|"HS-30-Auswahl und Verhandlungen 1956; Ausschussbericht"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_ORG_GB_BRITISH_MARC_1957["British MARC (1957–1958)"]
+    N_ORG_DE_BMVTDG_HS30_1956_1964 -->|"Serienverträge 1957; rund 193 Mio. DM Vorauszahlungen 1957/58 sowie 47 Mio. DM Akkreditive, keine belegten Schmiergelder"| N_ORG_GB_BRITISH_MARC_1957
+    N_PER_CH_EMIL_BUEHRLE["Emil Georg Bührle"]
+    N_PER_DE_WERNER_PLAPPERT["Werner Plappert"]
+    N_PER_CH_EMIL_BUEHRLE -->|"10.000 CHF für Tätigkeit gegen Hispano-Suiza/Ruscheweyh-Gruppe laut im Minderheitsvotum wiedergegebener Erklärung (S. 116–117)"| N_PER_DE_WERNER_PLAPPERT
+    N_ORG_DE_LENZ_SCHNEIDER_ARETZ["Sozietät Lenz/Schneider/Aretz (1950er)"]
+    N_ORG_DE_LENZ_SCHNEIDER_ARETZ -->|"Kanzlei nahm Interessen von Hispano-Suiza wahr, keine bestätigte Schmiergeldzahlung (S. 110 ff.)"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_DE_OTTO_LENZ -->|"Namenspartner der Sozietät, die Hispano-Suiza vertrat (S. 110 ff.)"| N_ORG_DE_LENZ_SCHNEIDER_ARETZ
+    N_ORG_DE_BMI -->|"BMI war direkter Vertragspartner beim früheren BGS-Geschäft (BT V/4527, S. 24, 115); nicht HS-30-Vertrag"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_DE_RUDOLF_RUSCHEWEYH -->|"Dienstliche Erklärung Osters vom 03.09.1953 bezeichnet Ruscheweyh als Vermittler; finanzielle Beteiligung bestritten (S. 24)"| N_ORG_DE_BMI
+    N_ORG_DE_BRH_1959_1966["Bundesrechnungshof (HS-30-Prüfung)"]
+    N_ORG_DE_BRH_1959_1966 -->|"Rechnungshof verlangte Akten der Becker-Kommission im Juli 1959, wiederholte Bitte 25.06.1962 (S. 93 ff.)"| N_ORG_DE_BMVTDG_HS30_1956_1964
+    N_ORG_DE_BMVTDG_HS30_1956_1964 -->|"Aktenfreigabe 24.02.1964; über vorherige Behinderung stritten Mehrheit und Minderheit (S. 93 ff.)"| N_ORG_DE_BRH_1959_1966
 ```
 
 [Zur Relationstabelle](network.md)
