@@ -1222,7 +1222,7 @@ studies:
     - REL-MAUSS-PMT-032
     - REL-MAUSS-PMT-033
   amri-behoerden-aufklaerung-2015-2021.md:
-    sha256: adb2e2b1d57d6136a5ed71c5402f9b602919c6fbcea0e7c8e738d9273735694d
+    sha256: 23e2e3409cfe5cafe3976e1e8f2b3d1bc0e38c400a7348cc65fd5c22e28b72a5
     status: network
     relation_ids:
     - REL-DE-AMRI-001

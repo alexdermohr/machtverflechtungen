@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**638 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-lenz-2020) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-gvobl-2016-203) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1432,6 +1432,51 @@ Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-de-amri-bverfschg-bund-2026"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Bundesverfassungsschutzgesetz, konsolidierte Fassung](https://www.gesetze-im-internet.de/bverfschg/BJNR029700990.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 1990-12-20 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERFSCHG-BUND-2026`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/bverfschg/BJNR029700990.html)
+
+Fundstelle: §§ 19 Abs. 1 Satz 2, 21, 23 Abs. 1 Nr. 4 und Abs. 2, 26a; zuletzt geändert 09.01.2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2009">
+
+<a id="src-de-amri-pkgrg-8"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Kontrollgremiumgesetz, § 8 Eingaben](https://www.gesetze-im-internet.de/pkgrg/__8.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 2009-07-29 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PKGRG-8`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/pkgrg/__8.html)
+
+Fundstelle: § 8 Abs. 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-hinschg-5"></a>
+### Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+
+**[Hinweisgeberschutzgesetz, Ausschluss bestimmter Sicherheitsinformationen](https://www.gesetze-im-internet.de/hinschg/BJNR08C0B0023.html)**
+
+Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz · 2023-05-31 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-HINSCHG-5`
+
+[Seite öffnen](https://www.gesetze-im-internet.de/hinschg/BJNR08C0B0023.html)
+
+Fundstelle: § 5 Abs. 1 Nr. 1 und 2, Abs. 2 Nr. 1
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
 
 <a id="src-de-bnd-geschichte-2011"></a>
@@ -1457,6 +1502,21 @@ Bundesverfassungsgericht · 2017-06-13 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2017/06/es20170613_2bve000115.html)
 
 Fundstelle: Rn. 1–6, 131 ff. und Tenor
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bverfg-2bve418"></a>
+### Bundesverfassungsgericht
+
+**[Beschluss 2 BvE 4/18 – Benennung eines V-Personen-Führers](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html)**
+
+Bundesverfassungsgericht · 2020-12-16 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERFG-2BVE418`
+
+[Seite öffnen](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/12/es20201216_2bve000418.html)
+
+Fundstelle: Leitsätze, Gründe, abweichende Meinung des Richters Müller
 
 </article>
 
@@ -1502,6 +1562,21 @@ Bundesverwaltungsgericht · 2013-11-27 · Stufe **A** · Primärquelle · `SRC-D
 [Seite öffnen](https://www.bverwg.de/de/271113U6A5.13.0)
 
 Fundstelle: 6 A 5.13, Urteil / amtliche Verfahrensinformation
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2019">
+
+<a id="src-de-amri-bverwg-6vr219"></a>
+### Bundesverwaltungsgericht
+
+**[Beschluss 6 VR 2.19 – Aktenanforderung eines Landesuntersuchungsausschusses](https://www.bverwg.de/020919B6VR2.19.0)**
+
+Bundesverwaltungsgericht · 2019-09-02 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BVERWG-6VR219`
+
+[Seite öffnen](https://www.bverwg.de/020919B6VR2.19.0)
+
+Fundstelle: Tenor II–IV, Leitsätze, Rn. 5–6, 22, 40–42, 48, 51–52
 
 </article>
 
@@ -2570,6 +2645,51 @@ Fundstelle: hib 1084/2020, Aussage Hans-Georg Maaßen
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19103"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/103 – Vernehmung Maaßen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/103.%20Sitzung_2020-10-08_endg_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-10-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19103`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/103.%20Sitzung_2020-10-08_endg_%C3%B6ff.pdf)
+
+Fundstelle: S. 91 ff., insbesondere 96–97
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19113"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/113 I – Vernehmung Peter Frank](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/113.%20Sitzung_2020-10-12_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-12-10 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19113`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/113.%20Sitzung_2020-10-12_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 35–36; auch Drs. 19/30800 S. 487 Fn. 3234
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-prot-19116"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/116 I – Vernehmung Geisel](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/116.%20Sitzung_2020-12-17_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2020-12-17 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19116`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/116.%20Sitzung_2020-12-17_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 140–141
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-bt-1930800"></a>
@@ -2582,6 +2702,21 @@ Deutscher Bundestag · 2021 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1
 [PDF öffnen](https://dserver.bundestag.de/btd/19/308/1930800.pdf)
 
 Fundstelle: Drs. 19/30800, gemeinsames Sondervotum S. 1182–1183, 1189–1190
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-de-amri-prot-19120"></a>
+### Deutscher Bundestag
+
+**[Stenografisches Protokoll 19/120 I – Vernehmung Akmann](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/120.%20Sitzung_2021-01-28_I_endg%C3%BCltig_%C3%B6ff.pdf)**
+
+Deutscher Bundestag · 2021-01-28 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-PROT-19120`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/CD30800/I.%20Stenografische%20Protokolle/120.%20Sitzung_2021-01-28_I_endg%C3%BCltig_%C3%B6ff.pdf)
+
+Fundstelle: S. 32–36
 
 </article>
 
@@ -2975,6 +3110,21 @@ Fundstelle: Antworten 14–16, 19–23 und Geheimdienstaktenlage; spätere Ergä
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-de-amri-bt-184654"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Entwurf eines Gesetzes zur Verbesserung der Zusammenarbeit im Bereich des Verfassungsschutzes](https://dserver.bundestag.de/btd/18/046/1804654.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2015-04-20 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-184654`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/046/1804654.pdf)
+
+Fundstelle: S. 18, 22, Begründung zu Art. 1 Nr. 3
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
 
 <a id="src-de-bt-mauss-7352-2016"></a>
@@ -3047,6 +3197,21 @@ Deutscher Bundestag / Bundesregierung · 2018-01-10 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/19/004/1900415.pdf)
 
 Fundstelle: S. 18–19, F21, Antwort 10.01.2018
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-bt-1919363"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen mit den in der Woche vom 18. Mai 2020 eingegangenen Antworten der Bundesregierung, Drs. 19/19363](https://dserver.bundestag.de/btd/19/193/1919363.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 2020-05-22 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BT-1919363`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/19/193/1919363.pdf)
+
+Fundstelle: S. 15–16, Frage 22, Antwort vom 15.05.2020
 
 </article>
 
@@ -3422,6 +3587,21 @@ Financial Crimes Enforcement Network · 2007-09-17 · Stufe **A** · Primärquel
 [PDF öffnen](https://www.fincen.gov/system/files/enforcement_action/ASSESSMENT_In_the_Matter_of_Union_Bank_of_California.pdf)
 
 Fundstelle: §§I/II/IV: Consent ohne Anerkennung der Vorwürfe außer Zuständigkeit, UnionBanCal/MUFG, Sanktion. Text geprüft; Seitenbild nicht abrufbar.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-mv-witthaut-gruene"></a>
+### Fraktion Bündnis 90/Die Grünen im Landtag Mecklenburg-Vorpommern
+
+**[Sonderbeauftragter Verfassungsschutz: Gutachten – Oehlrich: öffentliche Sitzungen PKK](https://gruene-fraktion-mv.de/2023/09/07/sonderbeauftragter-verfassungsschutz-gutachten-oehlrich-oeffentliche-sitzungen-pkk/)**
+
+Fraktion Bündnis 90/Die Grünen im Landtag Mecklenburg-Vorpommern · 2023-09-07 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-WITTHAUT-GRUENE`
+
+[Seite öffnen](https://gruene-fraktion-mv.de/2023/09/07/sonderbeauftragter-verfassungsschutz-gutachten-oehlrich-oeffentliche-sitzungen-pkk/)
+
+Fundstelle: Fraktionsmitteilung vom 07.09.2023
 
 </article>
 
@@ -3845,6 +4025,36 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-mv-lenz-2020"></a>
+### Innenministerium Mecklenburg-Vorpommern
+
+**[Innenministerium: Staatssekretär Lenz zum Umgang mit Hinweisen im Fall Amri](https://www.presseportal.de/blaulicht/pm/108531/4789153)**
+
+Innenministerium Mecklenburg-Vorpommern · 2020-12-11 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LENZ-2020`
+
+[Seite öffnen](https://www.presseportal.de/blaulicht/pm/108531/4789153)
+
+Fundstelle: Erklärung zur Unterrichtung der PKK am 03.12.2019
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-vsb-2024"></a>
+### Innenministerium Mecklenburg-Vorpommern
+
+**[Verfassungsschutzbericht 2024, Gesetzesanhang](https://www.verfassungsschutz-mv.de/serviceassistent/download?id=1680733)**
+
+Innenministerium Mecklenburg-Vorpommern · 2025 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-VSB-2024`
+
+[Seite öffnen](https://www.verfassungsschutz-mv.de/serviceassistent/download?id=1680733)
+
+Fundstelle: S. 174–175, 181–182
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-mv-kommission-2021"></a>
@@ -4070,6 +4280,36 @@ Fundstelle: Persönliche Aussagen zu Irak 1988, FAZ-Fotos, Mediennetzen und Kanz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-amri-mv-gvobl-2016-203"></a>
+### Land Mecklenburg-Vorpommern
+
+**[Änderungsgesetz vom 25. April 2016](https://www.regierung-mv.de/static/Regierungsportal/Justizministerium/Inhalte/Rechtliches/GVOBI.M-V/Dateien/GVOBl_0844878.pdf)**
+
+Land Mecklenburg-Vorpommern · 2016-04-25 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-2016-203`
+
+[PDF öffnen](https://www.regierung-mv.de/static/Regierungsportal/Justizministerium/Inhalte/Rechtliches/GVOBI.M-V/Dateien/GVOBl_0844878.pdf)
+
+Fundstelle: GVOBl. Nr. 8 vom 13.05.2016, S. 203, 205–206, Art. 1 Nr. 10
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-gvobl-2026-original"></a>
+### Land Mecklenburg-Vorpommern
+
+**[Gesetz- und Verordnungsblatt Nr. 17/2026, Änderung des Landesverfassungsschutzgesetzes](https://land-mv.de/sites/default/files/2026-06/GVOBl.%20Nr.%2017%20v.%2029.6.2026.pdf)**
+
+Land Mecklenburg-Vorpommern · 2026-06-11 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-2026-ORIGINAL`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-06/GVOBl.%20Nr.%2017%20v.%2029.6.2026.pdf)
+
+Fundstelle: Ausgabe 29.06.2026, S. 551–568, insbesondere 558–560, 562, 565–566, 568
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-de-amri-mv-lverfg-725"></a>
@@ -4097,6 +4337,21 @@ Landesverfassungsgericht Mecklenburg-Vorpommern · 2026-07-09 · Stufe **A** · 
 [PDF öffnen](https://www.mv-justiz.de/static/MVJ/Gerichte/Landesverfassungsgericht/Entscheidungen/2026/7-25%20Urteil%20anonym.pdf)
 
 Fundstelle: S. 4, 9, 15–28
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-st-lvg-3022"></a>
+### Landesverfassungsgericht Sachsen-Anhalt
+
+**[Urteil LVG 30/22](https://verfassungsgericht.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MJ/MJ/lvg/LVerfG-LSA_20231213_30-22_Urteil_ANONYMn.pdf)**
+
+Landesverfassungsgericht Sachsen-Anhalt · 2023-12-13 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-ST-LVG-3022`
+
+[PDF öffnen](https://verfassungsgericht.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MJ/MJ/lvg/LVerfG-LSA_20231213_30-22_Urteil_ANONYMn.pdf)
+
+Fundstelle: Rn. 88–96
 
 </article>
 
@@ -4130,6 +4385,171 @@ Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jew
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-de-amri-mv-lt-31919"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Entwurf Landesverfassungsschutzgesetz, Drs. 3/1919](https://www.dokumentation.landtag-mv.de/parldok/dokument/2510/gesetz_ueber_den_verfassungsschutz_im_lande_mecklenburg_vorpommern_landesverfassungsschutzgesetz_lve.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2001 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-31919`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/2510/gesetz_ueber_den_verfassungsschutz_im_lande_mecklenburg_vorpommern_landesverfassungsschutzgesetz_lve.pdf)
+
+Fundstelle: S. 17, 32, 38
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-amri-mv-lt-731"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Zweites Gesetz zur Änderung des Landesverfassungsschutzgesetzes – Entwurf SPD/CDU](https://www.dokumentation.landtag-mv.de/parldok/dokument/38575/zweites_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2016-10-24 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-731`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/38575/zweites_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes.pdf)
+
+Fundstelle: Drs. 7/31, S. 1, 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-amri-mv-lt-738"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Zweites Gesetz zur Änderung des Landesverfassungsschutzgesetzes – Gegenentwurf AfD](https://www.dokumentation.landtag-mv.de/parldok/dokument/38582/zweites_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2016-10-27 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-738`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/38582/zweites_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes.pdf)
+
+Fundstelle: Drs. 7/38, S. 1, 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2020">
+
+<a id="src-de-amri-mv-rechtsgrundlagen-2020"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Rechtsgrundlagen des Landtags, Stand Januar 2020](https://www.landtag-mv.de/fileadmin/Publikationen/Publikationen_Archiv/Rechtsgrundlagen_Stand-Januar_2020_web.pdf)**
+
+Landtag Mecklenburg-Vorpommern · 2020 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-RECHTSGRUNDLAGEN-2020`
+
+[PDF öffnen](https://www.landtag-mv.de/fileadmin/Publikationen/Publikationen_Archiv/Rechtsgrundlagen_Stand-Januar_2020_web.pdf)
+
+Fundstelle: S. 233–236, insbesondere 235
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-pkk-84827"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Tätigkeitsbericht der Parlamentarischen Kontrollkommission für das Jahr 2024](https://www.dokumentation.landtag-mv.de/parldok/dokument/64338/8_4827_taetigkeitsbericht_der_parlamentarischen_kontrollkommission_fuer_das_jahr_2024)**
+
+Landtag Mecklenburg-Vorpommern · 2025-04-15 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-PKK-84827`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/64338/8_4827_taetigkeitsbericht_der_parlamentarischen_kontrollkommission_fuer_das_jahr_2024)
+
+Fundstelle: S. 2–3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-pkk-2025-ank"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Zweite öffentliche Sitzung der Parlamentarischen Kontrollkommission](https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission)**
+
+Landtag Mecklenburg-Vorpommern · 2025-07-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-PKK-2025-ANK`
+
+[Seite öffnen](https://www.landtag-mv.de/presse/pressemitteilung/zweite-oeffentliche-sitzung-der-parlamentarischen-kontrollkommission)
+
+Fundstelle: Ankündigung der Sitzung am 10.07.2025
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-86499"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Beschlussempfehlung zur Änderung des Landesverfassungsschutzgesetzes, Drs. 8/6499](https://www.dokumentation.landtag-mv.de/parldok/dokument/71157)**
+
+Landtag Mecklenburg-Vorpommern · 2026 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-86499`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/71157)
+
+Fundstelle: S. 7–8, §§ 29, 29a
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-beschluss-8130"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Beschlussprotokoll der 130. Landtagssitzung](https://www.dokumentation.landtag-mv.de/parldok/dokument/71225)**
+
+Landtag Mecklenburg-Vorpommern · 2026-05-06 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-BESCHLUSS-8130`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/71225)
+
+Fundstelle: S. 4, TOP 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-plenar-8130"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Plenarprotokoll 8/130](https://www.dokumentation.landtag-mv.de/parldok/dokument/71226)**
+
+Landtag Mecklenburg-Vorpommern · 2026-05-06 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-PLENAR-8130`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/71226)
+
+Fundstelle: S. 48–58, insbesondere 54–55, 58
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-86670"></a>
+### Landtag Mecklenburg-Vorpommern
+
+**[Abschlussbericht des zweiten NSU-Untersuchungsausschusses](https://www.dokumentation.landtag-mv.de/parldok/dokument/71870)**
+
+Landtag Mecklenburg-Vorpommern · 2026-06-19 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-86670`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/71870)
+
+Fundstelle: Drs. 8/6670, S. II, 116–117, 2821–2825, 2829–2833, 2847, 2861–2865, 2873–2876, 2982, 2984–2985
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2016">
+
+<a id="src-de-amri-mv-lt-7110"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Dritter Bericht zum Stand der Umsetzung der Empfehlungen des NSU-Untersuchungsausschusses](https://www.dokumentation.landtag-mv.de/parldok/dokument/38749/dritter_bericht_zum_stand_der_umsetzung_der_empfehlungen_des_nsu_untersuchungsausschusses_des_deutsc.pdf)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2016-12-08 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-7110`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/38749/dritter_bericht_zum_stand_der_umsetzung_der_empfehlungen_des_nsu_untersuchungsausschusses_des_deutsc.pdf)
+
+Fundstelle: Drs. 7/110, S. 4–5, 8–11, Berichtsstand 31.08.2016
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
 <a id="src-de-amri-mv-lt-84357"></a>
@@ -4142,6 +4562,21 @@ Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-01-15 · Stufe **A** ·
 [Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/63177/8_4357_nutzung_von_fake_accounts_in_chatgruppen_durch_das_amt_fuer_verfassungsschutz_des_landes_mecklenburg_vorpommern)
 
 Fundstelle: S. 2–5, Fragen 1–4 und 7b
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-mv-lt-84589"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Daten- und Informationsaustausch der Sicherheitsbehörden](https://www.dokumentation.landtag-mv.de/parldok/dokument/63812/daten_und_informationsaustausch_der_sicherheitsbehoerden.pdf)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-03-05 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-84589`
+
+[PDF öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/63812/daten_und_informationsaustausch_der_sicherheitsbehoerden.pdf)
+
+Fundstelle: Drs. 8/4589, S. 2–3, 5–7, Fragen 1, 4, 5, 7, 8
 
 </article>
 
@@ -4172,6 +4607,21 @@ Landtag Mecklenburg-Vorpommern / Landesregierung · 2026-11-12 · Stufe **A** ·
 [Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/72374)
 
 Fundstelle: S. 1–3, Fragen 1 und 2
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lfdi-86260"></a>
+### Landtag Mecklenburg-Vorpommern / LfDI
+
+**[20. Tätigkeitsbericht des Landesbeauftragten für Datenschutz und Informationsfreiheit](https://www.dokumentation.landtag-mv.de/parldok/dokument/70348)**
+
+Landtag Mecklenburg-Vorpommern / LfDI · 2026-02-04 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LFDI-86260`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/70348)
+
+Fundstelle: Drs. 8/6260, S. 51–57, Fn. 44
 
 </article>
 
@@ -4247,6 +4697,51 @@ message · 2007 · Stufe **B** · Primärquelle · `SRC-DE-MESSAGE-SOMMER-BILDER
 [PDF öffnen](https://www.lobbycontrol.de/wp-content/uploads/download/Message_Bilderberg.pdf)
 
 Fundstelle: message 3/2007, S. 61; Interview mit Theo Sommer zu regelmäßiger Bilderberg-Teilnahme und seiner früheren Rolle im Lenkungsausschuss
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-mv-witthaut-2023"></a>
+### Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+
+**[Gutachten des Sonderbeauftragten für den Verfassungsschutz Mecklenburg-Vorpommern](https://www.verfassungsschutz-mv.de/static/VERF/Dateien/Sonstige_Dokumente/Gutachten%20Sonderbeauftragter%20Verfassungsschutz%20MV.pdf)**
+
+Ministerium für Inneres und Bau Mecklenburg-Vorpommern · 2023 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-WITTHAUT-2023`
+
+[PDF öffnen](https://www.verfassungsschutz-mv.de/static/VERF/Dateien/Sonstige_Dokumente/Gutachten%20Sonderbeauftragter%20Verfassungsschutz%20MV.pdf)
+
+Fundstelle: 46 Seiten; amtlicher Scan
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-vsb-2025"></a>
+### Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+
+**[Verfassungsschutzbericht 2025](https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf)**
+
+Ministerium für Inneres und Bau Mecklenburg-Vorpommern · 2026 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-VSB-2025`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-09/Verfassungsschutzbericht%202025%20MV.pdf)
+
+Fundstelle: S. 21–23; Impressum Juni 2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-gvobl-index-2026-32"></a>
+### Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern
+
+**[Systematische Übersicht des Gesetz- und Verordnungsblatts Mecklenburg-Vorpommern, Stand 32/2026](https://land-mv.de/sites/default/files/2026-11/1-System%20%C3%9Cbersicht%20Stand%2032_2026.pdf)**
+
+Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern · 2026-11-26 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-GVOBL-INDEX-2026-32`
+
+[PDF öffnen](https://land-mv.de/sites/default/files/2026-11/1-System%20%C3%9Cbersicht%20Stand%2032_2026.pdf)
+
+Fundstelle: S. 13, Gliederungsnummer 12-4
 
 </article>
 
@@ -4560,6 +5055,36 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
+
+<a id="src-de-amri-be-pod-fusion"></a>
+### Polizei Berlin / Generalstaatsanwaltschaft Berlin
+
+**[Ressortübergreifendes PoD Fusion Center der Berliner Strafverfolgungsbehörden](https://www.berlin.de/verwaltungspreis/innovationslandkarte/index.php/detail/334)**
+
+Polizei Berlin / Generalstaatsanwaltschaft Berlin · 2024 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BE-POD-FUSION`
+
+[Seite öffnen](https://www.berlin.de/verwaltungspreis/innovationslandkarte/index.php/detail/334)
+
+Fundstelle: Projektbeschreibung; Projektende 18.04.2023
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-de-amri-lupe-2018"></a>
+### Polizei Berlin / Senatsverwaltung für Inneres
+
+**[Abschlussbericht Taskforce Lupe – Managementfassung](https://www.berlin.de/sen/inneres/presse/weitere-informationen/taskforce-lupe-abschlussbericht.pdf)**
+
+Polizei Berlin / Senatsverwaltung für Inneres · 2018-03-19 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-LUPE-2018`
+
+[PDF öffnen](https://www.berlin.de/sen/inneres/presse/weitere-informationen/taskforce-lupe-abschlussbericht.pdf)
+
+Fundstelle: Gedruckte S. 3–9, insbesondere S. 5, 7–8
 
 </article>
 
@@ -5056,6 +5581,21 @@ Fundstelle: PDF S. 9, Publikationsbeschluss 22.03.2001 (NICHT verabschiedete gem
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-de-amri-be-pod"></a>
+### Senatskanzlei Berlin
+
+**[Franziska Giffey verleiht Berliner Verwaltungspreis 2022](https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/pressemitteilung.1277873.php)**
+
+Senatskanzlei Berlin · 2022-12-21 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BE-POD`
+
+[Seite öffnen](https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/pressemitteilung.1277873.php)
+
+Fundstelle: Kategorie Prozess- und Qualitätsmanagement, Platz 1
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-fes-spdpd-bdj-19521009"></a>
@@ -5293,6 +5833,36 @@ Thüringer Landtag · 2014 · Stufe **A** · Primärquelle · `SRC-DE-THLT-NSU-U
 [PDF öffnen](https://www.thueringer-landtag.de/fileadmin/Redaktion/1-Hauptmenue/1-Landtag/3-Ausschuesse_und_Gremien/3-Untersuchungsausschuesse/1-Untersuchungsausschuss_6-1/Dokumente/mogliches-fehlverhalten-der-thuringer-sicherheits-und-justizbehorden-einschliesslich-der-zustandigen-ministerien-unter-einschluss-der-politischen.pdf)
 
 Fundstelle: insbesondere S. 1579–1581 / Rn. 2042 ff.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
+<a id="src-de-amri-th-verfgh-1925"></a>
+### Thüringer Verfassungsgerichtshof
+
+**[Beschluss VerfGH 19/25](https://verfassungsgerichtshof.thueringen.de/media/tmmjv_verfassungsgerichtshof/Entscheidungen/25-00019_Beschluss_nicht_barrierefrei.pdf)**
+
+Thüringer Verfassungsgerichtshof · 2025-04-25 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-TH-VERFGH-1925`
+
+[PDF öffnen](https://verfassungsgerichtshof.thueringen.de/media/tmmjv_verfassungsgerichtshof/Entscheidungen/25-00019_Beschluss_nicht_barrierefrei.pdf)
+
+Fundstelle: S. 10–12
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-th-verfgh-3025"></a>
+### Thüringer Verfassungsgerichtshof
+
+**[Urteil VerfGH 30/25](https://verfassungsgerichtshof.thueringen.de/media/tmmjv_verfassungsgerichtshof/Entscheidungen/25-_000030_U_nicht_barrierefrei.pdf)**
+
+Thüringer Verfassungsgerichtshof · 2026-07-01 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-TH-VERFGH-3025`
+
+[PDF öffnen](https://verfassungsgerichtshof.thueringen.de/media/tmmjv_verfassungsgerichtshof/Entscheidungen/25-_000030_U_nicht_barrierefrei.pdf)
+
+Fundstelle: S. 3–5, 10 ff.
 
 </article>
 
@@ -7233,6 +7803,21 @@ Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kais
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
+
+<a id="src-de-amri-bb-vfgbbg-7821"></a>
+### Verfassungsgericht des Landes Brandenburg
+
+**[Urteil VfGBbg 78/21](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~06-09-2023-vfgbbg-7821_4279)**
+
+Verfassungsgericht des Landes Brandenburg · 2023-09-06 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-BB-VFGBBG-7821`
+
+[Seite öffnen](https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~06-09-2023-vfgbbg-7821_4279)
+
+Fundstelle: Rn. 94 ff., 130–135
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
 
 <a id="src-ws-clinton-saudi-1994"></a>
@@ -7985,6 +8570,21 @@ Fundstelle: Treffen Merkel/Steinbrück mit Zeitungsleitungen 08.10.2008 und Bitt
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-amri-mv-pkg-dpa-20261127"></a>
+### dpa / Landtag Mecklenburg-Vorpommern
+
+**[Bericht zur bevorstehenden Wahl des Kontrollgremiums](https://www.landtag-mv.de/dpa-ticker/dpa-mitteilung?cHash=c7c6f2d86ac33d5fdb168f8c4509be25&tx_w3dpa_dpalist%5Baction%5D=detail&tx_w3dpa_dpalist%5Bcontroller%5D=Dpa&tx_w3dpa_dpalist%5Buid%5D=8592)**
+
+dpa / Landtag Mecklenburg-Vorpommern · 2026-11-27 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-MV-PKG-DPA-20261127`
+
+[Seite öffnen](https://www.landtag-mv.de/dpa-ticker/dpa-mitteilung?cHash=c7c6f2d86ac33d5fdb168f8c4509be25&tx_w3dpa_dpalist%5Baction%5D=detail&tx_w3dpa_dpalist%5Bcontroller%5D=Dpa&tx_w3dpa_dpalist%5Buid%5D=8592)
+
+Fundstelle: Indexierter Bericht
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2017">
 
 <a id="src-de-dpa-schmidbauer-mauss-2017"></a>
@@ -8177,6 +8777,21 @@ Informationsstelle Militarisierung / Martin Kirsch · 2014-12-03 · Stufe **B** 
 [PDF öffnen](https://www.imi-online.de/download/2014_07_kirsch_web.pdf)
 
 Fundstelle: S. 3, 6–8: SfZ-Finanzierung, multiplikatorgerichtete Seminare, ZDv 1/200 und institutionelle Geschichte unter Rückgriff auf Dirk Drews (2006)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
+
+<a id="src-de-amri-idz-nsu-2025"></a>
+### Institut für Demokratie und Zivilgesellschaft Jena
+
+**[Dokumentenbasierte Zwischenbilanz zur Umsetzung der NSU-Untersuchungsausschuss-Empfehlungen](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/IDZ_NSU-PUA-Studie_Web.pdf)**
+
+Institut für Demokratie und Zivilgesellschaft Jena · 2025 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-IDZ-NSU-2025`
+
+[PDF öffnen](https://www.idz-jena.de/fileadmin/user_upload/Projektberichte/IDZ_NSU-PUA-Studie_Web.pdf)
+
+Fundstelle: S. 10–11, 117–118, 142–143, 228, 261
 
 </article>
 
@@ -8447,6 +9062,36 @@ NDR · 2023-03-16 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-BARSC
 [Seite öffnen](https://www.ndr.de/geschichte/chronologie/Barschel-und-Schubladenaffaere-Zwei-Untersuchungsausschuesse-in-Kiel,barschelausschuesse101.html)
 
 Fundstelle: Abschnitte zu Kenntnis, Geldzahlungen und Ausschussbefunden
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-amri-mv-nsuii-ndr-20260702"></a>
+### NDR
+
+**[Abschlussbericht zu NSU und Nordkreuz: Kein Schlussstrich](https://www.ndr.de/radiomv/abschlussbericht-zu-nsu-und-nordkreuz-kein-schlussstrich%2Caudio-3335424.html)**
+
+NDR · 2026-07-02 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-MV-NSUII-NDR-20260702`
+
+[Seite öffnen](https://www.ndr.de/radiomv/abschlussbericht-zu-nsu-und-nordkreuz-kein-schlussstrich%2Caudio-3335424.html)
+
+Fundstelle: Bericht vom 02.07.2026
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-amri-mv-pkg-ndr-20261127"></a>
+### NDR
+
+**[Streit um AfD-Vertreter im Kontrollgremium für Verfassungsschutz](https://www.ndr.de/nachrichten/mecklenburg-vorpommern/streit-um-afd-vertreter-im-landtags-kontrollgremium-fuer-verfassungsschutz%2Caudio-3622208.html)**
+
+NDR · 2026-11-27 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-AMRI-MV-PKG-NDR-20261127`
+
+[Seite öffnen](https://www.ndr.de/nachrichten/mecklenburg-vorpommern/streit-um-afd-vertreter-im-landtags-kontrollgremium-fuer-verfassungsschutz%2Caudio-3622208.html)
+
+Fundstelle: Indexierter Bericht vom 27.11.2026
 
 </article>
 
