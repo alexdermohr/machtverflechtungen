@@ -3716,3 +3716,31 @@ entities:
     name: Sozietät Lenz/Schneider/Aretz (1950er)
     countries:
     - DE
+
+  - id: PER-US-WIGHT-OCTOGON
+    type: person
+    name: Wight (US-Staatsangehöriger, Octogon-Ermittlungen)
+    countries:
+    - US
+    - LI
+  - id: ORG-US-EMBASSY-BERN-1955
+    type: government_agency
+    name: US-Botschaft in der Schweiz (1955)
+    countries:
+    - US
+    - CH
+  - id: ORG-CH-EPD-1954-1955
+    type: government_ministry
+    name: Eidgenössisches Politisches Departement (1954–1955)
+    countries:
+    - CH
+  - id: ORG-CH-BUNDESRAT-1953-1955
+    type: government
+    name: Schweizerischer Bundesrat (1953–1955)
+    countries:
+    - CH
+  - id: ORG-CH-EJPD-1955
+    type: government_ministry
+    name: Eidgenössisches Justiz- und Polizeidepartement (1955)
+    countries:
+    - CH

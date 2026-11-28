@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**896 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**902 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1568,6 +1568,17 @@ flowchart LR
     N_ORG_DE_BRH_1959_1966["Bundesrechnungshof (HS-30-Prüfung)"]
     N_ORG_DE_BRH_1959_1966 -->|"Rechnungshof verlangte Akten der Becker-Kommission im Juli 1959, wiederholte Bitte 25.06.1962 (S. 93 ff.)"| N_ORG_DE_BMVTDG_HS30_1956_1964
     N_ORG_DE_BMVTDG_HS30_1956_1964 -->|"Aktenfreigabe 24.02.1964; über vorherige Behinderung stritten Mehrheit und Minderheit (S. 93 ff.)"| N_ORG_DE_BRH_1959_1966
+    N_ORG_US_EMBASSY_BERN_1955["US-Botschaft in der Schweiz (1955)"]
+    N_PER_US_WIGHT_OCTOGON["Wight (US-Staatsangehöriger, Octogon-Ermittlungen)"]
+    N_ORG_US_EMBASSY_BERN_1955 -->|"Zwei bereits erfolgte US-Demarchen zugunsten Wights in Aufenthaltsfragen laut Petitpierre (29.10.1955); keine bestätigte Geheimdienstrolle"| N_PER_US_WIGHT_OCTOGON
+    N_ORG_CH_EPD_1954_1955["Eidgenössisches Politisches Departement (1954–1955)"]
+    N_ORG_CH_BUNDESRAT_1953_1955["Schweizerischer Bundesrat (1953–1955)"]
+    N_ORG_CH_EPD_1954_1955 -->|"Empfahl, beim liechtensteinischen Staat Auflösung des Octogon Trusts zu verlangen; kein Beschluss zu diesem Mitbericht dokumentiert"| N_ORG_CH_BUNDESRAT_1953_1955
+    N_ORG_CH_BUNDESRAT_1953_1955 -->|"Exportgesuch am 18.09.1953 wegen Octogon-Berichten vorerst zurückgestellt (EPD-Antrag 06.03.1954)"| N_ORG_CH_HISPANO_SUIZA_1950S
+    N_PER_DE_FRIEDRICH_HOLZAPFEL -->|"Intervention zur Wiedererwägung des BGS-Exportgesuchs laut EPD-Antrag 06.03.1954; nicht identisch mit HS-30-Vergabe"| N_ORG_CH_EPD_1954_1955
+    N_ORG_CH_EPD_1954_1955 -->|"Empfahl Genehmigung des BGS-Geschäfts über rund 2,9 Mio. CHF nach deutschen Garantien; Octogon-Ermittlungen noch laufend"| N_ORG_CH_BUNDESRAT_1953_1955
+    N_ORG_CH_EJPD_1955["Eidgenössisches Justiz- und Polizeidepartement (1955)"]
+    N_ORG_CH_EJPD_1955 -->|"Antrag vom 18.10.1955 zu Octogon und fremdenpolizeilichen Maßnahmen, im Mitbericht vom 29.10.1955 referiert; Hauptakte selbst nicht eingesehen"| N_ORG_CH_BUNDESRAT_1953_1955
 ```
 
 [Zur Relationstabelle](network.md)

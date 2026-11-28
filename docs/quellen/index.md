@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**591 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**594 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3242,6 +3242,36 @@ Deutscher Rat für Public Relations · 2015-01 · Stufe **A** · Primärquelle �
 [PDF öffnen](https://drpr-online.de/wp-content/uploads/2015/03/Ratsbeschluss_Fall09201_TK-Pressereisen_be.pdf)
 
 Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-hs30-dodis-8938"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Lieferung von Waffen und Munition an die Bundesrepublik Deutschland](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)**
+
+Diplomatische Dokumente der Schweiz · 1954-03-06 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-8938`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)
+
+Fundstelle: DDS Bd. 19 Nr. 89 S. 240–243; E 1004.1(-)-/1/563; DoDiS-8938
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1955">
+
+<a id="src-hs30-dodis-12614"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Mitbericht zum Antrag des Justiz- und Polizeidepartements betreffend Octogon](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)**
+
+Diplomatische Dokumente der Schweiz · 1955-10-29 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-12614`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)
+
+Fundstelle: DDS Bd. 20 Nr. 35 S. 86–87; E 2001(E)1972/33/296; DoDiS-12614
 
 </article>
 
@@ -8777,6 +8807,21 @@ University of Colorado Boulder, College of Music · 2014-07-08 · Stufe **B** ·
 [Seite öffnen](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)
 
 Fundstelle: Dennis Spragg über Archivnachweise für Militäraircraft-boarding 1944 und mögliche Ursprünge späterer Bordell-/Friendly-Fire-Erzählungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-hs30-uzh-buehrle-2021"></a>
+### Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte
+
+**[Kriegsgeschäfte, Kapital und Kunsthaus: die Entstehung der Sammlung Emil Bührle im historischen Kontext](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)**
+
+Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-UZH-BUEHRLE-2021`
+
+[PDF öffnen](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)
+
+Fundstelle: S. 132–133, Anm. 36–37
 
 </article>
 

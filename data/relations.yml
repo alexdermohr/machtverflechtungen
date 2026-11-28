@@ -8365,3 +8365,64 @@ relations:
     evidence_level: strong
     period:
       start: '1964-02-24'
+
+  - id: REL-HS30-027
+    from: ORG-US-EMBASSY-BERN-1955
+    to: PER-US-WIGHT-OCTOGON
+    type: diplomatic_intervention
+    label: Zwei bereits erfolgte US-Demarchen zugunsten Wights in Aufenthaltsfragen laut Petitpierre (29.10.1955);
+      keine bestätigte Geheimdienstrolle
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+  - id: REL-HS30-028
+    from: ORG-CH-EPD-1954-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: policy_recommendation
+    label: Empfahl, beim liechtensteinischen Staat Auflösung des Octogon Trusts zu verlangen; kein Beschluss zu diesem
+      Mitbericht dokumentiert
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+    period:
+      start: '1955-10-29'
+  - id: REL-HS30-029
+    from: ORG-CH-BUNDESRAT-1953-1955
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: export_authorization_suspension
+    label: Exportgesuch am 18.09.1953 wegen Octogon-Berichten vorerst zurückgestellt (EPD-Antrag 06.03.1954)
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+    period:
+      start: '1953-09-18'
+  - id: REL-HS30-030
+    from: PER-DE-FRIEDRICH-HOLZAPFEL
+    to: ORG-CH-EPD-1954-1955
+    type: diplomatic_advocacy
+    label: Intervention zur Wiedererwägung des BGS-Exportgesuchs laut EPD-Antrag 06.03.1954; nicht identisch mit HS-30-Vergabe
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+  - id: REL-HS30-031
+    from: ORG-CH-EPD-1954-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: policy_recommendation
+    label: Empfahl Genehmigung des BGS-Geschäfts über rund 2,9 Mio. CHF nach deutschen Garantien; Octogon-Ermittlungen
+      noch laufend
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+    period:
+      start: '1954-03-06'
+  - id: REL-HS30-032
+    from: ORG-CH-EJPD-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: investigation_report
+    label: Antrag vom 18.10.1955 zu Octogon und fremdenpolizeilichen Maßnahmen, im Mitbericht vom 29.10.1955 referiert;
+      Hauptakte selbst nicht eingesehen
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+    period:
+      start: '1955-10-18'

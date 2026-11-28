@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**660 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**665 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -49,7 +49,7 @@
 | Eugenio Scalfari (1924–2022) | person | `PER-IT-EUGENIO-SCALFARI` | IT | [1](network.md#rel-it-p2-presspact-scalfari-1979-001) |
 | Federico Umberto D'Amato (1919–1996) | person | `PER-IT-FEDERICO-UMBERTO-DAMATO` | IT | [1](network.md#rel-it-bologna-pg-damato-2024-001) |
 | Friede Springer | person | `PER-DE-FRIEDE-SPRINGER` | DE | [3](network.md#rel-de-tmn-035) |
-| Friedrich Holzapfel | person | `PER-DE-FRIEDRICH-HOLZAPFEL` | DE | [2](network.md#rel-hs30-015) |
+| Friedrich Holzapfel | person | `PER-DE-FRIEDRICH-HOLZAPFEL` | DE | [3](network.md#rel-hs30-015) |
 | Friedrich Merz | person | `PER-DE-FRIEDRICH-MERZ` | DE | [1](network.md#rel-us-abfriends-merz-2021) |
 | Gabor Steingart | person | `PER-DE-GABOR-STEINGART` | DE | [2](network.md#rel-de-tmn-010) |
 | Generoso Guerra | person | `PER-PA-GENEROSO-GUERRA` | PA | [1](network.md#rel-mauss-offshore-004) |
@@ -165,6 +165,7 @@
 | Werner Marx (1924–1985, CDU) | person | `PER-DE-WERNER-MARX-CDU-1965-1972` | DE | [1](network.md#rel-de-marx-sfz-chair-1965-1972-001) |
 | Werner Mauss | person | `PER-DE-WERNER-MAUSS` | DE | [22](network.md#rel-mauss-finanz-001) |
 | Werner Plappert | person | `PER-DE-WERNER-PLAPPERT` | DE | [1](network.md#rel-hs30-020) |
+| Wight (US-Staatsangehöriger, Octogon-Ermittlungen) | person | `PER-US-WIGHT-OCTOGON` | US, LI | [1](network.md#rel-hs30-027) |
 | Wilhelm Classen | person | `PER-DE-WILHELM-CLASSEN` | DE | [1](network.md#rel-de-kmm-007) |
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE | – |
 | William O. Studeman | person | `PER-US-WILLIAM-STUDEMAN` | US | [1](network.md#rel-ws-studeman-ssci) |
@@ -357,7 +358,9 @@
 | Dänische Regierung (1996/97) | government_agency | `ORG-DK-REGIERUNG-1996` | DK | [1](network.md#rel-mauss-diplomatie-013) |
 | Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
 | Eidgenössische Fremdenpolizei (1945–1948) | government_agency | `ORG-CH-FREMDENPOLIZEI-1945` | CH | [2](network.md#rel-hs30-002) |
+| Eidgenössisches Justiz- und Polizeidepartement (1955) | government_ministry | `ORG-CH-EJPD-1955` | CH | [1](network.md#rel-hs30-032) |
 | Eidgenössisches Politisches Departement (1946) | government_ministry | `ORG-CH-EPD-1946` | CH | [1](network.md#rel-hs30-008) |
+| Eidgenössisches Politisches Departement (1954–1955) | government_ministry | `ORG-CH-EPD-1954-1955` | CH | [3](network.md#rel-hs30-028) |
 | Ejército de Liberación Nacional (ELN) | armed_group | `ORG-CO-ELN` | CO | [4](network.md#rel-mauss-pmt-005) |
 | El Mercurio (Chile) | historical_media_organization | `ORG-CL-EL-MERCURIO-1971` | CL | [8](network.md#rel-us-cia-el-mercurio-1971-1972) |
 | Embraer (SIVAM-Verträge, 1990er–2005) | historical_company | `ORG-BR-EMBRAER-SIVAM` | BR | [1](network.md#rel-ws-embraer-contract) |
@@ -418,7 +421,7 @@
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
-| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [5](network.md#rel-hs30-012) |
+| Hispano-Suiza (Genf, 1950er) | company | `ORG-CH-HISPANO-SUIZA-1950S` | CH | [6](network.md#rel-hs30-012) |
 | HSBC (Luxemburg, 2001) | commercial_bank | `ORG-LU-HSBC-LUXEMBOURG-2001` | LU | [1](network.md#rel-riggs-followup-043) |
 | HUK-Verband (historisch) | insurance_trade_association | `ORG-DE-HUK-VERBAND` | DE | [2](network.md#rel-mauss-finanz-001) |
 | I.G. Farbenindustrie AG (historischer Konzern) | chemical_industrial_concern | `ORG-DE-IG-FARBEN` | DE | [6](network.md#rel-de-igf-001) |
@@ -556,6 +559,7 @@
 | Schweizerische Bankgesellschaft (SBG, historisch) | commercial_bank | `ORG-CH-SBG-HISTORIC` | CH | [1](network.md#rel-ch-igf-009) |
 | Schweizerische Nationalbank (SNB, historische Goldgeschäfte) | central_bank | `ORG-CH-SNB-HISTORIC` | CH | [1](network.md#rel-de-ch-snb-gold-1945-001) |
 | Schweizerische Verrechnungsstelle (1945) | government_agency | `ORG-CH-VERRECHNUNGSSTELLE-1945` | CH | [1](network.md#rel-hs30-005) |
+| Schweizerischer Bundesrat (1953–1955) | government | `ORG-CH-BUNDESRAT-1953-1955` | CH | [4](network.md#rel-hs30-028) |
 | Senado Federal (Brasilien) | legislative_body | `ORG-BR-SENADO-FEDERAL` | BR | [4](network.md#rel-ws-senate-exim-auth) |
 | Senate Select Committee on Intelligence (SSCI) | government_committee | `ORG-US-SSCI` | US | [4](network.md#rel-ws-state-ssci) |
 | Shell (Konzern und Deutschland-Niederlassung, Reisefinanzierung 1996) | energy_company | `ORG-INT-SHELL-GROUP-1996` | GB, NL, DE, NG | [2](network.md#rel-int-shell-ulfkotte-nigeria-1996-001) |
@@ -633,6 +637,7 @@
 | US Intelligence Community (Wirtschaftsaufklärung 1993–1995) | historical_intelligence_community | `ORG-US-IC-1990S` | US | [3](network.md#rel-ws-ic-state) |
 | US-amerikanische Armeestellen in Deutschland (1952) | military_service | `ORG-US-US-ARMY-GERMANY` | US, DE | [1](network.md#rel-de-bdj-005) |
 | US-Botschaft Bonn (historisch, 1997) | government_agency | `ORG-US-BOTSCHAFT-BONN-1997` | US, DE | [1](network.md#rel-mauss-diplomatie-014) |
+| US-Botschaft in der Schweiz (1955) | government_agency | `ORG-US-EMBASSY-BERN-1955` | US, CH | [1](network.md#rel-hs30-027) |
 | US-DOL-ERISA-Regelungsentwurf vom 25.04.1978 (43 FR 17480) | historical_regulatory_document | `DOC-US-DOL-ERISA-PROPOSAL-1978` | US | [1](network.md#rel-us-dol-erisa-proposal-1978-001) |
 | US-Geschäftsbanken als berichtete Kreditgeber Chiles (1975) | historical_commercial_bank_cohort | `ORG-US-COMMERCIAL-BANKS-CHILE-1975` | US, CL | [1](network.md#rel-us-commercial-banks-chile-paris-condition-1975) |
 | US-Privatbank-Gläubigerverhandlungen mit Chile (1971–1972) | historical_commercial_bank_cohort | `ORG-US-CHILE-PRIVATE-CREDITOR-BANKS-1971` | US, CL | [3](network.md#rel-us-fncb-chile-bank-consortium-1971) |

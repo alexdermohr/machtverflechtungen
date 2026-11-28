@@ -6710,3 +6710,40 @@ sources:
   accessed: '2026-11-28'
   locator: TOP A, PDF S. 2–5; B 136/36145 und B 136/3105
   notes: Edition des Sitzungsprotokolls und internen Vermerks vom 11.11.1966. Aussagen und Vermutungen der Teilnehmer sind keine Zahlungsnachweise.
+
+- id: SRC-HS30-DODIS-8938
+  title: Lieferung von Waffen und Munition an die Bundesrepublik Deutschland
+  institution: Diplomatische Dokumente der Schweiz
+  date: '1954-03-06'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://www.dodis.ch/res/doc/DDS-19.PDF#page=343
+  accessed: '2026-11-28'
+  locator: DDS Bd. 19 Nr. 89 S. 240–243; E 1004.1(-)-/1/563; DoDiS-8938
+  notes: Antrag des EPD; S. 241–242 visuell geprüft. Er enthält zeitgenössische Angaben zu früheren Entscheidungen
+    und deutschen Erklärungen.
+- id: SRC-HS30-DODIS-12614
+  title: Mitbericht zum Antrag des Justiz- und Polizeidepartements betreffend Octogon
+  institution: Diplomatische Dokumente der Schweiz
+  date: '1955-10-29'
+  type: archival_document
+  primary: true
+  tier: A
+  url: https://www.dodis.ch/res/doc/DDS-20.PDF#page=190
+  accessed: '2026-11-28'
+  locator: DDS Bd. 20 Nr. 35 S. 86–87; E 2001(E)1972/33/296; DoDiS-12614
+  notes: Amtliche Edition, beide Seiten visuell geprüft. Bericht über US-Demarchen und vorgeschlagene, nicht nachgewiesen
+    vollzogene Maßnahmen.
+- id: SRC-HS30-UZH-BUEHRLE-2021
+  title: 'Kriegsgeschäfte, Kapital und Kunsthaus: die Entstehung der Sammlung Emil Bührle im historischen Kontext'
+  institution: Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte
+  date: '2021'
+  type: research_report
+  primary: false
+  tier: B
+  url: https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf
+  accessed: '2026-11-28'
+  locator: S. 132–133, Anm. 36–37
+  notes: Text geprüft, visuelle Prüfung wegen Dateigröße gescheitert. Provisionen 1939–1945 geschätzt; Parteigeldbehauptung
+    unbestätigt; Einbürgerungsjahr widerspricht Archivbiografie.
