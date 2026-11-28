@@ -1267,6 +1267,22 @@ studies:
     - REL-DE-BND-DYNAMIT-015
     - REL-DE-BND-DYNAMIT-016
 
+  barschel-affaere-akten-koko-finanzspur-1987-2025.md:
+    sha256: c43991d72086a60efb6a08c9182deced9a553523264298171ad0e4c29067b39c
+    status: network
+    relation_ids:
+      - REL-DE-BARSCHEL-001
+      - REL-DE-BARSCHEL-002
+      - REL-DE-BARSCHEL-003
+      - REL-DE-BARSCHEL-004
+      - REL-DE-BARSCHEL-005
+      - REL-DE-BARSCHEL-006
+      - REL-DE-BARSCHEL-007
+      - REL-DE-BARSCHEL-008
+      - REL-DE-BARSCHEL-009
+      - REL-DE-BARSCHEL-010
+      - REL-DE-BARSCHEL-011
+
   herrhausen-schuldenpolitik-1987-1989.md:
     sha256: da7b0c50941b05d7ba8d78b44eb7b64b1b7bd915b7093d7ca40d70608c6b088c
     status: network

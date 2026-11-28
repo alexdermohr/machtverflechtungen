@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**676 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**686 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -156,6 +156,7 @@
 | Ulrich Schmücker | person | `PER-DE-ULRICH-SCHMUECKER` | DE | [2](network.md#rel-raf-schmuecker-nonne-017) |
 | Ulrich Wilhelm | person | `PER-DE-ULRICH-WILHELM` | DE | [1](network.md#rel-de-tmn-042) |
 | Umberto Ortolani (1913–2002) | person | `PER-IT-UMBERTO-ORTOLANI` | IT | [2](network.md#rel-it-rizzoli-ortolani-1978-001) |
+| Uwe Barschel | person | `PER-DE-UWE-BARSCHEL` | DE | [1](network.md#rel-de-barschel-007) |
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
 | Volker von Weingraber | person | `PER-DE-VOLKER-VON-WEINGRABER` | DE | [1](network.md#rel-raf-schmuecker-nonne-003) |
 | VP01 (LKA NRW, Amri-Komplex) | person | `PER-DE-VP01-AMRI` | DE | [2](network.md#rel-de-amri-001) |
@@ -179,6 +180,7 @@
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | 1. Max Warburg Beteiligungsgesellschaft mbH (MWB 1) | financial_holding | `ORG-DE-WARBURG-MWB1-2023` | DE | [3](network.md#rel-de-warburg-fmwv-mwb1-2013-001) |
+| 1. Untersuchungsausschuss des SH-Landtags (13. Wahlperiode) | parliamentary_committee | `ORG-DE-SH-LT-UA-1993` | DE | [1](network.md#rel-de-barschel-004) |
 | 40 Committee (1972) | historical_covert_action_oversight_committee | `ORG-US-40-COMMITTEE-1972` | US | [1](network.md#rel-us-40-committee-el-mercurio-support-approval-1972) |
 | A.T.G. (panamaische Gesellschaft, 1991) | historical_offshore_company | `ORG-PA-ATG-1991` | PA | [2](network.md#rel-de-ab-thyssen-atg-1991-001) |
 | AB Svensk Exportkredit (SEK, SIVAM) | historical_export_credit_institution | `ORG-SE-SVENSK-EXPORTKREDIT-SIVAM-1997` | SE | [1](network.md#rel-ws-sek-cayman) |
@@ -245,8 +247,10 @@
 | Barclays Bank (Polen-Verhandlungen 1993) | commercial_bank | `ORG-GB-BARCLAYS-1993` | GB | [1](network.md#rel-de-herrhausen-fin-016) |
 | Bavaria Film GmbH (2005) | historical_company | `ORG-DE-BAVARIA-FILM-2005` | DE | [7](network.md#rel-de-marienhof-007) |
 | Bavaria Sonor (Placement-Abwicklung 2002–2005) | historical_company | `ORG-DE-BAVARIA-SONOR-2005` | DE | [2](network.md#rel-de-marienhof-004) |
+| Bayerische Staatskanzlei | government_agency | `ORG-DE-BAY-STAATSKANZLEI` | DE | [1](network.md#rel-de-barschel-010) |
 | Bayerischer Ministerrat | state_government | `ORG-DE-BY-MINISTERRAT` | DE | [3](network.md#rel-de-bdj-010) |
 | Bayerischer Rundfunk | public_broadcaster | `ORG-DE-BR` | DE | [3](network.md#rel-de-marienhof-010) |
+| Bayerisches Staatsministerium der Justiz | government_ministry | `ORG-DE-BAY-JUSTIZMINISTERIUM` | DE | [2](network.md#rel-de-barschel-010) |
 | Bayerisches Staatsministerium des Innern | organization | `ORG-DE-BAYSTMI` | DE | – |
 | BCCI-Gruppe (Bank of Credit and Commerce International) | banking_group | `ORG-INT-BCCI` | LU, KY, GB, US | [3](network.md#rel-int-bcci-001) |
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
@@ -269,7 +273,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [10](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [14](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
@@ -277,6 +281,7 @@
 | Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [9](network.md#rel-ulf-kanzleramt-mykonos) |
 | Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [12](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
+| Bundesministerium der Justiz (1993) | government_ministry | `ORG-DE-BMJ-1993` | DE | [2](network.md#rel-de-barschel-003) |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
 | Bundesministerium der Verteidigung (1966) | federal_ministry | `ORG-DE-BMVG-1966` | DE | [3](network.md#rel-de-bnd-dynamit-001) |
 | Bundesministerium der Verteidigung (BMVg, Psychologische Verteidigung 1981–1990) | federal_ministry | `ORG-DE-BMVG-PSV-1981-1990` | DE | [3](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
@@ -285,13 +290,13 @@
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [38](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [39](network.md#rel-de-gehlen-001) |
 | Bundesregierung (deutsch-polnische Umschuldung 1992) | historical_government | `ORG-DE-BUNDESREGIERUNG-1992` | DE | [1](network.md#rel-de-herrhausen-fin-007) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
 | Bundesverfassungsgericht | constitutional_court | `ORG-DE-BVERFG` | DE | [1](network.md#rel-de-bnd-media-002) |
-| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [4](network.md#rel-de-kauka-008) |
+| Bundesverwaltungsgericht | government_agency | `ORG-DE-BVERWG` | DE | [6](network.md#rel-de-kauka-008) |
 | Bundeswehr | military_organization | `ORG-DE-BUNDESWEHR` | DE | [3](network.md#rel-de-da-006) |
 | CCEI Bank GE (2003–2008) | commercial_bank | `ORG-GQ-CCEI-BANK-2003-2008` | GQ | [4](network.md#rel-riggs-post-2004-003) |
 | Central Intelligence Agency | intelligence_service | `ORG-US-CIA` | US | [19](network.md#rel-de-mni-006) |
@@ -410,7 +415,7 @@
 | Fundusz Obsługi Zadłużenia Zagranicznego (FOZZ) | historical_financial_institution | `ORG-PL-FOZZ-1989` | PL | [6](network.md#rel-pl-fozz-002) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [8](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [10](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -438,6 +443,7 @@
 | IN Groupe | state_owned_company | `ORG-FR-IN-GROUPE` | FR | [1](network.md#rel-mauss-pmt-032) |
 | Industrias de Celulosa Arauco S.A. (Chile, 1974) | historical_industrial_borrower | `ORG-CL-INDUSTRIAS-ARAUCO-1974` | CL | [1](network.md#rel-us-bofa-arauco-chile-1974) |
 | Initiative Neue Soziale Marktwirtschaft (INSM) | organization | `ORG-DE-INSM` | DE | [4](network.md#rel-de-marienhof-001) |
+| Innenministerium Schleswig-Holstein (1993) | government_ministry | `ORG-DE-SH-INNENMINISTERIUM-1993` | DE | [1](network.md#rel-de-barschel-002) |
 | Institute for Defense Analyses | research_institute | `ORG-US-IDA` | US | [1](network.md#rel-ulf-woolsey-ida) |
 | Insured Aircraft Title Service(s) (2006) | escrow_service | `ORG-INT-INSURED-AIRCRAFT-TITLE-SERVICE-2006` |  | [2](network.md#rel-riggs-post-2004-021) |
 | Inter-Alpha Group (Gruppo di Banche Inter-Alpha) | banking_cooperation_network | `ORG-INT-INTERALPHA-BANKENKOOPERATION` | IT, NL, DE, FR, BE, GB, DK | [3](network.md#rel-int-interalpha-1979-001) |
@@ -460,6 +466,7 @@
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
+| Landesamt für Verfassungsschutz Schleswig-Holstein | intelligence_service | `ORG-DE-LFV-SH` | DE | [1](network.md#rel-de-barschel-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [3](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
 | Landeskriminalamt Nordrhein-Westfalen | police_authority | `ORG-DE-LKA-NRW` | DE | [4](network.md#rel-de-amri-001) |
@@ -586,6 +593,8 @@
 | Sozialdemokratische Partei Deutschlands (SPD) | political_party | `ORG-DE-SPD` | DE | [1](network.md#rel-de-gehlen-007) |
 | Sperrerklärung im Mykonos-Ermittlungsverfahren (04.12.1992) | official_document | `DOC-DE-MYKONOS-ERMITTLUNG-1992` | DE | [1](network.md#rel-ulf-kanzleramt-mykonos) |
 | Staatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-STA-BERLIN` | DE | [3](network.md#rel-raf-schmuecker-nonne-004) |
+| Staatsanwaltschaft Lübeck | prosecution_authority | `ORG-DE-STA-LUEBECK` | DE | [1](network.md#rel-de-barschel-009) |
+| Staatsanwaltschaft München I | prosecution_authority | `ORG-DE-STA-MUENCHEN-I` | DE | [2](network.md#rel-de-barschel-009) |
 | Staatsanwaltschaft Wiesbaden | prosecution_authority | `ORG-DE-STA-WIESBADEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-015) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
@@ -631,6 +640,7 @@
 | UBS London (2006) | commercial_bank | `ORG-GB-UBS-LONDON-2006` | GB, CH | [1](network.md#rel-riggs-post-2004-022) |
 | UBS Panama (berichtete historische Bankverbindung) | commercial_bank | `ORG-PA-UBS-1985` | PA | [1](network.md#rel-mauss-offshore-005) |
 | UK Home Office | government_agency | `ORG-GB-HOME-OFFICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
+| Unbenannter ausländischer Nachrichtendienst (BfV-Akten 1990) | intelligence_service | `ORG-INT-UNBENANNTER-DIENST-BARSCHEL-1990` |  | [1](network.md#rel-de-barschel-005) |
 | Union Bank of California, N.A. (UBOC) | historical_commercial_bank | `ORG-US-UNION-BANK-OF-CALIFORNIA-2007` | US | [8](network.md#rel-riggs-post-2004-013) |
 | Union de Banques Suisses (UBS Genf, historische Kontoführung 1980/81) | historical_commercial_bank | `ORG-CH-UBS-GENEVA-1980` | CH | [3](network.md#rel-ch-ubs-gelli-1981-001) |
 | UnionBanCal Corporation (2007) | bank_holding_company | `ORG-US-UNIONBANCAL-2007` | US | [2](network.md#rel-riggs-post-2004-033) |
