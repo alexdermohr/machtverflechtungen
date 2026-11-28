@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**616 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**619 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -4160,6 +4160,21 @@ Fundstelle: Pressemitteilung 6/2026, LVerfG 7/25
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lverfg-725-urteil"></a>
+### Landesverfassungsgericht Mecklenburg-Vorpommern
+
+**[Urteil LVerfG 7/25 vom 9. Juli 2026](https://www.mv-justiz.de/static/MVJ/Gerichte/Landesverfassungsgericht/Entscheidungen/2026/7-25%20Urteil%20anonym.pdf)**
+
+Landesverfassungsgericht Mecklenburg-Vorpommern · 2026-07-09 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LVERFG-725-URTEIL`
+
+[PDF öffnen](https://www.mv-justiz.de/static/MVJ/Gerichte/Landesverfassungsgericht/Entscheidungen/2026/7-25%20Urteil%20anonym.pdf)
+
+Fundstelle: S. 4, 9, 15–28
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
 
 <a id="src-de-bwlt-stammheim-2007"></a>
@@ -4192,6 +4207,21 @@ Fundstelle: Gedruckte S. 58, 73–75, 86–90, 112, 158–159; PDF-Bildindex jew
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
 
+<a id="src-de-amri-mv-lt-84357"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Nutzung von Fake-Accounts in Chatgruppen durch das Amt für Verfassungsschutz des Landes Mecklenburg-Vorpommern](https://www.dokumentation.landtag-mv.de/parldok/dokument/63177/8_4357_nutzung_von_fake_accounts_in_chatgruppen_durch_das_amt_fuer_verfassungsschutz_des_landes_mecklenburg_vorpommern)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-01-15 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-84357`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/63177/8_4357_nutzung_von_fake_accounts_in_chatgruppen_durch_das_amt_fuer_verfassungsschutz_des_landes_mecklenburg_vorpommern)
+
+Fundstelle: S. 2–5, Fragen 1–4 und 7b
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2025">
+
 <a id="src-de-amri-mv-reform-85416"></a>
 ### Landtag Mecklenburg-Vorpommern / Landesregierung
 
@@ -4202,6 +4232,21 @@ Landtag Mecklenburg-Vorpommern / Landesregierung · 2025-10-29 · Stufe **A** ·
 [Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/67635/8_5416_drittes_gesetz_zur_aenderung_des_landesverfassungsschutzgesetzes)
 
 Fundstelle: Drs. 8/5416, S. 75, zu Nr. 26 (§ 29a)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-amri-mv-lt-954"></a>
+### Landtag Mecklenburg-Vorpommern / Landesregierung
+
+**[Vollständige Beantwortung der Kleinen Anfrage auf Drucksache 8/4357](https://www.dokumentation.landtag-mv.de/parldok/dokument/72374)**
+
+Landtag Mecklenburg-Vorpommern / Landesregierung · 2026-11-12 · Stufe **A** · Primärquelle · `SRC-DE-AMRI-MV-LT-954`
+
+[Seite öffnen](https://www.dokumentation.landtag-mv.de/parldok/dokument/72374)
+
+Fundstelle: S. 1–3, Fragen 1 und 2
 
 </article>
 
