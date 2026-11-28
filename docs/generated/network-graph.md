@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**919 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**923 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1609,6 +1609,12 @@ flowchart LR
     N_ORG_IT_AISI["Agenzia informazioni e sicurezza interna (AISI)"]
     N_ORG_IT_AISI -->|"Mitteilung vom 14.12.2011 über behauptete europäische Netzwerkdimension; Original nicht eingesehen, tatsächliches Netzwerk nicht nachgewiesen"| N_ORG_DE_BFV
     N_ORG_DE_HH_SENAT -->|"Antwort 85 vom 30.05.2023 verweist auf Third-Party-Rule und Bundeszuständigkeit; Eingang der Italien-Hinweise beim Hamburger LfV und konkrete Freigabeanfragen offen"| N_ORG_DE_HH_BUERGERSCHAFT
+    N_ORG_DE_BT_NSU_UA1_2012_2013["Erster NSU-Untersuchungsausschuss des Bundestages (17. Wahlperiode)"]
+    N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG["Bernd von Heintschel-Heinegg"]
+    N_ORG_DE_BT_NSU_UA1_2012_2013 -->|"Bestellung zum Ermittlungsbeauftragten nach § 10 PUAG am 08.03.2012"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
+    N_ORG_DE_GBA -->|"Historische Sichtung von 140 Hamburger staatsanwaltlichen Haupt-, Spuren- und Nebenakten beim GBA; kein Nachweis aktuellen Bestands"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
+    N_ORG_DE_HH_POLIZEI -->|"Historische Sichtung von 95 neuen Spurenakten und 26 Neben-/Beiakten beim LKA Hamburg; Kopien für Ausschuss gestattet; heutiger Bestand offen"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
+    N_ORG_DE_BFV -->|"Dezember 2012 bis Februar 2013 Sichtung 356 Ordner einschließlich ungeschwärzter Akten zu fünf Quellen; kein Nachweis vollständiger Überlieferung"| N_PER_DE_BERND_VON_HEINTSCHEL_HEINEGG
 ```
 
 [Zur Relationstabelle](network.md)

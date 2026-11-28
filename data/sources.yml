@@ -7212,3 +7212,27 @@ sources:
   accessed: "2026-11-28"
   locator: "Passage zur Third Party Rule und unabhängigen geheimschutzfähigen Rechtskontrolle (amtlich indexierter Text)"
   notes: "Volltextabruf fehlgeschlagen; verfassungsrechtlicher Vergleich, keine Einzelfallentscheidung zur Hamburger Aufarbeitung."
+
+- id: SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013
+  title: "Bericht des Ermittlungsbeauftragten Prof. Dr. Bernd von Heintschel-Heinegg"
+  institution: "Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)"
+  date: "2013-03-25"
+  type: parliamentary_inquiry_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2001.pdf
+  accessed: "2026-11-28"
+  locator: "S. 15–22, 30–31, 34–36; Anlagen 2–3 nur im Verzeichnis"
+  notes: "Eigener Tätigkeitsbericht innerhalb derselben parlamentarischen Untersuchung wie 17/14600; nicht unabhängige Bestätigung sämtlicher Akteninhalte. Text; S. 29–30 bildseitig geprüft; sonstige einschlägige Seitenbilder fehlgeschlagen. Geheime Anlagen nicht eingesehen."
+
+- id: SRC-DE-BT-NSU-UA-PROT41-20121122
+  title: "NSU-Untersuchungsausschuss: öffentliche Zeugenvernehmung, 41. Sitzung"
+  institution: "Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)"
+  date: "2012-11-22"
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2041.pdf
+  accessed: "2026-11-28"
+  locator: "S. 139–140, Fragen Petermann und Pau, Antworten Förster"
+  notes: "Endgültige öffentliche Niederschrift, amtlicher Text. Frage zu fehlender Vorlage und Erinnerungslücke; kein Beleg der Wahrheit der zitierten Medienbehauptungen. Seitenbild nicht abrufbar."

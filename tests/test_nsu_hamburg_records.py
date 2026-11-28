@@ -62,10 +62,18 @@ class HamburgRecordsTest(unittest.TestCase):
         self.assertIn("Freigabeanfragen offen", rels["REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001"]["label"])
         self.assertIn("anderweitige Überlieferung offen", rels["REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001"]["label"])
 
+    def test_historical_access_not_current_inventory(self):
+        rels = {r["id"]: r for r in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]}
+        self.assertIn("kein Nachweis aktuellen Bestands", rels["REL-DE-NSU-GBA-ERMITTLUNGSBEAUFTRAGTER-HH-001"]["label"])
+        self.assertIn("heutiger Bestand offen", rels["REL-DE-NSU-HH-POL-ERMITTLUNGSBEAUFTRAGTER-001"]["label"])
+        self.assertIn("ungeschwärzter Akten zu fünf Quellen", rels["REL-DE-NSU-BFV-ERMITTLUNGSBEAUFTRAGTER-001"]["label"])
+        self.assertIn("SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013", rels["REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001"]["sources"])
+        self.assertNotIn("period", rels["REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001"])
+
     def test_study_exact_integration(self):
         reg = yaml.safe_load((ROOT / "data/research-integrations.yml").read_text())
         entry = reg["studies"][STUDY]
-        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {'REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001', 'REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001', 'REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001', 'REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001'} | {'REL-DE-NSU-HH-POL-ARCHIV-2025-001', 'REL-DE-NSU-HH-POL-GBA-FREIGABE-2023-001', 'REL-DE-NSU-HH-LFV-AUSWAHL-2025-001'} | {'REL-DE-NSU-HH-SENAT-PKA-2017-001', 'REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001', 'REL-DE-NSU-HH-GBA-2026-001', 'REL-DE-NSU-HH-DSB-PKA-2016-001'})
+        self.assertEqual(set(entry["relation_ids"]), RELATIONS | {'REL-DE-NSU-UA1-ERMITTLUNGSBEAUFTRAGTER-2012-001', 'REL-DE-NSU-GBA-ERMITTLUNGSBEAUFTRAGTER-HH-001', 'REL-DE-NSU-BFV-ERMITTLUNGSBEAUFTRAGTER-001', 'REL-DE-NSU-HH-POL-ERMITTLUNGSBEAUFTRAGTER-001'} | {'REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001', 'REL-IT-DE-NSU-SISDE-BFV-HINWEIS-2003-001', 'REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001', 'REL-DE-NSU-HH-POL-PMK-LUECKE-2023-001'} | {'REL-DE-NSU-HH-POL-ARCHIV-2025-001', 'REL-DE-NSU-HH-POL-GBA-FREIGABE-2023-001', 'REL-DE-NSU-HH-LFV-AUSWAHL-2025-001'} | {'REL-DE-NSU-HH-SENAT-PKA-2017-001', 'REL-DE-NSU-HH-LFV-FORSCHUNG-BESTAND-2025-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-FORSCHUNG-2023-001', 'REL-DE-NSU-HH-BUERGERSCHAFT-SENAT-SICHERUNG-2023-001', 'REL-DE-NSU-HH-GBA-2026-001', 'REL-DE-NSU-HH-DSB-PKA-2016-001'})
         self.assertEqual(entry["sha256"], hashlib.sha256((ROOT / "research" / STUDY).read_bytes()).hexdigest())
 
 if __name__ == "__main__":

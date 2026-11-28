@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**633 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**635 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -3444,6 +3444,36 @@ Deutscher Bundestag, 14. Wahlperiode · 2002-06-13 · Stufe **A** · Primärquel
 [PDF öffnen](https://dserver.bundestag.de/btd/14/093/1409300.pdf)
 
 Fundstelle: Druck-S. 164 Mitgliedschaft Schreiber bei Atlantik-Brücke; S. 353–355 Schreiber–Kiep–Kohl-Briefwechsel und Kieps Aussage zum Briefkopf (insb. PDF Seite 354) sowie 28.05.1993-Folgeschreiben; S. 374 Schreiber-A.T.G.-Thyssen und 1-Mio.-DM-CDU-Parteispende 1991 (PDF Seite 374); S. 383 Fuchs-Besprechungsbitte 1991
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2012">
+
+<a id="src-de-bt-nsu-ua-prot41-20121122"></a>
+### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
+
+**[NSU-Untersuchungsausschuss: öffentliche Zeugenvernehmung, 41. Sitzung](https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2041.pdf)**
+
+Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2012-11-22 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-UA-PROT41-20121122`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Protokolle/Protokoll-Nr%2041.pdf)
+
+Fundstelle: S. 139–140, Fragen Petermann und Pau, Antworten Förster
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bt-nsu-ermittlungsbeauftragter-2013"></a>
+### Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode)
+
+**[Bericht des Ermittlungsbeauftragten Prof. Dr. Bernd von Heintschel-Heinegg](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2001.pdf)**
+
+Deutscher Bundestag, 2. Untersuchungsausschuss (17. Wahlperiode) · 2013-03-25 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/CD14600/Dokumente/Dokument%2001.pdf)
+
+Fundstelle: S. 15–22, 30–31, 34–36; Anlagen 2–3 nur im Verzeichnis
 
 </article>
 

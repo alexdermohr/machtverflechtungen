@@ -3809,3 +3809,13 @@ entities:
     type: document
     name: "Historischer Hamburger polizeilicher PMK-Datenbestand bis 2011"
     countries: [DE]
+
+  - id: PER-DE-BERND-VON-HEINTSCHEL-HEINEGG
+    type: person
+    name: "Bernd von Heintschel-Heinegg"
+    countries: [DE]
+
+  - id: ORG-DE-BT-NSU-UA1-2012-2013
+    type: parliamentary_committee
+    name: "Erster NSU-Untersuchungsausschuss des Bundestages (17. Wahlperiode)"
+    countries: [DE]

@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**677 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**679 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -21,6 +21,7 @@
 | Augusto Pinochet | person | `PER-CL-AUGUSTO-PINOCHET` | CL | [3](network.md#rel-us-riggs-pinochet-accounts-1979-2004) |
 | Berge Aris Balanian | person | `PER-INT-BERGE-BALANIAN` | DE, LB | [2](network.md#rel-ulf-balanian-contact) |
 | Bernd Schmidbauer | person | `PER-DE-BERND-SCHMIDBAUER` | DE | [8](network.md#rel-ulf-fallahian-schmidbauer) |
+| Bernd von Heintschel-Heinegg | person | `PER-DE-BERND-VON-HEINTSCHEL-HEINEGG` | DE | [4](network.md#rel-de-nsu-ua1-ermittlungsbeauftragter-2012-001) |
 | Bruno Tassan Din | person | `PER-IT-BRUNO-TASSAN-DIN` | IT | [3](network.md#rel-it-rizzoli-tassandin-1980-001) |
 | C. Fred Bergsten | person | `PER-US-C-FRED-BERGSTEN` | US | [2](network.md#rel-us-bergsten-opic-board-1977) |
 | Carlo Caracciolo (1925–2008) | person | `PER-IT-CARLO-CARACCIOLO` | IT | [1](network.md#rel-it-p2-presspact-caracciolo-1979-001) |
@@ -265,7 +266,7 @@
 | Brave1 Dataroom | military_ai_platform | `PRG-UA-BRAVE1-DATAROOM` | UA | [1](network.md#rel-ua-brave1-palantir-software-2026) |
 | Brilliant 310. GmbH (im Springer-Vertrag 2006) | historical_holding_company | `ORG-DE-BRILLIANT-310-2006` | DE | [3](network.md#rel-de-brilliant-springer-vink-2006-001) |
 | Bund Deutscher Jugend | organization | `ORG-DE-BDJ` | DE | [6](network.md#rel-de-bdj-001) |
-| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [21](network.md#rel-de-nsu-akt-001) |
+| Bundesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BFV` | DE | [22](network.md#rel-de-nsu-akt-001) |
 | Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin, im Verfahren 2023) | financial_supervisor | `ORG-DE-BAFIN-2023` | DE | [1](network.md#rel-de-warburg-bafin-direct-2023-001) |
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
@@ -363,6 +364,7 @@
 | Equatorial Guinea Multi-Partner Trust Fund (GNQ00) | multilateral_trust_fund | `PRG-GQ-MPTF-GNQ00` | GQ | [6](network.md#rel-riggs-post-2004-054) |
 | ERISA-betroffene US-Pensionspläne (historisch 1979) | historical_pension_system | `PRG-US-ERISA-PENSION-PLANS-1979` | US | [2](network.md#rel-us-erisa-rule-portfolio-1979-001) |
 | ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
+| Erster NSU-Untersuchungsausschuss des Bundestages (17. Wahlperiode) | parliamentary_committee | `ORG-DE-BT-NSU-UA1-2012-2013` | DE | [1](network.md#rel-de-nsu-ua1-ermittlungsbeauftragter-2012-001) |
 | ESCA – Engenharia de Controle e Automação S.A. | historical_company | `ORG-BR-ESCA` | BR | [5](network.md#rel-ws-esca-sivam) |
 | Espírito Santo Bank (Miami) | commercial_bank | `ORG-US-ESPIRITO-SANTO-BANK-MIAMI` | US, PT | [6](network.md#rel-riggs-followup-006) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
@@ -399,7 +401,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [16](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [17](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -535,7 +537,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
-| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [5](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
+| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [6](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |

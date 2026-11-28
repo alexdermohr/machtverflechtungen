@@ -8415,7 +8415,7 @@ relations:
     type: transferred_case_records
     label: "Senat 2023: Ermittlungsakten Anfang 2012 an GBA geleitet; laut Antwort 09.12.2022 nicht zurückgegeben; genauer Übergabetag offen"
     evidence_level: established
-    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661, SRC-DE-HH-NSU-FREIGABEN-2212170]
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312, SRC-DE-HH-NSU-2014-2011661, SRC-DE-HH-NSU-FREIGABEN-2212170, SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
 
   - id: REL-DE-NSU-HH-DSB-PKA-2016-001
     from: ORG-DE-HH-DSB
@@ -8499,7 +8499,7 @@ relations:
     type: transmitted_intelligence_tip
     label: "Italienischer Hinweis Februar 2003 auf mutmaßliches militantes Netzwerk; BfV laut eigener Darstellung nur Datenbankabfragen; kein erwiesener NSU-Bezug, Originalabsenderzeile offen"
     evidence_level: established
-    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013, SRC-IT-INTELLIGENCE-124-2007]
+    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013, SRC-IT-INTELLIGENCE-124-2007, SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
 
   - id: REL-IT-DE-NSU-AISI-BFV-HINWEIS-2011-001
     from: ORG-IT-AISI
@@ -8508,7 +8508,7 @@ relations:
     label: "Mitteilung vom 14.12.2011 über behauptete europäische Netzwerkdimension; Original nicht eingesehen, tatsächliches Netzwerk nicht nachgewiesen"
     period: {start: "2011-12-14"}
     evidence_level: established
-    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013]
+    sources: [SRC-DE-BT-NSU-1714600-ITALIEN-2013, SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
 
   - id: REL-DE-NSU-HH-SENAT-BUERGERSCHAFT-THIRD-PARTY-2023-001
     from: ORG-DE-HH-SENAT
@@ -8518,3 +8518,36 @@ relations:
     period: {start: "2023-05-30"}
     evidence_level: established
     sources: [SRC-DE-HH-NSU-KONTROLLE-2211825, SRC-DE-BT-THIRD-PARTY-1812297]
+
+  - id: REL-DE-NSU-UA1-ERMITTLUNGSBEAUFTRAGTER-2012-001
+    from: ORG-DE-BT-NSU-UA1-2012-2013
+    to: PER-DE-BERND-VON-HEINTSCHEL-HEINEGG
+    type: appointed_investigator
+    label: "Bestellung zum Ermittlungsbeauftragten nach § 10 PUAG am 08.03.2012"
+    period: {start: "2012-03-08"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
+
+  - id: REL-DE-NSU-GBA-ERMITTLUNGSBEAUFTRAGTER-HH-001
+    from: ORG-DE-GBA
+    to: PER-DE-BERND-VON-HEINTSCHEL-HEINEGG
+    type: provided_records_access
+    label: "Historische Sichtung von 140 Hamburger staatsanwaltlichen Haupt-, Spuren- und Nebenakten beim GBA; kein Nachweis aktuellen Bestands"
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
+
+  - id: REL-DE-NSU-HH-POL-ERMITTLUNGSBEAUFTRAGTER-001
+    from: ORG-DE-HH-POLIZEI
+    to: PER-DE-BERND-VON-HEINTSCHEL-HEINEGG
+    type: provided_records_access
+    label: "Historische Sichtung von 95 neuen Spurenakten und 26 Neben-/Beiakten beim LKA Hamburg; Kopien für Ausschuss gestattet; heutiger Bestand offen"
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
+
+  - id: REL-DE-NSU-BFV-ERMITTLUNGSBEAUFTRAGTER-001
+    from: ORG-DE-BFV
+    to: PER-DE-BERND-VON-HEINTSCHEL-HEINEGG
+    type: provided_records_access
+    label: "Dezember 2012 bis Februar 2013 Sichtung 356 Ordner einschließlich ungeschwärzter Akten zu fünf Quellen; kein Nachweis vollständiger Überlieferung"
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-ERMITTLUNGSBEAUFTRAGTER-2013]
