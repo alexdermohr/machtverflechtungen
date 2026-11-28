@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**881 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**904 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1543,6 +1543,44 @@ flowchart LR
     N_ORG_DE_BAY_JUSTIZMINISTERIUM["Bayerisches Staatsministerium der Justiz"]
     N_ORG_DE_BAY_STAATSKANZLEI -->|"Leitete Eingabe vom 23.10.2023 zuständigkeitshalber weiter; genaues Weiterleitungsdatum nicht genannt"| N_ORG_DE_BAY_JUSTIZMINISTERIUM
     N_ORG_DE_BAY_JUSTIZMINISTERIUM -->|"Weiterleitung derselben Eingabe an Staatsanwaltschaft; genaues Datum nicht genannt"| N_ORG_DE_STA_MUENCHEN_I
+    N_ORG_DE_DRESDNER_BANK_BERLIN_1982["Dresdner Bank Berlin AG (ab 1982; bis 1989 Bank für Handel und Industrie AG)"]
+    N_ORG_DE_SCHEURMANN_BANK_KG["Otto Scheurmann Bank-KG (West-Berlin)"]
+    N_ORG_DE_DRESDNER_BANK_BERLIN_1982 -->|"Laut KoKo-Ergänzungsbericht seit 1982 vollständige Tochter; keine Kenntnis der Mutter von Einzelgeschäften daraus"| N_ORG_DE_SCHEURMANN_BANK_KG
+    N_PER_CH_MAX_MOSER_BANKIER["Max Moser (Bankier, KoKo-Komplex)"]
+    N_ORG_LI_MONDESSA_1980["Anstalt Mondessa (Liechtenstein, 1980–1991)"]
+    N_PER_CH_MAX_MOSER_BANKIER -->|"Regte Gründung der Anstalt am 14.04.1980 an (Ausschussbericht S. 27); keine Eigentümerstellung daraus"| N_ORG_LI_MONDESSA_1980
+    N_ORG_LI_MONDESSA_1980 -->|"Kontenverbindung seit 1980 durch Ausschussbericht und Vollmachtsbestätigungen dokumentiert; Kontoinhaber Mondessa"| N_ORG_DE_SCHEURMANN_BANK_KG
+    N_ORG_CH_BHE_ZUERICH["Bank für Handel und Effekten (BHE, Zürich)"]
+    N_ORG_LI_MONDESSA_1980 -->|"Ausschuss referiert Eröffnung eines Züricher Kontos am 18.01.1985; kein individueller Zahlungsnachweis"| N_ORG_CH_BHE_ZUERICH
+    N_ORG_BS_BHE_OVERSEAS_1987["BHE (Overseas) Limited (Nassau, 1987)"]
+    N_ORG_LI_MONDESSA_1980 -->|"Konteneröffnung in Nassau am 03.12.1987 laut Dokument 36 im Ausschussbericht"| N_ORG_BS_BHE_OVERSEAS_1987
+    N_ORG_BS_BHE_OVERSEAS_1987 -->|"Treuhandvertrag 03.12.1987: Auftrag zur Anlage für Mondessas Rechnung; keine Aussage über konkrete Anlageausführung"| N_ORG_LI_MONDESSA_1980
+    N_ORG_DE_SCHEURMANN_BANK_KG -->|"Korrespondenzbankbeziehung zur Abwicklung von KoKo-Transaktionen über Mondessa (S. 27)"| N_ORG_CH_BHE_ZUERICH
+    N_PER_DE_SCHALCK_GOLODKOWSKI["Alexander Schalck-Golodkowski"]
+    N_PER_DE_SCHALCK_GOLODKOWSKI -->|"Kontovollmachten laut Ausschuss und referenzierten Bankunterlagen; keine wirtschaftliche Eigentümerstellung daraus"| N_ORG_LI_MONDESSA_1980
+    N_PER_CH_MAX_MOSER_BANKIER -->|"Verwaltete laut Ausschussbericht die Mondessa-Konten (S. 27)"| N_ORG_LI_MONDESSA_1980
+    N_ORG_DDR_KOKO["Bereich Kommerzielle Koordinierung (KoKo, DDR)"]
+    N_ORG_DE_SCHEURMANN_BANK_KG -->|"Staatsanwaltschaft ermittelte ca. 85 Mio. DM Bargeldabhebungen über Mondessa 1982–1989; endgültige Verwendung ungeklärt"| N_ORG_DDR_KOKO
+    N_PER_DE_HANS_JUERGEN_LABORN["Hans-Jürgen Laborn (Bankier, KoKo-Komplex)"]
+    N_PER_DE_HANS_JUERGEN_LABORN -->|"Leiter der Bank und persönlich haftender Gesellschafter; Kontoverwaltung ab Ende 1982 laut Ausschussbericht"| N_ORG_DE_SCHEURMANN_BANK_KG
+    N_ORG_DE_LG_BERLIN_1998["Landgericht Berlin (Wirtschaftsstrafkammer, 1998)"]
+    N_ORG_DE_LG_BERLIN_1998 -->|"Rechtskräftige Geldstrafe vom 03.03.1998 wegen Verstoßes gegen Verordnung Nr. 500 laut BT 13/10900"| N_PER_CH_MAX_MOSER_BANKIER
+    N_ORG_DE_LG_BERLIN_1998 -->|"Rechtskräftige Geldstrafe vom 03.03.1998 wegen Verstoßes gegen Verordnung Nr. 500; kein Untreueschuldspruch aus diesem Befund"| N_PER_DE_HANS_JUERGEN_LABORN
+    N_ORG_DE_LFV_BERLIN_1988["Landesamt für Verfassungsschutz Berlin (1988)"]
+    N_ORG_DE_BND -->|"BND-Selbstbericht: 1988 Amtshilfe mit Erkenntnissen zu Schalck; kein Tatbezug zu Barschel"| N_ORG_DE_LFV_BERLIN_1988
+    N_ORG_DE_BUNDESKANZLERAMT -->|"BND-Selbstbericht: Freigabe quellenbereinigter Aktenübergabe an Berliner Generalstaatsanwalt 15.12.1989"| N_ORG_DE_BND
+    N_ORG_DE_BND -->|"BND-Selbstbericht: quellenbereinigte Unterlagen am 15.12.1989 übergeben"| N_ORG_DE_GENSTA_BERLIN
+    N_PER_DE_LUTZ_STAVENHAGEN["Lutz Stavenhagen (Staatsminister beim Bundeskanzler, 1990)"]
+    N_PER_DE_LUTZ_STAVENHAGEN -->|"BND-Selbstbericht: autorisierte Befragung Schalcks im Januar 1990; keine Straffreiheitszusage daraus"| N_ORG_DE_BND
+    N_ORG_DE_BND -->|"BND-Selbstbericht: Befragungen ab 22.01.1990; schrittweise Kontaktbegrenzung ab Oktober 1990, letzter persönlicher Kontakt 20.02.1991"| N_PER_DE_SCHALCK_GOLODKOWSKI
+    N_PER_DE_KARL_OTTO_POEHL["Karl Otto Pöhl (Bundesbankpräsident, 1990)"]
+    N_ORG_DE_BND -->|"BND-Selbstbericht nennt Schreiben 30/31C-0120/90 zur DDR-Verschuldung vom 09.03.1990"| N_PER_DE_KARL_OTTO_POEHL
+    N_PER_DE_WOLFGANG_SCHAEUBLE_1990["Wolfgang Schäuble (Bundesinnenminister, 1990)"]
+    N_PER_DE_SCHALCK_GOLODKOWSKI -->|"BND-Selbstbericht nennt direkten Bericht über KoKo-Finanzsituation vom 15.06.1990"| N_PER_DE_WOLFGANG_SCHAEUBLE_1990
+    N_ORG_DE_TREUHANDANSTALT_1990["Treuhandanstalt (1990)"]
+    N_ORG_DE_BND -->|"BND-Selbstbericht nennt Informationsgespräche mit Treuhandvertretern; genaue Termine und Inhalte nicht angegeben"| N_ORG_DE_TREUHANDANSTALT_1990
+    N_ORG_DE_BND -->|"BND-Selbstbericht nennt Informationsgespräche mit BKA; keine vollständige Weitergabe aller Erkenntnisse daraus"| N_ORG_DE_BKA
+    N_PER_DE_SCHALCK_GOLODKOWSKI -->|"BND-Bericht und KoKo-Ausschuss bezeichnen ihn als Leiter des Bereichs; keine wirtschaftliche Eigentümerstellung daraus"| N_ORG_DDR_KOKO
 ```
 
 [Zur Relationstabelle](network.md)

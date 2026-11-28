@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**592 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**601 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1342,6 +1342,21 @@ Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1999">
+
+<a id="src-de-koko-bgh-5str9799"></a>
+### Bundesgerichtshof
+
+**[BGH 5 StR 97/99](https://www.hrr-strafrecht.de/hrr/5/99/5-97-99.pdf)**
+
+Bundesgerichtshof · 1999-04-21 · Stufe **A** · Primärquelle · `SRC-DE-KOKO-BGH-5STR9799`
+
+[PDF öffnen](https://www.hrr-strafrecht.de/hrr/5/99/5-97-99.pdf)
+
+Fundstelle: Rn. 1–7
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-bgh-cumex-2021"></a>
@@ -1429,6 +1444,21 @@ Bundesminister des Innern / OLG Stuttgart / Edition Stammheim-Prozess · 1977-03
 [PDF öffnen](https://www.stammheim-prozess.de/wp-content/uploads/2021/12/Anl.-3-15.3.1977-S.-13619-13620-Aussagegenehmigung-fuer-Praesidenten-des-BKA-Dr.-Herold.pdf)
 
 Fundstelle: BMI-Aktenzeichen Z I 2 – 001 210 – 010/5; 184. Verhandlungstag 15.03.1977, Anlage 3 (Fotokopie), Protokollseiten 13619–13620
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1991">
+
+<a id="src-de-koko-bnd-16432"></a>
+### Bundesnachrichtendienst
+
+**[Zusammenfassender Bericht über die Kontakte Schalck-Golodkowskis zum BND](https://www.bpb.de/system/files/dokument_pdf/Scan-6_BND-16432.pdf)**
+
+Bundesnachrichtendienst · 1991-03-25 · Stufe **A** · Primärquelle · `SRC-DE-KOKO-BND-16432`
+
+[PDF öffnen](https://www.bpb.de/system/files/dokument_pdf/Scan-6_BND-16432.pdf)
+
+Fundstelle: BND 16432, Bl. 205–212, Abschnitte 2–7
 
 </article>
 
@@ -2135,6 +2165,21 @@ Fundstelle: S. 1, Fußnote zur Geheimeinstufung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-de-koko-bt-128595"></a>
+### Deutscher Bundestag
+
+**[KoKo-Ergänzungsbericht, BT-Drs. 12/8595](https://dserver.bundestag.de/btd/12/085/1208595.pdf)**
+
+Deutscher Bundestag · 1994-11-02 · Stufe **A** · Primärquelle · `SRC-DE-KOKO-BT-128595`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/085/1208595.pdf)
+
+Fundstelle: S. 6–10, 22–33, 42–46; S. 27 bildlich geprüft
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
 
 <a id="src-de-bt-mauss-pl144-1996"></a>
@@ -2237,6 +2282,21 @@ Deutscher Bundestag · 1998 · Stufe **A** · Primärquelle · `SRC-DE-BT-131100
 [PDF öffnen](https://dserver.bundestag.de/btd/13/110/1311005.pdf)
 
 Fundstelle: gedruckte S. 55–57 (Vortrag), 72–74 (AA/BMVg-Bewilligung und Materialbereitstellung), 460 (Vorstandswahl) und 464–465 (Fahrzeugverbleib); Roeder und DRGW
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1998">
+
+<a id="src-de-koko-bt-1310900"></a>
+### Deutscher Bundestag
+
+**[Bericht des KoKo-Untersuchungsausschusses, BT-Drs. 13/10900](https://dserver.bundestag.de/btd/13/109/1310900.pdf)**
+
+Deutscher Bundestag · 1998-05-28 · Stufe **A** · Primärquelle · `SRC-DE-KOKO-BT-1310900`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/13/109/1310900.pdf)
+
+Fundstelle: Zweiter Teil A.II.4, D.II.1, S. 152–154; S. 41–43, 48–50
 
 </article>
 
@@ -2737,6 +2797,21 @@ Fundstelle: S. 16513–16515, F36–37
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
+<a id="src-de-mfs-kontakte-117371"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Tätigkeit ehemaliger Stasi-Mitarbeiter oder -Zuträger für westdeutsche Sicherheitsbehörden, BT-Drs. 11/7371](https://dserver.bundestag.de/btd/11/073/1107371.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1990-06-12 · Stufe **A** · Primärquelle · `SRC-DE-MFS-KONTAKTE-117371`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/11/073/1107371.pdf)
+
+Fundstelle: S. 1–3, Fragen 1, 4–9; S. 3 bildlich geprüft
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
 <a id="src-de-bt-psv-1990-11-7749"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -2767,6 +2842,21 @@ Fundstelle: S. 2–3, Fragen 2a/d/e, 3–4
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
 
+<a id="src-de-mfs-kontakte-122773"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Schriftliche Fragen, BT-Drs. 12/2773](https://dserver.bundestag.de/btd/12/027/1202773.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1992-06-05 · Stufe **A** · Primärquelle · `SRC-DE-MFS-KONTAKTE-122773`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/027/1202773.pdf)
+
+Fundstelle: Gedruckte S. 11, Fragen 18–19, Antwort 29.05.1992
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1992">
+
 <a id="src-de-bt-nonne-3123-1992"></a>
 ### Deutscher Bundestag / Bundesregierung
 
@@ -2777,6 +2867,21 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1993">
+
+<a id="src-de-mfs-kontakte-125144"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[Kontakte und Erkenntnisse zu einem MfS-Offizier, BT-Drs. 12/5144](https://dserver.bundestag.de/btd/12/051/1205144.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1993-06-16 · Stufe **A** · Primärquelle · `SRC-DE-MFS-KONTAKTE-125144`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/051/1205144.pdf)
+
+Fundstelle: S. 2–4, Fragen 2, 5–10
 
 </article>
 
@@ -7264,6 +7369,36 @@ American Council on Germany · 2025-06-16 · Stufe **B** · Sekundär-/Forschung
 [Seite öffnen](https://www.acgusa.org/50th-anniversary-of-the-john-j-mccloy-fund/)
 
 Fundstelle: Einleitung: ACG bestätigt retrospektiv Zuwendung von 1 Mio. USD der Bundesregierung und Scheel-Ford-Scheckzeremonie 16.06.1975; Stiftung ermöglichte laut ACG spätere Programmarbeit
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-de-koko-foerster-i-2023"></a>
+### Andreas Förster / Deutschland Archiv, bpb
+
+**[Der Überläufer (Teil I)](https://www.bpb.de/523099)**
+
+Andreas Förster / Deutschland Archiv, bpb · 2023-07-17 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KOKO-FOERSTER-I-2023`
+
+[Seite öffnen](https://www.bpb.de/523099)
+
+Fundstelle: Archivverweise BND 16430–16433; Weisung 20.04.1990
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-de-koko-foerster-iii-2023"></a>
+### Andreas Förster / Deutschland Archiv, bpb
+
+**[Der Überläufer (Teil III): Chip-Klau und DDR-Milliardenschulden](https://www.bpb.de/523101)**
+
+Andreas Förster / Deutschland Archiv, bpb · 2023-07-21 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-KOKO-FOERSTER-III-2023`
+
+[Seite öffnen](https://www.bpb.de/523101)
+
+Fundstelle: Abschnitte zu CoCom, Unternehmen und Finanzlage
 
 </article>
 
