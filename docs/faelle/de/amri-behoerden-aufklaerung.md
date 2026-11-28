@@ -324,6 +324,10 @@ case_links:
 
     **Aussagegrenze:** Keinen Nachweis staatlicher Steuerung, Finanzierung oder Tatbeteiligung.
 
+## Vergleichsfall: Parlamentarische Kontrolle in Mecklenburg-Vorpommern 2025–2026
+
+Das Landesverfassungsgericht stellte am 9. Juli 2026 zwei Verletzungen parlamentarischer Fragerechte zu nachrichtendienstlichen Onlineidentitäten und Gruppen fest ([Urteil LVerfG 7/25](../../quellen/index.md#src-de-amri-mv-lverfg-725-urteil), S. 4, 18–28). Die [Regierungsantwort vom 15. Januar 2025](../../quellen/index.md#src-de-amri-mv-lt-84357) hatte die betreffenden Auskünfte zunächst auch unter Geheimschutz verweigert. Die [Antwort vom 12. November 2026](../../quellen/index.md#src-de-amri-mv-lt-954), S. 1–3, veröffentlichte einen historischen Teilbestand; Angaben zu selbst betriebenen Gruppen blieben nach Regierungsauskunft vertraulich zugänglich. Die Rechtmäßigkeit dieser neuen Antwort ist nicht durch das frühere Urteil entschieden. Der Vorgang ist ein Vergleich zur Kontrollpraxis, keine operative Verbindung zum Amri-Komplex.
+
 ## Vertiefende Studien
 
 [Vollständige Amri-Belegmatrix im Forschungsrepository](https://github.com/alexdermohr/machtverflechtungen/blob/main/research/amri-behoerden-aufklaerung-2015-2021.md)
