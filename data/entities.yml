@@ -3622,3 +3622,19 @@ entities:
   - {"id": "ORG-DE-STA-MUENCHEN-I", "type": "prosecution_authority", "name": "Staatsanwaltschaft München I", "countries": ["DE"], "notes": "Verfahrensbehandlung 2024 laut BayLT-Drs. 19/8775."}
   - {"id": "ORG-DE-BAY-STAATSKANZLEI", "type": "government_agency", "name": "Bayerische Staatskanzlei", "countries": ["DE"], "notes": "Eingabeweiterleitung; keine persönliche Kenntnis eines Amtsträgers daraus."}
   - {"id": "ORG-DE-BAY-JUSTIZMINISTERIUM", "type": "government_ministry", "name": "Bayerisches Staatsministerium der Justiz", "countries": ["DE"], "notes": "Weiterleitungs- und Auskunftsvorgänge laut BayLT-Drs. 19/8775."}
+
+  - {"id": "PER-DE-SCHALCK-GOLODKOWSKI", "type": "person", "name": "Alexander Schalck-Golodkowski", "countries": ["DE"], "notes": "Leiter KoKo; nach 1989 Befragungsquelle des BND. Vollmachten sind keine Eigentumsnachweise."}
+  - {"id": "ORG-DDR-KOKO", "type": "historical_government_agency", "name": "Bereich Kommerzielle Koordinierung (KoKo, DDR)", "countries": ["DE"], "notes": "Historischer Außenwirtschaftsbereich; eigenständig von der Anstalt Mondessa zu unterscheiden."}
+  - {"id": "ORG-LI-MONDESSA-1980", "type": "historical_asset_management_entity", "name": "Anstalt Mondessa (Liechtenstein, 1980–1991)", "countries": ["LI"], "notes": "Vermögensverwaltungsgesellschaft; endgültige wirtschaftliche Zurechnung im Ausschussbericht nicht geklärt."}
+  - {"id": "ORG-DE-SCHEURMANN-BANK-KG", "type": "historical_commercial_bank", "name": "Otto Scheurmann Bank-KG (West-Berlin)", "countries": ["DE"], "notes": "Historische Bank im KoKo-Komplex; nicht heutige Rechtsnachfolger."}
+  - {"id": "ORG-DE-DRESDNER-BANK-BERLIN-1982", "type": "historical_commercial_bank", "name": "Dresdner Bank Berlin AG (ab 1982; bis 1989 Bank für Handel und Industrie AG)", "countries": ["DE"], "notes": "Historische Mutter der Otto Scheurmann Bank-KG laut BT 12/8595; nicht gleich dem 1933er Bankknoten."}
+  - {"id": "ORG-CH-BHE-ZUERICH", "type": "historical_commercial_bank", "name": "Bank für Handel und Effekten (BHE, Zürich)", "countries": ["CH"], "notes": "Historische Korrespondenz- und kontoführende Bank."}
+  - {"id": "ORG-BS-BHE-OVERSEAS-1987", "type": "historical_commercial_bank", "name": "BHE (Overseas) Limited (Nassau, 1987)", "countries": ["BS"], "notes": "Historische Vertragspartnerin Mondessas; kein Fortbestand bis heute behauptet."}
+  - {"id": "PER-CH-MAX-MOSER-BANKIER", "type": "person", "name": "Max Moser (Bankier, KoKo-Komplex)", "countries": ["CH"], "notes": "Bankier laut KoKo-Ausschussbericht."}
+  - {"id": "PER-DE-HANS-JUERGEN-LABORN", "type": "person", "name": "Hans-Jürgen Laborn (Bankier, KoKo-Komplex)", "countries": ["DE"], "notes": "Historischer Bankleiter laut KoKo-Ausschussbericht."}
+  - {"id": "ORG-DE-LFV-BERLIN-1988", "type": "intelligence_service", "name": "Landesamt für Verfassungsschutz Berlin (1988)", "countries": ["DE"], "notes": "Empfänger von BND-Informationen laut BND-Selbstbericht."}
+  - {"id": "PER-DE-LUTZ-STAVENHAGEN", "type": "person", "name": "Lutz Stavenhagen (Staatsminister beim Bundeskanzler, 1990)", "countries": ["DE"], "notes": "Rollenbezogener historischer Akteur."}
+  - {"id": "PER-DE-KARL-OTTO-POEHL", "type": "person", "name": "Karl Otto Pöhl (Bundesbankpräsident, 1990)", "countries": ["DE"], "notes": "Empfänger eines BND-Schreibens zur DDR-Verschuldung."}
+  - {"id": "PER-DE-WOLFGANG-SCHAEUBLE-1990", "type": "person", "name": "Wolfgang Schäuble (Bundesinnenminister, 1990)", "countries": ["DE"], "notes": "Historische Rolle; Berichtsempfänger."}
+  - {"id": "ORG-DE-TREUHANDANSTALT-1990", "type": "historical_government_agency", "name": "Treuhandanstalt (1990)", "countries": ["DE"], "notes": "Informationskontakte laut BND-Bericht."}
+  - {"id": "ORG-DE-LG-BERLIN-1998", "type": "court", "name": "Landgericht Berlin (Wirtschaftsstrafkammer, 1998)", "countries": ["DE"], "notes": "Zeitbezogene gerichtliche Entscheidung im Mondessa-Verfahren."}

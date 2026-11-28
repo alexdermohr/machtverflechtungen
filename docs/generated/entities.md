@@ -1,12 +1,13 @@
 # Personen & Organisationen
 
-**650 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**665 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
 | Name | Typ | ID | Länder | Beziehungen |
 |---|---|---|---|---|
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
+| Alexander Schalck-Golodkowski | person | `PER-DE-SCHALCK-GOLODKOWSKI` | DE | [4](network.md#rel-de-koko-followup-008) |
 | Alexander von Stahl | person | `PER-DE-ALEXANDER-VON-STAHL` | DE | [3](network.md#rel-raf-schmuecker-nonne-006) |
 | Alexander Wilke | person | `PER-DE-ALEXANDER-WILKE` | DE | [1](network.md#rel-ulf-tk-wilke) |
 | Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-020) |
@@ -62,6 +63,7 @@
 | Hans Langendörfer | person | `PER-DE-HANS-LANGENDOERFER` | DE | [1](network.md#rel-mauss-pmt-007) |
 | Hans-Joachim Böcking | person | `PER-DE-HANS-JOACHIM-BOECKING` | DE | [1](network.md#rel-ulf-tk-boecking-special-audit) |
 | Hans-Joachim Rose | person | `PER-DE-HANS-JOACHIM-ROSE` | DE | [1](network.md#rel-ulf-rose-sanction) |
+| Hans-Jürgen Laborn (Bankier, KoKo-Komplex) | person | `PER-DE-HANS-JUERGEN-LABORN` | DE | [2](network.md#rel-de-koko-followup-011) |
 | Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
 | Heinz Felfe | person | `PER-DE-HEINZ-FELFE` | DE | [1](network.md#rel-de-gehlen-006) |
 | Heinz Lembke | person | `PER-DE-HEINZ-LEMBKE` | DE | [2](network.md#rel-de-da-003) |
@@ -86,6 +88,7 @@
 | Jörg Schönenborn | person | `PER-DE-JOERG-SCHOENENBORN` | DE | [2](network.md#rel-de-tmn-028) |
 | Jürgen Claassen | person | `PER-DE-JUERGEN-CLAASSEN` | DE | [2](network.md#rel-ulf-tk-claassen) |
 | Kai Diekmann | person | `PER-DE-KAI-DIEKMANN` | DE | [4](network.md#rel-de-tmn-019) |
+| Karl Otto Pöhl (Bundesbankpräsident, 1990) | person | `PER-DE-KARL-OTTO-POEHL` | DE | [1](network.md#rel-de-koko-followup-019) |
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
@@ -94,12 +97,14 @@
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
 | Licio Gelli (1919–2015) | person | `PER-IT-LICIO-GELLI` | IT | [7](network.md#rel-it-p2-gelli-1981-001) |
 | Liz Mohn | person | `PER-DE-LIZ-MOHN` | DE | [1](network.md#rel-de-tmn-041) |
+| Lutz Stavenhagen (Staatsminister beim Bundeskanzler, 1990) | person | `PER-DE-LUTZ-STAVENHAGEN` | DE | [1](network.md#rel-de-koko-followup-017) |
 | Manfred Roeder | person | `PER-DE-MANFRED-ROEDER` | DE | [4](network.md#rel-de-da-001) |
 | Marcel Degner (VM 2100/Hagel) | person | `PER-DE-MARCEL-DEGNER` | DE | – |
 | Marco Ceruti (historischer UBS-Kontoinhaber) | person | `PER-IT-MARCO-CERUTI-1980` | IT | [2](network.md#rel-ch-ubs-ceruti-1981-001) |
 | Marja-Liisa Völlers (Bundestagsabgeordnete 2019) | person | `PER-DE-MARJA-LIISA-VOELLERS-2019` | DE | [1](network.md#rel-us-acg-cities-voellers-2019-001) |
 | Mathias Döpfner | person | `PER-DE-MATHIAS-DOEPFNER` | DE | [8](network.md#rel-de-tmn-001) |
 | Matthias Naß | person | `PER-DE-MATTHIAS-NASS` | DE | [4](network.md#rel-de-tmn-003) |
+| Max Moser (Bankier, KoKo-Komplex) | person | `PER-CH-MAX-MOSER-BANKIER` | CH | [3](network.md#rel-de-koko-followup-002) |
 | Melchor Esono Edjo | person | `PER-GQ-MELCHOR-ESONO-EDJO` | GQ | [1](network.md#rel-riggs-followup-045) |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE | – |
 | Michael Grünhagen | person | `PER-DE-MICHAEL-GRUENHAGEN` | DE | [2](network.md#rel-raf-schmuecker-nonne-018) |
@@ -165,6 +170,7 @@
 | Wilhelm Hoegner | person | `PER-DE-WILHELM-HOEGNER` | DE | – |
 | William O. Studeman | person | `PER-US-WILLIAM-STUDEMAN` | US | [1](network.md#rel-ws-studeman-ssci) |
 | William Wilf Browning | person | `PER-GB-WILLIAM-BROWNING` | GB | [1](network.md#rel-de-ukc18-003) |
+| Wolfgang Schäuble (Bundesinnenminister, 1990) | person | `PER-DE-WOLFGANG-SCHAEUBLE-1990` | DE | [1](network.md#rel-de-koko-followup-020) |
 | Đỗ Anh Lân | person | `PER-DE-DO-ANH-LAN` | DE | [1](network.md#rel-de-da-009) |
 
 ## Organisationen & Institutionen
@@ -192,6 +198,7 @@
 | Anduril Industries | defense_technology_company | `ORG-US-ANDURIL` | US | [3](network.md#rel-us-army-anduril-titan-order-2026) |
 | Annette Barthelt-Stiftung e. V. | charitable_foundation_association | `ORG-DE-ANNETTE-BARTHELT-STIFTUNG` | DE | [1](network.md#rel-de-barthelt-ulfkotte-award-2003-001) |
 | Anorgana GmbH (historische IG-Farben-Gesellschaft) | chemical_company | `ORG-DE-ANORGANA` | DE | [1](network.md#rel-de-igf-014) |
+| Anstalt Mondessa (Liechtenstein, 1980–1991) | historical_asset_management_entity | `ORG-LI-MONDESSA-1980` | LI | [7](network.md#rel-de-koko-followup-002) |
 | Anti-Allende-Wahlkampf Chile 1970 | historical_electoral_campaign | `PRG-CL-ANTI-ALLENDE-1970` | CL | [1](network.md#rel-us-itt-allende-opposition-1970) |
 | Anysberg International Corp. | company | `ORG-PA-ANYSBERG-INTERNATIONAL` | PA | [2](network.md#rel-mauss-offshore-017) |
 | Apexside Trading Ltd. | company | `ORG-INT-APEXSIDE-TRADING-LTD` |  | [3](network.md#rel-riggs-followup-041) |
@@ -225,6 +232,7 @@
 | Banco Espírito Santo (Lissabon, 2005) | commercial_bank | `ORG-PT-BANCO-ESPIRITO-SANTO-2005` | PT | [1](network.md#rel-riggs-followup-006) |
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
 | Banco Santander Central Hispano (2004) | commercial_bank | `ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004` | ES | [2](network.md#rel-riggs-followup-014) |
+| Bank für Handel und Effekten (BHE, Zürich) | historical_commercial_bank | `ORG-CH-BHE-ZUERICH` | CH | [2](network.md#rel-de-koko-followup-004) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
 | Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [10](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | Bank of America – Kontenverbund laut Senatsberichten 2005/2010 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [9](network.md#rel-riggs-followup-001) |
@@ -244,10 +252,12 @@
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
+| Bereich Kommerzielle Koordinierung (KoKo, DDR) | historical_government_agency | `ORG-DDR-KOKO` | DE | [2](network.md#rel-de-koko-followup-010) |
 | Berliner Senatsverwaltung für Justiz | government_agency | `ORG-DE-BERLIN-JUSTIZSENAT` | DE | [1](network.md#rel-raf-schmuecker-nonne-006) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Beverly Hills Escrow (2001) | escrow_service | `ORG-US-BEVERLY-HILLS-ESCROW-2001` | US | [2](network.md#rel-riggs-post-2004-012) |
+| BHE (Overseas) Limited (Nassau, 1987) | historical_commercial_bank | `ORG-BS-BHE-OVERSEAS-1987` | BS | [2](network.md#rel-de-koko-followup-005) |
 | Bild | media_outlet | `ORG-DE-BILD` | DE | [1](network.md#rel-de-bnd-media-015) |
 | Bilderberg Association (Sponsorbezeichnung im Lammy-Register 2022) | organization | `ORG-GB-BILDERBERG-2022-SPONSOR-UNKNOWN` | GB, US | [1](network.md#rel-gb-bb-uk-009) |
 | Bilderberg Meetings | conference_network | `ORG-INT-BILDERBERG-MEETINGS` | US, DE | [10](network.md#rel-de-tmn-001) |
@@ -266,8 +276,8 @@
 | Bundesanwaltschaft (1952–1953) | prosecution_authority | `ORG-DE-BUNDESANWALTSCHAFT` | DE | [1](network.md#rel-de-bdj-013) |
 | Bundesdruckerei (historisch, 1996) | company | `ORG-DE-BUNDESDRUCKEREI-1996` | DE | [1](network.md#rel-mauss-pmt-011) |
 | Bundesgerichtshof | court | `ORG-DE-BGH` | DE | [3](network.md#rel-raf-schmuecker-nonne-007) |
-| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [9](network.md#rel-ulf-kanzleramt-mykonos) |
-| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [12](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
+| Bundeskanzleramt | government_agency | `ORG-DE-BUNDESKANZLERAMT` | DE | [10](network.md#rel-ulf-kanzleramt-mykonos) |
+| Bundeskriminalamt (BKA) | federal_criminal_investigation_agency | `ORG-DE-BKA` | DE | [13](network.md#rel-de-bka-ulfkotte-mykonos-1996-001) |
 | Bundesministerium der Finanzen | government_ministry | `ORG-DE-BMF` | DE | – |
 | Bundesministerium der Justiz (1993) | government_ministry | `ORG-DE-BMJ-1993` | DE | [2](network.md#rel-de-barschel-003) |
 | Bundesministerium der Justiz und für Verbraucherschutz (2017) | government_ministry | `ORG-DE-BMJV-AMRI-2017` | DE | [1](network.md#rel-de-amri-020) |
@@ -278,7 +288,7 @@
 | Bundesministerium für gesamtdeutsche Fragen (1952) | government_ministry | `ORG-DE-BMG` | DE | [1](network.md#rel-de-bdj-002) |
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
-| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [39](network.md#rel-de-gehlen-001) |
+| Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [47](network.md#rel-de-gehlen-001) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -347,6 +357,7 @@
 | Direction générale de la surveillance du territoire (DGST) | intelligence_service | `ORG-MA-DGST` | MA | [2](network.md#rel-de-amri-007) |
 | Documento Bologna (bei Licio Gelli 1982 sichergestellte Banknotiz) | historical_document | `DOC-IT-DOCUMENTO-BOLOGNA-1982` | IT, CH | [1](network.md#rel-it-bologna-gelli-document-1982-001) |
 | Dresdner Bank (historische Bank, Frankfurt 1933) | commercial_bank | `ORG-DE-DRESDNER-BANK-1933` | DE | [2](network.md#rel-de-igf-011) |
+| Dresdner Bank Berlin AG (ab 1982; bis 1989 Bank für Handel und Industrie AG) | historical_commercial_bank | `ORG-DE-DRESDNER-BANK-BERLIN-1982` | DE | [1](network.md#rel-de-koko-followup-001) |
 | DZ BANK (Sponsor 2008/09) | commercial_bank | `ORG-DE-DZ-BANK-2008` | DE | [1](network.md#rel-de-ab-dzbank-sponsor-2009-001) |
 | Dänische Regierung (1996/97) | government_agency | `ORG-DK-REGIERUNG-1996` | DK | [1](network.md#rel-mauss-diplomatie-013) |
 | Edum (historischer Untersuchungszeitraum) | company | `ORG-GQ-EDUM` | GQ | [1](network.md#rel-riggs-post-2004-041) |
@@ -396,7 +407,7 @@
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [10](network.md#rel-raf-schmuecker-nonne-008) |
-| Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
+| Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [3](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
 | Gericht der Europäischen Union (EuG, Urteil 19.11.2025) | court | `ORG-EU-GENERAL-COURT-2025` | LU | [1](network.md#rel-eu-warburg-eug-decision-2025-001) |
@@ -443,6 +454,7 @@
 | KPMG AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-KPMG-AG` | DE | [1](network.md#rel-ulf-tk-kpmg-cms-audit) |
 | Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
+| Landesamt für Verfassungsschutz Berlin (1988) | intelligence_service | `ORG-DE-LFV-BERLIN-1988` | DE | [1](network.md#rel-de-koko-followup-014) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landesamt für Verfassungsschutz Schleswig-Holstein | intelligence_service | `ORG-DE-LFV-SH` | DE | [1](network.md#rel-de-barschel-001) |
@@ -450,6 +462,7 @@
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
 | Landeskriminalamt Nordrhein-Westfalen | police_authority | `ORG-DE-LKA-NRW` | DE | [4](network.md#rel-de-amri-001) |
 | Landesregierung Brandenburg (Aktenzugangsverfahren 2003/04) | state_government | `ORG-DE-LANDESREGIERUNG-BRANDENBURG` | DE | [3](network.md#rel-de-bb-verfg-2004-001) |
+| Landgericht Berlin (Wirtschaftsstrafkammer, 1998) | court | `ORG-DE-LG-BERLIN-1998` | DE | [2](network.md#rel-de-koko-followup-012) |
 | Landgericht Bochum | court | `ORG-DE-LG-BOCHUM` | DE | [3](network.md#rel-mauss-finanz-014) |
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
@@ -502,6 +515,7 @@
 | Old Colony Trust Company (1953) | historical_financial_institution | `ORG-US-OLD-COLONY-TRUST-1953` | US | [2](network.md#rel-us-cutler-old-colony-president-1953) |
 | Operation PBSUCCESS: Guatemala 1954 | historical_covert_operation | `PRG-GT-CIA-PBSUCCESS-1954` | GT, US | [1](network.md#rel-us-cia-pbsuccess-guatemala-1954) |
 | Organisation Gehlen | intelligence_organization | `ORG-DE-ORGANISATION-GEHLEN` | DE, US | [8](network.md#rel-de-gehlen-001) |
+| Otto Scheurmann Bank-KG (West-Berlin) | historical_commercial_bank | `ORG-DE-SCHEURMANN-BANK-KG` | DE | [5](network.md#rel-de-koko-followup-001) |
 | Overseas Investment Insurance Group (OPIC-Mitversicherer 1975) | historical_private_insurance_group | `ORG-INT-OVERSEAS-INVESTMENT-INSURANCE-GROUP-1975` | US | [2](network.md#rel-us-opic-oiig-coinsurance-1975) |
 | Overseas Private Investment Corporation (OPIC, USA) | federal_political_risk_insurer_historical | `ORG-US-OPIC-1971` | US | [40](network.md#rel-us-aid-opic-insurance-transfer-1971) |
 | Overseas Security Advisory Council (OSAC) | public_private_advisory_council | `ORG-US-OSAC` | US | [8](network.md#rel-ws-state-osac) |
@@ -593,6 +607,7 @@
 | Thüringer Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-TLFV` | DE | [1](network.md#rel-de-ths-001) |
 | Tradinvest Bank and Trust Company of Nassau Ltd. (ENI) | historical_banking_subsidiary | `ORG-BS-TRADINVEST-ENI` | BS | [7](network.md#rel-it-eni-trad-1979-001) |
 | Transacta Valores S.A. | company | `ORG-PA-TRANSACTA-VALORES` | PA | [2](network.md#rel-mauss-offshore-014) |
+| Treuhandanstalt (1990) | historical_government_agency | `ORG-DE-TREUHANDANSTALT-1990` | DE | [1](network.md#rel-de-koko-followup-021) |
 | Tribunal de Contas da União (TCU) | supreme_audit_institution | `ORG-BR-TCU` | BR | [7](network.md#rel-ws-tcu-cmo-default) |
 | Tribunal Regional Federal da 4ª Região | court | `ORG-BR-TRF4` | BR | [1](network.md#rel-ws-trf4-contract) |
 | Tupamaros West-Berlin | extremist_network | `ORG-DE-TUPAMAROS-WEST-BERLIN` | DE | – |
