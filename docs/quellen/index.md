@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**592 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**606 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1192,6 +1192,21 @@ Fundstelle: Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Associa
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1966">
+
+<a id="src-hs30-kabinett-19661109"></a>
+### Bundesarchiv (amtliche Edition)
+
+**[53. Kabinettssitzung am 9. November 1966](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)**
+
+Bundesarchiv (amtliche Edition) · 1966-11-09 · Stufe **A** · Primärquelle · `SRC-HS30-KABINETT-19661109`
+
+[PDF öffnen](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)
+
+Fundstelle: TOP A, PDF S. 2–5; B 136/36145 und B 136/3105
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
 
 <a id="src-de-barch-fricke-akteneinsicht-1997"></a>
@@ -2012,6 +2027,21 @@ Deutscher Bundestag · 1967-06-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/05/05111.pdf#page=35)
 
 Fundstelle: 5/111 gedruckte S. 5279, PDF-Bild 35; Gegenrede Haase S. 5280
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1969">
+
+<a id="src-hs30-bt-v4527"></a>
+### Deutscher Bundestag
+
+**[Bericht des 1. Untersuchungsausschusses zur HS-30-Beschaffung](https://dserver.bundestag.de/btd/05/045/0504527.pdf)**
+
+Deutscher Bundestag · 1969-06-26 · Stufe **A** · Primärquelle · `SRC-HS30-BT-V4527`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/05/045/0504527.pdf)
+
+Fundstelle: BT-Drs. V/4527, S. 23–25, 72–86, 93–96, 100–117
 
 </article>
 
@@ -3350,6 +3380,36 @@ Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-hs30-dodis-8938"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Lieferung von Waffen und Munition an die Bundesrepublik Deutschland](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)**
+
+Diplomatische Dokumente der Schweiz · 1954-03-06 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-8938`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)
+
+Fundstelle: DDS Bd. 19 Nr. 89 S. 240–243; E 1004.1(-)-/1/563; DoDiS-8938
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1955">
+
+<a id="src-hs30-dodis-12614"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Mitbericht zum Antrag des Justiz- und Polizeidepartements betreffend Octogon](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)**
+
+Diplomatische Dokumente der Schweiz · 1955-10-29 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-12614`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)
+
+Fundstelle: DDS Bd. 20 Nr. 35 S. 86–87; E 2001(E)1972/33/296; DoDiS-12614
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-frak-bdj-19521021"></a>
@@ -4142,6 +4202,111 @@ Landtag Nordrhein-Westfalen · 1970-07-28 · Stufe **A** · Primärquelle · `SR
 [PDF öffnen](https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMP07-2.pdf)
 
 Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Posser als Minister für Bundesangelegenheiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1944">
+
+<a id="src-hs30-d41494"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Regierung befürwortet Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1944-02-11 · Stufe **A** · Primärquelle · `SRC-HS30-D41494`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)
+
+Fundstelle: LI LA V 004/1948/04 (a)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d41478"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Fremdenpolizei verlangt Sicherstellung einer Kaution](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-02-14 · Stufe **A** · Primärquelle · `SRC-HS30-D41478`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)
+
+Fundstelle: LI LA V 004/1948/04 (b), Anm. 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d42137"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Presta hebt Ruscheweyhs Verdienste hervor](https://www.e-archiv.li/textDetail.aspx?etID=42137)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-04 · Stufe **A** · Primärquelle · `SRC-HS30-D42137`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=42137)
+
+Fundstelle: LI LA V 004/1948/04 (d)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d41476"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Liechtenstein protestiert gegen Schweizer Vorgehen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41476`
+
+[Seite öffnen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)
+
+Fundstelle: LI LA V 143/3167 (a), Anm. 7
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
+<a id="src-hs30-d41471"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Britische Repatriierungsforderung](https://www.e-archiv.li/textDetail.aspx?etID=41471)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1946-11-28 · Stufe **A** · Primärquelle · `SRC-HS30-D41471`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41471)
+
+Fundstelle: LI LA V 143/3167 (b)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
+<a id="src-hs30-d41470"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Liechtenstein lehnt Wegweisung ab](https://www.e-archiv.li/textDetail.aspx?etID=41470)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1946-12-16 · Stufe **A** · Primärquelle · `SRC-HS30-D41470`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41470)
+
+Fundstelle: LI LA V 143/3167 (c), Anm. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
+
+<a id="src-hs30-d41493"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Fremdenpolizei zur Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1948-01-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41493`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)
+
+Fundstelle: LI LA V 004/1948/04 (c)
 
 </article>
 
@@ -8195,6 +8360,21 @@ Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 20
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-kas-01-707"></a>
+### Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik
+
+**[Findbuch Carl Otto Lenz, 01-707](https://www.kas.de/documents/259803/12345940/Carl%2BOtto%2BLenz.pdf/235ffc7b-7612-303a-56fc-2ee181424f41?t=1618823101215&version=1.1)**
+
+Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-KAS-01-707`
+
+[Seite öffnen](https://www.kas.de/documents/259803/12345940/Carl%2BOtto%2BLenz.pdf/235ffc7b-7612-303a-56fc-2ee181424f41?t=1618823101215&version=1.1)
+
+Fundstelle: S. 29–30, 104/1, 106, 122/1, 122/2, 104/2
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
 
 <a id="src-de-acdp-jahn-nachlass-01753"></a>
@@ -8297,6 +8477,21 @@ Leibniz-Zentrum für Zeithistorische Forschung / zeitgeschichte|online · 2022-0
 [Seite öffnen](https://zeitgeschichte-online.de/kommentar/die-mai-offensive-der-raf-im-jahr-1972)
 
 Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutzakten; Anm. 1: Brief Nollau an Genscher 21.05.1972, Privatarchiv Robert Wolff
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-p29640"></a>
+### Liechtensteinisches Landesarchiv
+
+**[Rudolf Ruscheweyh: Personeneintrag](https://www.e-archiv.li/personDetail.aspx?backurl=auto&eID=1&etID=41478&persID=29640)**
+
+Liechtensteinisches Landesarchiv · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-P29640`
+
+[Seite öffnen](https://www.e-archiv.li/personDetail.aspx?backurl=auto&eID=1&etID=41478&persID=29640)
+
+Fundstelle: P29640
 
 </article>
 
@@ -8792,6 +8987,21 @@ University of Colorado Boulder, College of Music · 2014-07-08 · Stufe **B** ·
 [Seite öffnen](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)
 
 Fundstelle: Dennis Spragg über Archivnachweise für Militäraircraft-boarding 1944 und mögliche Ursprünge späterer Bordell-/Friendly-Fire-Erzählungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-hs30-uzh-buehrle-2021"></a>
+### Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte
+
+**[Kriegsgeschäfte, Kapital und Kunsthaus: die Entstehung der Sammlung Emil Bührle im historischen Kontext](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)**
+
+Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-UZH-BUEHRLE-2021`
+
+[PDF öffnen](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)
+
+Fundstelle: S. 132–133, Anm. 36–37
 
 </article>
 

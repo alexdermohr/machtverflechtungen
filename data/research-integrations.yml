@@ -1282,3 +1282,40 @@ studies:
       - REL-DE-BARSCHEL-009
       - REL-DE-BARSCHEL-010
       - REL-DE-BARSCHEL-011
+
+  hs30-octogon-ruscheweyh-clearing-1944-1969.md:
+    sha256: b7fd33a049ac6069a4b892d46b29b6778bc24757d81b5079d127768fed3bedd6
+    status: network
+    relation_ids:
+    - REL-HS30-001
+    - REL-HS30-002
+    - REL-HS30-003
+    - REL-HS30-004
+    - REL-HS30-005
+    - REL-HS30-006
+    - REL-HS30-007
+    - REL-HS30-008
+    - REL-HS30-009
+    - REL-HS30-010
+    - REL-HS30-011
+    - REL-HS30-012
+    - REL-HS30-013
+    - REL-HS30-014
+    - REL-HS30-015
+    - REL-HS30-016
+    - REL-HS30-017
+    - REL-HS30-018
+    - REL-HS30-019
+    - REL-HS30-020
+    - REL-HS30-021
+    - REL-HS30-022
+    - REL-HS30-023
+    - REL-HS30-024
+    - REL-HS30-025
+    - REL-HS30-026
+    - REL-HS30-027
+    - REL-HS30-028
+    - REL-HS30-029
+    - REL-HS30-030
+    - REL-HS30-031
+    - REL-HS30-032
