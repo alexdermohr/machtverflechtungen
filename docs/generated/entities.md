@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**640 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**652 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -9,7 +9,7 @@
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Alexander von Stahl | person | `PER-DE-ALEXANDER-VON-STAHL` | DE | [3](network.md#rel-raf-schmuecker-nonne-006) |
 | Alexander Wilke | person | `PER-DE-ALEXANDER-WILKE` | DE | [1](network.md#rel-ulf-tk-wilke) |
-| Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-020) |
+| Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [5](network.md#rel-raf-schmuecker-nonne-020) |
 | Ali Fallahian | person | `PER-IR-ALI-FALLAHIAN` | IR | [1](network.md#rel-ulf-fallahian-schmidbauer) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
 | Angelo Rizzoli (1943–2013) | person | `PER-IT-ANGELO-RIZZOLI` | IT | [3](network.md#rel-it-rizzoli-angelo-1980-001) |
@@ -60,6 +60,7 @@
 | Hans Egidi | person | `PER-DE-HANS-EGIDI` | DE | – |
 | Hans Langemann | person | `PER-DE-HANS-LANGEMANN` | DE | [2](network.md#rel-de-lang-001) |
 | Hans Langendörfer | person | `PER-DE-HANS-LANGENDOERFER` | DE | [1](network.md#rel-mauss-pmt-007) |
+| Hans-Dietrich Genscher | person | `PER-DE-HANS-DIETRICH-GENSCHER` | DE | [1](network.md#rel-de-herrhausen-fin-006) |
 | Hans-Joachim Böcking | person | `PER-DE-HANS-JOACHIM-BOECKING` | DE | [1](network.md#rel-ulf-tk-boecking-special-audit) |
 | Hans-Joachim Rose | person | `PER-DE-HANS-JOACHIM-ROSE` | DE | [1](network.md#rel-ulf-rose-sanction) |
 | Heinrich Himmler (1900–1945) | person | `PER-DE-HEINRICH-HIMMLER` | DE | [1](network.md#rel-de-ss-fund-1943-003) |
@@ -69,6 +70,7 @@
 | Helmut Kohl (1930–2017) | person | `PER-DE-HELMUT-KOHL` | DE | [2](network.md#rel-de-ab-kiep-kohl-1993-001) |
 | Hermann Alfred Volker Burghagen | person | `PER-ICIJ-BURGHAGEN-11003187` |  | [4](network.md#rel-mauss-offshore-014) |
 | Hermann Schmitz (1881–1960) | person | `PER-DE-HERMANN-SCHMITZ` | DE | [5](network.md#rel-de-igf-001) |
+| Hilmar Kopper | person | `PER-DE-HILMAR-KOPPER` | DE | [1](network.md#rel-de-herrhausen-fin-009) |
 | Holger Christmann | person | `PER-DE-HOLGER-CHRISTMANN` | DE | [1](network.md#rel-ulf-park-recruitment) |
 | Horst Mahler | person | `PER-DE-HORST-MAHLER` | DE | – |
 | Hubert Burda | person | `PER-DE-HUBERT-BURDA` | DE | [2](network.md#rel-de-tmn-031) |
@@ -89,6 +91,7 @@
 | Karlheinz Schreiber | person | `PER-DE-KARLHEINZ-SCHREIBER` | DE | [5](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Kerstin Kaiser-Nicht | person | `PER-DE-KERSTIN-KAISER-NICHT` | DE | [1](network.md#rel-de-bb-verfg-2004-001) |
 | Klaus-Dieter Frankenberger | person | `PER-DE-KLAUS-DIETER-FRANKENBERGER` | DE | [5](network.md#rel-de-tmn-017) |
+| Krzysztof Skubiszewski | person | `PER-PL-KRZYSZTOF-SKUBISZEWSKI` | PL | [1](network.md#rel-de-herrhausen-fin-006) |
 | Kurt Freiherr von Schröder (1889–1966) | person | `PER-DE-KURT-VON-SCHROEDER` | DE | [2](network.md#rel-int-bis-1939-002) |
 | Kurt Weiß (Winterstein) | person | `PER-DE-KURT-WEISS-BND` | DE | [5](network.md#rel-de-bnd-dynamit-009) |
 | Lawrence I. Hebert | person | `PER-US-LAWRENCE-I-HEBERT` | US | [4](network.md#rel-riggs-followup-030) |
@@ -155,6 +158,7 @@
 | VP01 (LKA NRW, Amri-Komplex) | person | `PER-DE-VP01-AMRI` | DE | [2](network.md#rel-de-amri-001) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
 | Walter Scheel (1919–2016) | person | `PER-DE-WALTER-SCHEEL` | DE | [1](network.md#rel-us-acg-mccloy-scheel-1975-001) |
+| Walter Seipp | person | `PER-DE-WALTER-SEIPP` | DE | [2](network.md#rel-de-herrhausen-fin-003) |
 | Walther Funk (1890–1960) | person | `PER-DE-WALTHER-FUNK` | DE | [4](network.md#rel-int-bis-1939-001) |
 | Walther Leisler Kiep (1926–2016) | person | `PER-DE-WALTHER-LEISLER-KIEP` | DE | [6](network.md#rel-de-ab-schreiber-kiep-1991-001) |
 | Werner Hoyer | person | `PER-DE-WERNER-HOYER` | DE | [1](network.md#rel-mauss-pmt-001) |
@@ -204,6 +208,7 @@
 | Atlantik-Brücke-Journalistenreisen für US-Medienschaffende 1983–1992 | journalism_exchange_program | `PRG-DE-AB-JOURNALISTS-1983-1992` | DE, US | [4](network.md#rel-de-ab-jour-organized-1983-001) |
 | ATSIGE (2000–2004) | company | `ORG-GQ-ATSIGE` | GQ | [1](network.md#rel-riggs-followup-060) |
 | Auswärtiges Amt (1966) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-005) |
+| Auswärtiges Amt (1989) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1989` | DE | [1](network.md#rel-de-herrhausen-fin-005) |
 | Auswärtiges Amt (historisch, 1995–1996) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1996` | DE | [3](network.md#rel-mauss-diplomatie-005) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
@@ -274,6 +279,7 @@
 | Bundesministerium für Wirtschaft und Energie (BMWi, 2019) | government_ministry | `ORG-DE-BMWI-2019` | DE | [2](network.md#rel-de-erp-bmwi-2019-001) |
 | Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) | government_agency | `ORG-DE-BMZ` | DE | [1](network.md#rel-mauss-offshore-013) |
 | Bundesnachrichtendienst | intelligence_service | `ORG-DE-BND` | DE | [38](network.md#rel-de-gehlen-001) |
+| Bundesregierung (deutsch-polnische Umschuldung 1992) | historical_government | `ORG-DE-BUNDESREGIERUNG-1992` | DE | [1](network.md#rel-de-herrhausen-fin-007) |
 | Bundesregierung der Bundesrepublik Deutschland (1975) | historical_government | `ORG-DE-BUNDESREGIERUNG-1975` | DE | [1](network.md#rel-us-acg-mccloy-fund-gov-1975-001) |
 | Bundesrepublik Deutschland als Gläubigerstaat Chiles (1972–1975) | historical_government_creditor_delegation | `ORG-DE-FRG-CREDITOR-GOVERNMENT-1972-1975` | DE | [2](network.md#rel-de-frg-paris-club-chile-1972-1974) |
 | Bundesverband der Deutschen Industrie (BDI, 2019) | industry_association | `ORG-DE-BDI-2019` | DE | [1](network.md#rel-us-acg-cities-bdi-2019-001) |
@@ -298,6 +304,7 @@
 | Comissão de Coordenação de Implantação do SIVAM (CCSIVAM) | historical_government_commission | `ORG-BR-CCSIVAM` | BR | [3](network.md#rel-ws-ccsivam-contract) |
 | Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA) | historical_government_commission | `ORG-BR-CISCEA` | BR | [1](network.md#rel-ws-adviser-ciscea) |
 | Comissão Mista de Orçamento (CMO) | parliamentary_committee | `ORG-BR-CMO` | BR | [1](network.md#rel-ws-tcu-cmo-default) |
+| Commerzbank (1989) | commercial_bank | `ORG-DE-COMMERZBANK-1989` | DE | [1](network.md#rel-de-herrhausen-fin-003) |
 | Compañía de Acero del Pacífico (CAP, 1971) | historical_industrial_corporation | `ORG-CL-CAP-STEEL-1971` | CL | [1](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
 | Compañía Minera Exótica (Chile) | historical_mining_project | `ORG-CL-EXOTICA-COPPER-1971` | CL | [2](network.md#rel-cl-chile-copper-exotica-ownership-1971) |
 | Congress for Cultural Freedom | cultural_network | `ORG-INT-CONGRESS-CULTURAL-FREEDOM` | US, FR, DE | [2](network.md#rel-de-mni-006) |
@@ -323,6 +330,7 @@
 | Der Tagesspiegel | media_outlet | `ORG-DE-TAGESSPIEGEL` | DE | [2](network.md#rel-ulf-tk-trip-2) |
 | Deutsch-Russisches Gemeinschaftswerk | organization | `ORG-DE-DEUTSCH-RUSS-GEMEINSCHAFTSWERK` | DE | [2](network.md#rel-de-da-005) |
 | Deutsche Aktionsgruppen | extremist_network | `ORG-DE-DEUTSCHE-AKTIONSGRUPPEN` | DE | [3](network.md#rel-de-da-001) |
+| Deutsche Bank (1987–1989) | commercial_bank | `ORG-DE-DEUTSCHE-BANK-1989` | DE | [2](network.md#rel-de-herrhausen-fin-001) |
 | Deutsche Bank (Sponsor im Atlantik-Brücke-Jahresbericht 2008/09) | commercial_bank | `ORG-DE-DEUTSCHE-BANK-2008` | DE | [2](network.md#rel-de-ab-deutschebank-sponsor-2009-001) |
 | Deutsche Bischofskonferenz | religious_organization | `ORG-DE-BISCHOFSKONFERENZ` | DE | [2](network.md#rel-mauss-pmt-004) |
 | Deutsche Botschaft Bogotá | government_agency | `ORG-DE-BOTSCHAFT-BOGOTA` | DE, CO | [3](network.md#rel-mauss-offshore-011) |
@@ -356,6 +364,7 @@
 | ERISA-Investment-Prudence-Verordnung 29 CFR 2550.404a-1 (1979) | historical_regulatory_document | `DOC-US-DOL-ERISA-RULE-1979` | US | [2](network.md#rel-us-dol-erisa-final-1979-001) |
 | ESCA – Engenharia de Controle e Automação S.A. | historical_company | `ORG-BR-ESCA` | BR | [5](network.md#rel-ws-esca-sivam) |
 | Espírito Santo Bank (Miami) | commercial_bank | `ORG-US-ESPIRITO-SANTO-BANK-MIAMI` | US, PT | [6](network.md#rel-riggs-followup-006) |
+| Europäische Bank für Wiederaufbau und Entwicklung (EBRD) | international_organization | `ORG-INT-EBRD` | GB | [1](network.md#rel-de-herrhausen-fin-008) |
 | Europäische Wehr-Korrespondenz (1952) | media_outlet | `ORG-DE-EWK-1952` | DE | [1](network.md#rel-de-kmm-005) |
 | Europäische Zentralbank (EZB) | central_bank | `ORG-EU-ECB-2023` | DE | [3](network.md#rel-eu-warburg-ecb-indirect-2023-001) |
 | Export–Import Bank of the United States (Chile, 1974) | historical_federal_export_credit_agency | `ORG-US-EXIMBANK-1974` | US | [1](network.md#rel-cl-chile-us-exim-debt-payment-1974) |
@@ -511,6 +520,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
+| Polnische Regierung (Umschuldung 1992) | historical_government | `ORG-PL-REGIERUNG-1992` | PL | [1](network.md#rel-de-herrhausen-fin-007) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
@@ -631,8 +641,10 @@
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
+| Weltbank (Schuldenpolitik 1989) | international_organization | `ORG-INT-WELTBANK-1989` | US | [1](network.md#rel-de-herrhausen-fin-002) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [9](network.md#rel-de-urb-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [2](network.md#rel-de-marienhof-011) |
+| Wielkopolski Bank Kredytowy (1991) | commercial_bank | `ORG-PL-WBK-1991` | PL | [1](network.md#rel-de-herrhausen-fin-008) |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |

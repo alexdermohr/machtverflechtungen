@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**870 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**879 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1522,6 +1522,27 @@ flowchart LR
     N_PER_DE_KURT_WEISS_BND -->|"Politische/strategische Aufklärung und Pressekontakte laut BND-Edition und editorischer Anm. 10 des Stasi-Unterlagen-Archivs; genaue Funktionsdaten abweichend"| N_ORG_DE_BND
     N_PER_DE_KURT_WEISS_BND -->|"Eintritt 1952 laut BND-Edition S. 15 Fn. 41; historische Funktion vor BND-Gründung"| N_ORG_DE_ORGANISATION_GEHLEN
     N_ORG_DE_BND -->|"BND-Edition S. 18 Fn. 54 berichtet genehmigte Aufnahmen für WDR-Dokumentation 1964; zeitgenössische Originalberichte noch zu prüfen"| N_ORG_DE_WDR
+    N_ORG_DE_DEUTSCHE_BANK_1989["Deutsche Bank (1987–1989)"]
+    N_PER_DE_ALFRED_HERRHAUSEN -->|"Vorstandssprecher seit 1985, alleiniger Sprecher seit Mai 1988 bis November 1989."| N_ORG_DE_DEUTSCHE_BANK_1989
+    N_ORG_INT_WELTBANK_1989["Weltbank (Schuldenpolitik 1989)"]
+    N_PER_DE_ALFRED_HERRHAUSEN -->|"Weltbank-Memo 21.09.1989 dokumentiert Herrhausens schriftliche Bitte um Gespräch über koordinierte Entschuldung; tatsächliches Treffen daraus nicht nachgewiesen."| N_ORG_INT_WELTBANK_1989
+    N_PER_DE_WALTER_SEIPP["Walter Seipp"]
+    N_ORG_DE_COMMERZBANK_1989["Commerzbank (1989)"]
+    N_PER_DE_WALTER_SEIPP -->|"Zeitgenössische taz/ap bezeichnet Seipp als Commerzbank-Chef."| N_ORG_DE_COMMERZBANK_1989
+    N_PER_DE_WALTER_SEIPP -->|"taz/ap berichtet öffentliche Ablehnung des Herrhausen- und Brady-Plans durch Seipp am 26.09.1989; wirtschaftspolitischer Konflikt."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_DE_AUSWAERTIGES_AMT_1989["Auswärtiges Amt (1989)"]
+    N_ORG_DE_AUSWAERTIGES_AMT_1989 -->|"AAPD Dok. 353 Fn. 11: Legationsrat Grüber fragte am 02.10.1989 nach polnischem KfW-Konzept; Archivsignatur Referat 214 Bd. 139874."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_PER_PL_KRZYSZTOF_SKUBISZEWSKI["Krzysztof Skubiszewski"]
+    N_PER_DE_HANS_DIETRICH_GENSCHER["Hans-Dietrich Genscher"]
+    N_PER_PL_KRZYSZTOF_SKUBISZEWSKI -->|"AAPD Dok. 353: polnischer Außenminister bat Genscher am 09.11.1989 um weitere Befassung mit Herrhausens Entschuldungsvorschlag."| N_PER_DE_HANS_DIETRICH_GENSCHER
+    N_ORG_DE_BUNDESREGIERUNG_1992["Bundesregierung (deutsch-polnische Umschuldung 1992)"]
+    N_ORG_PL_REGIERUNG_1992["Polnische Regierung (Umschuldung 1992)"]
+    N_ORG_DE_BUNDESREGIERUNG_1992 -->|"BT-Drs. 12/8472: bilaterales Abkommen 1992 zur Umsetzung Pariser Club; 9,1 Mrd. DM Forderungen, 4,55 Mrd. DM Erlass; bereits erfolgte Entschädigung der bundesverbürgten Forderungen amtlich berichtet."| N_ORG_PL_REGIERUNG_1992
+    N_ORG_INT_EBRD["Europäische Bank für Wiederaufbau und Entwicklung (EBRD)"]
+    N_ORG_PL_WBK_1991["Wielkopolski Bank Kredytowy (1991)"]
+    N_ORG_INT_EBRD -->|"EBRD berichtet erste Kreditlinie an WBK im Mai 1991 für lokale kleinere Unternehmen; erstes genehmigtes Projekt 50 Mio. USD."| N_ORG_PL_WBK_1991
+    N_PER_DE_HILMAR_KOPPER["Hilmar Kopper"]
+    N_PER_DE_HILMAR_KOPPER -->|"Kopper unterstützte Morgan-Grenfell-Übernahme 1989 und wurde nach Herrhausens Tod zum Vorstandssprecher gewählt."| N_ORG_DE_DEUTSCHE_BANK_1989
 ```
 
 [Zur Relationstabelle](network.md)

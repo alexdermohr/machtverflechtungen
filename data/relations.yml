@@ -8095,3 +8095,101 @@ relations:
     evidence_level: strong
     period:
       start: '1964'
+
+  - id: REL-DE-HERRHAUSEN-FIN-001
+    from: PER-DE-ALFRED-HERRHAUSEN
+    to: ORG-DE-DEUTSCHE-BANK-1989
+    type: historical_banking_leadership
+    label: Vorstandssprecher seit 1985, alleiniger Sprecher seit Mai 1988 bis November 1989.
+    sources:
+    - SRC-DE-DB-HIST-HERRHAUSEN-KOPPER
+    evidence_level: strong
+    period:
+      start: '1985'
+      end: '1989-11-30'
+  - id: REL-DE-HERRHAUSEN-FIN-002
+    from: PER-DE-ALFRED-HERRHAUSEN
+    to: ORG-INT-WELTBANK-1989
+    type: correspondence
+    label: Weltbank-Memo 21.09.1989 dokumentiert Herrhausens schriftliche Bitte um Gespräch über koordinierte Entschuldung;
+      tatsächliches Treffen daraus nicht nachgewiesen.
+    sources:
+    - SRC-INT-WB-HERRHAUSEN-1989
+    evidence_level: established
+    period:
+      start: '1989-09-21'
+  - id: REL-DE-HERRHAUSEN-FIN-003
+    from: PER-DE-WALTER-SEIPP
+    to: ORG-DE-COMMERZBANK-1989
+    type: historical_banking_leadership
+    label: Zeitgenössische taz/ap bezeichnet Seipp als Commerzbank-Chef.
+    sources:
+    - SRC-DE-TAZ-SEIPP-1989
+    evidence_level: strong
+    period:
+      start: '1989'
+  - id: REL-DE-HERRHAUSEN-FIN-004
+    from: PER-DE-WALTER-SEIPP
+    to: PER-DE-ALFRED-HERRHAUSEN
+    type: documented_political_credit_policy_position
+    label: taz/ap berichtet öffentliche Ablehnung des Herrhausen- und Brady-Plans durch Seipp am 26.09.1989; wirtschaftspolitischer
+      Konflikt.
+    sources:
+    - SRC-DE-TAZ-SEIPP-1989
+    evidence_level: strong
+    period:
+      start: '1989-09-26'
+  - id: REL-DE-HERRHAUSEN-FIN-005
+    from: ORG-DE-AUSWAERTIGES-AMT-1989
+    to: PER-DE-ALFRED-HERRHAUSEN
+    type: documented_information_request
+    label: 'AAPD Dok. 353 Fn. 11: Legationsrat Grüber fragte am 02.10.1989 nach polnischem KfW-Konzept; Archivsignatur Referat
+      214 Bd. 139874.'
+    sources:
+    - SRC-DE-AAPD-HERRHAUSEN-1989
+    evidence_level: established
+    period:
+      start: '1989-10-02'
+  - id: REL-DE-HERRHAUSEN-FIN-006
+    from: PER-PL-KRZYSZTOF-SKUBISZEWSKI
+    to: PER-DE-HANS-DIETRICH-GENSCHER
+    type: documented_diplomatic_intervention_request
+    label: 'AAPD Dok. 353: polnischer Außenminister bat Genscher am 09.11.1989 um weitere Befassung mit Herrhausens Entschuldungsvorschlag.'
+    sources:
+    - SRC-DE-AAPD-HERRHAUSEN-1989
+    evidence_level: established
+    period:
+      start: '1989-11-09'
+  - id: REL-DE-HERRHAUSEN-FIN-007
+    from: ORG-DE-BUNDESREGIERUNG-1992
+    to: ORG-PL-REGIERUNG-1992
+    type: documented_historical_creditor_relationship
+    label: 'BT-Drs. 12/8472: bilaterales Abkommen 1992 zur Umsetzung Pariser Club; 9,1 Mrd. DM Forderungen, 4,55 Mrd. DM Erlass;
+      bereits erfolgte Entschädigung der bundesverbürgten Forderungen amtlich berichtet.'
+    sources:
+    - SRC-DE-BT-POLEN-SCHULDEN-8472-1994
+    evidence_level: established
+    period:
+      start: '1992'
+  - id: REL-DE-HERRHAUSEN-FIN-008
+    from: ORG-INT-EBRD
+    to: ORG-PL-WBK-1991
+    type: documented_historical_creditor_relationship
+    label: EBRD berichtet erste Kreditlinie an WBK im Mai 1991 für lokale kleinere Unternehmen; erstes genehmigtes Projekt 50
+      Mio. USD.
+    sources:
+    - SRC-INT-EBRD-WBK-1991-2019
+    - SRC-INT-EBRD-WBK-1991-2016
+    evidence_level: strong
+    period:
+      start: '1991'
+  - id: REL-DE-HERRHAUSEN-FIN-009
+    from: PER-DE-HILMAR-KOPPER
+    to: ORG-DE-DEUTSCHE-BANK-1989
+    type: historical_banking_leadership
+    label: Kopper unterstützte Morgan-Grenfell-Übernahme 1989 und wurde nach Herrhausens Tod zum Vorstandssprecher gewählt.
+    sources:
+    - SRC-DE-DB-HIST-HERRHAUSEN-KOPPER
+    evidence_level: strong
+    period:
+      start: '1989'

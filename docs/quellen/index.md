@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**580 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**589 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -82,6 +82,21 @@ Abgeordnetenhaus von Berlin; digitalisiert durch Zentral- und Landesbibliothek B
 [Seite öffnen](https://digital.zlb.de/viewer/image/15975513_1971/112/)
 
 Fundstelle: 7. Sitzung vom 27.05.1971, gedruckte S. 92–94 (ZLB Band I, Viewer-Bilder 112–114; Scans Abge_Berl_1971_VI_07.pdf, Bildseiten 10–12)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-de-herrhausen-freiheit-1989"></a>
+### Alfred Herrhausen / Deutsche Bank
+
+**[Um Freiheit und Offenheit](https://www.db.com/files/documents/2022/01-JAN/Alfred-Herrhausen--Denken-Ordnen-Gestalten--Um-Freiheit-und-Offenheit.pdf)**
+
+Alfred Herrhausen / Deutsche Bank · 1989 · Stufe **A** · Primärquelle · `SRC-DE-HERRHAUSEN-FREIHEIT-1989`
+
+[PDF öffnen](https://www.db.com/files/documents/2022/01-JAN/Alfred-Herrhausen--Denken-Ordnen-Gestalten--Um-Freiheit-und-Offenheit.pdf)
+
+Fundstelle: S. 84–85
 
 </article>
 
@@ -544,6 +559,21 @@ Auswärtiges Amt / deutsche Auslandsvertretungen in den USA · unbekannt · Stuf
 [Seite öffnen](https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042)
 
 Fundstelle: Finanzierung aus ERP-Sondervermögen des Wirtschaftsministeriums; Zielsetzungen Förderung von Kultur/Bildung/Wirtschaft, Multiplikatoren und öffentlicher Meinungsbildung; keine 2018/19er Einzelbewilligungsakte
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-de-aapd-herrhausen-1989"></a>
+### Auswärtiges Amt / Institut für Zeitgeschichte
+
+**[Gespräch Genscher–Skubiszewski, AAPD 1989, Dok. 353](https://www.degruyterbrill.com/document/doi/10.1515/9783110662818-010/pdf?licenseType=free)**
+
+Auswärtiges Amt / Institut für Zeitgeschichte · 1989-11-09 · Stufe **A** · Primärquelle · `SRC-DE-AAPD-HERRHAUSEN-1989`
+
+[Seite öffnen](https://www.degruyterbrill.com/document/doi/10.1515/9783110662818-010/pdf?licenseType=free)
+
+Fundstelle: S. 1507, Fn. 11; Referat 214, Bd. 139874
 
 </article>
 
@@ -2672,6 +2702,21 @@ Deutscher Bundestag / Bundesregierung · 1992-07-30 · Stufe **A** · Primärque
 [PDF öffnen](https://dserver.bundestag.de/btd/12/031/1203123.pdf)
 
 Fundstelle: Fragen 4–6, gedruckte S. 3–5
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-de-bt-polen-schulden-8472-1994"></a>
+### Deutscher Bundestag / Bundesregierung
+
+**[BT-Drs. 12/8472, Fragen 2/3](https://dserver.bundestag.de/btd/12/084/1208472.pdf)**
+
+Deutscher Bundestag / Bundesregierung · 1994-09-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-POLEN-SCHULDEN-8472-1994`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/12/084/1208472.pdf)
+
+Fundstelle: Fragen 2 und 3, Antwort Staatsminister Schäfer vom 07.09.1994
 
 </article>
 
@@ -7023,6 +7068,21 @@ Fundstelle: Tenor: Ablehnung vom 06.11.2003 gegenüber PKK-Mitglied Kerstin Kais
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
+
+<a id="src-int-ebrd-agreement-1990"></a>
+### Vertragsparteien / CVCE
+
+**[Agreement establishing the European Bank for Reconstruction and Development](https://www.cvce.eu/content/publication/2003/6/13/3aa002f8-caba-4263-85cd-afc04ed7c8a7/publishable_en.pdf)**
+
+Vertragsparteien / CVCE · 1990-05-29 · Stufe **A** · Primärquelle · `SRC-INT-EBRD-AGREEMENT-1990`
+
+[PDF öffnen](https://www.cvce.eu/content/publication/2003/6/13/3aa002f8-caba-4263-85cd-afc04ed7c8a7/publishable_en.pdf)
+
+Fundstelle: Art. 1–3, 5, 11–13
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
 
 <a id="src-ws-clinton-saudi-1994"></a>
@@ -7035,6 +7095,21 @@ White House / Weekly Compilation of Presidential Documents · 1994-02-16 · Stuf
 [PDF öffnen](https://www.govinfo.gov/content/pkg/WCPD-1994-02-21/pdf/WCPD-1994-02-21.pdf)
 
 Fundstelle: Gedruckte S. 305: angekündigte Boeing/McDonnell-Douglas-Beschaffung, rund 6 Mrd. USD und Finanzierung; keine Kreditabrechnung.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-int-wb-herrhausen-1989"></a>
+### World Bank Archives
+
+**[Debt Reduction Proposal from Dr. Herrhausen, Deutsche Bank](https://thedocs.worldbank.org/en/doc/928931631086710350-0560011990/original/WorldBankGroupArchivesFolder1104071.pdf)**
+
+World Bank Archives · 1989-09-21 · Stufe **A** · Primärquelle · `SRC-INT-WB-HERRHAUSEN-1989`
+
+[PDF öffnen](https://thedocs.worldbank.org/en/doc/928931631086710350-0560011990/original/WorldBankGroupArchivesFolder1104071.pdf)
+
+Fundstelle: Folder 1104071, David Bock an Barber Conable, 21.09.1989, Abs. 1–5
 
 </article>
 
@@ -7055,7 +7130,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-int-ebrd-wbk-1991-2016) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-de-db-hist-herrhausen-kopper) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -7805,6 +7880,36 @@ Fundstelle: Abschnitt 5, Rn. 97–104, Fn. 65, 69, 70: journalistische Quellen u
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2016">
+
+<a id="src-int-ebrd-wbk-1991-2016"></a>
+### EBRD
+
+**[Poland – from the first EBRD investment to a model of transition](https://www.ebrd.com/home/news-and-events/news/2016/poland-from-the-first-ebrd-investment-to-a-model-of-transition.html)**
+
+EBRD · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-EBRD-WBK-1991-2016`
+
+[Seite öffnen](https://www.ebrd.com/home/news-and-events/news/2016/poland-from-the-first-ebrd-investment-to-a-model-of-transition.html)
+
+Fundstelle: WBK-Kreditlinie Mai 1991
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
+<a id="src-int-ebrd-wbk-1991-2019"></a>
+### EBRD
+
+**[1989 and the aftermath: the role of the EBRD](https://www.ebrd.com/home/news-and-events/news/2019/1989-and-the-aftermath-the-role-of-the-ebrd.html)**
+
+EBRD · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-EBRD-WBK-1991-2019`
+
+[Seite öffnen](https://www.ebrd.com/home/news-and-events/news/2019/1989-and-the-aftermath-the-role-of-the-ebrd.html)
+
+Fundstelle: Erstes genehmigtes Projekt: WBK
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1998">
 
 <a id="src-co-efe-mauss-archivo-1998"></a>
@@ -7877,6 +7982,21 @@ Gannett Foundation · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC
 [PDF öffnen](https://files.eric.ed.gov/fulltext/ED326913.pdf)
 
 Fundstelle: S. 90–91: GMF und National Forum Foundation; Inventur, kein Zahlungsbeleg.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-de-db-hist-herrhausen-kopper"></a>
+### Historische Gesellschaft der Deutschen Bank
+
+**[Herrhausen und Kopper – biografische Einträge](https://www.bankgeschichte.de/leading-figures/ghijkl?language_id=3)**
+
+Historische Gesellschaft der Deutschen Bank · 2026 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-DB-HIST-HERRHAUSEN-KOPPER`
+
+[Seite öffnen](https://www.bankgeschichte.de/leading-figures/ghijkl?language_id=3)
+
+Fundstelle: Einträge Alfred Herrhausen und Hilmar Kopper
 
 </article>
 
@@ -8477,6 +8597,21 @@ taz / Hermann Rheindorf · 1997-07-03 · Stufe **B** · Sekundär-/Forschungsque
 [Seite öffnen](https://taz.de/Zuhaelter-und-Prostituierte/!1393455/)
 
 Fundstelle: Landgericht Köln am 02.07.1997: Klage FAZ/Ulfkotte gegen Rössel abgewiesen; Konzern-Pressefahrt und spätere Shell-Werbevideonutzung des FAZ-Artikels
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1989">
+
+<a id="src-de-taz-seipp-1989"></a>
+### taz/ap
+
+**[Seipp gegen Brady-Plan](https://taz.de/Seipp-gegen-Brady-Plan/!1797136/)**
+
+taz/ap · 1989-09-26 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-TAZ-SEIPP-1989`
+
+[Seite öffnen](https://taz.de/Seipp-gegen-Brady-Plan/!1797136/)
+
+Fundstelle: Zeitgenössischer Bericht zur Washingtoner Pressekonferenz
 
 </article>
 

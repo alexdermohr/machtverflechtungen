@@ -3611,3 +3611,77 @@ entities:
     name: "Sagem (AFIS-Rechteinhaber, 2005)"
     countries: [FR]
     notes: "Zeitbezogener Rollenknoten für den 2005 von der RNEC als Sagem bezeichneten Rechteinhaber; weder die konkrete juristische Kontinuität zum Vertragspartner 1997 noch Identität mit dem Consorcio Sagem vorausgesetzt."
+
+  - id: ORG-DE-DEUTSCHE-BANK-1989
+    type: commercial_bank
+    name: Deutsche Bank (1987–1989)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für die Entschuldungsdebatte und Vorstandstätigkeit; dieselbe Bank wie der gesonderte
+      Sponsorenknoten 2008/09.
+  - id: PER-DE-WALTER-SEIPP
+    type: person
+    name: Walter Seipp
+    countries:
+    - DE
+    notes: Commerzbank-Chef in der Entschuldungsdebatte 1989.
+  - id: ORG-DE-COMMERZBANK-1989
+    type: commercial_bank
+    name: Commerzbank (1989)
+    countries:
+    - DE
+    notes: Zeitbezogener Gläubigerbank-Knoten.
+  - id: ORG-INT-WELTBANK-1989
+    type: international_organization
+    name: Weltbank (Schuldenpolitik 1989)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für dokumentierte Kommunikation mit Herrhausen.
+  - id: ORG-DE-AUSWAERTIGES-AMT-1989
+    type: government_ministry
+    name: Auswärtiges Amt (1989)
+    countries:
+    - DE
+    notes: Zeitbezogener Rollenknoten für Polen-Verhandlungen; dieselbe Institution wie in anderen historischen Rollen.
+  - id: PER-DE-HANS-DIETRICH-GENSCHER
+    type: person
+    name: Hans-Dietrich Genscher
+    countries:
+    - DE
+    notes: Bundesaußenminister im dokumentierten Gespräch vom 09.11.1989.
+  - id: PER-PL-KRZYSZTOF-SKUBISZEWSKI
+    type: person
+    name: Krzysztof Skubiszewski
+    countries:
+    - PL
+    notes: Polnischer Außenminister im dokumentierten Gespräch vom 09.11.1989.
+  - id: ORG-DE-BUNDESREGIERUNG-1992
+    type: historical_government
+    name: Bundesregierung (deutsch-polnische Umschuldung 1992)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für öffentlich verbürgte Forderungen und Schuldenerlass.
+  - id: ORG-PL-REGIERUNG-1992
+    type: historical_government
+    name: Polnische Regierung (Umschuldung 1992)
+    countries:
+    - PL
+    notes: Schuldnerstaat im bilateralen Abkommen.
+  - id: ORG-INT-EBRD
+    type: international_organization
+    name: Europäische Bank für Wiederaufbau und Entwicklung (EBRD)
+    countries:
+    - GB
+    notes: Multilaterale Entwicklungsbank, gegründet durch Abkommen 1990; operativ seit 1991.
+  - id: ORG-PL-WBK-1991
+    type: commercial_bank
+    name: Wielkopolski Bank Kredytowy (1991)
+    countries:
+    - PL
+    notes: Polnischer Kreditnehmer der EBRD, historischer Rollenknoten.
+  - id: PER-DE-HILMAR-KOPPER
+    type: person
+    name: Hilmar Kopper
+    countries:
+    - DE
+    notes: Nachfolger Herrhausens als Vorstandssprecher.
