@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**908 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**916 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1586,6 +1586,15 @@ flowchart LR
     N_ORG_DE_BFD["Bundesbeauftragter für den Datenschutz (BfD)"]
     N_ORG_DE_BFD -->|"Tätigkeitsbericht vom 07.05.2003: Prüfung 2001, neue Dienstanweisung 2002 und offene Archivierung zeitgeschichtlich bedeutsamer Akten; keine Feststellung fortdauernder Mängel 2011"| N_ORG_DE_BFV
     N_ORG_DE_BMI_AMRI_2017 -->|"Regierungsantwort 04.08.2016: seit März 2013 zentrale Kassation in Registraturen und Trennung von Veranlassung und Kassation laut Bundesregierung; tatsächlicher Vollzug nicht unabhängig geprüft"| N_ORG_DE_BFV
+    N_ORG_DE_BFV -->|"BfD-Bericht 04.05.1999: komplette Akten in mehreren Fällen nicht vorgelegt; abgestuftes Verfahren 1998 vereinbart, ausreichende Kontrolle laut Bericht weiterhin möglich"| N_ORG_DE_BFD
+    N_ORG_DE_BFV -->|"BfD-Bericht 13.03.2001: Kontrolle einer Datei wegen verweigerter Einsicht in nahezu vollständig quellengeschützten Aktenbestand abgebrochen; Datei nicht bezeichnet"| N_ORG_DE_BFD
+    N_ORG_DE_BFV -->|"BfD-Bericht 13.03.2001: bei zwei Folgekontrollen Zugang zu fast allen quellengeschützten Unterlagen; Verweigerung nur bei direktem Rückschluss auf Quelle laut BfD"| N_ORG_DE_BFD
+    N_ORG_DE_BFV -->|"BfDI-Bericht 12.04.2011: BfV beanspruchte Quellenschutz für Namen anderer Nachrichtendienste bei Kontrolle; BfDI widersprach, technischer Kompromiss noch offen"| N_ORG_DE_BFD
+    N_ORG_DE_BFD -->|"BfDI-Bericht 24.04.2013: keine automatische Vernichtungspflicht nach fünf Jahren; Akten- und Dateirecht unterschieden, Erforderlichkeit entscheidend; Rechtsauffassung der Aufsicht"| N_ORG_DE_BFV
+    N_ORG_DE_BMI_AMRI_2017 -->|"Regierungsbericht 28.02.2014: neue DV-Aktenvernichtung und direkte Anbindung des internen Datenschutzbeauftragten seit April 2013; externer Wirkungsnachweis offen"| N_ORG_DE_BFV
+    N_ORG_DE_UKRAT["Unabhängiger Kontrollrat (UKRat)"]
+    N_ORG_DE_BFD -->|"BfDI-Bericht 06.05.2026: warnt vor Verlust des dienst- und polizeiübergreifenden Überblicks bei Aufsichtsverschiebung; Kritik an damaligem Plan, nicht an produktivem Vollzug"| N_ORG_DE_UKRAT
+    N_ORG_DE_BFD -->|"Bundestag beschloss am 13.11.2026 Reform zur Übertragung operativer Datenschutzkontrolle; Verkündung, Inkrafttreten und tatsächliche Umsetzung nicht verifiziert"| N_ORG_DE_UKRAT
 ```
 
 [Zur Relationstabelle](network.md)

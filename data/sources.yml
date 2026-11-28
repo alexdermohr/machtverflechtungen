@@ -7020,3 +7020,99 @@ sources:
   accessed: '2026-11-28'
   locator: "Indexierter Beitrag und anonymer Kommentar mit angeblichen Auszügen der Verfügung vom 18.06.2013, 121 Js 572/12"
   notes: "Ungeprüfte Drittwiedergabe ohne Faksimile; direkter Abruf Cache-Miss. Nur Suchspur zur Urschrift, kein eigenständiger Nachweis für § 96 StPO, Vollständigkeit oder tatsächliche Akteninhalte."
+
+- id: SRC-DE-BFD-TB17-19990504
+  title: "17. Tätigkeitsbericht 1997/1998, BT-Drs. 14/850"
+  institution: "Bundesbeauftragter für den Datenschutz"
+  date: '1999-05-04'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/14/008/1400850.pdf
+  accessed: '2026-11-28'
+  locator: "S. 121, Nr. 14.1; S. 122–123, Nr. 14.4"
+  notes: "Aufsichtsbericht über eigene Kontrollen und abgestuftes Verfahren; keine Originalakten der Einzelfälle. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BFD-TB18-20010313
+  title: "18. Tätigkeitsbericht 1999/2000, BT-Drs. 14/5555"
+  institution: "Bundesbeauftragter für den Datenschutz"
+  date: '2001-03-13'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/14/055/1405555.pdf
+  accessed: '2026-11-28'
+  locator: "S. 116, Nr. 14.2"
+  notes: "Abgebrochene Kontrolle und zwei nachfolgende verbesserte Kontrollen ausdrücklich getrennt; konkrete Datei nicht bezeichnet. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BFDI-TB23-20110412
+  title: "23. Tätigkeitsbericht 2009/2010, BT-Drs. 17/5200"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2011-04-12'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/052/1705200.pdf
+  accessed: '2026-11-28'
+  locator: "S. 85–86, Nr. 7.1.6"
+  notes: "Positionen von BfV und BfDI aus Aufsichtsbericht; keine gerichtliche Entscheidung; Beratungen bei Redaktionsschluss offen. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BFDI-TB24-20130424
+  title: "24. Tätigkeitsbericht 2011/2012, BT-Drs. 17/13000"
+  institution: "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit"
+  date: '2013-04-24'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/17/130/1713000.pdf
+  accessed: '2026-11-28'
+  locator: "S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3"
+  notes: "Eigene rechtliche Bewertung der NSU-Aktenvernichtung und berichtete Kontrollhindernisse bei Bundesnachrichtendiensten allgemein. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BT-NSU-18710-20140228
+  title: "Bericht über Umsetzungsstand der Empfehlungen des NSU-Untersuchungsausschusses, BT-Drs. 18/710"
+  institution: "Bundesregierung"
+  date: '2014-02-28'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/18/007/1800710.pdf
+  accessed: '2026-11-28'
+  locator: "S. 8–9, Abschnitt 3d, Empfehlungen 35–37"
+  notes: "Regierungsdarstellung interner organisatorischer Maßnahmen; kein unabhängiger Nachweis externer Kontrollwirksamkeit. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BFDI-TB34-20260506
+  title: "34. Tätigkeitsbericht 2025, BT-Drs. 21/5950"
+  institution: "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+  date: '2026-05-06'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/21/059/2105950.pdf
+  accessed: '2026-11-28'
+  locator: "S. 8, Eingangsinterview"
+  notes: "Kritik an geplanter Aufsichtsverlagerung vor Bundestagsbeschluss; keine Beurteilung des späteren Vollzugs. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BT-NDREFORM-219161-20261111
+  title: "Beschlussempfehlung und Bericht zur Reform des Nachrichtendienstrechts, BT-Drs. 21/9161 (neu)"
+  institution: "Deutscher Bundestag, Innenausschuss"
+  date: '2026-11-11'
+  type: legislative_draft
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/21/091/2109161.pdf
+  accessed: '2026-11-28'
+  locator: "S. 3–5, 35–41 (UKRatG-E), 50 (Entschließung II.2 und III.2)"
+  notes: "Vorabfassung des Ausschussberichts; Änderungen, Ausgabenprognosen und Evaluationsauftrag; nicht Verkündungstext. Amtlicher Text; Seitenbildabruf technisch fehlgeschlagen."
+
+- id: SRC-DE-BT-NDREFORM-BESCHLUSS-20261113
+  title: "Bundestag reformiert das Nachrichtendienstrecht, Beschluss 13.11.2026"
+  institution: "Deutscher Bundestag"
+  date: '2026-11-13'
+  type: parliamentary_report
+  primary: true
+  tier: A
+  url: https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530
+  accessed: '2026-11-28'
+  locator: "Abschnitt Beschluss, namentliche Abstimmung zu 21/7868, 21/8295, 21/9161 (neu), Entschließung"
+  notes: "Amtliche parlamentarische Berichterstattung und Abstimmungsergebnis; kein Nachweis der Verkündung, des Inkrafttretens oder der Umsetzung."

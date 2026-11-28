@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**617 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**625 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -1327,6 +1327,51 @@ Fundstelle: TOP B, Editionsanmerkungen 30–37; Anm. 33: BArch B 106/15585 (BMG-
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bfdi-tb34-20260506"></a>
+### Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+
+**[34. Tätigkeitsbericht 2025, BT-Drs. 21/5950](https://dserver.bundestag.de/btd/21/059/2105950.pdf)**
+
+Bundesbeauftragte für den Datenschutz und die Informationsfreiheit · 2026-05-06 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB34-20260506`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/059/2105950.pdf)
+
+Fundstelle: S. 8, Eingangsinterview
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1999">
+
+<a id="src-de-bfd-tb17-19990504"></a>
+### Bundesbeauftragter für den Datenschutz
+
+**[17. Tätigkeitsbericht 1997/1998, BT-Drs. 14/850](https://dserver.bundestag.de/btd/14/008/1400850.pdf)**
+
+Bundesbeauftragter für den Datenschutz · 1999-05-04 · Stufe **A** · Primärquelle · `SRC-DE-BFD-TB17-19990504`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/14/008/1400850.pdf)
+
+Fundstelle: S. 121, Nr. 14.1; S. 122–123, Nr. 14.4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2001">
+
+<a id="src-de-bfd-tb18-20010313"></a>
+### Bundesbeauftragter für den Datenschutz
+
+**[18. Tätigkeitsbericht 1999/2000, BT-Drs. 14/5555](https://dserver.bundestag.de/btd/14/055/1405555.pdf)**
+
+Bundesbeauftragter für den Datenschutz · 2001-03-13 · Stufe **A** · Primärquelle · `SRC-DE-BFD-TB18-20010313`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/14/055/1405555.pdf)
+
+Fundstelle: S. 116, Nr. 14.2
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
 
 <a id="src-de-bfd-tb19-20030507"></a>
@@ -1339,6 +1384,36 @@ Bundesbeauftragter für den Datenschutz · 2003-05-07 · Stufe **A** · Primärq
 [PDF öffnen](https://dserver.bundestag.de/btd/15/008/1500888.pdf)
 
 Fundstelle: Gedruckte S. 111–112, Abschnitte 17.2.1, 17.2.2 und 17.3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2011">
+
+<a id="src-de-bfdi-tb23-20110412"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[23. Tätigkeitsbericht 2009/2010, BT-Drs. 17/5200](https://dserver.bundestag.de/btd/17/052/1705200.pdf)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2011-04-12 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB23-20110412`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/052/1705200.pdf)
+
+Fundstelle: S. 85–86, Nr. 7.1.6
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2013">
+
+<a id="src-de-bfdi-tb24-20130424"></a>
+### Bundesbeauftragter für den Datenschutz und die Informationsfreiheit
+
+**[24. Tätigkeitsbericht 2011/2012, BT-Drs. 17/13000](https://dserver.bundestag.de/btd/17/130/1713000.pdf)**
+
+Bundesbeauftragter für den Datenschutz und die Informationsfreiheit · 2013-04-24 · Stufe **A** · Primärquelle · `SRC-DE-BFDI-TB24-20130424`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/17/130/1713000.pdf)
+
+Fundstelle: S. 109–111, Nr. 7.7.5–7.7.6; ergänzend S. 106–107, Nr. 7.7.3
 
 </article>
 
@@ -1472,6 +1547,21 @@ Fundstelle: Gedruckte S. 238–241, Abschnitt 5.3.4.2.4; Ausschussdrucksache 488
 Bundesnachrichtendienst · 2011 · Stufe **A** · Primärquelle · `SRC-DE-BND-GESCHICHTE-2011`
 
 [PDF öffnen](https://www.bnd.bund.de/SharedDocs/Downloads/DE/bnd-sonderausgabe.pdf?__blob=publicationFile&v=2)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2014">
+
+<a id="src-de-bt-nsu-18710-20140228"></a>
+### Bundesregierung
+
+**[Bericht über Umsetzungsstand der Empfehlungen des NSU-Untersuchungsausschusses, BT-Drs. 18/710](https://dserver.bundestag.de/btd/18/007/1800710.pdf)**
+
+Bundesregierung · 2014-02-28 · Stufe **A** · Primärquelle · `SRC-DE-BT-NSU-18710-20140228`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/18/007/1800710.pdf)
+
+Fundstelle: S. 8–9, Abschnitt 3d, Empfehlungen 35–37
 
 </article>
 
@@ -2727,6 +2817,21 @@ Fundstelle: Protokoll 21/55, TOP 5 b, S. 22–23
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-ndreform-beschluss-20261113"></a>
+### Deutscher Bundestag
+
+**[Bundestag reformiert das Nachrichtendienstrecht, Beschluss 13.11.2026](https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530)**
+
+Deutscher Bundestag · 2026-11-13 · Stufe **A** · Primärquelle · `SRC-DE-BT-NDREFORM-BESCHLUSS-20261113`
+
+[Seite öffnen](https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530)
+
+Fundstelle: Abschnitt Beschluss, namentliche Abstimmung zu 21/7868, 21/8295, 21/9161 (neu), Entschließung
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
 
 <a id="src-de-bt-ulfkotte-bka-1997-8534"></a>
@@ -3459,6 +3564,21 @@ Deutscher Bundestag, 3. Untersuchungsausschuss der 18. Wahlperiode · 2016-10-20
 [PDF öffnen](https://www.bundestag.de/resource/blob/488394/NW-35.pdf)
 
 Fundstelle: 34. Sitzung, Beweisbeschluss NW-35, S. 1
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
+
+<a id="src-de-bt-ndreform-219161-20261111"></a>
+### Deutscher Bundestag, Innenausschuss
+
+**[Beschlussempfehlung und Bericht zur Reform des Nachrichtendienstrechts, BT-Drs. 21/9161 (neu)](https://dserver.bundestag.de/btd/21/091/2109161.pdf)**
+
+Deutscher Bundestag, Innenausschuss · 2026-11-11 · Stufe **A** · Primärquelle · `SRC-DE-BT-NDREFORM-219161-20261111`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/21/091/2109161.pdf)
+
+Fundstelle: S. 3–5, 35–41 (UKRatG-E), 50 (Entschließung II.2 und III.2)
 
 </article>
 

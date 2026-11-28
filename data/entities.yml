@@ -3753,3 +3753,9 @@ entities:
     name: Bundesbeauftragter für den Datenschutz (BfD)
     countries: [DE]
     notes: "Historische Amtsbezeichnung 2003; heute BfDI."
+
+  - id: ORG-DE-UKRAT
+    type: government_body
+    name: Unabhängiger Kontrollrat (UKRat)
+    countries: [DE]
+    notes: "Bereits bestehendes Kontrollorgan; Ausbau der Zuständigkeiten durch Bundestagsbeschluss 13.11.2026 getrennt von tatsächlichem Inkrafttreten und Vollzug."

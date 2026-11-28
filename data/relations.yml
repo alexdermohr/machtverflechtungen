@@ -8432,3 +8432,75 @@ relations:
     period: {start: "2016-08-04"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-189331-20160804]
+
+  - id: REL-DE-BFV-BFD-QUELLENSCHUTZ-1999-001
+    from: ORG-DE-BFV
+    to: ORG-DE-BFD
+    type: reported_restricted_oversight_access
+    label: "BfD-Bericht 04.05.1999: komplette Akten in mehreren Fällen nicht vorgelegt; abgestuftes Verfahren 1998 vereinbart, ausreichende Kontrolle laut Bericht weiterhin möglich"
+    period: {start: "1999-05-04"}
+    evidence_level: established
+    sources: [SRC-DE-BFD-TB17-19990504]
+
+  - id: REL-DE-BFV-BFD-KONTROLLABBRUCH-2001-001
+    from: ORG-DE-BFV
+    to: ORG-DE-BFD
+    type: reported_aborted_oversight_inspection
+    label: "BfD-Bericht 13.03.2001: Kontrolle einer Datei wegen verweigerter Einsicht in nahezu vollständig quellengeschützten Aktenbestand abgebrochen; Datei nicht bezeichnet"
+    period: {start: "2001-03-13"}
+    evidence_level: established
+    sources: [SRC-DE-BFD-TB18-20010313]
+
+  - id: REL-DE-BFV-BFD-KONTROLLVERBESSERUNG-2001-001
+    from: ORG-DE-BFV
+    to: ORG-DE-BFD
+    type: reported_improved_oversight_access
+    label: "BfD-Bericht 13.03.2001: bei zwei Folgekontrollen Zugang zu fast allen quellengeschützten Unterlagen; Verweigerung nur bei direktem Rückschluss auf Quelle laut BfD"
+    period: {start: "2001-03-13"}
+    evidence_level: established
+    sources: [SRC-DE-BFD-TB18-20010313]
+
+  - id: REL-DE-BFV-BFDI-AND-2011-001
+    from: ORG-DE-BFV
+    to: ORG-DE-BFD
+    type: reported_disputed_oversight_restriction
+    label: "BfDI-Bericht 12.04.2011: BfV beanspruchte Quellenschutz für Namen anderer Nachrichtendienste bei Kontrolle; BfDI widersprach, technischer Kompromiss noch offen"
+    period: {start: "2011-04-12"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB23-20110412]
+
+  - id: REL-DE-BFDI-BFV-AKTENRECHT-2013-001
+    from: ORG-DE-BFD
+    to: ORG-DE-BFV
+    type: disputed_legal_basis_for_records_destruction
+    label: "BfDI-Bericht 24.04.2013: keine automatische Vernichtungspflicht nach fünf Jahren; Akten- und Dateirecht unterschieden, Erforderlichkeit entscheidend; Rechtsauffassung der Aufsicht"
+    period: {start: "2013-04-24"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB24-20130424]
+
+  - id: REL-DE-BMI-BFV-DATENSCHUTZREFORM-2014-001
+    from: ORG-DE-BMI-AMRI-2017
+    to: ORG-DE-BFV
+    type: reported_internal_oversight_reform
+    label: "Regierungsbericht 28.02.2014: neue DV-Aktenvernichtung und direkte Anbindung des internen Datenschutzbeauftragten seit April 2013; externer Wirkungsnachweis offen"
+    period: {start: "2014-02-28"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-18710-20140228]
+
+  - id: REL-DE-BFDI-UKRAT-REFORMKRITIK-2026-001
+    from: ORG-DE-BFD
+    to: ORG-DE-UKRAT
+    type: criticized_planned_oversight_transfer
+    label: "BfDI-Bericht 06.05.2026: warnt vor Verlust des dienst- und polizeiübergreifenden Überblicks bei Aufsichtsverschiebung; Kritik an damaligem Plan, nicht an produktivem Vollzug"
+    period: {start: "2026-05-06"}
+    evidence_level: established
+    sources: [SRC-DE-BFDI-TB34-20260506]
+
+  - id: REL-DE-BFDI-UKRAT-BESCHLUSS-2026-001
+    from: ORG-DE-BFD
+    to: ORG-DE-UKRAT
+    type: parliament_approved_oversight_transfer
+    label: "Bundestag beschloss am 13.11.2026 Reform zur Übertragung operativer Datenschutzkontrolle; Verkündung, Inkrafttreten und tatsächliche Umsetzung nicht verifiziert"
+    period: {start: "2026-11-13"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NDREFORM-219161-20261111, SRC-DE-BT-NDREFORM-BESCHLUSS-20261113]
