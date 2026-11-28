@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**612 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**627 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -4310,6 +4310,21 @@ Fundstelle: S. 5076 / PDF 8: Dekret vom 30.06.1982 benennt Pierre W. Siegenthale
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2015">
+
+<a id="src-pl-mf-fozz-liquidation-2015"></a>
+### Ministerstwo Finansów
+
+**[Bilans zamknięcia FOZZ w likwidacji zatwierdzony](https://mf-arch2.mf.gov.pl/web/bip/ministerstwo-finansow/wiadomosci/komunikaty/-/asset_publisher/6Wwm/content/bilans-zamkniecia-%E2%80%9Efozz-w-likwidacji%E2%80%9D-zatwierdzony)**
+
+Ministerstwo Finansów · 2015-01-05 · Stufe **A** · Primärquelle · `SRC-PL-MF-FOZZ-LIQUIDATION-2015`
+
+[Seite öffnen](https://mf-arch2.mf.gov.pl/web/bip/ministerstwo-finansow/wiadomosci/komunikaty/-/asset_publisher/6Wwm/content/bilans-zamkniecia-%E2%80%9Efozz-w-likwidacji%E2%80%9D-zatwierdzony)
+
+Fundstelle: Abschlussbilanz und Überweisung 02.01.2015
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2026">
 
 <a id="src-ua-mod-brave1-2026"></a>
@@ -4608,6 +4623,21 @@ Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, 
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2008">
+
+<a id="src-pl-tk-k51-07-2008"></a>
+### Polnisches Verfassungsgericht
+
+**[Wyrok Trybunału Konstytucyjnego K 51/07](https://eli.gov.pl/api/acts/DU/2008/797/text.html)**
+
+Polnisches Verfassungsgericht · 2008-06-27 · Stufe **A** · Primärquelle · `SRC-PL-TK-K51-07-2008`
+
+[Seite öffnen](https://eli.gov.pl/api/acts/DU/2008/797/text.html)
+
+Fundstelle: Tenor 4(a–c), 5–6
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2024">
 
 <a id="src-it-bologna-pg-report-2024"></a>
@@ -4875,6 +4905,36 @@ SEC EDGAR, eingereichter Wertpapierprospekt · 2004 · Stufe **A** · Primärque
 [Seite öffnen](https://www.sec.gov/Archives/edgar/data/936988/000119312504050044/d424b5.htm)
 
 Fundstelle: Citibank wholly owned subsidiary of Citicorp; Citicorp indirect wholly owned subsidiary of Citigroup. Bezug Finanzdaten 31.12.2003.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
+
+<a id="src-pl-fozz-law-1989"></a>
+### Sejm / Dziennik Ustaw
+
+**[Ustawa o Funduszu Obsługi Zadłużenia Zagranicznego](https://eli.gov.pl/api/acts/DU/1989/31/text.html)**
+
+Sejm / Dziennik Ustaw · 1989-02-15 · Stufe **A** · Primärquelle · `SRC-PL-FOZZ-LAW-1989`
+
+[Seite öffnen](https://eli.gov.pl/api/acts/DU/1989/31/text.html)
+
+Fundstelle: Art. 1–3, 5–12, 14–16
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2002">
+
+<a id="src-pl-sejm-fozz-463-2002"></a>
+### Sejm / Regierung
+
+**[Regierungsauskunft SPS-0203-463/02](https://orka2.sejm.gov.pl/IZ4.nsf/main/64656920)**
+
+Sejm / Regierung · 2002 · Stufe **A** · Primärquelle · `SRC-PL-SEJM-FOZZ-463-2002`
+
+[Seite öffnen](https://orka2.sejm.gov.pl/IZ4.nsf/main/64656920)
+
+Fundstelle: Passage zu Verjährungsfristen im FOZZ-Verfahren
 
 </article>
 
@@ -7368,6 +7428,21 @@ Fundstelle: Folder 1104071, David Bock an Barber Conable, 21.09.1989, Abs. 1–5
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2007">
+
+<a id="src-pl-wsi-report-2007"></a>
+### WSI-Überprüfungskommission / Präsident Polens
+
+**[Raport o działaniach żołnierzy i pracowników WSI, Monitor Polski Nr. 11 Pos. 110](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WMP20070110110)**
+
+WSI-Überprüfungskommission / Präsident Polens · 2007-02-16 · Stufe **A** · Primärquelle · `SRC-PL-WSI-REPORT-2007`
+
+[Seite öffnen](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WMP20070110110)
+
+Fundstelle: S. 192–193, Fn. 11–15, 20; Spiegel im Dossier
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="B" data-source-year="1992">
 
 <a id="src-de-zeitst-pechel-bucerius-1992"></a>
@@ -7385,7 +7460,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-int-ebrd-wbk-1991-2016) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-de-db-hist-herrhausen-kopper) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-pl-nik-fozz-panko-2021) · [E](#src-int-ebrd-wbk-1991-2016) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-de-db-hist-herrhausen-kopper) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -7459,6 +7534,126 @@ Archivportal-D / Bundesarchiv / Landesarchiv Baden-Württemberg · 2026-08-14 ·
 [Seite öffnen](https://www.archivportal-d.de/content/themenportale/rechte-gewalt/case/rassistischer-anschlag-der-deutschen-aktionsgruppen)
 
 Fundstelle: Einleitung; Ablauf des Ereignisses; Ermittlungen; Bestandsübersicht
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1959">
+
+<a id="src-pl-aan-bh-german-banks-1959-1970"></a>
+### Archiwum Akt Nowych
+
+**[Bank Handlowy, Kooperation mit deutschen Banken](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=4&_Seria_delta=100&_Seria_id_serii=669014&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)**
+
+Archiwum Akt Nowych · 1959 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-BH-GERMAN-BANKS-1959-1970`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=4&_Seria_delta=100&_Seria_id_serii=669014&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+Fundstelle: 2/638/0/26/23/374, 376–377, 380
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1978">
+
+<a id="src-pl-aan-bh-db-lux-1978-1980"></a>
+### Archiwum Akt Nowych
+
+**[Bank Handlowy, Kreditverträge Deutsche Bank Compagnie Financière Luxembourg/BfG Luxemburg](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/16789460)**
+
+Archiwum Akt Nowych · 1978 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-BH-DB-LUX-1978-1980`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/16789460)
+
+Fundstelle: 2/638/0/32/29/106, 349 Seiten
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1989">
+
+<a id="src-pl-aan-fozz-transactions"></a>
+### Archiwum Akt Nowych
+
+**[FOZZ Finanzoperationen, Akten 1518, 1527–1532](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=60&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)**
+
+Archiwum Akt Nowych · 1989 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-TRANSACTIONS`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=60&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+Fundstelle: 2/2682/0/5.1.3/1518, 1527–1531; 5.2.1/1532
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1989">
+
+<a id="src-pl-aan-fozz-berowne-court"></a>
+### Archiwum Akt Nowych
+
+**[FOZZ gegen Berowne Limited und Richard Rowe](https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=40&_Seria_id_serii=513010&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)**
+
+Archiwum Akt Nowych · 1989 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-BEROWNE-COURT`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=40&_Seria_id_serii=513010&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+Fundstelle: 2/2682/0/1.5.1/200–211
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1989">
+
+<a id="src-pl-aan-fozz-1455"></a>
+### Archiwum Akt Nowych
+
+**[Übernahme des Schuldendienstes von Bank Handlowy durch FOZZ](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=20&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)**
+
+Archiwum Akt Nowych · 1989 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-1455`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=20&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+Fundstelle: 2/2682/0/5.1.1/1455; Sitzung 06.11.1990
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1990">
+
+<a id="src-pl-aan-fozz-1543"></a>
+### Archiwum Akt Nowych
+
+**[FOZZ und Stiftung für deutsch-polnische Zusammenarbeit, Jumbo-Kredite](https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/13476818)**
+
+Archiwum Akt Nowych · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-1543`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/13476818)
+
+Fundstelle: 2/2682/0/5.2.1/1543
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1990">
+
+<a id="src-pl-aan-fozz-1568"></a>
+### Archiwum Akt Nowych
+
+**[Universal/Berowne, Aufstellungen über Zahlungseingänge RBS](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/13476843)**
+
+Archiwum Akt Nowych · 1990 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-1568`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/13476843)
+
+Fundstelle: 2/2682/0/5.2.1/1568, 1990–1992
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="1991">
+
+<a id="src-pl-aan-fozz-nik-645-646"></a>
+### Archiwum Akt Nowych
+
+**[NIK-Prüfung FOZZ und Folgemaßnahmen](https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=60&_Seria_id_serii=513004&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)**
+
+Archiwum Akt Nowych · 1991 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-AAN-FOZZ-NIK-645-646`
+
+[Seite öffnen](https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=60&_Seria_id_serii=513004&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
+
+Fundstelle: 2/2682/0/1.10/645; 646 im Dossier separat verlinkt
 
 </article>
 
@@ -7847,6 +8042,21 @@ Corte d'Assise di Bologna, durch Domani journalistisch auszugsweise reproduziert
 [Seite öffnen](https://www.editorialedomani.it/il-documento-bologna-una-prova-esaminata-con-quarantanni-di-ritardo-r9luteo5)
 
 Fundstelle: Ab Überschrift und Absatz zur Beschlagnahme 13.09.1982, 2019er Archivfund und Bankzuflüssen nach 22.08.1980: 20 Mio. USD Banco Ambrosiano Andino → UBS Genf, 15 Mio. Teilbetrag, daraus 9,6/3,5/1,9 Mio. USD
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-pl-nik-fozz-panko-2021"></a>
+### Danuta Bolikowska / NIK, Kontrola Państwowa 5/2021
+
+**[Profesor Walerian Pańko – prezes NIK czasu przełomu](https://www.nik.gov.pl/plik/id%2C25135.pdf)**
+
+Danuta Bolikowska / NIK, Kontrola Państwowa 5/2021 · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-NIK-FOZZ-PANKO-2021`
+
+[PDF öffnen](https://www.nik.gov.pl/plik/id%2C25135.pdf)
+
+Fundstelle: S. 133–136, NIK-Bericht September 1991 als Quelle
 
 </article>
 
@@ -8732,6 +8942,21 @@ Regine Igel / Telepolis · 2010-06-13 · Stufe **C** · Sekundär-/Forschungsque
 [Seite öffnen](https://www.telepolis.de/article/Eine-kleine-Recherche-in-der-Stasi-Unterlagen-Behoerde-3385859.html?seite=all)
 
 Fundstelle: Abschnitt 'Die Akte Urbach ist erstaunlich dünn', zitierter handschriftlicher Bericht Baumanns von 1974
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2009">
+
+<a id="src-pl-rp-fozz-sawicki-2009"></a>
+### Rzeczpospolita
+
+**[Co łączy FOZZ z BGK?](https://www.rp.pl/kraj/art15508041-co-laczy-fozz-z-bgk)**
+
+Rzeczpospolita · 2009 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-PL-RP-FOZZ-SAWICKI-2009`
+
+[Seite öffnen](https://www.rp.pl/kraj/art15508041-co-laczy-fozz-z-bgk)
+
+Fundstelle: Abschnitt Przedawnione zarzuty
 
 </article>
 

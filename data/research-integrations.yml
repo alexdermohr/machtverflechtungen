@@ -1307,3 +1307,22 @@ studies:
     - REL-DE-HERRHAUSEN-FIN-018
     - REL-DE-HERRHAUSEN-FIN-019
     - REL-DE-HERRHAUSEN-FIN-020
+
+  fozz-auslandsschulden-finanzaufsicht-1989-2015.md:
+    sha256: c91b1b0bbfe1dfe13a77d408dfa237050192b8cacdaa38d44bbe679428cc912c
+    status: network
+    relation_ids:
+    - REL-PL-FOZZ-001
+    - REL-PL-FOZZ-002
+    - REL-PL-FOZZ-003
+    - REL-PL-FOZZ-004
+    - REL-PL-FOZZ-005
+    - REL-PL-FOZZ-006
+    - REL-PL-FOZZ-007
+    - REL-PL-FOZZ-008
+    - REL-PL-FOZZ-009
+    - REL-PL-FOZZ-010
+    - REL-PL-FOZZ-011
+    - REL-PL-FOZZ-012
+    - REL-PL-FOZZ-013
+    - REL-PL-FOZZ-014

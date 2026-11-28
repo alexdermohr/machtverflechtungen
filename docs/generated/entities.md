@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**672 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**686 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -55,6 +55,7 @@
 | Georg Mascolo | person | `PER-DE-GEORG-MASCOLO` | DE | [3](network.md#rel-de-tmn-007) |
 | Gerald R. Ford (1913–2006) | person | `PER-US-GERALD-FORD` | US | [1](network.md#rel-us-acg-mccloy-ford-1975-001) |
 | Gerhard Wessel | person | `PER-DE-GERHARD-WESSEL` | DE | [3](network.md#rel-de-kauka-001) |
+| Grzegorz Żemek | person | `PER-PL-GRZEGORZ-ZEMEK` | PL | [2](network.md#rel-pl-fozz-011) |
 | Gundolf Köhler | person | `PER-DE-GUNDOLF-KOEHLER` | DE | [1](network.md#rel-de-okt-001) |
 | Günther Beckstein | person | `PER-DE-GUENTHER-BECKSTEIN` | DE | [1](network.md#rel-de-beckstein-ulfkotte-laudatio-2003-001) |
 | Hans C. Freiherr von Stauffenberg | person | `PER-DE-HANS-C-STAUFFENBERG` | DE | [2](network.md#rel-de-lang-003) |
@@ -107,6 +108,7 @@
 | Melchor Esono Edjo | person | `PER-GQ-MELCHOR-ESONO-EDJO` | GQ | [1](network.md#rel-riggs-followup-045) |
 | Michael 'Bommi' Baumann | person | `PER-DE-MICHAEL-BAUMANN` | DE | – |
 | Michael Grünhagen | person | `PER-DE-MICHAEL-GRUENHAGEN` | DE | [2](network.md#rel-raf-schmuecker-nonne-018) |
+| Michał Falzmann | person | `PER-PL-MICHAL-FALZMANN` | PL | [1](network.md#rel-pl-fozz-008) |
 | Nguyễn Ngọc Châu | person | `PER-DE-NGUYEN-NGOC-CHAU` | DE | [1](network.md#rel-de-da-008) |
 | Odfried Hepp | person | `PER-DE-ODFRIED-HEPP` | DE | [1](network.md#rel-de-da-004) |
 | Olaf Scholz | person | `PER-DE-OLAF-SCHOLZ` | DE | [1](network.md#rel-de-cumex-002) |
@@ -158,6 +160,7 @@
 | Volker Foertsch | person | `PER-DE-VOLKER-FOERTSCH` | DE | [1](network.md#rel-de-mni-004) |
 | Volker von Weingraber | person | `PER-DE-VOLKER-VON-WEINGRABER` | DE | [1](network.md#rel-raf-schmuecker-nonne-003) |
 | VP01 (LKA NRW, Amri-Komplex) | person | `PER-DE-VP01-AMRI` | DE | [2](network.md#rel-de-amri-001) |
+| Walerian Pańko | person | `PER-PL-WALERIAN-PANKO` | PL | [1](network.md#rel-pl-fozz-009) |
 | Walter H. Jonas | person | `PER-DE-WALTER-H-JONAS` | DE | [2](network.md#rel-de-lang-001) |
 | Walter Scheel (1919–2016) | person | `PER-DE-WALTER-SCHEEL` | DE | [1](network.md#rel-us-acg-mccloy-scheel-1975-001) |
 | Walter Seipp | person | `PER-DE-WALTER-SEIPP` | DE | [2](network.md#rel-de-herrhausen-fin-003) |
@@ -233,6 +236,7 @@
 | Banco Financiero Sudamericano (BAFISUD) | commercial_bank | `ORG-UY-BANCO-FINANCIERO-SUDAMERICANO` | UY | [5](network.md#rel-uy-bafisud-nmb-1983-001) |
 | Banco Santander Central Hispano (2004) | commercial_bank | `ORG-ES-BANCO-SANTANDER-CENTRAL-HISPANO-2004` | ES | [2](network.md#rel-riggs-followup-014) |
 | Bank für Internationalen Zahlungsausgleich (BIZ/BIS) | international_central_bank | `ORG-INT-BIS` | CH | [7](network.md#rel-int-igf-010) |
+| Bank Handlowy w Warszawie (FOZZ, 1989–1991) | commercial_bank | `ORG-PL-BANK-HANDLOWY-1989` | PL | [3](network.md#rel-pl-fozz-004) |
 | Bank of America (Chile-Kredite und Versicherungsfälle 1970–1978) | historical_commercial_bank | `ORG-US-BANK-OF-AMERICA-1974` | US | [10](network.md#rel-us-bofa-petroquimica-dow-chile-1974) |
 | Bank of America – Kontenverbund laut Senatsberichten 2005/2010 | banking_group | `ORG-US-BOFA-ACCOUNT-GROUP-1993-2004` | US | [9](network.md#rel-riggs-followup-001) |
 | Bank of England (historische Kontenfunktion 1939) | central_bank | `ORG-GB-BANK-OF-ENGLAND-HISTORIC` | GB | [1](network.md#rel-gb-bis-gold-1939-001) |
@@ -400,12 +404,15 @@
 | Foch services (historischer Rechtsträger laut Urteil) | company | `ORG-INT-FOCH-SERVICES-HISTORICAL` |  | [2](network.md#rel-riggs-post-2004-042) |
 | Ford Foundation (historische Förderakten 1973) | charitable_foundation | `ORG-US-FORD-FOUNDATION-1973` | US | [1](network.md#rel-us-fordfoundation-youngleaders-1973-001) |
 | Fortis Bank (in PSI-Tabelle 2008) | commercial_bank | `ORG-INT-FORTIS-BANK-2008` | FR | [2](network.md#rel-riggs-post-2004-023) |
+| FOZZ in Liquidation (Abschluss 2014) | historical_financial_institution | `ORG-PL-FOZZ-LIQUIDATION-2014` | PL | [1](network.md#rel-pl-fozz-014) |
+| FOZZ-Aufsichtsrat (1989–1990) | government_body | `ORG-PL-FOZZ-SUPERVISORY-BOARD` | PL | [2](network.md#rel-pl-fozz-001) |
 | Frankfurter Allgemeine Zeitung | media_outlet | `ORG-DE-FAZ` | DE | [3](network.md#rel-de-tmn-018) |
 | Friends of the Atlantik-Bruecke Ev Inc (New York, EIN 20-2174611) | charitable_support_organization | `ORG-US-ATLANTIK-BRUECKE-FRIENDS-EIN202174611` | US | [1](network.md#rel-us-abfriends-merz-2021) |
 | Fulbright & Jaworski (2004) | law_firm | `ORG-US-FULBRIGHT-JAWORSKI-2004` | US | [2](network.md#rel-riggs-followup-036) |
 | Fundación Augusto Pinochet Ugarte (1997) | historical_foundation | `ORG-CL-AUGUSTO-PINOCHET-UGARTE-FOUNDATION` | CL | [1](network.md#rel-us-riggs-pinochet-foundation-donation-1997) |
 | Fundación Karisma | civil_society_organization | `ORG-CO-FUNDACION-KARISMA` | CO | [1](network.md#rel-mauss-pmt-025) |
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
+| Fundusz Obsługi Zadłużenia Zagranicznego (FOZZ) | historical_financial_institution | `ORG-PL-FOZZ-1989` | PL | [6](network.md#rel-pl-fozz-002) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
 | Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [10](network.md#rel-raf-schmuecker-nonne-008) |
@@ -491,7 +498,9 @@
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
 | Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
+| Najwyższa Izba Kontroli (NIK, FOZZ-Kontrolle 1991) | supreme_audit_institution | `ORG-PL-NIK-1991` | PL | [5](network.md#rel-pl-fozz-006) |
 | Narodowy Bank Polski (1994) | central_bank | `ORG-PL-NBP-1994` | PL | [1](network.md#rel-de-herrhausen-fin-013) |
+| Narodowy Bank Polski (FOZZ, 1989) | central_bank | `ORG-PL-NBP-1989` | PL | [1](network.md#rel-pl-fozz-004) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
 | National Security Agency (NSA) | government_agency | `ORG-US-NSA` | US | [1](network.md#rel-ws-nsa-osac) |
@@ -537,6 +546,8 @@
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
 | Polnische Regierung (Londoner Club 1994) | historical_government | `ORG-PL-REGIERUNG-1994` | PL | [5](network.md#rel-de-herrhausen-fin-011) |
 | Polnische Regierung (Umschuldung 1992) | historical_government | `ORG-PL-REGIERUNG-1992` | PL | [1](network.md#rel-de-herrhausen-fin-007) |
+| Polnisches Finanzministerium (FOZZ-Aufsicht) | government_ministry | `ORG-PL-MINFIN-1989` | PL | [2](network.md#rel-pl-fozz-001) |
+| Polnisches Finanzministerium (FOZZ-Liquidation 2015) | government_ministry | `ORG-PL-MINFIN-2015` | PL | [1](network.md#rel-pl-fozz-014) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |
@@ -587,6 +598,7 @@
 | Staatsanwaltschaft Wiesbaden | prosecution_authority | `ORG-DE-STA-WIESBADEN` | DE | [1](network.md#rel-raf-schmuecker-nonne-015) |
 | Standard Oil Company of New Jersey (historisch) | petroleum_company | `ORG-US-STANDARD-OIL-NEW-JERSEY` | US | [3](network.md#rel-de-igf-003) |
 | Stifterverband für die Deutsche Wissenschaft (1952/53) | association | `ORG-DE-STIFTERVERBAND-1952` | DE | [2](network.md#rel-de-kmm-007) |
+| Stiftung für deutsch-polnische Zusammenarbeit (Kreditkontext 1990) | foundation | `ORG-PL-DE-COOPERATION-FOUNDATION-1990` | PL, DE | [1](network.md#rel-pl-fozz-013) |
 | Stiftung van Meeteren (Sponsor 2008/09) | charitable_foundation | `ORG-DE-STIFTUNG-VAN-MEETEREN` | DE | [1](network.md#rel-de-ab-vanmeeteren-sponsor-2009-001) |
 | Stoßtrupp gegen bolschewistische Zersetzung | paramilitary_network | `ORG-DE-STOSSTRUPP-BZ` | DE | [3](network.md#rel-de-bdj-006) |
 | Studiengesellschaft für Zeitprobleme e. V. (Bonn/Bad Godesberg) | historical_civic_association | `ORG-DE-STUDIENGESELLSCHAFT-ZEITPROBLEME-1961-1990` | DE | [4](network.md#rel-de-bmvg-sfz-funding-1981-1988-001) |
@@ -658,6 +670,7 @@
 | Volkswagen (Sponsor 2008/09) | industrial_company | `ORG-DE-VOLKSWAGEN-2008` | DE | [1](network.md#rel-de-ab-vw-sponsor-2009-001) |
 | Wachovia Bank, N.A. (historischer Untersuchungszeitraum) | historical_commercial_bank | `ORG-US-WACHOVIA-BANK-2006` | US | [8](network.md#rel-riggs-post-2004-016) |
 | Warburg Pincus / E.M. Warburg & Co. (US-Investmenthaus, 1978) | historical_private_equity_firm | `ORG-US-WARBURG-PINCUS-1978` | US | [2](network.md#rel-us-wp-nvca-1973-001) |
+| Warschauer Staatsanwaltschaft (1991) | prosecution_authority | `ORG-PL-WARSAW-PROSECUTOR-1991` | PL | [1](network.md#rel-pl-fozz-007) |
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | Weltbank (Schuldenpolitik 1989) | international_organization | `ORG-INT-WELTBANK-1989` | US | [1](network.md#rel-de-herrhausen-fin-002) |
@@ -666,6 +679,7 @@
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [2](network.md#rel-de-marienhof-011) |
 | Wielkopolski Bank Kredytowy (1991) | commercial_bank | `ORG-PL-WBK-1991` | PL | [1](network.md#rel-de-herrhausen-fin-008) |
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
+| WSI-Überprüfungskommission (Bericht 2007) | government_committee | `ORG-PL-WSI-VERIFICATION-COMMISSION-2007` | PL | [1](network.md#rel-pl-fozz-012) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
 | Österreichische Botschaft Bogotá | government_agency | `ORG-AT-BOTSCHAFT-BOGOTA` | AT, CO | [1](network.md#rel-mauss-diplomatie-007) |

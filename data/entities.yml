@@ -3758,3 +3758,90 @@ entities:
     countries:
     - DE
     notes: Sonderbeauftragter der Dresdner Bank und Leiter der Polen-Arbeitsgruppe 1994 laut zeitgenössischer Presse.
+
+  - id: ORG-PL-FOZZ-1989
+    type: historical_financial_institution
+    name: Fundusz Obsługi Zadłużenia Zagranicznego (FOZZ)
+    countries:
+    - PL
+    notes: 1989 gesetzlich neu errichteter staatlicher Auslandsschuldendienstfonds; gleichnamiger Vorgänger von 1985 getrennt
+      zu betrachten; Liquidation ab Dezember 1990.
+  - id: ORG-PL-MINFIN-1989
+    type: government_ministry
+    name: Polnisches Finanzministerium (FOZZ-Aufsicht)
+    countries:
+    - PL
+    notes: Zeitgebundener Rollenknoten für gesetzliche Aufsicht, Bestellung der Fondsorgane und Kontrollen.
+  - id: ORG-PL-FOZZ-SUPERVISORY-BOARD
+    type: government_body
+    name: FOZZ-Aufsichtsrat (1989–1990)
+    countries:
+    - PL
+    notes: Nach Art. 7–8 des Gesetzes durch Finanzminister besetzt, zur Aufsicht und Bilanzgenehmigung verpflichtet.
+  - id: ORG-PL-BANK-HANDLOWY-1989
+    type: commercial_bank
+    name: Bank Handlowy w Warszawie (FOZZ, 1989–1991)
+    countries:
+    - PL
+    notes: Zeitbezogener Rollenknoten für gesetzliche Einlagen-/Abrechnungsbeziehung und die NIK-Kontrolle.
+  - id: ORG-PL-NBP-1989
+    type: central_bank
+    name: Narodowy Bank Polski (FOZZ, 1989)
+    countries:
+    - PL
+    notes: Zeitbezogener Rollenknoten; institutionelle Kontinuität zum Knoten für 1994.
+  - id: ORG-PL-NIK-1991
+    type: supreme_audit_institution
+    name: Najwyższa Izba Kontroli (NIK, FOZZ-Kontrolle 1991)
+    countries:
+    - PL
+    notes: Oberste polnische Rechnungskontrollbehörde.
+  - id: ORG-PL-WARSAW-PROSECUTOR-1991
+    type: prosecution_authority
+    name: Warschauer Staatsanwaltschaft (1991)
+    countries:
+    - PL
+    notes: Empfänger der NIK-Anzeige vom 08.07.1991 laut institutioneller Rückschau.
+  - id: PER-PL-MICHAL-FALZMANN
+    type: person
+    name: Michał Falzmann
+    countries:
+    - PL
+    notes: NIK-Prüfer im FOZZ-Komplex, 1991 verstorben.
+  - id: PER-PL-WALERIAN-PANKO
+    type: person
+    name: Walerian Pańko
+    countries:
+    - PL
+    notes: NIK-Präsident 1991.
+  - id: PER-PL-GRZEGORZ-ZEMEK
+    type: person
+    name: Grzegorz Żemek
+    countries:
+    - PL
+    notes: FOZZ-Generaldirektor, WSI-Kommissionszuschreibung gesondert von gerichtlichen Feststellungen.
+  - id: ORG-PL-WSI-VERIFICATION-COMMISSION-2007
+    type: government_committee
+    name: WSI-Überprüfungskommission (Bericht 2007)
+    countries:
+    - PL
+    notes: Amtliche Kommission; Verfahrensmängel der gesetzlichen Publikationsregelung in K 51/07 festgestellt.
+  - id: ORG-PL-DE-COOPERATION-FOUNDATION-1990
+    type: foundation
+    name: Stiftung für deutsch-polnische Zusammenarbeit (Kreditkontext 1990)
+    countries:
+    - PL
+    - DE
+    notes: Im FOZZ-Findbuch als Gegenstand von Korrespondenz 1990 genannt; Umfang tatsächlicher Beteiligung offen.
+  - id: ORG-PL-FOZZ-LIQUIDATION-2014
+    type: historical_financial_institution
+    name: FOZZ in Liquidation (Abschluss 2014)
+    countries:
+    - PL
+    notes: Liquidationsphase der FOZZ-Institution, nicht eigenständiger früherer Schuldner.
+  - id: ORG-PL-MINFIN-2015
+    type: government_ministry
+    name: Polnisches Finanzministerium (FOZZ-Liquidation 2015)
+    countries:
+    - PL
+    notes: Zeitbezogener Rollenknoten für Abschlussbilanz.

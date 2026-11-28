@@ -6819,3 +6819,170 @@ sources:
   locator: Bericht zu Unterzeichnung und Vorsitz
   notes: Suchindex; gemeinsame Leitung Dresdner und Lloyds, keine bankindividuellen Erlassdaten.
   accessed: '2026-11-28'
+
+- id: SRC-PL-FOZZ-LAW-1989
+  title: Ustawa o Funduszu Obsługi Zadłużenia Zagranicznego
+  institution: Sejm / Dziennik Ustaw
+  date: '1989-02-15'
+  type: original_statutory_text
+  primary: true
+  tier: A
+  url: https://eli.gov.pl/api/acts/DU/1989/31/text.html
+  locator: Art. 1–3, 5–12, 14–16
+  notes: Amtlicher HTML-Text. Gesetzliche Befugnisse und Einnahmequellen, kein Ausführungsbeleg einzelner Zahlungen.
+  accessed: '2026-11-28'
+- id: SRC-PL-NIK-FOZZ-PANKO-2021
+  title: Profesor Walerian Pańko – prezes NIK czasu przełomu
+  institution: Danuta Bolikowska / NIK, Kontrola Państwowa 5/2021
+  date: '2021'
+  type: institutional_archival_history
+  primary: false
+  tier: B
+  url: https://www.nik.gov.pl/plik/id%2C25135.pdf
+  locator: S. 133–136, NIK-Bericht September 1991 als Quelle
+  notes: Institutionelle Rückschau, PDF-Text geprüft; Faksimile Cache miss; kein Originalprüfbericht.
+  accessed: '2026-11-28'
+- id: SRC-PL-SEJM-FOZZ-463-2002
+  title: Regierungsauskunft SPS-0203-463/02
+  institution: Sejm / Regierung
+  date: '2002'
+  type: parliamentary_government_answer
+  primary: true
+  tier: A
+  url: https://orka2.sejm.gov.pl/IZ4.nsf/main/64656920
+  locator: Passage zu Verjährungsfristen im FOZZ-Verfahren
+  notes: Suchindex; Vollabruf durch Human Verification blockiert.
+  accessed: '2026-11-28'
+- id: SRC-PL-RP-FOZZ-SAWICKI-2009
+  title: Co łączy FOZZ z BGK?
+  institution: Rzeczpospolita
+  date: '2009'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.rp.pl/kraj/art15508041-co-laczy-fozz-z-bgk
+  locator: Abschnitt Przedawnione zarzuty
+  notes: Suchindex; Einstellung wegen Verjährung und Bestreiten berichtet.
+  accessed: '2026-11-28'
+- id: SRC-PL-MF-FOZZ-LIQUIDATION-2015
+  title: Bilans zamknięcia FOZZ w likwidacji zatwierdzony
+  institution: Ministerstwo Finansów
+  date: '2015-01-05'
+  type: official_announcement
+  primary: true
+  tier: A
+  url: https://mf-arch2.mf.gov.pl/web/bip/ministerstwo-finansow/wiadomosci/komunikaty/-/asset_publisher/6Wwm/content/bilans-zamkniecia-%E2%80%9Efozz-w-likwidacji%E2%80%9D-zatwierdzony
+  locator: Abschlussbilanz und Überweisung 02.01.2015
+  notes: Amtliche Mitteilung, Suchindex vollständig; Vollabruf Cache miss.
+  accessed: '2026-11-28'
+- id: SRC-PL-WSI-REPORT-2007
+  title: Raport o działaniach żołnierzy i pracowników WSI, Monitor Polski Nr. 11 Pos. 110
+  institution: WSI-Überprüfungskommission / Präsident Polens
+  date: '2007-02-16'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WMP20070110110
+  locator: S. 192–193, Fn. 11–15, 20; Spiegel im Dossier
+  notes: Primärquelle nur für die publizierte Zuschreibung; Originalakten nicht geprüft. PDF-Spiegel textlich geprüft, Faksimile
+    nicht abrufbar; K 51/07 ist quellenkritische Einschränkung.
+  accessed: '2026-11-28'
+- id: SRC-PL-TK-K51-07-2008
+  title: Wyrok Trybunału Konstytucyjnego K 51/07
+  institution: Polnisches Verfassungsgericht
+  date: '2008-06-27'
+  type: original_court_judgment_edition
+  primary: true
+  tier: A
+  url: https://eli.gov.pl/api/acts/DU/2008/797/text.html
+  locator: Tenor 4(a–c), 5–6
+  notes: Amtlicher HTML-Text; Verfahrensmängel der Veröffentlichung, kein Urteil über Wahrheit sämtlicher WSI-Feststellungen.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-1543
+  title: FOZZ und Stiftung für deutsch-polnische Zusammenarbeit, Jumbo-Kredite
+  institution: Archiwum Akt Nowych
+  date: '1990'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/13476818
+  locator: 2/2682/0/5.2.1/1543
+  notes: Datierung der Akte, nicht des Findbuchs; Metadaten, keine digitalen Kopien.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-TRANSACTIONS
+  title: FOZZ Finanzoperationen, Akten 1518, 1527–1532
+  institution: Archiwum Akt Nowych
+  date: '1989'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=60&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal
+  locator: 2/2682/0/5.1.3/1518, 1527–1531; 5.2.1/1532
+  notes: Jahr bezeichnet Beginn des Aktenzeitraums; Findbuchmetadaten, keine Zahlungsbelege.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-1568
+  title: Universal/Berowne, Aufstellungen über Zahlungseingänge RBS
+  institution: Archiwum Akt Nowych
+  date: '1990'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/13476843
+  locator: 2/2682/0/5.2.1/1568, 1990–1992
+  notes: Datierung des Aktenbeginns; Metadaten, keine digitalen Kopien, kein nachgeprüfter Geldfluss.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-BEROWNE-COURT
+  title: FOZZ gegen Berowne Limited und Richard Rowe
+  institution: Archiwum Akt Nowych
+  date: '1989'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=40&_Seria_id_serii=513010&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal
+  locator: 2/2682/0/1.5.1/200–211
+  notes: Jahr bezeichnet Aktenbeginn; Findbuch, Verfahrensausgang offen.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-1455
+  title: Übernahme des Schuldendienstes von Bank Handlowy durch FOZZ
+  institution: Archiwum Akt Nowych
+  date: '1989'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=2&_Seria_delta=20&_Seria_id_serii=513029&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal
+  locator: 2/2682/0/5.1.1/1455; Sitzung 06.11.1990
+  notes: Jahr bezeichnet Aktenbeginn; Findbuch, keine Einsicht in Protokoll.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-FOZZ-NIK-645-646
+  title: NIK-Prüfung FOZZ und Folgemaßnahmen
+  institution: Archiwum Akt Nowych
+  date: '1991'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/de/seria?_Seria_cur=3&_Seria_delta=60&_Seria_id_serii=513004&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal
+  locator: 2/2682/0/1.10/645; 646 im Dossier separat verlinkt
+  notes: Datierung des Aktenbeginns; Findbuch, keine Einsicht in Originale.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-BH-GERMAN-BANKS-1959-1970
+  title: Bank Handlowy, Kooperation mit deutschen Banken
+  institution: Archiwum Akt Nowych
+  date: '1959'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/seria?_Seria_cur=4&_Seria_delta=100&_Seria_id_serii=669014&_Seria_nameofjsp=jednostki&_Seria_resetCur=false&p_p_id=Seria&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal
+  locator: 2/638/0/26/23/374, 376–377, 380
+  notes: Datierung des frühesten Aktenbeginns; Findbuch historischer Geschäftsbeziehungen, kein FOZZ-Tatbezug.
+  accessed: '2026-11-28'
+- id: SRC-PL-AAN-BH-DB-LUX-1978-1980
+  title: Bank Handlowy, Kreditverträge Deutsche Bank Compagnie Financière Luxembourg/BfG Luxemburg
+  institution: Archiwum Akt Nowych
+  date: '1978'
+  type: archival_finding_aid
+  primary: false
+  tier: B
+  url: https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/16789460
+  locator: 2/638/0/32/29/106, 349 Seiten
+  notes: Datierung des Aktenbeginns; keine digitalen Kopien. Vertragsinhalt nicht eingesehen.
+  accessed: '2026-11-28'
