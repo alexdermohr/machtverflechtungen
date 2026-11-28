@@ -3622,3 +3622,139 @@ entities:
   - {"id": "ORG-DE-STA-MUENCHEN-I", "type": "prosecution_authority", "name": "Staatsanwaltschaft München I", "countries": ["DE"], "notes": "Verfahrensbehandlung 2024 laut BayLT-Drs. 19/8775."}
   - {"id": "ORG-DE-BAY-STAATSKANZLEI", "type": "government_agency", "name": "Bayerische Staatskanzlei", "countries": ["DE"], "notes": "Eingabeweiterleitung; keine persönliche Kenntnis eines Amtsträgers daraus."}
   - {"id": "ORG-DE-BAY-JUSTIZMINISTERIUM", "type": "government_ministry", "name": "Bayerisches Staatsministerium der Justiz", "countries": ["DE"], "notes": "Weiterleitungs- und Auskunftsvorgänge laut BayLT-Drs. 19/8775."}
+
+  - id: ORG-DE-DEUTSCHE-BANK-1989
+    type: commercial_bank
+    name: Deutsche Bank (1987–1989)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für die Entschuldungsdebatte und Vorstandstätigkeit; dieselbe Bank wie der gesonderte
+      Sponsorenknoten 2008/09.
+  - id: PER-DE-WALTER-SEIPP
+    type: person
+    name: Walter Seipp
+    countries:
+    - DE
+    notes: Commerzbank-Chef in der Entschuldungsdebatte 1989.
+  - id: ORG-DE-COMMERZBANK-1989
+    type: commercial_bank
+    name: Commerzbank (1989)
+    countries:
+    - DE
+    notes: Zeitbezogener Gläubigerbank-Knoten.
+  - id: ORG-INT-WELTBANK-1989
+    type: international_organization
+    name: Weltbank (Schuldenpolitik 1989)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für dokumentierte Kommunikation mit Herrhausen.
+  - id: ORG-DE-AUSWAERTIGES-AMT-1989
+    type: government_ministry
+    name: Auswärtiges Amt (1989)
+    countries:
+    - DE
+    notes: Zeitbezogener Rollenknoten für Polen-Verhandlungen; dieselbe Institution wie in anderen historischen Rollen.
+  - id: PER-DE-HANS-DIETRICH-GENSCHER
+    type: person
+    name: Hans-Dietrich Genscher
+    countries:
+    - DE
+    notes: Bundesaußenminister im dokumentierten Gespräch vom 09.11.1989.
+  - id: PER-PL-KRZYSZTOF-SKUBISZEWSKI
+    type: person
+    name: Krzysztof Skubiszewski
+    countries:
+    - PL
+    notes: Polnischer Außenminister im dokumentierten Gespräch vom 09.11.1989.
+  - id: ORG-DE-BUNDESREGIERUNG-1992
+    type: historical_government
+    name: Bundesregierung (deutsch-polnische Umschuldung 1992)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für öffentlich verbürgte Forderungen und Schuldenerlass.
+  - id: ORG-PL-REGIERUNG-1992
+    type: historical_government
+    name: Polnische Regierung (Umschuldung 1992)
+    countries:
+    - PL
+    notes: Schuldnerstaat im bilateralen Abkommen.
+  - id: ORG-INT-EBRD
+    type: international_organization
+    name: Europäische Bank für Wiederaufbau und Entwicklung (EBRD)
+    countries:
+    - GB
+    notes: Multilaterale Entwicklungsbank, gegründet durch Abkommen 1990; operativ seit 1991.
+  - id: ORG-PL-WBK-1991
+    type: commercial_bank
+    name: Wielkopolski Bank Kredytowy (1991)
+    countries:
+    - PL
+    notes: Polnischer Kreditnehmer der EBRD, historischer Rollenknoten.
+  - id: PER-DE-HILMAR-KOPPER
+    type: person
+    name: Hilmar Kopper
+    countries:
+    - DE
+    notes: Nachfolger Herrhausens als Vorstandssprecher.
+  - id: ORG-DE-AUSWAERTIGES-AMT-1986
+    type: government_ministry
+    name: Auswärtiges Amt (Schuldenpolitik 1986)
+    countries:
+    - DE
+    notes: Zeitbezogener Rollenknoten für die Bewertung des Zinsausgleichsfonds; dieselbe Institution wie in anderen historischen
+      Rollen.
+  - id: ORG-INT-IBRD-1994
+    type: international_organization
+    name: Weltbank / IBRD (Polen 1994)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für die DDSR-Finanzierung 1994; institutionelle Kontinuität zur Weltbank 1989.
+  - id: ORG-INT-IMF-1994
+    type: international_organization
+    name: Internationaler Währungsfonds (Polen 1994)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für die DDSR-Kofinanzierung 1994.
+  - id: ORG-PL-REGIERUNG-1994
+    type: historical_government
+    name: Polnische Regierung (Londoner Club 1994)
+    countries:
+    - PL
+    notes: Zeitbezogener Rollenknoten für die Brady-Restrukturierung; staatliche Kontinuität zum Knoten für 1992.
+  - id: ORG-PL-NBP-1994
+    type: central_bank
+    name: Narodowy Bank Polski (1994)
+    countries:
+    - PL
+    notes: Polnische Zentralbank, dokumentierte Zwischenfinanzierung der DDSR-Operation.
+  - id: ORG-PL-LONDON-CLUB-1994
+    type: historical_commercial_bank_cohort
+    name: 'Londoner Club: private Gläubiger Polens (1994)'
+    countries:
+    - PL
+    notes: Verhandlungskollektiv der privaten Gläubiger; kein eigenständiger globaler Konzern, keine individualisierte Zuordnung
+      der Anleiheoptionen.
+  - id: ORG-DE-DRESDNER-BANK-1993
+    type: commercial_bank
+    name: Dresdner Bank (Polen-Verhandlungen 1993–1994)
+    countries:
+    - DE
+    notes: Zeitgebundener Rollenknoten für den Londoner Club, institutionelle Kontinuität zum historischen Bankknoten 1933.
+  - id: ORG-GB-BARCLAYS-1993
+    type: commercial_bank
+    name: Barclays Bank (Polen-Verhandlungen 1993)
+    countries:
+    - GB
+    notes: Vorsitz vor Übernahme durch Dresdner 1993 laut zeitgenössischem Gutachten.
+  - id: ORG-GB-LLOYDS-BANK-1994
+    type: commercial_bank
+    name: Lloyds Bank (Polen-Verhandlungen 1994)
+    countries:
+    - GB
+    notes: Geschäftsbank, nicht Lloyd's of London.
+  - id: PER-DE-ERNST-MORITZ-LIPP
+    type: person
+    name: Ernst-Moritz Lipp
+    countries:
+    - DE
+    notes: Sonderbeauftragter der Dresdner Bank und Leiter der Polen-Arbeitsgruppe 1994 laut zeitgenössischer Presse.

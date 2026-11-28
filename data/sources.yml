@@ -6597,3 +6597,225 @@ sources:
 - {"id": "SRC-DE-BARSCHEL-BT-127725", "title": "Beschlussempfehlung und zweiter abweichender Bericht, BT-Drs. 12/7725", "institution": "Deutscher Bundestag", "date": "1994-05-27", "type": "official_document", "primary": true, "tier": "A", "url": "https://dserver.bundestag.de/btd/12/077/1207725.pdf", "accessed": "2026-11-28", "locator": "S. 1, Fußnote zur Geheimeinstufung", "notes": "Öffentliches Deckblatt textlich und bildlich geprüft; kein amtlicher Volltext des Sondervotums."}
 - {"id": "SRC-DE-BARSCHEL-BT-HIB-2017", "title": "Votum zum Koko-Untersuchungsausschuss", "institution": "Deutscher Bundestag", "date": "2017-06-26", "type": "official_document", "primary": true, "tier": "A", "url": "https://www.bundestag.de/webarchiv/presse/hib/2017_06/513162-513162", "accessed": "2026-11-28", "locator": "hib 399/2017, Antrag 18/12821", "notes": "Parlamentsnachricht belegt Antrag und referiert dessen Begründung; kein unabhängiger Nachweis der im Votum behaupteten Vorgänge."}
 - {"id": "SRC-DE-BARSCHEL-BT-VOTUM-2017", "title": "243. Sitzung, Beratung zur Geheimhaltung eines Sondervotums", "institution": "Deutscher Bundestag", "date": "2017-06-29", "type": "official_document", "primary": true, "tier": "A", "url": "https://www.bundestag.de/mediathek/video?videoid=7125716", "accessed": "2026-11-28", "locator": "TOP 36; Beschluss zu Antrag 18/12821", "notes": "Amtliche Dokumentation der Ablehnung; keine Aussage über spätere Aufhebung der Einstufung."}
+
+- id: SRC-INT-WB-HERRHAUSEN-1989
+  title: Debt Reduction Proposal from Dr. Herrhausen, Deutsche Bank
+  institution: World Bank Archives
+  date: '1989-09-21'
+  type: archival_primary_document
+  primary: true
+  tier: A
+  url: https://thedocs.worldbank.org/en/doc/928931631086710350-0560011990/original/WorldBankGroupArchivesFolder1104071.pdf
+  locator: Folder 1104071, David Bock an Barber Conable, 21.09.1989, Abs. 1–5
+  notes: Archivtext im Suchindex geprüft, Vollabruf zu groß; dokumentiert Brief und Plan, nicht dessen Umsetzung.
+  accessed: '2026-11-28'
+- id: SRC-DE-TAZ-SEIPP-1989
+  title: Seipp gegen Brady-Plan
+  institution: taz/ap
+  date: '1989-09-26'
+  type: contemporary_news_wire_report
+  primary: false
+  tier: B
+  url: https://taz.de/Seipp-gegen-Brady-Plan/!1797136/
+  locator: Zeitgenössischer Bericht zur Washingtoner Pressekonferenz
+  notes: Suchindex-Volltext geprüft; wirtschaftliche Opposition, keine Tatverbindung.
+  accessed: '2026-11-28'
+- id: SRC-DE-AAPD-HERRHAUSEN-1989
+  title: Gespräch Genscher–Skubiszewski, AAPD 1989, Dok. 353
+  institution: Auswärtiges Amt / Institut für Zeitgeschichte
+  date: '1989-11-09'
+  type: official_record_critical_edition
+  primary: true
+  tier: A
+  url: https://www.degruyterbrill.com/document/doi/10.1515/9783110662818-010/pdf?licenseType=free
+  locator: S. 1507, Fn. 11; Referat 214, Bd. 139874
+  notes: Amtliche Aktenedition, PDF-Text geprüft; Faksimileabruf fehlgeschlagen.
+  accessed: '2026-11-28'
+- id: SRC-DE-HERRHAUSEN-FREIHEIT-1989
+  title: Um Freiheit und Offenheit
+  institution: Alfred Herrhausen / Deutsche Bank
+  date: '1989'
+  type: original_self_authored_commentary
+  primary: true
+  tier: A
+  url: https://www.db.com/files/documents/2022/01-JAN/Alfred-Herrhausen--Denken-Ordnen-Gestalten--Um-Freiheit-und-Offenheit.pdf
+  locator: S. 84–85
+  notes: Veröffentlichter Vortragstext; PDF-Text geprüft, nicht Nachweis eines gehaltenen Vortrags.
+  accessed: '2026-11-28'
+- id: SRC-INT-EBRD-AGREEMENT-1990
+  title: Agreement establishing the European Bank for Reconstruction and Development
+  institution: Vertragsparteien / CVCE
+  date: '1990-05-29'
+  type: agreement_copy
+  primary: true
+  tier: A
+  url: https://www.cvce.eu/content/publication/2003/6/13/3aa002f8-caba-4263-85cd-afc04ed7c8a7/publishable_en.pdf
+  locator: Art. 1–3, 5, 11–13
+  notes: Vertragstext geprüft, Faksimileabruf fehlgeschlagen.
+  accessed: '2026-11-28'
+- id: SRC-DE-BT-POLEN-SCHULDEN-8472-1994
+  title: BT-Drs. 12/8472, Fragen 2/3
+  institution: Deutscher Bundestag / Bundesregierung
+  date: '1994-09-07'
+  type: original_parliamentary_government_answer
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/12/084/1208472.pdf
+  locator: Fragen 2 und 3, Antwort Staatsminister Schäfer vom 07.09.1994
+  notes: Amtliche Antwort; Haushaltswirkung nach Regierungsdarstellung, PDF-Text geprüft.
+  accessed: '2026-11-28'
+- id: SRC-DE-DB-HIST-HERRHAUSEN-KOPPER
+  title: Herrhausen und Kopper – biografische Einträge
+  institution: Historische Gesellschaft der Deutschen Bank
+  date: '2026'
+  type: institutional_biography
+  primary: false
+  tier: B
+  url: https://www.bankgeschichte.de/leading-figures/ghijkl?language_id=3
+  locator: Einträge Alfred Herrhausen und Hilmar Kopper
+  notes: Publikationsdatum nicht genannt; Jahr bezeichnet Abruf. Institutionelle Rückschau, Volltext geprüft.
+  accessed: '2026-11-28'
+- id: SRC-INT-EBRD-WBK-1991-2019
+  title: '1989 and the aftermath: the role of the EBRD'
+  institution: EBRD
+  date: '2019'
+  type: institutional_retrospective_history
+  primary: false
+  tier: B
+  url: https://www.ebrd.com/home/news-and-events/news/2019/1989-and-the-aftermath-the-role-of-the-ebrd.html
+  locator: 'Erstes genehmigtes Projekt: WBK'
+  notes: Institutionelle Rückschau im Suchindex; 50 Mio. USD, keine Behauptung über vollständige Auszahlung.
+  accessed: '2026-11-28'
+- id: SRC-INT-EBRD-WBK-1991-2016
+  title: Poland – from the first EBRD investment to a model of transition
+  institution: EBRD
+  date: '2016'
+  type: institutional_retrospective_history
+  primary: false
+  tier: B
+  url: https://www.ebrd.com/home/news-and-events/news/2016/poland-from-the-first-ebrd-investment-to-a-model-of-transition.html
+  locator: WBK-Kreditlinie Mai 1991
+  notes: Institutionelle Rückschau im Suchindex.
+  accessed: '2026-11-28'
+- id: SRC-DE-AAPD-HERRHAUSEN-ZINS-1986
+  title: Aufzeichnung Jelonek, AAPD 1986 Dok. 367
+  institution: Auswärtiges Amt / Institut für Zeitgeschichte
+  date: '1986-12-17'
+  type: official_record_critical_edition
+  primary: true
+  tier: A
+  url: https://www.degruyterbrill.com/document/doi/10.1515/9783110490077-015/pdf?licenseType=open-access
+  locator: S. 1911–1913, Abschnitt 2.1, Fn. 4
+  notes: Dokumentiert Vorschlag und Regierungsbewertung, nicht Umsetzung; PDF-Text geprüft, Faksimile Cache miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IBRD-POL-DDSR-1994
+  title: Report P-6419-POL, Proposed Debt and Debt Service Reduction Loan
+  institution: World Bank / IBRD
+  date: '1994-09-30'
+  type: original_official_document
+  primary: true
+  tier: A
+  url: https://documents1.worldbank.org/curated/en/606891468332361087/pdf/multi0page.pdf
+  locator: Abs. 28–34, Tabelle 3, S. 9–12
+  notes: Planwerte, nicht Istwerte; PDF-Text geprüft, Faksimile Cache miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IBRD-POL-DDSR-ICR-1996
+  title: Implementation Completion Report 15671, Loan 3804-POL
+  institution: World Bank / IBRD
+  date: '1996-05-31'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://documents1.worldbank.org/curated/en/541151468094753637/pdf/multi0page.pdf
+  locator: Vorwort, Abs. 13–16, 47–50, Tabellen 1 und IV
+  notes: Abschlussbericht mit Auszahlungsnachweis und institutioneller Nutzenbewertung; PDF-Text geprüft, Faksimile Cache
+    miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-POL-DDSR-1995
+  title: Fund Support for Member Countries, Annual Report 1995
+  institution: IMF
+  date: '1995'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://www.elibrary.imf.org/display/book/9781451944990/ch010.xml
+  locator: Poland, Beschluss vom 26.10.1994
+  notes: Suchindextext; genehmigte Beträge in SZR.
+  accessed: '2026-11-28'
+- id: SRC-PL-SEC-BRADY-2003
+  title: Republic of Poland, Prospectus
+  institution: Republic of Poland / SEC
+  date: '2003'
+  type: securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/79312/000119312503066700/d424b5.htm
+  locator: External Debt; negative pledge exceptions for Par and RSTA bonds
+  notes: Staatliche Angaben im veröffentlichten Wertpapierprospekt; HTML-Text geprüft.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-DDSR-2021
+  title: Fund Staff Re-Examine the Case for Using Financial Incentives in Support of Debt Restructuring Operations
+  institution: IMF
+  date: '2021'
+  type: official_report
+  primary: false
+  tier: B
+  url: https://www.elibrary.imf.org/view/journals/007/2021/018/article-A001-en.xml
+  locator: Poland, retrospective assessment of DDSRO
+  notes: Retrospektive institutionelle Analyse, Suchindextext.
+  accessed: '2026-11-28'
+- id: SRC-DE-BT-ENTWICKLUNG-7313-1990
+  title: Achter Bericht zur Entwicklungspolitik, BT-Drs. 11/7313
+  institution: Bundesregierung / Deutscher Bundestag
+  date: '1990-05-30'
+  type: government_report
+  primary: true
+  tier: A
+  url: https://dserver.bundestag.de/btd/11/073/1107313.pdf
+  locator: S. 20–21, Abschnitt 2.3.3
+  notes: PDF-Text geprüft; Faksimile Cache miss. Regierungsdarstellung.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-DEBT-CRISIS-HISTORY
+  title: The Debt Crisis, Kapitel 12
+  institution: International Monetary Fund
+  date: '1996'
+  type: institutional_history
+  primary: false
+  tier: B
+  url: https://www.elibrary.imf.org/abstract/book/9781475506969/ch12.xml
+  locator: Brady-Plan und Freiwilligkeit
+  notes: Suchindex; Vollabruf HTTP 403.
+  accessed: '2026-11-28'
+- id: SRC-DE-QUAISSER-POLEN-1994
+  title: Zahlungsbilanzprobleme und Verschuldung Polens, Nr. 170
+  institution: Wolfgang Quaisser / Osteuropa-Institut München
+  date: 1994-10
+  type: commissioned_study
+  primary: false
+  tier: B
+  url: https://www.econstor.eu/bitstream/10419/264875/1/1994_170_quaisser_arbeiten_oeim.pdf
+  locator: S. 19–21, Fn. 21–26
+  notes: Zeitgenössisches Gutachten für Bundeswirtschaftsministerium, PDF-Text geprüft; Faksimile Cache miss. Keine Originalprotokolle.
+  accessed: '2026-11-28'
+- id: SRC-INT-UPI-POL-LIPP-1994
+  title: Meldung zur Grundsatzeinigung über polnische Bankschulden
+  institution: United Press International
+  date: '1994-03-11'
+  type: contemporary_news_wire_report
+  primary: false
+  tier: B
+  url: https://www.upi.com/Archives/1994/03/11/EHRNST-moh-RITZ-LIHPPARA/6643763362000/
+  locator: Absätze zur Rolle Lipps und Dresdner Bank
+  notes: Suchindex-Volltext; Vollabruf HTTP 403. Vorläufige Erlasszahlen nicht mit endgültigem Ergebnis gleichsetzen.
+  accessed: '2026-11-28'
+- id: SRC-US-LAT-POL-LONDON-1994
+  title: Debt-Reduction Accord Seen as Big Boost for Poland
+  institution: Los Angeles Times
+  date: '1994-09-15'
+  type: news_report
+  primary: false
+  tier: B
+  url: https://www.latimes.com/archives/la-xpm-1994-09-15-fi-38925-story.html
+  locator: Bericht zu Unterzeichnung und Vorsitz
+  notes: Suchindex; gemeinsame Leitung Dresdner und Lloyds, keine bankindividuellen Erlassdaten.
+  accessed: '2026-11-28'

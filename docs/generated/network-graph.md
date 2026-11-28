@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**881 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**901 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1543,6 +1543,48 @@ flowchart LR
     N_ORG_DE_BAY_JUSTIZMINISTERIUM["Bayerisches Staatsministerium der Justiz"]
     N_ORG_DE_BAY_STAATSKANZLEI -->|"Leitete Eingabe vom 23.10.2023 zuständigkeitshalber weiter; genaues Weiterleitungsdatum nicht genannt"| N_ORG_DE_BAY_JUSTIZMINISTERIUM
     N_ORG_DE_BAY_JUSTIZMINISTERIUM -->|"Weiterleitung derselben Eingabe an Staatsanwaltschaft; genaues Datum nicht genannt"| N_ORG_DE_STA_MUENCHEN_I
+    N_ORG_DE_DEUTSCHE_BANK_1989["Deutsche Bank (1987–1989)"]
+    N_PER_DE_ALFRED_HERRHAUSEN -->|"Vorstandssprecher seit 1985, alleiniger Sprecher seit Mai 1988 bis November 1989."| N_ORG_DE_DEUTSCHE_BANK_1989
+    N_ORG_INT_WELTBANK_1989["Weltbank (Schuldenpolitik 1989)"]
+    N_PER_DE_ALFRED_HERRHAUSEN -->|"Weltbank-Memo 21.09.1989 dokumentiert Herrhausens schriftliche Bitte um Gespräch über koordinierte Entschuldung; tatsächliches Treffen daraus nicht nachgewiesen."| N_ORG_INT_WELTBANK_1989
+    N_PER_DE_WALTER_SEIPP["Walter Seipp"]
+    N_ORG_DE_COMMERZBANK_1989["Commerzbank (1989)"]
+    N_PER_DE_WALTER_SEIPP -->|"Zeitgenössische taz/ap bezeichnet Seipp als Commerzbank-Chef."| N_ORG_DE_COMMERZBANK_1989
+    N_PER_DE_WALTER_SEIPP -->|"taz/ap berichtet öffentliche Ablehnung des Herrhausen- und Brady-Plans durch Seipp am 26.09.1989; wirtschaftspolitischer Konflikt."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_DE_AUSWAERTIGES_AMT_1989["Auswärtiges Amt (1989)"]
+    N_ORG_DE_AUSWAERTIGES_AMT_1989 -->|"AAPD Dok. 353 Fn. 11: Legationsrat Grüber fragte am 02.10.1989 nach polnischem KfW-Konzept; Archivsignatur Referat 214 Bd. 139874."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_PER_PL_KRZYSZTOF_SKUBISZEWSKI["Krzysztof Skubiszewski"]
+    N_PER_DE_HANS_DIETRICH_GENSCHER["Hans-Dietrich Genscher"]
+    N_PER_PL_KRZYSZTOF_SKUBISZEWSKI -->|"AAPD Dok. 353: polnischer Außenminister bat Genscher am 09.11.1989 um weitere Befassung mit Herrhausens Entschuldungsvorschlag."| N_PER_DE_HANS_DIETRICH_GENSCHER
+    N_ORG_DE_BUNDESREGIERUNG_1992["Bundesregierung (deutsch-polnische Umschuldung 1992)"]
+    N_ORG_PL_REGIERUNG_1992["Polnische Regierung (Umschuldung 1992)"]
+    N_ORG_DE_BUNDESREGIERUNG_1992 -->|"BT-Drs. 12/8472: bilaterales Abkommen 1992 zur Umsetzung Pariser Club; 9,1 Mrd. DM Forderungen, 4,55 Mrd. DM Erlass; bereits erfolgte Entschädigung der bundesverbürgten Forderungen amtlich berichtet."| N_ORG_PL_REGIERUNG_1992
+    N_ORG_INT_EBRD["Europäische Bank für Wiederaufbau und Entwicklung (EBRD)"]
+    N_ORG_PL_WBK_1991["Wielkopolski Bank Kredytowy (1991)"]
+    N_ORG_INT_EBRD -->|"EBRD berichtet erste Kreditlinie an WBK im Mai 1991 für lokale kleinere Unternehmen; erstes genehmigtes Projekt 50 Mio. USD."| N_ORG_PL_WBK_1991
+    N_PER_DE_HILMAR_KOPPER["Hilmar Kopper"]
+    N_PER_DE_HILMAR_KOPPER -->|"Kopper unterstützte Morgan-Grenfell-Übernahme 1989 und wurde nach Herrhausens Tod zum Vorstandssprecher gewählt."| N_ORG_DE_DEUTSCHE_BANK_1989
+    N_ORG_DE_AUSWAERTIGES_AMT_1986["Auswärtiges Amt (Schuldenpolitik 1986)"]
+    N_ORG_DE_AUSWAERTIGES_AMT_1986 -->|"AAPD Dok. 367: Staatssekretär Ruhfus erläuterte am 28.02.1986 die ablehnende Regierungsposition zum Zinsausgleichsfonds; AA kritisierte Verlagerung des Zinsausfallrisikos."| N_PER_DE_ALFRED_HERRHAUSEN
+    N_ORG_INT_IBRD_1994["Weltbank / IBRD (Polen 1994)"]
+    N_ORG_PL_REGIERUNG_1994["Polnische Regierung (Londoner Club 1994)"]
+    N_ORG_INT_IBRD_1994 -->|"ICR 15671: 170 Mio. USD neuer Kredit und 230 Mio. USD freigegebene Kreditmittel; insgesamt bis 02.12.1994 ausgezahlt."| N_ORG_PL_REGIERUNG_1994
+    N_ORG_INT_IMF_1994["Internationaler Währungsfonds (Polen 1994)"]
+    N_ORG_INT_IMF_1994 -->|"IWF-Beschluss 26.10.1994: 148,3 Mio. SZR Aufstockung und 135 Mio. SZR Freigabe; Weltbank-Abschlussbericht bestätigt Kofinanzierung in gleicher Höhe wie IBRD."| N_ORG_PL_REGIERUNG_1994
+    N_ORG_PL_NBP_1994["Narodowy Bank Polski (1994)"]
+    N_ORG_PL_NBP_1994 -->|"ICR Abs. 47: polnische Zentralbank stellte Zwischenfinanzierung bereit, bis Weltbankmittel ausgezahlt werden konnten."| N_ORG_PL_REGIERUNG_1994
+    N_ORG_PL_LONDON_CLUB_1994["Londoner Club: private Gläubiger Polens (1994)"]
+    N_ORG_PL_REGIERUNG_1994 -->|"DDSR-Abkommen 1994, ca. 14,43 Mrd. USD Forderungen; Rückkäufe und Anleiheumtausch, teilweise US-Treasury-Besicherung; individuelle Gläubigerbeträge offen."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_INT_IBRD_1994 -->|"ICR Vorwort: begrenzte Freigabe von Negativverpfändungsklauseln im Umfang von 623,4 Mio. USD zur Besicherung neuer Anleihen; kein zusätzlicher Kredit."| N_ORG_PL_REGIERUNG_1994
+    N_ORG_GB_BARCLAYS_1993["Barclays Bank (Polen-Verhandlungen 1993)"]
+    N_ORG_GB_BARCLAYS_1993 -->|"Quaisser S. 20: Barclays leitete den Lenkungsausschuss bis zur Übernahme durch Dresdner 1993; exakter Monat zwischen Sekundärquellen abweichend."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_DE_DRESDNER_BANK_1993["Dresdner Bank (Polen-Verhandlungen 1993–1994)"]
+    N_ORG_DE_DRESDNER_BANK_1993 -->|"Zeitgenössisches Gutachten und UPI belegen Leitung der Polen-Verhandlungen durch Dresdner nach Übernahme 1993; im September 1994 gemeinsame Leitung mit Lloyds berichtet."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_GB_LLOYDS_BANK_1994["Lloyds Bank (Polen-Verhandlungen 1994)"]
+    N_ORG_GB_LLOYDS_BANK_1994 -->|"Los Angeles Times 15.09.1994 berichtet gemeinsamen Vorsitz mit Dresdner Bank."| N_ORG_PL_LONDON_CLUB_1994
+    N_PER_DE_ERNST_MORITZ_LIPP["Ernst-Moritz Lipp"]
+    N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 bezeichnet Lipp als Sonderbeauftragten der Dresdner Bank für Polen."| N_ORG_DE_DRESDNER_BANK_1993
+    N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 nennt Lipp als Vorsitzenden der Polen-Arbeitsgruppe; LA Times 15.09.1994 als Verhandlungsführer."| N_ORG_PL_LONDON_CLUB_1994
 ```
 
 [Zur Relationstabelle](network.md)
