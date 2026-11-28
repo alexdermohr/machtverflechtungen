@@ -8317,3 +8317,162 @@ relations:
     evidence_level: strong
     period:
       start: '1994'
+
+  - id: REL-PL-FOZZ-001
+    from: ORG-PL-MINFIN-1989
+    to: ORG-PL-FOZZ-SUPERVISORY-BOARD
+    type: statutory_appointment_authority
+    label: 'Art. 7 Abs. 1: Finanzminister ernennt und entlässt Vorsitz und Mitglieder des Aufsichtsrats.'
+    sources:
+    - SRC-PL-FOZZ-LAW-1989
+    evidence_level: established
+    period:
+      start: '1989-02-21'
+      end: '1990-12-24'
+  - id: REL-PL-FOZZ-002
+    from: ORG-PL-MINFIN-1989
+    to: ORG-PL-FOZZ-1989
+    type: statutory_appointment_authority
+    label: 'Art. 7 Abs. 2: Finanzminister ernennt und entlässt den Generaldirektor nach Stellungnahme des Aufsichtsrats.'
+    sources:
+    - SRC-PL-FOZZ-LAW-1989
+    evidence_level: established
+    period:
+      start: '1989-02-21'
+      end: '1990-12-24'
+  - id: REL-PL-FOZZ-003
+    from: ORG-PL-FOZZ-SUPERVISORY-BOARD
+    to: ORG-PL-FOZZ-1989
+    type: supervisory_role
+    label: 'Art. 8: gesetzliche Genehmigungs- und Kontrollbefugnisse; NIK-Rückschau berichtet verweigerte Bilanzgenehmigung
+      im Juli 1990.'
+    sources:
+    - SRC-PL-FOZZ-LAW-1989
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    evidence_level: established
+    period:
+      start: '1989-02-21'
+      end: '1990-12-24'
+  - id: REL-PL-FOZZ-004
+    from: ORG-PL-BANK-HANDLOWY-1989
+    to: ORG-PL-NBP-1989
+    type: statutory_financing_condition
+    label: Art. 3 Nr. 3 nennt Zloty-Einlagen des Bank Handlowy bei NBP als Grundlage der Fondseinnahmen; keine einzelne Einzahlung
+      nachgewiesen.
+    sources:
+    - SRC-PL-FOZZ-LAW-1989
+    evidence_level: established
+    period:
+      start: '1989-02-21'
+      end: '1990-12-24'
+  - id: REL-PL-FOZZ-005
+    from: ORG-PL-BANK-HANDLOWY-1989
+    to: ORG-PL-FOZZ-1989
+    type: statutory_financing_condition
+    label: 'Art. 3 Nr. 3 und Art. 14 Abs. 3: gesetzliche Einnahme- und Abrechnungsbeziehung; AAN-Akte 1455 verzeichnet Schuldendienstübernahme
+      und Sitzung 06.11.1990.'
+    sources:
+    - SRC-PL-FOZZ-LAW-1989
+    - SRC-PL-AAN-FOZZ-1455
+    evidence_level: established
+    period:
+      start: '1989-02-21'
+      end: '1990-12-24'
+  - id: REL-PL-FOZZ-006
+    from: ORG-PL-NIK-1991
+    to: ORG-PL-FOZZ-1989
+    type: documented_investigation
+    label: NIK-Rückschau dokumentiert Prüfung 28.01.–25.06.1991 mit Steuerkontrolle, erhebliche Buchführungs- und Aufsichtsmängel;
+      Originalbericht offen.
+    sources:
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    - SRC-PL-AAN-FOZZ-NIK-645-646
+    evidence_level: strong
+    period:
+      start: '1991-01-28'
+      end: '1991-06-25'
+  - id: REL-PL-FOZZ-007
+    from: ORG-PL-NIK-1991
+    to: ORG-PL-WARSAW-PROSECUTOR-1991
+    type: referral_for_investigation
+    label: 'NIK-Rückschau S.133: Anatol Lawina meldete am 08.07.1991 festgestellte Unregelmäßigkeiten.'
+    sources:
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    evidence_level: strong
+    period:
+      start: '1991-07-08'
+  - id: REL-PL-FOZZ-008
+    from: PER-PL-MICHAL-FALZMANN
+    to: ORG-PL-NIK-1991
+    type: documented_office
+    label: 'NIK-Rückschau: Prüfer im FOZZ-Komplex seit März 1991, zeitweiliger Abzug am 15.07.1991.'
+    sources:
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    evidence_level: strong
+    period:
+      start: '1991'
+  - id: REL-PL-FOZZ-009
+    from: PER-PL-WALERIAN-PANKO
+    to: ORG-PL-NIK-1991
+    type: documented_office
+    label: NIK-Präsident 1991 laut institutioneller Rückschau, gestorben 07.10.1991.
+    sources:
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    evidence_level: strong
+    period:
+      start: '1991'
+  - id: REL-PL-FOZZ-010
+    from: ORG-PL-BANK-HANDLOWY-1989
+    to: ORG-PL-NIK-1991
+    type: reported_intervention_attempt
+    label: 'NIK-Rückschau S.133: Beschwerden aus Bankmanagement führten zu vorübergehendem Abzug Falzmanns; kein Beleg eines
+      Gewaltauftrags.'
+    sources:
+    - SRC-PL-NIK-FOZZ-PANKO-2021
+    evidence_level: strong
+    period:
+      start: '1991-07-15'
+  - id: REL-PL-FOZZ-011
+    from: PER-PL-GRZEGORZ-ZEMEK
+    to: ORG-PL-FOZZ-1989
+    type: documented_office
+    label: WSI-Bericht 2007, S.192, bezeichnet Żemek als Generaldirektor des Fonds; Bezug auf historische Tätigkeit.
+    sources:
+    - SRC-PL-WSI-REPORT-2007
+    evidence_level: strong
+    period:
+      start: '1989'
+  - id: REL-PL-FOZZ-012
+    from: ORG-PL-WSI-VERIFICATION-COMMISSION-2007
+    to: PER-PL-GRZEGORZ-ZEMEK
+    type: reported_statement
+    label: WSI-Kommission publizierte 2007 Zuschreibung einer Mitarbeit DIK und nennt IPN-Akten; Originale nicht geprüft, K
+      51/07 beanstandet Publikationsverfahrensgarantien. Kante bezeichnet Berichtsaussage, keine unabhängig bewiesene Steuerung.
+    sources:
+    - SRC-PL-WSI-REPORT-2007
+    - SRC-PL-TK-K51-07-2008
+    evidence_level: established
+    period:
+      start: '2007-02-16'
+  - id: REL-PL-FOZZ-013
+    from: ORG-PL-FOZZ-1989
+    to: ORG-PL-DE-COOPERATION-FOUNDATION-1990
+    type: archival_catalogued_correspondence
+    label: AAN-Findbuch 1543 verzeichnet FOZZ-Beteiligung an Stiftungstätigkeit und Korrespondenz zu Jumbo-Krediten 1990; keine
+      Akteneinsicht, kein konkreter Geldfluss behauptet.
+    sources:
+    - SRC-PL-AAN-FOZZ-1543
+    evidence_level: strong
+    period:
+      start: '1990'
+  - id: REL-PL-FOZZ-014
+    from: ORG-PL-MINFIN-2015
+    to: ORG-PL-FOZZ-LIQUIDATION-2014
+    type: documented_governance_role
+    label: Finanzministerium meldet Genehmigung der Abschlussbilanz am 05.01.2015 nach Liquidationsende 31.12.2014; 32.746.905,95
+      PLN an Staatshaushalt überwiesen, Restforderungen offen.
+    sources:
+    - SRC-PL-MF-FOZZ-LIQUIDATION-2015
+    evidence_level: established
+    period:
+      start: '2015-01-05'

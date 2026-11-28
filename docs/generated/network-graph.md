@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**890 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**904 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1564,6 +1564,34 @@ flowchart LR
     N_PER_DE_ERNST_MORITZ_LIPP["Ernst-Moritz Lipp"]
     N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 bezeichnet Lipp als Sonderbeauftragten der Dresdner Bank für Polen."| N_ORG_DE_DRESDNER_BANK_1993
     N_PER_DE_ERNST_MORITZ_LIPP -->|"UPI 11.03.1994 nennt Lipp als Vorsitzenden der Polen-Arbeitsgruppe; LA Times 15.09.1994 als Verhandlungsführer."| N_ORG_PL_LONDON_CLUB_1994
+    N_ORG_PL_MINFIN_1989["Polnisches Finanzministerium (FOZZ-Aufsicht)"]
+    N_ORG_PL_FOZZ_SUPERVISORY_BOARD["FOZZ-Aufsichtsrat (1989–1990)"]
+    N_ORG_PL_MINFIN_1989 -->|"Art. 7 Abs. 1: Finanzminister ernennt und entlässt Vorsitz und Mitglieder des Aufsichtsrats."| N_ORG_PL_FOZZ_SUPERVISORY_BOARD
+    N_ORG_PL_FOZZ_1989["Fundusz Obsługi Zadłużenia Zagranicznego (FOZZ)"]
+    N_ORG_PL_MINFIN_1989 -->|"Art. 7 Abs. 2: Finanzminister ernennt und entlässt den Generaldirektor nach Stellungnahme des Aufsichtsrats."| N_ORG_PL_FOZZ_1989
+    N_ORG_PL_FOZZ_SUPERVISORY_BOARD -->|"Art. 8: gesetzliche Genehmigungs- und Kontrollbefugnisse; NIK-Rückschau berichtet verweigerte Bilanzgenehmigung im Juli 1990."| N_ORG_PL_FOZZ_1989
+    N_ORG_PL_BANK_HANDLOWY_1989["Bank Handlowy w Warszawie (FOZZ, 1989–1991)"]
+    N_ORG_PL_NBP_1989["Narodowy Bank Polski (FOZZ, 1989)"]
+    N_ORG_PL_BANK_HANDLOWY_1989 -->|"Art. 3 Nr. 3 nennt Zloty-Einlagen des Bank Handlowy bei NBP als Grundlage der Fondseinnahmen; keine einzelne Einzahlung nachgewiesen."| N_ORG_PL_NBP_1989
+    N_ORG_PL_BANK_HANDLOWY_1989 -->|"Art. 3 Nr. 3 und Art. 14 Abs. 3: gesetzliche Einnahme- und Abrechnungsbeziehung; AAN-Akte 1455 verzeichnet Schuldendienstübernahme und Sitzung 06.11.1990."| N_ORG_PL_FOZZ_1989
+    N_ORG_PL_NIK_1991["Najwyższa Izba Kontroli (NIK, FOZZ-Kontrolle 1991)"]
+    N_ORG_PL_NIK_1991 -->|"NIK-Rückschau dokumentiert Prüfung 28.01.–25.06.1991 mit Steuerkontrolle, erhebliche Buchführungs- und Aufsichtsmängel; Originalbericht offen."| N_ORG_PL_FOZZ_1989
+    N_ORG_PL_WARSAW_PROSECUTOR_1991["Warschauer Staatsanwaltschaft (1991)"]
+    N_ORG_PL_NIK_1991 -->|"NIK-Rückschau S.133: Anatol Lawina meldete am 08.07.1991 festgestellte Unregelmäßigkeiten."| N_ORG_PL_WARSAW_PROSECUTOR_1991
+    N_PER_PL_MICHAL_FALZMANN["Michał Falzmann"]
+    N_PER_PL_MICHAL_FALZMANN -->|"NIK-Rückschau: Prüfer im FOZZ-Komplex seit März 1991, zeitweiliger Abzug am 15.07.1991."| N_ORG_PL_NIK_1991
+    N_PER_PL_WALERIAN_PANKO["Walerian Pańko"]
+    N_PER_PL_WALERIAN_PANKO -->|"NIK-Präsident 1991 laut institutioneller Rückschau, gestorben 07.10.1991."| N_ORG_PL_NIK_1991
+    N_ORG_PL_BANK_HANDLOWY_1989 -->|"NIK-Rückschau S.133: Beschwerden aus Bankmanagement führten zu vorübergehendem Abzug Falzmanns; kein Beleg eines Gewaltauftrags."| N_ORG_PL_NIK_1991
+    N_PER_PL_GRZEGORZ_ZEMEK["Grzegorz Żemek"]
+    N_PER_PL_GRZEGORZ_ZEMEK -->|"WSI-Bericht 2007, S.192, bezeichnet Żemek als Generaldirektor des Fonds; Bezug auf historische Tätigkeit."| N_ORG_PL_FOZZ_1989
+    N_ORG_PL_WSI_VERIFICATION_COMMISSION_2007["WSI-Überprüfungskommission (Bericht 2007)"]
+    N_ORG_PL_WSI_VERIFICATION_COMMISSION_2007 -->|"WSI-Kommission publizierte 2007 Zuschreibung einer Mitarbeit DIK und nennt IPN-Akten; Originale nicht geprüft, K 51/07 beanstandet Publikationsverfahrensgarantien. Kante bezeichnet Berichtsaussage, keine unabhängig bewiesene Steuerung."| N_PER_PL_GRZEGORZ_ZEMEK
+    N_ORG_PL_DE_COOPERATION_FOUNDATION_1990["Stiftung für deutsch-polnische Zusammenarbeit (Kreditkontext 1990)"]
+    N_ORG_PL_FOZZ_1989 -->|"AAN-Findbuch 1543 verzeichnet FOZZ-Beteiligung an Stiftungstätigkeit und Korrespondenz zu Jumbo-Krediten 1990; keine Akteneinsicht, kein konkreter Geldfluss behauptet."| N_ORG_PL_DE_COOPERATION_FOUNDATION_1990
+    N_ORG_PL_MINFIN_2015["Polnisches Finanzministerium (FOZZ-Liquidation 2015)"]
+    N_ORG_PL_FOZZ_LIQUIDATION_2014["FOZZ in Liquidation (Abschluss 2014)"]
+    N_ORG_PL_MINFIN_2015 -->|"Finanzministerium meldet Genehmigung der Abschlussbilanz am 05.01.2015 nach Liquidationsende 31.12.2014; 32.746.905,95 PLN an Staatshaushalt überwiesen, Restforderungen offen."| N_ORG_PL_FOZZ_LIQUIDATION_2014
 ```
 
 [Zur Relationstabelle](network.md)
