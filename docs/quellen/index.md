@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**619 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-hs30-win-nas-lee-19771214) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -1192,6 +1192,21 @@ Fundstelle: Druckseite 10 / PDF-Index 11: Sawers als Director Bilderberg Associa
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1966">
+
+<a id="src-hs30-kabinett-19661109"></a>
+### Bundesarchiv (amtliche Edition)
+
+**[53. Kabinettssitzung am 9. November 1966](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)**
+
+Bundesarchiv (amtliche Edition) · 1966-11-09 · Stufe **A** · Primärquelle · `SRC-HS30-KABINETT-19661109`
+
+[PDF öffnen](https://kabinettsprotokolle.bundesarchiv.de/resources/pdf/a5c8eccf-acfa-4ac1-9d70-b6cfd8cc545c.pdf)
+
+Fundstelle: TOP A, PDF S. 2–5; B 136/36145 und B 136/3105
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1997">
 
 <a id="src-de-barch-fricke-akteneinsicht-1997"></a>
@@ -1790,6 +1805,21 @@ Fundstelle: Document 59, PDF-Bildseite 1
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1965">
+
+<a id="src-hs30-cia-catide-19651102"></a>
+### Central Intelligence Agency; Scan-Kopie bei FOIA Research
+
+**[Memorandum for the Record: CATIDE Cover Firms (Anlage ZIPPER COVERS)](https://www.foiaresearch.net/sites/default/files/2019-11/IHM%2C%20KARL_0011.pdf)**
+
+Central Intelligence Agency; Scan-Kopie bei FOIA Research · 1965-11-02 · Stufe **A** · Primärquelle · `SRC-HS30-CIA-CATIDE-19651102`
+
+[PDF öffnen](https://www.foiaresearch.net/sites/default/files/2019-11/IHM%2C%20KARL_0011.pdf)
+
+Fundstelle: NARA RG 263 Entry ZZ-18 Box 61 Karl Ihm Name File, File 32W-5-39/31; Anlage III Nr. 78, 82, Druckseiten 47–49
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="C" data-source-year="2003">
 
 <a id="src-de-cau-unizeit-ulfkotte-2003"></a>
@@ -2012,6 +2042,21 @@ Deutscher Bundestag · 1967-06-07 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 [Seite öffnen](https://dserver.bundestag.de/btp/05/05111.pdf#page=35)
 
 Fundstelle: 5/111 gedruckte S. 5279, PDF-Bild 35; Gegenrede Haase S. 5280
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1969">
+
+<a id="src-hs30-bt-v4527"></a>
+### Deutscher Bundestag
+
+**[Bericht des 1. Untersuchungsausschusses zur HS-30-Beschaffung](https://dserver.bundestag.de/btd/05/045/0504527.pdf)**
+
+Deutscher Bundestag · 1969-06-26 · Stufe **A** · Primärquelle · `SRC-HS30-BT-V4527`
+
+[PDF öffnen](https://dserver.bundestag.de/btd/05/045/0504527.pdf)
+
+Fundstelle: BT-Drs. V/4527, S. 23–25, 72–86, 93–96, 100–117
 
 </article>
 
@@ -3350,6 +3395,36 @@ Fundstelle: S. 1–4: Ermahnung, keine Rüge; Firmenfinanzierung und Medien.
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1954">
+
+<a id="src-hs30-dodis-8938"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Lieferung von Waffen und Munition an die Bundesrepublik Deutschland](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)**
+
+Diplomatische Dokumente der Schweiz · 1954-03-06 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-8938`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-19.PDF#page=343)
+
+Fundstelle: DDS Bd. 19 Nr. 89 S. 240–243; E 1004.1(-)-/1/563; DoDiS-8938
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1955">
+
+<a id="src-hs30-dodis-12614"></a>
+### Diplomatische Dokumente der Schweiz
+
+**[Mitbericht zum Antrag des Justiz- und Polizeidepartements betreffend Octogon](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)**
+
+Diplomatische Dokumente der Schweiz · 1955-10-29 · Stufe **A** · Primärquelle · `SRC-HS30-DODIS-12614`
+
+[Seite öffnen](https://www.dodis.ch/res/doc/DDS-20.PDF#page=190)
+
+Fundstelle: DDS Bd. 20 Nr. 35 S. 86–87; E 2001(E)1972/33/296; DoDiS-12614
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1952">
 
 <a id="src-de-frak-bdj-19521021"></a>
@@ -4190,6 +4265,111 @@ Fundstelle: S. 10, Spalte A/B: Vorstellung der Landesregierung, Dr. Diether Poss
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1944">
+
+<a id="src-hs30-d41494"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Regierung befürwortet Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1944-02-11 · Stufe **A** · Primärquelle · `SRC-HS30-D41494`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41494)
+
+Fundstelle: LI LA V 004/1948/04 (a)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d41478"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Fremdenpolizei verlangt Sicherstellung einer Kaution](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-02-14 · Stufe **A** · Primärquelle · `SRC-HS30-D41478`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41478)
+
+Fundstelle: LI LA V 004/1948/04 (b), Anm. 3–4
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d42137"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Presta hebt Ruscheweyhs Verdienste hervor](https://www.e-archiv.li/textDetail.aspx?etID=42137)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-04 · Stufe **A** · Primärquelle · `SRC-HS30-D42137`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=42137)
+
+Fundstelle: LI LA V 004/1948/04 (d)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1945">
+
+<a id="src-hs30-d41476"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Liechtenstein protestiert gegen Schweizer Vorgehen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1945-09-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41476`
+
+[Seite öffnen](https://e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41476)
+
+Fundstelle: LI LA V 143/3167 (a), Anm. 7
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
+<a id="src-hs30-d41471"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Britische Repatriierungsforderung](https://www.e-archiv.li/textDetail.aspx?etID=41471)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1946-11-28 · Stufe **A** · Primärquelle · `SRC-HS30-D41471`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41471)
+
+Fundstelle: LI LA V 143/3167 (b)
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1946">
+
+<a id="src-hs30-d41470"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Liechtenstein lehnt Wegweisung ab](https://www.e-archiv.li/textDetail.aspx?etID=41470)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1946-12-16 · Stufe **A** · Primärquelle · `SRC-HS30-D41470`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?etID=41470)
+
+Fundstelle: LI LA V 143/3167 (c), Anm. 3
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1948">
+
+<a id="src-hs30-d41493"></a>
+### Liechtensteinisches Landesarchiv (Quellenedition)
+
+**[Fremdenpolizei zur Einbürgerung Ruscheweyhs](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)**
+
+Liechtensteinisches Landesarchiv (Quellenedition) · 1948-01-22 · Stufe **A** · Primärquelle · `SRC-HS30-D41493`
+
+[Seite öffnen](https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=1&etID=41493)
+
+Fundstelle: LI LA V 004/1948/04 (c)
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="D" data-source-year="2025">
 
 <a id="src-de-lohr-mauss-2025"></a>
@@ -4280,6 +4460,21 @@ Fundstelle: Kooperationspartner, Aufgaben und Einsatz realer Militärdaten; inst
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2018">
+
+<a id="src-hs30-win-mfa-un-2018"></a>
+### Ministry of Foreign Affairs Singapore
+
+**[Rede von Vivian Balakrishnan zur UNDP Asia Pacific Regional Management Meeting](https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/transcript-undp-09-oct-2018/)**
+
+Ministry of Foreign Affairs Singapore · 2018-10-09 · Stufe **A** · Primärquelle · `SRC-HS30-WIN-MFA-UN-2018`
+
+[Seite öffnen](https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/transcript-undp-09-oct-2018/)
+
+Fundstelle: UN-EPTA 1960, Beratung bis 1984; offizieller Rückblick
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2023">
 
 <a id="src-fr-mae-1rp-findbuch-2023"></a>
@@ -4307,6 +4502,21 @@ Ministério do Planejamento, Orçamento e Gestão · 2004 · Stufe **A** · Prim
 [PDF öffnen](https://bibliotecadigital.gestao.gov.br/bitstream/123456789/525/1/PPA_2004_2007_RelatorioAvaliacao2004_Texto.pdf)
 
 Fundstelle: Programm0496, Aktion5523 Sistema de Aeronaves do SIVAM, gedruckte S.125: Vertrag01/95, physisch 2003 umgesetzt, R$4.345.000 Restos a Pagar 2003, R$3.000.000 Budget 2004.
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1977">
+
+<a id="src-hs30-win-nas-lee-19771214"></a>
+### National Archives of Singapore
+
+**[Rede Lee Kuan Yew, 14. Dezember 1977](https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19771214.pdf)**
+
+National Archives of Singapore · 1977-12-14 · Stufe **A** · Primärquelle · `SRC-HS30-WIN-NAS-LEE-19771214`
+
+[PDF öffnen](https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19771214.pdf)
+
+Fundstelle: S. 3; zeitgenössischer Rückblick auf 1968; Text geprüft, Screenshot fehlgeschlagen
 
 </article>
 
@@ -4560,6 +4770,21 @@ Politisches Archiv des Auswärtigen Amts / Institut für Zeitgeschichte · 1986-
 [Seite öffnen](https://open.ifz-muenchen.de/server/api/core/bitstreams/01648fd0-2d86-4a80-8ba2-d6c7ccf86fad/content)
 
 Fundstelle: Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1986, Bd. I, Dok. 140, gedruckte S. 727–729 (PDF S. 825–827, Nullindex S. 824–826), besonders Abschnitt 3 auf S. 728–729
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
+
+<a id="src-hs30-win-pmo-mas50-2021"></a>
+### Prime Minister's Office Singapore
+
+**[PM Lee Hsien Loong at the MAS50 Partners Appreciation Evening](https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-at-the-mas50-partners-appreciation-evening/)**
+
+Prime Minister's Office Singapore · 2021-10-07 · Stufe **A** · Primärquelle · `SRC-HS30-WIN-PMO-MAS50-2021`
+
+[Seite öffnen](https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-at-the-mas50-partners-appreciation-evening/)
+
+Fundstelle: Abschnitt The Asian Dollar Market; später institutioneller Rückblick; Amtstitel Hon für 1968 ungenau
 
 </article>
 
@@ -7265,7 +7490,7 @@ Fundstelle: ZEIT-Stiftung Eine Chronik 1971–2021, gedruckte S. 49: Pechel-Brie
 
 ## Forschung & Dokumentation { #forschungsliteratur }
 
-**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-co-karisma-cedula-2025) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-us-nsa-gehlen-2005) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-us-nara-bis-wartime-footnote) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
+**Institutionen A–Z:** [A](#src-us-acg-history-young-leaders-1973) · [B](#src-uy-bcu-vaz-npl-1999-tab38) · [C](#src-us-cia-ccf-history-1995) · [D](#src-ulf-tk-sta) · [E](#src-co-efe-mauss-archivo-1998) · [F](#src-hs30-win-schenk-2020) · [G](#src-ulf-gannett-1990) · [H](#src-ulf-horizont-park-2005) · [I](#src-icij-boreal-10191986) · [J](#src-gb-jhse-wolf-carvajal) · [K](#src-de-kas-fonds-spr-2003) · [L](#src-de-amri-mv-reform-gvobl-2026) · [M](#src-de-message-ulfkotte-taubert-2006) · [N](#src-hs30-win-nlb-winsemius) · [O](#src-int-occrp-mauss-panama-2016) · [R](#src-de-igel-urbach-baumann-handschrift-2010) · [S](#src-co-semana-villamil-1997) · [T](#src-de-tsp-klump-1999) · [U](#src-hs30-nara-ihm-namefile) · [W](#src-us-warburg-pincus-firm-history-1978) · [Z](#src-de-zzo-raf-chronik)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
@@ -8060,6 +8285,21 @@ Fundstelle: Vertrag 04.10.1985; Schreiben 17.02.2013; Stellungnahmen
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2020">
+
+<a id="src-hs30-win-schenk-2020"></a>
+### Financial History Review 27/1
+
+**[Catherine R. Schenk: The origins of the Asia dollar market 1968–1986](https://doi.org/10.1017/S0968565019000271)**
+
+Financial History Review 27/1 · 2020 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-WIN-SCHENK-2020`
+
+[Seite öffnen](https://doi.org/10.1017/S0968565019000271)
+
+Fundstelle: S. 17–44; Autorenfassung Oxford S. 6–7 Fn. 23–30 textlich geprüft; Originalinterviews nicht geprüft
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2025">
 
 <a id="src-co-karisma-cedula-2025"></a>
@@ -8225,6 +8465,21 @@ Fundstelle: Studie zur Entstehung und Finanzierung von Der Monat; jährliche Zus
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2019">
+
+<a id="src-hs30-gehlen-middle-east-2019"></a>
+### Journal of Intelligence History (Taylor & Francis)
+
+**[The Gehlen Organization, Nazis, and the Middle East](https://doi.org/10.1080/16161262.2019.1592956)**
+
+Journal of Intelligence History (Taylor & Francis) · 2019 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-GEHLEN-MIDDLE-EAST-2019`
+
+[Seite öffnen](https://doi.org/10.1080/16161262.2019.1592956)
+
+Fundstelle: Fn. 39, 40, 56
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
 <a id="src-de-kas-fonds-spr-2003"></a>
@@ -8237,6 +8492,21 @@ Konrad-Adenauer-Stiftung · undated · Stufe **B** · Sekundär-/Forschungsquell
 [Seite öffnen](https://www.kas.de/de/unterstuetzen-sie-uns)
 
 Fundstelle: Abschnitt Fonds SPR unterstützen!; KAS-Eigenangabe zur Gründung 2003 und Zweck Wissenschaftliche Dienste
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-kas-01-707"></a>
+### Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik
+
+**[Findbuch Carl Otto Lenz, 01-707](https://www.kas.de/documents/259803/12345940/Carl%2BOtto%2BLenz.pdf/235ffc7b-7612-303a-56fc-2ee181424f41?t=1618823101215&version=1.1)**
+
+Konrad-Adenauer-Stiftung, Archiv für Christlich-Demokratische Politik · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-KAS-01-707`
+
+[Seite öffnen](https://www.kas.de/documents/259803/12345940/Carl%2BOtto%2BLenz.pdf/235ffc7b-7612-303a-56fc-2ee181424f41?t=1618823101215&version=1.1)
+
+Fundstelle: S. 29–30, 104/1, 106, 122/1, 122/2, 104/2
 
 </article>
 
@@ -8345,6 +8615,21 @@ Fundstelle: Robert Wolff, Abschnitte Peter Urbach und fehlende Verfassungsschutz
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-p29640"></a>
+### Liechtensteinisches Landesarchiv
+
+**[Rudolf Ruscheweyh: Personeneintrag](https://www.e-archiv.li/personDetail.aspx?backurl=auto&eID=1&etID=41478&persID=29640)**
+
+Liechtensteinisches Landesarchiv · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-P29640`
+
+[Seite öffnen](https://www.e-archiv.li/personDetail.aspx?backurl=auto&eID=1&etID=41478&persID=29640)
+
+Fundstelle: P29640
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2004">
 
 <a id="src-ulf-lat-2004"></a>
@@ -8402,6 +8687,21 @@ Munzinger · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-DE-
 [Seite öffnen](https://www.munzinger.de/register/portrait/biographien/Alexander%2Bvon%2BStahl/00/19547)
 
 Fundstelle: Berufsrollen 1975–1989 und 1990–1993
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
+<a id="src-hs30-win-nlb-winsemius"></a>
+### National Library Board Singapore
+
+**[Albert Winsemius](https://www.nlb.gov.sg/main/article-detail?cmsuuid=e3a51a30-f9fd-47e7-af89-1a11bce13e50)**
+
+National Library Board Singapore · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-WIN-NLB-WINSEMIUS`
+
+[Seite öffnen](https://www.nlb.gov.sg/main/article-detail?cmsuuid=e3a51a30-f9fd-47e7-af89-1a11bce13e50)
+
+Fundstelle: Biografie und berichtete politische Empfehlungen
 
 </article>
 
@@ -8552,6 +8852,36 @@ Senator für Inneres Berlin; private Reproduktion im SDS-Archiv Isioma · 1981-0
 [Seite öffnen](https://isioma.net/sds120502.html)
 
 Fundstelle: Briefseiten 1–3, die Ziffern a–e und der Abschnitt zur Geldstrafe wegen Jagdgewehrweitergabe
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2026">
+
+<a id="src-hs30-win-banking-empire-2026"></a>
+### Social Science History
+
+**[Banking on the Ruins of Empire: Developing Global Finance in Kuwait and Singapore](https://www.cambridge.org/core/journals/social-science-history/article/banking-on-the-ruins-of-empire-developing-global-finance-in-kuwait-and-singapore/B142172B0F43616AC3BAE4D352ABC712)**
+
+Social Science History · 2026 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-WIN-BANKING-EMPIRE-2026`
+
+[Seite öffnen](https://www.cambridge.org/core/journals/social-science-history/article/banking-on-the-ruins-of-empire-developing-global-finance-in-kuwait-and-singapore/B142172B0F43616AC3BAE4D352ABC712)
+
+Fundstelle: Abschnitt Singapore; Vergleich politischer Koalitionen, Offshore-Markt
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2023">
+
+<a id="src-hs30-win-sojourn-2023"></a>
+### SOJOURN 38/3
+
+**[Rezension zu Albert Winsemius / Frans Stoelinga](https://bookshop.iseas.edu.sg/component/get/22725)**
+
+SOJOURN 38/3 · 2023 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-WIN-SOJOURN-2023`
+
+[Seite öffnen](https://bookshop.iseas.edu.sg/component/get/22725)
+
+Fundstelle: S. 488–489; Rezension, nicht Vollbiografie
 
 </article>
 
@@ -8752,6 +9082,21 @@ Fundstelle: Vergleichskontext journalistischer Zuwendungen.
 
 <article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
 
+<a id="src-hs30-nara-ihm-namefile"></a>
+### U.S. National Archives and Records Administration
+
+**[CIA Name Files – 2nd Release](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release/name-files.html)**
+
+U.S. National Archives and Records Administration · unbekannt · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-NARA-IHM-NAMEFILE`
+
+[Seite öffnen](https://www.archives.gov/iwg/declassified-records/rg-263-cia-records/second-release/name-files.html)
+
+Fundstelle: IHM, KARL, Box 061, 230/86/23/02
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="">
+
 <a id="src-us-nara-bis-wartime-footnote"></a>
 ### U.S. National Archives and Records Administration
 
@@ -8837,6 +9182,21 @@ University of Colorado Boulder, College of Music · 2014-07-08 · Stufe **B** ·
 [Seite öffnen](https://www.colorado.edu/music/2014/07/08/revealed-what-really-happened-when-glenn-miller-disappeared-1944)
 
 Fundstelle: Dennis Spragg über Archivnachweise für Militäraircraft-boarding 1944 und mögliche Ursprünge späterer Bordell-/Friendly-Fire-Erzählungen
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-hs30-uzh-buehrle-2021"></a>
+### Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte
+
+**[Kriegsgeschäfte, Kapital und Kunsthaus: die Entstehung der Sammlung Emil Bührle im historischen Kontext](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)**
+
+Universität Zürich, Forschungsstelle für Sozial- und Wirtschaftsgeschichte · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-HS30-UZH-BUEHRLE-2021`
+
+[PDF öffnen](https://www.fsw.uzh.ch/dam/jcr%3Ad2fcb667-1ec0-4e48-8450-ae7d58b20704/Kriegsgeschaefte-Kapital-und-Kunsthaus-V0_55-20210226-digital.pdf)
+
+Fundstelle: S. 132–133, Anm. 36–37
 
 </article>
 

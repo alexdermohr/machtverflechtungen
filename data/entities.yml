@@ -3622,3 +3622,190 @@ entities:
   - {"id": "ORG-DE-STA-MUENCHEN-I", "type": "prosecution_authority", "name": "Staatsanwaltschaft München I", "countries": ["DE"], "notes": "Verfahrensbehandlung 2024 laut BayLT-Drs. 19/8775."}
   - {"id": "ORG-DE-BAY-STAATSKANZLEI", "type": "government_agency", "name": "Bayerische Staatskanzlei", "countries": ["DE"], "notes": "Eingabeweiterleitung; keine persönliche Kenntnis eines Amtsträgers daraus."}
   - {"id": "ORG-DE-BAY-JUSTIZMINISTERIUM", "type": "government_ministry", "name": "Bayerisches Staatsministerium der Justiz", "countries": ["DE"], "notes": "Weiterleitungs- und Auskunftsvorgänge laut BayLT-Drs. 19/8775."}
+
+  - id: PER-DE-RUDOLF-RUSCHEWEYH
+    type: person
+    name: Rudolf Ruscheweyh
+    countries:
+    - DE
+    - LI
+    notes: 1905–1954; Waffenvermittler; ab 1948 liechtensteinischer Staatsbürger.
+  - id: ORG-CH-OERLIKON-BUEHRLE-1945
+    type: company
+    name: Werkzeugmaschinenfabrik Oerlikon Bührle & Co. (1940er)
+    countries:
+    - CH
+  - id: ORG-LI-PRESTA-1945
+    type: company
+    name: Press- und Stanzwerk AG (Presta, 1945)
+    countries:
+    - LI
+  - id: ORG-LI-REGIERUNG-1944-1948
+    type: government
+    name: Liechtensteinische Regierung (1944–1948)
+    countries:
+    - LI
+  - id: ORG-CH-FREMDENPOLIZEI-1945
+    type: government_agency
+    name: Eidgenössische Fremdenpolizei (1945–1948)
+    countries:
+    - CH
+  - id: ORG-CH-VERRECHNUNGSSTELLE-1945
+    type: government_agency
+    name: Schweizerische Verrechnungsstelle (1945)
+    countries:
+    - CH
+  - id: ORG-GB-REGIERUNG-1946
+    type: government
+    name: Britische Regierung (1946)
+    countries:
+    - GB
+  - id: ORG-CH-EPD-1946
+    type: government_ministry
+    name: Eidgenössisches Politisches Departement (1946)
+    countries:
+    - CH
+  - id: ORG-LI-OCTOGON-TRUST
+    type: company
+    name: Octogon Trust reg. (Schaan, 1952)
+    countries:
+    - LI
+  - id: ORG-CH-HISPANO-SUIZA-1950S
+    type: company
+    name: Hispano-Suiza (Genf, 1950er)
+    countries:
+    - CH
+  - id: PER-CH-CONRADO-KRAEMER
+    type: person
+    name: Kraemer (Hispano-Suiza, Genf)
+    countries:
+    - CH
+    notes: Generalbevollmächtigter von Hispano-Suiza; Länderangabe bezeichnet dokumentierten Tätigkeitsort, nicht
+      Staatsangehörigkeit.
+  - id: PER-DE-FRIEDRICH-HOLZAPFEL
+    type: person
+    name: Friedrich Holzapfel
+    countries:
+    - DE
+  - id: ORG-DE-AA-1953-1954
+    type: government_ministry
+    name: Auswärtiges Amt (1953–1954)
+    countries:
+    - DE
+  - id: ORG-DE-AMT-BLANK
+    type: government_agency
+    name: Dienststelle Blank (bis 1955)
+    countries:
+    - DE
+  - id: ORG-DE-BMVTDG-HS30-1956-1964
+    type: federal_ministry
+    name: Bundesministerium für Verteidigung (HS-30, 1956–1964)
+    countries:
+    - DE
+  - id: ORG-GB-BRITISH-MARC-1957
+    type: company
+    name: British MARC (1957–1958)
+    countries:
+    - GB
+  - id: ORG-DE-BRH-1959-1966
+    type: government_agency
+    name: Bundesrechnungshof (HS-30-Prüfung)
+    countries:
+    - DE
+  - id: PER-DE-WERNER-PLAPPERT
+    type: person
+    name: Werner Plappert
+    countries:
+    - DE
+  - id: PER-CH-EMIL-BUEHRLE
+    type: person
+    name: Emil Georg Bührle
+    countries:
+    - CH
+  - id: ORG-DE-LENZ-SCHNEIDER-ARETZ
+    type: law_firm
+    name: Sozietät Lenz/Schneider/Aretz (1950er)
+    countries:
+    - DE
+
+  - id: PER-US-WIGHT-OCTOGON
+    type: person
+    name: Wight (US-Staatsangehöriger, Octogon-Ermittlungen)
+    countries:
+    - US
+    - LI
+  - id: ORG-US-EMBASSY-BERN-1955
+    type: government_agency
+    name: US-Botschaft in der Schweiz (1955)
+    countries:
+    - US
+    - CH
+  - id: ORG-CH-EPD-1954-1955
+    type: government_ministry
+    name: Eidgenössisches Politisches Departement (1954–1955)
+    countries:
+    - CH
+  - id: ORG-CH-BUNDESRAT-1953-1955
+    type: government
+    name: Schweizerischer Bundesrat (1953–1955)
+    countries:
+    - CH
+  - id: ORG-CH-EJPD-1955
+    type: government_ministry
+    name: Eidgenössisches Justiz- und Polizeidepartement (1955)
+    countries:
+    - CH
+
+  - id: ORG-DE-WIG-MANNHEIM-1953
+    type: company
+    name: Westdeutsche Industriegesellschaft (WIG, Mannheim, 1953)
+    countries:
+    - DE
+    notes: Im CIA-Bericht 1965 als im April 1953 gegründete Nachfolgerin Octogons bezeichnet; genaue Registeridentität,
+      Eigentum und Rechtsnachfolge nicht bestätigt.
+
+  - id: PER-NL-ALBERT-WINSEMIUS
+    type: person
+    name: Albert Winsemius (1910–1996)
+    countries:
+    - NL
+    - CH
+    - DE
+    - SG
+  - id: PER-NL-JD-VAN-OENEN
+    type: person
+    name: J. D. van Oenen (Bank of America, 1960er)
+    countries:
+    - NL
+    - SG
+    - GB
+  - id: PER-SG-GOH-KENG-SWEE
+    type: person
+    name: Goh Keng Swee
+    countries:
+    - SG
+  - id: ORG-SG-GOVERNMENT-1960-1984
+    type: government
+    name: Regierung Singapurs (1960–1984)
+    countries:
+    - SG
+  - id: ORG-US-BOFA-SINGAPORE-1960S
+    type: bank
+    name: Bank of America (Singapur, 1960er)
+    countries:
+    - US
+    - SG
+  - id: ORG-NL-ECONOMIC-AFFAIRS-1950S
+    type: government_ministry
+    name: Niederländisches Wirtschaftsministerium (frühe 1950er)
+    countries:
+    - NL
+  - id: ORG-UN-EPTA-1960
+    type: international_organization
+    name: UN Expanded Programme of Technical Assistance (1960)
+    countries: []
+  - id: ORG-SG-MAS-1971
+    type: government_agency
+    name: Monetary Authority of Singapore (ab 1971)
+    countries:
+    - SG

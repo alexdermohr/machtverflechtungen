@@ -8107,3 +8107,475 @@ relations:
   - {"id": "REL-DE-BARSCHEL-009", "from": "ORG-DE-STA-MUENCHEN-I", "to": "ORG-DE-STA-LUEBECK", "type": "case_referral", "label": "Übersandte Anzeigenvorgang vom 15.04.2024 zur Übernahmeprüfung mit Verfügung vom 02.05.2024; Übernahme abgelehnt", "evidence_level": "established", "sources": ["SRC-DE-BARSCHEL-BAYLT-198775"], "period": {"start": "2024-05-02"}}
   - {"id": "REL-DE-BARSCHEL-010", "from": "ORG-DE-BAY-STAATSKANZLEI", "to": "ORG-DE-BAY-JUSTIZMINISTERIUM", "type": "information_transfer", "label": "Leitete Eingabe vom 23.10.2023 zuständigkeitshalber weiter; genaues Weiterleitungsdatum nicht genannt", "evidence_level": "established", "sources": ["SRC-DE-BARSCHEL-BAYLT-198775"]}
   - {"id": "REL-DE-BARSCHEL-011", "from": "ORG-DE-BAY-JUSTIZMINISTERIUM", "to": "ORG-DE-STA-MUENCHEN-I", "type": "information_transfer", "label": "Weiterleitung derselben Eingabe an Staatsanwaltschaft; genaues Datum nicht genannt", "evidence_level": "established", "sources": ["SRC-DE-BARSCHEL-BAYLT-198775"]}
+
+  - id: REL-HS30-001
+    from: ORG-LI-REGIERUNG-1944-1948
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: naturalization_advocacy
+    label: Regierung befürwortete 1944 Einbürgerung unter Verweis auf wirtschaftliche Interessen
+    sources:
+    - SRC-HS30-D41494
+    evidence_level: strong
+    period:
+      start: '1944-02-11'
+  - id: REL-HS30-002
+    from: ORG-CH-FREMDENPOLIZEI-1945
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: conditional_residence_permit
+    label: Weitere Aufenthaltsbewilligung von Sicherstellung 10.558.270,11 CHF abhängig gemacht
+    sources:
+    - SRC-HS30-D41478
+    evidence_level: strong
+    period:
+      start: '1945-02-14'
+  - id: REL-HS30-003
+    from: PER-DE-RUDOLF-RUSCHEWEYH
+    to: ORG-CH-OERLIKON-BUEHRLE-1945
+    type: commercial_representation
+    label: Vertretung in Deutschland und Vermittlung von Rüstungsaufträgen 1940–1944 laut Archivbiografie und Ausschussbericht
+    sources:
+    - SRC-HS30-P29640
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1940'
+      end: '1944'
+  - id: REL-HS30-004
+    from: ORG-LI-PRESTA-1945
+    to: ORG-LI-REGIERUNG-1944-1948
+    type: commercial_advocacy
+    label: Presta verwies gegenüber Regierung auf Ruscheweyhs Beitrag zur wirtschaftlichen Grundlage der Firma; keine
+      direkten Geschäftsbeziehungen behauptet
+    sources:
+    - SRC-HS30-D42137
+    evidence_level: strong
+    period:
+      start: '1945-09-04'
+  - id: REL-HS30-005
+    from: ORG-CH-VERRECHNUNGSSTELLE-1945
+    to: ORG-CH-OERLIKON-BUEHRLE-1945
+    type: payment_order
+    label: Laut editorischer Anmerkung Verfügung zur Abführung von 12 Mio. CHF ins Clearing; tatsächlicher Zahlungsausgang
+      nicht belegt
+    sources:
+    - SRC-HS30-D41476
+    evidence_level: strong
+    period:
+      start: '1945-03-15'
+  - id: REL-HS30-006
+    from: ORG-LI-REGIERUNG-1944-1948
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: diplomatic_advocacy
+    label: Protest gegen Schweizer Vorgehen wegen Clearing und Aufenthaltsstatus
+    sources:
+    - SRC-HS30-D41476
+    evidence_level: strong
+    period:
+      start: '1945-09-22'
+  - id: REL-HS30-007
+    from: ORG-GB-REGIERUNG-1946
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: repatriation_request
+    label: Britisches Rückführungs- und Guthabensperrverlangen laut schweizerischer Note
+    sources:
+    - SRC-HS30-D41471
+    evidence_level: strong
+    period:
+      start: '1946-11-28'
+  - id: REL-HS30-008
+    from: ORG-CH-EPD-1946
+    to: ORG-LI-REGIERUNG-1944-1948
+    type: diplomatic_notification
+    label: Übermittelte britische Forderung über liechtensteinische Gesandtschaft
+    sources:
+    - SRC-HS30-D41471
+    evidence_level: strong
+    period:
+      start: '1946-11-28'
+  - id: REL-HS30-009
+    from: ORG-LI-REGIERUNG-1944-1948
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: repatriation_refusal
+    label: Lehnte Wegweisung ohne zusätzliche Belege ab
+    sources:
+    - SRC-HS30-D41470
+    evidence_level: strong
+    period:
+      start: '1946-12-16'
+  - id: REL-HS30-010
+    from: ORG-CH-FREMDENPOLIZEI-1945
+    to: PER-DE-RUDOLF-RUSCHEWEYH
+    type: naturalization_assessment
+    label: Empfahl 1948 keine Verhinderung der Einbürgerung, aber auch keine ausdrückliche Zustimmung
+    sources:
+    - SRC-HS30-D41493
+    evidence_level: strong
+    period:
+      start: '1948-01-22'
+  - id: REL-HS30-011
+    from: PER-DE-RUDOLF-RUSCHEWEYH
+    to: ORG-LI-OCTOGON-TRUST
+    type: commissioned_foundation
+    label: Octogon-Gründung durch Seeger in Ruscheweyhs Auftrag laut Zeugenaussage (S. 23)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1952-01-24'
+  - id: REL-HS30-012
+    from: PER-DE-RUDOLF-RUSCHEWEYH
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: commercial_contact
+    label: Geschäftskontakte nach Konflikt mit Bührle laut Ausschuss (S. 23, 115)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1952'
+      end: '1954'
+  - id: REL-HS30-013
+    from: PER-DE-RUDOLF-RUSCHEWEYH
+    to: PER-CH-CONRADO-KRAEMER
+    type: reported_personal_contact
+    label: Bekanntschaft über Oberst a. D. Geist; finanzielle Beziehungen nicht geklärt (S. 23–24)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+  - id: REL-HS30-014
+    from: PER-CH-CONRADO-KRAEMER
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: authorized_representative
+    label: Generalbevollmächtigter und Verhandlungspartner der Bundesregierung (S. 24–25)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1956'
+  - id: REL-HS30-015
+    from: PER-DE-FRIEDRICH-HOLZAPFEL
+    to: ORG-DE-AA-1953-1954
+    type: risk_reporting
+    label: Meldete Vorgänge im Umfeld von Ruscheweyh, Octogon und Hispano-Suiza (S. 23–25, 115)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953'
+      end: '1954'
+  - id: REL-HS30-016
+    from: ORG-DE-AA-1953-1954
+    to: PER-DE-FRIEDRICH-HOLZAPFEL
+    type: restriction_of_inquiry
+    label: Weitere Befassung mit Octogon untersagt laut Feststellung des Ausschusses (S. 115)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953'
+      end: '1954'
+  - id: REL-HS30-017
+    from: ORG-DE-AA-1953-1954
+    to: ORG-DE-AMT-BLANK
+    type: information_transfer
+    label: Leitete Berichte Holzapfels am 18.03.1954 an Dienststelle Blank weiter (S. 24)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1954-03-18'
+  - id: REL-HS30-018
+    from: ORG-DE-BMVTDG-HS30-1956-1964
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: procurement_negotiation
+    label: HS-30-Auswahl und Verhandlungen 1956; Ausschussbericht
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1956'
+  - id: REL-HS30-019
+    from: ORG-DE-BMVTDG-HS30-1956-1964
+    to: ORG-GB-BRITISH-MARC-1957
+    type: advance_payment
+    label: Serienverträge 1957; rund 193 Mio. DM Vorauszahlungen 1957/58 sowie 47 Mio. DM Akkreditive, keine belegten
+      Schmiergelder
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1957'
+      end: '1958'
+  - id: REL-HS30-020
+    from: PER-CH-EMIL-BUEHRLE
+    to: PER-DE-WERNER-PLAPPERT
+    type: reported_payment
+    label: 10.000 CHF für Tätigkeit gegen Hispano-Suiza/Ruscheweyh-Gruppe laut im Minderheitsvotum wiedergegebener
+      Erklärung (S. 116–117)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+  - id: REL-HS30-021
+    from: ORG-DE-LENZ-SCHNEIDER-ARETZ
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: legal_representation
+    label: Kanzlei nahm Interessen von Hispano-Suiza wahr, keine bestätigte Schmiergeldzahlung (S. 110 ff.)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1957'
+  - id: REL-HS30-022
+    from: PER-DE-OTTO-LENZ
+    to: ORG-DE-LENZ-SCHNEIDER-ARETZ
+    type: law_firm_membership
+    label: Namenspartner der Sozietät, die Hispano-Suiza vertrat (S. 110 ff.)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1957'
+
+  - id: REL-HS30-023
+    from: ORG-DE-BMI
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: procurement_contract
+    label: BMI war direkter Vertragspartner beim früheren BGS-Geschäft (BT V/4527, S. 24, 115); nicht HS-30-Vertrag
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953'
+  - id: REL-HS30-024
+    from: PER-DE-RUDOLF-RUSCHEWEYH
+    to: ORG-DE-BMI
+    type: reported_procurement_intermediation
+    label: Dienstliche Erklärung Osters vom 03.09.1953 bezeichnet Ruscheweyh als Vermittler; finanzielle Beteiligung
+      bestritten (S. 24)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953-09-03'
+  - id: REL-HS30-025
+    from: ORG-DE-BRH-1959-1966
+    to: ORG-DE-BMVTDG-HS30-1956-1964
+    type: audit_access_request
+    label: Rechnungshof verlangte Akten der Becker-Kommission im Juli 1959, wiederholte Bitte 25.06.1962 (S. 93 ff.)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1959'
+      end: '1962'
+  - id: REL-HS30-026
+    from: ORG-DE-BMVTDG-HS30-1956-1964
+    to: ORG-DE-BRH-1959-1966
+    type: audit_access_release
+    label: Aktenfreigabe 24.02.1964; über vorherige Behinderung stritten Mehrheit und Minderheit (S. 93 ff.)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1964-02-24'
+
+  - id: REL-HS30-027
+    from: ORG-US-EMBASSY-BERN-1955
+    to: PER-US-WIGHT-OCTOGON
+    type: diplomatic_intervention
+    label: Zwei bereits erfolgte US-Demarchen zugunsten Wights in Aufenthaltsfragen laut Petitpierre (29.10.1955);
+      keine bestätigte Geheimdienstrolle
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+  - id: REL-HS30-028
+    from: ORG-CH-EPD-1954-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: policy_recommendation
+    label: Empfahl, beim liechtensteinischen Staat Auflösung des Octogon Trusts zu verlangen; kein Beschluss zu diesem
+      Mitbericht dokumentiert
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+    period:
+      start: '1955-10-29'
+  - id: REL-HS30-029
+    from: ORG-CH-BUNDESRAT-1953-1955
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: export_authorization_suspension
+    label: Exportgesuch am 18.09.1953 wegen Octogon-Berichten vorerst zurückgestellt (EPD-Antrag 06.03.1954)
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+    period:
+      start: '1953-09-18'
+  - id: REL-HS30-030
+    from: PER-DE-FRIEDRICH-HOLZAPFEL
+    to: ORG-CH-EPD-1954-1955
+    type: diplomatic_advocacy
+    label: Intervention zur Wiedererwägung des BGS-Exportgesuchs laut EPD-Antrag 06.03.1954; nicht identisch mit HS-30-Vergabe
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+  - id: REL-HS30-031
+    from: ORG-CH-EPD-1954-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: policy_recommendation
+    label: Empfahl Genehmigung des BGS-Geschäfts über rund 2,9 Mio. CHF nach deutschen Garantien; Octogon-Ermittlungen
+      noch laufend
+    sources:
+    - SRC-HS30-DODIS-8938
+    evidence_level: strong
+    period:
+      start: '1954-03-06'
+  - id: REL-HS30-032
+    from: ORG-CH-EJPD-1955
+    to: ORG-CH-BUNDESRAT-1953-1955
+    type: investigation_report
+    label: Antrag vom 18.10.1955 zu Octogon und fremdenpolizeilichen Maßnahmen, im Mitbericht vom 29.10.1955 referiert;
+      Hauptakte selbst nicht eingesehen
+    sources:
+    - SRC-HS30-DODIS-12614
+    evidence_level: strong
+    period:
+      start: '1955-10-18'
+
+  - id: REL-HS30-WIG-001
+    from: ORG-US-CIA
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: intelligence_reporting
+    label: CIA-Memo vom 02.11.1965 enthält ältere ZIPPER-Studie, Anlage III Nr. 82 zur WIG; dokumentierte Berichterstattung,
+      kein Beweis von CIA-Kontrolle
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    - SRC-HS30-GEHLEN-MIDDLE-EAST-2019
+    evidence_level: strong
+    period:
+      start: '1965-11-02'
+  - id: REL-HS30-WIG-002
+    from: ORG-CH-HISPANO-SUIZA-1950S
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: reported_corporate_foundation
+    label: Gründung der WIG Mannheim im April 1953 durch Hispano-Suiza laut CIA-Studie Nr. 78; Registerbeleg ausstehend
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    evidence_level: plausible
+    period:
+      start: '1953'
+  - id: REL-HS30-WIG-003
+    from: ORG-LI-OCTOGON-TRUST
+    to: ORG-DE-WIG-MANNHEIM-1953
+    type: reported_business_successor
+    label: CIA-Studie Nr. 78 und 82 bezeichnet WIG als wirtschaftliche Nachfolgerin Octogons; Rechtsnachfolge und
+      Vermögensübertragung nicht belegt
+    sources:
+    - SRC-HS30-CIA-CATIDE-19651102
+    evidence_level: plausible
+
+  - id: REL-HS30-WIN-001
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-NL-ECONOMIC-AFFAIRS-1950S
+    type: public_office
+    label: Generaldirektor für Industrialisierung vor Wechsel in die Rüstungsindustrie 1953, laut biografischer Forschung
+    sources:
+    - SRC-HS30-WIN-SOJOURN-2023
+    evidence_level: strong
+  - id: REL-HS30-WIN-002
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-CH-HISPANO-SUIZA-1950S
+    type: employment
+    label: Wechsel zu Hispano-Suiza in Genf 1953 laut biografischer Forschung; 1958 Firmenvertreter in Bonn im Ausschussbericht
+    sources:
+    - SRC-HS30-WIN-SOJOURN-2023
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1953'
+  - id: REL-HS30-WIN-003
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-DE-BMVTDG-HS30-1956-1964
+    type: contract_negotiation
+    label: Interimistischer Hispano-Vertreter in Bonn; Schreiben vom 29.07.1958 zu vertraglichen Tauglichkeitskriterien
+      (V/4527 S. 65)
+    sources:
+    - SRC-HS30-BT-V4527
+    evidence_level: strong
+    period:
+      start: '1958-07-29'
+  - id: REL-HS30-WIN-004
+    from: ORG-UN-EPTA-1960
+    to: PER-NL-ALBERT-WINSEMIUS
+    type: expert_assignment
+    label: UN-Technikhilfe vermittelte Winsemius 1960 nach Singapur, laut Außenministerium 2018
+    sources:
+    - SRC-HS30-WIN-MFA-UN-2018
+    evidence_level: strong
+    period:
+      start: '1960'
+  - id: REL-HS30-WIN-005
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: economic_advisory
+    label: Wirtschaftspolitische Beratung 1960 bis 1984; berichtete politische Empfehlungen gesondert bewerten
+    sources:
+    - SRC-HS30-WIN-MFA-UN-2018
+    - SRC-HS30-WIN-NLB-WINSEMIUS
+    - SRC-HS30-WIN-BANKING-EMPIRE-2026
+    evidence_level: strong
+    period:
+      start: '1960'
+      end: '1984'
+  - id: REL-HS30-WIN-006
+    from: PER-NL-ALBERT-WINSEMIUS
+    to: PER-NL-JD-VAN-OENEN
+    type: financial_policy_collaboration
+    label: Kontakt und Zusammenarbeit bei Konzept des asiatischen Offshore-Dollarmarkts 1968; offizieller Rückblick
+      2021 und finanzhistorische Forschung
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: strong
+    period:
+      start: '1968'
+  - id: REL-HS30-WIN-007
+    from: PER-NL-JD-VAN-OENEN
+    to: ORG-US-BOFA-SINGAPORE-1960S
+    type: employment
+    label: Führende Tätigkeit bei Bank of America in den 1960er Jahren
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: strong
+    period:
+      start: '1960'
+  - id: REL-HS30-WIN-008
+    from: PER-NL-JD-VAN-OENEN
+    to: PER-SG-GOH-KENG-SWEE
+    type: financial_policy_proposal
+    label: Vorschlag für asiatischen Dollarmarkt 1968 laut Rede Lee Kuan Yews vom 14.12.1977, S. 3
+    sources:
+    - SRC-HS30-WIN-NAS-LEE-19771214
+    evidence_level: strong
+    period:
+      start: '1968'
+  - id: REL-HS30-WIN-009
+    from: ORG-US-BOFA-SINGAPORE-1960S
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: reported_financial_transaction
+    label: Laut Schenk 2020 und Interview Greene 1994 Sterling-Überziehungsgeschäft 1967 zugunsten Bank und Regierung;
+      Betrag und Originalbelege offen
+    sources:
+    - SRC-HS30-WIN-SCHENK-2020
+    evidence_level: plausible
+    period:
+      start: '1967'
+  - id: REL-HS30-WIN-010
+    from: ORG-SG-MAS-1971
+    to: ORG-SG-GOVERNMENT-1960-1984
+    type: financial_regulation_collaboration
+    label: Zusammenarbeit mit Finanzministerium zur Förderung von ACUs nach Gründung der MAS; ermäßigter Offshore-Steuersatz
+      laut Rückblick 2021
+    sources:
+    - SRC-HS30-WIN-PMO-MAS50-2021
+    evidence_level: strong
+    period:
+      start: '1971'
