@@ -492,7 +492,8 @@ class ResearchIntegrationTests(unittest.TestCase):
                  "REL-DE-NSU-BMVG-MAD-KENNTNIS-2012-001",
                  "REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001",
                  "REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001",
-                 "REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"],
+                 "REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001",
+                 "REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001"],
             "britische-neonazinetzwerke-combat18-blood-honour-nsu-1991-2026.md":
                 ["REL-DE-UKC18-001", "REL-DE-UKC18-002", "REL-DE-UKC18-003"],
             "piatto-verfassungsschutz-justiz-npd-nsu-1994-2000.md":
@@ -1220,7 +1221,10 @@ class ResearchIntegrationTests(unittest.TestCase):
         )["relations"]}
         self.assertIn("vorläufigen Rückumsetzung", rels["REL-DE-NSU-OVG-BFV-RUECKUMSETZUNG-2013-001"]["label"])
         self.assertIn("keine Entscheidung zur materiellen Berechtigung", rels["REL-DE-NSU-VGD-BFV-DISZIPLINAR-2015-001"]["label"])
-        self.assertIn("tatsächliche Vorlage offen", rels["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]["label"])
+        self.assertIn("Unterlageneingang 13.12.2016 registriert", rels["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]["label"])
+        self.assertIn("Vollständigkeit offen", rels["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]["label"])
+        self.assertEqual(rels["REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001"]["period"]["start"], "2016-12-13")
+        self.assertIn("Vollständigkeit und Inhalt offen", rels["REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001"]["label"])
 
     def test_nsu_and_amri_use_shared_modern_authority_identities(self):
         root = coverage.ROOT

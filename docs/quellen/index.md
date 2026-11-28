@@ -2515,7 +2515,7 @@ Deutscher Bundestag · 2017-06-23 · Stufe **A** · Primärquelle · `SRC-DE-BT-
 
 [PDF öffnen](https://dserver.bundestag.de/btd/18/129/1812950.pdf)
 
-Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)
+Fundstelle: Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1507, 1537 (A-Drs. 978, 1096), 1762–1764 (NW-33 bis NW-35, Eingang/MAT)
 
 </article>
 

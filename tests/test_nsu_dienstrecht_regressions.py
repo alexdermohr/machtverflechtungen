@@ -50,5 +50,17 @@ class NsuDienstrechtTests(unittest.TestCase):
         self.assertIn("Gegenindiz", text)
 
 
+    def test_registered_receipt_is_not_full_production(self):
+        rows = {r["id"]: r for r in yaml.safe_load((ROOT / "data/relations.yml").read_text())["relations"]}
+        req = rows["REL-DE-NSU-BT-NRW-GERICHTSAKTEN-2016-001"]
+        receipt = rows["REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001"]
+        self.assertEqual(str(req["period"]["start"]), "2016-10-20")
+        self.assertEqual(str(receipt["period"]["start"]), "2016-12-13")
+        self.assertIn("Vollständigkeit offen", req["label"])
+        self.assertIn("Vollständigkeit und Inhalt offen", receipt["label"])
+        self.assertIn("116/17 VS-V", receipt["label"])
+        self.assertEqual(receipt["sources"], ["SRC-DE-BT-NSU-1812950-2017"])
+
+
 if __name__ == "__main__":
     unittest.main()

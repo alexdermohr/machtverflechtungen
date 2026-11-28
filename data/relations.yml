@@ -8374,10 +8374,10 @@ relations:
     from: ORG-DE-BT-NSU-UA2-2015-2017
     to: ORG-DE-NRW-JUSTIZMINISTERIUM
     type: requested_court_records
-    label: "Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"
+    label: "Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; Unterlageneingang 13.12.2016 registriert, Vollständigkeit offen"
     period: {start: "2016-10-20"}
     evidence_level: established
-    sources: [SRC-DE-BT-NSU-NW35-20161020]
+    sources: [SRC-DE-BT-NSU-NW35-20161020, SRC-DE-BT-NSU-1812950-2017]
 
   - id: REL-DE-NSU-VGK-BFV-DOPPELSPITZE-2015-001
     from: ORG-DE-VG-KOELN
@@ -8396,3 +8396,12 @@ relations:
     period: {start: "2015-02-09"}
     evidence_level: established
     sources: [SRC-DE-VGK-NSU-15K345814-20150209]
+
+  - id: REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001
+    from: ORG-DE-NRW-JUSTIZMINISTERIUM
+    to: ORG-DE-BT-NSU-UA2-2015-2017
+    type: registered_records_receipt
+    label: "Unterlageneingänge NW-33 (Strafakten) und NW-35 (Gerichtsakten) am 13.12.2016 registriert; beide mit Tgb.-Nr. 116/17 VS-V, Vollständigkeit und Inhalt offen"
+    period: {start: "2016-12-13"}
+    evidence_level: established
+    sources: [SRC-DE-BT-NSU-1812950-2017]

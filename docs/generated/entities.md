@@ -470,7 +470,7 @@
 | Metromed (historisch, 1996) | company | `ORG-CO-METROMED-1996` | CO | [1](network.md#rel-mauss-pmt-002) |
 | Metroprojekt Medellín | infrastructure_project | `ORG-CO-METRO-MEDELLIN` | CO | [1](network.md#rel-mauss-offshore-013) |
 | Militärischer Abschirmdienst | intelligence_service | `ORG-DE-MAD` | DE | [4](network.md#rel-de-nsu-mad-bfv-1999-001) |
-| Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
+| Ministerium der Justiz Nordrhein-Westfalen | government_ministry | `ORG-DE-NRW-JUSTIZMINISTERIUM` | DE | [2](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Ministerium für Staatssicherheit (MfS) | intelligence_service | `ORG-DE-MFS` | DE | – |
 | Ministry of Defence of Ukraine | government_agency | `ORG-UA-MINDEF` | UA | [1](network.md#rel-ua-mod-palantir-brave1-2026) |
 | Ministério Público Federal (Brasilien) | prosecution_authority | `ORG-BR-MPF` | BR | [1](network.md#rel-ws-cpi-mpf) |
@@ -658,7 +658,7 @@
 | World Health Organization (WHO) | international_organization | `ORG-INT-WHO` |  | [1](network.md#rel-riggs-post-2004-057) |
 | ZDF | public_broadcaster | `ORG-DE-ZDF` | DE | [2](network.md#rel-de-tmn-022) |
 | ZEIT-Stiftung Ebelin und Gerd Bucerius (Förderbericht 1991) | charitable_foundation | `ORG-DE-ZEIT-STIFTUNG-1991` | DE | [1](network.md#rel-de-ab-jour-zeit-1991-001) |
-| Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode) | parliamentary_committee | `ORG-DE-BT-NSU-UA2-2015-2017` | DE | [1](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
+| Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode) | parliamentary_committee | `ORG-DE-BT-NSU-UA2-2015-2017` | DE | [2](network.md#rel-de-nsu-bt-nrw-gerichtsakten-2016-001) |
 | Österreichische Botschaft Bogotá | government_agency | `ORG-AT-BOTSCHAFT-BOGOTA` | AT, CO | [1](network.md#rel-mauss-diplomatie-007) |
 
 ## Programme

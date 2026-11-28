@@ -42,5 +42,5 @@ Das Urteil 15 K 3458/14 berichtet in Rn. 17 die Behauptung des Klägers, ein geg
 
 1. Originalentscheidung 15 L 1012/12 und vollständige Akten der Kölner Verfahren 15 K 7068/13 und 15 K 3458/14 einschließlich etwaiger Rechtsmittelakten und Rechtskraftvermerke.
 2. Verwaltungsvorlage vom 25.09.2013, Bericht des BfV an das BMI vom 24.10.2013, Vermerk desselben Datums und Widerspruchsbescheid vom 10.07.2014. Vergleich mit zeitnahen Entscheidungsbegründungen und tatsächlicher Aufgabenverteilung.
-3. Beiziehungslisten zu NW-35; die ausdrücklich angeforderten Eilverfahren sind nicht ohne weitere Evidenz mit den beiden späteren Hauptsacheverfahren gleichzusetzen.
+3. Übergabeschreiben und Einzelinventar zu MAT A NW-35 (Eingang am 13.12.2016 laut BT-Drs. 18/12950, S. 1763–1764, Tgb.-Nr. 116/17 VS-V), sowie A-Drs. 1096 (S. 1537: vorläufige Einstufung am 09.03.2017). Die registrierte Vorlage belegt weder vollständige Akten noch die Aufnahme der beiden späteren Hauptsacheverfahren. Die amtliche Textfassung wurde am 28.11.2026 ausgewertet; der Seitenbildabruf scheiterte am Cache-Miss. Siehe SRC-DE-BT-NSU-1812950-2017 und REL-DE-NSU-NRW-BT-AKTENEINGANG-2016-001.
 4. Einstellungsverfügung des behaupteten Disziplinarverfahrens gegen den Referatsgruppenleiter, etwaige weitere personalrechtliche Konsequenzen und dokumentierte Auswirkungen auf Aufklärung und Quellenführung.

@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**904 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**905 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1576,10 +1576,11 @@ flowchart LR
     N_ORG_DE_VG_DUESSELDORF -->|"Hob am 01.07.2015 die Geldbuße gegen früheren Abteilungsleiter wegen inzwischen eingetretenen Ruhestands auf; keine Entscheidung zur materiellen Berechtigung des Vorwurfs"| N_ORG_DE_BFV
     N_ORG_DE_BT_NSU_UA2_2015_2017["Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode)"]
     N_ORG_DE_NRW_JUSTIZMINISTERIUM["Ministerium der Justiz Nordrhein-Westfalen"]
-    N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"| N_ORG_DE_NRW_JUSTIZMINISTERIUM
+    N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; Unterlageneingang 13.12.2016 registriert, Vollständigkeit offen"| N_ORG_DE_NRW_JUSTIZMINISTERIUM
     N_ORG_DE_VG_KOELN["Verwaltungsgericht Köln"]
     N_ORG_DE_VG_KOELN -->|"Stellte am 09.02.2015 die formelle und materielle Rechtswidrigkeit der eingeschränkten Rückumsetzung vom 26.07.2013 fest; Rechtskraft offen"| N_ORG_DE_BFV
     N_ORG_DE_VG_KOELN -->|"Wies am 09.02.2015 die Klage gegen die andere alleinige Referatsgruppenleitung vom 25.11.2013 ab; sachliche Gründe anerkannt, Rechtskraft offen"| N_ORG_DE_BFV
+    N_ORG_DE_NRW_JUSTIZMINISTERIUM -->|"Unterlageneingänge NW-33 (Strafakten) und NW-35 (Gerichtsakten) am 13.12.2016 registriert; beide mit Tgb.-Nr. 116/17 VS-V, Vollständigkeit und Inhalt offen"| N_ORG_DE_BT_NSU_UA2_2015_2017
 ```
 
 [Zur Relationstabelle](network.md)

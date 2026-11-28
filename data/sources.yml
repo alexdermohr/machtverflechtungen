@@ -6677,8 +6677,8 @@ sources:
   tier: A
   url: https://dserver.bundestag.de/btd/18/129/1812950.pdf
   accessed: '2026-11-26'
-  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht)"
-  notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften."
+  locator: "Gedruckte S. 307, 331–333; Fn. 802, 910–913, 920; S. 1264–1265, 1277 Fn. 3694 (Sondervotum DIE LINKE, getrennt vom Hauptbericht); S. 1507, 1537 (A-Drs. 978, 1096), 1762–1764 (NW-33 bis NW-35, Eingang/MAT)"
+  notes: "Amtliche Textfassung; Faksimile-Abgleich wegen Dateigröße offen. Zitiert frühere Ausschuss- und Gerichtsunterlagen, keine direkte Einsicht in die Urschriften. Anlagenverzeichnis am 28.11.2026 im amtlichen Text ausgewertet, Seitenbildabrufe Cache-Miss; registrierter Eingang belegt keine vollständige Vorlage."
 
 - id: SRC-DE-BT-NSU-1714600-MELDEWEGE-2013
   title: "Erster NSU-Untersuchungsausschuss: Meldewege, frühe GBA-Prüfung und Gefahrenanalyse, BT-Drs. 17/14600"
@@ -6947,7 +6947,7 @@ sources:
   url: https://www.bundestag.de/resource/blob/488394/NW-35.pdf
   accessed: '2026-11-27'
   locator: "34. Sitzung, Beweisbeschluss NW-35, S. 1"
-  notes: "Amtliche Textfassung, Bildabruf Cache-Miss; Beiziehungsbeschluss belegt keine tatsächliche Vorlage."
+  notes: "Amtliche Textfassung, Bildabruf Cache-Miss; Beiziehungsbeschluss allein belegt keine tatsächliche Vorlage; Eingang ergänzend dokumentiert in SRC-DE-BT-NSU-1812950-2017, S. 1763–1764."
 
 - id: SRC-DE-VGK-NSU-15K706813-20150209
   title: "VG Köln, Urteil 09.02.2015, 15 K 7068/13"
