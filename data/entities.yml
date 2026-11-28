@@ -3737,3 +3737,30 @@ entities:
     type: government_ministry
     name: Ministerium der Justiz Nordrhein-Westfalen
     countries: [DE]
+
+  - id: ORG-DE-HH-BIS
+    type: government_ministry
+    name: "Behörde für Inneres und Sport Hamburg"
+    countries: [DE]
+  - id: ORG-DE-HH-LFV
+    type: intelligence_service
+    name: "Landesamt für Verfassungsschutz Hamburg"
+    countries: [DE]
+  - id: ORG-DE-HH-POLIZEI
+    type: law_enforcement
+    name: "Polizei Hamburg"
+    countries: [DE]
+  - id: ORG-DE-HH-STA
+    type: prosecution_authority
+    name: "Hamburger Staatsanwaltschaften"
+    countries: [DE]
+  - id: DOC-DE-NSU-HH-LFV-AKTEN-2017
+    type: document
+    name: "Nach dem Hamburger LfV-Löschmoratorium betroffene Unterlagen"
+    countries: [DE]
+    notes: "Laut Senatsantwort betraf die Löschung auch zuvor nicht an die genannten Ausschüsse oder den GBA übermittelte Unterlagen; Umfang, Einzelzeitpunkte und Kopienbestand offen."
+  - id: DOC-DE-NSU-HH-POL-AKTEN-2017
+    type: document
+    name: "Nach dem Hamburger Polizeimoratorium vernichtete Unterlagen"
+    countries: [DE]
+    notes: "Laut Senatsantwort nach Fristablauf vernichtete Unterlagen; frühere Übermittlungen, Einzelinhalte und Kopienbestand nicht durch diese Antwort geklärt."

@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**611 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**612 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-nsu-akten-2210312) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-de-taz-nsu-hh-20261123) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -3789,6 +3789,21 @@ Gesellschaft für Sicherheitspolitik e.V. · current · Stufe **B** · Primärqu
 [Seite öffnen](https://www.gsp-sipo.de/wir-ueber-uns/willkommen-1)
 
 Fundstelle: Selbstdarstellung zur Geschichte der Gesellschaft für Wehrkunde
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2022">
+
+<a id="src-de-hh-nsu-akten-2210312"></a>
+### Hamburgische Bürgerschaft
+
+**[Bundesweites Archiv zum Rechtsterrorismus und die Hamburger Aktenlage zum NSU](https://www.buergerschaft-hh.de/parldok/dokument/82098/bundesweites_archiv_zum_rechtsterrorismus_und_die_hamburger_aktenlage_zum_nsu.pdf)**
+
+Hamburgische Bürgerschaft · 2022-12-09 · Stufe **A** · Primärquelle · `SRC-DE-HH-NSU-AKTEN-2210312`
+
+[PDF öffnen](https://www.buergerschaft-hh.de/parldok/dokument/82098/bundesweites_archiv_zum_rechtsterrorismus_und_die_hamburger_aktenlage_zum_nsu.pdf)
+
+Fundstelle: Drs. 22/10312, S. 2–4, Antworten 5–14 (insbesondere 5–7, 9–12, 14)
 
 </article>
 

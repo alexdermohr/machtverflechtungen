@@ -1,6 +1,6 @@
 # Netzwerkdiagramm
 
-**902 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
+**907 Beziehungen** als grafische Gesamtübersicht. Die [alphabetische Relationstabelle](network.md) zeigt zusätzlich Evidenzstufen und Quellen.
 
 ## Direkte Verbindungen im Fokus
 
@@ -1577,6 +1577,17 @@ flowchart LR
     N_ORG_DE_BT_NSU_UA2_2015_2017["Zweiter NSU-Untersuchungsausschuss des Bundestages (18. Wahlperiode)"]
     N_ORG_DE_NRW_JUSTIZMINISTERIUM["Ministerium der Justiz Nordrhein-Westfalen"]
     N_ORG_DE_BT_NSU_UA2_2015_2017 -->|"Forderte mit Beweisbeschluss NW-35 vom 20.10.2016 vier vollständige Gerichtsakten im Amtshilfeweg an; tatsächliche Vorlage offen"| N_ORG_DE_NRW_JUSTIZMINISTERIUM
+    N_ORG_DE_HH_BIS["Behörde für Inneres und Sport Hamburg"]
+    N_ORG_DE_HH_LFV["Landesamt für Verfassungsschutz Hamburg"]
+    N_ORG_DE_HH_BIS -->|"2012 verfügtes Moratorium endete laut Senat Dezember 2017; Aufhebungsurheber im Dokument nicht benannt"| N_ORG_DE_HH_LFV
+    N_DOC_DE_NSU_HH_LFV_AKTEN_2017["Nach dem Hamburger LfV-Löschmoratorium betroffene Unterlagen"]
+    N_ORG_DE_HH_LFV -->|"Senat bestätigt Löschungen nach Moratorium auch nicht zuvor an genannte Ausschüsse oder GBA überlassener Unterlagen; Umfang und Kopien offen"| N_DOC_DE_NSU_HH_LFV_AKTEN_2017
+    N_ORG_DE_HH_POLIZEI["Polizei Hamburg"]
+    N_ORG_DE_HH_BIS -->|"Aufhebung des Polizeimoratoriums durch den damaligen Staatsrat für Inneres laut Senatsantwort"| N_ORG_DE_HH_POLIZEI
+    N_DOC_DE_NSU_HH_POL_AKTEN_2017["Nach dem Hamburger Polizeimoratorium vernichtete Unterlagen"]
+    N_ORG_DE_HH_POLIZEI -->|"Laut Senat nach Aufhebung am 07.12.2017 betroffene Unterlagen nach Fristablauf vernichtet; vorherige Übermittlung offen"| N_DOC_DE_NSU_HH_POL_AKTEN_2017
+    N_ORG_DE_HH_STA["Hamburger Staatsanwaltschaften"]
+    N_ORG_DE_HH_STA -->|"Laut Senat Verfahren an GBA abgegeben, Akten bis Antwort 09.12.2022 nicht zurückgegeben; Übernahmedatum hier nicht belegt"| N_ORG_DE_GBA
 ```
 
 [Zur Relationstabelle](network.md)

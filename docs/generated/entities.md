@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**662 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**668 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -245,6 +245,7 @@
 | BDO AG Wirtschaftsprüfungsgesellschaft | company | `ORG-DE-BDO-AG` | DE | [1](network.md#rel-ulf-tk-bdo-special-audit) |
 | Beautiful Vision, Inc. (2004–2005) | company | `ORG-US-BEAUTIFUL-VISION-INC-2004` | US | [2](network.md#rel-riggs-post-2004-026) |
 | Bechtel Corporation (1992–1996) | historical_company | `ORG-US-BECHTEL-1992` | US | [2](network.md#rel-ws-bechtel-osac) |
+| Behörde für Inneres und Sport Hamburg | government_ministry | `ORG-DE-HH-BIS` | DE | [2](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
 | Berliner Senatsverwaltung für Justiz | government_agency | `ORG-DE-BERLIN-JUSTIZSENAT` | DE | [1](network.md#rel-raf-schmuecker-nonne-006) |
 | Bertelsmann Stiftung (Sponsor 2008/09) | charitable_foundation | `ORG-DE-BERTELSMANN-STIFTUNG-2008` | DE | [1](network.md#rel-de-ab-bertelsmann-sponsor-2009-001) |
 | Bethlehem Steel (Chile-Eisenerzinteressen 1971) | historical_industrial_corporation | `ORG-US-BETHLEHEM-STEEL-1971` | US, CL | [3](network.md#rel-cl-cap-bethlehem-acquisition-1971) |
@@ -396,7 +397,7 @@
 | Fundação Aplicações de Tecnologias Críticas (ATECH) | historical_foundation | `ORG-BR-ATECH-FOUNDATION` | BR | [2](network.md#rel-ws-atech-sivam) |
 | Fussilet 33 e.V. (Berliner Fussilet-Moschee) | association | `ORG-DE-FUSSILET-MOSCHEE` | DE | [1](network.md#rel-de-amri-017) |
 | General Aniline & Film Corporation (GAF, historisch) | chemical_company | `ORG-US-GAF-HISTORIC` | US | [1](network.md#rel-us-igf-008) |
-| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [14](network.md#rel-raf-schmuecker-nonne-008) |
+| Generalbundesanwalt beim Bundesgerichtshof | prosecution_authority | `ORG-DE-GBA` | DE | [15](network.md#rel-raf-schmuecker-nonne-008) |
 | Generalstaatsanwaltschaft Berlin | prosecution_authority | `ORG-DE-GENSTA-BERLIN` | DE | [2](network.md#rel-de-amri-011) |
 | Generalstaatsanwaltschaft Frankfurt am Main (1952–1953) | prosecution_authority | `ORG-DE-FRANKFURT-GSTA` | DE | [1](network.md#rel-de-bdj-014) |
 | GEOGAM (2004) | company | `ORG-GQ-GEOGAM` | GQ | [2](network.md#rel-riggs-followup-058) |
@@ -409,6 +410,7 @@
 | H.+S. Unternehmensberatung (München, 2002) | historical_company | `ORG-DE-HS-2002` | DE | [3](network.md#rel-de-marienhof-001) |
 | Hamburger Finanzverwaltung | tax_administration | `ORG-DE-HH-FINANZVERWALTUNG` | DE | [1](network.md#rel-de-cumex-001) |
 | Hamburger Forschungsprojekt zur Aufarbeitung des NSU-Komplexes | research_project | `PRG-DE-HH-NSU-FORSCHUNG` | DE | [1](network.md#rel-de-nsu-hh-gba-2026-001) |
+| Hamburger Staatsanwaltschaften | prosecution_authority | `ORG-DE-HH-STA` | DE | [1](network.md#rel-de-nsu-hh-sta-gba-akten-001) |
 | Handelsblatt | media_outlet | `ORG-DE-HANDELSBLATT` | DE | [2](network.md#rel-de-tmn-011) |
 | Hertfordshire Constabulary | government_agency | `ORG-GB-HERTFORDSHIRE-POLICE` | GB | [1](network.md#rel-gb-bb-uk-002) |
 | Hessische Landesregierung | state_government | `ORG-DE-HE-LANDESREGIERUNG` | DE | [1](network.md#rel-de-bdj-009) |
@@ -447,6 +449,7 @@
 | Kultur + Werbung (K+W, 2002–2005) | historical_company | `ORG-DE-KW-2002` | DE | [2](network.md#rel-de-marienhof-003) |
 | La Centrale Finanziaria S.p.A. (Mailand) | finance_company | `ORG-IT-LA-CENTRALE-FINANZIARIA-SPA` | IT | [3](network.md#rel-it-ambrosiano-la-centrale-1978-001) |
 | Landesamt für Verfassungsschutz Brandenburg | intelligence_service | `ORG-DE-LFV-BRANDENBURG` | DE | [2](network.md#rel-de-ukc18-001) |
+| Landesamt für Verfassungsschutz Hamburg | intelligence_service | `ORG-DE-HH-LFV` | DE | [2](network.md#rel-de-nsu-hh-bis-lfv-moratorium-2017-001) |
 | Landesamt für Verfassungsschutz Hessen | intelligence_service | `ORG-DE-LFV-HESSEN` | DE | [5](network.md#rel-de-nsu-yoz-001) |
 | Landeskriminalamt Berlin | police_authority | `ORG-DE-LKA-BERLIN` | DE | [5](network.md#rel-de-amri-011) |
 | Landeskriminalamt Niedersachsen | criminal_investigation_agency | `ORG-DE-LKA-NIEDERSACHSEN` | DE | [1](network.md#rel-mauss-finanz-009) |
@@ -480,6 +483,8 @@
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
 | Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
+| Nach dem Hamburger LfV-Löschmoratorium betroffene Unterlagen | document | `DOC-DE-NSU-HH-LFV-AKTEN-2017` | DE | [1](network.md#rel-de-nsu-hh-lfv-akten-2017-001) |
+| Nach dem Hamburger Polizeimoratorium vernichtete Unterlagen | document | `DOC-DE-NSU-HH-POL-AKTEN-2017` | DE | [1](network.md#rel-de-nsu-hh-pol-akten-2017-001) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
 | National Security Agency (NSA) | government_agency | `ORG-US-NSA` | US | [1](network.md#rel-ws-nsa-osac) |
@@ -524,6 +529,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
+| Polizei Hamburg | law_enforcement | `ORG-DE-HH-POLIZEI` | DE | [2](network.md#rel-de-nsu-hh-bis-pol-moratorium-2017-001) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
 | Procura Generale della Repubblica Bologna (2024) | judicial_prosecution_office | `ORG-IT-PROCURA-GENERALE-BOLOGNA-2024` | IT | [2](network.md#rel-it-bologna-pg-gelli-2024-001) |

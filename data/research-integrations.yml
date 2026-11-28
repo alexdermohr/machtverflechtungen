@@ -1319,3 +1319,14 @@ studies:
     status: network
     relation_ids:
       - REL-DE-NSU-HH-GBA-2026-001
+
+  nsu-hamburg-aktenmoratorium-2012-2022.md:
+    sha256: 7a111c5c66021b0719f6f107a8e2e11cc3904b93a757b8857d23d4b5ca37aeb0
+    status: network
+    relation_ids:
+      - REL-DE-NSU-HH-BIS-LFV-MORATORIUM-2017-001
+      - REL-DE-NSU-HH-LFV-AKTEN-2017-001
+      - REL-DE-NSU-HH-BIS-POL-MORATORIUM-2017-001
+      - REL-DE-NSU-HH-POL-AKTEN-2017-001
+      - REL-DE-NSU-HH-STA-GBA-AKTEN-001
+      - REL-DE-NSU-HH-GBA-2026-001

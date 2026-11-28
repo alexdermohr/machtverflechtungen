@@ -6948,3 +6948,15 @@ sources:
   accessed: '2026-11-27'
   locator: "34. Sitzung, Beweisbeschluss NW-35, S. 1"
   notes: "Amtliche Textfassung, Bildabruf Cache-Miss; Beiziehungsbeschluss belegt keine tatsächliche Vorlage."
+
+- id: SRC-DE-HH-NSU-AKTEN-2210312
+  title: "Bundesweites Archiv zum Rechtsterrorismus und die Hamburger Aktenlage zum NSU"
+  institution: Hamburgische Bürgerschaft
+  date: '2022-12-09'
+  type: parliamentary_inquiry
+  primary: true
+  tier: A
+  url: https://www.buergerschaft-hh.de/parldok/dokument/82098/bundesweites_archiv_zum_rechtsterrorismus_und_die_hamburger_aktenlage_zum_nsu.pdf
+  accessed: '2026-11-28'
+  locator: "Drs. 22/10312, S. 2–4, Antworten 5–14 (insbesondere 5–7, 9–12, 14)"
+  notes: "Amtlicher PDF-Volltext; Seitenbildabruf Cache-Miss. Senatsdarstellung, keine Einsicht in Originalverfügungen, Löschprotokolle oder vollständigen Aktenbestand."

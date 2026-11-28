@@ -8378,3 +8378,41 @@ relations:
     period: {start: "2016-10-20"}
     evidence_level: established
     sources: [SRC-DE-BT-NSU-NW35-20161020]
+
+  - id: REL-DE-NSU-HH-BIS-LFV-MORATORIUM-2017-001
+    from: ORG-DE-HH-BIS
+    to: ORG-DE-HH-LFV
+    type: ordered_records_preservation
+    label: "2012 verfügtes Moratorium endete laut Senat Dezember 2017; Aufhebungsurheber im Dokument nicht benannt"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+  - id: REL-DE-NSU-HH-LFV-AKTEN-2017-001
+    from: ORG-DE-HH-LFV
+    to: DOC-DE-NSU-HH-LFV-AKTEN-2017
+    type: destroyed_records
+    label: "Senat bestätigt Löschungen nach Moratorium auch nicht zuvor an genannte Ausschüsse oder GBA überlassener Unterlagen; Umfang und Kopien offen"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+  - id: REL-DE-NSU-HH-BIS-POL-MORATORIUM-2017-001
+    from: ORG-DE-HH-BIS
+    to: ORG-DE-HH-POLIZEI
+    type: lifted_records_preservation_moratorium
+    label: "Aufhebung des Polizeimoratoriums durch den damaligen Staatsrat für Inneres laut Senatsantwort"
+    period:
+      start: "2017-12-07"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+  - id: REL-DE-NSU-HH-POL-AKTEN-2017-001
+    from: ORG-DE-HH-POLIZEI
+    to: DOC-DE-NSU-HH-POL-AKTEN-2017
+    type: destroyed_records
+    label: "Laut Senat nach Aufhebung am 07.12.2017 betroffene Unterlagen nach Fristablauf vernichtet; vorherige Übermittlung offen"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
+  - id: REL-DE-NSU-HH-STA-GBA-AKTEN-001
+    from: ORG-DE-HH-STA
+    to: ORG-DE-GBA
+    type: transferred_case_records
+    label: "Laut Senat Verfahren an GBA abgegeben, Akten bis Antwort 09.12.2022 nicht zurückgegeben; Übernahmedatum hier nicht belegt"
+    evidence_level: established
+    sources: [SRC-DE-HH-NSU-AKTEN-2210312]
