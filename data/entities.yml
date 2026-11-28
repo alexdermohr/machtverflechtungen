@@ -3612,6 +3612,17 @@ entities:
     countries: [FR]
     notes: "Zeitbezogener Rollenknoten für den 2005 von der RNEC als Sagem bezeichneten Rechteinhaber; weder die konkrete juristische Kontinuität zum Vertragspartner 1997 noch Identität mit dem Consorcio Sagem vorausgesetzt."
 
+  - {"id": "PER-DE-UWE-BARSCHEL", "type": "person", "name": "Uwe Barschel", "countries": ["DE"], "notes": "Aktengegenstand; kein Nachweis einer Nachrichtendiensttätigkeit."}
+  - {"id": "ORG-DE-LFV-SH", "type": "intelligence_service", "name": "Landesamt für Verfassungsschutz Schleswig-Holstein", "countries": ["DE"], "notes": "Institution 1993 laut BT-Drs. 12/5557."}
+  - {"id": "ORG-DE-SH-INNENMINISTERIUM-1993", "type": "government_ministry", "name": "Innenministerium Schleswig-Holstein (1993)", "countries": ["DE"], "notes": "Weiterleitung an GBA nach Regierungsantwort."}
+  - {"id": "ORG-DE-BMJ-1993", "type": "government_ministry", "name": "Bundesministerium der Justiz (1993)", "countries": ["DE"], "notes": "Zeitbezogener Akteur."}
+  - {"id": "ORG-DE-SH-LT-UA-1993", "type": "parliamentary_committee", "name": "1. Untersuchungsausschuss des SH-Landtags (13. Wahlperiode)", "countries": ["DE"], "notes": "Empfänger von Protokollteilen am 20.07.1993."}
+  - {"id": "ORG-INT-UNBENANNTER-DIENST-BARSCHEL-1990", "type": "intelligence_service", "name": "Unbenannter ausländischer Nachrichtendienst (BfV-Akten 1990)", "countries": [], "notes": "Ausschließlich Empfang von MfS-Dokumenten laut BVerwG Rn. 48; keine Identifizierung."}
+  - {"id": "ORG-DE-STA-LUEBECK", "type": "prosecution_authority", "name": "Staatsanwaltschaft Lübeck", "countries": ["DE"], "notes": "Ermittlungs- und Prüfzuständigkeit im Barschel-Komplex."}
+  - {"id": "ORG-DE-STA-MUENCHEN-I", "type": "prosecution_authority", "name": "Staatsanwaltschaft München I", "countries": ["DE"], "notes": "Verfahrensbehandlung 2024 laut BayLT-Drs. 19/8775."}
+  - {"id": "ORG-DE-BAY-STAATSKANZLEI", "type": "government_agency", "name": "Bayerische Staatskanzlei", "countries": ["DE"], "notes": "Eingabeweiterleitung; keine persönliche Kenntnis eines Amtsträgers daraus."}
+  - {"id": "ORG-DE-BAY-JUSTIZMINISTERIUM", "type": "government_ministry", "name": "Bayerisches Staatsministerium der Justiz", "countries": ["DE"], "notes": "Weiterleitungs- und Auskunftsvorgänge laut BayLT-Drs. 19/8775."}
+
   - id: ORG-DE-DEUTSCHE-BANK-1989
     type: commercial_bank
     name: Deutsche Bank (1987–1989)
@@ -3685,7 +3696,6 @@ entities:
     countries:
     - DE
     notes: Nachfolger Herrhausens als Vorstandssprecher.
-
   - id: ORG-DE-AUSWAERTIGES-AMT-1986
     type: government_ministry
     name: Auswärtiges Amt (Schuldenpolitik 1986)
@@ -3724,7 +3734,6 @@ entities:
     - PL
     notes: Verhandlungskollektiv der privaten Gläubiger; kein eigenständiger globaler Konzern, keine individualisierte Zuordnung
       der Anleiheoptionen.
-
   - id: ORG-DE-DRESDNER-BANK-1993
     type: commercial_bank
     name: Dresdner Bank (Polen-Verhandlungen 1993–1994)
