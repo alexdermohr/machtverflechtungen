@@ -1,6 +1,6 @@
 # Personen & Organisationen
 
-**652 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
+**658 Einträge** · Alphabetisch innerhalb der Kategorien geordnet. Die Zahl in der Spalte Beziehungen führt zur ersten dokumentierten Relation in der [quellengebundenen Netzwerkübersicht](network.md).
 
 ## Personen
 
@@ -9,7 +9,7 @@
 | Alexander Karp | person | `PER-US-ALEXANDER-KARP` | US | [1](network.md#rel-us-bbf-006) |
 | Alexander von Stahl | person | `PER-DE-ALEXANDER-VON-STAHL` | DE | [3](network.md#rel-raf-schmuecker-nonne-006) |
 | Alexander Wilke | person | `PER-DE-ALEXANDER-WILKE` | DE | [1](network.md#rel-ulf-tk-wilke) |
-| Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [5](network.md#rel-raf-schmuecker-nonne-020) |
+| Alfred Herrhausen | person | `PER-DE-ALFRED-HERRHAUSEN` | DE | [6](network.md#rel-raf-schmuecker-nonne-020) |
 | Ali Fallahian | person | `PER-IR-ALI-FALLAHIAN` | IR | [1](network.md#rel-ulf-fallahian-schmidbauer) |
 | Andreas Temme | person | `PER-DE-ANDREAS-TEMME` | DE | [1](network.md#rel-de-nsu-yoz-001) |
 | Angelo Rizzoli (1943–2013) | person | `PER-IT-ANGELO-RIZZOLI` | IT | [3](network.md#rel-it-rizzoli-angelo-1980-001) |
@@ -210,6 +210,7 @@
 | Auswärtiges Amt (1966) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-005) |
 | Auswärtiges Amt (1989) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1989` | DE | [1](network.md#rel-de-herrhausen-fin-005) |
 | Auswärtiges Amt (historisch, 1995–1996) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1996` | DE | [3](network.md#rel-mauss-diplomatie-005) |
+| Auswärtiges Amt (Schuldenpolitik 1986) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-1986` | DE | [1](network.md#rel-de-herrhausen-fin-010) |
 | Auswärtiges Amt (Sponsor 2008/09) | government_ministry | `ORG-DE-AUSWAERTIGES-AMT-2008` | DE | [1](network.md#rel-de-ab-aa-sponsor-2009-001) |
 | Axel Springer SE | media_company | `ORG-DE-AXEL-SPRINGER` | DE | [6](network.md#rel-de-tmn-002) |
 | Axel-Springer-Stimmrechtspool (2012, 52.826.967 Aktien) | historical_voting_agreement_document | `DOC-DE-SPRINGER-VOTING-POOL-2012` | DE | [3](network.md#rel-de-doepfner-springer-pool-2012-001) |
@@ -433,6 +434,7 @@
 | International Telephone and Telegraph (ITT; 1970) | historical_multinational_corporation | `ORG-US-ITT-1970` | US, CL | [8](network.md#rel-us-mccone-itt-board-1970) |
 | Internationale Reserve (Mauss, behauptete Treuhandkonstruktion 1985) | fund | `ORG-INT-MAUSS-RESERVE-1985` |  | [7](network.md#rel-mauss-offshore-001) |
 | Internationaler Gerichtshof (IGH) | court | `ORG-INT-INTERNATIONAL-COURT-OF-JUSTICE` | NL | [1](network.md#rel-riggs-post-2004-045) |
+| Internationaler Währungsfonds (Polen 1994) | international_organization | `ORG-INT-IMF-1994` | US | [1](network.md#rel-de-herrhausen-fin-012) |
 | Italienisches Außenministerium (Ministero degli Affari Esteri, 1982) | government_agency | `ORG-IT-MAE-1982` | IT | [1](network.md#rel-it-sieg-consul-1982-001) |
 | Jadini Holdings Ltd. | company | `ORG-INT-JADINI-HOLDINGS` | VG | [1](network.md#rel-riggs-followup-044) |
 | Joachim Herz Stiftung | foundation | `ORG-DE-JOACHIM-HERZ-STIFTUNG` | DE | [1](network.md#rel-de-jhs-ab-newbridge-2026) |
@@ -456,6 +458,7 @@
 | Libysches Volksbüro (Ost-Berlin) | diplomatic_mission | `ORG-LY-VOLKSBUREAU-OSTBERLIN` | DE, LY | – |
 | Lloyd's of London (OPIC-Rückversicherung 1976) | private_insurance_market_historical | `ORG-GB-LLOYDS-LONDON-1976` | GB | [2](network.md#rel-us-opic-lloyds-reinsurance-1976) |
 | Loggia massonica Propaganda 2 (P2, historisch) | historical_masonic_lodge | `ORG-IT-LOGGIA-P2-1970-1981` | IT | [3](network.md#rel-it-p2-gelli-1981-001) |
+| Londoner Club: private Gläubiger Polens (1994) | historical_commercial_bank_cohort | `ORG-PL-LONDON-CLUB-1994` | PL | [1](network.md#rel-de-herrhausen-fin-014) |
 | M. M. Warburg & CO | bank | `ORG-DE-MM-WARBURG` | DE | [9](network.md#rel-de-cumex-001) |
 | M.M.Warburg & CO Gruppe GmbH (Eigentumsstand im EuG-Verfahren 2023) | financial_holding | `ORG-DE-WARBURG-GRUPPE-2023` | DE | [3](network.md#rel-de-warburg-mwb1-gruppe-2023-001) |
 | M.M.Warburg & CO Hypothekenbank AG (historische Beteiligung 2023) | historical_bank | `ORG-DE-WARBURG-HYPO-2023` | DE | [1](network.md#rel-de-warburg-bank-hypo-2023-001) |
@@ -477,6 +480,7 @@
 | Mobil International Petroleum Corporation (1998) | oil_company | `ORG-US-MOBIL-INTERNATIONAL-PETROLEUM` | US | [1](network.md#rel-riggs-followup-050) |
 | MOGE (Gemeinschaftsunternehmen, 1998) | joint_venture | `ORG-GQ-MOGE-JOINT-VENTURE` | GQ | [4](network.md#rel-riggs-followup-050) |
 | Mossack Fonseca | law_firm | `ORG-PA-MOSSACK-FONSECA` | PA | [3](network.md#rel-mauss-offshore-018) |
+| Narodowy Bank Polski (1994) | central_bank | `ORG-PL-NBP-1994` | PL | [1](network.md#rel-de-herrhausen-fin-013) |
 | National Counterintelligence Center (NACIC, 1994) | historical_government_agency | `ORG-US-NACIC-1994` | US | [1](network.md#rel-ws-nacic-osac) |
 | National Forum Foundation | foundation | `ORG-US-NATIONAL-FORUM-FOUNDATION` | US | [1](network.md#rel-ulf-gmf-nff) |
 | National Security Agency (NSA) | government_agency | `ORG-US-NSA` | US | [1](network.md#rel-ws-nsa-osac) |
@@ -520,6 +524,7 @@
 | PineBank (Miami) | commercial_bank | `ORG-US-PINEBANK-MIAMI` | US | [1](network.md#rel-riggs-followup-003) |
 | PMT-Vergabeverfahren 1995/96 | procurement_case | `PRG-CO-PMT-VERGABE-1996` | CO | [7](network.md#rel-mauss-pmt-009) |
 | Polaroid Caribbean Corporation (historisch, 1996) | company | `ORG-INT-POLAROID-CARIBBEAN-1996` |  | [1](network.md#rel-mauss-pmt-015) |
+| Polnische Regierung (Londoner Club 1994) | historical_government | `ORG-PL-REGIERUNG-1994` | PL | [5](network.md#rel-de-herrhausen-fin-011) |
 | Polnische Regierung (Umschuldung 1992) | historical_government | `ORG-PL-REGIERUNG-1992` | PL | [1](network.md#rel-de-herrhausen-fin-007) |
 | Presse- und Informationsamt der Bundesregierung (1953) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1953` | DE | [2](network.md#rel-de-kmm-009) |
 | Presse- und Informationsamt der Bundesregierung (1966) | government_agency | `ORG-DE-BUNDESPRESSEAMT-1966` | DE | [2](network.md#rel-de-bnd-dynamit-004) |
@@ -642,6 +647,7 @@
 | Wehrsportgruppe Hoffmann | paramilitary_extremist_network | `ORG-DE-WSG-HOFFMANN` | DE | [1](network.md#rel-de-okt-001) |
 | Wehrwissenschaftliche Rundschau (1952) | media_outlet | `ORG-DE-WWR-1952` | DE | [2](network.md#rel-de-kmm-006) |
 | Weltbank (Schuldenpolitik 1989) | international_organization | `ORG-INT-WELTBANK-1989` | US | [1](network.md#rel-de-herrhausen-fin-002) |
+| Weltbank / IBRD (Polen 1994) | international_organization | `ORG-INT-IBRD-1994` | US | [2](network.md#rel-de-herrhausen-fin-011) |
 | West-Berliner Landesamt für Verfassungsschutz | intelligence_service | `ORG-DE-BERLIN-VERFASSUNGSSCHUTZ` | DE | [9](network.md#rel-de-urb-001) |
 | Westdeutscher Rundfunk | public_broadcaster | `ORG-DE-WDR` | DE | [2](network.md#rel-de-marienhof-011) |
 | Wielkopolski Bank Kredytowy (1991) | commercial_bank | `ORG-PL-WBK-1991` | PL | [1](network.md#rel-de-herrhausen-fin-008) |

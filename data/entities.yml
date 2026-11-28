@@ -3685,3 +3685,42 @@ entities:
     countries:
     - DE
     notes: Nachfolger Herrhausens als Vorstandssprecher.
+
+  - id: ORG-DE-AUSWAERTIGES-AMT-1986
+    type: government_ministry
+    name: Auswärtiges Amt (Schuldenpolitik 1986)
+    countries:
+    - DE
+    notes: Zeitbezogener Rollenknoten für die Bewertung des Zinsausgleichsfonds; dieselbe Institution wie in anderen historischen
+      Rollen.
+  - id: ORG-INT-IBRD-1994
+    type: international_organization
+    name: Weltbank / IBRD (Polen 1994)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für die DDSR-Finanzierung 1994; institutionelle Kontinuität zur Weltbank 1989.
+  - id: ORG-INT-IMF-1994
+    type: international_organization
+    name: Internationaler Währungsfonds (Polen 1994)
+    countries:
+    - US
+    notes: Zeitbezogener Rollenknoten für die DDSR-Kofinanzierung 1994.
+  - id: ORG-PL-REGIERUNG-1994
+    type: historical_government
+    name: Polnische Regierung (Londoner Club 1994)
+    countries:
+    - PL
+    notes: Zeitbezogener Rollenknoten für die Brady-Restrukturierung; staatliche Kontinuität zum Knoten für 1992.
+  - id: ORG-PL-NBP-1994
+    type: central_bank
+    name: Narodowy Bank Polski (1994)
+    countries:
+    - PL
+    notes: Polnische Zentralbank, dokumentierte Zwischenfinanzierung der DDSR-Operation.
+  - id: ORG-PL-LONDON-CLUB-1994
+    type: historical_commercial_bank_cohort
+    name: 'Londoner Club: private Gläubiger Polens (1994)'
+    countries:
+    - PL
+    notes: Verhandlungskollektiv der privaten Gläubiger; kein eigenständiger globaler Konzern, keine individualisierte Zuordnung
+      der Anleiheoptionen.

@@ -104,3 +104,34 @@ Der Weltbankbestand Q3 enthält ein auf den 21.09.1989 datiertes Memorandum Davi
 
 Q21–24 im PDF-Text geprüft; Faksimileabrufe scheiterten (Cache miss). Q25 im Volltext, Q19/Q26 im Suchindex geprüft. Die Netzwerkzuordnung erfasst konkrete dokumentierte Kontakte, Amtsrollen, Gegenpositionen und Kreditbeziehungen; keinerlei Kante behauptet eine finanzwirtschaftliche Täterschaft.
 
+## Öffentliche Risikoübernahme: Zinsausgleichsfonds 1986 und polnische Brady-Restrukturierung 1994
+
+### Regierungskritik an Herrhausen bereits 1986
+
+AAPD 1986, Dok. 367, Aufzeichnung Jelonek vom 17.12.1986, S. 1911–1913, Abschnitt 2.1 (Q27), dokumentiert Herrhausens bereits mehrfach geäußerten Vorschlag eines gemeinschaftlich finanzierten Zinsausgleichsfonds; zuletzt vor dem DIHT-Weltwirtschaftsforum am 24.10.1986. Regierungen, IWF, Weltbank und Geschäftsbanken sollten Zinsbelastungen oberhalb eines Schwellenwerts (nach Einschätzung des AA etwa 7 Prozent) abfedern. Herrhausen wollte den deutschen Finanzierungsanteil aus Bundesbankgewinnen bestreiten; Zugang sollte wirtschaftspolitisch konditioniert sein. Das AA erwartete Vorteile für Schuldnerländer, beanstandete jedoch eine Verlagerung des Zinsausfallrisikos auf öffentliche Gläubiger und ein bei steigenden Zinsen schwer begrenzbares Nachschussrisiko. Staatssekretär Ruhfus hatte die ablehnende Haltung am 28.02.1986 erläutert. Die Regierung bevorzugte bestehende Instrumente und Eigenleistungen der betroffenen Banken. Die ursprüngliche Rede ist in DIHT (Hrsg.), Freiheit für die Wirtschaft. 125 Jahre DIHT, Bonn 1987, S. 203–212, nachgewiesen (Q27, Fn. 4); noch zu beschaffen. Q27 dokumentiert den Vorschlag und die damalige Regierungsbewertung, nicht die Errichtung eines Fonds. Sie zeigt, dass Herrhausens Position nicht durchgängig eine ausschließliche Belastung privater Gläubiger war.
+
+### Umsetzung des Brady-Modells in Polen
+
+Die IBRD-Vorlage P-6419-POL vom 30.09.1994 (Q28, Abs. 28–34, Tabelle 3, S. 9–12) quantifiziert die geplanten Aufwendungen: ca. 2,086 Mrd. USD, davon 1,329 Mrd. USD für Rückkäufe, 598,8 Mio. USD für Sicherheiten sowie 158 Mio. USD für Zinszahlungen. Die geplante Finanzierung bestand aus jeweils 400 Mio. USD von IBRD und IWF sowie 1,286 Mrd. USD aus eigenen Mitteln (darin 135 Mio. USD von Privatgläubigern für neue Anleihen). Planwerte sind keine abschließend festgestellten Istwerte.
+
+Der Weltbank-Abschlussbericht 15671 vom 31.05.1996 (Q29, Vorwort, Abs. 13–16, 47–50 und Tabelle IV) bestätigt: Kredit 3804-POL am 25.10.1994 über 170 Mio. USD bewilligt, 230 Mio. USD aus drei zuvor zweckgebundenen Anpassungskrediten freigegeben, gesamte 400 Mio. USD bis 02.12.1994 ausgezahlt; gleich hohe IWF-Kofinanzierung. Der IWF-Jahresbericht (Q30) dokumentiert am 26.10.1994 die Genehmigung von zusätzlichen 148,3 Mio. SZR und 135 Mio. SZR freigegebenen Mitteln. Die Weltbank gewährte zudem eine begrenzte Ausnahme von ihren Negativverpfändungsklauseln in Höhe von 623,4 Mio. USD zur Besicherung neuer Anleihen, keine weitere Auszahlung in dieser Höhe. Die polnische Zentralbank überbrückte die verspätete Weltbankauszahlung (Q29, Abs. 47).
+
+Die Umschuldung erfasste nach Q29 etwa 14,43 Mrd. USD. Langfristige Forderungen konnten gegen 30-jährige Anleihen mit 45 Prozent Nennwertabschlag und Marktzins oder gegen Anleihen mit reduziertem Zins zum Nennwert umgetauscht werden; beide Varianten waren hinsichtlich der Kapitalrückzahlung durch US-Nullkupon-Staatsanleihen besichert. Rückkäufe erfolgten zu 41 bzw. 38 Cent pro Dollar je nach Forderungskategorie. Andere Anleihevarianten waren unbesichert (Q29, Tabelle 1). Die Republik Polen bestätigte in ihrem US-Wertpapierprospekt 2003 die Besicherung der Par- und RSTA-Anleihen mit US-Staatsanleihen (Q31). Kein Beleg einer direkten US-Staatsgarantie für Polens gesamte Schulden.
+
+Die Weltbank erklärte in Q29, Abs. 49, ausdrücklich, dass die Restrukturierung einen Teil der Belastung von Privatgläubigern auf öffentliche Gläubiger verlagert und die Flexibilität der Schuldenstruktur vermindert. Sie schätzte zugleich (Abs. 50) Polens Anteil an den durch die geringere Risikoprämie entstehenden Vorteilen auf knapp drei Fünftel. Das ist eine institutionelle Modellrechnung, kein unabhängiger Nachweis der Gewinne einzelner Institute. Der IWF bestätigt rückblickend (Q32) 14,4 Mrd. USD restrukturierte Forderungen und 1,9 Mrd. USD Vorlaufkosten. Kredit, Garantie, Sicherheit, nominaler Verzicht und endgültiger öffentlicher Verlust bleiben zu unterscheiden. Die These einer vollständigen Sozialisierung der Verluste folgt aus diesen Daten nicht.
+
+### Konsequenzen für die Motivhypothese
+
+Herrhausens Zinsausgleichsfonds von 1986 und die vorgeschlagene steuerlich begünstigte Risikovorsorge 1989 machen öffentliche Unterstützung zu einer Gemeinsamkeit, nicht zum eindeutigen Gegensatz zwischen ihm und späterer Brady-Politik. Der entscheidende Unterschied bleibt die 1989 von der Weltbank beschriebene allgemeine, koordinierte Lastenteilung gegenüber freiwilligen, länderspezifischen Instrumenten. Tatsächliche bankindividuelle Gewinne, Verluste und politische Einflussnahme erfordern die Kreditbestands- und Rückkaufabrechnungen sowie die Ausschussprotokolle der Gläubiger. Keine der neuen Quellen verbindet diese wirtschaftspolitischen Entscheidungen mit der Ermordung.
+
+### Ergänzende Quellen
+
+- Q27 / SRC-DE-AAPD-HERRHAUSEN-ZINS-1986: [AAPD 1986, Dok. 367, Aufzeichnung Jelonek, 17.12.1986](https://www.degruyterbrill.com/document/doi/10.1515/9783110490077-015/pdf?licenseType=open-access), S. 1911–1913, Abschnitt 2.1, Fn. 4.
+- Q28 / SRC-INT-IBRD-POL-DDSR-1994: [World Bank, Report P-6419-POL, 30.09.1994](https://documents1.worldbank.org/curated/en/606891468332361087/pdf/multi0page.pdf), Abs. 28–34, Tabelle 3.
+- Q29 / SRC-INT-IBRD-POL-DDSR-ICR-1996: [World Bank, Implementation Completion Report 15671, 31.05.1996](https://documents1.worldbank.org/curated/en/541151468094753637/pdf/multi0page.pdf), Vorwort, Abs. 13–16, 47–50, Tabellen 1 und IV.
+- Q30 / SRC-INT-IMF-POL-DDSR-1995: [IMF Annual Report 1995, Fund Support for Member Countries](https://www.elibrary.imf.org/display/book/9781451944990/ch010.xml), Poland, Genehmigung 26.10.1994; ergänzend [IMF-Archiv, Ref. 412679](https://archivescatalog.imf.org/Details/archive/125114489).
+- Q31 / SRC-PL-SEC-BRADY-2003: [Republic of Poland, SEC Prospectus 2003](https://www.sec.gov/Archives/edgar/data/79312/000119312503066700/d424b5.htm), External Debt und Besicherungsbedingungen.
+- Q32 / SRC-INT-IMF-DDSR-2021: [IMF, Fund Staff Re-Examine the Case for Using Financial Incentives in Support of Debt Restructuring Operations, 2021](https://www.elibrary.imf.org/view/journals/007/2021/018/article-A001-en.xml), Poland, Rückblick auf 1994.
+
+Q27–29 im durchsuchbaren PDF-Text geprüft; Faksimileabrufe scheiterten (Cache miss). Q30/Q32 im Suchindex geprüft, Q31 im HTML-Text.
+

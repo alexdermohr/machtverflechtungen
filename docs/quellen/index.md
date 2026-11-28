@@ -1,6 +1,6 @@
 # Quellenkatalog
 
-**589 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
+**595 registrierte Quellen** · Originaldokumente und Forschung mit stabiler Kennung, direktem Link und genauer Fundstelle.
 
 <div id="mv-source-browser"></div>
 
@@ -8,7 +8,7 @@ Schnelleinstieg: [Originaldokumente & amtliche Quellen](#originalquellen) · [Fo
 
 ## Originaldokumente & amtliche Quellen { #originalquellen }
 
-**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-de-amri-mv-kommission-2021) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
+**Institutionen A–Z:** [A](#src-de-berlin-ua-schmuecker-1990) · [B](#src-it-p2-banca-italia-siegenthaler-1978) · [C](#src-it-p2-anselmi-report-1984) · [D](#src-de-bt-bdj-19521023) · [E](#src-de-frak-bdj-19521021) · [F](#src-us-fincen-riggs-cmp-20040513) · [G](#src-de-amri-gba-mat-a-gba4) · [H](#src-de-hh-cumex-pua-2024) · [I](#src-int-imf-pol-ddsr-1995) · [J](#src-de-jhs-newbridge-2026) · [K](#src-de-kgparl-cdu-adk-19670606) · [L](#src-de-amri-mv-lverfg-725) · [M](#src-us-mcd-gwf-2024) · [N](#src-ws-nsa-library) · [O](#src-de-olg-hamm-mauss-143-2024) · [P](#src-co-pa-x-frieden-1998) · [R](#src-co-rnec-vertrag197-2005) · [S](#src-fr-safran-advent-2017) · [T](#src-gb-bilderberg-charity-accounts-2015) · [U](#src-us-army-titan-2024) · [V](#src-ulf-sec-2005) · [W](#src-ws-clinton-saudi-1994) · [Z](#src-de-zeitst-pechel-bucerius-1992)
 
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1990">
 
@@ -559,6 +559,21 @@ Auswärtiges Amt / deutsche Auslandsvertretungen in den USA · unbekannt · Stuf
 [Seite öffnen](https://www.germany.info/us-en/welcome/erp-transatlanticencounters-1306042)
 
 Fundstelle: Finanzierung aus ERP-Sondervermögen des Wirtschaftsministeriums; Zielsetzungen Förderung von Kultur/Bildung/Wirtschaft, Multiplikatoren und öffentlicher Meinungsbildung; keine 2018/19er Einzelbewilligungsakte
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1986">
+
+<a id="src-de-aapd-herrhausen-zins-1986"></a>
+### Auswärtiges Amt / Institut für Zeitgeschichte
+
+**[Aufzeichnung Jelonek, AAPD 1986 Dok. 367](https://www.degruyterbrill.com/document/doi/10.1515/9783110490077-015/pdf?licenseType=open-access)**
+
+Auswärtiges Amt / Institut für Zeitgeschichte · 1986-12-17 · Stufe **A** · Primärquelle · `SRC-DE-AAPD-HERRHAUSEN-ZINS-1986`
+
+[Seite öffnen](https://www.degruyterbrill.com/document/doi/10.1515/9783110490077-015/pdf?licenseType=open-access)
+
+Fundstelle: S. 1911–1913, Abschnitt 2.1, Fn. 4
 
 </article>
 
@@ -3755,6 +3770,21 @@ Fundstelle: Gerichtsbeschluss S. 12850–12852, Ablehnung Vernehmung Eimecke, Li
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1995">
+
+<a id="src-int-imf-pol-ddsr-1995"></a>
+### IMF
+
+**[Fund Support for Member Countries, Annual Report 1995](https://www.elibrary.imf.org/display/book/9781451944990/ch010.xml)**
+
+IMF · 1995 · Stufe **A** · Primärquelle · `SRC-INT-IMF-POL-DDSR-1995`
+
+[Seite öffnen](https://www.elibrary.imf.org/display/book/9781451944990/ch010.xml)
+
+Fundstelle: Poland, Beschluss vom 26.10.1994
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2021">
 
 <a id="src-de-amri-mv-kommission-2021"></a>
@@ -4530,6 +4560,21 @@ Registraduría Nacional del Estado Civil · 2020 · Stufe **A** · Primärquelle
 [PDF öffnen](https://img.lalr.co/cms/2020/10/30182214/ACTO-ADMINISTRATIVO.pdf)
 
 Fundstelle: S. 2–6
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="2003">
+
+<a id="src-pl-sec-brady-2003"></a>
+### Republic of Poland / SEC
+
+**[Republic of Poland, Prospectus](https://www.sec.gov/Archives/edgar/data/79312/000119312503066700/d424b5.htm)**
+
+Republic of Poland / SEC · 2003 · Stufe **A** · Primärquelle · `SRC-PL-SEC-BRADY-2003`
+
+[Seite öffnen](https://www.sec.gov/Archives/edgar/data/79312/000119312503066700/d424b5.htm)
+
+Fundstelle: External Debt; negative pledge exceptions for Par and RSTA bonds
 
 </article>
 
@@ -7098,6 +7143,36 @@ Fundstelle: Gedruckte S. 305: angekündigte Boeing/McDonnell-Douglas-Beschaffung
 
 </article>
 
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1994">
+
+<a id="src-int-ibrd-pol-ddsr-1994"></a>
+### World Bank / IBRD
+
+**[Report P-6419-POL, Proposed Debt and Debt Service Reduction Loan](https://documents1.worldbank.org/curated/en/606891468332361087/pdf/multi0page.pdf)**
+
+World Bank / IBRD · 1994-09-30 · Stufe **A** · Primärquelle · `SRC-INT-IBRD-POL-DDSR-1994`
+
+[PDF öffnen](https://documents1.worldbank.org/curated/en/606891468332361087/pdf/multi0page.pdf)
+
+Fundstelle: Abs. 28–34, Tabelle 3, S. 9–12
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1996">
+
+<a id="src-int-ibrd-pol-ddsr-icr-1996"></a>
+### World Bank / IBRD
+
+**[Implementation Completion Report 15671, Loan 3804-POL](https://documents1.worldbank.org/curated/en/541151468094753637/pdf/multi0page.pdf)**
+
+World Bank / IBRD · 1996-05-31 · Stufe **A** · Primärquelle · `SRC-INT-IBRD-POL-DDSR-ICR-1996`
+
+[PDF öffnen](https://documents1.worldbank.org/curated/en/541151468094753637/pdf/multi0page.pdf)
+
+Fundstelle: Vorwort, Abs. 13–16, 47–50, Tabellen 1 und IV
+
+</article>
+
 <article class="mv-source-entry" markdown="1" data-source-kind="primary" data-source-tier="A" data-source-year="1989">
 
 <a id="src-int-wb-herrhausen-1989"></a>
@@ -8072,6 +8147,21 @@ ICIJ · 2016 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-ICIJ-TRANSACT
 [Seite öffnen](https://offshoreleaks.icij.org/nodes/10044038)
 
 Fundstelle: Gründung 1985-11-06; Agent
+
+</article>
+
+<article class="mv-source-entry" markdown="1" data-source-kind="research" data-source-tier="B" data-source-year="2021">
+
+<a id="src-int-imf-ddsr-2021"></a>
+### IMF
+
+**[Fund Staff Re-Examine the Case for Using Financial Incentives in Support of Debt Restructuring Operations](https://www.elibrary.imf.org/view/journals/007/2021/018/article-A001-en.xml)**
+
+IMF · 2021 · Stufe **B** · Sekundär-/Forschungsquelle · `SRC-INT-IMF-DDSR-2021`
+
+[Seite öffnen](https://www.elibrary.imf.org/view/journals/007/2021/018/article-A001-en.xml)
+
+Fundstelle: Poland, retrospective assessment of DDSRO
 
 </article>
 

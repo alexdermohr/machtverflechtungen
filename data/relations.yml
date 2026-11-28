@@ -8193,3 +8193,71 @@ relations:
     evidence_level: strong
     period:
       start: '1989'
+
+  - id: REL-DE-HERRHAUSEN-FIN-010
+    from: ORG-DE-AUSWAERTIGES-AMT-1986
+    to: PER-DE-ALFRED-HERRHAUSEN
+    type: documented_political_credit_policy_position
+    label: 'AAPD Dok. 367: Staatssekretär Ruhfus erläuterte am 28.02.1986 die ablehnende Regierungsposition zum Zinsausgleichsfonds;
+      AA kritisierte Verlagerung des Zinsausfallrisikos.'
+    sources:
+    - SRC-DE-AAPD-HERRHAUSEN-ZINS-1986
+    evidence_level: established
+    period:
+      start: '1986-02-28'
+  - id: REL-DE-HERRHAUSEN-FIN-011
+    from: ORG-INT-IBRD-1994
+    to: ORG-PL-REGIERUNG-1994
+    type: documented_historical_creditor_relationship
+    label: 'ICR 15671: 170 Mio. USD neuer Kredit und 230 Mio. USD freigegebene Kreditmittel; insgesamt bis 02.12.1994 ausgezahlt.'
+    sources:
+    - SRC-INT-IBRD-POL-DDSR-ICR-1996
+    - SRC-INT-IBRD-POL-DDSR-1994
+    evidence_level: established
+    period:
+      start: '1994'
+  - id: REL-DE-HERRHAUSEN-FIN-012
+    from: ORG-INT-IMF-1994
+    to: ORG-PL-REGIERUNG-1994
+    type: documented_historical_creditor_relationship
+    label: 'IWF-Beschluss 26.10.1994: 148,3 Mio. SZR Aufstockung und 135 Mio. SZR Freigabe; Weltbank-Abschlussbericht bestätigt
+      Kofinanzierung in gleicher Höhe wie IBRD.'
+    sources:
+    - SRC-INT-IMF-POL-DDSR-1995
+    - SRC-INT-IBRD-POL-DDSR-ICR-1996
+    evidence_level: established
+    period:
+      start: '1994-10-26'
+  - id: REL-DE-HERRHAUSEN-FIN-013
+    from: ORG-PL-NBP-1994
+    to: ORG-PL-REGIERUNG-1994
+    type: documented_historical_creditor_relationship
+    label: 'ICR Abs. 47: polnische Zentralbank stellte Zwischenfinanzierung bereit, bis Weltbankmittel ausgezahlt werden konnten.'
+    sources:
+    - SRC-INT-IBRD-POL-DDSR-ICR-1996
+    evidence_level: established
+    period:
+      start: '1994'
+  - id: REL-DE-HERRHAUSEN-FIN-014
+    from: ORG-PL-REGIERUNG-1994
+    to: ORG-PL-LONDON-CLUB-1994
+    type: documented_private_debt_rescheduling_decision
+    label: DDSR-Abkommen 1994, ca. 14,43 Mrd. USD Forderungen; Rückkäufe und Anleiheumtausch, teilweise US-Treasury-Besicherung;
+      individuelle Gläubigerbeträge offen.
+    sources:
+    - SRC-INT-IBRD-POL-DDSR-ICR-1996
+    - SRC-PL-SEC-BRADY-2003
+    evidence_level: established
+    period:
+      start: '1994'
+  - id: REL-DE-HERRHAUSEN-FIN-015
+    from: ORG-INT-IBRD-1994
+    to: ORG-PL-REGIERUNG-1994
+    type: documented_legal_obligation
+    label: 'ICR Vorwort: begrenzte Freigabe von Negativverpfändungsklauseln im Umfang von 623,4 Mio. USD zur Besicherung neuer
+      Anleihen; kein zusätzlicher Kredit.'
+    sources:
+    - SRC-INT-IBRD-POL-DDSR-ICR-1996
+    evidence_level: established
+    period:
+      start: '1994'

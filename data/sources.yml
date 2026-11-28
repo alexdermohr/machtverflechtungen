@@ -6684,3 +6684,71 @@ sources:
   locator: WBK-Kreditlinie Mai 1991
   notes: Institutionelle Rückschau im Suchindex.
   accessed: '2026-11-28'
+
+- id: SRC-DE-AAPD-HERRHAUSEN-ZINS-1986
+  title: Aufzeichnung Jelonek, AAPD 1986 Dok. 367
+  institution: Auswärtiges Amt / Institut für Zeitgeschichte
+  date: '1986-12-17'
+  type: official_record_critical_edition
+  primary: true
+  tier: A
+  url: https://www.degruyterbrill.com/document/doi/10.1515/9783110490077-015/pdf?licenseType=open-access
+  locator: S. 1911–1913, Abschnitt 2.1, Fn. 4
+  notes: Dokumentiert Vorschlag und Regierungsbewertung, nicht Umsetzung; PDF-Text geprüft, Faksimile Cache miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IBRD-POL-DDSR-1994
+  title: Report P-6419-POL, Proposed Debt and Debt Service Reduction Loan
+  institution: World Bank / IBRD
+  date: '1994-09-30'
+  type: original_official_document
+  primary: true
+  tier: A
+  url: https://documents1.worldbank.org/curated/en/606891468332361087/pdf/multi0page.pdf
+  locator: Abs. 28–34, Tabelle 3, S. 9–12
+  notes: Planwerte, nicht Istwerte; PDF-Text geprüft, Faksimile Cache miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IBRD-POL-DDSR-ICR-1996
+  title: Implementation Completion Report 15671, Loan 3804-POL
+  institution: World Bank / IBRD
+  date: '1996-05-31'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://documents1.worldbank.org/curated/en/541151468094753637/pdf/multi0page.pdf
+  locator: Vorwort, Abs. 13–16, 47–50, Tabellen 1 und IV
+  notes: Abschlussbericht mit Auszahlungsnachweis und institutioneller Nutzenbewertung; PDF-Text geprüft, Faksimile Cache
+    miss.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-POL-DDSR-1995
+  title: Fund Support for Member Countries, Annual Report 1995
+  institution: IMF
+  date: '1995'
+  type: official_report
+  primary: true
+  tier: A
+  url: https://www.elibrary.imf.org/display/book/9781451944990/ch010.xml
+  locator: Poland, Beschluss vom 26.10.1994
+  notes: Suchindextext; genehmigte Beträge in SZR.
+  accessed: '2026-11-28'
+- id: SRC-PL-SEC-BRADY-2003
+  title: Republic of Poland, Prospectus
+  institution: Republic of Poland / SEC
+  date: '2003'
+  type: securities_prospectus
+  primary: true
+  tier: A
+  url: https://www.sec.gov/Archives/edgar/data/79312/000119312503066700/d424b5.htm
+  locator: External Debt; negative pledge exceptions for Par and RSTA bonds
+  notes: Staatliche Angaben im veröffentlichten Wertpapierprospekt; HTML-Text geprüft.
+  accessed: '2026-11-28'
+- id: SRC-INT-IMF-DDSR-2021
+  title: Fund Staff Re-Examine the Case for Using Financial Incentives in Support of Debt Restructuring Operations
+  institution: IMF
+  date: '2021'
+  type: official_report
+  primary: false
+  tier: B
+  url: https://www.elibrary.imf.org/view/journals/007/2021/018/article-A001-en.xml
+  locator: Poland, retrospective assessment of DDSRO
+  notes: Retrospektive institutionelle Analyse, Suchindextext.
+  accessed: '2026-11-28'
